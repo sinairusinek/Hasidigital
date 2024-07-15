@@ -11,105 +11,278 @@
          <publicationStmt>
             <p>Publication Information</p>
          </publicationStmt>
-         <sourceDesc><listPerson><person xml:id="H_Besht">הבעל שם טוב</person><person xml:id="Abraham">אברהם אבינו</person></listPerson>
+         <sourceDesc>
+            <listPerson>
+               <person xml:id="H_Besht">
+                  <name>הבעל שם טוב</name>
+               </person>
+               <person xml:id="H_Abraham">
+                  <name>אברהם אבינו</name>
+               </person>
+            </listPerson>
             <listPlace>
-            <place xml:id="K_18725"><name>Raszków ;Kalisz, Poland</name></place>
-            <place xml:id="K_1721"><name>Polonne ;Ukraine</name></place>
-            <place xml:id="K_677"><name>Brody ;Ukraine</name></place>
-            <place xml:id="K_17325"><name>Medz︠h︡ybiz︠h︡ ;Ukraine</name></place>
-            <place xml:id="K_350"><name>Bila T︠S︡erkva ;Ukraine</name></place>
-            <place xml:id="K_571"><name>Berdychiv ;Ukraine</name></place>
-            <place xml:id="K_22142"><name>Kuty ;Ukraine</name></place>
-            <place xml:id="K_633"><name>Ostroh ;Ukraine</name></place>
-            
-            <place xml:id="K_951"><name>Wrocław ;Poland</name></place>
-            <place xml:id="K_17099"><name>Crimea ;Ukraine</name></place>
-            <place xml:id="K_17407"><name>Lwow ;Poland : Voivodeship</name></place>
-            <place xml:id="K_7313"><name>Poland</name></place>	
-            <place xml:id="K_10965"><name>Mahili︠o︡ŭ ;Belarus</name></place>
-            <place xml:id="K_691"><name>Jerusalem ;Israel</name></place>
-            <place xml:id="K_19248"><name>Bar ;Vinnyt︠s︡ʹka oblastʹ, Ukraine</name></place>
-            
-            <place xml:id="K_377"><name>Tsefat ;Israel</name></place>
-            <place xml:id="K_722"><name>Chmielnik ;Poland</name></place>
-            <place xml:id="K_15851"><name>Izi︠a︡slav ;Ukraine</name></place>
-            <place xml:id="K_550"><name>Amsterdam ;Netherlands</name></place>
-            <place xml:id="K_994"><name>Hamburg ;Germany</name></place>
-            <place xml:id="K_26083"><name>Kremenet︠s︡ʹkyĭ raĭon ;Ukraine</name></place>
-            <place xml:id="K_1728"><name>Rivne ;Rivnensʹka oblastʹ, Ukraine</name></place>
-            <place xml:id="K_18583"><name>Mikulov ;Jihomoravský kraj, Czech Republic</name></place>
-            <place xml:id="K_23857"><name>Illintsi ;Ukraine</name></place>
-            <place xml:id="K_23968"><name>Lechów ;Poland</name></place>
-            <place xml:id="K_1703"><name>Z︠H︡ovkva ;Ukraine</name></place>
-            <place xml:id="K_166"><name>Lʹviv ;Ukraine</name></place>
-            <place xml:id="K_1645"><name>Olyka ;Ukraine</name></place>
-            <place xml:id="K_1683"><name>Linz ;Austria</name></place>
-            <place xml:id="K_882"><name>Hrodna ;Belarus</name></place>
-            <place xml:id="K_1724"><name>Radyvyliv ;Ukraine</name></place>
-            <place xml:id="K_436"><name>Kalisz ;Poland</name></place>
-            <place xml:id="K_71"><name>Acre ;Israel</name></place>
-            <place xml:id="K_23166"><name>Toczek ;Poland</name></place>
-            <place xml:id="K_104"><name>Slutsk ;Belarus</name></place>
-            <place xml:id="K_102"><name>Slonim ;Belarus</name></place>
-            <place xml:id="K_16594"><name>Nové Mesto nad Váhom ;Slovakia</name></place>
-            <place xml:id="K_533"><name>Istanbul ;Turkey</name></place>
-            <place xml:id="K_20961"><name>Lenino ;Mahili︠o︡ŭskai︠a︡ voblastsʹ, Belarus</name></place>
-            <place xml:id="K_765"><name>Tarnów ;Poland</name></place>
-            <place xml:id="K_574"><name>Bratislava ;Slovakia</name></place>
-            <place xml:id="K_11264"><name>Chełm ;Lublin, Poland</name></place>
-            <place xml:id="K_12663"><name>Kępno ;Poland</name></place>
-            <place xml:id="K_895"><name>Dubno ;Ukraine</name></place>
-            <place xml:id="K_420"><name>Frysztak ;Poland</name></place>
-            <place xml:id="K_12414"><name>Sambir ;Sambirsʹkyĭ raĭon, Ukraine</name></place>
-            <place xml:id="K_900"><name>Dukla ;Poland</name></place>
-            <place xml:id="K_334"><name>Humenné ;Slovakia</name></place>
-            <place xml:id="K_2372"><name>Transylvania ;Romania</name></place>
-            <place xml:id="K_11063"><name>Dynów ;Poland</name></place>
-            <place xml:id="K_17046"><name>Żmigród ;Poland</name></place>
-            <place xml:id="K_1156"><name>Karmel, Mount ;Israel</name></place>
-            <place xml:id="K_489"><name>Krakow ;Poland</name></place>
-            <place xml:id="K_945"><name>Vienna ;Austria</name></place>
-            <place xml:id="K_656"><name>Bucharest ;Romania</name></place>
-            <place xml:id="K_12284"><name>Sátoraljaújhely ;Hungary</name></place>
-            <place xml:id="K_648"><name>Płońsk ;Poland</name></place>
-            <place xml:id="K_902"><name>Dej ;Romania</name></place>
-            <place xml:id="K_360"><name>Buchach ;Ukraine</name></place>
-            <place xml:id="K_23615"><name>Zhydachiv ;Ukraine</name></place>
-            <place xml:id="K_17845"><name>Tarnobrzeg ;Poland</name></place>
-            <place xml:id="K_527"><name>Bielsko-Biała ;Poland</name></place>
-            <place xml:id="K_18259"><name>Przysucha ;Poland</name></place>
-            <place xml:id="K_16905"><name>Strzyżów ;Rzeszów, Poland</name></place>
-            <place xml:id="K_1718"><name>Uz︠h︡horod ;Ukraine</name></place>
-            <place xml:id="K_22194"><name>Khyriv ;Ukraine</name></place>
-            <place xml:id="K_740"><name>Odesa ;Ukraine</name></place>
-            <place xml:id="K_9622"><name>Galați ;Romania : Județ</name></place>
-           
-            <place xml:id="K_807"><name>Tiberias ;Israel</name></place>
-            <place xml:id="K_16674"><name>Khotyn ;Ukraine</name></place>
-            <place xml:id="K_629"><name>Jaffa ;Tel Aviv-Yafo, Israel</name></place>
-            <place xml:id="K_791"><name>Haifa ;Israel</name></place>
-            <place xml:id="K_26255"><name>Elijah's Cave ;Haifa, Israel</name></place>
-           
-            <place xml:id="K_669"><name>Iași ;Romania</name></place>
-            <place xml:id="K_920"><name>Gdańsk ;Poland</name></place>
-            <place xml:id="K_943"><name>Vilnius ;Lithuania</name></place>
-            <place xml:id="K_513"><name>Budapest ;Hungary</name></place>
-            <place xml:id="K_10484"><name>Karlin ;Belarus</name></place></listPlace>
+               <place xml:id="K_18725">
+                  <name>Raszków ;Kalisz, Poland</name>
+               </place>
+               <place xml:id="K_1721">
+                  <name>Polonne ;Ukraine</name>
+               </place>
+               <place xml:id="K_677">
+                  <name>Brody ;Ukraine</name>
+               </place>
+               <place xml:id="K_17325">
+                  <name>Medz︠h︡ybiz︠h︡ ;Ukraine</name>
+               </place>
+               <place xml:id="K_350">
+                  <name>Bila T︠S︡erkva ;Ukraine</name>
+               </place>
+               <place xml:id="K_571">
+                  <name>Berdychiv ;Ukraine</name>
+               </place>
+               <place xml:id="K_22142">
+                  <name>Kuty ;Ukraine</name>
+               </place>
+               <place xml:id="K_633">
+                  <name>Ostroh ;Ukraine</name>
+               </place>
+
+               <place xml:id="K_951">
+                  <name>Wrocław ;Poland</name>
+               </place>
+               <place xml:id="K_17099">
+                  <name>Crimea ;Ukraine</name>
+               </place>
+               <place xml:id="K_17407">
+                  <name>Lwow ;Poland : Voivodeship</name>
+               </place>
+               <place xml:id="K_7313">
+                  <name>Poland</name>
+               </place>
+               <place xml:id="K_10965">
+                  <name>Mahili︠o︡ŭ ;Belarus</name>
+               </place>
+               <place xml:id="K_691">
+                  <name>Jerusalem ;Israel</name>
+               </place>
+               <place xml:id="K_19248">
+                  <name>Bar ;Vinnyt︠s︡ʹka oblastʹ, Ukraine</name>
+               </place>
+
+               <place xml:id="K_377">
+                  <name>Tsefat ;Israel</name>
+               </place>
+               <place xml:id="K_722">
+                  <name>Chmielnik ;Poland</name>
+               </place>
+               <place xml:id="K_15851">
+                  <name>Izi︠a︡slav ;Ukraine</name>
+               </place>
+               <place xml:id="K_550">
+                  <name>Amsterdam ;Netherlands</name>
+               </place>
+               <place xml:id="K_994">
+                  <name>Hamburg ;Germany</name>
+               </place>
+               <place xml:id="K_26083">
+                  <name>Kremenet︠s︡ʹkyĭ raĭon ;Ukraine</name>
+               </place>
+               <place xml:id="K_1728">
+                  <name>Rivne ;Rivnensʹka oblastʹ, Ukraine</name>
+               </place>
+               <place xml:id="K_18583">
+                  <name>Mikulov ;Jihomoravský kraj, Czech Republic</name>
+               </place>
+               <place xml:id="K_23857">
+                  <name>Illintsi ;Ukraine</name>
+               </place>
+               <place xml:id="K_23968">
+                  <name>Lechów ;Poland</name>
+               </place>
+               <place xml:id="K_1703">
+                  <name>Z︠H︡ovkva ;Ukraine</name>
+               </place>
+               <place xml:id="K_166">
+                  <name>Lʹviv ;Ukraine</name>
+               </place>
+               <place xml:id="K_1645">
+                  <name>Olyka ;Ukraine</name>
+               </place>
+               <place xml:id="K_1683">
+                  <name>Linz ;Austria</name>
+               </place>
+               <place xml:id="K_882">
+                  <name>Hrodna ;Belarus</name>
+               </place>
+               <place xml:id="K_1724">
+                  <name>Radyvyliv ;Ukraine</name>
+               </place>
+               <place xml:id="K_436">
+                  <name>Kalisz ;Poland</name>
+               </place>
+               <place xml:id="K_71">
+                  <name>Acre ;Israel</name>
+               </place>
+               <place xml:id="K_23166">
+                  <name>Toczek ;Poland</name>
+               </place>
+               <place xml:id="K_104">
+                  <name>Slutsk ;Belarus</name>
+               </place>
+               <place xml:id="K_102">
+                  <name>Slonim ;Belarus</name>
+               </place>
+               <place xml:id="K_16594">
+                  <name>Nové Mesto nad Váhom ;Slovakia</name>
+               </place>
+               <place xml:id="K_533">
+                  <name>Istanbul ;Turkey</name>
+               </place>
+               <place xml:id="K_20961">
+                  <name>Lenino ;Mahili︠o︡ŭskai︠a︡ voblastsʹ, Belarus</name>
+               </place>
+               <place xml:id="K_765">
+                  <name>Tarnów ;Poland</name>
+               </place>
+               <place xml:id="K_574">
+                  <name>Bratislava ;Slovakia</name>
+               </place>
+               <place xml:id="K_11264">
+                  <name>Chełm ;Lublin, Poland</name>
+               </place>
+               <place xml:id="K_12663">
+                  <name>Kępno ;Poland</name>
+               </place>
+               <place xml:id="K_895">
+                  <name>Dubno ;Ukraine</name>
+               </place>
+               <place xml:id="K_420">
+                  <name>Frysztak ;Poland</name>
+               </place>
+               <place xml:id="K_12414">
+                  <name>Sambir ;Sambirsʹkyĭ raĭon, Ukraine</name>
+               </place>
+               <place xml:id="K_900">
+                  <name>Dukla ;Poland</name>
+               </place>
+               <place xml:id="K_334">
+                  <name>Humenné ;Slovakia</name>
+               </place>
+               <place xml:id="K_2372">
+                  <name>Transylvania ;Romania</name>
+               </place>
+               <place xml:id="K_11063">
+                  <name>Dynów ;Poland</name>
+               </place>
+               <place xml:id="K_17046">
+                  <name>Żmigród ;Poland</name>
+               </place>
+               <place xml:id="K_1156">
+                  <name>Karmel, Mount ;Israel</name>
+               </place>
+               <place xml:id="K_489">
+                  <name>Krakow ;Poland</name>
+               </place>
+               <place xml:id="K_945">
+                  <name>Vienna ;Austria</name>
+               </place>
+               <place xml:id="K_656">
+                  <name>Bucharest ;Romania</name>
+               </place>
+               <place xml:id="K_12284">
+                  <name>Sátoraljaújhely ;Hungary</name>
+               </place>
+               <place xml:id="K_648">
+                  <name>Płońsk ;Poland</name>
+               </place>
+               <place xml:id="K_902">
+                  <name>Dej ;Romania</name>
+               </place>
+               <place xml:id="K_360">
+                  <name>Buchach ;Ukraine</name>
+               </place>
+               <place xml:id="K_23615">
+                  <name>Zhydachiv ;Ukraine</name>
+               </place>
+               <place xml:id="K_17845">
+                  <name>Tarnobrzeg ;Poland</name>
+               </place>
+               <place xml:id="K_527">
+                  <name>Bielsko-Biała ;Poland</name>
+               </place>
+               <place xml:id="K_18259">
+                  <name>Przysucha ;Poland</name>
+               </place>
+               <place xml:id="K_16905">
+                  <name>Strzyżów ;Rzeszów, Poland</name>
+               </place>
+               <place xml:id="K_1718">
+                  <name>Uz︠h︡horod ;Ukraine</name>
+               </place>
+               <place xml:id="K_22194">
+                  <name>Khyriv ;Ukraine</name>
+               </place>
+               <place xml:id="K_740">
+                  <name>Odesa ;Ukraine</name>
+               </place>
+               <place xml:id="K_9622">
+                  <name>Galați ;Romania : Județ</name>
+               </place>
+
+               <place xml:id="K_807">
+                  <name>Tiberias ;Israel</name>
+               </place>
+               <place xml:id="K_16674">
+                  <name>Khotyn ;Ukraine</name>
+               </place>
+               <place xml:id="K_629">
+                  <name>Jaffa ;Tel Aviv-Yafo, Israel</name>
+               </place>
+               <place xml:id="K_791">
+                  <name>Haifa ;Israel</name>
+               </place>
+               <place xml:id="K_26255">
+                  <name>Elijah's Cave ;Haifa, Israel</name>
+               </place>
+
+               <place xml:id="K_669">
+                  <name>Iași ;Romania</name>
+               </place>
+               <place xml:id="K_920">
+                  <name>Gdańsk ;Poland</name>
+               </place>
+               <place xml:id="K_943">
+                  <name>Vilnius ;Lithuania</name>
+               </place>
+               <place xml:id="K_513">
+                  <name>Budapest ;Hungary</name>
+               </place>
+               <place xml:id="K_10484">
+                  <name>Karlin ;Belarus</name>
+               </place>
+            </listPlace>
+            <listRelation>
+               <relation name="topic-in-stories" active="#perception"
+                  passive="#Mifalot-HaZadikim_0001 #Mifalot-HaZadikim_0003 #Mifalot-HaZadikim_0008 #Mifalot-HaZadikim_0013 #Khal-Hasidim_1 #Khal-Hasidim_4 #Khal-Hasidim_6 #Khal-Hasidim_11"
+               />
+               <relation name="topic-in-stories" active="#perception"
+                  passive="#Khal-Hasidim_1 #Khal-Hasidim_2 #Khal-Hasidim_14 #Mifalot-HaZadikim_0012 #Mifalot-HaZadikim_0017"
+               />
+            </listRelation>
          </sourceDesc>
       </fileDesc>
       <profileDesc>
          <textClass>
             <keywords>
-               <term ana="supernatural">prognostication</term>
-               <term ana="supernatural">perception</term>
-               <term ana="times">historical_event</term>
-               <term ana="practice">the_travels_of_the_tsaddik</term>
-               <term ana="women">major_character</term>
-               <term ana="characters-and-roles">agunah</term>
-               <term ana="practice">releasing_agunot</term>
-               <term ana="ethics-and-emotions">repentance</term>
-               <term ana="social-relations">divorce</term>
-               <term ana="social-relations">converts_and_conversion</term>
+               <term xml:id="prognostication" ana="supernatural"/>
+               <term xml:id="perception" ana="supernatural"/>
+               <term xml:id="historical_event" ana="times"/>
+               <term xml:id="the_travels_of_the_tsaddik" ana="practice"/>
+               <term xml:id="major_character" ana="women"/>
+               <term xml:id="agunah" ana="characters-and-roles"/>
+               <term xml:id="releasing_agunot" ana="practice"/>
+               <term xml:id="repentance" ana="ethics-and-emotions"/>
+               <term xml:id="divorce" ana="social-relations"/>
+               <term xml:id="converts_and_conversion" ana="social-relations"/>
             </keywords>
          </textClass>
       </profileDesc>
