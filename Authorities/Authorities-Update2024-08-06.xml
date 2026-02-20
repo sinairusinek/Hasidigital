@@ -1,0 +1,1901 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="http://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<?xml-model href="http://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng" type="application/xml"
+	schematypens="http://purl.oclc.org/dsdl/schematron"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
+      <teiHeader>
+            <fileDesc>
+                  <titleStmt>
+                        <title>Title</title>
+                  </titleStmt>
+                  <publicationStmt>
+                        <p>Publication Information</p>
+                  </publicationStmt>
+                  <sourceDesc>
+                        <listPerson>
+                              
+                              <person xml:id="H_Abraham">
+                                    <name>Abraham (the Patriarch)</name><idno type="Wikidata">https://www.wikidata.org/wiki/Q9181</idno>
+                              </person>
+                              <person xml:id="Tsadik_012.124">
+                                    <name>Aharon Doktor Gordiai</name>
+                               <idno type="tsadikim"
+                                       >https://tsadikim.uwr.edu.pl/record/012.124</idno>
+                              </person>
+                              <person xml:id="Tsadik_046.001">
+                                    <name>Aharon ha-levi Horowitz</name>
+                                    <idno type="tsadikim"
+                                          >https://tsadikim.uwr.edu.pl/record/046.001</idno>
+                              </person>
+                              <person xml:id="Tsadik_012.366">
+                                    <name>Aharon Moshe mi-geza Tsvi</name>
+                                    <idno type="tsadikim"
+                                          >https://tsadikim.uwr.edu.pl/record/012.366</idno>
+                              </person>
+                              <person xml:id="Tsadik_016.001">
+                                    <name>Aharon Perlov</name>
+                                    <idno type="tsadikim"
+                                          >https://tsadikim.uwr.edu.pl/record/016.001</idno>
+                              </person>
+                              <person xml:id="Tsadik_012.011">
+                                    <name>Aharon</name>
+                                    <idno type="tsadikim"
+                                          >https://tsadikim.uwr.edu.pl/record/012.011</idno>
+                              </person>
+                              <person xml:id="Tsadik_012.020">
+                                    <name>Arie Yehuda Leib Mohiah</name>
+                                    <idno type="tsadikim"
+                                          >https://tsadikim.uwr.edu.pl/record/012.020</idno>
+                              </person>
+                              <person xml:id="Tsadik_016.003">
+                                    <name>Asher Perlov</name>
+                                    <idno type="tsadikim"
+                                          >https://tsadikim.uwr.edu.pl/record/016.003</idno>
+                              </person>
+                              <person xml:id="Tsadik_012.007">
+                                    <name>Avraham Gershon Ashkenazi</name>
+                                    <idno type="tsadikim"
+                                          >https://tsadikim.uwr.edu.pl/record/012.007</idno>
+                              </person>
+                              <person xml:id="Tsadik_002.002">
+                                    <name>Avraham Ha-malakh</name>
+                                    <idno type="tsadikim"
+                                          >https://tsadikim.uwr.edu.pl/record/002.002</idno>
+                              </person>
+                              <person xml:id="Tsadik_043.003">
+                                    <name>Avraham Yoshua Heshel</name>
+                                    <idno type="tsadikim"
+                                          >https://tsadikim.uwr.edu.pl/record/043.003</idno>
+                              </person>
+                              <person xml:id="Tsadik_012.193">
+                                    <name>Avraham</name>
+                                    <idno type="tsadikim"
+                                          >https://tsadikim.uwr.edu.pl/record/012.193</idno>
+                              </person>
+                              <person xml:id="Tsadik_001.015">
+                                    <name>Barukh</name>
+                                    <idno type="tsadikim"
+                                          >https://tsadikim.uwr.edu.pl/record/001.015</idno>
+                              </person>
+                              <person xml:id="Tsadik_013.006">
+                                    <name>Benyamin Zeev</name>
+                                    <idno type="tsadikim"
+                                          >https://tsadikim.uwr.edu.pl/record/013.006</idno>
+                              </person>
+                              <person xml:id="Tsadik_012.034">
+                                    <name>David Purkes</name>
+                                    <idno type="tsadikim"
+                                          >https://tsadikim.uwr.edu.pl/record/012.034</idno>
+                              </person>
+                              <person xml:id="Tsadik_027.002">
+                                    <name>Dov Ber Schneersohn</name>
+                                    <idno type="tsadikim"
+                                          >https://tsadikim.uwr.edu.pl/record/027.002</idno>
+                              </person>
+                              <person xml:id="Tsadik_002.001">
+                                    <name>Dov Ber</name>
+                                    <idno type="tsadikim"
+                                          >https://tsadikim.uwr.edu.pl/record/002.001</idno>
+                              </person>
+                              <person xml:id="Tsadik_002.005">
+                                    <name>Dov Ber</name>
+                                    <idno type="tsadikim"
+                                          >https://tsadikim.uwr.edu.pl/record/002.005</idno>
+                              </person>
+                              <person xml:id="Tsadik_019.001">
+                                    <name>Elimelekh Weisblum</name>
+                                    <idno type="tsadikim"
+                                          >https://tsadikim.uwr.edu.pl/record/019.001</idno>
+                              </person>
+                              <person xml:id="Tsadik_033.001">
+                                    <name>Hayim Haykl Levin</name>
+                                    <idno type="tsadikim"
+                                          >https://tsadikim.uwr.edu.pl/record/033.001</idno>
+                              </person>
+                              <person xml:id="Tsadik_001.001">
+                                    <name>Israel Besht</name>
+                                    <idno type="tsadikim"
+                                          >https://tsadikim.uwr.edu.pl/record/001.001</idno>
+                              </person>
+                              <person xml:id="Tsadik_012.472">
+                                    <name>Israel Dov</name>
+                                    <idno type="tsadikim"
+                                          >https://tsadikim.uwr.edu.pl/record/012.472</idno>
+                              </person>
+                              <person xml:id="Tsadik_002.008">
+                                    <name>Israel Fridman</name>
+                                    <idno type="tsadikim"
+                                          >https://tsadikim.uwr.edu.pl/record/002.008</idno>
+                              </person>
+                              <person xml:id="Tsadik_042.001">
+                                    <name>Israel Hepstein</name>
+                                    <idno type="tsadikim"
+                                          >https://tsadikim.uwr.edu.pl/record/042.001</idno>
+                              </person>
+                              <person xml:id="Tsadik_012.168">
+                                    <name>Israel</name>
+                                    <idno type="tsadikim"
+                                          >https://tsadikim.uwr.edu.pl/record/012.168</idno>
+                              </person>
+                              <person xml:id="Tsadik_012.077">
+                                    <name>Leib Sares</name>
+                                    <idno type="tsadikim"
+                                          >https://tsadikim.uwr.edu.pl/record/012.077</idno>
+                              </person>
+                              <person xml:id="Tsadik_023.001">
+                                    <name>Levi Yitzhak Drabrimdiker</name>
+                                    <idno type="tsadikim"
+                                          >https://tsadikim.uwr.edu.pl/record/023.001</idno>
+                              </person>
+                              <person xml:id="Tsadik_005.005">
+                                    <name>Meir Mayer</name>
+                                    <idno type="tsadikim"
+                                          >https://tsadikim.uwr.edu.pl/record/005.005</idno>
+                              </person>
+                              <person xml:id="Tsadik_084.001">
+                                    <name>Menahem Mendel Turm</name>
+                                    <idno type="tsadikim"
+                                          >https://tsadikim.uwr.edu.pl/record/084.001</idno>
+                              </person>
+                              <person xml:id="Tsadik_012.172">
+                                    <name>Menahem Mendel</name>
+                                    <idno type="tsadikim"
+                                          >https://tsadikim.uwr.edu.pl/record/012.172</idno>
+                              </person>
+                              <person xml:id="Tsadik_014.001">
+                                    <name>Menahem Nahum Twersky</name>
+                                    <idno type="tsadikim"
+                                          >https://tsadikim.uwr.edu.pl/record/014.001</idno>
+                              </person>
+                              <person xml:id="Tsadik_020.001">
+                                    <name>Meshulam Zusha</name>
+                                    <idno type="tsadikim"
+                                          >https://tsadikim.uwr.edu.pl/record/020.001</idno>
+                              </person>
+                              <person xml:id="Tsadik_012.091">
+                                    <name>Mordekhai Halprin Hazan</name>
+                                    <idno type="tsadikim"
+                                          >https://tsadikim.uwr.edu.pl/record/012.091</idno>
+                              </person>
+                              <person xml:id="Tsadik_036.001">
+                                    <name>Mordekhai Shapira</name>
+                                    <idno type="tsadikim"
+                                          >https://tsadikim.uwr.edu.pl/record/036.001</idno>
+                              </person>
+                              <person xml:id="Tsadik_014.002">
+                                    <name>Mordekhai Twersky</name>
+                                    <idno type="tsadikim"
+                                          >https://tsadikim.uwr.edu.pl/record/014.002</idno>
+                              </person>
+                              <person xml:id="Tsadik_045.001">
+                                    <name>Mordekhai Yaffe</name>
+                                    <idno type="tsadikim"
+                                          >https://tsadikim.uwr.edu.pl/record/045.001</idno>
+                              </person>
+                              <person xml:id="Tsadik_012.301">
+                                    <name>Mordekhai</name>
+                                    <idno type="tsadikim"
+                                          >https://tsadikim.uwr.edu.pl/record/012.301</idno>
+                              </person>
+                              <person xml:id="Tsadik_001.010">
+                                    <name>Moshe Hayim Efrayim </name>
+                                    <idno type="tsadikim"
+                                          >https://tsadikim.uwr.edu.pl/record/001.010</idno>
+                              </person>
+                              <person xml:id="Tsadik_021.002">
+                                    <name>Moshe Tsvi Giterman</name>
+                                    <idno type="tsadikim"
+                                          >https://tsadikim.uwr.edu.pl/record/021.002</idno>
+                              </person>
+                              <person xml:id="Tsadik_037.001">
+                                    <name>Moshe Yehuda Erblich</name>
+                                    <idno type="tsadikim"
+                                          >https://tsadikim.uwr.edu.pl/record/037.001</idno>
+                              </person>
+                              <person xml:id="Tsadik_055.006">
+                                    <name>Naftali Tsvi Horowitz</name>
+                                    <idno type="tsadikim"
+                                          >https://tsadikim.uwr.edu.pl/record/055.006</idno>
+                              </person>
+                              <person xml:id="Tsadik_012.001">
+                                    <name>Nahman</name>
+                                    <idno type="tsadikim"
+                                          >https://tsadikim.uwr.edu.pl/record/012.001</idno>
+                              </person>
+                              <person xml:id="Tsadik_012.104">
+                                    <name>Nahman</name>
+                                    <idno type="tsadikim"
+                                          >https://tsadikim.uwr.edu.pl/record/012.104</idno>
+                              </person>
+                              <person xml:id="Tsadik_017.002">
+                                    <name>Pinhas Horowitz</name>
+                                    <idno type="tsadikim"
+                                          >https://tsadikim.uwr.edu.pl/record/017.002</idno>
+                              </person>
+                              <person xml:id="Tsadik_003.002">
+                                    <name>Pinhas Shapira</name>
+                                    <idno type="tsadikim"
+                                          >https://tsadikim.uwr.edu.pl/record/003.002</idno>
+                              </person>
+                              <person xml:id="Tsadik_012.107">
+                                    <name>Polak ha-kohen</name>
+                                    <idno type="tsadikim"
+                                          >https://tsadikim.uwr.edu.pl/record/012.107</idno>
+                              </person>
+                              <person xml:id="Tsadik_093.001">
+                                    <name>Shalom ha-levi Rosenfeld</name>
+                                    <idno type="tsadikim"
+                                          >https://tsadikim.uwr.edu.pl/record/093.001</idno>
+                              </person>
+                              <person xml:id="Tsadik_078.001">
+                                    <name>Shalom Rokeah</name>
+                                    <idno type="tsadikim"
+                                          >https://tsadikim.uwr.edu.pl/record/078.001</idno>
+                              </person>
+                              <person xml:id="Tsadik_002.003">
+                                    <name>Shalom Shakhna</name>
+                                    <idno type="tsadikim"
+                                          >https://tsadikim.uwr.edu.pl/record/002.003</idno>
+                              </person>
+                              <person xml:id="Tsadik_024.001">
+                                    <name>Shlomo Flam</name>
+                                    <idno type="tsadikim"
+                                          >https://tsadikim.uwr.edu.pl/record/024.001</idno>
+                              </person>
+                              <person xml:id="Tsadik_034.001">
+                                    <name>Shlomo Gottlieb</name>
+                                    <idno type="tsadikim"
+                                          >https://tsadikim.uwr.edu.pl/record/034.001</idno>
+                              </person>
+                              <person xml:id="Tsadik_017.003">
+                                    <name>Shmuel Shmelke Horowitz</name>
+                                    <idno type="tsadikim"
+                                          >https://tsadikim.uwr.edu.pl/record/017.003</idno>
+                              </person>
+                              <person xml:id="Tsadik_027.001">
+                                    <name>Shneur Zalman</name>
+                                    <idno type="tsadikim"
+                                          >https://tsadikim.uwr.edu.pl/record/027.001</idno>
+                              </person>
+                              <person xml:id="Tsadik_040.001">
+                                    <name>Tsvi Arie Landau</name>
+                                    <idno type="tsadikim"
+                                          >https://tsadikim.uwr.edu.pl/record/040.001</idno>
+                              </person>
+                              <person xml:id="Tsadik_058.002">
+                                    <name>Tsvi Hirsh Eichenstein</name>
+                                    <idno type="tsadikim"
+                                          >https://tsadikim.uwr.edu.pl/record/058.002</idno>
+                              </person>
+                              <person xml:id="Tsadik_012.109">
+                                    <name>Tsvi Sofer</name>
+                                    <idno type="tsadikim"
+                                          >https://tsadikim.uwr.edu.pl/record/012.109</idno>
+                              </person>
+                              <person xml:id="Tsadik_057.001">
+                                    <name>Uri Klughaupt</name>
+                                    <idno type="tsadikim"
+                                          >https://tsadikim.uwr.edu.pl/record/057.001</idno>
+                              </person>
+                              <person xml:id="Tsadik_035.001">
+                                    <name>Ya'akov Shimshon</name>
+                                    <idno type="tsadikim"
+                                          >https://tsadikim.uwr.edu.pl/record/035.001</idno>
+                              </person>
+                              <person xml:id="Tsadik_041.001">
+                                    <name>Ya'akov Yitzhak Horowitz</name>
+                                    <idno type="tsadikim"
+                                          >https://tsadikim.uwr.edu.pl/record/041.001</idno>
+                              </person>
+                              <person xml:id="Tsadik_008.001">
+                                    <name>Ya'akov Yosef</name>
+                                    <idno type="tsadikim"
+                                          >https://tsadikim.uwr.edu.pl/record/008.001</idno>
+                              </person>
+                              <person xml:id="Tsadik_013.002">
+                                    <name>Yehiel Mikhl</name>
+                                    <idno type="tsadikim"
+                                          >https://tsadikim.uwr.edu.pl/record/013.002</idno>
+                              </person>
+                              <person xml:id="Tsadik_012.154">
+                                    <name>Yehuda Leib</name>
+                                    <idno type="tsadikim"
+                                          >https://tsadikim.uwr.edu.pl/record/012.154</idno>
+                              </person>
+                              <person xml:id="Tsadik_012.049">
+                                    <name>Yoel</name>
+                                    <idno type="tsadikim"
+                                          >https://tsadikim.uwr.edu.pl/record/012.049</idno>
+                              </person>
+                              <person xml:id="Tsadik_012.056">
+                                    <name>Yosef Ashkenazi</name>
+                                    <idno type="tsadikim"
+                                          >https://tsadikim.uwr.edu.pl/record/012.056</idno>
+                              </person>
+                              <person xml:id="Tsadik_012.058">
+                                    <name>Yosef Melamed</name>
+                                    <idno type="tsadikim"
+                                          >https://tsadikim.uwr.edu.pl/record/012.058</idno>
+                              </person>
+                              <person xml:id="Tsadik_009.008">
+                                    <name>Yosef</name>
+                                    <idno type="tsadikim"
+                                          >https://tsadikim.uwr.edu.pl/record/009.008</idno>
+                              </person>
+                              <person xml:id="Tsadik_012.048">
+                                    <name>Yudel</name>
+                                    <idno type="tsadikim"
+                                          >https://tsadikim.uwr.edu.pl/record/012.048</idno>
+                              </person>
+                              <person xml:id="Tsadik_048.001">
+                                    <name>Zeev Wolf ha-levi</name>
+                                    <idno type="tsadikim"
+                                          >https://tsadikim.uwr.edu.pl/record/048.001</idno>
+                              </person>
+                              <person xml:id="Tsadik_012.039">
+                                    <name>Zeev Wolf Kitses</name>
+                                    <idno type="tsadikim"
+                                          >https://tsadikim.uwr.edu.pl/record/012.039</idno>
+                              </person>
+
+
+                        </listPerson>
+                        <listPlace>
+                              <place xml:id="K102">
+                                    <placeName type="primary-roman">Slonim (Belarus)</placeName>
+                                    <location>
+                                          <geo>53.08333333,25.31666667 </geo>
+                                    </location>
+                                    <idno type="Kima">https://data.geo-kima.org/Place/102</idno>
+                              </place>
+                              <place xml:id="K10369">
+                                    <placeName type="primary-roman">Altona (Germany)</placeName>
+                                    <location>
+                                          <geo>53.55,9.9333 </geo>
+                                    </location>
+                                    <idno type="Kima">https://data.geo-kima.org/Place/10369</idno>
+                              </place>
+                              <place xml:id="K104">
+                                    <placeName type="primary-roman">Slutsk (Belarus)</placeName>
+                                    <location>
+                                          <geo>53.0210495,27.554013 </geo>
+                                    </location>
+                                    <idno type="Kima">https://data.geo-kima.org/Place/104</idno>
+                              </place>
+                              <place xml:id="K10484">
+                                    <placeName type="primary-roman">Karlin (Belarus)</placeName>
+                                    <location>
+                                          <geo>52.2373537,25.8420699 </geo>
+                                    </location>
+                                    <idno type="Kima">https://data.geo-kima.org/Place/10484</idno>
+                              </place>
+                              <place xml:id="K10521">
+                                    <placeName type="primary-roman">Poznań (Poland :
+                                          Voivodeship)</placeName>
+                                    <location>
+                                          <geo>52.40833333333333,16.933611111111112 </geo>
+                                    </location>
+                                    <idno type="Kima">https://data.geo-kima.org/Place/10521</idno>
+                              </place>
+                              <place xml:id="K106">
+                                    <placeName type="primary-roman">Sanok (Poland)</placeName>
+                                    <location>
+                                          <geo>49.55,22.21666667 </geo>
+                                    </location>
+                                    <idno type="Kima">https://data.geo-kima.org/Place/106</idno>
+                              </place>
+                              <place xml:id="K10660">
+                                    <placeName type="primary-roman">Moravia (Czech
+                                          Republic)</placeName>
+                                    <location>
+                                          <geo>49.5,17 </geo>
+                                    </location>
+                                    <idno type="Kima">https://data.geo-kima.org/Place/10660</idno>
+                              </place>
+                              <place xml:id="K11063">
+                                    <placeName type="primary-roman">Dynów (Poland)</placeName>
+                                    <location>
+                                          <geo>49.81506,22.23388 </geo>
+                                    </location>
+                                    <idno type="Kima">https://data.geo-kima.org/Place/11063</idno>
+                              </place>
+                              <place xml:id="K11333">
+                                    <placeName type="primary-roman">Chęiny (Województwo
+                                          Święokrzyskie, Poland)</placeName>
+                                    <location>
+                                          <geo>51.86833333,21.74555556 </geo>
+                                    </location>
+                                    <idno type="Kima">https://data.geo-kima.org/Place/11333</idno>
+                              </place>
+                              <place xml:id="K11393">
+                                    <placeName type="primary-roman">Lesko (Poland)</placeName>
+                                    <location>
+                                          <geo>49.46611111111111,22.32888888888889 </geo>
+                                    </location>
+                                    <idno type="Kima">https://data.geo-kima.org/Place/11393</idno>
+                              </place>
+                              <place xml:id="K11456">
+                                    <placeName type="primary-roman">Volodymyr-Volynsʹkyĭ
+                                          (Ukraine)</placeName>
+                                    <location>
+                                          <geo>50.8481952,24.3256569 </geo>
+                                    </location>
+                                    <idno type="Kima">https://data.geo-kima.org/Place/11456</idno>
+                              </place>
+                              <place xml:id="K1156">
+                                    <placeName type="primary-roman">Karmel, Mount
+                                          (Israel)</placeName>
+                                    <location>
+                                          <geo>32.6725,35.023333 </geo>
+                                    </location>
+                                    <idno type="Kima">https://data.geo-kima.org/Place/1156</idno>
+                              </place>
+                              <place xml:id="K11883">
+                                    <placeName type="primary-roman">Hammelburg (Germany)</placeName>
+                                    <location>
+                                          <geo>50.11666667,9.9 </geo>
+                                    </location>
+                                    <idno type="Kima">https://data.geo-kima.org/Place/11883</idno>
+                              </place>
+                              <place xml:id="K11968">
+                                    <placeName type="primary-roman">Kosiv (Ukraine)</placeName>
+                                    <location>
+                                          <geo>48.3135026,25.082229 </geo>
+                                    </location>
+                                    <idno type="Kima">https://data.geo-kima.org/Place/11968</idno>
+                              </place>
+                              <place xml:id="K12012">
+                                    <placeName type="primary-roman">Koło (Konin, Poland)</placeName>
+                                    <location>
+                                          <geo>52.2,18.63333333 </geo>
+                                    </location>
+                                    <idno type="Kima">https://data.geo-kima.org/Place/12012</idno>
+                              </place>
+                              <place xml:id="K12047">
+                                    <placeName type="primary-roman">Zbaraz︠h︡ (Ternopilʹsʹka
+                                          oblastʹ, Ukraine)</placeName>
+                                    <location>
+                                          <geo>49.664574286972,25.775386058654 </geo>
+                                    </location>
+                                    <idno type="Kima">https://data.geo-kima.org/Place/12047</idno>
+                              </place>
+                              <place xml:id="K12284">
+                                    <placeName type="primary-roman">Sátoraljaújhely
+                                          (Hungary)</placeName>
+                                    <location>
+                                          <geo>48.3960601,21.6551122 </geo>
+                                    </location>
+                                    <idno type="Kima">https://data.geo-kima.org/Place/12284</idno>
+                              </place>
+                              <place xml:id="K12414">
+                                    <placeName type="primary-roman">Sambir (Sambirsʹkyĭ raĭon,
+                                          Ukraine)</placeName>
+                                    <location>
+                                          <geo>49.5207147,23.2065501 </geo>
+                                    </location>
+                                    <idno type="Kima">https://data.geo-kima.org/Place/12414</idno>
+                              </place>
+                              <place xml:id="K12464">
+                                    <placeName type="primary-roman">Lithuania</placeName>
+                                    <location>
+                                          <geo>55.169438,23.881275 </geo>
+                                    </location>
+                                    <idno type="Kima">https://data.geo-kima.org/Place/12464</idno>
+                              </place>
+                              <place xml:id="K12548">
+                                    <placeName type="primary-roman">Łańcut (Poland)</placeName>
+                                    <location>
+                                          <geo>50.06824,22.2298 </geo>
+                                    </location>
+                                    <idno type="Kima">https://data.geo-kima.org/Place/12548</idno>
+                              </place>
+                              <place xml:id="K12663">
+                                    <placeName type="primary-roman">Kępno (Poland)</placeName>
+                                    <location>
+                                          <geo>51.2784,17.98908 </geo>
+                                    </location>
+                                    <idno type="Kima">https://data.geo-kima.org/Place/12663</idno>
+                              </place>
+                              <place xml:id="K12814">
+                                    <placeName type="primary-roman">Hajdúnánás (Hungary)</placeName>
+                                    <location>
+                                          <geo>47.85,21.433333333333 </geo>
+                                    </location>
+                                    <idno type="Kima">https://data.geo-kima.org/Place/12814</idno>
+                              </place>
+                              <place xml:id="K12867">
+                                    <placeName type="primary-roman">Ivano-Frankivsʹk
+                                          (Ukraine)</placeName>
+                                    <location>
+                                          <geo>48.922777777778,24.710555555556 </geo>
+                                    </location>
+                                    <idno type="Kima">https://data.geo-kima.org/Place/12867</idno>
+                              </place>
+                              <place xml:id="K13465">
+                                    <placeName type="primary-roman">Vyz︠h︡nyt︠s︡i︠a︡
+                                          (Ukraine)</placeName>
+                                    <location>
+                                          <geo>48.25,25.19166667 </geo>
+                                    </location>
+                                    <idno type="Kima">https://data.geo-kima.org/Place/13465</idno>
+                              </place>
+                              <place xml:id="K13500">
+                                    <placeName type="primary-roman">Landshut (Germany)</placeName>
+                                    <location>
+                                          <geo>48.53972222,12.15083333 </geo>
+                                    </location>
+                                    <idno type="Kima">https://data.geo-kima.org/Place/13500</idno>
+                              </place>
+                              <place xml:id="K139">
+                                    <placeName type="primary-roman">Leszno (Poland)</placeName>
+                                    <location>
+                                          <geo>51.85,16.56666667 </geo>
+                                    </location>
+                                    <idno type="Kima">https://data.geo-kima.org/Place/139</idno>
+                              </place>
+                              <place xml:id="K14162">
+                                    <placeName type="primary-roman">Rydzyna (Poland)</placeName>
+                                    <location>
+                                          <geo>51.8,16.66666667 </geo>
+                                    </location>
+                                    <idno type="Kima">https://data.geo-kima.org/Place/14162</idno>
+                              </place>
+                              <place xml:id="K14231">
+                                    <placeName type="primary-roman">Dobromylʹ (Ukraine)</placeName>
+                                    <location>
+                                          <geo>49.5739,22.7860759 </geo>
+                                    </location>
+                                    <idno type="Kima">https://data.geo-kima.org/Place/14231</idno>
+                              </place>
+                              <place xml:id="K14393">
+                                    <placeName type="primary-roman">Baranów Sandomierski
+                                          (Poland)</placeName>
+                                    <location>
+                                          <geo>50.49912,21.54204 </geo>
+                                    </location>
+                                    <idno type="Kima">https://data.geo-kima.org/Place/14393</idno>
+                              </place>
+                              <place xml:id="K14419">
+                                    <placeName type="primary-roman">Třebíč (Czech
+                                          Republic)</placeName>
+                                    <location>
+                                          <geo>49.2149674,15.88167594 </geo>
+                                    </location>
+                                    <idno type="Kima">https://data.geo-kima.org/Place/14419</idno>
+                              </place>
+                              <place xml:id="K14528">
+                                    <placeName type="primary-roman">Dubăsari (Moldova)</placeName>
+                                    <location>
+                                          <geo>47.26666667,29.16666667 </geo>
+                                    </location>
+                                    <idno type="Kima">https://data.geo-kima.org/Place/14528</idno>
+                              </place>
+                              <place xml:id="K15239">
+                                    <placeName type="primary-roman">Chornobylʹ (Ukraine)</placeName>
+                                    <location>
+                                          <geo>51.2763,30.22189 </geo>
+                                    </location>
+                                    <idno type="Kima">https://data.geo-kima.org/Place/15239</idno>
+                              </place>
+                              <place xml:id="K15311">
+                                    <placeName type="primary-roman">Biržai (Lithuania)</placeName>
+                                    <location>
+                                          <geo>56.2,24.75 </geo>
+                                    </location>
+                                    <idno type="Kima">https://data.geo-kima.org/Place/15311</idno>
+                              </place>
+                              <place xml:id="K15851">
+                                    <placeName type="primary-roman">Izi︠a︡slav (Ukraine)</placeName>
+                                    <location>
+                                          <geo>54,27.28333333 </geo>
+                                    </location>
+                                    <idno type="Kima">https://data.geo-kima.org/Place/15851</idno>
+                              </place>
+                              <place xml:id="K1638">
+                                    <placeName type="primary-roman">Mukacheve (Ukraine)</placeName>
+                                    <location>
+                                          <geo>48.43919,22.71779 </geo>
+                                    </location>
+                                    <idno type="Kima">https://data.geo-kima.org/Place/1638</idno>
+                              </place>
+                              <place xml:id="K1645">
+                                    <placeName type="primary-roman">Olyka (Ukraine)</placeName>
+                                    <location>
+                                          <geo>50.71666667,25.81666667 </geo>
+                                    </location>
+                                    <idno type="Kima">https://data.geo-kima.org/Place/1645</idno>
+                              </place>
+                              <place xml:id="K165">
+                                    <placeName type="primary-roman">Chrzanów (Poland)</placeName>
+                                    <location>
+                                          <geo>50.13333333,19.4 </geo>
+                                    </location>
+                                    <idno type="Kima">https://data.geo-kima.org/Place/165</idno>
+                              </place>
+                              <place xml:id="K16505">
+                                    <placeName type="primary-roman">Komarno (Ukraine)</placeName>
+                                    <location>
+                                          <geo>49.6287673,23.6955367 </geo>
+                                    </location>
+                                    <idno type="Kima">https://data.geo-kima.org/Place/16505</idno>
+                              </place>
+                              <place xml:id="K16514">
+                                    <placeName type="primary-roman">Brzesko (Poland)</placeName>
+                                    <location>
+                                          <geo>49.966666666667,20.616666666667 </geo>
+                                    </location>
+                                    <idno type="Kima">https://data.geo-kima.org/Place/16514</idno>
+                              </place>
+                              <place xml:id="K1655">
+                                    <placeName type="primary-roman">Peremyshli︠a︡ny
+                                          (Ukraine)</placeName>
+                                    <location>
+                                          <geo>49.66523,24.55846 </geo>
+                                    </location>
+                                    <idno type="Kima">https://data.geo-kima.org/Place/1655</idno>
+                              </place>
+                              <place xml:id="K16594">
+                                    <placeName type="primary-roman">Nové Mesto nad Váhom
+                                          (Slovakia)</placeName>
+                                    <location>
+                                          <geo>48.75,17.83333333 </geo>
+                                    </location>
+                                    <idno type="Kima">https://data.geo-kima.org/Place/16594</idno>
+                              </place>
+                              <place xml:id="K166">
+                                    <placeName type="primary-roman">Lʹviv (Ukraine)</placeName>
+                                    <location>
+                                          <geo>49.839683,24.029717 </geo>
+                                    </location>
+                                    <idno type="Kima">https://data.geo-kima.org/Place/166</idno>
+                              </place>
+                              <place xml:id="K167">
+                                    <placeName type="primary-roman">Fürth (Germany)</placeName>
+                                    <location>
+                                          <geo>49.47833333,10.99027778 </geo>
+                                    </location>
+                                    <idno type="Kima">https://data.geo-kima.org/Place/167</idno>
+                              </place>
+                              <place xml:id="K1674">
+                                    <placeName type="primary-roman">Kolomyi︠a︡ (Ukraine)</placeName>
+                                    <location>
+                                          <geo>48.53115,25.03649 </geo>
+                                    </location>
+                                    <idno type="Kima">https://data.geo-kima.org/Place/1674</idno>
+                              </place>
+                              <place xml:id="K1687">
+                                    <placeName type="primary-roman">Pinczów (Poland)</placeName>
+                                    <location>
+                                          <geo>50.52052,20.52649 </geo>
+                                    </location>
+                                    <idno type="Kima">https://data.geo-kima.org/Place/1687</idno>
+                              </place>
+                              <place xml:id="K16905">
+                                    <placeName type="primary-roman">Strzyżów (Rzeszów,
+                                          Poland)</placeName>
+                                    <location>
+                                          <geo>49.86666667,21.8 </geo>
+                                    </location>
+                                    <idno type="Kima">https://data.geo-kima.org/Place/16905</idno>
+                              </place>
+                              <place xml:id="K1691">
+                                    <placeName type="primary-roman">Wandsbek (Germany)</placeName>
+                                    <location>
+                                          <geo>53.58334,10.08305 </geo>
+                                    </location>
+                                    <idno type="Kima">https://data.geo-kima.org/Place/1691</idno>
+                              </place>
+                              <place xml:id="K1703">
+                                    <placeName type="primary-roman">Z︠H︡ovkva (Ukraine)</placeName>
+                                    <location>
+                                          <geo>50.0588756,23.9736471 </geo>
+                                    </location>
+                                    <idno type="Kima">https://data.geo-kima.org/Place/1703</idno>
+                              </place>
+                              <place xml:id="K17046">
+                                    <placeName type="primary-roman">Żmigród (Poland)</placeName>
+                                    <location>
+                                          <geo>49.6035205,21.5236702 </geo>
+                                    </location>
+                                    <idno type="Kima">https://data.geo-kima.org/Place/17046</idno>
+                              </place>
+                              <place xml:id="K17099">
+                                    <placeName type="primary-roman">Crimea (Ukraine)</placeName>
+                                    <location>
+                                          <geo>45,34 </geo>
+                                    </location>
+                                    <idno type="Kima">https://data.geo-kima.org/Place/17099</idno>
+                              </place>
+                              <place xml:id="K17140">
+                                    <placeName type="primary-roman">Shchuchyn (Belarus)</placeName>
+                                    <location>
+                                          <geo>50.308888888889,21.074722222222 </geo>
+                                    </location>
+                                    <idno type="Kima">https://data.geo-kima.org/Place/17140</idno>
+                              </place>
+                              <place xml:id="K1718">
+                                    <placeName type="primary-roman">Uz︠h︡horod (Ukraine)</placeName>
+                                    <location>
+                                          <geo>48.6208,22.287883 </geo>
+                                    </location>
+                                    <idno type="Kima">https://data.geo-kima.org/Place/1718</idno>
+                              </place>
+                              <place xml:id="K1721">
+                                    <placeName type="primary-roman">Polonne (Ukraine)</placeName>
+                                    <location>
+                                          <geo>50.1224689,27.506767 </geo>
+                                    </location>
+                                    <idno type="Kima">https://data.geo-kima.org/Place/1721</idno>
+                              </place>
+                              <place xml:id="K17237">
+                                    <placeName type="primary-roman">Kovelʹ (Ukraine)</placeName>
+                                    <location>
+                                          <geo>51.209018,24.6980251 </geo>
+                                    </location>
+                                    <idno type="Kima">https://data.geo-kima.org/Place/17237</idno>
+                              </place>
+                              <place xml:id="K1724">
+                                    <placeName type="primary-roman">Radyvyliv (Ukraine)</placeName>
+                                    <location>
+                                          <geo>50.1285011,25.2530313 </geo>
+                                    </location>
+                                    <idno type="Kima">https://data.geo-kima.org/Place/1724</idno>
+                              </place>
+                              <place xml:id="K1728">
+                                    <placeName type="primary-roman">Rivne (Rivnensʹka oblastʹ,
+                                          Ukraine)</placeName>
+                                    <location>
+                                          <geo>50.6199,26.251617 </geo>
+                                    </location>
+                                    <idno type="Kima">https://data.geo-kima.org/Place/1728</idno>
+                              </place>
+                              <place xml:id="K17325">
+                                    <placeName type="primary-roman">Medz︠h︡ybiz︠h︡
+                                          (Ukraine)</placeName>
+                                    <location>
+                                          <geo>49.43333333,27.41666667 </geo>
+                                    </location>
+                                    <idno type="Kima">https://data.geo-kima.org/Place/17325</idno>
+                              </place>
+                              <place xml:id="K174">
+                                    <placeName type="primary-roman">Lublin (Poland)</placeName>
+                                    <location>
+                                          <geo>51.2464536,22.5684463 </geo>
+                                    </location>
+                                    <idno type="Kima">https://data.geo-kima.org/Place/174</idno>
+                              </place>
+                              <place xml:id="K17407">
+                                    <placeName type="primary-roman">Lwow (Poland :
+                                          Voivodeship)</placeName>
+                                    <location>
+                                          <geo>49.839683,24.029717 </geo>
+                                    </location>
+                                    <idno type="Kima">https://data.geo-kima.org/Place/17407</idno>
+                              </place>
+                              <place xml:id="K17477">
+                                    <placeName type="primary-roman">Nagykálló (Hungary)</placeName>
+                                    <location>
+                                          <geo>47.87491,21.84082 </geo>
+                                    </location>
+                                    <idno type="Kima">https://data.geo-kima.org/Place/17477</idno>
+                              </place>
+                              <place xml:id="K17659">
+                                    <placeName type="primary-roman">Leżajsk (Poland)</placeName>
+                                    <location>
+                                          <geo>50.2620534,22.4210807 </geo>
+                                    </location>
+                                    <idno type="Kima">https://data.geo-kima.org/Place/17659</idno>
+                              </place>
+                              <place xml:id="K17745">
+                                    <placeName type="primary-roman">Sokołów Podlaski
+                                          (Poland)</placeName>
+                                    <location>
+                                          <geo>52.40666667,22.24638889 </geo>
+                                    </location>
+                                    <idno type="Kima">https://data.geo-kima.org/Place/17745</idno>
+                              </place>
+                              <place xml:id="K17813">
+                                    <placeName type="primary-roman">Sharhorod (Ukraine)</placeName>
+                                    <location>
+                                          <geo>48.7628865,28.0690462 </geo>
+                                    </location>
+                                    <idno type="Kima">https://data.geo-kima.org/Place/17813</idno>
+                              </place>
+                              <place xml:id="K17845">
+                                    <placeName type="primary-roman">Tarnobrzeg (Poland)</placeName>
+                                    <location>
+                                          <geo>50.5729079,21.6790698 </geo>
+                                    </location>
+                                    <idno type="Kima">https://data.geo-kima.org/Place/17845</idno>
+                              </place>
+                              <place xml:id="K17888">
+                                    <placeName type="primary-roman">Rymanów (Poland)</placeName>
+                                    <location>
+                                          <geo>49.566666666667,21.883333333333 </geo>
+                                    </location>
+                                    <idno type="Kima">https://data.geo-kima.org/Place/17888</idno>
+                              </place>
+                              <place xml:id="K18016">
+                                    <placeName type="primary-roman">Sasiv (Ukraine)</placeName>
+                                    <location>
+                                          <geo>49.870833333333,24.948888888889 </geo>
+                                    </location>
+                                    <idno type="Kima">https://data.geo-kima.org/Place/18016</idno>
+                              </place>
+                              <place xml:id="K18113">
+                                    <placeName type="primary-roman">Shpola (Ukraine)</placeName>
+                                    <location>
+                                          <geo>49.03333333,31.41666667 </geo>
+                                    </location>
+                                    <idno type="Kima">https://data.geo-kima.org/Place/18113</idno>
+                              </place>
+                              <place xml:id="K18120">
+                                    <placeName type="primary-roman">Rozwadów (Poland)</placeName>
+                                    <location>
+                                          <geo>50.59325,22.04553 </geo>
+                                    </location>
+                                    <idno type="Kima">https://data.geo-kima.org/Place/18120</idno>
+                              </place>
+                              <place xml:id="K18259">
+                                    <placeName type="primary-roman">Przysucha (Poland)</placeName>
+                                    <location>
+                                          <geo>51.3578773,20.6317957 </geo>
+                                    </location>
+                                    <idno type="Kima">https://data.geo-kima.org/Place/18259</idno>
+                              </place>
+                              <place xml:id="K18336">
+                                    <placeName type="primary-roman">Dębica (Poland)</placeName>
+                                    <location>
+                                          <geo>50.05146,21.41141 </geo>
+                                    </location>
+                                    <idno type="Kima">https://data.geo-kima.org/Place/18336</idno>
+                              </place>
+                              <place xml:id="K18410">
+                                    <placeName type="primary-roman">Chortkiv (Ukraine)</placeName>
+                                    <location>
+                                          <geo>49.01666667,25.8 </geo>
+                                    </location>
+                                    <idno type="Kima">https://data.geo-kima.org/Place/18410</idno>
+                              </place>
+                              <place xml:id="K18583">
+                                    <placeName type="primary-roman">Mikulov (Jihomoravský kraj,
+                                          Czech Republic)</placeName>
+                                    <location>
+                                          <geo>48.805283,16.6376881 </geo>
+                                    </location>
+                                    <idno type="Kima">https://data.geo-kima.org/Place/18583</idno>
+                              </place>
+                              <place xml:id="K18686">
+                                    <placeName type="primary-roman">Sokalʹ (Ukraine)</placeName>
+                                    <location>
+                                          <geo>50.48333333,24.28333333 </geo>
+                                    </location>
+                                    <idno type="Kima">https://data.geo-kima.org/Place/18686</idno>
+                              </place>
+                              <place xml:id="K18725">
+                                    <placeName type="primary-roman">Raszków (Kalisz,
+                                          Poland)</placeName>
+                                    <location>
+                                          <geo>51.716666666667,17.733333333333 </geo>
+                                    </location>
+                                    <idno type="Kima">https://data.geo-kima.org/Place/18725</idno>
+                              </place>
+                              <place xml:id="K18727">
+                                    <placeName type="primary-roman">Belz (Ukraine)</placeName>
+                                    <location>
+                                          <geo>50.38333333,24.01666667 </geo>
+                                    </location>
+                                    <idno type="Kima">https://data.geo-kima.org/Place/18727</idno>
+                              </place>
+                              <place xml:id="K18781">
+                                    <placeName type="primary-roman">Mohyliv-Podilʹsʹkyĭ
+                                          (Ukraine)</placeName>
+                                    <location>
+                                          <geo>48.45,27.783333333333 </geo>
+                                    </location>
+                                    <idno type="Kima">https://data.geo-kima.org/Place/18781</idno>
+                              </place>
+                              <place xml:id="K188">
+                                    <placeName type="primary-roman">Moscow (Russia)</placeName>
+                                    <location>
+                                          <geo>55.755826,37.6172999 </geo>
+                                    </location>
+                                    <idno type="Kima">https://data.geo-kima.org/Place/188</idno>
+                              </place>
+                              <place xml:id="K19001">
+                                    <placeName type="primary-roman">Tykocin (Poland)</placeName>
+                                    <location>
+                                          <geo>53.20567,22.77457 </geo>
+                                    </location>
+                                    <idno type="Kima">https://data.geo-kima.org/Place/19001</idno>
+                              </place>
+                              <place xml:id="K19039">
+                                    <placeName type="primary-roman">Holešov (Czech
+                                          Republic)</placeName>
+                                    <location>
+                                          <geo>49.333314366496,17.578340885825 </geo>
+                                    </location>
+                                    <idno type="Kima">https://data.geo-kima.org/Place/19039</idno>
+                              </place>
+                              <place xml:id="K19125">
+                                    <placeName type="primary-roman">Grabowiec (Poland)</placeName>
+                                    <location>
+                                          <geo>50.8217024,23.5497339 </geo>
+                                    </location>
+                                    <idno type="Kima">https://data.geo-kima.org/Place/19125</idno>
+                              </place>
+                              <place xml:id="K19134">
+                                    <placeName type="primary-roman">Starokosti︠a︡ntyniv
+                                          (Ukraine)</placeName>
+                                    <location>
+                                          <geo>49.755555555556,27.220833333333 </geo>
+                                    </location>
+                                    <idno type="Kima">https://data.geo-kima.org/Place/19134</idno>
+                              </place>
+                              <place xml:id="K19248">
+                                    <placeName type="primary-roman">Bar (Vinnyt︠s︡ʹka oblastʹ,
+                                          Ukraine)</placeName>
+                                    <location>
+                                          <geo>49.0768482,27.6826121 </geo>
+                                    </location>
+                                    <idno type="Kima">https://data.geo-kima.org/Place/19248</idno>
+                              </place>
+                              <place xml:id="K19255">
+                                    <placeName type="primary-roman">Horokhiv (Ukraine)</placeName>
+                                    <location>
+                                          <geo>50.49944444,24.765 </geo>
+                                    </location>
+                                    <idno type="Kima">https://data.geo-kima.org/Place/19255</idno>
+                              </place>
+                              <place xml:id="K19256">
+                                    <placeName type="primary-roman">Tovste (Ternopilʹsʹka oblastʹ,
+                                          Ukraine)</placeName>
+                                    <location>
+                                          <geo>49.269466321563,26.091844272563 </geo>
+                                    </location>
+                                    <idno type="Kima">https://data.geo-kima.org/Place/19256</idno>
+                              </place>
+                              <place xml:id="K19334">
+                                    <placeName type="primary-roman">Shepetivka (Ukraine)</placeName>
+                                    <location>
+                                          <geo>50.183333333333,27.066666666667 </geo>
+                                    </location>
+                                    <idno type="Kima">https://data.geo-kima.org/Place/19334</idno>
+                              </place>
+                              <place xml:id="K20456">
+                                    <placeName type="primary-roman">Bohorodchany
+                                          (Ukraine)</placeName>
+                                    <location>
+                                          <geo>48.8,24.53333333 </geo>
+                                    </location>
+                                    <idno type="Kima">https://data.geo-kima.org/Place/20456</idno>
+                              </place>
+                              <place xml:id="K20693">
+                                    <placeName type="primary-roman">Lipník nad Bečvou (Czech
+                                          Republic)</placeName>
+                                    <location>
+                                          <geo>49.52754924,17.58633834 </geo>
+                                    </location>
+                                    <idno type="Kima">https://data.geo-kima.org/Place/20693</idno>
+                              </place>
+                              <place xml:id="K20696">
+                                    <placeName type="primary-roman">Turiĭsʹk (Ukraine)</placeName>
+                                    <location>
+                                          <geo>46.75,33.41666667 </geo>
+                                    </location>
+                                    <idno type="Kima">https://data.geo-kima.org/Place/20696</idno>
+                              </place>
+                              <place xml:id="K20917">
+                                    <placeName type="primary-roman">Smila (Cherkasʹka oblastʹ,
+                                          Ukraine)</placeName>
+                                    <location>
+                                          <geo>49.227717,31.8522329 </geo>
+                                    </location>
+                                    <idno type="Kima">https://data.geo-kima.org/Place/20917</idno>
+                              </place>
+                              <place xml:id="K20961">
+                                    <placeName type="primary-roman">Lenino (Mahili︠o︡ŭskai︠a︡
+                                          voblastsʹ, Belarus)</placeName>
+                                    <location>
+                                          <geo>54.406944444444,31.123611111111 </geo>
+                                    </location>
+                                    <idno type="Kima">https://data.geo-kima.org/Place/20961</idno>
+                              </place>
+                              <place xml:id="K21111">
+                                    <placeName type="primary-roman">Głogów (Województwo
+                                          dolnośląskie, Poland)</placeName>
+                                    <location>
+                                          <geo>51.65888889,16.08027778 </geo>
+                                    </location>
+                                    <idno type="Kima">https://data.geo-kima.org/Place/21111</idno>
+                              </place>
+                              <place xml:id="K21649">
+                                    <placeName type="primary-roman">Balta (Ukraine)</placeName>
+                                    <location>
+                                          <geo>47.9370871,29.6288401 </geo>
+                                    </location>
+                                    <idno type="Kima">https://data.geo-kima.org/Place/21649</idno>
+                              </place>
+                              <place xml:id="K22056">
+                                    <placeName type="primary-roman">Tomashpil (Ukraine)</placeName>
+                                    <location>
+                                          <geo>48.5509829,28.5162853 </geo>
+                                    </location>
+                                    <idno type="Kima">https://data.geo-kima.org/Place/22056</idno>
+                              </place>
+                              <place xml:id="K22142">
+                                    <placeName type="primary-roman">Kuty (Ukraine)</placeName>
+                                    <location>
+                                          <geo>48.25,25.18333333 </geo>
+                                    </location>
+                                    <idno type="Kima">https://data.geo-kima.org/Place/22142</idno>
+                              </place>
+                              <place xml:id="K22194">
+                                    <placeName type="primary-roman">Khyriv (Ukraine)</placeName>
+                                    <location>
+                                          <geo>49.5333606,22.8520262 </geo>
+                                    </location>
+                                    <idno type="Kima">https://data.geo-kima.org/Place/22194</idno>
+                              </place>
+                              <place xml:id="K22232">
+                                    <placeName type="primary-roman">Khmil'nyk (Vinnyts︡ʹka oblastʹ,
+                                          Ukraine)</placeName>
+                                    <location>
+                                          <geo>49.55,27.966666666667 </geo>
+                                    </location>
+                                    <idno type="Kima">https://data.geo-kima.org/Place/22232</idno>
+                              </place>
+                              <place xml:id="K22434">
+                                    <placeName type="primary-roman">Fastiv (Ukraine)</placeName>
+                                    <location>
+                                          <geo>50.074722222222,29.918055555556 </geo>
+                                    </location>
+                                    <idno type="Kima">https://data.geo-kima.org/Place/22434</idno>
+                              </place>
+                              <place xml:id="K22467">
+                                    <placeName type="primary-roman">Brahin (Belarus)</placeName>
+                                    <location>
+                                          <geo>51.787,30.2677 </geo>
+                                    </location>
+                                    <idno type="Kima">https://data.geo-kima.org/Place/22467</idno>
+                              </place>
+                              <place xml:id="K23166">
+                                    <placeName type="primary-roman">Toczek (Poland)</placeName>
+                                    <location>
+                                          <geo>54.1953,17.1411 </geo>
+                                    </location>
+                                    <idno type="Kima">https://data.geo-kima.org/Place/23166</idno>
+                              </place>
+                              <place xml:id="K23399">
+                                    <placeName type="primary-roman">Svaryn (Ukraine)</placeName>
+                                    <location>
+                                          <geo>48.13,30.07944444 </geo>
+                                    </location>
+                                    <idno type="Kima">https://data.geo-kima.org/Place/23399</idno>
+                              </place>
+                              <place xml:id="K23521">
+                                    <placeName type="primary-roman">Sudilkov (Ukraine)</placeName>
+                                    <location>
+                                          <geo>50.172980555556,27.137608333333 </geo>
+                                    </location>
+                                    <idno type="Kima">https://data.geo-kima.org/Place/23521</idno>
+                              </place>
+                              <place xml:id="K23615">
+                                    <placeName type="primary-roman">Zhydachiv (Ukraine)</placeName>
+                                    <location>
+                                          <geo>49.3853385,24.1421826 </geo>
+                                    </location>
+                                    <idno type="Kima">https://data.geo-kima.org/Place/23615</idno>
+                              </place>
+                              <place xml:id="K23709">
+                                    <placeName type="primary-roman">Ladyzhin (Ukraine)</placeName>
+                                    <location>
+                                          <geo>48.689722,29.241667 </geo>
+                                    </location>
+                                    <idno type="Kima">https://data.geo-kima.org/Place/23709</idno>
+                              </place>
+                              <place xml:id="K2372">
+                                    <placeName type="primary-roman">Transylvania
+                                          (Romania)</placeName>
+                                    <location>
+                                          <geo>46.766666666667,23.583333333333 </geo>
+                                    </location>
+                                    <idno type="Kima">https://data.geo-kima.org/Place/2372</idno>
+                              </place>
+                              <place xml:id="K23734">
+                                    <placeName type="primary-roman">Chechelnyk (Ukraine)</placeName>
+                                    <location>
+                                          <geo>48.2,29.35 </geo>
+                                    </location>
+                                    <idno type="Kima">https://data.geo-kima.org/Place/23734</idno>
+                              </place>
+                              <place xml:id="K23767">
+                                    <placeName type="primary-roman">Biała Prudnicka
+                                          (Poland)</placeName>
+                                    <location>
+                                          <geo>50.38587,17.66035 </geo>
+                                    </location>
+                                    <idno type="Kima">https://data.geo-kima.org/Place/23767</idno>
+                              </place>
+                              <place xml:id="K23796">
+                                    <placeName type="primary-roman">Zalishchyky
+                                          (Ukraine)</placeName>
+                                    <location>
+                                          <geo>48.639241488656,25.737360606667 </geo>
+                                    </location>
+                                    <idno type="Kima">https://data.geo-kima.org/Place/23796</idno>
+                              </place>
+                              <place xml:id="K23797">
+                                    <placeName type="primary-roman">Zaliztsi (Ukraine)</placeName>
+                                    <location>
+                                          <geo>49.795963 ,25.378245 </geo>
+                                    </location>
+                                    <idno type="Kima">https://data.geo-kima.org/Place/23797</idno>
+                              </place>
+                              <place xml:id="K23839">
+                                    <placeName type="primary-roman">Sataniv (Ukraine)</placeName>
+                                    <location>
+                                          <geo>49.25481,26.25417 </geo>
+                                    </location>
+                                    <idno type="Kima">https://data.geo-kima.org/Place/23839</idno>
+                              </place>
+                              <place xml:id="K23857">
+                                    <placeName type="primary-roman">Illintsi (Ukraine)</placeName>
+                                    <location>
+                                          <geo>49.11666667,29.2 </geo>
+                                    </location>
+                                    <idno type="Kima">https://data.geo-kima.org/Place/23857</idno>
+                              </place>
+                              <place xml:id="K23882">
+                                    <placeName type="primary-roman">Skwierzyna (Poland)</placeName>
+                                    <location>
+                                          <geo>52.59914,15.50652 </geo>
+                                    </location>
+                                    <idno type="Kima">https://data.geo-kima.org/Place/23882</idno>
+                              </place>
+                              <place xml:id="K23901">
+                                    <placeName type="primary-roman">Żabno (Województwo Małopolskie,
+                                          Poland)</placeName>
+                                    <location>
+                                          <geo>50.13333333,20.88333333 </geo>
+                                    </location>
+                                    <idno type="Kima">https://data.geo-kima.org/Place/23901</idno>
+                              </place>
+                              <place xml:id="K23968">
+                                    <placeName type="primary-roman">Lechów (Poland)</placeName>
+                                    <location>
+                                          <geo>51.65,20.15 </geo>
+                                    </location>
+                                    <idno type="Kima">https://data.geo-kima.org/Place/23968</idno>
+                              </place>
+                              <place xml:id="K242">
+                                    <placeName type="primary-roman">Mielec (Poland)</placeName>
+                                    <location>
+                                          <geo>50.283333333333,21.433333333333 </geo>
+                                    </location>
+                                    <idno type="Kima">https://data.geo-kima.org/Place/242</idno>
+                              </place>
+                              <place xml:id="K24727">
+                                    <placeName type="primary-roman">Leshniv (Ukraine)</placeName>
+                                    <location>
+                                          <geo>50.24361111,25.08694444 </geo>
+                                    </location>
+                                    <idno type="Kima">https://data.geo-kima.org/Place/24727</idno>
+                              </place>
+                              <place xml:id="K250">
+                                    <placeName type="primary-roman">Piotrkow Trybunalski
+                                          (Poland)</placeName>
+                                    <location>
+                                          <geo>51.4,19.68333333 </geo>
+                                    </location>
+                                    <idno type="Kima">https://data.geo-kima.org/Place/250</idno>
+                              </place>
+                              <place xml:id="K2501">
+                                    <placeName type="primary-roman">Eretz Israel</placeName>
+                                    <location>
+                                          <geo>31.6253,35.1453 </geo>
+                                    </location>
+                                    <idno type="Kima">https://data.geo-kima.org/Place/2501</idno>
+                              </place>
+                              <place xml:id="K262">
+                                    <placeName type="primary-roman">Shkloŭ (Belarus)</placeName>
+                                    <location>
+                                          <geo>54.20833333,30.28694444 </geo>
+                                    </location>
+                                    <idno type="Kima">https://data.geo-kima.org/Place/262</idno>
+                              </place>
+                              <place xml:id="K26515">
+                                    <placeName type="primary-roman">Hannopil' (Ukraine)</placeName>
+                                    <location>
+                                          <geo>50.45,26.9 </geo>
+                                    </location>
+                                    <idno type="Kima">https://data.geo-kima.org/Place/26515</idno>
+                              </place>
+                              <place xml:id="K26650">
+                                    <placeName type="primary-roman">Perbenik (Slovakia)</placeName>
+                                    <location>
+                                          <geo>48.39722222,22 </geo>
+                                    </location>
+                                    <idno type="Kima">https://data.geo-kima.org/Place/26650</idno>
+                              </place>
+                              <place xml:id="K26660">
+                                    <placeName type="primary-roman">Novyy Oleksinets
+                                          (Ukraine)</placeName>
+                                    <location>
+                                          <geo>49.83877,25.49521 </geo>
+                                    </location>
+                                    <idno type="Kima">https://data.geo-kima.org/Place/26660</idno>
+                              </place>
+                              <place xml:id="K26887">
+                                    <placeName type="primary-roman">Ovruch (Ukraine)</placeName>
+                                    <location>
+                                          <geo>51.32444444,28.80805556 </geo>
+                                    </location>
+                                    <idno type="Kima">https://data.geo-kima.org/Place/26887</idno>
+                              </place>
+                              <place xml:id="K27067">
+                                    <placeName type="primary-roman">Rozdil (Ukraine)</placeName>
+                                    <location>
+                                          <geo>49.4622028,24.0687687 </geo>
+                                    </location>
+                                    <idno type="Kima">https://data.geo-kima.org/Place/27067</idno>
+                              </place>
+                              <place xml:id="K27168">
+                                    <placeName type="primary-roman">Nemyriv (Vinnyt︠s︡ʹka oblastʹ,
+                                          Ukraine)</placeName>
+                                    <location>
+                                          <geo>48.979444444444,28.843888888889 </geo>
+                                    </location>
+                                    <idno type="Kima">https://data.geo-kima.org/Place/27168</idno>
+                              </place>
+                              <place xml:id="K294">
+                                    <placeName type="primary-roman">Siedlce (Poland)</placeName>
+                                    <location>
+                                          <geo>52.18333333,22.28333333 </geo>
+                                    </location>
+                                    <idno type="Kima">https://data.geo-kima.org/Place/294</idno>
+                              </place>
+                              <place xml:id="K318">
+                                    <placeName type="primary-roman">Halych (Ukraine)</placeName>
+                                    <location>
+                                          <geo>49.12179,24.72578 </geo>
+                                    </location>
+                                    <idno type="Kima">https://data.geo-kima.org/Place/318</idno>
+                              </place>
+                              <place xml:id="K332">
+                                    <placeName type="primary-roman">Horodenka (Ukraine)</placeName>
+                                    <location>
+                                          <geo>48.66666667,25.5 </geo>
+                                    </location>
+                                    <idno type="Kima">https://data.geo-kima.org/Place/332</idno>
+                              </place>
+                              <place xml:id="K334">
+                                    <placeName type="primary-roman">Humenné (Slovakia)</placeName>
+                                    <location>
+                                          <geo>48.932454,21.9078917 </geo>
+                                    </location>
+                                    <idno type="Kima">https://data.geo-kima.org/Place/334</idno>
+                              </place>
+                              <place xml:id="K347">
+                                    <placeName type="primary-roman">Berez︠h︡any
+                                          (Ukraine)</placeName>
+                                    <location>
+                                          <geo>49.45,24.93333 </geo>
+                                    </location>
+                                    <idno type="Kima">https://data.geo-kima.org/Place/347</idno>
+                              </place>
+                              <place xml:id="K350">
+                                    <placeName type="primary-roman">Bila T︠S︡erkva
+                                          (Ukraine)</placeName>
+                                    <location>
+                                          <geo>49.80939,30.11209 </geo>
+                                    </location>
+                                    <idno type="Kima">https://data.geo-kima.org/Place/350</idno>
+                              </place>
+                              <place xml:id="K353">
+                                    <placeName type="primary-roman">Bolekhiv (Ukraine)</placeName>
+                                    <location>
+                                          <geo>49.06607,23.86435 </geo>
+                                    </location>
+                                    <idno type="Kima">https://data.geo-kima.org/Place/353</idno>
+                              </place>
+                              <place xml:id="K360">
+                                    <placeName type="primary-roman">Buchach (Ukraine)</placeName>
+                                    <location>
+                                          <geo>49.064831,25.3817159 </geo>
+                                    </location>
+                                    <idno type="Kima">https://data.geo-kima.org/Place/360</idno>
+                              </place>
+                              <place xml:id="K377">
+                                    <placeName type="primary-roman">Tsefat (Israel)</placeName>
+                                    <location>
+                                          <geo>32.964648,35.495997 </geo>
+                                    </location>
+                                    <idno type="Kima">https://data.geo-kima.org/Place/377</idno>
+                              </place>
+                              <place xml:id="K391">
+                                    <placeName type="primary-roman">Kock (Poland)</placeName>
+                                    <location>
+                                          <geo>51.65,22.45 </geo>
+                                    </location>
+                                    <idno type="Kima">https://data.geo-kima.org/Place/391</idno>
+                              </place>
+                              <place xml:id="K409">
+                                    <placeName type="primary-roman">Pinsk (Belarus)</placeName>
+                                    <location>
+                                          <geo>52.11666667,26.08333333 </geo>
+                                    </location>
+                                    <idno type="Kima">https://data.geo-kima.org/Place/409</idno>
+                              </place>
+                              <place xml:id="K413">
+                                    <placeName type="primary-roman">Płock (Poland)</placeName>
+                                    <location>
+                                          <geo>52.55,19.7 </geo>
+                                    </location>
+                                    <idno type="Kima">https://data.geo-kima.org/Place/413</idno>
+                              </place>
+                              <place xml:id="K417">
+                                    <placeName type="primary-roman">Prostějov (Czech
+                                          Republic)</placeName>
+                                    <location>
+                                          <geo>49.47222222,17.11055556 </geo>
+                                    </location>
+                                    <idno type="Kima">https://data.geo-kima.org/Place/417</idno>
+                              </place>
+                              <place xml:id="K420">
+                                    <placeName type="primary-roman">Frysztak (Poland)</placeName>
+                                    <location>
+                                          <geo>49.8409644,21.6104056 </geo>
+                                    </location>
+                                    <idno type="Kima">https://data.geo-kima.org/Place/420</idno>
+                              </place>
+                              <place xml:id="K422">
+                                    <placeName type="primary-roman">Frankfurt am Main
+                                          (Germany)</placeName>
+                                    <location>
+                                          <geo>50.113611111111,8.6797222222222 </geo>
+                                    </location>
+                                    <idno type="Kima">https://data.geo-kima.org/Place/422</idno>
+                              </place>
+                              <place xml:id="K424">
+                                    <placeName type="primary-roman">Przemyśl (Poland)</placeName>
+                                    <location>
+                                          <geo>49.78333333,22.76666667 </geo>
+                                    </location>
+                                    <idno type="Kima">https://data.geo-kima.org/Place/424</idno>
+                              </place>
+                              <place xml:id="K435">
+                                    <placeName type="primary-roman">Nowy Sącz (Poland)</placeName>
+                                    <location>
+                                          <geo>49.623888888,20.697222222 </geo>
+                                    </location>
+                                    <idno type="Kima">https://data.geo-kima.org/Place/435</idno>
+                              </place>
+                              <place xml:id="K436">
+                                    <placeName type="primary-roman">Kalisz (Poland)</placeName>
+                                    <location>
+                                          <geo>51.757,18.083 </geo>
+                                    </location>
+                                    <idno type="Kima">https://data.geo-kima.org/Place/436</idno>
+                              </place>
+                              <place xml:id="K451">
+                                    <placeName type="primary-roman">Rzeszów (Poland)</placeName>
+                                    <location>
+                                          <geo>50.05,22 </geo>
+                                    </location>
+                                    <idno type="Kima">https://data.geo-kima.org/Place/451</idno>
+                              </place>
+                              <place xml:id="K489">
+                                    <placeName type="primary-roman">Krakow (Poland)</placeName>
+                                    <location>
+                                          <geo>50.0646501,19.9449799 </geo>
+                                    </location>
+                                    <idno type="Kima">https://data.geo-kima.org/Place/489</idno>
+                              </place>
+                              <place xml:id="K517">
+                                    <placeName type="primary-roman">Bukowsko (Poland)</placeName>
+                                    <location>
+                                          <geo>49.5,22.06666667 </geo>
+                                    </location>
+                                    <idno type="Kima">https://data.geo-kima.org/Place/517</idno>
+                              </place>
+                              <place xml:id="K526">
+                                    <placeName type="primary-roman">Stanislav (Ukraine)</placeName>
+                                    <location>
+                                          <geo>48.92277778,24.71055556 </geo>
+                                    </location>
+                                    <idno type="Kima">https://data.geo-kima.org/Place/526</idno>
+                              </place>
+                              <place xml:id="K527">
+                                    <placeName type="primary-roman">Bielsko-Biała
+                                          (Poland)</placeName>
+                                    <location>
+                                          <geo>49.8225,19.044444444 </geo>
+                                    </location>
+                                    <idno type="Kima">https://data.geo-kima.org/Place/527</idno>
+                              </place>
+                              <place xml:id="K533">
+                                    <placeName type="primary-roman">Istanbul (Turkey)</placeName>
+                                    <location>
+                                          <geo>41.01,28.960277777778 </geo>
+                                    </location>
+                                    <idno type="Kima">https://data.geo-kima.org/Place/533</idno>
+                              </place>
+                              <place xml:id="K550">
+                                    <placeName type="primary-roman">Amsterdam
+                                          (Netherlands)</placeName>
+                                    <location>
+                                          <geo>52.3702157,4.8951679 </geo>
+                                    </location>
+                                    <idno type="Kima">https://data.geo-kima.org/Place/550</idno>
+                              </place>
+                              <place xml:id="K552">
+                                    <placeName type="primary-roman">Opatów (Tarnobrzeg,
+                                          Poland)</placeName>
+                                    <location>
+                                          <geo>50.805,21.424722222 </geo>
+                                    </location>
+                                    <idno type="Kima">https://data.geo-kima.org/Place/552</idno>
+                              </place>
+                              <place xml:id="K571">
+                                    <placeName type="primary-roman">Berdychiv (Ukraine)</placeName>
+                                    <location>
+                                          <geo>49.9,28.58333333 </geo>
+                                    </location>
+                                    <idno type="Kima">https://data.geo-kima.org/Place/571</idno>
+                              </place>
+                              <place xml:id="K574">
+                                    <placeName type="primary-roman">Bratislava
+                                          (Slovakia)</placeName>
+                                    <location>
+                                          <geo>48.1485965,17.1077478 </geo>
+                                    </location>
+                                    <idno type="Kima">https://data.geo-kima.org/Place/574</idno>
+                              </place>
+                              <place xml:id="K576">
+                                    <placeName type="primary-roman">Brest (Belarus)</placeName>
+                                    <location>
+                                          <geo>52.13333333,23.66666667 </geo>
+                                    </location>
+                                    <idno type="Kima">https://data.geo-kima.org/Place/576</idno>
+                              </place>
+                              <place xml:id="K578">
+                                    <placeName type="primary-roman">Berlin (Germany)</placeName>
+                                    <location>
+                                          <geo>52.51666667,13.38333333 </geo>
+                                    </location>
+                                    <idno type="Kima">https://data.geo-kima.org/Place/578</idno>
+                              </place>
+                              <place xml:id="K579">
+                                    <placeName type="primary-roman">Leipzig (Germany)</placeName>
+                                    <location>
+                                          <geo>51.33333333,12.38333333 </geo>
+                                    </location>
+                                    <idno type="Kima">https://data.geo-kima.org/Place/579</idno>
+                              </place>
+                              <place xml:id="K633">
+                                    <placeName type="primary-roman">Ostroh (Ukraine)</placeName>
+                                    <location>
+                                          <geo>50.3279292,26.521108 </geo>
+                                    </location>
+                                    <idno type="Kima">https://data.geo-kima.org/Place/633</idno>
+                              </place>
+                              <place xml:id="K6353">
+                                    <placeName type="primary-roman">Amersfoort
+                                          (Netherlands)</placeName>
+                                    <location>
+                                          <geo>52.15,5.38 </geo>
+                                    </location>
+                                    <idno type="Kima">https://data.geo-kima.org/Place/6353</idno>
+                              </place>
+                              <place xml:id="K636">
+                                    <placeName type="primary-roman">Radom (Województwo Mazowieckie,
+                                          Poland)</placeName>
+                                    <location>
+                                          <geo>51.40253,21.14714 </geo>
+                                    </location>
+                                    <idno type="Kima">https://data.geo-kima.org/Place/636</idno>
+                              </place>
+                              <place xml:id="K638">
+                                    <placeName type="primary-roman">Prague (Czech
+                                          Republic)</placeName>
+                                    <location>
+                                          <geo>50.08804,14.42076 </geo>
+                                    </location>
+                                    <idno type="Kima">https://data.geo-kima.org/Place/638</idno>
+                              </place>
+                              <place xml:id="K6399">
+                                    <placeName type="primary-roman">France</placeName>
+                                    <location>
+                                          <geo>46.227638,2.213749 </geo>
+                                    </location>
+                                    <idno type="Kima">https://data.geo-kima.org/Place/6399</idno>
+                              </place>
+                              <place xml:id="K6471">
+                                    <placeName type="primary-roman">Spain</placeName>
+                                    <location>
+                                          <geo>40,-3 </geo>
+                                    </location>
+                                    <idno type="Kima">https://data.geo-kima.org/Place/6471</idno>
+                              </place>
+                              <place xml:id="K648">
+                                    <placeName type="primary-roman">Płońsk (Poland)</placeName>
+                                    <location>
+                                          <geo>52.6230132,20.3753589 </geo>
+                                    </location>
+                                    <idno type="Kima">https://data.geo-kima.org/Place/648</idno>
+                              </place>
+                              <place xml:id="K656">
+                                    <placeName type="primary-roman">Bucharest (Romania)</placeName>
+                                    <location>
+                                          <geo>44.4267674,26.1025384 </geo>
+                                    </location>
+                                    <idno type="Kima">https://data.geo-kima.org/Place/656</idno>
+                              </place>
+                              <place xml:id="K669">
+                                    <placeName type="primary-roman">Iași (Romania)</placeName>
+                                    <location>
+                                          <geo>47.1584549,27.6014418 </geo>
+                                    </location>
+                                    <idno type="Kima">https://data.geo-kima.org/Place/669</idno>
+                              </place>
+                              <place xml:id="K671">
+                                    <placeName type="primary-roman">Tysmenyt︠s︡i︠a︡
+                                          (Ukraine)</placeName>
+                                    <location>
+                                          <geo>48.90219,24.84482 </geo>
+                                    </location>
+                                    <idno type="Kima">https://data.geo-kima.org/Place/671</idno>
+                              </place>
+                              <place xml:id="K675">
+                                    <placeName type="primary-roman">Koret︠s︡ʹ (Ukraine)</placeName>
+                                    <location>
+                                          <geo>50.61655,27.16055 </geo>
+                                    </location>
+                                    <idno type="Kima">https://data.geo-kima.org/Place/675</idno>
+                              </place>
+                              <place xml:id="K6758">
+                                    <placeName type="primary-roman">Ljubljana (Slovenia)</placeName>
+                                    <location>
+                                          <geo>46.05,14.51666667 </geo>
+                                    </location>
+                                    <idno type="Kima">https://data.geo-kima.org/Place/6758</idno>
+                              </place>
+                              <place xml:id="K676">
+                                    <placeName type="primary-roman">Kozienice (Poland)</placeName>
+                                    <location>
+                                          <geo>51.58333333,21.56666667 </geo>
+                                    </location>
+                                    <idno type="Kima">https://data.geo-kima.org/Place/676</idno>
+                              </place>
+                              <place xml:id="K677">
+                                    <placeName type="primary-roman">Brody (Ukraine)</placeName>
+                                    <location>
+                                          <geo>50.08791,25.15027 </geo>
+                                    </location>
+                                    <idno type="Kima">https://data.geo-kima.org/Place/677</idno>
+                              </place>
+                              <place xml:id="K688">
+                                    <placeName type="primary-roman">London (England)</placeName>
+                                    <location>
+                                          <geo>51.50853,-0.12574 </geo>
+                                    </location>
+                                    <idno type="Kima">https://data.geo-kima.org/Place/688</idno>
+                              </place>
+                              <place xml:id="K691">
+                                    <placeName type="primary-roman">Jerusalem (Israel)</placeName>
+                                    <location>
+                                          <geo>31.768319,35.21371 </geo>
+                                    </location>
+                                    <idno type="Kima">https://data.geo-kima.org/Place/691</idno>
+                              </place>
+                              <place xml:id="K6923">
+                                    <placeName type="primary-roman">Szczebrzeszyn
+                                          (Poland)</placeName>
+                                    <location>
+                                          <geo>50.69499,22.97954 </geo>
+                                    </location>
+                                    <idno type="Kima">https://data.geo-kima.org/Place/6923</idno>
+                              </place>
+                              <place xml:id="K7007">
+                                    <placeName type="primary-roman">Hildesheim (Germany :
+                                          Landkreis)</placeName>
+                                    <location>
+                                          <geo>52.08,9.92 </geo>
+                                    </location>
+                                    <idno type="Kima">https://data.geo-kima.org/Place/7007</idno>
+                              </place>
+                              <place xml:id="K71">
+                                    <placeName type="primary-roman">Acre (Israel)</placeName>
+                                    <location>
+                                          <geo>32.926111111111,35.083888888889 </geo>
+                                    </location>
+                                    <idno type="Kima">https://data.geo-kima.org/Place/71</idno>
+                              </place>
+                              <place xml:id="K7208">
+                                    <placeName type="primary-roman">Óbuda (Hungary)</placeName>
+                                    <location>
+                                          <geo>47.55,19.03333333 </geo>
+                                    </location>
+                                    <idno type="Kima">https://data.geo-kima.org/Place/7208</idno>
+                              </place>
+                              <place xml:id="K7313">
+                                    <placeName type="primary-roman">Poland</placeName>
+                                    <location>
+                                          <geo>51.919438,19.145136 </geo>
+                                    </location>
+                                    <idno type="Kima">https://data.geo-kima.org/Place/7313</idno>
+                              </place>
+                              <place xml:id="K7547">
+                                    <placeName type="primary-roman">Hungary</placeName>
+                                    <location>
+                                          <geo>47,19 </geo>
+                                    </location>
+                                    <idno type="Kima">https://data.geo-kima.org/Place/7547</idno>
+                              </place>
+                              <place xml:id="K7621">
+                                    <placeName type="primary-roman">Algiers (Algeria)</placeName>
+                                    <location>
+                                          <geo>36.77638889,3.058611111 </geo>
+                                    </location>
+                                    <idno type="Kima">https://data.geo-kima.org/Place/7621</idno>
+                              </place>
+                              <place xml:id="K7645">
+                                    <placeName type="primary-roman">Austria</placeName>
+                                    <location>
+                                          <geo>48,14 </geo>
+                                    </location>
+                                    <idno type="Kima">https://data.geo-kima.org/Place/7645</idno>
+                              </place>
+                              <place xml:id="K765">
+                                    <placeName type="primary-roman">Tarnów (Poland)</placeName>
+                                    <location>
+                                          <geo>50.0125,20.988333333333 </geo>
+                                    </location>
+                                    <idno type="Kima">https://data.geo-kima.org/Place/765</idno>
+                              </place>
+                              <place xml:id="K769">
+                                    <placeName type="primary-roman">Janów Lubelski
+                                          (Poland)</placeName>
+                                    <location>
+                                          <geo>50.7,22.4 </geo>
+                                    </location>
+                                    <idno type="Kima">https://data.geo-kima.org/Place/769</idno>
+                              </place>
+                              <place xml:id="K7776">
+                                    <placeName type="primary-roman">Worms (Germany)</placeName>
+                                    <location>
+                                          <geo>49.631944444444,8.3652777777778 </geo>
+                                    </location>
+                                    <idno type="Kima">https://data.geo-kima.org/Place/7776</idno>
+                              </place>
+                              <place xml:id="K8046">
+                                    <placeName type="primary-roman">Egypt</placeName>
+                                    <location>
+                                          <geo>26.820553,30.802498 </geo>
+                                    </location>
+                                    <idno type="Kima">https://data.geo-kima.org/Place/8046</idno>
+                              </place>
+                              <place xml:id="K8132">
+                                    <placeName type="primary-roman">Speyer (Germany)</placeName>
+                                    <location>
+                                          <geo>49.319444444444,8.4311111111111 </geo>
+                                    </location>
+                                    <idno type="Kima">https://data.geo-kima.org/Place/8132</idno>
+                              </place>
+                              <place xml:id="K83">
+                                    <placeName type="primary-roman">Padua (Italy)</placeName>
+                                    <location>
+                                          <geo>45.406388888,11.877777777 </geo>
+                                    </location>
+                                    <idno type="Kima">https://data.geo-kima.org/Place/83</idno>
+                              </place>
+                              <place xml:id="K84">
+                                    <placeName type="primary-roman">Poznań (Poland)</placeName>
+                                    <location>
+                                          <geo>52.4,16.91666667 </geo>
+                                    </location>
+                                    <idno type="Kima">https://data.geo-kima.org/Place/84</idno>
+                              </place>
+                              <place xml:id="K845">
+                                    <placeName type="primary-roman">Józefów (Poland)</placeName>
+                                    <location>
+                                          <geo>52.13555556,21.23694444 </geo>
+                                    </location>
+                                    <idno type="Kima">https://data.geo-kima.org/Place/845</idno>
+                              </place>
+                              <place xml:id="K862">
+                                    <placeName type="primary-roman">Jarosław (Poland)</placeName>
+                                    <location>
+                                          <geo>50.0161463,22.6777169 </geo>
+                                    </location>
+                                    <idno type="Kima">https://data.geo-kima.org/Place/862</idno>
+                              </place>
+                              <place xml:id="K8664">
+                                    <placeName type="primary-roman">Mannheim (Germany)</placeName>
+                                    <location>
+                                          <geo>49.48777778,8.466111111 </geo>
+                                    </location>
+                                    <idno type="Kima">https://data.geo-kima.org/Place/8664</idno>
+                              </place>
+                              <place xml:id="K882">
+                                    <placeName type="primary-roman">Hrodna (Belarus)</placeName>
+                                    <location>
+                                          <geo>53.6693538,23.8131306 </geo>
+                                    </location>
+                                    <idno type="Kima">https://data.geo-kima.org/Place/882</idno>
+                              </place>
+                              <place xml:id="K895">
+                                    <placeName type="primary-roman">Dubno (Ukraine)</placeName>
+                                    <location>
+                                          <geo>50.41666667,25.75 </geo>
+                                    </location>
+                                    <idno type="Kima">https://data.geo-kima.org/Place/895</idno>
+                              </place>
+                              <place xml:id="K900">
+                                    <placeName type="primary-roman">Dukla (Poland)</placeName>
+                                    <location>
+                                          <geo>49.5555137,21.6832308 </geo>
+                                    </location>
+                                    <idno type="Kima">https://data.geo-kima.org/Place/900</idno>
+                              </place>
+                              <place xml:id="K902">
+                                    <placeName type="primary-roman">Dej (Romania)</placeName>
+                                    <location>
+                                          <geo>47.1415878,23.8787342 </geo>
+                                    </location>
+                                    <idno type="Kima">https://data.geo-kima.org/Place/902</idno>
+                              </place>
+                              <place xml:id="K9048">
+                                    <placeName type="primary-roman">Kam'i︠a︡net︠s︡ʹ-Podilʹsʹkyĭ
+                                          (Ukraine)</placeName>
+                                    <location>
+                                          <geo>50.08791,25.15027 </geo>
+                                    </location>
+                                    <idno type="Kima">https://data.geo-kima.org/Place/9048</idno>
+                              </place>
+                              <place xml:id="K9129">
+                                    <placeName type="primary-roman">Umanʹ (Ukraine)</placeName>
+                                    <location>
+                                          <geo>48.75,30.21666667 </geo>
+                                    </location>
+                                    <idno type="Kima">https://data.geo-kima.org/Place/9129</idno>
+                              </place>
+                              <place xml:id="K943">
+                                    <placeName type="primary-roman">Vilnius (Lithuania)</placeName>
+                                    <location>
+                                          <geo>54.6871555,25.2796514 </geo>
+                                    </location>
+                                    <idno type="Kima">https://data.geo-kima.org/Place/943</idno>
+                              </place>
+                              <place xml:id="K945">
+                                    <placeName type="primary-roman">Vienna (Austria)</placeName>
+                                    <location>
+                                          <geo>48.2081743,16.3738189 </geo>
+                                    </location>
+                                    <idno type="Kima">https://data.geo-kima.org/Place/945</idno>
+                              </place>
+                              <place xml:id="K951">
+                                    <placeName type="primary-roman">Wrocław (Poland)</placeName>
+                                    <location>
+                                          <geo>51.1078852,17.0385376 </geo>
+                                    </location>
+                                    <idno type="Kima">https://data.geo-kima.org/Place/951</idno>
+                              </place>
+                              <place xml:id="K953">
+                                    <placeName type="primary-roman">Warsaw (Poland)</placeName>
+                                    <location>
+                                          <geo>52.21666667,21.03333333 </geo>
+                                    </location>
+                                    <idno type="Kima">https://data.geo-kima.org/Place/953</idno>
+                              </place>
+                              <place xml:id="K957">
+                                    <placeName type="primary-roman">Zhytomyr (Ukraine)</placeName>
+                                    <location>
+                                          <geo>50.25444444,28.65777778 </geo>
+                                    </location>
+                                    <idno type="Kima">https://data.geo-kima.org/Place/957</idno>
+                              </place>
+                              <place xml:id="K9584">
+                                    <placeName type="primary-roman">Przeworsk (Poland)</placeName>
+                                    <location>
+                                          <geo>50.05912,22.49408 </geo>
+                                    </location>
+                                    <idno type="Kima">https://data.geo-kima.org/Place/9584</idno>
+                              </place>
+                              <place xml:id="K977">
+                                    <placeName type="primary-roman">Drohobych (Ukraine)</placeName>
+                                    <location>
+                                          <geo>49.35,23.5 </geo>
+                                    </location>
+                                    <idno type="Kima">https://data.geo-kima.org/Place/977</idno>
+                              </place>
+                              <place xml:id="K978">
+                                    <placeName type="primary-roman">Hague (Netherlands)</placeName>
+                                    <location>
+                                          <geo>52.08416667,4.3175 </geo>
+                                    </location>
+                                    <idno type="Kima">https://data.geo-kima.org/Place/978</idno>
+                              </place>
+                              <place xml:id="K979">
+                                    <placeName type="primary-roman">Hannover (Germany)</placeName>
+                                    <location>
+                                          <geo>52.37444444,9.738611111 </geo>
+                                    </location>
+                                    <idno type="Kima">https://data.geo-kima.org/Place/979</idno>
+                              </place>
+                              <place xml:id="K99">
+                                    <placeName type="primary-roman">Sighet (Romania)</placeName>
+                                    <location>
+                                          <geo>47.93,23.89 </geo>
+                                    </location>
+                                    <idno type="Kima">https://data.geo-kima.org/Place/99</idno>
+                              </place>
+                              <place xml:id="K992">
+                                    <placeName type="primary-roman">Halberstadt
+                                          (Germany)</placeName>
+                                    <location>
+                                          <geo>51.895833333,11.046666666 </geo>
+                                    </location>
+                                    <idno type="Kima">https://data.geo-kima.org/Place/992</idno>
+                              </place>
+                              <place xml:id="K994">
+                                    <placeName type="primary-roman">Hamburg (Germany)</placeName>
+                                    <location>
+                                          <geo>53.5510846,9.9936819 </geo>
+                                    </location>
+                                    <idno type="Kima">https://data.geo-kima.org/Place/994</idno>
+                              </place>
+                        </listPlace>
+                        <listRelation>
+                              <relation name="topic-in-stories" active="#perception"
+                                    passive="#Mifalot-HaZadikim_0001 #Mifalot-HaZadikim_0003 #Mifalot-HaZadikim_0008 #Mifalot-HaZadikim_0013 #Khal-Hasidim_1 #Khal-Hasidim_4 #Khal-Hasidim_6 #Khal-Hasidim_11"/>
+                              <relation name="topic-in-stories" active="#perception"
+                                    passive="#Khal-Hasidim_1 #Khal-Hasidim_2 #Khal-Hasidim_14 #Mifalot-HaZadikim_0012 #Mifalot-HaZadikim_0017"
+                              />
+                        </listRelation>
+                  </sourceDesc>
+            </fileDesc>
+            <profileDesc>
+                  <textClass>
+                        <keywords>
+                              <term xml:id="prognostication" ana="supernatural"/>
+                              <term xml:id="perception" ana="supernatural"/>
+                              <term xml:id="historical_event" ana="times"/>
+                              <term xml:id="the_travels_of_the_tsaddik" ana="practice"/>
+                              <term xml:id="major_character" ana="women"/>
+                              <term xml:id="agunah" ana="characters-and-roles"/>
+                              <term xml:id="releasing_agunot" ana="practice"/>
+                              <term xml:id="repentance" ana="ethics-and-emotions"/>
+                              <term xml:id="divorce" ana="social-relations"/>
+                              <term xml:id="converts_and_conversion" ana="social-relations"/>
+                        </keywords>
+                  </textClass>
+            </profileDesc>
+      </teiHeader>
+      <text>
+            <body>
+                  <p>Some text here.</p>
+            </body>
+      </text>
+</TEI>
