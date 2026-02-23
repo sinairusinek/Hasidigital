@@ -1,0 +1,1 @@
+# Authorities generation scripts package
