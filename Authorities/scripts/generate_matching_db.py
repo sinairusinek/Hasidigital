@@ -1,24 +1,27 @@
 #!/usr/bin/env python3
 """
-Generate matching database and display XML from authority XML.
+Generate matching database and display XML from authority XML + edition scans.
 
 This script:
-1. Parses the TEI authority XML file
-2. Scans all edition files for place/person name occurrences
-3. Generates:
+1. Parses the TEI authority XML file (all places + persons)
+2. Scans editions/incoming/ for ref-linked placeName tags → harvests Hebrew variants
+3. Scans unlinked placeName tags → matches against enriched variant lists
+4. Generates:
    - authorities-matching-db.json (comprehensive matching DB with occurrence tracking)
-   - Authorities.xml (minimal display XML for TEI-Publisher)
+   - Authorities.xml (minimal display XML — only places occurring in editions)
 
 Usage:
-    python generate_matching_db.py [--authority-xml PATH] [--output-dir DIR]
+    python generate_matching_db.py
 """
 
 import json
 import xml.etree.ElementTree as ET
 from pathlib import Path
+from collections import defaultdict
 from datetime import datetime
+import re
 import sys
-from typing import Dict, List, Tuple, Optional
+from typing import Dict, List, Tuple, Optional, Set
 
 # TEI namespace
 TEI_NS = "http://www.tei-c.org/ns/1.0"
@@ -34,12 +37,23 @@ def get_default_paths():
     script_dir = Path(__file__).parent
     project_dir = script_dir.parent.parent
     auth_dir = project_dir / "Authorities"
-    editions_dir = project_dir / "editions"
+    editions_dir = project_dir / "editions" / "incoming"
 
     authority_xml = auth_dir / "Authorities2026-01-14.xml"
     output_dir = auth_dir
 
     return authority_xml, editions_dir, output_dir
+
+
+def _detect_lang(text: str) -> str:
+    """Detect whether text is Hebrew or Latin based on character ranges."""
+    hebrew_chars = sum(1 for c in text if '\u0590' <= c <= '\u05FF')
+    latin_chars = sum(1 for c in text if ('A' <= c <= 'Z') or ('a' <= c <= 'z')
+                      or c in 'àáâãäåæçèéêëìíîïðñòóôõöøùúûüýþÿ'
+                      or c in 'ąćęłńóśźżĄĆĘŁŃÓŚŹŻ')
+    if hebrew_chars > latin_chars:
+        return "he"
+    return "en"
 
 
 def parse_place_element(elem) -> Dict:
@@ -72,9 +86,14 @@ def parse_place_element(elem) -> Dict:
             if name_text not in names_en:
                 names_en.append(name_text)
         else:
-            # Default to English if no lang specified
-            if name_text not in names_en:
-                names_en.append(name_text)
+            # No lang specified — detect and classify
+            detected = _detect_lang(name_text)
+            if detected == "he":
+                if name_text not in names_he:
+                    names_he.append(name_text)
+            else:
+                if name_text not in names_en:
+                    names_en.append(name_text)
 
     # Fallback: use first name found
     if not primary_name_en and names_en:
@@ -123,7 +142,6 @@ def parse_person_element(elem) -> Dict:
     """Parse a <person> element into a dict."""
     xml_id = elem.get(f"{{{XML_NS}}}id") or elem.get("id")
 
-    # Collect all name elements
     names_he = []
     names_en = []
     primary_name_en = None
@@ -141,13 +159,12 @@ def parse_person_element(elem) -> Dict:
                 names_he.append(name_text)
             if not primary_name_he:
                 primary_name_he = name_text
-        else:  # English or no lang
+        else:
             if name_text not in names_en:
                 names_en.append(name_text)
             if not primary_name_en:
                 primary_name_en = name_text
 
-    # Collect identifiers
     identifiers = {}
     for idno in elem.findall(f"{{{TEI_NS}}}idno"):
         idno_type = idno.get("type", "unknown")
@@ -173,88 +190,163 @@ def parse_authority_xml(xml_path: Path) -> Tuple[List[Dict], List[Dict]]:
     places = []
     persons = []
 
-    # Parse places
     for place_elem in root.findall(f".//{{{TEI_NS}}}listPlace/{{{TEI_NS}}}place"):
         places.append(parse_place_element(place_elem))
 
-    # Parse persons (both paratextual and contents)
     for person_elem in root.findall(f".//{{{TEI_NS}}}listPerson/{{{TEI_NS}}}person"):
         persons.append(parse_person_element(person_elem))
 
     return places, persons
 
 
-def scan_editions_for_places(editions_dir: Path, places: List[Dict]) -> Dict:
+def scan_editions(editions_dir: Path, places: List[Dict]) -> Tuple[Dict, Set[str]]:
     """
-    Scan all edition files for place name occurrences.
+    Scan edition files in editions/incoming/ for place name occurrences.
 
-    Returns dict: place_id → {file_name → {variant_name → count}}
+    Two passes:
+      Pass 1: Harvest ref-linked placeName tags → add Hebrew variants to places
+      Pass 2: Match unlinked placeName tags against enriched variant lists
+
+    Returns:
+      - occurrences: place_id → {file_name → {variant_name → count}}
+      - referenced_ids: set of place IDs that were actually found in editions
     """
-    occurrences = {}
+    # Build place lookup by ID
+    place_by_id = {p["id"]: p for p in places}
 
-    # Build a map of all name variants to place IDs
-    name_to_places = {}  # name → [(place_id, lang)]
-    for place in places:
-        place_id = place["id"]
-        for name in place["names_he"]:
-            if name not in name_to_places:
-                name_to_places[name] = []
-            name_to_places[name].append((place_id, "he"))
-        for name in place["names_en"]:
-            if name not in name_to_places:
-                name_to_places[name] = []
-            name_to_places[name].append((place_id, "en"))
+    occurrences = {}         # place_id → {file → {variant → count}}
+    referenced_ids = set()   # IDs that appear in editions
 
-    # Scan editions
+    # ── Pass 1: Harvest ref-linked names ─────────────────────────────────────
+    print("  Pass 1: Harvesting ref-linked variant names...")
+
     edition_files = sorted(editions_dir.glob("*.xml"))
+    harvested_count = 0
+
     for edition_file in edition_files:
         try:
             tree = ET.parse(edition_file)
             root = tree.getroot()
+            file_name = edition_file.name
 
-            # Find all placeName elements
             for pn_elem in root.findall(f".//{{{TEI_NS}}}placeName"):
-                place_text = (pn_elem.text or "").strip()
+                ref = pn_elem.get("ref", "")
+                if not ref:
+                    continue
 
+                # Extract place ID from ref="#H-LOC_N"
+                place_id = ref.lstrip("#")
+                if place_id not in place_by_id:
+                    continue
+
+                place = place_by_id[place_id]
+                referenced_ids.add(place_id)
+
+                # Get the text of the placeName
+                place_text = (pn_elem.text or "").strip()
                 if not place_text:
                     continue
 
-                # Check if this name matches any place variant
-                if place_text in name_to_places:
-                    for place_id, lang in name_to_places[place_text]:
-                        if place_id not in occurrences:
-                            occurrences[place_id] = {}
+                # Add as variant if not already known
+                lang = _detect_lang(place_text)
+                if lang == "he":
+                    if place_text not in place["names_he"]:
+                        place["names_he"].append(place_text)
+                        harvested_count += 1
+                else:
+                    if place_text not in place["names_en"]:
+                        place["names_en"].append(place_text)
+                        harvested_count += 1
 
-                        file_name = edition_file.name
-                        if file_name not in occurrences[place_id]:
-                            occurrences[place_id][file_name] = {}
+                # Update primary Hebrew name if still placeholder
+                if lang == "he" and place["primary_name_he"] == "(to be updated)":
+                    place["primary_name_he"] = place_text
 
-                        # Track which variant (with language tag) was found
-                        if place_text not in occurrences[place_id][file_name]:
-                            occurrences[place_id][file_name][place_text] = 0
-                        occurrences[place_id][file_name][place_text] += 1
+                # Record occurrence
+                if place_id not in occurrences:
+                    occurrences[place_id] = {}
+                if file_name not in occurrences[place_id]:
+                    occurrences[place_id][file_name] = {}
+                if place_text not in occurrences[place_id][file_name]:
+                    occurrences[place_id][file_name][place_text] = 0
+                occurrences[place_id][file_name][place_text] += 1
 
         except Exception as e:
-            print(f"Warning: Could not parse {edition_file}: {e}", file=sys.stderr)
+            print(f"  Warning: Could not parse {edition_file.name}: {e}",
+                  file=sys.stderr)
 
-    return occurrences
+    print(f"    Harvested {harvested_count} new variant names from ref-linked tags")
+    print(f"    {len(referenced_ids)} distinct places referenced")
+
+    # ── Pass 2: Match unlinked names against enriched variants ───────────────
+    print("  Pass 2: Matching unlinked place names...")
+
+    # Build name→place lookup from ALL variants (original + harvested)
+    name_to_place_id = {}  # name → place_id
+    for place in places:
+        pid = place["id"]
+        for name in place["names_he"] + place["names_en"]:
+            if name not in name_to_place_id:
+                name_to_place_id[name] = pid
+
+    unlinked_matched = 0
+    unlinked_total = 0
+
+    for edition_file in edition_files:
+        try:
+            tree = ET.parse(edition_file)
+            root = tree.getroot()
+            file_name = edition_file.name
+
+            for pn_elem in root.findall(f".//{{{TEI_NS}}}placeName"):
+                # Skip ref-linked (already handled in Pass 1)
+                if pn_elem.get("ref"):
+                    continue
+
+                place_text = (pn_elem.text or "").strip()
+                if not place_text:
+                    continue
+
+                unlinked_total += 1
+
+                # Try exact match against all known variants
+                if place_text in name_to_place_id:
+                    place_id = name_to_place_id[place_text]
+                    referenced_ids.add(place_id)
+                    unlinked_matched += 1
+
+                    # Record occurrence
+                    if place_id not in occurrences:
+                        occurrences[place_id] = {}
+                    if file_name not in occurrences[place_id]:
+                        occurrences[place_id][file_name] = {}
+                    if place_text not in occurrences[place_id][file_name]:
+                        occurrences[place_id][file_name][place_text] = 0
+                    occurrences[place_id][file_name][place_text] += 1
+
+        except Exception:
+            pass  # Already warned in Pass 1
+
+    print(f"    {unlinked_matched}/{unlinked_total} unlinked names matched")
+
+    return occurrences, referenced_ids
 
 
 def build_matching_db_json(places: List[Dict], persons: List[Dict],
                            occurrences: Dict) -> Dict:
     """Build the matching database JSON structure."""
-    # Enhance places with occurrence data
     places_with_occ = []
     for place in places:
         place_copy = place.copy()
+        # Deep copy lists so we don't share references
+        place_copy["names_he"] = list(place["names_he"])
+        place_copy["names_en"] = list(place["names_en"])
         place_id = place["id"]
 
         if place_id in occurrences:
             place_copy["occurrences"] = occurrences[place_id]
-            # Calculate total occurrences across all files and variants
             total = 0
             for file_dict in occurrences[place_id].values():
-                # file_dict is {variant_name → count}
                 for count in file_dict.values():
                     total += count
             place_copy["total_occurrences"] = total
@@ -274,13 +366,16 @@ def build_matching_db_json(places: List[Dict], persons: List[Dict],
     }
 
 
-def generate_display_xml(places: List[Dict], persons: List[Dict], output_path: Path):
-    """Generate minimal TEI-Publisher display XML."""
-    # Create root TEI element
+def generate_display_xml(places: List[Dict], persons: List[Dict],
+                         referenced_ids: Set[str], output_path: Path):
+    """
+    Generate minimal TEI-Publisher display XML.
+
+    Only includes places that appear in the incoming editions (referenced_ids).
+    """
     tei_root = ET.Element("TEI")
     tei_root.set("xmlns", TEI_NS)
 
-    # Add header
     tei_header = ET.SubElement(tei_root, "teiHeader")
     file_desc = ET.SubElement(tei_header, "fileDesc")
     title_stmt = ET.SubElement(file_desc, "titleStmt")
@@ -293,30 +388,33 @@ def generate_display_xml(places: List[Dict], persons: List[Dict], output_path: P
 
     source_desc = ET.SubElement(file_desc, "sourceDesc")
 
-    # Add places
+    # Add only places that appear in editions
     list_place = ET.SubElement(source_desc, "listPlace")
+    included_count = 0
     for place in places:
+        if place["id"] not in referenced_ids:
+            continue
+
         place_elem = ET.SubElement(list_place, "place")
         place_elem.set(f"{{{XML_NS}}}id", place["id"])
 
-        # Add primary Hebrew name placeholder
         pn_he = ET.SubElement(place_elem, "placeName")
         pn_he.set(f"{{{XML_NS}}}lang", "he")
         pn_he.set("type", "primary_he")
         pn_he.text = place["primary_name_he"]
 
-        # Add primary English name
         pn_en = ET.SubElement(place_elem, "placeName")
         pn_en.set(f"{{{XML_NS}}}lang", "en")
         pn_en.set("type", "primary_en")
         pn_en.text = place["primary_name_en"]
 
-        # Add coordinates if available
         if place["coordinates"]:
             geo_elem = ET.SubElement(place_elem, "geo")
             geo_elem.text = f"{place['coordinates'][0]},{place['coordinates'][1]}"
 
-    # Add persons
+        included_count += 1
+
+    # Add persons (all of them for now)
     list_person = ET.SubElement(source_desc, "listPerson")
     for person in persons:
         person_elem = ET.SubElement(list_person, "person")
@@ -325,9 +423,10 @@ def generate_display_xml(places: List[Dict], persons: List[Dict], output_path: P
         name_elem = ET.SubElement(person_elem, "name")
         name_elem.text = person["primary_name_en"]
 
-    # Write to file
     tree = ET.ElementTree(tei_root)
     tree.write(output_path, encoding="utf-8", xml_declaration=True)
+
+    return included_count
 
 
 def main():
@@ -338,25 +437,26 @@ def main():
     places, persons = parse_authority_xml(authority_xml)
     print(f"  Found {len(places)} places, {len(persons)} persons")
 
-    print(f"Scanning editions in: {editions_dir}")
-    occurrences = scan_editions_for_places(editions_dir, places)
-    print(f"  Found occurrences for {len(occurrences)} places")
+    print(f"\nScanning editions in: {editions_dir}")
+    occurrences, referenced_ids = scan_editions(editions_dir, places)
+    print(f"  Total: {len(referenced_ids)} places referenced in editions")
 
-    # Build matching database
-    print("Building matching database JSON...")
+    # Build matching database (includes ALL places, enriched with harvested variants)
+    print("\nBuilding matching database JSON...")
     matching_db = build_matching_db_json(places, persons, occurrences)
     matching_db_path = output_dir / "authorities-matching-db.json"
     with open(matching_db_path, "w", encoding="utf-8") as f:
         json.dump(matching_db, f, ensure_ascii=False, indent=2)
     print(f"  Wrote: {matching_db_path}")
 
-    # Generate display XML
-    print("Generating TEI-Publisher display XML...")
+    # Generate display XML (only places found in editions)
+    print("\nGenerating TEI-Publisher display XML (edition-referenced places only)...")
     display_xml_path = output_dir / "Authorities.xml"
-    generate_display_xml(places, persons, display_xml_path)
+    included = generate_display_xml(places, persons, referenced_ids, display_xml_path)
     print(f"  Wrote: {display_xml_path}")
+    print(f"  Included {included}/{len(places)} places (only those in editions)")
 
-    print("\n✅ Done!")
+    print("\nDone!")
 
 
 if __name__ == "__main__":

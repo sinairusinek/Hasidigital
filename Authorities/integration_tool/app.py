@@ -1,16 +1,18 @@
 """
-Hasidigital Authority Integration Tool
-A 4-step Streamlit wizard for merging CSV/Excel data into the TEI authority XML.
+Hasidigital Authority Integration Tool — Edition Place-Name Linker
+A 4-step Streamlit wizard for matching unlinked place names in editions
+to the authorities matching database.
 
 Steps:
-  1. Upload XML + Upload CSV/Excel + Map columns
-  2. Run matching algorithm, review auto-results
-  3. Resolve conflicts and assign IDs to new entities
-  4. Preview diff and download enriched XML
+  1. Select an edition from editions/incoming/, see linked vs unlinked summary
+  2. Review auto-matches of unlinked names against the matching DB
+  3. Resolve conflicts and assign IDs to new places
+  4. Save updates to matching DB (+ Authorities.xml for new places) and commit
 """
-import copy
+import json
 import sys
 import os
+import xml.etree.ElementTree as ET
 
 import streamlit as st
 import pandas as pd
@@ -18,47 +20,41 @@ import pandas as pd
 # Allow running from the project root as well as from this directory
 sys.path.insert(0, os.path.dirname(__file__))
 
-from data_models import MatchResult
-from xml_parser import parse_xml
-from csv_reader import (
-    load_file, df_to_places, df_to_persons, df_to_bibls,
-    PLACE_FIELDS, PERSON_FIELDS, BIBL_FIELDS, ENTITY_FIELDS, guess_mapping,
-)
-from matcher import match_places, match_persons, match_bibls, _distance_label
-from xml_writer import apply_results, serialise_bytes
-from utils import next_hloc_id, next_temph_id, next_hbibl_id
+from utils import next_hloc_id
 
-# ── Hardcoded XML path ────────────────────────────────────────────────────────
+# ── Paths ────────────────────────────────────────────────────────────────────
 
-DEFAULT_XML_PATH = os.path.join(
-    os.path.dirname(__file__),
-    "..", "Authorities2026-01-14.xml"
-)
+TOOL_DIR = os.path.dirname(__file__)
+AUTH_DIR = os.path.abspath(os.path.join(TOOL_DIR, ".."))
+PROJECT_DIR = os.path.abspath(os.path.join(AUTH_DIR, ".."))
+EDITIONS_INCOMING = os.path.join(PROJECT_DIR, "editions", "incoming")
+MATCHING_DB_PATH = os.path.join(AUTH_DIR, "authorities-matching-db.json")
+DISPLAY_XML_PATH = os.path.join(AUTH_DIR, "Authorities.xml")
+GEN_SCRIPT = os.path.join(AUTH_DIR, "scripts", "generate_matching_db.py")
+
+TEI_NS = "http://www.tei-c.org/ns/1.0"
+XML_NS = "http://www.w3.org/XML/1998/namespace"
 
 # ── Page config ──────────────────────────────────────────────────────────────
 
 st.set_page_config(
-    page_title="Hasidigital Authority Integration",
+    page_title="Hasidigital Edition Linker",
     page_icon="📜",
     layout="wide",
 )
 
-# ── Session state helpers ─────────────────────────────────────────────────────
+# ── Session state helpers ────────────────────────────────────────────────────
 
 def _init():
     defaults = {
         "step": 1,
-        "xml_tree": None,
-        "xml_places": [],
-        "xml_persons": [],
-        "xml_bibls": [],
-        "xml_loaded": False,
-        "df": None,
-        "entity_type": "place",
-        "column_mapping": {},
-        "csv_records": [],
-        "match_results": [],
-        "csv_filename": "",
+        "db": None,
+        "db_loaded": False,
+        "edition_file": None,
+        "edition_name": "",
+        "linked_places": [],      # [{text, ref_id, ...}]
+        "unlinked_places": [],    # [{text, index, ...}]
+        "match_results": [],      # list of dicts with resolution info
     }
     for k, v in defaults.items():
         if k not in st.session_state:
@@ -67,79 +63,133 @@ def _init():
 _init()
 ss = st.session_state
 
-# Auto-load the authority XML from the repository on first run
-if not ss.get("xml_loaded"):
+# ── Auto-load the matching DB ────────────────────────────────────────────────
+
+if not ss.get("db_loaded"):
     try:
-        _path = os.path.abspath(DEFAULT_XML_PATH)
-        places, persons, bibls, tree = parse_xml(_path)
-        ss.xml_places = places
-        ss.xml_persons = persons
-        ss.xml_bibls = bibls
-        ss.xml_tree = tree
-        ss.xml_loaded = True
-        ss.xml_path = _path
+        with open(MATCHING_DB_PATH, "r", encoding="utf-8") as f:
+            ss.db = json.load(f)
+        ss.db_loaded = True
     except Exception as _e:
-        ss.xml_loaded = False
-        ss.xml_error = str(_e)
+        ss.db_loaded = False
+        ss.db_error = str(_e)
 
 
 def _go(step: int):
     ss.step = step
 
 
-def _suggest_id(entity_type: str, existing_ids: list) -> str:
-    if entity_type == "place":
-        return next_hloc_id(existing_ids)
-    elif entity_type == "person":
-        return next_temph_id(existing_ids)
-    else:
-        return next_hbibl_id(existing_ids)
+# ── Matching helpers ─────────────────────────────────────────────────────────
+
+def _build_variant_index(db):
+    """Build a lookup: variant_name → place dict from the matching DB."""
+    index = {}  # name → place dict
+    for place in db["places"]:
+        for name in place.get("names_he", []) + place.get("names_en", []):
+            if name and name not in index:
+                index[name] = place
+    return index
 
 
-def _record_to_dict(rec) -> dict:
-    if rec is None:
-        return {}
-    if hasattr(rec, "__dataclass_fields__"):
-        return {k: getattr(rec, k) for k in rec.__dataclass_fields__ if k != "extra"}
-    return {}
+def _detect_lang(text: str) -> str:
+    """Detect whether text is Hebrew or Latin."""
+    hebrew_chars = sum(1 for c in text if '\u0590' <= c <= '\u05FF')
+    return "he" if hebrew_chars > 0 else "en"
 
 
-def _build_issues_csv(results: list) -> bytes:
+def _parse_edition_places(edition_path):
     """
-    Build a CSV of all skipped matches, with full details of both sides.
+    Parse an edition XML and extract all placeName tags.
+    Returns (linked, unlinked) lists.
     """
+    tree = ET.parse(edition_path)
+    root = tree.getroot()
+
+    linked = []
+    unlinked = []
+
+    for idx, pn_elem in enumerate(root.findall(f".//{{{TEI_NS}}}placeName")):
+        ref = pn_elem.get("ref", "")
+        text = (pn_elem.text or "").strip()
+
+        if not text:
+            continue
+
+        entry = {
+            "text": text,
+            "index": idx,
+            "type": pn_elem.get("type", ""),
+            "ana": pn_elem.get("ana", ""),
+        }
+
+        if ref:
+            entry["ref_id"] = ref.lstrip("#")
+            linked.append(entry)
+        else:
+            unlinked.append(entry)
+
+    return linked, unlinked
+
+
+def _match_unlinked(unlinked, variant_index):
+    """
+    Try to match each unlinked place name against the variant index.
+    Returns list of result dicts.
+    """
+    results = []
+
+    # Deduplicate: group by unique text
+    seen_texts = {}  # text → list of indices
+    for entry in unlinked:
+        t = entry["text"]
+        if t not in seen_texts:
+            seen_texts[t] = []
+        seen_texts[t].append(entry["index"])
+
+    for text, indices in seen_texts.items():
+        result = {
+            "text": text,
+            "indices": indices,
+            "count": len(indices),
+            "status": "new",       # matched / new
+            "matched_place": None,  # place dict if matched
+            "resolution": "",       # accept / skip / new_entity
+            "assigned_id": None,
+        }
+
+        if text in variant_index:
+            place = variant_index[text]
+            result["status"] = "matched"
+            result["matched_place"] = place
+            result["resolution"] = "accept"
+
+        results.append(result)
+
+    # Sort: matched first, then new
+    results.sort(key=lambda r: (0 if r["status"] == "matched" else 1, r["text"]))
+
+    return results
+
+
+def _build_issues_csv(results):
+    """Build a CSV of skipped matches for the issues folder."""
     import io as _io
     import csv
 
     rows = []
     for r in results:
-        if r.resolution != "skip":
+        if r["resolution"] != "skip":
             continue
-        csv_rec = r.csv_record
-        xml_rec = r.xml_record
-
-        def _flat(rec, prefix):
-            """Flatten a record's fields into prefixed dict entries."""
-            if rec is None:
-                return {}
-            out = {}
-            if hasattr(rec, "__dataclass_fields__"):
-                for k in rec.__dataclass_fields__:
-                    if k == "extra":
-                        continue
-                    val = getattr(rec, k)
-                    if isinstance(val, list):
-                        val = " | ".join(str(v) for v in val)
-                    out[f"{prefix}_{k}"] = val if val is not None else ""
-            return out
-
         row = {
-            "match_method": r.match_method,
-            "confidence": f"{r.confidence:.0%}" if r.confidence else "",
-            "conflict_details": r.conflict_details,
+            "edition_text": r["text"],
+            "occurrences": r["count"],
+            "status": r["status"],
         }
-        row.update(_flat(csv_rec, "csv"))
-        row.update(_flat(xml_rec, "xml"))
+        if r["matched_place"]:
+            mp = r["matched_place"]
+            row["suggested_id"] = mp["id"]
+            row["suggested_name_en"] = mp.get("primary_name_en", "")
+            row["suggested_name_he"] = mp.get("primary_name_he", "")
         rows.append(row)
 
     if not rows:
@@ -149,15 +199,15 @@ def _build_issues_csv(results: list) -> bytes:
     writer = csv.DictWriter(buf, fieldnames=list(rows[0].keys()), extrasaction="ignore")
     writer.writeheader()
     writer.writerows(rows)
-    return buf.getvalue().encode("utf-8-sig")  # BOM for Excel compatibility
+    return buf.getvalue().encode("utf-8-sig")
 
 
-# ── Sidebar progress ──────────────────────────────────────────────────────────
+# ── Sidebar progress ────────────────────────────────────────────────────────
 
-STEPS = ["1 · Upload & Map", "2 · Review Matches", "3 · Resolve Issues", "4 · Save & Commit"]
+STEPS = ["1 · Select Edition", "2 · Review Matches", "3 · Resolve Issues", "4 · Save & Commit"]
 
 with st.sidebar:
-    st.title("📜 Authority Integrator")
+    st.title("📜 Edition Linker")
     st.markdown("---")
     for i, label in enumerate(STEPS, start=1):
         marker = "✅" if ss.step > i else ("▶️" if ss.step == i else "⬜")
@@ -168,165 +218,147 @@ with st.sidebar:
             _go(ss.step - 1)
 
 
-# ═══════════════════════════════════════════════════════════════════════════════
-# STEP 1 — Upload & Map
-# ═══════════════════════════════════════════════════════════════════════════════
+# ═════════════════════════════════════════════════════════════════════════════
+# STEP 1 — Select edition
+# ═════════════════════════════════════════════════════════════════════════════
 
 if ss.step == 1:
-    st.header("Step 1 · Upload data file and map columns")
+    st.header("Step 1 · Select an edition and review place names")
 
-    col_xml, col_csv = st.columns(2)
-
-    with col_xml:
-        st.subheader("TEI Authority XML")
-        if ss.get("xml_loaded"):
-            st.success(
-                f"Auto-loaded from repository:  \n"
-                f"`{os.path.basename(ss.get('xml_path', ''))}`  \n"
-                f"{len(ss.xml_places)} places · {len(ss.xml_persons)} persons · {len(ss.xml_bibls)} bibls"
-            )
-        else:
-            st.error(f"Could not load XML: {ss.get('xml_error', 'unknown error')}")
-            st.info(f"Expected path: `{os.path.abspath(DEFAULT_XML_PATH)}`")
-
-    with col_csv:
-        st.subheader("CSV / Excel data")
-        csv_file = st.file_uploader("Upload CSV, TSV, or Excel", type=["csv", "tsv", "tab", "xlsx", "xls"], key="csv_upload")
-        if csv_file:
-            try:
-                df = load_file(csv_file)
-                ss.df = df
-                ss.csv_filename = csv_file.name
-                st.success(f"Loaded: {len(df)} rows × {len(df.columns)} columns")
-                st.dataframe(df.head(5), use_container_width=True)
-            except Exception as e:
-                st.error(f"Failed to load file: {e}")
-
-    if ss.get("xml_loaded") and ss.df is not None:
-        st.markdown("---")
-        st.subheader("Entity type and column mapping")
-
-        entity_type = st.radio(
-            "What kind of entities does this CSV contain?",
-            options=["place", "person", "bibl"],
-            format_func=lambda x: {"place": "Places", "person": "Persons", "bibl": "Bibliography"}[x],
-            horizontal=True,
-            key="entity_type_radio",
+    # Show DB status
+    if ss.db_loaded:
+        db = ss.db
+        place_count = len(db["places"])
+        places_with_he = sum(1 for p in db["places"] if p.get("names_he"))
+        st.success(
+            f"Matching DB loaded: **{place_count}** places "
+            f"({places_with_he} with Hebrew variants)"
         )
-        ss.entity_type = entity_type
+    else:
+        st.error(f"Could not load matching DB: {ss.get('db_error', 'unknown error')}")
+        st.info(f"Expected path: `{MATCHING_DB_PATH}`")
+        st.stop()
 
-        fields = ENTITY_FIELDS[entity_type]
-        guessed = guess_mapping(list(ss.df.columns), entity_type)
-        col_options = ["(skip)"] + list(ss.df.columns)
+    # List edition files
+    edition_files = sorted([
+        f for f in os.listdir(EDITIONS_INCOMING)
+        if f.endswith(".xml")
+    ])
 
-        st.markdown("Map each TEI field to a column in your file. Unneeded fields can be skipped.")
+    if not edition_files:
+        st.warning(f"No XML files found in `{EDITIONS_INCOMING}`")
+        st.stop()
 
-        mapping = {}
-        cols_per_row = 3
-        field_items = list(fields.items())
-        for row_start in range(0, len(field_items), cols_per_row):
-            row_fields = field_items[row_start: row_start + cols_per_row]
-            cols = st.columns(len(row_fields))
-            for col_ui, (field_key, field_label) in zip(cols, row_fields):
-                with col_ui:
-                    default_col = guessed.get(field_key, "(skip)")
-                    default_idx = col_options.index(default_col) if default_col in col_options else 0
-                    chosen = st.selectbox(
-                        field_label,
-                        options=col_options,
-                        index=default_idx,
-                        key=f"map_{field_key}",
-                    )
-                    if chosen != "(skip)":
-                        mapping[field_key] = chosen
-        ss.column_mapping = mapping
+    selected = st.selectbox(
+        "Select an edition file",
+        options=edition_files,
+        key="edition_selector",
+    )
 
-        if st.button("▶ Run matching →", type="primary"):
-            if not mapping:
-                st.warning("Please map at least one column before continuing.")
+    if selected:
+        edition_path = os.path.join(EDITIONS_INCOMING, selected)
+
+        try:
+            linked, unlinked = _parse_edition_places(edition_path)
+            ss.edition_file = edition_path
+            ss.edition_name = selected
+            ss.linked_places = linked
+            ss.unlinked_places = unlinked
+
+            st.markdown("---")
+
+            c1, c2, c3 = st.columns(3)
+            c1.metric("Total place names", len(linked) + len(unlinked))
+            c2.metric("✅ Already linked", len(linked))
+            c3.metric("❓ Unlinked", len(unlinked))
+
+            # Show linked places summary
+            if linked:
+                with st.expander(f"✅ Already linked ({len(linked)})", expanded=False):
+                    rows = []
+                    for entry in linked:
+                        rows.append({
+                            "Text": entry["text"],
+                            "Ref ID": entry["ref_id"],
+                        })
+                    st.dataframe(pd.DataFrame(rows), use_container_width=True)
+
+            # Show unlinked places preview
+            if unlinked:
+                with st.expander(f"❓ Unlinked place names ({len(unlinked)})", expanded=True):
+                    # Deduplicate for display
+                    from collections import Counter
+                    name_counts = Counter(e["text"] for e in unlinked)
+                    rows = [{"Name": name, "Occurrences": count}
+                            for name, count in name_counts.most_common()]
+                    st.dataframe(pd.DataFrame(rows), use_container_width=True)
+
+                if st.button("▶ Run matching →", type="primary"):
+                    _go(2)
+                    st.rerun()
             else:
-                _go(2)
-                st.rerun()
+                st.info("All place names in this edition are already linked!")
+
+        except Exception as e:
+            st.error(f"Could not parse edition: {e}")
 
 
-# ═══════════════════════════════════════════════════════════════════════════════
+# ═════════════════════════════════════════════════════════════════════════════
 # STEP 2 — Review matches
-# ═══════════════════════════════════════════════════════════════════════════════
+# ═════════════════════════════════════════════════════════════════════════════
 
 elif ss.step == 2:
     st.header("Step 2 · Review matching results")
 
     if not ss.match_results:
-        with st.spinner("Running matching algorithm…"):
-            et = ss.entity_type
-            mapping = ss.column_mapping
-            df = ss.df
-
-            if et == "place":
-                csv_recs = df_to_places(df, mapping)
-                results = match_places(csv_recs, ss.xml_places)
-            elif et == "person":
-                csv_recs = df_to_persons(df, mapping)
-                results = match_persons(csv_recs, ss.xml_persons)
-            else:
-                csv_recs = df_to_bibls(df, mapping)
-                results = match_bibls(csv_recs, ss.xml_bibls)
-
-            # Default resolution for clean matches
-            for r in results:
-                if r.status == MatchResult.MATCHED:
-                    r.resolution = "accept"
-
-            ss.csv_records = csv_recs
+        with st.spinner("Matching unlinked place names against DB..."):
+            variant_index = _build_variant_index(ss.db)
+            results = _match_unlinked(ss.unlinked_places, variant_index)
             ss.match_results = results
 
     results = ss.match_results
-    matched = [r for r in results if r.status == MatchResult.MATCHED]
-    conflicts = [r for r in results if r.status == MatchResult.CONFLICT]
-    new_recs = [r for r in results if r.status == MatchResult.NEW]
+    matched = [r for r in results if r["status"] == "matched"]
+    new_recs = [r for r in results if r["status"] == "new"]
+
+    total_matched_occ = sum(r["count"] for r in matched)
+    total_new_occ = sum(r["count"] for r in new_recs)
 
     m1, m2, m3 = st.columns(3)
-    m1.metric("✅ Matched", len(matched))
-    m2.metric("⚠️ Conflicts / Low confidence", len(conflicts))
-    m3.metric("🆕 New entities", len(new_recs))
+    m1.metric("✅ Matched (unique names)", len(matched))
+    m2.metric("🆕 Unmatched (unique names)", len(new_recs))
+    m3.metric("📊 Coverage", f"{total_matched_occ}/{total_matched_occ + total_new_occ}")
 
     st.markdown("---")
 
     # Matched table
-    with st.expander(f"✅ Matched records ({len(matched)})", expanded=False):
+    with st.expander(f"✅ Matched ({len(matched)} unique names, {total_matched_occ} occurrences)", expanded=False):
         rows = []
         for r in matched:
-            row = {
-                "CSV name": r.csv_record.primary_name,
-                "XML id": r.xml_record.xml_id if r.xml_record else "",
-                "Method": r.match_method,
-                "Confidence": f"{r.confidence:.0%}",
-            }
-            if r.distance_km is not None:
-                row["Distance"] = _distance_label(r.distance_km)
-            rows.append(row)
+            mp = r["matched_place"]
+            rows.append({
+                "Edition name": r["text"],
+                "Matched ID": mp["id"],
+                "Authority name (en)": mp.get("primary_name_en", ""),
+                "Authority name (he)": mp.get("primary_name_he", ""),
+                "Occurrences": r["count"],
+            })
         if rows:
             st.dataframe(pd.DataFrame(rows), use_container_width=True)
 
-    # Conflicts table
-    with st.expander(f"⚠️ Conflicts ({len(conflicts)})", expanded=True):
-        for r in conflicts:
-            dist_str = f" · distance: {_distance_label(r.distance_km)}" if r.distance_km is not None else ""
-            st.warning(
-                f"**{r.csv_record.primary_name}** → "
-                f"XML `{r.xml_record.xml_id if r.xml_record else '?'}` | "
-                f"{r.conflict_details}{dist_str}"
-            )
-
-    # New records table
-    with st.expander(f"🆕 New records ({len(new_recs)})", expanded=False):
-        rows = [{"CSV name": r.csv_record.primary_name} for r in new_recs]
+    # Unmatched table
+    with st.expander(f"🆕 Unmatched ({len(new_recs)} unique names, {total_new_occ} occurrences)", expanded=True):
+        rows = []
+        for r in new_recs:
+            rows.append({
+                "Edition name": r["text"],
+                "Occurrences": r["count"],
+            })
         if rows:
             st.dataframe(pd.DataFrame(rows), use_container_width=True)
 
     col_l, col_r = st.columns(2)
     with col_l:
-        if st.button("← Re-upload / change mapping"):
+        if st.button("← Back to edition selection"):
             ss.match_results = []
             _go(1)
             st.rerun()
@@ -336,219 +368,263 @@ elif ss.step == 2:
             st.rerun()
 
 
-# ═══════════════════════════════════════════════════════════════════════════════
+# ═════════════════════════════════════════════════════════════════════════════
 # STEP 3 — Resolve conflicts and assign IDs
-# ═══════════════════════════════════════════════════════════════════════════════
+# ═════════════════════════════════════════════════════════════════════════════
 
 elif ss.step == 3:
-    st.header("Step 3 · Resolve conflicts and assign IDs to new entities")
+    st.header("Step 3 · Resolve unmatched names and assign IDs")
 
     results = ss.match_results
-    et = ss.entity_type
+    db = ss.db
 
-    # Collect existing IDs from XML for next-ID generation
-    if et == "place":
-        existing_ids = [r.xml_id for r in ss.xml_places if r.xml_id]
-    elif et == "person":
-        existing_ids = [r.xml_id for r in ss.xml_persons if r.xml_id]
-    else:
-        existing_ids = [r.xml_id for r in ss.xml_bibls if r.xml_id]
-
-    # Also include any already-assigned IDs in this session
+    # Existing IDs for next-ID suggestions
+    existing_ids = [p["id"] for p in db["places"]]
     for r in results:
-        if r.assigned_id:
-            existing_ids.append(r.assigned_id)
+        if r.get("assigned_id"):
+            existing_ids.append(r["assigned_id"])
 
-    # ── Conflicts ────────────────────────────────────────────────────────────
-    conflicts = [r for r in results if r.status == MatchResult.CONFLICT]
-    if conflicts:
-        st.subheader(f"⚠️ {len(conflicts)} conflict(s) to resolve")
-        for i, r in enumerate(conflicts):
-            csv_name = r.csv_record.primary_name
-            xml_id = r.xml_record.xml_id if r.xml_record else "?"
-            xml_name = r.xml_record.primary_name if r.xml_record else "?"
-            with st.expander(f"{csv_name} ↔ {xml_id} ({xml_name})", expanded=True):
-                st.markdown(f"**Match method:** {r.match_method}  ")
-                st.markdown(f"**Confidence:** {r.confidence:.0%}  ")
-                if r.distance_km is not None:
-                    st.markdown(f"**Geographic distance:** {_distance_label(r.distance_km)}  ")
-                if r.conflict_details:
-                    st.markdown(f"**Details:** {r.conflict_details}")
-
-                col_a, col_b = st.columns(2)
-                with col_a:
-                    st.markdown("**CSV record:**")
-                    st.json(_record_to_dict(r.csv_record), expanded=False)
-                with col_b:
-                    st.markdown("**XML record:**")
-                    st.json(_record_to_dict(r.xml_record) if r.xml_record else {}, expanded=False)
-
-                choice = st.radio(
-                    "Resolution",
-                    options=["accept", "skip", "new_entity"],
-                    format_func=lambda x: {
-                        "accept": "Accept match (merge CSV data into this XML record)",
-                        "skip": "Skip (don't change anything)",
-                        "new_entity": "Treat as new entity (add to XML as separate record)",
-                    }[x],
-                    key=f"conflict_res_{i}",
-                    index=["accept", "skip", "new_entity"].index(r.resolution) if r.resolution in ["accept", "skip", "new_entity"] else 1,
-                )
-                r.resolution = choice
-
-                if choice == "new_entity":
-                    new_id = _suggest_id(et, existing_ids)
-                    assigned = st.text_input(
-                        "New ID",
-                        value=new_id,
-                        key=f"conflict_newid_{i}",
-                    )
-                    r.assigned_id = assigned
-                    if assigned and assigned not in existing_ids:
-                        existing_ids.append(assigned)
-    else:
-        st.info("No conflicts — all matches were high-confidence.")
-
-    st.markdown("---")
-
-    # ── New entities ─────────────────────────────────────────────────────────
-    new_recs = [r for r in results if r.status == MatchResult.NEW]
+    # ── Unmatched names ──────────────────────────────────────────────────────
+    new_recs = [r for r in results if r["status"] == "new"]
     if new_recs:
-        st.subheader(f"🆕 {len(new_recs)} new entit{'ies' if len(new_recs) != 1 else 'y'} to assign IDs")
-        st.markdown("Each new entity will be appended to the XML. Assign an ID or skip it.")
+        st.subheader(f"🆕 {len(new_recs)} unmatched place name(s)")
+        st.markdown("For each, choose to **skip** or **create a new place** in the authority.")
 
         for i, r in enumerate(new_recs):
-            col_name, col_action, col_id = st.columns([3, 2, 3])
-            with col_name:
-                st.markdown(f"**{r.csv_record.primary_name or '(unnamed)'}**")
-            with col_action:
+            with st.expander(f"**{r['text']}** ({r['count']}x)", expanded=True):
                 action = st.radio(
                     "Action",
-                    options=["add", "skip"],
-                    format_func=lambda x: {"add": "➕ Add to XML", "skip": "⏭ Skip"}[x],
+                    options=["skip", "new_entity"],
+                    format_func=lambda x: {
+                        "skip": "⏭ Skip (don't add to authority)",
+                        "new_entity": "➕ Create new place in authority",
+                    }[x],
                     key=f"new_action_{i}",
-                    horizontal=True,
+                    index=0 if r["resolution"] != "new_entity" else 1,
                 )
-                r.resolution = "new_entity" if action == "add" else "skip"
-            with col_id:
-                if action == "add":
-                    suggested = _suggest_id(et, existing_ids)
+                r["resolution"] = action
+
+                if action == "new_entity":
+                    suggested = next_hloc_id(existing_ids)
                     assigned = st.text_input(
-                        "ID",
-                        value=r.assigned_id or suggested,
+                        "New Place ID",
+                        value=r.get("assigned_id") or suggested,
                         key=f"new_id_{i}",
-                        label_visibility="collapsed",
                     )
-                    r.assigned_id = assigned
+                    r["assigned_id"] = assigned
                     if assigned and assigned not in existing_ids:
                         existing_ids.append(assigned)
     else:
-        st.info("No new entities to add.")
+        st.info("All unlinked names were matched — nothing to resolve.")
+
+    # ── Matched names (confirm) ──────────────────────────────────────────────
+    matched = [r for r in results if r["status"] == "matched"]
+    if matched:
+        st.markdown("---")
+        st.subheader(f"✅ {len(matched)} matched name(s) — will update DB counts")
+        st.markdown("These will add variant names and increment occurrence counts in the matching DB.")
+
+        with st.expander("Review matched names", expanded=False):
+            rows = []
+            for r in matched:
+                mp = r["matched_place"]
+                rows.append({
+                    "Edition name": r["text"],
+                    "→ Authority": f"{mp['id']} ({mp.get('primary_name_en', '')})",
+                    "Occurrences": r["count"],
+                })
+            st.dataframe(pd.DataFrame(rows), use_container_width=True)
 
     st.markdown("---")
-    if st.button("▶ Generate enriched XML →", type="primary"):
+    if st.button("▶ Save & commit →", type="primary"):
         _go(4)
         st.rerun()
 
 
-# ═══════════════════════════════════════════════════════════════════════════════
+# ═════════════════════════════════════════════════════════════════════════════
 # STEP 4 — Save and commit
-# ═══════════════════════════════════════════════════════════════════════════════
+# ═════════════════════════════════════════════════════════════════════════════
 
 elif ss.step == 4:
-    st.header("Step 4 · Save and commit to repository")
+    st.header("Step 4 · Save and commit")
 
     import datetime
     import subprocess
 
     results = ss.match_results
-    et = ss.entity_type
+    db = ss.db
+    edition_name = ss.edition_name
 
-    # Count what will change
-    to_enrich = [r for r in results if r.status == MatchResult.MATCHED and r.resolution in ("accept", "")]
-    to_add = [r for r in results if r.resolution == "new_entity" and r.assigned_id]
-    skipped = [r for r in results if r.resolution == "skip"]
+    # Categorize
+    accepted_matches = [r for r in results if r["status"] == "matched" and r["resolution"] == "accept"]
+    new_places = [r for r in results if r["resolution"] == "new_entity" and r.get("assigned_id")]
+    skipped = [r for r in results if r["resolution"] == "skip"]
 
     c1, c2, c3 = st.columns(3)
-    c1.metric("Records to enrich", len(to_enrich))
-    c2.metric("New records to add", len(to_add))
-    c3.metric("Skipped / issues", len(skipped))
+    c1.metric("DB updates (variants+counts)", len(accepted_matches))
+    c2.metric("New places to add", len(new_places))
+    c3.metric("Skipped", len(skipped))
 
-    if not to_enrich and not to_add:
-        st.warning("Nothing to write — all records were skipped or unresolved.")
+    if not accepted_matches and not new_places:
+        st.warning("Nothing to save — all names were skipped.")
     else:
         # Summary table
         summary_rows = []
-        for r in to_enrich:
+        for r in accepted_matches:
+            mp = r["matched_place"]
             summary_rows.append({
-                "Action": "Enrich",
-                "XML id": r.xml_record.xml_id,
-                "Name": r.csv_record.primary_name,
-                "Method": r.match_method,
+                "Action": "Update DB",
+                "Name": r["text"],
+                "Place ID": mp["id"],
+                "Occurrences": r["count"],
             })
-        for r in to_add:
+        for r in new_places:
             summary_rows.append({
-                "Action": "Add new",
-                "XML id": r.assigned_id,
-                "Name": r.csv_record.primary_name,
-                "Method": "new entity",
+                "Action": "New place",
+                "Name": r["text"],
+                "Place ID": r["assigned_id"],
+                "Occurrences": r["count"],
             })
         st.dataframe(pd.DataFrame(summary_rows), use_container_width=True)
 
         st.markdown("---")
 
-        # Commit message input
-        src = f" from {ss.csv_filename}" if ss.get("csv_filename") else ""
+        # Commit message
         default_msg = (
-            f"Integrate {et} data{src}: enrich {len(to_enrich)}, add {len(to_add)} new"
+            f"Link places in {edition_name}: "
+            f"{len(accepted_matches)} matched, {len(new_places)} new"
         )
-        commit_msg = st.text_input(
-            "Commit message",
-            value=default_msg,
-            key="commit_msg",
-        )
+        commit_msg = st.text_input("Commit message", value=default_msg, key="commit_msg")
 
         if st.button("💾 Save and commit", type="primary"):
             timestamp = datetime.datetime.now().strftime("%Y-%m-%d_%H-%M-%S")
-            xml_path = os.path.abspath(ss.xml_path)
-            repo_dir = os.path.dirname(xml_path)
 
-            with st.spinner("Applying changes and committing…"):
-                # 1. Apply results to a fresh copy of the tree
-                fresh_tree = copy.deepcopy(ss.xml_tree)
-                apply_results(fresh_tree, results, et)
+            with st.spinner("Updating matching DB and committing..."):
+                # ── 1. Update JSON matching DB ────────────────────────────
+                place_by_id = {p["id"]: p for p in db["places"]}
 
-                # 2. Write enriched XML back to the repository file
-                from xml_writer import serialise
-                serialise(fresh_tree, xml_path)
+                # 1a. Accepted matches: add variant + update counts
+                for r in accepted_matches:
+                    mp_id = r["matched_place"]["id"]
+                    if mp_id in place_by_id:
+                        place = place_by_id[mp_id]
+                        variant = r["text"]
+                        lang = _detect_lang(variant)
 
-                # 3. Save issues CSV if there are skipped matches
+                        # Add variant if new
+                        name_list = place["names_he"] if lang == "he" else place["names_en"]
+                        if variant not in name_list:
+                            name_list.append(variant)
+
+                        # Update primary Hebrew if placeholder
+                        if lang == "he" and place.get("primary_name_he") == "(to be updated)":
+                            place["primary_name_he"] = variant
+
+                        # Update occurrences
+                        if "occurrences" not in place:
+                            place["occurrences"] = {}
+                        if edition_name not in place["occurrences"]:
+                            place["occurrences"][edition_name] = {}
+                        if variant not in place["occurrences"][edition_name]:
+                            place["occurrences"][edition_name][variant] = 0
+                        place["occurrences"][edition_name][variant] += r["count"]
+
+                        # Recompute total
+                        total = 0
+                        for file_dict in place["occurrences"].values():
+                            for cnt in file_dict.values():
+                                total += cnt
+                        place["total_occurrences"] = total
+
+                # 1b. New places
+                for r in new_places:
+                    variant = r["text"]
+                    lang = _detect_lang(variant)
+                    new_place = {
+                        "id": r["assigned_id"],
+                        "primary_name_he": variant if lang == "he" else "(to be updated)",
+                        "primary_name_en": variant if lang == "en" else "Unknown",
+                        "names_he": [variant] if lang == "he" else [],
+                        "names_en": [variant] if lang == "en" else [],
+                        "coordinates": None,
+                        "identifiers": {},
+                        "notes": f"First seen in {edition_name}",
+                        "status": "unidentified",
+                        "occurrences": {
+                            edition_name: {variant: r["count"]}
+                        },
+                        "total_occurrences": r["count"],
+                    }
+                    db["places"].append(new_place)
+
+                # Update generation timestamp
+                db["meta"]["generated"] = datetime.datetime.now().isoformat()
+
+                # Write JSON
+                with open(MATCHING_DB_PATH, "w", encoding="utf-8") as f:
+                    json.dump(db, f, ensure_ascii=False, indent=2)
+
+                # ── 2. Update Authorities.xml only for new places ─────────
+                new_place_added = False
+                if new_places:
+                    try:
+                        ET.register_namespace('', TEI_NS)
+                        ET.register_namespace('xml', XML_NS)
+                        auth_tree = ET.parse(DISPLAY_XML_PATH)
+                        auth_root = auth_tree.getroot()
+                        list_place = auth_root.find(f".//{{{TEI_NS}}}listPlace")
+
+                        if list_place is not None:
+                            for r in new_places:
+                                place_elem = ET.SubElement(list_place, "place")
+                                place_elem.set(f"{{{XML_NS}}}id", r["assigned_id"])
+
+                                variant = r["text"]
+                                lang = _detect_lang(variant)
+
+                                pn_he = ET.SubElement(place_elem, "placeName")
+                                pn_he.set(f"{{{XML_NS}}}lang", "he")
+                                pn_he.set("type", "primary_he")
+                                pn_he.text = variant if lang == "he" else "(to be updated)"
+
+                                pn_en = ET.SubElement(place_elem, "placeName")
+                                pn_en.set(f"{{{XML_NS}}}lang", "en")
+                                pn_en.set("type", "primary_en")
+                                pn_en.text = variant if lang == "en" else "Unknown"
+
+                            auth_tree.write(DISPLAY_XML_PATH, encoding="utf-8",
+                                            xml_declaration=True)
+                            new_place_added = True
+                    except Exception as xml_err:
+                        st.warning(f"Could not update Authorities.xml: {xml_err}")
+
+                # ── 3. Save issues CSV ────────────────────────────────────
                 issues_path = None
                 issues_csv = _build_issues_csv(results)
                 if issues_csv:
-                    issues_dir = os.path.join(
-                        os.path.dirname(__file__), "..", "matching_issues"
-                    )
+                    issues_dir = os.path.join(AUTH_DIR, "matching_issues")
                     os.makedirs(issues_dir, exist_ok=True)
                     issues_path = os.path.abspath(
-                        os.path.join(issues_dir, f"skipped_{et}_{timestamp}.csv")
+                        os.path.join(issues_dir, f"skipped_places_{timestamp}.csv")
                     )
                     with open(issues_path, "wb") as _f:
                         _f.write(issues_csv)
 
-                # 4. Stage files and commit
-                files_to_stage = [xml_path]
+                # ── 4. Git commit ─────────────────────────────────────────
+                files_to_stage = [MATCHING_DB_PATH]
+                if new_place_added:
+                    files_to_stage.append(DISPLAY_XML_PATH)
                 if issues_path:
                     files_to_stage.append(issues_path)
 
                 try:
                     subprocess.run(
                         ["git", "add"] + files_to_stage,
-                        cwd=repo_dir, check=True, capture_output=True,
+                        cwd=PROJECT_DIR, check=True, capture_output=True,
                     )
                     subprocess.run(
                         ["git", "commit", "-m", commit_msg],
-                        cwd=repo_dir, check=True, capture_output=True,
+                        cwd=PROJECT_DIR, check=True, capture_output=True,
                     )
                     commit_ok = True
                     commit_err = ""
@@ -556,38 +632,22 @@ elif ss.step == 4:
                     commit_ok = False
                     commit_err = e.stderr.decode() if e.stderr else str(e)
 
-                # 5. Regenerate matching database
-                if commit_ok:
-                    try:
-                        script_path = os.path.join(
-                            os.path.dirname(__file__), "..", "scripts", "generate_matching_db.py"
-                        )
-                        subprocess.run(
-                            ["python3", script_path],
-                            cwd=repo_dir, check=True, capture_output=True, timeout=60
-                        )
-                        st.info("✓ Matching database regenerated")
-                    except Exception as db_err:
-                        st.warning(f"⚠️ Could not regenerate matching DB: {db_err}")
-
             if commit_ok:
                 st.success(
-                    f"✅ Authority file updated and committed.  \n"
-                    f"`{os.path.basename(xml_path)}` — "
-                    f"{len(to_enrich)} enriched, {len(to_add)} added."
+                    f"✅ Matching DB updated and committed.  \n"
+                    f"**{len(accepted_matches)}** matches added, "
+                    f"**{len(new_places)}** new places created."
                 )
+                if new_place_added:
+                    st.info(f"Authorities.xml updated with {len(new_places)} new place(s).")
                 if issues_path:
                     st.info(
-                        f"📋 {len(skipped)} skipped match(es) saved to:  \n"
-                        f"`Authorities/matching_issues/skipped_{et}_{timestamp}.csv`"
+                        f"📋 {len(skipped)} skipped name(s) saved to:  \n"
+                        f"`Authorities/matching_issues/skipped_places_{timestamp}.csv`"
                     )
             else:
                 st.error(f"Git commit failed:\n```\n{commit_err}\n```")
-                st.info("The XML file has been updated on disk — you can commit manually.")
-
-            with st.expander("Preview committed XML (first 3000 chars)"):
-                with open(xml_path, "rb") as _f:
-                    st.code(_f.read(3000).decode("utf-8", errors="replace"), language="xml")
+                st.info("The matching DB has been updated on disk — you can commit manually.")
 
     st.markdown("---")
     if st.button("🔄 Start over"):
