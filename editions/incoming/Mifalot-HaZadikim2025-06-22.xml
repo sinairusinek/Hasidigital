@@ -1,5 +1,6 @@
-<tei:TEI xmlns:tei="http://www.tei-c.org/ns/1.0">
-   <teiHeader xmlns="http://www.tei-c.org/ns/1.0">
+<?xml version='1.0' encoding='utf-8'?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
+   <teiHeader>
       <fileDesc>
          <titleStmt>
             <title type="main">Mifalot-HaZadikim 1866 מפעלות הצדיקים</title>
@@ -16,48 +17,48 @@
       </fileDesc>
    </teiHeader>
    
-   <text xmlns="http://www.tei-c.org/ns/1.0"><front>
+   <text><front>
       <div type="title-page">
-         <pb facs="MifalotZadikim-0001.jpg"/>
-         <head type="orig"> ספר<lb/>
-            מפעלות הצדיקים<lb/>
-            עם<lb/>
+         <pb facs="MifalotZadikim-0001.jpg" />
+         <head type="orig"> ספר<lb />
+            מפעלות הצדיקים<lb />
+            עם<lb />
             דברי משרים</head><p>
-               והמה סיפורי נפלאות ונוראות. צוף ונופת<lb/>
-               תטופנה לכל אוזן שומע דברים עתיקים<lb/>
-               מעולפת ספירים. כולו מלא יראת ה' ואהבתו<lb/>
-               משובצים בתהלות נוראות מצדיקי יסודי עולם.<lb/>
-               ובראשם תפארת הצדיקים והדרם אדונינו מאור<lb/>
-               עינינו אשר לו דומיה תהלה הרב ר׳ ישראל<lb/>
-               בעש״ט זי״ע. ומתלמידיו הקדושי׳ ומתלמידי<lb/>
-               תלמידיו עד דור הזה זי״ע אשר ע״י קריאת׳<lb/>
-               <choice><corr>והעיון</corr><sic>והעין</sic></choice> בהם ותפעל האדם בהתפעלות עצו׳<lb/>
-               בהתלהבות אמיתיות כנודע. ובפרט בהדברי<lb/>
-               משרים תראה אתה הקורא חביב. נעימות<lb/>
-               ידידות דבריהם והתדבקותם לד׳ ואיך שמסרו<lb/>
-               נפשם על קדושת השם ואיך שהמליצו יושר על<lb/>
-               עם ה׳ גם הבאתי הלום עוד סיפורים אמתיים<lb/>
-               מגאוני וצדיקי עם ישראל אשר היה בזמן קודם<lb/>
-               הבעש״ט זי״ע זצוקלה״ה המה חדשים לבקרי״ם<lb/>
-               לבקר האדם את <choice><corr>מעשיו</corr><sic>מעשו</sic></choice> על ידיהם ולא הובאו<lb/>
-               בשבחי בעש״ט ולא הוקמו בעדת<lb/>
-               צדיקים ולא במעשה הצדיקים. ולא<lb/>
-               דיברו בהם בפאר מקדושים.<lb/><lb/>
+               והמה סיפורי נפלאות ונוראות. צוף ונופת<lb />
+               תטופנה לכל אוזן שומע דברים עתיקים<lb />
+               מעולפת ספירים. כולו מלא יראת ה' ואהבתו<lb />
+               משובצים בתהלות נוראות מצדיקי יסודי עולם.<lb />
+               ובראשם תפארת הצדיקים והדרם אדונינו מאור<lb />
+               עינינו אשר לו דומיה תהלה הרב ר׳ ישראל<lb />
+               בעש״ט זי״ע. ומתלמידיו הקדושי׳ ומתלמידי<lb />
+               תלמידיו עד דור הזה זי״ע אשר ע״י קריאת׳<lb />
+               <choice><corr>והעיון</corr><sic>והעין</sic></choice> בהם ותפעל האדם בהתפעלות עצו׳<lb />
+               בהתלהבות אמיתיות כנודע. ובפרט בהדברי<lb />
+               משרים תראה אתה הקורא חביב. נעימות<lb />
+               ידידות דבריהם והתדבקותם לד׳ ואיך שמסרו<lb />
+               נפשם על קדושת השם ואיך שהמליצו יושר על<lb />
+               עם ה׳ גם הבאתי הלום עוד סיפורים אמתיים<lb />
+               מגאוני וצדיקי עם ישראל אשר היה בזמן קודם<lb />
+               הבעש״ט זי״ע זצוקלה״ה המה חדשים לבקרי״ם<lb />
+               לבקר האדם את <choice><corr>מעשיו</corr><sic>מעשו</sic></choice> על ידיהם ולא הובאו<lb />
+               בשבחי בעש״ט ולא הוקמו בעדת<lb />
+               צדיקים ולא במעשה הצדיקים. ולא<lb />
+               דיברו בהם בפאר מקדושים.<lb /><lb />
                לפרט זה הש״ע״ר לד׳ צדיק״ים ״יבוא״ו בו לפ״ק</p></div><div type="preface">
-                  <pb facs="MifalotZadikim-0002.jpg"/><head type="orig">
+                  <pb facs="MifalotZadikim-0002.jpg" /><head type="orig">
                      הקדמה</head><p>
                         "אמר ״הכותב. ״ידוע ״הוא. לכל שהרב הצדיק הקדוש מוה"
-                        <persName>מיכילע המגיד מ<placeName>זלאטשוב</placeName></persName>. צוה לכל אנשיו הנלוים אליו
+                        <persName>מיכילע המגיד מ<placeName ref="#H-LOC_402">זלאטשוב</placeName></persName>. צוה לכל אנשיו הנלוים אליו
                         לדבר ביניהם ולספר זה לזה מעשי הצדיקים תמיד כי באותיות הסיפור
                         מעוררים שורש כל הנסים כי הכל באותיות וכדאיתא בזוהר פ׳ בא ברעיא
                         מהימנא על סיפורי נסים : וכן צוה הרב הקדוש הצדיק מוה׳ שלום
-                        מ<placeName>דראביסט</placeName> לאנשיו המקורבים אליו שבכל עת שישבו במסיבה אחת או
+                        מ<placeName ref="#H-LOC_181">דראביסט</placeName> לאנשיו המקורבים אליו שבכל עת שישבו במסיבה אחת או
                         באתחברותא וצוותא חדא. ידברו מהנהגותיו. ואף מסוסיו ורכבו
                         ותפלותיו וכו׳ כי כולם הם תשמישי קדושה <choice><corr>וכנרתיק</corr><sic>וכנרתק</sic></choice> לס״ת וכאשר אמר
-                        הרב הצדיק הקדוש וכו׳ ר׳ אברהם יהושע העשיל מ<placeName>אפטא</placeName> בעת
-                        בואו לפניו הרב הצדיק מוה׳ ר׳ ישראל מ<placeName>רוזין</placeName>. ונפל ממנו חגורתו
+                        הרב הצדיק הקדוש וכו׳ ר׳ אברהם יהושע העשיל מ<placeName ref="#H-LOC_133">אפטא</placeName> בעת
+                        בואו לפניו הרב הצדיק מוה׳ ר׳ ישראל מ<placeName ref="#H-LOC_208">רוזין</placeName>. ונפל ממנו חגורתו
                         כשנכנס אצלו ולקח הרב מאפטא את החגורה ולבש בעצמו את החגורה
-                        הנ״ל על מלבושי הרב מוה׳ ר׳ ישראל מ<placeName>רוזין</placeName> הנ״ל ואמר בזה״ל
+                        הנ״ל על מלבושי הרב מוה׳ ר׳ ישראל מ<placeName ref="#H-LOC_208">רוזין</placeName> הנ״ל ואמר בזה״ל
                         ב״ה קיימתי מצות גלילה בספר תורה וכמו שבתורתינו הקדוש' אף הסיפורי׳
                         המה ג״כ קדש קדשים כמו כן סיפורי נסים ונפלאות מהצדיקים ושיחתם
                         אף שיחת חולין שלהם. וכמאמר הרב הקדוש ר׳ ישראל דוב מווילעדניק
@@ -78,7 +79,7 @@
                         יחזה כי יש אלקים שופטים בארץ : ומאת הקורא אהוב אשפוך
                         שיחי : לכף זכות אותי לדיינה ובל תחקרו לדעת מי הוא המלקט
                         כי הדבורים בעצמם קדושים הם. וקבל האמת ממי שהוא ודוד
-                        <pb facs="MifalotZadikim-0003.jpg"/>
+                        <pb facs="MifalotZadikim-0003.jpg" />
                         <fw type="running-head">הקדמה</fw>
                         
                         המלך ע״ה אמר מכל מלמדי השכלתי. ובפרט שכל הסיפורים
@@ -88,20 +89,20 @@
                         אשר ע״כ סדרתי הן הסיפורים והן הדיבורים הקדושים. הן פנים
                         הספר והן הקדמתו : הכל בלשון נמוך וקל (ואף שיש בע״ה לאל ידי
                         להעתיקם על לשון צח ונקי ומליצה נאה) ונימוקי עמי למען ירוץ כל
-                        קורא בו כקטן כגדול :<lb/>
+                        קורא בו כקטן כגדול :<lb />
                         ועתה אפרוש כפי אל ד׳ אשר זכני לזה וזכות הצדיקים אשר נשאתי
                         אותם על שפתי יגונו עלי ועל כל ישראל. ויתעוררו אותות
                         הניסים עלינו להאיר בתורת ה' עינינו אורו ואמיתו המה ינחוני ואל
                         הר הקודש יבואוני. ויוסיף שנית ידו ויגאלינו במהרה בימינו אמן :</p></div></front>
-      <body><div type="story" xml:id="Mifalot-HaZadikim_0001"><pb facs="MifalotZadikim-0004.jpg"/><head type="storyHead">Mifalot-HaZadikim_0001</head><head type="orig">            
+      <body><div type="story" xml:id="Mifalot-HaZadikim_0001"><pb facs="MifalotZadikim-0004.jpg" /><head type="storyHead">Mifalot-HaZadikim_0001</head><head type="orig">            
                   מפעלות הצדיקים</head>
                   <head type="orig">מהרב הצדיק הגאון אמיתי הקדוש ר׳ <persName>יעקב
                שמשון מ<placeName ref="#H-LOC_76">שפיטעווקע</placeName></persName> .</head>
-               <lb/>
-               <span ana="supernatural:prognostication; supernatural:perception; times:historical_event; practice:the_travels_of_the_tsaddik; women:major_character; characters-and-roles:agunah; practice:releasing_agunot; ethics-and-emotions:repentance; social-relations:divorce; social-relations:converts_and_conversion">תיוגים</span><lb/>
+               <lb />
+               <span ana="supernatural:prognostication; supernatural:perception; times:historical_event; practice:the_travels_of_the_tsaddik; women:major_character; characters-and-roles:agunah; practice:releasing_agunot; ethics-and-emotions:repentance; social-relations:divorce; social-relations:converts_and_conversion">תיוגים</span><lb />
  <p>
                בעת מלחמת התוגר עם הקיסר מ<placeName ref="#H-LOC_202">רוסיא</placeName> אירע מעשה בעיר אחת
-    במדינת <placeName>פולין</placeName> שהיה לאיש אחד זקן ונשוא פנים ועושר
+    במדינת <placeName ref="#H-LOC_225">פולין</placeName> שהיה לאיש אחד זקן ונשוא פנים ועושר
                מופלג בת יחידה ונתקשרה בשידוכין לפני בחור אחד יפה תואר ומופלג
                בחכמה מאוד. ובעת כניסתם לחופה נפל חיל התוגר על עיר הנ״ל ויבוזו
                העיר ואנשיה הרבה לקחו בשבי וגם החתן הנ״ל נלקח עמהם בשבי והלכויר
@@ -109,9 +110,9 @@
                עד כי ירד אביה העושר מנכסיו. ובזמן לא כביר נעדר האיש הנ״ל
                וגם אשתו מתה ונשארה הבת הנ״ל יתומה וערומה מכל. אחרי הדברי׳
                האלה סבלה רוב צער ועוני עד נשאה לבה של היתומה הנ״ל לנסוע
-               ל<placeName  ref="#H-LOC_217">סטאמבול</placeName> שהיה לה שם דודה אחי אביה ושמעה ממנו שנשמע קולו
+               ל<placeName ref="#H-LOC_217">סטאמבול</placeName> שהיה לה שם דודה אחי אביה ושמעה ממנו שנשמע קולו
                למרחקים כי איש <choice><corr>אמיד</corr><sic>אמוד</sic></choice> הוא ועושר מופלג בוודאי תמצא שם מנוח לכף
-    רגלה להחיות את נפשה האומללה. וכאשר באתה לעיר <placeName  ref="#H-LOC_217">סטאמבול</placeName> עיר
+    רגלה להחיות את נפשה האומללה. וכאשר באתה לעיר <placeName ref="#H-LOC_217">סטאמבול</placeName> עיר
                גדולה שאין כמוה היתה לה יסורים עד מאוד עד שמצאה ונודע לה בית
                מושב דודה הנ״ל וכאשר באה לביתו על פתח הטרקלין שאלו אותה
                המשרתים והשומרים מה בקשתה אפשר בקשתך ליתן לך נדבה הגונה
@@ -129,7 +130,7 @@
                ותשכח בצערה ובדאגתה ויהי כן :
                ופעם אחת הלכה המשרתת לחוץ על רחובות קריה לקנות צורך
                הבית ובאתה ואמרה להאשה הנ״ל המשגחת הלא תשמעו
-            <pb facs="MifalotZadikim-0005.jpg"/>
+            <pb facs="MifalotZadikim-0005.jpg" />
                לעצתי ותסור דאגתיך הנה ברחוב פלוני נשמע קול מנגנים בכלי שיר הנקרא
                <foreign xml:lang="">מאזיקע</foreign> כמדומה לי שלא נשמע כמוהו מאז ומיום הווסדה הארץ ועד
     עתה ומיחלים עת בואו מלך א׳ מן הגרעקין כדי שיסע ל<placeName ref="#H-LOC_154">ירושלים</placeName> לבית
@@ -162,7 +163,7 @@
                טשיעך. אז תאמר שאתה יכול אע״פ שהאמת שאין אתה יודע כלום בזה
                מ״מ לא תירא מזה ויקרא אותך לחדרו ותשחוק עמו בשחוק הנ״ל ובעז״ה
                תרויח מאד כי כל מה שתעשה בלי כוונה תהיה ידך על העליונה רק
-            <pb facs="MifalotZadikim-0006.jpg"/>
+            <pb facs="MifalotZadikim-0006.jpg" />
                כאשר תראה כי קרוב הוא לנצח את המלך בהרווחתך ותעלה לו בזיון
                אז תפזר עצמות השחוק שלא יתראה הבזיון בפרסום ומאן דזכי למלכא
                וכו׳. ואח״כ יבקש ממך עוד הפעם לשחוק עמו בהנ״ל אז תעשה לו
@@ -190,12 +191,12 @@
                לו המעשה מהרב הצדיק הנ״ל התעורר בו הרהור תשובה וקיבץ ממון
                הרבה ועזב את מלכותו וברח לו למרחקים לארצות המערב וחזר לדתו
                היהודית וטוב לו בזה ובבא : זכותו יגן עלינו ועל כל ישראל אמן :
-</p></div><lb/><div type="story" xml:id="Mifalot-HaZadikim_0002"><head type="storyHead">Mifalot-HaZadikim_0002</head><!--<pb facs="MifalotZadikim-0006.jpg"/>--><span ana="not-a-hasidic-story:hagiography; experience:dream">תיוגים</span><lb/>
-<p>בעיר <placeName ref="#H-LOC_5">פוזנא</placeName> התקין הרבי ר׳ <persName>נפתלי</persName><note/> בית וועד. וציוה שלא יפסיקו
+</p></div><lb /><div type="story" xml:id="Mifalot-HaZadikim_0002"><head type="storyHead">Mifalot-HaZadikim_0002</head><span ana="not-a-hasidic-story:hagiography; experience:dream">תיוגים</span><lb />
+<p>בעיר <placeName ref="#H-LOC_5">פוזנא</placeName> התקין הרבי ר׳ <persName>נפתלי</persName><note /> בית וועד. וציוה שלא יפסיקו
                שום ד״ת רק בבית וועד הנ״ל. וכן קימו. עד שבימי הגאון
                ר׳ <persName>עקיבא איגר</persName>. נתהוה שיהיה עת גשמים ורפש וטיט ונתעצל הגאון
                <persName>ר״ע</persName> הנ״ל לילך להבית וועד. ואמר בלבו מה זה שציוה. הלא בן אדם
-            <pb facs="MifalotZadikim-0007.jpg"/>
+            <pb facs="MifalotZadikim-0007.jpg" />
                הוא ולאו במקום סכנה עבידא ופסק ד״ת אחד בביתו : אח״כ בלילה
                שלאחריו בא אביו אליו בחזיון לילה ואמר לו צו לביתך כי הנך מת ושאל
                לו מה פשעי ומה חטאתי ואמר לו מה שפסקת דין שלא בבית וועד
@@ -207,8 +208,8 @@
                שבא אצל המזוזה ולקח המזוזה מנרתיקה וראה אותה
                שמוכרכת בנייר ועל הנייר כתוב <persName>נפתלי הכהן</persName>. אז ראה דכל אשר יקרא
                להאדם נפש חיה הוא שמו הוא חיותו וכחו : זי״ע
-               </p></div><lb/><div type="story" xml:id="Mifalot-HaZadikim_0003"><head type="storyHead">Mifalot-HaZadikim_0003</head><span ana="folkloristics:story_type_rapprochement; supernatural:perception; practice:travel_to_the_tsaddik; social-relations:inter_hasidic_master_disciple_relationship; halakhah:prayer  ">תיוגים</span><lb/>
-                  <!--<pb facs="MifalotZadikim-0007.jpg"/>--><p> ב׳ מעשיות ששמעתי מפי איש נאמן ששמע מפיו הקדוש ממש דהרב
+               </p></div><lb /><div type="story" xml:id="Mifalot-HaZadikim_0003"><head type="storyHead">Mifalot-HaZadikim_0003</head><span ana="folkloristics:story_type_rapprochement; supernatural:perception; practice:travel_to_the_tsaddik; social-relations:inter_hasidic_master_disciple_relationship; halakhah:prayer  ">תיוגים</span><lb />
+                  <p> ב׳ מעשיות ששמעתי מפי איש נאמן ששמע מפיו הקדוש ממש דהרב
                הצדיק וכו׳ ר׳ <persName ref="#Tsadik_078.001">שלום מ<placeName ref="#H-LOC_69">בעלז</placeName></persName> זצ״ל :
                הא׳ ז״ל הנה בהיותי בילדותי נסעתי להרב הקדוש ר׳ <persName ref="#Tsadik_057.001">אורי מ<placeName ref="#H-LOC_209">סטרעליסק</placeName></persName>
                וכאשר באתי לשם התפלל הרב הנ״ל ועמדתי אחורי הרב הנ״ל
@@ -218,8 +219,8 @@
                לבוא לנסיוני אם אני רבי אם לאו להוי ידוע שבוודאי רבי אני ואסור
                <choice><corr>להתפלל</corr><sic>והתפלל</sic></choice> אחורי אז הבנתי כי איש קדוש הוא ויודע מחשבות הוא ואז
                : קבלתי אותו לרב עלי
-               </p></div><lb/><div type="story" xml:id="Mifalot-HaZadikim_0004"><head type="storyHead">Mifalot-HaZadikim_0004</head><span ana="social-relations:inter_hasidic_master_disciple_relationship; practice:travel_to_the_tsaddik">תיוגים</span><lb/>
-                  <!--<pb facs="MifalotZadikim-0007.jpg"/>--><p> המעשה הב׳ אח״כ כשהייתי מעט לאיש נסעתי להרב הצדיק הקדוש
+               </p></div><lb /><div type="story" xml:id="Mifalot-HaZadikim_0004"><head type="storyHead">Mifalot-HaZadikim_0004</head><span ana="social-relations:inter_hasidic_master_disciple_relationship; practice:travel_to_the_tsaddik">תיוגים</span><lb />
+                  <p> המעשה הב׳ אח״כ כשהייתי מעט לאיש נסעתי להרב הצדיק הקדוש
                מוה׳ ר׳ <persName ref="#Tsadik_041.001">יעקב יצחק מ<placeName ref="#H-LOC_56">לובלין</placeName></persName> על שבת ובליל ש״ק <choice><sic>נת</sic><corr>נתן</corr></choice> לידי
                צלוחית יין לשתות ומחמת שמנהגי היה שלא לשתות שום משקה המשכר
                ע״כ לא רציתי גם היום לשתות ולסרב בדברי הרב ג״כ לא נכון ע״כ
@@ -229,7 +230,7 @@
                שתה. הנה באת לשבר כל הזכוכית שלי ואז עניתי לו אין אני שותה
                יין. ויעמוד מליתן לי עוד :
             
-                  </p></div><lb/><div type="story" xml:id="Mifalot-HaZadikim_0005"><pb facs="MifalotZadikim-0008.jpg"/><head type="storyHead">Mifalot-HaZadikim_0005</head><span ana="halakhah:prayer">תיוגים</span><lb/>
+                  </p></div><lb /><div type="story" xml:id="Mifalot-HaZadikim_0005"><pb facs="MifalotZadikim-0008.jpg" /><head type="storyHead">Mifalot-HaZadikim_0005</head><span ana="halakhah:prayer">תיוגים</span><lb />
 <p> הרב ר׳ <persName>שלום</persName> הנ״ל היה קולו כקול שחל ונמר ובפרט בעת
                קריאת המגילה לפרסומי מילתא אניסא דרבים היה משמיע
                קולו למרחוק ג׳ מיל שהיתה שם עיר קטנה סמוך ל<placeName ref="#H-LOC_69">בעלז</placeName> <choice><corr>והיו</corr><sic>והיה</sic></choice> האנשים
@@ -237,8 +238,8 @@
                ג׳ מיל אעפ״כ נשמע קולו ממש כגביני כרוז וככ״ג בבהמ״ק ביוה״כ : 
                זכותו יגן עלינו :
             
-               </p></div><lb/>
-<div type="story" xml:id="Mifalot-HaZadikim_0006"><head type="storyHead">Mifalot-HaZadikim_0006</head><!--<pb facs="MifalotZadikim-0008.jpg"/>--><span ana="not-a-hasidic-story:halakhah; not-a-hasidic-story:virtues; supernatural:perception; supernatural:pregnancy; characters-and-roles:elijah_the_prophet; experience:revelation; practice:study; social-relations:marriage_matchmaking; social-relations:marriage; knowledge:esoteric; ethics-and-emotions:virtues; ethics-and-emotions:fear; ethics-and-emotions:Joy; ethics-and-emotions:sadness; ethics-and-emotions:shame; ethics-and-emotions:anger; supernatural:light_or_fire_as_a_sign_of_righteousness; characters-and-roles:preacher; practice:sermon; ethics-and-emotions:virtues_poverty; ethics-and-emotions:charity; halakhah:prayer; ethics-and-emotions:prohibitions; women:minor_character; supernatural:conversing_with_the_dead; supernatural:magic">תיוגים</span><lb/><p> מעשה נפלאה ששמעתי איש מפי איש מפי איש נאמן שראה בעיניו
+               </p></div><lb />
+<div type="story" xml:id="Mifalot-HaZadikim_0006"><head type="storyHead">Mifalot-HaZadikim_0006</head><span ana="not-a-hasidic-story:halakhah; not-a-hasidic-story:virtues; supernatural:perception; supernatural:pregnancy; characters-and-roles:elijah_the_prophet; experience:revelation; practice:study; social-relations:marriage_matchmaking; social-relations:marriage; knowledge:esoteric; ethics-and-emotions:virtues; ethics-and-emotions:fear; ethics-and-emotions:Joy; ethics-and-emotions:sadness; ethics-and-emotions:shame; ethics-and-emotions:anger; supernatural:light_or_fire_as_a_sign_of_righteousness; characters-and-roles:preacher; practice:sermon; ethics-and-emotions:virtues_poverty; ethics-and-emotions:charity; halakhah:prayer; ethics-and-emotions:prohibitions; women:minor_character; supernatural:conversing_with_the_dead; supernatural:magic">תיוגים</span><lb /><p> מעשה נפלאה ששמעתי איש מפי איש מפי איש נאמן שראה בעיניו
                בספר היקר נקרא בשמו ספר הכנסת אורחים. הנמצא
                ב<foreign xml:lang="">ביבליטעק</foreign> דעיר מלוכה <placeName ref="#H-LOC_176">וויען</placeName> יע״א :
             
@@ -264,7 +265,7 @@
                להוצאות הבית במחיה וכסות לכל ב״ב התחלתי לדבר עם אחי הנ״ל
                מענין הלז ואמר לי מה שביכולתך לעשות ולייעץ ע״ז בוודאי מוכן אני
                לקיים כל דברי עצתך הנכונה ואנכי לא ידעתי מאומה. ואמרתי לו
-            <pb facs="MifalotZadikim-0009.jpg"/>
+            <pb facs="MifalotZadikim-0009.jpg" />
                שמעיני אחי ידידי איעצך בזה הנה ידוע שהקב״ה ברא את העולם
                להתנהג בריותיו במדת הטבע ולא להטריח את הבורא לשדד המערכו׳
                בשינוי מזל ולפי הנראה ועפ״י הטבע מן הנמנע הוא שתספיק הריוח
@@ -297,7 +298,7 @@
                מעיר מולדתי כמה פרסאות ולא נזדמן לי שום מעמד פרנסה תרתי
                בלבי לחזור לביתי ולשוב על <choice><corr>עקבי</corr><sic>עקבו</sic></choice> אבל אמרתי בלבי עוד ארחיק מעט
                אך הפעם ותקעתי אהלי עוד לעיר אחת הסמוכה אמנם גם שם
-            <pb facs="MifalotZadikim-0010.jpg"/>
+            <pb facs="MifalotZadikim-0010.jpg" />
                השבעתי <unclear>במרומם</unclear> הרוני לענה ואין קול ואין קשב לדברי ואין מי שיטה
                אזנו לשמוע בקשתי למנות אותי לרב ופטרון ואף להתלמד <choice><corr>בתינוקות</corr><sic>בתינוקת</sic></choice>
                אין שום מקום להחזיקני עד אשר כלה פרוטה מן הכיס ואמרתי עתה
@@ -330,7 +331,7 @@
                גדול מאוד ובנין יפה עד מאוד ותיכף דפקתי על הדלת לפתוח לי
                והנה זקן אחד לקראתינו מלובש בבגד שער מעורות כבשים פשוטה
                כדרך העניים ופניו בוערת כלפיד אש וצהלת פניו מאיר כשמש בצהרים
-            <pb facs="MifalotZadikim-0011.jpg"/>
+            <pb facs="MifalotZadikim-0011.jpg" />
                ופתח לנו השער בשמחה גדולה כקבלת פני חתן וכלה שאין לשער
                השמחה שהראה לנו הזקן הלז ואחז תיכף בחמורי ויתן מספוא לחמורי
                וגם אותי הביא הביתה ולקח תיכף בניי הקטנים ונשא אותם כעל כנפי
@@ -363,7 +364,7 @@
                בעצמו הבעה״ב ושמחת לבבו ועוז וחדוה בקרבו על דבר שזיכה אותו
                השי״ת לקיים מצות הכנסת אורחים והנאני הדבר מאוד ותודות לאל כי
                היתה לנו הלילה למשמר ברוב טובו ויהי למחרת השכמתי לנסוע לדרכי
-            <pb facs="MifalotZadikim-0012.jpg"/>
+            <pb facs="MifalotZadikim-0012.jpg" />
                ולא הנחני הזקן ואמר לי הנה לא ידעתי על מה ולמה תחפזו לדרכיכם
                הלא בלא״ה אתם מוטרדים ונבהלים הולכים נע ונד ממקום למקום
                לחזור על הפתחים ולבקש טרף למזון ב״ב ומה תפסידו בזה תאכלו גם
@@ -396,7 +397,7 @@
                אתכם שכעת חיה אתה ואשתך חובקים בן ונפרדתי מאתו בשלום והלכתי
                לדרכי הלוך ונסוע עד הזמין לי השי״ת עיר אחת גדולה לאלקים וקיבלו
                אותי עליהם לרב וראש ישיבה ונתיישבתי שם אני וב״ב. והנה כאשר
-            <pb facs="MifalotZadikim-0013.jpg"/>
+            <pb facs="MifalotZadikim-0013.jpg" />
                ברכתי להזקן הנ״ל נתקיים בו ברכתי ותהר אשתו ותלד לו בן זכר כעת
                חיה ועשה עבורו סעודות גדולות ביום הגמל אותו וביום הכניסו אותו
                לברית וקראוהו בשמו יוסף ואביו קרא אותו יָאסִילֶע ובכל פעם עשה
@@ -408,7 +409,7 @@
                ופניו מגושם עד למאד ורגליו ארוכות ורחבים מאד כתמונת דוב שכול
                מחמת שהלך רק יחף ולא רצה לנעול מנעלים ברגליו והיה לאביו צער
                גדול מזה. אחר כל אלה נגעה יד ה׳ ברכוש הזקן הנ״ל ונשרפה ביתו
-               וכל מקנה קנינו מתו ואבד כל רכושו בימים מועטים ומתה אשתו ב״מ<note/>
+               וכל מקנה קנינו מתו ואבד כל רכושו בימים מועטים ומתה אשתו ב״מ<note />
                ואח״כ מת הזקן בעצמו ז״ל והבחור יאסילע נשאר יתום בלא אב ואם.
                ועני בדעת וחסר מכל אין לחם ואין שמלה. ומה יעשה הבן כזה :
                התחבר א״ע לעניים המסבבים מעיר לעיר ואף שבני העיר הסמוכה
@@ -429,7 +430,7 @@
                ומכפר לכפר עד בואם לעיר שנתיישב שם הרב ראש ישיבה. ויהי בבוקר
                השכם קם הבחור יאסילע בזריזות לעבודתו לילך על העיר ולחזור על
                הפתחים לקבץ הפרוסות בשביל העניים שהיה תחת רשותם ויקר מקרהו
-            <pb facs="MifalotZadikim-0014.jpg"/>
+            <pb facs="MifalotZadikim-0014.jpg" />
                ויבא לבית הרב ר״י הנ״ל וביקש נדבה מהרבנית ונתנה לו כפי ערכה ולא
                רצה לקבל רק רצה נדבה יותר גדולה מזו ונתגלגל הדבר עד שהתחיל
                לריב עם הרבנית ולקנטר אותה בדברים ולקלל אותה בקללות <choice><corr>נמרצות</corr><sic>נמרצת</sic></choice>
@@ -462,7 +463,7 @@
                עליו והיה גם בין עיניו והולך יחף. ובזכרו העשירות והתענוג שהיה אף
                לאחרים בבית אביו הזקן ועתה נאבד ונעשה כלה והיה כלא היה וייצר
                לו מאד והמו מעיו עליו ויפלח חץ כבידו ויתמרמר בבכי ואנחה ויאנח
-            <pb facs="MifalotZadikim-0015.jpg"/>
+            <pb facs="MifalotZadikim-0015.jpg" />
                בשברון לב ובמרירות אנחה שוברת חצי גופו ויאמר במר לב והטיח דברי׳
                כלפי מעלה. רבש״ע זו תורה וזו שכרה בתמיה וכי זו חלף משכורתו של
                הזקן אשר עמל ויגע בכל כוחו והונו להנות אחרים ממונו וכל מי שנכנס
@@ -495,7 +496,7 @@
                הבחור בדברים והתחיל לחנכו וללמדו א״ב כי זה היה עיקר כוונתו
                להועילו ולחכמו ולהכניסו תחת כנפי השכינה בעבור שלא שככה תבערת
                אש האהבה בזכרו א״ע בהתגררותו אצל אביו הצדיק המ״א הנ״ל. ויהי
-            <pb facs="MifalotZadikim-0016.jpg"/>
+            <pb facs="MifalotZadikim-0016.jpg" />
                כאשר הראה לו תמונת א׳ וב׳ עד אלף פעמים וכן שאר אותיות והנער
                הנ״ל לא נטה ערפו ולא זכר דברי הרב ומראות האותיות לא נכנסו
                תמונתם במוחו ולבו ולא הכירם בשום אופן ובכל מיני יגיעות והשתדלו׳
@@ -528,7 +529,7 @@
                עלה בדעת הרב שזכות אבותיו של הנער עומדים לו בדבר הצלחה
                למען לא יצטרך לחזור על הפתחים ולאכול נהמא דכסופא והיה כשבתו
                על כסא הרבנות ימים רבים והנה הביאו אליו כתב מארץ התמני מעיר
-            <pb facs="MifalotZadikim-0017.jpg"/>
+            <pb facs="MifalotZadikim-0017.jpg" />
                מולדתו. ויהי כקרוא הרב את הספר והנה אגרת שלוחה מאחיו הגדול
                ממנו בחכמה ושם נאמר גזירת אחיו עליו בגזירת כיבוד אחיו הגדול על
                הרב ראש ישיבה ובלי שום אמתלא ושום טענה ועכוב יקיים גזירתו
@@ -561,7 +562,7 @@
                בדבר בבירור מרוב שטותו וזריזותו קשה הדבר להתפרד ממנו בלתי
                ידיעתו ויבוקש הדבר ולא ימצא שום עצה נכונה ע״ז רק באופן זה
                שנגמר בדעתם להסתיר הדבר מהנער הנ״ל בענין הנסיעה מכל וכל
-            <pb facs="MifalotZadikim-0018.jpg"/>
+            <pb facs="MifalotZadikim-0018.jpg" />
                וכל זאת לא עלתה בידם כי מרוב הצלחתו נתוודע לו הדבר בחשבם
                לנסוע ברחוק מקום ולעזוב אותו בכאן ויתייעץ הרב בהסתר ויהי עוד
                ימים שלשה לירד אל הספינה וישלח הרב הנ״ל את הנער יאסילע לעיר
@@ -594,7 +595,7 @@
                שיעור מזון ליום אחד חלקו ביניהם על שלשה ימים כדי שיספיק להם
                המזון לזמן מה. אבל הנער יאסילע לא עלתה לו שום צער ואנחה מזה
                וכל זמן שהיה לו במה להחיות נפשו אכל ושבע ודשן ומה שהספיק להם
-            <pb facs="MifalotZadikim-0019.jpg"/>
+            <pb facs="MifalotZadikim-0019.jpg" />
                מזון על שלשה ימים אכל מחלקו ביום אחד והראה את נפשו בטוב
                ולא הצר לו בצרת מחר. וכאשר כלתה הלחם מחלקו אשר חלק לו הרב
                מה עשה הבן ויחתור במחתרת ויגנוב גם את חלק האנשי׳ אשר אתם
@@ -627,7 +628,7 @@
                הרבה לפי משאו שיוכל לעמוד בו. והנער יאסילע הנ״ל עשה מלאכתו
                באמונה ובזריזות כאשר צוה אותו הרב ובכל בוקר השכים ועלה על
                ראש ההר ההוא : ויקח מפרי׳ ויאכל והנותר מילא את כל הכלים
-            <pb facs="MifalotZadikim-0020.jpg"/>
+            <pb facs="MifalotZadikim-0020.jpg" />
                התפורי׳ בתוך מלבושיו כאשר יוכל שאת והוריד אותם מן ההר ויבוא
                להרב והיה לאכול לכל האנשי׳ אשר אתו בספינה על שני ימים ונמשך
                הדבר הזה זמן רב. עדי עלה הרב לבו לשמים והרבה והפציר בתפלה
@@ -660,7 +661,7 @@
                וכאשר יטבעו בני ישראל בתוך ים הקרוש הזה אזי בימים האלו פ׳ ופ׳
                יאמרו אלו הקיפיטליך תלים פ׳ ופ׳ ויכוונו באלו הכוונות ויתענו כך וכך
                תעניתים ויתפללו אלו ואלו התפילות אזי כשיבוא קץ הבירור והתיקון
-            <pb facs="MifalotZadikim-0021.jpg"/>
+            <pb facs="MifalotZadikim-0021.jpg" />
                השייך להם אז ברגע אחת יתעקר הספינה מעצמה אל תוך ים הצלול
                ויהי כאשר ראה הרב כתובה הלזה אז שמח שמחה גדולה והודה לד'
                על כל הטוב אשר גמלתהו ותיכף התחיל הרב לעשות התיקון הכתוב
@@ -693,7 +694,7 @@
                עשיתם כדבר הרע הזה אני כלכלתי אתכם בכל אותן הימים וגם ע״י
                נצלתם מהמות ומטביעת בתוך מצולות ים ואתם שלמתם רעה תחת
                טובה ועזבתם אותי בתוך עמקי ים למען אמות באבדון ח״ו. והגם
-            <pb facs="MifalotZadikim-0022.jpg"/>
+            <pb facs="MifalotZadikim-0022.jpg" />
                שעשה להם יסורים גדולים אעפ״כ קבלו עליה׳ בשמחה על הדבר הזה
                שזיכה ד׳ אותם ולא נפקד מהם איש ולא נאבד הנער ההוא ח״ו על
                ידיה׳. ויסעו ויהי כאשר באו לבית׳ לעיר מולדתו של הרב ההוא.
@@ -725,7 +726,7 @@
                בשביל בתו יחידה ויהי הנער כמחריש לא ידע דבר רק בדברי לצון ושטות
                ויהי אחר החופה וסדר קדושין וישבו כל האנשי׳ סביב השולחן לאכול
                לחם עם חותן הרב הקדוש כנהוג והכריז הבדחן כנהוג ואמר חתן פתח פיך
-            <pb facs="MifalotZadikim-0023.jpg"/>
+            <pb facs="MifalotZadikim-0023.jpg" />
                ויאירו דבריך ואמור הדרשה אז פתח פיו החתן ואמר בזה״ל כל מי שמרגיש
                בנפשו נידנוד הרהור חטא אינו כדאי לשמוע הדרשה היוצא מפי ויהי
                חתת אלקים על כל אנשים ונשמטו אחת אחת וגם הרב ר״י התחיל להמלט
@@ -735,9 +736,9 @@
                הכותב ידעתי כי אין הקב״ה מקפח שכר כל בריה וכאשר ראיתי
                המעשה ההיא הנוראה בעיני חברתי ע״ז חיבור מיוחד מענין מצות הכנסת
                אורחים וגודל שכרה.
-               </p></div><lb/>
-                  <div type="story" xml:id="Mifalot-HaZadikim_0007"><head type="storyHead">Mifalot-HaZadikim_0007</head> <!--<pb facs="MifalotZadikim-0023.jpg"/>--><span ana="practice:the_travels_of_the_tsaddik; characters-and-roles:ritual_slaughterer; halakhah:kosher_slaughtering;social-relations:inter_hasidic_master_disciple_relationship; supernatural:perception">תיוגים</span><lb/><p> מעשה מהרב הצדיק הגאון אמיתי הקדוש ר׳ <persName>מרדכי</persName>
-               הנקרא ר׳ <persName>מאטילע מ<placeName ref="#H-LOC_31">טשארנאביל</placeName></persName><lb/>
+               </p></div><lb />
+                  <div type="story" xml:id="Mifalot-HaZadikim_0007"><head type="storyHead">Mifalot-HaZadikim_0007</head> <span ana="practice:the_travels_of_the_tsaddik; characters-and-roles:ritual_slaughterer; halakhah:kosher_slaughtering;social-relations:inter_hasidic_master_disciple_relationship; supernatural:perception">תיוגים</span><lb /><p> מעשה מהרב הצדיק הגאון אמיתי הקדוש ר׳ <persName>מרדכי</persName>
+               הנקרא ר׳ <persName>מאטילע מ<placeName ref="#H-LOC_31">טשארנאביל</placeName></persName><lb />
                מעשה בעיר <placeName ref="#H-LOC_273">אבאחאוו</placeName> הסמוך לעיר <placeName ref="#H-LOC_295">וואסילקיוב</placeName> היה שם איש א׳
                אב בחכמה ורך בשנים למדן וי״ש וחסיד ורצה להיות שו״ב
                בעירו הנ״ל עפ״י חזקתו מאבותיו ונסע לאיזה שוחט הגון ולימד עצמו
@@ -757,7 +758,7 @@
                שם אצל השוחט רבו זמן מה. ואח״כ הלך ושב לביתו ונסע דרך עיר של
                המגיד הנ״ל והראה לו עוד פעם ב׳ את סכינו ועדיין לא הוטב בעיניו
                ואמר הרב המגיד הנ״ל שמעני עוד הפעם ותיסע לשו״ב פ׳ (הידוע
-            <pb facs="MifalotZadikim-0024.jpg"/>
+            <pb facs="MifalotZadikim-0024.jpg" />
             
                להמגיד שהוא מוחזק בכשרות ובוודאי לא יצא מתחת ידו דבר שאינו
                מתוקן) שתיקח מידו כתב קבלה ואח״כ כשתבא בשלום לא תראה לי
@@ -791,7 +792,7 @@
                להרב ר״י הנה ריח המאכל ריח ג״ע והשו״ב שבכאן י״ש מאד לא ראיתי
                כמותו ואי״ה כשיבא משיח צדקנו בוודאי יאכל מזבח השו״ב הלזה ויהי
                כאשר שמע הרב <persName>ר״י</persName> הנ״ל דברי הצדיק <persName>מוהר״מ</persName> הנ״ל נשאר יושב ומשתומם
-            <pb facs="MifalotZadikim-0025.jpg"/>
+            <pb facs="MifalotZadikim-0025.jpg" />
                והיה לפלא בעיניו וכשהבין <persName>מוהר״מ</persName> תמיהת הרב <persName>מוהר״י</persName> הנ״ל ענהו
                ואמר לו בזה״ל ר׳ <persName>יהושע</persName> אפשר לא הוטב בעיניכם השו״ב הלזה איתא
                בגמרא <quote><persName>רב</persName> בדק בלישנה</quote> פי׳ בלישניה דהשוחט כשהיה מדבר עמו הבין
@@ -799,7 +800,7 @@
                ואומר אני לכם שהשוחט כשר ומשיח יאכל אי״ה משחיטתו ועוד אמר לו
                בציווי אכלו ר׳ <persName>יהושע</persName> ו<persName>מוהר"י</persName> הנ״ל קיים בזה גזירת הרב ואכל ולא עלה
                עוד על לבו ח״ו לדבר אחר : זי״ע ועכי״א :
-                  </p></div><lb/><div type="story" xml:id="Mifalot-HaZadikim_0008"><head type="storyHead">Mifalot-HaZadikim_0008</head> <!--<pb facs="MifalotZadikim-0025.jpg"/>--><span ana="social-relations:inter_hasidic_master_disciple_relationship; social-relations:inter_hasidic; supernatural:conversing_with_the_dead; spaces:heaven; practice:the_travels_of_the_tsaddik; experience:dream; supernatural:perception; practice:protection; supernatural:angels; women:minor_character; practice:pidyon_monetary_gift; practice:torat_ha_tsaddik; supernatural:communicating_with_the_invisible; halakhah:prayer">תיוגים</span><lb/>
+                  </p></div><lb /><div type="story" xml:id="Mifalot-HaZadikim_0008"><head type="storyHead">Mifalot-HaZadikim_0008</head> <span ana="social-relations:inter_hasidic_master_disciple_relationship; social-relations:inter_hasidic; supernatural:conversing_with_the_dead; spaces:heaven; practice:the_travels_of_the_tsaddik; experience:dream; supernatural:perception; practice:protection; supernatural:angels; women:minor_character; practice:pidyon_monetary_gift; practice:torat_ha_tsaddik; supernatural:communicating_with_the_invisible; halakhah:prayer">תיוגים</span><lb />
 <p> עוד מהרב הנ״ל הצדיק מוה׳ <persName>מרדכי</persName> זי״ע :
                להרב הנ״ל היה מקורב א׳ רך בשנים ת״ח וי״ש וחסיד ונחלה חולי
                גדול וכבד מאד ונמשכה חלייתו זמן רב עד שנתייאשו אנשי
@@ -823,7 +824,7 @@
                מההבטחה שהבטיח לו רבו ומה עלתה לו ולימי׳ מועטי׳ נעדר החולי
                הנ״ל ב״מ ושבק לן חיי. וחבירו הנ״ל מצפה לתשובתו בקרוב ואין :
                ויהי בליל ש״ק בעת עמד הרב הנ״ל להתפלל לפני העמוד בבית מדרשו
-            <pb facs="MifalotZadikim-0026.jpg"/>
+            <pb facs="MifalotZadikim-0026.jpg" />
                כדרכו בקודש ויהי כאשר פנה הרב פניו למערב באמרו החרוז בואי בשלום
                ראו כל העם שהרב רומז באצבעו לצד הפתח כמו שרומזי׳ לא׳ לבוא
                לכאן והיתה הדבר לפלא בעיני כל רואה ויהי בעת לילה כאשר שכב חבירו
@@ -856,8 +857,8 @@
                נשמע מזה גודל פעולת התקרבות לצדיקי הדוד שיוכלו להטיב להמתחברי׳
                בהם אף בעולם העליון. וכן לעולם התחי׳ אי״ה השם יזכנו לקרב
                עצמינו להם באמת ובאמונה אמן :
-</p></div><lb/><div type="story" xml:id="Mifalot-HaZadikim_0009"><pb facs="MifalotZadikim-0027.jpg"/><head type="storyHead">Mifalot-HaZadikim_0009</head>
-<span ana="spaces:institutions_beth_midrash; practice:protection; spaces:institutions_hassidic_court; social-relations:inter_hasidic_master_disciple_relationship; practice:drinking_alcohol; ethics-and-emotions:fear">תיוגים</span><lb/>
+</p></div><lb /><div type="story" xml:id="Mifalot-HaZadikim_0009"><pb facs="MifalotZadikim-0027.jpg" /><head type="storyHead">Mifalot-HaZadikim_0009</head>
+<span ana="spaces:institutions_beth_midrash; practice:protection; spaces:institutions_hassidic_court; social-relations:inter_hasidic_master_disciple_relationship; practice:drinking_alcohol; ethics-and-emotions:fear">תיוגים</span><lb />
 <p> פ״א באישון לילה ואפילה בשעה ב׳ אחר חצות לילה בא הרב
                הצדיק והקדוש הנ״ל עם משמשו לבית מדרשו והעיר לכל
                האנשים הישיני׳ שם (והם ממקורבי׳ המסתופפי׳ בצלו ויושבי׳ שם בבית
@@ -880,7 +881,7 @@
                בני ישראל היושבי׳ מחוץ למדינתינו ואף שהם מתנהגי׳ בדרך לא טוב
                הוא רק מחמת טרדת הזמן ואורך הגלות והורקו מכלי אל כלי. וכן
                עשו : זי״ע ועכי״א :
-</p></div><lb/><div type="story" xml:id="Mifalot-HaZadikim_0010"><head type="storyHead">Mifalot-HaZadikim_0010</head><!--<pb facs="MifalotZadikim-0027.jpg"/>--><span ana="practice:the_travels_of_the_tsaddik; social-relations:inter_hasidic_master_disciple_relationship; social-relations:inter_hasidic; social-relations:inter_hasidic_conflict_between_tsaddikim">תיוגים</span><lb/>
+</p></div><lb /><div type="story" xml:id="Mifalot-HaZadikim_0010"><head type="storyHead">Mifalot-HaZadikim_0010</head><span ana="practice:the_travels_of_the_tsaddik; social-relations:inter_hasidic_master_disciple_relationship; social-relations:inter_hasidic; social-relations:inter_hasidic_conflict_between_tsaddikim">תיוגים</span><lb />
                   <p> בעת המחלוקת שהיה לש״ש בין הרב הצדיק הקדוש מוה׳ <persName>ישראל
                מ<placeName ref="#H-LOC_208">רוזין</placeName></persName> ובין הרב הצדיק <persName>האב״ד מ<placeName ref="#H-LOC_90">סאווראן</placeName></persName> הזמין פ״א שהרב
                מ<placeName ref="#H-LOC_90">סאווראן</placeName> נסע לדרכו דרך עיר <placeName ref="#H-LOC_208">רוזין</placeName>. ונתיב הדרך היה לפני החלונות
@@ -890,12 +891,12 @@
                סביבו. ואמר בזה״ל מנסיעתו ניכר שהוא נער. (ונער מכונה בל״א בשם
                שוטה) והיה הדבר לפלא בעיני כל השומעי׳ ויהי כאשר נשמע הדיבורי׳
                האלו להרב הצדיק ר׳ <persName>אברהם דוב</persName> <choice><corr>מאוורייטיש</corr><sic>מ<placeName ref="#H-LOC_109">אוורייניש</placeName></sic></choice> (בעהמ״ח ס׳ בת עין)               התפלא מאוד ואמר הביטו וראו איך הוא מחזיק את <persName>הרב מ<placeName ref="#H-LOC_90">סאווראן</placeName></persName> לאדם
-            <pb facs="MifalotZadikim-0028.jpg"/>
+            <pb facs="MifalotZadikim-0028.jpg" />
                גדול. גדול הערך כי נע״ר נקרא מט״ט כידוע וזה היה כוונתו מזה
                יש להתבונן שאין אנו צריכים להכניס ראשינו ולהתערב במחלקות׳ ולדבר
                ח״ו דיבור לא טוב על צדיק שכנגדו כי כל דבריהם בפלס שקולים ושיחת׳
                צריכין לימוד : זי״ע ועכי״א.
-                  </p></div><lb/><div type="story" xml:id="Mifalot-HaZadikim_0011"><head type="storyHead">Mifalot-HaZadikim_0011</head><!--<pb facs="MifalotZadikim-0028.jpg"/>--><span ana="practice:travel_to_the_tsaddik; practice:travel_to_other_tsaddik; practice:sermon; social-relations:inter_hasidic_master_disciple_relationship; social-relations:inter_hasidic; experience:enthusiasm; ethics-and-emotions:anger; ethics-and-emotions:prohibitions ">תיוגים</span><lb/>
+                  </p></div><lb /><div type="story" xml:id="Mifalot-HaZadikim_0011"><head type="storyHead">Mifalot-HaZadikim_0011</head><span ana="practice:travel_to_the_tsaddik; practice:travel_to_other_tsaddik; practice:sermon; social-relations:inter_hasidic_master_disciple_relationship; social-relations:inter_hasidic; experience:enthusiasm; ethics-and-emotions:anger; ethics-and-emotions:prohibitions ">תיוגים</span><lb />
 <p> מהרב הצדיק הקדוש מוה׳ <persName ref="#Tsadik_002.003">שלום מ<placeName ref="#H-LOC_276">פאראביסיטש</placeName></persName> :
                פ״א שבת הרב הקדוש ר׳ <persName>זלמינא</persName> [הנקרא רב) בעיר <placeName>ראדימישליט</placeName>
                ונסע אליו מקורב אחד של הרב הצדיק ר׳ <persName>שלום</persName> הנ״ל. והנה
@@ -916,14 +917,14 @@
                נשמע מזה שלא להרהר אחר הצדיק אף בעת שנדמה לכל מי שרואה
                אותו כי עושה או מדבר בלי שום התלהבות ויראה לו באמת כי אז
                הוא במדריגה יותר גדולה מאוד רק מניעת השגה הוא מקוצר דעתינו.
-</p></div><lb/><div type="story" xml:id="Mifalot-HaZadikim_0012"><head type="storyHead">Mifalot-HaZadikim_0012</head><!--<pb facs="MifalotZadikim-0028.jpg"/>--><span ana="practice:storytelling; times:shabbat; social-relations:with_non_jews; supernatural:perception; practice:study; ethics-and-emotions:virtues_humility ">תיוגים</span><lb/>
+</p></div><lb /><div type="story" xml:id="Mifalot-HaZadikim_0012"><head type="storyHead">Mifalot-HaZadikim_0012</head><span ana="practice:storytelling; times:shabbat; social-relations:with_non_jews; supernatural:perception; practice:study; ethics-and-emotions:virtues_humility ">תיוגים</span><lb />
 <p> הרב הצדיק וכו׳ מוה׳ <persName>משה</persName> אב״ד מ<placeName ref="#H-LOC_90">סאווראן</placeName> ברוב ענותנותו בכה
                ונאנח ואמר ראו החילוק שבין דורות הראשונים לדורות האחרוני׳
                הצדיקים שבדורות ראשונים האירו פני תבל וקדשו כל רמ״ח איבריהם שלא
                יכלו אפילו ליגע באצבע קטנה במה שכנגד רצון הבורא ית״ש. ואספר לכם
                מעשה נפלאה מהרב הצדיק הקדוש ר׳ <persName ref="#Tsadik_014.001">מנחם נחום מ<placeName ref="#H-LOC_31">טשארנאביל</placeName></persName>.
                <fw type="catch">בעש״ק</fw>
-            <pb facs="MifalotZadikim-0029.jpg"/>
+            <pb facs="MifalotZadikim-0029.jpg" />
                בש״ק היה דולק אצלו תמיד נר ששבת מבעוד יום כדי שתאיר לו אחר
                חצות לילה שיוכל ללמוד אצלה פ״א הלך הרב הנ״ל לחוץ ובעת הזאת
                נכבה נרו שבביתו ותיכף הלך הנכרי שבביתו והדליקה ולא ידע הרב מזה
@@ -933,7 +934,7 @@
                דולק הנר כמקודם ולא רצה להאמינם וכשתכפוהו בדבריהם אמיתים
                ענה ואמר אפשר נעבדה בה עבירה לכן איני רואה אצלה שום דבר כמו
                באישון ואפילה ובדקו ומצאו כדבריו : זי״ע אמן
-</p></div><lb/><div type="story" xml:id="Mifalot-HaZadikim_0013"><head type="storyHead">Mifalot-HaZadikim_0013</head><!--<pb facs="MifalotZadikim-0029.jpg"/>--><span ana="ethics-and-emotions:prohibitions; women:minor_character">תיוגים</span><lb/>
+</p></div><lb /><div type="story" xml:id="Mifalot-HaZadikim_0013"><head type="storyHead">Mifalot-HaZadikim_0013</head><span ana="ethics-and-emotions:prohibitions; women:minor_character">תיוגים</span><lb />
 <p>הרב הצדיק ר׳ <persName>משה</persName> הנ״ל לא ראה אשה מימיו פ״א באתה אשה
                אחת לחדרו וכשראה אותה נכנסת לחדרו התחיל לברוח לחדר
                אחר וברח חדר לפנים מחדר וגם סגר הדלת בעדו וכ״כ בהול לברוח
@@ -942,7 +943,7 @@
                אשה יותר מכל ב״א והשיב בזה״ל תדעו נאמנה שאין אני מתיירא מהרהור
                בשום אופן רק אני מתיירא מדברי חז״ל שאסרו מלהסתכל באשה :
                זי״ע ועכי״א
-</p></div><lb/><div type="story" xml:id="Mifalot-HaZadikim_0014"><head type="storyHead">Mifalot-HaZadikim_0014</head><!--<pb facs="MifalotZadikim-0029.jpg"/>--><span ana="folkloristics:story_type_advent; social-relations:retrospective_recognition; characters-and-roles:hidden_righteous; social-relations:with_non_jews; characters-and-roles:preacher; supernatural:light_or_fire_as_a_sign_of_righteousness;  experience:revelation; characters-and-roles:elijah_the_prophet">תיוגים</span><lb/>
+</p></div><lb /><div type="story" xml:id="Mifalot-HaZadikim_0014"><head type="storyHead">Mifalot-HaZadikim_0014</head><span ana="folkloristics:story_type_advent; social-relations:retrospective_recognition; characters-and-roles:hidden_righteous; social-relations:with_non_jews; characters-and-roles:preacher; supernatural:light_or_fire_as_a_sign_of_righteousness;  experience:revelation; characters-and-roles:elijah_the_prophet">תיוגים</span><lb />
 <p> מהרב הצדיק וכו׳ מוה׳ <persName>משה מ<placeName ref="#H-LOC_180">פרעשיוועצקי</placeName></persName> הרב הנ״ל
                בתחלתו הסתיר מעשיו ועבודתו ונראה לכל העולם כאיש
                פשוט ע״ה. וגם הלך נע ונד לסבול גלות עם השכינה ונזדמן לו פ״א
@@ -956,7 +957,7 @@
                יכולים והרגלתם באומנות הלזו ויען ויאמר בודאי ידעתי ואומן בקי
                בעסק הלז וכאשר שמעו דבריו נתאזרו בעוז וחדוה על דבר שהזמין
                להם השי״ת בע״מ ואומן לביתם בלי שום חיפוש אחר חיפוש : ותומ״י
-            <pb facs="MifalotZadikim-0030.jpg"/>
+            <pb facs="MifalotZadikim-0030.jpg" />
                הוליכו אותו לבית העושין שם היי״ש והראו לו כל בית נכותם ותיכף
                הזהיר בעוה״ב את הערלי׳ המזומני' לשם לעזר ולסעד לאיש
                הלז ככל היוצא מפיו יעשו : ויהי למחרתו באו הערלי׳ לשאול פיו איך
@@ -989,7 +990,7 @@
                עשה והלך לבית שריפת היי״ש שהיתה חוץ לכפר רחוק מאוד ויהי כי
                בא סמוך לבית הנ״ל ראה כי אור זורח ומבהיק דרך החלונות : חשב
                בדעתו בוודאי כי יגנובו הערלי׳ מן היי״ש כי ידע שבלילה אינם עוסקי׳
-            <pb facs="MifalotZadikim-0031.jpg"/>
+            <pb facs="MifalotZadikim-0031.jpg" />
                במלאכתם ע״כ עמד אחרי הכותל לראות מה נעשה שם כי בוודאי
                הלא דבר הוא ויהי כאשר הציץ בחורי ובסדקי הכתלים ראה שהאומן
                הנ״ל יושב עם עוד איש א׳ זקן יפה בהדרת פנים ותארו כתואר פני
@@ -1024,7 +1025,7 @@
                זי״ע ועכי״א :
             
               
-</p></div><lb/><div type="story" xml:id="Mifalot-HaZadikim_0015"><pb facs="MifalotZadikim-0032.jpg"/><head type="storyHead">Mifalot-HaZadikim_0015</head><span ana="ethics-and-emotions:prohibitions; social-relations:retrospective_recognition; social-relations:inter_hasidic; characters-and-roles:the_family_of_the_tsaddik; characters-and-roles:tsaddik_wife; women:minor_character; practice:worship_through_corporeality; characters-and-roles:hidden_righteous; custom:hasidic_custom; halakhah:tefillin; spaces:institutions_hassidic_court; kabbalah:kabbalistic_terms_yihudim; practice:meditation; practice:travel_to_the_tsaddik; halakhah:prayer; experience:enthusiasm">תיוגים</span><lb/>
+</p></div><lb /><div type="story" xml:id="Mifalot-HaZadikim_0015"><pb facs="MifalotZadikim-0032.jpg" /><head type="storyHead">Mifalot-HaZadikim_0015</head><span ana="ethics-and-emotions:prohibitions; social-relations:retrospective_recognition; social-relations:inter_hasidic; characters-and-roles:the_family_of_the_tsaddik; characters-and-roles:tsaddik_wife; women:minor_character; practice:worship_through_corporeality; characters-and-roles:hidden_righteous; custom:hasidic_custom; halakhah:tefillin; spaces:institutions_hassidic_court; kabbalah:kabbalistic_terms_yihudim; practice:meditation; practice:travel_to_the_tsaddik; halakhah:prayer; experience:enthusiasm">תיוגים</span><lb />
 <p> מפעלות הצדיקים מהרב הצדיק ר׳ <persName ref="#Tsadik_017.003">שמעלקי מ<placeName ref="#H-LOC_66">ניקולשפורג</placeName></persName> בשבת אצלו איש
                אלקי׳ נורא הרב מוה' <persName ref="#Tsadik_023.001">לוי יצחק</persName> אב"ד
                מ<placeName ref="#H-LOC_134">בארדיטשוב</placeName> :
@@ -1057,7 +1058,7 @@
                ואח״כ בעת הסיב הרב <persName>ר״ש</persName> הנ״ל לסעוד סעודת הצהרים וכאשר ראה
                הרב <persName>ר״ש</persName> את הרב ר׳ <persName ref="#Tsadik_023.001">לוי יצחק</persName> הנ״ל נתן לו שלום בספר פנים יפות
                <fw type="catch">והחזיר</fw>
-            <pb facs="MifalotZadikim-0033.jpg"/>
+            <pb facs="MifalotZadikim-0033.jpg" />
                והחזיר לו שלום וקרא אותו להסב אצלו והשיבו אותו אצלו ואכל עמו
                מקערה אחת וכאשר ראה התלמיד הנ״ל את כל המעשה אשר נעשה
                עם הרב ר׳ <persName ref="#Tsadik_023.001">לוי יצחק</persName> ואת כל הכבוד אשר עשה לו הרב והתקרבותו
@@ -1084,12 +1085,12 @@
                היום כולו ולדבר דיבורים הנראה לשיחת חולין ודברים בטלים וליחד
                בהם יחודים נוראים כמדריגת <persName>רב</persName> התנא הגדול. משא״כ אני איני יכול
                להחזיק המוחין רק שלשה שעות כדרך שאר התנאים : זי״ע ועכי״א :
-</p></div><lb/><div type="story" xml:id="Mifalot-HaZadikim_0016"><head type="storyHead">Mifalot-HaZadikim_0016</head><!--<pb facs="MifalotZadikim-0033.jpg"/>--><span ana="times:shabbat; ethics-and-emotions:prohibitions; practice:asceticism; social-relations:inter_hasidic_master_disciple_relationship; ethics-and-emotions:repentance; practice:travel_to_the_tsaddik; ethics-and-emotions:Joy; ethics-and-emotions:sadness">תיוגים</span><lb/>
-<p> מ<persName ref="#Tsadik_001.001">הבעש״ט</persName> עם הרב הצדיק מוה׳ <persName ref="#Tsadik_013.002">מיכל מ<placeName>זלאטשוב</placeName></persName> :
+</p></div><lb /><div type="story" xml:id="Mifalot-HaZadikim_0016"><head type="storyHead">Mifalot-HaZadikim_0016</head><span ana="times:shabbat; ethics-and-emotions:prohibitions; practice:asceticism; social-relations:inter_hasidic_master_disciple_relationship; ethics-and-emotions:repentance; practice:travel_to_the_tsaddik; ethics-and-emotions:Joy; ethics-and-emotions:sadness">תיוגים</span><lb />
+<p> מ<persName ref="#Tsadik_001.001">הבעש״ט</persName> עם הרב הצדיק מוה׳ <persName ref="#Tsadik_013.002">מיכל מ<placeName ref="#H-LOC_402">זלאטשוב</placeName></persName> :
                הרב ר׳ <persName>מיכל</persName> הנ״ל בעת אשר הסתיר מעשיו מבני אדם וישב אז
                ב<placeName ref="#H-LOC_246">ברוסילאוו</placeName>. ואח״כ נתגדל ונתגלה מעט מעט ואירע בעיר
                הנ״ל שאיש אחד חילל שבת בשוגג שאיחר בנסיעתו בעש״ק ממניעת
-            <pb facs="MifalotZadikim-0034.jpg"/>
+            <pb facs="MifalotZadikim-0034.jpg" />
                העגלה ואחר זה בא לפני הרב ר׳ <persName>מיכל</persName> לבקש ממנו שיתן לו תיקון
                על חטאו הגדול חילול שבת החמור וסידר לו הרב תשובה חמורה
                מאוד כפי שכתוב ב<bibl>רוקח</bibl> ושאר ספרים להתענות סכום רב ולגלגל עצמו
@@ -1122,7 +1123,7 @@
                ונתגלגל הדבר בסיבת העגלה שחשכה לו בדרך סמוך לעיר הנ״ל והלך
                ברגליו עד שבא ל<persName ref="#Tsadik_001.001">הבעש״ט</persName> באישון לילה ובעת בואו על פתח הבית
                אחז הבעש״ט את הכוס על ידו לקדש וכאשר ראה <persName ref="#Tsadik_001.001">הבעש״ט</persName> אותו נתן
-            <pb facs="MifalotZadikim-0035.jpg"/>
+            <pb facs="MifalotZadikim-0035.jpg" />
                לו שלום ואמר לו בזה״ל נא <persName>מיכולה</persName> מעתה תדע האיך ליתן לתיקון
                חמור למחלל שבת וכי אפשר אנוש כזה שלא טעם טעם חטא מימיו
                ולכן אינו יודע מכאב ושבירת לב בקרב איש הישראלי כשנכשל ח״ו
@@ -1131,8 +1132,8 @@
                החטא לגמרי אתה לא טעמת טעם חטא ולא טעמת שבירת הלב :
                ואח״כ עשה<persName> הבעש״ט</persName> קידוש : זי״ע ועכי״א נשמע מזה שעיקר התשובה
                היא שבירות הלב והחרטה ולא הסיגופים :
-</p></div><lb/><div type="story" xml:id="Mifalot-HaZadikim_0017"><head type="storyHead">Mifalot-HaZadikim_0017</head><!--<pb facs="MifalotZadikim-0035.jpg"/>-->
-   <span ana="practice:asceticism; women:minor_character; characters-and-roles:tsaddik_wife; characters-and-roles:the_family_of_the_tsaddik; ethics-and-emotions:virtues_poverty; supernatural:magic; practice:study">תיוגים</span><lb/>
+</p></div><lb /><div type="story" xml:id="Mifalot-HaZadikim_0017"><head type="storyHead">Mifalot-HaZadikim_0017</head>
+   <span ana="practice:asceticism; women:minor_character; characters-and-roles:tsaddik_wife; characters-and-roles:the_family_of_the_tsaddik; ethics-and-emotions:virtues_poverty; supernatural:magic; practice:study">תיוגים</span><lb />
 <p>
                מהרב ר׳ <persName>מיכל</persName> הנ״ל בעת שהתגורר ב<placeName ref="#H-LOC_246">ברוסילאוו</placeName> : היה בהסתר רב כנ״ל והיה עני
                גדול רק פרנסתו מבהמה אחת שמכרה אשתו מחלבה ובזאת
@@ -1143,7 +1144,7 @@
                ערל א׳ להפשיטה ונזדמן שבא הרב הנ״ל לביתו וראה שהבהמה מונחת
                בחצר והכישה במקלו וגם בגערה אמר כדרך שמגרשין הבהמה בלשון
                הי הי ועמדה וחיה והתפרנסה עוד ממנה זמן רב :
-</p></div><lb/><div type="story" xml:id="Mifalot-HaZadikim_0018"><head type="storyHead">Mifalot-HaZadikim_0018</head><!--<pb facs="MifalotZadikim-0035.jpg"/>--><span ana="knowledge:esoteric; practice:protection; ethics-and-emotions:virtues_humility; ethics-and-emotions:pride; ethics-and-emotions:punishment; experience:mystical; ethics-and-emotions:prohibitions; characters-and-roles:the_family_of_the_tsaddik;  supernatural:angel_of_death; supernatural:magic; supernatural:demons; supernatural:communicating_with_the_invisible; practice:use_of_holy_names; ethics-and-emotions:resisting_temptation">תיוגים</span><lb/>
+</p></div><lb /><div type="story" xml:id="Mifalot-HaZadikim_0018"><head type="storyHead">Mifalot-HaZadikim_0018</head><span ana="knowledge:esoteric; practice:protection; ethics-and-emotions:virtues_humility; ethics-and-emotions:pride; ethics-and-emotions:punishment; experience:mystical; ethics-and-emotions:prohibitions; characters-and-roles:the_family_of_the_tsaddik;  supernatural:angel_of_death; supernatural:magic; supernatural:demons; supernatural:communicating_with_the_invisible; practice:use_of_holy_names; ethics-and-emotions:resisting_temptation">תיוגים</span><lb />
 <p> <persName>בעהש״ט</persName> הקדוש זי״ע הוצרך פ״א לידע איזה סוד וגילו לו שהסוד
                ההוא כבוש תחת יד הס״מ בעצמו שחטף אותו מעת שגרם
                החטא. והבין <persName ref="#Tsadik_001.001">הבעש״ט</persName> שאין בידו להוציא השם הנ״ל מת״י רק
@@ -1155,7 +1156,7 @@
                ויהי בבואה החדרה הנ״ל תומ״י הפכו פניהם אל הכותל ו<persName ref="#Tsadik_001.001">הבעש״ט</persName>
                עשה בשמות הקדושים ואז בא הס״מ והתחיל לפתות אותם ולבקש
                מהם שיעמדו נוכח פניו וידברו אתו עמו פא״פ ולא ענהו כלל ולא
-            <pb facs="MifalotZadikim-0036.jpg"/>
+            <pb facs="MifalotZadikim-0036.jpg" />
                נתפתו לו אז אמר הס״מ בחלקלק לשונו עתה רואה אני גדולתכם
                שכל רז <choice><corr>לא</corr><sic>לה</sic></choice> אניס לכו. כי כמה צדיקים ותנאים רצו ליקח אצלי הסוד
                הלז ולא יכולו ועתה מוכרח אני לגלות אתכם הסוד מחמת ששמעתי
@@ -1174,8 +1175,8 @@
    <persName ref="#Tsadik_001.001">הבעש״ט</persName> להס״מ כי מנגד תראה עומד כרי של תבואה של השר ותלך
                לשם ותיכף שהלך מביתו כדי הליכה וירד אש וישרוף את כל הכרי
                ו<persName ref="#Tsadik_001.001">הבעש״ט</persName> וכל אנשי ביתו ניצולו ממנו זי״ע ועכי״א :
-</p></div><lb/><div type="story" xml:id="Mifalot-HaZadikim_0019"><head type="storyHead">Mifalot-HaZadikim_0019</head><!--<pb facs="MifalotZadikim-0036.jpg"/>-->
-   <span ana="knowledge:esoteric; practice:healing; social-relations:retrospective_recognition; supernatural:magic; practice:protection; knowledge:practical_kabbalah; characters-and-roles:baal_shem; practice:use_of_holy_names; practice:writing_amulets; social-relations:with_non_hasidim; ethics-and-emotions:punishment; ethics-and-emotions:prohibitions; social-relations:conflict; times:shabbat ">תיוגים</span><lb/>
+</p></div><lb /><div type="story" xml:id="Mifalot-HaZadikim_0019"><head type="storyHead">Mifalot-HaZadikim_0019</head>
+   <span ana="knowledge:esoteric; practice:healing; social-relations:retrospective_recognition; supernatural:magic; practice:protection; knowledge:practical_kabbalah; characters-and-roles:baal_shem; practice:use_of_holy_names; practice:writing_amulets; social-relations:with_non_hasidim; ethics-and-emotions:punishment; ethics-and-emotions:prohibitions; social-relations:conflict; times:shabbat ">תיוגים</span><lb />
 <p> מהרב הצדיק ר׳ <persName>יצחק דראביטשער</persName> :
                פ״א נסע הרב הצדיק הקדוש מוה׳ <persName>יצחק</persName> הנ״ל דרך עיר <placeName ref="#H-LOC_55">מעזיבוז</placeName>
    וכאשר שמע שם גודל פעולת הקמיעות ד<persName ref="#Tsadik_001.001">הבעש״ט</persName> זי״ע עלה
@@ -1188,7 +1189,7 @@
                סיבת דיבור הצדיק הרב ר׳ <persName>יצחק</persName> הנ״ל ועשה <persName ref="#Tsadik_001.001">הבעש״ט</persName> דבר נגדו וישולם 
                פעלו ומשכורתו כפולה. ויהי הרב <persName>ר״י</persName> הנ״ל בדרך והנה טעה בחשבונו
                של יום השבוע ואמר ביום שני יום ראשון בשבת וכן עד יום חמישי
-            <pb facs="MifalotZadikim-0037.jpg"/>
+            <pb facs="MifalotZadikim-0037.jpg" />
                מנה אותו ליום רביעי ולמחרתו ביום חמישי לחשבונו בא לעיר <placeName ref="#H-LOC_55">מעזיבוז</placeName>
                ובאמת היה יום הששי ובדעתו היה לנסוע לעיר אחרת הסמוכה לה
                על ש״ק הבע״ל וכשהיה בדעתו שהוא יום החמישי לא היה בהול לדרכו
@@ -1221,7 +1222,7 @@
                לי מה לאכול ויען <persName ref="#Tsadik_001.001">הבעש״ט</persName> הנה כבר הכינותי לאכול אפילו על מלאכי׳
                אבל לא על השרפים אז לקח ופנה הרב ר׳ <persName>יצחק</persName> את הטס מלפניו ולא
                היה יכול לאכול עוד שום דבר : ובמוצש״ק בעת סעודת מלוה מלכה
-            <pb facs="MifalotZadikim-0038.jpg"/>
+            <pb facs="MifalotZadikim-0038.jpg" />
                שאל הרב <persName ref="#Tsadik_001.001">הבעש״ט</persName> מפני מה מנעת׳ ממני כח הפעולה בקמיעות שנותן
                אני לעזרת אנשים ענה הרב <persName>ר״י</persName> הנ״ל אסור לשמש בשמות הקדושי׳ אמר
    לו <persName ref="#Tsadik_001.001">הבעש״ט</persName> בקמיעות שלי לא נכתב בהם שום שם ושום השבעה רק שמי
@@ -1239,8 +1240,8 @@
                מתנהגים על פיו וכמה דברים מהנהגותיו שלא הוטבו בעיני ומוכרח
                אני לשתוק וכשאומר פי׳ ב<bibl>פע״ח</bibl> אף שאני יודע פי׳ אחר אמיתי מזה מ״מ
                מוכרח אני לשתוק : זי״ע ועכי״א אמן
-</p></div><lb/><div type="story" xml:id="Mifalot-HaZadikim_0020"><head type="storyHead">Mifalot-HaZadikim_0020</head><!--<pb facs="MifalotZadikim-0038.jpg"/>-->
-   <span ana="spaces:mikveh; practice:tvilah; practice:the_travels_of_the_tsaddik">תיוגים</span><lb/>
+</p></div><lb /><div type="story" xml:id="Mifalot-HaZadikim_0020"><head type="storyHead">Mifalot-HaZadikim_0020</head>
+   <span ana="spaces:mikveh; practice:tvilah; practice:the_travels_of_the_tsaddik">תיוגים</span><lb />
 <p> מהרב הצדיק מוה׳ <persName ref="#Tsadik_014.001">מנחם נחום מ<placeName ref="#H-LOC_31">טשארנאביל</placeName></persName>
                פ״א בא הרב הרב הנ"ל לעיר קטנה ואנשים בה מעט ורצה לטבול
                בעצמו ויאמרו לו לאמר לא נמצא בכאן שום מקום טבילה כי
@@ -1254,13 +1255,13 @@
                שלש מאות רו״כ הנ״ל ונתן אותם לאנשי העיר לעשות בהם בית טבילה
                עם מקוה טהורה וכן עשו : זי״ע ועכי״א :
                מזה הענין ראוי לכ״א להתעורר ולהתפעל אל העבודה למסור נפשו
-            <pb facs="MifalotZadikim-0039.jpg"/>
+            <pb facs="MifalotZadikim-0039.jpg" />
                על כבודו ית׳ ומצותיו וילמוד א״ע ממעשה הצדיק הנ״ל שמסר נפשו בזה
                ובבא בשביל עשיית מעשה הטוב להוציא על ידו מקוה טהורה שיטהרו
                בה אחרים בשביל קדושת שמו ית׳ ולא פנה לשום קיבול שכר בעוה״ב רק
                לעשות נ״ר ליוצרו ובוראו בזה וכמשל בן המלך לנגד עבדי המלך וכנודע
                 : בענין הנ״ל
-</p></div><lb/><div type="story" xml:id="Mifalot-HaZadikim_0021"><head type="storyHead">Mifalot-HaZadikim_0021</head><!--<pb facs="MifalotZadikim-0039.jpg"/>--><span ana="practice:protection; social-relations:with_non_jews; social-relations:inter_hasidic_master_disciple_relationship; ethics-and-emotions:repentance; practice:storytelling; practice:the_travels_of_the_tsaddik; practice:travel_to_the_tsaddik; supernatural:perception; ethics-and-emotions:prohibitions; ethics-and-emotions:virtues">תיוגים</span><lb/>
+</p></div><lb /><div type="story" xml:id="Mifalot-HaZadikim_0021"><head type="storyHead">Mifalot-HaZadikim_0021</head><span ana="practice:protection; social-relations:with_non_jews; social-relations:inter_hasidic_master_disciple_relationship; ethics-and-emotions:repentance; practice:storytelling; practice:the_travels_of_the_tsaddik; practice:travel_to_the_tsaddik; supernatural:perception; ethics-and-emotions:prohibitions; ethics-and-emotions:virtues">תיוגים</span><lb />
 <p> כשבא הרב הצדיק מוה׳ <persName>מנחם מענדיל מ<placeName ref="#H-LOC_323">ליבאוויטש</placeName></persName> מנסיעתו
                מ<placeName ref="#H-LOC_217">עיר המלוכה</placeName> הידוע נודע לו הדבר שאומרים עליו שמסר
                נפשו בעד עמו ישראל בכה בכיה רבה ואמר אוי למי שהעולם מטעים
@@ -1287,7 +1288,7 @@
                <persName>אברהם מ<placeName>חמעלניק</placeName></persName> מחותנו של הרב הצדיק מוה׳ <persName ref="#Tsadik_001.015">ברוך מ<placeName ref="#H-LOC_55">מעזיבוז</placeName></persName> ונתארח
                ג״כ אצל הרב הנ״ל על שבת זו : וישמע מוה׳ <persName>אברהם</persName> הנ״ל כל הבזיונות
                אשר חרפוהו הרב מוה׳ <persName>ברוך</persName> הנ״ל ולא היה יכול להתאפק וישאלהו
-            <pb facs="MifalotZadikim-0040.jpg"/><quote>כל המלבין</quote> וכו׳ ענה אותו הרב
+            <pb facs="MifalotZadikim-0040.jpg" /><quote>כל המלבין</quote> וכו׳ ענה אותו הרב
                ר״ב הנ״ל וכי אין אני יודע כי כל מה שכתוב בתורתינו אמת הוא. אבל
                אמת הוא שהפקרתי עוה״ב וגם עוה״ז שלי בשביל לעשות טובה בזה לאיש
                הלזה כי הערלים הנ״ל חשבו ביניהם להכחיש הדבר לגמרי ולהפסידו
@@ -1302,7 +1303,7 @@
                שבלבו ולראות האיך הצדיקים עובדים את ה׳ שלא ע״מ לקבל פרס
                ואוהבים כאו״א מישראל יותר מנפשם השי״ת יזכנו לעבדו בלבב שלם
                ולאהוב כ״א מישראל כנפשינו כמ״ש <quote>ואהבת לרעך כמוך</quote> :
-</p></div><lb/><div type="story" xml:id="Mifalot-HaZadikim_0022"><head type="storyHead">Mifalot-HaZadikim_0022</head><!--<pb facs="MifalotZadikim-0040.jpg"/>--><span ana="knowledge:esoteric; social-relations:inter_hasidic_master_disciple_relationship; practice:fasting; ethics-and-emotions:charity; experience:journey_to_heaven; experience:devekut; practice:devekut; practice:study">תיוגים</span><lb/>
+</p></div><lb /><div type="story" xml:id="Mifalot-HaZadikim_0022"><head type="storyHead">Mifalot-HaZadikim_0022</head><span ana="knowledge:esoteric; social-relations:inter_hasidic_master_disciple_relationship; practice:fasting; ethics-and-emotions:charity; experience:journey_to_heaven; experience:devekut; practice:devekut; practice:study">תיוגים</span><lb />
 <p> הרב הצדיק הגאון האמיתי ר׳ <persName ref="#Tsadik_035.001">יעקב שמשון מ<placeName ref="#H-LOC_76">שיפיטעווקע</placeName></persName> 
                דרכו היה לנסוע למרחקים לקבץ ממון
                על פדיון שבוים ולפרנס להצדיקים אשר היה במסתרים ויהי בדרך רחוק
@@ -1318,7 +1319,7 @@
                הוא ויודע ברוח קדשו את הארץ <placeName>פלני״א</placeName> כי ע״פ השמועה מן הנמנע
                לידע בארצות רחוקות כאלו והנאהו מאוד שזכה להתארח אצלו. ויהי
                כאשר ישבו לאכול שאל החכם הנ״ל את הרב הנ״ל בזה״ל הידעתם את
-            <pb facs="MifalotZadikim-0041.jpg"/>
+            <pb facs="MifalotZadikim-0041.jpg" />
                ר׳ <persName ref="#Tsadik_001.015">ברוך מ<placeName ref="#H-LOC_55">מעזביז</placeName></persName>. אז תיכף נבהל הרב הנ״ל כי ראה בוודאי כי איש
                קדוש הוא וברוח קדשו יודע מהרב ר׳ <persName>ברוך</persName> הנ״ל כי איך אפשר לידע
    מר׳ <persName>ברוך</persName> כי אף <persName ref="#Tsadik_001.001">הבעש״ט</persName> לא ידעו ממנו ולא שמעו מגדולתו : ואף
@@ -1343,14 +1344,14 @@
                .היה יכול <persName>הרב מ<placeName ref="#H-LOC_76">שפיטיעווקע</placeName></persName> לסבול עוד יותר מחמת עמקות הענין
                אח״כ שאל הרב הנ״ל להחכם הנ״ל מאין ידעתם את הרב <persName>ר״ב מ<placeName ref="#H-LOC_55">מעזיבוז</placeName></persName>
                ענה לו החכם הנ״ל ראיתי אותו ונהירין ליה שבילין דשמיא כשבילין
-                 דארעיה : זי״ע ועכי״א : </p></div><lb/><div type="story" xml:id="Mifalot-HaZadikim_0023"><head type="storyHead">Mifalot-HaZadikim_0023</head><!--<pb facs="MifalotZadikim-0041.jpg"/>--><span ana="women:minor_character; social-relations:marital_relationship; characters-and-roles:tsaddik_wife; ethics-and-emotions:virtues_poverty; supernatural:demons; characters-and-roles:the_family_of_the_tsaddik; supernatural:perception; supernatural:communicating_with_the_invisible">תיוגים</span><lb/>
+                 דארעיה : זי״ע ועכי״א : </p></div><lb /><div type="story" xml:id="Mifalot-HaZadikim_0023"><head type="storyHead">Mifalot-HaZadikim_0023</head><span ana="women:minor_character; social-relations:marital_relationship; characters-and-roles:tsaddik_wife; ethics-and-emotions:virtues_poverty; supernatural:demons; characters-and-roles:the_family_of_the_tsaddik; supernatural:perception; supernatural:communicating_with_the_invisible">תיוגים</span><lb />
 <p> מהרב הצדיק ר׳ <persName ref="#Tsadik_012.154">ליב הנקרא ספאליר זיידע</persName> הרב הצדיק ה״ה
                מוה׳ <persName>ליב</persName> הנ״ל נתארח אצל הרב הצדיק ר' <persName>יצחק</persName> מ״מ
                מ<placeName>ברום לאוו</placeName> (הנקרא בפי כל ר׳ <persName>איצעלע משיחת</persName>) ושאל הרב ר׳ <persName>ליב</persName>
                הנ״ל את הרב ר׳ <persName>יצחק</persName> הנ״ל אם זכה וטעם טעם עניות ודחקות מימיו
                ויענהו הרב <persName>ר״י</persName> הנ״ל ב״ה טעמתי הנה קודם שהתמנו אותי למגיד בפה
                הייתי עני גדול עד שפ״א בעת עשית הסוכה לא היה לי במה לקנות
-            <pb facs="MifalotZadikim-0042.jpg"/>
+            <pb facs="MifalotZadikim-0042.jpg" />
                חבלים ולקשור דפני הסוכה זל״ז והלכה זוגתי ולקטה זיבות הבצילים
                מתוך הרחוב המעורים ומקושרים. ובהם קשרתי הנסרים מדופני
                הסוכה זל״ז ענהו הרב ר׳ ליב הנ״ל הנה עדיין לא טעמתם רק מעט
@@ -1374,7 +1375,7 @@
                הברת קול היוצא מפי לא תתירא משום דבר והלכתי לעיר ובקול צוחה
                קראתי אותה באבע עד שהבאתי המילדת וזהו הוולד (<persName>ווערגילאש</persName>)
                : הנולד לה בעת הזאת העומד אצלי : זי״ע ועכי״א
-</p></div><lb/><div type="story" xml:id="Mifalot-HaZadikim_0024"><head type="storyHead">Mifalot-HaZadikim_0024</head><!--<pb facs="MifalotZadikim-0042.jpg"/>--><span ana="knowledge:esoteric; supernatural:reincarnation; social-relations:inter_hasidic; supernatural:perception; women:minor_character">תיוגים</span><lb/>
+</p></div><lb /><div type="story" xml:id="Mifalot-HaZadikim_0024"><head type="storyHead">Mifalot-HaZadikim_0024</head><span ana="knowledge:esoteric; supernatural:reincarnation; social-relations:inter_hasidic; supernatural:perception; women:minor_character">תיוגים</span><lb />
 <p> הרב הצדיק ר׳ <persName ref="#Tsadik_012.366">אהרן משה</persName> תלמיד דהרב הצדיק <persName>המגיד
                מ<placeName ref="#H-LOC_56">לובלין</placeName></persName> נסע פ״א לדרכו ויהי כי בא סמוך לפונדק א׳ ויעמוד על מפתן הפתח
                והחזיר פניו מהבית ולא רצה ליכנס ויבא בעה״ב לשאול לו מדוע לא
@@ -1384,7 +1385,7 @@
                כמו בן י״ב שנים ויבקש מהרב לברכו אותו. ויהי כאשר הניח הרב את
                ידיו על ראשו לברכהו ותיכף השמיט את ידיו מראשו באמרו אין אני
                רוצה לברך את הערל אז אמרה האשה הנ״ל לא ח״ו מחמת <choice><corr>רשעות</corr><sic>רשעת</sic></choice> לא
-            <pb facs="MifalotZadikim-0043.jpg"/>
+            <pb facs="MifalotZadikim-0043.jpg" />
                נימול רק מחמת שמתו אחיו מחמת מילה וע״פ הדין אינו צריך למולו
                ויהי כאשר ראו אנשי הבית את שני האותות האלה היה לפלא בעיניהם
                והחזיקו אותו כחוזה ממש וכנביא והנה בתוך כך בא להעיר הנ״ל <persName>הרב
@@ -1404,7 +1405,7 @@
                ועתה לכה איעצכם העתירו אל ד׳ ג״כ שיקח מכם החזיון הזה וציית
                הרב ר׳ <persName>א״מ</persName> הנ״ל ל<persName ref="#Tsadik_043.003">הרב מ<placeName ref="#H-LOC_133">אפטע</placeName></persName> ויתפלל אל ד׳ על הדבר הזה ויעתר
                .לו ד׳ ומן היום ההוא והלאה <choice><corr>פסק</corr><sic>פסוק</sic></choice> מלדבר בחזיון. זי״ע ועכי״א
-</p></div><lb/><div type="story" xml:id="Mifalot-HaZadikim_0025"><head type="storyHead">Mifalot-HaZadikim_0025</head><!--<pb facs="MifalotZadikim-0043.jpg"/>--><span ana="ethics-and-emotions:repentance; supernatural:conversing_with_the_dead; practice:lifesaving; ethics-and-emotions:adultery; ethics-and-emotions:lust; characters-and-roles:hidden_righteous; supernatural:miracle; supernatural:demons; times:holidays; practice:tvilah; social-relations:with_non_jews; social-relations:marital_relationship; supernatural:communicating_with_the_invisible">תיוגים</span><lb/>
+</p></div><lb /><div type="story" xml:id="Mifalot-HaZadikim_0025"><head type="storyHead">Mifalot-HaZadikim_0025</head><span ana="ethics-and-emotions:repentance; supernatural:conversing_with_the_dead; practice:lifesaving; ethics-and-emotions:adultery; ethics-and-emotions:lust; characters-and-roles:hidden_righteous; supernatural:miracle; supernatural:demons; times:holidays; practice:tvilah; social-relations:with_non_jews; social-relations:marital_relationship; supernatural:communicating_with_the_invisible">תיוגים</span><lb />
 <p> מהרב הצדיק המוסתר ר׳ <persName>אברהם מוזג</persName> בכפר <placeName ref="#H-LOC_419">רעפצייקי</placeName>
                הרב הצדיק הנ״ל פ״א בערב חג הסוכות בעת הליכתו להסוכה דרך
                הבית המזיגה אחר חצות היום ואחר שטבל א״ע לכבוד הרגל
@@ -1416,7 +1417,7 @@
                היינו ב׳ ימים ר״ה ויו״כ כי הדבר בחון ובדוק אצלינו שבעת שישראל
                עומדים צפופים שיבולת התבואה תעמוד זקוף (ובאמת הטעם מחמת
                שהם ימי השפעה) ותהי׳ הברכה מצויה בהתבואה וכן גם אני הלכית
-            <pb facs="MifalotZadikim-0044.jpg"/>
+            <pb facs="MifalotZadikim-0044.jpg" />
             
                בשדה לזרוע והנה בשדה שלי נמצאת בקעה אחת עמוק מאוד ומתקבץ
                שם מים מן הגשמים והמים נקוים ועומדים שם בכל עת החורף ואשא
@@ -1450,7 +1451,7 @@
                לגלגל עמו בנשואין ואם הבינו שנפשו חשקה בתורה אזי המתינו לו עד
                היותו בן י״ח שנים ואח״כ מגרשין אותו בע״כ מן הישיבה למען ילך
                וישא אשה וכשבאתי לשם החזקתי א״ע לרווק פנוי וצעיר אנכי לימים
-            <pb facs="MifalotZadikim-0045.jpg"/>
+            <pb facs="MifalotZadikim-0045.jpg" />
                וכאשר כלתה ימי נעורי כמו שאמרתי להם גרשו אותי מן הישיבה ולא
                ידעתי לשית עצות בנפשי אנה אפנה על ימין או על שמאל ולביתי לא
                רציתי לילך מרוב שנאה שנשקע בלבי על זוגתי ומחמת זה הלכתי נע ונד
@@ -1475,7 +1476,7 @@
                <persName>יהונתן</persName> הנ״ל והוכיח אותו ע״ז איך מלאו לבו למסור נפש ישראל ביד
                החיצונים ואף כשחטא ישראל הוא וצריך ליתנו לו תשובה אבל לא עונש
                חמור מזה וכן לא יעשה
-</p></div><lb/><div type="story" xml:id="Mifalot-HaZadikim_0026"><head type="storyHead">Mifalot-HaZadikim_0026</head><!--<pb facs="MifalotZadikim-0045.jpg"/>--><span ana="knowledge:esoteric; practice:reception_of_hasidim; social-relations:retrospective_recognition; social-relations:inter_hasidic_master_disciple_relationship; practice:smoking; practice:travel_to_the_tsaddik; times:death; social-relations:inter_hasidic; characters-and-roles:hidden_righteous; supernatural:perception">תיוגים</span><lb/>
+</p></div><lb /><div type="story" xml:id="Mifalot-HaZadikim_0026"><head type="storyHead">Mifalot-HaZadikim_0026</head><span ana="knowledge:esoteric; practice:reception_of_hasidim; social-relations:retrospective_recognition; social-relations:inter_hasidic_master_disciple_relationship; practice:smoking; practice:travel_to_the_tsaddik; times:death; social-relations:inter_hasidic; characters-and-roles:hidden_righteous; supernatural:perception">תיוגים</span><lb />
 <p> בשבת הרב הצדיק מ<placeName ref="#H-LOC_26">ריזין</placeName> הניקרא ר׳ <persName>ישראל</persName> זי״ע על כסאו
                וכל העם עומדים עליו מן הבוקר עד הערב בא איש מסכן
                אחד עם בגדים קרועים ומטולאים ודחק א״ע בין העם עד שנגש לפני
@@ -1483,7 +1484,7 @@
                כעת אני עוסק עם ישראל המתינו לי עוד שעה אחת והלך לו האיש
                מסכן הנ"ל אז הבינו כל העומדים עליו כי האיש המסכן ההוא איש
                חכם ולאו דבר פשוט ידבר עמו ולהרב הנ״ל היה לו חדר מיוחד ע״ז
-            <pb facs="MifalotZadikim-0046.jpg"/>
+            <pb facs="MifalotZadikim-0046.jpg" />
                לדבר בו דברי סתרים חדר מלפנים מחדר ובלא חלונות אז תיכף בחרו
                להם איש אחד מביניהם חכם ולמדן כדי שיוכל לשמוע מה
                שידברו והחביאו אותו בחדר הנ״ל במגדל אחת בין המלבושים התלוים
@@ -1516,7 +1517,7 @@
                ואיה מקום כבודו והראהו לי אותו עומד בחוצות וברחובות קריה מקושט
                במלבושיו ומסולסל בשערו בתוך עגולה של אנשים לצים והוא בראש
                ומצחק וממלא פיו שחוק והוא מדבר וכולם עונים אחריו וכשראיתי זאת
-            <pb facs="MifalotZadikim-0047.jpg"/>
+            <pb facs="MifalotZadikim-0047.jpg" />
                נרתעתי לאחורי כי איך אקבל עלי לץ כזה לרב ופטרון ואח״כ נתחזקתי
                עוד ואמרתי אעפ״כ אפשר הוא נסתר ובאתי לפניו ואמרתי לו רבי
                למדיני אורחות חיים וכששמע זאת אז מילא פיו בצחוק והיתול ואמר
@@ -1540,7 +1541,7 @@
                שאלתי אותו אמור לי סימן לידע מי הוא הצדיק הדור : אמר לי בזאת
                תדע כשתאמר לפניו דיבורי שחידשתי וידע שממני הוא הצדיק הדור
                אח״כ תכף והלך לו כהרף עין ולא ראיתיו עוד זי״ע ועכי״א :
-</p></div><lb/><div type="story" xml:id="Mifalot-HaZadikim_0027"><head type="storyHead">Mifalot-HaZadikim_0027</head><!--<pb facs="MifalotZadikim-0047.jpg"/>--><span ana="supernatural:contraction_of_the_road; social-relations:inter_hasidic_master_disciple_relationship; characters-and-roles:hidden_righteous; practice:storytelling; knowledge:esoteric; times:shabbat; women:minor_character; practice:tvilah; supernatural:light_or_fire_as_a_sign_of_righteousness; halakhah:prayer; ethics-and-emotions:sadness; ethics-and-emotions:prohibitions">תיוגים</span><lb/>
+</p></div><lb /><div type="story" xml:id="Mifalot-HaZadikim_0027"><head type="storyHead">Mifalot-HaZadikim_0027</head><span ana="supernatural:contraction_of_the_road; social-relations:inter_hasidic_master_disciple_relationship; characters-and-roles:hidden_righteous; practice:storytelling; knowledge:esoteric; times:shabbat; women:minor_character; practice:tvilah; supernatural:light_or_fire_as_a_sign_of_righteousness; halakhah:prayer; ethics-and-emotions:sadness; ethics-and-emotions:prohibitions">תיוגים</span><lb />
 <p> זאת שמעשה סיפרה הרב הצדיק ר׳ <persName>דיוד מ<placeName ref="#H-LOC_291">טאלנע</placeName></persName> בעהמ״ח ס׳ <bibl><choice><corr>מגן</corr><sic>מען</sic></choice>
                דוד</bibl> ו<bibl>ברכת דוד</bibl> :
                <persName>הבעש"ט</persName> הקדוש נסע פ״א במוצש״ק לדרכו. ונסעו עמו ג׳ תלמידים
@@ -1548,7 +1549,7 @@
                <persName>דוד פורקיס</persName> ור׳ <persName>דוד לייקס</persName> ובאלפי הבדלות הערל <persName>אלעקסע</persName> והושיב
                הערל גבו נגד הסוסים וחלף והלך כמה פרסאות ברגע אחת ע״י שם
                של קפיצת הארץ כדרכו בקודש. ויהי ביום שני בשבת תעו מן הדרך
-            <pb facs="MifalotZadikim-0048.jpg"/>
+            <pb facs="MifalotZadikim-0048.jpg" />
                הנכון ותעו במדבר בישימון דרך עיר מושב לא מצאו ונחלש דעת <persName ref="#Tsadik_001.001">הבעש״ט</persName>
                כי לא ידע מה הוא ויסעו כזה שלשה ימים עד בואם בסבכי היער
                וכמעט שלא ראו אור. ולא ניכר להם בין יום ולילה וכן היה עם יום
@@ -1582,7 +1583,7 @@
                כי רעב הוא מאוד וצריך לאכול תיכף הן בבוקר והן בערב ג׳ שלא
                ידקדקו הרבה על המאכלים אם כשר הוא עפ״י חסידות כדרך הכסילים
                <fw type="catch">ועל</fw>
-            <pb facs="MifalotZadikim-0049.jpg"/>
+            <pb facs="MifalotZadikim-0049.jpg" />
                ועל כל דבריו הוכרחו לענות אמן כן נעשה. ויהי כאשר באו הביתה
                ונחו מעט מטרדות וטורח הדרך. שאל <persName ref="#Tsadik_001.001">הבעש״ט</persName> את האיש הנ״ל אפשר
                נמצא בסמוך איזה נהר או בצעי מים שיוכלו לטבול בהם לכבוד שבת
@@ -1615,7 +1616,7 @@
                לו במיטב כספם חוץ השכירות בעד אכילה וימאן ליתן להם בשום
                אופן בטענו שהנר יכלה ויכבה כי רצו כולם לקדש כ״א בפ״ע והוכרחו
                לצאת בברכתו וכשגמר הקידוש פתח פיו בהלעטה ושתה הכוס ולהם
-            <pb facs="MifalotZadikim-0050.jpg"/>
+            <pb facs="MifalotZadikim-0050.jpg" />
                השאיר מעט על שולי הכוס ונתן להם המעט ואמר להם שיכורים אל תשתו
                הרבה ואח״כ הניח על שלחנו לחם אחת עב ושחור מעורב עם המורסן
                מדגן וכשרצו ממנו ליתן להם לחם משנה פער פיו עליהם ורצה לבלעם
@@ -1648,7 +1649,7 @@
                הכנתי הכל לסעודתכם ורצו לשלם לו בעד הסעודה ההוא ולא רצו לאכול
                עמו אז רצה להכות אותם ואמר בזה״ל האם גזלן אני שאקח מעות
                בכדי אמרו שאינם רוצים לאכול אז ענה ואמר עני אני והכנתי הכל
-            <pb facs="MifalotZadikim-0051.jpg"/>
+            <pb facs="MifalotZadikim-0051.jpg" />
                אז הוכרחו לאכול עמו ושהה אתם עד הערב ובערב יראו ליסע ביער
                מסוכן מזו והוכרחו ללין שם ואח״כ ביום המחרת היה ג״כ הכל כמו
                באתמול וכן היה עד יום הרביעי וביום הרביעי ואז לקח כל אשר להם
@@ -1675,12 +1676,12 @@
                ועתה חלקיכם בראש בג״ע ובאותה שעה חזר ל<persName ref="#Tsadik_001.001">הבעש״ט</persName> המוחין וראה
                שאמנם <unclear>אתה</unclear> וחזר לביתה ושבת שם שבת הבאה בשמחה ובטוב לבב ומרוב
                כל. ושניהם חידשו הרבה בפרד״ס. זי״ע ועכי״א
-</p></div><lb/><div type="story" xml:id="Mifalot-HaZadikim_0028"><head type="storyHead">Mifalot-HaZadikim_0028</head><!--<pb facs="MifalotZadikim-0051.jpg"/>--><span ana="women:major_character; practice:meditation; ethics-and-emotions:resisting_temptation; ethics-and-emotions:lust; ethics-and-emotions:prohibitions">תיוגים</span><lb/>
+</p></div><lb /><div type="story" xml:id="Mifalot-HaZadikim_0028"><head type="storyHead">Mifalot-HaZadikim_0028</head><span ana="women:major_character; practice:meditation; ethics-and-emotions:resisting_temptation; ethics-and-emotions:lust; ethics-and-emotions:prohibitions">תיוגים</span><lb />
 <p> מהרב הצדיק הקדוש מוה׳ <persName ref="#Tsadik_040.001">הירש ליב מ<placeName ref="#H-LOC_35">אליק</placeName></persName>
                הרב הצדיק הנ״ל כיתת את רגליו והלך לרבו והנה באמצע הדרך
                פגעה בו מטרוניתא יפיפיה בתוארה שאין דוגמתה ונסעה בעגלה
                כבודה וכשראתה את הרב הנ״ל הדר ויפה תואר חמדה את יפיו בלבה
-            <pb facs="MifalotZadikim-0052.jpg"/>
+            <pb facs="MifalotZadikim-0052.jpg" />
                וצותה את עבדיו הנוסעים עמה לתופסו ותקפה אותו בחזקה והושיבה
                אותו אצלה במרכבתה והתחילה לפתות אותו אמר לה הרב הנ״ל אין לי
                גבורת אנשים ולא האמינתו ובחנה אותו ממש כמה וכמה שעות והרב
@@ -1688,7 +1689,7 @@
                עליונים רוחנית עד שלא הרגיש בכל מעשיו ונעשה כמת ממש ועי״כ נאמנו
                דבריו עליה ומחמת רוב רוגזתה עליו השליכה אותו ממרכבתה והלך לו
                לדרכו זי״ע :
-</p></div><lb/><div type="story" xml:id="Mifalot-HaZadikim_0029"><head type="storyHead">Mifalot-HaZadikim_0029</head><!--<pb facs="MifalotZadikim-0052.jpg"/>--><span ana="practice:study; ethics-and-emotions:punishment; women:major_character; ethics-and-emotions:resisting_temptation; ethics-and-emotions:lust; ethics-and-emotions:prohibitions">תיוגים</span><lb/>
+</p></div><lb /><div type="story" xml:id="Mifalot-HaZadikim_0029"><head type="storyHead">Mifalot-HaZadikim_0029</head><span ana="practice:study; ethics-and-emotions:punishment; women:major_character; ethics-and-emotions:resisting_temptation; ethics-and-emotions:lust; ethics-and-emotions:prohibitions">תיוגים</span><lb />
 <p> מהנ״ל פ״א הלך הרב הצדיק הנ״ל ושקעה לו חמה פתאום והוכרח
                ללון בפונדק על אם הדרך שלא ברצונו ויהי בלילה אחר אכילתו
                בעוד הנר דולקת ותבא אליו הפונדקית מקושטת וערומה ותבעה אותו
@@ -1697,7 +1698,7 @@
                לקרות את הפ׳ סוטה ויהי כאשר קרא שם כן נתקיים באשה הנ״ל <cit><quote>וצבתה
                בטנה ונפלה יריכה</quote></cit> ועד אור הבוקר מתה במיתה משונה כן יאבדו כל
                אויבך ד׳ וינצלו הצדיקים זי״ע :
-</p></div><lb/><div type="story" xml:id="Mifalot-HaZadikim_0030"><head type="storyHead">Mifalot-HaZadikim_0030</head><!--<pb facs="MifalotZadikim-0052.jpg"/>--><span ana="experience:devekut; practice:devekut; practice:meditation; practice:reception_of_hasidim; social-relations:inter_hasidic; ethics-and-emotions:repentance; practice:torat_ha_tsaddik; social-relations:inter_hasidic_master_disciple_relationship; practice:travel_to_the_tsaddik; ethics-and-emotions:sadness; experience:enthusiasm ">תיוגים</span><lb/>
+</p></div><lb /><div type="story" xml:id="Mifalot-HaZadikim_0030"><head type="storyHead">Mifalot-HaZadikim_0030</head><span ana="experience:devekut; practice:devekut; practice:meditation; practice:reception_of_hasidim; social-relations:inter_hasidic; ethics-and-emotions:repentance; practice:torat_ha_tsaddik; social-relations:inter_hasidic_master_disciple_relationship; practice:travel_to_the_tsaddik; ethics-and-emotions:sadness; experience:enthusiasm ">תיוגים</span><lb />
 <p> מהרב הצדיק בוצינא דנהורא שרגא דאורייתא איש
    אלקים קדוש וכו׳ ר׳ <persName ref="#Tsadik_020.001">זוסיא מ<placeName ref="#H-LOC_242">הניפאלי</placeName></persName> :
                פעם אחת בימי התשובה כד הוה יתיב הרב הצדיק הנ״ל על כסאו
@@ -1713,8 +1714,8 @@
                הר״ת של תשובה הת׳ רומז <quote>תמים תהי׳ עם ד׳ אלקיך</quote> : הש' רומז
                <quote>שויתי ד׳ לנגדי תמיד</quote> : הו׳ רומז <quote>ואהבת לרעך כמוך</quote> : הב׳ רומז <quote>בכל דרכיך
                דעהו</quote> : הה׳ רומז <quote>הצנע לכת עם ד׳ אלקיך</quote> זאת יעבוד לך <persName ref="#Tsadik_020.001">זוסיא</persName> : זי"ע ועכי"א
-</p></div><lb/><div type="story" xml:id="Mifalot-HaZadikim_0031"><pb facs="MifalotZadikim-0053.jpg"/><head type="storyHead">Mifalot-HaZadikim_0031</head>            
-<span ana="not-a-hasidic-story:sermon; practice:sermon">תיוגים</span><lb/>
+</p></div><lb /><div type="story" xml:id="Mifalot-HaZadikim_0031"><pb facs="MifalotZadikim-0053.jpg" /><head type="storyHead">Mifalot-HaZadikim_0031</head>            
+<span ana="not-a-hasidic-story:sermon; practice:sermon">תיוגים</span><lb />
 <p> מהרב הצדיק וכו' פה קדוש <choice><corr>מפיק</corr><sic>מפ"ק</sic></choice> מרגליות הרב מוה׳
                .<persName ref="#Tsadik_043.003">אברהם יהושע העשיל</persName> אב"ד מ<placeName ref="#H-LOC_133">אפטא</placeName>
                פי׳ נאה ומתקבל על הלחש שם קידוש לבנה (הנדפסת בס׳ תפלה
@@ -1729,15 +1730,15 @@
                שמ״ו מ״ה ל״י הוה״י דאחזי דינא מיתה ועוני. ואני נושא אצלי לשון ל׳
                של מרע״ה פי׳ לי מ״ה שמו מ״ה יהו״ה כסדרן דאחזי רחמים גמורים
                 .ודפח״ח וש״י
-</p></div><lb/><div type="story" xml:id="Mifalot-HaZadikim_0032"><head type="storyHead">Mifalot-HaZadikim_0032</head>            <!--<pb facs="MifalotZadikim-0053.jpg"/>-->
-   <span ana="not-a-hasidic-story:sermon; practice:sermon; practice:protection">תיוגים</span><lb/>
+</p></div><lb /><div type="story" xml:id="Mifalot-HaZadikim_0032"><head type="storyHead">Mifalot-HaZadikim_0032</head>            
+   <span ana="not-a-hasidic-story:sermon; practice:sermon; practice:protection">תיוגים</span><lb />
 <p> עוד מהרב הנ״ל <quote>ההופכי הצור הגם מים</quote> (תלים קי״ד) אמר
                בזה״ל רבש״ע ההופ״כי כשתהפך תיבת הצו״ר ותהי׳
                תיבת רוצה וירמוז ר״ת <quote>ראה והתקין צורת הלבנה</quote>. אזי אג״ם ירמוז
                <quote>א״בדו ג״וים מארצו</quote> ואז תהי׳ מי״ם ירמוז <quote>מגדיל ישועות מלכו</quote>. זכותו
                ובקשתו יגן עלינו ועל כל עם ישראל שיתקיים זאת במהרה בימינו אמן :
-</p></div><lb/><div type="story" xml:id="Mifalot-HaZadikim_0033"><head type="storyHead">Mifalot-HaZadikim_0033</head>            <!--<pb facs="MifalotZadikim-0053.jpg"/>-->
-   <span ana="not-a-hasidic-story:sermon">תיוגים</span><lb/>
+</p></div><lb /><div type="story" xml:id="Mifalot-HaZadikim_0033"><head type="storyHead">Mifalot-HaZadikim_0033</head>            
+   <span ana="not-a-hasidic-story:sermon">תיוגים</span><lb />
 <p>
                במדרש <quote>בונה ירושלים ד׳ אפילו הכי נדחי ישראל יכנס</quote> . ע״כ
                והמדרש הזה סתום וחתום ופלא : ופי׳ בזה הרב הצדיק
@@ -1750,7 +1751,7 @@
                העלי״ה. היינו קוב״ה מבקש מאתנו לבנ״ות ליישר ולתקן דרכינו ויבנה
                בהמ״ק והו״א אינ״ו רוצ״ה לבנו״ת היינו באם אנו ח״ו לא נעשה תשובה
                ולא נתקן דרכינו. ה"רי ב״על ה״עלי׳ ב״ונה א״ת ה״בית וא״ת ה״עליה
-            <pb facs="MifalotZadikim-0054.jpg"/>
+            <pb facs="MifalotZadikim-0054.jpg" />
                וי״ושב בבי״ת ע״ד שי״תן ל״ו א״ת יציאותיו פי׳ יוכרח כביכול קוב״ה
                בעל העליה לבנות ג״כ את בהמ״ק התחתון רק ששורת הדין נותנת
                שידור בתוכה עד שיתן לו יציאותיו היינו שלא יכנס ח״ו נדחי ישראל עד
@@ -1758,7 +1759,7 @@
                לפנים משורת הדין ויקבץ אותנו מד׳ כנפות הארץ וזהו אפילו הכי נדחי
                ישראל יכנס וידור עמהם בבהמ״ק שיבנה במהרה בימינו ע״כ ודפח״ח
                : וש״י זי״ע ועכי״א
-</p></div><lb/><div type="story" xml:id="Mifalot-HaZadikim_0034"><head type="storyHead">Mifalot-HaZadikim_0034</head><!--<pb facs="MifalotZadikim-0054.jpg"/>--><span ana="not-a-hasidic-story:sermon; practice:sermon; ethics-and-emotions:repentance">תיוגים</span><lb/>
+</p></div><lb /><div type="story" xml:id="Mifalot-HaZadikim_0034"><head type="storyHead">Mifalot-HaZadikim_0034</head><span ana="not-a-hasidic-story:sermon; practice:sermon; ethics-and-emotions:repentance">תיוגים</span><lb />
 <p> מהרב הצדיק המופלא וכו׳ ר׳ <persName ref="#Tsadik_001.015">ברוך מ<placeName ref="#H-LOC_55">מעזיבוז</placeName></persName>
                <quote>מה טובו אוהלך יעקב</quote> (במדבר כ״ג) פירש״י ז״ל <quote>שראה שאין פתחיהן
                מכוונין זה מול זה</quote> ע״כ פי׳ לפירושו ע״פ דאיתא <quote>פתחו לי כפתחו
@@ -1767,7 +1768,7 @@
                גדולה ממה שהם פותחים. ע״כ לא היה יכול בלעם הרשע להרע להם
                כי ראה שאם יעשו תשובה מועטת כל דהוא <unclear>ע ד</unclear> הקב״ה ישפיע להם רב
                טוב לבית ישראל.
-</p></div><lb/><div type="story" xml:id="Mifalot-HaZadikim_0035"><head type="storyHead">Mifalot-HaZadikim_0035</head><!--<pb facs="MifalotZadikim-0054.jpg"/>--><span ana="not-a-hasidic-story:sermon; practice:sermon; ethics-and-emotions:repentance">תיוגים</span><lb/>
+</p></div><lb /><div type="story" xml:id="Mifalot-HaZadikim_0035"><head type="storyHead">Mifalot-HaZadikim_0035</head><span ana="not-a-hasidic-story:sermon; practice:sermon; ethics-and-emotions:repentance">תיוגים</span><lb />
 <p> עוד מהנ״ל <quote>חם לבי בקרבי בהגיגי תבער אש דברתי בלשוני</quote> (תלים לט)
                פי׳ ח״ם לב״י : מאוד יחם לבי ונתעוררתי אל הבכי
                והצעקה בהגיג״י כשאני מדבר וחושב תבע״ר א״ש מה שהיו מכפרים
@@ -1775,7 +1776,7 @@
                אין לנו רק אמירת שפתיים שאנו עוסקים בהלכות עבודה ואומרים
                ונשלמה פרים שפתינו זי״ע שיבנה בית המקדש במהרה בימינו ויכפר אש
                המזבח ממש כבראשונה.
-</p></div><lb/><div type="story" xml:id="Mifalot-HaZadikim_0036"><head type="storyHead">Mifalot-HaZadikim_0036</head><!--<pb facs="MifalotZadikim-0054.jpg"/>--><span ana="not-a-hasidic-story:sermon; practice:sermon">תיוגים</span><lb/>
+</p></div><lb /><div type="story" xml:id="Mifalot-HaZadikim_0036"><head type="storyHead">Mifalot-HaZadikim_0036</head><span ana="not-a-hasidic-story:sermon; practice:sermon">תיוגים</span><lb />
 <p> (עוד על פסוק תלים צד) <quote>היחברך כסא הוות יוצר עמל עלי חחוק</quote>.               פי׳ היחבר״ך מלשון חבורה הוו״ת לשון שבר וזהו היחבר״ך כס״א הוו״ת
                הנחשב לחבורה ומכה לך מה שהכסא שבורה (ע״ד <quote>כי יד על כס יה
                ופירשו אין השם שלם ואין הכסא שלם</quote>) והדר אמר מפני מה ומסיק
@@ -1784,10 +1785,10 @@
                זה עצמו ואמר לפניו רבש״ע היחברך מלשון חיבור כפשוטו ר״ל היוכל
                מי לחבר לך כס״א הוו״ת הכסא שלך שהיא שבורה כביכול (כנ״ל) כי
                יוצר הוא האדם יציר כפיך מעת שיצרת אותו עמ״ל עלי חוק מוכרח הוא
-            <pb facs="MifalotZadikim-0055.jpg"/>
+            <pb facs="MifalotZadikim-0055.jpg" />
                לעמול עצמו עלי חוק פרנסה לפרנס צרכי ב"ב המרובים (גם חוק
                המלך) ומוטרד מאוד וא"א לו לעבוד עבודתך כראוי : ע"כ דבריו זי"ע ועכי"א
-</p></div><lb/><div type="story" xml:id="Mifalot-HaZadikim_0037"><head type="storyHead">Mifalot-HaZadikim_0037</head><!--<pb facs="MifalotZadikim-0055.jpg"/>--><span ana="not-a-hasidic-story:sermon; practice:sermon">תיוגים</span><lb/>
+</p></div><lb /><div type="story" xml:id="Mifalot-HaZadikim_0037"><head type="storyHead">Mifalot-HaZadikim_0037</head><span ana="not-a-hasidic-story:sermon; practice:sermon">תיוגים</span><lb />
 <p> בשם הרב הצדיק המפורסם וכו' הרב ר' <persName>מנחם נחום</persName>
                זצלל"ה מ<placeName ref="#H-LOC_263">מקארוב</placeName>
                 <quote>ותעל הצפרדע ותכס את ארץ מצרים</quote> (שמות ח') כי הנה ראשית 
@@ -1798,12 +1799,12 @@
                מחשבתו הראשונה <choice><corr>בצפרא</corr><sic>בצפרה</sic></choice> אזי ותכס הוא מכסה את כל הארץ פי' ארצות
                וגשמיות מצרי"ם ר"ל ועל כל מיצר ים פי' הקליפות והס"א שנקראים
                מיצר ים כנודע זי"ע ועכי"א.
-</p></div><lb/><div type="story" xml:id="Mifalot-HaZadikim_0038"><head type="storyHead">Mifalot-HaZadikim_0038</head><!--<pb facs="MifalotZadikim-0055.jpg"/>--><span ana="not-a-hasidic-story:sermon; practice:sermon; halakhah:prayer">תיוגים</span><lb/>
+</p></div><lb /><div type="story" xml:id="Mifalot-HaZadikim_0038"><head type="storyHead">Mifalot-HaZadikim_0038</head><span ana="not-a-hasidic-story:sermon; practice:sermon; halakhah:prayer">תיוגים</span><lb />
 <p> עוד בעניין הנ״ל <quote>ראשית עריסותיכם חלה תרימו תרומה לד'</quote> (פי'
                ראשי"ת בראשונה. עריסותיכ"ם כשתקומו ממטתכם (<choice><corr>מלשון</corr><sic>מלחון</sic></choice> עריסה
                המוזכר בתלמוד) חל"ה תתפללו להשי"ת (מלשון ויחל משה) תר"ימו
                פ' תקום ותרום אתי תרומה לד' קימה בשביל עבודת השי"ת. זי"ע ועכי"א
-</p></div><lb/><div type="story" xml:id="Mifalot-HaZadikim_0039"><head type="storyHead">Mifalot-HaZadikim_0039</head><!--<pb facs="MifalotZadikim-0055.jpg"/>--><span ana="not-a-hasidic-story:sermon; practice:sermon">תיוגים</span><lb/>
+</p></div><lb /><div type="story" xml:id="Mifalot-HaZadikim_0039"><head type="storyHead">Mifalot-HaZadikim_0039</head><span ana="not-a-hasidic-story:sermon; practice:sermon">תיוגים</span><lb />
 <p> מהנ״ל <quote>רב לכם סוב את ההר הזה</quote> (דברים ז') פי' כי  הנה כשישראל
                עמדו על הר סיני <choice><corr>פסקה</corr><sic>פתקה</sic></choice> זוהמתן ונתבטל מהם היצה"ר רק הם מרוב
                ענותנותם לא ידעו מזה ואמר להם הקב"ה ית"ש ר"ב לכ"ם פי' מרובה
@@ -1813,16 +1814,16 @@
                בעבודה הצפונה וגנוזה שהיא עבודה תמה. זי"ע ועכי"א כן יעזר  לנו
                השי"ת <choice><corr>שיעביר</corr><sic>שיעבור</sic></choice> את רוח הטומאה מן הארץ ונתחיל לעבוד עבודה הצפונה
                והגנוזה אמן.
-</p></div><lb/><div type="story" xml:id="Mifalot-HaZadikim_0040"><head type="storyHead">Mifalot-HaZadikim_0040</head><!--<pb facs="MifalotZadikim-0055.jpg"/>--><span ana="not-a-hasidic-story:sermon; practice:sermon; halakhah:prayer">תיוגים</span><lb/>
+</p></div><lb /><div type="story" xml:id="Mifalot-HaZadikim_0040"><head type="storyHead">Mifalot-HaZadikim_0040</head><span ana="not-a-hasidic-story:sermon; practice:sermon; halakhah:prayer">תיוגים</span><lb />
 <p> מהרב הצדיק וכו' מוה' <persName ref="#Tsadik_057.001">אורי מ<placeName ref="#H-LOC_209">סטרעלסק</placeName></persName>
                <quote>ברוך שאמר והיה העולם ברוך הוא</quote>. פי׳ כי הנה כאשר אדם מתפלל
                בדחילו ורחימו נבראים מדיבוריו עולמות חדשות וזהו. ברוך
                שאמר אם אמר אדם ברוך בתפלתו וכו׳. והיה העו״לם שנברא מזה
                העולם ברו״ך הו״א זהו ברכה ותפלה כדת מה לעשות ובאם לאו לא
-            <pb facs="MifalotZadikim-0056.jpg"/>
+            <pb facs="MifalotZadikim-0056.jpg" />
                פרחת לעילא ואינה עושה שום פעולה ח״ו השי״ת יזכנו לעבוד עבודתו
                .בדחילו ורחימו לעשות נ״ר ליוצרינו אמן
-</p></div><lb/><div type="story" xml:id="Mifalot-HaZadikim_0041"><head type="storyHead">Mifalot-HaZadikim_0041</head><!--<pb facs="MifalotZadikim-0056.jpg"/>--><span ana="not-a-hasidic-story:sermon; practice:sermon; times:shabbat">תיוגים</span><lb/>
+</p></div><lb /><div type="story" xml:id="Mifalot-HaZadikim_0041"><head type="storyHead">Mifalot-HaZadikim_0041</head><span ana="not-a-hasidic-story:sermon; practice:sermon; times:shabbat">תיוגים</span><lb />
 <p> עוד מהרב הנ״ל <quote>רזא דשבתא דאיהו שבת דאתאחדת ברזא דאחד</quote> הנה
                התרגום של ד׳ אחד. ד׳ חד והתחיל תיבת אחד לטעון לפני הקב״ה
                מפני מה גרע התרגום ממני אות האל״ף שרומז לענין רם ונשא אלופו
@@ -1831,7 +1832,7 @@
                מה שהוסיף התרגום ואמר שבתא דאי״הו שב״ת דבאמת הי׳ צריך לומר
                שבת רק דאתא״חדת בר״זא דא״חד מפני שגרעתי מן תיבת אחד אות
                אלף והוכרחתי להוסיף אותה על שבת. זי״ע
-</p></div><lb/><div type="story" xml:id="Mifalot-HaZadikim_0042"><head type="storyHead">Mifalot-HaZadikim_0042</head><!--<pb facs="MifalotZadikim-0056.jpg"/>--><span ana="knowledge:esoteric; practice:travel_to_other_tsaddik; social-relations:retrospective_recognition; practice:sermon; social-relations:inter_hasidic; social-relations:inter_hasidic_master_disciple_relationship; ethics-and-emotions:anger; kabbalah:kabbalistic_terms_yihudim; practice:meditation; practice:study ">תיוגים</span><lb/>
+</p></div><lb /><div type="story" xml:id="Mifalot-HaZadikim_0042"><head type="storyHead">Mifalot-HaZadikim_0042</head><span ana="knowledge:esoteric; practice:travel_to_other_tsaddik; social-relations:retrospective_recognition; practice:sermon; social-relations:inter_hasidic; social-relations:inter_hasidic_master_disciple_relationship; ethics-and-emotions:anger; kabbalah:kabbalistic_terms_yihudim; practice:meditation; practice:study ">תיוגים</span><lb />
 <p> פעם אחת שבתו אצל הרב הקדוש וכו׳ ר׳ <persName ref="#Tsadik_016.001">אהרן מ<placeName ref="#H-LOC_4">קארלין</placeName></persName> שני אנשים
                מתלמידי הרב הקדוש מוה׳ <persName>זלמינא</persName> (בעהמ״ח <bibl>ש״ע דהרב</bibl>
                ו<bibl>התניא</bibl> ועוד חיבורים) ובעת סעודת שבת הושיבם קרוב אצלו וחלק
@@ -1854,7 +1855,7 @@
                שאומרים עליו שהוא צדיק ואוכל הרבה ושותה הרבה זולל וסובא אלא
                אך <foreign xml:lang="">מאַמֶע וואסע</foreign> [פי׳ בלשון הגוים אמר להם אוי לאם שלכם] גם
                יודע אני שתאמרו שהוא מדבר ג״כ בלשון חול ובלשונות
-            <pb facs="MifalotZadikim-0057.jpg"/>
+            <pb facs="MifalotZadikim-0057.jpg" />
                הגוים בשבת קודש אלא אָך <foreign xml:lang="">מַאמֶע וַואסָע</foreign> [פ' <unclear>כר"ט</unclear> לזה] כי הנה 
                <choice><corr>רשי</corr><sic>הש״י</sic></choice> ז״ל פי׳ על הפסוק <quote>כי פי המדבר אליכ׳</quote> [בבראשי׳ 
                מ״ה] בלשון הקודש : ונבין האיך רמיזא בקרא שדיבר אתם בלה״ק
@@ -1868,7 +1869,7 @@
                והאמת כן הוא שהאיש שיש לו לשון קדוש מותר לדבר אף בלשונות
                העמים בשבת והאיש שפגם בלשונו אף שישתוק כל השבת מ״מ לאו
                .כלום הוא זי״ע ועכי״א
-               .</p></div><lb/><div type="story" xml:id="Mifalot-HaZadikim_0043"><head type="storyHead">Mifalot-HaZadikim_0043</head><!--<pb facs="MifalotZadikim-0057.jpg"/>--><span ana="social-relations:inter_hasidic_master_disciple_relationship; practice:sermon; folkloristics:story_type_death_of_the_tsaddik; times:death; ethics-and-emotions:repentance">תיוגים</span><lb/>
+               .</p></div><lb /><div type="story" xml:id="Mifalot-HaZadikim_0043"><head type="storyHead">Mifalot-HaZadikim_0043</head><span ana="social-relations:inter_hasidic_master_disciple_relationship; practice:sermon; folkloristics:story_type_death_of_the_tsaddik; times:death; ethics-and-emotions:repentance">תיוגים</span><lb />
 <p> כשנתבקש הרב הנ״ל בישיבה של מעלה ונגנז ארו״ן אלקים
                עשה עליו הספד תלמידו הרב הקדוש מוה׳ <persName>שלמה
                מ<placeName ref="#H-LOC_4">קארלין</placeName></persName> ואמר בזה הנה רש״י ז״ל כתב על הפסוק <quote>ויתהלך חנוך את
@@ -1888,12 +1889,12 @@
                אף בדיבורו חול בעלמא שלא יעשו עוד מעשים רעים להרשי״ע עוד
                <choice><corr>ובעבור</corr><sic>יובעבור</sic></choice> זאת היה מוכרח להיות קץ הבירור קודם זמנו ע״כ סילקו מן
                העולם קודם זמנו ואדומ״ר היה ג״כ בבחי׳ זאת (כי כן היה דרכו כאשר
-            <pb facs="MifalotZadikim-0058.jpg"/>
+            <pb facs="MifalotZadikim-0058.jpg" />
                דיבר עם אחד אף דיבור חול תיכף הרהר בתשובה וצוח רבי תנו לי
                תיקון) לכן סילקו הקב״ה קודם זמנו (כי יסתלק בן ל״ה שנים) :
                זי״ע ועכי״א :
-</p></div><lb/><div type="story" xml:id="Mifalot-HaZadikim_0044"><head type="storyHead">Mifalot-HaZadikim_0044</head><!--<pb facs="MifalotZadikim-0058.jpg"/>--><span ana="practice:travel_to_the_tsaddik; practice:travel_to_other_tsaddik; social-relations:inter_hasidic_master_disciple_relationship; ethics-and-emotions:pride; practice:study; ethics-and-emotions:prohibitions ">תיוגים</span><lb/>
-<p> פעם אחת הלך אחד מתלמידי האשל הגדול הרב <persName ref="#Tsadik_002.005">המגיד מ<placeName>מעזירטש</placeName></persName>
+</p></div><lb /><div type="story" xml:id="Mifalot-HaZadikim_0044"><head type="storyHead">Mifalot-HaZadikim_0044</head><span ana="practice:travel_to_the_tsaddik; practice:travel_to_other_tsaddik; social-relations:inter_hasidic_master_disciple_relationship; ethics-and-emotions:pride; practice:study; ethics-and-emotions:prohibitions ">תיוגים</span><lb />
+<p> פעם אחת הלך אחד מתלמידי האשל הגדול הרב <persName ref="#Tsadik_002.005">המגיד מ<placeName ref="#H-LOC_537">מעזירטש</placeName></persName>
                בחזרה מרבו הנ״ל והלך דרך עיר <placeName ref="#H-LOC_4">קארלין</placeName> ואתרמי מילתא שנכנס
                לעיר הנ״ל בעת לילה והשתוקק מאוד לראות פני הרב הצדיק ר׳ <persName ref="#Tsadik_016.001">אהרן</persName>
                ז״ל אשר ישב בעיר הנ״ל והלך באישון לילה ואפלה ודפק בהחלון של
@@ -1905,7 +1906,7 @@
                בזה״ל מי הוא אשר יוכל לומר אנכי כביכול קוב״ה בעצמו היה יכול לומר
                אנכי אבל לא זולתו ואמר התלמיד הנ״ל בדעתו א״כ לא למדתי כלום
                אצל רבי וחזר לאחוריו לנסוע תיכף לרבו : זיעועכי״א
-</p></div><lb/><div type="story" xml:id="Mifalot-HaZadikim_0045"><head type="storyHead">Mifalot-HaZadikim_0045</head><!--<pb facs="MifalotZadikim-0058.jpg"/>--><span ana="practice:travel_to_the_tsaddik; practice:reception_of_hasidim; ethics-and-emotions:pride; ethics-and-emotions:prohibitions; ethics-and-emotions:virtues_humility; social-relations:inter_hasidic_master_disciple_relationship; practice:study; supernatural:perception">תיוגים</span><lb/>
+</p></div><lb /><div type="story" xml:id="Mifalot-HaZadikim_0045"><head type="storyHead">Mifalot-HaZadikim_0045</head><span ana="practice:travel_to_the_tsaddik; practice:reception_of_hasidim; ethics-and-emotions:pride; ethics-and-emotions:prohibitions; ethics-and-emotions:virtues_humility; social-relations:inter_hasidic_master_disciple_relationship; practice:study; supernatural:perception">תיוגים</span><lb />
 <p> להרב הצדיק הקדוש וכו׳ ר׳ <persName ref="#Tsadik_019.001">אלימלך</persName> (הנקרא ר׳ מלך)
                מ<placeName ref="#H-LOC_350">ליזענסק</placeName> נלוה אליו איש כפרי אחד והיה להאיש הנ״ל חתן
                א׳ למדן גדול <choice><corr>ויש</corr><sic>ויי״ש</sic></choice> ועסק בתורה ובעבודה יומם ולילה בלי שום הפסק
@@ -1922,7 +1923,7 @@
                מפתן הרב הנ״ל הלך הרב ר׳ <persName ref="#Tsadik_019.001">אלימלך</persName> ונתן שלום לחותנו הכפרי
                הנ״ל ולחתנו לא נתן לו שלום ופנה עורף כנגדו רק
                שאל לו תיכף בזה״ל אברך (בל״א יונגר מאן) מה יאמר ד׳ ונזדעזע
-            <pb facs="MifalotZadikim-0059.jpg"/>
+            <pb facs="MifalotZadikim-0059.jpg" />
                החתן הנ״ל ברוב פחד ובהלה. ותסמר שערת בשרו כי לא ידע מה להשיב
                לו וגם לא הבין פי׳ הדבר נשאר החתן עם חמיו לעמוד על עמדם מרוב
                <choice><corr>השתוממות</corr><sic>השתוממת</sic></choice> על דברי הרב הנ״ל ואח״כ חזרו לביתם בפחי נפש. והנה
@@ -1938,7 +1939,7 @@
                .בוודאי טוב ואנ״י רק שיאמר ויחשוב בדעתו אנ״י למדן וצדיק וישר
                .ל״א ארא״נו אין אני יכול לסובלו ולראות אותו נא״ם ד׳ זה יאמר ד׳
                .זי״ע ועכי״א
-</p></div><lb/><div type="story" xml:id="Mifalot-HaZadikim_0046"><head type="storyHead">Mifalot-HaZadikim_0046</head><!--<pb facs="MifalotZadikim-0059.jpg"/>--><span ana="social-relations:with_non_hasidim; social-relations:conflict; halakhah:kosher_slaughtering; custom:hasidic_custom; social-relations:inter_hasidic_master_disciple_relationship; practice:travel_to_the_tsaddik; practice:study">תיוגים</span><lb/>
+</p></div><lb /><div type="story" xml:id="Mifalot-HaZadikim_0046"><head type="storyHead">Mifalot-HaZadikim_0046</head><span ana="social-relations:with_non_hasidim; social-relations:conflict; halakhah:kosher_slaughtering; custom:hasidic_custom; social-relations:inter_hasidic_master_disciple_relationship; practice:travel_to_the_tsaddik; practice:study">תיוגים</span><lb />
 <p> להרב הצדיק הנ״ל היה מקורב אברך אחד וחותנו היה למדן גדול ולא
                דרך בדרכי החסידות וציער תמיד לחתנו על מה שהוא נוסע
                לרבו ואומר בטלן אתה אין אתה רוצה ללמוד ע״כ אתה מבקש איזה
@@ -1956,7 +1957,7 @@
                וכו׳</quote> (שמות<choice><corr>יח</corr><sic> </sic></choice>) ופירש״י <quote>מה שמועה שמע ובא קי״ס ומלחמת עמלק</quote> וקשה
                אדרבה כיוון ששמע בביתו שיש אלוה פטרון ומשגיח לא הי׳ צריך לנסוע
                (כקושייתך בנידון החסידות) <choice><corr>בשלמא</corr><sic>בשלמה</sic></choice> אם לא שמע היה צריך לבא
-            <pb facs="MifalotZadikim-0060.jpg"/>
+            <pb facs="MifalotZadikim-0060.jpg" />
                לשמוע אבל עתה ששמע מה הי׳ לו לבטל מעבודתו אלא הפי׳ כן הוא
                שרש״י ז״ל בעצמו הקש' זאת ותירץ זאת והכי פירושו מ״ה שמוע״ה שמע וב״א
                אם לומר ששמע קי״ס אדרבה היה צריך לישב בביתו ולעבוד את השי״ת
@@ -1972,7 +1973,7 @@
                אף אלמנה כדי שלא יפגום ח״ו קדושתו משא״כ שאר הכהנים וכן גרושה
                וחלוצה לענין כהן הדיו״ט כמשל רבב על בגד נקי וכן חתנך הנ״ל דרך
                בדרכי החסידות ונתקדש אסור לו סירכא אבל לא לכל העולם : זי״ע ועכי״א
-</p></div><lb/><div type="story" xml:id="Mifalot-HaZadikim_0047"><head type="storyHead">Mifalot-HaZadikim_0047</head><!--<pb facs="MifalotZadikim-0060.jpg"/>--><span ana="experience:dream; social-relations:inter_hasidic_master_disciple_relationship; practice:travel_to_the_tsaddik; practice:reception_of_hasidim">תיוגים</span><lb/>
+</p></div><lb /><div type="story" xml:id="Mifalot-HaZadikim_0047"><head type="storyHead">Mifalot-HaZadikim_0047</head><span ana="experience:dream; social-relations:inter_hasidic_master_disciple_relationship; practice:travel_to_the_tsaddik; practice:reception_of_hasidim">תיוגים</span><lb />
    <p> מהרב הצדיק וכו׳ ר׳ <persName>מנחם נחום מ<placeName ref="#H-LOC_263">מוקארוב</placeName></persName>
                פעם אחת נחלה הרב הנ״ל ע״י נפיחות ראשו ופניו ונפל למשכב ולא
                הניחו לבוא לפניו שום אדם כדי שלא יבלבלו שינתו. והנה אח״כ
@@ -1988,10 +1989,10 @@
                ולא עלתה ברעיונם שהכל בהשגחה פרטית וע״כ פ״ה לה״ם ול״א ידב״רו
                מדברים בפיהם רק שלהם לצרכיהם ולא ידב״רו ואינם יכולים לדבר בתורה
                ותפלה מה של עבודתו הבורא ית״ש עיני״ם לה״ם ג״כ כנ״ל. עם כל
-            <pb facs="MifalotZadikim-0061.jpg"/>
+            <pb facs="MifalotZadikim-0061.jpg" />
                איבריהם משמשים רק לצרכם ולא לעבודת הבורא ית״ש : השם יזכנו
                : לעבדו בכל לבבינו אמן זי״ע ועכי״א
-</p></div><lb/><div type="story" xml:id="Mifalot-HaZadikim_0048"><head type="storyHead">Mifalot-HaZadikim_0048</head><!--<pb facs="MifalotZadikim-0061.jpg"/>--><span ana="not-a-hasidic-story:sermon; practice:sermon; practice:study; ethics-and-emotions:repentance; ethics-and-emotions:punishment; halakhah:prayer">תיוגים</span><lb/>
+</p></div><lb /><div type="story" xml:id="Mifalot-HaZadikim_0048"><head type="storyHead">Mifalot-HaZadikim_0048</head><span ana="not-a-hasidic-story:sermon; practice:sermon; practice:study; ethics-and-emotions:repentance; ethics-and-emotions:punishment; halakhah:prayer">תיוגים</span><lb />
 <p> מהרב הצדיק וכו׳ קדוש ד׳ ר׳ <persName ref="#Tsadik_002.003">שלום מ<placeName ref="#H-LOC_276">פאריביסטש</placeName></persName>
                בגמרא <quote>אם רואה אדם שיסורין באים עליו יפשפש במעשיו פשפש ולא
                מצא יתלה בביטול תורה וכו׳</quote> והקשה בזה הרבה א׳ מה הוא
@@ -2010,7 +2011,7 @@
                לפניו רבש״ע אם תביאני ליסורים וחולי הגוף ממש אזי לא אוכל לעבוד
                עבודתך מוטב שתרפא אותי ואעבוד אותך כראוי. ע״כ זי״ע ועכי״א
                : להצילנו מכל חולי וצרה ולרפאנו ולהחלימנו אמן
-</p></div><lb/><div type="story" xml:id="Mifalot-HaZadikim_0049"><head type="storyHead">Mifalot-HaZadikim_0049</head><!--<pb facs="MifalotZadikim-0061.jpg"/>--><span ana="folkloristics:story_type_death_of_the_tsaddik; times:death; social-relations:inter_hasidic_master_disciple_relationship; ethics-and-emotions:sadness; social-relations:inter_hasidic; social-relations:inter_hasidic_inheritance_of_leadership">תיוגים</span><lb/>
+</p></div><lb /><div type="story" xml:id="Mifalot-HaZadikim_0049"><head type="storyHead">Mifalot-HaZadikim_0049</head><span ana="folkloristics:story_type_death_of_the_tsaddik; times:death; social-relations:inter_hasidic_master_disciple_relationship; ethics-and-emotions:sadness; social-relations:inter_hasidic; social-relations:inter_hasidic_inheritance_of_leadership">תיוגים</span><lb />
 <p> מהרב הצדיק וכו׳ מוה׳ ר׳<persName> אהרן מ<placeName ref="#H-LOC_179">זיטאמיר</placeName></persName> בעהמ״ח <bibl>תולדת אהרן</bibl> :
                באתדבקותא רוחא דהרב הנ״ל בקוב״ה קודם הסתלקותו בכו אז
                תלמידיו בכיה רבה מאוד קרא הרב אותם ואמר להם
@@ -2019,24 +2020,24 @@
                בידינו והצדיקים אחרים אשר בדורינו עבודתם מוסתרת מאוד ולא נראה
                מהם שום התגלות העבודה כאשר הורגלנו אצל אדמו״ר ואז ניחם אותם
                ודיבר על לבם ואמר להם בזה״ל תדעו שהצדיקים שיהי׳ באחרית הימים
-            <pb facs="MifalotZadikim-0062.jpg"/>
+            <pb facs="MifalotZadikim-0062.jpg" />
                בעקבות דמשיחא יהיו יותר גדולים ממני ואף בקחתם המפה לקנח צואת
                האף גם בזו ייחדו יחודים יותר נוראים ממה שהיינו מיחדים בתורתינו
                ותפלתינו זי״ע :
-</p></div><lb/><div type="story" xml:id="Mifalot-HaZadikim_0050"><head type="storyHead">Mifalot-HaZadikim_0050</head><!--<pb facs="MifalotZadikim-0062.jpg"/>--><span ana="folkloristics:story_type_death_of_the_tsaddik; times:death; social-relations:inter_hasidic_master_disciple_relationship; social-relations:inter_hasidic_inheritance_of_leadership; ethics-and-emotions:sadness; supernatural:perception">תיוגים</span><lb/>
+</p></div><lb /><div type="story" xml:id="Mifalot-HaZadikim_0050"><head type="storyHead">Mifalot-HaZadikim_0050</head><span ana="folkloristics:story_type_death_of_the_tsaddik; times:death; social-relations:inter_hasidic_master_disciple_relationship; social-relations:inter_hasidic_inheritance_of_leadership; ethics-and-emotions:sadness; supernatural:perception">תיוגים</span><lb />
 <p> וכן קודם ההסתלקות דהרב הצדיק והקדוש ר' <persName ref="#Tsadik_048.001">זאב מ<placeName ref="#H-LOC_179">זיטאמיר</placeName></persName> בכה
                לפניו תלמידו וחתנו הרב הצדיק ר׳ <persName>שניאור</persName> ואמר לו הרב הנ״ל מה
                .לך לבכות כ״כ הצדיקים שיהיו אחרינו בזמנים הבאים יהיו גדולים מאוד
                וזה לך האות והסימן למי שישתוקקו לראות ולהביט בפניו סימן הוא
                שהשכינה שורה עליו : זי״ע ועכי״א : כן שמעתי מפי מגידי אמת
                ששמעו באזניהם ממש מפה קדשם :
-               : </p></div><lb/><div type="story" xml:id="Mifalot-HaZadikim_0051"><head type="storyHead">Mifalot-HaZadikim_0051</head><!--<pb facs="MifalotZadikim-0062.jpg"/>--><span ana="not-a-hasidic-story:sermon; practice:sermon; times:shabbat ">תיוגים</span><lb/>
+               : </p></div><lb /><div type="story" xml:id="Mifalot-HaZadikim_0051"><head type="storyHead">Mifalot-HaZadikim_0051</head><span ana="not-a-hasidic-story:sermon; practice:sermon; times:shabbat ">תיוגים</span><lb />
 <p> מהרב הצדיק הקדוש אור עליון ר׳ <persName>פנחס מ<placeName ref="#H-LOC_149">קאריץ</placeName></persName>
                אין לחתוך פרוסת המוציא בסכין ביום עש״ק בבוקר וטעמו כי רמז
                חתוך המוציא לשם חת״ך הוא שם של פרנסה. ומשבי״ע גימ׳
                חת״ך וביום הששי עש״ק כתב הש״ע שאין לאכול כדי להשביע ע״כ אין
                : לחתוך המוציא בסכין רק לפרוס אותה בידים
-</p></div><lb/><div type="story" xml:id="Mifalot-HaZadikim_0052"><head type="storyHead">Mifalot-HaZadikim_0052</head><!--<pb facs="MifalotZadikim-0062.jpg"/>--><span ana="social-relations:inter_hasidic_master_disciple_relationship; social-relations:conflict; ethics-and-emotions:shame">תיוגים</span><lb/>
+</p></div><lb /><div type="story" xml:id="Mifalot-HaZadikim_0052"><head type="storyHead">Mifalot-HaZadikim_0052</head><span ana="social-relations:inter_hasidic_master_disciple_relationship; social-relations:conflict; ethics-and-emotions:shame">תיוגים</span><lb />
 <p>מהרב הקדוש הנ״ל. פעם אחת קבל איש אחד לפניו ואמר לו
                מפני שיש הרבה מלעיגים עלי לכן הם מבטלים אותו מעבודתי
                ענהו הרב הנ״ל הלא נכתב עצה לזה בש״ע ז״ל <quote>ואל יתבייש מפני
@@ -2046,7 +2047,7 @@
                העיזו פניהם לגמור חפצם ולהלעיג על עובדי ד׳ ק״ו ב״ב של ק״ו שאין
                אתה צריך להתבייש מהמלעיגים ולא יבושו ולא יכלמו לנצח כל החוסים
                .בך זי״ע ועכי״א
-</p></div><lb/><div type="story" xml:id="Mifalot-HaZadikim_0053"><head type="storyHead">Mifalot-HaZadikim_0053</head><!--<pb facs="MifalotZadikim-0062.jpg"/>--><span ana="social-relations:inter_hasidic; supernatural:perception; custom:clothing; ethics-and-emotions:virtues; supernatural:magic;  ethics-and-emotions:prohibitions">תיוגים</span><lb/>
+</p></div><lb /><div type="story" xml:id="Mifalot-HaZadikim_0053"><head type="storyHead">Mifalot-HaZadikim_0053</head><span ana="social-relations:inter_hasidic; supernatural:perception; custom:clothing; ethics-and-emotions:virtues; supernatural:magic;  ethics-and-emotions:prohibitions">תיוגים</span><lb />
 <p> הרב הצדיק הקדוש ר׳ <persName ref="#Tsadik_048.001">זאב מ<placeName ref="#H-LOC_179">זיטאמר</placeName></persName> בעל המ״ח <bibl>אור המאיר</bibl> היה
                מחותן עם הרב הצדיק מו״ר <persName>צבי יהודא מָ<placeName ref="#H-LOC_35">אליק</placeName></persName> הנקרא ר׳ <persName>הירש
                ליב אָליקער</persName> פ״א התוועדו יחד בעיר אחת ואח״כ כאשר נתפרדו והלך
@@ -2054,7 +2055,7 @@
                <persName>ר"ז</persName> הנ״ל באיזה ערך נחשב אצליכם הרב ר׳ <persName>צבי יהודא</persName> הנ״ל (כי
                הרב ר׳ <persName>צ״י</persName> היה מצער בשנים מהרב <persName>ר״ז</persName> הנ״ל) וענה אותם בזה״ל אני
                רואה שהוא הולך במלבוש של משי מחודש ומהודר מן החדש ולא הבינו
-            <pb facs="MifalotZadikim-0063.jpg"/>
+            <pb facs="MifalotZadikim-0063.jpg" />
                פי׳ ושאלו אותו לבאר דבריו ואמר להם הנה כתוב <quote>איש קדוש עובר
                עלינו תמיד</quote> ואמרו רז״ל <quote>מנא ידעה כי קדוש הוא אלא שלא ראתה זבוב
                על שלחנו ולא ראתה קרי על סדינו</quote> ע״כ ולפום ריהטא קשה להבין
@@ -2068,7 +2069,7 @@
                כוונת רז״ל בדברי קדשם וכן אני אומר על הרב ר׳ <persName>צבי יהודא</persName> הנ״ל
                כי כל מלבושיו מהודרים מאוד יותר מחדשים כי כל טומאה בורחת
                מפניו זי״ע ועכי״א :
-</p></div><lb/><div type="story" xml:id="Mifalot-HaZadikim_0054"><head type="storyHead">Mifalot-HaZadikim_0054</head><!--<pb facs="MifalotZadikim-0063.jpg"/>--><span ana="social-relations:conflict; practice:the_travels_of_the_tsaddik; characters-and-roles:preacher; ethics-and-emotions:virtues_humility; ethics-and-emotions:pride; ethics-and-emotions:shame">תיוגים</span><lb/>
+</p></div><lb /><div type="story" xml:id="Mifalot-HaZadikim_0054"><head type="storyHead">Mifalot-HaZadikim_0054</head><span ana="social-relations:conflict; practice:the_travels_of_the_tsaddik; characters-and-roles:preacher; ethics-and-emotions:virtues_humility; ethics-and-emotions:pride; ethics-and-emotions:shame">תיוגים</span><lb />
 <p> מהרב הצדיק ר׳ <persName ref="#Tsadik_014.001">מנחם נחום מ<placeName ref="#H-LOC_31">טשארנאביל</placeName></persName>
                מעשה היה בבעל דרשן אחד שסבב מעיר לעיר ומכפר לכפר עד שבא
                לכפר אחד ושם ישב איש אחד ת"ח ומכניס אורח ועושר גדול
@@ -2086,7 +2087,7 @@
                במנוחה ועונג במאכלים טובים ומסתמא יקבל מהם גם נדבה הגונה
                ממתנת ידם הפתוחה ויהי כאשר התחיל לנוח א״ע מטורח הדרך בהרחבת
                דעת על מטה מוצעת משכבו וירדם בשינה וערבה לו שינתו עד מאוד
-            <pb facs="MifalotZadikim-0064.jpg"/>
+            <pb facs="MifalotZadikim-0064.jpg" />
                כי לא היתה לו מנוחה כזאת מעולם וכאשר <choice><corr>התעורר</corr><sic>יתעורר</sic></choice> משינתו והכין
                במחשבתו איזה דרש ומאמר להציע לפני הבעה״ב כי כן היה דרך
                הבע״ד ובעבור זאת יקבל תמורתו והנה בתוך כך נעשה רעש גדול
@@ -2119,7 +2120,7 @@
                בינינו פתח הרב את פיו ואמר אין לי מריבה עמך ומה יש לך לדבר במריבה שים כה נגד אחינו ויוכיחו בין שנינו פתח הבע״ד ואמר
                איתא בגמרא <quote>אורח טוב מה הוא אומר כל מה שטרח בעה״ב לא טרח
                אלא בשבילי</quote> ואני רוצה להיות אורח טוב כנ״ל וכן גם אתם רוצים בכך
-            <pb facs="MifalotZadikim-0065.jpg"/>
+            <pb facs="MifalotZadikim-0065.jpg" />
                ענהו הרב בזהו אין לנו מריבה כי אין אחד מבין פי׳ הגמרא כי
                לכאורה מאי נפקא מיני׳ אם טרח בעה״ב בשבילי או בשביל אחר אמנם
                מוסר גדול למדו אותנו רז״ל בדברי קדשם כי הנה בעת בריאת האדם
@@ -2139,4 +2140,4 @@
             
        </p> </div> 
       </body>   </text>
-</tei:TEI>
+</TEI>

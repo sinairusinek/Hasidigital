@@ -17,7 +17,7 @@ Usage:
 import json
 import xml.etree.ElementTree as ET
 from pathlib import Path
-from collections import defaultdict
+
 from datetime import datetime
 import re
 import sys
@@ -199,22 +199,21 @@ def parse_authority_xml(xml_path: Path) -> Tuple[List[Dict], List[Dict]]:
     return places, persons
 
 
-def scan_editions(editions_dir: Path, places: List[Dict]) -> Tuple[Dict, Set[str]]:
+def scan_editions(editions_dir: Path, places: List[Dict]) -> Set[str]:
     """
     Scan edition files in editions/incoming/ for place name occurrences.
 
     Two passes:
       Pass 1: Harvest ref-linked placeName tags → add Hebrew variants to places
-      Pass 2: Match unlinked placeName tags against enriched variant lists
+      Pass 2: Match unlinked placeName tags against enriched variant lists,
+              then write ref attributes back to edition XML files.
 
     Returns:
-      - occurrences: place_id → {file_name → {variant_name → count}}
       - referenced_ids: set of place IDs that were actually found in editions
     """
     # Build place lookup by ID
     place_by_id = {p["id"]: p for p in places}
 
-    occurrences = {}         # place_id → {file → {variant → count}}
     referenced_ids = set()   # IDs that appear in editions
 
     # ── Pass 1: Harvest ref-linked names ─────────────────────────────────────
@@ -227,7 +226,6 @@ def scan_editions(editions_dir: Path, places: List[Dict]) -> Tuple[Dict, Set[str
         try:
             tree = ET.parse(edition_file)
             root = tree.getroot()
-            file_name = edition_file.name
 
             for pn_elem in root.findall(f".//{{{TEI_NS}}}placeName"):
                 ref = pn_elem.get("ref", "")
@@ -262,15 +260,6 @@ def scan_editions(editions_dir: Path, places: List[Dict]) -> Tuple[Dict, Set[str
                 if lang == "he" and place["primary_name_he"] == "(to be updated)":
                     place["primary_name_he"] = place_text
 
-                # Record occurrence
-                if place_id not in occurrences:
-                    occurrences[place_id] = {}
-                if file_name not in occurrences[place_id]:
-                    occurrences[place_id][file_name] = {}
-                if place_text not in occurrences[place_id][file_name]:
-                    occurrences[place_id][file_name][place_text] = 0
-                occurrences[place_id][file_name][place_text] += 1
-
         except Exception as e:
             print(f"  Warning: Could not parse {edition_file.name}: {e}",
                   file=sys.stderr)
@@ -278,8 +267,8 @@ def scan_editions(editions_dir: Path, places: List[Dict]) -> Tuple[Dict, Set[str
     print(f"    Harvested {harvested_count} new variant names from ref-linked tags")
     print(f"    {len(referenced_ids)} distinct places referenced")
 
-    # ── Pass 2: Match unlinked names against enriched variants ───────────────
-    print("  Pass 2: Matching unlinked place names...")
+    # ── Pass 2: Match unlinked names and write ref attributes back ────────────
+    print("  Pass 2: Matching unlinked place names and writing ref attributes...")
 
     # Build name→place lookup from ALL variants (original + harvested)
     name_to_place_id = {}  # name → place_id
@@ -291,12 +280,13 @@ def scan_editions(editions_dir: Path, places: List[Dict]) -> Tuple[Dict, Set[str
 
     unlinked_matched = 0
     unlinked_total = 0
+    files_updated = 0
 
     for edition_file in edition_files:
         try:
             tree = ET.parse(edition_file)
             root = tree.getroot()
-            file_name = edition_file.name
+            file_modified = False
 
             for pn_elem in root.findall(f".//{{{TEI_NS}}}placeName"):
                 # Skip ref-linked (already handled in Pass 1)
@@ -314,50 +304,34 @@ def scan_editions(editions_dir: Path, places: List[Dict]) -> Tuple[Dict, Set[str
                     place_id = name_to_place_id[place_text]
                     referenced_ids.add(place_id)
                     unlinked_matched += 1
+                    pn_elem.set("ref", f"#{place_id}")
+                    file_modified = True
 
-                    # Record occurrence
-                    if place_id not in occurrences:
-                        occurrences[place_id] = {}
-                    if file_name not in occurrences[place_id]:
-                        occurrences[place_id][file_name] = {}
-                    if place_text not in occurrences[place_id][file_name]:
-                        occurrences[place_id][file_name][place_text] = 0
-                    occurrences[place_id][file_name][place_text] += 1
+            if file_modified:
+                tree.write(edition_file, encoding="utf-8", xml_declaration=True)
+                files_updated += 1
 
         except Exception:
             pass  # Already warned in Pass 1
 
     print(f"    {unlinked_matched}/{unlinked_total} unlinked names matched")
+    print(f"    {files_updated} edition file(s) updated with ref attributes")
 
-    return occurrences, referenced_ids
+    return referenced_ids
 
 
-def build_matching_db_json(places: List[Dict], persons: List[Dict],
-                           occurrences: Dict) -> Dict:
+def build_matching_db_json(places: List[Dict], persons: List[Dict]) -> Dict:
     """Build the matching database JSON structure."""
-    places_with_occ = []
+    places_list = []
     for place in places:
         place_copy = place.copy()
         # Deep copy lists so we don't share references
         place_copy["names_he"] = list(place["names_he"])
         place_copy["names_en"] = list(place["names_en"])
-        place_id = place["id"]
-
-        if place_id in occurrences:
-            place_copy["occurrences"] = occurrences[place_id]
-            total = 0
-            for file_dict in occurrences[place_id].values():
-                for count in file_dict.values():
-                    total += count
-            place_copy["total_occurrences"] = total
-        else:
-            place_copy["occurrences"] = {}
-            place_copy["total_occurrences"] = 0
-
-        places_with_occ.append(place_copy)
+        places_list.append(place_copy)
 
     return {
-        "places": places_with_occ,
+        "places": places_list,
         "persons": persons,
         "meta": {
             "generated": datetime.now().isoformat(),
@@ -438,12 +412,12 @@ def main():
     print(f"  Found {len(places)} places, {len(persons)} persons")
 
     print(f"\nScanning editions in: {editions_dir}")
-    occurrences, referenced_ids = scan_editions(editions_dir, places)
+    referenced_ids = scan_editions(editions_dir, places)
     print(f"  Total: {len(referenced_ids)} places referenced in editions")
 
     # Build matching database (includes ALL places, enriched with harvested variants)
     print("\nBuilding matching database JSON...")
-    matching_db = build_matching_db_json(places, persons, occurrences)
+    matching_db = build_matching_db_json(places, persons)
     matching_db_path = output_dir / "authorities-matching-db.json"
     with open(matching_db_path, "w", encoding="utf-8") as f:
         json.dump(matching_db, f, ensure_ascii=False, indent=2)
