@@ -1,437 +1,204 @@
 #!/usr/bin/env python3
 """
-Generate matching database and display XML from authority XML + edition scans.
+Generate (or regenerate) authorities-matching-db.json from Authorities2026-01-14.xml.
 
-This script:
-1. Parses the TEI authority XML file (all places + persons)
-2. Scans editions/incoming/ for ref-linked placeName tags → harvests Hebrew variants
-3. Scans unlinked placeName tags → matches against enriched variant lists
-4. Generates:
-   - authorities-matching-db.json (comprehensive matching DB with occurrence tracking)
-   - Authorities.xml (minimal display XML — only places occurring in editions)
+Run directly:
+    python3 Authorities/scripts/generate_matching_db.py
 
-Usage:
-    python generate_matching_db.py
+Also called automatically by the Streamlit integration tool after commits.
 """
 
+import datetime
 import json
+import re
 import xml.etree.ElementTree as ET
 from pathlib import Path
 
-from datetime import datetime
-import re
-import sys
-from typing import Dict, List, Tuple, Optional, Set
+# ── Paths ──────────────────────────────────────────────────────────────────────
+REPO        = Path(__file__).parent.parent.parent
+AUTH_XML    = REPO / "Authorities" / "Authorities2026-01-14.xml"
+MATCH_DB    = REPO / "Authorities" / "authorities-matching-db.json"
+DISPLAY_XML = REPO / "Authorities" / "Authorities.xml"
 
-# TEI namespace
 TEI_NS = "http://www.tei-c.org/ns/1.0"
 XML_NS = "http://www.w3.org/XML/1998/namespace"
-
-# Register namespaces
-ET.register_namespace('', TEI_NS)
-ET.register_namespace('xml', XML_NS)
+T = f"{{{TEI_NS}}}"
+X = f"{{{XML_NS}}}"
 
 
-def get_default_paths():
-    """Get default paths for authority file and outputs."""
-    script_dir = Path(__file__).parent
-    project_dir = script_dir.parent.parent
-    auth_dir = project_dir / "Authorities"
-    editions_dir = project_dir / "editions" / "incoming"
+# ── Language detection ─────────────────────────────────────────────────────────
 
-    authority_xml = auth_dir / "Authorities2026-01-14.xml"
-    output_dir = auth_dir
-
-    return authority_xml, editions_dir, output_dir
+def detect_lang(text: str) -> str:
+    """Return 'he' if text contains Hebrew characters, else 'en'."""
+    return "he" if any('\u0590' <= c <= '\u05FF' for c in text) else "en"
 
 
-def _detect_lang(text: str) -> str:
-    """Detect whether text is Hebrew or Latin based on character ranges."""
-    hebrew_chars = sum(1 for c in text if '\u0590' <= c <= '\u05FF')
-    latin_chars = sum(1 for c in text if ('A' <= c <= 'Z') or ('a' <= c <= 'z')
-                      or c in 'àáâãäåæçèéêëìíîïðñòóôõöøùúûüýþÿ'
-                      or c in 'ąćęłńóśźżĄĆĘŁŃÓŚŹŻ')
-    if hebrew_chars > latin_chars:
-        return "he"
-    return "en"
+# ── Place parsing ──────────────────────────────────────────────────────────────
+
+def _parse_places(root: ET.Element) -> list[dict]:
+    records = []
+    for list_place in root.iter(f"{T}listPlace"):
+        for place in list_place.findall(f"{T}place"):
+            xml_id = place.get(f"{X}id")
+            if not xml_id:
+                continue
+
+            # Collect all placeName texts, split by language
+            names_he, names_en = [], []
+            for pn in place.findall(f"{T}placeName"):
+                text = (pn.text or "").strip()
+                if not text:
+                    continue
+                if detect_lang(text) == "he":
+                    names_he.append(text)
+                else:
+                    names_en.append(text)
+
+            # Coordinates
+            coords = None
+            loc = place.find(f"{T}location")
+            if loc is not None:
+                geo = loc.find(f"{T}geo")
+                if geo is not None and geo.text:
+                    parts = geo.text.strip().split(",")
+                    if len(parts) == 2:
+                        try:
+                            coords = [float(parts[0]), float(parts[1])]
+                        except ValueError:
+                            pass
+
+            # Identifiers
+            identifiers = {}
+            for idno in place.findall(f"{T}idno"):
+                id_type = (idno.get("type") or "").strip()
+                val = (idno.text or "").strip()
+                if id_type and val:
+                    # Normalise multi-URL Tsadikim entries (pipe-separated)
+                    identifiers[id_type] = val
+
+            records.append({
+                "id":              xml_id,
+                "primary_name_he": names_he[0] if names_he else "(to be updated)",
+                "primary_name_en": names_en[0] if names_en else "(to be updated)",
+                "names_he":        names_he,
+                "names_en":        names_en,
+                "coordinates":     coords,
+                "identifiers":     identifiers,
+                "notes":           "",
+            })
+    return records
 
 
-def parse_place_element(elem) -> Dict:
-    """Parse a <place> element into a dict."""
-    xml_id = elem.get(f"{{{XML_NS}}}id") or elem.get("id")
+# ── Person parsing ─────────────────────────────────────────────────────────────
 
-    # Collect all placeName elements
-    names_he = []
-    names_en = []
-    primary_name_en = None
-    primary_name_he = None
+def _parse_persons(root: ET.Element) -> list[dict]:
+    records = []
+    for list_person in root.iter(f"{T}listPerson"):
+        for person in list_person.findall(f"{T}person"):
+            xml_id = person.get(f"{X}id")
+            if not xml_id:
+                continue
 
-    for pn in elem.findall(f"{{{TEI_NS}}}placeName"):
-        lang = pn.get(f"{{{XML_NS}}}lang", "")
-        ptype = pn.get("type", "")
-        name_text = (pn.text or "").strip()
+            names_he, names_en = [], []
 
-        if not name_text:
-            continue
+            # <persName> elements (may have xml:lang or not)
+            for pn in person.findall(f"{T}persName"):
+                lang = pn.get(f"{X}lang", "")
+                text = "".join(pn.itertext()).strip()
+                if not text:
+                    continue
+                if lang == "he" or (not lang and detect_lang(text) == "he"):
+                    names_he.append(text)
+                else:
+                    names_en.append(text)
 
-        if ptype == "primary_en" or (lang == "en" and not primary_name_en):
-            primary_name_en = name_text
-        elif ptype == "primary_he" or (lang == "he" and not primary_name_he):
-            primary_name_he = name_text
+            # <name> elements (used in some entries)
+            for nm in person.findall(f"{T}name"):
+                lang = nm.get(f"{X}lang", "")
+                text = (nm.text or "").strip()
+                if not text:
+                    continue
+                if lang == "he" or (not lang and detect_lang(text) == "he"):
+                    names_he.append(text)
+                else:
+                    names_en.append(text)
 
-        if lang == "he":
-            if name_text not in names_he:
-                names_he.append(name_text)
-        elif lang == "en":
-            if name_text not in names_en:
-                names_en.append(name_text)
-        else:
-            # No lang specified — detect and classify
-            detected = _detect_lang(name_text)
-            if detected == "he":
-                if name_text not in names_he:
-                    names_he.append(name_text)
-            else:
-                if name_text not in names_en:
-                    names_en.append(name_text)
+            # Identifiers
+            identifiers = {}
+            for idno in person.findall(f"{T}idno"):
+                id_type = (idno.get("type") or "").strip()
+                val = (idno.text or "").strip()
+                if id_type and val:
+                    identifiers[id_type] = val
 
-    # Fallback: use first name found
-    if not primary_name_en and names_en:
-        primary_name_en = names_en[0]
-    if not primary_name_he and names_he:
-        primary_name_he = names_he[0]
-
-    # Get coordinates
-    coordinates = None
-    geo_elem = elem.find(f"{{{TEI_NS}}}location/{{{TEI_NS}}}geo")
-    if geo_elem is not None and geo_elem.text:
-        try:
-            lat, lon = geo_elem.text.strip().split(",")
-            coordinates = [float(lat), float(lon)]
-        except (ValueError, IndexError):
-            pass
-
-    # Collect identifiers
-    identifiers = {}
-    for idno in elem.findall(f"{{{TEI_NS}}}idno"):
-        idno_type = idno.get("type", "unknown")
-        idno_text = (idno.text or "").strip()
-        if idno_text:
-            identifiers[idno_type] = idno_text
-
-    # Get notes/description
-    notes = ""
-    desc_elem = elem.find(f"{{{TEI_NS}}}desc")
-    if desc_elem is not None:
-        notes = (desc_elem.text or "").strip()
-
-    return {
-        "id": xml_id,
-        "primary_name_he": primary_name_he or "(to be updated)",
-        "primary_name_en": primary_name_en or "Unknown",
-        "names_he": names_he,
-        "names_en": names_en,
-        "coordinates": coordinates,
-        "identifiers": identifiers,
-        "notes": notes,
-        "status": "identified" if coordinates else "unidentified",
-    }
+            records.append({
+                "id":              xml_id,
+                "primary_name_he": names_he[0] if names_he else "(to be updated)",
+                "primary_name_en": names_en[0] if names_en else "(to be updated)",
+                "names_he":        names_he,
+                "names_en":        names_en,
+                "identifiers":     identifiers,
+            })
+    return records
 
 
-def parse_person_element(elem) -> Dict:
-    """Parse a <person> element into a dict."""
-    xml_id = elem.get(f"{{{XML_NS}}}id") or elem.get("id")
+# ── Duplicate URI detection ────────────────────────────────────────────────────
 
-    names_he = []
-    names_en = []
-    primary_name_en = None
-    primary_name_he = None
-
-    for name in elem.findall(f"{{{TEI_NS}}}name"):
-        lang = name.get(f"{{{XML_NS}}}lang", "")
-        name_text = (name.text or "").strip()
-
-        if not name_text:
-            continue
-
-        if lang == "he":
-            if name_text not in names_he:
-                names_he.append(name_text)
-            if not primary_name_he:
-                primary_name_he = name_text
-        else:
-            if name_text not in names_en:
-                names_en.append(name_text)
-            if not primary_name_en:
-                primary_name_en = name_text
-
-    identifiers = {}
-    for idno in elem.findall(f"{{{TEI_NS}}}idno"):
-        idno_type = idno.get("type", "unknown")
-        idno_text = (idno.text or "").strip()
-        if idno_text:
-            identifiers[idno_type] = idno_text
-
-    return {
-        "id": xml_id,
-        "primary_name_he": primary_name_he or "(to be updated)",
-        "primary_name_en": primary_name_en or "Unknown",
-        "names_he": names_he,
-        "names_en": names_en,
-        "identifiers": identifiers,
-    }
+def _find_duplicate_uris(places: list[dict]) -> list[str]:
+    """Return list of warning strings for places sharing external URIs."""
+    from collections import defaultdict
+    uri_to_ids = defaultdict(list)
+    for p in places:
+        for uri in p["identifiers"].values():
+            for u in uri.split("|"):
+                u = u.strip()
+                if u:
+                    uri_to_ids[u].append(p["id"])
+    return [
+        f"URI shared by {ids}: {uri}"
+        for uri, ids in uri_to_ids.items()
+        if len(ids) > 1
+    ]
 
 
-def parse_authority_xml(xml_path: Path) -> Tuple[List[Dict], List[Dict]]:
-    """Parse authority XML and extract places and persons."""
-    tree = ET.parse(xml_path)
+# ── Main ───────────────────────────────────────────────────────────────────────
+
+def generate(auth_xml_path=AUTH_XML, out_path=MATCH_DB, verbose=True):
+    ET.register_namespace("", TEI_NS)
+    ET.register_namespace("xml", XML_NS)
+    tree = ET.parse(str(auth_xml_path))
     root = tree.getroot()
 
-    places = []
-    persons = []
+    places  = _parse_places(root)
+    persons = _parse_persons(root)
 
-    for place_elem in root.findall(f".//{{{TEI_NS}}}listPlace/{{{TEI_NS}}}place"):
-        places.append(parse_place_element(place_elem))
-
-    for person_elem in root.findall(f".//{{{TEI_NS}}}listPerson/{{{TEI_NS}}}person"):
-        persons.append(parse_person_element(person_elem))
-
-    return places, persons
-
-
-def scan_editions(editions_dir: Path, places: List[Dict]) -> Set[str]:
-    """
-    Scan edition files in editions/incoming/ for place name occurrences.
-
-    Two passes:
-      Pass 1: Harvest ref-linked placeName tags → add Hebrew variants to places
-      Pass 2: Match unlinked placeName tags against enriched variant lists,
-              then write ref attributes back to edition XML files.
-
-    Returns:
-      - referenced_ids: set of place IDs that were actually found in editions
-    """
-    # Build place lookup by ID
-    place_by_id = {p["id"]: p for p in places}
-
-    referenced_ids = set()   # IDs that appear in editions
-
-    # ── Pass 1: Harvest ref-linked names ─────────────────────────────────────
-    print("  Pass 1: Harvesting ref-linked variant names...")
-
-    edition_files = sorted(editions_dir.glob("*.xml"))
-    harvested_count = 0
-
-    for edition_file in edition_files:
-        try:
-            tree = ET.parse(edition_file)
-            root = tree.getroot()
-
-            for pn_elem in root.findall(f".//{{{TEI_NS}}}placeName"):
-                ref = pn_elem.get("ref", "")
-                if not ref:
-                    continue
-
-                # Extract place ID from ref="#H-LOC_N"
-                place_id = ref.lstrip("#")
-                if place_id not in place_by_id:
-                    continue
-
-                place = place_by_id[place_id]
-                referenced_ids.add(place_id)
-
-                # Get the text of the placeName
-                place_text = (pn_elem.text or "").strip()
-                if not place_text:
-                    continue
-
-                # Add as variant if not already known
-                lang = _detect_lang(place_text)
-                if lang == "he":
-                    if place_text not in place["names_he"]:
-                        place["names_he"].append(place_text)
-                        harvested_count += 1
-                else:
-                    if place_text not in place["names_en"]:
-                        place["names_en"].append(place_text)
-                        harvested_count += 1
-
-                # Update primary Hebrew name if still placeholder
-                if lang == "he" and place["primary_name_he"] == "(to be updated)":
-                    place["primary_name_he"] = place_text
-
-        except Exception as e:
-            print(f"  Warning: Could not parse {edition_file.name}: {e}",
-                  file=sys.stderr)
-
-    print(f"    Harvested {harvested_count} new variant names from ref-linked tags")
-    print(f"    {len(referenced_ids)} distinct places referenced")
-
-    # ── Pass 2: Match unlinked names and write ref attributes back ────────────
-    print("  Pass 2: Matching unlinked place names and writing ref attributes...")
-
-    # Build name→place lookup from ALL variants (original + harvested)
-    name_to_place_id = {}  # name → place_id
-    for place in places:
-        pid = place["id"]
-        for name in place["names_he"] + place["names_en"]:
-            if name not in name_to_place_id:
-                name_to_place_id[name] = pid
-
-    unlinked_matched = 0
-    unlinked_total = 0
-    files_updated = 0
-
-    for edition_file in edition_files:
-        try:
-            tree = ET.parse(edition_file)
-            root = tree.getroot()
-            file_modified = False
-
-            for pn_elem in root.findall(f".//{{{TEI_NS}}}placeName"):
-                # Skip ref-linked (already handled in Pass 1)
-                if pn_elem.get("ref"):
-                    continue
-
-                place_text = (pn_elem.text or "").strip()
-                if not place_text:
-                    continue
-
-                unlinked_total += 1
-
-                # Try exact match against all known variants
-                if place_text in name_to_place_id:
-                    place_id = name_to_place_id[place_text]
-                    referenced_ids.add(place_id)
-                    unlinked_matched += 1
-                    pn_elem.set("ref", f"#{place_id}")
-                    file_modified = True
-
-            if file_modified:
-                tree.write(edition_file, encoding="utf-8", xml_declaration=True)
-                files_updated += 1
-
-        except Exception:
-            pass  # Already warned in Pass 1
-
-    print(f"    {unlinked_matched}/{unlinked_total} unlinked names matched")
-    print(f"    {files_updated} edition file(s) updated with ref attributes")
-
-    return referenced_ids
-
-
-def build_matching_db_json(places: List[Dict], persons: List[Dict]) -> Dict:
-    """Build the matching database JSON structure."""
-    places_list = []
-    for place in places:
-        place_copy = place.copy()
-        # Deep copy lists so we don't share references
-        place_copy["names_he"] = list(place["names_he"])
-        place_copy["names_en"] = list(place["names_en"])
-        places_list.append(place_copy)
-
-    return {
-        "places": places_list,
+    db = {
+        "places":  places,
         "persons": persons,
         "meta": {
-            "generated": datetime.now().isoformat(),
-            "source_file": "Authorities2026-01-14.xml",
-        }
+            "generated":    datetime.datetime.now().isoformat(),
+            "source":       str(auth_xml_path),
+            "place_count":  len(places),
+            "person_count": len(persons),
+        },
     }
 
+    with open(str(out_path), "w", encoding="utf-8") as f:
+        json.dump(db, f, ensure_ascii=False, indent=2)
 
-def generate_display_xml(places: List[Dict], persons: List[Dict],
-                         referenced_ids: Set[str], output_path: Path):
-    """
-    Generate minimal TEI-Publisher display XML.
+    if verbose:
+        print(f"Generated {out_path}")
+        print(f"  {len(places)} places, {len(persons)} persons")
+        dupes = _find_duplicate_uris(places)
+        if dupes:
+            print(f"  ⚠ {len(dupes)} duplicate URI warning(s):")
+            for d in dupes:
+                print(f"    {d}")
+        else:
+            print("  No duplicate URI warnings.")
 
-    Only includes places that appear in the incoming editions (referenced_ids).
-    """
-    tei_root = ET.Element("TEI")
-    tei_root.set("xmlns", TEI_NS)
-
-    tei_header = ET.SubElement(tei_root, "teiHeader")
-    file_desc = ET.SubElement(tei_header, "fileDesc")
-    title_stmt = ET.SubElement(file_desc, "titleStmt")
-    title = ET.SubElement(title_stmt, "title")
-    title.text = "Hasidic Stories - Authorities Display File"
-
-    pub_stmt = ET.SubElement(file_desc, "publicationStmt")
-    pub_p = ET.SubElement(pub_stmt, "p")
-    pub_p.text = f"Generated {datetime.now().isoformat()} for TEI-Publisher display"
-
-    source_desc = ET.SubElement(file_desc, "sourceDesc")
-
-    # Add only places that appear in editions
-    list_place = ET.SubElement(source_desc, "listPlace")
-    included_count = 0
-    for place in places:
-        if place["id"] not in referenced_ids:
-            continue
-
-        place_elem = ET.SubElement(list_place, "place")
-        place_elem.set(f"{{{XML_NS}}}id", place["id"])
-
-        pn_he = ET.SubElement(place_elem, "placeName")
-        pn_he.set(f"{{{XML_NS}}}lang", "he")
-        pn_he.set("type", "primary_he")
-        pn_he.text = place["primary_name_he"]
-
-        pn_en = ET.SubElement(place_elem, "placeName")
-        pn_en.set(f"{{{XML_NS}}}lang", "en")
-        pn_en.set("type", "primary_en")
-        pn_en.text = place["primary_name_en"]
-
-        if place["coordinates"]:
-            geo_elem = ET.SubElement(place_elem, "geo")
-            geo_elem.text = f"{place['coordinates'][0]},{place['coordinates'][1]}"
-
-        included_count += 1
-
-    # Add persons (all of them for now)
-    list_person = ET.SubElement(source_desc, "listPerson")
-    for person in persons:
-        person_elem = ET.SubElement(list_person, "person")
-        person_elem.set(f"{{{XML_NS}}}id", person["id"])
-
-        name_elem = ET.SubElement(person_elem, "name")
-        name_elem.text = person["primary_name_en"]
-
-    tree = ET.ElementTree(tei_root)
-    tree.write(output_path, encoding="utf-8", xml_declaration=True)
-
-    return included_count
-
-
-def main():
-    """Main entry point."""
-    authority_xml, editions_dir, output_dir = get_default_paths()
-
-    print(f"Reading authority XML: {authority_xml}")
-    places, persons = parse_authority_xml(authority_xml)
-    print(f"  Found {len(places)} places, {len(persons)} persons")
-
-    print(f"\nScanning editions in: {editions_dir}")
-    referenced_ids = scan_editions(editions_dir, places)
-    print(f"  Total: {len(referenced_ids)} places referenced in editions")
-
-    # Build matching database (includes ALL places, enriched with harvested variants)
-    print("\nBuilding matching database JSON...")
-    matching_db = build_matching_db_json(places, persons)
-    matching_db_path = output_dir / "authorities-matching-db.json"
-    with open(matching_db_path, "w", encoding="utf-8") as f:
-        json.dump(matching_db, f, ensure_ascii=False, indent=2)
-    print(f"  Wrote: {matching_db_path}")
-
-    # Generate display XML (only places found in editions)
-    print("\nGenerating TEI-Publisher display XML (edition-referenced places only)...")
-    display_xml_path = output_dir / "Authorities.xml"
-    included = generate_display_xml(places, persons, referenced_ids, display_xml_path)
-    print(f"  Wrote: {display_xml_path}")
-    print(f"  Included {included}/{len(places)} places (only those in editions)")
-
-    print("\nDone!")
+    return db
 
 
 if __name__ == "__main__":
-    main()
+    generate()
