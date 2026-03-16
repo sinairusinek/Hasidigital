@@ -19,9 +19,16 @@ try:
 except ImportError:
     from kimatch_review import render_review_page, ReviewConfig  # Streamlit Cloud (vendored)
 
+import streamlit as st
 from kimatch_adapter import HasidigitalPlaceBackend  # noqa: E402
 
-backend = HasidigitalPlaceBackend()
+# Cache backend instance in session state so its loaded data survives reruns.
+# Without this, each button click recreates an empty backend instance and
+# save_decision() silently does nothing (can't find names in empty dict).
+if "kr_backend" not in st.session_state:
+    st.session_state.kr_backend = HasidigitalPlaceBackend()
+backend = st.session_state.kr_backend
+
 config = ReviewConfig(
     entity_label="Place",
     sidebar_title="🗺️ Kima Review",
