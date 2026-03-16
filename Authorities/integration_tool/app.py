@@ -43,17 +43,10 @@ dedup_review = st.Page(
     icon="\U0001f9f9",
 )
 
-ner_annotator = st.Page(
-    "pages/ner_annotator.py",
-    title="NER Annotator",
-    icon="\U0001f3f7\ufe0f",
-)
-
 pg = st.navigation(
     {
         "Workflows": [edition_linker, csv_integrator],
         "Review": [kima_review],
-        "Annotation": [ner_annotator],
         "Maintenance": [dedup_review],
     }
 )
