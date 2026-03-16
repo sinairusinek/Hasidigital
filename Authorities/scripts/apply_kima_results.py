@@ -39,6 +39,9 @@ DEFAULT_VARIANTS = KIMATCH_ROOT / "Kima-Variants-20250929.tsv"
 
 FUZZY_THRESHOLD     = 0.85  # minimum fuzzy confidence for auto-accept
 KIMA_URL_PREFIX     = "https://data.geo-kima.org/Places/Details/"
+
+# Names that are NOT geographic places in this corpus (collective/ethnic nouns)
+SKIP_NAMES = {"ישראל"}
 KIMA_COLS = [
     "_match_status", "_match_method", "_confidence", "_kima_id",
     "_kima_name_rom", "_kima_name_heb", "_distance_km", "_candidates",
@@ -148,6 +151,10 @@ def determine_action(
       'ambiguous'         — multiple plausible matches; needs human decision
       ''                  — low-confidence or no match; needs manual review
     """
+    # Skip names that are not geographic places
+    if row["name"] in SKIP_NAMES:
+        return "skip", ""
+
     status = row["_match_status"]
     confidence = float(row.get("_confidence") or 0)
 

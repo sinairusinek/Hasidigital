@@ -31,6 +31,9 @@ REPORT_PATH = os.path.join(PROJECT_DIR, "editions", "unmatched-places-report.tsv
 TEI_NS = "http://www.tei-c.org/ns/1.0"
 XML_NS = "http://www.w3.org/XML/1998/namespace"
 
+# Names that are NOT geographic places in this corpus (collective/ethnic nouns)
+SKIP_NAMES = {"ישראל"}
+
 
 # ── Helpers (from edition_linker.py, standalone) ─────────────────────────────
 
@@ -118,6 +121,8 @@ def process_editions(db, variant_index, dry_run=False):
             text = (pn_elem.text or "").strip()
             if not text:
                 continue
+            if text in SKIP_NAMES:
+                continue  # not a geographic place
 
             unlinked_count += 1
 

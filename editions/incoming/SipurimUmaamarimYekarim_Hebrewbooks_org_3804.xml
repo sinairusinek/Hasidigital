@@ -1,9 +1,9 @@
-<?xml version='1.0' encoding='UTF-8'?>
-<TEI xmlns='http://www.tei-c.org/ns/1.0'>
+<?xml version='1.0' encoding='utf-8'?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
 	<teiHeader>
 		<fileDesc>
 			<titleStmt>
-				<title type='main'>SipurimUmaamarimYekarim_Hebrewbooks_org_3804</title>
+				<title type="main">SipurimUmaamarimYekarim_Hebrewbooks_org_3804</title>
 			</titleStmt>
 			<publicationStmt>
 				<publisher>tranScriptorium</publisher>
@@ -13,320 +13,320 @@
 			</sourceDesc>
 		</fileDesc>
 	</teiHeader>
-	<facsimile xml:id='facs_1'>
-		<surface ulx='0' uly='0' lrx='2479' lry='3508'>
-			<graphic url='0001_p001.jpg' width='2479px' height='3508px'/>
-			<zone points='418,312 2179,312 2179,2447 418,2447' rendition='TextRegion' xml:id='facs_1_r'/>
+	<facsimile xml:id="facs_1">
+		<surface ulx="0" uly="0" lrx="2479" lry="3508">
+			<graphic url="0001_p001.jpg" width="2479px" height="3508px"/>
+			<zone points="418,312 2179,312 2179,2447 418,2447" rendition="TextRegion" xml:id="facs_1_r"/>
 		</surface>
 	</facsimile>
-	<facsimile xml:id='facs_2'>
-		<surface ulx='0' uly='0' lrx='2479' lry='3508'>
-			<graphic url='0002_p002.jpg' width='2479px' height='3508px'/>
-			<zone points='224,241 2036,241 2036,414 224,414' rendition='TextRegion' subtype='heading' xml:id='facs_2_tr_1743088994'/>
-			<zone points='234,459 2057,459 2057,702 234,702' rendition='TextRegion' subtype='heading' xml:id='facs_2_tr_1743088993'/>
-			<zone points='143,720 2117,720 2117,3252 143,3252' rendition='TextRegion' subtype='main-text' xml:id='facs_2_tr_1743088992'/>
-			<zone points='327,3285 462,3285 462,3407 327,3407' rendition='TextRegion' subtype='catch-word' xml:id='facs_2_tr_1743088991'/>
+	<facsimile xml:id="facs_2">
+		<surface ulx="0" uly="0" lrx="2479" lry="3508">
+			<graphic url="0002_p002.jpg" width="2479px" height="3508px"/>
+			<zone points="224,241 2036,241 2036,414 224,414" rendition="TextRegion" subtype="heading" xml:id="facs_2_tr_1743088994"/>
+			<zone points="234,459 2057,459 2057,702 234,702" rendition="TextRegion" subtype="heading" xml:id="facs_2_tr_1743088993"/>
+			<zone points="143,720 2117,720 2117,3252 143,3252" rendition="TextRegion" subtype="main-text" xml:id="facs_2_tr_1743088992"/>
+			<zone points="327,3285 462,3285 462,3407 327,3407" rendition="TextRegion" subtype="catch-word" xml:id="facs_2_tr_1743088991"/>
 		</surface>
 	</facsimile>
-	<facsimile xml:id='facs_3'>
-		<surface ulx='0' uly='0' lrx='2479' lry='3508'>
-			<graphic url='0003_p003.jpg' width='2479px' height='3508px'/>
-			<zone points='317,76 410,76 410,207 317,207' rendition='TextRegion' subtype='page-number' xml:id='facs_3_tr_1743088992'/>
-			<zone points='406,90 511,90 511,220 406,220' rendition='TextRegion' subtype='page-number' xml:id='facs_3_tr_1743088994'/>
-			<zone points='705,90 1927,90 1927,232 705,232' rendition='TextRegion' subtype='running-head' xml:id='facs_3_tr_1743088995'/>
-			<zone points='305,267 2311,267 2311,606 305,606' rendition='TextRegion' subtype='main-text' xml:id='facs_3_tr_1743088993'/>
-			<zone points='315,649 2296,649 2296,2399 315,2399' rendition='TextRegion' subtype='main-text' xml:id='facs_3_tr_1743088991'/>
-			<zone points='302,2410 2311,2410 2311,3319 302,3319' rendition='TextRegion' subtype='main-text' xml:id='facs_3_tr_1743088989'/>
-			<zone points='487,3323 676,3323 676,3451 487,3451' rendition='TextRegion' subtype='catch-word' xml:id='facs_3_tr_1743088990'/>
+	<facsimile xml:id="facs_3">
+		<surface ulx="0" uly="0" lrx="2479" lry="3508">
+			<graphic url="0003_p003.jpg" width="2479px" height="3508px"/>
+			<zone points="317,76 410,76 410,207 317,207" rendition="TextRegion" subtype="page-number" xml:id="facs_3_tr_1743088992"/>
+			<zone points="406,90 511,90 511,220 406,220" rendition="TextRegion" subtype="page-number" xml:id="facs_3_tr_1743088994"/>
+			<zone points="705,90 1927,90 1927,232 705,232" rendition="TextRegion" subtype="running-head" xml:id="facs_3_tr_1743088995"/>
+			<zone points="305,267 2311,267 2311,606 305,606" rendition="TextRegion" subtype="main-text" xml:id="facs_3_tr_1743088993"/>
+			<zone points="315,649 2296,649 2296,2399 315,2399" rendition="TextRegion" subtype="main-text" xml:id="facs_3_tr_1743088991"/>
+			<zone points="302,2410 2311,2410 2311,3319 302,3319" rendition="TextRegion" subtype="main-text" xml:id="facs_3_tr_1743088989"/>
+			<zone points="487,3323 676,3323 676,3451 487,3451" rendition="TextRegion" subtype="catch-word" xml:id="facs_3_tr_1743088990"/>
 		</surface>
 	</facsimile>
-	<facsimile xml:id='facs_4'>
-		<surface ulx='0' uly='0' lrx='2479' lry='3508'>
-			<graphic url='0004_p004.jpg' width='2479px' height='3508px'/>
-			<zone points='548,98 1724,98 1724,236 548,236' rendition='TextRegion' subtype='running-head' xml:id='facs_4_tr_1743088979'/>
-			<zone points='564,95 688,95 688,237 564,237' rendition='TextRegion' subtype='page-number' xml:id='facs_4_tr_1743088980'/>
-			<zone points='2040,96 2134,96 2134,214 2040,214' rendition='TextRegion' subtype='page-number' xml:id='facs_4_tr_1743088977'/>
-			<zone points='193,276 2149,276 2149,3310 193,3310' rendition='TextRegion' subtype='main-text' xml:id='facs_4_tr_1743088978'/>
-			<zone points='371,3326 645,3326 645,3441 371,3441' rendition='TextRegion' subtype='catch-word' xml:id='facs_4_tr_1743088976'/>
+	<facsimile xml:id="facs_4">
+		<surface ulx="0" uly="0" lrx="2479" lry="3508">
+			<graphic url="0004_p004.jpg" width="2479px" height="3508px"/>
+			<zone points="548,98 1724,98 1724,236 548,236" rendition="TextRegion" subtype="running-head" xml:id="facs_4_tr_1743088979"/>
+			<zone points="564,95 688,95 688,237 564,237" rendition="TextRegion" subtype="page-number" xml:id="facs_4_tr_1743088980"/>
+			<zone points="2040,96 2134,96 2134,214 2040,214" rendition="TextRegion" subtype="page-number" xml:id="facs_4_tr_1743088977"/>
+			<zone points="193,276 2149,276 2149,3310 193,3310" rendition="TextRegion" subtype="main-text" xml:id="facs_4_tr_1743088978"/>
+			<zone points="371,3326 645,3326 645,3441 371,3441" rendition="TextRegion" subtype="catch-word" xml:id="facs_4_tr_1743088976"/>
 		</surface>
 	</facsimile>
-	<facsimile xml:id='facs_5'>
-		<surface ulx='0' uly='0' lrx='2479' lry='3508'>
-			<graphic url='0005_p005.jpg' width='2479px' height='3508px'/>
-			<zone points='305,46 398,46 398,169 305,169' rendition='TextRegion' subtype='page-number' xml:id='facs_5_tr_1743088981'/>
-			<zone points='405,57 522,57 522,187 405,187' rendition='TextRegion' subtype='page-number' xml:id='facs_5_tr_1743088984'/>
-			<zone points='731,51 851,51 851,195 731,195' rendition='TextRegion' subtype='page-number' xml:id='facs_5_tr_1743088986'/>
-			<zone points='737,53 1904,53 1904,195 737,195' rendition='TextRegion' subtype='running-head' xml:id='facs_5_tr_1743088985'/>
-			<zone points='299,217 2282,217 2282,1625 299,1625' rendition='TextRegion' subtype='main-text' xml:id='facs_5_tr_1743088979'/>
-			<zone points='624,1653 1982,1653 1982,1779 624,1779' rendition='TextRegion' subtype='running-head' xml:id='facs_5_tr_1743088983'/>
-			<zone points='260,1794 2301,1794 2301,2691 260,2691' rendition='TextRegion' subtype='main-text' xml:id='facs_5_tr_1743088982'/>
-			<zone points='300,2723 2301,2723 2301,3299 300,3299' rendition='TextRegion' subtype='main-text' xml:id='facs_5_tr_1743088980'/>
-			<zone points='480,3283 735,3283 735,3398 480,3398' rendition='TextRegion' subtype='catch-word' xml:id='facs_5_tr_1743088978'/>
+	<facsimile xml:id="facs_5">
+		<surface ulx="0" uly="0" lrx="2479" lry="3508">
+			<graphic url="0005_p005.jpg" width="2479px" height="3508px"/>
+			<zone points="305,46 398,46 398,169 305,169" rendition="TextRegion" subtype="page-number" xml:id="facs_5_tr_1743088981"/>
+			<zone points="405,57 522,57 522,187 405,187" rendition="TextRegion" subtype="page-number" xml:id="facs_5_tr_1743088984"/>
+			<zone points="731,51 851,51 851,195 731,195" rendition="TextRegion" subtype="page-number" xml:id="facs_5_tr_1743088986"/>
+			<zone points="737,53 1904,53 1904,195 737,195" rendition="TextRegion" subtype="running-head" xml:id="facs_5_tr_1743088985"/>
+			<zone points="299,217 2282,217 2282,1625 299,1625" rendition="TextRegion" subtype="main-text" xml:id="facs_5_tr_1743088979"/>
+			<zone points="624,1653 1982,1653 1982,1779 624,1779" rendition="TextRegion" subtype="running-head" xml:id="facs_5_tr_1743088983"/>
+			<zone points="260,1794 2301,1794 2301,2691 260,2691" rendition="TextRegion" subtype="main-text" xml:id="facs_5_tr_1743088982"/>
+			<zone points="300,2723 2301,2723 2301,3299 300,3299" rendition="TextRegion" subtype="main-text" xml:id="facs_5_tr_1743088980"/>
+			<zone points="480,3283 735,3283 735,3398 480,3398" rendition="TextRegion" subtype="catch-word" xml:id="facs_5_tr_1743088978"/>
 		</surface>
 	</facsimile>
-	<facsimile xml:id='facs_6'>
-		<surface ulx='0' uly='0' lrx='2479' lry='3508'>
-			<graphic url='0006_p006.jpg' width='2479px' height='3508px'/>
-			<zone points='600,75 1791,75 1791,216 600,216' rendition='TextRegion' subtype='running-head' xml:id='facs_6_tr_1743088990'/>
-			<zone points='2062,73 2151,73 2151,183 2062,183' rendition='TextRegion' subtype='page-number' xml:id='facs_6_tr_1743088987'/>
-			<zone points='208,213 2200,213 2200,3264 208,3264' rendition='TextRegion' subtype='main-text' xml:id='facs_6_tr_1743088988'/>
-			<zone points='413,3301 675,3301 675,3399 413,3399' rendition='TextRegion' subtype='catch-word' xml:id='facs_6_tr_1743088989'/>
+	<facsimile xml:id="facs_6">
+		<surface ulx="0" uly="0" lrx="2479" lry="3508">
+			<graphic url="0006_p006.jpg" width="2479px" height="3508px"/>
+			<zone points="600,75 1791,75 1791,216 600,216" rendition="TextRegion" subtype="running-head" xml:id="facs_6_tr_1743088990"/>
+			<zone points="2062,73 2151,73 2151,183 2062,183" rendition="TextRegion" subtype="page-number" xml:id="facs_6_tr_1743088987"/>
+			<zone points="208,213 2200,213 2200,3264 208,3264" rendition="TextRegion" subtype="main-text" xml:id="facs_6_tr_1743088988"/>
+			<zone points="413,3301 675,3301 675,3399 413,3399" rendition="TextRegion" subtype="catch-word" xml:id="facs_6_tr_1743088989"/>
 		</surface>
 	</facsimile>
-	<facsimile xml:id='facs_7'>
-		<surface ulx='0' uly='0' lrx='2479' lry='3508'>
-			<graphic url='0007_p007.jpg' width='2479px' height='3508px'/>
-			<zone points='314,48 402,48 402,168 314,168' rendition='TextRegion' subtype='page-number' xml:id='facs_7_tr_1743088991'/>
-			<zone points='400,56 521,56 521,189 400,189' rendition='TextRegion' subtype='page-number' xml:id='facs_7_tr_1743088992'/>
-			<zone points='704,53 1879,53 1879,197 704,197' rendition='TextRegion' subtype='running-head' xml:id='facs_7_tr_1743088993'/>
-			<zone points='300,237 2286,237 2286,2257 300,2257' rendition='TextRegion' subtype='main-text' xml:id='facs_7_tr_1743088990'/>
-			<zone points='273,2265 2272,2265 2272,3305 273,3305' rendition='TextRegion' subtype='main-text' xml:id='facs_7_tr_1743088988'/>
-			<zone points='489,3301 719,3301 719,3402 489,3402' rendition='TextRegion' subtype='catch-word' xml:id='facs_7_tr_1743088989'/>
+	<facsimile xml:id="facs_7">
+		<surface ulx="0" uly="0" lrx="2479" lry="3508">
+			<graphic url="0007_p007.jpg" width="2479px" height="3508px"/>
+			<zone points="314,48 402,48 402,168 314,168" rendition="TextRegion" subtype="page-number" xml:id="facs_7_tr_1743088991"/>
+			<zone points="400,56 521,56 521,189 400,189" rendition="TextRegion" subtype="page-number" xml:id="facs_7_tr_1743088992"/>
+			<zone points="704,53 1879,53 1879,197 704,197" rendition="TextRegion" subtype="running-head" xml:id="facs_7_tr_1743088993"/>
+			<zone points="300,237 2286,237 2286,2257 300,2257" rendition="TextRegion" subtype="main-text" xml:id="facs_7_tr_1743088990"/>
+			<zone points="273,2265 2272,2265 2272,3305 273,3305" rendition="TextRegion" subtype="main-text" xml:id="facs_7_tr_1743088988"/>
+			<zone points="489,3301 719,3301 719,3402 489,3402" rendition="TextRegion" subtype="catch-word" xml:id="facs_7_tr_1743088989"/>
 		</surface>
 	</facsimile>
-	<facsimile xml:id='facs_8'>
-		<surface ulx='0' uly='0' lrx='2479' lry='3508'>
-			<graphic url='0008_p008.jpg' width='2479px' height='3508px'/>
-			<zone points='665,82 1787,82 1787,222 665,222' rendition='TextRegion' subtype='running-head' xml:id='facs_8_tr_1743088993'/>
-			<zone points='2019,72 2141,72 2141,187 2019,187' rendition='TextRegion' subtype='page-number' xml:id='facs_8_tr_1743088992'/>
-			<zone points='232,319 2173,319 2173,3274 232,3274' rendition='TextRegion' subtype='main-text' xml:id='facs_8_tr_1743088991'/>
-			<zone points='415,3290 666,3290 666,3390 415,3390' rendition='TextRegion' subtype='catch-word' xml:id='facs_8_tr_1743088990'/>
+	<facsimile xml:id="facs_8">
+		<surface ulx="0" uly="0" lrx="2479" lry="3508">
+			<graphic url="0008_p008.jpg" width="2479px" height="3508px"/>
+			<zone points="665,82 1787,82 1787,222 665,222" rendition="TextRegion" subtype="running-head" xml:id="facs_8_tr_1743088993"/>
+			<zone points="2019,72 2141,72 2141,187 2019,187" rendition="TextRegion" subtype="page-number" xml:id="facs_8_tr_1743088992"/>
+			<zone points="232,319 2173,319 2173,3274 232,3274" rendition="TextRegion" subtype="main-text" xml:id="facs_8_tr_1743088991"/>
+			<zone points="415,3290 666,3290 666,3390 415,3390" rendition="TextRegion" subtype="catch-word" xml:id="facs_8_tr_1743088990"/>
 		</surface>
 	</facsimile>
-	<facsimile xml:id='facs_9'>
-		<surface ulx='0' uly='0' lrx='2479' lry='3508'>
-			<graphic url='0009_p009.jpg' width='2479px' height='3508px'/>
-			<zone points='331,52 446,52 446,166 331,166' rendition='TextRegion' subtype='page-number' xml:id='facs_9_tr_1743088979'/>
-			<zone points='458,61 542,61 542,179 458,179' rendition='TextRegion' subtype='page-number' xml:id='facs_9_tr_1743088981'/>
-			<zone points='743,53 1913,53 1913,200 743,200' rendition='TextRegion' subtype='running-head' xml:id='facs_9_tr_1743088982'/>
-			<zone points='340,237 2324,237 2324,2060 340,2060' rendition='TextRegion' subtype='main-text' xml:id='facs_9_tr_1743088978'/>
-			<zone points='331,2057 2317,2057 2317,3288 331,3288' rendition='TextRegion' subtype='main-text' xml:id='facs_9_tr_1743088977'/>
-			<zone points='547,3291 739,3291 739,3393 547,3393' rendition='TextRegion' subtype='catch-word' xml:id='facs_9_tr_1743088980'/>
+	<facsimile xml:id="facs_9">
+		<surface ulx="0" uly="0" lrx="2479" lry="3508">
+			<graphic url="0009_p009.jpg" width="2479px" height="3508px"/>
+			<zone points="331,52 446,52 446,166 331,166" rendition="TextRegion" subtype="page-number" xml:id="facs_9_tr_1743088979"/>
+			<zone points="458,61 542,61 542,179 458,179" rendition="TextRegion" subtype="page-number" xml:id="facs_9_tr_1743088981"/>
+			<zone points="743,53 1913,53 1913,200 743,200" rendition="TextRegion" subtype="running-head" xml:id="facs_9_tr_1743088982"/>
+			<zone points="340,237 2324,237 2324,2060 340,2060" rendition="TextRegion" subtype="main-text" xml:id="facs_9_tr_1743088978"/>
+			<zone points="331,2057 2317,2057 2317,3288 331,3288" rendition="TextRegion" subtype="main-text" xml:id="facs_9_tr_1743088977"/>
+			<zone points="547,3291 739,3291 739,3393 547,3393" rendition="TextRegion" subtype="catch-word" xml:id="facs_9_tr_1743088980"/>
 		</surface>
 	</facsimile>
-	<facsimile xml:id='facs_10'>
-		<surface ulx='0' uly='0' lrx='2479' lry='3508'>
-			<graphic url='0010_p010.jpg' width='2479px' height='3508px'/>
-			<zone points='1986,94 2123,94 2123,215 1986,215' rendition='TextRegion' subtype='page-number' xml:id='facs_10_tr_1743088981'/>
-			<zone points='535,100 1726,100 1726,238 535,238' rendition='TextRegion' subtype='running-head' xml:id='facs_10_tr_1743088983'/>
-			<zone points='160,291 2156,291 2156,523 2155,525 160,525 160,523' rendition='TextRegion' subtype='main-text' xml:id='facs_10_TextRegion_1749458750715_1792'/>
-			<zone points='160,525 2155,525 2146,3277 193,3277' rendition='TextRegion' subtype='main-text' xml:id='facs_10_TextRegion_1749458750715_1791'/>
-			<zone points='363,3315 590,3315 590,3432 363,3432' rendition='TextRegion' subtype='catch-word' xml:id='facs_10_tr_1743088980'/>
+	<facsimile xml:id="facs_10">
+		<surface ulx="0" uly="0" lrx="2479" lry="3508">
+			<graphic url="0010_p010.jpg" width="2479px" height="3508px"/>
+			<zone points="1986,94 2123,94 2123,215 1986,215" rendition="TextRegion" subtype="page-number" xml:id="facs_10_tr_1743088981"/>
+			<zone points="535,100 1726,100 1726,238 535,238" rendition="TextRegion" subtype="running-head" xml:id="facs_10_tr_1743088983"/>
+			<zone points="160,291 2156,291 2156,523 2155,525 160,525 160,523" rendition="TextRegion" subtype="main-text" xml:id="facs_10_TextRegion_1749458750715_1792"/>
+			<zone points="160,525 2155,525 2146,3277 193,3277" rendition="TextRegion" subtype="main-text" xml:id="facs_10_TextRegion_1749458750715_1791"/>
+			<zone points="363,3315 590,3315 590,3432 363,3432" rendition="TextRegion" subtype="catch-word" xml:id="facs_10_tr_1743088980"/>
 		</surface>
 	</facsimile>
-	<facsimile xml:id='facs_11'>
-		<surface ulx='0' uly='0' lrx='2479' lry='3508'>
-			<graphic url='0011_p011.jpg' width='2479px' height='3508px'/>
-			<zone points='327,44 446,44 446,164 327,164' rendition='TextRegion' subtype='page-number' xml:id='facs_11_tr_1743088986'/>
-			<zone points='448,53 539,53 539,180 448,180' rendition='TextRegion' subtype='page-number' xml:id='facs_11_tr_1743088989'/>
-			<zone points='758,43 1912,43 1912,184 758,184' rendition='TextRegion' subtype='running-head' xml:id='facs_11_tr_1743088991'/>
-			<zone points='289,224 2290,224 2290,569 289,569' rendition='TextRegion' subtype='main-text' xml:id='facs_11_tr_1743088993'/>
-			<zone points='328,572 2343,572 2325,2024 310,2024' rendition='TextRegion' subtype='main-text' xml:id='facs_11_tr_1743088987'/>
-			<zone points='305,2036 2301,2036 2301,3257 305,3257' rendition='TextRegion' subtype='main-text' xml:id='facs_11_tr_1743088988'/>
-			<zone points='511,3274 985,3274 985,3374 511,3374' rendition='TextRegion' subtype='catch-word' xml:id='facs_11_tr_1743088990'/>
+	<facsimile xml:id="facs_11">
+		<surface ulx="0" uly="0" lrx="2479" lry="3508">
+			<graphic url="0011_p011.jpg" width="2479px" height="3508px"/>
+			<zone points="327,44 446,44 446,164 327,164" rendition="TextRegion" subtype="page-number" xml:id="facs_11_tr_1743088986"/>
+			<zone points="448,53 539,53 539,180 448,180" rendition="TextRegion" subtype="page-number" xml:id="facs_11_tr_1743088989"/>
+			<zone points="758,43 1912,43 1912,184 758,184" rendition="TextRegion" subtype="running-head" xml:id="facs_11_tr_1743088991"/>
+			<zone points="289,224 2290,224 2290,569 289,569" rendition="TextRegion" subtype="main-text" xml:id="facs_11_tr_1743088993"/>
+			<zone points="328,572 2343,572 2325,2024 310,2024" rendition="TextRegion" subtype="main-text" xml:id="facs_11_tr_1743088987"/>
+			<zone points="305,2036 2301,2036 2301,3257 305,3257" rendition="TextRegion" subtype="main-text" xml:id="facs_11_tr_1743088988"/>
+			<zone points="511,3274 985,3274 985,3374 511,3374" rendition="TextRegion" subtype="catch-word" xml:id="facs_11_tr_1743088990"/>
 		</surface>
 	</facsimile>
-	<facsimile xml:id='facs_12'>
-		<surface ulx='0' uly='0' lrx='2479' lry='3508'>
-			<graphic url='0012_p012.jpg' width='2479px' height='3508px'/>
-			<zone points='583,71 1767,71 1767,203 583,203' rendition='TextRegion' subtype='running-head' xml:id='facs_12_tr_1743088989'/>
-			<zone points='2017,70 2141,70 2141,185 2017,185' rendition='TextRegion' subtype='page-number' xml:id='facs_12_tr_1743088988'/>
-			<zone points='226,236 2165,236 2159,1700 220,1700' rendition='TextRegion' subtype='main-text' xml:id='facs_12_tr_1743088985'/>
-			<zone points='200,1713 2201,1713 2201,3256 200,3256' rendition='TextRegion' subtype='main-text' xml:id='facs_12_tr_1743088987'/>
-			<zone points='416,3279 673,3279 673,3376 416,3376' rendition='TextRegion' subtype='catch-word' xml:id='facs_12_tr_1743088986'/>
+	<facsimile xml:id="facs_12">
+		<surface ulx="0" uly="0" lrx="2479" lry="3508">
+			<graphic url="0012_p012.jpg" width="2479px" height="3508px"/>
+			<zone points="583,71 1767,71 1767,203 583,203" rendition="TextRegion" subtype="running-head" xml:id="facs_12_tr_1743088989"/>
+			<zone points="2017,70 2141,70 2141,185 2017,185" rendition="TextRegion" subtype="page-number" xml:id="facs_12_tr_1743088988"/>
+			<zone points="226,236 2165,236 2159,1700 220,1700" rendition="TextRegion" subtype="main-text" xml:id="facs_12_tr_1743088985"/>
+			<zone points="200,1713 2201,1713 2201,3256 200,3256" rendition="TextRegion" subtype="main-text" xml:id="facs_12_tr_1743088987"/>
+			<zone points="416,3279 673,3279 673,3376 416,3376" rendition="TextRegion" subtype="catch-word" xml:id="facs_12_tr_1743088986"/>
 		</surface>
 	</facsimile>
-	<facsimile xml:id='facs_13'>
-		<surface ulx='0' uly='0' lrx='2479' lry='3508'>
-			<graphic url='0013_p013.jpg' width='2479px' height='3508px'/>
-			<zone points='328,41 439,41 439,161 328,161' rendition='TextRegion' subtype='page-number' xml:id='facs_13_tr_1743088992'/>
-			<zone points='444,48 567,48 567,178 444,178' rendition='TextRegion' subtype='page-number' xml:id='facs_13_tr_1743088993'/>
-			<zone points='752,43 1894,43 1894,187 752,187' rendition='TextRegion' subtype='running-head' xml:id='facs_13_tr_1743088995'/>
-			<zone points='304,218 2314,218 2312,1255 302,1255' rendition='TextRegion' subtype='main-text' xml:id='facs_13_tr_1743088990'/>
-			<zone points='289,1267 2308,1267 2316,2675 297,2675' rendition='TextRegion' subtype='main-text' xml:id='facs_13_tr_1743088989'/>
-			<zone points='315,2703 2340,2703 2340,3289 315,3289' rendition='TextRegion' subtype='main-text' xml:id='facs_13_tr_1743088991'/>
-			<zone points='510,3271 731,3271 731,3367 510,3367' rendition='TextRegion' subtype='catch-word' xml:id='facs_13_tr_1743088994'/>
+	<facsimile xml:id="facs_13">
+		<surface ulx="0" uly="0" lrx="2479" lry="3508">
+			<graphic url="0013_p013.jpg" width="2479px" height="3508px"/>
+			<zone points="328,41 439,41 439,161 328,161" rendition="TextRegion" subtype="page-number" xml:id="facs_13_tr_1743088992"/>
+			<zone points="444,48 567,48 567,178 444,178" rendition="TextRegion" subtype="page-number" xml:id="facs_13_tr_1743088993"/>
+			<zone points="752,43 1894,43 1894,187 752,187" rendition="TextRegion" subtype="running-head" xml:id="facs_13_tr_1743088995"/>
+			<zone points="304,218 2314,218 2312,1255 302,1255" rendition="TextRegion" subtype="main-text" xml:id="facs_13_tr_1743088990"/>
+			<zone points="289,1267 2308,1267 2316,2675 297,2675" rendition="TextRegion" subtype="main-text" xml:id="facs_13_tr_1743088989"/>
+			<zone points="315,2703 2340,2703 2340,3289 315,3289" rendition="TextRegion" subtype="main-text" xml:id="facs_13_tr_1743088991"/>
+			<zone points="510,3271 731,3271 731,3367 510,3367" rendition="TextRegion" subtype="catch-word" xml:id="facs_13_tr_1743088994"/>
 		</surface>
 	</facsimile>
-	<facsimile xml:id='facs_14'>
-		<surface ulx='0' uly='0' lrx='2479' lry='3508'>
-			<graphic url='0014_p014.jpg' width='2479px' height='3508px'/>
-			<zone points='594,91 1792,91 1792,224 594,224' rendition='TextRegion' subtype='running-head' xml:id='facs_14_tr_1743088985'/>
-			<zone points='2025,83 2148,83 2148,214 2025,214' rendition='TextRegion' subtype='page-number' xml:id='facs_14_tr_1743088983'/>
-			<zone points='217,265 2183,265 2183,1162 217,1162' rendition='TextRegion' subtype='main-text' xml:id='facs_14_tr_1743088980'/>
-			<zone points='236,1175 2194,1175 2188,2593 230,2593' rendition='TextRegion' subtype='main-text' xml:id='facs_14_tr_1743088981'/>
-			<zone points='228,2588 2201,2588 2201,3272 228,3272' rendition='TextRegion' subtype='main-text' xml:id='facs_14_tr_1743088982'/>
-			<zone points='437,3281 629,3281 629,3390 437,3390' rendition='TextRegion' subtype='catch-word' xml:id='facs_14_tr_1743088984'/>
+	<facsimile xml:id="facs_14">
+		<surface ulx="0" uly="0" lrx="2479" lry="3508">
+			<graphic url="0014_p014.jpg" width="2479px" height="3508px"/>
+			<zone points="594,91 1792,91 1792,224 594,224" rendition="TextRegion" subtype="running-head" xml:id="facs_14_tr_1743088985"/>
+			<zone points="2025,83 2148,83 2148,214 2025,214" rendition="TextRegion" subtype="page-number" xml:id="facs_14_tr_1743088983"/>
+			<zone points="217,265 2183,265 2183,1162 217,1162" rendition="TextRegion" subtype="main-text" xml:id="facs_14_tr_1743088980"/>
+			<zone points="236,1175 2194,1175 2188,2593 230,2593" rendition="TextRegion" subtype="main-text" xml:id="facs_14_tr_1743088981"/>
+			<zone points="228,2588 2201,2588 2201,3272 228,3272" rendition="TextRegion" subtype="main-text" xml:id="facs_14_tr_1743088982"/>
+			<zone points="437,3281 629,3281 629,3390 437,3390" rendition="TextRegion" subtype="catch-word" xml:id="facs_14_tr_1743088984"/>
 		</surface>
 	</facsimile>
-	<facsimile xml:id='facs_15'>
-		<surface ulx='0' uly='0' lrx='2479' lry='3508'>
-			<graphic url='0015_p015.jpg' width='2479px' height='3508px'/>
-			<zone points='320,22 440,22 440,144 320,144' rendition='TextRegion' subtype='page-number' xml:id='facs_15_tr_1743088992'/>
-			<zone points='440,32 567,32 567,166 440,166' rendition='TextRegion' subtype='page-number' xml:id='facs_15_tr_1743088994'/>
-			<zone points='746,30 1896,30 1896,165 746,165' rendition='TextRegion' subtype='running-head' xml:id='facs_15_tr_1743088996'/>
-			<zone points='303,198 2294,198 2296,2360 305,2360' rendition='TextRegion' subtype='main-text' xml:id='facs_15_tr_1743088995'/>
-			<zone points='316,2506 2202,2506 2202,3270 316,3270' rendition='TextRegion' subtype='main-text' xml:id='facs_15_tr_1743088993'/>
-			<zone points='509,3267 751,3267 751,3388 509,3388' rendition='TextRegion' subtype='catch-word' xml:id='facs_15_tr_1743088991'/>
+	<facsimile xml:id="facs_15">
+		<surface ulx="0" uly="0" lrx="2479" lry="3508">
+			<graphic url="0015_p015.jpg" width="2479px" height="3508px"/>
+			<zone points="320,22 440,22 440,144 320,144" rendition="TextRegion" subtype="page-number" xml:id="facs_15_tr_1743088992"/>
+			<zone points="440,32 567,32 567,166 440,166" rendition="TextRegion" subtype="page-number" xml:id="facs_15_tr_1743088994"/>
+			<zone points="746,30 1896,30 1896,165 746,165" rendition="TextRegion" subtype="running-head" xml:id="facs_15_tr_1743088996"/>
+			<zone points="303,198 2294,198 2296,2360 305,2360" rendition="TextRegion" subtype="main-text" xml:id="facs_15_tr_1743088995"/>
+			<zone points="316,2506 2202,2506 2202,3270 316,3270" rendition="TextRegion" subtype="main-text" xml:id="facs_15_tr_1743088993"/>
+			<zone points="509,3267 751,3267 751,3388 509,3388" rendition="TextRegion" subtype="catch-word" xml:id="facs_15_tr_1743088991"/>
 		</surface>
 	</facsimile>
-	<facsimile xml:id='facs_16'>
-		<surface ulx='0' uly='0' lrx='2479' lry='3508'>
-			<graphic url='0016_p016.jpg' width='2479px' height='3508px'/>
-			<zone points='561,50 1748,50 1748,190 561,190' rendition='TextRegion' subtype='running-head' xml:id='facs_16_tr_1743088990'/>
-			<zone points='2001,49 2121,49 2121,160 2001,160' rendition='TextRegion' subtype='page-number' xml:id='facs_16_tr_1743088989'/>
-			<zone points='206,209 2150,209 2152,1902 208,1902' rendition='TextRegion' subtype='main-text' xml:id='facs_16_tr_1743088986'/>
-			<zone points='186,1902 2163,1902 2163,3234 186,3234' rendition='TextRegion' subtype='main-text' xml:id='facs_16_tr_1743088987'/>
-			<zone points='384,3268 611,3268 611,3356 384,3356' rendition='TextRegion' subtype='catch-word' xml:id='facs_16_tr_1743088988'/>
+	<facsimile xml:id="facs_16">
+		<surface ulx="0" uly="0" lrx="2479" lry="3508">
+			<graphic url="0016_p016.jpg" width="2479px" height="3508px"/>
+			<zone points="561,50 1748,50 1748,190 561,190" rendition="TextRegion" subtype="running-head" xml:id="facs_16_tr_1743088990"/>
+			<zone points="2001,49 2121,49 2121,160 2001,160" rendition="TextRegion" subtype="page-number" xml:id="facs_16_tr_1743088989"/>
+			<zone points="206,209 2150,209 2152,1902 208,1902" rendition="TextRegion" subtype="main-text" xml:id="facs_16_tr_1743088986"/>
+			<zone points="186,1902 2163,1902 2163,3234 186,3234" rendition="TextRegion" subtype="main-text" xml:id="facs_16_tr_1743088987"/>
+			<zone points="384,3268 611,3268 611,3356 384,3356" rendition="TextRegion" subtype="catch-word" xml:id="facs_16_tr_1743088988"/>
 		</surface>
 	</facsimile>
-	<facsimile xml:id='facs_17'>
-		<surface ulx='0' uly='0' lrx='2479' lry='3508'>
-			<graphic url='0017_p017.jpg' width='2479px' height='3508px'/>
-			<zone points='322,42 443,42 443,154 322,154' rendition='TextRegion' subtype='page-number' xml:id='facs_17_tr_1743088980'/>
-			<zone points='446,49 531,49 531,158 446,158' rendition='TextRegion' subtype='page-number' xml:id='facs_17_tr_1743088982'/>
-			<zone points='735,48 1899,48 1899,195 735,195' rendition='TextRegion' subtype='running-head' xml:id='facs_17_tr_1743088981'/>
-			<zone points='291,227 2312,227 2314,2499 293,2499' rendition='TextRegion' subtype='main-text' xml:id='facs_17_tr_1743088979'/>
-			<zone points='273,2492 2333,2492 2333,3290 273,3290' rendition='TextRegion' subtype='main-text' xml:id='facs_17_tr_1743088977'/>
-			<zone points='509,3291 664,3291 664,3405 509,3405' rendition='TextRegion' subtype='catch-word' xml:id='facs_17_tr_1743088978'/>
+	<facsimile xml:id="facs_17">
+		<surface ulx="0" uly="0" lrx="2479" lry="3508">
+			<graphic url="0017_p017.jpg" width="2479px" height="3508px"/>
+			<zone points="322,42 443,42 443,154 322,154" rendition="TextRegion" subtype="page-number" xml:id="facs_17_tr_1743088980"/>
+			<zone points="446,49 531,49 531,158 446,158" rendition="TextRegion" subtype="page-number" xml:id="facs_17_tr_1743088982"/>
+			<zone points="735,48 1899,48 1899,195 735,195" rendition="TextRegion" subtype="running-head" xml:id="facs_17_tr_1743088981"/>
+			<zone points="291,227 2312,227 2314,2499 293,2499" rendition="TextRegion" subtype="main-text" xml:id="facs_17_tr_1743088979"/>
+			<zone points="273,2492 2333,2492 2333,3290 273,3290" rendition="TextRegion" subtype="main-text" xml:id="facs_17_tr_1743088977"/>
+			<zone points="509,3291 664,3291 664,3405 509,3405" rendition="TextRegion" subtype="catch-word" xml:id="facs_17_tr_1743088978"/>
 		</surface>
 	</facsimile>
-	<facsimile xml:id='facs_18'>
-		<surface ulx='0' uly='0' lrx='2479' lry='3508'>
-			<graphic url='0018_p018.jpg' width='2479px' height='3508px'/>
-			<zone points='581,67 1760,67 1760,211 581,211' rendition='TextRegion' subtype='running-head' xml:id='facs_18_tr_1743088989'/>
-			<zone points='1995,61 2125,61 2125,164 1995,164' rendition='TextRegion' subtype='page-number' xml:id='facs_18_tr_1743088987'/>
-			<zone points='176,236 2143,236 2143,608 176,608' rendition='TextRegion' subtype='main-text' xml:id='facs_18_tr_1743088984'/>
-			<zone points='217,638 2103,638 2103,885 217,885' rendition='TextRegion' subtype='heading' xml:id='facs_18_tr_1743088991'/>
-			<zone points='158,897 2152,897 2152,2422 158,2422' rendition='TextRegion' subtype='main-text' xml:id='facs_18_tr_1743088983'/>
-			<zone points='494,2449 1893,2449 1893,2576 494,2576' rendition='TextRegion' subtype='running-head' xml:id='facs_18_tr_1743088988'/>
-			<zone points='163,2579 2177,2579 2177,2949 163,2949' rendition='TextRegion' subtype='heading' xml:id='facs_18_tr_1743088990'/>
-			<zone points='175,2991 2187,2991 2187,3238 175,3238' rendition='TextRegion' subtype='main-text' xml:id='facs_18_tr_1743088986'/>
-			<zone points='400,3227 580,3227 580,3332 400,3332' rendition='TextRegion' subtype='catch-word' xml:id='facs_18_tr_1743088985'/>
+	<facsimile xml:id="facs_18">
+		<surface ulx="0" uly="0" lrx="2479" lry="3508">
+			<graphic url="0018_p018.jpg" width="2479px" height="3508px"/>
+			<zone points="581,67 1760,67 1760,211 581,211" rendition="TextRegion" subtype="running-head" xml:id="facs_18_tr_1743088989"/>
+			<zone points="1995,61 2125,61 2125,164 1995,164" rendition="TextRegion" subtype="page-number" xml:id="facs_18_tr_1743088987"/>
+			<zone points="176,236 2143,236 2143,608 176,608" rendition="TextRegion" subtype="main-text" xml:id="facs_18_tr_1743088984"/>
+			<zone points="217,638 2103,638 2103,885 217,885" rendition="TextRegion" subtype="heading" xml:id="facs_18_tr_1743088991"/>
+			<zone points="158,897 2152,897 2152,2422 158,2422" rendition="TextRegion" subtype="main-text" xml:id="facs_18_tr_1743088983"/>
+			<zone points="494,2449 1893,2449 1893,2576 494,2576" rendition="TextRegion" subtype="running-head" xml:id="facs_18_tr_1743088988"/>
+			<zone points="163,2579 2177,2579 2177,2949 163,2949" rendition="TextRegion" subtype="heading" xml:id="facs_18_tr_1743088990"/>
+			<zone points="175,2991 2187,2991 2187,3238 175,3238" rendition="TextRegion" subtype="main-text" xml:id="facs_18_tr_1743088986"/>
+			<zone points="400,3227 580,3227 580,3332 400,3332" rendition="TextRegion" subtype="catch-word" xml:id="facs_18_tr_1743088985"/>
 		</surface>
 	</facsimile>
-	<facsimile xml:id='facs_19'>
-		<surface ulx='0' uly='0' lrx='2479' lry='3508'>
-			<graphic url='0019_p019.jpg' width='2479px' height='3508px'/>
-			<zone points='334,64 452,64 452,177 334,177' rendition='TextRegion' subtype='page-number' xml:id='facs_19_tr_1743088981'/>
-			<zone points='457,70 601,70 601,197 457,197' rendition='TextRegion' subtype='page-number' xml:id='facs_19_tr_1743088984'/>
-			<zone points='811,73 1913,73 1913,206 811,206' rendition='TextRegion' subtype='running-head' xml:id='facs_19_tr_1743088986'/>
-			<zone points='353,257 2303,257 2303,494 353,494' rendition='TextRegion' subtype='main-text' xml:id='facs_19_tr_1743088982'/>
-			<zone points='312,467 2333,467 2333,920 312,920' rendition='TextRegion' subtype='main-text' xml:id='facs_19_tr_1743088985'/>
-			<zone points='301,892 2297,892 2297,3297 301,3297' rendition='TextRegion' subtype='main-text' xml:id='facs_19_tr_1743088983'/>
-			<zone points='498,3307 688,3307 688,3434 498,3434' rendition='TextRegion' subtype='catch-word' xml:id='facs_19_tr_1743088980'/>
+	<facsimile xml:id="facs_19">
+		<surface ulx="0" uly="0" lrx="2479" lry="3508">
+			<graphic url="0019_p019.jpg" width="2479px" height="3508px"/>
+			<zone points="334,64 452,64 452,177 334,177" rendition="TextRegion" subtype="page-number" xml:id="facs_19_tr_1743088981"/>
+			<zone points="457,70 601,70 601,197 457,197" rendition="TextRegion" subtype="page-number" xml:id="facs_19_tr_1743088984"/>
+			<zone points="811,73 1913,73 1913,206 811,206" rendition="TextRegion" subtype="running-head" xml:id="facs_19_tr_1743088986"/>
+			<zone points="353,257 2303,257 2303,494 353,494" rendition="TextRegion" subtype="main-text" xml:id="facs_19_tr_1743088982"/>
+			<zone points="312,467 2333,467 2333,920 312,920" rendition="TextRegion" subtype="main-text" xml:id="facs_19_tr_1743088985"/>
+			<zone points="301,892 2297,892 2297,3297 301,3297" rendition="TextRegion" subtype="main-text" xml:id="facs_19_tr_1743088983"/>
+			<zone points="498,3307 688,3307 688,3434 498,3434" rendition="TextRegion" subtype="catch-word" xml:id="facs_19_tr_1743088980"/>
 		</surface>
 	</facsimile>
-	<facsimile xml:id='facs_20'>
-		<surface ulx='0' uly='0' lrx='2479' lry='3508'>
-			<graphic url='0020_p020.jpg' width='2479px' height='3508px'/>
-			<zone points='583,92 1763,92 1763,230 583,230' rendition='TextRegion' subtype='running-head' xml:id='facs_20_tr_1743088985'/>
-			<zone points='2006,82 2137,82 2137,203 2006,203' rendition='TextRegion' subtype='page-number' xml:id='facs_20_tr_1743088984'/>
-			<zone points='175,285 2175,285 2175,615 175,615' rendition='TextRegion' subtype='main-text' xml:id='facs_20_tr_1743088981'/>
-			<zone points='173,578 2165,578 2165,3265 173,3265' rendition='TextRegion' subtype='main-text' xml:id='facs_20_tr_1743088983'/>
-			<zone points='380,3303 618,3303 618,3411 380,3411' rendition='TextRegion' subtype='catch-word' xml:id='facs_20_tr_1743088982'/>
+	<facsimile xml:id="facs_20">
+		<surface ulx="0" uly="0" lrx="2479" lry="3508">
+			<graphic url="0020_p020.jpg" width="2479px" height="3508px"/>
+			<zone points="583,92 1763,92 1763,230 583,230" rendition="TextRegion" subtype="running-head" xml:id="facs_20_tr_1743088985"/>
+			<zone points="2006,82 2137,82 2137,203 2006,203" rendition="TextRegion" subtype="page-number" xml:id="facs_20_tr_1743088984"/>
+			<zone points="175,285 2175,285 2175,615 175,615" rendition="TextRegion" subtype="main-text" xml:id="facs_20_tr_1743088981"/>
+			<zone points="173,578 2165,578 2165,3265 173,3265" rendition="TextRegion" subtype="main-text" xml:id="facs_20_tr_1743088983"/>
+			<zone points="380,3303 618,3303 618,3411 380,3411" rendition="TextRegion" subtype="catch-word" xml:id="facs_20_tr_1743088982"/>
 		</surface>
 	</facsimile>
-	<facsimile xml:id='facs_21'>
-		<surface ulx='0' uly='0' lrx='2479' lry='3508'>
-			<graphic url='0021_p021.jpg' width='2479px' height='3508px'/>
-			<zone points='328,45 449,45 449,176 328,176' rendition='TextRegion' subtype='page-number' xml:id='facs_21_tr_1743088986'/>
-			<zone points='453,54 597,54 597,190 453,190' rendition='TextRegion' subtype='page-number' xml:id='facs_21_tr_1743088988'/>
-			<zone points='751,55 1936,55 1936,196 751,196' rendition='TextRegion' subtype='running-head' xml:id='facs_21_tr_1743088989'/>
-			<zone points='302,205 2314,205 2314,713 302,713' rendition='TextRegion' subtype='main-text' xml:id='facs_21_tr_1743088987'/>
-			<zone points='316,722 2322,722 2312,2259 306,2259' rendition='TextRegion' subtype='main-text' xml:id='facs_21_tr_1743088985'/>
-			<zone points='316,2258 2329,2258 2329,2737 316,2737' rendition='TextRegion' subtype='main-text' xml:id='facs_21_tr_1743088984'/>
-			<zone points='293,2741 2321,2741 2321,3297 293,3297' rendition='TextRegion' subtype='main-text' xml:id='facs_21_tr_1743088982'/>
-			<zone points='504,3301 732,3301 732,3401 504,3401' rendition='TextRegion' subtype='catch-word' xml:id='facs_21_tr_1743088983'/>
+	<facsimile xml:id="facs_21">
+		<surface ulx="0" uly="0" lrx="2479" lry="3508">
+			<graphic url="0021_p021.jpg" width="2479px" height="3508px"/>
+			<zone points="328,45 449,45 449,176 328,176" rendition="TextRegion" subtype="page-number" xml:id="facs_21_tr_1743088986"/>
+			<zone points="453,54 597,54 597,190 453,190" rendition="TextRegion" subtype="page-number" xml:id="facs_21_tr_1743088988"/>
+			<zone points="751,55 1936,55 1936,196 751,196" rendition="TextRegion" subtype="running-head" xml:id="facs_21_tr_1743088989"/>
+			<zone points="302,205 2314,205 2314,713 302,713" rendition="TextRegion" subtype="main-text" xml:id="facs_21_tr_1743088987"/>
+			<zone points="316,722 2322,722 2312,2259 306,2259" rendition="TextRegion" subtype="main-text" xml:id="facs_21_tr_1743088985"/>
+			<zone points="316,2258 2329,2258 2329,2737 316,2737" rendition="TextRegion" subtype="main-text" xml:id="facs_21_tr_1743088984"/>
+			<zone points="293,2741 2321,2741 2321,3297 293,3297" rendition="TextRegion" subtype="main-text" xml:id="facs_21_tr_1743088982"/>
+			<zone points="504,3301 732,3301 732,3401 504,3401" rendition="TextRegion" subtype="catch-word" xml:id="facs_21_tr_1743088983"/>
 		</surface>
 	</facsimile>
-	<facsimile xml:id='facs_22'>
-		<surface ulx='0' uly='0' lrx='2479' lry='3508'>
-			<graphic url='0022_p022.jpg' width='2479px' height='3508px'/>
-			<zone points='594,83 1744,83 1744,215 594,215' rendition='TextRegion' subtype='running-head' xml:id='facs_22_tr_1743088981'/>
-			<zone points='1976,79 2096,79 2096,199 1976,199' rendition='TextRegion' subtype='page-number' xml:id='facs_22_tr_1743088980'/>
-			<zone points='149,260 2150,260 2150,1032 149,1032' rendition='TextRegion' subtype='main-text' xml:id='facs_22_tr_1743088976'/>
-			<zone points='160,1044 2154,1044 2154,1696 160,1696' rendition='TextRegion' subtype='main-text' xml:id='facs_22_tr_1743088977'/>
-			<zone points='199,1711 2171,1711 2171,3268 199,3268' rendition='TextRegion' subtype='main-text' xml:id='facs_22_tr_1743088979'/>
-			<zone points='398,3283 521,3283 521,3381 398,3381' rendition='TextRegion' subtype='catch-word' xml:id='facs_22_tr_1743088978'/>
+	<facsimile xml:id="facs_22">
+		<surface ulx="0" uly="0" lrx="2479" lry="3508">
+			<graphic url="0022_p022.jpg" width="2479px" height="3508px"/>
+			<zone points="594,83 1744,83 1744,215 594,215" rendition="TextRegion" subtype="running-head" xml:id="facs_22_tr_1743088981"/>
+			<zone points="1976,79 2096,79 2096,199 1976,199" rendition="TextRegion" subtype="page-number" xml:id="facs_22_tr_1743088980"/>
+			<zone points="149,260 2150,260 2150,1032 149,1032" rendition="TextRegion" subtype="main-text" xml:id="facs_22_tr_1743088976"/>
+			<zone points="160,1044 2154,1044 2154,1696 160,1696" rendition="TextRegion" subtype="main-text" xml:id="facs_22_tr_1743088977"/>
+			<zone points="199,1711 2171,1711 2171,3268 199,3268" rendition="TextRegion" subtype="main-text" xml:id="facs_22_tr_1743088979"/>
+			<zone points="398,3283 521,3283 521,3381 398,3381" rendition="TextRegion" subtype="catch-word" xml:id="facs_22_tr_1743088978"/>
 		</surface>
 	</facsimile>
-	<facsimile xml:id='facs_23'>
-		<surface ulx='0' uly='0' lrx='2479' lry='3508'>
-			<graphic url='0023_p023.jpg' width='2479px' height='3508px'/>
-			<zone points='327,51 448,51 448,173 327,173' rendition='TextRegion' subtype='page-number' xml:id='facs_23_tr_1743088987'/>
-			<zone points='453,61 573,61 573,188 453,188' rendition='TextRegion' subtype='page-number' xml:id='facs_23_tr_1743088988'/>
-			<zone points='745,69 1892,69 1892,209 745,209' rendition='TextRegion' subtype='running-head' xml:id='facs_23_tr_1743088989'/>
-			<zone points='315,232 2282,232 2282,1816 315,1816' rendition='TextRegion' subtype='main-text' xml:id='facs_23_tr_1743088984'/>
-			<zone points='321,1821 2316,1821 2316,3285 321,3285' rendition='TextRegion' subtype='main-text' xml:id='facs_23_tr_1743088985'/>
-			<zone points='526,3295 775,3295 775,3387 526,3387' rendition='TextRegion' subtype='catch-word' xml:id='facs_23_tr_1743088986'/>
+	<facsimile xml:id="facs_23">
+		<surface ulx="0" uly="0" lrx="2479" lry="3508">
+			<graphic url="0023_p023.jpg" width="2479px" height="3508px"/>
+			<zone points="327,51 448,51 448,173 327,173" rendition="TextRegion" subtype="page-number" xml:id="facs_23_tr_1743088987"/>
+			<zone points="453,61 573,61 573,188 453,188" rendition="TextRegion" subtype="page-number" xml:id="facs_23_tr_1743088988"/>
+			<zone points="745,69 1892,69 1892,209 745,209" rendition="TextRegion" subtype="running-head" xml:id="facs_23_tr_1743088989"/>
+			<zone points="315,232 2282,232 2282,1816 315,1816" rendition="TextRegion" subtype="main-text" xml:id="facs_23_tr_1743088984"/>
+			<zone points="321,1821 2316,1821 2316,3285 321,3285" rendition="TextRegion" subtype="main-text" xml:id="facs_23_tr_1743088985"/>
+			<zone points="526,3295 775,3295 775,3387 526,3387" rendition="TextRegion" subtype="catch-word" xml:id="facs_23_tr_1743088986"/>
 		</surface>
 	</facsimile>
-	<facsimile xml:id='facs_24'>
-		<surface ulx='0' uly='0' lrx='2479' lry='3508'>
-			<graphic url='0024_p024.jpg' width='2479px' height='3508px'/>
-			<zone points='557,89 1761,89 1761,232 557,232' rendition='TextRegion' subtype='running-head' xml:id='facs_24_tr_1743088988'/>
-			<zone points='125,232 2150,237 2150,2604 104,2587' rendition='TextRegion' subtype='main-text' xml:id='facs_24_tr_1743088987'/>
-			<zone points='198,2627 2181,2627 2181,3303 198,3303' rendition='TextRegion' subtype='main-text' xml:id='facs_24_tr_1743088985'/>
-			<zone points='401,3286 676,3286 676,3387 401,3387' rendition='TextRegion' subtype='catch-word' xml:id='facs_24_tr_1743088986'/>
+	<facsimile xml:id="facs_24">
+		<surface ulx="0" uly="0" lrx="2479" lry="3508">
+			<graphic url="0024_p024.jpg" width="2479px" height="3508px"/>
+			<zone points="557,89 1761,89 1761,232 557,232" rendition="TextRegion" subtype="running-head" xml:id="facs_24_tr_1743088988"/>
+			<zone points="125,232 2150,237 2150,2604 104,2587" rendition="TextRegion" subtype="main-text" xml:id="facs_24_tr_1743088987"/>
+			<zone points="198,2627 2181,2627 2181,3303 198,3303" rendition="TextRegion" subtype="main-text" xml:id="facs_24_tr_1743088985"/>
+			<zone points="401,3286 676,3286 676,3387 401,3387" rendition="TextRegion" subtype="catch-word" xml:id="facs_24_tr_1743088986"/>
 		</surface>
 	</facsimile>
-	<facsimile xml:id='facs_25'>
-		<surface ulx='0' uly='0' lrx='2479' lry='3508'>
-			<graphic url='0025_p025.jpg' width='2479px' height='3508px'/>
-			<zone points='350,58 473,58 473,171 350,171' rendition='TextRegion' subtype='page-number' xml:id='facs_25_tr_1743088986'/>
-			<zone points='490,71 626,71 626,200 490,200' rendition='TextRegion' subtype='page-number' xml:id='facs_25_tr_1743088988'/>
-			<zone points='775,67 1947,67 1947,203 775,203' rendition='TextRegion' subtype='running-head' xml:id='facs_25_tr_1743088989'/>
-			<zone points='334,206 2332,206 2338,2509 340,2509' rendition='TextRegion' subtype='main-text' xml:id='facs_25_tr_1743088987'/>
-			<zone points='294,2517 2360,2517 2360,3315 294,3315' rendition='TextRegion' subtype='main-text' xml:id='facs_25_tr_1743088985'/>
-			<zone points='510,3309 744,3309 744,3428 510,3428' rendition='TextRegion' subtype='catch-word' xml:id='facs_25_tr_1743088984'/>
+	<facsimile xml:id="facs_25">
+		<surface ulx="0" uly="0" lrx="2479" lry="3508">
+			<graphic url="0025_p025.jpg" width="2479px" height="3508px"/>
+			<zone points="350,58 473,58 473,171 350,171" rendition="TextRegion" subtype="page-number" xml:id="facs_25_tr_1743088986"/>
+			<zone points="490,71 626,71 626,200 490,200" rendition="TextRegion" subtype="page-number" xml:id="facs_25_tr_1743088988"/>
+			<zone points="775,67 1947,67 1947,203 775,203" rendition="TextRegion" subtype="running-head" xml:id="facs_25_tr_1743088989"/>
+			<zone points="334,206 2332,206 2338,2509 340,2509" rendition="TextRegion" subtype="main-text" xml:id="facs_25_tr_1743088987"/>
+			<zone points="294,2517 2360,2517 2360,3315 294,3315" rendition="TextRegion" subtype="main-text" xml:id="facs_25_tr_1743088985"/>
+			<zone points="510,3309 744,3309 744,3428 510,3428" rendition="TextRegion" subtype="catch-word" xml:id="facs_25_tr_1743088984"/>
 		</surface>
 	</facsimile>
-	<facsimile xml:id='facs_26'>
-		<surface ulx='0' uly='0' lrx='2479' lry='3508'>
-			<graphic url='0026_p026.jpg' width='2479px' height='3508px'/>
-			<zone points='515,91 1728,91 1728,234 515,234' rendition='TextRegion' subtype='running-head' xml:id='facs_26_tr_1743088984'/>
-			<zone points='1957,85 2077,85 2077,190 1957,190' rendition='TextRegion' subtype='page-number' xml:id='facs_26_tr_1743088983'/>
-			<zone points='144,224 2110,224 2110,3293 144,3293' rendition='TextRegion' subtype='main-text' xml:id='facs_26_tr_1743088982'/>
-			<zone points='351,3321 543,3321 543,3437 351,3437' rendition='TextRegion' subtype='catch-word' xml:id='facs_26_tr_1743088981'/>
+	<facsimile xml:id="facs_26">
+		<surface ulx="0" uly="0" lrx="2479" lry="3508">
+			<graphic url="0026_p026.jpg" width="2479px" height="3508px"/>
+			<zone points="515,91 1728,91 1728,234 515,234" rendition="TextRegion" subtype="running-head" xml:id="facs_26_tr_1743088984"/>
+			<zone points="1957,85 2077,85 2077,190 1957,190" rendition="TextRegion" subtype="page-number" xml:id="facs_26_tr_1743088983"/>
+			<zone points="144,224 2110,224 2110,3293 144,3293" rendition="TextRegion" subtype="main-text" xml:id="facs_26_tr_1743088982"/>
+			<zone points="351,3321 543,3321 543,3437 351,3437" rendition="TextRegion" subtype="catch-word" xml:id="facs_26_tr_1743088981"/>
 		</surface>
 	</facsimile>
-	<facsimile xml:id='facs_27'>
-		<surface ulx='0' uly='0' lrx='2479' lry='3508'>
-			<graphic url='0027_p027.jpg' width='2479px' height='3508px'/>
-			<zone points='342,50 469,50 469,172 342,172' rendition='TextRegion' subtype='page-number' xml:id='facs_27_tr_1743088989'/>
-			<zone points='470,60 613,60 613,193 470,193' rendition='TextRegion' subtype='page-number' xml:id='facs_27_tr_1743088991'/>
-			<zone points='730,56 1945,56 1945,198 730,198' rendition='TextRegion' subtype='running-head' xml:id='facs_27_tr_1743088992'/>
-			<zone points='330,276 2325,276 2325,480 330,480' rendition='TextRegion' subtype='main-text' xml:id='facs_27_TextRegion_1749459553749_2000'/>
-			<zone points='330,480 2325,480 2325,3292 330,3292' rendition='TextRegion' subtype='main-text' xml:id='facs_27_TextRegion_1749459553749_1999'/>
-			<zone points='516,3302 806,3302 806,3428 516,3428' rendition='TextRegion' subtype='catch-word' xml:id='facs_27_tr_1743088988'/>
+	<facsimile xml:id="facs_27">
+		<surface ulx="0" uly="0" lrx="2479" lry="3508">
+			<graphic url="0027_p027.jpg" width="2479px" height="3508px"/>
+			<zone points="342,50 469,50 469,172 342,172" rendition="TextRegion" subtype="page-number" xml:id="facs_27_tr_1743088989"/>
+			<zone points="470,60 613,60 613,193 470,193" rendition="TextRegion" subtype="page-number" xml:id="facs_27_tr_1743088991"/>
+			<zone points="730,56 1945,56 1945,198 730,198" rendition="TextRegion" subtype="running-head" xml:id="facs_27_tr_1743088992"/>
+			<zone points="330,276 2325,276 2325,480 330,480" rendition="TextRegion" subtype="main-text" xml:id="facs_27_TextRegion_1749459553749_2000"/>
+			<zone points="330,480 2325,480 2325,3292 330,3292" rendition="TextRegion" subtype="main-text" xml:id="facs_27_TextRegion_1749459553749_1999"/>
+			<zone points="516,3302 806,3302 806,3428 516,3428" rendition="TextRegion" subtype="catch-word" xml:id="facs_27_tr_1743088988"/>
 		</surface>
 	</facsimile>
-	<facsimile xml:id='facs_28'>
-		<surface ulx='0' uly='0' lrx='2479' lry='3508'>
-			<graphic url='0028_p028.jpg' width='2479px' height='3508px'/>
-			<zone points='538,77 1764,77 1764,215 538,215' rendition='TextRegion' subtype='running-head' xml:id='facs_28_tr_1743088990'/>
-			<zone points='1983,75 2114,75 2114,193 1983,193' rendition='TextRegion' subtype='page-number' xml:id='facs_28_tr_1743088989'/>
-			<zone points='148,200 2136,200 2136,3344 144,3276' rendition='TextRegion' subtype='main-text' xml:id='facs_28_tr_1743088988'/>
-			<zone points='354,3301 671,3301 671,3411 354,3411' rendition='TextRegion' subtype='catch-word' xml:id='facs_28_tr_1743088987'/>
+	<facsimile xml:id="facs_28">
+		<surface ulx="0" uly="0" lrx="2479" lry="3508">
+			<graphic url="0028_p028.jpg" width="2479px" height="3508px"/>
+			<zone points="538,77 1764,77 1764,215 538,215" rendition="TextRegion" subtype="running-head" xml:id="facs_28_tr_1743088990"/>
+			<zone points="1983,75 2114,75 2114,193 1983,193" rendition="TextRegion" subtype="page-number" xml:id="facs_28_tr_1743088989"/>
+			<zone points="148,200 2136,200 2136,3344 144,3276" rendition="TextRegion" subtype="main-text" xml:id="facs_28_tr_1743088988"/>
+			<zone points="354,3301 671,3301 671,3411 354,3411" rendition="TextRegion" subtype="catch-word" xml:id="facs_28_tr_1743088987"/>
 		</surface>
 	</facsimile>
-	<facsimile xml:id='facs_29'>
-		<surface ulx='0' uly='0' lrx='2479' lry='3508'>
-			<graphic url='0029_p029.jpg' width='2479px' height='3508px'/>
-			<zone points='342,65 444,65 444,180 342,180' rendition='TextRegion' subtype='page-number' xml:id='facs_29_tr_1743088979'/>
-			<zone points='461,67 623,67 623,207 461,207' rendition='TextRegion' subtype='page-number' xml:id='facs_29_tr_1743088981'/>
-			<zone points='746,72 1926,72 1926,211 746,211' rendition='TextRegion' subtype='running-head' xml:id='facs_29_tr_1743088982'/>
-			<zone points='315,186 2317,186 2317,3402 315,3402' rendition='TextRegion' subtype='main-text' xml:id='facs_29_tr_1743088980'/>
+	<facsimile xml:id="facs_29">
+		<surface ulx="0" uly="0" lrx="2479" lry="3508">
+			<graphic url="0029_p029.jpg" width="2479px" height="3508px"/>
+			<zone points="342,65 444,65 444,180 342,180" rendition="TextRegion" subtype="page-number" xml:id="facs_29_tr_1743088979"/>
+			<zone points="461,67 623,67 623,207 461,207" rendition="TextRegion" subtype="page-number" xml:id="facs_29_tr_1743088981"/>
+			<zone points="746,72 1926,72 1926,211 746,211" rendition="TextRegion" subtype="running-head" xml:id="facs_29_tr_1743088982"/>
+			<zone points="315,186 2317,186 2317,3402 315,3402" rendition="TextRegion" subtype="main-text" xml:id="facs_29_tr_1743088980"/>
 		</surface>
 	</facsimile>
-	<facsimile xml:id='facs_30'>
-		<surface ulx='0' uly='0' lrx='2479' lry='3508'>
-			<graphic url='0030_p030.jpg' width='2479px' height='3508px'/>
-			<zone points='512,93 1716,93 1716,229 512,229' rendition='TextRegion' subtype='running-head' xml:id='facs_30_tr_1743088985'/>
-			<zone points='1960,79 2083,79 2083,205 1960,205' rendition='TextRegion' subtype='page-number' xml:id='facs_30_tr_1743088984'/>
-			<zone points='138,251 2113,251 2131,1537 156,1537' rendition='TextRegion' subtype='main-text' xml:id='facs_30_tr_1743088982'/>
-			<zone points='147,1552 2131,1552 2131,3227 147,3227' rendition='TextRegion' subtype='main-text' xml:id='facs_30_tr_1743088983'/>
+	<facsimile xml:id="facs_30">
+		<surface ulx="0" uly="0" lrx="2479" lry="3508">
+			<graphic url="0030_p030.jpg" width="2479px" height="3508px"/>
+			<zone points="512,93 1716,93 1716,229 512,229" rendition="TextRegion" subtype="running-head" xml:id="facs_30_tr_1743088985"/>
+			<zone points="1960,79 2083,79 2083,205 1960,205" rendition="TextRegion" subtype="page-number" xml:id="facs_30_tr_1743088984"/>
+			<zone points="138,251 2113,251 2131,1537 156,1537" rendition="TextRegion" subtype="main-text" xml:id="facs_30_tr_1743088982"/>
+			<zone points="147,1552 2131,1552 2131,3227 147,3227" rendition="TextRegion" subtype="main-text" xml:id="facs_30_tr_1743088983"/>
 		</surface>
 	</facsimile>
 	<text>
@@ -378,7 +378,7 @@
 					<lb/>עוד מאומה. ולא יהיה לך ממה לעשות היי״ש. ולא השגיח
 					<lb/>על דבריה רק בטח בהשי"ת ונהג כמנהגו הטוב.
 				</p>
-				<pb facs="Sipurim-Umaamarim-Yekarim_0003.jpg"/><fw type='running-head'>ספורים ומאמרים יקרים</fw>
+				<pb facs="Sipurim-Umaamarim-Yekarim_0003.jpg"/><fw type="running-head">ספורים ומאמרים יקרים</fw>
 				<p>
 					<lb/>גם אמר אדמו״ר מסקווירא הנ"ל. כי מצד אחד אבותיו
 					<lb/>הם ממלכי בבית דוד. ומצד השני הם משאול המלך
@@ -413,7 +413,7 @@
 				<p>
 					<lb/>משה
 				</p>
-				<pb facs="Sipurim-Umaamarim-Yekarim_0004.jpg"/><fw type='running-head'>ספורים ומאמרים יקרים</fw>
+				<pb facs="Sipurim-Umaamarim-Yekarim_0004.jpg"/><fw type="running-head">ספורים ומאמרים יקרים</fw>
 				<p>
 					<lb/>משה רבינו ע״ה היה אדון הנביאים ומסתמא היה חוקר
 					<lb/>גדול. וכשראה המראה בסנה היה יכול להלוך בזה בגדולות
@@ -446,7 +446,7 @@
 				<p>
 					<lb/>הרה״ק
 				</p>
-				<pb facs="Sipurim-Umaamarim-Yekarim_0005.jpg"/><fw type='running-head'>ספורים ומאמרים יקרים</fw>
+				<pb facs="Sipurim-Umaamarim-Yekarim_0005.jpg"/><fw type="running-head">ספורים ומאמרים יקרים</fw>
 				<p>
 					<lb/>הרה״ק הנ"ל עם האנשים שלו מן המרתף. וילך הרה״ק
 					<lb/>הנ״ל תיכף להרה״ק ר׳ דוד לייקעס. והרה״ק ר׳ דוד ישב
@@ -516,7 +516,7 @@
 				<p>
 					<lb/>החייט
 				</p>
-				<pb facs="Sipurim-Umaamarim-Yekarim_0007.jpg"/><fw type='running-head'>רים ומאמרים יקרים</fw>
+				<pb facs="Sipurim-Umaamarim-Yekarim_0007.jpg"/><fw type="running-head">רים ומאמרים יקרים</fw>
 			</div><div type="story" xml:id="Sipurim-Umaamarim-Yekarim0006"><p>שמעתי כי בעת שהדפיסו הספר הקדוש מאור עינים
 					<lb/>מהרה״ק ר׳ נחום הנ"ל בפעם ראשון נסע אז
 					<lb/>איש אחד ממדינתנו לארץ הקדושה לקבוע דירתו בא״י ולקח
@@ -687,7 +687,7 @@
 				<p>
 					<lb/>ומהאניפאליט
 				</p>
-				<pb facs="Sipurim-Umaamarim-Yekarim_00012.jpg"/><fw type='running-head'>ספורים ומאמרים יקרים</fw>
+				<pb facs="Sipurim-Umaamarim-Yekarim_00012.jpg"/><fw type="running-head">ספורים ומאמרים יקרים</fw>
 				<p>
 					<lb/>ומהאניפאליע למשערנאביל לא היתה הולכת הבי דואר
 					<lb/>ומהאניפאליע לטשערנאביל בערך שלש מאות וויערסט. ע״כ
@@ -721,7 +721,7 @@
 				<p>
 					<lb/>התורה
 				</p>
-				<pb facs="Sipurim-Umaamarim-Yekarim_00013.jpg"/><fw type='running-head'>ספורים ומאמרים יקרים</fw>
+				<pb facs="Sipurim-Umaamarim-Yekarim_00013.jpg"/><fw type="running-head">ספורים ומאמרים יקרים</fw>
 				<p>
 					<lb/>התורה לחזור על בית וכרם ואשה לכסות על החוזרים בשביל
 					<lb/>עבירות שבידם שלא יבינו שהם בעלי עבירה. והרואה שחוזר
@@ -756,7 +756,7 @@
 				<p>
 					<lb/>משם
 				</p>
-				<pb facs="Sipurim-Umaamarim-Yekarim_00014.jpg"/><fw type='running-head'>ספורים ומאמרים יקרים</fw>
+				<pb facs="Sipurim-Umaamarim-Yekarim_00014.jpg"/><fw type="running-head">ספורים ומאמרים יקרים</fw>
 				<p>
 					<lb/>שלמה וב״ב. כי הרה״ק ר׳ נחום הולך וממשש הדרך כמו מי
 					<lb/>שהולך בחושך. וקרוב שיפול או שיכה את ראשו בהליכתו.
@@ -791,7 +791,7 @@
 				<p>
 					<lb/>סיפר
 				</p>
-				<pb facs="Sipurim-Umaamarim-Yekarim_00015.jpg"/><fw type='running-head'>ספורים ומאמרים יקרים</fw>
+				<pb facs="Sipurim-Umaamarim-Yekarim_00015.jpg"/><fw type="running-head">ספורים ומאמרים יקרים</fw>
 			</div><div type="story" xml:id="Sipurim-Umaamarim-Yekarim00018"><p>סיפר הרה״ק ר׳ יעקב ישראל מטשערקאס זצוק"ל ואמר.
 					<lb/>אצל זקני הרה״ק ר׳ נחום איז גיווען איין אויבן אן
 					<lb/>מיט ווייסע זשיפעצס. (היינו התלמידים שלו שהיו יושבים
@@ -805,26 +805,26 @@
 					<lb/>בביהמ"ד של זקני הנ״ל. וזקני היה מתפלל אז לפני התיבה.
 					<lb/>וכשהגיע זקני לק"ש כשאמר דבר אל בני ישראל ואמרת
 					<lb/>אליהם ועשו להם ציצית הלך מהעמוד לר׳ ירמיה הגדול
-					<lb/><supplied reason='damage'>ולק</supplied>ח מראשו התפילין של ראש והחזיר א״ע להעמוד להתפלל.
-					<lb/><supplied reason='damage'>ואח</supplied>ר שמ״ע אמר זקני להאנשים שהיו שם בביהמ"ד שלו אל
-					<lb/><supplied reason='damage'>יפ</supplied>לא בעיניכם מדוע הפסקתי באמצע ק"ש ולקחתי מעל ראשו
-					<lb/><supplied reason='damage'>ה</supplied>תפילין ש"ר. כי לולא זאת היה נשרף מרוב קדושה. כן
-					<lb/><supplied reason='damage'>סי</supplied>פר הרה״ק ר׳ יעקב ישראל. וסיים ואמר חסידים כאלו
-					<lb/><supplied reason='damage'>הי</supplied>ו הרבה אצל זקני. רק אלו השנים הכרתי וידעתי אותם:
+					<lb/><supplied reason="damage">ולק</supplied>ח מראשו התפילין של ראש והחזיר א״ע להעמוד להתפלל.
+					<lb/><supplied reason="damage">ואח</supplied>ר שמ״ע אמר זקני להאנשים שהיו שם בביהמ"ד שלו אל
+					<lb/><supplied reason="damage">יפ</supplied>לא בעיניכם מדוע הפסקתי באמצע ק"ש ולקחתי מעל ראשו
+					<lb/><supplied reason="damage">ה</supplied>תפילין ש"ר. כי לולא זאת היה נשרף מרוב קדושה. כן
+					<lb/><supplied reason="damage">סי</supplied>פר הרה״ק ר׳ יעקב ישראל. וסיים ואמר חסידים כאלו
+					<lb/><supplied reason="damage">הי</supplied>ו הרבה אצל זקני. רק אלו השנים הכרתי וידעתי אותם:
 				</p>
-			</div><div type="story" xml:id="Sipurim-Umaamarim-Yekarim00019"><p><supplied reason='damage'>ופ</supplied>"א דבר אדמו״ר הרה״ק מרן ר׳ יצחק מסקווירא זצוק"ל
+			</div><div type="story" xml:id="Sipurim-Umaamarim-Yekarim00019"><p><supplied reason="damage">ופ</supplied>"א דבר אדמו״ר הרה״ק מרן ר׳ יצחק מסקווירא זצוק"ל
 					<lb/>עם איש אחד מענין התקשרות לצדיקים. ואמר לו
-					<lb/><supplied reason='damage'>אספ</supplied>ר לך מהו ענין התקשרות לצדיקים. הנה בעיר לאיעוו
+					<lb/><supplied reason="damage">אספ</supplied>ר לך מהו ענין התקשרות לצדיקים. הנה בעיר לאיעוו
 				</p></div><div type="story"><p>damage שם חסידים שהיו מסתופפים בצל קדושת זקני הרה״ק ר'
-					<lb/><supplied reason='damage'>נחום</supplied> והחסידים האלו היו יראי ה' אנשי אמת ומארי דחושבנא.
-					<lb/><supplied reason='damage'>ופ""א</supplied> ישבו ביחד בסעודת מלוה מלכה במוצש״ק ודברו זה עם
+					<lb/><supplied reason="damage">נחום</supplied> והחסידים האלו היו יראי ה' אנשי אמת ומארי דחושבנא.
+					<lb/><supplied reason="damage">ופ""א</supplied> ישבו ביחד בסעודת מלוה מלכה במוצש״ק ודברו זה עם
 					<lb/>מעניני חשבון הנפש. ומרוב יראתם וענותם נדמה
-					<lb/><supplied reason='damage'>בי</supplied>ניהם כי הרבו לפשוע ח"ו. (כדרך היראים והשלמים שהם
+					<lb/><supplied reason="damage">בי</supplied>ניהם כי הרבו לפשוע ח"ו. (כדרך היראים והשלמים שהם
 				</p>
 				<p>
 					<lb/>קטנים
 				</p>
-				<pb facs="Sipurim-Umaamarim-Yekarim_00016.jpg"/><fw type='running-head'>ספורים ומאמרים יקרים</fw>
+				<pb facs="Sipurim-Umaamarim-Yekarim_00016.jpg"/><fw type="running-head">ספורים ומאמרים יקרים</fw>
 				<p>
 					<lb/>קטנים מאד בעיניהם). והסכימו ביניהם כי אין להם שום
 					<lb/>תקוה ח"ו. רק זאת כל נחמתם ותקותם מה שזכו להתקשר
@@ -858,7 +858,7 @@
 				<p>
 					<lb/>עגמת
 				</p>
-				<pb facs="Sipurim-Umaamarim-Yekarim_00017.jpg"/><fw type='running-head'>ספורים ומאמרים יקרים</fw>
+				<pb facs="Sipurim-Umaamarim-Yekarim_00017.jpg"/><fw type="running-head">ספורים ומאמרים יקרים</fw>
 				<p>
 					<lb/>עגמת נפש מזה כי זה הוא בחי׳ דורמיטא. כי כל מה שיש
 					<lb/>בעולם יש באדם. וכמו שבר"ה הוא הסתלקות החיות והמוחין
@@ -892,7 +892,7 @@
 				<p>
 					<lb/>הוא
 				</p>
-				<pb facs="Sipurim-Umaamarim-Yekarim_00018.jpg"/><fw type='running-head'>ספורים ומאמרים יקרים</fw>
+				<pb facs="Sipurim-Umaamarim-Yekarim_00018.jpg"/><fw type="running-head">ספורים ומאמרים יקרים</fw>
 				<p>
 					<lb/>הוא חייב לי סך שני רו״כ שהבטיח לי ליתן לי באה דאי
 					<lb/>טאה זשיו קטאה מעני ווינען. (הפירוש הוא יתן השי"ת שיחיה
@@ -930,7 +930,7 @@
 				<p>
 					<lb/>אמר
 				</p>
-				<pb facs="Sipurim-Umaamarim-Yekarim_00019.jpg"/><fw type='running-head'>עוד ומאמרים יקרים</fw>
+				<pb facs="Sipurim-Umaamarim-Yekarim_00019.jpg"/><fw type="running-head">עוד ומאמרים יקרים</fw>
 				<p>
 					<lb/>אמר על עצמו כי הוא היה משירי כנסת הגדולה. און מיר
 					<lb/>מישטיינגיזאגט ראינו בעינינו שירי הכה״ג :
@@ -962,7 +962,7 @@
 					<lb/>סיפר אדמו״ר מסקווירא הנ"ל. ואני הכותב והמאסף שמעתי
 					<lb/>מאחד מנכדי המגיד מטשערנאביל הנ"ל ואין בזכרוני ממי
 				</p>
-				<pb facs="Sipurim-Umaamarim-Yekarim_00020.jpg"/><fw type='running-head'>מפורים ומאמרים יקרים</fw>
+				<pb facs="Sipurim-Umaamarim-Yekarim_00020.jpg"/><fw type="running-head">מפורים ומאמרים יקרים</fw>
 				<p>
 					<lb/>מהם שמעתי זאת שאמר ששמע מאביו. ואביו שמע מאביו
 					<lb/>הוא המגיד מטשערנאביל הנ"ל. שאמר בזה"ל אני ובניי באנו
@@ -996,7 +996,7 @@
 				<p>
 					<lb/>מ״מ
 				</p>
-				<pb facs="Sipurim-Umaamarim-Yekarim_00021.jpg"/><fw type='running-head'>ספורים ומאמרים יקרים</fw>
+				<pb facs="Sipurim-Umaamarim-Yekarim_00021.jpg"/><fw type="running-head">ספורים ומאמרים יקרים</fw>
 				<p>
 					<lb/>שאמר להמגיד הנ"ל וסיים ואמר לו אמנם אם מזדמן לשבת
 					<lb/>תשעה באב לאורח אינו נותן לו כלום לא שום תפלה ולא שום
@@ -1032,7 +1032,7 @@
 				<p>
 					<lb/>הקיים
 				</p>
-				<pb facs="Sipurim-Umaamarim-Yekarim_00022.jpg"/><fw type='running-head'>ספורים ומאמרים יקרים</fw>
+				<pb facs="Sipurim-Umaamarim-Yekarim_00022.jpg"/><fw type="running-head">ספורים ומאמרים יקרים</fw>
 				<p>
 					החיים וכל העם מלוים אותו. </p></div><div type="story" xml:id="Sipurim-Umaamarim-Yekarim00030"><p>ופ"א בא הבעש״ט למקום אחד
 					<lb/>ועשו לו כבוד גדול. ואמר להם הבעש״ט תדעו כי כשמכבדים
@@ -1067,7 +1067,7 @@
 				<p>
 					<lb/>בא
 				</p>
-				<pb facs="Sipurim-Umaamarim-Yekarim_00023.jpg"/><fw type='running-head'>ספורים ומאמרים יקרים</fw>
+				<pb facs="Sipurim-Umaamarim-Yekarim_00023.jpg"/><fw type="running-head">ספורים ומאמרים יקרים</fw>
 				<p>
 					<lb/>בא ר׳ פנחס להמגיד שאל אותו המגיד האם מכיר אתה אותו
 					<lb/>האיש שנפטר זה כשני שבועות ושמו היה כך וכך. אמר לו
@@ -1101,7 +1101,7 @@
 				<p>
 					<lb/>סעודה
 				</p>
-				<pb facs="Sipurim-Umaamarim-Yekarim_00024.jpg"/><fw type='running-head'>ודים ומאמרים יקרים</fw>
+				<pb facs="Sipurim-Umaamarim-Yekarim_00024.jpg"/><fw type="running-head">ודים ומאמרים יקרים</fw>
 				<p>
 					<lb/>סעודה. כי הס״מ הר״ת משמו הוא. "סעודת "מצוה "אין
 					<lb/>"לעשות. גם "סעודת "מסכת "אין "לעשות. גם "סעודת "מילה
@@ -1135,7 +1135,7 @@
 				<p>
 					<lb/>אדמו״ר
 				</p>
-				<pb facs="Sipurim-Umaamarim-Yekarim_00025.jpg"/><fw type='running-head'>ספורים ומאמרים יקרים</fw>
+				<pb facs="Sipurim-Umaamarim-Yekarim_00025.jpg"/><fw type="running-head">ספורים ומאמרים יקרים</fw>
 				<p>
 					<lb/>אדמו״ר מה שאמר. וסיים וסיפר כי לאחר פטירת דודו הרה״ק
 					<lb/>ר' משה הנ"ל הלשינו לפני זקנו הנ"ל על אביו הקדוש המגיד
@@ -1169,7 +1169,7 @@
 				<p>
 					<lb/>ואמרו
 				</p>
-				<pb facs="Sipurim-Umaamarim-Yekarim_00026.jpg"/><fw type='running-head'>ספורים ומאמרים יקרים</fw>
+				<pb facs="Sipurim-Umaamarim-Yekarim_00026.jpg"/><fw type="running-head">ספורים ומאמרים יקרים</fw>
 				<p>
 					<lb/>ואמרו כמה אנשים להאשה הזאת כי כשיבא המגיד לבית
 					<lb/>הרה״ק מקאוולע לכתוב התנאים תבא לפניו בבכיה רבה אולי
@@ -1237,7 +1237,7 @@
 				<p>
 					<lb/>ברהמ״ז
 				</p>
-				<pb facs="Sipurim-Umaamarim-Yekarim_00028.jpg"/><fw type='running-head'>ספורים ומאמרים יקרים</fw>
+				<pb facs="Sipurim-Umaamarim-Yekarim_00028.jpg"/><fw type="running-head">ספורים ומאמרים יקרים</fw>
 				<p>
 					<lb/>ברהמ״ז ואח״כ אני ישן מעט. וכשאני מתעורר משנתי הנני
 					<lb/>הולך ומסבב עוד הפעם על הכפר בין הנכרים ואני קונה
@@ -1270,7 +1270,7 @@
 				<p>
 					<lb/>וויערסט
 				</p>
-				<pb facs="Sipurim-Umaamarim-Yekarim_00029.jpg"/><fw type='running-head'>ספורים ומאמרים יקרים</fw>
+				<pb facs="Sipurim-Umaamarim-Yekarim_00029.jpg"/><fw type="running-head">ספורים ומאמרים יקרים</fw>
 				<p>
 					<lb/>וויערסט. והיה להאיש הנ"ל יסורים גדולים כי אם היה בעיר
 					<lb/>היה מוצא שם איש מהימן להפקיד אצלו הממון שלו. ופה
@@ -1300,7 +1300,7 @@
 					<lb/>על דעתו שיגזול ממנו הפיטאק. כי במה נחשב הפיטאק אפילו
 					<lb/>נגד מטבע אחת של הב ומכש״כ נגד השנים עשה אבילות כן
 				</p>
-				<pb facs="Sipurim-Umaamarim-Yekarim_00030.jpg"/><fw type='running-head'>רים ומאמרים יקרים</fw>
+				<pb facs="Sipurim-Umaamarim-Yekarim_00030.jpg"/><fw type="running-head">רים ומאמרים יקרים</fw>
 				<p>
 					<lb/>אתה בכל לילה אתה מפקיד נשמתך ביד השי"ת אשר הנשמה
 					<lb/>שלך היא יקרה מפנינים ובלא הנשמה ח"ו הרי אתה כפגר
