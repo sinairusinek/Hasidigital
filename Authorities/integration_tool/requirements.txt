@@ -2,3 +2,5 @@ streamlit>=1.32.0
 openpyxl>=3.1.0
 pandas>=2.0.0
 lxml>=5.0.0
+PyGithub>=2.1       # GitHub write-back for cloud deployment
+tabulate>=0.9       # required by pandas .to_markdown() in review page

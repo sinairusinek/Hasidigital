@@ -1,0 +1,9 @@
+[server]
+# Streamlit Cloud deployment config
+
+[theme]
+base = "light"
+
+[browser]
+# Disable the default "Made with Streamlit" footer
+gatherUsageStats = false

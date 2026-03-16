@@ -18,10 +18,14 @@ GEN_SCRIPT = os.path.join(AUTH_DIR, "scripts", "generate_matching_db.py")
 # Kimatch / unmatched-place review files
 UNMATCHED_TSV = os.path.join(PROJECT_DIR, "editions", "unmatched-places-report.tsv")
 UNMATCHED_CSV = os.path.join(PROJECT_DIR, "editions", "unmatched-kima-results.csv")
-KIMA_PLACES_CSV = os.path.join(
+
+# Full Kima CSV (local dev, git-ignored) — falls back to trimmed version on Streamlit Cloud
+_KIMA_FULL = os.path.join(
     os.path.expanduser("~"), "Documents", "GitHub", "Kimatch",
     "20250126KimaPlacesCSVx.csv",
 )
+_KIMA_TRIMMED = os.path.join(PROJECT_DIR, "editions", "kima-candidates-trimmed.csv")
+KIMA_PLACES_CSV = _KIMA_FULL if os.path.exists(_KIMA_FULL) else _KIMA_TRIMMED
 
 # XML namespaces
 TEI_NS = "http://www.tei-c.org/ns/1.0"
