@@ -172,7 +172,6 @@ def _render_item(backend: ReviewBackend, cfg: ReviewConfig, item) -> None:
             (i for i, o in enumerate(action_options) if o.action == "ambiguous"), 0
         )
     elif action:
-        # Try to find a matching action in the candidate options
         for i, opt in enumerate(action_options):
             if opt.action == action:
                 default_idx = i
@@ -186,7 +185,6 @@ def _render_item(backend: ReviewBackend, cfg: ReviewConfig, item) -> None:
                 default_idx = i
                 break
         else:
-            # Fall back to custom
             default_idx = next(
                 (i for i, o in enumerate(action_options) if o.action == "__custom__"),
                 0,
@@ -223,39 +221,54 @@ def _render_item(backend: ReviewBackend, cfg: ReviewConfig, item) -> None:
     pos = ss.get(_ss_key(cfg, "pos"), 0)
     queue = ss.get(_ss_key(cfg, "queue"), [])
 
+    # Callbacks execute BEFORE the rerun — the correct Streamlit pattern for
+    # buttons that update session state. Using st.rerun() inside a button
+    # handler can misbehave in certain Streamlit Cloud environments.
+    def _go_prev():
+        ss[_ss_key(cfg, "pos")] = ss.get(_ss_key(cfg, "pos"), 0) - 1
+
+    def _go_next():
+        ss[_ss_key(cfg, "pos")] = ss.get(_ss_key(cfg, "pos"), 0) + 1
+
+    def _do_save():
+        if chosen.action == "__custom__":
+            act = ss.get(f"{cfg.session_prefix}custom_action_{name}", "").strip()
+            sid = ss.get(f"{cfg.session_prefix}custom_id_{name}", "").strip()
+        else:
+            act = chosen.action
+            sid = chosen.suggested_id
+        backend.save_decision(name, act, sid)
+        cur_pos = ss.get(_ss_key(cfg, "pos"), 0)
+        cur_queue = ss.get(_ss_key(cfg, "queue"), [])
+        if cur_pos < len(cur_queue) - 1:
+            ss[_ss_key(cfg, "pos")] = cur_pos + 1
+        _rebuild_queue(backend, cfg)
+
     col_prev, col_save, col_next = st.columns([1, 2, 1])
 
-    if col_prev.button(
-        "\u2190 Prev", use_container_width=True, disabled=pos == 0
-    ):
-        ss[_ss_key(cfg, "pos")] = pos - 1
-        st.rerun()
+    col_prev.button(
+        "\u2190 Prev",
+        use_container_width=True,
+        disabled=pos == 0,
+        on_click=_go_prev,
+    )
 
     save_label = (
         "\U0001f4be Save & Next \u2192" if pos < len(queue) - 1 else "\U0001f4be Save"
     )
-    if col_save.button(save_label, type="primary", use_container_width=True):
-        if chosen.action == "__custom__":
-            action_to_save = custom_action.strip()
-            id_to_save = custom_id.strip()
-        else:
-            action_to_save = chosen.action
-            id_to_save = chosen.suggested_id
+    col_save.button(
+        save_label,
+        type="primary",
+        use_container_width=True,
+        on_click=_do_save,
+    )
 
-        backend.save_decision(name, action_to_save, id_to_save)
-
-        if pos < len(queue) - 1:
-            ss[_ss_key(cfg, "pos")] = pos + 1
-        _rebuild_queue(backend, cfg)
-        st.rerun()
-
-    if col_next.button(
+    col_next.button(
         "Next \u2192",
         use_container_width=True,
         disabled=pos >= len(queue) - 1,
-    ):
-        ss[_ss_key(cfg, "pos")] = pos + 1
-        st.rerun()
+        on_click=_go_next,
+    )
 
 
 # ── public entry point ────────────────────────────────────────────────────────
@@ -286,7 +299,6 @@ def render_review_page(backend: ReviewBackend, config: ReviewConfig | None = Non
             k: f"{label} ({counts.get(k, 0)})"
             for k, label in cfg.filters.items()
         }
-        # Add "all" if not already in filters
         if "all" not in filter_options:
             filter_options["all"] = f"All ({counts.get('all', 0)})"
 
@@ -320,11 +332,20 @@ def render_review_page(backend: ReviewBackend, config: ReviewConfig | None = Non
             st.progress(reviewed / len(queue) if queue else 0)
 
         st.divider()
-        if st.button("\U0001f504 Reload data", use_container_width=True):
+
+        def _reload():
             for k in list(ss.keys()):
                 if k.startswith(cfg.session_prefix):
                     del ss[k]
-            st.rerun()
+            # Also clear the cached backend so it reloads fresh data
+            if "kr_backend" in ss:
+                del ss["kr_backend"]
+
+        st.button(
+            "\U0001f504 Reload data",
+            use_container_width=True,
+            on_click=_reload,
+        )
 
         st.divider()
         if st.button("\U0001f4be Commit decisions", use_container_width=True):
