@@ -15,6 +15,14 @@ MATCHING_DB_PATH = os.path.join(AUTH_DIR, "authorities-matching-db.json")
 SKIPPED_JSON_PATH = os.path.join(AUTH_DIR, "skipped_places.json")
 GEN_SCRIPT = os.path.join(AUTH_DIR, "scripts", "generate_matching_db.py")
 
+# Kimatch / unmatched-place review files
+UNMATCHED_TSV = os.path.join(PROJECT_DIR, "editions", "unmatched-places-report.tsv")
+UNMATCHED_CSV = os.path.join(PROJECT_DIR, "editions", "unmatched-kima-results.csv")
+KIMA_PLACES_CSV = os.path.join(
+    os.path.expanduser("~"), "Documents", "GitHub", "Kimatch",
+    "20250126KimaPlacesCSVx.csv",
+)
+
 # XML namespaces
 TEI_NS = "http://www.tei-c.org/ns/1.0"
 XML_NS = "http://www.w3.org/XML/1998/namespace"

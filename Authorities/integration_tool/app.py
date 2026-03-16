@@ -31,15 +31,29 @@ csv_integrator = st.Page(
     icon="\U0001f4ca",
 )
 
+kima_review = st.Page(
+    "pages/kima_review.py",
+    title="Kima Review",
+    icon="\U0001f5fa\ufe0f",
+)
+
 dedup_review = st.Page(
     "pages/dedup_review.py",
     title="Dedup Review",
     icon="\U0001f9f9",
 )
 
+ner_annotator = st.Page(
+    "pages/ner_annotator.py",
+    title="NER Annotator",
+    icon="\U0001f3f7\ufe0f",
+)
+
 pg = st.navigation(
     {
         "Workflows": [edition_linker, csv_integrator],
+        "Review": [kima_review],
+        "Annotation": [ner_annotator],
         "Maintenance": [dedup_review],
     }
 )
