@@ -724,6 +724,82 @@ def ensure_story_heads(dry_run: bool) -> int:
 
 
 # ═════════════════════════════════════════════════════════════════════════════
+# Step 7c – Fix namespace declarations in corrected editions
+# ═════════════════════════════════════════════════════════════════════════════
+
+_TEI_URI = "http://www.tei-c.org/ns/1.0"
+
+def fix_edition_namespaces(dry_run: bool) -> int:
+    """
+    Transform the namespace declarations in every ``*_corrected.xml``
+    edition to the TEI-Publisher-required format via string-level
+    post-processing (ElementTree cannot produce this format natively).
+
+    Transforms applied:
+    - ``<TEI xmlns="…tei-c.org…">``  →  ``<tei:TEI xmlns:tei="…tei-c.org…">``
+    - ``<teiHeader>``                →  ``<teiHeader xmlns="…tei-c.org…">``
+    - ``<text>`` (top-level only)    →  ``<text xmlns="…tei-c.org…">``
+    - ``</TEI>``                     →  ``</tei:TEI>``
+
+    Idempotent: files that already start with ``<tei:TEI`` are skipped.
+
+    **Must be the last step that writes edition XML files**, because any
+    subsequent ElementTree write would revert these changes.
+
+    Returns the number of files modified.
+    """
+    edition_dir = Path(EDITIONS_INCOMING)
+    modified = 0
+
+    for xml_file in sorted(edition_dir.glob("*_corrected.xml")):
+        with open(str(xml_file), encoding="utf-8") as fh:
+            content = fh.read()
+
+        # Idempotency check
+        if f"<tei:TEI xmlns:tei=\"{_TEI_URI}\">" in content:
+            continue
+
+        original = content
+
+        # 1. Root element: <TEI xmlns="…"> → <tei:TEI xmlns:tei="…">
+        content = content.replace(
+            f'<TEI xmlns="{_TEI_URI}">',
+            f'<tei:TEI xmlns:tei="{_TEI_URI}">',
+        )
+
+        # 2. <teiHeader> → <teiHeader xmlns="…"> (only if no xmlns yet)
+        content = re.sub(
+            r'<teiHeader(?!\s+xmlns)',
+            f'<teiHeader xmlns="{_TEI_URI}"',
+            content,
+            count=1,
+        )
+
+        # 3. Top-level <text> → <text xmlns="…">  (first occurrence only)
+        content = re.sub(
+            r'<text(?=\s*>)',
+            f'<text xmlns="{_TEI_URI}"',
+            content,
+            count=1,
+        )
+
+        # 4. Closing </TEI> → </tei:TEI>
+        content = content.replace("</TEI>", "</tei:TEI>")
+
+        if content == original:
+            continue  # nothing changed (shouldn't happen, but be safe)
+
+        tag = "[dry-run] " if dry_run else ""
+        print(f"  {tag}Fixed namespaces in {xml_file.name}")
+        if not dry_run:
+            with open(str(xml_file), "w", encoding="utf-8") as fh:
+                fh.write(content)
+        modified += 1
+
+    return modified
+
+
+# ═════════════════════════════════════════════════════════════════════════════
 # Step 8 – Summary & optional git commit
 # ═════════════════════════════════════════════════════════════════════════════
 
@@ -834,6 +910,14 @@ def main() -> None:
     else:
         print("  → All story divs already have storyHead.\n")
 
+    # ── Step 7c: Fix namespace declarations (MUST be last XML write) ────
+    print("Step 7c: Fixing namespace declarations in corrected editions …")
+    ns_fixed = fix_edition_namespaces(dry_run)
+    if ns_fixed:
+        print(f"  → {ns_fixed} file(s) updated.\n")
+    else:
+        print("  → All corrected editions already have correct namespaces.\n")
+
     # ── Step 8: Summary ──────────────────────────────────────────────────
     print("═══ Summary ═══")
     print(f"  map_to variants added : {variants_added if n_map else 0}")
@@ -841,6 +925,7 @@ def main() -> None:
     print(f"  edition links added   : {linked}")
     print(f"  skip tags unwrapped   : {unwrapped if n_skip else 0}")
     print(f"  storyHeads added      : {heads_added}")
+    print(f"  namespace fixes       : {ns_fixed}")
 
     if dry_run:
         print("\n  (dry run — no changes written)")
@@ -853,7 +938,8 @@ def main() -> None:
             f"{places_created if n_new else 0} new, "
             f"{unwrapped if n_skip else 0} skip, "
             f"{linked} batch-linked, "
-            f"{heads_added} storyHeads"
+            f"{heads_added} storyHeads, "
+            f"{ns_fixed} ns-fixes"
         )
         try:
             git_commit(commit_msg)

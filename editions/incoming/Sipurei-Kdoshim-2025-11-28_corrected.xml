@@ -1,6 +1,6 @@
 <?xml version='1.0' encoding='utf-8'?>
-<TEI xmlns="http://www.tei-c.org/ns/1.0">
-	<teiHeader>
+<tei:TEI xmlns:tei="http://www.tei-c.org/ns/1.0">
+	<teiHeader xmlns="http://www.tei-c.org/ns/1.0">
 		<fileDesc>
 			<titleStmt>
 				<title type="main">Sipurei-Kdoshim 1866 סיפורי קדושים</title>
@@ -16,7 +16,7 @@
 			</sourceDesc>
 		</fileDesc>
 	</teiHeader>
-	<text>
+	<text xmlns="http://www.tei-c.org/ns/1.0">
 		<front>
 			<div type="title-page">
 				<pb facs="Sipurei-Kdoshim_0001.jpg" />
@@ -2190,4 +2190,4 @@
 			</div>
 		</body>
 
-	</text></TEI>
+	</text></tei:TEI>

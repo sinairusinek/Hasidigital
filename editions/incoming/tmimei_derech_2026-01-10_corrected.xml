@@ -1,6 +1,6 @@
 <?xml version='1.0' encoding='utf-8'?>
-<TEI xmlns="http://www.tei-c.org/ns/1.0">
-	<teiHeader>
+<tei:TEI xmlns:tei="http://www.tei-c.org/ns/1.0">
+	<teiHeader xmlns="http://www.tei-c.org/ns/1.0">
 		<fileDesc>
 			<titleStmt>
 				<title type="main">Tmimei-Derech 1871 תמימי דרך</title>
@@ -15,7 +15,7 @@
 				</bibl>			</sourceDesc>
 		</fileDesc>
 	</teiHeader>
-	<text><front><div type="front-page">
+	<text xmlns="http://www.tei-c.org/ns/1.0"><front><div type="front-page">
 	
 		<pb facs="Tmimei-Derech_0005.jpg" />
 		<p>
@@ -3266,4 +3266,4 @@
 				<pb facs="Tmimei-Derech_0087.jpg" />
 			</div>
 		</body>
-	</text></TEI>
+	</text></tei:TEI>

@@ -1,6 +1,6 @@
 <?xml version='1.0' encoding='utf-8'?>
-<TEI xmlns="http://www.tei-c.org/ns/1.0">
-   <teiHeader>
+<tei:TEI xmlns:tei="http://www.tei-c.org/ns/1.0">
+   <teiHeader xmlns="http://www.tei-c.org/ns/1.0">
       <fileDesc>
          <titleStmt>
           <title type="main">Sipurei Zadikim 1864 סיפורי צדיקים</title>
@@ -16,7 +16,7 @@
       </fileDesc>
    </teiHeader>
    
- <text><front>
+ <text xmlns="http://www.tei-c.org/ns/1.0"><front>
   <div>
    <pb facs="SipureiZadikim-0005.jpg" />
    <head type="orig"> ספר<lb />
@@ -1434,4 +1434,4 @@
                על ציונו הק׳ והמעשה נכתב בפנקם מ<orgName>החבורה קדושה</orgName>:
                תמו ספורים הנוראים : ממעשים הנפלאים מחסידי עליון 
                שלמים ויראים. ה׳ הטוב יגן עלינו זכותם לדור דורים :<lb /><hi>סליק</hi></p></div></body>
-   </text></TEI>
+   </text></tei:TEI>

@@ -1,6 +1,6 @@
 <?xml version='1.0' encoding='utf-8'?>
-<TEI xmlns="http://www.tei-c.org/ns/1.0">
-	<teiHeader>
+<tei:TEI xmlns:tei="http://www.tei-c.org/ns/1.0">
+	<teiHeader xmlns="http://www.tei-c.org/ns/1.0">
 		<fileDesc>
 			<titleStmt>
 				<title type="main">Sefer-Moraim-Gdolim</title>
@@ -13,7 +13,7 @@
 			</sourceDesc>
 		</fileDesc>
 	</teiHeader>
-	<text>
+	<text xmlns="http://www.tei-c.org/ns/1.0">
 		<front>
 			<div type="title-page">
 				<pb facs="Sefer-Moraim-Gdolim_0005.jpg" />
@@ -1256,4 +1256,4 @@
 				</p>
 			</div>
 		</body>
-	</text></TEI>
+	</text></tei:TEI>

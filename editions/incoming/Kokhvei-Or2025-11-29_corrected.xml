@@ -1,6 +1,6 @@
 <?xml version='1.0' encoding='utf-8'?>
-<TEI xmlns="http://www.tei-c.org/ns/1.0">
-	<teiHeader>
+<tei:TEI xmlns:tei="http://www.tei-c.org/ns/1.0">
+	<teiHeader xmlns="http://www.tei-c.org/ns/1.0">
 		<fileDesc>
 			<titleStmt>
 				<title type="main">Sefer Kokhvei Or 1896 ספר כוכבי אור</title>
@@ -54,7 +54,7 @@
 				</sourceDesc>
 		</fileDesc>
 	</teiHeader>
-	<text><front><div type="title-page">
+	<text xmlns="http://www.tei-c.org/ns/1.0"><front><div type="title-page">
 		<pb facs="Kokhvei-Or_0001.jpg" />
 		<pb facs="Kokhvei-Or_0002.jpg" />
 		<pb facs="Kokhvei-Or_0003.jpg" />
@@ -1182,4 +1182,4 @@
 				<pb facs="Kokhvei-Or_0042.jpg" />
 		</div>
 		</body>
-	</text></TEI>
+	</text></tei:TEI>

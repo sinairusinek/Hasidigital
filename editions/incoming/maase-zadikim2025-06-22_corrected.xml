@@ -1,6 +1,6 @@
 <?xml version='1.0' encoding='utf-8'?>
-<TEI xmlns="http://www.tei-c.org/ns/1.0">
-   <teiHeader>
+<tei:TEI xmlns:tei="http://www.tei-c.org/ns/1.0">
+   <teiHeader xmlns="http://www.tei-c.org/ns/1.0">
       <fileDesc>
          <titleStmt>
             <title type="main">Maase-Zadikim 1864 מעשה-צדיקים</title>
@@ -16,7 +16,7 @@
       </fileDesc>
    </teiHeader>
    
-   <text><front>
+   <text xmlns="http://www.tei-c.org/ns/1.0"><front>
       <div>
          <pb facs="MaaseZadikim_0001.jpg" /><head type="orig">               ספר<lb />
             מעשה צדיקים<lb />
@@ -1706,4 +1706,4 @@
                בלבב שלם אמן סלה : 
                <placeName ref="#H-LOC_134">בארדיטשוב</placeName></p></div>
       </body>
-   </text></TEI>
+   </text></tei:TEI>

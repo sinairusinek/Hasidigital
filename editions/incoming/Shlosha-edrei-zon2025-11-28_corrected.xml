@@ -1,6 +1,6 @@
 <?xml version='1.0' encoding='utf-8'?>
-<TEI xmlns="http://www.tei-c.org/ns/1.0">
-	<teiHeader>
+<tei:TEI xmlns:tei="http://www.tei-c.org/ns/1.0">
+	<teiHeader xmlns="http://www.tei-c.org/ns/1.0">
 		<fileDesc>
 			<titleStmt>
 				<title type="main">0001_FL141921532 שלשה עדרי צאן</title>
@@ -15,7 +15,7 @@
 			</sourceDesc>
 		</fileDesc>
 	</teiHeader>
-	<text>
+	<text xmlns="http://www.tei-c.org/ns/1.0">
 	<front>	<div type="title-page">
                 <pb facs="ShloshaEdreiZon-0003.jpg" />
 		
@@ -2133,4 +2133,4 @@
 				<pb facs="ShloshaEdreiZon-0050.jpg" />
 		</div>
 		</body>
-	</text></TEI>
+	</text></tei:TEI>

@@ -1,6 +1,6 @@
 <?xml version='1.0' encoding='utf-8'?>
-<TEI xmlns="http://www.tei-c.org/ns/1.0">
-   <teiHeader>
+<tei:TEI xmlns:tei="http://www.tei-c.org/ns/1.0">
+   <teiHeader xmlns="http://www.tei-c.org/ns/1.0">
       <fileDesc>
          <titleStmt><title type="main">Peer Mikdoshim 1865 פאר מקדושים</title></titleStmt>
          <publicationStmt>
@@ -12,7 +12,7 @@
       </fileDesc>
    </teiHeader>
    
-   <text><front>
+   <text xmlns="http://www.tei-c.org/ns/1.0"><front>
       <div type="titlePage">
          <pb facs="Peer-MiKdoshim_0005.jpg" />
         
@@ -2151,4 +2151,4 @@
             
          </p></div>
       </back>
-   </text></TEI>
+   </text></tei:TEI>
