@@ -275,6 +275,21 @@ def _load_kima_lookup() -> dict[str, dict]:
     return lookup
 
 
+def _kima_already_in_authority(root: ET.Element, kima_num: str) -> str | None:
+    """
+    Return the H-LOC id of an existing place with this Kima number,
+    or None if no match.  Used to make ``process_new`` idempotent.
+    """
+    if not kima_num:
+        return None
+    suffix = f"/Details/{kima_num}"
+    for place in root.iter(f"{T}place"):
+        for idno in place.findall(f"{T}idno"):
+            if idno.text and suffix in idno.text:
+                return place.get(f"{X}id")
+    return None
+
+
 def process_new(root: ET.Element, decisions: list[dict],
                 dry_run: bool) -> tuple[int, int]:
     """
@@ -284,6 +299,9 @@ def process_new(root: ET.Element, decisions: list[dict],
     QID from the Kima gazetteer CSV when available.
 
     The TSV name is used as-is (no prefix stripping).
+
+    Idempotent: skips decisions whose Kima ID already exists in the
+    authority XML.
 
     Returns ``(n_created, next_free_num)``.
     """
@@ -299,6 +317,13 @@ def process_new(root: ET.Element, decisions: list[dict],
     for rec in decisions:
         name = rec["name"]
         kima_num = _parse_kima_id(rec["suggested_id"])
+
+        # Idempotency: skip if this Kima ID already exists
+        existing_id = _kima_already_in_authority(root, kima_num)
+        if existing_id:
+            print(f"  '{name}' (Kima {kima_num}) already exists as {existing_id}")
+            continue
+
         new_id = f"H-LOC_{next_num}"
 
         # Look up enrichment data from Kima CSV
@@ -639,6 +664,66 @@ def process_skip(decisions: list[dict], dry_run: bool) -> int:
 
 
 # ═════════════════════════════════════════════════════════════════════════════
+# Step 7b – Ensure <head type="storyHead"> in all corrected editions
+# ═════════════════════════════════════════════════════════════════════════════
+
+def ensure_story_heads(dry_run: bool) -> int:
+    """
+    Ensure every ``<div type="story">`` in corrected editions has a
+    ``<head type="storyHead">`` child whose text is the div's ``xml:id``.
+
+    If a story div already has a ``<head type="storyHead">`` child it is
+    left untouched.  The new ``<head>`` is inserted as the **first child**
+    of the div, before any existing ``<head>``, ``<span>``, or ``<p>``.
+
+    Returns the total number of storyHead elements added.
+    """
+    edition_dir = Path(EDITIONS_INCOMING)
+    total = 0
+
+    for xml_file in sorted(edition_dir.glob("*_corrected.xml")):
+        ET.register_namespace("", TEI_NS)
+        ET.register_namespace("xml", XML_NS)
+        tree = ET.parse(str(xml_file))
+        root = tree.getroot()
+        added = 0
+
+        for div in root.findall(f".//{T}div"):
+            if div.get("type") != "story":
+                continue
+
+            xml_id = div.get(f"{X}id")
+            if not xml_id:
+                continue
+
+            # Check if storyHead already exists
+            has_story_head = any(
+                h.get("type") == "storyHead"
+                for h in div.findall(f"{T}head")
+            )
+            if has_story_head:
+                continue
+
+            # Create and insert as first child
+            head = ET.Element(f"{T}head")
+            head.set("type", "storyHead")
+            head.text = xml_id
+            head.tail = "\n"
+            div.insert(0, head)
+            added += 1
+
+        if added:
+            tag = "[dry-run] " if dry_run else ""
+            print(f"  {tag}Added {added} storyHead(s) in {xml_file.name}")
+            if not dry_run:
+                tree.write(str(xml_file), encoding="unicode",
+                           xml_declaration=True)
+            total += added
+
+    return total
+
+
+# ═════════════════════════════════════════════════════════════════════════════
 # Step 8 – Summary & optional git commit
 # ═════════════════════════════════════════════════════════════════════════════
 
@@ -741,12 +826,21 @@ def main() -> None:
     else:
         print("Step 7: No skip decisions.\n")
 
+    # ── Step 7b: Ensure storyHead ────────────────────────────────────────
+    print("Step 7b: Ensuring storyHead in corrected editions …")
+    heads_added = ensure_story_heads(dry_run)
+    if heads_added:
+        print(f"  → {heads_added} storyHead(s) added.\n")
+    else:
+        print("  → All story divs already have storyHead.\n")
+
     # ── Step 8: Summary ──────────────────────────────────────────────────
     print("═══ Summary ═══")
     print(f"  map_to variants added : {variants_added if n_map else 0}")
     print(f"  new places created    : {places_created if n_new else 0}")
     print(f"  edition links added   : {linked}")
     print(f"  skip tags unwrapped   : {unwrapped if n_skip else 0}")
+    print(f"  storyHeads added      : {heads_added}")
 
     if dry_run:
         print("\n  (dry run — no changes written)")
@@ -758,7 +852,8 @@ def main() -> None:
             f"{variants_added if n_map else 0} map_to, "
             f"{places_created if n_new else 0} new, "
             f"{unwrapped if n_skip else 0} skip, "
-            f"{linked} batch-linked"
+            f"{linked} batch-linked, "
+            f"{heads_added} storyHeads"
         )
         try:
             git_commit(commit_msg)
