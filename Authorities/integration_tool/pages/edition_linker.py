@@ -25,7 +25,7 @@ from config import (
     MATCHING_DB_PATH, DISPLAY_XML_PATH, SKIPPED_JSON_PATH,
     TEI_NS, XML_NS,
 )
-from utils import next_hloc_id
+from utils import next_hloc_id, fix_tei_namespace_file
 
 # ── Session state helpers ────────────────────────────────────────────────────
 
@@ -580,6 +580,9 @@ elif ss.el_step == 4:
                 if refs_added > 0:
                     edition_tree.write(ss.el_edition_file, encoding="utf-8",
                                        xml_declaration=True)
+                    # Restore TEI-Publisher namespace format (ElementTree
+                    # reverts to default-namespace serialisation on write).
+                    fix_tei_namespace_file(ss.el_edition_file)
 
                 # 3. Update Authorities.xml only for new places
                 new_place_added = False

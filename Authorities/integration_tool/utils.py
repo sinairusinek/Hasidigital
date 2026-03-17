@@ -181,3 +181,72 @@ def next_hbibl_id(existing_ids: list[str]) -> str:
     while n in used:
         n += 1
     return f"H-BIBL_{n}"
+
+
+# ── TEI namespace fix ────────────────────────────────────────────────────────
+
+_TEI_URI = "http://www.tei-c.org/ns/1.0"
+
+
+def fix_tei_namespace_file(path: str) -> bool:
+    """
+    Apply the TEI-Publisher namespace format to a single edition XML file.
+
+    Transforms::
+
+        <TEI xmlns="http://www.tei-c.org/ns/1.0">
+          <teiHeader ...>
+          <text>
+
+    to::
+
+        <tei:TEI xmlns:tei="http://www.tei-c.org/ns/1.0">
+          <teiHeader xmlns="http://www.tei-c.org/ns/1.0" ...>
+          <text xmlns="http://www.tei-c.org/ns/1.0">
+
+    This is a string-level operation because ElementTree cannot produce the
+    prefixed-namespace format natively.  It is idempotent: files already in
+    the correct format are left untouched.
+
+    Returns True if the file was modified, False otherwise.
+    """
+    with open(path, "r", encoding="utf-8") as fh:
+        content = fh.read()
+
+    # Idempotency check
+    if f'<tei:TEI xmlns:tei="{_TEI_URI}">' in content:
+        return False
+
+    original = content
+
+    # 1. Root element
+    content = content.replace(
+        f'<TEI xmlns="{_TEI_URI}">',
+        f'<tei:TEI xmlns:tei="{_TEI_URI}">',
+    )
+
+    # 2. <teiHeader> (only if no xmlns yet)
+    content = re.sub(
+        r'<teiHeader(?!\s+xmlns)',
+        f'<teiHeader xmlns="{_TEI_URI}"',
+        content,
+        count=1,
+    )
+
+    # 3. Top-level <text> (first occurrence only)
+    content = re.sub(
+        r'<text(?=\s*>)',
+        f'<text xmlns="{_TEI_URI}"',
+        content,
+        count=1,
+    )
+
+    # 4. Closing tag
+    content = content.replace("</TEI>", "</tei:TEI>")
+
+    if content == original:
+        return False
+
+    with open(path, "w", encoding="utf-8") as fh:
+        fh.write(content)
+    return True
