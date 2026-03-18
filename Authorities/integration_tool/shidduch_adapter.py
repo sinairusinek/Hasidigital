@@ -95,15 +95,26 @@ def _push_tsv_to_github(
     try:
         g = Github(token)
         repo = g.get_repo(repo_name)
-        existing = repo.get_contents(tsv_path, ref=branch)
-        repo.update_file(
-            path=tsv_path,
-            message=commit_message,
-            content=content,
-            sha=existing.sha,
-            branch=branch,
-        )
-        return True, "Saved to GitHub"
+        try:
+            existing = repo.get_contents(tsv_path, ref=branch)
+            repo.update_file(
+                path=tsv_path,
+                message=commit_message,
+                content=content,
+                sha=existing.sha,
+                branch=branch,
+            )
+            return True, "Saved to GitHub"
+        except GithubException as e:
+            if e.status == 404:
+                repo.create_file(
+                    path=tsv_path,
+                    message=commit_message,
+                    content=content,
+                    branch=branch,
+                )
+                return True, "Created and saved to GitHub"
+            raise
     except GithubException as e:
         if e.status == 409:
             return (
@@ -156,6 +167,20 @@ class HasidigitalPersonBackend(ReviewBackend):
 
     # ── data loading ──────────────────────────────────────────────────────
 
+    @staticmethod
+    def _bootstrap_tsv_rows(results: list[dict]) -> tuple[list[dict], list[str]]:
+        """Create default decision rows when TSV does not exist yet."""
+        fieldnames = ["name", "action", "suggested_id"]
+        seen: set[str] = set()
+        rows: list[dict] = []
+        for row in results:
+            name = (row.get("name") or "").strip()
+            if not name or name in seen:
+                continue
+            seen.add(name)
+            rows.append({"name": name, "action": "", "suggested_id": ""})
+        return rows, fieldnames
+
     def load(self) -> None:
         # 1. Shidduch results CSV
         if not os.path.exists(UNMATCHED_PERSONS_CSV):
@@ -166,12 +191,28 @@ class HasidigitalPersonBackend(ReviewBackend):
 
         # 2. TSV (live decisions)
         if not os.path.exists(UNMATCHED_PERSONS_TSV):
-            st.error(f"Unmatched persons TSV not found: {UNMATCHED_PERSONS_TSV}")
+            self._tsv_rows, self._tsv_fieldnames = self._bootstrap_tsv_rows(self._results)
+            _write_tsv_local(UNMATCHED_PERSONS_TSV, self._tsv_rows, self._tsv_fieldnames)
+        else:
+            self._tsv_rows = _read_tsv(UNMATCHED_PERSONS_TSV)
+            self._tsv_fieldnames = (
+                list(self._tsv_rows[0].keys()) if self._tsv_rows else []
+            )
+
+        if "name" not in self._tsv_fieldnames:
+            st.error("Unmatched persons TSV is missing required 'name' column")
             st.stop()
-        self._tsv_rows = _read_tsv(UNMATCHED_PERSONS_TSV)
-        self._tsv_fieldnames = (
-            list(self._tsv_rows[0].keys()) if self._tsv_rows else []
-        )
+
+        if "action" not in self._tsv_fieldnames:
+            self._tsv_fieldnames.append("action")
+            for row in self._tsv_rows:
+                row["action"] = row.get("action", "")
+
+        if "suggested_id" not in self._tsv_fieldnames:
+            self._tsv_fieldnames.append("suggested_id")
+            for row in self._tsv_rows:
+                row["suggested_id"] = row.get("suggested_id", "")
+
         self._tsv_by_name = {r["name"]: r for r in self._tsv_rows}
 
         # 3. Person authority DB (for candidate display)

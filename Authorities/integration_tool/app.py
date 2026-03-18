@@ -37,6 +37,12 @@ kima_review = st.Page(
     icon="\U0001f5fa\ufe0f",
 )
 
+shidduch_review = st.Page(
+    "pages/shidduch_review.py",
+    title="Person Review",
+    icon="\U0001f464",
+)
+
 dedup_review = st.Page(
     "pages/dedup_review.py",
     title="Dedup Review",
@@ -46,7 +52,7 @@ dedup_review = st.Page(
 pg = st.navigation(
     {
         "Workflows": [edition_linker, csv_integrator],
-        "Review": [kima_review],
+        "Review": [kima_review, shidduch_review],
         "Maintenance": [dedup_review],
     }
 )

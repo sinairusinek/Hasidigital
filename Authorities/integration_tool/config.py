@@ -19,6 +19,14 @@ GEN_SCRIPT = os.path.join(AUTH_DIR, "scripts", "generate_matching_db.py")
 UNMATCHED_TSV = os.path.join(PROJECT_DIR, "editions", "unmatched-places-report.tsv")
 UNMATCHED_CSV = os.path.join(PROJECT_DIR, "editions", "unmatched-kima-results.csv")
 
+# Shidduch / unmatched-person review files
+UNMATCHED_PERSONS_TSV = os.path.join(
+    PROJECT_DIR, "editions", "unmatched-persons-report.tsv"
+)
+UNMATCHED_PERSONS_CSV = os.path.join(
+    PROJECT_DIR, "editions", "unmatched-shidduch-results.csv"
+)
+
 # Full Kima CSV (local dev, git-ignored) — falls back to trimmed version on Streamlit Cloud
 _KIMA_FULL = os.path.join(
     os.path.expanduser("~"), "Documents", "GitHub", "Kimatch",
