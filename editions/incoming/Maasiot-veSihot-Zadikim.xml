@@ -1,18 +1,15 @@
-<?xml version='1.0' encoding='utf-8'?>
+<?xml version='1.0' encoding='UTF-8'?>
 <TEI xmlns="http://www.tei-c.org/ns/1.0">
 	<teiHeader>
 		<fileDesc>
 			<titleStmt>
-				<title type="main">Maasiot-veSihot-Zadikim</title>
+				<title type="main">Maasiot VeSichot Tzadikim 1894 מעשיות ושיחות צדיקים</title>
 			</titleStmt>
 			<publicationStmt>
 				<publisher>tranScriptorium</publisher>
 			</publicationStmt>
-			<sourceDesc>
-				<bibl><publisher>TRP document creator: sinai.rusinek@mail.huji.ac.il</publisher></bibl>
-			</sourceDesc>
-		<editionStmt><edition n="1.0.0">Working edition</edition></editionStmt></fileDesc>
-	<revisionDesc><change when="2026-03-19">Edition management migration (canonical filename + archived uncorrected source); version none -&gt; 1.0.0</change></revisionDesc></teiHeader>
+			<sourceDesc><bibl type="original"><title type="main" xml:lang="he">מעשיות ושיחות צדיקים</title><title type="main" xml:lang="en">Maasiot VeSichot Tzadikim</title><author><persName xml:lang="he" ref="#tempH-62">ישראל דוד זיס</persName><persName xml:lang="en" ref="#tempH-62">Yisrael David Zis</persName></author><imprint><pubPlace xml:lang="he">למברג</pubPlace><pubPlace xml:lang="en">Lvov</pubPlace><date when="1894">תרנה</date></imprint><textLang mainLang="heb" /><idno type="BHB">132429</idno><idno type="ALMA">990017446560205171</idno><idno type="Kima">166</idno><idno type="Kitsis">36</idno><idno type="DBid">3678</idno><idno type="work">40</idno></bibl></sourceDesc><editionStmt><edition n="1.0.0">Working edition</edition></editionStmt></fileDesc>
+	<revisionDesc><change when="2026-03-19">Edition management migration (canonical filename + archived uncorrected source); version none -&gt; 1.0.0</change><change when="2026-03-24">sourceDesc synced from edition-metadata.json</change><change when="2026-03-24">sourceDesc synced from edition-metadata.json</change></revisionDesc></teiHeader>
 	<text>
 		<front>
 			<div>

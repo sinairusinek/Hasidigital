@@ -27,6 +27,10 @@ _KIMA_FULL = os.path.join(
 _KIMA_TRIMMED = os.path.join(PROJECT_DIR, "editions", "kima-candidates-trimmed.csv")
 KIMA_PLACES_CSV = _KIMA_FULL if os.path.exists(_KIMA_FULL) else _KIMA_TRIMMED
 
+# Edition metadata (single source of truth for edition bibliographic data)
+EDITION_METADATA_JSON = os.path.join(PROJECT_DIR, "editions", "edition-metadata.json")
+SYNC_EDITION_SCRIPT = os.path.join(AUTH_DIR, "scripts", "sync_edition_metadata.py")
+
 # XML namespaces
 TEI_NS = "http://www.tei-c.org/ns/1.0"
 XML_NS = "http://www.w3.org/XML/1998/namespace"

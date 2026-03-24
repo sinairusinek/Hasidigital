@@ -1,9 +1,9 @@
-<?xml version='1.0' encoding='utf-8'?>
+<?xml version='1.0' encoding='UTF-8'?>
 <TEI xmlns="http://www.tei-c.org/ns/1.0">
 	<teiHeader>
 		<fileDesc>
 			<titleStmt>
-				<title type="main">Sefer Kokhvei Or 1896 ספר כוכבי אור</title>
+				<title type="main">Kochavei Or 1896 כוכבי אור</title>
 				<respStmt>
 					<resp>Digitization</resp>
 					<orgName>The National Library of Israel</orgName>
@@ -33,27 +33,9 @@
 				<ptr target="https://www.nli.org.il/he/books/NNL_ALEPH001833822" />
 				<idno type="NLI">NNL_ALEPH001833822</idno><idno type="Transkribus">6271312</idno>
 				<note>Source for transcription</note>
-			</bibl>     <bibl type="original">
-				<author>
-					<persName xml:lang="he">חזן, אברהם בן נחמן ישראל</persName>
-					<persName xml:lang="en">Chazan, Abraham</persName>
-					<date from="1849" to="1917">1849-1917</date>
-				</author>
-				<title type="main" xml:lang="he">ספר כוכבי אור : והוא ספורים ... על אודות ... רבינו נחמן מברסלב ... ותפארת ... אנשיו ... וחלקתי את הספר הזה לד' חלקים ... אנשי מוהר"ן, אמת ואמונה, חכמה ובינה, ששון ושמחה</title>
-				<title type="main" xml:lang="en">Sefer Kokhvei Or</title>
-				<publisher xml:lang="he">דפוס מ' ליליענטהאל</publisher>
-				<publisher xml:lang="en">M. Lilienenthal Press</publisher>
-				<pubPlace xml:lang="he" ref="#H-LOC_154">ירושלם</pubPlace>
-				<pubPlace xml:lang="en">Jerusalem</pubPlace>
-				<date when="1896" xml:lang="he">תרנ"ו</date>
-				<date when="1896">1896</date>
-				<extent>לד' עמודים ; 17 ס"מ</extent>
-				<note>בהוצאה זו נדפס רק חלק א: אנשי מוהר"ן</note>
-				<idno type="bhb">133474</idno>
-			</bibl>
-				</sourceDesc>
+			</bibl>     <bibl type="original"><title type="main" xml:lang="he">כוכבי אור</title><title type="main" xml:lang="en">Kochavei Or</title><author><persName xml:lang="he" ref="#tempH-39">אברהם ב"ר נחמן חזן</persName><persName xml:lang="en" ref="#tempH-39">Avraham the son of Nahman Chazan</persName></author><imprint><pubPlace xml:lang="he">ירושלים</pubPlace><pubPlace xml:lang="en">Jerusalem</pubPlace><date when="1896">תרנו</date></imprint><textLang mainLang="heb" /><idno type="BHB">133474</idno><idno type="ALMA">990018338220205171</idno><idno type="Kima">691</idno><idno type="Kitsis">40</idno><idno type="NLI">NNL_ALEPH001833822</idno><idno type="Transkribus">6271312</idno><idno type="DBid">3688</idno><idno type="work">45</idno></bibl></sourceDesc>
 		<editionStmt><edition n="1.0.0">Working edition</edition></editionStmt></fileDesc>
-	<revisionDesc><change when="2026-03-19">Edition management migration (canonical filename + archived uncorrected source); version none -&gt; 1.0.0</change></revisionDesc></teiHeader>
+	<revisionDesc><change when="2026-03-19">Edition management migration (canonical filename + archived uncorrected source); version none -&gt; 1.0.0</change><change when="2026-03-24">sourceDesc synced from edition-metadata.json</change></revisionDesc></teiHeader>
 	<text><front><div type="title-page">
 		<pb facs="Kokhvei-Or_0001.jpg" />
 		<pb facs="Kokhvei-Or_0002.jpg" />

@@ -1,10 +1,10 @@
-<?xml version='1.0' encoding='utf-8'?>
+<?xml version='1.0' encoding='UTF-8'?>
 <TEI xmlns="http://www.tei-c.org/ns/1.0">
 
     <teiHeader>
         <fileDesc>
             <titleStmt>
-                <title type="main">Khal Hasidim 1866 קהל חסידים</title>
+                <title type="main">Kehal Chasidim 1866 קהל חסידים</title>
             </titleStmt>
             <publicationStmt>
                 <p>Four pages starting with "עתה נספר סדר ההשתלשלות עד פטירת רבינו הקדוש זי״ע" in
@@ -17,14 +17,8 @@
                     TEI-Publisher Annotator and the XML-Planter, developed by DH-dev.com (Gil
                     Shalit).</p>
             </publicationStmt>
-            <sourceDesc>
-                <bibl><title type="main">Khal_Hasidim-dedupmrg617055680_IE38811556</title><idno type="Transkribus">1469156</idno><idno type="external">NA</idno>
-                    <date when="1866">1866 תרכ״ו</date><pubPlace ref="#H-LOC_40">Lemberg (Lviv)למברג
-                        (לביב)</pubPlace>
-                </bibl>
-            </sourceDesc>
-        <editionStmt><edition n="1.0.0">Working edition</edition></editionStmt></fileDesc>
-    <revisionDesc><change when="2026-03-19">Edition management migration (canonical filename + archived uncorrected source); version none -&gt; 1.0.0</change></revisionDesc></teiHeader>
+            <sourceDesc><bibl type="original"><title type="main" xml:lang="he">קהל חסידים</title><title type="main" xml:lang="en">Kehal Chasidim</title><author><persName xml:lang="he" ref="#tempH-64">אנונימי (אהרון וולדן)</persName><persName xml:lang="en" ref="#tempH-64">Anonymous (Aaaron Walden)</persName></author><imprint><pubPlace ref="#H-LOC_40" xml:lang="he">למברג</pubPlace><pubPlace ref="#H-LOC_40" xml:lang="en">Lemberg (Lviv)</pubPlace><date when="1866">תרכו</date></imprint><textLang mainLang="heb" /><idno type="BHB">130132</idno><idno type="ALMA">990019009930205171</idno><idno type="Kima">953</idno><idno type="Kitsis">11</idno><idno type="Transkribus">1469156</idno><idno type="DBid">3621</idno><idno type="work">13</idno></bibl></sourceDesc><editionStmt><edition n="1.0.0">Working edition</edition></editionStmt></fileDesc>
+    <revisionDesc><change when="2026-03-19">Edition management migration (canonical filename + archived uncorrected source); version none -&gt; 1.0.0</change><change when="2026-03-24">sourceDesc synced from edition-metadata.json</change><change when="2026-03-24">sourceDesc synced from edition-metadata.json</change></revisionDesc></teiHeader>
 
     <text>
         <front>

@@ -1,18 +1,15 @@
-<?xml version='1.0' encoding='utf-8'?>
+<?xml version='1.0' encoding='UTF-8'?>
 <TEI xmlns="http://www.tei-c.org/ns/1.0">
 	<teiHeader>
 		<fileDesc>
 			<titleStmt>
-				<title type="main">Smichat Moshe סמיכת משה</title>
+				<title type="main">Semichat Moshe 1886 סמיכת משה</title>
 			</titleStmt>
 			<publicationStmt>
 				<publisher>tranScriptorium</publisher>
 			</publicationStmt>
-			<sourceDesc>
-				<bibl><publisher>TRP document creator: sinai.rusinek@mail.huji.ac.il</publisher><note>Hebrewbooks_org_34276</note></bibl>
-			</sourceDesc>
-		<editionStmt><edition n="1.0.0">Working edition</edition></editionStmt></fileDesc>
-	<revisionDesc><change when="2026-03-19">Edition management migration (canonical filename + archived uncorrected source); version none -&gt; 1.0.0</change></revisionDesc></teiHeader>
+			<sourceDesc><bibl type="original"><title type="main" xml:lang="he">סמיכת משה</title><title type="main" xml:lang="en">Semichat Moshe</title><author><persName xml:lang="he" ref="#tempH-68">שמואל הורוביץ (במפעל הביבליוגרפיה זה רשום על בנו)</persName><persName xml:lang="en" ref="#tempH-68">Shmuel Horowitz</persName></author><imprint><pubPlace xml:lang="he">פשמישל</pubPlace><pubPlace xml:lang="en">Przemysl</pubPlace><date when="1886">תרמז</date></imprint><textLang mainLang="heb" /><idno type="BHB">137566</idno><idno type="ALMA">990018809960205171</idno><idno type="Kima">424</idno><idno type="Kitsis">30</idno><idno type="DBid">3673</idno><idno type="work">35</idno></bibl></sourceDesc><editionStmt><edition n="1.0.0">Working edition</edition></editionStmt></fileDesc>
+	<revisionDesc><change when="2026-03-19">Edition management migration (canonical filename + archived uncorrected source); version none -&gt; 1.0.0</change><change when="2026-03-24">sourceDesc synced from edition-metadata.json</change><change when="2026-03-24">sourceDesc synced from edition-metadata.json</change></revisionDesc></teiHeader>
 	<text>
 		<body>
 			<div type="title-page">

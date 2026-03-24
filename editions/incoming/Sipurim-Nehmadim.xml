@@ -1,18 +1,15 @@
-<?xml version='1.0' encoding='utf-8'?>
+<?xml version='1.0' encoding='UTF-8'?>
 <TEI xmlns="http://www.tei-c.org/ns/1.0">
 	<teiHeader>
 		<fileDesc>
 			<titleStmt>
-				<title type="main">Sipurim-Nehmadim_Hebrewbooks_org_3802</title>
+				<title type="main">Sipurim Nechmadim 1903 ספורים נחמדים</title>
 			</titleStmt>
 			<publicationStmt>
 				<publisher>tranScriptorium</publisher>
 			</publicationStmt>
-			<sourceDesc>
-				<bibl><publisher>TRP document creator: sinai.rusinek@mail.huji.ac.il</publisher></bibl>
-			</sourceDesc>
-		<editionStmt><edition n="1.0.0">Working edition</edition></editionStmt></fileDesc>
-	<revisionDesc><change when="2026-03-19">Edition management migration (canonical filename + archived uncorrected source); version none -&gt; 1.0.0</change></revisionDesc></teiHeader>
+			<sourceDesc><bibl type="original"><title type="main" xml:lang="he">ספורים נחמדים</title><title type="main" xml:lang="en">Sipurim Nechmadim</title><author><persName xml:lang="he" ref="#tempH-81">ישעיה וולף ציקרניק</persName><persName xml:lang="en" ref="#tempH-81">Yeshaya Wolf Tsukernik</persName></author><imprint><pubPlace xml:lang="he">ז'יטומר</pubPlace><pubPlace xml:lang="en">Zhytomyr</pubPlace><date when="1903">תרסג</date></imprint><textLang mainLang="heb" /><idno type="BHB">160941</idno><idno type="ALMA">990018903370205171</idno><idno type="Kima">957</idno><idno type="Kitsis">62</idno><idno type="DBid">3716</idno><idno type="work">70</idno></bibl></sourceDesc><editionStmt><edition n="1.0.0">Working edition</edition></editionStmt></fileDesc>
+	<revisionDesc><change when="2026-03-19">Edition management migration (canonical filename + archived uncorrected source); version none -&gt; 1.0.0</change><change when="2026-03-24">sourceDesc synced from edition-metadata.json</change><change when="2026-03-24">sourceDesc synced from edition-metadata.json</change></revisionDesc></teiHeader>
 	<text>
 		<front>
 			<div type="title-page">

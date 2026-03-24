@@ -1,18 +1,15 @@
-<?xml version='1.0' encoding='utf-8'?>
+<?xml version='1.0' encoding='UTF-8'?>
 <TEI xmlns="http://www.tei-c.org/ns/1.0">
 	<teiHeader>
 		<fileDesc>
 			<titleStmt>
-				<title type="main">Maasyiot-Mzadikei-Yesodei-Olam</title>
+				<title type="main">Maasiot MeTzadikei Yesodei Olam 1903 מעשיות מצדיקי יסודי עולם</title>
 			</titleStmt>
 			<publicationStmt>
 				<publisher>tranScriptorium</publisher>
 			</publicationStmt>
-			<sourceDesc>
-				<bibl><publisher>TRP document creator: sinai.rusinek@mail.huji.ac.il</publisher></bibl>
-			</sourceDesc>
-		<editionStmt><edition n="1.0.0">Working edition</edition></editionStmt></fileDesc>
-	<revisionDesc><change when="2026-03-19">Edition management migration (canonical filename + archived uncorrected source); version none -&gt; 1.0.0</change></revisionDesc></teiHeader>
+			<sourceDesc><bibl type="original"><title type="main" xml:lang="he">מעשיות מצדיקי יסודי עולם</title><title type="main" xml:lang="en">Maasiot MeTzadikei Yesodei Olam</title><author><persName xml:lang="he" ref="#tempH-53">אליעזר שענקל</persName><persName xml:lang="en" ref="#tempH-53">Eliezer Shenkel</persName></author><imprint><pubPlace xml:lang="he">פאדגורזא</pubPlace><pubPlace xml:lang="en">Podgorze</pubPlace><date when="1903">תרסג</date></imprint><textLang mainLang="heb" /><idno type="BHB">171139</idno><idno type="ALMA">990020852240205171</idno><idno type="Kima">168</idno><idno type="Kitsis">63</idno><idno type="DBid">3717</idno><idno type="work">71</idno></bibl></sourceDesc><editionStmt><edition n="1.0.0">Working edition</edition></editionStmt></fileDesc>
+	<revisionDesc><change when="2026-03-19">Edition management migration (canonical filename + archived uncorrected source); version none -&gt; 1.0.0</change><change when="2026-03-24">sourceDesc synced from edition-metadata.json</change><change when="2026-03-24">sourceDesc synced from edition-metadata.json</change></revisionDesc></teiHeader>
 	<text>
 		<front>
 			<div type="title-page">

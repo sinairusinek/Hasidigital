@@ -1,18 +1,15 @@
-<?xml version='1.0' encoding='utf-8'?>
+<?xml version='1.0' encoding='UTF-8'?>
 <TEI xmlns="http://www.tei-c.org/ns/1.0">
 	<teiHeader>
 		<fileDesc>
 			<titleStmt>
-				<title type="main">Shivhei-Zadikim</title>
+				<title type="main">Shivchei Tzadikim 1883 שבחי צדיקים</title>
 			</titleStmt>
 			<publicationStmt>
 				<publisher>tranScriptorium</publisher>
 			</publicationStmt>
-			<sourceDesc>
-				<bibl><publisher>TRP document creator: sinai.rusinek@mail.huji.ac.il</publisher></bibl>
-			</sourceDesc>
-		<editionStmt><edition n="1.0.0">Working edition</edition></editionStmt></fileDesc>
-	<revisionDesc><change when="2026-03-19">Edition management migration (canonical filename + archived uncorrected source); version none -&gt; 1.0.0</change></revisionDesc></teiHeader>
+			<sourceDesc><bibl type="original"><title type="main" xml:lang="he">שבחי צדיקים</title><title type="main" xml:lang="en">Shivchei Tzadikim</title><author><persName xml:lang="he" ref="#tempH-111">מנדל ציטרין</persName><persName xml:lang="en" ref="#tempH-111">Mendel Tzitron</persName></author><imprint><pubPlace xml:lang="he">ורשה</pubPlace><pubPlace xml:lang="en">Warsaw</pubPlace><date when="1883">תרמג (קישור לדפוס משנת תרמד)</date></imprint><textLang mainLang="heb" /><idno type="BHB">160768</idno><idno type="ALMA">990020497140205171</idno><idno type="Kima">953</idno><idno type="Kitsis">28</idno><idno type="DBid">3664</idno><idno type="work">30</idno></bibl></sourceDesc><editionStmt><edition n="1.0.0">Working edition</edition></editionStmt></fileDesc>
+	<revisionDesc><change when="2026-03-19">Edition management migration (canonical filename + archived uncorrected source); version none -&gt; 1.0.0</change><change when="2026-03-24">sourceDesc synced from edition-metadata.json</change><change when="2026-03-24">sourceDesc synced from edition-metadata.json</change></revisionDesc></teiHeader>
 	<text>
 		<front>
 			<div type="title-page">

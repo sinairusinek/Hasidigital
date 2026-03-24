@@ -1,18 +1,15 @@
-<?xml version='1.0' encoding='utf-8'?>
+<?xml version='1.0' encoding='UTF-8'?>
 <TEI xmlns="http://www.tei-c.org/ns/1.0">
 	<teiHeader>
 		<fileDesc>
 			<titleStmt>
-				<title type="main">שמן הטוב</title>
+				<title type="main">Shemen Hatov 1905 שמן הטוב.</title>
 			</titleStmt>
 			<publicationStmt>
 				<publisher>tranScriptorium</publisher>
 			</publicationStmt>
-			<sourceDesc>
-				<bibl><publisher>TRP document creator: uninecessity@gmail.com</publisher></bibl>
-			</sourceDesc>
-		<editionStmt><edition n="1.0.0">Working edition</edition></editionStmt></fileDesc>
-	<revisionDesc><change when="2026-03-19">Edition management migration (canonical filename + archived uncorrected source); version none -&gt; 1.0.0</change></revisionDesc></teiHeader>
+			<sourceDesc><bibl type="original"><title type="main" xml:lang="he">שמן הטוב.</title><title type="main" xml:lang="en">Shemen Hatov</title><author><persName xml:lang="he" ref="#tempH-90">אברהם חיים שמחה בונים מיכלזהאן</persName><persName xml:lang="en" ref="#tempH-90">Avraham Chaim Simcha Bunim Michaelson</persName></author><imprint><pubPlace xml:lang="he">פיוטרקוב</pubPlace><pubPlace xml:lang="en">Piotrkow</pubPlace><date when="1905">תרסה</date></imprint><textLang mainLang="heb" /><idno type="BHB">147823</idno><idno type="ALMA">990017509640205171</idno><idno type="Kima">250</idno><idno type="Kitsis">75</idno><idno type="DBid">3732</idno><idno type="work">84</idno></bibl></sourceDesc><editionStmt><edition n="1.0.0">Working edition</edition></editionStmt></fileDesc>
+	<revisionDesc><change when="2026-03-19">Edition management migration (canonical filename + archived uncorrected source); version none -&gt; 1.0.0</change><change when="2026-03-24">sourceDesc synced from edition-metadata.json</change><change when="2026-03-24">sourceDesc synced from edition-metadata.json</change></revisionDesc></teiHeader>
 	<text>
 		<front>
 			<div type="title-page">

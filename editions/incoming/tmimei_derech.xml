@@ -1,20 +1,15 @@
-<?xml version='1.0' encoding='utf-8'?>
+<?xml version='1.0' encoding='UTF-8'?>
 <TEI xmlns="http://www.tei-c.org/ns/1.0">
 	<teiHeader>
 		<fileDesc>
 			<titleStmt>
-				<title type="main">Tmimei-Derech 1871 תמימי דרך</title>
+				<title type="main">Tmimei Derech 1871 משמיע תהלות תמימי דרך</title>
 			</titleStmt>
 			<publicationStmt><p>This edition was created in the framework of the the project "Historical Digital Analysis of Hasidic Stories Until 1914", PI: Gadi Sagiv; Named Entities annotation: Yeshayahu Goldenhersh; Topic annotation: Dorit Peretz; Supervising Editor: Sinai Rusinek. 
 				This edition was prepared using an implementation of TEI-Publisher Annotator and the XML-Planter, developed by DH-dev.com (Gil Shalit).</p></publicationStmt>
 			
-			<sourceDesc>
-				<bibl>
-					<title type="main">Tmimei-Derech</title><idno type="Transkribus">5555871</idno><idno type="external">NA</idno>
-					<date when="1871">1871 תרל״א</date><pubPlace ref="#H-LOC_178">Warsaw וורשה</pubPlace>
-				</bibl>			</sourceDesc>
-		<editionStmt><edition n="1.0.0">Working edition</edition></editionStmt></fileDesc>
-	<revisionDesc><change when="2026-03-19">Edition management migration (canonical filename + archived uncorrected source); version none -&gt; 1.0.0</change></revisionDesc></teiHeader>
+			<sourceDesc><bibl type="original"><title type="main" xml:lang="he">משמיע תהלות תמימי דרך</title><title type="main" xml:lang="en">Tmimei Derech</title><author><persName xml:lang="he" ref="#tempH-58">יעקב דריקרמן</persName><persName xml:lang="en" ref="#tempH-58">Yaacov Drikerman</persName></author><imprint><pubPlace ref="#H-LOC_178" xml:lang="he">ורשה</pubPlace><pubPlace ref="#H-LOC_178" xml:lang="en">Warsaw</pubPlace><date when="1871">תרלא (קישור לדפוס תרסד)</date></imprint><textLang mainLang="heb" /><idno type="BHB">177573</idno><idno type="ALMA">990017511340205171</idno><idno type="Kima">953</idno><idno type="Kitsis">18</idno><idno type="Transkribus">5555871</idno><idno type="DBid">3644</idno><idno type="work">20</idno></bibl></sourceDesc><editionStmt><edition n="1.0.0">Working edition</edition></editionStmt></fileDesc>
+	<revisionDesc><change when="2026-03-19">Edition management migration (canonical filename + archived uncorrected source); version none -&gt; 1.0.0</change><change when="2026-03-24">sourceDesc synced from edition-metadata.json</change><change when="2026-03-24">sourceDesc synced from edition-metadata.json</change></revisionDesc></teiHeader>
 	<text><front><div type="front-page">
 	
 		<pb facs="Tmimei-Derech_0005.jpg" />
