@@ -2,7 +2,7 @@
 """
 Batch Place-Name Linker
 =======================
-Auto-links unlinked <placeName> elements across all corrected/gemini editions
+Auto-links unlinked <placeName> elements across all canonical editions
 to the authorities matching DB, and produces a TSV report of unmatched names.
 
 Usage:
@@ -76,17 +76,19 @@ def find_parent_p(elem, parent_map):
 
 def process_editions(db, variant_index, dry_run=False):
     """
-    Process all corrected/gemini editions.
+    Process all canonical editions (excludes *_corrected.xml and *.bak).
     Returns (total_refs_added, new_variants_added, unmatched_global)
     where unmatched_global maps name -> {occurrences, editions, contexts}.
     """
     edition_files = sorted([
         f for f in os.listdir(EDITIONS_INCOMING)
-        if f.endswith(("_corrected.xml", "_gemini.xml"))
+        if f.endswith(".xml")
+        and not f.endswith("_corrected.xml")
+        and not f.endswith(".bak")
     ])
 
     if not edition_files:
-        print("No corrected/gemini XML files found.")
+        print("No canonical XML files found.")
         return 0, 0, {}
 
     total_refs = 0

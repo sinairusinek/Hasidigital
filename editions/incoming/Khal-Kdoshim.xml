@@ -4,7 +4,7 @@
       <fileDesc>
          <titleStmt>
             <title type="main">Ke'hal Kedoshim 1865 קהל קדושים</title>
-         </titleStmt>
+         </titleStmt><editionStmt><edition n="1.0.0">Working edition</edition></editionStmt>
          <publicationStmt>
             <p>This edition was created in the framework of the the project "Historical Digital
                Analysis of Hasidic Stories Until 1914", PI: Gadi Sagiv; Named Entities annotation:
@@ -12,11 +12,11 @@
                Rusinek. This edition was prepared using an implementation of TEI-Publisher Annotator
                and the XML-Planter, developed by DH-dev.com (Gil Shalit).</p>
          </publicationStmt>
-         <sourceDesc><bibl type="original"><title type="main" xml:lang="he">קהל קדושים</title><title type="main" xml:lang="en">Ke'hal Kedoshim</title><author><persName xml:lang="he" ref="#tempH-22">אנונימי  (מנחם מנדל בודק)</persName><persName xml:lang="en" ref="#tempH-22">Anonymous (Menachem Mendel Bodek)</persName></author><imprint><pubPlace ref="#H-LOC_40" xml:lang="he">למברג</pubPlace><pubPlace ref="#H-LOC_40" xml:lang="en">Lvov</pubPlace><date when="1865">תרכה</date></imprint><textLang mainLang="heb" /><idno type="BHB">115767</idno><idno type="ALMA">990012775890205171</idno><idno type="Kima">166</idno><idno type="Kitsis">14</idno><idno type="Transkribus">1778986</idno><idno type="DBid">3629</idno><idno type="work">16</idno></bibl></sourceDesc><seriesStmt>
+         <seriesStmt>
             <title>Hasidim</title>
-         </seriesStmt>
-         <editionStmt><edition n="1.0.0">Working edition</edition></editionStmt></fileDesc>
-   <revisionDesc><change when="2026-03-19">Edition management migration (canonical filename + archived uncorrected source); version none -&gt; 1.0.0</change><change when="2026-03-24">sourceDesc synced from edition-metadata.json</change><change when="2026-03-24">sourceDesc synced from edition-metadata.json</change></revisionDesc></teiHeader>
+         </seriesStmt><sourceDesc><bibl type="original"><title type="main" xml:lang="he">קהל קדושים</title><title type="main" xml:lang="en">Ke'hal Kedoshim</title><author><persName xml:lang="he">אנונימי  (מנחם מנדל בודק)</persName><persName xml:lang="en">Anonymous (Menachem Mendel Bodek)</persName></author><pubPlace ref="#H-LOC_40" xml:lang="he">למברג</pubPlace><pubPlace ref="#H-LOC_40" xml:lang="en">Lvov</pubPlace><date when="1865">תרכה</date><textLang mainLang="heb" /><idno type="BHB">115767</idno><idno type="ALMA">990012775890205171</idno><idno type="Kima">166</idno><idno type="Kitsis">14</idno><idno type="Transkribus">1778986</idno><idno type="DBid">3629</idno><idno type="work">16</idno></bibl></sourceDesc>
+         </fileDesc>
+   <revisionDesc><change when="2026-03-19">Edition management migration (canonical filename + archived uncorrected source); version none -&gt; 1.0.0</change><change when="2026-03-24">sourceDesc synced from edition-metadata.json</change><change when="2026-03-24">sourceDesc synced from edition-metadata.json</change><change when="2026-03-24">sourceDesc synced from edition-metadata.json</change></revisionDesc></teiHeader>
 
    <text>
       <front>

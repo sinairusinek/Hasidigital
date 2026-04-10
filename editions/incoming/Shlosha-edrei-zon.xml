@@ -1,18 +1,18 @@
-<?xml version='1.0' encoding='UTF-8'?>
+<?xml version='1.0' encoding='utf-8'?>
 <TEI xmlns="http://www.tei-c.org/ns/1.0">
 	<teiHeader>
 		<fileDesc>
 			<titleStmt>
 				<title type="main">Shlosha Edrei Tzon 1874 שלשה עדרי צאן</title>
-			</titleStmt>
+			</titleStmt><editionStmt><edition n="1.0.0">Working edition</edition></editionStmt>
 			<publicationStmt>
 				<publisher>tranScriptorium</publisher>
 			</publicationStmt>
-			<sourceDesc><bibl type="original"><title type="main" xml:lang="he">שלשה עדרי צאן</title><title type="main" xml:lang="en">Shlosha Edrei Tzon</title><author><persName xml:lang="he" ref="#tempH-47">מנחם מלי סופר</persName><persName xml:lang="en" ref="#tempH-47">Menachem Mali Sofer</persName></author><imprint><pubPlace xml:lang="he">פרעמישל</pubPlace><pubPlace xml:lang="en">Przemysl</pubPlace><date when="1874">תרלד  (קישור לדפוס תרצ)</date></imprint><textLang mainLang="heb" /><idno type="BHB">148530</idno><idno type="ALMA">990020076950205171</idno><idno type="Kima">424</idno><idno type="Kitsis">19</idno><idno type="DBid">3646</idno><idno type="work">22</idno></bibl></sourceDesc><editionStmt><edition n="1.0.0">Working edition</edition></editionStmt></fileDesc>
-	<revisionDesc><change when="2026-03-19">Edition management migration (canonical filename + archived uncorrected source); version none -&gt; 1.0.0</change><change when="2026-03-24">sourceDesc synced from edition-metadata.json</change><change when="2026-03-24">sourceDesc synced from edition-metadata.json</change></revisionDesc></teiHeader>
+			<sourceDesc><bibl type="original"><title type="main" xml:lang="he">שלשה עדרי צאן</title><title type="main" xml:lang="en">Shlosha Edrei Tzon</title><author><persName xml:lang="he">מנחם מלי סופר</persName><persName xml:lang="en">Menachem Mali Sofer</persName></author><pubPlace xml:lang="he">פרעמישל</pubPlace><pubPlace xml:lang="en">Przemysl</pubPlace><date when="1874">תרלד  (קישור לדפוס תרצ)</date><textLang mainLang="heb"/><idno type="BHB">148530</idno><idno type="ALMA">990020076950205171</idno><idno type="Kima">424</idno><idno type="Kitsis">19</idno><idno type="DBid">3646</idno><idno type="work">22</idno></bibl></sourceDesc></fileDesc>
+	<revisionDesc><change when="2026-03-19">Edition management migration (canonical filename + archived uncorrected source); version none -&gt; 1.0.0</change><change when="2026-03-24">sourceDesc synced from edition-metadata.json</change><change when="2026-03-24">sourceDesc synced from edition-metadata.json</change><change when="2026-03-24">sourceDesc synced from edition-metadata.json</change></revisionDesc></teiHeader>
 	<text>
 	<front>	<div type="title-page">
-                <pb facs="ShloshaEdreiZon-0003.jpg" />
+                <pb facs="ShloshaEdreiZon-0003.jpg"/>
 		
 			<head facs="#facs_3_r">
 				ספר
@@ -36,7 +36,7 @@
 			<p>
 				מודעה שחיברו ה"ה מוח"ז הרבני המופלא צדיק תמים עובד
 				ה׳ כל הימים ונתגדל בין החכמים ושימש צדיקים
-				רבים למד ולימד יראת שמים כ״ש מוה<persName>׳</persName> <persName>מנחם מגלי סופר</persName> ז"ל
+				רבים למד ולימד יראת שמים כ״ש מוה׳ <persName>מנחם מגלי סופר</persName> ז"ל
 				והתאמץ חתנו הרבני מוה׳ <persName>משה</persName> שו״ב להדפיסו ולהפיצו על
 				פני תבל אשר ע״כ אסור להסיגו גבול הן במדינה זו או
 				במדינה אחרת במתכונתו ושלא במתכונתו בלתי רשותו או מבאי
@@ -56,7 +56,7 @@
 				U.P.A Zupnik et. Knoller in <placeName ref="#H-LOC_126">Przemysl</placeName>. <date>1874</date>
 			</p>
 	</div>
-            <div type="preface">			<pb facs="ShloshaEdreiZon-0004.jpg" />
+            <div type="preface">			<pb facs="ShloshaEdreiZon-0004.jpg"/>
 		<head facs="#facs_4_r">
 		הקדמה
 	</head>
@@ -70,7 +70,7 @@
 			ומקיימין בעצמם העדות אשר הבורא העיד על <persName>משה רבינו</persName> ע״ה
 			בכל ביתי נאמן הוא וידוע כי סודות ה<name type="work">תורה</name> נקרא בית ד׳ כביכול
 			בדרך לשבר את האוזן על דרך השאלה כי סודות ה<name type="work">תורה</name> היא
-			פנימיות התור' כמו שביקש משיח <persName>ד'</persName> <persName>דוד המלך</persName> ע"ה גל עיני ואביט' נפלאו׳
+			פנימיות התור' כמו שביקש משיח ד' <persName>דוד המלך</persName> ע"ה גל עיני ואביט' נפלאו׳
 			מתורתיך אמנם הצדיקים האמיתיים אינם מגלים ומקיימים הפסוק
 			סוד <name type="misc">ד'</name> ליראיו ר"ל אצל יראים <name type="misc">ד'</name> הוא סוד אך אמנם לפעמים
 			בעת דחקות או עת צרה ר"ל לישראל מגלים מעט מזעיר לתלמידים
@@ -92,13 +92,13 @@
 			אב"ד ור״מ מנ"ש ומתלמידו המובחר הרב הגאון הק׳ הצנע לכת
 			מו״ה <persName>דוב בעריש</persName> אב"ד דק׳ אושפצין והג׳ עולם
 			על. גביהן הרב הגאון הק׳ הצדיק <persName>רשכב״ה</persName> מו״ה <persName>אריה
-			ליבוש</persName> אב"ד דק<placeName>׳</placeName> <placeName ref="#H-LOC_262">ווישניצא</placeName> אשר שמשתי אותם וקראתי
+			ליבוש</persName> אב"ד דק׳ <placeName ref="#H-LOC_262">ווישניצא</placeName> אשר שמשתי אותם וקראתי
 			שם החיבור שלשה עדרי צאן כי המ״ק של שמי <persName>מנחם בן
 		
 		<fw facs="#facs_4_tr_1731318080" type="catch">
 			יהודה
 		</fw>
-		<pb facs="ShloshaEdreiZon-0005.jpg" />
+		<pb facs="ShloshaEdreiZon-0005.jpg"/>
 	
 			יהודה</persName> עם הכולל עולה מ"ו כמו שלשה עדרי צאן עם הג'
 			תיבות וכן <persName>שלמה דוב אריה</persName> י"א אותיות כמו זה ועתה
@@ -115,11 +115,11 @@
             </div>
         </front>	<body>
             <div type="story" xml:id="Shlosha-Edrei-Zon_0001">		
-				<head type="storyHead">Shlosha-Edrei-Zon_0001</head><span ana="TBD:Unknown" />
+				<head type="storyHead">Shlosha-Edrei-Zon_0001</head><span ana="TBD:Unknown"/>
 <p>
 					מעשה נפלאה חדשה מובאת בעז"ה עתה אתחיל לספר ראשית
 					התקרבותי אל הצדיקים ההם כי כאשר גמרתי הלימוד
-					מלאכת סת״מ ב<placeName>ק'</placeName> <placeName ref="#H-LOC_38">בריגיל</placeName> נחני ה<persName>׳</persName> דרך עיר <placeName>יענדרחויף</placeName> וכתבתי
+					מלאכת סת״מ ב<placeName>ק'</placeName> <placeName ref="#H-LOC_38">בריגיל</placeName> נחני ה׳ דרך עיר <placeName>יענדרחויף</placeName> וכתבתי
 					שמה כמה ס"ת ושם נתקשרתי בעבותות התנאים עם אחות הרב
 					הגדול אב"ד דק׳ <placeName ref="#H-LOC_438">זאטיר</placeName> הנקרא בפי הבריות מ׳ ר׳ <persName>יעק עלי
 					זאטורר</persName> ושמו היה ר׳ <persName>משה יעקב זצ"ל</persName> בעת ההוא שלחו אנשי עיר
@@ -141,7 +141,7 @@
 				<fw facs="#facs_5_tr_1731318079" type="catch">
 					אשר
 				</fw>
-				<pb facs="ShloshaEdreiZon-0006.jpg" />
+				<pb facs="ShloshaEdreiZon-0006.jpg"/>
 				<fw facs="#facs_6_r" type="pageNum">
 					5
 				</fw>
@@ -167,7 +167,7 @@
 				</p>
             </div>
             <div type="story" xml:id="Shlosha-Edrei-Zon_0002">
-				<head type="storyHead">Shlosha-Edrei-Zon_0002</head><span ana="TBD:Unknown" />
+				<head type="storyHead">Shlosha-Edrei-Zon_0002</head><span ana="TBD:Unknown"/>
 <p>
 					בצהרים עשה הבעה"ב אשר כתבתי אצלו הס״ת עבורו
 					וכל הנלוים אליו סעודה גדולה וכאשר בא אל
@@ -188,7 +188,7 @@
 				<fw facs="#facs_6_r_33" type="catch">
 					ב״ד
 				</fw>
-				<pb facs="ShloshaEdreiZon-0007.jpg" />
+				<pb facs="ShloshaEdreiZon-0007.jpg"/>
 				<fw facs="#facs_7_r_2" type="pageNum">
 					8
 				</fw>
@@ -207,7 +207,7 @@
 				</p>
             </div>
             <div type="story" xml:id="Shlosha-Edrei-Zon_0003">
-				<head type="storyHead">Shlosha-Edrei-Zon_0003</head><span ana="TBD:Unknown" />
+				<head type="storyHead">Shlosha-Edrei-Zon_0003</head><span ana="TBD:Unknown"/>
 <p>
 					עתה אספר פלא א' אשר ראיתי אז ממנו. וזאת כי
 					ביענדרחוף היה שם מלמד <persName>א׳</persName> ו<persName>שמו ר׳</persName> <persName>וואלף</persName> אשר למד
@@ -228,14 +228,14 @@
 					חלש מאוד והלך עוד בחוץ עם הלולקי ועשן טבאק והוא אומר
 					זאת ברוה״ק וכבר אמר לי ר' <persName>בעריש</persName> כי לא יצטרך ליתן לו קוויטל
 					כי כאשר רואה בפני אדם מיד הוא מרגיש כל הצטרכו וכוונת
-					ר<persName>׳</persName> <persName>זאב</persName> היה לחנך אותי באמונת הצדיקים ויהי כאשר פתר כן
-					היה המוכסן דשם שכר את ר<persName>׳</persName> <persName>זאב</persName> להיות אצלו בנידרלאג וליתן
+					ר׳ <persName>זאב</persName> היה לחנך אותי באמונת הצדיקים ויהי כאשר פתר כן
+					היה המוכסן דשם שכר את ר׳ <persName>זאב</persName> להיות אצלו בנידרלאג וליתן
 					המשקים ל<persName>שענקיר</persName> ולכותב בוך האלטר והי׳ אצלו כמה שנים עד
 				</p>
 				<fw facs="#facs_7_tr_1731318079" type="catch">
 					שסייגל
 				</fw>
-				<pb facs="ShloshaEdreiZon-0008.jpg" />
+				<pb facs="ShloshaEdreiZon-0008.jpg"/>
 				<fw facs="#facs_8_r_21" type="pageNum">
 					9
 				</fw>
@@ -245,7 +245,7 @@
 				</p>
             </div>
             <div type="story" xml:id="Shlosha-Edrei-Zon_0004">
-				<head type="storyHead">Shlosha-Edrei-Zon_0004</head><span ana="TBD:Unknown" />
+				<head type="storyHead">Shlosha-Edrei-Zon_0004</head><span ana="TBD:Unknown"/>
 <p>
 					אחר הדברים האלה בא הרב ר׳ <persName>שלמה</persName> לק' אושפצין אל הרב
 					ר׳ <persName>בעריש</persName> תלמידו על <date>שבת</date> כדי לחזק את ר' <persName>בעריש</persName>
@@ -269,7 +269,7 @@
 				</p>
             </div>
             <div type="story" xml:id="Shlosha-Edrei-Zon_0005">
-				<head type="storyHead">Shlosha-Edrei-Zon_0005</head><span ana="TBD:Unknown" />
+				<head type="storyHead">Shlosha-Edrei-Zon_0005</head><span ana="TBD:Unknown"/>
 <p>
 					ואז כשהי' הרב ב<persName>יענדרחוף</persName> היו שם ב׳ אחים א' הי' ראש הקהל ושמו
 					ר׳ <persName>אייזק אונגר</persName> ואחיו שמו ר' <persName>משה</persName>. ור' <persName>משה</persName> היה אז כבן ששים
@@ -279,7 +279,7 @@
 					אוי אוי כי יש עוד פה הורגי נפשות וכך צעק כמה פעמים והיה
 					פלא גדול בין האנשים כי ידעו בבירור כי מעולם לא הרגו נפש
 					ואח״כ נתן הרב את עינו על השו"ב דמתא ושמו ר' <persName>נחמיה</persName> אשר
-					הרב ציוה אותו להיות שו״ב ואמר בה״ל ר<persName>׳</persName> <persName>נחמיה</persName> אתה שוחט
+					הרב ציוה אותו להיות שו״ב ואמר בה״ל ר׳ <persName>נחמיה</persName> אתה שוחט
 					ומותר לך להיות שוחט אפילו ב<placeName ref="#H-LOC_152">בראד</placeName> וכשמוע ר׳ <persName>איתק</persName> דברי הרב
 					קרא אותנו לחדר שני ואמר לנו אתה יודע ומבין דבריו של הרב
 					כי אחי ר' <persName>משה</persName> היה פה שו״ב לערך ב׳ שנים בעוד היה רווק אכן
@@ -287,7 +287,7 @@
 				<fw facs="#facs_8_tr_1731318078" type="catch">
 					כאשר
 				</fw>
-				<pb facs="ShloshaEdreiZon-0009.jpg" />
+				<pb facs="ShloshaEdreiZon-0009.jpg"/>
 				<fw facs="#facs_9_r_81" type="pageNum">
 					ועו
 				</fw>
@@ -303,7 +303,7 @@
 				</p>
             </div>
         	<div type="story" xml:id="Shlosha-Edrei-Zon_0006">
-				<head type="storyHead">Shlosha-Edrei-Zon_0006</head><span ana="TBD:Unknown" />
+				<head type="storyHead">Shlosha-Edrei-Zon_0006</head><span ana="TBD:Unknown"/>
 <p>
 					הנה אספר לכם מעשה אשר ראיתי בעיני ושמעתי באזני :
 					וזאת כי בערך חצי מיל מ<placeName>יענדרחויף</placeName> בכפר ישב שם יהודי
@@ -334,7 +334,7 @@
 				<fw facs="#facs_9_tr_1731318078" type="catch">
 					<persName>שמשון</persName>
 				</fw>
-				<pb facs="ShloshaEdreiZon-0010.jpg" />
+				<pb facs="ShloshaEdreiZon-0010.jpg"/>
 				<fw facs="#facs_10_r_99" type="pageNum">
 					8
 				</fw>
@@ -366,7 +366,7 @@
 				</fw>
             </div>
             <div type="story" xml:id="Shlosha-Edrei-Zon_0007">
-				<head type="storyHead">Shlosha-Edrei-Zon_0007</head><span ana="TBD:Unknown" />
+				<head type="storyHead">Shlosha-Edrei-Zon_0007</head><span ana="TBD:Unknown"/>
 <p>
 					פ״א סיפר לי הרב ר' <persName>בעריש</persName> תלמידו מעשה נורא. כי היה
 					דרכו שתלמידיו היו לומדים איזה שיטה עם כל הראשונים
@@ -381,7 +381,7 @@
 					לולי זה מהיכן הרגיש בשעת חריפות שנסתתמו שערי תפילה וזה
 					פלא גדול ויותר כי שמעתי ממנו כי מעולם לא היה אצלו בביתו
 				</p>
-				<pb facs="ShloshaEdreiZon-0011.jpg" />
+				<pb facs="ShloshaEdreiZon-0011.jpg"/>
 				<fw facs="#facs_11_r" type="pageNum">
 					6
 				</fw>
@@ -397,7 +397,7 @@
 				</p>
             </div>
             <div type="story" xml:id="Shlosha-Edrei-Zon_0008">
-				<head type="storyHead">Shlosha-Edrei-Zon_0008</head><span ana="TBD:Unknown" />
+				<head type="storyHead">Shlosha-Edrei-Zon_0008</head><span ana="TBD:Unknown"/>
 <p>
 					עוד סיפר לנו אדומ״ו הרב הק' <persName>מ' בעריש</persName> כי פ"א בשעת לימוד
 					חריפות באו ב׳ אנשים בקרון ועל העגלה הביאו בת
@@ -419,7 +419,7 @@
 				</p>
             </div>
             <div type="story" xml:id="Shlosha-Edrei-Zon_0009">
-				<head type="storyHead">Shlosha-Edrei-Zon_0009</head><span ana="TBD:Unknown" />
+				<head type="storyHead">Shlosha-Edrei-Zon_0009</head><span ana="TBD:Unknown"/>
 <p>
 					הנה אספר ל<persName>אב"י</persName> אשר סיפר לי הרב הגאון מהר"ש מ<placeName ref="#H-LOC_36">קרשאנוב</placeName>
 					בעת אשר בא ל<placeName>יענדרחוף</placeName> וכך אמר כאשר נשאתי אשה
@@ -431,7 +431,7 @@
 					ואמרתי לה דברים של טעם מה שכתוב בכתובה ומהיכן אקח לפרנס
 					אותך והשיבה לי מי שמפרנס את כל העולם יפרנס אותנו ג״כ רק
 				</p>
-				<pb facs="ShloshaEdreiZon-0012.jpg" />
+				<pb facs="ShloshaEdreiZon-0012.jpg"/>
 				<fw facs="#facs_12_tr_1731318080" type="pageNum">
 					40
 				</fw>
@@ -443,15 +443,15 @@
 				</p>
             </div>
             <div type="story" xml:id="Shlosha-Edrei-Zon_0010">
-				<head type="storyHead">Shlosha-Edrei-Zon_0010</head><span ana="TBD:Unknown" />
+				<head type="storyHead">Shlosha-Edrei-Zon_0010</head><span ana="TBD:Unknown"/>
 <p>
 					באותו העת נשמע כי הרב הגאון הגדול <persName>ר"ר</persName> שמעלקי נתמנה
-					לניקול <persName>שבורג</persName> לרב ור"מ אז אמרה לי זו' שאסע ל<placeName>כ<orgName />״ש</placeName>
+					לניקול <persName>שבורג</persName> לרב ור"מ אז אמרה לי זו' שאסע ל<placeName>כ״ש</placeName>
 					ללמוד <name type="work">תורה</name> ושמעתי לדברי׳ ונסעתי ל<placeName ref="#H-LOC_66">נ"ש</placeName> וכשבאתי אליו קיבל
 					אותי ב<orgName>ספ</orgName>״י ואמר לי כי באתי אליו במועדו ובזמנו כי הרבנים
 					ממעהרין אומרים כי הוא איננו גדול בתורה בנגלה רק בכסתר
 					יש לו רוה״ק ונוהג נשיאותו ברוה״ק ואין משגיחים ב<placeName>ב"ק</placeName> וטעותם
-					היה יען כי לא דיבר עמהם רק בלה<persName>״</persName>ק ולא היה יכול לפלפל
+					היה יען כי לא דיבר עמהם רק בלה<persName>״ק</persName> ולא היה יכול לפלפל
 					עמהם כרצונם רק בקיצור גדול כי באמת הי' גדול הדור גם בנגלה
 					ובכל פעם באו רבנים אחרים לתהות על קנקנו ובאו עם קשיות
 					לכן אתה תשב על צד ימיני ותפלפל עמהם כרצונם לפי שכלם
@@ -465,10 +465,10 @@
 				</p>
             </div>
             <div type="story" xml:id="Shlosha-Edrei-Zon_0011">
-				<head type="storyHead">Shlosha-Edrei-Zon_0011</head><span ana="TBD:Unknown" />
+				<head type="storyHead">Shlosha-Edrei-Zon_0011</head><span ana="TBD:Unknown"/>
 <p>
 					בעת ההוא כאשר באתי לנ"ש היה שם הרב הק' <persName>מ׳</persName> <persName>יעקב
-					יצחק</persName> אשר נעשה אחר כמה שנים ר<persName>׳</persName> ב<placeName ref="#H-LOC_56">לובלין</placeName> והוא הי'
+					יצחק</persName> אשר נעשה אחר כמה שנים ר׳ ב<placeName ref="#H-LOC_56">לובלין</placeName> והוא הי'
 					מילידי ל<placeName ref="#H-LOC_19">אנצוט</placeName> והי' ג״כ ב׳ שנים אחר הנשואין והיה יושב בישיבה
 					בשפל מקום לא שאל כלל כמו שאר בחורים ולא הביט מד' אמותיו
 					חוצה בפני שום אדם זולת בפני רבו רק הלך תמיד בשת עינים
@@ -483,7 +483,7 @@
 				<fw facs="#facs_12_tr_1731318079" type="catch">
 					20
 				</fw>
-				<pb facs="ShloshaEdreiZon-0013.jpg" />
+				<pb facs="ShloshaEdreiZon-0013.jpg"/>
 				<fw facs="#facs_13_r_168" type="pageNum">
 					11
 				</fw>
@@ -520,7 +520,7 @@
 				</p>
             </div>
             <div type="story" xml:id="Shlosha-Edrei-Zon_0012">
-				<head type="storyHead">Shlosha-Edrei-Zon_0012</head><span ana="TBD:Unknown" />
+				<head type="storyHead">Shlosha-Edrei-Zon_0012</head><span ana="TBD:Unknown"/>
 <p>
 					הנה סיפר לי מו"ר ר' <persName>בעריש</persName> כי בימי חורפו כאשר היה בן
 					עשרים שנה התחיל רבו הרב הק<persName>' מ<placeName ref="#H-LOC_36" ana="bio">קרשאנוב</placeName></persName> להפציר בו
@@ -530,7 +530,7 @@
 				<fw facs="#facs_13_tr_1731318078" type="catch">
 					לגדול
 				</fw>
-				<pb facs="ShloshaEdreiZon-0014.jpg" />
+				<pb facs="ShloshaEdreiZon-0014.jpg"/>
 				<fw facs="#facs_14_tr_1733308410" type="pageNum">
 					12
 				</fw>
@@ -560,7 +560,7 @@
 				</p>
             </div>
             <div type="story" xml:id="Shlosha-Edrei-Zon_0013">
-				<head type="storyHead">Shlosha-Edrei-Zon_0013</head><span ana="TBD:Unknown" />
+				<head type="storyHead">Shlosha-Edrei-Zon_0013</head><span ana="TBD:Unknown"/>
 <p>
 					ועתה ראה נא עד היכן צריך להאמין תלמיד ברבו ועד היכן
 					מגיע האמת בצדיקים אמתים א״א לספר היראה אשר
@@ -577,13 +577,13 @@
 				<fw facs="#facs_14_tr_1733308409" type="catch">
 					מעתם
 				</fw>
-				<pb facs="ShloshaEdreiZon-0015.jpg" />
+				<pb facs="ShloshaEdreiZon-0015.jpg"/>
 				<fw facs="#facs_15_tr_1733308412" type="pageNum">
 					81
 				</fw>
             </div>
             <div type="story" xml:id="Shlosha-Edrei-Zon_0014">
-				<head type="storyHead">Shlosha-Edrei-Zon_0014</head><span ana="TBD:Unknown" />
+				<head type="storyHead">Shlosha-Edrei-Zon_0014</head><span ana="TBD:Unknown"/>
 <p>
 					ועתה אני אספר גודל השגה אשר היה להרב הק' <persName>ר' בעריש</persName>
 					כי הרב <persName>הק׳ מ<placeName ref="#H-LOC_36" ana="bio">קרשאנוב</placeName></persName> נפ' ב<date>ש"ט</date> ל"ג בעומר <date>תקפ"ח</date>
@@ -610,10 +610,10 @@
 				</p>
             </div>
             <div type="story" xml:id="Shlosha-Edrei-Zon_0015">
-				<head type="storyHead">Shlosha-Edrei-Zon_0015</head><span ana="TBD:Unknown" />
+				<head type="storyHead">Shlosha-Edrei-Zon_0015</head><span ana="TBD:Unknown"/>
 <p>
 					אחר ד׳ שבועות בא זקן א' חסיד לאושפצין על <date>שבת</date> אל ר'
-					<persName>בעריש</persName> ושאל אותי האם הגידו ל<persName>מו</persName>״ר אשר רבו נפטר
+					<persName>בעריש</persName> ושאל אותי האם הגידו למו״ר אשר רבו נפטר
 					והשבתי לו מי הוא הפתי להגיד לי זה ואמר שצריך לומר לו כי
 					יכול חלילה לבא לידי סכנה והתחלתי לצחק עליו כי מעוול אינו מכיר
 					אותו ואת מדרגתו הוא מעצמו יודע היטב מה נעשה עמו אפי'
@@ -627,7 +627,7 @@
 				<fw facs="#facs_15_tr_1733308411" type="catch">
 					86
 				</fw>
-				<pb facs="ShloshaEdreiZon-0016.jpg" />
+				<pb facs="ShloshaEdreiZon-0016.jpg"/>
 				<fw facs="#facs_16_tr_1733308416" type="pageNum">
 					14
 				</fw>
@@ -644,7 +644,7 @@
 				</p>
             </div>
             <div type="story" xml:id="Shlosha-Edrei-Zon_0016">
-				<head type="storyHead">Shlosha-Edrei-Zon_0016</head><span ana="TBD:Unknown" />
+				<head type="storyHead">Shlosha-Edrei-Zon_0016</head><span ana="TBD:Unknown"/>
 <p>
 					הנה אספר מה ששמעתי ממנו בעת שהיה דורש ב<date>שבת</date> תשובה
 					בביהכ״נ היה שם יהודי ממעהרין ובא אל הדרשה ואצל
@@ -667,7 +667,7 @@
 				</p>
             </div>
             <div type="story" xml:id="Shlosha-Edrei-Zon_0017">
-				<head type="storyHead">Shlosha-Edrei-Zon_0017</head><span ana="TBD:Unknown" />
+				<head type="storyHead">Shlosha-Edrei-Zon_0017</head><span ana="TBD:Unknown"/>
 <p>
 					ועתה אספר מאדומו״ר הרב הקדוש <persName>מ' בעריש</persName> אשר שמעתי
 					ממנו פלאים פלאי פלאים כי ב<date>שנת תקפ"ט</date> נסע רבינו
@@ -679,7 +679,7 @@
 				<fw facs="#facs_16_tr_1733308414" type="catch">
 					שהיה
 				</fw>
-				<pb facs="ShloshaEdreiZon-0017.jpg" />
+				<pb facs="ShloshaEdreiZon-0017.jpg"/>
 				<p>
 					שהיה לו הרבה מאד וקרא אותם והניחם על קברו ואח״כ הלך
 					בחזרה בהשתחויה לחוץ וכאשר בא לחוץ נתנו לו מים לרחוץ את
@@ -705,13 +705,13 @@
 				</p>
             </div>
             <div type="story" xml:id="Shlosha-Edrei-Zon_0018">
-				<head type="storyHead">Shlosha-Edrei-Zon_0018</head><span ana="TBD:Unknown" />
+				<head type="storyHead">Shlosha-Edrei-Zon_0018</head><span ana="TBD:Unknown"/>
 <p>
 					הנה כתבתי ס"ת בכפר א' סמוך לאושפצין ביקש ממני הנגיד
 					הנ"ל כי היה לו חמש בנות שאדבר עם ר' <persName>בעריש</persName> שיבטיח
 					לו ב"ז וכן עשיתי ודברתי עם ר׳ והשיב לי שהוא בעצמו יבא
 					אליו וכן עשה והלך לק' אושפצין לדבר אתו וכאשר בא בחזרה
-					ושאלתי לו מה אמר ר<persName>׳</persName> והשיב לי כי הבטיח לי ב"ז בשנה זו בתנאי
+					ושאלתי לו מה אמר ר׳ והשיב לי כי הבטיח לי ב"ז בשנה זו בתנאי
 					שאתן לו הסנדקאות וכן היה. ויהי בלדתה שלחו בעדו שיבא על
 					הברית ושלח רבינו בעדי ליסע עמו על הברית ואמר לי כי אני
 					מחויב ג״כ להיות על הב״ק כי מ"ע היה שליח בדבר זה ונסענו
@@ -726,7 +726,7 @@
 				<fw facs="#facs_17_tr_1733308409" type="pageNum">
 					15
 				</fw>
-				<pb facs="ShloshaEdreiZon-0018.jpg" />
+				<pb facs="ShloshaEdreiZon-0018.jpg"/>
 				<p>
 					לאחר פטירתם לוקחים את נשמתם לג״ע במעלה עליונה וזה נקרא עולם
 					התענוג ושם אינם זוכרים כלל אם היו בזה העולם גם שוכחים את בניהם
@@ -744,7 +744,7 @@
 				</p>
             </div>
             <div type="story" xml:id="Shlosha-Edrei-Zon_0019">
-				<head type="storyHead">Shlosha-Edrei-Zon_0019</head><span ana="TBD:Unknown" />
+				<head type="storyHead">Shlosha-Edrei-Zon_0019</head><span ana="TBD:Unknown"/>
 <p>
 					בשנה ראשונה כבואי לאושפצין לא קירב אותי כלל אמנם
 					היה לי געגועים גדולים לילך אצלו ואעפ"כ הלכתי
@@ -773,7 +773,7 @@
 				<fw facs="#facs_18_tr_1733308408" type="pageNum">
 					16
 				</fw>
-				<pb facs="ShloshaEdreiZon-0019.jpg" />
+				<pb facs="ShloshaEdreiZon-0019.jpg"/>
 				<fw facs="#facs_19_tr_1733308410" type="pageNum">
 					21
 				</fw>
@@ -783,7 +783,7 @@
 				</p>
             </div>
             <div type="story" xml:id="Shlosha-Edrei-Zon_0020">
-				<head type="storyHead">Shlosha-Edrei-Zon_0020</head><span ana="TBD:Unknown" />
+				<head type="storyHead">Shlosha-Edrei-Zon_0020</head><span ana="TBD:Unknown"/>
 <p>
 					ובשנה <date>ב'</date> או <date>ג׳</date> אינני זוכר בבירור. בין כסא לעשור אמר
 					לי אחר תפילת ערבית כשהאנשים כלם ילכו להם
@@ -795,7 +795,7 @@
 				</p>
             </div>
             <div type="story" xml:id="Shlosha-Edrei-Zon_0021">
-				<head type="storyHead">Shlosha-Edrei-Zon_0021</head><span ana="TBD:Unknown" />
+				<head type="storyHead">Shlosha-Edrei-Zon_0021</head><span ana="TBD:Unknown"/>
 <p>
 					ומוכרח אנכי להקדים למע' כמה הקדמות. ראשית מבואר
 					ב<name type="work">גמ</name>׳ הק' הכל תלוי במזל אפי' ס"ת שבהיכל מרמז
@@ -823,14 +823,14 @@
 				</p>
             </div>
             <div type="story" xml:id="Shlosha-Edrei-Zon_0022">
-				<head type="storyHead">Shlosha-Edrei-Zon_0022</head><span ana="TBD:Unknown" />
+				<head type="storyHead">Shlosha-Edrei-Zon_0022</head><span ana="TBD:Unknown"/>
 <p>
 					ואח״כ אמר כי על ר׳ <persName>אייזק אונגר</persName> ראש הקהל מ<placeName>יענדרחוף</placeName>
 				</p>
 				<fw facs="#facs_19_tr_1733308409" type="catch">
 					56
 				</fw>
-				<pb facs="ShloshaEdreiZon-0020.jpg" />
+				<pb facs="ShloshaEdreiZon-0020.jpg"/>
 				<fw facs="#facs_20_tr_1733308414" type="pageNum">
 					ס
 				</fw>
@@ -847,7 +847,7 @@
 				</p>
             </div>
             <div type="story" xml:id="Shlosha-Edrei-Zon_0023">
-				<head type="storyHead">Shlosha-Edrei-Zon_0023</head><span ana="TBD:Unknown" />
+				<head type="storyHead">Shlosha-Edrei-Zon_0023</head><span ana="TBD:Unknown"/>
 <p>
 					פ"א בחצי הלילה הציתו ערלים אש בחצרו ובעז"ה ניצול משרפה
 					כי מיד נכבה רק ארגז קטן עם כל תכשיטים נגנב
@@ -859,7 +859,7 @@
 				</p>
             </div>
             <div type="story" xml:id="Shlosha-Edrei-Zon_0024">
-				<head type="storyHead">Shlosha-Edrei-Zon_0024</head><span ana="TBD:Unknown" />
+				<head type="storyHead">Shlosha-Edrei-Zon_0024</head><span ana="TBD:Unknown"/>
 <p>
 					אחר זה שכר ר׳ <persName>אייזק</persName> מהגבערנער ב<placeName ref="#H-LOC_40">לבוב</placeName> כל הברזל אשר
 					עושים בסיפשין בארץ הגר כי שם עשה הקיסר
@@ -871,7 +871,7 @@
 					ופעל כי נתן לו הרשאה על החצי וכאשר נתוודע זאת לר׳ <persName>אייזק</persName>
 					ירא לנפשו כי יכלה את המקח כי היה לו ג״כ חנות גדולה כמו
 					ר׳ <persName>אייזק</persName> וגם קרקעות אז שלח בעד ר' <persName>בעריש</persName> ז"ל שיבא אצלו.
-					ובבאו סיפר לו כל הענין השיב לו ר<persName>׳</persName> <persName>בעריש</persName> כי לא יקח הברזל
+					ובבאו סיפר לו כל הענין השיב לו ר׳ <persName>בעריש</persName> כי לא יקח הברזל
 					ור׳ <persName>אייזק</persName> לא האמין לדברו יען כי עשה הוצאה רבה ע״ז והשיב לו
 					ר׳ <persName>בעריש</persName> לא יקח בשום אופן תמתין ג׳ ימים אז יתוודע לך והרב
 					נסע לביתו. ויהי בלילה השלישית בחצי הלילה בא שכנו <placeName>ווילטשיק</placeName>
@@ -882,7 +882,7 @@
 				<fw facs="#facs_20_tr_1733308413" type="catch">
 					86
 				</fw>
-				<pb facs="ShloshaEdreiZon-0021.jpg" />
+				<pb facs="ShloshaEdreiZon-0021.jpg"/>
 				<fw facs="#facs_21_r" type="pageNum">
 					סו
 				</fw>
@@ -913,7 +913,7 @@
 				</p>
             </div>
             <div type="story" xml:id="Shlosha-Edrei-Zon_0025">
-				<head type="storyHead">Shlosha-Edrei-Zon_0025</head><span ana="TBD:Unknown" />
+				<head type="storyHead">Shlosha-Edrei-Zon_0025</head><span ana="TBD:Unknown"/>
 <p>
 					ועתה אספר לכם פלא א' כי כמו רבע פרסה סמוך לאושפצין
 					מקום ניי בראהן והיא עומדת על גבול פרייסן ואירע
@@ -929,7 +929,7 @@
 				<fw facs="#facs_21_tr_1733308414" type="catch">
 					8
 				</fw>
-				<pb facs="ShloshaEdreiZon-0022.jpg" />
+				<pb facs="ShloshaEdreiZon-0022.jpg"/>
 				<fw facs="#facs_22_tr_1733308414" type="pageNum">
 					68
 				</fw>
@@ -967,7 +967,7 @@
 				</p>
             </div>
             <div type="story" xml:id="Shlosha-Edrei-Zon_0026">
-				<head type="storyHead">Shlosha-Edrei-Zon_0026</head><span ana="TBD:Unknown" />
+				<head type="storyHead">Shlosha-Edrei-Zon_0026</head><span ana="TBD:Unknown"/>
 <p>
 					ועתה אספר לכם מה שנעשה מעשה נפלא ע״י מעשה זו
 					מקום יש ב<placeName>פרייסין</placeName> ושמו <persName>אלט ברויען</persName> והיה יומא דשוקא
@@ -976,7 +976,7 @@
 				<fw facs="#facs_22_tr_1733308413" type="catch">
 					עומדים
 				</fw>
-				<pb facs="ShloshaEdreiZon-0023.jpg" />
+				<pb facs="ShloshaEdreiZon-0023.jpg"/>
 				<fw facs="#facs_23_tr_1733308414" type="pageNum">
 					81
 				</fw>
@@ -1018,7 +1018,7 @@
 				<fw facs="#facs_23_tr_1733308415" type="catch">
 					ש
 				</fw>
-				<pb facs="ShloshaEdreiZon-0024.jpg" />
+				<pb facs="ShloshaEdreiZon-0024.jpg"/>
 				<fw facs="#facs_24_tr_1733308410" type="pageNum">
 					א
 				</fw>
@@ -1030,7 +1030,7 @@
 				</p>
             </div>
             <div type="story" xml:id="Shlosha-Edrei-Zon_0027">
-				<head type="storyHead">Shlosha-Edrei-Zon_0027</head><span ana="TBD:Unknown" />
+				<head type="storyHead">Shlosha-Edrei-Zon_0027</head><span ana="TBD:Unknown"/>
 <p>
 					השליח בא עם המכתב והוא לא הי׳ יכול לקרותו הלך
 					אל הרב דשם והראהו האגרת אז התחיל הרב
@@ -1040,7 +1040,7 @@
 					שם נוצקי קרירות ברזל וקראקא <placeName>הית׳</placeName> אז עיר חפשית שיכול להוביל
 					כל הסחורות שמה וכן ל<placeName ref="#H-LOC_36">קרשאנוב</placeName> והי׳ יושב שמה משולח נאמן מכל
 					הסוחרים אשר משלח לכל א' כרצונו והם שולחים לידו השברי
-					ברזל ושמו ר<persName>׳</persName> <persName>דוד ליב</persName> והיה למדן וחסיד מתלמידי ר' <persName>בעריש</persName> שלמד
+					ברזל ושמו ר׳ <persName>דוד ליב</persName> והיה למדן וחסיד מתלמידי ר' <persName>בעריש</persName> שלמד
 					אצלו גפ"ת ושמע איך ר׳ <persName>מיכל</persName> השיג כ״י מר' <persName>בעריש</persName> וכל העיר
 					מתלוצצים מר׳ <persName>מיכל</persName> ע"י הרב ולכן הלך מהרה אל ר' <persName>מיכל</persName> לראות
 					המכתב ויהי כראותו שמח שמחה גדולה ובירך שהחיינו ואמר כי
@@ -1049,10 +1049,10 @@
 					שלכם. אני אלך להאדון עמך. ויהי כאשר פתר כן היה ביום
 					<date>א׳</date> ציווה לסגור הדלת בעדו ביום <date>ב׳</date> אז דיבר עמו קצת וציווהו
 					לבא למחרתו ביום ג' אפשר אשכור לך. ויהי ביום השלישי ציוות
-					ר<persName>׳</persName> <persName>דוד ליב</persName> שיקנה סטעמפל <placeName>בוגין</placeName> כדי שיהי' מוכן לכתוב השטר.
+					ר׳ <persName>דוד ליב</persName> שיקנה סטעמפל <placeName>בוגין</placeName> כדי שיהי' מוכן לכתוב השטר.
 					ויהי בבאו לבית קבלו בספ"י בשמחה רבה והאדונית ביותר והשכיר
 					לו הכל כרצונו וכן קרהו כי לא הניחו לישן ב׳ ימים כמו שנז'
-					לעיל במעשה דיענדרחויף ואחר השכירו מיד ישן ולקח ר<persName>׳</persName> <persName>דוד
+					לעיל במעשה דיענדרחויף ואחר השכירו מיד ישן ולקח ר׳ <persName>דוד
 					ליב</persName> הקונטראקט והלך אל הרב דשם והראהו ואמר לו דברים לא
 					טובים כי הרבני פרייזין עושים אפיקורסים במדינה והלך לשוק
 					והאסיף את כלם והראה להם כי כן נעשה כמ"ש ר' <persName>בעריש</persName> אך
@@ -1065,7 +1065,7 @@
 				<fw facs="#facs_24_tr_1733308408" type="catch">
 					ובודאים
 				</fw>
-				<pb facs="ShloshaEdreiZon-0025.jpg" />
+				<pb facs="ShloshaEdreiZon-0025.jpg"/>
 				<fw facs="#facs_25_tr_1733308412" type="pageNum">
 					28
 				</fw>
@@ -1075,7 +1075,7 @@
 				</p>
             </div>
             <div type="story" xml:id="Shlosha-Edrei-Zon_0028">
-				<head type="storyHead">Shlosha-Edrei-Zon_0028</head><span ana="TBD:Unknown" />
+				<head type="storyHead">Shlosha-Edrei-Zon_0028</head><span ana="TBD:Unknown"/>
 <p>
 					פ"א ב<placeName>ש"ק</placeName> בא שליח ערל עם מכתב והשליח הניח את המכתב
 					בהתבה והוא המתין על תשובה ואחר הבדלה נתנה
@@ -1099,7 +1099,7 @@
 				</p>
             </div>
             <div type="story" xml:id="Shlosha-Edrei-Zon_0029">
-				<head type="storyHead">Shlosha-Edrei-Zon_0029</head><span ana="TBD:Unknown" />
+				<head type="storyHead">Shlosha-Edrei-Zon_0029</head><span ana="TBD:Unknown"/>
 <p>
 					פ״א לא הייתי בביתי ונחלה בתי בת ז׳ שנים ונפלה למשכב
 					ושלחו בעדי שאבא וכן באתי ביום ב' וראיתי שכמעט
@@ -1117,7 +1117,7 @@
 				<fw facs="#facs_25_tr_1733308410" type="catch">
 					ששם
 				</fw>
-				<pb facs="ShloshaEdreiZon-0026.jpg" />
+				<pb facs="ShloshaEdreiZon-0026.jpg"/>
 				<fw facs="#facs_26_tr_1733308408" type="pageNum">
 					82
 				</fw>
@@ -1150,13 +1150,13 @@
 					ומע׳ אינו מבין עוד קודם אור הבקר גרשתי לה הנשמה וביום
 					ב׳ בקשה להלביש אותה במלבושה ורצתה לירד מהמיטה והלבישה
 					אותה אמה וכאשר עמדה על הארץ מיד נפלה והשכיבה אותה
-					בחזרה על המיטה וביום ג' הלכה מעצמה על הארץ אך רבי<persName>'</persName>
+					בחזרה על המיטה וביום ג' הלכה מעצמה על הארץ אך רבי'
 					צוה שלא כניח׳ לילד מן המיטה מפני עין הרע כן יעזור השם
 					תמיד :
 				</p>
             </div>
             <div type="story" xml:id="Shlosha-Edrei-Zon_0030">
-				<head type="storyHead">Shlosha-Edrei-Zon_0030</head><span ana="TBD:Unknown" />
+				<head type="storyHead">Shlosha-Edrei-Zon_0030</head><span ana="TBD:Unknown"/>
 <p>
 					הנה אתחיל לספר התקרבות שנעשה בין הרב ר' <persName>בעריש</persName> ובין
 					הרב הגאון הק׳ <persName>מהר"א</persName> מווישניצא ועתה אחי עשה אזנך
@@ -1164,18 +1164,18 @@
 				<fw facs="#facs_26_tr_1733308409" type="catch">
 					באפרבם
 				</fw>
-				<pb facs="ShloshaEdreiZon-0027.jpg" />
+				<pb facs="ShloshaEdreiZon-0027.jpg"/>
 				<fw facs="#facs_27_tr_1733308409" type="pageNum">
 					58
 				</fw>
 				<p>
 					כאפרכס ותשמע פלאי פלאים איך הצדיקים האמתיים אשר הם
-					משלשלת הבעש<persName>״<orgName />ט</persName> יודעים הכל מן השמים כי מגלים להם כמ״ש
+					משלשלת הבעש<persName>״ט</persName> יודעים הכל מן השמים כי מגלים להם כמ״ש
 					ב<name type="work">זוהר</name> הק<name type="work">'</name> <name type="work">פ' שמות</name> דף ז' ובשמים אין טעות כלל ולא ספק
 					לערך ב׳ או ג׳ שנים אחר נשואין שלי אחר לידת בתי הענא <persName>מרים
 					ת'</persName> אשר ספרתי ממנה לעיל נעשית זוגתי חולנית במשך ג׳ שנים
 					וכלאו הרופאים לעשות לה רפואות ומה גם נתייאשו להוליד בנים
-					בשום אופן ועם רבי<persName>'</persName> לא דברתי כלום מזה כי ראיתי שהוא יודע
+					בשום אופן ועם רבי' לא דברתי כלום מזה כי ראיתי שהוא יודע
 					הכל וקבלתי הכל באהבה ובפרט כי הרב חקר ממני הכל בכל יום
 					ממש ממעמדה ביום התענית בא בעצמו אליה שלא תתענה ולא
 					הלך מביתו עד שתאכל חתיכה לקח בפניו וכאשר עברו לערך ג׳
@@ -1199,9 +1199,9 @@
 					מעשה קטנה :
 				</p>
             </div>
-            <div type="story" xml:id="Shlosha-Edrei-Zon_0031">				<head type="storyHead">Shlosha-Edrei-Zon_0031</head><span ana="TBD:Unknown" />
+            <div type="story" xml:id="Shlosha-Edrei-Zon_0031">				<head type="storyHead">Shlosha-Edrei-Zon_0031</head><span ana="TBD:Unknown"/>
 <p>
-					אחר פטירת הרב הק' מ<placeName ref="#H-LOC_56">לובלין</placeName> בא חסיד א<persName>׳</persName> ל<placeName ref="#H-LOC_36">קרשאנוב</placeName> אל
+					אחר פטירת הרב הק' מ<placeName ref="#H-LOC_56">לובלין</placeName> בא חסיד א׳ ל<placeName ref="#H-LOC_36">קרשאנוב</placeName> אל
 					רבי <persName>מהר"ש זצ"ל</persName> וישב אצלו איזה שבתים פ"א קרא אותי
 					לילך לטייל ואמר לי ראה נא אחי גודל השתנות שנעשה אחר
 					<persName>פטיר׳</persName> מו״ר מ<placeName ref="#H-LOC_56">לובלין</placeName> כי ישבו אנשים על כסא רבנות ולוקחים
@@ -1210,7 +1210,7 @@
 				<fw facs="#facs_27_tr_1733308408" type="catch">
 					שמעתי
 				</fw>
-				<pb facs="ShloshaEdreiZon-0028.jpg" />
+				<pb facs="ShloshaEdreiZon-0028.jpg"/>
 				<fw facs="#facs_28_tr_1733308416" type="pageNum">
 					20
 				</fw>
@@ -1252,7 +1252,7 @@
 				<fw facs="#facs_28_tr_1733308415" type="catch">
 					86
 				</fw>
-				<pb facs="ShloshaEdreiZon-0029.jpg" />
+				<pb facs="ShloshaEdreiZon-0029.jpg"/>
 				<fw facs="#facs_29_tr_1733308412" type="pageNum">
 					6
 				</fw>
@@ -1294,7 +1294,7 @@
 				<fw facs="#facs_29_tr_1733308413" type="catch">
 					עם
 				</fw>
-				<pb facs="ShloshaEdreiZon-0030.jpg" />
+				<pb facs="ShloshaEdreiZon-0030.jpg"/>
 				<fw facs="#facs_30_tr_1733308412" type="pageNum">
 					ש
 				</fw>
@@ -1310,7 +1310,7 @@
 				</p>
             </div>
             <div type="story" xml:id="Shlosha-Edrei-Zon_0032">
-				<head type="storyHead">Shlosha-Edrei-Zon_0032</head><span ana="TBD:Unknown" />
+				<head type="storyHead">Shlosha-Edrei-Zon_0032</head><span ana="TBD:Unknown"/>
 <p>
 					ואחר עברו איזה חדשים נשמע כי בא רב לווישניצא והלכתי
 					אל הרב מו"ר לאמר לו והשיב לי ידעתי. ושאלתיו
@@ -1336,12 +1336,12 @@
 					רב ידע ערכו כי הוא סמוך אולם הרב מ<placeName ref="#H-LOC_262">ווישניצא</placeName> היאך הוא מכירו
 					אם לא עפ"י רוה"ק ורבי' ר' <persName>בעריש</persName> הקיף כל העיר וציווה אותנו
 					בכדי שלא יודע לאיש האיך אנו נוסעים וכאשר ישבנו על העגלה
-					התחיל רבי<persName>׳</persName> לכבות כמו ילד קטן באשר אנו נוסעים <placeName>לג״ע</placeName> והוא
+					התחיל רבי׳ לכבות כמו ילד קטן באשר אנו נוסעים <placeName>לג״ע</placeName> והוא
 				</p>
 				<fw facs="#facs_30_tr_1733308411" type="catch">
 					ישאר
 				</fw>
-				<pb facs="ShloshaEdreiZon-0031.jpg" />
+				<pb facs="ShloshaEdreiZon-0031.jpg"/>
 				<fw facs="#facs_31_tr_1733308415" type="pageNum">
 					20
 				</fw>
@@ -1383,7 +1383,7 @@
 				<fw facs="#facs_31_tr_1733308414" type="catch">
 					איני
 				</fw>
-				<pb facs="ShloshaEdreiZon-0032.jpg" />
+				<pb facs="ShloshaEdreiZon-0032.jpg"/>
 				<fw facs="#facs_32_tr_1733308415" type="pageNum">
 					30
 				</fw>
@@ -1415,7 +1415,7 @@
 					בעלת מו"מ או עוסקים באיזה מלאכה וב<date>שבת</date> לא היו עוסקים
 					היו כאבים האש' הזאת יש לה ג"כ נשמה מנשיא דמחוזא לכן
 					מוכרחת לעסוק באיזה מו״מ אמרתי לו כי עני גדול אני אז אמר
-					אל הנגיד ר<persName>׳</persName> <persName>יוסל סאדגר</persName> תשלח בעד סחורה לברין עבורה וכאשר
+					אל הנגיד ר׳ <persName>יוסל סאדגר</persName> תשלח בעד סחורה לברין עבורה וכאשר
 					תעסוק בסחורה תתמיד בריאותה יותר ויותר. והנני מבטיחך
 					שתעלה למעלה בעשירות וכן עשה ר׳ <persName>יוסל</persName>. אח״כ אמר אלי
 					אנשי <placeName>כנה״ג</placeName> התענו מ׳ תעניתים שהסופרים יהיו עניים ע״כ יבטיח
@@ -1425,7 +1425,7 @@
 				<fw facs="#facs_32_tr_1733308413" type="catch">
 					בילתי
 				</fw>
-				<pb facs="ShloshaEdreiZon-0033.jpg" />
+				<pb facs="ShloshaEdreiZon-0033.jpg"/>
 				<fw facs="#facs_33_tr_1733308412" type="pageNum">
 					184
 				</fw>
@@ -1436,7 +1436,7 @@
 				</p>
             </div>
             <div type="story" xml:id="Shlosha-Edrei-Zon_0033">
-				<head type="storyHead">Shlosha-Edrei-Zon_0033</head><span ana="TBD:Unknown" />
+				<head type="storyHead">Shlosha-Edrei-Zon_0033</head><span ana="TBD:Unknown"/>
 <p>
 					ועתה אספר לכם החכמה הגדולה אשר ראיתי בהרב <placeName>מווישניצא</placeName>
 					כי בכל פעם אשר היינו אצלו נתתי לו קוויטל ממ"ו
@@ -1473,17 +1473,17 @@
 				<fw facs="#facs_33_tr_1733308411" type="catch">
 					המדריגות
 				</fw>
-				<pb facs="ShloshaEdreiZon-0034.jpg" />
+				<pb facs="ShloshaEdreiZon-0034.jpg"/>
 				<fw facs="#facs_34_tr_1733308413" type="pageNum">
 					88
 				</fw>
 				<p>
-					ורבי<persName>'</persName> הלך לפנינו ויהי כבואו אל הדלת נפל עליו פחד גדול
+					ורבי' הלך לפנינו ויהי כבואו אל הדלת נפל עליו פחד גדול
 					ונשתנה צורתו ולא היה יכול לפתוח הדלת כי היה מרתת. אז
 					שלחתי ידי ופתחתי חצי הדלת ותיכף רץ הרב לקראתו ולקח את
-					רבי<persName>'</persName> בידו ואמר בזה"ל כי רבי שלי מ<placeName ref="#H-LOC_56">לובלין</placeName> היה ממשיך על בכי
+					רבי' בידו ואמר בזה"ל כי רבי שלי מ<placeName ref="#H-LOC_56">לובלין</placeName> היה ממשיך על בכי
 					דורו כל מיני השפעות שפע קדושה שפע טהרה שפע פרנסה ושאר
-					השפעות אני מאמין למע' יש ג״כ מדריגה זו ה<persName>ש<orgName />״י</persName> יעזור לו ויגביה
+					השפעות אני מאמין למע' יש ג״כ מדריגה זו ה<persName>ש״י</persName> יעזור לו ויגביה
 					אותו למעלה בתוך שרי אלפים ושרי מאות והדור יזכה לזה וידעו
 					מה שאני יודע. ובכובד גדול הגביה רגלו על המפתן כי לא היה
 					בכוחו מחמת פחד וכל איבריו ברעדה ופלצות כמו שאחזו <name type="misc">קדחת</name>
@@ -1513,14 +1513,14 @@
 				</p>
             </div>
             <div type="story" xml:id="Shlosha-Edrei-Zon_0034">
-				<head type="storyHead">Shlosha-Edrei-Zon_0034</head><span ana="TBD:Unknown" />
+				<head type="storyHead">Shlosha-Edrei-Zon_0034</head><span ana="TBD:Unknown"/>
 <p>
 					ואף זאת ראינו ברוה"ק שלו כי אנו נסענו כ״פ לשם ולא
 				</p>
 				<fw facs="#facs_34_tr_1733308412" type="catch">
 					דענו
 				</fw>
-				<pb facs="ShloshaEdreiZon-0035.jpg" />
+				<pb facs="ShloshaEdreiZon-0035.jpg"/>
 				<fw facs="#facs_35_tr_1733308413" type="pageNum">
 					38
 				</fw>
@@ -1546,7 +1546,7 @@
                     </persName> וכשמעו זאת
 					ענה לו ואמר אם הי' למע"ל רבי גדול כזה לא יצטרך לצדיקי׳
 					אחרים אמר לו ר<persName>׳ בעריש</persName> מיום עמדי על דעתי לידע מה זה ר'
-					הבנתי כי לא טוב לקחת לעצמו עוד ר׳ ואמר ר<persName>׳</persName> <persName>אביש</persName> אשריך
+					הבנתי כי לא טוב לקחת לעצמו עוד ר׳ ואמר ר׳ <persName>אביש</persName> אשריך
 					כי דעת קונך היה בך ולי לא הי' שכל זה כי אני הייתי תלמיד
 					אצל הרב <placeName>מרימנוב</placeName> פ"א נסעתי אליו על ר"ה ופגעו בי בדרך
 					חסידים הנוסעים ל<placeName ref="#H-LOC_56">לובלין</placeName> וצעקו עלי אתה מרה שחורה בא אתנו
@@ -1563,7 +1563,7 @@
 				<fw facs="#facs_35_tr_1733308412" type="catch">
 					ואמרתי
 				</fw>
-				<pb facs="ShloshaEdreiZon-0036.jpg" />
+				<pb facs="ShloshaEdreiZon-0036.jpg"/>
 				<fw facs="#facs_36_r" type="pageNum">
 					לו
 				</fw>
@@ -1604,7 +1604,7 @@
 				<fw facs="#facs_36_tr_1733308407" type="catch">
 					אהבת
 				</fw>
-				<pb facs="ShloshaEdreiZon-0037.jpg" />
+				<pb facs="ShloshaEdreiZon-0037.jpg"/>
 				<fw facs="#facs_37_tr_1733308415" type="pageNum">
 					58
 				</fw>
@@ -1614,7 +1614,7 @@
 				</p>
             </div>
             <div type="story" xml:id="Shlosha-Edrei-Zon_0035">
-				<head type="storyHead">Shlosha-Edrei-Zon_0035</head><span ana="TBD:Unknown" />
+				<head type="storyHead">Shlosha-Edrei-Zon_0035</head><span ana="TBD:Unknown"/>
 <p>
 					ואח״ז נסעתי בעצמי לווישניצא ובאתי ביום ה׳ וקודם אור
 					הבוקר בשעה ד' שלח בעדי שאבא אליו ובאתי אל
@@ -1645,7 +1645,7 @@
 				</p>
             </div>
             <div type="story" xml:id="Shlosha-Edrei-Zon_0036">
-				<head type="storyHead">Shlosha-Edrei-Zon_0036</head><span ana="TBD:Unknown" />
+				<head type="storyHead">Shlosha-Edrei-Zon_0036</head><span ana="TBD:Unknown"/>
 <p>
 					אח״ז בא הצדיק ר' <persName>משה לעליווער</persName> בנו דהרב ר׳ <persName>דוד</persName> וחתן
 					<persName>מהר"י יצחק מ<placeName>פשיסחע</placeName>
@@ -1656,7 +1656,7 @@
 				<fw facs="#facs_37_tr_1733308416" type="catch">
 					א'
 				</fw>
-				<pb facs="ShloshaEdreiZon-0038.jpg" />
+				<pb facs="ShloshaEdreiZon-0038.jpg"/>
 				<fw facs="#facs_38_tr_1733308412" type="pageNum">
 					38
 				</fw>
@@ -1668,11 +1668,11 @@
 				</p>
             </div>
             <div type="story" xml:id="Shlosha-Edrei-Zon_0037">
-				<head type="storyHead">Shlosha-Edrei-Zon_0037</head><span ana="TBD:Unknown" />
+				<head type="storyHead">Shlosha-Edrei-Zon_0037</head><span ana="TBD:Unknown"/>
 <p>
 					ב<date>קיץ</date> השני נסענו ג״כ עם ר' <persName>בעריש</persName> ל<placeName ref="#H-LOC_262">ווישניצא</placeName> וכאשר באנו
 					אל ביתו אמר הרב מה זה ועל מה זה מע"כ הטריח
-					א"ע לנסוע אלי בשלמא פעם הא׳ התפללתי אל <persName>ד'</persName> שיתן לו כח
+					א"ע לנסוע אלי בשלמא פעם הא׳ התפללתי אל ד' שיתן לו כח
 					שיבא אלי יען כי אין בי כח לנסוע על הדרך פ"א נסעתי בדרך
 					ונעשיתי ב<name type="misc">לוט</name> שטארץ והלך ממני מלא ספל דם ראו כי מונח לי
 					לי על השלחן חתיכת מלח לבלוע כי זה רפואתי על מחלתי זולת
@@ -1702,7 +1702,7 @@
 				<fw facs="#facs_38_tr_1733308410" type="catch">
 					460
 				</fw>
-				<pb facs="ShloshaEdreiZon-0039.jpg" />
+				<pb facs="ShloshaEdreiZon-0039.jpg"/>
 				<fw facs="#facs_39_tr_1733308408" type="pageNum">
 					87
 				</fw>
@@ -1743,7 +1743,7 @@
 				<fw facs="#facs_39_tr_1733308407" type="catch">
 					בראני
 				</fw>
-				<pb facs="ShloshaEdreiZon-0040.jpg" />
+				<pb facs="ShloshaEdreiZon-0040.jpg"/>
 				<fw facs="#facs_40_tr_1733308416" type="pageNum">
 					38
 				</fw>
@@ -1753,7 +1753,7 @@
 					לבו ויתן לו לב בשר לב טהור וכאשר ה<orgName>ש"י</orgName> רואה צער אביו
 					שהוא מפזר ממון הרבה ורואה צער המלמד ואת עמלו יתן חכמה
 					אל הבן ממילא נעשה ת"ח והעיקר שלא לייאש הילד בפני אביו
-					ע״כ המשל והנמשל מובן ביני ובין קוני אני מיפה את ב<persName>״</persName>י מאד
+					ע״כ המשל והנמשל מובן ביני ובין קוני אני מיפה את ב<persName>״י</persName> מאד
 					כבן לפני אביו אמנם בפניכם אני מחויב לצעוק עליכם למעה״ש
 					עשו תשובה ואם לא מרה תהי' באחריתכם אז אמר הרב מ<placeName ref="#H-LOC_262">ווישניצא</placeName>
 					לר׳ <persName>בעריש</persName> אם צדיק גדול כר' <persName>מיכלי</persName> אמר שגם בזה"ז עוברים
@@ -1784,7 +1784,7 @@
 				<fw facs="#facs_40_tr_1733308415" type="catch">
 					גדול
 				</fw>
-				<pb facs="ShloshaEdreiZon-0041.jpg" />
+				<pb facs="ShloshaEdreiZon-0041.jpg"/>
 				<fw facs="#facs_41_tr_1733308410" type="pageNum">
 					36
 				</fw>
@@ -1799,7 +1799,7 @@
 				</p>
             </div>
             <div type="story" xml:id="Shlosha-Edrei-Zon_0038">
-				<head type="storyHead">Shlosha-Edrei-Zon_0038</head><span ana="TBD:Unknown" />
+				<head type="storyHead">Shlosha-Edrei-Zon_0038</head><span ana="TBD:Unknown"/>
 <p>
 					מעשה פ״א כאשר ישבנו אתו בסעו' <date>שבת</date> בלילה ציוותה
 					הרבנית למשרת שילך לסגור את הלעדין שאצל החלונות
@@ -1830,7 +1830,7 @@
 				<fw facs="#facs_41_tr_1733308408" type="catch">
 					שם
 				</fw>
-				<pb facs="ShloshaEdreiZon-0042.jpg" />
+				<pb facs="ShloshaEdreiZon-0042.jpg"/>
 				<fw facs="#facs_42_tr_1733308411" type="pageNum">
 					403
 				</fw>
@@ -1845,12 +1845,12 @@
 				</p>
             </div>
             <div type="story" xml:id="Shlosha-Edrei-Zon_0039">
-				<head type="storyHead">Shlosha-Edrei-Zon_0039</head><span ana="TBD:Unknown" />
+				<head type="storyHead">Shlosha-Edrei-Zon_0039</head><span ana="TBD:Unknown"/>
 <p>
 					פעם א' באתי מן הדרך והלכתי אל ביתו ובאותו שעה באה
 					איש א' רוכב על הסוס ובא אל בית רבי' בשמחה גדולה
-					ואמר כי בא לבשר לרבי<persName>'</persName> בשורה טובה כי הבתולה הכלה נתרפאת
-					לגמרי והולכת בחוץ אנה ואנה כמו שאר ב"א ושאלתי לרבי<persName>'</persName> מה
+					ואמר כי בא לבשר לרבי' בשורה טובה כי הבתולה הכלה נתרפאת
+					לגמרי והולכת בחוץ אנה ואנה כמו שאר ב"א ושאלתי לרבי' מה
 					זה וסיפר לי כי האיש הזה בא אצלי עם בת אחותו הבתולה הכלה
 					כי פעם הלכה לחוץ בלילה אל שכינה ונזקת ונפלה לארץ וכשארה
 					בחומר בלי הרגש עצמותיה והיתה מוטלת על העגלה וצוויתי
@@ -1872,7 +1872,7 @@
 				</p>
             </div>
             <div type="story" xml:id="Shlosha-Edrei-Zon_0040">
-				<head type="storyHead">Shlosha-Edrei-Zon_0040</head><span ana="TBD:Unknown" />
+				<head type="storyHead">Shlosha-Edrei-Zon_0040</head><span ana="TBD:Unknown"/>
 <p>
 					בפעם הא׳ אשר היה <placeName>בווישניצא</placeName> אז בא א' <placeName ref="#H-LOC_38">מבריגיל</placeName> ואמר
 					להרב באשר להילד שלי חזר ה<name type="misc">קדחת</name> והשיב לו הרב
@@ -1881,7 +1881,7 @@
 				<fw facs="#facs_42_tr_1733308409" type="catch">
 					פסקה
 				</fw>
-				<pb facs="ShloshaEdreiZon-0043.jpg" />
+				<pb facs="ShloshaEdreiZon-0043.jpg"/>
 				<fw facs="#facs_43_tr_1733308414" type="pageNum">
 					44
 				</fw>
@@ -1895,7 +1895,7 @@
 				</p>
             </div>
             <div type="story" xml:id="Shlosha-Edrei-Zon_0041">
-				<head type="storyHead">Shlosha-Edrei-Zon_0041</head><span ana="TBD:Unknown" />
+				<head type="storyHead">Shlosha-Edrei-Zon_0041</head><span ana="TBD:Unknown"/>
 <p>
 					והחסידים וגם הרבנית מ<placeName ref="#H-LOC_262">ווישניצא</placeName> סיפרו לי כי מאז אשר
 					היה <placeName>בווישניצא</placeName> בכל סעודה בין בחול בין ב<date>שבת</date>
@@ -1908,8 +1908,8 @@
 					שם א' הכל בסירוגין ולא כסדר פ"א היו שם חסידים זקנים
 					אשר נסעו לרבו מ<placeName ref="#H-LOC_36">קרשאנוב</placeName> והבין כי הם מתפלאים עד״ז. אז
 					פתח פיו ואמר ידעתי כי החסידים הראשונים הזקנים אשר נסעו
-					לרבי לא ראו שם הנהגה זו אלא כשראה רבי<persName>'</persName> שיש הרבה יין על
-					השלחן אז ציוה לבנו או לחסיד א<persName>׳</persName> ואמר לו קח את היין ותן
+					לרבי לא ראו שם הנהגה זו אלא כשראה רבי' שיש הרבה יין על
+					השלחן אז ציוה לבנו או לחסיד א׳ ואמר לו קח את היין ותן
 					לעם ואני עושה כמה שינוים עם היין אספר לכם המעשה אז
 					כאשר בא ר׳ <persName>קלמוש</persName> ל<placeName ref="#H-LOC_130">קראקא</placeName> בקשתי לר׳ שירשה לי לנסוע אליו
 					על <date>שבת</date> אולי אשיג פי' על אדומ"ו והשיב לי לחיים ולשלום הש"
@@ -1925,14 +1925,14 @@
 				</p>
             </div>
             <div type="story" xml:id="Shlosha-Edrei-Zon_0042">
-				<head type="storyHead">Shlosha-Edrei-Zon_0042</head><span ana="TBD:Unknown" />
+				<head type="storyHead">Shlosha-Edrei-Zon_0042</head><span ana="TBD:Unknown"/>
 <p>
 					מעשה א׳ סיפר לי ב"פ א' תיכף בתחילת התקרבות שלו
 				</p>
 				<fw facs="#facs_43_tr_1733308415" type="catch">
 					5
 				</fw>
-				<pb facs="ShloshaEdreiZon-0044.jpg" />
+				<pb facs="ShloshaEdreiZon-0044.jpg"/>
 				<fw facs="#facs_44_tr_1733308413" type="pageNum">
 					42
 				</fw>
@@ -1953,7 +1953,7 @@
 				</p>
             </div>
             <div type="story" xml:id="Shlosha-Edrei-Zon_0043">
-				<head type="storyHead">Shlosha-Edrei-Zon_0043</head><span ana="TBD:Unknown" />
+				<head type="storyHead">Shlosha-Edrei-Zon_0043</head><span ana="TBD:Unknown"/>
 <p>
 					הנה בא לאושפצין דאקטר והתפאר כי הוא תלמיד הרב ר׳ <persName>ברוך
 					פרענקיל</persName> שלמד אצלו ח' שנים ואהב לאמר תורה אך
@@ -1978,7 +1978,7 @@
 				<fw facs="#facs_44_tr_1733308411" type="catch">
 					26
 				</fw>
-				<pb facs="ShloshaEdreiZon-0045.jpg" />
+				<pb facs="ShloshaEdreiZon-0045.jpg"/>
 				<fw facs="#facs_45_tr_1733308411" type="pageNum">
 					48
 				</fw>
@@ -2004,7 +2004,7 @@
 				</p>
             </div>
             <div type="story" xml:id="Shlosha-Edrei-Zon_0044">
-				<head type="storyHead">Shlosha-Edrei-Zon_0044</head><span ana="TBD:Unknown" />
+				<head type="storyHead">Shlosha-Edrei-Zon_0044</head><span ana="TBD:Unknown"/>
 <p>
 					פ"א עוד בתחילת התקרבותי אליו באתי בסעודת שחרית אליו
 					בשעת לעיסת המוציא ולקח החלה בידו ואמר ראה
@@ -2015,7 +2015,7 @@
 				</p>
             </div>
             <div type="story" xml:id="Shlosha-Edrei-Zon_0045">
-				<head type="storyHead">Shlosha-Edrei-Zon_0045</head><span ana="TBD:Unknown" />
+				<head type="storyHead">Shlosha-Edrei-Zon_0045</head><span ana="TBD:Unknown"/>
 <p>
 					פ"א נפל למשכב ובאתי אליו לבקר חולה אמר לי העולם
 					מחזיקין אותי לעניו אבל זה גוותן הייתי שיהיו נוסעים
@@ -2028,7 +2028,7 @@
 				<fw facs="#facs_45_tr_1733308409" type="catch">
 					ובאשר
 				</fw>
-				<pb facs="ShloshaEdreiZon-0046.jpg" />
+				<pb facs="ShloshaEdreiZon-0046.jpg"/>
 				<fw facs="#facs_46_tr_1733308414" type="pageNum">
 					44
 				</fw>
@@ -2039,13 +2039,13 @@
 				</p>
             </div>
             <div type="story" xml:id="Shlosha-Edrei-Zon_0046">
-				<head type="storyHead">Shlosha-Edrei-Zon_0046</head><span ana="TBD:Unknown" />
+				<head type="storyHead">Shlosha-Edrei-Zon_0046</head><span ana="TBD:Unknown"/>
 <p>
 					פ"א
 					א בע"ש לא הי' בנמצא דגים וסמוך לחצי היום צעקה
-					הרבנית על המשרתים שילכו לחפש דגים אמר לה רבי<persName>'</persName>
+					הרבנית על המשרתים שילכו לחפש דגים אמר לה רבי'
 					לא תשלח המשרתים כי יהי' לנו ב׳ מיני דגים על שבת א' העכט
-					וא׳ קלין ואחר חצות בא אל הרבנית א' שמו ר<persName>׳</persName> <persName>נחמיה</persName> ונתן
+					וא׳ קלין ואחר חצות בא אל הרבנית א' שמו ר׳ <persName>נחמיה</persName> ונתן
 					לה הקלין אז רצתה אל החדר אליו ואמרה תפילה עושה מחצה
 					כי הביאו לי קלין ושאל מי המביא קרא נא אותו אלי ואמר לו
 					רבי' למה אתה מועל בשליחות היכן ההעכט ויהי כשמעו נבהל
@@ -2060,7 +2060,7 @@
 				</p>
             </div>
             <div type="story" xml:id="Shlosha-Edrei-Zon_0047">
-				<head type="storyHead">Shlosha-Edrei-Zon_0047</head><span ana="TBD:Unknown" />
+				<head type="storyHead">Shlosha-Edrei-Zon_0047</head><span ana="TBD:Unknown"/>
 <p>
 					ודע אחי כי יש אתי כהנה וכהנה מופתים אשר ראיתי בו
 					וגם ששמעתי אך לא אוכל להאריך מאפס הפנאי גם
@@ -2074,13 +2074,13 @@
 					יודעים רק ה<name type="misc">ש"י</name> בעצמו זכותו וזכות כל הצדיקים יעמוד לנו
 					ולזרעינו ולכל ישראל אמן :
 				</p>
-				<pb facs="ShloshaEdreiZon-0047.jpg" />
+				<pb facs="ShloshaEdreiZon-0047.jpg"/>
 				<fw facs="#facs_47_tr_1733308413" type="pageNum">
 					26
 				</fw>
             </div>
             <div type="story" xml:id="Shlosha-Edrei-Zon_0048">
-				<head type="storyHead">Shlosha-Edrei-Zon_0048</head><span ana="TBD:Unknown" />
+				<head type="storyHead">Shlosha-Edrei-Zon_0048</head><span ana="TBD:Unknown"/>
 <p>
 					אחי עתה אגלה את כל לבי כמה גדלה התקשרות עבותות
 					האהבה בין הני תרי גברי רבא בחייהם ובמותם לא נפרדו .
@@ -2112,7 +2112,7 @@
 					הדבר אחר ז׳ שנים בא לאושפצין וישב על כסאו ממש ושימש
 					בהוראה כ״ד שנים זי"ע תנצב"ה :
 				</p>
-				<pb facs="ShloshaEdreiZon-0048.jpg" />
+				<pb facs="ShloshaEdreiZon-0048.jpg"/>
 				<p>
 					לפעלא טבא יישי חילו לחתני הרב מוה' <persName>משה שוחט</persName> כו' אסר א
 					טרח ויגע להוציא אל הפועל כתיבת ידי מזה המחברת מה רב
@@ -2124,8 +2124,8 @@
 					חסל סידור אומרים כאשר זכינו לסדרם כן נזכה לראותם
 					עוד בתחיתם. ונזכה לגאולת עולם.
 				</p>
-				<pb facs="ShloshaEdreiZon-0049.jpg" />
-				<pb facs="ShloshaEdreiZon-0050.jpg" />
+				<pb facs="ShloshaEdreiZon-0049.jpg"/>
+				<pb facs="ShloshaEdreiZon-0050.jpg"/>
 		</div>
 		</body>
 	</text>

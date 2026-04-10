@@ -1,15 +1,15 @@
-<?xml version='1.0' encoding='UTF-8'?>
+<?xml version='1.0' encoding='utf-8'?>
 <TEI xmlns="http://www.tei-c.org/ns/1.0">
 	<teiHeader>
 		<fileDesc>
 			<titleStmt>
 				<title type="main">Maasiot VeSichot Tzadikim 1894 מעשיות ושיחות צדיקים</title>
-			</titleStmt>
+			</titleStmt><editionStmt><edition n="1.0.0">Working edition</edition></editionStmt>
 			<publicationStmt>
 				<publisher>tranScriptorium</publisher>
 			</publicationStmt>
-			<sourceDesc><bibl type="original"><title type="main" xml:lang="he">מעשיות ושיחות צדיקים</title><title type="main" xml:lang="en">Maasiot VeSichot Tzadikim</title><author><persName xml:lang="he" ref="#tempH-62">ישראל דוד זיס</persName><persName xml:lang="en" ref="#tempH-62">Yisrael David Zis</persName></author><imprint><pubPlace xml:lang="he">למברג</pubPlace><pubPlace xml:lang="en">Lvov</pubPlace><date when="1894">תרנה</date></imprint><textLang mainLang="heb" /><idno type="BHB">132429</idno><idno type="ALMA">990017446560205171</idno><idno type="Kima">166</idno><idno type="Kitsis">36</idno><idno type="DBid">3678</idno><idno type="work">40</idno></bibl></sourceDesc><editionStmt><edition n="1.0.0">Working edition</edition></editionStmt></fileDesc>
-	<revisionDesc><change when="2026-03-19">Edition management migration (canonical filename + archived uncorrected source); version none -&gt; 1.0.0</change><change when="2026-03-24">sourceDesc synced from edition-metadata.json</change><change when="2026-03-24">sourceDesc synced from edition-metadata.json</change></revisionDesc></teiHeader>
+			<sourceDesc><bibl type="original"><title type="main" xml:lang="he">מעשיות ושיחות צדיקים</title><title type="main" xml:lang="en">Maasiot VeSichot Tzadikim</title><author><persName xml:lang="he">ישראל דוד זיס</persName><persName xml:lang="en">Yisrael David Zis</persName></author><pubPlace xml:lang="he">למברג</pubPlace><pubPlace xml:lang="en">Lvov</pubPlace><date when="1894">תרנה</date><textLang mainLang="heb" /><idno type="BHB">132429</idno><idno type="ALMA">990017446560205171</idno><idno type="Kima">166</idno><idno type="Kitsis">36</idno><idno type="DBid">3678</idno><idno type="work">40</idno></bibl></sourceDesc></fileDesc>
+	<revisionDesc><change when="2026-03-19">Edition management migration (canonical filename + archived uncorrected source); version none -&gt; 1.0.0</change><change when="2026-03-24">sourceDesc synced from edition-metadata.json</change><change when="2026-03-24">sourceDesc synced from edition-metadata.json</change><change when="2026-03-24">sourceDesc synced from edition-metadata.json</change></revisionDesc></teiHeader>
 	<text>
 		<front>
 			<div>
@@ -28,7 +28,7 @@
 					<lb />וכו׳ מוה"ר <persName>אברהם ניסן הלוי</persName> זצ"ל.
 					<placeName><lb />לעמבערג</placeName>
 					<lb />בהוצאת ה״ר <persName>ישראל דוד זיס</persName> נ״י.
-					<lb />ב<date>שנת תרנ"ה</date> ל<placeName>פ"ק</placeName>
+					<lb />ב<date>שנת תרנ"ה</date> לפ"ק
 				</p>
 				<p>
 					<lb />Geschichten.
@@ -156,11 +156,11 @@
 				</head>
 				<p>
 					<lb />בשעת קריעת ים <placeName ref="#H-LOC_470">סוף</placeName> בקשו המלאכים לומר שירה אמר
-					<name type="misc"><lb />הקב<persName />״ה</name> מעשה ידי טבעו בים ואתם אומרים שירה במס׳ <name type="work">סנהדרין</name>
+					<name type="misc"><lb />הקב״ה</name> מעשה ידי טבעו בים ואתם אומרים שירה במס׳ <name type="work">סנהדרין</name>
 					<lb />דף ל״ט ע"ב עיי״ש ואמר הרבי ר' <persName>שמעלקא</persName> ז"ל דהנה כתב בהחייל
 					<lb />של סנהרב אשר <name type="misc">הקב״ה</name> פתח אזניהם ושמעו השירה של חיות
-					<lb />הקודש ופרחו נשמתן והנה כאן ב<name type="work">קי״</name>ס בקשו מלאכי השרת לומר
-					<lb />שירה שישמעו המצרים את השירה ותפרח נשמתן אמר <name type="misc">הקב<persName />״ה</name>
+					<lb />הקודש ופרחו נשמתן והנה כאן ב<name type="work">קי״ס</name> בקשו מלאכי השרת לומר
+					<lb />שירה שישמעו המצרים את השירה ותפרח נשמתן אמר <name type="misc">הקב״ה</name>
 				</p>
 				<fw facs="Maasiot-veSihot-Zadikim_8_tr_1739256679" type="catch-word">
 					<lb />מעשי
@@ -192,13 +192,13 @@
 					<lb />שפירש <persName>רש״י</persName> ז"ל היינו כשתהיו כולכם באחדות. אחר תעבורו, אזי
 					<lb />הס״א יעבור מכם, ואח״ז שאל האם אמרתי טוב, והשיב אחד
 					<lb />מהמסובים והוא היה מא"י ואמר יאה, השיב היא ז"ל בזה הלשון
-					<lb />איוך הוא חשיבות גדול כדאיתא ב<name type="work">גמרא</name> אמר ר<persName>׳</persName> <persName>יוד</persName> ופירש״י ז"ל
+					<lb />איוך הוא חשיבות גדול כדאיתא ב<name type="work">גמרא</name> אמר ר׳ <persName>יוד</persName> ופירש״י ז"ל
 					<lb />הוא שם חכם וארץ ישראל הוא חשיבות גדול ומכש״כ א יוד מארי
 					<placeName><lb />ישראל</placeName> הוא וודאי חשיבות גדול. נא כשמסכימין שהדברים טובים
 					<lb />נעשה מזה תיקון בעולמות העליונים ע"כ שמעתי :
 				</p>
 				<p>
-					<lb />הרב הצדיק הקדוש המפורסם <persName>מו"ה</persName> <persName>צבי</persName> ז"ל מ<placeName ref="#H-LOC_92">זידיטשוב</placeName> אמר
+					<lb />הרב הצדיק הקדוש המפורסם מו"ה <persName>צבי</persName> ז"ל מ<placeName ref="#H-LOC_92">זידיטשוב</placeName> אמר
 					<lb />אשר בפסוק כף אחת עשרה זהב מלאה קטורת שם מרומזים כל
 					<lb />הלכות חנוכה כף ר"ת פחות ה׳ היינו שמצותיו למטה מעשרים אמה
 					<lb />אחת ר"ת א' ה' תמנה היינו שיתחיל מאחד עד שמונה כב"ה עשרה
@@ -246,7 +246,7 @@
 					<lb />ו<name type="work">הוא עומר</name> עליהם <name type="work">תחת</name> העץ ויאכלו ואמר הצדיק הנ"ל שהוא על
 					<lb />דרך משל כמו הצדיק ר׳ <persName>אייזיק זצללה"ה</persName> בעהמ״ח <name type="work">ספר ברית
 					<lb />כהונת עולם</name> והוא היה צדיק גדול ומקודם היו נוסעין להצדיק הנ"ל
-					<lb />ואח״כ שהתחיל להתנוצץ הצדיק ר׳ <persName>פנחס ז"ל מ<placeName ref="#H-LOC_149" ana="bio">קאריץ</placeName></persName> הי<placeName>'</placeName> כל העולם
+					<lb />ואח״כ שהתחיל להתנוצץ הצדיק ר׳ <persName>פנחס ז"ל מ<placeName ref="#H-LOC_149" ana="bio">קאריץ</placeName></persName> הי' כל העולם
 					<lb />כפופים לה״ר <persName>פנחס</persName> הנ"ל ונשאר הוא מבלי אנשים על שולחנו
 				</p>
 				<fw facs="Maasiot-veSihot-Zadikim_10_tr_1739256687" type="catch-word">
@@ -269,7 +269,7 @@
 					<lb />עוד מהצדיק הנ"ל.
 				</p>
 				<p>
-					<lb />סיפר לי הרב <persName>מו"ה</persName> ו<persName>ואלצי</persName> שהיה מו"צ ב<placeName>ק׳ דאלינע</placeName> שהיה
+					<lb />סיפר לי הרב מו"ה ו<persName>ואלצי</persName> שהיה מו"צ ב<placeName>ק׳ דאלינע</placeName> שהיה
 					<lb />רגיל לנסוע בכל פעם ל<placeName ref="#H-LOC_14">קאסיב</placeName> להרבי ר' <persName>מענדלי</persName> ז"ל פעם אחת
 					<lb />דיבר עם גיסו ר׳ <persName>יעקב</persName> שהיו קורין אותו אנקילע והפליא בעיניו
 					<lb />את הצדיק הנ"ל עד שעשה לו רצון ליסע עמו ל<placeName ref="#H-LOC_14">קאסיב</placeName> ונסעו
@@ -285,7 +285,7 @@
 					<lb />שבועות אשר אמרתי לך דברים ומה אמרתי לך והתחיל לחשוב
 					<lb />בדעתו איזה דברים דיבר לו אמר לו הרב כשאמרתי לך שאתה
 					<lb />חשוב לא הרע בעיניך כלל הלא מצינו בקבלת ה<name type="work">תורה</name> שאמר
-					<name type="misc"><lb />הקב<persName />״<name type="misc" />ה</name> ל<persName>משה</persName> רבינו ע״ה כה תאמר ל<placeName>בית יעקב</placeName> ותגיד לבני ישראל
+					<name type="misc"><lb />הקב״<name type="misc" />ה</name> ל<persName>משה</persName> רבינו ע״ה כה תאמר ל<placeName>בית יעקב</placeName> ותגיד לבני ישראל
 					<lb />אתם ראיתם וכו׳ אלה הדברים אשר תדבר אל בני ישראל ופירש״י
 					<lb />ז"ל אלה הדברים לא פחות ולא יותר וקשה הלא <persName>רש״י</persName> ז"ל פירש
 				</p>
@@ -304,14 +304,14 @@
 					<lb />והשכל ונשים נקראים קטני השכל ופחותי הערך ואמר ה<name type="misc">קב</name>״ה
 					<lb />למשה אלה הדברים אשר תדבר לא פחות ולא יותר הבעלי הדעת
 					<lb />בה״י אנשים חשבו בעצמם הלא כפי קטנות השכל שלנו למה
-					<lb />אנחנו חשובים בעיני ה<name type="misc">קב״<orgName />ה</name> כ״ב והיו הדברים האלה בדעתם דברים
+					<lb />אנחנו חשובים בעיני ה<name type="misc">קב״ה</name> כ״ב והיו הדברים האלה בדעתם דברים
 					<lb />הקשים כגידין ולבעלי פחות הערך היו הדברים ההם בעצמהדברים
 					<lb />רבים וכאשר אמרתי לך שאתה חשוב לא הרע בעיניך כלל ודפח״ח.
 				</p>
 				</div><div type="story" xml:id="Maasiot-veSihot-Tsadikim_0003"><head type="storyHead">Maasiot-veSihot-Tsadikim_0003</head><span ana="TBD:Unknown" />
 <head>
 					<lb />מהרב הצדיק הקדוש המפורסים רבינו ר׳ <persName>חיים</persName> ז"ל מ<placeName ref="#H-LOC_14">קאסיב</placeName>
-					<lb />מבנו של הצדיק מוה<persName>׳</persName> <persName>מנחם מענדיל</persName> ז"ל.
+					<lb />מבנו של הצדיק מוה׳ <persName>מנחם מענדיל</persName> ז"ל.
 				</head>
 				<p>
 					<lb />פעם אחת דיבר עם אנשים מענין נוסח <placeName ref="#H-LOC_144">ספרד</placeName> אשר הספרדים
@@ -323,10 +323,10 @@
 					<lb />הישועה שיהי׳ להם והאנשים הפשוטים שמחים אז כשבא להם
 					<lb />הישועה לזאת אומרים רננו צדיקים אחר <persName>הלל</persName> הגדול והשיב חסיד
 					<lb />אחד מהעומדים שם, ואמר רבי הנה אומרים בשם הרב הקדוש
-					<lb />מוה<persName>׳</persName> <persName>משה ליב</persName> ז"ל מ<placeName ref="#H-LOC_60">סאסוב</placeName> שאמר יעלזו חסידים בכבוד ירננו על
+					<lb />מוה׳ <persName>משה ליב</persName> ז"ל מ<placeName ref="#H-LOC_60">סאסוב</placeName> שאמר יעלזו חסידים בכבוד ירננו על
 					<lb />ממשכבותם. ואמר רבש״ע הנה העת שישמחו החסידים בכבוד וברב
 					<lb />טוב כי ירננו על משכבותם פירוש שהם מנגנים אעפ"י שהם על
-					<lb />משכבותם שקורין גילייגט) אמר הצדיק ר<persName>׳</persName> <persName>חיים</persName> ז"ל זה לא
+					<lb />משכבותם שקורין גילייגט) אמר הצדיק ר׳ <persName>חיים</persName> ז"ל זה לא
 					<lb />הנה שמעתי דברים כאלו מהצדיק מוה, <persName>משה ליב</persName> ז"ל וזאת לא
 					<lb />שמעתי.
 				</p>
@@ -400,8 +400,8 @@
 					<lb />בשם הרב הצדיק הקדוש הגאון מ<placeName ref="#H-LOC_134">בארדיטשוב</placeName>,
 				</head>
 				<p>
-					<lb />שמעתי מהרב הגאון מ<placeName>ראזינטאב</placeName> מוה<persName>׳</persName> <persName>אליעזר ליפא</persName> ז"ל
-					<lb />שאמר בשם הרב הגאון הקדוש מוה<persName>׳</persName> <persName>לוי יצחק</persName> זצלה"ה מ<placeName ref="#H-LOC_134">בארדיטשוב</placeName>
+					<lb />שמעתי מהרב הגאון מ<placeName>ראזינטאב</placeName> מוה׳ <persName>אליעזר ליפא</persName> ז"ל
+					<lb />שאמר בשם הרב הגאון הקדוש מוה׳ <persName>לוי יצחק</persName> זצלה"ה מ<placeName ref="#H-LOC_134">בארדיטשוב</placeName>
 					<lb />ששאלו להרב הקדוש הנ״ל מאמר ב<name type="work">תיקונים</name> <placeName>ארביסר</placeName> בראשית עלה
 					<lb />אתמר ראשית בכורי אדמתך תביא בית ד׳ וכו׳ וסמוך לראשית
 					<lb />בכורי אדמתך לא תבשל גדי בחלב אמו מה האי לגבי האי קם
@@ -454,12 +454,12 @@
 					<lb />בשם גדול אחד
 				</head>
 				<p>
-					<lb />ב<name type="work">משנה ה<name type="misc" />׳</name> פ"ז ב<name type="work">סנהדרין</name> אמר ר<persName>׳</persName> <persName>יהושע בן קרחה</persName> בכל
+					<lb />ב<name type="work">משנה ה<name type="misc" />׳</name> פ"ז ב<name type="work">סנהדרין</name> אמר ר׳ <persName>יהושע בן קרחה</persName> בכל
 					<lb />יום דנין את העדים בכינוי יכה <persName>יוסי</persName> את <persName>יוסי</persName> ופירש <persName>ר"ע</persName> מ<persName>ברטנורה</persName>
 					<lb />ז"ל אני שמעתי מפני שהוא בן ארבע אותיות ועולה בנימ׳ <name type="misc">אלהים</name>
 					<lb />לכך מכנים שם בן ר׳ אותיות ל<persName>יוסי</persName> וכתב התויו"ט וז"ל כתב הרב
 					<lb />אני שמעתי מפני שהוא בן ארבע אותיות וכו' אם שמע לא קרא
-					<lb />בפירוש <persName>רש"י</persName> שהרי ב<name type="work">פירש<placeName />״י</name> כתוב כל זה עכ״ל ולכאורה דברי
+					<lb />בפירוש <persName>רש"י</persName> שהרי ב<name type="work">פירש״י</name> כתוב כל זה עכ״ל ולכאורה דברי
 					<lb />ה<persName>ברטנורה</persName> המה
 					<lb />להוכא ולטלולא בעיני התויו"ט מה שלא קרא בפי'
 					<persName><lb />רש״י</persName> ושמעתי בשם גדול אחד פירוש ה<persName>ברטנורה</persName> יכה <persName>יוסי</persName> את <persName>יוסי</persName>
@@ -478,7 +478,7 @@
 					<lb />ה<name type="work">ברטנורה</name> המה ישרים ונכוחים ע״כ.
 				</p>
 				<p>
-					<lb />בשם הגאון מ<placeName ref="#H-LOC_175">ווילנא</placeName> ב<name type="work">משנה</name> <persName>ג'</persName> <name type="work">פ״<persName />א</name> דעדיות <persName>הלל</persName> אומר מלא
+					<lb />בשם הגאון מ<placeName ref="#H-LOC_175">ווילנא</placeName> ב<name type="work">משנה</name> <persName>ג'</persName> <name type="work">פ״א</name> דעדיות <persName>הלל</persName> אומר מלא
 					<lb />הין מים שאובין פוסלין את המקוה אלא שאדם חייב לומר בלשון
 					<lb />רבי. וכתב ה<persName>ברטנורה</persName> ז"ל כלומר הין אינו לשון משנה אלא לשון
 					<lb />תורה אלא כך ששמע מרבותיו <persName>שמעיה</persName> ו<persName>אבטליון</persName> ו<persName>רמב״ם</persName> קבל מאביו
@@ -498,11 +498,11 @@
 				</p>
 				<p>
 					<lb />ודפח״ח :
-					<lb />איתא בספר <name type="work">חסידים</name> סימן תק"ל כל מי שגלה לו ה<name type="misc">קב<persName />״ה</name> דבר
+					<lb />איתא בספר <name type="work">חסידים</name> סימן תק"ל כל מי שגלה לו ה<name type="misc">קב״ה</name> דבר
 					<lb />ואינו כותבה ויכול לכתוב הרי גוזל מי שגילו לו כי לא גילה לו
 					<lb />אלא לכתוב וכו׳ לזאת רשמתי לי לזכרון מה שעלה בדעתי על
 					<lb />מאמר ה<name type="work">גמרא</name> <name type="work">חגיגה</name> דף י"ד ע"ב והמאמר הלז מובא בתיקונים
-					<lb />הקדוש כמה פעמים אמר ר<persName>׳</persName> <persName>עקיבא</persName> לתלמידיו כשתגיעו לאבני שיש
+					<lb />הקדוש כמה פעמים אמר ר׳ <persName>עקיבא</persName> לתלמידיו כשתגיעו לאבני שיש
 					<lb />טהור אל תאמרו מים מים שנאמר דובר שקרים לא יכון לנגד
 					<lb />עיני. והדברים סתומים. ואפשר לפרש עפ"י פשוט בהקדם פירש״י
 				</p>
@@ -514,11 +514,11 @@
 					<lb />שיחות צדיקים
 				</fw>
 				<p>
-					<lb />על פסוק ויאמר ד<persName>׳</persName> פתאום אל <persName>משה</persName> ואל <persName>אהרן</persName> ואל מרים צאו
-					<lb />שלשתכם אל אוהל מועד וכו<persName>׳</persName> ופירש״י ז"ל נגלה עליהם פתאום
+					<lb />על פסוק ויאמר ד׳ פתאום אל <persName>משה</persName> ואל <persName>אהרן</persName> ואל מרים צאו
+					<lb />שלשתכם אל אוהל מועד וכו׳ ופירש״י ז"ל נגלה עליהם פתאום
 					<lb />והן טמאין בדרך ארץ והיו צועקים מים מים להודיעם שיפה עשה
 					<persName><lb />משה</persName> שפירש מן האשה מאחר שנגלית עליו שבינה תדיר ואין
-					<lb />עת קבועה לדיבור עכ״ל <orgName>רש<persName />״י</orgName> ז"ל ואמרתי שבזה נוכל לפרש מאמר
+					<lb />עת קבועה לדיבור עכ״ל <orgName>רש״י</orgName> ז"ל ואמרתי שבזה נוכל לפרש מאמר
 					<lb />ה<name type="work">גמרא</name> הנ"ל אמר ד״ע לתלמידיו כשתגיעו לאבני שיש טהור היינו
 					<lb />כשתגיעו למדרגה הזאת להיות כמו אבני שיש טהור כי כלי אבנים
 					<lb />אינם מקבלים טומאה, אל תטמאו אתכם בדרך ארץ ולא תהיו צריכים
@@ -527,7 +527,7 @@
 				</p>
 				<p>
 					<lb />במ"ד פ׳ <name type="work">תשא</name> דבר אחר זכור ל<persName>אברהם</persName> וכו' הה״ד יד ליד
-					<lb />לא ינקה רע אמר ר<persName>׳</persName> <persName>פנחס הכהן בר חמא</persName> אם עשית מצוה אל
+					<lb />לא ינקה רע אמר ר׳ <persName>פנחס הכהן בר חמא</persName> אם עשית מצוה אל
 					<lb />תבקש מתן שברה מיד ליד למה שלא תנקה שאין אתה מתנקה
 					<lb />מעונותיך ורשע אתה נקרא שלא בקשת להנחיל לבניך כלום שאילו
 					<lb />ביקשו <persName>אברהם</persName> <persName>יצחק</persName> ו<persName>יעקב</persName> מתן שברן של מצות שעשו האיך
@@ -577,7 +577,7 @@
 				<p>
 					<lb />מה שאומרים על סיום מסכת הדרן עלך והדרך עלן ומהראוי
 					<lb />לומר קודם הדרך עלן ואח"כ והדרן עלך דרך תפלה ונ"ל כפי מה
-					<lb />שכתוב ב<name type="work">זוה״ק</name> פ<name type="work">׳</name> <name type="work">משפטים</name> דף קי״ד שאמר ר<persName>׳</persName> <persName>חייא</persName> להסבא יהא
+					<lb />שכתוב ב<name type="work">זוה״ק</name> פ<name type="work">׳</name> <name type="work">משפטים</name> דף קי״ד שאמר ר׳ <persName>חייא</persName> להסבא יהא
 					<lb />רעוא דדיוקנא דילן תהא חקוקה בלבך כמה דדיוקנא דילך חקוק
 					<lb />בלבן ועל זה אנו מבקשים בסיום המסכת הדרן עלך והדרך עלן
 					<lb />כמה דיוקנא דילך חקוק בלבן כמו כן תהא דיוקנא דילן חקוקה
@@ -684,7 +684,7 @@
 				</head>
 				<p>
 					<lb />בפסוק האנכי הריתי את כל העם הזה אם אנכי ילדתיהו כי
-					<lb />תאמר אלי שאיהו בחיקך וקשה היכן אמר ד<persName>׳</persName> ל<persName>משה</persName> שאיהו בחיקך
+					<lb />תאמר אלי שאיהו בחיקך וקשה היכן אמר ד׳ ל<persName>משה</persName> שאיהו בחיקך
 					<lb />עיין ב<persName>רש״י</persName> ז״ל. אמנם <persName>משה רבינו</persName> היה צדיק גדול ולמי שהיה נחסר
 					<lb />איזה דבר הן בפרנסה והן בבנים היו מבקשים ל<persName>משה רבינו</persName> ע"ה והתפלל
 					<lb />עליהם והבטיח להם והיה להם ישועה וכאשר היה להם בגם כמו
@@ -781,17 +781,17 @@
 					<lb />לשנאו אל פניו ישלם לו וקשה כפל הלשון גם הא קיי״ל דשבר
 					<lb />מצוה בהאי עלמא ליכא אמנם דינה מביאר מ׳ שרואה נקמה בשנאו
 					<lb />ושמח מנכין לו מהעולם הבא וזה אמר הכתוב ומשלם לשנאיו אל
-					<lb />פניו להאבידו היינו ש<name type="misc">הקב<persName />״</name>ה משלם לרשע בהאי עלמא ומה שקשה
+					<lb />פניו להאבידו היינו ש<name type="misc">הקב״ה</name> משלם לרשע בהאי עלמא ומה שקשה
 					<lb />הא שכר מציה בהאי עלמא ליכא על זה אמר הכתוב לא יאחר לשנאו
 					<lb />אל פניו ישלם לו היינו שמשלם לשנאו של רשע גמולו והרשע רואה
 					<lb />נקמה בשואיו ומסתמא שמח הרשע לזאת מנכון לו מן העולם הבא.
 					<lb />בשם הצדיק הקדוש המפורסים <persName>מוה׳</persName> <persName>ברוך</persName> זצלה"ה ממעזביש
 					<lb />בפסוק ועתה הורך עדיך מעליך ואדעה מה אעשה לך. ואמר
-					<lb />הרב הנ"ל כי בשעת קבלת התירה נתן ה<name type="misc">קב״<persName />ה</name> לכל אחד מישראל שני
+					<lb />הרב הנ"ל כי בשעת קבלת התירה נתן ה<name type="misc">קב״ה</name> לכל אחד מישראל שני
 					<lb />כתרים אחד כנגד נעשה ואחד כנגד נשמע ואחר חטא העגל קבל
 					<lb />מהם כתר אחד ומה היו הכתרים ומה קבל מהם. אמים דאיתא ב<name type="work">גמ</name>׳
 					<lb />שאמר האי מין עמא פז זא דקדמותו פומייכי לאורני כי שאמרו נעשה
-					<lb />קודם נשמע והשי״ת משלם מדה כנגד מדה לבן שילם להם ה<name type="misc">קב<persName />״ה</name>
+					<lb />קודם נשמע והשי״ת משלם מדה כנגד מדה לבן שילם להם ה<name type="misc">קב״ה</name>
 				</p>
 				<fw facs="Maasiot-veSihot-Zadikim_22_tr_1739256474" type="catch-word">
 					<lb />והיה
@@ -945,9 +945,9 @@
 					<lb />רבים משמע ושני פעמים לחם בנימ׳ יוסף ודפח״ח.
 				</p>
 				<p>
-					<lb />הרב ר<persName>׳</persName> <persName>דוד</persName> ז"ל מ<persName>זאבליטאוו</persName> שהי' בנו של הרב הקדוש ר'
+					<lb />הרב ר׳ <persName>דוד</persName> ז"ל מ<persName>זאבליטאוו</persName> שהי' בנו של הרב הקדוש ר'
 					<persName><lb />מענדילי</persName> ז"ל מ<placeName ref="#H-LOC_14">קאסוב</placeName> הי׳ דרכו בקודש ליסע בכל פעם לם אדיגעדי
-					<lb />להצדיק הקדוש ר<persName>׳</persName> <persName>ישראל</persName> ז"ל <persName>מריזין</persName> והריזינער הי' מחזיק את ר'
+					<lb />להצדיק הקדוש ר׳ <persName>ישראל</persName> ז"ל <persName>מריזין</persName> והריזינער הי' מחזיק את ר'
 					<persName><lb />דוד</persName> ז"ל לחכם גדול פעם אחת בא אליו אחר חג הסוכות ובאותו העת
 					<lb />היו נשמים רבים שהי׳ יורדים בחוזק רב שאל <persName>ריזניר</persName> ז"ל אותו
 				</p>
@@ -1177,7 +1177,7 @@
 					<lb />א"ע ולא הניח לשום אדם לכנוס אליו וב<date>יום ב׳</date> היו מהקשים להגבאים
 					<lb />והיו ביכים אמנם לא הועיל כלום והתחיל מריבה ביניהם הלא אמרתי
 					<lb />לך שלא תיסע כעת להרב ואתה לא רצית לציית לי כללא של דבר
-					<lb />הם היו שם <date>יום ב׳</date> ו<date>יום ג׳</date> וביום <date>ד׳</date> נכנסו לבת ר<persName>׳</persName> <persName>ברוך</persName> ז"ל
+					<lb />הם היו שם <date>יום ב׳</date> ו<date>יום ג׳</date> וביום <date>ד׳</date> נכנסו לבת ר׳ <persName>ברוך</persName> ז"ל
 				</p>
 				<fw facs="Maasiot-veSihot-Zadikim_30_tr_1739256659" type="catch-word">
 					<lb />שהיתה
@@ -1198,7 +1198,7 @@
 					<lb />לחיים ולשלום. ועמד מן הכסא שלו והלך ללות להם, הם היו הולכים
 					<lb />מן בית הרב והרב אחרים ובבואו אל הדלת והם כבר יצאו מן הדלת
 					<lb />והרב אמר להם אצל כבוד אא<persName>״ז</persName> ה<persName>בעש״ט</persName> הי׳ ג״כ מעשה כזאת ואמר
-					<lb />להם אא"ז לבל תסעו ל<placeName>ק"ק</placeName> סעו לביתכם כשתבואו ליער הראשון
+					<lb />להם אא"ז לבל תסעו לק"ק סעו לביתכם כשתבואו ליער הראשון
 					<lb />אשר הוא פרסה מכאן ותראו <persName>דייטשיל</persName> מלובש בגוון ירוק ויהיה איש
 					<lb />דע מבשר רע ח"ו אל תשגיחו על זאת וכשתבואו אל היער השני
 					<lb />אשר הוא רחיק מכאן שני פרסאות ותראו <persName>דייטשיל</persName> מלובש בנוון ירוק
@@ -1243,7 +1243,7 @@
 					<lb />ז"ל המחלו ותבואו לביתי וגעיין בזה העולם היו מבינים שהוקשה
 					<lb />להרב מאוד על אשר שאל אותו בפומבי ובאמצע הדרוש כי זה לא
 					<lb />מדרך ארץ אמנם הרב ז"ל לא היה אומר לו כלום והליטוואק לא
-					<lb />הלך להרב. ובזמן לא כביר הלך ע״ד הרב ז"ל <placeName>לבהכ<persName />״נ</placeName> לדרוש וב<placeName>א</placeName>
+					<lb />הלך להרב. ובזמן לא כביר הלך ע״ד הרב ז"ל <placeName>לבהכ״נ</placeName> לדרוש וב<placeName>א</placeName>
 					<lb />עוד ה<persName>ליטוואק</persName> והקשה קושיא ונסע לדרכו עם הקושיא. אח״ז נסעו
 					<lb />החסידים מ<placeName ref="#H-LOC_134">בארדיטשיב</placeName> להרבי ר׳ <persName>ברוך</persName> ז"ל ושאל אותם על חדשות
 					<lb />ב<placeName>בארך טשיב</placeName> סיפרו לו שב<placeName>א</placeName> <placeName>ליטוואק</placeName> אחד והציק להרב בקושיותיו
@@ -1279,7 +1279,7 @@
 					<lb />כלל או ילמדו עמו ולא לשכות שתק הליטוואק אמר לו הרבי ר'
 					<persName><lb />ברוך</persName> ז"ל אני אתרץ לכם דלכאורה קשה למה לו להשי״ת לבראות
 					<lb />מדות רעות כי מדות טובות צריכין אבל מדות דעות ח"ו למה צריכין
-					<lb />למשל מדת השכחה שהיא מדה רעה למה בראו ה<name type="misc">קב״<orgName />ה</name>. אך דאיתא
+					<lb />למשל מדת השכחה שהיא מדה רעה למה בראו ה<name type="misc">קב״ה</name>. אך דאיתא
 					<lb />בספרים דאם לא היתה מדת השכחה בעולם היה העולם הרב כי תמיד
 					<lb />היה על זכרונו של אדם שימות ולא היה אדם בונה בית ולא היה
 					<lb />עושה מו״מ לזאת נטע ה<name type="misc">שם</name> יתברך בבני אדם מדת השכחה נמצא
@@ -1401,7 +1401,7 @@
 				</p>
 				<p>
 					<lb />הרב הצדיק הקדוש ר' <persName>משה</persName> ז"ל מ<placeName ref="#H-LOC_180">פשעווארסק</placeName> היה פעם אחת
-					<lb />על שבת ב<placeName>ק"ק</placeName> <placeName ref="#H-LOC_40">לבוב</placeName> כי הציעו לפני בתו שידוך מלבוב והיו נוסעים)
+					<lb />על שבת בק"ק <placeName ref="#H-LOC_40">לבוב</placeName> כי הציעו לפני בתו שידוך מלבוב והיו נוסעים)
 					<lb />ללבוב הרבה אנשים על <date>שבת</date> עד שכמעט עיר <placeName ref="#H-LOC_40">לבוב</placeName> היה קטן מהכיל
 					<lb />העולם שבא לשם. ואז היה בעיר <placeName ref="#H-LOC_40">לבוב</placeName> הרב הגאון ר׳ <persName>מרדכי
 					<lb />זאב</persName> זכר לברכה והיה מחזיק מלמד לבניו שהיה מתנגד נגד
@@ -1466,7 +1466,7 @@
 				</p>
 				<p>
 					<lb />שמעתי מהחסיד האמת ר׳ <persName>אליעזר</persName> ז"ל שמו קורין ב<placeName ref="#H-LOC_452">סטאניסלאב</placeName>
-					<lb />ר<persName>׳</persName> <persName>אליעזר</persName> דער <persName>נאטיכעס</persName> ואמר אשר הרב הקדוש ר׳ <persName>צבי</persName> ז"ל מ<placeName ref="#H-LOC_59">רימינאב</placeName>
+					<lb />ר׳ <persName>אליעזר</persName> דער <persName>נאטיכעס</persName> ואמר אשר הרב הקדוש ר׳ <persName>צבי</persName> ז"ל מ<placeName ref="#H-LOC_59">רימינאב</placeName>
 					<lb />סיפר לו המעשה הזאת הנה הרב הצדיק הקדוש ר' <persName>מענדלי</persName> ז"ל
 					<lb />מ<placeName ref="#H-LOC_59">רימינאב</placeName> נסע פעם אחת למרחץ דם לעיר גרוים <placeName>ווערדאן</placeName> ב<placeName>אונגידי'</placeName>
 					<lb />ושכרו שם עבורו בית עם גן נאה ואע"פ שהיו במקום רחוק עם כל
@@ -1556,7 +1556,7 @@
 					<lb />לביתו אח"ז בא מכתב מהמלך מ<placeName ref="#H-LOC_178">ווארשא</placeName> להמלמד הנ"ל שיעמוד א״ע
 					<lb />לשם המלמד היה עני והלך ברגליו מכפר לעיר ומעיר לכפר ובאמצע
 					<lb />הדרך בא לאיזה קועטשמי ורצה אשר הקרעטשמי. הוא בית הזונות
-					<lb />והיתה שם אשה אחת שהיתה מכשול לרבים וכראות <persName>ה״</persName>ר <persName>צדוק</persName> ז"ל
+					<lb />והיתה שם אשה אחת שהיתה מכשול לרבים וכראות <persName>ה״ר</persName> <persName>צדוק</persName> ז"ל
 					<lb />התחיל לצעיק מה אתם עושים הלא יש בורא <name type="misc">עולם</name> ואסור לעשות
 					<lb />כן ודחפו אותו משם והכו אותו מכת מות אמנם הוא חזר פעם שנית
 					<lb />ושלישית וצעק מאוד <persName>גיוואלד</persName> שאסור לעשות מעשים כאלו ובכל
@@ -1605,7 +1605,7 @@
 					<lb />טוען עמה אל תאמר כחי ועצם ידי וכו' אמנם הדבר לא הועיל כלום ולא היתה
 					<lb />רוצה לשמוע אליו וכראותו כי כן אמר לחבירו תדע ידידי חביבי הן אני
 					<lb />מוכרח לחלוק עמך בעסק שלנו כי לא אוכל לסבול ממנה וחלקו העסק שלהם
-					<lb />וחבירו עשה לו ג"כ עסק בפני עצמו ובעזר ה<persName>שי"ת</persName> הצליחה השני׳ מאוד
+					<lb />וחבירו עשה לו ג"כ עסק בפני עצמו ובעזר השי"ת הצליחה השני׳ מאוד
 					<lb />בהעסק שלה. והמוחכמת ירדה מטה ובראותה כי לא טוב הדבר חשבה
 					<lb />המוחכמת בלבה הן אני אוציא עליה שם רע ר"ל וכשישמע בעלה מזה לא
 					<lb />ירצה לדור עמה כי היה אדם כשר מאוד ויתבטל העסק שלה וכן היה
@@ -1888,7 +1888,7 @@
 					<lb />ממנו שריך ופליט ר"ל והצדיק ראה את הנ"ל.
 				</p>
 				<p>
-					<lb />הצדיק ר׳ <persName>דוד זלאטים</persName> ז"ל והחסיד הר<persName>׳</persName> <persName>אליעזר הגדול
+					<lb />הצדיק ר׳ <persName>דוד זלאטים</persName> ז"ל והחסיד הר׳ <persName>אליעזר הגדול
 					מ<placeName ana="bio">דאליגע</placeName></persName> הלכו יחד ל<placeName ref="#H-LOC_56">לובלין</placeName> והיו מוכרחים לילך דרך עיר קטנה
 					<lb />שלא היו דרים שם יהודים וקודם לעיר ההיא היה ישוב מכמה
 					<lb />יהודים שהיו קורין אותה ריסטאריע ובעיר ההיא לא היו דרים
@@ -2085,7 +2085,7 @@
 					<lb />היה לכם רחמנות עליו והפארמאן רגז עליכם עבור הפעלץ ועתה
 					<lb />הקיצו אותו מקברו להביא הפעלץ ולהניח על המאזנים ואתם הייתם
 					<lb />בידי מחבלים ר"ל ושבח להבורא עולם שנצלתם מהם וביום <date>א'</date>
-					<lb />יבא האורח להעיר ובא לפני ר<persName>׳</persName> <persName>יהודא החסיד</persName> ז"ל וסיפר לו מה
+					<lb />יבא האורח להעיר ובא לפני ר׳ <persName>יהודא החסיד</persName> ז"ל וסיפר לו מה
 					<lb />שנעשה עמו והשיב לו שראה בשבת מה שיעשה עמו ובעבור
 					<lb />זה לא רצה לברכו כדי שלא יסע במש<name type="misc">״ק</name> וקיי״ל בת דינא בטל
 					<lb />דינא והיא לא רצה לציית אותו ומה אני חייב בדבר ע"כ שמעתי.
@@ -2102,7 +2102,7 @@
 					<lb />וגזר הגזירה בחוזק רב אשר בזמן מועט יתנו לו כנ"ל והתחילו
 					<lb />היהודים להתענות ולומר <name type="work">תהילים</name> ושלחו שני אנשים להצדיקים
 					<lb />שבכל העולם שיתפללו עבורם ובאו להגאון הצדיק הקדוש הרמ<persName>״א</persName>
-					<lb />ר<persName>׳</persName> <persName>משה איסריליש</persName> ז"ל וסיפרו ג"כ המעשה הלז אמר להם שיסעו
+					<lb />ר׳ <persName>משה איסריליש</persName> ז"ל וסיפרו ג"כ המעשה הלז אמר להם שיסעו
 					<lb />לעיר פלוני ומחוץ לעיר דשם דר חייט אחד שהוא מתקן רק
 					<lb />הבגדים ישנים והוא יעזור לכם ואם לא ירצה תאמרו לו בשמי
 					<lb />שהיא יכול לעזור לכם ונסעו לשם ובאו לביתו והוא היה יושב
@@ -2213,10 +2213,10 @@
 				</head>
 				<p>
 					<lb />אשה אחת מכפר לא רחוק ממעזבוש היתה נוסעת בכל
-					<lb />פעם ל<persName>הבעש<orgName />״ט</persName> ז"ל והיתה מביאה לביתו קמח ודגים ועופות וגבינה
+					<lb />פעם ל<persName>הבעש״ט</persName> ז"ל והיתה מביאה לביתו קמח ודגים ועופות וגבינה
 					<lb />וחמאה והיתה מחיי׳ ל<persName>בעש"ט</persName> ולב"ב פעם אחת היתה נוסעה
 					<lb />ל<orgName>הבעש״ט</orgName> ז"ל דרך נהר קטן ונטבעה האשה הנ"ל בהנהר והיה
-					<lb />ל<persName>הבעש<orgName />״ט</persName> ז"ל יסורים גדולים מזה וגזר ה<persName>בעש״ט</persName> ז"ל שלא י
+					<lb />ל<persName>הבעש״ט</persName> ז"ל יסורים גדולים מזה וגזר ה<persName>בעש״ט</persName> ז"ל שלא י
 					<lb />עוד שם נהר ונתייבש הנהר מכל וכל אמנם השר מהנהר צעק
 					<lb />למעלה על ה<persName>בעש״ט</persName> על אשר בטל אותו מהשימוש שלו כדאיתא
 					<lb />ב<name type="work">זוהר</name> <name type="work">אמור</name> דף ק"ץ ויצא הפסק דין מלמעלה אשר עוד פעם
@@ -2264,7 +2264,7 @@
 					<lb />אח"כ הלך להמרחץ ולא היה שם רק אדם אחד והצדיק הלך אז
 					<lb />להמקוה ופתאום שמעו שהצדיק צועק בהמקוה מאטי אויף דעם
 					<lb />דראנזיק וצעק כמה פעמים בקול גדול מאטי דעם דראניקו נפל
-					<lb />עליהם פחד גדול אמר הה<persName>״</persName>ר <persName>עוזר</persName> להאיש שהיה שם מה זה השיב
+					<lb />עליהם פחד גדול אמר הה<persName>״ר</persName> <persName>עוזר</persName> להאיש שהיה שם מה זה השיב
 					<lb />לו כי מעולם לא שמע הקולות הלזו אח"כ הלכו לביתם והיו
 					<lb />מתייראין לישאל להצדיק על הקולות הנ"ל ובמש״ק מוכרח היה ה"ר
 					<persName><lb />עוזר</persName> ליסע למחוז חפצו והגם שאצל הצדיק מ<placeName ref="#H-LOC_209">סטרעליסק</placeName> היה קשה
@@ -2292,7 +2292,7 @@
 					<lb />עוד מראים לה והלך הרב הגאון הצדיק הקדוש ר׳ <persName>ארין קליוואנער</persName>
 					<lb />וסידר קידושין להאשה הנ"ל ואמר ע״ז הרב הגאון <persName>משפטיווקע</persName> הלא
 					<lb />הוחלט הדבר כבר הורה זקן והתחיל מחלוקת גדול מהגאונים ובראשם
-					<lb />הרב הגאון הגדול מוה<persName>׳</persName> <persName>יחזקאל מ<placeName ref="#H-LOC_142" ana="bio">פראג</placeName></persName> בעהמ״ח <name type="work">ספר נודע ביהודא</name> ועוד
+					<lb />הרב הגאון הגדול מוה׳ <persName>יחזקאל מ<placeName ref="#H-LOC_142" ana="bio">פראג</placeName></persName> בעהמ״ח <name type="work">ספר נודע ביהודא</name> ועוד
 					<lb />כמה גאונים והם צדדו איסור מהספר <name type="work">תוספות שבת</name> ובזמן לא כביר
 					<lb />בא הרב הגאון מ<persName>וואליטשיסק</persName> על <date>שבת</date> ל״ק <persName>סאטינוב</persName> ושם היה אב"ד
 					<lb />הרב הגאון ר' <persName>סענדיר</persName> ז"ל נכד הגאון הקדוש בעהמ״ח ספר <name type="work">תבואות
@@ -2301,7 +2301,7 @@
 					<persName><lb />סענדיר</persName> כנהוג ורצה הרב ר' <persName>סענדיר</persName> ליתן לו קידוש אמר הרב
 					<persName><lb />מוואליטשיסק</persName> אני חפץ לשמוע מכם פשעטיל ואמר הרב ר' <persName>סענדיר
 					<lb />פשעטיל</persName> והרב <persName>מוואליטטיסק</persName> נכנס עמו בעומק הפשט והפריד את
-					<lb />הפשעטיל שלו לפירורין אמר הרב ר<persName>׳</persName> <persName>סענדיר</persName> להרב <persName>מוואליטשיסק</persName> אני
+					<lb />הפשעטיל שלו לפירורין אמר הרב ר׳ <persName>סענדיר</persName> להרב <persName>מוואליטשיסק</persName> אני
 					<lb />חפץ לשמוע מכם פשעטיל ופתח הרב מ<persName>וואליטטיסק</persName> ואמר פשעטיל
 					<lb />לפני הרב הגאון ר' <persName>סענדיר</persName> והוטב בלבו מאוד ורצה לנשק אותו על
 					<lb />פ״ו והתחיל לבקש ממנו שיאכל אצלו היום אמר לו הרב הצדיק
@@ -2374,7 +2374,7 @@
 				<p>
 					<lb />הדלת לילך להעיר ובעל עגלה אחד עם אנשים נסעו אז ל<placeName>האכסניא</placeName>
 					<lb />הנ"ל ואמר הבעל הבית לבעה״ג הנ"ל <persName>מאטי</persName> ראה איך אתה נוסע
-					<lb />לבל תשבר לי את הדלת ונזכר ה<persName>״</persName>ר <persName>עוזר</persName> ששמע בהמקוה מאטי
+					<lb />לבל תשבר לי את הדלת ונזכר ה<persName>״ר</persName> <persName>עוזר</persName> ששמע בהמקוה מאטי
 					<lb />ועמד שם וירדו מן העגלה כמה אנשים פצועים ונשברים ושאל
 					<lb />אותם מה זאת וסיפרו לו אנחנו נסענו לכאן על <date>שבת</date> ובעש"ק על
 					<lb />הדרך פגעו בנו היידמאכעס והכו אותנו והסוסים לא היו יכולין
@@ -2484,7 +2484,7 @@
 					<lb />וכל טוב וסגרו אותו היטב וכמו בשני שעות בא איש אחד מ<placeName>ק</placeName>״ק
 					<placeName><lb />קיטוב</placeName> ובכה ושאל ב<placeName>העיר</placeName> אם ראיתי עני כזה ובזה תוארו ואח״כ יודע
 					<lb />לו שסגרו איזה עני בהקאמיר של הצדיק ר׳ <persName>חיים</persName> ז״ל ובאו אליו
-					<lb />וחפשו בהחבילה ומצאו שטערנטוכיל שגנב ב<placeName>ק<placeName />׳ קיטוב</placeName> האיש מ<placeName ref="#H-LOC_84">קוטב</placeName>
+					<lb />וחפשו בהחבילה ומצאו שטערנטוכיל שגנב ב<placeName>ק׳ קיטוב</placeName> האיש מ<placeName ref="#H-LOC_84">קוטב</placeName>
 					<lb />נטל את שלו והאיש עם החבילה הלך לדרכו ע״כ שמעתי.
 				</p>
 				<p>
@@ -2620,11 +2620,11 @@
 					<lb />כתוב כן לערכאותיהם ובאו קאמיסייע וחיפשו שם ומצאו הרבה ניירות
 					<lb />עם סטעמפלין ולקחו אותם וחתמו אותם בחתימה למען יתברר הדבר
 					<lb />והיה הדבר הזה מר מאוד בעיני ה"ר <persName>עזריאל</persName> הנ"ל כי עבור זה היה
-					<lb />יכול הר<persName>׳</persName> <persName>עזריאל</persName> הנ"ל להחליט בבית האסורים כל ימיו ונסע להצדיק
+					<lb />יכול הר׳ <persName>עזריאל</persName> הנ"ל להחליט בבית האסורים כל ימיו ונסע להצדיק
 					<lb />הגאון הקדוש ר׳ <persName>דוד</persName> הנ"ל ובכח מאוד לפניו והתחיל הצדיק ר׳ <persName>דוד</persName>
-					<lb />לדבר מן כל הבריאים שברא ה<name type="misc">קב״<orgName />ה</name> בעולמו הוא הכל כעובר טובות
-					<lb />האדם ולולא זאת לא היה <name type="misc">הקב<persName />״<orgName />ה</name> בראו, ונחזי הני עכברי רשיעי נינהו
-					<lb />ולמה בראם ה<name type="misc">קב<persName />״<orgName />ה</name> אמנם כש<name type="misc">הקב<orgName />״ה</name> בראם מסתמא ה<name type="misc">קב<persName />״<orgName />ה</name> בראם עבור
+					<lb />לדבר מן כל הבריאים שברא ה<name type="misc">קב״ה</name> בעולמו הוא הכל כעובר טובות
+					<lb />האדם ולולא זאת לא היה <name type="misc">הקב״ה</name> בראו, ונחזי הני עכברי רשיעי נינהו
+					<lb />ולמה בראם ה<name type="misc">קב״ה</name> אמנם כש<name type="misc">הקב״ה</name> בראם מסתמא ה<name type="misc">קב״ה</name> בראם עבור
 					<lb />טובות ישראל, ואח"כ אמר הצדיק הנ"ל לאיש הנ"ל תסעו לביתכם
 					<lb />ה<name type="misc">שי״ת</name> בוודאי יושיע אתכם אח"כ כשהגיע ל<placeName>הפרטיקאל</placeName> להתברר הדבר
 					<lb />ולקחו הניירות לראות אותם והיה המקום הסטעמפלין חתיכים כמו
@@ -2719,7 +2719,7 @@
 					<lb />כוורת להשוק למכור והלכו אליו אנשים לקנות ממנו ואמר להם הערל
 					<lb />שלא ימכור הכוורת רק למייארקע ספראווידלעווע והאנשים
 					<lb />עשאו ממנו שחוק. והערל עמד בשוק כמה שעות וחשב בדעתו שיבוא
-					<lb />הר<persName>׳</persName> <persName>מאיר</persName> לקנות ממנו ולעת ערב נסע הערל לביתו עם הכוורת ואמר
+					<lb />הר׳ <persName>מאיר</persName> לקנות ממנו ולעת ערב נסע הערל לביתו עם הכוורת ואמר
 					<lb />לו הערלית מדוע לא מכרת את הכוורת השיב לה אשר מייארקע לא
 					<lb />היה בהשוק ואמרה אליו למה לא הלכת לביתו אפשר הוא אינו בקו
 					<lb />הבריאה. ולאחר איזה ימים נסע הערל הנ"ל עוד להעיר עם הכוורת
@@ -2761,7 +2761,7 @@
 					<lb />גדולים עבורו וכן ענין הבטחון ע"כ שמעתי
 					<lb />חסיד אחד בא קודם ר"ה להצדיק ר' <persName>מאיריל</persName> ז"ל והיה אצלו
 					<lb />על ר"ה ולאחר ר"ה אמר ה"ר <persName>מאיריל</persName> ז"ל לאיש הנ"ל על יום הקדוש
-					<lb />תסעו ל<persName>סאנדיגערי</persName> להצדיק הקדוש ר׳ <persName>ישראל</persName> ז"ל מ<placeName>סאד<persName />׳</placeName> כי על יום
+					<lb />תסעו ל<persName>סאנדיגערי</persName> להצדיק הקדוש ר׳ <persName>ישראל</persName> ז"ל מ<placeName ref="#H-LOC_507">סאד׳</placeName> כי על יום
 					<lb />הקדוש טוב יותר להיות אצלו דהגמרא אמרו דבא יהבי ליה שלמא
 					<lb />מן שמיא במעלי יומא דכפורי ומה הפירוש שנתנו לרבא שלמא מן
 					<lb />שמיא במעלי יומא דכפורי אמנם רבא היה לומד יומם ולילה ולא הי'
@@ -2956,7 +2956,7 @@
 					<lb />הדלקת הנרות של <date>שבת</date> וחיפשתי כתינת ליתן לבעלי והיה הקאלנער
 					<lb />מהכתונת נקרע מעט ותפרתי את הקאלנער אחד הדלקת הנרות, אמר
 					<lb />לה ר׳ <persName>מאיריל</persName> ז״ל ראה אשר <persName>מאיר</persName> אינו אומר שקר והתחילה האשה
-					<lb />לבכות מאוד ואמרה רבי אין לי על מי להשען רק בראשון על ה<name type="misc">שי״</name>ת
+					<lb />לבכות מאוד ואמרה רבי אין לי על מי להשען רק בראשון על ה<name type="misc">שי״ת</name>
 					<lb />ועל תפילתכם אמר הרבי ר׳ <persName>מאיריל</persName> ז״ל להמשמש שלו לך ותקרא
 					<lb />לכאן יוסלי חייט ובא יום לי חייט אמר לו הרב הן באת בסובלנא לפני
 					<lb />שצריך לך להשוא את בתך הבתולה אמר לו החייט הן אמר לו הרב
@@ -3146,7 +3146,7 @@
 					<persName><lb />אליהו</persName> ז"ל.
 				</p>
 				<p>
-					<lb />הרב הצדיק הגאון הקדוש מוה<persName>׳</persName> <persName>צבי מזידיטשוב</persName> זל"הה קודם שנתפרסם
+					<lb />הרב הצדיק הגאון הקדוש מוה׳ <persName>צבי מזידיטשוב</persName> זל"הה קודם שנתפרסם
 					<lb />בעולם היה עני מאוד וביקש מהשי<orgName>״ת</orgName> על פרנסה ופעם אחת קם בחצית
 					<lb />לילה לעבודת השם כמנהגו וראה אור גדול בביתו והיה מדמה לו ששורף
 					<lb />איזה דבר והחריד מאוד ונטל מים לכבות ושפך שם הרבה מים וראה שאין
@@ -3210,7 +3210,7 @@
 					<lb />כי אמר אותם באמת בלי שום פנויה כי לא היה יודע יותר.
 				</p>
 				<p>
-					<lb />מעשה מהרבי ר' <persName>מענדלי</persName> זלה"ה מ<placeName ref="#H-LOC_14">קאסיב</placeName> משולח מעשיר אחד מ<placeName>ק"ק</placeName>
+					<lb />מעשה מהרבי ר' <persName>מענדלי</persName> זלה"ה מ<placeName ref="#H-LOC_14">קאסיב</placeName> משולח מעשיר אחד מק"ק
 					<placeName><lb />נאדבורנא</placeName> בא מ<placeName>כפר</placeName> <placeName>דעבוע</placeName> ל<placeName>ק"ק קאסיב</placeName> יום אחד קודם ער"ה והחסידים
 					<lb />מ<placeName ref="#H-LOC_457">נאדבורנא</placeName> כבר היו ב<placeName ref="#H-LOC_14">קאסיב</placeName> על ר"ה וראו את המשולח הנ"ל ודיברו עמו
 					<lb />ואמר להם שהוא נוסע מדעביע מקניות שורים והוא נוסע לביתו על ר"ה
@@ -3290,7 +3290,7 @@
 					<lb />לאחר יום השוק ישבו בהאכסניא שלהם ועשאו חשבון מהמעות
 					<lb />אשר הוציאו על השורים וראו שחסרו להם ג׳ מאות <name type="currency">ריינש</name> עד
 					<lb />שעלה על דעתם שנתנו לערל הנ"ל יותר מהמגיע הסך הנ"ל והלכו
-					<lb />בלילה להרבי ר<persName>׳</persName> <persName>חיים</persName> ז"ל וסיפרו לו אמר הרבי להם מי מכם
+					<lb />בלילה להרבי ר׳ <persName>חיים</persName> ז"ל וסיפרו לו אמר הרבי להם מי מכם
 					<lb />קנה השורים אצל הערל הנ"ל אמר אחד מהם אני קניתי אמר לו
 					<lb />הרב ז"ל אתם לכו עם הבהמות לביתכם והשני יסע ל<placeName ref="#H-LOC_607">איוואסקיוויץ</placeName>
 					<lb />ל<placeName>ערל</placeName> הנ"ל וב<placeName>עזה"י</placeName> יחזור לכם המעות והלכו ל<placeName>האכסניא</placeName> ולא יכלו
@@ -3316,7 +3316,7 @@
 					<lb />המעות השיב לו באותו מקום בעיר <placeName ref="#H-LOC_14">קאסיב</placeName> בללא של דבר הערל
 					<lb />הנ"ל החזיר לו המעות רק שהי' חסר לו מן סך הנ"ל לערך י"ב
 					<persName><lb />דיינש</persName> שהיה שותה על הדרך עכ״ש העתקה אות באות מאגרת
-					<lb />ששלח הרב הקדוש <persName>מו"ה</persName> <persName>זאב וואלף מ<placeName ref="#H-LOC_462" ana="bio">טשארנסטרי׳</placeName></persName> להרב הצדיק
+					<lb />ששלח הרב הקדוש מו"ה <persName>זאב וואלף מ<placeName ref="#H-LOC_462" ana="bio">טשארנסטרי׳</placeName></persName> להרב הצדיק
 					<lb />מו"ה <persName>מנחם מענדיל</persName> זללה"ה מ<placeName ref="#H-LOC_14">קאסיב</placeName> :
 				</p>
 				<p>
@@ -3328,7 +3328,7 @@
 					<lb />שימשוך על עצמו ועל בניו וב״ב ועל אחב"י גם ברכתי בתוכם וכל
 					<lb />הנלוים אליו יתברכו ויתחדשו להם בכל חדשי השנה שפע טוב
 					<lb />וברכה וחיים טובים אמן <persName>ה״ק</persName> <persName>זאב וואלף מ<placeName ref="#H-LOC_462" ana="bio">טשערנאסטרי</placeName></persName>' <placeName>חוה"ק</placeName>
-					<placeName><lb />טבריא</placeName> עה״ק תובב<placeName>״</placeName>א המכתב הלז העתקתי ב<placeName ref="#H-LOC_23">וויזניצא</placeName> מן הטעוועליך
+					<placeName><lb />טבריא</placeName> עה״ק תובב<placeName>״א</placeName> המכתב הלז העתקתי ב<placeName ref="#H-LOC_23">וויזניצא</placeName> מן הטעוועליך
 					<lb />של <name type="work">תיקוני הזוהר</name> שהיה כתוב שם והעתקתי אות באות ע"כ
 				</p>
 				</div><div type="story" xml:id="Maasiot-veSihot-Tsadikim_0026"><head type="storyHead">Maasiot-veSihot-Tsadikim_0026</head><span ana="TBD:Unknown" />
@@ -3428,10 +3428,10 @@
 					<lb />ערך כאחד הנגידים וקרב את האורחים בסבר פנים יפות, ויהי בבוקר
 					<lb />אמר ה<persName>בע״ש</persName> כי הוא רוצה לילך להעיר להתפלל, וילך ה<persName>בע״ש</persName> עם
 					<lb />הבעה"ב וחסידיו להעיר. ויבואו לבית הכנסת והתפללו שמה והנה
-					<lb />אחר התפלה והנה כל הקהל הקיפו את הבע<persName>״</persName>ש ורצו אשר אתם
-					<lb />ילך לביתם לסעוד סעודת החג ולא נתנו את הבע<persName>״</persName>ש לחזור לאכסניא
+					<lb />אחר התפלה והנה כל הקהל הקיפו את הבע<persName>״ש</persName> ורצו אשר אתם
+					<lb />ילך לביתם לסעוד סעודת החג ולא נתנו את הבע<persName>״ש</persName> לחזור לאכסניא
 					<lb />שלו מחוץ לעיר, וילך אצל עשיר גדול, וכל אנשי העיר באו
-					<lb />לשולחן הבע<persName>״</persName>ש כי נודע הדבר אשר הבע<persName>״ש</persName> התחפש ובא למען
+					<lb />לשולחן הבע<persName>״ש</persName> כי נודע הדבר אשר הבע<persName>״ש</persName> התחפש ובא למען
 					<lb />לידע האמת אם כן הדבר אשר אנשי העיר הלז זריזין לקיים המצוה
 					<lb />מהכנסת אורחין. ויחוגג הבע<persName>״ש</persName> את החג הקדוש בעיר הנ"ל. והנה
 					<lb />אחר יו<date>״</date>ט בא ה<persName>בע״ש</persName> להאכסניא שלו ועשה <orgName>הבעה"ב</orgName> סעודה גדולה
@@ -3448,14 +3448,14 @@
 				<p>
 					<lb />מאוד עם הבע<persName>״ש</persName> ויהי בבוקר כאשר ה<persName>בע״ש</persName> רצה לנסוע משם ויאי
 					<lb />וה<persName>בע״ש</persName> אל <orgName>הבעה״ב</orgName> המוכר עטרן אמור בקשתך אשר תבקש
-					<lb />ויאמר הבעה"ב אל הבע<persName>״</persName>ש הנה בקשתי אשר הרב יתפלל עב
+					<lb />ויאמר הבעה"ב אל הבע<persName>״ש</persName> הנה בקשתי אשר הרב יתפלל עב
 					<lb />להשי"ת שאהי' מוכן ומזומן לחיי׳ עולם הבא, כי תהלה לאל
 					<lb />לי עשירית ב<placeName>עזה"ש</placeName>, ויאמר ה<persName>בע״ש</persName> טוב הדבר אך אם תרצה עוה״ז
 					<lb />תבא לביתי לעיר מ<placeName>עזבוז</placeName> ושם אברכך למען שתזכה לעולם הבא
 					<lb />וזאת איעצך הנה הדרך רחוק מאוד מכאן. ע"כ תקנה בכאן כמן
 					<lb />חביתין יין טוב ותמכור שמה כי אצלנו היין ביוקר גדול ותרוי
 					<lb />מעות הרבה. הבע"ש הלך לדרכו, ו<persName>הבעה"ב</persName> עשה כאשר אמר לו
-					<lb />וה<persName>בע״<orgName />ש</persName>, וישכור כמה עגלות וימלא כמה וכמה חביתין עם יין טו
+					<lb />וה<persName>בע״ש</persName>, וישכור כמה עגלות וימלא כמה וכמה חביתין עם יין טו
 					<lb />על העגלות ונסע למקום <persName>הבע״ש</persName>, ויהי בדרך והנה השמים התקדו
 					<lb />בעבים והלך <orgName>הבעה״ב</orgName> לבית אחד אשר עומד בשדה ושם דר אין
 					<lb />עני אחד מחזיק אראנדע מאדון הכפר ויבא <persName>הבעה"ב</persName> לבית הראנדא
@@ -3465,14 +3465,14 @@
 					<lb />כי אין איש, וישב לילך ל<placeName>הראנדאר</placeName> אך נעלם הבית מעיניו ולז
 					<lb />ידע אנה ילך, ותעה בדרך כצאן אובד, ולא ידע הדרך אנה ישו
 					<lb />לדרך פעמיו, וילך שפי רעב וצמא, עד שארח לאורחי ופורח
-					<lb />בדרך וילך עמהם עד כי בא לעיר מ<placeName>עזבוז</placeName> מקום הבע<persName>״<orgName />ש</persName> ו<persName>הבע״ש</persName>
+					<lb />בדרך וילך עמהם עד כי בא לעיר מ<placeName>עזבוז</placeName> מקום הבע<persName>״ש</persName> ו<persName>הבע״ש</persName>
 					<lb />אמר למשמשו הנה כעת באו עניים לעירנו ילך תיכף ויאמר אליהם
 					<lb />אשר בבית הבע״<orgName>ש</orgName> יסעדו ביום ה<date>שבת</date> הקודש, וילך משרת הבע״ש
 					<lb />ויעשה כאשר נצטווה מפי הבע<persName>״ש</persName>. ויקרא את האורחים ל<placeName>ביר</placeName>
-					<lb />ו<persName>הבע״<orgName />ש</persName>. ויהי בליל <date>שבת</date> קודש ויקרא הבע״ש להסוחר ויאמרו
+					<lb />ו<persName>הבע״ש</persName>. ויהי בליל <date>שבת</date> קודש ויקרא הבע״ש להסוחר ויאמרו
 					<lb />אליו שב לימיני ויתמהו כל חסידי הבע״ש עם דבר הלז, ויאמו
 					<lb />והבע"ש להסוחר העני התכירנו ? ויאמר העני זאת ידעתי כי אתני
-					<lb />והבע<persName>״</persName>ש ויאמר הבע״ש התזכור כי הייתי אצלך על חג הסוכותן
+					<lb />והבע<persName>״ש</persName> ויאמר הבע״ש התזכור כי הייתי אצלך על חג הסוכותן
 					<lb />ובקשת ממני שאבקש עבורך להשי"ת שתהי׳ לך חלק לעוה"ב
 					<lb />ויזכור הסוחר ויאמר אמת הדבר ויאמר הבע״ש אליו אל תאמר
 				</p>
@@ -3547,7 +3547,7 @@
 					<lb />הנחתום ונהרגו שניהם ועתיד ה<name type="misc">קדוש</name> ברוך הוא לתבוע דמן שנאמר
 					<lb />כי דורש דמים אותם זכר לא שכח צעקת ענוים, מהו לא שכח
 					<lb />צעקת ענוים רבי <persName>אבהו</persName> בשם <persName>ר"א</persName> אמר כל צדיק וצדיק שאומות
-					<lb />העולם הורגים אותם ה<name type="misc">קב<persName />״ה</name> כותב ב<name type="work">פרפורא</name> שלו שנאמר ידין
+					<lb />העולם הורגים אותם ה<name type="misc">קב״ה</name> כותב ב<name type="work">פרפורא</name> שלו שנאמר ידין
 					<lb />בגוים מלא גויות מחץ ראש על <placeName>ארץ</placeName> רבה מ<placeName>נחל</placeName> בדרך ישתה על
 					<lb />כן ירים ראש .
 				</p>
@@ -3591,7 +3591,7 @@
 					<persName><lb />יצחק מדראהאביטש</persName> אשר היה המגיד הי׳ ג״כ לדיין וישב בצוותא
 					<lb />חדא עם הרב ר׳ <persName>יצחק מ<placeName ref="#H-LOC_186" ana="bio">האמבורג</placeName></persName> על המשפט הנ"ל, והתחילו הבעלי
 					<lb />דינים לערוך טענותיהם לפני הרבנים הנ"ל. ויצא הפסק דין אל פני
-					<lb />הרב <persName>מו"ה</persName> <persName>יצחק האראוויטץ</persName> <placeName>דהאמבורג</placeName> אשר היורשים פטורים מלשלם
+					<lb />הרב מו"ה <persName>יצחק האראוויטץ</persName> <placeName>דהאמבורג</placeName> אשר היורשים פטורים מלשלם
 					<lb />להתובע, כי אביהם לא הניח צוואה והם אומרים אשר א גם יודעים
 					<lb />מזה כלום ע״כ ישבעו שאינם יודעים אז כאשר ישבעו איום יודעים
 					<lb />אזי יפטרו מלשלם, הרב ר׳ <persName>יצחק מדראהאביטש</persName> לא רצה לחתום
@@ -3691,7 +3691,7 @@
 				</div><div type="story" xml:id="Maasiot-veSihot-Tsadikim_0033"><head type="storyHead">Maasiot-veSihot-Tsadikim_0033</head><span ana="TBD:Unknown" />
 <head>
 					<lb />בשם אבי המדפיס הרב וכו׳ <persName>ה״ר</persName> <persName>אברהם ניסן</persName> הלזו
-					<lb />זלה"ה תלמוד מובהק של הרב <persName>אדומו״</persName>ר <persName>רשבבה״ג</persName> מהר"ז
+					<lb />זלה"ה תלמוד מובהק של הרב <persName>אדומו״ר</persName> <persName>רשבבה״ג</persName> מהר"ז
 					<persName><lb />יוסף שאול הלוי</persName> ז"ל אבדק"ק ל<placeName>בוב</placeName>
 				</head>
 				<p>
@@ -3761,10 +3761,10 @@
 					<lb />שיחות צדיקים
 				</fw>
 				<p>
-					<lb />מהקבלת פ"ש וביקש מה<name type="misc">קב״<persName />ה</name> שימתין עד שירוץ ויכניס את האורחים,
+					<lb />מהקבלת פ"ש וביקש מה<name type="misc">קב״ה</name> שימתין עד שירוץ ויכניס את האורחים,
 					<lb />ובזה מדויקים היטב הפסוקים כסדר וירא והנה שלשה אנשים נצבים
 					<lb />עליו (והי׳ שקול בדעתו מה לעשות וירא וירץ לקראתם (והבין שזה
-					<lb />רצון קונו) וישתהו ארצה להקב<orgName>״</orgName>ה וביקש ממנו שימתין לו שיכנים
+					<lb />רצון קונו) וישתהו ארצה להקב<orgName>״ה</orgName> וביקש ממנו שימתין לו שיכנים
 					<lb />את האורחים, ויכתבו הכתובים בסדר שהאמורה היתה אחר שראה ששמע
 					<lb />לקראתם : המלט על נפשיך אל תביט אחריך וגו׳ ההרה המלט ואח"ז
 					<lb />באשת <persName>לוט</persName> כתיב ותבט אשתו מאחריו ופירש״י מאחריו של <persName>לוט</persName>, ומדוע
@@ -3822,7 +3822,7 @@
 					<lb />בשם הנ"ל
 				</head>
 				<p>
-					<lb />פ׳ <name type="work">יתרו</name> ואת שני בני<persName>'</persName> אשר שם הא<persName>׳</persName> <persName>גרשם</persName> כי אמר גר הייתי באר'
+					<lb />פ׳ <name type="work">יתרו</name> ואת שני בני' אשר שם הא׳ <persName>גרשם</persName> כי אמר גר הייתי באר'
 					<lb />גברי׳ ושם האחד <persName>אליעזר</persName> כי וגו׳ ויצילני מהרב <persName>פרעה</persName> יש לדקדק
 					<lb />בהפסוקים א׳ מדוע בשם נרשם כתבה ה<name type="work">תורה</name> הקדושה כי אמר ולא
 					<lb />כן בשם <persName>אליעזר</persName> וגם דקדוק ב׳ מדוע לא נכתב ושם השני <persName>אליעזר ג'</persName>
@@ -3833,18 +3833,18 @@
 					<lb />הראשון יהי׳ לע"ז וע"כ לא הי' ביכולתו למול אותו, וע"כ קרא שמו
 					<persName><lb />גרשום</persName> כי אמר לו צדיק א"ע גר הייתי באיץ נכרי' ולא הי׳ באפשרי
 					<lb />לפני לעשות באופן אחר רק לקיים הנאו. וע״כ לא קרא שמו <persName>אליעזר</persName> כי
-					<lb />לא רצה להקרות שמו של <name type="misc">הקב<persName />״ה</name> עליו מטעם הנ״ל. וע״כ כתיב ושם
+					<lb />לא רצה להקרות שמו של <name type="misc">הקב״ה</name> עליו מטעם הנ״ל. וע״כ כתיב ושם
 					<lb />האחד <persName>אליעזר</persName> כי בן השני לגבא דמשה היא בן הראשון כי בן הקודם
 					<lb />לא שייך ל<persName>משה</persName> רק ליתרו כפי התנאי. וע"כ קרא שמו <persName>אליעזר</persName> על
 					<lb />הנס שאירע לו ובזה נכון לתרץ כל הדקדוקים.
 				</p>
 				</div><div type="story" xml:id="Maasiot-veSihot-Tsadikim_0037"><head type="storyHead">Maasiot-veSihot-Tsadikim_0037</head><span ana="TBD:Unknown" />
 <head>
-					<lb />מעשה מהרב הגאון <persName>מו"ה</persName> <persName>שלמה קליגער המגיד מ<placeName ref="#H-LOC_152" ana="bio">בראד</placeName></persName>
+					<lb />מעשה מהרב הגאון מו"ה <persName>שלמה קליגער המגיד מ<placeName ref="#H-LOC_152" ana="bio">בראד</placeName></persName>
 					<lb />זצלה <persName>ה</persName>.
 				</head>
 				<p>
-					<lb />פ"א קרה מעשה נורא בעיר ב<placeName ref="#H-LOC_53">ראדי</placeName> לפני הרב ר<persName>׳</persName> <persName>שלמה
+					<lb />פ"א קרה מעשה נורא בעיר ב<placeName ref="#H-LOC_53">ראדי</placeName> לפני הרב ר׳ <persName>שלמה
 					<lb />קליגער המגיד מ<placeName ref="#H-LOC_152" ana="bio">בראדי</placeName></persName> הנה אשה אחת באת לפני הרב ולשאול
 					<lb />לו שאלת טריפה על אווז אחת אשר היתה בידה. ויפסוק הרב כי
 					<lb />האווז טריפה, ותלך האשה במר נפשה לביתה כי אשה ענייה היתה

@@ -1,19 +1,19 @@
-<?xml version='1.0' encoding='UTF-8'?>
+<?xml version='1.0' encoding='utf-8'?>
 <TEI xmlns="http://www.tei-c.org/ns/1.0">
 	<teiHeader>
 		<fileDesc>
 			<titleStmt>
 				<title type="main">Semichat Moshe 1886 סמיכת משה</title>
-			</titleStmt>
+			</titleStmt><editionStmt><edition n="1.0.0">Working edition</edition></editionStmt>
 			<publicationStmt>
 				<publisher>tranScriptorium</publisher>
 			</publicationStmt>
-			<sourceDesc><bibl type="original"><title type="main" xml:lang="he">סמיכת משה</title><title type="main" xml:lang="en">Semichat Moshe</title><author><persName xml:lang="he" ref="#tempH-68">שמואל הורוביץ (במפעל הביבליוגרפיה זה רשום על בנו)</persName><persName xml:lang="en" ref="#tempH-68">Shmuel Horowitz</persName></author><imprint><pubPlace xml:lang="he">פשמישל</pubPlace><pubPlace xml:lang="en">Przemysl</pubPlace><date when="1886">תרמז</date></imprint><textLang mainLang="heb" /><idno type="BHB">137566</idno><idno type="ALMA">990018809960205171</idno><idno type="Kima">424</idno><idno type="Kitsis">30</idno><idno type="DBid">3673</idno><idno type="work">35</idno></bibl></sourceDesc><editionStmt><edition n="1.0.0">Working edition</edition></editionStmt></fileDesc>
-	<revisionDesc><change when="2026-03-19">Edition management migration (canonical filename + archived uncorrected source); version none -&gt; 1.0.0</change><change when="2026-03-24">sourceDesc synced from edition-metadata.json</change><change when="2026-03-24">sourceDesc synced from edition-metadata.json</change></revisionDesc></teiHeader>
+			<sourceDesc><bibl type="original"><title type="main" xml:lang="he">סמיכת משה</title><title type="main" xml:lang="en">Semichat Moshe</title><author><persName xml:lang="he">שמואל הורוביץ (במפעל הביבליוגרפיה זה רשום על בנו)</persName><persName xml:lang="en">Shmuel Horowitz</persName></author><pubPlace xml:lang="he">פשמישל</pubPlace><pubPlace xml:lang="en">Przemysl</pubPlace><date when="1886">תרמז</date><textLang mainLang="heb"/><idno type="BHB">137566</idno><idno type="ALMA">990018809960205171</idno><idno type="Kima">424</idno><idno type="Kitsis">30</idno><idno type="DBid">3673</idno><idno type="work">35</idno></bibl></sourceDesc></fileDesc>
+	<revisionDesc><change when="2026-03-19">Edition management migration (canonical filename + archived uncorrected source); version none -&gt; 1.0.0</change><change when="2026-03-24">sourceDesc synced from edition-metadata.json</change><change when="2026-03-24">sourceDesc synced from edition-metadata.json</change><change when="2026-03-24">sourceDesc synced from edition-metadata.json</change></revisionDesc></teiHeader>
 	<text>
 		<body>
 			<div type="title-page">
-				<pb facs="Smichat-Moshe_0001.jpg" />
+				<pb facs="Smichat-Moshe_0001.jpg"/>
 				<head>
 					ספר
 					סמיכת משה
@@ -31,7 +31,7 @@
 					המפורסים בכל קצוי ארץ הקדוש והטהור מ׳ <persName ref="#Tsadik_017.002">פנחס הלוי איש
 					הורוויץ</persName> אבד״ק <placeName ref="#H-LOC_125">פראנקפורטדמיין</placeName> בעל הפלאה ומקנה זי"ע
 					גם יש בתוכם דברים עריבים ומתוקים מאביו הקדוש רבי ר׳ <persName ref="#Tsadik_017.003">שמעלקא</persName>
-					ומחותנו הקדוש בעל הפלאה
+					ומחותנו הקדוש בעל <name type="WOA">הפלאה</name>
 					גם הדפסתי בפתיחה דברים יקרים ונחמדים והנעימים לאוזן שומעת במילי דאגדתא
 					מזקני הקדוש רבי <persName ref="#Tsadik_017.003">ר"ש</persName> ומזקני הקדוש בנו המחבר ששמעתי מאנשי אמת :
 					נדפס ב<date>שנת תרמ״ז</date>
@@ -40,7 +40,7 @@
 				<p>
 					 Druck Zupnik, Knuller &amp; Hamerschmid in <placeName ref="#H-LOC_126">Przemyśl</placeName> <date>1886</date>
 				</p></div><div type="notice">
-				<pb facs="Smichat-Moshe_0002.jpg" />
+				<pb facs="Smichat-Moshe_0002.jpg"/>
 				<p>
 					מודעת זאת כי כל הנמצא בספרי זמנינו שם נכרי או עכו"ם הכונה על
 					האומות הקדמונים אשר לא ידעו דרך ד׳ ולא כן האומות אשר אנחנו
@@ -55,7 +55,7 @@
 					<orgName>Verlag Schmelke Horowitz</orgName> <placeName ref="#H-LOC_126">Przemyśl</placeName>.
 					Nachdruck verbotten.
 				</p></div>
-				<pb facs="Smichat-Moshe_0003.jpg" />
+				<pb facs="Smichat-Moshe_0003.jpg"/>
 				<div type="haskama"><head>
 					הסכמת הגאונים
 				</head>
@@ -72,7 +72,7 @@
 					זצלה"ה האבד״ק <placeName ref="#H-LOC_29">טרעביטש</placeName> במדינות <placeName ref="#H-LOC_7">מעהרין</placeName> בנו של
 					אותו צדיק יסוד עולם הארי החי הגאון הקדוש רעי'
 					מהימנא כקש״ת רבן של כל ישראל מרן רבינו
-					ש<persName ref="#Tsadik_017.003">מעלקא הלוי</persName> זצלה"ה האבד״ק <placeName ref="#H-LOC_66">ניקלשפורג</placeName> והמדינה וחתן
+					<persName ref="#Tsadik_017.003">שמעלקא הלוי</persName> זצלה"ה האבד״ק <placeName ref="#H-LOC_66">ניקלשפורג</placeName> והמדינה וחתן
 					אחיו בקודש הגאון החסיד בעל ההפלאה זצלה"ה :
 					והוא מלא על כל גדותיו בפלפולים עמוקים דבר ד'
 					זו הלכה אשר דרש חג בחג מפיו כדודי אש יתמלטון
@@ -86,7 +86,7 @@
 					הורוויץ</persName> נ"י מפה״ק נכדו של הגאון המחבר זצלה"ת
 					אשר זה כבר שלח ידו בקודש והוציא לאור ספר
 					היקר גזיר השם מזקינו ארי׳ דבי עילאי הגאון רבינו
-					ש<persName ref="#Tsadik_017.003">מעלקא הלוי</persName> זצ"ל וסמיכת משה מבנו הרב הגאון
+					<persName ref="#Tsadik_017.003">שמעלקא הלוי</persName> זצ"ל וסמיכת משה מבנו הרב הגאון
 					מ׳ <persName> צבי יהושע</persName> הנ״ל. ואבינה כי לא נאה אשר אבני
 					קודש האלו יצללו בתהומות הנשי׳ וחמדה גנוזה
 					דאיתא בי גזא תשכון בערפל. לזאת יעצתי להוציאם
@@ -136,7 +136,7 @@
 					דברי ידידו הדוש"ת בלב ונפש
 					<persName>יצחק אהרן</persName> הנ״ל איטיננא
 				</p>
-				<pb facs="Smichat-Moshe_0004.jpg" />
+				<pb facs="Smichat-Moshe_0004.jpg"/>
 				</div><div type="haskama"><head>
 					הסכמות
 				</head>
@@ -228,7 +228,7 @@
 				<p>
 					הק׳ <persName>חיים האלברשטאם</persName> אבד״ק <orgName ref="#H-LOC_127">צאנז</orgName>
 				</p>
-				<pb facs="Smichat-Moshe_0005.jpg" />
+				<pb facs="Smichat-Moshe_0005.jpg"/>
 			<fw type="running-head">
 					הסכמות
 				</fw>
@@ -332,7 +332,7 @@
 				<p>
 					הק׳ <persName ref="#Tsadik_012.172">מנחם מענדיל</persName> בהרב הצדיק זצללה״ה.
 				</p>
-				<pb facs="Smichat-Moshe_0006.jpg" />
+				<pb facs="Smichat-Moshe_0006.jpg"/>
 				<fw type="running-head">
 					הסכמות
 				</fw>
@@ -411,7 +411,7 @@
 				<p>
 					הק׳ <persName ref="#Tsadik_012.049">יואל אשכנזי</persName> תחונה פ״ק <placeName ref="#H-LOC_402">זלאטשוב</placeName>
 				</p>
-				<pb facs="Smichat-Moshe_0007.jpg" />
+				<pb facs="Smichat-Moshe_0007.jpg"/>
 				</div><div type="haskama"><head>
 					הסכמות הגאונים הצדיקים מארץ הגר
 				</head>
@@ -469,7 +469,7 @@
 					כ"א כמו שכתוב סלח נא. מחני נא. אל כ"א אעברה נא ועש"ה ונ"א גימטרי׳ שצ"ו כן שמי <persName>יהושע</persName> וה׳ אותיות
 					עולה ג״כ שצ״ו ושם מש״ה על שם אבי זצללה״ה שר״ת מש״ה מרן <persName ref="#Tsadik_017.003">שמעלקא הלוי</persName> כך כתוב הטעם בהקדמתו
 					בס׳ <name type="work">סמיכת משה</name> על ה<name type="work">תורה</name>. ועתה עם ד׳ מזה תדעו ותראו שבוודאי הספר הקדוש הזה הוא תורת אמת
-					לאמיתו שהי' לו סמיכה מאיש גדול קדוש ונורא כזה כי מידו הקדושה בוודאי לא יצא דבר שאינו מתוקן</p></div><div type="story" xml:id="Smichat-Moshe_0001"><head type="storyHead">Smichat-Moshe_0001</head><span ana="TBD:Unknown" />
+					לאמיתו שהי' לו סמיכה מאיש גדול קדוש ונורא כזה כי מידו הקדושה בוודאי לא יצא דבר שאינו מתוקן</p></div><div type="story" xml:id="Smichat-Moshe_0001"><head type="storyHead">Smichat-Moshe_0001</head><span ana="TBD:Unknown"/>
 <p>
 					כאשר שמעתי וסיפר לי זה כמו עשרים שנה בק׳ <placeName> נאמסק</placeName> ב<placeName type="check" ref="#H-LOC_223">מדינת מאלדווע</placeName> הרב הגדול בתורה חריף ובקי
 					ולא השם וחסיד הישיש <persName ref="#Tsadik_013.002">אפרים יחיאל מיכל</persName> אשר הוא בעצמו ששמע מפי הצדיקת המפורסמת
@@ -482,7 +482,7 @@
 				<fw facs="#facs_7_tr_1734187528" type="catch-word">
 					הרעש
 				</fw>
-				<pb facs="Smichat-Moshe_0008.jpg" />
+				<pb facs="Smichat-Moshe_0008.jpg"/>
 			<fw type="running-head">
 					הקדמת נכד המחבר
 				</fw>
@@ -528,7 +528,7 @@
 					<placeName ref="#H-LOC_66">ניקלשפארג</placeName> והמדינה וחתן אחיו הרב הקדוש הגאון מ<persName ref="#Tsadik_017.002">׳ פנחס הלוי איש הירויץ</persName> אבד״ק <placeName ref="#H-LOC_125">פראנקפורטדמיין</placeName> בעל
 					הפלאה בני הרב הגאון הקדוש מ׳ <persName> צבי הירש הלוי איש הורוויץ</persName> אב"ד <placeName ref="#H-LOC_65">טשארטקוב</placeName> [הוא אמר קודם הסתלקותו
 					כשיהי׳ חלילה עת צרה לבניו אזי יבואו על קברו ויענה להם כמו בחייו ויש בזה חלוקi דעות יש אומרים עד
-					ה׳ דורות וי״א עד עשרה דורות וי״א עד דורי דורות </p></div><div type="story" xml:id="Smichat-Moshe_0002"><head type="storyHead">Smichat-Moshe_0002</head><span ana="TBD:Unknown" />
+					ה׳ דורות וי״א עד עשרה דורות וי״א עד דורי דורות </p></div><div type="story" xml:id="Smichat-Moshe_0002"><head type="storyHead">Smichat-Moshe_0002</head><span ana="TBD:Unknown"/>
 <p>
 					ובדידי הוה עובדא שנחלתי אחר חת כתי בק' <placeName ref="#H-LOC_6">סאניק</placeName>
 					על רגלי השמאלית ונפלתי על ערש דוי ביסורים גדולים ומרים עד למאוד ר"ל ומוכרח הייתי לישכב על צד
@@ -537,7 +537,7 @@
 				<fw facs="#facs_8_tr_1734187527" type="catch-word">
 					הדאקטורים
 				</fw>
-				<pb facs="Smichat-Moshe_0009.jpg" />
+				<pb facs="Smichat-Moshe_0009.jpg"/>
 			<fw type="running-head">
 					הקדמת נכד המחבר
 				</fw>
@@ -566,7 +566,7 @@
 					אבד״ק <placeName ref="#H-LOC_71">טוקטין</placeName>. בהרב הגאון הקדוש מ׳ <persName ref="#Tsadik_017.003">שמואל שמעלקא</persName> האבד״ק <persName type="check">טארני</persName> [הנקרא בפ״כ דער הוכער רבי ר<persName ref="#Tsadik_017.003">״ש</persName>
 					וכתוב על מצבתו וישפוט <persName>שמואל</persName> את העם ארבעים שנה וימות לפ"ק אמר ג״כ לפני הסתלקותו שיענה לבניו
 					עד דורי דורות בע״צ כשיבואו על ציונו והרב הקדוש ש"ב <persName ref="#Tsadik_055.006">מ׳ נפתלי צבי מראפשיטץ</persName> נסע תמיד על ציונו
-					כי הי׳ ג״כ נכדו. בהרב הגאון הקדוש מ׳ <persName> יהושע ארוך איש הורוויץ</persName> אבד״<placeName type="suspicious" />ק <placeName ref="#H-LOC_126">פרעמישלא</placeName> בהרב הגאון הקדוש
+					כי הי׳ ג״כ נכדו. בהרב הגאון הקדוש מ׳ <persName> יהושע ארוך איש הורוויץ</persName> אבד״ק <placeName ref="#H-LOC_126">פרעמישלא</placeName> בהרב הגאון הקדוש
 					מ׳ <persName ref="#Tsadik_017.002">פנחס הלוי איש הורויץ</persName> אב"ד <placeName type="check">פולדא</placeName>. ואח״כ נעשה <placeName>אפלאנד</placeName> ב<placeName ref="#H-LOC_142">פראג</placeName> ופרנס הכולל דד״א וזוגתו היא הצדיקת
 					<persName>מרים</persName> אחותו של <persName>רמ"א</persName> גודל תוקפו מובא בסדר הדורות <date>שנת ש"פ</date> וב<name type="work">שו״ת חיות יאיר</name> מובא שהי׳ בחי
 					בכל ה<name type="work">ש״ס</name> ופוסקים בע״פ וסיפרו אותו שלשים יום כעל <persName>משה</persName> רע"ה] בהרב החסיד הקצין וראש מ׳ <persName>ישעי׳
@@ -591,7 +591,7 @@
 				<fw facs="#facs_9_tr_1734187532" type="catch-word">
 					ר״מ
 				</fw>
-				<pb facs="Smichat-Moshe_0010.jpg" />
+				<pb facs="Smichat-Moshe_0010.jpg"/>
 				<fw type="running-head">
 					הקדמת נכד המחבר
 				</fw>
@@ -624,7 +624,7 @@
 					<persName>נזר הקודש מ׳ יוסף</persName>  אבד״ק <placeName type="check" ref="#H-LOC_40">לבוב</placeName> חתן הגאון המובהק וכו׳ רבינו <persName>מאיר</persName>  אבד״ק <placeName ref="#H-LOC_130">קראקא</placeName> <placeName type="check" ref="#H-LOC_40">לבוב</placeName> <placeName type="check" ref="#H-LOC_56">לובלין</placeName>
 					בעהמ״ח שו״ת וחידושי מהר<persName>״ם מ<placeName type="check" ref="#H-LOC_56" ana="bio">לובלין</placeName></persName> חתן הגאון אמיתי וכו׳ מ׳ <persName>יצחק שפירא</persName> אבד"ק <placeName ref="#H-LOC_130">קראקא</placeName> [המובא
 					במכתבו אשר כתב למהר״<persName>ל מ<placeName ref="#H-LOC_142" ana="bio">פראג</placeName></persName> בספרו <name type="work">נתיבות עולם</name> כתיב הלשון] בהרב הגאון מ׳ <persName>דוד כ״ץ שפירא</persName>
-					<placeName>אבד<persName />״<placeName />ק</placeName> <placeName ref="#H-LOC_130">קראקא</placeName> בהרב הגאון האדיר רבינו <persName>יואל כ״ץ שפירא</persName> <placeName>אבד״ק</placeName> <placeName ref="#H-LOC_130">קראקא</placeName> ולמעלה בקודש כמובא ב<name type="work">ס׳
+					<placeName>אבד״ק</placeName> <placeName ref="#H-LOC_130">קראקא</placeName> בהרב הגאון האדיר רבינו <persName>יואל כ״ץ שפירא</persName> <placeName>אבד״ק</placeName> <placeName ref="#H-LOC_130">קראקא</placeName> ולמעלה בקודש כמובא ב<name type="work">ס׳
 					עיר הצדק</name> ור׳ <persName>זכרי׳ הנביא</persName> הנ"ל הי' נכד הגאון רבינו ו<persName>וישל</persName> שנזכר ב<name type="work">סמ"ע</name> סימן מ"ט שהי׳ חתנו של רבינו
 					<persName>שלמה לוריא</persName> בעל המהרש"ל ו<persName>ים</persName> של <persName>שלמה</persName> בהגאון רבינו <persName>יחיאל לוריא</persName> מגזע ר׳ <persName>שמשון מארינפורט</persName> בן
 					הרבנית <persName>מרה מרים</persName> אשר למדה עם ישיבות מופלגים והי׳ ווילון מפסיק בינה בת רבינו <persName>שלמה שפירא</persName>
@@ -632,7 +632,7 @@
 					ר׳ <persName>שלמה שפירא</persName> לא פסחה תורה מהם עד <persName>רש"י</persName> עכ״ל. וע׳ בס׳ ים של <persName>שלמה</persName> ב<name type="work">יבמות</name> פ"ד סימן ל"ג
 					שכתב שם וזה לשונו ועל <persName>רש״י</persName> יחוס בית אבי סמכתי וכו' ו<persName>רש"י</persName> הי׳ דור עשירי להתנא ר׳ <persName>יוחנן הסגדלר</persName>
 					שהיא דור רביעי לר׳ <persName>גמליאל</persName> הזקן נכד <persName>הילל הזקן</persName> מבית דוד ה<placeName type="check">מלך</placeName> ע"ה ועיין בשם הגדולים <persName>חיד״א</persName> ובסדר
-					הדורות וכתב שיש בידו סדר היחוס שכתוב כסדר ממהרש"ל עד <persName>רש״י</persName> מ״ה וא״ז הגאון הקדוש מ׳ <persName /> ש<persName>מעלקא
+					הדורות וכתב שיש בידו סדר היחוס שכתוב כסדר ממהרש"ל עד <persName>רש״י</persName> מ״ה וא״ז הגאון הקדוש מ׳  ש<persName>מעלקא
 					הלוי איש הורוויץ אבד״ק <placeName>טארגי</placeName></persName> הי׳ חתן הרב הגדול האלוף החסיד מ׳ <persName>משה</persName> ז״ל מ<placeName ref="#H-LOC_130">קראקא</placeName> בהרב הגאון
 					אמיתי <persName>בוצינא קדישא חסידא</persName> ופרישא <persName>רשכבה״ג</persName> רבינו <persName>יושע</persName> ז״ל האבד״ק <persName>טיקטין</persName> הוראדנא <placeName ref="#H-LOC_126">פרעמישלא</placeName>
 					ל<placeName type="check">בוב קראקא</placeName> בעהמ״ח ס׳ <name type="work">מגיני שלמה</name> ושו״ת פני <name type="work">יהושע</name>. ומצד אמי הצדיקת המפורסמת אשר כל ימי'
@@ -642,19 +642,19 @@
 				<fw facs="#facs_10_tr_1734187527" type="catch-word">
 					<persName>אברהם</persName>
 				</fw>
-						<pb facs="Smichat-Moshe_0011.jpg" />
+						<pb facs="Smichat-Moshe_0011.jpg"/>
 				<fw type="running-head">
 					הקדמת נכד המחבר
 				</fw>
 				<p>
 					<persName>אברהם</persName> ז״ל אחיו של הגאון מ׳ <persName> יעקב יושע</persName> בעהמ״ח ספר פני יהושיע בהרב הגדול מ׳ <persName>צבי הירש חת</persName>
-					הגאון בעל <name type="work">מגיני שלמה</name>. ומחמת שכל סדר יחוסי שאני מציג כאן היא בשביל בני שי<persName>׳</persName> כמו שנזכר לעיל ע״כ
-					אכתוב סדר יחוסם איך הם מצד אמם, זוגתי תחי<persName>׳</persName> היא בת הנגיד מ׳ <persName> זאב וואלף וואהל מ<placeName ref="#H-LOC_39" ana="bio">פרעמישלאן</placeName></persName>
+					הגאון בעל <name type="work">מגיני שלמה</name>. ומחמת שכל סדר יחוסי שאני מציג כאן היא בשביל בני שי׳ כמו שנזכר לעיל ע״כ
+					אכתוב סדר יחוסם איך הם מצד אמם, זוגתי תחי׳ היא בת הנגיד מ׳ <persName> זאב וואלף וואהל מ<placeName ref="#H-LOC_39" ana="bio">פרעמישלאן</placeName></persName>
 					גיסו של הגאון המפורסם מ׳ <persName> משה טובים</persName> האבד״ק <persName>יאסי</persName> ז״ל בעהמ״ח ס׳ תועפת <persName>ראם</persName> והגאון מ׳ <persName> ליפא
-					מייזילם</persName> האבד״ק <placeName ref="#H-LOC_126">פרעמישלא</placeName> ז״ל הי׳ בן אחותו בהרב הגדול החריף מ' <persName>יצחק אייזיק וואהל</persName> בהרב מ<persName>׳</persName>
+					מייזילם</persName> האבד״ק <placeName ref="#H-LOC_126">פרעמישלא</placeName> ז״ל הי׳ בן אחותו בהרב הגדול החריף מ' <persName>יצחק אייזיק וואהל</persName> בהרב מ׳
 					<persName>שמואל וואהל</persName> והוא הי׳ גיסו של הרב הגאון הצדיק מפורסם מ׳ <persName>יוסף</persName> אשר האבד״ק פרעמישלא הנקרא
 					ל<placeName>פ</placeName>״כ דער פרעמיסלער צדיק בהגאון מ׳ <persName>יצחק אייזיק אבד״ק ראוונא</persName> חתן הרב הגאון מ׳ <persName> ליבש אבד״ק
-					קרעמיניץ</persName> ב<persName>הגאון מ׳ שמואל בהגאון</persName> מ׳ <persName>פישל מלאדמער בהגאון</persName> מ<persName><placeName />׳ ליב</persName> הנקרא ב<placeName>פ</placeName>״כ דער רבי ר׳ <persName>ליב</persName>
+					קרעמיניץ</persName> ב<persName>הגאון מ׳ שמואל בהגאון</persName> מ׳ <persName>פישל מלאדמער בהגאון</persName> מ<persName>׳ ליב</persName> הנקרא ב<placeName>פ</placeName>״כ דער רבי ר׳ <persName>ליב</persName>
 					<persName>אתן</persName> הגאון בעל בית <persName>שמואל</persName> על אה״ע. הגאון מ׳ <persName>פישל</persName> הנ״ל הי׳ חתן הגאון מ׳ <persName> יעקב מפוזנא</persName> בהגאון מ׳
 					<persName>יצחק מ<placeName ref="#H-LOC_5" ana="bio">פוזנא</placeName></persName> המובא ב<name type="work">מגן אברהם</name> ור׳ <persName>שמואל</persName> אביו של חותני <persName>זקני</persName> הנ״ל הי' חתן הגאון ע׳ <persName>מנחם מענדיל</persName>
 					אבד״ק <placeName>פרעמיסלא</placeName> בהגאון מ׳ <persName>שמואל שמעלקא</persName> אבד״ק <placeName ref="#H-LOC_130">קראקא</placeName> בהגאון מ׳ <persName>ליביש</persName>  אבד״ק <placeName ref="#H-LOC_130">קראקא</placeName> בהגאון

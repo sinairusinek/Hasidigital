@@ -1,32 +1,28 @@
-<?xml version='1.0' encoding='UTF-8'?>
+<?xml version='1.0' encoding='utf-8'?>
 <TEI xmlns="http://www.tei-c.org/ns/1.0">
 	<teiHeader>
 		<fileDesc>
 			<titleStmt>
 				<title type="main">Butzina  Denehora 1879 בוצינא דנהורא</title>
-			</titleStmt>
+			</titleStmt><editionStmt><edition n="1.0.0">Working edition</edition></editionStmt>
 			<publicationStmt>
 				<publisher>tranScriptorium</publisher>
 			</publicationStmt>
-			<sourceDesc><bibl type="original"><title type="main" xml:lang="he">בוצינא דנהורא</title><title type="main" xml:lang="en">Butzina  Denehora</title><author><persName xml:lang="he" ref="#tempH-127">נחמן יעקב מבאר</persName><persName xml:lang="en" ref="#tempH-127">Yaacov Nahman Mevaer</persName></author><imprint><pubPlace xml:lang="he">למברג</pubPlace><pubPlace xml:lang="en">Lvov</pubPlace><date when="1879">תרמ</date></imprint><textLang mainLang="heb" /><idno type="BHB">112217</idno><idno type="Kima">166</idno><idno type="Kitsis">25</idno><idno type="DBid">3654</idno><idno type="work">28</idno></bibl></sourceDesc><editionStmt><edition n="1.0.0">Working edition</edition></editionStmt></fileDesc>
-	<revisionDesc><change when="2026-03-19">Edition management migration (canonical filename + archived uncorrected source); version none -&gt; 1.0.0</change><change when="2026-03-24">sourceDesc synced from edition-metadata.json</change><change when="2026-03-24">sourceDesc synced from edition-metadata.json</change></revisionDesc></teiHeader>
+			<sourceDesc><bibl type="original"><title type="main" xml:lang="he">בוצינא דנהורא</title><title type="main" xml:lang="en">Butzina  Denehora</title><author><persName xml:lang="he">נחמן יעקב מבאר</persName><persName xml:lang="en">Yaacov Nahman Mevaer</persName></author><pubPlace xml:lang="he">למברג</pubPlace><pubPlace xml:lang="en">Lvov</pubPlace><date when="1879">תרמ</date><textLang mainLang="heb" /><idno type="BHB">112217</idno><idno type="Kima">166</idno><idno type="Kitsis">25</idno><idno type="DBid">3654</idno><idno type="work">28</idno></bibl></sourceDesc></fileDesc>
+	<revisionDesc><change when="2026-03-19">Edition management migration (canonical filename + archived uncorrected source); version none -&gt; 1.0.0</change><change when="2026-03-24">sourceDesc synced from edition-metadata.json</change><change when="2026-03-24">sourceDesc synced from edition-metadata.json</change><change when="2026-03-24">sourceDesc synced from edition-metadata.json</change></revisionDesc></teiHeader>
 	<text>
 		<body>
 			<div>
-				<pb facs="Buzina-DiNehora_0001" />
-				<pb facs="Buzina-DiNehora_0002" />
-				<pb facs="Buzina-DiNehora_0003" />
-				<pb facs="Buzina-DiNehora_0004" />
-				<pb facs="Buzina-DiNehora_0005" />
+		
 				<p>
 					<lb />ספר
-					<name type="work"><lb />בוצינא</name> <persName>דנהורא</persName>
+					<name type="work"><lb />בוצינא דנהורא</name>
 					<lb />לקוטים יקרים. אמרי נועם אחד קדוש מדבר מן שמיא. דין
-					<lb />גליא רזיא. בוצינא <name type="misc">דנהורא</name> וקדישא. רב רבנן. וחכם הרזים :
+					<lb />גליא רזיא. בוצינא דנהורא וקדישא. רב רבנן. וחכם הרזים :
 					<lb />איש אלקים קדוש ונורא. שמו נודע בכל קצוי ארץ ארי דבי
 					<lb />עילאה. רבן של כל בני הגולה מורינו ורבינו
 					<persName><lb />ברוך נ״ע מ<placeName ref="#H-LOC_55" ana="bio">מעזיביז</placeName></persName>
-					<lb />נכד הבעש״ט הקדוש <placeName>נבג"מ</placeName>
+					<lb />נכד הבעש״ט הקדוש נבג"מ
 					<lb />אשר יצא לאור פעם ראשון <date>שנת תר"ם</date> ב<placeName ref="#H-LOC_40">לבוב</placeName>. ועתה
 					<lb />נדפס פ״ש עם הוספות לקוטי יקרים וסיפורי נפלאים
 					<lb />מהה"ק הנ"ל :
@@ -34,18 +30,18 @@
 					<lb />המאירים כספירים.
 					<lb />מהבעש״ט הק׳ מרבי ר׳ <persName>ברוך נ״ע</persName>
 					<lb />מהגאון מ<placeName>שפיטיפקע</placeName>. מהה"ק מ<placeName ref="#H-LOC_446">סיווראן</placeName> .
-					<lb />מהק׳ ר׳ <persName>מרדכי מטשירנאביל</persName>.
-					<lb />ב<date>שנת תרמ"ד</date> ל<placeName>פ"ק</placeName>
+					<lb />מהק׳ ר׳ <persName>מרדכי מ<placeName>טשירנאביל</placeName></persName>.
+					<lb />ב<date>שנת תרמ"ד</date> לפ"ק
 				</p>
-				<pb facs="Buzina-DiNehora_0006" />
+				<pb facs="Buzina-DiNehora_0006.jpg" />
 				<p>
-					<placeName><lb />BOZINA</placeName> DINHORA
+					<lb />BOZINA DINHORA
 					<lb />Lemberg <date>1884</date>.
 				</p>
-				<pb facs="Buzina-DiNehora_0007" />
-				<p>
+				<pb facs="Buzina-DiNehora_0007.jpg" />
+				<fw type="running-head">
 					<lb />הקדמה
-				</p>
+				</fw>
 				<p>
 					<lb />אמר המביא להבי״ד הן זה רבות בשנים עברו. מאז בא לידי
 					<lb />מתנה טובה מרגניתא טבא אור הגנוז אשר עדיין לא הי'
@@ -63,15 +59,15 @@
 					<lb />אמרי קדשו המלאים זיו <choice><sic>ונוגע</sic><corr>ונוגה</corr></choice> מפיקים. ובזוהר הרקיע מבריקים.
 					<lb />כי מי ששמע ורגיל בדבריו הקדושים. יכיר בטוב שיצאו ממקור מעין
 					<lb />חיים פה קדוש הנ״ל. גם כשהראתי הכ״ק למראה עיני כבוד. הרב
-					<lb />החסיד המפורסם בנש״ק ר<persName>׳</persName> <persName>מנחם נחום</persName> שליט״א מ<placeName>ק׳ ליטין גבר</placeName> הק׳
-					<lb />רבי ר׳ <persName>ברוך ג״</persName>ע. נתן עדותו שהן הם דברת קדשו. ורבים מהני
+					<lb />החסיד המפורסם בנש״ק ר׳ <persName>מנחם נחום</persName> שליט״א מק׳<placeName> ליטין </placeName>גבר הק׳
+					<lb />רבי ר׳ <persName>ברוך ג״ע</persName>. נתן עדותו שהן הם דברת קדשו. ורבים מהני
 					<lb />מילי מעליותא היו רשומים בזכרונו הטהור ממרן זקנו הק׳ ואיידו
 					<lb />דחביבי מיליו לעלמא. למלאות צמאון עם ד׳ המשתוקקים לחיבת
 					<lb />הקודש. נמצאתי להם למלאות חפצם. והבאתי את המחברת הק'
 					<lb />הזה לביה"ד בפעם הראשון <date>שנת תר״מ</date> ב<placeName ref="#H-LOC_40">לבוב</placeName> ועתה הבאתיו להדפיסו
 					<lb />שנית עם הוספות יקרים לקוטי אמרים וסיפורים נפלאים מהה״ק
 					<lb />הנ"ל שהי׳ בכתובים ועדיין לא יצאו לאור. ורבים מהם מה ששמעו
-					<lb />בשמו מפי ר<persName>׳</persName> <persName>יוסקי</persName> ז״ל נכד בעמ״ח ספר <name type="work">דגל מחנה אפרים מסדילקיב</name>
+					<lb />בשמו מפי ר׳ <persName>יוסקי</persName> ז״ל נכד בעמ״ח ספר <name type="work">דגל מחנה אפרים </name>מ<placeName>סדילקיב</placeName> 
 					<lb />זצלה"ה. גם תקנתי כל הטעות והשמטות שהי׳ בדפוס ראשון.
 					<lb />וברוך ר׳ שגילגל זכות זה על ידי לזכות את הרבים. וכל איש ירא
 					<lb />לנפשו דלא ליקום בארור ח"ו כי הכ״ק נתונים נתונים המה לי
@@ -80,13 +76,13 @@
 					<lb />ולהדפיסם עוד הן במדינה זו הן במדינה אחרת. במתכונתם ושלא
 					<lb />במתכונתם. בלי ידיעה ורשותי. וידוע כי אדם יכול לאסור את שלו
 				</p>
-				<p>
+				<fw type="catch">
 					<lb />על
-				</p>
-				<pb facs="Buzina-DiNehora_0008" />
-				<p>
+				</fw>
+				<pb facs="Buzina-DiNehora_0008.jpg" />
+				<fw type="running-head">
 					<lb />הקדמה
-				</p>
+				</fw>
 				<p>
 					<lb />על אחרים. גם כי גדר גדול גדרו גדולי הדור בעדי. ומלבד זה
 					<lb />חוקי הממשלה יר"ה עוד במקומה עומדה לנקום נקם לעושי עולה
@@ -100,27 +96,27 @@
 					<lb />אמן.
 				</p>
 				<p>
-					<lb />כה דברי המביא לבית הדפוס המדבר מעומקא <persName>דלבא
-					<lb />נחמן יעקב בן לא"א</persName> המנוח <persName>מוהר"ר</persName>
-					<persName><lb />אליהו</persName> ז"ל חונה בעיר באר
+					<lb />כה דברי המביא לבית הדפוס המדבר מעומקא דלבא
+					<lb /><persName>נחמן יעקב</persName> בן לא"א המנוח מוהר"ר
+					<persName><lb />אליהו</persName> ז"ל חונה בעיר <placeName ref="#H-LOC_74">באר</placeName>
 				</p>
-				<pb facs="Buzina-DiNehora_0009" />
+				<pb facs="Buzina-DiNehora_0009.jpg" />
 				<p>
 					<lb />אלו הם התעודות בלשונם אות באות שבאו על
 					<lb />הספר כשיצא לאור בפעם הראשון <date>שנת תר״מ</date>
 				</p>
 				<p>
-					<lb />עט"ר הה״ק <persName>הר׳</persName> <persName>שלמה</persName> שליט״א יקח אי״ה ג״כ ספר אחד בעת צאתו מבית
+					<lb />עט"ר הה״ק הר׳ <persName>שלמה</persName> שליט״א יקח אי״ה ג״כ ספר אחד בעת צאתו מבית
 					<lb />תעודת אדונינו מורינו <choice><sic>ורביני</sic><corr>ורבינו</corr></choice>. ראש גולת אריאל
-					<lb />ב<persName>וצינא דנהורא</persName> וקדישא. אספקלריא המאירה. איש אלקים מופת
+					<lb />בוצינא דנהורא וקדישא. אספקלריא המאירה. איש אלקים מופת
 					<lb />הדור והדרו. אור ישראל וקדושו הספורסם בכל קצוי ארץ. ע״ה
 					<lb />פ"ה כקש״ת מו"ה <persName>אברהם יעקב</persName> שליט״א מ<placeName>סאדיגארי</placeName>
-					<lb />כאשר המוכ״ז המופל״א הר<persName>׳ נחמן</persName> נ"י מ<placeName>ק'</placeName> ב<placeName>אר</placeName> הראה לעיני טוהר כבוד קודש
+					<lb />כאשר המוכ״ז המופל״א הר<persName>׳ נחמן</persName> נ"י מק' <placeName ref="#H-LOC_74">באר</placeName> הראה לעיני טוהר כבוד קודש
 					<lb />אדמו״ר שליט״א כתבי קודש מהרב הק׳ איש אלקים ר׳ <persName>ברוך
-					<lb />ממעזוביז</persName> זצלה"ה זי"ע ועכ״י ואמר שרצונו להביאם בדפוס. אמר אדמו״ר
+					<lb />מ<placeName ref="#H-LOC_55">מעזוביז</placeName></persName> זצלה"ה זי"ע ועכ״י ואמר שרצונו להביאם בדפוס. אמר אדמו״ר
 					<lb />שליט<supplied reason="damage">"</supplied>א לפעלא טבא יישר כחו וחילו והבטיח לו לקחת ספר אחד עת צאתו ממכבש
 					<lb />הדפוס במחיר אשר ישית עליו המוכ"ז. <choice><sic>ולראים</sic><corr>ולרא'</corr></choice> באתי עה״ח <date>יום</date> <date>ג׳ י״ג תשרי</date> :
-					<date><lb />שנת תר״מ</date> פה סאדיגארי.
+					<date><lb />שנת תר״מ</date> פה <placeName>סאדיגארי</placeName>.
 					<lb />נאום <persName>משה</persName> <persName>דוד גוטמאן</persName> החותם בצווי כ"ק שליט"א.
 				</p>
 				<p>
@@ -146,21 +142,21 @@
 				<p>
 					<persName><lb />אברהם איסר</persName>
 				</p>
-				<pb facs="Buzina-DiNehora_0010" />
+				<pb facs="Buzina-DiNehora_0010.jpg" />
 				<p>
-					<lb />תעודת אדונינו מורינו ורבינו ראש גולת אריאל <persName>בוצינא דנהורא</persName>
+					<lb />תעודת אדונינו מורינו ורבינו ראש גולת אריאל בוצינא דנהורא
 					<lb />(ואלו הם התעודות בלשונם אות באות שבאו על
 					<lb />הספר כשיצא לאור בפעם הראשון <date>שנת תר״מ</date>).
 				</p>
 				<p>
 					<lb />עט״ר הה"ק מו"ה <persName>ישראל</persName> שליט״א יקח אי"ה ספר
-					<lb />תעודת אדונינו מורינו ורבינו ראש גולת אריאל <persName>בוצינא</persName> דנהורא
+					<lb />תעודת אדונינו מורינו ורבינו ראש גולת אריאל בוצינא דנהורא
 					<lb />וקדישא. אספקלריא המאירה א<supplied reason="damage">יש</supplied> <name type="misc">אלקים</name> מופת הדור
 					<lb />והדרו אור ישראל וקדושו המפורסם בכל קצוי ארץ ע"ה פ"ה כקש״ת
 					<lb />מו"ה <persName>דוד משה</persName> שליט״א מ<placeName ref="#H-LOC_65">טשארטקוב</placeName> :
-					<lb />כאשר בא המוכ״ז הרבני המופלא <persName>מו"ה</persName> <persName>נחמן מק׳ באר</persName>
+					<lb />כאשר בא המוכ״ז הרבני המופלא מו"ה <persName>נחמן מק׳ באר</persName>
 					<lb />והביא בידו כתבים מביעים נועם אמרי קודש מהרב הק'
-					<persName><lb />ארי דבי</persName> עילאה ר׳ ברוך ממעזיביז זצלה"ה
+					<persName><lb />ארי דבי</persName> עילאה ר׳ <persName>ברוך מ<placeName ref="#H-LOC_55">מעזיביז</placeName></persName> זצלה"ה
 					<lb />זי"ע ועכ״י והדברים ראוים למי שאמרם והבטיח לו אדמו״ר
 					<lb />שליט״א לקחת ספר אחד עת צאתו ממכבש הדפוס במחיר אשר ישית
 					<lb />עליו המופלא המוכ״ז ולאות אמת באתי עה״ח יום א׳ צ"ג שנת
@@ -168,50 +164,50 @@
 					<lb />בפקודת אדמו״ר הק' שליט״א <persName>צבי הירש שטערינבערג</persName>
 				</p>
 				<p>
-					<lb />עט״ר הה"ק <persName>מו"ה</persName> <persName>ישראל</persName> שליט״א יקח אי"ה ספר
+					<lb />עט״ר הה"ק מו"ה <persName>ישראל</persName> שליט״א יקח אי"ה ספר
 					<lb />אחד מהמופלא ה״ר <persName>נחמן</persName> המוכ״ז כשיצא לאור ממכבש
 					<lb />הדפוס במחיר אשר ישית עליו באתי על החתום בפקודת קדשו :
-					<persName><lb />אהרן</persName> דאהל
-				</p>
+					<lb /><persName>אהרן דאהל
+</persName>				</p>
 				<p>
 					<lb />תעדות אדונינו מורינו ורבינו ראש גולת אריאל. בוצינא דנהורא
-					<lb />ו<placeName>קדישא</placeName>. אספקלריא המאירה. איש <name type="misc">אלקים</name> מופת הדור
+					<lb />וקדישא. אספקלריא המאירה. איש <name type="misc">אלקים</name> מופת הדור
 					<lb />והדרו אור ישראל וקדושו המפורסם בכל קצוי ארץ. ע״ה פ״ה כקש״ת
 					<persName><lb />אהרן דאהל
-					<lb />מרדכי שרגא</persName> שליט״א מהוסאטין
-					<lb />הכתבי קודש מהרב הקדוש המפורסם ר׳ <persName>ברוך ממעזביז</persName>
+					<lb />מרדכי שרגא</persName> שליט״א מ<placeName>הוסאטין</placeName>
+					<lb />הכתבי קודש מהרב הקדוש המפורסם ר׳ <persName>ברוך מ<placeName ref="#H-LOC_55">מעזביז</placeName></persName>
 					<lb />זצלה"ה הי' למראה עיני טוהר קודש דאדמו״ר
 					<lb />שליט״א ולמען חיבת הקודש כי יקרו בעיניו
-					<lb /><choice><sic>הטחורים</sic><corr>הטהורים</corr></choice> הבטיח אדמו״ר שכאשר יצא ממכבש הדפוס
+					<lb />הטהורים הבטיח אדמו״ר שכאשר יצא ממכבש הדפוס
 					<lb />יקח
 				</p>
-				<pb facs="Buzina-DiNehora_0011" />
+				<pb facs="Buzina-DiNehora_0011.jpg" />
 				<p>
 					<lb />יקח ספר אחד במחיר אשר ישית עליו המוכ״ז הרבני המופלא מו"ה
 					<persName><lb />נחמן</persName> מבאר באתי עה״ח ד"ד לימי הרצון תרט״ל החותם
-					<lb />בפקודת כ״ק אדמו״ר שליט״א פה הוסאטין <persName>דוד שוואגער</persName>
-					<lb /><choice><sic>עטר</sic><corr>עט"ר</corr></choice> הה"ק מו"ה ישראל שליט״א יקח אי"ה ספר
+					<lb />בפקודת כ״ק אדמו״ר שליט״א פה <placeName>הוסאטין</placeName> <persName>דוד שוואגער</persName>
+					<lb /><choice><sic>עטר</sic><corr>עט"ר</corr></choice> הה"ק מו"ה <persName>ישראל</persName> שליט״א יקח אי"ה ספר
 					<lb />אחד במחיר אשר ישית עליו המופלא המוכ״ז. באתי על
 					<lb />התחום בפקודת קדשו : <persName>משה יונה שטיינבערג</persName>
 				</p>
 				<p>
-					<lb />עט"ר הה"ק מוה<persName>'</persName> <persName>שלום יוסף</persName> שליט״א יקח א"כ
+					<lb />עט"ר הה"ק מוה' <persName>שלום יוסף</persName> שליט״א יקח א"כ
 					<lb />ספר אחד במחיר אשר ישית עליו המוכ״ז באתי עכ״ז
-					<lb />בפקודת <choice><sic>קהשו</sic><corr>קדשו</corr></choice> : <persName>זאב וואלף</persName> מרגליות
+					<lb />בפקודת <choice><sic>קהשו</sic><corr>קדשו</corr></choice> : <persName>זאב וואלף מרגליות</persName>
 					<lb />התחום בפקודת קדשו : <persName>משה יונה שטיינבערג</persName>
 				</p>
-				<pb facs="Buzina-DiNehora_0012" />
-				<p>
+				<pb facs="Buzina-DiNehora_0012.jpg" />
+				<fw type="pageNum">
 					<lb />8
-				</p>
-				<p>
-					<persName><lb />בוצינא דנהורא</persName>
-				</p>
+				</fw>
+				<fw type="running-head">
+					
+				<lb />בוצינא דנהורא</fw>
 				<p>
 					<lb /></p></div><div type="story" xml:id="Buzina-DiNehora_001"><head type="storyHead">Buzina-DiNehora_001</head><span ana="TBD:Unknown" />
-<p>בימי <placeName>חורפו</placeName> היה יושב הרב הק׳ ר״ר <persName>ברוך</persName> וצללה״ה ב<placeName>ק"ק</placeName> <placeName ref="#H-LOC_139">אוסטרא</placeName>
+<p>בימי חורפו היה יושב הרב הק׳ ר״ר <persName>ברוך</persName> זצללה״ה בק"ק <placeName ref="#H-LOC_139">אוסטרא</placeName>
 					<lb />והי׳ נחבא אל הכלים ולא אמר שום <name type="work">תורה</name>. פ"א ביקש
-					<lb />אותו הרב הק' ר' <persName>פנחס מקאריץ</persName> לומר לו <name type="work">תורה</name>. השיב לו אחות
+					<lb />אותו הרב הק' ר' <persName>פנחס מ<placeName ref="#H-LOC_149">קאריץ</placeName></persName> לומר לו <name type="work">תורה</name>. השיב לו אחות
 					<lb />לנו קטנה. היינו השכל היא קטן אצלינו. מלשון אמור לחכמת אחותי
 					<lb />את. ושדים אין לה היינו שאין לנו ממי להניח שכל חדש שאין
 					<lb />לנו עתה שום רב ללמוד ממנו : מה נעשה לאחותינו ביום שידובר
@@ -220,7 +216,7 @@
 				</p>
 				<p>
 					<lb /></p></div><div type="story" xml:id="Buzina-DiNehora_002"><head type="storyHead">Buzina-DiNehora_002</head><span ana="TBD:Unknown" />
-<p>פ״א נתארח ב<placeName>ק"ק</placeName> <placeName ref="#H-LOC_551">ראשקיב</placeName> בימי החורף ועדיין לא קידש את
+<p>פ״א נתארח בק"ק <placeName ref="#H-LOC_551">ראשקיב</placeName> בימי החורף ועדיין לא קידש את
 					<lb />הלבנה. מחמת שלא האירה הלבנה עד זו הלילה. ואף בזו
 					<lb />הלילה לא האירה הלבנה. ומאוד הי׳ בזו הלילה ענן גדול. ושלג
 					<lb />ירד עד למאוד. והוא הכין א״ע לקדש את הלבנה. מחמת שלא היה
@@ -232,35 +228,35 @@
 					<lb />פ׳ <choice><sic>שהקב"ם</sic><corr>שהקב"ה</corr></choice> אמר ל<persName>אברהם</persName> שיביט באורות העליונים. וספור. הוא
 					<lb />לשון בהירות מלשון ספיר ויהלום : היינו שיאיר ויבהיק <persName>אברהם</persName> בצדקתו
 					<lb />בכל העולמות. ויש עולמות הנקראים כוכבים. ויאמר לו כה יהי׳
-					<lb />זרעך. ה<persName>קב"ה</persName> אמר ל<persName>אברהם</persName> והבטיחו שזרעיו ג״כ יהיו יכולים להאיר
+					<lb />זרעך. הקב"ה אמר ל<persName>אברהם</persName> והבטיחו שזרעיו ג״כ יהיו יכולים להאיר
 					<lb />ולהבהיק בכל העולמות כמוהו. והאמין בד׳. היינו ש<persName>אברהם</persName> האמין
 					<lb />בד׳ שבניו ג״כ יהיו בבחי׳ זו להאיר בכל העולמות כמוהו. ובאיזה
 					<lb />בחי׳ האמין בד׳ שיהיו בניו ג״כ בבחי׳ זו. הא צריך לזה עבודה גדולה
-					<lb />והתחזקות גדול בדרכי ה<name type="misc">שי״<orgName />ת</name>. אך ויחשביה לו צדקה. פי׳ מחמת
+					<lb />והתחזקות גדול בדרכי ה<name type="misc">שי״ת</name>. אך ויחשביה לו צדקה. פי׳ מחמת
 					<lb />שאברהם לא היה נחשב בעיניו שבא מצד עצמו לפי מעשיו לזו הבחי׳
 					<lb />שיוכל להאיר ולהבהיק בכל העולמות. והבחי׳ הזאת היא רק צדקה
 					<lb />אצלו מאת ה<name type="misc">שי"ת</name>. בבחי׳ זו האמין <persName>אברהם</persName> שבניו ג״כ יהיו יכולים
 					<lb />להאיר בכל העולמות. ובכל פעם שלח החוצה לראות אם יש לבנה.
 					<lb />והשיבו לו שחשכות גדול וענן גדול. והשלג יורד עד למאוד. ועמד
-					<lb />אצלו הרב ר<persName>׳</persName> <persName>ישמי׳</persName> שהי׳ למדן גדול וירא שמים. אמר לו. הרב
-					<lb />ר<persName>׳</persName> <persName>ישעי׳</persName> אמור לי באמונה שלך כל המדות שיש לך. ממי למדת. אמת.
+					<lb />אצלו הרב ר׳ <persName>ישמי׳</persName> שהי׳ למדן גדול וירא שמים. אמר לו. הרב
+					<lb />ר׳ <persName>ישעי׳</persName> אמור לי באמונה שלך כל המדות שיש לך. ממי למדת. אמת.
 					<lb />ממני למדת. אמר לו. אמת. אמר הרב הק׳ ר<persName>״ב</persName> אם יש בידי
 				</p>
-				<p>
+				<fw type="catch">
 					<lb />מעשים
-				</p>
-				<pb facs="Buzina-DiNehora_0013" />
-				<p>
+				</fw>
+				<pb facs="Buzina-DiNehora_0013.jpg" />
+				<fw type="pageNum">
 					<lb />8
-				</p>
-				<p>
+				</fw>
+				<fw type="running-head">
 					<lb />בוצינא דנהורא
-				</p>
+				</fw>
 				<p>
 					<lb />מעשים טובים. מפני מה לא תעשה הלבנה רצוני. בודאי שעונות
-					<lb />גרמו זאת. וידעתי שצריך לי תשובה גדולה על עונותי. אך שה<name type="misc">שי<orgName />״</name>ת
+					<lb />גרמו זאת. וידעתי שצריך לי תשובה גדולה על עונותי. אך שה<name type="misc">שי״ת</name>
 					<lb />יודע האמת שאין בי כח לעשות תשובה רק אתחרט על כל מעשי
-					<lb />וה<persName>שי"ת</persName> ירחם עלי ופתח את פיו בדברי חרטה עד שנתמלאו כל
+					<lb />והשי"ת ירחם עלי ופתח את פיו בדברי חרטה עד שנתמלאו כל
 					<lb />העומדים חרטה על כל מעשיהם. ומגודל הפחד שנפל על כל העומדים
 					<lb />עמדו שער ראשן כמסמרות. וארכבותיהן דא לדא נקשן. והוא הלך
 					<lb />על פני הבית. ודובר ומתחרט. ופיו הי' כמעין הנובע. בתוך כך בא
@@ -284,7 +280,7 @@
 					<lb />עובדים את ד׳ אין לבן אדם ליקח ראי' מהם מחמת שהצדיק
 					<lb />אשר מילדוהו הוא קדוש וטהור. וכל מחשבותיו המה רק להשי״ת.
 					<lb />ואין צריך לו כ״כ מלחמה עם היצה"ר. ובעבור זה אפילו בעבודה
-					<lb />קלה כזאת הוא מדבק ומקשר מחשבתו הטהורה <persName>בהשי<orgName />״ת</persName>. אבל
+					<lb />קלה כזאת הוא מדבק ומקשר מחשבתו הטהורה בהשי״ת. אבל
 					<lb />אם הצריך לתקן מעשיו. אם יראה מהצדיק. וירצה ג״כ לעבוד את
 					<name type="misc"><lb />ד</name>׳ בעבודה כזאת. ידחה אותו היצה"ר. כי צריך לו התחזקות גדול
 					<lb />לפדות מעשה הרע שלו. וזהו פי׳ הכתוב ויהי בשלח <persName>פרעה</persName> את העם.
@@ -294,20 +290,20 @@
 					<lb />הארץ היינו באכילה שתיה וכו'. כי קרור הוא. כי זה הדרך קרוב
 					<lb />לנטותם מדרך האמת ח"ו:
 				</p>
-				<p>
+				<fw type="catch">
 					<lb />כתוב
-				</p>
-				<pb facs="Buzina-DiNehora_0014" />
-				<p>
+				</fw>
+				<pb facs="Buzina-DiNehora_0014.jpg" />
+				<fw type="pageNum">
 					<lb />10
-				</p>
-				<p>
-					<persName><lb />בוצינא דנהורא</persName>
-				</p>
+				</fw>
+				<fw type="running-head">
+					
+				<lb />בוצינא דנהורא</fw>
 				<p>
 					<lb />פ׳ בשלח
 					<lb />כתוב זאת זכרון בס׳ ושים באזני <persName>יהושע</persName>. כי מחה אמתה את
-					<lb />זכר עמלק. כי ה<name type="misc">קב״<persName />ה</name> הראה ל<persName>משה</persName> כל הדורות עד סוף
+					<lb />זכר עמלק. כי ה<name type="misc">קב״ה</name> הראה ל<persName>משה</persName> כל הדורות עד סוף
 					<lb />כל הדורות. והראה לו שיעמוד המן מזרע עמלק. וירצה להשמיד
 					<lb />ולהרוג את כל היהודים וה<name type="misc">קב"ה</name> יהפוך וימחה את זכרו ולפי שה<name type="misc">שי"ת</name>
 					<lb />רוצה ומתאוה תמיד לתפלות הצדיקים. אם הי' <persName>משה</persName> כותב בפירוש
@@ -318,7 +314,7 @@
 				</p>
 				<p>
 					<lb />פ׳ ויקהל
-					<lb />ויקהל <persName>משה</persName> את כל ערת בני ישראל ויאמר עליהם אלה הדברים
+					<lb />ויקהל <persName>משה</persName> את כל עדת בני ישראל ויאמר עליהם אלה הדברים
 					<lb />אשר צוה <name type="misc">ד׳</name> כי יש ס׳ רבוא אותיות ל<name type="misc">תורה</name> : ויש ס'
 					<lb />רבוא נפשות ישראל. וכל אחד מישראל נפשו אחוזה באות אחת בהתורה
 					<lb />בכללותיהם הם שלימות ה<name type="work">תורה</name>. וזהו ויקהל <persName>משה</persName> את כל עדת בני
@@ -344,16 +340,16 @@
 					<lb />פתחו לי שערי צדק אבוא בם אודה וכו׳ זה השער ליי צדיקים
 					<lb />יבואו בו. פי׳ שהצדיק נראה לו לפי מעשיו שלא התחיל
 				</p>
-				<p>
+				<fw type="catch">
 					<lb />עדיין
-				</p>
-				<pb facs="Buzina-DiNehora_0015" />
-				<p>
+				</fw>
+				<pb facs="Buzina-DiNehora_0015.jpg" />
+				<fw type="pageNum">
 					<lb />21
-				</p>
-				<p>
-					<persName><lb />בוצינא דנהורא</persName>
-				</p>
+				</fw>
+				<fw type="running-head">
+					
+				<lb />בוצינא דנהורא</fw>
 				<p>
 					<lb />עדיין כלום בעבודת ה<name type="misc">שי"ת</name>. ויבקש מה<orgName>שי"ת</orgName> לפתוח לו שערי צדק.
 					<lb />אבוא בם אודה <name type="misc">יה</name>. ואמר הכתוב זה השער לד׳ צדיקים יבואו בו
@@ -386,7 +382,7 @@
 					<lb />יושב לבדך בהתבודדות : בדבר הזה אל תהי רשע :
 				</p>
 				<p>
-					<lb />שאל אותו הרב הק׳ ר<persName>׳</persName> <persName>פנחס מאוסטראה</persName>. כתיב שוב אשוב
+					<lb />שאל אותו הרב הק׳ ר׳ <persName>פנחס מאוסטראה</persName>. כתיב שוב אשוב
 					<lb />אליך כעת חיה והנה בן ל<persName>שרה</persName> אשתך. והיכן כתיב ששב
 					<lb />אליו המלאך. והשיב לון. איתא ב<name type="work">זוהר</name> והנה שלשה אנשים נצבים
 					<lb />עליו. שלשה אנשים. אלין אינון אבהתא. אברהם <persName>יצחק</persName> ו<persName>יעקב</persName>.
@@ -394,16 +390,16 @@
 					<lb />לו המלאך. שוב אשוב אליך ולשרה בן. פי׳ שאני בעצמי אהי'
 					<lb />לה לבן :
 				</p>
-				<p>
+				<fw type="catch">
 					<lb />והי׳
-				</p>
-				<pb facs="Buzina-DiNehora_0016" />
-				<p>
+				</fw>
+				<pb facs="Buzina-DiNehora_0016.jpg" />
+				<fw type="pageNum">
 					<lb />12
-				</p>
-				<p>
+				</fw>
+				<fw type="running-head">
 					<lb />בוצינא דנהורא
-				</p>
+				</fw>
 				<p>
 					<lb />פ׳ תצא
 					<lb />והי׳ בשבתך חוץ והפרת וכסית את צאתך עפ"י מאמרם ז"ל
@@ -445,13 +441,13 @@
 					<lb />שם קי״ט
 					<lb />שש אנכי על אמרתיך. פי׳ הדיבור של אנכ"י בעצמו שש ושמח על
 				</p>
-				<pb facs="Buzina-DiNehora_0017" />
-				<p>
+				<pb facs="Buzina-DiNehora_0017.jpg" />
+				<fw type="pageNum">
 					<lb />18
-				</p>
-				<p>
+				</fw>
+				<fw type="running-head">
 					<lb />בוצינא דנהורא
-				</p>
+				</fw>
 				<p>
 					<lb />אמרתיך על שאתה אמרת אותו בפיך. כי אנכי וכו' מפי הגבורה
 					<lb />שמענו :
@@ -491,13 +487,13 @@
 					<lb />מי שלומד <name type="work">גמרא</name> שלא עפ"י סוד. והוא מכונה בשם אילן סר״ק :
 					<lb />עתיד שיבא בטעינת פירות. שיבין סוד הלימוד. וזהו כוונת המשנה
 				</p>
-				<pb facs="Buzina-DiNehora_0018" />
-				<p>
+				<pb facs="Buzina-DiNehora_0018.jpg" />
+				<fw type="pageNum">
 					<lb />14
-				</p>
-				<p>
-					<lb />בוצינא <persName>דנהורא</persName>
-				</p>
+				</fw>
+				<fw type="running-head">
+					<lb />בוצינא דנהורא
+				</fw>
 				<p>
 					<lb />בתולה נישאת ליום הרביעי התורה מכונה בשם בתולה ואיש לא ידעה
 					<lb />כלומר התורה המכונת בשם בתולה. נשאת ונגבהת. מלשון נשא את
@@ -526,7 +522,7 @@
 					<lb />וכשאדם עושה איזה מצוה בחלק ה<name type="misc">קב"ה</name> המצוה הזאת ודאי בדחילא
 					<lb />ורחימא. ובלי שום פני' אבל כשעושה מצוה בחלק אביו ואמו
 					<lb />לזה צריך התחזקות שלא תהי׳ בה שום פני'. וזהו פי' הכתוב
-					<lb />קדושים תהיו, פי' כשתהיו קדושים מחלק ה<name type="misc">קב״<orgName />ה</name>. בודאי לא יהי'
+					<lb />קדושים תהיו, פי' כשתהיו קדושים מחלק ה<name type="misc">קב״ה</name>. בודאי לא יהי'
 					<lb />בו שום פני'. והטעם כי קדוש אני <name type="misc">ד'</name>. אבל איש אמו ואביו פי'
 					<lb />כשתעשו מצוה בחלק אביו ואמו אז תיראו תהיו יראים את <name type="misc">ד'</name>: פן
 					<lb />הי' בזה איזה פני׳ וכן לענין צדקה כשנותן צדקה בחלק ד׳ הוא
@@ -538,13 +534,13 @@
 					<lb />דברים
 					<name type="misc"><lb />ד</name>׳ אלקיכם הרבה אתכם והנכם היום ככוכבי השמים לרוב. <name type="misc">ד'</name>
 				</p>
-				<pb facs="Buzina-DiNehora_0019" />
-				<p>
+				<pb facs="Buzina-DiNehora_0019.jpg" />
+				<fw type="pageNum">
 					<lb />15
-				</p>
-				<p>
+				</fw>
+				<fw type="running-head">
 					<lb />בוצינא דנהורא
-				</p>
+				</fw>
 				<p>
 					<lb />אלקיכם יוסף עליכם ככם אלף פעמים ויברך אתכם כאשר דבר
 					<lb />לכם. פירש״י מהו <supplied reason="damage">ש</supplied>ו<supplied reason="damage">ב</supplied> ויברך אתכם כאשר דבר לכם אלא אמרו
@@ -561,7 +557,7 @@
 					<lb />ולפיכך מדת. אהבה. ויראה שיהודם מן אנכי. ולא יהי׳ לך ג״כ
 					<lb />אין להם שיעור וגבול. וזאת ידוע שמקור כל הברכות המה מה<name type="work">תורה</name>.
 					<lb />ולפי שכל ה<name type="work">תורה</name> שמענו מפי <persName>משה</persName>. לפיכך יש גבול לכל ברכותיו.
-					<lb />וזה הפי' כשברך אותם <persName>משה</persName>. ככוכבי השמים לרוב <name type="misc">וד<persName />׳</name> אלקיכם יוסף וכו'.
+					<lb />וזה הפי' כשברך אותם <persName>משה</persName>. ככוכבי השמים לרוב <name type="misc">וד׳</name> אלקיכם יוסף וכו'.
 					<lb />אמרו לו ל<persName>משה</persName> אתה נותן קצבה לברכותנו. פי' הלא מקור כל הברכות
 					<lb />המה מה<name type="work">תורה</name> וכמו שהתורה הוא בלי גבול. כך מחויב להיות ברכותנו
 					<lb />בלי גבול. ואתה נותן קצבה וגבול לברכותנו: אמר להם זו משל״י
@@ -581,13 +577,13 @@
 					<lb />קריאת המגלה מחויב להבין שיש בכל דור ודור. <persName>מרדכי</persName> וה<persName>מן</persName>.
 					<lb />אבל מי שקורא את המגילה למפרע שהי׳ מקודם <persName>מרדכי</persName> וה<persName>מן</persName> לא יצא :
 				</p>
-				<pb facs="Buzina-DiNehora_0020" />
-				<p>
+				<pb facs="Buzina-DiNehora_0020.jpg" />
+				<fw type="pageNum">
 					<lb />40
-				</p>
-				<p>
-					<persName><lb />בוצינא דנהורא</persName>
-				</p>
+				</fw>
+				<fw type="running-head">
+					
+				<lb />בוצינא דנהורא</fw>
 				<p>
 					<lb />מגלה ט״ו ע״ב
 					<lb />מה ראתה <persName>אסתר</persName> שזמנה את <persName>המן</persName> וכו'. אשכחיה <persName>רבה בר אבוה</persName>
@@ -627,13 +623,13 @@
 					<lb />הכל כמו ועל כולם כלומר גדולה שבטובות על שאתה <name type="misc">ד'</name>
 					<lb />אלקינו ע״ז אנחנו מודים לך ביותר :
 				</p>
-				<pb facs="Buzina-DiNehora_0021" />
-				<p>
+				<pb facs="Buzina-DiNehora_0021.jpg" />
+				<fw type="pageNum">
 					<lb />17
-				</p>
-				<p>
+				</fw>
+				<fw type="running-head">
 					<lb />בוצינא דנהורא
-				</p>
+				</fw>
 				<p>
 					<lb />משלי י״ז
 					<lb />גם אויל מחדיש. חכם. יחשב : פי'. אעפ"י שהאויל מחריש :
@@ -673,13 +669,13 @@
 					<lb />ר<persName>״י</persName> שאמר כמה נפיש האי גברא. ממש״ה. וכו׳ פי׳ נפשות
 					<lb />הגם בחלוקת המים להאי גברא. לא הי׳ זה רק מטשה. שמחמת
 				</p>
-				<pb facs="Buzina-DiNehora_0022" />
-				<p>
+				<pb facs="Buzina-DiNehora_0022.jpg" />
+				<fw type="pageNum">
 					<lb />18
-				</p>
-				<p>
-					<lb />בוצינא <persName>דנהורא</persName>
-				</p>
+				</fw>
+				<fw type="running-head">
+					<lb />בוצינא דנהורא
+				</fw>
 				<p>
 					<lb />שעשה פתח הנינור והשער של חלוקת המים. מחמת זה נתחלקם
 					<lb />המים ג״כ ל<persName>רפב"י</persName> :
@@ -719,13 +715,13 @@
 					<lb />ויהי מקץ שנתים ימים. היצה"ר נקרא מקץ. מלשון קץ שם לחושך
 					<lb />שנתים. מלשון שונה הלכות : פי'. ויהי כלומר יכול הוא
 				</p>
-				<pb facs="Buzina-DiNehora_0023" />
-				<p>
+				<pb facs="Buzina-DiNehora_0023.jpg" />
+				<fw type="pageNum">
 					<lb />19
-				</p>
-				<p>
+				</fw>
+				<fw type="running-head">
 					<lb />בוצינא דנהורא
-				</p>
+				</fw>
 				<p>
 					<lb />שיהי׳ מקץ. עם היצה"ר שנתים ימים. ושיהי׳ שונה אדם כל ימיו:
 					<lb />ע״ד אחר ויהי מקץ. יכול הוא שיהי׳ מקץ שיקוץ ויתעורר
@@ -763,13 +759,13 @@
 					<lb />בישראל אחר שראה נס גדול כזה. ובא ל<persName>משה</persName> לשאל אותו הטעות
 					<lb />של <name type="misc">עמלק</name> :
 				</p>
-				<pb facs="Buzina-DiNehora_0024" />
-				<p>
+				<pb facs="Buzina-DiNehora_0024.jpg" />
+				<fw type="pageNum">
 					<lb />20
-				</p>
-				<p>
-					<persName><lb />בוצינא דנהורא</persName>
-				</p>
+				</fw>
+				<fw type="running-head">
+					
+				<lb />בוצינא דנהורא</fw>
 				<p>
 					<lb />שאלו אותו שהי׳ לאחשורוש <date>מאה ועשרים</date> ושבעה מדינה : כמה
 					<lb />הי' לו בים. וכמה ביבשה. והשיב כתיב ב<name type="work">מגלה</name> וישם
@@ -817,13 +813,13 @@
 					<lb />הקם לעבדך אמרתיך. אשר ליראתיך: היינו שה<name type="misc">שי"ת</name> יקים לי
 					<lb />מאמרים שיעוררו אותי ליראתו יתברך :
 				</p>
-				<pb facs="Buzina-DiNehora_0025" />
-				<p>
+				<pb facs="Buzina-DiNehora_0025.jpg" />
+				<fw type="pageNum">
 					<lb />21
-				</p>
-				<p>
-					<lb />בוצינא <persName>דנהורא</persName>
-				</p>
+				</fw>
+				<fw type="running-head">
+					<lb />בוצינא דנהורא
+				</fw>
 				<p>
 					<name type="work"><lb />תהלים</name> כ״ט
 					<lb />קול ד׳ יחיל מדבר וגו׳. מדב״ר לשון דיבור פי' הצדיק
@@ -863,13 +859,13 @@
 					<lb />חטאת רובץ ותיכף כשנולד האדם מתאוה לחטוא. גם כל החושים
 					<lb />בילדותו המה בריאים ושלימים ויש לו כלים לחטוא. אלא שת״ח
 				</p>
-				<pb facs="Buzina-DiNehora_0026" />
-				<p>
+				<pb facs="Buzina-DiNehora_0026.jpg" />
+				<fw type="pageNum">
 					<lb />22
-				</p>
-				<p>
+				</fw>
+				<fw type="running-head">
 					<lb />בוצינא דנהורא
-				</p>
+				</fw>
 				<p>
 					<lb />בהיותו בנערותו. אזי צריך לו התחזקות גדול. מול היצה"ר. וע״ה
 					<lb />בנערותו ממלא כל תאותו. כל אשר יש בדעתו וחפצו. אבל לעת
@@ -911,13 +907,13 @@
 					<lb />אליך ד׳ אקרא וכו׳ היינו כשאני קרוב לד׳ שהוא לנוכח לי
 					<lb />אקרא רק אקרא בלבד והוא עונה. ואל ר׳ אבל כשאני
 				</p>
-				<pb facs="Buzina-DiNehora_0027" />
-				<p>
+				<pb facs="Buzina-DiNehora_0027.jpg" />
+				<fw type="pageNum">
 					<lb />23
-				</p>
-				<p>
-					<persName><lb />בוצינא דנהורא</persName>
-				</p>
+				</fw>
+				<fw type="running-head">
+					
+				<lb />בוצינא דנהורא</fw>
 				<p>
 					<lb />רחוק מד'. אזי אתחנן כשהוא נסתר ממני צריך אני להתחנן
 					<lb />הרבה :
@@ -958,13 +954,13 @@
 					<lb />לתת לו פי' שנים שעבודת הצדיק הזה בצרכי הגשמים. הוא
 					<lb />נחשב בעיני השי״ת. פי שנים כעבודת האהובה :
 				</p>
-				<pb facs="Buzina-DiNehora_0028" />
-				<p>
+				<pb facs="Buzina-DiNehora_0028.jpg" />
+				<fw type="pageNum">
 					<lb />24
-				</p>
-				<p>
-					<persName><lb />בוצינא דנהורא</persName>
-				</p>
+				</fw>
+				<fw type="running-head">
+					
+				<lb />בוצינא דנהורא</fw>
 				<p>
 					<lb />פ׳ בא
 					<lb />ועבדת את העבודה הזאת בחודש הזה. פי' תשר״י נקרא
@@ -1008,13 +1004,13 @@
 					<lb />שלימה מן השמים. מה שלא נאמר כן בשום בקשה
 					<lb />אחרת. ואמר הטעם הוא כי האדם נברא מד׳ יסודות. עפר
 				</p>
-				<pb facs="Buzina-DiNehora_0029" />
-				<p>
+				<pb facs="Buzina-DiNehora_0029.jpg" />
+				<fw type="pageNum">
 					<lb />25
-				</p>
-				<p>
+				</fw>
+				<fw type="running-head">
 					<lb />בוצינא דנהורא
-				</p>
+				</fw>
 				<p>
 					<lb />רוח אש מים. וסיבת החולאים ר"ל יתהוה מפני שהיסודות
 					<lb />לא ימשלו בשוה. ואחד גבר על חבירו. ואין שלום ביניהם.
@@ -1056,13 +1052,13 @@
 					<lb />שבעבורה ד׳ אתו. אבל <persName>יוסף</persName> הי' הנצע לפת. ולא ראה
 					<lb />ממנו מאומה :
 				</p>
-				<pb facs="Buzina-DiNehora_0030" />
-				<p>
+				<pb facs="Buzina-DiNehora_0030.jpg" />
+				<fw type="pageNum">
 					<lb />23
-				</p>
-				<p>
+				</fw>
+				<fw type="running-head">
 					<lb />בוצינא דנהורא
-				</p>
+				</fw>
 				<p>
 					<lb /><choice><sic>עיני</sic><corr>לעיני</corr></choice> כל ישראל. בראשית. לקשר סיפא לרישא הי״ה
 					<lb />ה<name type="work">תורה</name> הנקראת ראשית. ניתנה לעיני כל ישראל.
@@ -1106,13 +1102,13 @@
 				<p>
 					<lb />
 				</p>
-				<pb facs="Buzina-DiNehora_0031" />
-				<p>
+				<pb facs="Buzina-DiNehora_0031.jpg" />
+				<fw type="pageNum">
 					<lb />28
-				</p>
-				<p>
+				</fw>
+				<fw type="running-head">
 					<lb />בוצינא דנהורא
-				</p>
+				</fw>
 			</div><div type="non-story"><p>בפתח אליהו. ולית מאן דאנהיג לך אמר עפ"י מאמרם
 					<lb />ז"ל מי מושל בי. צדיק שנאמר צדיק מושל ביראת
 					<name type="misc"><lb />אלקים</name> <name type="misc">הקב</name>״<persName>ה</persName> גוזר והצדיק מבטל. צדיק גוזר והקב"ה
@@ -1156,13 +1152,13 @@
 				<p>
 					<lb />
 				</p>
-				<pb facs="Buzina-DiNehora_0032" />
-				<p>
+				<pb facs="Buzina-DiNehora_0032.jpg" />
+				<fw type="pageNum">
 					<lb />26
-				</p>
-				<p>
+				</fw>
+				<fw type="running-head">
 					<lb />בוצינא דנהורא
-				</p>
+				</fw>
 				<p>
 					<lb />ושאין נטלים. פי' שאין צריך להם. ואין בהם שום עובדא
 					<lb />לתועלת אותו עולם הנקרא <date>שבת</date>. אז מתיר החבלים פי׳
@@ -1204,13 +1200,13 @@
 				<p>
 					<lb />
 				</p>
-				<pb facs="Buzina-DiNehora_0033" />
-				<p>
+				<pb facs="Buzina-DiNehora_0033.jpg" />
+				<fw type="pageNum">
 					<lb />20
-				</p>
-				<p>
+				</fw>
+				<fw type="running-head">
 					<lb />בוצינא דנהורא
-				</p>
+				</fw>
 				<p>
 					<name type="work"><lb />תהלים</name> ליט
 					<lb />אך בצלם יתהלך איש. מבואר עפ"י מה דאיתא ב<name type="work">מדרש
@@ -1253,13 +1249,13 @@
 				<p>
 					<lb />
 				</p>
-				<pb facs="Buzina-DiNehora_0034" />
-				<p>
+				<pb facs="Buzina-DiNehora_0034.jpg" />
+				<fw type="pageNum">
 					<lb />30
-				</p>
-				<p>
+				</fw>
+				<fw type="running-head">
 					<lb />בוצינא דנהורא
-				</p>
+				</fw>
 				<p>
 					<lb />מלאכה. ונכרתה הנפש ההוא. ע"כ הוא ממילא כנהרג. ולכן
 					<lb />נידון במיתה כי אין כאן פקוח נפש :
@@ -1304,13 +1300,13 @@
 				<p>
 					<lb />
 				</p>
-				<pb facs="Buzina-DiNehora_0035" />
-				<p>
+				<pb facs="Buzina-DiNehora_0035.jpg" />
+				<fw type="pageNum">
 					<lb />81
-				</p>
-				<p>
+				</fw>
+				<fw type="running-head">
 					<lb />בוצינא דנהורא
-				</p>
+				</fw>
 				<p>
 					<lb />גלוליכם אטהר אתכם. גלוליכם היינו כמו בגלל ומכל
 					<lb />הדבר הזה היינו הכוונה שאדם מכוין בעבודתו
@@ -1353,10 +1349,10 @@
 			</div><div type="non-story"><p>ברוך פודה ומציל ברוך שמו. היינו שה<name type="misc">קב"ה</name> בעצמו עושה
 					<lb />הפדיון בשמו הגדול. ומשפיע לישראל כל טוב :
 				</p>
-				<p>
+				<fw type="catch">
 					<lb />והגדתם
-				</p>
-				<pb facs="Buzina-DiNehora_0036" />
+				</fw>
+				<pb facs="Buzina-DiNehora_0036.jpg" />
 				<p>
 					<lb />
 				</p>
@@ -1401,16 +1397,16 @@
 					<lb />השגתו ב<name type="misc">אלקים</name> חיים הי' חזק מאוד במצותיו לקיימם
 					<lb />ולא הבין האיך יכולים לעבור את פי ד׳ חלילה לכך כשאמר
 				</p>
-				<p>
+				<fw type="catch">
 					<lb />לו
-				</p>
-				<pb facs="Buzina-DiNehora_0037" />
-				<p>
+				</fw>
+				<pb facs="Buzina-DiNehora_0037.jpg" />
+				<fw type="pageNum">
 					<lb />33
-				</p>
-				<p>
+				</fw>
+				<fw type="running-head">
 					<lb />בוצינא דנהורא
-				</p>
+				</fw>
 				<p>
 					<lb />לו השי״ת רב העד בעם. הי׳ תמה מאוד. ואמר להקב"ה
 					<lb />למה לי עוד לירד ולהעיד בעם הא לא יכול העם לעלות
@@ -1450,16 +1446,16 @@
 					<lb />ברא קוב״ה עלמא. ובאורייתא. יתנהג עלמא. וכמו שהעולם
 					<lb />נחלק לגבולים ולתחומין. כן כ"ב אותיות ה<name type="work">תורה</name> הקדושה נחלקה
 				</p>
-				<p>
+				<fw type="catch">
 					<lb />לפרשיות
-				</p>
-				<pb facs="Buzina-DiNehora_0038" />
-				<p>
+				</fw>
+				<pb facs="Buzina-DiNehora_0038.jpg" />
+				<fw type="pageNum">
 					<lb />84
-				</p>
-				<p>
+				</fw>
+				<fw type="running-head">
 					<lb />בוצינא דנהורא
-				</p>
+				</fw>
 				<p>
 					<lb />לפרשיות. ויש פרשה גדולה וקטנה. והנה כל דבר ודבר מן
 					<lb />ה<name type="work">תורה</name> שייך למקום בפני עצמו. ויש לו מקומו המיוחד לו לבך
@@ -1499,16 +1495,16 @@
 					<lb />שיש בכל מצוה ומצוה בחי׳ ד׳ <name type="misc">אלקים</name>. כי בכל מצוה נכלל כו
 					<lb />חיות וקיום כל העולמות בסוד עוטה אור כשלמה :
 				</p>
-				<p>
-					<name type="work"><lb />מדרש</name>
-				</p>
-				<pb facs="Buzina-DiNehora_0039" />
-				<p>
+				<fw type="catch">
+					
+				<lb />מדרש</fw>
+				<pb facs="Buzina-DiNehora_0039.jpg" />
+				<fw type="pageNum">
 					<lb />88
-				</p>
-				<p>
-					<name type="work"><lb />בוצינא דנהורא</name>
-				</p>
+				</fw>
+				<fw type="running-head">
+					
+				<lb />בוצינא דנהורא</fw>
 				<p>
 					<lb />מדרש משלי
 					<lb />מדרש משלי כפה פרשה לעני וגו'. לא תירא לביתה משלג
@@ -1529,7 +1525,7 @@
 					<lb />המשרת את הרפואות על החלון באכסניא שלו. והוא הלך
 					<lb />על פני הבית. וראה שהרפואות עומדי' על החלון. אמר אם
 					<lb />היה ברצון ה<name type="misc">שי"ת</name> שיהי' רפואה לבתי <persName>מ׳ רייזיל</persName>. לא היתת צריכה
-					<lb />לרפואות. אלא אם הי׳ <name type="misc">הקב<persName />״ה</name> מראה נפלאותיו. וגבורותיו
+					<lb />לרפואות. אלא אם הי׳ <name type="misc">הקב״ה</name> מראה נפלאותיו. וגבורותיו
 					<lb />לעיני כל לא הי׳ הבחירה בשום אדם אלא הכל היו יודעים
 					<lb />שהוא מראה נפלאות. אבל הוא ברצון ה<name type="misc">שי"ת</name> שיהי׳ לכל אחד.
 					<lb />הבחנה לבחון בשכלו שמד׳ היתה זאת לכך אינו מראה גבורותיו
@@ -1547,16 +1543,16 @@
 					<lb />לחולה להתרפאות. ואמר כי יתורץ עם זה עוד קושיא אחת
 					<lb />גדולה. מה זה כשנופל אדם למשכב בחולי מה. אזי תיכף
 				</p>
-				<p>
+				<fw type="catch">
 					<lb />נותנים
-				</p>
-				<pb facs="Buzina-DiNehora_0040" />
-				<p>
+				</fw>
+				<pb facs="Buzina-DiNehora_0040.jpg" />
+				<fw type="pageNum">
 					<lb />36
-				</p>
-				<p>
-					<lb />בוצינא <persName>דנהורא</persName>
-				</p>
+				</fw>
+				<fw type="running-head">
+					<lb />בוצינא דנהורא
+				</fw>
 				<p>
 					<lb />נותנים לו סמים מרים לרפואה, והא ממ"ל קשה. אם נגזר
 					<lb />עליו למיתה ח"ו מה יועיל לו הרפואה ואם לא. מה
@@ -1594,16 +1590,16 @@
 					<lb />הגונים. ואינה נוהגין במדות ישרות ופנמים השכינה. והיה
 					<lb />לה צער על פנם השכינה ותתפלל. על ד' פי' התפלה שהתפללה
 				</p>
-				<p>
+				<fw type="catch">
 					<lb />על
-				</p>
-				<pb facs="Buzina-DiNehora_0041" />
-				<p>
+				</fw>
+				<pb facs="Buzina-DiNehora_0041.jpg" />
+				<fw type="pageNum">
 					<lb />37
-				</p>
-				<p>
-					<lb />בוצינא <persName>דנהורא</persName>
-				</p>
+				</fw>
+				<fw type="running-head">
+					<lb />בוצינא דנהורא
+				</fw>
 				<p>
 					<lb />על בן. לא הי׳ לטובתה. רק לטובת השכינה. שיתן לה
 					<lb />ה<name type="misc">שי"ת</name> בן הגון שיתקן כל זה :
@@ -1627,7 +1623,7 @@
 					<lb />משכא דחויא כנודע. וזה שאמר דהמע"ה כל אוכל תתעב נפשם.
 					<lb />פי׳ כל האוכל. בעצמו יהי' מתועב בעיניו. ויאכל בע״כ
 					<lb />להחיות נפשו. ויגיעו עד שערי מות. פי' בחי' מות. מסירת
-					<lb />נפש. וזהו כוונת <name type="work">רש<persName />״<orgName />י</name>. פ׳ ו<name type="work">יקרא</name>. יכול להפסקה היתה קריאה
+					<lb />נפש. וזהו כוונת <name type="work">רש״י</name>. פ׳ ו<name type="work">יקרא</name>. יכול להפסקה היתה קריאה
 					<lb />פי׳ קריאה לשון חיבה, כפרש"י יכול מי שמתענה הפסקות
 					<lb />הוא ג״כ חביב לפני ה<name type="misc">קב</name>״<persName>ה</persName>. ת"ל ויאמ״ר לשון האמרת שפי'
 					<lb />המשכה כלומר לאמירה היתה קריאה, מי שממשיך כל הדברים
@@ -1635,23 +1631,23 @@
 					<lb />משמשות. פי' באיזה ענין שייך הפסקה להפסיק בין ענין
 					<lb />לענין: ר"ל כשיבא לאדם איזה תאוה להפסיק ממנה. ובין
 					<lb />פרשה. לפרשה, להפריש בין דבר תענוג עוה״ז לדבר
-					<lb />קדושה. אמר ע״ז הרב הק׳ <persName>מו"ה</persName> <persName>משה מסיווראן</persName> זצלה"ה.
+					<lb />קדושה. אמר ע״ז הרב הק׳ מו"ה <persName>משה מסיווראן</persName> זצלה"ה.
 					<lb />אני אומר שזה ג״כ מדרגה גדולה וגבוה לכתחלה לעלות בה.
 					<lb />רק שיש מדרגות נמוכות לעלות מתחלה עליהם. ואח״כ ימשוך
 					<lb />א"ע לאותה מדרגה הגבוה. היינו מתחלה. יראה האדם לשבר
 					<lb />את רוחו הגבוה. וימשוך את נפשו למדת ענוה להיות שפל
 					<lb />בעיניו מאוד. כמאמר ה<name type="work">משנה</name> מאוד מאוד הוי שפל
 				</p>
-				<p>
+				<fw type="catch">
 					<lb />רוח
-				</p>
-				<pb facs="Buzina-DiNehora_0042" />
-				<p>
+				</fw>
+				<pb facs="Buzina-DiNehora_0042.jpg" />
+				<fw type="pageNum">
 					<lb />38
-				</p>
-				<p>
+				</fw>
+				<fw type="running-head">
 					<lb />בוצינא דנהורא
-				</p>
+				</fw>
 				<p>
 					<lb />רוח. ואעפ"י שבכל המדות צריך להיות ממוצע בנקודה האמצעי.
 					<lb />אבל בנסות הרוח צריך לילך בקצה האחרון. שהיא מדה מגונה
@@ -1690,16 +1686,16 @@
 					<name type="work"><lb />תהלים</name> כ׳
 					<lb />נרננה בישועתך. שאמרו חז"ל. על פ׳ ושב <name type="misc">ד'</name> את
 				</p>
-				<p>
+				<fw type="catch">
 					<lb />שבותך
-				</p>
-				<pb facs="Buzina-DiNehora_0043" />
-				<p>
+				</fw>
+				<pb facs="Buzina-DiNehora_0043.jpg" />
+				<fw type="pageNum">
 					<lb />36
-				</p>
-				<p>
+				</fw>
+				<fw type="running-head">
 					<lb />בוצינא דנהורא
-				</p>
+				</fw>
 				<p>
 					<lb />שבותך. והשיב לא נאמר אלא ושב. מלמד שה<name type="misc">קב"ה</name>
 					<lb />עם ישראל בגלות. וז"ש לד׳ הישועה. כשהוא על עמך
@@ -1743,13 +1739,13 @@
 				<p>
 					<lb />46
 				</p>
-				<pb facs="Buzina-DiNehora_0044" />
-				<p>
+				<pb facs="Buzina-DiNehora_0044.jpg" />
+				<fw type="pageNum">
 					<lb />40
-				</p>
-				<p>
+				</fw>
+				<fw type="running-head">
 					<lb />בוצינא דנהורא
-				</p>
+				</fw>
 				<p>
 					<lb />את ה<name type="misc">בורא</name> ב"ה בהקומה שלימה. ב<date>ר"ה</date> עובדים אותו במוח.
 					<lb />ולכך נקרא ר"ה יום הזכרון על כי שעונדים אותו במות
@@ -1791,16 +1787,16 @@
 					<lb />ותיכף. השיב לעצמו בזה הלשון. אולי תעשה עמדי חסד. ולא
 					<lb />אהי' אז בבחי׳ זו להודות לך כראוי לכך אני צריך להודות לך
 				</p>
-				<p>
+				<fw type="catch">
 					<lb />עכשיו
-				</p>
-				<pb facs="Buzina-DiNehora_0045" />
-				<p>
+				</fw>
+				<pb facs="Buzina-DiNehora_0045.jpg" />
+				<fw type="pageNum">
 					<lb />44
-				</p>
-				<p>
-					<persName><lb />בוצינא דנהורא</persName>
-				</p>
+				</fw>
+				<fw type="running-head">
+					
+				<lb />בוצינא דנהורא</fw>
 				<p>
 					<lb />עכשיו. ומיד געה בבכיה. והרב הק׳ ר׳ <persName>משה מסיווראן</persName>. עמד
 					<lb />אז בקרן זויות ושמע שאלתו ותשובתו. וגם בכייתו שאל אותו
@@ -1842,16 +1838,16 @@
 					<lb />עשר תעשר. ודרשו חז"ל. עשר בשביל שתעשר. ורמז
 					<lb />לן ב<name type="work">אורייתא</name> בפירוש שמעשר מועיל לעשירות דכתיב
 				</p>
-				<p>
+				<fw type="catch">
 					<lb />כ״9
-				</p>
-				<pb facs="Buzina-DiNehora_0046" />
-				<p>
+				</fw>
+				<pb facs="Buzina-DiNehora_0046.jpg" />
+				<fw type="pageNum">
 					<lb />42
-				</p>
-				<p>
+				</fw>
+				<fw type="running-head">
 					<lb />בוצינא דנהורא
-				</p>
+				</fw>
 				<p>
 					<lb />f״ף אחת עשרה זהב מלאה. פי׳ יד שנוטלת אחת מעשרה
 					<lb />דהיינו מעשר אותה היד זהב מלאה :
@@ -1868,7 +1864,7 @@
 					<lb /></p></div><div type="story" xml:id="Buzina-DiNehora_0014"><head type="storyHead">Buzina-DiNehora_0014</head><span ana="TBD:Unknown" />
 <p>כאשר נתקבל הרב הק׳ ר׳ <persName>נחום מטשירנאביל זצלה"ה</persName> בפעם
 					<lb />ראשון לרב ומגיד. נתקבל בכבוד גדול. וכאשר שמע
-					<lb />רבי ר׳ <persName>ברוך נ״</persName>ע. מהכבוד הגדול שעשו לו. אמר אם לעוברי
+					<lb />רבי ר׳ <persName>ברוך נ״ע</persName>. מהכבוד הגדול שעשו לו. אמר אם לעוברי
 					<lb />רצונו כך לעושי רצונו עאכ״ו. ותיכף פירש להם דבריו לפי
 					<lb />שה<name type="misc">קב</name>״<orgName>ה</orgName>. רוצה שיהיה כבוד לצדיקים. והם בורחים מהכבוד
 					<lb />ועוברים רצונו כך לעושים רצונו בוודאי ראוי להם עוד
@@ -1886,7 +1882,7 @@
 					<lb />אולי לא תלך האשה אחרי <persName>פרש״י</persName> <persName>אלי</persName> כתיב. בת הי' לו
 					<lb />ל<persName>אליעזר</persName>. והי׳ מחזר וכו'. אמר לי׳ <persName>אברהם</persName> אתה ארור
 					<lb />והוא ברוך ואין ארור. מדבק בברוך ולכאורה קשה. איפכא
-					<lb />הוה לי׳ למימר. ואין ברוך מדבק בארור. רק ש<orgName>רש<persName />״<orgName />י</orgName> מרמז בלשונו
+					<lb />הוה לי׳ למימר. ואין ברוך מדבק בארור. רק ש<orgName>רש״י</orgName> מרמז בלשונו
 					<lb />הצח. ענין אחד. כשהצדיק רוצה לשדך א"ע בעשיר. מאן
 					<lb />דהוא. כשרואה העשיר שהצדיק רוצה לשדך עמו. תיכף מתייתם
 					<lb />מול הצדיק. והוא אינו רוצה לשדך עם הצדיק. וזהו כוונת <persName>רש״י</persName>
@@ -1896,16 +1892,16 @@
 					<lb /></p></div><div type="story" xml:id="Buzina-DiNehora_0015"><head type="storyHead">Buzina-DiNehora_0015</head><span ana="TBD:Unknown" />
 <p>פ"א באו לפניו מקורביו אנשי מעלה. והתנצלו לפניו. למה
 				</p>
-				<p>
+				<fw type="catch">
 					<lb />קייהם
-				</p>
-				<pb facs="Buzina-DiNehora_0047" />
-				<p>
+				</fw>
+				<pb facs="Buzina-DiNehora_0047.jpg" />
+				<fw type="pageNum">
 					<lb />43
-				</p>
-				<p>
+				</fw>
+				<fw type="running-head">
 					<lb />רבוצינא דנהורא
-				</p>
+				</fw>
 				<p>
 					<lb />חייהם תמיד בדוחק ובמצוק : ואנשים שכבר כפרו בד'
 					<lb />הצלחתם נשגבה מאוד. אמר להם. שאל תחשבו שהדחקות נלקח.
@@ -1947,16 +1943,16 @@
 					<lb />כי ב<date>שבת</date> מצוה לעננו בבשרא והנורא. וידוע ששינוי ווסת וכו׳
 					<lb />לכן צריכים להתענג גם בחול בבשרא וחמרא שלא יהי' שינוי
 				</p>
-				<p>
+				<fw type="catch">
 					<lb />ווסת
-				</p>
-				<pb facs="Buzina-DiNehora_0048" />
-				<p>
+				</fw>
+				<pb facs="Buzina-DiNehora_0048.jpg" />
+				<fw type="pageNum">
 					<lb />6
-				</p>
-				<p>
+				</fw>
+				<fw type="running-head">
 					<lb />בוצינא דנהורא
-				</p>
+				</fw>
 				<p>
 					<lb />זוסה ב<date>שבת</date>. ויהי׳ עונג שלם. וגם מרומז בו שע״י השבת מעלין
 					<lb />המזון של כל ימי השבוע כידוע :
@@ -2000,22 +1996,22 @@
 				<p>
 					<lb /><choice><sic>ופתח</sic><corr>ופסח</corr></choice> ד׳ על הפתח ולהבין את זאת עפ״י מאמר חז"ל שה<name type="misc">קב</name>״ה
 				</p>
-				<p>
+				<fw type="catch">
 					<lb />מבקש
-				</p>
-				<pb facs="Buzina-DiNehora_0049" />
-				<p>
+				</fw>
+				<pb facs="Buzina-DiNehora_0049.jpg" />
+				<fw type="pageNum">
 					<lb />48
-				</p>
-				<p>
+				</fw>
+				<fw type="running-head">
 					<lb />בוצינא דנהורא
-				</p>
+				</fw>
 				<p>
 					<lb />מבקש מאתנו ישראל פתחו לי כחודו של מחט וכו'. כלומר שיהיה
 					<lb />מעט איתערותא דלתתא. ובשביל זה הי' בריאת האדם אבל
 					<lb />ב<placeName ref="#H-LOC_164">מצרים</placeName> שראה ה<name type="misc">קב"ה</name> את ישראל בעומק הקליפה הוא
 					<lb />ברחמיו וחסדיו הגדולים לא המתין על איתערותא דלתתא רק
-					<lb />בחסדו הגדול פסח ד׳ על הפתח הנ"ל. כ"א <persName>הקב״ה</persName> בכבודו ובעצמו
+					<lb />בחסדו הגדול פסח ד׳ על הפתח הנ"ל. כ"א הקב״ה בכבודו ובעצמו
 					<lb />גאל את אבותינו כן יגאל אותנו גאולת עולם ב"ב א"ס :
 				</p>
 			</div><div type="non-story"><p>
@@ -2027,7 +2023,7 @@
 					<lb />זה מול זה ע״כ פי' לפירושו עפ"י דאיתא פתחו לי כפתחו
 					<lb />של מחט ואני אפתח לכם כפתחו של אולם. וזה כוונת <orgName>רש״י</orgName>
 					<lb />אין פתחיהן מכוונים פי' פתחו דישראל ופתחו דקוב״ה אינם
-					<lb />מכיונים שה<name type="misc">קב״<orgName />ה</name> פותח להם פתח יותר גדולה ממה שהם פותחים.
+					<lb />מכיונים שה<name type="misc">קב״ה</name> פותח להם פתח יותר גדולה ממה שהם פותחים.
 					<lb />ע״כ לא הי׳ יכול <persName>בלעם</persName> להרע להם. כי ראה שאם יעשו תשובה
 					<lb />מועטת כל דהו, ההקב"ה ישפיע להם כל טוב :
 				</p>
@@ -2054,16 +2050,16 @@
 				<p>
 					<lb />הוא אלהי ה<name type="misc">אלהים</name> ר"ל כפי שאתה משער את <name type="misc">אלהים</name> בלבבך
 				</p>
-				<p>
+				<fw type="catch">
 					<lb />עדיין
-				</p>
-				<pb facs="Buzina-DiNehora_0050" />
-				<p>
+				</fw>
+				<pb facs="Buzina-DiNehora_0050.jpg" />
+				<fw type="pageNum">
 					<lb />46
-				</p>
-				<p>
+				</fw>
+				<fw type="running-head">
 					<lb />בוצינא דנהורא
-				</p>
+				</fw>
 				<p>
 					<lb />עדיין הוא יותר גדול. והוא אלהי על ה<name type="misc">אלהים</name> שהשגת :
 				</p>
@@ -2108,16 +2104,16 @@
 					<lb />הדברים במאמרי ה<name type="work">תורה</name> ברמז קצת. ובנגיעה מועטת
 					<lb />משום שנאמר ורוח <name type="misc">אלקים</name> מרחפת על פני המים. אין מים אלא
 				</p>
-				<p>
-					<name type="work"><lb />תורה</name>
-				</p>
-				<pb facs="Buzina-DiNehora_0051" />
-				<p>
+				<fw type="catch">
+					
+				<lb />תורה</fw>
+				<pb facs="Buzina-DiNehora_0051.jpg" />
+				<fw type="pageNum">
 					<lb />44
-				</p>
-				<p>
-					<name type="misc"><lb />בוצינא</name> <name type="work">דנהורא</name>
-				</p>
+				</fw>
+				<fw type="running-head">
+					 <lb />בוצינאדנהורא
+				</fw>
 				<p>
 					<name type="work"><lb />תורה</name>. ועל מרחפת אמרו חז"ל נוגע ואינו נוגע :
 				</p>
@@ -2160,18 +2156,18 @@
 					<lb />שכבר כתובים ועומדים הדברים הללו בהתורה. לזה אמר שאינו
 					<lb />כן אלא צריך אדם. להלוך בין העומדים כבר בהתורה :
 				</p>
-				<p>
+				<fw type="catch">
 					<lb />הבוחר
-				</p>
-				<pb facs="Buzina-DiNehora_0052" />
-				<p>
+				</fw>
+				<pb facs="Buzina-DiNehora_0052.jpg" />
+				<fw type="pageNum">
 					<lb />15
-				</p>
+				</fw>
 				<p>
 					<persName><lb />בוצינא</persName> דנהורא
 				</p>
 				<p>
-					<lb />הבוחר בשירי זמרה. פי׳ <name type="misc">הקב<persName />״ה</name> בוחר בשיריים שנשארו
+					<lb />הבוחר בשירי זמרה. פי׳ <name type="misc">הקב״ה</name> בוחר בשיריים שנשארו
 					<lb />אחר הזמרה :
 				</p>
 				<p>
@@ -2211,16 +2207,16 @@
 					<lb />ראשי חרשים לעמך. ר"ת <persName>רחל</persName> שהיא השראת השכינה
 					<lb />והתחדשות המוחין לישראל :
 				</p>
-				<p>
+				<fw type="catch">
 					<lb />עבר
-				</p>
-				<pb facs="Buzina-DiNehora_0053" />
-				<p>
+				</fw>
+				<pb facs="Buzina-DiNehora_0053.jpg" />
+				<fw type="pageNum">
 					<lb />69
-				</p>
-				<p>
-					<lb />בוצינא <persName>דנהורא</persName>
-				</p>
+				</fw>
+				<fw type="running-head">
+					<lb />בוצינא דנהורא
+				</fw>
 				<p>
 					<lb />עבר אדם עבירה ושנה בה נעשה לו כהיתר. היינו אם אדם
 					<lb />עבר עבירה. ואח״כ לומד מעט בהתמדה. נעשה בלבו
@@ -2266,16 +2262,16 @@
 					<lb />עצתו אמונה פעולתו אמת. פי' העצה לזה להאמין שכל
 					<lb />פעולותיו הן באמת וצדק :
 				</p>
-				<p>
+				<fw type="catch">
 					<lb />ולא
-				</p>
-				<pb facs="Buzina-DiNehora_0054" />
-				<p>
+				</fw>
+				<pb facs="Buzina-DiNehora_0054.jpg" />
+				<fw type="pageNum">
 					<lb />88
-				</p>
-				<p>
-					<lb />בוצינא <persName>דנהורא</persName>
-				</p>
+				</fw>
+				<fw type="running-head">
+					<lb />בוצינא דנהורא
+				</fw>
 				<p>
 					<lb />ולא אנחנו עמו. כתוב לא וקריינין לו. היינו אם אנו מחזיקים
 					<lb />את עצמינו ללא ב"א. אזי לו אנחנו בואו. ואם אנו מחזיקים
@@ -2307,7 +2303,7 @@
 					<lb />רוצה להביא לפני הפה :
 				</p>
 				<p>
-					<lb />אמר זקיני ה<persName>בעש״</persName>ט אמר. זה השער לד׳ צדיקים. היינו
+					<lb />אמר זקיני ה<persName>בעש״ט</persName> אמר. זה השער לד׳ צדיקים. היינו
 					<lb />הצדיקים הם השער לד׳ ואחי הה״ק מ׳ <persName>אפרים</persName> אמר.
 					<lb />זיב לפתח חטאת רובץ. חטאת הוא היצה"ר רובץ על פתח
 					<lb />הער הזה. ומפתה לבני אדם לחלוק על הצדיק ולומר
@@ -2319,16 +2315,16 @@
 					<lb />ובאו האובדים ב<placeName>ארץ אשור</placeName> והנדחים ב<placeName>ארץ מצרים</placeName>. או'
 					<lb />שיש אדם שאינו מרגיש נגעי לבבו ופשעיו. ועבור
 				</p>
-				<p>
+				<fw type="catch">
 					<lb />גם
-				</p>
-				<pb facs="Buzina-DiNehora_0055" />
-				<p>
+				</fw>
+				<pb facs="Buzina-DiNehora_0055.jpg" />
+				<fw type="pageNum">
 					<lb />81
-				</p>
-				<p>
+				</fw>
+				<fw type="running-head">
 					<lb />בוצינא דנהורא
-				</p>
+				</fw>
 				<p>
 					<lb />זה לא ידאג על חטאיו כי ידמה בנפשו שמעשיו רצוים בעיני
 					<name type="misc"><lb />אלקים</name>. ואיש כזה נקרא אבד כי לא יתן לבבו בשום פעם
@@ -2368,16 +2364,16 @@
 			</div><div type="non-story"><p>כל מקדש שביעי כראוי לו. פי׳ לכל אחד מישראל השביעי
 					<lb />מקדש רק לכל אחד כפי הראוי לו :
 				</p>
-				<p>
+				<fw type="catch">
 					<lb />בזכור
-				</p>
-				<pb facs="Buzina-DiNehora_0056" />
-				<p>
+				</fw>
+				<pb facs="Buzina-DiNehora_0056.jpg" />
+				<fw type="pageNum">
 					<lb />60
-				</p>
-				<p>
+				</fw>
+				<fw type="running-head">
 					<lb />בוצינא דנהורא
-				</p>
+				</fw>
 				<p>
 					<lb />בזמר יום זה מכובד מכל ימים. כי אל יתן לכל בו דבקים
 					<lb />בגד ללבוש לחם חוקים וכל מטעמים. פי׳ לכל הדבקים
@@ -2423,16 +2419,16 @@
 			</div><div type="non-story"><p>איש סחו אחריו ד׳ הוא <name type="misc">אלקים</name>. דהנה כשהראה <persName>אליהו</persName> את
 					<lb />המופת כשירד אש מן השמים הי׳ מדרך העולם. לספר
 				</p>
-				<p>
+				<fw type="catch">
 					<lb />בהמופת
-				</p>
-				<pb facs="Buzina-DiNehora_0057" />
-				<p>
+				</fw>
+				<pb facs="Buzina-DiNehora_0057.jpg" />
+				<fw type="pageNum">
 					<lb />68
-				</p>
-				<p>
-					<lb />בוצינא <persName>דנהורא</persName>
-				</p>
+				</fw>
+				<fw type="running-head">
+					<lb />בוצינא דנהורא
+				</fw>
 				<p>
 					<lb />בהמופת אשר עשה <persName>אליהו</persName>. אבל בכאן הביא <persName>אליהו</persName> התגלות אלקית.
 					<lb />שכל העולם ענו ואמרו אשר <name type="misc">ד'</name> הוא <name type="misc">אלקים</name>. ושכחו כל המופתים
@@ -2478,16 +2474,16 @@
 <p>פ"א ב<date>שבת</date> במנחה : אמר ואני תפלתי לך ד' עת רצון : ושמעו
 					<lb />שפי׳ לעצמו כך. ואני מי אני ומה אני תפלתי ומה תפלתי.
 				</p>
-				<p>
+				<fw type="catch">
 					<lb />וגם
-				</p>
-				<pb facs="Buzina-DiNehora_0058" />
-				<p>
+				</fw>
+				<pb facs="Buzina-DiNehora_0058.jpg" />
+				<fw type="pageNum">
 					<lb />64
-				</p>
-				<p>
-					<lb />בוצינא <persName>דנהורא</persName>
-				</p>
+				</fw>
+				<fw type="running-head">
+					<lb />בוצינא דנהורא
+				</fw>
 				<p>
 					<lb />וגם לך ד׳. נגד אל גדול כמוך. אך עת רצון הכל תלוי בעת רצון :
 				</p>
@@ -2535,16 +2531,16 @@
 					<lb />ותיכף דחפו. אותו. ואמר אליו מחותנו הרב <persName>רא"ד</persName> הנ"ל מה
 					<lb />נעשה עם ה<name type="work">גמרא</name> המלבין פני חבירו ברבים. מיד החזיר
 				</p>
-				<p>
+				<fw type="catch">
 					<lb />הרב
-				</p>
-				<pb facs="Buzina-DiNehora_0059" />
-				<p>
+				</fw>
+				<pb facs="Buzina-DiNehora_0059.jpg" />
+				<fw type="pageNum">
 					<lb />88
-				</p>
-				<p>
-					<persName><lb />בוצינא דנהורא</persName>
-				</p>
+				</fw>
+				<fw type="running-head">
+					
+				<lb />בוצינא דנהורא</fw>
 				<p>
 					<lb />הרב <persName>ר"ב</persName> את פניו אליו ואמר לו מה אומר הלמדן המלבין פני
 					<lb />חבירו ברבים מפני מה אינו מסיים את המאמר אין לו חלק לעוה״ב :
@@ -2570,8 +2566,8 @@
 					<lb /></p></div><div type="story" xml:id="Buzina-DiNehora_0034"><head type="storyHead">Buzina-DiNehora_0034</head><span ana="TBD:Unknown" />
 <p>דרכו בקודש הי׳ לישב <persName>בהלולא דרשב״י</persName> בל״ג בעומר בסעודה.
 					<lb />במלבושי יו״ט והי׳ שמח מאוד ו<persName>פ"א</persName> פתח השער מה<persName>זוהר</persName>
-					<lb />ופתח ואמר מ<name type="work">התנא</name> ה<persName>אלקי</persName> <persName>הרשב״י</persName>. ופי<persName>'</persName> מ<persName>התנא</persName> שלומד אותנו
-					<lb />ה<persName>אלקי</persName> האיך לעבוד את <persName>ד'</persName>. ופ"א נתן ה<name type="work">זוהר</name> על לבבו ואמר בזה
+					<lb />ופתח ואמר מ<name type="work">התנא</name> ה<persName>אלקי</persName> <persName>הרשב״י</persName>. ופי' מ<persName>התנא</persName> שלומד אותנו
+					<lb />ה<persName>אלקי</persName> האיך לעבוד את ד'. ופ"א נתן ה<name type="work">זוהר</name> על לבבו ואמר בזה
 					<lb />הלשון <persName>רשב״י</persName> איך קען דעך אין דיא קענסט מעך :
 				</p>
 				<p>
@@ -2586,16 +2582,16 @@
 					<lb />באמירתו ובכל פעם שסייעו צווח הרב ה<persName>״ק</persName> <persName>ר"י</persName> הנ"ל בקול כמי
 					<lb />ששופכים עליו רותחין. ואח״כ אמר בעצמו מאמר אחד ולקח את
 				</p>
-				<p>
-					<name type="misc"><lb />ה'</name>
-				</p>
-				<pb facs="Buzina-DiNehora_0060" />
-				<p>
+				<fw type="catch">
+					
+				<lb />ה'</fw>
+				<pb facs="Buzina-DiNehora_0060.jpg" />
+				<fw type="pageNum">
 					<lb />66
-				</p>
-				<p>
+				</fw>
+				<fw type="running-head">
 					<lb />בוצינא דנהורא
-				</p>
+				</fw>
 				<p>
 					<lb />ס׳ ה<name type="work">זוהר</name> על לבבו ואמרה איך דאנק דיר ר"ש בעד ס׳ ה<name type="work">זוהר</name> כ
 					<lb />אילמנא. האי לא הוי עדייפנא מחברא :
@@ -2638,16 +2634,16 @@
 					<persName><lb />צווע בענקינש</persName>. ה<name type="misc">שי"ת</name> בענקט נאך יודין אין יודין בענקין נאך
 					<lb />ה<name type="misc">שי"ת</name> אין אצלי איז דא דיא צווע בענקיניש. וכשבא. כבודו לביתי
 				</p>
-				<p>
+				<fw type="catch">
 					<lb />ראיתי
-				</p>
-				<pb facs="Buzina-DiNehora_0061" />
-				<p>
+				</fw>
+				<pb facs="Buzina-DiNehora_0061.jpg" />
+				<fw type="pageNum">
 					<lb />57
-				</p>
-				<p>
+				</fw>
+				<fw type="running-head">
 					<lb />בוצינא דנהורא
-				</p>
+				</fw>
 				<p>
 					<lb />ראיתי אז איר בענקט ניט נאך ה<name type="misc">שי"ת</name>. ע"כ צויתי להביא לכם
 					<lb />הבענקיל פין <persName>דיא צווע</persName> ב<placeName>ענקייניש</placeName> :
@@ -2685,20 +2681,20 @@
 					<lb />ליד הנשה</name> על <name type="work">פ'</name> והנה <name type="work">מלאכי</name> <persName>אלקים</persName> עולים ויורדים בו. <persName>תנא</persName>
 					<lb />עולים ומסתכלים בדיוקנו של מעלה ויורדין ומסתכלין בדיוקנו של
 					<lb />מטה וראו דמות <persName>יעקב חקיק</persName> בכסא הכבוד. ב<persName>עו</persName> ל<persName>סכיני׳ פרש״י</persName>
-					<lb />מפני הקנאה. מיד והנה ד<persName>׳</persName> נצב עליו. ואמר <persName>ר"ש בן לוי</persName> אלמלא
+					<lb />מפני הקנאה. מיד והנה ד׳ נצב עליו. ואמר <persName>ר"ש בן לוי</persName> אלמלא
 					<lb />מקרא כתוב א״א לאומרו כאדם המניף על בנו. פרש״י שמניף על
 					<lb />בנו במנופה להצילו מן השרב. והקשה הרב הנ"ל על לשון ה<name type="work">גמרא</name>
 				</p>
-				<p>
+				<fw type="catch">
 					<lb />בעו
-				</p>
-				<pb facs="Buzina-DiNehora_0062" />
-				<p>
+				</fw>
+				<pb facs="Buzina-DiNehora_0062.jpg" />
+				<fw type="pageNum">
 					<lb />86
-				</p>
-				<p>
+				</fw>
+				<fw type="running-head">
 					<lb />בוצינא דנהורא
-				</p>
+				</fw>
 				<p>
 					<lb />בעו לסכינים הנ"ל בעו להזיקו. וגם מה שפרש״י להצילו מן השרב
 					<lb />מנ"ל דווקא מן השרב. ותירץ מאמר ה<name type="work">גמרא</name> הנ"ל עפ"י מה דאיתא
@@ -2716,7 +2712,7 @@
 				</p>
 				<p>
 					<lb /></p></div><div type="story" xml:id="Buzina-DiNehora_0041"><head type="storyHead">Buzina-DiNehora_0041</head><span ana="TBD:Unknown" />
-<p>פ"א בא מחותנו הרב הק'. ר׳ <persName>שלמה קארלינר</persName> ול<placeName>ק<persName />'</placeName> טאלטשין
+<p>פ"א בא מחותנו הרב הק'. ר׳ <persName>שלמה קארלינר</persName> ול<placeName>ק'</placeName> טאלטשין
 					<lb />והלך הרב ר <persName>שלמה</persName> מן האכסניא שלו אלי הרב הק׳ ר׳ <persName>ברוך</persName>.
 					<lb />והלכו עמו עולם גדול מאנשי טאלטשין. וכשפתח הרב הק ר׳ <persName>שלמה</persName>.
 					<lb />את הפתח נרתת לאחוריו. וכן עשה כמה פעמים פתח את
@@ -2724,12 +2720,12 @@
 					<lb />ראה אותו. מחמת שעמד אצל החלון. ופניו כלפי החלון. ואמרו
 					<lb />העולם. מפני מה ירא הרב לילך אל הבית ואנחנו אינם יראים
 					<lb />מלפניו כ״כ אמר הרב הק׳ ר׳ <persName>שלמה</persName> האיך לא הי' לי ליראות
-					<lb />שראיתי. שהבעש<persName>״</persName>ט. עומד אצלו ומסלסל בשערו :
+					<lb />שראיתי. שהבעש<persName>״ט</persName>. עומד אצלו ומסלסל בשערו :
 				</p>
 				<p>
 					<lb /></p></div><div type="story" xml:id="Buzina-DiNehora_0042"><head type="storyHead">Buzina-DiNehora_0042</head><span ana="TBD:Unknown" />
 <p>פעם אחת בא הרב הק' ר' <persName>ברוך</persName> זצלה"ה. קודם חג השבועות.
-					<lb />ל<placeName>ק<orgName />'</placeName> מעזעביז ולא הי' אצל אחיו הרב הק' מ<placeName>סדילקוב ברק</placeName>
+					<lb />ל<placeName>ק'</placeName> מעזעביז ולא הי' אצל אחיו הרב הק' מ<placeName>סדילקוב ברק</placeName>
 					<lb />בבוא העירה, נסע על קבר הבעש<persName>״ט</persName> ומשם החזיר א"ע לביתו ל<orgName>ק'</orgName>.
 					<lb />טאלטשין ותיכף אחר חג השבועות. בא פעם שנית ל<orgName>ק</orgName>'. מעזיביז.
 					<lb />ונסע ג״כ קודם על קבר הבעש<persName>״ט</persName> ובחזרתו בא לבית אחיו
@@ -2739,16 +2735,16 @@
 					<lb />הבעש<persName>״ט</persName>. אמר לו. כי אמרו לי מן השמים. אם ברצוני. אקבל
 					<lb />התורה בחל השבועות. בקולות וברקים. כמו שקבל <persName>משה רבינו</persName>
 				</p>
-				<p>
+				<fw type="catch">
 					<lb />בזמר
-				</p>
-				<pb facs="Buzina-DiNehora_0063" />
-				<p>
+				</fw>
+				<pb facs="Buzina-DiNehora_0063.jpg" />
+				<fw type="pageNum">
 					<lb />50
-				</p>
-				<p>
-					<persName><lb />בוצינא דנהורא</persName>
-				</p>
+				</fw>
+				<fw type="running-head">
+					
+				<lb />בוצינא דנהורא</fw>
 				<p>
 					<lb />מ<placeName ref="#H-LOC_565">סיני</placeName>. והייתי על קבר ה<persName>בעש״ט</persName> ובקשתי ממנו שיהי׳ לי כח לקבל
 					<lb />את ה<name type="work">תורה</name> וחזרתי לביתי וקבלתי התורה בחג השבועות. בקולות
@@ -2775,7 +2771,7 @@
 					<lb />להרב הק' ר' <persName>פנחם</persName>. שיחזור תיכף לביתו כי יש לו דבר נחוץ
 					<lb />שהוכרח תיכף לבוא לביתו. והרב הק' מ<placeName>פילינאה</placeName>. עשה בעת
 					<lb />הזאת התבודדות בחדר המיוחד לו. והי׳ הדבר צר בעיני הרב
-					<lb />ר"פ שלא הי<persName>׳</persName> יודע מה לעשות. אם להמתין עם החזרה לביתו
+					<lb />ר"פ שלא הי׳ יודע מה לעשות. אם להמתין עם החזרה לביתו
 					<lb />עד אחר התבודדות של הרב מ<placeName>פילינאה</placeName>. אי אפשר שפשוט הי'
 					<lb />שיהי' לו התבודדות מעל״ע. או יותר. ואם לנסוע. בלתי ידיעת
 					<lb />הרב. ג״כ אי אפשר ולא ידע למצוא מרגוע לנפשו. וביקש ממני
@@ -2787,16 +2783,16 @@
 					<lb />שלמד עמו אבל ראה <persName>זקיני</persName> ה<persName>בעש״ט</persName> שאין זה מגיד מ<orgName>מגידי</orgName> האמת.
 					<lb />ולקח ממנו אותו ה<persName>מגיד</persName>. ונתן לו מגיד אחר. מ<orgName>מגידי</orgName> האמת :
 				</p>
-				<p>
+				<fw type="catch">
 					<lb />ואמרתי
-				</p>
-				<pb facs="Buzina-DiNehora_0064" />
-				<p>
+				</fw>
+				<pb facs="Buzina-DiNehora_0064.jpg" />
+				<fw type="pageNum">
 					<lb />60
-				</p>
-				<p>
-					<persName><lb />בוצינא דנהורא</persName>
-				</p>
+				</fw>
+				<fw type="running-head">
+					
+				<lb />בוצינא דנהורא</fw>
 				<p>
 					<lb />ואמרתי להרב ר״פ. נלכה שנינו ביחד להרב אל החדר. וכך הי'
 					<lb />הלכנו שנינו. ובאנו אל הדלת והדלת הי׳ עקוה. וגרוע.
@@ -2809,7 +2805,7 @@
 				<p>
 					<lb /></p></div><div type="story" xml:id="Buzina-DiNehora_0044"><head type="storyHead">Buzina-DiNehora_0044</head><span ana="TBD:Unknown" />
 <p>פ״א בא אליו הרב ר׳ <persName>אהרן מק' מעזיביו</persName> ל<placeName>ק׳ טאלטשין</placeName> .
-					<lb />והרב ר<persName>׳</persName> <persName>אהרן</persName> הי' עוד אצל ה<persName>בעש"ט</persName> וכשהי׳ הרב
+					<lb />והרב ר׳ <persName>אהרן</persName> הי' עוד אצל ה<persName>בעש"ט</persName> וכשהי׳ הרב
 					<lb />הק׳ <persName>ר"ב</persName> ילד קטן הי׳ נושא אותו הרב ר' <persName>אהרן</persName> על ידיו
 					<lb />אצל ה<persName>בעש״ט</persName>. ומחמת זה כבואו ל<placeName>ק' טאלטשין</placeName> נסע עם
 					<lb />העגלה שלו לבית הרב הק׳ ר"ב. ולקח את הטלימיק שלו. והניח
@@ -2818,8 +2814,8 @@
 					<lb />אחיו. פירש״י מלאכים ממש. והי׳ קשה לי תמיד האם לא הי'
 					<lb />ל<persName>יעקב</persName> אנשים שלוחים לשלוח אל <persName>עשו</persName> אשר הצטרך לשלוח אליו
 					<lb />מלאכים. והשתא תרצתם לי. כי איתא שהמלאכים שהיו אצל
-					<persName><lb />אברהם</persName> לא יכלו לעלות למעלה. מחמת שאכלו אצל <persName>אברהם</persName>. וב<name type="work">ס</name>׳
-					<name type="work"><lb />ציוני</name> איתא בנ״א מחמת שעשו שליחותם שלא כהוגן לא יכלו
+					<persName><lb />אברהם</persName> לא יכלו לעלות למעלה. מחמת שאכלו אצל <persName>אברהם</persName>. ובס׳
+					<lb />ציוני איתא בנ״א מחמת שעשו שליחותם שלא כהוגן לא יכלו
 					<lb />לעלות למטלה. ונשארו בזה העולם אצל <persName>יעקב</persName> . והנה אלו
 					<lb />המלאכים היו אצל <persName>אברהם</persName> בדמות אנשים כדכתיב. והנח שלשה
 					<lb />אנשים נצבים עליו. ובאו אל <persName>יעקב</persName> בדמות מלאכים. ואמר להם
@@ -2839,16 +2835,16 @@
 <p>[החסיד המקורב המובא בהקדמה יספר נפלאות שראה ממנו
 					<lb />כשבקשו על ב״מ בנו] <persName>בני מו׳</persName> <persName>שלמה</persName> נולד תיכף
 				</p>
-				<p>
+				<fw type="catch">
 					<lb />אחר
-				</p>
-				<pb facs="Buzina-DiNehora_0065" />
-				<p>
-					<persName><lb />בוצינא דנהירא</persName>
-				</p>
-				<p>
+				</fw>
+				<pb facs="Buzina-DiNehora_0065.jpg" />
+				<fw type="running-head">
+					
+				<lb />בוצינא דנהירא</fw>
+				<fw type="pageNum">
 					<lb />61
-				</p>
+				</fw>
 				<p>
 					<lb />אחר שנהרג מחותנו הרב הק׳ ר׳ <persName>שלמה</persName> <persName>קארלינר</persName> זצלה״ה. והעולם
 					<lb />לא רצו להודיעו. והי' נראה בעיני כל שהוא אינו יודע מדבר
@@ -2867,7 +2863,7 @@
 					<lb />בביתו. שיום אז קודם ביאת הרב ר׳ <persName>חיים</persName> נסע ל<placeName>ק׳ טאלטשין</placeName>.
 					<lb />אך שאמרו להרב ר״ח שהרב הק׳ ר״<persName>ב</persName> ז״ל נסע דרך <placeName>ליטין</placeName>.
 					<lb />ונסע הרב הק׳ צ״ח ג״כ דרך <placeName>ליטין</placeName>. ופגע ב<placeName>ק׳ ליטין</placeName> את הרב
-					<lb />ר<persName>״ב</persName>. והי׳ האכסניא של הרב ר״<persName>ב</persName> אצל ר<persName>׳</persName> <persName>ליב</persName>. והרב ר׳ <persName>חיים</persName>
+					<lb />ר<persName>״ב</persName>. והי׳ האכסניא של הרב ר״<persName>ב</persName> אצל ר׳ <persName>ליב</persName>. והרב ר׳ <persName>חיים</persName>
 					<lb />עמד על האכסניא אצל <persName>הר׳ אביגדור</persName> ותיכף כבואו ל<placeName>ק׳ ליטין</placeName> על
 					<lb />האכסניא רצונו הי׳ לילך אל הרב ר<persName>״ב</persName>. אך שאמרו לו שהרב ישן.
 					<lb />ואח״כ הודיעו להרב ר״ח שהרב ר״<persName>ב</persName> עמד. ולבש א"ע. בגדים
@@ -2887,16 +2883,16 @@
 					<lb />הרב ר״ב ל<persName>המשרת</persName> שיתן לו צלוחית ל<persName>ימינאדע</persName>. ושתה הרב ר״<persName>ב</persName>
 					<lb />את הלימינאדע בלא ברכה. ואמר להרב ר״<persName>ח</persName> אפשר שקשה לכם
 				</p>
-				<p>
+				<fw type="catch">
 					<lb />על
-				</p>
-				<pb facs="Buzina-DiNehora_0066" />
-				<p>
+				</fw>
+				<pb facs="Buzina-DiNehora_0066.jpg" />
+				<fw type="pageNum">
 					<lb />62
-				</p>
-				<p>
-					<name type="misc"><lb />בוצינא</name> <persName>דנהורא</persName>
-				</p>
+				</fw>
+				<fw type="running-head">
+					 <lb />בוצינאדנהורא
+				</fw>
 				<p>
 					<lb />על מה שאיני מברך. כי שהיתי לימינאדע קודם ביאתכם וישבו
 					<lb />שניהם על כסאות ולא דברו כלום. רק אלו הדברים. שאמר
@@ -2928,21 +2924,21 @@
 					<lb />ומדי דברי בו בא לבית ילד קטן. עמד הרב ה<persName>מגיד</persName> מכסאו. ואמר
 					<lb />לי זה הילד הוא ר״<persName>ב</persName> נכד ה<persName>בעש״ט</persName> תביט אליו כי הוא דבר חידוש.
 					<lb />והבטתי בו ולא הבנתי דבר חידושו. ואח״כ בכמה שנים הייתי
-					<lb />ב<placeName>ק<persName />׳ אוסטראה</placeName> אצל הרב <persName>ר</persName>׳ <persName>פנחס</persName> וישבנו על כסאות בבית. ודברתי
+					<lb />ב<placeName>ק׳ אוסטראה</placeName> אצל הרב <persName>ר</persName>׳ <persName>פנחס</persName> וישבנו על כסאות בבית. ודברתי
 					<lb />עם הרב <persName>ר'</persName> <persName>פנחס</persName> ו<persName>מדי</persName> דברי בו חלף והלך הרב ר<persName>״ב</persName> בחוץ. וראה
 					<lb />אות הרב <persName>ר׳</persName> <persName>פנחס</persName> בעד החלון. עמד הרב ר״פ מכסאו ואמר לי
-					<lb />לך במהרה ותראה את הרב ר<persName>׳</persName> <persName>ברוך</persName> כי הוא דבר חידוש אשר לא
+					<lb />לך במהרה ותראה את הרב ר׳ <persName>ברוך</persName> כי הוא דבר חידוש אשר לא
 				</p>
-				<p>
+				<fw type="catch">
 					<lb />ראית
-				</p>
-				<pb facs="Buzina-DiNehora_0067" />
-				<p>
+				</fw>
+				<pb facs="Buzina-DiNehora_0067.jpg" />
+				<fw type="pageNum">
 					<lb />63
-				</p>
-				<p>
-					<persName><lb />בוצינא דנהורא</persName>
-				</p>
+				</fw>
+				<fw type="running-head">
+					
+				<lb />בוצינא דנהורא</fw>
 				<p>
 					<lb />ראית מעולם ונזכרתי גם בדברי המגיד. שאמר לי כך הלכתי
 					<lb />בחפזון. וסכבתי כמה בתים. כדי שאבוא לקראת פניו לראותו פב״פ.
@@ -2984,20 +2980,20 @@
 					<lb />ע״ה. ע״כ בעת אמרו <name type="work">שיר השירים</name>. הי׳ מתלהב ועולה כלפיד אש.
 					<lb />ושום אדם לא הי' אפשר לו לעמוד שם. כי כמעט הוציאו ממחשבתו.
 					<lb />והפשיטו מהגשמיות. כי כל מי שאינו רגיל בדבקות ובהתפשטות
-					<lb />הגשמיות. קרוב שיחלה וימות וסיפר הרב הק' מוהר<persName>״</persName>ר <persName>צבי מזידיטשוב</persName>
+					<lb />הגשמיות. קרוב שיחלה וימות וסיפר הרב הק' מוהר<persName>״ר</persName> <persName>צבי מזידיטשוב</persName>
 				</p>
-				<p>
+				<fw type="catch">
 					<lb />זלה"ה
-				</p>
-				<pb facs="Buzina-DiNehora_0068" />
-				<p>
+				</fw>
+				<pb facs="Buzina-DiNehora_0068.jpg" />
+				<fw type="pageNum">
 					<lb />51
-				</p>
+				</fw>
+				<fw type="running-head">
+					
+				<lb />בוצינא דנהורא</fw>
 				<p>
-					<persName><lb />בוצינא דנהורא</persName>
-				</p>
-				<p>
-					<lb />זלה"ה. כי פעם אחת היה במעזיביו. והתחבא שם באדרו. עם
+					<lb />זלה"ה. כי פעם אחת היה ב<placeName ref="#H-LOC_55">מעזיביז</placeName>. והתחבא שם באדרו. עם
 					<lb />חסיד אחד. לשמוע <name type="work">שיר השירים</name> מפה קדוש הרב ר״ר <persName>ברוך</persName>. ויהי
 					<lb />כאשר התחיל בשיר בהתלהבות והשתוקקות אמר החסיד להרב
 					<lb />הק' מהר"צ ז"ל. כי נבוכו רעיוניו מרוב האש אשר בוער בקרבו.
@@ -3013,7 +3009,7 @@
 					<lb />ממרומים. וירא אש <name type="misc">ד</name>׳ לוהטה בבית. אין לשער ואין לספר ועמד
 					<lb />שם עד כי אמר. מאמר הכתוב כי עזה כמות אהבה וגו׳ רשפיה
 					<lb />דשפי אש שלהבת יה. אז מפני גודל התלהבות והשתוקקות. כמעט
-					<lb />נתבטל במציאות ח"ו. ו<persName>ד'</persName> היה בעזרו. עד כלותו לאמר <name type="work">שיר השירים</name>
+					<lb />נתבטל במציאות ח"ו. וד' היה בעזרו. עד כלותו לאמר <name type="work">שיר השירים</name>
 					<lb />והרב הק' <persName>הר"צ</persName> הנ"ל הי' אומר תמיד. כי בעת אשר יקרה לו
 					<lb />לפעמים ח״ו נפילה בעבודה מנפילת המוחין וכדומה. הנה הוא
 					<lb />יזכור הרגעים היקרים האלה שהיה שומע <name type="work">שיר השירים</name> מפי הק'
@@ -3022,8 +3018,8 @@
 				</p>
 				<p>
 					<lb /></p></div><div type="story" xml:id="Buzina-DiNehora_0049"><head type="storyHead">Buzina-DiNehora_0049</head><span ana="TBD:Unknown" />
-<p>סיפר <persName>הר׳ ליב</persName> מלעטיטשוב. שהוא הי׳ מלמד אצל הרב הק'
-					<persName><lb />הר</persName>׳ <persName>משה חיים אפרים מ<placeName ana="bio">סדילקיב</placeName></persName> נכד ה<persName>בעש"ט</persName> בילדותו
+<p>סיפר <persName>הר׳ ליב</persName> מ<placeName>לעטיטשוב</placeName>. שהוא הי׳ מלמד אצל הרב הק'
+					<lb />הר׳ <persName>משה חיים אפרים מ<placeName ana="bio">סדילקיב</placeName></persName> נכד ה<persName>בעש"ט</persName> בילדותו
 					<lb />הי׳ יושב עם ה<persName>בעש"ט</persName> אצל השלחן. פתאום אמר לו הבעש״ט אם
 					<lb />תרצה אראה לך דבר: אמר לו הן. צוה הבעש״ט להביא לו חתיכה
 					<lb />קלף חלק. והניח את הקלף תחת המפה אשר על השלחן. והשתומם
@@ -3034,13 +3030,13 @@
 					<lb />התחיל לכאוב לו השינים השם ישמרנו ויזכנו לביאת הגואל
 					<lb />במהרה בימינו :
 				</p>
-				<pb facs="Buzina-DiNehora_0069" />
-				<p>
-					<lb />בוצינא <persName>דנהורא</persName>
-				</p>
-				<p>
+				<pb facs="Buzina-DiNehora_0069.jpg" />
+				<fw type="running-head">
+					<lb />בוצינא דנהורא
+				</fw>
+				<fw type="pageNum">
 					<lb />63
-				</p>
+				</fw>
 								</div><div type="letter" n="1"><p>אגרת הקודש אשר שלח הרב הקדוש
 					<lb />רבי <persName>ר' ברוך מ<placeName ref="#H-LOC_55" ana="bio">מעזיביז</placeName></persName> <placeName>נ"ע</placeName> להרב הקדוש
 					<lb />המפורסם מוהר״ר <persName>מנחם מענדיל</persName>
@@ -3083,16 +3079,16 @@
 					<lb />מקטנם ועד גדולם שמו פניהם עלי דבר קטן וגדול. ואת ד׳ אלקי
 					<lb />השמים והארץ אני ירא להעלים עיני מהם ולהסתיר פנים מעניני
 				</p>
-				<p>
+				<fw type="catch">
 					<lb />בקשתם
-				</p>
-				<pb facs="Buzina-DiNehora_0070" />
-				<p>
+				</fw>
+				<pb facs="Buzina-DiNehora_0070.jpg" />
+				<fw type="pageNum">
 					<lb />66
-				</p>
-				<p>
-					<lb />בוצינא <persName>דנהורא</persName>
-				</p>
+				</fw>
+				<fw type="running-head">
+					<lb />בוצינא דנהורא
+				</fw>
 				<p>
 					<lb />בקשתם. וברחמים גדולים אני מנהלם. וכשל כח הסבל מחמת
 					<lb />חלישת גופי ישלח דברו וירפאני. ובפרט שנה זו כמה הפרתקאות
@@ -3134,16 +3130,16 @@
 				<p>
 					<lb />נאום ברוך במהור"ר <persName>יחיאל מיכל</persName> זלה"ה.
 				</p>
-				<p>
+				<fw type="catch">
 					<lb />אגרת
-				</p>
-				<pb facs="Buzina-DiNehora_0071" />
-				<p>
+				</fw>
+				<pb facs="Buzina-DiNehora_0071.jpg" />
+				<fw type="pageNum">
 					<lb />62
-				</p>
-				<p>
+				</fw>
+				<fw type="running-head">
 					<lb />בוצינא דנהורא
-				</p>
+				</fw>
 								</div><div type="letter" n="2"><p>אגרת קודש אשר שלח מאה"ק הרב
 					<lb />הגאון הק׳ <persName>מוהר"ר יעקב שמשון
 					מ<placeName ana="bio">שפיטיפקע</placeName></persName> זצלה"ה אל הרב הקדוש
@@ -3186,18 +3182,18 @@
 					<lb />תלמידו הדופק על השער לפתחו לשובי בתשובה ובטוח בחסדי <persName>דוד</persName>
 					<lb />הנאמנים שיענה ויאמר סלחתי : הק׳ <persName>יעקב</persName> <persName>שמשון בן ראסי'</persName>.
 				</p>
-				<p>
+				<fw type="catch">
 					<lb />אגרת
-				</p>
-				<pb facs="Buzina-DiNehora_0072" />
-				<p>
-					<name type="misc"><lb />95</name>
-				</p>
-				<p>
-					<persName><lb />בוצינא דנהורא</persName>
-				</p>
+				</fw>
+				<pb facs="Buzina-DiNehora_0072.jpg" />
+				<fw type="pageNum">
+					
+				<lb />95</fw>
+				<fw type="running-head">
+					
+				<lb />בוצינא דנהורא</fw>
 								</div><div type="letter" n="3"><p>אגרת הקודש אשר שלח הבעש״ט
-					<lb />הקדוש <placeName>נבג״מ</placeName> להרב הק' המפורסם
+					<lb />הקדוש נבג״מ להרב הק' המפורסם
 					<lb />וכו' מוהר"ר <persName>משה מקיטוב</persName> זצוקללהה .
 				</p>
 				<p>
@@ -3239,18 +3235,18 @@
 					<lb />כ"ש תפארתו מוהר״ר <persName>משה נרו יאיר</persName> כצאת השמש כגבורתו מק'
 					<lb />טלוסט ל<orgName>ק׳ קיטוב</orgName> <placeName>יצ"ו</placeName>:
 				</p>
-				<p>
-					<name type="work"><lb />אגרת</name>
-				</p>
-				<pb facs="Buzina-DiNehora_0073" />
-				<p>
+				<fw type="catch">
+					
+				<lb />אגרת</fw>
+				<pb facs="Buzina-DiNehora_0073.jpg" />
+				<fw type="pageNum">
 					<lb />69
-				</p>
-				<p>
-					<persName><lb />בוצינא דנהורא</persName>
-				</p>
+				</fw>
+				<fw type="running-head">
+					
+				<lb />בוצינא דנהורא</fw>
 								</div><div type="letter" n="4"><p>אגרת הקודש ששלח הבעש״ט הקודש
-					<placeName><lb />נבג<persName />״מ</placeName> אל הרב הקדוש המפורסם מוה"ר
+					נבג״מ אל הרב הקדוש המפורסם מוה"ר
 					<persName><lb />יעקב יוסף הכהן מ<placeName ana="bio">פילינאה</placeName></persName> בעל
 					<lb />מחבר <name type="work">ספר תולדות יעקב</name> <persName>יוסף</persName>
 				</p>
@@ -3277,7 +3273,7 @@
 					<placeName><lb />ישראל</placeName> בע״ש טוב
 				</p>
 								</div><div type="letter" n="5"><p>מכתב כ״י קודש מהרב הק׳ ר׳ <persName>משה
-					<lb />מסיווראן</persName> זצלה"ה להרב הקדוש מוהר<persName>״</persName>ר
+					<lb />מסיווראן</persName> זצלה"ה להרב הקדוש מוהר<persName>״ר</persName>
 					<persName><lb />אברהם יהושע העשיל</persName> מאפטא
 					<lb />זצוקללה"ה.
 				</p>
@@ -3285,16 +3281,16 @@
 					<lb />ברכות לראש צדיק. עופל <choice><sic>ובחון</sic><corr>ובוחן</corr></choice> כבוד ד׳ עליו חופף. בין <choice><sic>כתפו</sic><corr>כתפיו</corr></choice>
 					<lb />שכן ה"ה הרב האי גאון לא אנס ליה כל רז החסיד המפורסם
 				</p>
-				<p>
+				<fw type="catch">
 					<lb />בכל
-				</p>
-				<pb facs="Buzina-DiNehora_0074" />
-				<p>
+				</fw>
+				<pb facs="Buzina-DiNehora_0074.jpg" />
+				<fw type="pageNum">
 					<lb />70
-				</p>
-				<p>
-					<persName><lb />בוצינא דנהורא</persName>
-				</p>
+				</fw>
+				<fw type="running-head">
+					
+				<lb />בוצינא דנהורא</fw>
 				<p>
 					<lb />בכל תפוצות ישראל. אור <choice><sic>תירתו</sic><corr>תורתו</corr></choice> זורח מן הקצה אל הקצה נ״י
 					<persName><lb />אברהם יהושע העשיל</persName> נ"י ויזרח לעד
@@ -3328,19 +3324,19 @@
 				</p>
 				<p>
 					<lb />נאום <persName>משה צבי</persName> בהרב מו"ה <persName>שמעון שלמה</persName> זלה"ה
-					<lb />חונה פה סיווראן
+					<lb />חונה פה <placeName ref="#H-LOC_446">סיווראן</placeName>
 				</p>
-				<pb facs="Buzina-DiNehora_0075" />
-				<p>
+				<pb facs="Buzina-DiNehora_0075.jpg" />
+				<fw type="pageNum">
 					<lb />72
-				</p>
-				<p>
+				</fw>
+				<fw type="running-head">
 					<lb />בוצינא דנהורא
-				</p>
+				</fw>
 								</div><div type="letter" n="6"><p>העתקה מכ"י קודש הרב הצדיק המפורסם איש אלקי ר'
 					<persName><lb />מרדכי</persName> זצוקלל"ה מ<placeName>טשירנאביל</placeName>. אשר כתב על
 					<lb />היהודים בשנה הראשונה אחרי הלקח ארון אלקים. אביו הקדוש
-					<lb />הרב ר׳ <persName>נחום נבג״</persName>מ :
+					<lb />הרב ר׳ <persName>נחום</persName> נבג״מ :
 				</p>
 				<p>
 					<lb />בגזירת עירין פתגמין. ובמאמר קדישין שאילתין בצירוף קוב״ה
@@ -3353,10 +3349,10 @@
 					<lb />והוצאות זולת העונשים אשר יחולו על ראשו רחמנא ליצלן. וכ״ש
 					<lb />מי שהוחזק בהארענד"י שלש שנים או שיש לו כתב ארענד״י מן
 					<lb />השר על שלשה שנים יש לו דין חזקה ואסור לחבירו להעלות בדמי
-					<lb />הכירות ה<persName>ארענד</persName>״י ולקפח מחייתו של חבירו ולהשיג גבולו ומאבד
+					<lb />הכירות הארענד״י ולקפח מחייתו של חבירו ולהשיג גבולו ומאבד
 					<lb />עצמו לדעת ר"ל מהאי דעתא. ע״כ גזרו והסכימו גאוני קדמאי
 					<lb />שאין רשות לשום אדם להכניס א״ע בארור מסיג גבול רעהו.
-					<lb />ולשכור אותה כל ימי חייו של מחזיק ה<persName>ארענד</persName>״י כ״ז גדרו גאוני
+					<lb />ולשכור אותה כל ימי חייו של מחזיק הארענד״י כ״ז גדרו גאוני
 					<lb />קדמאי באיסור גמור. והנה באם שירצה אחד מישראל. יהי' מי
 					<lb />שיהי׳ להיות מעוברי רצונו ית"ש והכופרים בתורתו ית"ש תורת
 					<lb />אמת אזי יראה שלא ילכך במצודת נח"ש שעשו גאוני קדמאה לזה.
@@ -3373,16 +3369,16 @@
 					<lb />רשימו של הקדושה. ונכנס הסט״א ומסאב גרמי׳. וכל שייפא גופא
 					<lb />ואו יכול לדבר נגד ד׳ ויראיו. כמאחז"ל כל המתגאה אפי' שכינה
 				</p>
-				<p>
+				<fw type="catch">
 					<lb />אינה
-				</p>
-				<pb facs="Buzina-DiNehora_0076" />
-				<p>
+				</fw>
+				<pb facs="Buzina-DiNehora_0076.jpg" />
+				<fw type="pageNum">
 					<lb />88
-				</p>
-				<p>
+				</fw>
+				<fw type="running-head">
 					<lb />בוצינא דנהורא
-				</p>
+				</fw>
 				<p>
 					<lb />אינה תשובה כנגדו. כי גאות וגבהות נמשך מנסות הרוח ועביות
 					<lb />החומר כנ"ל. ואז הוא מגושם מאוד עד שאינו מאמין ב<name type="misc">הקב״ה</name>
@@ -3406,10 +3402,10 @@
 					<persName><lb />מרדכי באאמו״ר</persName> <persName>מ׳</persName> <persName>מנחם נחום הנ"ט
 					מ<placeName ana="bio">טשירנאביל</placeName></persName> ושארי קהילות ק׳ :
 				</p>
-				<pb facs="Buzina-DiNehora_0077" />
+				<pb facs="Buzina-DiNehora_0077.jpg" />
 				
 				
-				<pb facs="Buzina-DiNehora_0078" />
+				<pb facs="Buzina-DiNehora_0078.jpg" />
 			</div>
 		</body>
 	</text></TEI>
