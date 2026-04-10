@@ -6,7 +6,8 @@ import os
 TOOL_DIR = os.path.dirname(os.path.abspath(__file__))
 AUTH_DIR = os.path.abspath(os.path.join(TOOL_DIR, ".."))
 PROJECT_DIR = os.path.abspath(os.path.join(AUTH_DIR, ".."))
-EDITIONS_INCOMING = os.path.join(PROJECT_DIR, "editions", "incoming")
+EDITIONS_INCOMING = os.path.join(PROJECT_DIR, "editions", "online")
+EDITIONS_ARCHIVED = os.path.join(PROJECT_DIR, "editions", "archived-editions")
 
 # Authority files
 AUTHORITY_XML_PATH = os.path.join(AUTH_DIR, "Authorities2026-01-14.xml")

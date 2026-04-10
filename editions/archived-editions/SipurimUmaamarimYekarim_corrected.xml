@@ -1,0 +1,1054 @@
+<?xml version='1.0' encoding='utf-8'?>
+<tei:TEI xmlns:tei="http://www.tei-c.org/ns/1.0">
+	<teiHeader xmlns="http://www.tei-c.org/ns/1.0">
+		<fileDesc>
+			<titleStmt>
+				<title type="main">Sipurim UMaamarim Yekarim 1903 ספורים ומאמרים יקרים</title>
+			</titleStmt><editionStmt><edition n="1.0.0">Working edition</edition></editionStmt>
+			<publicationStmt>
+				<publisher>tranScriptorium</publisher>
+			</publicationStmt>
+			<sourceDesc><bibl type="original"><title type="main" xml:lang="he">ספורים ומאמרים יקרים</title><title type="main" xml:lang="en">Sipurim UMaamarim Yekarim</title><author><persName xml:lang="he">ישעיה וולף ציקרניק</persName><persName xml:lang="en">Yeshaya Wolf Tsukernik</persName></author><pubPlace xml:lang="he">ורשה</pubPlace><pubPlace xml:lang="en">Warsaw</pubPlace><date when="1903">תרסג</date><textLang mainLang="heb" /><idno type="BHB">160940</idno><idno type="ALMA">990022174940205171</idno><idno type="Kima">953</idno><idno type="Kitsis">61</idno><idno type="DBid">3715</idno><idno type="work">69</idno></bibl></sourceDesc></fileDesc>
+	<revisionDesc><change when="2026-03-19">Edition management migration (canonical filename + archived uncorrected source); version none -&gt; 1.0.0</change><change when="2026-03-24">sourceDesc synced from edition-metadata.json</change><change when="2026-03-24">sourceDesc synced from edition-metadata.json</change><change when="2026-03-24">sourceDesc synced from edition-metadata.json</change></revisionDesc></teiHeader>
+	<text xmlns="http://www.tei-c.org/ns/1.0">
+		<front>
+			<div type="title-page">
+				<pb facs="Sipurim-Umaamarim-Yekarim_0001.jpg" />
+				<p>
+					<lb />ספורים ומאמרים יקרים
+					<lb />מארבעה מטיבי לכת
+					<lb />ה<name type="misc">״ה</name> הרה"ק ר׳ <persName>דוד לייקעס</persName> והרה״ק ר׳ <persName>נחום
+					<lb />מטשערנאביל</persName> ומבניו הקדושים ה״ה הרה״ק ר'
+					<persName><lb />משה</persName> ואחיו הרה״ק ר׳ <persName>מאטעלי מטשערנאביל</persName> זצוק"ל
+					<lb />ועוד מכמה צדיקים זיע״א.
+					<lb />מאת המאסף והמלקט
+					<persName><lb />ישעיה</persName> ו<persName>אלף</persName> ציקערניק.
+					<placeName><lb />ווארשא</placeName>
+					<date><lb />שנת תרס"ג</date> לפ"ק
+				</p></div>
+				<pb facs="Sipurim-Umaamarim-Yekarim_0002.jpg" />
+			<div type="paratext">	<p>
+					<lb />1113
+					<lb />ו ספורים ומאמרים יקרים
+				</p>
+			</div></front><body><div type="story" xml:id="Sipurim-Umaamarim-Yekarim_0001"><head type="storyHead">Sipurim-Umaamarim-Yekarim_0001</head><span ana="TBD:Unknown" />
+<p>מהרה״ק ר׳ <persName>דוד לייקעס</persName> זצוק"ל תלמיד מובהק
+					<lb />של הבעש<persName>״ט</persName> זצוק"ל
+				</p>
+				<p>
+					<lb />ידוע אשר הרה״ק ר׳ <persName>מאטעלי מטשערנאביל</persName> זצוק"ל היתה
+					<lb />אשתו הראשונה בת הרה״ק ר׳ <persName>אהרן הגדול מ<placeName ana="bio" ref="#H-LOC_4">קארלין</placeName></persName>
+					<lb />זצוק"ל. תלמיד מובהק של המגיד הגדול. הרה״ק ר׳ <persName>דוב
+					<lb />בער מ<placeName ana="bio" ref="#H-LOC_537">מעזירטש</placeName></persName> זצוק"ל. והוליד ממנה שלשה בנים הקדושים
+					<lb />המפורסמים. ה"ה. הרה״ק ר׳ אהרן מ<persName>טשערנאביל</persName>. והרה״ק
+					<lb />ר׳ <persName>משה מ<placeName ana="bio" ref="#H-LOC_257">קארסטשוב</placeName></persName>. והרה״ק ר׳ <persName>יעקב</persName> <persName>ישראל מ<placeName ana="bio">טשערקאס</placeName></persName>
+					<lb />זצוק"ל. ואשתו השניה היתה בת הרה״ק ר׳ <persName>דוד לייקעס</persName>
+					<lb />זצוק"ל. והוליד ממנה חמשה בנים הקדושים המפורסמים.
+					<lb />ה״<persName>ה</persName>. הרה״ק ר׳ נחום מ<placeName ref="#H-LOC_548">מקארוב</placeName>. והרה״ק ר׳ <persName>אברהם
+					מ<placeName ana="bio" ref="#H-LOC_505">טוריסק</placeName></persName>. והרה״ק ר׳ <persName>דוד מטאלנע</persName>. והרה״ק ר׳ <persName>יצחק
+					<lb />מסקווירא</persName>. והרה״ק ר׳ <persName>יוחנן מרחמיסטריווקע</persName> זצוק"ל. ו<placeName>פ"א</placeName>
+					<lb />דיבר אדמו״ר הרה״ק מרן ר׳ <persName>יצחק</persName> מסקווירא זצוק"ל הנ"ל.
+					<lb />מענין יחוס אבותיו הקדושים ואמר כי אבותיו היו כולם
+					<lb />גדולי ארץ שני מאות דודות כסדר דור אחר דור. מצד
+					<lb />אביו ומצד אמו. רק אחד מצד אביו ואחד מצד אמו היו
+					<lb />אנשים פשוטים. והאחד מצד אמו היה אביו של זקנו הרה״ק
+					<lb />ר׳ <persName>דוד לייקעס</persName> הנ״ל. והיה לו בית משרפת יין שרף שהיו
+					<lb />קורין וויין הויז. והיה עושה היי״ש מדבש. והנכרים היו
+					<lb />מביאים לי דבש לקנות. ולא היה קונה מהם רק מה שהיה
+					<lb />נחוץ לו על שלשה ימים ולא יותר. ואמרה לו אשתו הלא
+					<lb />אם לא תקנה מהם הכל כל מה שמביאים לך לא יביאו לך
+					<lb />עוד מאומה. ולא יהיה לך ממה לעשות היי״ש. ולא השגיח
+					<lb />על דבריה רק בטח בהשי"ת ונהג כמנהגו הטוב.
+				</p>
+				<pb facs="Sipurim-Umaamarim-Yekarim_0003.jpg" /><fw type="running-head">ספורים ומאמרים יקרים</fw>
+				<p>
+					<lb />גם אמר אדמו״ר <persName>מסקווירא</persName> הנ"ל. כי מצד אחד אבותיו
+					<lb />הם מ<persName>מלכי</persName> ב<placeName>בית דוד</placeName>. ומצד השני הם מ<persName>שאול המלך</persName>
+					<lb />ומ<persName>מרדכי</persName> ו<persName>אסתר</persName> :
+				</p>
+			</div><div type="story" xml:id="Sipurim-Umaamarim-Yekarim_0002"><head type="storyHead">Sipurim-Umaamarim-Yekarim_0002</head><span ana="TBD:Unknown" />
+<p>סיפר אדמו״ר מ<placeName ref="#H-LOC_618">סקווירא</placeName> הנ"ל כי פ"א היה ה<persName>בעש״ט</persName> אצל
+					<lb />זקנו הרה״ק ר׳ <persName>דוד</persName> הנ״ל. והיה האכסניא של
+					<persName><lb />הבעש״ט</persName> בבית הרה״ק ר׳ <persName>דוד</persName>. והיה אז הגזירה לשרוף
+					<lb />ה<name type="work">ש"ס</name>. וקבעו לזה יום מוגבל ומיוחד. כי מאותו יום שעה
+					<lb />שנים עשר תתחיל הגזירה. וכשתגיע שעה שנים עשר באותו
+					<lb />יום אז ישמיעו קול בבית תפלתם בכל הפעמונים להודיע כי
+					<lb />התחילה הגזירה. ומאז והלאה אם ימצאו איזה אדם שילמוד
+					<name type="work"><lb />גמרא</name> ישרפו אותו עם ה<name type="work">גמרא</name>. וביום זה לקח הרה״ק ר'
+					<persName><lb />דוד</persName> <name type="work">גמרא</name> והחביא א״ע תחת דוד (שקורין קעסל) ולמד
+					<lb />שם <name type="work">גמרא</name> וכשהגיע שעה שנים עשר ושמע הרה״ק ר׳ <persName>דוד</persName>
+					<lb />קול הפעמונים מבית תפלתם אז רץ הרה״ק ר׳ <persName>דוד</persName> ויבא
+					<lb />אל הבית שלו ברעש גדול. וה<persName>בעש״ט</persName> הלך שם בבית אנה
+					<lb />ואנה משוטט ומעמיק ברעיונותיו הקדושים. ויבא הרה״ק ר'
+					<persName><lb />דוד</persName> ויקרב ל<placeName>הבעש״ט</placeName> ברעש והתלהבות גדול. ויאמר לו רבו
+					<lb />מה אתם שותקים. ויאמר לו ה<persName>בעש״ט</persName>. תדע כי בהאש
+					<lb />והתלהבות שלך כבית האש שלהם. ונתבטלה הגזירה.
+				</p>
+			</div><div type="story" xml:id="Sipurim-Umaamarim-Yekarim_0003"><head type="storyHead">Sipurim-Umaamarim-Yekarim_0003</head><span ana="TBD:Unknown" />
+<p>ידוע כי היה המנהג אצל אדמו״ר מסקיוירא הנ"ל. כי
+					<lb />בכל ליל <date>שבת</date> קודש קודם הקידוש היו עומדים לפניו
+					<lb />כמה אנשים והוא דבר ב<placeName>קדשו</placeName> עמהם. ובתוך הדבורים היה
+					<lb />מזכיר איזה ענין מהפרשה של אותו <date>שבת</date>. ופ"א בליל <date>ש"ק</date>
+					<lb />פ׳ <name type="work">שמות דבר</name> אדמו״ר מה<name type="work">מדרש רבה</name> פ׳ <name type="work">שמות פרק ג׳</name>
+					<lb />דאיתא שם על הפסוק ו<name type="work">יאמר אנכי אלקי אביך</name>. הה״ד פתי
+					<lb />יאמין לכל דבר. והוא פלא והמפרשים פירשו בזה מה שפירשו
+					<lb />ע״ש. ואמר אדמו״ר כי לפי דעתו המדרש הוא בפשטות כי
+				</p>
+				<p>
+					<persName><lb />משה</persName>
+				</p>
+				<pb facs="Sipurim-Umaamarim-Yekarim_0004.jpg" /><fw type="running-head">ספורים ומאמרים יקרים</fw>
+				<p>
+					<persName><lb />משה רבינו</persName> ע״ה היה אדון הנביאים ומסתמא היה חוקר
+					<lb />גדול. וכשראה המראה ב<placeName>סנה</placeName> היה יכול להלוך בזה בגדולות
+					<lb />ונפלאות ולחקור בזה הרבה והוא לא עשה כן רק האמין
+					<lb />אמונה פשוטה כפתי. כן אמר אדמו״ר. ועמד אז לפני
+					<lb />אדמו״ר הרב מקראסנע ר׳ <persName>יעקב יותנן</persName> ע״ה אשר הוא היה
+					<lb />כמה זמנים בבית הרה״ק ר׳ <persName>שמואל מ<placeName ana="bio">קאמינקע</placeName></persName> זצוק"ל ואכל
+					<lb />על שלחנו. ואמר אז ר׳ <persName>יעקב יותנן</persName> הנ"ל לפני אדמו״ר כי
+					<lb />הוא שמע מהרה״ק ר׳ <persName>שמואל מ<placeName ana="bio">קאמינקע</placeName></persName> הנ"ל. שפירש ג״כ
+					<lb />המדרש כמו שאמר אדמו״ר. ועוד סיפר מעשה לזה הענין
+					<lb />מזקנו של אדמו״ר הוא הרה״ק ר׳ <persName>דוד לייקעס</persName> הנ"ל. כי
+					<lb />בעת שכבשו מדינת <placeName ref="#H-LOC_503">פאדאליע</placeName> היה אז רב בעיר <placeName>באר פלך
+					<lb />פאדאליע</placeName> הגאון הקדוש ר׳ <persName>יעקב שמשון</persName> זצוק"ל. שהיה רב
+					<lb />גם בעיר <placeName ref="#H-LOC_76">שעפעטיווקע</placeName> ונקרא בפי כל דער שעפעטיווקר
+					<lb />רב. והרה״ק ר׳ <persName>דוד לייקעס</persName> היה אז דיין ומו״צ בעיר <placeName ref="#H-LOC_74">באר</placeName>.
+					<lb />והיו אומרים כי ביום ה<date>שבת</date> יבא החיל לעיר <placeName ref="#H-LOC_74">באר</placeName>. ויראו
+					<lb />לנפשם מאנשי החיל. כי השחיתו בכל מקום בואם. ויחביא
+					<lb />א״ע הרה״ק ר׳ <persName>יעקב שמשון</persName> עם האנשים שלו באיזה מרתף
+					<lb />כל יום ה<date>שבת</date>. והרה״ק ר׳ <persName>דוד</persName> ישב בביתו ולא החביא א"ע.
+					<lb />ובש"ק לפנות ערב צוה הרה״ק ר׳ <persName>יעקב שמשון</persName> להשגיח
+					<lb />ולהציץ מן החרכים באותו מרתף לראות אם שלום בעיר.
+					<lb />וכן עשו וראו והבינו כי שלום בעיר. אז צוה הרה״ק הנ"ל
+					<lb />לאיש אחד שילך מן המרתף אל העיר ויבא ויודיע להם דבר
+					<lb />ברור מה נעשה ומה נשמע בעיר והרה״ק הנ"ל עם האנשים
+					<lb />שלו זרזו א״ע והתפללו תפלת <name type="misc">מעריב</name> שם בהמרתף וגם
+					<lb />הבדילו שם על הכוס. ויבא האיש ששלחו אותו אל העיר
+					<lb />ויגד להם כי ב"ה שלום ושלוה בעיר. כי החיל הלכו בדרך
+					<lb />אחרת ולא באו לעיר <placeName ref="#H-LOC_74">באר</placeName>. וכבר הם רחוקים משם. אז יצא
+				</p>
+				<p>
+					<lb />הרה״ק
+				</p>
+				<pb facs="Sipurim-Umaamarim-Yekarim_0005.jpg" /><fw type="running-head">ספורים ומאמרים יקרים</fw>
+				<p>
+					<lb />הרה״ק הנ"ל עם האנשים שלו מן המרתף. וילך הרה״ק
+					<lb />הנ״ל תיכף להרה״ק ר׳ <persName>דוד לייקעס</persName>. והרה״ק ר׳ <persName>דוד</persName> ישב
+					<lb />אז עם האנשים שלו בסעודה שלישית. ויאמר הרה״ק ר'
+					<persName><lb />דוד</persName> להרה״ק ר׳ <persName>יעקב שמשון</persName>. שעפעטיווקר רב. איך <persName>זענט</persName>
+					<lb />אתכם ואתם הולכים ומתנהגים בחכמות וחקירות ע״כ
+					<lb />החבאתם א״ע. ומה פעלתם בזה לא שמעתם קריאת ה<name type="work">תורה</name>
+					<lb />ב<date>שבת</date>. ובסעודת שחרית של <date>שבת</date> לא אכלתם קאשע (ועוד
+					<lb />חשב לו כמה דברים שחסרו לו ב<date>שבת</date> זה ואינני זוכר אותם).
+					<lb />איך בין אפראסטר נאר אין גלייב. כן סיפר הרה״ק ר׳
+					<persName><lb />שמואל</persName> הנ״ל. וסיים ואמר הנה אנו רואים שאמר הרה״ק ר'
+					<persName><lb />דוד</persName> כי טוב יותר להיות כשוטה והפתי ולהאמין אמונה
+					<lb />פשוטה ולא לילך בחקירות. וזהו פירוש המדרש הנ"ל :
+				</p>
+				<p>
+					<lb />ב״ה ספורים ומאמרים יקרים.
+				</p>
+			</div><div type="story" xml:id="Sipurim-Umaamarim-Yekarim_0004"><head type="storyHead">Sipurim-<orgName>Umaamarim</orgName>-Yekarim_0004</head><span ana="TBD:Unknown" />
+<p>מהרה״ק ר׳ <persName>נחום הגדול</persName> מטשערנאביל זצוק"ל.
+					<lb />בעהמ״ח <name type="work">ספר</name> <name type="work">מאור עינים</name> על ה<name type="work">תורה</name>.
+					<lb />וחלק <name type="work">שני</name> <name type="work">ישמה לב</name> על אגדות ה<name type="work">ש"ס</name> תלמיד מובהק
+					<lb />של הבעש״ט זצוק"ל. וב<name type="work">ספרו</name> הקדוש <name type="work">מאור עינים פ׳ כי
+					<lb />תשא</name> בשני מקומות שם קורא ל<persName>הבעש״ט</persName> בשם מורי.
+					<lb />ואח״כ היה תלמיד מובהק של המגיד הגדול הרה״ק ר'
+					<persName><lb />רוב בער ממעזירטש זצוק"ל</persName>. ובהרבה מקומות בספרו
+					<lb />הנ״ל קרא להמגיד הנ"ל בשם מורי
+				</p>
+			</div><div type="story" xml:id="Sipurim-Umaamarim-Yekarim_0005"><head type="storyHead">Sipurim-Umaamarim-Yekarim_0005</head><span ana="TBD:Unknown" />
+<p>סיפר אדמו״ר הרה״ק מרן ר׳ <persName>יצחק מ<placeName ana="bio" ref="#H-LOC_618">סקווירא</placeName></persName> זצוק"ל. כי
+					<lb />זקנו הרה״ק ר׳ <persName>נחום מ<placeName ana="bio" ref="#H-LOC_31">טשערנאביל</placeName></persName> זצוק"ל היה
+					<lb />מתחלה עני ואביון עד אין שיעור. ולא היה בביתו להגן
+					<lb />ולכסות א״ע מפני הקור והצינה רק פעלץ אחד. וכשהיה
+					<lb />לילך בלילה בימי החורף לטבול א״ע בנהר כדרכו
+				</p>
+				<p>
+					<lb />בקדש
+				</p>
+				<pb facs="Sipurim-Umaamarim-Yekarim_0006.jpg" />
+			
+				<p>
+					<lb />בקודש הלכה אשתו עמו לשמרו והיתה הוא לובשת הפעלץ
+					<lb />עד בואם אל הנהר. ובחזרתם מן הנהר היה הוא לובש
+					<lb />הפעלץ עד בואם לביתם. והבגד התחתון שלו שקור
+					<lb />קאפאטע היה קרוע מאד מלמעלה בין כתפיו. עד שכמעט
+					<lb />שהיה נראה שם בשרו. ולא היה לו במה לתקנו. אח״כ
+					<lb />נתרחב לו מעט וקנה לעצמו מלבוש עליון שהיו קורין טוזליק.
+					<lb />ועלה בדעתו לכתת רגליו ללכת להבעש״ט וכן עשה. וכאשר
+					<lb />בא להבעש״ט בפעם הראשון הזה היה אז איזה יומא
+					<lb />דפגרא. והיה יושב אז ה<persName>בעש״ט</persName> עם התלמידים שלו בסעודה.
+					<lb />וכאשר בא הרה״ק ר׳ <persName>נחום</persName> שמה קיבל <persName>שלום</persName> אצל ה<persName>בעש"ט</persName>
+					<lb />ואח״כ עמד באיזה פנה מן הצד. ויקרא אותו ה<persName>בעש"ט</persName>
+					<lb />ויאמר אליו <persName>יונגער מאן</persName> לך ורחץ ידיך לאכילה ותסעוד
+					<lb />עמנו. ועמד אז הרה״ק ר׳ <persName>נחום</persName> נבוך ברעיונותיו ולא ידע
+					<lb />מה לעשות. כי אם יסעוד עמהם כשהוא לבוש עם הטוזליק
+					<lb />אינו הגון. ואם יפשוט מעליו הטוזליק ג״כ אינו הגון. כי
+					<lb />המלבוש התחתון שלו לא היה מהודר כמו שכתבנו עד
+					<lb />שקרא אותו הבעש״ט פעם שנית ואמר לו לך ורחץ ידיך
+					<lb />ותסעוד ממנו. אז רחץ ידיו וסעד עמהם. ויהי שם הרה״ק
+					<lb />ר׳ <persName>נחום</persName> אז אצל הבעש״ט זמן רב ונעשה תלמיד מובהק של
+					<lb />הבעש״ט. ואח״כ בבואו לביתו מרבו הקדוש תיכף קבלו אותו
+					<lb />לעיר אחת להיות שם מגיד. ונתנו לו שכירות בכל שבוע שלשה
+					<lb /><name type="currency"><placeName>פיטאקס</placeName></name> (שהוא בערך ארבעה <name type="currency">קאפיקעס</name> וחצי). אח״כ קבלו
+					<lb />אותו לעיר אחרת ושם נתנו לו שכירות בכל שבוע חמשה
+					<lb /><name type="currency"><placeName>פיטאקס</placeName></name>. ואח״כ קבלו אותו לעיר <placeName ref="#H-LOC_31">טשערנאביל</placeName> ושם נתנו לו
+					<lb />מקופת הקהל בכל שבוע רוביל אחד (שהוא בערך חמשה
+					<lb />ועשרים קאפיקס). ועשיר אחד משם נתן לו מכספו בכל
+					<lb />שבוע ארבעה <persName>רוביל</persName> (שהוא בערך רו״כ אחד) :
+				</p>
+				<p>
+					<lb />החייט
+				</p>
+				<pb facs="Sipurim-Umaamarim-Yekarim_0007.jpg" /><fw type="running-head">רים ומאמרים יקרים</fw>
+			</div><div type="story" xml:id="Sipurim-Umaamarim-Yekarim_0006"><head type="storyHead">Sipurim-Umaamarim-<persName>Yekarim_0006</persName></head><span ana="TBD:Unknown" />
+<p>שמעתי כי בעת שהדפיסו הספר הקדוש <placeName>מאור עינים</placeName>
+					<persName><lb />מהרה״ק</persName> ר׳ <persName>נחום</persName> הנ"ל בפעם ראשון נסע אז
+					<lb />איש אחד ממדינתנו ל<placeName>ארץ</placeName> הקדושה לקבוע דירתו <persName>בא״י</persName> ולקח
+					<lb />עמו <persName>הס׳</persName> <placeName>מאור</placeName> <persName>עינים</persName>. ובנסעו בדרכו הנ״ל עבר דרך אותה
+					<lb />העיר שהיה דר שמה הגאון הקדוש ר׳ <persName>חיים יוסף דוד אזולאי</persName>
+					<lb />זצוק"ל המפורסם בחבוריו הקדושים ובשמו הקדוש האזולאי
+					<lb />והלך האיש הנוסע הנ"ל לשחר פני הרה״ק הנ"ל ויקח עמו
+					<lb />הס׳ מאור עינים כדי להראות אותו להרה״ק הנ"ל והרה״ק
+					<lb />הנ"ל היה אז חלוש מאד ומוטל על מטתו. כי היה אז בשנים
+					<lb />האחרונים לימי חייו. (כי הס׳ מאור עינים נדפס ב<date>שנת
+					<lb />תקנ"ח</date> תיכף אחר פטירת הרה״ק ר׳ <persName>נחום</persName> שנפטר ב<date>שנת
+					<lb />תקנ"ח</date> <date>י"א חשוון</date>. והרה״ק האזולאי נפטר ב<date>שנת תקס״ו</date>).
+					<lb />וכאשר בא אליו האיש הנ"ל והראה לו הס׳ מאור עינים הביט
+					<lb />בו הרה״ק האזולאי והיה נתנה ממנו מאד. ויתאנח הרה״ק
+					<lb />הנ"ל ויאמר אני מתחרט ומיצר מאד על ענין זה. היינו
+					<lb />שהייתי בכמה מקומות ומדינות רחוקות (כידוע שסבב הרבה
+					<lb />מדינות לקבץ נדבות עבור עניי א״י) ולמה לא הייתי באותן
+					<lb />המדינות אשר נמצאים שמה תלמידי ה<persName>בעש"ט</persName> :
+				</p>
+			</div><div type="story" xml:id="Sipurim-Umaamarim-Yekarim_0007"><head type="storyHead">Sipurim-Umaamarim-Yekarim_0007</head><span ana="TBD:Unknown" />
+<p>שמעתי מאדמו״ר הרה״ק מרן ר׳ <persName>יצחק</persName> מסקווירא זצוק"ל.
+					<lb />כי פ"א שאל הרה״ק ר׳ <persName>יעקב יצחק מ<placeName ana="bio" ref="#H-LOC_56">לובלין</placeName></persName>
+					<lb />זצוק"ל. בעהמ״ח ספר זכרון זאת וזאת זכרון ודברי אמת
+					<lb />לתלמידו הרה״ק ר׳ <persName>מאיר מאפטא</persName> זצוק"ל. בעהמ״ח <name type="work">ספר
+					<lb />אור לשמים</name>. ואמר לו האם אתה לומד הס׳ הקדוש <name type="work">מאור
+					<lb />עינים</name> מהרה״ק ר׳ <persName>נחום מטשערנאביל</persName>. והשיב לו שאינו לומד
+					<lb />בו. אמר לו הרה״ק מ<placeName ref="#H-LOC_56">לובלין</placeName> לפלא בעיני מה שאין אתה לומד
+					<lb />ב<name type="work">ס</name>׳ זה. אני אומר לך שלא מצאתי בשום ספר דברים
+					<lb />נפלאים כאלו כמו שמצאתי בשלשה ספרים אלו. היינו <name spanTo="#ner_9187_9241" type="work" />ספר
+				</p>
+				<p>
+					<lb />הזוהר
+				</p>
+				<pb facs="Sipurim-Umaamarim-Yekarim_0008.jpg" />
+								<p>
+					<lb />הזוהר<anchor xml:id="ner_9187_9241" /> ו<name type="work">ספר</name> <name type="work">אור החיים</name> ו<name type="work">ספר מאור עינים</name>.
+								</p></div><div type="story" xml:id="Sipurim-Umaamarim-Yekarim_0008">
+									<head type="storyHead">Sipurim-Umaamarim-Yekarim_0008</head><span ana="TBD:Unknown" />
+										<p> שמעתי מאדמו״ר מסקווירא הנ"ל כי בעת שנתפרסם
+					<lb />בעולם זקנו הרה״ק ר׳ <persName>נחום</persName> הנ"ל. היה אז איש אחד
+					<lb />ירא שמים גדול. והיה מתנגד גדול נגד הצדיקים והחסידים
+					<lb />אמנם כשראה כי העולם רצים מאד להרה״ק ר׳ <persName>נחום</persName> עלה
+					<lb />בדעתו אולי האמת הוא כדבריהם שהוא אדם גדול. ע״כ
+					<lb />יסע הוא ג״כ אליו אולי יקבל ממנו איזה פעולה וטובה
+					<lb />בעבדות ה<name type="misc">בורא</name>. ונזדמן לו לנסוע להרה״ק ר׳ <persName>נחום</persName> בעת
+					<lb />שנסע עם החסידים שלו לאיזה כפר לקצור שם חטים לצורך
+					<lb />מצת מצוה מ<name type="misc">צה</name> שמורה. ואז שתו החסידים <name type="misc">יי"ש</name> ושמחו וזרקו
+					<lb />זה לזה מלבושים וכדומה. ולא הבין האיש הנ"ל מה זה אם
+					<lb />באמת אדם גדול הוא עמו שאומרים עליו היתכן בעת שהוא
+					<lb />נוסע לעשות עובדא דמצוה יעשו החסידים שלו מעשים כאלו.
+					<lb />אמנם אעפ״כ מחמת שהיה ירא שמים גדול עלה בדעתו אולי
+					<lb />דרך הרה״ק ר׳ <persName>נחום</persName> להסתתר במעשיו. וכשהוא בין אנשים
+					<lb />רבים הוא מסתיר א״ע. אמנם כשהוא ביחידות אז רואים
+					<lb />עבודתו ויראתו. ע״כ הסכים בדעתו להיות אצל הרה״ק ר'
+					<persName><lb />נחום</persName> בעת אכילתו כי מסתמא בעת הזאת אין עמו אנשים
+					<lb />הרבה ואז יראה ויבין ואמר אדמו״ר בזה"ל מסתמא איזה
+					<lb />סעודה הכין המוכסן בשביל זקני מסתמא ווארעניקס טובים.
+					<lb />וכאשר בא האיש הנ"ל להרה״ק ר' <persName>נחום</persName> ראה כי תחובים
+					<lb />בפיו הקדוש שני ווארעניקס והוא אוחז אותם בשני ידיו.
+					<lb />והחמאה נוטפת ומטפטפת משני צידי הזקן שלו. ומובן ממילא
+					<lb />כי אז נתבלבל האיש הנ"ל עוד יותר מקודם. בראותו מעשה
+					<lb />כזה אשר לפי ראות עיניו אין הגון זאת אפילו לאדם פשוט
+					<lb />ובפרט לאדם גדול ולא הבין מה זאת. אמנם אעפ״כ מחמת
+					<lb />שהיה ירא שמים גדול הלך לזווית אחת ועמד שם ואמר
+				</p>
+				<p>
+					<lb />רבש"ע
+				</p>
+				<pb facs="Sipurim-Umaamarim-Yekarim_0009.jpg" />
+			
+				<p>
+					<lb />רבש"ע אם הדבר הוא רק כאשר אני רואה עתה בעיני אין
+					<lb />אני מבקש כלום. אמנם כאשר אני רואה כי כל העולם רצים
+					<lb />אחריו אולי האמת הוא כדבריהם והם רואים עבודתו ויראתו
+					<lb />רק אני בשביל רוב עונותי איני רואה מאומה. ע״כ אני מבקש
+					<lb />ממך שתאיר את עיני שאראה ג״כ. והרהר בתשובה באמת
+					<lb />ואח״כ חזר פניו להרה״ק ר׳ <persName>נחום</persName> ואז ראה תיכף באופן
+					<lb />אחר. ונתקשר אז אליו. ויתן לו קוויטל להנצל מהרהורים
+					<lb />רעים ר"ל. ויאמר אליו הרה״ק ר׳ <persName>נחום</persName> האם אינך זוכר
+					<lb />מאמר ה<name type="work">גמרא</name> אשה חמת מלא צואה ופיה מלא דם. ותיכף
+					<lb />בשמעו דבורים אלו ההיא הרבה מאד. ואח״כ נעשה צדיק
+					<lb />גדול. והיה תלמיד מובהק של הרה״ק <persName>נחום</persName>. והוא הרה״ק
+					<lb />ר׳ <persName>אליהו מיורעוויטש</persName> זצוק"ל שכתב הספר <name type="work">מאור עינים</name> של רבו
+					<lb />הקדוש הנ"ל. ומאיש אחד מהימן שמעתי ששמע מאדמו״ר
+					<lb />הנ"ל. שאמר כי כשבא הרה״ק ר׳ <persName>אליהו</persName> הנ"ל להרה״ק ר'
+					<lb />נחום בפעם הראשון היה לאחר שנהג וקיים על עצמו כל
+					<lb />תשובת הקנה :
+				</p>
+			</div><div type="story" xml:id="Sipurim-Umaamarim-Yekarim_0009"><head type="storyHead">Sipurim-Umaamarim-Yekarim_0009</head><span ana="TBD:Unknown" />
+<p>עוד שמעתי מאדמו״ר <persName>מסקווירא</persName> הנ"ל. כי פ"א היה זקנו
+					<lb />הרה״ק ר׳ <persName>נחום</persName> הנ"ל באיזה מקום. ויחדו לו שם חדר
+					<lb />מיוחד בשבילו. ובחדר החיצון היו שם האנשים שלו. ובבוקר
+					<lb />כשהגיע זמן התפלה והיו מחכים עליו האנשים שלו שיבא
+					<lb />לחדר שלהם להתפלל עמהם בצבור כמנהגו בכל יום והוא
+					<lb />לא כן עשה ביום זה. וכאשר ראו האנשים שלו שאינו בא
+					<lb />אליהם נכנסו לחדר הפנימי ושאלו אותו מה זה. ואמר להם
+					<lb />כי אינו יכול להתפלל שם בחדר החיצון מחמת שנמצא שם
+					<lb />איזה טומאה. ויחפשו ולא מצאו מאומה. ויאמרו לו תפשנו
+					<lb />ולא מצאנו. אמר להם אולי נמצא שם איזה ספר מספרי
+					<name type="work"><lb />חצונים</name>. ויחפשו וימצאו שם ספר <name type="work">חמדת הימים</name> המפורסם
+				</p>
+				<p>
+					<name type="work"><lb />908</name>
+				</p>
+				<pb facs="Sipurim-Umaamarim-Yekarim_0010.jpg" />
+			
+				<p>
+					<lb />שהוא מכת <name type="misc">ש"צ</name> ימ"ש. וישליכו אותו החוצה אז בא הרה״ק
+					<lb />ר׳ <persName>נחום</persName> לאותו חדר ויתפלל שם בצבור :
+				</p>
+			</div><div type="story" xml:id="Sipurim-Umaamarim-Yekarim_00010"><head type="storyHead">Sipurim-Umaamarim-Yekarim_00010</head><span ana="TBD:Unknown" />
+<p>עוד שמעתי מאדמו״ר מ<placeName ref="#H-LOC_618">סקווירא</placeName> הנ"ל. כי אדם גדול אחד
+					<lb />שהיה חולק תמיד על זקנו הרה״ק ר׳ <persName>נחום</persName> הנ"ל והיה
+					<lb />מצער אותו. היה לו לאותו אדם גדול תלמיד אחד ג״כ אדם
+					<lb />גדול. והיה אותו תלמיד בספיקות ולא ידע עם מי האמת.
+					<lb />אם האמת הוא עם רבו וסיעתא דיליה. או עם הרה״ק ר'
+					<persName><lb />נחום</persName> וסיעתא דיליה. והיה רוצה וחושק תמיד להיות אצל
+					<lb />הרה״ק ר׳ <persName>נחום</persName> לברר הדבר וגם מחמת ששמע שמעו ושמו
+					<lb />הטוב חשק מאד להיות אצלו ולראותו ואולי יקבל ממנו איזה
+					<lb />פעולה בעבדות הבורא. וגזר עליו רבו שלא יסע להרה״ק ר'
+					<persName><lb />נחום</persName> והיה ירא מגזירת רבו ומחמת זה לא נסע כל ימיו
+					<lb />להרה״ק ר׳ <persName>נחום</persName>. וקודם פטירת רבו אמר אותו תלמיד לרבו.
+					<lb />הנה עדיין אני בספק עם מי האמת ועוד נוסף לזה כי חשקו
+					<lb />וחפצי גם עתה לנסוע ולראות הרה״ק ר׳ <persName>נחום</persName> רק מחמת
+					<lb />שאני שומר גזירתכם שגזרתם עלי ע״כ בשביל זה אינני נוסע
+					<lb />להרה״ק ר׳ <persName>נחום</persName>. ע״כ אבקש מכם עכ״פ להבטיתני שתבואו
+					<lb />אלי מעולם העליון להודיעני עם מי האמת. ויבטיח לו רבו
+					<lb />לעשות כן. ואחר פטירת רבו לא בא אליו תיכף רק לאחר
+					<lb />איזה ימים בא אליו. ויספר לו כי לאחר פטירתו תיכף נתנו
+					<lb />לו בג״ע מקום גבוה ומהודר מאד. רק שישב שם יחידי ולא
+					<lb />שמע שום חדושי תורה. והיה לו מזה חולשת דעת גדול מחמת
+					<lb />שהורגל בעוה״ז בכל יום ב<name type="work">חדושי</name> תורה כל ימיו. ואחר שעברו
+					<lb />איזה ימים שמע קול רעש גדול מכמה מלאכים וכשמות קדושות
+					<lb />שהולכים לקבל פני הרה״ק ר׳ <persName>נחום</persName> שנפטר באותו זמן. ואמרו
+					<lb />לו שגם הוא ילך לקראתו. והכריזו בעולם העליון כי שלשים
+					<lb />יום רצופים לא ילמדו שם שום לימוד. רק הרה״ק ר׳ <persName>נחום</persName>
+				</p>
+				<p>
+					<persName><lb />רוש</persName>
+				</p>
+				<pb facs="Sipurim-Umaamarim-Yekarim_0011.jpg" />
+								<p>
+					<lb />ידרוש כל השלשים יום ועליו גזרו שבשביל מה שציער להרה״ק
+					<lb />ר׳ <persName>נחום</persName> בעוה״ז. ע״כ יעמוד על רגליו כל השלשים יום
+					<lb />מאחורי הדלת וישמע הדרשה של הרה״ק ר׳ <persName>נחום</persName> זיע״<persName>א</persName>.
+				</p>
+			</div><div type="story" xml:id="Sipurim-Umaamarim-Yekarim_00011"><head type="storyHead">Sipurim-Umaamarim-Yekarim_00011</head><span ana="TBD:Unknown" />
+<p>כתב ב<name type="work">ס</name>׳ <name type="work">מאור עינים</name> הנ"ל פ׳ <name type="work">האזינו</name> וז"ל. איתא ב<name type="work">ש"ס</name>
+					<lb />דרבי <name type="misc">ס״ל</name> דיוה<persName>״כ</persName> מכפר בין לשבים בין לשאינם שבים.
+					<lb />לכאורה איך אפשר שרבי יהיה סובר שיוה<persName>״כ</persName> מכפר אף
+					<lb />לשאינם שבים. הלא אמרו <name type="work">חז<name type="misc" />״ל</name> כל האומר ה<name type="misc">קב"ה</name> וותרן
+					<lb />וכו'. אך נראה דודאי בלא תשובה אינו כלום. אך הפי׳ הוא
+					<lb />עפ"י מש<name type="work">ארז"ל</name> ב<name type="work">זוה״ק</name> על עון הוצאת ז"ל ר"ל. אמרו כלהו
+					<lb />חובין תליין בתיובתא לבד מהאי וזהו שאמר אף לשאינם
+					<lb />שבים. ר"ל אף לאותם שאין מקבלים אותם בתשובה כל
+					<lb />השנה. דהיינו על עון הנ״ל. ביוה״כ מקבלים אותם. כן כתב
+					<lb />ב<name type="work">ס</name>׳ <name type="work">מאור עינים</name>. ואמר ע״ז אדמו״ר מ<placeName ref="#H-LOC_618">סקווירא</placeName> הנ"ל בשם
+					<lb />צדיקים שאמרו כי כשאמר זאת זקנו הרה״ק ר׳ <persName>נחום</persName> תיכף
+					<lb />אמרו אז בעולם העליון הלכה כ<persName>רבי נחום</persName>. ומאז והלאה
+					<lb />פוסקים שם בעולם העליון על ענין זה כהרה״ק ר׳ <persName>נחום</persName> זי"ע
+				</p>
+			</div><div type="story" xml:id="Sipurim-Umaamarim-Yekarim_00012"><head type="storyHead">Sipurim-Umaamarim-Yekarim_00012</head><span ana="TBD:Unknown" />
+<p>סיפר הרה״ק ר׳ <persName>נחום</persName> זצוק"ל. בן אדמו״ר הרה״ק מרן ר׳
+					<persName><lb />יצחק מ<placeName ana="bio" ref="#H-LOC_618">סקווירא</placeName></persName> זצוק"ל. כי זקנו הרה״ק ר׳ נחום
+					<lb />הנ"ל היה פ"א בעיר <placeName ref="#H-LOC_242">האניפאליע</placeName>. ואמר שם להסופר
+					<lb />המפורסם שהיה דר שם הוא הרה״ק ר׳ <persName>דוד סופר זצוק"ל</persName>.
+					<lb />שיכתוב לו ספר <name type="work">תורה</name>. רק שיכתוב אותה ב<placeName ref="#H-LOC_31">טשערנאביל</placeName>
+					<lb />בביתו של הרה״ק ר׳ <persName>נחום</persName> וקצב עמו כמה יתן לו בעד
+					<lb />הכתיבה אמר לו הרה״ק ר׳ <persName>דוד סופר</persName>. הנה כתיבת ה<name type="work">ס</name>״ת
+					<lb />המשך בערך שנה תמימה. ואני לא אהיה בביתו כל השנה.
+					<lb />והיכן תקח אשתי מה שהוא צריכה למזונותיה ופרנסתה (כי
+					<lb />ידוע כי בשנים קדמוניות לא היה לא באהן ולא טעלעגראף.
+					<lb />וגם הבי דואר לא היתה הולכת רק במקומות ידועים
+				</p>
+				<p>
+					<lb />ומהאניפאליט
+				</p>
+				<pb facs="Sipurim-Umaamarim-Yekarim_0012.jpg" /><fw type="running-head">ספורים ומאמרים יקרים</fw>
+				<p>
+					<lb />ומהאניפאליע למשערנאביל לא היתה הולכת הבי דואר
+					<lb />ומהאניפאליע ל<placeName ref="#H-LOC_31">טשערנאביל</placeName> בערך שלש מאות וויערסט. ע״כ
+					<lb />לא היה באפשר לשלוח מעות מ<placeName ref="#H-LOC_242">האניפאליע</placeName> ל<placeName ref="#H-LOC_31">טשערנאביל</placeName>).
+					<lb />אמר לו הרה״ק ר׳ <persName>נחום</persName>. שאל נא לאשתך כמה היא צריכה
+					<lb />בכל שבוע. וישאל אותה הרה״ק ר׳ <persName>דוד</persName> ואמרה כי היא
+					<lb />צריכה זהב אחד בכל שבוע (חמשה עשר קאפיקס). אמר לו
+					<lb />הרה״ק ר׳ <persName>נחום</persName> תצוה לאשתך שתלך בכל שבוע לתוך החדר
+					<lb />החיצון שלך שקורין קאמר ותקח שם בכל שבוע זהב אחד.
+					<lb />וכן היה שהלכה בכל שבוע להקאמר ומצאה שם זהב אחד.
+					<lb />וכשגמר הרה״ק ר׳ דוד כתיבת <name type="work">הס״ת</name> ב<placeName ref="#H-LOC_31">טשערנאביל</placeName> ונתן לו
+					<lb />הרה״ק ר׳ <persName>נחום</persName> הסכום שקצב עמו בעד הכתיבה. אז ניכה
+					<lb />לו מן הסכום כל ה<name type="currency">זהובים</name> שלקחה שם אשתו בביתו
+					<lb />בהקאמר שלו
+				</p>
+			</div><div type="story" xml:id="Sipurim-Umaamarim-Yekarim_00013"><head type="storyHead">Sipurim-Umaamarim-Yekarim_00013</head><span ana="TBD:Unknown" />
+<p>כתב ב<name type="work">ס׳ שפתי צדיקים פ׳ ואתחנן וז״ל</name>. והרב הצדיק ר׳
+					<persName><lb />נחום מ<placeName ana="bio" ref="#H-LOC_31">טשערנאביל</placeName></persName> זצוק"ל אמר. ודרוש דרש ופתח
+					<lb />לה פיתחא הלא אני כמין רוכל. ואבקת רוכל לי. יש בידי
+					<lb />מחטין ושפילקס ושפיזלך. גם יש בידי מיני בשמים לרוב למי
+					<lb />שצריך מיני בשמים ישיג אצלי ולמי שצריך מחטין יש בידי
+					<lb />לעוקצו. גם יכול אני להיות מדפא חולים ופוקד עקדות
+					<lb />ולהשיב נפשות ולהרבות שובע בעולם ולחדש בעולם שמחת
+					<lb />אהבת זיווגים ולגדל צמחים ולהמשיך מיני ברכה ולבטל גזירה
+					<lb />ולהכניס חכמה ולדרוש כמעין המתגבר. וכללו של דבר הכל
+					<lb />ביד הצדיק. בסוד צדיק מושל וגו'. וא״ת למה אני משבח
+					<lb />עצמי. אומר אני לכם שזו דרכי ה<name type="work">תורה</name> הוא. אמרה <name type="work">תורה</name>
+					<lb />כי תצא למלחמה וגו'. היה החרוז יוצא מי שבנה בית חדש
+					<lb />וגו'. מי שנטע כרם וגו'. מי שארס אשה וגו'. מי הירא ורך
+					<lb />הלבב וגו׳. ודרשו ז״ל הירא מעבירות שבידו. ולכך תלתה לו
+				</p>
+				<p>
+					<lb />ה<name type="work">תורה</name>
+				</p>
+				<pb facs="Sipurim-Umaamarim-Yekarim_0013.jpg" /><fw type="running-head">ספורים ומאמרים יקרים</fw>
+				<p>
+					<lb />התורה לחזור על בית וכרם ואשה לכסות על החוזרים בשביל
+					<lb />עבירות שבידם שלא יבינו שהם בעלי עבירה. והרואה שחוזר
+					<lb />אומר שמא בנה בית או נטע כרם או ארש אשה וכו'. כן
+					<lb />אני יש מי שיבוש ויכלם לבוא אצלי לקבל תשובה על חטאיו.
+					<lb />לזה אני תולה כל הדברים בי לרפא חולים ולפקוד עקרות
+					<lb />וכו׳. והרואה מי שילך אצלי אומר שמא איזה מבוקש צריך לו
+					<lb />בריפוא חולים או בבחי׳ לפקוד עקרות. לזה אל תתביישו כלל
+					<lb />וכלל. וכל מי שיש בידו עון וחטא יבא אצלי וב<placeName>עזהי״ת</placeName>
+					<placeName><lb />ארפאנו</placeName> ברפואת הנפש :
+				</p>
+			</div><div type="story" xml:id="Sipurim-Umaamarim-Yekarim_00014"><head type="storyHead">Sipurim-Umaamarim-Yekarim_00014</head><span ana="TBD:Unknown" />
+<p>ב<orgName>ס׳ שארית ישראל</orgName> מהרה<orgName>״צ</orgName> ר׳ <persName>ישראל בער מווילעדניק</persName>
+					<lb />זצ"ל. תלמיד ה<name type="work">מגיד</name> מטשערנאביל זצוק"ל בשער
+					<lb />ה<name type="work">התקשרות</name> דרוש ו' מאמר א׳ כתב שם על מאמר ה<name type="work">גמ׳</name> ב<name type="work">מס׳
+					<lb />חולין</name> (דף י״ז ע״ב) רב ששת בדק לה בריש ל<placeName>ישניה</placeName> וז״ל.
+					<lb />ואפשר בלישניה היינו בעת האוכל כשנגע בריש ל<placeName>ישניה</placeName> הבין
+					<lb />איך היה הסכין מקודם. כמו שאירע להרה״ק ר׳ <persName>נחום
+					<lb />מטשערנאביל</persName> זצוק"ל. כשהיה בק"ק <placeName ref="#H-LOC_109">אוורוטש</placeName> ונתאכסן אצל
+					<lb />הרה״ק ר׳ <persName>נטע</persName>. והרה״ק ר׳ <persName>נטע</persName> לא היה בביתו. ושחטו
+					<lb />בשבילו עוף אחד. וכשהביאו לו על השלחן הרגיש מחשבת
+					<lb />השוחט כמו שהוא. ואמר שבהעוף הזה נראה איש אחד מאנשי
+					<lb />חיל מרוכבי הסוסים. וקראו להשוחט והודה שבעת ששחט
+					<lb />עמד לפניו האיש הנ"ל שהיה שלטון. והיה מורא על השוחט
+					<lb />מאיש ההוא והרהר רק בדבר האיש ההוא :
+				</p>
+			</div><div type="story" xml:id="Sipurim-Umaamarim-Yekarim_00015"><head type="storyHead">Sipurim-Umaamarim<orgName>-Yekarim_00015</orgName></head><span ana="TBD:Unknown" />
+<p>פ״א היה הרה״ק ר׳ <persName>נחום</persName> הנ"ל על <date>שבת</date> קודש אצל הרה״ק
+					<lb />ר׳ <persName>שמעון</persName> <persName>שלמה זצוק"ל</persName>. אביו של הרה״ק ר' <persName>משה
+					<lb />מסאווריאן</persName> זצוק"ל. והדליקו אז בעש״ק נר גדול שתדלק כל
+					<lb />הלילה. ובאשמורת הבוקר או בחצות הלילה כשעמד הרה״ק
+					<lb />ר׳ <persName>נחום</persName> משינתו ורצה ללכת החוצה. ראו הרה״ק ר׳ <persName>שמעון</persName>
+				</p>
+				<p>
+					<lb />משם
+				</p>
+				<pb facs="Sipurim-Umaamarim-Yekarim_0014.jpg" /><fw type="running-head">ספורים ומאמרים יקרים</fw>
+				<p>
+					<lb />שלמה וב״ב. כי הרה״ק ר׳ <persName>נחום</persName> הולך וממשש הדרך כמו מי
+					<lb />שהולך בחושך. וקרוב שיפול או שיכה את ראשו בהליכתו.
+					<lb />ושאל ואמר להם הרה״ק ר׳ <persName>נחום</persName> מדוע לא הדלקתם איזה
+					<lb />נר שתדלק כל הלילה, כי עתה חשך בבית ואין אני עוד
+					<lb />היכן ללכת. והיה לפלא גדול בעיניהם ותיכף עשו דרישה
+					<lb />וחקירה אודות זה. ויודע הדבר כי הכר נכבה בלילה וראה
+					<lb />זאת הנכרי המשרת בבית והדליק את הכר ומחמת זה לא
+					<lb />האירה הנר להרה״ק ר׳ <persName>נחום</persName> ולא ראה לאורה :
+				</p>
+			</div><div type="story" xml:id="Sipurim-Umaamarim-Yekarim_00016"><head type="storyHead">Sipurim-Umaamarim-Yekarim_00016</head><span ana="TBD:Unknown" />
+<p>סיפר אדמו״ר הרה״ק מרן ר׳ <persName>יצחק מ<placeName ana="bio" ref="#H-LOC_618">סקווירא</placeName></persName> זצוק"ל. כי
+					<lb />קודם פטירת המגיד הגדול הרה״ק ר׳ <persName>דוב בער
+					מ<placeName ana="bio" ref="#H-LOC_537">מעזירטש</placeName></persName> <persName>זצוק"ל</persName>. שאלו אותו תלמידיו הקדושים אל מי
+					<lb />מקדושים יפנו להיות להם לרב ומנהיג. והשיב להם כי ישגיחו
+					<lb />ויעיינו מי הוא אשר בא ל<placeName>עוה<date />״ז</placeName> על ענין זה היינו לתקן נשמות
+					<lb />החיים והמתים. אותו צדיק יקבלו לרב ומנהיג עליהם. ואחר
+					<lb />פטירת רבם הקדוש הנ"ל השגיחו וראו זאת בהרה״ק ר׳ נחום
+					<lb />הנ"ל. והסכימו כולם למנותו לרב ומנהיג. רק תלמיד אחד
+					<lb />מתלמידי המגיד הנ"ל לא הסכים לזה. ובשבילו נתפרדה
+					<lb />החבילה ולא עשו כמו שהסכימו. ואמרו ע״ז הצדיקים שבאותו
+					<lb />דור. כי אם היו ממנים עליהם הרה״ק ר׳ <persName>נחום</persName>. היה העולם
+					<lb />מתנהג עם מנהיג אחד עד ביאת הגואל ולא היו נחלקים
+					<lb />לכמה כתות כמו שנתהוה אח״כ :
+				</p>
+			</div><div type="story" xml:id="Sipurim-Umaamarim-Yekarim_00017"><head type="storyHead">Sipurim-Umaamarim-Yekarim_00017</head><span ana="TBD:Unknown" />
+<p>עוד סיפר אדמו״ר מסקווירא הנ"ל. כי פ"א בא מגיד אל
+					<lb />זקנו הרה״ק ר׳ <persName>נחום</persName> הנ"ל. ואמר לו כי הוא רוצה
+					<lb />ללמוד עמו. והרה״ק ר׳ <persName>נחום</persName> ראה והכיר בו כי הוא אינו
+					<lb />ממגידי האמת רק מצד אחר ויגרש אותו למרחוק. ופ״א בו
+					<lb />אליו מלאך מגיד ממגידי האמת ורצה ללמוד עמו. ולא רצו
+					<lb />הרה״ק ר׳ <persName>נחום</persName> לקבלו. ואמר כי איננו צריך לו.
+				</p>
+				<p>
+					<lb />סיפר
+				</p>
+				<pb facs="Sipurim-Umaamarim-Yekarim_0015.jpg" /><fw type="running-head">ספורים ומאמרים יקרים</fw>
+			</div><div type="story" xml:id="Sipurim-Umaamarim-Yekarim_00018"><head type="storyHead">Sipurim-Umaamarim-Yekarim_00018</head><span ana="TBD:Unknown" />
+<p>סיפר הרה״ק ר׳ <persName>יעקב ישראל מ<placeName ana="bio">טשערקאס</placeName></persName> זצוק"ל ואמר.
+					<lb />אצל זקני הרה״ק ר׳ <persName>נחום</persName> <persName>איז</persName> <persName>גיווען איין אויבן אן
+					<lb />מיט ווייסע זשיפעצס</persName>. (היינו התלמידים שלו שהיו יושבים
+					<lb />למעלה בכותל מזרח והיו מלובשים בשבת בגדים לבנים כדרך
+					<lb />הצדיקים בדורות הראשונים). עוד אמר הרה״ק ר׳ <persName>יעקב
+					<lb />ישראל</persName> הנ"ל. אצל זקני הרה״ק ר׳ <persName>נחום</persName> היו הרבה חסידים
+					<lb />אנשים גדולים. ושנים מהם הכרתי וידעתי אותם. ושניהם
+					<lb />היו שמם ר׳ <persName>ירמיה</persName>. לאחד היו קוראים ר׳ <persName>ירמיה</persName> הגדול.
+					<lb />ולהשני היו קוראים ר׳ <persName>ירמיה</persName> הקטן. ר׳ <persName>ירמיה</persName> הקטן לא
+					<lb />ראה קרי מימיו. ור׳ <persName>ירמיה</persName> הגדול היה מתפלל ביום אחד
+					<lb />בביהמ"ד של זקני הנ״ל. וזקני היה מתפלל אז לפני התיבה.
+					<lb />וכשהגיע זקני ל<placeName>ק"ש</placeName> כשאמר דבר אל בני ישראל ואמרת
+					<lb />אליהם ועשו להם ציצית הלך מהעמוד לר׳ <persName>ירמיה</persName> הגדול
+					<lb /><supplied reason="damage">ולק</supplied>ח מראשו התפילין של ראש והחזיר א״ע להעמוד להתפלל.
+					<lb /><supplied reason="damage">ואח</supplied>ר שמ״ע אמר זקני להאנשים שהיו שם בביהמ"ד שלו אל
+					<lb /><supplied reason="damage">יפ</supplied>לא בעיניכם מדוע הפסקתי באמצע ק"ש ולקחתי מעל ראשו
+					<lb /><supplied reason="damage">ה</supplied>תפילין ש"ר. כי לולא זאת היה נשרף מרוב קדושה. כן
+					<lb /><supplied reason="damage">סי</supplied>פר הרה״ק ר׳ <persName>יעקב ישראל</persName>. וסיים ואמר חסידים כאלו
+					<lb /><supplied reason="damage">הי</supplied>ו הרבה אצל זקני. רק אלו השנים הכרתי וידעתי אותם:
+				</p>
+			</div><div type="story" xml:id="Sipurim-Umaamarim-Yekarim_00019"><head type="storyHead">Sipurim-Umaamarim-Yekarim_00019</head><span ana="TBD:Unknown" />
+<p><supplied reason="damage">ופ</supplied>"א דבר אדמו״ר הרה״ק מרן ר׳ <persName>יצחק</persName> מסקווירא זצוק"ל
+					<lb />עם איש אחד מענין התקשרות לצדיקים. ואמר לו
+					<lb /><supplied reason="damage">אספ</supplied>ר לך מהו ענין התקשרות לצדיקים. הנה בעיר ל<placeName>איעוו</placeName>
+				 שם חסידים שהיו מסתופפים בצל קדושת זקני הרה״ק ר'
+					<lb /><supplied reason="damage"><persName>נחום</persName></supplied> והחסידים האלו היו יראי <name type="misc">ה'</name> אנשי אמת ומארי דחושבנא.
+					<lb /><supplied reason="damage">ופ""א</supplied> ישבו ביחד בסעודת מלוה מלכה במוצש״ק ודברו זה עם
+					<lb />מעניני חשבון הנפש. ומרוב יראתם וענותם נדמה
+					<lb /><supplied reason="damage">בי</supplied>ניהם כי הרבו לפשוע ח"ו. (כדרך היראים והשלמים שהם
+				</p>
+				<p>
+					<lb />קטנים
+				</p>
+				<pb facs="Sipurim-Umaamarim-Yekarim_0016.jpg" /><fw type="running-head">ספורים ומאמרים יקרים</fw>
+				<p>
+					<lb />קטנים מאד בעיניהם). והסכימו ביניהם כי אין להם שום
+					<lb />תקוה ח"ו. רק זאת כל נחמתם ותקותם מה שזכו להתקשר
+					<lb />לצדיק גדול הוא זקני הרה״ק ר׳ <persName>נחום</persName>. יהוא יעלה אותם
+					<lb />ויצילם מכל צרה וצוקה. ומחמת זה נעשה הסכם ביניהם כי
+					<lb />הם מוכרחים ללכת תיכף לרבם הקדוש ותיכף אחר סעודת
+					<lb />מ״מ נשאו רגליהם והלכו לרבם הקדוש. וזקני הרה״ק ר׳ <persName>נחום</persName>
+					<lb />ישב אז בביתו באותו מוצש״ק ועשה חשבון הנפש לעצמי והיה
+					<lb />נדמה בעיניו ג״כ כי הרבה לפשוע ח"ו עד שאין לו שום
+					<lb />תקוה ח"ו. רק כל תקותו הוא מה שהתקשרו אליו החסידים
+					<lb />היראים והחרדים הנ"ל והם יעשו לו טובה. כן סיפר אדמו״ר.
+					<lb />וסיים ואמר הנה אז היה בחי׳ שני דלתי"ן. דלית לה מגרמה
+					<lb />כלום. והראה באצבעו על ידו הקדושה ועשה שני דלתין
+					<lb />ואמר כשמצרפים שני דלתין נעשה מהם מ״ם סתומה. ומזה
+					<lb />נעשה המ״ם סתומה של למרבה המשרה. וזהו ענין התקשרות
+					<lb />לצדיקים באמת :
+				</p>
+			</div><div type="story" xml:id="Sipurim-Umaamarim-Yekarim_00020"><head type="storyHead">Sipurim-Umaamarim-Yekarim_00020</head><span ana="TBD:Unknown" />
+<p>ובס׳ <name type="work">עטרת ישראל</name> מהרה״ק ר׳ <persName>ישראל</persName> זצוק"ל הנקרא בפי
+					<lb />כל המגיד מ<placeName ref="#H-LOC_428">באפאליע</placeName>. נכד הרה״ק ר׳ <persName>נחום</persName> הנ"ל.
+					<lb />ב<name type="work">פ</name>׳ <name type="work">נצבים</name> כתב וז״ל. אנא עובדא ידענא. בימי אא"ז הרב
+					<lb />הקדוש והטהור צי״ע ר׳ <persName>נחום זצוק"ל</persName> נבג״מ. היו נוסעים
+					<lb />אצלו חסידים גמורים בני עליה. והיו מתגוררים ומתנודדים
+					<lb />תחת הספסלים ופעם אחד באו לפניו בתחנונים ובבכיה
+					<lb />בדמעות שליש. ודברו כל לבה לפניו איך שנפלו למטה מאד
+					<lb />בחשכות ומרה שחורה. ואינם יכולים להרים ראש בתורה
+					<lb />ותפלה ועבודת ה<name type="misc">שי"ת</name>. והיה נשבר לבם עד שנעשו חולים
+					<lb />ממש. וכמה מהם נפלו על ערש דוי. וכאשר ראה זקני זצוק"ל
+					<lb />כשרון לבם איך שהם חפצים קרבת <name type="misc">אלקים</name> חיים באמת.
+					<lb />היה מנחם אותם ואמר להם בניי חביביי לא יהיה לכם שום
+				</p>
+				<p>
+					<lb />עגמת
+				</p>
+				<pb facs="Sipurim-Umaamarim-Yekarim_0017.jpg" /><fw type="running-head">ספורים ומאמרים יקרים</fw>
+				<p>
+					<lb />עגמת נפש מזה כי זה הוא בחי׳ דורמיטא. כי כל מה שיש
+					<lb />בעולם יש באדם. וכמו שב<name type="misc">ר"ה</name> הוא הסתלקות החיות והמוחין
+					<lb />מכל האורות העליונים שבכל עולם. והוא בחי׳ דורמיטא
+					<lb />ושינה כדי שיתחזקו ויתוספו ויהיה אח״כ בהירות רב בכל
+					<lb />העולמות עי״ז. כן הוא באדם השלם החפץ באמת להתקרב
+					<lb />ל<name type="misc">השי"ת</name>. מוכרח להיות אצלו תחלה הסתלקות המוחין והחיות.
+					<lb />שעי"ז יזכה לתוספת בהירות נפש רוח ונשמה שלו. והירידה
+					<lb />הוא צורך העליה. וכמו שבאדה״ר כתיב ויפל <name type="misc">ה׳</name> <name type="misc">אלקים</name>
+					<lb />תרדמה על האדם ויישן. מזה נעשה אדם השלם. וכן היה
+					<lb />בכלל בריאת העולם מתחלה והארץ היתה תהו ובהו וחשך.
+					<lb />ואח״כ ויאמר <name type="misc">אלקים</name> יהי אור. וז"ש ידון האור מן החושך.
+					<lb />וכמו כן נעשה באדם הכלבב החפץ להאיר נפשו באור החיים.
+					<lb />ועתה אל תעצבו בני כי חפץ <name type="misc">ה׳</name> בכם. ובעבור זה עשה <name type="misc">ה'</name>
+					<lb />חכה לטוב לכם כל הימים. כדי שיהיה לכם אח״כ בהידות
+					<lb />המות ובהירות הלב לעבודתו ית׳. ואתם התחזקו בתורה
+					<lb />ותפלה בשמחה ובטוב לבב. התיצבו וראו את ישועת <name type="misc">ה׳</name> אשר
+					<lb />עשה לכם כי הבא לטהר מסייעין אותו. ובשמעם הדברים
+					<lb />האלה אשר יצאו מפי זקני זצוק"ל. נתנחמו מיגונם ונתמלאו
+					<lb />שמחה רבה. ואמרו כולם שבפירוש החיה אותה ורוח חיים
+					<lb />נתחדש בקרבם. כי היו יראים ושלמים אשרי חלקם.
+				</p>
+			</div><div type="story" xml:id="Sipurim-Umaamarim-Yekarim_00021"><head type="storyHead">Sipurim-Umaamarim-Yekarim_00021</head><span ana="TBD:Unknown" />
+<p>פ״א לעת זקנתו חלה הרה״ק ר׳ <persName>נחום</persName> הנ"ל. ויעשו לו בביתו
+					<lb />אמבטי עם מים חמים לרחוץ בה. ובעת שהיה יושב
+					<lb />ב<placeName>האמבטי</placeName> באה אשה אחת לחדר החיצון בבכיה רבה מאד.
+					<lb />באשר שבעלה חלה חולי גדול ר"ל. וכששמע הרה״ק ר׳ <persName>נחום
+					<lb />קול</persName> במיתה שאל את המשמש שלו מה הוא קול הבכיה ויספר
+					<lb />לו המשמש. וישאל אותו הרה״ק ר׳ <persName>נחום</persName> מי הוא בעלה
+					<lb />יאמרו לו שם החולה ושם אמו. ויאמר הרה״ק ר׳ <persName>נחום</persName> הלא
+				</p>
+				<p>
+					<lb />הוא
+				</p>
+				<pb facs="Sipurim-Umaamarim-Yekarim_0018.jpg" /><fw type="running-head">ספורים ומאמרים יקרים</fw>
+				<p>
+					<lb />הוא חייב לי סך שני רו״כ שהבטיח לי ליתן לי באה דאי
+					<lb />טאה זשיו קטאה מעני ווינען. (הפירוש הוא יתן ה<name type="misc">שי"ת</name> שיחיה
+					<lb />מי שהוא חייב לי). ונתרפא החולה תיכף בע״ה:
+				</p>
+			</div><div type="story" xml:id="Sipurim-Umaamarim-Yekarim_00022"><head type="storyHead">Sipurim-Umaamarim-Yekarim_00022</head><span ana="TBD:Unknown" />
+<p>ב״ה ספורים מהרה״ק ר׳ <persName>משה</persName> זצוק"ל בן הרה״ק
+					<lb />ר' <persName>נחום מטשערנאביל</persName> זצוק"ל :
+				</p>
+				<p>
+					<lb />ידוע אשר הרה״ק ר׳ <persName>נחום</persName> הנ"ל היו לו שני בנים. האחד
+					<lb />היה הרה״ק ר' <persName>משה</persName> זצוק"ל שנעדר בנעוריו. והשני
+					<lb />היה הרה״ק ר׳ <persName>מאטעלי</persName> המגיד מטשערנאביל זצוק"ל. וסיפר
+					<lb />אדמו״ר מ<placeName ref="#H-LOC_618">סקווירא</placeName> הנ"ל. כי פ"א בא הרה״ק ר׳ זוסיא
+					<lb />מ<persName>האניפאליע זצוק"ל</persName> לזקנו הרה״ק ר׳ <persName>נחום</persName> הנ"ל ונכנס
+					<lb />להחדר שהיה לומד שם הרה״ק ר' <persName>משה</persName> הנ"ל ואמר כי
+					<lb />הרה״ק ר׳ יוסף <persName>קארו זצוק"ל</persName> בעהמ״ח <name type="work">ספר בית יוסף</name> בא
+					<lb />אליו בחלום באלו הימים ואמר לי כי מי שישקוד על חבורו
+					<lb />ה<name type="work">בית יוסף</name> וילמוד ויגמור בשנה זאת כל ה<name type="work">ארבעה טורים</name> עם
+					<lb />הב״י. הוא מבטיח לו שיזכה בשנה זאת למדרגת גילוי <persName>אליהו</persName>
+					<lb />ז"ל. ונתן הרה״ק ר' <persName>משה</persName> הדברים האלה על לבו וישקוד על
+					<lb />לימוד ה<name type="work">טור</name> עם ב״י ולמד וגמר באותה שנה כל ה<name type="work">ארבעה
+					<lb />טורים</name> עם ה<name type="work">ב"י</name> וזכה בשנה זאת למדרגת גילוי <persName>אליהו</persName> ז"ל :
+				</p>
+				<p>
+					<lb />ב״ה ספורים ומאמרים יקרים.
+				</p>
+			</div><div type="story" xml:id="Sipurim-Umaamarim-Yekarim_00023"><head type="storyHead">Sipurim-Umaamarim-Yekarim_00023</head><span ana="TBD:Unknown" />
+<p>מהרה״ק ר׳ <persName>מרדכי מטשערנאביל זצוק"ל</persName>. הנקרא בפי
+					<lb />כל ר׳ <persName>מאטעלי מטשערנאביל</persName> או המגיד מטשערנאביל.
+					<lb />בן הרה״ק ר׳ <persName>נחום</persName> מטשערנאביל <persName>זצוק"ל</persName> :
+				</p>
+				<p>
+					<lb />אמר אדמו״ר הרה״ק מרן ר׳ <persName>יצחק</persName> מסקווירא זצוק"ל ב<placeName>זה"ל</placeName>.
+					<lb />הנה <persName>אבי</persName> הקדוש (הוא ה<name type="work">מגיד</name> מ<placeName ref="#H-LOC_31">טשערנאביל</placeName> הנ"ל)
+				</p>
+				<p>
+					<lb />אמר
+				</p>
+				<pb facs="Sipurim-Umaamarim-Yekarim_0019.jpg" /><fw type="running-head">עוד ומאמרים יקרים</fw>
+				<p>
+					<lb />אמר על עצמו כי הוא היה מ<name type="work">שירי</name> <orgName>כנסת הגדולה</orgName>. און <placeName ref="#H-LOC_644">מיר</placeName>
+					<lb />מ<placeName>ישטיינגיזאגט</placeName> ראינו בעינינו <name type="work">שירי</name> הכה<name type="work">״ג</name> :
+				</p>
+			</div><div type="story" xml:id="Sipurim-Umaamarim-Yekarim_00024"><head type="storyHead">Sipurim-Umaamarim-Yekarim_00024</head><span ana="TBD:Unknown" />
+<p>עוד אמר אדמו״ר מסקווירא הנ"ל. כי כל נסיעותיו של
+					<lb />אביו שהיה נוסע בעולם בשנים האחרונים לימי חייו
+					<lb />היה רק בשביל דבר זה. היינו כי כל מקום שהיה שם מקום
+					<lb />הטומאה ר״ל עשה שם מקור הקדושה :
+				</p>
+			</div><div type="story" xml:id="Sipurim-Umaamarim-Yekarim_00025"><head type="storyHead">Sipurim-Umaamarim-Yekarim_00025</head><span ana="TBD:Unknown" />
+<p>ידוע כי אדמו״ר <placeName>מסקווירא</placeName> הנ"ל היתה אשתו הראשונה בת
+					<lb />הרה״ק ר׳ <persName>דן</persName> זצוק"ל. (וההרה״ק ר׳ <persName>דן</persName> היה בנו של
+					<lb />הרה״ק ר׳ <persName>יצחק מראדוויל</persName> זצוק"ל בן הרה״ק ר׳ <persName>מיכעלי
+					<lb />מזלאטשוב</persName> זצוק"ל. וחתנו של הרה״ק ר׳ <persName>אברהם יהושע העשיל
+					<lb />מאפטא</persName> זצוק"ל) ופ"א דבר אדמו״ר מ<placeName ref="#H-LOC_618">סקווירא</placeName> הנ"ל מגדולת
+					<lb />אביו הנ"ל. ואמר מי לנו גדול מחותני זקני הרה״ק ר׳ <persName>יצחק
+					<lb />מראדוויל</persName> זצוק"ל שהיה מדבר מיט הימל כידוע. (כי היה דרך
+					<lb />הרה״ק ר' <persName>יצחק מראדוויל</persName> כשאמר <name type="work">תורה</name> על השלחן היה אומר
+					<lb />כ״פ בזה״ל. אגלה לכם מה שלמדתי בלילה בג״ע העליון.
+					<lb />ועוד דברים כאלה היה אומר כ״פ כידוע ומפורסם זאת וכמו
+					<lb />שנדפס בשמו ב<name type="work">סדור</name> <name type="work">אור יצחק</name>). ואעפ״כ כשהיה אבי ב<placeName ref="#H-LOC_53">ראדוויל</placeName>
+					<lb />והיה הולך אנה ואנה בהחדר שהיה שם האכסניא שלו והיה
+					<lb />מנקש בהליכתו עם המנעליה שלו שקורין פאנטעפל. ואמר
+					<lb />חותני והכי הנ"ל לבנו (הוא הרה״ק ר׳ <persName>דן</persName> הנ"ל) ראה בכי איך
+					<lb />המחותן שלנו הולך ומבקש בהפאנטפל ועל כל פאנטאפל
+					<lb />הוא מיחד יחוד אחר. אויף <persName>יעדער פאנטאפל</persName> איין <persName>אנדער</persName>
+					<lb />יחוד. ואחר שנסע משם אבי. אמר לי חותני זקני הנ"ל בזה"ל.
+					<lb />כל מה שאביך יודע גם אני יודע. רק מה שהוא עוסק
+					<lb />בתיקון נשמות החיים והמתים מזה אין אני יודע כלום. כן
+					<lb />סיפר אדמו״ר <placeName>מסקווירא</placeName> הנ"ל. ואני הכותב והמאסף שמעתי
+					<lb />מאחד מנכדי המגיד מ<placeName ref="#H-LOC_31">טשערנאביל</placeName> הנ"ל ואין בזכרוני ממי
+				</p>
+				<pb facs="Sipurim-Umaamarim-Yekarim_0020.jpg" /><fw type="running-head">מפורים ומאמרים יקרים</fw>
+				<p>
+					<lb />מהם שמעתי זאת שאמר ששמע מאביו. ואביו שמע מאביו
+					<lb />הוא המגיד מ<placeName ref="#H-LOC_31">טשערנאביל</placeName> הנ"ל. שאמר בזה"ל אני ובניי באנו
+					<lb />ל<placeName>עוה״ז</placeName> לתקן נשמות המתים והחיים :
+				</p>
+			</div><div type="story" xml:id="Sipurim-Umaamarim-Yekarim_00026"><head type="storyHead">Sipurim-Umaamarim-Yekarim_00026</head><span ana="TBD:Unknown" />
+<p>עוד סיפר אדמו״ר <placeName>מסקווירא</placeName> הנ"ל. כי פ"א היה אביו על
+					<lb />שבת קודש אצל הרה״ק ר׳ <persName>אברהם יהושע העשיל מאפטא</persName>
+					<lb />זצוק"ל <persName>בעהמ</persName>״ח <name type="work">ספר אוהב ישראל</name> <placeName>עה</placeName>״<persName>ת</persName>. וידוע כי היה דרך
+					<lb />הקודש של ה<persName>מגיד מ<placeName ana="bio" ref="#H-LOC_31">טשערנאביל</placeName></persName> הנ״ל לאכול מעט מזעיר
+					<lb />וכן היה דרך בניו הקדושים כידוע ומפורסם זאת. והרה״ק
+					<lb />מאפטא הנ"ל היה דרכו בקודש לאכול הרבה יותר מהטבע
+					<lb />וממש הרבה יותר מאנשים פשוטים גסי הטבע. ובליל <date>ש"ק</date>
+					<lb />קודם הסעודה אמר הרה״ק מאפטא ל<persName>המגיד</persName> מטשערנאביל.
+					<lb />הנה כשמזדמן ל<placeName>ש</placeName>״<orgName>ק</orgName> אורח הגון היינו ר״ח הוא נותן לו תפלה
+					<lb />אחת. (כידוע כי כשחל ר״ח ב<date>שבת</date> מתפללים תפלת <name type="work">מוסף</name>
+					<lb />של <date>ר"ח</date> ולא של <date>שבת</date>). וכשמזדמן לשבת אורח שהוא גדול מן
+					<lb />ר״ח היינו <date>יום</date> טוב אז הוא נותן לו כל התפלות. (כידוע כי
+					<lb />כשחל יו<date>״</date>ט ב<date>שבת</date> מתפללים כל התפלות של <date>יו״</date>ט ולא של
+					<date><lb />שבת</date>). אבל שום סעודה אינו נותן לו. אמנם כשמזדמן לשבת
+					<lb />אורח שהוא גדול מאד שאין בנמצא שום גדול למעלה ממנו
+					<lb />היינו יום הקדוש יום הכפורים אז הוא נותן לו כל התפלות
+					<lb />וגם כל הסעודות. (כידוע כי כשחל יוה״כ ב<date>שבת</date> מתענים
+					<lb />כל היום ואין אוכלים שום סעודה של <date>שבת</date>). כן אמר הרה״ק
+					<lb />מאפטא להמגיד הנ"ל ולא אכל אז הרה״ק מאפטא כל ה<date>שבת</date>
+					<lb />בכל השלש סעודות רק מעט מזעיר כדרך הקודש של המגיד
+					<lb />הנ״ל. כן סיפר אדמו״ר מ<placeName ref="#H-LOC_618">סקווירא</placeName> הנ"ל. וסיים וסיפר עוד.
+					<lb />כי פ"א נסע איש אחד מיוחס בן טובים להרה״ק מאפטא הנ"ל
+					<lb />להיות אצלו על <date>ש"ק</date>. ונתאחר בדרך ולא בא אליו על <date>שבת</date>
+					<lb />רק ב<date>יום א׳</date> ובבואו אצלו אמר לו הרה״ק מאפטא כל מה
+				</p>
+				<p>
+					<lb />מ״מ
+				</p>
+				<pb facs="Sipurim-Umaamarim-Yekarim_0021.jpg" /><fw type="running-head">ספורים ומאמרים יקרים</fw>
+				<p>
+					<lb />שאמר להמגיד הנ"ל וסיים ואמר לו אמנם אם מזדמן לשבת
+					<lb />תשעה באב לאורח אינו נותן לו כלום לא שום תפלה ולא שום
+					<lb />סעודה. רק אומר לו דוא <persName>ביסט ניט קליין צו קומען</persName> ב<date>יום א׳</date>.
+					<lb />(כידוע כי כשחל תשעה באב ב<date>שבת</date> הוא נדחה ל<date>יום א׳</date>).
+				</p>
+			</div><div type="story" xml:id="Sipurim-Umaamarim-Yekarim_00027"><head type="storyHead">Sipurim-Umaamarim-Yekarim_00027</head><span ana="TBD:Unknown" />
+<p>עוד סיפר אדמו״ר מסקווירא הנ"ל. כי פ"א נסע הוא ואחיו
+					<lb />הרה״ק ר׳ <persName>נחום ממקארוב זצוק"ל</persName> עם אביהם המגיד
+					<lb />מ<placeName ref="#H-LOC_31">טשערנאביל</placeName> הנ״ל. וידוע כי המגיד הנ"ל היה נוסע תמיד
+					<lb />במרכבה שלו שהיתה גדולה וכבדה. ויבאו למקום אחד בלילה
+					<lb />ונהפכה שמה המרכבה הנ"ל. והיה מונח המגיד למטה ועליו
+					<lb />בנו הרה״ק ר׳ <persName>נחום</persName> הנ"ל ועליהם היה מונח אדמו״ר
+					<lb />מסקווירא הנ"ל. וניזוק הרה״ק ר' <persName>נחום</persName> רק מעט. והמגיד
+					<lb />ניזוק הרבה עד שהיה כפשע בינו ובין המות ר"ל והיה הדם
+					<lb />שותת ממנו מאד עד שהוכרח אדמו״ר מסקווירא לעזוב שם
+					<lb />את אביו ואחיו והוא הלך עם העגלון לחפש ולמצוא מים
+					<lb />לעצור הדם של אביו הקדוש. כי היה המקום רחוק מישוב
+					<placeName><lb />ב"א</placeName>. והיה סייעתא דשמיא מה שנשאר ה<persName>מגיד</persName> בחיים. ואחר
+					<lb />שנסעו ממקום זה אמר ה<persName>מגיד</persName> לבניו הקדושים כי במקום זה
+					<lb />שנהפכה שמה המרכבה שלו שם הרג <persName>קין</persName> את <persName>הבל</persName> :
+				</p>
+			</div><div type="story" xml:id="Sipurim-Umaamarim-Yekarim_00028"><head type="storyHead">Sipurim-Umaamarim-Yekarim_00028</head><span ana="TBD:Unknown" />
+<p>אמר אדמו״ר <persName>מסקווירא</persName> הנ"ל. כי אביו ה<persName>מגיד</persName> הנ"ל. אמר
+					<lb />כי כשהוא נוסע מאיזה מקום ומלוים אותו הרבה
+					<lb />אנשים בכבוד גדול (כאשר היה נוהג בשנים קדמוניות) אז
+					<lb />נדמה בעיניו כהלוית המת :
+				</p>
+			</div><div type="story" xml:id="Sipurim-Umaamarim-Yekarim_00029"><head type="storyHead">Sipurim-Umaamarim-Yekarim_00029</head><span ana="TBD:Unknown" />
+<p>ובעין זה כתב בס׳ רחמי האב סימן ל״ב וז"ל. ספרו כי
+					<lb />כשקבלו את הגאון הקדוש <persName>בעל הפלאה</persName> זצוק"ל לרב
+					<lb />בק"ק <placeName ref="#H-LOC_125">פרנקפורט דמיין</placeName> עשו לו כבוד גדול בבואו. והיה עם
+					<lb />רב לפניו ולאחריו. ושאלו אחד ממיודעיו מה חישב באותה
+					<lb />שעה. והשיב לו שדימה בנפשו שנושאים אותו במטה לבית
+				</p>
+				<p>
+					<lb />הקיים
+				</p>
+				<pb facs="Sipurim-Umaamarim-Yekarim_0022.jpg" /><fw type="running-head">ספורים ומאמרים יקרים</fw>
+				<p>
+					החיים וכל העם מלוים אותו. </p></div><div type="story" xml:id="Sipurim-Umaamarim-Yekarim_00030"><head type="storyHead">Sipurim-Umaamarim-Yekarim_00030</head><span ana="TBD:Unknown" />
+<p>ו<placeName>פ"א</placeName> בא ה<persName>בעש״ט</persName> למקום אחד
+					<lb />ועשו לו כבוד גדול. ואמר להם ה<persName>בעש״ט</persName> תדעו כי כשמכבדים
+					<lb />לאחד מפשפשים במעשיו בעולם העליון אם הוא ראוי לאותו
+					<lb />כבוד. ולכאורה עושים לו רעה המכבדים אותו. אך באמת
+					<lb />מי שנתן לו <name type="misc">ה׳</name> חכמה בלבו מיד השמכבדים אותו מהרהר
+					<lb />בתשובה ומפשפש בעצמו במעשיו. וממילא עושים לו טובה
+					<lb />המכבדים אותו שהביאו אותו לידי תשובה :
+				</p>
+			</div><div type="story" xml:id="Sipurim-Umaamarim-Yekarim_00031"><head type="storyHead">Sipurim-Umaamarim-Yekarim_00031</head><span ana="TBD:Unknown" />
+<p>עוד אמר אדמו״ר <placeName>מסקווירא</placeName> הנ"ל כי אביו המגיד הנ"ל
+					<lb />אמר. כי מתחלה היה מתנהג בדרך זה. כי המלאכים
+					<lb />אמרו שירה באיזה ניגון ואח״כ היו מנגנים באותו ניגון אצל
+					<lb />שלחן הצדיקים. ובעתים הללו מתנהג הדבר כן כי מתחלה
+					<lb />מנגנים איזה ניגון אצל שלחן הצדיקים ואח״כ אומרים המלאכים
+					<lb />שירה באותו ניגון :
+				</p>
+			</div><div type="story" xml:id="Sipurim-Umaamarim-Yekarim_00032"><head type="storyHead">Sipurim-Umaamarim-Yekarim_00032</head><span ana="TBD:Unknown" />
+<p>ותיכף אחר פטירת הרה״ק ר׳ <persName>נחום מטשערנאביל</persName> זצוק"ל.
+					<lb />התחיל בנו המגיד הנ"ל לנסוע בעולם. ויבא לעיר
+					<placeName><lb />קארסטשוב</placeName> בלילה. וישאל תיכף מי הוא הגבאי מה<orgName>חברה
+					<lb />קדישא</orgName> מעיר הזאת. ויאמרו לו על איש אחד שהיה שמו <persName>פנחס</persName>.
+					<lb />ויאמר הביאו אותו אלי מהרה וילכו איזה אנשים לר' <persName>פנחס</persName>
+					<lb />הנ"ל וימצאו אותו כי הוא ישן כבר. ויקיצו אותו משנתו
+					<lb />ויאמרו לו כי ה<persName>מגיד מ<placeName ana="bio" ref="#H-LOC_31">טשערנאביל</placeName></persName> בא לפה ושלח אותנו לקרוא
+					<lb />לך לבוא אצלו. ולא רצה ר' <persName>פנחס</persName> הנ"ל לקום ממטתו. ואמר
+					<lb />להם הלא עדיין רך בשנים הוא ואם אבוא אליו בבוקר יהיה
+					<lb />ג״כ טוב ולא רצה לקום בלילה בשום אופן. ויבאו האנשים
+					<lb />להמגיד ויאמרו לו כי ר׳ <persName>פנחס</persName> אינו רוצה לקום. וישלח אותם
+					<lb />המגיד פעם שנית לאמר לו שיבא בלי שום תירוץ כלל. וילכו
+					<lb />האנשים פעם שנית ויזרזו את ר' <persName>פנחס</persName> ביתר שאת. אבל הוא
+					<lb />לא נתפעל כלל. עד שאשתו שלחה אותו בעל כרחו. וכאשר
+				</p>
+				<p>
+					<lb />בא
+				</p>
+				<pb facs="Sipurim-Umaamarim-Yekarim_0023.jpg" /><fw type="running-head">ספורים ומאמרים יקרים</fw>
+				<p>
+					<lb />בא ר׳ <persName>פנחס</persName> להמגיד שאל אותו המגיד האם מכיר אתה אותו
+					<lb />האיש שנפטר זה כשני שבועות ושמו היה כך וכך. אמר לו
+					<lb />ר' <persName>פנחס</persName> לא ידעתיו רק השמשים מסתמא היו מכירים אותו.
+					<lb />וישלח המגיד ויקרא השמשים. ובבואם אליו שאל אותם כנ"ל
+					<lb />ויאמרו ידענו אותו ומה בכך. אמר להם המגיד למה קברתם
+					<lb />אותו עם אשה בקבר אחד. ולא הודו לו עד שאמר להם תנו
+					<lb />תודה ואם לא תודו מרצונכם אז תודו בעל כרחכם. אז הודו
+					<lb />לדבריו והתנצלו כי היה בלילה והקור היה גדול מאד עד שלא
+					<lb />היה ביכולתם לתפור קבר שני עבור האשה או עבור האיש
+					<lb />ולכן עשו כן. אז זירז אותם המגיד שילכו תיכף לחפור קבר
+					<lb />וליקח האיש מהקבר הראשון ולקברו שם. ואמר כי האיש
+					<lb />ההוא הנפטר מעת קבורתו הוא הולך אצלו ומבקשו לעשות לו
+					<lb />טובה. ובשביל דבר זה בא ל<placeName ref="#H-LOC_257">קארסטשוב</placeName> לתקן זאת. ומעת
+					<lb />ההיא ידעו כי רוח <name type="misc">אלהים</name> בו:
+				</p>
+			</div><div type="story" xml:id="Sipurim-Umaamarim-Yekarim_00033"><head type="storyHead">Sipurim-Umaamarim-Yekarim_00033</head><span ana="TBD:Unknown" />
+<p>פ״א היה המגיד הנ"ל באיזה מקום ביחד עם הרה״ק ר'
+					<persName><lb />אברהם דוב מ<placeName ana="bio" ref="#H-LOC_109">אוורוטש</placeName></persName> זצוק"ל בעהמ״ח ספר <name type="work">בת עין</name>
+					<lb />עה<name type="work">״ת</name>. ובא אדם אחד וביקש אותם להיותם אצלו על ברית
+					<lb />מילה. ויעבד את המגיד להיות הנדק. ואמר אליו המגיד כי
+					<lb />לך אצלו רק בתנאי שיעשה סעודה. אמר לו האיש הנ״ל כי
+					<lb />אין בכחו לעשות סעודה כי איש עני הוא ואין ידו משגת כי
+					<lb />הוא מושכר אצל אחרים ולוקח שכירות בכל שבוע רק חמשה
+					<lb /><name type="currency">זהובים</name> (חמשה ושבעים קאפיקס) וזהו כל פרנסתו. והחמשה
+					<lb /><name type="currency">זהובים</name> משבוע זה כבר קיבל אותם בשלימות. אמר לו המגיד
+					<lb />שילוה אצל הבעה״ב שלו חמשה <name type="currency">זהובים</name> באופן שיזכה לו בכל
+					<lb />שבוע מעט מהשכירות שלו וכן עשה. והמגיד נתן מכספו ג״כ
+					<lb />איזה סכום ממון ועשו סעודת ברית מילה. ואמר המגיד
+					<lb />מפני מה חרדתי את כל החרדה הזאת והקפדתי דייקא לעשות
+				</p>
+				<p>
+					<lb />סעודה
+				</p>
+				<pb facs="Sipurim-Umaamarim-Yekarim_0024.jpg" /><fw type="running-head">ודים ומאמרים יקרים</fw>
+				<p>
+					<lb />סעודה. כי הס״מ הר״ת משמו הוא. "סעודת "מצוה "אין
+					<lb />"לעשות. גם "סעודת "מסכת "אין "לעשות. גם "סעודת "מילה
+					<lb />"אין "לעשות. ודבר זה פעל כבר בעוה״ר כי סעודת מסכת
+					<lb />אין לעשות. היינו שביטל סעודת סיום מסכת. והוא רוצה
+					<lb />לפעול גם את זאת ח"ו כי סעודת מילה אין לעשות. אמנם
+					<lb />על דבר זה בעזהי״ת אנחד אותו שתי עיניו ולא אניתנו לפעול
+					<lb />את זאת. ואמר אז הרה״ק <persName>מאוודוטש</persName> הנ"ל כי בדבר זה נצח
+					<lb />המלאך <persName>מיכאל</persName> את הס״מ נצחון גדול. כי ה<orgName>ס״מ</orgName> התפאר לפניו
+					<lb />כי הוא מצליח בעתים הללו ר״ל. פי הוא מפתה לב"א שיעשו
+					<lb />עבירות ר״ל ושומעים לדבריו. אמר לו המלאך <persName>מיכאל</persName> אתה
+					<lb />משטה את עצמך. כי אעפ"י שאתה מנצח את אחד מב״י
+					<lb />ומפתהו לעשות עבירה ח"ו. אעפ״כ הוא עושה העבירה שלו
+					<lb />ברצונו ולא בשמחה ח"ו. והעד הנאמן לזה האם שמעת מעולם
+					<lb />כי מי שעשה ח"ו עבירה כי אחר עשותו העבירה יקבץ מדעים
+					<lb />וחברים ויעשה להם סעודה וישמח במה שעשה עבירה ח"ו.
+					<lb />לא נשמע כזאת מעולם. ואם אחד מב"י עושה איזה מצוה
+					<lb />כמו ברית מילה וכדומה אז אחר עשותו המצוה הוא מקבץ
+					<lb />חברים וידידים ועושה להם סעודה ומשמח א״ע במה שעשה
+					<lb />המצוה. מזה נראה כי אם אחד מב״י עשה עבירה ח"ו לא
+					<lb />עשה אותה מרצונו ומדעתו בלב שלם. ואם עושה איזה מצוה
+					<lb />עושה אותה בלב שלם ובנפש תפלה :
+				</p>
+			</div><div type="story" xml:id="Sipurim-Umaamarim-Yekarim_00034"><head type="storyHead">Sipurim-Umaamarim-Yekarim_00034</head><span ana="TBD:Unknown" />
+<p>שמעתי מאדמו״ר הרה״ק מרן ר׳ <persName>יצחק מ<placeName ana="bio" ref="#H-LOC_618">סקווירא</placeName></persName> זצוק"ל.
+					<lb />כי פ"א הלשינו לפני זקנו הרה״ק ר' נחום
+					<lb />מ<persName>טשערנאביל</persName> זצוק"ל. על בנו הרה״ק ר׳ <persName>משה</persName> זצוק"ל הנ"ל.
+					<lb />כי הוא מתנהג א״ע בעשירות. שהיה בביתו מגדל (שקורין
+					<lb />שאפע). גיפארבט גרין און אויס גישניצט לעכער. ובשנים
+					<lb />קדמוניות לא היה מגדל כזה רק אצל האדונים והשרים. ואמר
+				</p>
+				<p>
+					<lb />אדמו״ר
+				</p>
+				<pb facs="Sipurim-Umaamarim-Yekarim_0025.jpg" /><fw type="running-head">ספורים ומאמרים יקרים</fw>
+				<p>
+					<lb />אדמו״ר מה שאמר. וסיים וסיפר כי לאחר פטירת דודו הרה״ק
+					<lb />ר' <persName>משה</persName> הנ"ל הלשינו לפני זקנו הנ"ל על אביו הקדוש המגיד
+					<lb />הנ"ל. כי הוא מתנהג א״ע בגדלות ועשירות עוד הרבה יותר
+					<lb />מאחיו שנפטר. ואמר אז הרה״ק ר׳ <persName>נחום</persName> כי עתה אינו רוצה
+					<lb />לסמוך על מה שאומרים ומספרים לו על בנו. כי הוא נשאר
+					<lb />אצלו בן יחיד. רק שילך בעצמו לבנו לראות אם אמת הדבר
+					<lb />מה שמספרים עליו. וכן עשה. וכאשר בא לבית בנו המגיד
+					<lb />הנ"ל. אמר לו הנה אומרים עליך שיש לך כלי כסף וכלי זהב
+					<lb />ומורי שעות הרבה הראני נא אותם. והוכרח המגיד להראות
+					<lb />כל החפצים שלו לאביו הקדוש. אמר לו אביו על מה ולמה
+					<lb />הם נחוצים לך. השיב לו המגיד הנה ה<name type="work">גמרא</name> מתארת ומספרת
+					<lb />מעשרו של רבי שהיה רב מאד כידוע. ולסוף איתא ב<name type="work">מס׳
+					<lb />כתובות</name> (דף ק"ד ע"א) כי בשעת פטירתו של רבי זקף עשר
+					<lb />אצבעותיו כלפי מעלה ואמר לא נהניתי אפילו באצבע קטנה
+					<lb />(עיי״ש ברש״י ותוספות) וקשה אם לא כהנה מעוה״ז כלום על
+					<lb />מה ולמה היה לו כל העושר שלו. אלא ע״כ מסתמא גם
+					<lb />בזה יש דרך לעבודת הבוי״ת. אז הלך הרה״ק ר׳ <persName>נחום</persName> מבית
+					<lb />בנו המגיד הנ"ל שמח וטוב לב. ונתן ידיו על גופו הקדוש
+					<lb />ואמר שישו בני מ<persName>עי שישו</persName>. כן שמעתי מאדמו״ר הנ״ל והדבר
+					<lb />פלא גדול :
+				</p>
+			</div><div type="story" xml:id="Sipurim-Umaamarim-Yekarim_00035"><head type="storyHead">Sipurim-Umaamarim-Yekarim_00035</head><span ana="TBD:Unknown" />
+<p>ידוע כי הרה״ק ר׳ <persName>אברהם מטוריסק</persName> זצוק"ל. היה חתנו
+					<lb />של הרה״ק ר׳ <persName>יעקב אריה</persName> <placeName ref="#H-LOC_52">מקאוולע</placeName> זצוק"ל הנקרא
+					<lb />בפי כל דער <persName>קאוולער</persName> רב. בן הרה״ק ר' <persName>מרדכי מנעסחיזש</persName>
+					<lb />זצוק"ל. ובעת שבא המגיד הנ"ל לעיר <placeName ref="#H-LOC_52">קאוולע</placeName> לשדך שם את
+					<lb />בנו הרה״ק ר׳ <persName>אברהם הנ"ל</persName> עם בת הרה״ק <placeName ref="#H-LOC_52">מקאוולע</placeName> היתה
+					<lb />שם אשה אחת עגונה מבעלה כמה שנים והרה״ק <placeName ref="#H-LOC_52">מקאוולע</placeName>
+					<lb />עם עוד כמה רבנים חתרו למצוא לה היתר להנשא ולא יכלו.
+				</p>
+				<p>
+					<lb />ואמרו
+				</p>
+				<pb facs="Sipurim-Umaamarim-Yekarim_0026.jpg" /><fw type="running-head">ספורים ומאמרים יקרים</fw>
+				<p>
+					<lb />ואמרו כמה אנשים להאשה הזאת כי כשיבא המגיד לבית
+					<lb />הרה״ק <placeName ref="#H-LOC_52">מקאוולע</placeName> לכתוב התנאים תבא לפניו בבכיה רבה אולי
+					<lb />ימצא לה איזה תרופה. והמגיד הנ"ל היה דרכו בקודש כשהיה
+					<lb />עובר לפני ארגז או מגדל שהיו מונחים בו ספרים. היה לוקח
+					<lb />איזה ספר והיה מעיין בו והיה מחזירו למקומו. וכן היה
+					<lb />בעת בואו לבית הרה״ק <placeName ref="#H-LOC_52">מקאוולע</placeName> היה שם מגדל סגור עם
+					<lb />ספרים הרבה. ויצו המגיד לפתוח המגדל ויקח משם איזה
+					<lb />ספר והיה מעיין בו והקמיט איזה דף והחזירו למקומו ואח״כ
+					<lb />ישב אצל השלחן. ואחר גמר כתיבת התנאים באה האשה
+					<lb />הנ"ל בבכיה רבה לפני הרבנים הקדושים ותבקש מהם אולי
+					<lb />ימצאו היתר לעיגונה. ואמר המגיד למחותנו הרה״ק מקאוולע
+					<lb />למה לא תרחמו על בת ישראל להתירה מעיגונה. ויתכלל
+					<lb />לפניו הרה״ק מקאוולע ויאמר לי תאמינו לי מחותני כי פעמים
+					<lb />רבות הייתי משתדל בכל כחי להתירה. ובכל עת טרם אגמור
+					<lb />ההיתר שלה יתהווה אצלי איזה ספק ואיני יכול להתירה בשום
+					<lb />אופן. אז השיבו המגיד ואמר לו אני טרם ישבתי פה אצל
+					<lb />השלחן עיינתי בספר אחד ונראה לי כי משם יוכל כבודו למצוא
+					<lb />היתר לעיגונה ולהתירה בלי שום ספק. ותיכף הביאו הספר
+					<lb />הנ"ל ויעיינו בו במקום שהקמיט המגיד את הדף וימצאו שם
+					<lb />היתר לעיגונה והתירוה להנשא וכעין מעשה זה היה ב<placeName ref="#H-LOC_179">זיטאמיר</placeName>
+					<lb />והמעשה היא מפורסמת שהיה שם המגיד הנ"ל באיזה פעם
+					<lb />ובאה לפניו אשה אחת עגונה מבעלה. אשר הרבנים יגעו
+					<lb />מאד להתירה להנשא ולא מצאו שום היתר. יתבך האשה
+					<lb />הזאת מאד לפני המגיד. ויאמר המגיד להרבנים מזיטאמיר
+					<lb />מדוע אינכם עוסקים להתירה. ויאמרו לו כי כבר יגעו בזה
+					<lb />בכל התם ולא מצאו לה שום היתר. ויאמר להם המגיד
+					<lb />שיחפשו אם נמצא ב<placeName ref="#H-LOC_179">זיטאמיר</placeName> איזה שו״ת שאמר להם ושם ימצאו
+				</p>
+				<p>
+					<lb />מתו
+				</p>
+				<pb facs="Sipurim-Umaamarim-Yekarim_0027.jpg" />
+			
+				<p>
+					<lb />היתר לעיגונה. ויחפשו אחר השו״ת הנ"ל וימצאו אותה אצל
+					<lb />איש אחד. ושם מצאו היתר לעיגונה והתירוה להנשא.
+				</p>
+			</div><div type="story" xml:id="Sipurim-Umaamarim-Yekarim_00036"><head type="storyHead">Sipurim-Umaamarim-Yekarim_00036</head><span ana="TBD:Unknown" />
+<p>פ״א נסעו חסידים לומדי <name type="work">תורה</name> להמגיד הנ"ל על <date>שבת</date> קודש.
+					<lb />ונסע עמם מוכסן אחד איש פשוט שלא היה יכול
+					<lb />ללמוד כלל. ואמר אז המגיד בש"ק הנ"ל דברי תורה על
+					<lb />השלחן דברים גבוהים ורמים מאד. ואחר <date>שבת</date> כאשר נסעו
+					<lb />החסידים הנ"ל בחזרה לביתם לנו בכפר אחד. וחזרו שמה
+					<lb />ביניהם הדברי תורה ששמעו בש"ק מרבם הקדוש ואמר אחד
+					<lb />מהם לחביריו כי מכל הנסיעות שנסע כל ימיו לרבו לא היה
+					<lb />נהנה בשום פעם כמו עתה בנסיעה זאת. מחמת הדבר
+					<lb />תורה ששמע מרבו ב<date>שבת</date> זה שלא שמע ממנו דברים כאלה
+					<lb />עד הנה. ואמרו לו חביריו ג״כ כדבריו. אח״כ אמר להם
+					<lb />המוכסן שנסע עמם כי גם הוא לא היה כהנה בשום פעם
+					<lb />כמו עתה מנסיעה זאת. וישאלו אותו החסידים ויאמרו לו כי
+					<lb />הלא הוא איש פשוט ואינו מבין כלל הדברי תורה שאמר
+					<lb />המגיד. ובמה הוא נהנה בנסיעה זאת יותר משאר נסיעות.
+					<lb />אמר להם המוכסן הנ״ל אספר לכם. הנה עתה בבואי לקבל
+					<lb />ברכת הפרידה מאדמו״ר שאל אותי אדמו״ר ואמר לי. אמור
+					<lb />לי איך אתה מתנהג בביתך. אמרתי לו מה זה שאלה אני
+					<lb />מתנהג ב"ה ככל אחינו ב"י. אמר לי אני רוצה לדעת איך
+					<lb />הוא הסדר היום שלך. אמרתי לו בבוקר כאשר אני קם ממטתי
+					<lb />תיכף אני נוטל הידים שלי כדין ולובש המלבושים שלי ותיכף
+					<lb />אני הולך ומסבב על הכפר בין הנכרים ואני קונה אצלם מה
+					<lb />שאני קונה. אצל זה מעט תבואה ואצל זה איזה עור וכדומה.
+					<lb />ובערך שעה שמינית הנני הולך לביתי ואז אני רוחץ הפנים
+					<lb />והידים שלי ואני מברך ברכת ה<name type="work">תורה</name> ומתפלל ואומר <name type="work">תהלים</name>.
+					<lb />אח״כ אני שותה מעט <name type="misc">יי</name>״ש ואוכל סעודת שחרית ואני מברך
+				</p>
+				<p>
+					<lb />ברהמ״ז
+				</p>
+				<pb facs="Sipurim-Umaamarim-Yekarim_0028.jpg" /><fw type="running-head">ספורים ומאמרים יקרים</fw>
+				<p>
+					<lb />ברהמ״ז ואח״כ אני ישן מעט. וכשאני מתעורר משנתי הנני
+					<lb />הולך ומסבב עוד הפעם על הכפר בין הנכרים ואני קונה
+					<lb />אצלם מה שאני קונה. ולפנות ערב אני הולך לביתי ואז אני
+					<lb />מתפלל תפלת מנחה ומעריב. ואח״כ אני שותה מעט <name type="misc">יי״ש</name>
+					<lb />ואוכל סעודת הערב ואני מברך ברהמ"ז וקורא ק"ש. אח״כ
+					<lb />אני שוכב א״ע לישן. כן אני מתנהג כל ימי. אמר לי אדמו״ר
+					<lb />לא טוב הדבר אשר אתה עושה. כי אתה מקדים עסקיך
+					<lb />לתפלתך ולא נכון לעשות כן כי צריכים להקדים התפלה קודם
+					<lb />כל העסקים. אמרתי לו אין אדמו״ר בקי בענין זה. כי דרך
+					<lb />הכפרים לילך בבוקר כל אחד לעבודתו בשדה. ואם אתעכב
+					<lb />בביתי בבוקר בין כך וכך ילכו הנכרים מבתיהם ולא אמצא
+					<lb />אצל מי לקנות מה שאני קונה. אמר לי אדמו״ר אספר לך
+					<lb />מעשה. איש אחד היה אשר אכל על שלחן חותנו כמה שנים
+					<lb />אחר החתונה (כנהוג בשנים קדמוניות) אח״כ ראה והבין שאין
+					<lb />לו במה לפרנס אשתו ובניו כי אין בידו לא שום כולאכה ולא
+					<lb />שום מסחר. ע״כ עזב את ביתו ונסע למרחקים והיה שם
+					<lb />מלמד שלש שנים רצופים. ובכל השלש שנים לא שלח לביתו
+					<lb />אפילו פ"א בחשבו כי יקבץ איזה סכום ממון ואז יעשה איזה
+					<lb />מסחר בביתו עם הממון ומזה יפרנס את ב״ב. וכאשר עברו
+					<lb />השלש שנים קיבץ את כל הממון שלו ופרט אותו על מטבעות
+					<lb />של זהב וצרר אותם בשנים עשר חבילות (פעקליך). ועוד היה
+					<lb />לו <name type="currency">פיטאק</name> אחד של נחושת (בערך <name type="currency">קאפיקע</name> וחצי) ויצרור אותו
+					<lb />ג״כ עם המטבעות של זהב ביחד. וילך ברגליו לביתו וגם בכל
+					<lb />הדרך לא אפל משלו רק משל אחרים למען לא יחסר מכספו
+					<lb />אפילו פ"א. ובערב <date>שבת</date> לפנות ערב בא האיש הנ"ל לכפר
+					<lb />אחד ויבא לבית המוכסן וישאל אותו כמה רחוק משם לאיזה
+					<lb />עיר. ויאמר לו המוכסן כי משם לעיר נמצא בערך עשרים
+				</p>
+				<p>
+					<lb />וויערסט
+				</p>
+				<pb facs="Sipurim-Umaamarim-Yekarim_0029.jpg" /><fw type="running-head">ספורים ומאמרים יקרים</fw>
+				<p>
+					<lb />וויערסט. והיה להאיש הנ"ל יסורים גדולים כי אם היה בעיר
+					<lb />היה מוצא שם איש מהימן להפקיד אצלו הממון שלו. ופה
+					<lb />בכפר מוכרח הוא להפקיד אצל המוכסן ומי יודע אם הוא
+					<lb />איש מהימן. אמנם כאשר ראה כי פנה היום הוכרח לשבות
+					<lb />שם. והיה נבוך ברעיונותיו ולא ידע מה לעשות אם להפקיד
+					<lb />הממון אצל המוכסן בכדי שלא לחלל <date>שבת</date>. או שיחלל <date>שבת</date>
+					<lb />ח"ו וישא הכסף אצלו כל ה<date>שבת</date> ובתוך כך הדליקה אשת
+					<lb />המוכסן נרות של <date>שבת</date> ואז נתעורר בקרבו יראת <date>שבת</date> והלך
+					<lb />ומסר הממון ליד המוכסן. ואח״כ כאשר עברה איזה שעה
+					<lb />נתחרט ע״ז בחשבו מי יודע אם יחזיר לו הממון. והוא יגע
+					<lb />על הממון שלש שנים והיה נע ונד מביתו ועתה יוכל היות כי
+					<lb />יחזור ח"ו לביתו בידים ריקניות ולומר להמוכסן שיתן לו
+					<lb />הממון בחזרה אי אפשר כמובן. והיה לו מזה יסורים גדולים
+					<lb />מאד עד שלא כח כל ה<date>שבת</date> ולא היה יכול להתפלל ולא לאכול
+					<lb />והיה כל ה<date>שבת</date> ממש כמשוגע. והמוכסן הבין את זאת ע״כ
+					<lb />הקדים א״ע במוש״ק והתפלל תפלת <name type="work">מעריב</name> קודם שהתפלל
+					<lb />האיש הנ״ל. וקודם שגמר האיש הנ"ל השמ״ע קרב אליו
+					<lb />המוכסן ונתן לו הממון שלו ואמר לו קחו כספיכם. וימשש
+					<lb />האיש הנ"ל בכיסו לידע אם נמצא שם כל השנים עשר חבילות
+					<lb />כי ירא לנפשו אולי לא החזיר לו כל הממון בשלימות וימשש
+					<lb />וימצא כל הממון. אח״כ משש עוד הפעם למצוא ה<name type="currency">פיטאק</name> כי
+					<lb />חשב אולי לא החזיר לו ה<name type="currency">פיטאק</name>. וימצא גם ה<name type="currency">פיטאק</name> אז שמח
+					<lb />שמחה גדולה. והנה נראה ממעשה האיש הזה הלא הוא שוטה
+					<lb />גדול במה שחפש אחר הפייטאק. כי כשראה כי המוכסן הוא
+					<lb />איש מהימן כזה שהחזיר לו כל המטבעות של זהב איך יעלה
+					<lb />על דעתו שיגזול ממנו ה<name type="currency">פיטאק</name>. כי במה נחשב ה<name type="currency">פיטאק</name> אפילו
+					<lb />נגד מטבע אחת של הב ומכש״כ נגד השנים עשה אבילות כן
+				</p>
+				<pb facs="Sipurim-Umaamarim-Yekarim_0030.jpg" /><fw type="running-head">רים ומאמרים יקרים</fw>
+				<p>
+					<lb />אתה בכל לילה אתה מפקיד נשמתך ביד ה<name type="misc">שי"ת</name> אשר הנשמה
+					<lb />שלך היא יקרה מפנינים ובלא הנשמה ח"ו הרי אתה כפגר
+					<lb />מובה. וכאשר אתה קם בבוקר ואתה רואה אמונתו של ה<name type="misc">שי"ת</name>
+					<lb />שהחזיר לך פקדון יקר כזה איך לא תאמין להשי"ת על דבר
+					<lb />קטן שיזמין לך פרנסתך אחר התפלה. כי זה הוא דבר קטן
+					<lb />מאד נגד הנשמה. ע״כ מהיום והלאה תתנהג כמו שאמרתי
+					<lb />לך כי מקודם תתפלל ואח״כ תלך לעסקיך ותאמין ב<name type="misc">השי"ת</name> כי
+					<lb />הוא יזמין לך פרנסתך אחר התפלה, כן דיבר אלי אדמו״ל
+					<lb />ומעולם לא שמעתי ממנו דברים כאלה ע״כ אני אומר כי בשום
+					<lb />פעם לא נהניתי כמו עתה. אמרו החסידים ל<placeName>המוכסן</placeName> הנ״ל
+					<lb />א״כ הלא פעלת עתה בהנסיעה שלך יותר ממנו :
+				</p>
+			</div><div type="story" xml:id="Sipurim-Umaamarim-Yekarim_00037"><head type="storyHead">Sipurim-Umaamarim-Yekarim_00037</head><span ana="TBD:Unknown" />
+<p>ידוע אשר גם אנשים גדולים מגולגלים לפעמים. רק שהם
+					<lb />מגולגלים בדגים שזה הוא בחי' העליונה בבחי׳ הגלגול
+					<lb />כמו שכתב ה<name type="work">אור</name> ה<orgName>חיים</orgName> בפסוק ו<name type="work">יאמר אלקים נעשה אדם</name> וידוע
+					<lb />אשר המגיד הנ"ל היה עוסק הרבה פעמים לתקן אלו המגולגלים
+					<lb />בדגים. וסיפר אדמו״ר הרה״ק מרן ר׳ <persName>יצחק מ<placeName ana="bio" ref="#H-LOC_618">סקווירא</placeName></persName> זצוק"ל.
+					<lb />כי בעת שהיה אביו המגיד הנ"ל בעיר ב<placeName>אהסלוב</placeName> (כידוע ומפורסם
+					<lb />כי המגיד הנ"ל היה איזה זמן עם ב״ב ב<placeName ref="#H-LOC_504">באהסלוב</placeName> ורצה לקבוע
+					<lb />דירתו שם) נזדמן פ״א שהביאו להמגיד על ש"ק דג גדול
+					<lb />שהיה משקלו יותר מחמשים פונט. ועמד המגיד והשגיח
+					<lb />היטב בעת שהכינו ובשלו הדג הזה. ואח״כ בש"ק אכל ממנו
+					<lb />הרבה מאד וגם צוה לבניו הקדושים שיאכלו ממנו. ואמר כי
+					<lb />האיש המגולגל בדג זה היה בקי ב<name type="work">ש"ס</name> <name type="work">בבלי</name> ו<name type="work">ירושלמי</name> ו<name type="work">ספרא</name>
+					<lb />ו<name type="work">ספרי</name> ו<name type="work">תוספתא</name>. והראה המגיד על המקום שהיה יושב שם
+					<lb />אז עם בניו הקדושים כי במקום זה היה מקודם בית החיים.
+					<lb />ובאותו מקום היה קבור אותו האיש שהוא מגולגל בדג זה :
+				</p>
+			</div>
+			</body>
+	</text></tei:TEI>

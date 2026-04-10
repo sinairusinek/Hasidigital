@@ -24,7 +24,7 @@ from collections import Counter
 SCRIPT_DIR = os.path.dirname(os.path.abspath(__file__))
 AUTH_DIR = os.path.abspath(os.path.join(SCRIPT_DIR, ".."))
 PROJECT_DIR = os.path.abspath(os.path.join(AUTH_DIR, ".."))
-EDITIONS_INCOMING = os.path.join(PROJECT_DIR, "editions", "incoming")
+EDITIONS_INCOMING = os.path.join(PROJECT_DIR, "editions", "online")
 MATCHING_DB_PATH = os.path.join(AUTH_DIR, "authorities-matching-db.json")
 REPORT_PATH = os.path.join(PROJECT_DIR, "editions", "unmatched-places-report.tsv")
 

@@ -1,6 +1,6 @@
 # Edition Pipeline Status Report
 
-Generated: 2026-03-26 | Updated: 2026-04-10 | Editions: 26
+Generated: 2026-03-26 | Updated: 2026-04-10 | Editions: 27
 
 **Legend:** 🟢 done | 🟡 partial/needs attention | 🔴 missing/not started | 🔵 present (unchecked) | ⚪ n/a
 
@@ -19,12 +19,13 @@ Generated: 2026-03-26 | Updated: 2026-04-10 | Editions: 26
 | **Kokhvei-Or** | 🟢 done | 🟢 done | 🟢 done | 🟢 done (54 stories) | 🟢 done (56) | 🟢 done (160p/57l) | 🟢 no empty tags | 🟡 36/57 (63%) | 🔴 not started |
 | **Maasiot-Pliot** | 🟢 done | 🟢 done | 🟢 done | 🟢 done (26 stories) | 🟢 done (85) | 🟢 done (179p/72l) | 🟢 no empty tags | 🔴 33/72 (46%) | 🔴 not started |
 | **Maasiot-veSihot-Zadikim** | 🟢 done | 🟢 done | 🟢 done | 🟢 done (38 stories) | 🟢 done (157) | 🟢 done (892p/387l) | 🟢 no empty tags | 🟡 239/387 (62%) | 🔴 not started |
-| **MaasiyotUmaamarimYekarim** | 🟢 done | 🔴 not uploaded (facs use #facs_N refs, no images on server) | 🟢 done | 🟢 done (41 stories) | 🟡 review (55) | 🟢 done (358p/69l) | 🟢 no empty tags | 🟡 36/69 (52%) | 🔴 not started |
+| **MaasiyotUmaamarimYekarim** | 🟢 done | 🟢 done | 🟢 done | 🟢 done (41 stories) | 🟡 review (55) | 🟢 done (358p/69l) | 🟢 no empty tags | 🟡 36/68 (53%) | 🔴 not started |
 | **MaasyiotMzadikeiYesodeiOlam** | 🟢 done | 🟢 done | 🟢 done | 🟢 done (16 stories) | 🟢 done (48) | 🟢 done (141p/103l) | 🟢 no empty tags | 🟡 64/103 (62%) | 🔴 not started |
 | **Mifalot-HaZadikim** | 🟢 done | 🔴 not started | 🟢 done | 🟢 done (56 stories) | 🟡 partial (4) | 🟢 done (263p/103l) | 🟢 no empty tags | 🟢 96/103 (93%) | 🔴 105/263 (40%) |
 | **PeerMikdoshim** | 🟢 done | 🔴 not started | 🟢 done | 🟢 done (22 stories) | 🟢 done | 🟢 done (140p/83l) | 🟢 no empty tags | 🟢 81/83 (98%) | 🔴 60/140 (43%) |
 | **Sefer-Moraim-Gdolim** | 🟢 done | 🟢 done | 🟢 done | 🟢 done (17 stories) | 🟢 done (81) | 🟢 done (82p/27l) | 🟢 no empty tags | 🟡 18/27 (67%) | 🔴 not started |
 | **Shemen-Hatov** | 🟢 done | 🔴 images not uploaded | 🟢 done | 🟢 done (220 stories) | 🟡 review (137) | 🟢 done (1774p/745l) | 🟢 no empty tags | 🟡 296/883 (34%) | 🔴 not started |
+| **Shivhei-Habesht** | 🟢 done | 🔴 not started | 🟢 done | 🟢 done (216 stories) | 🟢 done (296) | 🟢 done (906p/355l) | 🟢 no empty tags | 🟡 292/355 (82%) | 🔴 not started |
 | **Shivhei-Harav** | 🟢 done | 🔴 not started | 🟢 done | 🟢 done (22 stories) | 🟢 done | 🟢 done (320p/212l) | 🟢 no empty tags | 🟡 153/212 (72%) | 🔴 71/320 (22%) |
 | **Shlosha-edrei-zon** | 🟢 done | 🟢 done | 🟢 done | 🟢 done (50 stories) | 🟢 done (83) | 🟢 done (268p/177l) | 🟢 no empty tags | 🟡 115/177 (65%) | 🔴 not started |
 | **Sipurei-Kdoshim** | 🟢 done | 🔴 not started | 🟢 done | 🟢 done (18 stories) | 🟢 done (111) | 🟢 done (282p/77l) | 🟢 no empty tags | 🟢 73/77 (95%) | 🔴 not started |
@@ -50,12 +51,13 @@ Generated: 2026-03-26 | Updated: 2026-04-10 | Editions: 26
 | **Kokhvei-Or** | 🔴 not started | 🔴 not started | 🔵 19 refs | 🟢 done | 🟢 52/52 xml:id fixed | 🔴 not started | 🟢 uploaded |
 | **Maasiot-Pliot** | 🔴 not started | 🔴 not started | 🔵 29 refs | 🟢 done | 🟢 ok (non-story divs only) | 🔴 not started | 🟢 uploaded |
 | **Maasiot-veSihot-Zadikim** | 🔴 not started | 🔴 not started | 🔵 127 refs | 🟢 done | 🟢 ok | 🔴 not started | 🟢 uploaded |
-| **MaasiyotUmaamarimYekarim** | 🔴 not started | 🔴 not started | 🔵 163 refs | 🟢 done | 🟢 41/41 xml:id fixed | 🔴 not started | 🔴 images not uploaded; facs use #facs_N refs |
+| **MaasiyotUmaamarimYekarim** | 🔴 not started | 🔴 not started | 🔵 163 refs | 🟢 done | 🟢 41/41 xml:id fixed | 🔴 not started | 🟢 uploaded |
 | **MaasyiotMzadikeiYesodeiOlam** | 🔴 not started | 🔴 not started | 🔵 36 refs | 🟢 done | 🟢 ok (non-story divs only) | 🔴 not started | 🟢 uploaded ✅ works |
 | **Mifalot-HaZadikim** | 🔴 not started | 🔴 not started | 🔵 11 refs | 🟢 done | 🟢 ok (non-story divs only) | 🔴 not started | 🟢 uploaded |
 | **PeerMikdoshim** | 🔴 not started | 🔴 not started | 🔵 5 refs | 🟢 done | 🟢 ok (non-story divs only) | 🔴 not started | 🟢 uploaded |
 | **Sefer-Moraim-Gdolim** | 🔴 not started | 🔴 not started | 🔵 23 refs | 🟢 done | 🟢 ok (non-story divs only) | 🔴 not started | 🟢 uploaded |
 | **Shemen-Hatov** | 🔴 not started | 🔴 not started | 🔵 1 refs | 🟢 done | 🟢 ok (non-story divs only) | 🔴 not started | 🟡 XML uploaded, images pending |
+| **Shivhei-Habesht** | 🔴 not started | 🔴 not started | 🔵 19 refs | 🟢 done | 🟢 216/216 xml:id ok | 🔴 not started | 🟢 uploaded |
 | **Shivhei-Harav** | 🔴 not started | 🔴 not started | 🔵 23 refs | 🟢 done | 🟢 ok (non-story divs only) | 🔴 not started | 🟢 uploaded |
 | **Shlosha-edrei-zon** | 🔴 not started | 🔴 not started | 🔵 70 refs | 🟢 done | 🟢 ok (non-story divs only) | 🔴 not started | 🟢 uploaded |
 | **Sipurei-Kdoshim** | 🔴 not started | 🔴 not started | 🔵 21 refs | 🟢 done | 🟢 ok (non-story divs only) | 🔴 not started | 🟢 uploaded |
@@ -70,23 +72,22 @@ Generated: 2026-03-26 | Updated: 2026-04-10 | Editions: 26
 
 ## Summary
 
-- **01 Transkribus**: 🟢 26 | 🟡 0 | 🔴 0 | ⚪ 0
-- **02 TEI Conv.**: 🟢 26 | 🟡 0 | 🔴 0 | ⚪ 0
-- **03 Stories**: 🟢 26 | 🟡 0 | 🔴 0 | ⚪ 0
-- **04 fw**: 🟢 21 | 🟡 5 | 🔴 0 | ⚪ 0
-- **05 NER**: 🟢 26 | 🟡 0 | 🔴 0 | ⚪ 0
-- **06 Cleanup**: 🟢 26 | 🟡 0 | 🔴 0 | ⚪ 0
-- **07 Places**: 🟢 7 | 🟡 17 | 🔴 2 | ⚪ 0
-- **08 Persons**: 🟢 0 | 🟡 2 | 🔴 24 | ⚪ 0
-- **09 Currency**: 🟢 0 | 🟡 0 | 🔴 26 | ⚪ 0
-- **10 Abbrev.**: 🟢 0 | 🟡 0 | 🔴 26 | ⚪ 0
+- **01 Transkribus**: 🟢 27 | 🟡 0 | 🔴 0 | ⚪ 0
+- **02 TEI Conv.**: 🟢 27 | 🟡 0 | 🔴 0 | ⚪ 0
+- **03 Stories**: 🟢 27 | 🟡 0 | 🔴 0 | ⚪ 0
+- **04 fw**: 🟢 22 | 🟡 5 | 🔴 0 | ⚪ 0
+- **05 NER**: 🟢 27 | 🟡 0 | 🔴 0 | ⚪ 0
+- **06 Cleanup**: 🟢 27 | 🟡 0 | 🔴 0 | ⚪ 0
+- **07 Places**: 🟢 7 | 🟡 18 | 🔴 2 | ⚪ 0
+- **08 Persons**: 🟢 0 | 🟡 2 | 🔴 25 | ⚪ 0
+- **09 Currency**: 🟢 0 | 🟡 0 | 🔴 27 | ⚪ 0
+- **10 Abbrev.**: 🟢 0 | 🟡 0 | 🔴 27 | ⚪ 0
 - **11 Bibl**: 🟢 0 | 🟡 0 | 🔴 0 | ⚪ 0
-- **12 sourceDesc**: 🟢 26 | 🟡 0 | 🔴 0 | ⚪ 0
-- **13 Structural**: 🟢 26 | 🟡 0 | 🔴 0 | ⚪ 0
-- **14 Proofread**: 🟢 0 | 🟡 0 | 🔴 26 | ⚪ 0
-- **15 Deploy**: 🟢 24 | 🟡 1 (Shemen-Hatov — XML uploaded, images pending) | 🔴 1 (MaasiyotUmaamarimYekarim — images + facs refs) | ⚪ 0
+- **12 sourceDesc**: 🟢 27 | 🟡 0 | 🔴 0 | ⚪ 0
+- **13 Structural**: 🟢 27 | 🟡 0 | 🔴 0 | ⚪ 0
+- **14 Proofread**: 🟢 0 | 🟡 0 | 🔴 27 | ⚪ 0
+- **15 Deploy**: 🟢 26 | 🟡 1 (Shemen-Hatov — XML uploaded, images pending) | 🔴 0 | ⚪ 0
 
 ## Open Issues (2026-04-10)
 - **Homepage shows only 10 editions** — all 26 are uploaded and in the same collection; likely a `perPage` limit in TEI-Publisher config. Pending: ask Gil to fix.
-- **MaasiyotUmaamarimYekarim** — images not uploaded; `facs` refs use `#facs_N` fragments (need to be replaced with actual filenames after upload).
 - **Shemen-Hatov** — XML uploaded, images not yet uploaded.

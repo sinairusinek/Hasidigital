@@ -507,7 +507,7 @@ def batch_link_edition(edition_path: str, variant_index: dict[str, str],
 
 def batch_link_all_editions(dry_run: bool) -> int:
     """
-    Run batch-linking on every ``_corrected.xml`` file in ``editions/incoming/``.
+    Run batch-linking on every ``_corrected.xml`` file in ``editions/online/``.
     Returns total number of newly linked elements across all editions.
     """
     variant_index = _build_variant_index(MATCHING_DB_PATH)

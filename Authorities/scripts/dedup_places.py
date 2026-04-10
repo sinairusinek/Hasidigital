@@ -43,7 +43,7 @@ def _default_paths():
     auth_dir = script_dir.parent
     project_dir = auth_dir.parent
     authority_xml = auth_dir / "Authorities2026-01-14.xml"
-    editions_dir = project_dir / "editions" / "incoming"
+    editions_dir = project_dir / "editions" / "online"
     return authority_xml, editions_dir
 
 

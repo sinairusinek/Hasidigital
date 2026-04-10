@@ -3,7 +3,7 @@
 add_story_spans.py
 ~~~~~~~~~~~~~~~~~~
 Add <span ana="TBD:Unknown"/> immediately after every <head type="storyHead"> in
-all canonical *.xml files in editions/incoming/ (excludes *_corrected.xml and *.bak).
+all canonical *.xml files in editions/online/ (excludes *_corrected.xml and *.bak).
 
 Rules applied per story <div>:
     • No <span ana=...> after the head               → insert <span ana="TBD:Unknown"/>
@@ -30,7 +30,7 @@ from pathlib import Path
 
 # ── Paths ─────────────────────────────────────────────────────────────────────
 _REPO     = Path(__file__).resolve().parent.parent.parent   # Hasidigital/
-_INCOMING = _REPO / "editions" / "incoming"
+_INCOMING = _REPO / "editions" / "online"
 _DEFAULT_TOPIC_PLACEHOLDER = "TBD:Unknown"
 
 

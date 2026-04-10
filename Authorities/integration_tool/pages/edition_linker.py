@@ -4,7 +4,7 @@ A 4-step wizard for matching unlinked place names in editions
 to the authorities matching database.
 
 Steps:
-  1. Select an edition from editions/incoming/, see linked vs unlinked summary
+  1. Select an edition from editions/online/, see linked vs unlinked summary
   2. Review auto-matches of unlinked names against the matching DB
   3. Resolve conflicts and assign IDs to new places
   4. Save updates to matching DB (+ Authorities.xml for new places) and commit

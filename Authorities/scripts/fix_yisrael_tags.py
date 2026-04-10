@@ -23,7 +23,7 @@ import argparse
 import re
 from pathlib import Path
 
-EDITIONS_DIR = Path(__file__).parent.parent.parent / "editions" / "incoming"
+EDITIONS_DIR = Path(__file__).parent.parent.parent / "editions" / "online"
 
 # ── regex patterns ─────────────────────────────────────────────────────────────
 

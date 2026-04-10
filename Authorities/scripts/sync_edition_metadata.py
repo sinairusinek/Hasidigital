@@ -18,7 +18,7 @@ from pathlib import Path
 
 REPO = Path(__file__).resolve().parent.parent.parent
 EDITION_META = REPO / "editions" / "edition-metadata.json"
-INCOMING = REPO / "editions" / "incoming"
+INCOMING = REPO / "editions" / "online"
 MATCH_DB = REPO / "Authorities" / "authorities-matching-db.json"
 
 TEI_NS = "http://www.tei-c.org/ns/1.0"
