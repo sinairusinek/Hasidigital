@@ -621,6 +621,274 @@
       },
       "match_method": "dedupmrg",
       "match_notes": "matched via dedupmrg287072426_IE37286025; Kopust first edition 1814"
+    },
+    {
+      "xml_filename": "Torat-Haramal.xml",
+      "DBid": "3719",
+      "title_he": "תורת הרמ\"ל השלם",
+      "title_en": "Torat HaRamal HaShalem",
+      "date_ce": "1903",
+      "date_he": "תרס\"ג",
+      "pub_place_he": "סיגט",
+      "pub_place_en": "Sighet",
+      "author_he": "מנחם מנדל אב\"ד זאבילטוב",
+      "author_en": "Menachem Mendel, Abad Zabiletov",
+      "language": "heb",
+      "sources": [
+        {
+          "role": "primary",
+          "DBid": "3719",
+          "title_he": "תורת הרמ\"ל השלם",
+          "identifiers": {
+            "HebrewBooks": "3827",
+            "Kima": "99"
+          }
+        },
+        {
+          "role": "supplement",
+          "DBid": "3697",
+          "title_he": "ליקוטים חדשים",
+          "author_he": "יחיאל משה גרינוולד",
+          "date_he": "תרנ\"ט",
+          "date_ce": "1899",
+          "pub_place_en": "Warsaw",
+          "note": "used to supply missing pages",
+          "identifiers": {
+            "HebrewBooks": "3671",
+            "Transkribus": "6577070"
+          }
+        }
+      ],
+      "identifiers": {
+        "HebrewBooks": "3827",
+        "Kima": "99",
+        "Transkribus": "15471223"
+      }
+    },
+    {
+      "xml_filename": "Toldot-Haniflaot.xml",
+      "DBid": "3696",
+      "title_he": "תולדות הנפלאות",
+      "title_en": "Toldot HaNiflaot",
+      "date_ce": "1899",
+      "date_he": "תרנ\"ט",
+      "pub_place_he": "ורשה",
+      "pub_place_en": "Warsaw",
+      "author_he": "ישראל משה ברומברג",
+      "author_en": "Yisrael Moshe Brumberg",
+      "language": "heb",
+      "identifiers": {
+        "HebrewBooks": "3882",
+        "Kima": "953",
+        "Transkribus": "6452887"
+      }
+    },
+    {
+      "xml_filename": "Peulat-Hatzadikim.xml",
+      "DBid": "3703",
+      "title_he": "פעולת הצדיקים",
+      "title_en": "Peulat HaTzadikim",
+      "date_ce": "1900",
+      "date_he": "תר\"ס",
+      "pub_place_he": "פאדגורזא",
+      "pub_place_en": "Podgorze",
+      "author_he": "יצחק צינגר",
+      "author_en": "Yitzhak Zinger",
+      "language": "heb",
+      "sources": [
+        {
+          "role": "primary",
+          "DBid": "3703",
+          "title_he": "פעולת הצדיקים",
+          "identifiers": {
+            "HebrewBooks": "3801",
+            "Kima": "168"
+          }
+        },
+        {
+          "role": "supplement",
+          "DBid": "3698",
+          "title_he": "מים רבים",
+          "author_he": "נתן נטע דונר",
+          "date_he": "תרנ\"ט",
+          "date_ce": "1899",
+          "pub_place_en": "Warsaw",
+          "note": "used to supply missing pages",
+          "identifiers": {
+            "HebrewBooks": "3711",
+            "Transkribus": "6577154"
+          }
+        }
+      ],
+      "identifiers": {
+        "HebrewBooks": "3801",
+        "Kima": "168",
+        "Transkribus": "6577152"
+      }
+    },
+    {
+      "xml_filename": "Seva-Ratzon.xml",
+      "DBid": "3706",
+      "title_he": "שבע רצון",
+      "title_en": "Sheva Ratzon",
+      "date_ce": "1901",
+      "date_he": "תרס\"א",
+      "pub_place_he": "פאדגורזא",
+      "pub_place_en": "Podgorze",
+      "author_he": "יצחק צינגר",
+      "author_en": "Yitzhak Zinger",
+      "language": "heb",
+      "identifiers": {
+        "HebrewBooks": "39105",
+        "Kima": "168",
+        "Transkribus": "6577969"
+      }
+    },
+    {
+      "xml_filename": "Maasim-Tovim.xml",
+      "DBid": "3702",
+      "title_he": "מעשים טובים",
+      "title_en": "Maasim Tovim",
+      "date_ce": "1900",
+      "date_he": "תר\"ס",
+      "pub_place_he": "פאדגורזא",
+      "pub_place_en": "Podgorze",
+      "author_he": "אלעזר שענקל",
+      "author_en": "Elazar Shenkel",
+      "language": "heb",
+      "identifiers": {
+        "HebrewBooks": "33915",
+        "Kima": "168",
+        "Transkribus": "6578374"
+      }
+    },
+    {
+      "xml_filename": "Shaarei-Haemuna.xml",
+      "DBid": "3708",
+      "title_he": "שערי האמונה",
+      "title_en": "Shaarei HaEmunah",
+      "date_ce": "1901",
+      "date_he": "תרס\"א",
+      "pub_place_he": "ורשה",
+      "pub_place_en": "Warsaw",
+      "author_he": "נתן נטע דונר",
+      "author_en": "Natan Netah Doner",
+      "language": "heb",
+      "identifiers": {
+        "HebrewBooks": "3629",
+        "Kima": "953",
+        "Transkribus": "6705131"
+      }
+    },
+    {
+      "xml_filename": "Derech-Haemuna.xml",
+      "DBid": "3692",
+      "title_he": "דרך האמונה ומעשה רב",
+      "title_en": "Derech HaEmunah UMaaseh Rav",
+      "date_ce": "1898",
+      "date_he": "תרנ\"ח",
+      "pub_place_he": "ורשה",
+      "pub_place_en": "Warsaw",
+      "author_he": "יעקב שלום דונר",
+      "author_en": "Yaacov Shalom Doner",
+      "language": "heb",
+      "identifiers": {
+        "HebrewBooks": "3626",
+        "Kima": "953",
+        "Transkribus": "7125297"
+      }
+    },
+    {
+      "xml_filename": "Eser-Kedushot.xml",
+      "DBid": "3734",
+      "title_he": "עשר קדושות",
+      "title_en": "Eser Kedushoth",
+      "date_ce": "1906",
+      "date_he": "תרס\"ו",
+      "pub_place_he": "פיוטרקוב",
+      "pub_place_en": "Piotrkow",
+      "author_he": "ישראל ברגר",
+      "author_en": "Yisrael Berger",
+      "language": "heb",
+      "identifiers": {
+        "Kima": "250",
+        "Transkribus": "9194695"
+      }
+    },
+    {
+      "xml_filename": "Eser-Orot.xml",
+      "DBid": "3738",
+      "title_he": "עשר אורות",
+      "title_en": "Eser Orot",
+      "date_ce": "1907",
+      "date_he": "תרס\"ז",
+      "pub_place_he": "פיוטרקוב",
+      "pub_place_en": "Piotrkow",
+      "author_he": "ישראל ברגר",
+      "author_en": "Yisrael Berger",
+      "language": "heb",
+      "identifiers": {
+        "HebrewBooks": "3621",
+        "Kima": "250",
+        "Transkribus": "9194696"
+      }
+    },
+    {
+      "xml_filename": "Tiferet-Hayyim.xml",
+      "DBid": "3729",
+      "title_he": "תפארת חיים",
+      "title_en": "Tiferet Hayyim",
+      "date_ce": "1905",
+      "date_he": "תרס\"ה",
+      "pub_place_he": "ורשה",
+      "pub_place_en": "Warsaw",
+      "author_he": "נתן נטע דונר",
+      "author_en": "Natan Netah Doner",
+      "language": "heb",
+      "identifiers": {
+        "HebrewBooks": "3686",
+        "BHB": "177534",
+        "Kima": "953",
+        "Transkribus": "9568035"
+      }
+    },
+    {
+      "xml_filename": "Likutim-Hadashim.xml",
+      "DBid": "3697",
+      "title_he": "ליקוטים חדשים",
+      "title_en": "Likutim Hadashim",
+      "date_ce": "1899",
+      "date_he": "תרנ\"ט",
+      "pub_place_he": "ורשה",
+      "pub_place_en": "Warsaw",
+      "author_he": "יחיאל משה גרינוולד",
+      "author_en": "Yechiel Moshe Greenwald",
+      "language": "heb",
+      "identifiers": {
+        "HebrewBooks": "3671",
+        "BHB": "135736",
+        "Kima": "953",
+        "Transkribus": "6577070"
+      }
+    },
+    {
+      "xml_filename": "Maim-Rabim.xml",
+      "DBid": "3698",
+      "title_he": "מים רבים",
+      "title_en": "Maim Rabim",
+      "date_ce": "1899",
+      "date_he": "תרנ\"ט",
+      "pub_place_he": "ורשה",
+      "pub_place_en": "Warsaw",
+      "author_he": "נתן נטע דונר",
+      "author_en": "Natan Netah Doner",
+      "language": "heb",
+      "identifiers": {
+        "HebrewBooks": "3711",
+        "BHB": "125501",
+        "Kima": "953",
+        "Transkribus": "6577154"
+      }
     }
   ],
   "meta": {
