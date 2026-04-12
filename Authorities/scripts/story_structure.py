@@ -7,12 +7,25 @@ proper <div type="story"> / <front> / <back> structure, ready for human
 review and editing.
 
 RA tagging conventions:
-  <story>first words</story>             story opener  (positive)
-  <story rend="non story">first</story>  non-story unit (paratext candidate)
-  No <story> tags at all                 use heading-based divs from step 02
+  <story n="N">first words</story>            story opener, numbered
+  <story>first words</story>                  story opener, unnumbered
+  <story rend="non story">first</story>       non-story unit (paratext candidate)
+  <story n="non story">first</story>          typo: n= instead of rend=
+  <story rend="story continued" n="N">        continuation of previous story
+  <story rend="students">…</story>            students list → non-story, ana="students-list"
+  <story rend="letter">…</story>              letter → non-story, ana="letter"
+  <story rend="dvar torah">…</story>          dvar-torah → non-story, ana="dvar-torah"
+  <story rend="marginal" n="N">…</story>      marginal note (flagged for review)
+  No <story> tags at all                      use heading-based divs from step 02
 
 The script writes the proposed structure directly to the XML. You then
 open the file in your editor, review, and adjust as needed.
+
+Output attributes on produced divs:
+  <div type="story" xml:id="Structured_NNNN" n="M">   M = RA's story number
+  <div type="non-story" ana="letter">                  known subtype
+  <div type="story" ana="FLAGGED: reason">             needs review
+  Numbering flags added to ana when sequence has gaps or restarts.
 
 Usage:
     python Authorities/scripts/story_structure.py <dijest_id>
@@ -38,6 +51,14 @@ METADATA_FILE = REPO_ROOT / "editions" / "edition-metadata.json"
 TEI_NS = "http://www.tei-c.org/ns/1.0"
 XML_NS = "http://www.w3.org/XML/1998/namespace"
 TEI_XMLID = f"{{{XML_NS}}}id"
+
+# Known rend values that mark non-story units with specific content types.
+# Maps rend value → ana subtype label to put on the resulting <div>.
+KNOWN_NON_STORY_SUBTYPES: dict[str, str] = {
+    "students":  "students-list",
+    "letter":    "letter",
+    "dvar torah": "dvar-torah",
+}
 
 
 # ── Metadata helpers ──────────────────────────────────────────────────────────
@@ -112,10 +133,105 @@ def _unpack_story_divs(body) -> None:
         body.remove(div)
 
 
+def classify_story_tag(el) -> tuple[str, str | None, str | None]:
+    """
+    Classify a <story> element.
+    Returns (type, flag_reason, subtype) where:
+      type        one of: 'story', 'non-story', 'continuation', 'unclear'
+      flag_reason None for clean cases; a string to add to the XML ana attribute
+      subtype     None for plain story/non-story; a label for known content types
+                  (e.g. 'letter', 'dvar-torah', 'students-list')
+    """
+    n_val    = el.get("n",    "").strip()
+    rend_val = el.get("rend", "").strip()
+
+    # Standard non-story
+    if rend_val == "non story":
+        return "non-story", None, None
+
+    # Known typo: n="non story" instead of rend="non story"
+    if n_val == "non story":
+        return "non-story", 'n="non story" — typo for rend="non story"', None
+
+    # Known non-story subtypes (students, letter, dvar torah, …)
+    if rend_val in KNOWN_NON_STORY_SUBTYPES:
+        return "non-story", None, KNOWN_NON_STORY_SUBTYPES[rend_val]
+
+    # Story continuation — merge into previous unit
+    if "story continued" in rend_val.lower():
+        return "continuation", None, None
+
+    # Marginal note — ambiguous when combined with a numeric n
+    if rend_val == "marginal":
+        flag = (
+            f'rend="marginal" with n="{n_val}" — marginal note has story number; '
+            f"classify manually as story or non-story"
+            if n_val.isdigit()
+            else f'rend="marginal" — marginal note; classify manually'
+        )
+        return "unclear", flag, None
+
+    # Standard story: numeric n, no rend
+    if n_val.isdigit() and not rend_val:
+        return "story", None, None
+
+    # Numeric n with an unexpected rend — treat as story but flag
+    if n_val.isdigit() and rend_val:
+        return "story", f'n="{n_val}" with rend="{rend_val}" — review annotation', None
+
+    # Unknown non-empty rend value
+    if rend_val:
+        return "unclear", f'rend="{rend_val}" — unknown value; classify as story or non-story', None
+
+    # No meaningful attributes at all — still treat as story opener
+    if not n_val and not rend_val:
+        return "story", None, None
+
+    return "unclear", f"unrecognized attributes: {dict(el.attrib)}", None
+
+
+def _check_story_numbering(units: list[dict]) -> None:
+    """
+    Walk story units in order and flag numbering anomalies.
+    Adds / appends to unit['flag'] for:
+      - gap:     expected N but got M > N
+      - restart: n reset to a lower value (likely a new chapter, but flag anyway)
+    Modifies units in-place.
+    """
+    last_n: int | None = None
+    for u in units:
+        if u["type"] != "story":
+            continue
+        n = u.get("story_n")
+        if n is None:
+            last_n = None   # unnumbered story resets sequence tracking
+            continue
+
+        if last_n is None:
+            # First numbered story — nothing to compare yet
+            last_n = n
+            continue
+
+        expected = last_n + 1
+        if n == expected:
+            last_n = n
+        elif n < last_n:
+            # Numbering went backwards — likely a new chapter
+            note = f"numbering restarts at n={n} (was {last_n}) — new chapter?"
+            u["flag"] = f"{u['flag']}; {note}" if u.get("flag") else note
+            last_n = n
+        else:
+            # Gap in numbering
+            note = f"numbering gap: expected n={expected}, got n={n}"
+            u["flag"] = f"{u['flag']}; {note}" if u.get("flag") else note
+            last_n = n
+
+
 def detect_units_from_story_tags(root) -> list[dict]:
     """
     Build story units from <story> inline tags.
-    Returns list of dicts: {type, paragraphs, heading_text}
+    Returns list of dicts:
+      {type, paragraphs, heading_text, flag, subtype, story_n}
     """
     body = root.find(f".//{tei('body')}")
     if body is None:
@@ -142,26 +258,57 @@ def detect_units_from_story_tags(root) -> list[dict]:
                 units[-1]["paragraphs"].append(p)
         else:
             first_story_seen = True
-            if current is not None:
-                units.append(current)
-            rend = sc.get("rend", "")
-            is_non_story = rend == "non story"
+            unit_type, flag, subtype = classify_story_tag(sc)
             head_el = p.find(tei("head"))
-            current = {
-                "type": "non-story" if is_non_story else "story",
-                "heading_text": inner_text(head_el) if head_el is not None else "",
-                "paragraphs": [p],
-            }
+            heading_text = inner_text(head_el) if head_el is not None else ""
+
+            # Extract RA story number (numeric n attribute)
+            raw_n = sc.get("n", "").strip()
+            story_n = int(raw_n) if raw_n.isdigit() else None
+
+            if unit_type == "continuation" and (current is not None or units):
+                # Merge into the currently-open unit if one exists, otherwise the
+                # last completed unit.  Using current is critical: when a story
+                # opener and its continuation are in adjacent paragraphs, current
+                # holds the opener's unit but it has not yet been appended to units.
+                target = current if current is not None else units[-1]
+                target["paragraphs"].append(p)
+                # Flag n-value mismatches between continuation and parent unit
+                if story_n is not None and target.get("story_n") != story_n:
+                    cont_note = (
+                        f'continuation tag has n="{story_n}" but parent unit has '
+                        f'n="{target.get("story_n")}" — verify'
+                    )
+                    target["flag"] = (
+                        f"{target['flag']}; {cont_note}"
+                        if target.get("flag") else cont_note
+                    )
+            else:
+                if current is not None:
+                    units.append(current)
+                current = {
+                    "type":         unit_type,
+                    "heading_text": heading_text,
+                    "paragraphs":   [p],
+                    "flag":         flag,
+                    "subtype":      subtype,
+                    "story_n":      story_n,
+                }
 
     if current is not None:
         units.append(current)
 
     if pre_story:
         units.insert(0, {
-            "type": "front-matter",
+            "type":         "front-matter",
             "heading_text": "",
-            "paragraphs": pre_story,
+            "paragraphs":   pre_story,
+            "flag":         None,
+            "subtype":      None,
+            "story_n":      None,
         })
+
+    _check_story_numbering(units)
 
     return units
 
@@ -184,13 +331,19 @@ def detect_units_from_headings(root) -> list[dict]:
                     "type": "front-matter",
                     "heading_text": "",
                     "paragraphs": loose_pre,
+                    "flag": None,
+                    "subtype": None,
+                    "story_n": None,
                 })
                 loose_pre = []
             head_el = child.find(tei("head"))
             units.append({
-                "type": "story",
+                "type":         "story",
                 "heading_text": inner_text(head_el) if head_el is not None else "",
-                "paragraphs": list(child),
+                "paragraphs":   list(child),
+                "flag":         None,
+                "subtype":      None,
+                "story_n":      None,
             })
         elif child.tag == tei("p"):
             if not story_seen:
@@ -200,9 +353,12 @@ def detect_units_from_headings(root) -> list[dict]:
                     units[-1]["paragraphs"].append(child)
                 else:
                     units.append({
-                        "type": "back-matter",
+                        "type":         "back-matter",
                         "heading_text": "",
-                        "paragraphs": [child],
+                        "paragraphs":   [child],
+                        "flag":         None,
+                        "subtype":      None,
+                        "story_n":      None,
                     })
 
     return units
@@ -210,12 +366,27 @@ def detect_units_from_headings(root) -> list[dict]:
 
 # ── Build XML structure ───────────────────────────────────────────────────────
 
+def _build_ana(subtype: str | None, flag: str | None) -> str | None:
+    """Compose the ana attribute value from subtype and/or flag."""
+    parts = []
+    if subtype:
+        parts.append(subtype)
+    if flag:
+        parts.append(f"FLAGGED: {flag}")
+    return " ".join(parts) if parts else None
+
+
 def build_structure(root, units: list[dict]) -> None:
     """
     Rewrite <body> (and optionally add <front>/<back>) using detected units.
-    Non-story units are placed in <!-- non-story --> commented divs so they
-    are visible for review but excluded from story counting.
     Strips <story> inline tags after restructuring.
+
+    Div attributes produced:
+      type="story"      xml:id="Structured_NNNN"  [n="M" if RA numbered it]
+                        [ana="FLAGGED: …" if flagged]
+      type="non-story"  [ana="subtype"]  [ana="subtype FLAGGED: …"]
+      type="unclear"    ana="FLAGGED: …"
+      type="front-matter" / type="back-matter"
     """
     body = root.find(f".//{tei('body')}")
     text_el = root.find(f".//{tei('text')}")
@@ -229,8 +400,6 @@ def build_structure(root, units: list[dict]) -> None:
 
     front_units = [u for u in units if u["type"] == "front-matter"]
     back_units  = [u for u in units if u["type"] == "back-matter"]
-    story_units = [u for u in units if u["type"] == "story"]
-    non_story   = [u for u in units if u["type"] == "non-story"]
 
     # ── <front> ───────────────────────────────────────────────────────────────
     if front_units:
@@ -242,29 +411,32 @@ def build_structure(root, units: list[dict]) -> None:
             for p in u["paragraphs"]:
                 div.append(p)
 
-    # ── <body>: story divs + non-story marked divs ────────────────────────────
-    # Interleave stories and non-story units in document order
-    # (preserve original paragraph order across all units)
-    all_body_units = [u for u in units if u["type"] in ("story", "non-story")]
+    # ── <body>: story + non-story + unclear divs in document order ────────────
+    body_unit_types = ("story", "non-story", "unclear")
+    all_body_units = [u for u in units if u["type"] in body_unit_types]
     div_counter = 1
     for u in all_body_units:
+        div = etree.SubElement(body, tei("div"))
+        div.set("type", u["type"])
+
         if u["type"] == "story":
-            div = etree.SubElement(body, tei("div"))
-            div.set("type", "story")
             div.set(TEI_XMLID, f"Structured_{div_counter:04d}")
             div_counter += 1
-            if u["heading_text"]:
-                head = etree.SubElement(div, tei("head"))
-                head.set("type", "orig")
-                head.text = u["heading_text"]
-            for p in u["paragraphs"]:
-                div.append(p)
-        else:
-            # Non-story: wrap in a div with type="non-story" for easy review
-            div = etree.SubElement(body, tei("div"))
-            div.set("type", "non-story")
-            for p in u["paragraphs"]:
-                div.append(p)
+            # Preserve RA's story number if available
+            if u.get("story_n") is not None:
+                div.set("n", str(u["story_n"]))
+
+        ana = _build_ana(u.get("subtype"), u.get("flag"))
+        if ana:
+            div.set("ana", ana)
+
+        if u["heading_text"]:
+            head = etree.SubElement(div, tei("head"))
+            head.set("type", "orig")
+            head.text = u["heading_text"]
+
+        for p in u["paragraphs"]:
+            div.append(p)
 
     # ── <back> ────────────────────────────────────────────────────────────────
     if back_units:
@@ -298,9 +470,10 @@ def _strip_story_tags(root) -> None:
 # ── Report ────────────────────────────────────────────────────────────────────
 
 def print_report(slug: str, mode: str, units: list[dict]) -> None:
-    counts = {}
+    counts: dict[str, int] = {}
     for u in units:
         counts[u["type"]] = counts.get(u["type"], 0) + 1
+    flagged = [u for u in units if u.get("flag")]
 
     print(f"\n{'='*60}")
     print(f"  Story Structure  —  {slug}")
@@ -309,12 +482,26 @@ def print_report(slug: str, mode: str, units: list[dict]) -> None:
     for k, v in sorted(counts.items()):
         print(f"  {k+':':<16} {v}")
     print(f"  {'total:':<16} {len(units)}")
+    if flagged:
+        print(f"  {'⚠ flagged:':<16} {len(flagged)}")
     print()
-    print(f"  {'#':<4}  {'TYPE':<13}  FIRST WORDS")
-    print(f"  {'-'*4}  {'-'*13}  {'-'*45}")
+    print(f"  {'#':<4}  {'TYPE':<13}  {'N':<4}  FIRST WORDS")
+    print(f"  {'-'*4}  {'-'*13}  {'-'*4}  {'-'*45}")
     for i, u in enumerate(units, 1):
         fw = first_words(u["paragraphs"][0]) if u["paragraphs"] else "(empty)"
-        print(f"  {i:<4}  {u['type']:<13}  {fw}")
+        n_label = str(u.get("story_n")) if u.get("story_n") is not None else ""
+        flag_marker = "  ⚠" if u.get("flag") else ""
+        sub_marker = f"  [{u['subtype']}]" if u.get("subtype") else ""
+        print(f"  {i:<4}  {u['type']:<13}  {n_label:<4}  {fw}{sub_marker}{flag_marker}")
+    if flagged:
+        print()
+        print("  ⚠  Flagged units — review the ana=\"FLAGGED:...\" attribute in the XML:")
+        for i, u in enumerate(units, 1):
+            if u.get("flag"):
+                fw = first_words(u["paragraphs"][0]) if u["paragraphs"] else "(empty)"
+                n_label = f" n={u['story_n']}" if u.get("story_n") is not None else ""
+                print(f"     #{i}{n_label}  [{u['type']}]  {fw}")
+                print(f"          {u['flag']}")
     print()
 
 
@@ -365,15 +552,24 @@ def run(dijest_id: str, dry_run: bool) -> None:
     tree.write(str(xml_path), encoding="UTF-8",
                xml_declaration=True, pretty_print=True)
 
-    story_count = len(root.findall(f".//{tei('div')}[@type='story']"))
+    story_count     = len(root.findall(f".//{tei('div')}[@type='story']"))
     non_story_count = len(root.findall(f".//{tei('div')}[@type='non-story']"))
+    unclear_count   = len(root.findall(f".//{tei('div')}[@type='unclear']"))
+    flagged_divs    = [
+        el for el in root.iter()
+        if (el.get("ana") or "").startswith("FLAGGED") or "FLAGGED:" in (el.get("ana") or "")
+    ]
     has_front = root.find(f".//{tei('front')}") is not None
-    has_back = root.find(f".//{tei('back')}") is not None
+    has_back  = root.find(f".//{tei('back')}")  is not None
     remaining = root.findall(f".//{tei('story')}")
 
     print(f"✓  XML written: {xml_path.name}")
     print(f"   Story divs:       {story_count}")
-    print(f"   Non-story divs:   {non_story_count}  (type=\"non-story\", review and remove or reclassify)")
+    print(f"   Non-story divs:   {non_story_count}")
+    if unclear_count:
+        print(f"   Unclear divs:     {unclear_count}  ⚠ needs classification")
+    if flagged_divs:
+        print(f"   Flagged divs:     {len(flagged_divs)}  ⚠ search ana=\"FLAGGED\" in the XML")
     print(f"   <front> element:  {'yes' if has_front else 'no'}")
     print(f"   <back> element:   {'yes' if has_back else 'no'}")
     if remaining:
