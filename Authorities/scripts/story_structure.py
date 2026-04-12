@@ -121,6 +121,24 @@ def has_story_tags(root) -> bool:
     return bool(root.findall(f".//{tei('story')}"))
 
 
+def _unwrap_body_container(body) -> None:
+    """
+    Transkribus TEI exports often place all body content inside a single
+    unnamed <div> child of <body>.  Hoist that wrapper's children directly
+    into <body> so the rest of the script can treat <body> as the flat
+    container.
+    """
+    children = list(body)
+    if len(children) == 1 and children[0].tag == tei("div") and not children[0].get("type"):
+        wrapper = children[0]
+        idx = 0
+        for child in list(wrapper):
+            wrapper.remove(child)
+            body.insert(idx, child)
+            idx += 1
+        body.remove(wrapper)
+
+
 def _unpack_story_divs(body) -> None:
     """Move children of <div type="story"> back to body as flat siblings."""
     for div in list(body.findall(tei("div"))):
@@ -313,6 +331,17 @@ def detect_units_from_story_tags(root) -> list[dict]:
     return units
 
 
+# Heading text patterns that signal end-of-book colophon → back-matter
+_COLOPHON_PATTERNS = re.compile(
+    r"^(תם|תם ונשלם|סוף|נשלם|סוף הספר|תם הספר|ברוך שגמרנו|חזק)",
+    re.UNICODE,
+)
+
+
+def _is_colophon_heading(heading_text: str) -> bool:
+    return bool(_COLOPHON_PATTERNS.match(heading_text.strip()))
+
+
 def detect_units_from_headings(root) -> list[dict]:
     """Use existing <div type="story"> elements from step-02 heading processing."""
     body = root.find(f".//{tei('body')}")
@@ -337,14 +366,26 @@ def detect_units_from_headings(root) -> list[dict]:
                 })
                 loose_pre = []
             head_el = child.find(tei("head"))
-            units.append({
-                "type":         "story",
-                "heading_text": inner_text(head_el) if head_el is not None else "",
-                "paragraphs":   list(child),
-                "flag":         None,
-                "subtype":      None,
-                "story_n":      None,
-            })
+            heading_text = inner_text(head_el) if head_el is not None else ""
+            # Colophon headings → back-matter instead of story
+            if _is_colophon_heading(heading_text):
+                units.append({
+                    "type":         "back-matter",
+                    "heading_text": heading_text,
+                    "paragraphs":   list(child),
+                    "flag":         None,
+                    "subtype":      None,
+                    "story_n":      None,
+                })
+            else:
+                units.append({
+                    "type":         "story",
+                    "heading_text": heading_text,
+                    "paragraphs":   list(child),
+                    "flag":         None,
+                    "subtype":      None,
+                    "story_n":      None,
+                })
         elif child.tag == tei("p"):
             if not story_seen:
                 loose_pre.append(child)
@@ -360,6 +401,16 @@ def detect_units_from_headings(root) -> list[dict]:
                         "subtype":      None,
                         "story_n":      None,
                     })
+
+    # Warn if very few story divs were produced — likely sparse heading tagging
+    story_count = sum(1 for u in units if u["type"] == "story")
+    if story_count <= 2 and units:
+        for u in units:
+            if u["type"] == "story" and not u.get("flag"):
+                u["flag"] = (
+                    f"only {story_count} story div(s) detected — heading zones may be "
+                    "sparsely tagged; consider manual story boundary annotation"
+                )
 
     return units
 
@@ -535,11 +586,24 @@ def run(dijest_id: str, dry_run: bool) -> None:
         zones_remaining = root.findall(f".//{tei('zone')}")
         story_divs = root.findall(f".//{tei('div')}[@type='story']")
         if zones_remaining and not story_divs:
-            print(f"\n✗  No <story> tags found and facsimile zones are still present.")
-            print(f"   Step 02 (TEI conversion) must run before Step 02b.")
-            sys.exit(1)
+            # No RA story tags and step 02 hasn't run yet.
+            # Auto-apply structural preprocessing: heading zones → <div type="story">
+            print("  No <story> tags found; applying structural preprocessing (step 02)…")
+            sys.path.insert(0, str(REPO_ROOT))
+            from ner_pipeline.structural_preprocess import (
+                restructure_facsimile_zones,
+                remove_facsimile_and_attrs,
+            )
+            restructure_facsimile_zones(tree)
+            remove_facsimile_and_attrs(tree)
+            # Hoist wrapper <div> children directly into <body> if present
+            _body = root.find(f".//{tei('body')}")
+            if _body is not None:
+                _unwrap_body_container(_body)
+            mode = "heading zones (step 02 preprocessing applied inline)"
+        else:
+            mode = "heading zones (step 02 already applied)"
         units = detect_units_from_headings(root)
-        mode = "heading zones (from step 02)"
 
     print_report(slug, mode, units)
 
