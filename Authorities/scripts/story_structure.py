@@ -2,33 +2,26 @@
 """
 story_structure.py  —  Pipeline Step 02b: Story Structure
 ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
-Translates the RA's Transkribus story-tagging into proper TEI
-<div type="story"> / <front> / <back> structure.
+Translates the RA's Transkribus story-tagging into a TEI XML draft with
+proper <div type="story"> / <front> / <back> structure, ready for human
+review and editing.
 
-Two modes:
+RA tagging conventions:
+  <story>first words</story>             story opener  (positive)
+  <story rend="non story">first</story>  non-story unit (paratext candidate)
+  No <story> tags at all                 use heading-based divs from step 02
 
-  Draft (default):
-    Reads the post-step-02 XML, analyses story signals, and writes a
-    TSV review file for human confirmation.
-
-    <story>first words</story>           → story opener (RA's positive tag)
-    <story rend="non story">first</story>→ non-story unit (paratext candidate)
-    No <story> tags at all               → use heading-based divs from step 02
-
-  Apply (--apply):
-    Reads the confirmed TSV (with decision column filled in) and rewrites
-    the XML with the correct <div type="story">, <front>, <back> structure.
+The script writes the proposed structure directly to the XML. You then
+open the file in your editor, review, and adjust as needed.
 
 Usage:
     python Authorities/scripts/story_structure.py <dijest_id>
     python Authorities/scripts/story_structure.py <dijest_id> --dry-run
-    python Authorities/scripts/story_structure.py <dijest_id> --apply
 """
 
 from __future__ import annotations
 
 import argparse
-import csv
 import json
 import re
 import sys
@@ -45,10 +38,6 @@ METADATA_FILE = REPO_ROOT / "editions" / "edition-metadata.json"
 TEI_NS = "http://www.tei-c.org/ns/1.0"
 XML_NS = "http://www.w3.org/XML/1998/namespace"
 TEI_XMLID = f"{{{XML_NS}}}id"
-
-DRAFT_TSV_NAME = "story-structure-draft.tsv"
-
-DECISION_OPTIONS = ("confirm", "front", "back", "skip")
 
 
 # ── Metadata helpers ──────────────────────────────────────────────────────────
@@ -79,31 +68,7 @@ def tei(tag: str) -> str:
     return f"{{{TEI_NS}}}{tag}"
 
 
-def iter_body_children(root) -> Iterator:
-    """Yield direct children of the first <body> element."""
-    body = root.find(f".//{tei('body')}")
-    if body is None:
-        return
-    yield from list(body)
-
-
-def get_facs_page(el) -> str | None:
-    """Return the facs page filename from a <pb> sibling preceding el."""
-    parent = el.getparent()
-    if parent is None:
-        return None
-    idx = list(parent).index(el)
-    for i in range(idx, -1, -1):
-        sib = parent[i]
-        if sib.tag == tei("pb"):
-            facs = sib.get("facs", "")
-            m = re.search(r"_(\d{4})\.jpg$", facs)
-            return m.group(1) if m else facs
-    return None
-
-
 def inner_text(el) -> str:
-    """Return concatenated text content of element (strips tags)."""
     return "".join(el.itertext()).strip()
 
 
@@ -116,93 +81,27 @@ def first_words(el, n: int = 8) -> str:
     return snippet
 
 
-# ── Detection: story-tag mode ─────────────────────────────────────────────────
+def get_pb_facs(el) -> str | None:
+    """Return the facs attribute of the nearest preceding <pb> sibling."""
+    parent = el.getparent()
+    if parent is None:
+        return None
+    siblings = list(parent)
+    idx = siblings.index(el)
+    for i in range(idx, -1, -1):
+        if siblings[i].tag == tei("pb"):
+            return siblings[i].get("facs", "")
+    return None
+
+
+# ── Detection ─────────────────────────────────────────────────────────────────
 
 def has_story_tags(root) -> bool:
     return bool(root.findall(f".//{tei('story')}"))
 
 
-def detect_units_from_story_tags(root) -> list[dict]:
-    """
-    Walk all <p> elements inside <body> in document order.
-    Each <p> containing a <story> (with or without rend) is a unit opener.
-    Paragraphs before the first <story> tag are front-matter candidates.
-    Paragraphs after the last <story> tag are back-matter candidates.
-    Returns a list of unit dicts.
-    """
-    body = root.find(f".//{tei('body')}")
-    if body is None:
-        return []
-
-    # Flatten body: unpack any existing <div type="story"> from heading-based
-    # step-02 processing back to flat paragraphs before we re-analyse.
-    _unpack_story_divs(body)
-
-    # Gather all <p> elements (flat, in order) from body
-    paragraphs = list(body.iter(tei("p")))
-
-    # Identify which paragraphs contain story/non-story openers
-    # A paragraph "opens" a unit if it directly contains a <story> child.
-    def story_child(p):
-        return p.find(tei("story"))
-
-    units: list[dict] = []
-    current_unit: dict | None = None
-    first_story_seen = False
-
-    # Collect pre-story paragraphs (front-matter candidates)
-    pre_story: list = []
-
-    for p in paragraphs:
-        sc = story_child(p)
-        if sc is None:
-            if not first_story_seen:
-                pre_story.append(p)
-            elif current_unit is not None:
-                current_unit["paragraphs"].append(p)
-            else:
-                # between units — attach to previous or treat as back matter
-                if units:
-                    units[-1]["paragraphs"].append(p)
-        else:
-            first_story_seen = True
-            # Close current unit
-            if current_unit is not None:
-                units.append(current_unit)
-            rend = sc.get("rend", "")
-            proposed = "non-story" if rend == "non story" else "story"
-            # heading text: the <story> element's text, or the first <head> sibling
-            head_el = p.find(tei("head"))
-            heading_text = inner_text(head_el) if head_el is not None else ""
-            current_unit = {
-                "proposed_type": proposed,
-                "heading_text": heading_text,
-                "opener_p": p,
-                "paragraphs": [p],
-                "page_start": get_facs_page(p) or "",
-            }
-
-    if current_unit is not None:
-        units.append(current_unit)
-
-    # Prepend front-matter unit if any pre-story paragraphs exist
-    if pre_story:
-        units.insert(0, {
-            "proposed_type": "front-matter",
-            "heading_text": "",
-            "opener_p": pre_story[0],
-            "paragraphs": pre_story,
-            "page_start": get_facs_page(pre_story[0]) or "",
-        })
-
-    return units
-
-
 def _unpack_story_divs(body) -> None:
-    """
-    Move children of any <div type="story"> back to the body as flat siblings,
-    then remove the now-empty div. Preserves document order.
-    """
+    """Move children of <div type="story"> back to body as flat siblings."""
     for div in list(body.findall(tei("div"))):
         if div.get("type") != "story":
             continue
@@ -213,13 +112,62 @@ def _unpack_story_divs(body) -> None:
         body.remove(div)
 
 
-# ── Detection: heading mode (no story tags) ───────────────────────────────────
+def detect_units_from_story_tags(root) -> list[dict]:
+    """
+    Build story units from <story> inline tags.
+    Returns list of dicts: {type, paragraphs, heading_text}
+    """
+    body = root.find(f".//{tei('body')}")
+    if body is None:
+        return []
+
+    # Unpack any heading-based divs so we work on a flat paragraph list
+    _unpack_story_divs(body)
+
+    paragraphs = list(body.iter(tei("p")))
+
+    units: list[dict] = []
+    current: dict | None = None
+    pre_story: list = []
+    first_story_seen = False
+
+    for p in paragraphs:
+        sc = p.find(tei("story"))
+        if sc is None:
+            if not first_story_seen:
+                pre_story.append(p)
+            elif current is not None:
+                current["paragraphs"].append(p)
+            elif units:
+                units[-1]["paragraphs"].append(p)
+        else:
+            first_story_seen = True
+            if current is not None:
+                units.append(current)
+            rend = sc.get("rend", "")
+            is_non_story = rend == "non story"
+            head_el = p.find(tei("head"))
+            current = {
+                "type": "non-story" if is_non_story else "story",
+                "heading_text": inner_text(head_el) if head_el is not None else "",
+                "paragraphs": [p],
+            }
+
+    if current is not None:
+        units.append(current)
+
+    if pre_story:
+        units.insert(0, {
+            "type": "front-matter",
+            "heading_text": "",
+            "paragraphs": pre_story,
+        })
+
+    return units
+
 
 def detect_units_from_headings(root) -> list[dict]:
-    """
-    Use existing <div type="story"> elements created by structural_preprocess.py.
-    Paragraphs outside any story div are paratext candidates.
-    """
+    """Use existing <div type="story"> elements from step-02 heading processing."""
     body = root.find(f".//{tei('body')}")
     if body is None:
         return []
@@ -231,230 +179,148 @@ def detect_units_from_headings(root) -> list[dict]:
     for child in list(body):
         if child.tag == tei("div") and child.get("type") == "story":
             story_seen = True
-            # Pre-story loose paragraphs → front matter
             if loose_pre:
                 units.insert(0, {
-                    "proposed_type": "front-matter",
+                    "type": "front-matter",
                     "heading_text": "",
-                    "opener_p": loose_pre[0],
                     "paragraphs": loose_pre,
-                    "page_start": get_facs_page(loose_pre[0]) or "",
                 })
                 loose_pre = []
-
             head_el = child.find(tei("head"))
-            heading_text = inner_text(head_el) if head_el is not None else ""
-            paragraphs = list(child)
-            page = get_facs_page(paragraphs[0]) if paragraphs else ""
             units.append({
-                "proposed_type": "story",
-                "heading_text": heading_text,
-                "opener_p": paragraphs[0] if paragraphs else child,
-                "paragraphs": paragraphs,
-                "page_start": page,
+                "type": "story",
+                "heading_text": inner_text(head_el) if head_el is not None else "",
+                "paragraphs": list(child),
             })
         elif child.tag == tei("p"):
             if not story_seen:
                 loose_pre.append(child)
             else:
-                # Post-story loose paragraph → back matter
-                if units and units[-1]["proposed_type"] == "back-matter":
+                if units and units[-1]["type"] == "back-matter":
                     units[-1]["paragraphs"].append(child)
                 else:
                     units.append({
-                        "proposed_type": "back-matter",
+                        "type": "back-matter",
                         "heading_text": "",
-                        "opener_p": child,
                         "paragraphs": [child],
-                        "page_start": get_facs_page(child) or "",
                     })
 
     return units
 
 
-# ── Draft TSV ─────────────────────────────────────────────────────────────────
+# ── Build XML structure ───────────────────────────────────────────────────────
 
-def units_to_tsv_rows(units: list[dict]) -> list[dict]:
-    rows = []
-    for i, u in enumerate(units, 1):
-        opener = u["opener_p"]
-        rows.append({
-            "unit_num": i,
-            "proposed_type": u["proposed_type"],
-            "heading_text": u["heading_text"][:60],
-            "first_words": first_words(opener),
-            "page_start": u["page_start"],
-            "decision": "",
-            "notes": "",
-        })
-    return rows
-
-
-TSV_FIELDS = ["unit_num", "proposed_type", "heading_text", "first_words",
-              "page_start", "decision", "notes"]
-
-
-def write_draft_tsv(path: Path, rows: list[dict]) -> None:
-    with open(path, "w", encoding="utf-8", newline="") as f:
-        writer = csv.DictWriter(f, fieldnames=TSV_FIELDS, delimiter="\t")
-        writer.writeheader()
-        writer.writerows(rows)
-
-
-def read_draft_tsv(path: Path) -> list[dict]:
-    with open(path, encoding="utf-8", newline="") as f:
-        return list(csv.DictReader(f, delimiter="\t"))
-
-
-# ── Report ────────────────────────────────────────────────────────────────────
-
-def print_report(slug: str, mode: str, units: list[dict]) -> None:
-    story_count = sum(1 for u in units if u["proposed_type"] == "story")
-    non_story = sum(1 for u in units if u["proposed_type"] == "non-story")
-    front = sum(1 for u in units if u["proposed_type"] == "front-matter")
-    back = sum(1 for u in units if u["proposed_type"] == "back-matter")
-    unclear = sum(1 for u in units if u["proposed_type"] == "unclear")
-
-    print(f"\n{'='*60}")
-    print(f"  Story Structure Draft  —  {slug}")
-    print(f"  Signal: {mode}")
-    print(f"{'='*60}")
-    print(f"  Stories:       {story_count}")
-    print(f"  Non-story:     {non_story}")
-    print(f"  Front-matter:  {front}")
-    print(f"  Back-matter:   {back}")
-    print(f"  Unclear:       {unclear}")
-    print(f"  Total units:   {len(units)}")
-    print()
-    print(f"  {'#':<4}  {'TYPE':<13}  {'PAGE':<6}  FIRST WORDS")
-    print(f"  {'-'*4}  {'-'*13}  {'-'*6}  {'-'*40}")
-    for i, u in enumerate(units, 1):
-        fw = first_words(u["opener_p"])
-        print(f"  {i:<4}  {u['proposed_type']:<13}  {u['page_start']:<6}  {fw}")
-    print()
-
-
-# ── Apply decisions ───────────────────────────────────────────────────────────
-
-def apply_decisions(root, units: list[dict], rows: list[dict]) -> None:
+def build_structure(root, units: list[dict]) -> None:
     """
-    Rewrite the body using decisions from the TSV.
-    units[i] corresponds to rows[i].
+    Rewrite <body> (and optionally add <front>/<back>) using detected units.
+    Non-story units are placed in <!-- non-story --> commented divs so they
+    are visible for review but excluded from story counting.
+    Strips <story> inline tags after restructuring.
     """
     body = root.find(f".//{tei('body')}")
-    if body is None:
-        raise ValueError("No <body> element found")
+    text_el = root.find(f".//{tei('text')}")
+    if body is None or text_el is None:
+        raise ValueError("No <body> or <text> element found")
 
-    # If story tags drove analysis, body is already flat (unpacked).
-    # If heading mode, unpack the divs first so we start from a flat state.
+    # Ensure body is flat before rebuilding
     _unpack_story_divs(body)
-
-    # Build a lookup: paragraph element → unit index
-    p_to_unit: dict = {}
-    for i, u in enumerate(units):
-        for p in u["paragraphs"]:
-            p_to_unit[id(p)] = i
-
-    # Build final element groups per decision
-    front_groups: list[list] = []
-    body_groups: list[tuple[str, list]] = []  # (decision, paragraphs)
-    back_groups: list[list] = []
-
-    for i, (u, row) in enumerate(zip(units, rows)):
-        decision = row["decision"].strip().lower() or row["proposed_type"]
-        # Normalise decision
-        if decision in ("confirm", "story"):
-            decision = "confirm"
-        elif decision in ("front", "front-matter"):
-            decision = "front"
-        elif decision in ("back", "back-matter"):
-            decision = "back"
-        elif decision in ("skip",):
-            decision = "skip"
-        elif decision in ("non-story", "non story"):
-            decision = "skip"
-        else:
-            decision = "confirm"  # fallback
-
-        paras = u["paragraphs"]
-
-        if decision == "front":
-            front_groups.append(paras)
-        elif decision == "back":
-            back_groups.append(paras)
-        elif decision == "skip":
-            pass  # drop entirely
-        else:  # confirm → story
-            body_groups.append((u["heading_text"], paras))
-
-    # Clear body
     for child in list(body):
         body.remove(child)
 
-    # Build <front> if needed
-    text_el = root.find(f".//{tei('text')}")
-    if text_el is None:
-        raise ValueError("No <text> element found")
+    front_units = [u for u in units if u["type"] == "front-matter"]
+    back_units  = [u for u in units if u["type"] == "back-matter"]
+    story_units = [u for u in units if u["type"] == "story"]
+    non_story   = [u for u in units if u["type"] == "non-story"]
 
-    if front_groups:
-        front_el = etree.SubElement(text_el, tei("front"))
-        text_el.remove(front_el)
+    # ── <front> ───────────────────────────────────────────────────────────────
+    if front_units:
+        front_el = etree.Element(tei("front"))
         text_el.insert(list(text_el).index(body), front_el)
-        for paras in front_groups:
+        for u in front_units:
             div = etree.SubElement(front_el, tei("div"))
             div.set("type", "front-matter")
-            for p in paras:
+            for p in u["paragraphs"]:
                 div.append(p)
 
-    # Build story divs in body
+    # ── <body>: story divs + non-story marked divs ────────────────────────────
+    # Interleave stories and non-story units in document order
+    # (preserve original paragraph order across all units)
+    all_body_units = [u for u in units if u["type"] in ("story", "non-story")]
     div_counter = 1
-    for heading_text, paras in body_groups:
-        div = etree.SubElement(body, tei("div"))
-        div.set("type", "story")
-        div.set(TEI_XMLID, f"Structured_{div_counter:04d}")
-        div_counter += 1
-        # If the first paragraph has a heading, convert it
-        if paras and heading_text:
-            head = etree.SubElement(div, tei("head"))
-            head.set("type", "orig")
-            head.text = heading_text
-        for p in paras:
-            div.append(p)
+    for u in all_body_units:
+        if u["type"] == "story":
+            div = etree.SubElement(body, tei("div"))
+            div.set("type", "story")
+            div.set(TEI_XMLID, f"Structured_{div_counter:04d}")
+            div_counter += 1
+            if u["heading_text"]:
+                head = etree.SubElement(div, tei("head"))
+                head.set("type", "orig")
+                head.text = u["heading_text"]
+            for p in u["paragraphs"]:
+                div.append(p)
+        else:
+            # Non-story: wrap in a div with type="non-story" for easy review
+            div = etree.SubElement(body, tei("div"))
+            div.set("type", "non-story")
+            for p in u["paragraphs"]:
+                div.append(p)
 
-    # Build <back> if needed
-    if back_groups:
+    # ── <back> ────────────────────────────────────────────────────────────────
+    if back_units:
         back_el = etree.SubElement(text_el, tei("back"))
-        for paras in back_groups:
+        for u in back_units:
             div = etree.SubElement(back_el, tei("div"))
             div.set("type", "back-matter")
-            for p in paras:
+            for p in u["paragraphs"]:
                 div.append(p)
 
-    # Strip <story> inline tags (replace each with its text content inlined)
+    # ── Strip <story> inline tags ─────────────────────────────────────────────
     _strip_story_tags(root)
 
 
 def _strip_story_tags(root) -> None:
-    """Remove all <story> elements, promoting their text content in-place."""
+    """Remove all <story> elements, inlining their text content."""
     for story_el in list(root.iter(tei("story"))):
         parent = story_el.getparent()
         if parent is None:
             continue
         idx = list(parent).index(story_el)
-        # Prepend story text to parent or preceding sibling tail
-        story_text = (story_el.text or "") + (story_el.tail or "")
+        text = (story_el.text or "") + (story_el.tail or "")
         if idx == 0:
-            parent.text = (parent.text or "") + story_text
+            parent.text = (parent.text or "") + text
         else:
             prev = parent[idx - 1]
-            prev.tail = (prev.tail or "") + story_text
+            prev.tail = (prev.tail or "") + text
         parent.remove(story_el)
+
+
+# ── Report ────────────────────────────────────────────────────────────────────
+
+def print_report(slug: str, mode: str, units: list[dict]) -> None:
+    counts = {}
+    for u in units:
+        counts[u["type"]] = counts.get(u["type"], 0) + 1
+
+    print(f"\n{'='*60}")
+    print(f"  Story Structure  —  {slug}")
+    print(f"  Signal: {mode}")
+    print(f"{'='*60}")
+    for k, v in sorted(counts.items()):
+        print(f"  {k+':':<16} {v}")
+    print(f"  {'total:':<16} {len(units)}")
+    print()
+    print(f"  {'#':<4}  {'TYPE':<13}  FIRST WORDS")
+    print(f"  {'-'*4}  {'-'*13}  {'-'*45}")
+    for i, u in enumerate(units, 1):
+        fw = first_words(u["paragraphs"][0]) if u["paragraphs"] else "(empty)"
+        print(f"  {i:<4}  {u['type']:<13}  {fw}")
+    print()
 
 
 # ── Main ──────────────────────────────────────────────────────────────────────
 
-def run(dijest_id: str, dry_run: bool, apply: bool) -> None:
-    # ── Load metadata ──────────────────────────────────────────────────────
+def run(dijest_id: str, dry_run: bool) -> None:
     metadata = load_metadata()
     entry = find_entry(metadata, dijest_id)
     if entry is None:
@@ -468,64 +334,9 @@ def run(dijest_id: str, dry_run: bool, apply: bool) -> None:
         print(f"\n✗  No main XML found in {edition_folder}")
         sys.exit(1)
 
-    draft_tsv_path = edition_folder / DRAFT_TSV_NAME
-
-    print(f"\nStory Structure  —  {slug}  (DiJeSt: {dijest_id})")
+    print(f"\nStep 02b — Story Structure  [{slug}  /  DiJeSt: {dijest_id}]")
     print(f"XML: {xml_path.relative_to(REPO_ROOT)}")
 
-    # ── APPLY mode ─────────────────────────────────────────────────────────
-    if apply:
-        if not draft_tsv_path.exists():
-            print(f"\n✗  Draft TSV not found: {draft_tsv_path.relative_to(REPO_ROOT)}")
-            print(f"   Run without --apply first to generate the draft.")
-            sys.exit(1)
-
-        rows = read_draft_tsv(draft_tsv_path)
-        unfilled = [r for r in rows if not r["decision"].strip()]
-        if unfilled:
-            print(f"\n⚠  {len(unfilled)} row(s) have no decision filled in.")
-            print("   Fill in the 'decision' column before applying.")
-            print("   Options: confirm, front, back, skip")
-            sys.exit(1)
-
-        parser = etree.XMLParser(remove_blank_text=False, recover=True)
-        tree = etree.parse(str(xml_path), parser)
-        root = tree.getroot()
-
-        # Re-detect units to get paragraph references (must match TSV order)
-        if has_story_tags(root):
-            units = detect_units_from_story_tags(root)
-            mode = "story tags"
-        else:
-            units = detect_units_from_headings(root)
-            mode = "heading zones"
-
-        if len(units) != len(rows):
-            print(f"\n✗  TSV has {len(rows)} rows but detected {len(units)} units.")
-            print("   The XML or TSV may have changed since the draft was generated.")
-            print("   Re-run without --apply to regenerate.")
-            sys.exit(1)
-
-        apply_decisions(root, units, rows)
-
-        if not dry_run:
-            tree.write(str(xml_path), encoding="UTF-8",
-                       xml_declaration=True, pretty_print=False)
-            print(f"\n✓  XML updated: {xml_path.relative_to(REPO_ROOT)}")
-            # Count results
-            new_stories = root.findall(f".//{tei('div')}[@type='story']")
-            front_divs = root.findall(f".//{tei('front')}")
-            back_divs = root.findall(f".//{tei('back')}")
-            print(f"  Story divs:    {len(new_stories)}")
-            print(f"  Front element: {'yes' if front_divs else 'no'}")
-            print(f"  Back element:  {'yes' if back_divs else 'no'}")
-            remaining_story_tags = root.findall(f".//{tei('story')}")
-            print(f"  Remaining <story> tags: {len(remaining_story_tags)}  (should be 0)")
-        else:
-            print(f"\n[DRY RUN] Would rewrite {xml_path.name} with decisions applied.")
-        return
-
-    # ── DRAFT mode ─────────────────────────────────────────────────────────
     parser = etree.XMLParser(remove_blank_text=False, recover=True)
     tree = etree.parse(str(xml_path), parser)
     root = tree.getroot()
@@ -534,60 +345,51 @@ def run(dijest_id: str, dry_run: bool, apply: bool) -> None:
         units = detect_units_from_story_tags(root)
         mode = "story tags (RA tagging)"
     else:
-        # Check step 02 has run (zones stripped, story divs present)
         zones_remaining = root.findall(f".//{tei('zone')}")
         story_divs = root.findall(f".//{tei('div')}[@type='story']")
         if zones_remaining and not story_divs:
-            print(f"\n✗  This edition has no <story> tags and facsimile zones are still present.")
+            print(f"\n✗  No <story> tags found and facsimile zones are still present.")
             print(f"   Step 02 (TEI conversion) must run before Step 02b.")
-            print(f"   Run the NER pipeline first: python ner_pipeline/pipeline.py {dijest_id}")
             sys.exit(1)
         units = detect_units_from_headings(root)
-        mode = "heading zones (structural_preprocess)"
+        mode = "heading zones (from step 02)"
 
     print_report(slug, mode, units)
 
-    rows = units_to_tsv_rows(units)
+    if dry_run:
+        print("[DRY RUN] XML not modified.")
+        return
 
-    # Pre-fill decisions for unambiguous cases
-    for row in rows:
-        if row["proposed_type"] in ("front-matter", "back-matter"):
-            row["decision"] = row["proposed_type"].replace("-", "")[:5]  # "front" / "back"
-        elif row["proposed_type"] == "story":
-            row["decision"] = "confirm"
-        elif row["proposed_type"] == "non-story":
-            row["decision"] = "skip"
-        # "unclear" left blank for user
+    build_structure(root, units)
 
-    unclear_count = sum(1 for r in rows if not r["decision"].strip())
+    tree.write(str(xml_path), encoding="UTF-8",
+               xml_declaration=True, pretty_print=True)
 
-    if not dry_run:
-        write_draft_tsv(draft_tsv_path, rows)
-        print(f"✓  Draft TSV written: {draft_tsv_path.relative_to(REPO_ROOT)}")
-        if unclear_count:
-            print(f"⚠  {unclear_count} unit(s) need a decision — fill in the TSV before running --apply.")
-        else:
-            print(f"   All decisions pre-filled. Review the TSV, then run --apply.")
-    else:
-        print("[DRY RUN] Draft TSV not written.")
+    story_count = len(root.findall(f".//{tei('div')}[@type='story']"))
+    non_story_count = len(root.findall(f".//{tei('div')}[@type='non-story']"))
+    has_front = root.find(f".//{tei('front')}") is not None
+    has_back = root.find(f".//{tei('back')}") is not None
+    remaining = root.findall(f".//{tei('story')}")
+
+    print(f"✓  XML written: {xml_path.name}")
+    print(f"   Story divs:       {story_count}")
+    print(f"   Non-story divs:   {non_story_count}  (type=\"non-story\", review and remove or reclassify)")
+    print(f"   <front> element:  {'yes' if has_front else 'no'}")
+    print(f"   <back> element:   {'yes' if has_back else 'no'}")
+    if remaining:
+        print(f"   ⚠  {len(remaining)} <story> tag(s) still in XML — check for parse errors")
+    print(f"\nOpen {xml_path.name} in your editor to review and adjust the structure.")
 
 
 def main():
     parser = argparse.ArgumentParser(
-        description="Step 02b: Story structure detection and application."
+        description="Step 02b: Build story structure draft in TEI XML for review."
     )
     parser.add_argument("dijest_id", help="DiJeSt/Transkribus folder ID")
     parser.add_argument("--dry-run", action="store_true",
-                        help="Print report without writing any files.")
-    parser.add_argument("--apply", action="store_true",
-                        help="Apply decisions from the draft TSV to the XML.")
+                        help="Print report only, do not modify XML.")
     args = parser.parse_args()
-
-    if args.dry_run and args.apply:
-        print("✗  --dry-run and --apply are mutually exclusive.")
-        sys.exit(1)
-
-    run(args.dijest_id, dry_run=args.dry_run, apply=args.apply)
+    run(args.dijest_id, dry_run=args.dry_run)
 
 
 if __name__ == "__main__":
