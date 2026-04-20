@@ -74,12 +74,15 @@ def _pie(ax, counts: pd.Series, title: str, total: int):
     colors = [CATEGORY_COLORS.get(c, "#ccc") for c in counts.index]
     ax.pie(
         counts,
+        labels=counts.index,
         colors=colors,
         startangle=140,
         autopct=lambda p: f"{int(p * total / 100)} ({p:.1f}%)",
-        textprops={"fontsize": 9},
+        textprops={"fontsize": 7},
+        labeldistance=1.12,
+        pctdistance=0.75,
     )
-    ax.set_title(title, fontsize=10, pad=8)
+    ax.set_title(title, fontsize=10, pad=6)
 
 
 def _show_distribution(df, edition_filter=None):
@@ -92,13 +95,14 @@ def _show_distribution(df, edition_filter=None):
     ed_counts  = df_ed.groupby("category")["story_id"].nunique().reindex(CATEGORY_ORDER, fill_value=0)
 
     label = edition_filter or "selected edition"
-    fig, (ax1, ax2) = plt.subplots(1, 2, figsize=(7, 3))
+    fig, (ax1, ax2) = plt.subplots(1, 2, figsize=(7, 2.8))
+    handles = [Patch(color=CATEGORY_COLORS[c], label=c.capitalize()) for c in CATEGORY_ORDER]
+    fig.legend(handles=handles, title="Women present", loc="upper center",
+               ncol=len(CATEGORY_ORDER), fontsize=8, bbox_to_anchor=(0.5, 1.0),
+               frameon=False)
+    plt.subplots_adjust(top=0.78)
     _pie(ax1, ed_counts[ed_counts > 0], label, int(ed_counts.sum()))
     _pie(ax2, all_counts[all_counts > 0], "All editions", int(all_counts.sum()))
-    handles = [Patch(color=CATEGORY_COLORS[c], label=c.capitalize()) for c in CATEGORY_ORDER]
-    fig.legend(handles=handles, title="Women present", loc="lower center",
-               ncol=len(CATEGORY_ORDER), fontsize=9, bbox_to_anchor=(0.5, -0.05))
-    plt.tight_layout()
     st.pyplot(fig)
     plt.close(fig)
 
@@ -325,8 +329,8 @@ tab_dist, tab_edition, tab_topics = st.tabs(
 )
 
 with tab_dist:
-    st.subheader("Women-in-story distribution")
-    col1, col2 = st.columns([1, 2])
+    st.subheader("Women present — distribution")
+    col1, col2 = st.columns([1, 1])
     with col1:
         _default_ed = "Shivhei-Habesht"
         _opts = ["(all editions)"] + annotated_editions
@@ -337,18 +341,16 @@ with tab_dist:
             _opts,
             index=_default_idx,
         )
+    with col2:
+        summary = (
+            df.groupby("category")["story_id"].nunique()
+            .reindex(CATEGORY_ORDER, fill_value=0)
+            .reset_index()
+            .rename(columns={"story_id": "unique stories", "category": "Women present"})
+        )
+        summary["% of total"] = (summary["unique stories"] / summary["unique stories"].sum() * 100).round(1)
+        st.dataframe(summary, use_container_width=True, hide_index=True)
     _show_distribution(df, edition_sel if edition_sel != "(all editions)" else None)
-
-    st.markdown("---")
-    st.subheader("Summary")
-    summary = (
-        df.groupby("category")["story_id"].nunique()
-        .reindex(CATEGORY_ORDER, fill_value=0)
-        .reset_index()
-        .rename(columns={"story_id": "unique stories"})
-    )
-    summary["% of total"] = (summary["unique stories"] / summary["unique stories"].sum() * 100).round(1)
-    st.dataframe(summary, use_container_width=True, hide_index=True)
 
 with tab_edition:
     st.subheader("Per-edition breakdown")
