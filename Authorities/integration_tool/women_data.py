@@ -4,7 +4,7 @@ Women-in-story data extraction from TEI XML editions.
 Parses all editions/online/*.xml and derives per-story:
   - story_id, edition name
   - all topic tags (from all <span ana="..."> within the story div)
-  - Women-in-story category: no-women / minor / major / major+minor
+  - Women-in-story category: no / minor / major / major+minor
   - plain text of the story (for LLM input)
 
 Also provides update_women_tag() to write back a decision to the XML.
@@ -40,7 +40,7 @@ def _derive_category(topics: List[str]) -> str:
         return "major"
     if has_minor:
         return "minor"
-    return "no-women"
+    return "no"
 
 
 def _story_text(div_elem) -> str:
@@ -100,7 +100,7 @@ def is_annotated(edition: str, stories: Optional[List[dict]] = None) -> bool:
     if stories is None:
         stories = load_stories()
     for s in stories:
-        if s["edition"] == edition and s["category"] != "no-women":
+        if s["edition"] == edition and s["category"] != "no":
             return True
     return False
 
@@ -111,12 +111,12 @@ def update_women_tag(xml_path: str, story_id: str, new_category: str) -> bool:
     """
     Update the women:* tag for a story in its XML file.
 
-    new_category must be one of: no-women / minor / major / major+minor
+    new_category must be one of: no / minor / major / major+minor
     Returns True if the file was modified.
     """
     # Map category → set of women topic tokens to set on the story's main span
     cat_to_tokens = {
-        "no-women":    [],
+        "no":          [],
         "minor":       ["women:minor_character"],
         "major":       ["women:major_character"],
         "major+minor": ["women:major_character", "women:minor_character"],
@@ -181,7 +181,7 @@ def extract_empirical_vocabulary(stories: List[dict]) -> dict:
 
     for s in stories:
         words = re.findall(r"[\u0590-\u05ff\ufb1d-\ufb4e]+", s["text"])
-        if s["category"] != "no-women":
+        if s["category"] != "no":
             women_words.update(words)
         else:
             no_women_words.update(words)

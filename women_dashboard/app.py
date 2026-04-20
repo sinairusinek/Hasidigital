@@ -36,10 +36,10 @@ XML_ID = "{http://www.w3.org/XML/1998/namespace}id"
 # Set to True to show major/minor breakdown; False for binary yes/no
 SHOW_MAJOR_MINOR = False
 
-CATEGORY_ORDER = ["no-women", "minor", "major", "major+minor"] if SHOW_MAJOR_MINOR else ["no-women", "women"]
+CATEGORY_ORDER = ["no", "minor", "major", "major+minor"] if SHOW_MAJOR_MINOR else ["no", "yes"]
 CATEGORY_COLORS = {
-    "no-women":    "#5B9BD5",
-    "women":       "#ED7D31",
+    "no":          "#5B9BD5",
+    "yes":         "#ED7D31",
     "minor":       "#ED7D31",
     "major":       "#A9D18E",
     "major+minor": "#FFD966",
@@ -89,14 +89,14 @@ def _derive_category(topics: List[str]) -> str:
         return "major"
     if has_minor:
         return "minor"
-    return "no-women"
+    return "no"
 
 
 def _collapse_category(cat: str) -> str:
-    """Collapse major/minor into single 'women' label when SHOW_MAJOR_MINOR is False."""
+    """Collapse major/minor into yes/no when SHOW_MAJOR_MINOR is False."""
     if SHOW_MAJOR_MINOR:
         return cat
-    return "no-women" if cat == "no-women" else "women"
+    return "no" if cat == "no" else "yes"
 
 
 @st.cache_data(show_spinner="Loading edition data…")
@@ -328,7 +328,7 @@ st.markdown(
 )
 
 _all = load_stories()
-annotated_editions = sorted(_all[_all["category"] != "no-women"]["edition"].unique())
+annotated_editions = sorted(_all[_all["category"] != "no"]["edition"].unique())
 df = _all[_all["edition"].isin(annotated_editions)].copy()
 
 # ── Tabs ──────────────────────────────────────────────────────────────────────
@@ -341,7 +341,7 @@ tab_dist, tab_ed, tab_topics, tab_keywords = st.tabs([
 ])
 
 with tab_dist:
-    st.subheader("Women-in-story distribution")
+    st.subheader("Women present — distribution")
     col_sel, _ = st.columns([1, 2])
     edition_sel = col_sel.selectbox(
         "Compare overall vs:",
@@ -354,7 +354,7 @@ with tab_dist:
         df.groupby("category")["story_id"].nunique()
         .reindex(CATEGORY_ORDER, fill_value=0)
         .reset_index()
-        .rename(columns={"story_id": "unique stories"})
+        .rename(columns={"story_id": "unique stories", "category": "Women present"})
     )
     summary["% of total"] = (
         summary["unique stories"] / summary["unique stories"].sum() * 100
@@ -372,9 +372,9 @@ with tab_topics:
         "Red = more frequent in the second. Middle bars removed for clarity."
     )
     if SHOW_MAJOR_MINOR:
-        pairs = [("major", "no-women"), ("minor", "no-women"), ("major", "minor")]
+        pairs = [("major", "no"), ("minor", "no"), ("major", "minor")]
     else:
-        pairs = [("women", "no-women")]
+        pairs = [("yes", "no")]
     labels = [f"{a} vs {b}" for a, b in pairs]
     if len(pairs) > 1:
         choice = st.radio("Comparison", labels, horizontal=True)

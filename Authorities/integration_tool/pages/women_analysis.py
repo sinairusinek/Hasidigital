@@ -18,10 +18,10 @@ from women_data import load_stories, extract_empirical_vocabulary
 # Set to True to show major/minor breakdown; False for binary yes/no
 SHOW_MAJOR_MINOR = False
 
-CATEGORY_ORDER = ["no-women", "minor", "major", "major+minor"] if SHOW_MAJOR_MINOR else ["no-women", "women"]
+CATEGORY_ORDER = ["no", "minor", "major", "major+minor"] if SHOW_MAJOR_MINOR else ["no", "yes"]
 CATEGORY_COLORS = {
-    "no-women":    "#5B9BD5",
-    "women":       "#ED7D31",
+    "no":          "#5B9BD5",
+    "yes":         "#ED7D31",
     "minor":       "#ED7D31",
     "major":       "#A9D18E",
     "major+minor": "#FFD966",
@@ -228,11 +228,11 @@ st.title("Women in Hasidic Stories — Analysis")
 stories = _get_stories()
 df = _df(stories)
 
-annotated_editions = sorted({s["edition"] for s in stories if s["category"] != "no-women"})
+annotated_editions = sorted({s["edition"] for s in stories if s["category"] != "no"})
 df = df[df["edition"].isin(annotated_editions)].copy()
 
 if not SHOW_MAJOR_MINOR:
-    df["category"] = df["category"].apply(lambda c: "no-women" if c == "no-women" else "women")
+    df["category"] = df["category"].apply(lambda c: "no" if c == "no" else "yes")
 
 tab_dist, tab_edition, tab_topics, tab_keywords = st.tabs(
     ["Distribution", "Per-edition", "Topic differences", "Keyword exhibit"]
@@ -266,9 +266,9 @@ with tab_edition:
 with tab_topics:
     st.subheader("Topic frequency differences")
     if SHOW_MAJOR_MINOR:
-        pairs = [("major", "no-women"), ("minor", "no-women"), ("major", "minor")]
+        pairs = [("major", "no"), ("minor", "no"), ("major", "minor")]
     else:
-        pairs = [("women", "no-women")]
+        pairs = [("yes", "no")]
     pair_labels = [f"{a} vs {b}" for a, b in pairs]
     if len(pairs) > 1:
         choice = st.radio("Comparison", pair_labels, horizontal=True)
