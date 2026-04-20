@@ -27,6 +27,36 @@ CATEGORY_COLORS = {
     "major+minor": "#FFD966",
 }
 
+EDITION_YEARS = {
+    "Shivhei-Habesht": 1814,
+    "Mifalot-HaZadikim": 1856,
+    "Adat-Zadikim": 1864,
+    "Shivhei-Harav": 1864,
+    "Sipurei-Zadikim": 1864,
+    "maase-zadikim": 1864,
+    "Khal-Kdoshim": 1865,
+    "PeerMikdoshim": 1865,
+    "Khal-Hasidim": 1866,
+    "Sipurei-Kdoshim": 1866,
+    "tmimei_derech": 1871,
+    "Shlosha-edrei-zon": 1874,
+    "Sefer-Moraim-Gdolim": 1876,
+    "shivheiZadikim": 1883,
+    "Smichat-Moshe": 1886,
+    "Kokhvei-Or": 1896,
+    "Maasiot-Pliot": 1896,
+    "Maasiot-veSihot-Zadikim": 1894,
+    "Buzina_Denehora": 1879,
+    "Hitgalut-HaZadikim": 1901,
+    "MaasiyotUmaamarimYekarim": 1902,
+    "MaasyiotMzadikeiYesodeiOlam": 1903,
+    "SipureiAnsheiShem": 1903,
+    "Sipurim-Nehmadim": 1903,
+    "SipurimUmaamarimYekarim": 1903,
+    "Dvarim-Yekarim": 1905,
+    "Shemen-Hatov": 1905,
+}
+
 
 @st.cache_data(show_spinner="Loading edition data…")
 def _get_stories():
@@ -77,7 +107,8 @@ def _show_per_edition_bars(df):
         .unstack(fill_value=0)
         .reindex(columns=CATEGORY_ORDER, fill_value=0)
     )
-    grouped = grouped.sort_index(ascending=False)
+    year_order = sorted(grouped.index, key=lambda e: EDITION_YEARS.get(e, 9999))
+    grouped = grouped.loc[year_order]
     pct = grouped.div(grouped.sum(axis=1), axis=0) * 100
 
     colors = [CATEGORY_COLORS[c] for c in CATEGORY_ORDER]
