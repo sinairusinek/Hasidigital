@@ -400,8 +400,7 @@ with tab_topics:
         "This chart shows which topics are **disproportionately associated** with women-present stories "
         "(green bars, above zero) versus stories without women (red bars, below zero). "
         "**The number on each bar is a story-count difference**: +15 means that topic appears in 15 more "
-        "women-present stories than women-absent stories; −10 means it appears in 10 more women-absent stories. "
-        "The `women:*` classification tags are excluded; only substantive content topics are shown."
+        "women-present stories than women-absent stories; −10 means it appears in 10 more women-absent stories."
     )
     if SHOW_MAJOR_MINOR:
         pairs = [("major", "no"), ("minor", "no"), ("major", "minor")]
