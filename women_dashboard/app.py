@@ -321,12 +321,14 @@ def show_relative_frequency_by_category(df: pd.DataFrame, top_category: str, min
 
     colors = [CATEGORY_COLORS[c] for c in CATEGORY_ORDER]
     n = len(rel)
-    fig, ax = plt.subplots(figsize=(max(8, n * 0.45 + 1.5), 4))
+    fig, ax = plt.subplots(figsize=(max(9, n * 0.5 + 2), 4.5))
     rel.plot(kind="bar", stacked=True, color=colors, ax=ax)
     ax.set_ylabel("Relative frequency")
-    ax.set_title(f"Relative frequency of women presence — {top_category}")
+    ax.set_title(f"Women presence by sub-topic — {top_category}")
     ax.set_ylim(0, 1)
-    ax.tick_params(axis="x", rotation=45, labelsize=8)
+    ax.tick_params(axis="x", rotation=40, labelsize=8)
+    for label in ax.get_xticklabels():
+        label.set_ha("right")
     ax.legend(title="Women present", bbox_to_anchor=(1.02, 1), loc="upper left", fontsize=9)
     ax.spines[["top", "right"]].set_visible(False)
     plt.tight_layout()
@@ -440,10 +442,11 @@ df = _all[_all["edition"].isin(annotated_editions)].copy()
 
 # ── Tabs ──────────────────────────────────────────────────────────────────────
 
-tab_dist, tab_ed, tab_topics = st.tabs([
+tab_dist, tab_ed, tab_topics, tab_bycat = st.tabs([
     "📊 Distribution",
     "📚 By edition",
-    "🏷️ Topics",
+    "🏷️ Women and other Topics",
+    "📂 By topic category",
 ])
 
 with tab_dist:
@@ -479,20 +482,46 @@ with tab_ed:
     show_per_edition_bars(df)
 
 with tab_topics:
-    st.subheader("Relative frequency of women presence — all topics")
-    st.caption("Topics sorted by proportion of stories with women present (highest at top). Min. 5 stories per topic.")
-    show_relative_frequency_all(df)
+    st.subheader("Topic frequency difference")
+    st.markdown(
+        "This chart shows which topics are **disproportionately associated** with women-present stories "
+        "(green bars, above zero) versus stories without women (red bars, below zero). "
+        "A topic near zero appears equally in both groups. "
+        "The `women:*` classification tags are excluded to avoid circular reasoning — "
+        "only substantive content topics are shown."
+    )
+    show_topic_diff(df, "yes", "no")
 
     st.markdown("---")
-    st.subheader("By topic category")
+    st.subheader("Women presence by topic — relative frequency")
+    st.markdown(
+        "Each bar represents one topic. The bar shows the **proportion** of stories tagged with that topic "
+        "in which women are present (orange) versus absent (blue). "
+        "Topics are sorted from highest to lowest women presence. "
+        "Only topics appearing in at least 5 stories are included. "
+        "Compare with the chart above: a topic may have a large absolute difference yet a modest relative proportion, "
+        "or vice versa, depending on how common the topic is overall."
+    )
+    show_relative_frequency_all(df)
+
+with tab_bycat:
+    st.subheader("Women presence by topic category")
+    st.markdown(
+        "The corpus topics are organized into thematic categories (e.g. *practice*, *social relations*, "
+        "*supernatural*, *ethics*). Select a category below to see how women presence varies "
+        "across its sub-topics. "
+        "Bars are sorted from highest to lowest proportion of women-present stories. "
+        "Sub-topics with fewer than 3 stories are excluded."
+    )
     all_topic_vals = [t for row in df["topics"] for t in (row if isinstance(row, list) else [])]
     top_cats = sorted({t.split(":")[0] for t in all_topic_vals
                        if ":" in t and not t.startswith("women:")})
     if top_cats:
-        cat_sel = st.selectbox("Select topic category", top_cats, key="topic_cat_sel")
+        _default_cat = "practice" if "practice" in top_cats else top_cats[0]
+        cat_sel = st.selectbox(
+            "Topic category",
+            top_cats,
+            index=top_cats.index(_default_cat),
+            key="topic_cat_sel",
+        )
         show_relative_frequency_by_category(df, cat_sel)
-
-    st.markdown("---")
-    st.subheader("Topic frequency difference (yes vs no)")
-    st.caption("Green = topics more frequent in women-present stories. Red = more frequent in stories without women.")
-    show_topic_diff(df, "yes", "no")
