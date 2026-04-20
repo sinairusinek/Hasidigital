@@ -252,7 +252,7 @@ def show_topic_diff(df: pd.DataFrame, cat_a: str, cat_b: str):
         idx = list(range(keep)) + list(range(n - keep, n))
         diff = diff.iloc[idx]
 
-    fig, ax = plt.subplots(figsize=(12, 4))
+    fig, ax = plt.subplots(figsize=(14, 5))
     diff.plot(
         kind="bar", ax=ax,
         color=["#A9D18E" if v >= 0 else "#FF8080" for v in diff],
@@ -262,7 +262,7 @@ def show_topic_diff(df: pd.DataFrame, cat_a: str, cat_b: str):
     ax.tick_params(axis="x", rotation=90, labelsize=7)
     ax.axhline(0, color="gray", linewidth=0.8, linestyle="--")
     ax.spines[["top", "right"]].set_visible(False)
-    plt.tight_layout()
+    plt.subplots_adjust(left=0.08, bottom=0.3)
     st.pyplot(fig)
     plt.close(fig)
 
@@ -284,16 +284,31 @@ def show_relative_frequency_all(df: pd.DataFrame, min_stories: int = 5):
         return
 
     rel = counts.div(counts.sum(axis=1), axis=0)
-    rel = rel.sort_values("yes", ascending=True)
+    sort_idx = rel.sort_values("yes", ascending=True).index
+    counts = counts.loc[sort_idx]
+    rel = rel.loc[sort_idx]
 
     colors = [CATEGORY_COLORS[c] for c in CATEGORY_ORDER]
     fig, ax = plt.subplots(figsize=(12, max(4, len(rel) * 0.2 + 1.5)))
     rel.plot(kind="barh", stacked=True, color=colors, ax=ax)
     ax.set_xlabel("Relative frequency")
-    ax.set_title("Relative frequency of women presence — all topics")
-    ax.set_xlim(0, 1)
+    ax.set_title("Women presence by topic — relative frequency (all topics)")
+    ax.set_xlim(0, 1.18)
     ax.legend(title="Women present", bbox_to_anchor=(1.02, 1), loc="upper left", fontsize=9)
     ax.spines[["top", "right"]].set_visible(False)
+
+    # Count labels inside each segment
+    for i, container in enumerate(ax.containers):
+        cat = CATEGORY_ORDER[i]
+        labels = [str(int(counts.iloc[j][cat])) if bar.get_width() >= 0.08 else ""
+                  for j, bar in enumerate(container)]
+        ax.bar_label(container, labels=labels, label_type="center", fontsize=7, color="white")
+
+    # Total to the right of each bar
+    totals = counts.sum(axis=1)
+    for j, total in enumerate(totals):
+        ax.text(1.01, j, str(int(total)), va="center", ha="left", fontsize=8)
+
     plt.tight_layout()
     st.pyplot(fig)
     plt.close(fig)
@@ -503,9 +518,9 @@ with tab_topics:
     st.markdown(
         "This chart shows which topics are **disproportionately associated** with women-present stories "
         "(green bars, above zero) versus stories without women (red bars, below zero). "
-        "A topic near zero appears equally in both groups. "
-        "The `women:*` classification tags are excluded to avoid circular reasoning — "
-        "only substantive content topics are shown."
+        "**The number on each bar is a story-count difference**: +15 means that topic appears in 15 more "
+        "women-present stories than women-absent stories; −10 means it appears in 10 more women-absent stories. "
+        "The `women:*` classification tags are excluded; only substantive content topics are shown."
     )
     show_topic_diff(df, "yes", "no")
 
