@@ -513,9 +513,11 @@ with tab_bycat:
         "Bars are sorted from highest to lowest proportion of women-present stories. "
         "Sub-topics with fewer than 3 stories are excluded."
     )
+    # Only include categories that have at least one sub-topic with ≥3 stories
     all_topic_vals = [t for row in df["topics"] for t in (row if isinstance(row, list) else [])]
-    top_cats = sorted({t.split(":")[0] for t in all_topic_vals
-                       if ":" in t and not t.startswith("women:")})
+    from collections import Counter
+    subtopic_counts = Counter(t for t in all_topic_vals if ":" in t and not t.startswith("women:"))
+    top_cats = sorted({t.split(":")[0] for t, n in subtopic_counts.items() if n >= 3})
     if top_cats:
         _default_cat = "practice" if "practice" in top_cats else top_cats[0]
         cat_sel = st.selectbox(
