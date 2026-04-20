@@ -195,21 +195,28 @@ def show_per_edition_bars(df: pd.DataFrame):
     ax1.set_title("Stories per edition — count")
     ax1.legend(title="Women present\nin stories", bbox_to_anchor=(1.02, 1), loc="upper left", fontsize=8)
 
-    # Add count + % labels inside each bar segment
-    for i, container in enumerate(ax1.containers):
-        cat = CATEGORY_ORDER[i]
-        labels = []
-        for j in range(len(container)):
-            w = container[j].get_width()
-            p = pct_df.iloc[j][cat]
-            labels.append(f"{int(w)}\n({p:.0f}%)" if w >= 8 else "")
+    # Count labels inside each segment
+    for container in ax1.containers:
+        labels = [f"{int(bar.get_width())}" if bar.get_width() >= 8 else "" for bar in container]
         ax1.bar_label(container, labels=labels, label_type="center", fontsize=7, color="white")
+
+    # Total stories per edition to the right of each bar
+    totals = grouped.sum(axis=1)
+    max_val = totals.max()
+    ax1.set_xlim(0, max_val * 1.18)
+    for j, total in enumerate(totals):
+        ax1.text(total + max_val * 0.02, j, str(int(total)), va="center", ha="left", fontsize=8)
 
     pct_df.plot(kind="barh", stacked=True, color=colors, ax=ax2)
     ax2.spines[["top", "right"]].set_visible(False)
     ax2.set_xlabel("Percentage")
     ax2.set_title("Stories per edition — %")
     ax2.get_legend().remove()
+
+    # Percentage labels inside each segment
+    for container in ax2.containers:
+        labels = [f"{bar.get_width():.0f}%" if bar.get_width() >= 8 else "" for bar in container]
+        ax2.bar_label(container, labels=labels, label_type="center", fontsize=7, color="white")
 
     plt.tight_layout()
     st.pyplot(fig)
