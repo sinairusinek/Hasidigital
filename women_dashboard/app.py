@@ -151,7 +151,8 @@ def _pie(ax, counts: pd.Series, title: str, total: int):
 def show_distribution(df: pd.DataFrame, edition_filter=None):
     if edition_filter:
         df_ed = df[df["edition"] == edition_filter]
-        ed_label = edition_filter
+        year = EDITION_YEARS.get(edition_filter, "")
+        ed_label = f"{edition_filter} ({year})" if year else edition_filter
     else:
         df_ed = df
         ed_label = "all editions"
@@ -429,7 +430,7 @@ st.markdown("""
 
 st.title("Women in Hasidic Stories")
 st.markdown(
-    "Analysis of 9 annotated editions from the [Hasidigital](https://hasidic-stories.org) corpus. "
+    "Analysis of 9 annotated editions from the [HASIDIC STORIES Project](https://hasidic-stories.org) corpus. "
     "Stories are categorized by the presence and centrality of women characters."
 )
 
@@ -468,6 +469,8 @@ with tab_dist:
         "Select an edition for comparison:",
         _opts,
         index=_default_idx,
+        format_func=lambda e: e if e == "(all editions)"
+            else f"{e} ({EDITION_YEARS[e]})" if e in EDITION_YEARS else e,
     )
     show_distribution(df, edition_sel if edition_sel != "(all editions)" else None)
 

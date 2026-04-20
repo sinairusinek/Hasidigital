@@ -88,13 +88,14 @@ def _pie(ax, counts: pd.Series, title: str, total: int):
 def _show_distribution(df, edition_filter=None):
     if edition_filter:
         df_ed = df[df["edition"] == edition_filter]
+        year = EDITION_YEARS.get(edition_filter, "")
+        label = f"{edition_filter} ({year})" if year else edition_filter
     else:
         df_ed = df
+        label = "all editions"
 
     all_counts = df.groupby("category")["story_id"].nunique().reindex(CATEGORY_ORDER, fill_value=0)
     ed_counts  = df_ed.groupby("category")["story_id"].nunique().reindex(CATEGORY_ORDER, fill_value=0)
-
-    label = edition_filter or "selected edition"
     fig, (ax1, ax2) = plt.subplots(1, 2, figsize=(7, 2.8))
     handles = [Patch(color=CATEGORY_COLORS[c], label=c.capitalize()) for c in CATEGORY_ORDER]
     fig.legend(handles=handles, title="Women present", loc="upper center",
@@ -351,6 +352,8 @@ with tab_dist:
             "Select an edition for comparison:",
             _opts,
             index=_default_idx,
+            format_func=lambda e: e if e == "(all editions)"
+                else f"{e} ({EDITION_YEARS[e]})" if e in EDITION_YEARS else e,
         )
     _show_distribution(df, edition_sel if edition_sel != "(all editions)" else None)
 
