@@ -465,7 +465,10 @@ st.markdown("""
 st.title("Women in Hasidic Stories")
 st.markdown(
     "Analysis of 9 annotated editions from the [HASIDIC STORIES Project](https://hasidic-stories.org) corpus. "
-    "Stories are categorized by the presence and centrality of women characters."
+    "Stories are categorized by the presence and centrality of women characters.\n\n"
+    "To read the actual stories in each thematic category or sub-category, visit "
+    "[hasidic-stories.org](https://hasidic-stories.org) and use the **Themes** filter together with "
+    "the **Women** category filter to browse stories by topic."
 )
 
 _all = load_stories()
