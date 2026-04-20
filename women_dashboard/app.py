@@ -170,9 +170,10 @@ def show_distribution(df: pd.DataFrame, edition_filter=None):
     fig, (ax1, ax2) = plt.subplots(1, 2, figsize=(7, 2.8))
     handles = [Patch(color=CATEGORY_COLORS[c], label=c.capitalize()) for c in CATEGORY_ORDER]
     fig.legend(handles=handles, title="Women present", loc="upper center",
-               ncol=len(CATEGORY_ORDER), fontsize=8, bbox_to_anchor=(0.5, 1.0),
-               frameon=False)
-    plt.subplots_adjust(top=0.78)
+               ncol=len(CATEGORY_ORDER), fontsize=6, title_fontsize=6,
+               bbox_to_anchor=(0.5, 1.0), frameon=False,
+               handlelength=0.8, handleheight=0.6, handletextpad=0.3, columnspacing=0.6)
+    plt.subplots_adjust(top=0.82)
     _pie(ax1, ed_counts, ed_label, int(ed_counts.sum()))
     _pie(ax2, all_counts, "All editions", int(all_counts.sum()))
     st.pyplot(fig)
@@ -445,8 +446,20 @@ tab_dist, tab_ed, tab_topics = st.tabs([
 ])
 
 with tab_dist:
-    st.subheader("Women present — distribution")
-    col_sel, col_table = st.columns([1, 1])
+    col_title, col_table = st.columns([3, 1])
+    col_title.subheader("Women presences in stories, across the editions")
+    summary = (
+        df.groupby("category")["story_id"].nunique()
+        .reindex(CATEGORY_ORDER, fill_value=0)
+        .reset_index()
+        .rename(columns={"story_id": "stories", "category": "Women present"})
+    )
+    summary["% of total"] = (
+        summary["stories"] / summary["stories"].sum() * 100
+    ).round(1)
+    col_table.dataframe(summary, use_container_width=True, hide_index=True)
+
+    col_sel, _ = st.columns([1, 2])
     _default_ed = "Shivhei-Habesht"
     _opts = ["(all editions)"] + annotated_editions
     _default_idx = (_opts.index(_default_ed) if _default_ed in _opts else 1)
@@ -456,16 +469,6 @@ with tab_dist:
         _opts,
         index=_default_idx,
     )
-    summary = (
-        df.groupby("category")["story_id"].nunique()
-        .reindex(CATEGORY_ORDER, fill_value=0)
-        .reset_index()
-        .rename(columns={"story_id": "unique stories", "category": "Women present"})
-    )
-    summary["% of total"] = (
-        summary["unique stories"] / summary["unique stories"].sum() * 100
-    ).round(1)
-    col_table.dataframe(summary, use_container_width=True, hide_index=True)
     show_distribution(df, edition_sel if edition_sel != "(all editions)" else None)
 
 with tab_ed:
