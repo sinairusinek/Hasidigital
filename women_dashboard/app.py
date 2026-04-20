@@ -241,6 +241,73 @@ def show_topic_diff(df: pd.DataFrame, cat_a: str, cat_b: str):
     plt.close(fig)
 
 
+def show_relative_frequency_all(df: pd.DataFrame, min_stories: int = 5):
+    exploded = df.explode("topics").dropna(subset=["topics"])
+    exploded = exploded[~exploded["topics"].str.startswith("women:", na=False)]
+    exploded = exploded[exploded["topics"].str.contains(":", na=False)]
+
+    counts = (
+        exploded.groupby(["topics", "category"])["story_id"]
+        .nunique()
+        .unstack(fill_value=0)
+        .reindex(columns=CATEGORY_ORDER, fill_value=0)
+    )
+    counts = counts[counts.sum(axis=1) >= min_stories]
+    if counts.empty:
+        st.info("Not enough data.")
+        return
+
+    rel = counts.div(counts.sum(axis=1), axis=0)
+    rel = rel.sort_values("yes", ascending=True)
+
+    colors = [CATEGORY_COLORS[c] for c in CATEGORY_ORDER]
+    fig, ax = plt.subplots(figsize=(14, max(6, len(rel) * 0.3 + 2)))
+    rel.plot(kind="barh", stacked=True, color=colors, ax=ax)
+    ax.set_xlabel("Relative frequency")
+    ax.set_title("Relative frequency of women presence — all topics")
+    ax.set_xlim(0, 1)
+    ax.legend(title="Women present", bbox_to_anchor=(1.02, 1), loc="upper left", fontsize=9)
+    ax.spines[["top", "right"]].set_visible(False)
+    plt.tight_layout()
+    st.pyplot(fig)
+    plt.close(fig)
+
+
+def show_relative_frequency_by_category(df: pd.DataFrame, top_category: str, min_stories: int = 3):
+    exploded = df.explode("topics").dropna(subset=["topics"])
+    exploded = exploded[~exploded["topics"].str.startswith("women:", na=False)]
+    exploded = exploded[exploded["topics"].str.startswith(top_category + ":", na=False)]
+
+    counts = (
+        exploded.groupby(["topics", "category"])["story_id"]
+        .nunique()
+        .unstack(fill_value=0)
+        .reindex(columns=CATEGORY_ORDER, fill_value=0)
+    )
+    counts = counts[counts.sum(axis=1) >= min_stories]
+    if counts.empty:
+        st.info(f"No topics with ≥{min_stories} stories in '{top_category}'.")
+        return
+
+    rel = counts.div(counts.sum(axis=1), axis=0)
+    rel = rel.sort_values("yes", ascending=False)
+    rel.index = [t.split(":", 1)[1].replace("_", " ") if ":" in t else t for t in rel.index]
+
+    colors = [CATEGORY_COLORS[c] for c in CATEGORY_ORDER]
+    n = len(rel)
+    fig, ax = plt.subplots(figsize=(max(10, n * 0.55 + 2), 5))
+    rel.plot(kind="bar", stacked=True, color=colors, ax=ax)
+    ax.set_ylabel("Relative frequency")
+    ax.set_title(f"Relative frequency of women presence — {top_category}")
+    ax.set_ylim(0, 1)
+    ax.tick_params(axis="x", rotation=45, labelsize=8)
+    ax.legend(title="Women present", bbox_to_anchor=(1.02, 1), loc="upper left", fontsize=9)
+    ax.spines[["top", "right"]].set_visible(False)
+    plt.tight_layout()
+    st.pyplot(fig)
+    plt.close(fig)
+
+
 def show_keyword_exhibit():
     st.subheader("Keyword vocabulary exhibit")
     st.markdown(
@@ -333,11 +400,10 @@ df = _all[_all["edition"].isin(annotated_editions)].copy()
 
 # ── Tabs ──────────────────────────────────────────────────────────────────────
 
-tab_dist, tab_ed, tab_topics, tab_keywords = st.tabs([
+tab_dist, tab_ed, tab_topics = st.tabs([
     "📊 Distribution",
     "📚 By edition",
-    "🏷️ Topic differences",
-    "🔑 Keyword exhibit",
+    "🏷️ Topics",
 ])
 
 with tab_dist:
@@ -366,22 +432,20 @@ with tab_ed:
     show_per_edition_bars(df)
 
 with tab_topics:
-    st.subheader("Topic frequency differences")
-    st.markdown(
-        "Green bars = topics more frequent in the first category. "
-        "Red = more frequent in the second. Middle bars removed for clarity."
-    )
-    if SHOW_MAJOR_MINOR:
-        pairs = [("major", "no"), ("minor", "no"), ("major", "minor")]
-    else:
-        pairs = [("yes", "no")]
-    labels = [f"{a} vs {b}" for a, b in pairs]
-    if len(pairs) > 1:
-        choice = st.radio("Comparison", labels, horizontal=True)
-        cat_a, cat_b = pairs[labels.index(choice)]
-    else:
-        cat_a, cat_b = pairs[0]
-    show_topic_diff(df, cat_a, cat_b)
+    st.subheader("Relative frequency of women presence — all topics")
+    st.caption("Topics sorted by proportion of stories with women present (highest at top). Min. 5 stories per topic.")
+    show_relative_frequency_all(df)
 
-with tab_keywords:
-    show_keyword_exhibit()
+    st.markdown("---")
+    st.subheader("By topic category")
+    all_topic_vals = [t for row in df["topics"] for t in (row if isinstance(row, list) else [])]
+    top_cats = sorted({t.split(":")[0] for t in all_topic_vals
+                       if ":" in t and not t.startswith("women:")})
+    if top_cats:
+        cat_sel = st.selectbox("Select topic category", top_cats, key="topic_cat_sel")
+        show_relative_frequency_by_category(df, cat_sel)
+
+    st.markdown("---")
+    st.subheader("Topic frequency difference (yes vs no)")
+    st.caption("Green = topics more frequent in women-present stories. Red = more frequent in stories without women.")
+    show_topic_diff(df, "yes", "no")
