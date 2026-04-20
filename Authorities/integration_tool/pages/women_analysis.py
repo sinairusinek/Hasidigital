@@ -236,8 +236,12 @@ def _show_relative_frequency_by_category(df, top_category, min_stories=3):
         return
 
     rel = counts.div(counts.sum(axis=1), axis=0)
-    rel = rel.sort_values("yes", ascending=False)
-    rel.index = [t.split(":", 1)[1].replace("_", " ") if ":" in t else t for t in rel.index]
+    sort_idx = rel.sort_values("yes", ascending=False).index
+    counts = counts.loc[sort_idx]
+    rel = rel.loc[sort_idx]
+    clean_labels = [t.split(":", 1)[1].replace("_", " ") if ":" in t else t for t in rel.index]
+    rel.index = clean_labels
+    counts.index = clean_labels
 
     colors = [CATEGORY_COLORS[c] for c in CATEGORY_ORDER]
     n = len(rel)
@@ -245,12 +249,23 @@ def _show_relative_frequency_by_category(df, top_category, min_stories=3):
     rel.plot(kind="bar", stacked=True, color=colors, ax=ax)
     ax.set_ylabel("Relative frequency")
     ax.set_title(f"Women presence by sub-topic — {top_category}")
-    ax.set_ylim(0, 1)
+    ax.set_ylim(0, 1.15)
     ax.tick_params(axis="x", rotation=40, labelsize=8)
     for label in ax.get_xticklabels():
         label.set_ha("right")
     ax.legend(title="Women present", bbox_to_anchor=(1.02, 1), loc="upper left", fontsize=9)
     ax.spines[["top", "right"]].set_visible(False)
+
+    for i, container in enumerate(ax.containers):
+        cat = CATEGORY_ORDER[i]
+        labels = [str(int(counts.iloc[j][cat])) if bar.get_height() >= 0.08 else ""
+                  for j, bar in enumerate(container)]
+        ax.bar_label(container, labels=labels, label_type="center", fontsize=7, color="white")
+
+    totals = counts.sum(axis=1)
+    for j, total in enumerate(totals):
+        ax.text(j, 1.02, str(int(total)), ha="center", va="bottom", fontsize=8)
+
     plt.tight_layout()
     st.pyplot(fig)
     plt.close(fig)
