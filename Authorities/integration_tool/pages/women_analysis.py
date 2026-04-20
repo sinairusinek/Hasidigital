@@ -134,7 +134,7 @@ def _show_per_edition_bars(df):
 
 def _show_topic_diff(df, cat_a: str, cat_b: str):
     exploded = df.explode("topics")
-    exploded = exploded[~exploded["topics"].str.startswith("women:")]
+    exploded = exploded[~exploded["topics"].str.startswith("women:", na=False)]
     topic_counts = (
         exploded.groupby(["category", "topics"])["story_id"]
         .nunique()

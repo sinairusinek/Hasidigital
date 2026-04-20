@@ -209,7 +209,7 @@ def show_per_edition_bars(df: pd.DataFrame):
 def show_topic_diff(df: pd.DataFrame, cat_a: str, cat_b: str):
     exploded = df.explode("topics")
     # exclude the women:* tags themselves — they define the category, not a meaningful co-occurrence
-    exploded = exploded[~exploded["topics"].str.startswith("women:")]
+    exploded = exploded[~exploded["topics"].str.startswith("women:", na=False)]
     topic_counts = (
         exploded.groupby(["category", "topics"])["story_id"]
         .nunique()
