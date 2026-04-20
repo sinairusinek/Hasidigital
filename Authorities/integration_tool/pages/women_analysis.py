@@ -331,7 +331,7 @@ tab_dist, tab_edition, tab_topics = st.tabs(
 
 with tab_dist:
     col_title, col_table = st.columns([3, 1])
-    col_title.subheader("Women presences in stories, across the editions")
+    col_title.subheader("Women presence in stories, across the editions")
     summary = (
         df.groupby("category")["story_id"].nunique()
         .reindex(CATEGORY_ORDER, fill_value=0)
