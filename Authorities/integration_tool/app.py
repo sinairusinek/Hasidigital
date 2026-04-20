@@ -55,11 +55,24 @@ dedup_review = st.Page(
     icon="\U0001f9f9",
 )
 
+women_analysis = st.Page(
+    "pages/women_analysis.py",
+    title="Women Analysis",
+    icon="\U0001f4ca",
+)
+
+women_annotator = st.Page(
+    "pages/women_annotator.py",
+    title="Women Annotator",
+    icon="\u270f\ufe0f",
+)
+
 pg = st.navigation(
     {
         "Workflows": [edition_linker, csv_integrator],
         "Editions": [edition_metadata],
         "Review": [kima_review, person_review],
+        "Women": [women_analysis, women_annotator],
         "Maintenance": [dedup_review],
     }
 )

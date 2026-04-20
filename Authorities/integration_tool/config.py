@@ -35,3 +35,9 @@ SYNC_EDITION_SCRIPT = os.path.join(AUTH_DIR, "scripts", "sync_edition_metadata.p
 # XML namespaces
 TEI_NS = "http://www.tei-c.org/ns/1.0"
 XML_NS = "http://www.w3.org/XML/1998/namespace"
+
+# Women-in-story annotation files
+WOMEN_LLM_CACHE_PATH     = os.path.join(PROJECT_DIR, "editions", "women-llm-results.tsv")
+WOMEN_CRITERIA_PATH      = os.path.join(PROJECT_DIR, "editions", "women-criteria.md")
+WOMEN_KEYWORDS_APRIORI   = os.path.join(PROJECT_DIR, "editions", "women-keywords-apriori.json")
+WOMEN_KEYWORDS_EMPIRICAL = os.path.join(PROJECT_DIR, "editions", "women-keywords-empirical.json")
