@@ -257,7 +257,7 @@ def show_topic_diff(df: pd.DataFrame, cat_a: str, cat_b: str):
         kind="bar", ax=ax,
         color=["#A9D18E" if v >= 0 else "#FF8080" for v in diff],
     )
-    ax.set_title(f"Topic frequency difference: {cat_a} vs {cat_b}", fontsize=11)
+    ax.set_title("Topic frequency difference: stories with vs stories without women", fontsize=11)
     ax.set_ylabel("Difference in story count")
     ax.tick_params(axis="x", rotation=90, labelsize=7)
     ax.axhline(0, color="gray", linewidth=0.8, linestyle="--")
