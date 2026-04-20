@@ -177,6 +177,8 @@ def show_per_edition_bars(df: pd.DataFrame):
 
 def show_topic_diff(df: pd.DataFrame, cat_a: str, cat_b: str):
     exploded = df.explode("topics")
+    # exclude the women:* tags themselves — they define the category, not a meaningful co-occurrence
+    exploded = exploded[~exploded["topics"].str.startswith("women:")]
     topic_counts = (
         exploded.groupby(["category", "topics"])["story_id"]
         .nunique()
@@ -338,14 +340,16 @@ with tab_topics:
         "Green bars = topics more frequent in the first category. "
         "Red = more frequent in the second. Middle bars removed for clarity."
     )
-    pairs = [
-        ("major", "no-women"),
-        ("minor", "no-women"),
-        ("major", "minor"),
-    ]
+    if SHOW_MAJOR_MINOR:
+        pairs = [("major", "no-women"), ("minor", "no-women"), ("major", "minor")]
+    else:
+        pairs = [("women", "no-women")]
     labels = [f"{a} vs {b}" for a, b in pairs]
-    choice = st.radio("Comparison", labels, horizontal=True)
-    cat_a, cat_b = pairs[labels.index(choice)]
+    if len(pairs) > 1:
+        choice = st.radio("Comparison", labels, horizontal=True)
+        cat_a, cat_b = pairs[labels.index(choice)]
+    else:
+        cat_a, cat_b = pairs[0]
     show_topic_diff(df, cat_a, cat_b)
 
 with tab_keywords:

@@ -102,9 +102,10 @@ def _show_per_edition_bars(df):
 
 
 def _show_topic_diff(df, cat_a: str, cat_b: str):
+    exploded = df.explode("topics")
+    exploded = exploded[~exploded["topics"].str.startswith("women:")]
     topic_counts = (
-        df.explode("topics")
-        .groupby(["category", "topics"])["story_id"]
+        exploded.groupby(["category", "topics"])["story_id"]
         .nunique()
         .unstack(fill_value=0)
     )
@@ -233,14 +234,16 @@ with tab_edition:
 
 with tab_topics:
     st.subheader("Topic frequency differences")
-    pairs = [
-        ("major", "no-women"),
-        ("minor", "no-women"),
-        ("major", "minor"),
-    ]
+    if SHOW_MAJOR_MINOR:
+        pairs = [("major", "no-women"), ("minor", "no-women"), ("major", "minor")]
+    else:
+        pairs = [("women", "no-women")]
     pair_labels = [f"{a} vs {b}" for a, b in pairs]
-    choice = st.radio("Comparison", pair_labels, horizontal=True)
-    cat_a, cat_b = pairs[pair_labels.index(choice)]
+    if len(pairs) > 1:
+        choice = st.radio("Comparison", pair_labels, horizontal=True)
+        cat_a, cat_b = pairs[pair_labels.index(choice)]
+    else:
+        cat_a, cat_b = pairs[0]
     _show_topic_diff(df, cat_a, cat_b)
 
 with tab_keywords:
