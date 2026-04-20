@@ -18,6 +18,7 @@ from typing import List
 import matplotlib
 matplotlib.use("Agg")
 import matplotlib.pyplot as plt
+from matplotlib.patches import Patch
 import pandas as pd
 import streamlit as st
 
@@ -136,7 +137,6 @@ def _pie(ax, counts: pd.Series, title: str, total: int):
     colors = [CATEGORY_COLORS.get(c, "#ccc") for c in counts.index]
     ax.pie(
         counts,
-        labels=counts.index,
         colors=colors,
         startangle=140,
         autopct=lambda p: f"{int(p * total / 100)} ({p:.1f}%)",
@@ -164,9 +164,12 @@ def show_distribution(df: pd.DataFrame, edition_filter=None):
     all_counts = all_counts[all_counts > 0]
     ed_counts  = ed_counts[ed_counts > 0]
 
-    fig, (ax1, ax2) = plt.subplots(1, 2, figsize=(11, 4.5))
+    fig, (ax1, ax2) = plt.subplots(1, 2, figsize=(7, 3))
     _pie(ax1, ed_counts, ed_label, int(ed_counts.sum()))
     _pie(ax2, all_counts, "All editions", int(all_counts.sum()))
+    handles = [Patch(color=CATEGORY_COLORS[c], label=c.capitalize()) for c in CATEGORY_ORDER]
+    fig.legend(handles=handles, title="Women present", loc="lower center",
+               ncol=len(CATEGORY_ORDER), fontsize=9, bbox_to_anchor=(0.5, -0.05))
     plt.tight_layout()
     st.pyplot(fig)
     plt.close(fig)
@@ -186,7 +189,7 @@ def show_per_edition_bars(df: pd.DataFrame):
 
     n = len(grouped)
     fig, (ax1, ax2) = plt.subplots(
-        1, 2, figsize=(16, max(5, n * 0.45 + 2)),
+        1, 2, figsize=(14, max(3.5, n * 0.35 + 1.2)),
         gridspec_kw={"width_ratios": [3, 2]},
     )
     grouped.plot(kind="barh", stacked=True, color=colors, ax=ax1)
@@ -243,7 +246,7 @@ def show_topic_diff(df: pd.DataFrame, cat_a: str, cat_b: str):
         idx = list(range(keep)) + list(range(n - keep, n))
         diff = diff.iloc[idx]
 
-    fig, ax = plt.subplots(figsize=(14, 5))
+    fig, ax = plt.subplots(figsize=(12, 4))
     diff.plot(
         kind="bar", ax=ax,
         color=["#A9D18E" if v >= 0 else "#FF8080" for v in diff],
@@ -278,7 +281,7 @@ def show_relative_frequency_all(df: pd.DataFrame, min_stories: int = 5):
     rel = rel.sort_values("yes", ascending=True)
 
     colors = [CATEGORY_COLORS[c] for c in CATEGORY_ORDER]
-    fig, ax = plt.subplots(figsize=(14, max(6, len(rel) * 0.3 + 2)))
+    fig, ax = plt.subplots(figsize=(12, max(4, len(rel) * 0.2 + 1.5)))
     rel.plot(kind="barh", stacked=True, color=colors, ax=ax)
     ax.set_xlabel("Relative frequency")
     ax.set_title("Relative frequency of women presence — all topics")
@@ -312,7 +315,7 @@ def show_relative_frequency_by_category(df: pd.DataFrame, top_category: str, min
 
     colors = [CATEGORY_COLORS[c] for c in CATEGORY_ORDER]
     n = len(rel)
-    fig, ax = plt.subplots(figsize=(max(10, n * 0.55 + 2), 5))
+    fig, ax = plt.subplots(figsize=(max(8, n * 0.45 + 1.5), 4))
     rel.plot(kind="bar", stacked=True, color=colors, ax=ax)
     ax.set_ylabel("Relative frequency")
     ax.set_title(f"Relative frequency of women presence — {top_category}")
@@ -445,7 +448,7 @@ with tab_dist:
     _default_idx = (_opts.index(_default_ed) if _default_ed in _opts else 1)
     edition_sel = col_sel.selectbox(
         "The left chart shows one edition; the right shows all 9 editions combined. "
-        "Select an edition to explore:",
+        "Select an edition for comparison:",
         _opts,
         index=_default_idx,
     )
