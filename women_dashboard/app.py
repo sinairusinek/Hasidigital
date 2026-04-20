@@ -165,8 +165,8 @@ def show_distribution(df: pd.DataFrame, edition_filter=None):
     ed_counts  = ed_counts[ed_counts > 0]
 
     fig, (ax1, ax2) = plt.subplots(1, 2, figsize=(11, 4.5))
-    _pie(ax1, all_counts, "All editions", int(all_counts.sum()))
-    _pie(ax2, ed_counts, ed_label, int(ed_counts.sum()))
+    _pie(ax1, ed_counts, ed_label, int(ed_counts.sum()))
+    _pie(ax2, all_counts, "All editions", int(all_counts.sum()))
     plt.tight_layout()
     st.pyplot(fig)
     plt.close(fig)
@@ -181,7 +181,7 @@ def show_per_edition_bars(df: pd.DataFrame):
     )
     year_order = sorted(grouped.index, key=lambda e: EDITION_YEARS.get(e, 9999))
     grouped = grouped.loc[year_order]
-    pct = grouped.div(grouped.sum(axis=1), axis=0) * 100
+    pct_df = grouped.div(grouped.sum(axis=1), axis=0) * 100
     colors = [CATEGORY_COLORS[c] for c in CATEGORY_ORDER]
 
     n = len(grouped)
@@ -193,9 +193,19 @@ def show_per_edition_bars(df: pd.DataFrame):
     ax1.spines[["top", "right"]].set_visible(False)
     ax1.set_xlabel("Unique stories")
     ax1.set_title("Stories per edition — count")
-    ax1.legend(title="Category", bbox_to_anchor=(1.02, 1), loc="upper left", fontsize=8)
+    ax1.legend(title="Women present\nin stories", bbox_to_anchor=(1.02, 1), loc="upper left", fontsize=8)
 
-    pct.plot(kind="barh", stacked=True, color=colors, ax=ax2)
+    # Add count + % labels inside each bar segment
+    for i, container in enumerate(ax1.containers):
+        cat = CATEGORY_ORDER[i]
+        labels = []
+        for j in range(len(container)):
+            w = container[j].get_width()
+            p = pct_df.iloc[j][cat]
+            labels.append(f"{int(w)}\n({p:.0f}%)" if w >= 8 else "")
+        ax1.bar_label(container, labels=labels, label_type="center", fontsize=7, color="white")
+
+    pct_df.plot(kind="barh", stacked=True, color=colors, ax=ax2)
     ax2.spines[["top", "right"]].set_visible(False)
     ax2.set_xlabel("Percentage")
     ax2.set_title("Stories per edition — %")
@@ -388,6 +398,20 @@ st.set_page_config(
     layout="wide",
 )
 
+st.markdown("""
+<style>
+/* Sticky tab bar */
+[data-baseweb="tab-list"] {
+    position: sticky;
+    top: 2.875rem;
+    background-color: white;
+    z-index: 999;
+    padding-bottom: 4px;
+    border-bottom: 1px solid #e8e8e8;
+}
+</style>
+""", unsafe_allow_html=True)
+
 st.title("Women in Hasidic Stories")
 st.markdown(
     "Analysis of 9 annotated editions from the [Hasidigital](https://hasidic-stories.org) corpus. "
@@ -409,9 +433,14 @@ tab_dist, tab_ed, tab_topics = st.tabs([
 with tab_dist:
     st.subheader("Women present — distribution")
     col_sel, _ = st.columns([1, 2])
+    _default_ed = "Shivhei-Habesht"
+    _opts = ["(all editions)"] + annotated_editions
+    _default_idx = (_opts.index(_default_ed) if _default_ed in _opts else 1)
     edition_sel = col_sel.selectbox(
-        "Compare overall vs:",
-        ["(all editions)"] + annotated_editions,
+        "The left chart shows one edition; the right shows all 9 editions combined. "
+        "Select an edition to explore:",
+        _opts,
+        index=_default_idx,
     )
     show_distribution(df, edition_sel if edition_sel != "(all editions)" else None)
 
