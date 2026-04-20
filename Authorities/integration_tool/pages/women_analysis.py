@@ -15,13 +15,17 @@ import streamlit as st
 from config import WOMEN_KEYWORDS_APRIORI, WOMEN_KEYWORDS_EMPIRICAL
 from women_data import load_stories, extract_empirical_vocabulary
 
+# Set to True to show major/minor breakdown; False for binary yes/no
+SHOW_MAJOR_MINOR = False
+
+CATEGORY_ORDER = ["no-women", "minor", "major", "major+minor"] if SHOW_MAJOR_MINOR else ["no-women", "women"]
 CATEGORY_COLORS = {
-    "no-women":   "#5B9BD5",
-    "minor":      "#ED7D31",
-    "major":      "#A9D18E",
+    "no-women":    "#5B9BD5",
+    "women":       "#ED7D31",
+    "minor":       "#ED7D31",
+    "major":       "#A9D18E",
     "major+minor": "#FFD966",
 }
-CATEGORY_ORDER = ["no-women", "minor", "major", "major+minor"]
 
 
 @st.cache_data(show_spinner="Loading edition data…")
@@ -192,8 +196,11 @@ st.title("Women in Hasidic Stories — Analysis")
 stories = _get_stories()
 df = _df(stories)
 
-editions = sorted(df["edition"].unique())
 annotated_editions = sorted({s["edition"] for s in stories if s["category"] != "no-women"})
+df = df[df["edition"].isin(annotated_editions)].copy()
+
+if not SHOW_MAJOR_MINOR:
+    df["category"] = df["category"].apply(lambda c: "no-women" if c == "no-women" else "women")
 
 tab_dist, tab_edition, tab_topics, tab_keywords = st.tabs(
     ["Distribution", "Per-edition", "Topic differences", "Keyword exhibit"]

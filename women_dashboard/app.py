@@ -33,9 +33,13 @@ EMPIRICAL_PATH = os.path.join(PROJECT_DIR, "editions", "women-keywords-empirical
 
 TEI = "http://www.tei-c.org/ns/1.0"
 XML_ID = "{http://www.w3.org/XML/1998/namespace}id"
-CATEGORY_ORDER = ["no-women", "minor", "major", "major+minor"]
+# Set to True to show major/minor breakdown; False for binary yes/no
+SHOW_MAJOR_MINOR = False
+
+CATEGORY_ORDER = ["no-women", "minor", "major", "major+minor"] if SHOW_MAJOR_MINOR else ["no-women", "women"]
 CATEGORY_COLORS = {
     "no-women":    "#5B9BD5",
+    "women":       "#ED7D31",
     "minor":       "#ED7D31",
     "major":       "#A9D18E",
     "major+minor": "#FFD966",
@@ -56,6 +60,13 @@ def _derive_category(topics: List[str]) -> str:
     if has_minor:
         return "minor"
     return "no-women"
+
+
+def _collapse_category(cat: str) -> str:
+    """Collapse major/minor into single 'women' label when SHOW_MAJOR_MINOR is False."""
+    if SHOW_MAJOR_MINOR:
+        return cat
+    return "no-women" if cat == "no-women" else "women"
 
 
 @st.cache_data(show_spinner="Loading edition data…")
@@ -79,7 +90,7 @@ def load_stories() -> pd.DataFrame:
                 ana = span.get("ana", "")
                 topics.extend(_parse_ana(ana))
             topics = [t for t in topics if ":" in t and not t.startswith("TBD")]
-            category = _derive_category(topics)
+            category = _collapse_category(_derive_category(topics))
             rows.append({
                 "story_id": story_id,
                 "edition": edition,
@@ -283,9 +294,9 @@ st.markdown(
     "Stories are categorized by the presence and centrality of women characters."
 )
 
-df = load_stories()
-annotated = df[df["category"] != "no-women"]
-annotated_editions = sorted(annotated["edition"].unique())
+_all = load_stories()
+annotated_editions = sorted(_all[_all["category"] != "no-women"]["edition"].unique())
+df = _all[_all["edition"].isin(annotated_editions)].copy()
 
 # ── Tabs ──────────────────────────────────────────────────────────────────────
 
