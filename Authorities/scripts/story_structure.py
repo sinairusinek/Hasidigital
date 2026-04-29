@@ -11,11 +11,27 @@ RA tagging conventions:
   <story>first words</story>                  story opener, unnumbered
   <story rend="non story">first</story>       non-story unit (paratext candidate)
   <story n="non story">first</story>          typo: n= instead of rend=
+  <story rend="story">first</story>           explicit story marker (no number)
   <story rend="story continued" n="N">        continuation of previous story
+  <story rend="end story">…</story>           end-of-story continuation marker
   <story rend="students">…</story>            students list → non-story, ana="students-list"
   <story rend="letter">…</story>              letter → non-story, ana="letter"
+  <story rend="letters X">…</story>           letter collection → non-story, ana="letter"
   <story rend="dvar torah">…</story>          dvar-torah → non-story, ana="dvar-torah"
-  <story rend="marginal" n="N">…</story>      marginal note (flagged for review)
+  <story rend="non marginal">…</story>        non-story paratext → non-story
+  <story rend="marginal" n="N">…</story>      marginal story → story, ana="marginal"
+  <story rend="marginal">…</story>            marginal story (unnumbered) → story, ana="marginal"
+  <story rend="story in footnote">…</story>   story in footnote → story
+  <story rend="continuation of story in footnote"> → continuation
+  <story rend="approbation*">…</story>        approbation → non-story, ana="approbation"
+  <story rend="introduction*">…</story>       introduction → non-story, ana="introduction"
+  <story rend="patreons">…</story>            patrons list → non-story, ana="patrons-list"
+  <story rend="contract">…</story>            contract → non-story, ana="contract"
+  <story rend="family tree*">…</story>        genealogy → non-story, ana="family-tree"
+  <story rend="genealogy">…</story>           genealogy → non-story, ana="family-tree"
+  <story rend="addition*">…</story>           editorial addition → non-story, ana="addition"
+  <story rend="opening">…</story>             opening matter → non-story, ana="opening"
+  Multiple <story> tags in the same <p>       each treated as a separate unit boundary
   No <story> tags at all                      use heading-based divs from step 02
 
 The script writes the proposed structure directly to the XML. You then
@@ -55,10 +71,33 @@ TEI_XMLID = f"{{{XML_NS}}}id"
 # Known rend values that mark non-story units with specific content types.
 # Maps rend value → ana subtype label to put on the resulting <div>.
 KNOWN_NON_STORY_SUBTYPES: dict[str, str] = {
-    "students":  "students-list",
-    "letter":    "letter",
+    "students":   "students-list",
+    "letter":     "letter",
     "dvar torah": "dvar-torah",
+    "patreons":   "patrons-list",
+    "contract":   "contract",
+    "genealogy":  "family-tree",
+    "opening":    "opening",
 }
+
+# rend values that qualify a story as a known subtype but don't affect story/non-story
+# classification. Maps rend → ana subtype (no flag added).
+KNOWN_STORY_QUALIFIERS: dict[str, str] = {
+    "non marginal": "marginal",
+    "marginal":     "marginal",
+}
+
+# rend prefixes that map to non-story subtypes (checked with startswith)
+_NON_STORY_PREFIXES: list[tuple[str, str]] = [
+    ("approbation", "approbation"),
+    ("letters ",    "letter"),
+    ("letter ",     "letter"),
+    ("introduction", "introduction"),
+    ("family tree", "family-tree"),
+    ("addition",    "addition"),
+    ("editor comment", "editor-comment"),
+    ("footnote",    "footnote"),
+]
 
 
 # ── Metadata helpers ──────────────────────────────────────────────────────────
@@ -160,8 +199,8 @@ def classify_story_tag(el) -> tuple[str, str | None, str | None]:
       subtype     None for plain story/non-story; a label for known content types
                   (e.g. 'letter', 'dvar-torah', 'students-list')
     """
-    n_val    = el.get("n",    "").strip()
-    rend_val = el.get("rend", "").strip()
+    n_val    = el.get("n",    "").strip().strip("'\"")  # strip stray quote chars
+    rend_val = el.get("rend", "").strip().lower()
 
     # Standard non-story
     if rend_val == "non story":
@@ -171,41 +210,54 @@ def classify_story_tag(el) -> tuple[str, str | None, str | None]:
     if n_val == "non story":
         return "non-story", 'n="non story" — typo for rend="non story"', None
 
-    # Known non-story subtypes (students, letter, dvar torah, …)
+    # Explicit story marker
+    if rend_val == "story":
+        return "story", None, None
+
+    # Story in footnote → treat as a story unit
+    if rend_val == "story in footnote":
+        return "story", None, "footnote-story"
+
+    # Story continuations
+    if "story continued" in rend_val or rend_val == "continuation of story in footnote":
+        return "continuation", None, None
+
+    # End-of-story marker: close current story, following content → non-story
+    if rend_val == "end story":
+        return "end-marker", None, None
+
+    # Numeric n takes priority over rend-based classification.
+    # A story number always wins — rend is noted as supplementary info only.
+    if n_val.isdigit():
+        if not rend_val:
+            return "story", None, None
+        # Known story qualifiers → story with subtype, no flag
+        if rend_val in KNOWN_STORY_QUALIFIERS:
+            return "story", None, KNOWN_STORY_QUALIFIERS[rend_val]
+        # Any other rend alongside a numeric n → treat as story, add minor flag
+        return "story", f'n="{n_val}" with rend="{rend_val}" — review annotation', None
+
+    # No n — classify by rend alone from here on.
+
+    # Known story qualifiers without a number → story with subtype
+    if rend_val in KNOWN_STORY_QUALIFIERS:
+        return "story", None, KNOWN_STORY_QUALIFIERS[rend_val]
+
+    # Known non-story subtypes (exact match table)
     if rend_val in KNOWN_NON_STORY_SUBTYPES:
         return "non-story", None, KNOWN_NON_STORY_SUBTYPES[rend_val]
 
-    # Story continuation — merge into previous unit
-    if "story continued" in rend_val.lower():
-        return "continuation", None, None
-
-    # Marginal note — ambiguous when combined with a numeric n
-    if rend_val == "marginal":
-        flag = (
-            f'rend="marginal" with n="{n_val}" — marginal note has story number; '
-            f"classify manually as story or non-story"
-            if n_val.isdigit()
-            else f'rend="marginal" — marginal note; classify manually'
-        )
-        return "unclear", flag, None
-
-    # Standard story: numeric n, no rend
-    if n_val.isdigit() and not rend_val:
-        return "story", None, None
-
-    # Numeric n with an unexpected rend — treat as story but flag
-    if n_val.isdigit() and rend_val:
-        return "story", f'n="{n_val}" with rend="{rend_val}" — review annotation', None
+    # Known non-story prefixes
+    for prefix, subtype in _NON_STORY_PREFIXES:
+        if rend_val.startswith(prefix):
+            return "non-story", None, subtype
 
     # Unknown non-empty rend value
     if rend_val:
         return "unclear", f'rend="{rend_val}" — unknown value; classify as story or non-story', None
 
     # No meaningful attributes at all — still treat as story opener
-    if not n_val and not rend_val:
-        return "story", None, None
-
-    return "unclear", f"unrecognized attributes: {dict(el.attrib)}", None
+    return "story", None, None
 
 
 def _check_story_numbering(units: list[dict]) -> None:
@@ -218,7 +270,8 @@ def _check_story_numbering(units: list[dict]) -> None:
     """
     last_n: int | None = None
     for u in units:
-        if u["type"] != "story":
+        # Track sequence across story AND unclear units that carry a story number
+        if u["type"] not in ("story", "unclear"):
             continue
         n = u.get("story_n")
         if n is None:
@@ -266,32 +319,30 @@ def detect_units_from_story_tags(root) -> list[dict]:
     first_story_seen = False
 
     for p in paragraphs:
-        sc = p.find(tei("story"))
-        if sc is None:
+        story_tags_in_p = p.findall(tei("story"))
+
+        if not story_tags_in_p:
             if not first_story_seen:
                 pre_story.append(p)
             elif current is not None:
                 current["paragraphs"].append(p)
             elif units:
                 units[-1]["paragraphs"].append(p)
-        else:
-            first_story_seen = True
-            unit_type, flag, subtype = classify_story_tag(sc)
-            head_el = p.find(tei("head"))
-            heading_text = inner_text(head_el) if head_el is not None else ""
+            continue
 
-            # Extract RA story number (numeric n attribute)
-            raw_n = sc.get("n", "").strip()
+        first_story_seen = True
+        head_el = p.find(tei("head"))
+        heading_text = inner_text(head_el) if head_el is not None else ""
+
+        for i, sc in enumerate(story_tags_in_p):
+            unit_type, flag, subtype = classify_story_tag(sc)
+            raw_n = sc.get("n", "").strip().strip("'\"")
             story_n = int(raw_n) if raw_n.isdigit() else None
 
             if unit_type == "continuation" and (current is not None or units):
-                # Merge into the currently-open unit if one exists, otherwise the
-                # last completed unit.  Using current is critical: when a story
-                # opener and its continuation are in adjacent paragraphs, current
-                # holds the opener's unit but it has not yet been appended to units.
                 target = current if current is not None else units[-1]
-                target["paragraphs"].append(p)
-                # Flag n-value mismatches between continuation and parent unit
+                if i == 0:
+                    target["paragraphs"].append(p)
                 if story_n is not None and target.get("story_n") != story_n:
                     cont_note = (
                         f'continuation tag has n="{story_n}" but parent unit has '
@@ -301,17 +352,41 @@ def detect_units_from_story_tags(root) -> list[dict]:
                         f"{target['flag']}; {cont_note}"
                         if target.get("flag") else cont_note
                     )
+            elif unit_type == "end-marker":
+                # Close the current story (this paragraph is its last), then open
+                # a non-story unit to collect what follows until the next opener.
+                if current is not None:
+                    if i == 0:
+                        current["paragraphs"].append(p)
+                    units.append(current)
+                # Start a nameless non-story unit; subsequent paragraphs attach to it
+                current = {
+                    "type":         "non-story",
+                    "heading_text": "",
+                    "paragraphs":   [],
+                    "flag":         None,
+                    "subtype":      "post-story",
+                    "story_n":      None,
+                }
             else:
                 if current is not None:
                     units.append(current)
-                current = {
+                new_unit: dict = {
                     "type":         unit_type,
-                    "heading_text": heading_text,
-                    "paragraphs":   [p],
+                    "heading_text": heading_text if i == 0 else "",
+                    "paragraphs":   [p] if i == 0 else [],
                     "flag":         flag,
                     "subtype":      subtype,
                     "story_n":      story_n,
                 }
+                if i > 0:
+                    # Mid-paragraph boundary: note that this unit begins mid-<p>
+                    mid_note = "starts mid-paragraph (multiple story tags in same <p>)"
+                    new_unit["flag"] = (
+                        f"{new_unit['flag']}; {mid_note}"
+                        if new_unit.get("flag") else mid_note
+                    )
+                current = new_unit
 
     if current is not None:
         units.append(current)
@@ -427,13 +502,13 @@ def _build_ana(subtype: str | None, flag: str | None) -> str | None:
     return " ".join(parts) if parts else None
 
 
-def build_structure(root, units: list[dict]) -> None:
+def build_structure(root, units: list[dict], slug: str = "Structured") -> None:
     """
     Rewrite <body> (and optionally add <front>/<back>) using detected units.
     Strips <story> inline tags after restructuring.
 
     Div attributes produced:
-      type="story"      xml:id="Structured_NNNN"  [n="M" if RA numbered it]
+      type="story"      xml:id="{slug}_NNNN"  [n="M" if RA numbered it]
                         [ana="FLAGGED: …" if flagged]
       type="non-story"  [ana="subtype"]  [ana="subtype FLAGGED: …"]
       type="unclear"    ana="FLAGGED: …"
@@ -471,7 +546,7 @@ def build_structure(root, units: list[dict]) -> None:
         div.set("type", u["type"])
 
         if u["type"] == "story":
-            div.set(TEI_XMLID, f"Structured_{div_counter:04d}")
+            div.set(TEI_XMLID, f"{slug}_{div_counter:04d}")
             div_counter += 1
             # Preserve RA's story number if available
             if u.get("story_n") is not None:
@@ -611,10 +686,14 @@ def run(dijest_id: str, dry_run: bool) -> None:
         print("[DRY RUN] XML not modified.")
         return
 
-    build_structure(root, units)
+    build_structure(root, units, slug)
 
-    tree.write(str(xml_path), encoding="UTF-8",
+    # Write with canonical filename so downstream tools use the right name
+    canonical_path = xml_path.parent / entry["xml_filename"]
+    tree.write(str(canonical_path), encoding="UTF-8",
                xml_declaration=True, pretty_print=True)
+    if canonical_path != xml_path and xml_path.exists():
+        xml_path.unlink()
 
     story_count     = len(root.findall(f".//{tei('div')}[@type='story']"))
     non_story_count = len(root.findall(f".//{tei('div')}[@type='non-story']"))
@@ -627,7 +706,8 @@ def run(dijest_id: str, dry_run: bool) -> None:
     has_back  = root.find(f".//{tei('back')}")  is not None
     remaining = root.findall(f".//{tei('story')}")
 
-    print(f"✓  XML written: {xml_path.name}")
+    renamed = f"  (renamed from {xml_path.name})" if canonical_path != xml_path else ""
+    print(f"✓  XML written: {canonical_path.name}{renamed}")
     print(f"   Story divs:       {story_count}")
     print(f"   Non-story divs:   {non_story_count}")
     if unclear_count:
