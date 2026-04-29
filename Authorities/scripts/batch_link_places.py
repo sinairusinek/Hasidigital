@@ -28,6 +28,9 @@ EDITIONS_INCOMING = os.path.join(PROJECT_DIR, "editions", "online")
 MATCHING_DB_PATH = os.path.join(AUTH_DIR, "authorities-matching-db.json")
 REPORT_PATH = os.path.join(PROJECT_DIR, "editions", "unmatched-places-report.tsv")
 
+# May be overridden by --dir CLI argument
+_OVERRIDE_DIR = None
+
 TEI_NS = "http://www.tei-c.org/ns/1.0"
 XML_NS = "http://www.w3.org/XML/1998/namespace"
 
@@ -74,14 +77,15 @@ def find_parent_p(elem, parent_map):
 
 # ── Main logic ───────────────────────────────────────────────────────────────
 
-def process_editions(db, variant_index, dry_run=False):
+def process_editions(db, variant_index, dry_run=False, editions_dir=None):
     """
     Process all canonical editions (excludes *_corrected.xml and *.bak).
     Returns (total_refs_added, new_variants_added, unmatched_global)
     where unmatched_global maps name -> {occurrences, editions, contexts}.
     """
+    target_dir = editions_dir or _OVERRIDE_DIR or EDITIONS_INCOMING
     edition_files = sorted([
-        f for f in os.listdir(EDITIONS_INCOMING)
+        f for f in os.listdir(target_dir)
         if f.endswith(".xml")
         and not f.endswith("_corrected.xml")
         and not f.endswith(".bak")
@@ -105,7 +109,7 @@ def process_editions(db, variant_index, dry_run=False):
     print(f"Processing {len(edition_files)} editions...\n")
 
     for fn in edition_files:
-        path = os.path.join(EDITIONS_INCOMING, fn)
+        path = os.path.join(target_dir, fn)
         ET.register_namespace('', TEI_NS)
         ET.register_namespace('xml', XML_NS)
         tree = ET.parse(path)
@@ -208,7 +212,11 @@ def main():
     parser = argparse.ArgumentParser(description="Batch place-name linker")
     parser.add_argument("--dry-run", action="store_true",
                         help="Show what would happen without modifying files")
+    parser.add_argument("--dir", default=None, metavar="PATH",
+                        help="Edition directory to process (default: editions/online/)")
     args = parser.parse_args()
+
+    editions_dir = os.path.abspath(args.dir) if args.dir else None
 
     # Load matching DB
     print(f"Loading matching DB from {MATCHING_DB_PATH}...")
@@ -221,7 +229,7 @@ def main():
 
     # Process all editions
     total_refs, new_variants, unmatched_global = process_editions(
-        db, variant_index, dry_run=args.dry_run
+        db, variant_index, dry_run=args.dry_run, editions_dir=editions_dir
     )
 
     print(f"\n{'=' * 60}")

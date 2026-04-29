@@ -1,19 +1,18 @@
-<?xml version='1.0' encoding='UTF-8'?>
-<tei:TEI xmlns:tei="http://www.tei-c.org/ns/1.0">
-	<teiHeader xmlns="http://www.tei-c.org/ns/1.0">
+<?xml version='1.0' encoding='utf-8'?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
+	<teiHeader>
 		<fileDesc>
 			<titleStmt>
-				<title type="main">SeferMaimRabim-Hebrewbooks_org_3711 (1)</title>
+				<title type="main">Maim Rabim 1899 מים רבים</title>
 			</titleStmt>
 			<publicationStmt>
 				<publisher>tranScriptorium</publisher>
 			</publicationStmt>
 			<sourceDesc>
-				<bibl><publisher>TRP document creator: sinai.rusinek@mail.huji.ac.il</publisher></bibl>
-			</sourceDesc>
+				<bibl type="original"><title type="main" xml:lang="he">מים רבים</title><title type="main" xml:lang="en">Maim Rabim</title><author><persName xml:lang="he">נתן נטע דונר</persName><persName xml:lang="en">Natan Netah Doner</persName></author><imprint><pubPlace xml:lang="he">ורשה</pubPlace><pubPlace xml:lang="en">Warsaw</pubPlace><date when="1899">תרנ"ט</date></imprint><textLang mainLang="heb"/><idno type="HebrewBooks">3711</idno><idno type="BHB">125501</idno><idno type="Kima">953</idno><idno type="Transkribus">6577154</idno><idno type="DBid">3698</idno></bibl></sourceDesc>
 		</fileDesc>
-	</teiHeader>
-	<text xmlns="http://www.tei-c.org/ns/1.0">
+	<revisionDesc><change when="2026-04-29">sourceDesc synced from edition-metadata.json</change></revisionDesc></teiHeader>
+	<text>
 		<front><div type="front-matter"><p facs="#facs_1_r">
 					<lb facs="#facs_1_l" n="N001"/>ספר
 					<lb facs="#facs_1_l_1" n="N002"/>מים רבים
@@ -986,4 +985,4 @@
 				</p>
 			</div></body>
 	</text>
-</tei:TEI>
+</TEI>

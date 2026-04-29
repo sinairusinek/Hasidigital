@@ -21,6 +21,9 @@ EDITION_META = REPO / "editions" / "edition-metadata.json"
 INCOMING = REPO / "editions" / "online"
 MATCH_DB = REPO / "Authorities" / "authorities-matching-db.json"
 
+# Overridden by --dir CLI argument at runtime
+_OVERRIDE_DIR: Path | None = None
+
 TEI_NS = "http://www.tei-c.org/ns/1.0"
 XML_NS = "http://www.w3.org/XML/1998/namespace"
 T = f"{{{TEI_NS}}}"
@@ -105,14 +108,15 @@ def _build_source_desc(entry: dict) -> ET.Element:
     return sd
 
 
-def sync_xml_headers(editions: list[dict], verbose: bool = True) -> int:
+def sync_xml_headers(editions: list[dict], verbose: bool = True, target_dir: Path | None = None) -> int:
     """Update each edition XML's sourceDesc. Returns count of files updated."""
     ET.register_namespace("", TEI_NS)
     ET.register_namespace("xml", XML_NS)
 
+    base_dir = target_dir or _OVERRIDE_DIR or INCOMING
     updated = 0
     for entry in editions:
-        xml_path = INCOMING / entry["xml_filename"]
+        xml_path = base_dir / entry["xml_filename"]
         if not xml_path.exists():
             if verbose:
                 print(f"  SKIP {entry['xml_filename']} (file not found)")
@@ -227,16 +231,18 @@ def sync_matching_db(editions: list[dict], verbose: bool = True):
 
 # ── Main ────────────────────────────────────────────────────────────────────
 
-def sync(verbose: bool = True):
+def sync(verbose: bool = True, target_dir: Path | None = None):
     """Run the full sync: JSON → XML headers + matching DB."""
     editions = load_edition_metadata()
 
+    base_dir = target_dir or _OVERRIDE_DIR or INCOMING
     if verbose:
         print(f"Syncing {len(editions)} editions from {EDITION_META}")
+        print(f"Target directory: {base_dir}")
         print()
         print("1. Updating XML sourceDesc:")
 
-    n = sync_xml_headers(editions, verbose=verbose)
+    n = sync_xml_headers(editions, verbose=verbose, target_dir=base_dir)
 
     if verbose:
         print(f"\n   {n}/{len(editions)} XML files updated")
@@ -252,4 +258,10 @@ def sync(verbose: bool = True):
 
 
 if __name__ == "__main__":
-    sync()
+    import argparse as _ap
+    _p = _ap.ArgumentParser(description="Sync edition-metadata.json → XML teiHeaders + matching DB")
+    _p.add_argument("--dir", default=None, metavar="PATH",
+                    help="Edition directory to update (default: editions/online/)")
+    _args = _p.parse_args()
+    _target = Path(_args.dir).resolve() if _args.dir else None
+    sync(target_dir=_target)

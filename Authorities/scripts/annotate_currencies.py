@@ -162,13 +162,21 @@ def annotate_file(filepath: Path, dry_run: bool) -> list[str]:
 def main():
     parser = argparse.ArgumentParser(description="Annotate currency terms in edition files")
     parser.add_argument("--dry-run", action="store_true", help="Report changes without writing")
+    parser.add_argument("--dir", default=None, metavar="PATH",
+                        help="Edition directory to process (default: editions/online/). "
+                             "When set, scans all *.xml files (not just *_corrected/*.gemini).")
     args = parser.parse_args()
 
-    edition_dir = Path(EDITIONS_INCOMING)
-    files = sorted(
-        list(edition_dir.glob("*_corrected.xml"))
-        + list(edition_dir.glob("*_gemini.xml"))
-    )
+    if args.dir:
+        edition_dir = Path(args.dir).resolve()
+        # For incoming/ready, all canonical XMLs need annotation
+        files = sorted(edition_dir.glob("*.xml"))
+    else:
+        edition_dir = Path(EDITIONS_INCOMING)
+        files = sorted(
+            list(edition_dir.glob("*_corrected.xml"))
+            + list(edition_dir.glob("*_gemini.xml"))
+        )
 
     total_changes = 0
     files_modified = 0

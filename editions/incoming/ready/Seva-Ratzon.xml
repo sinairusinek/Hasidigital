@@ -1,19 +1,18 @@
-<?xml version='1.0' encoding='UTF-8'?>
-<tei:TEI xmlns:tei="http://www.tei-c.org/ns/1.0">
-	<teiHeader xmlns="http://www.tei-c.org/ns/1.0">
+<?xml version='1.0' encoding='utf-8'?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
+	<teiHeader>
 		<fileDesc>
 			<titleStmt>
-				<title type="main">Sva-Razon-Hebrewbooks_org_39105</title>
+				<title type="main">Sheva Ratzon 1901 שבע רצון</title>
 			</titleStmt>
 			<publicationStmt>
 				<publisher>tranScriptorium</publisher>
 			</publicationStmt>
 			<sourceDesc>
-				<bibl><publisher>TRP document creator: sinai.rusinek@mail.huji.ac.il</publisher></bibl>
-			</sourceDesc>
+				<bibl type="original"><title type="main" xml:lang="he">שבע רצון</title><title type="main" xml:lang="en">Sheva Ratzon</title><author><persName xml:lang="he">יצחק צינגר</persName><persName xml:lang="en">Yitzhak Zinger</persName></author><imprint><pubPlace xml:lang="he">פאדגורזא</pubPlace><pubPlace xml:lang="en">Podgorze</pubPlace><date when="1901">תרס"א</date></imprint><textLang mainLang="heb"/><idno type="HebrewBooks">39105</idno><idno type="Kima">168</idno><idno type="Transkribus">6577969</idno><idno type="DBid">3706</idno></bibl></sourceDesc>
 		</fileDesc>
-	</teiHeader>
-	<text xmlns="http://www.tei-c.org/ns/1.0">
+	<revisionDesc><change when="2026-04-29">sourceDesc synced from edition-metadata.json</change></revisionDesc></teiHeader>
+	<text>
 		<front><div type="front-matter"><p facs="#facs_1_r">
 					<lb facs="#facs_1_line_1745757014607_7" n="N001"/>ספר
 					<lb facs="#facs_1_r_tl_4" n="N002"/>שבע רצון
@@ -899,7 +898,7 @@
 					<lb facs="#facs_23_tr_1743009865_tl_4" n="N004"/>מסתופף בצל הה״ק ר״ב ממעזיביו ויהי כאשר ראה התנהגות הה״ק מהר"צ
 					<lb facs="#facs_23_tr_1743009865_tl_5" n="N005"/>ויספר לו את תהלוכות רבו הק' ממעזיבין ויאמר לו הה״ק מהר"צ מה
 					<lb facs="#facs_23_tr_1743009865_tl_6" n="N006"/>לך לכתת רגלך בימי החורף האלו הלא בשתי ירחים תוכל לאסוף כשלושים
-					<lb facs="#facs_23_tr_1743009865_tl_7" n="N007"/>רובעל שבה עמדי כל ימי החורף ואנכי אסע לסביבותי ובזמן מה אביא
+					<lb facs="#facs_23_tr_1743009865_tl_7" n="N007"/><name type="currency">רובעל</name> שבה עמדי כל ימי החורף ואנכי אסע לסביבותי ובזמן מה אביא
 					<lb facs="#facs_23_tr_1743009865_tl_8" n="N008"/>לך שלושים רוביל כי מיודעי ומכירי רבים הם ויואל האיש לשבת עמו
 					<lb facs="#facs_23_tr_1743009865_tl_9" n="N009"/>וילמדו יחדיו ויאהב איש לרעהו עד מאוד וידבר המשולח על לב הה״ק
 					<lb facs="#facs_23_tr_1743009865_tl_10" n="N010"/>מהר״צ לבא למעזיביז וימאן ויאמר לא אוכל לעשות דבר הזה לעזוב
@@ -1335,4 +1334,4 @@
 				</p>
 			</div></body>
 	</text>
-</tei:TEI>
+</TEI>
