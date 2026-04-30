@@ -1,0 +1,691 @@
+<!DOCTYPE html>
+<html lang="he" dir="rtl">
+<head>
+<meta charset="utf-8">
+<title>Entity Review — Mockup</title>
+<style>
+*, *::before, *::after { box-sizing: border-box; }
+body {
+  font-family: 'Segoe UI', Arial, sans-serif;
+  background: #f0f2f5;
+  margin: 0; padding: 0;
+  direction: rtl;
+  color: #222;
+}
+
+/* ── Header ───────────────────────────────────────── */
+#header {
+  background: #1e2d3d;
+  color: #fff;
+  padding: 12px 20px;
+  position: sticky; top: 0; z-index: 100;
+  display: flex; align-items: center; gap: 16px; flex-wrap: wrap;
+}
+#header h1 { margin: 0; font-size: 1rem; white-space: nowrap; }
+
+/* ── Tier summary bar ─────────────────────────────── */
+#tier-bar {
+  display: flex; gap: 6px; align-items: center;
+}
+.tier-pill {
+  display: flex; align-items: center; gap: 5px;
+  padding: 3px 10px; border-radius: 12px; font-size: 0.78rem; font-weight: 600;
+  cursor: pointer; border: 2px solid transparent;
+}
+.tier-pill.active { border-color: #fff8; }
+.tier-auto_accept { background: #1e6e3e; color: #d4edda; }
+.tier-auto_reject { background: #8b1a24; color: #f8d7da; }
+.tier-review      { background: #7a5a00; color: #fff3cd; }
+.tier-all         { background: #334; color: #cce; }
+
+#save-bar {
+  display: flex; gap: 6px; margin-right: auto; align-items: center;
+}
+.save-btn {
+  padding: 4px 12px; border-radius: 4px; border: none;
+  font-size: 0.78rem; font-weight: bold; cursor: pointer;
+}
+.save-btn       { background: #2255aa; color: #fff; }
+.reviewer-label { font-size: 0.75rem; color: #aac; white-space: nowrap; }
+.reviewer-name  { font-size: 0.78rem; color: #ddf; font-weight: 600; }
+
+#progress-line {
+  width: 100%; height: 4px; background: #334;
+  display: flex; gap: 1px;
+}
+#prog-accepted { background: #2a8a50; height: 100%; transition: width .3s; width: 0%; }
+#prog-rejected { background: #b02030; height: 100%; transition: width .3s; width: 0%; }
+
+/* ── Filter bar ───────────────────────────────────── */
+#filter-bar {
+  background: #fff; border-bottom: 1px solid #dde;
+  padding: 7px 20px; display: flex; gap: 10px; align-items: center;
+  flex-wrap: wrap; font-size: 0.8rem;
+}
+#filter-bar label { color: #667; margin-left: 4px; }
+select, .f-btn {
+  padding: 3px 8px; border: 1px solid #ccd; border-radius: 4px;
+  font-size: 0.78rem; cursor: pointer; background: #f8f8fc;
+}
+.f-btn.on { background: #1e2d3d; color: #fff; border-color: #1e2d3d; }
+#decided-toggle { margin-right: auto; }
+
+/* ── Group card ───────────────────────────────────── */
+#main { max-width: 980px; margin: 0 auto; padding: 14px 16px; }
+
+.group-card {
+  background: #fff;
+  border: 1px solid #dde;
+  border-radius: 7px;
+  margin-bottom: 10px;
+  overflow: hidden;
+}
+.group-card.all-decided { opacity: 0.5; }
+.group-card.all-decided:hover { opacity: 1; }
+
+.group-header {
+  display: flex; align-items: center; gap: 8px;
+  padding: 10px 14px; cursor: pointer;
+  user-select: none;
+}
+.group-header:hover { background: #f8f8fc; }
+
+.entity-name {
+  font-size: 1.05rem; font-weight: bold; padding: 1px 6px;
+  border-radius: 4px; white-space: nowrap;
+}
+.badge {
+  font-size: 0.7rem; font-weight: 700; padding: 2px 8px;
+  border-radius: 10px; white-space: nowrap;
+}
+.badge-per   { background: #e3eaff; color: #1a3a99; }
+.badge-gpe   { background: #e8f5e9; color: #1a5c2a; }
+.badge-org   { background: #fff3e0; color: #8a4000; }
+.badge-date  { background: #fce4ec; color: #8a003a; }
+.badge-flag  { background: #f3e5f5; color: #6a1b9a; }
+
+.tier-badge {
+  font-size: 0.7rem; font-weight: 700; padding: 3px 9px;
+  border-radius: 10px; white-space: nowrap;
+}
+.tb-auto_accept { background: #d4edda; color: #1a5c2a; }
+.tb-auto_reject { background: #f8d7da; color: #8b1a24; }
+.tb-review      { background: #fff3cd; color: #7a5a00; }
+
+.tier-reason {
+  font-size: 0.72rem; color: #778; flex: 1; min-width: 0;
+  overflow: hidden; text-overflow: ellipsis; white-space: nowrap;
+}
+.occ-count {
+  font-size: 0.75rem; color: #aab; white-space: nowrap;
+}
+.expand-arrow {
+  font-size: 0.7rem; color: #aab; transition: transform .2s;
+  margin-right: 4px;
+}
+.expanded .expand-arrow { transform: rotate(90deg); }
+
+/* group-level decision buttons */
+.group-actions {
+  display: flex; gap: 6px; align-items: center;
+}
+.g-btn {
+  padding: 3px 12px; border-radius: 4px; border: 1px solid #ccc;
+  font-size: 0.78rem; font-weight: bold; cursor: pointer;
+  white-space: nowrap;
+}
+.g-keep   { background: #d4edda; color: #155724; border-color: #b8dfc4; }
+.g-keep:hover   { background: #b8dfc4; }
+.g-remove { background: #f8d7da; color: #721c24; border-color: #f5b8be; }
+.g-remove:hover { background: #f5b8be; }
+.g-each   { background: #e8eaf6; color: #1a237e; border-color: #c5cae9; }
+.g-each:hover   { background: #c5cae9; }
+
+/* group decision result badge */
+.g-decided-badge {
+  font-size: 0.72rem; padding: 2px 8px; border-radius: 10px; font-weight: bold;
+}
+.gd-keep   { background: #d4edda; color: #155724; }
+.gd-remove { background: #f8d7da; color: #721c24; }
+.gd-each   { background: #e8eaf6; color: #1a237e; }
+
+/* ── Occurrence list ──────────────────────────────── */
+.occ-list {
+  border-top: 1px solid #eef;
+  display: none;
+}
+.group-card.expanded .occ-list { display: block; }
+
+.occ-item {
+  padding: 10px 14px 10px 14px;
+  border-bottom: 1px solid #eef;
+  display: flex; flex-direction: column; gap: 6px;
+}
+.occ-item:last-child { border-bottom: none; }
+
+.occ-meta {
+  display: flex; gap: 6px; align-items: center; flex-wrap: wrap;
+}
+.source-badge {
+  font-size: 0.68rem; padding: 2px 7px; border-radius: 10px;
+  white-space: nowrap;
+}
+.sb-gemini-diff  { background: #e3f2fd; color: #0d47a1; }
+.sb-quality-flag { background: #f3e5f5; color: #6a1b9a; }
+.sb-edition      { background: #f0f0f0; color: #555; font-weight: normal; }
+.sb-flag-type    { background: #fff8e1; color: #827717; }
+
+.occ-context {
+  font-size: 0.9rem; line-height: 1.7;
+  direction: rtl; text-align: right;
+  border-right: 3px solid #e0e4f0;
+  padding-right: 10px;
+  color: #333;
+}
+/* the entity span inside context */
+.ctx-entity {
+  background: rgba(255,200,0,0.35);
+  padding: 0 2px; border-radius: 2px; font-weight: bold;
+}
+/* containing word highlight (broader than entity) */
+.ctx-word {
+  background: rgba(100,160,255,0.15);
+  padding: 0 1px; border-radius: 2px;
+}
+.occ-actions {
+  display: flex; gap: 6px;
+}
+.o-btn {
+  padding: 2px 10px; border-radius: 4px; border: 1px solid #ccc;
+  font-size: 0.75rem; font-weight: bold; cursor: pointer;
+}
+.o-keep   { background: #d4edda; color: #155724; border-color: #b8dfc4; }
+.o-keep.chosen   { box-shadow: 0 0 0 2px #155724; }
+.o-remove { background: #f8d7da; color: #721c24; border-color: #f5b8be; }
+.o-remove.chosen { box-shadow: 0 0 0 2px #721c24; }
+
+/* ── Tier section (collapsible) ──────────────────── */
+.tier-section {
+  margin-bottom: 6px;
+}
+.tier-section-header {
+  display: flex; align-items: center; gap: 10px;
+  padding: 7px 6px; cursor: pointer; user-select: none;
+  border-radius: 5px;
+}
+.tier-section-header:hover { background: #e8eaf0; }
+.tier-section-arrow { font-size: 0.65rem; color: #99a; transition: transform .2s; }
+.tier-section.open .tier-section-arrow { transform: rotate(90deg); }
+.tier-section-body { display: none; }
+.tier-section.open .tier-section-body { display: block; }
+
+/* ── Tier divider labels ──────────────────────────── */
+.tier-section-label {
+  font-size: 0.72rem; font-weight: 700; letter-spacing: .06em;
+  text-transform: uppercase; color: #99a; padding: 10px 4px 4px;
+}
+
+/* ── Mockup annotation ────────────────────────────── */
+.mockup-note {
+  background: #fffbe6; border: 1px dashed #e6c800;
+  border-radius: 5px; font-size: 0.78rem; color: #7a6000;
+  padding: 8px 12px; margin-bottom: 12px;
+  direction: ltr; text-align: left;
+}
+</style>
+</head>
+<body>
+
+<!-- ── Header ──────────────────────────────────────── -->
+<div id="header">
+  <h1>Entity Review</h1>
+
+  <div id="tier-bar">
+    <div class="tier-pill tier-all active" onclick="filterTier('all')">הכל · 18</div>
+    <div class="tier-pill tier-auto_accept" onclick="filterTier('auto_accept')">✓ אוטומטי · 9</div>
+    <div class="tier-pill tier-auto_reject" onclick="filterTier('auto_reject')">✗ אוטומטי · 3</div>
+    <div class="tier-pill tier-review" onclick="filterTier('review')">⚑ לבדיקה · 6</div>
+  </div>
+
+  <div id="save-bar">
+    <span class="reviewer-label">סוקר:</span>
+    <span class="reviewer-name">ראובן אסף</span>
+    <button class="save-btn">💾 שמור החלטות ל-GitHub</button>
+  </div>
+
+  <div id="progress-line">
+    <div id="prog-accepted" style="width:22%"></div>
+    <div id="prog-rejected" style="width:5%"></div>
+  </div>
+</div>
+
+<!-- ── Filter bar ───────────────────────────────────── -->
+<div id="filter-bar">
+  <label>סוג:</label>
+  <button class="f-btn on">הכל</button>
+  <button class="f-btn">persName</button>
+  <button class="f-btn">placeName</button>
+  <button class="f-btn">quality-flag</button>
+
+  <label>מקור:</label>
+  <select>
+    <option>כל המהדורות</option>
+    <option>Derech-Haemuna.xml</option>
+    <option>Maim-Rabim.xml</option>
+    <option>Tiferet-Hayyim.xml</option>
+  </select>
+
+  <label>שכבה:</label>
+  <select>
+    <option>Gemini diff + quality flags</option>
+    <option>Gemini diff בלבד</option>
+    <option>Quality flags בלבד</option>
+  </select>
+
+  <button class="f-btn" id="decided-toggle">הצג רק שלא הוחלט</button>
+</div>
+
+<!-- ── Main ─────────────────────────────────────────── -->
+<div id="main">
+
+<div class="mockup-note">
+  <strong>MOCKUP</strong> — data is illustrative. Each card = one entity text + tag type, grouped across all editions and sources.
+  Yellow highlight = entity span · Blue tint = containing word shown in full.
+</div>
+
+<!-- ══════════════════════════════════════════════════
+     TIER: AUTO-ACCEPT  (collapsed by default)
+     ════════════════════════════════════════════════ -->
+<div class="tier-section" id="ts-accept">
+<div class="tier-section-header" onclick="toggleSection('ts-accept')">
+  <span class="tier-section-arrow">▶</span>
+  <span class="tier-badge tb-auto_accept">✓ קבלה אוטומטית מומלצת</span>
+  <span style="font-size:0.78rem;color:#667">9 קבוצות — Gemini כנראה צודק · לחץ לפתיחה</span>
+  <span style="font-size:0.75rem;color:#aab;margin-right:auto">3/9 הוחלט</span>
+</div>
+<div class="tier-section-body">
+
+<!-- Group 1: מן / persName — short fragment, removed everywhere -->
+<div class="group-card" id="g1">
+  <div class="group-header" onclick="toggle('g1')">
+    <span class="expand-arrow">▶</span>
+    <span class="entity-name" style="background:#f5c6cb;color:#721c24">מן</span>
+    <span class="badge badge-per">persName</span>
+    <span class="tier-badge tb-auto_accept">✓ אוטומטי</span>
+    <span class="tier-reason">פרגמנט קצר (2 תווים) · הוסר ע"י Gemini בכל 3 ההופעות · אינו שם עצם</span>
+    <span class="occ-count">3 הופעות</span>
+    <div class="group-actions">
+      <button class="g-btn g-keep"   onclick="gDecide('g1','keep',event)">שמור תג</button>
+      <button class="g-btn g-remove" onclick="gDecide('g1','remove',event)">הסר תג</button>
+    </div>
+  </div>
+  <div class="occ-list">
+    <!-- occ 1 -->
+    <div class="occ-item">
+      <div class="occ-meta">
+        <span class="source-badge sb-gemini-diff">Gemini: removed</span>
+        <span class="source-badge sb-flag-type">quality: short_fragment</span>
+        <span class="source-badge sb-edition">Derech-Haemuna.xml · סיפור 14</span>
+      </div>
+      <div class="occ-context" dir="rtl">
+        ויאמר לו הרב אם כן תביא לי את <span class="ctx-word">ה<span class="ctx-entity">מן</span></span> הידוע ויצא התלמיד וחזר אליו ריקם
+      </div>
+    </div>
+    <!-- occ 2 -->
+    <div class="occ-item">
+      <div class="occ-meta">
+        <span class="source-badge sb-gemini-diff">Gemini: removed</span>
+        <span class="source-badge sb-flag-type">quality: short_fragment</span>
+        <span class="source-badge sb-edition">Maim-Rabim.xml · סיפור 7</span>
+      </div>
+      <div class="occ-context" dir="rtl">
+        וירא כי <span class="ctx-word">ה<span class="ctx-entity">מן</span></span> הרשע לא ישוב מדרכו הרעה ויפנה
+      </div>
+    </div>
+    <!-- occ 3 -->
+    <div class="occ-item">
+      <div class="occ-meta">
+        <span class="source-badge sb-gemini-diff">Gemini: removed</span>
+        <span class="source-badge sb-flag-type">quality: short_fragment</span>
+        <span class="source-badge sb-edition">Tiferet-Hayyim.xml · סיפור 3</span>
+      </div>
+      <div class="occ-context" dir="rtl">
+        שאל אותו מה מלאכתך וענה לו אני פועל <span class="ctx-word">ה<span class="ctx-entity">מן</span></span> כפר הסמוך
+      </div>
+    </div>
+  </div>
+</div>
+
+<!-- Group 2: ה / persName — single char -->
+<div class="group-card" id="g2">
+  <div class="group-header" onclick="toggle('g2')">
+    <span class="expand-arrow">▶</span>
+    <span class="entity-name" style="background:#f5c6cb;color:#721c24">ה</span>
+    <span class="badge badge-per">persName</span>
+    <span class="tier-badge tb-auto_accept">✓ אוטומטי</span>
+    <span class="tier-reason">תו בודד · אות יידוע בלבד · הוסר ע"י Gemini בכל 8 ההופעות</span>
+    <span class="occ-count">8 הופעות</span>
+    <div class="group-actions">
+      <button class="g-btn g-keep"   onclick="gDecide('g2','keep',event)">שמור תג</button>
+      <button class="g-btn g-remove" onclick="gDecide('g2','remove',event)">הסר תג</button>
+    </div>
+  </div>
+  <div class="occ-list">
+    <div class="occ-item">
+      <div class="occ-meta">
+        <span class="source-badge sb-gemini-diff">Gemini: removed</span>
+        <span class="source-badge sb-flag-type">quality: short_fragment</span>
+        <span class="source-badge sb-edition">Shemen-Hatov.xml · סיפור 22</span>
+      </div>
+      <div class="occ-context" dir="rtl">
+        ויאמר <span class="ctx-word"><span class="ctx-entity">ה</span>צדיק</span> לתלמידיו שבו כאן עד אשר אשוב
+      </div>
+    </div>
+    <div class="occ-item" style="color:#999;font-size:0.8rem;padding:8px 14px;">
+      + 7 הופעות נוספות (אותה תבנית)
+    </div>
+  </div>
+</div>
+
+<!-- Group 3: ״ש / persName — punct/gershayim -->
+<div class="group-card" id="g3">
+  <div class="group-header" onclick="toggle('g3')">
+    <span class="expand-arrow">▶</span>
+    <span class="entity-name" style="background:#f5c6cb;color:#721c24">״ש</span>
+    <span class="badge badge-per">persName</span>
+    <span class="tier-badge tb-auto_accept">✓ אוטומטי</span>
+    <span class="tier-reason">גרשיים + אות · ראשי תיבות ב-persName בנפרד (למשל ר״ש) · quality: punct_only</span>
+    <span class="occ-count">5 הופעות</span>
+    <div class="group-actions">
+      <button class="g-btn g-keep"   onclick="gDecide('g3','keep',event)">שמור תג</button>
+      <button class="g-btn g-remove" onclick="gDecide('g3','remove',event)">הסר תג</button>
+    </div>
+  </div>
+  <div class="occ-list">
+    <div class="occ-item">
+      <div class="occ-meta">
+        <span class="source-badge sb-quality-flag">quality: short_fragment</span>
+        <span class="source-badge sb-edition">Buzina_Denehora.xml · סיפור 8</span>
+      </div>
+      <div class="occ-context" dir="rtl">
+        וירתמו הסוסים ויצו ר<span class="ctx-entity">״ש</span> לכל אנשי ביתו לנסוע
+      </div>
+    </div>
+  </div>
+</div>
+
+
+</div><!-- /tier-section-body accept -->
+</div><!-- /tier-section accept -->
+
+<!-- ══════════════════════════════════════════════════
+     TIER: AUTO-REJECT  (collapsed by default)
+     ════════════════════════════════════════════════ -->
+<div class="tier-section" id="ts-reject">
+<div class="tier-section-header" onclick="toggleSection('ts-reject')">
+  <span class="tier-section-arrow">▶</span>
+  <span class="tier-badge tb-auto_reject">✗ דחייה אוטומטית מומלצת</span>
+  <span style="font-size:0.78rem;color:#667">3 קבוצות — Gemini כנראה טועה · לחץ לפתיחה</span>
+  <span style="font-size:0.75rem;color:#aab;margin-right:auto">0/3 הוחלט</span>
+</div>
+<div class="tier-section-body">
+
+<!-- Group 4: לובלין / placeName — authority match, removed -->
+<div class="group-card" id="g4">
+  <div class="group-header" onclick="toggle('g4')">
+    <span class="expand-arrow">▶</span>
+    <span class="entity-name" style="background:#c3e6cb;color:#155724">לובלין</span>
+    <span class="badge badge-gpe">placeName</span>
+    <span class="tier-badge tb-auto_reject">✗ אוטומטי</span>
+    <span class="tier-reason">מופיע ב-Authority File: H-LOC_176 · הוסר ע"י Gemini בהופעה אחת · בהופעות אחרות נשמר</span>
+    <span class="occ-count">4 הופעות (1 הוסרה)</span>
+    <div class="group-actions">
+      <button class="g-btn g-keep"   onclick="gDecide('g4','keep',event)">שמור תג</button>
+      <button class="g-btn g-remove" onclick="gDecide('g4','remove',event)">הסר תג</button>
+    </div>
+  </div>
+  <div class="occ-list">
+    <div class="occ-item" style="background:#fff8f8">
+      <div class="occ-meta">
+        <span class="source-badge sb-gemini-diff">Gemini: removed ⚠</span>
+        <span class="source-badge" style="background:#fce4ec;color:#880e4f">H-LOC_176 ref קיים</span>
+        <span class="source-badge sb-edition">Maim-Rabim.xml · סיפור 11</span>
+      </div>
+      <div class="occ-context" dir="rtl">
+        ונסע הצדיק ז"ל מעירו ל<span class="ctx-entity">לובלין</span> לשהות שם ימים אחדים בין תלמידי הרב הגדול
+      </div>
+    </div>
+    <div class="occ-item" style="color:#888;font-size:0.8rem;padding:8px 14px;">
+      + 3 הופעות שנשמרו ע"י Gemini (ללא שינוי)
+    </div>
+  </div>
+</div>
+
+<!-- Group 5: פשיסחא / placeName — removed 100% in one story -->
+<div class="group-card" id="g5">
+  <div class="group-header" onclick="toggle('g5')">
+    <span class="expand-arrow">▶</span>
+    <span class="entity-name" style="background:#c3e6cb;color:#155724">פשיסחא</span>
+    <span class="badge badge-gpe">placeName</span>
+    <span class="tier-badge tb-auto_reject">✗ אוטומטי</span>
+    <span class="tier-reason">מופיע ב-Authority File · Gemini הסיר 100% מסיפור 3 (guard miss?) · נשמר ב-5 סיפורים אחרים</span>
+    <span class="occ-count">6 הופעות (1 הוסרה)</span>
+    <div class="group-actions">
+      <button class="g-btn g-keep"   onclick="gDecide('g5','keep',event)">שמור תג</button>
+      <button class="g-btn g-remove" onclick="gDecide('g5','remove',event)">הסר תג</button>
+    </div>
+  </div>
+  <div class="occ-list">
+    <div class="occ-item" style="background:#fff8f8">
+      <div class="occ-meta">
+        <span class="source-badge sb-gemini-diff">Gemini: removed ⚠</span>
+        <span class="source-badge sb-edition">Derech-Haemuna.xml · סיפור 3</span>
+      </div>
+      <div class="occ-context" dir="rtl">
+        ויסע הרב מ<span class="ctx-entity">פשיסחא</span> לוורשה וביקש מהאדמו"ר שיסע עמו
+      </div>
+    </div>
+  </div>
+</div>
+
+
+</div><!-- /tier-section-body reject -->
+</div><!-- /tier-section reject -->
+
+<!-- ══════════════════════════════════════════════════
+     TIER: REVIEW  (open by default)
+     ════════════════════════════════════════════════ -->
+<div class="tier-section open" id="ts-review">
+<div class="tier-section-header" onclick="toggleSection('ts-review')">
+  <span class="tier-section-arrow">▶</span>
+  <span class="tier-badge tb-review">⚑ דורש בדיקה</span>
+  <span style="font-size:0.78rem;color:#667">6 קבוצות — הקשר לא חד-משמעי</span>
+  <span style="font-size:0.75rem;color:#aab;margin-right:auto">1/6 הוחלט (חלקית)</span>
+</div>
+<div class="tier-section-body">
+
+<!-- Group 6: המן / persName — the key example: same text, different contexts -->
+<div class="group-card expanded" id="g6">
+  <div class="group-header" onclick="toggle('g6')">
+    <span class="expand-arrow">▶</span>
+    <span class="entity-name" style="background:#ffeeba;color:#856404">המן</span>
+    <span class="badge badge-per">persName</span>
+    <span class="tier-badge tb-review">⚑ לבדיקה</span>
+    <span class="tier-reason">הקשר מעורב: 2 הופעות = המן הרשע (שם עצם) · 1 הופעה = כינוי יחס · Gemini הסיר 1 ושמר 2</span>
+    <span class="occ-count">3 הופעות</span>
+    <div class="group-actions">
+      <button class="g-btn g-keep"   onclick="gDecide('g6','keep',event)">שמור הכל</button>
+      <button class="g-btn g-remove" onclick="gDecide('g6','remove',event)">הסר הכל</button>
+      <button class="g-btn g-each"   onclick="gDecide('g6','each',event)">החלט לפי הופעה</button>
+    </div>
+  </div>
+  <div class="occ-list">
+    <!-- occ A: Haman the person — Gemini kept it, correct -->
+    <div class="occ-item">
+      <div class="occ-meta">
+        <span class="source-badge sb-gemini-diff">Gemini: נשמר</span>
+        <span class="source-badge sb-edition">Derech-Haemuna.xml · סיפור 8</span>
+      </div>
+      <div class="occ-context" dir="rtl">
+        כמו שנאמר על <span class="ctx-entity">המן</span> הרשע שבקש לאבד את ישראל ולא עלה בידו
+      </div>
+      <div class="occ-actions">
+        <button class="o-btn o-keep">שמור persName</button>
+        <button class="o-btn o-remove">הסר תג</button>
+      </div>
+    </div>
+    <!-- occ B: particle המן — Gemini removed it, correct -->
+    <div class="occ-item" style="background:#fff8f8">
+      <div class="occ-meta">
+        <span class="source-badge sb-gemini-diff">Gemini: removed</span>
+        <span class="source-badge sb-edition">Maim-Rabim.xml · סיפור 2</span>
+      </div>
+      <div class="occ-context" dir="rtl">
+        ויאמר לו הרב <span class="ctx-word">ה<span class="ctx-entity">מן</span></span> הידוע אשר הכרת בדרך הוא תלמידי
+        <span style="font-size:0.72rem;color:#999;margin-right:8px">← כאן "מן" = ראשי תיבות או מילה, לא המן</span>
+      </div>
+      <div class="occ-actions">
+        <button class="o-btn o-keep">שמור persName</button>
+        <button class="o-btn o-remove chosen">הסר תג ✓</button>
+      </div>
+    </div>
+    <!-- occ C: another Haman — Gemini kept it -->
+    <div class="occ-item">
+      <div class="occ-meta">
+        <span class="source-badge sb-gemini-diff">Gemini: נשמר</span>
+        <span class="source-badge sb-edition">Tiferet-Hayyim.xml · סיפור 19</span>
+      </div>
+      <div class="occ-context" dir="rtl">
+        כן <span class="ctx-entity">המן</span> בן המדתא האגגי אויב היהודים נגרר אחר שנאתו
+      </div>
+      <div class="occ-actions">
+        <button class="o-btn o-keep chosen">שמור persName ✓</button>
+        <button class="o-btn o-remove">הסר תג</button>
+      </div>
+    </div>
+  </div>
+</div>
+
+<!-- Group 7: ישראל / persName — person vs. place vs. nation -->
+<div class="group-card" id="g7">
+  <div class="group-header" onclick="toggle('g7')">
+    <span class="expand-arrow">▶</span>
+    <span class="entity-name" style="background:#ffeeba;color:#856404">ישראל</span>
+    <span class="badge badge-per">persName</span>
+    <span class="tier-badge tb-review">⚑ לבדיקה</span>
+    <span class="tier-reason">מילה רבת-משמעויות: שם פרטי, ארץ ישראל, עם ישראל · Gemini: הוסיף 3, הסיר 2, שמר 11</span>
+    <span class="occ-count">16 הופעות</span>
+    <div class="group-actions">
+      <button class="g-btn g-keep"   onclick="gDecide('g7','keep',event)">שמור הכל</button>
+      <button class="g-btn g-remove" onclick="gDecide('g7','remove',event)">הסר הכל</button>
+      <button class="g-btn g-each"   onclick="gDecide('g7','each',event)">החלט לפי הופעה</button>
+    </div>
+  </div>
+  <div class="occ-list">
+    <div class="occ-item">
+      <div class="occ-meta">
+        <span class="source-badge sb-gemini-diff">Gemini: added</span>
+        <span class="source-badge sb-edition">Seva-Ratzon.xml · סיפור 4</span>
+      </div>
+      <div class="occ-context" dir="rtl">
+        שמעתי על הרב <span class="ctx-entity">ישראל</span> מרוז'ין שאמר לתלמידיו בשעת פטירתו
+      </div>
+      <div class="occ-actions">
+        <button class="o-btn o-keep">שמור persName</button>
+        <button class="o-btn o-remove">הסר תג</button>
+      </div>
+    </div>
+    <div class="occ-item">
+      <div class="occ-meta">
+        <span class="source-badge sb-gemini-diff">Gemini: removed</span>
+        <span class="source-badge sb-edition">Derech-Haemuna.xml · סיפור 22</span>
+      </div>
+      <div class="occ-context" dir="rtl">
+        וצוה לשמור את כבוד עם <span class="ctx-entity">ישראל</span> בכל מקום שהיו
+      </div>
+      <div class="occ-actions">
+        <button class="o-btn o-keep">שמור persName</button>
+        <button class="o-btn o-remove">הסר תג</button>
+      </div>
+    </div>
+    <div class="occ-item" style="color:#888;font-size:0.8rem;padding:8px 14px;">
+      + 14 הופעות נוספות
+    </div>
+  </div>
+</div>
+
+<!-- Group 8: בינם / persName — reclassification case -->
+<div class="group-card" id="g8">
+  <div class="group-header" onclick="toggle('g8')">
+    <span class="expand-arrow">▶</span>
+    <span class="entity-name" style="background:#ffeeba;color:#856404">בינם</span>
+    <span class="badge badge-per">persName</span>
+    <span class="tier-badge tb-review">⚑ לבדיקה</span>
+    <span class="tier-reason">Gemini תיקן איות: בינם → בונם (ר׳ שמחה בונם) · note תיקון קיים בטקסט · ספן קיים</span>
+    <span class="occ-count">2 הופעות</span>
+    <div class="group-actions">
+      <button class="g-btn g-keep"   onclick="gDecide('g8','keep',event)">שמור תג</button>
+      <button class="g-btn g-remove" onclick="gDecide('g8','remove',event)">הסר תג</button>
+      <button class="g-btn g-each"   onclick="gDecide('g8','each',event)">החלט לפי הופעה</button>
+    </div>
+  </div>
+  <div class="occ-list">
+    <div class="occ-item">
+      <div class="occ-meta">
+        <span class="source-badge sb-gemini-diff">Gemini: kept (span)</span>
+        <span class="source-badge sb-edition">Derech-Haemuna.xml · סיפור 32</span>
+        <span class="source-badge" style="background:#e8f5e9;color:#2e7d32">note: בונם</span>
+      </div>
+      <div class="occ-context" dir="rtl">
+        והיה קוראים אותו ר׳ <span class="ctx-entity">בינם</span> [בונם] והיה זקן וקובר מתים
+      </div>
+      <div class="occ-actions">
+        <button class="o-btn o-keep">שמור persName</button>
+        <button class="o-btn o-remove">הסר תג</button>
+      </div>
+    </div>
+  </div>
+</div>
+
+</div><!-- /tier-section-body review -->
+</div><!-- /tier-section review -->
+
+</div><!-- /main -->
+
+<script>
+function toggleSection(id) {
+  document.getElementById(id).classList.toggle('open');
+}
+function toggle(id) {
+  const card = document.getElementById(id);
+  card.classList.toggle('expanded');
+}
+
+function gDecide(id, verdict, e) {
+  e.stopPropagation();
+  const card = document.getElementById(id);
+  // Remove old badge
+  card.querySelector('.g-decided-badge')?.remove();
+  // Add new badge
+  const labels = { keep: 'שמור הכל ✓', remove: 'הסר הכל ✓', each: 'לפי הופעה ✓' };
+  const cls    = { keep: 'gd-keep', remove: 'gd-remove', each: 'gd-each' };
+  const badge = document.createElement('span');
+  badge.className = 'g-decided-badge ' + cls[verdict];
+  badge.textContent = labels[verdict];
+  card.querySelector('.group-actions').appendChild(badge);
+  card.classList.toggle('all-decided', verdict !== 'each');
+}
+
+// Filter-bar button toggle (visual only in mockup)
+document.querySelectorAll('.f-btn').forEach(btn => {
+  btn.onclick = () => {
+    btn.classList.toggle('on');
+  };
+});
+function filterTier(t) {
+  document.querySelectorAll('.tier-pill').forEach(p => p.classList.remove('active'));
+  event.currentTarget.classList.add('active');
+}
+</script>
+</body>
+</html>

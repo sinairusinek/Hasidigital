@@ -67,6 +67,7 @@ def run_pipeline(
         save_annotated_xml,
         has_existing_annotations,
         strip_existing_annotations,
+        strip_annotations_from_heads,
     )
 
     input_path = str(input_path)
@@ -156,6 +157,9 @@ def run_pipeline(
     if nisba_count:
         _progress("nisba", f"Merged {nisba_count} nisba patterns")
 
+    # ── Strip any entity tags that leaked into <head> elements ────────────
+    strip_annotations_from_heads(tree)
+
     # ── Cleanup ───────────────────────────────────────────────────────────
     _progress("cleanup", "Removing facsimile attributes")
     remove_facsimile_and_attrs(tree)
@@ -226,6 +230,7 @@ def run_correction_pass(
         strip_existing_annotations,
         insert_annotations,
         save_annotated_xml,
+        strip_annotations_from_heads,
     )
     from .text_extraction import create_standoff_view
     from .gemini_corrector import (
@@ -360,6 +365,9 @@ def run_correction_pass(
     if nisba_count:
         _progress("nisba", f"Merged {nisba_count} nisba patterns")
 
+    # ── Strip any entity tags that leaked into <head> elements ────────────
+    strip_annotations_from_heads(tree)
+
     # ── Save ──────────────────────────────────────────────────────────────
     _progress("save", f"Saving to {Path(output_path).name}")
     save_annotated_xml(tree, output_path)
@@ -401,6 +409,7 @@ def run_gemini_only_pipeline(
         strip_existing_annotations,
         insert_annotations,
         save_annotated_xml,
+        strip_annotations_from_heads,
     )
     from .text_extraction import create_standoff_view
     from .gemini_corrector import (
@@ -467,6 +476,8 @@ def run_gemini_only_pipeline(
     nisba_count = fix_nisba_nesting(tree)
     if nisba_count:
         _progress("nisba", f"Merged {nisba_count} nisba patterns")
+
+    strip_annotations_from_heads(tree)
 
     _progress("save", f"Saving to {Path(output_path).name}")
     save_annotated_xml(tree, output_path)
