@@ -231,7 +231,7 @@ def _render_group(g: dict, decisions: dict, idx: int) -> None:
 # ── Main page ─────────────────────────────────────────────────────────────────
 
 def main() -> None:
-    st.title("🏷️ Entity Review")
+    st.title("🏷️ NER Review")
     st.caption("בדיקת איכות הערות NER — Gemini diff + quality flags")
 
     reviewer_name, reviewer_email = _reviewer_sidebar()
@@ -257,23 +257,41 @@ def main() -> None:
     st.progress(n_decided / n_total if n_total else 0)
 
     # ── Filters ───────────────────────────────────────────────────────────────
+    # Map user-facing action labels to the raw action values in the data
+    _ACTION_FILTER_MAP = {
+        "הוספות":        {"added"},
+        "הסרות":         {"removed"},
+        "קטגוריזציות":   {"reclassified"},
+        "בעיות איכות":   {"short_fragment", "punct_only", "xmlid_leak", "flag"},
+    }
+
     with st.expander("סינון", expanded=False):
-        fcols = st.columns(2)
+        fcols = st.columns(3)
         prev_decided = st.session_state.get("er_filter_decided", "הכל")
-        prev_tag = st.session_state.get("er_filter_tag", "הכל")
+        prev_tag     = st.session_state.get("er_filter_tag",     "הכל")
+        prev_action  = st.session_state.get("er_filter_action",  "הכל")
 
         filter_decided = fcols[0].selectbox(
             "סטטוס", ["הכל", "לא הוחלט", "הוחלט"], key="er_filter_decided"
         )
         all_tags = sorted({g["tag"] for g in groups})
         filter_tag = fcols[1].selectbox("תג", ["הכל"] + all_tags, key="er_filter_tag")
+        filter_action = fcols[2].selectbox(
+            "סוג שינוי", ["הכל"] + list(_ACTION_FILTER_MAP.keys()), key="er_filter_action"
+        )
 
-    # Reset to page 0 when filters change
-    if filter_decided != prev_decided or filter_tag != prev_tag:
+    # Reset to page 0 when any filter changes
+    if filter_decided != prev_decided or filter_tag != prev_tag or filter_action != prev_action:
         st.session_state.er_page = 0
+
+    _allowed_actions = _ACTION_FILTER_MAP.get(filter_action, set())
 
     def _visible(g: dict) -> bool:
         if filter_tag != "הכל" and g["tag"] != filter_tag:
+            return False
+        if filter_action != "הכל" and not any(
+            o.get("action") in _allowed_actions for o in g["occurrences"]
+        ):
             return False
         has_decision = bool(decisions.get(g["key"], {}).get("group_decision"))
         if filter_decided == "לא הוחלט" and has_decision:

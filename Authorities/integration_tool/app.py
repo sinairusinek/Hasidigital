@@ -43,9 +43,9 @@ person_review = st.Page(
     icon="\U0001f464",
 )
 
-entity_review = st.Page(
+ner_review = st.Page(
     "pages/entity_review.py",
-    title="Entity Review",
+    title="NER Review",
     icon="\U0001f3f7\ufe0f",
 )
 
@@ -76,8 +76,8 @@ women_annotator = st.Page(
 pg = st.navigation(
     {
         "Workflows": [edition_linker, csv_integrator],
-        "Editions": [edition_metadata],
-        "Review": [kima_review, person_review, entity_review],
+        "Editions": [ner_review, edition_metadata],
+        "Review": [kima_review, person_review],
         "Women": [women_analysis, women_annotator],
         "Maintenance": [dedup_review],
     }
