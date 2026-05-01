@@ -103,18 +103,30 @@ def _containing_word(plain: str, start: int, end: int) -> str:
 
 # ── Data loading ──────────────────────────────────────────────────────────────
 
+def _create_standoff_view(tree):
+    """Inline of ner_pipeline.text_extraction.create_standoff_view (avoids package import)."""
+    from standoffconverter import Standoff, View
+    TEI_NS = "http://www.tei-c.org/ns/1.0"
+    NAMESPACES = {"tei": TEI_NS}
+    root = tree.getroot()
+    for facsimile in root.findall(f".//{{{TEI_NS}}}facsimile"):
+        parent = facsimile.getparent()
+        if parent is not None:
+            parent.remove(facsimile)
+    so = Standoff(tree, NAMESPACES)
+    view = View(so)
+    return so, view, view.get_plain()
+
+
 def load_plain_texts() -> dict[str, str]:
     """Extract plain text from each XML in editions/incoming/ready/ via standoffconverter."""
-    import sys
-    sys.path.insert(0, str(PROJECT_DIR))
     from lxml import etree
-    from ner_pipeline.text_extraction import create_standoff_view
 
     plain_texts: dict[str, str] = {}
     for xml_path in sorted(READY_DIR.glob("*.xml")):
         try:
             tree = etree.parse(str(xml_path))
-            _, _, plain = create_standoff_view(tree)
+            _, _, plain = _create_standoff_view(tree)
             plain_texts[xml_path.name] = plain
         except Exception:
             plain_texts[xml_path.name] = ""
