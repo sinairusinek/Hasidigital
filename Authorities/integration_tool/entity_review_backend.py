@@ -5,8 +5,8 @@ Loads two data sources:
   - editions/incoming/ready/gemini-correction-log.tsv  (Gemini diff, 5180 rows)
   - editions/online/annotation-quality-report.tsv      (quality scanner, ~1130 rows)
 
-Groups occurrences by (normalised_text, tag), assigns a confidence tier to each group,
-and handles saving decisions to local TSV + GitHub.
+Groups occurrences by (normalised_text, tag) and handles saving decisions
+to local TSV + GitHub.
 """
 
 from __future__ import annotations
@@ -28,7 +28,6 @@ READY_DIR = PROJECT_DIR / "editions" / "incoming" / "ready"
 DIFF_TSV = READY_DIR / "gemini-correction-log.tsv"
 QUALITY_TSV = PROJECT_DIR / "editions" / "online" / "annotation-quality-report.tsv"
 DECISIONS_TSV = READY_DIR / "entity-review-decisions.tsv"
-MATCHING_DB_PATH = TOOL_DIR.parent / "authorities-matching-db.json"
 
 DECISIONS_GH_PATH = "editions/incoming/ready/entity-review-decisions.tsv"
 DECISIONS_FIELDNAMES = [
@@ -133,63 +132,10 @@ def load_plain_texts() -> dict[str, str]:
     return plain_texts
 
 
-def load_authority_refs() -> set[str]:
-    """Return normalised name strings that exist in the authority matching DB."""
-    if not MATCHING_DB_PATH.exists():
-        return set()
-    with open(MATCHING_DB_PATH, encoding="utf-8") as f:
-        db = json.load(f)
-    refs: set[str] = set()
-    for entity in db.get("places", []) + db.get("persons", []):
-        for name in entity.get("names_he", []) + entity.get("names_en", []):
-            refs.add(_norm(name))
-    return refs
-
-
-# ── Tier assignment ────────────────────────────────────────────────────────────
-
-def _assign_tier(occurrences: list[dict], auth_refs: set[str], norm_text: str) -> tuple[str, str]:
-    """Return (tier, reason) for a group of occurrences."""
-    any_gemini_removed = any(
-        o["source"] == "gemini_diff" and o["action"] == "removed"
-        for o in occurrences
-    )
-    all_removed_or_flagged = all(
-        o["action"] in ("removed", "short_fragment", "punct_only", "xmlid_leak")
-        for o in occurrences
-    )
-    quality_issues = {o.get("issue_type") for o in occurrences if o["source"] == "quality_flag"}
-    text_len = len(norm_text.replace(" ", ""))
-
-    # auto_reject: Gemini removed something that is in the authority file
-    if norm_text in auth_refs and any_gemini_removed:
-        return "auto_reject", f"מופיע ב-Authority File · הוסר ע״י Gemini"
-
-    # auto_accept: short/punctuation fragment removed everywhere
-    if all_removed_or_flagged and (
-        text_len <= 2
-        or quality_issues <= {"short_fragment", "punct_only", "xmlid_leak"}
-    ):
-        parts = []
-        if text_len <= 2:
-            parts.append(f"פרגמנט קצר ({text_len} תווים)")
-        if quality_issues:
-            parts.append(", ".join(quality_issues))
-        parts.append(f"הוסר בכל {len(occurrences)} ההופעות")
-        return "auto_accept", " · ".join(parts)
-
-    return "review", "הקשר דורש בדיקה"
-
-
 # ── Group builder ─────────────────────────────────────────────────────────────
 
-def build_groups(plain_texts: dict[str, str], auth_refs: set[str]) -> list[dict]:
-    """
-    Load both TSVs and assemble occurrence groups.
-
-    Returns a list of group dicts, sorted: review → auto_reject → auto_accept,
-    alphabetically within each tier.
-    """
+def build_groups(plain_texts: dict[str, str]) -> list[dict]:
+    """Load both TSVs and assemble occurrence groups, sorted by occurrence count then alphabetically."""
     raw: dict[tuple, list] = defaultdict(list)
 
     # ── Gemini diff ───────────────────────────────────────────────────────────
@@ -266,20 +212,16 @@ def build_groups(plain_texts: dict[str, str], auth_refs: set[str]) -> list[dict]
     # ── Assemble & sort ───────────────────────────────────────────────────────
     groups: list[dict] = []
     for (norm_text, tag), occs in raw.items():
-        tier, reason = _assign_tier(occs, auth_refs, norm_text)
         display_text = max(occs, key=lambda o: len(o["entity"]))["entity"]
         groups.append({
             "key": f"{norm_text}|{tag}",
             "text": display_text,
             "norm_text": norm_text,
             "tag": tag,
-            "tier": tier,
-            "tier_reason": reason,
             "occurrences": occs,
         })
 
-    _tier_order = {"review": 0, "auto_reject": 1, "auto_accept": 2}
-    groups.sort(key=lambda g: (_tier_order[g["tier"]], -len(g["occurrences"]), g["norm_text"]))
+    groups.sort(key=lambda g: (-len(g["occurrences"]), g["norm_text"]))
     return groups
 
 
