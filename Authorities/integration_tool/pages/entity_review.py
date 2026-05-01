@@ -399,13 +399,31 @@ def main() -> None:
 st.markdown(
     """
     <style>
-    section[data-testid="stMain"] > div.block-container,
-    .main > div.block-container {
-        max-width: 860px !important;
-        margin-left: auto !important;
-        margin-right: auto !important;
-        padding-left: 2rem !important;
-        padding-right: 2rem !important;
+    /* RTL for all text elements in the main content area */
+    section[data-testid="stMain"] .block-container,
+    section[data-testid="stMain"] p,
+    section[data-testid="stMain"] h1,
+    section[data-testid="stMain"] h2,
+    section[data-testid="stMain"] h3,
+    section[data-testid="stMain"] label,
+    section[data-testid="stMain"] .stMarkdown,
+    section[data-testid="stMain"] .stText,
+    section[data-testid="stMain"] .stCaption,
+    section[data-testid="stMain"] details summary,
+    section[data-testid="stMain"] [data-testid="stExpander"] summary p,
+    section[data-testid="stMain"] [data-testid="stMetricLabel"],
+    section[data-testid="stMain"] [data-testid="stMetricValue"] {
+        direction: rtl;
+        text-align: right;
+    }
+    section[data-testid="stMain"] .stTextInput input {
+        direction: rtl;
+        text-align: right;
+    }
+    section[data-testid="stMain"] .stSelectbox label,
+    section[data-testid="stMain"] .stSelectbox div[data-baseweb="select"] {
+        direction: rtl;
+        text-align: right;
     }
     </style>
     """,
