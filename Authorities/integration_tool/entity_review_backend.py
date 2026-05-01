@@ -205,14 +205,21 @@ def build_groups(plain_texts: dict[str, str], auth_refs: set[str]) -> list[dict]
                 key = (_norm(text), tag)
 
                 fname = row["source_file"]
-                plain = plain_texts.get(fname, "")
-                start, end = int(row["start"]), int(row["end"])
 
-                if plain:
-                    before, ent, after = _find_context(plain, text, start, end)
-                    containing = _containing_word(plain, start, end)
+                # Use pre-baked context columns if present (avoids XML re-parsing on Cloud)
+                if row.get("context_before") is not None:
+                    before = row["context_before"]
+                    after = row["context_after"]
+                    containing = row.get("context_containing", "")
+                    ent = text
                 else:
-                    before, ent, after, containing = "", text, "", ""
+                    plain = plain_texts.get(fname, "")
+                    start, end = int(row["start"]), int(row["end"])
+                    if plain:
+                        before, ent, after = _find_context(plain, text, start, end)
+                        containing = _containing_word(plain, start, end)
+                    else:
+                        before, ent, after, containing = "", text, "", ""
 
                 raw[key].append({
                     "source": "gemini_diff",
