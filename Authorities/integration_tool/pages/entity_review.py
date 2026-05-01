@@ -399,10 +399,13 @@ def main() -> None:
 st.markdown(
     """
     <style>
-    .main .block-container {
-        max-width: 860px;
-        margin-left: auto;
-        margin-right: auto;
+    section[data-testid="stMain"] > div.block-container,
+    .main > div.block-container {
+        max-width: 860px !important;
+        margin-left: auto !important;
+        margin-right: auto !important;
+        padding-left: 2rem !important;
+        padding-right: 2rem !important;
     }
     </style>
     """,
