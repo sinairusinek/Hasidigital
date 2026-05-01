@@ -101,14 +101,19 @@ def _ctx_html(before: str, entity: str, after: str, containing: str) -> str:
     )
 
 
-def _reviewer_sidebar() -> tuple[str, str]:
-    st.sidebar.markdown("---")
-    st.sidebar.subheader("זהות הסוקר")
-    name = st.sidebar.text_input("שם", key="er_reviewer_name", placeholder="שם מלא")
-    email = st.sidebar.text_input("דוא״ל", key="er_reviewer_email", placeholder="name@example.com")
-    if not name or not email:
-        st.sidebar.warning("נא למלא שם ודוא״ל לפני השמירה.")
-    return name.strip(), email.strip()
+def _reviewer_gate() -> str:
+    """Show a name prompt and block the page until the user enters their name."""
+    if st.session_state.get("er_reviewer_name"):
+        return st.session_state.er_reviewer_name
+
+    st.title("🏷️ NER Review")
+    st.markdown("### ברוך הבא! נא להזין את שמך לפני הצפייה בנתונים.")
+    col, _ = st.columns([2, 3])
+    name = col.text_input("שם מלא", key="_er_name_input", placeholder="שם מלא")
+    if col.button("המשך", type="primary", disabled=not name.strip()):
+        st.session_state.er_reviewer_name = name.strip()
+        st.rerun()
+    st.stop()
 
 
 # ── Data loading (cached) ─────────────────────────────────────────────────────
@@ -146,10 +151,12 @@ def _render_group(g: dict, decisions: dict, idx: int) -> None:
 
     n_occs = len(g["occurrences"])
 
+    is_expanded = idx in st.session_state.er_expanded
+
     with st.expander(
         f"**{g['text']}** · {g['tag']} · {n_occs} הופעות"
         + (f"  —  _{decided_label}_" if decided_label else ""),
-        expanded=False,
+        expanded=is_expanded,
     ):
         # ── Tag badge ─────────────────────────────────────────────────────
         st.markdown(_badge(g["tag"], tag_fg, tag_bg), unsafe_allow_html=True)
@@ -159,12 +166,15 @@ def _render_group(g: dict, decisions: dict, idx: int) -> None:
         b1, b2, b3, _ = st.columns([2, 2, 2, 4])
         if b1.button("שמור הכל", key=f"er_keep_{idx}", type="primary" if group_decision == "keep" else "secondary"):
             decisions.setdefault(key, {})["group_decision"] = "keep"
+            st.session_state.er_expanded.add(idx)
             st.rerun()
         if b2.button("הסר הכל", key=f"er_remove_{idx}"):
             decisions.setdefault(key, {})["group_decision"] = "remove"
+            st.session_state.er_expanded.add(idx)
             st.rerun()
         if b3.button("החלט לפי הופעה", key=f"er_each_{idx}"):
             decisions.setdefault(key, {})["group_decision"] = "per_occurrence"
+            st.session_state.er_expanded.add(idx)
             st.rerun()
 
         if group_decision:
@@ -207,12 +217,14 @@ def _render_group(g: dict, decisions: dict, idx: int) -> None:
                     type="primary" if occ_decision == "keep" else "secondary",
                 ):
                     decisions.setdefault(key, {}).setdefault("per_occurrence", {})[occ_key] = "keep"
+                    st.session_state.er_expanded.add(idx)
                     st.rerun()
                 if c2.button(
                     "✗ הסר" + (" ◀" if occ_decision == "remove" else ""),
                     key=f"er_occ_remove_{idx}_{oi}",
                 ):
                     decisions.setdefault(key, {}).setdefault("per_occurrence", {})[occ_key] = "remove"
+                    st.session_state.er_expanded.add(idx)
                     st.rerun()
 
             if oi < len(g["occurrences"]) - 1:
@@ -231,10 +243,10 @@ def _render_group(g: dict, decisions: dict, idx: int) -> None:
 # ── Main page ─────────────────────────────────────────────────────────────────
 
 def main() -> None:
-    st.title("🏷️ NER Review")
-    st.caption("בדיקת איכות הערות NER — Gemini diff + quality flags")
+    reviewer_name = _reviewer_gate()
 
-    reviewer_name, reviewer_email = _reviewer_sidebar()
+    st.title("🏷️ NER Review")
+    st.caption(f"בדיקת איכות הערות NER — Gemini diff + quality flags · סוקר: {reviewer_name}")
 
     with st.spinner("טוען נתונים…"):
         groups = _build_groups()
@@ -246,6 +258,9 @@ def main() -> None:
     if "er_decisions" not in st.session_state:
         st.session_state.er_decisions = load_existing_decisions()
     decisions: dict = st.session_state.er_decisions
+
+    if "er_expanded" not in st.session_state:
+        st.session_state.er_expanded = set()
 
     # ── Summary bar ───────────────────────────────────────────────────────────
     n_decided = _count_decided(groups, decisions)
@@ -304,17 +319,13 @@ def main() -> None:
 
     # ── Save / Reload ─────────────────────────────────────────────────────────
     save_col, reload_col, _ = st.columns([2, 2, 6])
-    save_disabled = not (reviewer_name and reviewer_email)
-    if save_col.button("💾 שמור החלטות ל-GitHub", disabled=save_disabled, type="primary", key="er_save"):
+    if save_col.button("💾 שמור החלטות ל-GitHub", type="primary", key="er_save"):
         with st.spinner("שומר…"):
-            ok, msg = save_decisions(decisions, groups, reviewer_name, reviewer_email)
+            ok, msg = save_decisions(decisions, groups, reviewer_name, "")
         if ok:
             st.success(msg)
         else:
             st.error(f"שגיאה בשמירה: {msg}")
-
-    if save_disabled:
-        st.caption("⚠️ נא למלא שם ודוא״ל בסרגל הצד לפני השמירה.")
 
     if reload_col.button("↺ טען מחדש", key="er_reload"):
         _build_groups.clear()

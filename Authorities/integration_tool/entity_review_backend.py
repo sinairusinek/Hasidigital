@@ -31,7 +31,7 @@ DECISIONS_TSV = READY_DIR / "entity-review-decisions.tsv"
 
 DECISIONS_GH_PATH = "editions/incoming/ready/entity-review-decisions.tsv"
 DECISIONS_FIELDNAMES = [
-    "text", "tag", "tier", "group_decision", "per_occurrence_json",
+    "text", "tag", "group_decision", "per_occurrence_json",
     "reviewer_name", "reviewer_email", "timestamp", "note",
 ]
 
@@ -264,7 +264,6 @@ def save_decisions(
         rows.append({
             "text": g["text"],
             "tag": g["tag"],
-            "tier": g["tier"],
             "group_decision": d["group_decision"],
             "per_occurrence_json": json.dumps(d.get("per_occurrence", {}), ensure_ascii=False),
             "reviewer_name": reviewer_name,
