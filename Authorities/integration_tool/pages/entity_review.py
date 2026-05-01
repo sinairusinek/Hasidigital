@@ -133,22 +133,16 @@ def _reviewer_sidebar() -> tuple[str, str]:
 
 # ── Data loading (cached) ─────────────────────────────────────────────────────
 
-@st.cache_data(show_spinner="טוען טקסטים מהמהדורות…")
-def _load_plain_texts() -> dict:
-    return load_plain_texts()
-
-
 @st.cache_data(show_spinner="טוען Authority File…")
 def _load_auth_refs() -> set:
     return load_authority_refs()
 
 
 @st.cache_data(show_spinner="בונה קבוצות…")
-def _build_groups(_plain_texts_hash: int) -> list:
-    # _plain_texts_hash is unused — just forces cache invalidation when texts change
-    plain_texts = load_plain_texts()
+def _build_groups() -> list:
+    # Context is pre-baked into gemini-correction-log.tsv — no XML parsing needed.
     auth_refs = load_authority_refs()
-    return build_groups(plain_texts, auth_refs)
+    return build_groups({}, auth_refs)
 
 
 # ── Stats helpers ─────────────────────────────────────────────────────────────
@@ -289,7 +283,7 @@ def main() -> None:
 
     # ── Load data ─────────────────────────────────────────────────────────────
     with st.spinner("טוען נתונים…"):
-        groups = _build_groups(id(None))  # cache key; reload with button below
+        groups = _build_groups()
 
     if not groups:
         st.warning("לא נמצאו נתונים. ודא שקובצי ה-TSV קיימים.")
