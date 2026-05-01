@@ -396,4 +396,16 @@ def main() -> None:
         st.info("אין קבוצות התואמות את הסינון הנוכחי.")
 
 
+st.markdown(
+    """
+    <style>
+    .main .block-container {
+        max-width: 860px;
+        margin-left: auto;
+        margin-right: auto;
+    }
+    </style>
+    """,
+    unsafe_allow_html=True,
+)
 main()
