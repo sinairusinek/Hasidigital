@@ -102,16 +102,16 @@ def _ctx_html(before: str, entity: str, after: str, containing: str) -> str:
 
 
 def _reviewer_gate() -> str:
-    """Show a name prompt and block the page until the user enters their name."""
+    """Show an email prompt and block the page until the user enters their email."""
     if st.session_state.get("er_reviewer_name"):
         return st.session_state.er_reviewer_name
 
     st.title("🏷️ NER Review")
-    st.markdown("### ברוך הבא! נא להזין את שמך לפני הצפייה בנתונים.")
+    st.markdown("### ברוך הבא! נא להזין את כתובת המייל לפני הצפייה בנתונים.")
     col, _ = st.columns([2, 3])
-    name = col.text_input("שם מלא", key="_er_name_input", placeholder="שם מלא")
-    if col.button("המשך", type="primary", disabled=not name.strip()):
-        st.session_state.er_reviewer_name = name.strip()
+    email = col.text_input("דוא״ל", key="_er_name_input", placeholder="name@example.com")
+    if col.button("המשך", type="primary", disabled=not email.strip()):
+        st.session_state.er_reviewer_name = email.strip()
         st.rerun()
     st.stop()
 
@@ -246,7 +246,7 @@ def main() -> None:
     reviewer_name = _reviewer_gate()
 
     st.title("🏷️ NER Review")
-    st.caption(f"בדיקת איכות הערות NER — Gemini diff + quality flags · סוקר: {reviewer_name}")
+    st.caption(f"בדיקת איכות הערות NER — Gemini diff + quality flags · {reviewer_name}")
 
     with st.spinner("טוען נתונים…"):
         groups = _build_groups()
