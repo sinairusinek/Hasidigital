@@ -22,7 +22,8 @@ from women_llm import (
     criteria_hash, update_human_category, DEFAULT_CRITERIA,
 )
 
-CATEGORIES = ["no-women", "minor", "major", "major+minor"]
+CATEGORIES = ["no-women", "mention-only", "minor-character", "catalyst-character", "major-character"]
+CONFIDENCE_BADGE = {"high": "🟢 high", "medium": "🟡 medium", "low": "🔴 low", "": "—"}
 HEBREW_KEYWORDS = [
     "אשה", "נשים", "אשתו", "אמו", "בתו", "כלה", "אלמנה", "בת", "אשת", "נשי",
     "מטרונה", "גבירה", "רעיה", "צניעות", "בנות", "ביתו",
@@ -130,12 +131,21 @@ def _story_detail(story: dict, result: dict, mode: str):
     col_c, col_g = st.columns(2)
     with col_c:
         st.markdown("**Claude**")
-        st.markdown(f"Category: `{result.get('claude_category', '—')}`")
+        cat = result.get("claude_category", "—")
+        conf = result.get("claude_confidence", "")
+        coll = "  +collective" if result.get("claude_collective", "") == "True" else ""
+        st.markdown(f"Category: `{cat}`{coll}    Confidence: {CONFIDENCE_BADGE.get(conf, '—')}")
         st.caption(result.get("claude_reasoning", ""))
     with col_g:
         st.markdown("**Gemini**")
-        st.markdown(f"Category: `{result.get('gemini_category', '—')}`")
-        st.caption(result.get("gemini_reasoning", ""))
+        cat = result.get("gemini_category", "—")
+        conf = result.get("gemini_confidence", "")
+        if cat and cat != "—":
+            coll = "  +collective" if result.get("gemini_collective", "") == "True" else ""
+            st.markdown(f"Category: `{cat}`{coll}    Confidence: {CONFIDENCE_BADGE.get(conf, '—')}")
+            st.caption(result.get("gemini_reasoning", ""))
+        else:
+            st.caption("(not run — Gemini disabled by default)")
 
     st.markdown("---")
     st.markdown("**Your decision**")
@@ -149,11 +159,20 @@ def _story_detail(story: dict, result: dict, mode: str):
         horizontal=True,
         key=f"decision_{story['story_id']}",
     )
+    current_collective = bool(story.get("collective_women", False))
+    chosen_collective = st.checkbox(
+        "Collective women present (anonymous female group as backdrop)",
+        value=current_collective,
+        key=f"collective_{story['story_id']}",
+    )
     if st.button("Save decision", key=f"save_{story['story_id']}"):
-        ok = update_women_tag(story["xml_path"], story["story_id"], chosen)
-        update_human_category(story["story_id"], chosen)
+        ok = update_women_tag(story["xml_path"], story["story_id"], chosen,
+                              collective=chosen_collective)
+        update_human_category(story["story_id"], chosen,
+                              human_collective=chosen_collective)
         if ok:
-            st.success(f"Updated XML: {story['story_id']} → {chosen}")
+            tag_str = chosen + (" + collective" if chosen_collective else "")
+            st.success(f"Updated XML: {story['story_id']} → {tag_str}")
         else:
             st.warning("No change made (category already set or story not found).")
         # clear cache so list refreshes
@@ -173,7 +192,7 @@ def _mode_evaluate(stories):
     annotated_editions = sorted({s["edition"] for s in stories if s["category"] != "no-women"})
 
     st.subheader("Mode A — Evaluate annotated editions")
-    st.caption("Run Claude + Gemini on the 9 benchmark editions. Disagreements surface for review.")
+    st.caption("Run Claude on the 9 benchmark editions. Disagreements vs. human surface for review.")
 
     edition = st.selectbox("Edition", annotated_editions, key="eval_edition")
     ed_stories = _stories_by_edition(stories, edition)
@@ -183,7 +202,7 @@ def _mode_evaluate(stories):
 
     col_run, col_filter = st.columns([1, 2])
     with col_run:
-        if st.button("▶ Run both models on this edition", use_container_width=True):
+        if st.button("▶ Run Claude on this edition", use_container_width=True):
             progress = st.progress(0)
             def _cb(i, total):
                 progress.progress(i / total)
@@ -201,7 +220,7 @@ def _mode_evaluate(stories):
             "story_id": s["story_id"],
             "human": s["category"],
             "claude": r.get("claude_category", ""),
-            "gemini": r.get("gemini_category", ""),
+            "confidence": CONFIDENCE_BADGE.get(r.get("claude_confidence", ""), "—"),
             "status": _agreement_badge(r),
         })
 
@@ -249,8 +268,8 @@ def _mode_annotate(stories):
 
     st.subheader("Mode B — Annotate unannotated editions")
     st.caption(
-        "Run Claude + Gemini. Where both agree → auto-accepted. "
-        "Where they disagree → brief human review."
+        "Run Claude on every story. All non-error results are auto-written to the XML. "
+        "Use the confidence filter to surface low/medium-confidence calls for human review."
     )
 
     edition = st.selectbox("Edition", unannotated, key="ann_edition")
@@ -261,34 +280,38 @@ def _mode_annotate(stories):
 
     col_run, col_models = st.columns([1, 1])
     with col_run:
-        if st.button("▶ Run both models on this edition", use_container_width=True):
+        if st.button("▶ Run Claude on this edition", use_container_width=True):
             progress = st.progress(0)
             def _cb(i, total):
                 progress.progress(i / total)
             with st.spinner(f"Annotating {len(ed_stories)} stories…"):
                 results = annotate_batch(ed_stories, criteria=criteria,
                                          progress_callback=_cb)
-            # Auto-write agreed results to XML
+            # Auto-write every non-error Claude result to the XML
             for s, r in zip(ed_stories, results):
-                if r.get("agreement") == "agree":
-                    cat = r["claude_category"]
-                    update_women_tag(s["xml_path"], s["story_id"], cat)
-                    update_human_category(s["story_id"], cat)
+                cat = r.get("claude_category", "")
+                if cat and cat != "error":
+                    coll = r.get("claude_collective", "False") == "True"
+                    update_women_tag(s["xml_path"], s["story_id"], cat, collective=coll)
+                    update_human_category(s["story_id"], cat, human_collective=coll)
             progress.empty()
             _get_stories.clear()
             st.rerun()
 
     cached = {r["story_id"]: r for r in get_cached_results(edition)}
 
-    # Progress stats
-    auto = sum(1 for r in cached.values() if r.get("agreement") == "agree")
-    needs_review = sum(1 for r in cached.values() if r.get("agreement") == "disagree")
-    done = sum(1 for r in cached.values() if r.get("human_category"))
+    # Progress stats — by confidence
+    high = sum(1 for r in cached.values() if r.get("claude_confidence") == "high")
+    med  = sum(1 for r in cached.values() if r.get("claude_confidence") == "medium")
+    low  = sum(1 for r in cached.values() if r.get("claude_confidence") == "low")
+    total_done = sum(1 for r in cached.values()
+                     if r.get("claude_category") and r.get("claude_category") != "error")
 
-    c1, c2, c3 = st.columns(3)
-    c1.metric("Auto-accepted", auto)
-    c2.metric("Need review", needs_review)
-    c3.metric("Total done", done)
+    c1, c2, c3, c4 = st.columns(4)
+    c1.metric("🟢 High", high)
+    c2.metric("🟡 Medium", med)
+    c3.metric("🔴 Low", low)
+    c4.metric("Total annotated", total_done)
 
     # Build table
     rows = []
@@ -298,16 +321,21 @@ def _mode_annotate(stories):
         rows.append({
             "story_id": s["story_id"],
             "claude": r.get("claude_category", ""),
-            "gemini": r.get("gemini_category", ""),
-            "status": _agreement_badge(r),
+            "collective": "✓" if r.get("claude_collective", "") == "True" else "",
+            "confidence": CONFIDENCE_BADGE.get(r.get("claude_confidence", ""), "—"),
             "keyword_hit": "🔍" if has_keyword else "",
         })
 
     df = pd.DataFrame(rows)
-    show = st.radio("Show", ["All", "Needs review", "Keyword matches"],
-                    horizontal=True, key="ann_filter")
-    if show == "Needs review":
-        df = df[df["status"].str.startswith("❌")]
+    show = st.radio(
+        "Show",
+        ["All", "Needs review (low confidence)", "Medium confidence", "Keyword matches"],
+        horizontal=True, key="ann_filter",
+    )
+    if show == "Needs review (low confidence)":
+        df = df[df["confidence"].str.contains("low", na=False)]
+    elif show == "Medium confidence":
+        df = df[df["confidence"].str.contains("medium", na=False)]
     elif show == "Keyword matches":
         df = df[df["keyword_hit"] == "🔍"]
 

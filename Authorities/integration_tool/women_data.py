@@ -31,16 +31,28 @@ def _parse_ana(ana_value: str) -> List[str]:
     return [t.strip() for t in ana_value.split(";") if t.strip()]
 
 
+TIER_TOKENS = {
+    "women:major_character":     "major-character",
+    "women:catalyst_character":  "catalyst-character",
+    "women:minor_character":     "minor-character",
+    "women:mention_only":        "mention-only",
+}
+TIER_RANK = ["no-women", "mention-only", "minor-character", "catalyst-character", "major-character"]
+COLLECTIVE_TOKEN = "women:collective"
+
+
 def _derive_category(topics: List[str]) -> str:
-    has_major = any(t == "women:major_character" for t in topics)
-    has_minor = any(t == "women:minor_character" for t in topics)
-    if has_major and has_minor:
-        return "major+minor"
-    if has_major:
-        return "major"
-    if has_minor:
-        return "minor"
-    return "no"
+    """Return the highest applicable tier among the women:* tokens present."""
+    tier = "no-women"
+    for token in topics:
+        new = TIER_TOKENS.get(token)
+        if new and TIER_RANK.index(new) > TIER_RANK.index(tier):
+            tier = new
+    return tier
+
+
+def _derive_collective(topics: List[str]) -> bool:
+    return COLLECTIVE_TOKEN in topics
 
 
 def _story_text(div_elem) -> str:
@@ -81,6 +93,7 @@ def load_stories() -> List[dict]:
             # filter out non-topic values
             topics = [t for t in topics if ":" in t and not t.startswith("TBD")]
             category = _derive_category(topics)
+            collective = _derive_collective(topics)
             text = _story_text(div)
             stories.append(
                 {
@@ -88,6 +101,7 @@ def load_stories() -> List[dict]:
                     "edition": edition,
                     "topics": topics,
                     "category": category,
+                    "collective_women": collective,
                     "text": text,
                     "xml_path": xml_path,
                 }
@@ -100,29 +114,37 @@ def is_annotated(edition: str, stories: Optional[List[dict]] = None) -> bool:
     if stories is None:
         stories = load_stories()
     for s in stories:
-        if s["edition"] == edition and s["category"] != "no":
+        if s["edition"] == edition and s["category"] != "no-women":
             return True
     return False
 
 
 # ── Write-back ────────────────────────────────────────────────────────────────
 
-def update_women_tag(xml_path: str, story_id: str, new_category: str) -> bool:
+def update_women_tag(xml_path: str, story_id: str, new_category: str,
+                     collective: bool = False) -> bool:
     """
-    Update the women:* tag for a story in its XML file.
+    Update the women:* tag(s) for a story in its XML file.
 
-    new_category must be one of: no / minor / major / major+minor
+    new_category must be one of:
+      no-women / mention-only / minor-character / catalyst-character / major-character
+    collective: if True, also adds the women:collective token (orthogonal flag).
     Returns True if the file was modified.
     """
-    # Map category → set of women topic tokens to set on the story's main span
-    cat_to_tokens = {
-        "no":          [],
-        "minor":       ["women:minor_character"],
-        "major":       ["women:major_character"],
-        "major+minor": ["women:major_character", "women:minor_character"],
+    cat_to_token = {
+        "no-women":           None,
+        "mention-only":       "women:mention_only",
+        "minor-character":    "women:minor_character",
+        "catalyst-character": "women:catalyst_character",
+        "major-character":    "women:major_character",
     }
-    if new_category not in cat_to_tokens:
+    if new_category not in cat_to_token:
         raise ValueError(f"Unknown category: {new_category}")
+    women_tokens_to_add = []
+    if cat_to_token[new_category]:
+        women_tokens_to_add.append(cat_to_token[new_category])
+    if collective and new_category != "no-women":
+        women_tokens_to_add.append(COLLECTIVE_TOKEN)
 
     ET.register_namespace("", TEI)
     # Use raw text manipulation to preserve formatting; ET round-trips lose it
@@ -147,11 +169,9 @@ def update_women_tag(xml_path: str, story_id: str, new_category: str) -> bool:
     old_ana = sm.group(1)
     old_tokens = _parse_ana(old_ana)
 
-    # Remove existing women:* tokens
+    # Remove existing women:* tokens, append the new ones
     filtered = [t for t in old_tokens if not t.startswith("women:")]
-
-    # Add new women tokens
-    new_tokens = filtered + cat_to_tokens[new_category]
+    new_tokens = filtered + women_tokens_to_add
 
     if new_tokens == old_tokens:
         return False  # no change
@@ -181,7 +201,7 @@ def extract_empirical_vocabulary(stories: List[dict]) -> dict:
 
     for s in stories:
         words = re.findall(r"[\u0590-\u05ff\ufb1d-\ufb4e]+", s["text"])
-        if s["category"] != "no":
+        if s["category"] != "no-women":
             women_words.update(words)
         else:
             no_women_words.update(words)

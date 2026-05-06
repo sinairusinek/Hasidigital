@@ -16,16 +16,18 @@ import streamlit as st
 from config import WOMEN_KEYWORDS_APRIORI, WOMEN_KEYWORDS_EMPIRICAL
 from women_data import load_stories, extract_empirical_vocabulary
 
-# Set to True to show major/minor breakdown; False for binary yes/no
-SHOW_MAJOR_MINOR = False
+# Display mode: "tiers" shows the full 5-tier breakdown; "binary" collapses to yes/no
+DISPLAY_MODE = "tiers"  # "tiers" | "binary"
 
-CATEGORY_ORDER = ["no", "minor", "major", "major+minor"] if SHOW_MAJOR_MINOR else ["no", "yes"]
+TIER_ORDER = ["no-women", "mention-only", "minor-character", "catalyst-character", "major-character"]
+CATEGORY_ORDER = TIER_ORDER if DISPLAY_MODE == "tiers" else ["no-women", "yes"]
 CATEGORY_COLORS = {
-    "no":          "#5B9BD5",
-    "yes":         "#ED7D31",
-    "minor":       "#ED7D31",
-    "major":       "#A9D18E",
-    "major+minor": "#FFD966",
+    "no-women":           "#5B9BD5",
+    "yes":                "#ED7D31",
+    "mention-only":       "#A6CEE3",
+    "minor-character":    "#FDBF6F",
+    "catalyst-character": "#FFD966",
+    "major-character":    "#A9D18E",
 }
 
 EDITION_YEARS = {
@@ -205,7 +207,9 @@ def _show_relative_frequency_all(df, min_stories=5):
         return
 
     rel = counts.div(counts.sum(axis=1), axis=0)
-    sort_idx = rel.sort_values("yes", ascending=True).index
+    # Sort by total share of women-present categories (everything except no-women)
+    women_share = rel.drop(columns=["no-women"], errors="ignore").sum(axis=1)
+    sort_idx = women_share.sort_values(ascending=True).index
     counts = counts.loc[sort_idx]
     rel = rel.loc[sort_idx]
 
@@ -252,7 +256,8 @@ def _show_relative_frequency_by_category(df, top_category, min_stories=3):
         return
 
     rel = counts.div(counts.sum(axis=1), axis=0)
-    sort_idx = rel.sort_values("yes", ascending=False).index
+    women_share = rel.drop(columns=["no-women"], errors="ignore").sum(axis=1)
+    sort_idx = women_share.sort_values(ascending=False).index
     counts = counts.loc[sort_idx]
     rel = rel.loc[sort_idx]
     clean_labels = [t.split(":", 1)[1].replace("_", " ") if ":" in t else t for t in rel.index]
@@ -353,11 +358,11 @@ st.title("Women in Hasidic Stories — Analysis")
 stories = _get_stories()
 df = _df(stories)
 
-annotated_editions = sorted({s["edition"] for s in stories if s["category"] != "no"})
+annotated_editions = sorted({s["edition"] for s in stories if s["category"] != "no-women"})
 df = df[df["edition"].isin(annotated_editions)].copy()
 
-if not SHOW_MAJOR_MINOR:
-    df["category"] = df["category"].apply(lambda c: "no" if c == "no" else "yes")
+if DISPLAY_MODE == "binary":
+    df["category"] = df["category"].apply(lambda c: "no-women" if c == "no-women" else "yes")
 
 tab_dist, tab_edition, tab_topics, tab_bycat = st.tabs(
     ["Distribution", "Per-edition", "Women and other Topics", "By topic category"]
@@ -402,13 +407,18 @@ with tab_topics:
         "**The number on each bar is a story-count difference**: +15 means that topic appears in 15 more "
         "women-present stories than women-absent stories; −10 means it appears in 10 more women-absent stories."
     )
-    if SHOW_MAJOR_MINOR:
-        pairs = [("major", "no"), ("minor", "no"), ("major", "minor")]
+    if DISPLAY_MODE == "tiers":
+        pairs = [
+            ("major-character", "no-women"),
+            ("catalyst-character", "no-women"),
+            ("minor-character", "no-women"),
+            ("major-character", "minor-character"),
+        ]
         pair_labels = [f"{a} vs {b}" for a, b in pairs]
         choice = st.radio("Comparison", pair_labels, horizontal=True)
         cat_a, cat_b = pairs[pair_labels.index(choice)]
     else:
-        cat_a, cat_b = "yes", "no"
+        cat_a, cat_b = "yes", "no-women"
     _show_topic_diff(df, cat_a, cat_b)
 
     st.markdown("---")

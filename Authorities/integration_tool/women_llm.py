@@ -17,41 +17,38 @@ import time
 from datetime import datetime
 from typing import Dict, Optional, Tuple
 
-from config import WOMEN_LLM_CACHE_PATH, WOMEN_CRITERIA_PATH
+from config import WOMEN_LLM_CACHE_PATH_V2 as WOMEN_LLM_CACHE_PATH, WOMEN_CRITERIA_PATH
 
 CACHE_COLUMNS = [
     "story_id", "edition",
-    "claude_category", "claude_reasoning",
-    "gemini_category", "gemini_reasoning",
-    "agreement", "human_category",
+    "claude_category", "claude_collective", "claude_confidence", "claude_reasoning",
+    "gemini_category", "gemini_collective", "gemini_confidence", "gemini_reasoning",
+    "agreement", "human_category", "human_collective",
     "run_timestamp", "criteria_hash",
 ]
 
-VALID_CATEGORIES = {"major", "minor", "no-women"}
+VALID_CATEGORIES = {
+    "no-women", "mention-only", "minor-character",
+    "catalyst-character", "major-character",
+}
+VALID_CONFIDENCES = {"high", "medium", "low"}
 
 
 # ── Criteria ──────────────────────────────────────────────────────────────────
 
 DEFAULT_CRITERIA = """\
-You are annotating Hasidic stories (18th–19th century Hebrew/Yiddish) for the \
-presence and role of women characters.
+You are annotating Hasidic stories (18th–19th century Hebrew/Yiddish) for the presence and role of women characters.
 
-Categorize each story as exactly one of:
-- **major**: A woman is a central character who drives or significantly shapes \
-the story's plot or spiritual meaning. Her actions, suffering, or qualities are \
-foregrounded and indispensable to the narrative.
-- **minor**: A woman appears in the story but plays a background or supporting \
-role. She may be mentioned, referenced, or briefly active, but the story does \
-not depend on her for its main thrust.
-- **no-women**: No women appear in any capacity.
+Assign exactly one primary category — pick the highest applicable tier:
+- no-women: No women appear or are referenced in any way.
+- mention-only: A woman is referenced as a relation, status, or context, with no presence as a character. She does not act, speak, suffer in a depicted way, decide, or appear in a depicted scene.
+- minor-character: A woman appears in the story as a character but the story's main thrust does not depend on her.
+- catalyst-character: A woman's situation (suffering, illness, plea, death, request, demand) is the reason the story exists, but a male protagonist is the active agent. The narrative orbits around her predicament.
+- major-character: She is an active driver. Her decisions, actions, or speech visibly shape the plot.
 
-Notes:
-- A wife mentioned in passing = minor. A wife whose piety or illness is central = major.
-- Unnamed women count the same as named women.
-- Legendary/biblical female figures (e.g., the Shechina, Rachel) count only if \
-they appear as characters in the story's action.
+Then independently set collective_women: true if anonymous female groups appear ("the women of the town", "many widows", "his daughters and wife as a group").
 
-Respond in JSON only: {"category": "<major|minor|no-women>", "reasoning": "<1-2 sentences>"}
+Respond in JSON only: {"category": "<no-women|mention-only|minor-character|catalyst-character|major-character>", "collective_women": <true|false>, "reasoning": "<1-2 sentences>"}
 """
 
 
@@ -99,13 +96,16 @@ def _save_cache(cache: Dict[Tuple[str, str], dict]):
         writer.writerows(rows)
 
 
-def update_human_category(story_id: str, human_category: str):
+def update_human_category(story_id: str, human_category: str,
+                          human_collective: Optional[bool] = None):
     """Persist a human decision to the cache for all rows matching story_id."""
     cache = _load_cache()
     updated = False
     for key, row in cache.items():
         if key[0] == story_id:
             row["human_category"] = human_category
+            if human_collective is not None:
+                row["human_collective"] = str(human_collective)
             updated = True
     if updated:
         _save_cache(cache)
@@ -113,8 +113,8 @@ def update_human_category(story_id: str, human_category: str):
 
 # ── LLM calls ─────────────────────────────────────────────────────────────────
 
-def _parse_response(raw: str) -> Tuple[str, str]:
-    """Parse JSON response from LLM. Returns (category, reasoning)."""
+def _parse_response(raw: str) -> Tuple[str, bool, str, str]:
+    """Parse JSON response from LLM. Returns (category, collective_women, confidence, reasoning)."""
     try:
         raw = raw.strip()
         # strip markdown code fences if present
@@ -126,17 +126,22 @@ def _parse_response(raw: str) -> Tuple[str, str]:
         cat = data.get("category", "").strip().lower()
         if cat not in VALID_CATEGORIES:
             cat = "no-women"
-        return cat, data.get("reasoning", "")
+        collective = bool(data.get("collective_women", False))
+        conf = str(data.get("confidence", "")).strip().lower()
+        if conf not in VALID_CONFIDENCES:
+            conf = "medium"
+        return cat, collective, conf, data.get("reasoning", "")
     except Exception:
-        return "no-women", f"[parse error] {raw[:200]}"
+        return "no-women", False, "medium", f"[parse error] {raw[:200]}"
 
 
-def _call_claude(story_text: str, criteria: str) -> Tuple[str, str]:
+def _call_claude(story_text: str, criteria: str) -> Tuple[str, bool, str, str]:
+    """Call Claude via the Anthropic SDK (uses ANTHROPIC_API_KEY)."""
     import anthropic
     client = anthropic.Anthropic()
     msg = client.messages.create(
         model="claude-sonnet-4-6",
-        max_tokens=256,
+        max_tokens=512,
         system=criteria,
         messages=[{"role": "user", "content": story_text}],
     )
@@ -144,7 +149,7 @@ def _call_claude(story_text: str, criteria: str) -> Tuple[str, str]:
     return _parse_response(raw)
 
 
-def _call_gemini(story_text: str, criteria: str) -> Tuple[str, str]:
+def _call_gemini(story_text: str, criteria: str) -> Tuple[str, bool, str, str]:
     import google.generativeai as genai
     api_key = os.environ.get("GOOGLE_API_KEY") or _load_dotenv_key()
     genai.configure(api_key=api_key)
@@ -178,10 +183,10 @@ def annotate_story(
     story: dict,
     criteria: Optional[str] = None,
     force: bool = False,
-    models: Tuple[bool, bool] = (True, True),  # (run_claude, run_gemini)
+    models: Tuple[bool, bool] = (True, False),  # (run_claude, run_gemini); Gemini off by default
 ) -> dict:
     """
-    Annotate a single story with Claude and/or Gemini.
+    Annotate a single story with Claude (and optionally Gemini).
     Returns a result dict with claude_*, gemini_*, agreement fields.
     Uses cache unless force=True or criteria changed.
     """
@@ -193,8 +198,8 @@ def annotate_story(
 
     cached = cache.get(key, {})
     run_claude, run_gemini = models
-    needs_claude = run_claude and (force or not cached.get("claude_category"))
-    needs_gemini = run_gemini and (force or not cached.get("gemini_category"))
+    needs_claude = run_claude and (force or not cached.get("claude_category") or cached.get("claude_category") == "error")
+    needs_gemini = run_gemini and (force or not cached.get("gemini_category") or cached.get("gemini_category") == "error")
 
     if not needs_claude and not needs_gemini and cached:
         return cached
@@ -203,32 +208,37 @@ def annotate_story(
         "story_id": story["story_id"],
         "edition": story["edition"],
         "human_category": story.get("category", ""),
+        "human_collective": str(story.get("collective_women", False)),
         "run_timestamp": "",
         "criteria_hash": chash,
-        "claude_category": "", "claude_reasoning": "",
-        "gemini_category": "", "gemini_reasoning": "",
+        "claude_category": "", "claude_collective": "", "claude_confidence": "", "claude_reasoning": "",
+        "gemini_category": "", "gemini_collective": "", "gemini_confidence": "", "gemini_reasoning": "",
         "agreement": "",
     }
 
-    text = story.get("text", "")[:3000]  # cap tokens
+    text = story.get("text", "")[:12000]  # cap tokens; covers >95% of stories
 
     if needs_claude:
         try:
-            cat, reason = _call_claude(text, criteria)
+            cat, coll, conf, reason = _call_claude(text, criteria)
         except Exception as e:
-            cat, reason = "error", str(e)
+            cat, coll, conf, reason = "error", False, "", str(e)
         result["claude_category"] = cat
+        result["claude_collective"] = str(coll)
+        result["claude_confidence"] = conf
         result["claude_reasoning"] = reason
 
     if needs_gemini:
         try:
-            cat, reason = _call_gemini(text, criteria)
+            cat, coll, conf, reason = _call_gemini(text, criteria)
         except Exception as e:
-            cat, reason = "error", str(e)
+            cat, coll, conf, reason = "error", False, "", str(e)
         result["gemini_category"] = cat
+        result["gemini_collective"] = str(coll)
+        result["gemini_confidence"] = conf
         result["gemini_reasoning"] = reason
 
-    # agreement
+    # agreement (between Claude and Gemini, when both ran)
     cc = result.get("claude_category", "")
     gc = result.get("gemini_category", "")
     if cc and gc:
@@ -248,7 +258,7 @@ def annotate_batch(
     stories: list,
     criteria: Optional[str] = None,
     force: bool = False,
-    models: Tuple[bool, bool] = (True, True),
+    models: Tuple[bool, bool] = (True, False),  # Gemini off by default
     progress_callback=None,
 ) -> list:
     """
