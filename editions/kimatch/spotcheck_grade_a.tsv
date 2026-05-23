@@ -1,0 +1,293 @@
+rank	risk	tier	reason	name_heb	name_rom	occurrences	match_method	confidence	kima_id	kima_name_rom	kima_url	decision	correct_kima_id	notes
+1	HIGH	grade_a	common-word / name homograph — text likely means the word, not the town	גליל		17	name_exact	0.95	1475	Galilee (Israel)	https://data.geo-kima.org/Places/Details/1475			
+2	HIGH	fuzzy_autolink	very short Hebrew spelling (4 letters) — homograph / wrong-town risk	לאדי		11	fuzzy	0.95	21831	Lyady (Belarus)	https://data.geo-kima.org/Places/Details/21831			
+3	HIGH	grade_a	common-word / name homograph — text likely means the word, not the town	יהודה		7	name_exact	0.95	5350	Judea (Region) (Israel)	https://data.geo-kima.org/Places/Details/5350			
+4	HIGH	fuzzy_autolink	very short Hebrew spelling (4 letters) — homograph / wrong-town risk	אקופ	Okopy	7	fuzzy	1.0	78338	Okopy (Ukraine)	https://data.geo-kima.org/Places/Details/78338			
+5	HIGH	fuzzy_autolink	very short Hebrew spelling (4 letters) — homograph / wrong-town risk	קוצי		6	fuzzy	0.95	14064	Coucy-le-Château-Auffrique (France)	https://data.geo-kima.org/Places/Details/14064			
+6	HIGH	grade_a	common-word / name homograph — text likely means the word, not the town	חרן		3	name_exact	0.95	17893	Harran (Turkey)	https://data.geo-kima.org/Places/Details/17893			
+7	HIGH	grade_a	very short Hebrew spelling (4 letters) — homograph / wrong-town risk	לאדז		3	name_exact	0.95	179	Łódź (Poland)	https://data.geo-kima.org/Places/Details/179			
+8	HIGH	fuzzy_autolink	very short Hebrew spelling (4 letters) — homograph / wrong-town risk	שעפס		3	fuzzy	0.95	16554	Sierpc (Poland : Powiat)	https://data.geo-kima.org/Places/Details/16554			
+9	HIGH	fuzzy_autolink	very short Hebrew spelling (4 letters) — homograph / wrong-town risk	טאסט		3	fuzzy	0.95	23166	Toczek (Poland)	https://data.geo-kima.org/Places/Details/23166			
+10	HIGH	fuzzy_autolink	very short Hebrew spelling (4 letters) — homograph / wrong-town risk	פלעם		3	fuzzy	1.0	77838	Falamya (West Bank)	https://data.geo-kima.org/Places/Details/77838			
+11	HIGH	grade_a	very short Hebrew spelling (3 letters) — homograph / wrong-town risk	אור		2	name_exact	0.95	2334	Ur (Extinct city)	https://data.geo-kima.org/Places/Details/2334			
+12	HIGH	grade_a	implausible region for the corpus (n.m) — likely wrong same-name place	רמה		2	name_exact	0.95	17796	Ramah (N.M.)	https://data.geo-kima.org/Places/Details/17796	reject		auto-prefilled: wrong-continent same-name collision
+13	HIGH	fuzzy_autolink	very short Hebrew spelling (4 letters) — homograph / wrong-town risk	וינא		2	fuzzy	0.95	945	Vienna (Austria)	https://data.geo-kima.org/Places/Details/945			
+14	HIGH	fuzzy_autolink	very short Hebrew spelling (4 letters) — homograph / wrong-town risk	פאנו		2	fuzzy	0.95	9794	Fano (Italy)	https://data.geo-kima.org/Places/Details/9794			
+15	HIGH	fuzzy_autolink	very short Hebrew spelling (4 letters) — homograph / wrong-town risk	עמון		2	fuzzy	0.95	22019	Ammon (Kingdom)	https://data.geo-kima.org/Places/Details/22019			
+16	HIGH	fuzzy_autolink	very short Hebrew spelling (4 letters) — homograph / wrong-town risk	דמתא		2	fuzzy	1.0	8964	Damietta (Egypt)	https://data.geo-kima.org/Places/Details/8964			
+17	HIGH	fuzzy_autolink	very short Hebrew spelling (4 letters) — homograph / wrong-town risk	סכתה		2	fuzzy	1.0	6241	Sukhothai (Thailand)	https://data.geo-kima.org/Places/Details/6241			
+18	HIGH	grade_a	very short Hebrew spelling (4 letters) — homograph / wrong-town risk	מיצר		1	name_exact	0.95	23017	Meitsar (Israel)	https://data.geo-kima.org/Places/Details/23017			
+19	HIGH	grade_a	implausible region for the corpus (wis) — likely wrong same-name place	מנשה		1	name_exact	0.95	13489	Menasha (Wis.)	https://data.geo-kima.org/Places/Details/13489	reject		auto-prefilled: wrong-continent same-name collision
+20	HIGH	grade_a	very short Hebrew spelling (4 letters) — homograph / wrong-town risk	עריש		1	name_exact	0.95	21859	ʻArish (Egypt)	https://data.geo-kima.org/Places/Details/21859			
+21	HIGH	grade_a	implausible region for the corpus (ethiopia) — likely wrong same-name place	הרר		1	name_exact	0.95	12025	Hārer (Ethiopia)	https://data.geo-kima.org/Places/Details/12025	reject		auto-prefilled: wrong-continent same-name collision
+22	HIGH	grade_a	implausible region for the corpus (uruguay) — likely wrong same-name place	מינס		1	name_exact	0.95	12945	Minas (Uruguay)	https://data.geo-kima.org/Places/Details/12945	reject		auto-prefilled: wrong-continent same-name collision
+23	HIGH	grade_a	implausible region for the corpus (iraq) — likely wrong same-name place	הית		1	name_exact	0.95	20102	Hīt (Iraq)	https://data.geo-kima.org/Places/Details/20102	reject		auto-prefilled: wrong-continent same-name collision
+24	HIGH	grade_a	very short Hebrew spelling (4 letters) — homograph / wrong-town risk	זסלב		1	name_exact	0.95	15851	Izi︠a︡slav (Ukraine)	https://data.geo-kima.org/Places/Details/15851			
+25	HIGH	grade_a	very short Hebrew spelling (3 letters) — homograph / wrong-town risk	שבא		1	name_exact	0.95	22875	Sheba (Kingdom)	https://data.geo-kima.org/Places/Details/22875			
+26	HIGH	grade_a	very short Hebrew spelling (4 letters) — homograph / wrong-town risk	אמסק		1	name_exact	0.95	639	Omsk (Russia)	https://data.geo-kima.org/Places/Details/639			
+27	HIGH	fuzzy_autolink	very short Hebrew spelling (4 letters) — homograph / wrong-town risk	רמות		1	fuzzy	0.95	26781	Ramot Neibourhood (Beersheba, Israel)	https://data.geo-kima.org/Places/Details/26781			
+28	HIGH	fuzzy_autolink	very short Hebrew spelling (4 letters) — homograph / wrong-town risk	כנען		1	fuzzy	1.0	86985	Canaan (Conn.)	https://data.geo-kima.org/Places/Details/86985			
+29	HIGH	fuzzy_autolink	very short Hebrew spelling (4 letters) — homograph / wrong-town risk	חורב		1	fuzzy	1.0	19201	Kharrūb (Lebanon)	https://data.geo-kima.org/Places/Details/19201			
+30	HIGH	fuzzy_autolink	very short Hebrew spelling (4 letters) — homograph / wrong-town risk	הגאו		1	fuzzy	0.95	1265	Hegau (Germany)	https://data.geo-kima.org/Places/Details/1265			
+31	HIGH	fuzzy_autolink	very short Hebrew spelling (4 letters) — homograph / wrong-town risk	מופת		1	fuzzy	1.0	18531	Umm al-Raṣāṣ (Jordan)	https://data.geo-kima.org/Places/Details/18531			
+32	HIGH	fuzzy_autolink	very short Hebrew spelling (4 letters) — homograph / wrong-town risk	פריץ		1	fuzzy	1.0	74203	Preetz (Schleswig-Holstein, Germany)	https://data.geo-kima.org/Places/Details/74203			
+33	HIGH	fuzzy_autolink	very short Hebrew spelling (4 letters) — homograph / wrong-town risk	אַפטא		1	fuzzy	0.95	552	Opatów (Tarnobrzeg, Poland)	https://data.geo-kima.org/Places/Details/552			
+34	HIGH	fuzzy_autolink	very short Hebrew spelling (4 letters) — homograph / wrong-town risk	מאור		1	fuzzy	0.95	23009	Ma'or (Israel)	https://data.geo-kima.org/Places/Details/23009			
+35	HIGH	fuzzy_autolink	very short Hebrew spelling (4 letters) — homograph / wrong-town risk	ס שמו		1	fuzzy	1.0	9562	Soviet Union	https://data.geo-kima.org/Places/Details/9562			
+36	HIGH	fuzzy_autolink	very short Hebrew spelling (4 letters) — homograph / wrong-town risk	ואמר		1	fuzzy	1.0	10531	Weimar (Thuringia, Germany)	https://data.geo-kima.org/Places/Details/10531			
+37	HIGH	fuzzy_autolink	very short Hebrew spelling (4 letters) — homograph / wrong-town risk	פלים		1	fuzzy	1.0	77838	Falamya (West Bank)	https://data.geo-kima.org/Places/Details/77838			
+38	HIGH	fuzzy_autolink	very short Hebrew spelling (4 letters) — homograph / wrong-town risk	מקוה		1	fuzzy	1.0	11433	Mukhā (Yemen)	https://data.geo-kima.org/Places/Details/11433			
+39	MED	fuzzy_autolink	review the pick	מאגלניצא		38	fuzzy	1.0	18711	Mogielnica (Warsaw, Poland)	https://data.geo-kima.org/Places/Details/18711			
+40	MED	fuzzy_autolink	review the pick	לויצק		13	fuzzy	1.0	18293	Drahichyn (Belarus)	https://data.geo-kima.org/Places/Details/18293			
+41	MED	fuzzy_autolink	review the pick	מאגליניצא		13	fuzzy	1.0	18711	Mogielnica (Warsaw, Poland)	https://data.geo-kima.org/Places/Details/18711			
+42	MED	grade_a	exact-name match on a single Kima place — confirm it's the right same-name place	חמעלניק		11	name_exact	0.95	722	Chmielnik (Poland)	https://data.geo-kima.org/Places/Details/722			
+43	MED	grade_a	exact-name match on a single Kima place — confirm it's the right same-name place	מעזעריטש		11	name_exact	0.95	223	Międzyrzec Podlaski (Poland)	https://data.geo-kima.org/Places/Details/223			
+44	MED	fuzzy_autolink	review the pick	דראהביטש		10	fuzzy	0.95	977	Drohobych (Ukraine)	https://data.geo-kima.org/Places/Details/977			
+45	MED	fuzzy_autolink	review the pick	ווינאווי		6	fuzzy	0.6	945	Vienna (Austria)	https://data.geo-kima.org/Places/Details/945			
+46	MED	fuzzy_autolink	review the pick	מעזיבוש		6	fuzzy	0.95	17325	Medz︠h︡ybiz︠h︡ (Ukraine)	https://data.geo-kima.org/Places/Details/17325			
+47	MED	fuzzy_autolink	review the pick	יאמפאלא		6	fuzzy	0.95	13851	I︠A︡mpilʹ (Khmelʹnyt︠s︡ʹka oblastʹ, Ukraine)	https://data.geo-kima.org/Places/Details/13851			
+48	MED	grade_a	exact-name match on a single Kima place — confirm it's the right same-name place	דובנא		5	name_exact	0.95	895	Dubno (Ukraine)	https://data.geo-kima.org/Places/Details/895			
+49	MED	fuzzy_autolink	review the pick	קארסטשוב	Korostyshiv	5	fuzzy	1.0	71244	Korostyshiv (Ukraine)	https://data.geo-kima.org/Places/Details/71244			
+50	MED	fuzzy_autolink	review the pick	פילוב		5	fuzzy	0.95	8777	Puławy (Poland)	https://data.geo-kima.org/Places/Details/8777			
+51	MED	fuzzy_autolink	review the pick	יעמניץ		5	fuzzy	0.95	19979	Jemnice (Czech Republic)	https://data.geo-kima.org/Places/Details/19979			
+52	MED	grade_a	exact-name match on a single Kima place — confirm it's the right same-name place	וארשא		4	name_exact	0.95	953	Warsaw (Poland)	https://data.geo-kima.org/Places/Details/953			
+53	MED	grade_a	exact-name match on a single Kima place — confirm it's the right same-name place	גלוגא		4	name_exact	0.95	21111	Głogów (Województwo dolnośląskie, Poland)	https://data.geo-kima.org/Places/Details/21111			
+54	MED	grade_a	exact-name match on a single Kima place — confirm it's the right same-name place	פרשעדבארז		4	name_exact	0.95	6378	Przedbórz (Piotrków Trybunalski, Poland)	https://data.geo-kima.org/Places/Details/6378			
+55	MED	fuzzy_autolink	review the pick		Pavoloch	4	fuzzy	1.0	72894	Pavoloch (Ukraine)	https://data.geo-kima.org/Places/Details/72894			
+56	MED	fuzzy_autolink	review the pick	טשירנאביל		4	fuzzy	1.0	15239	Chornobylʹ (Ukraine)	https://data.geo-kima.org/Places/Details/15239			
+57	MED	fuzzy_autolink	review the pick	לעחוויץ		4	fuzzy	0.95	22491	Lyakhavichy (Belarus)	https://data.geo-kima.org/Places/Details/22491			
+58	MED	fuzzy_autolink	review the pick	סעראצק		4	fuzzy	1.0	15085	Serock (Warsaw, Poland)	https://data.geo-kima.org/Places/Details/15085			
+59	MED	fuzzy_autolink	review the pick	פראסקרוב		4	fuzzy	0.95	797	Khmelnytskyi (Ukraine)	https://data.geo-kima.org/Places/Details/797			
+60	MED	fuzzy_autolink	review the pick	פשיסחא		4	fuzzy	0.95	18259	Przysucha (Poland)	https://data.geo-kima.org/Places/Details/18259			
+61	MED	grade_a	exact-name match on a single Kima place — confirm it's the right same-name place	חעלמא		3	name_exact	0.95	11264	Chełm (Lublin, Poland)	https://data.geo-kima.org/Places/Details/11264			
+62	MED	grade_a	exact-name match on a single Kima place — confirm it's the right same-name place	אמסטרדם		3	name_exact	0.95	550	Amsterdam (Netherlands)	https://data.geo-kima.org/Places/Details/550			
+63	MED	fuzzy_autolink	review the pick	הראדענקע		3	fuzzy	1.0	332	Horodenka (Ukraine)	https://data.geo-kima.org/Places/Details/332			
+64	MED	fuzzy_autolink	review the pick	יוזעפאף		3	fuzzy	0.95	845	Józefów (Poland)	https://data.geo-kima.org/Places/Details/845			
+65	MED	fuzzy_autolink	review the pick	זלאזיץ		3	fuzzy	1.0	23797	Zaliztsi (Ukraine)	https://data.geo-kima.org/Places/Details/23797			
+66	MED	fuzzy_autolink	review the pick	פינטשוב		3	fuzzy	0.95	1687	Pinczów (Poland)	https://data.geo-kima.org/Places/Details/1687			
+67	MED	fuzzy_autolink	review the pick	מעזיבוזש		3	fuzzy	0.833	17325	Medz︠h︡ybiz︠h︡ (Ukraine)	https://data.geo-kima.org/Places/Details/17325			
+68	MED	grade_a	exact-name match on a single Kima place — confirm it's the right same-name place	וויניציא		2	name_exact	0.95	949	Venice (Italy)	https://data.geo-kima.org/Places/Details/949			
+69	MED	grade_a	exact-name match on a single Kima place — confirm it's the right same-name place	טיסמניץ		2	name_exact	0.95	671	Tysmenyt︠s︡i︠a︡ (Ukraine)	https://data.geo-kima.org/Places/Details/671			
+70	MED	grade_a	exact-name match on a single Kima place — confirm it's the right same-name place	מאהלוב		2	name_exact	0.95	10965	Mahili︠o︡ŭ (Belarus)	https://data.geo-kima.org/Places/Details/10965			
+71	MED	grade_a	exact-name match on a single Kima place — confirm it's the right same-name place	טאמשוב		2	name_exact	0.95	687	Tomaszów Lubelski (Poland)	https://data.geo-kima.org/Places/Details/687			
+72	MED	grade_a	exact-name match on a single Kima place — confirm it's the right same-name place	לוברטוב		2	name_exact	0.95	14510	Lubartów (Poland)	https://data.geo-kima.org/Places/Details/14510			
+73	MED	grade_a	exact-name match on a single Kima place — confirm it's the right same-name place	מינסק		2	name_exact	0.95	248	Minsk (Belarus)	https://data.geo-kima.org/Places/Details/248			
+74	MED	grade_a	exact-name match on a single Kima place — confirm it's the right same-name place	פרעמישלא		2	name_exact	0.95	424	Przemyśl (Poland)	https://data.geo-kima.org/Places/Details/424			
+75	MED	grade_a	exact-name match on a single Kima place — confirm it's the right same-name place	ראוונא		2	name_exact	0.95	1728	Rivne (Rivnensʹka oblastʹ, Ukraine)	https://data.geo-kima.org/Places/Details/1728			
+76	MED	grade_a	exact-name match on a single Kima place — confirm it's the right same-name place	הארחוב		2	name_exact	0.95	19255	Horokhiv (Ukraine)	https://data.geo-kima.org/Places/Details/19255			
+77	MED	fuzzy_autolink	review the pick	זמיגראד	Nowy Żmigród	2	fuzzy	1.0	17046	Żmigród (Poland)	https://data.geo-kima.org/Places/Details/17046			
+78	MED	fuzzy_autolink	review the pick		Obukhiv	2	fuzzy	1.0	90112	Obukhiv (Ukraine)	https://data.geo-kima.org/Places/Details/90112			
+79	MED	fuzzy_autolink	review the pick	ווערחאווקע		2	fuzzy	1.0	23171	Verkhivka (Ukraine)	https://data.geo-kima.org/Places/Details/23171			
+80	MED	fuzzy_autolink	review the pick	פולניא		2	fuzzy	1.0	86988	Falun (Sweden)	https://data.geo-kima.org/Places/Details/86988			
+81	MED	fuzzy_autolink	review the pick	סאדיגארי		2	fuzzy	1.0	23506	Sadhora (Chernivtsi, Ukraine)	https://data.geo-kima.org/Places/Details/23506			
+82	MED	fuzzy_autolink	review the pick	מגלניצא		2	fuzzy	1.0	18711	Mogielnica (Warsaw, Poland)	https://data.geo-kima.org/Places/Details/18711			
+83	MED	fuzzy_autolink	review the pick	טארטשין		2	fuzzy	0.95	23561	Torczyn (Ukraine)	https://data.geo-kima.org/Places/Details/23561			
+84	MED	fuzzy_autolink	review the pick	טארניגראד		2	fuzzy	1.0	19986	Tarnogród (Poland)	https://data.geo-kima.org/Places/Details/19986			
+85	MED	fuzzy_autolink	review the pick	בית דוד		2	fuzzy	0.95	21192	Bet David (Jerusalem, Israel)	https://data.geo-kima.org/Places/Details/21192			
+86	MED	fuzzy_autolink	review the pick	רומנוב		2	fuzzy	0.95	20961	Lenino (Mahili︠o︡ŭskai︠a︡ voblastsʹ, Belarus)	https://data.geo-kima.org/Places/Details/20961			
+87	MED	fuzzy_autolink	review the pick	תורגמה		2	fuzzy	0.95	8120	Turkey	https://data.geo-kima.org/Places/Details/8120			
+88	MED	fuzzy_autolink	review the pick	ווינא		2	fuzzy	0.95	945	Vienna (Austria)	https://data.geo-kima.org/Places/Details/945			
+89	MED	fuzzy_autolink	review the pick	סאדיגורא		2	fuzzy	1.0	23506	Sadhora (Chernivtsi, Ukraine)	https://data.geo-kima.org/Places/Details/23506			
+90	MED	fuzzy_autolink	review the pick	רומאנוב		2	fuzzy	0.833	20961	Lenino (Mahili︠o︡ŭskai︠a︡ voblastsʹ, Belarus)	https://data.geo-kima.org/Places/Details/20961			
+91	MED	grade_a	exact-name match on a single Kima place — confirm it's the right same-name place	פאלעסי	Polesia	1	name_exact	0.95	2192	Pripet Marshes (Belarus and Ukraine)	https://data.geo-kima.org/Places/Details/2192			
+92	MED	grade_a	exact-name match on a single Kima place — confirm it's the right same-name place	באר שבע		1	name_exact	0.95	699	Beersheba (Israel)	https://data.geo-kima.org/Places/Details/699			
+93	MED	grade_a	exact-name match on a single Kima place — confirm it's the right same-name place	יאססי		1	name_exact	0.95	669	Iași (Romania)	https://data.geo-kima.org/Places/Details/669			
+94	MED	grade_a	exact-name match on a single Kima place — confirm it's the right same-name place	מאורן		1	name_exact	0.95	16625	Mauern (Rennertshofen, Neuburg-Schrobenhausen, Germany)	https://data.geo-kima.org/Places/Details/16625			
+95	MED	grade_a	exact-name match on a single Kima place — confirm it's the right same-name place	קארלסבאד		1	name_exact	0.95	6093	Karlovy Vary (Czech Republic)	https://data.geo-kima.org/Places/Details/6093			
+96	MED	grade_a	exact-name match on a single Kima place — confirm it's the right same-name place	אורים		1	name_exact	0.95	701	Urim (Israel)	https://data.geo-kima.org/Places/Details/701			
+97	MED	grade_a	exact-name match on a single Kima place — confirm it's the right same-name place	קראסניבראד		1	name_exact	0.95	488	Krasnobród (Poland)	https://data.geo-kima.org/Places/Details/488			
+98	MED	grade_a	exact-name match on a single Kima place — confirm it's the right same-name place	הורדנא		1	name_exact	0.95	882	Hrodna (Belarus)	https://data.geo-kima.org/Places/Details/882			
+99	MED	grade_a	exact-name match on a single Kima place — confirm it's the right same-name place	רמתיים		1	name_exact	0.95	27010	Ramatayim (Hod Hasharon, Israel)	https://data.geo-kima.org/Places/Details/27010			
+100	MED	grade_a	exact-name match on a single Kima place — confirm it's the right same-name place	האנוי		1	name_exact	0.95	10462	Hanoi (Vietnam)	https://data.geo-kima.org/Places/Details/10462			
+101	MED	grade_a	exact-name match on a single Kima place — confirm it's the right same-name place	בילגורייא		1	name_exact	0.95	525	Biłgoraj (Poland)	https://data.geo-kima.org/Places/Details/525			
+102	MED	grade_a	exact-name match on a single Kima place — confirm it's the right same-name place	סאניק		1	name_exact	0.95	106	Sanok (Poland)	https://data.geo-kima.org/Places/Details/106			
+103	MED	grade_a	exact-name match on a single Kima place — confirm it's the right same-name place	טארנא		1	name_exact	0.95	765	Tarnów (Poland)	https://data.geo-kima.org/Places/Details/765			
+104	MED	grade_a	exact-name match on a single Kima place — confirm it's the right same-name place	דוקלא		1	name_exact	0.95	900	Dukla (Poland)	https://data.geo-kima.org/Places/Details/900			
+105	MED	grade_a	exact-name match on a single Kima place — confirm it's the right same-name place	פעטרבורג		1	name_exact	0.95	678	Saint Petersburg (Russia)	https://data.geo-kima.org/Places/Details/678			
+106	MED	grade_a	exact-name match on a single Kima place — confirm it's the right same-name place	הר ציון		1	name_exact	0.95	5920	Zion, Mount (Jerusalem, Israel)	https://data.geo-kima.org/Places/Details/5920			
+107	MED	grade_a	exact-name match on a single Kima place — confirm it's the right same-name place	פולדא		1	name_exact	0.95	85	Fulda (Germany)	https://data.geo-kima.org/Places/Details/85			
+108	MED	grade_a	exact-name match on a single Kima place — confirm it's the right same-name place	פרעמיסלא		1	name_exact	0.95	424	Przemyśl (Poland)	https://data.geo-kima.org/Places/Details/424			
+109	MED	grade_a	exact-name match on a single Kima place — confirm it's the right same-name place	גלילות		1	name_exact	0.95	24741	Gelilot (Israel)	https://data.geo-kima.org/Places/Details/24741			
+110	MED	grade_a	exact-name match on a single Kima place — confirm it's the right same-name place	אמדור		1	name_exact	0.95	19671	Indura (Belarus)	https://data.geo-kima.org/Places/Details/19671			
+111	MED	grade_a	exact-name match on a single Kima place — confirm it's the right same-name place	סיגוט		1	name_exact	0.95	99	Sighet (Romania)	https://data.geo-kima.org/Places/Details/99			
+112	MED	grade_a	exact-name match on a single Kima place — confirm it's the right same-name place	ירושלם		1	name_exact	0.95	691	Jerusalem (Israel)	https://data.geo-kima.org/Places/Details/691			
+113	MED	grade_a	exact-name match on a single Kima place — confirm it's the right same-name place	שפרעם		1	name_exact	0.95	261	Shefar'am (Israel)	https://data.geo-kima.org/Places/Details/261			
+114	MED	grade_a	exact-name match on a single Kima place — confirm it's the right same-name place	סטריא		1	name_exact	0.95	6993	Styria (Austria)	https://data.geo-kima.org/Places/Details/6993			
+115	MED	grade_a	exact-name match on a single Kima place — confirm it's the right same-name place	לאנדן		1	name_exact	0.95	688	London (England)	https://data.geo-kima.org/Places/Details/688			
+116	MED	grade_a	exact-name match on a single Kima place — confirm it's the right same-name place	פיעטרקאוו		1	name_exact	0.95	250	Piotrkow Trybunalski (Poland)	https://data.geo-kima.org/Places/Details/250			
+117	MED	grade_a	exact-name match on a single Kima place — confirm it's the right same-name place	בעלזא		1	name_exact	0.95	18727	Belz (Ukraine)	https://data.geo-kima.org/Places/Details/18727			
+118	MED	fuzzy_autolink	review the pick		Sokolivka	1	fuzzy	0.95	15206	Sokolivka (Vasylʹkivsʹkyĭ raĭon, Kiev, Ukraine)	https://data.geo-kima.org/Places/Details/15206			
+119	MED	fuzzy_autolink	review the pick		Strážnice	1	fuzzy	0.95	22460	Strážnice (Czech Republic)	https://data.geo-kima.org/Places/Details/22460			
+120	MED	fuzzy_autolink	review the pick	פואמארין		1	fuzzy	1.0	1996	Arno River (Italy)	https://data.geo-kima.org/Places/Details/1996			
+121	MED	fuzzy_autolink	review the pick	לאדזיאן		1	fuzzy	1.0	76432	Lędziny (Katowice, Poland)	https://data.geo-kima.org/Places/Details/76432			
+122	MED	fuzzy_autolink	review the pick	טריקאוו		1	fuzzy	1.0	82891	Túrkeve (Hungary)	https://data.geo-kima.org/Places/Details/82891			
+123	MED	fuzzy_autolink	review the pick	זמיגראד		1	fuzzy	1.0	17046	Żmigród (Poland)	https://data.geo-kima.org/Places/Details/17046			
+124	MED	fuzzy_autolink	review the pick	יאמפאלע		1	fuzzy	0.667	13851	I︠A︡mpilʹ (Khmelʹnyt︠s︡ʹka oblastʹ, Ukraine)	https://data.geo-kima.org/Places/Details/13851			
+125	MED	fuzzy_autolink	review the pick	קאלביש		1	fuzzy	1.0	12127	Kalabishah (Egypt)	https://data.geo-kima.org/Places/Details/12127			
+126	MED	fuzzy_autolink	review the pick	ק׳ מעזיבוז		1	fuzzy	0.714	17325	Medz︠h︡ybiz︠h︡ (Ukraine)	https://data.geo-kima.org/Places/Details/17325			
+127	MED	fuzzy_autolink	review the pick	לעטיטשוב		1	fuzzy	0.95	18260	Letychiv (Ukraine)	https://data.geo-kima.org/Places/Details/18260			
+128	MED	fuzzy_autolink	review the pick	ק' הארידענקא		1	fuzzy	0.75	332	Horodenka (Ukraine)	https://data.geo-kima.org/Places/Details/332			
+129	MED	fuzzy_autolink	review the pick	מטשערנאביל		1	fuzzy	0.875	15239	Chornobylʹ (Ukraine)	https://data.geo-kima.org/Places/Details/15239			
+130	MED	fuzzy_autolink	review the pick	פעטרקוב		1	fuzzy	0.95	250	Piotrkow Trybunalski (Poland)	https://data.geo-kima.org/Places/Details/250			
+131	MED	fuzzy_autolink	review the pick	מאגלניצע		1	fuzzy	1.0	18711	Mogielnica (Warsaw, Poland)	https://data.geo-kima.org/Places/Details/18711			
+132	MED	fuzzy_autolink	review the pick	רחיים		1	fuzzy	1.0	76260	Rakhme (West Bank)	https://data.geo-kima.org/Places/Details/76260			
+133	MED	fuzzy_autolink	review the pick	פאסאליס		1	fuzzy	1.0	2139	Phaselis (Extinct city)	https://data.geo-kima.org/Places/Details/2139			
+134	MED	fuzzy_autolink	review the pick	עמק עכור		1	fuzzy	1.0	77490	Achor Valley (West Bank)	https://data.geo-kima.org/Places/Details/77490			
+135	MED	fuzzy_autolink	review the pick	ארבארי		1	fuzzy	1.0	6349	Örebro (Sweden)	https://data.geo-kima.org/Places/Details/6349			
+136	MED	fuzzy_autolink	review the pick	הרדענקע		1	fuzzy	1.0	332	Horodenka (Ukraine)	https://data.geo-kima.org/Places/Details/332			
+137	MED	fuzzy_autolink	review the pick	לאדיזין		1	fuzzy	0.95	23709	Ladyzhin (Ukraine)	https://data.geo-kima.org/Places/Details/23709			
+138	MED	fuzzy_autolink	review the pick	הראדינקי		1	fuzzy	1.0	332	Horodenka (Ukraine)	https://data.geo-kima.org/Places/Details/332			
+139	MED	fuzzy_autolink	review the pick	זאלקוי		1	fuzzy	0.95	1703	Z︠H︡ovkva (Ukraine)	https://data.geo-kima.org/Places/Details/1703			
+140	MED	fuzzy_autolink	review the pick	האראדענקי		1	fuzzy	1.0	332	Horodenka (Ukraine)	https://data.geo-kima.org/Places/Details/332			
+141	MED	fuzzy_autolink	review the pick	האינפאלי		1	fuzzy	1.0	335	Huncovce (Slovakia)	https://data.geo-kima.org/Places/Details/335			
+142	MED	fuzzy_autolink	review the pick	בית יעקב		1	fuzzy	0.95	21194	Bet Ya'akov (Jerusalem, Israel)	https://data.geo-kima.org/Places/Details/21194			
+143	MED	fuzzy_autolink	review the pick	אפרים		1	fuzzy	1.0	77978	Ofarim (Bet Arye, West Bank)	https://data.geo-kima.org/Places/Details/77978			
+144	MED	fuzzy_autolink	review the pick	אונגידי		1	fuzzy	1.0	21741	En Gedi (Israel)	https://data.geo-kima.org/Places/Details/21741			
+145	MED	fuzzy_autolink	review the pick	דאליגע		1	fuzzy	1.0	76106	Delag (Yemen)	https://data.geo-kima.org/Places/Details/76106			
+146	MED	fuzzy_autolink	review the pick	מדיליטא		1	fuzzy	1.0	25335	Midelt (Morocco)	https://data.geo-kima.org/Places/Details/25335			
+147	MED	fuzzy_autolink	review the pick	"בעהע""ג"		1	fuzzy	1.0	18044	Bohai (Kingdom)	https://data.geo-kima.org/Places/Details/18044			
+148	MED	fuzzy_autolink	review the pick	דינוב		1	fuzzy	0.95	11063	Dynów (Poland)	https://data.geo-kima.org/Places/Details/11063			
+149	MED	fuzzy_autolink	review the pick	באקווינע		1	fuzzy	1.0	3056	Bukovina (Romania and Ukraine)	https://data.geo-kima.org/Places/Details/3056			
+150	MED	fuzzy_autolink	review the pick	בעסר אביע		1	fuzzy	1.0	1775	Bessarabia (Moldova and Ukraine)	https://data.geo-kima.org/Places/Details/1775			
+151	MED	fuzzy_autolink	review the pick	קאלביסאו		1	fuzzy	0.667	12127	Kalabishah (Egypt)	https://data.geo-kima.org/Places/Details/12127			
+152	MED	fuzzy_autolink	review the pick	קנאאיז		1	fuzzy	1.0	13445	Konz (Germany)	https://data.geo-kima.org/Places/Details/13445			
+153	MED	fuzzy_autolink	review the pick	יוזעפאן		1	fuzzy	0.667	845	Józefów (Poland)	https://data.geo-kima.org/Places/Details/845			
+154	MED	fuzzy_autolink	review the pick	ק׳ אפטא		1	fuzzy	1.0	13312	Qifṭ (Egypt)	https://data.geo-kima.org/Places/Details/13312			
+155	MED	fuzzy_autolink	review the pick	נעמסט		1	fuzzy	1.0	3494	Nemea Site (Greece)	https://data.geo-kima.org/Places/Details/3494			
+156	MED	fuzzy_autolink	review the pick	קאלוב		1	fuzzy	0.95	17477	Nagykálló (Hungary)	https://data.geo-kima.org/Places/Details/17477			
+157	MED	fuzzy_autolink	review the pick	האניפאליא		1	fuzzy	1.0	335	Huncovce (Slovakia)	https://data.geo-kima.org/Places/Details/335			
+158	MED	fuzzy_autolink	review the pick	טשארנאבל		1	fuzzy	1.0	15239	Chornobylʹ (Ukraine)	https://data.geo-kima.org/Places/Details/15239			
+159	MED	fuzzy_autolink	review the pick	אוליינאב		1	fuzzy	1.0	540	Allone Abba (Israel)	https://data.geo-kima.org/Places/Details/540			
+160	MED	fuzzy_autolink	review the pick	פרוסניץ		1	fuzzy	0.95	417	Prostějov (Czech Republic)	https://data.geo-kima.org/Places/Details/417			
+161	MED	fuzzy_autolink	review the pick	ליטאמארסק		1	fuzzy	1.0	19185	Lutomiersk (Poland)	https://data.geo-kima.org/Places/Details/19185			
+162	MED	fuzzy_autolink	review the pick	דמעזעריטש		1	fuzzy	0.857	223	Międzyrzec Podlaski (Poland)	https://data.geo-kima.org/Places/Details/223			
+163	MED	fuzzy_autolink	review the pick	מיינץ		1	fuzzy	1.0	85756	Mainz (Germany)	https://data.geo-kima.org/Places/Details/85756			
+164	MED	fuzzy_autolink	review the pick	סעמניטץ		1	fuzzy	0.95	19927	Senica (Slovakia)	https://data.geo-kima.org/Places/Details/19927			
+165	MED	fuzzy_autolink	review the pick	פוזנן		1	fuzzy	0.95	10521	Poznań (Poland : Voivodeship)	https://data.geo-kima.org/Places/Details/10521			
+166	MED	fuzzy_autolink	review the pick	דרקיעא		1	fuzzy	1.0	8204	Congo (Democratic Republic)	https://data.geo-kima.org/Places/Details/8204			
+167	MED	fuzzy_autolink	review the pick	וינציאה		1	fuzzy	0.95	949	Venice (Italy)	https://data.geo-kima.org/Places/Details/949			
+168	MED	fuzzy_autolink	review the pick	וואהל		1	fuzzy	1.0	71841	Vöhl (Germany)	https://data.geo-kima.org/Places/Details/71841			
+169	MED	fuzzy_autolink	review the pick	לוצקא		1	fuzzy	0.95	127	Lut︠s︡ʹk (Ukraine)	https://data.geo-kima.org/Places/Details/127			
+170	MED	fuzzy_autolink	review the pick	זאלקווי		1	fuzzy	0.95	1703	Z︠H︡ovkva (Ukraine)	https://data.geo-kima.org/Places/Details/1703			
+171	MED	fuzzy_autolink	review the pick	דזיקוב		1	fuzzy	0.95	17845	Tarnobrzeg (Poland)	https://data.geo-kima.org/Places/Details/17845			
+172	MED	fuzzy_autolink	review the pick	אונגארין		1	fuzzy	1.0	7547	Hungary	https://data.geo-kima.org/Places/Details/7547			
+173	MED	fuzzy_autolink	review the pick	לעכוויץ		1	fuzzy	1.0	1657	Lokhvyt︠s︡i︠a︡ (Ukraine)	https://data.geo-kima.org/Places/Details/1657			
+174	MED	fuzzy_autolink	review the pick	אוליינוב		1	fuzzy	1.0	540	Allone Abba (Israel)	https://data.geo-kima.org/Places/Details/540			
+175	MED	fuzzy_autolink	review the pick	גאסטינין		1	fuzzy	1.0	18497	Gostynin (Poland)	https://data.geo-kima.org/Places/Details/18497			
+176	MED	fuzzy_autolink	review the pick	האראדענק		1	fuzzy	1.0	332	Horodenka (Ukraine)	https://data.geo-kima.org/Places/Details/332			
+177	MED	fuzzy_autolink	review the pick	דעובדא		1	fuzzy	1.0	88667	Debdou (Morocco)	https://data.geo-kima.org/Places/Details/88667			
+178	MED	fuzzy_autolink	review the pick	פשיסחע		1	fuzzy	0.6	18259	Przysucha (Poland)	https://data.geo-kima.org/Places/Details/18259			
+179	MED	fuzzy_autolink	review the pick	מאסקיוויא		1	fuzzy	1.0	188	Moscow (Russia)	https://data.geo-kima.org/Places/Details/188			
+180	MED	fuzzy_autolink	review the pick	אונגארן		1	fuzzy	1.0	7547	Hungary	https://data.geo-kima.org/Places/Details/7547			
+181	MED	fuzzy_autolink	review the pick	גליל העליון		1	fuzzy	0.9	78312	ha-Galil ha-ʻElyon (Israel : Mo'atsah azorit)	https://data.geo-kima.org/Places/Details/78312			
+182	MED	fuzzy_autolink	review the pick	מאור עינים		1	fuzzy	1.0	8906	Burma	https://data.geo-kima.org/Places/Details/8906			
+183	MED	fuzzy_autolink	review the pick	ארפאנו		1	fuzzy	1.0	78450	Orofino (Idaho)	https://data.geo-kima.org/Places/Details/78450			
+184	MED	fuzzy_autolink	review the pick	האמבטי		1	fuzzy	1.0	12895	Ambato (Ecuador)	https://data.geo-kima.org/Places/Details/12895			
+185	MED	fuzzy_autolink	review the pick	ביקאווסק		1	fuzzy	1.0	517	Bukowsko (Poland)	https://data.geo-kima.org/Places/Details/517			
+186	MED	fuzzy_autolink	review the pick	קושטנטינא		1	fuzzy	0.95	533	Istanbul (Turkey)	https://data.geo-kima.org/Places/Details/533			
+187	MED	fuzzy_autolink	review the pick	קראעץ		1	fuzzy	1.0	675	Koret︠s︡ʹ (Ukraine)	https://data.geo-kima.org/Places/Details/675			
+188	MED	fuzzy_autolink	review the pick	לייפנא		1	fuzzy	1.0	13454	Laufen (Switzerland)	https://data.geo-kima.org/Places/Details/13454			
+189	MED	fuzzy_autolink	review the pick	פרייקין		1	fuzzy	1.0	20400	Silvan (Diyarbakır İli, Turkey)	https://data.geo-kima.org/Places/Details/20400			
+190	MED	fuzzy_autolink	review the pick	ריגיו		1	fuzzy	0.95	495	Reggio Emilia (Italy)	https://data.geo-kima.org/Places/Details/495			
+191	MED	fuzzy_autolink	review the pick	שפניא		1	fuzzy	1.0	26921	Shifon, Mount (Israel)	https://data.geo-kima.org/Places/Details/26921			
+192	MED	fuzzy_autolink	review the pick	האמלע		1	fuzzy	1.0	21604	Ha'Amal (Israel)	https://data.geo-kima.org/Places/Details/21604			
+193	MED	fuzzy_autolink	review the pick	קאוולר		1	fuzzy	1.0	16699	Kevelaer (Germany)	https://data.geo-kima.org/Places/Details/16699			
+194	MED	fuzzy_autolink	review the pick	ראזדעל		1	fuzzy	1.0	27067	Rozdil (Ukraine)	https://data.geo-kima.org/Places/Details/27067			
+195	MED	fuzzy_autolink	review the pick	פינטשוף		1	fuzzy	0.95	1687	Pinczów (Poland)	https://data.geo-kima.org/Places/Details/1687			
+196	MED	fuzzy_autolink	review the pick	סלוויטא		1	fuzzy	1.0	846	Slavuta (Ukraine)	https://data.geo-kima.org/Places/Details/846			
+197	MED	fuzzy_autolink	review the pick	ברודא		1	fuzzy	0.95	14455	Uherský Brod (Czech Republic)	https://data.geo-kima.org/Places/Details/14455			
+198	MED	fuzzy_autolink	review the pick	אריאל		1	fuzzy	0.95	559	Ari'el (West Bank)	https://data.geo-kima.org/Places/Details/559			
+199	MED	fuzzy_autolink	review the pick	מפינטשוב		1	fuzzy	0.833	1687	Pinczów (Poland)	https://data.geo-kima.org/Places/Details/1687			
+200	MED	fuzzy_autolink	review the pick	יאמפלא		1	fuzzy	0.75	13851	I︠A︡mpilʹ (Khmelʹnyt︠s︡ʹka oblastʹ, Ukraine)	https://data.geo-kima.org/Places/Details/13851			
+201	MED	fuzzy_autolink	review the pick	תלמידו		1	fuzzy	1.0	9948	Tolemaide (Libya)	https://data.geo-kima.org/Places/Details/9948			
+202	MED	fuzzy_autolink	review the pick	בערזאן		1	fuzzy	0.95	347	Berez︠h︡any (Ukraine)	https://data.geo-kima.org/Places/Details/347			
+203	MED	fuzzy_autolink	review the pick	האניפאלע		1	fuzzy	1.0	335	Huncovce (Slovakia)	https://data.geo-kima.org/Places/Details/335			
+204	MED	fuzzy_autolink	review the pick	שארגראד		1	fuzzy	1.0	17813	Sharhorod (Ukraine)	https://data.geo-kima.org/Places/Details/17813			
+205	MED	fuzzy_autolink	review the pick	סאבניק		1	fuzzy	1.0	13567	Šibenik (Croatia)	https://data.geo-kima.org/Places/Details/13567			
+206	MED	fuzzy_autolink	review the pick	סאדיגערא		1	fuzzy	1.0	23506	Sadhora (Chernivtsi, Ukraine)	https://data.geo-kima.org/Places/Details/23506			
+207	MED	fuzzy_autolink	review the pick	אהביטש		1	fuzzy	0.667	977	Drohobych (Ukraine)	https://data.geo-kima.org/Places/Details/977			
+208	MED	fuzzy_autolink	review the pick	פניאל		1	fuzzy	0.95	20536	Peniel (Jordan)	https://data.geo-kima.org/Places/Details/20536			
+209	MED	fuzzy_autolink	review the pick	ראזדל		1	fuzzy	1.0	27067	Rozdil (Ukraine)	https://data.geo-kima.org/Places/Details/27067			
+210	MED	fuzzy_autolink	review the pick	פלניא		1	fuzzy	1.0	86988	Falun (Sweden)	https://data.geo-kima.org/Places/Details/86988			
+211	MED	fuzzy_autolink	review the pick	סאדאגערא		1	fuzzy	1.0	23506	Sadhora (Chernivtsi, Ukraine)	https://data.geo-kima.org/Places/Details/23506			
+212	MED	fuzzy_autolink	review the pick	שידלאויצי		1	fuzzy	1.0	294	Siedlce (Poland)	https://data.geo-kima.org/Places/Details/294			
+213	MED	fuzzy_autolink	review the pick	סאבין		1	fuzzy	1.0	20348	Sabina (Italy)	https://data.geo-kima.org/Places/Details/20348			
+214	MED	fuzzy_autolink	review the pick	גארוולין		1	fuzzy	1.0	13127	Garwolin (Poland)	https://data.geo-kima.org/Places/Details/13127			
+215	MED	fuzzy_autolink	review the pick		Gorlice	0	fuzzy	1.0	923	Gorlice (Poland)	https://data.geo-kima.org/Places/Details/923			
+216	MED	fuzzy_autolink	review the pick		Kamyanka Buzka	0	fuzzy	1.0	19435	Kam'i︠a︡nka Buzʹka (Ukraine)	https://data.geo-kima.org/Places/Details/19435			
+217	MED	fuzzy_autolink	review the pick		Kozliv	0	fuzzy	1.0	82995	Kozliv (Ternopilʹsʹka oblastʹ, Ukraine)	https://data.geo-kima.org/Places/Details/82995			
+218	MED	fuzzy_autolink	review the pick		Velyki Mezhyrichi	0	fuzzy	1.0	72033	Velyki Mezhyrichi (Ukraine)	https://data.geo-kima.org/Places/Details/72033			
+219	MED	fuzzy_autolink	review the pick		Pidkamin	0	fuzzy	1.0	71242	Pidkamin (Ukraine)	https://data.geo-kima.org/Places/Details/71242			
+220	MED	fuzzy_autolink	review the pick		Stratin	0	fuzzy	1.0	24656	Stratyn (Ukraine)	https://data.geo-kima.org/Places/Details/24656			
+221	MED	fuzzy_autolink	review the pick		Verkhivka	0	fuzzy	0.95	23171	Verkhivka (Ukraine)	https://data.geo-kima.org/Places/Details/23171			
+222	MED	fuzzy_autolink	review the pick		Petrova	0	fuzzy	1.0	88510	Petrova (Romania)	https://data.geo-kima.org/Places/Details/88510			
+223	MED	fuzzy_autolink	review the pick		Seini	0	fuzzy	1.0	1748	Seini (Romania)	https://data.geo-kima.org/Places/Details/1748			
+224	MED	fuzzy_autolink	review the pick		Kempen	0	fuzzy	0.95	12663	Kępno (Poland)	https://data.geo-kima.org/Places/Details/12663			
+225	MED	fuzzy_autolink	review the pick		Mogilev	0	fuzzy	0.95	18781	Mohyliv-Podilʹsʹkyĭ (Ukraine)	https://data.geo-kima.org/Places/Details/18781			
+226	MED	fuzzy_autolink	review the pick		Valozhyn	0	fuzzy	1.0	684	Valozhyn (Belarus)	https://data.geo-kima.org/Places/Details/684			
+227	MED	fuzzy_autolink	review the pick		Chmielnik	0	fuzzy	0.95	797	Khmelnytskyi (Ukraine)	https://data.geo-kima.org/Places/Details/797			
+228	MED	fuzzy_autolink	review the pick		Józefów	0	fuzzy	1.0	845	Józefów (Poland)	https://data.geo-kima.org/Places/Details/845			
+229	MED	fuzzy_autolink	review the pick		Kalwaria Zebrzydowska	0	fuzzy	1.0	401	Kalwaria Zebrzydowska (Poland)	https://data.geo-kima.org/Places/Details/401			
+230	MED	fuzzy_autolink	review the pick		Międzyrzec Podlaski	0	fuzzy	1.0	223	Międzyrzec Podlaski (Poland)	https://data.geo-kima.org/Places/Details/223			
+231	MED	fuzzy_autolink	review the pick		Międzyrzecz	0	fuzzy	0.95	223	Międzyrzec Podlaski (Poland)	https://data.geo-kima.org/Places/Details/223			
+232	MED	fuzzy_autolink	review the pick		Nowe Miasto	0	fuzzy	0.95	16594	Nové Mesto nad Váhom (Slovakia)	https://data.geo-kima.org/Places/Details/16594			
+233	MED	fuzzy_autolink	review the pick		Oleszyce	0	fuzzy	1.0	72388	Oleszyce (Poland)	https://data.geo-kima.org/Places/Details/72388			
+234	MED	fuzzy_autolink	review the pick		Ostrowiec Świętokrzyski	0	fuzzy	1.0	745	Ostrowiec Świętokrzyski (Poland)	https://data.geo-kima.org/Places/Details/745			
+235	MED	fuzzy_autolink	review the pick		Połaniec	0	fuzzy	1.0	84566	Połaniec (Poland)	https://data.geo-kima.org/Places/Details/84566			
+236	MED	fuzzy_autolink	review the pick		Prudnik	0	fuzzy	1.0	86840	Prudnik (Poland)	https://data.geo-kima.org/Places/Details/86840			
+237	MED	fuzzy_autolink	review the pick		Radomyśl nad Sanem	0	fuzzy	1.0	83479	Radomyśl nad Sanem (Poland)	https://data.geo-kima.org/Places/Details/83479			
+238	MED	fuzzy_autolink	review the pick		Rudnik nad Sanem	0	fuzzy	1.0	73698	Rudnik nad Sanem (Poland)	https://data.geo-kima.org/Places/Details/73698			
+239	MED	fuzzy_autolink	review the pick		Rybotycze	0	fuzzy	1.0	80791	Rybotycze (Poland)	https://data.geo-kima.org/Places/Details/80791			
+240	MED	fuzzy_autolink	review the pick		Tarłów	0	fuzzy	1.0	78604	Tarłów (Poland)	https://data.geo-kima.org/Places/Details/78604			
+241	MED	fuzzy_autolink	review the pick		Wielopole Skrzyńskie	0	fuzzy	1.0	74981	Wielopole Skrzyńskie (Poland)	https://data.geo-kima.org/Places/Details/74981			
+242	MED	fuzzy_autolink	review the pick		Żółkiewka	0	fuzzy	0.95	20393	Żółkiewka (Poland)	https://data.geo-kima.org/Places/Details/20393			
+243	MED	fuzzy_autolink	review the pick		Csorna	0	fuzzy	1.0	77598	Csorna (Győr-Sopron Megye, Hungary)	https://data.geo-kima.org/Places/Details/77598			
+244	MED	fuzzy_autolink	review the pick		Bila Tserkva	0	fuzzy	1.0	350	Bila T︠S︡erkva (Ukraine)	https://data.geo-kima.org/Places/Details/350			
+245	MED	fuzzy_autolink	review the pick		Wieleń	0	fuzzy	0.95	23896	Wielen (Poland)	https://data.geo-kima.org/Places/Details/23896			
+246	MED	fuzzy_autolink	review the pick		Wielkie Oczy	0	fuzzy	1.0	69670	Wielkie Oczy (Poland)	https://data.geo-kima.org/Places/Details/69670			
+247	LOW	grade_a	matched by Wikidata QID (strong identity)	זלאטשוב	Złoczew	32	wikidata	0.99	961	Złoczew (Poland)	https://data.geo-kima.org/Places/Details/961			
+248	LOW	grade_a	matched by Wikidata QID (strong identity)		Zolochiv	22	wikidata	0.99	1701	Zolochiv (Lʹvivsʹka oblastʹ, Ukraine)	https://data.geo-kima.org/Places/Details/1701			
+249	LOW	grade_a	matched by Wikidata QID (strong identity)		Ruzhyn	12	wikidata	0.99	76418	Ruzhyn (Ukraine)	https://data.geo-kima.org/Places/Details/76418			
+250	LOW	grade_a	matched by Wikidata QID (strong identity)	סטאבניץ	Stopnica	3	wikidata	0.99	88088	Stopnica (Województwo Świętokrzyskie, Poland)	https://data.geo-kima.org/Places/Details/88088			
+251	LOW	grade_a	romanized authority name = Kima romanized name (strong)		Derazhne	3	name_exact	0.95	27158	Derazhne (Ukraine)	https://data.geo-kima.org/Places/Details/27158			
+252	LOW	grade_a	romanized authority name = Kima romanized name (strong)		Vasyl’kiv	2	name_exact	0.95	18640	Vasylʹkiv (Ukraine)	https://data.geo-kima.org/Places/Details/18640			
+253	LOW	grade_a	matched by Wikidata QID (strong identity)		Bilshivtsi	2	wikidata	0.99	70026	Bilʹshivt︠s︡i (Ukraine)	https://data.geo-kima.org/Places/Details/70026			
+254	LOW	grade_a	romanized authority name = Kima romanized name (strong)		Lyakhavichy	1	name_exact	0.95	22491	Lyakhavichy (Belarus)	https://data.geo-kima.org/Places/Details/22491			
+255	LOW	grade_a	romanized authority name = Kima romanized name (strong)		Khodorkiv	1	name_exact	0.95	26098	Khodorkiv (Zhytomyr oblast, Ukraine)	https://data.geo-kima.org/Places/Details/26098			
+256	LOW	grade_a	matched by Wikidata QID (strong identity)	זאטיר		1	wikidata	0.99	76224	Zator (Województwo Małopolskie, Poland)	https://data.geo-kima.org/Places/Details/76224			
+257	LOW	grade_a	matched by Wikidata QID (strong identity)	האראדק		1	wikidata	0.99	22679	Haradok (Belarus)	https://data.geo-kima.org/Places/Details/22679			
+258	LOW	grade_a	matched by Wikidata QID (strong identity)		Berehove	0	wikidata	0.99	81063	Berehove (Ukraine)	https://data.geo-kima.org/Places/Details/81063			
+259	LOW	grade_a	matched by Wikidata QID (strong identity)		Ulanów	0	wikidata	0.99	83174	Ulanów (Województwo Podkarpackie, Poland)	https://data.geo-kima.org/Places/Details/83174			
+260	LOW	grade_a	matched by Wikidata QID (strong identity)		Sobrance	0	wikidata	0.99	81539	Sobrance (Slovakia)	https://data.geo-kima.org/Places/Details/81539			
+261	LOW	grade_a	romanized authority name = Kima romanized name (strong)		Luboml	0	name_exact	0.95	16161	Li︠u︡bomlʹ (Ukraine)	https://data.geo-kima.org/Places/Details/16161			
+262	LOW	grade_a	matched by Wikidata QID (strong identity)	ווינצי	Venice	0	wikidata	0.99	949	Venice (Italy)	https://data.geo-kima.org/Places/Details/949			
+263	LOW	grade_a	matched by Wikidata QID (strong identity)		Berezina River	0	wikidata	0.99	76471	Berezina River (Belarus)	https://data.geo-kima.org/Places/Details/76471			
+264	LOW	grade_a	matched by Wikidata QID (strong identity)		Donauwörth	0	wikidata	0.99	10957	Donauwörth (Germany)	https://data.geo-kima.org/Places/Details/10957			
+265	LOW	grade_a	matched by Wikidata QID (strong identity)		Sevastopol	0	wikidata	0.99	652	Sevastopolʹ (Ukraine)	https://data.geo-kima.org/Places/Details/652			
+266	LOW	grade_a	matched by Wikidata QID (strong identity)		Frankfurt (Oder)	0	wikidata	0.99	10341	Frankfurt an der Oder (Germany)	https://data.geo-kima.org/Places/Details/10341			
+267	LOW	grade_a	matched by Wikidata QID (strong identity)		Heraklion	0	wikidata	0.99	9228	Hērakleion (Greece)	https://data.geo-kima.org/Places/Details/9228			
+268	LOW	grade_a	matched by Wikidata QID (strong identity)		Gagauzia	0	wikidata	0.99	89383	Găgăuzia (Moldova)	https://data.geo-kima.org/Places/Details/89383			
+269	LOW	grade_a	romanized authority name = Kima romanized name (strong)		Deliatyn	0	name_exact	0.95	23806	Deli︠a︡tyn (Ukraine)	https://data.geo-kima.org/Places/Details/23806			
+270	LOW	grade_a	romanized authority name = Kima romanized name (strong)		Izyaslav	0	name_exact	0.95	15851	Izi︠a︡slav (Ukraine)	https://data.geo-kima.org/Places/Details/15851			
+271	LOW	grade_a	romanized authority name = Kima romanized name (strong)		Tovste	0	name_exact	0.95	19256	Tovste (Ternopilʹsʹka oblastʹ, Ukraine)	https://data.geo-kima.org/Places/Details/19256			
+272	LOW	grade_a	romanized authority name = Kima romanized name (strong)		Uhniv	0	name_exact	0.95	13189	Uhniv (Ukraine)	https://data.geo-kima.org/Places/Details/13189			
+273	LOW	grade_a	romanized authority name = Kima romanized name (strong)		Zabolotiv	0	name_exact	0.95	20746	Zabolotiv (Ukraine)	https://data.geo-kima.org/Places/Details/20746			
+274	LOW	grade_a	romanized authority name = Kima romanized name (strong)		Zboriv	0	name_exact	0.95	11093	Zboriv (Ukraine)	https://data.geo-kima.org/Places/Details/11093			
+275	LOW	grade_a	romanized authority name = Kima romanized name (strong)		Heilbronn	0	name_exact	0.95	10943	Sontheim (Heilbronn, Germany)	https://data.geo-kima.org/Places/Details/10943			
+276	LOW	grade_a	romanized authority name = Kima romanized name (strong)		Landau	0	name_exact	0.95	8005	Landau in der Pfalz (Germany)	https://data.geo-kima.org/Places/Details/8005			
+277	LOW	grade_a	romanized authority name = Kima romanized name (strong)		Groningen	0	name_exact	0.95	6490	Groningen (Netherlands : Province)	https://data.geo-kima.org/Places/Details/6490			
+278	LOW	grade_a	romanized authority name = Kima romanized name (strong)		Czarne	0	name_exact	0.95	8228	Czarne (Poland)	https://data.geo-kima.org/Places/Details/8228			
+279	LOW	grade_a	romanized authority name = Kima romanized name (strong)		Dąbrowa Tarnowska	0	name_exact	0.95	18717	Dąbrowa Tarnowska (Poland : Powiat)	https://data.geo-kima.org/Places/Details/18717			
+280	LOW	grade_a	romanized authority name = Kima romanized name (strong)		Hrubieszów	0	name_exact	0.95	969	Hrubieszów (Poland)	https://data.geo-kima.org/Places/Details/969			
+281	LOW	grade_a	romanized authority name = Kima romanized name (strong)		Janów Podlaski	0	name_exact	0.95	13793	Janów Podlaski (Poland)	https://data.geo-kima.org/Places/Details/13793			
+282	LOW	grade_a	romanized authority name = Kima romanized name (strong)		Łęczna	0	name_exact	0.95	20151	Łęczna (Lublin, Poland : Powiat)	https://data.geo-kima.org/Places/Details/20151			
+283	LOW	grade_a	romanized authority name = Kima romanized name (strong)		Lubartow	0	name_exact	0.95	14510	Lubartów (Poland)	https://data.geo-kima.org/Places/Details/14510			
+284	LOW	grade_a	romanized authority name = Kima romanized name (strong)		Mogielnica	0	name_exact	0.95	18711	Mogielnica (Warsaw, Poland)	https://data.geo-kima.org/Places/Details/18711			
+285	LOW	grade_a	romanized authority name = Kima romanized name (strong)		Ożarów	0	name_exact	0.95	18359	Ożarów (Poland)	https://data.geo-kima.org/Places/Details/18359			
+286	LOW	grade_a	romanized authority name = Kima romanized name (strong)		Nowy Targ	0	name_exact	0.95	13010	Nowy Targ (Wojewodztwo Małopolskie, Poland)	https://data.geo-kima.org/Places/Details/13010			
+287	LOW	grade_a	romanized authority name = Kima romanized name (strong)		Wodzisław	0	name_exact	0.95	11026	Wodzisław (Poland)	https://data.geo-kima.org/Places/Details/11026			
+288	LOW	grade_a	romanized authority name = Kima romanized name (strong)		Żołynia	0	name_exact	0.95	23798	Żołynia (Poland)	https://data.geo-kima.org/Places/Details/23798			
+289	LOW	grade_a	romanized authority name = Kima romanized name (strong)		Mád	0	name_exact	0.95	23544	Mád (Hungary)	https://data.geo-kima.org/Places/Details/23544			
+290	LOW	grade_a	matched by Wikidata QID (strong identity)		Waterloo	0	wikidata	0.99	85730	Waterloo (Belgium)	https://data.geo-kima.org/Places/Details/85730			
+291	LOW	grade_a	matched by Wikidata QID (strong identity)		Livorno	0	wikidata	0.99	132	Livorno (Italy)	https://data.geo-kima.org/Places/Details/132			
+292	LOW	grade_a	matched by Wikidata QID (strong identity)	קאלעשין		0	wikidata	0.99	18019	Kałuszyn (Warsaw, Poland)	https://data.geo-kima.org/Places/Details/18019			
