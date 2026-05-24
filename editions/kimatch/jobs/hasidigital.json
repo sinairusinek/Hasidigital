@@ -1,0 +1,32 @@
+{
+  "input_file": "/Users/sinairusinek/Documents/GitHub/Hasidigital/editions/kimatch/kimatch_input.tsv",
+  "format": "tsv",
+  "kima_places_csv": "/Users/sinairusinek/Documents/GitHub/Kimatch/20250126KimaPlacesCSVx.csv",
+  "kima_variants_tsv": "/Users/sinairusinek/Documents/GitHub/Kimatch/Kima-Variants-20250929.tsv",
+
+  "script": "hebrew",
+  "language": "yiddish",
+
+  "fields": {
+    "id": "local_id",
+    "names": ["name_heb", "name_rom"],
+    "name_scripts": { "name_heb": "hebrew", "name_rom": "latin" },
+    "name_languages": { "name_heb": "yiddish" },
+    "lat": "lat",
+    "lon": "lon",
+    "wikidata": "wikidata_qid",
+    "context": "context"
+  },
+
+  "thresholds": { "fuzzy": 0.6, "phonetic": 0.55, "max_plausible_km": 300 },
+
+  "donate": {
+    "source": "Hasidic Tales digital edition (hasidic-stories.org)",
+    "variant_from": ["name_heb"],
+    "external_ids": { "wikidata": "wikidata_qid" },
+    "attestation": {
+      "name_in_text": "name_heb",
+      "language": "yi"
+    }
+  }
+}

@@ -31,11 +31,8 @@ csv_integrator = st.Page(
     icon="\U0001f4ca",
 )
 
-kima_review = st.Page(
-    "pages/kima_review.py",
-    title="Kima Review",
-    icon="\U0001f5fa\ufe0f",
-)
+# Kima Review retired 2026-05-23 \u2014 place review moved to the Kimatch app's
+# "Hasidigital Review" page (card layout). pages/kima_review.py kept for reference.
 
 person_review = st.Page(
     "pages/shidduch_review.py",
@@ -77,7 +74,7 @@ pg = st.navigation(
     {
         "Workflows": [edition_linker, csv_integrator],
         "Editions": [ner_review, edition_metadata],
-        "Review": [kima_review, person_review],
+        "Review": [person_review],
         "Women": [women_analysis, women_annotator],
         "Maintenance": [dedup_review],
     }

@@ -16,7 +16,8 @@ MATCHING_DB_PATH = os.path.join(AUTH_DIR, "authorities-matching-db.json")
 SKIPPED_JSON_PATH = os.path.join(AUTH_DIR, "skipped_places.json")
 GEN_SCRIPT = os.path.join(AUTH_DIR, "scripts", "generate_matching_db.py")
 
-# Kimatch / unmatched-place review files
+# Kimatch / unmatched-place review files (legacy — the Kima Review page was retired
+# 2026-05-23; place review moved to the Kimatch app "Hasidigital Review" page).
 UNMATCHED_TSV = os.path.join(PROJECT_DIR, "editions", "unmatched-places-report.tsv")
 UNMATCHED_CSV = os.path.join(PROJECT_DIR, "editions", "unmatched-kima-results.csv")
 
