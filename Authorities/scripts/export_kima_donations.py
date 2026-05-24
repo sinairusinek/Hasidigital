@@ -80,10 +80,16 @@ def collect_confirmed() -> list[dict]:
         print("⚠ No confirmed_priors.tsv yet — auto-links are UNVERIFIED. Run the "
               "spot-check (spotcheck_grade_a.py → apply) before donating.\n"
               "  Emitting raw auto-links as a provisional seed only.")
+        # exclude links a reviewer already flagged as wrong (wrong_matches.tsv)
+        wrong = set()
+        wm = os.path.join(KDIR, "wrong_matches.tsv")
+        if os.path.exists(wm):
+            for r in _read(wm):
+                wrong.add((r.get("name", ""), r.get("kima_id", "")))
         for r in _read(AUTO) + _read(AUTO_LINKED):
             kid = (r.get("kima_id") or "").strip()
             var = (r.get("name_heb") or "").strip()
-            if kid and var:
+            if kid and var and (var, kid) not in wrong:
                 out.append({"kima_id": kid, "variant": var,
                             "wikidata": (r.get("wikidata_qid") or "").strip(),
                             "local_id": r.get("local_id", ""), "via": "auto_UNVERIFIED"})

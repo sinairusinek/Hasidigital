@@ -4,18 +4,22 @@ spotcheck_grade_a.py — turn the 105 grade-A auto-links into a *prioritized* re
 sheet, and (after review) convert decisions into durable feedback for re-runs.
 
 The matcher grades A deterministically from Kima data, so the risky auto-links
-recur on every re-run. Two durable channels close the loop:
-  • KEEP   → confirmed_priors.tsv      (name + kima_id) → matcher --prior-resolutions
-  • REJECT → reject_stoplist.tsv       (names) → build_kimatch_inventory.py drops the
-                                        bare tokens so they never re-enter matching
+recur on every re-run. Three verdicts, three durable channels:
+  • keep         → confirmed_priors.tsv  (name + kima_id) → matcher --prior-resolutions
+  • not_a_place  → reject_stoplist.tsv    (names) → build_kimatch_inventory.py drops the
+                                          tokens so they never re-enter matching
+  • wrong_match  → wrong_matches.tsv      (name + wrong kima_id) → NOT stoplisted (the
+                                          spelling is a real place, just not this Kima
+                                          pick); excluded from donations, pre-marked on
+                                          the next sheet build so it isn't re-reviewed
 
 Modes
 -----
-  build  (default)  read auto_confirmed.tsv → write spotcheck_grade_a.tsv
-                    (risk-ranked; reviewer fills `decision` = keep|reject and,
-                    for a wrong pick, `correct_kima_id`)
+  build  (default)  read auto_confirmed.tsv + auto_reclassify/auto_linked.tsv →
+                    write spotcheck_grade_a.tsv (risk-ranked; reviewer fills
+                    `decision` = keep|not_a_place|wrong_match, + correct_kima_id)
   apply             read the reviewed spotcheck_grade_a.tsv → emit
-                    confirmed_priors.tsv + reject_stoplist.tsv
+                    confirmed_priors.tsv + reject_stoplist.tsv + wrong_matches.tsv
 
 Run:
     python3 Authorities/scripts/spotcheck_grade_a.py            # build the sheet
@@ -38,6 +42,7 @@ AUTO_LINKED = os.path.join(KDIR, "auto_reclassify", "auto_linked.tsv")
 SHEET = os.path.join(KDIR, "spotcheck_grade_a.tsv")
 PRIORS = os.path.join(KDIR, "confirmed_priors.tsv")
 STOPLIST = os.path.join(KDIR, "reject_stoplist.tsv")
+WRONG_MATCHES = os.path.join(KDIR, "wrong_matches.tsv")   # real place, wrong Kima pick
 
 KIMA_URL = "https://data.geo-kima.org/Places/Details/"
 
@@ -93,7 +98,7 @@ def score(row) -> tuple[str, str]:
 
     bad = implausible_region(kima_rom)
     if bad:
-        return "HIGH", f"implausible region for the corpus ({bad}) — likely wrong same-name place"
+        return "HIGH", f"implausible region for the corpus ({bad}) — likely wrong_match (real place, wrong Kima pick)"
     if name_heb and name_heb in KNOWN_HOMOGRAPHS:
         return "HIGH", "common-word / name homograph — text likely means the word, not the town"
     if "wikidata" in method:
@@ -135,6 +140,14 @@ def build():
     rows = (_load_tier(AUTO, "grade_a", "name_exact")
             + _load_tier(AUTO_LINKED, "fuzzy_autolink", "fuzzy"))
 
+    # Durable pre-marking: rows already judged wrong_match on a prior run stay marked
+    # so they aren't re-reviewed (the spelling is still matched fresh each run).
+    known_wrong = set()
+    if os.path.exists(WRONG_MATCHES):
+        with open(WRONG_MATCHES, encoding="utf-8") as f:
+            known_wrong = {(r.get("name", ""), r.get("kima_id", ""))
+                           for r in csv.DictReader(f, delimiter="\t")}
+
     scored = []
     for r in rows:
         risk, reason = score(r)
@@ -147,6 +160,7 @@ def build():
         w.writeheader()
         for i, (risk, reason, r) in enumerate(scored, 1):
             kid = (r.get("kima_id") or "").strip()
+            prefilled = "wrong_match" if (r.get("name_heb", ""), kid) in known_wrong else ""
             w.writerow({
                 "rank": i, "risk": risk, "tier": r.get("_tier", ""), "reason": reason,
                 "name_heb": r.get("name_heb", ""), "name_rom": r.get("name_rom", ""),
@@ -155,7 +169,7 @@ def build():
                 "confidence": r.get("confidence", ""),
                 "kima_id": kid, "kima_name_rom": r.get("kima_name_rom", ""),
                 "kima_url": (KIMA_URL + kid) if kid else "",
-                "decision": "", "correct_kima_id": "", "notes": "",
+                "decision": prefilled, "correct_kima_id": "", "notes": "",
             })
 
     n_high = sum(1 for s, _, _ in scored if s == "HIGH")
@@ -164,9 +178,10 @@ def build():
     print(f"Spot-check sheet: {len(scored)} grade-A rows "
           f"(HIGH {n_high}, MED {n_med}, LOW {n_low})")
     print(f"  → {SHEET}")
-    print(f"\nReview the HIGH rows first ({n_high} rows). For each, set:")
-    print(f"  decision        = keep | reject")
-    print(f"  correct_kima_id = <id>   (only if keeping but the pick is the wrong place)")
+    print(f"\nReview the HIGH rows first ({n_high} rows). For each, set decision =")
+    print(f"  keep         — link is correct  (set correct_kima_id if keeping a wrong pick)")
+    print(f"  not_a_place  — the spelling is not a place at all → reject_stoplist (dropped)")
+    print(f"  wrong_match  — it IS a place but not this Kima pick → stays matchable, logged")
     print(f"Then: python3 {os.path.relpath(__file__, PROJECT)} apply")
 
 
@@ -176,17 +191,24 @@ def apply():
     with open(SHEET, encoding="utf-8") as f:
         rows = list(csv.DictReader(f, delimiter="\t"))
 
-    keeps, rejects, undecided = [], [], 0
+    # Three verdicts (see header): keep / not_a_place / wrong_match.
+    # "reject" is accepted as a backward-compat alias for not_a_place.
+    keeps, not_places, wrong_matches, undecided = [], [], [], 0
     for r in rows:
         dec = (r.get("decision") or "").strip().lower()
         name = (r.get("name_heb") or "").strip()
+        if not name:
+            undecided += 1
+            continue
         if dec == "keep":
             kid = (r.get("correct_kima_id") or "").strip() or (r.get("kima_id") or "").strip()
-            if name and kid:
+            if kid:
                 keeps.append((name, kid))
-        elif dec == "reject":
-            if name:
-                rejects.append(name)
+        elif dec in ("not_a_place", "reject"):
+            not_places.append(name)
+        elif dec == "wrong_match":
+            # the spelling IS a place, just not this Kima pick — keep it matchable
+            wrong_matches.append((name, (r.get("kima_id") or "").strip()))
         else:
             undecided += 1
 
@@ -196,19 +218,36 @@ def apply():
         for name, kid in keeps:
             w.writerow({"name": name, "kima_id": kid})
 
-    # Merge with any existing stoplist (auto_reclassify also appends non-places here).
+    # not_a_place → reject_stoplist (dropped from matcher input). Merge + dedup.
     existing = []
     if os.path.exists(STOPLIST):
         with open(STOPLIST, encoding="utf-8") as f:
             existing = [r["name"] for r in csv.DictReader(f, delimiter="\t") if r.get("name")]
-    merged = list(dict.fromkeys(existing + rejects))   # dedup, preserve order
+    merged = list(dict.fromkeys(existing + not_places))
     with open(STOPLIST, "w", encoding="utf-8", newline="") as f:
         w = csv.DictWriter(f, fieldnames=["name"], delimiter="\t")
         w.writeheader()
         for name in merged:
             w.writerow({"name": name})
 
-    print(f"Decisions: {len(keeps)} keep, {len(rejects)} reject, {undecided} undecided")
+    # wrong_match → wrong_matches log (NOT stoplisted; excluded from donations,
+    # and pre-marked on the next sheet build so it isn't re-reviewed).
+    wexisting = {}
+    if os.path.exists(WRONG_MATCHES):
+        with open(WRONG_MATCHES, encoding="utf-8") as f:
+            for r in csv.DictReader(f, delimiter="\t"):
+                if r.get("name"):
+                    wexisting[(r["name"], r.get("kima_id", ""))] = True
+    for nm, kid in wrong_matches:
+        wexisting[(nm, kid)] = True
+    with open(WRONG_MATCHES, "w", encoding="utf-8", newline="") as f:
+        w = csv.DictWriter(f, fieldnames=["name", "kima_id"], delimiter="\t")
+        w.writeheader()
+        for (nm, kid) in wexisting:
+            w.writerow({"name": nm, "kima_id": kid})
+
+    print(f"Decisions: {len(keeps)} keep, {len(not_places)} not_a_place, "
+          f"{len(wrong_matches)} wrong_match, {undecided} undecided")
     print(f"  confirmed_priors.tsv → feed to matcher: "
           f"`kimatch match -c jobs/hasidigital.json ... --prior-resolutions {PRIORS}`")
     print(f"  reject_stoplist.tsv  → used automatically by build_kimatch_inventory.py")
