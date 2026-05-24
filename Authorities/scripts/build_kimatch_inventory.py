@@ -52,6 +52,7 @@ EDITION_GLOBS = [
 OUT_DIR = os.path.join(PROJECT, "editions", "kimatch")
 INVENTORY_TSV = os.path.join(OUT_DIR, "toponyms_all.tsv")
 INPUT_TSV = os.path.join(OUT_DIR, "kimatch_input.tsv")
+MENTIONS_JSON = os.path.join(OUT_DIR, "mentions.json")  # {local_id: [{rid,edition,text,ctx}]}
 # Names a reviewer rejected as not-a-place / homographs (spotcheck_grade_a.py apply).
 # Dropped from the matcher INPUT so they don't re-enter matching, but still kept in
 # the full inventory (marked) for transparency.
@@ -61,7 +62,8 @@ NS = {"t": "http://www.tei-c.org/ns/1.0"}
 XML_ID = "{http://www.w3.org/XML/1998/namespace}id"
 TEI = "{http://www.tei-c.org/ns/1.0}"
 
-MAX_CONTEXTS = 5          # sample contexts kept per toponym
+MAX_CONTEXTS = 5          # sample contexts kept per toponym (for context_sample)
+MAX_MENTIONS = 60         # per-occurrence mentions kept per toponym (per-mention review)
 CONTEXT_WINDOW = 220      # chars kept around the mention inside its paragraph
 
 _HEB = re.compile(r"[֐-׿]")
@@ -91,7 +93,7 @@ def kima_id_from_url(url: str) -> str:
 # ── 1. load authority places ────────────────────────────────────────────────
 class Place:
     __slots__ = ("id", "names_heb", "names_rom", "wikidata", "kima_id", "lat",
-                 "lon", "occ", "editions", "contexts")
+                 "lon", "occ", "editions", "contexts", "mentions", "_ed_idx")
 
     def __init__(self, pid):
         self.id = pid
@@ -104,17 +106,27 @@ class Place:
         self.occ = 0
         self.editions: set[str] = set()
         self.contexts: list[str] = []
+        # per-occurrence mentions for per-mention review (capped); rid locates the
+        # nth occurrence of this toponym in an edition (used later for apply-back).
+        self.mentions: list[dict] = []
+        self._ed_idx: dict[str, int] = {}
 
     @property
     def linked(self) -> bool:
         return bool(self.kima_id)
 
-    def add_context(self, ed: str, ctx: str):
+    def add_context(self, ed: str, ctx: str, surface: str = ""):
         self.occ += 1
         self.editions.add(ed)
-        if ctx and len(self.contexts) < MAX_CONTEXTS:
-            if ctx not in self.contexts:
-                self.contexts.append(ctx)
+        if ctx and len(self.contexts) < MAX_CONTEXTS and ctx not in self.contexts:
+            self.contexts.append(ctx)
+        if len(self.mentions) < MAX_MENTIONS:
+            idx = self._ed_idx.get(ed, 0) + 1
+            self._ed_idx[ed] = idx
+            self.mentions.append({
+                "rid": f"{ed}#{idx}", "edition": ed,
+                "text": surface, "ctx": ctx,
+            })
 
 
 def load_authority() -> tuple[dict[str, Place], dict[str, str]]:
@@ -205,7 +217,7 @@ def scan_editions(places, variant_to_id):
                 target = places[variant_to_id[text]]
 
             if target is not None:
-                target.add_context(ed, ctx)
+                target.add_context(ed, ctx, text)
             else:
                 key = text
                 p = edition_only.get(key)
@@ -213,7 +225,7 @@ def scan_editions(places, variant_to_id):
                     p = Place(f"ED::{key}")
                     (p.names_heb if is_hebrew(key) else p.names_rom).append(key)
                     edition_only[key] = p
-                p.add_context(ed, ctx)
+                p.add_context(ed, ctx, text)
     return edition_only, files
 
 
@@ -239,9 +251,15 @@ def load_stoplist() -> set[str]:
 
 
 def write_outputs(places: dict[str, Place], edition_only: dict[str, Place]):
+    import json
     os.makedirs(OUT_DIR, exist_ok=True)
     all_places = list(places.values()) + list(edition_only.values())
     stoplist = load_stoplist()
+
+    # per-occurrence mentions sidecar (keyed by local_id) for per-mention review
+    with open(MENTIONS_JSON, "w", encoding="utf-8") as fh:
+        json.dump({p.id: p.mentions for p in all_places if p.mentions},
+                  fh, ensure_ascii=False)
 
     def is_stoplisted(p: "Place") -> bool:
         return any(norm(n) in stoplist for n in (p.names_heb + p.names_rom))

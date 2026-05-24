@@ -44,13 +44,21 @@ STATUS_MAP = {
 }
 
 FIELDS = ["local_id", "kind", "name", "name_rom", "wikidata_qid", "match_status",
-          "confidence", "occurrences", "editions", "contexts", "candidates"]
+          "confidence", "occurrences", "editions", "contexts", "candidates", "mentions"]
+
+_MENTIONS_JSON = os.path.join(KDIR, "mentions.json")
 
 
 def main():
+    import json
     if not os.path.isdir(KIMATCH_REPO):
         raise SystemExit(f"Kimatch repo not found at {KIMATCH_REPO}")
     os.makedirs(OUT_DIR, exist_ok=True)
+
+    mentions_by_id = {}
+    if os.path.exists(_MENTIONS_JSON):
+        with open(_MENTIONS_JSON, encoding="utf-8") as f:
+            mentions_by_id = json.load(f)
 
     with open(MATCHED, encoding="utf-8") as f:
         rows = list(csv.DictReader(f))   # comma-delimited
@@ -80,6 +88,8 @@ def main():
                 "editions": (r.get("editions", "") or "").replace("; ", ", "),
                 "contexts": contexts,
                 "candidates": r.get("_candidates", ""),
+                "mentions": json.dumps(mentions_by_id.get(r.get("local_id", ""), []),
+                                       ensure_ascii=False),
             })
             n += 1
             by_bucket[bucket] = by_bucket.get(bucket, 0) + 1
