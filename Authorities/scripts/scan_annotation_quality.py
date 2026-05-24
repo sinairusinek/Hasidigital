@@ -154,9 +154,20 @@ def scan_file(xml_path: Path):
 
 
 def main():
-    xml_files = sorted(ONLINE_DIR.glob("*.xml"))
+    import argparse
+    ap = argparse.ArgumentParser(description="Scan editions for NER annotation quality issues")
+    ap.add_argument("--dir", default=str(ONLINE_DIR),
+                    help="Editions directory to scan (default: editions/online)")
+    ap.add_argument("--report", default="",
+                    help="Output TSV path (default: <dir>/annotation-quality-report.tsv)")
+    args = ap.parse_args()
+
+    scan_dir = Path(args.dir)
+    report_path = Path(args.report) if args.report else scan_dir / "annotation-quality-report.tsv"
+
+    xml_files = sorted(scan_dir.glob("*.xml"))
     if not xml_files:
-        print(f"No XML files found in {ONLINE_DIR}", file=sys.stderr)
+        print(f"No XML files found in {scan_dir}", file=sys.stderr)
         sys.exit(1)
 
     all_rows = []
@@ -166,12 +177,12 @@ def main():
         all_rows.extend(rows)
 
     # Write TSV
-    with open(REPORT_PATH, "w", newline="", encoding="utf-8") as f:
+    with open(report_path, "w", newline="", encoding="utf-8") as f:
         writer = csv.DictWriter(f, fieldnames=FIELDNAMES, delimiter="\t")
         writer.writeheader()
         writer.writerows(all_rows)
 
-    print(f"\nWrote {len(all_rows)} issues to {REPORT_PATH.relative_to(REPO_ROOT)}")
+    print(f"\nWrote {len(all_rows)} issues to {report_path}")
 
     # Summary
     by_issue = defaultdict(lambda: defaultdict(int))
