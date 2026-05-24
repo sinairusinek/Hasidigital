@@ -52,7 +52,10 @@ KNOWN_HOMOGRAPHS = {"גליל", "יהודה", "ירדן", "חרן", "מדינה"
                     "ישראל", "ציון", "אמן", "גולה", "מערב", "מזרח"}
 # High-confidence non-places (NER false positives that aren't toponyms at all).
 NONPLACE_STOPLIST = {"עכו״ם", "פרעה", "גן עדן", "גן העדן", "גיהנם", "אבד",
-                     "פרדס", "שמים", "עולם", "תורה", "משיח", "פרה"}
+                     "פרדס", "שמים", "עולם", "תורה", "משיח", "פרה",
+                     # ישראל is the collective name of the Jewish people in this
+                     # corpus, never a geographic place — false NER placeName.
+                     "ישראל"}
 
 _HEB = re.compile(r"[א-ת]")
 _ACRONYM = re.compile(r"[א-ת]״[א-ת]")   # gershayim acronym anywhere

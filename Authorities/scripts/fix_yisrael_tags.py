@@ -63,9 +63,11 @@ def fix_file(path: Path, dry_run: bool = False) -> tuple[int, int]:
 def main() -> None:
     ap = argparse.ArgumentParser(description="Fix ישראל / א״י placeName tags")
     ap.add_argument("--dry-run", action="store_true", help="Report changes without writing")
+    ap.add_argument("--dir", default=str(EDITIONS_DIR),
+                    help="Editions directory to scan (default: editions/online)")
     args = ap.parse_args()
 
-    xml_files = sorted(EDITIONS_DIR.glob("*.xml"))
+    xml_files = sorted(Path(args.dir).glob("*.xml"))
     if not xml_files:
         print(f"No XML files found in {EDITIONS_DIR}")
         return
