@@ -20,6 +20,10 @@ from __future__ import annotations
 
 import csv
 import os
+import re
+from collections import Counter
+
+_HEB_RE = re.compile(r"[א-ת]")
 
 HERE = os.path.dirname(os.path.abspath(__file__))
 PROJECT = os.path.dirname(os.path.dirname(HERE))
@@ -75,10 +79,21 @@ def main():
                 continue
             bucket = STATUS_MAP.get(r.get("_match_status", ""), "no_match")
             contexts = (r.get("context", "") or "").replace(" ⟦SEP⟧ ", "|")
+            local_id = r.get("local_id", "")
+            ments = mentions_by_id.get(local_id, [])
+            # Display name: prefer the Hebrew form the reviewer sees in the text.
+            # Authority places can have a romanized primary (e.g. "Volia") while the
+            # corpus surface form is Hebrew (נישחיז) — show the Hebrew.
+            name_heb = (r.get("name_heb") or "").strip()
+            if not name_heb:
+                heb = Counter(m.get("text", "") for m in ments
+                              if _HEB_RE.search(m.get("text", "") or ""))
+                name_heb = heb.most_common(1)[0][0] if heb else ""
+            display_name = name_heb or (r.get("name_rom") or "").strip() or local_id
             w.writerow({
-                "local_id": r.get("local_id", ""),
+                "local_id": local_id,
                 "kind": r.get("kind", ""),
-                "name": (r.get("name_heb") or r.get("name_rom") or "").strip(),
+                "name": display_name,
                 "name_rom": r.get("name_rom", ""),
                 "wikidata_qid": r.get("wikidata_qid", ""),
                 "match_status": bucket,

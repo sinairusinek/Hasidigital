@@ -27,7 +27,9 @@ context per toponym; records Kima link status.
 ```bash
 cd /Users/sinairusinek/Documents/GitHub/Kimatch
 .venv/bin/kimatch match -c /Users/.../Hasidigital/editions/kimatch/jobs/hasidigital.json \
-    -o /Users/.../Hasidigital/editions/kimatch/matched.tsv --split-by-grade
+    -o /Users/.../Hasidigital/editions/kimatch/matched.tsv --split-by-grade \
+    --prior-resolutions /Users/.../editions/kimatch/confirmed_priors.tsv \
+    --blocked-matches   /Users/.../editions/kimatch/wrong_matches.tsv
 ```
 Wikidata-QID → exact name/variant → fuzzy trigram → phonetic (Yiddish→IPA +
 Daitch-Mokotoff + Beider-Morse). Grades **A_autolink / B_review / C_review**.
