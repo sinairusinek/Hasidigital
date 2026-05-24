@@ -76,7 +76,8 @@ def main():
                 "match_status": bucket,
                 "confidence": r.get("_confidence", ""),
                 "occurrences": r.get("occurrences", ""),
-                "editions": r.get("editions", ""),
+                # page.py splits the editions list on "," — normalise from "; "
+                "editions": (r.get("editions", "") or "").replace("; ", ", "),
                 "contexts": contexts,
                 "candidates": r.get("_candidates", ""),
             })
