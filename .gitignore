@@ -10,6 +10,14 @@ venv/
 
 # macOS
 .DS_Store
+__MACOSX/
+
+# Secrets / env (never commit)
+.env
+.env.*
+
+# Archives
+*.zip
 
 # Large data files (local only)
 Authorities/integration_tool/data/
