@@ -10,9 +10,9 @@ statistics behind it, and the literature framing it.
 - `Women in Hasidic Literature - Between Close and Distant Reading - Draft 0.{docx,pdf}` —
   article draft (Mandel-Edrei, Rusinek, Sagiv)
 - `women_dashboard/` — Streamlit app + `proposed_charts/` (relocated here from the repo root)
+- `Women_topics_2024-07-15.ipynb` — chi-square analysis of topic distribution across women categories
 
-Related, one level up: `../analysis/Women_topics_2024-07-15.ipynb` (chi-square topic
-analysis), `../data/10HasidicEditionsTopics*.tsv` (per-story topic assignments).
+Related, one level up: `../data/10HasidicEditionsTopics*.tsv` (per-story topic assignments).
 
 ## Planning / status
 Detailed state, findings, and TODOs live in the project memory file
