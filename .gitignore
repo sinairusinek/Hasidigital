@@ -22,3 +22,12 @@ __MACOSX/
 # Large data files (local only)
 Authorities/integration_tool/data/
 *.csv.bak
+
+# tag-audit embedding cache (regenerable)
+editions/tag-audit/.cache/
+
+# tag-audit volatile run artifacts (regenerable)
+editions/tag-audit/**/.progress.json
+editions/tag-audit/**/*.log
+editions/tag-audit/**/adjudication-queue*.tsv
+editions/tag-audit/**/*.prefix.bak
