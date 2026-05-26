@@ -414,16 +414,24 @@ def ingest_verdicts(verdict_path, model=OPUS_MODEL_LABEL):
     print(f"Ingested {n} verdicts (model={model}) from {verdict_path}")
 
 
-def _write_mentions(category, tag, rows):
-    if not rows:
+def _story_url(story_id):
+    ed = re.sub(r"_\d+[A-Za-z]?$", "", story_id)
+    return f"https://www.hasidic-stories.org/Story/{ed}/{story_id}"
+
+
+def _write_all_mentions(category, all_rows):
+    """One combined mentions file for the whole category (story_url instead of id)."""
+    if not all_rows:
         return
     d = os.path.join(AUDIT_DIR, category)
     os.makedirs(d, exist_ok=True)
-    path = os.path.join(d, f"{tag.split(':')[-1]}-mentions.tsv")
+    path = os.path.join(d, f"{category}-mentions.tsv")
+    cols = ["tag", "story_url", "story_id", "edition", "signals", "sim", "matched_terms",
+            "claude_applies", "claude_confidence", "claude_reasoning", "excerpt"]
     with open(path, "w", encoding="utf-8", newline="") as f:
-        w = csv.DictWriter(f, fieldnames=list(rows[0].keys()), delimiter="\t")
+        w = csv.DictWriter(f, fieldnames=cols, delimiter="\t", extrasaction="ignore")
         w.writeheader()
-        w.writerows(rows)
+        w.writerows(all_rows)
     return path
 
 
@@ -479,9 +487,11 @@ def run_category(category, run_llm=True):
     })
 
     summaries = []
+    all_mentions = []
     for i, tag in enumerate(tags, 1):
         res = audit_tag(tag, stories, ids, mat, run_llm=run_llm, llm_cache=llm_cache)
-        _write_mentions(category, tag, res["mention_rows"])
+        for r in res["mention_rows"]:
+            all_mentions.append({"tag": tag, "story_url": _story_url(r["story_id"]), **r})
         summaries.append(res)
         calls_done += per_tag_calls[tag]
         elapsed = _t.time() - start
@@ -499,6 +509,7 @@ def run_category(category, run_llm=True):
               f"missed+={res['n_confirmed_missed']:2d} fp?={res['n_fp_candidates']:2d} "
               f"recall={res['recall_flag']:.0%}  | calls {calls_done}/{total_calls}"
               + (f" eta~{eta//60}m" if eta else ""))
+    _write_all_mentions(category, all_mentions)
     _write_summary(category, summaries)
     return summaries
 

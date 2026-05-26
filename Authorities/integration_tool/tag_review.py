@@ -235,11 +235,13 @@ def generate(category):
         w("")
 
     # gather confirmed suggestions per tag
-    enriched = []
-    for r in audit:
-        ms = [m for m in _read(os.path.join(cdir, f"{r['tag'].split(':')[-1]}-mentions.tsv"))
-              if m.get("claude_applies") == "True"]
-        enriched.append((r, ms))
+    # combined mentions file (one per category); group confirmed suggestions by tag
+    all_ment = _read(os.path.join(cdir, f"{category}-mentions.tsv"))
+    by_tag = {}
+    for m in all_ment:
+        if m.get("claude_applies") == "True":
+            by_tag.setdefault(m["tag"], []).append(m)
+    enriched = [(r, by_tag.get(r["tag"], [])) for r in audit]
     enriched.sort(key=lambda x: -len(x[1]))
 
     # ── 4. Suggested-taggings summary (the per-row decisions live in the CSV) ──
@@ -251,8 +253,8 @@ def generate(category):
       f"Each row has the story link, the relevant Hebrew sentence, and a **decision** column "
       f"already set to *confirm* — please change it to *reject* (or *unsure*) only on the rows "
       f"you disagree with; everything left as *confirm* will be added.\n")
-    w("| tag | already tagged | suggested additions | search looks leaky? |")
-    w("|---|---|---|---|")
+    w("| tag | definition | already tagged | suggested additions | search looks leaky? |")
+    w("|---|---|---|---|---|")
     for r, ms in enriched:
         if not ms:
             continue
@@ -261,7 +263,8 @@ def generate(category):
         except ValueError:
             rf = 0
         flag = f"yes — ~{rf:.0%} (consider wider scan)" if rf >= 0.3 else ""
-        w(f"| {r['tag'].split(':')[-1].replace('_',' ')} | {r['n_tagged']} | {len(ms)} | {flag} |")
+        defn = tag_lexicons.definition(r["tag"]).replace("|", "/")
+        w(f"| {r['tag'].split(':')[-1].replace('_',' ')} | {defn} | {r['n_tagged']} | {len(ms)} | {flag} |")
     w("")
     none_found = [r["tag"].split(":")[-1] for r, ms in enriched if not ms]
     if none_found:
