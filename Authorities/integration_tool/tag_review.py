@@ -246,9 +246,21 @@ def generate(category):
 
     # ── 4. Suggested-taggings summary (the per-row decisions live in the CSV) ──
     total = sum(len(ms) for _, ms in enriched)
+    n_audited = len(audit)
+    n_with_cand = len({m["tag"] for m in all_ment})
+    n_with_sugg = sum(1 for _, ms in enriched if ms)
+    n_all_rejected = n_with_cand - n_with_sugg
+    n_no_cand = n_audited - n_with_cand
     w("## Suggested taggings — summary\n")
+    w(f"Of the **{n_audited} tags audited**, **{n_with_sugg}** have at least one suggested "
+      f"tagging below. The remainder yield nothing to review: **{n_all_rejected}** had look-alike "
+      f"stories that the reader rejected on inspection (for example *dance*, where every match was "
+      f"the מחול / מחל spelling coincidence), and **{n_no_cand}** had no resembling untagged stories "
+      f"at all (mostly the one- or two-story tags). "
+      f"({n_audited} audited = {n_with_sugg} with suggestions + {n_all_rejected} all-rejected + "
+      f"{n_no_cand} no candidates.)\n")
     w(f"The audit proposes **{total} taggings to add** across "
-      f"{sum(1 for _, ms in enriched if ms)} tags. The individual suggestions are in the "
+      f"{n_with_sugg} tags. The individual suggestions are in the "
       f"companion spreadsheet **`{category}-suggested-taggings.csv`** (opens in Google Sheets). "
       f"Each row has the story link, the relevant Hebrew sentence, and a **decision** column "
       f"already set to *confirm* — please change it to *reject* (or *unsure*) only on the rows "

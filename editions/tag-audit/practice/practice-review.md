@@ -100,6 +100,8 @@ Most technical problems found in the audit (such as Hebrew word-matching and dup
 
 ## Suggested taggings — summary
 
+Of the **43 tags audited**, **32** have at least one suggested tagging below. The remainder yield nothing to review: **3** had look-alike stories that the reader rejected on inspection (for example *dance*, where every match was the מחול / מחל spelling coincidence), and **8** had no resembling untagged stories at all (mostly the one- or two-story tags). (43 audited = 32 with suggestions + 3 all-rejected + 8 no candidates.)
+
 The audit proposes **382 taggings to add** across 32 tags. The individual suggestions are in the companion spreadsheet **`practice-suggested-taggings.csv`** (opens in Google Sheets). Each row has the story link, the relevant Hebrew sentence, and a **decision** column already set to *confirm* — please change it to *reject* (or *unsure*) only on the rows you disagree with; everything left as *confirm* will be added.
 
 | tag | definition | already tagged | suggested additions | search looks leaky? |

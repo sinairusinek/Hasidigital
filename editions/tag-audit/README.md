@@ -51,7 +51,8 @@ poses category-boundary questions for the PI. Plan:
   input · per-tag summary. (Plain language, links to hasidic-stories.org.)
 - `<cat>-suggested-taggings.csv` — one row per suggested tagging; `decision` pre-set to
   `confirm`, reviewer changes only the rejects (opens in Google Sheets, UTF-8).
-- `<cat>-audit.tsv`, `<tag>-mentions.tsv` — underlying data.
+- `<cat>-mentions.tsv` — one combined file for the whole category (every candidate, with
+  `tag` + `story_url`); `<cat>-audit.tsv` — per-tag summary counts.
 - `story-landscape.png`, `<cat>-tag-similarity.png`, `audit-overlay.png` — figures.
 - Top level: `taxonomy.tsv` (all tokens + anomalies), `tag-inventory.tsv`, `all-tags.tsv`.
 
