@@ -19,6 +19,66 @@
 
 ## 📋 Active Work
 
+### Persons pipeline integration (with Shidduch)
+
+**Cross-listed.** Companion doc in the engine repo:
+[Shidduch `PIPELINE.md`](https://github.com/sinairusinek/Shidduch/blob/main/PIPELINE.md).
+Read it first for the engine-vs-workshop division of labour.
+
+**Status (2026-05-31):** the *engine* side is ready. [Shidduch](https://github.com/sinairusinek/Shidduch)
+can now (a) read this repo's authority data in either format — TEI XML or
+`authorities-matching-db.json` (`PersonDB.load(path)` auto-detects), and
+(b) scan TEI editions for unlinked `<persName>` mentions
+(`shidduch --authority FILE scan EDITIONS_DIR -o candidates.csv`). What is
+missing is the **review-and-write-back** workflow on this side — the
+persons equivalent of what `Authorities/scripts/generate_matching_db.py`
+Pass 2 + `Authorities/integration_tool/app.py` already do for places.
+
+**TO DO in this repo:**
+
+- [ ] **Add Shidduch as a dependency** so this repo's scripts call it as a
+      library rather than re-implementing person logic. The package isn't on
+      PyPI; use the git URL:
+      ```
+      shidduch @ git+https://github.com/sinairusinek/Shidduch.git
+      ```
+      (Same pattern Kimatch uses for `matching-core`.)
+- [ ] **Person batch scanner** — either extend
+      `Authorities/scripts/generate_matching_db.py` to also handle `<persName>`,
+      or add a sibling `generate_persons_matching_db.py`. Pass 1 harvests
+      already-linked person variants from the editions; Pass 2 calls Shidduch's
+      matcher on the unlinked ones and writes `ref="#H-PER_N"` back into the
+      edition XML where confidence is high. Mirrors the places flow.
+- [ ] **Persons review wizard** — extend `Authorities/integration_tool/app.py`
+      (or add a sibling page) that consumes the candidates CSV Shidduch emits,
+      lets a human confirm/reject each candidate, and on confirmation writes
+      the `ref` attribute back into the edition XML. Reuse the existing Step 4
+      save order (matching DB → edition XML → Authorities.xml → issues CSV →
+      git commit).
+- [ ] **Mirror the JSON-DB shape** — confirm the persons section of
+      `Authorities/authorities-matching-db.json` carries everything Shidduch
+      needs (variant lists, identifiers); update
+      `Authorities/scripts/generate_matching_db.py` to populate it the same
+      way it populates the places section. The Shidduch JSON loader
+      (`PersonDB.load_from_json`) is the consumer to test against.
+
+**Engine-side changes that may follow** (track in Shidduch, not here):
+if integration reveals a scanner-output gap (e.g. byte offsets / XPath
+back-pointers so write-back can locate each `<persName>` in the source XML),
+those land in [`shidduch/data/edition_scanner.py`](https://github.com/sinairusinek/Shidduch/blob/main/shidduch/data/edition_scanner.py).
+Cross-reference the same Shidduch PIPELINE.md.
+
+**Rule of thumb when continuing:**
+
+| If you want to… | Open… |
+|---|---|
+| Improve **how matches are decided** (recall, thresholds, kinnui, phonetic) | **Shidduch** |
+| Build the **persons review UI** / human confirm-or-reject | **this repo** |
+| Write `ref="#H-PER_N"` back into edition XMLs | **this repo** |
+| Add a new **authority record** | **this repo** (the TEI is the source of truth) |
+
+---
+
 ### Incoming Editions Pipeline (10 of 12 done)
 
 - [ ] **Human review** of `editions/incoming/ready/check/` — resolve flags in Peulat-Hatzadikim, Eser-Kedushot, Eser-Orot, Tiferet-Hayyim; move to `ready/` when done
