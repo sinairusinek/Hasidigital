@@ -60,6 +60,10 @@ DETECTABILITY = {
     "practice:torat_ha_tsaddik":         "interpretive",
     "practice:failure":                  "interpretive",
     "practice:worship_through_corporeality": "interpretive",
+
+    # kabbalah — kabbalistic terminology
+    "kabbalah:kabbalistic_terms_kavvanot": "lexical-strong",
+    "kabbalah:kabbalistic_terms_yihudim":  "lexical-strong",
 }
 
 # ── Lexical signatures (lexical-strong tags only) ──────────────────────────────
@@ -131,6 +135,20 @@ LEXICONS = {
         "terms": ["שחיטה", "שוחט", "שחט", "סכין", "טריפה", "כשרות", "חלף"],
         "homographs": [],
     },
+    "kabbalah:kabbalistic_terms_kavvanot": {
+        # Kavvanot = intended mystical meanings/intentions assigned to specific prayer
+        # words or ritual actions, derived from Lurianic kabbalah.
+        "terms": ["כוונות", "כוונת", "כיוון", "כוונה", "בכוונה", "כיון", "כיוונים", "כוונותיו"],
+        "homographs": ["כוונה טובה", "בכוונה תחילה"],  # generic "intention" idioms
+    },
+    "kabbalah:kabbalistic_terms_yihudim": {
+        # Yihudim = mystical "unifications" of divine names/sefirot, a Lurianic
+        # contemplative technique. Bare יחוד also means "seclusion" of a couple —
+        # disambiguate by context (handled in the LLM judgment, not here).
+        "terms": ["יחודים", "יחודי", "ייחודים", "ייחודי", "יחוד עליון", "ייחוד עליון",
+                  "יחוד קב\"ה", "ייחוד קב\"ה"],
+        "homographs": ["יחוד", "ייחוד"],  # bare singular ambiguous w/ seclusion-of-couple
+    },
 }
 
 
@@ -177,6 +195,8 @@ DEFINITIONS = {
     "practice:torat_ha_tsaddik": "Exposition of the tzaddik's own teaching/doctrine (a teaching-focused story).",
     "practice:failure": "A practice or attempt that fails / does not succeed.",
     "practice:worship_through_corporeality": "Avodah be-gashmiut — worship/elevation through physical/material acts (עבודה בגשמיות).",
+    "kabbalah:kabbalistic_terms_kavvanot": "Use of Lurianic kavvanot (כוונות) — mystical intentions assigned to specific words of prayer or ritual actions. The story depicts a character praying/acting WITH explicit kavvanot, or discusses kavvanot as a kabbalistic concept. NOT generic 'good intention' (כוונה טובה) in a non-mystical sense.",
+    "kabbalah:kabbalistic_terms_yihudim": "Use of Lurianic yihudim (יחודים, ייחודים) — mystical 'unifications' of divine names or sefirot performed contemplatively, typically by a tzaddik or kabbalist. NOT the marital-seclusion sense of יחוד (a couple alone together), and NOT a generic call to monotheistic unity.",
 }
 
 
