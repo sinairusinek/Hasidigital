@@ -29,6 +29,7 @@ PROJECT_DIR = os.path.abspath(os.path.join(THIS_DIR, ".."))
 EDITIONS_DIR = os.path.join(PROJECT_DIR, "editions", "online")
 APRIORI_PATH = os.path.join(PROJECT_DIR, "editions", "women-keywords-apriori.json")
 EMPIRICAL_PATH = os.path.join(PROJECT_DIR, "editions", "women-keywords-empirical.json")
+V2_TSV_PATH = os.path.join(PROJECT_DIR, "editions", "women-5tier-9editions-summary.tsv")
 
 # ── Data extraction (self-contained, no dependency on integration tool) ───────
 
@@ -129,6 +130,31 @@ def load_stories() -> pd.DataFrame:
                 "topics": topics,
             })
     return pd.DataFrame(rows)
+
+
+@st.cache_data(show_spinner="Loading Version 2 (5-tier) categorization…")
+def load_v2_categories() -> dict:
+    """Map story_id → binary 'yes'/'no' based on the 5-tier Claude TSV.
+    Anything not 'no-women' (i.e. mention-only / minor / catalyst / major) counts as 'yes'.
+    """
+    if not os.path.exists(V2_TSV_PATH):
+        return {}
+    df = pd.read_csv(V2_TSV_PATH, sep="\t", dtype=str).fillna("")
+    return {
+        row["story_id"]: ("no" if row["new_claude_5tier"] == "no-women" else "yes")
+        for _, row in df.iterrows()
+    }
+
+
+def build_v2_df(base_df: pd.DataFrame) -> pd.DataFrame:
+    """Return a copy of base_df whose `category` column is overridden by the V2 binary mapping.
+    Stories missing from the TSV keep their original (XML-derived) category."""
+    mapping = load_v2_categories()
+    if not mapping:
+        return base_df.copy()
+    out = base_df.copy()
+    out["category"] = out["story_id"].map(mapping).fillna(out["category"])
+    return out
 
 
 # ── Chart helpers ─────────────────────────────────────────────────────────────
@@ -477,11 +503,12 @@ df = _all[_all["edition"].isin(annotated_editions)].copy()
 
 # ── Tabs ──────────────────────────────────────────────────────────────────────
 
-tab_dist, tab_ed, tab_topics, tab_bycat = st.tabs([
+tab_dist, tab_ed, tab_topics, tab_bycat, tab_v2 = st.tabs([
     "📊 Distribution",
     "📚 By edition",
     "🏷️ Women and other Topics",
     "📂 By topic category",
+    "✨ Version 2",
 ])
 
 with tab_dist:
@@ -561,3 +588,87 @@ with tab_bycat:
             key="topic_cat_sel",
         )
         show_relative_frequency_by_category(df, cat_sel)
+
+with tab_v2:
+    st.subheader("Version 2 — binary categorization from the 5-tier scheme")
+    st.markdown(
+        "All charts below use the **same binary yes/no labels**, but the categorization is derived from the "
+        "new 5-tier annotation in `editions/women-5tier-9editions-summary.tsv`: "
+        "**no-women** → *no*; **mention-only / minor / catalyst / major** → *yes*. "
+        "The original tab uses the binary tags currently in the XML; this tab lets you see how the picture "
+        "shifts under the refined scheme before it is written back to the editions."
+    )
+
+    df_v2 = build_v2_df(df)
+
+    v2_mapping_size = len(load_v2_categories())
+    n_overrides = int((df_v2["category"] != df["category"]).sum())
+    st.caption(
+        f"5-tier TSV covers {v2_mapping_size} stories; "
+        f"{n_overrides} of the {len(df_v2)} stories in this corpus changed category vs. the XML tags."
+    )
+
+    st.markdown("---")
+    st.subheader("Women presence in stories, across the editions")
+    summary_v2 = (
+        df_v2.groupby("category")["story_id"].nunique()
+        .reindex(CATEGORY_ORDER, fill_value=0)
+        .reset_index()
+        .rename(columns={"story_id": "stories", "category": "Women present"})
+    )
+    summary_v2["% of total"] = (
+        summary_v2["stories"] / summary_v2["stories"].sum() * 100
+    ).round(1)
+    col_title_v2, col_table_v2 = st.columns([3, 1])
+    col_table_v2.dataframe(summary_v2, use_container_width=True, hide_index=True)
+
+    col_sel_v2, _ = st.columns([1, 2])
+    _opts_v2 = ["(all editions)"] + annotated_editions
+    _default_idx_v2 = (_opts_v2.index("Shivhei-Habesht") if "Shivhei-Habesht" in _opts_v2 else 1)
+    edition_sel_v2 = col_sel_v2.selectbox(
+        "Select an edition for comparison:",
+        _opts_v2,
+        index=_default_idx_v2,
+        format_func=lambda e: e if e == "(all editions)"
+            else f"{e} ({EDITION_YEARS[e]})" if e in EDITION_YEARS else e,
+        key="v2_edition_sel",
+    )
+    show_distribution(df_v2, edition_sel_v2 if edition_sel_v2 != "(all editions)" else None)
+
+    st.markdown("---")
+    st.subheader("Per-edition breakdown")
+    show_per_edition_bars(df_v2)
+
+    st.markdown("---")
+    st.subheader("Topic frequency difference")
+    st.markdown(
+        "Topics disproportionately associated with women-present stories (green, +) vs. women-absent stories "
+        "(red, −), under the Version 2 categorization."
+    )
+    show_topic_diff(df_v2, "yes", "no")
+
+    st.markdown("---")
+    st.subheader("Women presence by topic — relative frequency")
+    st.markdown(
+        "Each bar is one topic; orange share = proportion of its stories in which women are present (V2). "
+        "Topics with fewer than 5 stories are excluded."
+    )
+    show_relative_frequency_all(df_v2)
+
+    st.markdown("---")
+    st.subheader("Women presence by topic category")
+    st.markdown(
+        "Same view as the *By topic category* tab, but using the Version 2 categorization."
+    )
+    all_topic_vals_v2 = [t for row in df_v2["topics"] for t in (row if isinstance(row, list) else [])]
+    subtopic_counts_v2 = Counter(t for t in all_topic_vals_v2 if ":" in t and not t.startswith("women:"))
+    top_cats_v2 = sorted({t.split(":")[0] for t, n in subtopic_counts_v2.items() if n >= 3})
+    if top_cats_v2:
+        _default_cat_v2 = "practice" if "practice" in top_cats_v2 else top_cats_v2[0]
+        cat_sel_v2 = st.selectbox(
+            "Topic category",
+            top_cats_v2,
+            index=top_cats_v2.index(_default_cat_v2),
+            key="topic_cat_sel_v2",
+        )
+        show_relative_frequency_by_category(df_v2, cat_sel_v2)
