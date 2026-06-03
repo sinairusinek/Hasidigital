@@ -288,16 +288,33 @@ def generate(category):
         f.write("\n".join(out))
 
     # ── companion decision spreadsheet ──
+    # Build a per-story lookup of textual twins (cross-edition near-duplicates)
+    # so the reviewer sees, for each suggestion, whether there's a parallel
+    # story they should look at alongside it.
+    twins_path = os.path.join(AUDIT_DIR, "story-duplicates.tsv")
+    twins_for: dict[str, str] = {}  # story_id -> "twin_id (sim)"
+    if os.path.exists(twins_path):
+        # Keep the single closest twin per story (TSV is sorted desc by sim).
+        with open(twins_path, encoding="utf-8") as tf:
+            for row in csv.DictReader(tf, delimiter="\t"):
+                a, b, sim = row["story_a"], row["story_b"], row["sim"]
+                if a not in twins_for:
+                    twins_for[a] = f"{b} ({sim})"
+                if b not in twins_for:
+                    twins_for[b] = f"{a} ({sim})"
+
     csv_path = os.path.join(cdir, f"{category}-suggested-taggings.csv")
     with open(csv_path, "w", newline="", encoding="utf-8-sig") as f:   # BOM → Sheets reads Hebrew/UTF-8
         cols = ["decision", "notes", "tag", "story_id", "story_url",
-                "hebrew_extract", "why_suggested", "edition", "confidence"]
+                "hebrew_extract", "signal", "parallel_story",
+                "why_suggested", "edition", "confidence"]
         wr = csv.DictWriter(f, fieldnames=cols)
         wr.writeheader()
         for r, ms in enriched:
             tag = r["tag"]; cen = ext.centroid(tag)
             for m in ms:
                 sid = m["story_id"]; ed = re.sub(r"_\d+[A-Za-z]?$", "", sid)
+                signals = m.get("signals", "") or "embedding"   # fallback: embedding-only
                 wr.writerow({
                     "decision": "confirm",
                     "notes": "",
@@ -305,6 +322,8 @@ def generate(category):
                     "story_id": sid,
                     "story_url": f"https://www.hasidic-stories.org/Story/{ed}/{sid}",
                     "hebrew_extract": ext.extract(sid, tag, cen) or _clip(m.get("excerpt", "")),
+                    "signal": signals,
+                    "parallel_story": twins_for.get(sid, ""),
                     "why_suggested": (m.get("claude_reasoning", "") or "").strip(),
                     "edition": m.get("edition", ""),
                     "confidence": m.get("claude_confidence", ""),

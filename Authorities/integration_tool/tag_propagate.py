@@ -24,6 +24,7 @@ import argparse
 import csv
 import hashlib
 import os
+import re
 import sys
 from pathlib import Path
 
@@ -76,6 +77,56 @@ def _llm_verdict_for(cache, story_id: str, tag: str) -> str | None:
     return None
 
 
+def _append_propagations_to_main_csv(category: str, propagated_rows: list[dict]) -> None:
+    """Append auto-confirm propagation rows to <cat>-suggested-taggings.csv with
+    signal='propagation' and parallel_story=<source>. Reviewer sees one unified list."""
+    csv_path = AUDIT_DIR / category / f"{category}-suggested-taggings.csv"
+    if not csv_path.exists() or not propagated_rows:
+        return
+    # Read existing header to preserve column order
+    with open(csv_path, encoding="utf-8-sig") as f:
+        existing = list(csv.DictReader(f))
+    if not existing:
+        return
+    cols = list(existing[0].keys())
+    # Look up source-row data to copy tag/extract/why
+    src_index: dict[tuple[str, str], dict] = {}
+    for r in existing:
+        src_index[(r.get("tag", ""), r.get("story_id", ""))] = r
+
+    new_rows = []
+    seen_keys = {(r.get("tag", ""), r.get("story_id", "")) for r in existing}
+    for p in propagated_rows:
+        key = (p["tag"], p["twin_story"])
+        if key in seen_keys:
+            continue  # twin already in the main sheet as a direct suggestion
+        src = src_index.get((p["tag"], p["source_story"]), {})
+        ed = re.sub(r"_\d+[A-Za-z]?$", "", p["twin_story"])
+        new_rows.append({
+            "decision": "confirm",
+            "notes": "",
+            "tag": p["tag"],
+            "story_id": p["twin_story"],
+            "story_url": f"https://www.hasidic-stories.org/Story/{ed}/{p['twin_story']}",
+            "hebrew_extract": "",                # twin not seen by adjudicator
+            "signal": "propagation",
+            "parallel_story": f"{p['source_story']} ({p['sim']})",
+            "why_suggested": f"Propagated from twin {p['source_story']} (sim {p['sim']})."
+                             f" Original reasoning: {src.get('why_suggested', '')[:240]}",
+            "edition": ed,
+            "confidence": src.get("confidence", ""),
+        })
+        seen_keys.add(key)
+
+    if not new_rows:
+        return
+    with open(csv_path, "w", newline="", encoding="utf-8-sig") as f:
+        wr = csv.DictWriter(f, fieldnames=cols, extrasaction="ignore")
+        wr.writeheader()
+        wr.writerows(existing + new_rows)
+    print(f"  Appended {len(new_rows)} propagation rows to {csv_path.name}")
+
+
 def propagate(category: str, threshold: float = 0.98) -> Path:
     twins = _load_duplicates(threshold)
     cache = tag_audit._load_llm_cache()
@@ -84,6 +135,9 @@ def propagate(category: str, threshold: float = 0.98) -> Path:
     counts = {"auto-confirm": 0, "auto-reject": 0, "conflict": 0, "no-twin": 0}
 
     for sug in _load_suggestions(category):
+        # Only propagate rows that the audit ACTUALLY surfaced; skip already-propagated rows.
+        if (sug.get("signal") or "").strip().lower() == "propagation":
+            continue
         decision = (sug.get("decision") or "").strip().lower()
         if decision not in ("confirm", "reject"):
             continue
@@ -124,6 +178,10 @@ def propagate(category: str, threshold: float = 0.98) -> Path:
     print(f"  auto-reject:  {counts['auto-reject']}")
     print(f"  conflict:     {counts['conflict']}  (PI must review)")
     print(f"  source stories with no twin: {counts['no-twin']}")
+
+    # Roll the auto-confirms into the main reviewer CSV so they see one list.
+    propagated_auto = [r for r in out_rows if r["action"] == "auto-confirm"]
+    _append_propagations_to_main_csv(category, propagated_auto)
     return out_path
 
 
