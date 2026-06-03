@@ -31,6 +31,20 @@ poses category-boundary questions for the PI. Plan:
 3. **Recall check.** A random sample of *un-flagged* stories is also judged; if some come
    back as matches, the search is too narrow (flagged as "search looks leaky" in the report).
 
+## Known limitation: textual parallels are not symmetric in retrieval
+
+Top-K-per-story embedding retrieval is **not** symmetric for textual parallels.
+Two near-duplicate stories across editions can land in different candidate sets,
+so one gets a suggestion that its twin never sees. Concrete case:
+Khal-Hasidim_0126 was suggested for `practice:business_advice` (sim 0.96); its
+twin Peer-MiKdoshim_0006 was never even evaluated for that tag.
+
+This means the current per-tag results **under-count missed taggings on cross-edition
+twins**. The general audit (see [`general-audit-plan.md`](general-audit-plan.md))
+adds a complementary near-duplicate pass that propagates every confirmed/rejected
+verdict to all story-level near-duplicates before XML write-back.
+
+
 ## Tooling (`Authorities/integration_tool/`)
 
 | file | role |

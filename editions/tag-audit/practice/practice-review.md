@@ -37,6 +37,30 @@ bold it, or delete the other — whichever is easiest. (We use plain words rathe
 tick-boxes because tick-box symbols do not survive the conversion into Google Docs.)
 
 
+## Known limitation — textual parallels are not symmetric in the retrieval
+
+The audit surfaces candidates **per story**, by embedding similarity to existing
+exemplars of each tag (top-K per story, with a cap). Two stories that are textual
+parallels of each other do **not** necessarily produce the same candidate set,
+because their embeddings differ slightly (different framing sentence, opening,
+surrounding context). One can clear the per-story cap for a tag while the other
+falls just below it — and is therefore never asked about.
+
+**Worked example (2026-06-03).** [Khal-Hasidim_0126](https://www.hasidic-stories.org/Story/Khal-Hasidim/Khal-Hasidim_0126)
+and [Peer-MiKdoshim_0006](https://www.hasidic-stories.org/Story/Peer-MiKdoshim/Peer-MiKdoshim_0006)
+are the same story (the Besht teaching R. David Pirkus *bitachon* through the Kasnitin
+dowry-instructions episode). The audit suggested `practice:business_advice` for
+Khal-Hasidim_0126 (sim 0.96) but never even evaluated business_advice as a candidate
+for Peer-MiKdoshim_0006 — its top candidate set for that story was
+`drinking_alcohol`, `music`, `pidyon_nefesh`, `reception_of_hasidim`. Whatever you
+decide for Khal-Hasidim_0126 should apply to Peer-MiKdoshim_0006 as well.
+
+**Implication.** Every confirmed suggestion in this report should be propagated to
+its near-duplicates across editions before being applied. A complementary pass on
+near-duplicate stories is now part of the planned general audit
+([plan](../../tag-audit/general-audit-plan.md)).
+
+
 ## Deeper questions — should some category boundaries be redrawn?
 
 These are the larger decisions the audit surfaced. They matter more than any single
