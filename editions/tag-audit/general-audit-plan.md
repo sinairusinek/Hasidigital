@@ -77,21 +77,24 @@ likely belong to the taxonomy-cleanup pass, not the audit proper — see [`taxon
 2. Each commit also applies the duplicate-propagated tags from Phase 2.
 3. Streamlit Cloud picks up automatically (already plumbed for the 9-edition view).
 
-## Open questions for the PI before kickoff
+## Decisions locked in (2026-06-03 PI session)
 
-1. **Adjudicator budget.** If Anthropic credit is restored, do we re-run the
-   practice pilot under Opus for lexical-strong tags (~$5–10), or accept the
-   Gemini verdicts already on disk?
-2. **Near-duplicate threshold.** Default 0.93 cosine on max-pooled story
-   embeddings — confirm or adjust after a 50-pair manual look.
-3. **Conflict policy.** When a near-duplicate inherits a confirm but was already
-   adjudicated as reject for the same tag, default = surface to PI. Alternative:
-   auto-trust the higher-confidence verdict; risky.
-4. **Cross-category boundary review.** Done once at the end (Phase 3.2)? Or
-   inline per-category as the pilot did?
-5. **Order.** Suggested order: social-relations → supernatural → ethics-and-emotions →
-   characters-and-roles → folkloristics → experience → times → spaces → halakhah →
-   knowledge / custom / kabbalah / profession. Confirm.
+1. **Adjudicator: Opus-only via `claude-cli`, 4-way parallel.** No API spend
+   (runs on the plan). ~5–10 h overnight for the full ~7,656 calls. Conservative
+   suggestion behavior; add a Gemini-3 spot-check only on categories whose Opus
+   suggestion count looks abnormally low relative to the practice baseline.
+2. **Near-duplicate threshold: 0.93 cosine** on max-pooled per-story embeddings.
+   50-pair manual sanity check before propagation kicks in.
+3. **Conflict policy: surface to PI.** When a near-duplicate had already been
+   adjudicated with the opposite verdict, list as a conflict in
+   `duplicate-propagations.tsv` rather than auto-overriding.
+4. **Cross-category boundary review: once at the end**, after all 13 sweeps
+   complete. Inline boundary notes per category are still allowed (they help
+   reviewers in the moment), but the binding decisions wait until the whole
+   landscape is visible.
+5. **Order: confirmed default** — social-relations → supernatural →
+   ethics-and-emotions → characters-and-roles → folkloristics → experience →
+   times → spaces → halakhah → knowledge → custom → kabbalah → profession.
 
 ## Estimated effort
 
