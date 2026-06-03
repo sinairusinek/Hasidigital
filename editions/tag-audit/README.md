@@ -82,11 +82,21 @@ verdict to all story-level near-duplicates before XML write-back.
 ```
 cd Authorities/integration_tool
 python3 tag_data.py                      # refresh taxonomy + inventory
-TAG_AUDIT_MODEL=gemini-3 python3 tag_audit.py --category <cat>   # the sweep
+# Default (current decision): Opus-only via claude-cli, 4-way parallel — no API spend.
+TAG_AUDIT_MODEL=claude-cli python3 tag_audit.py --category <cat> --workers 4 &
 python3 tag_progress.py <cat> --watch    # monitor ETA in another shell
 python3 tag_review.py <cat>              # report + decision spreadsheet
 python3 tag_viz.py                       # figures
+python3 tag_duplicates.py build          # rebuild story-duplicates.tsv (once)
 ```
+
+**Adjudicator: Opus via claude-cli (plan-billed, parallel).** The audit subprocess
+calls `claude -p --model claude-opus-4-7 --system-prompt … --disallowedTools '*'`
+once per (tag, story) decision. Each call is a fresh process so context never
+overflows. **Do not pass `--bare`** — that forces ANTHROPIC_API_KEY auth and
+bypasses the OAuth plan credentials. Benchmark (2026-06-03): ~4–5 s/call at
+`--workers 4`; ~2.5–3 h wall-clock for the ~7,656 remaining calls across the
+13 unaudited categories.
 
 ## Notes
 

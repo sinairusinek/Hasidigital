@@ -80,9 +80,11 @@ likely belong to the taxonomy-cleanup pass, not the audit proper — see [`taxon
 ## Decisions locked in (2026-06-03 PI session)
 
 1. **Adjudicator: Opus-only via `claude-cli`, 4-way parallel.** No API spend
-   (runs on the plan). ~5–10 h overnight for the full ~7,656 calls. Conservative
-   suggestion behavior; add a Gemini-3 spot-check only on categories whose Opus
-   suggestion count looks abnormally low relative to the practice baseline.
+   (runs on the plan). Smoke-tested 2026-06-03 — ~4–5 s/call at `--workers 4`
+   (3.5× speedup vs sequential), so the full ~7,656 calls land in **~2.5–3 h
+   wall-clock**. Conservative suggestion behavior; add a Gemini-3 spot-check
+   only on categories whose Opus suggestion count looks abnormally low
+   relative to the practice baseline.
 2. **Near-duplicate threshold: 0.93 cosine** on max-pooled per-story embeddings.
    50-pair manual sanity check before propagation kicks in.
 3. **Conflict policy: surface to PI.** When a near-duplicate had already been

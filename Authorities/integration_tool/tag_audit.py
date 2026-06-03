@@ -18,11 +18,15 @@ Run:  python3 tag_audit.py practice:pidyon_nefesh      # one tag (validation)
       python3 tag_audit.py --category practice --no-llm  # signals only, no API calls
 """
 import os
+import re
 import sys
 import csv
 import json
 import random
 import hashlib
+import subprocess
+import threading
+from concurrent.futures import ThreadPoolExecutor, as_completed
 from datetime import datetime, timezone
 
 import numpy as np
@@ -92,14 +96,18 @@ def _load_llm_cache():
     return cache
 
 
+_CACHE_LOCK = threading.Lock()
+
+
 def _append_llm_cache(row):
     os.makedirs(os.path.dirname(LLM_CACHE), exist_ok=True)
-    new = not os.path.exists(LLM_CACHE)
-    with open(LLM_CACHE, "a", encoding="utf-8", newline="") as f:
-        w = csv.DictWriter(f, fieldnames=_CACHE_COLS, delimiter="\t", extrasaction="ignore")
-        if new:
-            w.writeheader()
-        w.writerow(row)
+    with _CACHE_LOCK:
+        new = not os.path.exists(LLM_CACHE)
+        with open(LLM_CACHE, "a", encoding="utf-8", newline="") as f:
+            w = csv.DictWriter(f, fieldnames=_CACHE_COLS, delimiter="\t", extrasaction="ignore")
+            if new:
+                w.writeheader()
+            w.writerow(row)
 
 
 def _parse_json_verdict(raw: str):
@@ -117,10 +125,53 @@ _claude = None
 _gemini = {}
 
 
+CLAUDE_CLI_BIN = os.environ.get("CLAUDE_CLI_BIN", "claude")
+CLAUDE_CLI_MODEL = os.environ.get("CLAUDE_CLI_MODEL", "claude-opus-4-7")
+
+
+def _call_claude_cli(prompt: str, story_text: str, _retries: int = 3) -> tuple:
+    """Run `claude -p --bare --model …` as a subprocess for one verdict.
+    Each call is a fresh process so context never overflows.
+
+    The CLI prints assistant text to stdout. We expect a JSON object matching
+    _parse_json_verdict's schema (applies, confidence, reasoning). Errors are
+    retried with exponential backoff."""
+    # NOTE: do NOT use --bare here. --bare forces ANTHROPIC_API_KEY auth and
+    # ignores OAuth/keychain — i.e. it would bypass the Pro plan and try to bill
+    # the API (which has no credit on this account). Plain `claude -p` reads the
+    # OAuth/keychain creds and runs on the plan.
+    cmd = [
+        CLAUDE_CLI_BIN, "-p",
+        "--model", CLAUDE_CLI_MODEL,
+        "--system-prompt", prompt,
+        "--output-format", "text",
+        "--disallowedTools", "*",  # presence-judgment only; never read files / run code
+    ]
+    last_err = None
+    for attempt in range(_retries):
+        try:
+            r = subprocess.run(cmd, input=story_text, capture_output=True,
+                               text=True, timeout=180)
+            if r.returncode != 0:
+                last_err = f"rc={r.returncode}: {r.stderr.strip()[:200]}"
+                continue
+            return _parse_json_verdict(r.stdout)
+        except subprocess.TimeoutExpired as e:
+            last_err = f"timeout: {e}"
+        except Exception as e:
+            last_err = str(e)
+        # backoff
+        import time as _t
+        _t.sleep(2 ** attempt)
+    raise RuntimeError(f"claude-cli failed after {_retries} retries: {last_err}")
+
+
 def _call_model(prompt, story_text, model, _retries=4):
     if model == OPUS_MODEL_LABEL:
         # opus-cli verdicts come only from the ingested cache; never call an API here.
         raise RuntimeError(f"{OPUS_MODEL_LABEL}: story not yet adjudicated by the agent")
+    if model == "claude-cli":
+        return _call_claude_cli(prompt, story_text, _retries=min(_retries, 3))
     if model == "claude":
         global _claude
         if _claude is None:
@@ -222,7 +273,30 @@ def _relevant_excerpt(story, terms, emb, centroid_vec, id_to_idx, width=220):
     return text[:width].replace("\n", " ")
 
 
-def audit_tag(tag, stories, ids, mat, definition=None, run_llm=True, llm_cache=None):
+def _llm_presence_batch(items, tag, definition, llm_cache, workers=1):
+    """Adjudicate multiple stories for one tag. Returns list parallel to `items`
+    of (applies, conf, reason). When workers == 1, runs sequentially (preserves
+    the legacy ordering for Gemini's rate-limiter)."""
+    n = len(items)
+    out = [None] * n
+    if workers <= 1:
+        for i, s in enumerate(items):
+            out[i] = _llm_presence(s, tag, definition, llm_cache)
+        return out
+    with ThreadPoolExecutor(max_workers=workers) as ex:
+        fut_to_i = {ex.submit(_llm_presence, s, tag, definition, llm_cache): i
+                    for i, s in enumerate(items)}
+        for fut in as_completed(fut_to_i):
+            i = fut_to_i[fut]
+            try:
+                out[i] = fut.result()
+            except Exception as e:
+                out[i] = (False, "", f"[error] {e}")
+    return out
+
+
+def audit_tag(tag, stories, ids, mat, definition=None, run_llm=True, llm_cache=None,
+              workers=1):
     definition = definition or tag_lexicons.definition(tag)
     if llm_cache is None:
         llm_cache = _load_llm_cache()
@@ -290,8 +364,10 @@ def audit_tag(tag, stories, ids, mat, definition=None, run_llm=True, llm_cache=N
     mention_rows = []
     control_yes = 0
     if run_llm:
-        for sid, e in ranked:
-            applies, conf, reason = _llm_presence(neg_by_id[sid], tag, definition, llm_cache)
+        cand_stories = [neg_by_id[sid] for sid, _ in ranked]
+        cand_verdicts = _llm_presence_batch(cand_stories, tag, definition, llm_cache,
+                                            workers=workers)
+        for (sid, e), (applies, conf, reason) in zip(ranked, cand_verdicts):
             mention_rows.append({
                 "story_id": sid, "edition": neg_by_id[sid]["edition"],
                 "signals": "+".join(sorted(e["signals"])),
@@ -302,10 +378,9 @@ def audit_tag(tag, stories, ids, mat, definition=None, run_llm=True, llm_cache=N
                 "excerpt": _relevant_excerpt(neg_by_id[sid], e["terms"], mat, cen, id_to_idx),
                 "should_tag": "", "notes": "",
             })
-        for s in control:
-            applies, _, _ = _llm_presence(s, tag, definition, llm_cache)
-            if applies:
-                control_yes += 1
+        ctrl_verdicts = _llm_presence_batch(control, tag, definition, llm_cache,
+                                            workers=workers)
+        control_yes = sum(1 for applies, _, _ in ctrl_verdicts if applies)
 
     confirmed = sum(1 for r in mention_rows if r["claude_applies"])
     return {
@@ -461,7 +536,7 @@ def _calls_needed(tag, ranked, control, llm_cache):
     return n
 
 
-def run_category(category, run_llm=True):
+def run_category(category, run_llm=True, workers=1):
     import time as _t
     stories = tag_data.load_stories("core")
     ids, mat = tag_embeddings.embed_stories(stories)
@@ -489,7 +564,8 @@ def run_category(category, run_llm=True):
     summaries = []
     all_mentions = []
     for i, tag in enumerate(tags, 1):
-        res = audit_tag(tag, stories, ids, mat, run_llm=run_llm, llm_cache=llm_cache)
+        res = audit_tag(tag, stories, ids, mat, run_llm=run_llm, llm_cache=llm_cache,
+                        workers=workers)
         for r in res["mention_rows"]:
             all_mentions.append({"tag": tag, "story_url": _story_url(r["story_id"]), **r})
         summaries.append(res)
@@ -543,13 +619,18 @@ def main():
         return
     run_llm = "--no-llm" not in args
     args = [a for a in args if a != "--no-llm"]
+    workers = 1
+    if "--workers" in args:
+        i = args.index("--workers")
+        workers = int(args[i + 1])
+        args = args[:i] + args[i + 2:]
     if args and args[0] == "--category":
-        run_category(args[1], run_llm=run_llm)
+        run_category(args[1], run_llm=run_llm, workers=workers)
     elif args:
         tag = args[0]
         stories = tag_data.load_stories("core")
         ids, mat = tag_embeddings.embed_stories(stories)
-        res = audit_tag(tag, stories, ids, mat, run_llm=run_llm)
+        res = audit_tag(tag, stories, ids, mat, run_llm=run_llm, workers=workers)
         category = tag.split(":")[0]
         p = _write_mentions(category, tag, res["mention_rows"])
         print(json.dumps({k: v for k, v in res.items() if k != "mention_rows"},
