@@ -85,13 +85,17 @@ def _parse_ana(ana_value: str) -> List[str]:
 def _derive_category(topics: List[str]) -> str:
     has_major = any(t == "women:major_character" for t in topics)
     has_minor = any(t == "women:minor_character" for t in topics)
-    if has_major and has_minor:
-        return "major+minor"
-    if has_major:
-        return "major"
-    if has_minor:
-        return "minor"
-    return "no"
+    has_any_women = any(t.startswith("women:") and t != "women:collective" for t in topics)
+    if SHOW_MAJOR_MINOR:
+        if has_major and has_minor:
+            return "major+minor"
+        if has_major:
+            return "major"
+        if has_minor:
+            return "minor"
+        return "no"
+    # Binary mode: any women:* token (mention_only / minor / catalyst / major) counts as "yes".
+    return "yes" if has_any_women else "no"
 
 
 def _collapse_category(cat: str) -> str:
