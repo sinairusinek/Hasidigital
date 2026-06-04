@@ -15,6 +15,8 @@ __MACOSX/
 # Secrets / env (never commit)
 .env
 .env.*
+.zenodo_token
+.zenodo_token_sandbox
 
 # Archives
 *.zip
@@ -25,6 +27,9 @@ Authorities/integration_tool/data/
 
 # tag-audit embedding cache (regenerable)
 editions/tag-audit/.cache/
+
+# duplicate-detection embedding cache (regenerable)
+editions/.cache/
 
 # tag-audit volatile run artifacts (regenerable)
 editions/tag-audit/**/.progress.json
