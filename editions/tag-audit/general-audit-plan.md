@@ -94,9 +94,13 @@ likely belong to the taxonomy-cleanup pass, not the audit proper — see [`taxon
    complete. Inline boundary notes per category are still allowed (they help
    reviewers in the moment), but the binding decisions wait until the whole
    landscape is visible.
-5. **Order: confirmed default** — social-relations → supernatural →
-   ethics-and-emotions → characters-and-roles → folkloristics → experience →
-   times → spaces → halakhah → knowledge → custom → kabbalah → profession.
+5. **Order: smallest-first (revised 2026-06-03)** — kabbalah (2) → knowledge (3)
+   → custom (3) → profession (3) → halakhah (5) → times (7) → spaces (7) →
+   folkloristics (11) → experience (11) → characters-and-roles (12) →
+   supernatural (14) → ethics-and-emotions (19) → social-relations (19).
+   Rationale: validate the parallel claude-cli pipeline + propagation pass
+   end-to-end on small categories first; iterate cheaply on any pipeline bug
+   before committing to the long sweeps.
 
 ## Estimated effort
 
