@@ -1,0 +1,25 @@
+edition	story_id	decision	rationale
+Adat-Zadikim	Adat-Zadikim_0024	DROP	already has practice:releasing_agunot; agunah/adultery dimension covered
+Khal-Hasidim	Khal-Hasidim_0018	practice:halakhah	Ari story on gilgul + chicken-bone choking; halakhic dimension generic, no specific sub-tag
+Khal-Hasidim	Khal-Hasidim_0085	practice:halakhah	wedding story incl. kiddushin/ketubah/ring; no practice:marriage sub-tag exists
+Khal-Hasidim	Khal-Hasidim_0099	practice:halakhah	Besht quizzed on דין יעלה ויבא; the asking-a-halakhic-question itself is the point
+Khal-Hasidim	Khal-Hasidim_0105	DROP	already has practice:sexual_abstinence; perishut halakha covered
+Khal-Hasidim	Khal-Hasidim_0135	practice:halakhah	Rambam pasak on perishut cited; halakhic ruling content beyond practice:sexual_abstinence
+Khal-Hasidim	Khal-Hasidim_0174	DROP	already has halakhah:prayer + tefillin + kosher_slaughtering + tvilah (all become practice:* after G1)
+Khal-Hasidim	Khal-Hasidim_0178	DROP	already has halakhah:tvilah
+Khal-Hasidim	Khal-Hasidim_0182	DROP	already has halakhah:prayer + tefillin
+Khal-Hasidim	Khal-Hasidim_0204	DROP	already has practice:releasing_agunot + characters-and-roles:ritual_slaughterer
+Khal-Hasidim	Khal-Hasidim_0206	DROP	already has halakhah:prayer
+Khal-Hasidim	Khal-Hasidim_0212	DROP	already has ethics-and-emotions:adultery + prohibitions + repentance
+Khal-Hasidim	Khal-Hasidim_0225	practice:halakhah	tzaar baalei chayim d'oraita/derabbanan machloket explicitly cited
+Khal-Hasidim	Khal-Hasidim_0254	DROP	parallel to Adat-Zadikim_0024
+Khal-Kdoshim	Khal-Kdoshim_0012	DROP	parallel to Khal-Hasidim_0212
+PeerMikdoshim	Peer-MiKdoshim_0013	practice:halakhah	rasha who observed only netilat yadayim mitzvah; halakhic act central
+Shivhei-Habesht	Shivhei-Habesht_0027	practice:halakhah	parallel to Khal-Hasidim_0135 (Rambam pasak)
+Shivhei-Habesht	Shivhei-Habesht_0181	practice:halakhah	parallel to Khal-Hasidim_0099 (yaaleh v'yavo)
+Shivhei-Habesht	Shivhei-Habesht_0187	DROP	parallel to Khal-Hasidim_0105
+Shivhei-Harav	Shivhei-Harav_0003	DROP	already has halakhah:tefillin
+Shivhei-Harav	Shivhei-Harav_0012	DROP	already has halakhah:tvilah
+Shivhei-Harav	Shivhei-Harav_0014	DROP	already has halakhah:prayer + tefillin
+maase-zadikim	Maase-Zadikim_0002	practice:halakhah	parallel to Khal-Hasidim_0018
+maase-zadikim	Maase-Zadikim_0021	practice:halakhah	parallel to Khal-Hasidim_0225

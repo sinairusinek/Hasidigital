@@ -1,30 +1,30 @@
 full_tag	top_tag	sub_tag	status	detectability	n_stories	proposed_canonical
 supernatural:perception	supernatural	perception	ok		295	
-social-relations:inter_hasidic_master_disciple_relationship	social-relations	inter_hasidic_master_disciple_relationship	ok		213	
-halakhah:prayer	halakhah	prayer	ok		169	
+social-relations:inter_hasidic_master_disciple_relationship	social-relations	inter_hasidic_master_disciple_relationship	ok		213	social:inter_hasidic_master_disciple_relationship
+halakhah:prayer	halakhah	prayer	ok		169	practice:prayer
 women:minor_character	women	minor_character	ok		125	
 supernatural:prognostication	supernatural	prognostication	ok		122	
 ethics-and-emotions:prohibitions	ethics-and-emotions	prohibitions	ok		118	
 practice:study	practice	study	ok		105	
-social-relations:with_non_jews	social-relations	with_non_jews	ok		96	
-social-relations:with_non_hasidim	social-relations	with_non_hasidim	ok		89	
+social-relations:with_non_jews	social-relations	with_non_jews	ok		96	social:relations_with_non_jews
+social-relations:with_non_hasidim	social-relations	with_non_hasidim	ok		89	social:relations_with_non_hasidim
 practice:protection	practice	protection	ok		85	
 supernatural:magic	supernatural	magic	ok		85	
 ethics-and-emotions:punishment	ethics-and-emotions	punishment	ok		81	
-social-relations:conflict	social-relations	conflict	ok		81	
+social-relations:conflict	social-relations	conflict	ok		81	social:conflict
 characters-and-roles:the_family_of_the_tsaddik	characters-and-roles	the_family_of_the_tsaddik	ok		78	
 ethics-and-emotions:fear	ethics-and-emotions	fear	ok		77	
 times:death	times	death	ok		73	
 ethics-and-emotions:repentance	ethics-and-emotions	repentance	ok		71	
 ethics-and-emotions:sadness	ethics-and-emotions	sadness	ok		70	
 practice:travel_to_the_tsaddik	practice	travel_to_the_tsaddik	ok		70	
-supernatural:conversing_with_the_dead	supernatural	conversing_with_the_dead	ok		70	
-social-relations:retrospective_recognition	social-relations	retrospective_recognition	ok		69	
+supernatural:conversing_with_the_dead	supernatural	conversing_with_the_dead	ok		70	supernatural:communicating_with_the_invisible
+social-relations:retrospective_recognition	social-relations	retrospective_recognition	ok		69	social:retrospective_recognition
 knowledge:esoteric	knowledge	esoteric	ok		66	
 practice:sermon	practice	sermon	ok		66	
-social-relations:inter_hasidic	social-relations	inter_hasidic	ok		65	
+social-relations:inter_hasidic	social-relations	inter_hasidic	ok		65	social:inter_hasidic
 practice:healing	practice	healing	ok		63	
-social-relations:with_the_authorities	social-relations	with_the_authorities	ok		62	
+social-relations:with_the_authorities	social-relations	with_the_authorities	ok		62	social:relations_with_the_authorities
 ethics-and-emotions:anger	ethics-and-emotions	anger	ok		55	
 women:major_character	women	major_character	ok		54	
 practice:storytelling	practice	storytelling	ok		53	
@@ -36,21 +36,21 @@ practice:tvilah	practice	tvilah	ok		41
 spaces:heaven	spaces	heaven	ok		39	
 times:holidays	times	holidays	ok		39	
 folkloristics:story_type_rapprochement	folkloristics	story_type_rapprochement	ok		37	
-social-relations:with_non_jews_hostility_against_jews	social-relations	with_non_jews_hostility_against_jews	ok		37	
-social-relations:marital_relationship	social-relations	marital_relationship	ok		36	
+social-relations:with_non_jews_hostility_against_jews	social-relations	with_non_jews_hostility_against_jews	ok		37	social:relations_with_non_jews
+social-relations:marital_relationship	social-relations	marital_relationship	ok		36	social:marital_relationship
 experience:revelation	experience	revelation	ok		35	
 folkloristics:story_type_prognostication	folkloristics	story_type_prognostication	ok		35	
 practice:reception_of_hasidim	practice	reception_of_hasidim	ok		34	
-characters-and-roles:tsaddik_wife	characters-and-roles	tsaddik_wife	ok		33	
-ethics-and-emotions:virtues_humility	ethics-and-emotions	virtues_humility	ok		33	
+characters-and-roles:tsaddik_wife	characters-and-roles	tsaddik_wife	ok		33	characters-and-roles:the_family_of_the_tsaddik
+ethics-and-emotions:virtues_humility	ethics-and-emotions	virtues_humility	ok		33	ethics-and-emotions:humility
 characters-and-roles:hidden_righteous	characters-and-roles	hidden_righteous	ok		32	
 ethics-and-emotions:joy	ethics-and-emotions	joy	ok		31	
 kabbalah	kabbalah		no-colon		31	
-social-relations:marriage_matchmaking	social-relations	marriage_matchmaking	ok		31	
-supernatural:demons	supernatural	demons	ok		31	
+social-relations:marriage_matchmaking	social-relations	marriage_matchmaking	ok		31	social:marriage
+supernatural:demons	supernatural	demons	ok		31	characters-and-roles:demons
 supernatural:light_or_fire_as_a_sign_of_righteousness	supernatural	light_or_fire_as_a_sign_of_righteousness	ok		31	
 supernatural:communicating_with_the_invisible	supernatural	communicating_with_the_invisible	ok		29	
-supernatural:miracle	supernatural	miracle	ok		29	
+supernatural:miracle	supernatural	miracle	ok		29	SHARPEN: only when text uses נס/מופת or discrete supernatural event (excl. ambient miraculousness; distinguish from supernatural:magic)
 not-a-hasidic-story:hagiography	not-a-hasidic-story	hagiography	ok		28	
 supernatural:reincarnation	supernatural	reincarnation	ok		28	
 practice:lifesaving	practice	lifesaving	ok		27	
@@ -58,80 +58,80 @@ practice:meditation	practice	meditation	ok		27
 practice:asceticism	practice	asceticism	ok		26	
 ethics-and-emotions:adultery	ethics-and-emotions	adultery	ok		25	
 spaces:the_land_of_israel	spaces	the_land_of_israel	ok		25	
-supernatural:angels	supernatural	angels	ok		25	
+supernatural:angels	supernatural	angels	ok		25	characters-and-roles:angels
 experience:enthusiasm	experience	enthusiasm	ok		24	
-halakhah	halakhah		no-colon		24	
-halakhah:tefillin	halakhah	tefillin	ok		24	
+halakhah	halakhah		no-colon		24	TBD:per-story-triage-to-practice
+halakhah:tefillin	halakhah	tefillin	ok		24	practice:tefillin
 practice:fasting	practice	fasting	ok		24	
-social-relations:disobedience	social-relations	disobedience	ok		24	
+social-relations:disobedience	social-relations	disobedience	ok		24	social:disobedience
 times:historical_event	times	historical_event	ok		24	
 ethics-and-emotions:shame	ethics-and-emotions	shame	ok		23	
 practice:devekut	practice	devekut	ok		23	
 spaces:mikveh	spaces	mikveh	ok		23	
-custom:hasidic_custom	custom	hasidic_custom	ok		22	
+custom:hasidic_custom	custom	hasidic_custom	ok		22	DROP
 ethics-and-emotions:lust	ethics-and-emotions	lust	ok		22	
-ethics-and-emotions:virtues_poverty	ethics-and-emotions	virtues_poverty	ok		22	
+ethics-and-emotions:virtues_poverty	ethics-and-emotions	virtues_poverty	ok		22	social:poverty
 practice:healing_of_the_soul	practice	healing_of_the_soul	ok		22	
 supernatural:pregnancy	supernatural	pregnancy	ok		22	
 experience:devekut	experience	devekut	ok		21	
-social-relations:marriage	social-relations	marriage	ok		21	
+social-relations:marriage	social-relations	marriage	ok		21	social:marriage
 ethics-and-emotions:lying	ethics-and-emotions	lying	ok		20	
 folkloristics:story_type_virtues	folkloristics	story_type_virtues	ok		20	
 practice:smoking	practice	smoking	ok		20	
-experience:mystical	experience	mystical	ok		19	
+experience:mystical	experience	mystical	ok		19	DROP
 practice:dance	practice	dance	ok		19	
 practice:solitude	practice	solitude	ok		19	
 times:birth	times	birth	ok		19	
 folkloristics:story_type_death_of_the_tsaddik	folkloristics	story_type_death_of_the_tsaddik	ok		18	
 folkloristics:story_type_protection	folkloristics	story_type_protection	ok		18	
-halakhah:kosher_slaughtering	halakhah	kosher_slaughtering	ok		18	
+halakhah:kosher_slaughtering	halakhah	kosher_slaughtering	ok		18	practice:ritual_slaughtering
 characters-and-roles:ritual_slaughterer	characters-and-roles	ritual_slaughterer	ok		17	
 experience:journey_to_heaven	experience	journey_to_heaven	ok		17	
 experience:visions	experience	visions	ok		17	
 kabbalah:kabbalistic_terms_yihudim	kabbalah	kabbalistic_terms_yihudim	ok		17	
 not-a-hasidic-story:sermon	not-a-hasidic-story	sermon	ok		17	
-social-relations:inter_hasidic_inheritance_of_leadership	social-relations	inter_hasidic_inheritance_of_leadership	ok		17	
-social-relations:competition	social-relations	competition	ok		16	
+social-relations:inter_hasidic_inheritance_of_leadership	social-relations	inter_hasidic_inheritance_of_leadership	ok		17	social:inter_hasidic_inheritance_of_leadership
+social-relations:competition	social-relations	competition	ok		16	social:competition
 characters-and-roles:elijah_the_prophet	characters-and-roles	elijah_the_prophet	ok		14	
 ethics-and-emotions:pride	ethics-and-emotions	pride	ok		14	
-halakhah:circumcision	halakhah	circumcision	ok		14	
+halakhah:circumcision	halakhah	circumcision	ok		14	practice:circumcision
 practice:drinking_alcohol	practice	drinking_alcohol	ok		14	
 characters-and-roles:preacher	characters-and-roles	preacher	ok		13	
 folkloristics:story_type_advent	folkloristics	story_type_advent	ok		13	
 practice:travel_to_other_tsaddik	practice	travel_to_other_tsaddik	ok		13	
 practice:use_of_holy_names	practice	use_of_holy_names	ok		13	
-social-relations:converts_and_conversion	social-relations	converts_and_conversion	ok		13	
+social-relations:converts_and_conversion	social-relations	converts_and_conversion	ok		13	social:converts_and_conversion
 supernatural:contraction_of_the_road	supernatural	contraction_of_the_road	ok		13	
-social-relations:with_sinners	social-relations	with_sinners	ok		12	
+social-relations:with_sinners	social-relations	with_sinners	ok		12	social:relations_with_sinners
 kabbalah:kabbalistic_terms_kavvanot	kabbalah	kabbalistic_terms_kavvanot	ok		11	
 practice:redemption_of_captives	practice	redemption_of_captives	ok		11	
-custom:pilgrimage_to_the_graves_of_tsaddikim	custom	pilgrimage_to_the_graves_of_tsaddikim	ok		10	
+custom:pilgrimage_to_the_graves_of_tsaddikim	custom	pilgrimage_to_the_graves_of_tsaddikim	ok		10	practice:pilgrimage_to_the_graves_of_tsaddikim
 ethics-and-emotions:awe	ethics-and-emotions	awe	ok		10	
 practice:coping_with_alien_thoughts	practice	coping_with_alien_thoughts	ok		10	
 practice:pilgrimage_to_the_graves_of_tsaddikim	practice	pilgrimage_to_the_graves_of_tsaddikim	ok		10	
 practice:sexual_abstinence	practice	sexual_abstinence	ok		10	
-supernatural:mystical_vision	supernatural	mystical_vision	ok		10	
+supernatural:mystical_vision	supernatural	mystical_vision	ok		10	experience:visions
 practice:business_advice	practice	business_advice	ok		9	
 practice:the_travels_of_the_tsaddik	practice	the_travels_of_the_tsaddik	ok		9	
 spaces:hell	spaces	hell	ok		9	
-social-relations:inter_hasidic_conflict_between_tsaddikim	social-relations	inter_hasidic_conflict_between_tsaddikim	ok		8	
+social-relations:inter_hasidic_conflict_between_tsaddikim	social-relations	inter_hasidic_conflict_between_tsaddikim	ok		8	social:inter_hasidic_conflict_between_tsaddikim
 times:inauguration	times	inauguration	ok		8	
 characters-and-roles:agunah	characters-and-roles	agunah	ok		7	
 complete	complete		no-colon		7	
 practice:pidyon_nefesh	practice	pidyon_nefesh	ok		7	
 practice:releasing_agunot	practice	releasing_agunot	ok		7	
-social-relations:divorce	social-relations	divorce	ok		7	
-supernatural:angel_of_death	supernatural	angel_of_death	ok		7	
+social-relations:divorce	social-relations	divorce	ok		7	social:divorce
+supernatural:angel_of_death	supernatural	angel_of_death	ok		7	characters-and-roles:angel_of_death
 characters-and-roles:messiah	characters-and-roles	messiah	ok		6	
-custom:clothing	custom	clothing	ok		6	
+custom:clothing	custom	clothing	ok		6	practice:clothing
 ethics-and-emotions:resisting_temptation	ethics-and-emotions	resisting_temptation	ok		6	
 experience:trembling	experience	trembling	ok		6	
 folkloristics:story_type_birth_of_the_tsaddik	folkloristics	story_type_birth_of_the_tsaddik	ok		6	
 folkloristics:story_type_revelation	folkloristics	story_type_revelation	ok		6	
 not-a-hasidic-story:virtues	not-a-hasidic-story	virtues	ok		6	
 practice:writing_amulets	practice	writing_amulets	ok		6	
-social-relations:excommunication	social-relations	excommunication	ok		6	
-spaces:institutions_beth_midrash	spaces	institutions_beth_midrash	ok		6	
+social-relations:excommunication	social-relations	excommunication	ok		6	social:excommunication
+spaces:institutions_beth_midrash	spaces	institutions_beth_midrash	ok		6	spaces:beth_midrash
 spaces:institutions_hassidic_court	spaces	institutions_hassidic_court	ok		6	
 times:eschatology	times	eschatology	ok		6	
 characters-and-roles:magician	characters-and-roles	magician	ok		5	
@@ -139,7 +139,7 @@ clothing	clothing		no-colon		5
 practice:failure	practice	failure	ok		5	
 practice:torat_ha_tsaddik	practice	torat_ha_tsaddik	ok		5	
 characters-and-roles:sabbatai_zevi	characters-and-roles	sabbatai_zevi	ok		4	
-halakhah:tvilah	halakhah	tvilah	ok		4	
+halakhah:tvilah	halakhah	tvilah	ok		4	practice:tvilah
 knowledge:secret_texts	knowledge	secret_texts	ok		4	
 practice:joke	practice	joke	ok		4	
 practice:music	practice	music	ok		4	
@@ -163,16 +163,16 @@ appearance:death_like	appearance	death_like	ok		1
 appearance:shaking	appearance	shaking	ok		1	
 appearance_shaking	appearance_shaking		no-colon		1	
 assistant:scribe	assistant	scribe	ok		1	
-assistant:scribe,practice:writing_amulets	assistant:scribe,practice:writing_amulets		bad-sep		1	
-assistant:scribe,profession:scribe	assistant:scribe,profession:scribe		bad-sep		1	
+assistant:scribe,practice:writing_amulets	assistant:scribe,practice:writing_amulets		bad-sep		1	SPLIT:characters-and-roles:scribe+practice:writing_amulets
+assistant:scribe,profession:scribe	assistant:scribe,profession:scribe		bad-sep		1	characters-and-roles:scribe
 authority	authority		no-colon		1	
 beverage:alcohol	beverage	alcohol	ok		1	
 body:nails	body	nails	ok		1	
 book:toldot_yaakov_yosef	book	toldot_yaakov_yosef	ok		1	
 business:leasing	business	leasing	ok		1	
 childhood	childhood		no-colon		1	
-clothing:white	clothing	white	ok		1	
-communal-position:ritual_slaughterer	communal-position	ritual_slaughterer	ok		1	
+clothing:white	clothing	white	ok		1	practice:clothing
+communal-position:ritual_slaughterer	communal-position	ritual_slaughterer	ok		1	characters-and-roles:ritual_slaughterer
 competition_with_doctor	competition_with_doctor		no-colon		1	
 concealment	concealment		no-colon		1	
 confirmation	confirmation		no-colon		1	
@@ -182,11 +182,11 @@ divination	divination		no-colon		1
 economy:currency	economy	currency	ok		1	
 esoteric-knowledge:divine_names	esoteric-knowledge	divine_names	ok		1	
 esoteric-knowledge:prohibition	esoteric-knowledge	prohibition	ok		1	
-ethics-and-emotions:prohibition_to_write	ethics-and-emotions	prohibition_to_write	ok		1	
-experience:communion_with_god	experience	communion_with_god	ok		1	
-experience:enlightenment	experience	enlightenment	ok		1	
-experience:mystical,appearance_shaking	experience:mystical,appearance_shaking		bad-sep		1	
-experience:mystical:gilui_eliyahu	experience	mystical:gilui_eliyahu	ok		1	
+ethics-and-emotions:prohibition_to_write	ethics-and-emotions	prohibition_to_write	ok		1	ethics-and-emotions:prohibitions
+experience:communion_with_god	experience	communion_with_god	ok		1	experience:devekut
+experience:enlightenment	experience	enlightenment	ok		1	experience:revelation
+experience:mystical,appearance_shaking	experience:mystical,appearance_shaking		bad-sep		1	SPLIT:experience:mystical(DROP)+appearance:shaking
+experience:mystical:gilui_eliyahu	experience	mystical:gilui_eliyahu	ok		1	experience:gilui_eliyahu
 financial-support-to-the-tsaddik	financial-support-to-the-tsaddik		no-colon		1	
 folkloristics:story_type_ joke	folkloristics	story_type_ joke	ok		1	
 mikveh	mikveh		no-colon		1	
@@ -194,29 +194,29 @@ non_jewish_property_owner	non_jewish_property_owner		no-colon		1
 not-a-hasidic-story:halakhah	not-a-hasidic-story	halakhah	ok		1	
 possession:horse	possession	horse	ok		1	
 poverty	poverty		no-colon		1	
-practice:asceticism_fasting	practice	asceticism_fasting	ok		1	
+practice:asceticism_fasting	practice	asceticism_fasting	ok		1	practice:fasting
 practice:clothing	practice	clothing	ok		1	
-practice:conversing_with_angels	practice	conversing_with_angels	ok		1	
+practice:conversing_with_angels	practice	conversing_with_angels	ok		1	supernatural:angels
 practice:magic,besht_as_kabbalist	practice:magic,besht_as_kabbalist		bad-sep		1	
 practice:magic:make_it_rain	practice	magic:make_it_rain	ok		1	
 practice:prayer,experience:shaking_during_prayer	practice:prayer,experience:shaking_during_prayer		bad-sep		1	
-practice:prayer:outside	practice	prayer:outside	ok		1	
-practice:prayer:sigh	practice	prayer:sigh	ok		1	
+practice:prayer:outside	practice	prayer:outside	ok		1	practice:prayer
+practice:prayer:sigh	practice	prayer:sigh	ok		1	practice:prayer
 practice:recitation_of_psalms	practice	recitation_of_psalms	ok		1	
 practice:ritual_bathing, practice:prayer	practice:ritual_bathing, practice:prayer		bad-sep		1	
 practice:ritual_slaughtering	practice	ritual_slaughtering	ok		1	
-practice:spiritual	practice	spiritual	ok		1	
-profession:melamed	profession	melamed	ok		1	
-profession:scribe	profession	scribe	ok		1	
-profession:tavern_keeper	profession	tavern_keeper	ok		1	
-profession:tavern_keeping,tavern_owner	profession:tavern_keeping,tavern_owner		bad-sep		1	
+practice:spiritual	practice	spiritual	ok		1	DROP
+profession:melamed	profession	melamed	ok		1	characters-and-roles:melamed
+profession:scribe	profession	scribe	ok		1	characters-and-roles:scribe
+profession:tavern_keeper	profession	tavern_keeper	ok		1	characters-and-roles:tavern_keeper
+profession:tavern_keeping,tavern_owner	profession:tavern_keeping,tavern_owner		bad-sep		1	characters-and-roles:tavern_keeper
 property:horse	property	horse	ok		1	
 radiance	radiance		no-colon		1	
 ritual	ritual		no-colon		1	
 ritual-ablution	ritual-ablution		no-colon		1	
 ritual:debate	ritual	debate	ok		1	
 ritual:third_meal	ritual	third_meal	ok		1	
-scriptures	scriptures		no-colon		1	
+scriptures	scriptures		no-colon		1	knowledge:secret_texts
 sefarad_custom	sefarad_custom		no-colon		1	
 self_esteem	self_esteem		no-colon		1	
 servant	servant		no-colon		1	
