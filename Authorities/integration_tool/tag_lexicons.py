@@ -200,8 +200,34 @@ DEFINITIONS = {
 }
 
 
+_MERGED_DEFS = None
+
+def _load_merged_defs():
+    global _MERGED_DEFS
+    if _MERGED_DEFS is not None:
+        return _MERGED_DEFS
+    import os, csv
+    here = os.path.dirname(os.path.abspath(__file__))
+    path = os.path.join(here, "..", "..", "editions", "tag-audit",
+                        "tag-definitions-merged.tsv")
+    out = {}
+    if os.path.exists(path):
+        with open(path, encoding="utf-8") as f:
+            for r in csv.DictReader(f, delimiter="\t"):
+                out[r["tag"]] = r["definition"]
+    _MERGED_DEFS = out
+    return out
+
+
 def definition(full_tag: str) -> str:
-    return DEFINITIONS.get(full_tag, full_tag.split(":")[-1].replace("_", " "))
+    # Priority: hand-curated DEFINITIONS dict (practice/kabbalah pilot) >
+    # merged Drive-sheet definitions > humanized sub-tag fallback.
+    if full_tag in DEFINITIONS:
+        return DEFINITIONS[full_tag]
+    merged = _load_merged_defs()
+    if full_tag in merged:
+        return merged[full_tag]
+    return full_tag.split(":")[-1].replace("_", " ")
 
 
 def detectability(full_tag: str) -> str:
