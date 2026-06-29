@@ -25,9 +25,9 @@ STORY_DIV_RE = re.compile(
     r'<div\b(?=[^>]*\btype="story")(?=[^>]*\bxml:id="([^"]+)")[^>]*>', re.UNICODE)
 
 
-def load_verdicts():
+def load_verdicts(path=VERDICTS_TSV):
     by_story = defaultdict(list)  # story_id -> [tag, ...]
-    with open(VERDICTS_TSV) as f:
+    with open(path) as f:
         for r in csv.DictReader(f, delimiter="\t"):
             by_story[r["story_id"]].append(r["tag"])
     return by_story
@@ -37,11 +37,13 @@ def main():
     ap = argparse.ArgumentParser()
     ap.add_argument("--dry-run", action="store_true")
     ap.add_argument("--apply", action="store_true")
+    ap.add_argument("--verdicts", default=str(VERDICTS_TSV),
+                    help="verdicts TSV to apply (default: llm-confirmed-verdicts.tsv)")
     args = ap.parse_args()
     if args.dry_run == args.apply:
         sys.exit("Use exactly one of --dry-run or --apply")
 
-    verdicts = load_verdicts()
+    verdicts = load_verdicts(args.verdicts)
     print(f"Verdicts loaded for {len(verdicts)} stories, "
           f"{sum(len(v) for v in verdicts.values())} (story,tag) inserts.")
 

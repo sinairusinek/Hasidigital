@@ -1,0 +1,30 @@
+RA-original pairs in XML:           4890
+Old LLM inserts (committed):        1984
+Patched Opus-confirmed (direct):    1012
+
+ADDS (new, not yet in XML):         684
+  direct:    373
+  propagated:311
+REMOVAL candidates:                 436
+  direct:    177
+  propagated:259
+
+Removals by category:
+  social                   391
+  ethics-and-emotions      23
+  characters-and-roles     16
+  spaces                   3
+  kabbalah                 2
+  supernatural             1
+
+Adds by category:
+  ethics-and-emotions      161
+  social                   145
+  folkloristics            106
+  supernatural             88
+  spaces                   77
+  times                    35
+  characters-and-roles     30
+  knowledge                24
+  experience               17
+  kabbalah                 1
