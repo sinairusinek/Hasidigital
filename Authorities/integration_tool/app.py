@@ -70,12 +70,19 @@ women_annotator = st.Page(
     icon="\u270f\ufe0f",
 )
 
+tag_audit = st.Page(
+    "pages/tag_audit.py",
+    title="Tag Audit",
+    icon="\U0001f3f7\ufe0f",
+)
+
 pg = st.navigation(
     {
         "Workflows": [edition_linker, csv_integrator],
         "Editions": [ner_review, edition_metadata],
         "Review": [person_review],
         "Women": [women_analysis, women_annotator],
+        "Tags": [tag_audit],
         "Maintenance": [dedup_review],
     }
 )
