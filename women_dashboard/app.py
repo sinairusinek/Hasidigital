@@ -30,6 +30,13 @@ EDITIONS_DIR = os.path.join(PROJECT_DIR, "editions", "online")
 APRIORI_PATH = os.path.join(PROJECT_DIR, "editions", "women-keywords-apriori.json")
 EMPIRICAL_PATH = os.path.join(PROJECT_DIR, "editions", "women-keywords-empirical.json")
 V2_TSV_PATH = os.path.join(PROJECT_DIR, "editions", "women-5tier-9editions-summary.tsv")
+# Tag-audit provenance: (story, tag) pairs inserted by the LLM audit, so the
+# dashboard can show RA-only vs RA+LLM-audited topics.
+TAG_AUDIT_DIR = os.path.join(PROJECT_DIR, "editions", "tag-audit")
+LLM_VERDICT_FILES = [
+    os.path.join(TAG_AUDIT_DIR, "llm-confirmed-verdicts.tsv"),          # old inserts
+    os.path.join(TAG_AUDIT_DIR, "llm-confirmed-verdicts-patched.tsv"),  # patched adds
+]
 
 # ── Data extraction (self-contained, no dependency on integration tool) ───────
 
@@ -148,6 +155,36 @@ def load_v2_categories() -> dict:
         row["story_id"]: ("no" if row["new_claude_5tier"] == "no-women" else "yes")
         for _, row in df.iterrows()
     }
+
+
+@st.cache_data(show_spinner=False)
+def load_llm_inserted() -> set:
+    """Set of (story_id, tag) pairs the LLM tag-audit added to the XML."""
+    pairs = set()
+    for path in LLM_VERDICT_FILES:
+        if not os.path.exists(path):
+            continue
+        d = pd.read_csv(path, sep="\t", dtype=str).fillna("")
+        if {"story_id", "tag"}.issubset(d.columns):
+            pairs.update(zip(d["story_id"], d["tag"]))
+    return pairs
+
+
+def apply_provenance(base_df: pd.DataFrame, ra_only: bool) -> pd.DataFrame:
+    """When ra_only, strip LLM-audit-inserted tags from each story's topics.
+    `category` is derived from women:* tags (never in the verdict files), so it
+    is unaffected — only the thematic topic co-occurrence changes."""
+    if not ra_only:
+        return base_df
+    inserted = load_llm_inserted()
+    if not inserted:
+        return base_df
+    out = base_df.copy()
+    out["topics"] = [
+        [t for t in tops if (sid, t) not in inserted]
+        for sid, tops in zip(out["story_id"], out["topics"])
+    ]
+    return out
 
 
 def build_v2_df(base_df: pd.DataFrame) -> pd.DataFrame:
@@ -505,6 +542,31 @@ _all = load_stories()
 annotated_editions = sorted(_all[_all["category"] != "no"]["edition"].unique())
 df = _all[_all["edition"].isin(annotated_editions)].copy()
 
+# ── Tag provenance toggle ─────────────────────────────────────────────────────
+_inserted = load_llm_inserted()
+_n_audit_in_df = sum(
+    1 for sid, tops in zip(df["story_id"], df["topics"]) for t in tops
+    if (sid, t) in _inserted
+)
+with st.sidebar:
+    st.markdown("### 🏷️ Tag provenance")
+    _prov = st.radio(
+        "Which thematic tags to count in the topic charts:",
+        ["RA + LLM-audited", "RA only"],
+        index=0,
+        help="The RA annotator's original tags, optionally enriched by the LLM "
+             "tag audit (multi-signal lexical+embedding+Sonnet/Opus). "
+             "Switches the Topics charts only; the women-presence categories are "
+             "unchanged. Removals from the precision audit apply once complete.",
+    )
+    st.caption(
+        f"{len(_inserted):,} LLM-audited (story,tag) pairs in the corpus · "
+        f"{_n_audit_in_df:,} fall in the displayed editions."
+    )
+
+ra_only = _prov == "RA only"
+df = apply_provenance(df, ra_only)
+
 # ── Tabs ──────────────────────────────────────────────────────────────────────
 
 tab_dist, tab_ed, tab_topics, tab_bycat, tab_v2 = st.tabs([
@@ -548,6 +610,11 @@ with tab_ed:
     show_per_edition_bars(df)
 
 with tab_topics:
+    if ra_only:
+        st.info("Showing **RA-only** tags — LLM-audited tags excluded from the topic charts.")
+    else:
+        st.success(f"Showing **RA + LLM-audited** tags — {_n_audit_in_df:,} audit-added "
+                   "tag instances included. Switch to *RA only* in the sidebar to compare.")
     st.subheader("Topic frequency difference")
     st.markdown(
         "This chart shows which topics are **disproportionately associated** with women-present stories "
