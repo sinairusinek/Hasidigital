@@ -134,11 +134,13 @@ def load_stories() -> pd.DataFrame:
                 topics.extend(_parse_ana(ana))
             topics = [t for t in topics if ":" in t and not t.startswith("TBD")]
             category = _collapse_category(_derive_category(topics))
+            n_words = len("".join(div.itertext()).split())
             rows.append({
                 "story_id": story_id,
                 "edition": edition,
                 "category": category,
                 "topics": topics,
+                "n_words": n_words,
             })
     return pd.DataFrame(rows)
 
@@ -326,6 +328,52 @@ def show_topic_diff(df: pd.DataFrame, cat_a: str, cat_b: str):
     )
     ax.set_title("Topic frequency difference: stories with vs stories without women", fontsize=11)
     ax.set_ylabel("Difference in story count")
+    ax.tick_params(axis="x", rotation=90, labelsize=7)
+    ax.axhline(0, color="gray", linewidth=0.8, linestyle="--")
+    ax.spines[["top", "right"]].set_visible(False)
+    plt.subplots_adjust(left=0.08, bottom=0.3)
+    st.pyplot(fig)
+    plt.close(fig)
+
+
+def show_topic_diff_normalized(df: pd.DataFrame, cat_a: str, cat_b: str,
+                               min_stories: int = 5, keep: int = 25):
+    """Length-normalized topic difference: tagged-stories per 1,000 words of
+    text in each group, so the comparison isn't dominated by women stories
+    being longer (and therefore accumulating more tags)."""
+    words = df.groupby("category")["n_words"].sum()
+    if cat_a not in words.index or cat_b not in words.index or \
+            words.get(cat_a, 0) == 0 or words.get(cat_b, 0) == 0:
+        st.info(f"Not enough annotated data for {cat_a} vs {cat_b}.")
+        return
+    exploded = df.explode("topics")
+    exploded = exploded[~exploded["topics"].str.startswith("women:", na=False)]
+    exploded = exploded[exploded["topics"].str.contains(":", na=False)]
+    counts = (
+        exploded.groupby(["category", "topics"])["story_id"]
+        .nunique().unstack(fill_value=0)
+    )
+    if cat_a not in counts.index or cat_b not in counts.index:
+        st.info(f"Not enough annotated data for {cat_a} vs {cat_b}.")
+        return
+    # tagged stories per 1,000 words within each group
+    rate_a = counts.loc[cat_a] / words[cat_a] * 1000
+    rate_b = counts.loc[cat_b] / words[cat_b] * 1000
+    total = counts.loc[cat_a] + counts.loc[cat_b]
+    diff = (rate_a - rate_b)[total >= min_stories].sort_values(ascending=False)
+    if diff.empty:
+        st.info("Not enough data.")
+        return
+    n = len(diff)
+    if n > keep * 2:
+        diff = diff.iloc[list(range(keep)) + list(range(n - keep, n))]
+
+    fig, ax = plt.subplots(figsize=(14, 5))
+    diff.plot(kind="bar", ax=ax,
+              color=["#A9D18E" if v >= 0 else "#FF8080" for v in diff])
+    ax.set_title("Length-normalized topic difference: women vs non-women "
+                 "(tagged stories per 1,000 words)", fontsize=11)
+    ax.set_ylabel("Δ tagged-stories / 1,000 words")
     ax.tick_params(axis="x", rotation=90, labelsize=7)
     ax.axhline(0, color="gray", linewidth=0.8, linestyle="--")
     ax.spines[["top", "right"]].set_visible(False)
@@ -625,6 +673,18 @@ with tab_topics:
     show_topic_diff(df, "yes", "no")
 
     st.markdown("---")
+    st.subheader("Length-normalized topic difference")
+    st.markdown(
+        "The chart above counts stories, so it is sensitive to **story length**: women-present "
+        "stories are longer on average and accumulate more tags (especially after the LLM audit, "
+        "which adds proportionally more to longer stories). This chart controls for that by "
+        "measuring **tagged stories per 1,000 words** of text within each group, then taking the "
+        "difference. Topics that stay strongly positive here are women-associated *beyond* what "
+        "story length alone would explain."
+    )
+    show_topic_diff_normalized(df, "yes", "no")
+
+    st.markdown("---")
     st.subheader("Women presence by topic — relative frequency")
     st.markdown(
         "Each bar represents one topic. The bar shows the **proportion** of stories tagged with that topic "
@@ -717,6 +777,13 @@ with tab_v2:
         "(red, −), under the Version 2 categorization."
     )
     show_topic_diff(df_v2, "yes", "no")
+
+    st.markdown("---")
+    st.subheader("Length-normalized topic difference")
+    st.markdown(
+        "Tagged stories per 1,000 words of text (controls for women stories being longer)."
+    )
+    show_topic_diff_normalized(df_v2, "yes", "no")
 
     st.markdown("---")
     st.subheader("Women presence by topic — relative frequency")
