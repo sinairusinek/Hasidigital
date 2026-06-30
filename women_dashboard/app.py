@@ -37,6 +37,12 @@ LLM_VERDICT_FILES = [
     os.path.join(TAG_AUDIT_DIR, "llm-confirmed-verdicts.tsv"),          # old inserts
     os.path.join(TAG_AUDIT_DIR, "llm-confirmed-verdicts-patched.tsv"),  # patched adds
 ]
+# Precision-audit removals — subtracted so the provenance set reflects the tags
+# currently in the corpus, not every tag ever inserted.
+LLM_REMOVAL_FILES = [
+    os.path.join(TAG_AUDIT_DIR, "old-inserts-removals.tsv"),
+    os.path.join(TAG_AUDIT_DIR, "patched-propagated-removals.tsv"),
+]
 
 # ── Data extraction (self-contained, no dependency on integration tool) ───────
 
@@ -161,15 +167,18 @@ def load_v2_categories() -> dict:
 
 @st.cache_data(show_spinner=False)
 def load_llm_inserted() -> set:
-    """Set of (story_id, tag) pairs the LLM tag-audit added to the XML."""
-    pairs = set()
-    for path in LLM_VERDICT_FILES:
-        if not os.path.exists(path):
-            continue
-        d = pd.read_csv(path, sep="\t", dtype=str).fillna("")
-        if {"story_id", "tag"}.issubset(d.columns):
-            pairs.update(zip(d["story_id"], d["tag"]))
-    return pairs
+    """Set of (story_id, tag) pairs the LLM tag-audit added and that still
+    survive in the corpus (verdict-file inserts minus precision-audit removals)."""
+    def _pairs(paths):
+        out = set()
+        for path in paths:
+            if not os.path.exists(path):
+                continue
+            d = pd.read_csv(path, sep="\t", dtype=str).fillna("")
+            if {"story_id", "tag"}.issubset(d.columns):
+                out.update(zip(d["story_id"], d["tag"]))
+        return out
+    return _pairs(LLM_VERDICT_FILES) - _pairs(LLM_REMOVAL_FILES)
 
 
 def apply_provenance(base_df: pd.DataFrame, ra_only: bool) -> pd.DataFrame:
