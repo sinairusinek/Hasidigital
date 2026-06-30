@@ -205,20 +205,34 @@ consecutive-error circuit-breaker.
 
 This is the **first non-additive step** in the program.
 
+## Layer 8′ — Patched propagated-adds audit (Jun 30, commit pending)
+
+The 280 *propagated* adds from L5′ were also never directly judged. Audited
+directly with Opus-4.7 (`audit_patched_propagated.py`): **279/280 judged
+(1 parse error), 120 confirm / 158 reject (57%) → 152 removed** (RA-guard
+clean). **This is the strongest indictment of propagation yet:** these tags
+were propagated from *properly-defined, Opus-confirmed* sources, and still
+fail direct re-judgment at 57%. So the ~64%/57% propagation failure is driven
+by the **near-duplicate-copy mechanism itself**, not by definition quality —
+near-duplicates (cosine ≥ 0.99) are simply not interchangeable for thematic
+presence. **Recommendation going forward: do not auto-propagate thematic tags
+to near-duplicates; judge each story directly, or treat propagated tags as
+candidates only.**
+
 ---
 
-## Final corpus state (2026-06-30)
+## Final corpus state (2026-06-30, after both removal passes)
 
 | Component | (story,tag) pairs |
 |---|---:|
-| **Total in XML** | **6,625** |
+| **Total in XML** | **6,473** |
 | RA-original (untouched) | 4,890 |
-| LLM net contribution | 1,735 |
-|  — surviving old-definition inserts | 1,125 |
-|  — patched-definition adds | 610 |
+| LLM net contribution | 1,583 |
 
-The LLM layer peaked at +2,524 inserts (1,914 original + 610 patched) and the
-precision audit pruned it to **+1,735 net** by removing 789 over-tags.
+The LLM layer peaked at +2,524 inserts (1,914 original + 610 patched). Two
+direct-audit removal passes pruned it: **−789** (old weak-def inserts, L8)
+and **−152** (patched propagated adds, L8′) → **+1,583 net**. RA's 4,890 are
+untouched throughout.
 
 ---
 
@@ -350,12 +364,15 @@ their last successful write; **the cache is the truth**, not the summary TSVs.
 
 ## Open work
 
-1. **Human adjudication anchor** — ~100 disagreement cases (50 each direction),
-   expert-judged, to measure Opus's *own* accuracy. Highest-value next step.
-2. **Audit the L5′ patched propagated adds (280)** directly, the same way L8
-   audited the old propagated inserts — they were not directly judged.
+1. **Human adjudication anchor** — IN PROGRESS. 100 blind cases prepared
+   (`human-adjudication-anchor.tsv`, 50 confirm / 50 reject); awaiting an
+   expert's verdicts, then `score_human_anchor.py` reports Opus accuracy.
+   Highest-value remaining step.
+2. ~~Audit the L5′ patched propagated adds~~ — DONE (L8′ above): 152 removed.
 3. **Larger Sonnet-False sample (~500)** to tighten the under-tag CI.
 4. **RA precision pass** — Opus on a stratified ~500 RA-tagged sample to put a
    number on RA over-tagging.
 5. **Funnel recall on abstract categories** — lower top-K / sharper embeddings
    / extended lexicon to close the 20–24% miss on ethics/knowledge/supernatural.
+6. **Propagation policy** — given L8/L8′ (57–64% of propagated tags fail direct
+   re-judgment), drop or downgrade near-duplicate propagation in future runs.

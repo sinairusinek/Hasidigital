@@ -64,11 +64,13 @@ def main():
     ap = argparse.ArgumentParser()
     ap.add_argument("--dry-run", action="store_true")
     ap.add_argument("--apply", action="store_true")
+    ap.add_argument("--removals", default=str(REMOVALS_TSV),
+                    help="removal-list TSV (default: old-inserts-removals.tsv)")
     args = ap.parse_args()
     if args.dry_run == args.apply:
         sys.exit("Use exactly one of --dry-run or --apply")
 
-    removals = load_pairs(REMOVALS_TSV)
+    removals = load_pairs(args.removals)
     # Hard guard: RA-original = in XML but not any LLM insert.
     ra = xml_pairs() - load_pairs(OLD_VERDICTS) - load_pairs(PATCHED_ADDS)
     collision = removals & ra
