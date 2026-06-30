@@ -827,12 +827,13 @@ df = apply_provenance(df, ra_only)
 
 # ── Tabs ──────────────────────────────────────────────────────────────────────
 
-tab_dist, tab_ed, tab_topics, tab_bycat, tab_v2 = st.tabs([
+tab_dist, tab_ed, tab_topics, tab_bycat, tab_v2, tab_kw = st.tabs([
     "📊 Distribution",
     "📚 By edition",
     "🏷️ Women and other Topics",
     "📂 By topic category",
     "👤 Refining women presence",
+    "🔤 Keyword exhibit",
 ])
 
 with tab_dist:
@@ -929,6 +930,9 @@ with tab_bycat:
             key="topic_cat_sel",
         )
         show_relative_frequency_by_category(df, cat_sel)
+
+with tab_kw:
+    show_keyword_exhibit()
 
 with tab_v2:
     st.subheader("Refining women presence — the agency gradient")
