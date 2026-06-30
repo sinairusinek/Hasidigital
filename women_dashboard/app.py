@@ -492,6 +492,207 @@ def show_relative_frequency_by_category(df: pd.DataFrame, top_category: str, min
     plt.close(fig)
 
 
+# ── 5-tier "agency" layer (Refining women presence) ───────────────────────────
+
+TIER_RAW = {"no-women": "no", "mention-only": "mention", "minor-character": "minor",
+            "catalyst-character": "catalyst", "major-character": "major"}
+TIER_ORDER = ["no", "mention", "minor", "catalyst", "major"]
+TIER_LABEL = {"no": "no women", "mention": "mention-only", "minor": "minor",
+              "catalyst": "catalyst", "major": "major"}
+TIER_COLORS = {"no": "#D9D9D9", "mention": "#FFE0B2", "minor": "#FDB45C",
+               "catalyst": "#F57C00", "major": "#BF360C"}
+AGENT_TIERS = {"catalyst", "major"}
+WOMEN_TIERS = ["mention", "minor", "catalyst", "major"]
+
+
+@st.cache_data(show_spinner=False)
+def load_tiers() -> dict:
+    """story_id → {tier, collective(bool), confidence} from the 5-tier TSV."""
+    out = {}
+    if not os.path.exists(V2_TSV_PATH):
+        return out
+    d = pd.read_csv(V2_TSV_PATH, sep="\t", dtype=str).fillna("")
+    for _, r in d.iterrows():
+        out[r["story_id"]] = {
+            "tier": TIER_RAW.get(r.get("new_claude_5tier", ""), "no"),
+            "collective": str(r.get("new_collective", "")).strip().lower() == "true",
+            "confidence": (r.get("new_confidence", "") or "").strip().lower(),
+        }
+    return out
+
+
+def build_tier_df(base_df: pd.DataFrame, high_only: bool = False) -> pd.DataFrame:
+    tiers = load_tiers()
+    rows = base_df[base_df["story_id"].isin(tiers)].copy()
+    rows["tier"] = rows["story_id"].map(lambda s: tiers[s]["tier"])
+    rows["collective"] = rows["story_id"].map(lambda s: tiers[s]["collective"])
+    rows["confidence"] = rows["story_id"].map(lambda s: tiers[s]["confidence"])
+    if high_only:
+        rows = rows[rows["confidence"] == "high"]
+    return rows
+
+
+def _explode_themes(tdf: pd.DataFrame) -> pd.DataFrame:
+    e = tdf.explode("topics").dropna(subset=["topics"])
+    e = e[e["topics"].str.contains(":", na=False)]
+    return e[~e["topics"].str.startswith("women:", na=False)]
+
+
+def show_agency_funnel(tdf: pd.DataFrame):
+    counts = tdf["tier"].value_counts()
+    total = len(tdf)
+    present = int(sum(counts.get(t, 0) for t in WOMEN_TIERS))
+    agents = int(sum(counts.get(t, 0) for t in AGENT_TIERS))
+    c1, c2, c3, c4 = st.columns(4)
+    c1.metric("Stories", total)
+    c2.metric("Women present", present, f"{present/total*100:.0f}%")
+    c3.metric("Women as agents", agents,
+              f"{agents/present*100:.0f}% of present" if present else "")
+    c4.metric("Women as major char.", int(counts.get("major", 0)))
+    # single stacked horizontal composition bar
+    fig, ax = plt.subplots(figsize=(12, 1.6))
+    left = 0
+    for t in TIER_ORDER:
+        n = int(counts.get(t, 0))
+        if not n:
+            continue
+        ax.barh(0, n, left=left, color=TIER_COLORS[t], edgecolor="white")
+        if n >= total * 0.03:
+            ax.text(left + n / 2, 0, f"{TIER_LABEL[t]}\n{n}", ha="center",
+                    va="center", fontsize=8,
+                    color="white" if t in ("catalyst", "major") else "#333")
+        left += n
+    ax.set_xlim(0, total); ax.set_ylim(-0.5, 0.5)
+    ax.axis("off")
+    ax.set_title("The agency gradient — most “women presence” is incidental",
+                 fontsize=11)
+    plt.tight_layout(); st.pyplot(fig); plt.close(fig)
+
+
+def show_agency_by_topic(tdf: pd.DataFrame, min_stories: int = 6, top_n: int = 18):
+    """For each theme, the tier composition among its women-present stories,
+    sorted by agency share (catalyst+major). Shows where women ACT vs are named."""
+    e = _explode_themes(tdf)
+    e = e[e["tier"] != "no"]  # women-present only
+    comp = (e.groupby(["topics", "tier"])["story_id"].nunique()
+            .unstack(fill_value=0).reindex(columns=WOMEN_TIERS, fill_value=0))
+    comp = comp[comp.sum(axis=1) >= min_stories]
+    if comp.empty:
+        st.info(f"No themes with ≥{min_stories} women-present stories.")
+        return
+    totals = comp.sum(axis=1)
+    agency = (comp["catalyst"] + comp["major"]) / totals
+    order = agency.sort_values(ascending=True).index
+    if len(order) > top_n:
+        order = list(order[:top_n // 2]) + list(order[-top_n // 2:])
+    comp, totals = comp.loc[order], totals.loc[order]
+    rel = comp.div(totals, axis=0)
+    fig, ax = plt.subplots(figsize=(12, max(4, len(order) * 0.32 + 1)))
+    left = pd.Series(0.0, index=order)
+    for t in WOMEN_TIERS:
+        ax.barh(range(len(order)), rel[t], left=left, color=TIER_COLORS[t],
+                edgecolor="white", label=TIER_LABEL[t])
+        left += rel[t]
+    ax.set_yticks(range(len(order)))
+    ax.set_yticklabels([f"{i}  (n={int(totals[i])})" for i in order], fontsize=8)
+    ax.set_xlim(0, 1); ax.set_xlabel("share of the theme's women-present stories")
+    ax.set_title("Women's role by theme — bottom = women named, top = women act",
+                 fontsize=11)
+    ax.legend(ncol=4, bbox_to_anchor=(0.5, -0.08), loc="upper center", fontsize=8,
+              frameon=False)
+    ax.spines[["top", "right"]].set_visible(False)
+    plt.tight_layout(); st.pyplot(fig); plt.close(fig)
+
+
+def show_diachronic_agency(tdf: pd.DataFrame):
+    """% women-present and % women-agent per edition, ordered by year."""
+    rows = []
+    for ed, g in tdf.groupby("edition"):
+        n = len(g)
+        if n < 5:
+            continue
+        present = (g["tier"] != "no").sum()
+        agent = g["tier"].isin(AGENT_TIERS).sum()
+        rows.append((ed, EDITION_YEARS.get(ed, 0), n,
+                     present / n * 100, agent / n * 100))
+    rows.sort(key=lambda r: r[1])
+    if not rows:
+        st.info("Not enough data.")
+        return
+    labels = [f"{r[0]}\n{r[1]}" for r in rows]
+    x = range(len(rows))
+    fig, ax = plt.subplots(figsize=(12, 4.5))
+    ax.plot(x, [r[3] for r in rows], "-o", color="#ED7D31", label="% women present")
+    ax.plot(x, [r[4] for r in rows], "-o", color="#BF360C", label="% women as agents")
+    ax.fill_between(x, [r[4] for r in rows], color="#BF360C", alpha=0.08)
+    ax.set_xticks(list(x)); ax.set_xticklabels(labels, fontsize=8, rotation=30, ha="right")
+    ax.set_ylabel("% of edition's stories"); ax.set_ylim(0, None)
+    ax.set_title("Women presence vs women agency across the editions (by year)",
+                 fontsize=11)
+    for i, r in enumerate(rows):
+        ax.annotate(f"n={r[2]}", (i, max(r[3], r[4])), textcoords="offset points",
+                    xytext=(0, 6), ha="center", fontsize=7, color="#888")
+    ax.legend(frameon=False); ax.spines[["top", "right"]].set_visible(False)
+    plt.tight_layout(); st.pyplot(fig); plt.close(fig)
+
+
+def show_agency_length(tdf: pd.DataFrame):
+    """Story length by tier — do substantive women roles need narrative space?"""
+    data = [tdf[tdf["tier"] == t]["n_words"].values for t in TIER_ORDER]
+    fig, ax = plt.subplots(figsize=(11, 4))
+    bp = ax.boxplot(data, showfliers=False, patch_artist=True,
+                    medianprops=dict(color="black"))
+    ax.set_xticks(range(1, len(TIER_ORDER) + 1))
+    ax.set_xticklabels([TIER_LABEL[t] for t in TIER_ORDER])
+    for patch, t in zip(bp["boxes"], TIER_ORDER):
+        patch.set_facecolor(TIER_COLORS[t])
+    medians = [int(pd.Series(d).median()) if len(d) else 0 for d in data]
+    for i, m in enumerate(medians, 1):
+        ax.text(i, m, f" {m}w", va="bottom", ha="center", fontsize=8, color="#333")
+    ax.set_ylabel("words per story"); ax.set_title(
+        "Story length by women's role (median labelled)", fontsize=11)
+    ax.spines[["top", "right"]].set_visible(False)
+    plt.tight_layout(); st.pyplot(fig); plt.close(fig)
+
+
+def show_collective_spotlight(tdf: pd.DataFrame, min_stories: int = 3):
+    coll = tdf[tdf["collective"]]
+    if coll.empty:
+        st.info("No collective-women stories under the current filter.")
+        return
+    st.caption(f"{len(coll)} stories depict women as a **collective** "
+               "(a group — wives, daughters, the women of a town) rather than individuals.")
+    # tier split of collective vs individual women-present
+    present = tdf[tdf["tier"] != "no"]
+    indiv = present[~present["collective"]]
+    rows = []
+    for label, g in [("collective", coll[coll["tier"] != "no"]), ("individual", indiv)]:
+        n = len(g)
+        if n:
+            rows.append({"group": f"{label} (n={n})",
+                         **{TIER_LABEL[t]: (g["tier"] == t).sum() / n for t in WOMEN_TIERS}})
+    c1, c2 = st.columns(2)
+    if rows:
+        comp = pd.DataFrame(rows).set_index("group")
+        fig, ax = plt.subplots(figsize=(6, 2.4))
+        comp.plot(kind="barh", stacked=True, ax=ax,
+                  color=[TIER_COLORS[t] for t in WOMEN_TIERS])
+        ax.set_xlim(0, 1); ax.set_xlabel("share"); ax.set_title("Role: collective vs individual", fontsize=10)
+        ax.legend(ncol=4, bbox_to_anchor=(0.5, -0.25), loc="upper center", fontsize=7, frameon=False)
+        ax.spines[["top", "right"]].set_visible(False)
+        plt.tight_layout(); c1.pyplot(fig); plt.close(fig)
+    # top themes among collective stories
+    e = _explode_themes(coll)
+    top = e.groupby("topics")["story_id"].nunique().sort_values(ascending=False)
+    top = top[top >= min_stories].head(12)
+    if not top.empty:
+        fig, ax = plt.subplots(figsize=(6, 2.4 + len(top) * 0.18))
+        top.sort_values().plot(kind="barh", ax=ax, color="#F57C00")
+        ax.set_xlabel("collective-women stories"); ax.set_title("Themes with collective women", fontsize=10)
+        ax.spines[["top", "right"]].set_visible(False)
+        plt.tight_layout(); c2.pyplot(fig); plt.close(fig)
+
+
 def show_keyword_exhibit():
     st.subheader("Keyword vocabulary exhibit")
     st.markdown(
@@ -631,7 +832,7 @@ tab_dist, tab_ed, tab_topics, tab_bycat, tab_v2 = st.tabs([
     "📚 By edition",
     "🏷️ Women and other Topics",
     "📂 By topic category",
-    "✨ Version 2",
+    "👤 Refining women presence",
 ])
 
 with tab_dist:
@@ -730,92 +931,53 @@ with tab_bycat:
         show_relative_frequency_by_category(df, cat_sel)
 
 with tab_v2:
-    st.subheader("Version 2 — binary categorization from the 5-tier scheme")
+    st.subheader("Refining women presence — the agency gradient")
     st.markdown(
-        "All charts below use the **same binary yes/no labels**, but the categorization is derived from the "
-        "new 5-tier annotation in `editions/women-5tier-9editions-summary.tsv`: "
-        "**no-women** → *no*; **mention-only / minor / catalyst / major** → *yes*. "
-        "The original tab uses the binary tags currently in the XML; this tab lets you see how the picture "
-        "shifts under the refined scheme before it is written back to the editions."
+        "The other tabs use a **binary** women / no-women split (the collapse of a finer scheme). "
+        "But binary presence hides *what women actually do*. The "
+        "[5-tier annotation](https://hasidic-stories.org) "
+        "(`editions/women-5tier-9editions-summary.tsv`, 652 stories) grades each story:\n\n"
+        "- **no women** — no women in the story.\n"
+        "- **mention-only** — a woman is named or referred to, but does nothing in the plot.\n"
+        "- **minor** — a woman acts, but at the margins of the story.\n"
+        "- **catalyst** — a woman drives the plot without being its main subject (the spark).\n"
+        "- **major** — a woman is a central character.\n\n"
+        "Collapsed to yes/no these tabs match the binary view exactly. The charts below instead "
+        "**keep the gradient**, to ask: *in which stories, themes, and periods do women act rather "
+        "than merely appear?* **mention-only + minor are presence; catalyst + major are agency.**"
     )
 
-    df_v2 = build_v2_df(df)
-
-    v2_mapping_size = len(load_v2_categories())
-    n_overrides = int((df_v2["category"] != df["category"]).sum())
-    st.caption(
-        f"5-tier TSV covers {v2_mapping_size} stories; "
-        f"{n_overrides} of the {len(df_v2)} stories in this corpus changed category vs. the XML tags."
+    high_only = st.toggle(
+        "High-confidence annotations only",
+        value=False,
+        help="Restrict to the 499 stories the 5-tier annotator marked high-confidence.",
     )
+    tdf = build_tier_df(df, high_only=high_only)
+
+    st.markdown("### 1 · The agency gradient")
+    st.caption("Most “women presence” is incidental: of all women-present stories, only ~30% give a "
+               "woman agency (catalyst or major).")
+    show_agency_funnel(tdf)
 
     st.markdown("---")
-    st.subheader("Women presence in stories, across the editions")
-    summary_v2 = (
-        df_v2.groupby("category")["story_id"].nunique()
-        .reindex(CATEGORY_ORDER, fill_value=0)
-        .reset_index()
-        .rename(columns={"story_id": "stories", "category": "Women present"})
-    )
-    summary_v2["% of total"] = (
-        summary_v2["stories"] / summary_v2["stories"].sum() * 100
-    ).round(1)
-    col_title_v2, col_table_v2 = st.columns([3, 1])
-    col_table_v2.dataframe(summary_v2, use_container_width=True, hide_index=True)
-
-    col_sel_v2, _ = st.columns([1, 2])
-    _opts_v2 = ["(all editions)"] + annotated_editions
-    _default_idx_v2 = (_opts_v2.index("Shivhei-Habesht") if "Shivhei-Habesht" in _opts_v2 else 1)
-    edition_sel_v2 = col_sel_v2.selectbox(
-        "Select an edition for comparison:",
-        _opts_v2,
-        index=_default_idx_v2,
-        format_func=lambda e: e if e == "(all editions)"
-            else f"{e} ({EDITION_YEARS[e]})" if e in EDITION_YEARS else e,
-        key="v2_edition_sel",
-    )
-    show_distribution(df_v2, edition_sel_v2 if edition_sel_v2 != "(all editions)" else None)
+    st.markdown("### 2 · Women's role by theme")
+    st.caption("For each theme, the composition of its women-present stories across the gradient, sorted "
+               "by agency share. Themes at the **bottom** feature women who are merely named; themes at "
+               "the **top** feature women who act.")
+    show_agency_by_topic(tdf)
 
     st.markdown("---")
-    st.subheader("Per-edition breakdown")
-    show_per_edition_bars(df_v2)
+    st.markdown("### 3 · Agency across time")
+    st.caption("Does women's *presence* and *agency* shift across the 19th-century editions? Each point is "
+               "an edition, ordered by publication year.")
+    show_diachronic_agency(tdf)
 
     st.markdown("---")
-    st.subheader("Topic frequency difference")
-    st.markdown(
-        "Topics disproportionately associated with women-present stories (green, +) vs. women-absent stories "
-        "(red, −), under the Version 2 categorization."
-    )
-    show_topic_diff(df_v2, "yes", "no")
+    st.markdown("### 4 · Role and story length")
+    st.caption("Do substantive women roles need narrative space? Story length by tier — also a control for "
+               "the length confound behind the raw topic-association charts.")
+    show_agency_length(tdf)
 
     st.markdown("---")
-    st.subheader("Length-normalized topic difference")
-    st.markdown(
-        "Tagged stories per 1,000 words of text (controls for women stories being longer)."
-    )
-    show_topic_diff_normalized(df_v2, "yes", "no")
-
-    st.markdown("---")
-    st.subheader("Women presence by topic — relative frequency")
-    st.markdown(
-        "Each bar is one topic; orange share = proportion of its stories in which women are present (V2). "
-        "Topics with fewer than 5 stories are excluded."
-    )
-    show_relative_frequency_all(df_v2)
-
-    st.markdown("---")
-    st.subheader("Women presence by topic category")
-    st.markdown(
-        "Same view as the *By topic category* tab, but using the Version 2 categorization."
-    )
-    all_topic_vals_v2 = [t for row in df_v2["topics"] for t in (row if isinstance(row, list) else [])]
-    subtopic_counts_v2 = Counter(t for t in all_topic_vals_v2 if ":" in t and not t.startswith("women:"))
-    top_cats_v2 = sorted({t.split(":")[0] for t, n in subtopic_counts_v2.items() if n >= 3})
-    if top_cats_v2:
-        _default_cat_v2 = "practice" if "practice" in top_cats_v2 else top_cats_v2[0]
-        cat_sel_v2 = st.selectbox(
-            "Topic category",
-            top_cats_v2,
-            index=top_cats_v2.index(_default_cat_v2),
-            key="topic_cat_sel_v2",
-        )
-        show_relative_frequency_by_category(df_v2, cat_sel_v2)
+    st.markdown("### 5 · Women as a collective")
+    show_collective_spotlight(tdf)
