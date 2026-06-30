@@ -953,6 +953,13 @@ with tab_v2:
         help="Restrict to the 499 stories the 5-tier annotator marked high-confidence.",
     )
     tdf = build_tier_df(df, high_only=high_only)
+    if tdf.empty:
+        st.warning(
+            "The 5-tier annotation file "
+            "(`editions/women-5tier-9editions-summary.tsv`) is not available, so the "
+            "agency views can't be shown. The binary tabs are unaffected."
+        )
+        st.stop()
 
     st.markdown("### 1 · The agency gradient")
     st.caption("Most “women presence” is incidental: of all women-present stories, only ~30% give a "
