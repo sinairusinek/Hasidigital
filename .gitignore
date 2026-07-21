@@ -36,3 +36,23 @@ editions/tag-audit/**/.progress.json
 editions/tag-audit/**/*.log
 editions/tag-audit/**/adjudication-queue*.tsv
 editions/tag-audit/**/*.prefix.bak
+
+# Worktrees (local)
+.worktrees/
+
+# Root-level run logs (regenerable)
+correction-run.log
+run_corrections.log
+
+# Incoming editions: page images & upload staging (too large for git; XMLs ARE tracked)
+editions/incoming/**/*.jpg
+editions/incoming/for-upload/
+
+# Backup files
+*.bak
+
+# tag-audit rerun logs & chain outputs (volatile)
+editions/tag-audit/.rerun-logs/
+
+# Local-only Claude settings
+.claude/settings.local.json
