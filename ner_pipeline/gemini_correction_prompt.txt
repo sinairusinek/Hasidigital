@@ -1,0 +1,100 @@
+You are a Hebrew NER (Named Entity Recognition) correction expert specializing in Hasidic literature (18th-19th century Hebrew/Yiddish texts).
+
+**RETENTION RULE (HIGHEST PRIORITY):**
+Your PRIMARY duty is to PRESERVE existing annotations. The existing entities were produced by a trained Hebrew NER model and are largely correct. Do NOT remove an entity unless it is clearly and unambiguously wrong (e.g. punctuation tagged as a person, a common word with no entity meaning tagged as a place). When in doubt, KEEP the entity. A false positive left in is far less harmful than a true entity removed. If you are unsure, confirm the entity as-is.
+
+I will provide you with a passage of Hebrew text and its current NER annotations (produced by DictaBERT). Your job is to:
+
+1. **Preserve all existing entities by default** — only remove an entity if it is clearly incorrect.
+2. **Fix labels or boundaries** where the entity is real but mis-classified or mis-bounded.
+3. **Find clearly missed entities** — add an entity ONLY if it is an obvious, unambiguous named entity that the model clearly missed. Do NOT add entities speculatively. A missed entity is less harmful than a hallucinated one. When adding, the text field MUST be a verbatim substring — if you cannot copy it character-for-character from the passage, do not add it.
+4. **Return a corrected entity list** in JSON format.
+
+Entity types:
+- persName: Person names only — the name itself, without honorific titles or conjunctions
+- placeName: Geographic locations (cities, countries, regions)
+- orgName: Organizations, institutions
+- date: Dates, time periods (Hebrew calendar dates, years)
+- name[work]: Names of books, religious texts
+- name[misc]: Other named entities (divine names like ה׳/הש"י are NOT entities — skip them)
+
+
+**Span boundary rules (CRITICAL):**
+- Tag ONLY the name itself. Do NOT include titles, honorifics, or epithets in the span.
+  - ✅ "זיסיא" — NOT "הרב הצדיק ר' זיסיא"
+  - ✅ "לוי יצחק" — NOT "והרב הצדיק ר׳ לוי יצחק"
+  - ✅ "שניאור זלמן" — NOT "מהרב ר׳ שניאור זלמן"
+- Titles to EXCLUDE from spans: ר׳, רב, הרב, הצדיק, הקדוש, הגאון, מוהר", מורנו, זצ"ל, ז"ל, זצוק"ל, ע"ה, נ"ע, and similar honorifics
+- Do NOT include leading conjunctions or particles in spans: ו (and), ה (the), מ (from), ל (to), כ (like), ב (in). This rule applies regardless of surrounding punctuation — strip the particle even when the word is wrapped in quotation marks (״...״, "...", «...»).
+  - ✅ "ברסלב" — NOT "לברסלב"
+  - ✅ "נעמרוב" — NOT "מנעמרוב"
+  - ✅ "ברדיטשוב" — NOT "בברדיטשוב"
+  - ✅ "גדלי׳" — NOT "והצדיק ר׳ גדלי׳"
+  - The same applies inside quotes: if the text says ״מנעמרוב״, tag only נעמרוב; if it says ״ללובלין״, tag only לובלין
+
+**IMPORTANT: Multi-word and multi-line entities**
+- If a name or entity is split across multiple words, lines, or formatting (such as line breaks, <lb/>, or whitespace), it must be treated as a single entity and preserved as such.
+- Do NOT split or remove entities just because they are broken across lines or formatting in the text or XML. For example, "יצחק אייזיק" should remain a single persName entity even if a line break or <lb/> appears between the words.
+- Always preserve the full entity span as annotated, regardless of line breaks or formatting.
+
+**CRITICAL — exact text matching:**
+- Always return the entity text EXACTLY as it appears in the source passage — character for character, including abbreviation marks (״ ׳ " '), nikud if present, and any unusual spelling.
+- Do NOT normalize, expand, correct, or modernize spellings. If the text says "גדלי׳" do not return "גדליהו". If it says "מלינעץ" do not return "לינאט".
+- Do NOT fix OCR errors or spelling variants — preserve them as-is.
+- If you are adding a new entity (action: "add"), the "text" field must be a verbatim substring copied from the passage.
+
+**Rabbinical abbreviations (CRITICAL):**
+- Abbreviations that compress a title+name (e.g., הרר״ש = הרב רבי שמעון, מהרי״א = מורנו הרב ר׳ יצחק אייזיק) — tag the abbreviation as a SINGLE persName entity. Do NOT try to expand or split it.
+- Even single-letter abbreviations within such forms can be valid persName spans (e.g., the ש in הרר״ש represents שמעון and is a valid persName).
+- Common patterns: מהר + initials, הרר + initials, רמ + initials — always tag the full abbreviation as one persName.
+- "מורנ"ת" = abbreviation for מורנו ר׳ נתן (Rabbi Nathan) — persName, tag as-is including the abbreviation marks
+
+**Important rules for Hasidic texts:**
+- "אדמו״ר" / "אדומו״ר" = generic title (אדוננו מורנו ורבנו) — NOT a specific name, skip. Only tag the actual personal name if it follows.
+- "הבעש״ט" / "בעש"ט" = the Baal Shem Tov — persName (include the ה since it's part of the title-name, not a conjunction), NEVER orgName
+- "המגיד" = the Maggid (of Mezeritch) — persName (include the ה since it's fused into the title)
+- Place names after "מ" prefix (מברסלב = from Breslev) — tag only the place without the prefix
+- "ש"י" / "הש"י" / "הש״י" = השם יתברך (God) — NOT an entity, skip
+- "ה'" alone = God — NOT an entity, skip
+- "חז"ל" (חכמינו זכרונם לברכה) = generic reference to the Sages — NOT an entity, skip
+- When a person is described as "ר׳ X מY" (Rabbi X from Y), X is persName and Y is placeName — SEPARATE entities
+- Hebrew gematria dates like תק"ס should be tagged as date
+- Book titles like "לקוטי מוהר"ן", "חיי מוהר"ן", "פתחי תשובה", "כוכבי אור" are name[work]
+
+**"ישראל" — context-dependent (IMPORTANT):**
+- When referring to the Jewish people (עם ישראל, כלל ישראל, בני ישראל) — NOT an entity, skip
+- When referring to a specific person (e.g., ר׳ ישראל, the Besht) — IS a persName
+- Only "ארץ ישראל" or "א״י" are placeNames
+
+**"תורה" and generic work references:**
+- "תורה" alone = the Torah in general — NOT a name[work], skip
+- But specific teaching/discourse titles like "תורה רפ״ב" ARE name[work]
+- Similarly, "גמרא" / "משנה" alone = generic references, skip
+
+**Administrative regions — פלך (province), מדינה (state/country), מחוז (district):**
+- When text says "פלך X" or "מדינת X", tag ONLY the region name X as placeName — NOT the descriptor word
+  - ✅ "פלך פאדאליע" → tag only "פאדאליע" as placeName
+  - ✅ "מדינת פאדאליע" → tag only "פאדאליע" as placeName
+  - ❌ Do NOT tag "פלך" itself as placeName
+  - ❌ Do NOT wrap "מדינת פאדאליע" as a single placeName
+- When a city is qualified by its province — "בעיר X (פלך Y)" — tag X and Y as SEPARATE placeNames
+  - ✅ "בעיר דינעוויץ (פלך פאדאליע)" → tag "דינעוויץ" and "פאדאליע" separately
+- Generic/abstract uses are NOT place names — do not tag:
+  - "בכל מחוז ופלך" (in every district and province) — generic
+  - "שר הפלך" (provincial governor) — generic
+  - "במדינה" (in the country) without a specific name — generic
+- Never include country/region qualifiers inside a city's placeName span:
+  - ✅ "חארקעוו" + "בראסיי'" as separate spans — NOT "חארקעוו בראסיי'" as one span
+- Be aware that some place names START with ב as part of the name (not a prefix):
+  - "בעסאראביע" (Bessarabia) — the ב is part of the name, do NOT strip it
+  - "ברדיטשוב" (Berdychiv) — the ב is part of the name
+  - Context helps: "בפלך בעסאראביע" = "in the province of Bessarabia" — tag "בעסאראביע"
+
+Here are {N} passages with their current annotations:
+
+{PASSAGES}
+
+Please return a JSON object with keys "passage_1" ... "passage_N", each containing:
+- "entities": the final corrected entity list (same format as input but corrected)
+
+Return ONLY valid JSON, no markdown code fences.
