@@ -1,0 +1,125 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<title>Edition Pipeline Status</title>
+<style>
+  body { font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', sans-serif; margin: 20px; background: #f8f9fa; }
+  h1 { color: #2c3e50; margin-bottom: 4px; }
+  .subtitle { color: #7f8c8d; margin-bottom: 20px; }
+  table { border-collapse: collapse; font-size: 13px; width: 100%; margin-bottom: 30px; background: white; box-shadow: 0 1px 3px rgba(0,0,0,0.1); }
+  th { background: #2c3e50; color: white; padding: 8px 6px; text-align: center; font-weight: 600; position: sticky; top: 0; white-space: nowrap; }
+  th.edition-col { text-align: left; min-width: 160px; }
+  td { padding: 5px 6px; border: 1px solid #e0e0e0; text-align: center; font-size: 12px; }
+  td.edition { text-align: left; font-weight: 600; white-space: nowrap; background: #fafafa; }
+  .done { background: #d4edda; color: #155724; }
+  .partial { background: #fff3cd; color: #856404; }
+  .warn { background: #fff3cd; color: #856404; }
+  .missing { background: #f8d7da; color: #721c24; }
+  .na { background: #f0f0f0; color: #999; }
+  .info { background: #d1ecf1; color: #0c5460; }
+  .legend { display: flex; gap: 16px; margin-bottom: 16px; flex-wrap: wrap; }
+  .legend-item { display: flex; align-items: center; gap: 5px; font-size: 13px; }
+  .legend-swatch { width: 16px; height: 16px; border-radius: 3px; border: 1px solid #ccc; }
+  h2 { color: #2c3e50; margin-top: 30px; border-bottom: 2px solid #2c3e50; padding-bottom: 6px; }
+  .summary-bar { display: flex; height: 20px; border-radius: 4px; overflow: hidden; margin-bottom: 4px; }
+  .summary-bar div { height: 100%; }
+  .summary-row { display: flex; align-items: center; gap: 10px; margin-bottom: 6px; }
+  .summary-label { width: 120px; font-weight: 600; font-size: 13px; }
+  .summary-bar-wrap { flex: 1; max-width: 400px; }
+  .summary-nums { font-size: 12px; color: #555; white-space: nowrap; }
+</style>
+</head>
+<body>
+<h1>Edition Pipeline Status</h1>
+<p class="subtitle">Generated: 2026-03-26 &middot; 26 editions</p>
+
+<div class="legend">
+  <div class="legend-item"><div class="legend-swatch" style="background:#d4edda"></div> Done / &ge;90%</div>
+  <div class="legend-item"><div class="legend-swatch" style="background:#fff3cd"></div> Partial / 50–89%</div>
+  <div class="legend-item"><div class="legend-swatch" style="background:#f8d7da"></div> Missing / &lt;50%</div>
+  <div class="legend-item"><div class="legend-swatch" style="background:#d1ecf1"></div> Present (unchecked)</div>
+  <div class="legend-item"><div class="legend-swatch" style="background:#f0f0f0"></div> N/A</div>
+</div>
+
+<h2>Steps 1–8: Core Pipeline</h2>
+<table>
+<tr><th class="edition-col">Edition</th><th>01 Transkribus</th><th>02a Renaming &amp; Uploading Images</th><th>02 TEI</th><th>03 Stories</th><th>04 fw</th><th>05 NER</th><th>06 Cleanup</th><th>07 Places</th><th>08 Persons</th></tr>
+<tr><td class="edition">Adat-Zadikim</td><td class="done">done</td><td class="done">done</td><td class="done">done</td><td class="done">done (24 stories)</td><td class="done">done (64)</td><td class="done">done (508p/142l)</td><td class="done">no empty tags</td><td class="done">128/142 (90%)</td><td class="partial">252/508 (50%)</td></tr>
+<tr><td class="edition">Buzina_Denehora</td><td class="done">done</td><td class="done">done</td><td class="done">done</td><td class="done">done (74 stories)</td><td class="partial">review (172)</td><td class="done">done (501p/116l)</td><td class="done">no empty tags</td><td class="missing">36/116 (31%)</td><td class="missing">not started</td></tr>
+<tr><td class="edition">Dvarim-Yekarim</td><td class="done">done</td><td class="done">done</td><td class="done">done</td><td class="done">done (11 stories)</td><td class="partial">review (15)</td><td class="done">done (99p/36l)</td><td class="done">no empty tags</td><td class="partial">22/36 (61%)</td><td class="missing">not started</td></tr>
+<tr><td class="edition">Hitgalut-HaZadikim</td><td class="done">done</td><td class="missing">not started</td><td class="done">done</td><td class="done">done (54 stories)</td><td class="done">done (52)</td><td class="done">done (591p/300l)</td><td class="done">no empty tags</td><td class="partial">160/300 (53%)</td><td class="missing">not started</td></tr>
+<tr><td class="edition">Khal-Hasidim</td><td class="done">done</td><td class="missing">not started</td><td class="done">done</td><td class="done">done (255 stories)</td><td class="done">done</td><td class="done">done (2978p/1146l)</td><td class="done">no empty tags</td><td class="partial">954/1146 (83%)</td><td class="missing">1082/2978 (36%)</td></tr>
+<tr><td class="edition">Khal-Kdoshim</td><td class="done">done</td><td class="missing">not started</td><td class="done">done</td><td class="done">done (14 stories)</td><td class="done">done</td><td class="done">done (85p/52l)</td><td class="done">no empty tags</td><td class="done">48/52 (92%)</td><td class="missing">10/85 (12%)</td></tr>
+<tr><td class="edition">Kokhvei-Or</td><td class="done">done</td><td class="done">done</td><td class="done">done</td><td class="done">done (54 stories)</td><td class="done">done (56)</td><td class="done">done (160p/57l)</td><td class="done">no empty tags</td><td class="partial">36/57 (63%)</td><td class="missing">not started</td></tr>
+<tr><td class="edition">Maasiot-Pliot</td><td class="done">done</td><td class="done">done</td><td class="done">done</td><td class="done">done (26 stories)</td><td class="done">done (85)</td><td class="done">done (179p/72l)</td><td class="done">no empty tags</td><td class="missing">33/72 (46%)</td><td class="missing">not started</td></tr>
+<tr><td class="edition">Maasiot-veSihot-Zadikim</td><td class="done">done</td><td class="done">done</td><td class="done">done</td><td class="done">done (38 stories)</td><td class="done">done (157)</td><td class="done">done (892p/387l)</td><td class="done">no empty tags</td><td class="partial">238/387 (61%)</td><td class="missing">not started</td></tr>
+<tr><td class="edition">MaasiyotUmaamarimYekarim</td><td class="done">done</td><td class="done">done</td><td class="done">done</td><td class="done">done (41 stories)</td><td class="partial">review (55)</td><td class="done">done (358p/69l)</td><td class="done">no empty tags</td><td class="partial">36/69 (52%)</td><td class="missing">not started</td></tr>
+<tr><td class="edition">MaasyiotMzadikeiYesodeiOlam</td><td class="done">done</td><td class="done">done</td><td class="done">done</td><td class="done">done (16 stories)</td><td class="done">done (48)</td><td class="done">done (141p/103l)</td><td class="done">no empty tags</td><td class="partial">64/103 (62%)</td><td class="missing">not started</td></tr>
+<tr><td class="edition">Mifalot-HaZadikim</td><td class="done">done</td><td class="missing">not started</td><td class="done">done</td><td class="done">done (56 stories)</td><td class="partial">partial (4)</td><td class="done">done (263p/103l)</td><td class="done">no empty tags</td><td class="done">96/103 (93%)</td><td class="missing">105/263 (40%)</td></tr>
+<tr><td class="edition">PeerMikdoshim</td><td class="done">done</td><td class="missing">not started</td><td class="done">done</td><td class="done">done (22 stories)</td><td class="done">done</td><td class="done">done (140p/83l)</td><td class="done">no empty tags</td><td class="done">81/83 (98%)</td><td class="missing">60/140 (43%)</td></tr>
+<tr><td class="edition">Sefer-Moraim-Gdolim</td><td class="done">done</td><td class="done">done</td><td class="done">done</td><td class="done">done (17 stories)</td><td class="done">done (81)</td><td class="done">done (82p/27l)</td><td class="done">no empty tags</td><td class="partial">18/27 (67%)</td><td class="missing">not started</td></tr>
+<tr><td class="edition">Shemen-Hatov</td><td class="done">done</td><td class="missing">not started</td><td class="done">done</td><td class="done">done (220 stories)</td><td class="partial">review (137)</td><td class="done">done (1774p/745l)</td><td class="done">no empty tags</td><td class="partial">353/745 (47%)</td><td class="missing">not started</td></tr>
+<tr><td class="edition">Shivhei-Harav</td><td class="done">done</td><td class="missing">not started</td><td class="done">done</td><td class="done">done (22 stories)</td><td class="done">done</td><td class="done">done (320p/212l)</td><td class="done">no empty tags</td><td class="partial">153/212 (72%)</td><td class="missing">71/320 (22%)</td></tr>
+<tr><td class="edition">Shlosha-edrei-zon</td><td class="done">done</td><td class="done">done</td><td class="done">done</td><td class="done">done (50 stories)</td><td class="done">done (83)</td><td class="done">done (268p/177l)</td><td class="done">no empty tags</td><td class="partial">115/177 (65%)</td><td class="missing">not started</td></tr>
+<tr><td class="edition">Sipurei-Kdoshim</td><td class="done">done</td><td class="missing">not started</td><td class="done">done</td><td class="done">done (18 stories)</td><td class="done">done (111)</td><td class="done">done (282p/77l)</td><td class="done">no empty tags</td><td class="done">73/77 (95%)</td><td class="missing">not started</td></tr>
+<tr><td class="edition">Sipurei-Zadikim</td><td class="done">done</td><td class="missing">not started</td><td class="done">done</td><td class="done">done (14 stories)</td><td class="done">done (123)</td><td class="done">done (257p/156l)</td><td class="done">no empty tags</td><td class="partial">129/156 (83%)</td><td class="missing">46/257 (18%)</td></tr>
+<tr><td class="edition">SipureiAnsheiShem</td><td class="done">done</td><td class="done">done</td><td class="done">done</td><td class="done">done (25 stories)</td><td class="done">done (95)</td><td class="done">done (161p/104l)</td><td class="done">no empty tags</td><td class="partial">68/104 (65%)</td><td class="missing">not started</td></tr>
+<tr><td class="edition">Sipurim-Nehmadim</td><td class="done">done</td><td class="done">done</td><td class="done">done</td><td class="done">done (36 stories)</td><td class="done">done (62)</td><td class="done">done (206p/117l)</td><td class="done">no empty tags</td><td class="partial">58/117 (50%)</td><td class="missing">not started</td></tr>
+<tr><td class="edition">SipurimUmaamarimYekarim</td><td class="done">done</td><td class="done">done</td><td class="done">done</td><td class="done">done (40 stories)</td><td class="done">done (22)</td><td class="done">done (215p/90l)</td><td class="done">no empty tags</td><td class="partial">54/90 (60%)</td><td class="missing">not started</td></tr>
+<tr><td class="edition">Smichat-Moshe</td><td class="done">done</td><td class="done">done</td><td class="done">done</td><td class="done">done (10 stories)</td><td class="done">done (10)</td><td class="done">done (316p/179l)</td><td class="done">no empty tags</td><td class="partial">147/179 (82%)</td><td class="missing">63/316 (20%)</td></tr>
+<tr><td class="edition">maase-zadikim</td><td class="done">done</td><td class="missing">not started</td><td class="done">done</td><td class="done">done (41 stories)</td><td class="done">done (100)</td><td class="done">done (342p/235l)</td><td class="done">no empty tags</td><td class="done">225/235 (96%)</td><td class="partial">171/342 (50%)</td></tr>
+<tr><td class="edition">shivheiZadikim</td><td class="done">done</td><td class="done">done</td><td class="done">done</td><td class="done">done (65 stories)</td><td class="done">done (161)</td><td class="done">done (711p/304l)</td><td class="done">no empty tags</td><td class="partial">184/304 (61%)</td><td class="missing">not started</td></tr>
+<tr><td class="edition">tmimei_derech</td><td class="done">done</td><td class="missing">not started</td><td class="done">done</td><td class="done">done (10 stories)</td><td class="done">done (231)</td><td class="done">done (222p/54l)</td><td class="done">no empty tags</td><td class="done">49/54 (91%)</td><td class="missing">not started</td></tr>
+</table>
+
+<h2>Steps 9–15: Enrichment &amp; Publication</h2>
+<table>
+<tr><th class="edition-col">Edition</th><th>09 Currency</th><th>10 Abbrev.</th><th>11 Bibl</th><th>12 sourceDesc</th><th>13 Structural</th><th>14 Proofread</th><th>15 Deploy</th></tr>
+<tr><td class="edition">Adat-Zadikim</td><td class="missing">not started</td><td class="missing">not started</td><td class="info">14 refs</td><td class="done">done</td><td class="partial">not checked</td><td class="missing">not started</td><td class="missing">not started</td></tr>
+<tr><td class="edition">Buzina_Denehora</td><td class="missing">not started</td><td class="missing">not started</td><td class="info">164 refs</td><td class="done">done</td><td class="warn">issues: xml:id: 49/74</td><td class="missing">not started</td><td class="missing">not started</td></tr>
+<tr><td class="edition">Dvarim-Yekarim</td><td class="missing">not started</td><td class="missing">not started</td><td class="info">1 refs</td><td class="done">done</td><td class="warn">issues: xml:id: 7/11</td><td class="missing">not started</td><td class="missing">not started</td></tr>
+<tr><td class="edition">Hitgalut-HaZadikim</td><td class="missing">not started</td><td class="missing">not started</td><td class="info">1 refs</td><td class="done">done</td><td class="warn">issues: xml:id: 45/54</td><td class="missing">not started</td><td class="missing">not started</td></tr>
+<tr><td class="edition">Khal-Hasidim</td><td class="missing">not started</td><td class="missing">not started</td><td class="info">97 refs</td><td class="done">done</td><td class="warn">issues: xml:id: 254/255</td><td class="missing">not started</td><td class="missing">not started</td></tr>
+<tr><td class="edition">Khal-Kdoshim</td><td class="missing">not started</td><td class="missing">not started</td><td class="info">7 refs</td><td class="done">done</td><td class="warn">issues: xml:id: 12/14</td><td class="missing">not started</td><td class="missing">not started</td></tr>
+<tr><td class="edition">Kokhvei-Or</td><td class="missing">not started</td><td class="missing">not started</td><td class="info">19 refs</td><td class="done">done</td><td class="warn">issues: xml:id: 1/54</td><td class="missing">not started</td><td class="missing">not started</td></tr>
+<tr><td class="edition">Maasiot-Pliot</td><td class="missing">not started</td><td class="missing">not started</td><td class="info">29 refs</td><td class="done">done</td><td class="warn">issues: xml:id: 24/26</td><td class="missing">not started</td><td class="missing">not started</td></tr>
+<tr><td class="edition">Maasiot-veSihot-Zadikim</td><td class="missing">not started</td><td class="missing">not started</td><td class="info">127 refs</td><td class="done">done</td><td class="partial">not checked</td><td class="missing">not started</td><td class="missing">not started</td></tr>
+<tr><td class="edition">MaasiyotUmaamarimYekarim</td><td class="missing">not started</td><td class="missing">not started</td><td class="info">163 refs</td><td class="done">done</td><td class="warn">issues: xml:id: 0/41</td><td class="missing">not started</td><td class="missing">not started</td></tr>
+<tr><td class="edition">MaasyiotMzadikeiYesodeiOlam</td><td class="missing">not started</td><td class="missing">not started</td><td class="info">36 refs</td><td class="done">done</td><td class="warn">issues: xml:id: 14/16</td><td class="missing">not started</td><td class="missing">not started</td></tr>
+<tr><td class="edition">Mifalot-HaZadikim</td><td class="missing">not started</td><td class="missing">not started</td><td class="info">11 refs</td><td class="done">done</td><td class="warn">issues: xml:id: 54/56</td><td class="missing">not started</td><td class="missing">not started</td></tr>
+<tr><td class="edition">PeerMikdoshim</td><td class="missing">not started</td><td class="missing">not started</td><td class="info">5 refs</td><td class="done">done</td><td class="warn">issues: xml:id: 18/22</td><td class="missing">not started</td><td class="missing">not started</td></tr>
+<tr><td class="edition">Sefer-Moraim-Gdolim</td><td class="missing">not started</td><td class="missing">not started</td><td class="info">23 refs</td><td class="done">done</td><td class="warn">issues: xml:id: 16/17</td><td class="missing">not started</td><td class="missing">not started</td></tr>
+<tr><td class="edition">Shemen-Hatov</td><td class="missing">not started</td><td class="missing">not started</td><td class="info">1 refs</td><td class="done">done</td><td class="warn">issues: xml:id: 208/220</td><td class="missing">not started</td><td class="missing">not started</td></tr>
+<tr><td class="edition">Shivhei-Harav</td><td class="missing">not started</td><td class="missing">not started</td><td class="info">23 refs</td><td class="done">done</td><td class="warn">issues: xml:id: 19/22</td><td class="missing">not started</td><td class="missing">not started</td></tr>
+<tr><td class="edition">Shlosha-edrei-zon</td><td class="missing">not started</td><td class="missing">not started</td><td class="info">70 refs</td><td class="done">done</td><td class="warn">issues: xml:id: 48/50</td><td class="missing">not started</td><td class="missing">not started</td></tr>
+<tr><td class="edition">Sipurei-Kdoshim</td><td class="missing">not started</td><td class="missing">not started</td><td class="info">21 refs</td><td class="done">done</td><td class="warn">issues: xml:id: 17/18</td><td class="missing">not started</td><td class="missing">not started</td></tr>
+<tr><td class="edition">Sipurei-Zadikim</td><td class="missing">not started</td><td class="missing">not started</td><td class="info">9 refs</td><td class="done">done</td><td class="partial">not checked</td><td class="missing">not started</td><td class="missing">not started</td></tr>
+<tr><td class="edition">SipureiAnsheiShem</td><td class="missing">not started</td><td class="missing">not started</td><td class="info">1 refs</td><td class="done">done</td><td class="warn">issues: xml:id: 23/25</td><td class="missing">not started</td><td class="missing">not started</td></tr>
+<tr><td class="edition">Sipurim-Nehmadim</td><td class="missing">not started</td><td class="missing">not started</td><td class="info">61 refs</td><td class="done">done</td><td class="warn">issues: xml:id: 34/36</td><td class="missing">not started</td><td class="missing">not started</td></tr>
+<tr><td class="edition">SipurimUmaamarimYekarim</td><td class="missing">not started</td><td class="missing">not started</td><td class="info">1 refs</td><td class="done">done</td><td class="warn">issues: xml:id: 36/40</td><td class="missing">not started</td><td class="missing">not started</td></tr>
+<tr><td class="edition">Smichat-Moshe</td><td class="missing">not started</td><td class="missing">not started</td><td class="info">35 refs</td><td class="done">done</td><td class="warn">issues: xml:id: 2/10</td><td class="missing">not started</td><td class="missing">not started</td></tr>
+<tr><td class="edition">maase-zadikim</td><td class="missing">not started</td><td class="missing">not started</td><td class="info">21 refs</td><td class="done">done</td><td class="partial">not checked</td><td class="missing">not started</td><td class="missing">not started</td></tr>
+<tr><td class="edition">shivheiZadikim</td><td class="missing">not started</td><td class="missing">not started</td><td class="info">91 refs</td><td class="done">done</td><td class="warn">issues: xml:id: 64/65</td><td class="missing">not started</td><td class="missing">not started</td></tr>
+<tr><td class="edition">tmimei_derech</td><td class="missing">not started</td><td class="missing">not started</td><td class="info">47 refs</td><td class="done">done</td><td class="warn">issues: xml:id: 5/10</td><td class="missing">not started</td><td class="missing">not started</td></tr>
+</table>
+
+<h2>Summary</h2>
+<div class="summary-row"><div class="summary-label">01 Transkribus</div><div class="summary-bar-wrap"><div class="summary-bar"><div style="width:100.0%;background:#d4edda" title="done: 26"></div></div></div><div class="summary-nums">26✓ 0~ 0✗ 0–</div></div>
+<div class="summary-row"><div class="summary-label">02 TEI</div><div class="summary-bar-wrap"><div class="summary-bar"><div style="width:100.0%;background:#d4edda" title="done: 26"></div></div></div><div class="summary-nums">26✓ 0~ 0✗ 0–</div></div>
+<div class="summary-row"><div class="summary-label">03 Stories</div><div class="summary-bar-wrap"><div class="summary-bar"><div style="width:100.0%;background:#d4edda" title="done: 26"></div></div></div><div class="summary-nums">26✓ 0~ 0✗ 0–</div></div>
+<div class="summary-row"><div class="summary-label">04 fw</div><div class="summary-bar-wrap"><div class="summary-bar"><div style="width:80.8%;background:#d4edda" title="done: 21"></div><div style="width:19.2%;background:#fff3cd" title="partial: 5"></div></div></div><div class="summary-nums">21✓ 5~ 0✗ 0–</div></div>
+<div class="summary-row"><div class="summary-label">05 NER</div><div class="summary-bar-wrap"><div class="summary-bar"><div style="width:100.0%;background:#d4edda" title="done: 26"></div></div></div><div class="summary-nums">26✓ 0~ 0✗ 0–</div></div>
+<div class="summary-row"><div class="summary-label">06 Cleanup</div><div class="summary-bar-wrap"><div class="summary-bar"><div style="width:100.0%;background:#d4edda" title="done: 26"></div></div></div><div class="summary-nums">26✓ 0~ 0✗ 0–</div></div>
+<div class="summary-row"><div class="summary-label">07 Places</div><div class="summary-bar-wrap"><div class="summary-bar"><div style="width:26.9%;background:#d4edda" title="done: 7"></div><div style="width:65.4%;background:#fff3cd" title="partial: 17"></div><div style="width:7.7%;background:#f8d7da" title="missing: 2"></div></div></div><div class="summary-nums">7✓ 17~ 2✗ 0–</div></div>
+<div class="summary-row"><div class="summary-label">08 Persons</div><div class="summary-bar-wrap"><div class="summary-bar"><div style="width:7.7%;background:#fff3cd" title="partial: 2"></div><div style="width:92.3%;background:#f8d7da" title="missing: 24"></div></div></div><div class="summary-nums">0✓ 2~ 24✗ 0–</div></div>
+<div class="summary-row"><div class="summary-label">09 Currency</div><div class="summary-bar-wrap"><div class="summary-bar"><div style="width:100.0%;background:#f8d7da" title="missing: 26"></div></div></div><div class="summary-nums">0✓ 0~ 26✗ 0–</div></div>
+<div class="summary-row"><div class="summary-label">10 Abbrev.</div><div class="summary-bar-wrap"><div class="summary-bar"><div style="width:100.0%;background:#f8d7da" title="missing: 26"></div></div></div><div class="summary-nums">0✓ 0~ 26✗ 0–</div></div>
+<div class="summary-row"><div class="summary-label">11 Bibl</div><div class="summary-bar-wrap"><div class="summary-bar"><div style="width:100.0%;background:#d1ecf1" title="info: 26"></div></div></div><div class="summary-nums">0✓ 0~ 0✗ 0–</div></div>
+<div class="summary-row"><div class="summary-label">12 sourceDesc</div><div class="summary-bar-wrap"><div class="summary-bar"><div style="width:100.0%;background:#d4edda" title="done: 26"></div></div></div><div class="summary-nums">26✓ 0~ 0✗ 0–</div></div>
+<div class="summary-row"><div class="summary-label">13 Structural</div><div class="summary-bar-wrap"><div class="summary-bar"><div style="width:100.0%;background:#fff3cd" title="partial: 26"></div></div></div><div class="summary-nums">0✓ 26~ 0✗ 0–</div></div>
+<div class="summary-row"><div class="summary-label">14 Proofread</div><div class="summary-bar-wrap"><div class="summary-bar"><div style="width:100.0%;background:#f8d7da" title="missing: 26"></div></div></div><div class="summary-nums">0✓ 0~ 26✗ 0–</div></div>
+<div class="summary-row"><div class="summary-label">15 Deploy</div><div class="summary-bar-wrap"><div class="summary-bar"><div style="width:100.0%;background:#f8d7da" title="missing: 26"></div></div></div><div class="summary-nums">0✓ 0~ 26✗ 0–</div></div>
+
+</body>
+</html>

@@ -1,0 +1,14 @@
+edition	story_id_or_context	error_type	entity_text	current_label	expected_label_or_action	why_wrong	severity	reviewer_notes
+Buzina_Denehora	story opening with "מעשה ברבי..."	nested_duplicate_persName	רבי נחמן	persName (nested)	flatten_to_single_tag	Same-type nested wrapper adds no information and breaks clean spans	high	User-reported recurring Dicta pattern
+Adat-Zadikim	paragraph with "נסע ללובלין"	nested_duplicate_placeName	לובלין	placeName (nested)	flatten_to_single_tag	Same-type nested wrapper adds no information and breaks clean spans	high	User example
+Buzina_Denehora	line with "בשמו מפי ר׳ יוסקי"	false_positive	׳	persName	remove_tag	Geresh punctuation mark was tagged as a person entity	high	Also appears with similar punctuation marks
+Buzina_Denehora	line 164 and similar title lines	false_positive	מו"ה	persName	remove_tag	Honorific abbreviation is not a person span by itself	medium	Keep surrounding true person mentions only
+Buzina_Denehora	line 170 context	false_positive	יפרח	persName	remove_tag	In this context it is not a person entity	medium	Context-sensitive false positive
+Buzina_Denehora	multiple places before true location names	wrong_label	ק"ק	placeName	remove_or_keep_plain_text	Abbreviation means קרית קודש marker, not standalone location	high	Often appears as prefix before real place name
+Buzina_Denehora	line with "בהשי״ת"	wrong_label	השי״ת	persName (with malformed nested tag)	label_as_name_misc	Refers to God; should be misc divine name, not person	high	Current XML shows malformed nested tagging
+Buzina_Denehora	lines 291-292 context "ד׳ בעבודה"	wrong_boundary	ד׳	name[type=misc] (split)	normalize_single_misc_span	Divine reference should be one stable misc token	high	Avoid split around lb markers
+Maasiot-Pliot	line 40 context "בשנת תרנ\"ו לפ\"ק"	wrong_label	לפ"ק	placeName	remove_tag	Abbreviation is not a location name	high	Date-era suffix context
+multiple (11 editions)	inside abbreviations (״ ׳)	empty_self_closing_tag	<orgName />, <persName />, <placeName />	various (empty)	remove_tag	DictaBERT inserts empty self-closing tags before abbreviation marks, splitting abbreviations (e.g. הקב״<orgName />ה, רש<persName />״<orgName />י). Also causes surrounding tag boundaries to break short.	high	91 instances (49 persName, 32 orgName, 10 placeName) across 11 files
+		missed_entity
+		spurious_removal
+		overlap_same_type			merge_or_keep_outer_only
