@@ -1,0 +1,28 @@
+{
+  "version": "0.0.1",
+  "configurations": [
+    {
+      "name": "integration-tool",
+      "runtimeExecutable": "streamlit",
+      "runtimeArgs": ["run", "app.py"],
+      "port": 8501,
+      "autoPort": true,
+      "cwd": "Authorities/integration_tool"
+    },
+    {
+      "name": "kimatch",
+      "runtimeExecutable": "streamlit",
+      "runtimeArgs": ["run", "ui/app.py"],
+      "port": 8502,
+      "autoPort": true,
+      "cwd": "/Users/sinairusinek/Documents/GitHub/Kimatch"
+    },
+    {
+      "name": "shidduch",
+      "runtimeExecutable": "streamlit",
+      "runtimeArgs": ["run", "/Users/sinairusinek/Documents/GitHub/Shidduch/ui/app.py", "--server.port", "8503"],
+      "port": 8503,
+      "autoPort": true
+    }
+  ]
+}
