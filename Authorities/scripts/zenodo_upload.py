@@ -31,7 +31,13 @@ from pathlib import Path
 from urllib import request, error
 
 REPO = Path(__file__).resolve().parents[2]
-DEPOSIT = REPO / "topics/women_and_topics/zenodo_deposit"
+
+DEPOSIT: Path  # set from --version in main()
+
+DEPOSIT_DIRS = {
+    "v1": REPO / "zenodo/women-9ed",
+    "v2": REPO / "zenodo/corpus",
+}
 
 
 def http_json(method: str, url: str, token: str, payload=None, raw=False):
@@ -76,13 +82,22 @@ def build_zenodo_metadata(meta_path: Path) -> dict:
         "title": m["title"],
         "upload_type": m.get("upload_type", "dataset"),
         "description": m["description"],
-        "creators": [{"name": c["name"], "affiliation": c.get("affiliation", "")} for c in m["creators"]],
+        "creators": [
+            {k: v for k, v in (
+                ("name", c["name"]),
+                ("affiliation", c.get("affiliation", "")),
+                ("orcid", c.get("orcid", "")),
+            ) if v}
+            for c in m["creators"]
+        ],
         "keywords": m.get("keywords", []),
         "access_right": "open",
         "license": m.get("license", "cc-by-4.0").lower().replace("cc-by-4.0", "cc-by-4.0"),
         "language": m.get("language", "heb"),
         "notes": m.get("notes", ""),
     }
+    if m.get("version"):
+        out["version"] = m["version"]
     if m.get("related_identifiers"):
         # only include if it's not the TBD placeholder
         rids = [
@@ -99,7 +114,17 @@ def main():
     g = ap.add_mutually_exclusive_group(required=True)
     g.add_argument("--sandbox", action="store_true")
     g.add_argument("--prod", action="store_true")
+    ap.add_argument("--version", choices=["v1", "v2"], default="v1",
+                    help="which deposit folder to upload (default: v1)")
+    ap.add_argument("--new-version-of", metavar="RECORD_ID",
+                    help="publish as a NEW VERSION of this existing Zenodo record "
+                         "(keeps the concept DOI; use for v2)")
     args = ap.parse_args()
+
+    global DEPOSIT
+    DEPOSIT = DEPOSIT_DIRS[args.version]
+    if not DEPOSIT.exists():
+        sys.exit(f"No deposit at {DEPOSIT}. Run build_zenodo_deposit.py --version {args.version} first.")
 
     import os
     if args.sandbox:
@@ -123,37 +148,50 @@ def main():
         )
     print(f"Using token from {src}")
 
-    # Build the editions zip on-the-fly (idempotent regen)
-    zip_path = DEPOSIT / "hasidic-women-dataset.zip"
-    eds_dir = DEPOSIT / "data" / "editions"
-    print(f"Building {zip_path.name} from {len(list(eds_dir.glob('*.xml')))} XML files...")
+    # Bundle the edition XMLs so the TEI files stay grouped as one archive.
+    eds_dir = DEPOSIT / "editions"
+    xmls = sorted(eds_dir.glob("*.xml"))
+    if not xmls:
+        sys.exit(f"No edition XMLs in {eds_dir}")
+    zip_name = f"hasidigital-editions-{args.version}.zip"
+    zip_path = DEPOSIT / zip_name
+    print(f"Building {zip_name} from {len(xmls)} XML files...")
     with zipfile.ZipFile(zip_path, "w", zipfile.ZIP_DEFLATED) as zf:
-        for xml in sorted(eds_dir.glob("*.xml")):
+        for xml in xmls:
             zf.write(xml, arcname=f"editions/{xml.name}")
-        # also bundle the two TSVs for redundancy inside the zip
-        for tsv in [DEPOSIT / "data" / "topics_9editions.tsv", DEPOSIT / "data" / "women_binary_source.tsv"]:
-            zf.write(tsv, arcname=f"data/{tsv.name}")
-        zf.write(DEPOSIT / "README.md", arcname="README.md")
-        zf.write(DEPOSIT / "CHANGES.md", arcname="CHANGES.md")
 
     metadata = build_zenodo_metadata(DEPOSIT / "zenodo.json")
 
-    # 1. Create empty deposition
-    print(f"Creating draft on {base} ...")
-    dep = http_json("POST", f"{base}/api/deposit/depositions", token, payload={})
+    # 1. Create the draft -- either standalone, or as a new version of an
+    #    existing record so the concept DOI (and the article's citation) holds.
+    if args.new_version_of:
+        print(f"Creating a NEW VERSION of record {args.new_version_of} on {base} ...")
+        nv = http_json(
+            "POST",
+            f"{base}/api/deposit/depositions/{args.new_version_of}/actions/newversion",
+            token)
+        draft_url = nv["links"]["latest_draft"]
+        dep = http_json("GET", draft_url, token)
+        # A new version inherits the previous version's files; clear them so the
+        # draft carries only what we are uploading now.
+        for f in http_json("GET", f"{draft_url}/files", token) or []:
+            http_json("DELETE", f"{draft_url}/files/{f['id']}", token)
+    else:
+        print(f"Creating draft on {base} ...")
+        dep = http_json("POST", f"{base}/api/deposit/depositions", token, payload={})
     dep_id = dep["id"]
     bucket = dep["links"]["bucket"]
     print(f"  Deposition id: {dep_id}")
     print(f"  Bucket: {bucket}")
 
     # 2. Upload files
-    uploads = [
-        ("hasidic-women-dataset.zip", zip_path),
-        ("README.md", DEPOSIT / "README.md"),
-        ("CHANGES.md", DEPOSIT / "CHANGES.md"),
-        ("topics_9editions.tsv", DEPOSIT / "data" / "topics_9editions.tsv"),
-        ("women_binary_source.tsv", DEPOSIT / "data" / "women_binary_source.tsv"),
-    ]
+    uploads = [(zip_name, zip_path)]
+    for fname in ["README.md", "CHANGES.md", "story_women.tsv",
+                  "story_tags.tsv", "tag_women_summary.tsv"]:
+        fp = DEPOSIT / fname
+        if fp.exists():
+            uploads.append((fname, fp))
+
     for name, p in uploads:
         size_kb = p.stat().st_size / 1024
         print(f"  Uploading {name} ({size_kb:.1f} KB)...")

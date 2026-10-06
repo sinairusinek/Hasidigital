@@ -1,0 +1,56 @@
+{
+  "title": "Rethinking Women in Hasidic Literature — Annotated Corpus of Nine Hasidic Story Editions (Hasidigital)",
+  "upload_type": "dataset",
+  "creators": [
+    {
+      "name": "Mandel-Edrei, Chen",
+      "affiliation": "The Hebrew University of Jerusalem",
+      "orcid": "0009-0006-8787-8220"
+    },
+    {
+      "name": "Rusinek, Sinai",
+      "affiliation": "The Open University of Israel",
+      "orcid": "0000-0003-1043-7954"
+    },
+    {
+      "name": "Sagiv, Gadi",
+      "affiliation": "The Open University of Israel",
+      "orcid": "0000-0002-3289-0429"
+    }
+  ],
+  "description": "Annotated TEI-XML editions and story-level thematic tag data for the 652 stories in nine nineteenth-century Hasidic hagiographic collections, as analysed in Mandel-Edrei, Rusinek and Sagiv, “Rethinking Women in Hasidic Literature: Between Close and Distant Reading”. Each story carries manually curated thematic tags (about 15 top-level categories and about 120 sub-tags) and a five-tier annotation of women's presence (major / catalyst / minor character, mention-only, or none), produced with LLM assistance and human curation. Derived tables give per-story labels, long-format (story, tag) rows, and per-tag women rates, so every statistic and figure in the article can be recomputed from this deposit. This is version 1 of the Hasidigital story-corpus dataset and covers the nine editions of the article; later versions extend it to the full corpus.",
+  "keywords": [
+    "Hasidism",
+    "Hasidic stories",
+    "hagiography",
+    "TEI",
+    "digital humanities",
+    "gender in literature",
+    "women's history",
+    "Hebrew",
+    "Jewish studies",
+    "topic annotation",
+    "distant reading"
+  ],
+  "license": "CC-BY-4.0",
+  "language": "heb",
+  "version": "1.0.0",
+  "related_identifiers": [
+    {
+      "relation": "isSupplementTo",
+      "identifier": "TBD-article-DOI",
+      "resource_type": "publication-article"
+    },
+    {
+      "relation": "isSupplementedBy",
+      "identifier": "https://github.com/sinairusinek/Hasidigital",
+      "resource_type": "software"
+    },
+    {
+      "relation": "isDerivedFrom",
+      "identifier": "https://www.hasidic-stories.org/",
+      "resource_type": "dataset"
+    }
+  ],
+  "notes": "Women's presence is annotated on a five-tier scale. The article reports two definitions: 'any' (all tiers including mention-only) and 'character' (major + catalyst + minor, excluding mention-only). Both are given as separate columns in the derived tables; neither is privileged in the data. See CHANGES.md for the corpus history and the annotation caveats."
+}

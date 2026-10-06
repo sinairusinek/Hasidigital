@@ -56,3 +56,6 @@ editions/tag-audit/.rerun-logs/
 
 # Local-only Claude settings
 .claude/settings.local.json
+
+# Zenodo deposit bundles are rebuilt by build_zenodo_deposit.py
+zenodo/**/*.zip
