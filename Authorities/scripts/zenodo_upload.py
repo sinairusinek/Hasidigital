@@ -116,6 +116,14 @@ def main():
     g.add_argument("--prod", action="store_true")
     ap.add_argument("--version", choices=["v1", "v2"], default="v1",
                     help="which deposit folder to upload (default: v1)")
+    ap.add_argument("--deposition-id", metavar="DEP_ID",
+                    help="update this EXISTING unsubmitted draft in place "
+                         "(keeps its reserved DOI); replaces its files and metadata")
+    ap.add_argument("--publish", action="store_true",
+                    help="publish after upload. IRREVERSIBLE: mints the DOI and makes "
+                         "the record permanently public. Requires --i-have-reviewed-the-draft.")
+    ap.add_argument("--i-have-reviewed-the-draft", action="store_true",
+                    help="confirms a human opened the draft URL and approved it")
     ap.add_argument("--new-version-of", metavar="RECORD_ID",
                     help="publish as a NEW VERSION of this existing Zenodo record "
                          "(keeps the concept DOI; use for v2)")
@@ -164,7 +172,23 @@ def main():
 
     # 1. Create the draft -- either standalone, or as a new version of an
     #    existing record so the concept DOI (and the article's citation) holds.
-    if args.new_version_of:
+    if args.deposition_id:
+        dep_url = f"{base}/api/deposit/depositions/{args.deposition_id}"
+        print(f"Updating existing draft {args.deposition_id} on {base} ...")
+        dep = http_json("GET", dep_url, token)
+        if dep.get("submitted"):
+            sys.exit(
+                f"Deposition {args.deposition_id} is already published. Files of a "
+                "published record cannot be replaced; use --new-version-of instead.")
+        pre = (dep.get("metadata") or {}).get("prereserve_doi") or {}
+        if pre.get("doi"):
+            print(f"  reserved DOI preserved: {pre['doi']}")
+        # Remove the old files so the draft carries only the current build.
+        for f in dep.get("files", []):
+            print(f"  removing stale file: {f['filename']}")
+            http_json("DELETE", f"{dep_url}/files/{f['id']}", token)
+        dep = http_json("GET", dep_url, token)
+    elif args.new_version_of:
         print(f"Creating a NEW VERSION of record {args.new_version_of} on {base} ...")
         nv = http_json(
             "POST",
@@ -197,14 +221,31 @@ def main():
         print(f"  Uploading {name} ({size_kb:.1f} KB)...")
         upload_file(bucket, name, p, token)
 
-    # 3. Update metadata
+    # 3. Update metadata. Carry the reserved DOI through: a PUT replaces the
+    #    whole metadata block, which would otherwise drop it.
+    existing_pre = (dep.get("metadata") or {}).get("prereserve_doi")
+    if existing_pre:
+        metadata["prereserve_doi"] = existing_pre
     print("Setting metadata...")
     http_json("PUT", f"{base}/api/deposit/depositions/{dep_id}", token,
               payload={"metadata": metadata})
 
-    # 4. Report
+    # 4. Optionally publish -- irreversible, and gated on explicit human review.
+    if args.publish:
+        if not args.i_have_reviewed_the_draft:
+            sys.exit(
+                "\nRefusing to publish: --publish requires --i-have-reviewed-the-draft.\n"
+                "Publishing mints the DOI and makes the record permanently public;\n"
+                "its files can never be replaced afterwards. Open the draft, check it,\n"
+                "then re-run with both flags.")
+        print("Publishing (irreversible) ...")
+        rec = http_json("POST", f"{base}/api/deposit/depositions/{dep_id}/actions/publish", token)
+        print(f"  PUBLISHED. DOI: {rec.get('doi')}")
+        print(f"  Record: {rec.get('links', {}).get('record_html')}")
+
+    # 5. Report
     edit_url = f"{base}/deposit/{dep_id}"
-    print("\nDraft created (NOT published).")
+    print("\nDraft updated (NOT published)." if not args.publish else "\nDone.")
     print(f"  Edit / preview: {edit_url}")
     print(f"  API record: {base}/api/deposit/depositions/{dep_id}")
     print("Review the draft in the browser and click Publish there when satisfied.")
