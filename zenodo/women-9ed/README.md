@@ -46,7 +46,19 @@ CHANGES.md
 
 Each story carries story-level thematic tags — about 15 top-level categories (`practice`, `ethics-and-emotions`, `social`, …) and about 120 sub-tags (`pidyon_nefesh`, `poverty`, `agunah`, …), written as `top-tag:sub-tag`. Tags mark the **presence of a theme in a story**, not the frequency of its textual occurrences. In the XML they are `<span ana="…">` elements on the story `<div>`.
 
-### Women's presence — five tiers
+### Women's presence — the article's measure
+
+The article records **presence alone**: whether a story refers to a woman at all, whether she acts in the narrative, serves as a catalyst, or appears only in passing. That is the `women_present` column, and it is the measure behind every figure and statistic in the article:
+
+- **women present: 290 / 652 (44.5%)**
+
+This is a deliberately modest measure. It does not claim to capture how much narrative weight a woman carries — that is recovered by close reading, not by counting. It is, however, the one judgement independent readers of these stories proved able to agree on, and it can be checked by anyone who consults the corpus.
+
+### The graded scheme — a superseded attempt, retained for transparency
+
+The project first tried to record not merely whether a woman is present but how substantially, on the five-tier scale below. **That attempt did not succeed**: sufficient agreement could not be reached between human annotators, nor between LLM annotators, and the article reports it as a negative methodological result rather than using it.
+
+The tier labels are nevertheless shipped here — as `women_tier`, and collapsed into `women_graded_character` (major + catalyst + minor, excluding mention-only) — so that the failure is inspectable rather than merely asserted, and so the labels can be reused by anyone who wants to attack the boundary problem differently. **They are not the article's measure, and `women_graded_character` should not be quoted as the corpus's women rate.**
 
 | Tier | `ana` tag | Meaning | Stories |
 |---|---|---|---|
@@ -56,10 +68,7 @@ Each story carries story-level thematic tags — about 15 top-level categories (
 | mention-only | `women:mention_only` | A woman is referred to but does not act in the narrative | 100 |
 | none | *(no `women:` tag)* | No women in the story | 362 |
 
-The article reports **two** definitions of women's presence, and this dataset keeps both as separate columns rather than privileging either:
-
-- **any** — all four women tiers, including mention-only: **290 / 652 (44.5%)**
-- **character** — major + catalyst + minor, excluding mention-only: **190 / 652 (29.1%)**
+Collapsing the tiers to `women_graded_character` would give 190 / 652 (29.1%) — reported here only for completeness, and **not** the article's figure.
 
 ## Table schemas
 
@@ -71,8 +80,8 @@ The article reports **two** definitions of women's presence, and this dataset ke
 | `edition` | Edition short name |
 | `women_tier` | `major` / `catalyst` / `minor` / `mention_only` / `none` |
 | `women_ana_tag` | The `ana` value carrying the tier in the XML; blank for `none` |
-| `women_any` | `yes` if any tier incl. mention-only |
-| `women_character` | `yes` if major, catalyst or minor |
+| `women_present` | **The article's measure.** `yes` if the story refers to a woman at all |
+| `women_graded_character` | From the superseded graded scheme: `yes` if major, catalyst or minor. Not the article's measure |
 
 ### `story_tags.tsv`
 
@@ -82,7 +91,7 @@ One row per (story, tag) — the unit of the article's tag-level analysis.
 |---|---|
 | `story_id`, `edition` | As above |
 | `top_tag`, `sub_tag`, `full_tag` | The tag, split and joined (`top-tag:sub-tag`) |
-| `women_tier`, `women_any`, `women_character` | The story's women annotation, repeated for convenience |
+| `women_tier`, `women_present`, `women_graded_character` | The story's women annotation, repeated for convenience |
 
 ### `tag_women_summary.tsv`
 
@@ -92,8 +101,8 @@ Per-tag aggregate — the table behind the article's Figures 2 and 3.
 |---|---|
 | `full_tag`, `top_tag`, `sub_tag` | The tag |
 | `n_stories` | Stories carrying the tag |
-| `n_women_any`, `pct_women_any` | Count and % with women under the **any** definition |
-| `n_women_character`, `pct_women_character` | Count and % under the **character** definition |
+| `n_women_present`, `pct_women_present` | **The article's measure**: count and % of the tag's stories that refer to a woman |
+| `n_women_graded_character`, `pct_women_graded_character` | The same under the superseded graded scheme; not the article's measure |
 
 ## Reproducing the article's figures
 
@@ -108,7 +117,7 @@ Please read these before quoting any statistic:
 - Tag counts are **floors, not exact censuses**. The LLM-assisted tagging pass had an estimated candidate-retrieval recall of **87–93% per category**, so a tag's story count may understate its true extent.
 - The adjudication pass was benchmarked against a 100-story human anchor but was **not fully human-validated**.
 - Several category definitions were patched mid-audit; affected tags were audited under the patched definitions.
-- The five-tier women annotation is LLM-produced with human curation. The **mention-only boundary is the least stable tier** — which is why the article reports both the *any* and *character* definitions, and why both are preserved here.
+- The five-tier graded labels are LLM-produced with human curation, and the **mention-only boundary is their least stable distinction** — which is why the graded scheme was abandoned and the article counts presence alone. Treat `women_tier` and `women_graded_character` as exploratory.
 - A small number of anomalous tag tokens from the taxonomy-consolidation backlog are excluded from the article's figures.
 
 ## License
