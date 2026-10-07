@@ -15,14 +15,14 @@ First published version. Covers the nine editions analysed in Mandel-Edrei, Rusi
 
 | Tier | Stories |
 |---|---|
-| major | 36 |
-| catalyst | 52 |
-| minor | 102 |
-| mention-only | 100 |
-| none | 362 |
+| major | 38 |
+| catalyst | 51 |
+| minor | 103 |
+| mention-only | 102 |
+| none | 358 |
 | **total** | **652** |
 
-Derived: **any** = 290 (44.5%), **character** = 190 (29.1%).
+Derived: **any** = 294 (45.1%), **character** = 192 (29.4%).
 
 > Earlier internal drafts of this dataset (unpublished) reported a women rate of roughly 26–27%. That figure came from the pre-audit corpus under the old binary scheme. The current numbers differ because of both the audited tag layer and the five-tier re-annotation, which identified more stories containing women overall.
 

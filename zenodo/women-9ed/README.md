@@ -30,15 +30,15 @@ CHANGES.md
 | Edition | Imprint | Stories | Women (any) | Women (character) |
 |---|---|---|---|---|
 | Adat Tsadikim (`Adat-Zadikim.xml`) | Lemberg, 1864 | 24 | 18 (75.0%) | 12 (50.0%) |
-| Kehal Hasidim (`Khal-Hasidim.xml`) | Warsaw, 1866 | 254 | 118 (46.5%) | 80 (31.5%) |
+| Kehal Hasidim (`Khal-Hasidim.xml`) | Warsaw, 1866 | 254 | 121 (47.6%) | 81 (31.9%) |
 | Kehal Kdoshim (`Khal-Kdoshim.xml`) | Lemberg, 1865 | 12 | 7 (58.3%) | 4 (33.3%) |
 | Ma'ase Tsadikim (`Maase-Zadikim.xml`) | Lemberg, 1864 | 41 | 17 (41.5%) | 11 (26.8%) |
 | Mif'alot ha-Tsadikim (`Mifalot-HaZadikim.xml`) | Lemberg, 1866 | 54 | 16 (29.6%) | 12 (22.2%) |
 | Pe'er mi-Kdoshim (`Peer-MiKdoshim.xml`) | Lemberg, 1865 | 18 | 12 (66.7%) | 10 (55.6%) |
 | Shivhei ha-Besht (`Shivhei-Habesht.xml`) | Kopys, 1814 | 216 | 89 (41.2%) | 52 (24.1%) |
 | Shivhei ha-Rav (`Shivhei-Harav.xml`) | Lemberg, 1864 | 19 | 8 (42.1%) | 6 (31.6%) |
-| Sipurei Tsadikim (`Sipurei-Zadikim.xml`) | Lemberg, 1864 | 14 | 5 (35.7%) | 3 (21.4%) |
-| **Total** | | **652** | **290 (44.5%)** | **190 (29.1%)** |
+| Sipurei Tsadikim (`Sipurei-Zadikim.xml`) | Lemberg, 1864 | 14 | 6 (42.9%) | 4 (28.6%) |
+| **Total** | | **652** | **294 (45.1%)** | **192 (29.4%)** |
 
 ## Annotation
 
@@ -50,7 +50,7 @@ Each story carries story-level thematic tags — about 15 top-level categories (
 
 The article records **presence alone**: whether a story refers to a woman at all, whether she acts in the narrative, serves as a catalyst, or appears only in passing. That is the `women_present` column, and it is the measure behind every figure and statistic in the article:
 
-- **women present: 290 / 652 (44.5%)**
+- **women present: 294 / 652 (45.1%)**
 
 This is a deliberately modest measure. It does not claim to capture how much narrative weight a woman carries — that is recovered by close reading, not by counting. It is, however, the one judgement independent readers of these stories proved able to agree on, and it can be checked by anyone who consults the corpus.
 
@@ -62,13 +62,13 @@ The tier labels are nevertheless shipped here — as `women_tier`, and collapsed
 
 | Tier | `ana` tag | Meaning | Stories |
 |---|---|---|---|
-| major | `women:major_character` | A woman is a central actor with her own agency | 36 |
-| catalyst | `women:catalyst_character` | A woman triggers the plot or is the reason for events, without being a central actor | 52 |
-| minor | `women:minor_character` | A woman appears in a small or peripheral role | 102 |
-| mention-only | `women:mention_only` | A woman is referred to but does not act in the narrative | 100 |
-| none | *(no `women:` tag)* | No women in the story | 362 |
+| major | `women:major_character` | A woman is a central actor with her own agency | 38 |
+| catalyst | `women:catalyst_character` | A woman triggers the plot or is the reason for events, without being a central actor | 51 |
+| minor | `women:minor_character` | A woman appears in a small or peripheral role | 103 |
+| mention-only | `women:mention_only` | A woman is referred to but does not act in the narrative | 102 |
+| none | *(no `women:` tag)* | No women in the story | 358 |
 
-Collapsing the tiers to `women_graded_character` would give 190 / 652 (29.1%) — reported here only for completeness, and **not** the article's figure.
+Collapsing the tiers to `women_graded_character` would give 192 / 652 (29.4%) — reported here only for completeness, and **not** the article's figure.
 
 ## Table schemas
 

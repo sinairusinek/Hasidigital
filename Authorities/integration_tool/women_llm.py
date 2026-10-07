@@ -12,6 +12,7 @@ prompt forces a re-run.
 import csv
 import hashlib
 import json
+import re
 import os
 import time
 from datetime import datetime
@@ -122,17 +123,41 @@ def _parse_response(raw: str) -> Tuple[str, bool, str, str]:
             raw = raw.split("```")[1]
             if raw.startswith("json"):
                 raw = raw[4:]
-        data = json.loads(raw)
+        try:
+            data = json.loads(raw)
+        except json.JSONDecodeError:
+            # The model occasionally emits a stray quote (e.g.
+            # '"collective_women: true"'), which breaks strict JSON. The
+            # category is still recoverable, and must NOT be silently
+            # downgraded: "no-women" is a substantive verdict, not a
+            # fallback, and defaulting to it deflates the corpus counts.
+            m = re.search(r'"category"\s*:\s*"([a-z\-]+)"', raw)
+            if not m or m.group(1).strip().lower() not in VALID_CATEGORIES:
+                raise ValueError(
+                    f"unparseable annotation response and no recoverable "
+                    f"category: {raw[:300]}")
+            cat = m.group(1).strip().lower()
+            mc = re.search(r'"?collective_women"?\s*:\s*"?(true|false)', raw, re.I)
+            mf = re.search(r'"confidence"\s*:\s*"([a-z]+)"', raw)
+            mr = re.search(r'"reasoning"\s*:\s*"(.*)', raw, re.S)
+            conf = (mf.group(1).strip().lower() if mf else "medium")
+            return (
+                cat,
+                bool(mc and mc.group(1).lower() == "true"),
+                conf if conf in VALID_CONFIDENCES else "medium",
+                f"[recovered] {mr.group(1).rstrip(chr(34)+chr(125)).strip() if mr else ''}",
+            )
         cat = data.get("category", "").strip().lower()
         if cat not in VALID_CATEGORIES:
-            cat = "no-women"
+            # Never coerce an unrecognised category to a real verdict.
+            raise ValueError(f"unrecognised category {cat!r} in response: {raw[:300]}")
         collective = bool(data.get("collective_women", False))
         conf = str(data.get("confidence", "")).strip().lower()
         if conf not in VALID_CONFIDENCES:
             conf = "medium"
         return cat, collective, conf, data.get("reasoning", "")
-    except Exception:
-        return "no-women", False, "medium", f"[parse error] {raw[:200]}"
+    except ValueError:
+        raise
 
 
 def _call_claude(story_text: str, criteria: str) -> Tuple[str, bool, str, str]:

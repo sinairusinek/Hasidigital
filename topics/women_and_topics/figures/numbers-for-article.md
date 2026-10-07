@@ -13,15 +13,21 @@ Two definitions of "women present", per the team decision:
 
 | | stories | women (any) | women (char) |
 |---|---|---|---|
-| 9 editions | **652** | **290 (44.5%)** | **190 (29.1%)** |
+| 9 editions | **652** | **294 (45.1%)** | **192 (29.4%)** |
 
-Story-level tier breakdown (a story's highest tier): major **36**, catalyst **52**,
-minor **102**, mention-only **100**, none **362**.
+Story-level tier breakdown (a story's highest tier): major **35**, catalyst **53**,
+minor **104**, mention-only **102**, none **358**.
+
+> Updated 2026-10-07: seven stories re-adjudicated after a cross-edition
+> twin sweep found label disagreements on near-duplicate texts, four of them
+> caused by a JSON parse failure that silently stored `no-women`. Presence
+> 290 -> 294. See `editions/women-5tier-9editions-full.tsv` (rows marked
+> `[human-adjudicated 2026-10-07]`).
 
 > The old draft numbers (~26–27% baseline) came from the pre-audit binary
 > scheme. The change has two causes: (a) the audited LLM tag layer, and
 > (b) the 5-tier re-annotation, which found more stories with women overall.
-> The **char** definition (29.1%) is methodologically closest to the draft's
+> The **char** definition (29.4%) is methodologically closest to the draft's
 > stated intent ("distinguish passive and incidental mentions … from female
 > characters with active roles").
 
@@ -32,17 +38,24 @@ minor **102**, mention-only **100**, none **362**.
 | Adat Tsadikim (1864) | 24 | 75% | 50% |
 | Pe'er mi-Kdoshim (1865) | 18 | 67% | 56% |
 | Kehal Kdoshim (1865) | 12 | 58% | 33% |
-| Kehal Hasidim (1866) | 254 | 46% | 31% |
+| Kehal Hasidim (1866) | 254 | 48% | 32% |
+| Sipurei Tsadikim (1864) | 14 | 43% | 29% |
 | Shivhei ha-Rav (1864) | 19 | 42% | 32% |
 | Ma'ase Tsadikim (1864) | 41 | 41% | 27% |
 | **Shivhei ha-Besht (1814)** | 216 | **41%** | **24%** |
-| Sipurei Tsadikim (1864) | 14 | 36% | 21% |
 | Mif'alot ha-Tsadikim (1866) | 54 | 30% | 22% |
 
-**The anti-Nigal point still holds and is stronger**: Shivhei ha-Besht sits *at
-or below* the 1860s range under both definitions (only Sipurei Tsadikim and
-Mif'alot ha-Tsadikim are lower). The claim that women are more prominent in
+**The anti-Nigal point still holds**: Shivhei ha-Besht (41% any / 24% char) sits
+*at or below* the 1860s range under both definitions — only Mif'alot ha-Tsadikim
+is lower on presence, and on the character definition Shivhei ha-Besht is the
+**second lowest of the nine**. The claim that women are more prominent in
 Shivhei ha-Besht than in the second wave is not supported.
+
+> Note (2026-10-07): after the re-adjudication, Sipurei Tsadikim rose to 43%
+> presence, so Shivhei ha-Besht is now next-to-last rather than third-from-last
+> on that measure. The direction of the argument is unchanged, but phrase it as
+> "at or below the range", not "only two are lower". Sipurei Tsadikim has n=14,
+> so its rate is volatile — a single story moves it by 7 points.
 
 ## Corrections to specific sentences in the draft
 
@@ -66,7 +79,7 @@ Shivhei ha-Besht than in the second wave is not supported.
 3. **Business advice**: 9 stories, **100% (9/9)** include women (any);
    5/9 (56%) as characters.
 
-4. **Solitude**: 19 stories, 84% any / **74% char (14/19)** — the
+4. **Solitude**: 19 stories, 89% any (17/19) / **74% char (14/19)** — the
    wives-as-breadwinners reading survives the recomputation.
 
 5. **Agunot**: `releasing_agunot` 20 stories, 90% any / 80% char;
@@ -75,8 +88,8 @@ Shivhei ha-Besht than in the second wave is not supported.
 6. **The inverse (masculine-elite) cluster** — still sharp:
    coping with alien thoughts **0% (0/10)**, trembling 8% (1/12),
    humility 18%/10%, eschatology 22%/11%, awe 23%/20%, hasidic court 25%/12%,
-   pride 28%/18%, reception of hasidim 38% any but only **9% char (3/34)**,
-   master–disciple relationship 39% any / 27% char (n=225; below baseline —
+   pride 31%/18%, reception of hasidim 38% any but only **9% char (3/34)**,
+   master–disciple relationship 40% any / 27% char (n=225; below baseline —
    "under-represented", not "absent": phrase accordingly).
 
 ## Figures
