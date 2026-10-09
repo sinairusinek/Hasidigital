@@ -59,3 +59,17 @@ editions/tag-audit/.rerun-logs/
 
 # Zenodo deposit bundles are rebuilt by build_zenodo_deposit.py
 zenodo/**/*.zip
+
+# Superseded dated edition snapshots (kept locally; the current editions are
+# in editions/online/ and the article's frozen copies in the Zenodo deposit)
+editions/archived-editions/
+
+# Working notes & personal scratch (not part of the pipeline)
+next-session-prompt.md
+TODO-HASIDIGITAL.md
+**/NEXT-SESSION.md
+.claude/launch.json
+.claude/plans/
+Hasidic_Tales_Final/tmp.json
+launch_shidduch.sh
+apply_nisba_fix.py

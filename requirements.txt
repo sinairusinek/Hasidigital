@@ -1,0 +1,13 @@
+# Core pipeline (steps 3-5: XML writers, figures, deposit builder).
+# These are the only third-party packages the reproducibility chain needs;
+# everything else it imports is in the Python standard library.
+lxml>=4.9
+matplotlib>=3.7
+
+# Annotation steps (1-2) additionally call an LLM:
+anthropic>=0.40
+
+# Component-specific dependencies live alongside their code:
+#   Authorities/integration_tool/requirements.txt   Streamlit review app
+#   women_dashboard/requirements.txt                women dashboard
+#   ner_pipeline/requirements.txt                   NER pipeline
