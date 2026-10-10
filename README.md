@@ -5,54 +5,22 @@ century Hebrew), with the code that produces and analyses the annotation.
 
 Stories are browsable at **<https://www.hasidic-stories.org/>**.
 
-This repository is under active development. The corpus continues to grow and
-the pipeline continues to change, so **work tied to a publication is pinned to a
-tag** — see *Reproducing a publication* below.
+This repository is under active development: the corpus grows and the pipeline
+changes.
 
 ---
 
 ## Reproducing a publication
 
-### Rethinking Women in Hasidic Literature (Mandel-Edrei, Rusinek & Sagiv)
+Work tied to a publication is pinned to a git tag, and its data deposited in
+Zenodo under a version DOI. Cite those, not `main`.
 
-| | |
-|---|---|
-| **Code version** | tag [`women-article-v1.0.0`](https://github.com/sinairusinek/Hasidigital/releases/tag/women-article-v1.0.0) |
-| **Data** | Zenodo, version DOI [10.5281/zenodo.20524710](https://doi.org/10.5281/zenodo.20524710) |
-| **Corpus** | 9 editions, 652 stories; women present in 294 (45.1%) |
-
-The tag marks the exact commit whose output the article reports. `main` has
-moved on since; to reproduce the article's numbers, start from the tag:
-
-```bash
-git clone https://github.com/sinairusinek/Hasidigital.git
-cd Hasidigital
-git checkout women-article-v1.0.0
-```
-
-The Zenodo deposit is self-contained — it carries the nine annotated editions
-and the derived tables, so the article's figures and proportions can be
-recomputed from the deposit alone, without this repository. Use the repository
-when you want to see *how* the annotation was produced rather than to re-analyse
-its output.
-
-**The pipeline, in order.** Each step reads the previous step's output:
-
-| Step | Script | Produces |
+| Publication | Code tag | Data DOI |
 |---|---|---|
-| 1. Annotation criteria | [`editions/women-criteria.md`](editions/women-criteria.md) | the prompt given to the annotators (human and LLM) |
-| 2. Annotate | [`Authorities/integration_tool/run_5tier_full_9.py`](Authorities/integration_tool/run_5tier_full_9.py) → [`women_llm.py`](Authorities/integration_tool/women_llm.py) | `editions/women-5tier-9editions-full.tsv` |
-| 3. Write to XML | [`Authorities/scripts/apply_women_5tier_to_xml.py`](Authorities/scripts/apply_women_5tier_to_xml.py) | `women:*` spans in `editions/online/*.xml` |
-| 4. Figures & numbers | [`topics/women_and_topics/figures/generate_figures.py`](topics/women_and_topics/figures/generate_figures.py) | the article's figures, `story_tags_post_audit.tsv`, [`numbers-for-article.md`](topics/women_and_topics/figures/numbers-for-article.md) |
-| 5. Build the deposit | [`Authorities/scripts/build_zenodo_deposit.py`](Authorities/scripts/build_zenodo_deposit.py) | `zenodo/women-9ed/` |
+| Mandel-Edrei, Rusinek & Sagiv, *Rethinking Women in Hasidic Literature* | [`women-article-v1.0.0`](https://github.com/sinairusinek/Hasidigital/releases/tag/women-article-v1.0.0) | [10.5281/zenodo.20524710](https://doi.org/10.5281/zenodo.20524710) |
 
-Step 4 is the authority for every statistic in the article: it reads the edition
-XML directly, and step 5 re-derives the deposit through the same extractor, so
-the deposit cannot silently disagree with the published figures.
-
-Steps 1–3 call an LLM and are **not** deterministic; steps 4–5 are pure
-functions of the XML and reproduce exactly. To verify the article's numbers
-without re-annotating, run step 4 (or step 5) against the tagged XML.
+**See [REPRODUCING.md](REPRODUCING.md)** for the pipeline steps, what is and is
+not deterministic, and the caveats that belong with any count.
 
 ---
 
@@ -95,11 +63,10 @@ Each story is a TEI `<div type="story">` carrying story-level annotation on a
   `women:minor_character`, `women:mention_only`; a story with no women carries no
   `women:` tag.
 
-The article counts **presence alone** (any `women:` tag). The four-way gradation
-was an attempt to record *how substantially* a woman figures; it did not reach
-sufficient annotator agreement and the article reports it as a negative result,
-so the tiers are retained for transparency and reuse rather than as a measure.
-See the deposit's `README.md` and `CHANGES.md` for the full history and caveats.
+The women article counts **presence alone** (any `women:` tag); the four-way
+gradation did not reach sufficient annotator agreement and is retained for
+transparency rather than as a measure. See
+[REPRODUCING.md](REPRODUCING.md#what-the-article-counts).
 
 ## Running the code
 
@@ -117,16 +84,16 @@ cd Authorities/integration_tool && streamlit run app.py
 
 ## Caveats
 
-Please read these before quoting any count from this repository:
+Before quoting any count from this repository:
 
-- Thematic tag counts are **floors, not censuses**. The LLM-assisted tagging pass
-  had an estimated candidate-retrieval recall of 87–93% per category.
-- The adjudication pass was benchmarked against a 100-story human anchor but was
-  **not fully human-validated**.
-- Several category definitions were patched mid-audit; affected tags were audited
-  under the patched definitions.
-- `editions/online/` is a moving target. Cite the Zenodo DOI, not this directory,
+- Tag counts are **floors, not censuses** (estimated candidate-retrieval recall
+  87–93% per category), and the adjudication pass was **not fully
+  human-validated**.
+- `editions/online/` is a moving target. Cite the Zenodo DOI, not a path here,
   for anything that needs to stay reproducible.
+
+The full caveats belong with any published statistic — see
+[REPRODUCING.md](REPRODUCING.md#caveats-on-the-counts).
 
 ## License
 
