@@ -10,7 +10,7 @@ changes.
 
 ---
 
-## Reproducing a publication
+## Rethinking Women in Hasidic Literature
 
 Work tied to a publication is pinned to a git tag, and its data deposited in
 Zenodo under a version DOI. Cite those, not `main`.
