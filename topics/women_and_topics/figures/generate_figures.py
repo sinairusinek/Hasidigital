@@ -335,15 +335,21 @@ def fig2_practice(records: list[dict], definition: str, min_n: int = 8) -> None:
 
 # ================================================================ FIG 3
 def fig3_extremes(records: list[dict], definition: str,
-                  min_n: int = 6, k_each: int = 14) -> None:
+                  min_n: int = 6, k_each: int = 14,
+                  bottom_through: str | None = None, suffix: str = "") -> None:
     """All tags, but the EXTREMES: the most women-loaded vs the least.
     Shows the normative poles (women ↔ domestic/sexuality vs men ↔
-    spiritual life) with the economic topics highlighted between them."""
+    spiritual life) with the economic topics highlighted between them.
+    bottom_through widens the lower pole up to and including that tag, so a
+    topic the text cites (master–disciple) is visible in the figure."""
     baseline = sum(women_flag(r, definition) for r in records) / len(records)
     rows = tag_table(records, definition, min_n)
     rows.sort(key=lambda r: (-r[3], -r[1]))
     top = rows[:k_each]
     bottom = rows[-k_each:]
+    if bottom_through:
+        cut = [r[0] for r in rows].index(bottom_through)
+        bottom = rows[min(cut, len(rows) - k_each):]
     in_extremes = {r[0] for r in top} | {r[0] for r in bottom}
     # the economic topics must stay visible between the poles even when a
     # tag's rate is mid-range (Chen: "בתוך אלו גם רואים את הכלכלה")
@@ -355,6 +361,9 @@ def fig3_extremes(records: list[dict], definition: str,
     DIV_ECON = "— economic topics, mid-range —"
     shown = top + ([DIV_ECON] + econ_mid if econ_mid else []) \
         + [f"···  {n_omitted} other mid-range topics omitted  ···"] + bottom
+    # two tags can share a display name (practice:devekut, experience:devekut)
+    names = [pretty(r[0]) for r in shown if not isinstance(r, str)]
+    dup = {nm for nm in names if names.count(nm) > 1}
     fig, ax = plt.subplots(figsize=(9.0, 0.30 * len(shown) + 2.0))
     ys, labels = [], []
     for i, row in enumerate(shown):
@@ -373,7 +382,8 @@ def fig3_extremes(records: list[dict], definition: str,
                 height=0.72)
         ax.text(p * 100 + 1, y, f"{p*100:.0f}%  ({k}/{n})",
                 va="center", fontsize=8.5, path_effects=HALO)
-        labels.append(pretty(t))
+        nm = pretty(t)
+        labels.append(f"{nm} ({t.split(':')[0]})" if nm in dup else nm)
     ax.set_yticks(ys)
     ax.set_yticklabels(labels, fontsize=9)
     for lbl, row in zip(ax.get_yticklabels(), shown):
@@ -397,7 +407,7 @@ def fig3_extremes(records: list[dict], definition: str,
                          label=f"corpus baseline ({baseline*100:.0f}%)"),
     ]
     ax.legend(handles=handles, loc="lower right", frameon=False, fontsize=8.5)
-    save(fig, f"figure_3_extremes_{definition}")
+    save(fig, f"figure_3_extremes{suffix}_{definition}")
 
 
 # ================================================================ data dump
@@ -428,6 +438,8 @@ def main() -> None:
         fig1_per_edition(records, d)
         fig2_practice(records, d)
         fig3_extremes(records, d)
+    fig3_extremes(records, "any", suffix="_wide",
+                  bottom_through="social:inter_hasidic_master_disciple_relationship")
     print("Done. Outputs in", OUT.relative_to(ROOT))
 
 
