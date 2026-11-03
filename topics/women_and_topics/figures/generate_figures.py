@@ -30,7 +30,7 @@ Design (consistent with the previous session's system):
       - black dashed line     = corpus baseline
     CVD separation of the co-occurring hues validated (worst adjacent
     ΔE 11.0 deutan); every bar carries a direct label, so no encoding is
-    color-alone. Economic-cluster bars additionally carry a hatch texture.
+    color-alone. Economic-topic bars additionally carry a hatch texture.
 
 Also writes:
   story_tags_post_audit.tsv — the per-story extraction backing the figures
@@ -338,21 +338,21 @@ def fig3_extremes(records: list[dict], definition: str,
                   min_n: int = 6, k_each: int = 14) -> None:
     """All tags, but the EXTREMES: the most women-loaded vs the least.
     Shows the normative poles (women ↔ domestic/sexuality vs men ↔
-    spiritual life) with the economic cluster highlighted between them."""
+    spiritual life) with the economic topics highlighted between them."""
     baseline = sum(women_flag(r, definition) for r in records) / len(records)
     rows = tag_table(records, definition, min_n)
     rows.sort(key=lambda r: (-r[3], -r[1]))
     top = rows[:k_each]
     bottom = rows[-k_each:]
     in_extremes = {r[0] for r in top} | {r[0] for r in bottom}
-    # the economic cluster must stay visible between the poles even when a
+    # the economic topics must stay visible between the poles even when a
     # tag's rate is mid-range (Chen: "בתוך אלו גם רואים את הכלכלה")
     econ_mid = sorted((r for r in rows
                        if r[0] in ECONOMY_TAGS and r[0] not in in_extremes),
                       key=lambda r: -r[3])
     n_omitted = len(rows) - len(top) - len(bottom) - len(econ_mid)
 
-    DIV_ECON = "— the economic cluster, mid-range —"
+    DIV_ECON = "— economic topics, mid-range —"
     shown = top + ([DIV_ECON] + econ_mid if econ_mid else []) \
         + [f"···  {n_omitted} other mid-range topics omitted  ···"] + bottom
     fig, ax = plt.subplots(figsize=(9.0, 0.30 * len(shown) + 2.0))
@@ -392,7 +392,7 @@ def fig3_extremes(records: list[dict], definition: str,
         mpl.patches.Patch(facecolor=C_OVER, label="women over-represented"),
         mpl.patches.Patch(facecolor=C_UNDER, label="women under-represented"),
         mpl.patches.Patch(facecolor="#FFFFFF", edgecolor="black",
-                          hatch="///", label="economic cluster"),
+                          hatch="///", label="economic topics"),
         mpl.lines.Line2D([], [], color=C_BASELINE, ls="--", lw=1,
                          label=f"corpus baseline ({baseline*100:.0f}%)"),
     ]
