@@ -61,7 +61,7 @@ WRONG_SCANS = {"141": "Drive zip IE101483126 and NLI 001898821 are I.H. Weiss's 
 # works whose catalogue DB title names a different book (145: DBid 3620 is titled סיפורי צדיקים, bound with it)
 WORK_NAMES = {"145": "שבחי הרב"}
 # open questions for Gadi that hold a work's next step
-GADI_QUESTIONS = {"12": "Krakow 1896 is the scan behind work 14's online edition"}
+GADI_QUESTIONS: dict[str, str] = {}
 LATER_EDITION_ONLY = {"123": "Warsaw 1924 Yiddish", "126": "Przemyśl 1927",
                       "131": "Warsaw 1930", "138": "Bilgoraj 1925"}
 
@@ -122,6 +122,10 @@ def load_works() -> list[dict]:
     w44 = next(w for w in works if w["nu"] == "44")
     w12["rows"] += w44["rows"]
     works.remove(w44)
+    # Nu. 12 (Krakow 1896) is a reprint of Nu. 14 and the scan behind its online edition (Sinai, 2026-11-11)
+    w14 = next(w for w in works if w["nu"] == "14")
+    w14["rows"] += w12["rows"]
+    works.remove(w12)
 
     for w in works:
         w["titles"] = set().union(*[r["_titles"] for r in w["rows"]])
