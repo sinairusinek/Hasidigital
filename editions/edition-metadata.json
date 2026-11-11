@@ -748,7 +748,7 @@
       "DBid": "3706",
       "title_he": "שבע רצון",
       "title_en": "Sheva Ratzon",
-      "date_ce": "1901",
+      "date_ce": "1900",
       "date_he": "תרס\"א",
       "pub_place_he": "פאדגורזא",
       "pub_place_en": "Podgorze",
@@ -858,7 +858,7 @@
     },
     {
       "xml_filename": "Tiferet-Hayyim.xml",
-      "DBid": "3729",
+      "DBid": "",
       "title_he": "תפארת חיים",
       "title_en": "Tiferet Hayyim",
       "date_ce": "1905",
@@ -874,7 +874,20 @@
         "Kima": "953",
         "Transkribus": "9568035"
       },
-      "work_number": 82
+      "work_number": 82,
+      "pub_place_ref": "#H-LOC_178",
+      "note": "Later printing (Warsaw 1905); the first edition is Warsaw תרס\"א (1900/1).",
+      "first_edition": {
+        "date_ce": "1900",
+        "date_he": "תרס\"א",
+        "pub_place_ref": "#H-LOC_178",
+        "pub_place_he": "ורשה",
+        "pub_place_en": "Warsaw",
+        "identifiers": {
+          "BHB": "177533",
+          "DBid": "3729"
+        }
+      }
     },
     {
       "xml_filename": "Likutim-Hadashim.xml",

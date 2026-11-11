@@ -118,6 +118,12 @@ def load_works() -> list[dict]:
     w80 = next(w for w in works if w["nu"] == "80")
     w75["rows"] += w80["rows"]
     works.remove(w80)
+    # row 154 (1891, untitled) carries the ALMA id of מפעלות צדיקים החדש: it is Nu. 60's, not שערי האמונה's
+    w60 = next(w for w in works if w["nu"] == "60")
+    w61 = next(w for w in works if w["nu"] == "61")
+    r154 = next(r for r in w61["rows"] if r["_row"] == "154")
+    w61["rows"].remove(r154)
+    w60["rows"].append(r154)
     # Nu. 44 (row 131) repeats Nu. 12 (row 60): same DBid, NLI record and scan, Krakow 1896
     w12 = next(w for w in works if w["nu"] == "12")
     w44 = next(w for w in works if w["nu"] == "44")

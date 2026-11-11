@@ -62,7 +62,7 @@ CATEGORY_COLORS = {
 
 EDITION_YEARS = {
     "Shivhei-Habesht": 1814,
-    "Mifalot-HaZadikim": 1856,
+    "Mifalot-HaZadikim": 1866,  # title page cites books of 1864-65; Kitsis: Lemberg 1866
     "Adat-Zadikim": 1864,
     "Shivhei-Harav": 1864,
     "Sipurei-Zadikim": 1864,
