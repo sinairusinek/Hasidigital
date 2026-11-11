@@ -54,6 +54,12 @@ STATUS_OVERRIDES = {"שערי האמונה": "61", "רמתיים צופים?": "
 ARCHIVED_DRAFTS = {"4": r"^(Shivhei-Haran|ShvheiHaran)", "39": r"^MeromHarim",
                    "104": r"^(Em-?Labina|emlabina)", "115": r"^(Ohel|ohel)"}
 STATUS_FOOTER = {"do-sinai", "Shaya", "check!", "?", "no", "done", "other"}
+# catalogue scan links (Drive zip / NLI / HebrewBooks) checked and found to be a different book
+WRONG_SCANS = {"141": "Drive zip IE101483126 and NLI 001898821 are I.H. Weiss's דור דור ודורשיו",
+               "60": "NLI 000400073 opens שערי האמונה"}
+# only a later printing than the record has been found; waiting for Gadi to accept it
+LATER_EDITION_ONLY = {"123": "Warsaw 1924 Yiddish", "126": "Przemyśl 1927",
+                      "131": "Warsaw 1930", "138": "Bilgoraj 1925"}
 
 
 def norm(s: str) -> str:
@@ -267,7 +273,8 @@ def main() -> None:
             decision = "not assessed"
 
         dated = sorted(w["rows"], key=lambda r: r["_year"] or 9999)
-        ed = next((r for r in dated if r["DBid"] and any(x in db2meta for x in r["DBid"].split("|"))), None)
+        ed = next((r for r in dated if r["DBid"] and len(r["DBid"].split("|")) <= 2
+                   and any(x in db2meta for x in r["DBid"].split("|"))), None)
         ed = ed or next((r for r in dated if (r["_year"] or 0) <= 1914), dated[0])
         ie = set(re.findall(r"IE\d+", ed["downloaded filename"]))
         docs = trp_by_work.get(w["key"], [])
@@ -294,6 +301,10 @@ def main() -> None:
             step = "finish transcription in Transkribus"
         elif main_docs:
             step = "run layout + HTR in Transkribus"
+        elif w["key"] in LATER_EDITION_ONLY:
+            step = f'confirm later edition with Gadi ({LATER_EDITION_ONLY[w["key"]]})'
+        elif w["key"] in WRONG_SCANS:
+            step = "find a scan"
         elif ie & ies:
             step = "upload Drive scan to Transkribus"
         elif scan_source(ed) in ("NLI downloaded", "HebrewBooks"):
