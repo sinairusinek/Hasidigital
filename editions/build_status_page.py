@@ -56,6 +56,8 @@ def cells(r, files):
     src = r["scan_source"]
     if "later edition" in step:
         c["Scan"] = ("block", "later edition only")
+    elif "find a scan" in step:  # the catalogue's download is the wrong book or another volume
+        c["Scan"] = ("block", "no usable scan")
     elif src in ("HebrewBooks", "NLI downloaded") or r["trp_main_docs"] or r["xml"]:
         c["Scan"] = ("done", src if src in ("HebrewBooks", "NLI downloaded") else "")
     elif src == "library request":
