@@ -60,6 +60,8 @@ WRONG_SCANS = {"141": "Drive zip IE101483126 and NLI 001898821 are I.H. Weiss's 
 # only a later printing than the record has been found; waiting for Gadi to accept it
 # works whose catalogue DB title names a different book (145: DBid 3620 is titled סיפורי צדיקים, bound with it)
 WORK_NAMES = {"145": "שבחי הרב"}
+# open questions for Gadi that hold a work's next step
+GADI_QUESTIONS = {"12": "Krakow 1896 is the scan behind work 14's online edition"}
 LATER_EDITION_ONLY = {"123": "Warsaw 1924 Yiddish", "126": "Przemyśl 1927",
                       "131": "Warsaw 1930", "138": "Bilgoraj 1925"}
 
@@ -115,6 +117,11 @@ def load_works() -> list[dict]:
     w80 = next(w for w in works if w["nu"] == "80")
     w75["rows"] += w80["rows"]
     works.remove(w80)
+    # Nu. 44 (row 131) repeats Nu. 12 (row 60): same DBid, NLI record and scan, Krakow 1896
+    w12 = next(w for w in works if w["nu"] == "12")
+    w44 = next(w for w in works if w["nu"] == "44")
+    w12["rows"] += w44["rows"]
+    works.remove(w44)
 
     for w in works:
         w["titles"] = set().union(*[r["_titles"] for r in w["rows"]])
@@ -303,6 +310,8 @@ def main() -> None:
             step = "finish transcription in Transkribus"
         elif main_docs:
             step = "run layout + HTR in Transkribus"
+        elif w["key"] in GADI_QUESTIONS:
+            step = f'ask Gadi ({GADI_QUESTIONS[w["key"]]})'
         elif w["key"] in LATER_EDITION_ONLY:
             step = f'confirm later edition with Gadi ({LATER_EDITION_ONLY[w["key"]]})'
         elif w["key"] in WRONG_SCANS:
