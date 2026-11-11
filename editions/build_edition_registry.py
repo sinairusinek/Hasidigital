@@ -58,6 +58,8 @@ STATUS_FOOTER = {"do-sinai", "Shaya", "check!", "?", "no", "done", "other"}
 WRONG_SCANS = {"141": "Drive zip IE101483126 and NLI 001898821 are I.H. Weiss's דור דור ודורשיו",
                "60": "NLI 000400073 opens שערי האמונה"}
 # only a later printing than the record has been found; waiting for Gadi to accept it
+# works whose catalogue DB title names a different book (145: DBid 3620 is titled סיפורי צדיקים, bound with it)
+WORK_NAMES = {"145": "שבחי הרב"}
 LATER_EDITION_ONLY = {"123": "Warsaw 1924 Yiddish", "126": "Przemyśl 1927",
                       "131": "Warsaw 1930", "138": "Bilgoraj 1925"}
 
@@ -116,7 +118,7 @@ def load_works() -> list[dict]:
 
     for w in works:
         w["titles"] = set().union(*[r["_titles"] for r in w["rows"]])
-        w["name"] = next((r[c] for r in w["rows"] for c in
+        w["name"] = WORK_NAMES.get(w["nu"]) or next((r[c] for r in w["rows"] for c in
                           ["Final Edition Title for the DB", "BHBTitle", "KitsisTitle"] if r[c]), "?")
         w["key"] = w["nu"] or w["rows"][0]["_row"]
         w["status"] = []
@@ -251,7 +253,7 @@ def main() -> None:
     trp_by_work = collections.defaultdict(list)
     for t in trp:
         if t["role"] not in ("training", "other-project"):
-            trp_by_work[t["work_nu"] or "59"].append(t)  # row 59 = שבחי הרב (no Nu.)
+            trp_by_work[t["work_nu"]].append(t)
 
     archived = sorted(p.name for p in (REPO / "editions" / "archived-editions").iterdir())
     out = []
