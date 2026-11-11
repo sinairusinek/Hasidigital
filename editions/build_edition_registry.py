@@ -56,7 +56,8 @@ ARCHIVED_DRAFTS = {"4": r"^(Shivhei-Haran|ShvheiHaran)", "39": r"^MeromHarim",
 STATUS_FOOTER = {"do-sinai", "Shaya", "check!", "?", "no", "done", "other"}
 # catalogue scan links (Drive zip / NLI / HebrewBooks) checked and found to be a different book
 WRONG_SCANS = {"141": "Drive zip IE101483126 and NLI 001898821 are I.H. Weiss's דור דור ודורשיו",
-               "60": "NLI 000400073 opens שערי האמונה"}
+               "60": "NLI 000400073 opens שערי האמונה",
+               "139": "Drive zip IE49238472 is part 1 (Husiatyn 1904), already doc 20151180 of work 79"}
 # only a later printing than the record has been found; waiting for Gadi to accept it
 # works whose catalogue DB title names a different book (145: DBid 3620 is titled סיפורי צדיקים, bound with it)
 WORK_NAMES = {"145": "שבחי הרב"}
