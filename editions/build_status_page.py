@@ -73,6 +73,8 @@ def cells(r, files):
         c["Transkribus"] = ("done", r["trp_main_docs"].replace(" ", ", "))
     elif "Drive scan" in step:
         c["Transkribus"] = ("todo", "Drive scan not uploaded")
+    elif r["trp_other_docs"]:
+        c["Transkribus"] = ("part", "other scans only: " + r["trp_other_docs"])
     else:
         c["Transkribus"] = ("todo", "")
 
