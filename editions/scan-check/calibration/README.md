@@ -15,3 +15,13 @@ Results (1,331 pages, 39 docs): text CER median 0.8%, mean 1.6%, 3.8% of pages a
 pages were probably in 52805's training data. 13.7% of pages had over 10% of lines deleted or redrawn by the RA,
 so line structure, not reading, is the larger error. Scan measurements predict CER only weakly (|Spearman rho|
 at most 0.3: sharpness -0.25, off-paper colour +0.30), so the scan check targets hard defects.
+
+## Added later the same day
+
+- `fetch_images.py [docId …]`: downloads original page images (default: docs uploaded since 2026-11-01) into `img/<docId>/<page>.jpg`.
+- `show_calib.py`: calibrates the show-through and background-unevenness measures against CER. Pages with show-through above 0.20: 25% over 5% CER, against 3% below.
+- `curl_test.py`, `bend_run.py`: two **failed** attempts to measure lines bending near the binding: strip correlation, then per-line fits. Both fired on straight pages (work 6), so bending is not measured; work 3's was spotted by eye.
+
+## The review page
+
+`../review/`: `build_review.py` and `review_template.html` generate the "Scan Review" artifact (https://claude.ai/artifact/GdPoNmvMuSBWHnUmePavh7). Sinai's answers are stored in that artifact's db collection `answers`. `montage.py` makes contact sheets for checking flags by eye. The scripts use scratch-relative paths (`img/`, `fulldoc/`, `../review/`).

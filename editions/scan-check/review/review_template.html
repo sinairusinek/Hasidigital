@@ -1,0 +1,194 @@
+<title>Scan Review</title>
+<meta name="claude:viewport-fit-sides" content="cover">
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Frank+Ruhl+Libre:wght@500;700&family=IBM+Plex+Sans:wght@400;600&family=IBM+Plex+Sans+Hebrew:wght@400;600&family=IBM+Plex+Mono:wght@400&display=swap">
+<style>
+/* Layout: one reading column; decisions first as framed cards, then a quiet per-book ledger. */
+:root {
+  --bg: #f3f4f1; --surface: #ffffff; --fg: #1f2421; --muted: #5d665f; --line: #d6dbd4;
+  --accent: #2f5d50; --check: #a6461d; --auto: #2f5d50; --note: #6b5a1e; --seen: #5d665f;
+  --tag-bg: #e8ece6; --shade: rgba(20, 24, 22, .92);
+  --display: "Frank Ruhl Libre", "IBM Plex Sans Hebrew", Georgia, serif;
+  --body: "IBM Plex Sans", "IBM Plex Sans Hebrew", system-ui, sans-serif;
+  --mono: "IBM Plex Mono", ui-monospace, Menlo, monospace;
+}
+@media (prefers-color-scheme: dark) { :root:not([data-theme="light"]) {
+  --bg: #161a18; --surface: #1e2320; --fg: #e7ebe6; --muted: #a3ada5; --line: #343b36;
+  --accent: #7fb8a4; --check: #e08a5f; --auto: #7fb8a4; --note: #d6bf6a; --seen: #a3ada5; --tag-bg: #29302c;
+  color-scheme: dark } }
+:root[data-theme="dark"] {
+  --bg: #161a18; --surface: #1e2320; --fg: #e7ebe6; --muted: #a3ada5; --line: #343b36;
+  --accent: #7fb8a4; --check: #e08a5f; --auto: #7fb8a4; --note: #d6bf6a; --seen: #a3ada5; --tag-bg: #29302c;
+  color-scheme: dark }
+body { background: var(--bg); color: var(--fg); font: 15px/1.55 var(--body); }
+.wrap { max-width: 860px; margin: 0 auto; padding-block: 28px 64px;
+  padding-left: max(16px, env(safe-area-inset-left, 0px)); padding-right: max(16px, env(safe-area-inset-right, 0px)); }
+h1 { font: 700 30px/1.15 var(--display); margin: 0 0 8px; text-wrap: balance; }
+h2 { font: 700 21px/1.2 var(--display); margin: 40px 0 6px; text-wrap: balance; }
+h3 { font: 600 16px/1.35 var(--body); margin: 0; }
+h3 [lang="he"] { font: 700 19px/1.2 var(--display); }
+.lede { color: var(--muted); max-width: 65ch; margin: 0; }
+.status { font-size: 13px; color: var(--muted); margin-top: 10px; }
+.meta { color: var(--muted); font: 400 12.5px var(--mono); }
+a { color: var(--accent); text-underline-offset: 2px; }
+a:focus-visible, input:focus-visible, textarea:focus-visible { outline: 2px solid var(--accent); outline-offset: 2px; }
+.stack { display: grid; gap: 14px; margin-top: 14px; }
+.issue { background: var(--surface); border: 1px solid var(--line); border-left: 4px solid var(--check); border-radius: 6px; padding: 16px 18px; display: grid; gap: 10px; min-width: 0; }
+.issue p, .book p { margin: 0; }
+header { display: flex; gap: 10px; align-items: baseline; flex-wrap: wrap; }
+header h3 { flex: 1 1 auto; min-width: 0; }
+.saved { font-size: 12px; color: var(--muted); }
+.links { font-size: 14px; }
+fieldset { border: 0; padding: 0; margin: 0; display: grid; gap: 6px; }
+legend { font-weight: 600; margin-bottom: 4px; padding: 0; }
+.opt { display: flex; gap: 8px; align-items: flex-start; cursor: pointer; }
+.opt input { margin-top: 4px; accent-color: var(--accent); }
+.lbl { font-size: 13px; color: var(--muted); }
+textarea { width: 100%; box-sizing: border-box; font: 14px/1.45 var(--body); color: var(--fg); background: var(--bg);
+  border: 1px solid var(--line); border-radius: 4px; padding: 8px 10px; resize: vertical; }
+.checks { display: flex; gap: 18px; flex-wrap: wrap; font-size: 14px; }
+.checks input { accent-color: var(--accent); }
+.tag { display: inline-block; font: 600 11px/1 var(--mono); letter-spacing: .06em; padding: 4px 6px; border-radius: 3px; background: var(--tag-bg); white-space: nowrap; }
+.tag.check { color: var(--check); } .tag.auto { color: var(--auto); } .tag.note { color: var(--note); } .tag.seen { color: var(--seen); }
+.legend { display: flex; gap: 14px; flex-wrap: wrap; font-size: 13px; color: var(--muted); margin-top: 10px; }
+.book { border-top: 1px solid var(--line); padding: 16px 0 4px; display: grid; gap: 8px; min-width: 0; }
+.book ul { list-style: none; margin: 0; padding: 0; display: grid; gap: 8px; }
+.book li { display: grid; grid-template-columns: 62px 1fr; gap: 10px; align-items: start; }
+.book li > div { min-width: 0; }
+.pages { font: 12.5px var(--mono); color: var(--muted); overflow-wrap: anywhere; }
+.pages a { margin-right: 4px; }
+.mine { font-size: 14px; color: var(--muted); }
+.gallery { display: flex; flex-wrap: wrap; gap: 10px; margin-top: 6px; }
+figure { margin: 0; display: grid; gap: 4px; justify-items: center; }
+.zoom { padding: 0; border: 1px solid var(--line); background: var(--tag-bg); cursor: zoom-in; border-radius: 3px; line-height: 0; }
+.zoom:focus-visible { outline: 2px solid var(--accent); outline-offset: 2px; }
+.thumb img { height: 150px; width: auto; display: block; }
+.big img { height: 260px; width: auto; display: block; }
+figcaption { font: 12px var(--mono); }
+.decided { color: var(--accent); font-weight: 600; }
+.viewer { position: fixed; inset: 0; z-index: 20; background: var(--shade); display: grid; grid-template-rows: auto 1fr;
+  padding: calc(10px + env(safe-area-inset-top, 0px)) max(16px, env(safe-area-inset-right, 0px)) calc(10px + env(safe-area-inset-bottom, 0px)) max(16px, env(safe-area-inset-left, 0px)); gap: 8px; }
+.viewer .bar { display: flex; gap: 14px; align-items: center; color: #fff; font-size: 14px; flex-wrap: wrap; }
+.viewer .bar a { color: #fff; }
+.viewer .bar span { flex: 1 1 auto; }
+.viewer button.close { font: 600 14px var(--body); padding: 6px 12px; border-radius: 4px; border: 1px solid #fff8; background: transparent; color: #fff; cursor: pointer; }
+.viewer .stage { overflow: auto; display: grid; place-items: start center; min-height: 0; }
+.viewer .stage img { max-width: 100%; height: auto; background: #fff; }
+.viewer .stage.full img { max-width: none; width: 1100px; }
+.sum { padding-left: 18px; display: grid; gap: 8px; max-width: 75ch; }
+.clean { columns: 2 260px; padding-left: 18px; margin: 10px 0 0; }
+.clean li { margin-bottom: 4px; break-inside: avoid; }
+@media (prefers-reduced-motion: reduce) { * { transition: none !important; } }
+</style>
+
+<div class="wrap">
+  <h1>Scan Review</h1>
+  <p class="lede">The series check of the %%NBOOKS%% new books, before any layout or HTR. Only the findings that need your eye are here. Everything else I can handle, summarised at the end. Answers and comments save as you type, and I read them from here.</p>
+  <p class="status" id="status">Connecting to saved answers…</p>
+
+  <h2>Your decisions</h2>
+  <p class="lede">Click a page to enlarge it; the caption opens it in the Transkribus editor. What you correct in an NLI scan is also reported to the library.</p>
+  <div class="stack">
+%%ISSUES%%
+  </div>
+
+  <h2>What I handle without you</h2>
+  %%SUMMARY%%
+</div>
+
+<div class="viewer" id="viewer" hidden role="dialog" aria-modal="true" aria-label="Page image">
+  <div class="bar"><span id="vcap"></span><a id="vlink" href="#" target="_blank" rel="noopener">Open in Transkribus</a>
+    <button type="button" class="close" id="vfull">Actual size</button><button type="button" class="close" id="vclose">Close</button></div>
+  <div class="stage" id="vstage"><img id="vimg" alt=""></div>
+</div>
+
+<script>
+(function () {
+  const v = document.getElementById("viewer"), img = document.getElementById("vimg"), stage = document.getElementById("vstage");
+  let last = null;
+  function close() { v.hidden = true; img.src = ""; if (last) last.focus(); }
+  document.addEventListener("click", ev => {
+    const b = ev.target.closest(".zoom");
+    if (!b) return;
+    last = b; img.src = b.dataset.src; img.alt = b.dataset.cap;
+    document.getElementById("vcap").textContent = b.dataset.cap;
+    document.getElementById("vlink").href = b.dataset.link;
+    stage.classList.remove("full"); v.hidden = false; document.getElementById("vclose").focus();
+  });
+  document.getElementById("vclose").addEventListener("click", close);
+  document.getElementById("vfull").addEventListener("click", () => stage.classList.toggle("full"));
+  v.addEventListener("click", ev => { if (ev.target === v || ev.target === stage) close(); });
+  document.addEventListener("keydown", ev => { if (ev.key === "Escape" && !v.hidden) close(); });
+})();
+</script>
+
+<script>
+(function () {
+  const statusEl = document.getElementById("status");
+  const fields = Array.from(document.querySelectorAll("[data-id][data-field]"));
+  let db = null;
+  const state = {};          // id -> saved doc
+  const chains = {};         // id -> promise, one write at a time per doc
+  const timers = {};
+
+  function setStatus(t) { statusEl.textContent = t; }
+  function markSaved(id, text) {
+    const el = document.querySelector('[data-saved="' + id + '"]');
+    if (el) el.textContent = text;
+  }
+  function collect(id) {
+    const doc = {};
+    fields.filter(f => f.dataset.id === id).forEach(f => {
+      if (f.type === "radio") { if (f.checked) doc[f.dataset.field] = f.value; }
+      else if (f.type === "checkbox") doc[f.dataset.field] = f.checked;
+      else doc[f.dataset.field] = f.value;
+    });
+    return doc;
+  }
+  function apply(id, data) {
+    fields.filter(f => f.dataset.id === id).forEach(f => {
+      const v = data[f.dataset.field];
+      if (f.type === "radio") f.checked = v === f.value;
+      else if (f.type === "checkbox") f.checked = !!v;
+      else if (document.activeElement !== f) f.value = v || "";
+    });
+  }
+  function save(id) {
+    if (!db) { markSaved(id, "Not saved: answers can't be stored in this view"); return; }
+    const data = collect(id);
+    data.updatedAt = new Date().toISOString();
+    markSaved(id, "Saving…");
+    chains[id] = (chains[id] || Promise.resolve()).then(() =>
+      db.collection("answers").doc(id).set(data)
+        .then(() => { state[id] = data; markSaved(id, "Saved"); })
+        .catch(err => markSaved(id, "Not saved (" + (err && err.code || "error") + "). Try again."))
+    );
+  }
+  fields.forEach(f => {
+    if (f.tagName === "TEXTAREA") {
+      f.addEventListener("input", () => { clearTimeout(timers[f.dataset.id]); markSaved(f.dataset.id, "Editing…");
+        timers[f.dataset.id] = setTimeout(() => save(f.dataset.id), 900); });
+      f.addEventListener("blur", () => { if (timers[f.dataset.id]) { clearTimeout(timers[f.dataset.id]); timers[f.dataset.id] = null; save(f.dataset.id); } });
+    } else {
+      f.addEventListener("change", () => save(f.dataset.id));
+    }
+  });
+
+  const use = window.claude && window.claude.use;
+  if (!use) { setStatus("Answers can't be saved in this view. Open the page on claude.ai to answer."); return; }
+  use("db").then(d => {
+    if (!d) { setStatus("Answers can't be saved in this view. Open the page on claude.ai, signed in, to answer."); return; }
+    db = d;
+    const slow = setTimeout(() => setStatus("Saved answers can't be reached yet; what you type will be saved when the connection returns."), 10000);
+    d.collection("answers").onSnapshot(snap => {
+      if (!snap.metadata || !snap.metadata.fromCache) { clearTimeout(slow); setStatus("Answers save automatically."); }
+      snap.docs.forEach(doc => {
+        const data = doc.data();
+        state[doc.id] = data;
+        apply(doc.id, data);
+        if (data.updatedAt) markSaved(doc.id, "Saved " + new Date(data.updatedAt).toLocaleString());
+      });
+    }, err => { clearTimeout(slow); setStatus("Saved answers can't be loaded (" + (err && err.code || "error") + ")."); });
+  });
+})();
+</script>
