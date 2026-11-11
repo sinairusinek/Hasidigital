@@ -418,26 +418,40 @@
     {
       "xml_filename": "Sipurei-Zadikim.xml",
       "work_number": 14,
-      "DBid": "3624",
+      "DBid": "",
       "title_he": "ספורי צדיקים",
       "title_en": "Sipurei Tzadikim from Arbaa Meitivei Lechet",
-      "date_ce": "1864",
-      "date_he": "תרכה",
-      "pub_place_ref": "#H-LOC_40",
-      "pub_place_he": "למברג",
-      "pub_place_en": "Lvov",
+      "date_ce": "1896",
+      "date_he": "תרנו",
+      "pub_place_ref": "#H-LOC_130",
+      "pub_place_he": "קראקא",
+      "pub_place_en": "Krakow",
       "author_he": "מיכאל לוי פרומקין",
       "author_en": "Michael Levi Frumkin",
       "language": "heb",
       "identifiers": {
-        "BHB": "180369",
-        "ALMA": "990010657160205171",
-        "Kima": "166",
-        "Kitsis": "12",
+        "BHB": "180373",
+        "ALMA": "990020700890205171",
         "Transkribus": "966439"
       },
       "match_method": "dedupmrg",
-      "match_notes": "matched via dedupmrg285038807_IE96460865 | MANUAL OVERRIDE to work 14: dedupmrg match + date 1864 → work 14 (Arbaa Meitivei Lechet)"
+      "match_notes": "matched via dedupmrg285038807_IE96460865 | MANUAL OVERRIDE to work 14: dedupmrg match + date 1864 → work 14 (Arbaa Meitivei Lechet) | 2026-11-11: source corrected to Krakow 1896 (title page of Transkribus 966439); first edition kept under first_edition",
+      "editor_he": "אלעזר שענקל",
+      "publisher_he": "דפוס יוסף פישער",
+      "note": "Reprint of Lemberg 1865 (ספורי צדיקים מארבעה מיטיבי לכת); title page after the first edition [Lemberg 1864], without the author's name.",
+      "first_edition": {
+        "date_ce": "1864",
+        "date_he": "תרכה",
+        "pub_place_ref": "#H-LOC_40",
+        "pub_place_he": "למברג",
+        "pub_place_en": "Lvov",
+        "identifiers": {
+          "BHB": "180369",
+          "ALMA": "990010657160205171",
+          "Kitsis": "12",
+          "DBid": "3624"
+        }
+      }
     },
     {
       "xml_filename": "SipureiAnsheiShem.xml",

@@ -65,6 +65,9 @@ def _build_source_desc(entry: dict) -> ET.Element:
             pn = ET.SubElement(author, f"{T}persName", attrib={f"{X}lang": "en"})
             pn.text = entry["author_en"]
 
+    if entry.get("editor_he"):
+        ET.SubElement(bibl, f"{T}editor", attrib={f"{X}lang": "he"}).text = entry["editor_he"]
+
     # Imprint (pubPlace + date)
     imprint = ET.SubElement(bibl, f"{T}imprint")
     if entry.get("pub_place_he"):
@@ -81,6 +84,8 @@ def _build_source_desc(entry: dict) -> ET.Element:
         attrib[f"{X}lang"] = "en"
         pp = ET.SubElement(imprint, f"{T}pubPlace", attrib=attrib)
         pp.text = entry["pub_place_en"]
+    if entry.get("publisher_he"):
+        ET.SubElement(imprint, f"{T}publisher", attrib={f"{X}lang": "he"}).text = entry["publisher_he"]
     if entry.get("date_ce"):
         d = ET.SubElement(imprint, f"{T}date", attrib={"when": entry["date_ce"]})
         d.text = entry.get("date_he") or entry["date_ce"]
@@ -104,6 +109,24 @@ def _build_source_desc(entry: dict) -> ET.Element:
     if entry.get("work_number"):
         idno = ET.SubElement(bibl, f"{T}idno", attrib={"type": "work"})
         idno.text = str(entry["work_number"])
+
+    if entry.get("note"):
+        ET.SubElement(bibl, f"{T}note").text = entry["note"]
+
+    # the work's first edition, when the transcribed printing is a later one
+    fe = entry.get("first_edition")
+    if fe:
+        first = ET.SubElement(sd, f"{T}bibl", attrib={"type": "firstEdition"})
+        imp = ET.SubElement(first, f"{T}imprint")
+        for lang in ("he", "en"):
+            if fe.get(f"pub_place_{lang}"):
+                ET.SubElement(imp, f"{T}pubPlace", attrib={"ref": fe.get("pub_place_ref", ""), f"{X}lang": lang}
+                              ).text = fe[f"pub_place_{lang}"]
+        if fe.get("date_ce"):
+            ET.SubElement(imp, f"{T}date", attrib={"when": fe["date_ce"]}).text = fe.get("date_he") or fe["date_ce"]
+        for id_type, val in fe.get("identifiers", {}).items():
+            if val:
+                ET.SubElement(first, f"{T}idno", attrib={"type": id_type}).text = str(val)
 
     return sd
 
@@ -146,14 +169,13 @@ def sync_xml_headers(editions: list[dict], verbose: bool = True, target_dir: Pat
         # Remove only bibl[@type='original'] (or untyped bibl); preserve others
         for old_bibl in list(source_desc):
             btype = old_bibl.get("type", "")
-            if btype in ("original", "") or old_bibl.tag != f"{T}bibl":
+            if btype in ("original", "firstEdition", "") or old_bibl.tag != f"{T}bibl":
                 source_desc.remove(old_bibl)
 
-        # Build new bibl[@type='original'] and append to sourceDesc
+        # Build new bibl[@type='original'] (+ firstEdition) and put them first in sourceDesc
         new_sd = _build_source_desc(entry)
-        new_bibl = new_sd.find(f"{T}bibl")
-        if new_bibl is not None:
-            source_desc.append(new_bibl)
+        for i, new_bibl in enumerate(new_sd.findall(f"{T}bibl")):
+            source_desc.insert(i, new_bibl)
 
         # Also update the titleStmt/title to be canonical
         title_stmt = file_desc.find(f"{T}titleStmt")
