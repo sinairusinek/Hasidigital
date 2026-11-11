@@ -63,7 +63,8 @@ WRONG_SCANS = {"141": "Drive zip IE101483126 and NLI 001898821 are I.H. Weiss's 
 WORK_NAMES = {"145": "שבחי הרב"}
 # open questions for Gadi that hold a work's next step
 GADI_QUESTIONS: dict[str, str] = {}
-# scan problems found by editions/scan-check that Sinai checks before layout (status != closed)
+# scan problems found by editions/scan-check that Sinai checks before layout (status "open"; "after-ocr"
+# = duplicate pages kept through OCR as a sanity check, deleted before annotation; "closed" = done)
 SCAN_ISSUES = REPO / "editions" / "scan-check" / "scan-issues.tsv"
 LATER_EDITION_ONLY = {"123": "Warsaw 1924 Yiddish", "126": "Przemyśl 1927",
                       "131": "Warsaw 1930", "138": "Bilgoraj 1925"}
@@ -74,7 +75,7 @@ def open_scan_issues() -> dict[str, str]:
     out: dict[str, list[str]] = {}
     if SCAN_ISSUES.exists():
         for r in csv.DictReader(open(SCAN_ISSUES, encoding="utf-8"), delimiter="\t"):
-            if r["status"] != "closed":
+            if r["status"] == "open":
                 out.setdefault(r["work_nu"], []).append(r["id"])
     return {k: " ".join(v) for k, v in out.items()}
 

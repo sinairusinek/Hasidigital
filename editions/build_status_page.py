@@ -58,10 +58,10 @@ def tsv(path):
 
 
 SCANNED = {b["docId"]: b for b in tsv(SCAN_BOOKS)}
-OPEN_ISSUES: dict[str, list[str]] = {}
+OPEN_ISSUES: dict[str, list[str]] = {}      # block layout
+AFTER_OCR: dict[str, list[str]] = {}        # duplicate pages kept through OCR, deleted before annotation
 for i in tsv(SCAN_ISSUES):
-    if i["status"] != "closed":
-        OPEN_ISSUES.setdefault(i["work_nu"], []).append(i["id"])
+    {"open": OPEN_ISSUES, "after-ocr": AFTER_OCR}.get(i["status"], {}).setdefault(i["work_nu"], []).append(i["id"])
 LAYOUT = {l["work_nu"]: l for l in tsv(LAYOUT_STATUS)}
 
 
@@ -78,7 +78,8 @@ def layout_cells(r, c, has_xml):
     if OPEN_ISSUES.get(r["nu"]):
         c["Scan QA"] = ("part", "open scan issue " + " ".join(OPEN_ISSUES[r["nu"]]) + ": check before layout")
     elif checked:
-        c["Scan QA"] = ("done", " | ".join(b["verdict"] for b in checked if b["verdict"]) or "no findings")
+        later = [f"repeated pages kept until after OCR ({' '.join(AFTER_OCR[r['nu']])})"] if AFTER_OCR.get(r["nu"]) else []
+        c["Scan QA"] = ("done", " | ".join(later + [b["verdict"] for b in checked if b["verdict"]]) or "no findings")
     else:
         c["Scan QA"] = ("todo", "")
     l = LAYOUT.get(r["nu"], {})
