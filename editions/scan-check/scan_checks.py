@@ -27,6 +27,7 @@ import numpy as np
 
 REPO = Path(__file__).resolve().parents[2]
 MAP = REPO / "editions" / "transkribus-collection-map.tsv"
+TRP_PAGE = "https://app.transkribus.org/collection/49371/doc/{doc}/edit?pageNr={page}"
 OUT = Path(__file__).resolve().parent
 
 # Page flags for hard defects. Set 2026-11-11 against 1,331 finished pages read by PyLaia 52805
@@ -300,7 +301,7 @@ def write_report(by_doc, docs, fulldoc_dir):
         f = fulldoc_dir / f"{d}.json"
         if f.exists():
             for p in json.loads(f.read_text())["pageList"]["pages"]:
-                urls[(d, p["pageNr"])] = (p["thumbUrl"], p["url"])
+                urls[(d, p["pageNr"])] = (p["thumbUrl"], "")
     items, clean = [], []
     for d, rs in sorted(by_doc.items(), key=lambda x: float(docs[x[0]]["work_nu"] or 0)):
         v = verdict(rs)
@@ -311,7 +312,7 @@ def write_report(by_doc, docs, fulldoc_dir):
         block = [f'<section><h2>{name}</h2>']
         for text, pages in v:
             thumbs = "".join(
-                f'<a href="{urls.get((d, r["page"]), ("", ""))[1]}" title="image page {r["page"]}: {html.escape(" ".join(r["flags"]))}">'
+                f'<a href="{TRP_PAGE.format(doc=d, page=r["page"])}" title="image page {r["page"]}: {html.escape(" ".join(r["flags"]))}">'
                 f'<img loading="lazy" src="{urls.get((d, r["page"]), ("", ""))[0]}"><span>{r["page"]}</span></a>'
                 for r in pages[:8])
             more = f'<span class="more">+{len(pages) - 8} more</span>' if len(pages) > 8 else ""
@@ -331,7 +332,7 @@ section{{border-top:1px solid var(--line);padding:14px 0}} .finding p{{margin:6p
 <h1>Scan check of the new books</h1>
 <p>Image measurements only, before any layout or HTR. {len(items)} of {len(by_doc)} books have findings; the rest are listed at the end.
 <b>CHECK</b> needs a person; <b>AUTO</b> is a preprocessing step the pipeline can do; <b>NOTE</b> is information.
-Thumbnails open the page image; the number under each is the image page in Transkribus.</p>
+Thumbnails open the page in the Transkribus editor; the number under each is the image page.</p>
 {"".join(items)}
 <section class="clean"><h2>No findings</h2><p>{"<br>".join(clean)}</p></section>
 </body></html>"""
