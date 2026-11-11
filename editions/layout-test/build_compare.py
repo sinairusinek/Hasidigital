@@ -77,7 +77,10 @@ for doc, n, why in pick():
     fl, _, _ = line_polys(d / f"{p}.final.xml", True)
     ft = tag_letters(fin, L); keep = ft != "outside"
     panels = []
-    for key, title, rf, lf in (("tr", "Transkribus, before the RA", "fr", "la"), ("our", "Our local pipeline", OURS, OURS_LINES)):
+    for key, title, rf, lf in (("tr", "Transkribus, before the RA", "fr", "la"), ("our", "Our local pipeline", OURS, OURS_LINES),
+                               ("opus", "Ours, tags corrected by Claude Opus", OURS + "+vlm-opus", OURS_LINES),
+                               ("gem", "Ours, tags corrected by Gemini 3.8 Flash", OURS + "+vlm-gemini-3.8-flash", OURS_LINES)):
+        if not (d / f"{p}.{rf}.xml").exists(): continue
         regs, _, _ = read_layout(d / f"{p}.{rf}.xml"); regs, _ = clean(regs, L)
         wl = keep & (tag_letters(regs, L) != ft)
         lines = line_polys(d / f"{p}.{lf}.xml", True)[0] if (d / f"{p}.{lf}.xml").exists() else []
@@ -97,10 +100,9 @@ for doc, n, why in pick():
 legend = "".join(f'<span><i style="background:rgb({c[2]},{c[1]},{c[0]})"></i>{NAMES[k]}</span>' for k, c in COL.items())
 t = open(HERE.parent / "scan-check" / "review" / "review_template.html").read()
 css = t[t.index("<style>"): t.index("</style>")] + """
-.wrap { max-width: 1280px; }
+.wrap { max-width: 1500px; }
 .cmp { background: var(--surface); border: 1px solid var(--line); border-radius: 6px; padding: 14px 16px; display: grid; gap: 10px; min-width: 0; }
-.row { display: grid; grid-template-columns: repeat(3, minmax(0, 1fr)); gap: 10px; }
-@media (max-width: 720px) { .row { grid-template-columns: 1fr; } }
+.row { display: grid; grid-template-columns: repeat(auto-fit, minmax(210px, 1fr)); gap: 10px; }
 .row figure { justify-items: stretch; align-content: start; }
 .row figcaption { display: grid; gap: 1px; font-size: 13px; } .row figcaption span { color: var(--muted); }
 .row img { width: 100%; height: auto; display: block; }
@@ -110,9 +112,13 @@ css = t[t.index("<style>"): t.index("</style>")] + """
 </style>"""
 body = f'''<div class="wrap">
   <h1>Layout Compare</h1>
+  <p class="lede"><b>On these 26 pages, pages with a consequential tag error:</b> Transkribus 14, ours 21, ours + Claude Opus 7,
+  ours + Gemini 3.8 Flash 7 (but twice Claude's wrongly tagged letters), ours + Gemini 2.5 Pro 10. Half the pages are our worst ones, picked on purpose.</p>
   <p class="lede">Two test pages from each of the 13 books: the page where our pipeline does typically, and the page where it does worst.
-  Every picture is from a book the model never saw in training. Left: what Transkribus produced before the RA touched it.
-  Middle: our local pipeline. Right: the RA's corrected version, which is the target. Click a picture to enlarge it.</p>
+  Every picture is from a book the model never saw in training. First: what Transkribus produced before the RA touched it.
+  Second: our local pipeline. Third and fourth: the same boxes, with their tags corrected by Claude Opus and by Gemini 3.8 Flash,
+  each looking at the page and at a short note it first wrote on the book's habits (boxes are not moved, only re-tagged). Right: the RA's corrected version, which is the target.
+  Click a picture to enlarge it.</p>
   <div class="key">{legend}<span><i class="ring"></i>letter tagged differently from the RA</span><span>red baseline: a line split, merged or missed</span></div>
   <div class="stack">
 {chr(10).join(cards)}
