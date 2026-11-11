@@ -348,3 +348,5 @@ def main() -> None:
 
 if __name__ == "__main__":
     main()
+    import build_status_page          # keep editions/edition-status.html in step with the registry
+    build_status_page.main()
