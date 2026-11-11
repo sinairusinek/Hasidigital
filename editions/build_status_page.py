@@ -16,12 +16,17 @@ from pathlib import Path
 REPO = Path(__file__).resolve().parent.parent
 REGISTRY = REPO / "editions" / "edition-registry.tsv"
 OUT = REPO / "editions" / "edition-status.html"
+SCAN_BOOKS = REPO / "editions" / "scan-check" / "scan-books.tsv"      # series check results, one row per doc
+SCAN_ISSUES = REPO / "editions" / "scan-check" / "scan-issues.tsv"    # problems Sinai checks before layout
+# per-work state of the local layout experiment and of the layout run itself:
+# work_nu, layout_test (done/part/todo/na), layout (done/part/todo), note
+LAYOUT_STATUS = REPO / "editions" / "layout-status.tsv"
 
 # Zenodo v1 (DOI 10.5281/zenodo.20524710, published 2026-10-07)
 ZENODO_V1 = {"Shivhei-Habesht", "Shivhei-Harav", "Sipurei-Zadikim", "Khal-Hasidim", "Khal-Kdoshim",
              "Adat-Zadikim", "maase-zadikim", "Mifalot-HaZadikim", "PeerMikdoshim"}
 
-STAGES = ["Decision", "Scan", "Transkribus", "Transcribed", "TEI", "Stories", "Online", "Women", "Zenodo"]
+STAGES = ["Decision", "Scan", "Transkribus", "Scan QA", "Layout test", "Layout", "Transcribed", "TEI", "Stories", "Online", "Women", "Zenodo"]
 LABELS = {"done": "Done", "part": "In progress / partial", "todo": "Not started",
           "block": "Blocked (needs a scan or Gadi)", "na": "N/A"}
 
@@ -46,6 +51,39 @@ def resolve(name, files):
 def stories_and_women(path):
     t = path.read_text(encoding="utf-8")
     return len(re.findall(r'<div\b[^>]*type="story"', t)), bool(re.search(r"women:", t))
+
+
+def tsv(path):
+    return list(csv.DictReader(path.open(encoding="utf-8"), delimiter="\t")) if path.exists() else []
+
+
+SCANNED = {b["docId"]: b for b in tsv(SCAN_BOOKS)}
+OPEN_ISSUES: dict[str, list[str]] = {}
+for i in tsv(SCAN_ISSUES):
+    if i["status"] != "closed":
+        OPEN_ISSUES.setdefault(i["work_nu"], []).append(i["id"])
+LAYOUT = {l["work_nu"]: l for l in tsv(LAYOUT_STATUS)}
+
+
+def layout_cells(r, c, has_xml):
+    """Scan QA → Layout test → Layout. Works the RA already transcribed went through a manual check and
+    Transkribus layout, so they count as past these stages."""
+    final = int(r["trp_pages_final"] or 0)
+    if has_xml or final or "finish transcription" in r["next_step"] or "re-export" in r["next_step"]:
+        c["Scan QA"] = ("done", "checked by hand by the RA")
+        c["Layout test"] = ("na", "transcribed before the layout experiment")
+        c["Layout"] = ("done", "Transkribus models, corrected by the RA")
+        return
+    checked = [SCANNED[d] for d in r["trp_main_docs"].split() if d in SCANNED]
+    if OPEN_ISSUES.get(r["nu"]):
+        c["Scan QA"] = ("part", "open scan issue " + " ".join(OPEN_ISSUES[r["nu"]]) + ": check before layout")
+    elif checked:
+        c["Scan QA"] = ("done", " | ".join(b["verdict"] for b in checked if b["verdict"]) or "no findings")
+    else:
+        c["Scan QA"] = ("todo", "")
+    l = LAYOUT.get(r["nu"], {})
+    c["Layout test"] = (l.get("layout_test") or "todo", l.get("note", "") or ("waiting for the layout experiment" if checked else ""))
+    c["Layout"] = (l.get("layout") or "todo", l.get("note", ""))
 
 
 def cells(r, files):
@@ -77,6 +115,8 @@ def cells(r, files):
         c["Transkribus"] = ("part", "other scans only: " + r["trp_other_docs"])
     else:
         c["Transkribus"] = ("todo", "")
+
+    layout_cells(r, c, has_xml)
 
     pages, final = int(r["trp_pages"] or 0), int(r["trp_pages_final"] or 0)
     if has_xml:
@@ -110,7 +150,7 @@ def main():
     data = []
     for r in rows:
         c = cells(r, files)
-        reached = sum(1 for s in STAGES if c[s][0] == "done")
+        reached = sum(1 for s in STAGES if c[s][0] == "done" or (s == "Layout test" and c[s][0] == "na"))
         data.append((r, c, reached))
     data.sort(key=lambda x: (x[0]["decision"] == "no", -x[2], int(x[0]["nu"] or 0)))
 
@@ -119,7 +159,7 @@ def main():
     funnel = "".join(
         f'<div class="frow"><span class="flabel">{s}</span><div class="fbar"><div style="width:{100*k/n:.1f}%"></div></div>'
         f'<span class="fnum">{k} / {n}</span></div>'
-        for s in STAGES[1:] for k in [sum(1 for _, c, _ in active if c[s][0] == "done")])
+        for s in STAGES[1:] for k in [sum(1 for _, c, _ in active if c[s][0] == "done" or (s == "Layout test" and c[s][0] == "na"))])
 
     steps = Counter(re.sub(r" \(.*", "", r["next_step"]) or "decided no" for r, _, _ in data)
     chips = '<button class="chip on" data-step="">All works <b>%d</b></button>' % len(data) + "".join(
