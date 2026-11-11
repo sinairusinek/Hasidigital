@@ -1,0 +1,283 @@
+<title>Layout Compare</title>
+<meta name="claude:viewport-fit-sides" content="cover">
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Frank+Ruhl+Libre:wght@500;700&family=IBM+Plex+Sans:wght@400;600&family=IBM+Plex+Sans+Hebrew:wght@400;600&family=IBM+Plex+Mono:wght@400&display=swap">
+<style>
+/* Layout: one reading column; decisions first as framed cards, then a quiet per-book ledger. */
+:root {
+  --bg: #f3f4f1; --surface: #ffffff; --fg: #1f2421; --muted: #5d665f; --line: #d6dbd4;
+  --accent: #2f5d50; --check: #a6461d; --auto: #2f5d50; --note: #6b5a1e; --seen: #5d665f;
+  --tag-bg: #e8ece6; --shade: rgba(20, 24, 22, .92);
+  --display: "Frank Ruhl Libre", "IBM Plex Sans Hebrew", Georgia, serif;
+  --body: "IBM Plex Sans", "IBM Plex Sans Hebrew", system-ui, sans-serif;
+  --mono: "IBM Plex Mono", ui-monospace, Menlo, monospace;
+}
+@media (prefers-color-scheme: dark) { :root:not([data-theme="light"]) {
+  --bg: #161a18; --surface: #1e2320; --fg: #e7ebe6; --muted: #a3ada5; --line: #343b36;
+  --accent: #7fb8a4; --check: #e08a5f; --auto: #7fb8a4; --note: #d6bf6a; --seen: #a3ada5; --tag-bg: #29302c;
+  color-scheme: dark } }
+:root[data-theme="dark"] {
+  --bg: #161a18; --surface: #1e2320; --fg: #e7ebe6; --muted: #a3ada5; --line: #343b36;
+  --accent: #7fb8a4; --check: #e08a5f; --auto: #7fb8a4; --note: #d6bf6a; --seen: #a3ada5; --tag-bg: #29302c;
+  color-scheme: dark }
+body { background: var(--bg); color: var(--fg); font: 15px/1.55 var(--body); }
+.wrap { max-width: 860px; margin: 0 auto; padding-block: 28px 64px;
+  padding-left: max(16px, env(safe-area-inset-left, 0px)); padding-right: max(16px, env(safe-area-inset-right, 0px)); }
+h1 { font: 700 30px/1.15 var(--display); margin: 0 0 8px; text-wrap: balance; }
+h2 { font: 700 21px/1.2 var(--display); margin: 40px 0 6px; text-wrap: balance; }
+h3 { font: 600 16px/1.35 var(--body); margin: 0; }
+h3 [lang="he"] { font: 700 19px/1.2 var(--display); }
+.lede { color: var(--muted); max-width: 65ch; margin: 0; }
+.status { font-size: 13px; color: var(--muted); margin-top: 10px; }
+.meta { color: var(--muted); font: 400 12.5px var(--mono); }
+a { color: var(--accent); text-underline-offset: 2px; }
+a:focus-visible, input:focus-visible, textarea:focus-visible { outline: 2px solid var(--accent); outline-offset: 2px; }
+.stack { display: grid; gap: 14px; margin-top: 14px; }
+.issue { background: var(--surface); border: 1px solid var(--line); border-left: 4px solid var(--check); border-radius: 6px; padding: 16px 18px; display: grid; gap: 10px; min-width: 0; }
+.issue p, .book p { margin: 0; }
+header { display: flex; gap: 10px; align-items: baseline; flex-wrap: wrap; }
+header h3 { flex: 1 1 auto; min-width: 0; }
+.saved { font-size: 12px; color: var(--muted); }
+.links { font-size: 14px; }
+fieldset { border: 0; padding: 0; margin: 0; display: grid; gap: 6px; }
+legend { font-weight: 600; margin-bottom: 4px; padding: 0; }
+.opt { display: flex; gap: 8px; align-items: flex-start; cursor: pointer; }
+.opt input { margin-top: 4px; accent-color: var(--accent); }
+.lbl { font-size: 13px; color: var(--muted); }
+textarea { width: 100%; box-sizing: border-box; font: 14px/1.45 var(--body); color: var(--fg); background: var(--bg);
+  border: 1px solid var(--line); border-radius: 4px; padding: 8px 10px; resize: vertical; }
+.checks { display: flex; gap: 18px; flex-wrap: wrap; font-size: 14px; }
+.checks input { accent-color: var(--accent); }
+.tag { display: inline-block; font: 600 11px/1 var(--mono); letter-spacing: .06em; padding: 4px 6px; border-radius: 3px; background: var(--tag-bg); white-space: nowrap; }
+.tag.check { color: var(--check); } .tag.auto { color: var(--auto); } .tag.note { color: var(--note); } .tag.seen { color: var(--seen); }
+.legend { display: flex; gap: 14px; flex-wrap: wrap; font-size: 13px; color: var(--muted); margin-top: 10px; }
+.book { border-top: 1px solid var(--line); padding: 16px 0 4px; display: grid; gap: 8px; min-width: 0; }
+.book ul { list-style: none; margin: 0; padding: 0; display: grid; gap: 8px; }
+.book li { display: grid; grid-template-columns: 62px 1fr; gap: 10px; align-items: start; }
+.book li > div { min-width: 0; }
+.pages { font: 12.5px var(--mono); color: var(--muted); overflow-wrap: anywhere; }
+.pages a { margin-right: 4px; }
+.mine { font-size: 14px; color: var(--muted); }
+.gallery { display: flex; flex-wrap: wrap; gap: 10px; margin-top: 6px; }
+figure { margin: 0; display: grid; gap: 4px; justify-items: center; }
+.zoom { padding: 0; border: 1px solid var(--line); background: var(--tag-bg); cursor: zoom-in; border-radius: 3px; line-height: 0; }
+.zoom:focus-visible { outline: 2px solid var(--accent); outline-offset: 2px; }
+.thumb img { height: 150px; width: auto; display: block; }
+.big img { height: 260px; width: auto; display: block; }
+figcaption { font: 12px var(--mono); }
+.decided { color: var(--accent); font-weight: 600; }
+.viewer { position: fixed; inset: 0; z-index: 20; background: var(--shade); display: grid; grid-template-rows: auto 1fr;
+  padding: calc(10px + env(safe-area-inset-top, 0px)) max(16px, env(safe-area-inset-right, 0px)) calc(10px + env(safe-area-inset-bottom, 0px)) max(16px, env(safe-area-inset-left, 0px)); gap: 8px; }
+.viewer .bar { display: flex; gap: 14px; align-items: center; color: #fff; font-size: 14px; flex-wrap: wrap; }
+.viewer .bar a { color: #fff; }
+.viewer .bar span { flex: 1 1 auto; }
+.viewer button.close { font: 600 14px var(--body); padding: 6px 12px; border-radius: 4px; border: 1px solid #fff8; background: transparent; color: #fff; cursor: pointer; }
+.viewer .stage { overflow: auto; display: grid; place-items: start center; min-height: 0; }
+.viewer .stage img { max-width: 100%; height: auto; background: #fff; }
+.viewer .stage.full img { max-width: none; width: 1100px; }
+.sum { padding-left: 18px; display: grid; gap: 8px; max-width: 75ch; }
+.clean { columns: 2 260px; padding-left: 18px; margin: 10px 0 0; }
+.clean li { margin-bottom: 4px; break-inside: avoid; }
+@media (prefers-reduced-motion: reduce) { * { transition: none !important; } }
+
+.wrap { max-width: 1280px; }
+.cmp { background: var(--surface); border: 1px solid var(--line); border-radius: 6px; padding: 14px 16px; display: grid; gap: 10px; min-width: 0; }
+.row { display: grid; grid-template-columns: repeat(3, minmax(0, 1fr)); gap: 10px; }
+@media (max-width: 720px) { .row { grid-template-columns: 1fr; } }
+.row figure { justify-items: stretch; align-content: start; }
+.row figcaption { display: grid; gap: 1px; font-size: 13px; } .row figcaption span { color: var(--muted); }
+.row img { width: 100%; height: auto; display: block; }
+.key { display: flex; flex-wrap: wrap; gap: 6px 16px; font-size: 13px; color: var(--muted); margin-top: 12px; }
+.key i { display: inline-block; width: 12px; height: 12px; border-radius: 2px; margin-right: 6px; vertical-align: -1px; }
+.key .ring { background: none; border: 2px solid rgb(220,30,30); border-radius: 50%; }
+</style>
+<div class="wrap">
+  <h1>Layout Compare</h1>
+  <p class="lede">Two test pages from each of the 13 books: the page where our pipeline does typically, and the page where it does worst.
+  Every picture is from a book the model never saw in training. Left: what Transkribus produced before the RA touched it.
+  Middle: our local pipeline. Right: the RA's corrected version, which is the target. Click a picture to enlarge it.</p>
+  <div class="key"><span><i style="background:rgb(60,140,60)"></i>main text</span><span><i style="background:rgb(220,90,40)"></i>heading</span><span><i style="background:rgb(20,100,180)"></i>running head</span><span><i style="background:rgb(160,40,170)"></i>page number</span><span><i style="background:rgb(200,150,20)"></i>catch-word</span><span><i style="background:rgb(200,40,40)"></i>footnote</span><span><i class="ring"></i>letter tagged differently from the RA</span><span>red baseline: a line split, merged or missed</span></div>
+  <div class="stack">
+<article class="cmp"><header><span class="tag check">typical page</span><h3><span dir="rtl" lang="he">תפארת חיים</span>
+<span class="meta">work 82 · doc 9568035 · p. 31</span></h3><a href="https://app.transkribus.org/collection/49371/doc/9568035/edit?pageNr=31" target="_blank" rel="noopener">Open in Transkribus</a></header>
+<div class="row"><figure><figcaption><b>Transkribus, before the RA</b><span>38 letters with the wrong tag · 15 of 82 lines wrong</span></figcaption>
+<button type="button" class="zoom" data-src="img/9568035_0031_tr.jpg" data-link="https://app.transkribus.org/collection/49371/doc/9568035/edit?pageNr=31" data-cap="Transkribus, before the RA — p. 31"><img loading="lazy" src="img/9568035_0031_tr.jpg" alt="Transkribus, before the RA, image page 31"></button></figure><figure><figcaption><b>Our local pipeline</b><span>27 letters with the wrong tag · 3 of 82 lines wrong</span></figcaption>
+<button type="button" class="zoom" data-src="img/9568035_0031_our.jpg" data-link="https://app.transkribus.org/collection/49371/doc/9568035/edit?pageNr=31" data-cap="Our local pipeline — p. 31"><img loading="lazy" src="img/9568035_0031_our.jpg" alt="Our local pipeline, image page 31"></button></figure><figure><figcaption><b>RA&#x27;s final</b><span>the target</span></figcaption>
+<button type="button" class="zoom" data-src="img/9568035_0031_final.jpg" data-link="https://app.transkribus.org/collection/49371/doc/9568035/edit?pageNr=31" data-cap="RA&#x27;s final — p. 31"><img loading="lazy" src="img/9568035_0031_final.jpg" alt="RA&#x27;s final, image page 31"></button></figure></div></article>
+<article class="cmp"><header><span class="tag check">our worst page</span><h3><span dir="rtl" lang="he">תפארת חיים</span>
+<span class="meta">work 82 · doc 9568035 · p. 39</span></h3><a href="https://app.transkribus.org/collection/49371/doc/9568035/edit?pageNr=39" target="_blank" rel="noopener">Open in Transkribus</a></header>
+<div class="row"><figure><figcaption><b>Transkribus, before the RA</b><span>2171 letters with the wrong tag · 8 of 52 lines wrong</span></figcaption>
+<button type="button" class="zoom" data-src="img/9568035_0039_tr.jpg" data-link="https://app.transkribus.org/collection/49371/doc/9568035/edit?pageNr=39" data-cap="Transkribus, before the RA — p. 39"><img loading="lazy" src="img/9568035_0039_tr.jpg" alt="Transkribus, before the RA, image page 39"></button></figure><figure><figcaption><b>Our local pipeline</b><span>1533 letters with the wrong tag · 3 of 52 lines wrong</span></figcaption>
+<button type="button" class="zoom" data-src="img/9568035_0039_our.jpg" data-link="https://app.transkribus.org/collection/49371/doc/9568035/edit?pageNr=39" data-cap="Our local pipeline — p. 39"><img loading="lazy" src="img/9568035_0039_our.jpg" alt="Our local pipeline, image page 39"></button></figure><figure><figcaption><b>RA&#x27;s final</b><span>the target</span></figcaption>
+<button type="button" class="zoom" data-src="img/9568035_0039_final.jpg" data-link="https://app.transkribus.org/collection/49371/doc/9568035/edit?pageNr=39" data-cap="RA&#x27;s final — p. 39"><img loading="lazy" src="img/9568035_0039_final.jpg" alt="RA&#x27;s final, image page 39"></button></figure></div></article>
+<article class="cmp"><header><span class="tag check">typical page</span><h3><span dir="rtl" lang="he">שמן הטוב.</span>
+<span class="meta">work 84 · doc 9194455 · p. 79</span></h3><a href="https://app.transkribus.org/collection/49371/doc/9194455/edit?pageNr=79" target="_blank" rel="noopener">Open in Transkribus</a></header>
+<div class="row"><figure><figcaption><b>Transkribus, before the RA</b><span>10 letters with the wrong tag · no line version on this page</span></figcaption>
+<button type="button" class="zoom" data-src="img/9194455_0079_tr.jpg" data-link="https://app.transkribus.org/collection/49371/doc/9194455/edit?pageNr=79" data-cap="Transkribus, before the RA — p. 79"><img loading="lazy" src="img/9194455_0079_tr.jpg" alt="Transkribus, before the RA, image page 79"></button></figure><figure><figcaption><b>Our local pipeline</b><span>14 letters with the wrong tag · 5 of 80 lines wrong</span></figcaption>
+<button type="button" class="zoom" data-src="img/9194455_0079_our.jpg" data-link="https://app.transkribus.org/collection/49371/doc/9194455/edit?pageNr=79" data-cap="Our local pipeline — p. 79"><img loading="lazy" src="img/9194455_0079_our.jpg" alt="Our local pipeline, image page 79"></button></figure><figure><figcaption><b>RA&#x27;s final</b><span>the target</span></figcaption>
+<button type="button" class="zoom" data-src="img/9194455_0079_final.jpg" data-link="https://app.transkribus.org/collection/49371/doc/9194455/edit?pageNr=79" data-cap="RA&#x27;s final — p. 79"><img loading="lazy" src="img/9194455_0079_final.jpg" alt="RA&#x27;s final, image page 79"></button></figure></div></article>
+<article class="cmp"><header><span class="tag check">our worst page</span><h3><span dir="rtl" lang="he">שמן הטוב.</span>
+<span class="meta">work 84 · doc 9194455 · p. 88</span></h3><a href="https://app.transkribus.org/collection/49371/doc/9194455/edit?pageNr=88" target="_blank" rel="noopener">Open in Transkribus</a></header>
+<div class="row"><figure><figcaption><b>Transkribus, before the RA</b><span>42 letters with the wrong tag · no line version on this page</span></figcaption>
+<button type="button" class="zoom" data-src="img/9194455_0088_tr.jpg" data-link="https://app.transkribus.org/collection/49371/doc/9194455/edit?pageNr=88" data-cap="Transkribus, before the RA — p. 88"><img loading="lazy" src="img/9194455_0088_tr.jpg" alt="Transkribus, before the RA, image page 88"></button></figure><figure><figcaption><b>Our local pipeline</b><span>126 letters with the wrong tag · 2 of 81 lines wrong</span></figcaption>
+<button type="button" class="zoom" data-src="img/9194455_0088_our.jpg" data-link="https://app.transkribus.org/collection/49371/doc/9194455/edit?pageNr=88" data-cap="Our local pipeline — p. 88"><img loading="lazy" src="img/9194455_0088_our.jpg" alt="Our local pipeline, image page 88"></button></figure><figure><figcaption><b>RA&#x27;s final</b><span>the target</span></figcaption>
+<button type="button" class="zoom" data-src="img/9194455_0088_final.jpg" data-link="https://app.transkribus.org/collection/49371/doc/9194455/edit?pageNr=88" data-cap="RA&#x27;s final — p. 88"><img loading="lazy" src="img/9194455_0088_final.jpg" alt="RA&#x27;s final, image page 88"></button></figure></div></article>
+<article class="cmp"><header><span class="tag check">typical page</span><h3><span dir="rtl" lang="he">כנסת ישראל</span>
+<span class="meta">work 85 · doc 9194535 · p. 135</span></h3><a href="https://app.transkribus.org/collection/49371/doc/9194535/edit?pageNr=135" target="_blank" rel="noopener">Open in Transkribus</a></header>
+<div class="row"><figure><figcaption><b>Transkribus, before the RA</b><span>0 letters with the wrong tag · no line version on this page</span></figcaption>
+<button type="button" class="zoom" data-src="img/9194535_0135_tr.jpg" data-link="https://app.transkribus.org/collection/49371/doc/9194535/edit?pageNr=135" data-cap="Transkribus, before the RA — p. 135"><img loading="lazy" src="img/9194535_0135_tr.jpg" alt="Transkribus, before the RA, image page 135"></button></figure><figure><figcaption><b>Our local pipeline</b><span>0 letters with the wrong tag · 1 of 56 lines wrong</span></figcaption>
+<button type="button" class="zoom" data-src="img/9194535_0135_our.jpg" data-link="https://app.transkribus.org/collection/49371/doc/9194535/edit?pageNr=135" data-cap="Our local pipeline — p. 135"><img loading="lazy" src="img/9194535_0135_our.jpg" alt="Our local pipeline, image page 135"></button></figure><figure><figcaption><b>RA&#x27;s final</b><span>the target</span></figcaption>
+<button type="button" class="zoom" data-src="img/9194535_0135_final.jpg" data-link="https://app.transkribus.org/collection/49371/doc/9194535/edit?pageNr=135" data-cap="RA&#x27;s final — p. 135"><img loading="lazy" src="img/9194535_0135_final.jpg" alt="RA&#x27;s final, image page 135"></button></figure></div></article>
+<article class="cmp"><header><span class="tag check">our worst page</span><h3><span dir="rtl" lang="he">כנסת ישראל</span>
+<span class="meta">work 85 · doc 9194535 · p. 131</span></h3><a href="https://app.transkribus.org/collection/49371/doc/9194535/edit?pageNr=131" target="_blank" rel="noopener">Open in Transkribus</a></header>
+<div class="row"><figure><figcaption><b>Transkribus, before the RA</b><span>65 letters with the wrong tag · no line version on this page</span></figcaption>
+<button type="button" class="zoom" data-src="img/9194535_0131_tr.jpg" data-link="https://app.transkribus.org/collection/49371/doc/9194535/edit?pageNr=131" data-cap="Transkribus, before the RA — p. 131"><img loading="lazy" src="img/9194535_0131_tr.jpg" alt="Transkribus, before the RA, image page 131"></button></figure><figure><figcaption><b>Our local pipeline</b><span>292 letters with the wrong tag · 7 of 53 lines wrong</span></figcaption>
+<button type="button" class="zoom" data-src="img/9194535_0131_our.jpg" data-link="https://app.transkribus.org/collection/49371/doc/9194535/edit?pageNr=131" data-cap="Our local pipeline — p. 131"><img loading="lazy" src="img/9194535_0131_our.jpg" alt="Our local pipeline, image page 131"></button></figure><figure><figcaption><b>RA&#x27;s final</b><span>the target</span></figcaption>
+<button type="button" class="zoom" data-src="img/9194535_0131_final.jpg" data-link="https://app.transkribus.org/collection/49371/doc/9194535/edit?pageNr=131" data-cap="RA&#x27;s final — p. 131"><img loading="lazy" src="img/9194535_0131_final.jpg" alt="RA&#x27;s final, image page 131"></button></figure></div></article>
+<article class="cmp"><header><span class="tag check">typical page</span><h3><span dir="rtl" lang="he">דרך האמונה ומעשה רב</span>
+<span class="meta">work 48 · doc 7125297 · p. 82</span></h3><a href="https://app.transkribus.org/collection/49371/doc/7125297/edit?pageNr=82" target="_blank" rel="noopener">Open in Transkribus</a></header>
+<div class="row"><figure><figcaption><b>Transkribus, before the RA</b><span>0 letters with the wrong tag · no line version on this page</span></figcaption>
+<button type="button" class="zoom" data-src="img/7125297_0082_tr.jpg" data-link="https://app.transkribus.org/collection/49371/doc/7125297/edit?pageNr=82" data-cap="Transkribus, before the RA — p. 82"><img loading="lazy" src="img/7125297_0082_tr.jpg" alt="Transkribus, before the RA, image page 82"></button></figure><figure><figcaption><b>Our local pipeline</b><span>0 letters with the wrong tag · 0 of 38 lines wrong</span></figcaption>
+<button type="button" class="zoom" data-src="img/7125297_0082_our.jpg" data-link="https://app.transkribus.org/collection/49371/doc/7125297/edit?pageNr=82" data-cap="Our local pipeline — p. 82"><img loading="lazy" src="img/7125297_0082_our.jpg" alt="Our local pipeline, image page 82"></button></figure><figure><figcaption><b>RA&#x27;s final</b><span>the target</span></figcaption>
+<button type="button" class="zoom" data-src="img/7125297_0082_final.jpg" data-link="https://app.transkribus.org/collection/49371/doc/7125297/edit?pageNr=82" data-cap="RA&#x27;s final — p. 82"><img loading="lazy" src="img/7125297_0082_final.jpg" alt="RA&#x27;s final, image page 82"></button></figure></div></article>
+<article class="cmp"><header><span class="tag check">our worst page</span><h3><span dir="rtl" lang="he">דרך האמונה ומעשה רב</span>
+<span class="meta">work 48 · doc 7125297 · p. 37</span></h3><a href="https://app.transkribus.org/collection/49371/doc/7125297/edit?pageNr=37" target="_blank" rel="noopener">Open in Transkribus</a></header>
+<div class="row"><figure><figcaption><b>Transkribus, before the RA</b><span>14 letters with the wrong tag · no line version on this page</span></figcaption>
+<button type="button" class="zoom" data-src="img/7125297_0037_tr.jpg" data-link="https://app.transkribus.org/collection/49371/doc/7125297/edit?pageNr=37" data-cap="Transkribus, before the RA — p. 37"><img loading="lazy" src="img/7125297_0037_tr.jpg" alt="Transkribus, before the RA, image page 37"></button></figure><figure><figcaption><b>Our local pipeline</b><span>698 letters with the wrong tag · 0 of 39 lines wrong</span></figcaption>
+<button type="button" class="zoom" data-src="img/7125297_0037_our.jpg" data-link="https://app.transkribus.org/collection/49371/doc/7125297/edit?pageNr=37" data-cap="Our local pipeline — p. 37"><img loading="lazy" src="img/7125297_0037_our.jpg" alt="Our local pipeline, image page 37"></button></figure><figure><figcaption><b>RA&#x27;s final</b><span>the target</span></figcaption>
+<button type="button" class="zoom" data-src="img/7125297_0037_final.jpg" data-link="https://app.transkribus.org/collection/49371/doc/7125297/edit?pageNr=37" data-cap="RA&#x27;s final — p. 37"><img loading="lazy" src="img/7125297_0037_final.jpg" alt="RA&#x27;s final, image page 37"></button></figure></div></article>
+<article class="cmp"><header><span class="tag check">typical page</span><h3><span dir="rtl" lang="he">עשר אורות</span>
+<span class="meta">work 88 · doc 9194696 · p. 45</span></h3><a href="https://app.transkribus.org/collection/49371/doc/9194696/edit?pageNr=45" target="_blank" rel="noopener">Open in Transkribus</a></header>
+<div class="row"><figure><figcaption><b>Transkribus, before the RA</b><span>538 letters with the wrong tag · no line version on this page</span></figcaption>
+<button type="button" class="zoom" data-src="img/9194696_0045_tr.jpg" data-link="https://app.transkribus.org/collection/49371/doc/9194696/edit?pageNr=45" data-cap="Transkribus, before the RA — p. 45"><img loading="lazy" src="img/9194696_0045_tr.jpg" alt="Transkribus, before the RA, image page 45"></button></figure><figure><figcaption><b>Our local pipeline</b><span>5 letters with the wrong tag · 2 of 41 lines wrong</span></figcaption>
+<button type="button" class="zoom" data-src="img/9194696_0045_our.jpg" data-link="https://app.transkribus.org/collection/49371/doc/9194696/edit?pageNr=45" data-cap="Our local pipeline — p. 45"><img loading="lazy" src="img/9194696_0045_our.jpg" alt="Our local pipeline, image page 45"></button></figure><figure><figcaption><b>RA&#x27;s final</b><span>the target</span></figcaption>
+<button type="button" class="zoom" data-src="img/9194696_0045_final.jpg" data-link="https://app.transkribus.org/collection/49371/doc/9194696/edit?pageNr=45" data-cap="RA&#x27;s final — p. 45"><img loading="lazy" src="img/9194696_0045_final.jpg" alt="RA&#x27;s final, image page 45"></button></figure></div></article>
+<article class="cmp"><header><span class="tag check">our worst page</span><h3><span dir="rtl" lang="he">עשר אורות</span>
+<span class="meta">work 88 · doc 9194696 · p. 157</span></h3><a href="https://app.transkribus.org/collection/49371/doc/9194696/edit?pageNr=157" target="_blank" rel="noopener">Open in Transkribus</a></header>
+<div class="row"><figure><figcaption><b>Transkribus, before the RA</b><span>1434 letters with the wrong tag · no line version on this page</span></figcaption>
+<button type="button" class="zoom" data-src="img/9194696_0157_tr.jpg" data-link="https://app.transkribus.org/collection/49371/doc/9194696/edit?pageNr=157" data-cap="Transkribus, before the RA — p. 157"><img loading="lazy" src="img/9194696_0157_tr.jpg" alt="Transkribus, before the RA, image page 157"></button></figure><figure><figcaption><b>Our local pipeline</b><span>1460 letters with the wrong tag · 4 of 38 lines wrong</span></figcaption>
+<button type="button" class="zoom" data-src="img/9194696_0157_our.jpg" data-link="https://app.transkribus.org/collection/49371/doc/9194696/edit?pageNr=157" data-cap="Our local pipeline — p. 157"><img loading="lazy" src="img/9194696_0157_our.jpg" alt="Our local pipeline, image page 157"></button></figure><figure><figcaption><b>RA&#x27;s final</b><span>the target</span></figcaption>
+<button type="button" class="zoom" data-src="img/9194696_0157_final.jpg" data-link="https://app.transkribus.org/collection/49371/doc/9194696/edit?pageNr=157" data-cap="RA&#x27;s final — p. 157"><img loading="lazy" src="img/9194696_0157_final.jpg" alt="RA&#x27;s final, image page 157"></button></figure></div></article>
+<article class="cmp"><header><span class="tag check">typical page</span><h3><span dir="rtl" lang="he">התגלות הצדיקים</span>
+<span class="meta">work 81 · doc 9194435 · p. 69</span></h3><a href="https://app.transkribus.org/collection/49371/doc/9194435/edit?pageNr=69" target="_blank" rel="noopener">Open in Transkribus</a></header>
+<div class="row"><figure><figcaption><b>Transkribus, before the RA</b><span>4 letters with the wrong tag · 1 of 41 lines wrong</span></figcaption>
+<button type="button" class="zoom" data-src="img/9194435_0069_tr.jpg" data-link="https://app.transkribus.org/collection/49371/doc/9194435/edit?pageNr=69" data-cap="Transkribus, before the RA — p. 69"><img loading="lazy" src="img/9194435_0069_tr.jpg" alt="Transkribus, before the RA, image page 69"></button></figure><figure><figcaption><b>Our local pipeline</b><span>4 letters with the wrong tag · 4 of 41 lines wrong</span></figcaption>
+<button type="button" class="zoom" data-src="img/9194435_0069_our.jpg" data-link="https://app.transkribus.org/collection/49371/doc/9194435/edit?pageNr=69" data-cap="Our local pipeline — p. 69"><img loading="lazy" src="img/9194435_0069_our.jpg" alt="Our local pipeline, image page 69"></button></figure><figure><figcaption><b>RA&#x27;s final</b><span>the target</span></figcaption>
+<button type="button" class="zoom" data-src="img/9194435_0069_final.jpg" data-link="https://app.transkribus.org/collection/49371/doc/9194435/edit?pageNr=69" data-cap="RA&#x27;s final — p. 69"><img loading="lazy" src="img/9194435_0069_final.jpg" alt="RA&#x27;s final, image page 69"></button></figure></div></article>
+<article class="cmp"><header><span class="tag check">our worst page</span><h3><span dir="rtl" lang="he">התגלות הצדיקים</span>
+<span class="meta">work 81 · doc 9194435 · p. 9</span></h3><a href="https://app.transkribus.org/collection/49371/doc/9194435/edit?pageNr=9" target="_blank" rel="noopener">Open in Transkribus</a></header>
+<div class="row"><figure><figcaption><b>Transkribus, before the RA</b><span>1584 letters with the wrong tag · 6 of 36 lines wrong</span></figcaption>
+<button type="button" class="zoom" data-src="img/9194435_0009_tr.jpg" data-link="https://app.transkribus.org/collection/49371/doc/9194435/edit?pageNr=9" data-cap="Transkribus, before the RA — p. 9"><img loading="lazy" src="img/9194435_0009_tr.jpg" alt="Transkribus, before the RA, image page 9"></button></figure><figure><figcaption><b>Our local pipeline</b><span>288 letters with the wrong tag · 0 of 36 lines wrong</span></figcaption>
+<button type="button" class="zoom" data-src="img/9194435_0009_our.jpg" data-link="https://app.transkribus.org/collection/49371/doc/9194435/edit?pageNr=9" data-cap="Our local pipeline — p. 9"><img loading="lazy" src="img/9194435_0009_our.jpg" alt="Our local pipeline, image page 9"></button></figure><figure><figcaption><b>RA&#x27;s final</b><span>the target</span></figcaption>
+<button type="button" class="zoom" data-src="img/9194435_0009_final.jpg" data-link="https://app.transkribus.org/collection/49371/doc/9194435/edit?pageNr=9" data-cap="RA&#x27;s final — p. 9"><img loading="lazy" src="img/9194435_0009_final.jpg" alt="RA&#x27;s final, image page 9"></button></figure></div></article>
+<article class="cmp"><header><span class="tag check">typical page</span><h3><span dir="rtl" lang="he">עשר קדושות</span>
+<span class="meta">work 86 · doc 9194695 · p. 8</span></h3><a href="https://app.transkribus.org/collection/49371/doc/9194695/edit?pageNr=8" target="_blank" rel="noopener">Open in Transkribus</a></header>
+<div class="row"><figure><figcaption><b>Transkribus, before the RA</b><span>7 letters with the wrong tag · no line version on this page</span></figcaption>
+<button type="button" class="zoom" data-src="img/9194695_0008_tr.jpg" data-link="https://app.transkribus.org/collection/49371/doc/9194695/edit?pageNr=8" data-cap="Transkribus, before the RA — p. 8"><img loading="lazy" src="img/9194695_0008_tr.jpg" alt="Transkribus, before the RA, image page 8"></button></figure><figure><figcaption><b>Our local pipeline</b><span>106 letters with the wrong tag · 13 of 65 lines wrong</span></figcaption>
+<button type="button" class="zoom" data-src="img/9194695_0008_our.jpg" data-link="https://app.transkribus.org/collection/49371/doc/9194695/edit?pageNr=8" data-cap="Our local pipeline — p. 8"><img loading="lazy" src="img/9194695_0008_our.jpg" alt="Our local pipeline, image page 8"></button></figure><figure><figcaption><b>RA&#x27;s final</b><span>the target</span></figcaption>
+<button type="button" class="zoom" data-src="img/9194695_0008_final.jpg" data-link="https://app.transkribus.org/collection/49371/doc/9194695/edit?pageNr=8" data-cap="RA&#x27;s final — p. 8"><img loading="lazy" src="img/9194695_0008_final.jpg" alt="RA&#x27;s final, image page 8"></button></figure></div></article>
+<article class="cmp"><header><span class="tag check">our worst page</span><h3><span dir="rtl" lang="he">עשר קדושות</span>
+<span class="meta">work 86 · doc 9194695 · p. 63</span></h3><a href="https://app.transkribus.org/collection/49371/doc/9194695/edit?pageNr=63" target="_blank" rel="noopener">Open in Transkribus</a></header>
+<div class="row"><figure><figcaption><b>Transkribus, before the RA</b><span>0 letters with the wrong tag · no line version on this page</span></figcaption>
+<button type="button" class="zoom" data-src="img/9194695_0063_tr.jpg" data-link="https://app.transkribus.org/collection/49371/doc/9194695/edit?pageNr=63" data-cap="Transkribus, before the RA — p. 63"><img loading="lazy" src="img/9194695_0063_tr.jpg" alt="Transkribus, before the RA, image page 63"></button></figure><figure><figcaption><b>Our local pipeline</b><span>1554 letters with the wrong tag · 0 of 38 lines wrong</span></figcaption>
+<button type="button" class="zoom" data-src="img/9194695_0063_our.jpg" data-link="https://app.transkribus.org/collection/49371/doc/9194695/edit?pageNr=63" data-cap="Our local pipeline — p. 63"><img loading="lazy" src="img/9194695_0063_our.jpg" alt="Our local pipeline, image page 63"></button></figure><figure><figcaption><b>RA&#x27;s final</b><span>the target</span></figcaption>
+<button type="button" class="zoom" data-src="img/9194695_0063_final.jpg" data-link="https://app.transkribus.org/collection/49371/doc/9194695/edit?pageNr=63" data-cap="RA&#x27;s final — p. 63"><img loading="lazy" src="img/9194695_0063_final.jpg" alt="RA&#x27;s final, image page 63"></button></figure></div></article>
+<article class="cmp"><header><span class="tag check">typical page</span><h3><span dir="rtl" lang="he">דברים יקרים</span>
+<span class="meta">work 83 · doc 9568095 · p. 8</span></h3><a href="https://app.transkribus.org/collection/49371/doc/9568095/edit?pageNr=8" target="_blank" rel="noopener">Open in Transkribus</a></header>
+<div class="row"><figure><figcaption><b>Transkribus, before the RA</b><span>2 letters with the wrong tag · no line version on this page</span></figcaption>
+<button type="button" class="zoom" data-src="img/9568095_0008_tr.jpg" data-link="https://app.transkribus.org/collection/49371/doc/9568095/edit?pageNr=8" data-cap="Transkribus, before the RA — p. 8"><img loading="lazy" src="img/9568095_0008_tr.jpg" alt="Transkribus, before the RA, image page 8"></button></figure><figure><figcaption><b>Our local pipeline</b><span>33 letters with the wrong tag · 1 of 31 lines wrong</span></figcaption>
+<button type="button" class="zoom" data-src="img/9568095_0008_our.jpg" data-link="https://app.transkribus.org/collection/49371/doc/9568095/edit?pageNr=8" data-cap="Our local pipeline — p. 8"><img loading="lazy" src="img/9568095_0008_our.jpg" alt="Our local pipeline, image page 8"></button></figure><figure><figcaption><b>RA&#x27;s final</b><span>the target</span></figcaption>
+<button type="button" class="zoom" data-src="img/9568095_0008_final.jpg" data-link="https://app.transkribus.org/collection/49371/doc/9568095/edit?pageNr=8" data-cap="RA&#x27;s final — p. 8"><img loading="lazy" src="img/9568095_0008_final.jpg" alt="RA&#x27;s final, image page 8"></button></figure></div></article>
+<article class="cmp"><header><span class="tag check">our worst page</span><h3><span dir="rtl" lang="he">דברים יקרים</span>
+<span class="meta">work 83 · doc 9568095 · p. 17</span></h3><a href="https://app.transkribus.org/collection/49371/doc/9568095/edit?pageNr=17" target="_blank" rel="noopener">Open in Transkribus</a></header>
+<div class="row"><figure><figcaption><b>Transkribus, before the RA</b><span>147 letters with the wrong tag · no line version on this page</span></figcaption>
+<button type="button" class="zoom" data-src="img/9568095_0017_tr.jpg" data-link="https://app.transkribus.org/collection/49371/doc/9568095/edit?pageNr=17" data-cap="Transkribus, before the RA — p. 17"><img loading="lazy" src="img/9568095_0017_tr.jpg" alt="Transkribus, before the RA, image page 17"></button></figure><figure><figcaption><b>Our local pipeline</b><span>153 letters with the wrong tag · 1 of 24 lines wrong</span></figcaption>
+<button type="button" class="zoom" data-src="img/9568095_0017_our.jpg" data-link="https://app.transkribus.org/collection/49371/doc/9568095/edit?pageNr=17" data-cap="Our local pipeline — p. 17"><img loading="lazy" src="img/9568095_0017_our.jpg" alt="Our local pipeline, image page 17"></button></figure><figure><figcaption><b>RA&#x27;s final</b><span>the target</span></figcaption>
+<button type="button" class="zoom" data-src="img/9568095_0017_final.jpg" data-link="https://app.transkribus.org/collection/49371/doc/9568095/edit?pageNr=17" data-cap="RA&#x27;s final — p. 17"><img loading="lazy" src="img/9568095_0017_final.jpg" alt="RA&#x27;s final, image page 17"></button></figure></div></article>
+<article class="cmp"><header><span class="tag check">typical page</span><h3><span dir="rtl" lang="he">תורת הרמ&quot;ל השלם</span>
+<span class="meta">work 73 · doc 6705107 · p. 7</span></h3><a href="https://app.transkribus.org/collection/49371/doc/6705107/edit?pageNr=7" target="_blank" rel="noopener">Open in Transkribus</a></header>
+<div class="row"><figure><figcaption><b>Transkribus, before the RA</b><span>5 letters with the wrong tag · no line version on this page</span></figcaption>
+<button type="button" class="zoom" data-src="img/6705107_0007_tr.jpg" data-link="https://app.transkribus.org/collection/49371/doc/6705107/edit?pageNr=7" data-cap="Transkribus, before the RA — p. 7"><img loading="lazy" src="img/6705107_0007_tr.jpg" alt="Transkribus, before the RA, image page 7"></button></figure><figure><figcaption><b>Our local pipeline</b><span>23 letters with the wrong tag · 7 of 40 lines wrong</span></figcaption>
+<button type="button" class="zoom" data-src="img/6705107_0007_our.jpg" data-link="https://app.transkribus.org/collection/49371/doc/6705107/edit?pageNr=7" data-cap="Our local pipeline — p. 7"><img loading="lazy" src="img/6705107_0007_our.jpg" alt="Our local pipeline, image page 7"></button></figure><figure><figcaption><b>RA&#x27;s final</b><span>the target</span></figcaption>
+<button type="button" class="zoom" data-src="img/6705107_0007_final.jpg" data-link="https://app.transkribus.org/collection/49371/doc/6705107/edit?pageNr=7" data-cap="RA&#x27;s final — p. 7"><img loading="lazy" src="img/6705107_0007_final.jpg" alt="RA&#x27;s final, image page 7"></button></figure></div></article>
+<article class="cmp"><header><span class="tag check">our worst page</span><h3><span dir="rtl" lang="he">תורת הרמ&quot;ל השלם</span>
+<span class="meta">work 73 · doc 6705107 · p. 29</span></h3><a href="https://app.transkribus.org/collection/49371/doc/6705107/edit?pageNr=29" target="_blank" rel="noopener">Open in Transkribus</a></header>
+<div class="row"><figure><figcaption><b>Transkribus, before the RA</b><span>2 letters with the wrong tag · no line version on this page</span></figcaption>
+<button type="button" class="zoom" data-src="img/6705107_0029_tr.jpg" data-link="https://app.transkribus.org/collection/49371/doc/6705107/edit?pageNr=29" data-cap="Transkribus, before the RA — p. 29"><img loading="lazy" src="img/6705107_0029_tr.jpg" alt="Transkribus, before the RA, image page 29"></button></figure><figure><figcaption><b>Our local pipeline</b><span>90 letters with the wrong tag · 0 of 38 lines wrong</span></figcaption>
+<button type="button" class="zoom" data-src="img/6705107_0029_our.jpg" data-link="https://app.transkribus.org/collection/49371/doc/6705107/edit?pageNr=29" data-cap="Our local pipeline — p. 29"><img loading="lazy" src="img/6705107_0029_our.jpg" alt="Our local pipeline, image page 29"></button></figure><figure><figcaption><b>RA&#x27;s final</b><span>the target</span></figcaption>
+<button type="button" class="zoom" data-src="img/6705107_0029_final.jpg" data-link="https://app.transkribus.org/collection/49371/doc/6705107/edit?pageNr=29" data-cap="RA&#x27;s final — p. 29"><img loading="lazy" src="img/6705107_0029_final.jpg" alt="RA&#x27;s final, image page 29"></button></figure></div></article>
+<article class="cmp"><header><span class="tag check">typical page</span><h3><span dir="rtl" lang="he">תורת הרמ&quot;ל השלם</span>
+<span class="meta">work 73 · doc 9561376 · p. 32</span></h3><a href="https://app.transkribus.org/collection/49371/doc/9561376/edit?pageNr=32" target="_blank" rel="noopener">Open in Transkribus</a></header>
+<div class="row"><figure><figcaption><b>Transkribus, before the RA</b><span>5 letters with the wrong tag · no line version on this page</span></figcaption>
+<button type="button" class="zoom" data-src="img/9561376_0032_tr.jpg" data-link="https://app.transkribus.org/collection/49371/doc/9561376/edit?pageNr=32" data-cap="Transkribus, before the RA — p. 32"><img loading="lazy" src="img/9561376_0032_tr.jpg" alt="Transkribus, before the RA, image page 32"></button></figure><figure><figcaption><b>Our local pipeline</b><span>37 letters with the wrong tag · 3 of 37 lines wrong</span></figcaption>
+<button type="button" class="zoom" data-src="img/9561376_0032_our.jpg" data-link="https://app.transkribus.org/collection/49371/doc/9561376/edit?pageNr=32" data-cap="Our local pipeline — p. 32"><img loading="lazy" src="img/9561376_0032_our.jpg" alt="Our local pipeline, image page 32"></button></figure><figure><figcaption><b>RA&#x27;s final</b><span>the target</span></figcaption>
+<button type="button" class="zoom" data-src="img/9561376_0032_final.jpg" data-link="https://app.transkribus.org/collection/49371/doc/9561376/edit?pageNr=32" data-cap="RA&#x27;s final — p. 32"><img loading="lazy" src="img/9561376_0032_final.jpg" alt="RA&#x27;s final, image page 32"></button></figure></div></article>
+<article class="cmp"><header><span class="tag check">our worst page</span><h3><span dir="rtl" lang="he">תורת הרמ&quot;ל השלם</span>
+<span class="meta">work 73 · doc 9561376 · p. 31</span></h3><a href="https://app.transkribus.org/collection/49371/doc/9561376/edit?pageNr=31" target="_blank" rel="noopener">Open in Transkribus</a></header>
+<div class="row"><figure><figcaption><b>Transkribus, before the RA</b><span>68 letters with the wrong tag · no line version on this page</span></figcaption>
+<button type="button" class="zoom" data-src="img/9561376_0031_tr.jpg" data-link="https://app.transkribus.org/collection/49371/doc/9561376/edit?pageNr=31" data-cap="Transkribus, before the RA — p. 31"><img loading="lazy" src="img/9561376_0031_tr.jpg" alt="Transkribus, before the RA, image page 31"></button></figure><figure><figcaption><b>Our local pipeline</b><span>115 letters with the wrong tag · 1 of 38 lines wrong</span></figcaption>
+<button type="button" class="zoom" data-src="img/9561376_0031_our.jpg" data-link="https://app.transkribus.org/collection/49371/doc/9561376/edit?pageNr=31" data-cap="Our local pipeline — p. 31"><img loading="lazy" src="img/9561376_0031_our.jpg" alt="Our local pipeline, image page 31"></button></figure><figure><figcaption><b>RA&#x27;s final</b><span>the target</span></figcaption>
+<button type="button" class="zoom" data-src="img/9561376_0031_final.jpg" data-link="https://app.transkribus.org/collection/49371/doc/9561376/edit?pageNr=31" data-cap="RA&#x27;s final — p. 31"><img loading="lazy" src="img/9561376_0031_final.jpg" alt="RA&#x27;s final, image page 31"></button></figure></div></article>
+<article class="cmp"><header><span class="tag check">typical page</span><h3><span dir="rtl" lang="he">שבע רצון</span>
+<span class="meta">work 59 · doc 6577969 · p. 22</span></h3><a href="https://app.transkribus.org/collection/49371/doc/6577969/edit?pageNr=22" target="_blank" rel="noopener">Open in Transkribus</a></header>
+<div class="row"><figure><figcaption><b>Transkribus, before the RA</b><span>2 letters with the wrong tag · no line version on this page</span></figcaption>
+<button type="button" class="zoom" data-src="img/6577969_0022_tr.jpg" data-link="https://app.transkribus.org/collection/49371/doc/6577969/edit?pageNr=22" data-cap="Transkribus, before the RA — p. 22"><img loading="lazy" src="img/6577969_0022_tr.jpg" alt="Transkribus, before the RA, image page 22"></button></figure><figure><figcaption><b>Our local pipeline</b><span>26 letters with the wrong tag · 5 of 33 lines wrong</span></figcaption>
+<button type="button" class="zoom" data-src="img/6577969_0022_our.jpg" data-link="https://app.transkribus.org/collection/49371/doc/6577969/edit?pageNr=22" data-cap="Our local pipeline — p. 22"><img loading="lazy" src="img/6577969_0022_our.jpg" alt="Our local pipeline, image page 22"></button></figure><figure><figcaption><b>RA&#x27;s final</b><span>the target</span></figcaption>
+<button type="button" class="zoom" data-src="img/6577969_0022_final.jpg" data-link="https://app.transkribus.org/collection/49371/doc/6577969/edit?pageNr=22" data-cap="RA&#x27;s final — p. 22"><img loading="lazy" src="img/6577969_0022_final.jpg" alt="RA&#x27;s final, image page 22"></button></figure></div></article>
+<article class="cmp"><header><span class="tag check">our worst page</span><h3><span dir="rtl" lang="he">שבע רצון</span>
+<span class="meta">work 59 · doc 6577969 · p. 25</span></h3><a href="https://app.transkribus.org/collection/49371/doc/6577969/edit?pageNr=25" target="_blank" rel="noopener">Open in Transkribus</a></header>
+<div class="row"><figure><figcaption><b>Transkribus, before the RA</b><span>2 letters with the wrong tag · no line version on this page</span></figcaption>
+<button type="button" class="zoom" data-src="img/6577969_0025_tr.jpg" data-link="https://app.transkribus.org/collection/49371/doc/6577969/edit?pageNr=25" data-cap="Transkribus, before the RA — p. 25"><img loading="lazy" src="img/6577969_0025_tr.jpg" alt="Transkribus, before the RA, image page 25"></button></figure><figure><figcaption><b>Our local pipeline</b><span>32 letters with the wrong tag · 4 of 34 lines wrong</span></figcaption>
+<button type="button" class="zoom" data-src="img/6577969_0025_our.jpg" data-link="https://app.transkribus.org/collection/49371/doc/6577969/edit?pageNr=25" data-cap="Our local pipeline — p. 25"><img loading="lazy" src="img/6577969_0025_our.jpg" alt="Our local pipeline, image page 25"></button></figure><figure><figcaption><b>RA&#x27;s final</b><span>the target</span></figcaption>
+<button type="button" class="zoom" data-src="img/6577969_0025_final.jpg" data-link="https://app.transkribus.org/collection/49371/doc/6577969/edit?pageNr=25" data-cap="RA&#x27;s final — p. 25"><img loading="lazy" src="img/6577969_0025_final.jpg" alt="RA&#x27;s final, image page 25"></button></figure></div></article>
+<article class="cmp"><header><span class="tag check">typical page</span><h3><span dir="rtl" lang="he">ספורי אנשי שם</span>
+<span class="meta">work 72 · doc 7627111 · p. 26</span></h3><a href="https://app.transkribus.org/collection/49371/doc/7627111/edit?pageNr=26" target="_blank" rel="noopener">Open in Transkribus</a></header>
+<div class="row"><figure><figcaption><b>Transkribus, before the RA</b><span>119 letters with the wrong tag · no line version on this page</span></figcaption>
+<button type="button" class="zoom" data-src="img/7627111_0026_tr.jpg" data-link="https://app.transkribus.org/collection/49371/doc/7627111/edit?pageNr=26" data-cap="Transkribus, before the RA — p. 26"><img loading="lazy" src="img/7627111_0026_tr.jpg" alt="Transkribus, before the RA, image page 26"></button></figure><figure><figcaption><b>Our local pipeline</b><span>5 letters with the wrong tag · 1 of 29 lines wrong</span></figcaption>
+<button type="button" class="zoom" data-src="img/7627111_0026_our.jpg" data-link="https://app.transkribus.org/collection/49371/doc/7627111/edit?pageNr=26" data-cap="Our local pipeline — p. 26"><img loading="lazy" src="img/7627111_0026_our.jpg" alt="Our local pipeline, image page 26"></button></figure><figure><figcaption><b>RA&#x27;s final</b><span>the target</span></figcaption>
+<button type="button" class="zoom" data-src="img/7627111_0026_final.jpg" data-link="https://app.transkribus.org/collection/49371/doc/7627111/edit?pageNr=26" data-cap="RA&#x27;s final — p. 26"><img loading="lazy" src="img/7627111_0026_final.jpg" alt="RA&#x27;s final, image page 26"></button></figure></div></article>
+<article class="cmp"><header><span class="tag check">our worst page</span><h3><span dir="rtl" lang="he">ספורי אנשי שם</span>
+<span class="meta">work 72 · doc 7627111 · p. 13</span></h3><a href="https://app.transkribus.org/collection/49371/doc/7627111/edit?pageNr=13" target="_blank" rel="noopener">Open in Transkribus</a></header>
+<div class="row"><figure><figcaption><b>Transkribus, before the RA</b><span>4 letters with the wrong tag · no line version on this page</span></figcaption>
+<button type="button" class="zoom" data-src="img/7627111_0013_tr.jpg" data-link="https://app.transkribus.org/collection/49371/doc/7627111/edit?pageNr=13" data-cap="Transkribus, before the RA — p. 13"><img loading="lazy" src="img/7627111_0013_tr.jpg" alt="Transkribus, before the RA, image page 13"></button></figure><figure><figcaption><b>Our local pipeline</b><span>69 letters with the wrong tag · 3 of 28 lines wrong</span></figcaption>
+<button type="button" class="zoom" data-src="img/7627111_0013_our.jpg" data-link="https://app.transkribus.org/collection/49371/doc/7627111/edit?pageNr=13" data-cap="Our local pipeline — p. 13"><img loading="lazy" src="img/7627111_0013_our.jpg" alt="Our local pipeline, image page 13"></button></figure><figure><figcaption><b>RA&#x27;s final</b><span>the target</span></figcaption>
+<button type="button" class="zoom" data-src="img/7627111_0013_final.jpg" data-link="https://app.transkribus.org/collection/49371/doc/7627111/edit?pageNr=13" data-cap="RA&#x27;s final — p. 13"><img loading="lazy" src="img/7627111_0013_final.jpg" alt="RA&#x27;s final, image page 13"></button></figure></div></article>
+<article class="cmp"><header><span class="tag check">typical page</span><h3><span dir="rtl" lang="he">בית ישראל</span>
+<span class="meta">work 87 · doc 9194635 · p. 2</span></h3><a href="https://app.transkribus.org/collection/49371/doc/9194635/edit?pageNr=2" target="_blank" rel="noopener">Open in Transkribus</a></header>
+<div class="row"><figure><figcaption><b>Transkribus, before the RA</b><span>348 letters with the wrong tag · no line version on this page</span></figcaption>
+<button type="button" class="zoom" data-src="img/9194635_0002_tr.jpg" data-link="https://app.transkribus.org/collection/49371/doc/9194635/edit?pageNr=2" data-cap="Transkribus, before the RA — p. 2"><img loading="lazy" src="img/9194635_0002_tr.jpg" alt="Transkribus, before the RA, image page 2"></button></figure><figure><figcaption><b>Our local pipeline</b><span>47 letters with the wrong tag · 4 of 15 lines wrong</span></figcaption>
+<button type="button" class="zoom" data-src="img/9194635_0002_our.jpg" data-link="https://app.transkribus.org/collection/49371/doc/9194635/edit?pageNr=2" data-cap="Our local pipeline — p. 2"><img loading="lazy" src="img/9194635_0002_our.jpg" alt="Our local pipeline, image page 2"></button></figure><figure><figcaption><b>RA&#x27;s final</b><span>the target</span></figcaption>
+<button type="button" class="zoom" data-src="img/9194635_0002_final.jpg" data-link="https://app.transkribus.org/collection/49371/doc/9194635/edit?pageNr=2" data-cap="RA&#x27;s final — p. 2"><img loading="lazy" src="img/9194635_0002_final.jpg" alt="RA&#x27;s final, image page 2"></button></figure></div></article>
+<article class="cmp"><header><span class="tag check">our worst page</span><h3><span dir="rtl" lang="he">בית ישראל</span>
+<span class="meta">work 87 · doc 9194635 · p. 4</span></h3><a href="https://app.transkribus.org/collection/49371/doc/9194635/edit?pageNr=4" target="_blank" rel="noopener">Open in Transkribus</a></header>
+<div class="row"><figure><figcaption><b>Transkribus, before the RA</b><span>84 letters with the wrong tag · no line version on this page</span></figcaption>
+<button type="button" class="zoom" data-src="img/9194635_0004_tr.jpg" data-link="https://app.transkribus.org/collection/49371/doc/9194635/edit?pageNr=4" data-cap="Transkribus, before the RA — p. 4"><img loading="lazy" src="img/9194635_0004_tr.jpg" alt="Transkribus, before the RA, image page 4"></button></figure><figure><figcaption><b>Our local pipeline</b><span>1637 letters with the wrong tag · 0 of 38 lines wrong</span></figcaption>
+<button type="button" class="zoom" data-src="img/9194635_0004_our.jpg" data-link="https://app.transkribus.org/collection/49371/doc/9194635/edit?pageNr=4" data-cap="Our local pipeline — p. 4"><img loading="lazy" src="img/9194635_0004_our.jpg" alt="Our local pipeline, image page 4"></button></figure><figure><figcaption><b>RA&#x27;s final</b><span>the target</span></figcaption>
+<button type="button" class="zoom" data-src="img/9194635_0004_final.jpg" data-link="https://app.transkribus.org/collection/49371/doc/9194635/edit?pageNr=4" data-cap="RA&#x27;s final — p. 4"><img loading="lazy" src="img/9194635_0004_final.jpg" alt="RA&#x27;s final, image page 4"></button></figure></div></article>
+  </div>
+</div>
+<div class="viewer" id="viewer" hidden role="dialog" aria-modal="true" aria-label="Page image">
+  <div class="bar"><span id="vcap"></span><a id="vlink" href="#" target="_blank" rel="noopener">Open in Transkribus</a>
+    <button type="button" class="close" id="vfull">Actual size</button><button type="button" class="close" id="vclose">Close</button></div>
+  <div class="stage" id="vstage"><img id="vimg" alt=""></div>
+</div>
+
+<script>
+(function () {
+  const v = document.getElementById("viewer"), img = document.getElementById("vimg"), stage = document.getElementById("vstage");
+  let last = null;
+  function close() { v.hidden = true; img.src = ""; if (last) last.focus(); }
+  document.addEventListener("click", ev => {
+    const b = ev.target.closest(".zoom");
+    if (!b) return;
+    last = b; img.src = b.dataset.src; img.alt = b.dataset.cap;
+    document.getElementById("vcap").textContent = b.dataset.cap;
+    document.getElementById("vlink").href = b.dataset.link;
+    stage.classList.remove("full"); v.hidden = false; document.getElementById("vclose").focus();
+  });
+  document.getElementById("vclose").addEventListener("click", close);
+  document.getElementById("vfull").addEventListener("click", () => stage.classList.toggle("full"));
+  v.addEventListener("click", ev => { if (ev.target === v || ev.target === stage) close(); });
+  document.addEventListener("keydown", ev => { if (ev.key === "Escape" && !v.hidden) close(); });
+})();
+</script>
