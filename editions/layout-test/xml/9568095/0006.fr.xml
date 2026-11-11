@@ -1,0 +1,34 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<PcGts xmlns="http://schema.primaresearch.org/PAGE/gts/pagecontent/2013-07-15" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://schema.primaresearch.org/PAGE/gts/pagecontent/2013-07-15 http://schema.primaresearch.org/PAGE/gts/pagecontent/2013-07-15/pagecontent.xsd">
+    <Metadata>
+        <Creator>Transkribus</Creator>
+        <Created>2025-07-15T16:08:29.785355</Created>
+        <LastChange>2025-07-15T16:08:46.736+02:00</LastChange>
+    </Metadata>
+    <Page imageFilename="100388280_6_p006.jpg" imageWidth="2479" imageHeight="3508">
+        <ReadingOrder>
+            <OrderedGroup id="ro_1752588526737" caption="Regions reading order">
+                <RegionRefIndexed index="0" regionRef="tr_1752588522"/>
+                <RegionRefIndexed index="1" regionRef="tr_1752588524"/>
+                <RegionRefIndexed index="2" regionRef="tr_1752588525"/>
+                <RegionRefIndexed index="3" regionRef="tr_1752588523"/>
+                <RegionRefIndexed index="4" regionRef="tr_1752588521"/>
+            </OrderedGroup>
+        </ReadingOrder>
+        <TextRegion id="tr_1752588522" custom="readingOrder {index:0;} structure {score:0.99; type:page-number;}">
+            <Coords points="491,349 576,349 576,459 491,459"/>
+        </TextRegion>
+        <TextRegion id="tr_1752588524" custom="readingOrder {index:1;} structure {score:0.99; type:page-number;}">
+            <Coords points="568,355 642,355 642,457 568,457"/>
+        </TextRegion>
+        <TextRegion id="tr_1752588525" custom="readingOrder {index:2;} structure {score:0.98; type:running-head;}">
+            <Coords points="725,346 1806,346 1806,455 725,455"/>
+        </TextRegion>
+        <TextRegion id="tr_1752588523" custom="readingOrder {index:3;} structure {score:0.99; type:main-text;}">
+            <Coords points="497,423 2071,423 2071,2979 497,2979"/>
+        </TextRegion>
+        <TextRegion id="tr_1752588521" custom="readingOrder {index:4;} structure {score:0.99; type:catch-word;}">
+            <Coords points="688,3042 767,3042 767,3106 688,3106"/>
+        </TextRegion>
+    </Page>
+</PcGts>

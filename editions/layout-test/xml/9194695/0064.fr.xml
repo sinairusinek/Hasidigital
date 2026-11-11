@@ -1,0 +1,34 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<PcGts xmlns="http://schema.primaresearch.org/PAGE/gts/pagecontent/2013-07-15" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://schema.primaresearch.org/PAGE/gts/pagecontent/2013-07-15 http://schema.primaresearch.org/PAGE/gts/pagecontent/2013-07-15/pagecontent.xsd">
+    <Metadata>
+        <Creator>Transkribus</Creator>
+        <Created>2025-07-15T15:43:06.308716</Created>
+        <LastChange>2025-07-15T15:44:41.837+02:00</LastChange>
+    </Metadata>
+    <Page imageFilename="99428123_64_p064.jpg" imageWidth="2479" imageHeight="3508">
+        <ReadingOrder>
+            <OrderedGroup id="ro_1752587081837" caption="Regions reading order">
+                <RegionRefIndexed index="0" regionRef="tr_1752587027"/>
+                <RegionRefIndexed index="1" regionRef="tr_1752587025"/>
+                <RegionRefIndexed index="2" regionRef="tr_1752587023"/>
+                <RegionRefIndexed index="3" regionRef="tr_1752587024"/>
+                <RegionRefIndexed index="4" regionRef="tr_1752587026"/>
+            </OrderedGroup>
+        </ReadingOrder>
+        <TextRegion id="tr_1752587027" custom="readingOrder {index:0;} structure {score:0.87; type:main-text;}">
+            <Coords points="218,184 1981,184 1981,309 218,309"/>
+        </TextRegion>
+        <TextRegion id="tr_1752587025" custom="readingOrder {index:1;} structure {score:0.99; type:main-text;}">
+            <Coords points="155,290 1966,290 1966,2020 155,2020"/>
+        </TextRegion>
+        <TextRegion id="tr_1752587023" custom="readingOrder {index:2;} structure {score:0.99; type:main-text;}">
+            <Coords points="167,1987 1976,1987 1976,2619 167,2619"/>
+        </TextRegion>
+        <TextRegion id="tr_1752587024" custom="readingOrder {index:3;} structure {score:0.99; type:main-text;}">
+            <Coords points="173,2614 1988,2614 1988,3273 173,3273"/>
+        </TextRegion>
+        <TextRegion id="tr_1752587026" custom="readingOrder {index:4;} structure {score:0.99; type:catch-word;}">
+            <Coords points="324,3246 524,3246 524,3309 324,3309"/>
+        </TextRegion>
+    </Page>
+</PcGts>

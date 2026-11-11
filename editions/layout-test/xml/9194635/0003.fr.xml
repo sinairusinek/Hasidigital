@@ -1,0 +1,50 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<PcGts xmlns="http://schema.primaresearch.org/PAGE/gts/pagecontent/2013-07-15" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://schema.primaresearch.org/PAGE/gts/pagecontent/2013-07-15 http://schema.primaresearch.org/PAGE/gts/pagecontent/2013-07-15/pagecontent.xsd">
+    <Metadata>
+        <Creator>Transkribus</Creator>
+        <Created>2025-07-15T17:40:44.988897</Created>
+        <LastChange>2025-07-15T17:41:07.806+02:00</LastChange>
+    </Metadata>
+    <Page imageFilename="99427507_3_p003.jpg" imageWidth="2479" imageHeight="3508">
+        <ReadingOrder>
+            <OrderedGroup id="ro_1752594067806" caption="Regions reading order">
+                <RegionRefIndexed index="0" regionRef="tr_1752594060"/>
+                <RegionRefIndexed index="1" regionRef="tr_1752594054"/>
+                <RegionRefIndexed index="2" regionRef="tr_1752594055"/>
+                <RegionRefIndexed index="3" regionRef="tr_1752594059"/>
+                <RegionRefIndexed index="4" regionRef="tr_1752594052"/>
+                <RegionRefIndexed index="5" regionRef="tr_1752594058"/>
+                <RegionRefIndexed index="6" regionRef="tr_1752594057"/>
+                <RegionRefIndexed index="7" regionRef="tr_1752594053"/>
+                <RegionRefIndexed index="8" regionRef="tr_1752594056"/>
+            </OrderedGroup>
+        </ReadingOrder>
+        <TextRegion id="tr_1752594060" custom="readingOrder {index:0;} structure {score:0.81; type:running-head;}">
+            <Coords points="1043,462 1423,462 1423,600 1043,600"/>
+        </TextRegion>
+        <TextRegion id="tr_1752594054" custom="readingOrder {index:1;} structure {score:0.99; type:heading;}">
+            <Coords points="697,626 1774,626 1774,716 697,716"/>
+        </TextRegion>
+        <TextRegion id="tr_1752594055" custom="readingOrder {index:2;} structure {score:0.98; type:main-text;}">
+            <Coords points="405,759 2081,759 2081,1382 405,1382"/>
+        </TextRegion>
+        <TextRegion id="tr_1752594059" custom="readingOrder {index:3;} structure {score:0.88; type:page-number;}">
+            <Coords points="2225,840 2364,840 2364,1174 2225,1174"/>
+        </TextRegion>
+        <TextRegion id="tr_1752594052" custom="readingOrder {index:4;} structure {score:0.99; type:main-text;}">
+            <Coords points="405,1384 2086,1384 2086,1833 405,1833"/>
+        </TextRegion>
+        <TextRegion id="tr_1752594058" custom="readingOrder {index:5;} structure {score:0.9; type:heading;}">
+            <Coords points="1103,1855 1396,1855 1396,1951 1103,1951"/>
+        </TextRegion>
+        <TextRegion id="tr_1752594057" custom="readingOrder {index:6;} structure {score:0.98; type:heading;}">
+            <Coords points="379,1927 2086,1927 2086,2203 379,2203"/>
+        </TextRegion>
+        <TextRegion id="tr_1752594053" custom="readingOrder {index:7;} structure {score:0.99; type:main-text;}">
+            <Coords points="452,2217 2079,2217 2079,3106 452,3106"/>
+        </TextRegion>
+        <TextRegion id="tr_1752594056" custom="readingOrder {index:8;} structure {score:0.98; type:page-number;}">
+            <Coords points="2268,0 2353,0 2353,83 2268,83"/>
+        </TextRegion>
+    </Page>
+</PcGts>

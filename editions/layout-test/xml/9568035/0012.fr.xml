@@ -1,0 +1,62 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<PcGts xmlns="http://schema.primaresearch.org/PAGE/gts/pagecontent/2013-07-15" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://schema.primaresearch.org/PAGE/gts/pagecontent/2013-07-15 http://schema.primaresearch.org/PAGE/gts/pagecontent/2013-07-15/pagecontent.xsd">
+    <Metadata>
+        <Creator>Transkribus</Creator>
+        <Created>2025-07-15T16:07:20.565447</Created>
+        <LastChange>2025-07-15T16:08:17.685+02:00</LastChange>
+    </Metadata>
+    <Page imageFilename="100388752_12_p012.jpg" imageWidth="2479" imageHeight="3508">
+        <ReadingOrder>
+            <OrderedGroup id="ro_1752588497686" caption="Regions reading order">
+                <RegionRefIndexed index="0" regionRef="tr_1752588482"/>
+                <RegionRefIndexed index="1" regionRef="tr_1752588485"/>
+                <RegionRefIndexed index="2" regionRef="tr_1752588489"/>
+                <RegionRefIndexed index="3" regionRef="tr_1752588487"/>
+                <RegionRefIndexed index="4" regionRef="tr_1752588490"/>
+                <RegionRefIndexed index="5" regionRef="tr_1752588488"/>
+                <RegionRefIndexed index="6" regionRef="tr_1752588486"/>
+                <RegionRefIndexed index="7" regionRef="tr_1752588483"/>
+                <RegionRefIndexed index="8" regionRef="tr_1752588484"/>
+                <RegionRefIndexed index="9" regionRef="tr_1752588480"/>
+                <RegionRefIndexed index="10" regionRef="tr_1752588479"/>
+                <RegionRefIndexed index="11" regionRef="tr_1752588481"/>
+            </OrderedGroup>
+        </ReadingOrder>
+        <TextRegion id="tr_1752588482" custom="readingOrder {index:0;} structure {score:0.99; type:page-number;}">
+            <Coords points="368,112 485,112 485,225 368,225"/>
+        </TextRegion>
+        <TextRegion id="tr_1752588485" custom="readingOrder {index:1;} structure {score:0.97; type:page-number;}">
+            <Coords points="475,113 576,113 576,218 475,218"/>
+        </TextRegion>
+        <TextRegion id="tr_1752588489" custom="readingOrder {index:2;} structure {score:0.86; type:page-number;}">
+            <Coords points="729,104 838,104 838,224 729,224"/>
+        </TextRegion>
+        <TextRegion id="tr_1752588487" custom="readingOrder {index:3;} structure {score:0.94; type:page-number;}">
+            <Coords points="829,108 942,108 942,212 829,212"/>
+        </TextRegion>
+        <TextRegion id="tr_1752588490" custom="readingOrder {index:4;} structure {score:0.83; type:running-head;}">
+            <Coords points="1024,98 2053,98 2053,219 1024,219"/>
+        </TextRegion>
+        <TextRegion id="tr_1752588488" custom="readingOrder {index:5;} structure {score:0.87; type:running-head;}">
+            <Coords points="1032,98 1605,98 1605,216 1032,216"/>
+        </TextRegion>
+        <TextRegion id="tr_1752588486" custom="readingOrder {index:6;} structure {score:0.97; type:main-text;}">
+            <Coords points="322,927 2285,927 2285,1396 322,1396"/>
+        </TextRegion>
+        <TextRegion id="tr_1752588483" custom="readingOrder {index:7;} structure {score:0.99; type:main-text;}">
+            <Coords points="341,262 2275,262 2275,1406 341,1406"/>
+        </TextRegion>
+        <TextRegion id="tr_1752588484" custom="readingOrder {index:8;} structure {score:0.99; type:catch-word;}">
+            <Coords points="489,1384 605,1384 605,1450 489,1450"/>
+        </TextRegion>
+        <TextRegion id="tr_1752588480" custom="readingOrder {index:9;} structure {score:0.99; type:main-text;}">
+            <Coords points="365,1500 2260,1500 2260,2345 365,2345"/>
+        </TextRegion>
+        <TextRegion id="tr_1752588479" custom="readingOrder {index:10;} structure {score:0.99; type:main-text;}">
+            <Coords points="347,2341 2270,2341 2270,2986 347,2986"/>
+        </TextRegion>
+        <TextRegion id="tr_1752588481" custom="readingOrder {index:11;} structure {score:0.99; type:main-text;}">
+            <Coords points="332,2993 2299,2993 2299,3373 332,3373"/>
+        </TextRegion>
+    </Page>
+</PcGts>

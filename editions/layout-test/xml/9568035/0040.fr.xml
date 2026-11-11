@@ -1,0 +1,38 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<PcGts xmlns="http://schema.primaresearch.org/PAGE/gts/pagecontent/2013-07-15" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://schema.primaresearch.org/PAGE/gts/pagecontent/2013-07-15 http://schema.primaresearch.org/PAGE/gts/pagecontent/2013-07-15/pagecontent.xsd">
+    <Metadata>
+        <Creator>Transkribus</Creator>
+        <Created>2025-07-15T16:07:20.565447</Created>
+        <LastChange>2025-07-15T16:08:21.293+02:00</LastChange>
+    </Metadata>
+    <Page imageFilename="100388837_40_p040.jpg" imageWidth="2479" imageHeight="3508">
+        <ReadingOrder>
+            <OrderedGroup id="ro_1752588501294" caption="Regions reading order">
+                <RegionRefIndexed index="0" regionRef="tr_1752588471"/>
+                <RegionRefIndexed index="1" regionRef="tr_1752588472"/>
+                <RegionRefIndexed index="2" regionRef="tr_1752588474"/>
+                <RegionRefIndexed index="3" regionRef="tr_1752588475"/>
+                <RegionRefIndexed index="4" regionRef="tr_1752588470"/>
+                <RegionRefIndexed index="5" regionRef="tr_1752588473"/>
+            </OrderedGroup>
+        </ReadingOrder>
+        <TextRegion id="tr_1752588471" custom="readingOrder {index:0;} structure {score:0.99; type:page-number;}">
+            <Coords points="330,69 429,69 429,188 330,188"/>
+        </TextRegion>
+        <TextRegion id="tr_1752588472" custom="readingOrder {index:1;} structure {score:0.99; type:page-number;}">
+            <Coords points="434,77 592,77 592,201 434,201"/>
+        </TextRegion>
+        <TextRegion id="tr_1752588474" custom="readingOrder {index:2;} structure {score:0.85; type:page-number;}">
+            <Coords points="1046,67 1392,67 1392,181 1046,181"/>
+        </TextRegion>
+        <TextRegion id="tr_1752588475" custom="readingOrder {index:3;} structure {score:0.75; type:page-number;}">
+            <Coords points="1319,82 1411,82 1411,190 1319,190"/>
+        </TextRegion>
+        <TextRegion id="tr_1752588470" custom="readingOrder {index:4;} structure {score:0.99; type:main-text;}">
+            <Coords points="310,208 2258,208 2258,3310 310,3310"/>
+        </TextRegion>
+        <TextRegion id="tr_1752588473" custom="readingOrder {index:5;} structure {score:0.99; type:catch-word;}">
+            <Coords points="473,3333 639,3333 639,3407 473,3407"/>
+        </TextRegion>
+    </Page>
+</PcGts>

@@ -1,0 +1,31 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<PcGts xmlns="http://schema.primaresearch.org/PAGE/gts/pagecontent/2013-07-15">
+    <Metadata>
+        <Creator>Transkribus</Creator>
+        <Created>2025-09-02T09:44:37.987002</Created>
+        <LastChange>2025-09-02T09:45:25.474+02:00</LastChange>
+    </Metadata>
+    <Page imageFilename="99427816_108_p108.jpg" imageWidth="2479" imageHeight="3508">
+        <TextRegion id="tr_1756799108" custom="structure {type:page-number; score: 0.99;}">
+            <Coords points="260,291 396,291 396,410 260,410"/>
+        </TextRegion>
+        <TextRegion id="tr_1756799111" custom="structure {type:page-number; score: 0.99;}">
+            <Coords points="396,296 512,296 512,412 396,412"/>
+        </TextRegion>
+        <TextRegion id="tr_1756799109" custom="structure {type:main-text; score: 0.99;}">
+            <Coords points="207,818 1175,818 1175,2798 207,2798"/>
+        </TextRegion>
+        <TextRegion id="tr_1756799107" custom="structure {type:catch-word; score: 0.99;}">
+            <Coords points="353,2783 450,2783 450,2848 353,2848"/>
+        </TextRegion>
+        <TextRegion id="tr_1756799110" custom="structure {type:main-text; score: 0.99;}">
+            <Coords points="1282,837 2233,837 2233,2818 1282,2818"/>
+        </TextRegion>
+        <TextRegion id="tr_1756799112" custom="structure {type:heading; score: 0.97;}">
+            <Coords points="677,535 1802,535 1802,728 677,728"/>
+        </TextRegion>
+        <TextRegion id="tr_1756799113" custom="structure {type:heading; score: 0.91;}">
+            <Coords points="706,688 1790,688 1790,796 706,796"/>
+        </TextRegion>
+    </Page>
+</PcGts>
