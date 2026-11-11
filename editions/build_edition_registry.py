@@ -62,22 +62,23 @@ WRONG_SCANS = {"141": "Drive zip IE101483126 and NLI 001898821 are I.H. Weiss's 
 # works whose catalogue DB title names a different book (145: DBid 3620 is titled סיפורי צדיקים, bound with it)
 WORK_NAMES = {"145": "שבחי הרב"}
 # open questions for Gadi that hold a work's next step
-GADI_QUESTIONS: dict[str, str] = {}
-# scan problems found by editions/scan-check that Sinai checks before layout (status "open"; "after-ocr"
-# = duplicate pages kept through OCR as a sanity check, deleted before annotation; "closed" = done)
+GADI_QUESTIONS: dict[str, str] = {"11": "why is a Chumash in the corpus?"}
+# scan problems found by editions/scan-check (status "open" = Sinai checks before layout; "find-scan" = look
+# for a better copy first; "ask-gadi" = wait for Gadi; "after-ocr" = duplicate pages kept through OCR as a
+# sanity check, deleted before annotation; "accepted" / "closed" = no longer holds the work)
 SCAN_ISSUES = REPO / "editions" / "scan-check" / "scan-issues.tsv"
 LATER_EDITION_ONLY = {"123": "Warsaw 1924 Yiddish", "126": "Przemyśl 1927",
                       "131": "Warsaw 1930", "138": "Bilgoraj 1925"}
 
 
-def open_scan_issues() -> dict[str, str]:
-    """work nu -> issue ids (e.g. "S1") still open in scan-issues.tsv"""
-    out: dict[str, list[str]] = {}
+def scan_issue_holds() -> dict[str, dict[str, str]]:
+    """work nu -> {status: issue ids} for the scan-issues.tsv statuses that hold a work before layout"""
+    out: dict[str, dict[str, list[str]]] = {}
     if SCAN_ISSUES.exists():
         for r in csv.DictReader(open(SCAN_ISSUES, encoding="utf-8"), delimiter="\t"):
-            if r["status"] == "open":
-                out.setdefault(r["work_nu"], []).append(r["id"])
-    return {k: " ".join(v) for k, v in out.items()}
+            if r["status"] in ("open", "find-scan", "ask-gadi"):
+                out.setdefault(r["work_nu"], {}).setdefault(r["status"], []).append(r["id"])
+    return {k: {st: " ".join(ids) for st, ids in v.items()} for k, v in out.items()}
 
 
 def norm(s: str) -> str:
@@ -346,8 +347,14 @@ def main() -> None:
             step = "download scan"
         else:
             step = "find a scan"
-        if w["key"] in open_scan_issues() and "layout" in step:
-            step = f"check scan issues {open_scan_issues()[w['key']]} → {step}"
+        holds = scan_issue_holds().get(w["key"], {})
+        if "layout" in step:   # not yet transcribed: scan problems and Gadi questions come first
+            if "find-scan" in holds:
+                step = f"find a better scan ({holds['find-scan']})"
+            elif "ask-gadi" in holds or w["key"] in GADI_QUESTIONS:
+                step = f'ask Gadi ({GADI_QUESTIONS.get(w["key"]) or "scan issue " + holds["ask-gadi"]})'
+            elif "open" in holds:
+                step = f"check scan issues {holds['open']} → {step}"
         if decision in ("pending", "not assessed") and step not in ("online", "incoming pipeline"):
             step = "decide → " + step
 

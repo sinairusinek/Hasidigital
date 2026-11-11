@@ -58,10 +58,12 @@ def tsv(path):
 
 
 SCANNED = {b["docId"]: b for b in tsv(SCAN_BOOKS)}
-OPEN_ISSUES: dict[str, list[str]] = {}      # block layout
+OPEN_ISSUES: dict[str, list[str]] = {}      # Sinai checks before layout
+FIND_SCAN: dict[str, list[str]] = {}        # the scan is not usable: find a better copy
 AFTER_OCR: dict[str, list[str]] = {}        # duplicate pages kept through OCR, deleted before annotation
 for i in tsv(SCAN_ISSUES):
-    {"open": OPEN_ISSUES, "after-ocr": AFTER_OCR}.get(i["status"], {}).setdefault(i["work_nu"], []).append(i["id"])
+    {"open": OPEN_ISSUES, "find-scan": FIND_SCAN, "after-ocr": AFTER_OCR}.get(i["status"], {}).setdefault(
+        i["work_nu"], []).append(i["id"])
 LAYOUT = {l["work_nu"]: l for l in tsv(LAYOUT_STATUS)}
 
 
@@ -75,7 +77,9 @@ def layout_cells(r, c, has_xml):
         c["Layout"] = ("done", "Transkribus models, corrected by the RA")
         return
     checked = [SCANNED[d] for d in r["trp_main_docs"].split() if d in SCANNED]
-    if OPEN_ISSUES.get(r["nu"]):
+    if FIND_SCAN.get(r["nu"]):
+        c["Scan QA"] = ("block", "scan too poor, find a better copy: " + " ".join(FIND_SCAN[r["nu"]]))
+    elif OPEN_ISSUES.get(r["nu"]):
         c["Scan QA"] = ("part", "open scan issue " + " ".join(OPEN_ISSUES[r["nu"]]) + ": check before layout")
     elif checked:
         later = [f"repeated pages kept until after OCR ({' '.join(AFTER_OCR[r['nu']])})"] if AFTER_OCR.get(r["nu"]) else []
