@@ -1,17 +1,18 @@
 docId	work_nu	work	pages	median_w	median_line_px	median_contrast	median_sharp	bitonal_share	pages_flagged	flag_counts	verdict
+15561748	41	מעשות מהגדולים והצדיקים	83	2479	87.9	255.0	0.3255	0.0	0		
 20149699	51	נצר תאנה	36	1345	52.9	240.0	0.1743	0.0	5	no_text 2; low_contrast 2; skewed 2; coloured_area 2; text_cut_at_edge 1	CHECK: 2 pages with possible text loss (tear, tape, stamp, blur or a two-page spread)
-20149799	35.5	מסעות הים	78	2380	53.5	170.0	0.1378	0.0	12	text_cut_at_edge 10; low_contrast 5; no_text 5; skewed 3	AUTO: crop to the page before layout; 10 of 78 photos also show the neighbouring page, copy stand, background or tape
+20149799	35.5	מסעות הים	78	2380	53.5	170.0	0.1378	0.0	12	text_cut_at_edge 10; low_contrast 5; no_text 5; skewed 3; show_through 2	AUTO: crop to the page before layout; 10 of 78 photos also show the neighbouring page, copy stand, background or tape
 20150460	23	"חיי מוהר""נ"	110	2093	51.8	157.5	0.1329	0.0	29	text_cut_at_edge 26; no_text 7; skewed 3; low_contrast 2	AUTO: crop to the page before layout; 26 of 110 photos also show the neighbouring page, copy stand, background or tape
 20150542	43	מעשיות נוראים ונפלאים	50	1471	35.6	254.0	0.0527	0.06	31	coloured_area 25; blurred 15; no_text 14; text_cut_at_edge 7; low_contrast 1	AUTO: crop to the page before layout; 27 of 50 photos also show the neighbouring page, copy stand, background or tape | CHECK: 1 pages with possible text loss (tear, tape, stamp, blur or a two-page spread)
 20150584	34	עטרת צבי	98	1620	53.4	229.5	0.2278	0.0	4	no_text 41; low_contrast 4; skewed 1; coloured_area 1	CHECK: 1 pages with possible text loss (tear, tape, stamp, blur or a two-page spread)
 20150819	76	צבי לצדיק	189	1942	50.4	238.0	0.1757	0.0	4	no_text 7; skewed 3; low_contrast 2; text_cut_at_edge 1	
-20151006	77	ישועות ישראל	72	1374	53.7	134.5	0.1935	0.0	25	text_cut_at_edge 17; low_contrast 10; no_text 4; coloured_area 2; skewed 1	AUTO: crop to the page before layout; 19 of 72 photos also show the neighbouring page, copy stand, background or tape
-20151180	79	סיפורי יעקב או סיפורים מצדיקים וקדושים?	60	2019	66.6	106.5	0.2255	0.0	32	text_cut_at_edge 23; low_contrast 11; no_text 7; coloured_area 1	AUTO: crop to the page before layout; 24 of 60 photos also show the neighbouring page, copy stand, background or tape
+20151006	77	ישועות ישראל	72	1374	53.7	134.5	0.1935	0.0	25	text_cut_at_edge 17; low_contrast 10; no_text 4; coloured_area 2; skewed 1; show_through 1	AUTO: crop to the page before layout; 19 of 72 photos also show the neighbouring page, copy stand, background or tape
+20151180	79	סיפורי יעקב או סיפורים מצדיקים וקדושים?	60	2019	66.6	106.5	0.2255	0.0	32	text_cut_at_edge 23; low_contrast 11; no_text 7; coloured_area 1; show_through 1	AUTO: crop to the page before layout; 24 of 60 photos also show the neighbouring page, copy stand, background or tape
 20151344	96	נפלאות היהודי	136	1730	50.3	247.0	0.1642	0.0	8	no_text 6; text_cut_at_edge 4; low_contrast 3; skewed 1	
 20151360	91	אילנא דחיי	158	1668	50.5	172.0	0.2652	0.0	12	coloured_area 8; no_text 3; low_contrast 3; skewed 2; text_cut_at_edge 1	CHECK: 8 pages with possible text loss (tear, tape, stamp, blur or a two-page spread)
 20151819	102	שיחת חולין	104	1691	54.1	112.5	0.1583	0.0	54	text_cut_at_edge 36; low_contrast 11; skewed 9; blurred 3; no_text 2; coloured_area 1	AUTO: crop to the page before layout; 36 of 104 photos also show the neighbouring page, copy stand, background or tape | CHECK: 1 pages with possible text loss (tear, tape, stamp, blur or a two-page spread)
-20152203	107	עשר עטרות	360	1785	50.9	127.0	0.0959	0.0	73	skewed 43; text_cut_at_edge 24; no_text 7; blurred 5; low_contrast 5; coloured_area 3	AUTO: deskew before layout (43 of 360 pages rotated) | CHECK: 3 pages with possible text loss (tear, tape, stamp, blur or a two-page spread)
-20152745	108	שמחת ישראל	140	1826	51.0	123.0	0.1021	0.0	49	text_cut_at_edge 32; skewed 17; no_text 12; low_contrast 5; blurred 4	AUTO: crop to the page before layout; 32 of 140 photos also show the neighbouring page, copy stand, background or tape | AUTO: deskew before layout (17 of 140 pages rotated) | CHECK: 2 pages with possible text loss (tear, tape, stamp, blur or a two-page spread)
+20152203	107	עשר עטרות	360	1785	50.9	127.0	0.0959	0.0	73	skewed 43; text_cut_at_edge 24; no_text 7; blurred 5; low_contrast 5; coloured_area 3; show_through 3	AUTO: deskew before layout (43 of 360 pages rotated) | CHECK: 3 pages with possible text loss (tear, tape, stamp, blur or a two-page spread)
+20152745	108	שמחת ישראל	140	1826	51.0	123.0	0.1021	0.0	49	text_cut_at_edge 32; skewed 17; no_text 12; low_contrast 5; blurred 4; show_through 1	AUTO: crop to the page before layout; 32 of 140 photos also show the neighbouring page, copy stand, background or tape | AUTO: deskew before layout (17 of 140 pages rotated) | CHECK: 2 pages with possible text loss (tear, tape, stamp, blur or a two-page spread)
 20153020	119	פאר וכבוד	108	1558	53.9	236.0	0.2047	0.0	30	text_cut_at_edge 23; no_text 6; low_contrast 3; skewed 3; coloured_area 3	AUTO: crop to the page before layout; 26 of 108 photos also show the neighbouring page, copy stand, background or tape
 20153220	11	חמשה חומשי תורה	594	2184	43.2	255.0	0.2834	0.0	3	no_text 3; two_page_spread 3	CHECK: 3 pages with possible text loss (tear, tape, stamp, blur or a two-page spread)
 20154480	89	ספר אהבת שלום תנינא	45	1372	52.1	254.0	0.3382	0.0	0		
@@ -42,7 +43,7 @@ docId	work_nu	work	pages	median_w	median_line_px	median_contrast	median_sharp	bi
 20163563	132	דרך צדיקים	70	1184	37.6	255.0	0.2245	0.0	0		
 20163764	120	עטרת תפארת	84	1794	50.1	244.0	0.1519	0.0	13	text_cut_at_edge 11; no_text 3; low_contrast 2; skewed 2; coloured_area 1	AUTO: crop to the page before layout; 12 of 84 photos also show the neighbouring page, copy stand, background or tape
 20163861	124	דעת זקנים	104	1581	53.3	214.0	0.301	0.0	16	text_cut_at_edge 12; no_text 6; coloured_area 2; blurred 1; skewed 1	AUTO: crop to the page before layout; 14 of 104 photos also show the neighbouring page, copy stand, background or tape
-20164120	133	"תפארת מהרא""ל"	120	1832	50.4	239.5	0.1514	0.0	5	no_text 6; text_cut_at_edge 3; skewed 3; coloured_area 1; low_contrast 1	CHECK: 1 pages with possible text loss (tear, tape, stamp, blur or a two-page spread)
+20164120	133	"תפארת מהרא""ל"	120	1832	50.4	239.5	0.1514	0.0	5	no_text 6; text_cut_at_edge 3; skewed 3; coloured_area 1; low_contrast 1; show_through 1	CHECK: 1 pages with possible text loss (tear, tape, stamp, blur or a two-page spread)
 20164202	142	שיחות חיים	74	1728	53.2	255.0	0.2536	0.0	2	low_contrast 2	
 20164360	143	ספרן של צדיקים	98	1754	57.3	118.0	0.2313	0.0	0	no_text 2	
 20164422	64	ספורי נפלאות	108	1944	52.7	143.0	0.0591	0.0	35	text_cut_at_edge 20; blurred 16; no_text 3; low_contrast 2	AUTO: crop to the page before layout; 20 of 108 photos also show the neighbouring page, copy stand, background or tape | CHECK: 2 pages with possible text loss (tear, tape, stamp, blur or a two-page spread)
@@ -51,4 +52,7 @@ docId	work_nu	work	pages	median_w	median_line_px	median_contrast	median_sharp	bi
 20164461	238	נפלאות בית לוי	48	1775	52.1	255.0	0.2467	0.0	0	no_text 1	
 20164512	6	מגיד שיחות	194	1228	44.1	255.0	0.2526	0.0	0		
 20164780	99	סיפורי צדיקים החדש	74	1728	50.0	254.0	0.286	0.0	4	low_contrast 4	
-20169720	3	סיפורי מעשיות	305	2300	62.3	182.0	0.1774	0.0	228	text_cut_at_edge 227; no_text 2; low_contrast 1; skewed 1	AUTO: crop to the page before layout; 227 of 305 photos also show the neighbouring page, copy stand, background or tape
+20169720	3	סיפורי מעשיות	305	2300	62.3	182.0	0.1774	0.0	294	show_through 267; text_cut_at_edge 227; no_text 2; low_contrast 1; skewed 1	AUTO: crop to the page before layout; 227 of 305 photos also show the neighbouring page, copy stand, background or tape | CHECK: print from the other side shows through on 267 of 305 pages; on finished books pages like these had several times the usual HTR error. Look before layout: is a better scan worth finding?
+6270967	38	זכרון טוב	109	2479	67.1	255.0	0.3302	0.0	0		
+6705189	67	מנרת זהב	135	2479	74.0	255.0	0.324	0.0	1	low_contrast 1	
+6705191	65	בית רבי	276	2479	83.3	255.0	0.3186	0.0	1	low_contrast 1	

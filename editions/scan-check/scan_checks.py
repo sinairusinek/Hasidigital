@@ -39,6 +39,8 @@ MAX_WARP = 1.5          # degrees between left and right half skew (1.0 flagged 
 MIN_SHARP = 0.05        # normalised Laplacian variance, see sharpness(); ~5th percentile
 MAX_CUT = 30            # letter-sized blobs touching the image edge; ~95th percentile
 MAX_COLOUR = 0.05       # share of page off the paper's colour: tape, stamps, tears
+MAX_SHOW = 0.20         # share of mid-grey pixels after flattening: print showing through from the other side.
+                        # Finished pages above it: 25% over 5% CER, against 3% below (work 3 sits at ~0.24)
 DUP_CORR = 0.97         # correlation of 64x64 page thumbnails (a 64-bit hash matched different text pages)
 MIN_RUN = 3             # consecutive pages before a size or line-spacing change counts as a series break
 
@@ -126,6 +128,11 @@ def analyse(job):
     bg = cv2.resize(cv2.medianBlur(cv2.morphologyEx(q, cv2.MORPH_CLOSE, np.ones((15, 15), np.uint8)), 21), (w, h))
     flat = np.clip(g.astype(np.float32) / np.maximum(bg, 1) * 255, 0, 255).astype(np.uint8)
     _, bw = cv2.threshold(cv2.GaussianBlur(flat, (3, 3), 0), 0, 255, cv2.THRESH_BINARY_INV + cv2.THRESH_OTSU)
+    # show-through: faint grey print from the other side left after flattening; uneven: lighting/paper spread
+    bq = bg[h // 10: -h // 10: 4, w // 10: -w // 10: 4].astype(float)
+    r["uneven"] = float((np.percentile(bq, 95) - np.percentile(bq, 5)) / max(np.median(bq), 1))
+    fi = flat[h // 10: -h // 10: 2, w // 10: -w // 10: 2]
+    r["show"] = float(((fi > 150) & (fi < 225)).mean())
     # ignore a dark border when measuring ink
     inner = bw[h // 30: -h // 30, w // 30: -w // 30]
     r["ink"] = float(inner.mean() / 255)
@@ -188,21 +195,26 @@ def flags(r):
         f.append("coloured_area")  # stamp, torn corner or background showing
     if r["bitonal"]:
         f.append("bitonal")
+    if r.get("show", 0) > MAX_SHOW:
+        f.append("show_through")
     return f
 
 
 def main():
     img_dir, fulldoc_dir = Path(sys.argv[1]), Path(sys.argv[2])
+    # every doc of the collection map whose images are in IMG_DIR
     docs = {row["docId"]: row for row in csv.DictReader(open(MAP, encoding="utf-8"), delimiter="\t")
-            if row["uploaded"] >= "2026-11-01"}
-    cache = img_dir / "_measurements.pkl"   # measuring takes ~5 min; delete the cache when images change
-    if cache.exists():
-        rows = pickle.loads(cache.read_bytes())
-    else:
-        jobs = [(d, int(p.stem), p) for d in docs for p in sorted((img_dir / d).glob("*.jpg"))]
-        with Pool(10) as pool:
-            rows = pool.map(analyse, jobs, chunksize=8)
-        cache.write_bytes(pickle.dumps(rows))
+            if (img_dir / row["docId"]).is_dir()}
+    rows = []
+    with Pool(10) as pool:
+        for d in docs:
+            cache = img_dir / d / "_measurements.pkl"   # delete it when the measurements change
+            if cache.exists():
+                rows += pickle.loads(cache.read_bytes())
+                continue
+            got = pool.map(analyse, [(d, int(p.stem), p) for p in sorted((img_dir / d).glob("*.jpg"))], chunksize=8)
+            cache.write_bytes(pickle.dumps(got))
+            rows += got
     rows.sort(key=lambda r: (r["docId"], r["page"]))
 
     by_doc = defaultdict(list)
@@ -226,7 +238,7 @@ def main():
             rs[i]["flags"].append("size_differs")
 
     cols = ["docId", "page", "w", "h", "line_px", "letter_h", "contrast", "sharp", "skew", "warp", "ink", "n_letters",
-            "cut_letters", "dark_border", "stamp", "bitonal", "spread", "error"]
+            "cut_letters", "dark_border", "stamp", "show", "uneven", "bitonal", "spread", "error"]
     with open(OUT / "scan-pages.tsv", "w", newline="", encoding="utf-8") as f:
         wr = csv.writer(f, delimiter="\t")
         wr.writerow(["work_nu", "work"] + cols + ["flags"])
@@ -288,6 +300,10 @@ def verdict(rs):
     if damaged:
         damaged.sort(key=lambda r: r["page"])
         out.append((f"CHECK: {len(damaged)} pages with possible text loss (tear, tape, stamp, blur or a two-page spread)", damaged))
+    show = pages_with(textual, "show_through")
+    if len(show) > 0.2 * n:
+        out.append((f"CHECK: print from the other side shows through on {len(show)} of {n} pages; on finished books "
+                    "pages like these had several times the usual HTR error. Look before layout: is a better scan worth finding?", show))
     lowc = pages_with(textual, "low_contrast")
     if len(lowc) > 0.2 * n:
         out.append((f"NOTE: faint print or dark paper on {len(lowc)} of {n} pages; expect more OCR errors", lowc))
