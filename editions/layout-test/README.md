@@ -41,3 +41,28 @@ Lines, LA 51962 against FINAL, 61 pages (תפארת חיים, שמן הטוב, �
 - 92% of automatic lines kept; 325 deleted and 354 added by hand, of 4,099 final lines.
 - 37 pages (61%) had over 10% of their lines deleted or added.
 - These are hard books, and only 61 pages have a current line-model version.
+
+## Stage 2: automatic checks
+
+Measure of a real error (`ink_score.py`): every letter on the page takes the tag of the box it sits in; a page
+has a **consequential error** when 10 or more letters get a different tag than in FINAL. Splitting or merging
+main-text blocks is not counted, since the TEI doesn't see it. By this measure, **121 of 209 Transkribus pages
+(58%) have a real error**, and 7.7% of letters are mis-tagged; most of them are footnotes left as main text.
+
+`layout_qa.py SUFFIX` first applies safe clean-ups (drop boxes with no ink, drop nested duplicates, merge
+overlapping main-text), then flags pages. The flags look only at the automatic output and the image:
+- text outside every box;
+- page number, running head or catch-word missing (when the book normally has one), doubled, or off its band;
+- a main-text block under a printed rule or under the catch-word (an untagged footnote);
+- print size: smaller print at the foot of the main text, larger print inside it, body-size print in a heading;
+- too many headings; and, when lines exist, blocks without lines and lines wider than their block.
+
+Transkribus confidence scores were tested and do not separate good boxes from bad ones.
+
+Result on Transkribus FR 313993 output (`score_flags.py fr`): **108 of 121 error pages caught (89%)**, with 156
+of 209 pages flagged. The flag rate is high because the input is poor; the same checks will run on the local
+layout in stage 3. The 13 that got through: 8 heading/main-text mix-ups, 5 with 12–25 letters outside a box.
+
+`text_checks.py SUFFIX` runs **after HTR**: catch-word against the next page's first word (reading order, one
+OCR slip allowed), and page numbers in sequence. On the FINAL text it disagrees on 16 of 73 page pairs; some
+are real errors left in FINAL (שמן הטוב p123: the page number "קמ" boxed as main text), some are section titles.
