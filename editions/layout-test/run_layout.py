@@ -26,6 +26,7 @@ TRP = "https://transkribus.eu/TrpServer/rest"
 HOLD = {"3": "waits for a better scan", "77": "waits for a better scan", "43": "waits for Gadi", "11": "waits for Gadi"}
 MODEL = DATA / "yolo" / "runs" / "fold0" / "weights" / "best.pt"
 KRAKEN = DATA / ".venv-kraken" / "bin" / "kraken"
+LINE_MODEL = DATA / "kraken-train" / "lines-ft-best.safetensors"  # Kraken fine-tuned on 2,313 RA-checked pages (kraken_gt.py)
 
 
 def session():
@@ -91,7 +92,7 @@ def main():
     procs = []
     for k in range(4):
         args = [x for n in todo[k::4] for x in ("-i", str(base / "prep" / f"{n:04d}.jpg"), str(base / "kraken" / f"{n:04d}.xml"))]
-        if args: procs.append(subprocess.Popen([str(KRAKEN), "-x", *args, "segment", "-bl", "-d", "horizontal-rl"], stdout=subprocess.DEVNULL, stderr=subprocess.DEVNULL))
+        if args: procs.append(subprocess.Popen([str(KRAKEN), "-x", *args, "segment", "-bl", "-d", "horizontal-rl", "-i", str(LINE_MODEL)], stdout=subprocess.DEVNULL, stderr=subprocess.DEVNULL))
     for pr in procs: pr.wait()
     # YOLO regions
     from ultralytics import YOLO

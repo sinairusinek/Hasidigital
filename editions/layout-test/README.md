@@ -117,6 +117,28 @@ Set C (a book the settings were not tuned on): 18 → 5 wrong lines of 461. What
 opening word or a centred phrase set apart, and lines cut at a false box border on one-column pages; 101 partly
 missing; 59 merged. בית ישראל (Hebrew and Yiddish) still holds a quarter of the errors.
 
+**Kraken line model fine-tuned on our pages (2026-11-12, `kraken_gt.py`; now used by `run_layout.py`).**
+Ground truth: every page whose lines a person checked in Transkribus. Many more pages had their layout corrected
+than were marked FINAL, so the version histories of all 174 documents were compared: for each page, the lines of
+the last line-tool version against the latest lines. Pool (`gt-pool.tsv`): 1,837 FINAL pages plus 476 pages not
+marked final whose lines were corrected, in 18 books where that happened on at least half the pages (checked by
+eye); 2,313 pages, 104,000 lines, 63 documents (48 works). Test pages and the two pages either side of them are
+left out. Fine-tuned from Kraken's default model (`ketos segtrain -i blla.mlmodel --resize both`, early stopping,
+lag 5) on the Mac GPU: 12 epochs, about 8 hours; best epoch 8 (validation mean IU 0.584, baseline F1 0.966).
+
+| set A, 209 pages | wrong lines | not counting RA-short lines | pages >10% wrong |
+|---|---|---|---|
+| default model, raw | 11.4% | 10.0% | 56 |
+| fine-tuned, raw | 4.9% | 3.3% | 15 |
+| default + cut at YOLO borders + join + refill | 5.4% | 3.9% | 27 |
+| **fine-tuned + cut at YOLO borders + join + refill** | **3.9%** | **2.1%** | **10** |
+
+Set C: 2.6% → 0.2% raw (461 lines). Headings and text out of order: 34 → 30 pages; tags unchanged (they come from
+YOLO). Caveat: every test book also has other pages in the training pool, so this measures new pages of known
+books; on books never seen the gain may be smaller. Remaining misses on 40 pages checked by eye: no line missed
+entirely; the left end of a large-type title (9561376 p1); on בית ישראל the model's baselines run under the
+letters where the RA drew them through, which the score counts as partly missed.
+
 **Reading order (2026-11-12, `order_score.py`; the rule is `rules.reading_order`, written by `page_xml`).**
 Until now our pipeline wrote no reading order and none of the scores looked at it. The score: our lines are
 matched to FINAL lines through their letters; walking our lines in our order, the lines that break the longest
