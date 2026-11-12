@@ -33,8 +33,8 @@
 ["Tags: Claude, picture only (yesterday)", "26*", "21 pages wrong, 8,374 letters", "7 pages, 2,687 letters", "The baseline to beat"],
 ["Tags: Claude, reading and tagging in one call", "26*", "21 pages, 8,374 letters", "7 pages, 2,618 letters", "No gain from the text"],
 ["Tags: Gemini Flash, reading and tagging in one call", "25*", "20 pages, 6,914 letters", "9 pages, 3,374 letters", "Better than Gemini's picture-only run (5,080), still behind Claude"],
-["Tags: text rules (running head, page number, catch-word)", "196", "122 pages wrong, 18,121 letters", "99 pages, 17,338 letters", "49 pages better, none worse"],
-["of which header and footer errors", "196", "80 pages", "43 pages", "Halved"],
+["Tags: text rules (running head, page number, catch-word)", "205", "126 pages wrong, 19,476 letters", "102 pages, 18,682 letters", "50 pages better, none worse"],
+["of which header and footer errors", "205", "81 pages", "43 pages", "Halved"],
 ["Lines: Gemini flags bad lines", "196", "1,417 wrong lines", "flags 73% of them", "48% of flags are right"],
 ["Lines: join pieces on one baseline (geometry)", "200", "633 wrong lines (6.3%), 41 bad pages", "591 (5.9%), 36 pages", "Small gain, no reading needed"],
 ["Lines: join only pieces Gemini flagged", "200", "633, 41 pages", "633, 39 pages", "No gain"]
