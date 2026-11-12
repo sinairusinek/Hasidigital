@@ -1,0 +1,666 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<PcGts xmlns="http://schema.primaresearch.org/PAGE/gts/pagecontent/2013-07-15">
+    <Metadata>
+        <Creator>prov=READ-COOP:name=PyLaia@TranskribusPlatform:version=2.32.1:model_id=52805:lm=provided:date=26_09_2025_15:15</Creator>
+        <Created>2025-07-15T15:57:13.744104</Created>
+        <LastChange>2025-09-26T15:15:49.507+02:00</LastChange>
+        <TranskribusMetadata docId="9194455" pageId="99427619" pageNr="79" status="IN_PROGRESS" userId="103677" imgUrl="https://files.transkribus.eu/Get?id=TVOPDSTEEUKCDRGTUEYWFUEX&amp;fileType=view" imageId="83433062"/>
+    </Metadata>
+    <Page imageFilename="99427619.jpg" imageWidth="2479" imageHeight="3508">
+        <ReadingOrder>
+            <OrderedGroup id="ro_1758890609653" caption="Regions reading order">
+                <RegionRefIndexed index="0" regionRef="tr_1752587876"/>
+                <RegionRefIndexed index="1" regionRef="tr_1752587881"/>
+                <RegionRefIndexed index="2" regionRef="TextRegion_1756138587243_287"/>
+                <RegionRefIndexed index="3" regionRef="tr_1752587882"/>
+                <RegionRefIndexed index="4" regionRef="tr_1752587880"/>
+                <RegionRefIndexed index="5" regionRef="tr_1752587883"/>
+                <RegionRefIndexed index="6" regionRef="tr_1752587878"/>
+                <RegionRefIndexed index="7" regionRef="region_1756138851641_325"/>
+                <RegionRefIndexed index="8" regionRef="tr_1752587879"/>
+                <RegionRefIndexed index="9" regionRef="tr_1752587877"/>
+            </OrderedGroup>
+        </ReadingOrder>
+        <TextRegion id="tr_1752587876" custom="readingOrder {index:0;} structure {score:0.99; type:page-number;}">
+            <Coords points="297,86 400,86 400,195 297,195"/>
+            <TextEquiv>
+                <Unicode></Unicode>
+            </TextEquiv>
+        </TextRegion>
+        <TextRegion id="tr_1752587881" custom="readingOrder {index:1;} structure {score:0.99; type:page-number;}">
+            <Coords points="407,78 522,78 522,184 407,184"/>
+            <TextEquiv>
+                <Unicode></Unicode>
+            </TextEquiv>
+        </TextRegion>
+        <TextRegion id="TextRegion_1756138587243_287" custom="readingOrder {index:2;} structure {score:0.77; type:running-head;}">
+            <Coords points="817,85 994,85 1877,88 1877,216 1633,216 817,194"/>
+            <TextLine id="TextRegion_1756138587243_287_tl_1" custom="readingOrder {index:0;}">
+                <Coords points="1208,148 1247,173 1278,171 1289,159 1321,183 1382,182 1414,209 1444,206 1443,80 1406,55 1362,90 1261,84 1206,124"/>
+                <Baseline points="1215,155 1259,155 1304,158 1349,155 1394,155 1439,158 1447,158"/>
+                <TextEquiv>
+                    <Unicode>סיפורים</Unicode>
+                </TextEquiv>
+            </TextLine>
+            <TextLine id="TextRegion_1756138587243_287_tl_2" custom="readingOrder {index:1;}">
+                <Coords points="816,218 935,214 955,197 983,199 1034,183 1036,88 996,68 962,94 948,84 936,96 898,70 818,74"/>
+                <Baseline points="824,167 859,164 904,164 949,164 994,164 1038,164"/>
+                <TextEquiv>
+                    <Unicode>הטוב</Unicode>
+                </TextEquiv>
+            </TextLine>
+            <TextLine id="TextRegion_1756138587243_287_tl_3" custom="readingOrder {index:2;}">
+                <Coords points="1667,233 1692,234 1712,223 1726,231 1763,214 1818,214 1830,222 1853,215 1861,104 1814,97 1801,87 1767,97 1676,103"/>
+                <Baseline points="1677,185 1689,188 1725,170 1770,170 1815,170 1859,173"/>
+                <TextEquiv>
+                    <Unicode>שמן</Unicode>
+                </TextEquiv>
+            </TextLine>
+            <TextEquiv>
+                <Unicode></Unicode>
+            </TextEquiv>
+        </TextRegion>
+        <TextRegion id="tr_1752587882" custom="readingOrder {index:3;} structure {score:0.93; type:main-text;}">
+            <Coords points="1349,237 2365,233 2365,415 1349,419"/>
+            <TextLine id="tr_1752587882_tl_1" custom="readingOrder {index:0;}">
+                <Coords points="1357,316 2032,338 2103,306 2263,341 2340,329 2339,232 2221,271 2187,238 1892,267 1590,218 1355,243"/>
+                <Baseline points="1364,298 1409,295 1453,295 1498,295 1543,295 1588,295 1633,295 1677,298 1722,298 1767,298 1812,301 1857,301 1901,304 1946,304 1991,304 2036,304 2080,304 2125,301 2170,304 2215,307 2260,310 2304,307 2343,310"/>
+                <TextEquiv>
+                    <Unicode>מרן זקני המחבר. וזה נוסח הפס״ד כפי</Unicode>
+                </TextEquiv>
+            </TextLine>
+            <TextLine id="tr_1752587882_tl_2" custom="readingOrder {index:1;}">
+                <Coords points="1402,408 1614,418 1727,386 1791,419 2084,427 2271,399 2270,341 2131,327 1401,322"/>
+                <Baseline points="1409,367 1453,364 1498,370 1543,370 1588,370 1633,370 1677,370 1722,373 1767,373 1812,373 1857,376 1901,376 1946,379 1991,379 2036,379 2080,382 2125,379 2170,376 2215,379 2260,376 2274,376"/>
+                <TextEquiv>
+                    <Unicode>ההעתק מפנקס דק׳ רוטשעוואהל:</Unicode>
+                </TextEquiv>
+            </TextLine>
+            <TextEquiv>
+                <Unicode></Unicode>
+            </TextEquiv>
+        </TextRegion>
+        <TextRegion id="tr_1752587880" custom="readingOrder {index:4;} structure {score:0.99; type:main-text;}">
+            <Coords points="1331,434 2355,446 2360,3165 1339,3183"/>
+            <TextLine id="tr_1752587880_tl_1" custom="readingOrder {index:0;}">
+                <Coords points="1335,522 1956,552 2095,520 2309,581 2327,441 1970,474 1796,464 1753,425 1635,476 1332,460"/>
+                <Baseline points="1340,513 1385,510 1430,510 1474,510 1519,513 1564,513 1609,510 1653,513 1698,516 1743,516 1788,516 1833,516 1877,519 1922,519 1967,519 2012,522 2057,522 2101,519 2146,522 2191,525 2236,537 2280,540 2325,549 2334,549"/>
+                <TextEquiv>
+                    <Unicode>על דברי טו״ת שבאו לפנינו ב״ד המ״מ</Unicode>
+                </TextEquiv>
+            </TextLine>
+            <TextLine id="line_1758438310357_964" custom="readingOrder {index:1;}">
+                <Coords points="1340,600 2193,622 2179,544 1848,562 1681,525 1340,566"/>
+                <Baseline points="1347,599 2197,608"/>
+                <TextEquiv>
+                    <Unicode>ה״ה יעקב בן עטיל ואשתו בינה בת</Unicode>
+                </TextEquiv>
+            </TextLine>
+            <TextLine id="tr_1752587880_tl_2" custom="readingOrder {index:2;}">
+                <Coords points="1327,680 2339,679 2339,622 2286,613 1606,636 1531,604 1488,643 1436,600 1327,613"/>
+                <Baseline points="1334,662 1379,656 1424,656 1468,656 1513,656 1558,656 1603,656 1648,659 1692,662 1737,659 1782,662 1827,662 1871,662 1916,662 1961,665 2006,665 2051,665 2095,665 2140,668 2185,665 2230,665 2274,665 2319,665 2340,662"/>
+                <TextEquiv>
+                    <Unicode>חנה ושאלו ממנו למה נגרע הרי כמה</Unicode>
+                </TextEquiv>
+            </TextLine>
+            <TextLine id="tr_1752587880_tl_3" custom="readingOrder {index:3;}">
+                <Coords points="1327,735 1469,771 1707,741 2341,758 2340,678 2083,711 1599,670 1567,698 1488,665 1327,706"/>
+                <Baseline points="1334,734 1379,728 1424,728 1468,731 1513,731 1558,731 1603,731 1648,731 1692,731 1737,734 1782,731 1827,734 1871,734 1916,734 1961,734 2006,737 2051,737 2095,737 2140,737 2185,737 2230,737 2274,740 2319,740 2343,740"/>
+                <TextEquiv>
+                    <Unicode>שנים אנו דרים כדרך כל הארץ ואין לנו</Unicode>
+                </TextEquiv>
+            </TextLine>
+            <TextLine id="tr_1752587880_tl_4" custom="readingOrder {index:4;}">
+                <Coords points="1334,813 2330,842 2337,766 1332,762"/>
+                <Baseline points="1340,803 1385,800 1430,800 1474,800 1519,803 1564,803 1609,803 1653,806 1698,803 1743,806 1788,806 1833,806 1877,806 1922,809 1967,809 2012,806 2057,809 2101,809 2146,809 2191,809 2236,809 2280,809 2325,809 2340,812"/>
+                <TextEquiv>
+                    <Unicode>בנים חיים וקיימים לקיים המצוה פרו ורבו</Unicode>
+                </TextEquiv>
+            </TextLine>
+            <TextLine id="line_1758438319724_969" custom="readingOrder {index:5;}">
+                <Coords points="1337,888 2337,906 2336,842 2213,825 1337,832"/>
+                <Baseline points="1345,886 2339,898"/>
+                <TextEquiv>
+                    <Unicode>וכו׳ לא תהו בראה לשבת יצרה גם האשה</Unicode>
+                </TextEquiv>
+            </TextLine>
+            <TextLine id="line_1758438328169_974" custom="readingOrder {index:6;}">
+                <Coords points="1340,977 2336,969 2336,915 2265,898 1340,913"/>
+                <Baseline points="1347,963 2339,963"/>
+                <TextEquiv>
+                    <Unicode>היא ר״ל חולנית על כאב הלב ומיחוש הראש</Unicode>
+                </TextEquiv>
+            </TextLine>
+            <TextLine id="tr_1752587880_tl_5" custom="readingOrder {index:7;}">
+                <Coords points="1334,1048 2340,1047 2339,967 1985,1004 1830,968 1641,994 1399,966 1334,999"/>
+                <Baseline points="1340,1024 1385,1015 1430,1015 1474,1015 1519,1018 1564,1018 1609,1018 1653,1018 1698,1018 1743,1021 1788,1018 1833,1021 1877,1024 1922,1024 1967,1024 2012,1027 2057,1027 2101,1027 2146,1027 2191,1027 2236,1024 2280,1027 2325,1027 2343,1030"/>
+                <TextEquiv>
+                    <Unicode>וביקש מאתנו שנפסיק דינו ע״פ דתה״ק</Unicode>
+                </TextEquiv>
+            </TextLine>
+            <TextLine id="tr_1752587880_tl_6" custom="readingOrder {index:8;}">
+                <Coords points="1330,1097 2341,1121 2341,1061 2263,1044 2224,1075 2155,1033 2047,1075 1932,1039 1782,1070 1745,1036 1560,1081 1486,1039 1330,1041"/>
+                <Baseline points="1337,1092 1382,1089 1427,1089 1471,1092 1516,1092 1561,1092 1606,1092 1650,1089 1695,1089 1740,1089 1785,1089 1830,1092 1874,1092 1919,1092 1964,1092 2009,1092 2054,1095 2098,1098 2143,1095 2188,1098 2233,1095 2277,1098 2322,1098 2343,1101"/>
+                <TextEquiv>
+                    <Unicode>ויצא מאתנו ב״ד ע״פ דתה״ק שבוודאי</Unicode>
+                </TextEquiv>
+            </TextLine>
+            <TextLine id="tr_1752587880_tl_7" custom="readingOrder {index:9;}">
+                <Coords points="1330,1171 1751,1208 2337,1185 2337,1120 2300,1111 1330,1137"/>
+                <Baseline points="1337,1167 1382,1164 1427,1164 1471,1164 1516,1164 1561,1164 1606,1164 1650,1164 1695,1164 1740,1164 1785,1164 1830,1164 1874,1164 1919,1164 1964,1167 2009,1167 2054,1167 2098,1167 2143,1167 2188,1167 2233,1167 2277,1167 2322,1167 2340,1170"/>
+                <TextEquiv>
+                    <Unicode>הוא אמת מה שכתוב בתורתנו הקדושה מפי</Unicode>
+                </TextEquiv>
+            </TextLine>
+            <TextLine id="tr_1752587880_tl_8" custom="readingOrder {index:10;}">
+                <Coords points="1330,1239 1497,1275 1587,1242 1771,1276 2139,1244 2341,1270 2341,1192 2265,1178 1330,1208"/>
+                <Baseline points="1337,1236 1382,1236 1427,1236 1471,1236 1516,1236 1561,1236 1606,1236 1650,1236 1695,1236 1740,1238 1785,1238 1830,1236 1874,1236 1919,1238 1964,1238 2009,1238 2054,1238 2098,1238 2143,1238 2188,1241 2233,1241 2277,1241 2322,1241 2343,1238"/>
+                <TextEquiv>
+                    <Unicode>עליון לא תצא הרעות רק מחמת מקטריגים</Unicode>
+                </TextEquiv>
+            </TextLine>
+            <TextLine id="tr_1752587880_tl_9" custom="readingOrder {index:11;}">
+                <Coords points="1330,1315 1520,1348 2342,1329 2342,1270 2141,1246 1330,1276"/>
+                <Baseline points="1337,1307 1382,1310 1427,1310 1471,1310 1516,1313 1561,1310 1606,1310 1650,1307 1695,1307 1740,1310 1785,1310 1830,1310 1874,1313 1919,1313 1964,1313 2009,1310 2054,1310 2098,1310 2143,1310 2188,1310 2233,1310 2277,1307 2322,1310 2346,1307"/>
+                <TextEquiv>
+                    <Unicode>ר״ל והוא ידוע מה שכתבו אם יש דין למטה</Unicode>
+                </TextEquiv>
+            </TextLine>
+            <TextLine id="line_1758438414040_1019" custom="readingOrder {index:12;}">
+                <Coords points="1337,1401 1927,1396 2162,1433 2337,1409 2336,1331 1336,1344"/>
+                <Baseline points="1344,1391 2341,1399"/>
+                <TextEquiv>
+                    <Unicode>אין דין למעלה וידוע העושה מצוה אחת</Unicode>
+                </TextEquiv>
+            </TextLine>
+            <TextLine id="tr_1752587880_tl_10" custom="readingOrder {index:13;}">
+                <Coords points="1334,1471 1749,1489 1804,1453 1949,1492 2141,1457 2206,1498 2346,1464 2323,1405 2019,1434 1866,1399 1806,1433 1767,1402 1661,1432 1564,1395 1334,1411"/>
+                <Baseline points="1340,1453 1385,1453 1430,1453 1474,1456 1519,1453 1564,1453 1609,1456 1653,1453 1698,1453 1743,1456 1788,1453 1833,1456 1877,1456 1922,1456 1967,1453 2012,1453 2057,1456 2101,1453 2146,1453 2191,1456 2236,1456 2280,1456 2325,1456 2349,1456"/>
+                <TextEquiv>
+                    <Unicode>כתקנה וכו׳ ואין לך מצוה גדולה ממצות</Unicode>
+                </TextEquiv>
+            </TextLine>
+            <TextLine id="tr_1752587880_tl_11" custom="readingOrder {index:14;}">
+                <Coords points="1334,1554 1517,1526 2098,1558 2218,1527 2311,1558 2339,1479 1332,1471"/>
+                <Baseline points="1340,1528 1385,1525 1430,1525 1474,1528 1519,1525 1564,1525 1609,1525 1653,1528 1698,1528 1743,1528 1788,1528 1833,1525 1877,1528 1922,1528 1967,1528 2012,1525 2057,1528 2101,1528 2146,1528 2191,1525 2236,1528 2280,1528 2325,1528 2343,1531"/>
+                <TextEquiv>
+                    <Unicode>מילה למול את בנו בלי שום פני'. ע״כ</Unicode>
+                </TextEquiv>
+            </TextLine>
+            <TextLine id="tr_1752587880_tl_12" custom="readingOrder {index:15;}">
+                <Coords points="1330,1619 2335,1616 2335,1558 2276,1545 1958,1578 1657,1540 1500,1567 1446,1535 1330,1581"/>
+                <Baseline points="1337,1603 1352,1600 1397,1597 1442,1597 1486,1600 1531,1597 1576,1597 1621,1597 1665,1597 1710,1600 1755,1600 1800,1600 1845,1597 1889,1597 1934,1597 1979,1600 2024,1600 2068,1597 2113,1600 2158,1600 2203,1600 2248,1600 2292,1597 2337,1597"/>
+                <TextEquiv>
+                    <Unicode>יצא מאתנו ב״ד הח״מ לפס"ד לפי מאמר</Unicode>
+                </TextEquiv>
+            </TextLine>
+            <TextLine id="line_1758438474151_1049" custom="readingOrder {index:16;}">
+                <Coords points="1341,1683 1785,1681 1849,1712 1893,1683 2340,1689 2339,1611 2121,1643 1897,1610 1662,1641 1605,1606 1341,1637"/>
+                <Baseline points="1348,1679 2343,1685"/>
+                <TextEquiv>
+                    <Unicode>ר׳ אתא הנכנס להקין דם וכו׳ ורפואתך</Unicode>
+                </TextEquiv>
+            </TextLine>
+            <TextLine id="tr_1752587880_tl_13" custom="readingOrder {index:17;}">
+                <Coords points="1336,1767 2341,1764 2340,1704 2299,1684 1832,1714 1795,1684 1446,1689 1336,1721"/>
+                <Baseline points="1343,1743 1388,1740 1433,1740 1477,1740 1522,1740 1567,1743 1612,1740 1656,1740 1701,1740 1746,1740 1791,1740 1836,1740 1880,1743 1925,1743 1970,1743 2015,1743 2060,1743 2104,1740 2149,1743 2194,1743 2239,1743 2283,1743 2328,1743 2343,1743"/>
+                <TextEquiv>
+                    <Unicode>אמת וכו׳ אלא שנהגו וקיים וקיבל הנהגות</Unicode>
+                </TextEquiv>
+            </TextLine>
+            <TextLine id="tr_1752587880_tl_14" custom="readingOrder {index:18;}">
+                <Coords points="1334,1819 1387,1847 1773,1814 1897,1847 2340,1833 2318,1765 1334,1783"/>
+                <Baseline points="1340,1815 1385,1812 1430,1812 1474,1812 1519,1812 1564,1812 1609,1812 1653,1812 1698,1809 1743,1812 1788,1809 1833,1812 1877,1812 1922,1812 1967,1812 2012,1812 2057,1815 2101,1815 2146,1815 2191,1815 2236,1815 2280,1815 2325,1815 2343,1818"/>
+                <TextEquiv>
+                    <Unicode>הרפואה בכן הקב״ה בוודאי ישלח לה רפואה</Unicode>
+                </TextEquiv>
+            </TextLine>
+            <TextLine id="tr_1752587880_tl_15" custom="readingOrder {index:19;}">
+                <Coords points="1323,1890 2342,1911 2342,1842 2283,1829 1414,1838 1323,1869"/>
+                <Baseline points="1331,1889 1376,1886 1421,1886 1465,1886 1510,1886 1555,1883 1600,1886 1645,1886 1689,1886 1734,1883 1779,1883 1824,1883 1868,1886 1913,1883 1958,1883 2003,1886 2048,1883 2092,1886 2137,1886 2182,1886 2227,1886 2271,1889 2316,1889 2346,1889"/>
+                <TextEquiv>
+                    <Unicode>שלימה במהרה בקו הבריאות בשלימות ובשעה</Unicode>
+                </TextEquiv>
+            </TextLine>
+            <TextLine id="tr_1752587880_tl_16" custom="readingOrder {index:20;}">
+                <Coords points="1318,1974 2340,1967 2340,1914 2261,1908 1318,1920"/>
+                <Baseline points="1325,1961 1370,1958 1415,1955 1459,1955 1504,1955 1549,1955 1594,1958 1639,1958 1683,1958 1728,1955 1773,1958 1818,1958 1862,1955 1907,1958 1952,1958 1997,1958 2042,1958 2086,1958 2131,1958 2176,1958 2221,1958 2266,1961 2310,1958 2343,1961"/>
+                <TextEquiv>
+                    <Unicode>הזאת מיום דלמטה תלד בן זכר חי וקיים</Unicode>
+                </TextEquiv>
+            </TextLine>
+            <TextLine id="tr_1752587880_tl_17" custom="readingOrder {index:21;}">
+                <Coords points="1334,2047 1741,2035 1819,2074 2155,2030 2340,2049 2305,1978 2156,2009 2104,1974 1958,2000 1876,1970 1568,2010 1494,1967 1434,2001 1334,1979"/>
+                <Baseline points="1340,2027 1385,2030 1430,2030 1474,2033 1519,2033 1564,2033 1609,2030 1653,2030 1698,2030 1743,2030 1788,2030 1833,2030 1877,2030 1922,2030 1967,2030 2012,2030 2057,2030 2101,2030 2146,2030 2191,2033 2236,2033 2280,2030 2325,2033 2343,2033"/>
+                <TextEquiv>
+                    <Unicode>לתורה ולחופה ולמעשים טובים. ובצירוף</Unicode>
+                </TextEquiv>
+            </TextLine>
+            <TextLine id="tr_1752587880_tl_18" custom="readingOrder {index:22;}">
+                <Coords points="1334,2131 2332,2113 2332,2049 2173,2074 1918,2043 1834,2089 1670,2047 1334,2075"/>
+                <Baseline points="1340,2107 1385,2104 1430,2101 1474,2104 1519,2104 1564,2104 1609,2104 1653,2104 1698,2101 1743,2101 1788,2101 1833,2101 1877,2101 1922,2101 1967,2101 2012,2101 2057,2104 2101,2101 2146,2101 2191,2101 2236,2104 2280,2104 2325,2104 2334,2107"/>
+                <TextEquiv>
+                    <Unicode>רבינו הקדוש מו״ה שמואל שמעלקא בן</Unicode>
+                </TextEquiv>
+            </TextLine>
+            <TextLine id="tr_1752587880_tl_19" custom="readingOrder {index:23;}">
+                <Coords points="1334,2177 1425,2207 1569,2206 1620,2170 1862,2207 1937,2174 2033,2206 2206,2173 2334,2195 2318,2128 1819,2118 1779,2149 1730,2114 1334,2153"/>
+                <Baseline points="1340,2176 1385,2173 1430,2173 1474,2173 1519,2176 1564,2173 1609,2170 1653,2173 1698,2173 1743,2173 1788,2173 1833,2173 1877,2173 1922,2170 1967,2173 2012,2173 2057,2173 2101,2173 2146,2173 2191,2173 2236,2176 2280,2176 2325,2176 2337,2176"/>
+                <TextEquiv>
+                    <Unicode>מו״ר מו״ה צבי הירש זלה"ה לפי דעת</Unicode>
+                </TextEquiv>
+            </TextLine>
+            <TextLine id="tr_1752587880_tl_20" custom="readingOrder {index:24;}">
+                <Coords points="1343,2252 1443,2285 1581,2253 1681,2284 1745,2253 2328,2266 2328,2198 2209,2173 2122,2211 1973,2182 1343,2204"/>
+                <Baseline points="1349,2251 1391,2248 1436,2245 1480,2245 1525,2242 1570,2245 1615,2245 1659,2248 1704,2248 1749,2245 1794,2248 1839,2245 1883,2248 1928,2248 1973,2245 2018,2245 2063,2248 2107,2248 2152,2245 2197,2245 2242,2245 2286,2245 2331,2245"/>
+                <TextEquiv>
+                    <Unicode>ר׳ אחא ולפי דעת התנא הקדוש ר׳ עקיבא</Unicode>
+                </TextEquiv>
+            </TextLine>
+            <TextLine id="tr_1752587880_tl_21" custom="readingOrder {index:25;}">
+                <Coords points="1348,2335 1741,2331 1816,2364 1860,2337 2331,2339 2331,2280 2263,2255 2083,2288 1742,2256 1666,2289 1348,2289"/>
+                <Baseline points="1355,2319 1394,2316 1439,2316 1483,2319 1528,2319 1573,2319 1618,2319 1662,2319 1707,2319 1752,2319 1797,2319 1842,2319 1886,2319 1931,2319 1976,2316 2021,2316 2065,2316 2110,2319 2155,2319 2200,2319 2245,2319 2289,2316 2334,2313"/>
+                <TextEquiv>
+                    <Unicode>ז"ל חביבין ישראל שנקראו בנים למקום וכו'</Unicode>
+                </TextEquiv>
+            </TextLine>
+            <TextLine id="tr_1752587880_tl_22" custom="readingOrder {index:26;}">
+                <Coords points="1351,2410 2337,2411 2308,2336 2183,2363 1889,2337 1825,2367 1783,2335 1628,2337 1526,2370 1351,2336"/>
+                <Baseline points="1358,2382 1403,2385 1447,2388 1492,2391 1537,2391 1582,2391 1627,2391 1671,2391 1716,2388 1761,2391 1806,2391 1851,2391 1895,2388 1940,2388 1985,2388 2030,2391 2074,2388 2119,2391 2164,2391 2209,2391 2254,2391 2298,2391 2340,2391"/>
+                <TextEquiv>
+                    <Unicode>לקיים לא תהו בראה לשבת יצרה. ולראי'</Unicode>
+                </TextEquiv>
+            </TextLine>
+            <TextLine id="line_1758438571645_1094" custom="readingOrder {index:27;}">
+                <Coords points="1337,2507 1397,2476 2331,2485 2331,2415 1337,2418"/>
+                <Baseline points="1344,2476 2334,2478"/>
+                <TextEquiv>
+                    <Unicode>בתנו עה״ח יום ג׳ שנכפל בו כי טוב י״ג</Unicode>
+                </TextEquiv>
+            </TextLine>
+            <TextLine id="line_1758438583429_1099" custom="readingOrder {index:28;}">
+                <Coords points="1339,2577 2328,2564 2328,2495 2248,2483 1339,2507"/>
+                <Baseline points="1346,2561 2332,2549"/>
+                <TextEquiv>
+                    <Unicode>בחודש אייר שנת תקי״ד לאלף הששי לפ"ק.</Unicode>
+                </TextEquiv>
+            </TextLine>
+            <TextLine id="tr_1752587880_tl_23" custom="readingOrder {index:29;}">
+                <Coords points="1336,2629 2335,2640 2335,2558 1506,2560 1336,2604"/>
+                <Baseline points="1343,2615 1352,2612 1397,2612 1442,2612 1486,2609 1531,2609 1576,2606 1621,2606 1665,2606 1710,2606 1755,2606 1800,2606 1845,2606 1889,2606 1934,2606 1979,2606 2024,2606 2068,2606 2113,2606 2158,2606 2203,2606 2248,2609 2292,2606 2337,2606"/>
+                <TextEquiv>
+                    <Unicode>הק׳ יעקב בהישיש הרבני מו״ה ניסן הלוי שור.</Unicode>
+                </TextEquiv>
+            </TextLine>
+            <TextLine id="tr_1752587880_tl_24" custom="readingOrder {index:30;}">
+                <Coords points="1402,2690 2334,2699 2334,2644 2109,2619 1753,2626 1694,2657 1635,2623 1567,2651 1479,2621 1402,2675"/>
+                <Baseline points="1409,2683 1442,2683 1486,2681 1531,2678 1576,2678 1621,2678 1665,2678 1710,2678 1755,2678 1800,2675 1845,2675 1889,2678 1934,2678 1979,2678 2024,2681 2068,2681 2113,2678 2158,2678 2203,2681 2248,2678 2292,2678 2337,2681"/>
+                <TextEquiv>
+                    <Unicode>ונאום יצחק במהר״ר חיים כ״ץ זצ"ל.</Unicode>
+                </TextEquiv>
+            </TextLine>
+            <TextLine id="tr_1752587880_tl_25" custom="readingOrder {index:31;}">
+                <Coords points="1414,2773 2334,2778 2334,2703 2242,2695 2074,2717 1820,2686 1591,2721 1512,2693 1414,2728"/>
+                <Baseline points="1421,2755 1442,2755 1486,2752 1531,2749 1576,2749 1621,2749 1665,2749 1710,2746 1755,2749 1800,2749 1845,2749 1889,2749 1934,2746 1979,2749 2024,2752 2068,2749 2113,2752 2158,2749 2203,2752 2248,2752 2292,2752 2337,2752"/>
+                <TextEquiv>
+                    <Unicode>ונאום צבי במהר״ר מרדכי הכהן זצ״ל.</Unicode>
+                </TextEquiv>
+            </TextLine>
+            <TextLine id="tr_1752587880_tl_26" custom="readingOrder {index:32;}">
+                <Coords points="1334,2832 1992,2860 2190,2828 2342,2858 2342,2778 2276,2765 1334,2801"/>
+                <Baseline points="1340,2824 1385,2824 1430,2821 1474,2821 1519,2824 1564,2821 1609,2824 1653,2824 1698,2824 1743,2824 1788,2824 1833,2821 1877,2824 1922,2824 1967,2824 2012,2824 2057,2824 2101,2824 2146,2824 2191,2824 2236,2821 2280,2821 2325,2824 2346,2824"/>
+                <TextEquiv>
+                    <Unicode>ונאום משה בהרבני המופלג מו״ה מרדכי</Unicode>
+                </TextEquiv>
+            </TextLine>
+            <TextLine id="tr_1752587880_tl_27" custom="readingOrder {index:33;}">
+                <Coords points="1339,2933 1498,2898 1666,2936 1778,2902 2344,2909 2344,2860 2274,2839 2178,2871 1940,2838 1339,2867"/>
+                <Baseline points="1346,2901 1361,2895 1406,2892 1450,2895 1495,2895 1540,2895 1585,2895 1630,2895 1674,2895 1719,2895 1764,2895 1809,2895 1854,2895 1898,2895 1943,2895 1988,2895 2033,2895 2077,2895 2122,2895 2167,2895 2212,2892 2257,2892 2301,2892 2346,2895"/>
+                <TextEquiv>
+                    <Unicode>תלמיד מובהק של הרב הגאון הגדול הצדיק</Unicode>
+                </TextEquiv>
+            </TextLine>
+            <TextLine id="tr_1752587880_tl_28" custom="readingOrder {index:34;}">
+                <Coords points="1334,2969 1590,3006 1661,2970 2134,3002 2178,2964 2339,3006 2339,2916 1334,2930"/>
+                <Baseline points="1340,2967 1385,2964 1430,2967 1474,2967 1519,2967 1564,2970 1609,2970 1653,2967 1698,2967 1743,2967 1788,2964 1833,2967 1877,2967 1922,2967 1967,2964 2012,2967 2057,2967 2101,2967 2146,2964 2191,2964 2236,2964 2280,2964 2325,2967 2340,2967"/>
+                <TextEquiv>
+                    <Unicode>החסיד בוצינא קדישא איש אלקים מוה״ר</Unicode>
+                </TextEquiv>
+            </TextLine>
+            <TextLine id="line_1758438609446_1109" custom="readingOrder {index:35;}">
+                <Coords points="1344,3077 1758,3047 2342,3081 2342,2997 2179,2965 2134,3004 1979,2978 1889,3035 1807,2981 1662,2972 1526,3016 1344,2981"/>
+                <Baseline points="1351,3049 2344,3043"/>
+                <TextEquiv>
+                    <Unicode>שמואל שמעלקא הלוי איש הורוויץ</Unicode>
+                </TextEquiv>
+            </TextLine>
+            <TextLine id="tr_1752587880_tl_29" custom="readingOrder {index:36;}">
+                <Coords points="1667,3153 1763,3141 1792,3159 1809,3149 1851,3163 1875,3142 1904,3153 1932,3141 2018,3159 2018,3070 1969,3075 1875,3049 1846,3067 1805,3066 1763,3052 1709,3098 1667,3098"/>
+                <Baseline points="1674,3110 1719,3110 1764,3113 1809,3113 1854,3113 1898,3113 1943,3113 1988,3113 2021,3110"/>
+                <TextEquiv>
+                    <Unicode>מרוטשיוואל</Unicode>
+                </TextEquiv>
+            </TextLine>
+            <TextEquiv>
+                <Unicode></Unicode>
+            </TextEquiv>
+        </TextRegion>
+        <TextRegion id="tr_1752587883" custom="readingOrder {index:5;} structure {score:0.8; type:heading;}">
+            <Coords points="584,239 1027,239 1027,345 584,345"/>
+            <TextLine id="tr_1752587883_tl_1" custom="readingOrder {index:0;}">
+                <Coords points="581,278 605,276 704,329 814,304 857,336 994,334 994,239 855,232 828,214 805,233 680,214 581,256"/>
+                <Baseline points="588,301 632,298 677,298 722,298 767,298 812,298 856,298 901,298 946,298 991,301 997,301"/>
+                <TextEquiv>
+                    <Unicode>הפס״ד השני</Unicode>
+                </TextEquiv>
+            </TextLine>
+            <TextEquiv>
+                <Unicode></Unicode>
+            </TextEquiv>
+        </TextRegion>
+        <TextRegion id="tr_1752587878" custom="readingOrder {index:6;} structure {score:0.99; type:main-text;}">
+            <Coords points="281,372 1276,372 1279,2048 287,2040"/>
+            <TextLine id="tr_1752587878_tl_1" custom="readingOrder {index:0;}">
+                <Coords points="290,469 433,436 516,473 586,441 620,474 857,447 1072,508 1275,467 1272,354 671,385 289,338"/>
+                <Baseline points="298,438 343,435 388,435 432,435 477,435 522,435 567,435 612,438 656,438 701,438 746,438 791,438 835,438 880,438 925,438 970,438 1015,438 1059,456 1104,456 1149,453 1194,450 1238,447 1277,441"/>
+                <TextEquiv>
+                    <Unicode>לז) איך שהילד הנולד נחלה ונתנו פס"ד</Unicode>
+                </TextEquiv>
+            </TextLine>
+            <TextLine id="tr_1752587878_tl_2" custom="readingOrder {index:1;}">
+                <Coords points="279,530 338,549 439,518 559,545 620,518 841,517 1015,545 1029,475 851,481 706,448 619,473 585,445 431,488 346,459 278,474"/>
+                <Baseline points="286,510 331,507 376,507 420,507 465,507 510,510 555,510 600,507 644,510 689,510 734,510 779,513 824,510 868,513 913,513 958,513 1003,513 1032,513"/>
+                <TextEquiv>
+                    <Unicode>שצריך לשוב לבריאתו וזה נוסח</Unicode>
+                </TextEquiv>
+            </TextLine>
+            <TextLine id="line_1758438292521_954" custom="readingOrder {index:2;}">
+                <Coords points="281,597 1271,623 1271,539 1131,541 1088,578 982,532 281,536"/>
+                <Baseline points="289,597 1274,601"/>
+                <TextEquiv>
+                    <Unicode>הפס״ד. בא לפנינו ב״ד התורני מוה״ר</Unicode>
+                </TextEquiv>
+            </TextLine>
+            <TextLine id="line_1758438303189_959" custom="readingOrder {index:3;}">
+                <Coords points="288,679 1267,676 1266,620 1214,608 1044,638 934,599 743,624 287,599"/>
+                <Baseline points="295,670 1269,677"/>
+                <TextEquiv>
+                    <Unicode>יעקב בן עטיל אודות הילד שמואל יוסף</Unicode>
+                </TextEquiv>
+            </TextLine>
+            <TextLine id="line_1758438335545_979" custom="readingOrder {index:4;}">
+                <Coords points="288,743 1274,753 1274,695 1211,685 1145,707 1023,675 967,718 878,674 698,675 660,707 595,674 470,707 432,671 288,692"/>
+                <Baseline points="295,737 1276,738"/>
+                <TextEquiv>
+                    <Unicode>חיים הנולד מאשה בינה מחמת חולשתו</Unicode>
+                </TextEquiv>
+            </TextLine>
+            <TextLine id="line_1758438360365_994" custom="readingOrder {index:5;}">
+                <Coords points="284,827 1276,833 1276,753 1087,782 1053,753 283,744"/>
+                <Baseline points="291,809 1278,815"/>
+                <TextEquiv>
+                    <Unicode>ומחמת עין הרע ובוודאי מפי עליון לא</Unicode>
+                </TextEquiv>
+            </TextLine>
+            <TextLine id="line_1758438368414_999" custom="readingOrder {index:6;}">
+                <Coords points="287,904 1242,898 1271,833 285,827"/>
+                <Baseline points="293,878 1274,886"/>
+                <TextEquiv>
+                    <Unicode>תצא הרעות רק שמקטריגים עליו על כן</Unicode>
+                </TextEquiv>
+            </TextLine>
+            <TextLine id="line_1758438346220_984" custom="readingOrder {index:7;}">
+                <Coords points="284,955 385,982 469,957 518,992 568,958 648,988 685,959 1270,972 1270,911 1206,885 966,931 889,888 616,921 284,903"/>
+                <Baseline points="291,955 1273,963"/>
+                <TextEquiv>
+                    <Unicode>יצא הפס"ד מאתנו בצירוף רבינו הקדוש</Unicode>
+                </TextEquiv>
+            </TextLine>
+            <TextLine id="line_1758438377153_1004" custom="readingOrder {index:8;}">
+                <Coords points="281,1038 670,1030 725,1070 873,1032 1264,1041 1264,981 1153,964 1088,999 1006,960 641,990 568,957 499,1018 436,973 281,967"/>
+                <Baseline points="289,1028 1267,1034"/>
+                <TextEquiv>
+                    <Unicode>מוה״ר שמואל שמעלקא איש הורוויץ</Unicode>
+                </TextEquiv>
+            </TextLine>
+            <TextLine id="line_1758438353268_989" custom="readingOrder {index:9;}">
+                <Coords points="280,1113 1272,1117 1272,1051 1108,1033 899,1065 772,1039 723,1078 660,1034 604,1062 280,1047"/>
+                <Baseline points="287,1097 1276,1103"/>
+                <TextEquiv>
+                    <Unicode>כפדתוה״ק לפי הפסוק בתורה פוקד עון</Unicode>
+                </TextEquiv>
+            </TextLine>
+            <TextLine id="line_1758438384798_1009" custom="readingOrder {index:10;}">
+                <Coords points="288,1187 1269,1183 1267,1118 1070,1103 1041,1130 753,1131 704,1099 520,1136 287,1122"/>
+                <Baseline points="293,1168 1271,1176"/>
+                <TextEquiv>
+                    <Unicode>אבות על בנים הוא על דרך ועל אופן</Unicode>
+                </TextEquiv>
+            </TextLine>
+            <TextLine id="line_1758438405991_1014" custom="readingOrder {index:11;}">
+                <Coords points="281,1243 1267,1265 1252,1191 281,1200"/>
+                <Baseline points="288,1243 1269,1251"/>
+                <TextEquiv>
+                    <Unicode>זה שהוא יחי׳ כדי שיוכל לתקן כל עוונות</Unicode>
+                </TextEquiv>
+            </TextLine>
+            <TextLine id="line_1758438434018_1029" custom="readingOrder {index:12;}">
+                <Coords points="285,1323 1266,1345 1265,1266 1229,1252 864,1250 628,1297 522,1244 285,1244"/>
+                <Baseline points="292,1314 1267,1322"/>
+                <TextEquiv>
+                    <Unicode>של אביו כי ברא מזכה אבא ע״כ יצא</Unicode>
+                </TextEquiv>
+            </TextLine>
+            <TextLine id="line_1758438443701_1034" custom="readingOrder {index:13;}">
+                <Coords points="279,1387 780,1392 833,1424 925,1393 1271,1400 1271,1345 1190,1326 1145,1350 1053,1318 988,1353 777,1320 674,1357 279,1320"/>
+                <Baseline points="286,1385 1273,1397"/>
+                <TextEquiv>
+                    <Unicode>מאתנו ב״ד בצירוף רבינו הקדוש הנ״ל שי'</Unicode>
+                </TextEquiv>
+            </TextLine>
+            <TextLine id="line_1758438452468_1039" custom="readingOrder {index:14;}">
+                <Coords points="279,1457 1215,1486 1274,1478 1274,1414 920,1400 838,1430 787,1397 721,1423 278,1391"/>
+                <Baseline points="286,1456 1277,1470"/>
+                <TextEquiv>
+                    <Unicode>בטלים ומבוטלים כל הדינים מהילד הזה</Unicode>
+                </TextEquiv>
+            </TextLine>
+            <TextLine id="line_1758438465314_1044" custom="readingOrder {index:15;}">
+                <Coords points="279,1540 1267,1558 1266,1481 278,1475"/>
+                <Baseline points="286,1539 1271,1543"/>
+                <TextEquiv>
+                    <Unicode>שמואל יוסף חיים הנולד מאשה בינה הנ"ל</Unicode>
+                </TextEquiv>
+            </TextLine>
+            <TextLine id="line_1758438422155_1024" custom="readingOrder {index:16;}">
+                <Coords points="275,1610 1266,1632 1252,1555 275,1550"/>
+                <Baseline points="282,1608 1269,1614"/>
+                <TextEquiv>
+                    <Unicode>ובפרט שלא מצינו בכל הש"ס שראוי להיות</Unicode>
+                </TextEquiv>
+            </TextLine>
+            <TextLine id="line_1758438483148_1054" custom="readingOrder {index:17;}">
+                <Coords points="274,1700 1270,1700 1269,1632 1027,1613 974,1648 885,1614 548,1652 478,1609 273,1629"/>
+                <Baseline points="280,1683 1273,1691"/>
+                <TextEquiv>
+                    <Unicode>קיטרוג על הילד כמוהו ע״כ יצא פסק</Unicode>
+                </TextEquiv>
+            </TextLine>
+            <TextLine id="line_1758438494163_1059" custom="readingOrder {index:18;}">
+                <Coords points="287,1750 1264,1768 1264,1709 285,1704"/>
+                <Baseline points="294,1748 1267,1760"/>
+                <TextEquiv>
+                    <Unicode>ב״ד מאתנו הח״מ בצירוף רבינו הקדוש ה״י</Unicode>
+                </TextEquiv>
+            </TextLine>
+            <TextLine id="line_1758438507229_1064" custom="readingOrder {index:19;}">
+                <Coords points="283,1825 1275,1844 1275,1781 1201,1771 992,1801 824,1760 736,1792 504,1765 450,1802 283,1749"/>
+                <Baseline points="290,1825 1277,1821"/>
+                <TextEquiv>
+                    <Unicode>שי׳ בטלים ומבוטלים כל הדינים מהילד</Unicode>
+                </TextEquiv>
+            </TextLine>
+            <TextLine id="line_1758438527833_1069" custom="readingOrder {index:20;}">
+                <Coords points="281,1899 1270,1918 1270,1843 1225,1839 281,1843"/>
+                <Baseline points="288,1899 1273,1907"/>
+                <TextEquiv>
+                    <Unicode>הזה שמואל יוסף חיים הנולד מאשה בינה</Unicode>
+                </TextEquiv>
+            </TextLine>
+            <TextLine id="line_1758438534333_1074" custom="readingOrder {index:21;}">
+                <Coords points="281,1978 1270,1978 1269,1920 1167,1907 280,1918"/>
+                <Baseline points="288,1964 1273,1976"/>
+                <TextEquiv>
+                    <Unicode>הנ״ל עד ארבעים יום בגזירות הב״ד מ״מ</Unicode>
+                </TextEquiv>
+            </TextLine>
+            <TextLine id="tr_1752587878_tl_3" custom="readingOrder {index:22;}">
+                <Coords points="410,2027 474,2056 721,2065 788,2033 980,2072 1022,2048 1134,2065 1122,1992 949,2000 908,1978 778,2010 499,1977 410,2000"/>
+                <Baseline points="417,2024 462,2024 507,2027 552,2030 597,2030 641,2033 686,2033 731,2033 776,2030 821,2033 865,2033 910,2033 955,2033 1000,2033 1044,2036 1089,2036 1134,2036 1137,2036"/>
+                <TextEquiv>
+                    <Unicode>ובצירוף רבינו הקדוש הנ״ל :</Unicode>
+                </TextEquiv>
+            </TextLine>
+            <TextEquiv>
+                <Unicode></Unicode>
+            </TextEquiv>
+        </TextRegion>
+        <TextRegion id="region_1756138851641_325" custom="readingOrder {index:7;} structure {type:main-text;}">
+            <Coords points="1289,2053 270,2053 270,2270 1289,2270"/>
+            <TextLine id="region_1756138851641_325_tl_1" custom="readingOrder {index:0;}">
+                <Coords points="381,2122 1285,2126 1285,2070 1232,2043 968,2076 431,2048 381,2077"/>
+                <Baseline points="388,2104 432,2101 477,2101 522,2101 567,2101 612,2101 656,2104 701,2101 746,2101 791,2104 835,2104 880,2104 925,2107 970,2107 1015,2107 1059,2104 1104,2104 1149,2107 1194,2107 1238,2107 1283,2110 1289,2110"/>
+                <TextEquiv>
+                    <Unicode>נאום יצחק במהו״ר חיים כ״ץ זצ"ל</Unicode>
+                </TextEquiv>
+            </TextLine>
+            <TextLine id="region_1756138851641_325_tl_2" custom="readingOrder {index:1;}">
+                <Coords points="273,2205 1280,2204 1280,2134 1182,2125 340,2111 273,2148"/>
+                <Baseline points="280,2176 325,2173 370,2173 414,2176 459,2176 504,2176 549,2176 594,2173 638,2176 683,2176 728,2176 773,2179 818,2179 862,2179 907,2179 952,2179 997,2179 1041,2182 1086,2182 1131,2179 1176,2179 1221,2179 1265,2182 1283,2179"/>
+                <TextEquiv>
+                    <Unicode>ונאום שלמה זלמן בהמנוח יעקב כ״ץ זצ״ל.</Unicode>
+                </TextEquiv>
+            </TextLine>
+            <TextLine id="region_1756138851641_325_tl_3" custom="readingOrder {index:2;}">
+                <Coords points="503,2244 776,2274 971,2251 1283,2266 1283,2207 1220,2201 1013,2201 960,2228 936,2206 605,2195 503,2230"/>
+                <Baseline points="510,2239 555,2242 600,2242 644,2245 689,2245 734,2248 779,2248 824,2248 868,2251 913,2251 958,2251 1003,2251 1047,2251 1092,2251 1137,2251 1182,2254 1227,2251 1271,2254 1286,2251"/>
+                <TextEquiv>
+                    <Unicode>ונאום מרדכי במ״ה חיים זצ״ל :</Unicode>
+                </TextEquiv>
+            </TextLine>
+            <TextEquiv>
+                <Unicode></Unicode>
+            </TextEquiv>
+        </TextRegion>
+        <TextRegion id="tr_1752587879" custom="readingOrder {index:8;} structure {score:0.99; type:main-text;}">
+            <Coords points="282,2270 1269,2270 1269,3288 282,3288"/>
+            <TextLine id="line_1758438562517_1089" custom="readingOrder {index:0;}">
+                <Coords points="276,2325 959,2337 1072,2384 1265,2344 1246,2263 1172,2290 1016,2261 960,2294 276,2275"/>
+                <Baseline points="284,2324 1268,2342"/>
+                <TextEquiv>
+                    <Unicode>לה) כתב בס׳ אמונת צדיקים אות ע״ז</Unicode>
+                </TextEquiv>
+            </TextLine>
+            <TextLine id="tr_1752587879_tl_1" custom="readingOrder {index:1;}">
+                <Coords points="276,2410 487,2423 656,2390 740,2415 773,2391 894,2423 944,2398 944,2365 848,2334 667,2331 476,2340 397,2373 335,2334 275,2341"/>
+                <Baseline points="283,2388 328,2385 373,2385 417,2385 462,2388 507,2388 552,2388 597,2388 641,2388 686,2388 731,2388 776,2391 821,2391 865,2391 910,2391 946,2388"/>
+                <TextEquiv>
+                    <Unicode>הגה״צ הרר״ש אבד״ק נ״ש</Unicode>
+                </TextEquiv>
+            </TextLine>
+            <TextLine id="line_1758438543111_1079" custom="readingOrder {index:2;}">
+                <Coords points="271,2483 1269,2486 1267,2400 1228,2395 912,2433 271,2426"/>
+                <Baseline points="278,2472 1270,2478"/>
+                <TextEquiv>
+                    <Unicode>כשנתקבל לאב״ד לעיר הנ״ל דרש בכל שבת</Unicode>
+                </TextEquiv>
+            </TextLine>
+            <TextLine id="line_1758438552637_1084" custom="readingOrder {index:3;}">
+                <Coords points="273,2544 1267,2550 1267,2485 273,2493"/>
+                <Baseline points="280,2543 1271,2549"/>
+                <TextEquiv>
+                    <Unicode>דרוש על חכמה אחת מהשבע חכמות. עד</Unicode>
+                </TextEquiv>
+            </TextLine>
+            <TextLine id="tr_1752587879_tl_2" custom="readingOrder {index:4;}">
+                <Coords points="276,2618 1275,2642 1258,2569 1052,2551 894,2587 703,2583 643,2546 276,2570"/>
+                <Baseline points="283,2606 328,2603 373,2606 417,2606 462,2606 507,2606 552,2606 597,2603 641,2606 686,2606 731,2609 776,2609 821,2609 865,2609 910,2606 955,2609 1000,2609 1044,2609 1089,2609 1134,2609 1179,2612 1224,2612 1268,2612 1277,2609"/>
+                <TextEquiv>
+                    <Unicode>שדרש על כל ז׳ חכמות. והי׳ פליאה גדולה</Unicode>
+                </TextEquiv>
+            </TextLine>
+            <TextLine id="tr_1752587879_tl_3" custom="readingOrder {index:5;}">
+                <Coords points="276,2704 1271,2698 1271,2646 1019,2625 968,2653 778,2630 722,2672 581,2620 276,2642"/>
+                <Baseline points="283,2675 328,2675 373,2675 417,2678 462,2678 507,2678 552,2678 597,2678 641,2681 686,2681 731,2681 776,2681 821,2681 865,2681 910,2681 955,2678 1000,2681 1044,2681 1089,2681 1134,2681 1179,2681 1224,2681 1268,2683 1274,2681"/>
+                <TextEquiv>
+                    <Unicode>בעיני העולם כי דימו בתחלה כי ידרוש</Unicode>
+                </TextEquiv>
+            </TextLine>
+            <TextLine id="tr_1752587879_tl_4" custom="readingOrder {index:6;}">
+                <Coords points="279,2774 1267,2773 1267,2716 1165,2699 964,2727 743,2690 683,2731 540,2691 471,2721 279,2699"/>
+                <Baseline points="286,2749 331,2746 376,2749 420,2749 465,2755 510,2752 555,2749 600,2752 644,2752 689,2752 734,2752 779,2752 824,2752 868,2752 913,2752 958,2752 1003,2752 1047,2752 1092,2752 1137,2752 1182,2752 1227,2755 1271,2755 1274,2752"/>
+                <TextEquiv>
+                    <Unicode>בעוצם כחו הק׳ במוסר ופלפול. ואח״ז</Unicode>
+                </TextEquiv>
+            </TextLine>
+            <TextLine id="line_1758438600398_1104" custom="readingOrder {index:7;}">
+                <Coords points="280,2848 1269,2835 1269,2779 1118,2759 280,2790"/>
+                <Baseline points="287,2832 1272,2834"/>
+                <TextEquiv>
+                    <Unicode>התחיל לדרוש במוסר השכל ובפלפול. ואמר</Unicode>
+                </TextEquiv>
+            </TextLine>
+            <TextLine id="line_1758438616911_1114" custom="readingOrder {index:8;}">
+                <Coords points="285,2935 409,2908 1270,2919 1270,2851 1131,2890 1070,2842 884,2838 827,2872 693,2835 284,2848"/>
+                <Baseline points="291,2907 1272,2915"/>
+                <TextEquiv>
+                    <Unicode>להם. אשר לפלא הי' לו תמיד ולא הבין</Unicode>
+                </TextEquiv>
+            </TextLine>
+            <TextLine id="line_1758438642625_1124" custom="readingOrder {index:9;}">
+                <Coords points="281,2984 1271,2983 1271,2922 1167,2913 281,2935"/>
+                <Baseline points="289,2984 1274,2982"/>
+                <TextEquiv>
+                    <Unicode>המקרא בקהלת (ז׳ ה) טוב לשמוע גערת</Unicode>
+                </TextEquiv>
+            </TextLine>
+            <TextLine id="line_1758438650926_1129" custom="readingOrder {index:10;}">
+                <Coords points="276,3056 1265,3065 1265,2988 276,3000"/>
+                <Baseline points="283,3055 1268,3055"/>
+                <TextEquiv>
+                    <Unicode>חכם מאיש שומע שיר כסילים דהול"ל משמוע</Unicode>
+                </TextEquiv>
+            </TextLine>
+            <TextLine id="line_1758438660796_1134" custom="readingOrder {index:11;}">
+                <Coords points="280,3125 1262,3141 1250,3062 280,3072"/>
+                <Baseline points="287,3124 1266,3124"/>
+                <TextEquiv>
+                    <Unicode>שיר כסילים. או מלשמוע שיר כסילים. אך</Unicode>
+                </TextEquiv>
+            </TextLine>
+            <TextLine id="line_1758438629109_1119" custom="readingOrder {index:12;}">
+                <Coords points="292,3193 1016,3223 1265,3196 1236,3137 957,3167 819,3125 292,3137"/>
+                <Baseline points="299,3193 1268,3193"/>
+                <TextEquiv>
+                    <Unicode>הפי׳ הוא כך. טוב לשמוע גערת חכם היינו</Unicode>
+                </TextEquiv>
+            </TextLine>
+            <TextLine id="tr_1752587879_tl_5" custom="readingOrder {index:13;}">
+                <Coords points="290,3282 410,3258 1271,3290 1271,3216 1206,3206 290,3214"/>
+                <Baseline points="298,3257 343,3254 388,3257 432,3257 477,3254 522,3254 567,3257 612,3257 656,3257 701,3257 746,3257 791,3257 835,3257 880,3257 925,3257 970,3257 1015,3260 1059,3260 1104,3257 1149,3257 1194,3257 1238,3257 1274,3260"/>
+                <TextEquiv>
+                    <Unicode>דברי מוסר השכל מה״ח. מאיש שומע שיר</Unicode>
+                </TextEquiv>
+            </TextLine>
+            <TextEquiv>
+                <Unicode></Unicode>
+            </TextEquiv>
+        </TextRegion>
+        <TextRegion id="tr_1752587877" custom="readingOrder {index:9;} structure {score:0.99; type:catch-word;}">
+            <Coords points="443,3276 616,3276 616,3342 443,3342"/>
+            <TextEquiv>
+                <Unicode></Unicode>
+            </TextEquiv>
+        </TextRegion>
+    </Page>
+</PcGts>

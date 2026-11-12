@@ -1,0 +1,347 @@
+<title>HTR Test</title>
+<meta name="claude:viewport-fit-sides" content="cover">
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Frank+Ruhl+Libre:wght@500;700&family=IBM+Plex+Sans:wght@400;600&family=IBM+Plex+Sans+Hebrew:wght@400;600&family=IBM+Plex+Mono:wght@400&display=swap">
+<style>
+/* Layout: one reading column; decisions first as framed cards, then a quiet per-book ledger. */
+:root {
+  --bg: #f3f4f1; --surface: #ffffff; --fg: #1f2421; --muted: #5d665f; --line: #d6dbd4;
+  --accent: #2f5d50; --check: #a6461d; --auto: #2f5d50; --note: #6b5a1e; --seen: #5d665f;
+  --tag-bg: #e8ece6; --shade: rgba(20, 24, 22, .92);
+  --display: "Frank Ruhl Libre", "IBM Plex Sans Hebrew", Georgia, serif;
+  --body: "IBM Plex Sans", "IBM Plex Sans Hebrew", system-ui, sans-serif;
+  --mono: "IBM Plex Mono", ui-monospace, Menlo, monospace;
+}
+@media (prefers-color-scheme: dark) { :root:not([data-theme="light"]) {
+  --bg: #161a18; --surface: #1e2320; --fg: #e7ebe6; --muted: #a3ada5; --line: #343b36;
+  --accent: #7fb8a4; --check: #e08a5f; --auto: #7fb8a4; --note: #d6bf6a; --seen: #a3ada5; --tag-bg: #29302c;
+  color-scheme: dark } }
+:root[data-theme="dark"] {
+  --bg: #161a18; --surface: #1e2320; --fg: #e7ebe6; --muted: #a3ada5; --line: #343b36;
+  --accent: #7fb8a4; --check: #e08a5f; --auto: #7fb8a4; --note: #d6bf6a; --seen: #a3ada5; --tag-bg: #29302c;
+  color-scheme: dark }
+body { background: var(--bg); color: var(--fg); font: 15px/1.55 var(--body); }
+.wrap { max-width: 860px; margin: 0 auto; padding-block: 28px 64px;
+  padding-left: max(16px, env(safe-area-inset-left, 0px)); padding-right: max(16px, env(safe-area-inset-right, 0px)); }
+h1 { font: 700 30px/1.15 var(--display); margin: 0 0 8px; text-wrap: balance; }
+h2 { font: 700 21px/1.2 var(--display); margin: 40px 0 6px; text-wrap: balance; }
+h3 { font: 600 16px/1.35 var(--body); margin: 0; }
+h3 [lang="he"] { font: 700 19px/1.2 var(--display); }
+.lede { color: var(--muted); max-width: 65ch; margin: 0; }
+.status { font-size: 13px; color: var(--muted); margin-top: 10px; }
+.meta { color: var(--muted); font: 400 12.5px var(--mono); }
+a { color: var(--accent); text-underline-offset: 2px; }
+a:focus-visible, input:focus-visible, textarea:focus-visible { outline: 2px solid var(--accent); outline-offset: 2px; }
+.stack { display: grid; gap: 14px; margin-top: 14px; }
+.issue { background: var(--surface); border: 1px solid var(--line); border-left: 4px solid var(--check); border-radius: 6px; padding: 16px 18px; display: grid; gap: 10px; min-width: 0; }
+.issue p, .book p { margin: 0; }
+header { display: flex; gap: 10px; align-items: baseline; flex-wrap: wrap; }
+header h3 { flex: 1 1 auto; min-width: 0; }
+.saved { font-size: 12px; color: var(--muted); }
+.links { font-size: 14px; }
+fieldset { border: 0; padding: 0; margin: 0; display: grid; gap: 6px; }
+legend { font-weight: 600; margin-bottom: 4px; padding: 0; }
+.opt { display: flex; gap: 8px; align-items: flex-start; cursor: pointer; }
+.opt input { margin-top: 4px; accent-color: var(--accent); }
+.lbl { font-size: 13px; color: var(--muted); }
+textarea { width: 100%; box-sizing: border-box; font: 14px/1.45 var(--body); color: var(--fg); background: var(--bg);
+  border: 1px solid var(--line); border-radius: 4px; padding: 8px 10px; resize: vertical; }
+.checks { display: flex; gap: 18px; flex-wrap: wrap; font-size: 14px; }
+.checks input { accent-color: var(--accent); }
+.tag { display: inline-block; font: 600 11px/1 var(--mono); letter-spacing: .06em; padding: 4px 6px; border-radius: 3px; background: var(--tag-bg); white-space: nowrap; }
+.tag.check { color: var(--check); } .tag.auto { color: var(--auto); } .tag.note { color: var(--note); } .tag.seen { color: var(--seen); }
+.legend { display: flex; gap: 14px; flex-wrap: wrap; font-size: 13px; color: var(--muted); margin-top: 10px; }
+.book { border-top: 1px solid var(--line); padding: 16px 0 4px; display: grid; gap: 8px; min-width: 0; }
+.book ul { list-style: none; margin: 0; padding: 0; display: grid; gap: 8px; }
+.book li { display: grid; grid-template-columns: 62px 1fr; gap: 10px; align-items: start; }
+.book li > div { min-width: 0; }
+.pages { font: 12.5px var(--mono); color: var(--muted); overflow-wrap: anywhere; }
+.pages a { margin-right: 4px; }
+.mine { font-size: 14px; color: var(--muted); }
+.gallery { display: flex; flex-wrap: wrap; gap: 10px; margin-top: 6px; }
+figure { margin: 0; display: grid; gap: 4px; justify-items: center; }
+.zoom { padding: 0; border: 1px solid var(--line); background: var(--tag-bg); cursor: zoom-in; border-radius: 3px; line-height: 0; }
+.zoom:focus-visible { outline: 2px solid var(--accent); outline-offset: 2px; }
+.thumb img { height: 150px; width: auto; display: block; }
+.big img { height: 260px; width: auto; display: block; }
+figcaption { font: 12px var(--mono); }
+.decided { color: var(--accent); font-weight: 600; }
+.viewer { position: fixed; inset: 0; z-index: 20; background: var(--shade); display: grid; grid-template-rows: auto 1fr;
+  padding: calc(10px + env(safe-area-inset-top, 0px)) max(16px, env(safe-area-inset-right, 0px)) calc(10px + env(safe-area-inset-bottom, 0px)) max(16px, env(safe-area-inset-left, 0px)); gap: 8px; }
+.viewer .bar { display: flex; gap: 14px; align-items: center; color: #fff; font-size: 14px; flex-wrap: wrap; }
+.viewer .bar a { color: #fff; }
+.viewer .bar span { flex: 1 1 auto; }
+.viewer button.close { font: 600 14px var(--body); padding: 6px 12px; border-radius: 4px; border: 1px solid #fff8; background: transparent; color: #fff; cursor: pointer; }
+.viewer .stage { overflow: auto; display: grid; place-items: start center; min-height: 0; }
+.viewer .stage img { max-width: 100%; height: auto; background: #fff; }
+.viewer .stage.full img { max-width: none; width: 1100px; }
+.sum { padding-left: 18px; display: grid; gap: 8px; max-width: 75ch; }
+.clean { columns: 2 260px; padding-left: 18px; margin: 10px 0 0; }
+.clean li { margin-bottom: 4px; break-inside: avoid; }
+@media (prefers-reduced-motion: reduce) { * { transition: none !important; } }
+
+.tw { overflow-x: auto; margin-top: 10px; }
+table { border-collapse: collapse; font-size: 14px; min-width: 560px; width: 100%; }
+th, td { text-align: left; padding: 7px 10px; border-bottom: 1px solid var(--line); vertical-align: top; }
+th { font-weight: 600; color: var(--muted); font-size: 12.5px; }
+td:not(:first-child), th:not(:first-child) { font-variant-numeric: tabular-nums; white-space: nowrap; }
+.prose p { margin: 10px 0 0; max-width: 70ch; } .prose ul { margin: 8px 0 0; padding-left: 20px; max-width: 70ch; } .prose li { margin: 4px 0; }
+.zoom img { width: 100%; height: auto; display: block; }
+.read { display: grid; grid-template-columns: max-content 1fr; gap: 4px 12px; margin: 0; font: 18px/1.5 "IBM Plex Sans Hebrew", var(--body); }
+.read dt { font: 600 12px var(--mono); color: var(--muted); padding-top: 4px; } .read dd { margin: 0; }
+mark { background: color-mix(in srgb, var(--check) 22%, transparent); color: inherit; border-radius: 2px; padding: 0 2px; }
+</style>
+<div class="wrap">
+  <h1>HTR Test</h1>
+  <div class="prose"><p>The overnight test: can a vision model read our books as well as the Transkribus model (52805), and can its reading help fix the tags and the lines? Everything is scored against the RA's corrected pages (FINAL) in set A, 209 pages from 13 books. No Transkribus credits were spent. Claude ran on the Max plan through <code>claude -p</code>; Gemini 3.8 Flash ran on the Google key.</p><p><b>In short.</b> Claude Opus reads almost as well as Transkribus: 1.6% of characters wrong, against 0.84%. Part of that gap is not real, because FINAL began as Transkribus output. Gemini Flash is much worse at 6.8%. The reading adds nothing to the tags that the picture alone does not give, with one exception: running heads, page numbers and catch-words. For those, comparing the text across consecutive pages halves the errors. It barely helps the lines.</p></div>
+  <p class="status" id="status">Connecting to saved answers…</p>
+  <h2>1. Reading: vision models against the Transkribus model</h2>
+  <div class="prose"><p>Each model got strips of ten printed lines, cut on the RA's own lines, and had to return the text line by line. Scores are the share of characters wrong after evening out quote marks, nikkud and spacing. "Letters only" also ignores punctuation. Each row is compared with Transkribus on exactly the same pages.</p></div>
+  <div class="tw"><table><thead><tr><th>Method</th><th>Pages</th><th>Characters wrong</th><th>Letters only</th><th>Transkribus, same pages</th><th>Pages over 5% (model / Transkribus)</th></tr></thead><tbody><tr><td>Claude Opus, on the RA&#x27;s lines</td><td>209</td><td>1.6%</td><td>1.7%</td><td>0.8%</td><td>2 / 0</td></tr><tr><td>Gemini 3.8 Flash, on the RA&#x27;s lines</td><td>204</td><td>6.8%</td><td>7.8%</td><td>0.9%</td><td>80 / 0</td></tr><tr><td>Gemini 2.5 Pro, on the RA&#x27;s lines</td><td>26</td><td>28.8%</td><td>34.1%</td><td>0.9%</td><td>22 / 0</td></tr><tr><td>Claude Opus, on our layout (one call: text + tags)</td><td>26</td><td>3.7%</td><td>3.5%</td><td>0.9%</td><td>5 / 0</td></tr><tr><td>Gemini 3.8 Flash, on our layout (one call: text + tags)</td><td>196</td><td>8.1%</td><td>8.8%</td><td>0.8%</td><td>109 / 0</td></tr></tbody></table></div>
+  <div class="prose"><p><b>The FINAL bias.</b> The RA started from the Transkribus text and corrected it. Wherever a Transkribus mistake was left in, FINAL agrees with Transkribus and counts against Claude. You can see this by book: on שבע רצון Transkribus scores 0.0% and on one volume of תורת הרמ"ל 0.1%. That only happens if the RA hardly changed anything. On the books where Transkribus has visible errors, Claude is level or better: עשר אורות 1.7% against 2.0%, בית ישראל 1.3% against 1.6%, ספורי אנשי שם 1.1% against 1.0%. Claude's weakest book is תורת הרמ"ל השלם, at 3.1% against 0.7%.</p><p><b>Gemini.</b> Gemini 3.8 Flash makes four times as many errors as Claude, and 80 of its 204 pages are over 5%. Gemini 2.5 Pro loses the line numbering and was dropped after 26 pages. There is no Gemini 3 Pro for text, only an image model.</p></div>
+  <h2>2. Who is right when Claude and the RA differ?</h2>
+  <div class="prose"><p>I took 20 random lines where Claude and FINAL disagree and looked at the print myself. My count: FINAL is wrong on 6 (lines 4, 6, 7, 12, 14 and 20), both are wrong on 3, Claude is wrong on 8, and 3 I could not settle. The type is small and semi-cursive, so please check my verdicts. Mark who is right; your answers are saved here and I will read them back. If FINAL is wrong on a third of these lines, Claude's true error rate is close to Transkribus's, and both are around 1%.</p></div>
+  <div class="stack"><article class="issue" id="l1"><header><span class="tag check">line 1</span><h3><span class="meta">doc 9194455 · p. 79 · line 12</span></h3>
+<a href="https://app.transkribus.org/collection/49371/doc/9194455/edit?pageNr=79" target="_blank" rel="noopener">Open in Transkribus</a><span class="saved" data-saved="line-1"></span></header>
+<button type="button" class="zoom" data-src="img/line01.jpg" data-link="https://app.transkribus.org/collection/49371/doc/9194455/edit?pageNr=79" data-cap="Line 1"><img loading="lazy" src="img/line01.jpg" alt="Printed line 1"></button>
+<dl class="read" dir="rtl" lang="he"><dt>RA</dt><dd>היא ר&quot;ל <mark>חולנית</mark> על כאב הלב ומיחוש הראש</dd><dt>Claude</dt><dd>היא ר&quot;ל <mark>תולנית</mark> על כאב הלב ומיחוש הראש</dd></dl>
+<p class="mine"><b>My reading:</b> Can&#x27;t tell: ח or ת in חולנית. The sense favours the RA (ח).</p>
+<fieldset><legend>Who is right?</legend><div class="checks">
+<label class="opt"><input type="radio" name="line-1-c" value="ra" data-id="line-1" data-field="who"><span>the RA</span></label><label class="opt"><input type="radio" name="line-1-c" value="claude" data-id="line-1" data-field="who"><span>Claude</span></label><label class="opt"><input type="radio" name="line-1-c" value="both" data-id="line-1" data-field="who"><span>both wrong</span></label><label class="opt"><input type="radio" name="line-1-c" value="unsure" data-id="line-1" data-field="who"><span>can't tell</span></label>
+</div></fieldset></article><article class="issue" id="l2"><header><span class="tag check">line 2</span><h3><span class="meta">doc 7125297 · p. 37 · line 13</span></h3>
+<a href="https://app.transkribus.org/collection/49371/doc/7125297/edit?pageNr=37" target="_blank" rel="noopener">Open in Transkribus</a><span class="saved" data-saved="line-2"></span></header>
+<button type="button" class="zoom" data-src="img/line02.jpg" data-link="https://app.transkribus.org/collection/49371/doc/7125297/edit?pageNr=37" data-cap="Line 2"><img loading="lazy" src="img/line02.jpg" alt="Printed line 2"></button>
+<dl class="read" dir="rtl" lang="he"><dt>RA</dt><dd>ובס&#x27; <mark>נ&quot;מ</mark> (בשביל התורה) וז&quot;ל והיה מעשה אצל הק&#x27; מרומנאב שבאו אצלו שני</dd><dt>Claude</dt><dd>ובס&#x27; <mark>כ&quot;מ</mark> (בשביל התורה) וז&quot;ל והיה מעשה אצל הק&#x27; מרומנאב שבאו אצלו שני</dd></dl>
+<p class="mine"><b>My reading:</b> Can&#x27;t tell: נ&quot;מ or כ&quot;מ; the first letter is damaged.</p>
+<fieldset><legend>Who is right?</legend><div class="checks">
+<label class="opt"><input type="radio" name="line-2-c" value="ra" data-id="line-2" data-field="who"><span>the RA</span></label><label class="opt"><input type="radio" name="line-2-c" value="claude" data-id="line-2" data-field="who"><span>Claude</span></label><label class="opt"><input type="radio" name="line-2-c" value="both" data-id="line-2" data-field="who"><span>both wrong</span></label><label class="opt"><input type="radio" name="line-2-c" value="unsure" data-id="line-2" data-field="who"><span>can't tell</span></label>
+</div></fieldset></article><article class="issue" id="l3"><header><span class="tag check">line 3</span><h3><span class="meta">doc 9194455 · p. 88 · line 79</span></h3>
+<a href="https://app.transkribus.org/collection/49371/doc/9194455/edit?pageNr=88" target="_blank" rel="noopener">Open in Transkribus</a><span class="saved" data-saved="line-3"></span></header>
+<button type="button" class="zoom" data-src="img/line03.jpg" data-link="https://app.transkribus.org/collection/49371/doc/9194455/edit?pageNr=88" data-cap="Line 3"><img loading="lazy" src="img/line03.jpg" alt="Printed line 3"></button>
+<dl class="read" dir="rtl" lang="he"><dt>RA</dt><dd>נה) אל <mark>אצילי</mark> בנ&quot;י הפרתמים</dd><dt>Claude</dt><dd>נה) אל <mark>אילי</mark> בנ&quot;י הפרתמים</dd></dl>
+<p class="mine"><b>My reading:</b> Claude dropped the צ: אצילי is right.</p>
+<fieldset><legend>Who is right?</legend><div class="checks">
+<label class="opt"><input type="radio" name="line-3-c" value="ra" data-id="line-3" data-field="who"><span>the RA</span></label><label class="opt"><input type="radio" name="line-3-c" value="claude" data-id="line-3" data-field="who"><span>Claude</span></label><label class="opt"><input type="radio" name="line-3-c" value="both" data-id="line-3" data-field="who"><span>both wrong</span></label><label class="opt"><input type="radio" name="line-3-c" value="unsure" data-id="line-3" data-field="who"><span>can't tell</span></label>
+</div></fieldset></article><article class="issue" id="l4"><header><span class="tag check">line 4</span><h3><span class="meta">doc 9194696 · p. 157 · line 9</span></h3>
+<a href="https://app.transkribus.org/collection/49371/doc/9194696/edit?pageNr=157" target="_blank" rel="noopener">Open in Transkribus</a><span class="saved" data-saved="line-4"></span></header>
+<button type="button" class="zoom" data-src="img/line04.jpg" data-link="https://app.transkribus.org/collection/49371/doc/9194696/edit?pageNr=157" data-cap="Line 4"><img loading="lazy" src="img/line04.jpg" alt="Printed line 4"></button>
+<dl class="read" dir="rtl" lang="he"><dt>RA</dt><dd>גבר. ונכנסתי <mark>בשלום</mark> ומבקש אני לצאת בשלום. איך בין אייך ליבע קינדר</dd><dt>Claude</dt><dd>גבר. ונכנסתי <mark>בשלום.</mark> ומבקש אני לצאת בשלום. איך בין אייך ליבע קינדר</dd></dl>
+<p class="mine"><b>My reading:</b> Claude is right: there is a full stop after בשלום. A Yiddish line, which the RA also tagged as a heading.</p>
+<fieldset><legend>Who is right?</legend><div class="checks">
+<label class="opt"><input type="radio" name="line-4-c" value="ra" data-id="line-4" data-field="who"><span>the RA</span></label><label class="opt"><input type="radio" name="line-4-c" value="claude" data-id="line-4" data-field="who"><span>Claude</span></label><label class="opt"><input type="radio" name="line-4-c" value="both" data-id="line-4" data-field="who"><span>both wrong</span></label><label class="opt"><input type="radio" name="line-4-c" value="unsure" data-id="line-4" data-field="who"><span>can't tell</span></label>
+</div></fieldset></article><article class="issue" id="l5"><header><span class="tag check">line 5</span><h3><span class="meta">doc 6705107 · p. 7 · line 7</span></h3>
+<a href="https://app.transkribus.org/collection/49371/doc/6705107/edit?pageNr=7" target="_blank" rel="noopener">Open in Transkribus</a><span class="saved" data-saved="line-5"></span></header>
+<button type="button" class="zoom" data-src="img/line05.jpg" data-link="https://app.transkribus.org/collection/49371/doc/6705107/edit?pageNr=7" data-cap="Line 5"><img loading="lazy" src="img/line05.jpg" alt="Printed line 5"></button>
+<dl class="read" dir="rtl" lang="he"><dt>RA</dt><dd>לשמוח תמיד במצוה שעושה ושעשה כבר כמאמר <mark>חז&quot;ל</mark> לא פסיק חוכא כולא</dd><dt>Claude</dt><dd>לשמוח תמיד במצוה שעושה ושעשה כבר כמאמר <mark>א&quot;ל</mark> לא פסיק חוכא כולא</dd></dl>
+<p class="mine"><b>My reading:</b> Claude misread חז&quot;ל as א&quot;ל.</p>
+<fieldset><legend>Who is right?</legend><div class="checks">
+<label class="opt"><input type="radio" name="line-5-c" value="ra" data-id="line-5" data-field="who"><span>the RA</span></label><label class="opt"><input type="radio" name="line-5-c" value="claude" data-id="line-5" data-field="who"><span>Claude</span></label><label class="opt"><input type="radio" name="line-5-c" value="both" data-id="line-5" data-field="who"><span>both wrong</span></label><label class="opt"><input type="radio" name="line-5-c" value="unsure" data-id="line-5" data-field="who"><span>can't tell</span></label>
+</div></fieldset></article><article class="issue" id="l6"><header><span class="tag check">line 6</span><h3><span class="meta">doc 6705107 · p. 7 · line 22</span></h3>
+<a href="https://app.transkribus.org/collection/49371/doc/6705107/edit?pageNr=7" target="_blank" rel="noopener">Open in Transkribus</a><span class="saved" data-saved="line-6"></span></header>
+<button type="button" class="zoom" data-src="img/line06.jpg" data-link="https://app.transkribus.org/collection/49371/doc/6705107/edit?pageNr=7" data-cap="Line 6"><img loading="lazy" src="img/line06.jpg" alt="Printed line 6"></button>
+<dl class="read" dir="rtl" lang="he"><dt>RA</dt><dd>בזמן שבהמ&quot;ק קיים <mark>מבה</mark> מכפר <mark>יעכשיו שלחני</mark> של אדם מכפר וזה המאריך</dd><dt>Claude</dt><dd>בזמן שבהמ&quot;ק קיים <mark>מזבח</mark> מכפר <mark>עכשיו שלחנו</mark> של אדם מכפר וזה המאריך</dd></dl>
+<p class="mine"><b>My reading:</b> Claude is right: מזבח and שלחנו. FINAL kept Transkribus&#x27;s errors (מבה, יעכשיו, שלחני).</p>
+<fieldset><legend>Who is right?</legend><div class="checks">
+<label class="opt"><input type="radio" name="line-6-c" value="ra" data-id="line-6" data-field="who"><span>the RA</span></label><label class="opt"><input type="radio" name="line-6-c" value="claude" data-id="line-6" data-field="who"><span>Claude</span></label><label class="opt"><input type="radio" name="line-6-c" value="both" data-id="line-6" data-field="who"><span>both wrong</span></label><label class="opt"><input type="radio" name="line-6-c" value="unsure" data-id="line-6" data-field="who"><span>can't tell</span></label>
+</div></fieldset></article><article class="issue" id="l7"><header><span class="tag check">line 7</span><h3><span class="meta">doc 9568035 · p. 39 · line 26</span></h3>
+<a href="https://app.transkribus.org/collection/49371/doc/9568035/edit?pageNr=39" target="_blank" rel="noopener">Open in Transkribus</a><span class="saved" data-saved="line-7"></span></header>
+<button type="button" class="zoom" data-src="img/line07.jpg" data-link="https://app.transkribus.org/collection/49371/doc/9568035/edit?pageNr=39" data-cap="Line 7"><img loading="lazy" src="img/line07.jpg" alt="Printed line 7"></button>
+<dl class="read" dir="rtl" lang="he"><dt>RA</dt><dd>בקודש להיות שם כפעם בפעם וצוה אותו הגה&quot;ק מסאנז שיאמר <mark>תורה</mark></dd><dt>Claude</dt><dd>בקודש להיות שם כפעם בפעם וצוה אותו הגה&quot;ק מסאנז שיאמר <mark>תורה.</mark></dd></dl>
+<p class="mine"><b>My reading:</b> Claude is right: the full stop at the end of the line is printed.</p>
+<fieldset><legend>Who is right?</legend><div class="checks">
+<label class="opt"><input type="radio" name="line-7-c" value="ra" data-id="line-7" data-field="who"><span>the RA</span></label><label class="opt"><input type="radio" name="line-7-c" value="claude" data-id="line-7" data-field="who"><span>Claude</span></label><label class="opt"><input type="radio" name="line-7-c" value="both" data-id="line-7" data-field="who"><span>both wrong</span></label><label class="opt"><input type="radio" name="line-7-c" value="unsure" data-id="line-7" data-field="who"><span>can't tell</span></label>
+</div></fieldset></article><article class="issue" id="l8"><header><span class="tag check">line 8</span><h3><span class="meta">doc 9194695 · p. 8 · line 20</span></h3>
+<a href="https://app.transkribus.org/collection/49371/doc/9194695/edit?pageNr=8" target="_blank" rel="noopener">Open in Transkribus</a><span class="saved" data-saved="line-8"></span></header>
+<button type="button" class="zoom" data-src="img/line08.jpg" data-link="https://app.transkribus.org/collection/49371/doc/9194695/edit?pageNr=8" data-cap="Line 8"><img loading="lazy" src="img/line08.jpg" alt="Printed line 8"></button>
+<dl class="read" dir="rtl" lang="he"><dt>RA</dt><dd>מלאו בכסף מלא <mark>משכו</mark> וקחו לכם</dd><dt>Claude</dt><dd>מלאו בכסף מלא <mark>מעכו</mark> וקחו לכם</dd></dl>
+<p class="mine"><b>My reading:</b> Claude is wrong: משכו.</p>
+<fieldset><legend>Who is right?</legend><div class="checks">
+<label class="opt"><input type="radio" name="line-8-c" value="ra" data-id="line-8" data-field="who"><span>the RA</span></label><label class="opt"><input type="radio" name="line-8-c" value="claude" data-id="line-8" data-field="who"><span>Claude</span></label><label class="opt"><input type="radio" name="line-8-c" value="both" data-id="line-8" data-field="who"><span>both wrong</span></label><label class="opt"><input type="radio" name="line-8-c" value="unsure" data-id="line-8" data-field="who"><span>can't tell</span></label>
+</div></fieldset></article><article class="issue" id="l9"><header><span class="tag check">line 9</span><h3><span class="meta">doc 6705107 · p. 7 · line 38</span></h3>
+<a href="https://app.transkribus.org/collection/49371/doc/6705107/edit?pageNr=7" target="_blank" rel="noopener">Open in Transkribus</a><span class="saved" data-saved="line-9"></span></header>
+<button type="button" class="zoom" data-src="img/line09.jpg" data-link="https://app.transkribus.org/collection/49371/doc/6705107/edit?pageNr=7" data-cap="Line 9"><img loading="lazy" src="img/line09.jpg" alt="Printed line 9"></button>
+<dl class="read" dir="rtl" lang="he"><dt>RA</dt><dd>בפניו וכולו שלא בפניו, וקשה <mark>ויה</mark> בא <mark>ללמדנו</mark> הלא בפניו יש <mark>חכופה</mark> ושלא</dd><dt>Claude</dt><dd>בפניו וכולו שלא בפניו, וקשה <mark>מה</mark> בא <mark>לכלמדנו</mark> הלא בפניו יש <mark>חנופה</mark> ושלא</dd></dl>
+<p class="mine"><b>My reading:</b> Both wrong: FINAL has ויה and חכופה (should be מה and חנופה), and Claude has לכלמדנו.</p>
+<fieldset><legend>Who is right?</legend><div class="checks">
+<label class="opt"><input type="radio" name="line-9-c" value="ra" data-id="line-9" data-field="who"><span>the RA</span></label><label class="opt"><input type="radio" name="line-9-c" value="claude" data-id="line-9" data-field="who"><span>Claude</span></label><label class="opt"><input type="radio" name="line-9-c" value="both" data-id="line-9" data-field="who"><span>both wrong</span></label><label class="opt"><input type="radio" name="line-9-c" value="unsure" data-id="line-9" data-field="who"><span>can't tell</span></label>
+</div></fieldset></article><article class="issue" id="l10"><header><span class="tag check">line 10</span><h3><span class="meta">doc 9194455 · p. 88 · line 17</span></h3>
+<a href="https://app.transkribus.org/collection/49371/doc/9194455/edit?pageNr=88" target="_blank" rel="noopener">Open in Transkribus</a><span class="saved" data-saved="line-10"></span></header>
+<button type="button" class="zoom" data-src="img/line10.jpg" data-link="https://app.transkribus.org/collection/49371/doc/9194455/edit?pageNr=88" data-cap="Line 10"><img loading="lazy" src="img/line10.jpg" alt="Printed line 10"></button>
+<dl class="read" dir="rtl" lang="he"><dt>RA</dt><dd>יוסף משה אבד&quot;ק הנ&quot;ל <mark>בע&quot;ס</mark> מגיד משנה</dd><dt>Claude</dt><dd>יוסף משה אבד&quot;ק הנ&quot;ל <mark>בע&quot;ב</mark> מגיד משנה</dd></dl>
+<p class="mine"><b>My reading:</b> Can&#x27;t tell: בע&quot;ס or בע&quot;ב.</p>
+<fieldset><legend>Who is right?</legend><div class="checks">
+<label class="opt"><input type="radio" name="line-10-c" value="ra" data-id="line-10" data-field="who"><span>the RA</span></label><label class="opt"><input type="radio" name="line-10-c" value="claude" data-id="line-10" data-field="who"><span>Claude</span></label><label class="opt"><input type="radio" name="line-10-c" value="both" data-id="line-10" data-field="who"><span>both wrong</span></label><label class="opt"><input type="radio" name="line-10-c" value="unsure" data-id="line-10" data-field="who"><span>can't tell</span></label>
+</div></fieldset></article><article class="issue" id="l11"><header><span class="tag check">line 11</span><h3><span class="meta">doc 9194695 · p. 63 · line 16</span></h3>
+<a href="https://app.transkribus.org/collection/49371/doc/9194695/edit?pageNr=63" target="_blank" rel="noopener">Open in Transkribus</a><span class="saved" data-saved="line-11"></span></header>
+<button type="button" class="zoom" data-src="img/line11.jpg" data-link="https://app.transkribus.org/collection/49371/doc/9194695/edit?pageNr=63" data-cap="Line 11"><img loading="lazy" src="img/line11.jpg" alt="Printed line 11"></button>
+<dl class="read" dir="rtl" lang="he"><dt>RA</dt><dd>שלאשר אמי מורתי היתה בתולה באה בשנים לפני נישואיה [כי אמרה תמיד <mark>שרצונה</mark></dd><dt>Claude</dt><dd>שלאשר אמי מורתי היתה בתולה באה בשנים לפני נישואיה [כי אמרה תמיד <mark>שרוצה</mark></dd></dl>
+<p class="mine"><b>My reading:</b> Claude normalised the word: the print has שרצונה.</p>
+<fieldset><legend>Who is right?</legend><div class="checks">
+<label class="opt"><input type="radio" name="line-11-c" value="ra" data-id="line-11" data-field="who"><span>the RA</span></label><label class="opt"><input type="radio" name="line-11-c" value="claude" data-id="line-11" data-field="who"><span>Claude</span></label><label class="opt"><input type="radio" name="line-11-c" value="both" data-id="line-11" data-field="who"><span>both wrong</span></label><label class="opt"><input type="radio" name="line-11-c" value="unsure" data-id="line-11" data-field="who"><span>can't tell</span></label>
+</div></fieldset></article><article class="issue" id="l12"><header><span class="tag check">line 12</span><h3><span class="meta">doc 6705107 · p. 7 · line 14</span></h3>
+<a href="https://app.transkribus.org/collection/49371/doc/6705107/edit?pageNr=7" target="_blank" rel="noopener">Open in Transkribus</a><span class="saved" data-saved="line-12"></span></header>
+<button type="button" class="zoom" data-src="img/line12.jpg" data-link="https://app.transkribus.org/collection/49371/doc/6705107/edit?pageNr=7" data-cap="Line 12"><img loading="lazy" src="img/line12.jpg" alt="Printed line 12"></button>
+<dl class="read" dir="rtl" lang="he"><dt>RA</dt><dd>משמח את עצמו בשמחה של <mark>מביה. אז</mark> אם עוסק בתענוגים של <mark>עוה&quot;ז</mark> באכילה</dd><dt>Claude</dt><dd>משמח את עצמו בשמחה של <mark>מצוה, אזי</mark> אם עוסק בתענוגים של <mark>עוה&quot;ז,</mark> באכילה</dd></dl>
+<p class="mine"><b>My reading:</b> Claude is right: מצוה, אזי and the commas. FINAL has מביה.</p>
+<fieldset><legend>Who is right?</legend><div class="checks">
+<label class="opt"><input type="radio" name="line-12-c" value="ra" data-id="line-12" data-field="who"><span>the RA</span></label><label class="opt"><input type="radio" name="line-12-c" value="claude" data-id="line-12" data-field="who"><span>Claude</span></label><label class="opt"><input type="radio" name="line-12-c" value="both" data-id="line-12" data-field="who"><span>both wrong</span></label><label class="opt"><input type="radio" name="line-12-c" value="unsure" data-id="line-12" data-field="who"><span>can't tell</span></label>
+</div></fieldset></article><article class="issue" id="l13"><header><span class="tag check">line 13</span><h3><span class="meta">doc 9194635 · p. 4 · line 16</span></h3>
+<a href="https://app.transkribus.org/collection/49371/doc/9194635/edit?pageNr=4" target="_blank" rel="noopener">Open in Transkribus</a><span class="saved" data-saved="line-13"></span></header>
+<button type="button" class="zoom" data-src="img/line13.jpg" data-link="https://app.transkribus.org/collection/49371/doc/9194635/edit?pageNr=4" data-cap="Line 13"><img loading="lazy" src="img/line13.jpg" alt="Printed line 13"></button>
+<dl class="read" dir="rtl" lang="he"><dt>RA</dt><dd>נער <mark>וע&quot;כ</mark> קראו לו אח&quot;כ בשם שמיליק מאלציק וכו&#x27;) הי&#x27; קשור ודבוק מאד</dd><dt>Claude</dt><dd>נער <mark>ועי&quot;כ</mark> קראו לו אח&quot;כ בשם שמיליק מאלציק וכו&#x27;) הי&#x27; קשור ודבוק מאד</dd></dl>
+<p class="mine"><b>My reading:</b> Claude added a י: the print has וע&quot;כ.</p>
+<fieldset><legend>Who is right?</legend><div class="checks">
+<label class="opt"><input type="radio" name="line-13-c" value="ra" data-id="line-13" data-field="who"><span>the RA</span></label><label class="opt"><input type="radio" name="line-13-c" value="claude" data-id="line-13" data-field="who"><span>Claude</span></label><label class="opt"><input type="radio" name="line-13-c" value="both" data-id="line-13" data-field="who"><span>both wrong</span></label><label class="opt"><input type="radio" name="line-13-c" value="unsure" data-id="line-13" data-field="who"><span>can't tell</span></label>
+</div></fieldset></article><article class="issue" id="l14"><header><span class="tag check">line 14</span><h3><span class="meta">doc 7627111 · p. 13 · line 3</span></h3>
+<a href="https://app.transkribus.org/collection/49371/doc/7627111/edit?pageNr=13" target="_blank" rel="noopener">Open in Transkribus</a><span class="saved" data-saved="line-14"></span></header>
+<button type="button" class="zoom" data-src="img/line14.jpg" data-link="https://app.transkribus.org/collection/49371/doc/7627111/edit?pageNr=13" data-cap="Line 14"><img loading="lazy" src="img/line14.jpg" alt="Printed line 14"></button>
+<dl class="read" dir="rtl" lang="he"><dt>RA</dt><dd>ה&#x27; יבער היצה&quot;ר מקרבנו ולב <mark>טהור</mark> ברא לנו אלהינו, ותמהר</dd><dt>Claude</dt><dd>ה&#x27; יבער היצה&quot;ר מקרבנו ולב <mark>טהור,</mark> ברא לנו אלהינו, ותמהר</dd></dl>
+<p class="mine"><b>My reading:</b> Claude is right: there is a comma after טהור.</p>
+<fieldset><legend>Who is right?</legend><div class="checks">
+<label class="opt"><input type="radio" name="line-14-c" value="ra" data-id="line-14" data-field="who"><span>the RA</span></label><label class="opt"><input type="radio" name="line-14-c" value="claude" data-id="line-14" data-field="who"><span>Claude</span></label><label class="opt"><input type="radio" name="line-14-c" value="both" data-id="line-14" data-field="who"><span>both wrong</span></label><label class="opt"><input type="radio" name="line-14-c" value="unsure" data-id="line-14" data-field="who"><span>can't tell</span></label>
+</div></fieldset></article><article class="issue" id="l15"><header><span class="tag check">line 15</span><h3><span class="meta">doc 6577969 · p. 25 · line 35</span></h3>
+<a href="https://app.transkribus.org/collection/49371/doc/6577969/edit?pageNr=25" target="_blank" rel="noopener">Open in Transkribus</a><span class="saved" data-saved="line-15"></span></header>
+<button type="button" class="zoom" data-src="img/line15.jpg" data-link="https://app.transkribus.org/collection/49371/doc/6577969/edit?pageNr=25" data-cap="Line 15"><img loading="lazy" src="img/line15.jpg" alt="Printed line 15"></button>
+<dl class="read" dir="rtl" lang="he"><dt>RA</dt><dd>מזידיטשוב לנסוע שוב למעזיבוז בהזכירו התלהבת <mark>ותשוקת</mark> הה&quot;ק</dd><dt>Claude</dt><dd>מזידיטשוב לנסוע שוב למעזיבוז בהזכירו התלהבת <mark>והשוקת</mark> הה&quot;ק</dd></dl>
+<p class="mine"><b>My reading:</b> Claude misread ותשוקת as והשוקת.</p>
+<fieldset><legend>Who is right?</legend><div class="checks">
+<label class="opt"><input type="radio" name="line-15-c" value="ra" data-id="line-15" data-field="who"><span>the RA</span></label><label class="opt"><input type="radio" name="line-15-c" value="claude" data-id="line-15" data-field="who"><span>Claude</span></label><label class="opt"><input type="radio" name="line-15-c" value="both" data-id="line-15" data-field="who"><span>both wrong</span></label><label class="opt"><input type="radio" name="line-15-c" value="unsure" data-id="line-15" data-field="who"><span>can't tell</span></label>
+</div></fieldset></article><article class="issue" id="l16"><header><span class="tag check">line 16</span><h3><span class="meta">doc 6705107 · p. 7 · line 34</span></h3>
+<a href="https://app.transkribus.org/collection/49371/doc/6705107/edit?pageNr=7" target="_blank" rel="noopener">Open in Transkribus</a><span class="saved" data-saved="line-16"></span></header>
+<button type="button" class="zoom" data-src="img/line16.jpg" data-link="https://app.transkribus.org/collection/49371/doc/6705107/edit?pageNr=7" data-cap="Line 16"><img loading="lazy" src="img/line16.jpg" alt="Printed line 16"></button>
+<dl class="read" dir="rtl" lang="he"><dt>RA</dt><dd>הגשמיות שום קדושה <mark>כלל</mark> כי <mark>השחות</mark> כל בשר את דרכו על הארץ פירש כל מה</dd><dt>Claude</dt><dd>הגשמיות שום קדושה <mark>כנ&quot;ל</mark> כי <mark>השחית</mark> כל בשר את דרכו על הארץ פירש כל מה</dd></dl>
+<p class="mine"><b>My reading:</b> Both wrong: FINAL has השחות (Claude&#x27;s השחית is right), but Claude has כנ&quot;ל where the print has כלל.</p>
+<fieldset><legend>Who is right?</legend><div class="checks">
+<label class="opt"><input type="radio" name="line-16-c" value="ra" data-id="line-16" data-field="who"><span>the RA</span></label><label class="opt"><input type="radio" name="line-16-c" value="claude" data-id="line-16" data-field="who"><span>Claude</span></label><label class="opt"><input type="radio" name="line-16-c" value="both" data-id="line-16" data-field="who"><span>both wrong</span></label><label class="opt"><input type="radio" name="line-16-c" value="unsure" data-id="line-16" data-field="who"><span>can't tell</span></label>
+</div></fieldset></article><article class="issue" id="l17"><header><span class="tag check">line 17</span><h3><span class="meta">doc 9194535 · p. 131 · line 33</span></h3>
+<a href="https://app.transkribus.org/collection/49371/doc/9194535/edit?pageNr=131" target="_blank" rel="noopener">Open in Transkribus</a><span class="saved" data-saved="line-17"></span></header>
+<button type="button" class="zoom" data-src="img/line17.jpg" data-link="https://app.transkribus.org/collection/49371/doc/9194535/edit?pageNr=131" data-cap="Line 17"><img loading="lazy" src="img/line17.jpg" alt="Printed line 17"></button>
+<dl class="read" dir="rtl" lang="he"><dt>RA</dt><dd>במדרש <mark>שמואל</mark> שיסורים שבגופו יש בהם</dd><dt>Claude</dt><dd>במדרש <mark>שמוחל</mark> שיסורים שבגופו יש בהם</dd></dl>
+<p class="mine"><b>My reading:</b> Claude misread שמואל as שמוחל.</p>
+<fieldset><legend>Who is right?</legend><div class="checks">
+<label class="opt"><input type="radio" name="line-17-c" value="ra" data-id="line-17" data-field="who"><span>the RA</span></label><label class="opt"><input type="radio" name="line-17-c" value="claude" data-id="line-17" data-field="who"><span>Claude</span></label><label class="opt"><input type="radio" name="line-17-c" value="both" data-id="line-17" data-field="who"><span>both wrong</span></label><label class="opt"><input type="radio" name="line-17-c" value="unsure" data-id="line-17" data-field="who"><span>can't tell</span></label>
+</div></fieldset></article><article class="issue" id="l18"><header><span class="tag check">line 18</span><h3><span class="meta">doc 9194535 · p. 131 · line 15</span></h3>
+<a href="https://app.transkribus.org/collection/49371/doc/9194535/edit?pageNr=131" target="_blank" rel="noopener">Open in Transkribus</a><span class="saved" data-saved="line-18"></span></header>
+<button type="button" class="zoom" data-src="img/line18.jpg" data-link="https://app.transkribus.org/collection/49371/doc/9194535/edit?pageNr=131" data-cap="Line 18"><img loading="lazy" src="img/line18.jpg" alt="Printed line 18"></button>
+<dl class="read" dir="rtl" lang="he"><dt>RA</dt><dd>מלעוויא זי&quot;ע <mark>וע&quot;כ:</mark></dd><dt>Claude</dt><dd>מלעוויא זי&quot;ע <mark>ועי&quot;ב:</mark></dd></dl>
+<p class="mine"><b>My reading:</b> Both wrong: FINAL has וע&quot;כ, Claude has ועי&quot;ב, and neither matches the print exactly.</p>
+<fieldset><legend>Who is right?</legend><div class="checks">
+<label class="opt"><input type="radio" name="line-18-c" value="ra" data-id="line-18" data-field="who"><span>the RA</span></label><label class="opt"><input type="radio" name="line-18-c" value="claude" data-id="line-18" data-field="who"><span>Claude</span></label><label class="opt"><input type="radio" name="line-18-c" value="both" data-id="line-18" data-field="who"><span>both wrong</span></label><label class="opt"><input type="radio" name="line-18-c" value="unsure" data-id="line-18" data-field="who"><span>can't tell</span></label>
+</div></fieldset></article><article class="issue" id="l19"><header><span class="tag check">line 19</span><h3><span class="meta">doc 6705107 · p. 7 · line 20</span></h3>
+<a href="https://app.transkribus.org/collection/49371/doc/6705107/edit?pageNr=7" target="_blank" rel="noopener">Open in Transkribus</a><span class="saved" data-saved="line-19"></span></header>
+<button type="button" class="zoom" data-src="img/line19.jpg" data-link="https://app.transkribus.org/collection/49371/doc/6705107/edit?pageNr=7" data-cap="Line 19"><img loading="lazy" src="img/line19.jpg" alt="Printed line 19"></button>
+<dl class="read" dir="rtl" lang="he"><dt>RA</dt><dd>חטא ועון ח&quot;ו <mark>בהקללות,</mark> רק תחת אשר לא עבדת את ה&#x27; <mark>אלהיך</mark> בשמחה כי זה</dd><dt>Claude</dt><dd>חטא ועון ח&quot;ו <mark>בתקלות,</mark> רק תחת אשר לא עבדת את ה&#x27; <mark>אלקיך</mark> בשמחה כי זה</dd></dl>
+<p class="mine"><b>My reading:</b> Claude is wrong: בהקללות and אלהיך, as printed.</p>
+<fieldset><legend>Who is right?</legend><div class="checks">
+<label class="opt"><input type="radio" name="line-19-c" value="ra" data-id="line-19" data-field="who"><span>the RA</span></label><label class="opt"><input type="radio" name="line-19-c" value="claude" data-id="line-19" data-field="who"><span>Claude</span></label><label class="opt"><input type="radio" name="line-19-c" value="both" data-id="line-19" data-field="who"><span>both wrong</span></label><label class="opt"><input type="radio" name="line-19-c" value="unsure" data-id="line-19" data-field="who"><span>can't tell</span></label>
+</div></fieldset></article><article class="issue" id="l20"><header><span class="tag check">line 20</span><h3><span class="meta">doc 7627111 · p. 26 · line 10</span></h3>
+<a href="https://app.transkribus.org/collection/49371/doc/7627111/edit?pageNr=26" target="_blank" rel="noopener">Open in Transkribus</a><span class="saved" data-saved="line-20"></span></header>
+<button type="button" class="zoom" data-src="img/line20.jpg" data-link="https://app.transkribus.org/collection/49371/doc/7627111/edit?pageNr=26" data-cap="Line 20"><img loading="lazy" src="img/line20.jpg" alt="Printed line 20"></button>
+<dl class="read" dir="rtl" lang="he"><dt>RA</dt><dd>בך ויבכה הנער אנא אלך בעת הזה ואנכי ערום <mark>ועדיה</mark> חשופי</dd><dt>Claude</dt><dd>בך ויבכה הנער אנא אלך בעת הזה ואנכי ערום <mark>ועריה</mark> חשופי</dd></dl>
+<p class="mine"><b>My reading:</b> Claude is right: ועריה. FINAL has ועדיה.</p>
+<fieldset><legend>Who is right?</legend><div class="checks">
+<label class="opt"><input type="radio" name="line-20-c" value="ra" data-id="line-20" data-field="who"><span>the RA</span></label><label class="opt"><input type="radio" name="line-20-c" value="claude" data-id="line-20" data-field="who"><span>Claude</span></label><label class="opt"><input type="radio" name="line-20-c" value="both" data-id="line-20" data-field="who"><span>both wrong</span></label><label class="opt"><input type="radio" name="line-20-c" value="unsure" data-id="line-20" data-field="who"><span>can't tell</span></label>
+</div></fieldset></article></div>
+  <h2>3. Can the reading correct the tags and the lines?</h2>
+  <div class="prose"><p>Three ways the reading could help the layout. (a) In one call the model reads the lines on our layout and also returns the tags and a list of bad lines (cut, missing, merged). (b) Rules use the text across consecutive pages: a top line that recurs on other pages is a running head; a short top line that reads as a Hebrew numeral is a page number; a single word at the bottom that matches the next page's first word is a catch-word. (c) Lines the model calls "part of a line" are joined to their neighbour on the same baseline.</p></div>
+  <div class="tw"><table><thead><tr><th>Test</th><th>Pages</th><th>Ours before</th><th>After</th><th>What it means</th></tr></thead><tbody><tr><td>Tags: Claude, picture only (yesterday)</td><td>26*</td><td>21 pages wrong, 8,374 letters</td><td>7 pages, 2,687 letters</td><td>The baseline to beat</td></tr><tr><td>Tags: Claude, reading and tagging in one call</td><td>26*</td><td>21 pages, 8,374 letters</td><td>7 pages, 2,618 letters</td><td>No gain from the text</td></tr><tr><td>Tags: Gemini Flash, reading and tagging in one call</td><td>25*</td><td>20 pages, 6,914 letters</td><td>9 pages, 3,374 letters</td><td>Better than Gemini's picture-only run (5,080), still behind Claude</td></tr><tr><td>Tags: text rules (running head, page number, catch-word)</td><td>196</td><td>122 pages wrong, 18,121 letters</td><td>99 pages, 17,338 letters</td><td>49 pages better, none worse</td></tr><tr><td>of which header and footer errors</td><td>196</td><td>80 pages</td><td>43 pages</td><td>Halved</td></tr><tr><td>Lines: Gemini flags bad lines</td><td>196</td><td>1,417 wrong lines</td><td>flags 73% of them</td><td>48% of flags are right</td></tr><tr><td>Lines: join pieces on one baseline (geometry)</td><td>200</td><td>633 wrong lines (6.3%), 41 bad pages</td><td>591 (5.9%), 36 pages</td><td>Small gain, no reading needed</td></tr><tr><td>Lines: join only pieces Gemini flagged</td><td>200</td><td>633, 41 pages</td><td>633, 39 pages</td><td>No gain</td></tr></tbody></table></div>
+  <div class="prose"><p>* The 26 example pages are not typical: half were chosen as our worst. The text rules ran on top of our own tags, not on Claude's corrected tags, which so far exist for only 26 pages. Both will be applied together in the real run.</p><p>The flags find most bad lines but cannot fix them. A missing or merged line needs a new cut, not a new tag. They are useful as a pointer to the pages you should look at.</p></div>
+  <h2>4. What I would do next</h2>
+  <div class="prose"><p><ul><li><b>Reading.</b> Claude Opus is a real alternative to Transkribus HTR for these books. It costs nothing on Max, against about half a credit per page, but it is slower, about a minute per page. Before deciding, please settle the 20 lines above. If your verdicts match mine, I would run Claude and Transkribus side by side on one new book, compare where they differ, and look only at those lines.</li><li><b>Tags.</b> Production order: YOLO, Claude relabelling with a book note, then the text rules for running heads, page numbers and catch-words.</li><li><b>Lines.</b> The reading does not repair lines. The remaining 6% of wrong lines need either a Kraken model trained on our RA lines or the Transkribus line model. Training Kraken is the next experiment.</li><li>Still respected: no HTR on the new books, no Transkribus credits spent, nothing deleted.</li></ul></p></div>
+</div>
+<div class="viewer" id="viewer" hidden role="dialog" aria-modal="true" aria-label="Page image">
+  <div class="bar"><span id="vcap"></span><a id="vlink" href="#" target="_blank" rel="noopener">Open in Transkribus</a>
+    <button type="button" class="close" id="vfull">Actual size</button><button type="button" class="close" id="vclose">Close</button></div>
+  <div class="stage" id="vstage"><img id="vimg" alt=""></div>
+</div>
+
+<script>
+(function () {
+  const v = document.getElementById("viewer"), img = document.getElementById("vimg"), stage = document.getElementById("vstage");
+  let last = null;
+  function close() { v.hidden = true; img.src = ""; if (last) last.focus(); }
+  document.addEventListener("click", ev => {
+    const b = ev.target.closest(".zoom");
+    if (!b) return;
+    last = b; img.src = b.dataset.src; img.alt = b.dataset.cap;
+    document.getElementById("vcap").textContent = b.dataset.cap;
+    document.getElementById("vlink").href = b.dataset.link;
+    stage.classList.remove("full"); v.hidden = false; document.getElementById("vclose").focus();
+  });
+  document.getElementById("vclose").addEventListener("click", close);
+  document.getElementById("vfull").addEventListener("click", () => stage.classList.toggle("full"));
+  v.addEventListener("click", ev => { if (ev.target === v || ev.target === stage) close(); });
+  document.addEventListener("keydown", ev => { if (ev.key === "Escape" && !v.hidden) close(); });
+})();
+</script>
+
+<script>
+(function () {
+  const statusEl = document.getElementById("status");
+  const fields = Array.from(document.querySelectorAll("[data-id][data-field]"));
+  let db = null;
+  const state = {};          // id -> saved doc
+  const chains = {};         // id -> promise, one write at a time per doc
+  const timers = {};
+
+  function setStatus(t) { statusEl.textContent = t; }
+  function markSaved(id, text) {
+    const el = document.querySelector('[data-saved="' + id + '"]');
+    if (el) el.textContent = text;
+  }
+  function collect(id) {
+    const doc = {};
+    fields.filter(f => f.dataset.id === id).forEach(f => {
+      if (f.type === "radio") { if (f.checked) doc[f.dataset.field] = f.value; }
+      else if (f.type === "checkbox") doc[f.dataset.field] = f.checked;
+      else doc[f.dataset.field] = f.value;
+    });
+    return doc;
+  }
+  function apply(id, data) {
+    fields.filter(f => f.dataset.id === id).forEach(f => {
+      const v = data[f.dataset.field];
+      if (f.type === "radio") f.checked = v === f.value;
+      else if (f.type === "checkbox") f.checked = !!v;
+      else if (document.activeElement !== f) f.value = v || "";
+    });
+  }
+  function save(id) {
+    if (!db) { markSaved(id, "Not saved: answers can't be stored in this view"); return; }
+    const data = collect(id);
+    data.updatedAt = new Date().toISOString();
+    markSaved(id, "Saving…");
+    chains[id] = (chains[id] || Promise.resolve()).then(() =>
+      db.collection("answers").doc(id).set(data)
+        .then(() => { state[id] = data; markSaved(id, "Saved"); })
+        .catch(err => markSaved(id, "Not saved (" + (err && err.code || "error") + "). Try again."))
+    );
+  }
+  fields.forEach(f => {
+    if (f.tagName === "TEXTAREA") {
+      f.addEventListener("input", () => { clearTimeout(timers[f.dataset.id]); markSaved(f.dataset.id, "Editing…");
+        timers[f.dataset.id] = setTimeout(() => save(f.dataset.id), 900); });
+      f.addEventListener("blur", () => { if (timers[f.dataset.id]) { clearTimeout(timers[f.dataset.id]); timers[f.dataset.id] = null; save(f.dataset.id); } });
+    } else {
+      f.addEventListener("change", () => save(f.dataset.id));
+    }
+  });
+
+  const use = window.claude && window.claude.use;
+  if (!use) { setStatus("Answers can't be saved in this view. Open the page on claude.ai to answer."); return; }
+  use("db").then(d => {
+    if (!d) { setStatus("Answers can't be saved in this view. Open the page on claude.ai, signed in, to answer."); return; }
+    db = d;
+    const slow = setTimeout(() => setStatus("Saved answers can't be reached yet; what you type will be saved when the connection returns."), 10000);
+    d.collection("answers").onSnapshot(snap => {
+      if (!snap.metadata || !snap.metadata.fromCache) { clearTimeout(slow); setStatus("Answers save automatically."); }
+      snap.docs.forEach(doc => {
+        const data = doc.data();
+        state[doc.id] = data;
+        apply(doc.id, data);
+        if (data.updatedAt) markSaved(doc.id, "Saved " + new Date(data.updatedAt).toLocaleString());
+      });
+    }, err => { clearTimeout(slow); setStatus("Saved answers can't be loaded (" + (err && err.code || "error") + ")."); });
+  });
+})();
+</script>

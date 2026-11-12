@@ -40,8 +40,11 @@ def ask(prompt, images, model):
         from google.genai import types
         client = genai.Client()
         parts = [types.Part.from_bytes(data=Path(f).read_bytes(), mime_type="image/jpeg") for f in images]
-        for _ in range(3):
-            try: return client.models.generate_content(model=model, contents=parts + [prompt.replace("Read the image. ", "").replace("Read the images, then", "Then")]).text
+        for _ in range(5):
+            try:
+                t = client.models.generate_content(model=model, contents=parts + [prompt.replace("Read the image. ", "").replace("Read the images, then", "Then")]).text
+                if t: return t
+                err = "empty answer"  # Gemini sometimes returns no text; ask again
             except Exception as ex: err = ex
         raise RuntimeError(str(err)[:300])
     cmd = [CLAUDE, "-p", "--model", model, "--allowedTools", "Read", "--output-format", "text"]
