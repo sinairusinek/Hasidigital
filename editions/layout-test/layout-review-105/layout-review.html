@@ -1,0 +1,786 @@
+<title>Divrei Meir Layout</title>
+<meta name="claude:viewport-fit-sides" content="cover">
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Frank+Ruhl+Libre:wght@500;700&family=IBM+Plex+Sans:wght@400;600&family=IBM+Plex+Sans+Hebrew:wght@400;600&family=IBM+Plex+Mono:wght@400&display=swap">
+<style>
+/* Layout: one reading column; decisions first as framed cards, then a quiet per-book ledger. */
+:root {
+  --bg: #f3f4f1; --surface: #ffffff; --fg: #1f2421; --muted: #5d665f; --line: #d6dbd4;
+  --accent: #2f5d50; --check: #a6461d; --auto: #2f5d50; --note: #6b5a1e; --seen: #5d665f;
+  --tag-bg: #e8ece6; --shade: rgba(20, 24, 22, .92);
+  --display: "Frank Ruhl Libre", "IBM Plex Sans Hebrew", Georgia, serif;
+  --body: "IBM Plex Sans", "IBM Plex Sans Hebrew", system-ui, sans-serif;
+  --mono: "IBM Plex Mono", ui-monospace, Menlo, monospace;
+}
+@media (prefers-color-scheme: dark) { :root:not([data-theme="light"]) {
+  --bg: #161a18; --surface: #1e2320; --fg: #e7ebe6; --muted: #a3ada5; --line: #343b36;
+  --accent: #7fb8a4; --check: #e08a5f; --auto: #7fb8a4; --note: #d6bf6a; --seen: #a3ada5; --tag-bg: #29302c;
+  color-scheme: dark } }
+:root[data-theme="dark"] {
+  --bg: #161a18; --surface: #1e2320; --fg: #e7ebe6; --muted: #a3ada5; --line: #343b36;
+  --accent: #7fb8a4; --check: #e08a5f; --auto: #7fb8a4; --note: #d6bf6a; --seen: #a3ada5; --tag-bg: #29302c;
+  color-scheme: dark }
+body { background: var(--bg); color: var(--fg); font: 15px/1.55 var(--body); }
+.wrap { max-width: 860px; margin: 0 auto; padding-block: 28px 64px;
+  padding-left: max(16px, env(safe-area-inset-left, 0px)); padding-right: max(16px, env(safe-area-inset-right, 0px)); }
+h1 { font: 700 30px/1.15 var(--display); margin: 0 0 8px; text-wrap: balance; }
+h2 { font: 700 21px/1.2 var(--display); margin: 40px 0 6px; text-wrap: balance; }
+h3 { font: 600 16px/1.35 var(--body); margin: 0; }
+h3 [lang="he"] { font: 700 19px/1.2 var(--display); }
+.lede { color: var(--muted); max-width: 65ch; margin: 0; }
+.status { font-size: 13px; color: var(--muted); margin-top: 10px; }
+.meta { color: var(--muted); font: 400 12.5px var(--mono); }
+a { color: var(--accent); text-underline-offset: 2px; }
+a:focus-visible, input:focus-visible, textarea:focus-visible { outline: 2px solid var(--accent); outline-offset: 2px; }
+.stack { display: grid; gap: 14px; margin-top: 14px; }
+.issue { background: var(--surface); border: 1px solid var(--line); border-left: 4px solid var(--check); border-radius: 6px; padding: 16px 18px; display: grid; gap: 10px; min-width: 0; }
+.issue p, .book p { margin: 0; }
+header { display: flex; gap: 10px; align-items: baseline; flex-wrap: wrap; }
+header h3 { flex: 1 1 auto; min-width: 0; }
+.saved { font-size: 12px; color: var(--muted); }
+.links { font-size: 14px; }
+fieldset { border: 0; padding: 0; margin: 0; display: grid; gap: 6px; }
+legend { font-weight: 600; margin-bottom: 4px; padding: 0; }
+.opt { display: flex; gap: 8px; align-items: flex-start; cursor: pointer; }
+.opt input { margin-top: 4px; accent-color: var(--accent); }
+.lbl { font-size: 13px; color: var(--muted); }
+textarea { width: 100%; box-sizing: border-box; font: 14px/1.45 var(--body); color: var(--fg); background: var(--bg);
+  border: 1px solid var(--line); border-radius: 4px; padding: 8px 10px; resize: vertical; }
+.checks { display: flex; gap: 18px; flex-wrap: wrap; font-size: 14px; }
+.checks input { accent-color: var(--accent); }
+.tag { display: inline-block; font: 600 11px/1 var(--mono); letter-spacing: .06em; padding: 4px 6px; border-radius: 3px; background: var(--tag-bg); white-space: nowrap; }
+.tag.check { color: var(--check); } .tag.auto { color: var(--auto); } .tag.note { color: var(--note); } .tag.seen { color: var(--seen); }
+.legend { display: flex; gap: 14px; flex-wrap: wrap; font-size: 13px; color: var(--muted); margin-top: 10px; }
+.book { border-top: 1px solid var(--line); padding: 16px 0 4px; display: grid; gap: 8px; min-width: 0; }
+.book ul { list-style: none; margin: 0; padding: 0; display: grid; gap: 8px; }
+.book li { display: grid; grid-template-columns: 62px 1fr; gap: 10px; align-items: start; }
+.book li > div { min-width: 0; }
+.pages { font: 12.5px var(--mono); color: var(--muted); overflow-wrap: anywhere; }
+.pages a { margin-right: 4px; }
+.mine { font-size: 14px; color: var(--muted); }
+.gallery { display: flex; flex-wrap: wrap; gap: 10px; margin-top: 6px; }
+figure { margin: 0; display: grid; gap: 4px; justify-items: center; }
+.zoom { padding: 0; border: 1px solid var(--line); background: var(--tag-bg); cursor: zoom-in; border-radius: 3px; line-height: 0; }
+.zoom:focus-visible { outline: 2px solid var(--accent); outline-offset: 2px; }
+.thumb img { height: 150px; width: auto; display: block; }
+.big img { height: 260px; width: auto; display: block; }
+figcaption { font: 12px var(--mono); }
+.decided { color: var(--accent); font-weight: 600; }
+.viewer { position: fixed; inset: 0; z-index: 20; background: var(--shade); display: grid; grid-template-rows: auto 1fr;
+  padding: calc(10px + env(safe-area-inset-top, 0px)) max(16px, env(safe-area-inset-right, 0px)) calc(10px + env(safe-area-inset-bottom, 0px)) max(16px, env(safe-area-inset-left, 0px)); gap: 8px; }
+.viewer .bar { display: flex; gap: 14px; align-items: center; color: #fff; font-size: 14px; flex-wrap: wrap; }
+.viewer .bar a { color: #fff; }
+.viewer .bar span { flex: 1 1 auto; }
+.viewer button.close { font: 600 14px var(--body); padding: 6px 12px; border-radius: 4px; border: 1px solid #fff8; background: transparent; color: #fff; cursor: pointer; }
+.viewer .stage { overflow: auto; display: grid; place-items: start center; min-height: 0; }
+.viewer .stage img { max-width: 100%; height: auto; background: #fff; }
+.viewer .stage.full img { max-width: none; width: 1100px; }
+.sum { padding-left: 18px; display: grid; gap: 8px; max-width: 75ch; }
+.clean { columns: 2 260px; padding-left: 18px; margin: 10px 0 0; }
+.clean li { margin-bottom: 4px; break-inside: avoid; }
+@media (prefers-reduced-motion: reduce) { * { transition: none !important; } }
+.flags { margin: 0; padding-left: 18px; display: grid; gap: 2px; }
+.key { display: flex; flex-wrap: wrap; gap: 6px 16px; font-size: 13px; color: var(--muted); margin-top: 10px; }
+.key i { display: inline-block; width: 12px; height: 12px; border-radius: 2px; margin-right: 6px; vertical-align: -1px; }
+.big img { height: 420px; max-width: 100%; object-fit: contain; }
+</style>
+<div class="wrap">
+  <h1>Divrei Meir Layout</h1>
+  <p class="lede">The new local pipeline ran on this book without Transkribus: boxes from our trained detector, lines from the Kraken model fine-tuned on our corrected pages, tags corrected by Claude from the page images, then the reading order. Every page is shown; the number in each box's corner is its place in the reading order, and the list above each page gives the automatic flags (most pages have none). Mark each page fine or needing a fix. Answers save as you go, and I read them from here.</p>
+  <p class="status" id="status">Connecting to saved answers…</p>
+  <ul class="sum"><li><span dir="rtl" lang="he">דברי מאיר</span> (work 105): 14 of 54 pages flagged</li></ul>
+  <div class="key"><span><i style="background:rgb(60,140,60)"></i>main text</span><span><i style="background:rgb(220,90,40)"></i>heading</span><span><i style="background:rgb(20,100,180)"></i>running head</span><span><i style="background:rgb(160,40,170)"></i>page number</span><span><i style="background:rgb(200,150,20)"></i>catch-word</span><span><i style="background:rgb(200,40,40)"></i>footnote</span><span>Thin lines under the text: detected text lines.</span></div>
+  <h2>Every page</h2>
+  <div class="stack">
+<article class="issue" id="p20155243-1">
+<header><span class="tag check">p. 1</span><h3><span dir="rtl" lang="he">דברי מאיר</span> <span class="meta">doc 20155243</span></h3><span class="saved" data-saved="20155243-1"></span></header>
+<ul class="flags"><li>text outside every box (43 letters)</li><li>body-size print in a heading</li><li>tall heading</li></ul>
+<div class="gallery"><figure class="big"><button type="button" class="zoom" data-src="img/20155243_0001.jpg" data-link="https://app.transkribus.org/collection/49371/doc/20155243/edit?pageNr=1" data-cap="Image page 1" aria-label="Enlarge image page 1"><img loading="lazy" src="img/20155243_0001.jpg" alt="Image page 1 with its layout boxes"></button>
+<figcaption><a href="https://app.transkribus.org/collection/49371/doc/20155243/edit?pageNr=1" target="_blank" rel="noopener">Open p. 1 in Transkribus</a></figcaption></figure></div>
+<fieldset><legend>Is the layout right?</legend>
+<label class="opt"><input type="radio" name="20155243-1-choice" value="fine" data-id="20155243-1" data-field="choice"><span>Fine as it is</span></label>
+<label class="opt"><input type="radio" name="20155243-1-choice" value="fix" data-id="20155243-1" data-field="choice"><span>Needs fixing (say what in the note)</span></label></fieldset>
+<label class="lbl" for="20155243-1-note">Note</label>
+<textarea id="20155243-1-note" rows="2" data-id="20155243-1" data-field="note"></textarea>
+</article>
+<article class="issue" id="p20155243-2">
+<header><span class="tag check">p. 2</span><h3><span dir="rtl" lang="he">דברי מאיר</span> <span class="meta">doc 20155243</span></h3><span class="saved" data-saved="20155243-2"></span></header>
+<ul class="flags"><li>no flags</li></ul>
+<div class="gallery"><figure class="big"><button type="button" class="zoom" data-src="img/20155243_0002.jpg" data-link="https://app.transkribus.org/collection/49371/doc/20155243/edit?pageNr=2" data-cap="Image page 2" aria-label="Enlarge image page 2"><img loading="lazy" src="img/20155243_0002.jpg" alt="Image page 2 with its layout boxes"></button>
+<figcaption><a href="https://app.transkribus.org/collection/49371/doc/20155243/edit?pageNr=2" target="_blank" rel="noopener">Open p. 2 in Transkribus</a></figcaption></figure></div>
+<fieldset><legend>Is the layout right?</legend>
+<label class="opt"><input type="radio" name="20155243-2-choice" value="fine" data-id="20155243-2" data-field="choice"><span>Fine as it is</span></label>
+<label class="opt"><input type="radio" name="20155243-2-choice" value="fix" data-id="20155243-2" data-field="choice"><span>Needs fixing (say what in the note)</span></label></fieldset>
+<label class="lbl" for="20155243-2-note">Note</label>
+<textarea id="20155243-2-note" rows="2" data-id="20155243-2" data-field="note"></textarea>
+</article>
+<article class="issue" id="p20155243-3">
+<header><span class="tag check">p. 3</span><h3><span dir="rtl" lang="he">דברי מאיר</span> <span class="meta">doc 20155243</span></h3><span class="saved" data-saved="20155243-3"></span></header>
+<ul class="flags"><li>no flags</li></ul>
+<div class="gallery"><figure class="big"><button type="button" class="zoom" data-src="img/20155243_0003.jpg" data-link="https://app.transkribus.org/collection/49371/doc/20155243/edit?pageNr=3" data-cap="Image page 3" aria-label="Enlarge image page 3"><img loading="lazy" src="img/20155243_0003.jpg" alt="Image page 3 with its layout boxes"></button>
+<figcaption><a href="https://app.transkribus.org/collection/49371/doc/20155243/edit?pageNr=3" target="_blank" rel="noopener">Open p. 3 in Transkribus</a></figcaption></figure></div>
+<fieldset><legend>Is the layout right?</legend>
+<label class="opt"><input type="radio" name="20155243-3-choice" value="fine" data-id="20155243-3" data-field="choice"><span>Fine as it is</span></label>
+<label class="opt"><input type="radio" name="20155243-3-choice" value="fix" data-id="20155243-3" data-field="choice"><span>Needs fixing (say what in the note)</span></label></fieldset>
+<label class="lbl" for="20155243-3-note">Note</label>
+<textarea id="20155243-3-note" rows="2" data-id="20155243-3" data-field="note"></textarea>
+</article>
+<article class="issue" id="p20155243-4">
+<header><span class="tag check">p. 4</span><h3><span dir="rtl" lang="he">דברי מאיר</span> <span class="meta">doc 20155243</span></h3><span class="saved" data-saved="20155243-4"></span></header>
+<ul class="flags"><li>text outside every box (64 letters)</li><li>no catch-word</li></ul>
+<div class="gallery"><figure class="big"><button type="button" class="zoom" data-src="img/20155243_0004.jpg" data-link="https://app.transkribus.org/collection/49371/doc/20155243/edit?pageNr=4" data-cap="Image page 4" aria-label="Enlarge image page 4"><img loading="lazy" src="img/20155243_0004.jpg" alt="Image page 4 with its layout boxes"></button>
+<figcaption><a href="https://app.transkribus.org/collection/49371/doc/20155243/edit?pageNr=4" target="_blank" rel="noopener">Open p. 4 in Transkribus</a></figcaption></figure></div>
+<fieldset><legend>Is the layout right?</legend>
+<label class="opt"><input type="radio" name="20155243-4-choice" value="fine" data-id="20155243-4" data-field="choice"><span>Fine as it is</span></label>
+<label class="opt"><input type="radio" name="20155243-4-choice" value="fix" data-id="20155243-4" data-field="choice"><span>Needs fixing (say what in the note)</span></label></fieldset>
+<label class="lbl" for="20155243-4-note">Note</label>
+<textarea id="20155243-4-note" rows="2" data-id="20155243-4" data-field="note"></textarea>
+</article>
+<article class="issue" id="p20155243-5">
+<header><span class="tag check">p. 5</span><h3><span dir="rtl" lang="he">דברי מאיר</span> <span class="meta">doc 20155243</span></h3><span class="saved" data-saved="20155243-5"></span></header>
+<ul class="flags"><li>text outside every box (21 letters)</li><li>4 headings</li></ul>
+<div class="gallery"><figure class="big"><button type="button" class="zoom" data-src="img/20155243_0005.jpg" data-link="https://app.transkribus.org/collection/49371/doc/20155243/edit?pageNr=5" data-cap="Image page 5" aria-label="Enlarge image page 5"><img loading="lazy" src="img/20155243_0005.jpg" alt="Image page 5 with its layout boxes"></button>
+<figcaption><a href="https://app.transkribus.org/collection/49371/doc/20155243/edit?pageNr=5" target="_blank" rel="noopener">Open p. 5 in Transkribus</a></figcaption></figure></div>
+<fieldset><legend>Is the layout right?</legend>
+<label class="opt"><input type="radio" name="20155243-5-choice" value="fine" data-id="20155243-5" data-field="choice"><span>Fine as it is</span></label>
+<label class="opt"><input type="radio" name="20155243-5-choice" value="fix" data-id="20155243-5" data-field="choice"><span>Needs fixing (say what in the note)</span></label></fieldset>
+<label class="lbl" for="20155243-5-note">Note</label>
+<textarea id="20155243-5-note" rows="2" data-id="20155243-5" data-field="note"></textarea>
+</article>
+<article class="issue" id="p20155243-6">
+<header><span class="tag check">p. 6</span><h3><span dir="rtl" lang="he">דברי מאיר</span> <span class="meta">doc 20155243</span></h3><span class="saved" data-saved="20155243-6"></span></header>
+<ul class="flags"><li>no flags</li></ul>
+<div class="gallery"><figure class="big"><button type="button" class="zoom" data-src="img/20155243_0006.jpg" data-link="https://app.transkribus.org/collection/49371/doc/20155243/edit?pageNr=6" data-cap="Image page 6" aria-label="Enlarge image page 6"><img loading="lazy" src="img/20155243_0006.jpg" alt="Image page 6 with its layout boxes"></button>
+<figcaption><a href="https://app.transkribus.org/collection/49371/doc/20155243/edit?pageNr=6" target="_blank" rel="noopener">Open p. 6 in Transkribus</a></figcaption></figure></div>
+<fieldset><legend>Is the layout right?</legend>
+<label class="opt"><input type="radio" name="20155243-6-choice" value="fine" data-id="20155243-6" data-field="choice"><span>Fine as it is</span></label>
+<label class="opt"><input type="radio" name="20155243-6-choice" value="fix" data-id="20155243-6" data-field="choice"><span>Needs fixing (say what in the note)</span></label></fieldset>
+<label class="lbl" for="20155243-6-note">Note</label>
+<textarea id="20155243-6-note" rows="2" data-id="20155243-6" data-field="note"></textarea>
+</article>
+<article class="issue" id="p20155243-7">
+<header><span class="tag check">p. 7</span><h3><span dir="rtl" lang="he">דברי מאיר</span> <span class="meta">doc 20155243</span></h3><span class="saved" data-saved="20155243-7"></span></header>
+<ul class="flags"><li>no flags</li></ul>
+<div class="gallery"><figure class="big"><button type="button" class="zoom" data-src="img/20155243_0007.jpg" data-link="https://app.transkribus.org/collection/49371/doc/20155243/edit?pageNr=7" data-cap="Image page 7" aria-label="Enlarge image page 7"><img loading="lazy" src="img/20155243_0007.jpg" alt="Image page 7 with its layout boxes"></button>
+<figcaption><a href="https://app.transkribus.org/collection/49371/doc/20155243/edit?pageNr=7" target="_blank" rel="noopener">Open p. 7 in Transkribus</a></figcaption></figure></div>
+<fieldset><legend>Is the layout right?</legend>
+<label class="opt"><input type="radio" name="20155243-7-choice" value="fine" data-id="20155243-7" data-field="choice"><span>Fine as it is</span></label>
+<label class="opt"><input type="radio" name="20155243-7-choice" value="fix" data-id="20155243-7" data-field="choice"><span>Needs fixing (say what in the note)</span></label></fieldset>
+<label class="lbl" for="20155243-7-note">Note</label>
+<textarea id="20155243-7-note" rows="2" data-id="20155243-7" data-field="note"></textarea>
+</article>
+<article class="issue" id="p20155243-8">
+<header><span class="tag check">p. 8</span><h3><span dir="rtl" lang="he">דברי מאיר</span> <span class="meta">doc 20155243</span></h3><span class="saved" data-saved="20155243-8"></span></header>
+<ul class="flags"><li>no flags</li></ul>
+<div class="gallery"><figure class="big"><button type="button" class="zoom" data-src="img/20155243_0008.jpg" data-link="https://app.transkribus.org/collection/49371/doc/20155243/edit?pageNr=8" data-cap="Image page 8" aria-label="Enlarge image page 8"><img loading="lazy" src="img/20155243_0008.jpg" alt="Image page 8 with its layout boxes"></button>
+<figcaption><a href="https://app.transkribus.org/collection/49371/doc/20155243/edit?pageNr=8" target="_blank" rel="noopener">Open p. 8 in Transkribus</a></figcaption></figure></div>
+<fieldset><legend>Is the layout right?</legend>
+<label class="opt"><input type="radio" name="20155243-8-choice" value="fine" data-id="20155243-8" data-field="choice"><span>Fine as it is</span></label>
+<label class="opt"><input type="radio" name="20155243-8-choice" value="fix" data-id="20155243-8" data-field="choice"><span>Needs fixing (say what in the note)</span></label></fieldset>
+<label class="lbl" for="20155243-8-note">Note</label>
+<textarea id="20155243-8-note" rows="2" data-id="20155243-8" data-field="note"></textarea>
+</article>
+<article class="issue" id="p20155243-9">
+<header><span class="tag check">p. 9</span><h3><span dir="rtl" lang="he">דברי מאיר</span> <span class="meta">doc 20155243</span></h3><span class="saved" data-saved="20155243-9"></span></header>
+<ul class="flags"><li>no flags</li></ul>
+<div class="gallery"><figure class="big"><button type="button" class="zoom" data-src="img/20155243_0009.jpg" data-link="https://app.transkribus.org/collection/49371/doc/20155243/edit?pageNr=9" data-cap="Image page 9" aria-label="Enlarge image page 9"><img loading="lazy" src="img/20155243_0009.jpg" alt="Image page 9 with its layout boxes"></button>
+<figcaption><a href="https://app.transkribus.org/collection/49371/doc/20155243/edit?pageNr=9" target="_blank" rel="noopener">Open p. 9 in Transkribus</a></figcaption></figure></div>
+<fieldset><legend>Is the layout right?</legend>
+<label class="opt"><input type="radio" name="20155243-9-choice" value="fine" data-id="20155243-9" data-field="choice"><span>Fine as it is</span></label>
+<label class="opt"><input type="radio" name="20155243-9-choice" value="fix" data-id="20155243-9" data-field="choice"><span>Needs fixing (say what in the note)</span></label></fieldset>
+<label class="lbl" for="20155243-9-note">Note</label>
+<textarea id="20155243-9-note" rows="2" data-id="20155243-9" data-field="note"></textarea>
+</article>
+<article class="issue" id="p20155243-10">
+<header><span class="tag check">p. 10</span><h3><span dir="rtl" lang="he">דברי מאיר</span> <span class="meta">doc 20155243</span></h3><span class="saved" data-saved="20155243-10"></span></header>
+<ul class="flags"><li>no flags</li></ul>
+<div class="gallery"><figure class="big"><button type="button" class="zoom" data-src="img/20155243_0010.jpg" data-link="https://app.transkribus.org/collection/49371/doc/20155243/edit?pageNr=10" data-cap="Image page 10" aria-label="Enlarge image page 10"><img loading="lazy" src="img/20155243_0010.jpg" alt="Image page 10 with its layout boxes"></button>
+<figcaption><a href="https://app.transkribus.org/collection/49371/doc/20155243/edit?pageNr=10" target="_blank" rel="noopener">Open p. 10 in Transkribus</a></figcaption></figure></div>
+<fieldset><legend>Is the layout right?</legend>
+<label class="opt"><input type="radio" name="20155243-10-choice" value="fine" data-id="20155243-10" data-field="choice"><span>Fine as it is</span></label>
+<label class="opt"><input type="radio" name="20155243-10-choice" value="fix" data-id="20155243-10" data-field="choice"><span>Needs fixing (say what in the note)</span></label></fieldset>
+<label class="lbl" for="20155243-10-note">Note</label>
+<textarea id="20155243-10-note" rows="2" data-id="20155243-10" data-field="note"></textarea>
+</article>
+<article class="issue" id="p20155243-11">
+<header><span class="tag check">p. 11</span><h3><span dir="rtl" lang="he">דברי מאיר</span> <span class="meta">doc 20155243</span></h3><span class="saved" data-saved="20155243-11"></span></header>
+<ul class="flags"><li>no flags</li></ul>
+<div class="gallery"><figure class="big"><button type="button" class="zoom" data-src="img/20155243_0011.jpg" data-link="https://app.transkribus.org/collection/49371/doc/20155243/edit?pageNr=11" data-cap="Image page 11" aria-label="Enlarge image page 11"><img loading="lazy" src="img/20155243_0011.jpg" alt="Image page 11 with its layout boxes"></button>
+<figcaption><a href="https://app.transkribus.org/collection/49371/doc/20155243/edit?pageNr=11" target="_blank" rel="noopener">Open p. 11 in Transkribus</a></figcaption></figure></div>
+<fieldset><legend>Is the layout right?</legend>
+<label class="opt"><input type="radio" name="20155243-11-choice" value="fine" data-id="20155243-11" data-field="choice"><span>Fine as it is</span></label>
+<label class="opt"><input type="radio" name="20155243-11-choice" value="fix" data-id="20155243-11" data-field="choice"><span>Needs fixing (say what in the note)</span></label></fieldset>
+<label class="lbl" for="20155243-11-note">Note</label>
+<textarea id="20155243-11-note" rows="2" data-id="20155243-11" data-field="note"></textarea>
+</article>
+<article class="issue" id="p20155243-12">
+<header><span class="tag check">p. 12</span><h3><span dir="rtl" lang="he">דברי מאיר</span> <span class="meta">doc 20155243</span></h3><span class="saved" data-saved="20155243-12"></span></header>
+<ul class="flags"><li>no flags</li></ul>
+<div class="gallery"><figure class="big"><button type="button" class="zoom" data-src="img/20155243_0012.jpg" data-link="https://app.transkribus.org/collection/49371/doc/20155243/edit?pageNr=12" data-cap="Image page 12" aria-label="Enlarge image page 12"><img loading="lazy" src="img/20155243_0012.jpg" alt="Image page 12 with its layout boxes"></button>
+<figcaption><a href="https://app.transkribus.org/collection/49371/doc/20155243/edit?pageNr=12" target="_blank" rel="noopener">Open p. 12 in Transkribus</a></figcaption></figure></div>
+<fieldset><legend>Is the layout right?</legend>
+<label class="opt"><input type="radio" name="20155243-12-choice" value="fine" data-id="20155243-12" data-field="choice"><span>Fine as it is</span></label>
+<label class="opt"><input type="radio" name="20155243-12-choice" value="fix" data-id="20155243-12" data-field="choice"><span>Needs fixing (say what in the note)</span></label></fieldset>
+<label class="lbl" for="20155243-12-note">Note</label>
+<textarea id="20155243-12-note" rows="2" data-id="20155243-12" data-field="note"></textarea>
+</article>
+<article class="issue" id="p20155243-13">
+<header><span class="tag check">p. 13</span><h3><span dir="rtl" lang="he">דברי מאיר</span> <span class="meta">doc 20155243</span></h3><span class="saved" data-saved="20155243-13"></span></header>
+<ul class="flags"><li>text outside every box (25 letters)</li></ul>
+<div class="gallery"><figure class="big"><button type="button" class="zoom" data-src="img/20155243_0013.jpg" data-link="https://app.transkribus.org/collection/49371/doc/20155243/edit?pageNr=13" data-cap="Image page 13" aria-label="Enlarge image page 13"><img loading="lazy" src="img/20155243_0013.jpg" alt="Image page 13 with its layout boxes"></button>
+<figcaption><a href="https://app.transkribus.org/collection/49371/doc/20155243/edit?pageNr=13" target="_blank" rel="noopener">Open p. 13 in Transkribus</a></figcaption></figure></div>
+<fieldset><legend>Is the layout right?</legend>
+<label class="opt"><input type="radio" name="20155243-13-choice" value="fine" data-id="20155243-13" data-field="choice"><span>Fine as it is</span></label>
+<label class="opt"><input type="radio" name="20155243-13-choice" value="fix" data-id="20155243-13" data-field="choice"><span>Needs fixing (say what in the note)</span></label></fieldset>
+<label class="lbl" for="20155243-13-note">Note</label>
+<textarea id="20155243-13-note" rows="2" data-id="20155243-13" data-field="note"></textarea>
+</article>
+<article class="issue" id="p20155243-14">
+<header><span class="tag check">p. 14</span><h3><span dir="rtl" lang="he">דברי מאיר</span> <span class="meta">doc 20155243</span></h3><span class="saved" data-saved="20155243-14"></span></header>
+<ul class="flags"><li>no flags</li></ul>
+<div class="gallery"><figure class="big"><button type="button" class="zoom" data-src="img/20155243_0014.jpg" data-link="https://app.transkribus.org/collection/49371/doc/20155243/edit?pageNr=14" data-cap="Image page 14" aria-label="Enlarge image page 14"><img loading="lazy" src="img/20155243_0014.jpg" alt="Image page 14 with its layout boxes"></button>
+<figcaption><a href="https://app.transkribus.org/collection/49371/doc/20155243/edit?pageNr=14" target="_blank" rel="noopener">Open p. 14 in Transkribus</a></figcaption></figure></div>
+<fieldset><legend>Is the layout right?</legend>
+<label class="opt"><input type="radio" name="20155243-14-choice" value="fine" data-id="20155243-14" data-field="choice"><span>Fine as it is</span></label>
+<label class="opt"><input type="radio" name="20155243-14-choice" value="fix" data-id="20155243-14" data-field="choice"><span>Needs fixing (say what in the note)</span></label></fieldset>
+<label class="lbl" for="20155243-14-note">Note</label>
+<textarea id="20155243-14-note" rows="2" data-id="20155243-14" data-field="note"></textarea>
+</article>
+<article class="issue" id="p20155243-15">
+<header><span class="tag check">p. 15</span><h3><span dir="rtl" lang="he">דברי מאיר</span> <span class="meta">doc 20155243</span></h3><span class="saved" data-saved="20155243-15"></span></header>
+<ul class="flags"><li>no flags</li></ul>
+<div class="gallery"><figure class="big"><button type="button" class="zoom" data-src="img/20155243_0015.jpg" data-link="https://app.transkribus.org/collection/49371/doc/20155243/edit?pageNr=15" data-cap="Image page 15" aria-label="Enlarge image page 15"><img loading="lazy" src="img/20155243_0015.jpg" alt="Image page 15 with its layout boxes"></button>
+<figcaption><a href="https://app.transkribus.org/collection/49371/doc/20155243/edit?pageNr=15" target="_blank" rel="noopener">Open p. 15 in Transkribus</a></figcaption></figure></div>
+<fieldset><legend>Is the layout right?</legend>
+<label class="opt"><input type="radio" name="20155243-15-choice" value="fine" data-id="20155243-15" data-field="choice"><span>Fine as it is</span></label>
+<label class="opt"><input type="radio" name="20155243-15-choice" value="fix" data-id="20155243-15" data-field="choice"><span>Needs fixing (say what in the note)</span></label></fieldset>
+<label class="lbl" for="20155243-15-note">Note</label>
+<textarea id="20155243-15-note" rows="2" data-id="20155243-15" data-field="note"></textarea>
+</article>
+<article class="issue" id="p20155243-16">
+<header><span class="tag check">p. 16</span><h3><span dir="rtl" lang="he">דברי מאיר</span> <span class="meta">doc 20155243</span></h3><span class="saved" data-saved="20155243-16"></span></header>
+<ul class="flags"><li>no flags</li></ul>
+<div class="gallery"><figure class="big"><button type="button" class="zoom" data-src="img/20155243_0016.jpg" data-link="https://app.transkribus.org/collection/49371/doc/20155243/edit?pageNr=16" data-cap="Image page 16" aria-label="Enlarge image page 16"><img loading="lazy" src="img/20155243_0016.jpg" alt="Image page 16 with its layout boxes"></button>
+<figcaption><a href="https://app.transkribus.org/collection/49371/doc/20155243/edit?pageNr=16" target="_blank" rel="noopener">Open p. 16 in Transkribus</a></figcaption></figure></div>
+<fieldset><legend>Is the layout right?</legend>
+<label class="opt"><input type="radio" name="20155243-16-choice" value="fine" data-id="20155243-16" data-field="choice"><span>Fine as it is</span></label>
+<label class="opt"><input type="radio" name="20155243-16-choice" value="fix" data-id="20155243-16" data-field="choice"><span>Needs fixing (say what in the note)</span></label></fieldset>
+<label class="lbl" for="20155243-16-note">Note</label>
+<textarea id="20155243-16-note" rows="2" data-id="20155243-16" data-field="note"></textarea>
+</article>
+<article class="issue" id="p20155243-17">
+<header><span class="tag check">p. 17</span><h3><span dir="rtl" lang="he">דברי מאיר</span> <span class="meta">doc 20155243</span></h3><span class="saved" data-saved="20155243-17"></span></header>
+<ul class="flags"><li>no flags</li></ul>
+<div class="gallery"><figure class="big"><button type="button" class="zoom" data-src="img/20155243_0017.jpg" data-link="https://app.transkribus.org/collection/49371/doc/20155243/edit?pageNr=17" data-cap="Image page 17" aria-label="Enlarge image page 17"><img loading="lazy" src="img/20155243_0017.jpg" alt="Image page 17 with its layout boxes"></button>
+<figcaption><a href="https://app.transkribus.org/collection/49371/doc/20155243/edit?pageNr=17" target="_blank" rel="noopener">Open p. 17 in Transkribus</a></figcaption></figure></div>
+<fieldset><legend>Is the layout right?</legend>
+<label class="opt"><input type="radio" name="20155243-17-choice" value="fine" data-id="20155243-17" data-field="choice"><span>Fine as it is</span></label>
+<label class="opt"><input type="radio" name="20155243-17-choice" value="fix" data-id="20155243-17" data-field="choice"><span>Needs fixing (say what in the note)</span></label></fieldset>
+<label class="lbl" for="20155243-17-note">Note</label>
+<textarea id="20155243-17-note" rows="2" data-id="20155243-17" data-field="note"></textarea>
+</article>
+<article class="issue" id="p20155243-18">
+<header><span class="tag check">p. 18</span><h3><span dir="rtl" lang="he">דברי מאיר</span> <span class="meta">doc 20155243</span></h3><span class="saved" data-saved="20155243-18"></span></header>
+<ul class="flags"><li>line wider than its block</li></ul>
+<div class="gallery"><figure class="big"><button type="button" class="zoom" data-src="img/20155243_0018.jpg" data-link="https://app.transkribus.org/collection/49371/doc/20155243/edit?pageNr=18" data-cap="Image page 18" aria-label="Enlarge image page 18"><img loading="lazy" src="img/20155243_0018.jpg" alt="Image page 18 with its layout boxes"></button>
+<figcaption><a href="https://app.transkribus.org/collection/49371/doc/20155243/edit?pageNr=18" target="_blank" rel="noopener">Open p. 18 in Transkribus</a></figcaption></figure></div>
+<fieldset><legend>Is the layout right?</legend>
+<label class="opt"><input type="radio" name="20155243-18-choice" value="fine" data-id="20155243-18" data-field="choice"><span>Fine as it is</span></label>
+<label class="opt"><input type="radio" name="20155243-18-choice" value="fix" data-id="20155243-18" data-field="choice"><span>Needs fixing (say what in the note)</span></label></fieldset>
+<label class="lbl" for="20155243-18-note">Note</label>
+<textarea id="20155243-18-note" rows="2" data-id="20155243-18" data-field="note"></textarea>
+</article>
+<article class="issue" id="p20155243-19">
+<header><span class="tag check">p. 19</span><h3><span dir="rtl" lang="he">דברי מאיר</span> <span class="meta">doc 20155243</span></h3><span class="saved" data-saved="20155243-19"></span></header>
+<ul class="flags"><li>large print inside main text — a heading?</li></ul>
+<div class="gallery"><figure class="big"><button type="button" class="zoom" data-src="img/20155243_0019.jpg" data-link="https://app.transkribus.org/collection/49371/doc/20155243/edit?pageNr=19" data-cap="Image page 19" aria-label="Enlarge image page 19"><img loading="lazy" src="img/20155243_0019.jpg" alt="Image page 19 with its layout boxes"></button>
+<figcaption><a href="https://app.transkribus.org/collection/49371/doc/20155243/edit?pageNr=19" target="_blank" rel="noopener">Open p. 19 in Transkribus</a></figcaption></figure></div>
+<fieldset><legend>Is the layout right?</legend>
+<label class="opt"><input type="radio" name="20155243-19-choice" value="fine" data-id="20155243-19" data-field="choice"><span>Fine as it is</span></label>
+<label class="opt"><input type="radio" name="20155243-19-choice" value="fix" data-id="20155243-19" data-field="choice"><span>Needs fixing (say what in the note)</span></label></fieldset>
+<label class="lbl" for="20155243-19-note">Note</label>
+<textarea id="20155243-19-note" rows="2" data-id="20155243-19" data-field="note"></textarea>
+</article>
+<article class="issue" id="p20155243-20">
+<header><span class="tag check">p. 20</span><h3><span dir="rtl" lang="he">דברי מאיר</span> <span class="meta">doc 20155243</span></h3><span class="saved" data-saved="20155243-20"></span></header>
+<ul class="flags"><li>no flags</li></ul>
+<div class="gallery"><figure class="big"><button type="button" class="zoom" data-src="img/20155243_0020.jpg" data-link="https://app.transkribus.org/collection/49371/doc/20155243/edit?pageNr=20" data-cap="Image page 20" aria-label="Enlarge image page 20"><img loading="lazy" src="img/20155243_0020.jpg" alt="Image page 20 with its layout boxes"></button>
+<figcaption><a href="https://app.transkribus.org/collection/49371/doc/20155243/edit?pageNr=20" target="_blank" rel="noopener">Open p. 20 in Transkribus</a></figcaption></figure></div>
+<fieldset><legend>Is the layout right?</legend>
+<label class="opt"><input type="radio" name="20155243-20-choice" value="fine" data-id="20155243-20" data-field="choice"><span>Fine as it is</span></label>
+<label class="opt"><input type="radio" name="20155243-20-choice" value="fix" data-id="20155243-20" data-field="choice"><span>Needs fixing (say what in the note)</span></label></fieldset>
+<label class="lbl" for="20155243-20-note">Note</label>
+<textarea id="20155243-20-note" rows="2" data-id="20155243-20" data-field="note"></textarea>
+</article>
+<article class="issue" id="p20155243-21">
+<header><span class="tag check">p. 21</span><h3><span dir="rtl" lang="he">דברי מאיר</span> <span class="meta">doc 20155243</span></h3><span class="saved" data-saved="20155243-21"></span></header>
+<ul class="flags"><li>no flags</li></ul>
+<div class="gallery"><figure class="big"><button type="button" class="zoom" data-src="img/20155243_0021.jpg" data-link="https://app.transkribus.org/collection/49371/doc/20155243/edit?pageNr=21" data-cap="Image page 21" aria-label="Enlarge image page 21"><img loading="lazy" src="img/20155243_0021.jpg" alt="Image page 21 with its layout boxes"></button>
+<figcaption><a href="https://app.transkribus.org/collection/49371/doc/20155243/edit?pageNr=21" target="_blank" rel="noopener">Open p. 21 in Transkribus</a></figcaption></figure></div>
+<fieldset><legend>Is the layout right?</legend>
+<label class="opt"><input type="radio" name="20155243-21-choice" value="fine" data-id="20155243-21" data-field="choice"><span>Fine as it is</span></label>
+<label class="opt"><input type="radio" name="20155243-21-choice" value="fix" data-id="20155243-21" data-field="choice"><span>Needs fixing (say what in the note)</span></label></fieldset>
+<label class="lbl" for="20155243-21-note">Note</label>
+<textarea id="20155243-21-note" rows="2" data-id="20155243-21" data-field="note"></textarea>
+</article>
+<article class="issue" id="p20155243-22">
+<header><span class="tag check">p. 22</span><h3><span dir="rtl" lang="he">דברי מאיר</span> <span class="meta">doc 20155243</span></h3><span class="saved" data-saved="20155243-22"></span></header>
+<ul class="flags"><li>no flags</li></ul>
+<div class="gallery"><figure class="big"><button type="button" class="zoom" data-src="img/20155243_0022.jpg" data-link="https://app.transkribus.org/collection/49371/doc/20155243/edit?pageNr=22" data-cap="Image page 22" aria-label="Enlarge image page 22"><img loading="lazy" src="img/20155243_0022.jpg" alt="Image page 22 with its layout boxes"></button>
+<figcaption><a href="https://app.transkribus.org/collection/49371/doc/20155243/edit?pageNr=22" target="_blank" rel="noopener">Open p. 22 in Transkribus</a></figcaption></figure></div>
+<fieldset><legend>Is the layout right?</legend>
+<label class="opt"><input type="radio" name="20155243-22-choice" value="fine" data-id="20155243-22" data-field="choice"><span>Fine as it is</span></label>
+<label class="opt"><input type="radio" name="20155243-22-choice" value="fix" data-id="20155243-22" data-field="choice"><span>Needs fixing (say what in the note)</span></label></fieldset>
+<label class="lbl" for="20155243-22-note">Note</label>
+<textarea id="20155243-22-note" rows="2" data-id="20155243-22" data-field="note"></textarea>
+</article>
+<article class="issue" id="p20155243-23">
+<header><span class="tag check">p. 23</span><h3><span dir="rtl" lang="he">דברי מאיר</span> <span class="meta">doc 20155243</span></h3><span class="saved" data-saved="20155243-23"></span></header>
+<ul class="flags"><li>no flags</li></ul>
+<div class="gallery"><figure class="big"><button type="button" class="zoom" data-src="img/20155243_0023.jpg" data-link="https://app.transkribus.org/collection/49371/doc/20155243/edit?pageNr=23" data-cap="Image page 23" aria-label="Enlarge image page 23"><img loading="lazy" src="img/20155243_0023.jpg" alt="Image page 23 with its layout boxes"></button>
+<figcaption><a href="https://app.transkribus.org/collection/49371/doc/20155243/edit?pageNr=23" target="_blank" rel="noopener">Open p. 23 in Transkribus</a></figcaption></figure></div>
+<fieldset><legend>Is the layout right?</legend>
+<label class="opt"><input type="radio" name="20155243-23-choice" value="fine" data-id="20155243-23" data-field="choice"><span>Fine as it is</span></label>
+<label class="opt"><input type="radio" name="20155243-23-choice" value="fix" data-id="20155243-23" data-field="choice"><span>Needs fixing (say what in the note)</span></label></fieldset>
+<label class="lbl" for="20155243-23-note">Note</label>
+<textarea id="20155243-23-note" rows="2" data-id="20155243-23" data-field="note"></textarea>
+</article>
+<article class="issue" id="p20155243-24">
+<header><span class="tag check">p. 24</span><h3><span dir="rtl" lang="he">דברי מאיר</span> <span class="meta">doc 20155243</span></h3><span class="saved" data-saved="20155243-24"></span></header>
+<ul class="flags"><li>no flags</li></ul>
+<div class="gallery"><figure class="big"><button type="button" class="zoom" data-src="img/20155243_0024.jpg" data-link="https://app.transkribus.org/collection/49371/doc/20155243/edit?pageNr=24" data-cap="Image page 24" aria-label="Enlarge image page 24"><img loading="lazy" src="img/20155243_0024.jpg" alt="Image page 24 with its layout boxes"></button>
+<figcaption><a href="https://app.transkribus.org/collection/49371/doc/20155243/edit?pageNr=24" target="_blank" rel="noopener">Open p. 24 in Transkribus</a></figcaption></figure></div>
+<fieldset><legend>Is the layout right?</legend>
+<label class="opt"><input type="radio" name="20155243-24-choice" value="fine" data-id="20155243-24" data-field="choice"><span>Fine as it is</span></label>
+<label class="opt"><input type="radio" name="20155243-24-choice" value="fix" data-id="20155243-24" data-field="choice"><span>Needs fixing (say what in the note)</span></label></fieldset>
+<label class="lbl" for="20155243-24-note">Note</label>
+<textarea id="20155243-24-note" rows="2" data-id="20155243-24" data-field="note"></textarea>
+</article>
+<article class="issue" id="p20155243-25">
+<header><span class="tag check">p. 25</span><h3><span dir="rtl" lang="he">דברי מאיר</span> <span class="meta">doc 20155243</span></h3><span class="saved" data-saved="20155243-25"></span></header>
+<ul class="flags"><li>no catch-word</li></ul>
+<div class="gallery"><figure class="big"><button type="button" class="zoom" data-src="img/20155243_0025.jpg" data-link="https://app.transkribus.org/collection/49371/doc/20155243/edit?pageNr=25" data-cap="Image page 25" aria-label="Enlarge image page 25"><img loading="lazy" src="img/20155243_0025.jpg" alt="Image page 25 with its layout boxes"></button>
+<figcaption><a href="https://app.transkribus.org/collection/49371/doc/20155243/edit?pageNr=25" target="_blank" rel="noopener">Open p. 25 in Transkribus</a></figcaption></figure></div>
+<fieldset><legend>Is the layout right?</legend>
+<label class="opt"><input type="radio" name="20155243-25-choice" value="fine" data-id="20155243-25" data-field="choice"><span>Fine as it is</span></label>
+<label class="opt"><input type="radio" name="20155243-25-choice" value="fix" data-id="20155243-25" data-field="choice"><span>Needs fixing (say what in the note)</span></label></fieldset>
+<label class="lbl" for="20155243-25-note">Note</label>
+<textarea id="20155243-25-note" rows="2" data-id="20155243-25" data-field="note"></textarea>
+</article>
+<article class="issue" id="p20155243-26">
+<header><span class="tag check">p. 26</span><h3><span dir="rtl" lang="he">דברי מאיר</span> <span class="meta">doc 20155243</span></h3><span class="saved" data-saved="20155243-26"></span></header>
+<ul class="flags"><li>no flags</li></ul>
+<div class="gallery"><figure class="big"><button type="button" class="zoom" data-src="img/20155243_0026.jpg" data-link="https://app.transkribus.org/collection/49371/doc/20155243/edit?pageNr=26" data-cap="Image page 26" aria-label="Enlarge image page 26"><img loading="lazy" src="img/20155243_0026.jpg" alt="Image page 26 with its layout boxes"></button>
+<figcaption><a href="https://app.transkribus.org/collection/49371/doc/20155243/edit?pageNr=26" target="_blank" rel="noopener">Open p. 26 in Transkribus</a></figcaption></figure></div>
+<fieldset><legend>Is the layout right?</legend>
+<label class="opt"><input type="radio" name="20155243-26-choice" value="fine" data-id="20155243-26" data-field="choice"><span>Fine as it is</span></label>
+<label class="opt"><input type="radio" name="20155243-26-choice" value="fix" data-id="20155243-26" data-field="choice"><span>Needs fixing (say what in the note)</span></label></fieldset>
+<label class="lbl" for="20155243-26-note">Note</label>
+<textarea id="20155243-26-note" rows="2" data-id="20155243-26" data-field="note"></textarea>
+</article>
+<article class="issue" id="p20155243-27">
+<header><span class="tag check">p. 27</span><h3><span dir="rtl" lang="he">דברי מאיר</span> <span class="meta">doc 20155243</span></h3><span class="saved" data-saved="20155243-27"></span></header>
+<ul class="flags"><li>text outside every box (12 letters)</li></ul>
+<div class="gallery"><figure class="big"><button type="button" class="zoom" data-src="img/20155243_0027.jpg" data-link="https://app.transkribus.org/collection/49371/doc/20155243/edit?pageNr=27" data-cap="Image page 27" aria-label="Enlarge image page 27"><img loading="lazy" src="img/20155243_0027.jpg" alt="Image page 27 with its layout boxes"></button>
+<figcaption><a href="https://app.transkribus.org/collection/49371/doc/20155243/edit?pageNr=27" target="_blank" rel="noopener">Open p. 27 in Transkribus</a></figcaption></figure></div>
+<fieldset><legend>Is the layout right?</legend>
+<label class="opt"><input type="radio" name="20155243-27-choice" value="fine" data-id="20155243-27" data-field="choice"><span>Fine as it is</span></label>
+<label class="opt"><input type="radio" name="20155243-27-choice" value="fix" data-id="20155243-27" data-field="choice"><span>Needs fixing (say what in the note)</span></label></fieldset>
+<label class="lbl" for="20155243-27-note">Note</label>
+<textarea id="20155243-27-note" rows="2" data-id="20155243-27" data-field="note"></textarea>
+</article>
+<article class="issue" id="p20155243-28">
+<header><span class="tag check">p. 28</span><h3><span dir="rtl" lang="he">דברי מאיר</span> <span class="meta">doc 20155243</span></h3><span class="saved" data-saved="20155243-28"></span></header>
+<ul class="flags"><li>no flags</li></ul>
+<div class="gallery"><figure class="big"><button type="button" class="zoom" data-src="img/20155243_0028.jpg" data-link="https://app.transkribus.org/collection/49371/doc/20155243/edit?pageNr=28" data-cap="Image page 28" aria-label="Enlarge image page 28"><img loading="lazy" src="img/20155243_0028.jpg" alt="Image page 28 with its layout boxes"></button>
+<figcaption><a href="https://app.transkribus.org/collection/49371/doc/20155243/edit?pageNr=28" target="_blank" rel="noopener">Open p. 28 in Transkribus</a></figcaption></figure></div>
+<fieldset><legend>Is the layout right?</legend>
+<label class="opt"><input type="radio" name="20155243-28-choice" value="fine" data-id="20155243-28" data-field="choice"><span>Fine as it is</span></label>
+<label class="opt"><input type="radio" name="20155243-28-choice" value="fix" data-id="20155243-28" data-field="choice"><span>Needs fixing (say what in the note)</span></label></fieldset>
+<label class="lbl" for="20155243-28-note">Note</label>
+<textarea id="20155243-28-note" rows="2" data-id="20155243-28" data-field="note"></textarea>
+</article>
+<article class="issue" id="p20155243-29">
+<header><span class="tag check">p. 29</span><h3><span dir="rtl" lang="he">דברי מאיר</span> <span class="meta">doc 20155243</span></h3><span class="saved" data-saved="20155243-29"></span></header>
+<ul class="flags"><li>no flags</li></ul>
+<div class="gallery"><figure class="big"><button type="button" class="zoom" data-src="img/20155243_0029.jpg" data-link="https://app.transkribus.org/collection/49371/doc/20155243/edit?pageNr=29" data-cap="Image page 29" aria-label="Enlarge image page 29"><img loading="lazy" src="img/20155243_0029.jpg" alt="Image page 29 with its layout boxes"></button>
+<figcaption><a href="https://app.transkribus.org/collection/49371/doc/20155243/edit?pageNr=29" target="_blank" rel="noopener">Open p. 29 in Transkribus</a></figcaption></figure></div>
+<fieldset><legend>Is the layout right?</legend>
+<label class="opt"><input type="radio" name="20155243-29-choice" value="fine" data-id="20155243-29" data-field="choice"><span>Fine as it is</span></label>
+<label class="opt"><input type="radio" name="20155243-29-choice" value="fix" data-id="20155243-29" data-field="choice"><span>Needs fixing (say what in the note)</span></label></fieldset>
+<label class="lbl" for="20155243-29-note">Note</label>
+<textarea id="20155243-29-note" rows="2" data-id="20155243-29" data-field="note"></textarea>
+</article>
+<article class="issue" id="p20155243-30">
+<header><span class="tag check">p. 30</span><h3><span dir="rtl" lang="he">דברי מאיר</span> <span class="meta">doc 20155243</span></h3><span class="saved" data-saved="20155243-30"></span></header>
+<ul class="flags"><li>no flags</li></ul>
+<div class="gallery"><figure class="big"><button type="button" class="zoom" data-src="img/20155243_0030.jpg" data-link="https://app.transkribus.org/collection/49371/doc/20155243/edit?pageNr=30" data-cap="Image page 30" aria-label="Enlarge image page 30"><img loading="lazy" src="img/20155243_0030.jpg" alt="Image page 30 with its layout boxes"></button>
+<figcaption><a href="https://app.transkribus.org/collection/49371/doc/20155243/edit?pageNr=30" target="_blank" rel="noopener">Open p. 30 in Transkribus</a></figcaption></figure></div>
+<fieldset><legend>Is the layout right?</legend>
+<label class="opt"><input type="radio" name="20155243-30-choice" value="fine" data-id="20155243-30" data-field="choice"><span>Fine as it is</span></label>
+<label class="opt"><input type="radio" name="20155243-30-choice" value="fix" data-id="20155243-30" data-field="choice"><span>Needs fixing (say what in the note)</span></label></fieldset>
+<label class="lbl" for="20155243-30-note">Note</label>
+<textarea id="20155243-30-note" rows="2" data-id="20155243-30" data-field="note"></textarea>
+</article>
+<article class="issue" id="p20155243-31">
+<header><span class="tag check">p. 31</span><h3><span dir="rtl" lang="he">דברי מאיר</span> <span class="meta">doc 20155243</span></h3><span class="saved" data-saved="20155243-31"></span></header>
+<ul class="flags"><li>no flags</li></ul>
+<div class="gallery"><figure class="big"><button type="button" class="zoom" data-src="img/20155243_0031.jpg" data-link="https://app.transkribus.org/collection/49371/doc/20155243/edit?pageNr=31" data-cap="Image page 31" aria-label="Enlarge image page 31"><img loading="lazy" src="img/20155243_0031.jpg" alt="Image page 31 with its layout boxes"></button>
+<figcaption><a href="https://app.transkribus.org/collection/49371/doc/20155243/edit?pageNr=31" target="_blank" rel="noopener">Open p. 31 in Transkribus</a></figcaption></figure></div>
+<fieldset><legend>Is the layout right?</legend>
+<label class="opt"><input type="radio" name="20155243-31-choice" value="fine" data-id="20155243-31" data-field="choice"><span>Fine as it is</span></label>
+<label class="opt"><input type="radio" name="20155243-31-choice" value="fix" data-id="20155243-31" data-field="choice"><span>Needs fixing (say what in the note)</span></label></fieldset>
+<label class="lbl" for="20155243-31-note">Note</label>
+<textarea id="20155243-31-note" rows="2" data-id="20155243-31" data-field="note"></textarea>
+</article>
+<article class="issue" id="p20155243-32">
+<header><span class="tag check">p. 32</span><h3><span dir="rtl" lang="he">דברי מאיר</span> <span class="meta">doc 20155243</span></h3><span class="saved" data-saved="20155243-32"></span></header>
+<ul class="flags"><li>no flags</li></ul>
+<div class="gallery"><figure class="big"><button type="button" class="zoom" data-src="img/20155243_0032.jpg" data-link="https://app.transkribus.org/collection/49371/doc/20155243/edit?pageNr=32" data-cap="Image page 32" aria-label="Enlarge image page 32"><img loading="lazy" src="img/20155243_0032.jpg" alt="Image page 32 with its layout boxes"></button>
+<figcaption><a href="https://app.transkribus.org/collection/49371/doc/20155243/edit?pageNr=32" target="_blank" rel="noopener">Open p. 32 in Transkribus</a></figcaption></figure></div>
+<fieldset><legend>Is the layout right?</legend>
+<label class="opt"><input type="radio" name="20155243-32-choice" value="fine" data-id="20155243-32" data-field="choice"><span>Fine as it is</span></label>
+<label class="opt"><input type="radio" name="20155243-32-choice" value="fix" data-id="20155243-32" data-field="choice"><span>Needs fixing (say what in the note)</span></label></fieldset>
+<label class="lbl" for="20155243-32-note">Note</label>
+<textarea id="20155243-32-note" rows="2" data-id="20155243-32" data-field="note"></textarea>
+</article>
+<article class="issue" id="p20155243-33">
+<header><span class="tag check">p. 33</span><h3><span dir="rtl" lang="he">דברי מאיר</span> <span class="meta">doc 20155243</span></h3><span class="saved" data-saved="20155243-33"></span></header>
+<ul class="flags"><li>no flags</li></ul>
+<div class="gallery"><figure class="big"><button type="button" class="zoom" data-src="img/20155243_0033.jpg" data-link="https://app.transkribus.org/collection/49371/doc/20155243/edit?pageNr=33" data-cap="Image page 33" aria-label="Enlarge image page 33"><img loading="lazy" src="img/20155243_0033.jpg" alt="Image page 33 with its layout boxes"></button>
+<figcaption><a href="https://app.transkribus.org/collection/49371/doc/20155243/edit?pageNr=33" target="_blank" rel="noopener">Open p. 33 in Transkribus</a></figcaption></figure></div>
+<fieldset><legend>Is the layout right?</legend>
+<label class="opt"><input type="radio" name="20155243-33-choice" value="fine" data-id="20155243-33" data-field="choice"><span>Fine as it is</span></label>
+<label class="opt"><input type="radio" name="20155243-33-choice" value="fix" data-id="20155243-33" data-field="choice"><span>Needs fixing (say what in the note)</span></label></fieldset>
+<label class="lbl" for="20155243-33-note">Note</label>
+<textarea id="20155243-33-note" rows="2" data-id="20155243-33" data-field="note"></textarea>
+</article>
+<article class="issue" id="p20155243-34">
+<header><span class="tag check">p. 34</span><h3><span dir="rtl" lang="he">דברי מאיר</span> <span class="meta">doc 20155243</span></h3><span class="saved" data-saved="20155243-34"></span></header>
+<ul class="flags"><li>no flags</li></ul>
+<div class="gallery"><figure class="big"><button type="button" class="zoom" data-src="img/20155243_0034.jpg" data-link="https://app.transkribus.org/collection/49371/doc/20155243/edit?pageNr=34" data-cap="Image page 34" aria-label="Enlarge image page 34"><img loading="lazy" src="img/20155243_0034.jpg" alt="Image page 34 with its layout boxes"></button>
+<figcaption><a href="https://app.transkribus.org/collection/49371/doc/20155243/edit?pageNr=34" target="_blank" rel="noopener">Open p. 34 in Transkribus</a></figcaption></figure></div>
+<fieldset><legend>Is the layout right?</legend>
+<label class="opt"><input type="radio" name="20155243-34-choice" value="fine" data-id="20155243-34" data-field="choice"><span>Fine as it is</span></label>
+<label class="opt"><input type="radio" name="20155243-34-choice" value="fix" data-id="20155243-34" data-field="choice"><span>Needs fixing (say what in the note)</span></label></fieldset>
+<label class="lbl" for="20155243-34-note">Note</label>
+<textarea id="20155243-34-note" rows="2" data-id="20155243-34" data-field="note"></textarea>
+</article>
+<article class="issue" id="p20155243-35">
+<header><span class="tag check">p. 35</span><h3><span dir="rtl" lang="he">דברי מאיר</span> <span class="meta">doc 20155243</span></h3><span class="saved" data-saved="20155243-35"></span></header>
+<ul class="flags"><li>no flags</li></ul>
+<div class="gallery"><figure class="big"><button type="button" class="zoom" data-src="img/20155243_0035.jpg" data-link="https://app.transkribus.org/collection/49371/doc/20155243/edit?pageNr=35" data-cap="Image page 35" aria-label="Enlarge image page 35"><img loading="lazy" src="img/20155243_0035.jpg" alt="Image page 35 with its layout boxes"></button>
+<figcaption><a href="https://app.transkribus.org/collection/49371/doc/20155243/edit?pageNr=35" target="_blank" rel="noopener">Open p. 35 in Transkribus</a></figcaption></figure></div>
+<fieldset><legend>Is the layout right?</legend>
+<label class="opt"><input type="radio" name="20155243-35-choice" value="fine" data-id="20155243-35" data-field="choice"><span>Fine as it is</span></label>
+<label class="opt"><input type="radio" name="20155243-35-choice" value="fix" data-id="20155243-35" data-field="choice"><span>Needs fixing (say what in the note)</span></label></fieldset>
+<label class="lbl" for="20155243-35-note">Note</label>
+<textarea id="20155243-35-note" rows="2" data-id="20155243-35" data-field="note"></textarea>
+</article>
+<article class="issue" id="p20155243-36">
+<header><span class="tag check">p. 36</span><h3><span dir="rtl" lang="he">דברי מאיר</span> <span class="meta">doc 20155243</span></h3><span class="saved" data-saved="20155243-36"></span></header>
+<ul class="flags"><li>no flags</li></ul>
+<div class="gallery"><figure class="big"><button type="button" class="zoom" data-src="img/20155243_0036.jpg" data-link="https://app.transkribus.org/collection/49371/doc/20155243/edit?pageNr=36" data-cap="Image page 36" aria-label="Enlarge image page 36"><img loading="lazy" src="img/20155243_0036.jpg" alt="Image page 36 with its layout boxes"></button>
+<figcaption><a href="https://app.transkribus.org/collection/49371/doc/20155243/edit?pageNr=36" target="_blank" rel="noopener">Open p. 36 in Transkribus</a></figcaption></figure></div>
+<fieldset><legend>Is the layout right?</legend>
+<label class="opt"><input type="radio" name="20155243-36-choice" value="fine" data-id="20155243-36" data-field="choice"><span>Fine as it is</span></label>
+<label class="opt"><input type="radio" name="20155243-36-choice" value="fix" data-id="20155243-36" data-field="choice"><span>Needs fixing (say what in the note)</span></label></fieldset>
+<label class="lbl" for="20155243-36-note">Note</label>
+<textarea id="20155243-36-note" rows="2" data-id="20155243-36" data-field="note"></textarea>
+</article>
+<article class="issue" id="p20155243-37">
+<header><span class="tag check">p. 37</span><h3><span dir="rtl" lang="he">דברי מאיר</span> <span class="meta">doc 20155243</span></h3><span class="saved" data-saved="20155243-37"></span></header>
+<ul class="flags"><li>text outside every box (15 letters)</li></ul>
+<div class="gallery"><figure class="big"><button type="button" class="zoom" data-src="img/20155243_0037.jpg" data-link="https://app.transkribus.org/collection/49371/doc/20155243/edit?pageNr=37" data-cap="Image page 37" aria-label="Enlarge image page 37"><img loading="lazy" src="img/20155243_0037.jpg" alt="Image page 37 with its layout boxes"></button>
+<figcaption><a href="https://app.transkribus.org/collection/49371/doc/20155243/edit?pageNr=37" target="_blank" rel="noopener">Open p. 37 in Transkribus</a></figcaption></figure></div>
+<fieldset><legend>Is the layout right?</legend>
+<label class="opt"><input type="radio" name="20155243-37-choice" value="fine" data-id="20155243-37" data-field="choice"><span>Fine as it is</span></label>
+<label class="opt"><input type="radio" name="20155243-37-choice" value="fix" data-id="20155243-37" data-field="choice"><span>Needs fixing (say what in the note)</span></label></fieldset>
+<label class="lbl" for="20155243-37-note">Note</label>
+<textarea id="20155243-37-note" rows="2" data-id="20155243-37" data-field="note"></textarea>
+</article>
+<article class="issue" id="p20155243-38">
+<header><span class="tag check">p. 38</span><h3><span dir="rtl" lang="he">דברי מאיר</span> <span class="meta">doc 20155243</span></h3><span class="saved" data-saved="20155243-38"></span></header>
+<ul class="flags"><li>no flags</li></ul>
+<div class="gallery"><figure class="big"><button type="button" class="zoom" data-src="img/20155243_0038.jpg" data-link="https://app.transkribus.org/collection/49371/doc/20155243/edit?pageNr=38" data-cap="Image page 38" aria-label="Enlarge image page 38"><img loading="lazy" src="img/20155243_0038.jpg" alt="Image page 38 with its layout boxes"></button>
+<figcaption><a href="https://app.transkribus.org/collection/49371/doc/20155243/edit?pageNr=38" target="_blank" rel="noopener">Open p. 38 in Transkribus</a></figcaption></figure></div>
+<fieldset><legend>Is the layout right?</legend>
+<label class="opt"><input type="radio" name="20155243-38-choice" value="fine" data-id="20155243-38" data-field="choice"><span>Fine as it is</span></label>
+<label class="opt"><input type="radio" name="20155243-38-choice" value="fix" data-id="20155243-38" data-field="choice"><span>Needs fixing (say what in the note)</span></label></fieldset>
+<label class="lbl" for="20155243-38-note">Note</label>
+<textarea id="20155243-38-note" rows="2" data-id="20155243-38" data-field="note"></textarea>
+</article>
+<article class="issue" id="p20155243-39">
+<header><span class="tag check">p. 39</span><h3><span dir="rtl" lang="he">דברי מאיר</span> <span class="meta">doc 20155243</span></h3><span class="saved" data-saved="20155243-39"></span></header>
+<ul class="flags"><li>no flags</li></ul>
+<div class="gallery"><figure class="big"><button type="button" class="zoom" data-src="img/20155243_0039.jpg" data-link="https://app.transkribus.org/collection/49371/doc/20155243/edit?pageNr=39" data-cap="Image page 39" aria-label="Enlarge image page 39"><img loading="lazy" src="img/20155243_0039.jpg" alt="Image page 39 with its layout boxes"></button>
+<figcaption><a href="https://app.transkribus.org/collection/49371/doc/20155243/edit?pageNr=39" target="_blank" rel="noopener">Open p. 39 in Transkribus</a></figcaption></figure></div>
+<fieldset><legend>Is the layout right?</legend>
+<label class="opt"><input type="radio" name="20155243-39-choice" value="fine" data-id="20155243-39" data-field="choice"><span>Fine as it is</span></label>
+<label class="opt"><input type="radio" name="20155243-39-choice" value="fix" data-id="20155243-39" data-field="choice"><span>Needs fixing (say what in the note)</span></label></fieldset>
+<label class="lbl" for="20155243-39-note">Note</label>
+<textarea id="20155243-39-note" rows="2" data-id="20155243-39" data-field="note"></textarea>
+</article>
+<article class="issue" id="p20155243-40">
+<header><span class="tag check">p. 40</span><h3><span dir="rtl" lang="he">דברי מאיר</span> <span class="meta">doc 20155243</span></h3><span class="saved" data-saved="20155243-40"></span></header>
+<ul class="flags"><li>no catch-word</li></ul>
+<div class="gallery"><figure class="big"><button type="button" class="zoom" data-src="img/20155243_0040.jpg" data-link="https://app.transkribus.org/collection/49371/doc/20155243/edit?pageNr=40" data-cap="Image page 40" aria-label="Enlarge image page 40"><img loading="lazy" src="img/20155243_0040.jpg" alt="Image page 40 with its layout boxes"></button>
+<figcaption><a href="https://app.transkribus.org/collection/49371/doc/20155243/edit?pageNr=40" target="_blank" rel="noopener">Open p. 40 in Transkribus</a></figcaption></figure></div>
+<fieldset><legend>Is the layout right?</legend>
+<label class="opt"><input type="radio" name="20155243-40-choice" value="fine" data-id="20155243-40" data-field="choice"><span>Fine as it is</span></label>
+<label class="opt"><input type="radio" name="20155243-40-choice" value="fix" data-id="20155243-40" data-field="choice"><span>Needs fixing (say what in the note)</span></label></fieldset>
+<label class="lbl" for="20155243-40-note">Note</label>
+<textarea id="20155243-40-note" rows="2" data-id="20155243-40" data-field="note"></textarea>
+</article>
+<article class="issue" id="p20155243-41">
+<header><span class="tag check">p. 41</span><h3><span dir="rtl" lang="he">דברי מאיר</span> <span class="meta">doc 20155243</span></h3><span class="saved" data-saved="20155243-41"></span></header>
+<ul class="flags"><li>no flags</li></ul>
+<div class="gallery"><figure class="big"><button type="button" class="zoom" data-src="img/20155243_0041.jpg" data-link="https://app.transkribus.org/collection/49371/doc/20155243/edit?pageNr=41" data-cap="Image page 41" aria-label="Enlarge image page 41"><img loading="lazy" src="img/20155243_0041.jpg" alt="Image page 41 with its layout boxes"></button>
+<figcaption><a href="https://app.transkribus.org/collection/49371/doc/20155243/edit?pageNr=41" target="_blank" rel="noopener">Open p. 41 in Transkribus</a></figcaption></figure></div>
+<fieldset><legend>Is the layout right?</legend>
+<label class="opt"><input type="radio" name="20155243-41-choice" value="fine" data-id="20155243-41" data-field="choice"><span>Fine as it is</span></label>
+<label class="opt"><input type="radio" name="20155243-41-choice" value="fix" data-id="20155243-41" data-field="choice"><span>Needs fixing (say what in the note)</span></label></fieldset>
+<label class="lbl" for="20155243-41-note">Note</label>
+<textarea id="20155243-41-note" rows="2" data-id="20155243-41" data-field="note"></textarea>
+</article>
+<article class="issue" id="p20155243-42">
+<header><span class="tag check">p. 42</span><h3><span dir="rtl" lang="he">דברי מאיר</span> <span class="meta">doc 20155243</span></h3><span class="saved" data-saved="20155243-42"></span></header>
+<ul class="flags"><li>no flags</li></ul>
+<div class="gallery"><figure class="big"><button type="button" class="zoom" data-src="img/20155243_0042.jpg" data-link="https://app.transkribus.org/collection/49371/doc/20155243/edit?pageNr=42" data-cap="Image page 42" aria-label="Enlarge image page 42"><img loading="lazy" src="img/20155243_0042.jpg" alt="Image page 42 with its layout boxes"></button>
+<figcaption><a href="https://app.transkribus.org/collection/49371/doc/20155243/edit?pageNr=42" target="_blank" rel="noopener">Open p. 42 in Transkribus</a></figcaption></figure></div>
+<fieldset><legend>Is the layout right?</legend>
+<label class="opt"><input type="radio" name="20155243-42-choice" value="fine" data-id="20155243-42" data-field="choice"><span>Fine as it is</span></label>
+<label class="opt"><input type="radio" name="20155243-42-choice" value="fix" data-id="20155243-42" data-field="choice"><span>Needs fixing (say what in the note)</span></label></fieldset>
+<label class="lbl" for="20155243-42-note">Note</label>
+<textarea id="20155243-42-note" rows="2" data-id="20155243-42" data-field="note"></textarea>
+</article>
+<article class="issue" id="p20155243-43">
+<header><span class="tag check">p. 43</span><h3><span dir="rtl" lang="he">דברי מאיר</span> <span class="meta">doc 20155243</span></h3><span class="saved" data-saved="20155243-43"></span></header>
+<ul class="flags"><li>no flags</li></ul>
+<div class="gallery"><figure class="big"><button type="button" class="zoom" data-src="img/20155243_0043.jpg" data-link="https://app.transkribus.org/collection/49371/doc/20155243/edit?pageNr=43" data-cap="Image page 43" aria-label="Enlarge image page 43"><img loading="lazy" src="img/20155243_0043.jpg" alt="Image page 43 with its layout boxes"></button>
+<figcaption><a href="https://app.transkribus.org/collection/49371/doc/20155243/edit?pageNr=43" target="_blank" rel="noopener">Open p. 43 in Transkribus</a></figcaption></figure></div>
+<fieldset><legend>Is the layout right?</legend>
+<label class="opt"><input type="radio" name="20155243-43-choice" value="fine" data-id="20155243-43" data-field="choice"><span>Fine as it is</span></label>
+<label class="opt"><input type="radio" name="20155243-43-choice" value="fix" data-id="20155243-43" data-field="choice"><span>Needs fixing (say what in the note)</span></label></fieldset>
+<label class="lbl" for="20155243-43-note">Note</label>
+<textarea id="20155243-43-note" rows="2" data-id="20155243-43" data-field="note"></textarea>
+</article>
+<article class="issue" id="p20155243-44">
+<header><span class="tag check">p. 44</span><h3><span dir="rtl" lang="he">דברי מאיר</span> <span class="meta">doc 20155243</span></h3><span class="saved" data-saved="20155243-44"></span></header>
+<ul class="flags"><li>no flags</li></ul>
+<div class="gallery"><figure class="big"><button type="button" class="zoom" data-src="img/20155243_0044.jpg" data-link="https://app.transkribus.org/collection/49371/doc/20155243/edit?pageNr=44" data-cap="Image page 44" aria-label="Enlarge image page 44"><img loading="lazy" src="img/20155243_0044.jpg" alt="Image page 44 with its layout boxes"></button>
+<figcaption><a href="https://app.transkribus.org/collection/49371/doc/20155243/edit?pageNr=44" target="_blank" rel="noopener">Open p. 44 in Transkribus</a></figcaption></figure></div>
+<fieldset><legend>Is the layout right?</legend>
+<label class="opt"><input type="radio" name="20155243-44-choice" value="fine" data-id="20155243-44" data-field="choice"><span>Fine as it is</span></label>
+<label class="opt"><input type="radio" name="20155243-44-choice" value="fix" data-id="20155243-44" data-field="choice"><span>Needs fixing (say what in the note)</span></label></fieldset>
+<label class="lbl" for="20155243-44-note">Note</label>
+<textarea id="20155243-44-note" rows="2" data-id="20155243-44" data-field="note"></textarea>
+</article>
+<article class="issue" id="p20155243-45">
+<header><span class="tag check">p. 45</span><h3><span dir="rtl" lang="he">דברי מאיר</span> <span class="meta">doc 20155243</span></h3><span class="saved" data-saved="20155243-45"></span></header>
+<ul class="flags"><li>no flags</li></ul>
+<div class="gallery"><figure class="big"><button type="button" class="zoom" data-src="img/20155243_0045.jpg" data-link="https://app.transkribus.org/collection/49371/doc/20155243/edit?pageNr=45" data-cap="Image page 45" aria-label="Enlarge image page 45"><img loading="lazy" src="img/20155243_0045.jpg" alt="Image page 45 with its layout boxes"></button>
+<figcaption><a href="https://app.transkribus.org/collection/49371/doc/20155243/edit?pageNr=45" target="_blank" rel="noopener">Open p. 45 in Transkribus</a></figcaption></figure></div>
+<fieldset><legend>Is the layout right?</legend>
+<label class="opt"><input type="radio" name="20155243-45-choice" value="fine" data-id="20155243-45" data-field="choice"><span>Fine as it is</span></label>
+<label class="opt"><input type="radio" name="20155243-45-choice" value="fix" data-id="20155243-45" data-field="choice"><span>Needs fixing (say what in the note)</span></label></fieldset>
+<label class="lbl" for="20155243-45-note">Note</label>
+<textarea id="20155243-45-note" rows="2" data-id="20155243-45" data-field="note"></textarea>
+</article>
+<article class="issue" id="p20155243-46">
+<header><span class="tag check">p. 46</span><h3><span dir="rtl" lang="he">דברי מאיר</span> <span class="meta">doc 20155243</span></h3><span class="saved" data-saved="20155243-46"></span></header>
+<ul class="flags"><li>no catch-word</li></ul>
+<div class="gallery"><figure class="big"><button type="button" class="zoom" data-src="img/20155243_0046.jpg" data-link="https://app.transkribus.org/collection/49371/doc/20155243/edit?pageNr=46" data-cap="Image page 46" aria-label="Enlarge image page 46"><img loading="lazy" src="img/20155243_0046.jpg" alt="Image page 46 with its layout boxes"></button>
+<figcaption><a href="https://app.transkribus.org/collection/49371/doc/20155243/edit?pageNr=46" target="_blank" rel="noopener">Open p. 46 in Transkribus</a></figcaption></figure></div>
+<fieldset><legend>Is the layout right?</legend>
+<label class="opt"><input type="radio" name="20155243-46-choice" value="fine" data-id="20155243-46" data-field="choice"><span>Fine as it is</span></label>
+<label class="opt"><input type="radio" name="20155243-46-choice" value="fix" data-id="20155243-46" data-field="choice"><span>Needs fixing (say what in the note)</span></label></fieldset>
+<label class="lbl" for="20155243-46-note">Note</label>
+<textarea id="20155243-46-note" rows="2" data-id="20155243-46" data-field="note"></textarea>
+</article>
+<article class="issue" id="p20155243-47">
+<header><span class="tag check">p. 47</span><h3><span dir="rtl" lang="he">דברי מאיר</span> <span class="meta">doc 20155243</span></h3><span class="saved" data-saved="20155243-47"></span></header>
+<ul class="flags"><li>no flags</li></ul>
+<div class="gallery"><figure class="big"><button type="button" class="zoom" data-src="img/20155243_0047.jpg" data-link="https://app.transkribus.org/collection/49371/doc/20155243/edit?pageNr=47" data-cap="Image page 47" aria-label="Enlarge image page 47"><img loading="lazy" src="img/20155243_0047.jpg" alt="Image page 47 with its layout boxes"></button>
+<figcaption><a href="https://app.transkribus.org/collection/49371/doc/20155243/edit?pageNr=47" target="_blank" rel="noopener">Open p. 47 in Transkribus</a></figcaption></figure></div>
+<fieldset><legend>Is the layout right?</legend>
+<label class="opt"><input type="radio" name="20155243-47-choice" value="fine" data-id="20155243-47" data-field="choice"><span>Fine as it is</span></label>
+<label class="opt"><input type="radio" name="20155243-47-choice" value="fix" data-id="20155243-47" data-field="choice"><span>Needs fixing (say what in the note)</span></label></fieldset>
+<label class="lbl" for="20155243-47-note">Note</label>
+<textarea id="20155243-47-note" rows="2" data-id="20155243-47" data-field="note"></textarea>
+</article>
+<article class="issue" id="p20155243-48">
+<header><span class="tag check">p. 48</span><h3><span dir="rtl" lang="he">דברי מאיר</span> <span class="meta">doc 20155243</span></h3><span class="saved" data-saved="20155243-48"></span></header>
+<ul class="flags"><li>no catch-word</li></ul>
+<div class="gallery"><figure class="big"><button type="button" class="zoom" data-src="img/20155243_0048.jpg" data-link="https://app.transkribus.org/collection/49371/doc/20155243/edit?pageNr=48" data-cap="Image page 48" aria-label="Enlarge image page 48"><img loading="lazy" src="img/20155243_0048.jpg" alt="Image page 48 with its layout boxes"></button>
+<figcaption><a href="https://app.transkribus.org/collection/49371/doc/20155243/edit?pageNr=48" target="_blank" rel="noopener">Open p. 48 in Transkribus</a></figcaption></figure></div>
+<fieldset><legend>Is the layout right?</legend>
+<label class="opt"><input type="radio" name="20155243-48-choice" value="fine" data-id="20155243-48" data-field="choice"><span>Fine as it is</span></label>
+<label class="opt"><input type="radio" name="20155243-48-choice" value="fix" data-id="20155243-48" data-field="choice"><span>Needs fixing (say what in the note)</span></label></fieldset>
+<label class="lbl" for="20155243-48-note">Note</label>
+<textarea id="20155243-48-note" rows="2" data-id="20155243-48" data-field="note"></textarea>
+</article>
+<article class="issue" id="p20155243-49">
+<header><span class="tag check">p. 49</span><h3><span dir="rtl" lang="he">דברי מאיר</span> <span class="meta">doc 20155243</span></h3><span class="saved" data-saved="20155243-49"></span></header>
+<ul class="flags"><li>no catch-word</li></ul>
+<div class="gallery"><figure class="big"><button type="button" class="zoom" data-src="img/20155243_0049.jpg" data-link="https://app.transkribus.org/collection/49371/doc/20155243/edit?pageNr=49" data-cap="Image page 49" aria-label="Enlarge image page 49"><img loading="lazy" src="img/20155243_0049.jpg" alt="Image page 49 with its layout boxes"></button>
+<figcaption><a href="https://app.transkribus.org/collection/49371/doc/20155243/edit?pageNr=49" target="_blank" rel="noopener">Open p. 49 in Transkribus</a></figcaption></figure></div>
+<fieldset><legend>Is the layout right?</legend>
+<label class="opt"><input type="radio" name="20155243-49-choice" value="fine" data-id="20155243-49" data-field="choice"><span>Fine as it is</span></label>
+<label class="opt"><input type="radio" name="20155243-49-choice" value="fix" data-id="20155243-49" data-field="choice"><span>Needs fixing (say what in the note)</span></label></fieldset>
+<label class="lbl" for="20155243-49-note">Note</label>
+<textarea id="20155243-49-note" rows="2" data-id="20155243-49" data-field="note"></textarea>
+</article>
+<article class="issue" id="p20155243-50">
+<header><span class="tag check">p. 50</span><h3><span dir="rtl" lang="he">דברי מאיר</span> <span class="meta">doc 20155243</span></h3><span class="saved" data-saved="20155243-50"></span></header>
+<ul class="flags"><li>no flags</li></ul>
+<div class="gallery"><figure class="big"><button type="button" class="zoom" data-src="img/20155243_0050.jpg" data-link="https://app.transkribus.org/collection/49371/doc/20155243/edit?pageNr=50" data-cap="Image page 50" aria-label="Enlarge image page 50"><img loading="lazy" src="img/20155243_0050.jpg" alt="Image page 50 with its layout boxes"></button>
+<figcaption><a href="https://app.transkribus.org/collection/49371/doc/20155243/edit?pageNr=50" target="_blank" rel="noopener">Open p. 50 in Transkribus</a></figcaption></figure></div>
+<fieldset><legend>Is the layout right?</legend>
+<label class="opt"><input type="radio" name="20155243-50-choice" value="fine" data-id="20155243-50" data-field="choice"><span>Fine as it is</span></label>
+<label class="opt"><input type="radio" name="20155243-50-choice" value="fix" data-id="20155243-50" data-field="choice"><span>Needs fixing (say what in the note)</span></label></fieldset>
+<label class="lbl" for="20155243-50-note">Note</label>
+<textarea id="20155243-50-note" rows="2" data-id="20155243-50" data-field="note"></textarea>
+</article>
+<article class="issue" id="p20155243-51">
+<header><span class="tag check">p. 51</span><h3><span dir="rtl" lang="he">דברי מאיר</span> <span class="meta">doc 20155243</span></h3><span class="saved" data-saved="20155243-51"></span></header>
+<ul class="flags"><li>no flags</li></ul>
+<div class="gallery"><figure class="big"><button type="button" class="zoom" data-src="img/20155243_0051.jpg" data-link="https://app.transkribus.org/collection/49371/doc/20155243/edit?pageNr=51" data-cap="Image page 51" aria-label="Enlarge image page 51"><img loading="lazy" src="img/20155243_0051.jpg" alt="Image page 51 with its layout boxes"></button>
+<figcaption><a href="https://app.transkribus.org/collection/49371/doc/20155243/edit?pageNr=51" target="_blank" rel="noopener">Open p. 51 in Transkribus</a></figcaption></figure></div>
+<fieldset><legend>Is the layout right?</legend>
+<label class="opt"><input type="radio" name="20155243-51-choice" value="fine" data-id="20155243-51" data-field="choice"><span>Fine as it is</span></label>
+<label class="opt"><input type="radio" name="20155243-51-choice" value="fix" data-id="20155243-51" data-field="choice"><span>Needs fixing (say what in the note)</span></label></fieldset>
+<label class="lbl" for="20155243-51-note">Note</label>
+<textarea id="20155243-51-note" rows="2" data-id="20155243-51" data-field="note"></textarea>
+</article>
+<article class="issue" id="p20155243-52">
+<header><span class="tag check">p. 52</span><h3><span dir="rtl" lang="he">דברי מאיר</span> <span class="meta">doc 20155243</span></h3><span class="saved" data-saved="20155243-52"></span></header>
+<ul class="flags"><li>no flags</li></ul>
+<div class="gallery"><figure class="big"><button type="button" class="zoom" data-src="img/20155243_0052.jpg" data-link="https://app.transkribus.org/collection/49371/doc/20155243/edit?pageNr=52" data-cap="Image page 52" aria-label="Enlarge image page 52"><img loading="lazy" src="img/20155243_0052.jpg" alt="Image page 52 with its layout boxes"></button>
+<figcaption><a href="https://app.transkribus.org/collection/49371/doc/20155243/edit?pageNr=52" target="_blank" rel="noopener">Open p. 52 in Transkribus</a></figcaption></figure></div>
+<fieldset><legend>Is the layout right?</legend>
+<label class="opt"><input type="radio" name="20155243-52-choice" value="fine" data-id="20155243-52" data-field="choice"><span>Fine as it is</span></label>
+<label class="opt"><input type="radio" name="20155243-52-choice" value="fix" data-id="20155243-52" data-field="choice"><span>Needs fixing (say what in the note)</span></label></fieldset>
+<label class="lbl" for="20155243-52-note">Note</label>
+<textarea id="20155243-52-note" rows="2" data-id="20155243-52" data-field="note"></textarea>
+</article>
+<article class="issue" id="p20155243-53">
+<header><span class="tag check">p. 53</span><h3><span dir="rtl" lang="he">דברי מאיר</span> <span class="meta">doc 20155243</span></h3><span class="saved" data-saved="20155243-53"></span></header>
+<ul class="flags"><li>no flags</li></ul>
+<div class="gallery"><figure class="big"><button type="button" class="zoom" data-src="img/20155243_0053.jpg" data-link="https://app.transkribus.org/collection/49371/doc/20155243/edit?pageNr=53" data-cap="Image page 53" aria-label="Enlarge image page 53"><img loading="lazy" src="img/20155243_0053.jpg" alt="Image page 53 with its layout boxes"></button>
+<figcaption><a href="https://app.transkribus.org/collection/49371/doc/20155243/edit?pageNr=53" target="_blank" rel="noopener">Open p. 53 in Transkribus</a></figcaption></figure></div>
+<fieldset><legend>Is the layout right?</legend>
+<label class="opt"><input type="radio" name="20155243-53-choice" value="fine" data-id="20155243-53" data-field="choice"><span>Fine as it is</span></label>
+<label class="opt"><input type="radio" name="20155243-53-choice" value="fix" data-id="20155243-53" data-field="choice"><span>Needs fixing (say what in the note)</span></label></fieldset>
+<label class="lbl" for="20155243-53-note">Note</label>
+<textarea id="20155243-53-note" rows="2" data-id="20155243-53" data-field="note"></textarea>
+</article>
+<article class="issue" id="p20155243-54">
+<header><span class="tag check">p. 54</span><h3><span dir="rtl" lang="he">דברי מאיר</span> <span class="meta">doc 20155243</span></h3><span class="saved" data-saved="20155243-54"></span></header>
+<ul class="flags"><li>no catch-word</li></ul>
+<div class="gallery"><figure class="big"><button type="button" class="zoom" data-src="img/20155243_0054.jpg" data-link="https://app.transkribus.org/collection/49371/doc/20155243/edit?pageNr=54" data-cap="Image page 54" aria-label="Enlarge image page 54"><img loading="lazy" src="img/20155243_0054.jpg" alt="Image page 54 with its layout boxes"></button>
+<figcaption><a href="https://app.transkribus.org/collection/49371/doc/20155243/edit?pageNr=54" target="_blank" rel="noopener">Open p. 54 in Transkribus</a></figcaption></figure></div>
+<fieldset><legend>Is the layout right?</legend>
+<label class="opt"><input type="radio" name="20155243-54-choice" value="fine" data-id="20155243-54" data-field="choice"><span>Fine as it is</span></label>
+<label class="opt"><input type="radio" name="20155243-54-choice" value="fix" data-id="20155243-54" data-field="choice"><span>Needs fixing (say what in the note)</span></label></fieldset>
+<label class="lbl" for="20155243-54-note">Note</label>
+<textarea id="20155243-54-note" rows="2" data-id="20155243-54" data-field="note"></textarea>
+</article>
+  </div>
+</div>
+<div class="viewer" id="viewer" hidden role="dialog" aria-modal="true" aria-label="Page image">
+  <div class="bar"><span id="vcap"></span><a id="vlink" href="#" target="_blank" rel="noopener">Open in Transkribus</a>
+    <button type="button" class="close" id="vfull">Actual size</button><button type="button" class="close" id="vclose">Close</button></div>
+  <div class="stage" id="vstage"><img id="vimg" alt=""></div>
+</div>
+
+<script>
+(function () {
+  const v = document.getElementById("viewer"), img = document.getElementById("vimg"), stage = document.getElementById("vstage");
+  let last = null;
+  function close() { v.hidden = true; img.src = ""; if (last) last.focus(); }
+  document.addEventListener("click", ev => {
+    const b = ev.target.closest(".zoom");
+    if (!b) return;
+    last = b; img.src = b.dataset.src; img.alt = b.dataset.cap;
+    document.getElementById("vcap").textContent = b.dataset.cap;
+    document.getElementById("vlink").href = b.dataset.link;
+    stage.classList.remove("full"); v.hidden = false; document.getElementById("vclose").focus();
+  });
+  document.getElementById("vclose").addEventListener("click", close);
+  document.getElementById("vfull").addEventListener("click", () => stage.classList.toggle("full"));
+  v.addEventListener("click", ev => { if (ev.target === v || ev.target === stage) close(); });
+  document.addEventListener("keydown", ev => { if (ev.key === "Escape" && !v.hidden) close(); });
+})();
+</script>
+
+<script>
+(function () {
+  const statusEl = document.getElementById("status");
+  const fields = Array.from(document.querySelectorAll("[data-id][data-field]"));
+  let db = null;
+  const state = {};          // id -> saved doc
+  const chains = {};         // id -> promise, one write at a time per doc
+  const timers = {};
+
+  function setStatus(t) { statusEl.textContent = t; }
+  function markSaved(id, text) {
+    const el = document.querySelector('[data-saved="' + id + '"]');
+    if (el) el.textContent = text;
+  }
+  function collect(id) {
+    const doc = {};
+    fields.filter(f => f.dataset.id === id).forEach(f => {
+      if (f.type === "radio") { if (f.checked) doc[f.dataset.field] = f.value; }
+      else if (f.type === "checkbox") doc[f.dataset.field] = f.checked;
+      else doc[f.dataset.field] = f.value;
+    });
+    return doc;
+  }
+  function apply(id, data) {
+    fields.filter(f => f.dataset.id === id).forEach(f => {
+      const v = data[f.dataset.field];
+      if (f.type === "radio") f.checked = v === f.value;
+      else if (f.type === "checkbox") f.checked = !!v;
+      else if (document.activeElement !== f) f.value = v || "";
+    });
+  }
+  function save(id) {
+    if (!db) { markSaved(id, "Not saved: answers can't be stored in this view"); return; }
+    const data = collect(id);
+    data.updatedAt = new Date().toISOString();
+    markSaved(id, "Saving…");
+    chains[id] = (chains[id] || Promise.resolve()).then(() =>
+      db.collection("answers").doc(id).set(data)
+        .then(() => { state[id] = data; markSaved(id, "Saved"); })
+        .catch(err => markSaved(id, "Not saved (" + (err && err.code || "error") + "). Try again."))
+    );
+  }
+  fields.forEach(f => {
+    if (f.tagName === "TEXTAREA") {
+      f.addEventListener("input", () => { clearTimeout(timers[f.dataset.id]); markSaved(f.dataset.id, "Editing…");
+        timers[f.dataset.id] = setTimeout(() => save(f.dataset.id), 900); });
+      f.addEventListener("blur", () => { if (timers[f.dataset.id]) { clearTimeout(timers[f.dataset.id]); timers[f.dataset.id] = null; save(f.dataset.id); } });
+    } else {
+      f.addEventListener("change", () => save(f.dataset.id));
+    }
+  });
+
+  const use = window.claude && window.claude.use;
+  if (!use) { setStatus("Answers can't be saved in this view. Open the page on claude.ai to answer."); return; }
+  use("db").then(d => {
+    if (!d) { setStatus("Answers can't be saved in this view. Open the page on claude.ai, signed in, to answer."); return; }
+    db = d;
+    const slow = setTimeout(() => setStatus("Saved answers can't be reached yet; what you type will be saved when the connection returns."), 10000);
+    d.collection("answers").onSnapshot(snap => {
+      if (!snap.metadata || !snap.metadata.fromCache) { clearTimeout(slow); setStatus("Answers save automatically."); }
+      snap.docs.forEach(doc => {
+        const data = doc.data();
+        state[doc.id] = data;
+        apply(doc.id, data);
+        if (data.updatedAt) markSaved(doc.id, "Saved " + new Date(data.updatedAt).toLocaleString());
+      });
+    }, err => { clearTimeout(slow); setStatus("Saved answers can't be loaded (" + (err && err.code || "error") + ")."); });
+  });
+})();
+</script>

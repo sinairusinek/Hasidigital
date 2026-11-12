@@ -54,21 +54,21 @@ def ask(prompt, images, model):
     raise RuntimeError(r.stderr[:300])
 
 
-def numbered(doc, n, regs):
+def numbered(img, key, regs):
     """Page image with each box outlined and numbered; long side 1800 px."""
-    im = cv2.imread(str(IMG / doc / f"{n:04d}.jpg")); s = 1800 / max(im.shape[:2]); im = cv2.resize(im, None, fx=s, fy=s)
+    im = cv2.imread(str(img)); s = 1800 / max(im.shape[:2]); im = cv2.resize(im, None, fx=s, fy=s)
     for i, r in enumerate(regs, 1):
         x0, y0, x1, y1 = [int(v * s) for v in r["box"]]
         cv2.rectangle(im, (x0, y0), (x1, y1), (0, 0, 230), 3)
         cv2.rectangle(im, (x0, y0), (x0 + 46, y0 + 34), (0, 0, 230), -1)
         cv2.putText(im, str(i), (x0 + 4, y0 + 27), cv2.FONT_HERSHEY_SIMPLEX, 0.9, (255, 255, 255), 2)
-    f = CACHE / "img" / f"{doc}_{n:04d}.jpg"; cv2.imwrite(str(f), im, [cv2.IMWRITE_JPEG_QUALITY, 85]); return f
+    f = CACHE / "img" / f"{key}.jpg"; cv2.imwrite(str(f), im, [cv2.IMWRITE_JPEG_QUALITY, 85]); return f
 
 
-def book_note(doc, pages, model):
+def book_note(doc, pages, model, imgs=None):
     f = CACHE / f"note-{doc}-{model}.txt"
     if f.exists(): return f.read_text()
-    imgs = [IMG / doc / f"{n:04d}.jpg" for n in pages[:3]]
+    imgs = imgs or [IMG / doc / f"{n:04d}.jpg" for n in pages[:3]]
     note = ask(f"""These are pages from one printed Hebrew book. Read the images, then describe this book's page layout
 habits in at most 120 words, as notes for someone tagging its regions: what the running head says and where it is, where the
 page number is and how it is written, whether pages end with a catch-word, how story or section headings look, whether there
@@ -78,10 +78,9 @@ are footnotes and how they look, and anything else unusual (columns, large openi
     f.write_text(note); return note
 
 
-def relabel(doc, n, suffix, note, model):
-    f = CACHE / f"{doc}_{n:04d}-{suffix}-{model}.json"
-    src = HERE / "xml" / doc / f"{n:04d}.{suffix}.xml"
-    regs, W, H = read_layout(src)
+def ask_tags(key, img, regs, W, H, note, model):
+    """Corrected tags for regions [{'box', 'lab', 'lines'}] on one page image: {'1': tag, ...}, cached under key."""
+    f = CACHE / f"{key}-{model}.json"
     if not f.exists():
         boxes = "\n".join(f"{i}: now '{r['lab']}', box {100*r['box'][0]/W:.0f}-{100*r['box'][2]/W:.0f}% across, "
                           f"{100*r['box'][1]/H:.0f}-{100*r['box'][3]/H:.0f}% down, {len(r['lines'])} lines" for i, r in enumerate(regs, 1))
@@ -97,9 +96,15 @@ Boxes:
 {boxes}
 
 If a box holds more than one kind of text, give the tag of most of its text. Answer with JSON only, e.g. {{"1": "main-text", "2": "heading"}}.""",
-                     [numbered(doc, n, regs)], model)
+                  [numbered(img, key, regs)], model)
         m = re.search(r"\{.*\}", out, re.S); f.write_text(m.group(0) if m else "{}")
-    new = json.loads(f.read_text())
+    return {k: v for k, v in json.loads(f.read_text()).items() if v in TAGS}
+
+
+def relabel(doc, n, suffix, note, model):
+    src = HERE / "xml" / doc / f"{n:04d}.{suffix}.xml"
+    regs, W, H = read_layout(src)
+    new = ask_tags(f"{doc}_{n:04d}-{suffix}", IMG / doc / f"{n:04d}.jpg", regs, W, H, note, model)
     # write the same XML with the tags changed; region order matches read_layout's
     x = src.read_text(); ids = [m.group(1) for m in re.finditer(r'<TextRegion id="([^"]+)"[^>]*>\s*<Coords points="[^"]+"', x)]
     changed = 0

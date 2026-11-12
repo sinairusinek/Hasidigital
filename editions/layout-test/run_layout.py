@@ -1,11 +1,12 @@
 """Local layout for one book, in place of Transkribus Field Recognition + line detection.
 
-    python run_layout.py DOCID [--pages 1-40]
+    python run_layout.py DOCID [--pages 1-40] [--no-vlm]
 
 Steps: page-instructions (skip pages; works on hold are refused) → deskew and crop each image →
-YOLO regions (model trained on all tagged books) + Kraken lines, cut where they cross from one region into
-another (Kraken runs lines across columns) → footnote rules → back to the original
-image's coordinates → PAGE XML → automatic checks. Nothing is sent to Transkribus.
+YOLO regions (model trained on all tagged books) + Kraken lines (model fine-tuned on our pages), cut where they
+cross from one region into another, joined and refilled (fix_lines.py) → footnote rules → back to the original
+image's coordinates → Claude corrects the tags from the page images (vlm_relabel.py; --no-vlm to skip) →
+reading order → PAGE XML → automatic checks. Nothing is sent to Transkribus.
 Output in ~/Documents/Hasidigital-data/books/<doc>/: img/, prep/, layout/<page>.xml, flags.tsv.
 """
 import csv, json, os, re, subprocess, sys, requests
@@ -69,6 +70,41 @@ def to_orig(T, pts):
     return np.column_stack([pts, np.ones(len(pts))]) @ T.T
 
 
+def merge_heads(regions):
+    """One box for a running head that the detector cut into pieces (widely spaced words on one row)."""
+    heads = [r for r in regions if r[0] == "running-head"]; rest = [r for r in regions if r[0] != "running-head"]; done = []
+    for t, b, ls in sorted(heads, key=lambda r: r[1][1]):
+        for k, (t2, b2, ls2) in enumerate(done):
+            if min(b[3], b2[3]) - max(b[1], b2[1]) > 0.5 * min(b[3] - b[1], b2[3] - b2[1]):
+                done[k] = (t2, (min(b[0], b2[0]), min(b[1], b2[1]), max(b[2], b2[2]), max(b[3], b2[3])), ls2 + ls); break
+        else: done.append((t, b, ls))
+    return done + rest
+
+
+def relabel_book(doc, base, out, model="opus"):
+    """Claude corrects the region tags (vlm_relabel.py): first a note on the book's habits from three of its pages,
+    then each page with its boxes numbered. Only the page images go to Claude, no text. Boxes are kept; 'none'
+    drops a box that holds no text."""
+    from concurrent.futures import ThreadPoolExecutor
+    from vlm_relabel import book_note, ask_tags
+    ns = sorted(out); sample = [ns[int(len(ns) * q)] for q in (0.25, 0.5, 0.75)]
+    note = book_note(doc, sample, model, [base / "img" / f"{n:04d}.jpg" for n in sample])
+    def one(n):
+        regions, L, W, H, cuts = out[n]
+        regs = [dict(box=b, lab=t, lines=ls) for t, b, ls in regions]
+        try: new = ask_tags(f"{doc}_{n:04d}-book", base / "img" / f"{n:04d}.jpg", regs, W, H, note, model)
+        except Exception as e: print("relabel failed", n, e); return 0
+        fixed = [(new.get(str(i), t), b, ls) for i, (t, b, ls) in enumerate(regions, 1)]
+        # ink inside boxes Claude called "none" (ornaments, stamps) is not text left outside the boxes
+        gone = [b for t, b, _ in fixed if t == "none"]
+        keep = ~np.any([(L[:, 0] >= b[0]) & (L[:, 0] <= b[2]) & (L[:, 1] >= b[1]) & (L[:, 1] <= b[3]) for b in gone], axis=0) if gone else np.ones(len(L), bool)
+        out[n] = (merge_heads([r for r in fixed if r[0] != "none"]), L[keep], W, H, cuts)
+        return sum(a[0] != b[0] for a, b in zip(fixed, regions))
+    with ThreadPoolExecutor(4) as ex: changed = sum(ex.map(one, ns))
+    (base / "book-note.txt").write_text(note)
+    print(f"Claude changed {changed} tags on {len(ns)} pages")
+
+
 def main():
     doc = sys.argv[1]
     base = DATA / "books" / doc
@@ -110,7 +146,10 @@ def main():
         img = base / "img" / f"{n:04d}.jpg"; L = letters(img, W, H)
         cuts = cuts_without_gap(polys, [r[1:] for r in regs], L)
         polys = fix_page(polys, L, [r[1:] for r in regs], extend=False, joined=True, refilled=True)  # [(polygon, baseline)]
-        regions = combine_page(regs, polys, RULES.get(str(img), ()), W, H)
+        out[n] = (combine_page(regs, polys, RULES.get(str(img), ()), W, H), L, W, H, cuts)
+    if "--no-vlm" not in sys.argv: relabel_book(doc, base, out)
+    for n, (regions, L, W, H, cuts) in out.items():
+        img = base / "img" / f"{n:04d}.jpg"
         # reading order (page_xml writes it): flag pages where the order of headings and text is in doubt
         order = (["order: footnote above text"] if note_above(regions, H) else []) + ([f"order: {cuts} lines cut at a box border with no gap"] if cuts >= 2 else [])
         (base / "layout" / f"{n:04d}.xml").write_text(page_xml(regions, W, H, img.name))
