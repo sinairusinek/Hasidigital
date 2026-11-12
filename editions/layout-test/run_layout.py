@@ -18,7 +18,7 @@ sys.path.insert(0, str(HERE.parent / "scan-check"))
 from scan_checks import best_angle
 from layout_qa import letters, RULES, clean, page_flags, book_habits
 from order_score import note_above, cuts_without_gap
-from rules import combine_page, page_xml
+from rules import combine_page, page_xml, tidy
 from line_score import line_polys
 from fix_lines import fix_page
 from yolo_regions import CLASSES, DATA
@@ -149,7 +149,7 @@ def main():
         out[n] = (combine_page(regs, polys, RULES.get(str(img), ()), W, H), L, W, H, cuts)
     if "--no-vlm" not in sys.argv: relabel_book(doc, base, out)
     for n, (regions, L, W, H, cuts) in out.items():
-        img = base / "img" / f"{n:04d}.jpg"
+        img = base / "img" / f"{n:04d}.jpg"; regions = tidy(regions, L, H)
         # reading order (page_xml writes it): flag pages where the order of headings and text is in doubt
         order = (["order: footnote above text"] if note_above(regions, H) else []) + ([f"order: {cuts} lines cut at a box border with no gap"] if cuts >= 2 else [])
         (base / "layout" / f"{n:04d}.xml").write_text(page_xml(regions, W, H, img.name))

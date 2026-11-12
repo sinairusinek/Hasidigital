@@ -216,6 +216,66 @@ def reading_order(regions, H, ov=0.15, hr=1.2):
     return top + pick(body) + pick(notes) + cw_low + low_furniture
 
 
+def tidy(regions, L, H):
+    """Post-correction of regions [(tag, box, lines)] before they are written:
+    - each box is fitted to its lines (detected boxes cut off line ends or reach into the next block);
+    - boxes of the same tag that still overlap are merged (splitting main text changes nothing in the TEI);
+    - main-text boxes directly above one another in a column, nothing between, are merged;
+    - boxes that only touch, one above the other, meet halfway;
+    - marks on the running-head row that no box holds: up to three letters become the page number (the detector
+      misses some); a longer word level with the running head joins it."""
+    from layout_qa import overlap
+    fit = lambda ls: tuple(np.vstack([np.asarray(p) for p, _ in ls]).min(0)) + tuple(np.vstack([np.asarray(p) for p, _ in ls]).max(0))
+    out = [[t, fit(ls) if ls else b, list(ls)] for t, b, ls in regions]
+    merged = True
+    while merged:
+        merged = False
+        for i, a in enumerate(out):
+            for c in out[i + 1:]:
+                if a[0] == c[0] and overlap(a[1], c[1]) > 0.15:
+                    a[1] = (min(a[1][0], c[1][0]), min(a[1][1], c[1][1]), max(a[1][2], c[1][2]), max(a[1][3], c[1][3])); a[2] += c[2]
+                    out.remove(c); merged = True; break
+            if merged: break
+    # main-text boxes directly one above the other in the same column, with nothing between, become one box
+    lh = float(np.median([np.ptp(np.asarray(q)[:, 1]) for _, _, ls in out for q, _ in ls] or [H / 50]))
+    merged = True
+    while merged:
+        merged = False
+        for a in out:
+            for c in out:
+                if a is c or a[0] != "main-text" or c[0] != "main-text" or not (-lh < c[1][1] - a[1][3] < lh) or c[1][1] <= a[1][1]: continue
+                xo = min(a[1][2], c[1][2]) - max(a[1][0], c[1][0])
+                if xo < 0.8 * min(a[1][2] - a[1][0], c[1][2] - c[1][0]): continue
+                box = (min(a[1][0], c[1][0]), a[1][1], max(a[1][2], c[1][2]), c[1][3])
+                if any(o is not a and o is not c and overlap(o[1], box) > 0.3 for o in out): continue
+                a[1] = box; a[2] += c[2]; out.remove(c); merged = True; break
+            if merged: break
+    # boxes that only touch, one above the other (fitted outlines reach a little above and below the letters): meet halfway
+    for a in out:
+        for c in out:
+            if a is c or not (a[1][1] < c[1][1] < a[1][3] < c[1][3]): continue
+            if min(a[1][2], c[1][2]) <= max(a[1][0], c[1][0]) or a[1][3] - c[1][1] > 0.5 * min(a[1][3] - a[1][1], c[1][3] - c[1][1]): continue
+            m = (a[1][3] + c[1][1]) / 2; a[1] = (a[1][0], a[1][1], a[1][2], m); c[1] = (c[1][0], m, c[1][2], c[1][3])
+    if L is not None and len(L):
+        h = float(np.median(L[:, 2])); held = np.zeros(len(L), bool)
+        for _, b, _ in out: held |= (L[:, 0] >= b[0] - h) & (L[:, 0] <= b[2] + h) & (L[:, 1] >= b[1] - h) & (L[:, 1] <= b[3] + h)
+        tops = [b[1] for t, b, _ in out if t in ("main-text", "heading")]
+        band = (L[:, 1] < min(tops or [0.15 * H])) & (L[:, 1] < 0.15 * H) & (L[:, 2] > 0.6 * h) & ~held
+        P = L[band][np.argsort(L[band][:, 0])]
+        groups = np.split(P, [k + 1 for k in range(len(P) - 1) if P[k + 1, 0] - P[k, 0] > 3 * h]) if len(P) else []
+        heads = [r for r in out if r[0] == "running-head"]
+        for g in groups:
+            x0, x1 = g[:, 0].min() - 0.6 * h, g[:, 0].max() + 0.6 * h; y1 = (g[:, 1] + 0.5 * g[:, 2]).max(); y0 = (g[:, 1] - 0.5 * g[:, 2]).min()
+            bl = np.array([[x0, y1], [x1, y1]]).astype(int); poly = np.array([[x0, y0], [x1, y0], [x1, y1 + 0.2 * h], [x0, y1 + 0.2 * h]]).astype(int)
+            box = (int(x0), int(y0), int(x1), int(y1 + 0.2 * h))
+            level = [r for r in heads if min(r[1][3], box[3]) - max(r[1][1], box[1]) > 0.3 * (box[3] - box[1])]
+            if len(g) >= 4 and level:  # a word of the running head set apart from the rest
+                r = level[0]; r[1] = (min(r[1][0], box[0]), min(r[1][1], box[1]), max(r[1][2], box[2]), max(r[1][3], box[3])); r[2].append((poly, bl))
+            elif len(g) <= 3 and not any(t == "page-number" for t, _, _ in out):  # a page number is at most three letters
+                out.append(["page-number", box, [(poly, bl)]])
+    return [tuple(r) for r in out]
+
+
 def page_xml(regions, W, H, name):
     xml = []
     for k, (tag, (x0, y0, x1, y1), ls) in enumerate(reading_order(regions, H)):

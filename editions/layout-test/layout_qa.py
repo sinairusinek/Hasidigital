@@ -76,7 +76,8 @@ def clean(regs, L):
     if L is not None:
         keep = []
         for r in regs:
-            if inside(L, r["box"]).sum() < 3: done.append(f"drop empty {r['lab']}")
+            # a catch-word or page number can be one or two letters
+            if inside(L, r["box"]).sum() < (1 if r["lab"] in ("catch-word", "page-number") else 3): done.append(f"drop empty {r['lab']}")
             else: keep.append(r)
         regs = keep
     regs = sorted(regs, key=lambda r: -(r["box"][2]-r["box"][0]) * (r["box"][3]-r["box"][1]))
@@ -118,7 +119,9 @@ def page_flags(regs, L, W, H, habit, rules=()):
         for r in regs: out &= ~inside(L, r["box"], pad=0.01 * W)
         body = np.median(L[:, 2])
         lost = L[out & (L[:, 2] > 0.5 * body)]
-        if len(lost) >= 12: f.append(f"text outside boxes ({len(lost)} letters)")
+        # only ink that forms a row of letter-sized marks: printed ornaments break into curls of every size
+        n = sum(k for _, hh, k in print_lines(lost) if 0.6 * body < hh < 1.6 * body and k >= 5)
+        if n >= 12: f.append(f"text outside boxes ({n} letters)")
     # 2. the page furniture this book normally has
     for lab in FW:
         if cnt[lab] > 1 and not (lab == "running-head" and cnt[lab] == 2 and habit.get("rh2")): f.append(f"{cnt[lab]} {lab}")
