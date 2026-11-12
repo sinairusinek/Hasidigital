@@ -50,7 +50,7 @@ def ask(prompt, images, model):
     cmd = [CLAUDE, "-p", "--model", model, "--allowedTools", "Read", "--output-format", "text"]
     for _ in range(3):
         r = subprocess.run(cmd, input=prompt + "\n\nImages:\n" + "\n".join(map(str, images)), capture_output=True, text=True, timeout=600)
-        if r.returncode == 0: return r.stdout
+        if r.returncode == 0 and not ("limit" in r.stdout.lower() and len(r.stdout) < 400): return r.stdout
     raise RuntimeError(r.stderr[:300])
 
 
@@ -97,7 +97,9 @@ Boxes:
 
 If a box holds more than one kind of text, give the tag of most of its text. Answer with JSON only, e.g. {{"1": "main-text", "2": "heading"}}.""",
                   [numbered(img, key, regs)], model)
-        m = re.search(r"\{.*\}", out, re.S); f.write_text(m.group(0) if m else "{}")
+        m = re.search(r"\{.*\}", out, re.S)
+        if not m: raise RuntimeError("no JSON in answer: " + out[:200])  # not cached, so a later run asks again
+        f.write_text(m.group(0))
     return {k: v for k, v in json.loads(f.read_text()).items() if v in TAGS}
 
 

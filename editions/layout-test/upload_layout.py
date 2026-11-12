@@ -2,8 +2,9 @@
 
     python upload_layout.py DOCID "NOTE" [--dry]
 
-A page is uploaded only when its latest version is our own (toolName TOOL): if anyone has saved the page since, in
-the app or otherwise, it is left alone and listed. A page whose latest version already has NOTE is skipped, so a
+A page is uploaded only when its latest version is our own (toolName TOOL) or the empty version Transkribus made on
+upload (status NEW, no regions): if anyone has saved the page since, in the app or otherwise, it is left alone and
+listed. A page whose latest version already has NOTE is skipped, so a
 run that was cut short can be started again. Each version's note is NOTE plus that page's flags (flags.tsv).
 """
 import csv, sys
@@ -23,7 +24,8 @@ def main():
         n = p["pageNr"]; f = base / "layout" / f"{n:04d}.xml"
         if not f.exists(): continue
         last = p["tsList"]["transcripts"][0]
-        if last.get("toolName") != TOOL:
+        fresh = last.get("status") == "NEW" and not last.get("nrOfRegions") and not last.get("toolName")
+        if last.get("toolName") != TOOL and not fresh:
             kept.append((n, last.get("toolName"), last.get("userName"))); continue
         if (last.get("note") or "").startswith(note): continue  # already there (a run cut short and started again)
         if dry: done.append(n); continue
