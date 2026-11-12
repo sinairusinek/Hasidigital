@@ -216,11 +216,13 @@ def reading_order(regions, H, ov=0.15, hr=1.2):
     return top + pick(body) + pick(notes) + cw_low + low_furniture
 
 
-def tidy(regions, L, H):
+def tidy(regions, L, H, main="paragraphs"):
     """Post-correction of regions [(tag, box, lines)] before they are written:
     - each box is fitted to its lines (detected boxes cut off line ends or reach into the next block);
-    - boxes of the same tag that still overlap are merged (splitting main text changes nothing in the TEI);
-    - main-text boxes directly above one another in a column, nothing between, are merged;
+    - boxes of the same tag that still overlap are merged;
+    - main text is cut into one region per paragraph (paragraphs.split: short last row, blank gap, larger opening
+      word). main="columns" instead merges main-text boxes stacked in a column (the old behaviour, for comparison);
+      main=None leaves the detector's boxes;
     - boxes that only touch, one above the other, meet halfway;
     - marks on the running-head row that no box holds: up to three letters become the page number (the detector
       misses some); a longer word level with the running head joins it."""
@@ -236,20 +238,12 @@ def tidy(regions, L, H):
                     a[1] = (min(a[1][0], c[1][0]), min(a[1][1], c[1][1]), max(a[1][2], c[1][2]), max(a[1][3], c[1][3])); a[2] += c[2]
                     out.remove(c); merged = True; break
             if merged: break
-    # main-text boxes directly one above the other in the same column, with nothing between, become one box
-    lh = float(np.median([np.ptp(np.asarray(q)[:, 1]) for _, _, ls in out for q, _ in ls] or [H / 50]))
-    merged = True
-    while merged:
-        merged = False
-        for a in out:
-            for c in out:
-                if a is c or a[0] != "main-text" or c[0] != "main-text" or not (-lh < c[1][1] - a[1][3] < lh) or c[1][1] <= a[1][1]: continue
-                xo = min(a[1][2], c[1][2]) - max(a[1][0], c[1][0])
-                if xo < 0.8 * min(a[1][2] - a[1][0], c[1][2] - c[1][0]): continue
-                box = (min(a[1][0], c[1][0]), a[1][1], max(a[1][2], c[1][2]), c[1][3])
-                if any(o is not a and o is not c and overlap(o[1], box) > 0.3 for o in out): continue
-                a[1] = box; a[2] += c[2]; out.remove(c); merged = True; break
-            if merged: break
+    if main == "paragraphs":
+        from paragraphs import split
+        out = [list(r) for r in split([tuple(r) for r in out], L)]
+    elif main == "columns":
+        from paragraphs import stack
+        out = [list(r) for r in stack([tuple(r) for r in out], L)[0]]
     # boxes that only touch, one above the other (fitted outlines reach a little above and below the letters): meet halfway
     for a in out:
         for c in out:

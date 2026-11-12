@@ -178,6 +178,16 @@ review much. Per book: `pipeline-by-book.tsv`. The main remaining error is footn
 **Speed on the Mac:** YOLO under a second per page; Kraken ~15–20 s per page with 4 processes. Training a
 YOLO model: about 45 minutes, once.
 
+**Paragraph regions (2026-11-12, `paragraphs.py`; called from `rules.tidy`).** The RA split main text into one
+region per paragraph. Our old `tidy` merged main-text boxes stacked in a column, so pages came out sometimes per
+paragraph and sometimes per column. Now the detector's boxes are kept and each main-text region is cut where a row
+stops short of the left margin, a blank gap opens, or the next row starts with a larger word (fitted on the test set;
+indentation is not a paragraph mark in most of these books). Paragraphs matched against FINAL: old tidy 32%, the
+detector's boxes 92%, with the splitter 92% on our lines and 94% on the RA's lines (story books alone: 95% / 97%).
+What is left: front matter, בית ישראל, some detector over-splits, and paragraphs ending at the full margin with ":",
+which only the text shows. `upload_layout.py DOCID NOTE` uploads a book's layout as new versions, skipping every page
+someone has saved since our last upload.
+
 **Pipeline for new books:** `run_layout.py DOCID` (page-instructions, holds, deskew/crop, YOLO trained on all
 tagged books, Kraken, line cutting, footnote rules, PAGE XML in the original image's coordinates, checks).
 `build_layout_review.py DOCID` makes the review page of flagged pages.
