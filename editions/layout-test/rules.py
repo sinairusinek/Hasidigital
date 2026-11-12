@@ -150,14 +150,80 @@ def combine_page(regs, polys, rules, W, H):
     return out
 
 
+def order_boxes(boxes, ov=0.15, hr=1.2, tall=0):
+    """Reading order of boxes (x0, y0, x1, y1) on a Hebrew page; returns their indexes. A box that spans the gap
+    between two boxes lying side by side (a full-width heading over two columns) starts a band of its own; within
+    a band the columns are read right to left, each top to bottom. Pieces of one cut line are side by side too,
+    so the same rule reads them right to left. With `tall`, only boxes at least that tall count as lying side by
+    side (columns), so pieces of one line that a detector boxed separately do not cut a column into bands."""
+    def run(ix):
+        if len(ix) <= 1: return list(ix)
+        b = {i: boxes[i] for i in ix}
+        # side by side: overlapping across by less than `ov` of the narrower box (detected boxes overlap a little)
+        apart = lambda i, j: min(b[i][2], b[j][2]) - max(b[i][0], b[j][0]) < ov * min(b[i][2] - b[i][0], b[j][2] - b[j][0])
+        over = lambda i, j: not apart(i, j)
+        level = lambda i, j: min(b[i][3], b[j][3]) > max(b[i][1], b[j][1])  # share some height
+        ht = lambda i: b[i][3] - b[i][1]
+        # a heading over two columns is not taller than they are; a column under two pieces of a running head is
+        wide = [i for i in ix if any(apart(j, k) and level(j, k) and min(ht(j), ht(k)) >= tall and over(i, j) and over(i, k) and ht(i) <= hr * max(ht(j), ht(k))
+                                     for j in ix for k in ix if i not in (j, k) and j < k)]
+        if wide:  # bands: each wide box alone, the boxes between two wide boxes together
+            out, rest = [], [i for i in ix if i not in wide]
+            for w in sorted(wide, key=lambda i: b[i][1]):
+                cy = (b[w][1] + b[w][3]) / 2
+                above = [i for i in rest if (b[i][1] + b[i][3]) / 2 < cy]
+                out += run(above) + [w]; rest = [i for i in rest if i not in above]
+            return out + run(rest)
+        # columns: split where no box crosses, right to left
+        cols, cur, edge = [], [], None
+        for i in sorted(ix, key=lambda i: -b[i][2]):
+            if cur and b[i][2] - edge < ov * (b[i][2] - b[i][0]): cols.append(cur); cur = []
+            cur.append(i); edge = b[i][0] if edge is None or len(cur) == 1 else min(edge, b[i][0])
+        cols.append(cur)
+        if len(cols) > 1: return [i for c in cols for i in run(c)]
+        out = sorted(ix, key=lambda i: (b[i][1] + b[i][3]) / 2)
+        for _ in range(len(out)):  # boxes on one row: right to left
+            for k in range(len(out) - 1):
+                i, j = out[k], out[k + 1]
+                if b[j][0] >= b[i][2] - 0.15 * (b[i][2] - b[i][0]) and min(b[i][3], b[j][3]) - max(b[i][1], b[j][1]) > 0.5 * min(ht(i), ht(j)):
+                    out[k], out[k + 1] = j, i
+        return out
+    return run(list(range(len(boxes))))
+
+
+def reading_order(regions, H, ov=0.15, hr=1.2):
+    """Regions [(tag, box, lines)] in the RA's order: page number, then running heads right to left; then text and
+    headings, column by column; a catch-word printed above the footnotes ends the column it stands under (on two
+    columns each column has its own); then the footnotes; a catch-word below them comes last. Lines inside each
+    region are ordered the same way."""
+    lbox = lambda p: (p[:, 0].min(), p[:, 1].min(), p[:, 0].max(), p[:, 1].max())
+    regions = [(t, b, [ls[i] for i in order_boxes([lbox(np.asarray(p)) for p, _ in ls], ov, hr)]) for t, b, ls in regions]
+    top = [r for r in regions if r[0] in ("running-head", "page-number") and r[1][3] < H / 2]
+    notes = [r for r in regions if r[0] == "footnote"]
+    # the first footnote line, not the footnote box: boxes often reach up past the catch-word
+    note_top = min([np.asarray(p)[:, 1].mean() for r in notes for p, _ in r[2]] or [min([r[1][1] for r in notes] or [H])])
+    cw_low = [r for r in regions if r[0] == "catch-word" and (r[1][1] + r[1][3]) / 2 > note_top]
+    low_furniture = [r for r in regions if r[0] in ("running-head", "page-number") and r not in top]
+    body = [r for r in regions if r not in top and r not in notes and r not in cw_low and r not in low_furniture]
+    # order regions by where their lines are, not by their boxes: detected boxes nest (a page-size box around two
+    # column boxes holds only the lines no smaller box holds)
+    def where(r):
+        if not r[2]: return r[1]
+        q = np.vstack([np.asarray(p) for p, _ in r[2]]); return (q[:, 0].min(), q[:, 1].min(), q[:, 0].max(), q[:, 1].max())
+    lh = float(np.median([np.ptp(np.asarray(p)[:, 1]) for r in regions for p, _ in r[2]] or [H / 50]))
+    pick = lambda rs: [rs[i] for i in order_boxes([where(r) for r in rs], ov, hr, tall=2.5 * lh)]
+    top = sorted(top, key=lambda r: (r[0] != "page-number", -r[1][2]))
+    return top + pick(body) + pick(notes) + cw_low + low_furniture
+
+
 def page_xml(regions, W, H, name):
     xml = []
-    for k, (tag, (x0, y0, x1, y1), ls) in enumerate(regions):
+    for k, (tag, (x0, y0, x1, y1), ls) in enumerate(reading_order(regions, H)):
         pts = lambda q: " ".join(f"{int(a)},{int(b)}" for a, b in q)
-        lx = "".join(f'<TextLine id="r{k}l{j}"><Coords points="{pts(p)}"/>'
+        lx = "".join(f'<TextLine id="r{k}l{j}" custom="readingOrder {{index:{j};}}"><Coords points="{pts(p)}"/>'
                      + (f'<Baseline points="{pts(bl)}"/>' if isinstance(bl, np.ndarray) and len(bl) >= 2 else "") + "</TextLine>"
                      for j, (p, bl) in enumerate(ls))
-        xml.append(f'<TextRegion id="r{k}" custom="structure {{type:{tag};}}"><Coords points="{int(x0)},{int(y0)} {int(x1)},{int(y0)} {int(x1)},{int(y1)} {int(x0)},{int(y1)}"/>{lx}</TextRegion>\n')
+        xml.append(f'<TextRegion id="r{k}" custom="readingOrder {{index:{k};}} structure {{type:{tag};}}"><Coords points="{int(x0)},{int(y0)} {int(x1)},{int(y0)} {int(x1)},{int(y1)} {int(x0)},{int(y1)}"/>{lx}</TextRegion>\n')
     return PAGE.format(img=name, W=W, H=H, regions="".join(xml))
 
 

@@ -16,6 +16,7 @@ HERE = Path(__file__).parent
 sys.path.insert(0, str(HERE.parent / "scan-check"))
 from scan_checks import best_angle
 from layout_qa import letters, RULES, clean, page_flags, book_habits
+from order_score import note_above, cuts_without_gap
 from rules import combine_page, page_xml
 from line_score import line_polys
 from fix_lines import fix_page
@@ -106,17 +107,20 @@ def main():
         except Exception: polys = []
         polys = [(to_orig(T_, pts), lab, to_orig(T_, bl) if bl is not None else None) for pts, lab, bl in polys]
         img = base / "img" / f"{n:04d}.jpg"; L = letters(img, W, H)
+        cuts = cuts_without_gap(polys, [r[1:] for r in regs], L)
         polys = fix_page(polys, L, [r[1:] for r in regs], extend=False, joined=True, refilled=True)  # [(polygon, baseline)]
         regions = combine_page(regs, polys, RULES.get(str(img), ()), W, H)
+        # reading order (page_xml writes it): flag pages where the order of headings and text is in doubt
+        order = (["order: footnote above text"] if note_above(regions, H) else []) + ([f"order: {cuts} lines cut at a box border with no gap"] if cuts >= 2 else [])
         (base / "layout" / f"{n:04d}.xml").write_text(page_xml(regions, W, H, img.name))
         rr = [dict(lab=t, box=b, lines=[(int(q[:, 0].min()), int(q[:, 1].min()), int(q[:, 0].max()), int(q[:, 1].max())) for q, _ in ls]) for t, b, ls in regions]
         rr, done = clean(rr, L)
-        out[n] = (rr, L, W, H, done, RULES.get(str(img), ()))
+        out[n] = (rr, L, W, H, done, RULES.get(str(img), ()), order)
     habit = book_habits([v[0] for v in out.values()])
     with open(base / "flags.tsv", "w") as fh:
         fh.write("pageNr\tcleanups\tflags\n")
-        for n, (rr, L, W, H, done, rl) in out.items():
-            fh.write(f"{n}\t{'; '.join(done)}\t{'; '.join(page_flags(rr, L, W, H, habit, rl))}\n")
+        for n, (rr, L, W, H, done, rl, order) in out.items():
+            fh.write(f"{n}\t{'; '.join(done)}\t{'; '.join(page_flags(rr, L, W, H, habit, rl) + order)}\n")
     nflag = sum(1 for l in open(base / "flags.tsv").read().splitlines()[1:] if l.split("\t")[2])
     print(f"{doc} (work {work}): {len(pages)} pages, {nflag} flagged; skipped {sorted(skip)}; notes: {[r['action'] for r in notes]}")
 

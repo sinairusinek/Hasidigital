@@ -117,6 +117,36 @@ Set C (a book the settings were not tuned on): 18 → 5 wrong lines of 461. What
 opening word or a centred phrase set apart, and lines cut at a false box border on one-column pages; 101 partly
 missing; 59 merged. בית ישראל (Hebrew and Yiddish) still holds a quarter of the errors.
 
+**Reading order (2026-11-12, `order_score.py`; the rule is `rules.reading_order`, written by `page_xml`).**
+Until now our pipeline wrote no reading order and none of the scores looked at it. The score: our lines are
+matched to FINAL lines through their letters; walking our lines in our order, the lines that break the longest
+increasing run of FINAL positions are out of place. Only headings, main text and footnotes count: running heads,
+page numbers and catch-words are not shown on the site and are taken out of the stories.
+
+How the RA orders a page (224 test pages): page number and running head first; two columns right then left (all
+86 cases); footnotes always after all main text; a catch-word printed above the footnotes comes before them (all
+26 cases), otherwise last; on pages with two columns each column ends with its own catch-word.
+
+The rule: page number, running heads; then headings and text, split into bands at any box that spans two columns
+lying side by side (a heading over both columns), columns right to left and each top to bottom; then a catch-word
+above the footnotes; then footnotes; then a catch-word below them. Regions are placed by where their lines are,
+not by their boxes (detected boxes nest), and only boxes about three lines tall count as columns. The same rule
+orders the lines inside a region, so pieces of one cut line are read right to left.
+
+| | pages with headings or text out of order | lines out of place |
+|---|---|---|
+| RA regions and tags, our rule | 7 / 224 | 41 / 10,696 |
+| our pipeline, no order written (before) | 207 | 3,496 |
+| our pipeline with the rule | 43 | 186 |
+| same, on the joined and refilled lines | 34 | 181 |
+
+What is left comes from layout errors, not the rule: main text tagged footnote (read after everything else), and
+column boxes drawn too long, which cut full-width lines in two. Two flags in `run_layout.py` point at these pages:
+a footnote line above a main-text or heading line, and two or more lines cut at a box border where the letters run
+on with no gap. Together they flag 66 of 224 pages and catch 26 of the 34 pages with an order error, and 11 of the
+12 with five or more lines out of place; the 8 missed have 1 to 4 lines out of place. A third flag, whether the
+order changes when the rule's thresholds are nudged, caught almost nothing and was dropped.
+
 Loghi was not tested: it ships as Docker images built for CUDA GPUs, and this Mac has neither.
 
 **Checks on the pipeline's output** (`score_flags.py`): 117 of 142 error pages caught (82%), but 80% of pages
