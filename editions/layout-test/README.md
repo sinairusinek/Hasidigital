@@ -96,6 +96,27 @@ wide spaces made things worse (spaces inside ordinary lines); cutting at box bor
 lines added 0.1 points and is left out. Weak books for lines: בית ישראל (Hebrew and Yiddish, 41% wrong),
 עשר אורות (19%), שבע רצון (17%).
 
+**Line post-correction, second round (2026-11-12, `fix_lines.py --join --refill`, now used by `run_layout.py`).**
+What the 724 wrong lines (all 224 pages) actually were: 41% one line in two or more pieces, 27% "merged" (mostly
+the RA's own line stopping a few letters short of the print, which the score counts against us), 24% partly
+missing, 7% missing. Three fixes:
+- keep Kraken's baseline points when a line is cut (the old step drew a straight line from end to end, so sloping
+  and curved lines lost letters);
+- join pieces on one baseline within a box unless the gap is a gutter. A gap counts as a gutter when the lines
+  above and below mostly stop there too: in two columns every line has its partner across the gutter, while in one
+  column the lines run straight through. Joining across boxes merged columns again (11% wrong) and is not used;
+- add a line wherever a row of at least five letters, four letter heights wide, has no line (Kraken skipped it).
+  Fully missing lines went from 49 to 2.
+
+| | wrong lines (all 224) | set A, not counting RA-short lines | pages >10% wrong |
+|---|---|---|---|
+| before | 724 (6.8%) | 566 (5.5%) | 49 |
+| after | 560 (5.2%) | 403 (3.9%) | 31 |
+
+Set C (a book the settings were not tuned on): 18 → 5 wrong lines of 461. What is left: 245 splits, mostly a large
+opening word or a centred phrase set apart, and lines cut at a false box border on one-column pages; 101 partly
+missing; 59 merged. בית ישראל (Hebrew and Yiddish) still holds a quarter of the errors.
+
 Loghi was not tested: it ships as Docker images built for CUDA GPUs, and this Mac has neither.
 
 **Checks on the pipeline's output** (`score_flags.py`): 117 of 142 error pages caught (82%), but 80% of pages

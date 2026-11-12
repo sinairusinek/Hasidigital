@@ -106,7 +106,7 @@ def main():
         except Exception: polys = []
         polys = [(to_orig(T_, pts), lab, to_orig(T_, bl) if bl is not None else None) for pts, lab, bl in polys]
         img = base / "img" / f"{n:04d}.jpg"; L = letters(img, W, H)
-        polys = fix_page(polys, L, [r[1:] for r in regs], extend=False)  # [(polygon, baseline)]
+        polys = fix_page(polys, L, [r[1:] for r in regs], extend=False, joined=True, refilled=True)  # [(polygon, baseline)]
         regions = combine_page(regs, polys, RULES.get(str(img), ()), W, H)
         (base / "layout" / f"{n:04d}.xml").write_text(page_xml(regions, W, H, img.name))
         rr = [dict(lab=t, box=b, lines=[(int(q[:, 0].min()), int(q[:, 1].min()), int(q[:, 0].max()), int(q[:, 1].max())) for q, _ in ls]) for t, b, ls in regions]
