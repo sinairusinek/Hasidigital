@@ -1,10 +1,12 @@
 """Run every new book through run_layout.py and upload_layout.py, smallest first (no credits, no HTR).
 
-    python run_books.py NOTE [DOCID ...]
+    python run_books.py NOTE [--max-pages N] [DOCID ...]
 
 Books: the docs uploaded in 2026-11 (transkribus-collection-map.tsv), less the holds and any book already uploaded
 with NOTE (books/<doc>/uploaded.txt). A book whose Claude tag calls failed (e.g. the Max usage limit) is not uploaded;
 it waits 30 minutes and runs again (answers already given are cached), up to 8 times. Log: books/batch.log.
+--max-pages: no book is started that would take this run past N pages, so that one run stays inside a share of the
+Max plan's 5-hour usage window (about 0.12% of a window per page with Opus, measured 2026-11-12).
 """
 import csv, subprocess, sys, time
 from datetime import datetime
@@ -29,10 +31,14 @@ def books(only):
 
 
 def main():
-    note, only = sys.argv[1], sys.argv[2:]
+    args = sys.argv[2:]; cap = 10 ** 9
+    if "--max-pages" in args: k = args.index("--max-pages"); cap = int(args[k + 1]); del args[k:k + 2]
+    note, only, used = sys.argv[1], args, 0
     for r in books(only):
         doc = r["docId"]; done = DATA / "books" / doc / "uploaded.txt"
         if done.exists() and done.read_text().startswith(note): continue
+        if used + int(r["pages"]) > cap: log(f"page cap {cap} reached ({used} pages run); stopping before {doc} ({r['pages']} pp.)"); break
+        used += int(r["pages"])
         for attempt in range(8):
             t0 = time.time()
             p = subprocess.run([PY, str(HERE / "run_layout.py"), doc], capture_output=True, text=True, cwd=HERE)
