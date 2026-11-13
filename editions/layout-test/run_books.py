@@ -37,7 +37,8 @@ def main():
     for r in books(only):
         doc = r["docId"]; done = DATA / "books" / doc / "uploaded.txt"
         if done.exists() and done.read_text().startswith(note): continue
-        if used + int(r["pages"]) > cap: log(f"page cap {cap} reached ({used} pages run); stopping before {doc} ({r['pages']} pp.)"); break
+        # a book bigger than the cap still runs, alone, as a run's first book
+        if used and used + int(r["pages"]) > cap: log(f"page cap {cap} reached ({used} pages run); stopping before {doc} ({r['pages']} pp.)"); break
         used += int(r["pages"])
         for attempt in range(8):
             t0 = time.time()
