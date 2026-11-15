@@ -46,6 +46,8 @@ DRIVE_FOLDER = ("0B1TlfouSwHTnfi1RSU1VQVFSS05NWHpHbHlHZ2NzeXRvUUJlQXVWY2hFNXhuRE
                 "0-2ytPkKz63YC59t3CN3yPAg")
 TRP_COLLECTION = 49371
 TRP_REST = "https://transkribus.eu/TrpServer/rest"
+# the layout batch (layout-test/run_books.py) leaves books/<docId>/uploaded.txt; its pages are IN_PROGRESS but not transcribed
+BOOKS = Path.home() / "Documents" / "Hasidigital-data" / "books"
 
 # Status-tab titles that do not match any catalogue title by spelling
 STATUS_OVERRIDES = {"שערי האמונה": "61", "רמתיים צופים?": "29",
@@ -61,6 +63,8 @@ WRONG_SCANS = {"141": "Drive zip IE101483126 and NLI 001898821 are I.H. Weiss's 
 # only a later printing than the record has been found; waiting for Gadi to accept it
 # works whose catalogue DB title names a different book (145: DBid 3620 is titled סיפורי צדיקים, bound with it)
 WORK_NAMES = {"145": "שבחי הרב"}
+# works decided "no" here before the Status tab of the sheet says so
+DECIDED_NO = {"114": "Sinai 2026-11-15: Teitelbaum's monograph, not included"}
 # open questions for Gadi that hold a work's next step
 GADI_QUESTIONS: dict[str, str] = {"11": "why is a Chumash in the corpus?"}
 # scan problems found by editions/scan-check (status "open" = Sinai checks before layout; "find-scan" = look
@@ -305,6 +309,9 @@ def main() -> None:
             decision = "pending"
         else:
             decision = "not assessed"
+        if w["nu"] in DECIDED_NO:
+            decision = "no"
+            w["status"] = w["status"] + [{"inc": "no", "H": DECIDED_NO[w["nu"]], "where": ""}]
 
         dated = sorted(w["rows"], key=lambda r: r["_year"] or 9999)
         ed = next((r for r in dated if r["DBid"] and len(r["DBid"].split("|")) <= 2
@@ -331,6 +338,8 @@ def main() -> None:
             step = "re-export from Transkribus (without 'force valid TEI') → pipeline"
         elif main_docs and fin >= 0.9 * pages:
             step = "export from Transkribus → pipeline"
+        elif main_docs and fin == 0 and all((BOOKS / d["docId"] / "uploaded.txt").exists() for d in main_docs):
+            step = "run HTR in Transkribus"
         elif main_docs and fin + prog > 0:
             step = "finish transcription in Transkribus"
         elif main_docs:

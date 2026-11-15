@@ -21,6 +21,8 @@ SCAN_ISSUES = REPO / "editions" / "scan-check" / "scan-issues.tsv"    # problems
 # per-work state of the local layout experiment and of the layout run itself:
 # work_nu, layout_test (done/part/todo/na), layout (done/part/todo), note
 LAYOUT_STATUS = REPO / "editions" / "layout-status.tsv"
+# the overnight layout batch (layout-test/run_books.py) leaves books/<docId>/uploaded.txt once a book's layout is in Transkribus
+BOOKS = Path.home() / "Documents" / "Hasidigital-data" / "books"
 
 # Zenodo v1 (DOI 10.5281/zenodo.20524710, published 2026-10-07)
 ZENODO_V1 = {"Shivhei-Habesht", "Shivhei-Harav", "Sipurei-Zadikim", "Khal-Hasidim", "Khal-Kdoshim",
@@ -89,6 +91,14 @@ def layout_cells(r, c, has_xml):
     l = LAYOUT.get(r["nu"], {})
     c["Layout test"] = (l.get("layout_test") or "todo", l.get("note", "") or ("waiting for the layout experiment" if checked else ""))
     c["Layout"] = (l.get("layout") or "todo", l.get("note", ""))
+    docs = r["trp_main_docs"].split()
+    up = [d for d in docs if (BOOKS / d / "uploaded.txt").exists()]
+    if up:
+        import datetime
+        when = max(datetime.date.fromtimestamp((BOOKS / d / "uploaded.txt").stat().st_mtime) for d in up).isoformat()
+        pp = sum(len(list((BOOKS / d / "layout").glob("*.xml"))) for d in up)
+        c["Layout"] = ("done" if len(up) == len(docs) else "part",
+                       f"local layout uploaded to Transkribus {when}, {pp} pp; HTR and correction next")
 
 
 def cells(r, files):
@@ -181,7 +191,8 @@ def main():
                     f'<td class="num">{r["edition_year"]}</td>{tds}<td class="step">{html.escape(r["next_step"])}</td></tr>')
 
     legend = "".join(f'<span><i class="{k}"></i>{v}</span>' for k, v in LABELS.items())
-    head = "".join(f"<th>{s}</th>" for s in STAGES)
+    done = lambda s: sum(1 for _, c, _ in active if c[s][0] == "done" or (s == "Layout test" and c[s][0] == "na"))
+    head = "".join(f'<th>{s}<br><span class="cnt">{done(s)}/{n}</span></th>' for s in STAGES)
     OUT.write_text(TEMPLATE.format(date=date.today().isoformat(), total=len(data), active=n, funnel=funnel,
                                    chips=chips, legend=legend, head=head, body="\n".join(body)), encoding="utf-8")
     print(f"wrote {OUT.relative_to(REPO)}: {len(data)} works")
@@ -219,6 +230,7 @@ td.done, i.done {{ background:var(--done); color:#fff; }} td.part, i.part {{ bac
 td.todo, i.todo {{ background:var(--todo); }} td.block, i.block {{ background:var(--block); color:#fff; }}
 td.na, i.na {{ background:var(--na); color:var(--muted); }}
 td.done, td.part, td.todo, td.block, td.na {{ min-width:58px; border-radius:2px; font-size:11px; }}
+th .cnt {{ font-weight:400; font-variant-numeric:tabular-nums; }}
 tr.no td.work {{ color:var(--muted); }} tr.hide {{ display:none; }}
 </style></head><body>
 <h1>Edition Status</h1>
