@@ -24,7 +24,7 @@ from fix_lines import fix_page
 from yolo_regions import CLASSES, DATA
 
 TRP = "https://transkribus.eu/TrpServer/rest"
-HOLD = {"3": "waits for a better scan", "77": "waits for a better scan", "43": "waits for Gadi", "11": "waits for Gadi"}
+HOLD = {"3": "waits for a better scan", "77": "waits for a better scan", "43": "waits for Gadi", "11": "waits for Gadi", "114": "dropped 2026-11-15 by Sinai: Teitelbaum, not included in the corpus"}
 MODEL = DATA / "yolo" / "runs" / "fold0" / "weights" / "best.pt"
 KRAKEN = DATA / ".venv-kraken" / "bin" / "kraken"
 LINE_MODEL = DATA / "kraken-train" / "lines-ft-best.safetensors"  # Kraken fine-tuned on 2,313 RA-checked pages (kraken_gt.py)
