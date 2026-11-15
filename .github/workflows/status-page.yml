@@ -1,0 +1,32 @@
+# Publishes editions/edition-status.html (built by editions/build_edition_registry.py) as the GitHub Pages site,
+# alone: nothing else in the repo is served.
+name: Edition status page
+on:
+  push:
+    branches: [main]
+    paths: [editions/edition-status.html]
+  workflow_dispatch:
+permissions:
+  contents: read
+  pages: write
+  id-token: write
+concurrency:
+  group: pages
+  cancel-in-progress: true
+jobs:
+  deploy:
+    runs-on: ubuntu-latest
+    environment:
+      name: github-pages
+      url: ${{ steps.deployment.outputs.page_url }}
+    steps:
+      - uses: actions/checkout@v4
+        with:
+          sparse-checkout: editions/edition-status.html
+          sparse-checkout-cone-mode: false
+      - run: mkdir site && cp editions/edition-status.html site/index.html && touch site/.nojekyll
+      - uses: actions/upload-pages-artifact@v3
+        with:
+          path: site
+      - id: deployment
+        uses: actions/deploy-pages@v4
