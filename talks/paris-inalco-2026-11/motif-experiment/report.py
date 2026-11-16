@@ -6,7 +6,7 @@ import json
 import statistics as st
 from collections import Counter
 
-from common import HERE, OUT, SAMPLE_TSV, STEP1_DIR, STEP3_DIR
+from common import HERE, OUT, SAMPLE_TSV, STEP1_DIR, STEP3_DIR, LEVELS, LEVEL_NAMES, event_level
 
 META = {m["id"]: m for m in json.loads((OUT / "motif_meta.json").read_text())}
 CH = {"A": "Mythological", "B": "Animals", "C": "Tabu", "D": "Magic", "E": "The dead",
@@ -135,3 +135,25 @@ if RD.exists() and any(RD.glob("*.json")):
     with open(HERE / "results-summary.md", "a") as fh:
         fh.write("\n".join(L3) + "\n")
     print("\n".join(L3))
+
+
+# ---- four-level regrade (after the recall check)
+lv, how = Counter(), Counter()
+for f in sorted(STEP3_DIR.glob("*.json")):
+    d3 = json.loads(f.read_text())
+    fr = OUT / "recall" / f.name
+    rec = {e["n"]: e for e in json.loads(fr.read_text())["events"]} if fr.exists() else {}
+    for e in d3["events"]:
+        picks = e["picks"] or (rec.get(e["n"], {}).get("picks") or [])
+        l, h = event_level(picks, e.get("proposed_branch", ""))
+        lv[l] += 1
+        how[h] += 1
+L4 = [f"\n## Four-level coverage (after the recall check; heading = Thompson tens heading, e.g. V220 Saints)"]
+for i, k in enumerate(LEVELS, 1):
+    L4.append(f"{i}. {LEVEL_NAMES[k]}: {lv[k]} ({pct(lv[k], N)})")
+L4.append(f"- heading-only events: {how['picked']} matched a heading among the candidates, {how['named']} got a heading only "
+          "as the place where the judge would file its proposed new motif")
+L4.append("- rule caveat: a few tens codes read like motifs (e.g. D1450 'Magic object furnishes treasure') and are counted as headings")
+with open(HERE / "results-summary.md", "a") as fh:
+    fh.write("\n".join(L4) + "\n")
+print("\n".join(L4))

@@ -53,6 +53,7 @@ select:focus-visible, .chip:focus-visible, .tagbar:focus-visible { outline: 2px 
   border-left: 4px solid var(--c); cursor: default; position: relative; z-index: 1; }
 .chip code { font: 500 .72rem var(--f-mono); color: var(--c); margin-right: 6px; }
 .chip.broader { border-left-style: dashed; }
+.chip.heading { background: transparent; border: 1px solid var(--rule); border-left: 4px double var(--c); }
 .chip.wider { outline: 1px dashed var(--muted); outline-offset: -1px; }
 .chip.nomotif { --c: var(--gap); background: transparent; border: 1px dashed var(--gap); border-left-width: 4px; color: var(--muted); font-style: italic; }
 .chip.nomotif code { font-style: normal; display: block; }
@@ -88,7 +89,7 @@ svg.links path.hot { stroke: var(--jewish); stroke-opacity: 1; stroke-width: 2.2
 <div class="wrap">
   <header>
     <h1>The Mayse Machine meets the motif indexes</h1>
-    <p class="lede">Twenty Hasidic tales read three ways: as Thompson and Noy motifs, as Propp's functions, and through our own topic tags. The score shows one tale; the flow shows the whole sample.</p>
+    <p class="lede">Each event is graded on four levels: a specific motif fits exactly; only a broader specific motif fits; only a section heading of the index fits (such as V220 Saints); nothing fits. Twenty Hasidic tales read three ways: as Thompson and Noy motifs, as Propp's functions, and through our own topic tags. The score shows one tale; the flow shows the whole sample.</p>
   </header>
   <div class="stats" id="stats"></div>
 
@@ -102,7 +103,8 @@ svg.links path.hot { stroke: var(--jewish); stroke-opacity: 1; stroke-width: 2.2
       <span><i style="background:var(--intl)"></i>Thompson motif, international</span>
       <span><i style="background:var(--jewish)"></i>Thompson motif, flagged Jewish (Neuman)</span>
       <span><i style="background:var(--noy)"></i>Noy only, not in Thompson</span>
-      <span><i style="border:1.5px dashed var(--gap)"></i>no motif fits (proposed motif in italics)</span>
+      <span><i style="border:1.5px dashed var(--gap)"></i>no motif fits: the judge's proposed motif, and the section where Thompson would file it</span>
+      <span><i style="border:1px solid var(--rule)"></i>section heading only (e.g. V220 Saints), not a motif</span>
       <span>dashed edge = broader motif · dotted frame = found only by the wider search</span>
     </div>
     <div class="meta">
@@ -145,9 +147,11 @@ const RL = {same: "same", ours_broader: "our tag broader", motif_broader: "motif
   const none = c.none || 0, noneW = w.none || 0;
   const tr = S.tag_rel, T = Object.values(tr).reduce((a, b) => a + b, 0);
   const pct = (a, b) => Math.round(100 * a / b) + "%";
+  const L = S.levels;
   const cells = [
-    [pct(none, ev), "of events match no motif", S.recall_done ? `after a wider search: ${pct(noneW, ev)}` : `${none} of ${ev} events`],
-    [pct((c.exact || 0), ev), "of events match a motif exactly", `${pct(c.broader || 0, ev)} only by a broader motif`],
+    [pct(L.exact || 0, ev), "of events: a specific motif fits exactly", `${L.exact || 0} of ${ev} events`],
+    [pct(L.broader || 0, ev), "of events: only a broader specific motif", "e.g. 'Saint heals sick' for a healing by touch"],
+    [pct(L.heading || 0, ev), "of events: only a section heading fits", `e.g. V220 Saints; ${pct(L.nothing || 0, ev)} have nothing at all`],
     [S.propp_mean + " / 5", "mean fit to Propp's sequence", `${S.propp_forced}% of the functions found were forced`],
     [pct(tr.no_counterpart || 0, T), "of our tags have no motif counterpart", `${T} tags on ${S.stories} stories`],
   ];
@@ -218,14 +222,14 @@ function draw(s) {
     if (!e.picks.length) {
       const c = document.createElement("div");
       c.className = "chip nomotif";
-      c.innerHTML = `<code>no motif${e.proposed_branch ? " · " + esc(e.proposed_branch) : ""}</code>${esc(e.proposed || "—")}`;
+      c.innerHTML = `<code>no motif fits${e.proposed_branch ? " · would be filed under " + esc(e.proposed_branch) : ""}</code>proposed: ${esc(e.proposed || "—")}`;
       col.appendChild(c);
     }
     e.picks.forEach(p => {
       const c = document.createElement("div");
-      c.className = `chip ${p.grade}${p.wider ? " wider" : ""}`; c.tabIndex = 0;
+      c.className = `chip ${p.grade}${p.wider ? " wider" : ""}${p.heading ? " heading" : ""}`; c.tabIndex = 0;
       c.style.setProperty("--c", KC[p.kind]); c.dataset.code = p.code;
-      c.innerHTML = `<code>${esc(p.code)}</code>${esc(p.title)}`;
+      c.innerHTML = `<code>${esc(p.code)}${p.heading ? " · heading" : ""}</code>${esc(p.title)}`;
       c.addEventListener("mouseenter", ev => showTip(`<b>${esc(p.code)}</b> ${esc(p.title)}<br><span style="color:var(--muted)">${p.grade}${p.wider ? ", wider search" : ""} · ${{intl:"Thompson, international",jewish:"Thompson, flagged Jewish",noy:"Noy only"}[p.kind]}</span><br>${esc(p.why)}`, ev));
       c.addEventListener("mousemove", moveTip); c.addEventListener("mouseleave", hideTip);
       col.appendChild(c);

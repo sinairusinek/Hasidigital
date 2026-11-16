@@ -4,7 +4,7 @@ import csv
 import json
 from collections import Counter
 
-from common import HERE, OUT, SAMPLE_TSV, STEP1_DIR, STEP3_DIR
+from common import HERE, OUT, SAMPLE_TSV, STEP1_DIR, STEP3_DIR, event_level, is_heading
 
 META = {m["id"]: m for m in json.loads((OUT / "motif_meta.json").read_text())}
 CH = {"A": "Mythological", "B": "Animals", "C": "Tabu", "D": "Magic", "E": "The dead",
@@ -49,7 +49,10 @@ for r in csv.DictReader(open(SAMPLE_TSV), delimiter="\t"):
             picks += [{"code": p["code"], "grade": p["grade"], "title": META[p["code"]]["title"],
                        "kind": kind(META[p["code"]]), "why": p.get("why", ""), "wider": True}
                       for p in re_["picks"]]
-        events.append({"n": e["n"], "event": e["event"], "detail": e.get("detail", ""),
+        for p in picks:
+            p["heading"] = is_heading(p["code"])
+        level, how = event_level(picks, e3.get("proposed_branch", ""))
+        events.append({"n": e["n"], "level": level, "level_how": how, "event": e["event"], "detail": e.get("detail", ""),
                        "quote": e.get("quote", ""), "coverage": cov,
                        "coverage_wider": (re_ or {}).get("coverage") if cov == "none" else cov,
                        "picks": picks, "proposed": e3.get("proposed_motif", ""),
@@ -84,13 +87,14 @@ ev = [e for s in stories for e in s["events"]]
 cov = Counter(e["coverage"] for e in ev)
 covw = Counter(e["coverage_wider"] or "none" for e in ev)
 rel = Counter(t["relation"] for s in stories for t in s["tags"])
+levels = Counter(e["level"] for e in ev)
 data = {"stories": stories, "flow": flow, "chapters": CH,
         "stats": {"stories": len(stories), "events": len(ev), "coverage": cov, "coverage_wider": covw,
                   "recall_done": any((OUT / "recall").glob("*.json")) if (OUT / "recall").exists() else False,
                   "propp_mean": round(sum(s["propp"]["fit"] for s in stories) / len(stories), 1),
                   "propp_forced": round(100 * sum(f["strength"] == "forced" for s in stories for f in s["propp"]["functions"])
                                         / sum(len(s["propp"]["functions"]) for s in stories)),
-                  "tag_rel": rel}}
+                  "tag_rel": rel, "levels": levels}}
 VIZ = OUT / "viz"
 VIZ.mkdir(exist_ok=True)
 html = (HERE / "viz_template.html").read_text().replace("/*__DATA__*/null", json.dumps(data, ensure_ascii=False))

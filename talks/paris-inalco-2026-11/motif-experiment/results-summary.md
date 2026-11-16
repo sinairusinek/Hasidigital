@@ -229,3 +229,11 @@ Chapters where proposed new motifs would go: V 108, E 11, D 6, M 4, Q 4, N 3, T 
 - of the 86 'none' events: exact 1, broader 31, still none 54
 - coverage after the check: exact 18 (10%), broader 100 (58%), none 54 (31%)
 - the new finds are mostly very general index headings (e.g. 'Religious services', 'Rude retorts', 'Slanders'); the judge saw only the uncovered events, which may make it more lenient than in step 3
+
+## Four-level coverage (after the recall check; heading = Thompson tens heading, e.g. V220 Saints)
+1. a specific motif fits exactly: 17 (10%)
+2. a broader but specific motif fits: 88 (51%)
+3. only a section heading fits: 67 (39%)
+4. nothing fits, not even a heading: 0 (0%)
+- heading-only events: 10 matched a heading among the candidates, 57 got a heading only as the place where the judge would file its proposed new motif
+- rule caveat: a few tens codes read like motifs (e.g. D1450 'Magic object furnishes treasure') and are counted as headings

@@ -56,3 +56,28 @@ def parse_json(s: str) -> dict:
     else:
         s = s[s.find("{"): s.rfind("}") + 1]
     return json.loads(s)
+
+
+def is_heading(code: str) -> bool:
+    """Thompson's tens headings: no decimal point, ending in 0 (V0, V220, P340, J1350).
+    They group the numbered motifs filed under them. V223 or V223.3 are motifs."""
+    c = re.sub(r"#\d+$", "", code.replace("Noy ", ""))
+    return bool(re.fullmatch(r"[A-Z]\d*0", c))
+
+
+LEVELS = ["exact", "broader", "heading", "nothing"]
+LEVEL_NAMES = {"exact": "a specific motif fits exactly", "broader": "a broader but specific motif fits",
+               "heading": "only a section heading fits", "nothing": "nothing fits, not even a heading"}
+
+
+def event_level(picks, proposed_branch):
+    spec = [p for p in picks if not is_heading(p["code"])]
+    if any(p["grade"] == "exact" for p in spec):
+        return "exact", ""
+    if spec:
+        return "broader", ""
+    if picks:
+        return "heading", "picked"
+    if proposed_branch:
+        return "heading", "named"
+    return "nothing", ""
