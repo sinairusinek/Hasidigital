@@ -98,7 +98,7 @@ def layout_cells(r, c, has_xml):
         when = max(datetime.date.fromtimestamp((BOOKS / d / "uploaded.txt").stat().st_mtime) for d in up).isoformat()
         pp = sum(len(list((BOOKS / d / "layout").glob("*.xml"))) for d in up)
         c["Layout"] = ("done" if len(up) == len(docs) else "part",
-                       f"local layout uploaded to Transkribus {when}, {pp} pp; HTR and correction next")
+                       f"local layout uploaded to Transkribus {when}, {pp} pp; next: review it in Transkribus, collecting layout issues for a fix pass on all books, then HTR")
 
 
 def cells(r, files):

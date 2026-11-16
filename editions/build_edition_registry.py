@@ -338,8 +338,8 @@ def main() -> None:
             step = "re-export from Transkribus (without 'force valid TEI') → pipeline"
         elif main_docs and fin >= 0.9 * pages:
             step = "export from Transkribus → pipeline"
-        elif main_docs and fin == 0 and all((BOOKS / d["docId"] / "uploaded.txt").exists() for d in main_docs):
-            step = "run HTR in Transkribus"
+        elif main_docs and all((BOOKS / d["docId"] / "uploaded.txt").exists() for d in main_docs):
+            step = "review layout in Transkribus (collect issues → layout fix pass, then HTR)"
         elif main_docs and fin + prog > 0:
             step = "finish transcription in Transkribus"
         elif main_docs:
