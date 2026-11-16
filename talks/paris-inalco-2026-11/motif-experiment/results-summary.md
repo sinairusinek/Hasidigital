@@ -216,11 +216,16 @@ Chapters where proposed new motifs would go: V 108, E 11, D 6, M 4, Q 4, N 3, T 
 | experience | 9 / 13 (69%) |
 | spaces | 4 / 9 (44%) |
 | times | 5 / 8 (62%) |
-| characters-and-roles | 4 / 6 (67%) |
 | women | 4 / 6 (67%) |
+| characters-and-roles | 4 / 6 (67%) |
 | folkloristics | 1 / 4 (25%) |
-| not-a-hasidic-story | 1 / 3 (33%) |
 | knowledge | 2 / 3 (67%) |
-| appearance | 1 / 2 (50%) |
+| not-a-hasidic-story | 1 / 3 (33%) |
 | kabbalah | 1 / 2 (50%) |
+| appearance | 1 / 2 (50%) |
 | book | 1 / 1 (100%) |
+
+## Recall check (wider shortlist: e5-large top-60 + e5-base top-40, minus the 25 already shown)
+- of the 86 'none' events: exact 1, broader 31, still none 54
+- coverage after the check: exact 18 (10%), broader 100 (58%), none 54 (31%)
+- the new finds are mostly very general index headings (e.g. 'Religious services', 'Rude retorts', 'Slanders'); the judge saw only the uncovered events, which may make it more lenient than in step 3

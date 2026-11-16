@@ -1,0 +1,317 @@
+<title>Mayse Motif Score</title>
+<meta name="claude:viewport-fit-sides" content="cover">
+<link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=IBM+Plex+Sans:wght@400;500;600&family=IBM+Plex+Mono:wght@400;500&family=IBM+Plex+Serif:ital,wght@0,500;0,600;1,400&family=Frank+Ruhl+Libre:wght@400;500&display=swap">
+<style>
+/* Layout: a reading desk. Header with the four numbers, then the score (one story as parallel tracks), then the flow (whole sample). */
+:root {
+  --bg: #f6f7f9; --panel: #ffffff; --ink: #1b2330; --muted: #5b6575; --rule: #d9dee6;
+  --intl: #2f8f83; --jewish: #4652b8; --noy: #b07a12; --gap: #c2415d;
+  --same: #1b2330; --broad: #6a7486; --track: #eef1f5;
+  --f-display: "IBM Plex Serif", Georgia, serif;
+  --f-body: "IBM Plex Sans", system-ui, sans-serif;
+  --f-mono: "IBM Plex Mono", ui-monospace, monospace;
+  --f-heb: "Frank Ruhl Libre", "Times New Roman", serif;
+}
+@media (prefers-color-scheme: dark) { :root:not([data-theme="light"]) {
+  --bg: #12161d; --panel: #1a2029; --ink: #e5e9ef; --muted: #9aa4b4; --rule: #2c3442;
+  --intl: #4fb8a9; --jewish: #8a94f0; --noy: #d9a440; --gap: #e66a85;
+  --same: #e5e9ef; --broad: #8f99aa; --track: #222a35; color-scheme: dark } }
+:root[data-theme="dark"] {
+  --bg: #12161d; --panel: #1a2029; --ink: #e5e9ef; --muted: #9aa4b4; --rule: #2c3442;
+  --intl: #4fb8a9; --jewish: #8a94f0; --noy: #d9a440; --gap: #e66a85;
+  --same: #e5e9ef; --broad: #8f99aa; --track: #222a35; color-scheme: dark }
+body { background: var(--bg); color: var(--ink); font: 15px/1.5 var(--f-body); }
+.wrap { max-width: 1280px; margin: 0 auto; padding-block: 28px 64px;
+  padding-left: max(16px, env(safe-area-inset-left, 0px)); padding-right: max(16px, env(safe-area-inset-right, 0px));
+  display: grid; gap: 28px; }
+h1, h2 { font-family: var(--f-display); font-weight: 600; text-wrap: balance; margin: 0; }
+h1 { font-size: 1.9rem; line-height: 1.15; }
+h2 { font-size: 1.35rem; }
+.lede { color: var(--muted); max-width: 70ch; margin: 6px 0 0; }
+.stats { display: grid; grid-template-columns: repeat(auto-fit, minmax(190px, 1fr)); gap: 12px; }
+.stat { background: var(--panel); border: 1px solid var(--rule); border-radius: 6px; padding: 12px 14px; display: grid; gap: 2px; }
+.stat b { font: 600 1.6rem/1.1 var(--f-display); font-variant-numeric: tabular-nums; }
+.stat span { color: var(--muted); font-size: .85rem; }
+.stat em { font-style: normal; font-size: .8rem; color: var(--muted); }
+section { display: grid; gap: 12px; }
+.bar { display: flex; flex-wrap: wrap; gap: 10px 18px; align-items: center; }
+select { font: inherit; padding: 6px 8px; border: 1px solid var(--rule); border-radius: 5px; background: var(--panel); color: var(--ink); max-width: 100%; }
+select:focus-visible, .chip:focus-visible, .tagbar:focus-visible { outline: 2px solid var(--jewish); outline-offset: 2px; }
+.legend { display: flex; flex-wrap: wrap; gap: 6px 16px; font-size: .82rem; color: var(--muted); }
+.legend i { display: inline-block; width: 12px; height: 12px; border-radius: 3px; vertical-align: -1px; margin-right: 5px; }
+.meta { display: grid; grid-template-columns: minmax(0, 2fr) minmax(0, 1fr); gap: 16px; }
+@media (max-width: 760px) { .meta { grid-template-columns: minmax(0, 1fr); } }
+.meta p { margin: 0; max-width: 75ch; }
+.meta .small { font-size: .88rem; color: var(--muted); }
+.meta a { color: var(--jewish); }
+.scroller { overflow: auto; max-height: 78vh; background: var(--panel); border: 1px solid var(--rule); border-radius: 6px; overscroll-behavior: contain; }
+.score { position: relative; display: grid; gap: 8px 6px; padding: 14px; min-width: 640px; }
+.rowlab { font: 500 .72rem var(--f-mono); letter-spacing: .06em; text-transform: uppercase; color: var(--muted); align-self: end;
+  position: sticky; top: 0; background: var(--panel); z-index: 3; padding-block: 4px; }
+.mcol { display: flex; flex-direction: column; gap: 5px; align-self: center; min-width: 0; }
+.chip { font-size: .78rem; line-height: 1.3; padding: 5px 8px; border-radius: 4px; background: var(--track);
+  border-left: 4px solid var(--c); cursor: default; position: relative; z-index: 1; }
+.chip code { font: 500 .72rem var(--f-mono); color: var(--c); margin-right: 6px; }
+.chip.broader { border-left-style: dashed; }
+.chip.wider { outline: 1px dashed var(--muted); outline-offset: -1px; }
+.chip.nomotif { --c: var(--gap); background: transparent; border: 1px dashed var(--gap); border-left-width: 4px; color: var(--muted); font-style: italic; }
+.chip.nomotif code { font-style: normal; display: block; }
+.event { background: var(--ink); color: var(--bg); border-radius: 5px; padding: 8px 10px; font-size: .84rem; line-height: 1.35; position: relative; z-index: 1; align-self: center; min-width: 0; }
+.event .n { font: 500 .7rem var(--f-mono); opacity: .7; margin-right: 6px; }
+.event .he { font-family: var(--f-heb); direction: rtl; display: block; margin-top: 5px; font-size: .92rem; opacity: .85; }
+.propp { display: flex; flex-direction: column; align-items: center; justify-content: center; gap: 4px; }
+.pf { font: 500 .74rem var(--f-mono); padding: 2px 6px; border-radius: 3px; border: 1px solid var(--ink); }
+.pf.forced { border-style: dashed; color: var(--muted); border-color: var(--muted); }
+.tagbar { font-size: .74rem; padding: 6px 3px; border-radius: 4px; background: var(--track); border: 1.5px solid var(--rc);
+  writing-mode: vertical-rl; transform: rotate(180deg); white-space: nowrap; overflow: hidden; text-overflow: ellipsis;
+  position: relative; z-index: 1; cursor: default; justify-self: center; width: 26px; text-align: center; }
+.tagbar small { font: .66rem var(--f-mono); color: var(--muted); margin-bottom: 4px; }
+.tagbar[data-rel="no_counterpart"] { border-style: dashed; }
+.wholestory { display: flex; flex-wrap: wrap; gap: 5px; padding-bottom: 6px; border-bottom: 1px solid var(--rule); }
+.wholestory .tagbar { writing-mode: horizontal-tb; transform: none; width: auto; padding: 4px 8px; }
+.wholestory .tagbar small { margin: 0 4px 0 0; }
+svg.links { position: absolute; inset: 0; pointer-events: none; z-index: 0; overflow: visible; }
+svg.links path { fill: none; stroke: var(--muted); stroke-opacity: .35; stroke-width: 1.3; }
+svg.links path.hot { stroke: var(--jewish); stroke-opacity: 1; stroke-width: 2.2; }
+.dim { opacity: .28; }
+#tip { position: fixed; z-index: 20; max-width: 340px; background: var(--panel); color: var(--ink); border: 1px solid var(--rule);
+  border-radius: 6px; padding: 9px 11px; font-size: .82rem; box-shadow: 0 6px 24px rgba(0,0,0,.18); pointer-events: none; }
+#tip .he { font-family: var(--f-heb); direction: rtl; display: block; font-size: .95rem; }
+#flowbox { background: var(--panel); border: 1px solid var(--rule); border-radius: 6px; overflow-x: auto; }
+#flow { display: block; min-width: 680px; width: 100%; }
+#flow text { fill: var(--ink); font: 12px var(--f-body); }
+#flow text.num { fill: var(--muted); font: 11px var(--f-mono); }
+.caveat { font-size: .85rem; color: var(--muted); max-width: 80ch; margin: 0; }
+@media (prefers-reduced-motion: no-preference) { svg.links path, .chip, .tagbar { transition: opacity .15s, stroke-opacity .15s; } }
+</style>
+
+<div class="wrap">
+  <header>
+    <h1>The Mayse Machine meets the motif indexes</h1>
+    <p class="lede">Twenty Hasidic tales read three ways: as Thompson and Noy motifs, as Propp's functions, and through our own topic tags. The score shows one tale; the flow shows the whole sample.</p>
+  </header>
+  <div class="stats" id="stats"></div>
+
+  <section>
+    <div class="bar">
+      <h2>One tale as a score</h2>
+      <label for="pick" class="rowlab" style="align-self:center">Story</label>
+      <select id="pick"></select>
+    </div>
+    <div class="legend">
+      <span><i style="background:var(--intl)"></i>Thompson motif, international</span>
+      <span><i style="background:var(--jewish)"></i>Thompson motif, flagged Jewish (Neuman)</span>
+      <span><i style="background:var(--noy)"></i>Noy only, not in Thompson</span>
+      <span><i style="border:1.5px dashed var(--gap)"></i>no motif fits (proposed motif in italics)</span>
+      <span>dashed edge = broader motif · dotted frame = found only by the wider search</span>
+    </div>
+    <div class="meta">
+      <p id="summary"></p>
+      <p class="small" id="aside"></p>
+    </div>
+    <div class="scroller"><div class="score" id="score"><svg class="links" id="links"></svg></div></div>
+    <div class="legend">
+      <span>Our tags, by relation to the motifs:</span>
+      <span><i style="border:1.5px solid var(--same)"></i>same</span>
+      <span><i style="border:1.5px solid var(--broad)"></i>broader on one side</span>
+      <span><i style="border:1.5px dashed var(--gap)"></i>no motif counterpart</span>
+      <span>Hover a tag to see which motifs it meets. The panel scrolls.</span>
+    </div>
+  </section>
+
+  <section>
+    <h2>The whole sample as a flow</h2>
+    <p class="caveat">Left: our tag categories. Right: Thompson's chapters (Noy motifs sorted into the same letters). Each band unit is one correspondence between a tag and a motif in one story. A tag with no motif runs to “no motif”; a motif none of our tags covers starts at “no tag”.</p>
+    <div id="flowbox"><svg id="flow"></svg></div>
+  </section>
+
+  <p class="caveat" id="caveat">All judgments (events, motif matches, Propp functions, tag correspondences) are Claude Opus 5.5's, not yet checked by a person. Motif candidates come from an embedding search over 52,423 titles (Thompson's revised index and Noy's additions); the judge chose among the shortlisted motifs or rejected all of them.</p>
+</div>
+<div id="tip" hidden></div>
+
+<script src="https://cdnjs.cloudflare.com/ajax/libs/d3/7.8.5/d3.min.js"></script>
+<script src="https://cdn.jsdelivr.net/npm/d3-sankey@0.12.3/dist/d3-sankey.min.js"></script>
+<script>
+const DATA = /*__DATA__*/null;
+const $ = s => document.querySelector(s);
+const esc = s => String(s ?? "").replace(/[&<>"]/g, c => ({"&":"&amp;","<":"&lt;",">":"&gt;",'"':"&quot;"}[c]));
+const KC = {intl: "var(--intl)", jewish: "var(--jewish)", noy: "var(--noy)"};
+const RC = {same: "var(--same)", ours_broader: "var(--broad)", motif_broader: "var(--broad)", no_counterpart: "var(--gap)"};
+const RL = {same: "same", ours_broader: "our tag broader", motif_broader: "motif broader", no_counterpart: "no motif counterpart"};
+
+// ---- stats
+(function () {
+  const S = DATA.stats, ev = S.events, c = S.coverage, w = S.coverage_wider;
+  const none = c.none || 0, noneW = w.none || 0;
+  const tr = S.tag_rel, T = Object.values(tr).reduce((a, b) => a + b, 0);
+  const pct = (a, b) => Math.round(100 * a / b) + "%";
+  const cells = [
+    [pct(none, ev), "of events match no motif", S.recall_done ? `after a wider search: ${pct(noneW, ev)}` : `${none} of ${ev} events`],
+    [pct((c.exact || 0), ev), "of events match a motif exactly", `${pct(c.broader || 0, ev)} only by a broader motif`],
+    [S.propp_mean + " / 5", "mean fit to Propp's sequence", `${S.propp_forced}% of the functions found were forced`],
+    [pct(tr.no_counterpart || 0, T), "of our tags have no motif counterpart", `${T} tags on ${S.stories} stories`],
+  ];
+  $("#stats").innerHTML = cells.map(([b, s, e]) => `<div class="stat"><b>${b}</b><span>${s}</span><em>${e}</em></div>`).join("");
+})();
+
+// ---- tooltip
+const tip = $("#tip");
+function showTip(html, ev) { tip.innerHTML = html; tip.hidden = false; moveTip(ev); }
+function moveTip(ev) {
+  const x = Math.min(ev.clientX + 14, innerWidth - tip.offsetWidth - 8), y = Math.min(ev.clientY + 14, innerHeight - tip.offsetHeight - 8);
+  tip.style.left = x + "px"; tip.style.top = y + "px";
+}
+function hideTip() { tip.hidden = true; }
+
+// ---- score
+const sel = $("#pick");
+DATA.stories.forEach((s, i) => sel.add(new Option(`${s.id} · ${s.genre.slice(0, 70)}`, i)));
+const start = Math.max(0, DATA.stories.findIndex(s => s.id === "Khal-Hasidim_0046"));
+sel.value = start;
+sel.addEventListener("change", () => draw(DATA.stories[+sel.value]));
+
+function packLanes(tags) {
+  const lanes = [];
+  for (const t of tags) {
+    const lane = lanes.find(L => L.every(u => u.hi < t.lo || u.lo > t.hi));
+    lane ? lane.push(t) : lanes.push([t]);
+  }
+  return lanes;
+}
+
+function draw(s) {
+  const box = $("#score");
+  box.querySelectorAll(":scope > :not(svg)").forEach(n => n.remove());
+  const N = s.events.length;
+  const idx = Object.fromEntries(s.events.map((e, i) => [e.n, i]));
+  const spanned = s.tags.filter(t => (t.events || []).some(n => n in idx)).map(t => {
+    const is = t.events.filter(n => n in idx).map(n => idx[n]);
+    return {...t, lo: Math.min(...is), hi: Math.max(...is)};
+  }).sort((a, b) => a.lo - b.lo || b.hi - a.hi);
+  const whole = s.tags.filter(t => !(t.events || []).some(n => n in idx));
+  const lanes = packLanes(spanned), NL = Math.max(1, lanes.length);
+  // columns: tag lanes | Propp | event | motifs
+  box.style.gridTemplateColumns = `repeat(${NL}, 30px) 54px minmax(200px, 1fr) minmax(240px, 1.3fr)`;
+  const cP = NL + 1, cE = NL + 2, cM = NL + 3;
+  const add = (html, col, row, span = 1, cls = "", rspan = 1) => {
+    const d = document.createElement("div");
+    d.className = cls; d.innerHTML = html;
+    d.style.gridColumn = `${col} / span ${span}`; d.style.gridRow = `${row} / span ${rspan}`;
+    box.appendChild(d); return d;
+  };
+  add("Our tags", 1, 1, NL, "rowlab"); add("Propp", cP, 1, 1, "rowlab"); add("Events", cE, 1, 1, "rowlab"); add("Motifs", cM, 1, 1, "rowlab");
+  const tagEls = [];
+  const tagHtml = t => { const [cat, sub] = t.tag.split(":"); return `<small>${esc(cat)}</small> ${esc(sub)}`; };
+  const R0 = whole.length ? 3 : 2;
+  if (whole.length) {
+    const w = add(`<span class="rowlab" style="position:static;padding:0;align-self:center">Whole tale</span>`, 1, 2, cM, "wholestory");
+    whole.forEach(t => { const d = document.createElement("div"); d.className = "tagbar"; d.innerHTML = tagHtml(t); w.appendChild(d); tagEls.push([d, t]); });
+  }
+  s.events.forEach((e, i) => {
+    const row = R0 + i;
+    const pf = s.propp.functions.filter(f => f.event_n === e.n);
+    add(pf.map(f => `<span class="pf ${f.strength}" title="${esc(f.name)}: ${esc(f.why)}">${esc(f.symbol)}</span>`).join(""), cP, row, 1, "propp");
+    const evd = add(`<span class="n">${e.n}</span>${esc(e.event)}<span class="he">${esc(e.quote)}</span>`, cE, row, 1, "event");
+    evd.addEventListener("mouseenter", ev => showTip(`${esc(e.detail)}<span class="he">${esc(e.quote)}</span>`, ev));
+    evd.addEventListener("mousemove", moveTip); evd.addEventListener("mouseleave", hideTip);
+    const col = add("", cM, row, 1, "mcol");
+    if (!e.picks.length) {
+      const c = document.createElement("div");
+      c.className = "chip nomotif";
+      c.innerHTML = `<code>no motif${e.proposed_branch ? " · " + esc(e.proposed_branch) : ""}</code>${esc(e.proposed || "—")}`;
+      col.appendChild(c);
+    }
+    e.picks.forEach(p => {
+      const c = document.createElement("div");
+      c.className = `chip ${p.grade}${p.wider ? " wider" : ""}`; c.tabIndex = 0;
+      c.style.setProperty("--c", KC[p.kind]); c.dataset.code = p.code;
+      c.innerHTML = `<code>${esc(p.code)}</code>${esc(p.title)}`;
+      c.addEventListener("mouseenter", ev => showTip(`<b>${esc(p.code)}</b> ${esc(p.title)}<br><span style="color:var(--muted)">${p.grade}${p.wider ? ", wider search" : ""} · ${{intl:"Thompson, international",jewish:"Thompson, flagged Jewish",noy:"Noy only"}[p.kind]}</span><br>${esc(p.why)}`, ev));
+      c.addEventListener("mousemove", moveTip); c.addEventListener("mouseleave", hideTip);
+      col.appendChild(c);
+    });
+  });
+  lanes.forEach((L, li) => L.forEach(t => {
+    const d = add(tagHtml(t), 1 + li, R0 + t.lo, 1, "tagbar", t.hi - t.lo + 1);
+    d.style.alignSelf = "stretch";
+    tagEls.push([d, t]);
+  }));
+  tagEls.forEach(([d, t]) => {
+    d.tabIndex = 0; d.dataset.rel = t.relation; d.style.setProperty("--rc", RC[t.relation] || "var(--broad)");
+    d.title = t.tag;
+    const on = ev => { highlight(t); showTip(`<b>${esc(t.tag)}</b><br><span style="color:var(--muted)">${RL[t.relation] || t.relation}${(t.propp || []).length ? " · Propp " + t.propp.map(esc).join(", ") : ""}</span><br>${esc(t.why)}`, ev); };
+    d.addEventListener("mouseenter", on); d.addEventListener("focus", () => highlight(t));
+    d.addEventListener("mousemove", moveTip);
+    d.addEventListener("mouseleave", () => { highlight(null); hideTip(); }); d.addEventListener("blur", () => highlight(null));
+  });
+  $("#summary").innerHTML = `${esc(s.summary)} <a href="${esc(s.url)}" target="_blank" rel="noopener">Read the tale</a>`;
+  $("#aside").innerHTML = `<b>Propp fit ${s.propp.fit}/5.</b> ${esc(s.propp.fit_reason)}<br><br>${esc(s.note)}`;
+  box._tags = tagEls;
+  box.parentElement.scrollTop = 0;
+  requestAnimationFrame(() => links(box));
+}
+
+function links(box) {
+  const svg = $("#links"), B = box.getBoundingClientRect();
+  svg.setAttribute("width", box.scrollWidth); svg.setAttribute("height", box.scrollHeight);
+  let html = "";
+  for (const [d, t] of box._tags) {
+    const r = d.getBoundingClientRect(), inWhole = !!d.closest(".wholestory");
+    for (const code of t.motifs || []) {
+      box.querySelectorAll(`.chip[data-code="${CSS.escape(code)}"]`).forEach(c => {
+        const q = c.getBoundingClientRect();
+        const x2 = q.left - B.left, y2 = q.top + q.height / 2 - B.top;
+        let x1, y1;
+        if (inWhole) { x1 = r.left + r.width / 2 - B.left; y1 = r.bottom - B.top; }
+        else { x1 = r.right - B.left; y1 = Math.min(Math.max(y2, r.top - B.top + 6), r.bottom - B.top - 6); }
+        const mx = (x1 + x2) / 2;
+        html += inWhole ? `<path data-tag="${esc(t.tag)}" d="M${x1},${y1} C${x1},${y2} ${x1},${y2} ${x2},${y2}"/>`
+                        : `<path data-tag="${esc(t.tag)}" d="M${x1},${y1} C${mx},${y1} ${mx},${y2} ${x2},${y2}"/>`;
+      });
+    }
+  }
+  svg.innerHTML = html;
+}
+
+function highlight(t) {
+  const box = $("#score");
+  box.querySelectorAll("svg.links path").forEach(p => p.classList.toggle("hot", !!t && p.dataset.tag === t.tag));
+  const codes = new Set(t ? t.motifs || [] : []);
+  box.querySelectorAll(".chip[data-code]").forEach(c => c.classList.toggle("dim", !!t && !codes.has(c.dataset.code)));
+  box._tags.forEach(([d, u]) => d.classList.toggle("dim", !!t && u !== t));
+}
+addEventListener("resize", () => links($("#score")));
+draw(DATA.stories[start]);
+
+// ---- flow
+function drawFlow() {
+  const svg = d3.select("#flow"), W = Math.max(680, $("#flowbox").clientWidth), H = 560;
+  svg.attr("viewBox", `0 0 ${W} ${H}`).attr("height", H).selectAll("*").remove();
+  const CH = DATA.chapters;
+  const names = new Set(); DATA.flow.forEach(l => { names.add("L:" + l.source); names.add("R:" + l.target); });
+  const nodes = [...names].map(id => ({id}));
+  const links = DATA.flow.map(l => ({source: "L:" + l.source, target: "R:" + l.target, value: l.value}));
+  const sk = d3.sankey().nodeId(d => d.id).nodeWidth(12).nodePadding(7).extent([[150, 10], [W - 190, H - 10]])
+    .nodeSort((a, b) => (a.id.includes("∅") - b.id.includes("∅")) || (b.value - a.value));
+  const g = sk({nodes: nodes.map(d => ({...d})), links: links.map(d => ({...d}))});
+  const css = getComputedStyle(document.documentElement);
+  const col = n => n.id.includes("∅") ? css.getPropertyValue("--gap") : n.id.startsWith("L:") ? css.getPropertyValue("--ink") : css.getPropertyValue("--jewish");
+  svg.append("g").selectAll("path").data(g.links).join("path")
+    .attr("d", d3.sankeyLinkHorizontal()).attr("fill", "none")
+    .attr("stroke", d => (d.target.id.includes("∅") || d.source.id.includes("∅")) ? css.getPropertyValue("--gap") : css.getPropertyValue("--broad"))
+    .attr("stroke-opacity", d => (d.target.id.includes("∅") || d.source.id.includes("∅")) ? .35 : .28)
+    .attr("stroke-width", d => Math.max(1, d.width))
+    .append("title").text(d => `${d.source.id.slice(2)} → ${label(d.target)}: ${d.value}`);
+  svg.append("g").selectAll("rect").data(g.nodes).join("rect")
+    .attr("x", d => d.x0).attr("y", d => d.y0).attr("width", d => d.x1 - d.x0).attr("height", d => Math.max(1, d.y1 - d.y0))
+    .attr("fill", col).append("title").text(d => `${label(d)}: ${d.value}`);
+  function label(d) { const k = d.id.slice(2); return d.id.startsWith("R:") && CH[k] ? `${k} ${CH[k]}` : k; }
+  const lab = svg.append("g").selectAll("text").data(g.nodes).join("text")
+    .attr("x", d => d.id.startsWith("L:") ? d.x0 - 8 : d.x1 + 8).attr("y", d => (d.y0 + d.y1) / 2).attr("dy", ".35em")
+    .attr("text-anchor", d => d.id.startsWith("L:") ? "end" : "start");
+  lab.append("tspan").text(label);
+  lab.append("tspan").attr("class", "num").attr("dx", 6).text(d => d.value);
+}
+drawFlow();
+addEventListener("resize", () => { clearTimeout(drawFlow.t); drawFlow.t = setTimeout(drawFlow, 150); });
+</script>

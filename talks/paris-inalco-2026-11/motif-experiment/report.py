@@ -116,3 +116,22 @@ for c in sorted({c for c, _ in cat}, key=lambda c: -(cat[(c, True)] + cat[(c, Fa
 with open(HERE / "results-summary.md", "a") as fh:
     fh.write("\n".join(L2) + "\n")
 print("\n".join(L2))
+
+# ---- recall check
+RD = OUT / "recall"
+if RD.exists() and any(RD.glob("*.json")):
+    rc = Counter()
+    for f in RD.glob("*.json"):
+        for e in json.loads(f.read_text())["events"]:
+            rc[e.get("coverage", "none") if e.get("picks") else "none"] += 1
+    R = sum(rc.values())
+    after = {"exact": ev_cov["exact"] + rc["exact"], "broader": ev_cov["broader"] + rc["broader"], "none": rc["none"]}
+    L3 = [f"\n## Recall check (wider shortlist: e5-large top-60 + e5-base top-40, minus the 25 already shown)",
+          f"- of the {R} 'none' events: exact {rc['exact']}, broader {rc['broader']}, still none {rc['none']}",
+          f"- coverage after the check: exact {after['exact']} ({pct(after['exact'], N)}), broader {after['broader']} "
+          f"({pct(after['broader'], N)}), none {after['none']} ({pct(after['none'], N)})",
+          "- the new finds are mostly very general index headings (e.g. 'Religious services', 'Rude retorts', 'Slanders'); "
+          "the judge saw only the uncovered events, which may make it more lenient than in step 3"]
+    with open(HERE / "results-summary.md", "a") as fh:
+        fh.write("\n".join(L3) + "\n")
+    print("\n".join(L3))
