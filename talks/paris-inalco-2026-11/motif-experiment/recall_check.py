@@ -27,7 +27,7 @@ def none_events():
     out = {}
     for f in sorted(STEP3_DIR.glob("*.json")):
         d3 = json.loads(f.read_text())
-        ns = [e["n"] for e in d3["events"] if e.get("coverage") == "none"]
+        ns = [int(e["n"]) for e in d3["events"] if e.get("coverage") == "none" and str(e["n"]).isdigit()]
         if ns:
             out[d3["story_id"]] = ns
     return out
@@ -49,7 +49,9 @@ def shortlists(todo):
         shown = {sl["n"]: {c["idx"] for c in sl["candidates"]} for sl in SHORT[sid]}
         res[sid] = {}
         for n in ns:
-            e = evs[n]
+            if int(n) not in evs:      # judge returned an event number step 1 did not produce
+                continue
+            e = evs[int(n)]
             qs = [e["event"], e["event"] + " " + e.get("detail", "")]
             sL = (embed(qs, large, "query: ") @ ML.T).max(0)
             sB = (embed(qs, base, "query: ") @ MB.T).max(0)
@@ -98,7 +100,9 @@ if __name__ == "__main__":
         cache.write_text(json.dumps(sls))
     if "--embed-only" in sys.argv:
         sys.exit()
-    texts = {r["story_id"]: r["text"] for r in csv.DictReader(open(SAMPLE_TSV), delimiter="\t")}
+    texts = {}
+    for fn in HERE.glob("sample*.tsv"):          # every sample run so far (pilot, rounds)
+        texts.update({r["story_id"]: r["text"] for r in csv.DictReader(open(fn), delimiter="\t")})
     with ThreadPoolExecutor(3) as ex:
         for sid, msg in ex.map(judge, [(s, c, texts[s]) for s, c in sls.items()]):
             print(sid, msg, flush=True)

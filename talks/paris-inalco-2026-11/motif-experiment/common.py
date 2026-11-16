@@ -20,7 +20,7 @@ MOTIFS = REPO / "private" / "motif-indexes"
 OUT = REPO / "private" / "motif-experiment"
 OUT.mkdir(parents=True, exist_ok=True)
 
-SAMPLE_TSV = HERE / "sample.tsv"
+SAMPLE_TSV = Path(os.environ.get("MOTIF_SAMPLE", HERE / "sample.tsv"))
 STEP1_DIR = OUT / "step1"          # per-story events + Propp JSON
 STEP2_JSON = OUT / "shortlists.json"
 STEP3_DIR = OUT / "step3"          # per-story motif picks JSON
