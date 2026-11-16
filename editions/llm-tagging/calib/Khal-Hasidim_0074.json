@@ -1,0 +1,132 @@
+{
+ "unit": {
+  "kind": "hasidic_story",
+  "why": "A single anecdote about the Besht, who on his way to Chmielnik heard a heavenly proclamation that R. Yosef the teacher would die and refused to heal him; the man recovered through a doctor but then died from the doctor's ointment.",
+  "boundary_note": ""
+ },
+ "stories": [
+  {
+   "k": 1,
+   "start_quote": "שוב שמעתי ממנו פ״א בדרך נסיעתו",
+   "end_quote": "מחמת קול הכרוז ששמע",
+   "hasidic": true,
+   "summary_en": "The Besht hears a heavenly proclamation that R. Yosef the teacher of Chmielnik will die and refuses payment to heal him; a doctor cures him, but an ointment the doctor gives him against head lice kills him, and the Besht then explains his refusal.",
+   "tags": [
+    {
+     "tag": "folkloristics:story_type_prognostication",
+     "scope": "story",
+     "quotes": [],
+     "confidence": 3,
+     "why": "The plot is the fulfilment of the decree the Besht heard, despite the apparent recovery.",
+     "quotes_failed": false
+    },
+    {
+     "tag": "supernatural:prognostication",
+     "scope": "span",
+     "quotes": [
+      "שמע כרוז על ר׳ יוסף מלמד מק\"ק הנ\"ל שימות",
+      "ומשח את ראשו בזה המשיחה ומת"
+     ],
+     "confidence": 3,
+     "why": "The announced death comes true.",
+     "quotes_failed": false
+    },
+    {
+     "tag": "supernatural:communicating_with_the_invisible",
+     "scope": "span",
+     "quotes": [
+      "שמע כרוז על ר׳ יוסף מלמד"
+     ],
+     "confidence": 3,
+     "why": "The Besht hears a heavenly proclamation.",
+     "quotes_failed": false
+    },
+    {
+     "tag": "supernatural:perception",
+     "scope": "span",
+     "quotes": [
+      "שמע כרוז על ר׳ יוסף מלמד"
+     ],
+     "confidence": 2,
+     "why": "He has supernatural knowledge of the decree.",
+     "quotes_failed": false
+    },
+    {
+     "tag": "practice:the_travels_of_the_tsaddik",
+     "scope": "span",
+     "quotes": [
+      "בדרך נסיעתו של הבעש״ט ל חמעלניק",
+      "חזר הבעש״ט לעיר הנ\"ל"
+     ],
+     "confidence": 3,
+     "why": "The events unfold during the Besht's journey and his return through the town.",
+     "quotes_failed": false
+    },
+    {
+     "tag": "practice:healing",
+     "scope": "span",
+     "quotes": [
+      "ורצו לשלם לו שירפא אותו ולא רצה לרפאות",
+      "בא דאקטר אליו וריפא אותו והבריא"
+     ],
+     "confidence": 3,
+     "why": "The townspeople request healing, the Besht refuses, and a doctor heals the man.",
+     "quotes_failed": false
+    },
+    {
+     "tag": "times:death",
+     "scope": "span",
+     "quotes": [
+      "ומשח את ראשו בזה המשיחה ומת"
+     ],
+     "confidence": 3,
+     "why": "R. Yosef's death is depicted.",
+     "quotes_failed": false
+    },
+    {
+     "tag": "social:retrospective_recognition",
+     "scope": "span",
+     "quotes": [
+      "אז גילה הבעש״ט טעמו שלא רצה לרפאותו"
+     ],
+     "confidence": 2,
+     "why": "The Besht's reason for refusing becomes clear only after the death.",
+     "quotes_failed": false
+    },
+    {
+     "tag": "practice:storytelling",
+     "scope": "span",
+     "quotes": [
+      "שוב שמעתי ממנו"
+     ],
+     "confidence": 1,
+     "why": "The tale is framed as heard orally from an informant.",
+     "quotes_failed": false
+    },
+    {
+     "tag": "practice:torat_ha_tsaddik",
+     "scope": "span",
+     "quotes": [
+      "ורצו לשלם לו שירפא אותו"
+     ],
+     "confidence": 1,
+     "why": "The townspeople appeal to the tsaddik's power to intercede.",
+     "quotes_failed": false
+    }
+   ],
+   "missing_concepts": [
+    "heavenly decree (gezerah) that cannot be averted",
+    "tsaddik vs. physician",
+    "tsaddik's unexplained refusal to intervene"
+   ],
+   "start_quote_found": true,
+   "end_quote_found": true
+  }
+ ],
+ "check": {
+  "non_vocab_tags": [],
+  "quotes": 12,
+  "quotes_not_found": 0
+ },
+ "id": "Khal-Hasidim_0074"
+}

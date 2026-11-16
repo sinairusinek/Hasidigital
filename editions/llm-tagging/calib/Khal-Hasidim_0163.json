@@ -1,0 +1,130 @@
+{
+ "unit": {
+  "kind": "hasidic_story",
+  "why": "A single narrative about R. Leib, who goes to fairs and shows his disciples a dead soul he has given a tikkun there.",
+  "boundary_note": "Opens with 'ועוד היה דרכו של הרב הנ\"ל', so the protagonist is introduced in an earlier division; the story itself is self-contained."
+ },
+ "stories": [
+  {
+   "k": 1,
+   "start_quote": "ועוד היה דרכו של הרב הנ\"ל",
+   "end_quote": "כוונתו לצורך הנ\"ל וד\"ל",
+   "hasidic": true,
+   "summary_en": "R. Leib used to spend whole fairs in a rented shop; when his disciples pressed him, he showed them a porter whom he had whispered to, who quit his job and turned out to be a dead man in shrouds, a soul wandering in the world of chaos whom the rabbi had given a tikkun; the fairs also served him to collect money for tzaddikim.",
+   "tags": [
+    {
+     "tag": "practice:the_travels_of_the_tsaddik",
+     "scope": "span",
+     "quotes": [
+      "בכל היארידן הגדולים היה נוסע והיה שוכר חנות"
+     ],
+     "confidence": 3,
+     "why": "The tzaddik's travels to the fairs frame the story.",
+     "quotes_failed": false
+    },
+    {
+     "tag": "practice:healing_of_the_soul",
+     "scope": "span",
+     "quotes": [
+      "ועתה הגיד לי הרב ונתן לי תיקון"
+     ],
+     "confidence": 3,
+     "why": "The rabbi gives a tikkun to a wandering dead soul.",
+     "quotes_failed": false
+    },
+    {
+     "tag": "supernatural:perception",
+     "scope": "span",
+     "quotes": [
+      "ויקרא אותו הרב וידבר עמו מפה לאזן"
+     ],
+     "confidence": 2,
+     "why": "The rabbi recognizes the dead soul among the living.",
+     "quotes_failed": false
+    },
+    {
+     "tag": "social:retrospective_recognition",
+     "scope": "span",
+     "quotes": [
+      "ראו התלמידים כי הוא הולך בתכריכין",
+      "ואז הבינו התלמידים כוונת נסיעתו על היארידים"
+     ],
+     "confidence": 3,
+     "why": "The disciples belatedly grasp who the porter is and why the rabbi goes to fairs.",
+     "quotes_failed": false
+    },
+    {
+     "tag": "social:inter_hasidic_master_disciple_relationship",
+     "scope": "span",
+     "quotes": [
+      "הראה פעם אחד לתלמידיו אשר הפציר בו מאוד"
+     ],
+     "confidence": 2,
+     "why": "The disciples press the master, and he teaches them by showing them.",
+     "quotes_failed": false
+    },
+    {
+     "tag": "supernatural:reincarnation",
+     "scope": "span",
+     "quotes": [
+      "נע ונד הייתי בעולם התוהו ולא ידעתי כי מת אנכי"
+     ],
+     "confidence": 1,
+     "why": "A wandering soul of the dead; not strictly a gilgul.",
+     "quotes_failed": false
+    },
+    {
+     "tag": "supernatural:communicating_with_the_invisible",
+     "scope": "span",
+     "quotes": [
+      "וישביעו אותו להגיד להם האמת"
+     ],
+     "confidence": 1,
+     "why": "The disciples adjure and question a dead soul.",
+     "quotes_failed": false
+    },
+    {
+     "tag": "ethics-and-emotions:charity",
+     "scope": "span",
+     "quotes": [
+      "אסף וקיבץ מעות לצורך הצדיקים הנ\"ל"
+     ],
+     "confidence": 2,
+     "why": "He collects money at the fairs for tzaddikim.",
+     "quotes_failed": false
+    },
+    {
+     "tag": "times:death",
+     "scope": "span",
+     "quotes": [
+      "ולא ידעתי כי מת אנכי זה כמה"
+     ],
+     "confidence": 1,
+     "why": "The porter's death is central to the story, though it happened before the story begins.",
+     "quotes_failed": false
+    },
+    {
+     "tag": "social:relations_with_non_jews",
+     "scope": "story",
+     "quotes": [],
+     "confidence": 1,
+     "why": "The fair is a mixed market setting; this is weak.",
+     "quotes_failed": false
+    }
+   ],
+   "missing_concepts": [
+    "wandering dead souls in the world of chaos (עולם התוהו) / restless dead",
+    "fair (יריד) as a site of hidden spiritual work",
+    "restitution of an employer's goods as a condition of the tikkun"
+   ],
+   "start_quote_found": true,
+   "end_quote_found": true
+  }
+ ],
+ "check": {
+  "non_vocab_tags": [],
+  "quotes": 10,
+  "quotes_not_found": 0
+ },
+ "id": "Khal-Hasidim_0163"
+}

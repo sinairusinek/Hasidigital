@@ -1,0 +1,190 @@
+{
+ "unit": {
+  "kind": "hasidic_story",
+  "why": "A single narrative: the Besht in Istanbul heals a rich man's blind son, then reverses the healing because the wife scorned the holy names.",
+  "boundary_note": ""
+ },
+ "stories": [
+  {
+   "k": 1,
+   "start_quote": "ב סטאמבול היה איש א׳ עשיר מופלג",
+   "end_quote": "לא תהנה מהם והלך מאתם כך",
+   "hasidic": true,
+   "summary_en": "In Istanbul the Besht restores the sight of a rich man's blind only son by whispering in his ear, then makes him blind again because the man's wife scorned the power of the holy names, and he refuses payment.",
+   "tags": [
+    {
+     "tag": "practice:healing",
+     "scope": "span",
+     "quotes": [
+      "וארפאהו שיראה תיכף ומיד כדרך כל האדם",
+      "וילחוש באזניו איזה דבר"
+     ],
+     "confidence": 3,
+     "why": "Besht cures blindness after doctors failed",
+     "quotes_failed": false
+    },
+    {
+     "tag": "practice:use_of_holy_names",
+     "scope": "span",
+     "quotes": [
+      "לא האמינה בכח פעולת שמות הק'",
+      "הראיתיך בעיניך גודל כח קדושת השם"
+     ],
+     "confidence": 3,
+     "why": "healing explicitly through holy names",
+     "quotes_failed": false
+    },
+    {
+     "tag": "knowledge:practical_kabbalah",
+     "scope": "span",
+     "quotes": [
+      "ומה יועיל זה בשמות"
+     ],
+     "confidence": 2,
+     "why": "practical use of names to heal",
+     "quotes_failed": false
+    },
+    {
+     "tag": "supernatural:miracle",
+     "scope": "span",
+     "quotes": [
+      "וצוה לו לקרות וקרא כדרך כל הארץ",
+      "העביר הרב ידו על עיניו וחזר כבראשונה"
+     ],
+     "confidence": 3,
+     "why": "instant restoration and reversal of sight",
+     "quotes_failed": false
+    },
+    {
+     "tag": "ethics-and-emotions:punishment",
+     "scope": "span",
+     "quotes": [
+      "אתה את המרשעת שלגלגת משמות הקדושים",
+      "אבל אתה את לא תהנה מהם"
+     ],
+     "confidence": 3,
+     "why": "family punished for wife's scorn",
+     "quotes_failed": false
+    },
+    {
+     "tag": "ethics-and-emotions:anger",
+     "scope": "span",
+     "quotes": [
+      "וחרה אף הבעש״ט על שלא האמינה",
+      "ותכעס על בעלה ותאמר למה"
+     ],
+     "confidence": 3,
+     "why": "the Besht's anger and the wife's anger",
+     "quotes_failed": false
+    },
+    {
+     "tag": "ethics-and-emotions:pride",
+     "scope": "span",
+     "quotes": [
+      "ותבזהו בעיניה. כי לא הלך בבגדים חשובים"
+     ],
+     "confidence": 2,
+     "why": "rich woman's contempt for the humbly dressed guest",
+     "quotes_failed": false
+    },
+    {
+     "tag": "practice:clothing",
+     "scope": "span",
+     "quotes": [
+      "כי לא הלך בבגדים חשובים מפני טלטול הדרך"
+     ],
+     "confidence": 2,
+     "why": "plain dress causes him to be despised",
+     "quotes_failed": false
+    },
+    {
+     "tag": "practice:the_travels_of_the_tsaddik",
+     "scope": "span",
+     "quotes": [
+      "ובהיות הבעש\"ט בק\"ק הנ\"ל",
+      "מפני טלטול הדרך"
+     ],
+     "confidence": 3,
+     "why": "the Besht is on his journey in Istanbul",
+     "quotes_failed": false
+    },
+    {
+     "tag": "women:major_character",
+     "scope": "span",
+     "quotes": [
+      "וכשראת' אשת הנגיד הנ\"ל ותבזהו בעיניה"
+     ],
+     "confidence": 3,
+     "why": "the wife's scorn drives the plot and its outcome",
+     "quotes_failed": false
+    },
+    {
+     "tag": "ethics-and-emotions:joy",
+     "scope": "span",
+     "quotes": [
+      "והי' שמחה גדולה בבית"
+     ],
+     "confidence": 1,
+     "why": "household rejoices at the cure",
+     "quotes_failed": false
+    },
+    {
+     "tag": "ethics-and-emotions:resisting_temptation",
+     "scope": "span",
+     "quotes": [
+      "ורצה ליתן לו מעות סך עצום",
+      "לא רציתי לעשות לכבודי ח\"ו או בשביל מעות"
+     ],
+     "confidence": 2,
+     "why": "the Besht refuses a large payment",
+     "quotes_failed": false
+    },
+    {
+     "tag": "practice:study",
+     "scope": "span",
+     "quotes": [
+      "צוה להבי' גמרא לפניו וצוה לו לקרות"
+     ],
+     "confidence": 1,
+     "why": "Gemara reading used to test the restored sight",
+     "quotes_failed": false
+    },
+    {
+     "tag": "social:conflict",
+     "scope": "span",
+     "quotes": [
+      "ותכעס על בעלה ותאמר למה הבאת אותו אלי"
+     ],
+     "confidence": 2,
+     "why": "the wife opposes the tsaddik",
+     "quotes_failed": false
+    },
+    {
+     "tag": "practice:torat_ha_tsaddik",
+     "scope": "span",
+     "quotes": [
+      "לא האמינה בכח פעולת שמות הק'"
+     ],
+     "confidence": 1,
+     "why": "lack of faith in the tsaddik's power",
+     "quotes_failed": false
+    }
+   ],
+   "missing_concepts": [
+    "blindness",
+    "reversal or withdrawal of a miracle",
+    "skepticism toward the tzaddik",
+    "refusal of payment / sanctification of the Name (kiddush ha-shem)",
+    "Ottoman Istanbul setting"
+   ],
+   "start_quote_found": true,
+   "end_quote_found": true
+  }
+ ],
+ "check": {
+  "non_vocab_tags": [],
+  "quotes": 22,
+  "quotes_not_found": 0
+ },
+ "id": "Khal-Hasidim_0109"
+}

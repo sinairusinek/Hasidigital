@@ -1,0 +1,154 @@
+{
+ "unit": {
+  "kind": "hasidic_story",
+  "why": "A single narrative: the Besht is called to a childless rich man in Ladmir, perceives that adultery was committed on a bed belonging to an informer, and promises children on the condition that they be born with defects, which comes true.",
+  "boundary_note": ""
+ },
+ "stories": [
+  {
+   "k": 1,
+   "start_quote": "שמעתי ג״כ מהרב דקהלתינו עשיר א׳",
+   "end_quote": "והיו לו שלשה בנים בעלי חטוטרות",
+   "hasidic": true,
+   "summary_en": "Summoned by a childless rich man, the Besht jumps up from a bed on which he perceives adultery was committed, since it was taken from a dead informer's plundered estate, and promises the man sons if he accepts that they will be deformed; three hunchbacked sons are born.",
+   "tags": [
+    {
+     "tag": "supernatural:perception",
+     "scope": "span",
+     "quotes": [
+      "ואמר על אותו מטה עברו על עון א״א",
+      "ואמר כי אין המטה זו משלו"
+     ],
+     "confidence": 3,
+     "why": "Besht knows the bed's sinful history without being told",
+     "quotes_failed": false
+    },
+    {
+     "tag": "ethics-and-emotions:adultery",
+     "scope": "span",
+     "quotes": [
+      "על אותו מטה עברו על עון א״א"
+     ],
+     "confidence": 3,
+     "why": "adultery (eshet ish) committed on the bed",
+     "quotes_failed": false
+    },
+    {
+     "tag": "supernatural:pregnancy",
+     "scope": "span",
+     "quotes": [
+      "אם יסכים לבנים שיהיו בעלי מומין יהי' לו בנים",
+      "והיו לו שלשה בנים בעלי חטוטרות"
+     ],
+     "confidence": 3,
+     "why": "childless man has sons through the Besht's promise",
+     "quotes_failed": false
+    },
+    {
+     "tag": "supernatural:prognostication",
+     "scope": "span",
+     "quotes": [
+      "אם יסכים לבנים שיהיו בעלי מומין יהי' לו בנים",
+      "והיו לו שלשה בנים בעלי חטוטרות"
+     ],
+     "confidence": 3,
+     "why": "the conditional prediction comes true",
+     "quotes_failed": false
+    },
+    {
+     "tag": "folkloristics:story_type_prognostication",
+     "scope": "story",
+     "quotes": [],
+     "confidence": 2,
+     "why": "the story's arc is a prediction that is fulfilled",
+     "quotes_failed": false
+    },
+    {
+     "tag": "times:birth",
+     "scope": "span",
+     "quotes": [
+      "והיו לו שלשה בנים בעלי חטוטרות"
+     ],
+     "confidence": 2,
+     "why": "the births of the sons are reported",
+     "quotes_failed": false
+    },
+    {
+     "tag": "times:death",
+     "scope": "span",
+     "quotes": [
+      "וכשמת ביזו את כל אשר לו"
+     ],
+     "confidence": 1,
+     "why": "the informer's death is mentioned as backstory",
+     "quotes_failed": false
+    },
+    {
+     "tag": "ethics-and-emotions:punishment",
+     "scope": "span",
+     "quotes": [
+      "לבנים שיהיו בעלי מומין",
+      "בעלי חטוטרות"
+     ],
+     "confidence": 2,
+     "why": "the defects appear as the consequence of the sin attached to the bed",
+     "quotes_failed": false
+    },
+    {
+     "tag": "practice:the_travels_of_the_tsaddik",
+     "scope": "span",
+     "quotes": [
+      "שלח אחר הבעש״ט וכשבא ערכו לו"
+     ],
+     "confidence": 2,
+     "why": "the Besht travels to and stays with the rich man",
+     "quotes_failed": false
+    },
+    {
+     "tag": "times:shabbat",
+     "scope": "span",
+     "quotes": [
+      "ושבת שם הבעש״ט"
+     ],
+     "confidence": 2,
+     "why": "the Besht spends Shabbat there",
+     "quotes_failed": false
+    },
+    {
+     "tag": "practice:storytelling",
+     "scope": "span",
+     "quotes": [
+      "שמעתי ג״כ מהרב דקהלתינו"
+     ],
+     "confidence": 1,
+     "why": "the tale is framed as heard from the local rabbi",
+     "quotes_failed": false
+    },
+    {
+     "tag": "women:mention_only",
+     "scope": "span",
+     "quotes": [
+      "עברו על עון א״א"
+     ],
+     "confidence": 1,
+     "why": "a married woman is implied in the adultery but does not act",
+     "quotes_failed": false
+    }
+   ],
+   "missing_concepts": [
+    "informer (moser) whose estate was plundered",
+    "sin inhering in ill-gotten objects",
+    "childlessness",
+    "children born with physical deformity"
+   ],
+   "start_quote_found": true,
+   "end_quote_found": true
+  }
+ ],
+ "check": {
+  "non_vocab_tags": [],
+  "quotes": 15,
+  "quotes_not_found": 0
+ },
+ "id": "Shivhei-Habesht_0132"
+}

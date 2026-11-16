@@ -1,0 +1,122 @@
+{
+ "unit": {
+  "kind": "hasidic_story",
+  "why": "A single narrative: on a journey the rebbe asks his village host to forgive the debt of a dead debtor, after which the host's prized horse dies, revealing it was the debtor reincarnated.",
+  "boundary_note": ""
+ },
+ "stories": [
+  {
+   "k": 1,
+   "start_quote": "פ״א בנסיעת הרב התאכסן בכפר",
+   "end_quote": "ונפסק חיות הסוס ולכן מת לגמרי",
+   "hasidic": true,
+   "summary_en": "While travelling, the rebbe lodges with a village follower, asks first for his strong little horse and then for the bond of a long-dead debtor; he tears up the bond, the horse is found dead, and the rebbe explains that the debtor had been reincarnated as the horse to work off his debt and was released when it was forgiven.",
+   "tags": [
+    {
+     "tag": "practice:the_travels_of_the_tsaddik",
+     "scope": "span",
+     "quotes": [
+      "בנסיעת הרב התאכסן בכפר אצל א׳ מאנשיו"
+     ],
+     "confidence": 3,
+     "why": "The story is set during the rebbe's journey and his stay with a host.",
+     "quotes_failed": false
+    },
+    {
+     "tag": "supernatural:reincarnation",
+     "scope": "span",
+     "quotes": [
+      "ויעבוד לך עבור המעות ונתגלגל בסוס"
+     ],
+     "confidence": 3,
+     "why": "The debtor's soul was reincarnated in the horse.",
+     "quotes_failed": false
+    },
+    {
+     "tag": "practice:healing_of_the_soul",
+     "scope": "span",
+     "quotes": [
+      "וקרע אותו לשני׳ קרעים ומחלו במחילה גמורה להמת",
+      "וכאשר נמחל שעבודו חזר למקומו"
+     ],
+     "confidence": 3,
+     "why": "The rebbe redeems the transmigrated soul by having the debt forgiven.",
+     "quotes_failed": false
+    },
+    {
+     "tag": "supernatural:perception",
+     "scope": "span",
+     "quotes": [
+      "והוטב בעיניו סוס קטן",
+      "וכאשר ראה שט\"ח א׳ ביקש הרב"
+     ],
+     "confidence": 3,
+     "why": "The rebbe knows without being told that the horse is linked to that particular bond.",
+     "quotes_failed": false
+    },
+    {
+     "tag": "social:retrospective_recognition",
+     "scope": "span",
+     "quotes": [
+      "והבין כי לא דבר רק הוא"
+     ],
+     "confidence": 3,
+     "why": "The host realizes afterwards what lay behind the rebbe's odd requests.",
+     "quotes_failed": false
+    },
+    {
+     "tag": "times:death",
+     "scope": "span",
+     "quotes": [
+      "והנה הסוס מוטל מת"
+     ],
+     "confidence": 2,
+     "why": "The horse dies, and with it the reincarnated soul is released; the debtor's death is also mentioned.",
+     "quotes_failed": false
+    },
+    {
+     "tag": "supernatural:miracle",
+     "scope": "span",
+     "quotes": [
+      "הוא מושך בעצמו וכמה פעמים אירע לי כן"
+     ],
+     "confidence": 1,
+     "why": "The small horse's supernatural strength pulling the cart alone.",
+     "quotes_failed": false
+    },
+    {
+     "tag": "social:inter_hasidic_master_disciple_relationship",
+     "scope": "span",
+     "quotes": [
+      "אצל א׳ מאנשיו מאנשי ועשה לכבודו סעודה גדולה"
+     ],
+     "confidence": 1,
+     "why": "The host is the rebbe's follower and honours him, though the relationship is not the focus.",
+     "quotes_failed": false
+    },
+    {
+     "tag": "spaces:heaven",
+     "scope": "span",
+     "quotes": [
+      "נפסק דינו שיעשה לך נח\"ר"
+     ],
+     "confidence": 1,
+     "why": "A heavenly judgment over the soul is implied, though it is not a setting.",
+     "quotes_failed": false
+    }
+   ],
+   "missing_concepts": [
+    "debt and debt forgiveness (shtar chov) as a means of releasing a soul",
+    "reincarnation in animal form as payment of a debt to a living creditor"
+   ],
+   "start_quote_found": true,
+   "end_quote_found": true
+  }
+ ],
+ "check": {
+  "non_vocab_tags": [],
+  "quotes": 11,
+  "quotes_not_found": 0
+ },
+ "id": "Khal-Hasidim_0094"
+}

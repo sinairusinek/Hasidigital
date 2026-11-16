@@ -1,0 +1,98 @@
+{
+ "unit": {
+  "kind": "hasidic_story",
+  "why": "A single anecdote: a tzaddik arrives late to Kol Nidre on Yom Kippur eve because he stayed to calm and play with a crying child left alone at home.",
+  "boundary_note": ""
+ },
+ "stories": [
+  {
+   "k": 1,
+   "start_quote": "פעם אחת בערב יום הקדוש ערב",
+   "end_quote": "ואז הלך להתפלל כל נדרי",
+   "hasidic": true,
+   "summary_en": "On Yom Kippur eve the hasidim begin Kol Nidre without their rebbe; he arrives late and explains that he heard a child left alone crying, so he stayed to play with it until it fell asleep.",
+   "tags": [
+    {
+     "tag": "times:holidays",
+     "scope": "story",
+     "quotes": [],
+     "confidence": 3,
+     "why": "Set on Yom Kippur eve at Kol Nidre.",
+     "quotes_failed": false
+    },
+    {
+     "tag": "practice:prayer",
+     "scope": "span",
+     "quotes": [
+      "לכן התחילו לומר כל נדרי",
+      "ואז הלך להתפלל כל נדרי"
+     ],
+     "confidence": 3,
+     "why": "Kol Nidre prayer frames the story.",
+     "quotes_failed": false
+    },
+    {
+     "tag": "folkloristics:story_type_virtues",
+     "scope": "story",
+     "quotes": [],
+     "confidence": 3,
+     "why": "The point is the tzaddik's compassion, which he puts before arriving on time for prayer.",
+     "quotes_failed": false
+    },
+    {
+     "tag": "ethics-and-emotions:virtues",
+     "scope": "span",
+     "quotes": [
+      "ויחמול הרבהקדוש על הילד וידבר עמו"
+     ],
+     "confidence": 3,
+     "why": "His compassion for a child is the virtue shown.",
+     "quotes_failed": false
+    },
+    {
+     "tag": "social:retrospective_recognition",
+     "scope": "span",
+     "quotes": [
+      "וידרשו וידרשי החסידים אחרי שרש דבר מה היה"
+     ],
+     "confidence": 2,
+     "why": "The hasidim learn afterwards why the rebbe was late.",
+     "quotes_failed": false
+    },
+    {
+     "tag": "social:inter_hasidic_master_disciple_relationship",
+     "scope": "span",
+     "quotes": [
+      "כל החסידי׳ המסתופפים בצלו והם ממתינים"
+     ],
+     "confidence": 1,
+     "why": "The hasidim wait for their rebbe and ask him what happened.",
+     "quotes_failed": false
+    },
+    {
+     "tag": "women:mention_only",
+     "scope": "span",
+     "quotes": [
+      "הילד הלכה לבית התפלה והניחה הילד בוכה"
+     ],
+     "confidence": 2,
+     "why": "The child's mother is referred to as having gone to pray; she does not act on stage.",
+     "quotes_failed": false
+    }
+   ],
+   "missing_concepts": [
+    "care for children / compassion toward a child",
+    "putting kindness to a person before punctual communal prayer",
+    "a rebbe's custom that the congregation not wait for him"
+   ],
+   "start_quote_found": true,
+   "end_quote_found": true
+  }
+ ],
+ "check": {
+  "non_vocab_tags": [],
+  "quotes": 6,
+  "quotes_not_found": 0
+ },
+ "id": "Khal-Hasidim_0226"
+}

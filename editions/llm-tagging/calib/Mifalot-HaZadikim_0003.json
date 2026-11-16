@@ -1,0 +1,149 @@
+{
+ "unit": {
+  "kind": "hasidic_story",
+  "why": "A first-person anecdote by R. Shalom of Belz about testing R. Uri of Strelisk in his youth, who reads his thoughts and so wins him as a disciple.",
+  "boundary_note": "The header announces two stories (ב׳ מעשיות), but only the first is in this division. The second probably begins in the next division."
+ },
+ "stories": [
+  {
+   "k": 1,
+   "start_quote": "ב׳ מעשיות ששמעתי מפי איש נאמן",
+   "end_quote": "קבלתי אותו לרב עלי",
+   "hasidic": true,
+   "summary_en": "As a youth, R. Shalom of Belz travels to R. Uri of Strelisk and stands behind him at prayer, first worrying that this is forbidden behind one's master and then deciding to test whether Uri is his master at all; after the meal Uri answers the unspoken thought, and Shalom accepts him as his rebbe.",
+   "tags": [
+    {
+     "tag": "practice:travel_to_the_tsaddik",
+     "scope": "span",
+     "quotes": [
+      "נסעתי להרב הקדוש ר׳ אורי מ סטרעליסק"
+     ],
+     "confidence": 3,
+     "why": "The young Shalom journeys to Strelisk to see R. Uri.",
+     "quotes_failed": false
+    },
+    {
+     "tag": "practice:prayer",
+     "scope": "span",
+     "quotes": [
+      "התפלל הרב הנ״ל ועמדתי אחורי הרב הנ״ל"
+     ],
+     "confidence": 3,
+     "why": "The scene takes place during the rebbe's prayer.",
+     "quotes_failed": false
+    },
+    {
+     "tag": "ethics-and-emotions:prohibitions",
+     "scope": "span",
+     "quotes": [
+      "אסור להתפלל אחורי רבו",
+      "ואסור להתפלל והתפלל אחורי"
+     ],
+     "confidence": 3,
+     "why": "The prohibition on praying behind one's master drives the plot.",
+     "quotes_failed": false
+    },
+    {
+     "tag": "practice:halakhah",
+     "scope": "span",
+     "quotes": [
+      "אסור להתפלל אחורי רבו"
+     ],
+     "confidence": 2,
+     "why": "A halakhic rule about one's posture in prayer relative to one's teacher is at issue.",
+     "quotes_failed": false
+    },
+    {
+     "tag": "supernatural:perception",
+     "scope": "span",
+     "quotes": [
+      "כי איש קדוש הוא ויודע מחשבות הוא",
+      "מי ביקש זאת לבוא לנסיוני"
+     ],
+     "confidence": 3,
+     "why": "R. Uri knows Shalom's unspoken thoughts.",
+     "quotes_failed": false
+    },
+    {
+     "tag": "folkloristics:story_type_advent",
+     "scope": "story",
+     "quotes": [],
+     "confidence": 3,
+     "why": "The story tells of the first encounter in which the young Shalom discovers his master.",
+     "quotes_failed": false
+    },
+    {
+     "tag": "folkloristics:story_type_rapprochement",
+     "scope": "story",
+     "quotes": [],
+     "confidence": 2,
+     "why": "A doubter who tests the tzaddik is drawn to him by the events.",
+     "quotes_failed": false
+    },
+    {
+     "tag": "social:inter_hasidic_master_disciple_relationship",
+     "scope": "span",
+     "quotes": [
+      "קבלתי אותו לרב עלי",
+      "להוי ידוע שבוודאי רבי אני"
+     ],
+     "confidence": 3,
+     "why": "The story ends with Uri established as Shalom's master.",
+     "quotes_failed": false
+    },
+    {
+     "tag": "practice:torat_ha_tsaddik",
+     "scope": "span",
+     "quotes": [
+      "מי יאמר שרבו הוא אראה מתחלה מה טיבו"
+     ],
+     "confidence": 2,
+     "why": "The theme is recognizing and accepting a true tzaddik as one's rebbe.",
+     "quotes_failed": false
+    },
+    {
+     "tag": "practice:reception_of_hasidim",
+     "scope": "span",
+     "quotes": [
+      "מי ביקש זאת לבוא לנסיוני"
+     ],
+     "confidence": 2,
+     "why": "The rebbe responds to a newcomer who has come to test him.",
+     "quotes_failed": false
+    },
+    {
+     "tag": "social:retrospective_recognition",
+     "scope": "span",
+     "quotes": [
+      "אז הבנתי כי איש קדוש הוא"
+     ],
+     "confidence": 2,
+     "why": "Shalom realizes Uri's holiness only after the fact.",
+     "quotes_failed": false
+    },
+    {
+     "tag": "practice:storytelling",
+     "scope": "span",
+     "quotes": [
+      "ששמעתי מפי איש נאמן ששמע מפיו הקדוש"
+     ],
+     "confidence": 2,
+     "why": "The tale is framed as told in the first person by R. Shalom of Belz and passed on.",
+     "quotes_failed": false
+    }
+   ],
+   "missing_concepts": [
+    "testing the tzaddik (nisayon)",
+    "mind-reading as a test of authenticity"
+   ],
+   "start_quote_found": true,
+   "end_quote_found": true
+  }
+ ],
+ "check": {
+  "non_vocab_tags": [],
+  "quotes": 13,
+  "quotes_not_found": 0
+ },
+ "id": "Mifalot-HaZadikim_0003"
+}

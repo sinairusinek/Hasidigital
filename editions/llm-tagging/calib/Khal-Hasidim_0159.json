@@ -1,0 +1,129 @@
+{
+ "unit": {
+  "kind": "hasidic_story",
+  "why": "A single anecdote about R. Zev of Zbaraz going to the rabbinical court to argue for the orphan servant against his own wife.",
+  "boundary_note": ""
+ },
+ "stories": [
+  {
+   "k": 1,
+   "start_quote": "סיפרו רבים וכן שלימים מהרב הצדיק",
+   "end_quote": "שנאמר אם אמאס משפט עבדי וגו׳",
+   "hasidic": true,
+   "summary_en": "When his wife the rebbetzin quarrelled with their servant and meant to sue her for money in the rabbinical court, R. Zev of Zbaraz dressed to go along, and explained that he was going to plead for the orphaned servant, not for his wife, citing Job's 'if I despised the cause of my servant'.",
+   "tags": [
+    {
+     "tag": "folkloristics:story_type_virtues",
+     "scope": "story",
+     "quotes": [],
+     "confidence": 3,
+     "why": "The tale is told to show the tzaddik's simplicity and his justice toward the weak.",
+     "quotes_failed": false
+    },
+    {
+     "tag": "characters-and-roles:the_family_of_the_tsaddik",
+     "scope": "span",
+     "quotes": [
+      "נתקוטטה זוגתו הרבנית עם משרתת בביתו"
+     ],
+     "confidence": 3,
+     "why": "His wife, the rebbetzin, is a character.",
+     "quotes_failed": false
+    },
+    {
+     "tag": "social:conflict",
+     "scope": "span",
+     "quotes": [
+      "נתקוטטה זוגתו הרבנית עם משרתת בביתו"
+     ],
+     "confidence": 3,
+     "why": "The quarrel between the wife and the servant drives the plot.",
+     "quotes_failed": false
+    },
+    {
+     "tag": "spaces:rabbinical_court",
+     "scope": "span",
+     "quotes": [
+      "לילך לב״ד גם כן"
+     ],
+     "confidence": 2,
+     "why": "The planned lawsuit before the beit din is the frame, though no scene takes place inside it.",
+     "quotes_failed": false
+    },
+    {
+     "tag": "social:marital_relationship",
+     "scope": "span",
+     "quotes": [
+      "לא בגללך אנכי אלך כי אם לטעון",
+      "למה זה תלך אתה אנכי אלך לבדי"
+     ],
+     "confidence": 2,
+     "why": "The exchange between husband and wife is the core of the anecdote.",
+     "quotes_failed": false
+    },
+    {
+     "tag": "women:major_character",
+     "scope": "span",
+     "quotes": [
+      "ואמרה ללכת עמה לב\"ד לתבוע אותה"
+     ],
+     "confidence": 3,
+     "why": "The rebbetzin starts the action and speaks in her own right.",
+     "quotes_failed": false
+    },
+    {
+     "tag": "women:minor_character",
+     "scope": "span",
+     "quotes": [
+      "לטעון בעד היתומה המשרתת אנכי הולך"
+     ],
+     "confidence": 2,
+     "why": "The orphaned servant is a party to the dispute but has a peripheral role.",
+     "quotes_failed": false
+    },
+    {
+     "tag": "ethics-and-emotions:humility",
+     "scope": "span",
+     "quotes": [
+      "מתמותו ופשטותו שהיה לאין שיעור"
+     ],
+     "confidence": 2,
+     "why": "The story praises his simplicity and integrity.",
+     "quotes_failed": false
+    },
+    {
+     "tag": "ethics-and-emotions:virtues",
+     "scope": "span",
+     "quotes": [
+      "לטעון בעד היתומה המשרתת אנכי הולך"
+     ],
+     "confidence": 3,
+     "why": "His justice and defence of the orphan are the virtue shown.",
+     "quotes_failed": false
+    },
+    {
+     "tag": "practice:halakhah",
+     "scope": "span",
+     "quotes": [
+      "הנה זילותא דבי דינא היא"
+     ],
+     "confidence": 1,
+     "why": "Raises the legal concern of demeaning the court and a monetary claim, but only marginally.",
+     "quotes_failed": false
+    }
+   ],
+   "missing_concepts": [
+    "justice / defending the weak (orphan, servant) against one's own household",
+    "relations with servants"
+   ],
+   "start_quote_found": true,
+   "end_quote_found": true
+  }
+ ],
+ "check": {
+  "non_vocab_tags": [],
+  "quotes": 10,
+  "quotes_not_found": 0
+ },
+ "id": "Khal-Hasidim_0159"
+}

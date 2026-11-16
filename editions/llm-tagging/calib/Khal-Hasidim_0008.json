@@ -1,0 +1,235 @@
+{
+ "unit": {
+  "kind": "several_stories",
+  "why": "A biographical frame about R. Alexander (Sender) the shohet, the Besht's scribe, holds two separate narratives: the Besht's account of his ascent to the Garden of Eden, and how Sender's fingernails grew deformed after he exorcised a spirit for the Besht.",
+  "boundary_note": ""
+ },
+ "stories": [
+  {
+   "k": 1,
+   "start_quote": "עוד מעניני התגלות הבעש״ט ראשית דבר",
+   "end_quote": "וגם אותך סענדירל ראיתי בתוכם ונשארת אונטר שטעלינג",
+   "hasidic": true,
+   "summary_en": "The narrator's father-in-law, R. Alexander, was the Besht's scribe for eight years and later a shohet. R. Yaakov Yosef of Polonne used to remind him at the third Sabbath meal of the Besht's ascent to the Garden of Eden: there only a few people stayed with the Besht up to the Tree of Life, Sender among them, though he remained on a lower rung.",
+   "tags": [
+    {
+     "tag": "characters-and-roles:scribe",
+     "scope": "span",
+     "quotes": [
+      "שהיה אצלו סופר ח' שנים"
+     ],
+     "confidence": 3,
+     "why": "Sender served as the Besht's scribe",
+     "quotes_failed": false
+    },
+    {
+     "tag": "characters-and-roles:ritual_slaughterer",
+     "scope": "span",
+     "quotes": [
+      "ואח״כ היה שוחט בק\"ק ברדטשיב",
+      "ונעשה שו\"ב בק\"ק נעמרוב"
+     ],
+     "confidence": 3,
+     "why": "the protagonist works as a shohet",
+     "quotes_failed": false
+    },
+    {
+     "tag": "practice:ritual_slaughtering",
+     "scope": "span",
+     "quotes": [
+      "ונעשה שו\"ב בק\"ק נעמרוב"
+     ],
+     "confidence": 2,
+     "why": "he is appointed shohet through the Besht's letter",
+     "quotes_failed": false
+    },
+    {
+     "tag": "experience:journey_to_heaven",
+     "scope": "span",
+     "quotes": [
+      "פ״א הלכתי לג\"ע והלכו עמי"
+     ],
+     "confidence": 3,
+     "why": "the Besht's soul ascends to the Garden of Eden",
+     "quotes_failed": false
+    },
+    {
+     "tag": "spaces:heaven",
+     "scope": "span",
+     "quotes": [
+      "עד שבאתי לעץ החיים נשארו עמי"
+     ],
+     "confidence": 3,
+     "why": "the vision takes place in the Garden of Eden",
+     "quotes_failed": false
+    },
+    {
+     "tag": "times:shabbat",
+     "scope": "span",
+     "quotes": [
+      "בדרך מוסר בסעודה שלישית"
+     ],
+     "confidence": 2,
+     "why": "the account is retold at the third Sabbath meal",
+     "quotes_failed": false
+    },
+    {
+     "tag": "practice:storytelling",
+     "scope": "span",
+     "quotes": [
+      "שאמר לחמי בדרך מוסר בסעודה שלישית"
+     ],
+     "confidence": 2,
+     "why": "a tsaddik retells the Besht's words at a set occasion",
+     "quotes_failed": false
+    },
+    {
+     "tag": "social:inter_hasidic_master_disciple_relationship",
+     "scope": "story",
+     "quotes": [],
+     "confidence": 3,
+     "why": "Sender's service under the Besht and the Besht's care for him",
+     "quotes_failed": false
+    },
+    {
+     "tag": "practice:travel_to_other_tsaddik",
+     "scope": "span",
+     "quotes": [
+      "נתן הבעש\"ט אגרת ליד חמי להרב הגאון הקדוש"
+     ],
+     "confidence": 1,
+     "why": "the Besht sends him to R. Yaakov Yosef",
+     "quotes_failed": false
+    }
+   ],
+   "missing_concepts": [
+    "the Besht placing a disciple in a livelihood or post",
+    "spiritual ranks of disciples in the afterlife"
+   ],
+   "start_quote_found": true,
+   "end_quote_found": true
+  },
+  {
+   "k": 2,
+   "start_quote": "וגם לא היה לו על יד ימין",
+   "end_quote": "התפחדת לא תחוש ולא תפחד.",
+   "hasidic": true,
+   "summary_en": "The Besht sent Sender to adjure a madman. At night the spirit frightened Sender, so he visualized holy names on his hand and struck the spirit, bleeding from under his nails. From then on his nails grew abnormally, and the Besht came at once to calm his fear.",
+   "tags": [
+    {
+     "tag": "characters-and-roles:demons",
+     "scope": "span",
+     "quotes": [
+      "ובלילה בתוך שנתו הפחידו הרוח",
+      "וסטר את הרוח על לחייו"
+     ],
+     "confidence": 3,
+     "why": "an evil spirit possessing a madman attacks him",
+     "quotes_failed": false
+    },
+    {
+     "tag": "practice:use_of_holy_names",
+     "scope": "span",
+     "quotes": [
+      "וצייר במחשבה שמות הקדושים על תמונת ידו"
+     ],
+     "confidence": 3,
+     "why": "he uses holy names to fight the spirit",
+     "quotes_failed": false
+    },
+    {
+     "tag": "knowledge:practical_kabbalah",
+     "scope": "span",
+     "quotes": [
+      "להשביע משוגע א'",
+      "וצייר במחשבה שמות הקדושים על תמונת ידו"
+     ],
+     "confidence": 3,
+     "why": "an adjuration and exorcism",
+     "quotes_failed": false
+    },
+    {
+     "tag": "ethics-and-emotions:fear",
+     "scope": "span",
+     "quotes": [
+      "ובלילה בתוך שנתו הפחידו הרוח",
+      "התפחדת לא תחוש ולא תפחד."
+     ],
+     "confidence": 3,
+     "why": "Sender is terrified",
+     "quotes_failed": false
+    },
+    {
+     "tag": "supernatural:perception",
+     "scope": "span",
+     "quotes": [
+      "ותיכף בא הבעש\"ט ואמר לו התפחדת"
+     ],
+     "confidence": 2,
+     "why": "the Besht knows at once what happened",
+     "quotes_failed": false
+    },
+    {
+     "tag": "practice:protection",
+     "scope": "span",
+     "quotes": [
+      "לא תחוש ולא תפחד."
+     ],
+     "confidence": 2,
+     "why": "the Besht reassures and shields him after the attack",
+     "quotes_failed": false
+    },
+    {
+     "tag": "social:inter_hasidic_master_disciple_relationship",
+     "scope": "span",
+     "quotes": [
+      "שלחו הבעש״ט להשביע משוגע א'"
+     ],
+     "confidence": 3,
+     "why": "the disciple carries out the master's mission",
+     "quotes_failed": false
+    },
+    {
+     "tag": "practice:healing",
+     "scope": "span",
+     "quotes": [
+      "להשביע משוגע א'"
+     ],
+     "confidence": 1,
+     "why": "the exorcism of a madman as a cure",
+     "quotes_failed": false
+    },
+    {
+     "tag": "characters-and-roles:ritual_slaughterer",
+     "scope": "story",
+     "quotes": [],
+     "confidence": 2,
+     "why": "the protagonist is the shohet Sender",
+     "quotes_failed": false
+    },
+    {
+     "tag": "supernatural:miracle",
+     "scope": "span",
+     "quotes": [
+      "ומהיום והלאה גדלו הצפרנים בענין הזה"
+     ],
+     "confidence": 1,
+     "why": "a lasting supernatural mark on his body",
+     "quotes_failed": false
+    }
+   ],
+   "missing_concepts": [
+    "exorcism / possession (dybbuk)",
+    "bodily mark left by a spiritual battle"
+   ],
+   "start_quote_found": true,
+   "end_quote_found": true
+  }
+ ],
+ "check": {
+  "non_vocab_tags": [],
+  "quotes": 21,
+  "quotes_not_found": 0
+ },
+ "id": "Khal-Hasidim_0008"
+}

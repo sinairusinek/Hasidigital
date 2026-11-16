@@ -1,0 +1,251 @@
+{
+ "unit": {
+  "kind": "hasidic_story",
+  "why": "A single continuous tale. R. Leib Sarahs summons the Polish prince through a reluctant innkeeper, then saves that Jew from a blood libel by bringing back the missing servant.",
+  "boundary_note": ""
+ },
+ "stories": [
+  {
+   "k": 1,
+   "start_quote": "פעם אחת נסע רבי ליב עם הר\"ר עזריאל",
+   "end_quote": "למזכרת בדברי הימים ל פולין",
+   "hasidic": true,
+   "summary_en": "R. Leib Sarahs lodges at an innkeeper's house near Vilna. When the innkeeper refuses to summon the terrified prince, his wife and sons fall ill until he obeys. The prince is told to delay the innkeeper's later death sentence, which follows a priest's blood libel over a vanished servant, until after the Makaryev fair. R. Leib brings the servant there overnight, the Jew is acquitted, and the priest is executed.",
+   "tags": [
+    {
+     "tag": "characters-and-roles:hidden_righteous",
+     "scope": "story",
+     "quotes": [],
+     "confidence": 2,
+     "why": "R. Leib Sarahs, the wandering hidden tzaddik figure, is the protagonist",
+     "quotes_failed": false
+    },
+    {
+     "tag": "characters-and-roles:tavern_keeper",
+     "scope": "span",
+     "quotes": [
+      "היה שם בית גדול שינק. והיה שייך להארענדר"
+     ],
+     "confidence": 3,
+     "why": "the Jewish host runs the inn/tavern outside Vilna",
+     "quotes_failed": false
+    },
+    {
+     "tag": "social:relations_with_non_jews",
+     "scope": "span",
+     "quotes": [
+      "ויעלילו עליו הכמרים כי היהודי זבחו על הפסח",
+      "ויבך הערל בדברו ויאמר כי אתה היהודי"
+     ],
+     "confidence": 3,
+     "why": "priests, the prince and the gentile servant interact with Jews",
+     "quotes_failed": false
+    },
+    {
+     "tag": "social:relations_with_the_authorities",
+     "scope": "span",
+     "quotes": [
+      "וקרא לי את הפירסט מ פולין",
+      "והלכו להפירסט להניח חותמו על זה"
+     ],
+     "confidence": 3,
+     "why": "the tzaddik summons the Polish prince, who must confirm the death sentence",
+     "quotes_failed": false
+    },
+    {
+     "tag": "social:conflict",
+     "scope": "span",
+     "quotes": [
+      "אך כומר אחד אשר קנא בך הסית אותי"
+     ],
+     "confidence": 3,
+     "why": "a jealous priest plots the libel against the Jew",
+     "quotes_failed": false
+    },
+    {
+     "tag": "social:disobedience",
+     "scope": "span",
+     "quotes": [
+      "ויהתל בו האיש ויאמר חסר משוגעים אני"
+     ],
+     "confidence": 3,
+     "why": "the innkeeper refuses the tzaddik's order",
+     "quotes_failed": false
+    },
+    {
+     "tag": "ethics-and-emotions:punishment",
+     "scope": "span",
+     "quotes": [
+      "נפלו שני בניו ואשתו למשכב בחולי חזק",
+      "ואת הכומר קרעו לגזרים בפני כל העם"
+     ],
+     "confidence": 3,
+     "why": "the innkeeper's family is struck for his disobedience, and the priest is executed",
+     "quotes_failed": false
+    },
+    {
+     "tag": "ethics-and-emotions:lying",
+     "scope": "span",
+     "quotes": [
+      "כי הודית ברבר שקר אשר לא היה מעולם"
+     ],
+     "confidence": 3,
+     "why": "the false libel, and the Jew's false confession under torture",
+     "quotes_failed": false
+    },
+    {
+     "tag": "ethics-and-emotions:fear",
+     "scope": "span",
+     "quotes": [
+      "וילך במהרה לרחוב הנכרים בפחד גדול",
+      "ויהי בזכרו את שם ליב נבהל השר מאוד"
+     ],
+     "confidence": 3,
+     "why": "the innkeeper fears the gentile street, and the prince is terrified at R. Leib's name",
+     "quotes_failed": false
+    },
+    {
+     "tag": "ethics-and-emotions:awe",
+     "scope": "span",
+     "quotes": [
+      "ויאמר עתה ידעתי כי יש אלקים בישראל"
+     ],
+     "confidence": 2,
+     "why": "the prince's awe of the tzaddik and of God",
+     "quotes_failed": false
+    },
+    {
+     "tag": "folkloristics:story_type_protection",
+     "scope": "story",
+     "quotes": [],
+     "confidence": 3,
+     "why": "the central arc is the tzaddik rescuing a Jew from a blood libel",
+     "quotes_failed": false
+    },
+    {
+     "tag": "practice:protection",
+     "scope": "span",
+     "quotes": [
+      "ונתן כח בצדיקיו לראות עתידות ולהציל העשוק מיד עושקו"
+     ],
+     "confidence": 3,
+     "why": "the tzaddik saves the libelled Jew",
+     "quotes_failed": false
+    },
+    {
+     "tag": "folkloristics:story_type_prognostication",
+     "scope": "story",
+     "quotes": [],
+     "confidence": 2,
+     "why": "R. Leib's foreknowing instruction to delay the sentence is fulfilled",
+     "quotes_failed": false
+    },
+    {
+     "tag": "supernatural:prognostication",
+     "scope": "span",
+     "quotes": [
+      "באם אשר יצא עליך משפט מות אעכב המשפט עד אחרי יאריד מאקריי'"
+     ],
+     "confidence": 3,
+     "why": "he foresaw the death sentence years in advance",
+     "quotes_failed": false
+    },
+    {
+     "tag": "supernatural:miracle",
+     "scope": "span",
+     "quotes": [
+      "והנה בלילה הזאת בא איש זקן יהודי עם משרתו"
+     ],
+     "confidence": 3,
+     "why": "the missing servant is miraculously brought to the fair",
+     "quotes_failed": false
+    },
+    {
+     "tag": "supernatural:contraction_of_the_road",
+     "scope": "span",
+     "quotes": [
+      "ויוליכני כל הלילה והביא אותי לכאן"
+     ],
+     "confidence": 1,
+     "why": "a long distance (some 50 parasangs) is covered in a single night",
+     "quotes_failed": false
+    },
+    {
+     "tag": "practice:healing",
+     "scope": "span",
+     "quotes": [
+      "ואשתך ובניך יתרפא תיכף"
+     ],
+     "confidence": 2,
+     "why": "the tzaddik promises the family's cure once he is obeyed",
+     "quotes_failed": false
+    },
+    {
+     "tag": "practice:the_travels_of_the_tsaddik",
+     "scope": "span",
+     "quotes": [
+      "פעם אחת נסע רבי ליב עם הר\"ר עזריאל",
+      "ויתאכסן גם הרב אצלו ויקח לו חדר"
+     ],
+     "confidence": 3,
+     "why": "the tzaddik's journey and lodging on the road frame the story",
+     "quotes_failed": false
+    },
+    {
+     "tag": "experience:trembling",
+     "scope": "span",
+     "quotes": [
+      "כי ראה כי נהפכו בהשר כל הגוונין"
+     ],
+     "confidence": 2,
+     "why": "the prince is physically overcome with dread",
+     "quotes_failed": false
+    },
+    {
+     "tag": "social:retrospective_recognition",
+     "scope": "span",
+     "quotes": [
+      "והבין כי היא מעשה הרב ר׳ ליב",
+      "ויתמה הפירסט מאוד ויאמר עתה ידעתי"
+     ],
+     "confidence": 3,
+     "why": "both the Jew and the prince belatedly grasp the meaning of the tzaddik's instruction",
+     "quotes_failed": false
+    },
+    {
+     "tag": "times:historical_event",
+     "scope": "span",
+     "quotes": [
+      "כן היא ב ווילנא היה כך החוק שהיה אסור"
+     ],
+     "confidence": 1,
+     "why": "the Vilna law barring Jews from the gentile street and the blood-libel setting",
+     "quotes_failed": false
+    },
+    {
+     "tag": "women:minor_character",
+     "scope": "span",
+     "quotes": [
+      "וילך ממנו לספר אשתו מהמשוגע הזה"
+     ],
+     "confidence": 2,
+     "why": "the innkeeper's wife is consulted and falls ill, a peripheral role",
+     "quotes_failed": false
+    }
+   ],
+   "missing_concepts": [
+    "blood libel",
+    "false confession under torture",
+    "Jewish-street residence restrictions in Vilna"
+   ],
+   "start_quote_found": true,
+   "end_quote_found": true
+  }
+ ],
+ "check": {
+  "non_vocab_tags": [],
+  "quotes": 25,
+  "quotes_not_found": 0
+ },
+ "id": "Khal-Hasidim_0165"
+}

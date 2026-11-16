@@ -1,0 +1,164 @@
+{
+ "unit": {
+  "kind": "hasidic_story",
+  "why": "A single narrative: a learned melamed who kept away from the Besht dreams of the Besht's teaching, and the Besht summons him and draws him close.",
+  "boundary_note": ""
+ },
+ "stories": [
+  {
+   "k": 1,
+   "start_quote": "בק\"ק מעזיבוז הי' עשיר אחד שלא",
+   "end_quote": "נתקרב אליו בכל לבו ונעשה צדיק גמור",
+   "hasidic": true,
+   "summary_en": "A scholarly melamed in a rich opponent's house in Medzhybizh dreams on Friday night of a wondrous palace where the Besht teaches Torah; a servant bars him from entering. He forgets the teaching and grieves all Sabbath. At the third meal the Besht sends for him, repeats the very teaching, and jokes that it is nothing new; the melamed becomes his devoted follower and a perfect tzaddik.",
+   "tags": [
+    {
+     "tag": "folkloristics:story_type_rapprochement",
+     "scope": "story",
+     "quotes": [],
+     "confidence": 3,
+     "why": "Narrative arc of a distant scholar being drawn to the Besht",
+     "quotes_failed": false
+    },
+    {
+     "tag": "experience:dream",
+     "scope": "span",
+     "quotes": [
+      "פ\"א בליל שבת חלם איך שהוא מטייל",
+      "ויקץ והנה חלום"
+     ],
+     "confidence": 3,
+     "why": "Plot-driving dream of the Besht's teaching",
+     "quotes_failed": false
+    },
+    {
+     "tag": "times:shabbat",
+     "scope": "span",
+     "quotes": [
+      "פ\"א בליל שבת חלם איך שהוא מטייל",
+      "ויהי בעת סעודה שלישית צוה הבעש'ט"
+     ],
+     "confidence": 3,
+     "why": "Events run from Friday night to the third Sabbath meal",
+     "quotes_failed": false
+    },
+    {
+     "tag": "supernatural:perception",
+     "scope": "span",
+     "quotes": [
+      "לכו לבית הנגיד הידוע וקראו לי את המלמד",
+      "מכבר שמעת את כל זה בלילה"
+     ],
+     "confidence": 3,
+     "why": "The Besht knows the melamed's dream and distress",
+     "quotes_failed": false
+    },
+    {
+     "tag": "social:relations_with_non_hasidim",
+     "scope": "span",
+     "quotes": [
+      "בק\"ק מעזיבוז הי' עשיר אחד שלא הי׳ שלם עם",
+      "אשר גם הוא הי' מרחיק א״ע מ הבעש״ט"
+     ],
+     "confidence": 3,
+     "why": "The rich man and the melamed are opponents of the Besht",
+     "quotes_failed": false
+    },
+    {
+     "tag": "practice:sermon",
+     "scope": "span",
+     "quotes": [
+      "הבעש״ט אומר ד״ת ונתלהב לבו",
+      "ו אז שמע כל אותן הד״ת"
+     ],
+     "confidence": 3,
+     "why": "The Besht delivers Torah teaching, central to the plot",
+     "quotes_failed": false
+    },
+    {
+     "tag": "practice:joke",
+     "scope": "span",
+     "quotes": [
+      "אמר הבעש״ט אליו בבדיחותא"
+     ],
+     "confidence": 3,
+     "why": "The Besht's witty remark",
+     "quotes_failed": false
+    },
+    {
+     "tag": "experience:enthusiasm",
+     "scope": "span",
+     "quotes": [
+      "ונתלהב לבו לכנוס לפני ולפנים",
+      "ורץ כמשוגע בלי טוזליק"
+     ],
+     "confidence": 2,
+     "why": "Burning desire to hear the teaching",
+     "quotes_failed": false
+    },
+    {
+     "tag": "ethics-and-emotions:fear",
+     "scope": "span",
+     "quotes": [
+      "ומתיירא מאד פן יהי' בהקיץ ג״כ"
+     ],
+     "confidence": 2,
+     "why": "Fears rejection by the Besht",
+     "quotes_failed": false
+    },
+    {
+     "tag": "ethics-and-emotions:sadness",
+     "scope": "span",
+     "quotes": [
+      "ונצטער מאד על זה עד שממש",
+      "והי׳ כך כל היום בצער גדול"
+     ],
+     "confidence": 2,
+     "why": "Grief over the forgotten teaching",
+     "quotes_failed": false
+    },
+    {
+     "tag": "practice:reception_of_hasidim",
+     "scope": "span",
+     "quotes": [
+      "דחף אותו המשרת ולא הניחו לכנס"
+     ],
+     "confidence": 2,
+     "why": "He is barred entry in the dream, then summoned by the Besht",
+     "quotes_failed": false
+    },
+    {
+     "tag": "social:retrospective_recognition",
+     "scope": "span",
+     "quotes": [
+      "והבין כי דבר ה׳ הוא"
+     ],
+     "confidence": 2,
+     "why": "He realizes the dream was a divine message",
+     "quotes_failed": false
+    },
+    {
+     "tag": "times:death",
+     "scope": "story",
+     "quotes": [],
+     "confidence": 1,
+     "why": "Not applicable; included in error",
+     "quotes_failed": false
+    }
+   ],
+   "missing_concepts": [
+    "forgetting and recovery of Torah heard in a dream",
+    "fainting from spiritual shock",
+    "palace as image of the tzaddik's teaching"
+   ],
+   "start_quote_found": true,
+   "end_quote_found": true
+  }
+ ],
+ "check": {
+  "non_vocab_tags": [],
+  "quotes": 18,
+  "quotes_not_found": 0
+ },
+ "id": "Shivhei-Habesht_0013"
+}

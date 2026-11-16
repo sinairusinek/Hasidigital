@@ -1,0 +1,221 @@
+{
+ "unit": {
+  "kind": "hasidic_story",
+  "why": "A single narrative about the Besht, the dowry for an orphan wedding, and R. Leib Kremener's errand to a nobleman to settle a captive-ransom debt.",
+  "boundary_note": ""
+ },
+ "stories": [
+  {
+   "k": 1,
+   "start_quote": "שמעתי מאיש אחד ששמע מפי הסופר",
+   "end_quote": "כעת זמן החתונה (ועשה כא' הבדחנים)",
+   "hasidic": true,
+   "summary_en": "Before an orphan wedding, R. Zeev Kitses demands the 200-gulden dowry from the Besht. A nobleman then claims 1,000 gulden from the Besht for ransomed captives. The Besht sends R. Leib Kremener to pay with no money. Leib persuades the nobleman to check his accounts, and the debt turns into a 200-gulden credit that pays the dowry. The Besht knows from afar that Leib lingered at the inn and rebukes him.",
+   "tags": [
+    {
+     "tag": "social:marriage",
+     "scope": "span",
+     "quotes": [
+      "הבעש״ט נשתדך עם הרה\"ק ר' זאב קיצעס ביתום וביתומה",
+      "ופסק הבעש״ט שני מאות זהו' לנדן"
+     ],
+     "confidence": 3,
+     "why": "The plot frame is the match and wedding of two orphans and the promised dowry.",
+     "quotes_failed": false
+    },
+    {
+     "tag": "practice:pidyon_shvuyim",
+     "scope": "span",
+     "quotes": [
+      "חייב לו אלף זהובים מהפדיון שבוים",
+      "הקוויטין של המוכסנים שנפדו"
+     ],
+     "confidence": 3,
+     "why": "The debt arises from the Besht's ransoming of captive leaseholders.",
+     "quotes_failed": false
+    },
+    {
+     "tag": "practice:redemption_of_captives",
+     "scope": "span",
+     "quotes": [
+      "חייב לו אלף זהובים מהפדיון שבוים"
+     ],
+     "confidence": 3,
+     "why": "Duplicate of pidyon_shvuyim with the same scope.",
+     "quotes_failed": false
+    },
+    {
+     "tag": "social:relations_with_non_jews",
+     "scope": "span",
+     "quotes": [
+      "ובא לבית האדון ושאל האדון תיכף",
+      "ידעתי שאתה איש צדיק ונאמן מאד"
+     ],
+     "confidence": 3,
+     "why": "R. Leib negotiates with the Polish nobleman.",
+     "quotes_failed": false
+    },
+    {
+     "tag": "social:relations_with_the_authorities",
+     "scope": "span",
+     "quotes": [
+      "שהקאמיסאר מן העיר שלח אחריו",
+      "יוריד אותו אותי בשלשלאות של ברזל"
+     ],
+     "confidence": 2,
+     "why": "The town commissar threatens Leib with chains to enforce the debt.",
+     "quotes_failed": false
+    },
+    {
+     "tag": "supernatural:miracle",
+     "scope": "span",
+     "quotes": [
+      "כי אדרבה מגיע ל בעש״ט שני מאות זהובים"
+     ],
+     "confidence": 2,
+     "why": "A 1,000-gulden debt is turned into exactly the needed 200-gulden credit.",
+     "quotes_failed": false
+    },
+    {
+     "tag": "supernatural:perception",
+     "scope": "span",
+     "quotes": [
+      "שוטה הלז משתהא בדרך ומספר המעשה",
+      "והשיב ידעתי מהר תן לי המעות"
+     ],
+     "confidence": 3,
+     "why": "The Besht knows from afar that Leib is lingering and what happened.",
+     "quotes_failed": false
+    },
+    {
+     "tag": "supernatural:prognostication",
+     "scope": "span",
+     "quotes": [
+      "תסע לאדון הנ\"ל ותסלק לאדון הסך הנ\"ל",
+      "ותזרז א\"ע לבוא על הבידעקנס"
+     ],
+     "confidence": 2,
+     "why": "The Besht foresees that the trip will both settle the debt and supply the dowry in time.",
+     "quotes_failed": false
+    },
+    {
+     "tag": "folkloristics:story_type_prognostication",
+     "scope": "story",
+     "quotes": [],
+     "confidence": 1,
+     "why": "The arc is the Besht's implicit foreknowledge being fulfilled.",
+     "quotes_failed": false
+    },
+    {
+     "tag": "practice:drinking_alcohol",
+     "scope": "span",
+     "quotes": [
+      "צלוחית צלוחות יין לשתות ובירך עליו",
+      "ונתן לו מי דבש לשתות"
+     ],
+     "confidence": 2,
+     "why": "Wine is served and blessed, and mead is drunk at the nobleman's.",
+     "quotes_failed": false
+    },
+    {
+     "tag": "ethics-and-emotions:anger",
+     "scope": "span",
+     "quotes": [
+      "ורגז עליו למה עמד בדרך בחזירתו",
+      "הבעש\"ט גוער בביתו"
+     ],
+     "confidence": 3,
+     "why": "The Besht is angry at Leib's delay.",
+     "quotes_failed": false
+    },
+    {
+     "tag": "practice:joke",
+     "scope": "span",
+     "quotes": [
+      "והיה בעיני הבעש״ט כמצחק",
+      "(ועשה כא' הבדחנים)"
+     ],
+     "confidence": 2,
+     "why": "The Besht treats the dowry demand lightly and plays the wedding jester.",
+     "quotes_failed": false
+    },
+    {
+     "tag": "characters-and-roles:tavern_keeper",
+     "scope": "span",
+     "quotes": [
+      "בקרעצמע אחת היו לו יודעו ומכירו",
+      "והיה פלא לבעל הקרעצמיר"
+     ],
+     "confidence": 2,
+     "why": "An innkeeper acquaintance is the person Leib stops to tell the story.",
+     "quotes_failed": false
+    },
+    {
+     "tag": "social:conflict",
+     "scope": "span",
+     "quotes": [
+      "שלא ילך עם החתן להבדעקנס עד שיסלק"
+     ],
+     "confidence": 1,
+     "why": "R. Zeev makes the wedding conditional on payment of the dowry.",
+     "quotes_failed": false
+    },
+    {
+     "tag": "ethics-and-emotions:charity",
+     "scope": "span",
+     "quotes": [
+      "נשתדך עם הרה\"ק ר' זאב קיצעס ביתום וביתומה"
+     ],
+     "confidence": 2,
+     "why": "The tsaddikim raise orphans and provide for their marriage.",
+     "quotes_failed": false
+    },
+    {
+     "tag": "practice:storytelling",
+     "scope": "span",
+     "quotes": [
+      "שמעתי מאיש אחד ששמע מפי הסופר",
+      "קפץ מן העגלה לספר נפלאות האלה"
+     ],
+     "confidence": 1,
+     "why": "There is a chain of oral transmission, and Leib's urge to tell the wonder is a plot point.",
+     "quotes_failed": false
+    },
+    {
+     "tag": "women:mention_only",
+     "scope": "span",
+     "quotes": [
+      "היתומה נתגדלה בבית הבעש\"ט"
+     ],
+     "confidence": 2,
+     "why": "The orphan bride is mentioned but does not act.",
+     "quotes_failed": false
+    },
+    {
+     "tag": "ethics-and-emotions:virtues",
+     "scope": "span",
+     "quotes": [
+      "ותכשל ח\"ו בגזל",
+      "שהצילו מן הגזל"
+     ],
+     "confidence": 1,
+     "why": "Honesty and avoiding robbery are the lever that persuades the nobleman.",
+     "quotes_failed": false
+    }
+   ],
+   "missing_concepts": [
+    "dowry (nedan) and the bedeken ceremony",
+    "debt and promissory note (shtar hov)",
+    "orphans raised in the tsaddik's household"
+   ],
+   "start_quote_found": true,
+   "end_quote_found": true
+  }
+ ],
+ "check": {
+  "non_vocab_tags": [],
+  "quotes": 29,
+  "quotes_not_found": 0
+ },
+ "id": "Khal-Hasidim_0075"
+}

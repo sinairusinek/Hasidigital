@@ -1,0 +1,268 @@
+{
+ "unit": {
+  "kind": "hasidic_story",
+  "why": "A continuous narrative about the Saba of Shpola (R. Leib) in exile with R. Mordechai of Neshchiz and the Shatz of Zaslav: the circumcision-feast episode, their escape, and the later visit to Neshchiz and the Saba's revelation.",
+  "boundary_note": "opens with 'ויהי אחרי הדברים האלה', referring back to earlier tales of the Saba (previous division text not shown); the narrative stands on its own"
+ },
+ "stories": [
+  {
+   "k": 1,
+   "start_quote": "ויהי אחרי הדברים האלה נתוועד הסבא הזה",
+   "end_quote": "והיו נוסעים אליו מכל המקו מות:",
+   "hasidic": true,
+   "summary_en": "While wandering in self-imposed exile, the Saba of Shpola, R. Mordechai of Neshchiz and the Shatz of Zaslav are seated with the poor at a circumcision feast in Vladimir. The two others proclaim each other rabbi of Neshchiz and Shatz of Zaslav, and the angry host strikes R. Mordechai. The Saba hits the host and they all flee, hiding under a bed where they are miraculously not found. R. Mordechai soon becomes a famous rabbi. When the Saba, dressed as a poor man, forces his way in to see him, they quarrel privately. The Saba then serves as a beadle in Zlatopol until he is revealed as a holy man and settles in Shpola.",
+   "tags": [
+    {
+     "tag": "practice:circumcision",
+     "scope": "span",
+     "quotes": [
+      "והזמינו אותם לאיזה עשיר על סעודת ברית מילה"
+     ],
+     "confidence": 3,
+     "why": "the brit milah feast is the setting",
+     "quotes_failed": false
+    },
+    {
+     "tag": "practice:the_travels_of_the_tsaddik",
+     "scope": "span",
+     "quotes": [
+      "ונתועדו כולם לילך יחד בגולה",
+      "פעם אחת נזדמנו כולם בעיר לאדמיר"
+     ],
+     "confidence": 3,
+     "why": "the tsaddikim wander in self-imposed exile",
+     "quotes_failed": false
+    },
+    {
+     "tag": "times:inauguration",
+     "scope": "span",
+     "quotes": [
+      "נתקבל הרב ר' מ רדכי לאב בית דין ב נישחיז",
+      "ויברך את הרב ר' מרדכי בשם מורי מורינו"
+     ],
+     "confidence": 2,
+     "why": "R. Mordechai is proclaimed and then appointed rabbi of Neshchiz",
+     "quotes_failed": false
+    },
+    {
+     "tag": "supernatural:prognostication",
+     "scope": "span",
+     "quotes": [
+      "נתהוה מדובר ביניהם כי ר' מרדכי יהי' לרב ב נישחיז",
+      "נתקבל הרב ר' מ רדכי לאב בית דין ב נישחיז"
+     ],
+     "confidence": 3,
+     "why": "the predicted appointment comes true",
+     "quotes_failed": false
+    },
+    {
+     "tag": "folkloristics:story_type_prognostication",
+     "scope": "story",
+     "quotes": [],
+     "confidence": 2,
+     "why": "the arc runs from proclamation to fulfilment",
+     "quotes_failed": false
+    },
+    {
+     "tag": "supernatural:miracle",
+     "scope": "span",
+     "quotes": [
+      "בעזרת האל לא מצאו אותם אף כי המה חפשו תחת ה מטה"
+     ],
+     "confidence": 3,
+     "why": "they are miraculously not found under the bed",
+     "quotes_failed": false
+    },
+    {
+     "tag": "practice:pidyon_nefesh",
+     "scope": "span",
+     "quotes": [
+      "ובזאת עשו פדיון השני ר בנים הנ\"ל"
+     ],
+     "confidence": 1,
+     "why": "the eggs and produce under the bed served as a redemption for the two rabbis",
+     "quotes_failed": false
+    },
+    {
+     "tag": "ethics-and-emotions:anger",
+     "scope": "span",
+     "quotes": [
+      "ויחרה לבעל הברית מאד",
+      "ויחר אף הבעל ברית ויכה את הרב"
+     ],
+     "confidence": 3,
+     "why": "the host is enraged",
+     "quotes_failed": false
+    },
+    {
+     "tag": "social:conflict",
+     "scope": "span",
+     "quotes": [
+      "ויכה את הרב ר' מרדכי על הלחי",
+      "ולקח ה נגיד אתו אנשי חיל"
+     ],
+     "confidence": 3,
+     "why": "violent clash with the host, followed by pursuit",
+     "quotes_failed": false
+    },
+    {
+     "tag": "folkloristics:story_type_protection",
+     "scope": "span",
+     "quotes": [
+      "וית חבאו כולם בבית אחד תחת מטה אחת"
+     ],
+     "confidence": 1,
+     "why": "escape from pursuers through divine help",
+     "quotes_failed": false
+    },
+    {
+     "tag": "ethics-and-emotions:humility",
+     "scope": "span",
+     "quotes": [
+      "לא רצה לקבל על עצמו שום התמנות",
+      "ונעשה שמש בבית המדרש"
+     ],
+     "confidence": 3,
+     "why": "the Saba refuses office and serves as a beadle",
+     "quotes_failed": false
+    },
+    {
+     "tag": "characters-and-roles:hidden_righteous",
+     "scope": "span",
+     "quotes": [
+      "כי הי' לבוש כאיש עני",
+      "עד כי נתגלה להם כי איש אלקים קדוש"
+     ],
+     "confidence": 3,
+     "why": "the Saba lives as a concealed tsaddik",
+     "quotes_failed": false
+    },
+    {
+     "tag": "folkloristics:story_type_revelation",
+     "scope": "span",
+     "quotes": [
+      "עד כי נתגלה להם כי איש אלקים קדוש הו א"
+     ],
+     "confidence": 2,
+     "why": "ends with the revelation of the hidden Saba",
+     "quotes_failed": false
+    },
+    {
+     "tag": "social:retrospective_recognition",
+     "scope": "span",
+     "quotes": [
+      "עד כי נתגלה להם כי איש אלקים קדוש"
+     ],
+     "confidence": 2,
+     "why": "the townspeople belatedly recognize him",
+     "quotes_failed": false
+    },
+    {
+     "tag": "practice:travel_to_other_tsaddik",
+     "scope": "span",
+     "quotes": [
+      "ולשנה השנית נסע הסבא ל נישחיז"
+     ],
+     "confidence": 3,
+     "why": "the Saba travels to R. Mordechai",
+     "quotes_failed": false
+    },
+    {
+     "tag": "practice:reception_of_hasidim",
+     "scope": "span",
+     "quotes": [
+      "ושומרי הפתח לא הניחו אותו להכנס אליו",
+      "ויאמר להגבא י מהר לפתוח לו"
+     ],
+     "confidence": 3,
+     "why": "the gatekeepers at the rebbe's door refuse him entry",
+     "quotes_failed": false
+    },
+    {
+     "tag": "spaces:institutions_hassidic_court",
+     "scope": "span",
+     "quotes": [
+      "מצא סב יב הפתח המון רב מבני ישראל"
+     ],
+     "confidence": 2,
+     "why": "a crowd throngs R. Mordechai's court",
+     "quotes_failed": false
+    },
+    {
+     "tag": "supernatural:miracle",
+     "scope": "span",
+     "quotes": [
+      "והראה מו פתים נוראים עצומים"
+     ],
+     "confidence": 1,
+     "why": "R. Mordechai's wonders are mentioned",
+     "quotes_failed": false
+    },
+    {
+     "tag": "social:inter_hasidic_conflict_between_tsaddikim",
+     "scope": "span",
+     "quotes": [
+      "שהם קנטרו זה לזה בדברים",
+      "הלא לא כן היה המדובר בינינו"
+     ],
+     "confidence": 2,
+     "why": "the two tsaddikim quarrel",
+     "quotes_failed": false
+    },
+    {
+     "tag": "spaces:beth_midrash",
+     "scope": "span",
+     "quotes": [
+      "ונעשה שמש בבית המדרש"
+     ],
+     "confidence": 2,
+     "why": "the Saba serves in the study hall",
+     "quotes_failed": false
+    },
+    {
+     "tag": "practice:clothing",
+     "scope": "span",
+     "quotes": [
+      "כי הי' לבוש כאיש עני"
+     ],
+     "confidence": 1,
+     "why": "his poor clothing leads to his exclusion",
+     "quotes_failed": false
+    },
+    {
+     "tag": "social:poverty",
+     "scope": "span",
+     "quotes": [
+      "כי הי' לבוש כאיש עני ואגודת חפציו"
+     ],
+     "confidence": 1,
+     "why": "he lives as a voluntarily poor wanderer",
+     "quotes_failed": false
+    },
+    {
+     "tag": "practice:joke",
+     "scope": "span",
+     "quotes": [
+      "ויהיו לצחוק בעיני כל הקרואים"
+     ],
+     "confidence": 1,
+     "why": "the proclamations look like a jest to the guests",
+     "quotes_failed": false
+    }
+   ],
+   "missing_concepts": [
+    "self-imposed exile (galut) as a pre-revelation practice of tsaddikim",
+    "tsaddikim behaving provocatively or as holy fools",
+    "the hidden tsaddik's choice to refuse office"
+   ],
+   "start_quote_found": true,
+   "end_quote_found": true
+  }
+ ],
+ "check": {
+  "non_vocab_tags": [],
+  "quotes": 31,
+  "quotes_not_found": 0
+ },
+ "id": "Khal-Hasidim_0205"
+}

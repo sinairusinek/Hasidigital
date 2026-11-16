@@ -1,0 +1,78 @@
+{
+ "unit": {
+  "kind": "hasidic_story",
+  "why": "A short anecdote: the Besht visits the town of R. Yosef the melamed, whose house stands next to a church; soon the church burns down and is not rebuilt.",
+  "boundary_note": "'הנ\"ל' refers back to R. Yosef melamed mentioned in an earlier division; the Besht's remark to him seems elided in the text"
+ },
+ "stories": [
+  {
+   "k": 1,
+   "start_quote": "שמעתי מר' מאיר מ אופאליע שר׳ יוסף",
+   "end_quote": "בית אחר במקום הזה",
+   "hasidic": true,
+   "summary_en": "The Besht comes to the town of the poor melamed R. Yosef, whose house adjoins a church. Yosef says he is too poor to move. Soon after, the church burns and the town's lord forbids rebuilding it on that spot.",
+   "tags": [
+    {
+     "tag": "practice:the_travels_of_the_tsaddik",
+     "scope": "span",
+     "quotes": [
+      "פ״א בא הבעש״ט לעירו"
+     ],
+     "confidence": 3,
+     "why": "The story turns on the Besht's visit to the town",
+     "quotes_failed": false
+    },
+    {
+     "tag": "supernatural:miracle",
+     "scope": "span",
+     "quotes": [
+      "ולא איחר הדבר ונשרף בית ע\"א"
+     ],
+     "confidence": 2,
+     "why": "The church burns soon after the Besht's visit, implicitly through his intervention",
+     "quotes_failed": false
+    },
+    {
+     "tag": "social:relations_with_non_jews",
+     "scope": "span",
+     "quotes": [
+      "ולא הניח שר העיר לבנות שוב"
+     ],
+     "confidence": 2,
+     "why": "The church and the local non-Jewish lord",
+     "quotes_failed": false
+    },
+    {
+     "tag": "practice:storytelling",
+     "scope": "span",
+     "quotes": [
+      "שמעתי מר' מאיר מ אופאליע"
+     ],
+     "confidence": 1,
+     "why": "Framed as a tale heard from a named teller",
+     "quotes_failed": false
+    },
+    {
+     "tag": "practice:protection",
+     "scope": "story",
+     "quotes": [],
+     "confidence": 1,
+     "why": "The tsaddik removes a spiritually harmful neighbour for a poor Jew",
+     "quotes_failed": false
+    }
+   ],
+   "missing_concepts": [
+    "proximity to a church (avodah zarah) as spiritual harm",
+    "destruction of a non-Jewish house of worship"
+   ],
+   "start_quote_found": true,
+   "end_quote_found": true
+  }
+ ],
+ "check": {
+  "non_vocab_tags": [],
+  "quotes": 4,
+  "quotes_not_found": 0
+ },
+ "id": "Khal-Hasidim_0042"
+}

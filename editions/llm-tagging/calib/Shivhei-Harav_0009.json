@@ -1,0 +1,152 @@
+{
+ "unit": {
+  "kind": "hasidic_story",
+  "why": "A narrative episode in which R. Leib Janowitzer, sent by the Rav (Alter Rebbe), poses as a non-Hasid in Vilna to spy on the Gaon's circle during the Rav's imprisonment.",
+  "boundary_note": "Opens with 'עתה נחזור', resuming the larger imprisonment narrative; ends at the Gaon's convening of an assembly, so the story continues into the next division."
+ },
+ "stories": [
+  {
+   "k": 1,
+   "start_quote": "עתה נחזור לספר את אשר קרה",
+   "end_quote": "וע\"כ אסף אסיפה להועץ מה לעשות",
+   "hasidic": true,
+   "summary_en": "During the Alter Rebbe's imprisonment, his hasid R. Leib Janowitzer disguises himself as a poor non-Hasid. He changes even his tefillin knot, lodges at the Vilna Gaon's table and reports to the Hasidim in Petersburg on the mitnagdim's plotting. He then learns that the Rav's written defence, translated for the Kaiser, will likely free him.",
+   "tags": [
+    {
+     "tag": "practice:tefillin",
+     "scope": "span",
+     "quotes": [
+      "נפל בדעתו לשנות הקשר של תפילין שלו",
+      "וישנה האיש הנחת התפילין שלא יכירוהו"
+     ],
+     "confidence": 3,
+     "why": "The distinctive Chabad tefillin knot, and changing it as a disguise",
+     "quotes_failed": false
+    },
+    {
+     "tag": "practice:halakhah",
+     "scope": "span",
+     "quotes": [
+      "והמציא הרב קשר עפ״י דין שיוצרך לקשרו על התפילין"
+     ],
+     "confidence": 2,
+     "why": "Halakhic rationale for the Rav's knot and the differing customs",
+     "quotes_failed": false
+    },
+    {
+     "tag": "ethics-and-emotions:lying",
+     "scope": "span",
+     "quotes": [
+      "ויאמר כי הנה בתי הבתולה הגיעה לפרקה",
+      "ויסע כאיש עני ובבואו ל וילנא"
+     ],
+     "confidence": 3,
+     "why": "He denies being a Hasid and invents a pretext",
+     "quotes_failed": false
+    },
+    {
+     "tag": "social:relations_with_non_hasidim",
+     "scope": "story",
+     "quotes": [],
+     "confidence": 3,
+     "why": "Infiltration of the Vilna Gaon's mitnagdic circle",
+     "quotes_failed": false
+    },
+    {
+     "tag": "social:conflict",
+     "scope": "span",
+     "quotes": [
+      "כל הסודות ממתנגדי הרב החפיצים ברעתו"
+     ],
+     "confidence": 3,
+     "why": "Mitnagdim are working against the Rav",
+     "quotes_failed": false
+    },
+    {
+     "tag": "social:relations_with_the_authorities",
+     "scope": "span",
+     "quotes": [
+      "וכי שחדו את השר פלוני ואת השר פלוני",
+      "כי הרב פעל מ הקייזר כי יתן כל התנצלותו"
+     ],
+     "confidence": 3,
+     "why": "Bribing officials; the Kaiser and the translating director",
+     "quotes_failed": false
+    },
+    {
+     "tag": "times:historical_event",
+     "scope": "story",
+     "quotes": [],
+     "confidence": 3,
+     "why": "The Alter Rebbe's arrest and imprisonment in Petersburg",
+     "quotes_failed": false
+    },
+    {
+     "tag": "practice:pidyon_shvuyim",
+     "scope": "span",
+     "quotes": [
+      "יוכל להיות כי יצא בקרוב ממאסרו"
+     ],
+     "confidence": 2,
+     "why": "The mission serves efforts to free the imprisoned Rav",
+     "quotes_failed": false
+    },
+    {
+     "tag": "spaces:beth_midrash",
+     "scope": "span",
+     "quotes": [
+      "ישב תמיד בבהמ״ד עם הבטלנים ולמד עמהם"
+     ],
+     "confidence": 3,
+     "why": "The Gaon's study hall is the setting",
+     "quotes_failed": false
+    },
+    {
+     "tag": "practice:study",
+     "scope": "span",
+     "quotes": [
+      "ישב תמיד בבהמ״ד עם הבטלנים ולמד עמהם"
+     ],
+     "confidence": 2,
+     "why": "He studies as part of his cover",
+     "quotes_failed": false
+    },
+    {
+     "tag": "ethics-and-emotions:fear",
+     "scope": "span",
+     "quotes": [
+      "בי ירא ר׳ ליב פן יודע הדבר"
+     ],
+     "confidence": 2,
+     "why": "Fear of being discovered",
+     "quotes_failed": false
+    },
+    {
+     "tag": "women:minor_character",
+     "scope": "span",
+     "quotes": [
+      "היה לו אחות ב וילנא",
+      "ותוליכהו אחותו לבהמ\"ד של הגאון"
+     ],
+     "confidence": 3,
+     "why": "His sister questions him and brings him to the Gaon",
+     "quotes_failed": false
+    }
+   ],
+   "missing_concepts": [
+    "espionage / spying on opponents",
+    "the Vilna Gaon as antagonist",
+    "imprisonment of a tzaddik",
+    "letters and correspondence via the post"
+   ],
+   "start_quote_found": true,
+   "end_quote_found": true
+  }
+ ],
+ "check": {
+  "non_vocab_tags": [],
+  "quotes": 14,
+  "quotes_not_found": 0
+ },
+ "id": "Shivhei-Harav_0009"
+}

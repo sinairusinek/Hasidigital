@@ -1,0 +1,212 @@
+{
+ "unit": {
+  "kind": "hasidic_story",
+  "why": "A single complete narrative: R. Michel of Zlotchov sends a man to a rich man in Berdichev to learn trust in God, and the man is then rewarded on his way home.",
+  "boundary_note": "Opens with 'ומעשה כזו היתה ג״כ', so it is introduced as a parallel to a preceding tale, but it is self-contained."
+ },
+ "stories": [
+  {
+   "k": 1,
+   "start_quote": "ומעשה כזו היתה ג״כ בדור שלפנינו",
+   "end_quote": "ולעד לא ימעדו רגליך אמן.",
+   "hasidic": true,
+   "summary_en": "R. Michel of Zlotchov rebukes a man for lacking trust in God and sends him to learn it from a rich man in Berdichev. The rich man's 'treasury' turns out to be an empty room where he prays, and an army captain miraculously arrives to deposit money with him. On the way home the man spends all he was given to ransom two Jewish women from a cruel noble's steward. That night an angel disguised as a merchant entrusts him with money for a man who does not exist, and the rebbe explains the money is his reward for his trust.",
+   "tags": [
+    {
+     "tag": "practice:travel_to_the_tsaddik",
+     "scope": "span",
+     "quotes": [
+      "ואחר כך נסע להרב הקדוש מיכל הנ\"ל"
+     ],
+     "confidence": 3,
+     "why": "The man comes to the rebbe at the start and returns to him at the end.",
+     "quotes_failed": false
+    },
+    {
+     "tag": "social:inter_hasidic_master_disciple_relationship",
+     "scope": "span",
+     "quotes": [
+      "אם תרצה ללמוד מדת הבטחון בא ואשלחך"
+     ],
+     "confidence": 2,
+     "why": "The rebbe sets his follower a test of trust in God and later explains its meaning.",
+     "quotes_failed": false
+    },
+    {
+     "tag": "ethics-and-emotions:charity",
+     "scope": "span",
+     "quotes": [
+      "וגם ראה כי הגביר הנ\"ל בעל צדקה גדול מאוד",
+      "הנשאר לי מהרוחת החוב אני מחלק באותו היום לצדקה"
+     ],
+     "confidence": 3,
+     "why": "The rich man's great charity is central to the story.",
+     "quotes_failed": false
+    },
+    {
+     "tag": "practice:pidyon_shvuyim",
+     "scope": "span",
+     "quotes": [
+      "אל תבכו אנכי אפדה אתכם",
+      "ויפדה את השבויים ויפטרו אותם"
+     ],
+     "confidence": 3,
+     "why": "The man ransoms imprisoned Jewish women.",
+     "quotes_failed": false
+    },
+    {
+     "tag": "practice:redemption_of_captives",
+     "scope": "span",
+     "quotes": [
+      "ויפדה את השבויים ויפטרו אותם"
+     ],
+     "confidence": 3,
+     "why": "Same event; this tag duplicates pidyon_shvuyim.",
+     "quotes_failed": false
+    },
+    {
+     "tag": "women:minor_character",
+     "scope": "span",
+     "quotes": [
+      "והנה שתי נשים אסורים בזיקים מובלים ביד שוטרים",
+      "ויענו לו בבכי למותה"
+     ],
+     "confidence": 3,
+     "why": "The captive women speak and act in a peripheral role.",
+     "quotes_failed": false
+    },
+    {
+     "tag": "social:relations_with_non_jews",
+     "scope": "span",
+     "quotes": [
+      "והנה הוא קאפיטאן גדול מבעלי המלחמה",
+      "והוא רשע עריץ ושואף לדם"
+     ],
+     "confidence": 3,
+     "why": "Dealings with a gentile captain and with a noble's steward.",
+     "quotes_failed": false
+    },
+    {
+     "tag": "times:historical_event",
+     "scope": "span",
+     "quotes": [
+      "היתה מלחמת קאטארינע על עיר אטשאקעו"
+     ],
+     "confidence": 3,
+     "why": "The story is set during Catherine's war at Ochakov.",
+     "quotes_failed": false
+    },
+    {
+     "tag": "characters-and-roles:angels",
+     "scope": "span",
+     "quotes": [
+      "כי הוא הוא המלאך אשר נוצר ממצות פיקוח נפש"
+     ],
+     "confidence": 3,
+     "why": "The merchant is revealed to be an angel.",
+     "quotes_failed": false
+    },
+    {
+     "tag": "social:retrospective_recognition",
+     "scope": "span",
+     "quotes": [
+      "וגם אשר נתן לך המעות אינו איש כלל"
+     ],
+     "confidence": 3,
+     "why": "The merchant is recognised afterwards as an angel.",
+     "quotes_failed": false
+    },
+    {
+     "tag": "supernatural:perception",
+     "scope": "span",
+     "quotes": [
+      "ויאמר לו הרב זה לך שכר בטחונך"
+     ],
+     "confidence": 2,
+     "why": "The rebbe knows the hidden nature of the merchant and the money.",
+     "quotes_failed": false
+    },
+    {
+     "tag": "supernatural:miracle",
+     "scope": "span",
+     "quotes": [
+      "הראית כי תשועת ה' כהרף עין",
+      "ונגלה לו אוצר עבורך מחמת בטחונך"
+     ],
+     "confidence": 2,
+     "why": "Money arrives at once, and an angel delivers money as a reward.",
+     "quotes_failed": false
+    },
+    {
+     "tag": "practice:prayer",
+     "scope": "span",
+     "quotes": [
+      "ואומר בלב נשבר רבש״ע כך וכך מעות"
+     ],
+     "confidence": 2,
+     "why": "The rich man prays privately for his daily needs.",
+     "quotes_failed": false
+    },
+    {
+     "tag": "folkloristics:story_type_virtues",
+     "scope": "story",
+     "quotes": [],
+     "confidence": 2,
+     "why": "The story illustrates the virtue of trust in God.",
+     "quotes_failed": false
+    },
+    {
+     "tag": "ethics-and-emotions:virtues",
+     "scope": "story",
+     "quotes": [],
+     "confidence": 3,
+     "why": "Trust in God (bitachon) is the explicit virtue taught.",
+     "quotes_failed": false
+    },
+    {
+     "tag": "practice:torat_ha_tsaddik",
+     "scope": "span",
+     "quotes": [
+      "כמאמר רבינו הבעש״ט ז\"ל אשר להבעל בטחון הגדול"
+     ],
+     "confidence": 1,
+     "why": "The tale closes with the rebbe's teaching, citing the Besht.",
+     "quotes_failed": false
+    },
+    {
+     "tag": "practice:sermon",
+     "scope": "span",
+     "quotes": [
+      "אשר להבעל בטחון הגדול א\"א להעניש אותו"
+     ],
+     "confidence": 2,
+     "why": "A teaching attributed to the Besht is quoted in the story.",
+     "quotes_failed": false
+    },
+    {
+     "tag": "ethics-and-emotions:joy",
+     "scope": "span",
+     "quotes": [
+      "וילכו לביתם בשמחה"
+     ],
+     "confidence": 1,
+     "why": "The freed captives go home joyfully.",
+     "quotes_failed": false
+    }
+   ],
+   "missing_concepts": [
+    "trust in God (bitachon) as a virtue",
+    "saving life (pikuach nefesh) by a layman",
+    "reward for a good deed"
+   ],
+   "start_quote_found": true,
+   "end_quote_found": true
+  }
+ ],
+ "check": {
+  "non_vocab_tags": [],
+  "quotes": 21,
+  "quotes_not_found": 0
+ },
+ "id": "Adat-Zadikim_0006"
+}

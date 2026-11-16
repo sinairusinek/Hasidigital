@@ -1,0 +1,365 @@
+{
+ "unit": {
+  "kind": "hasidic_story",
+  "why": "A single continuous narrative about the Besht in Brody: the meat he declares carrion at a circumcision feast, his clash with R. Hayyim Sanzer and R. Moshe Ostrer, and his vindication through R. David Purkes.",
+  "boundary_note": ""
+ },
+ "stories": [
+  {
+   "k": 1,
+   "start_quote": "מעשה נוראה מרבינו הבעש״ט הקדוש זי\"ע",
+   "end_quote": "לתת לו תשובה על חטאיו)",
+   "hasidic": true,
+   "summary_en": "The Besht promises a childless rabbi in Brody a son and comes to be sandak, but at the feast he declares the meat carrion, angering the anti-Hasidic geonim of Brody. His disciple R. David Purkes later defends him in a sermon, and the shochet is discovered committing adultery with his daughter-in-law and confesses that he deliberately damaged his knife to test the Besht.",
+   "tags": [
+    {
+     "tag": "characters-and-roles:ritual_slaughterer",
+     "scope": "span",
+     "quotes": [
+      "שישלח להשוחט אשר יראה הסכין של שחוטה",
+      "אשר הוא עובר עבירה עם כלתו"
+     ],
+     "confidence": 3,
+     "why": "The shochet is the central culprit.",
+     "quotes_failed": false
+    },
+    {
+     "tag": "practice:ritual_slaughtering",
+     "scope": "span",
+     "quotes": [
+      "ויבחנו אותו ויראו כי הוא טוב מאוד וכשר לשחוט",
+      "אז פתני היצר לפגום את הסכין"
+     ],
+     "confidence": 3,
+     "why": "Inspection of the slaughter knife drives the plot.",
+     "quotes_failed": false
+    },
+    {
+     "tag": "practice:halakhah",
+     "scope": "span",
+     "quotes": [
+      "יען כי הבשר הוא בשר נבלה",
+      "איך יכול לאסור הבשר בלי ראי' ובלא עדים"
+     ],
+     "confidence": 3,
+     "why": "The Besht rules the meat forbidden as carrion, and the geonim dispute the ruling.",
+     "quotes_failed": false
+    },
+    {
+     "tag": "ethics-and-emotions:prohibitions",
+     "scope": "span",
+     "quotes": [
+      "השמרו והזהרו לבל תגעו בהרוטב ובשר"
+     ],
+     "confidence": 3,
+     "why": "The guests are forbidden to eat the meat.",
+     "quotes_failed": false
+    },
+    {
+     "tag": "supernatural:perception",
+     "scope": "span",
+     "quotes": [
+      "כי הבעש\"ט הוא איש אלקים ודבר ה' בפיו אמת"
+     ],
+     "confidence": 3,
+     "why": "The Besht knows the meat is invalid without any visible sign.",
+     "quotes_failed": false
+    },
+    {
+     "tag": "practice:circumcision",
+     "scope": "span",
+     "quotes": [
+      "תכבדיני במצות סדקאות להחזיק הילד על ברכי",
+      "ויהי אחר אשר מהלו את התינוק"
+     ],
+     "confidence": 3,
+     "why": "The setting is a brit with the Besht as sandak.",
+     "quotes_failed": false
+    },
+    {
+     "tag": "supernatural:pregnancy",
+     "scope": "span",
+     "quotes": [
+      "נסע ל הבעש״ט שיבקש רחמי' עליו",
+      "ותלד אשת הרב מלוצק בשנה הבא בן לו"
+     ],
+     "confidence": 3,
+     "why": "A son is born after the Besht's blessing.",
+     "quotes_failed": false
+    },
+    {
+     "tag": "supernatural:prognostication",
+     "scope": "span",
+     "quotes": [
+      "והנה בן יולד לך"
+     ],
+     "confidence": 2,
+     "why": "The Besht's promise of a son comes true.",
+     "quotes_failed": false
+    },
+    {
+     "tag": "times:birth",
+     "scope": "span",
+     "quotes": [
+      "ותלד אשת הרב מלוצק בשנה הבא בן לו"
+     ],
+     "confidence": 2,
+     "why": "The birth is depicted.",
+     "quotes_failed": false
+    },
+    {
+     "tag": "ethics-and-emotions:adultery",
+     "scope": "span",
+     "quotes": [
+      "ויראו והנה הוא שוכב עם כלתו",
+      "אשר הוא עובר עבירה עם כלתו"
+     ],
+     "confidence": 3,
+     "why": "The shochet's adultery with his daughter-in-law.",
+     "quotes_failed": false
+    },
+    {
+     "tag": "social:conflict",
+     "scope": "span",
+     "quotes": [
+      "ויתחילו לריב עם הבעש\"ט",
+      "ויכרזו בכל העיר אשר לא יזכר שם הבעש״ט"
+     ],
+     "confidence": 3,
+     "why": "The Besht clashes with the Brody geonim.",
+     "quotes_failed": false
+    },
+    {
+     "tag": "social:relations_with_non_hasidim",
+     "scope": "span",
+     "quotes": [
+      "והיו חולקים על התנהגות של הבעש״ט"
+     ],
+     "confidence": 3,
+     "why": "The opponents are non-Hasidic rabbis.",
+     "quotes_failed": false
+    },
+    {
+     "tag": "ethics-and-emotions:anger",
+     "scope": "span",
+     "quotes": [
+      "ויחר להגאונים הנ\"ל מאוד",
+      "וילכו לביתם בזעם גדול מאוד"
+     ],
+     "confidence": 3,
+     "why": "The geonim's anger.",
+     "quotes_failed": false
+    },
+    {
+     "tag": "ethics-and-emotions:shame",
+     "scope": "span",
+     "quotes": [
+      "יסע משם בחרפה ובזיון גדול",
+      "וידלגו ויהלגו עליו להורידו ממקומו ולביישו"
+     ],
+     "confidence": 2,
+     "why": "The Besht and R. David are threatened with public disgrace.",
+     "quotes_failed": false
+    },
+    {
+     "tag": "characters-and-roles:preacher",
+     "scope": "span",
+     "quotes": [
+      "כי היה הרב ר' דוד מוכיח גדול"
+     ],
+     "confidence": 3,
+     "why": "R. David Purkes acts as a preacher.",
+     "quotes_failed": false
+    },
+    {
+     "tag": "practice:sermon",
+     "scope": "span",
+     "quotes": [
+      "וידרוש להם דברי מוסר ודברי כבושין פעם אחד"
+     ],
+     "confidence": 2,
+     "why": "R. David's sermons in Brody are depicted.",
+     "quotes_failed": false
+    },
+    {
+     "tag": "social:inter_hasidic_master_disciple_relationship",
+     "scope": "span",
+     "quotes": [
+      "ויפגע בו תלמידו הרב הקדוש המפורסם ר' דוד פורקעס",
+      "ויאמר לו הבעש\"ט אל תירא"
+     ],
+     "confidence": 2,
+     "why": "The Besht sends his disciple on a mission.",
+     "quotes_failed": false
+    },
+    {
+     "tag": "ethics-and-emotions:fear",
+     "scope": "span",
+     "quotes": [
+      "וירא מאוד ר׳ דוד הנ\"ל לבוא ל בראד",
+      "יראתי מאוד ונפל עלי אימה גדולה וחשיכה"
+     ],
+     "confidence": 3,
+     "why": "R. David's fear, and the shochet's fear of exposure.",
+     "quotes_failed": false
+    },
+    {
+     "tag": "experience:trembling",
+     "scope": "span",
+     "quotes": [
+      "והשוחט נתמלא רתת רתח וחלחלה"
+     ],
+     "confidence": 2,
+     "why": "The shochet trembles when caught.",
+     "quotes_failed": false
+    },
+    {
+     "tag": "ethics-and-emotions:punishment",
+     "scope": "span",
+     "quotes": [
+      "וישמו אותו בבית הסוהר"
+     ],
+     "confidence": 3,
+     "why": "The shochet is imprisoned.",
+     "quotes_failed": false
+    },
+    {
+     "tag": "ethics-and-emotions:repentance",
+     "scope": "span",
+     "quotes": [
+      "והבטחתי אשר לא אשוב עוד לכסלה",
+      "והתודה בפיו ויבך ויתחנן לו"
+     ],
+     "confidence": 3,
+     "why": "The shochet confesses and seeks penance from the Besht.",
+     "quotes_failed": false
+    },
+    {
+     "tag": "practice:asceticism",
+     "scope": "span",
+     "quotes": [
+      "ועשיתי לי סיגופים גדולים"
+     ],
+     "confidence": 2,
+     "why": "The shochet mortifies himself in penance.",
+     "quotes_failed": false
+    },
+    {
+     "tag": "practice:healing_of_the_soul",
+     "scope": "span",
+     "quotes": [
+      "שירחם עליו לתת לו תשובה על חטאיו"
+     ],
+     "confidence": 2,
+     "why": "The shochet asks the Besht for a penance (tikkun).",
+     "quotes_failed": false
+    },
+    {
+     "tag": "ethics-and-emotions:lust",
+     "scope": "span",
+     "quotes": [
+      "כי ידעתי את יצרי הרע ואת המעשים רעים"
+     ],
+     "confidence": 2,
+     "why": "The shochet's illicit desire.",
+     "quotes_failed": false
+    },
+    {
+     "tag": "ethics-and-emotions:lying",
+     "scope": "span",
+     "quotes": [
+      "אז פתני היצר לפגום את הסכין"
+     ],
+     "confidence": 2,
+     "why": "The shochet secretly damages the knife to deceive and test the Besht.",
+     "quotes_failed": false
+    },
+    {
+     "tag": "social:retrospective_recognition",
+     "scope": "span",
+     "quotes": [
+      "וישתוממו כל אנשי העיר על דבריו"
+     ],
+     "confidence": 3,
+     "why": "The town belatedly realizes the Besht was right.",
+     "quotes_failed": false
+    },
+    {
+     "tag": "folkloristics:story_type_rapprochement",
+     "scope": "span",
+     "quotes": [
+      "כי ראו אשר חכמת אלקים ב הבעש״ט"
+     ],
+     "confidence": 2,
+     "why": "The hostile town comes to honor the Besht and his disciple.",
+     "quotes_failed": false
+    },
+    {
+     "tag": "practice:travel_to_the_tsaddik",
+     "scope": "span",
+     "quotes": [
+      "נסע ל הבעש״ט שיבקש רחמי' עליו"
+     ],
+     "confidence": 3,
+     "why": "The rabbi of Lutsk travels to the Besht with his request.",
+     "quotes_failed": false
+    },
+    {
+     "tag": "practice:the_travels_of_the_tsaddik",
+     "scope": "span",
+     "quotes": [
+      "ויסעו שניהם יחדיו ויבואו ל בראד",
+      "ויסע בלילה ההוא מ בראד"
+     ],
+     "confidence": 2,
+     "why": "The Besht's journey to Brody frames the events.",
+     "quotes_failed": false
+    },
+    {
+     "tag": "times:shabbat",
+     "scope": "span",
+     "quotes": [
+      "כאשר התקדש השבת"
+     ],
+     "confidence": 1,
+     "why": "The exposure happens on Friday night.",
+     "quotes_failed": false
+    },
+    {
+     "tag": "women:minor_character",
+     "scope": "span",
+     "quotes": [
+      "ותלד אשת הרב מלוצק בשנה הבא בן לו"
+     ],
+     "confidence": 2,
+     "why": "The rabbi's wife gives birth.",
+     "quotes_failed": false
+    },
+    {
+     "tag": "women:mention_only",
+     "scope": "span",
+     "quotes": [
+      "ויראו והנה הוא שוכב עם כלתו"
+     ],
+     "confidence": 2,
+     "why": "The daughter-in-law is mentioned but does not act.",
+     "quotes_failed": false
+    }
+   ],
+   "missing_concepts": [
+    "public ban on mentioning the Besht's name or teachings (a herem-like decree)",
+    "lay court of the seven good men of the town (שבעה טובי העיר)",
+    "testing a tzaddik's insight by deliberate sabotage",
+    "incest / forbidden relations with a daughter-in-law"
+   ],
+   "start_quote_found": true,
+   "end_quote_found": true
+  }
+ ],
+ "check": {
+  "non_vocab_tags": [],
+  "quotes": 45,
+  "quotes_not_found": 0
+ },
+ "id": "Khal-Hasidim_0124"
+}

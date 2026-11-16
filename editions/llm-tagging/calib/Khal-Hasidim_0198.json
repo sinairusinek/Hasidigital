@@ -1,0 +1,119 @@
+{
+ "unit": {
+  "kind": "hasidic_story",
+  "why": "Narrative of R. Shmelke's arrival at Nikolsburg as rabbi, his private self-greeting overheard by hidden townsmen, and his explanation of it as a guard against pride.",
+  "boundary_note": ""
+ },
+ "stories": [
+  {
+   "k": 1,
+   "start_quote": "ויהי שמות האחים הצדיקים הלוך וגדול",
+   "end_quote": "כדברים אשר דברתי אל לבי",
+   "hasidic": true,
+   "summary_en": "On arriving as rabbi of Nikolsburg, R. Shmelke asks for two hours alone, during which hidden townsmen hear him greet himself sighing 'Peace to you, rabbi of Nikolsburg'; asked why, he explains via 'let your fellow's honor be dear to you as your own' that he did so to inure himself against the pride their honors might bring.",
+   "tags": [
+    {
+     "tag": "times:inauguration",
+     "scope": "span",
+     "quotes": [
+      "מו\"ה שמעלקא נתקבל לאבד״ק ניקלשפורג",
+      "ויהי כאשר בא הרב מוהר\"ש ל ניקלשפורג"
+     ],
+     "confidence": 3,
+     "why": "his installation as rabbi of Nikolsburg frames the story",
+     "quotes_failed": false
+    },
+    {
+     "tag": "folkloristics:story_type_inauguration",
+     "scope": "story",
+     "quotes": [],
+     "confidence": 2,
+     "why": "central event is his reception as the new rabbi",
+     "quotes_failed": false
+    },
+    {
+     "tag": "ethics-and-emotions:humility",
+     "scope": "span",
+     "quotes": [
+      "שלא יתגאה האדם חלילה חלילה",
+      "פן אשכח א\"ע ע\"י הכבוד הזה"
+     ],
+     "confidence": 3,
+     "why": "the point is guarding humility against honor",
+     "quotes_failed": false
+    },
+    {
+     "tag": "ethics-and-emotions:pride",
+     "scope": "span",
+     "quotes": [
+      "ותזוח חלילה דעתי"
+     ],
+     "confidence": 3,
+     "why": "pride is the danger he avoids",
+     "quotes_failed": false
+    },
+    {
+     "tag": "folkloristics:story_type_virtues",
+     "scope": "story",
+     "quotes": [],
+     "confidence": 3,
+     "why": "illustrates the tsaddik's humility",
+     "quotes_failed": false
+    },
+    {
+     "tag": "practice:sermon",
+     "scope": "span",
+     "quotes": [
+      "ובזה אני מפרש יהי כבוד חבירך חביב עליך כשלך"
+     ],
+     "confidence": 3,
+     "why": "he gives an interpretation of a Mishnah from Avot",
+     "quotes_failed": false
+    },
+    {
+     "tag": "social:retrospective_recognition",
+     "scope": "span",
+     "quotes": [
+      "מה הית' כוונתו בדבר הזה"
+     ],
+     "confidence": 2,
+     "why": "his puzzling behavior turns out to have a hidden meaning",
+     "quotes_failed": false
+    },
+    {
+     "tag": "practice:solitude",
+     "scope": "span",
+     "quotes": [
+      "ויבקש מאוד כי יניחו לו כשתי שעות"
+     ],
+     "confidence": 1,
+     "why": "he asks for a brief seclusion before receiving the townspeople",
+     "quotes_failed": false
+    },
+    {
+     "tag": "characters-and-roles:the_family_of_the_tsaddik",
+     "scope": "span",
+     "quotes": [
+      "ויהי שמות האחים הצדיקים הלוך וגדול"
+     ],
+     "confidence": 1,
+     "why": "his brother R. Pinhas is mentioned only in the opening",
+     "quotes_failed": false
+    }
+   ],
+   "missing_concepts": [
+    "honor / kavod and community reception of a new rabbi",
+    "eavesdropping on a tsaddik in private",
+    "rabbinic appointment (communal rabbinate, not Hasidic rebbe)"
+   ],
+   "start_quote_found": true,
+   "end_quote_found": true
+  }
+ ],
+ "check": {
+  "non_vocab_tags": [],
+  "quotes": 9,
+  "quotes_not_found": 0
+ },
+ "id": "Khal-Hasidim_0198"
+}

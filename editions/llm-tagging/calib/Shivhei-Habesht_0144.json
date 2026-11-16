@@ -1,0 +1,144 @@
+{
+ "unit": {
+  "kind": "hasidic_story",
+  "why": "A single narrative, heard from R. Yehiel of Kovel, about a town rabbi whose prayer struck dead the rich man's wife after she threatened to close the study house.",
+  "boundary_note": "'בעיר הנ\"ל' refers back to the town named in the preceding division"
+ },
+ "stories": [
+  {
+   "k": 1,
+   "start_quote": "ואגב אכתוב ששמעתי מהרב מ׳ יחיאל",
+   "end_quote": "וכרות ונענע בידו ומתה",
+   "hasidic": true,
+   "summary_en": "When the congregation delayed Kabbalat Shabbat to wait for the rich man R. Zusman, the rabbi rebuked them; Zusman's wife then threatened to close the study house, and the next morning she froze like a stone and died as the rabbi, praying, said 've-karot' and waved his hand.",
+   "tags": [
+    {
+     "tag": "times:shabbat",
+     "scope": "span",
+     "quotes": [
+      "שמע שמקבלים שבת בבה״כ",
+      "לא היו מקבלים שבת עד למחר"
+     ],
+     "confidence": 3,
+     "why": "The conflict arises over the delayed Kabbalat Shabbat.",
+     "quotes_failed": false
+    },
+    {
+     "tag": "ethics-and-emotions:punishment",
+     "scope": "span",
+     "quotes": [
+      "ועמדה כאבן דומם ורצו להרב",
+      "וכרות ונענע בידו ומתה"
+     ],
+     "confidence": 3,
+     "why": "The wife is struck dead for her threat against the rabbi.",
+     "quotes_failed": false
+    },
+    {
+     "tag": "times:death",
+     "scope": "span",
+     "quotes": [
+      "וכרות ונענע בידו ומתה"
+     ],
+     "confidence": 3,
+     "why": "The wife's death is depicted.",
+     "quotes_failed": false
+    },
+    {
+     "tag": "supernatural:miracle",
+     "scope": "span",
+     "quotes": [
+      "ועמדה כאבן דומם ורצו להרב"
+     ],
+     "confidence": 3,
+     "why": "The woman is supernaturally frozen and killed through the rabbi's prayer.",
+     "quotes_failed": false
+    },
+    {
+     "tag": "women:major_character",
+     "scope": "span",
+     "quotes": [
+      "שמעה אשתו של ר׳ זוסמאן ואמרה",
+      "אסגור לכם הבהמ\"ד שלכם"
+     ],
+     "confidence": 3,
+     "why": "Zusman's wife is the antagonist and acts on her own.",
+     "quotes_failed": false
+    },
+    {
+     "tag": "social:conflict",
+     "scope": "span",
+     "quotes": [
+      "אסגור לכם הבהמ\"ד שלכם"
+     ],
+     "confidence": 3,
+     "why": "The rabbi is in conflict with the rich man's household.",
+     "quotes_failed": false
+    },
+    {
+     "tag": "ethics-and-emotions:pride",
+     "scope": "span",
+     "quotes": [
+      "ולא ימתינו על בעלי בקדושה וברכו ואמן"
+     ],
+     "confidence": 2,
+     "why": "The wife arrogantly demands that the congregation wait for her husband.",
+     "quotes_failed": false
+    },
+    {
+     "tag": "practice:prayer",
+     "scope": "span",
+     "quotes": [
+      "יצא הרב מתפלתו בליל שבת",
+      "והרב הי׳ מתפלל ואומר וכרות"
+     ],
+     "confidence": 3,
+     "why": "Communal prayer and the rabbi's prayer drive the plot.",
+     "quotes_failed": false
+    },
+    {
+     "tag": "spaces:beth_midrash",
+     "scope": "span",
+     "quotes": [
+      "שהי' מתפלל בבית קטן מיוחד בבית המדרש"
+     ],
+     "confidence": 2,
+     "why": "The study house is the contested setting.",
+     "quotes_failed": false
+    },
+    {
+     "tag": "practice:storytelling",
+     "scope": "span",
+     "quotes": [
+      "ששמעתי מהרב מ׳ יחיאל אב\"ד דק\"ק קאוולע"
+     ],
+     "confidence": 2,
+     "why": "The tale is framed as heard from a named rabbi.",
+     "quotes_failed": false
+    },
+    {
+     "tag": "ethics-and-emotions:anger",
+     "scope": "span",
+     "quotes": [
+      "ואם ר׳ זוסמאן לא הי׳ עד למחר"
+     ],
+     "confidence": 1,
+     "why": "The rabbi's sharp retort reads as indignation.",
+     "quotes_failed": false
+    }
+   ],
+   "missing_concepts": [
+    "honor of a wealthy patron vs. rabbinic authority",
+    "lethal power of the tzaddik's prayer/curse against an opponent"
+   ],
+   "start_quote_found": true,
+   "end_quote_found": true
+  }
+ ],
+ "check": {
+  "non_vocab_tags": [],
+  "quotes": 15,
+  "quotes_not_found": 0
+ },
+ "id": "Shivhei-Habesht_0144"
+}

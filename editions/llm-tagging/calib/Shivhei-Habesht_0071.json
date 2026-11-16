@@ -1,0 +1,153 @@
+{
+ "unit": {
+  "kind": "hasidic_story",
+  "why": "A single narrative about the Besht granting R. Shmerel a son at the cost of his wealth, with a closing note on the son's later career.",
+  "boundary_note": ""
+ },
+ "stories": [
+  {
+   "k": 1,
+   "start_quote": "שמעתי מהרב ר' פאלק הכהן שחמיו",
+   "end_quote": "הי' בעת ההי' מ\"ץ דק\"ק סאגראן",
+   "hasidic": true,
+   "summary_en": "The childless R. Shmerel, who hosts the Besht, is too ashamed to ask for a son; the Besht guesses his wish and threatens his wife with his staff so that she bears a son, R. David, but later explains that Heaven offered a choice between money or a son, so Shmerel loses all his wealth.",
+   "tags": [
+    {
+     "tag": "supernatural:pregnancy",
+     "scope": "span",
+     "quotes": [
+      "ראה שתלד ב\"ז כי אני אשבר לך",
+      "שילדה בזו השנה בן זכר"
+     ],
+     "confidence": 3,
+     "why": "the childless couple conceives through the Besht's intervention",
+     "quotes_failed": false
+    },
+    {
+     "tag": "supernatural:perception",
+     "scope": "span",
+     "quotes": [
+      "פתאום אמר לו הבעש״ט שלח אחר אשתך"
+     ],
+     "confidence": 2,
+     "why": "the Besht knows the unspoken request",
+     "quotes_failed": false
+    },
+    {
+     "tag": "supernatural:prognostication",
+     "scope": "span",
+     "quotes": [
+      "תדע שלא יהי' לך עוד מעות",
+      "כל הסחורה שקנה הפסיד בה"
+     ],
+     "confidence": 3,
+     "why": "the predicted loss of wealth comes true",
+     "quotes_failed": false
+    },
+    {
+     "tag": "folkloristics:story_type_prognostication",
+     "scope": "story",
+     "quotes": [],
+     "confidence": 2,
+     "why": "the arc is built on the birth and the loss of wealth, both foretold",
+     "quotes_failed": false
+    },
+    {
+     "tag": "times:birth",
+     "scope": "span",
+     "quotes": [
+      "שילדה בזו השנה בן זכר ושמו ר' דוד"
+     ],
+     "confidence": 3,
+     "why": "the son's birth is depicted",
+     "quotes_failed": false
+    },
+    {
+     "tag": "ethics-and-emotions:shame",
+     "scope": "span",
+     "quotes": [
+      "ולא יכול לדבר מפני הבושה",
+      "ולא יכול ובוש ממנו"
+     ],
+     "confidence": 3,
+     "why": "the host is too ashamed to make his request",
+     "quotes_failed": false
+    },
+    {
+     "tag": "practice:writing_amulets",
+     "scope": "span",
+     "quotes": [
+      "נסע ל הבעש״ט ולקח ממנו קמיע",
+      "ליקח ממנו קמיע כמנהגו"
+     ],
+     "confidence": 3,
+     "why": "he habitually takes an amulet after each birth",
+     "quotes_failed": false
+    },
+    {
+     "tag": "practice:travel_to_the_tsaddik",
+     "scope": "span",
+     "quotes": [
+      "נסע ל הבעש״ט ולקח ממנו קמיע"
+     ],
+     "confidence": 3,
+     "why": "he travels to the Besht after each birth",
+     "quotes_failed": false
+    },
+    {
+     "tag": "practice:the_travels_of_the_tsaddik",
+     "scope": "span",
+     "quotes": [
+      "הבעש״ט היה מתאכסן אצלו",
+      "יום א׳ קודם נסיעתו"
+     ],
+     "confidence": 2,
+     "why": "the Besht lodges with the host while travelling",
+     "quotes_failed": false
+    },
+    {
+     "tag": "women:minor_character",
+     "scope": "span",
+     "quotes": [
+      "שלח אחר אשתך ובאה"
+     ],
+     "confidence": 3,
+     "why": "the wife is summoned and the Besht addresses her",
+     "quotes_failed": false
+    },
+    {
+     "tag": "practice:torat_ha_tsaddik",
+     "scope": "span",
+     "quotes": [
+      "ובררתי אני בשבילך טוב שיהי׳ לך ב\"ז"
+     ],
+     "confidence": 2,
+     "why": "the tsaddik chooses on the man's behalf in Heaven's choice",
+     "quotes_failed": false
+    },
+    {
+     "tag": "supernatural:miracle",
+     "scope": "span",
+     "quotes": [
+      "וכן היה שילדה בזו השנה בן זכר"
+     ],
+     "confidence": 2,
+     "why": "the birth of a child to a childless couple is a wonder",
+     "quotes_failed": false
+    }
+   ],
+   "missing_concepts": [
+    "heavenly choice between wealth and children",
+    "childlessness"
+   ],
+   "start_quote_found": true,
+   "end_quote_found": true
+  }
+ ],
+ "check": {
+  "non_vocab_tags": [],
+  "quotes": 16,
+  "quotes_not_found": 0
+ },
+ "id": "Shivhei-Habesht_0071"
+}

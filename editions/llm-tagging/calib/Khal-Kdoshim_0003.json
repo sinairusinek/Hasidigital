@@ -1,0 +1,166 @@
+{
+ "unit": {
+  "kind": "non_hasidic_story",
+  "why": "A folktale-like narrative about Jews in an Ishmaelite land saved from a bishop's incitement by a clever tailor who exposes the bishop's false claim of flying to Muhammad; no Hasidic figures appear.",
+  "boundary_note": ""
+ },
+ "stories": [
+  {
+   "k": 1,
+   "start_quote": "ומדי דברי בא במשטמת הישמעאלים אספר",
+   "end_quote": "צנורות השפע עוד יותר מלפנים",
+   "hasidic": false,
+   "summary_en": "A bishop incites hatred against the Jews. The community fasts, prays and says Psalms, then collects gold for earrings as a gift to the queen. A tailor volunteers to deliver one earring and tricks the queen into demanding that the bishop bring the second one from Muhammad's city on his yearly 'flight'. The bishop is exposed and forced to beg the Jews for help, then publicly preaches in their favour, and the Jews prosper.",
+   "tags": [
+    {
+     "tag": "social:relations_with_non_jews",
+     "scope": "story",
+     "quotes": [],
+     "confidence": 3,
+     "why": "The plot is the Jews' struggle with a Muslim and Christian population and its bishop.",
+     "quotes_failed": false
+    },
+    {
+     "tag": "social:relations_with_the_authorities",
+     "scope": "span",
+     "quotes": [
+      "לעשות תשורה נכבדה עבור המלכה",
+      "ותפקוד המלכה על הבישאף לאמר"
+     ],
+     "confidence": 3,
+     "why": "The Jews petition the queen, and she commands the bishop.",
+     "quotes_failed": false
+    },
+    {
+     "tag": "social:conflict",
+     "scope": "span",
+     "quotes": [
+      "והבישאף דרש ברבים כי היהודים מתועבים",
+      "ותהי משטמה גדולה על כל היהודים"
+     ],
+     "confidence": 3,
+     "why": "The bishop incites hostility against the Jews.",
+     "quotes_failed": false
+    },
+    {
+     "tag": "practice:fasting",
+     "scope": "span",
+     "quotes": [
+      "ויצומו ויבכו בבכי יליל תמרורים"
+     ],
+     "confidence": 3,
+     "why": "The community fasts during the decree.",
+     "quotes_failed": false
+    },
+    {
+     "tag": "practice:prayer",
+     "scope": "span",
+     "quotes": [
+      "ועסקו רק בתורה ותפלה"
+     ],
+     "confidence": 2,
+     "why": "The community turns to prayer in the synagogues.",
+     "quotes_failed": false
+    },
+    {
+     "tag": "practice:recitation_of_psalms",
+     "scope": "span",
+     "quotes": [
+      "ויאמרו כל ספרי תהלים יום ויום בצבור"
+     ],
+     "confidence": 3,
+     "why": "The whole book of Psalms is recited communally every day.",
+     "quotes_failed": false
+    },
+    {
+     "tag": "ethics-and-emotions:fear",
+     "scope": "span",
+     "quotes": [
+      "כי כל אחד היה פחד וירא לנפשו"
+     ],
+     "confidence": 3,
+     "why": "No one dares to deliver the gift.",
+     "quotes_failed": false
+    },
+    {
+     "tag": "ethics-and-emotions:lying",
+     "scope": "span",
+     "quotes": [
+      "חשב החייט מחשבות להפיחו",
+      "כי אך מאורים מתעים המה לעיני הגוים"
+     ],
+     "confidence": 2,
+     "why": "The tailor uses a ruse, and the bishop's flight is exposed as a deception.",
+     "quotes_failed": false
+    },
+    {
+     "tag": "ethics-and-emotions:shame",
+     "scope": "span",
+     "quotes": [
+      "למען תראה חרפתו ויגלה בשתו וכלימתו",
+      "ויפול הבישאף על פניו לרגלי החייט"
+     ],
+     "confidence": 2,
+     "why": "The bishop is humbled and threatened with exposure.",
+     "quotes_failed": false
+    },
+    {
+     "tag": "ethics-and-emotions:punishment",
+     "scope": "span",
+     "quotes": [
+      "כי אך דתו להמית אם לא יביא"
+     ],
+     "confidence": 1,
+     "why": "The bishop faces a death threat as retribution for his incitement.",
+     "quotes_failed": false
+    },
+    {
+     "tag": "women:minor_character",
+     "scope": "span",
+     "quotes": [
+      "ותקרא אותו לאמר גשה הלום",
+      "והנה לא אחרה המלכה לשלוח אחרי הבישאף"
+     ],
+     "confidence": 2,
+     "why": "The queen acts in the plot as the tool of the tailor's ruse.",
+     "quotes_failed": false
+    },
+    {
+     "tag": "social:retrospective_recognition",
+     "scope": "span",
+     "quotes": [
+      "כי אלקיכם הם האלקים האדירים המציל"
+     ],
+     "confidence": 1,
+     "why": "The bishop admits that the God of the Jews protects them.",
+     "quotes_failed": false
+    },
+    {
+     "tag": "spaces:beth_midrash",
+     "scope": "span",
+     "quotes": [
+      "נקבצו ובאו כולם אל בתי כנסיות ובתי מדרשות"
+     ],
+     "confidence": 1,
+     "why": "The community gathers in study halls to pray.",
+     "quotes_failed": false
+    }
+   ],
+   "missing_concepts": [
+    "anti-Jewish incitement by clergy",
+    "trickster hero (Jewish tailor outwitting a gentile)",
+    "exposure of a false prophet or impostor",
+    "Jewish life under Islam (Muhammad, Ishmaelites)",
+    "communal collection for a bribe or gift (shtadlanut)"
+   ],
+   "start_quote_found": true,
+   "end_quote_found": true
+  }
+ ],
+ "check": {
+  "non_vocab_tags": [],
+  "quotes": 17,
+  "quotes_not_found": 0
+ },
+ "id": "Khal-Kdoshim_0003"
+}

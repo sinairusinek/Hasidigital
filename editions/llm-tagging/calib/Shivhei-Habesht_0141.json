@@ -1,0 +1,80 @@
+{
+ "unit": {
+  "kind": "hasidic_story",
+  "why": "A brief anecdote: while in the Pobereze region, the Besht perceived from afar the death of a tzaddik, the rabbinic decisor of Konstantin, by seeing his soul's ascent.",
+  "boundary_note": ""
+ },
+ "stories": [
+  {
+   "k": 1,
+   "start_quote": "שמעתי מהרב דקהלתינו פ\"א היה הבעש״ט",
+   "end_quote": "ראיתי עליות נשמתו והכרתי תנועותיו",
+   "hasidic": true,
+   "summary_en": "While in the Pobereze region, the Besht announced that a nearby tzaddik had died, probably the rabbinic decisor of Konstantin, because he had seen his soul ascend and recognized its movements.",
+   "tags": [
+    {
+     "tag": "supernatural:perception",
+     "scope": "span",
+     "quotes": [
+      "ואמר שנפטר צדיק א' סמוך למקומו"
+     ],
+     "confidence": 3,
+     "why": "The Besht knows from a distance of a tzaddik's death.",
+     "quotes_failed": false
+    },
+    {
+     "tag": "experience:visions",
+     "scope": "span",
+     "quotes": [
+      "כי ראיתי עליות נשמתו והכרתי תנועותיו"
+     ],
+     "confidence": 2,
+     "why": "He sees the soul's ascent as a supernatural sight.",
+     "quotes_failed": false
+    },
+    {
+     "tag": "times:death",
+     "scope": "span",
+     "quotes": [
+      "שנפטר צדיק א' סמוך למקומו"
+     ],
+     "confidence": 3,
+     "why": "A tzaddik's death is the event of the story.",
+     "quotes_failed": false
+    },
+    {
+     "tag": "practice:the_travels_of_the_tsaddik",
+     "scope": "span",
+     "quotes": [
+      "היה הבעש״ט במדינות פאבערעזי׳"
+     ],
+     "confidence": 1,
+     "why": "The Besht is staying away from home in the Pobereze region.",
+     "quotes_failed": false
+    },
+    {
+     "tag": "supernatural:communicating_with_the_invisible",
+     "scope": "span",
+     "quotes": [
+      "ראיתי עליות נשמתו והכרתי תנועותיו"
+     ],
+     "confidence": 1,
+     "why": "He perceives and recognizes a departed soul. This is borderline because he only sees it and does not exchange words with it.",
+     "quotes_failed": false
+    }
+   ],
+   "missing_concepts": [
+    "ascent of a departed soul after death (עליית נשמה of the dead)",
+    "chain of oral transmission from the local rabbi"
+   ],
+   "start_quote_found": true,
+   "end_quote_found": true
+  }
+ ],
+ "check": {
+  "non_vocab_tags": [],
+  "quotes": 5,
+  "quotes_not_found": 0
+ },
+ "id": "Shivhei-Habesht_0141"
+}

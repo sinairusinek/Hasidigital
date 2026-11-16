@@ -1,0 +1,206 @@
+{
+ "unit": {
+  "kind": "hasidic_story",
+  "why": "A single narrative about the young Besht defeating a witch and her demon, who were preventing rain.",
+  "boundary_note": ""
+ },
+ "stories": [
+  {
+   "k": 1,
+   "start_quote": "שמעתי מחמי וגם מהרב דקהלתינו",
+   "end_quote": "ושאלו לו וסיפר להם המעשה הנ\"ל",
+   "hasidic": true,
+   "summary_en": "While still living at a village tavern, the Besht prays for rain and undoes a gentile witch's sorcery; she warns his mother and sends her demon against him, but the Besht turns the demon back on her and imprisons it in a forest, which he later shows, laughing, to his companions.",
+   "tags": [
+    {
+     "tag": "characters-and-roles:witch",
+     "scope": "span",
+     "quotes": [
+      "והי׳ שם מכשפ' אחת שהי' לה שד אחד",
+      "באה המכשפה לאמו ואמרה לה"
+     ],
+     "confidence": 3,
+     "why": "A gentile witch is the antagonist.",
+     "quotes_failed": false
+    },
+    {
+     "tag": "characters-and-roles:demons",
+     "scope": "span",
+     "quotes": [
+      "ואח״כ שלחה עליו השד שלה",
+      "תפס אותו בבית הכלא ביער"
+     ],
+     "confidence": 3,
+     "why": "The witch's demon acts in the story.",
+     "quotes_failed": false
+    },
+    {
+     "tag": "characters-and-roles:the_family_of_the_tsaddik",
+     "scope": "span",
+     "quotes": [
+      "ואמרה לו אמו בני עזוב מן הגוי' הלז"
+     ],
+     "confidence": 3,
+     "why": "The Besht's mother appears and speaks.",
+     "quotes_failed": false
+    },
+    {
+     "tag": "characters-and-roles:tavern_keeper",
+     "scope": "span",
+     "quotes": [
+      "כשהי׳ יושב הבעש״ט עדיין בשיינק בכפר"
+     ],
+     "confidence": 2,
+     "why": "The Besht lived at a village tavern, the setting of the story.",
+     "quotes_failed": false
+    },
+    {
+     "tag": "supernatural:magic",
+     "scope": "span",
+     "quotes": [
+      "ועשת' כשפים שלא ירד גשם",
+      "כי אני אעשה לו כישוף"
+     ],
+     "confidence": 3,
+     "why": "The witch uses sorcery to stop the rain.",
+     "quotes_failed": false
+    },
+    {
+     "tag": "practice:prayer",
+     "scope": "span",
+     "quotes": [
+      "והתפלל על הגשמים",
+      "הבעש״ט בתפילתו קילקל כשפיה"
+     ],
+     "confidence": 3,
+     "why": "The Besht's prayer for rain undoes her sorcery.",
+     "quotes_failed": false
+    },
+    {
+     "tag": "social:conflict",
+     "scope": "span",
+     "quotes": [
+      "אמור לבנך שיעזוב ויניח ממני",
+      "אתה העזת לבוא אלי"
+     ],
+     "confidence": 3,
+     "why": "A contest between the tzaddik and the witch and her demon.",
+     "quotes_failed": false
+    },
+    {
+     "tag": "social:relations_with_non_jews",
+     "scope": "span",
+     "quotes": [
+      "בני עזוב מן הגוי' הלז כי היא מכשפה"
+     ],
+     "confidence": 3,
+     "why": "The witch is a gentile woman.",
+     "quotes_failed": false
+    },
+    {
+     "tag": "practice:protection",
+     "scope": "span",
+     "quotes": [
+      "לא הי' יכול לכנוס לד׳ אמותיו"
+     ],
+     "confidence": 2,
+     "why": "The Besht is shielded from the demon's attack.",
+     "quotes_failed": false
+    },
+    {
+     "tag": "ethics-and-emotions:punishment",
+     "scope": "span",
+     "quotes": [
+      "תיכף תלך ותזיק את הגוי'",
+      "ואינו יכול לזוז משם עד עולם"
+     ],
+     "confidence": 3,
+     "why": "The witch is harmed and the demon imprisoned forever.",
+     "quotes_failed": false
+    },
+    {
+     "tag": "supernatural:miracle",
+     "scope": "span",
+     "quotes": [
+      "תפס אותו בבית הכלא ביער"
+     ],
+     "confidence": 2,
+     "why": "A discrete wonder: the demon is trapped in a forest prison.",
+     "quotes_failed": false
+    },
+    {
+     "tag": "supernatural:perception",
+     "scope": "span",
+     "quotes": [
+      "והציץ בו שהוא יושב בתפיסה"
+     ],
+     "confidence": 2,
+     "why": "The Besht sees the imprisoned demon, which others cannot see.",
+     "quotes_failed": false
+    },
+    {
+     "tag": "practice:storytelling",
+     "scope": "span",
+     "quotes": [
+      "ושאלו לו וסיפר להם המעשה הנ\"ל"
+     ],
+     "confidence": 2,
+     "why": "The Besht himself tells the tale to his companions; the text also gives its chain of transmission.",
+     "quotes_failed": false
+    },
+    {
+     "tag": "practice:the_travels_of_the_tsaddik",
+     "scope": "span",
+     "quotes": [
+      "נסע עם אנשים דרך יער עמד והלך ליער"
+     ],
+     "confidence": 2,
+     "why": "The closing scene happens on the Besht's journey.",
+     "quotes_failed": false
+    },
+    {
+     "tag": "practice:joke",
+     "scope": "span",
+     "quotes": [
+      "ושחק מאוד ושאלו לו"
+     ],
+     "confidence": 1,
+     "why": "The Besht laughs at the sight of the demon (borderline).",
+     "quotes_failed": false
+    },
+    {
+     "tag": "women:major_character",
+     "scope": "span",
+     "quotes": [
+      "באה המכשפה לאמו ואמרה לה"
+     ],
+     "confidence": 3,
+     "why": "The witch is the central antagonist and acts on her own.",
+     "quotes_failed": false
+    },
+    {
+     "tag": "women:minor_character",
+     "scope": "span",
+     "quotes": [
+      "סברה אמו שהיריב עמה על עסק חוב"
+     ],
+     "confidence": 3,
+     "why": "The mother has a small role in which she acts.",
+     "quotes_failed": false
+    }
+   ],
+   "missing_concepts": [
+    "drought / praying for rain",
+    "the young Besht before his revelation"
+   ],
+   "start_quote_found": true,
+   "end_quote_found": true
+  }
+ ],
+ "check": {
+  "non_vocab_tags": [],
+  "quotes": 23,
+  "quotes_not_found": 0
+ },
+ "id": "Shivhei-Habesht_0062"
+}

@@ -1,0 +1,145 @@
+{
+ "unit": {
+  "kind": "hasidic_story",
+  "why": "A single anecdote about R. Yitzhak the Mokhiah of Polonne. He exposes the invalid tefillin and the ignorance of a hostile dayan, who flees the town in shame.",
+  "boundary_note": ""
+ },
+ "stories": [
+  {
+   "k": 1,
+   "start_quote": "עוד שמעתי מהרב דקהלתינו פ\"א נתקבל",
+   "end_quote": "ומחמת בושה ברח הדיין מן העיר",
+   "hasidic": true,
+   "summary_en": "The new rabbi of Polonne brings a dayan to defy the Mokhiah R. Yitzhak, and the dayan curses him during prayer. In the quarrel that follows, R. Yitzhak perceives that the dayan's tefillin are invalid, shows that he is ignorant of the law, and the shamed dayan flees the town.",
+   "tags": [
+    {
+     "tag": "supernatural:perception",
+     "scope": "span",
+     "quotes": [
+      "הביט אליו ואמ׳ אתה לבוש בתפילין פסולין"
+     ],
+     "confidence": 3,
+     "why": "He knows the tefillin are invalid without examining them.",
+     "quotes_failed": false
+    },
+    {
+     "tag": "practice:tefillin",
+     "scope": "span",
+     "quotes": [
+      "אתה לבוש בתפילין פסולין",
+      "והוציאו הפרשיות ונמצאו שהם פסולין"
+     ],
+     "confidence": 3,
+     "why": "The dayan's tefillin are examined and found invalid.",
+     "quotes_failed": false
+    },
+    {
+     "tag": "practice:halakhah",
+     "scope": "span",
+     "quotes": [
+      "ונתאמץ הדיין להכשירן ע\"פ ש\"ע",
+      "שהוא ע\"ה ואינו ודע הדין"
+     ],
+     "confidence": 3,
+     "why": "They dispute the validity of the tefillin according to the Shulchan Arukh.",
+     "quotes_failed": false
+    },
+    {
+     "tag": "ethics-and-emotions:shame",
+     "scope": "span",
+     "quotes": [
+      "ומחמת בושה ברח הדיין מן העיר"
+     ],
+     "confidence": 3,
+     "why": "The dayan is shamed and flees.",
+     "quotes_failed": false
+    },
+    {
+     "tag": "social:conflict",
+     "scope": "span",
+     "quotes": [
+      "בכדי שיוכל להעיז את המוכיח",
+      "והי' מריבה בניהם"
+     ],
+     "confidence": 3,
+     "why": "Open conflict between the Mokhiah and the hostile dayan.",
+     "quotes_failed": false
+    },
+    {
+     "tag": "social:relations_with_non_hasidim",
+     "scope": "span",
+     "quotes": [
+      "והביא עמו דיין אחד בכדי שיוכל להעיז"
+     ],
+     "confidence": 2,
+     "why": "The opponents come from the non-Hasidic rabbinic establishment.",
+     "quotes_failed": false
+    },
+    {
+     "tag": "ethics-and-emotions:punishment",
+     "scope": "span",
+     "quotes": [
+      "ומחמת בושה ברח הדיין מן העיר"
+     ],
+     "confidence": 2,
+     "why": "Exposure and flight act as retribution for cursing the Mokhiah.",
+     "quotes_failed": false
+    },
+    {
+     "tag": "practice:prayer",
+     "scope": "span",
+     "quotes": [
+      "ובשבת התפלל המוכיח לפני התיבה",
+      "מקלל את המוכיח בשעת התפילה"
+     ],
+     "confidence": 2,
+     "why": "The curse happens during the Mokhiah's public prayer.",
+     "quotes_failed": false
+    },
+    {
+     "tag": "times:shabbat",
+     "scope": "span",
+     "quotes": [
+      "ובשבת התפלל המוכיח לפני התיבה"
+     ],
+     "confidence": 1,
+     "why": "The triggering scene is on Shabbat; the confrontation itself is on Sunday.",
+     "quotes_failed": false
+    },
+    {
+     "tag": "characters-and-roles:preacher",
+     "scope": "span",
+     "quotes": [
+      "שהדיין מקלל את המוכיח בשעת התפילה"
+     ],
+     "confidence": 2,
+     "why": "The protagonist is the town's Mokhiah (preacher), a role distinct from the rabbi.",
+     "quotes_failed": false
+    },
+    {
+     "tag": "practice:storytelling",
+     "scope": "span",
+     "quotes": [
+      "עוד שמעתי מהרב דקהלתינו"
+     ],
+     "confidence": 1,
+     "why": "Framed as heard from the community's rabbi.",
+     "quotes_failed": false
+    }
+   ],
+   "missing_concepts": [
+    "cursing of a tzaddik",
+    "ignorance (am ha-aretz) of a rabbinic official exposed",
+    "rivalry between a town rabbi's appointees and a Hasidic preacher"
+   ],
+   "start_quote_found": true,
+   "end_quote_found": true
+  }
+ ],
+ "check": {
+  "non_vocab_tags": [],
+  "quotes": 15,
+  "quotes_not_found": 0
+ },
+ "id": "Shivhei-Habesht_0058"
+}

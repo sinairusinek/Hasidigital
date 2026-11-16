@@ -1,0 +1,118 @@
+{
+ "unit": {
+  "kind": "hasidic_story",
+  "why": "An anecdote about R. Shmelke of Nikolsburg arriving at his rabbinate and addressing himself with honorifics, followed by the author's long homiletic expansion.",
+  "boundary_note": ""
+ },
+ "stories": [
+  {
+   "k": 1,
+   "start_quote": "מעשה מרב האי גאון קדוש ה׳",
+   "end_quote": "זה נאמר בעבודת ד' וזה במסחר וקנין",
+   "hasidic": true,
+   "summary_en": "When R. Shmelke arrived to take up the rabbinate of Nikolsburg amid great honours, he loudly addressed himself as 'Rabbi Reb Shmelke'. Asked why by a learned rich man, he explained that the honour others give should be as worthless to him as honour he gives himself, and the townspeople recognised him as a holy tzaddik. The author then adds a homily reconciling this with R. Eliezer's charge to beware of a fellow's honour.",
+   "tags": [
+    {
+     "tag": "ethics-and-emotions:humility",
+     "scope": "span",
+     "quotes": [
+      "ככה צריך להיות כל כבוד המדומה של אנשים",
+      "שנעבדו את ד' בלי שום גאות ופניות"
+     ],
+     "confidence": 3,
+     "why": "The point is contempt for honour, i.e. humility.",
+     "quotes_failed": false
+    },
+    {
+     "tag": "ethics-and-emotions:pride",
+     "scope": "span",
+     "quotes": [
+      "בעיני העם מוזר הדברים אלה עד מאוד",
+      "בלי שום גאות ופניות"
+     ],
+     "confidence": 2,
+     "why": "His behaviour looks like pursuit of honour, and the lesson rejects pride.",
+     "quotes_failed": false
+    },
+    {
+     "tag": "folkloristics:story_type_virtues",
+     "scope": "story",
+     "quotes": [],
+     "confidence": 3,
+     "why": "The anecdote illustrates the tzaddik's humility.",
+     "quotes_failed": false
+    },
+    {
+     "tag": "times:inauguration",
+     "scope": "span",
+     "quotes": [
+      "כאשר נתכהן הגאון הקדוש הנזכר לשרת בקודש",
+      "נסעו לעומתו לקבלהו ולנהלהו"
+     ],
+     "confidence": 2,
+     "why": "His installation and reception as rabbi of the community is the setting.",
+     "quotes_failed": false
+    },
+    {
+     "tag": "social:retrospective_recognition",
+     "scope": "span",
+     "quotes": [
+      "ותיכף ראו כולמו לדעת כי צדיק קדוש עליון הוא"
+     ],
+     "confidence": 3,
+     "why": "The puzzled people realise his strange conduct reveals holiness.",
+     "quotes_failed": false
+    },
+    {
+     "tag": "practice:sermon",
+     "scope": "span",
+     "quotes": [
+      "זה הפי' ממאמרם ז\"ל יהי כבוד חבירך חביב עליך כשלך"
+     ],
+     "confidence": 3,
+     "why": "The tzaddik explains a rabbinic dictum as his teaching.",
+     "quotes_failed": false
+    },
+    {
+     "tag": "not-a-hasidic-story:sermon",
+     "scope": "story",
+     "quotes": [],
+     "confidence": 2,
+     "why": "The anecdote is wrapped in an extended homily by the author on R. Eliezer's saying.",
+     "quotes_failed": false
+    },
+    {
+     "tag": "ethics-and-emotions:joy",
+     "scope": "span",
+     "quotes": [
+      "לקול תרועת ששון ועליצות לב כל אחד"
+     ],
+     "confidence": 1,
+     "why": "The community rejoices at his arrival.",
+     "quotes_failed": false
+    },
+    {
+     "tag": "ethics-and-emotions:virtues",
+     "scope": "story",
+     "quotes": [],
+     "confidence": 2,
+     "why": "The text gives moral instruction about honour.",
+     "quotes_failed": false
+    }
+   ],
+   "missing_concepts": [
+    "pursuit of honour (kavod) / its rejection",
+    "community reception of a newly appointed rabbi",
+    "ethics of commerce vs. divine service"
+   ],
+   "start_quote_found": true,
+   "end_quote_found": true
+  }
+ ],
+ "check": {
+  "non_vocab_tags": [],
+  "quotes": 9,
+  "quotes_not_found": 0
+ },
+ "id": "Khal-Kdoshim_0008"
+}

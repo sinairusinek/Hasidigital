@@ -1,0 +1,150 @@
+{
+ "unit": {
+  "kind": "hasidic_story",
+  "why": "A single anecdote, reported by R. Pesach: on a cold winter journey the Besht sets a tree on fire with his finger to warm his companions, then rebukes R. Baruch for looking back at it.",
+  "boundary_note": ""
+ },
+ "stories": [
+  {
+   "k": 1,
+   "start_quote": "עוד סיפר לי ר' פסח הנ\"ל",
+   "end_quote": "וגער בו הבעש\"ט שלא יסתכל",
+   "hasidic": true,
+   "summary_en": "While travelling home from Kaminka in bitter winter cold, the Besht touches a tree with his finger, sets it alight so his freezing companions can warm themselves, and afterwards rebukes R. Baruch of Kaminka for turning to look at what became of the tree.",
+   "tags": [
+    {
+     "tag": "supernatural:miracle",
+     "scope": "span",
+     "quotes": [
+      "ונגע באילן אחד באצבעו ודלק האילן"
+     ],
+     "confidence": 3,
+     "why": "The Besht ignites a tree by touching it with his finger.",
+     "quotes_failed": false
+    },
+    {
+     "tag": "practice:the_travels_of_the_tsaddik",
+     "scope": "span",
+     "quotes": [
+      "פ״א נסע הבעש״ט מ קאמינקע לביתו",
+      "ונשאו דרך יער וצוה הבעש״ט לעמוד"
+     ],
+     "confidence": 3,
+     "why": "The whole story is set on the Besht's own journey.",
+     "quotes_failed": false
+    },
+    {
+     "tag": "practice:storytelling",
+     "scope": "span",
+     "quotes": [
+      "עוד סיפר לי ר' פסח הנ\"ל"
+     ],
+     "confidence": 2,
+     "why": "The tale is framed as told to the author by a named informant.",
+     "quotes_failed": false
+    },
+    {
+     "tag": "folkloristics:story_type_protection",
+     "scope": "story",
+     "quotes": [],
+     "confidence": 2,
+     "why": "The tsaddik saves his companions from the danger of the cold.",
+     "quotes_failed": false
+    },
+    {
+     "tag": "practice:protection",
+     "scope": "span",
+     "quotes": [
+      "ואנו כולנו נתגבר עלינו הקור",
+      "וחממו אצל האש"
+     ],
+     "confidence": 2,
+     "why": "The Besht shields his party from freezing.",
+     "quotes_failed": false
+    },
+    {
+     "tag": "ethics-and-emotions:prohibitions",
+     "scope": "span",
+     "quotes": [
+      "וגער בו הבעש\"ט שלא יסתכל"
+     ],
+     "confidence": 2,
+     "why": "R. Baruch is forbidden to look back at the tree.",
+     "quotes_failed": false
+    },
+    {
+     "tag": "practice:prayer",
+     "scope": "span",
+     "quotes": [
+      "אמר הבעש״ט במקום פלוני נתפלל מנחה"
+     ],
+     "confidence": 2,
+     "why": "The journey is directed toward the place where they will pray Minha.",
+     "quotes_failed": false
+    },
+    {
+     "tag": "characters-and-roles:scribe",
+     "scope": "span",
+     "quotes": [
+      "ו הסופר ישן עמו"
+     ],
+     "confidence": 2,
+     "why": "The Besht's scribe is among the travellers.",
+     "quotes_failed": false
+    },
+    {
+     "tag": "social:inter_hasidic_master_disciple_relationship",
+     "scope": "span",
+     "quotes": [
+      "ונסע עמו בצוותא חדא ר' ברוך מ קאמינקע",
+      "וגער בו הבעש\"ט שלא יסתכל"
+     ],
+     "confidence": 1,
+     "why": "The Besht travels with R. Baruch and rebukes him.",
+     "quotes_failed": false
+    },
+    {
+     "tag": "supernatural:light_or_fire_as_a_sign_of_righteousness",
+     "scope": "span",
+     "quotes": [
+      "ודלק האילן ונתבע' וחממו אצל האש"
+     ],
+     "confidence": 1,
+     "why": "The fire comes from the tsaddik's touch, but it serves to warm the travellers rather than mark his righteousness.",
+     "quotes_failed": false
+    },
+    {
+     "tag": "ethics-and-emotions:anger",
+     "scope": "span",
+     "quotes": [
+      "וגער בו הבעש\"ט שלא יסתכל"
+     ],
+     "confidence": 1,
+     "why": "The Besht's rebuke (גער) suggests a heated moment.",
+     "quotes_failed": false
+    },
+    {
+     "tag": "times:historical_event",
+     "scope": "story",
+     "quotes": [],
+     "confidence": 1,
+     "why": "Not applicable: there is no historical event; the winter setting is seasonal only.",
+     "quotes_failed": false
+    }
+   ],
+   "missing_concepts": [
+    "winter cold / weather as a danger on the road",
+    "prohibition on looking back at a miracle (cf. Lot's wife)",
+    "the tsaddik's command over nature (fire, trees)"
+   ],
+   "start_quote_found": true,
+   "end_quote_found": true
+  }
+ ],
+ "check": {
+  "non_vocab_tags": [],
+  "quotes": 13,
+  "quotes_not_found": 0
+ },
+ "id": "Khal-Hasidim_0060"
+}

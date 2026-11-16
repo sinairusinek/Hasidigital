@@ -1,0 +1,213 @@
+{
+ "unit": {
+  "kind": "hasidic_story",
+  "why": "A single narrative: the Apta rabbi disguises himself to test a wonder-working tavern-keeper near Medzhybizh, who reveals that his power comes from trust in God and from taking God as his business partner.",
+  "boundary_note": ""
+ },
+ "stories": [
+  {
+   "k": 1,
+   "start_quote": "ואכתוב מעשה ג' מה ששמעתי מאדם",
+   "end_quote": "ברכותיו והצלחתו עד בלי די אמן",
+   "hasidic": true,
+   "summary_en": "The rabbi of Apta, disguised as a merchant, lodges with a tavern-keeper whose blessings always come true. He finds that the man splits every coin between two boxes. The man explains that in poverty he took God as his partner, gives God's half to the poor, and was rewarded with effective blessings. The rabbi blesses him and retells the tale ever after as a lesson in trust in God.",
+   "tags": [
+    {
+     "tag": "characters-and-roles:tavern_keeper",
+     "scope": "span",
+     "quotes": [
+      "ספרו לו מארענדער א' בסביבות מעזיבוז",
+      "הולך למקום השיינק ועושה מלאכתו"
+     ],
+     "confidence": 3,
+     "why": "Protagonist is an arendar running a tavern",
+     "quotes_failed": false
+    },
+    {
+     "tag": "characters-and-roles:hidden_righteous",
+     "scope": "span",
+     "quotes": [
+      "כי הוא איש פלאי וברכותיו יחולו",
+      "לא מחכמה יתירה דאית בי ולא מעבודתי"
+     ],
+     "confidence": 2,
+     "why": "A simple tavern-keeper secretly holds heavenly power",
+     "quotes_failed": false
+    },
+    {
+     "tag": "folkloristics:story_type_revelation",
+     "scope": "story",
+     "quotes": [],
+     "confidence": 2,
+     "why": "The arc reveals the hidden source of the simple man's power",
+     "quotes_failed": false
+    },
+    {
+     "tag": "ethics-and-emotions:charity",
+     "scope": "span",
+     "quotes": [
+      "אשר בהארגז שותפי אנכי מחלק לעניים הגונים"
+     ],
+     "confidence": 3,
+     "why": "God's half of the income goes to the poor",
+     "quotes_failed": false
+    },
+    {
+     "tag": "ethics-and-emotions:virtues",
+     "scope": "span",
+     "quotes": [
+      "ראה עד כמה גדלה מדת הבטחון"
+     ],
+     "confidence": 3,
+     "why": "Trust in God is the virtue at issue",
+     "quotes_failed": false
+    },
+    {
+     "tag": "not-a-hasidic-story:virtues",
+     "scope": "story",
+     "quotes": [],
+     "confidence": 2,
+     "why": "Framed explicitly as instruction in the virtue of bitachon",
+     "quotes_failed": false
+    },
+    {
+     "tag": "ethics-and-emotions:joy",
+     "scope": "span",
+     "quotes": [
+      "ולא הייתי בעצבות ובדאגה כל ימי רק שמח וטוב לב"
+     ],
+     "confidence": 2,
+     "why": "Joy depicted as the fruit of trust",
+     "quotes_failed": false
+    },
+    {
+     "tag": "ethics-and-emotions:sadness",
+     "scope": "span",
+     "quotes": [
+      "ולא הייתי בעצבות ובדאגה כל ימי"
+     ],
+     "confidence": 1,
+     "why": "Melancholy named as the state that trust avoids",
+     "quotes_failed": false
+    },
+    {
+     "tag": "practice:the_travels_of_the_tsaddik",
+     "scope": "span",
+     "quotes": [
+      "ויסע לבית המוכסן הנ\"ל ויתאכסן אצלו"
+     ],
+     "confidence": 3,
+     "why": "The rabbi travels to and lodges at the inn",
+     "quotes_failed": false
+    },
+    {
+     "tag": "practice:clothing",
+     "scope": "span",
+     "quotes": [
+      "ויתחפש הרב מלבושיו ושנה טעמו כסוחר"
+     ],
+     "confidence": 2,
+     "why": "A change of dress serves as disguise",
+     "quotes_failed": false
+    },
+    {
+     "tag": "ethics-and-emotions:lying",
+     "scope": "span",
+     "quotes": [
+      "ואמרתי לאשתי כי מצאתי שותף טוב עם הרבה מעות"
+     ],
+     "confidence": 1,
+     "why": "He tells his wife a cover story (and the rabbi uses a disguise)",
+     "quotes_failed": false
+    },
+    {
+     "tag": "practice:prayer",
+     "scope": "span",
+     "quotes": [
+      "שהוא מתפלל תיכף אחר עלות השחר",
+      "ובכיתי לפני רבון העולמים לאמר"
+     ],
+     "confidence": 2,
+     "why": "Dawn prayer and a tearful plea in the field",
+     "quotes_failed": false
+    },
+    {
+     "tag": "social:retrospective_recognition",
+     "scope": "span",
+     "quotes": [
+      "ויגלה א\"ע אליו ויאמר לו אנכי הרב מ אפטא",
+      "והמוכסן לא הכירו"
+     ],
+     "confidence": 2,
+     "why": "The disguised guest is revealed as the Apta rabbi",
+     "quotes_failed": false
+    },
+    {
+     "tag": "social:marital_relationship",
+     "scope": "span",
+     "quotes": [
+      "והציקה לי אשתי כי אקבל שותף",
+      "היא הציקה לי והסיתני וקללה אותי"
+     ],
+     "confidence": 2,
+     "why": "Marital tension over livelihood",
+     "quotes_failed": false
+    },
+    {
+     "tag": "women:minor_character",
+     "scope": "span",
+     "quotes": [
+      "והציקה לי אשתי כי אקבל שותף"
+     ],
+     "confidence": 3,
+     "why": "The wife acts by pressing him, in a peripheral role",
+     "quotes_failed": false
+    },
+    {
+     "tag": "social:poverty",
+     "scope": "span",
+     "quotes": [
+      "ולא נשאר לי פ\"א במה לקנות י\"ש"
+     ],
+     "confidence": 1,
+     "why": "Destitution, though not embraced as a virtue",
+     "quotes_failed": false
+    },
+    {
+     "tag": "practice:storytelling",
+     "scope": "span",
+     "quotes": [
+      "וכל ימיו היה מספר הרב הנ\"ל המעשה הזאת"
+     ],
+     "confidence": 3,
+     "why": "The Apta rabbi retold the story all his life",
+     "quotes_failed": false
+    },
+    {
+     "tag": "supernatural:miracle",
+     "scope": "span",
+     "quotes": [
+      "ובעז\"ה דבר לא יפול ארצה מדברי"
+     ],
+     "confidence": 1,
+     "why": "His blessings are fulfilled miraculously",
+     "quotes_failed": false
+    }
+   ],
+   "missing_concepts": [
+    "trust in God (bitachon) as the central theme",
+    "a layman's blessings as a heavenly reward",
+    "testing whether a wonder-worker is from the side of holiness",
+    "God as business partner"
+   ],
+   "start_quote_found": true,
+   "end_quote_found": true
+  }
+ ],
+ "check": {
+  "non_vocab_tags": [],
+  "quotes": 21,
+  "quotes_not_found": 0
+ },
+ "id": "Adat-Zadikim_0007"
+}

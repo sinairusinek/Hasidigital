@@ -1,0 +1,111 @@
+{
+ "unit": {
+  "kind": "hasidic_story",
+  "why": "A short anecdote about the Besht perceiving at a distance that a woman gave birth and lacked food, and sending money via his servant.",
+  "boundary_note": ""
+ },
+ "stories": [
+  {
+   "k": 1,
+   "start_quote": "עוד ספר הרב הנ' פעם א׳",
+   "end_quote": "ונתן לה המעות כפי פקודת הרב",
+   "hasidic": true,
+   "summary_en": "At the third Sabbath meal, after a long Torah discourse, the Besht sent his servant with money to a house where a woman had just given birth and had no food, and the servant found the birth had only just happened.",
+   "tags": [
+    {
+     "tag": "supernatural:perception",
+     "scope": "span",
+     "quotes": [
+      "כי שם ילדה א׳ ואין לה מה לאכול",
+      "כי לא חתכו עדיין הטבור"
+     ],
+     "confidence": 3,
+     "why": "Besht knows of a birth and the family's need at a distance",
+     "quotes_failed": false
+    },
+    {
+     "tag": "ethics-and-emotions:charity",
+     "scope": "span",
+     "quotes": [
+      "ליקח מהתיבה שלו כמה זהובים",
+      "ונתן לה המעות כפי פקודת הרב"
+     ],
+     "confidence": 3,
+     "why": "money sent to a poor woman who has just given birth",
+     "quotes_failed": false
+    },
+    {
+     "tag": "folkloristics:story_type_virtues",
+     "scope": "story",
+     "quotes": [],
+     "confidence": 2,
+     "why": "illustrates the tzaddik's charity",
+     "quotes_failed": false
+    },
+    {
+     "tag": "times:birth",
+     "scope": "span",
+     "quotes": [
+      "כי שם ילדה א׳",
+      "כי לא חתכו עדיין הטבור"
+     ],
+     "confidence": 3,
+     "why": "a birth has just taken place",
+     "quotes_failed": false
+    },
+    {
+     "tag": "times:shabbat",
+     "scope": "span",
+     "quotes": [
+      "פעם א׳ בסעודה ג׳ אמר הרב ד״ת"
+     ],
+     "confidence": 3,
+     "why": "set at the third Sabbath meal and its end",
+     "quotes_failed": false
+    },
+    {
+     "tag": "practice:sermon",
+     "scope": "span",
+     "quotes": [
+      "אמר הרב ד״ת ונתעכבו כמה שעות בלילה"
+     ],
+     "confidence": 2,
+     "why": "Besht delivers Torah words at the meal",
+     "quotes_failed": false
+    },
+    {
+     "tag": "women:catalyst_character",
+     "scope": "span",
+     "quotes": [
+      "כי שם ילדה א׳ ואין לה מה לאכול"
+     ],
+     "confidence": 3,
+     "why": "the woman's need prompts the action but she does not act",
+     "quotes_failed": false
+    },
+    {
+     "tag": "practice:storytelling",
+     "scope": "span",
+     "quotes": [
+      "עוד ספר הרב הנ'"
+     ],
+     "confidence": 1,
+     "why": "framed as told by a named rabbi",
+     "quotes_failed": false
+    }
+   ],
+   "missing_concepts": [
+    "tzaddik's servant (משרת) as agent",
+    "provision for the yoledet's first meal (סעודה ראשונה)"
+   ],
+   "start_quote_found": true,
+   "end_quote_found": true
+  }
+ ],
+ "check": {
+  "non_vocab_tags": [],
+  "quotes": 10,
+  "quotes_not_found": 0
+ },
+ "id": "Shivhei-Habesht_0194"
+}

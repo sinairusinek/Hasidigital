@@ -1,0 +1,227 @@
+{
+ "unit": {
+  "kind": "hasidic_story",
+  "why": "A single narrative about the Seer of Lublin, a young man he sends home, and hasidim whose toasts annul a death decree, ending with a short moral.",
+  "boundary_note": ""
+ },
+ "stories": [
+  {
+   "k": 1,
+   "start_quote": "מעשה מרבינו הקדוש אספקלריא המאירה",
+   "end_quote": "ולכן נזהרנו על תפלה בציבור",
+   "hasidic": true,
+   "summary_en": "The Seer of Lublin orders a young man who sneaked away from his family for Shavuot to go home at once; at an inn, hasidim on their way to Lublin toast him with 'lehayim' and bring him back; the Seer then reveals that a death decree hung over the man and that the ten hasidim's toasts annulled it, which a tsaddik alone could not do.",
+   "tags": [
+    {
+     "tag": "practice:travel_to_the_tsaddik",
+     "scope": "span",
+     "quotes": [
+      "ויסע אל הצדיק הקדוש על חג השבועות",
+      "רבים חסידים הנוסעים אל הרב הקדוש"
+     ],
+     "confidence": 3,
+     "why": "The young man and other hasidim travel to Lublin for the holiday.",
+     "quotes_failed": false
+    },
+    {
+     "tag": "times:holidays",
+     "scope": "span",
+     "quotes": [
+      "ויסע אל הצדיק הקדוש על חג השבועות"
+     ],
+     "confidence": 3,
+     "why": "The story is set around Shavuot.",
+     "quotes_failed": false
+    },
+    {
+     "tag": "practice:reception_of_hasidim",
+     "scope": "span",
+     "quotes": [
+      "ותיכף כבואו קבל פני רבו הצדיק",
+      "הלכו תיכף לקבל שלום מהצדיק הקדוש"
+     ],
+     "confidence": 3,
+     "why": "The Seer receives the young man, sends him away, and later questions him.",
+     "quotes_failed": false
+    },
+    {
+     "tag": "practice:drinking_alcohol",
+     "scope": "span",
+     "quotes": [
+      "ויצעקו יין שרף וישתו איש אל רעהו",
+      "ויוסיפו לשתות אליו לחיים עד אור הבוקר"
+     ],
+     "confidence": 3,
+     "why": "Drinking 'lehayim' is the act that saves the young man.",
+     "quotes_failed": false
+    },
+    {
+     "tag": "supernatural:perception",
+     "scope": "span",
+     "quotes": [
+      "כי הוא צפה ברוח קדשו"
+     ],
+     "confidence": 3,
+     "why": "The Seer foresaw the decree through holy spirit.",
+     "quotes_failed": false
+    },
+    {
+     "tag": "practice:pidyon_nefesh",
+     "scope": "span",
+     "quotes": [
+      "בזה קרעו גזר דינו ונוסף",
+      "כי נגזר על האברך הלזה כי ימות"
+     ],
+     "confidence": 3,
+     "why": "A heavenly death decree is torn up.",
+     "quotes_failed": false
+    },
+    {
+     "tag": "practice:lifesaving",
+     "scope": "span",
+     "quotes": [
+      "בזה קרעו גזר דינו ונוסף"
+     ],
+     "confidence": 2,
+     "why": "A foretold death is averted, though by the hasidim rather than by the tsaddik.",
+     "quotes_failed": false
+    },
+    {
+     "tag": "social:inter_hasidic",
+     "scope": "span",
+     "quotes": [
+      "וכל אחד לקח ידו מהאברך הנזכר לחיים",
+      "כי אתנו תסע ל לובלין על י\"ט"
+     ],
+     "confidence": 3,
+     "why": "Fellow hasidim support the young man through their solidarity.",
+     "quotes_failed": false
+    },
+    {
+     "tag": "practice:torat_ha_tsaddik",
+     "scope": "span",
+     "quotes": [
+      "את אשר יוכלו עשרה חסידים לפעול לא יוכל צדיק אחד"
+     ],
+     "confidence": 2,
+     "why": "The story weighs the tsaddik's power against the power of the hasidic collective.",
+     "quotes_failed": false
+    },
+    {
+     "tag": "social:disobedience",
+     "scope": "span",
+     "quotes": [
+      "ואמרו אל האברך אל תשוב תשיב לביתך"
+     ],
+     "confidence": 2,
+     "why": "The young man returns to Lublin against the tsaddik's order, with a good outcome.",
+     "quotes_failed": false
+    },
+    {
+     "tag": "social:retrospective_recognition",
+     "scope": "span",
+     "quotes": [
+      "כי האמת כן הוא כי הוא צפה ברוח קדשו"
+     ],
+     "confidence": 3,
+     "why": "The hidden reason for the order to go home is revealed afterwards.",
+     "quotes_failed": false
+    },
+    {
+     "tag": "practice:prayer",
+     "scope": "span",
+     "quotes": [
+      "והנה התפללו כולם וביניהם גם האברך",
+      "וגם התפלה נשמעת יותר בצבור"
+     ],
+     "confidence": 2,
+     "why": "Communal prayer is depicted, and the moral is about praying with a congregation.",
+     "quotes_failed": false
+    },
+    {
+     "tag": "ethics-and-emotions:sadness",
+     "scope": "span",
+     "quotes": [
+      "שוכב גונח ודואג מנהמת לבו"
+     ],
+     "confidence": 2,
+     "why": "The young man's distress is what the hasidim set out to dispel.",
+     "quotes_failed": false
+    },
+    {
+     "tag": "ethics-and-emotions:joy",
+     "scope": "span",
+     "quotes": [
+      "ויסעו ייסעו שמחים וטובי וטיבי לב"
+     ],
+     "confidence": 2,
+     "why": "The hasidim travel on in a joyful mood.",
+     "quotes_failed": false
+    },
+    {
+     "tag": "times:death",
+     "scope": "span",
+     "quotes": [
+      "כי נגזר על האברך הלזה כי ימות"
+     ],
+     "confidence": 1,
+     "why": "A death is decreed but averted.",
+     "quotes_failed": false
+    },
+    {
+     "tag": "supernatural:prognostication",
+     "scope": "span",
+     "quotes": [
+      "כי נגזר על האברך הלזה כי ימות"
+     ],
+     "confidence": 1,
+     "why": "The tsaddik foresaw a death, but the prediction did not come true.",
+     "quotes_failed": false
+    },
+    {
+     "tag": "women:mention_only",
+     "scope": "span",
+     "quotes": [
+      "אשר התגנב לברוח מאשתו וחותנו וחמותו"
+     ],
+     "confidence": 3,
+     "why": "The wife and mother-in-law are mentioned but do not act.",
+     "quotes_failed": false
+    },
+    {
+     "tag": "social:marital_relationship",
+     "scope": "span",
+     "quotes": [
+      "אשר התגנב לברוח מאשתו וחותנו וחמותו"
+     ],
+     "confidence": 1,
+     "why": "Sneaking away from his wife implies family tension.",
+     "quotes_failed": false
+    },
+    {
+     "tag": "not-a-hasidic-story:virtues",
+     "scope": "span",
+     "quotes": [
+      "לדעת עד כמה גדלה כח עשרה אנשים"
+     ],
+     "confidence": 1,
+     "why": "A closing moral frames the tale as a lesson, though in a communal power rather than a virtue.",
+     "quotes_failed": false
+    }
+   ],
+   "missing_concepts": [
+    "power of a minyan / collective of ten hasidim",
+    "lehayim toast as a theurgic blessing",
+    "family opposition to travelling to the rebbe"
+   ],
+   "start_quote_found": true,
+   "end_quote_found": true
+  }
+ ],
+ "check": {
+  "non_vocab_tags": [],
+  "quotes": 25,
+  "quotes_not_found": 0
+ },
+ "id": "Khal-Hasidim_0238"
+}

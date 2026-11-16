@@ -1,0 +1,106 @@
+{
+ "unit": {
+  "kind": "hasidic_story",
+  "why": "A short narrative, apparently a parenthetical note, about a circumcision at which R. Mordechai of Chernobyl was sandak and R. Avraham was mohel, and about R. Avraham's awe-struck dropping of the knife.",
+  "boundary_note": "text breaks off mid-sentence in R. Avraham's answer; the story likely continues beyond this division"
+ },
+ "stories": [
+  {
+   "k": 1,
+   "start_quote": "ומשם אדמו״ר נבג״מ שמענו שמוהר״מ מטשארנאביל",
+   "end_quote": "בעיני יפלא האיך (אפשרי לשאול שאלה כזו",
+   "hasidic": true,
+   "summary_en": "As heard from the narrator's master: at a circumcision where R. Mordechai of Chernobyl was sandak, the mohel R. Avraham recited the blessing in such great awe that the knife fell from his hand, and when R. Mordechai asked him about this awe he answered that he wondered how one could even ask such a question.",
+   "tags": [
+    {
+     "tag": "practice:circumcision",
+     "scope": "span",
+     "quotes": [
+      "הי' סנדק והרב מ' אברהם ז\"ל הי' מוהל"
+     ],
+     "confidence": 3,
+     "why": "the scene is a brit milah, with a sandak and a mohel",
+     "quotes_failed": false
+    },
+    {
+     "tag": "ethics-and-emotions:awe",
+     "scope": "span",
+     "quotes": [
+      "וכאשר אמר ברכת המילה ביראה גדולה",
+      "שאל הרב מוהר״מ אותו על היראה הגדולה"
+     ],
+     "confidence": 3,
+     "why": "the story centres on R. Avraham's awe of God",
+     "quotes_failed": false
+    },
+    {
+     "tag": "ethics-and-emotions:fear",
+     "scope": "span",
+     "quotes": [
+      "נפל הסכין מידו מפני פחד ורעדה"
+     ],
+     "confidence": 3,
+     "why": "the knife falls from fear of God's greatness",
+     "quotes_failed": false
+    },
+    {
+     "tag": "experience:trembling",
+     "scope": "span",
+     "quotes": [
+      "מפני פחד ורעדה מגדולתו ית׳"
+     ],
+     "confidence": 2,
+     "why": "trembling is named as the physical response that made the knife fall",
+     "quotes_failed": false
+    },
+    {
+     "tag": "practice:storytelling",
+     "scope": "span",
+     "quotes": [
+      "ומשם אדמו״ר נבג״מ שמענו"
+     ],
+     "confidence": 2,
+     "why": "the story is framed as told by the narrator's master",
+     "quotes_failed": false
+    },
+    {
+     "tag": "social:inter_hasidic",
+     "scope": "story",
+     "quotes": [],
+     "confidence": 2,
+     "why": "two Hasidic figures interact at the ceremony and in the question-and-answer that follows",
+     "quotes_failed": false
+    },
+    {
+     "tag": "folkloristics:story_type_virtues",
+     "scope": "story",
+     "quotes": [],
+     "confidence": 2,
+     "why": "the point of the story is to illustrate R. Avraham's awe of Heaven",
+     "quotes_failed": false
+    },
+    {
+     "tag": "practice:devekut",
+     "scope": "span",
+     "quotes": [
+      "ביראה גדולה נפל הסכין מידו"
+     ],
+     "confidence": 1,
+     "why": "the scene shows rapt absorption in God during the blessing",
+     "quotes_failed": false
+    }
+   ],
+   "missing_concepts": [
+    "recitation of a blessing (berakhah) as a moment of intense devotion"
+   ],
+   "start_quote_found": true,
+   "end_quote_found": true
+  }
+ ],
+ "check": {
+  "non_vocab_tags": [],
+  "quotes": 7,
+  "quotes_not_found": 0
+ },
+ "id": "Shivhei-Habesht_0042"
+}

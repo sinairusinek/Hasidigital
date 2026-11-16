@@ -1,0 +1,134 @@
+{
+ "unit": {
+  "kind": "hasidic_story",
+  "why": "A short anecdote about R. Yitzhak (of the Besht's circle) in a lawsuit: he warns that whoever lies before him loses a child, which happens, and the liar confesses.",
+  "boundary_note": ""
+ },
+ "stories": [
+  {
+   "k": 1,
+   "start_quote": "שמעתי מהרב דקהלתינו באו לדין",
+   "end_quote": "ונתחרט והודה על האמת",
+   "hasidic": true,
+   "summary_en": "When a litigant before R. Yitzhak accepted an oath he was about to swear falsely, and his opponent pressed for it, R. Yitzhak explained that anyone who lies before him loses one of his offspring, so he waits for repentance; a child of the liar indeed died and he confessed the truth.",
+   "tags": [
+    {
+     "tag": "spaces:rabbinical_court",
+     "scope": "span",
+     "quotes": [
+      "באו לדין לפני ר' יצחק הנ' שני בעלי דינים"
+     ],
+     "confidence": 3,
+     "why": "Litigation before R. Yitzhak as judge",
+     "quotes_failed": false
+    },
+    {
+     "tag": "practice:halakhah",
+     "scope": "span",
+     "quotes": [
+      "ופסק שבועה לאחד וקיבל עליו לשבע"
+     ],
+     "confidence": 3,
+     "why": "Ruling imposing an oath on a litigant",
+     "quotes_failed": false
+    },
+    {
+     "tag": "ethics-and-emotions:lying",
+     "scope": "span",
+     "quotes": [
+      "שב\"ד שכנגדו טען שקר",
+      "כל מי שטוען לפני שקר ימות"
+     ],
+     "confidence": 3,
+     "why": "The litigant claims falsely",
+     "quotes_failed": false
+    },
+    {
+     "tag": "ethics-and-emotions:anger",
+     "scope": "span",
+     "quotes": [
+      "כי חרה לו מאוד שידע בבירור"
+     ],
+     "confidence": 2,
+     "why": "The opponent is very angry at the lie",
+     "quotes_failed": false
+    },
+    {
+     "tag": "ethics-and-emotions:punishment",
+     "scope": "span",
+     "quotes": [
+      "כל מי שטוען לפני שקר ימות אחד מזרעו",
+      "וכן הי׳ שמת אחד מזרעו"
+     ],
+     "confidence": 3,
+     "why": "The liar is punished by death of a child",
+     "quotes_failed": false
+    },
+    {
+     "tag": "times:death",
+     "scope": "span",
+     "quotes": [
+      "וכן הי׳ שמת אחד מזרעו"
+     ],
+     "confidence": 3,
+     "why": "A child of the liar dies",
+     "quotes_failed": false
+    },
+    {
+     "tag": "ethics-and-emotions:repentance",
+     "scope": "span",
+     "quotes": [
+      "שמא יתחרט ויודה וחי",
+      "ונתחרט והודה על האמת"
+     ],
+     "confidence": 3,
+     "why": "The liar regrets and confesses",
+     "quotes_failed": false
+    },
+    {
+     "tag": "supernatural:prognostication",
+     "scope": "span",
+     "quotes": [
+      "כך הוא דרכי כל מי שטוען לפני שקר",
+      "וכן הי׳ שמת אחד מזרעו"
+     ],
+     "confidence": 2,
+     "why": "His statement of what will happen comes true",
+     "quotes_failed": false
+    },
+    {
+     "tag": "social:conflict",
+     "scope": "span",
+     "quotes": [
+      "שכנגדו צועק שיקיים הפסק"
+     ],
+     "confidence": 2,
+     "why": "Dispute between two litigants",
+     "quotes_failed": false
+    },
+    {
+     "tag": "practice:storytelling",
+     "scope": "span",
+     "quotes": [
+      "שמעתי מהרב דקהלתינו"
+     ],
+     "confidence": 1,
+     "why": "Framed as heard from the local rabbi",
+     "quotes_failed": false
+    }
+   ],
+   "missing_concepts": [
+    "false oath / oath-taking",
+    "tzaddik's power over life and death as judge"
+   ],
+   "start_quote_found": true,
+   "end_quote_found": true
+  }
+ ],
+ "check": {
+  "non_vocab_tags": [],
+  "quotes": 14,
+  "quotes_not_found": 0
+ },
+ "id": "Shivhei-Habesht_0037"
+}

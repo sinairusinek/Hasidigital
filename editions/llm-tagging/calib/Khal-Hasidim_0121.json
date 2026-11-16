@@ -1,0 +1,168 @@
+{
+ "unit": {
+  "kind": "hasidic_story",
+  "why": "A single narrative about the Besht confronting a famous doctor at a duchess's court, with a short kabbalistic gloss appended.",
+  "boundary_note": ""
+ },
+ "stories": [
+  {
+   "k": 1,
+   "start_quote": "פ\"א בא איזה דאקטיר גדול ומפורסם",
+   "end_quote": "כמ\"ש בזוה\"ק ובת\"ז",
+   "hasidic": true,
+   "summary_en": "A famous doctor scoffs at the Besht's claim that God taught him medicine. The doctor reads the Besht's pulse but cannot tell that his 'illness' is love-sickness for God. The Besht then reads the doctor's pulse, reveals that the doctor stole the duke's valuables, the goods are found in the doctor's lodging, and he leaves in disgrace.",
+   "tags": [
+    {
+     "tag": "social:relations_with_non_jews",
+     "scope": "span",
+     "quotes": [
+      "ותתפאר הדוכסה בשבח הבעש״ט",
+      "והחזיר הרב פניו להדוכס"
+     ],
+     "confidence": 3,
+     "why": "The Besht deals with a duchess, a duke and a gentile doctor.",
+     "quotes_failed": false
+    },
+    {
+     "tag": "social:conflict",
+     "scope": "span",
+     "quotes": [
+      "ויהי לצחוק בעיני הדאקטר",
+      "ונסע הדאקטר משם בחרפה ובוז"
+     ],
+     "confidence": 3,
+     "why": "The scornful doctor confronts the Besht and is defeated.",
+     "quotes_failed": false
+    },
+    {
+     "tag": "social:competition",
+     "scope": "span",
+     "quotes": [
+      "תבין על הדפק שלי ואני אראה ואבחין"
+     ],
+     "confidence": 2,
+     "why": "A contest of pulse-diagnosis between the Besht and a rival doctor.",
+     "quotes_failed": false
+    },
+    {
+     "tag": "supernatural:perception",
+     "scope": "span",
+     "quotes": [
+      "הנגנבו לך חפצים יקרים אלו ואלו",
+      "ותמצא את כל החפיצים בשלמות"
+     ],
+     "confidence": 3,
+     "why": "From the pulse the Besht knows of the theft and where the goods are.",
+     "quotes_failed": false
+    },
+    {
+     "tag": "ethics-and-emotions:shame",
+     "scope": "span",
+     "quotes": [
+      "ונסע הדאקטר משם בחרפה ובוז"
+     ],
+     "confidence": 3,
+     "why": "The doctor is disgraced.",
+     "quotes_failed": false
+    },
+    {
+     "tag": "ethics-and-emotions:punishment",
+     "scope": "span",
+     "quotes": [
+      "ונסע הדאקטר משם בחרפה ובוז"
+     ],
+     "confidence": 2,
+     "why": "The thief is exposed and humiliated.",
+     "quotes_failed": false
+    },
+    {
+     "tag": "practice:healing",
+     "scope": "span",
+     "quotes": [
+      "וגם בקי ברפואות",
+      "ויאמר הש״י למדני"
+     ],
+     "confidence": 2,
+     "why": "The Besht's medical skill is the subject of the contest.",
+     "quotes_failed": false
+    },
+    {
+     "tag": "practice:devekut",
+     "scope": "span",
+     "quotes": [
+      "הי' חולי חולת אהבה להש\"י"
+     ],
+     "confidence": 2,
+     "why": "His 'illness' is love-sickness for God, an attachment beyond the doctor's grasp.",
+     "quotes_failed": false
+    },
+    {
+     "tag": "knowledge:esoteric",
+     "scope": "span",
+     "quotes": [
+      "אחורים דאבא הוא קפ\"ד אותיות דפ\"ק"
+     ],
+     "confidence": 2,
+     "why": "A kabbalistic explanation of pulse-reading is appended.",
+     "quotes_failed": false
+    },
+    {
+     "tag": "not-a-hasidic-story:sermon",
+     "scope": "span",
+     "quotes": [
+      "והענין כי אחורים דאבא הוא קפ\"ד"
+     ],
+     "confidence": 1,
+     "why": "A brief homiletic-kabbalistic gloss frames the tale.",
+     "quotes_failed": false
+    },
+    {
+     "tag": "social:retrospective_recognition",
+     "scope": "span",
+     "quotes": [
+      "ושלחו תיכף ומצאו כדבריו הק'"
+     ],
+     "confidence": 2,
+     "why": "The respected doctor is revealed to be a thief.",
+     "quotes_failed": false
+    },
+    {
+     "tag": "women:minor_character",
+     "scope": "span",
+     "quotes": [
+      "ותתפאר הדוכסה בשבח הבעש״ט",
+      "ותשלח אחריו ויבא לפניהם"
+     ],
+     "confidence": 3,
+     "why": "The duchess praises the Besht and sends for him, which sets the plot in motion.",
+     "quotes_failed": false
+    },
+    {
+     "tag": "social:relations_with_the_authorities",
+     "scope": "span",
+     "quotes": [
+      "לדוכסה שבעיר",
+      "כדרך השרים"
+     ],
+     "confidence": 1,
+     "why": "The Besht is received by the local nobility.",
+     "quotes_failed": false
+    }
+   ],
+   "missing_concepts": [
+    "pulse diagnosis (reading sins from the pulse)",
+    "theft exposed",
+    "tsaddik versus physician / secular medicine",
+    "love-sickness for God"
+   ],
+   "start_quote_found": true,
+   "end_quote_found": true
+  }
+ ],
+ "check": {
+  "non_vocab_tags": [],
+  "quotes": 19,
+  "quotes_not_found": 0
+ },
+ "id": "Khal-Hasidim_0121"
+}

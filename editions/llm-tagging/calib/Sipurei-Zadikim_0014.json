@@ -1,0 +1,154 @@
+{
+ "unit": {
+  "kind": "non_hasidic_story",
+  "why": "A single tale about a Jewish community in Brzeżnica (Barazhnits) threatened with annihilation after a stone is thrown at the duke, saved when a simple man confesses and is revealed as the reincarnation of Ishmael ben Nethaniah; no Hasidic figures appear.",
+  "boundary_note": "division ends with the book's closing colophon (תמו ספורים הנוראים... סליק), which is paratext"
+ },
+ "stories": [
+  {
+   "k": 1,
+   "start_quote": "מעשה נורא שקרה במדינת פולין בעיר באראזניץ",
+   "end_quote": "והמעשה נכתב בפנקם מהחבורה קדושה",
+   "hasidic": false,
+   "summary_en": "When the Jews of Barazhnits are condemned to death because someone threw a stone at the duke in the Jewish street, a simple Jew confesses, insists he alone is guilty, and is hanged; before dying he asks that his tombstone read 'here lies Ishmael son of Nethaniah who killed Gedaliah', revealing that he was that murderer's reincarnation, punished measure for measure.",
+   "tags": [
+    {
+     "tag": "supernatural:reincarnation",
+     "scope": "span",
+     "quotes": [
+      "כי היה גלגול ישמעאל בן נתניה"
+     ],
+     "confidence": 3,
+     "why": "The man is revealed as the reincarnation of Ishmael ben Nethaniah.",
+     "quotes_failed": false
+    },
+    {
+     "tag": "ethics-and-emotions:punishment",
+     "scope": "span",
+     "quotes": [
+      "כאשר עשה כן יעשה לו",
+      "ותדעו כי באמת חייב אני מיתה כזו"
+     ],
+     "confidence": 3,
+     "why": "His death is retribution for Gedaliah's murder in a former life.",
+     "quotes_failed": false
+    },
+    {
+     "tag": "social:relations_with_the_authorities",
+     "scope": "span",
+     "quotes": [
+      "על כן גזר על כל היהודים להשמידם",
+      "וילכו עמו ראשי הקהל אל פקיד העיר"
+     ],
+     "confidence": 3,
+     "why": "The duke issues a decree, and the community deals with the town official and the judges.",
+     "quotes_failed": false
+    },
+    {
+     "tag": "social:relations_with_non_jews",
+     "scope": "span",
+     "quotes": [
+      "ויאמר לו הדוכס מה עשיתי לך רעה"
+     ],
+     "confidence": 3,
+     "why": "The man is interrogated by the duke and his judges.",
+     "quotes_failed": false
+    },
+    {
+     "tag": "social:conflict",
+     "scope": "span",
+     "quotes": [
+      "על כן גזר על כל היהודים להשמידם מנער ועד זקן"
+     ],
+     "confidence": 2,
+     "why": "A hostile decree is issued against the Jewish community.",
+     "quotes_failed": false
+    },
+    {
+     "tag": "practice:fasting",
+     "scope": "span",
+     "quotes": [
+      "גזרו צום וקראו אל ה׳ בחזקה"
+     ],
+     "confidence": 3,
+     "why": "The community decrees a fast.",
+     "quotes_failed": false
+    },
+    {
+     "tag": "practice:prayer",
+     "scope": "span",
+     "quotes": [
+      "וקראו אל ה׳ בחזקה"
+     ],
+     "confidence": 2,
+     "why": "The community cries out to God in supplication.",
+     "quotes_failed": false
+    },
+    {
+     "tag": "times:death",
+     "scope": "span",
+     "quotes": [
+      "ונגמר דינו למיתה והכינו תלייה ברחוב העיר"
+     ],
+     "confidence": 3,
+     "why": "His execution is depicted.",
+     "quotes_failed": false
+    },
+    {
+     "tag": "social:retrospective_recognition",
+     "scope": "span",
+     "quotes": [
+      "ואז הבינו העם כי היה גלגול"
+     ],
+     "confidence": 3,
+     "why": "Only afterwards do the people understand who he really was and why he confessed.",
+     "quotes_failed": false
+    },
+    {
+     "tag": "times:historical_event",
+     "scope": "span",
+     "quotes": [
+      "בשנת שלשים ושש למאה הרביעית רכב הדוכס"
+     ],
+     "confidence": 2,
+     "why": "The tale is set as a dated local event, an anti-Jewish decree.",
+     "quotes_failed": false
+    },
+    {
+     "tag": "ethics-and-emotions:repentance",
+     "scope": "span",
+     "quotes": [
+      "ואשים קן לימי לכפר על עוני"
+     ],
+     "confidence": 1,
+     "why": "He gives his life to atone for a past sin.",
+     "quotes_failed": false
+    },
+    {
+     "tag": "ethics-and-emotions:fear",
+     "scope": "span",
+     "quotes": [
+      "כי יראתי כי לא יהי' תלוי בי"
+     ],
+     "confidence": 1,
+     "why": "He fears bearing guilt for the deaths of many Jews.",
+     "quotes_failed": false
+    }
+   ],
+   "missing_concepts": [
+    "self-sacrifice to save the community (מסירות נפש / false confession)",
+    "biblical figure reincarnated (Ishmael ben Nethaniah / Gedaliah)",
+    "tombstone inscription as a revelation device",
+    "communal pinkas as a source"
+   ],
+   "start_quote_found": true,
+   "end_quote_found": true
+  }
+ ],
+ "check": {
+  "non_vocab_tags": [],
+  "quotes": 14,
+  "quotes_not_found": 0
+ },
+ "id": "Sipurei-Zadikim_0014"
+}

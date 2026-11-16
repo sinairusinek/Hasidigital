@@ -1,0 +1,212 @@
+{
+ "unit": {
+  "kind": "hasidic_story",
+  "why": "An anecdote about 'the Sabba' (likely the Shpoler Zeide) playing nuts with children while performing yihudim; a visiting tzaddik explains he is working on rain, and rain clouds gather. A depiction of his ecstatic Sabbath dancing follows.",
+  "boundary_note": "opens with 'גם', so it likely continues a series of praises of the same figure from an earlier division"
+ },
+ "stories": [
+  {
+   "k": 1,
+   "start_quote": "גם היה דרכו בקודש לשחק עם תינוקות",
+   "end_quote": "לדלג על ההרים ולעוף בשמים כו' וד״ל",
+   "hasidic": true,
+   "summary_en": "The Sabba performs awesome yihudim while playing nuts with small children. A visiting tzaddik explains to onlookers that he is acting to end a drought and predicts clouds within the hour, which comes true. The text adds that his ecstatic Sabbath and holiday dancing moved every viewer to repentance.",
+   "tags": [
+    {
+     "tag": "kabbalah:kabbalistic_terms_yihudim",
+     "scope": "span",
+     "quotes": [
+      "ובהם היה מיחד יחודים נוראים עצומים",
+      "והיה פועל על ידי היחודים כל מה שהיה רוצה"
+     ],
+     "confidence": 3,
+     "why": "Explicit performance of yihudim",
+     "quotes_failed": false
+    },
+    {
+     "tag": "practice:meditation",
+     "scope": "span",
+     "quotes": [
+      "ובהם היה מיחד יחודים נוראים עצומים",
+      "וכל תפלתו היה מתפלל אז בקרב לבו"
+     ],
+     "confidence": 3,
+     "why": "Contemplative yihudim and inner prayer while playing",
+     "quotes_failed": false
+    },
+    {
+     "tag": "practice:prayer",
+     "scope": "span",
+     "quotes": [
+      "וכל תפלתו היה מתפלל אז בקרב לבו"
+     ],
+     "confidence": 2,
+     "why": "Inner prayer during play",
+     "quotes_failed": false
+    },
+    {
+     "tag": "supernatural:perception",
+     "scope": "span",
+     "quotes": [
+      "ויאמר למה אינו יודע הוא עוסק כעת נידון גשמים"
+     ],
+     "confidence": 3,
+     "why": "The visiting tzaddik perceives the hidden purpose of the play",
+     "quotes_failed": false
+    },
+    {
+     "tag": "supernatural:prognostication",
+     "scope": "span",
+     "quotes": [
+      "בעוד שעה מועטת יתקשרו השמים בעבים וכן היה"
+     ],
+     "confidence": 3,
+     "why": "The prediction of clouds comes true",
+     "quotes_failed": false
+    },
+    {
+     "tag": "supernatural:miracle",
+     "scope": "span",
+     "quotes": [
+      "כי היה אז עצירת גשמים מאוד",
+      "יתקשרו השמים בעבים וכן היה"
+     ],
+     "confidence": 2,
+     "why": "A drought is broken through his yihudim",
+     "quotes_failed": false
+    },
+    {
+     "tag": "social:inter_hasidic",
+     "scope": "span",
+     "quotes": [
+      "ופעם אחד היה אצלו צדיק אחד מקדושים"
+     ],
+     "confidence": 2,
+     "why": "A visiting tzaddik interprets the Sabba's acts for his own followers",
+     "quotes_failed": false
+    },
+    {
+     "tag": "practice:travel_to_other_tsaddik",
+     "scope": "span",
+     "quotes": [
+      "ופעם אחד היה אצלו צדיק אחד מקדושים"
+     ],
+     "confidence": 1,
+     "why": "Another tzaddik visits him",
+     "quotes_failed": false
+    },
+    {
+     "tag": "practice:dance",
+     "scope": "span",
+     "quotes": [
+      "ממה שהיה מיחד בעת ריקודו בשבתות וי\"ט",
+      "וכל אשר ראו את ריקודו הקדוש"
+     ],
+     "confidence": 3,
+     "why": "His ecstatic dancing",
+     "quotes_failed": false
+    },
+    {
+     "tag": "experience:enthusiasm",
+     "scope": "span",
+     "quotes": [
+      "בהתלהבות ובהתפעלות עצומה ממש היה קל"
+     ],
+     "confidence": 3,
+     "why": "Explicit hitlahavut",
+     "quotes_failed": false
+    },
+    {
+     "tag": "practice:devekut",
+     "scope": "span",
+     "quotes": [
+      "בהתלהבות ובהתפעלות עצומה ממש היה קל"
+     ],
+     "confidence": 2,
+     "why": "Ecstatic worship in dance",
+     "quotes_failed": false
+    },
+    {
+     "tag": "times:shabbat",
+     "scope": "span",
+     "quotes": [
+      "בעת ריקודו בשבתות וי\"ט"
+     ],
+     "confidence": 2,
+     "why": "Dancing on Sabbaths",
+     "quotes_failed": false
+    },
+    {
+     "tag": "times:holidays",
+     "scope": "span",
+     "quotes": [
+      "בעת ריקודו בשבתות וי\"ט"
+     ],
+     "confidence": 2,
+     "why": "Dancing on festivals",
+     "quotes_failed": false
+    },
+    {
+     "tag": "ethics-and-emotions:repentance",
+     "scope": "span",
+     "quotes": [
+      "לא היה איש אשר לא היה חוזר בתשובה"
+     ],
+     "confidence": 3,
+     "why": "Viewers repent",
+     "quotes_failed": false
+    },
+    {
+     "tag": "practice:healing_of_the_soul",
+     "scope": "span",
+     "quotes": [
+      "לא היה איש אשר לא היה חוזר בתשובה"
+     ],
+     "confidence": 2,
+     "why": "His dancing draws people to repentance",
+     "quotes_failed": false
+    },
+    {
+     "tag": "ethics-and-emotions:joy",
+     "scope": "span",
+     "quotes": [
+      "בלב כל הרואים בכיה וחדוה ביחד"
+     ],
+     "confidence": 2,
+     "why": "Joy mixed with weeping",
+     "quotes_failed": false
+    },
+    {
+     "tag": "social:retrospective_recognition",
+     "scope": "span",
+     "quotes": [
+      "אם הבין כבודו את אשר הסבא עושה"
+     ],
+     "confidence": 1,
+     "why": "Seemingly childish play is revealed to have hidden meaning",
+     "quotes_failed": false
+    },
+    {
+     "tag": "folkloristics:story_type_virtues",
+     "scope": "story",
+     "quotes": [],
+     "confidence": 2,
+     "why": "Praises the tzaddik's hidden holiness and powers",
+     "quotes_failed": false
+    }
+   ],
+   "missing_concepts": [
+    "rainmaking / ending a drought",
+    "holy play with children (sacred childlike innocence)"
+   ],
+   "start_quote_found": true,
+   "end_quote_found": true
+  }
+ ],
+ "check": {
+  "non_vocab_tags": [],
+  "quotes": 21,
+  "quotes_not_found": 0
+ },
+ "id": "Khal-Hasidim_0208"
+}

@@ -1,0 +1,234 @@
+{
+ "unit": {
+  "kind": "hasidic_story",
+  "why": "A continuous narrative episode about the Alter Rebbe's (R. Shneur Zalman's) arrest: his transport to Petersburg, the miracles on the way, his imprisonment, and a secret note smuggled out to his hasidim.",
+  "boundary_note": "Numbered section ג of the arrest narrative. It opens mid-sequence with 'ויהי', so it is likely continued from the previous section, and it ends with Leib setting out for Vilna, so the story likely continues into the next division."
+ },
+ "stories": [
+  {
+   "k": 1,
+   "start_quote": "ויהי כאשר בא הסרדיוט עם האנ״ח",
+   "end_quote": "ויקבל האיש את צה״כ ויסע לדרכו",
+   "hasidic": true,
+   "summary_en": "The Rebbe is arrested and taken to Petersburg. On the way the officer falls from the carriage on seeing his tefillin, and the wagon wheels break so that the Sabbath is not desecrated. In the fortress he refuses non-kosher food until the general himself fetches preserves from R. Mordecai of Lepli, and the Rebbe uses the pot to smuggle out a note sending Leib of Yanovitch to Vilna.",
+   "tags": [
+    {
+     "tag": "social:relations_with_the_authorities",
+     "scope": "story",
+     "quotes": [],
+     "confidence": 3,
+     "why": "The Rebbe is arrested by imperial officers and imprisoned by the Tsar's government.",
+     "quotes_failed": false
+    },
+    {
+     "tag": "social:relations_with_non_jews",
+     "scope": "span",
+     "quotes": [
+      "השר הממונה על המבצר (שהי׳ יעניראל גדול)",
+      "ונהפך עליו לרחמן וירא מאוד לנפשו"
+     ],
+     "confidence": 3,
+     "why": "He deals with the officer and with the general in charge of the fortress.",
+     "quotes_failed": false
+    },
+    {
+     "tag": "times:historical_event",
+     "scope": "story",
+     "quotes": [],
+     "confidence": 3,
+     "why": "The setting is the Rebbe's historical arrest and imprisonment in Petersburg.",
+     "quotes_failed": false
+    },
+    {
+     "tag": "practice:tefillin",
+     "scope": "span",
+     "quotes": [
+      "והרב היה לבוש תפילין אז",
+      "והתפילין שלי ב״ה הם בראשי"
+     ],
+     "confidence": 3,
+     "why": "The Rebbe's tefillin cause the officer's fall.",
+     "quotes_failed": false
+    },
+    {
+     "tag": "supernatural:miracle",
+     "scope": "span",
+     "quotes": [
+      "ותיכף נפל הסרדיוט הנשלח אחרי' מהמרכבה",
+      "ומיד נשברו אופני העגלה ולא יכלו"
+     ],
+     "confidence": 3,
+     "why": "The officer falls and the wheels break, both as miracles.",
+     "quotes_failed": false
+    },
+    {
+     "tag": "ethics-and-emotions:fear",
+     "scope": "span",
+     "quotes": [
+      "כאשר ראה התפילין נפל עליו פחד",
+      "וירא מאוד לנפשו פן יענש"
+     ],
+     "confidence": 3,
+     "why": "The officer is struck with fear.",
+     "quotes_failed": false
+    },
+    {
+     "tag": "ethics-and-emotions:awe",
+     "scope": "span",
+     "quotes": [
+      "ויראו ממך אלו תפילין שבראש"
+     ],
+     "confidence": 2,
+     "why": "The nations stand in awe of the divine name carried on the tefillin.",
+     "quotes_failed": false
+    },
+    {
+     "tag": "practice:sermon",
+     "scope": "span",
+     "quotes": [
+      "אלו תפילין שבראש ולא תפילין שעל הראש"
+     ],
+     "confidence": 2,
+     "why": "The Rebbe gives an exegesis of the rabbinic dictum.",
+     "quotes_failed": false
+    },
+    {
+     "tag": "times:shabbat",
+     "scope": "span",
+     "quotes": [
+      "והתחיל לסע אתו בשבת",
+      "ולא יכלו לתקנם עד אחר שבת"
+     ],
+     "confidence": 3,
+     "why": "The Sabbath journey episode.",
+     "quotes_failed": false
+    },
+    {
+     "tag": "practice:halakhah",
+     "scope": "span",
+     "quotes": [
+      "הלכה א׳ מהלכות שבת היה רפויה בידו",
+      "כי בשולי עכו\"ם שאסרו לנו חז\"ל"
+     ],
+     "confidence": 3,
+     "why": "He clarifies a law of the Sabbath, and he refuses gentile-cooked food on halakhic grounds.",
+     "quotes_failed": false
+    },
+    {
+     "tag": "practice:study",
+     "scope": "span",
+     "quotes": [
+      "ועל העגלה בירר וליבן אותה לעומקה"
+     ],
+     "confidence": 2,
+     "why": "He studies the halakhah in depth while on the wagon.",
+     "quotes_failed": false
+    },
+    {
+     "tag": "ethics-and-emotions:prohibitions",
+     "scope": "span",
+     "quotes": [
+      "עכ״ז אין רצוני לאכול טרפות"
+     ],
+     "confidence": 3,
+     "why": "He keeps the prohibitions on forbidden food even at the risk of his life.",
+     "quotes_failed": false
+    },
+    {
+     "tag": "ethics-and-emotions:resisting_temptation",
+     "scope": "span",
+     "quotes": [
+      "לא אוכל עד מיצוי הנפש"
+     ],
+     "confidence": 2,
+     "why": "He refuses to eat despite hunger.",
+     "quotes_failed": false
+    },
+    {
+     "tag": "practice:fasting",
+     "scope": "span",
+     "quotes": [
+      "שלשה ימים רצופים ולא טעם מאומה"
+     ],
+     "confidence": 1,
+     "why": "He goes three days without food, though this is forced abstention rather than chosen fasting.",
+     "quotes_failed": false
+    },
+    {
+     "tag": "practice:joke",
+     "scope": "span",
+     "quotes": [
+      "אמר הרב אח\"כ הלצה בעת אשר יצא"
+     ],
+     "confidence": 3,
+     "why": "The Rebbe makes a witty remark about the broken wheels.",
+     "quotes_failed": false
+    },
+    {
+     "tag": "ethics-and-emotions:punishment",
+     "scope": "span",
+     "quotes": [
+      "ושבר רגלו אחת"
+     ],
+     "confidence": 2,
+     "why": "The officer who comes to arrest the Rebbe breaks his leg.",
+     "quotes_failed": false
+    },
+    {
+     "tag": "practice:pidyon_shvuyim",
+     "scope": "span",
+     "quotes": [
+      "ונתנו לו סך שני אלפים רו״כ"
+     ],
+     "confidence": 1,
+     "why": "The hasidim spend money on a mission that is probably part of the effort to free the Rebbe.",
+     "quotes_failed": false
+    },
+    {
+     "tag": "social:inter_hasidic",
+     "scope": "span",
+     "quotes": [
+      "ור' מרדכי הנ\"ל הי' מאנשי הרב",
+      "איש המוני מכת החסידים שמו ליב"
+     ],
+     "confidence": 2,
+     "why": "The hasidim in Petersburg act together on the Rebbe's note.",
+     "quotes_failed": false
+    },
+    {
+     "tag": "social:relations_with_non_hasidim",
+     "scope": "span",
+     "quotes": [
+      "כי הוא בן אחותו של הגאון ר׳ אלי' מ ווילנא"
+     ],
+     "confidence": 1,
+     "why": "The messenger is the Vilna Gaon's nephew, a link to the mitnagdim.",
+     "quotes_failed": false
+    },
+    {
+     "tag": "supernatural:perception",
+     "scope": "span",
+     "quotes": [
+      "ויזכור כי הלכה א׳ מהלכות שבת"
+     ],
+     "confidence": 1,
+     "why": "He discerns the heavenly cause of the Sabbath desecration decreed upon him.",
+     "quotes_failed": false
+    }
+   ],
+   "missing_concepts": [
+    "imprisonment of the tsaddik",
+    "secret message smuggled out of prison",
+    "dietary laws (kashrut) under duress"
+   ],
+   "start_quote_found": true,
+   "end_quote_found": true
+  }
+ ],
+ "check": {
+  "non_vocab_tags": [],
+  "quotes": 25,
+  "quotes_not_found": 0
+ },
+ "id": "Shivhei-Harav_0003"
+}

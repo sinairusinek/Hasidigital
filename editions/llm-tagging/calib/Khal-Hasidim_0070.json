@@ -1,0 +1,263 @@
+{
+ "unit": {
+  "kind": "hasidic_story",
+  "why": "A single narrative about R. Aharon, the Besht's brother-in-law, his opponent's death after excommunication, and dream appearances after R. Aharon's death.",
+  "boundary_note": ""
+ },
+ "stories": [
+  {
+   "k": 1,
+   "start_quote": "ושמעתי מהרב דקהלתינו שהיה ב קוטעב",
+   "end_quote": "חלומותיהם מבוררים וברורים",
+   "hasidic": true,
+   "summary_en": "An opponent of the Hasidim in Kuty pulls the beard of R. Aharon, the Besht's brother-in-law. R. Gershon excommunicates the man and he soon dies. After R. Aharon's death, R. Gershon spits at a husk (kelipah) that appears in a dream disguised as R. Aharon. R. Aharon then appears to R. Leib the Mokhiah in a dream and tells of the heavenly court case over the plucked hairs, of the lower Garden of Eden and his lonely Sabbath there, and of two thalers hidden for his widow, which are then found.",
+   "tags": [
+    {
+     "tag": "experience:dream",
+     "scope": "span",
+     "quotes": [
+      "ראה אותו ר' גרשון אחיו בחלום",
+      "וכשניעור משנתו הלך בבוקר לאלמנה"
+     ],
+     "confidence": 3,
+     "why": "the plot turns on two dreams",
+     "quotes_failed": false
+    },
+    {
+     "tag": "social:relations_with_non_hasidim",
+     "scope": "span",
+     "quotes": [
+      "והיה מדבר תמיד נגד החברה של חסידים"
+     ],
+     "confidence": 3,
+     "why": "an opponent of the Hasidim",
+     "quotes_failed": false
+    },
+    {
+     "tag": "social:conflict",
+     "scope": "span",
+     "quotes": [
+      "והיה מריב עמו וקפץ האיש הלז",
+      "ותלשו בזקנו של הר׳ אהרן"
+     ],
+     "confidence": 3,
+     "why": "a physical quarrel",
+     "quotes_failed": false
+    },
+    {
+     "tag": "social:excommunication",
+     "scope": "span",
+     "quotes": [
+      "ועמד הר׳ גרשון אחיו והחרים אותו"
+     ],
+     "confidence": 3,
+     "why": "the ban (herem)",
+     "quotes_failed": false
+    },
+    {
+     "tag": "ethics-and-emotions:punishment",
+     "scope": "span",
+     "quotes": [
+      "ובימים מועטים מת האיש ההוא",
+      "שגרשו אותו מג\"ע לגיהנם"
+     ],
+     "confidence": 3,
+     "why": "the opponent dies and is cast into hell",
+     "quotes_failed": false
+    },
+    {
+     "tag": "times:death",
+     "scope": "span",
+     "quotes": [
+      "ובימים מועטים מת האיש ההוא",
+      "ואחר כמה שנים מת רבי אהרן"
+     ],
+     "confidence": 3,
+     "why": "deaths are narrated",
+     "quotes_failed": false
+    },
+    {
+     "tag": "characters-and-roles:demons",
+     "scope": "span",
+     "quotes": [
+      "הכיר בו שהוא קליפה",
+      "שנתלבש קליפה בדמות שלך"
+     ],
+     "confidence": 2,
+     "why": "an evil husk disguised as R. Aharon",
+     "quotes_failed": false
+    },
+    {
+     "tag": "supernatural:perception",
+     "scope": "span",
+     "quotes": [
+      "וכשבאה קרוב הכיר בו שהוא קליפה",
+      "והציץ על הסימן וראה שהוא"
+     ],
+     "confidence": 2,
+     "why": "the true nature of the figure is discerned",
+     "quotes_failed": false
+    },
+    {
+     "tag": "characters-and-roles:preacher",
+     "scope": "span",
+     "quotes": [
+      "ראה אותו ר' ליב מוכיח מ פולנאי"
+     ],
+     "confidence": 2,
+     "why": "R. Leib the Mokhiah (preacher)",
+     "quotes_failed": false
+    },
+    {
+     "tag": "spaces:heaven",
+     "scope": "span",
+     "quotes": [
+      "כי ג\"ע התחתון קצת מגושם",
+      "והנחתי לפני הב\"ד"
+     ],
+     "confidence": 3,
+     "why": "the Garden of Eden and the heavenly court are settings",
+     "quotes_failed": false
+    },
+    {
+     "tag": "spaces:hell",
+     "scope": "span",
+     "quotes": [
+      "שגרשו אותו מג\"ע לגיהנם"
+     ],
+     "confidence": 1,
+     "why": "hell is mentioned as a destination only",
+     "quotes_failed": false
+    },
+    {
+     "tag": "spaces:rabbinical_court",
+     "scope": "span",
+     "quotes": [
+      "אני אתבע אותך לב״ד של מעלה"
+     ],
+     "confidence": 2,
+     "why": "a lawsuit before the heavenly court",
+     "quotes_failed": false
+    },
+    {
+     "tag": "supernatural:communicating_with_the_invisible",
+     "scope": "span",
+     "quotes": [
+      "שאל אותו האיך אתה עכשיו"
+     ],
+     "confidence": 3,
+     "why": "conversation with a dead man's soul",
+     "quotes_failed": false
+    },
+    {
+     "tag": "ethics-and-emotions:fear",
+     "scope": "span",
+     "quotes": [
+      "ופחדתי ופחדי מאוד"
+     ],
+     "confidence": 3,
+     "why": "R. Aharon is afraid",
+     "quotes_failed": false
+    },
+    {
+     "tag": "times:shabbat",
+     "scope": "span",
+     "quotes": [
+      "וכשבא ע\"ש הלכתי לבה״כ",
+      "צער גדול מזה כל השבת"
+     ],
+     "confidence": 3,
+     "why": "the Sabbath in the Garden of Eden",
+     "quotes_failed": false
+    },
+    {
+     "tag": "practice:prayer",
+     "scope": "span",
+     "quotes": [
+      "והתפללתי תפלת מנחה וקודם קבלת שבת",
+      "שיתפלל בעדי שאוכל לעלות"
+     ],
+     "confidence": 3,
+     "why": "prayer and a request for intercession",
+     "quotes_failed": false
+    },
+    {
+     "tag": "ethics-and-emotions:sadness",
+     "scope": "span",
+     "quotes": [
+      "והיה לי צער גדול מזה"
+     ],
+     "confidence": 2,
+     "why": "his sorrow at being left alone",
+     "quotes_failed": false
+    },
+    {
+     "tag": "characters-and-roles:the_family_of_the_tsaddik",
+     "scope": "span",
+     "quotes": [
+      "הר׳ אהרן גיסו של הבעש״ט",
+      "לאלמנה אשת ר׳ אהרן"
+     ],
+     "confidence": 3,
+     "why": "the Besht's brother-in-law, R. Gershon and the widow",
+     "quotes_failed": false
+    },
+    {
+     "tag": "women:minor_character",
+     "scope": "span",
+     "quotes": [
+      "והיא השיבה בוודאי אין בתיבה מעות",
+      "וחפשה ומצאה הב׳ טאלער"
+     ],
+     "confidence": 3,
+     "why": "the widow acts in a small role",
+     "quotes_failed": false
+    },
+    {
+     "tag": "ethics-and-emotions:charity",
+     "scope": "span",
+     "quotes": [
+      "עזבת את אשתך עניה גדולה"
+     ],
+     "confidence": 1,
+     "why": "providing for the poor widow",
+     "quotes_failed": false
+    },
+    {
+     "tag": "social:retrospective_recognition",
+     "scope": "span",
+     "quotes": [
+      "וגם מצא השערות הכרוכים במטלית",
+      "ומזה תראה איך היו חלומותיהם מבוררים"
+     ],
+     "confidence": 2,
+     "why": "the finds confirm the dream afterwards",
+     "quotes_failed": false
+    },
+    {
+     "tag": "practice:sermon",
+     "scope": "span",
+     "quotes": [
+      "ושמע שדורש והנאה לו"
+     ],
+     "confidence": 1,
+     "why": "the disguised figure preaches",
+     "quotes_failed": false
+    }
+   ],
+   "missing_concepts": [
+    "post-mortem dream visitation by a dead person",
+    "a dream confirmed by physical evidence (hidden money and hairs)",
+    "spitting to dispel a kelipah"
+   ],
+   "start_quote_found": true,
+   "end_quote_found": true
+  }
+ ],
+ "check": {
+  "non_vocab_tags": [],
+  "quotes": 34,
+  "quotes_not_found": 0
+ },
+ "id": "Khal-Hasidim_0070"
+}

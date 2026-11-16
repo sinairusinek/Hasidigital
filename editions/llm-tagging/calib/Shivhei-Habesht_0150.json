@@ -1,0 +1,98 @@
+{
+ "unit": {
+  "kind": "hasidic_story",
+  "why": "A short anecdote, attributed to the rabbi of Polonne, about a rabbi's scrupulous care for tzitzit spun for their sacred purpose and the Besht recognizing that the Kalisz tzitzit were spun properly.",
+  "boundary_note": "'הרב הנ׳' refers back to a figure named in a preceding division"
+ },
+ "stories": [
+  {
+   "k": 1,
+   "start_quote": "כן שמעתי מהרב דק\"ק פולנאי שהרב",
+   "end_quote": "והכיר בם שנטוו לשמה",
+   "hasidic": true,
+   "summary_en": "The rabbi paid an old woman a gold coin to spin tzitzit without speaking, so that they would be spun for their sacred purpose; when he bought fine tzitzit from Kalisz he feared to use them, and the Besht took them, discerning that they had been spun for their sacred purpose.",
+   "tags": [
+    {
+     "tag": "practice:halakhah",
+     "scope": "span",
+     "quotes": [
+      "היה ירא להטיל אותם בטלית שלו שמא לא טוום לשמה"
+     ],
+     "confidence": 3,
+     "why": "the legal requirement that tzitzit be spun for their sacred purpose (lishmah) drives the story",
+     "quotes_failed": false
+    },
+    {
+     "tag": "practice:clothing",
+     "scope": "span",
+     "quotes": [
+      "תן לי ואני אטיל אותם בטלית שלי"
+     ],
+     "confidence": 2,
+     "why": "the tallit and its tzitzit, a religious garment, are central",
+     "quotes_failed": false
+    },
+    {
+     "tag": "supernatural:perception",
+     "scope": "span",
+     "quotes": [
+      "והכיר בם שנטוו לשמה"
+     ],
+     "confidence": 3,
+     "why": "the Besht discerns supernaturally how the threads were spun",
+     "quotes_failed": false
+    },
+    {
+     "tag": "women:minor_character",
+     "scope": "span",
+     "quotes": [
+      "בורר לו אשה אחת זקינה ונותן לה תמיד"
+     ],
+     "confidence": 3,
+     "why": "an old woman acts in the story as the spinner",
+     "quotes_failed": false
+    },
+    {
+     "tag": "ethics-and-emotions:fear",
+     "scope": "span",
+     "quotes": [
+      "אבל היה ירא להטיל אותם בטלית שלו"
+     ],
+     "confidence": 2,
+     "why": "scrupulous fear of a ritual flaw",
+     "quotes_failed": false
+    },
+    {
+     "tag": "folkloristics:story_type_virtues",
+     "scope": "story",
+     "quotes": [],
+     "confidence": 2,
+     "why": "the story illustrates the rabbi's meticulous piety and the Besht's insight",
+     "quotes_failed": false
+    },
+    {
+     "tag": "practice:storytelling",
+     "scope": "span",
+     "quotes": [
+      "כן שמעתי מהרב דק\"ק פולנאי"
+     ],
+     "confidence": 1,
+     "why": "the story is framed as told by the rabbi of Polonne",
+     "quotes_failed": false
+    }
+   ],
+   "missing_concepts": [
+    "tzitzit / spinning threads for their sacred purpose (lishmah)",
+    "ritual scrupulousness (hiddur mitzvah)"
+   ],
+   "start_quote_found": true,
+   "end_quote_found": true
+  }
+ ],
+ "check": {
+  "non_vocab_tags": [],
+  "quotes": 6,
+  "quotes_not_found": 0
+ },
+ "id": "Shivhei-Habesht_0150"
+}

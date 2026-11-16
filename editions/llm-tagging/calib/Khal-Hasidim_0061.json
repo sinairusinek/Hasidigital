@@ -1,0 +1,185 @@
+{
+ "unit": {
+  "kind": "hasidic_story",
+  "why": "A single narrative about the Besht granting R. Shmeril a son at the cost of his wealth, with a hearsay chain and a note on the narrator's later acquaintance with the son.",
+  "boundary_note": ""
+ },
+ "stories": [
+  {
+   "k": 1,
+   "start_quote": "שמעתי מהרב ר' פאלק הכהן שחמיו",
+   "end_quote": "מ״ץ דק\"ק סאגראן סאבראן",
+   "hasidic": true,
+   "summary_en": "R. Shmeril has no son and is too ashamed to ask the Besht, who lodges with him; the Besht perceives this and, staff in hand, tells his wife she will bear a son. A son, R. David, is born, but the Besht explains that heaven offered a choice between money and a son, so Shmeril loses all his wealth and becomes a preacher.",
+   "tags": [
+    {
+     "tag": "supernatural:pregnancy",
+     "scope": "span",
+     "quotes": [
+      "ראה שתלד ב״ז כי אני אשבור",
+      "וכן הי' שילדה בזו השנה בן זכר"
+     ],
+     "confidence": 3,
+     "why": "son conceived through the Besht's word",
+     "quotes_failed": false
+    },
+    {
+     "tag": "supernatural:perception",
+     "scope": "span",
+     "quotes": [
+      "ולא יכול ובוש ממנו פתאום אמר לו הבעש\"ט",
+      "אמר לו ילדה אשתך בן"
+     ],
+     "confidence": 3,
+     "why": "Besht knows the unspoken request and the birth",
+     "quotes_failed": false
+    },
+    {
+     "tag": "supernatural:prognostication",
+     "scope": "span",
+     "quotes": [
+      "תדע שלא יהיה לך עוד מעות",
+      "וכן היה כל הסחורה שקנה הפסיד בה"
+     ],
+     "confidence": 3,
+     "why": "Besht's prediction of financial loss comes true",
+     "quotes_failed": false
+    },
+    {
+     "tag": "folkloristics:story_type_prognostication",
+     "scope": "story",
+     "quotes": [],
+     "confidence": 2,
+     "why": "predictions of a son and of poverty both fulfilled",
+     "quotes_failed": false
+    },
+    {
+     "tag": "supernatural:miracle",
+     "scope": "span",
+     "quotes": [
+      "וכן הי' שילדה בזו השנה בן זכר"
+     ],
+     "confidence": 2,
+     "why": "miraculous birth",
+     "quotes_failed": false
+    },
+    {
+     "tag": "times:birth",
+     "scope": "span",
+     "quotes": [
+      "וכשנולד לו בן הנ\"ל נסע"
+     ],
+     "confidence": 3,
+     "why": "birth of the son is a depicted event",
+     "quotes_failed": false
+    },
+    {
+     "tag": "ethics-and-emotions:shame",
+     "scope": "span",
+     "quotes": [
+      "ולא יכול לדבר מפני הבושה"
+     ],
+     "confidence": 3,
+     "why": "Shmeril is too ashamed to ask",
+     "quotes_failed": false
+    },
+    {
+     "tag": "practice:writing_amulets",
+     "scope": "span",
+     "quotes": [
+      "ולקח ממנו קמיע ונתן לו",
+      "ליקח ממנו קמיע כמנהגו מאז"
+     ],
+     "confidence": 3,
+     "why": "custom of taking an amulet from the Besht after each birth",
+     "quotes_failed": false
+    },
+    {
+     "tag": "practice:travel_to_the_tsaddik",
+     "scope": "span",
+     "quotes": [
+      "נסע ל הבעש״ט ולקח ממנו קמיע"
+     ],
+     "confidence": 3,
+     "why": "Shmeril travels to the Besht",
+     "quotes_failed": false
+    },
+    {
+     "tag": "practice:the_travels_of_the_tsaddik",
+     "scope": "span",
+     "quotes": [
+      "הבעש״ט היה מתאכסן אצלו",
+      "יום אחד קודם נסיעתו"
+     ],
+     "confidence": 2,
+     "why": "the Besht lodges with Shmeril while travelling",
+     "quotes_failed": false
+    },
+    {
+     "tag": "women:minor_character",
+     "scope": "span",
+     "quotes": [
+      "שלח אחר אשתך ובאה"
+     ],
+     "confidence": 3,
+     "why": "the wife is summoned and addressed",
+     "quotes_failed": false
+    },
+    {
+     "tag": "practice:storytelling",
+     "scope": "span",
+     "quotes": [
+      "שמעתי מהרב ר' פאלק הכהן"
+     ],
+     "confidence": 1,
+     "why": "the tale is framed as transmitted hearsay",
+     "quotes_failed": false
+    },
+    {
+     "tag": "practice:torat_ha_tsaddik",
+     "scope": "span",
+     "quotes": [
+      "ובררתי אני בשבילך טוב שיהי' לך ב״ז"
+     ],
+     "confidence": 2,
+     "why": "the Besht chooses between heavenly options on Shmeril's behalf",
+     "quotes_failed": false
+    },
+    {
+     "tag": "characters-and-roles:preacher",
+     "scope": "span",
+     "quotes": [
+      "ונתקבל אח״כ למגיד משרים בק\"ק וויערחאווע"
+     ],
+     "confidence": 2,
+     "why": "Shmeril becomes a maggid",
+     "quotes_failed": false
+    },
+    {
+     "tag": "social:marital_relationship",
+     "scope": "span",
+     "quotes": [
+      "שלח אחר אשתך ובאה"
+     ],
+     "confidence": 1,
+     "why": "couple's childlessness is the issue",
+     "quotes_failed": false
+    }
+   ],
+   "missing_concepts": [
+    "childlessness / desire for a male heir",
+    "heavenly trade-off: wealth versus offspring",
+    "the tzaddik's threat with his staff",
+    "loss of wealth"
+   ],
+   "start_quote_found": true,
+   "end_quote_found": true
+  }
+ ],
+ "check": {
+  "non_vocab_tags": [],
+  "quotes": 19,
+  "quotes_not_found": 0
+ },
+ "id": "Khal-Hasidim_0061"
+}

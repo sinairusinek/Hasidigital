@@ -1,0 +1,132 @@
+{
+ "unit": {
+  "kind": "hasidic_story",
+  "why": "A single narrative: on Shavuot R. S. finds the stove tile and chair trembling, and the Rav explains that the Besht and the Maggid had visited him and approved his Torah.",
+  "boundary_note": ""
+ },
+ "stories": [
+  {
+   "k": 1,
+   "start_quote": "פעם אחד בא אליו הר\"ש הנ\"ל",
+   "end_quote": "וברכו אותי ויצאו",
+   "hasidic": true,
+   "summary_en": "On Shavuot R. S. finds a stove tile and the Rav's chair trembling; the Rav explains that the departed Besht and his master the Maggid had visited him, that he spoke Torah he had received from the Maggid, that a heavenly voice resounded, and that the Besht confirmed it and both blessed him.",
+   "tags": [
+    {
+     "tag": "times:holidays",
+     "scope": "span",
+     "quotes": [
+      "בחג השבועות"
+     ],
+     "confidence": 3,
+     "why": "The story is set on Shavuot.",
+     "quotes_failed": false
+    },
+    {
+     "tag": "experience:visions",
+     "scope": "span",
+     "quotes": [
+      "כי היום היה אצלי הבעש\"ט הקדוש ומורי הרב המגיד"
+     ],
+     "confidence": 3,
+     "why": "The departed Besht and Maggid appear to him while awake.",
+     "quotes_failed": false
+    },
+    {
+     "tag": "supernatural:communicating_with_the_invisible",
+     "scope": "span",
+     "quotes": [
+      "ואח\"כ דברו עמי ועשו מה שעשו וברכו אותי"
+     ],
+     "confidence": 3,
+     "why": "He converses with the souls of dead tzaddikim.",
+     "quotes_failed": false
+    },
+    {
+     "tag": "experience:revelation",
+     "scope": "span",
+     "quotes": [
+      "ויהי קול מעל לרקיע"
+     ],
+     "confidence": 2,
+     "why": "A supernatural disclosure, including a voice from heaven.",
+     "quotes_failed": false
+    },
+    {
+     "tag": "experience:trembling",
+     "scope": "span",
+     "quotes": [
+      "קאחיל אחת מהתנור רועדת",
+      "הכסא אשר ישב עליה הרב רועדת"
+     ],
+     "confidence": 2,
+     "why": "Objects tremble as a supernatural sign of the visitation.",
+     "quotes_failed": false
+    },
+    {
+     "tag": "practice:sermon",
+     "scope": "span",
+     "quotes": [
+      "ואמרתי להם מאמר מה שקבלתי ממורי על ההפטורה"
+     ],
+     "confidence": 3,
+     "why": "He delivers a Torah discourse on the haftarah.",
+     "quotes_failed": false
+    },
+    {
+     "tag": "social:inter_hasidic_master_disciple_relationship",
+     "scope": "span",
+     "quotes": [
+      "תורתו אמת כי כן קבלת מפי אות באות"
+     ],
+     "confidence": 3,
+     "why": "The chain of transmission from Besht to Maggid to the Rav is central.",
+     "quotes_failed": false
+    },
+    {
+     "tag": "social:retrospective_recognition",
+     "scope": "span",
+     "quotes": [
+      "רק מאשר ראיתי כי נכנס קודם למורי הבנתי כי הוא הבעש״ט"
+     ],
+     "confidence": 2,
+     "why": "He identifies the unfamiliar Besht by inference.",
+     "quotes_failed": false
+    },
+    {
+     "tag": "supernatural:miracle",
+     "scope": "span",
+     "quotes": [
+      "קאחיל אחת מהתנור רועדת"
+     ],
+     "confidence": 1,
+     "why": "The trembling objects are a wondrous sign.",
+     "quotes_failed": false
+    },
+    {
+     "tag": "practice:storytelling",
+     "scope": "span",
+     "quotes": [
+      "ויאמר לו הרב כי היום היה אצלי"
+     ],
+     "confidence": 1,
+     "why": "The Rav recounts the event to R. S.",
+     "quotes_failed": false
+    }
+   ],
+   "missing_concepts": [
+    "visitation by souls of departed tzaddikim",
+    "heavenly approval of a teaching / authenticity of transmitted Torah",
+    "Shavuot as the Besht's yahrzeit"
+   ],
+   "start_quote_found": true,
+   "end_quote_found": true
+  }
+ ],
+ "check": {
+  "non_vocab_tags": [],
+  "quotes": 11,
+  "quotes_not_found": 0
+ },
+ "id": "Shivhei-Harav_0006"
+}

@@ -1,0 +1,506 @@
+{
+ "unit": {
+  "kind": "several_stories",
+  "why": "A narrator retells, from his father-in-law, a sequence of separate episodes about how the Besht was revealed: the possessed woman, the impure house, the rain prayer, and the Tlust period ending with his acceptance of the sick at age 36.",
+  "boundary_note": ""
+ },
+ "stories": [
+  {
+   "k": 1,
+   "start_quote": "ועתה אספר הגדולות אשר שמעתי מחמי",
+   "end_quote": "ואותו הרוח הפריד א״ע מן האשה הזאת בטוב",
+   "hasidic": true,
+   "summary_en": "The young Besht lives as a secluded ascetic whom his brother-in-law R. Gershon takes for an ignoramus; he is taken to a possessed madwoman, whose spirit reveals that Heaven has forbidden him to use holy names until 33, and he silences the spirit and makes it leave her peacefully.",
+   "tags": [
+    {
+     "tag": "folkloristics:story_type_revelation",
+     "scope": "story",
+     "quotes": [],
+     "confidence": 3,
+     "why": "Explicitly the account of the Besht's revelation (התגלותו).",
+     "quotes_failed": false
+    },
+    {
+     "tag": "characters-and-roles:hidden_righteous",
+     "scope": "span",
+     "quotes": [
+      "כי היתה יודעת ממנו אבל לא גילתה לשום אדם"
+     ],
+     "confidence": 3,
+     "why": "The Besht is a concealed tzaddik known only to his wife.",
+     "quotes_failed": false
+    },
+    {
+     "tag": "practice:solitude",
+     "scope": "span",
+     "quotes": [
+      "הלך להתבודדות בעבר הנהר הנקרא פרוט"
+     ],
+     "confidence": 3,
+     "why": "He withdraws to a rock-hewn cell for seclusion.",
+     "quotes_failed": false
+    },
+    {
+     "tag": "practice:fasting",
+     "scope": "span",
+     "quotes": [
+      "והיה אוכל פ\"א בשבוע כך התענה כמה שנים"
+     ],
+     "confidence": 3,
+     "why": "He eats once a week for years.",
+     "quotes_failed": false
+    },
+    {
+     "tag": "practice:asceticism",
+     "scope": "span",
+     "quotes": [
+      "והיה לוקח לו לחם אחת על סעודה אחת"
+     ],
+     "confidence": 3,
+     "why": "Rigorous austerity.",
+     "quotes_failed": false
+    },
+    {
+     "tag": "characters-and-roles:the_family_of_the_tsaddik",
+     "scope": "span",
+     "quotes": [
+      "וגיסו הרה\"ק ר' גרשון מקיטב היה מחזיקו לע\"ה ולבור"
+     ],
+     "confidence": 3,
+     "why": "His wife and brother-in-law appear as characters.",
+     "quotes_failed": false
+    },
+    {
+     "tag": "social:divorce",
+     "scope": "span",
+     "quotes": [
+      "והיה מפתה את אחותו להתגרש ממנו ולא רצתה"
+     ],
+     "confidence": 3,
+     "why": "R. Gershon urges his sister to divorce the Besht.",
+     "quotes_failed": false
+    },
+    {
+     "tag": "women:major_character",
+     "scope": "span",
+     "quotes": [
+      "והיתה שם אשה משוגעת והיתה מגלה לכל"
+     ],
+     "confidence": 2,
+     "why": "The possessed woman drives the central scene.",
+     "quotes_failed": false
+    },
+    {
+     "tag": "women:minor_character",
+     "scope": "span",
+     "quotes": [
+      "והיה מפתה את אחותו להתגרש ממנו ולא רצתה"
+     ],
+     "confidence": 3,
+     "why": "The Besht's wife refuses the divorce.",
+     "quotes_failed": false
+    },
+    {
+     "tag": "supernatural:perception",
+     "scope": "span",
+     "quotes": [
+      "והיתה מגלה לכל א\"וא תועבותיו וטובותיו",
+      "ידעתי שהזהירו אותך מן השמים"
+     ],
+     "confidence": 3,
+     "why": "The spirit knows people's hidden deeds and the Besht's heavenly secret.",
+     "quotes_failed": false
+    },
+    {
+     "tag": "ethics-and-emotions:prohibitions",
+     "scope": "span",
+     "quotes": [
+      "שלא לעסוק בשמות הקדושים עד שישתלמו לך שלש ושלשים שנה"
+     ],
+     "confidence": 3,
+     "why": "Heaven forbids him to use holy names before age 33.",
+     "quotes_failed": false
+    },
+    {
+     "tag": "practice:use_of_holy_names",
+     "scope": "span",
+     "quotes": [
+      "שלא לעסוק בשמות הקדושים עד שישתלמו"
+     ],
+     "confidence": 2,
+     "why": "Use of holy names, forbidden to him for now, is the central issue.",
+     "quotes_failed": false
+    },
+    {
+     "tag": "supernatural:communicating_with_the_invisible",
+     "scope": "span",
+     "quotes": [
+      "ושאל אותו שמו ואמר לא אוכל לגלות"
+     ],
+     "confidence": 3,
+     "why": "The Besht converses with the spirit.",
+     "quotes_failed": false
+    },
+    {
+     "tag": "supernatural:reincarnation",
+     "scope": "span",
+     "quotes": [
+      "ולא נעשה רוח אלא בשביל שלץ מהחסידים"
+     ],
+     "confidence": 2,
+     "why": "The possessing spirit is the soul of a dead scoffer.",
+     "quotes_failed": false
+    },
+    {
+     "tag": "practice:healing_of_the_soul",
+     "scope": "span",
+     "quotes": [
+      "ואנחנו כלנו נלמד בעבורך"
+     ],
+     "confidence": 2,
+     "why": "He promises study for the soul's repair.",
+     "quotes_failed": false
+    },
+    {
+     "tag": "social:conflict",
+     "scope": "span",
+     "quotes": [
+      "עד שגער בה הבעש״ט ואמר לה ולא תשתוק"
+     ],
+     "confidence": 2,
+     "why": "The Besht confronts and threatens the spirit.",
+     "quotes_failed": false
+    },
+    {
+     "tag": "ethics-and-emotions:shame",
+     "scope": "span",
+     "quotes": [
+      "כי חרפה הוא לבני שיש בעיר הזאת"
+     ],
+     "confidence": 2,
+     "why": "The spirit fears shaming its living sons.",
+     "quotes_failed": false
+    },
+    {
+     "tag": "social:retrospective_recognition",
+     "scope": "span",
+     "quotes": [
+      "ומכאן ואילך לא הניחו אותו לישב בכפר"
+     ],
+     "confidence": 2,
+     "why": "The man thought an ignoramus is recognized as a holy man.",
+     "quotes_failed": false
+    },
+    {
+     "tag": "practice:storytelling",
+     "scope": "span",
+     "quotes": [
+      "ועתה אספר הגדולות אשר שמעתי מחמי"
+     ],
+     "confidence": 2,
+     "why": "Framed as a story told by the narrator's father-in-law.",
+     "quotes_failed": false
+    }
+   ],
+   "missing_concepts": [
+    "spirit possession / dybbuk exorcism"
+   ],
+   "start_quote_found": true,
+   "end_quote_found": true
+  },
+  {
+   "k": 2,
+   "start_quote": "גם סיפר לי חמי ז\"ל שזה המוכסן",
+   "end_quote": "וכשהיו משחקים הי' גוער בהם ונשתק",
+   "hasidic": true,
+   "summary_en": "As tutor to a leaseholder, the Besht lives in a house held to be haunted, performs a unification against the evil forces, and silences them with a rebuke.",
+   "tags": [
+    {
+     "tag": "characters-and-roles:demons",
+     "scope": "span",
+     "quotes": [
+      "וייחד עליה להחיצוני׳ ר\"ל",
+      "בית א׳ שמחזיקין אותו שאינו טהור"
+     ],
+     "confidence": 3,
+     "why": "Evil forces haunt the house.",
+     "quotes_failed": false
+    },
+    {
+     "tag": "practice:protection",
+     "scope": "span",
+     "quotes": [
+      "וכשהיו משחקים הי' גוער בהם ונשתק"
+     ],
+     "confidence": 3,
+     "why": "He subdues the demons.",
+     "quotes_failed": false
+    },
+    {
+     "tag": "folkloristics:story_type_protection",
+     "scope": "story",
+     "quotes": [],
+     "confidence": 2,
+     "why": "The tale centres on overcoming the haunting.",
+     "quotes_failed": false
+    },
+    {
+     "tag": "kabbalah:kabbalistic_terms_yihudim",
+     "scope": "span",
+     "quotes": [
+      "וייחד עליה להחיצוני׳ ר\"ל"
+     ],
+     "confidence": 2,
+     "why": "He performs a unification against the forces.",
+     "quotes_failed": false
+    },
+    {
+     "tag": "social:conflict",
+     "scope": "span",
+     "quotes": [
+      "הי' גוער בהם ונשתק"
+     ],
+     "confidence": 2,
+     "why": "He confronts the demons.",
+     "quotes_failed": false
+    },
+    {
+     "tag": "practice:storytelling",
+     "scope": "span",
+     "quotes": [
+      "גם סיפר לי חמי ז\"ל"
+     ],
+     "confidence": 2,
+     "why": "Told by the father-in-law.",
+     "quotes_failed": false
+    }
+   ],
+   "missing_concepts": [
+    "haunted house",
+    "tutor (melamed) profession"
+   ],
+   "start_quote_found": true,
+   "end_quote_found": true
+  },
+  {
+   "k": 3,
+   "start_quote": "גם היה מעשה שהיו צריכין לגשם",
+   "end_quote": "שהיום יהיה גשם וכן היה",
+   "hasidic": true,
+   "summary_en": "During a drought that the gentiles' idol processions fail to end, the Besht gathers a minyan, decrees a fast, leads the prayer, and correctly foretells rain that day to a mocking gentile.",
+   "tags": [
+    {
+     "tag": "practice:prayer",
+     "scope": "span",
+     "quotes": [
+      "הבעש״ט התפלל בעצמו לפני התיבה והאריכו בתפלה"
+     ],
+     "confidence": 3,
+     "why": "Prayer for rain.",
+     "quotes_failed": false
+    },
+    {
+     "tag": "practice:fasting",
+     "scope": "span",
+     "quotes": [
+      "למנין וגזר תענית"
+     ],
+     "confidence": 3,
+     "why": "A public fast.",
+     "quotes_failed": false
+    },
+    {
+     "tag": "social:relations_with_non_jews",
+     "scope": "span",
+     "quotes": [
+      "ולצץ העכו\"ם מאד באמרו הם הלכו"
+     ],
+     "confidence": 3,
+     "why": "A gentile mocks the Jews' prayer.",
+     "quotes_failed": false
+    },
+    {
+     "tag": "supernatural:prognostication",
+     "scope": "span",
+     "quotes": [
+      "שהיום יהיה גשם וכן היה"
+     ],
+     "confidence": 3,
+     "why": "He predicts rain, and it comes.",
+     "quotes_failed": false
+    },
+    {
+     "tag": "folkloristics:story_type_prognostication",
+     "scope": "story",
+     "quotes": [],
+     "confidence": 2,
+     "why": "The tale peaks in the fulfilled prediction.",
+     "quotes_failed": false
+    },
+    {
+     "tag": "supernatural:miracle",
+     "scope": "span",
+     "quotes": [
+      "שהיום יהיה גשם וכן היה"
+     ],
+     "confidence": 2,
+     "why": "Rain falls through his prayer.",
+     "quotes_failed": false
+    },
+    {
+     "tag": "social:competition",
+     "scope": "span",
+     "quotes": [
+      "הם הלכו עם פסיליהם ולא הועילו"
+     ],
+     "confidence": 2,
+     "why": "Jewish prayer is set against the idol processions.",
+     "quotes_failed": false
+    }
+   ],
+   "missing_concepts": [
+    "rain-making / drought"
+   ],
+   "start_quote_found": true,
+   "end_quote_found": true
+  },
+  {
+   "k": 4,
+   "start_quote": "אח\"כ קבע דירתו בק\"ק טלוסט",
+   "end_quote": "והיו נוסעים אליו מכל המקומות",
+   "hasidic": true,
+   "summary_en": "In Tlust the poor tutor Besht prays with fervour and immerses even in winter; a night announcement that he has turned 36 leads him to heal a madman, leave teaching, take the narrator's father-in-law as scribe, and receive visitors from everywhere.",
+   "tags": [
+    {
+     "tag": "folkloristics:story_type_inauguration",
+     "scope": "story",
+     "quotes": [],
+     "confidence": 3,
+     "why": "His acceptance of a public role at 36.",
+     "quotes_failed": false
+    },
+    {
+     "tag": "times:inauguration",
+     "scope": "span",
+     "quotes": [
+      "ועזב את המלמדות וקיבל את חמי ז\"ל לסופר"
+     ],
+     "confidence": 3,
+     "why": "He takes up leadership.",
+     "quotes_failed": false
+    },
+    {
+     "tag": "social:poverty",
+     "scope": "span",
+     "quotes": [
+      "ואצבעות הרגלים היו יוצאות דרך חורי המנעלים"
+     ],
+     "confidence": 2,
+     "why": "His extreme poverty.",
+     "quotes_failed": false
+    },
+    {
+     "tag": "practice:clothing",
+     "scope": "span",
+     "quotes": [
+      "והיה לבוש רק בטוזליק של קומאיי"
+     ],
+     "confidence": 2,
+     "why": "His poor dress.",
+     "quotes_failed": false
+    },
+    {
+     "tag": "practice:tvilah",
+     "scope": "span",
+     "quotes": [
+      "והיה הולך קודם התפלה למקוה אפילו בתקופת טבת"
+     ],
+     "confidence": 3,
+     "why": "Immersion before prayer.",
+     "quotes_failed": false
+    },
+    {
+     "tag": "practice:prayer",
+     "scope": "span",
+     "quotes": [
+      "ובשעת התפלה היו נוטפים ממנו זיעה"
+     ],
+     "confidence": 3,
+     "why": "Prayer with a minyan.",
+     "quotes_failed": false
+    },
+    {
+     "tag": "experience:enthusiasm",
+     "scope": "span",
+     "quotes": [
+      "היו נוטפים ממנו זיעה טיפות כמו פולין"
+     ],
+     "confidence": 2,
+     "why": "Fervour in prayer.",
+     "quotes_failed": false
+    },
+    {
+     "tag": "practice:healing",
+     "scope": "span",
+     "quotes": [
+      "וקיבל אותו משוגע וריפא אותו"
+     ],
+     "confidence": 3,
+     "why": "He heals the madman.",
+     "quotes_failed": false
+    },
+    {
+     "tag": "supernatural:communicating_with_the_invisible",
+     "scope": "span",
+     "quotes": [
+      "ובלילה הגידו לו שמלאו לו ששה ושלשים שנה"
+     ],
+     "confidence": 2,
+     "why": "A heavenly announcement.",
+     "quotes_failed": false
+    },
+    {
+     "tag": "experience:revelation",
+     "scope": "span",
+     "quotes": [
+      "ובלילה הגידו לו שמלאו לו ששה ושלשים שנה"
+     ],
+     "confidence": 2,
+     "why": "Supernatural disclosure of his time.",
+     "quotes_failed": false
+    },
+    {
+     "tag": "characters-and-roles:scribe",
+     "scope": "span",
+     "quotes": [
+      "וקיבל את חמי ז\"ל לסופר"
+     ],
+     "confidence": 2,
+     "why": "The father-in-law becomes his scribe.",
+     "quotes_failed": false
+    },
+    {
+     "tag": "practice:travel_to_the_tsaddik",
+     "scope": "span",
+     "quotes": [
+      "והיו נוסעים אליו מכל המקומות"
+     ],
+     "confidence": 2,
+     "why": "People travel to him.",
+     "quotes_failed": false
+    }
+   ],
+   "missing_concepts": [
+    "the age 36 as the appointed time of revelation"
+   ],
+   "start_quote_found": true,
+   "end_quote_found": true
+  }
+ ],
+ "check": {
+  "non_vocab_tags": [],
+  "quotes": 42,
+  "quotes_not_found": 0
+ },
+ "id": "Khal-Hasidim_0009"
+}

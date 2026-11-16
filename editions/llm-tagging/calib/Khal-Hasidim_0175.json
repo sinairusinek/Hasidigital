@@ -1,0 +1,162 @@
+{
+ "unit": {
+  "kind": "hasidic_story",
+  "why": "A narrative of R. Shneur Zalman of Liadi's arrest in Petersburg under Tsar Paul, his prediction of Paul's death, and his release by Alexander.",
+  "boundary_note": "opens by referring back to an earlier narrative ('כאשר כתבנו למעלה', the informer Avigdor) and forward to later chapters; stands as a self-contained episode"
+ },
+ "stories": [
+  {
+   "k": 1,
+   "start_quote": "ויהי במשך איזה שנים אחרי׳ היה מוכרח",
+   "end_quote": "כאשר נספר כ\"ז לפני הקורא",
+   "hasidic": true,
+   "summary_en": "On a visit to Petersburg the Rabbi of Liadi is exposed by a careless merchant and imprisoned by Tsar Paul; from his cell he foresees Paul's death, and he is freed and honoured by Tsar Alexander on Hanukkah.",
+   "tags": [
+    {
+     "tag": "social:relations_with_the_authorities",
+     "scope": "story",
+     "quotes": [],
+     "confidence": 3,
+     "why": "Tsars Paul and Alexander imprison, then free and honour the rabbi",
+     "quotes_failed": false
+    },
+    {
+     "tag": "folkloristics:story_type_prognostication",
+     "scope": "story",
+     "quotes": [],
+     "confidence": 3,
+     "why": "the central arc is the rabbi's prediction of the Tsar's death, which comes true",
+     "quotes_failed": false
+    },
+    {
+     "tag": "supernatural:prognostication",
+     "scope": "span",
+     "quotes": [
+      "אין זה קייסר פאוויל אינו רואה בו תבנית קייסר",
+      "אבל אחר שלשים יום נהרג הקייסר"
+     ],
+     "confidence": 3,
+     "why": "he predicts Paul's end thirty days ahead",
+     "quotes_failed": false
+    },
+    {
+     "tag": "supernatural:perception",
+     "scope": "span",
+     "quotes": [
+      "לבי אומר לי כי חדשות יצמחו עתה",
+      "אבל אני מרגיש חדשות לך נא עוד הפעם"
+     ],
+     "confidence": 3,
+     "why": "he senses the Tsar's death before the bells announce it",
+     "quotes_failed": false
+    },
+    {
+     "tag": "times:death",
+     "scope": "span",
+     "quotes": [
+      "נהרג הקייסר ע\"י שבעה פוחזים וריקים"
+     ],
+     "confidence": 3,
+     "why": "the assassination of Paul",
+     "quotes_failed": false
+    },
+    {
+     "tag": "times:historical_event",
+     "scope": "span",
+     "quotes": [
+      "נהרג הקייסר ע\"י שבעה פוחזים וריקים",
+      "בברחו ממלחמת הצרפתים"
+     ],
+     "confidence": 3,
+     "why": "Paul's assassination and the Napoleonic war",
+     "quotes_failed": false
+    },
+    {
+     "tag": "times:holidays",
+     "scope": "span",
+     "quotes": [
+      "ביום כ\"ט כסליו נר חמישי מהדלקת נרות חנוכה"
+     ],
+     "confidence": 3,
+     "why": "he is released on Hanukkah",
+     "quotes_failed": false
+    },
+    {
+     "tag": "practice:pidyon_shvuyim",
+     "scope": "span",
+     "quotes": [
+      "ויחפישהו ממאסרו"
+     ],
+     "confidence": 1,
+     "why": "release of an imprisoned Jew, though there is no ransom effort",
+     "quotes_failed": false
+    },
+    {
+     "tag": "social:retrospective_recognition",
+     "scope": "span",
+     "quotes": [
+      "ויתפלא הר\"ש על דבריו אבל אחר שלשים יום"
+     ],
+     "confidence": 2,
+     "why": "R. Shaul later understands the rabbi's puzzling words",
+     "quotes_failed": false
+    },
+    {
+     "tag": "ethics-and-emotions:fear",
+     "scope": "span",
+     "quotes": [
+      "והיה ירא כי לא יעשה הרב איזה קנוניא"
+     ],
+     "confidence": 2,
+     "why": "the Tsar fears the rabbi's influence on his ministers",
+     "quotes_failed": false
+    },
+    {
+     "tag": "social:inter_hasidic_master_disciple_relationship",
+     "scope": "span",
+     "quotes": [
+      "ואז ישב עמו הר׳ שאול הנ\"ל כל ימי"
+     ],
+     "confidence": 1,
+     "why": "R. Shaul serves the rabbi in prison",
+     "quotes_failed": false
+    },
+    {
+     "tag": "social:relations_with_non_hasidim",
+     "scope": "span",
+     "quotes": [
+      "ועכ\"ז הפיקו לו מצוקים מבני עמינו"
+     ],
+     "confidence": 1,
+     "why": "Jewish opponents trouble him (brief mention)",
+     "quotes_failed": false
+    },
+    {
+     "tag": "practice:the_travels_of_the_tsaddik",
+     "scope": "span",
+     "quotes": [
+      "היה מוכרח הרב ז\"ל להיות ב פ\"ב",
+      "ואז נסע הרב מ פעטרסבורג לביתו"
+     ],
+     "confidence": 2,
+     "why": "his trip to Petersburg sets off the episode",
+     "quotes_failed": false
+    }
+   ],
+   "missing_concepts": [
+    "imprisonment of the tzaddik",
+    "informing (mesirah) by a careless Jew",
+    "Tsar in disguise",
+    "tzaddik helps the ruler uncover assassins"
+   ],
+   "start_quote_found": true,
+   "end_quote_found": true
+  }
+ ],
+ "check": {
+  "non_vocab_tags": [],
+  "quotes": 15,
+  "quotes_not_found": 0
+ },
+ "id": "Khal-Hasidim_0175"
+}

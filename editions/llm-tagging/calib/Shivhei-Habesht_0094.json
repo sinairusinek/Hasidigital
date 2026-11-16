@@ -1,0 +1,108 @@
+{
+ "unit": {
+  "kind": "hasidic_story",
+  "why": "A short first-person memorate by R. Nahman of Horodenka about his cold and hot mikveh immersions, which failed to free him from alien thoughts until he turned to the Besht's wisdom.",
+  "boundary_note": ""
+ },
+ "stories": [
+  {
+   "k": 1,
+   "start_quote": "פ\"א שמעתי מר׳ נחמן מהאראדענקע",
+   "end_quote": "עד שהוכרחתי לחכמת הבעש\"ט",
+   "hasidic": true,
+   "summary_en": "R. Nahman of Horodenka recounts that as a great hasid he immersed daily in an unbearably cold mikveh and in a scalding one without feeling the heat, yet could not rid himself of alien thoughts until he had recourse to the Besht's wisdom.",
+   "tags": [
+    {
+     "tag": "practice:tvilah",
+     "scope": "span",
+     "quotes": [
+      "הלכתי בכל יום למקוה קרה",
+      "ומצאתי המקוה חם מאוד"
+     ],
+     "confidence": 3,
+     "why": "Daily ritual immersion is the core practice described.",
+     "quotes_failed": false
+    },
+    {
+     "tag": "spaces:mikveh",
+     "scope": "span",
+     "quotes": [
+      "ומצאתי המקוה חם מאוד עד שכמעט בערו הכתלים"
+     ],
+     "confidence": 2,
+     "why": "The action takes place in the mikveh.",
+     "quotes_failed": false
+    },
+    {
+     "tag": "practice:coping_with_alien_thoughts",
+     "scope": "span",
+     "quotes": [
+      "לא הייתי יכול לפטור מן מחשבות זרות"
+     ],
+     "confidence": 3,
+     "why": "The story is about his struggle with alien thoughts.",
+     "quotes_failed": false
+    },
+    {
+     "tag": "practice:asceticism",
+     "scope": "span",
+     "quotes": [
+      "שבדור זה לא יוכל לסבול שום אדם מקוה כזו"
+     ],
+     "confidence": 3,
+     "why": "Extreme cold and hot immersions are a form of bodily mortification.",
+     "quotes_failed": false
+    },
+    {
+     "tag": "practice:failure",
+     "scope": "span",
+     "quotes": [
+      "ואעפ״כ לא הייתי יכול לפטור מן מחשבות זרות"
+     ],
+     "confidence": 2,
+     "why": "The ascetic remedy fails to work.",
+     "quotes_failed": false
+    },
+    {
+     "tag": "practice:torat_ha_tsaddik",
+     "scope": "span",
+     "quotes": [
+      "עד שהוכרחתי לחכמת הבעש\"ט"
+     ],
+     "confidence": 2,
+     "why": "The Besht's wisdom succeeds where the ascetic means failed.",
+     "quotes_failed": false
+    },
+    {
+     "tag": "practice:storytelling",
+     "scope": "story",
+     "quotes": [],
+     "confidence": 1,
+     "why": "The text is framed as a tale heard from a named hasid.",
+     "quotes_failed": false
+    },
+    {
+     "tag": "supernatural:miracle",
+     "scope": "span",
+     "quotes": [
+      "ולא הרגשתי החמימות לערך שעה"
+     ],
+     "confidence": 1,
+     "why": "He was insensible to a scalding heat for an hour, a quasi-miraculous feat.",
+     "quotes_failed": false
+    }
+   ],
+   "missing_concepts": [
+    "contrast between ascetic piety and Beshtian method"
+   ],
+   "start_quote_found": true,
+   "end_quote_found": true
+  }
+ ],
+ "check": {
+  "non_vocab_tags": [],
+  "quotes": 8,
+  "quotes_not_found": 0
+ },
+ "id": "Shivhei-Habesht_0094"
+}

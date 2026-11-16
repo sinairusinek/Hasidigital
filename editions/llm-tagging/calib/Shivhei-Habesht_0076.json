@@ -1,0 +1,98 @@
+{
+ "unit": {
+  "kind": "hasidic_story",
+  "why": "A short saying of R. Yaakov Yosef is followed by R. Zusya's first-person memorate: while travelling he prayed at one spot in the Zholkva study house and found his prayer unusually pure, then learned it had been the Toldot's place.",
+  "boundary_note": "Opening saying ('נקל לו לומר עשרה חילוקים') is a teaching without narrative; the text contains an editorial artifact 'check if sic'."
+ },
+ "stories": [
+  {
+   "k": 1,
+   "start_quote": "ושמעתי מר׳ זוסי' מ אנפאלי כשנסע",
+   "end_quote": "המקום של בעהמ״ח ספר חולדות",
+   "hasidic": true,
+   "summary_en": "R. Zusya, travelling from his brother R. Elimelech through Zholkva, prayed at a spot in the study house with prayer as pure as the Besht's, and was told it had been the place of the author of Toldot Yaakov Yosef.",
+   "tags": [
+    {
+     "tag": "practice:prayer",
+     "scope": "span",
+     "quotes": [
+      "עמדתי בבהמ\"ד במקום אחד להתפלל",
+      "והי׳ התפילה זכה וברורה כערך תפילות הבעש״ט"
+     ],
+     "confidence": 3,
+     "why": "the story turns on the quality of his prayer",
+     "quotes_failed": false
+    },
+    {
+     "tag": "spaces:beth_midrash",
+     "scope": "span",
+     "quotes": [
+      "עמדתי בבהמ\"ד במקום אחד להתפלל"
+     ],
+     "confidence": 3,
+     "why": "the scene takes place in the study house",
+     "quotes_failed": false
+    },
+    {
+     "tag": "practice:the_travels_of_the_tsaddik",
+     "scope": "span",
+     "quotes": [
+      "כשנסע מאחיו ר׳ אלימלך דרך זאלקווא"
+     ],
+     "confidence": 2,
+     "why": "Zusya stops en route while travelling",
+     "quotes_failed": false
+    },
+    {
+     "tag": "social:retrospective_recognition",
+     "scope": "span",
+     "quotes": [
+      "ולא ידעתי מאיזה סיבה ואמרו כי במקום הזה"
+     ],
+     "confidence": 3,
+     "why": "the cause of the pure prayer is discovered only afterwards",
+     "quotes_failed": false
+    },
+    {
+     "tag": "folkloristics:story_type_virtues",
+     "scope": "story",
+     "quotes": [],
+     "confidence": 2,
+     "why": "the story illustrates the holiness of the Toldot's prayer, which still lingers at his place",
+     "quotes_failed": false
+    },
+    {
+     "tag": "practice:storytelling",
+     "scope": "span",
+     "quotes": [
+      "ושמעתי מר׳ זוסי' מ אנפאלי"
+     ],
+     "confidence": 1,
+     "why": "the tale is framed as told by R. Zusya",
+     "quotes_failed": false
+    },
+    {
+     "tag": "supernatural:perception",
+     "scope": "span",
+     "quotes": [
+      "והי׳ התפילה זכה וברורה כערך תפילות הבעש״ט"
+     ],
+     "confidence": 1,
+     "why": "Zusya senses the spiritual quality of the place",
+     "quotes_failed": false
+    }
+   ],
+   "missing_concepts": [
+    "holiness of a tzaddik's fixed place of prayer (makom kavua) lingering after him"
+   ],
+   "start_quote_found": true,
+   "end_quote_found": true
+  }
+ ],
+ "check": {
+  "non_vocab_tags": [],
+  "quotes": 7,
+  "quotes_not_found": 0
+ },
+ "id": "Shivhei-Habesht_0076"
+}

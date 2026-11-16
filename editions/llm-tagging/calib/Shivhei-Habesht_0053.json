@@ -1,0 +1,171 @@
+{
+ "unit": {
+  "kind": "hasidic_story",
+  "why": "A single anecdote: at night near Brody the Besht trembles after his heavenly teacher warns him about the honor awaiting him, and in Brody he deflates the honor by playing with the horses.",
+  "boundary_note": ""
+ },
+ "stories": [
+  {
+   "k": 1,
+   "start_quote": "שמעתי מר' אהרן דק\"ק מעזיבוז",
+   "end_quote": "יראת חטא חוטא של הבעש\"ט :",
+   "hasidic": true,
+   "summary_en": "Lodging near Brody, the Besht trembles at night because his heavenly teacher asked whether he or Abraham was greater and warned that the honor he would receive in Brody could make him lose all he had gained; when the notables came out in fine clothes to greet him, he busied himself playing with the horses.",
+   "tags": [
+    {
+     "tag": "practice:the_travels_of_the_tsaddik",
+     "scope": "span",
+     "quotes": [
+      "פ\"א נסע הבעש״ט לק\"ק בראד",
+      "ולן במקום אחד סמוך ל בראד"
+     ],
+     "confidence": 3,
+     "why": "The Besht's journey to Brody and his night's lodging frame the story.",
+     "quotes_failed": false
+    },
+    {
+     "tag": "experience:trembling",
+     "scope": "span",
+     "quotes": [
+      "ובלילה חרד הבעש״ט וארכובותיו דא לדא נקשן"
+     ],
+     "confidence": 3,
+     "why": "The Besht trembles so hard that his knees knock together.",
+     "quotes_failed": false
+    },
+    {
+     "tag": "ethics-and-emotions:fear",
+     "scope": "span",
+     "quotes": [
+      "ונתחרדתי עד מאוד"
+     ],
+     "confidence": 3,
+     "why": "He is afraid of losing his spiritual attainments.",
+     "quotes_failed": false
+    },
+    {
+     "tag": "characters-and-roles:scribe",
+     "scope": "span",
+     "quotes": [
+      "שהעיר ר׳ צבי סופר משנתו"
+     ],
+     "confidence": 3,
+     "why": "R. Zvi the scribe is a character who witnesses the scene and asks about it.",
+     "quotes_failed": false
+    },
+    {
+     "tag": "supernatural:communicating_with_the_invisible",
+     "scope": "span",
+     "quotes": [
+      "שבא אליו רבי ושאל אותי"
+     ],
+     "confidence": 3,
+     "why": "His heavenly teacher visits him and talks with him.",
+     "quotes_failed": false
+    },
+    {
+     "tag": "experience:revelation",
+     "scope": "span",
+     "quotes": [
+      "אמר לי אתה תבוא לק\"ק בראד"
+     ],
+     "confidence": 2,
+     "why": "A supernatural disclosure about what will happen in Brody.",
+     "quotes_failed": false
+    },
+    {
+     "tag": "ethics-and-emotions:pride",
+     "scope": "span",
+     "quotes": [
+      "ויעשו לך כבוד גדול",
+      "מי יותר טוב אתה או אברהם אבינו"
+     ],
+     "confidence": 2,
+     "why": "The danger of pride from receiving honor is the theme.",
+     "quotes_failed": false
+    },
+    {
+     "tag": "ethics-and-emotions:humility",
+     "scope": "span",
+     "quotes": [
+      "התחיל לשחק עם הסוסי'"
+     ],
+     "confidence": 3,
+     "why": "He plays with the horses to avoid the honor shown to him.",
+     "quotes_failed": false
+    },
+    {
+     "tag": "ethics-and-emotions:resisting_temptation",
+     "scope": "span",
+     "quotes": [
+      "התחיל לשחק עם הסוסי' ולהחליק אותם"
+     ],
+     "confidence": 3,
+     "why": "He resists the temptation of fame and honor.",
+     "quotes_failed": false
+    },
+    {
+     "tag": "ethics-and-emotions:awe",
+     "scope": "span",
+     "quotes": [
+      "עד היכן מגעת יראת חטא"
+     ],
+     "confidence": 3,
+     "why": "The story explicitly praises the Besht's fear of sin.",
+     "quotes_failed": false
+    },
+    {
+     "tag": "folkloristics:story_type_virtues",
+     "scope": "story",
+     "quotes": [],
+     "confidence": 3,
+     "why": "The point of the story is to illustrate the Besht's humility and fear of sin.",
+     "quotes_failed": false
+    },
+    {
+     "tag": "supernatural:prognostication",
+     "scope": "span",
+     "quotes": [
+      "באו אליו הנגידים להקביל פניו במלבושי כבו'"
+     ],
+     "confidence": 2,
+     "why": "The warning that he would be greatly honored in Brody comes true.",
+     "quotes_failed": false
+    },
+    {
+     "tag": "practice:storytelling",
+     "scope": "span",
+     "quotes": [
+      "שמעתי מר' אהרן דק\"ק מעזיבוז שסיפר לפני הרב"
+     ],
+     "confidence": 2,
+     "why": "The tale is framed as told by R. Aaron of Medzhybizh before the local rabbi.",
+     "quotes_failed": false
+    },
+    {
+     "tag": "practice:clothing",
+     "scope": "span",
+     "quotes": [
+      "במלבושי כבו'"
+     ],
+     "confidence": 1,
+     "why": "The notables' honorific garments mark the social honor he deflects.",
+     "quotes_failed": false
+    }
+   ],
+   "missing_concepts": [
+    "honor (kavod) as a spiritual danger",
+    "deliberately undignified behavior (playing with horses) to deflect honor",
+    "comparison with Abraham the patriarch"
+   ],
+   "start_quote_found": true,
+   "end_quote_found": true
+  }
+ ],
+ "check": {
+  "non_vocab_tags": [],
+  "quotes": 15,
+  "quotes_not_found": 0
+ },
+ "id": "Shivhei-Habesht_0053"
+}

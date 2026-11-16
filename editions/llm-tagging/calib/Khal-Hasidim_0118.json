@@ -1,0 +1,197 @@
+{
+ "unit": {
+  "kind": "hasidic_story",
+  "why": "A single narrative about the Besht traveling with disciples, being slighted at a feast, and revealing a rabbi's hidden flaw.",
+  "boundary_note": ""
+ },
+ "stories": [
+  {
+   "k": 1,
+   "start_quote": "פ\"א נסע הבעש״ט עם תלמידיו והוכרחו ללון ביער",
+   "end_quote": "וכיבד אותם בכבוד גדול",
+   "hasidic": true,
+   "summary_en": "The Besht, after his disciples jest about a meal in the forest, promises a great feast; the next day, slighted at a rich man's banquet for his rabbi uncle, he reveals to the rabbi that a 'sheretz' stands before him whenever he tries to focus on Shema because he thought ill of great tzaddikim; the rabbi admits it, repents, is healed, and seats the Besht and his disciples at the head.",
+   "tags": [
+    {
+     "tag": "practice:the_travels_of_the_tsaddik",
+     "scope": "story",
+     "quotes": [],
+     "confidence": 3,
+     "why": "Besht journeying with disciples, lodging en route",
+     "quotes_failed": false
+    },
+    {
+     "tag": "practice:joke",
+     "scope": "span",
+     "quotes": [
+      "אמרו התלמידים בבדיחותא נראה הסעודה שיעשה הרב לנו"
+     ],
+     "confidence": 2,
+     "why": "disciples jest; Besht answers the jest",
+     "quotes_failed": false
+    },
+    {
+     "tag": "supernatural:prognostication",
+     "scope": "span",
+     "quotes": [
+      "ביום מחר אי\"ה אעשה לכם סעודה גדולה"
+     ],
+     "confidence": 3,
+     "why": "prediction of a feast comes true",
+     "quotes_failed": false
+    },
+    {
+     "tag": "supernatural:perception",
+     "scope": "span",
+     "quotes": [
+      "בכל פעם שאתה רוצה לכוון בשמע ישראל עומד נגדך",
+      "והלא אתה התענית ע\"ז פ׳ תענית"
+     ],
+     "confidence": 3,
+     "why": "Besht knows the rabbi's hidden flaw and fasts",
+     "quotes_failed": false
+    },
+    {
+     "tag": "social:relations_with_non_hasidim",
+     "scope": "span",
+     "quotes": [
+      "לא החשיבו אותו כ\"כ",
+      "שלא יהרהר אחר צדיקים הגדולים"
+     ],
+     "confidence": 3,
+     "why": "rabbi and townsfolk who disregard the Besht",
+     "quotes_failed": false
+    },
+    {
+     "tag": "folkloristics:story_type_rapprochement",
+     "scope": "story",
+     "quotes": [],
+     "confidence": 3,
+     "why": "dismissive rabbi comes to honor the Besht",
+     "quotes_failed": false
+    },
+    {
+     "tag": "practice:healing_of_the_soul",
+     "scope": "span",
+     "quotes": [
+      "כי רפואתו הוא שלא יהרהר אחר צדיקים הגדולים"
+     ],
+     "confidence": 3,
+     "why": "spiritual remedy for the rabbi's flaw",
+     "quotes_failed": false
+    },
+    {
+     "tag": "ethics-and-emotions:repentance",
+     "scope": "span",
+     "quotes": [
+      "וקיבל ע״ע בלב שלם שלא ישוב לכסלה"
+     ],
+     "confidence": 3,
+     "why": "rabbi resolves not to return to his folly",
+     "quotes_failed": false
+    },
+    {
+     "tag": "ethics-and-emotions:lying",
+     "scope": "span",
+     "quotes": [
+      "ויכחש לו",
+      "האיך אפשר להיות שקר"
+     ],
+     "confidence": 2,
+     "why": "rabbi denies the truth",
+     "quotes_failed": false
+    },
+    {
+     "tag": "practice:prayer",
+     "scope": "span",
+     "quotes": [
+      "הבעש״ט היה עדיין מתפלל בירכתי הבית"
+     ],
+     "confidence": 3,
+     "why": "Besht's prolonged prayer; Shema intention",
+     "quotes_failed": false
+    },
+    {
+     "tag": "kabbalah:kabbalistic_terms_kavvanot",
+     "scope": "span",
+     "quotes": [
+      "כהיום תנס׳ לכוון כוונה זו"
+     ],
+     "confidence": 2,
+     "why": "rabbi's intention during Shema",
+     "quotes_failed": false
+    },
+    {
+     "tag": "practice:coping_with_alien_thoughts",
+     "scope": "span",
+     "quotes": [
+      "רוצה לכוון בשמע ישראל עומד נגדך ש\"ו"
+     ],
+     "confidence": 2,
+     "why": "disturbing image during Shema",
+     "quotes_failed": false
+    },
+    {
+     "tag": "practice:fasting",
+     "scope": "span",
+     "quotes": [
+      "והלא אתה התענית ע\"ז פ׳ תענית"
+     ],
+     "confidence": 3,
+     "why": "rabbi fasted over his problem",
+     "quotes_failed": false
+    },
+    {
+     "tag": "social:retrospective_recognition",
+     "scope": "span",
+     "quotes": [
+      "ומיד נטל את הבעש״ט בידו והושיבו בראש הקרואים"
+     ],
+     "confidence": 3,
+     "why": "rabbi recognizes the Besht's greatness",
+     "quotes_failed": false
+    },
+    {
+     "tag": "practice:torat_ha_tsaddik",
+     "scope": "span",
+     "quotes": [
+      "שלא יהרהר אחר צדיקים הגדולים"
+     ],
+     "confidence": 2,
+     "why": "doubting tzaddikim causes spiritual damage",
+     "quotes_failed": false
+    },
+    {
+     "tag": "ethics-and-emotions:pride",
+     "scope": "span",
+     "quotes": [
+      "ולא החשיבו כלום"
+     ],
+     "confidence": 1,
+     "why": "disdain toward the Besht",
+     "quotes_failed": false
+    },
+    {
+     "tag": "times:shabbat",
+     "scope": "story",
+     "quotes": [],
+     "confidence": 1,
+     "why": "feast after synagogue prayer, possibly Shabbat; not explicit",
+     "quotes_failed": false
+    }
+   ],
+   "missing_concepts": [
+    "slighting the tzaddik at a feast / seating honor",
+    "harboring suspicion of tzaddikim as a sin"
+   ],
+   "start_quote_found": true,
+   "end_quote_found": true
+  }
+ ],
+ "check": {
+  "non_vocab_tags": [],
+  "quotes": 17,
+  "quotes_not_found": 0
+ },
+ "id": "Khal-Hasidim_0118"
+}

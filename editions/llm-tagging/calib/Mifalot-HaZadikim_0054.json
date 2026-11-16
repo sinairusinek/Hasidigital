@@ -1,0 +1,213 @@
+{
+ "unit": {
+  "kind": "hasidic_story",
+  "why": "A single narrative: a wandering preacher, neglected when R. Menahem Nahum of Chernobyl arrives at the same host's house, challenges the tsaddik and is answered with a homily that leaves him ashamed.",
+  "boundary_note": ""
+ },
+ "stories": [
+  {
+   "k": 1,
+   "start_quote": "מהרב הצדיק ר׳ מנחם נחום מ טשארנאביל",
+   "end_quote": "ונשאר הבע״ד בבושה ובכלימה",
+   "hasidic": true,
+   "summary_en": "A wandering preacher lodges with a rich, hospitable village Jew. When R. Nahum of Chernobyl arrives, the preacher is forgotten. Drunk and resentful, he quotes the Talmud's 'good guest' saying against the tsaddik, who reinterprets it: a guest's burden on his host reflects the guest's own sins, so he should repent. The preacher is left ashamed.",
+   "tags": [
+    {
+     "tag": "characters-and-roles:preacher",
+     "scope": "span",
+     "quotes": [
+      "מעשה היה בבעל דרשן אחד שסבב מעיר לעיר"
+     ],
+     "confidence": 3,
+     "why": "the wandering darshan is the antagonist",
+     "quotes_failed": false
+    },
+    {
+     "tag": "characters-and-roles:tavern_keeper",
+     "scope": "span",
+     "quotes": [
+      "מהמיית הערלים היושבים בבית הגדולה לשתות ולשכור"
+     ],
+     "confidence": 2,
+     "why": "the village host's main house serves drinking gentiles, implying an innkeeper",
+     "quotes_failed": false
+    },
+    {
+     "tag": "practice:the_travels_of_the_tsaddik",
+     "scope": "span",
+     "quotes": [
+      "הקדוש ר' ב׳ נחום מ טשארנאביל בא לכאן",
+      "בשמעו קול מצהלות סוסים ממרכבת הרב"
+     ],
+     "confidence": 3,
+     "why": "the tsaddik lodges en route at the host's house",
+     "quotes_failed": false
+    },
+    {
+     "tag": "practice:sermon",
+     "scope": "span",
+     "quotes": [
+      "אמנם מוסר גדול למדו אותנו רז״ל בדברי קדשם",
+      "וזהו מה שאמרו רז״ל אורח טוב מה הוא אומר"
+     ],
+     "confidence": 3,
+     "why": "the tsaddik's exegesis of the Talmudic saying is the climax",
+     "quotes_failed": false
+    },
+    {
+     "tag": "practice:drinking_alcohol",
+     "scope": "span",
+     "quotes": [
+      "ונתן לו ג״כ מעט י״ש וישת וישכר",
+      "ושתה לחיים לכל העומדים עליו"
+     ],
+     "confidence": 3,
+     "why": "toasting and the preacher's drunkenness drive the confrontation",
+     "quotes_failed": false
+    },
+    {
+     "tag": "ethics-and-emotions:pride",
+     "scope": "span",
+     "quotes": [
+      "וישת וישכר ויתגאה בגובה לבו"
+     ],
+     "confidence": 3,
+     "why": "the preacher's arrogance",
+     "quotes_failed": false
+    },
+    {
+     "tag": "ethics-and-emotions:anger",
+     "scope": "span",
+     "quotes": [
+      "ויחר לו מאוד ויפלו פניו"
+     ],
+     "confidence": 3,
+     "why": "the preacher's resentment",
+     "quotes_failed": false
+    },
+    {
+     "tag": "ethics-and-emotions:shame",
+     "scope": "span",
+     "quotes": [
+      "ונשאר הבע״ד בבושה ובכלימה"
+     ],
+     "confidence": 3,
+     "why": "the outcome is the preacher's shaming",
+     "quotes_failed": false
+    },
+    {
+     "tag": "ethics-and-emotions:repentance",
+     "scope": "span",
+     "quotes": [
+      "וא״כ צריך לעשות תשובה להקל על בעה״ב"
+     ],
+     "confidence": 2,
+     "why": "repentance is discussed in the homily",
+     "quotes_failed": false
+    },
+    {
+     "tag": "social:conflict",
+     "scope": "span",
+     "quotes": [
+      "הנה יש מריבה בינינו",
+      "ועתה מה תריב עמי"
+     ],
+     "confidence": 3,
+     "why": "the preacher picks a quarrel with the tsaddik",
+     "quotes_failed": false
+    },
+    {
+     "tag": "social:competition",
+     "scope": "story",
+     "quotes": [],
+     "confidence": 2,
+     "why": "the preacher competes with the tsaddik for the host's honour and attention",
+     "quotes_failed": false
+    },
+    {
+     "tag": "ethics-and-emotions:sadness",
+     "scope": "span",
+     "quotes": [
+      "ושמחתו לאבל וליגון ועונג לנגע"
+     ],
+     "confidence": 1,
+     "why": "the preacher's dejection",
+     "quotes_failed": false
+    },
+    {
+     "tag": "practice:prayer",
+     "scope": "span",
+     "quotes": [
+      "כי הוא עדיין לא התפלל ערבית"
+     ],
+     "confidence": 2,
+     "why": "the tsaddik's lengthy evening prayer delays the meal",
+     "quotes_failed": false
+    },
+    {
+     "tag": "practice:clothing",
+     "scope": "span",
+     "quotes": [
+      "לבש א״ע במלבושי שבת"
+     ],
+     "confidence": 2,
+     "why": "Sabbath garments are worn in honour of the tsaddik",
+     "quotes_failed": false
+    },
+    {
+     "tag": "spaces:beth_midrash",
+     "scope": "span",
+     "quotes": [
+      "שחלק אותו החדר לביהמ״ד עבור בניו וחתניו"
+     ],
+     "confidence": 2,
+     "why": "the guest room serves as the host family's study hall",
+     "quotes_failed": false
+    },
+    {
+     "tag": "practice:study",
+     "scope": "span",
+     "quotes": [
+      "לישב שם וללמוד ולהגות בתורת ד׳"
+     ],
+     "confidence": 1,
+     "why": "the sons-in-law study in the room",
+     "quotes_failed": false
+    },
+    {
+     "tag": "characters-and-roles:the_family_of_the_tsaddik",
+     "scope": "span",
+     "quotes": [
+      "הלכו לקראתו בניו וחתניו של בעה״ב"
+     ],
+     "confidence": 1,
+     "why": "the family shown is the host's, not the tsaddik's, so this is a borderline fit",
+     "quotes_failed": false
+    },
+    {
+     "tag": "ethics-and-emotions:charity",
+     "scope": "span",
+     "quotes": [
+      "ומסתמא יקבל מהם גם נדבה הגונה"
+     ],
+     "confidence": 1,
+     "why": "the preacher expects alms from the host",
+     "quotes_failed": false
+    }
+   ],
+   "missing_concepts": [
+    "hospitality (hachnasat orchim) and guest–host ethics",
+    "honour (kavod) accorded to a tsaddik versus an ordinary guest",
+    "livelihood and toil as a consequence of sin"
+   ],
+   "start_quote_found": true,
+   "end_quote_found": true
+  }
+ ],
+ "check": {
+  "non_vocab_tags": [],
+  "quotes": 21,
+  "quotes_not_found": 0
+ },
+ "id": "Mifalot-HaZadikim_0054"
+}

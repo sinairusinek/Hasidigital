@@ -1,0 +1,110 @@
+{
+ "unit": {
+  "kind": "hasidic_story",
+  "why": "A single anecdote: a nobleman who swore to shoot the Besht fails to see him when they are in the same house, because the Besht can make himself invisible.",
+  "boundary_note": ""
+ },
+ "stories": [
+  {
+   "k": 1,
+   "start_quote": "שמעתי מהרב דקהילתינו שפריץ א׳ הי׳ שונא לבעש״ט",
+   "end_quote": "כשרוצה אין רואין אותו אפייס אותו",
+   "hasidic": true,
+   "summary_en": "A nobleman who vowed to shoot the Besht arrives at a fortress while the Besht is there, enters the same house and does not see him; the commissar concludes that the Besht can be unseen when he wishes, and decides to reconcile with him.",
+   "tags": [
+    {
+     "tag": "social:relations_with_non_jews",
+     "scope": "story",
+     "quotes": [],
+     "confidence": 3,
+     "why": "The story turns on the Besht's dealings with a gentile nobleman and a commissar.",
+     "quotes_failed": false
+    },
+    {
+     "tag": "social:conflict",
+     "scope": "span",
+     "quotes": [
+      "שפריץ א׳ הי׳ שונא לבעש״ט",
+      "כשיראה את הבע״שט יהרוג אותו בקנה שרפה"
+     ],
+     "confidence": 3,
+     "why": "The nobleman is hostile to the Besht and threatens to kill him.",
+     "quotes_failed": false
+    },
+    {
+     "tag": "ethics-and-emotions:anger",
+     "scope": "span",
+     "quotes": [
+      "האדון הנ\"ל רגז מאד על הבעש״ט",
+      "דיבר הקאמיסאר עם האדון מהבע״שט ורגז עליו"
+     ],
+     "confidence": 3,
+     "why": "The nobleman's rage against the Besht is stated twice.",
+     "quotes_failed": false
+    },
+    {
+     "tag": "supernatural:miracle",
+     "scope": "span",
+     "quotes": [
+      "ואמר אני לא ראיתיו",
+      "כשרוצה אין רואין אותו"
+     ],
+     "confidence": 2,
+     "why": "The Besht is miraculously invisible to his enemy.",
+     "quotes_failed": false
+    },
+    {
+     "tag": "practice:protection",
+     "scope": "span",
+     "quotes": [
+      "ונכנס גם הבעש״ט לבית ונפטר מהקאמיסער"
+     ],
+     "confidence": 2,
+     "why": "The Besht is shielded from the hostile nobleman's threat.",
+     "quotes_failed": false
+    },
+    {
+     "tag": "folkloristics:story_type_protection",
+     "scope": "story",
+     "quotes": [],
+     "confidence": 1,
+     "why": "The tale is about escaping a hostile noble, though the person protected is the Besht himself.",
+     "quotes_failed": false
+    },
+    {
+     "tag": "social:retrospective_recognition",
+     "scope": "span",
+     "quotes": [
+      "הלא הוא הי׳ בכאן כשבא אדוני",
+      "כיוון שהוא איש כזה כשרוצה אין רואין אותו"
+     ],
+     "confidence": 2,
+     "why": "The nobleman learns afterwards that the Besht had been there, and the commissar realizes what his power is.",
+     "quotes_failed": false
+    },
+    {
+     "tag": "practice:storytelling",
+     "scope": "span",
+     "quotes": [
+      "שמעתי מהרב דקהילתינו"
+     ],
+     "confidence": 1,
+     "why": "The tale is framed as told by the local rabbi.",
+     "quotes_failed": false
+    }
+   ],
+   "missing_concepts": [
+    "invisibility of the tzaddik",
+    "reconciliation of a hostile noble with the tzaddik (אפייס אותו)"
+   ],
+   "start_quote_found": true,
+   "end_quote_found": true
+  }
+ ],
+ "check": {
+  "non_vocab_tags": [],
+  "quotes": 10,
+  "quotes_not_found": 0
+ },
+ "id": "Shivhei-Habesht_0142"
+}

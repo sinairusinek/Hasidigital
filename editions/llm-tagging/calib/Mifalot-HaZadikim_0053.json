@@ -1,0 +1,110 @@
+{
+ "unit": {
+  "kind": "hasidic_story",
+  "why": "A brief anecdote: after R. Zev of Zhitomir and his in-law R. Zvi Yehuda (Hirsh Leib) of Olyka meet, R. Zev is asked his opinion of the younger tzaddik and answers with a homily on the Shunammite and the 'holy man'.",
+  "boundary_note": ""
+ },
+ "stories": [
+  {
+   "k": 1,
+   "start_quote": "הרב הצדיק הקדוש ר׳ זאב מ זיטאמר",
+   "end_quote": "כי כל טומאה בורחת מפניו זי״ע ועכי״א",
+   "hasidic": true,
+   "summary_en": "After a meeting with his younger in-law R. Hirsh Leib of Olyka, R. Zev of Zhitomir is asked how he rates him and says he sees him clad in garments finer than new, explaining through the Shunammite's test of Elisha that impurity flees from holiness.",
+   "tags": [
+    {
+     "tag": "practice:sermon",
+     "scope": "span",
+     "quotes": [
+      "הנה כתוב איש קדוש עובר עלינו תמיד",
+      "זהו כוונת רז״ל בדברי קדשם"
+     ],
+     "confidence": 3,
+     "why": "The answer is an exegesis of a verse and a rabbinic dictum.",
+     "quotes_failed": false
+    },
+    {
+     "tag": "not-a-hasidic-story:sermon",
+     "scope": "story",
+     "quotes": [],
+     "confidence": 2,
+     "why": "The thin narrative frame wraps an extended homiletic explanation.",
+     "quotes_failed": false
+    },
+    {
+     "tag": "practice:clothing",
+     "scope": "span",
+     "quotes": [
+      "הולך במלבוש של משי מחודש ומהודר",
+      "כי כל מלבושיו מהודרים מאוד יותר מחדשים"
+     ],
+     "confidence": 3,
+     "why": "Garments serve as the central metaphor for a tzaddik's holiness.",
+     "quotes_failed": false
+    },
+    {
+     "tag": "social:inter_hasidic",
+     "scope": "span",
+     "quotes": [
+      "היה מחותן עם הרב הצדיק",
+      "פ״א התוועדו יחד בעיר אחת"
+     ],
+     "confidence": 3,
+     "why": "Shows a meeting and the mutual regard of two tzaddikim who are in-laws.",
+     "quotes_failed": false
+    },
+    {
+     "tag": "supernatural:perception",
+     "scope": "span",
+     "quotes": [
+      "אני רואה שהוא הולך במלבוש של משי"
+     ],
+     "confidence": 2,
+     "why": "R. Zev perceives the other tzaddik's spiritual garments.",
+     "quotes_failed": false
+    },
+    {
+     "tag": "folkloristics:story_type_virtues",
+     "scope": "story",
+     "quotes": [],
+     "confidence": 2,
+     "why": "The point is to praise R. Zvi Yehuda's holiness and purity.",
+     "quotes_failed": false
+    },
+    {
+     "tag": "practice:the_travels_of_the_tsaddik",
+     "scope": "span",
+     "quotes": [
+      "והלך לו הרב ר׳ צבי יהודא הנ״ל מבית ר' זאב"
+     ],
+     "confidence": 1,
+     "why": "The setting is a visit by one tzaddik to another.",
+     "quotes_failed": false
+    },
+    {
+     "tag": "women:mention_only",
+     "scope": "span",
+     "quotes": [
+      "מנא ידעה כי קדוש הוא"
+     ],
+     "confidence": 2,
+     "why": "The Shunammite appears only within the homily.",
+     "quotes_failed": false
+    }
+   ],
+   "missing_concepts": [
+    "purity/impurity (tumah) fleeing from holiness",
+    "a tzaddik's evaluation of another tzaddik",
+    "family ties between tzaddikim (mehutanim)"
+   ],
+   "start_quote_found": true,
+   "end_quote_found": true
+  }
+ ],
+ "check": {
+  "non_vocab_tags": [],
+  "quotes": 9,
+  "quotes_not_found": 0
+ },
+ "id": "Mifalot-HaZadikim_0053"
+}

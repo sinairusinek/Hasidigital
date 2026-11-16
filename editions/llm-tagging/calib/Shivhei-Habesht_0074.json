@@ -1,0 +1,89 @@
+{
+ "unit": {
+  "kind": "hasidic_story",
+  "why": "A brief memorate, heard from the author's father-in-law, describing R. Nahman's heart-rending groaning in prayer and the Besht's praise of him; it is closer to an anecdote than a bare saying.",
+  "boundary_note": ""
+ },
+ "stories": [
+  {
+   "k": 1,
+   "start_quote": "שמעתי מחמי ז\"ל כשר' נחמן גנוחי",
+   "end_quote": "אין יודעים מה היא התפילה",
+   "hasidic": true,
+   "summary_en": "R. Nahman's groan during prayer broke the hearts of those who heard it, and the Besht said that only where R. Nahman had travelled do people know what prayer is.",
+   "tags": [
+    {
+     "tag": "practice:prayer",
+     "scope": "span",
+     "quotes": [
+      "גנוחי גנח גנוחו גונח בתפילה",
+      "יודעים מה היא התפילה"
+     ],
+     "confidence": 3,
+     "why": "R. Nahman's manner of prayer is the subject",
+     "quotes_failed": false
+    },
+    {
+     "tag": "experience:enthusiasm",
+     "scope": "span",
+     "quotes": [
+      "גונח בתפילה משברת הלב השומע"
+     ],
+     "confidence": 2,
+     "why": "fervent, heart-breaking groaning in prayer",
+     "quotes_failed": false
+    },
+    {
+     "tag": "practice:devekut",
+     "scope": "span",
+     "quotes": [
+      "גנוחי גנח גנוחו גונח בתפילה"
+     ],
+     "confidence": 1,
+     "why": "absorbed, intense worship",
+     "quotes_failed": false
+    },
+    {
+     "tag": "folkloristics:story_type_virtues",
+     "scope": "story",
+     "quotes": [],
+     "confidence": 2,
+     "why": "the point is to praise R. Nahman's prayer",
+     "quotes_failed": false
+    },
+    {
+     "tag": "social:inter_hasidic_master_disciple_relationship",
+     "scope": "span",
+     "quotes": [
+      "אמר הבעש״ט עד מקום שנסע ר׳ נחמן"
+     ],
+     "confidence": 1,
+     "why": "the Besht praises his associate R. Nahman",
+     "quotes_failed": false
+    },
+    {
+     "tag": "practice:the_travels_of_the_tsaddik",
+     "scope": "span",
+     "quotes": [
+      "עד מקום שנסע ר׳ נחמן"
+     ],
+     "confidence": 1,
+     "why": "R. Nahman's travels spread true prayer",
+     "quotes_failed": false
+    }
+   ],
+   "missing_concepts": [
+    "groaning/sighing (גניחה) in prayer as a spiritual force",
+    "oral transmission chain (heard from father-in-law)"
+   ],
+   "start_quote_found": true,
+   "end_quote_found": true
+  }
+ ],
+ "check": {
+  "non_vocab_tags": [],
+  "quotes": 6,
+  "quotes_not_found": 0
+ },
+ "id": "Shivhei-Habesht_0074"
+}

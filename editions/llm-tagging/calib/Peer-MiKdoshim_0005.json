@@ -1,0 +1,287 @@
+{
+ "unit": {
+  "kind": "non_hasidic_story",
+  "why": "A single legend about the Maharal of Prague (author of Gur Aryeh), a pre-Hasidic sage, who rescues a prodigy from priests who use teraphim; it is explicitly linked to an earlier tale about R. Pinto.",
+  "boundary_note": ""
+ },
+ "stories": [
+  {
+   "k": 1,
+   "start_quote": "נספר בזה מעשה נורא מהגאון הקדוש",
+   "end_quote": "אותות ומופתי כל בני אדם",
+   "hasidic": false,
+   "summary_en": "A 12-year-old prodigy in Prague is lured away by merchants posing as a rich in-law. They are really priests who want to cut off his head and use it as a teraphim oracle. An old talking head of an earlier victim helps him escape, and the Maharal's public fast, Psalms and prayer bring him home miraculously in one night. The Maharal then destroys the impure names and promises to recite kaddish for the head.",
+   "tags": [
+    {
+     "tag": "not-a-hasidic-story:hagiography",
+     "scope": "story",
+     "quotes": [],
+     "confidence": 3,
+     "why": "Praises the Maharal (Gur Aryeh), a pre-Hasidic sage",
+     "quotes_failed": false
+    },
+    {
+     "tag": "supernatural:magic",
+     "scope": "span",
+     "quotes": [
+      "כי שמות הטומאה להם מן התרפים אשר לירבעם",
+      "ויקח את השמות אשר מתחת לשונו"
+     ],
+     "confidence": 3,
+     "why": "The priests use teraphim and impure names to make a head an oracle",
+     "quotes_failed": false
+    },
+    {
+     "tag": "characters-and-roles:magician",
+     "scope": "span",
+     "quotes": [
+      "כומרים צודדי נפשות לפורחות הנמו"
+     ],
+     "confidence": 2,
+     "why": "Non-Jewish priests act as sorcerers",
+     "quotes_failed": false
+    },
+    {
+     "tag": "social:relations_with_non_jews",
+     "scope": "span",
+     "quotes": [
+      "כומרים צודדי נפשות לפורחות הנמו"
+     ],
+     "confidence": 3,
+     "why": "The antagonists are gentile priests",
+     "quotes_failed": false
+    },
+    {
+     "tag": "social:conflict",
+     "scope": "story",
+     "quotes": [],
+     "confidence": 2,
+     "why": "The Maharal is pitted against the sorcerer priests",
+     "quotes_failed": false
+    },
+    {
+     "tag": "ethics-and-emotions:lying",
+     "scope": "span",
+     "quotes": [
+      "ויוסף האחד להגיד אם כן דע איפוא כי אנכי בעצמי"
+     ],
+     "confidence": 3,
+     "why": "The merchants deceive the father with a false match",
+     "quotes_failed": false
+    },
+    {
+     "tag": "social:marriage",
+     "scope": "span",
+     "quotes": [
+      "ולפני הגאון תקעו כף והתקשרו בקישורי חיתון"
+     ],
+     "confidence": 3,
+     "why": "The sham betrothal drives the plot",
+     "quotes_failed": false
+    },
+    {
+     "tag": "social:retrospective_recognition",
+     "scope": "span",
+     "quotes": [
+      "וכל אלה אשר אתה ראית בעיניך כומרים"
+     ],
+     "confidence": 2,
+     "why": "The boy learns that his supposed in-laws are priests",
+     "quotes_failed": false
+    },
+    {
+     "tag": "supernatural:communicating_with_the_invisible",
+     "scope": "span",
+     "quotes": [
+      "וירא ראש אחד זקן מאוד"
+     ],
+     "confidence": 1,
+     "why": "A disembodied talking head speaks to the boy",
+     "quotes_failed": false
+    },
+    {
+     "tag": "practice:recitation_of_psalms",
+     "scope": "span",
+     "quotes": [
+      "וצוה לומר ספר ראשון שבתהלים בציבור"
+     ],
+     "confidence": 3,
+     "why": "The congregation recites the books of Psalms to bring the boy back",
+     "quotes_failed": false
+    },
+    {
+     "tag": "practice:fasting",
+     "scope": "span",
+     "quotes": [
+      "קרא צום ונקהלו כל אנשי העיר"
+     ],
+     "confidence": 3,
+     "why": "The Maharal declares a public fast",
+     "quotes_failed": false
+    },
+    {
+     "tag": "practice:prayer",
+     "scope": "span",
+     "quotes": [
+      "לא שקט ולא נח מהרבות בתפלה ותחנונים"
+     ],
+     "confidence": 3,
+     "why": "Intercessory prayer leads to the rescue",
+     "quotes_failed": false
+    },
+    {
+     "tag": "practice:sermon",
+     "scope": "span",
+     "quotes": [
+      "אומר לכם דברי כבושין תוכחת מוסר"
+     ],
+     "confidence": 3,
+     "why": "The Maharal preaches rebuke to the congregation",
+     "quotes_failed": false
+    },
+    {
+     "tag": "ethics-and-emotions:fear",
+     "scope": "span",
+     "quotes": [
+      "עד כי נפל פחד ד' על כל אחד",
+      "ואולם פחדים הבלי רעיונים בעתוהו רעה"
+     ],
+     "confidence": 3,
+     "why": "Both the boy and the congregation are afraid",
+     "quotes_failed": false
+    },
+    {
+     "tag": "ethics-and-emotions:sadness",
+     "scope": "span",
+     "quotes": [
+      "ויבכה במר שיחו פעמים אין מספר"
+     ],
+     "confidence": 2,
+     "why": "The father grieves bitterly",
+     "quotes_failed": false
+    },
+    {
+     "tag": "supernatural:contraction_of_the_road",
+     "scope": "span",
+     "quotes": [
+      "מהלך חודש ימים בלילה אחת"
+     ],
+     "confidence": 3,
+     "why": "A month's journey is covered in one night",
+     "quotes_failed": false
+    },
+    {
+     "tag": "supernatural:miracle",
+     "scope": "span",
+     "quotes": [
+      "ואחר הסיום הובא העלם בעד החלון"
+     ],
+     "confidence": 3,
+     "why": "The boy's miraculous return",
+     "quotes_failed": false
+    },
+    {
+     "tag": "experience:visions",
+     "scope": "span",
+     "quotes": [
+      "חזה העלם בעיניו את זקנו הנפטר"
+     ],
+     "confidence": 2,
+     "why": "The boy sees his dead grandfather carry him home",
+     "quotes_failed": false
+    },
+    {
+     "tag": "supernatural:perception",
+     "scope": "span",
+     "quotes": [
+      "כי מן השמים הודיעו את הגאון הקדוש"
+     ],
+     "confidence": 2,
+     "why": "Heaven informs the Maharal of the events",
+     "quotes_failed": false
+    },
+    {
+     "tag": "folkloristics:story_type_protection",
+     "scope": "story",
+     "quotes": [],
+     "confidence": 2,
+     "why": "Central arc: the sage rescues the boy from mortal danger",
+     "quotes_failed": false
+    },
+    {
+     "tag": "practice:lifesaving",
+     "scope": "span",
+     "quotes": [
+      "ואם אינך ממלט נפשך הלילה מחר אתה מומת"
+     ],
+     "confidence": 2,
+     "why": "The boy is saved from imminent death",
+     "quotes_failed": false
+    },
+    {
+     "tag": "practice:protection",
+     "scope": "span",
+     "quotes": [
+      "ולהציל עוד כמה נפשות מישראל אשר ארבו"
+     ],
+     "confidence": 2,
+     "why": "Destroying the names protects other Jews",
+     "quotes_failed": false
+    },
+    {
+     "tag": "practice:healing_of_the_soul",
+     "scope": "span",
+     "quotes": [
+      "ואת הראש הבטיח לפני כל קהל ישראל כי יתקן אותו"
+     ],
+     "confidence": 2,
+     "why": "The Maharal promises a tikkun for the soul of the dead victim",
+     "quotes_failed": false
+    },
+    {
+     "tag": "times:holidays",
+     "scope": "span",
+     "quotes": [
+      "ותקע בשופר ואחר הסיום הובא העלם"
+     ],
+     "confidence": 1,
+     "why": "Shofar blown on a public fast day; borderline, since it is not a holiday",
+     "quotes_failed": false
+    },
+    {
+     "tag": "characters-and-roles:demons",
+     "scope": "span",
+     "quotes": [
+      "אך לילית דגרה בצלה מקום טומאה"
+     ],
+     "confidence": 1,
+     "why": "Lilith is invoked to describe the impure place",
+     "quotes_failed": false
+    },
+    {
+     "tag": "women:mention_only",
+     "scope": "span",
+     "quotes": [
+      "ושבר לב אבי החתן ואמו"
+     ],
+     "confidence": 2,
+     "why": "The mother and the bride are only referred to",
+     "quotes_failed": false
+    }
+   ],
+   "missing_concepts": [
+    "severed-head oracle / teraphim lore",
+    "kaddish and Jewish burial for the dead",
+    "blood-libel-like abduction by priests"
+   ],
+   "start_quote_found": true,
+   "end_quote_found": true
+  }
+ ],
+ "check": {
+  "non_vocab_tags": [],
+  "quotes": 25,
+  "quotes_not_found": 0
+ },
+ "id": "Peer-MiKdoshim_0005"
+}

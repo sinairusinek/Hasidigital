@@ -1,0 +1,184 @@
+{
+ "unit": {
+  "kind": "hasidic_story",
+  "why": "One narrative about R. Leib Sarahs: his miraculous Friday journeys from Bonitch to Vienna, verified by a knife bought there, and his visit to the emperor's palace, told on the authority of an elder who went along.",
+  "boundary_note": "Opens with a short editorial heading introducing a series of stories about R. Leib Sarahs."
+ },
+ "stories": [
+  {
+   "k": 1,
+   "start_quote": "שמעתי מזקן אחד מ בוניטש אשר",
+   "end_quote": "אחר חצות ל וויען וזאת נודע לכל",
+   "hasidic": true,
+   "summary_en": "While staying with a leaseholder in Bonitch, R. Leib Sarahs rides out every Friday afternoon and by contraction of the road reaches Vienna; the doubting household proves it with a dated knife bought there, and the leaseholder's son-in-law secretly follows the rabbi, invisible to the guards, into the emperor's palace.",
+   "tags": [
+    {
+     "tag": "supernatural:contraction_of_the_road",
+     "scope": "span",
+     "quotes": [
+      "כי אני יודע דרך קצרה ל וויען",
+      "ונתראת לו כאלו הם פורחים באויר"
+     ],
+     "confidence": 3,
+     "why": "The journey of several hours to Vienna is the central miracle.",
+     "quotes_failed": false
+    },
+    {
+     "tag": "supernatural:miracle",
+     "scope": "span",
+     "quotes": [
+      "וכל שומרי הדוכס לא ראוהו"
+     ],
+     "confidence": 2,
+     "why": "The rabbi passes into the palace unseen by the guards.",
+     "quotes_failed": false
+    },
+    {
+     "tag": "practice:the_travels_of_the_tsaddik",
+     "scope": "span",
+     "quotes": [
+      "כל ימיו היה נע ונד ולא התמהמה במקום אחד",
+      "ומשם נסע ל לאדמיר"
+     ],
+     "confidence": 3,
+     "why": "He wanders from town to town and lodges with a householder along the way.",
+     "quotes_failed": false
+    },
+    {
+     "tag": "characters-and-roles:tavern_keeper",
+     "scope": "span",
+     "quotes": [
+      "ונתאכסן בבית נגיד אחד מחזיק הארענדע"
+     ],
+     "confidence": 2,
+     "why": "His host is a leaseholder (arendator).",
+     "quotes_failed": false
+    },
+    {
+     "tag": "characters-and-roles:hidden_righteous",
+     "scope": "span",
+     "quotes": [
+      "כל עסקו היה לפרנס את הצדיקים הנסתרים"
+     ],
+     "confidence": 2,
+     "why": "His secret mission is to support the hidden righteous.",
+     "quotes_failed": false
+    },
+    {
+     "tag": "ethics-and-emotions:charity",
+     "scope": "span",
+     "quotes": [
+      "כל ימיו היה מפרנסם"
+     ],
+     "confidence": 2,
+     "why": "He provides for the hidden righteous throughout his life.",
+     "quotes_failed": false
+    },
+    {
+     "tag": "times:shabbat",
+     "scope": "span",
+     "quotes": [
+      "ויהי ביום ערב שבת קודש אחר חצות"
+     ],
+     "confidence": 3,
+     "why": "The journeys take place on Friday afternoons, before the Sabbath.",
+     "quotes_failed": false
+    },
+    {
+     "tag": "practice:tvilah",
+     "scope": "span",
+     "quotes": [
+      "אחר שהלך הרב למקוה"
+     ],
+     "confidence": 2,
+     "why": "He goes to the mikveh before setting out.",
+     "quotes_failed": false
+    },
+    {
+     "tag": "ethics-and-emotions:fear",
+     "scope": "span",
+     "quotes": [
+      "כי ירא לדבר דבר ורעיונות שונים",
+      "מבוהל מרעיוני לבבו"
+     ],
+     "confidence": 2,
+     "why": "The servant is frightened and bewildered in the strange city.",
+     "quotes_failed": false
+    },
+    {
+     "tag": "social:relations_with_the_authorities",
+     "scope": "span",
+     "quotes": [
+      "הלך לחצר הדוכס",
+      "הקיץ הדוכס ודיבר עמו הרבה"
+     ],
+     "confidence": 3,
+     "why": "The rabbi visits the ruler in Vienna and speaks with him at length.",
+     "quotes_failed": false
+    },
+    {
+     "tag": "social:disobedience",
+     "scope": "span",
+     "quotes": [
+      "ובלט הלך אחר הרב לראות מה יעשה",
+      "איך העזת לילך במקום מסוכן כזה"
+     ],
+     "confidence": 2,
+     "why": "The son-in-law follows the rabbi after being told to wait.",
+     "quotes_failed": false
+    },
+    {
+     "tag": "social:retrospective_recognition",
+     "scope": "span",
+     "quotes": [
+      "ויתן לאדונו הסכין עם הדאטע ויתפלא מאוד"
+     ],
+     "confidence": 2,
+     "why": "The household realizes the servant's account was true.",
+     "quotes_failed": false
+    },
+    {
+     "tag": "ethics-and-emotions:prohibitions",
+     "scope": "span",
+     "quotes": [
+      "והזהר שלא תשמיט ידך מחגורה כי תאבד חייך"
+     ],
+     "confidence": 1,
+     "why": "He warns the young man not to let go of the belt.",
+     "quotes_failed": false
+    },
+    {
+     "tag": "practice:storytelling",
+     "scope": "span",
+     "quotes": [
+      "והאברך הנ\"ל הוא הזקן אשר סיפר לנו זאת"
+     ],
+     "confidence": 1,
+     "why": "The tale is framed as an eyewitness memorate told by the elder.",
+     "quotes_failed": false
+    },
+    {
+     "tag": "women:mention_only",
+     "scope": "story",
+     "quotes": [],
+     "confidence": 1,
+     "why": "No women act; only the hero's name (Sarah's) refers to a woman.",
+     "quotes_failed": false
+    }
+   ],
+   "missing_concepts": [
+    "verification of a miracle by physical evidence (dated receipt / knife)",
+    "invisibility",
+    "the tsaddik's secret political intervention with the emperor"
+   ],
+   "start_quote_found": true,
+   "end_quote_found": true
+  }
+ ],
+ "check": {
+  "non_vocab_tags": [],
+  "quotes": 19,
+  "quotes_not_found": 0
+ },
+ "id": "Khal-Hasidim_0162"
+}

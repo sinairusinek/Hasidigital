@@ -1,0 +1,164 @@
+{
+ "unit": {
+  "kind": "hasidic_story",
+  "why": "A narrative: a young Hasid's anti-Hasidic, learned father-in-law mocks his trips to the rebbe and his dietary stringency, then travels with him to argue, and the rebbe answers both objections with homilies.",
+  "boundary_note": ""
+ },
+ "stories": [
+  {
+   "k": 1,
+   "start_quote": "להרב הצדיק הנ״ל היה מקורב אברך",
+   "end_quote": "אסור לו סירכא אבל לא לכל העולם",
+   "hasidic": true,
+   "summary_en": "A learned non-Hasidic father-in-law mocks his son-in-law for travelling to the rebbe and for refusing meat with a sircha; he goes along to dispute with the rebbe, who answers with an exegesis of Jethro's coming to Moses (one needs the tzaddik against the evil inclination) and an analogy from the High Priest's stricter marriage laws.",
+   "tags": [
+    {
+     "tag": "social:relations_with_non_hasidim",
+     "scope": "span",
+     "quotes": [
+      "חותנו היה למדן גדול ולא דרך בדרכי החסידות",
+      "ואתוכח עמו בעסק חסידות שלכם"
+     ],
+     "confidence": 3,
+     "why": "Mitnaged father-in-law confronts Hasidism and the rebbe",
+     "quotes_failed": false
+    },
+    {
+     "tag": "social:conflict",
+     "scope": "span",
+     "quotes": [
+      "וציער תמיד לחתנו על מה שהוא נוסע לרבו",
+      "ואתוכח עמו בעסק חסידות שלכם"
+     ],
+     "confidence": 2,
+     "why": "Family dispute over Hasidism leads to a debate with the rebbe",
+     "quotes_failed": false
+    },
+    {
+     "tag": "ethics-and-emotions:anger",
+     "scope": "span",
+     "quotes": [
+      "ושחק ורגז עליו חמיו הנ״ל"
+     ],
+     "confidence": 2,
+     "why": "Father-in-law angered by the son-in-law's stringency",
+     "quotes_failed": false
+    },
+    {
+     "tag": "practice:travel_to_the_tsaddik",
+     "scope": "span",
+     "quotes": [
+      "אם רוצה לנסוע תיכף לרבך וגם אני אסע עמך",
+      "ע״כ נסע עמו תיכף"
+     ],
+     "confidence": 3,
+     "why": "Hasid and father-in-law journey to the rebbe",
+     "quotes_failed": false
+    },
+    {
+     "tag": "practice:torat_ha_tsaddik",
+     "scope": "span",
+     "quotes": [
+      "רק ע״י הצדיק ע״כ נסע למרע״ה",
+      "וכן בכל דור ודור חייב אדם לעשות כן"
+     ],
+     "confidence": 3,
+     "why": "Teaching that one must travel to the tzaddik of the generation",
+     "quotes_failed": false
+    },
+    {
+     "tag": "practice:sermon",
+     "scope": "span",
+     "quotes": [
+      "כתיב וישמע יתרו וכו׳ (שמות יח )",
+      "התורה. אסרה אלמנה לכ״ג ולכהן הדיוט"
+     ],
+     "confidence": 3,
+     "why": "Rebbe's answers are exegetical homilies",
+     "quotes_failed": false
+    },
+    {
+     "tag": "not-a-hasidic-story:sermon",
+     "scope": "story",
+     "quotes": [],
+     "confidence": 2,
+     "why": "Short narrative frame wrapped around extended homiletic answers",
+     "quotes_failed": false
+    },
+    {
+     "tag": "practice:halakhah",
+     "scope": "span",
+     "quotes": [
+      "אם טריפה היא טריפה לכל העולם",
+      "גרושה וחלוצה אסור לכהן הדיוט ולישראל מותר"
+     ],
+     "confidence": 3,
+     "why": "Laws of treifa/sircha and priestly marriage prohibitions discussed",
+     "quotes_failed": false
+    },
+    {
+     "tag": "ethics-and-emotions:prohibitions",
+     "scope": "span",
+     "quotes": [
+      "שמר א״ע אף מספק ספיקא דמאכלות אסורות",
+      "ונתקדש אסור לו סירכא אבל לא לכל העולם"
+     ],
+     "confidence": 3,
+     "why": "Self-imposed stricter food prohibitions are at issue",
+     "quotes_failed": false
+    },
+    {
+     "tag": "practice:ritual_slaughtering",
+     "scope": "span",
+     "quotes": [
+      "שהורה בה חכם או שהיה בה סורכא"
+     ],
+     "confidence": 1,
+     "why": "Meat inspection (sircha) and its status are at issue",
+     "quotes_failed": false
+    },
+    {
+     "tag": "social:inter_hasidic_master_disciple_relationship",
+     "scope": "span",
+     "quotes": [
+      "כאשר היה לבו בטוח שבוודאי יענה רבו",
+      "וכן חתנך הנ״ל דרך בדרכי החסידות ונתקדש"
+     ],
+     "confidence": 2,
+     "why": "Disciple's trust in his rebbe; rebbe defends his disciple",
+     "quotes_failed": false
+    },
+    {
+     "tag": "folkloristics:story_type_rapprochement",
+     "scope": "story",
+     "quotes": [],
+     "confidence": 1,
+     "why": "Skeptic brought to the rebbe in hope he repents; outcome unstated",
+     "quotes_failed": false
+    },
+    {
+     "tag": "ethics-and-emotions:repentance",
+     "scope": "span",
+     "quotes": [
+      "ואפשר יעשה תשובה ע״כ נסע עמו"
+     ],
+     "confidence": 1,
+     "why": "Hoped-for repentance of the father-in-law, not depicted",
+     "quotes_failed": false
+    }
+   ],
+   "missing_concepts": [
+    "in-law family tension over Hasidic affiliation",
+    "personal religious stringency (chumra) beyond the law"
+   ],
+   "start_quote_found": true,
+   "end_quote_found": true
+  }
+ ],
+ "check": {
+  "non_vocab_tags": [],
+  "quotes": 19,
+  "quotes_not_found": 0
+ },
+ "id": "Mifalot-HaZadikim_0046"
+}

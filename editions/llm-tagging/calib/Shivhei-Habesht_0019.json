@@ -1,0 +1,50 @@
+{
+ "unit": {
+  "kind": "continuation_or_fragment",
+  "why": "A short report of a war's destruction of towns. It is heard from 'R. Shmerl mentioned above' (הנ\"ל), so it depends on earlier context and reads as a fragment, not a self-standing tale.",
+  "boundary_note": "refers back to earlier mentions of R. Shmerl and of a town (העיר הנ\"ל); probably continues an earlier passage, likely from the prefatory or opening material"
+ },
+ "stories": [
+  {
+   "k": 1,
+   "start_quote": "שמעתי מרבי שמעריל הנ\"ל שנה אחת",
+   "end_quote": "כי אם בית קטן .בפני החצר",
+   "hasidic": false,
+   "summary_en": "The narrator reports hearing from R. Shmerl that in a war between the Turks (Ishmael) and the Greeks the town, its surroundings, Tetiev (?) and the villages were destroyed, leaving only a small house in Balta.",
+   "tags": [
+    {
+     "tag": "times:historical_event",
+     "scope": "span",
+     "quotes": [
+      "כשנעשה מלחמה בין ישמעאל ובין היון"
+     ],
+     "confidence": 3,
+     "why": "the Russo-Turkish war and its devastation is the subject",
+     "quotes_failed": false
+    },
+    {
+     "tag": "practice:storytelling",
+     "scope": "span",
+     "quotes": [
+      "שמעתי מרבי שמעריל הנ\"ל"
+     ],
+     "confidence": 1,
+     "why": "framed as an oral report heard from a named informant",
+     "quotes_failed": false
+    }
+   ],
+   "missing_concepts": [
+    "oral testimony / chain of transmission (informant attribution)",
+    "destruction of towns in wartime"
+   ],
+   "start_quote_found": true,
+   "end_quote_found": true
+  }
+ ],
+ "check": {
+  "non_vocab_tags": [],
+  "quotes": 2,
+  "quotes_not_found": 0
+ },
+ "id": "Shivhei-Habesht_0019"
+}

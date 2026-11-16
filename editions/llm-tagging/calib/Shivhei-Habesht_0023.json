@@ -1,0 +1,217 @@
+{
+ "unit": {
+  "kind": "hasidic_story",
+  "why": "After a closing greeting from the previous text, the division tells a tale heard from R. Gedaliah. The Besht forbids the rabbi of Rashkov to go to the Land of Israel, and the rabbi is then forced by rain to spend a Sabbath in Sharigrad praying for the town, which partly lifts the decree on it.",
+  "boundary_note": "Opens with the tail of the previous division (the greeting 'ואפריון נמטי לבנו יחידו...'). The story also continues an earlier tale about the preacher who heard the heavenly proclamation against Sharigrad."
+ },
+ "stories": [
+  {
+   "k": 1,
+   "start_quote": "ושמעתי מהרב דקהלתינו מ' גדליה ז\"ל",
+   "end_quote": "שהיה כמה שנים קודם מעשה זו",
+   "hasidic": true,
+   "summary_en": "The Besht teaches the rabbi of Rashkov that his urge to go to the Land of Israel is Satan's way of stopping him from praying for his town. Rain then forces the rabbi, who is angry at Sharigrad, to spend a Sabbath there praying for it. The Besht laughs and explains that the preacher's disclosure of the heavenly proclamation kept the decree from being annulled completely, so it was only softened: the town burned piecemeal, some were killed in Uman and others died of plague.",
+   "tags": [
+    {
+     "tag": "spaces:the_land_of_israel",
+     "scope": "span",
+     "quotes": [
+      "כמה פעמים חשק הרב לנסוע לאה״ק"
+     ],
+     "confidence": 3,
+     "why": "His wish to go to the Land of Israel is the theme of the first part",
+     "quotes_failed": false
+    },
+    {
+     "tag": "ethics-and-emotions:prohibitions",
+     "scope": "span",
+     "quotes": [
+      "והרב בעש״ט אמר שלא יסע"
+     ],
+     "confidence": 2,
+     "why": "The Besht forbids him to travel",
+     "quotes_failed": false
+    },
+    {
+     "tag": "practice:prayer",
+     "scope": "span",
+     "quotes": [
+      "כשיפול לך חשק לאה״ק התפלל בעד העיר",
+      "והי׳ מתפלל כל השבת עבור העיר"
+     ],
+     "confidence": 3,
+     "why": "Praying on behalf of the town",
+     "quotes_failed": false
+    },
+    {
+     "tag": "practice:travel_to_the_tsaddik",
+     "scope": "span",
+     "quotes": [
+      "פ\"א נסע הרב לבעש״ט על שבת"
+     ],
+     "confidence": 3,
+     "why": "He travels to the Besht for the Sabbath",
+     "quotes_failed": false
+    },
+    {
+     "tag": "ethics-and-emotions:anger",
+     "scope": "span",
+     "quotes": [
+      "והיה כעס על העיר מאוד",
+      "ומה שרגזתי עליו על שהוציא מפיו"
+     ],
+     "confidence": 3,
+     "why": "The rabbi is angry at the town, and the Besht at the preacher",
+     "quotes_failed": false
+    },
+    {
+     "tag": "times:shabbat",
+     "scope": "span",
+     "quotes": [
+      "והי׳ מתפלל כל השבת עבור העיר",
+      "שהיית כל ש\"ק בק\"ק שארי גראד"
+     ],
+     "confidence": 3,
+     "why": "The Sabbath spent in Sharigrad",
+     "quotes_failed": false
+    },
+    {
+     "tag": "supernatural:miracle",
+     "scope": "span",
+     "quotes": [
+      "וכן הי׳ שפסקו תיכף הגשמי'"
+     ],
+     "confidence": 2,
+     "why": "The rain stops as soon as he accepts staying",
+     "quotes_failed": false
+    },
+    {
+     "tag": "supernatural:perception",
+     "scope": "span",
+     "quotes": [
+      "הבעש״ט ראה ששבת בק' ק\"ק שארי גראד"
+     ],
+     "confidence": 3,
+     "why": "The Besht perceives events at a distance",
+     "quotes_failed": false
+    },
+    {
+     "tag": "characters-and-roles:preacher",
+     "scope": "span",
+     "quotes": [
+      "סבור אתה שהמוכיח הי' משקר"
+     ],
+     "confidence": 3,
+     "why": "The preacher who heard the proclamation",
+     "quotes_failed": false
+    },
+    {
+     "tag": "supernatural:communicating_with_the_invisible",
+     "scope": "span",
+     "quotes": [
+      "כי אמת ששמע הכרוז"
+     ],
+     "confidence": 2,
+     "why": "A heavenly proclamation was heard",
+     "quotes_failed": false
+    },
+    {
+     "tag": "practice:protection",
+     "scope": "span",
+     "quotes": [
+      "הייתי מבטל הגזירה מן העיר",
+      "שנתנו להם הרחבה שלא תשרוף בפעם אחת"
+     ],
+     "confidence": 2,
+     "why": "Intercession softens the decree against the town",
+     "quotes_failed": false
+    },
+    {
+     "tag": "practice:torat_ha_tsaddik",
+     "scope": "span",
+     "quotes": [
+      "הייתי מבטל הגזירה מן העיר באותו שבת"
+     ],
+     "confidence": 2,
+     "why": "The tsaddik's power to annul decrees",
+     "quotes_failed": false
+    },
+    {
+     "tag": "times:historical_event",
+     "scope": "span",
+     "quotes": [
+      "נהרגו בק' אומין בעת הבריחה",
+      "מתו בדבר שהי' שני שנים אחר הבריחה"
+     ],
+     "confidence": 3,
+     "why": "The Uman massacre and the plague that followed",
+     "quotes_failed": false
+    },
+    {
+     "tag": "times:death",
+     "scope": "span",
+     "quotes": [
+      "נהרגו בק' אומין בעת הבריחה"
+     ],
+     "confidence": 2,
+     "why": "The deaths of townspeople",
+     "quotes_failed": false
+    },
+    {
+     "tag": "ethics-and-emotions:punishment",
+     "scope": "span",
+     "quotes": [
+      "עד שתשרוף כל העיר וכן הי׳"
+     ],
+     "confidence": 2,
+     "why": "The heavenly decree against the town is carried out",
+     "quotes_failed": false
+    },
+    {
+     "tag": "social:inter_hasidic_master_disciple_relationship",
+     "scope": "span",
+     "quotes": [
+      "ומגעגע לפניו כבן יחיד"
+     ],
+     "confidence": 2,
+     "why": "The bond between the Besht and the rabbi",
+     "quotes_failed": false
+    },
+    {
+     "tag": "social:retrospective_recognition",
+     "scope": "span",
+     "quotes": [
+      "סבור אתה שהמוכיח הי' משקר ח\"ו"
+     ],
+     "confidence": 2,
+     "why": "The hidden meaning of the forced stay is explained afterwards",
+     "quotes_failed": false
+    },
+    {
+     "tag": "practice:storytelling",
+     "scope": "span",
+     "quotes": [
+      "ושמעתי מהרב דקהלתינו מ' גדליה ז\"ל"
+     ],
+     "confidence": 1,
+     "why": "Framed as a tale heard from a named rabbi",
+     "quotes_failed": false
+    }
+   ],
+   "missing_concepts": [
+    "heavenly decree against a town",
+    "Satan obstructing intercession",
+    "forced stay by rain or weather",
+    "the tsaddik's laughter"
+   ],
+   "start_quote_found": true,
+   "end_quote_found": true
+  }
+ ],
+ "check": {
+  "non_vocab_tags": [],
+  "quotes": 23,
+  "quotes_not_found": 0
+ },
+ "id": "Shivhei-Habesht_0023"
+}

@@ -1,0 +1,179 @@
+{
+ "unit": {
+  "kind": "hasidic_story",
+  "why": "A single narrative about R. Moshe Leib of Sasov and a leaseholder who wins a lease through the rebbe's advice.",
+  "boundary_note": ""
+ },
+ "stories": [
+  {
+   "k": 1,
+   "start_quote": "מעשה מאת הצדיק ר' משה ליב",
+   "end_quote": "פרנסה ברכה ורוב הצלחה :",
+   "hasidic": true,
+   "summary_en": "On a Friday, R. Moshe Leib of Sasov makes a jobless leaseholder spend his Sabbath money on mead for him. He then sends the man to an auction, where rival bidders conspire to shame him, but he wins the lease and a priest unexpectedly supplies the missing money. The rebbe explains that the man needed the priest only because he withheld the last coins, and that the coins served as a pidyon that drew down his livelihood.",
+   "tags": [
+    {
+     "tag": "characters-and-roles:tavern_keeper",
+     "scope": "story",
+     "quotes": [],
+     "confidence": 3,
+     "why": "The protagonist is an arendar (leaseholder).",
+     "quotes_failed": false
+    },
+    {
+     "tag": "practice:business_advice",
+     "scope": "span",
+     "quotes": [
+      "ותלך גם כן על הליציטאציע ואתה תחזיק כל הפאסעסיע"
+     ],
+     "confidence": 3,
+     "why": "The tsaddik tells him to bid for the lease.",
+     "quotes_failed": false
+    },
+    {
+     "tag": "supernatural:prognostication",
+     "scope": "span",
+     "quotes": [
+      "ואתה תחזיק כל הפאסעסיע"
+     ],
+     "confidence": 3,
+     "why": "He predicts the man will win the lease, and he does.",
+     "quotes_failed": false
+    },
+    {
+     "tag": "folkloristics:story_type_prognostication",
+     "scope": "story",
+     "quotes": [],
+     "confidence": 2,
+     "why": "The story's arc is the rebbe's prediction coming true.",
+     "quotes_failed": false
+    },
+    {
+     "tag": "supernatural:miracle",
+     "scope": "span",
+     "quotes": [
+      "ויתן לו שבע מאות רייניש כסף"
+     ],
+     "confidence": 2,
+     "why": "A priest unexpectedly supplies the missing sum.",
+     "quotes_failed": false
+    },
+    {
+     "tag": "social:relations_with_non_jews",
+     "scope": "span",
+     "quotes": [
+      "והנה לפניו כומר אחד אשר אמר לו"
+     ],
+     "confidence": 3,
+     "why": "A priest becomes his partner.",
+     "quotes_failed": false
+    },
+    {
+     "tag": "practice:drinking_alcohol",
+     "scope": "span",
+     "quotes": [
+      "ותשלם עבורי דבש ואשתה",
+      "תשלם עוד ששה גראשין ואשתה שנית"
+     ],
+     "confidence": 3,
+     "why": "The tsaddik drinks mead at the man's expense.",
+     "quotes_failed": false
+    },
+    {
+     "tag": "times:shabbat",
+     "scope": "span",
+     "quotes": [
+      "הלך החסיד ר' משה ליב יום ו' עש\"ק ברחוב העיר"
+     ],
+     "confidence": 2,
+     "why": "The opening takes place on Sabbath eve, using money meant for Sabbath needs.",
+     "quotes_failed": false
+    },
+    {
+     "tag": "women:minor_character",
+     "scope": "span",
+     "quotes": [
+      "וכעסה עליו אשתו",
+      "ותאמר לו אשתו מה אתה עושה"
+     ],
+     "confidence": 3,
+     "why": "The wife reacts and questions him.",
+     "quotes_failed": false
+    },
+    {
+     "tag": "ethics-and-emotions:anger",
+     "scope": "span",
+     "quotes": [
+      "וכעסה עליו אשתו"
+     ],
+     "confidence": 2,
+     "why": "The wife is angry at him.",
+     "quotes_failed": false
+    },
+    {
+     "tag": "social:conflict",
+     "scope": "span",
+     "quotes": [
+      "ועשו כולם יד אחת לבלי הגבה המקח"
+     ],
+     "confidence": 2,
+     "why": "Rival bidders conspire against him.",
+     "quotes_failed": false
+    },
+    {
+     "tag": "practice:pidyon_nefesh",
+     "scope": "span",
+     "quotes": [
+      "והצדיק הקדוש עשה בופדיון לגוו רוחו ונפשו"
+     ],
+     "confidence": 1,
+     "why": "The money is framed as a pidyon given to the tsaddik, though for livelihood rather than to avert death.",
+     "quotes_failed": false
+    },
+    {
+     "tag": "practice:torat_ha_tsaddik",
+     "scope": "span",
+     "quotes": [
+      "והשפיע לו פרנסה ברכה ורוב הצלחה"
+     ],
+     "confidence": 2,
+     "why": "The tsaddik draws down abundance for the man.",
+     "quotes_failed": false
+    },
+    {
+     "tag": "social:retrospective_recognition",
+     "scope": "span",
+     "quotes": [
+      "ובאמת הצדיק ר' משה ליב זי\"ע לא היה צריך אל הדבש"
+     ],
+     "confidence": 2,
+     "why": "The hidden meaning of the strange demand for mead is revealed at the end.",
+     "quotes_failed": false
+    },
+    {
+     "tag": "supernatural:perception",
+     "scope": "span",
+     "quotes": [
+      "לתת דבש גם בעד הו' גראשין השלישים"
+     ],
+     "confidence": 1,
+     "why": "The rebbe knew the hidden link between the payment and the outcome.",
+     "quotes_failed": false
+    }
+   ],
+   "missing_concepts": [
+    "auction/licitation of a lease",
+    "faith/trust in the tsaddik's word",
+    "tsaddik's odd demand as a hidden blessing"
+   ],
+   "start_quote_found": true,
+   "end_quote_found": true
+  }
+ ],
+ "check": {
+  "non_vocab_tags": [],
+  "quotes": 15,
+  "quotes_not_found": 0
+ },
+ "id": "Khal-Hasidim_0230"
+}

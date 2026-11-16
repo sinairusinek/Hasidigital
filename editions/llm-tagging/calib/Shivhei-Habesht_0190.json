@@ -1,0 +1,99 @@
+{
+ "unit": {
+  "kind": "hasidic_story",
+  "why": "A short anecdote: R. Nachman hears people slandering the Besht, grows angry, and answers them with a parable. The event frames the mashal.",
+  "boundary_note": ""
+ },
+ "stories": [
+  {
+   "k": 1,
+   "start_quote": "פ\"א שמע הרב מוהר\"ן מאנ\"ש שהיו",
+   "end_quote": "האיך אתה יכולים להכניס ראשכם בזה",
+   "hasidic": true,
+   "summary_en": "R. Nachman hears people speaking ill of the Besht and rebukes them with a parable. In it, two ministers argue over how to set a jewel in the king's crown, and a commoner who meddles is scolded: the dispute among the great is like that of Saul and David or Hillel and Shammai, and outsiders have no place in it.",
+   "tags": [
+    {
+     "tag": "folkloristics:story_type_parable",
+     "scope": "story",
+     "quotes": [],
+     "confidence": 3,
+     "why": "The core of the story is a mashal told by the tzaddik.",
+     "quotes_failed": false
+    },
+    {
+     "tag": "ethics-and-emotions:anger",
+     "scope": "span",
+     "quotes": [
+      "והיטב חרה לו עד מאד עבור זה"
+     ],
+     "confidence": 3,
+     "why": "R. Nachman is greatly angered by the slander.",
+     "quotes_failed": false
+    },
+    {
+     "tag": "social:conflict",
+     "scope": "span",
+     "quotes": [
+      "שהיו מדברים סרה על הבעש״ט",
+      "נפל ביניהם מחלוקת איך להעמיד האבן טוב"
+     ],
+     "confidence": 3,
+     "why": "Opponents speak against the Besht, and the parable is about a dispute.",
+     "quotes_failed": false
+    },
+    {
+     "tag": "social:relations_with_non_hasidim",
+     "scope": "span",
+     "quotes": [
+      "שהיו מדברים סרה על הבעש״ט"
+     ],
+     "confidence": 2,
+     "why": "The people slandering the Besht are presumably opponents or outsiders.",
+     "quotes_failed": false
+    },
+    {
+     "tag": "social:inter_hasidic_conflict_between_tsaddikim",
+     "scope": "span",
+     "quotes": [
+      "וכן ג״כ מחלוקת שבינינו היא מחלוקת ישינה"
+     ],
+     "confidence": 1,
+     "why": "The parable frames a dispute among the great ('between us') as a legitimate dispute for the sake of heaven.",
+     "quotes_failed": false
+    },
+    {
+     "tag": "practice:storytelling",
+     "scope": "span",
+     "quotes": [
+      "ואמר להם משל ע\"ז"
+     ],
+     "confidence": 1,
+     "why": "The tzaddik tells a tale (a mashal) as his response.",
+     "quotes_failed": false
+    },
+    {
+     "tag": "practice:torat_ha_tsaddik",
+     "scope": "span",
+     "quotes": [
+      "האיך אתה יכולים להכניס ראשכם בזה"
+     ],
+     "confidence": 1,
+     "why": "Ordinary people should not judge the disputes of tzaddikim.",
+     "quotes_failed": false
+    }
+   ],
+   "missing_concepts": [
+    "slander / speaking against a tzaddik (lashon hara)",
+    "dispute for the sake of heaven (machloket le-shem shamayim)"
+   ],
+   "start_quote_found": true,
+   "end_quote_found": true
+  }
+ ],
+ "check": {
+  "non_vocab_tags": [],
+  "quotes": 7,
+  "quotes_not_found": 0
+ },
+ "id": "Shivhei-Habesht_0190"
+}

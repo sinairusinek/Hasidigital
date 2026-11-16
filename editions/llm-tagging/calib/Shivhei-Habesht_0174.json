@@ -1,0 +1,164 @@
+{
+ "unit": {
+  "kind": "hasidic_story",
+  "why": "A single narrative: the Besht follows a dancing bear to the judge's house, where the bear digs up a hidden dead infant, which foils a planned blood libel.",
+  "boundary_note": "Contains an embedded page-header catchword ('174 גם שבחי הבעש״ט 175') from the print."
+ },
+ "stories": [
+  {
+   "k": 1,
+   "start_quote": "פ\"א בשבת שקודם פסח התפלל הרב",
+   "end_quote": "והלך לבה״כ להשלים את התפילה",
+   "hasidic": true,
+   "summary_en": "On the Sabbath before Passover the Besht leaves prayers to follow a bear to the judge's house, where the bear digs up a dead infant hidden there to frame the Jews; the Besht calls the onlookers to witness and returns to finish praying.",
+   "tags": [
+    {
+     "tag": "folkloristics:story_type_protection",
+     "scope": "story",
+     "quotes": [],
+     "confidence": 3,
+     "why": "The tale's arc is the Besht averting a blood libel against the Jews.",
+     "quotes_failed": false
+    },
+    {
+     "tag": "practice:protection",
+     "scope": "span",
+     "quotes": [
+      "כי הי' רצונ' להעליל על היהודי'",
+      "וצעק הרב אתם עדי' בלשון פולין"
+     ],
+     "confidence": 3,
+     "why": "He shields the community from a libel by calling public witnesses.",
+     "quotes_failed": false
+    },
+    {
+     "tag": "social:relations_with_non_jews",
+     "scope": "span",
+     "quotes": [
+      "והוליכו את הדוב עד נגד בית השופט",
+      "וצעק הרב אתם עדי' בלשון פולין"
+     ],
+     "confidence": 3,
+     "why": "Confrontation with the gentile judge and the gentile crowd.",
+     "quotes_failed": false
+    },
+    {
+     "tag": "social:relations_with_the_authorities",
+     "scope": "span",
+     "quotes": [
+      "והדוב רץ על חצר השופט",
+      "עד נגד בית השופט"
+     ],
+     "confidence": 2,
+     "why": "The plotter is the town judge, a local official.",
+     "quotes_failed": false
+    },
+    {
+     "tag": "social:conflict",
+     "scope": "span",
+     "quotes": [
+      "כי הי' רצונ' להעליל על היהודי'"
+     ],
+     "confidence": 2,
+     "why": "A hostile antagonist plots against the Jews.",
+     "quotes_failed": false
+    },
+    {
+     "tag": "supernatural:perception",
+     "scope": "span",
+     "quotes": [
+      "אחר התפילה הסיר הטלית ויצא לחוץ"
+     ],
+     "confidence": 2,
+     "why": "The Besht knows to leave prayer and follow the bear, implying foreknowledge.",
+     "quotes_failed": false
+    },
+    {
+     "tag": "supernatural:miracle",
+     "scope": "span",
+     "quotes": [
+      "פסק הדוב את החבל, והי׳ כמשתגע",
+      "עד שמצא ממזר א' מת טמון תחת הקרקע"
+     ],
+     "confidence": 2,
+     "why": "The bear miraculously uncovers the hidden corpse.",
+     "quotes_failed": false
+    },
+    {
+     "tag": "times:shabbat",
+     "scope": "span",
+     "quotes": [
+      "בשבת שקודם פסח התפלל הרב"
+     ],
+     "confidence": 3,
+     "why": "The story is set on the Sabbath.",
+     "quotes_failed": false
+    },
+    {
+     "tag": "times:holidays",
+     "scope": "span",
+     "quotes": [
+      "בשבת שקודם פסח"
+     ],
+     "confidence": 1,
+     "why": "Set on the eve of Passover, the blood-libel season, though not on the festival itself.",
+     "quotes_failed": false
+    },
+    {
+     "tag": "practice:prayer",
+     "scope": "span",
+     "quotes": [
+      "התפלל הרב תפילת שחרית",
+      "והלך לבה״כ להשלים את התפילה"
+     ],
+     "confidence": 2,
+     "why": "The morning prayer frames the episode.",
+     "quotes_failed": false
+    },
+    {
+     "tag": "ethics-and-emotions:fear",
+     "scope": "span",
+     "quotes": [
+      "וברחו כל העם ההולכים אחריו מפני היראה"
+     ],
+     "confidence": 2,
+     "why": "The crowd flees in fear of the bear.",
+     "quotes_failed": false
+    },
+    {
+     "tag": "social:retrospective_recognition",
+     "scope": "span",
+     "quotes": [
+      "ויפלא ,בעיני העם מאד",
+      "כי הי' רצונ' להעליל על היהודי'"
+     ],
+     "confidence": 2,
+     "why": "The Besht's strange behaviour is understood only once the corpse is found.",
+     "quotes_failed": false
+    },
+    {
+     "tag": "times:death",
+     "scope": "span",
+     "quotes": [
+      "עד שמצא ממזר א' מת טמון תחת הקרקע"
+     ],
+     "confidence": 1,
+     "why": "A dead infant is central, though the death itself is not depicted.",
+     "quotes_failed": false
+    }
+   ],
+   "missing_concepts": [
+    "blood libel",
+    "animal as an agent of divine intervention (the bear)"
+   ],
+   "start_quote_found": true,
+   "end_quote_found": true
+  }
+ ],
+ "check": {
+  "non_vocab_tags": [],
+  "quotes": 18,
+  "quotes_not_found": 0
+ },
+ "id": "Shivhei-Habesht_0174"
+}

@@ -1,0 +1,148 @@
+{
+ "unit": {
+  "kind": "hasidic_story",
+  "why": "A single anecdote: R. Yitzhak, brother of R. Yosef of Kaminka, sees that a man's tefillin are invalid, writes him a new pair shortly before his own death, and then dies.",
+  "boundary_note": "Opens with 'ועוד אירע', so it probably belongs to a series of tales about R. Yitzhak, but it stands on its own."
+ },
+ "stories": [
+  {
+   "k": 1,
+   "start_quote": "ועוד אירע שהכיר ר' יצחק בתפילין",
+   "end_quote": "אחיו של רבי יוסף מ קאמינקע",
+   "hasidic": true,
+   "summary_en": "While confined at home by illness shortly before his death, R. Yitzhak perceives that the tefillin of an elderly man praying in his minyan are invalid, and indeed they had been invalid since they were written; at the man's urging he writes him unparalleled tefillin and dies about two hours later.",
+   "tags": [
+    {
+     "tag": "practice:tefillin",
+     "scope": "story",
+     "quotes": [],
+     "confidence": 3,
+     "why": "The whole story turns on invalid tefillin and the writing of new ones.",
+     "quotes_failed": false
+    },
+    {
+     "tag": "supernatural:perception",
+     "scope": "span",
+     "quotes": [
+      "בירך נרא׳ לי פסול בתפילין שלך",
+      "ומצא שהם פסולין מעת כתיבתם"
+     ],
+     "confidence": 3,
+     "why": "He perceives the hidden flaw just by looking at the tefillin.",
+     "quotes_failed": false
+    },
+    {
+     "tag": "practice:halakhah",
+     "scope": "span",
+     "quotes": [
+      "ומצא שהם פסולין מעת כתיבתם",
+      "שלא קיים מצות תפילין כל ימיו"
+     ],
+     "confidence": 2,
+     "why": "The ritual validity of the tefillin and failure to fulfil the commandment are at issue.",
+     "quotes_failed": false
+    },
+    {
+     "tag": "characters-and-roles:scribe",
+     "scope": "span",
+     "quotes": [
+      "שיכתוב לו תפילין",
+      "עד שכתב לו פרשיות של תפילין"
+     ],
+     "confidence": 2,
+     "why": "R. Yitzhak acts as a tefillin scribe; a professional scribe is also mentioned.",
+     "quotes_failed": false
+    },
+    {
+     "tag": "times:death",
+     "scope": "span",
+     "quotes": [
+      "וכמו שני שעות אחר זאת מת ונפטר מעולם"
+     ],
+     "confidence": 3,
+     "why": "R. Yitzhak's death is narrated.",
+     "quotes_failed": false
+    },
+    {
+     "tag": "folkloristics:story_type_death_of_the_tsaddik",
+     "scope": "story",
+     "quotes": [],
+     "confidence": 1,
+     "why": "The story is framed by his final illness and ends with his death and last words.",
+     "quotes_failed": false
+    },
+    {
+     "tag": "practice:prayer",
+     "scope": "span",
+     "quotes": [
+      "ועשה מנין בביתו",
+      "הי׳ מתפלל שם ואחר התפלה"
+     ],
+     "confidence": 2,
+     "why": "The scene is a home minyan.",
+     "quotes_failed": false
+    },
+    {
+     "tag": "practice:study",
+     "scope": "span",
+     "quotes": [
+      "ואחר התפלה היה לומד"
+     ],
+     "confidence": 1,
+     "why": "The man studies after prayer; this is only a passing detail.",
+     "quotes_failed": false
+    },
+    {
+     "tag": "social:retrospective_recognition",
+     "scope": "span",
+     "quotes": [
+      "והיה לבו מר מאוד שלא קיים מצות תפילין"
+     ],
+     "confidence": 2,
+     "why": "The man realizes that he never fulfilled the commandment of tefillin in his life.",
+     "quotes_failed": false
+    },
+    {
+     "tag": "ethics-and-emotions:sadness",
+     "scope": "span",
+     "quotes": [
+      "והיה לבו מר מאוד"
+     ],
+     "confidence": 1,
+     "why": "The man's bitterness is described.",
+     "quotes_failed": false
+    },
+    {
+     "tag": "folkloristics:story_type_virtues",
+     "scope": "story",
+     "quotes": [],
+     "confidence": 1,
+     "why": "Praises the holiness of R. Yitzhak's tefillin, unmatched since the days of Ezra.",
+     "quotes_failed": false
+    },
+    {
+     "tag": "social:relations_with_non_hasidim",
+     "scope": "span",
+     "quotes": [
+      "ואיש א׳ מבני העיר הי׳ מתפלל שם"
+     ],
+     "confidence": 1,
+     "why": "Interaction with an ordinary townsman; it is unclear whether he was a non-Hasid.",
+     "quotes_failed": false
+    }
+   ],
+   "missing_concepts": [
+    "sanctity of ritual objects made by a tsaddik (tefillin writing as a final act)",
+    "illness / weakness of the tsaddik before death"
+   ],
+   "start_quote_found": true,
+   "end_quote_found": true
+  }
+ ],
+ "check": {
+  "non_vocab_tags": [],
+  "quotes": 13,
+  "quotes_not_found": 0
+ },
+ "id": "Khal-Hasidim_0049"
+}

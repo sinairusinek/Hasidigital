@@ -1,0 +1,142 @@
+{
+ "unit": {
+  "kind": "hasidic_story",
+  "why": "A single anecdote: the Besht sees the pillar of Torah-light of the late R. Shimshon of Annopol through a window, and R. Yosef of Kamenka keeps closing it.",
+  "boundary_note": ""
+ },
+ "stories": [
+  {
+   "k": 1,
+   "start_quote": "שמעתי מהרב דקהלתינו ש הבעש״ט",
+   "end_quote": "מה שאמר ר' גרשון גוסכם גיסכם",
+   "hasidic": true,
+   "summary_en": "The Besht avoided Annopol because R. Shimshon had already repaired everything there. Later, invited there, he kept opening a window during a meal. When R. Yosef of Kamenka kept closing it, the Besht rebuked him and explained that he was gazing at R. Shimshon's pillar of Torah rising from earth to heaven over the spot where R. Shimshon's study hall had stood. He then understood what his brother-in-law R. Gershon had claimed to perceive there.",
+   "tags": [
+    {
+     "tag": "supernatural:light_or_fire_as_a_sign_of_righteousness",
+     "scope": "span",
+     "quotes": [
+      "עמוד של תורה של ר׳ שמשון מאיר מארץ ועד לרקיע",
+      "השגתי שם אור גדול מר' שמשון"
+     ],
+     "confidence": 3,
+     "why": "Pillar of Torah-light over the site of R. Shimshon's study",
+     "quotes_failed": false
+    },
+    {
+     "tag": "supernatural:perception",
+     "scope": "span",
+     "quotes": [
+      "אינך רואה איך עמוד של תורה",
+      "והי' מביט בחלון בכל רגע"
+     ],
+     "confidence": 3,
+     "why": "The Besht sees what others cannot",
+     "quotes_failed": false
+    },
+    {
+     "tag": "experience:visions",
+     "scope": "span",
+     "quotes": [
+      "אינך רואה איך עמוד של תורה"
+     ],
+     "confidence": 2,
+     "why": "Waking supernatural sight",
+     "quotes_failed": false
+    },
+    {
+     "tag": "spaces:beth_midrash",
+     "scope": "span",
+     "quotes": [
+      "ואמרו שבית מדרשו הי׳ במקום הזה"
+     ],
+     "confidence": 2,
+     "why": "The site of R. Shimshon's former study hall is central",
+     "quotes_failed": false
+    },
+    {
+     "tag": "social:retrospective_recognition",
+     "scope": "span",
+     "quotes": [
+      "היום יודע לי מה שאמר ר' גרשון",
+      "ואמרו לו כי במקום הזה הי' אשפה"
+     ],
+     "confidence": 3,
+     "why": "The Besht belatedly understands R. Gershon's claim; the hidden meaning of the place is revealed",
+     "quotes_failed": false
+    },
+    {
+     "tag": "ethics-and-emotions:anger",
+     "scope": "span",
+     "quotes": [
+      "עד שגער בו הבעש״ט ואמר"
+     ],
+     "confidence": 2,
+     "why": "The Besht rebukes R. Yosef",
+     "quotes_failed": false
+    },
+    {
+     "tag": "practice:the_travels_of_the_tsaddik",
+     "scope": "span",
+     "quotes": [
+      "שלחו אחר הבעש״ט שיבוא לק\"ק הנ\"ל",
+      "הבעש״ט לא רצה להיות בק\"ק אנעפאליע"
+     ],
+     "confidence": 2,
+     "why": "The story turns on the Besht's visit to Annopol",
+     "quotes_failed": false
+    },
+    {
+     "tag": "not-a-hasidic-story:hagiography",
+     "scope": "story",
+     "quotes": [],
+     "confidence": 1,
+     "why": "Praises the holiness of the earlier figure R. Shimshon, although the frame is a Besht tale",
+     "quotes_failed": false
+    },
+    {
+     "tag": "practice:storytelling",
+     "scope": "span",
+     "quotes": [
+      "שמעתי מהרב דקהלתינו"
+     ],
+     "confidence": 1,
+     "why": "The tale is framed as heard from the local rabbi",
+     "quotes_failed": false
+    },
+    {
+     "tag": "social:inter_hasidic",
+     "scope": "span",
+     "quotes": [
+      "ור׳ יוסף מ קאמינקע תמה ע״ז"
+     ],
+     "confidence": 2,
+     "why": "Interaction between the Besht, R. Yosef of Kamenka and R. Gershon",
+     "quotes_failed": false
+    },
+    {
+     "tag": "practice:study",
+     "scope": "span",
+     "quotes": [
+      "עמוד של תורה של ר׳ שמשון"
+     ],
+     "confidence": 1,
+     "why": "R. Shimshon's past Torah study is the source of the light",
+     "quotes_failed": false
+    }
+   ],
+   "missing_concepts": [
+    "sanctity of place persisting after a tzaddik's death (a holy site now a dunghill)",
+    "a tzaddik having already 'repaired' (tikkun) a town, so the Besht has no business there"
+   ],
+   "start_quote_found": true,
+   "end_quote_found": true
+  }
+ ],
+ "check": {
+  "non_vocab_tags": [],
+  "quotes": 14,
+  "quotes_not_found": 0
+ },
+ "id": "Khal-Hasidim_0056"
+}

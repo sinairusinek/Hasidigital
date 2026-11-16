@@ -1,0 +1,118 @@
+{
+ "unit": {
+  "kind": "hasidic_story",
+  "why": "A first-person memorate of a Sabbath visit to the Seer of Lublin, in which cups of wine the narrator refuses to drink keep cracking on the table.",
+  "boundary_note": ""
+ },
+ "stories": [
+  {
+   "k": 1,
+   "start_quote": "המעשה הב׳ אח״כ כשהייתי מעט לאיש",
+   "end_quote": "ויעמוד מליתן לי עוד",
+   "hasidic": true,
+   "summary_en": "As a young man the narrator spends Shabbat with R. Jacob Isaac of Lublin and keeps his custom of not drinking intoxicants; the wine cups the Seer sets before him crack one after another until the narrator explains himself and the Seer stops offering.",
+   "tags": [
+    {
+     "tag": "practice:travel_to_the_tsaddik",
+     "scope": "span",
+     "quotes": [
+      "נסעתי להרב הצדיק הקדוש מוה׳ ר׳ יעקב יצחק"
+     ],
+     "confidence": 3,
+     "why": "The narrator travels to the Seer of Lublin for Shabbat.",
+     "quotes_failed": false
+    },
+    {
+     "tag": "times:shabbat",
+     "scope": "span",
+     "quotes": [
+      "ובליל ש״ק נת נתן לידי צלוחית יין"
+     ],
+     "confidence": 3,
+     "why": "The scene takes place on Friday night at the Sabbath table.",
+     "quotes_failed": false
+    },
+    {
+     "tag": "practice:drinking_alcohol",
+     "scope": "span",
+     "quotes": [
+      "נתן לידי צלוחית יין לשתות",
+      "ואמר לי שתה"
+     ],
+     "confidence": 3,
+     "why": "The plot turns on the wine offered at the table and the narrator's refusal to drink it.",
+     "quotes_failed": false
+    },
+    {
+     "tag": "practice:asceticism",
+     "scope": "span",
+     "quotes": [
+      "שמנהגי היה שלא לשתות שום משקה המשכר",
+      "אין אני שותה יין"
+     ],
+     "confidence": 2,
+     "why": "The narrator keeps a personal custom of abstaining from intoxicating drink.",
+     "quotes_failed": false
+    },
+    {
+     "tag": "supernatural:miracle",
+     "scope": "span",
+     "quotes": [
+      "ועמד כ״כ הרבה עד שנתבקע ונשפך היין"
+     ],
+     "confidence": 2,
+     "why": "The cups crack on their own, which reads as a wondrous event.",
+     "quotes_failed": false
+    },
+    {
+     "tag": "social:disobedience",
+     "scope": "span",
+     "quotes": [
+      "ולסרב בדברי הרב ג״כ לא נכון"
+     ],
+     "confidence": 2,
+     "why": "The narrator effectively declines the tzaddik's instruction to drink.",
+     "quotes_failed": false
+    },
+    {
+     "tag": "social:inter_hasidic_master_disciple_relationship",
+     "scope": "story",
+     "quotes": [],
+     "confidence": 2,
+     "why": "The tension between deference to the rebbe and the young visitor's own custom is the heart of the story.",
+     "quotes_failed": false
+    },
+    {
+     "tag": "practice:joke",
+     "scope": "span",
+     "quotes": [
+      "הנה באת לשבר כל הזכוכית שלי"
+     ],
+     "confidence": 1,
+     "why": "The Seer's remark about the broken glasses sounds like a wry jest.",
+     "quotes_failed": false
+    },
+    {
+     "tag": "practice:reception_of_hasidim",
+     "scope": "story",
+     "quotes": [],
+     "confidence": 1,
+     "why": "The tzaddik hosts a young visitor at his table.",
+     "quotes_failed": false
+    }
+   ],
+   "missing_concepts": [
+    "personal religious custom (minhag) upheld against a tzaddik's wish",
+    "first-person memorate by the author"
+   ],
+   "start_quote_found": true,
+   "end_quote_found": true
+  }
+ ],
+ "check": {
+  "non_vocab_tags": [],
+  "quotes": 9,
+  "quotes_not_found": 0
+ },
+ "id": "Mifalot-HaZadikim_0004"
+}

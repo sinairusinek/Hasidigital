@@ -1,0 +1,145 @@
+{
+ "unit": {
+  "kind": "hasidic_story",
+  "why": "A single narrative about R. Israel of Ruzhin in Russian prison, a Jewish soldier-guard who lets him out to sanctify the moon, and the miraculous delay of the relief guard.",
+  "boundary_note": ""
+ },
+ "stories": [
+  {
+   "k": 1,
+   "start_quote": "מעשה נוראה מקדוש עליון אספקלריא המאירה",
+   "end_quote": "והיא העומדת לנס ופלא",
+   "hasidic": true,
+   "summary_en": "While R. Israel of Ruzhin was imprisoned by the Russians, a young Jewish soldier from Ruzhin arranged to guard his cell so the rebbe could go out for Kiddush Levanah. The rebbe prayed for about five hours while the terrified soldier risked death, yet the relief guards lost their way all night and arrived only after he had returned, begging the soldier's forgiveness.",
+   "tags": [
+    {
+     "tag": "social:relations_with_the_authorities",
+     "scope": "span",
+     "quotes": [
+      "ונכלא במאסר תחת ממשלת רוסיא",
+      "פקודת ממשלת רוסי' להמית איש"
+     ],
+     "confidence": 3,
+     "why": "The tzaddik is imprisoned by the Russian government, and the guard fears its death penalty.",
+     "quotes_failed": false
+    },
+    {
+     "tag": "times:historical_event",
+     "scope": "span",
+     "quotes": [
+      "בעת התגולל עליו בלבולים הידועים ונכלא במאסר"
+     ],
+     "confidence": 2,
+     "why": "The setting is the Ruzhiner's well-known imprisonment.",
+     "quotes_failed": false
+    },
+    {
+     "tag": "practice:prayer",
+     "scope": "span",
+     "quotes": [
+      "עמד בצלותא שעה אחת ושתים ושלש",
+      "וככה עמד הקדוש בתפלתו כחמשה שעות"
+     ],
+     "confidence": 3,
+     "why": "The rebbe prays the Kiddush Levanah at length.",
+     "quotes_failed": false
+    },
+    {
+     "tag": "practice:devekut",
+     "scope": "span",
+     "quotes": [
+      "וככה עמד הקדוש בתפלתו כחמשה שעות",
+      "ולסוף נתעורר הצדיק ויאמר אל המשמש"
+     ],
+     "confidence": 2,
+     "why": "He is absorbed in prayer for hours and then 'awakens'.",
+     "quotes_failed": false
+    },
+    {
+     "tag": "ethics-and-emotions:fear",
+     "scope": "span",
+     "quotes": [
+      "ונפלה עליו אימת מות ממש",
+      "מגודל פחדו טעם לו טעם מיתה כל רגע"
+     ],
+     "confidence": 3,
+     "why": "The soldier fears being caught and executed.",
+     "quotes_failed": false
+    },
+    {
+     "tag": "supernatural:miracle",
+     "scope": "span",
+     "quotes": [
+      "כי כל הלילה תועה הלכו",
+      "והיא העומדת לנס ופלא"
+     ],
+     "confidence": 3,
+     "why": "The relief guards are miraculously led astray all night.",
+     "quotes_failed": false
+    },
+    {
+     "tag": "supernatural:perception",
+     "scope": "span",
+     "quotes": [
+      "ופעולת קדוש עליון רואה את הנעשה מרחוק"
+     ],
+     "confidence": 2,
+     "why": "The tzaddik is said to see what happens at a distance.",
+     "quotes_failed": false
+    },
+    {
+     "tag": "practice:protection",
+     "scope": "span",
+     "quotes": [
+      "ותחת אשר דמה האברך כי יתקצפו עליו"
+     ],
+     "confidence": 2,
+     "why": "The soldier is shielded from discovery and punishment.",
+     "quotes_failed": false
+    },
+    {
+     "tag": "practice:drinking_alcohol",
+     "scope": "span",
+     "quotes": [
+      "ונתן לו חצי מדה יין שרף"
+     ],
+     "confidence": 2,
+     "why": "The soldier bribes a fellow guard with brandy so he can take his watch.",
+     "quotes_failed": false
+    },
+    {
+     "tag": "practice:storytelling",
+     "scope": "span",
+     "quotes": [
+      "והמעשה הלזה הקשבתי מפי איש נאמן"
+     ],
+     "confidence": 2,
+     "why": "The story is framed as an oral transmission traced back to the attendant.",
+     "quotes_failed": false
+    },
+    {
+     "tag": "characters-and-roles:the_family_of_the_tsaddik",
+     "scope": "story",
+     "quotes": [],
+     "confidence": 1,
+     "why": "Borderline: the attendant (משמש) is a household figure but not family; this tag is likely not applicable.",
+     "quotes_failed": false
+    }
+   ],
+   "missing_concepts": [
+    "Kiddush Levanah (sanctification of the moon)",
+    "Jewish soldier conscripted into the Russian army",
+    "the tzaddik's attendant (meshamesh) as intermediary",
+    "imprisonment of the tzaddik"
+   ],
+   "start_quote_found": true,
+   "end_quote_found": true
+  }
+ ],
+ "check": {
+  "non_vocab_tags": [],
+  "quotes": 15,
+  "quotes_not_found": 0
+ },
+ "id": "Khal-Kdoshim_0009"
+}

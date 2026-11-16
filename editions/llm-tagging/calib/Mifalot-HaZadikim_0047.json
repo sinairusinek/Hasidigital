@@ -1,0 +1,133 @@
+{
+ "unit": {
+  "kind": "hasidic_story",
+  "why": "A short narrative about R. Menachem Nachum of Makarov: while ill and isolated, three close hasidim visit him, he says they revived him, then he dozes, dreams a Torah teaching and tells it to them.",
+  "boundary_note": ""
+ },
+ "stories": [
+  {
+   "k": 1,
+   "start_quote": "מהרב הצדיק וכו׳ ר׳ מנחם נחום",
+   "end_quote": "לעבדו בכל לבבינו אמן זי״ע ועכי״א",
+   "hasidic": true,
+   "summary_en": "The Makarover rebbe, sick and kept from visitors, is revived by three hasidim who come from afar, saying he is nothing without Jews; he then dozes, dreams a homily on 'their idols are silver and gold' (Ps. 115) about worry over money and lack of faith in providence, and tells it to them.",
+   "tags": [
+    {
+     "tag": "practice:healing",
+     "scope": "span",
+     "quotes": [
+      "נחלה הרב הנ״ל ע״י נפיחות ראשו ופניו",
+      "החייתנו כי מזה שאין מניחים לבוא אצלי"
+     ],
+     "confidence": 2,
+     "why": "the tzaddik's illness and his recovery through the hasidim's visit",
+     "quotes_failed": false
+    },
+    {
+     "tag": "practice:travel_to_the_tsaddik",
+     "scope": "span",
+     "quotes": [
+      "באו ממרחק ג׳ אנשים ממקורביו"
+     ],
+     "confidence": 3,
+     "why": "hasidim come from afar to the rebbe",
+     "quotes_failed": false
+    },
+    {
+     "tag": "practice:reception_of_hasidim",
+     "scope": "span",
+     "quotes": [
+      "ולא הניחו לבוא לפניו שום אדם",
+      "שאין מניחים לבוא אצלי שום איש ישראל"
+     ],
+     "confidence": 3,
+     "why": "the theme is admitting or refusing visitors to the rebbe",
+     "quotes_failed": false
+    },
+    {
+     "tag": "practice:torat_ha_tsaddik",
+     "scope": "span",
+     "quotes": [
+      "כי מה אני בלא יהודים"
+     ],
+     "confidence": 2,
+     "why": "the tzaddik's life depends on his bond with his hasidim",
+     "quotes_failed": false
+    },
+    {
+     "tag": "social:inter_hasidic_master_disciple_relationship",
+     "scope": "span",
+     "quotes": [
+      "ג׳ אנשים ממקורביו",
+      "כי מה אני בלא יהודים"
+     ],
+     "confidence": 2,
+     "why": "the bond between the rebbe and his close followers",
+     "quotes_failed": false
+    },
+    {
+     "tag": "experience:dream",
+     "scope": "span",
+     "quotes": [
+      "הנה חלום חלם לי שאמרתי חידושי תורה"
+     ],
+     "confidence": 3,
+     "why": "Torah teaching given in a dream",
+     "quotes_failed": false
+    },
+    {
+     "tag": "practice:sermon",
+     "scope": "span",
+     "quotes": [
+      "עצביה״ם מה שהם תמיד בעצבות ודאגות",
+      "ולא עלתה ברעיונם שהכל בהשגחה פרטית"
+     ],
+     "confidence": 3,
+     "why": "exegesis of a psalm verse is quoted",
+     "quotes_failed": false
+    },
+    {
+     "tag": "not-a-hasidic-story:sermon",
+     "scope": "story",
+     "quotes": [],
+     "confidence": 1,
+     "why": "much of the text is the homily, though it sits inside a narrative frame",
+     "quotes_failed": false
+    },
+    {
+     "tag": "ethics-and-emotions:sadness",
+     "scope": "span",
+     "quotes": [
+      "תמיד בעצבות ודאגות ממה נתהווה"
+     ],
+     "confidence": 1,
+     "why": "sadness and worry are discussed in the teaching",
+     "quotes_failed": false
+    },
+    {
+     "tag": "practice:storytelling",
+     "scope": "span",
+     "quotes": [
+      "וסיפר להם בזה״ל הנה חלום"
+     ],
+     "confidence": 1,
+     "why": "the rebbe recounts his dream to the visitors",
+     "quotes_failed": false
+    }
+   ],
+   "missing_concepts": [
+    "illness of the tzaddik himself",
+    "providence (hashgacha pratit) vs. human effort in livelihood",
+    "the tzaddik's need for his hasidim's presence"
+   ],
+   "start_quote_found": true,
+   "end_quote_found": true
+  }
+ ],
+ "check": {
+  "non_vocab_tags": [],
+  "quotes": 13,
+  "quotes_not_found": 0
+ },
+ "id": "Mifalot-HaZadikim_0047"
+}

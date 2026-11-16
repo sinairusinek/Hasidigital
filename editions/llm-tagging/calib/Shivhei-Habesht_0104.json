@@ -1,0 +1,109 @@
+{
+ "unit": {
+  "kind": "hasidic_story",
+  "why": "A short anecdote, transmitted from the rabbi of Polnoye, about a tzaddik who travels to the noble of Rashkov, prays a mystically framed prayer on the way, and then comments humbly on it.",
+  "boundary_note": ""
+ },
+ "stories": [
+  {
+   "k": 1,
+   "start_quote": "שמעתי מהרב דק\"ק פולנאי שפ\"א נסע",
+   "end_quote": "שעכשיו אין אני במדרגה זו",
+   "hasidic": true,
+   "summary_en": "On a trip to the noble of Rashkov about some need, the tzaddik (apparently the Besht) recites the weekday 'Vehu Rahum' prayer and clothes his need as though the Shekhinah were praying for it before God; at home he says, out of humility, that he would not tell this except that he is no longer at that level.",
+   "tags": [
+    {
+     "tag": "practice:prayer",
+     "scope": "span",
+     "quotes": [
+      "והתפלל בדרך וכשהגיע לתפלת והוא רחום"
+     ],
+     "confidence": 3,
+     "why": "Liturgical prayer on the road is the core event.",
+     "quotes_failed": false
+    },
+    {
+     "tag": "practice:meditation",
+     "scope": "span",
+     "quotes": [
+      "והלביש הצטרכותו כאילו שכינה מתפלל'"
+     ],
+     "confidence": 2,
+     "why": "A contemplative mystical intention: his need is framed as the Shekhinah's prayer.",
+     "quotes_failed": false
+    },
+    {
+     "tag": "kabbalah:kabbalistic_terms_kavvanot",
+     "scope": "span",
+     "quotes": [
+      "והלביש הצטרכותו כאילו שכינה מתפלל'"
+     ],
+     "confidence": 1,
+     "why": "A kabbalistic intention tied to a specific prayer, though not explicitly Lurianic.",
+     "quotes_failed": false
+    },
+    {
+     "tag": "ethics-and-emotions:humility",
+     "scope": "span",
+     "quotes": [
+      "ואמר בגודל ענותנותו לא הייתי אומר דבר זה"
+     ],
+     "confidence": 3,
+     "why": "His humility is stated explicitly.",
+     "quotes_failed": false
+    },
+    {
+     "tag": "folkloristics:story_type_virtues",
+     "scope": "story",
+     "quotes": [],
+     "confidence": 1,
+     "why": "The anecdote ends by stressing his humility.",
+     "quotes_failed": false
+    },
+    {
+     "tag": "social:relations_with_non_jews",
+     "scope": "span",
+     "quotes": [
+      "נסע אל השר דק\"ק ראשקוב לאיזה הצטרכות"
+     ],
+     "confidence": 2,
+     "why": "He travels to a (non-Jewish) noble on business.",
+     "quotes_failed": false
+    },
+    {
+     "tag": "practice:the_travels_of_the_tsaddik",
+     "scope": "span",
+     "quotes": [
+      "נסע אל השר דק\"ק ראשקוב",
+      "ואחר התפילה חזר לביתו"
+     ],
+     "confidence": 2,
+     "why": "The prayer happens during his journey to the noble.",
+     "quotes_failed": false
+    },
+    {
+     "tag": "practice:devekut",
+     "scope": "span",
+     "quotes": [
+      "והלביש הצטרכותו כאילו שכינה מתפלל' דוגמא צורך זו"
+     ],
+     "confidence": 1,
+     "why": "Shows an elevated level of attachment in prayer that he later says he has lost.",
+     "quotes_failed": false
+    }
+   ],
+   "missing_concepts": [
+    "praying for one's material need as the need of the Shekhinah",
+    "the tzaddik's loss or decline of a spiritual level (מדרגה)"
+   ],
+   "start_quote_found": true,
+   "end_quote_found": true
+  }
+ ],
+ "check": {
+  "non_vocab_tags": [],
+  "quotes": 8,
+  "quotes_not_found": 0
+ },
+ "id": "Shivhei-Habesht_0104"
+}

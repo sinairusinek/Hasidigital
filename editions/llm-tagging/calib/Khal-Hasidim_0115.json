@@ -1,0 +1,223 @@
+{
+ "unit": {
+  "kind": "hasidic_story",
+  "why": "A single framed narrative: R. Shalom of Kaminka, at a yahrzeit gathering in Ropshitz, answers a woman's complaint by retelling a Besht tale. That tale itself contains the Besht's nested reincarnation story.",
+  "boundary_note": ""
+ },
+ "stories": [
+  {
+   "k": 1,
+   "start_quote": "מעשה מ הבעש״ט הקדוש זי\"ע אשר סיפר",
+   "end_quote": "אך לקחת את חובו ושבק לן חיים",
+   "hasidic": true,
+   "summary_en": "A woman complains that her lost money is gone, and R. Shalom of Kaminka explains the loss by retelling a Besht story. In it, a contented rich man from Rzeszów visits the Besht and hears a tale of two friends: one repaid the other's generosity with cruelty, they were reincarnated to settle the debt, and the rich man realizes he is the cruel friend who has just caused a poor man's death at his door.",
+   "tags": [
+    {
+     "tag": "practice:storytelling",
+     "scope": "story",
+     "quotes": [],
+     "confidence": 3,
+     "why": "Two levels of storytelling: the Kaminka rabbi tells a tale, and inside it the Besht tells a tale with a purpose",
+     "quotes_failed": false
+    },
+    {
+     "tag": "supernatural:reincarnation",
+     "scope": "span",
+     "quotes": [
+      "אשר יבואו גם שניהם שנית בגלגול לעולם הזה",
+      "כי מי יודע איזה גלגול הי'"
+     ],
+     "confidence": 3,
+     "why": "Reincarnation to repay a debt is the core of the plot",
+     "quotes_failed": false
+    },
+    {
+     "tag": "practice:travel_to_the_tsaddik",
+     "scope": "span",
+     "quotes": [
+      "וגמר בדעתו לנסוע אל נוה קודש של אותו קדוש"
+     ],
+     "confidence": 3,
+     "why": "The rich man travels to the Besht in Medzhybizh",
+     "quotes_failed": false
+    },
+    {
+     "tag": "practice:reception_of_hasidim",
+     "scope": "span",
+     "quotes": [
+      "וישאלהו הבעש״ט לשלום ובדברו אתו רגעים אחדים"
+     ],
+     "confidence": 3,
+     "why": "The Besht receives the visitor and asks what he wants",
+     "quotes_failed": false
+    },
+    {
+     "tag": "practice:pidyon_nefesh",
+     "scope": "span",
+     "quotes": [
+      "לתת איזה רובל לפדיון"
+     ],
+     "confidence": 1,
+     "why": "A pidyon payment is offered to the tsaddik, though not to avert a decree",
+     "quotes_failed": false
+    },
+    {
+     "tag": "supernatural:perception",
+     "scope": "span",
+     "quotes": [
+      "תן עיניך והבט בפני היטב ואנכי אספר לך"
+     ],
+     "confidence": 3,
+     "why": "The Besht knows the visitor's past life and his recent deed without being told",
+     "quotes_failed": false
+    },
+    {
+     "tag": "social:retrospective_recognition",
+     "scope": "span",
+     "quotes": [
+      "אני הוא האיש הזה כי טרם בואי"
+     ],
+     "confidence": 3,
+     "why": "The rich man recognizes himself in the story",
+     "quotes_failed": false
+    },
+    {
+     "tag": "ethics-and-emotions:charity",
+     "scope": "span",
+     "quotes": [
+      "ואך קפץ ידיו מתת צדקה לאחיו האביונים",
+      "נתן המחצה לחבירו העני"
+     ],
+     "confidence": 3,
+     "why": "Generosity and the refusal of alms drive the plot",
+     "quotes_failed": false
+    },
+    {
+     "tag": "ethics-and-emotions:punishment",
+     "scope": "span",
+     "quotes": [
+      "ונחרץ משפט העשיר כי יקלע נפשו",
+      "השלכת מקברך כנצר נתעב"
+     ],
+     "confidence": 3,
+     "why": "Heavenly judgment falls on the ungrateful rich man",
+     "quotes_failed": false
+    },
+    {
+     "tag": "ethics-and-emotions:repentance",
+     "scope": "span",
+     "quotes": [
+      "האם נסכרו כל פתחי תשובתו היש עוד תיקון"
+     ],
+     "confidence": 2,
+     "why": "The rich man seeks a way to repent",
+     "quotes_failed": false
+    },
+    {
+     "tag": "practice:healing_of_the_soul",
+     "scope": "span",
+     "quotes": [
+      "אם תוכל למצוא בני העני המת ותפייס אותם"
+     ],
+     "confidence": 2,
+     "why": "The Besht reveals the sin and prescribes its repair (tikkun)",
+     "quotes_failed": false
+    },
+    {
+     "tag": "spaces:heaven",
+     "scope": "span",
+     "quotes": [
+      "ומשפט הזה הרעים והרעיש במתיבתא דרקיע"
+     ],
+     "confidence": 2,
+     "why": "The judgment of the heavenly court is narrated as taking place on high",
+     "quotes_failed": false
+    },
+    {
+     "tag": "times:death",
+     "scope": "span",
+     "quotes": [
+      "ונפל העני מת על סף בבית הגביר"
+     ],
+     "confidence": 3,
+     "why": "The poor man dies at the rich man's door",
+     "quotes_failed": false
+    },
+    {
+     "tag": "social:conflict",
+     "scope": "span",
+     "quotes": [
+      "ויתקע לו בכפו אחת הנה ואחת הנה"
+     ],
+     "confidence": 2,
+     "why": "The friends quarrel over the debt, and the rich man strikes the poor man",
+     "quotes_failed": false
+    },
+    {
+     "tag": "ethics-and-emotions:anger",
+     "scope": "span",
+     "quotes": [
+      "ויגער בו הגביר הנ\"ל"
+     ],
+     "confidence": 2,
+     "why": "The rich man rages at the beggar",
+     "quotes_failed": false
+    },
+    {
+     "tag": "social:poverty",
+     "scope": "span",
+     "quotes": [
+      "וידל ויירש עד מאוד"
+     ],
+     "confidence": 1,
+     "why": "Poverty is central to the plot, though not as a chosen virtue",
+     "quotes_failed": false
+    },
+    {
+     "tag": "women:catalyst_character",
+     "scope": "span",
+     "quotes": [
+      "באה אשה אחת לפניהם"
+     ],
+     "confidence": 3,
+     "why": "The woman's complaint is what prompts the telling",
+     "quotes_failed": false
+    },
+    {
+     "tag": "ethics-and-emotions:fear",
+     "scope": "span",
+     "quotes": [
+      "והנה כל השופטים יפחדו לנפשם"
+     ],
+     "confidence": 1,
+     "why": "The judges fear the powerful rich man",
+     "quotes_failed": false
+    },
+    {
+     "tag": "social:relations_with_the_authorities",
+     "scope": "span",
+     "quotes": [
+      "לבקר בהיכלי המשפט שמה בעירו"
+     ],
+     "confidence": 1,
+     "why": "The poor man turns to the state courts to collect the debt",
+     "quotes_failed": false
+    }
+   ],
+   "missing_concepts": [
+    "ingratitude",
+    "debts carried over across incarnations",
+    "divine justice explaining a financial loss",
+    "yahrzeit gathering of tsaddikim"
+   ],
+   "start_quote_found": true,
+   "end_quote_found": true
+  }
+ ],
+ "check": {
+  "non_vocab_tags": [],
+  "quotes": 21,
+  "quotes_not_found": 0
+ },
+ "id": "Khal-Hasidim_0115"
+}

@@ -1,0 +1,313 @@
+{
+ "unit": {
+  "kind": "hasidic_story",
+  "why": "A single narrative, transmitted in the name of R. Menahem Nahum of Chernobyl, about a childless merchant whom the Besht advises, whose wayward son is transformed, and who meets the prophet Jonah in disguise.",
+  "boundary_note": ""
+ },
+ "stories": [
+  {
+   "k": 1,
+   "start_quote": "שמענו בשם הרב הק' מ' מנחם נחום",
+   "end_quote": "ואמר שזהו יונה בן אמתי ע\"ה",
+   "hasidic": true,
+   "summary_en": "A childless rich merchant reluctantly visits the Besht, who tells him to take a lease from a Jew-hating nobleman and promises him a son; the son grows up wild, so the Besht sends him away on a year of travel, during which a mysterious host in a forest house buys his goods and later pays in full, and this host, 'Jonah', turns out to be the prophet Jonah son of Amittai, while the son becomes a diligent scholar.",
+   "tags": [
+    {
+     "tag": "practice:storytelling",
+     "scope": "span",
+     "quotes": [
+      "שמענו בשם הרב הק' מ' מנחם נחום"
+     ],
+     "confidence": 2,
+     "why": "Story framed as transmitted by a named tzaddik",
+     "quotes_failed": false
+    },
+    {
+     "tag": "practice:travel_to_the_tsaddik",
+     "scope": "span",
+     "quotes": [
+      "והלכו שניהם יחדיו ל הבעש״ט",
+      "ותיכף ומיד נסע ל הבעש\"ט וסיפר לו"
+     ],
+     "confidence": 3,
+     "why": "The merchant goes to the Besht with requests",
+     "quotes_failed": false
+    },
+    {
+     "tag": "practice:business_advice",
+     "scope": "span",
+     "quotes": [
+      "עצתי שתנוח המסחור שלך ל לייפסק",
+      "ותקח האורנדי אצל השר שלך",
+      "עצתי שתניח את האורנדע ותמכור כל התבואות"
+     ],
+     "confidence": 3,
+     "why": "The Besht directs his trade and his lease",
+     "quotes_failed": false
+    },
+    {
+     "tag": "supernatural:pregnancy",
+     "scope": "span",
+     "quotes": [
+      "ובתוך שנה זו תלד אשתך בן זכר",
+      "ובתוך שנה ילדה אשתו ב\"ז"
+     ],
+     "confidence": 3,
+     "why": "A childless couple conceives according to the Besht's word",
+     "quotes_failed": false
+    },
+    {
+     "tag": "supernatural:prognostication",
+     "scope": "span",
+     "quotes": [
+      "ובתוך שנה זו תלד אשתך בן זכר",
+      "תמצא את בנך נהפך לאיש אחר ממש"
+     ],
+     "confidence": 3,
+     "why": "The Besht's predictions come true",
+     "quotes_failed": false
+    },
+    {
+     "tag": "folkloristics:story_type_prognostication",
+     "scope": "story",
+     "quotes": [],
+     "confidence": 3,
+     "why": "The plot is built on the Besht's predictions being fulfilled",
+     "quotes_failed": false
+    },
+    {
+     "tag": "times:birth",
+     "scope": "span",
+     "quotes": [
+      "ובתוך שנה ילדה אשתו ב\"ז"
+     ],
+     "confidence": 2,
+     "why": "The birth of the promised son",
+     "quotes_failed": false
+    },
+    {
+     "tag": "social:relations_with_non_jews",
+     "scope": "span",
+     "quotes": [
+      "שהשר הזה הוא שונא ישראל",
+      "שלח השר בעצמו אחריו ונתן לו האורנדע"
+     ],
+     "confidence": 3,
+     "why": "Dealings with an antisemitic nobleman",
+     "quotes_failed": false
+    },
+    {
+     "tag": "characters-and-roles:tavern_keeper",
+     "scope": "span",
+     "quotes": [
+      "ונתן לו האורנדע כדבר הבעש״ט"
+     ],
+     "confidence": 1,
+     "why": "The merchant becomes a leaseholder (arendar)",
+     "quotes_failed": false
+    },
+    {
+     "tag": "social:disobedience",
+     "scope": "span",
+     "quotes": [
+      "אבל לא עלה ע\"ד להודיע ל הבעש״ט",
+      "הסכלת עשו שלא הודעת ל הבעש״ט"
+     ],
+     "confidence": 3,
+     "why": "He fails to inform the Besht as instructed, and his son turns out wild",
+     "quotes_failed": false
+    },
+    {
+     "tag": "ethics-and-emotions:punishment",
+     "scope": "span",
+     "quotes": [
+      "ונעשה פרא אדם ממש ידו בכל"
+     ],
+     "confidence": 1,
+     "why": "The wild son is implicitly a consequence of his disobedience",
+     "quotes_failed": false
+    },
+    {
+     "tag": "practice:healing_of_the_soul",
+     "scope": "span",
+     "quotes": [
+      "ומצא את בנו שהוא נהפך לאיש אחר",
+      "ומתמיד בלימודו"
+     ],
+     "confidence": 2,
+     "why": "The wild son is transformed into a diligent scholar",
+     "quotes_failed": false
+    },
+    {
+     "tag": "times:shabbat",
+     "scope": "span",
+     "quotes": [
+      "ביום ו' עש\"ק תעו מן הדרך",
+      "ואחר קבלת שבת ומעריב"
+     ],
+     "confidence": 3,
+     "why": "The central episode is a Sabbath in the forest house",
+     "quotes_failed": false
+    },
+    {
+     "tag": "practice:prayer",
+     "scope": "span",
+     "quotes": [
+      "איש א׳ עומד ומתפלל ואיש א׳ עומד ומשרת",
+      "ויתפללו גם שחרית ומוסף כדת"
+     ],
+     "confidence": 2,
+     "why": "Sabbath prayers are depicted",
+     "quotes_failed": false
+    },
+    {
+     "tag": "practice:drinking_alcohol",
+     "scope": "span",
+     "quotes": [
+      "והביאו להם יין לקדש",
+      "ומפני ששתה יין הרבה ישן"
+     ],
+     "confidence": 2,
+     "why": "Wine for kiddush and drinking at the meals",
+     "quotes_failed": false
+    },
+    {
+     "tag": "practice:halakhah",
+     "scope": "span",
+     "quotes": [
+      "כי בשבת אין נותנים שלום"
+     ],
+     "confidence": 1,
+     "why": "A halakhic rule explains why the host waits until after Havdalah to greet him",
+     "quotes_failed": false
+    },
+    {
+     "tag": "supernatural:miracle",
+     "scope": "span",
+     "quotes": [
+      "והנה העגלה שלו עומדת עם הבעל עגלה",
+      "והנה עומד ביער בית קטן ונרות דולקים"
+     ],
+     "confidence": 2,
+     "why": "A miraculous house in the forest, and the wagon appears there",
+     "quotes_failed": false
+    },
+    {
+     "tag": "characters-and-roles:hidden_righteous",
+     "scope": "span",
+     "quotes": [
+      "ראה שבא על החתום נאם יונה",
+      "ואין מכיר אותו"
+     ],
+     "confidence": 1,
+     "why": "A mysterious unknown figure who is in fact a holy being",
+     "quotes_failed": false
+    },
+    {
+     "tag": "social:retrospective_recognition",
+     "scope": "span",
+     "quotes": [
+      "ואמר שזהו יונה בן אמתי ע\"ה"
+     ],
+     "confidence": 3,
+     "why": "The host is revealed as the prophet Jonah",
+     "quotes_failed": false
+    },
+    {
+     "tag": "supernatural:perception",
+     "scope": "span",
+     "quotes": [
+      "ושאל הבעש״ט על יונה האיך הוא שלומו"
+     ],
+     "confidence": 2,
+     "why": "The Besht knows of the encounter beforehand",
+     "quotes_failed": false
+    },
+    {
+     "tag": "ethics-and-emotions:fear",
+     "scope": "span",
+     "quotes": [
+      "ויפג לבו כי לא הכירו"
+     ],
+     "confidence": 1,
+     "why": "The merchant is dismayed when faced with the stranger",
+     "quotes_failed": false
+    },
+    {
+     "tag": "ethics-and-emotions:joy",
+     "scope": "span",
+     "quotes": [
+      "שבתא טבא בשמחה גדולה",
+      "ונסע לדרכו בשמחה וטוב לבב"
+     ],
+     "confidence": 1,
+     "why": "Sabbath joy and the merchant's joy at the end",
+     "quotes_failed": false
+    },
+    {
+     "tag": "social:relations_with_non_hasidim",
+     "scope": "span",
+     "quotes": [
+      "ולא רצה ליסע ל הבעש״ט בשום אופן"
+     ],
+     "confidence": 2,
+     "why": "An outsider reluctant to visit the Besht",
+     "quotes_failed": false
+    },
+    {
+     "tag": "folkloristics:story_type_rapprochement",
+     "scope": "story",
+     "quotes": [],
+     "confidence": 1,
+     "why": "A reluctant man is gradually drawn to trust the Besht",
+     "quotes_failed": false
+    },
+    {
+     "tag": "practice:study",
+     "scope": "span",
+     "quotes": [
+      "ויהיה מופלג בתורה",
+      "ומתמיד בלימודו"
+     ],
+     "confidence": 1,
+     "why": "The son becomes devoted to Torah study",
+     "quotes_failed": false
+    },
+    {
+     "tag": "women:catalyst_character",
+     "scope": "span",
+     "quotes": [
+      "ובתוך שנה ילדה אשתו ב\"ז"
+     ],
+     "confidence": 2,
+     "why": "The wife's childlessness and childbirth drive the plot",
+     "quotes_failed": false
+    },
+    {
+     "tag": "social:marital_relationship",
+     "scope": "span",
+     "quotes": [
+      "הלא אשה עצורה לנו"
+     ],
+     "confidence": 1,
+     "why": "Allusion to marital abstinence as the reason he hesitates over the bed",
+     "quotes_failed": false
+    }
+   ],
+   "missing_concepts": [
+    "Appearance of a biblical prophet (Jonah son of Amittai) in disguise",
+    "Childlessness and desire for children",
+    "Wayward or wild child",
+    "Mysterious stranger as trading partner / credit"
+   ],
+   "start_quote_found": true,
+   "end_quote_found": true
+  }
+ ],
+ "check": {
+  "non_vocab_tags": [],
+  "quotes": 40,
+  "quotes_not_found": 0
+ },
+ "id": "Khal-Hasidim_0102"
+}

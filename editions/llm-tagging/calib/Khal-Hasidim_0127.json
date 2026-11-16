@@ -1,0 +1,183 @@
+{
+ "unit": {
+  "kind": "hasidic_story",
+  "why": "One continuous narrative about the end of the Besht's life: after his wife's death he refuses to remarry, and on the day of his death he takes leave of his son R. Zvi.",
+  "boundary_note": "Two linked episodes joined by 'וביום מותו'. They could be split as two anecdotes, but are treated here as one story."
+ },
+ "stories": [
+  {
+   "k": 1,
+   "start_quote": "שמעתי כשמתה אשתו של רבינו הקדוש",
+   "end_quote": "אבל שכחתי מה אמר לו",
+   "hasidic": true,
+   "summary_en": "After his wife dies, the Besht refuses to remarry, saying he had been abstinent for fourteen years. On the day of his death his son R. Zvi, who did not believe his father would die, is woken and weeps. The Besht tells him of his holy soul, conceived when all the heavens trembled, and teaches him a holy name to concentrate on so that he may see his father and learn with him after his death.",
+   "tags": [
+    {
+     "tag": "folkloristics:story_type_death_of_the_tsaddik",
+     "scope": "story",
+     "quotes": [],
+     "confidence": 3,
+     "why": "The central scene is the Besht's last day and his parting instructions to his son.",
+     "quotes_failed": false
+    },
+    {
+     "tag": "times:death",
+     "scope": "span",
+     "quotes": [
+      "כשמתה אשתו של רבינו הקדוש הבעש״ט",
+      "אביך אמר שבוודאי ימות היום"
+     ],
+     "confidence": 3,
+     "why": "The deaths of the wife and of the Besht are both depicted.",
+     "quotes_failed": false
+    },
+    {
+     "tag": "characters-and-roles:the_family_of_the_tsaddik",
+     "scope": "span",
+     "quotes": [
+      "היה בנו הקדוש מו' צבי ישן",
+      "ובא אל אביו והתחיל לבכות"
+     ],
+     "confidence": 3,
+     "why": "His son Zvi and his wife appear.",
+     "quotes_failed": false
+    },
+    {
+     "tag": "practice:sexual_abstinence",
+     "scope": "span",
+     "quotes": [
+      "אני הייתי פרוש י\"ד שנה במטה"
+     ],
+     "confidence": 3,
+     "why": "Fourteen years of marital abstinence is given as the reason not to remarry.",
+     "quotes_failed": false
+    },
+    {
+     "tag": "practice:asceticism",
+     "scope": "span",
+     "quotes": [
+      "אני הייתי פרוש י\"ד שנה במטה"
+     ],
+     "confidence": 2,
+     "why": "Separation from his wife as ascetic practice.",
+     "quotes_failed": false
+    },
+    {
+     "tag": "social:marriage",
+     "scope": "span",
+     "quotes": [
+      "אמרו לו אנשיו וב״ב שישא אשה אחרת"
+     ],
+     "confidence": 2,
+     "why": "Remarriage is proposed and refused.",
+     "quotes_failed": false
+    },
+    {
+     "tag": "social:marital_relationship",
+     "scope": "span",
+     "quotes": [
+      "כי בשעה שנתחברתי עם אשתי זעו כל הרקיעים"
+     ],
+     "confidence": 2,
+     "why": "Marital relations and their cosmic effect are described.",
+     "quotes_failed": false
+    },
+    {
+     "tag": "practice:use_of_holy_names",
+     "scope": "span",
+     "quotes": [
+      "ולמד עמו שם א׳ ואמר תכווון שם זה",
+      "שמא אשכח את השם הנ\"ל"
+     ],
+     "confidence": 3,
+     "why": "He teaches a holy name to be used to see him after death.",
+     "quotes_failed": false
+    },
+    {
+     "tag": "kabbalah:kabbalistic_terms_kavvanot",
+     "scope": "span",
+     "quotes": [
+      "תכווון שם זה ותראה אותי ואלמוד עמך"
+     ],
+     "confidence": 1,
+     "why": "Contemplative concentration on a divine name.",
+     "quotes_failed": false
+    },
+    {
+     "tag": "knowledge:esoteric",
+     "scope": "span",
+     "quotes": [
+      "להביא נשמת אדה״ר בסוד העבור",
+      "ולמד עמו שם א׳"
+     ],
+     "confidence": 3,
+     "why": "Esoteric knowledge of soul impregnation (ibbur) and of divine names is transmitted.",
+     "quotes_failed": false
+    },
+    {
+     "tag": "supernatural:reincarnation",
+     "scope": "span",
+     "quotes": [
+      "להביא נשמת אדה״ר בסוד העבור"
+     ],
+     "confidence": 2,
+     "why": "Drawing down Adam's soul through ibbur is mentioned as a possibility.",
+     "quotes_failed": false
+    },
+    {
+     "tag": "supernatural:prognostication",
+     "scope": "span",
+     "quotes": [
+      "אביך אמר שבוודאי ימות היום"
+     ],
+     "confidence": 2,
+     "why": "The Besht foretells his own death that day.",
+     "quotes_failed": false
+    },
+    {
+     "tag": "social:inter_hasidic_inheritance_of_leadership",
+     "scope": "span",
+     "quotes": [
+      "למה אינו מצוה לבנו"
+     ],
+     "confidence": 1,
+     "why": "A deathbed testament to the son, though no succession is stated.",
+     "quotes_failed": false
+    },
+    {
+     "tag": "practice:study",
+     "scope": "span",
+     "quotes": [
+      "ותראה אותי ואלמוד עמך"
+     ],
+     "confidence": 1,
+     "why": "Promised posthumous study together.",
+     "quotes_failed": false
+    },
+    {
+     "tag": "women:mention_only",
+     "scope": "span",
+     "quotes": [
+      "כשמתה אשתו של רבינו הקדוש"
+     ],
+     "confidence": 3,
+     "why": "The wife is referred to but does not act.",
+     "quotes_failed": false
+    }
+   ],
+   "missing_concepts": [
+    "posthumous contact between a tsaddik and his disciple or son",
+    "segulah for memory",
+    "the son's disbelief in his father's imminent death"
+   ],
+   "start_quote_found": true,
+   "end_quote_found": true
+  }
+ ],
+ "check": {
+  "non_vocab_tags": [],
+  "quotes": 18,
+  "quotes_not_found": 0
+ },
+ "id": "Khal-Hasidim_0127"
+}

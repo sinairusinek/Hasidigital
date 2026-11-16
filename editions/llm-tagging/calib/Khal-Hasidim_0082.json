@@ -1,0 +1,286 @@
+{
+ "unit": {
+  "kind": "hasidic_story",
+  "why": "A single narrative about the Besht's grief over the martyrs of the Pavolitch blood libel and the nighttime visit of the martyrs' souls with R. Akiva.",
+  "boundary_note": ""
+ },
+ "stories": [
+  {
+   "k": 1,
+   "start_quote": "מעשה עלילה דק\"ק פאווליטש וברח הרב",
+   "end_quote": "וגרם שנהרגו השבוים בעו\"ה :",
+   "hasidic": true,
+   "summary_en": "After the Pavolitch blood libel the Besht detains the fleeing R. David of Korostyshev; when news of the martyrs' torture arrives he mourns all Sabbath eve, lying prostrate. At midnight R. Akiva and the souls of the martyrs appear, refuse his decree that they take revenge on the accuser, and explain why Heaven hid their fate from him. A coda blames a Brody preacher's sermon for the deaths.",
+   "tags": [
+    {
+     "tag": "times:historical_event",
+     "scope": "story",
+     "quotes": [],
+     "confidence": 3,
+     "why": "Pavolitch blood libel of 1753 frames the tale",
+     "quotes_failed": false
+    },
+    {
+     "tag": "social:relations_with_non_jews",
+     "scope": "span",
+     "quotes": [
+      "מן הצורר המקטרג שקורין שטיגאטאר"
+     ],
+     "confidence": 2,
+     "why": "gentile persecutors and the accuser",
+     "quotes_failed": false
+    },
+    {
+     "tag": "practice:pidyon_shvuyim",
+     "scope": "span",
+     "quotes": [
+      "ועשה לו פרנסה מהשבוים ועורר מדנים",
+      "וכמה פעמים אמר הבעש״ט שינצלו"
+     ],
+     "confidence": 2,
+     "why": "the Besht intercedes for the imprisoned Jews, and a preacher profits from collecting for the captives",
+     "quotes_failed": false
+    },
+    {
+     "tag": "practice:redemption_of_captives",
+     "scope": "span",
+     "quotes": [
+      "ועשה לו פרנסה מהשבוים ועורר מדנים"
+     ],
+     "confidence": 2,
+     "why": "duplicate of pidyon_shvuyim",
+     "quotes_failed": false
+    },
+    {
+     "tag": "times:death",
+     "scope": "span",
+     "quotes": [
+      "ואח״כ כשנהרגו בא אגרת לר' דוד"
+     ],
+     "confidence": 3,
+     "why": "martyrdom of the accused",
+     "quotes_failed": false
+    },
+    {
+     "tag": "ethics-and-emotions:sadness",
+     "scope": "span",
+     "quotes": [
+      "ונתעצב מאוד וזה היום הי׳ עש\"ק",
+      "וקידש על היין בבכי'"
+     ],
+     "confidence": 3,
+     "why": "the Besht's grief",
+     "quotes_failed": false
+    },
+    {
+     "tag": "ethics-and-emotions:fear",
+     "scope": "span",
+     "quotes": [
+      "היו מתפחדים שלא יעלילו גם עליהם"
+     ],
+     "confidence": 3,
+     "why": "fear of further libels",
+     "quotes_failed": false
+    },
+    {
+     "tag": "times:shabbat",
+     "scope": "span",
+     "quotes": [
+      "והוא התפלל קבלת שבת וערבית ג\"כ במרירות לב"
+     ],
+     "confidence": 3,
+     "why": "the scene takes place on Sabbath eve",
+     "quotes_failed": false
+    },
+    {
+     "tag": "practice:tvilah",
+     "scope": "span",
+     "quotes": [
+      "והלך למקוה ובכה מאד"
+     ],
+     "confidence": 3,
+     "why": "immersion before Sabbath",
+     "quotes_failed": false
+    },
+    {
+     "tag": "practice:prayer",
+     "scope": "span",
+     "quotes": [
+      "והתפלל תפלת מנחה במרירות גדול"
+     ],
+     "confidence": 3,
+     "why": "prayers said in bitterness",
+     "quotes_failed": false
+    },
+    {
+     "tag": "practice:drinking_alcohol",
+     "scope": "span",
+     "quotes": [
+      "וקידש על היין בבכי'"
+     ],
+     "confidence": 1,
+     "why": "kiddush over wine",
+     "quotes_failed": false
+    },
+    {
+     "tag": "characters-and-roles:the_family_of_the_tsaddik",
+     "scope": "span",
+     "quotes": [
+      "הלכה אשתו ואמרה לו הנרות יכבו"
+     ],
+     "confidence": 3,
+     "why": "the Besht's wife appears",
+     "quotes_failed": false
+    },
+    {
+     "tag": "women:minor_character",
+     "scope": "span",
+     "quotes": [
+      "הלכה אשתו ואמרה לו הנרות יכבו",
+      "שמע שאמר לאשתו תכסה פניך"
+     ],
+     "confidence": 3,
+     "why": "the wife acts in a small role",
+     "quotes_failed": false
+    },
+    {
+     "tag": "supernatural:communicating_with_the_invisible",
+     "scope": "span",
+     "quotes": [
+      "ואמר ברוך הבא ר׳ עקיבא",
+      "אני גוזר עליכם שתלכו להתנקם"
+     ],
+     "confidence": 3,
+     "why": "dialogue with the souls of the martyrs",
+     "quotes_failed": false
+    },
+    {
+     "tag": "experience:visions",
+     "scope": "span",
+     "quotes": [
+      "וברגע האיר בחדר והיה מאיר דרך סדקים"
+     ],
+     "confidence": 2,
+     "why": "the apparition of light and of souls",
+     "quotes_failed": false
+    },
+    {
+     "tag": "supernatural:light_or_fire_as_a_sign_of_righteousness",
+     "scope": "span",
+     "quotes": [
+      "וברגע האיר בחדר והיה מאיר דרך סדקים"
+     ],
+     "confidence": 2,
+     "why": "light accompanies the holy souls",
+     "quotes_failed": false
+    },
+    {
+     "tag": "spaces:heaven",
+     "scope": "span",
+     "quotes": [
+      "נעשה רעש גדול בג״ע והיו בורחי' מכל היכלות",
+      "וכשבאנו אל היכל עליון מזה"
+     ],
+     "confidence": 2,
+     "why": "events in the heavenly palaces are narrated",
+     "quotes_failed": false
+    },
+    {
+     "tag": "spaces:hell",
+     "scope": "span",
+     "quotes": [
+      "הוכרחנו לסבול חצי שעה גיהנם"
+     ],
+     "confidence": 2,
+     "why": "the martyrs' half hour in Gehinnom",
+     "quotes_failed": false
+    },
+    {
+     "tag": "supernatural:reincarnation",
+     "scope": "span",
+     "quotes": [
+      "צריכים אתם לקבל על עצמיכם גילגול"
+     ],
+     "confidence": 2,
+     "why": "revenge would require reincarnation, which they refuse",
+     "quotes_failed": false
+    },
+    {
+     "tag": "practice:torat_ha_tsaddik",
+     "scope": "span",
+     "quotes": [
+      "היה מרבה בתפלה ותבטל הגזירה"
+     ],
+     "confidence": 2,
+     "why": "the Besht's prayer could annul decrees, so Heaven hid them",
+     "quotes_failed": false
+    },
+    {
+     "tag": "ethics-and-emotions:punishment",
+     "scope": "span",
+     "quotes": [
+      "שתלכו להתנקם מן הצורר המקטרג"
+     ],
+     "confidence": 1,
+     "why": "a vengeance decree against the accuser is proposed and withdrawn",
+     "quotes_failed": false
+    },
+    {
+     "tag": "characters-and-roles:preacher",
+     "scope": "span",
+     "quotes": [
+      "שדרשן אחד דרש בק\"ק בראד"
+     ],
+     "confidence": 3,
+     "why": "the Brody preacher causes the deaths",
+     "quotes_failed": false
+    },
+    {
+     "tag": "practice:failure",
+     "scope": "span",
+     "quotes": [
+      "שהבטיחו לו מן השמים שיבטלו הגזירה אך"
+     ],
+     "confidence": 2,
+     "why": "the Besht's assurance of rescue fails, with an explanation given",
+     "quotes_failed": false
+    },
+    {
+     "tag": "practice:devekut",
+     "scope": "span",
+     "quotes": [
+      "עדיין שוכב על הארץ בפישוט ידים ורגלים"
+     ],
+     "confidence": 1,
+     "why": "the Besht lies prostrate in absorbed devotion",
+     "quotes_failed": false
+    },
+    {
+     "tag": "practice:storytelling",
+     "scope": "span",
+     "quotes": [
+      "ומהרב דקהלתינו שמעתי ש בעש״ט אמר"
+     ],
+     "confidence": 1,
+     "why": "a transmitted oral account forms the coda",
+     "quotes_failed": false
+    }
+   ],
+   "missing_concepts": [
+    "blood libel",
+    "martyrdom / kiddush ha-shem",
+    "souls of martyrs visiting the tzaddik",
+    "revenge against persecutors",
+    "prostration (hishtatchut) in mourning"
+   ],
+   "start_quote_found": true,
+   "end_quote_found": true
+  }
+ ],
+ "check": {
+  "non_vocab_tags": [],
+  "quotes": 29,
+  "quotes_not_found": 0
+ },
+ "id": "Khal-Hasidim_0082"
+}

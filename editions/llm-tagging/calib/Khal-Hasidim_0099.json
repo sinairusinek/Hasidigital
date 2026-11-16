@@ -1,0 +1,181 @@
+{
+ "unit": {
+  "kind": "hasidic_story",
+  "why": "A single narrative in which a leader of the Council of Four Lands tests the Besht, is shown his clairvoyance twice, and comes to him.",
+  "boundary_note": ""
+ },
+ "stories": [
+  {
+   "k": 1,
+   "start_quote": "בעת אסיפת ד׳ ארצות היה הפרנס",
+   "end_quote": "שמעתם מה שהוא אומר ומיד בא לפניו",
+   "hasidic": true,
+   "summary_en": "R. Abraham Abba, head of the Council of Four Lands, summons the Besht, suspecting him of being an ignoramus. He tests him on the law for forgetting Ya'aleh ve-Yavo, and the Besht reveals that the rabbi himself will forget it again. The rabbi then secretly follows him to an inn, where the Besht senses that his bed was defiled by the host's son-in-law with a gentile woman, and the rabbi comes to him.",
+   "tags": [
+    {
+     "tag": "folkloristics:story_type_rapprochement",
+     "scope": "story",
+     "quotes": [],
+     "confidence": 3,
+     "why": "A skeptical communal leader is won over to the Besht.",
+     "quotes_failed": false
+    },
+    {
+     "tag": "supernatural:perception",
+     "scope": "span",
+     "quotes": [
+      "נתבהל מאוד על ידיעתו מה שבסתר",
+      "צעק ווי על המטה הזאת בעלו ארמית"
+     ],
+     "confidence": 3,
+     "why": "The Besht knows hidden facts both about the rabbi's prayer and about the bed.",
+     "quotes_failed": false
+    },
+    {
+     "tag": "supernatural:prognostication",
+     "scope": "span",
+     "quotes": [
+      "אפילו אם יחזור ויתפלל ישכח עוד הפעם",
+      "כן היה ששכח יעלה ויבא גם בפעם השני"
+     ],
+     "confidence": 2,
+     "why": "The Besht predicts the rabbi will forget the prayer again, and he does.",
+     "quotes_failed": false
+    },
+    {
+     "tag": "practice:halakhah",
+     "scope": "span",
+     "quotes": [
+      "אם יודע מע' איזה דין",
+      "שאל אותו אם שכח יעלה ויבא מה דינו"
+     ],
+     "confidence": 3,
+     "why": "The Besht is tested on a point of law.",
+     "quotes_failed": false
+    },
+    {
+     "tag": "practice:prayer",
+     "scope": "span",
+     "quotes": [
+      "אפילו אם יחזור ויתפלל ישכח עוד הפעם"
+     ],
+     "confidence": 2,
+     "why": "Repeating the prayer after omitting Ya'aleh ve-Yavo is at issue.",
+     "quotes_failed": false
+    },
+    {
+     "tag": "social:relations_with_non_hasidim",
+     "scope": "span",
+     "quotes": [
+      "ולפי הנשמע הוא ע״ה ואיך יכול להיות"
+     ],
+     "confidence": 3,
+     "why": "Non-Hasidic communal leadership suspects the Besht.",
+     "quotes_failed": false
+    },
+    {
+     "tag": "times:historical_event",
+     "scope": "span",
+     "quotes": [
+      "בעת אסיפת ד׳ ארצות"
+     ],
+     "confidence": 2,
+     "why": "The Council of Four Lands is the setting.",
+     "quotes_failed": false
+    },
+    {
+     "tag": "times:holidays",
+     "scope": "span",
+     "quotes": [
+      "והמעשה היה בר\"ח"
+     ],
+     "confidence": 1,
+     "why": "The story is set on Rosh Hodesh.",
+     "quotes_failed": false
+    },
+    {
+     "tag": "ethics-and-emotions:fear",
+     "scope": "span",
+     "quotes": [
+      "נתבהל מאוד על ידיעתו מה שבסתר"
+     ],
+     "confidence": 2,
+     "why": "The rabbi is alarmed at the Besht's knowledge.",
+     "quotes_failed": false
+    },
+    {
+     "tag": "practice:the_travels_of_the_tsaddik",
+     "scope": "span",
+     "quotes": [
+      "וכשבא הבעש״ט למלון והציע לו מטה כבודה"
+     ],
+     "confidence": 2,
+     "why": "The second scene happens at an inn on the Besht's journey.",
+     "quotes_failed": false
+    },
+    {
+     "tag": "characters-and-roles:tavern_keeper",
+     "scope": "span",
+     "quotes": [
+      "ומיד בא הבעה״ב וסיפר לו בקובלנא רבא"
+     ],
+     "confidence": 2,
+     "why": "The innkeeper complains about his son-in-law.",
+     "quotes_failed": false
+    },
+    {
+     "tag": "ethics-and-emotions:prohibitions",
+     "scope": "span",
+     "quotes": [
+      "בעלו ארמית והאיך אישן עליו"
+     ],
+     "confidence": 2,
+     "why": "A sexual transgression with a gentile woman makes the bed unfit for the Besht.",
+     "quotes_failed": false
+    },
+    {
+     "tag": "ethics-and-emotions:adultery",
+     "scope": "span",
+     "quotes": [
+      "על חתנו איך שהוא בעל ארמית"
+     ],
+     "confidence": 1,
+     "why": "The married son-in-law had illicit relations with a gentile woman.",
+     "quotes_failed": false
+    },
+    {
+     "tag": "social:relations_with_sinners",
+     "scope": "span",
+     "quotes": [
+      "סיפר לו בקובלנא רבא על חתנו"
+     ],
+     "confidence": 1,
+     "why": "The son-in-law's sin is brought before the Besht.",
+     "quotes_failed": false
+    },
+    {
+     "tag": "women:mention_only",
+     "scope": "span",
+     "quotes": [
+      "בעלו ארמית"
+     ],
+     "confidence": 2,
+     "why": "A gentile woman is referred to but does not act.",
+     "quotes_failed": false
+    }
+   ],
+   "missing_concepts": [
+    "testing the tzaddik's learning (am ha-aretz accusation)",
+    "spying on the tzaddik in secret"
+   ],
+   "start_quote_found": true,
+   "end_quote_found": true
+  }
+ ],
+ "check": {
+  "non_vocab_tags": [],
+  "quotes": 17,
+  "quotes_not_found": 0
+ },
+ "id": "Khal-Hasidim_0099"
+}

@@ -1,0 +1,393 @@
+{
+ "unit": {
+  "kind": "hasidic_story",
+  "why": "A single biographical narrative of how the Shpoler Zeide, R. Leib of Shpola, lived hidden and was finally revealed, told as a chain of episodes and framed by an oral transmission chain.",
+  "boundary_note": ""
+ },
+ "stories": [
+  {
+   "k": 1,
+   "start_quote": "עתה נספר מעט מזעיר מהתגלות הרב הקדוש",
+   "end_quote": "והיו נוסעים אליו מכל המקומות",
+   "hasidic": true,
+   "summary_en": "R. Leib of Shpola is a hidden tzaddik: he visits the Besht, works as a teacher, shochet and dayan, sees through a drunken examiner and quarrels over an agunah, wanders in disguise with R. Mordechai of Neshkhiz and R. Yaakov of Zaslav (including a fracas at a circumcision feast), visits Neshkhiz, and is finally revealed as a holy man while serving as shamash in Zlatopol, after which he settles in Shpola.",
+   "tags": [
+    {
+     "tag": "folkloristics:story_type_revelation",
+     "scope": "story",
+     "quotes": [],
+     "confidence": 3,
+     "why": "The story narrates the revelation of a hidden tzaddik.",
+     "quotes_failed": false
+    },
+    {
+     "tag": "characters-and-roles:hidden_righteous",
+     "scope": "span",
+     "quotes": [
+      "שם תיכף המסוה על פניו ויסתר מבני האדם",
+      "ובמסתרים היה עוסק בתורה ובעבודה"
+     ],
+     "confidence": 3,
+     "why": "He conceals his holiness from others.",
+     "quotes_failed": false
+    },
+    {
+     "tag": "practice:storytelling",
+     "scope": "span",
+     "quotes": [
+      "ואנכי שמעתי את כל זאת מ הרב מ זלאטפאלע"
+     ],
+     "confidence": 2,
+     "why": "The tale is framed by a chain of oral transmission.",
+     "quotes_failed": false
+    },
+    {
+     "tag": "practice:travel_to_other_tsaddik",
+     "scope": "span",
+     "quotes": [
+      "היה אצל הבעש\"ט ז\"ל כי התגנב מאביו",
+      "הלך הסבא ל נישחיז ורצה לכנוס להרב"
+     ],
+     "confidence": 3,
+     "why": "He visits the Besht and later R. Mordechai of Neshkhiz.",
+     "quotes_failed": false
+    },
+    {
+     "tag": "characters-and-roles:the_family_of_the_tsaddik",
+     "scope": "span",
+     "quotes": [
+      "רעה גדולה עשה לו אביו אשר לא הניחו"
+     ],
+     "confidence": 2,
+     "why": "His father prevents a second visit to the Besht.",
+     "quotes_failed": false
+    },
+    {
+     "tag": "characters-and-roles:ritual_slaughterer",
+     "scope": "span",
+     "quotes": [
+      "נעשה שוחט ובודק בכפר",
+      "נסע אז שוחט אחד לבחון השוחטים"
+     ],
+     "confidence": 3,
+     "why": "He works as a shochet, and the examining shochet plays a role.",
+     "quotes_failed": false
+    },
+    {
+     "tag": "practice:ritual_slaughtering",
+     "scope": "span",
+     "quotes": [
+      "למד השחזת הסכין כאומן נפלא",
+      "ועשה בו פגימה לראות אם ירגיש"
+     ],
+     "confidence": 3,
+     "why": "Learning slaughter, the knife inspection and the examination of shochtim.",
+     "quotes_failed": false
+    },
+    {
+     "tag": "practice:drinking_alcohol",
+     "scope": "span",
+     "quotes": [
+      "היה קל הדעת ואוהב השתיי׳",
+      "היה שיכור מאוד"
+     ],
+     "confidence": 1,
+     "why": "The examiner's drunkenness drives the episode.",
+     "quotes_failed": false
+    },
+    {
+     "tag": "ethics-and-emotions:lying",
+     "scope": "span",
+     "quotes": [
+      "ובא לפניו ואמר העברתיו על המשחזת"
+     ],
+     "confidence": 2,
+     "why": "He deceives the examiner to test him.",
+     "quotes_failed": false
+    },
+    {
+     "tag": "ethics-and-emotions:sadness",
+     "scope": "span",
+     "quotes": [
+      "בכה מאוד על המעשה הזאת"
+     ],
+     "confidence": 1,
+     "why": "He weeps at the corruption of the system.",
+     "quotes_failed": false
+    },
+    {
+     "tag": "characters-and-roles:agunah",
+     "scope": "span",
+     "quotes": [
+      "על דבר עסק עגונה אחת אשר הוא התיר אותה"
+     ],
+     "confidence": 3,
+     "why": "An agunah case is the subject of a dispute.",
+     "quotes_failed": false
+    },
+    {
+     "tag": "practice:releasing_agunot",
+     "scope": "span",
+     "quotes": [
+      "עגונה אחת אשר הוא התיר אותה והמה אסרוה"
+     ],
+     "confidence": 2,
+     "why": "He rules to free an agunah.",
+     "quotes_failed": false
+    },
+    {
+     "tag": "practice:halakhah",
+     "scope": "span",
+     "quotes": [
+      "והדין היה עמו כאשר הראה בראיות ברורות",
+      "ולבחון אותם אם המה בקיאים בדינים"
+     ],
+     "confidence": 3,
+     "why": "Halakhic rulings and the testing of slaughterers.",
+     "quotes_failed": false
+    },
+    {
+     "tag": "social:conflict",
+     "scope": "span",
+     "quotes": [
+      "היה לו ריב עם הרבנים אשר בסביבה"
+     ],
+     "confidence": 3,
+     "why": "His dispute with the local rabbis, and the clash with the host of the circumcision.",
+     "quotes_failed": false
+    },
+    {
+     "tag": "practice:clothing",
+     "scope": "span",
+     "quotes": [
+      "התחפש בבגדי עני והלך בגולה",
+      "לבוש כאיש עני ואגודת חפציו המטולאים"
+     ],
+     "confidence": 2,
+     "why": "Poor clothing serves as his disguise.",
+     "quotes_failed": false
+    },
+    {
+     "tag": "practice:the_travels_of_the_tsaddik",
+     "scope": "span",
+     "quotes": [
+      "והלך בגולה זמן רב",
+      "ונתועדו כולם לילך יחד בגולה"
+     ],
+     "confidence": 3,
+     "why": "His wandering in exile (galut) frames several episodes.",
+     "quotes_failed": false
+    },
+    {
+     "tag": "supernatural:perception",
+     "scope": "span",
+     "quotes": [
+      "תיכף כאשר הניח ידיו על ראשו הרגיש בו"
+     ],
+     "confidence": 3,
+     "why": "R. Michel senses his hidden greatness.",
+     "quotes_failed": false
+    },
+    {
+     "tag": "times:shabbat",
+     "scope": "span",
+     "quotes": [
+      "ואחר קבלת שבת היה דרכו לברך"
+     ],
+     "confidence": 2,
+     "why": "The Zlotchov episode takes place on Shabbat.",
+     "quotes_failed": false
+    },
+    {
+     "tag": "practice:circumcision",
+     "scope": "span",
+     "quotes": [
+      "על סעודת ברית מילה",
+      "ויחר אף הבעל ברית"
+     ],
+     "confidence": 3,
+     "why": "The circumcision feast is the setting of the episode.",
+     "quotes_failed": false
+    },
+    {
+     "tag": "supernatural:prognostication",
+     "scope": "span",
+     "quotes": [
+      "נתהוה מדובר ביניהם כי ר' מרדכי יהיה לרב",
+      "נתקבל הרב ר' מרדכי לאב בית דין"
+     ],
+     "confidence": 2,
+     "why": "The appointment they declared comes true.",
+     "quotes_failed": false
+    },
+    {
+     "tag": "ethics-and-emotions:anger",
+     "scope": "span",
+     "quotes": [
+      "ויחרה לבעל הברית מאוד ויגש אליהם",
+      "ויכה את הרב ר' מרדכי על הלחי"
+     ],
+     "confidence": 3,
+     "why": "The host's rage and the blow he strikes.",
+     "quotes_failed": false
+    },
+    {
+     "tag": "ethics-and-emotions:shame",
+     "scope": "span",
+     "quotes": [
+      "ויהיו לצחוק בעיני כל הקרואים"
+     ],
+     "confidence": 2,
+     "why": "The guests mock them.",
+     "quotes_failed": false
+    },
+    {
+     "tag": "supernatural:miracle",
+     "scope": "span",
+     "quotes": [
+      "בעזר האל לא מצאו אותם אף כי המה חפשו תחת המטה"
+     ],
+     "confidence": 3,
+     "why": "They are miraculously not found.",
+     "quotes_failed": false
+    },
+    {
+     "tag": "practice:pidyon_nefesh",
+     "scope": "span",
+     "quotes": [
+      "ובזאת עשו פדיון השני רבנים הנ\"ל"
+     ],
+     "confidence": 2,
+     "why": "The eggs and produce served as a redemption that averted the danger.",
+     "quotes_failed": false
+    },
+    {
+     "tag": "practice:protection",
+     "scope": "span",
+     "quotes": [
+      "ולקח הנגיד אתו אנשי חיל וילכו אתו לקחתם במשמר"
+     ],
+     "confidence": 1,
+     "why": "Divine protection from the host's armed men.",
+     "quotes_failed": false
+    },
+    {
+     "tag": "times:inauguration",
+     "scope": "span",
+     "quotes": [
+      "נתקבל הרב ר' מרדכי לאב בית דין ב נישחיז ונתגלה שם"
+     ],
+     "confidence": 2,
+     "why": "R. Mordechai is installed and revealed as a leader.",
+     "quotes_failed": false
+    },
+    {
+     "tag": "practice:reception_of_hasidim",
+     "scope": "span",
+     "quotes": [
+      "ושומרי הפתח לא הניחו אותם להכנס אליו",
+      "ויאמר להגבאי שלו מהר לפתוח לו"
+     ],
+     "confidence": 2,
+     "why": "Access to the rebbe at his court.",
+     "quotes_failed": false
+    },
+    {
+     "tag": "spaces:institutions_hassidic_court",
+     "scope": "span",
+     "quotes": [
+      "מצא סביבות הפתח המון רב מבני ישראל"
+     ],
+     "confidence": 2,
+     "why": "The crowded court of Neshkhiz.",
+     "quotes_failed": false
+    },
+    {
+     "tag": "social:inter_hasidic",
+     "scope": "span",
+     "quotes": [
+      "שם דברו ביחידות הרבה",
+      "שמעו כי קנטרו זה לזה בדברים"
+     ],
+     "confidence": 2,
+     "why": "Exchanges between fellow tzaddikim.",
+     "quotes_failed": false
+    },
+    {
+     "tag": "spaces:beth_midrash",
+     "scope": "span",
+     "quotes": [
+      "ונעשה שמש בבית המדרש"
+     ],
+     "confidence": 2,
+     "why": "He serves as shamash of the study hall.",
+     "quotes_failed": false
+    },
+    {
+     "tag": "social:retrospective_recognition",
+     "scope": "span",
+     "quotes": [
+      "נתגלה להם כי איש אלקים קדוש הוא"
+     ],
+     "confidence": 3,
+     "why": "The townspeople belatedly recognize his holiness.",
+     "quotes_failed": false
+    },
+    {
+     "tag": "practice:travel_to_the_tsaddik",
+     "scope": "span",
+     "quotes": [
+      "והיו נוסעים אליו מכל המקומות",
+      "נהרו אליו מארבע פנות העולם"
+     ],
+     "confidence": 2,
+     "why": "Followers stream to the revealed tzaddikim.",
+     "quotes_failed": false
+    },
+    {
+     "tag": "practice:study",
+     "scope": "span",
+     "quotes": [
+      "בנערותו היה עילוי גדול בלימוד"
+     ],
+     "confidence": 1,
+     "why": "His prodigious and secret Torah study.",
+     "quotes_failed": false
+    },
+    {
+     "tag": "ethics-and-emotions:humility",
+     "scope": "span",
+     "quotes": [
+      "לא רצה לקבל על עצמו שום רבנות ולא שום התמנות"
+     ],
+     "confidence": 2,
+     "why": "He refuses office.",
+     "quotes_failed": false
+    },
+    {
+     "tag": "women:mention_only",
+     "scope": "span",
+     "quotes": [
+      "העמיסו עליו הכפרי ואשתו"
+     ],
+     "confidence": 2,
+     "why": "The villager's wife is mentioned only.",
+     "quotes_failed": false
+    }
+   ],
+   "missing_concepts": [
+    "the tzaddik's successive occupations (melamed, shochet, dayan, shamash) while hidden",
+    "galut (self-imposed exile wandering) as a spiritual practice",
+    "corruption of rabbinic supervision of shochtim"
+   ],
+   "start_quote_found": true,
+   "end_quote_found": true
+  }
+ ],
+ "check": {
+  "non_vocab_tags": [],
+  "quotes": 48,
+  "quotes_not_found": 0
+ },
+ "id": "Sipurei-Zadikim_0007"
+}

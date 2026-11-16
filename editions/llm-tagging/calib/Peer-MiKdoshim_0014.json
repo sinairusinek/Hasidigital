@@ -1,0 +1,235 @@
+{
+ "unit": {
+  "kind": "hasidic_story",
+  "why": "A single narrative about the Belz tzaddik. He urges a tax-farmer travelling with a bride and groom to confess. The party is saved from a swamp by a peasant whom the tzaddik sends through dreams, and the peasant then tells his own earlier encounter with the tzaddik.",
+  "boundary_note": ""
+ },
+ "stories": [
+  {
+   "k": 1,
+   "start_quote": "ועוד מעשה נפלאה מהצדיק הגאון הקדוש",
+   "end_quote": "ועוד תגדל בו אמונתו יותר ויותר",
+   "hasidic": true,
+   "summary_en": "A tax-farmer brings his daughter and her groom to the Belz tzaddik for a blessing and is told to confess on the way. Lost in a swamp at night, they confess and are rescued by a gentile peasant. Earlier, the tzaddik had cleared the peasant of a theft charge on condition that he befriend Jews, and that night he appeared to him three times in a dream and sent him to save them.",
+   "tags": [
+    {
+     "tag": "folkloristics:story_type_protection",
+     "scope": "story",
+     "quotes": [],
+     "confidence": 3,
+     "why": "The tzaddik's intervention saves the party from drowning in the swamp.",
+     "quotes_failed": false
+    },
+    {
+     "tag": "practice:lifesaving",
+     "scope": "span",
+     "quotes": [
+      "חיש למלט נפשות יהודים הטובעים עתה בבוץ",
+      "הסוסים יטבעו בבוץ"
+     ],
+     "confidence": 3,
+     "why": "The tzaddik rescues people from imminent death.",
+     "quotes_failed": false
+    },
+    {
+     "tag": "practice:protection",
+     "scope": "span",
+     "quotes": [
+      "חיש למלט נפשות יהודים הטובעים עתה בבוץ"
+     ],
+     "confidence": 3,
+     "why": "The tzaddik shields the travellers from danger.",
+     "quotes_failed": false
+    },
+    {
+     "tag": "practice:travel_to_the_tsaddik",
+     "scope": "span",
+     "quotes": [
+      "ויסע ל בעלץ אל הצדיק לברכם",
+      "ונמצאו למבוקשתי ונסעו עמדי ל בעלץ"
+     ],
+     "confidence": 3,
+     "why": "Both the tax-farmer and the peasant journey to Belz.",
+     "quotes_failed": false
+    },
+    {
+     "tag": "practice:reception_of_hasidim",
+     "scope": "span",
+     "quotes": [
+      "לא יכלו עד מהרה לגשת אל הקדוש"
+     ],
+     "confidence": 2,
+     "why": "The audience with the tzaddik is depicted.",
+     "quotes_failed": false
+    },
+    {
+     "tag": "ethics-and-emotions:repentance",
+     "scope": "span",
+     "quotes": [
+      "ראוי ונכון לאיש כי יתודה על עונותיו בדרך",
+      "ויתוודו כל אחד על כל חטאתיו"
+     ],
+     "confidence": 3,
+     "why": "The characters confess their sins.",
+     "quotes_failed": false
+    },
+    {
+     "tag": "practice:prayer",
+     "scope": "span",
+     "quotes": [
+      "והתחילו לבכות זעקה גדולה ומרה"
+     ],
+     "confidence": 2,
+     "why": "They cry out to God in distress.",
+     "quotes_failed": false
+    },
+    {
+     "tag": "experience:dream",
+     "scope": "span",
+     "quotes": [
+      "והנה בליל זו בחלום נראה לי הצדיק מ בעלז",
+      "ונראה אלי בשלישית ויאחזני בציצית ראשי"
+     ],
+     "confidence": 3,
+     "why": "The tzaddik appears to the peasant in a dream and sends him to help.",
+     "quotes_failed": false
+    },
+    {
+     "tag": "supernatural:perception",
+     "scope": "span",
+     "quotes": [
+      "ראוי ונכון לאיש כי יתודה על עונותיו בדרך"
+     ],
+     "confidence": 2,
+     "why": "The tzaddik foresees the danger on the road.",
+     "quotes_failed": false
+    },
+    {
+     "tag": "supernatural:prognostication",
+     "scope": "span",
+     "quotes": [
+      "תמצא הסוסים בעוד ימים שלשה ביריד הזה",
+      "כי מצאתי הסוסים על היריד והכרתים תיכף"
+     ],
+     "confidence": 3,
+     "why": "His prediction about the lost horses comes true.",
+     "quotes_failed": false
+    },
+    {
+     "tag": "supernatural:miracle",
+     "scope": "span",
+     "quotes": [
+      "חיש למלט נפשות יהודים הטובעים עתה בבוץ"
+     ],
+     "confidence": 2,
+     "why": "A miraculous rescue in a trackless place.",
+     "quotes_failed": false
+    },
+    {
+     "tag": "social:relations_with_non_jews",
+     "scope": "span",
+     "quotes": [
+      "אם תבטיחני להיות מאוהבי יהודים",
+      "ויסכו כוס יין שרף עבור הכפרי"
+     ],
+     "confidence": 3,
+     "why": "A gentile peasant and his lord play central roles.",
+     "quotes_failed": false
+    },
+    {
+     "tag": "social:retrospective_recognition",
+     "scope": "span",
+     "quotes": [
+      "בגזרת הצדיק מ בעלץ"
+     ],
+     "confidence": 2,
+     "why": "The travellers realise afterwards that the tzaddik's words and the rescue were connected.",
+     "quotes_failed": false
+    },
+    {
+     "tag": "ethics-and-emotions:fear",
+     "scope": "span",
+     "quotes": [
+      "ועברו עליהם מי המבוכה הנוראה"
+     ],
+     "confidence": 2,
+     "why": "The travellers are terrified in the swamp.",
+     "quotes_failed": false
+    },
+    {
+     "tag": "practice:drinking_alcohol",
+     "scope": "span",
+     "quotes": [
+      "ויסכו כוס יין שרף עבור הכפרי"
+     ],
+     "confidence": 2,
+     "why": "They pour brandy for the peasant at the inn.",
+     "quotes_failed": false
+    },
+    {
+     "tag": "social:marriage",
+     "scope": "span",
+     "quotes": [
+      "כי לא ברך שום אשה זולתי כלה בתולה קודם חופתה"
+     ],
+     "confidence": 2,
+     "why": "The journey is made to bless a couple before their wedding.",
+     "quotes_failed": false
+    },
+    {
+     "tag": "women:minor_character",
+     "scope": "span",
+     "quotes": [
+      "ותוסף לרוץ אחרי העגלה ותזכירהו לבל ישכח"
+     ],
+     "confidence": 3,
+     "why": "The wife acts by sending her requests with her husband.",
+     "quotes_failed": false
+    },
+    {
+     "tag": "practice:torat_ha_tsaddik",
+     "scope": "span",
+     "quotes": [
+      "כל המאמין בצדיקים ובפרט שידע והכיר את הצדיק"
+     ],
+     "confidence": 2,
+     "why": "The closing moral is about faith in tzaddikim.",
+     "quotes_failed": false
+    },
+    {
+     "tag": "practice:storytelling",
+     "scope": "span",
+     "quotes": [
+      "כן סיפר להם הערל הכפר"
+     ],
+     "confidence": 1,
+     "why": "An embedded tale is told by the peasant.",
+     "quotes_failed": false
+    },
+    {
+     "tag": "social:relations_with_the_authorities",
+     "scope": "span",
+     "quotes": [
+      "והעליל עלי כי אנכי בעצמי גנבתים ומכרתים"
+     ],
+     "confidence": 1,
+     "why": "The peasant's lord imprisons him; the lord is a local nobleman rather than a state official.",
+     "quotes_failed": false
+    }
+   ],
+   "missing_concepts": [
+    "confession (vidui) as a ritual of protection on a journey",
+    "false accusation of theft",
+    "a righteous gentile as the tzaddik's agent"
+   ],
+   "start_quote_found": true,
+   "end_quote_found": true
+  }
+ ],
+ "check": {
+  "non_vocab_tags": [],
+  "quotes": 25,
+  "quotes_not_found": 0
+ },
+ "id": "Peer-MiKdoshim_0014"
+}

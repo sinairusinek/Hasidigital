@@ -1,0 +1,111 @@
+{
+ "unit": {
+  "kind": "hasidic_story",
+  "why": "A single narrative: the Besht and the mokhiah visit a haunted house in Nemirov, the Besht lets the mokhiah see the demon, and he then declines to expel it.",
+  "boundary_note": ""
+ },
+ "stories": [
+  {
+   "k": 1,
+   "start_quote": "מעשה בק\"ק נעמרוב שהיה בית",
+   "end_quote": "שיגרש אותו ולא רצה",
+   "hasidic": true,
+   "summary_en": "In Nemirov the Besht is asked to inspect an unclean house. He sees a demon there and lets the accompanying mokhiah see it by having him shut and open his eyes. The demon stands turned to the wall in shame, the mokhiah grows afraid, and the Besht refuses the householder's request to drive it out.",
+   "tags": [
+    {
+     "tag": "characters-and-roles:demons",
+     "scope": "span",
+     "quotes": [
+      "וראה שם מזיק אחד עומד שם",
+      "ומראהו כמראה ענן לתכלית החושך"
+     ],
+     "confidence": 3,
+     "why": "A mazik haunts the house and is seen.",
+     "quotes_failed": false
+    },
+    {
+     "tag": "characters-and-roles:preacher",
+     "scope": "span",
+     "quotes": [
+      "וביקש המוכיח שילך גם הוא עמו"
+     ],
+     "confidence": 2,
+     "why": "The mokhiah (preacher/reprover) is a distinct character beside the Besht.",
+     "quotes_failed": false
+    },
+    {
+     "tag": "supernatural:perception",
+     "scope": "span",
+     "quotes": [
+      "וראה שם מזיק אחד עומד שם"
+     ],
+     "confidence": 3,
+     "why": "The Besht sees the demon, which the mokhiah cannot see.",
+     "quotes_failed": false
+    },
+    {
+     "tag": "experience:visions",
+     "scope": "span",
+     "quotes": [
+      "וראה אותו עומד בזויות הבית ופניו כלפי הכותל"
+     ],
+     "confidence": 3,
+     "why": "The mokhiah sees a supernatural sight while awake.",
+     "quotes_failed": false
+    },
+    {
+     "tag": "ethics-and-emotions:fear",
+     "scope": "span",
+     "quotes": [
+      "אבל את׳ תתפחד",
+      "ואח״כ התחיל המוכיח להתפחד"
+     ],
+     "confidence": 3,
+     "why": "The mokhiah becomes afraid at the sight of the demon.",
+     "quotes_failed": false
+    },
+    {
+     "tag": "ethics-and-emotions:shame",
+     "scope": "span",
+     "quotes": [
+      "והשיב שנתבייש ממני"
+     ],
+     "confidence": 1,
+     "why": "The demon turns its face away out of shame before the Besht.",
+     "quotes_failed": false
+    },
+    {
+     "tag": "supernatural:miracle",
+     "scope": "span",
+     "quotes": [
+      "אמר לו עצום עינך ופתח כמה פעמים"
+     ],
+     "confidence": 1,
+     "why": "The Besht's procedure opens and closes the mokhiah's supernatural sight.",
+     "quotes_failed": false
+    },
+    {
+     "tag": "social:inter_hasidic",
+     "scope": "story",
+     "quotes": [],
+     "confidence": 1,
+     "why": "The Besht and the mokhiah interact as companions.",
+     "quotes_failed": false
+    }
+   ],
+   "missing_concepts": [
+    "haunted house",
+    "tsaddik refuses to exorcise a demon",
+    "imparting supernatural sight to another person"
+   ],
+   "start_quote_found": true,
+   "end_quote_found": true
+  }
+ ],
+ "check": {
+  "non_vocab_tags": [],
+  "quotes": 9,
+  "quotes_not_found": 0
+ },
+ "id": "Shivhei-Habesht_0125"
+}
