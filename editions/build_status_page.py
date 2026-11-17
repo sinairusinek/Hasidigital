@@ -8,6 +8,7 @@ editions/online and editions/incoming/ready, so the page is always current with 
 """
 import csv
 import html
+import json
 import re
 from collections import Counter
 from datetime import date
@@ -48,6 +49,39 @@ def resolve(name, files):
         return stem
     base = re.split(r"_(?:Hebrewbooks|NLI|archive|HathiTrust|Hebraica)", stem)[0]
     return base if base in files else None
+
+
+TRP_LINK = "https://app.transkribus.org/collection/49371/doc/{}/edit?pageNr=1"
+SITE_STORY = "https://www.hasidic-stories.org/Story/{}/{}"
+
+
+def first_story_id(path):
+    for tag in re.findall(r'<div\b[^>]*type="story"[^>]*>', path.read_text(encoding="utf-8")):
+        m = re.search(r'xml:id="([^"]+)"', tag)
+        if m:
+            return m.group(1)
+    return None
+
+
+def links(r, files):
+    """[(group, label, url)] for the hover popover on the work name."""
+    out = []
+    for u in (x.strip() for x in r["nli_link"].split("|")):
+        if u and not any(u.split("/NLI")[0].replace("beta.", "www.") == o[2].split("/NLI")[0] for o in out):
+            out.append(("NLI", "NLI catalogue", u))
+    for u in (x.strip() for x in r["hebrewbooks_link"].split("|")):
+        if u:
+            out.append(("HebrewBooks", "HebrewBooks", u))
+    for d in r["trp_main_docs"].split():
+        out.append(("Transkribus", f"doc {d}", TRP_LINK.format(d)))
+    for d, role in re.findall(r"(\d{5,})(?:\(([^)]*)\))?", r["trp_other_docs"]):
+        out.append(("Transkribus", f"doc {d} ({role or 'other scan'})", TRP_LINK.format(d)))
+    key = resolve(r["xml"], files) if r["xml"] else None
+    if key and files[key][1] == "online":
+        sid = first_story_id(files[key][0])
+        if sid:
+            out.append(("Online", "hasidic-stories.org (first story)", SITE_STORY.format(key, sid)))
+    return out
 
 
 def stories_and_women(path):
@@ -187,7 +221,7 @@ def main():
         tds = "".join(f'<td class="{c[s][0]}" title="{html.escape(c[s][1])}">{html.escape(c[s][1]) if s in ("Decision", "Stories") else ""}</td>'
                       for s in STAGES)
         body.append(f'<tr data-step="{html.escape(step)}" class="{"no" if r["decision"] == "no" else ""}">'
-                    f'<td class="num">{r["nu"] or "—"}</td><td class="work" dir="rtl">{html.escape(r["work"])}</td>'
+                    f'<td class="num">{r["nu"] or "—"}</td><td class="work" dir="rtl" tabindex="0" data-links="{html.escape(json.dumps(links(r, files), ensure_ascii=False))}">{html.escape(r["work"])}</td>'
                     f'<td class="num">{r["edition_year"]}</td>{tds}<td class="step">{html.escape(r["next_step"])}</td></tr>')
 
     legend = "".join(f'<span><i class="{k}"></i>{v}</span>' for k, v in LABELS.items())
@@ -200,14 +234,14 @@ def main():
 
 TEMPLATE = """<!doctype html>
 <html lang="en"><head><meta charset="utf-8"><meta name="viewport" content="width=device-width, initial-scale=1">
-<title>Edition Status</title>
+<title>Hasidic Edition Status</title>
 <style>
 :root {{ --bg:#f7f7f5; --panel:#fff; --ink:#1f2328; --muted:#6a6f76; --line:#e3e3df;
   --done:#2f8f5b; --part:#e0a526; --todo:#e9e9e4; --block:#c8553d; --na:#f1f1ee; --accent:#2f5d8a; }}
 @media (prefers-color-scheme: dark) {{ :root:not([data-theme="light"]) {{ --bg:#16181b; --panel:#1e2125; --ink:#e6e6e3;
-  --muted:#9aa0a6; --line:#2e3237; --done:#3fa66d; --part:#d29b27; --todo:#2b2f34; --block:#d0644c; --na:#1b1d20; --accent:#7fa8d1; }} }}
+  --muted:#9aa0a6; --line:#2e3237; --done:#3fa66d; --part:#d29b27; --todo:#2b2f34; --block:#d0644c; --na:#1b1d20; --accent:#7fa8d1; color-scheme:dark; }} }}
 :root[data-theme="dark"] {{ --bg:#16181b; --panel:#1e2125; --ink:#e6e6e3; --muted:#9aa0a6; --line:#2e3237;
-  --done:#3fa66d; --part:#d29b27; --todo:#2b2f34; --block:#d0644c; --na:#1b1d20; --accent:#7fa8d1; }}
+  --done:#3fa66d; --part:#d29b27; --todo:#2b2f34; --block:#d0644c; --na:#1b1d20; --accent:#7fa8d1; color-scheme:dark; }}
 * {{ box-sizing:border-box; }}
 body {{ margin:0; padding:24px 16px; background:var(--bg); color:var(--ink); font:14px/1.45 -apple-system,BlinkMacSystemFont,"Segoe UI",sans-serif; }}
 h1 {{ margin:0 0 2px; font-size:22px; }} .sub {{ color:var(--muted); margin-bottom:20px; }}
@@ -231,18 +265,52 @@ td.todo, i.todo {{ background:var(--todo); }} td.block, i.block {{ background:va
 td.na, i.na {{ background:var(--na); color:var(--muted); }}
 td.done, td.part, td.todo, td.block, td.na {{ min-width:58px; border-radius:2px; font-size:11px; }}
 th .cnt {{ font-weight:400; font-variant-numeric:tabular-nums; }}
+td.work {{ cursor:pointer; text-decoration:underline dotted var(--muted); text-underline-offset:3px; }}
+#pop {{ position:fixed; z-index:10; display:none; background:var(--panel); border:1px solid var(--line); border-radius:8px;
+  box-shadow:0 6px 20px rgba(0,0,0,.18); padding:10px 12px; font-size:12px; min-width:220px; max-width:min(340px, calc(100vw - 32px)); }}
+#pop .g {{ color:var(--muted); font-weight:600; margin:6px 0 2px; }} #pop .g:first-child {{ margin-top:0; }}
+#pop a {{ color:var(--accent); display:block; padding:2px 0; text-decoration:none; overflow-wrap:anywhere; }} #pop a:hover {{ text-decoration:underline; }}
+#pop .none {{ color:var(--muted); }}
 tr.no td.work {{ color:var(--muted); }} tr.hide {{ display:none; }}
 </style></head><body>
 <h1>Edition Status</h1>
 <div class="sub">Hasidic editions up to 1914 · {total} catalogued works · generated {date} from <code>edition-registry.tsv</code></div>
 <div class="funnel"><h2>Works reaching each stage (excluding the works decided “no”)</h2>{funnel}</div>
 <div class="chips">{chips}</div>
-<div class="legend">{legend}<span>Hover a cell for details</span></div>
+<div class="legend">{legend}<span>Hover a cell for details · hover or tap a work name for its NLI, Transkribus and site links</span></div>
 <div class="wrap"><table><thead><tr><th>#</th><th>Work</th><th>Year</th>{head}<th>Next step</th></tr></thead>
 <tbody>
 {body}
 </tbody></table></div>
+<div id="pop" role="dialog"></div>
 <script>
+const pop = document.getElementById('pop'); let hideT, cur;
+function esc(t) {{ const d = document.createElement('div'); d.textContent = t; return d.innerHTML; }}
+function show(td) {{
+  clearTimeout(hideT); cur = td;
+  const L = JSON.parse(td.dataset.links || '[]'); let h = '', g = '';
+  for (const [grp, label, url] of L) {{
+    if (grp !== g) {{ h += `<div class="g">${{esc(grp)}}</div>`; g = grp; }}
+    h += `<a href="${{esc(url)}}" target="_blank" rel="noopener">${{esc(label)}} ↗</a>`;
+  }}
+  pop.innerHTML = h || '<span class="none">No links recorded</span>';
+  pop.style.display = 'block';
+  const r = td.getBoundingClientRect(), pw = pop.offsetWidth, ph = pop.offsetHeight;
+  let x = Math.min(Math.max(8, r.left), innerWidth - pw - 8), y = r.bottom + 4;
+  if (y + ph > innerHeight - 8) y = Math.max(8, r.top - ph - 4);
+  pop.style.left = x + 'px'; pop.style.top = y + 'px';
+}}
+function hideSoon() {{ hideT = setTimeout(() => {{ pop.style.display = 'none'; cur = null; }}, 250); }}
+document.querySelectorAll('td.work').forEach(td => {{
+  td.addEventListener('mouseenter', () => show(td));
+  td.addEventListener('mouseleave', hideSoon);
+  td.addEventListener('focus', () => show(td));
+  td.addEventListener('click', e => {{ e.stopPropagation(); cur === td && pop.style.display === 'block' ? hideSoon() : show(td); }});
+}});
+pop.addEventListener('mouseenter', () => clearTimeout(hideT));
+pop.addEventListener('mouseleave', hideSoon);
+document.addEventListener('click', e => {{ if (!pop.contains(e.target)) {{ pop.style.display = 'none'; cur = null; }} }});
+addEventListener('scroll', () => {{ pop.style.display = 'none'; }}, true);
 document.querySelectorAll('.chip').forEach(b => b.onclick = () => {{
   document.querySelectorAll('.chip').forEach(x => x.classList.toggle('on', x === b));
   document.querySelectorAll('tbody tr').forEach(tr => tr.classList.toggle('hide', !!b.dataset.step && tr.dataset.step !== b.dataset.step));
