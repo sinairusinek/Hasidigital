@@ -82,10 +82,12 @@ svg.links path.hot { stroke: var(--jewish); stroke-opacity: 1; stroke-width: 2.2
 #flow { display: block; min-width: 680px; width: 100%; }
 #flow text { fill: var(--ink); font: 12px var(--f-body); }
 #flow text.num { fill: var(--muted); font: 11px var(--f-mono); }
-.tabs { display: flex; gap: 4px; border-bottom: 1px solid var(--rule); overflow-x: auto; }
-.tabs button { font: 500 .92rem var(--f-body); color: var(--muted); background: none; border: 0; border-bottom: 3px solid transparent;
-  padding: 8px 12px; cursor: pointer; white-space: nowrap; }
-.tabs button[aria-selected="true"] { color: var(--ink); border-bottom-color: var(--jewish); }
+.tabs { display: flex; gap: 6px; overflow-x: auto; position: sticky; top: 0; z-index: 10;
+  background: var(--bg); padding: 10px 0; border-bottom: 1px solid var(--rule); }
+.tabs button { font: 600 .95rem var(--f-body); color: var(--ink); background: var(--panel); border: 1px solid var(--rule);
+  border-radius: 6px; padding: 9px 16px; cursor: pointer; white-space: nowrap; }
+.tabs button:hover { border-color: var(--jewish); }
+.tabs button[aria-selected="true"] { background: var(--jewish); border-color: var(--jewish); color: #fff; }
 .tabs button:focus-visible, .seg button:focus-visible { outline: 2px solid var(--jewish); outline-offset: 2px; }
 .tabpanel { display: grid; gap: 28px; }
 .tabpanel[hidden] { display: none; }
