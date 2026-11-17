@@ -29,6 +29,45 @@ BOOKS = Path.home() / "Documents" / "Hasidigital-data" / "books"
 ZENODO_V1 = {"Shivhei-Habesht", "Shivhei-Harav", "Sipurei-Zadikim", "Khal-Hasidim", "Khal-Kdoshim",
              "Adat-Zadikim", "maase-zadikim", "Mifalot-HaZadikim", "PeerMikdoshim"}
 
+# cross-edition near-duplicates (find_duplicate_stories.py, e5 embeddings, cosine >= 0.99); that run covered
+# editions/online only, on 2026-06-01. Update DUP_RUN when it is re-run, and the scope if it covers incoming too.
+DUPLICATES = REPO / "editions" / "story-duplicates.tsv"
+DUP_RUN = "2026-06-01"
+
+
+def story_summary(files):
+    """HTML for the totals line: stories per location over distinct TEI files, plus the duplicate count."""
+    n = Counter()
+    ed = Counter()
+    for stem, (path, loc) in files.items():
+        n[loc] += stories_and_women(path)[0]
+        ed[loc] += 1
+    pairs = [r for r in tsv(DUPLICATES) if float(r["sim"]) >= 0.99]
+    parent = {}
+    def find(x):
+        parent.setdefault(x, x)
+        while parent[x] != x:
+            parent[x] = parent[parent[x]]
+            x = parent[x]
+        return x
+    for r in pairs:
+        parent[find(r["story_a"])] = find(r["story_b"])
+    involved = {x for x in parent}
+    groups = {find(x) for x in involved}
+    distinct = n["online"] - (len(involved) - len(groups))
+    total = sum(n.values())
+    parts = [f'{n["online"]:,} in {ed["online"]} editions online']
+    if ed["incoming"]:
+        parts.append(f'{n["incoming"]:,} in {ed["incoming"]} incoming editions')
+    if ed["check"]:
+        parts.append(f'{n["check"]:,} in {ed["check"]} editions under structure check')
+    return (f'<div class="tot"><div><b>{total:,}</b> stories in {sum(ed.values())} TEI editions '
+            f'({", ".join(parts)})</div>'
+            f'<div><b>{len(pairs)}</b> cross-edition duplicate pairs ({len(involved)} stories) among the online editions, '
+            f'so {distinct:,} distinct stories there. Near-identical texts only (embedding similarity ≥ 0.99, run {DUP_RUN}); '
+            f'the incoming editions are not yet checked for duplicates, and looser retellings are not counted.</div></div>')
+
+
 STAGES = ["Decision", "Scan", "Transkribus", "Scan QA", "Layout test", "Layout", "Transcribed", "TEI", "Stories", "Online", "Women", "Zenodo"]
 LABELS = {"done": "Done", "part": "In progress / partial", "todo": "Not started",
           "block": "Blocked (needs a scan or Gadi)", "na": "N/A"}
@@ -228,7 +267,7 @@ def main():
     done = lambda s: sum(1 for _, c, _ in active if c[s][0] == "done" or (s == "Layout test" and c[s][0] == "na"))
     head = "".join(f'<th>{s}<br><span class="cnt">{done(s)}/{n}</span></th>' for s in STAGES)
     OUT.write_text(TEMPLATE.format(date=date.today().isoformat(), total=len(data), active=n, funnel=funnel,
-                                   chips=chips, legend=legend, head=head, body="\n".join(body)), encoding="utf-8")
+                                   chips=chips, legend=legend, summary=story_summary(files), head=head, body="\n".join(body)), encoding="utf-8")
     print(f"wrote {OUT.relative_to(REPO)}: {len(data)} works")
 
 
@@ -245,6 +284,8 @@ TEMPLATE = """<!doctype html>
 * {{ box-sizing:border-box; }}
 body {{ margin:0; padding:24px 16px; background:var(--bg); color:var(--ink); font:14px/1.45 -apple-system,BlinkMacSystemFont,"Segoe UI",sans-serif; }}
 h1 {{ margin:0 0 2px; font-size:22px; }} .sub {{ color:var(--muted); margin-bottom:20px; }}
+.tot {{ background:var(--panel); border:1px solid var(--line); border-radius:8px; padding:12px 16px; max-width:640px; margin-bottom:12px; display:grid; gap:6px; }}
+.tot div:first-child {{ font-size:15px; }} .tot div + div {{ color:var(--muted); font-size:12.5px; }} .tot b {{ color:var(--ink); font-variant-numeric:tabular-nums; }}
 .funnel {{ background:var(--panel); border:1px solid var(--line); border-radius:8px; padding:14px 16px; max-width:640px; margin-bottom:18px; }}
 .funnel h2 {{ font-size:13px; margin:0 0 10px; color:var(--muted); font-weight:600; }}
 .frow {{ display:flex; align-items:center; gap:10px; margin:5px 0; }}
@@ -275,6 +316,7 @@ tr.no td.work {{ color:var(--muted); }} tr.hide {{ display:none; }}
 </style></head><body>
 <h1>Edition Status</h1>
 <div class="sub">Hasidic editions up to 1914 · {total} catalogued works · generated {date} from <code>edition-registry.tsv</code></div>
+{summary}
 <div class="funnel"><h2>Works reaching each stage (excluding the works decided “no”)</h2>{funnel}</div>
 <div class="chips">{chips}</div>
 <div class="legend">{legend}<span>Hover a cell for details · hover or tap a work name for its NLI, Transkribus and site links</span></div>
