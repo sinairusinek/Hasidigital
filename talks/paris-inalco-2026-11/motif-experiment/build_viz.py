@@ -2,9 +2,10 @@
 viz page template. Output goes to private/ because it quotes motif titles."""
 import csv
 import json
+import re
 from collections import Counter
 
-from common import HERE, OUT, SAMPLE_TSV, STEP1_DIR, STEP3_DIR, event_level, is_heading
+from common import HERE, OUT, STEP1_DIR, STEP3_DIR, event_level, is_heading
 
 META = {m["id"]: m for m in json.loads((OUT / "motif_meta.json").read_text())}
 CH = {"A": "Mythological", "B": "Animals", "C": "Tabu", "D": "Magic", "E": "The dead",
@@ -26,7 +27,13 @@ def kind(m):
 
 
 stories = []
-for r in csv.DictReader(open(SAMPLE_TSV), delimiter="\t"):
+SAMPLES = [HERE / "sample.tsv"] + sorted(HERE.glob("sample-round*.tsv"))  # pilot + every round
+rows, seen_ids = [], set()
+for f in SAMPLES:
+    for r in csv.DictReader(open(f), delimiter="\t"):
+        if r["story_id"] not in seen_ids:
+            seen_ids.add(r["story_id"]); rows.append(r)
+for r in rows:
     sid = r["story_id"]
     f4 = OUT / "step4" / f"{sid}.json"
     if not f4.exists():
@@ -83,12 +90,59 @@ for s in stories:
             links[("∅ no tag", chapter(code))] += 1
 flow = [{"source": a, "target": b, "value": v} for (a, b), v in links.items()]
 
+# gaps: how much of each system the other one fails to represent (bubble packs)
+def tnum(code):
+    m = re.match(r"([A-Z])(\d+)", re.sub(r"#\d+$", "", code.replace("Noy ", "")))
+    return (m.group(1), int(m.group(2))) if m else (code[:1], 0)
+
+
+def mtitle(code):
+    return (META.get(code) or {}).get("title", "")
+
+
+tag_use, tag_gap = Counter(), Counter()
+mot_use, mot_gap = Counter(), Counter()
+for s in stories:
+    for t in s["tags"]:
+        ms = [m for m in (t["motifs"] or []) if m in META]
+        tag_use[t["tag"]] += 1
+        if t["relation"] == "no_counterpart" or not ms:
+            tag_gap[t["tag"]] += 1
+    for code, tg in s["motif_tags"].items():
+        if code not in META:
+            continue
+        mot_use[code] += 1
+        if not tg:
+            mot_gap[code] += 1
+cats = {}
+for tag in tag_use:
+    cat, _, sub = tag.partition(":")
+    cats.setdefault(cat, []).append({"name": sub or cat, "id": tag, "use": tag_use[tag], "gap": tag_gap[tag]})
+tag_tree = {"name": "Our tags", "children": [{"name": c, "children": v} for c, v in sorted(cats.items())]}
+tree = {}
+for code in mot_use:
+    L, n = tnum(code)
+    blk, ten = f"{L}{n // 100 * 100}", f"{L}{n // 10 * 10}"
+    leaf = {"name": code, "id": code, "title": mtitle(code), "kind": kind(META[code]),
+            "use": mot_use[code], "gap": mot_gap[code]}
+    tree.setdefault(L, {}).setdefault(blk, {}).setdefault(ten, []).append(leaf)
+mot_tree = {"name": "Motifs", "children": [
+    {"name": L, "title": CH.get(L, ""), "children": [
+        {"name": b, "title": mtitle(b), "children": [
+            {"name": t, "title": mtitle(t), "children": lv} for t, lv in sorted(tens.items())]}
+        for b, tens in sorted(blks.items())]}
+    for L, blks in sorted(tree.items())]}
+gaps = {"tags": tag_tree, "motifs": mot_tree,
+        "totals": {"tag_use": sum(tag_use.values()), "tag_gap": sum(tag_gap.values()),
+                   "mot_use": sum(mot_use.values()), "mot_gap": sum(mot_gap.values()),
+                   "tags": len(tag_use), "motifs": len(mot_use)}}
+
 ev = [e for s in stories for e in s["events"]]
 cov = Counter(e["coverage"] for e in ev)
 covw = Counter(e["coverage_wider"] or "none" for e in ev)
 rel = Counter(t["relation"] for s in stories for t in s["tags"])
 levels = Counter(e["level"] for e in ev)
-data = {"stories": stories, "flow": flow, "chapters": CH,
+data = {"stories": stories, "flow": flow, "chapters": CH, "gaps": gaps,
         "stats": {"stories": len(stories), "events": len(ev), "coverage": cov, "coverage_wider": covw,
                   "recall_done": any((OUT / "recall").glob("*.json")) if (OUT / "recall").exists() else False,
                   "propp_mean": round(sum(s["propp"]["fit"] for s in stories) / len(stories), 1),
