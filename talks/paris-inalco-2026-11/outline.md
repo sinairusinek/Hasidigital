@@ -32,6 +32,7 @@ Title: **"The Mayse Tagging Machine, between the AI and the PI"**
 2. Approaching content (topic/theme/motive?) annotation: the bewildered PI (because thinking of other users rather than his own scholarly interests). Trying a Nagelian "view from nowhere". Asking the chat, naive and incognito: superficial answers.
 3. Multi-view: building "you are a scholar of" agents. Going a little into the workings of LLM interaction (the agentic LLM goes to learn, then proposes).
 4. (How to lead to...) our eventual topic selection and the AI review of the team's annotation: the humans' low recall, high (but not perfect) precision.
+5. **The community comes in** (added 2026-11-17). Points 1–4 are told as if we were the only ones dealing with these stories; now see what happens when the field's shared schemas enter. The motif & Propp experiment (`motif-experiment/`, `results-summary.md`): 80 stories, events graded against Thompson + Noy as exact 10% / broader 53% / section heading only 37% / nothing 0.2%; Propp fit 1.7/5; 59% of our tags have no motif counterpart. Every event finds a shelf (V220 Saints, V50 Prayer…), but Hasidic events lack specific motifs. Here also the starred local types (Haboucha's 930\*J, the IFA's oicotypes): the community's own extensions created from practice, often undescribed → offer: LLM drafts descriptions from the tales filed under a type, experts audit. Natural address to the IFA people in the room (Hasan-Rokem, Rubin).
 
 ## Theme to weave in (added 2026-11-10)
 
@@ -41,5 +42,5 @@ Title: **"The Mayse Tagging Machine, between the AI and the PI"**
   - The tag definitions began thin. The LLM audit exposed where definitions and the team's practice diverged, and the definitions were patched. The tag-definitions review with Chen and Gadi continues this.
   - The audit found that human tagging has high precision but low recall. The humans' intuition was right when it fired, but it did not apply the rules exhaustively.
   - The LLM applies written rules literally, and so exposes what the rules leave unsaid.
-- Parallel in the room: the starred local types (Haboucha's 930\*J, IFA's local types) are extensions created from practice, often without written descriptions. Offer: LLM drafts descriptions from the tales filed under a type → experts audit.
-- Possible placement: a hinge between point 3 (the agents propose schemas = rules from outside) and point 4 (the audit of the team's annotation = rules confronted with practice).
+- Parallel in the room: the starred local types (Haboucha's 930\*J, IFA's local types) — now placed in point 5.
+- Possible placement: a hinge between point 3 (the agents propose schemas = rules from outside) and point 4 (the audit of the team's annotation = rules confronted with practice); point 5 then repeats the confrontation at the community's scale (their schemas vs our stories, their local types vs their written rules).
