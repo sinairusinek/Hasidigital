@@ -46,6 +46,7 @@ DRIVE_FOLDER = ("0B1TlfouSwHTnfi1RSU1VQVFSS05NWHpHbHlHZ2NzeXRvUUJlQXVWY2hFNXhuRE
                 "0-2ytPkKz63YC59t3CN3yPAg")
 TRP_COLLECTION = 49371
 TRP_REST = "https://transkribus.eu/TrpServer/rest"
+MIN_TEXT_CHARS = 100  # a page with fewer characters in its lines has no real transcription (blank page, layout only)
 # the layout batch (layout-test/run_books.py) leaves books/<docId>/uploaded.txt; its pages are IN_PROGRESS but not transcribed
 BOOKS = Path.home() / "Documents" / "Hasidigital-data" / "books"
 
@@ -230,12 +231,18 @@ def refresh_trp_map(offline: bool) -> list[dict]:
             print("  ! could not refresh", row["docId"], e)
             continue
         st = collections.Counter()
-        last = 0
+        last = text = done_text = 0
         for p in j["pageList"]["pages"]:
             ts = p["tsList"]["transcripts"]
             if ts:
                 st[ts[0]["status"]] += 1
                 last = max(last, ts[0].get("timestamp", 0))
+                # a page marked DONE can hold a layout and no text (e.g. doc 1081220): count text separately
+                if (ts[0].get("nrOfCharsInLines") or 0) >= MIN_TEXT_CHARS:
+                    text += 1
+                    done_text += ts[0]["status"] in ("FINAL", "DONE", "GT")
+        row["pages_with_text"] = str(text)
+        row["pages_done_with_text"] = str(done_text)
         row["pages"] = str(len(j["pageList"]["pages"]))
         row["pages_final_or_done"] = str(st["FINAL"] + st["DONE"] + st["GT"])
         row["pages_in_progress"] = str(st["IN_PROGRESS"])
@@ -244,7 +251,8 @@ def refresh_trp_map(offline: bool) -> list[dict]:
             import datetime
             row["last_edit"] = datetime.datetime.fromtimestamp(last / 1000).strftime("%Y-%m-%d")
     with open(TRP_MAP, "w", encoding="utf-8", newline="") as f:
-        wr = csv.DictWriter(f, fieldnames=list(rows[0]), delimiter="\t", lineterminator="\n")
+        fields = list(dict.fromkeys(k for row in rows for k in row))
+        wr = csv.DictWriter(f, fieldnames=fields, delimiter="\t", lineterminator="\n")
         wr.writeheader()
         wr.writerows(rows)
     return rows
@@ -321,7 +329,9 @@ def main() -> None:
         docs = trp_by_work.get(w["key"], [])
         main_docs = [d for d in docs if d["role"] == "main"]
         pages = sum(int(d["pages"]) for d in main_docs)
-        fin = sum(int(d["pages_final_or_done"]) for d in main_docs)
+        # done pages that actually hold text; the status flag alone is not enough (doc 1081220: DONE, layout only)
+        fin = sum(int(d.get("pages_done_with_text") or d["pages_final_or_done"]) for d in main_docs)
+        text_pages = sum(int(d.get("pages_with_text") or d["pages_final_or_done"]) for d in main_docs)
         prog = sum(int(d["pages_in_progress"]) for d in main_docs)
         xmls = sorted(metas)
         stem = lambda x: x.split("_Hebrewbooks")[0].removesuffix(".xml") + ".xml"
@@ -336,11 +346,11 @@ def main() -> None:
             step = "incoming pipeline"
         elif "registered, no XML" in where:
             step = "re-export from Transkribus (without 'force valid TEI') → pipeline"
-        elif main_docs and fin >= 0.9 * pages:
+        elif main_docs and text_pages >= 0.8 * pages and fin >= 0.9 * text_pages:
             step = "export from Transkribus → pipeline"
         elif main_docs and all((BOOKS / d["docId"] / "uploaded.txt").exists() for d in main_docs):
             step = "review layout in Transkribus (collect issues → layout fix pass, then HTR)"
-        elif main_docs and fin + prog > 0:
+        elif main_docs and text_pages >= 0.1 * pages:
             step = "finish transcription in Transkribus"
         elif main_docs:
             step = "run layout + HTR in Transkribus"
@@ -378,7 +388,7 @@ def main() -> None:
             "drive_zip": ("yes" if ie & ies else "missing") if ie else "",
             "nli_link": ed["download link"], "hebrewbooks_link": ed["HebrewBooksLink"],
             "trp_main_docs": " ".join(d["docId"] for d in main_docs),
-            "trp_pages": pages or "", "trp_pages_final": fin if main_docs else "",
+            "trp_pages": pages or "", "trp_pages_final": fin if main_docs else "", "trp_pages_text": text_pages if main_docs else "",
             "trp_last_edit": max((d["last_edit"] for d in main_docs), default=""),
             "trp_other_docs": " ".join(f'{d["docId"]}({d["role"]})' for d in docs if d["role"] != "main"),
             "xml": " ".join(xmls), "xml_location": " ".join(where),
