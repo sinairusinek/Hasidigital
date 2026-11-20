@@ -3,10 +3,10 @@
 **International Workshop "Digital Humanities and Intangible Cultural Heritage: The Case of Narratives"**
 30 Nov – 1 Dec 2026, INALCO, 2 rue de Lille, 75007 Paris, Auditorium Dumézil (program: `~/Downloads/DH_ICH_NARR_DIPT_WEB.pdf`)
 
-**Our slot:** Tue 1 Dec, 10:55–11:20 (25 min), Panel V "Hasidic Stories Go Digital", chaired by Chen Mandel-Edrei.
+**Our slot:** Tue 1 Dec, 10:55–11:20 (25 min), Panel V "Hasidic Stories Go Digital" (chair: Chen Mandel-Edrei in the printed program; to be confirmed now that she responds).
 Title: **"The Mayse Tagging Machine, between the AI and the PI"**
 - Right before us, 10:30–10:55: Gadi Sagiv, "From Close Reading to Distant Reading and Back: Digital Analysis of the First Century of Hasidic Stories (1814–1914)". Coordinate to avoid overlap.
-- Respondent: Marcin Wodziński, 11:20–11:30.
+- Respondent: **Chen Mandel-Edrei** (replaces Marcin Wodziński, 2026-11-20), 11:20–11:30. Outline for her: Google Doc "The Mayse Tagging Machine: talk outline for the respondent".
 
 ### Who is in the room (possible collaborators)
 - Mon, Panel I: Jovanović (WEAVE, Sephardic proverbs); Belinko Sabah (Israeli Proverb Indexing Project); Bikard & Fedchenko (online resource of narratives in Jewish languages, with translations; relevant to a bilingual interface)
@@ -33,6 +33,12 @@ Title: **"The Mayse Tagging Machine, between the AI and the PI"**
 3. Multi-view: building "you are a scholar of" agents. Going a little into the workings of LLM interaction (the agentic LLM goes to learn, then proposes).
 4. (How to lead to...) our eventual topic selection and the AI review of the team's annotation: the humans' low recall, high (but not perfect) precision.
 5. **The community comes in** (added 2026-11-17). Points 1–4 are told as if we were the only ones dealing with these stories; now see what happens when the field's shared schemas enter. The motif & Propp experiment (`motif-experiment/`, `results-summary.md`): 80 stories, events graded against Thompson + Noy as exact 10% / broader 53% / section heading only 37% / nothing 0.2%; Propp fit 1.7/5; 59% of our tags have no motif counterpart. Every event finds a shelf (V220 Saints, V50 Prayer…), but Hasidic events lack specific motifs. Here also the starred local types (Haboucha's 930\*J, the IFA's oicotypes): the community's own extensions created from practice, often undescribed → offer: LLM drafts descriptions from the tales filed under a type, experts audit. Natural address to the IFA people in the room (Hasan-Rokem, Rubin).
+
+## In the slides draft but not above (2026-11-20)
+
+- Point 2 framing quotes: Nagel (The View from Nowhere; "Subjective and Objective"), Haraway's "god trick"; point 3 opens with Nietzsche's perspectivism (Genealogy III §12). Page refs still marked [check].
+- Closing slide "Join us": what we can share (corpus, TEI, tags, tools) and what collaborations we want.
+- Still placeholders in the deck: the incognito chat exchange, the personas and their schemas, the point-4 numbers, a Propp example tale.
 
 ## Theme to weave in (added 2026-11-10)
 
