@@ -68,8 +68,10 @@ def _build_source_desc(entry: dict) -> ET.Element:
     if entry.get("editor_he"):
         ET.SubElement(bibl, f"{T}editor", attrib={f"{X}lang": "he"}).text = entry["editor_he"]
 
-    # Imprint (pubPlace + date)
-    imprint = ET.SubElement(bibl, f"{T}imprint")
+    # pubPlace / publisher / date go straight into <bibl>, NOT inside <imprint>:
+    # hasidic-stories.org asks for sourceDesc/bibl/pubPlace and .../bibl/date,
+    # and an <imprint> wrapper makes both lookups fail (2026-11-21).
+    imprint = bibl
     if entry.get("pub_place_he"):
         attrib = {}
         if entry.get("pub_place_ref"):
@@ -117,7 +119,7 @@ def _build_source_desc(entry: dict) -> ET.Element:
     fe = entry.get("first_edition")
     if fe:
         first = ET.SubElement(sd, f"{T}bibl", attrib={"type": "firstEdition"})
-        imp = ET.SubElement(first, f"{T}imprint")
+        imp = first  # no <imprint> wrapper, see above
         for lang in ("he", "en"):
             if fe.get(f"pub_place_{lang}"):
                 ET.SubElement(imp, f"{T}pubPlace", attrib={"ref": fe.get("pub_place_ref", ""), f"{X}lang": lang}

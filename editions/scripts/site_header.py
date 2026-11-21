@@ -43,9 +43,9 @@ def build(m, fname, old_changes):
             f'<title type="main" xml:lang="en">{e(m["title_en"])}</title>'
             f'<author><persName xml:lang="he">{e(m["author_he"])}</persName>'
             f'<persName xml:lang="en">{e(m["author_en"])}</persName></author>'
-            f'<imprint><pubPlace xml:lang="he">{e(m["pub_place_he"])}</pubPlace>'
+            f'<pubPlace xml:lang="he">{e(m["pub_place_he"])}</pubPlace>'
             f'<pubPlace xml:lang="en">{e(m["pub_place_en"])}</pubPlace>'
-            f'<date when="{e(m["date_ce"])}">{e(m["date_he"])}</date></imprint>'
+            f'<date when="{e(m["date_ce"])}">{e(m["date_he"])}</date>'
             f'<textLang mainLang="{e(m.get("language", "heb"))}" />{idnos}</bibl>')
     digitizer = DIGITAL[src][1] if src else 'unknown'
     today = datetime.date.today().isoformat()
