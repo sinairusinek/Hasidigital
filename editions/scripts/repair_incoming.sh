@@ -6,6 +6,7 @@
 #   1. replay the logged Gemini corrections on the pre-correction file (2c7750c)
 #   2. carry over the later tag edits (May 2026, up to acd3bbf)
 #   3. drop empty tags and pipeline FLAGGED notes, site header, page breaks
+# Output goes to editions/online/ (the editions moved there on 2026-11-21).
 #
 # Usage: editions/scripts/repair_incoming.sh [EDITION ...]
 set -euo pipefail
@@ -21,7 +22,7 @@ for e in "${EDS[@]}"; do
   python3 editions/scripts/replay_gemini_correction.py "$e" "$W/$e.fixed.xml" 2>/dev/null | sed 's/^/  /'
   python3 editions/scripts/transplant_entity_edits.py "$W/$e.april.xml" "$W/$e.may.xml" "$W/$e.fixed.xml" "$W/$e.final.xml" 2>/dev/null \
     | grep -v '^    ' | sed 's/^/  /'
-  python3 - "$W/$e.final.xml" "editions/incoming/ready/$e.xml" "$e" <<'EOF'
+  python3 - "$W/$e.final.xml" "editions/online/$e.xml" "$e" <<'EOF'
 import sys, re
 from lxml import etree
 sys.path.insert(0, '.')
@@ -49,9 +50,9 @@ s = s.replace('</revisionDesc>', '<change when="2026-11-21">text repaired: Gemin
 open(out, 'w', encoding='utf-8').write(s)
 print(f'  empty tags removed: {len(empty)}')
 EOF
-  python3 editions/scripts/site_header.py "editions/incoming/ready/$e.xml" --write > /dev/null
+  python3 editions/scripts/site_header.py "editions/online/$e.xml" --write > /dev/null
   tk=$(python3 -c "import json;d=json.load(open('editions/edition-metadata.json'));i=d if isinstance(d,list) else d['editions'];print(next(x for x in i if x['xml_filename']=='$e.xml')['identifiers']['Transkribus'])")
-  python3 editions/scripts/restore_pb.py "$(ls editions/incoming/$tk/*.bak)" "editions/incoming/ready/$e.xml" --write | sed -n '2p;4,5p'
-  xmllint --noout "editions/incoming/ready/$e.xml" && echo "  well-formed"
+  python3 editions/scripts/restore_pb.py "$(ls editions/incoming/$tk/*.bak)" "editions/online/$e.xml" --write | sed -n '2p;4,5p'
+  xmllint --noout "editions/online/$e.xml" && echo "  well-formed"
 done
 rm -rf "$W"
