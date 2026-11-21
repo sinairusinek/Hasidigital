@@ -137,6 +137,43 @@ def _get_api_key(api_key=None):
     return key
 
 
+CLAUDE_CLI_BIN = os.environ.get("CLAUDE_CLI_BIN", "claude")
+CLAUDE_CLI_MODEL = os.environ.get("CLAUDE_CLI_MODEL", "claude-sonnet-5-5")
+CLAUDE_USAGE_LOG = os.environ.get("CLAUDE_USAGE_LOG")  # optional TSV of per-call usage
+
+
+def _call_claude_cli(prompt):
+    """Send one correction prompt through `claude -p` (Claude Max plan, not the API).
+
+    Do NOT add --bare: it forces API-key auth, and the API key has no credit.
+    The correction prompt replaces Claude Code's default system prompt; tools
+    are disabled. Returns the model's text (expected to be the JSON object).
+    """
+    import subprocess
+    cmd = [CLAUDE_CLI_BIN, "-p", "--model", CLAUDE_CLI_MODEL,
+           "--output-format", "json", "--disallowedTools", "*",
+           "--system-prompt", "You correct Hebrew named-entity annotations. "
+           "Answer with the JSON object only, no prose, no code fences."]
+    if os.environ.get("CLAUDE_CLI_EFFORT"):  # pilot 2026-11-21: "low" changed results a lot
+        cmd += ["--effort", os.environ["CLAUDE_CLI_EFFORT"]]
+    r = subprocess.run(cmd, input=prompt, capture_output=True, text=True, timeout=600)
+    if r.returncode != 0:
+        raise RuntimeError(f"claude-cli rc={r.returncode}: {r.stderr.strip()[:300]}")
+    out = json.loads(r.stdout)
+    if CLAUDE_USAGE_LOG:
+        u = out.get("usage", {})
+        with open(CLAUDE_USAGE_LOG, "a", encoding="utf-8") as f:
+            f.write("\t".join(str(x) for x in (
+                CLAUDE_CLI_MODEL, u.get("input_tokens", 0),
+                u.get("cache_creation_input_tokens", 0), u.get("cache_read_input_tokens", 0),
+                u.get("output_tokens", 0),
+                (u.get("output_tokens_details") or {}).get("thinking_tokens", 0),
+                out.get("total_cost_usd", 0), out.get("duration_ms", 0))) + "\n")
+    text = out.get("result", "")
+    text = re.sub(r"^```(?:json)?\s*|\s*```$", "", text.strip())
+    return text
+
+
 def _get_client(api_key=None):
     """Create and return a google.genai Client."""
     from google import genai  # type: ignore
@@ -280,22 +317,24 @@ def _call_gemini_passages(
     passages_str = "\n\n---\n\n".join(passage_blocks)
     prompt = prompt_template.replace("{N}", str(n)).replace("{PASSAGES}", passages_str)
 
-    from google.genai import types  # type: ignore
-
     result = None
     last_error = None
 
     for attempt in range(1 + max_retries):
         try:
-            response = client.models.generate_content(
-                model=model_name,
-                contents=prompt,
-                config=types.GenerateContentConfig(
-                    response_mime_type="application/json",
-                    temperature=0.1,
-                ),
-            )
-            raw = response.text
+            if client == "claude-cli":
+                raw = _call_claude_cli(prompt)
+            else:
+                from google.genai import types  # type: ignore
+                response = client.models.generate_content(
+                    model=model_name,
+                    contents=prompt,
+                    config=types.GenerateContentConfig(
+                        response_mime_type="application/json",
+                        temperature=0.1,
+                    ),
+                )
+                raw = response.text
             try:
                 result = json.loads(raw)
             except json.JSONDecodeError:
@@ -616,7 +655,11 @@ def correct_entities(
     """
     delay_s = delay if delay is not None else GEMINI_DELAY
     model_name = model or GEMINI_MODEL
-    client = _get_client(api_key)
+    if os.environ.get("NER_CORRECTOR") == "claude-cli":
+        client = "claude-cli"   # runs on the Claude Max plan, no API spend
+        delay_s = 0
+    else:
+        client = _get_client(api_key)
 
     chunks = get_story_div_chunks(tree, plain_text, existing_entities)
     if story_id is not None:
