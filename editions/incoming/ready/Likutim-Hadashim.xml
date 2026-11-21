@@ -1,4 +1,4 @@
-<?xml version='1.0' encoding='utf-8'?>
+<?xml version='1.0' encoding='UTF-8'?>
 <TEI xmlns="http://www.tei-c.org/ns/1.0">
 	<teiHeader>
 		<fileDesc>
@@ -28,7 +28,7 @@
 			</publicationStmt>
 			<sourceDesc><bibl type="digital"><title>Digital scan from HebrewBooks.org</title><publisher>HebrewBooks.org</publisher><ptr target="https://hebrewbooks.org/3671" /><idno type="HebrewBooks">3671</idno><idno type="Transkribus">6577070</idno><note>Source for transcription</note></bibl><bibl type="original"><title type="main" xml:lang="he">ליקוטים חדשים</title><title type="main" xml:lang="en">Likutim Hadashim</title><author><persName xml:lang="he">יחיאל משה גרינוולד</persName><persName xml:lang="en">Yechiel Moshe Greenwald</persName></author><pubPlace xml:lang="he">ורשה</pubPlace><pubPlace xml:lang="en">Warsaw</pubPlace><date when="1899">תרנ&quot;ט</date><textLang mainLang="heb" /><idno type="HebrewBooks">3671</idno><idno type="BHB">135736</idno><idno type="Kima">953</idno><idno type="Transkribus">6577070</idno><idno type="DBid">3697</idno><idno type="work">50</idno></bibl></sourceDesc>
 		</fileDesc>
-	<revisionDesc><change when="2026-04-29">sourceDesc synced from edition-metadata.json</change><change when="2026-11-21">header in the shape of the online editions; page breaks restored from the Transkribus export</change></revisionDesc></teiHeader>
+	<revisionDesc><change when="2026-04-29">sourceDesc synced from edition-metadata.json</change><change when="2026-11-21">text repaired: Gemini correction pass replayed without the tag-stripping bug that shuffled text (58f4166); later tag edits carried over</change><change when="2026-11-21">header in the shape of the online editions; page breaks restored from the Transkribus export</change></revisionDesc></teiHeader>
 	<text>
 		<front><div type="front-matter"><p>
 					<pb facs="Likutim-Hadashim_0001.jpg" /><lb/>ליקוטים חדשים
@@ -39,22 +39,22 @@
 					<lb/>מהני אשלי רברבי הגאונים הקדושים אשר
 					<lb/>האירו לישראל בגודל תורתם בעוצם קדושתם
 					<lb/>הרב הק׳ היהודי זצ״ל מ<placeName>פרשיסחא</placeName>. הרה״ק ר׳ <persName>שמחה בונם</persName> זצ"ל
-					<lb/>מ<placeName>פרשיסחא</placeName>. הרה״ק מהר״ם ז״<persName>ל מ. הר</persName>ה״ק מהריקאצק״ם ז״ל <placeName>מגור</placeName>.
+					<lb/>מ<placeName>פרשיסחא</placeName>. הרה״ק מהר״ם ז״<persName>ל מקאצק</persName>. הרה״ק מהרי״ם ז״ל <placeName>מגור</placeName>.
 					<lb/>הרה״ק ר׳ <persName>יצחק</persName> ז״ל מ<placeName>ווארקע</placeName>. הרה״ק ר׳ <persName>דוד</persName> ז"ל מ<placeName>קאצק</placeName>. הרה"ק
 					<lb/>ר׳ <persName>אברהם משה</persName> ז"ל מ<placeName>פרשיסחא</placeName>. הרה״ק ר׳ <persName>חנוךְ העניך</persName> ז"ל
 					<lb/>מ<placeName>אלכסנדר</placeName>. הרה״ק ר׳ <persName>ישראל</persName> ז"ל <placeName>מריזין</placeName>. הרה״ק ר׳ <persName>צבי</persName> ז״ל
-					<placeName> הרה״ק </placeName>ר' מנחם מע<persName>נדיל ז"ל <lb/>מד</persName>ינוב<sic correction="."/>,<placeName>מיליבאוויטש</placeName>. ועוד
+					<placeName><lb/>מדינוב<sic correction="."/>,</placeName> הרה״ק ר' <persName>מנחם מענדיל</persName> ז"ל <placeName>מיליבאוויטש</placeName>. ועוד
 					<lb/>כמה צדיקים. גם ממה שחננו השי״ת :
 					<lb/>חברתי אני הדל <persName>יחיאל משה</persName> ב״מ מ״י ז״ל <persName>אבד״ק יאריסאוו</persName> נכד
-					<lb/>ל<placeName>האי</placeName> סבא <persName>קדישא</persName> הרב הצדיק המפורסם <persName>מו"ה צבי זצ"ל מ
-					א</persName>פאטשנע<lb/>הנודע בשם קדשו ר' <persName>הירשלי רישקעס</persName> אשר הי' חותנו של הרב הקדוש
+					<lb/>ל<placeName>האי</placeName> סבא <persName>קדישא</persName> הרב הצדיק המפורסם <persName>מו"ה צבי זצ"ל מאפאטשנע</persName>
+					<lb/>הנודע בשם קדשו ר' <persName>הירשלי רישקעס</persName> אשר הי' חותנו של הרב הקדוש
 					<lb/>רבן של ישראל מו״ה <persName>דוד</persName> זצ<persName>״ל מ<placeName ana="bio">קאצק</placeName></persName> זי״ע :
 					<lb/>הובא לבית הדפוס ע״י בנו האברך המופלג <persName>מו״א יהודא</persName> שליט״א.
 					<lb/>בית מסחר הספרים של ר״א <persName>כהנא</persName> נאלעווקי 39
 					<lb/>ווארשא
 					<lb/>בדפוס ר׳ <persName>אפרים בן ר</persName>׳ <persName>בנימין</persName> ז"ל ב<placeName>וימריטטער</placeName> רחוב <placeName>דזיקע</placeName> נומר 44
-					<date> לפ"ק
-			</date>	<lb/>שנת תרנ"ט</p>
+					<date><lb/>שנת תרנ"ט</date> לפ"ק
+				</p>
 				<p>
 					<pb facs="Likutim-Hadashim_0102.jpg" /><lb/>ספורי מעשיות
 				</p>
@@ -110,8 +110,8 @@
 				</p>
 				<p>
 					<lb/>בשנים למד בישיבה עם זקנים לומדי
-					 מחמת שהיה חריף גדול וצדיק
-					<lb/>תורה<lb/>גדול. פ״א לאחר לימודו הלך לחוץ וראה <persName>גדי</persName>
+					<lb/>תורה מחמת שהיה חריף גדול וצדיק
+					<lb/>גדול. פ״א לאחר לימודו הלך לחוץ וראה <persName>גדי</persName>
 					<lb/>עומד ורכב עליו. ואמרו לו תלמידיו
 					<lb/>הזקנים. רבי אתה מבייש אותנו. הלא אנו
 					<lb/>לומדים אצלך. והשיב להם שכל אדם מוכרח
@@ -148,7 +148,7 @@
 					<lb/>ולא יכלו ליתן לו כל כך. וצוה שיקחו את
 				</p>
 				<p>
-					<persName> <pb facs="Likutim-Hadashim_0103.jpg" /><lb/>הר״</persName>םמ<placeName>רוטונבערג</placeName> לתפיסה. ועי״ז יהיו
+					<persName><pb facs="Likutim-Hadashim_0103.jpg" /><lb/>הר״ם מ<placeName ana="bio">רוטונבערג</placeName></persName> לתפיסה. ועי״ז יהיו
 					<lb/>מוכרחים ליתן את הכסף ו<persName>הרא״ש</persName> תלמידו
 					<lb/>אסף הרבה מעות ורצה ליתן בעד רבו. ורבו
 					<lb/>אמר שלא יתן להם מעות דאם כן אין
@@ -166,7 +166,7 @@
 					<lb/>נדמה לכל אדם כמו אדם ישן ולא הסריח
 					<lb/>אע״פ שהי׳ מונח איזה שנים בהתפיסה
 					<lb/>ובלילה שאחר יום הקבורה בא <persName>הר"ם
-					מ<placeName ana="bio">רוטינבערג</placeName></persName> בחלום להגביר הנ״ל ושאל אותו
+					<lb/>מ<placeName ana="bio">רוטינבערג</placeName></persName> בחלום להגביר הנ״ל ושאל אותו
 					<lb/>מה אתה רוצה בשביל זה אם רוצה אתה
 					<lb/>שתהא במחיצתי לאחר מאה שנים או עשירות
 					<lb/>לך ולזרעך עד עולם והשיב הגביר הנ"ל
@@ -176,17 +176,17 @@
 				</p>
 				</div><div type="story" xml:id="Likutim-Hadashim_0006" n="6"><head type="storyHead">Likutim-Hadashim_0006</head>
 <p>
-					<lb/>שמעתי מעשה מהרב הק׳ ר׳ <persName>שמשון</persName>
-					 <placeName>שהלך במדבר</placeName>
-					<lb/>מאסטריפאליע<lb/>עם שיירא וכשבא <date>עש״ק</date> ביקש מבעל השיירא
+					<lb/>שמעתי מעשה מהרב הק׳ ר׳ <persName>שמשון
+					<lb/>מ<placeName ana="bio">אסטריפאליע</placeName></persName> שהלך במדבר
+					<lb/>עם שיירא וכשבא <date>עש״ק</date> ביקש מבעל השיירא
 					<lb/>שלא ילך בשבת ונתן לו ממון בשביל זה.
 					<lb/>והבעל שיירא לקח המעות ואעפ״כ הלך עם
 					<lb/>השיירא לדרכו והרה״ק נשאר לבדו בהמדבר
 					<lb/>ואח״כ נתחרט מאוד למה עשה כך הלא
 					<lb/>כתיב וחי בהם וכו׳ והי׳ עצוב מאוד ובתוך כך
 					<lb/>ראה שרץ אריה גדול אצלו ונתפחד מאוד ובא
-					 אצלו ורבץ לפניו כל השב״ק <date>ולמו</date>צש״<date>ק
-				</date>	<lb/>הארי׳<lb/>התפשט הארי׳ לפני הרה״ק הנ"ל והבין
+					<lb/>הארי׳ אצלו ורבץ לפניו כל ה<date>שב״ק</date> ול<date>מוצש״ק</date>
+					<lb/>התפשט הארי׳ לפני הרה״ק הנ"ל והבין
 					<lb/>הרה״ק שהארי׳ רוצה שירכב עליו ורכב עליו
 					<lb/>והניח המשא ג״כ עליו והארי הקיף זנבו שלא
 					<lb/>יפול המשא והארי רץ עד שהשיג את השיירא
@@ -201,13 +201,13 @@
 				</div><div type="story" xml:id="Likutim-Hadashim_0007" n="7"><head type="storyHead">Likutim-Hadashim_0007</head>
 <p>
 					<lb/>שמעתי שהיה מעשה כשהיה רבי ר'
-					<persName>״ל רב</persName> ב<lb/>העשיל זצק"ק <placeName>קראקא</placeName>
+					<persName><lb/>העשיל</persName> זצ״ל רב בק"ק <placeName>קראקא</placeName>
 					<lb/>ונסע לאחר חנוכה להכפרים כמנהגו.
 					<lb/>וכשבא רבי ר׳ <persName>העשיל</persName> לכפר אחד נתקבצו
 					<lb/>כל בני הכפרים ועשו סעודה גדולה. ונמשך
 					<lb/>הסעודה עד לאחר חצות לילה ושם באותו
 					<lb/>בית היה מלמד אחד שהיה נקרא שמו ר׳
-					<persName>״ל. ומנהג של</persName> ר׳ <lb/>מרדכי מראט<supplied reason="damage">נ</supplied>ע זצ<persName>מרדכי</persName>
+					<persName><lb/>מרדכי מראט<supplied reason="damage">נ</supplied>ע</persName> זצ״ל. ומנהג של ר׳ <persName>מרדכי</persName>
 					<lb/>היה שקם בכל לילה בחצות ואמר תיקון חצות
 					<lb/>ושכיבתו היה בין התנור של בית החורף לבין
 					<lb/>הכותל והיה לו שם נר. ובלילה שהיה שם
@@ -238,7 +238,7 @@
 					<lb/>ואמר לו ר׳ מדרכי הנ״ל שאינו רוצה
 					<lb/>בשום אופן להיות עוד מוכיח. ושאל לו למה
 					<lb/>אינו רוצה ואמר לו ר׳ <persName>מרדכי</persName> כיון ש<persName>הר״י
-					מ<placeName ana="bio">אורלייניש</placeName></persName> שהוא בעל התוספות מלוה אתכם
+					<lb/>מ<placeName ana="bio">אורלייניש</placeName></persName> שהוא בעל התוספות מלוה אתכם
 					<lb/>לבהמ״ד אינכם צריכים למוכיח. ובאמת כך
 				</p>
 				<p>
@@ -333,9 +333,9 @@
 					<lb/>ל<persName>הבעש״ט</persName> וביקשה ממנו שיתן לה ב״ז ואמר
 					<lb/>לה מה אתה נותן לי ואמרה לו שהיא אשה
 					<lb/>עניה ואין לה כלום רק מלבוש אחד שקורין
-					<lb/>קאטינקע ואמר לה <persName>הבעש ש</persName>תביא אליו את
-					״ט<lb/><sic correction="הקעטינקע">הקאעינקע</sic> ואז יהא לה בן זכר. ובתוך כך
-					<lb/>נסע <persName>הבעש ל</persName>עירו ל״ט<placeName>מעזיבוזש</placeName> והלכה אמי
+					<lb/>קאטינקע ואמר לה <persName>הבעש״ט</persName> שתביא אליו את
+					<lb/><sic correction="הקעטינקע">הקאעינקע</sic> ואז יהא לה בן זכר. ובתוך כך
+					<lb/>נסע <persName>הבעש״ט</persName> לעירו ל<placeName>מעזיבוזש</placeName> והלכה אמי
 					<lb/>ז״ל לביתה ולקחה את הקאטינקא והלכה מעיר
 					<lb/>לעיר והיה לה דחקות <sic correction="גדולה">דולה</sic> עד שבאה
 					<lb/>ל<placeName>מעזיבוזש</placeName> ל<persName>הבעש״ט</persName> וכשבאה להבעש״ט
@@ -343,8 +343,8 @@
 				<p>
 					<pb facs="Likutim-Hadashim_0105.jpg" /><lb/>לקח ממנה הקאטינקע ותלה אותה על הכותל
 					<lb/>שלו ואמר לה שיהא לה ב״ז ותקרא אותו
-					<persName> כשמי</persName>. ואמרה האשה להמגיד<persName> זצ״ל</persName>
-					<lb/>ישראל<lb/>אני ג״כ אביא לכם המלבוש שלי שיהא לי
+					<persName><lb/>ישראל</persName> כשמי. ואמרה האשה ל<persName>המגיד</persName> זצ״ל
+					<lb/>אני ג״כ אביא לכם המלבוש שלי שיהא לי
 					<lb/>ב״ז ואמר <persName>המגיד</persName> זצ״ל אמי לא היתה יודעת
 					<lb/>מהקאטינקא רק מעצמה עשתה זאת אבל
 					<lb/>אתה שמעת המעשה מאמי ז״ל :
@@ -408,8 +408,8 @@
 					<lb/>שהיו מעט אנשים ולא היו דוחקים כלל.
 					<lb/>ושאלו אותו למי הוא מדבר את הדברים
 					<lb/>האלה ? ואמר להם איך שיש לו אב בגן
-					 והעלו אותו להיכל גדול שהיו שם
-					<lb/>עדן<lb/>צדיקים ושאלו אותו מהיכן זכית לבוא אצלינו.
+					<lb/>עדן והעלו אותו להיכל גדול שהיו שם
+					<lb/>צדיקים ושאלו אותו מהיכן זכית לבוא אצלינו.
 					<lb/>ואמר להם אני איש פשוט אבל יש לי בן
 					<lb/>צדיק שהוא אוכל היטב והוא העלה אותי
 					<lb/>אצליכם ובאו אצלי לראותי איך אני מתנהג
@@ -437,8 +437,8 @@
 				</p>
 				</div><div type="story" xml:id="Likutim-Hadashim_0019" n="19"><head type="storyHead">Likutim-Hadashim_0019</head>
 <p>
-					<lb/>מעשה מהרה״ק ר׳ <persName>לוי יצחק מ
-					בר</persName>דיטשוב<lb/>שהיה איש אחד שהיה נגיד ואח״כ
+					<lb/>מעשה מהרה״ק ר׳ <persName>לוי יצחק מברדיטשוב</persName>
+					<lb/>שהיה איש אחד שהיה נגיד ואח״כ
 					<lb/>היה יורד ובעיר <placeName>ברדיטשוב</placeName> היה חברה
 					<lb/>מעקלערס והוא גם כן רצה להיות מהחברה
 				</p>
@@ -460,7 +460,7 @@
 <p>
 					<lb/>שמעתי בשם הרה״ק <persName>היהודי</persName> ז"ל שהיה
 					<lb/>בראשונה אצל הרה״ק ר'
-					<persName> שהיה רב בעיר <lb/>אבר</persName>הם יהושע העשיל<placeName>אפט</placeName>
+					<persName><lb/>אברהם יהושע העשיל</persName> שהיה רב בעיר <placeName>אפט</placeName>
 					<lb/>ו<persName>היהודי</persName> ז״ל היה אצלו. פ״א השתוקק <persName>היהודי</persName>
 					<lb/>זצ״ל ליסע לרבי ז״ל מ<placeName>לובלין</placeName>. והלך אצל
 					<lb/>הרה״ק דשם לפטור ממנו ואמר לו הרה״ק
@@ -472,10 +472,10 @@
 					<lb/>ונפטר ממנו ונסע ל<placeName>לובלין</placeName> והרבי זצ״ל א׳
 					<lb/>מקודם ערך שנה שהוא לא בא לזה העולם
 					<lb/>רק בשביל איש אחד ששמו כשמי <persName>יעקב יצחק</persName>
-					 וערך שנה מקודם שבא היהודי
-	<persName>				<lb/>בן</persName> מאטיל<lb/>זצ״ל אצלו בא אצלו עלם אחד ששמו יעקב
-					 כשמו. ושמח הרבי זצ״ל עמו
-					<lb/>יצחק בן מאטיל<lb/>מאוד. והרבי ז״ל החזיק את העלם לערך
+					<lb/>בן מאטיל וערך שנה מקודם שבא <persName>היהודי</persName>
+					<lb/>זצ״ל אצלו בא אצלו עלם אחד ששמו יעקב
+					<lb/>יצחק בן מאטיל כשמו. ושמח הרבי זצ״ל עמו
+					<lb/>מאוד. והרבי ז״ל החזיק את העלם לערך
 					<lb/>שנה אחת והחסידים כבדו מאוד את העלם
 					<lb/>מאחר ששמעו מהרבי שלא בא לעולם רק
 					<lb/>בשביל זה העלם. וכשבא היהודי זצ״ל אצלו
@@ -494,8 +494,8 @@
 					<lb/>להרבי תיכף אמר לו תן לי א׳ ר״ט ויהא
 					<lb/>לך תפילין כשרים ונתן לו ר״ט ולקח הרבי
 					<lb/>הר״ט ונתן להרה״ק ר׳ <persName>משה סופר
-					מ<placeName ana="bio"> ז״ל ואמר</placeName></persName> לו כתוב לי תפילין
-					פשעווארסק<lb/>בשביל זה האברך כי דרכו היה שלא ליקח
+					מ<placeName ana="bio">פשעווארסק</placeName></persName> ז״ל ואמר לו כתוב לי תפילין
+					<lb/>בשביל זה האברך כי דרכו היה שלא ליקח
 					<lb/>יותר בעד פרשיות רק א׳ ר״ט וכל העולם
 					<lb/>היו רוצים שיכתוב להם פרשיות רק מי
 					<lb/>שהרבי א׳ שיכתוב בשבילו כתב. והתפילין
@@ -593,8 +593,8 @@
 					<lb/>שמעתי שהיה <persName>היהודי</persName> ז"ל אצל <persName>הרבי</persName>
 					<lb/>זצ"ל ב<placeName>לובלין</placeName> ואשתו של <persName>היהודי</persName>
 					<lb/>היתה ב<placeName>פשיסחא</placeName> ובאה אל הרה״ק ר׳ שמחה
-					 זצ״ל וא׳ שיכתוב אגרת לבעלה היהודי
-					<lb/>בונם<lb/>איך שהולכים ממנה דמים הרבה מן הווסת
+					<lb/>בונם זצ״ל וא׳ שיכתוב אגרת לבעלה היהודי
+					<lb/>איך שהולכים ממנה דמים הרבה מן הווסת
 					<lb/>ואין לה במה להחיות א״ע וכתב כך אל
 					<persName><lb/>היהודי</persName> הרבנית באה אלי בטענת דמים.
 					<lb/>דמים תרתי משמע אחד המרבה ואחד
@@ -620,7 +620,7 @@
 				</div><div type="story" xml:id="Likutim-Hadashim_0028" n="28"><head type="storyHead">Likutim-Hadashim_0028</head>
 <p>
 					<lb/>שמעתי בשם הרב הקדוש ר׳ <persName>מורי
-					מ<placeName ana="bio"> זצסטרע</placeName></persName>לצק״ל שהיה אצלו
+					מ<placeName ana="bio">סטרעלצק</placeName></persName> זצ״ל שהיה אצלו
 					<lb/>חסיד אחד והיה עני מאוד והיה לו בת
 					<lb/>בוגרת. וסיפר לפניו איך שצריך להשיא אותה
 					<lb/>אמר לו <persName>הרה״ק</persName> הנ״ל שיעמוד על הלאטערי׳
@@ -642,8 +642,8 @@
 					<lb/>כיון שדברי אינם נשמעין אין אני רוצה להיות
 					<lb/>עוד רבי ולא היה מניח שום אדם להיות
 					<lb/>אצלו ובתוך זה בא אליו <persName>הרה״ק</persName> ר׳ שמחה
-					 זצ״ל כשהיה אז רך בשנים וסיפרו לו
-					<lb/>בונם<lb/>האנשים איך שהרב אינו מניח שום אדם
+					<lb/>בונם זצ״ל כשהיה אז רך בשנים וסיפרו לו
+					<lb/>האנשים איך שהרב אינו מניח שום אדם
 					<lb/>לכנוס אצלו מטעם הנ״ל והלך אצלו ונתן לו
 					<lb/>שלום ואמר <persName>הרה״ק מ<placeName ana="bio">פשיסחא</placeName></persName> אל <persName>הרה״ק</persName>
 					<lb/>הנ״ל כתיב ותגזר אומר ויקום לך שהצדיק
@@ -665,8 +665,8 @@
 				</div><div type="story" xml:id="Likutim-Hadashim_0029" n="29"><head type="storyHead">Likutim-Hadashim_0029</head>
 <p>
 					<lb/>שמעתי מהסבא קדישא ר׳ <persName>פישעל</persName>
-					 בילדותו
-					<lb/>זצ"ל מסטריקוב<lb/>כשאכל בבית חותנו מזונות על שלחנו ואמרה
+					<lb/>זצ"ל מסטריקוב בילדותו
+					<lb/>כשאכל בבית חותנו מזונות על שלחנו ואמרה
 					<lb/>לו אשתו איך שאבי׳ אינו רוצה ליתן לו עוד
 					<lb/>מזונות שיראה בעצמו סיבה לפרנסה ואמר
 					<lb/>לה שיראה ובתוך כך שכח מחמת שהיה
@@ -762,8 +762,8 @@
 				</p>
 				</div><div type="story" xml:id="Likutim-Hadashim_0033" n="33"><head type="storyHead">Likutim-Hadashim_0033</head>
 <p>
-					<lb/>שמעתי מהרה״ק ר׳ <persName>לייביל</persName> זצ"ל מ
-					קאבלי<lb/>שהיה בנו של הרה״ק ר׳ <persName>מרדכי</persName>
+					<lb/>שמעתי מהרה״ק ר׳ <persName>לייביל</persName> זצ"ל מקאבלי
+					<lb/>שהיה בנו של הרה״ק ר׳ <persName>מרדכי</persName>
 					<lb/>זצ״ל מ<placeName>זכיאש</placeName> כשהיה הרה״ק ר׳ <persName>לייבול</persName> ילד
 					<lb/>היה חריף מאוד בלמוד ואמר אביו מי שיתן
 					<lb/>לבני אלף <name type="currency">אדומים</name> יהא מחותני ובא בן כפר
@@ -794,8 +794,8 @@
 					<lb/>ר״ל והיו אומרים לו העומדים אצלו שלא היו
 					<lb/>יודעים שהוא <persName>היהודי</persName> מחמת שהיה חשכה
 					<lb/>אמרו לו למה אתה עומד כאן ? הלא יש לך
-					 לך לביתך ושכב על המטה. וכשהדליקו
-					<lb/>קדחת<lb/>הנר מיד עמד כשאר אנשים ולא הי׳ מרעיד
+					<lb/>קדחת לך לביתך ושכב על המטה. וכשהדליקו
+					<lb/>הנר מיד עמד כשאר אנשים ולא הי׳ מרעיד
 					<lb/>כלל וכשראו אותו שהוא <persName>היהודי</persName> מיד הניחו
 					<lb/>אותו שילך אל השלחן. מזה תראה איך שהי'
 					<lb/>לו כח המעצר לעצור את יראת ה׳ שיהא
@@ -857,8 +857,8 @@
 				</div><div type="story" xml:id="Likutim-Hadashim_0038" n="38"><head type="storyHead">Likutim-Hadashim_0038</head>
 <p>
 					<lb/>שמעתי מעשה מהרה״ק הר׳ אהרן
-					 זצ״ל שהיה תלמידו של
-					<lb/>הלוי<lb/>הרב בעל ה<name type="work">תניא</name> שהיה מתפלל בשבת קודש
+					<lb/>הלוי זצ״ל שהיה תלמידו של
+					<lb/>הרב בעל ה<name type="work">תניא</name> שהיה מתפלל בשבת קודש
 					<lb/>לפני העמוד בקבלת שבת וכשבא לביתו
 					<lb/>וקידש לפני החסידים ואמר להם שבעת
 					<lb/>קבלת שבת בא <persName>הבעש״ט</persName> אצלי בחלום מעולם
@@ -872,9 +872,9 @@
 				</p>
 				</div><div type="story" xml:id="Likutim-Hadashim_0039" n="39"><head type="storyHead">Likutim-Hadashim_0039</head>
 <p>
-					<lb/>שמעתי שבעיר אחת היה <persName>המגיד</persName>
-					 <placeName>והיה </placeName>דורש איזה
-					<lb/>מדובנא<lb/>ימים ובתוך הדרשה שמעו שבא הרבי זצ״ל
+					<lb/>שמעתי שבעיר אחת היה <persName>המגיד
+					<lb/>מ<placeName ana="bio">דובנא</placeName></persName> והיה דורש איזה
+					<lb/>ימים ובתוך הדרשה שמעו שבא הרבי זצ״ל
 					<lb/>מ<placeName>לובלין</placeName> להעיר הנ״ל וברחו כולם מהדרשה
 					<lb/>והלכו ליתן שלום להרבי זצ״ל וכשראה המגיד
 				</p>
@@ -897,7 +897,7 @@
 <p>
 					<lb/>שמעתי פעם אחת היה הרבי זצ"ל
 					<lb/>מ<placeName>לובלין</placeName> אצל הרה״ק ר׳ <persName>ברוך</persName>
-					״ל מ<lb/>זצ<placeName>מעזיבעזש</placeName> והרה״ק ר׳ <persName>ברוך</persName> זצ״ל היה
+					<lb/>זצ״ל מ<placeName>מעזיבעזש</placeName> והרה״ק ר׳ <persName>ברוך</persName> זצ״ל היה
 					<lb/>מתנהג שהיו ב״ב ג״כ יושבים על השלחן.
 					<lb/>וכשישב הרבי זצ״ל מ<placeName>לובלין</placeName> אצל השלחן ישבה
 					<lb/>בתו של הרה״ק ר׳ <persName>ברוך</persName> כנגדו והביטה
@@ -909,7 +909,7 @@
 					<lb/>לו אבל עיקר שיעבור עיניו שאל יראה
 					<lb/>בשוא. ובבוקר לא רצה הרבי זצ״ל מ<placeName>לובלין</placeName>
 					<lb/>לילך להשולחן. ולעת ערב ב<name type="work">ש״ס</name> שלח ר'
-					<persName> זצ<lb/>ב</persName>רוך״ל אצלו שיבא אצלו ויגלה לו רזין
+					<persName><lb/>ברוך</persName> זצ״ל אצלו שיבא אצלו ויגלה לו רזין
 					<lb/>דאורייתא והשיב הרבי עיקר אצלי שיתרבה
 					<lb/>כבוד שמים וזה טוב אצלי מרזין דאורייתא.
 					<lb/>ועשה ש״ס באכסניא שלו ובאו כל בני העיר
@@ -918,8 +918,8 @@
 				</div><div type="story" xml:id="Likutim-Hadashim_0041" n="41"><head type="storyHead">Likutim-Hadashim_0041</head>
 <p>
 					<lb/>שמעתי שהרה״ק הנ״ל היה תלמיד של
-					<lb/>הרה״ק ר׳ <persName>מרדכי</persName> זצ״ל מ
-					סכיאש<lb/>ואחר פטירת הרה״ק מ<placeName>סכיאש</placeName> נסע לההר״ק
+					<lb/>הרה״ק ר׳ <persName>מרדכי</persName> זצ״ל מסכיאש
+					<lb/>ואחר פטירת הרה״ק מ<placeName>סכיאש</placeName> נסע לההר״ק
 					<lb/>ב״ה <name type="work">קדושת לוי</name> וכשבא אצלו שמח עמו
 					<lb/>מאוד וכשהי׳ הולך על חתונה או על ברית
 					<lb/>היה לוקח עמו את הרה״ק ר׳ <persName>שמואל</persName> הנ״ל
@@ -989,14 +989,14 @@
 					<lb/>איך שיודע מה אביו הרה״ק עושה כעת
 					<lb/>בביתו. ואמר לו שכעת הוא עושה זה
 					<lb/>ולמחר ג״כ אמר החסיד להרה״ק ר׳ אברהם
-					 זצ"ל שאביו הוא הרה״ק עושה כך.
-					<lb/>משה<lb/>והלך בנו הק׳ ר׳ <persName>אברהם משה</persName> וסיפר
+					<lb/>משה זצ"ל שאביו הוא הרה״ק עושה כך.
+					<lb/>והלך בנו הק׳ ר׳ <persName>אברהם משה</persName> וסיפר
 					<lb/>לאביו איך שאחד יודע מה אתה עושה בכל
 					<lb/>עת. וכששמע אביו כך אמר זה התלמיד
 					<lb/>יש לו מדרגות. ותלמידי <persName>מנחם מענדיל</persName> יש
 					<lb/>לו פרומקייט. אני אחליף לתלמידי מנחם
-					 אתן המדרגות. ולו אתן הפרומקייט
-					<lb/>מענדיל<lb/>של <persName>מנחם מענדיל</persName> וכך נתהוה שמיד השיג
+					<lb/>מענדיל אתן המדרגות. ולו אתן הפרומקייט
+					<lb/>של <persName>מנחם מענדיל</persName> וכך נתהוה שמיד השיג
 					<lb/>המדרגות דהיינו שבא מלמד א׳ ל<placeName>פרשיסחא</placeName>
 					<lb/>אל הרה״ק וסיפר לו האיך שיש לו עלם
 					<lb/>טוב מאוד בלימוד והוא עני ומשדכים לו
@@ -1063,21 +1063,21 @@
 					<lb/>שום מניעה והלך הרה״ק ר׳ <persName>אברהם משה</persName>
 					<lb/>ז״ל ודיבר עם הה״ק ר׳ <persName>מ״מ</persName> זצ״ל בלשון
 					<lb/>תמיה למה אינו רוצה לשדך עם הרה״ק ר'
-					 זצ<lb/>צבי״ל ואמר לו אני רוצה מעות שיש לי
+					<lb/>צבי זצ״ל ואמר לו אני רוצה מעות שיש לי
 					<lb/>עלם טוב בלימוד. והרה״ק ר׳ אברהם
-					 התפשר ביניהם ושרכו זה עם זה וכשבא
-					<lb/>משה<lb/>הר״ה ר׳ <persName>צבי</persName> זצ״ל לביתו וסיפר לב״ב איך
+					<lb/>משה התפשר ביניהם ושרכו זה עם זה וכשבא
+					<lb/>הר״ה ר׳ <persName>צבי</persName> זצ״ל לביתו וסיפר לב״ב איך
 				</p>
 				<p>
 					<lb/>שעשה תנאים למז״ט ושחקו ממנו מה עשית
 					<lb/>הלא הוא איש עני ואביון ואתה ב״ה נגיד
 					<lb/>ונסעה אשתו של הרה״ק ר׳ <persName>צבי</persName> זצ״ל עם
 					<lb/>הכלה ל<placeName>פרשיסחא</placeName> להרה״ק ר׳ <persName>שמחה בונם</persName>
-					 ואמרה לו בלשון תמיה למה כבדתם את
-					<lb/>זצ"ל<lb/>בעלי בשידוך טוב הזה. ואמר לה בזה
+					<lb/>זצ"ל ואמרה לו בלשון תמיה למה כבדתם את
+					<lb/>בעלי בשידוך טוב הזה. ואמר לה בזה
 					<lb/>הלשון השמעת מהרה״ק ר׳ <persName>מ״מ</persName> זצ״ל
-					 <placeName>ודמה לך </placeName>שזה הוא. וכשנסע
-					<lb/>מוויטעבסק<lb/>אח״כ הרה״ק ר׳ <persName>צבי</persName> זל״ל ל<placeName>קאצק</placeName> ולקח ממנו
+					<lb/>מ<placeName>וויטעבסק</placeName> ודמה לך שזה הוא. וכשנסע
+					<lb/>אח״כ הרה״ק ר׳ <persName>צבי</persName> זל״ל ל<placeName>קאצק</placeName> ולקח ממנו
 					<lb/>ספר אחד <name type="work">פרי הארץ</name>. ואמר לו הרה״ק
 					<persName><lb/>מ״מ</persName> זצ״ל תדעו שזה הבעהמ״ח היה שמו
 					<lb/>כשמי <persName>מנחם בן אסתר</persName> :
@@ -1102,8 +1102,8 @@
 				</div><div type="story" xml:id="Likutim-Hadashim_0049" n="49"><head type="storyHead">Likutim-Hadashim_0049</head>
 <p>
 					<lb/>שמעתי כשהיה הרה״ק ר׳ <persName>מ״מ</persName> זצ״ל
-					מ<placeName> בפי</placeName>לע<placeName>וו והי</placeName>׳ בהפאלאטץ
-					קאצק<lb/>של האדון <persName>טשיטירינסקע</persName> והיה בגן ונזדמן
+					מ<placeName>קאצק</placeName> ב<placeName>פילעוו</placeName> והי׳ בהפאלאטץ
+					<lb/>של האדון <persName>טשיטירינסקע</persName> והיה בגן ונזדמן
 					<lb/>שר׳ <persName>ישראל</persName> בנו של הרבי זצ״ל מ<placeName>לובלין</placeName> בא
 					<lb/>ל<placeName>פילעוו</placeName>. ושמע שהרב הקדוש הנ״ל יושב
 					<lb/>בהפאלאטץ של <persName>טשיטירינסקע</persName> וסיפר איך

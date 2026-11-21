@@ -147,23 +147,28 @@ def _merge_persname_placename(pers_el, lb_els, place_el, gap_text):
         pers_el.tail  = " rest..."
         place_el.tail = None
     """
+    # Break elements (<lb/>, <pb/>, <cb/>) in the gap are moved INSIDE persName,
+    # in order, with their tails; they are never dropped (before 2026-11-21 they
+    # were removed, losing line and page breaks).
     parent = place_el.getparent()
 
     # 1. Remember what comes after the placeName.
     after_text = place_el.tail or ""
+    first_gap = pers_el.tail or ""
 
-    # 2. Remove intervening break elements and the placeName from the parent.
-    for lb in lb_els:
-        parent.remove(lb)
+    # 2. Detach the placeName from the parent (breaks move in step 3).
     parent.remove(place_el)
 
-    # 3. Append the combined gap text inside persName.
+    # 3. Append the gap text before the first break, then each break with
+    #    its own tail, inside persName.
     children = list(pers_el)
     if children:
         last = children[-1]
-        last.tail = (last.tail or "") + gap_text
+        last.tail = (last.tail or "") + first_gap
     else:
-        pers_el.text = (pers_el.text or "") + gap_text
+        pers_el.text = (pers_el.text or "") + first_gap
+    for lb in lb_els:
+        pers_el.append(lb)  # moves it, keeping lb.tail
 
     # 4. Append placeName as a child of persName.
     pers_el.append(place_el)

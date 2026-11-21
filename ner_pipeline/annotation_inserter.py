@@ -355,7 +355,7 @@ def strip_existing_annotations(tree):
         return tree
 
     for tag in tags_to_strip:
-        for el in text_el.iter(tag):
+        for el in list(text_el.iter(tag)):
             _unwrap_element(el)
 
     # Handle <name> elements with type attribute
@@ -374,30 +374,31 @@ def _unwrap_element(el):
     if parent is None:
         return
 
-    idx = list(parent).index(el)
+    # Order must stay: el.text, child_1, child_1.tail, ..., child_n.tail, el.tail.
+    # (Before 2026-11-21 this moved children while iterating over el, which
+    # skipped children and then attached el.tail in front of the moved ones,
+    # shuffling text wherever an entity contained <lb/> or a nested entity.)
+    idx = parent.index(el)
+    children = list(el)
+    text, tail = el.text or "", el.tail or ""
+    prev = parent[idx - 1] if idx > 0 else None
 
-    # Prepend element's text to next sibling's tail or append to previous
-    if el.text:
-        if idx > 0:
-            prev = parent[idx - 1]
-            prev.tail = (prev.tail or "") + el.text
+    def _append_after_prev(s):
+        if not s:
+            return
+        if prev is not None:
+            prev.tail = (prev.tail or "") + s
         else:
-            parent.text = (parent.text or "") + el.text
+            parent.text = (parent.text or "") + s
 
-    # Move children into parent
-    for i, child in enumerate(el):
-        parent.insert(idx + i, child)
-
-    # Append element's tail to last moved child or adjust parent text
-    if el.tail:
-        moved_count = len(el)
-        if moved_count > 0:
-            last_moved = parent[idx + moved_count - 1]
-            last_moved.tail = (last_moved.tail or "") + el.tail
-        elif idx > 0:
-            prev = parent[idx - 1] if moved_count == 0 else parent[idx + moved_count - 1]
-            prev.tail = (prev.tail or "") + el.tail
-        else:
-            parent.text = (parent.text or "") + el.tail
+    _append_after_prev(text)
+    el.tail = None
+    for i, child in enumerate(children):
+        parent.insert(idx + i, child)  # moves child out of el; el shifts right
+    if children:
+        last = children[-1]
+        last.tail = (last.tail or "") + tail
+    else:
+        _append_after_prev(tail)
 
     parent.remove(el)
