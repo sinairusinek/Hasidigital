@@ -48,7 +48,7 @@
 
 (שני העתקים של אותו סיפור)
 
-### [Khal-Hasidim_0243](online/Khal-Hasidim.xml) / [Maase-Zadikim_0018](online/maase-zadikim.xml)
+### [Khal-Hasidim_0243](online/Khal-Hasidim.xml) / [Maase-Zadikim_0018](online/Maase-Zadikim.xml)
 > ופתח ד' ברכותיו ושלח לי שפע גדולה ואנכי יש לי ב' תיבות **וכל כסף הפדיון** ברגע אשר בא לידי הנני מחלק חציו לתיבה זו לד'. וחציו לתיבה האחרת למעני. ואנכי לא אתן את התמנות הזה **להיות על הפדיון אדם אחד מבני בביתי** כי אם אנכי לבדי כי אירא שלא ישלחו יד.
 
 ### [Kokhvei-Or_0026](online/Kokhvei-Or.xml)
@@ -94,7 +94,7 @@
 
 (שני העתקים של אותו סיפור)
 
-### [Khal-Hasidim_0170](online/Khal-Hasidim.xml) / [Maase-Zadikim_0006](online/maase-zadikim.xml)
+### [Khal-Hasidim_0170](online/Khal-Hasidim.xml) / [Maase-Zadikim_0006](online/Maase-Zadikim.xml)
 > ויהי כאשר עשה **מצוה הזו מצות פדיון שבוים** אז מצוה גוררת מצוה ועלתה במחשבתו: מה אעשה פה לשכב עם אשה נכרית וחטאתי לאלקים? חלילה לי מעשה זאת. וימהר ליקח עגלה עם סוסים טובים ויברח משם.
 
 ### [Maasiot-veSihot-Tsadikim_0018](online/Maasiot-veSihot-Zadikim.xml) / [Shemen-Hatov_00052](online/Shemen-Hatov.xml)
@@ -147,4 +147,4 @@
 - [Maasiot-Pliot_0024](online/Maasiot-Pliot.xml) — "שיכתבו על מצבתו פ"נ מי שהרג זכריהו הנביא"
 - [Shemen-Hatov_000185](online/Shemen-Hatov.xml) — "פ"נ ארז הלבנון"
 - [Shemen-Hatov_000208](online/Shemen-Hatov.xml) — "וזה נוסח מצבתו... פ"נ הרב המדינה והרב אב"ד"
-- [Tmimei-Derech_004](online/tmimei_derech.xml) — "מצבת אבן על קברו... פ"נ ר' אברהם בעין אחת"
+- [Tmimei-Derech_004](online/Tmimei_Derech.xml) — "מצבת אבן על קברו... פ"נ ר' אברהם בעין אחת"

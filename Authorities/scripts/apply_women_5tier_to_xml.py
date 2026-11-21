@@ -30,7 +30,7 @@ EDITION_XML = {
     "Adat-Zadikim": REPO / "editions/online/Adat-Zadikim.xml",
     "Khal-Hasidim": REPO / "editions/online/Khal-Hasidim.xml",
     "Khal-Kdoshim": REPO / "editions/online/Khal-Kdoshim.xml",
-    "maase-zadikim": REPO / "editions/online/maase-zadikim.xml",
+    "maase-zadikim": REPO / "editions/online/Maase-Zadikim.xml",
     "Mifalot-HaZadikim": REPO / "editions/online/Mifalot-HaZadikim.xml",
     "PeerMikdoshim": REPO / "editions/online/PeerMikdoshim.xml",
     "Shivhei-Habesht": REPO / "editions/online/Shivhei-Habesht.xml",
