@@ -4,17 +4,34 @@
 		<fileDesc>
 			<titleStmt>
 				<title type="main">Sheva Ratzon 1900 שבע רצון</title>
-			</titleStmt>
+				<respStmt>
+					<resp>Digitization</resp>
+					<orgName>HebrewBooks.org</orgName>
+				</respStmt>
+				<respStmt>
+					<resp>Transcription</resp>
+					<name>Transkribus</name>
+					<note>Transcribed using Transkribus; story divisions marked in Transkribus</note>
+				</respStmt>
+				<respStmt>
+					<resp>Named Entity Tagging</resp>
+					<name>DictaBert</name>
+					<note>automatic tagging, corrected with Gemini; not yet reviewed by hand</note>
+				</respStmt>
+			</titleStmt><editionStmt><edition n="1.0.0">Working edition</edition></editionStmt>
 			<publicationStmt>
-				<publisher>tranScriptorium</publisher>
+				<p>This edition was created in the framework of the the project "Historical Digital
+					Analysis of Hasidic Stories Until 1914", PI: Gadi Sagiv; Supervising
+					Editor: Sinai Rusinek. This edition was prepared using an implementation of
+					TEI-Publisher Annotator and the XML-Planter, developed by DH-dev.com (Gil
+					Shalit).</p>
 			</publicationStmt>
-			<sourceDesc>
-				<bibl type="original"><title type="main" xml:lang="he">שבע רצון</title><title type="main" xml:lang="en">Sheva Ratzon</title><author><persName xml:lang="he">יצחק צינגר</persName><persName xml:lang="en">Yitzhak Zinger</persName></author><imprint><pubPlace xml:lang="he">פאדגורזא</pubPlace><pubPlace xml:lang="en">Podgorze</pubPlace><date when="1900">תרס"א</date></imprint><textLang mainLang="heb" /><idno type="HebrewBooks">39105</idno><idno type="Kima">168</idno><idno type="Transkribus">6577969</idno><idno type="DBid">3706</idno><idno type="work">59</idno></bibl></sourceDesc>
+			<sourceDesc><bibl type="digital"><title>Digital scan from HebrewBooks.org</title><publisher>HebrewBooks.org</publisher><ptr target="https://hebrewbooks.org/39105" /><idno type="HebrewBooks">39105</idno><idno type="Transkribus">6577969</idno><note>Source for transcription</note></bibl><bibl type="original"><title type="main" xml:lang="he">שבע רצון</title><title type="main" xml:lang="en">Sheva Ratzon</title><author><persName xml:lang="he">יצחק צינגר</persName><persName xml:lang="en">Yitzhak Zinger</persName></author><pubPlace xml:lang="he">פאדגורזא</pubPlace><pubPlace xml:lang="en">Podgorze</pubPlace><date when="1900">תרס&quot;א</date><textLang mainLang="heb" /><idno type="HebrewBooks">39105</idno><idno type="Kima">168</idno><idno type="Transkribus">6577969</idno><idno type="DBid">3706</idno><idno type="work">59</idno></bibl></sourceDesc>
 		</fileDesc>
-	<revisionDesc><change when="2026-04-29">sourceDesc synced from edition-metadata.json</change><change when="2026-11-11">sourceDesc synced from edition-metadata.json</change></revisionDesc></teiHeader>
+	<revisionDesc><change when="2026-04-29">sourceDesc synced from edition-metadata.json</change><change when="2026-11-11">sourceDesc synced from edition-metadata.json</change><change when="2026-11-21">header in the shape of the online editions; page breaks restored from the Transkribus export</change></revisionDesc></teiHeader>
 	<text>
 		<front><div type="front-matter"><p>
-					<lb />ספר
+					<pb facs="Seva-Ratzon_0001.jpg" /><lb />ספר
 					<lb />שבע רצון
 					<lb />קבוצת מאמרים, פנינים יקרים, סיפורים נוראים, ודברים
 					<lb />נפלאים, גם יכלל בתוכו חידושים וביאורים, מאירים כספירים,
@@ -41,7 +58,7 @@
 					<lb />Nachdruck verboten .
 				</p>
 				<p>
-					<lb />אזהרה
+					<pb facs="Seva-Ratzon_0002.jpg" /><lb />אזהרה
 					<lb />לבל יהין שום איש להדפיס את הלקוטים שלי מבלי
 					<lb />רשותי, ובפרט האגרת מהה״ק ר<date>׳</date> <persName>אברהם</persName> <persName>גרשון
 					 ז</persName>צלל"ה, כי אנכי העתקתיו מגוף כתב יד
@@ -51,7 +68,7 @@
 				</div></front><body>
 			<div type="story" xml:id="Seva-Ratzon_0001" n="1"><head type="storyHead">Seva<anchor xml:id="ner_905_934" />-Ratzon_0001</head>
 <p>
-					<lb />מהה״ק ר׳ <persName>בעריש מ<placeName ana="bio">אושפצין</placeName></persName> ז״ל ורבו הגה״ק
+					<pb facs="Seva-Ratzon_0003.jpg" /><lb />מהה״ק ר׳ <persName>בעריש מ<placeName ana="bio">אושפצין</placeName></persName> ז״ל ורבו הגה״ק
 					<persName><lb />מהר״ש מ<placeName ana="bio">קשאנוב</placeName></persName>.
 				</p>
 				<p>
@@ -86,7 +103,7 @@
 					<lb />הש״י והוא הי׳ לו כח זה מהה"ק רבי ר׳ <persName>אלימלך</persName> ז"ל והוא הי׳ לו בחזו
 				</p>
 				<p>
-					<lb />מהה"ק ר׳ <persName>בעריש מ<placeName ana="bio">אושפצין</placeName></persName>
+					<pb facs="Seva-Ratzon_0004.jpg" /><lb />מהה"ק ר׳ <persName>בעריש מ<placeName ana="bio">אושפצין</placeName></persName>
 				</p>
 				<p>
 					<lb />מהרב <persName>המגיד</persName> הק׳ רבי ר׳ <persName>בער מ<placeName ana="bio"> והוא ה</placeName></persName>י׳ לו כח זה מהמעזריט<persName>שבעש״ט</persName>
@@ -126,7 +143,7 @@
 					<lb />יצא מפי יקיים הש״י ולא משלי הוא. הק׳ <persName>בעריש פרומער</persName>" ע״כ האגרת;
 				</p>
 				<p>
-					<lb />מהה״ק ר׳ <persName>בעריש מ<placeName ana="bio">אושפצין</placeName></persName>
+					<pb facs="Seva-Ratzon_0005.jpg" /><lb />מהה״ק ר׳ <persName>בעריש מ<placeName ana="bio">אושפצין</placeName></persName>
 				</p>
 				<p>
 					<lb />השליח בא עם המכתב והוא לא יכול לקרותו וילך להרב דשם ויראהו
@@ -168,7 +185,7 @@
 					<lb />הדרוש ובשלש סעודות אמר בזה״ל אני התפללתי להש"י שלא אצטרו
 				</p>
 				<p>
-					<lb />מהה״ק ר׳ <persName>בעריש מ<placeName ana="bio">אושפצי</placeName></persName>
+					<pb facs="Seva-Ratzon_0006.jpg" /><lb />מהה״ק ר׳ <persName>בעריש מ<placeName ana="bio">אושפצי</placeName></persName>
 				</p>
 				<p>
 					<lb />לעיין קודם הדרשה רק הדיבורים אשר ישים ד׳ בפי אותו אדבר אמנם
@@ -213,7 +230,7 @@
 					<lb />יקרב אותם ונעתר להם ויתן בידם כתב מליצה ואח״כ בקשו ממנו שיברך
 				</p>
 				<p>
-					<lb />מהה״ק ר׳ <persName>בעריש מ<placeName ana="bio">אושפצי׳</placeName></persName>
+					<pb facs="Seva-Ratzon_0007.jpg" /><lb />מהה״ק ר׳ <persName>בעריש מ<placeName ana="bio">אושפצי׳</placeName></persName>
 				</p>
 				<p>
 					<lb />אותה על הדרך וכן עשה ויצא אל הקרון ויברך אותה ויסעו משם לדרכם
@@ -261,7 +278,7 @@
 					<lb />תמיד
 				</p>
 				<p>
-					<lb />מהה״ק ר׳ <persName>בעריש מ
+					<pb facs="Seva-Ratzon_0008.jpg" /><lb />מהה״ק ר׳ <persName>בעריש מ
 				או</persName>שפצין</p>
 				<p>
 					<lb />תמיד בשה עינים אולם הגאון מ<placeName>נ"ש</placeName> חבב אותו עד מאוד וכמה פעמים
@@ -303,7 +320,7 @@
 					<lb />הוא מחויב ליסע עמו על הב״מ יען שהי׳ השליח בדבר ויסע עמו והדרך
 				</p>
 				<p>
-					<lb />מהה״ק ר׳ בעריש מאושפצין
+					<pb facs="Seva-Ratzon_0009.jpg" /><lb />מהה״ק ר׳ בעריש מאושפצין
 				</p>
 				<p>
 					<lb />הי׳ רע מאוד והי׳ להאיש ההוא פחד גדול שלא תתהפך העגלה ופ״א
@@ -348,7 +365,7 @@
 					<lb />ויאמרו לו משרתיו אחרי כי הוא לבדו בא אין בית מיחוש לפתוח ה.
 				</p>
 				<p>
-					<lb />מהה״ק ר׳ <persName>בעריש מ<placeName ana="bio">אושפצין</placeName></persName>
+					<pb facs="Seva-Ratzon_0010.jpg" /><lb />מהה״ק ר׳ <persName>בעריש מ<placeName ana="bio">אושפצין</placeName></persName>
 				</p>
 				<p>
 					<lb />ור׳ <persName>אייזק</persName> יושב בסתר בפחד גדול וכאשר ראה הנגיד <persName>ר״א</persName> כי באמת אין
@@ -392,7 +409,7 @@
 					<lb />וצוה
 				</p>
 				<p>
-					<lb />מהה״ק ר׳ <persName>בעריש מ
+					<pb facs="Seva-Ratzon_0011.jpg" /><lb />מהה״ק ר׳ <persName>בעריש מ
 				או</persName>שפצין</p>
 				<p>
 					<lb />וצוה להאיש שילך לישן ואמר לו אם לא תקפה שינתך עליך תשב עוד
@@ -433,7 +450,7 @@
 					 הי׳ מדתו מדת גבורה פחד <lb />אבינו<persName>יצחק</persName> והתנהג א״ע בהיפך מאביו גלל ב
 				</p>
 				<p>
-					<lb />מהה״ק ר׳ <persName>בעריש</persName> מאושפציו
+					<pb facs="Seva-Ratzon_0012.jpg" /><lb />מהה״ק ר׳ <persName>בעריש</persName> מאושפציו
 				</p>
 				<p>
 					<lb />לא ברכו אביו ואף שנתן לו הש"י הברכות בידו במ"ש והי׳ ברכה
@@ -472,7 +489,7 @@
 					<lb />הכבשן האש הי׳ עיקר הנסיון רק האש זרה אשר היצה״ר מעורר אותו
 				</p>
 				<p>
-					<lb />מהה״ק ר׳ <persName>בעריש</persName> מאושפצי
+					<pb facs="Seva-Ratzon_0013.jpg" /><lb />מהה״ק ר׳ <persName>בעריש</persName> מאושפצי
 				</p>
 				<p>
 					<lb />זה הי׳ עיקר הנסיון ב"ז אמרתי לו שלא יהי׳ לו התנשאות ולא יטיל
@@ -514,7 +531,7 @@
 					<lb />והי׳ לפלא בעיני כל כי אז לא קירב לשום אדם בפעם הראשון זולת
 				</p>
 				<p>
-					<lb />מהה״ק ר׳ <persName>בעריש</persName> מאושפצין
+					<pb facs="Seva-Ratzon_0014.jpg" /><lb />מהה״ק ר׳ <persName>בעריש</persName> מאושפצין
 				</p>
 				<p>
 					<lb />אם התעכב ב׳ שבתות או שהי׳ לו עדות שנסע לצדיקים ואחר גמר
@@ -557,7 +574,7 @@
 					ווישניצא<lb />קוויטול גם מרבו הה״צ ר׳ <persName>בעריש</persName> וכאשר ראה הקוויטיל שלו
 				</p>
 				<p>
-					<lb />מהה״ק ר׳ <persName>בעריש מ
+					<pb facs="Seva-Ratzon_0015.jpg" /><lb />מהה״ק ר׳ <persName>בעריש מ
 				או</persName>שפציו</p>
 				<p>
 					<lb />הניחו מן הצד ולא דבר מאומה ויהי לפלא בעיניהם כי אנשי <placeName>קשאנוב</placeName>
@@ -599,7 +616,7 @@
 					<lb />שיבא
 				</p>
 				<p>
-					<lb />מהה״ק ר׳ <persName>בעריש</persName> מאושפצין
+					<pb facs="Seva-Ratzon_0016.jpg" /><lb />מהה״ק ר׳ <persName>בעריש</persName> מאושפצין
 				</p>
 				<p>
 					<lb />שיבא לפני והיום זכיתי לזה לכן הנני משתעשע בו ואחר שת<name type="misc">יי</name>תו העמיד
@@ -642,7 +659,7 @@
 					<lb />רבי שלי לאיזה צדיק שרציתי לילך להבין פי' מה שרבי מסתיר מפני
 				</p>
 				<p>
-					<lb />מהה״ק ר׳ <persName>בעריש מ<placeName ana="bio">אושפצין</placeName></persName>
+					<pb facs="Seva-Ratzon_0017.jpg" /><lb />מהה״ק ר׳ <persName>בעריש מ<placeName ana="bio">אושפצין</placeName></persName>
 				</p>
 				<p>
 					<lb />וענה לי לך לשלום הש"י יצליח דרכך ותמצא מה שתבקש יגעתי ומצאתי
@@ -684,7 +701,7 @@
 					<lb />מ<placeName>לובלין</placeName> הי׳ המחותן ושכרו בית גדול מאוד עבור הה"ק מ<placeName>לובלין</placeName> סאלא
 				</p>
 				<p>
-					<lb />מהה״ק ר׳ <persName>בעריש מ<placeName ana="bio">אושפציו</placeName></persName>
+					<pb facs="Seva-Ratzon_0018.jpg" /><lb />מהה״ק ר׳ <persName>בעריש מ<placeName ana="bio">אושפציו</placeName></persName>
 				</p>
 				<p>
 					<lb />גדולה והוא יושב בחדר קטן לבדו פעם אחת בא הרב להסאלא הגדולה
@@ -729,7 +746,7 @@
 					<lb />אעפ״ב
 				</p>
 				<p>
-					<lb />מהה״ק ר׳ <persName>בעריש מ<placeName ana="bio">אושפצין</placeName></persName>
+					<pb facs="Seva-Ratzon_0019.jpg" /><lb />מהה״ק ר׳ <persName>בעריש מ<placeName ana="bio">אושפצין</placeName></persName>
 				</p>
 				<p>
 					<lb />אעפ״ב אם שומר <date>שבת</date> דהיינו שמקבל ע״ע לעשות תשובה בשבת אע״פ
@@ -772,7 +789,7 @@
 					<lb />הטריח עצמו לנסוע אלי בשלומה בפעם הראשון התפללתי להש״י
 				</p>
 				<p>
-					<lb />שיתן לו כה לבא אלי יען שאין בי כח לנסוע על הדרך פ״א נסעתי בדרך
+					<pb facs="Seva-Ratzon_0020.jpg" /><lb />שיתן לו כה לבא אלי יען שאין בי כח לנסוע על הדרך פ״א נסעתי בדרך
 					<lb />והי׳ לי בלוט שטארץ ר״ב והלך ממני מלא ספל דם ראו כי יש לי מונח על
 					<lb />השלחן חתיבת מלה לבל כי זה רפואתי וזולת זה הייתי נוסע לאושפתיו
 					<lb />אולם כבודו כבר הי׳ אצלי פעם א׳ ומדוע לא ינהל שלחנו הקדוש בביתו כי
@@ -808,7 +825,7 @@
 					<lb />לב מבין אמנם לבו הי' דוה שיוריש רב בסף לאיש בור ויתיעץ עם אנשי
 				</p>
 				<p>
-					<lb />מהה״ק ר׳ <persName>בעריש מ<placeName ana="bio">אושפצין</placeName></persName>
+					<pb facs="Seva-Ratzon_0021.jpg" /><lb />מהה״ק ר׳ <persName>בעריש מ<placeName ana="bio">אושפצין</placeName></persName>
 				</p>
 				<p>
 					<lb />קהילתו ויאמר לו אחד שמע לעצתי במקום א׳ רחוק מכאן יש מלמד
@@ -847,7 +864,7 @@
 					<lb />אמונת צדיקים אשר אם ידרוך רק על מפתן בית הצדיק ירגיש הצדיק
 				</p>
 				<p>
-					<lb />מהה״ק ר׳ <persName>בעריש מ<placeName ana="bio">אושפציי</placeName></persName>
+					<pb facs="Seva-Ratzon_0022.jpg" /><lb />מהה״ק ר׳ <persName>בעריש מ<placeName ana="bio">אושפציי</placeName></persName>
 				</p>
 				<p>
 					<lb />ויפעול הכל ולא יצטרך ליתן קוויטיל ולמעלתו אין אמונת חכמים וכשמעו
@@ -889,7 +906,7 @@
 				</p>
 				</div><div type="story" xml:id="Seva-Ratzon_0016" n="16"><head type="storyHead">Seva-Ratzon_0016</head>
 <p>
-					<lb />מהה"ק <persName>ברוך</persName> ז"ל מ<placeName>מעזיביש</placeName> 
+					<pb facs="Seva-Ratzon_0023.jpg" /><lb />מהה"ק <persName>ברוך</persName> ז"ל מ<placeName>מעזיביש</placeName> 
 				</p>
 				<p>
 					<lb />סיפר הה״ק <persName>מהר"צ מ<placeName ana="bio">זידישוב</placeName></persName> אשר דרכו בקודש להסתופף בצל הקדוש
@@ -929,7 +946,7 @@
 					<lb />ויהי
 				</p>
 				<p>
-					<lb />מהה
+					<pb facs="Seva-Ratzon_0024.jpg" /><lb />מהה
 					<lb />ק ר׳ <persName>ברוך</persName> ז"ל מ<placeName>מעזיביש</placeName>
 				</p>
 				<p>
@@ -976,7 +993,7 @@
 					<lb />ובטבילה
 				</p>
 				<p>
-					<persName> ז"ל</persName> מ<lb />ברו<persName>ךמעזיבוש</persName>
+					<persName> ז"ל</persName> מ<pb facs="Seva-Ratzon_0025.jpg" /><lb />ברו<persName>ךמעזיבוש</persName>
 					<lb />מהה"ק
 				</p>
 				<p>
@@ -1024,7 +1041,7 @@
 					<persName>מ ואת הק</persName>ולות ואת הלפידים בעת אמירת מעזיבוזשה״ש עד שכמעט
 				</p>
 				<p>
-					<lb />מהה"ק ר׳ ברוך ז"ל מ
+					<pb facs="Seva-Ratzon_0026.jpg" /><lb />מהה"ק ר׳ ברוך ז"ל מ
 				מעזיבוש</p>
 				<p>
 					<lb />בלתה נפשו לעזוב את רבו הקדוש <persName>מלובלין</persName> ולנסוע ל<placeName>מעזיבוז</placeName> כידוע שהי׳
@@ -1068,7 +1085,7 @@
 					<lb />בעולמו אלא ד״א של הלכה וכיון שבן איך יש לו שליטה לס״א ח״ו לגשת
 				</p>
 				<p>
-					<lb />יג
+					<pb facs="Seva-Ratzon_0027.jpg" /><lb />יג
 				</p>
 				<p>
 					<lb />מ<persName>הה"ק</persName> ר׳ <persName>ברוך</persName> ז״ל מ<placeName>מעזיבוש</placeName>
@@ -1113,7 +1130,7 @@
 					<lb />שלמו במועדו כראוי וקראו באנחות הוי הוי חמלו עלינו וישאל אותם
 				</p>
 				<p>
-					<lb />מהה"ק ר׳ <persName>ברוך</persName> ז"ל מ<placeName>מעזיבוש</placeName>
+					<pb facs="Seva-Ratzon_0028.jpg" /><lb />מהה"ק ר׳ <persName>ברוך</persName> ז"ל מ<placeName>מעזיבוש</placeName>
 				</p>
 				<p>
 					<lb />מה חטאם ומה פשעם ויספרו לו ונכמרו רחמיו עליהם וימהר לילך
@@ -1155,7 +1172,7 @@
 					<lb />ח״ו מדרך הישר ככל התועים ע״כ ויענה החכם הנ״ל ברוב פחד ובהלה
 				</p>
 				<p>
-					<lb />יה
+					<pb facs="Seva-Ratzon_0029.jpg" /><lb />יה
 				</p>
 				<p>
 					<lb />מהה"ק ר׳ <persName>ברוך</persName> ז"ל מ<placeName>מעזיבוש</placeName>
@@ -1167,7 +1184,7 @@
 					<lb />יותך אח״כ שאל הה״ק להחכם הנ״ל מאין ידעתם את הרב <persName>ר״ב מ
 					מ</persName>עזיבוז<lb />ויענהו החכם הנ״ל ראיתי אותו ונהירין לי׳ שבילי דרקיעא כשבילי דארעא:
 				</p>
-				</div><div type="non-story" ana="FLAGGED: n=&quot;non story&quot; — typo for rend=&quot;non story&quot;"><p>
+				</div><div type="non-story"><p>
 					<lb />דבר בקדשו פי׳ הכתוב מה טובו אהליך <persName>יעקב</persName> פי<persName>רש״י</persName> ז״ל ראה שאין
 					<lb />פתחיהן מכוונין פי׳ לפירושו עפ״מ דאיתא <placeName>פתחו</placeName> לי כפתחו של
 					<lb />מחט ואני אפתח לכם כפתחו של אולם וזהו כוונת רש״י ראה שאין פתחיהן
@@ -1208,7 +1225,7 @@
 					<lb />וכל
 				</p>
 				<p>
-					<lb />מהה"ק ר׳ <persName>ברוך</persName> ז"ל מ<placeName>מעזיבוש</placeName>
+					<pb facs="Seva-Ratzon_0030.jpg" /><lb />מהה"ק ר׳ <persName>ברוך</persName> ז"ל מ<placeName>מעזיבוש</placeName>
 				</p>
 				<p>
 					<lb />וכל העם באים לשמוע ובתוכם גם <persName>הליטוואק</persName> הנ"ל ובאמצע הדרשה הקשה
@@ -1247,7 +1264,7 @@
 					<lb />ע"ה והי׳ שמש בביהכנ״ס :
 				</p>
 				</div><div type="non-story"><p>
-					<name type="work"> מהה</name>"ק<name type="misc"> </name>גרשו<persName>ן קיט</persName>י<persName>בער אשר</persName> שלח מאה"ק.
+					<pb facs="Seva-Ratzon_0031.jpg" /><name type="work"> מהה</name>"ק<name type="misc"> </name>גרשו<persName>ן קיט</persName>י<persName>בער אשר</persName> שלח מאה"ק.
 					<lb />אגרת<lb />ב"ה <date>יום ב' י"ז מרחשוון תקי"ז</date> ל<placeName>פ"ק</placeName>.
 				</p>
 				<p>
@@ -1290,7 +1307,7 @@
 					<lb />לשלוט עמי ובהיות <date>שבת</date> חגובה הבע״ל אני משיא את בתי המהוללה
 				</p>
 				<p>
-					<persName> תחי<lb />מרה </persName>אסתר׳ הלא כתבתי לכם שלישות שעשיתי עמה שידך הגון עם
+					<persName> תחי<pb facs="Seva-Ratzon_0032.jpg" /><lb />מרה </persName>אסתר׳ הלא כתבתי לכם שלישות שעשיתי עמה שידך הגון עם
 					<lb />בן הרב המובהק המפורסים החסיד כבוד מו"ה <persName>מרדכי רבינו</persName> מאזמיר
 					<lb />וכבר הוא מתושבי <placeName>חברון</placeName> ערך „ט״ז שנים והחתן הוא חשוב מאוד
 					<lb />חכם ומובלע בין אנשים ד׳ יזכינו לברך ברכות נשואין בחנוכה הבע״ל

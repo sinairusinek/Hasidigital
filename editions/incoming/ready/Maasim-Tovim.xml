@@ -4,17 +4,34 @@
 		<fileDesc>
 			<titleStmt>
 				<title type="main">Maasim Tovim 1900 מעשים טובים</title>
-			</titleStmt>
+				<respStmt>
+					<resp>Digitization</resp>
+					<orgName>HebrewBooks.org</orgName>
+				</respStmt>
+				<respStmt>
+					<resp>Transcription</resp>
+					<name>Transkribus</name>
+					<note>Transcribed using Transkribus; story divisions marked in Transkribus</note>
+				</respStmt>
+				<respStmt>
+					<resp>Named Entity Tagging</resp>
+					<name>DictaBert</name>
+					<note>automatic tagging, corrected with Gemini; not yet reviewed by hand</note>
+				</respStmt>
+			</titleStmt><editionStmt><edition n="1.0.0">Working edition</edition></editionStmt>
 			<publicationStmt>
-				<publisher>tranScriptorium</publisher>
+				<p>This edition was created in the framework of the the project "Historical Digital
+					Analysis of Hasidic Stories Until 1914", PI: Gadi Sagiv; Supervising
+					Editor: Sinai Rusinek. This edition was prepared using an implementation of
+					TEI-Publisher Annotator and the XML-Planter, developed by DH-dev.com (Gil
+					Shalit).</p>
 			</publicationStmt>
-			<sourceDesc>
-				<bibl type="original"><title type="main" xml:lang="he">מעשים טובים</title><title type="main" xml:lang="en">Maasim Tovim</title><author><persName xml:lang="he">אלעזר שענקל</persName><persName xml:lang="en">Elazar Shenkel</persName></author><imprint><pubPlace xml:lang="he">פאדגורזא</pubPlace><pubPlace xml:lang="en">Podgorze</pubPlace><date when="1900">תר"ס</date></imprint><textLang mainLang="heb"/><idno type="HebrewBooks">33915</idno><idno type="Kima">168</idno><idno type="Transkribus">6578374</idno><idno type="DBid">3702</idno></bibl></sourceDesc>
+			<sourceDesc><bibl type="digital"><title>Digital scan from HebrewBooks.org</title><publisher>HebrewBooks.org</publisher><ptr target="https://hebrewbooks.org/33915" /><idno type="HebrewBooks">33915</idno><idno type="Transkribus">6578374</idno><note>Source for transcription</note></bibl><bibl type="original"><title type="main" xml:lang="he">מעשים טובים</title><title type="main" xml:lang="en">Maasim Tovim</title><author><persName xml:lang="he">אלעזר שענקל</persName><persName xml:lang="en">Elazar Shenkel</persName></author><pubPlace xml:lang="he">פאדגורזא</pubPlace><pubPlace xml:lang="en">Podgorze</pubPlace><date when="1900">תר&quot;ס</date><textLang mainLang="heb" /><idno type="HebrewBooks">33915</idno><idno type="Kima">168</idno><idno type="Transkribus">6578374</idno><idno type="DBid">3702</idno><idno type="work">55</idno></bibl></sourceDesc>
 		</fileDesc>
-	<revisionDesc><change when="2026-04-29">sourceDesc synced from edition-metadata.json</change></revisionDesc></teiHeader>
+	<revisionDesc><change when="2026-04-29">sourceDesc synced from edition-metadata.json</change><change when="2026-11-21">header in the shape of the online editions; page breaks restored from the Transkribus export</change></revisionDesc></teiHeader>
 	<text>
 		<front><div type="front-matter"><p>
-					<lb/>ספר
+					<pb facs="Maasim-Tovim_0005.jpg" /><lb/>ספר
 					<lb/>מעשים טובים
 					<lb/>כולל מעשיות נחמדות וטובות משמחות לבבות, נפשות
 					<lb/>העצובות, אשר מהם ילמדו הבנים השובבים, לעשות
@@ -33,7 +50,7 @@
 					<lb/>Nachdruck streng verboten.
 				</p>
 				<p>
-					<lb/>מפתחות
+					<pb facs="Maasim-Tovim_0006.jpg" /><lb/>מפתחות
 					<lb/>המעשים טובים אשר מבוארים על סדר הסימנים מגאוני עולם
 					<lb/>הרבנים הצדיקים והחסידי׳ המפורסמים בכל אפסי ארץ ואיים רחוקים.
 					<lb/>א) מעשה ברכת המזון שהי׳ בחסיד אחד לפני הגאון הקדוש המקובל
@@ -64,7 +81,7 @@
 				</div></front><body>
 			<div type="story" xml:id="Maasim-Tovim_0001" n="1"><head type="storyHead"><persName>Maasim</persName>-Tovim_0001</head>
 <p>
-					<lb/>א) מעשה ברכת המזון שהי׳ בחסיד א׳ לפני הרב הגאון המקובל
+					<pb facs="Maasim-Tovim_0007.jpg" /><lb/>א) מעשה ברכת המזון שהי׳ בחסיד א׳ לפני הרב הגאון המקובל
 					 קדוש יאמר לו <persName> <lb/>אלקימו״</persName>ה<persName>מאיר מרגליות</persName> זצ"ל <persName>אבד״ק</persName> לבוב
 					 <persName>.
 				<lb/>בעהמח״סמאיר </persName>נתיבים</p>
@@ -99,7 +116,7 @@
 					<lb/>תדע
 				</p>
 				<p>
-					<lb/>מעשים טובים
+					<pb facs="Maasim-Tovim_0008.jpg" /><lb/>מעשים טובים
 				</p>
 				<p>
 					<lb/>תדע אשר איזה פעמים בימי הקיץ שאני נכנס לבית עיף ויגע
@@ -134,7 +151,7 @@
 					<lb/>ובקומינו אמן כי״ר :
 				</p>
 				<p>
-					<lb/>מעשים טובים
+					<pb facs="Maasim-Tovim_0009.jpg" /><lb/>מעשים טובים
 				</p>
 				</div><div type="story" xml:id="Maasim-Tovim_0002" n="2"><head type="storyHead">Maasim-Tovim_0002</head>
 <p>
@@ -177,7 +194,7 @@
 					<lb/>ונעשה
 				</p>
 				<p>
-					<lb/>ונעשה לסטים מזויין מלסטם את הבריות ולוקח נפשות ביערים
+					<pb facs="Maasim-Tovim_0010.jpg" /><lb/>ונעשה לסטים מזויין מלסטם את הבריות ולוקח נפשות ביערים
 					<lb/>הגדולים והנגראים שבמדינות ההם. ויהי היום כי החכם ההוא
 					<lb/>נהפך עליו הגלגל והוכרח במעשיו לדפוק על דלתי הנדיבים מעיר
 					<lb/>לעיר באותו המחוז אולי תעלה ארוכה למכת עניותו והי׳ נוסע
@@ -214,7 +231,7 @@
 					<lb/>בקנה
 				</p>
 				<p>
-					<name type="work"><lb/>מעשים טובים</name>
+					<name type="work"><pb facs="Maasim-Tovim_0011.jpg" /><lb/>מעשים טובים</name>
 				</p>
 				<p>
 					<lb/>בקנה השריפה אשר בידי מה תרבה תחינות להציל את נפשך
@@ -254,7 +271,7 @@
 					<lb/>46
 				</p>
 				<p>
-					<name type="work"><lb/>מעשים טובים</name>
+					<name type="work"><pb facs="Maasim-Tovim_0012.jpg" /><lb/>מעשים טובים</name>
 				</p>
 				<p>
 					<lb/>עד נפלו לארץ מרוב העילוף הנפלא כמעט נופל מת כהרוג מפרפר
@@ -296,7 +313,7 @@
 					<lb/>כאשר
 				</p>
 				<p>
-					<lb/>כאשר בתחילה ובירך ואמר ברוך הבוחר בעמו ישראל באהבה
+					<pb facs="Maasim-Tovim_0013.jpg" /><lb/>כאשר בתחילה ובירך ואמר ברוך הבוחר בעמו ישראל באהבה
 					<lb/>אשרי העם שככה לו אשרי העם שר׳ אלהיו:
 				</p>
 				</div><div type="story" xml:id="Maasim-Tovim_0005" n="5"><head type="storyHead">Maasim-Tovim_0005</head>
@@ -334,7 +351,7 @@
 					<lb/>מעללים
 				</p>
 				<p>
-					<lb/>מעללים ובכל דבר חטא ופשע רב פעלים ובעבור מטתו לפני
+					<pb facs="Maasim-Tovim_0014.jpg" /><lb/>מעללים ובכל דבר חטא ופשע רב פעלים ובעבור מטתו לפני
 					<lb/>החסיד קם לפניו ועמד על רגליו ויאמרו כל הרואים אולי איש
 					<lb/>הנבזה אינו מן החוטאים ויתמהו האנשים איש אל רעהו ויאמרו
 					<lb/>איך קם החסיד לפני איש רע מעללים ולא קם ולא התיצב תמול
@@ -369,7 +386,7 @@
 					<lb/>עם
 				</p>
 				<p>
-					<lb/>בה צלם זהב ובידו שתי וערב ולא היה מתפלל בוקר וערב וידעו
+					<pb facs="Maasim-Tovim_0015.jpg" /><lb/>בה צלם זהב ובידו שתי וערב ולא היה מתפלל בוקר וערב וידעו
 					<lb/>כי הוא רשע וכופר וברית עולם מפר והיה מן הפרושים אוכל
 					<lb/>לחם אנושים ויין ענבים לחים ויבשים וגונב לבות האנשים כמו
 					<lb/>פרושים אנשי <placeName>שכם</placeName> שעושים מעשה שכמי אשר מלו בשר ערלתם
@@ -413,7 +430,7 @@
 				</p>
 				<p>
 					<name type="work">
-				<lb/>מעשים </name>טובים</p>
+				<pb facs="Maasim-Tovim_0016.jpg" /><lb/>מעשים </name>טובים</p>
 				<p>
 					<lb/>ויאמר להם זכו בי כי זה לי שלשה ימים שלא טעמתי מאומה
 					<lb/>והי׳ אתם כבר לחם אחת שברו וחתכו את הלחם ונתנו לו את
@@ -450,7 +467,7 @@
 					<lb/>כלב ואיני יודע אם הוא בנה או לא אם נאמר שהוא בנה והיוצא
 				</p>
 				<p>
-					<name type="work"><lb/>מעשים טובים</name>
+					<name type="work"><pb facs="Maasim-Tovim_0017.jpg" /><lb/>מעשים טובים</name>
 				</p>
 				<p>
 					<lb/>מן הטהור טהור או נאמר שהכבשה ילדה במקום מוצנע ומת
@@ -484,7 +501,7 @@
 				</p>
 				</div><div type="story" xml:id="Maasim-Tovim_0009" n="9"><head type="storyHead">Maasim-Tovim_0009</head>
 <p>
-					<lb/>ט) קבלת <date>שבת</date> מרבינו <persName>אור ישראל</persName> וקדושו <persName>ר״י בעש״ט</persName> זיע״א.
+					<pb facs="Maasim-Tovim_0018.jpg" /><lb/>ט) קבלת <date>שבת</date> מרבינו <persName>אור ישראל</persName> וקדושו <persName>ר״י בעש״ט</persName> זיע״א.
 				</p>
 				<p>
 					<lb/>פעם אחת הי׳ מקבל <date>שבת</date> קודש על פני השדה והיו שם צאן
@@ -524,7 +541,7 @@
 				</p>
 				<p>
 					<name type="work">
-				<lb/>מעשים </name>טובים</p>
+				<pb facs="Maasim-Tovim_0019.jpg" /><lb/>מעשים </name>טובים</p>
 				<p>
 					<lb/>מומר להכעיס ימ״ש והחליף את מלבושיו כדי שלא יכירוהו והלך
 					<lb/>לבית הכנסת אשר הי' שם הס״ת הזה והתחבא שמה באיזה זויות
@@ -564,7 +581,7 @@
 				</p>
 				<p>
 					<name type="work">
-				<lb/>מעשים </name>טובים</p>
+				<pb facs="Maasim-Tovim_0020.jpg" /><lb/>מעשים </name>טובים</p>
 				<p>
 					<lb/>16
 				</p>
@@ -608,7 +625,7 @@
 				</p>
 				<p>
 					<name type="work">
-				<lb/>מעשים </name>טובים</p>
+				<pb facs="Maasim-Tovim_0021.jpg" /><lb/>מעשים </name>טובים</p>
 				<p>
 					<lb/>המאכלים שאכלתי מקודם היו עריבים ומוטעמים לי ביותר מאלו
 					<lb/>המאכלים אשר אכלתי כעת אמר לו רבינו אלו המאכלים תבלין
@@ -645,7 +662,7 @@
 				</p>
 				</div><div type="story" xml:id="Maasim-Tovim_0014" n="14"><head type="storyHead">Maasim-Tovim_0014</head>
 <p>
-					<lb/>יד) מעשה <persName>הרמב״ן</persName> ב<placeName>ברצילינו</placeName> שהוליך ספינה ברוח שפתיו,
+					<pb facs="Maasim-Tovim_0022.jpg" /><lb/>יד) מעשה <persName>הרמב״ן</persName> ב<placeName>ברצילינו</placeName> שהוליך ספינה ברוח שפתיו,
 					<lb/>על הייבשה.
 				</p>
 				<p>
@@ -678,7 +695,7 @@
 				</p>
 				</div><div type="story" xml:id="Maasim-Tovim_0015" n="15"><head type="storyHead">Maasim-Tovim_0015</head>
 <p>
-					<lb/>טו) ה<persName>רמב״ן</persName> הי׳ לו תלמיד ונשתמד ושמו <persName>אבנר</persName>.
+					<pb facs="Maasim-Tovim_0023.jpg" /><lb/>טו) ה<persName>רמב״ן</persName> הי׳ לו תלמיד ונשתמד ושמו <persName>אבנר</persName>.
 				</p>
 				<p>
 					<lb/>מעשה ב<persName>רמב״ן</persName> ז"ל שהי׳ לו תלמיד אחד <persName>אבגר</persName> הי׳ שמו ונעשה
@@ -715,7 +732,7 @@
 					<lb/>אם
 				</p>
 				<p>
-					<lb/>מעשים טובים
+					<pb facs="Maasim-Tovim_0024.jpg" /><lb/>מעשים טובים
 				</p>
 				<p>
 					<lb/>בא להרב בחלום והחזיק לו טובה שגרמה לו זכות תפלתו להוליכו
@@ -757,7 +774,7 @@
 					<lb/>איש
 				</p>
 				<p>
-					<lb/>איש מבני ישראל וחתכה האשה את אצבעו בשני׳ אז אמר <persName>הרמב״ן</persName>
+					<pb facs="Maasim-Tovim_0025.jpg" /><lb/>איש מבני ישראל וחתכה האשה את אצבעו בשני׳ אז אמר <persName>הרמב״ן</persName>
 					<lb/>ראה שהתורה שלנו אמת ודברי החכמים הן אמת ע״כ נלמוד
 					<lb/>מהמעשה הזה שהכל תלוי בהאשה כי לפעמים יש אדם רשע ויש
 					<lb/>לו אשה צנועה ויהיו לו בנים צדיקים טובים וישרים ולפעמים יש
@@ -795,7 +812,7 @@
 					<lb/>446
 				</p>
 				<p>
-					<lb/>חזו מפעלות <name type="misc">אלקים</name> אשר שם לו חק ומשפט על אותם אנשים
+					<pb facs="Maasim-Tovim_0026.jpg" /><lb/>חזו מפעלות <name type="misc">אלקים</name> אשר שם לו חק ומשפט על אותם אנשים
 					<lb/>המזלזלים בעיניהם התפלות ונוהגין להתפלל בקלות וכל העם ישמעון
 					<lb/>וייראון ע״כ יראה האדם לפחד תמיד בהעלותו על לבו ימים רבים
 					<lb/>שעברו תפלות ה<name type="misc">קב</name>ועים בכל יום מבלי כוונה ועל זאת צריך לבקש
@@ -836,7 +853,7 @@
 					<lb/>הפרזות
 				</p>
 				<p>
-					<lb/>הפרזות לכבוש אותה ולבון בון ויאמרו לו הננו מוכנים לכל אשר
+					<pb facs="Maasim-Tovim_0027.jpg" /><lb/>הפרזות לכבוש אותה ולבון בון ויאמרו לו הננו מוכנים לכל אשר
 					<lb/>תאמר אלינו ואנחנו נקבל אותך לראש ולקצין עלינו ויקומו ויעלו אל
 					<lb/>עיר אחת ובטרם יקרב אליהם קרא אליה לשלום ושלח לאמור למושל
 					<lb/>העיר ההיא הנתון בה מאת המלך תנה לי את העיר הזאת לישב
@@ -873,7 +890,7 @@
 					<lb/>גבורתכם
 				</p>
 				<p>
-					<lb/>גבורתכם בעיר הזאת ואם ננצחם ונכבוש את העיר הרשות נתונה
+					<pb facs="Maasim-Tovim_0028.jpg" /><lb/>גבורתכם בעיר הזאת ואם ננצחם ונכבוש את העיר הרשות נתונה
 					<lb/>בידכם בבואכם אל העיר זמן ד׳ שעות לשלול שללה ולבוז
 					<lb/>בזה אנשים ונשים כלם בירכם ניתנו לעשות בהם כטוב בעיניכם
 					<lb/>ויענו ויאמרו לו הננו ועלינו ינלחמנו כאשר תאמר אלינו ויתחזקו
@@ -910,7 +927,7 @@
 					<lb/>כמה
 				</p>
 				<p>
-					<lb/>כמה מדינות ושלל שללה ובזו בזה והרג מכת חרב והרג ואבדן
+					<pb facs="Maasim-Tovim_0029.jpg" /><lb/>כמה מדינות ושלל שללה ובזו בזה והרג מכת חרב והרג ואבדן
 					<lb/>מחיל המלך ושריו וכו׳ ויקצוף המלך מאד וחמתו בערה בו ושלח
 					<lb/>עליו עם כבד ויד חזקה לכבוש אותו וילכו וילחמו עמו ועם כל
 					<lb/>אנשי חיל אנשי בליעל ויהרגום לפי חרב ויתפשו את המורד חי
@@ -947,7 +964,7 @@
 					<lb/>מכל
 				</p>
 				<p>
-					<lb/>מכל מיני מאכלים ומעדני מלכים מבושלים ומתוקנים ופת לחם
+					<pb facs="Maasim-Tovim_0030.jpg" /><lb/>מכל מיני מאכלים ומעדני מלכים מבושלים ומתוקנים ופת לחם
 					<lb/>וגלוסקאות יפים ותרנגולת ואווזים מבושלים שלימים אין חסר דבר
 					<lb/>ויעל עוד מדרגה למעלה וירא כל העליות גם כן מלאות מכל טוב
 					<lb/>ובכללם סאלה חדר אחת גדולה ובה שלחן מלכים ערוכה בכל
@@ -984,7 +1001,7 @@
 					<lb/>ובאים
 				</p>
 				<p>
-					<lb/>ובאים אל הפלטין ההוא ויירא מאד לנפשו ויבקש מקום להסתר
+					<pb facs="Maasim-Tovim_0031.jpg" /><lb/>ובאים אל הפלטין ההוא ויירא מאד לנפשו ויבקש מקום להסתר
 					<lb/>מהם ויחבא עצמו תחת מדרגה אחת בקרן זוית כדי שלא יראוהו
 					<lb/>ויבואו כל החיל הנזכר והפרשים רוכבים על סוסיהם ובתוכם איש
 					<lb/>אחד תוארו כתואר המלכים ועטרה על ראשו ולבוש בעדי מלכים
@@ -1019,7 +1036,7 @@
 					<lb/>שעות
 				</p>
 				<p>
-					<name type="work"><lb/>מעשים טובים</name>
+					<name type="work"><pb facs="Maasim-Tovim_0032.jpg" /><lb/>מעשים טובים</name>
 				</p>
 				<p>
 					<lb/>שעות ממלכותו חזרו וקמו עליו ויפילוהו מכסאו לארץ ויהרגוהו
@@ -1059,7 +1076,7 @@
 					<lb/>שלל
 				</p>
 				<p>
-					<lb/>שלל ולבוז בז זמן ארבע שעות תיכף בהכנסו לעיר וידע שהיו בה
+					<pb facs="Maasim-Tovim_0033.jpg" /><lb/>שלל ולבוז בז זמן ארבע שעות תיכף בהכנסו לעיר וידע שהיו בה
 					<lb/>יהודים שאל עליהם איזהו מקומם ודירתם ואמרו לו שכלם אנשים
 					<lb/>ונשים וטף ברחו לנפשם ונתקבצו בבית הכנסת שלהם לזעוק זעקתם
 					<lb/>ולהתפלל תפלתם וישמח האיש המורד הנזכר שמחה גדולה. ויבא
@@ -1096,7 +1113,7 @@
 					<lb/>661
 				</p>
 				<p>
-					<name type="work"><lb/>מעשים טובים</name>
+					<name type="work"><pb facs="Maasim-Tovim_0034.jpg" /><lb/>מעשים טובים</name>
 				</p>
 				<p>
 					<lb/>ויען השני ויאמר אני אוליכהו בחצי שנה וכן עזה"ד היה כ"א מראה
@@ -1133,7 +1150,7 @@
 				</p>
 				</div><div type="story" xml:id="Maasim-Tovim_0020" n="20"><head type="storyHead">Maasim-Tovim_0020</head>
 <p>
-					<lb/>כ) מעשה נטילת ידים מאדון עוזינו הצדיק הקדוש אדמו״ר
+					<pb facs="Maasim-Tovim_0035.jpg" /><lb/>כ) מעשה נטילת ידים מאדון עוזינו הצדיק הקדוש אדמו״ר
 					  הגא<persName>ון האבד"ק</persName> <lb/>מו"השלום רוקח זי"ע<placeName>בעלז</placeName>.
 				</p>
 				<p>
@@ -1169,7 +1186,7 @@
 					<lb/>בשדה
 				</p>
 				<p>
-					<lb/>בשדה ויטול ידיו וינגבם ויחף להביא לחם לפיהו אם ברך ברכ<supplied reason="">ה</supplied>
+					<pb facs="Maasim-Tovim_0036.jpg" /><lb/>בשדה ויטול ידיו וינגבם ויחף להביא לחם לפיהו אם ברך ברכ<supplied reason="">ה</supplied>
 					<lb/>המוציא או לא לא אדע. אולם בלי נט״י לא הביא לחם לפיו ותיכ<supplied reason="">ף</supplied>
 					<lb/>באו צודדי נפשות ויפרשו רשת לפעמיו והמיתוהו ונעשה רע<supplied reason="">ש</supplied>
 					<lb/>גדול ברקיע השמים והגיע עד לפמליא של מעלה כי איש אח<supplied reason="">ד</supplied>

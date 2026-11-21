@@ -4,17 +4,34 @@
 		<fileDesc>
 			<titleStmt>
 				<title type="main">Tiferet Hayyim 1905 תפארת חיים</title>
-			</titleStmt>
+				<respStmt>
+					<resp>Digitization</resp>
+					<orgName>HebrewBooks.org</orgName>
+				</respStmt>
+				<respStmt>
+					<resp>Transcription</resp>
+					<name>Transkribus</name>
+					<note>Transcribed using Transkribus; story divisions marked in Transkribus</note>
+				</respStmt>
+				<respStmt>
+					<resp>Named Entity Tagging</resp>
+					<name>DictaBert</name>
+					<note>automatic tagging, corrected with Gemini; not yet reviewed by hand</note>
+				</respStmt>
+			</titleStmt><editionStmt><edition n="1.0.0">Working edition</edition></editionStmt>
 			<publicationStmt>
-				<publisher>tranScriptorium</publisher>
+				<p>This edition was created in the framework of the the project "Historical Digital
+					Analysis of Hasidic Stories Until 1914", PI: Gadi Sagiv; Supervising
+					Editor: Sinai Rusinek. This edition was prepared using an implementation of
+					TEI-Publisher Annotator and the XML-Planter, developed by DH-dev.com (Gil
+					Shalit).</p>
 			</publicationStmt>
-			<sourceDesc>
-				<bibl type="original"><title type="main" xml:lang="he">תפארת חיים</title><title type="main" xml:lang="en">Tiferet Hayyim</title><author><persName xml:lang="he">נתן נטע דונר</persName><persName xml:lang="en">Natan Netah Doner</persName></author><imprint><pubPlace ref="#H-LOC_178" xml:lang="he">ורשה</pubPlace><pubPlace ref="#H-LOC_178" xml:lang="en">Warsaw</pubPlace><date when="1905">תרס"ה</date></imprint><textLang mainLang="heb" /><idno type="HebrewBooks">3686</idno><idno type="BHB">177534</idno><idno type="Kima">953</idno><idno type="Transkribus">9568035</idno><idno type="work">82</idno><note>Later printing (Warsaw 1905); the first edition is Warsaw תרס"א (1900/1).</note></bibl><bibl type="firstEdition"><imprint><pubPlace ref="#H-LOC_178" xml:lang="he">ורשה</pubPlace><pubPlace ref="#H-LOC_178" xml:lang="en">Warsaw</pubPlace><date when="1900">תרס"א</date></imprint><idno type="BHB">177533</idno><idno type="DBid">3729</idno></bibl></sourceDesc>
+			<sourceDesc><bibl type="digital"><title>Digital scan from HebrewBooks.org</title><publisher>HebrewBooks.org</publisher><ptr target="https://hebrewbooks.org/3686" /><idno type="HebrewBooks">3686</idno><idno type="Transkribus">9568035</idno><note>Source for transcription</note></bibl><bibl type="original"><title type="main" xml:lang="he">תפארת חיים</title><title type="main" xml:lang="en">Tiferet Hayyim</title><author><persName xml:lang="he">נתן נטע דונר</persName><persName xml:lang="en">Natan Netah Doner</persName></author><pubPlace xml:lang="he">ורשה</pubPlace><pubPlace xml:lang="en">Warsaw</pubPlace><date when="1905">תרס&quot;ה</date><textLang mainLang="heb" /><idno type="HebrewBooks">3686</idno><idno type="BHB">177534</idno><idno type="Kima">953</idno><idno type="Transkribus">9568035</idno><idno type="work">82</idno></bibl></sourceDesc>
 		</fileDesc>
-	<revisionDesc><change when="2026-04-29">sourceDesc synced from edition-metadata.json</change><change when="2026-11-11">sourceDesc synced from edition-metadata.json</change></revisionDesc></teiHeader>
+	<revisionDesc><change when="2026-04-29">sourceDesc synced from edition-metadata.json</change><change when="2026-11-11">sourceDesc synced from edition-metadata.json</change><change when="2026-11-21">header in the shape of the online editions; page breaks restored from the Transkribus export</change></revisionDesc></teiHeader>
 	<text>
 		<front><div type="front-matter"><p>
-					<lb />ספר
+					<pb facs="Tiferet-Hayyim_0001.jpg" /><lb />ספר
 					<name type="work">
 					<lb />תפאר</name>ת חיים<lb />חידושי <name type="work">תורה</name> דברים נפלאים ויקרים, כשמש בצהרים מאירים מכבוד הגאוה״ק <placeName>בוצ״ק</placeName>
 					<lb />מופת הדור אספקריא המאירה, א״א קדו׳ דומה למלאך ה׳ צבאות חו״פ בנש״ק אדמו״ר
@@ -40,7 +57,7 @@
 			</date>	<lb />שנת תרס״ה</p>
 				</div></front><body>
 			<div type="non-story" ana="introduction"><p>
-					<lb />הקדמה
+					<pb facs="Tiferet-Hayyim_0002.jpg" /><lb />הקדמה
 				</p>
 				<p>
 					<lb />ישמחו היראים ויעלזו החסידים. בראותם יחד כליל תפארת חי׳ תורה מאת
@@ -85,7 +102,7 @@
 					<persName> ב<lb />נתן נ</persName>טע<persName>מוהר"נ הכהן</persName> ז"ל האבד״ק הנ"ל .
 				</p>
 				</div><div type="non-story" ana="approbation"><p>
-					<lb />הסכמת הרבנים צדיקי זמנינו שליט"<supplied reason="damage">א</supplied> 
+					<pb facs="Tiferet-Hayyim_0003.jpg" /><lb />הסכמת הרבנים צדיקי זמנינו שליט"<supplied reason="damage">א</supplied> 
 				</p>
 				<p>
 					<lb />מהה"ק <placeName>חו״פ</placeName> וכו׳ בנש״ק האבד״ק
@@ -139,7 +156,7 @@
 					<lb />המחבר
 				</p>
 				</div><div type="non-story"><p>
-					<lb />בראשית ברא <name type="misc">אלהים</name> את השמים ואת
+					<pb facs="Tiferet-Hayyim_0004.jpg" /><lb />בראשית ברא <name type="misc">אלהים</name> את השמים ואת
 					<lb />הארץ. יבואר עפ״י ששמעתי
 					<lb />מאממו״ר [הה״ק ר׳ <persName>חיים מאיר יחיאל</persName>
 					<lb />זצוקללה"ה האבד״ק מ<placeName>אגלניצא</placeName>] שאמר בשם
@@ -207,7 +224,7 @@
 					<lb />קליכן לה״ה כל מיני טובות וישועות ונמשך לכל ישראל אכי״ר :
 				</p>
 				<p>
-					<lb />תפארה
+					<pb facs="Tiferet-Hayyim_0005.jpg" /><lb />תפארה
 				</p>
 				<p>
 					<name type="work">
@@ -310,7 +327,7 @@
 					<lb />דגדולה
 				</p>
 				<p>
-					<lb />תפארת
+					<pb facs="Tiferet-Hayyim_0006.jpg" /><lb />תפארת
 				</p>
 				<p>
 					<name type="work">
@@ -406,7 +423,7 @@
 					<lb />הכנסת אורחים יותר מקבלת פני השכינה
 				</p>
 				<p>
-					<lb />תפארת
+					<pb facs="Tiferet-Hayyim_0007.jpg" /><lb />תפארת
 				</p>
 				<p>
 					<lb />פרשת וירא
@@ -502,7 +519,7 @@
 					<lb />שנדחים והנעשהיים מבירא עמיקתא לאיגרא רמה לאביהם שבשמים עכ״ל :
 				</p>
 				<p>
-					<lb />תפארת
+					<pb facs="Tiferet-Hayyim_0008.jpg" /><lb />תפארת
 				</p>
 				<p>
 					<lb />רשת וירא
@@ -606,7 +623,7 @@
 					<lb />ו<persName>יעקב</persName>
 				</p>
 				<p>
-					<lb />10
+					<pb facs="Tiferet-Hayyim_0009.jpg" /><lb />10
 				</p>
 				<p>
 					<lb />תפארת
@@ -714,7 +731,7 @@
 					<lb />שגם
 				</p>
 				<p>
-					<lb />תפארת
+					<pb facs="Tiferet-Hayyim_0010.jpg" /><lb />תפארת
 				</p>
 				<p>
 					 ויבש<name type="work">
@@ -798,7 +815,7 @@
 					<lb />שלום עה״ת פ׳ <name type="work">ויגש</name>) :
 				</p>
 				<p>
-					<lb />12
+					<pb facs="Tiferet-Hayyim_0011.jpg" /><lb />12
 				</p>
 				<p>
 					<lb />שת ויגש
@@ -894,7 +911,7 @@
 					<lb />אינו
 				</p>
 				<p>
-					<lb />תפארת
+					<pb facs="Tiferet-Hayyim_0012.jpg" /><lb />תפארת
 				</p>
 				<p>
 					<lb />פרשת <name type="work">שבת</name>
@@ -970,7 +987,7 @@
 					<lb />ניחוח כו׳ ודבר זה גילה לנו ה<persName>בעש״ט</persName> זצללה״ה זי״ע :
 				</p>
 				<p>
-					<lb />14
+					<pb facs="Tiferet-Hayyim_0013.jpg" /><lb />14
 				</p>
 				<p>
 					<lb />תפארת
@@ -1064,7 +1081,7 @@
 					<lb />בבקר זרע זרעך תיכף בהקיצו ולערב שאתה מפשפש במעשיך אל תנח ידיך ע״כ :
 				</p>
 				<p>
-					<lb />תפארת
+					<pb facs="Tiferet-Hayyim_0014.jpg" /><lb />תפארת
 				</p>
 				<p>
 					<lb />פרשת שמות
@@ -1161,7 +1178,7 @@
 					<lb />תפלתו למעלה כי ה<name type="misc">קב"ה</name> מתאווה לתפלתן של צדיקים ומגלין אלהותו ית״ש בעולם עכ״ל :
 				</p>
 				<p>
-					<lb />16
+					<pb facs="Tiferet-Hayyim_0015.jpg" /><lb />16
 				</p>
 				<p>
 					<lb />למשוך טוב על ישראל וזפ"ה ויאסור את
@@ -1271,7 +1288,7 @@
 					<lb />וזה
 				</p>
 				<p>
-					<lb />17
+					<pb facs="Tiferet-Hayyim_0016.jpg" /><lb />17
 				</p>
 				<p>
 					<name type="work">
@@ -1376,7 +1393,7 @@
 					<lb />בתי'
 				</p>
 				<p>
-					<lb />18
+					<pb facs="Tiferet-Hayyim_0017.jpg" /><lb />18
 				</p>
 				<p>
 					<lb />תפארת
@@ -1481,7 +1498,7 @@
 					<lb />וזה הדבר אשר תעשה להם. במד״ר
 				</p>
 				<p>
-					<lb />תפארת
+					<pb facs="Tiferet-Hayyim_0018.jpg" /><lb />תפארת
 				</p>
 				<p>
 					<name type="work"> תצו</name>ה
@@ -1584,7 +1601,7 @@
 					<lb />על
 				</p>
 				<p>
-					<lb />על שמיעטתי את הירח ולכן אם היו
+					<pb facs="Tiferet-Hayyim_0019.jpg" /><lb />על שמיעטתי את הירח ולכן אם היו
 					<lb />אוכלים החטאת הזה הי׳ התיקון על פגם
 					<lb />מיעוט הירח כי הכהנים אוכלים ובעלים
 					<lb />מתכפרים כביכול והי׳ אור הלבנה כאור
@@ -1673,7 +1690,7 @@
 					<lb />פעם אחת דבוק בהבורא כפי יפלתו ישמח אפילו כשהוא מבחוץ וזהו בצאתך וכו׳ עי״ש :
 				</p>
 				<p>
-					<lb />תפארת
+					<pb facs="Tiferet-Hayyim_0020.jpg" /><lb />תפארת
 				</p>
 				<p>
 					<lb />הספר
@@ -1784,7 +1801,7 @@
 					<lb />ג״כ
 				</p>
 				<p>
-					<lb />32
+					<pb facs="Tiferet-Hayyim_0021.jpg" /><lb />32
 				</p>
 				<p>
 					<lb />תפארת
@@ -1878,7 +1895,7 @@
 					<lb />הנאה לא יכעוס כלל אפילו בפה ובזה יעורר עליו מלמעלה אהבת ה<name type="misc">בורא</name> :
 				</p>
 				<p>
-					<lb />הוכח תוכיח את עמיתך וכו׳ מורי ז"ל
+					<pb facs="Tiferet-Hayyim_0022.jpg" /><lb />הוכח תוכיח את עמיתך וכו׳ מורי ז"ל
 					<lb />אמר צריך להוכיח את
 					<lb />האדם כל אחד לפי אותו האדם שמוכיחו
 					<lb />ולא תוכיח אותו לפי ערכך. (ס׳ <name type="work">דבר
@@ -1977,7 +1994,7 @@
 					<lb /><sic correction="בחטאים">בחטחים</sic>
 				</p>
 				<p>
-					<lb />34
+					<pb facs="Tiferet-Hayyim_0023.jpg" /><lb />34
 				</p>
 				<p>
 					<lb />תפארת
@@ -2083,7 +2100,7 @@
 					<lb />אבל
 				</p>
 				<p>
-					<lb />תפארת
+					<pb facs="Tiferet-Hayyim_0024.jpg" /><lb />תפארת
 				</p>
 				<p>
 					<lb />פרשת מסע
@@ -2182,7 +2199,7 @@
 					<lb />בבלי
 				</p>
 				<p>
-					<lb />26
+					<pb facs="Tiferet-Hayyim_0025.jpg" /><lb />26
 				</p>
 				<p>
 					<lb />תפארת
@@ -2278,7 +2295,7 @@
 					<lb />ובר״ח
 				</p>
 				<p>
-					<lb />28
+					<pb facs="Tiferet-Hayyim_0026.jpg" /><lb />28
 				</p>
 				<p>
 					<lb />תפארת
@@ -2356,7 +2373,7 @@
 					<lb />תורה
 				</p>
 				<p>
-					<lb />28
+					<pb facs="Tiferet-Hayyim_0027.jpg" /><lb />28
 				</p>
 				<p>
 					<lb />תפארת
@@ -2447,7 +2464,7 @@
 					<lb />מתורתך והפסוק דרך שקר הסר ממני ותורתך חנני :
 				</p>
 				<p>
-					<lb />28
+					<pb facs="Tiferet-Hayyim_0028.jpg" /><lb />28
 				</p>
 				<p>
 					<lb />תפארת
@@ -2543,7 +2560,7 @@
 					<lb />ה׳ מפני שהוא מבורך ולא לצד להשלים רעבונו או בשביל הנאות אחרות והבן :
 				</p>
 				<p>
-					<lb />30
+					<pb facs="Tiferet-Hayyim_0029.jpg" /><lb />30
 				</p>
 				<p>
 					<lb />תפארת
@@ -2656,7 +2673,7 @@
 					<lb />מורי
 				</p>
 				<p>
-					<lb />3
+					<pb facs="Tiferet-Hayyim_0030.jpg" /><lb />3
 				</p>
 				<p>
 					<lb />תפארת
@@ -2763,7 +2780,7 @@
 					<lb />תולדות <persName>יעקב יוסף</persName> פ׳ נח באריכות :
 				</p>
 				<p>
-					<lb />32
+					<pb facs="Tiferet-Hayyim_0031.jpg" /><lb />32
 				</p>
 				<p>
 					<lb />תפארת
@@ -2878,7 +2895,7 @@
 					<lb />נכון
 				</p>
 				<p>
-					<lb />תפארת
+					<pb facs="Tiferet-Hayyim_0032.jpg" /><lb />תפארת
 				</p>
 				<p>
 					<name type="work"> צבי</name>ם
@@ -2982,7 +2999,7 @@
 					<lb />כזכיות ונשלמה פרים שפתינו כי מטבע
 				</p>
 				<p>
-					<lb />תפארת
+					<pb facs="Tiferet-Hayyim_0033.jpg" /><lb />תפארת
 				</p>
 				<p>
 					<lb />8
@@ -3071,7 +3088,7 @@
 					<lb />מפאת
 				</p>
 				<p>
-					<lb />81
+					<pb facs="Tiferet-Hayyim_0034.jpg" /><lb />81
 				</p>
 				<p>
 					<lb />תפארת
@@ -3142,7 +3159,7 @@
 				</div><div type="story" xml:id="Tiferet-Hayyim_0018" n="18"><head type="storyHead">Tiferet-Hayyim_0018</head>
 </div><div type="story" xml:id="Tiferet-Hayyim_0019" n="19"><head type="storyHead">Tiferet-Hayyim_0019</head>
 <p>
-					<lb />36
+					<pb facs="Tiferet-Hayyim_0035.jpg" /><lb />36
 				</p>
 				<p>
 					<lb />תפארת
@@ -3257,7 +3274,7 @@
 					<lb />מניח להם מיד לבנות אך הוא כדי וקראו
 				</p>
 				<p>
-					<lb />בלאני
+					<pb facs="Tiferet-Hayyim_0036.jpg" /><lb />בלאני
 					<lb />תפארת
 				</p>
 				<p>
@@ -3365,7 +3382,7 @@
 					<lb />בשמים כל אשר חפץ עשה. שמעתי מחותני
 				</p>
 				<p>
-					<lb />38
+					<pb facs="Tiferet-Hayyim_0037.jpg" /><lb />38
 				</p>
 				<p>
 					
@@ -3461,7 +3478,7 @@
 					<lb />יעו״ש מעשה נפלא מענין הזה) :
 				</p>
 				<p>
-					<lb />30
+					<pb facs="Tiferet-Hayyim_0038.jpg" /><lb />30
 				</p>
 				<p>
 					<lb />ספר <name type="work">מ״י דעת</name>
@@ -3548,7 +3565,7 @@
 					<lb />זי״ע ועכ״י :
 				</p>
 				<p>
-					<lb />40
+					<pb facs="Tiferet-Hayyim_0039.jpg" /><lb />40
 				</p>
 				<p>
 					<lb />״י
@@ -3624,7 +3641,7 @@
 					<lb />להם זה נעשה ראש (אמרי צדיקים) :
 				</p>
 				<p>
-					<lb />עת
+					<pb facs="Tiferet-Hayyim_0040.jpg" /><lb />עת
 				</p>
 				<p>
 					<lb />על זה. אך שכל זה עשה השם יחברך
@@ -3718,7 +3735,7 @@
 					<lb />וקד כה
 				</p>
 				<p>
-					<lb />42
+					<pb facs="Tiferet-Hayyim_0041.jpg" /><lb />42
 				</p>
 				<p>
 					<lb />ועת
@@ -3819,7 +3836,7 @@
 					<lb />שיזכר
 				</p>
 				<p>
-					<lb />דעת
+					<pb facs="Tiferet-Hayyim_0042.jpg" /><lb />דעת
 				</p>
 				<p>
 					<lb />שיזכר שמו על הדבר והלא בכל ה<name type="work">תורה</name>
@@ -3917,7 +3934,7 @@
 					<lb />מוכנים
 				</p>
 				<p>
-					<lb />64
+					<pb facs="Tiferet-Hayyim_0043.jpg" /><lb />64
 				</p>
 				<p>
 					<lb />ס״י
@@ -4016,7 +4033,7 @@
 					<lb />בודאי
 				</p>
 				<p>
-					<lb />דט
+					<pb facs="Tiferet-Hayyim_0044.jpg" /><lb />דט
 				</p>
 				<p>
 					<lb />בודאי מסתמא אתם עושים פעולה לזה
@@ -4116,7 +4133,7 @@
 					<lb />תחת
 				</p>
 				<p>
-					<lb />46
+					<pb facs="Tiferet-Hayyim_0045.jpg" /><lb />46
 				</p>
 				<p>
 					<lb />מ״י
@@ -4223,7 +4240,7 @@
 					<lb />א״כ
 				</p>
 				<p>
-					<lb />דו
+					<pb facs="Tiferet-Hayyim_0046.jpg" /><lb />דו
 				</p>
 				<p>
 					<lb />א״כ אין עול מצות על האדם רק העול
@@ -4259,7 +4276,7 @@
 					<lb />הנ״ל פ׳ <name type="work">יתרו</name>) :
 				</p>
 				<p>
-					<lb />68
+					<pb facs="Tiferet-Hayyim_0047.jpg" /><lb />68
 				</p>
 				<p>
 					<name type="work">
@@ -4353,7 +4370,7 @@
 					<lb />עוה״ז
 				</p>
 				<p>
-					<lb />ניה
+					<pb facs="Tiferet-Hayyim_0048.jpg" /><lb />ניה
 					<lb />חזון
 				</p>
 				<p>
@@ -4456,7 +4473,7 @@
 					<lb />הברים
 				</p>
 				<p>
-					<lb />80
+					<pb facs="Tiferet-Hayyim_0049.jpg" /><lb />80
 				</p>
 				<p>
 					<lb />חזון <persName>שעיה</persName>
@@ -4522,7 +4539,7 @@
 					<lb />יהי׳ תתיית המתים (ת״ש הנ״ל פ׳ <name type="work">תצוה</name>) :
 				</p>
 				<p>
-					<lb />81
+					<pb facs="Tiferet-Hayyim_0050.jpg" /><lb />81
 				</p>
 				<p>
 					<lb />דרך ישר
@@ -4614,7 +4631,7 @@
 					<lb />בעבודת השי"ת ואקבל עלי מהיום והלאה
 				</p>
 				<p>
-					<lb />52
+					<pb facs="Tiferet-Hayyim_0051.jpg" /><lb />52
 				</p>
 				</div><div type="story" xml:id="Tiferet-Hayyim_0022" n="21"><head type="storyHead">Tiferet-Hayyim_0022</head>
 <p>
@@ -4701,7 +4718,7 @@
 					<lb />לקרץ
 				</p>
 				<p>
-					<lb />תפארת <persName>משה</persName>
+					<pb facs="Tiferet-Hayyim_0052.jpg" /><lb />תפארת <persName>משה</persName>
 				</p>
 				<p>
 					<lb />לארץ ובבית אדוניו המצרי ואין יכולת
@@ -4796,7 +4813,7 @@
 					 זצוקללה״<lb />אהרן<persName>ה מ :
 			</persName>	זיטאמר</p>
 				<p>
-					<lb />תפארת <persName>משה</persName>
+					<pb facs="Tiferet-Hayyim_0053.jpg" /><lb />תפארת <persName>משה</persName>
 				</p>
 				<p>
 					<lb />מצדיקי הדור שהי׳ בזמנינו שלא הוכיחו
@@ -4888,7 +4905,7 @@
 					<lb />בעולם גלגל עליהם מדת רחמיך ורחם עליהם ומחול לעונותיהם וכו׳ יעו״ש המא<name type="work">ס</name>ף :
 				</p>
 				<p>
-					<lb />תפארת <persName>משה</persName>
+					<pb facs="Tiferet-Hayyim_0054.jpg" /><lb />תפארת <persName>משה</persName>
 				</p>
 				<p>
 					<lb />תכמתו מתקיימת כי לכאורה קשה על דתן
@@ -4973,7 +4990,7 @@
 					<lb />ובדעת ובשמחה :
 				</p>
 				<p>
-					<lb />תפארת <persName>משה</persName>
+					<pb facs="Tiferet-Hayyim_0055.jpg" /><lb />תפארת <persName>משה</persName>
 				</p>
 				<p>
 					<name type="work">

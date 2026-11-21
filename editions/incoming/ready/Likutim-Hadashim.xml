@@ -4,17 +4,34 @@
 		<fileDesc>
 			<titleStmt>
 				<title type="main">Likutim Hadashim 1899 ליקוטים חדשים</title>
-			</titleStmt>
+				<respStmt>
+					<resp>Digitization</resp>
+					<orgName>HebrewBooks.org</orgName>
+				</respStmt>
+				<respStmt>
+					<resp>Transcription</resp>
+					<name>Transkribus</name>
+					<note>Transcribed using Transkribus; story divisions marked in Transkribus</note>
+				</respStmt>
+				<respStmt>
+					<resp>Named Entity Tagging</resp>
+					<name>DictaBert</name>
+					<note>automatic tagging, corrected with Gemini; not yet reviewed by hand</note>
+				</respStmt>
+			</titleStmt><editionStmt><edition n="1.0.0">Working edition</edition></editionStmt>
 			<publicationStmt>
-				<publisher>tranScriptorium</publisher>
+				<p>This edition was created in the framework of the the project "Historical Digital
+					Analysis of Hasidic Stories Until 1914", PI: Gadi Sagiv; Supervising
+					Editor: Sinai Rusinek. This edition was prepared using an implementation of
+					TEI-Publisher Annotator and the XML-Planter, developed by DH-dev.com (Gil
+					Shalit).</p>
 			</publicationStmt>
-			<sourceDesc>
-				<bibl type="original"><title type="main" xml:lang="he">ליקוטים חדשים</title><title type="main" xml:lang="en">Likutim Hadashim</title><author><persName xml:lang="he">יחיאל משה גרינוולד</persName><persName xml:lang="en">Yechiel Moshe Greenwald</persName></author><imprint><pubPlace xml:lang="he">ורשה</pubPlace><pubPlace xml:lang="en">Warsaw</pubPlace><date when="1899">תרנ"ט</date></imprint><textLang mainLang="heb"/><idno type="HebrewBooks">3671</idno><idno type="BHB">135736</idno><idno type="Kima">953</idno><idno type="Transkribus">6577070</idno><idno type="DBid">3697</idno></bibl></sourceDesc>
+			<sourceDesc><bibl type="digital"><title>Digital scan from HebrewBooks.org</title><publisher>HebrewBooks.org</publisher><ptr target="https://hebrewbooks.org/3671" /><idno type="HebrewBooks">3671</idno><idno type="Transkribus">6577070</idno><note>Source for transcription</note></bibl><bibl type="original"><title type="main" xml:lang="he">ליקוטים חדשים</title><title type="main" xml:lang="en">Likutim Hadashim</title><author><persName xml:lang="he">יחיאל משה גרינוולד</persName><persName xml:lang="en">Yechiel Moshe Greenwald</persName></author><pubPlace xml:lang="he">ורשה</pubPlace><pubPlace xml:lang="en">Warsaw</pubPlace><date when="1899">תרנ&quot;ט</date><textLang mainLang="heb" /><idno type="HebrewBooks">3671</idno><idno type="BHB">135736</idno><idno type="Kima">953</idno><idno type="Transkribus">6577070</idno><idno type="DBid">3697</idno><idno type="work">50</idno></bibl></sourceDesc>
 		</fileDesc>
-	<revisionDesc><change when="2026-04-29">sourceDesc synced from edition-metadata.json</change></revisionDesc></teiHeader>
+	<revisionDesc><change when="2026-04-29">sourceDesc synced from edition-metadata.json</change><change when="2026-11-21">header in the shape of the online editions; page breaks restored from the Transkribus export</change></revisionDesc></teiHeader>
 	<text>
 		<front><div type="front-matter"><p>
-					<lb/>ליקוטים חדשים
+					<pb facs="Likutim-Hadashim_0001.jpg" /><lb/>ליקוטים חדשים
 					<lb/>דברים חדשים אשר לא שמען אוזן מעולם
 					<lb/>על <name type="work">תורה</name> נביאים וכתובים ופלפולים טובים ואיזה שו״ת ועצות
 					<lb/>טובות. וספורים ערבים שומעיהם. גם נשלם בזה מה שנחסר
@@ -39,7 +56,7 @@
 					<date> לפ"ק
 			</date>	<lb/>שנת תרנ"ט</p>
 				<p>
-					<lb/>ספורי מעשיות
+					<pb facs="Likutim-Hadashim_0102.jpg" /><lb/>ספורי מעשיות
 				</p>
 				<p>
 					<lb/>זה הספורי מעשיות שמעתי ממגידי אמת ובע״ה מי שיקרא אותם
@@ -131,7 +148,7 @@
 					<lb/>ולא יכלו ליתן לו כל כך. וצוה שיקחו את
 				</p>
 				<p>
-					<persName> <lb/>הר״</persName>םמ<placeName>רוטונבערג</placeName> לתפיסה. ועי״ז יהיו
+					<persName> <pb facs="Likutim-Hadashim_0103.jpg" /><lb/>הר״</persName>םמ<placeName>רוטונבערג</placeName> לתפיסה. ועי״ז יהיו
 					<lb/>מוכרחים ליתן את הכסף ו<persName>הרא״ש</persName> תלמידו
 					<lb/>אסף הרבה מעות ורצה ליתן בעד רבו. ורבו
 					<lb/>אמר שלא יתן להם מעות דאם כן אין
@@ -225,7 +242,7 @@
 					<lb/>לבהמ״ד אינכם צריכים למוכיח. ובאמת כך
 				</p>
 				<p>
-					<lb/>הי׳ שנכנסו עמו בעלי התוס׳. ואמר הר״ר
+					<pb facs="Likutim-Hadashim_0104.jpg" /><lb/>הי׳ שנכנסו עמו בעלי התוס׳. ואמר הר״ר
 					<lb/>העשיל לר׳ מרדכי הנ"ל הטעם שנכנסו עמי
 					<lb/>בעלי התוס׳, משום העיון הגדיל שהי' לי
 					<lb/>בדבריהם קודם התפלה ומשום זה אחרתי
@@ -324,7 +341,7 @@
 					<lb/>ל<placeName>מעזיבוזש</placeName> ל<persName>הבעש״ט</persName> וכשבאה להבעש״ט
 				</p>
 				<p>
-					<lb/>לקח ממנה הקאטינקע ותלה אותה על הכותל
+					<pb facs="Likutim-Hadashim_0105.jpg" /><lb/>לקח ממנה הקאטינקע ותלה אותה על הכותל
 					<lb/>שלו ואמר לה שיהא לה ב״ז ותקרא אותו
 					<persName> כשמי</persName>. ואמרה האשה להמגיד<persName> זצ״ל</persName>
 					<lb/>ישראל<lb/>אני ג״כ אביא לכם המלבוש שלי שיהא לי
@@ -426,7 +443,7 @@
 					<lb/>מעקלערס והוא גם כן רצה להיות מהחברה
 				</p>
 				<p>
-					<lb/>ולא הניחו לו והלך בקובלנא להרה״ק הנ״ל
+					<pb facs="Likutim-Hadashim_0106.jpg" /><lb/>ולא הניחו לו והלך בקובלנא להרה״ק הנ״ל
 					<lb/>איך שאין מניחים אותו להיות ג״כ סרסור.
 					<lb/>ושלח הרה״ק אחריהם ואמר להם אני ג״כ
 					<lb/>סרסור. ראיתי בשמים יש מחילה <sic correction="סליחה">סלימה</sic>
@@ -525,7 +542,7 @@
 					<lb/>שהיה אצל אבי זקני זצ״ל
 				</p>
 				<p>
-					<lb/>מ<placeName>אפאטשנע</placeName> לערך ד׳ שבועות הוא וכל החברים
+					<pb facs="Likutim-Hadashim_0107.jpg" /><lb/>מ<placeName>אפאטשנע</placeName> לערך ד׳ שבועות הוא וכל החברים
 					<lb/>שלו בהבית של אבי זקני. ואבי זקני היה
 					<lb/>מוכר יי״ש בהבית הזה. וממילא כשהיה
 					<persName><lb/>היהודי</persName> זצ״ל לא היה יכול למכור יי״ש ואבי
@@ -621,7 +638,7 @@
 					<lb/>מכרתי הצעטיל לאיש אחר והאיש האחר
 				</p>
 				<p>
-					<lb/>הצליח והיה כועס הרבי הנ״ל ואמר רבש״ע
+					<pb facs="Likutim-Hadashim_0108.jpg" /><lb/>הצליח והיה כועס הרבי הנ״ל ואמר רבש״ע
 					<lb/>כיון שדברי אינם נשמעין אין אני רוצה להיות
 					<lb/>עוד רבי ולא היה מניח שום אדם להיות
 					<lb/>אצלו ובתוך זה בא אליו <persName>הרה״ק</persName> ר׳ שמחה
@@ -715,7 +732,7 @@
 				</p>
 				</div><div type="story" xml:id="Likutim-Hadashim_0032" n="32"><head type="storyHead">Likutim-Hadashim_0032</head>
 <p>
-					<lb/>שמעתי מהרה״ק ר׳ <persName>מאטיל מ<placeName ana="bio">טשירנאביל</placeName></persName>
+					<pb facs="Likutim-Hadashim_0109.jpg" /><lb/>שמעתי מהרה״ק ר׳ <persName>מאטיל מ<placeName ana="bio">טשירנאביל</placeName></persName>
 					<lb/>זצ״ל שבא לכפר אחד והיה
 					<lb/>יושב בכפר בעל דארשער אחד בראש
 					<lb/>המסובין וכשבא ר׳ <persName>מאטיל</persName> הנ״ל לבית וישבו
@@ -812,7 +829,7 @@
 					<lb/>רוצים לעשות שותפות ורצו
 				</p>
 				<p>
-					<lb/>שיכתוב להם כתב שותפות ולקח נייר וכתב
+					<pb facs="Likutim-Hadashim_0110.jpg" /><lb/>שיכתוב להם כתב שותפות ולקח נייר וכתב
 					<lb/>בד׳ הקצוות כסדר א, ב, ג, ד, ואמר
 					<lb/>להם שזה הכתב שותפות ולא הבינו מה זה ?
 					<lb/>ואמר להם א, הוא אמת. ב, הוא ברכה.
@@ -910,7 +927,7 @@
 					<lb/>נוח בלי הרה״ק ר׳ <persName>שמואל</persName> ושמח עמו מאוד
 				</p>
 				<p>
-					<lb/>כמו מי שמוצא שלל רב וכשראה ר׳ <persName>שמואל</persName>
+					<pb facs="Likutim-Hadashim_0111.jpg" /><lb/>כמו מי שמוצא שלל רב וכשראה ר׳ <persName>שמואל</persName>
 					<lb/>כך אמר פ״א להרה״ק מ<placeName>ברדיטשוב</placeName> אתם
 					<lb/>אינכם רבי שלי ונפטר ממנו לשלום ונסע
 					<lb/>להרבי זצ״ל מ<placeName>לובלין</placeName> וכשבא אצלו שמח עמו
@@ -1006,7 +1023,7 @@
 					<lb/>מילא את מקומו. והעלם הנ״ל מחמת
 				</p>
 				<p>
-					<lb/>שהיה לו כל טוב הסתכל בספרים החיצונים
+					<pb facs="Likutim-Hadashim_0112.jpg" /><lb/>שהיה לו כל טוב הסתכל בספרים החיצונים
 					<lb/>ונתקלקל מאוד. והמלמד הנ"ל שנעשה
 					<lb/>סוחר התחיל לירד מטה מטה עד שנעשה
 					<lb/>עני כמקדם. ונסע ל<placeName>קאצק</placeName> וקיבל לפני
