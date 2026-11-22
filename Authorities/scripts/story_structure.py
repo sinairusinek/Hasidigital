@@ -73,6 +73,7 @@ TEI_XMLID = f"{{{XML_NS}}}id"
 KNOWN_NON_STORY_SUBTYPES: dict[str, str] = {
     "students":   "students-list",
     "letter":     "letter",
+    "letters":    "letter",
     "dvar torah": "dvar-torah",
     "patreons":   "patrons-list",
     "contract":   "contract",
@@ -231,6 +232,10 @@ def classify_story_tag(el) -> tuple[str, str | None, str | None]:
     if n_val.isdigit():
         if not rend_val:
             return "story", None, None
+        # A known non-story type numbered as its own series (e.g. rend="letters"
+        # n="1", n="2", after which the stories restart at 1) stays non-story.
+        if rend_val in KNOWN_NON_STORY_SUBTYPES:
+            return "non-story", None, KNOWN_NON_STORY_SUBTYPES[rend_val]
         # Known story qualifiers → story with subtype, no flag
         if rend_val in KNOWN_STORY_QUALIFIERS:
             return "story", None, KNOWN_STORY_QUALIFIERS[rend_val]
