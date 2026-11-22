@@ -1,72 +1,83 @@
-<?xml version='1.0' encoding='utf-8'?>
+<?xml version='1.0' encoding='UTF-8'?>
 <TEI xmlns="http://www.tei-c.org/ns/1.0">
    <teiHeader>
-      <fileDesc>
-         <titleStmt>
-            <title type="main">Merged ToratHaramalHashalem_Hebrewbooks_org_3827</title>
-         </titleStmt>
-         <publicationStmt>
-            <p>Hasidim</p>
-         </publicationStmt>
-         <sourceDesc>
-            <bibl>
-            <title type="main">Merged ToratHaramalHashalem_Hebrewbooks_org_3827</title>
-               <idno type="Transkribus">15471223</idno>
-            </bibl>
-         </sourceDesc>
-      </fileDesc>
-      <profileDesc>
-      </profileDesc>
-   </teiHeader>
+		<fileDesc>
+			<titleStmt>
+				<title type="main">Torat HaRamal HaShalem 1903 תורת הרמ&quot;ל השלם</title>
+				<respStmt>
+					<resp>Digitization</resp>
+					<orgName>HebrewBooks.org</orgName>
+				</respStmt>
+				<respStmt>
+					<resp>Transcription</resp>
+					<name>Transkribus</name>
+					<note>Transcribed using Transkribus; story divisions marked in Transkribus</note>
+				</respStmt>
+				<respStmt>
+					<resp>Named Entity Tagging</resp>
+					<name>DictaBert</name>
+					<note>automatic tagging, corrected with Gemini; not yet reviewed by hand</note>
+				</respStmt>
+			</titleStmt><editionStmt><edition n="1.0.0">Working edition</edition></editionStmt>
+			<publicationStmt>
+				<p>This edition was created in the framework of the the project "Historical Digital
+					Analysis of Hasidic Stories Until 1914", PI: Gadi Sagiv; Supervising
+					Editor: Sinai Rusinek. This edition was prepared using an implementation of
+					TEI-Publisher Annotator and the XML-Planter, developed by DH-dev.com (Gil
+					Shalit).</p>
+			</publicationStmt>
+			<sourceDesc><bibl type="digital"><title>Digital scan from HebrewBooks.org</title><publisher>HebrewBooks.org</publisher><ptr target="https://hebrewbooks.org/3827" /><idno type="HebrewBooks">3827</idno><idno type="Transkribus">15471223</idno><note>Source for transcription</note></bibl><bibl type="original"><title type="main" xml:lang="he">תורת הרמ&quot;ל השלם</title><title type="main" xml:lang="en">Torat HaRamal HaShalem</title><author><persName xml:lang="he">מנחם מנדל אב&quot;ד זאבילטוב</persName><persName xml:lang="en">Menachem Mendel, Abad Zabiletov</persName></author><pubPlace xml:lang="he">סיגט</pubPlace><pubPlace xml:lang="en">Sighet</pubPlace><date when="1903">תרס&quot;ג</date><textLang mainLang="heb" /><idno type="HebrewBooks">3827</idno><idno type="Kima">99</idno><idno type="Transkribus">15471223</idno><idno type="DBid">3719</idno><idno type="work">73</idno></bibl></sourceDesc>
+		</fileDesc>
+	<revisionDesc><change when="2026-11-22">header in the shape of the online editions; page breaks restored from the Transkribus export</change><change when="2026-11-22">NER: DictaBERT, stories corrected with Gemini 2.5 Flash (not yet reviewed by hand); pipeline FLAGGED notes removed</change></revisionDesc></teiHeader>
    <text>
       <front><div type="front-matter"><p>
-               <lb/>ספר
+               <pb facs="Torat-Haramal_0001.jpg" /><lb/>ספר
                <lb/>תורת ה<persName>רמ"ל</persName> השלם
                <lb/>אמרים נע<supplied reason="">י</supplied>מים, כנ<supplied reason="">י</supplied>ם ונאמנים, מדבש מת<supplied reason="">ו</supplied>קם מכ״ק אבי זקני הגאון דקדוש איש
                <lb/>אלקים <choice><corr>מופת</corr><sic>מיפת</sic></choice> ד<supplied reason="">ורו</supplied>, קדש <choice><corr>עליון</corr><sic>עליין</sic></choice> הלכו לאורו, רשבבה״ג בקש״ת <choice><corr>מו"ה</corr><sic>מי״ה</sic></choice> רבי
-               <lb/>ר' <persName>משה יהודה ליב</persName> זצ״ל <placeName>מסאסוב</placeName>, תלמוד של גאון <choice><corr>הגאונים</corr><sic>דגאונים</sic></choice> <choice><corr><placeName spanTo="#ner_306_315"/>קוה"ק</corr><sic>קיהק</sic></choice><anchor xml:id="ner_306_315"/> רבי
-               <lb/>ר׳ <persName>שמעלקא</persName> זצ<persName>״</persName>ל מ<placeName spanTo="#ner_351_360"/>נ<supplied reason="">י</supplied>קלשבור<supplied reason="">ג</supplied><anchor xml:id="ner_351_360"/>. מכתב יד קודש המחבר הקדוש
+               <lb/>ר' <persName>משה יהודה ליב</persName> זצ״ל <placeName>מסאסוב</placeName>, תלמוד של גאון <choice><corr>הגאונים</corr><sic>דגאונים</sic></choice> <choice><corr>קוה"ק</corr><sic>קיהק</sic></choice><anchor xml:id="ner_306_315"/> רבי
+               <lb/>ר׳ <persName>שמעלקא</persName> זצ<persName>״</persName>ל מנ<supplied reason="">י</supplied>קלשבור<supplied reason="">ג</supplied><anchor xml:id="ner_351_360"/>. מכתב יד קודש המחבר הקדוש
                <lb/>בעצמו זי"ע, בכמה הוספות חדשות רבות ויקרות כהנה וכהנה
                <lb/><choice><corr>מהני</corr><sic>מדני</sic></choice> מל<supplied reason="">י</supplied> מעלי<supplied reason="">י</supplied>תא מחידושי תורתו <choice><corr>המפוזרים</corr><sic>דמפיזרם</sic></choice> <choice><corr>בספרי</corr><sic>בסברי</sic></choice> <choice><corr>תלמידיו</corr><sic>תלמד</sic></choice> הק׳ נ<supplied reason="">"</supplied>ע אשר
                <lb/>שמעו <choice><corr>מפיו</corr><sic>מפי</sic></choice> הקדוש בעצמ<supplied reason="">ו</supplied>, אספתים <choice><corr>לקוטי</corr><sic>לקם</sic></choice> בתר <choice><corr>לקוטי</corr><sic>לקיט</sic></choice>. וגם איזהו מרגניתא
                <lb/>טבא ממקור נאמן. כלם קרבת<supplied reason="">י</supplied>ם אחד אל אחד <choice><corr>והיו</corr><sic>די</sic></choice> לאחד<supplied reason="">י</supplied>ם דבר ולא
                <lb/>הצי דבר, מסודר בסדר נכ<supplied reason="">ו</supplied>ן מאד, <supplied reason="">ו</supplied>בנייר יפר, כאשר עניכם מ<supplied reason="">י</supplied>שר<supplied reason="">י</supplied>ם <choice><corr>תחזינה</corr><sic>תחו גד</sic></choice>.
-               <lb/>ותלי<supplied reason="">"</supplied>ת <choice><corr>הנה</corr><sic>דנה</sic></choice> הוא כלי שלימה <choice><corr>ומפוארה</corr><sic>מפוארר</sic></choice>. <choice><corr>ונלוה</corr><sic>ונלוד</sic></choice> <choice><corr>עליו</corr><sic>עלי</sic></choice> <choice><corr><persName spanTo="#ner_887_893"/>ספר</corr><sic>סבר</sic></choice><anchor xml:id="ner_887_893"/> <choice><corr>מכונה</corr><sic>מכונר</sic></choice> בשם
+               <lb/>ותלי<supplied reason="">"</supplied>ת <choice><corr>הנה</corr><sic>דנה</sic></choice> הוא כלי שלימה <choice><corr>ומפוארה</corr><sic>מפוארר</sic></choice>. <choice><corr>ונלוה</corr><sic>ונלוד</sic></choice> <choice><corr>עליו</corr><sic>עלי</sic></choice> <choice><corr>ספר</corr><sic>סבר</sic></choice><anchor xml:id="ner_887_893"/> <choice><corr>מכונה</corr><sic>מכונר</sic></choice> בשם
             </p>
             <p>
                <name type="work"><lb/>עטרת זקנים</name>
                <lb/>אסופת דברים נחמדים, יקרים מפנ<supplied reason="">י</supplied>נים, עינים מאירים, משובצים בספ<supplied reason="">י</supplied>רים, מזקנ<supplied reason="">י</supplied>י <choice><corr>הגה"ק</corr><sic>דגד ק</sic></choice>
-               <persName><lb/>צי<supplied reason="">"</supplied>ע</persName> רבו <choice><corr>ותלמידיו</corr><sic>יתלמדי</sic></choice> של <choice><corr>המחבר</corr><sic>דמחבר</sic></choice> <choice><corr>הק'</corr><sic>דק׳</sic></choice> זצ<supplied reason="">"</supplied>ל. והנה הנם
-               <lb/>הגה"ק קוה"ק רבי ר׳ <persName>שמלקא</persName> ז<supplied reason="">"</supplied>ל מ<supplied reason=""><placeName spanTo="#ner_1180_1189"/>ני</supplied>קלשבורג<supplied reason=""><anchor xml:id="ner_1180_1189"/>,</supplied> והגה״ק ר<supplied reason="">'</supplied> <choice><corr><persName spanTo="#ner_1201_1219"/>יצחק</corr><sic>צדק</sic></choice> א<supplied reason="">ייזי</supplied>ק ז<supplied reason="">"</supplied>ל<anchor xml:id="ner_1201_1219"/> מ<placeName>קאל<supplied reason="">י</supplied>ב<supplied reason=""/>,</placeName>
-               <lb/>והגה״ק רבינו <persName>מהרצ<supplied reason="">"</supplied>ה ז<supplied reason="">"</supplied>ל</persName> <placeName>מ<supplied reason="">י</supplied>זד<supplied reason="">י</supplied>טש<choice><corr>ו</corr><sic>י</sic></choice>ב<supplied reason=""/>,</placeName> והגה״ק ר<supplied reason="">'</supplied> <persName spanTo="#ner_1289_1305"/>מנחם <choice><corr>מענדיל</corr><sic>מתפלל</sic></choice><anchor xml:id="ner_1289_1305"/> מ<placeName>קאס<supplied reason="">י</supplied>ב</placeName>,
-               <lb/>ואחיו הגה״ק רב ר׳ <persName>משה מסאמב<choice><corr>ו</corr><sic>י</sic></choice>ר<supplied reason=""/>,</persName> וב<supplied reason="">נ</supplied>ו הגה״ק ר<supplied reason="">'</supplied> <persName>ח<supplied reason="">יי</supplied>ם זל מ<placeName ana="bio">קאס<supplied reason="">י</supplied>ב</placeName></persName>,
-               <lb/><choice><corr>ובנו</corr><sic>ובני</sic></choice> הגה"ק ר<supplied reason="">'</supplied> <choice><corr><persName spanTo="#ner_1424_1437"/>יהודה</corr><sic>דודה</sic></choice> צב<supplied reason="">י</supplied><anchor xml:id="ner_1424_1437"/> ז<supplied reason="">"</supplied>ל <choice><corr>מ<placeName spanTo="#ner_1443_1452"/>ראזלי</corr><sic>מראל</sic><anchor xml:id="ner_1443_1452"/></choice><supplied reason="">,</supplied> ואחיו הגה"ק ר׳ <persName>דוד ז<supplied reason="">"</supplied>ל מ<placeName ana="bio">זאבילטוב</placeName></persName>,
-               <lb/>חתן חמה<supplied reason="">'</supplied> <name type="misc">הק<supplied reason=""/>'</name>. ואחרון חביב הגה״ק <persName>מ<supplied reason="">ו</supplied>הרי"א ז<supplied reason="">"</supplied>ל</persName> <placeName>מזידיטשוב</placeName>.
-               <lb/>כאו״א משכן כבודו בקודש במערכה מיוחדת ולשלימות נועם המחברת, צרפתי והוספתי ג״כ
+               <persName><lb/>צי<supplied reason="">"</supplied>ע</persName> רבו <choice><corr>ותלמידיו</corr><sic>יתלמדי</sic></choice> של <choice><corr>המחבר</corr><sic>דמחבר</sic></choice> <choice><corr><name type="misc">הק'</name></corr><sic>דק׳</sic></choice> זצ<supplied reason="">"</supplied>ל. והנה הנם
+               <lb/>הגה"ק קוה"ק רבי ר׳ <persName>שמלקא</persName> ז<supplied reason="">"</supplied>ל מ<supplied reason="">ני</supplied>קלשבורג<supplied reason=""><anchor xml:id="ner_1180_1189"/>,</supplied> והגה״ק ר<supplied reason="">'</supplied> <choice><corr>יצחק</corr><sic>צדק</sic></choice> א<supplied reason="">ייזי</supplied>ק ז<supplied reason="">"</supplied>ל<anchor xml:id="ner_1201_1219"/> מ<placeName>קאל<supplied reason="">י</supplied>ב<supplied reason=""/>,</placeName>
+               <lb/>והגה״ק רבינו <persName>מהרצ<supplied reason="">"</supplied>ה ז<supplied reason="">"</supplied>ל</persName> <placeName>מ<supplied reason="">י</supplied>זד<supplied reason="">י</supplied>טש<choice><corr>ו</corr><sic>י</sic></choice>ב<supplied reason=""/>,</placeName> והגה״ק ר<supplied reason="">'</supplied> <persName spanTo="#ner_1289_1300"/>מנחם <choice><corr>מענדיל<anchor xml:id="ner_1289_1300"/></corr><sic>מתפלל</sic></choice><anchor xml:id="ner_1289_1305"/> מ<placeName>קאס<supplied reason="">י</supplied>ב</placeName>,
+               <lb/>ואחיו הגה״ק רב ר׳ <persName>משה מסאמב<choice><corr>ו</corr><sic>י</sic></choice>ר<supplied reason=""/>,</persName> וב<supplied reason="">נ</supplied>ו הגה״ק ר<supplied reason="">'</supplied> <persName>ח<supplied reason="">יי</supplied>ם זל מקאס<supplied reason="">י</supplied>ב</persName>,
+               <lb/><choice><corr>ובנו</corr><sic>ובני</sic></choice> הגה"ק ר<supplied reason="">'</supplied> <choice><corr>יהודה</corr><sic>דודה</sic></choice> צב<supplied reason="">י</supplied><anchor xml:id="ner_1424_1437"/> ז<supplied reason="">"</supplied>ל <choice><corr>מראזלי</corr><sic>מראל</sic><anchor xml:id="ner_1443_1452"/></choice><supplied reason="">,</supplied> ואחיו הגה"ק ר׳ <persName>דוד ז<supplied reason="">"</supplied>ל מזאבילטוב</persName>,
+               <lb/>חתן חמה<supplied reason="">'</supplied> הק<supplied reason=""/>'. ואחרון חביב הגה״ק <persName>מ<supplied reason="">ו</supplied>הרי"א ז<supplied reason="">"</supplied>ל</persName> <placeName>מזידיטשוב</placeName>.
+               <lb/>כאו<placeName>״</placeName>א משכן כבודו בקודש במערכה מיוחדת ולשלימות נועם המחברת, צרפתי והוספתי ג״כ
                <lb/>בסופו קונטרס <choice><corr>הנקוב</corr><sic>הנקיב</sic></choice> בשם
             </p>
             <p>
                <name type="work"><lb/>שבעה</name> ימי שבתא
                <lb/><choice><corr>כולל</corr><sic>כילל</sic></choice> הנהגות טבות, עצות נפלאות לעבודת ה<name type="misc">שי"ת</name>, בלשונם הקדוש ממש. לקיים בהם תן
                <lb/>חלק לשבעה ימי שבתא דבר יום ביומו, חק ולא יעבור משבע הרואים הלא המה
-               <lb/>הה״ק רבינו <persName>בית יוסף</persName> ז"ל בס<supplied reason="">'</supplied> <choice><corr><name spanTo="#ner_1967_1979" type="work"/>מגיד</corr><sic>מגר</sic></choice> משרם<anchor xml:id="ner_1967_1979"/>, והה״ק האלקי <choice><corr>הר'</corr><sic>דר׳</sic></choice> <persName>ישראל בעש<supplied reason="">"</supplied>ט</persName> ז<supplied reason="">"</supplied>ל בס<supplied reason="">'</supplied> כש<supplied reason="">"</supplied>ט,
-               <lb/>והגה"ק קוה"ק רבי ר׳ <persName>שמעלקא</persName> ז<placeName>״</placeName>ל מ<placeName>ניקלשב<choice><corr>ו</corr><sic>י</sic></choice>רג</placeName>, והגה״ק קוה״ק רבי ר׳ <persName>אלימלך</persName> ז<supplied reason="">"</supplied>ל מ<placeName>ליזענסק</placeName>,
-               <lb/>והגה״ק תלמידו רבי ר<supplied reason="">'</supplied> <choice><corr><persName spanTo="#ner_2162_2172"/>משה</corr><sic>משך</sic></choice> ל<supplied reason="">י</supplied>ב<anchor xml:id="ner_2162_2172"/> ז<supplied reason="">"</supplied>ל מ<placeName>סאסיב</placeName>, והגה״ק תלמידו רבי <persName>יעקב יצחק</persName> ז<supplied reason="">"</supplied>ל מ<placeName>לובלין</placeName>.
+               <lb/>הה״ק רבינו <persName>בית יוסף</persName> ז"ל בס<supplied reason="">'</supplied> <choice><corr>מגיד</corr><sic>מגר</sic></choice> משרם<anchor xml:id="ner_1967_1979"/>, והה״ק האלקי <choice><corr>הר'</corr><sic>דר׳</sic></choice> <persName>ישראל בעש<supplied reason="">"</supplied>ט</persName> ז<supplied reason="">"</supplied>ל בס<supplied reason="">'</supplied> כש<supplied reason="">"</supplied>ט,
+               <lb/>והגה"ק קוה"ק רבי ר׳ <persName>שמעלקא</persName> ז״ל מ<placeName>ניקלשב<choice><corr>ו</corr><sic>י</sic></choice>רג</placeName>, והגה״ק קוה״ק רבי ר׳ <persName>אלימלך</persName> ז<supplied reason="">"</supplied>ל מ<placeName>ליזענסק</placeName>,
+               <lb/>והגה״ק תלמידו רבי ר<supplied reason="">'</supplied> <choice><corr>משה</corr><sic>משך</sic></choice> ל<supplied reason="">י</supplied>ב<anchor xml:id="ner_2162_2172"/> ז<supplied reason="">"</supplied>ל מ<placeName>סאסיב</placeName>, והגה״ק תלמידו רבי <persName>יעקב יצחק</persName> ז<supplied reason="">"</supplied>ל מ<placeName>לובלין</placeName>.
                <lb/>ואחרון חביב <choice><corr>הר"ק</corr><sic>רד"ק</sic></choice> <choice><corr>הרבי</corr><sic>דרבי</sic></choice> ר׳ <persName>מ<supplied reason="">י</supplied>כל</persName> ז<supplied reason="">"</supplied>ל מ<placeName>זלאטש<supplied reason="">ו</supplied>ב</placeName>.
                <lb/><choice><corr>ותעורר</corr><sic>ויתעירר</sic></choice> נא <supplied reason="">ז</supplied>כ<supplied reason="">ו</supplied>ת כל <choice><corr>הצדיקים</corr><sic>דצדקם</sic></choice> <choice><corr>וזקניי</corr><sic>וזקיי</sic></choice> <choice><corr>הגה"ק</corr><sic>הגדק</sic></choice> הנ<supplied reason="">"</supplied>ל, <choice><corr>נבג"מ</corr><sic>„הנמ</sic></choice>, <choice><corr>להגן</corr><sic>לכן</sic></choice> על<supplied reason="">י</supplied> <choice><corr>ועל</corr><sic>יעל</sic></choice> כל <choice><corr>נפשות</corr><sic>„פשית</sic></choice>
                <lb/>ב<supplied reason="">י</supplied>ת ישראל להושע בכל מיני ישועות, ורב ברכות, וגודל <choice><corr>הצלחות</corr><sic>רצלחות</sic></choice> והס׳ הק׳ הזה
                <lb/>יהי׳ <choice><corr>לשמירה</corr><sic>לשמדר</sic></choice> מעולה להנצל מכל נגע ומחלה, ושעתא דחוקה, ולהתברך בבח"ו רויחא׳ כאות
-               <lb/>וכעתירת המצפה לרחמי שמים, הק׳ <persName>משה</persName> ב<persName spanTo="#ner_2657_2673"/>הה"ג <choice><corr>מוהר"י</corr><sic>מידר׳</sic></choice><anchor xml:id="ner_2657_2673"/> שליט״א וחתן הה״ג הגדול מו״<persName>ה</persName>
-               <lb/><persName spanTo="#ner_2717_2749"/>יוסף <choice><corr>הלוי</corr><sic>רבו</sic></choice> א<supplied reason="">י</supplied>ש <choice><corr>הורוויטץ</corr><sic>דרוויטץ</sic></choice><anchor xml:id="ner_2717_2749"/> ז<supplied reason="">"</supplied>ל <choice><corr><placeName spanTo="#ner_2754_2763"/>אבד"ק</corr><sic>אברק</sic></choice><anchor xml:id="ner_2754_2763"/> אוסציא בן להאי גאון מפורסים ר׳ <persName>מש<supplied reason="">ו</supplied>לם <supplied reason="">י</supplied>שכר</persName>
+               <lb/>וכעתירת המצפה לרחמי שמים, הק׳ <persName>משה</persName> ב<persName>ה</persName>ה"ג <choice><corr>מוהר"י</corr><sic>מידר׳</sic></choice><anchor xml:id="ner_2657_2673"/> שליט״א וחתן הה״ג הגדול מו״ה
+               <lb/>יוסף <choice><corr>הלוי</corr><sic>רבו</sic></choice> א<supplied reason="">י</supplied>ש <choice><corr>הורוויטץ</corr><sic>דרוויטץ</sic></choice><anchor xml:id="ner_2717_2749"/> ז<supplied reason="">"</supplied>ל <choice><corr><placeName>אבד"ק</placeName></corr><sic>אברק</sic></choice><anchor xml:id="ner_2754_2763"/> אוסציא בן להאי גאון מפורסים ר׳ <persName>מש<supplied reason="">ו</supplied>לם <supplied reason="">י</supplied>שכר</persName>
                <lb/>זל <choice><corr>האבדפ"ק</corr><sic>האברפ"ק</sic></choice> בעהמ״ח <name type="work">שו"ת</name> בר לי<supplied reason="">ו</supplied>אי דור שלישי להגאון האמיתי המפ<supplied reason="">ו</supplied>' בכל העולם ר' <persName>יצחק
-               <lb/>הלוי</persName> ז"ל <placeName>אבד"ק</placeName> <placeName>האמבורג</placeName> ולמעלה בקודש גאוני עולם דור אחר <choice><corr>דור</corr><sic>דיר</sic></choice> נ"ע
+    </persName>           <lb/>הלוי ז"ל אבד"ק <placeName>האמבורג</placeName> ולמעלה בקודש גאוני עולם דור אחר <choice><corr>דור</corr><sic>דיר</sic></choice> נ"ע
             </p>
          <head>
-               <lb/>הקדמת הרב המסדר, נכד המחבר</head>
+               <pb facs="Torat-Haramal_0002.jpg" /><lb/>הקדמת הרב המסדר, נכד המחבר</head>
             <p>
-               <lb/>ישמחו הצדיקים ויעלזו החסידים בהגלות נגלות לעינינו את הס׳ הק'
+               <lb/>ישמחו הצדיקים ויעלזו החסידים בהגלות נגלות לעינינו את הס<name type="misc">׳</name> הק'
                <lb/>תורת ה<persName>רמ״</persName>ל השלם. דבר ולא חצי דבר. כליל תפארת אמרות
-               <lb/>ה<name type="misc">׳</name> אמרות טהורות שבעתיים מזוחקות חידושי תורת רבינו <persName>אא"ז</persName> הגה"ק
+               <lb/>ה׳ אמרות טהורות שבעתיים מזוחקות חידושי תורת רבינו <persName>אא"ז</persName> הגה"ק
                <lb/>המפורסם איש אלקים הרבי ר׳ <persName>משה יהודא ליב</persName> ז״ל מ<placeName>סאסוב</placeName>. והכה אחרי
                <lb/>כי דרך המחברים והמלקטים להציג אמרים בפתחי שערים. בקרבם אל המלאכה.
                <lb/>מה ראו אל ככה ומה הגיע אליהם יאריכו למעניתם בהקדמותיהם לתאר
@@ -76,7 +87,7 @@
             </p>
             <p>
                <lb/>והנה האף אמנם כי זה לא רבות בשנים מעת אשר אא"ז הה״צ המפורסם
-               <lb/>בנש"ק <placeName>חו״</placeName>פ וכו' כקש״ת מו"ה <persName>מנחם מענדיל</persName> שליט״א האבד״ק <persName>זאבילטוב</persName>
+               <lb/>בנש"ק <placeName>חו״</placeName>פ וכו' כקש״ת מו"ה <persName>מנחם מענדיל</persName> שליט״א ה<persName>אבד״ק זאבילטוב</persName>
                <lb/>נכד המחבר הק׳ ז"ל הוציא לאור כמה מאמרים קדושים אשר העתיק מכתב
                <lb/>יד קדשו של המחבר הק׳ ז"ל שהי׳ תחת ידו מיד ליד מאבי אביו הה"ק
                <lb/>ר׳ <persName>דוד</persName> ז"ל חתן המחבר הק' ז"ל המובאים גם מבפנים זה הספר. ואך לאשר
@@ -95,7 +106,7 @@
                <lb/>הקדושי עליונים נ"ע. והכל בלשונם ממש לידע את הדרך ילכו בה ואת המעשה
                <lb/>אשר עשה אותם האדם וחי בהם. ואשרי חלקם המזכירם תדיר ערב ובוקר בכל
                <lb/>יום תמיד פעמיים באהבה בשכבו, ובקומו, מדי יום ביומו, להיות מונה והולך מיום
-               <lb/>ראשון עד <date>שבת קודש</date>. חידש ימים כסדר ולבל יחסר המתוק. עיניו יראה ולבבו יבין
+               <lb/>ראשון עד שבת קודש. חידש ימים כסדר ולבל יחסר המתוק. עיניו יראה ולבבו יבין
                <lb/>ושב ורפא לו ובודאי ובבירור יפעול לנפשו כל טוב ויאיר בנשמתו בידוע בעלמא
                <lb/>כחנות של בושם ובעבור ירח ימים כל עת בא לפניו אח״כ איזה עשי׳ לחשוב ולעשות
                <lb/>בעבודת ה<name type="misc">בורא</name> ית"ש זכור יזכרם לטובה אות ולב טהור ורוח נכון יתחדש בקרבו.
@@ -110,7 +121,7 @@
             <fw facs="#facs_2_tr_1743011056" place="bottom" type="catch">
                <lb/>יש</fw>
             <fw facs="#facs_3_tr_1743011055" type="running-head">
-               <lb/>הקדמה
+               <pb facs="Torat-Haramal_0003.jpg" /><lb/>הקדמה
             </fw>
             <p>
                <lb/>יש קנקן חדש מלא ישן. ומה נעימים לי בזה דברי ה<persName>רמב״ן</persName> הק׳ ז״ל בתחלת דיני
@@ -123,15 +134,15 @@
                <lb/>והנה אם לשבח ולפאר את יקר תפארת, נועם המחברת. ומה גם את המחבר
                <lb/>הק' בעצמו זי"ע בודאי זה כשפת יתר כי האמת עד לעצמו. ובפרט מי
                <lb/>אנשי המעיד זבוב קצוץ כנפים קורא דגר בהרים לפאר ולהרים. להרבות אמרים
-               <lb/>ולבא אחד המלך של הפלך הוא ניהו אבי זקיני הה״ק אלקי נורא הרבי ר׳ <persName>משה
-               <lb/>ליב</persName> ז"ל מ<placeName>סאסיב</placeName>. המפורסם מאד ב<placeName>ישראל</placeName> ברוב צדקותיו כהררי אל. ועל כל גודל
+               <lb/>ולבא אחד המלך של הפלך הוא ניהו אבי זקיני הה״ק אלקי נורא הרבי ר׳ משה
+               <lb/>ליב ז"ל מ<placeName>סאסיב</placeName>. המפורסם מאד ב<placeName>ישראל</placeName> ברוב צדקותיו כהררי אל. ועל כל גודל
                <lb/>קדושתו וצדקתו הי' גודל שפלות רוחו אשר לא נראה כמוהו ותהי לפלא איך
                <lb/>בכל דיבור ודיבור הוא מזכיר א״ע בתואר השפל והנבזה וכן הי׳ חותם את עצמו
                <lb/>על האגרת שהי' כותב דברי השפל והכבזה ומה גם גודל מדריגתו באהבת
-               <placeName><lb/>ישראל</placeName> וכמבואר ב<name type="work">ס</name>׳ <name type="work">תפלה למשה</name> לאבי זקיני הצדיק הקדוש רבי ר׳
-               <persName><lb/>משה</persName> זצ״ל מ<placeName>סאמבור</placeName> וזלה״ק כאשר שמעתי מאחי מו״ר שיחי<persName>׳</persName> שסיפר לרבו
-               <lb/>מ<placeName>לובלין</placeName> הקמיע של הרבי ר' <persName>משה יהודה ליב</persName> שהוא שבת בשילוב שם ה<name type="misc">וי"ה</name>
-               <lb/>והשיב לו רבו מ<placeName>לובלין</placeName> נבג"מ המבדיל בין חל"ח כמדתו שהוא אהבה כך נותן
+               <placeName><lb/>ישראל</placeName> וכמבואר בס׳ <name type="work">תפלה למשה</name> לאבי זקיני הצדיק הקדוש רבי ר׳
+               <lb/>משה זצ״ל מ<placeName>סאמבור</placeName> וזלה״ק כאשר שמעתי מאחי מו״ר שיחי׳ שסיפר לרבו
+               <lb/>מ<placeName>לובלין</placeName> הקמיע של הרבי ר' משה יהודה ליב שהוא שבת בשילוב שם ה<name type="misc">וי"ה</name>
+               <lb/>ו<name type="misc">ה</name>שיב לו רבו מ<placeName>לובלין</placeName> נבג"מ המבדיל בין חל"ח כמדתו שהוא אהבה כך נותן
                <lb/>קמיע שהוא אהבה עכלה"ק וכידוע שכל צדיקי דורו התפארו במדריגותיו
                <lb/>באהבת <placeName>ישראל</placeName> עד שהי' משתתף תמיד בצער של כל איש ואיש כאלו בא עליו
                <lb/>הצרה ממש והי׳ מחבק ומנשק ילדי בני <placeName>ישראל</placeName> והי' משתדל והשגיח על
@@ -147,18 +158,18 @@
                <lb/>הק׳ הזה. ונותנים עיניהם ולבם בדבריהם הקדושים הבוערים באש להבת
                <lb/>שלהבת. הנה גדולים צדיקים במיתתן יותר מבחייהן בודאי ובבירור יושעו
                <lb/>בכל משאלות לבביהם. ויצליחו בכל מעשי ידיהם בכלליות ובפרטיות בכל
-               <lb/>עניניהם בכלל כל <placeName>ישראל</placeName> אכי״ר
+               <lb/>עניניהם בכלל כל <placeName>ישראל</placeName> אכי<placeName>״</placeName>ר
             </p>
             <fw facs="#facs_4_tr_1743011069" type="pageNum" place="top">
-               <lb/>ג</fw>
+               <pb facs="Torat-Haramal_0004.jpg" /><lb/>ג</fw>
             <fw facs="#facs_4_tr_1743011070" type="running-head">
                <lb/>הסכמות
             </fw>
             <p>
                <lb/>ולמען שלא להטריח אלה הקוה״ט שליט״א כעת שנית בדבר ההסכמות,
                <lb/>אמרתי להעתיק אלה ההסכמות הראשונות אשר לקח אז אא"ז אבי
-               <lb/>אמי הרבנית תחי׳ ה"ה הה״צ המפורסים בנש"ק חו<placeName>״</placeName>פ וכו' מו״ה <persName>מנחם מענדיל</persName>
-               <lb/>שליט״א האבד״ק <persName>זאבילטוב</persName> על גוף הכתי״ק אשר גם אנכי לא נתתי בזה
+               <lb/>אמי הרבנית תחי׳ ה"ה הה״צ המפורסים בנש"ק חו״פ וכו' מו״ה מנחם מענדיל
+               <lb/>שליט״א האבד״ק זאבילטוב על גוף הכתי״ק אשר גם אנכי לא נתתי בזה
                <lb/>שום מגרעות וגם לא הגהתי אות אחת, כי יראתי לגשת אל הקודש. ואך
                <lb/>הוספתי עליו הנה וכהנה מה שמצאתי בספרי תלמידיו הק׳ נ"ע ששתו מבארו
                <lb/>באר מים חיים אלה מזה ומזה הם כתובים, וגם בהם לא חסרתי דבר, ודעת
@@ -170,14 +181,14 @@
                <lb/>ב"ה</head>
             <p>
                <lb/>הן הובא לפני מאת מחו' הרב החסיד
-               <lb/>המפורסים בנש״ק מו״ה <persName>מנחם מענדיל</persName>
-               <lb/>שליט״א <persName>אבד״ק זאבילטוב</persName> כתבי קודש
+               <lb/>המפורסים בנש״ק מו״ה מנחם מענדיל
+               <lb/>שליט״א אבד״ק זאבילטוב כתבי קודש
                <lb/>מזקינו הקדוש הה״צ המפורסים מו"ה
-               <persName><lb/>משה ליב</persName> זללה״<persName>ה מסאסיב</persName>. ורצונו
-               <lb/>להעלותם על מזבח הדפוס וביקש מאתי
+               <persName><lb/>משה ליב</persName> זלל<persName>ה</persName>״<persName>ה מסאסיב</persName>. ורצונו
+               <lb/>להעלותם על מזבח הדפוס ובי<persName>ק</persName>ש מאתי
                <lb/>לתת בידו הסכמתי ואם כי מעודי הנני
                <lb/>מושך ידי מלתת הסכמות, ובפרט שדברי
-               <lb/>הה״<persName>ק</persName> זצלה"ה אין צריכין להסכמה כי נודע
+               <lb/>הה״ק זצלה"ה אין צריכין להסכמה כי נודע
                <lb/>ומפורסם לכל רב צדקו וגודל קדושתו אכן
                <lb/>להפצרת מחו' הרב החסיד הנ"ל נעתרתי
                <lb/>לבקשתו ואבקש מכל איש שיקחו הס׳
@@ -187,8 +198,8 @@
                <lb/>המח׳ זללה"ה יעמוד לכל <placeName>ישראל</placeName>
                <lb/>שיוושעו בישועות כלליות ופרטיות,
                <lb/>כעתירתי בעד כל <placeName>ישראל</placeName> כל הימים הכ״ד
-               <lb/>החותם לכבוד הה״צ המחבר זללה"ה <date>יום</date> <date>ג׳
-               <lb/>י״ט טבת</date> תרכ<date>״</date>ה לה״ק טשארטקיב.
+               <lb/>החותם לכבוד הה״צ המחבר זללה"ה יום ג׳
+               <lb/>י״ט טבת תרכ״ה לה״ק טשארטקיב.
             </p>
          <head>
                <persName><lb/>דוד משה</persName> במהר״ר <placeName>ישראל</placeName>.</head>
@@ -198,11 +209,11 @@
                <lb/>מה נכבד היום בהגלות נגלות אור
                <lb/>עולם אשר הי' טמיר ונעלם כ״ק
                <lb/>מכבוד קדושת חותני זקני הה"ק
-               <lb/>המפורסם <persName>מו"ה</persName> <persName>משה ליב זללה"ה
-               <lb/>מסאסיב</persName>, אשר הקריב נכדו לפני
+               <lb/>המפורסם <persName>מו"ה</persName> משה ליב זללה"ה
+               <lb/>מסאסיב, אשר הקריב נכדו לפני
                <lb/>ה״ה בן גיסי ידידי הרב החסיד
                <lb/>המפורסים בנש"ק מו״ה מנחם
-               <lb/>מענדיל שליט״<persName>א</persName> <persName>אבד״ק זאבילטוב</persName>,
+               <lb/>מענדיל שליט״א אבד״ק זאבילטוב,
                <lb/>ונפשו אותה ויעש להוציאם לאור
                <lb/>וחלה אותי לתת הסכמתי עליהם.
                <lb/>והגם כי דברת קדשו מלהבת אש א"צ
@@ -220,21 +231,21 @@
             </p>
             <p>
                <lb/>כעתירתי בעד כל ישראל כל ימיהם הלא כה דברי לכבוד קדושת חותכי זקני
-               <lb/>הרהצה"ק המחבר זללה"ה ב׳ לו ג׳ כיסן <date>תרנ"ה</date> <placeName>בוהאש</placeName>.
+               <lb/>הרהצה"ק המחבר זללה"ה ב<persName>׳</persName> לו ג׳ כיסן <date>תרנ"ה</date> <placeName>בוהאש</placeName>.
             </p>
          <head>
                <persName><lb/>יצחק במוהר"ר</persName> <persName>שלום יוסף</persName>.</head>
             <fw facs="#facs_5_tr_1743011059" type="running-head">
-               <lb/>הסכמות
+               <persName><pb facs="Torat-Haramal_0005.jpg" /><lb/>ה</persName>סכמות
             </fw>
             <fw facs="#facs_5_tr_1743011062" type="pageNum" place="top">
                <lb/>ב״ה</fw>
             <p>
                <lb/>הן מחו׳ הרב החסיד המפורס<supplied reason="">י</supplied>ם בנש"ק
-               <lb/>מו״<persName>ה</persName> <persName>מנחם מענדיל</persName> שליט״א אבד<persName>״ק
-               <lb/>זאבילטוב</persName> הביא לפני כתבי קודש מזקינו
-               <lb/>הה״צ המפורסים מו"ה <persName>משה ליב</persName> זצלה״<persName>ה</persName>
-               <lb/>מ<persName>סאסיב</persName> וברצונו להעלותם על מכבש
+               <lb/>מו״ה <persName>מנחם מענדיל</persName> שליט״א אבד״ק
+               <lb/>זאבילטוב הביא לפני כתבי קודש מזקינו
+               <lb/>הה״צ המפורסים מו"ה משה ליב זצלה״ה
+               <lb/>מסאסיב וברצונו להעלותם על מכבש
                <lb/>הדפוס, ובקש מאתי לתת הסכמה בידו,
                <lb/>ואם כי דברי ההצה"ק זללה"ה אין צריכים
                <lb/>להסכמה, עכ״ז להפצרתו נעתרתי והנני
@@ -248,19 +259,19 @@
                <lb/>ר״ח שבט <date>תרנ</date>״ו באיאן.
             </p>
          <head>
-               <lb/>הק' <persName>יצחק</persName> במוהר"ל <persName>אברהם יעקב</persName> זצ"ל</head>
+               <lb/>הק' יצחק במוהר"ל <persName>אברהם יעקב</persName> זצ"ל</head>
             <p>
-               <lb/>ב"ה
+               <lb/>ב"<persName>ה</persName>
             </p>
             <p>
                <lb/>באשר הובא לפני מאת מחו' הרב
                <lb/>החסיד המפורסים פרי קודש
-               <lb/>מו״<persName>ה</persName> <persName>מנחם מענדיל</persName> שליט״א <placeName>אבד"ק</placeName>
+               <lb/>מו״ה <persName>מנחם מענדיל</persName> שליט״א <placeName>אבד"ק</placeName>
                <placeName><lb/>זאבילטוב</placeName> כתבי קודש שהשאיר אחריו
                <lb/>ברכה כ״ק זקינו הוא מחו׳ וח"ז
                <lb/>הרב הצדיק הקדוש המפורסים <persName>מו"ה</persName>
-               <persName><lb/>משה ליב</persName> זללה"ה מ<placeName>סאסיב</placeName>, וברצונו
-               <lb/>להדפיסם להוציא אותם לאור עולם.
+               <persName><lb/>משה ליב זללה"ה מסאסיב</persName>, וברצונו
+               <lb/>להדפיסם להוצי<persName>א</persName> אותם לאור עולם.
                <lb/>ובקש מאתי לחת הסכמתי אם אמנם
                <lb/>כי דרכי למשוך את ידי מלתת הסכמה
                <lb/>ובפרט כי דברי הרה״ק זצללה"ה אינם
@@ -275,7 +286,7 @@
             <p>
                <lb/>דלה מטמונים, וגילה מצפונים ואי"ה בעת צאתו מבית הדפוס אקח בל״נ גם
                <lb/>אנכי ספר אחד במחיר אשר יושת עלי ואבקש מאת כל אנ"ש כי ממני יראו וכן
-               <lb/>יעשו לקחת את הספר הקדוש בכסף מצא איש איש כברכת <name type="misc">ה</name>׳ עליו ויבטחו
+               <lb/>יעשו לקחת את הספר הקדוש בכסף מצא איש איש כברכת ה׳ עליו ויבטחו
                <lb/>כי <choice><corr>בגלל</corr><sic>בגלג</sic></choice> הדבר הזה יגן עליהם זכות הרה״צ המחבר זצללה"ה להשפיע עליהם
                <lb/>ברכת שמים מעל בריאות וחיים ושפע והצלחה כ"ד החותם לכבוד הה״צ
                <lb/>הקדוש המחבר לכלה"ה יום ד׳ כ<date>״ט טבת</date> מה״ר הבי"א עלינ״ו ברכ"ה לפ"ק
@@ -284,7 +295,7 @@
          <head>
                <placeName><lb/>ישראל</placeName> כמוהר״ר <persName>אברהם יעקב</persName>.</head>
             <fw facs="#facs_6_tr_1743011053" type="running-head">
-               <lb/>תורת הרמ<persName>״ל</persName>
+               <pb facs="Torat-Haramal_0006.jpg" /><lb/>תורת הרמ<persName>״ל</persName>
             </fw>
          <head>
                <lb/>ב<name type="work">ראשית</name></head>
@@ -301,7 +312,7 @@
                <lb/>בראשית בשביל <placeName>ישראל</placeName> שנקראו ראשית נברא העולם כלו כמאמר חז"ל <placeName>ישראל</placeName>
                <lb/>ר"ת יש ששים רבוא אותיות ל<name type="work">תורה</name> וכשאדם מאמין זאת אזי מדבק עצמו
                <lb/>ב<name type="work">תורה</name> שבשבילה נברא העולם ומקדש עצמו לשמור ה<name type="work">תורה</name>. ולקיים כל מה
-               <lb/>שבכחו לעשות כמאחז"ל לעולם ילמוד אדם את עצמו כאלו קדוש שרוי בתוך
+               <lb/>שבכחו לעשות כמ<persName>אחז"ל</persName> לעולם ילמוד אדם את עצמו כאלו קדוש שרוי בתוך
                <lb/>מעיו ובתפלות שהמע"ה השמים ושמי השמים לא יכלכלוך אף כי הבית הזה.
                <lb/>והאדם עולם קטן וכשהוא מקדש את עצמו אזי הוא נעשה מרכבה לשמו ית׳.
                <lb/>ובית ששרוי בתוכו אף שהשמים ושמי השמים לא יכלכלוך אעפ״כ מצמצם שכינתו.
@@ -318,7 +329,7 @@
                <lb/>המדרש בראשית ברא וכו' בשביל <placeName>ישראל</placeName> וזה הבונה בית חדש. כשאדם מאמין
                <lb/>זאת שבשבילו נברא העולם כנ"ל אזי יש לו פחד כמאמרם ז"ל חייב אדם לומר
                <lb/>בשבילי נברא העולם. ויש לו פחד לעבור עבירה כי מכריע את כל העולם
-               <lb/>וכו' ובזה בוכה בית חדש תמיד בכל יום בוכה דבר חדש יותר מברך שהחייכו
+               <lb/>וכו' ובזה בוכה בית חדש תמיד בכל <date>יום</date> בוכה דבר חדש יותר מברך שהחייכו
                <lb/>היינו שהוא מתחיל מעתה לעבוד ה<name type="misc">שי"ת</name> כי כשאדם עובד ה<name type="misc">שי"ת</name> ויודע כנ"ל
                <lb/>מפחד כי הוא מבין גדולתו. ויודע שלא עשה כלל עד היום אך הוא מצפה
                <lb/>שיזכה לעבוד אותו ובכל יום מברך שהחיינו כי אתמול לא פעלתי כלום. כי
@@ -340,7 +351,7 @@
             <fw facs="#facs_6_tr_1743011051" place="bottom" type="catch">
                <lb/>זה</fw>
             <fw facs="#facs_7_tr_1743011076" type="running-head">
-               <lb/>תורת הרמ״ל
+               <pb facs="Torat-Haramal_0007.jpg" /><lb/>תורת הרמ״ל
             </fw>
          <head>
                <lb/>בראשית</head>
@@ -372,7 +383,7 @@
                <lb/>המדרש ויהי ערב זה עשו שאמר הלעיטני נא כמאחז"ל ממותר אכילת האדם
                <lb/>בא לכל עבירות ויה<supplied reason="">י</supplied> בוקר זה <persName>יעקב</persName> כשאדם מארך בשלחנו כנ"ל ויקדש אותו
                <lb/>אזי <persName>יעקב</persName> זה <persName>יעקב א<supplied reason="">י</supplied>ש</persName> תם הולך בתמימות אף בשעת <choice><corr>אכילה</corr><sic>אכיכה</sic></choice> וזה, יום אחד,
-               <lb/>זה יוה״כ שלחנו של אדם מכפר כשאוכל בקדושה יש בכל <date>יום</date> יום כפור
+               <lb/>זה יוה״כ שלחנו של אדם מכפר כשאוכל בקדושה יש בכל יום יום כפור
             </p>
          <head>
                <name type="work"><lb/>פרשת</name> נח</head>
@@ -386,7 +397,7 @@
             </p>
             <p>
                <lb/>ד) ויאמר ה׳ אל נח בא אתה וכל ביתך אל התיבה כי אותך ראיתי צדיק
-               <lb/>לפני בדור הזה פירש״י מכאן שאומרים מקצת שבתו של אדם
+               <lb/>לפני בדור הזה פירש״י מכאן שאומרים מקצת <date>שבת</date>ו של אדם
                <lb/>בפניו וכולו שלא בפניו, וקשה ויה בא ללמדנו הלא בפניו יש חכופה ושלא
                <lb/>בפניו ג״כ אחז״כ אל יספר בשבחו של חבירו שמתוך וכו׳ ונ"ל השפל והכבוה
                <lb/>הי׳ עפ"י דקדוק הנ"ל כי אותך רחיתי צדיק לפני בדור מה זה לשון לפני
@@ -396,7 +407,7 @@
             <fw facs="#facs_7_tr_1743011072" place="bottom" type="catch">
                <lb/>יליד</fw>
             <fw facs="#facs_8_tr_1743011069" type="running-head">
-               <lb/>תורת הרמ"ל
+               <pb facs="Torat-Haramal_0008.jpg" /><lb/>תורת הרמ"ל
             </fw>
          <head>
                <lb/>נח לך וירא</head>
@@ -415,9 +426,9 @@
             <p>
                <lb/>(ה) במדרש צא מן התיבה, זה שאמר הכתוב יודע צדיק נפש בהמתו
                <lb/>לדעתי השפל ע״פ אלה תולדות כח וכו' כל מי שמדבח
-               <lb/>עצמו ב<name type="misc">השי"ת</name> במחשבתו הוא מבטל בזה חושים הגשמים מרוב התענוג או מרוב
+               <lb/>עצמו ב<name type="misc">השי"ת</name> במח<date>שבת</date>ו הוא מבטל בזה חושים הגשמים מרוב התענוג או מרוב
                <lb/>הפחד עד שלא ירגיש את עצמו כלל, ובזה עבודה יוכל לילך ואין לו מסטין
-               <lb/>ופגע כי מי יודע מחשבתו רק ה<name type="misc">שי"ת</name> לבדו ב"ה, ו<name type="misc">ה׳</name> יעזור לו והבא לטהר
+               <lb/>ופגע כי מי יודע מח<date>שבת</date>ו רק ה<name type="misc">שי"ת</name> לבדו ב"ה, ו<name type="misc">ה׳</name> יעזור לו והבא לטהר
                <lb/>מסייעין לו, וז״פ וימח כל היקום אשר בארץ כי מחמת דביקות ההוא ב<name type="misc">השי"ת</name>
                <lb/>בטלין כל החושים והתאוות הגשמיות, ונקרא מתהלך בלי שום דבר מבטל
                <lb/>ומסטין וזה באו אל התיבה מפכי מי המבול צריך לדבק במחשבתו וזה כמו
@@ -453,7 +464,7 @@
             <fw facs="#facs_8_tr_1743011064" place="bottom" type="catch">
                <lb/>מלכות</fw>
             <fw facs="#facs_9_tr_1743011059" type="running-head">
-               <lb/>תורת הרמ״ל
+               <pb facs="Torat-Haramal_0009.jpg" /><lb/>תורת הרמ״ל
             </fw>
          <head>
                <lb/>וירא תולדות</head>
@@ -480,11 +491,11 @@
                <lb/>כשאין לה ושת כבר כתיאשה את עצמה להתפלל וכן אמרה אחרי בלותי וכו'
                <lb/>וכראה לי כי ה<name type="misc">שי"ת</name> רוצה שיהיה הצדיק ככ כך דבוק אליו שיבין גדולתו של
                <lb/>ה<name type="misc">בורא</name> שלא יפלא ממנו דבר בעולם אפילו חוץ לטבע, כי הצדיק כשהוא
-               <lb/>דבוק בהשי"ת היא למעלה מן הטבע, לזאת <persName>אברהם</persName> היה מתפלל והיה מאמין
-               <lb/>ב<name type="misc">השי"ת</name> ויחשבה לו צדקה אך לא כן <persName>שרה</persName> אף שהיתה אומרת חמס׳ עליך
+               <lb/>דבוק ב<name type="misc">השי"ת</name> היא למעלה מן הטבע, לזאת <persName>אברהם</persName> היה מתפלל והיה מאמין
+               <lb/>בהשי"ת ויחשבה לו צדקה אך לא כן <persName>שרה</persName> אף שהיתה אומרת חמס׳ עליך
                <lb/>שלא היה מתפלל עליה אעפ״כ לא היתה מאמכת בלבה וצחקה <persName>שרה</persName> בקרבה
                <lb/>לאמר אחרי בלותי היתה לי עדנה ובעוה״ר כן אנחנו עושין מתפללין להשי"ת
-               <lb/>שית לכו פרנסה, ואחר כן אנו עושין בו ביום אחר התפלה, שיבות מסיבות
+               <lb/>שית לכו פרנסה, ואחר כן אנו עושין בו ב<date>יום</date> אחר התפלה, שיבות מסיבות
                <lb/>שונות איש לדרכו פוכה ומבטלין תלמוד <name type="work">תורה</name> ועושי לפעמים אמת ולפעמים
                <lb/>להיפך, ואין אנו מאמינים בלבכו מה שאמרכו בפינו היום וזה דומה למי
                <lb/>שאויור בכמה חפץ זה בפיו ובלבו אינו רוצה ליקח והוי אונאה ואם היה
@@ -508,7 +519,7 @@
             <fw facs="#facs_9_tr_1743011057" place="bottom" type="catch">
                <lb/>להתקיים</fw>
             <fw facs="#facs_10_tr_1743011056" type="running-head">
-               <lb/>תורת הרמ״ל
+               <pb facs="Torat-Haramal_0010.jpg" /><lb/>תורת הרמ״ל
             </fw>
          <head>
                <lb/>תולדות ויצא</head>
@@ -538,21 +549,21 @@
          <head>
                <lb/>פרשת ו<name type="work">יצא</name></head>
             <p>
-               <lb/>(י) ויאהב גם את <persName>רחל</persName> מלאה, ע״פ פירש הפסוק עבדו את <name type="misc">ה׳</name> בשמחה
+               <lb/>(י) ויאהב גם את <persName>רחל</persName> מ<persName>לאה</persName>, ע״פ פירש הפסוק עבדו את <name type="misc">ה׳</name> בשמחה
                <lb/>תחת אשר לא עבדת את <name type="misc">ה׳</name> אלהיך בשמחה זה כלל גדול, כי
                <lb/>השמחה מורה שאוהב את הדבר הרבה עזה מדריגה יותר מבבית, כי הבכיה
                <lb/>פותיזה השער, כמו שאחז"ל שערי דמעות לא ננעלו, אך השמחה משבר המחיצה
-               <lb/>והגודא. וידוע ואמי או״ל עיני <persName>לאה</persName> רשות שבכתה לפני ה<name type="misc">שי"ת</name> שלא תפול
+               <lb/>והגודא. וידוע ואמי או״ל עיני לאה רשות שבכתה לפני ה<name type="misc">שי"ת</name> שלא תפול
                <lb/>בגודל עשן הזה ויאשב גם את <persName>רחל</persName> מלאה
             </p>
             <p>
                <lb/>(יא) הבה את אשתי כי מלאו על פרש"י ז"ל שמלא ימי שאמרה לי אמי
-               <lb/>והוא פליאה גדולה הלא היא אמרה וישבת עמו ימים אחדים.
+               <lb/>והוא פליאה גדולה הלא היא אמרה וי<date>שבת</date> עמו ימים אחדים.
                <lb/>ו<persName>יעקב</persName> היה אצל <persName>לבן</persName> שבעה שבים ואמר הרה"ק ר' <persName>קאפיל ליקווער</persName> דאיתא
-               <lb/>במד״ר שלשה נקראים אחד השי"ה ב"ה ושבת שאי לה בת זוג כמאמר חז"ל
+               <lb/>במד״ר שלשה נקראים אחד השי"ה ב"ה ו<date>שבת</date> שאי לה בת זוג כמאמר חז"ל
                <lb/>שאמר ה<name type="misc">קב"ה</name> אכי ב זוגד, וכו' ואיתא בגמ׳ ימים נקרא שנה דכתיב ימים
                <lb/>תהיה גאולתו ולפי"ז ה״פ כי בשבעה שניה יש שכה שלימה <date>שבת</date> חלק שביעי
-               <lb/>וזה כי מלאו ימי שאמרה לי אמי וישבת עמו ימים אחדים, שיש להם אחדים
+               <lb/>וזה כי מלאו ימי שאמרה לי אמי וי<date>שבת</date> עמו ימים אחדים, שיש להם אחדים
                <lb/>שנקראים אחד היינו שנה תמימה של <date>שבת</date> כי הייתי אצלך שבעה שנים
                <lb/>ובתוך שבעה שכים יש שכה שלימה שבת
             </p>
@@ -566,7 +577,7 @@
             <fw facs="#facs_10_tr_1743011051" place="bottom" type="catch">
                <lb/>הדביקות</fw>
             <fw facs="#facs_11_tr_1743011072" type="running-head">
-               <lb/>תורת הרמ״ל
+               <pb facs="Torat-Haramal_0011.jpg" /><lb/>תורת הרמ״ל
             </fw>
          <head>
                <lb/>וישלח וישב</head>
@@ -587,14 +598,14 @@
                <lb/>וזה אני אל שדי פרה ורבה, מי שהוא בזה המדריגה להאמין תמיד בה׳ שהוא
                <lb/>אמר לעולמו די מה שיש בעולם הכל כמדד מאת ה<name type="misc">שי"ת</name> עד פה תבוא וזה
                <lb/>פרה ורבה מכל הדיבורים שהוליד מלאכים קדושים וז״פ המדרש, וישלח <persName>יעקב</persName>
-               <lb/>מלאכים זש"ה ו<name type="misc">ה'</name> נתן קולו לפני חילו, מי שמאמין הנ"ל אשר <name type="misc">ה<persName/>׳</name> יתן קולו
+               <lb/>מלאכים זש"ה ו<name type="misc">ה'</name> נתן קולו לפני חילו, מי שמאמין הנ"ל אשר <name type="misc">ה׳</name> יתן קולו
                <lb/>שזה הקול יצא מפיו, מאת ה<name type="misc">בורא</name> הוא עד פה, ולא בכחו, אזי יש הולדה
                <lb/>מלאכים להשי״ת וזה לפני חילו
             </p>
             <p>
                <lb/>טו) כה תאמרו לאדוני ל<persName>עשו</persName> עם <persName>לבן</persName> גרתי פירש״י ותרי"ג מצות שמרתי
-               <lb/>או שנעשה גר, וכו' ע"ש דקדק לאדוני ל<persName>עשו</persName> הול"ל לאדוני עשו'
-               <lb/>אלא הפ׳ שאמר לישנא דמשמע בקשה להשי"ת ב"ה וב"ש, ולהבדיל מליצה ל<persName>עשו</persName>.
+               <lb/>או שנעשה גר, וכו' ע"ש דקדק לאדוני ל<persName>עשו</persName> הול"ל לאדוני <persName>עשו</persName>'
+               <lb/>אלא הפ׳ שאמר לישנא דמשמע בקשה להשי"ת ב"ה וב"ש, ולהבדיל מליצה לעשו.
                <lb/>וזה לשון לאדוני להשי"ת עם <persName>לבן</persName> גרתי ותרי"ג מצות שמרתי מהראוי לשמור
                <lb/>אותי להנצל ולעשו הוא מליצה שנעשה גר ולא חשוב ולזה פרש"י מלאכים
                <lb/>ממש שהי׳ יודעים לדבר להשי״ת ולהבדיל נעשו וק"ל
@@ -626,7 +637,7 @@
             <fw facs="#facs_11_tr_1743011066" place="bottom" type="catch">
                <lb/>לחם</fw>
             <fw facs="#facs_12_tr_1743011070" type="running-head">
-               <lb/>תורת ה<persName>רמ</persName>״ל
+               <pb facs="Torat-Haramal_0012.jpg" /><lb/>תורת ה<persName>רמ</persName>״ל
             </fw>
          <head>
                <lb/>וישב דרוש חגוכה</head>
@@ -637,13 +648,13 @@
                <lb/>לחם לאכול וכו' אמר ה<name type="misc">קב"ה</name> (לא דיין לצדיקים מה שמתוקן להם לעוה״ב)
                <lb/>בלבד. זה לא תספיק להם ולא די להם שכר חלף עבודה שעבדו לשמו באמת
                <lb/>ומגיע להם גם מטובת עוה״ז ג״כ (אנא שמבקשי עוד לישב בשלוה) פי' אלא
-               <lb/>שהמה מבקשין עוד לעבוד עבודת ה<name type="misc">שי"ת</name> וגם בזה לישב בשלוה ולהסתפק
-               <lb/>במיעוט ודו״ק (בשמו הק' ז"ל ב<name type="work">ס</name>׳ <name type="work">מבשר טוב</name>)
+               <lb/>שהמה מבקשין עוד לעבוד עבודת ה<name type="misc">שי"ת</name> וגם בזה לישב בשלוה ולה<name type="work">ס</name>תפק
+               <lb/>במיעוט ודו״ק (בשמו הק' ז"ל בס׳ <name type="work">מבשר טוב</name>)
             </p>
             <p>
-               <lb/>יח) כי ארד אל בכי אבל שאולה, ופירש"י ז"ל סימן מסור לו אם לא ימות
-               <lb/>בחייו אחד מבניו מובטח שאינו רואה גיהכם והכה היא תמי׳ ש<persName>יעקב
-               <lb/>אבינו</persName> ע״ה שהיתה מטתו שלימה יראה <placeName>גיהנם</placeName> בתמי' אך כך היא הפי׳ שיש
+               <lb/>יח) כי ארד אל בכי אבל שאולה, ופירש"י ז"ל <name type="work">ס</name>ימן מסור לו אם לא ימות
+               <lb/>בחייו אחד מבניו מובטח שאינו רואה גיהכם והכה היא תמי׳ שיעקב
+               <lb/>אבינו ע״ה שהיתה מטתו שלימה יראה <placeName>גיהנם</placeName> בתמי' אך כך היא הפי׳ שיש
                <lb/>צדיק שהוא נקרא בחינת עזות פכים שהוא אינו משגיח על עצמו כלל אפי'
                <lb/>מבזין אותו ורודף והולך בכל המקומות, והוא נע וכד והולך ומחפש בחורין
                <lb/>ובסדקין לתקן כפשות ישראל, וגם יש צדיק שהוא נקרא בחינת בושת פנים
@@ -655,13 +666,13 @@
                <lb/>עז פנים לגיהנם ובושת פנים לג"ע והכה ידוע שהצדיק שהוא ע״פ הוא
                <lb/>בחיכת להבה כי הלהבה אינו עימד שמקומו שידליק במכוחה רק הוא מתכודד
                <lb/>לכאן ולכאן, וצדיק בושת פנים הוא נקרא אש כי היא עומדת במקומה נמצא
-               <persName><lb/>יעקב אבינו</persName> ע"ה הי' בחיכת בושת פנים כנא׳ והי׳ בית <persName>יעקב</persName> אש ו<persName>יוסף</persName>
-               <lb/>הצדיק עז פנים כנא׳ ובית יוסף להבה, וכאשר שמע <persName>יעקב אבינו</persName> ע"ה ש<persName>יוסף</persName>
+               <persName><lb/>יעקב אבינו</persName> ע"ה הי' בחיכת בושת פנים כנא׳ והי׳ בית יעקב אש ו<persName>יוסף</persName>
+               <lb/>הצדיק עז פנים כנא׳ ובית יוסף להבה, וכאשר שמע <persName>יעקב אבינו</persName> ע"ה שיוסף
                <lb/>איננו אמר א״כ שחסר כעת הצדיק עז פנים מהעולם אז צריך אני ליקח
                <lb/>לעצמי בחי׳ על פנים, על כן אמר כי ארד אל בכי אבל שאולה כי אם אקח
                <lb/>עלי הבחי׳ של ע״פ מהעוה״ז אזי אהי' מוכרח לירד ולעבור הגיהכם לקחת
                <lb/>משם הכשמות, וממילא מתורץ גם דברי <persName>רש"י</persName> ז"ל והבן (בשם המח׳ הק' ז"ל
-               <lb/>ב<name type="work">ס</name>׳ <name type="work">סמיכת משה</name> בפתיחה)
+               <lb/>בס׳ <name type="work">סמיכת משה</name> בפתיחה)
             </p>
          <head>
                <lb/>דרוש לחנוכה</head>
@@ -682,7 +693,7 @@
             <fw facs="#facs_12_tr_1743011066" place="bottom" type="catch">
                <lb/>וזה</fw>
             <fw facs="#facs_13_tr_1743011053" type="running-head">
-               <lb/>תורת הרמ״ל
+               <pb facs="Torat-Haramal_0013.jpg" /><lb/>תורת הרמ״ל
             </fw>
             <fw facs="#facs_13_tr_1743011054" type="running-head">
                <lb/>וישב דרוש חנוכה
@@ -701,7 +712,7 @@
                <lb/>פי' ה<name type="work">ש"ס</name> מצות חנוכה ע"ד ציותא שמחובר לטהור, מכח חינוך ה׳ ע"ד חנוך
                <lb/>לכער שהוא מכוער כל טוב הגנוז רק ע״פ דרכו, הייכו שמקשר המעשה
                <lb/>בדיבור ודיבור במוח עושה לפניו הדרך הישר לעלות מתתא לעילא וכן להוריד.
-               <lb/>וזה מצות חיכוך ה׳ בחיכת כה"י הדביקה בה' אחרוכה, כ״ר מכח נפש רוח
+               <lb/>וזה מצות חיכוך ה׳ בחיכת כה"י הדביקה ב<name type="misc">ה'</name> אחרוכ<name type="misc">ה</name>, כ״ר מכח נפש רוח
                <lb/>איש זוכה לאלוף הוא פלא עליון יוד ע"ש המחשבה שין של ג' ראשין רומז
                <lb/>ג׳ אבות, גם האלף והיוד מורין על שבת קידש שהוא קדישא עליוכה ויומא
                <lb/>דנשמתא. ויש ג׳ זמנים טובים המה מועדים מרין אל ג׳ אבות, והוא ג
@@ -711,15 +722,15 @@
                <lb/>ל<placeName>מצרים</placeName> להוציא הנ״ק הקלופין שם, ומהדרי היינו שיש לו בחי' נוספות, אזי
                <lb/>כר לכל אחד ואחד היינו ב' פעמים אחד ג מטריא כ״ו, ומחבר עצמו לאחדות
                <lb/>הפשוט מכח אחדותו שמוציא בעולם הפיריד, ומוסר נפשו ורוחו למעלה ע"ד
-               <lb/>אליך <name type="misc">ה'</name> נפשי אשא, ומהדרין מן המהדרין הייכו שיש לו מדריגה גבוה, אזי
+               <lb/>אליך ה' נפשי אשא, ומהדרין מן המהדרין הייכו שיש לו מדריגה גבוה, אזי
                <lb/>ב"ה אומרים בליל ראשון מדליק א׳ בליל שכי מוסיף והולך, וב"ש אומרים
                <lb/>פוחת והולך, ובאמת אלו ואלו דברי א"ח היינו כנ"ל שזוכה מכח אתערותא
                <lb/>דלתתא להגיע לכל ה׳ בחינות נרכח"י וג״כ כשהולך מחתא לעילא פוחת והולך
                <lb/>כנ"ל שמדריגת נפש הוא כאין כשיבא למדריגת רוח, וכן רוח וכשמה לכשמה
                <lb/>כנז"ל ומשם זוכה להוריד מעילא לתתא עד שמגיע למדריגת נפש אפילו מבחי'
-               <lb/>נשמה לנשמה כנ"ל, ובמעשה צריך להיות כב"ה, אבל כוונתו צריך להיות ב<orgName>בית
-               <lb/>שמאי</orgName> שמוסר עצמו מדרגא לדרגא עד למעלה וב"ה מרמזין על שאצלו מאורים
-               <lb/>הדבורים ע"ד <persName>הילל בן שחר</persName> ותהל אור, אבל בית שמאי מרמזין פתחי שמאין
+               <lb/>נשמה לנשמה כנ"ל, ובמעשה צריך להיות כב"ה, אבל כוונתו צריך להיות בבית
+               <lb/>שמאי שמוסר עצמו מדרגא לדרגא עד למעלה וב"ה מרמזין על שאצלו מאורים
+               <lb/>הדבורים ע"ד <persName>הילל בן שחר</persName> ותהל אור, אבל <orgName>בית שמאי</orgName> מרמזין פתחי שמאין
                <lb/>ומצות נר חנוכה צריך להיות למעלה מג' טפחים, כי למטה מג׳ כלבוד הייכו
                <lb/>שעדיין מוכח בארציות, והוא צריך להיות למעלה מג׳ כנ"ל, והייכו ג׳ תחתונית
                <lb/>כה״י, ומ״ש למעלה עד עשר ולא עד בכלל, כי כל חנוכה אינו במדריגת
@@ -727,15 +738,15 @@
                <lb/>חנוכה בשמאל הייכו הלב כמשל למזוזה ופה לפתח כי מהלב מביא דיבורים
                <lb/>לפתחי פיו רק שהוא לב חכם אזי הוא לימינו היינו שיש לו מזוזה. אבל לב
                <lb/>כסיל ע״ד חנוך לנער שהוא מכוער אזי היא בשמאלו, וצריך להתערותא בכר
-               <lb/>חנוכה ונותן להשי"ת כבוד שהוא בשמאל וע"ד שאנו פוסעין בעושה שלום
-               <lb/>לצד שמאל ומשתחוים ג״כ בשמאל וכותן שבח וכבוד להשי"ת, כי מכחו יוכל
+               <lb/>חנוכה ונותן לה<name type="misc">שי"ת</name> כבוד שהוא בשמאל וע"ד שאנו פוסעין בעושה שלום
+               <lb/>לצד שמאל ומשתחוים ג״כ בשמאל וכותן שבח וכבוד לה<name type="misc">שי"ת</name>, כי מכחו יוכל
                <lb/>לזכות להוציא דיבורים זכים מן הפה, וזה פתח דבריך <persName>יאיר</persName> מבין פתיים פי'
                <lb/>כי כשאינו מקושר היטב ומחובר היטב, אזי הדיבורים חשך, אבל להיפך מאירים
             </p>
             <fw facs="#facs_13_tr_1743011052" place="bottom" type="catch">
                <lb/>כספירים</fw>
             <fw facs="#facs_14_tr_1743011064" type="running-head">
-               <lb/>תורת הר"נ
+               <pb facs="Torat-Haramal_0014.jpg" /><lb/>תורת הר"נ
             </fw>
             <fw facs="#facs_14_tr_1743011065" type="running-head">
                <lb/>וישב דרוש חנוכה
@@ -745,7 +756,7 @@
             </p>
             <p>
                <lb/>כספירים, וזה פתח הפה משם יוצא בריך <persName>יאיר</persName> ומבין שהי' עד עכשיו בפתיות,
-               <lb/>וזוכה אח״כ להמשיך מהנר החופף על ראשו, וזה <name type="misc">ה</name>׳ חנכו לך קוינו שה<name type="misc">שי"ת</name>
+               <lb/>וזוכה אח״כ להמשיך מהנר החופף על ראשו, וזה ה׳ חנכו לך קוינו שה<name type="misc">שי"ת</name>
                <lb/>ב"ה חוכן לאדם ומרחם להשפיע מעילא לתתא מכח זה לך קווינו פי' אנו
                <lb/>מקוים ע"ד יקוו המים שמתקבץ לעצמו כל הכחות, רק כ"ז שהדלקה עושה
                <lb/>מצוה, היינו שרודף ומקשר עצמו לאלופו של עולם ומהפך אותיות אפל לאותיות
@@ -758,18 +769,18 @@
                <lb/>באמת שם נפלו הנ״ק לחוץ. רק שצריך להמשיך עליו מדכורא כי רגל גימטריא
                <lb/>זכור ע״ד שפירש"י מקור, כי מהמקור שפע עליו נמשך לשוק לג' תחתוניית
                <lb/>כנ״ל וזה להדליק הערב מהבוקר, ע"ד בוקר ויודע ה׳ וזה ויהי ערב עכ״ז
-               <lb/>ויהי בוקר יום אחד כשמדליק כן קודם שתכלה רגל כנ"ל, וזה נקרא עניה
+               <lb/>ויהי בוקר <date>יום</date> אחד כשמדליק כן קודם שתכלה רגל כנ"ל, וזה נקרא עניה
                <lb/>מהשי״ת לכו, כי איך שייך שיענה אותנו, רק כשהוא מרגיש בעצמו שיש לו
                <lb/>כחת רוח מתפלתו וכדומה, וזה נקרא ה<name type="misc">שי"ת</name> עולה אותכו, וזה אעכך בסתר
                <lb/>רעם, מה שהיו מקודם בסתר עליון בשכל עכשיו הוא רעם ונתגלו אצלו, רק
-               <lb/>ה<name type="misc">שי"ת</name> בוחן כליות ולב אם יוצאים הדיבורים מעומקא דלבא ממצפוכו, וזה
+               <lb/>השי"ת בוחן כליות ולב אם יוצאים הדיבורים מעומקא דלבא ממצפוכו, וזה
                <lb/>אבתכך על מי מריבה סלה. היינו שיש לאדם תמיד מריבה עם היצה"ר על
-               <lb/>המים הזידוכים וזה על מי מריבה, וה<name type="misc">שי"ת</name> ב"ה כותן כח למלחמה, ע"ד <name type="misc">ה׳</name>
+               <lb/>המים הזידוכים וזה על מי מריבה, והשי"ת ב"ה כותן כח למלחמה, ע"ד <name type="misc">ה׳</name>
                <lb/>איש מלחמה, ומוצא ה׳ מוצאות הפה בדו״ר כדכיאות, וזה האזיכה <name type="misc">אלהים</name>
                <lb/>תפלתי ה' מוצאות הפה כשהוא במדריגת גבוה, ולפחות ממכה ועל תתעלם
-               <lb/>מתחילתי שצריך תחיכה ובקשה מאתו ית׳ וזה וישב <persName>יעקב</persName> בארץ מגורי אביו,
+               <lb/>מתחילתי שצריך תחיכה ובקשה מאתו ית׳ וזה וישב <persName>יעקב</persName> ב<placeName>ארץ</placeName> מגורי אביו,
                <lb/>היינו כשהוא במדרגת <persName>יעקב</persName> אזי כונס בתוכו השכל הנקרא אביו חכמה, ואם
-               <lb/>מכוסה ונבדל ממנו מכח ב<placeName>ארץ</placeName> <placeName>כנען</placeName> שהוא טרוד בעוה״ז, עכ״ז יוכל להיות
+               <lb/>מכוסה ונבדל ממנו מכח בארץ <placeName>כנען</placeName> שהוא טרוד בעוה״ז, עכ״ז יוכל להיות
                <lb/>ואלה תולדות <persName>יעקב</persName> להוכיא מפיו דיבורים זכים הנקראים תולדות, ואף ש<persName>יוסף</persName>
                <lb/>שהוא בן י"ז שנים גימטריא טו״ב וטוב הגנוז ממנו הוא חשוב וק"ל
             </p>
@@ -792,7 +803,7 @@
             <fw facs="#facs_14_tr_1743011061" place="bottom" type="catch">
                <lb/>בטחון</fw>
             <fw facs="#facs_15_tr_1743011049" type="running-head">
-               <lb/>תורת הרמ״ל
+               <pb facs="Torat-Haramal_0015.jpg" /><lb/>תורת הרמ״ל
             </fw>
             <fw facs="#facs_15_tr_1743011051" type="running-head">
                <lb/>מקץ ויחי שמות
@@ -810,15 +821,15 @@
                <lb/>רק יום ביומו, (מחזה <persName>אברהם</persName> בשם המח<persName>׳</persName> הק' מ"ל
             </p>
             <p>
-               <lb/>(כב) האספר ואגידה לכם את אשר יקרא אתכם וכו' פירש ש<persName>יעקב
-               <lb/>אבינו</persName> ע"ה הי' רוצה בקיומו של כל <placeName>ישראל</placeName> שהם בניו.
+               <lb/>(כב) האספר ואגידה לכם את אשר יקרא אתכם וכו' פירש שיעקב
+               <lb/>אבינו ע"ה הי' רוצה בקיומו של כל <placeName>ישראל</placeName> שהם בניו.
                <lb/>על זה אמר האספו ואגידה לכם לשון אגוד כי אותיות אהוי' מתחלפין לאמר
                <lb/>אקשר אתכם שתהיו תמיד דבקים ב<name type="misc">השי"ת</name>, ע"י שאתם יאספו עצמיכם פירש
                <lb/>שיקטנו עצמיכם אשר יקרא אתכם באחרית הימים היינו איזה סיבה שיהיו
                <lb/>באחרית הימים אשר יקרא אתכם תהי׳ אגודות ב<name type="misc">השי"ת</name> ולא ישלוט בכם שום
                <lb/>סיבה ויצר ומקרה רע רק טוב, כי מה<name type="misc">שי"ת</name> לא יצא רע רק טוב, וזפ"ה ואני
-               <lb/>אגיד לעולם, להיות נאגד לעולם זה. אזמרה ל<name type="misc">אלהי יעקב</name>, כי <persName>יעקב</persName> נתן זה
-               <lb/>המתנה להיות קשור ב<name type="misc">השי"ת</name> (בס׳ אמרי <persName>משה</persName> מביא שציוה עליו המח׳ הק' ז"ל
+               <lb/>אגיד לעולם, להיות נאגד לעולם זה. אזמרה ל<name type="misc">אלהי יעקב</name>, כי יעקב נתן זה
+               <lb/>המתנה להיות קשור ב<name type="misc">השי"ת</name> (בס׳ אמרי משה מביא שציוה עליו המח׳ הק' ז"ל
                <lb/>לאמר זאת הפירוש בשמו הק׳ ז"ל)
             </p>
          <head>
@@ -836,11 +847,11 @@
                <lb/>טובות כי אין לו מבטלין
             </p>
             <p>
-               <lb/>(כי כבד פה וכבד לשון אנכי, פירש כי <persName>משה</persName> היה שפל בעיניו שהיה
+               <lb/>(כי כבד פה וכבד לשון אנכי, פירש כי משה היה שפל בעיניו שהיה
                <lb/>סובר שהוא בעל גאוה, וזה כבד פה וכבד לשון בשביל אנכי
                <lb/>כי עדיין אין לי התפשטות הגשמיות ויש לי בחי׳ אנכי שאני סובר שאני איש
-               <lb/>והשיב לו ה<name type="misc">שי"ת</name> מי שם פה לאדם או מי ישים אלם הלא אנכי ה׳ מה שאתה
-               <lb/>סובר שיש לך גאוה זהו טוב, זה אנכי <name type="misc">ה</name>׳ בשביל שאתה יודע שאנכי ה׳
+               <lb/>והשיב לו ה<name type="misc">שי"ת</name> מי שם פ<name type="misc">ה</name> לאדם או מי ישים אלם הלא אנכי ה׳ מה שאתה
+               <lb/>סובר שיש לך גאוה זהו טוב, זה אנכי ה׳ בשביל שאתה יודע שאנכי ה׳
                <lb/>ויודע אתה איך האדם צריך להיות שפל בעיכיו, אבל אדם אחר שאינו חושב
                <lb/>תמיד גדולתו ורוממותו סובר שהוא עניו, וז״פ חושך שבטו שונא בנו אוהבו
                <lb/>שחרו מוסר, ואין זה דבר והפוכו שמתחיל חושך שבטו וסיים שחרו מוסר
@@ -848,7 +859,7 @@
             <fw facs="#facs_15_tr_1743011047" place="bottom" type="catch">
                <lb/>ועוד</fw>
             <fw facs="#facs_16_tr_1743011060" type="running-head">
-               <lb/>תורת הרמ<persName>״ל</persName>
+               <pb facs="Torat-Haramal_0016.jpg" /><lb/>תורת הרמ<persName>״ל</persName>
             </fw>
             <fw facs="#facs_16_tr_1743011062" type="running-head">
                <name type="work"><lb/>שמות</name>
@@ -859,7 +870,7 @@
                <lb/>ועוד שסתם ממי חושך אך הפירוש החושך שבטו שבט המושל שאינו חושב
                <lb/>תמיד בגדולות הבורא שהוא המשגיח אמיתי ומשפיע כח לעיכים ופה ולכל
                <lb/>אברים ובלעדו אי אפשר לדבר ולעשות שום מעשה בשום אבר זה נקרא חושך
-               <lb/>שבטו שבט המושל זהו ה<name type="misc">קב<orgName/>״ה</name> שונא בנו שאדם נקרא בן להקב״ה כשחושב
+               <lb/>שבטו שבט המושל זהו ה<name type="misc">קב״ה</name> שונא בנו שאדם נקרא בן להקב״ה כשחושב
                <lb/>תמיד בגדולתו וזה שונא אינו משמח בזה, ואינו רוצה להיות בן ל<name type="misc">הקב"ה</name>,
                <lb/>ומשמח בשטות עצמו בתאוות העולם, ואיהבו שחרו מוסר, אבל מי שהוא אוהב
                <lb/>להיות דביק להבורא ית"ש, וחושב תמיד בגדולתו ורוממותו הוא תמיד מוכיח
@@ -867,8 +878,8 @@
                <lb/>אם הולך בלא תורה או מדבר דברים בטלים או כעס או דאגה על מחר או
                <lb/>גאוה הכל כאשר לכל בעיניו עבירה חמורה כאשר האמת כן היא וז״פ לא
                <lb/>תתגודדו ודרשו רז"ל לא תעשו אגודות אגודות ע״פ המשכה אל תהיו כעבדים
-               <lb/>המשמשין את הרב ע״מ לקבל פרס, היינו מי שיודע ודבוק בהשי"ת ומבין
-               <lb/>גדולתו ורוממותו, כי לית אתר פכוי מכיה, אזי כל היום יש לו אימה ופחד מה<name type="misc">שי"ת</name>
+               <lb/>המשמשין את הרב ע״מ לקבל פרס, היינו מי שיודע ודבוק בה<name type="misc">שי"ת</name> ומבין
+               <lb/>גדולתו ורוממותו, כי לית אתר פכוי מכיה, אזי כל היום יש לו אימה ופחד מ<name type="misc">השי"ת</name>
                <lb/>וירא לדבר דברים בטלים, ופשיטא שלא לכעוס, כיון שהמלך הגדול הגבור
                <lb/>והנורא לפניו מלא כל הארץ כבודו, ואינו דואג על יום מחר כי הוא בטוח בהמלך
                <lb/>הגדול אשר כל היכולת בידו ומכין מצעדי גבר מקרבי ראמים עד ביצי כיכים,
@@ -885,7 +896,7 @@
                <lb/>פרוסה אחת ואח״כ מפסיק בדברים בטלים ח"ו, ואח״כ עוד פרוסה לומד
                <lb/>ואח״כ מדבר ועושה הכל מה שלבו חפץ, ואח״כ עושה עוד פרוסה מתפלל
                <lb/>מכחה ע״ז כאמר מי בקש זאת מידכם רמוס חצרי, אלא ע״מ שלא לק״פ. רק
-               <lb/>בשלימות כל היום, כי צריך להאמין ב<name type="misc">השי"ת</name> ולפחד מפניו תמיד, וזה שויתי <name type="misc">ה׳</name>
+               <lb/>בשלימות כל היום, כי צריך להאמין בהשי"ת ולפחד מפניו תמיד, וזה שויתי <name type="misc">ה׳</name>
                <lb/>לנגדי תמיד בין בשעת תפלה בין שלא בשעת תפלה כל היום באכילה ושתי׳ והילוך
                <lb/>ובדברים, וזה לא תתגודדו לא תעשו אגודות אגודות היינו שלא תצטרכו לכם
                <lb/>לאגוד ולקשר בכל פעם, רק בכל היום יקבל עליו עול מלכות שמים לירא
@@ -898,20 +909,20 @@
                <lb/>כידוע, וע"ז אמר הרע לעם הזה, והצל לא הצלת אין זה הצלה מעוה״ז השפל
                <lb/>הצלת אך משכר עוה״ב לא הצלת אך אדרבה כנ"ל, והשיבו ה<name type="misc">שי"ת</name> ראה
                <lb/>כתתיך <name type="misc">אלהים</name> ל<persName>פרעה</persName> בגימטריא הטבע לא יבוטל הבחירה כי הפושעים יוכלו
-               <lb/>לומר מעשה טבע מעשה כשפים הם, וזה פירוש מאמר חז"ל למה נקרא כשפים
+               <lb/>לומר מעשה טבע מעשה כשפים הם, וזה פירוש מאמר <orgName>חז"ל</orgName> למה נקרא כשפים
             </p>
             <fw facs="#facs_16_tr_1743011058" place="bottom" type="catch">
                <lb/>מצד</fw>
             <fw facs="#facs_17_tr_1743011062" type="running-head">
-               <lb/>תורת ה<persName>רמ</persName>״ל
+               <pb facs="Torat-Haramal_0017.jpg" /><lb/>תורת ה<persName>רמ״</persName>ל
             </fw>
             <fw facs="#facs_17_tr_1743011065" type="running-head">
                <lb/>בא בשלח משפטים
             </fw>
             <fw facs="#facs_17_tr_1743011064" type="pageNum" place="top">
-               <lb/>השלם</fw>
+               <orgName><lb/>ה</orgName>שלם</fw>
             <p>
-               <lb/>מצד שמכחישין כח פמליא של מעלה, וקשה מאד האיך שייך שיכחיש ל<name type="misc">השי"ת</name>
+               <lb/>מצד שמכחישין כח פמליא של מעל<orgName>ה</orgName>, וקשה מאד האיך שייך שיכחיש ל<name type="misc">השי"ת</name>
                <lb/>אך הפירוש מחמת שיוכל הרשע לומר אין זה מה<name type="misc">שי"ת</name> רק מעשה פשפים צדיקים
                <lb/>ילכו בם ופושעים יכשלו בם ר"ל והבן
             </p>
@@ -930,7 +941,7 @@
                <lb/>ב<placeName>גן עדן</placeName>, על פסוק <name type="work">עלה אלהים</name> בתרועה תרועה הוא לשון ריעות מתי כמחק
                <lb/>מדת הדין ויש לו עליה, בתרועה. כשישראל עושין מצות של מקום מאהבה
                <lb/>ויש להם ריעות עם ה<name type="misc">קב"ה</name>, אזי המחק מדת הדין לרחמים מחמת שבא החדוה
-               <lb/>ל<name type="misc">הקב"ה</name> עם ריעיו שלו, וזה הפירוש כאן היות כשבא <persName>הקב<orgName/>״ה</persName> ל<placeName>מצרים</placeName>, וראה
+               <lb/>ל<name type="misc">הקב"ה</name> עם ריעיו שלו, וזה הפירוש כאן היות כשבא <persName>הקב״ה</persName> ל<placeName>מצרים</placeName>, וראה
                <lb/>מלאה גלולים, והי׳ כולם דינים, וכשבא לבתי ב<placeName>כי</placeName> <placeName>ישראל</placeName> באה לו חדוה גדולה,
                <lb/>ופסח ומרקד כביכול כמו — הילד מרקדין ותמת — שמחה וחדוה כאדם
                <lb/>המרקד מחמת שמחה ודוק והבן היטב.
@@ -939,21 +950,21 @@
                <name type="work"><lb/>פרשת</name> ב<name type="work">שלח</name></head>
             <p>
                <lb/>(כז) כר׳ המחלה אשר שמתי ב<placeName>מצרים</placeName> לא אשים עליך כי אני <name type="misc">ד'</name> רופאיך,
-               <lb/>המווכה על ענין כעילת האמונה, כמו שהי׳ ל<placeName>פרעה</placeName> שנאמר בו ויכבד
-               <lb/>לב <persName>פרעה</persName> וכו'. ומבטיח הכתוב, על המחלה אשר שמתי ב<placeName>מצרים</placeName> כנ"ל לא אשים
-               <lb/>עליך, ואדרבה כי אני <name type="misc">ה</name>׳ רופאיך, כידוע שב<placeName>מצרים</placeName> הי׳ בחיכת הדעת בגלות
-               <lb/>ובשעת הגאולה גם הדעת שהוא אמוכה נגאל אז (בס׳ <name type="work">אורח</name> לחיים פרשת יחדו
+               <name type="misc"><lb/>ה</name>מווכה על ענין כעילת האמונה, כמו שהי׳ ל<persName>פרעה</persName> שנאמר בו ויכבד
+               <lb/>לב פרעה וכו'. ומבטיח הכתוב, על המחלה אשר שמתי ב<placeName>מצרים</placeName> כנ"ל לא אשים
+               <lb/>עליך, ואדרבה כי אני ה׳ רופאיך, כידוע שב<placeName>מצרים</placeName> הי׳ בחיכת הדעת בגלות
+               <lb/>ובשעת הגאולה גם הדעת שהוא אמוכה נגאל אז (בס׳ <name type="work">אורח</name> לחיים <name type="work">פרשת</name> יחדו
                <lb/>בשמו הק' ז"ל
             </p>
          <head>
-               <name type="work"><lb/>פרשת</name> משפטים</head>
+               <lb/>פרשת משפטים</head>
             <p>
                <lb/>כח) הנה אנכי שולח מלאך לפניך לשמרך בדרך זש"ה אני אמרתי אלקים
                <lb/>אתם וכו' ואלמלי המתיכו <placeName>ישראל</placeName> שעה אחת לא היה שולט בהם
                <lb/>מ"ה ושיעבוד מלכיות שנאמר חרות על הלוחות וכו' הפי׳ הוא כך אנכי הוא
                <lb/>צמצם שה<name type="misc">שי"ת</name> מצמצם א״ע ע״ד אנשי הסתיר, ובאותה שעה יש לרדם לחזק
-               <lb/>א"ע לילך ולעבוד את ה<name type="misc">שי"ת</name> ולשבר את הטבע, ולהכניס את החנק אל הכל ע״י
-               <lb/>אותיות התו׳ וזה כקרא דרך <name type="misc">ה</name>׳ כי השאדם רואה בגדולת ה<name type="misc">בורא</name> ויש לו תענוג
+               <lb/>א"ע לילך ולעבוד את ה<name type="misc">שי"ת</name> ולשבר את <name type="misc">ה</name>טבע, ולהכניס את החנק אל הכל ע״י
+               <lb/>אותיות התו׳ וזה כקרא דרך ה׳ כי השאדם רואה בגדולת ה<name type="misc">בורא</name> ויש לו תענוג
                <lb/>גדול בעבודתו אזי אין לו ברירה כי הוא ממש בד׳ כבי׳ וזהו שמחו צדיקים ב<name type="misc">ה'</name>
                <lb/>כי הוא בה ממש, אין להם ברירה, אבל ה<name type="misc">שי"ת</name> ב"ה בגודל רחמנותו וחסדו הגדול
                <lb/>צמצם את שהינתו כדי שיהי' הברירה יחפשיות כדי שיהי' להם שכר וזש"ה אני
@@ -961,7 +972,7 @@
             <fw facs="#facs_17_tr_1743011059" place="bottom" type="catch">
                <lb/>אמרתי</fw>
             <fw facs="#facs_18_tr_1743011048" type="running-head">
-               <lb/>תורת ה<persName>רמ</persName>״ל
+               <pb facs="Torat-Haramal_0018.jpg" /><lb/>תורת ה<persName>רמ</persName>״ל
             </fw>
             <fw facs="#facs_18_tr_1743011051" type="running-head">
                <lb/>משפטים תרומה תצוה
@@ -975,7 +986,7 @@
                <lb/>בשביל שהשי"ת צמצם שכינתו מהם
             </p>
          <head>
-               <lb/>פרשת תרומה</head>
+               <name type="work"><lb/>פרשת</name> תרומה</head>
             <p>
                <lb/>כט) במדרש ויקחו לי תרומה מאת כל איש וכו' תקחו תדומתי, הה"ד
                <lb/>נבחר שם מעושר רב זה <persName>מרדכי</persName>, כראה לי לפרש בעזה"י
@@ -994,9 +1005,9 @@
                <lb/>יבטלו כל הג״ר ח"ו ונזכה לגאולה שלימה בקרב אמן
             </p>
          <head>
-               <name type="work"><lb/>פרשת</name> תצוה</head>
+               <lb/>פרשת תצוה</head>
             <p>
-               <lb/>ל) בהפטורה ואתה בן אדם הגד את בית ישראל את הבית ויבכמו
+               <lb/>ל) בהפטורה ואתה בן אדם הגד את בית <placeName>ישראל</placeName> את הבית ויבכמו
                <lb/>מעונותיהם ומדדו את תכלית וכו' לדעתי השפל הבוף
                <lb/>נקרא בית אשר הנשמה שוכן ודר בתוך הגוף, וזהו הון ועושר בביתו, כשאדם
                <lb/>משמח בחלקו ונותן תמיד שבח והודאה ל<name type="misc">השי"ת</name> על שהגוף בריא וחזק. זה אצלו
@@ -1010,7 +1021,7 @@
                <lb/>המלך, כן הדבר אם אדם משמח בחלקו שהגוף בריא וחזק שיוכל לעבוד בהגוף
                <lb/>עבודת ה<name type="misc">בורא</name> ב"ה שיוכל ללמוד ולהתפלל ולעשות מצות בגופו זה הוכו ועשרו
                <lb/>ואינו מצפה לשום דבר שררה וממו זה הבל עולם מה שהגוף הכה מתענוגי
-               <lb/>עוה״ז כלה ואבד מהרה הגוף והממון והתענוגיה, זה הגד נעמי <placeName>ישראל</placeName>, את הבית,
+               <lb/>עוה״ז כלה ואבד מ<placeName>הר</placeName>ה הגוף והממון והתענוגיה, זה הגד נעמי <placeName>ישראל</placeName>, את הבית,
                <lb/>היינו יגיד להם הסוף מן הבית, דהיינו הגוף כלה ואבד, ויכלמו מעונותיהם, מי
                <lb/>שירא מאת ה<name type="misc">שי"ת</name>, ורוצה לזכור תמיד יום המיתה יום הצרה ומבוכה יום עברה
                <lb/>ואפלה יום מהומה היום ההוא אז יבוש לעשות עבירה גדולה או קטנה, ומדדו
@@ -1019,7 +1030,7 @@
             <fw facs="#facs_18_tr_1743011046" place="bottom" type="catch">
                <lb/>לצאת</fw>
             <fw facs="#facs_19_tr_1743011054" type="running-head">
-               <lb/>עת <placeName>הר</placeName>״מ״ל
+               <pb facs="Torat-Haramal_0019.jpg" /><lb/>עת הר״מ״ל
             </fw>
             <fw facs="#facs_19_tr_1743011056" type="running-head">
                <lb/>תצוה תשא ויקהל
@@ -1041,10 +1052,10 @@
          <head>
                <name type="work"><lb/>פרשת</name> כי תשא</head>
             <p>
-               <lb/>(יא) כי תישא את ראש בני ישראל לפקודיהם, פי' לשון פקידה כח ומשלה
+               <lb/>(יא) כי תישא את ראש בני <placeName>ישראל</placeName> לפקודיהם, פי' לשון פקידה כח ומשלה
                <lb/>כי רשעים אין להם כח וממשלה כמאמר חז"ל מדיקים לבם
                <lb/>ברשותם, ולא כן הרשעים שהם ברשות לבם, לזה אמר, כי תשא את ראש בני
-               <lb/>ישראל לפקודיהם שיהיה להם ממשלה ונתנו איש כופר בפקוד אותם
+               <placeName><lb/>ישראל</placeName> לפקודיהם שיהיה להם ממשלה ונתנו איש כופר בפקוד אותם
             </p>
          <head>
                <name type="work"><lb/>פרשת</name> ויקהל</head>
@@ -1060,13 +1071,13 @@
                <lb/>חשוב בעיניו יראת שמים כמו האבן טוב ואוצר נחמד, כי יראת <name type="misc">ה׳</name> הוא אומרו.
                <lb/>אף אם עוסק בשאר עסק מו״מ או שאר דברי רשות אינו שוכח ואינו פוסק
                <lb/>כלל מיראת <name type="misc">ה'</name> לאפוקי מי שאינו חשוב בעיניו כלל יראת <name type="misc">ה׳</name> אזי אף אם
-               <lb/>עוסק בדבר <name type="misc">ה</name>׳ היינו תורה ועבודה נופל מחשבת חוץ עליניו ועסקיו שלו בתוך
+               <lb/>עוסק בדבר <name type="misc">ה</name>׳ היינו תורה ועבודה נופל מח<date>שבת</date> חוץ עליניו ועסקיו שלו בתוך
                <lb/>התפלה, כי זה עיקר החשיבות שלו, וזה נקרא כלאים מעירב במחשבות לשון
                <lb/>שוע טוי ובוז תאות עוה״ז כל כך חביב אכלו שקושר במחשבה שלו אף אם עוסק
-               <lb/>בעבודה ותפלה אינו פוסק ממנו כח תאות עיה׳ במחשבה, וזה פירש הוודרש
+               <lb/>בעבודה ותפלה אינו פוסק ממנו כח תאות עי<name type="misc">ה׳</name> במחשבה, וזה פירש הוודרש
                <lb/>ראה קראתי בשם <persName>בצלאל</persName> וכו' ואמנא אותו וכו׳ שיהיה ממולא בחכמה כל
-               <lb/>מחשבתו ותחבולותיו הכל ביראת <name type="misc">ה׳</name> שזה אוצרו ולא נופל כלל במחשבתו בשעת
-               <lb/>עבודה ותפלה שום מחשבת חוץ ופיגול לזה אמר רב עד כמה חייב לטפל
+               <lb/>מח<date>שבת</date>ו ותחבולותיו הכל ביראת ה׳ שזה אוצרו ולא נופל כלל במח<date>שבת</date>ו בשעת
+               <lb/>עבודה ותפלה שום מח<date>שבת</date> חוץ ופיגול לזה אמר רב עד כמה חייב לטפל
                <lb/>בכלאים המחשבות חוץ שנקרא כנאים לזה אמר אפי' מאה בגדים כי היצה"ר
                <lb/>מכסה הדבר לפני אדם, ואמר אין זה עבירה אפילו אם במאה בגדים חייב
                <lb/>וצריך אדם לטפל לבער זאת
@@ -1077,7 +1088,7 @@
             <fw facs="#facs_19_tr_1743011049" place="bottom" type="catch">
                <lb/>פתיים</fw>
             <fw facs="#facs_20_tr_1743011073" type="running-head">
-               <lb/>תורת ה<persName>רמ</persName>״ל
+               <pb facs="Torat-Haramal_0020.jpg" /><lb/>תורת ה<persName>רמ</persName>״ל
             </fw>
             <fw facs="#facs_20_tr_1743011072" type="running-head">
                <lb/>ו<name type="work">יקהל</name> פקודי
@@ -1089,17 +1100,17 @@
                <lb/>מזה, ולדעתי השפל שהיה יודע האותיות מלאים אורות, כאשר נאמר בדבר <name type="misc">ה׳</name>
                <lb/>שמים נעשו בכ״ב אתוו כברא העולם, והכה מי שמדבר באותיות ויודע מה
                <lb/>מדבר, ויודע זאת בבירור שאותיות הם כלים לבריאות העולם ואזי גם בעת
-               <lb/>שמדבר דברי תורה ותפילה ואף הצטרכות יודע שאותיות אינם כפשוטים וצריך
+               <lb/>שמדבר דברי <name type="work">תורה</name> ותפילה ואף הצטרכות יודע שאותיות אינם כפשוטים וצריך
                <lb/>כל אדם לידע זאת שהפנימיות האותיות מלאים אורות, ואף שכאשר אנחנו
                <lb/>רואי האותיות כפשוטו זה רק מבחוץ, אך לא כן מבפנים, זאת היה יכול
-               <persName><lb/>בצלאל</persName> היטב, וזכ"ה פתח דבריך שצריך לפתוח האותיות כל הדברים בין ב<name type="work">תורה</name>
+               <persName><lb/>בצלאל</persName> היטב, וזכ"ה פתח דבריך שצריך לפתוח האותיות כל הדברים בין בתורה
                <lb/>בין בתפלה ובהצטרכות העולם צריך לפתוח האותיות ולמלאם אור כאשר באמת
                <lb/>וזה פתח דבריך ויאיר מבין פתיים עוד פעולה שלימה כשאדם עושה זאת
-               <lb/>אזי הוא מבין פתיים, הוא מרגיש ומבין שטותם, מה שאין יצמח לעבודת הבורא
+               <lb/>אזי הוא מבין פתיים, הוא מרגיש ומבין שטותם, מה שאין יצמח לעבודת ה<name type="misc">בורא</name>
                <lb/>זאת מעשה או את המחשבה שאינה לעבודת הבורא שאין אור כוגה לידע שיש
                <lb/>בזה אור בהפכימיות אזי אינו עושה כי הוא בודאי שטות ופתיות, וזה שאמרו
                <lb/>חז״ל כל הגדול מחבירו יצרו גדול ממנו, זה מ שמרגיל את עצמו להביט תמיד
-               <lb/>בהפנימיות, הן במעשה הן בדבור, מה נצמח מזה לעבודת ה<name type="misc">בורא</name>, כי כל מה
+               <lb/>בהפנימיות, הן במעשה הן בדבור, מה נצמח מזה לעבודת הבורא, כי כל מה
                <lb/>שברא ה<name type="misc">קב"ה</name> בעולמו לא ברא אלא לכבודו, אז תמיד הוא מרגיש היצה"ר, כי
                <lb/>תיכף ומיד שעשה איזה דבר הן במעשה ה בדיבור, אזי הוא מביט לסוף דבר
                <lb/>מה שנצמיח מזה לעבודת ה<name type="misc">בורא</name>, ומה שלא יצמח מזה לעבודת ה<name type="misc">בורא</name> אזי
@@ -1131,7 +1142,7 @@
             <fw facs="#facs_20_tr_1743011070" place="bottom" type="catch">
                <lb/>ומעשים</fw>
             <fw facs="#facs_21_tr_1743011070" type="running-head">
-               <lb/>תורת הרמ״ל
+               <pb facs="Torat-Haramal_0021.jpg" /><lb/>תורת הרמ״ל
             </fw>
             <fw facs="#facs_21_tr_1743011072" type="running-head">
                <lb/>פקודי ויקרא אחרי
@@ -1141,23 +1152,23 @@
             <p>
                <lb/>ומעשים טובים ותפלות וזמירות בכונה וחדוה, ובזה יבא אל המלך מלכו של
                <lb/>עולם ומיחד באחדות פשוט, ואח״כ צריך להתפלל על כלל <placeName>ישראל</placeName> שתהיה עיקר
-               <lb/>תפילתו על כלל <placeName>ישראל</placeName> ועל הפרט להשפיע החסדים ופרנסה ורפואה והכה
+               <lb/>תפילתו על כלל ישראל ועל הפרט להשפיע החסדים ופרנסה ורפואה והכה
                <lb/>לפענ"ד השפל זה פירש המדרש, ויביאו את המשכן אל <persName>משה</persName> משכן כקרא מה
-               <lb/>ששמו ה<name type="misc">שי"ת</name> שוכן בתוכו, וזה כי הוא השראת השכינה מדת כהן, וצריך להביאו
-               <lb/>לפני <persName>משה</persName> להורות לפניהם דרך <name type="misc">ה</name>׳ להיות משכן שיוכל לשכון השכינה ביניהם, עד
-               <lb/>כמה צריך תיקון מפני דרכי שלום, שיוכל לבוא אל דרך <name type="misc">ה</name>׳ שנקרא שלום, אמר
+               <lb/>ששמו ה<name type="misc">שי"ת</name> שוכן בתוכו, וז<name type="misc">ה</name> כי <name type="misc">ה</name>וא השראת השכינה מדת כהן, וצריך להביאו
+               <lb/>לפני <persName>משה</persName> להורות לפניהם דרך ה׳ להיות משכן שיוכל לשכון השכינה ביניהם, עד
+               <lb/>כמה צריך תיקון מפני דרכי שלום, שיוכל לבוא אל דרך ה׳ שנקרא שלום, אמר
                <lb/>ראשון <persName>כהן</persName> זה נקרא ערוש ממותרות ומתענוגי עולם כנ"ל. ואחריו <persName>לוי</persName> זמירות
-               <lb/>ותשבחות לפני ה<name type="misc">שי"ת</name>, ואחריו <placeName>ישראל</placeName> שיהיה עיקר מעשה אדם ותפלתו
-               <lb/>בשביל <placeName>ישראל</placeName>.
+               <lb/>ותשבחות לפני ה<name type="misc">שי"ת</name>, ואחריו ישראל שיהיה עיקר מעשה אדם ותפלתו
+               <lb/>בשביל ישראל.
             </p>
             <p>
                <lb/>לה) בפסוק ויכס הענן את האהל וכו' פי' כי לכאורה אינו מובן הדבר
-               <lb/>שאנו עושין ב<date>שבת</date> קודש, שאז אנו הכל בעולמות העליונים
-               <lb/>ממש עולם הנשמות, והי׳ מהראוי לעסוק כל היום רק בזמירות ותשבחות ולא
+               <lb/>שאנו עושין ב<date>שבת קודש</date>, שאז אנו הכל בעולמות העליונים
+               <lb/>ממש עולם הנשמות, והי׳ מהראוי לעסוק כל ה<date>יום</date> רק בזמירות ותשבחות ולא
                <lb/>באכילה ושתיה דברים הגשמיים מאד אך מחמת שאז עת לעלות דברים הגשמיים
                <lb/>להוציא מהם הניצוצות הק׳ ולהעלותם אל שרשם, וזה א"א בשאר ימות החול
                <lb/>וזה פירש ויכס העכן את האוהל, פירש הענן נקראה הקליפות ואוהל הוא
-               <lb/>השראת השליכה ולמה זאת כדי להעלות כנ"ל, וז״פ ובהעלות הענן יסעו פירש
+               <lb/>השראת השליכה ולמה זאת כדי להעלות כנ"ל, וז<date>״</date>פ ובהעלות הענן יסעו פירש
                <lb/>הם מעלים וירידה זה הוא צורך עליה והבן.
             </p>
             <p>
@@ -1176,7 +1187,7 @@
                <lb/>פרשת אחרי</head>
             <p>
                <lb/>לז) במדרש בזאת יבא <persName>אהרן</persName> אל הקודש בפר בן בקר זש"ה ל<persName>דוד</persName> <persName>ה'
-               <lb/>אורי</persName> וישעי ממי אירא וממי אפחד, המדרש אומר דרשוני
+    </persName>           <lb/>אורי וישעי ממי אירא וממי אפחד, המדרש אומר דרשוני
                <lb/>ונראה עפ"י משל למשל אם ישים אדם אבר אחד על האש וסגר עיניו שלא
                <lb/>לראות האש, אפ"ה נכוה אעפ"י שאינו נראה לו מפני שסמוך לו האור של
                <lb/>האש לכן לא הועיל הסגורות עיניו, ואם האש רחוק ממנו ואינו יכול לראות
@@ -1188,7 +1199,7 @@
             <fw facs="#facs_21_tr_1743011065" place="bottom" type="catch">
                <lb/>שהוא</fw>
             <fw facs="#facs_22_tr_1743011049" type="running-head">
-               <lb/>תורת הרמ״ל
+               <pb facs="Torat-Haramal_0022.jpg" /><lb/>תורת הרמ״ל
             </fw>
             <p>
                <name type="work"><lb/>אחרי אמיר בחר</name>
@@ -1211,25 +1222,25 @@
             <p>
                <lb/>לח) והבאתם את עומר ראשית קצירכם אל הכהן, זש"ה מה יתרון
                <lb/>בכל עמל שיעמול תחת השמש, נ"ל השפל והנבזה פי'
-               <lb/>לפי שקשה הלשון תחת השמש. אנא אם אדם מתנהג א״ע בעבודת הבורא
+               <lb/>לפי שקשה הלשון תחת השמש. אנא אם אדם מתנהג א״ע בעבודת ה<name type="misc">בורא</name>
                <lb/>כראוי וכנכון, אזי הוא מושל על הברואים כיהושע שהי' מושל על השמש
-               <lb/>שמש בגבעון דום, ואם ח"ו הוא מקצר בעבודת הבורא אזי אין לו ממשלה
+               <lb/>שמש ב<placeName>גבעון</placeName> דום, ואם ח"ו הוא מקצר בעבודת הבורא אזי אין לו ממשלה
                <lb/>חלילה להיפך שכלם מושלים בו, וזה מה יתרון לאדם שיעמול תחת השמש
                <lb/>היינו שלא להיות לו ממשלה על השמש, כי חייב כל אדם לומר בשבילי כברא
-               <lb/>העולם, וכולם עובדי אליו. רק אם הוא מקצר בעבודת ה<name type="misc">בורא</name> ב"ה ו<name type="misc">ב"ש</name> אזי
+               <lb/>העולם, וכולם עובדי אליו. רק אם הוא מקצר בעבודת הבורא ב"ה ו<name type="misc">ב"ש</name> אזי
                <lb/>הוא תחת השמש, אזי צריך לתקן מה שהי' מקצר בעבודה, ועיקר התיקון נפש,
                <lb/>כמו בריאת הגוף צריך לידע עיקר התחלת החולשה והחולאת, כן צריך האדם
                <lb/>להבין עיקר התחלת מהיכן השורש שנשרש בשפלות ובתאות, כי עבירה גוררת
                <lb/>וכו׳ וז״פ והבאתם את עומר ראשית קצירכם היינו ראשית שהיה מקצר בעבודת
-               <lb/>ה<name type="misc">בורא</name> התחלת השפלות שנשרש בטומאה, צריך לתק להביא להקב<orgName>״ה</orgName>, וזה על
+               <lb/>ה<name type="misc">בורא</name> התחלת השפלות שנשרש בטומאה, צריך לתק להביא להקב״ה, וזה על
                <lb/>ידי תשובה וחרטה ומע"ט קול צום ממון כידוע אז במקום שבע"ת וכו' והכה
-               <lb/>נעשה בעה"ב על כל הברואים כיהושע שמש ב<placeName>גבעון</placeName> דום, וזה מה יתדון לאדם
+               <lb/>נעשה בעה"ב על כל הברואים כיהושע שמש בגבעון דום, וזה מה יתדון לאדם
                <lb/>שיעמול תחת השמש אלא צריך לתקן מה שפגם ויהיה למעלה מהשמש
             </p>
          <head>
                <name type="work"><lb/>פרשת</name> בהר</head>
             <p>
-               <lb/>ט) ב<name type="work">ילקוט</name> ז"ל ושבתה הארץ שבת ל<name type="misc">ה'</name> זש"ה להנחיל אוהבי יש זה
+               <lb/>ט) ב<name type="work">ילקוט</name> ז"ל ו<date>שבת</date>ה הארץ שבת ל<name type="misc">ה'</name> זש"ה להנחיל אוהבי יש זה
                <persName><lb/>אברהם</persName> והנראה בעזה"י ע"ד הפסוק פותח את ידיך ומשביע
                <lb/>לכל חי רצון, נראה לי השפל הפירש לכל חי רצון, כי יש לאדם תענוגים
                <lb/>ותאוה חשק לעבודת הבירא, ועיקר התענוגים וחשקות הוא ה<name type="misc">בורא</name>, כי כל
@@ -1244,7 +1255,7 @@
             <fw facs="#facs_22_tr_1743011046" place="bottom" type="catch">
                <lb/>אם</fw>
             <fw facs="#facs_23_tr_1743011061" type="running-head">
-               <lb/>תורת ה<persName>רמ״ל</persName>
+               <pb facs="Torat-Haramal_0023.jpg" /><lb/>תורת ה<persName>רמ״ל</persName>
             </fw>
             <fw facs="#facs_23_tr_1743011063" type="running-head">
                <lb/>בחקותי במדבר
@@ -1256,10 +1267,10 @@
             <p>
                <lb/>(מ) אם בחקותי תלכו ואת מצותי תשמרו, ופירש״י ז"ל אם בחקותי תלכו
                <lb/>הרי קיום מצות אמור, ומה אני מקיים, ואת מצותי תשמרו שתהי'
-               <lb/>עמלים בתורה, והוא תמוה מאד, שבכלל קיום מצות, כשמע שיהיה עמלים
+               <lb/>עמלים ב<name type="work">תורה</name>, והוא תמוה מאד, שבכלל קיום מצות, כשמע שיהיה עמלים
                <lb/>בתורה, והנראה בעזה״י לפרש דלא קשה מידי דהנה יש עוד להקשות על
                <lb/>לשוכות חז"ל דדמיא אהדדי פ"א אמרו חז"ל אין לך בן חורין אלא מי שהוא
-               <lb/>עוסק ב<name type="work">תורה</name>, ופ"א אמרו חז"ל הוי עמלים בתורה, כראה לתרץ, דרך משל
+               <lb/>עוסק בתורה, ופ"א אמרו חז"ל הוי עמלים בתורה, כראה לתרץ, דרך משל
                <lb/>מהמלך ב"ו, דהנה יש שני חלוקים בשני בני אדם הבאים אל המלך, והם
                <lb/>חילוקים זה מזה, מין אחד, כשבא אל המלך לבקש ממנו איזה דבר, אזי הדרך
                <lb/>לעמוד לפני המלך באימה ובהכנעה כדרך שעימדין לפני המלך, והמין השני
@@ -1269,7 +1280,7 @@
                <lb/>והכה אם אחד יושב ועוסק בתורה א אין לך בן חורין גדול מזה, ומי שהוא
                <lb/>הולך בשוק ועושה משא ומתן ובזה צריך ג״כ לקיים בכל דרכיך דעהו אבל
                <lb/>לזה צריך שימור גדול שלא לדבר שקר ושלא להונות את חבירו בכל העניכים
-               <lb/>בראיה ושמיעה. וזה עמל גדול, וזה כוונת <orgName>חז"ל</orgName> הוי עמלים בתורה, וזה כוונת
+               <lb/>בראיה ושמיעה. וזה עמל גדול, וזה כוונת חז"ל הוי עמלים בתורה, וזה כוונת
                <persName><lb/>רש"י</persName> ז"ל אם בחקותי, הרי קיום מצות אמור, ומה אני מקיים ואת מצותי תשמרו
                <lb/>מה שצריך שימור, זה שתהיו עמלים בתורה כמבואר ודוק היטב
             </p>
@@ -1296,7 +1307,7 @@
             <fw facs="#facs_23_tr_1743011060" place="bottom" type="catch">
                <lb/>במדרש</fw>
             <fw facs="#facs_24_tr_1743011061" type="running-head">
-               <lb/>תורת הרמ״ל
+               <pb facs="Torat-Haramal_0024.jpg" /><lb/>תורת הרמ״ל
             </fw>
             <fw facs="#facs_24_tr_1743011064" type="running-head">
                <name type="work"><lb/>נשא</name> <name type="work">בהעלותך</name>
@@ -1307,8 +1318,8 @@
                <name type="work"><lb/>פרשת</name> נשא</head>
             <p>
                <lb/>(מב) במדרש ויהי ביום כלות <persName>משה</persName> להקים את המשכן. הה״ד עורי צפון
-               <lb/>ובואי תימן הפיחי גני, עורי צפון זה עולה ששחיטתה
-               <lb/>בצפון, ובואי <placeName>תימן</placeName> אלו שלמים, הפיחי גני זה קטורת, נראה לפרש בעזה"י
+               <lb/>ובואי <placeName>תימן</placeName> הפיחי גני, עורי צפון זה עולה ששחיטתה
+               <lb/>בצפון, ובואי תימן אלו שלמים, הפיחי גני זה קטורת, נראה לפרש בעזה"י
                <lb/>על פי מה שפרשנו ת"ל, פירש הפסוק, ישלח עזרך מקודש, פירש כי לאו כל
                <lb/>אדם זוכה שיוכל להתפלל כראוי להתקדש עצמו בתפלתו, אך עכ״פ זהו דרך
                <lb/>הקרוב אליו אשר כל אדם יוכל לעשות בנקל, שלאחר התפלה יחשוב לפני
@@ -1328,7 +1339,7 @@
             <p>
                <lb/>(מג) <name type="work">בהעלותך</name> את הכרות מדרש, זש"ה כי אין מחסור ליראיו לדעתי
                <lb/>השפל שבעת הנרות אלו אהבה יראה ושמחה בעבודת
-               <lb/>הבורא וחדטה ובטחון שפלות ענוה ודביקות כמ"ש ולדבקה בו, ודביקות נקרא
+               <lb/>ה<name type="misc">בורא</name> וחדטה ובטחון שפלות ענוה ודביקות כמ"ש ולדבקה בו, ודביקות נקרא
                <lb/>לפני המנורה וכל צדיק בודק א"ע בכל עת אם יש לו שבעה מדות הנדות הללו
                <lb/>שתלויין זה בזה אם נחסר אחת אזי כולם מבוכים וחשוכים, ואם כולם דבוקים
                <lb/>יחד ודולקים אזי אור לו שיוכל לראות שלא יכשל כיתרון אור מן התשך כן
@@ -1336,7 +1347,7 @@
                <lb/>הנולד דבר שעדיין לא בא לעולם אך שמבין, כן האדם רואה ומבין שיש
                <lb/>משגיח אמיתי, ורואה ומבין שהתור׳ הקדושה אש שחורה כנ"ל ועי"ז אינו כשל
                <lb/>בשום עבירה, כי דולה ובערה בו השבעה כרות הללו, וזה יראו את ה׳ קדושיו
-               <lb/>הקדושים רואים ומבינים גדולת ה<name type="misc">בורא</name> וקדושת ה<name type="work">תורה</name>, כי אין מחסור ליראיו
+               <lb/>הקדושים רואים ומבינים גדולת הבורא וקדושת ה<name type="work">תורה</name>, כי אין מחסור ליראיו
                <lb/>שאין בהם חסרון מן השבעה מדות הנרות הללו ודוק.
             </p>
             <p>
@@ -1355,17 +1366,17 @@
             <fw facs="#facs_24_tr_1743011058" place="bottom" type="catch">
                <lb/>ויקרא</fw>
             <fw facs="#facs_25_tr_1743011059" type="running-head">
-               <lb/>תורת ה<persName>רמ"ל</persName>
+               <pb facs="Torat-Haramal_0025.jpg" /><lb/>תורת ה<persName>רמ"ל</persName>
             </fw>
             <fw facs="#facs_25_tr_1743011061" type="running-head">
-               <lb/>בהעלותך שלח <persName>קרח</persName>
+               <lb/>בהעלותך <name type="work">שלח</name> <persName>קרח</persName>
             </fw>
             <fw facs="#facs_25_tr_1743011060" type="pageNum" place="top">
                <lb/>השלם</fw>
             <p>
-               <lb/>ויקרא א׳ זעירא כי א' מורה על בינה ע"ד אמרם ז"ל אלף בינה. והנה <persName>משה
-               <lb/>רבינו</persName> ע"ה לא זכה להשיג שער החמשים ע"ד אמרם ז"ל כולם נתנו ל<persName>משה</persName> חוץ
-               <lb/>מאחד. ומזה מדייק אמרם ז"ל חוץ מאחד, ולא נקטו כפשוטו <persName>משה</persName> לא זכה
+               <lb/>ויקרא א׳ זעירא כי א' מורה על בינה ע"ד אמרם ז"ל אלף בינה. והנה משה
+               <lb/>רבינו ע"ה לא זכה להשיג שער החמשים ע"ד אמרם ז"ל כולם נתנו למשה חוץ
+               <lb/>מאחד. ומזה מדייק אמרם ז"ל חוץ מאחד, ולא נקטו כפשוטו משה לא זכה
                <lb/>להשיג רק מ״ט, ובזה יתיישב, וז״פ הפסוק שלפנינו, ולמה לא מצאתי חסר
                <lb/>אלף. וזה יורה העדר החן בעיניך שלא נתנו לי שער הכון, וזה חסדון האלף.
                <lb/>שאלו נתנו לי שער הנון הייתי יכול לשום את משא כל העם עלי והבן.
@@ -1373,18 +1384,18 @@
          <head>
                <lb/>פרשת שלח</head>
             <p>
-               <lb/>(מו) מדרש <name type="work">שלח</name> לך אנשים ויתורו את <placeName>ארץ כנען</placeName> ש"ה יבש חציר וציץ
+               <lb/>(מו) מדרש <name type="work">שלח לך אנשים</name> ויתורו את <placeName>ארץ כנען</placeName> ש"ה יבש חציר וציץ
                <lb/>נובל דבר אלקינו יקום לעולם ועד, והוא תמוה נראה
                <lb/>דלק״מ דהכה השכל נקרא מרגל עפ"י משל אם יש חלילה מלחמה באיזה
                <lb/>מדינה אזי צריך תמיד לשלוח איזה אדם לראות שלא יבוא השונא עליהם, כך
                <lb/>אם צריך לעשות איזה דבר בגשמי דהיינו כעין אכילה ושתיי׳ אזי צריך לשלוח
                <lb/>השכל לתור כמ"ש חז"ל איזהו חכם הרואה את הנולד היינו מה יצמיח מזה
                <lb/>אם אני עושה זאת מה סופו של הדבר, ועי"ז יוכל לפרוש א״ע מכל דבר איסור
-               <lb/>אם יעלה על דעתו ומחשבתו הטהור, סוף דבר כמ"ש <persName>אחז"ל</persName> ישוב היום פן
+               <lb/>אם יעלה על דעתו ומחשבתו הטהור, סוף דבר כמ"ש אחז"ל ישוב היום פן
                <lb/>ימות למחר, ואם איש חכם אזי רואה יום המיתה תמיד לפניו זה רואה את
                <lb/>הנולד בודאי ואף אם עושה דבר רשות טוב להסתכל תמיד על איזה ענין
                <lb/>שעוסק מה יהיה בסופו מה יצמיח הלא הכל הבל ואז אינו כא לש"ש, וז״פ
-               <lb/>המדרש <name type="work">שלח לך אנשים</name> ויתורו את <placeName>ארץ כנען</placeName>. אם עושה איזה דבר בעולם
+               <lb/>המדרש שלח לך אנשים ויתורו את <placeName>ארץ כנען</placeName>. אם עושה איזה דבר בעולם
                <lb/>השפל הוא <placeName>ארץ כנען</placeName>, אז צריך לשלוח אנשים היינו חשובים זה השכל לתור את
                <placeName><lb/>ארץ כנען</placeName>, מה יצמיח מזה הלא הכל הבל וריק זה, הלא יבש חציר וציץ נובל
                <lb/>רק דבר אלקינו יקום לעולם באיזה דבר מצוה אין צריך להסתכל עם השכל
@@ -1399,12 +1410,12 @@
                <lb/>לעשות הנהגות נימוסי המדינה בשביל שלא יהיה איש את רעהו חיים בלעו
                <lb/>ע"ד המשנה באבות הוי מתפלל בשלומה של מלכות שאלמלא מוראו איש את
                <lb/>רעהו חיים בלעו, ולכאורה מאי איכפת לי׳ להתעבר על ריב לא לו, אך מורה
-               <lb/>עולה על ראשו פן יגיע הדבר לעצמותו, לאפוקי מלך מלכי המלכים ה<name type="misc">קב<persName/>״ה</name>
+               <lb/>עולה על ראשו פן יגיע הדבר לעצמותו, לאפוקי מלך מלכי המלכים ה<name type="misc">קב״ה</name>
                <lb/>אשר כל היכולת בידו אין צריך לעשות נמוסי המדינה בשביל מורה, רק בשביל
                <lb/>טובת <placeName>ישראל</placeName> עשה הנימוסים, ונתן להם את ה<name type="work">תורה</name>, וז״פ המדרש, הרי מאזנים
-               <lb/>מעויין, כך אמר <persName>משה רבינו</persName> ע״ה לפני ה<name type="misc">קב</name>״<persName>ה</persName> מפני מה אתה רוצה לענוש את <placeName>ישראל</placeName>
+               <lb/>מעויין, כך אמר <persName>משה רבינו</persName> ע״<persName>ה</persName> לפני ה<name type="misc">קב</name>״ה מפני מה אתה רוצה לענוש את <placeName>ישראל</placeName>
                <lb/>אם חטאו מה יפעול לך, ואם בשביל שיהיו מנוקים מעון, אני אומר סלח נא. וג״כ
-               <lb/>והי׳ מנוקים מעון, נראה מי יעמוד מיד אמר <name type="misc">הקב<persName/>״ה</name> סלחתי כדברך.
+               <lb/>והי׳ מנוקים מעון, נראה מי יעמוד מיד אמר <name type="misc">הקב״ה</name> סלחתי כדברך.
             </p>
             <p>
                <name type="work"><lb/>פרשת קרח</name>
@@ -1413,7 +1424,7 @@
             <fw facs="#facs_25_tr_1743011056" place="bottom" type="catch">
                <lb/>הלשון</fw>
             <fw facs="#facs_26_tr_1743011076" type="running-head">
-               <persName><lb/>קרח</persName> ב<name type="work">לק פנחס</name> מסות
+               <persName><pb facs="Torat-Haramal_0026.jpg" /><lb/>קרח</persName> ב<name type="work">לק פנחס</name> מסות
             </fw>
             <fw facs="#facs_26_tr_1743011075" type="running-head">
                <name type="work"><lb/>תורת</name> הרב
@@ -1422,8 +1433,8 @@
                <lb/>השלם יד</fw>
             <p>
                <lb/>הלשון שפקח דייקו כפשוטו הטעם ע״ד פוקח עורים וע״ד הרמ״ז י״ל ע״ד הזוה״ק
-               <lb/>בפ׳ זו שקרח חלק על השלום, ועל השבת קודש דאיקרי שלום, ועל התוה״ק
-               <lb/>שנקראת ג״כ שלום, ע"ד וכל נתיבותי׳ שלום, נמצא דעיקר מחלוקת <persName>קרח</persName> הי'
+               <lb/>בפ׳ זו ש<persName>קרח</persName> חלק על השלום, ועל השבת קודש דאיקרי שלום, ועל התוה״ק
+               <lb/>שנקראת ג״כ שלום, ע"ד וכל נתיבותי׳ שלום, נמצא דעיקר מחלוקת קרח הי'
                <lb/>פלוגתא דשלום. והנה אותיות שלום עולין שע"ו, ואם תחלק זה לשנים עולה
                <lb/>חלק אחד קפ״ח אותיות פקח וז״כ <persName>רש״י</persName> ז"ל ו<persName>קרח</persName> שפקת הי' פירש שחלק על
                <lb/>השלום מה ראה לשטות זה, (בס׳ אור צדיקים ד״ז בשמו הק׳ ז״ל).
@@ -1443,15 +1454,15 @@
          <head>
                <name type="work"><lb/>פרשת</name> <persName>פנחס</persName></head>
             <p>
-               <lb/>(ג ב<date>יום</date> השמיני עצרת תהי' לכם במדרש ש"ה <name type="work">תחת</name> אהבתי ישטכולי ואני
+               <lb/>(ג ביום השמיני עצרת תהי' לכם במדרש ש"ה <name type="work">תחת</name> אהבתי ישטכולי ואני
                <lb/>תפלה, והוא תמוה, ונראה בעזה״י לפרש דהכה השי״ת נתן לאדם
                <lb/>הנשמה שהוא חלק אלקי ממעל, והוא נקרא אור כי נר ה׳ נשמת אדם ואורות
                <lb/>מתחלקים לכמה אופנים יש אור פשוט ויש אבוקה שהוא גדול, ויש גם כן אש
                <lb/>שהוא גדול מאד. וזה שאמרו רז"ל אבוקה במוצש״ק להבדלה מצוה מן המובחר
-               <lb/>הטעם לפי שבמוצש״ק צריך להכין מאור ה<date>שבת</date> שהוא אחדות גדול על כל
-               <lb/>החול עם <date>שבת</date> הבא, ו<date>שבת</date> הבא צריך להכין שיאיר אור מ<date>שבת</date> העבר, ו<date>שבת</date>
-               <lb/>הזה, ונעשה אבוקה הב׳ שבתות על כל החול. וז״פ המדרש, וב<date>יום</date> השמיני
-               <lb/>עצרת תהי' לכם מ<date>שבת</date> הראשון עד <date>שבת</date> הבא הוא יום שמיני צריך לעצור
+               <lb/>הטעם לפי שבמוצש״ק צריך להכין מאור השבת שהוא אחדות גדול על כל
+               <lb/>החול עם שבת הבא, ושבת הבא צריך להכין שיאיר אור משבת העבר, ושבת
+               <lb/>הזה, ונעשה אבוקה הב׳ שבתות על כל החול. וז״פ המדרש, וביום השמיני
+               <lb/>עצרת תהי' לכם משבת הראשון עד שבת הבא הוא יום שמיני צריך לעצור
                <lb/>האור הקדוש על כל החול זש"ה תחת אהבתי ישטנוכי ואכי תפלה ודו"ק.
             </p>
          <head>
@@ -1468,7 +1479,7 @@
             <fw facs="#facs_26_tr_1743011070" place="bottom" type="catch">
                <lb/>במדרש</fw>
             <fw facs="#facs_27_tr_1743011051" type="running-head">
-               <lb/>תורת הרמ"ל
+               <pb facs="Torat-Haramal_0027.jpg" /><lb/>תורת הרמ"ל
             </fw>
             <fw facs="#facs_27_tr_1743011054" type="running-head">
                <name type="work"><lb/>דברים</name> ואתונן
@@ -1497,11 +1508,11 @@
          <head>
                <lb/>פרשת ואתחנן</head>
             <p>
-               <lb/>(נג) ואתחנן אל <name type="misc">ה<persName/>׳</name> בעת ההוא לאמר, קשה מאי בעת ההוא דייקא, דאיתא
+               <lb/>(נג) ואתחנן אל <name type="misc">ה׳</name> בעת ההוא לאמר, קשה מאי בעת ההוא דייקא, דאיתא
                <lb/>במדרש פ׳ ו<name type="work">יצא</name> בפ׳ ועלתה בי צדקתי ליום מחר וז"ל אמר
                <lb/>ר׳ <persName>יהודה בר׳ סימון</persName> אמר ה<name type="misc">קב"ה</name> אתה אמרת וענתה בי צדקתי ביום מחר
                <lb/>אל תתהלל ביום מחר, למחר בתך <persName>דינה</persName> יוצאה ומתענה שנא' ותצא <persName>דינה</persName> בת
-               <persName><lb/>לאה</persName> עכ״ל המדרש, וזש"ה ואתחנן אל <name type="misc">ה<persName/>׳</name> שעשה רבינו ע"ה התחכן אל ה<name type="misc">שי"ת</name>
+               <persName><lb/>לאה</persName> עכ״ל המדרש, וזש"ה ואתחנן אל <name type="misc">ה׳</name> שעשה רבינו ע"ה התחכן אל ה<name type="misc">שי"ת</name>
                <lb/>אשר בעת ההוא לאמר היינו שאזכה תמיד רק לאמר מה ששייך לאותו יום
                <lb/>ואף גם רק לאותו שעה דייקא כי לא תדע מה יולד יום ואחיים תמיד אל
                <lb/>תאמין בעצמך וזה לאמר בעת ההוא ולא על העתיד, (אור צדיקים בשמו
@@ -1516,16 +1527,16 @@
                <lb/>איזה עובדא להשי"ת ב"ה וב"ש זהו שאחז״ל איזהו חכם הרואה את הכולד,
                <lb/>שכל מה שעושה בזה העולם אזי צריך לראות שיולדו מזה גדולת ה<name type="misc">בורא</name> ב"ה
                <lb/>וב"ש זהו שאמר משרע"ה ואתחנן להשי"ת ב"ה וב"ש אעברה נא בארצך, היינו
-               <lb/>שיעבור ממעשה הגשמי לראות תיכף הנולד היינו גדולות ונפלאות ה<name type="misc">בורא</name> ב"ה
+               <lb/>שיעבור ממעשה הגשמי לראות תיכף הנולד היינו גדולות ונפלאות ה<name type="misc">בורא</name> ב"<name type="misc">ה</name>
                <lb/>וב"ש, ומחמת שהשמחה גדולה כ״כ שאין לבו לבדו יכול לסבול גודל השמחה
-               <lb/>ומוכרח להוציא להגרון ומ<placeName>הגרון</placeName> לחיך לחמשה מוצאות כסדרן, ואם צריך להתפלל
+               <lb/>ומוכרח להוציא ל<placeName>הגרון</placeName> ומהגרון לחיך לחמשה מוצאות כסדרן, ואם צריך להתפלל
                <lb/>להשי"ת איזה בקשה על חסרונו שירחם עליו אזי יכול להתפלל בלבו לבדו
                <lb/>להוציא להחמשה מוצאות שהוא מתפלל מתוך הכנעה לא מתוך שמחה, וז״פ
             </p>
             <fw facs="#facs_27_tr_1743011049" place="bottom" type="catch">
                <lb/>המדר״ת</fw>
             <fw facs="#facs_28_tr_1743011067" type="running-head">
-               <lb/>תורת ה<persName>רמ</persName>״ל
+               <pb facs="Torat-Haramal_0028.jpg" /><lb/>תורת ה<persName>רמ</persName>״ל
             </fw>
             <fw facs="#facs_28_tr_1743011068" type="running-head">
                <lb/>ואתחנן עקב ראה
@@ -1533,7 +1544,7 @@
             <fw facs="#facs_28_r" type="pageNum" place="top">
                <lb/>השלם טו</fw>
             <p>
-               <lb/>המדר״ת ואתחנן אל <name type="misc">ה</name>׳ לשון בקשה ותחנונים ז"ש המדרש הלכה מהו להתפלל
+               <lb/>המדר״ת ואתחנן אל ה׳ לשון בקשה ותחנונים ז"ש המדרש הלכה מהו להתפלל
                <lb/>בקול רם, כך שנו רבותינו אסור להתפלל בקול רם שנאמר והנה מדברת על
                <lb/>לבה וכו' אבל תפלה של שמחה א"א להתפלל בלבו לבד כנ"ל ודוק ותבין
             </p>
@@ -1589,7 +1600,7 @@
             <fw facs="#facs_28_tr_1743011062" place="bottom" type="catch">
                <lb/>וז״פ</fw>
             <fw facs="#facs_29_tr_1743011076" type="running-head">
-               <lb/>תורת הרמ״ל
+               <pb facs="Torat-Haramal_0029.jpg" /><lb/>תורת הרמ״ל
             </fw>
             <fw facs="#facs_29_tr_1743011078" type="running-head">
                <lb/>ראה תבא נצבים
@@ -1600,11 +1611,11 @@
                <lb/>וז״פ לא תעשו אגודות אגודות הרבה קשרים (בשמו הקדוש ז"ל עוד בספר
                <name type="work"><lb/>מחזה אברהם</name>)</head>
             <p>
-               <lb/>(סא) במדרש עשר תעשר וכו׳ זש"ה לך ה<name type="misc">׳</name> הצדקה ולנו בושת הפנים
+               <lb/>(סא) במדרש עשר תעשר וכו<name type="misc">׳</name> זש"ה לך ה׳ הצדקה ולנו בושת הפנים
                <lb/>וכו'. עפ"י משל ימי הפורים לא בטלין פורים שולחין
                <lb/>מכות ודרך עניים ששולחין לעשיר איזה דבר קטן מאד בכדי שיזכיר לעשיר
-               <lb/>שישלח לו איזה נדבה, כן אנחנו כל העבודות שאנו עושין להשי"ת הוא דבר
-               <lb/>קטן לערך ה<name type="misc">שי"ת</name> ב"ה וב"ש וגם הצדקה עשר בשביל שתתעשר וזהו לך <name type="misc">ה'</name>
+               <lb/>שישלח לו איזה נדבה, כן אנחנו כל העבודות שאנו עושין לה<name type="misc">שי"ת</name> הוא דבר
+               <lb/>קטן לערך השי"ת ב"ה וב"ש וגם הצדקה עשר בשביל שתתעשר וזהו לך <name type="misc">ה'</name>
                <lb/>הצדקה, וזה שאנו נותנין צדקה זה בשביל שיתן לנו ה<name type="misc">שי"ת</name> שפע ולנו בושת
                <lb/>פנים כנ"ל.
             </p>
@@ -1642,13 +1653,13 @@
                <lb/>בעיניו שהוא קטן שבכולם ולא יוכל לומר שום גנות על חבירו, אבל איש
                <lb/>שאינו מושכל רואה תמיד גדלות שלו, ושוכח גדלות ה<name type="misc">בורא</name> ב"ה וב"ש, ואינו
                <lb/>שוה לכל נפש וטועה וסובר שהשמים שרואה מרחוק הוא קצה מחמת שכחה
-               <lb/>מגדלות ה<name type="misc">בורא</name> ית׳ רק שה<name type="misc">שי"ת</name> הוא מלא רחמים וחסדיו הגדולים שרואה
+               <lb/>מגדלות ה<name type="misc">בורא</name> ית׳ רק שה<name type="misc">שי"ת</name> <name type="misc">ה</name>וא מלא רחמים וחסדיו הגדולים שרואה
                <lb/>תמיד שיוליכם בדרך הישר ולחזור מדרכו העיקש, וזש"ה אם יהי' נדחך בקצה
             </p>
             <fw facs="#facs_29_tr_1743011072" place="bottom" type="catch">
                <lb/>השמים</fw>
             <fw facs="#facs_30_tr_1743011063" type="running-head">
-               <lb/>תורת הרמ״כ
+               <pb facs="Torat-Haramal_0030.jpg" /><lb/>תורת הרמ״כ
             </fw>
             <fw facs="#facs_30_r_85" type="pageNum" place="top">
                <lb/>ברכה</fw>
@@ -1657,14 +1668,14 @@
             </p>
             <p>
                <lb/>השמים שכך תהי׳ תובר מחמת ששתה וטעותו, אשר השמים הם בקצה מ״מ
-               <lb/>משם יקבלך <name type="misc">ה</name>׳ וז״פ הפסוק והי׳ שמיך על ראשך נחושת והארץ אשר תחתיך
+               <lb/>משם יקבלך ה׳ וז״פ הפסוק והי׳ שמיך על ראשך נחושת והארץ אשר תחתיך
                <lb/>ברזל ודו״ק
             </p>
          <head>
                <lb/>פרשת ברכה</head>
             <p>
                <lb/>(סה) ויאמר <persName>משה</persName> בן מאה ועשרים שנה אנכי היום לא אוכל עוד לצאת
-               <lb/>ולבא, גמ׳ אמר ר<persName>׳</persName> <persName>ישמעאל</persName> מעולם לא נצחוני אלא אשה
+               <lb/>ולבא, גמ<persName>׳</persName> אמר ר׳ <persName>ישמעאל</persName> מעולם לא נצחוני אלא אשה
                <lb/>וקטן אשה וכו׳ קטן פעם א׳ הייתי מהלך בדרך ופגע בי קטן, ושאלתיו הדרך
                <lb/>והשיב כאן קצרה וארוכה וכאן ארוכה וקצרה, ולכאורה תמוה מאד שיהי'
                <lb/>הגמ׳ הקדוש' כמספר איזה מעשה ללא צורך, ונראה כי למדנו יראה גדולה
@@ -1694,16 +1705,16 @@
             <p>
                <lb/>(א) תאות ענוים שמעת, מי שהוא דבוק ב<name type="misc">השי"ת</name> זה נקרא עניו, כי הוא
                <lb/>יודע האמת שפלותו וקטנותו, ויודע שאינו עובד להש״י כראוי
-               <lb/>וכנכון למלך גדול, ואף שלפעמים יש לו חשק לעבוד להשי"ת אח"כ נשכח
+               <lb/>וכנכון למלך גדול, ואף שלפעמים יש לו חשק לעבוד ל<name type="misc">השי"ת</name> אח"כ נשכח
                <lb/>ממנו ומשתכח ממנו זה החשק מפני עסקי הגשמיות אשר מכמה סיבות מכבה
-               <lb/>השק והתאוה ל<name type="misc">השי"ת</name>, אך ה<name type="misc">שי"ת</name> ב"ה ו<name type="misc">ב"ש</name> רחום וחלון הוא מצרף ומאסף
+               <lb/>השק והתאוה לה<name type="misc">שי"ת</name>, אך השי"ת ב"ה ו<name type="misc">ב"ש</name> רחום וחלון הוא מצרף ומאסף
                <lb/>ומקבץ יד על יד כל התאות שיש לאדה ל<name type="misc">השי"ת</name>, וזה תאות ענוים שמעת
                <lb/>לשון וישמע <persName>שאול</persName> את העם, תכין לבם תקשיב אזניך.
             </p>
             <fw facs="#facs_30_tr_1743011062" place="bottom" type="catch">
                <lb/>מהלל</fw>
             <fw facs="#facs_31_tr_1743011069" type="running-head">
-               <lb/>תורת הרמ״ל
+               <pb facs="Torat-Haramal_0031.jpg" /><lb/>תורת הרמ״ל
             </fw>
             <fw facs="#facs_31_tr_1743011070" type="running-head">
                <lb/>מאמרי הלקוטים
@@ -1730,9 +1741,9 @@
             </p>
             <p>
                <lb/>(ה) יהי חסדך <name type="misc">ה'</name> עליכו כאשר יחלכו לך פי' כשם שאנו מיחלים ומצפים
-               <lb/>תמיד למלך הגדול שתעמוד לנו שעת צרה אף שאין אנו משיגים
+               <lb/>תמיד למלך <name type="misc">ה</name>גדול שתעמוד לנו שעת צרה אף שאין אנו משיגים
                <lb/>אותך. רק עפ"י אמונה, כן אתה ית"ש יהי חסדך עלינו אף שאין אתה רואה
-               <lb/>ממעשינו שום טוב שיהי׳ מדה כנגד מדה, וז״פ יהי חסדך <name type="misc">ה</name>׳ עלינו כמו
+               <lb/>ממעשינו שום טוב שיהי׳ מדה כנגד מדה, וז״פ יהי חסדך ה׳ עלינו כמו
                <lb/>כאשר יחלכו לך, ואין אנו משיגים כלום רק מצד האמונה שאנחנו ב"י מאמינים
                <lb/>שאתה אדון עולם, ולך ה׳ הממלכה והעושר והכבוד מלפניך ואתה מושל בכל
                <lb/>בספר שפתי צדיקים בשמו הק׳ ז"ל
@@ -1765,7 +1776,7 @@
             <fw facs="#facs_31_tr_1743011067" place="bottom" type="catch">
                <lb/>בחסדים</fw>
             <fw facs="#facs_32_tr_1743011070" type="running-head">
-               <lb/>תורת הרמ״ל
+               <pb facs="Torat-Haramal_0032.jpg" /><lb/>תורת הרמ״ל
             </fw>
             <fw facs="#facs_32_tr_1743011072" type="running-head">
                <lb/>מאמרי הלקוטים
@@ -1785,27 +1796,27 @@
                <lb/>קריתי והטיתי ר"ל שדיבק עצמו באור הפנימיות של ה<name type="work">תורה</name> והיטה החסדים
                <lb/>אפי׳ להאומות, אבל להשיבנה ב"ה אביא חטאת הם האומות הנקראים חטאת
                <lb/>כמש"ה וחסד לאומים חטאת שמיכה אביא את החטאת להיות דהייכו שאעשה
-               <lb/>אותם בע״ת ויעשו מעבירות שלהם זכיות, ויהי' נעשה מחטאת שמיכה, היוצא
+               <lb/>אותם בע<persName>״</persName>ת ויעשו מעבירות שלהם זכיות, ויהי' נעשה מחטאת שמיכה, היוצא
                <lb/>לכו מזה שהצדיק לא ידבק עצמו באור של ה<name type="work">תורה</name> כ"א בגשמיות התורה ימשוך
                <lb/>השפע, ולא עם האור, כי האור צריך ליתן למעלה, והגשמיות לפעול פעולת
-               <lb/>האדם, וזפ"ה השמים שמים לה׳ ר"ל השמים הוא אור נקרא שמים לה׳ צריך
+               <lb/>האדם, וזפ"ה השמים שמים ל<name type="misc">ה׳</name> ר"ל <name type="misc">ה</name>שמים הוא אור נקרא שמים לה׳ צריך
                <lb/>להשפיע למעלה לגרום תענוג ושפע להבוב"ה, והארץ נתן לב"א דהיינו עם
                <lb/>הגשמיים להשפיע צרכי בכי אדם ודו״ק
             </p>
             <p>
-               <lb/>ה) בלבי צפנתי אמרתך למען לא אחטא לך, ברוך אתה <name type="misc">ה׳</name> למדני
+               <lb/>ה) בלבי צפנתי אמרתך למען לא אחטא לך, ברוך אתה ה׳ למדני
                <lb/>חקיך הכלל כל הגדול מחבירו יצרו גדול ממנו. והכה כשאדם
                <lb/>לומד תירה אזי הוא מלא פחד מפני היצה"ר אך מה שאדם עישה בהסתר
                <lb/>היינו אף שהמלאך אינו יודע אזי אין היצה"ר שולט בו כלל כי אינו
                <lb/>יודע על מה לעמוד נגדו, וזה שייך במחשבה ובלב, וזה בלבי צפכתי אמרתך
                <lb/>למען לא אחטא לך שהיצה"ר אינו יודע על מה לעמוד נגדי, וזה ברוך אתה
-               <name type="misc"><lb/>ה</name>׳ למדני תקיך וק"ל
+               <lb/>ה׳ למדני תקיך וק"ל
             </p>
             <p>
                <lb/>ט)נר לרגלי דבריך ואור לנתיבתי, נשבעתי ואחימה לשמור משפטי צדקך
                <lb/>מה המשך הפסוקים ועוד מה זה כר לרגלי הלא גם לכל הגוף
                <lb/>כריך האור, ועוד הלא ה<name type="work">תורה</name> אור, כי כר מצוה ותורה אור, אך עפ״י פירש
-               <lb/>איש אלקי מופת הדור מוהר<persName>״</persName>ר <persName>יעקב יוסף</persName> אב"ד דק"ק <placeName>פולנאה</placeName> בעהמ"ח ס׳
+               <lb/>איש אלקי מופת הדור מוהר״ר <persName>יעקב יוסף</persName> אב"ד דק"ק <placeName>פולנאה</placeName> בעהמ"ח ס׳
                <lb/>תולדות נ"ע ע״פ פלס מעגל רגלך, וזה לשונו פלס מעגל רגלך, בכל מעשים
                <lb/>ועובדין אשר עשית ע״י איזה פכי׳ בלתי טובה ח"ו היינו שאיכך עושה למען
                <lb/>ה<name type="misc">שי"ת</name> רק למעכך וזה רגליך כמו ויברך ד׳ אותך לרגלי, ודפח"ח, וז״פ הש"ס
@@ -1823,7 +1834,7 @@
             <fw facs="#facs_32_tr_1743011069" place="bottom" type="catch">
                <lb/>שרים</fw>
             <fw facs="#facs_33_tr_1743011074" type="running-head">
-               <lb/>תורת הרמ״ל
+               <pb facs="Torat-Haramal_0033.jpg" /><lb/>תורת הרמ״ל
             </fw>
             <fw facs="#facs_33_tr_1743011076" type="running-head">
                <lb/>מאמרי הלקיטים
@@ -1846,14 +1857,14 @@
             </p>
             <p>
                <lb/>(יא) בדרך אחרת עוד שמעתי מהרב הקדוש החסיד המפורסם <persName>מו"ה</persName>
-               <persName><lb/>אלימלך מ<placeName ana="bio">ליזענסק</placeName></persName> <placeName>נ"ע</placeName> ומתחלה אמר ע״פ זכרכו את הדגה
+               <persName><lb/>אלימלך מליזענסק</persName> <placeName>נ"ע</placeName> ומתחלה אמר ע״פ זכרכו את הדגה
                <lb/>אשר נאכל ב<placeName>מצרים</placeName> חכם, כי הדגים מורים על אהבה שפרים ורבים ואהבה
                <lb/>מורה על דבר של חכם, כי אם מלך יאמר לאחד שיאהב אותו אם יפחידו אותו
                <lb/>באיזה יסורין אעפ״כ אינו יכול להפחיד אותו כדי לאהוב אותו בלב שלם, אבל
                <lb/>אהבה מורה על שהלב חושק לאהב לאדם בפרט להשי"ת מי שמכיר גדולת ה<name type="misc">בורא</name>
                <lb/>ית״ש אזי מעורר לאהוב אותו בלב שלם, ואהבה שבא אחר היררה הוא יותר
                <lb/>חזקה כי הוא עם הבושה, והכלל אצל אדם עיקר מכהגים הוא לאדם אהבה
-               <lb/>ויראה המה מושכין לאדם לעבוד ה<name type="misc">שי"ת</name>, והמה נקראים שרים, ולז״א שרים
+               <lb/>ויראה המה מושכין לאדם לעבוד ה<name type="misc">שי"ת</name>, ו<name type="misc">ה</name>מה נקראים שרים, ולז״א שרים
                <lb/>רדפוני חכם אהבה ויראה, והמה בחכם היראה ג״כ בחנם לא מחמת שכר ועונש
                <lb/>כי מדברך פחד לבי, רק מדברך פחד לבי מאותיות התורה מן הדבורים שאדם
                <lb/>מדבר בריך להיות ירא מפנירס, וזה זכרכו את הדגה אשר נאכל ב<placeName>מצרים</placeName> חכם
@@ -1862,10 +1873,10 @@
             </p>
             <p>
                <lb/>יב) על הפסוק הוי חכמים בעיניהם ונגד פניהם כבונים, כי החכם עיניו
-               <lb/>בראשו, כ ראשית חכמה יראת <name type="misc">ה</name>׳, וזה החכם עיניו בראשו
+               <lb/>בראשו, כ ראשית חכמה יראת ה׳, וזה החכם עיניו בראשו
                <lb/>בראשית חכמה ראת ה׳ וזה חכמים בעיניהם בעיני שכל שלהם המה עושין
                <lb/>תפלות לבטל גירות מהעולם, וזה אשרי הגבר אשר תיסרנו י"ה ומתורתך
-               <lb/>תלמדנו, כי הצדיק הוא מוכיח ומיסר את ה<name type="misc">קב"ה</name> וכי זה יפה שיהי׳ <placeName>ישראל</placeName>
+               <lb/>תלמדנו, כי הצדיק הוא מוכיח ומיסר את ה<name type="misc">קב"ה</name> וכי ז<name type="misc">ה</name> יפ<name type="misc">ה</name> שיהי׳ <placeName>ישראל</placeName>
                <lb/>נתונים בצרה ח"ו ויבטל הגזירה וזה אשרי הגבר אשר תיסרכו י"ה הוא
                <lb/>מוכיח להשם ב"ה וב"ש ומתורתך תלמדנו כי אתה מגלה לכו זאת באמרך
                <lb/>ותגור אומר ויקם כך מי מושל בי צדיק
@@ -1873,19 +1884,19 @@
             <p>
                <lb/>(יג) וקראת נשבת עונג לפעמים אחד מכניס אורח ומשחיר את האורח
                <lb/>ואוכל לבד והאורח הולך חוץ בשוק בשחרירותו וז״פ הפסוק
-               <lb/>וקראת לשבת שלא ילך בחוץ.
+               <lb/>וקראת <date>לשבת</date> שלא ילך בחוץ.
             </p>
             <p>
-               <lb/>(ד) וקראת לשבת יש כמה מיני סוחרים אחד סוחר עם מזומנים
+               <lb/>(ד) וקראת ל<date>שבת</date> יש כמה מיני סוחרים אחד סוחר עם מזומנים
                <lb/>רענדליך, ואחד עם וועקסיל בלאנקי צעטיל אלו שכי סוחרים
-               <lb/>זה עם רענדליך יש כי תמיר פחד, גם בעלי שבת יראת <name type="misc">ה</name>׳ היא אוצרו יש
-               <lb/>אחד עובד ה׳ בשבת עם היראה בראשית ירא <date>שבת</date>, אך מרוב הפחד אי אפשר
-               <lb/>בשמחה. ויש אחד עובד <name type="misc">ה</name>׳ בתענוג כמו בלאנקי צעטיל אך תענוג תמידי
+               <lb/>זה עם רענדליך יש כי תמיר פחד, גם בעלי <date>שבת</date> יראת ה׳ היא אוצרו יש
+               <lb/>אחד עובד ה׳ ב<date>שבת</date> עם היראה בראשית ירא <date>שבת</date>, אך מרוב הפחד אי אפשר
+               <lb/>בשמחה. ויש אחד עובד ה׳ בתענוג כמו בלאנקי צעטיל אך תענוג תמידי
             </p>
             <fw facs="#facs_33_tr_1743011071" place="bottom" type="catch">
                <lb/>אינו</fw>
             <fw facs="#facs_34_tr_1743011051" type="running-head">
-               <lb/>תורת
+               <pb facs="Torat-Haramal_0034.jpg" /><lb/>תורת
             </fw>
             <fw facs="#facs_34_tr_1743011053" type="running-head">
                <lb/>מאמרי הלקושים
@@ -1896,32 +1907,32 @@
                <lb/>אינו תענוג, כמו כן הבלאכקי צעטיל במשמוש היד המה הולכים וקרועים רק
                <lb/>יש מו״מ מרחוק להודיע שמה במקום הרחוק לשלם עבורו כל הצורך כן יש
                <lb/>מחשבות קדושות הכנה דרבה. לז"א וקראת ל<date>שבת</date> קורא שייך מרחוק. מרחוק
-               <lb/>יקרא את ה<date>שבת</date> קודם <date>שבת</date>. והכינו את אשר יביאו
+               <lb/>יקרא את ה<date>שבת</date> קודם שבת. והכינו את אשר יביאו
             </p>
             <p>
-               <lb/>טו) או יאמר וקראת <date>לשבת</date> עונג לא יש בעולם שום תענוג רק <date>שבת</date> לזה
+               <lb/>טו) או יאמר וקראת לשבת עונג לא יש בעולם שום תענוג רק שבת לזה
                <lb/>אמר ביתרון האור מן החושך וכו' ולא אמר כהבדל האור מן החושך.
             </p>
             <p>
                <lb/>ט) או יאמר וקראת לשבת עונג וקראת להשי"ת שיתן לך בני חיי מזוני
-               <lb/>וכל טוב כדי שיהי' לך עונג <date>שבת</date> קודש
+               <lb/>וכל טוב כדי שיהי' לך עונג שבת קודש
             </p>
             <p>
-               <lb/>(יז) א״ר וקראת לשבת עונג. היינו לקראת ולהמשיך מ<date>שבת</date> זו ל<date>שבת</date> הבא
+               <lb/>(יז) א״ר וקראת לשבת עונג. היינו לקראת ולהמשיך משבת זו לשבת הבא
                <lb/>עונג (בס׳ <name type="work">תפלה</name> למשה פ׳ תשא בשמו הק׳ ז"ל).
             </p>
             <p>
-               <lb/>יח) כל עדת ישראל יעשו אותו הפי׳ שהצדיק נקרא כל כי הוא כללות
-               <lb/>ישראל וע״ד יסוד צדיק נקרא כל, והנה עיקר קדושת הצדיק
+               <lb/>יח) כל עדת <placeName>ישראל</placeName> יעשו אותו הפי׳ שהצדיק נקרא כל כי הוא כללות
+               <placeName><lb/>ישראל</placeName> וע״ד י<name type="work">ס</name>וד צדיק נקרא כל, והנה עיקר קדושת הצדיק
                <lb/>נמשך מן האנשים המסתופפים בצלו כל מה שהם מתקדשין ומתטהרין יותר
-               <lb/>נתוסף יותר קדושה להצדיק, וז״פ כל (הצדיק נקרא כל הנה) עדת ישראל
-               <lb/>(המה) יעשו אותו עשי׳ הוא מלשון תיקון (עטרת <persName>יעקב</persName> וישראל בשמו הק׳ ז"ל).
+               <lb/>נתוסף יותר קדושה להצדיק, וז״פ כל (הצדיק נקרא כל הנה) עדת <placeName>ישראל</placeName>
+               <lb/>(המה) יעשו אותו עשי׳ הוא מלשון תיקון (עטרת <persName>יעקב</persName> וישרא<persName>ל</persName> בשמו הק׳ ז"ל).
             </p>
             <p>
-               <lb/>(יט) בזמירת <date>שבת</date> אל תוך בתיכם להניח ברכה שלכאורה נראה שהוא
+               <lb/>(יט) בזמירת שבת אל תוך בתיכם להניח ברכה שלכאורה נראה שהוא
                <lb/>לשון ברכה לבד. אבל הפירוש שהוא ג״כ לשון ציוי שיזהר
                <lb/>האדם להניח ברכה אל ביתו היינו הגוף שלא למלאות כריסו ח"ו, ולומר
-               <lb/>שהוא עונג <date>שבת</date> רק להסתפק עצמו במעט, אוכל קימעא ומתברך במעיו,
+               <lb/>שהוא עונג שבת רק להסתפק עצמו במעט, אוכל קימעא ומתברך במעיו,
                <lb/>ועל ידי זה יוכל לשמוח ולא ישאר כאבן דומם ע״י אכילה גסה.
             </p>
             <p>
@@ -1934,7 +1945,7 @@
                <lb/>כי משמש ב' לשונות ואחד מהן הוא הפי׳ אלא. וגם תיבת הכל גימטריא ה״ן
                <lb/>ותיבת הבל גימטריא לא״ו, וז״פ ומותר האדם מן הבהמה אין. כי ר״ל אלא.
                <lb/>הכל הבל. היתרון הוא רק זה שההן יהי' הן והלאו יהי׳ לאו. (בשמו הק׳
-               <lb/>ז"ל ב<name type="work">ס</name>׳ <name type="work">אור צדיקים</name>).
+               <lb/>ז"ל בס׳ <name type="work">אור צדיקים</name>).
             </p>
             <p>
                <lb/>(כא) על הפסוק הכסיל בחושך הולך. ואמר הוא ז"ל, והחכם מה עושה
@@ -1947,12 +1958,12 @@
                <lb/>בימי בחרות אף בימי זקנה וקדושה דכבר הוא עייל ונפיח בלא בר, עיקר בעת
                <lb/>הסתלקות החיות לכל אחד לפי בחינתו לצדיק המבורר, בדקות ולאיש בחור
                <lb/>שנופל לטימטום הלב ולעצבות ומרה שחורה לא יסור ממנו העול להתפלל כל
-               <lb/>מלה ומלה עכ״פ בפירוש המלות וללמוד תורה, ולהבין כל דבר. אף שהוא
+               <lb/>מלה ומלה עכ״פ בפירוש המלות וללמוד <name type="work">תורה</name>, ולהבין כל דבר. אף שהוא
             </p>
             <fw facs="#facs_34_tr_1743011046" place="bottom" type="catch">
                <lb/>עליו</fw>
             <fw facs="#facs_35_tr_1743011058" type="running-head">
-               <lb/>תורת הרמ״<persName>ל</persName>
+               <pb facs="Torat-Haramal_0035.jpg" /><lb/>תורת הרמ״ל
             </fw>
             <fw facs="#facs_35_tr_1743011060" type="running-head">
                <lb/>מאמרי הלקוטים
@@ -1964,11 +1975,11 @@
                <lb/>וזהו התקשרות מלכות בבינה לאמיתו, וזפ"ה הכסיל בהישך הולך, פי׳ כשעומד
                <lb/>בימי חושך הוא הולך בגדלות ובנפלאות לילך במדריגות גדולות להשיג אורו
                <lb/>יתברך, וכשאין לו בחינת אלו אזי מואם בתורה ובתפלה ואינו רוצה לסבול
-               <lb/>עול <name type="work">תורה</name> ועבודה, מתפלל שלש שעות אחר חצות היום, ובמרוצה כרוכב
+               <lb/>עול תורה ועבודה, מתפלל שלש שעות אחר חצות היום, ובמרוצה כרוכב
                <lb/>הראש בני הרמכים, וכן בענין הלמוד ושאר עבודה אינו רוצה אלא לילך
                <lb/>בגדולות אבל איש מסכן וחכם כשחושך עומד בעיניו אזי תופס דרך של איש
                <lb/>פשוט וראה אם דרך עוצב בי ונחני בדרך עולם לומד ומתפלל בפשטות,
-               <lb/>ומתקשר באהבת <placeName>ישראל</placeName> ושב לכל המדרגות, כי רחמיו של ה<name type="misc">שי"ת</name> לרחם על כל
+               <lb/>ומתקשר באהבת ישראל ושב לכל המדרגות, כי רחמיו של ה<name type="misc">שי"ת</name> לרחם על כל
                <lb/>בבחינתו ודעתו ורצונו (בס׳ כתיב מצותיך ש<name type="work">ביל</name> אמונה סי׳ י"ט בשמו הק׳ ז"ל)
             </p>
             <p>
@@ -1979,7 +1990,7 @@
                <lb/>אא"כ מכריזין עליו מלמעלה וגם זה פי' הכתוב כי יודע ד׳ דרך צדיקים
                <lb/>שדרך הצדיקים לידע שה<name type="misc">שי"ת</name> הוא המשגיח בכל פרטי מאורעותיו ואנו מושגחים
                <lb/>ממנו בכל פרט ופרט, וזהו דרך הצדיקים שהם מאמינים שאין שום בחיי'
-               <lb/>בעולם שיהי' נעשה בלתי רצון ה<name type="misc">שי"ת</name> וזהו דרך הצדיקים כי יודע <name type="misc">ה</name>׳ (בס'
+               <lb/>בעולם שיהי' נעשה בלתי רצון ה<name type="misc">שי"ת</name> וז<name type="misc">ה</name>ו דרך הצדיקים כי יודע ה׳ (בס'
                <name type="work"><lb/>דברי אבות</name> על פ"א בשמו הק' ז"ל)
             </p>
             <p>
@@ -2012,12 +2023,12 @@
             <p>
                <lb/>ב תהלת ה׳ דבר פי ויברך כל בשר שם קדשו לעולם ועד ואמר
                <lb/>המלאכים עליונים והממונים התחתונים שבבחי' הכהבת שמים
-               <lb/>וארץ כולם מקבלים שפע קיומם ע"י שיר ושירם טפל לשיר של עם בני <placeName>ישראל</placeName>
+               <lb/>וארץ כולם מקבלים שפע קיומם ע"י שיר ושירם טפל לשיר של עם בני ישראל
             </p>
             <fw facs="#facs_35_tr_1743011053" place="bottom" type="catch">
                <lb/>ולא</fw>
             <fw facs="#facs_36_tr_1743011054" type="running-head">
-               <lb/>תורת הרמ״ל
+               <pb facs="Torat-Haramal_0036.jpg" /><lb/>תורת הרמ״ל
             </fw>
             <fw facs="#facs_36_tr_1743011055" type="running-head">
                <lb/>מאמרי היקוטים
@@ -2025,7 +2036,7 @@
             <fw facs="#facs_36_r_53" type="pageNum" place="top">
                <lb/>השלם יט</fw>
             <p>
-               <lb/>ולא הורשו לשיר שיר עד לאחר שר של עם בני <placeName>ישראל</placeName> וזכ"ה תהלת ה׳ ידבר
+               <lb/>ולא הורשו לשיר שיר עד לאחר שר של עם בני ישראל וזכ"ה תהלת ה׳ ידבר
                <lb/>פ (רק בזמן) ויברך כל בשר שם קדשו לע"ו (<name type="work">ברכת דוד</name> בשמו הק׳ ז"ל)
                <lb/>(לקוטי מאמרי <name type="work">חז"ל</name>).
             </p>
@@ -2038,8 +2049,8 @@
             </p>
             <p>
                <lb/>(בט) להדבק בנשמה היינו להניח החלק שיש בו לתוך הכלל לאין סוף
-               <lb/>וזה כר מצוה ותורה אור אם כד היינו הכשמה (שנקרא
-               <lb/>כר ה' נשמת אדם) מדבק עצמו לא״ס אז <name type="work">תורה</name> אור אזי נראה הבהירות
+               <lb/>וזה כר מצוה ו<name type="work">תורה</name> אור אם כד היינו הכשמה (שנקרא
+               <lb/>כר ה' נשמת אדם) מדבק עצמו לא״ס אז תורה אור אזי נראה הבהירות
                <lb/>ואור תורה
             </p>
             <p>
@@ -2050,11 +2061,11 @@
                <lb/>בקב שלו מתשעה קבין של אחרים, כל מה שיש ביד האדם מיתרות, הוא של
                <lb/>אחרים הן מותרות גאוה הוא מתשעה קבין של סוס ומותרות שיחה הוא
                <lb/>מתשעה קבין של נשים הלכך יהא האדם כזהר שלא יהי' לו שום מותרות
-               <lb/>כי הוא של אחרים ודו״ק
+               <lb/>כי הוא של אחרים ודו<persName>״ק</persName>
             </p>
             <p>
                <lb/>(לא) מה דסני לך לחברך לא תעביד פי' מכבוד אדמו״ר הגאון האמיתי
-               <lb/>כי האבד<persName>״ק</persName> <persName>ניקלשבורג</persName> ז"ל מה דעל לך סכי לחברך היינו מה
+               <lb/>כי האבד״ק <persName>ניקלשבורג</persName> ז"ל מה דעל לך סכי לחברך היינו מה
                <lb/>דחתה סובר שהמדה שאתה רואה מחבירך הן במילי דשמיא הן בדרך ארץ
                <lb/>שהמדה גרוע ושפלה לא תעביד אתה
             </p>
@@ -2082,7 +2093,7 @@
             <fw facs="#facs_36_tr_1743011046" place="bottom" type="catch">
                <lb/>מבקש</fw>
             <fw facs="#facs_37_tr_1743011079" type="running-head">
-               <lb/>תורת הרמ״ל
+               <pb facs="Torat-Haramal_0037.jpg" /><lb/>תורת הרמ״ל
             </fw>
             <fw facs="#facs_37_tr_1743011080" type="running-head">
                <lb/>מאמרי הלקוטים
@@ -2116,9 +2127,9 @@
             </p>
             <p>
                <lb/>(לו) לעולם ימכור אדם מה שיש לו ויקח מנעלים לרגליו (עיין <persName>רשב"ם</persName>
-               <name type="work"><lb/>פסחים</name> דקי״ב ובמס׳ <name type="work">שבת</name> קכ״ט א׳) פירש ימכור כל המדות
+               <name type="work"><lb/>פסחים</name> דקי״ב ובמס׳ <name type="work">שבת</name> קכ״ט <persName>א׳</persName>) פירש ימכור כל המדות
                <lb/>ויקח מנעלים ר"ל מסגר לרגליו להרגילות שלו כדי להכניעם מפני יראת קונו
-               <lb/>(בהקדמת <name type="work">מוהרי</name>״<persName>א</persName> דברים בשמו הק׳ ז״ל).
+               <lb/>(בהקדמת <name type="work">מוהרי</name>״א דברים בשמו הק׳ ז״ל).
             </p>
             <p>
                <lb/>(לז) ארבע מדות באדם האומר שלי שלי ושלך שלך זו מדה בינונית.
@@ -2140,14 +2151,14 @@
                <lb/>לשון עומדים הו״ל לשון הולכים ונראה דהנה הבעל תשובה מבקש תמיד
                <lb/>להבורא ב"ה וב"ש שיתן עליו תמיד השגחתו מחמת שהוא טעם מקודם טעם
                <lb/>איסור וירא שלא יסור מעליו השגחתו אפי׳ רגע אחת שלא יחזור לסורו ח"ו
-               <lb/>ולכן הוא מבקש תמיד להשי"ת שלא יתן הבחירה בידו, אלא שלא יסור מעליו
+               <lb/>ולכן הוא מבקש תמיד לה<name type="misc">שי"ת</name> שלא יתן הבחירה בידו, אלא שלא יסור מעליו
                <lb/>השגחתו אפילו רגע אחת אעפ״י שאם ה<name type="misc">שי"ת</name> יתן עליו ההשגחה אין לו חלק
                <lb/>לעוה״ב. מ״מ מוטב לו שאין לו חלק לעוה״ב משיתן לו השי״ת הבחירה בידו
             </p>
             <fw facs="#facs_37_tr_1743011074" place="bottom" type="catch">
                <lb/>מחמת</fw>
             <fw facs="#facs_38_tr_1743011057" type="running-head">
-               <lb/>תורת הרמ״ל
+               <pb facs="Torat-Haramal_0038.jpg" /><lb/>תורת הרמ״ל
             </fw>
             <fw facs="#facs_38_tr_1743011058" type="running-head">
                <lb/>מאמרי הלקוטים
@@ -2161,13 +2172,13 @@
                <lb/>עם הבחירה שלהם שיריאים כנ"ל אין צדיקים גמורים יכולים לעמוד מחמת
                <lb/>שהצדיק רוצה לילך עם הבחירה שלו מחמת שלא טעם לעולם טעם איסור
                <lb/>אינם יראים לילך עם הבחירה ויכולין לילך ממדריגה למדריגה וזפ"ה יפה
-               <lb/>שעה אחת בתשובה פי׳ שיתן ה<name type="misc">שי"ת</name> ב"ה וב"ש השגחה תמיד עליו מלילך עם
+               <lb/>שעה אחת בתשובה פי׳ שיתן השי"ת ב"ה וב"ש השגחה תמיד עליו מלילך עם
                <lb/>הבחירה שלו אפילו רגע אחת כנ"ל וזה מקורת רוח לעוה״ב כנ"ל ודו״ק
             </p>
             <p>
                <lb/>(מ) כל שיראת חטאו קודמת לחכמתו חכמתו מתקיימת. הכוונה ע״ד כי
-               <lb/>כר מצוה ותורה אור והיינו ע״י כד המצוה הקודמת ל<name type="work">תורה</name> נעשה
-               <lb/>ה<name type="work">תורה</name> אור כי טוב והו כל שיראת חטאו קודמת לבלי לעבור על אחד משס"ה
+               <lb/>כר מצוה ו<name type="work">תורה</name> אור והיינו ע״י כד המצוה הקודמת ל<name type="work">תורה</name> נעשה
+               <lb/>התורה אור כי טוב והו כל שיראת חטאו קודמת לבלי לעבור על אחד משס"ה
                <lb/>ל"ת וזה נר מצוה הקודמת לחכמתו אז חכמת התורה מתקיימת וראשית החכמה
                <lb/>היראה (דברי אבות בשמו הק׳ ז"ל
             </p>
@@ -2182,9 +2193,9 @@
             </div><div type="non-story" ana="letter"><p>
                <lb/>(מב) והנה הצגתי גם שני מכתבים בעהתקה אות באות אשר האחד הוא
                <lb/>של הה״ק המחבר ז"ל אשר נכתב במוצש״ק י״ב מ<date>רחשון</date>
-               <date><lb/>תקנ"ו</date>. והשני מכת"ק של הה״ק ר<persName>׳</persName> <persName>מאיריל מ<placeName ana="bio">פרימישלאן</placeName></persName> זללה״ה מ<placeName>תלמודי</placeName>
+               <date><lb/>תקנ"ו</date>. והשני מכת"ק של הה״ק ר׳ <persName>מאיריל מפרימישלאן</persName> זללה״ה מ<placeName>תלמודי</placeName>
                <lb/>של המחבר הק׳ ז"ל שכתב לחתן המחבר ה"ה אבי <persName>זקיני</persName> הה״<persName>ק</persName> <persName>מו"ה</persName> <persName>דוד</persName>
-               <lb/>זללה<persName>״ה מזאבילטוב</persName> וז״ל אות באות. לכהנים ולוים וישראלים הרבנים
+               <lb/>זללה<persName>״ה מזאבילטוב</persName> וז״ל אות באות. לכהנים ולוים ו<placeName>ישראל</placeName>ים הרבנים
                <lb/>המופלגים היריאים ושלימים כל חד לפום מעלתו כרם יאיר ויופיע
             </p>
             <p>
@@ -2198,14 +2209,14 @@
                <lb/>וכו' ואין העולם מתקיים אלא על מי שבולם עצמו בשעת מריבה לזאת שפל
                <lb/>כמוני טוב לי לסתום גרוני. רק לבקש מאחינו בני <placeName>ישראל</placeName> להיות שלם בעולם
                <lb/>אם אין שלום אין כלום אפילו ליוצא ולבא אין שלום מפני הצר זה היצה"ר
-               <lb/>כפירש״י. וזה החבלי משיח ממאן דנפיק ועייל והמה הת"ח וגדולי הדור
+               <lb/>כפירש״י. וזה החבלי מש<persName>יח</persName> ממאן דנפיק ועייל והמה הת"ח וגדולי הדור
                <lb/>דהס״מ זרק חיצים ובליסטראות לעשות קטיגוריא בין ת"ח ואנשי מעשה יראים
-               <lb/>ושלימים אוי לאזנים שככה שומעות שמש<persName>יח</persName> צדקינו סובל צירי חבלי לידה
+               <lb/>ושלימים אוי לאזנים שככה שומעות שמשיח צדקינו סובל צירי חבלי לידה
             </p>
             <fw facs="#facs_38_tr_1743011054" place="bottom" type="catch">
                <lb/>מהמקבלי</fw>
             <fw facs="#facs_39_tr_1743011046" type="running-head">
-               <lb/>תורת ה<persName>רמ״ל</persName>
+               <pb facs="Torat-Haramal_0039.jpg" /><lb/>תורת ה<persName>רמ״ל</persName>
             </fw>
             <fw facs="#facs_39_tr_1743011047" type="running-head">
                <lb/>מאמרי הלקיטים
@@ -2234,7 +2245,7 @@
                <lb/>הקטן <persName>משה יהודא ליב מסאסוב</persName>.
             </p>
             </div><div type="non-story" ana="letter"><p>
-               <lb/>(מג) מכתב קודש השני אות באות <name type="misc">ה'</name> ברחמיו יתן לעמו <placeName>ישראל</placeName> רחמים
+               <lb/>(מג) מכתב קודש השני אות באות <name type="misc">ה'</name> ברחמיו יתן לעמו ישראל רחמים
                <lb/>וחיים לה"ה כבוד אהובי הרב הצדיק המעוטר בחכמה ואוהב
                <lb/>צדקה וחסד מגזע שעשועים החכם השלם כ״ש מו"ה <persName>דוד</persName> כ"י
             </p>
@@ -2248,10 +2259,10 @@
                <lb/>הק' מאיר בהרב זללה"ה.
             </p>
             <p>
-               <lb/>ודובר שלום לכל זרעו של הרב הגאון החסיד אדומו״ר מו"ה <persName>משה יהודא
-               <lb/>ליב</persName> זצוק"ל ברכה ולתחיו. ואפריון כמטי לה״ה כבוד בן אדומו״ר
+               <lb/>ודובר שלום לכל זרעו של הרב הגאון החסיד אדומו״ר מו"ה משה יהודא
+               <lb/>ליב זצוק"ל ברכה ולתחיו. ואפריון כמטי לה״ה כבוד בן אדומו״ר
                <lb/>הנ"ל הרבני המופלג הוותיק ועושה חסד ודרכו להטיב עם הבריות כ"ש מו"ה
-               <persName><lb/>שמואל</persName> שמעלקא ע״ש בניו כלם יתברכו מאדה״ש ויתעכגו על רוב טוב בין
+               <lb/>שמואל שמעלקא ע״ש בניו כלם יתברכו מאדה״ש ויתעכגו על רוב טוב בין
                <lb/>כל אחינו ב"י אמן
             </p>
          </div><div type="non-story" ana="heading"><head>
@@ -2262,10 +2273,10 @@
                <lb/>פיזר צדקה לאיש אחד רע מעללים והניח עצמו ריקן בלא
             </p>
             <fw facs="#facs_40_tr_1743011076" type="running-head">
-               <lb/>תורת הרמ״ל
+               <name type="work"><pb facs="Torat-Haramal_0040.jpg" /><lb/>תורת הרמ״ל</name>
             </fw>
             <fw facs="#facs_40_tr_1743011078" type="running-head">
-               <lb/>מאמרי חלקוטים
+               <name type="work"><lb/>מאמרי חלקוטים</name>
             </fw>
             <fw facs="#facs_40_r" type="running-head">
                <lb/>השלם כא
@@ -2273,21 +2284,21 @@
             <p>
                <lb/>פרוטה, ושאלו אותו אנשיו, רבינו מפני מה אתה מפזר כל הונך לאיש הרע
                <lb/>הזה, והשיב גם אני לא טוב, ואם אני נותן צדקה לאיש אשר הוא לא טוב.
-               <lb/>ה<name type="misc">קב"ה</name> ידין אותי מדה כנגד מדה ויתן לי ג״כ הגם שאני לא טוב. (מובא ב<name type="work">ס׳
-               <lb/>מנורת זהב</name>)
+               <lb/>הקב"ה ידין אותי מדה כנגד מדה ויתן לי ג״כ הגם שאני לא טוב. (מובא בס׳
+               <name type="work"><lb/>מנורת זהב</name>)
             </p>
             </div><div type="story" xml:id="Torat-Haramal_0002" n="2"><head type="storyHead">Torat-Haramal_0002</head>
 <p>
-               <lb/>(מה) אמר אשר שלשה עשר שנים רצופים למד אצל הגה"ק רר״ש
-               <lb/>מ<placeName>ניקלשבורג</placeName>, <choice><corr>ואירע</corr><sic>ואירא</sic></choice> פ"ע ששמע שהה״ק מ<placeName>סדילקוב</placeName> בעל דגל
-               <lb/>מחנה אפרים נוסע ללבוב להרופאים דשם והוא לא הי' מכירו מעולם, ונכספה
+               <lb/>(מה) אמר אשר שלשה עשר שנים רצופים למד אצל הגה"ק <persName>רר״ש
+               <lb/>מ<placeName ana="bio">ניקלשבורג</placeName></persName>, <choice><corr>ואירע</corr><sic>ואירא</sic></choice> פ"ע ששמע שהה״ק מ<placeName>סדילקוב</placeName> בעל דגל
+               <lb/>מחנה אפרים נוסע ל<placeName>לבוב</placeName> להרופאים דשם והוא לא הי' מכירו מעולם, ונכספה
                <lb/>נפשו מאד לראותו ונסע ונפגשו באמצע הדרך ודלג הה״ק ה<persName>רמ"ל</persName> ז"ל על
-               <lb/>עגלת הרב מ<placeName>סדילקוב</placeName> ונתן לו שלום, והחזיק הרב מסדילקוב את ידו ואמר
-               <lb/>ויעקב הלך לדרכו ויפגעו בו מלאכי <name type="misc">אלקים</name> ונסעו יחד ללותו ללבוב. והי׳
+               <lb/>עגלת הרב מ<placeName>סדילקוב</placeName> ונתן לו שלום, והחזיק הרב מ<placeName>סדילקוב</placeName> את ידו ואמר
+               <lb/>ויעקב הלך לדרכו ויפגעו בו מלאכי אלקים ונסעו יחד ללותו ל<placeName>לבוב</placeName>. והי׳
                <lb/>להם לנסוע כמה פרסאות דרך יער, והגיע זמן המנחה, ודאג הרב ה<persName>רמ״ל</persName> ז"ל
                <lb/>כי דרכו הי' להתפלל תמיד במנין ובין כל האנשים הנוסעים עמהם מצידו
-               <lb/>ומצד הה<persName>״ק מ<placeName ana="bio">סדילקוב</placeName></persName> לא נמצא רק תשעה אנשים ועד עבור דרך היער
-               <lb/>יעבור זמן המנחה אמר הה<persName>״ק</persName> ה<persName>רמ"ל</persName> ז"ל מה עשה <persName>משה ליב</persName>, עמד באמצע
+               <lb/>ומצד הה״ק מסדילקוב לא נמצא רק תשעה אנשים ועד עבור דרך היער
+               <lb/>יעבור זמן המנחה אמר הה״ק ה<persName>רמ"ל</persName> ז"ל מה עשה <persName>משה ליב</persName>, עמד באמצע
                <lb/>היער וצעק בקול לכו לביהכנ"ס עד ששמע איש אחד ממרחק רב ורץ אחר
                <lb/>הקול עד שהגיע לזמן המנחה למקום תחינתם, ואמר אפשר אתם חושב שאז
                <lb/>הי׳ לי קול כאשר שמעתם אותי מתפלל לפני התיבה, ב<placeName>בראד</placeName>, תדעו שזה הי'
@@ -2298,12 +2309,12 @@
                <lb/>(מו) פעם אחת עשה נשואין לחתן וכלה עניים והי' עומד מצד שניהם
                <lb/>והי' שמח מאד בהכנסת כלה לחופה בכלי זמר והי׳ אומר אז
                <lb/>מי יתן שעם הניגון הזה יוליכוני לבית מועד לעל חי כשיגיע יום פקודתי
-               <lb/>ועברו הרבה שנים מזה ונשתכח הדבר ויהי כבוא יום פטירתו יום ד׳ ב<date>חודש
-               <lb/>שבט</date> ב<date>שנת תקס״ו</date>, באותו היום אירע שבעלי המנגנים עם כלי זמרם נסעו
-               <lb/>לאיזה <choice><corr>חתונה</corr><sic>חתיכה</sic></choice> ל<placeName>בראדי</placeName> בימות השלג וה<date>חורף</date> והנה <choice><corr>פתאום</corr><sic>בתאום</sic></choice> התחילו הסוסים
+               <lb/>ועברו הרבה שנים מזה ונשתכח הדבר ויהי כבוא יום פטירתו יום ד׳ בחודש
+               <lb/>שבט ב<date>שנת תקס״ו</date>, באותו היום אירע שבעלי המנגנים עם כלי זמרם נסעו
+               <lb/>לאיזה <choice><corr>חתונה</corr><sic>חתיכה</sic></choice> ל<placeName>בראדי</placeName> בימות השלג והחורף והנה <choice><corr>פתאום</corr><sic>בתאום</sic></choice> התחילו הסוסים
                <lb/>לרוץ עם העגלה ובעלי המזמרים יעלו הרים ירדו בקעות שלא הי' באפשרי
                <lb/>לעכבם ממרוצתם עד שבאו סמוך לבית עלמין ועמדו הסוסים וראו המזמרים
-               <lb/>עם רב מ<placeName>ישראל</placeName> ושאלו איזה מקום זאת <choice><corr>ומי</corr><sic>ימי</sic></choice> הוא הנפטר באן ונזכרו המעשה
+               <lb/>עם רב מישראל ושאלו איזה מקום זאת <choice><corr>ומי</corr><sic>ימי</sic></choice> הוא הנפטר באן ונזכרו המעשה
                <lb/>אשר שמעו אומרו מפה קדשו כנ"ל והזכירו ג״כ הניגון שהי' מזמרים אז על
                <lb/>החתונה והושיבו ב"ד על זאת, ואמרו להמזמרים שיזמרו זה הניגון וכן עשו.
                <lb/>(מובא בשהגה"ח ברמז המעשה זו)
@@ -2314,50 +2325,50 @@
                <lb/>לא הי' טעם כלום באותו יום והי׳ עומד שם בבית התבשיל
                <lb/>מעט עם משמשו להניח מעט והעבירו לפניו תבשיל אחד שהי' שוה כמה
                <lb/>פולישע גילדען ועלה הריח בנפשו עד שאחזו כמעט בולמוס וספר לתלמודו
-               <lb/>הה<persName>״ק מוהרצ"ה</persName> ז"ל מ<placeName>זידיטשוב</placeName> ואמר בזה"ל <persName>משה ליב</persName> האט זיך דער מאכט
+               <lb/>הה״ק <persName>מוהרצ"ה</persName> ז"ל מ<placeName>זידיטשוב</placeName> ואמר בזה"ל <persName>משה ליב</persName> האט זיך דער מאכט
                <lb/>או נשמת כל חי של שבת האט ער פיעל מעהר תענוג גיהאט אין האט
-               <lb/>שוין פאר געסין אין דעם תבשיל ואמר ע"ז הה״<persName>ק</persName> <persName>מוהרצ"ה</persName> ז"ל שכל צדיק יש
-               <lb/>לו עולם בפ"ע יש שמרגיש זה בנשמת ויש ב<placeName>ק"ש</placeName> ויש ב<name type="work">פסד"ז</name> ויש בתפלת <name type="work">שמ"ע</name>
+               <lb/>שוין פאר געסין אין דעם תבשיל ואמר ע"ז הה״ק <persName>מוהרצ"ה</persName> ז"ל שכל צדיק יש
+               <lb/>לו עולם בפ"ע יש שמרגיש זה בנשמת ויש ב<name type="work">ק"ש</name> ויש ב<name type="work">פסד"ז</name> ויש בתפלת <name type="work">שמ"ע</name>
                <lb/></p>
 </div><div type="story" xml:id="Torat-Haramal_0005" n="5"><head type="storyHead">Torat-Haramal_0005</head>
-<p>(מה) אמר הה״ק <choice><corr>ז"ל</corr><sic>ז״כ</sic></choice> שלמד אהבת <placeName>ישראל</placeName> מכפרי אחד שהי׳ במסובה עם
+<p>(מה) אמר הה״ק <choice><corr>ז"ל</corr><sic>ז״כ</sic></choice> שלמד אהבת ישראל מכפרי אחד שהי׳ במסובה עם
                <lb/>כפריים אחרים, וכטוב לבו ביין אמר לרעהו אהבת אותי או
                <lb/>לא ויענהו אהבתיך למאד ואומר הכפרי אתה תאמר אהבתני ולא תדע מה
             </p>
             <fw facs="#facs_40_tr_1743011074" place="bottom" type="catch">
                <lb/>יחסר</fw>
             <fw facs="#facs_41_tr_1743011070" type="running-head">
-               <lb/>תורת ה<persName>רמ״ל</persName>
+               <name type="work"><pb facs="Torat-Haramal_0041.jpg" /><lb/>תורת הרמ״ל</name>
             </fw>
             <fw facs="#facs_41_tr_1743011072" type="running-head">
-               <lb/>מאמרי הלקושים
+               <name type="work"><lb/>מאמרי הלקושים</name>
             </fw>
             <fw facs="#facs_41_r" type="pageNum" place="top">
                <lb/>השלם</fw>
             <p>
                <lb/>יחסר לי הלא אם באמת אהבתני הידעת מחסורי, ויחרש ולא דבר מאום
-               <lb/>מזה למד כי אהבת <placeName>ישראל</placeName> הוא להרגיש כל מחסורם ולסבול כל מכאובם.
+               <lb/>מזה למד כי אהבת ישראל הוא להרגיש כל מחסורם ולסבול כל מכאובם.
                <lb/>ובצרתם לו צר.
             </p>
             </div><div type="story" xml:id="Torat-Haramal_0006" n="6"><head type="storyHead">Torat-Haramal_0006</head>
 <p>
-               <lb/>(מט) דיני הנהגות שהנהיג עצמו הה״ק המחבר ז"ל המובאים בספר <name type="work">אשל
-               <lb/>אברהם</name> מתלמודו הגה״ק <persName>אבד״ק בוטשאטש</persName> וז"ל שם הל׳ ק"ש
-               <lb/>סי׳ ס"ב אודות מה שכתב בזוה״ק פ׳ וישלח שצריך לפרטה בשפתיו נראה
-               <lb/>שאין קפידא כ״כ שיהי׳ דוקא בדיבור וכן שמעתי ממורי הה״ק מו<persName>״ה</persName> <persName>משה
-               <lb/>יודא ליבב מ<placeName ana="bio">סאסיב</placeName></persName> נ״י שאמר שראה כן בספרים קדושים ושמעתי אז ממנו
+               <lb/>(מט) דיני הנהגות שהנהיג עצמו הה״ק המחבר ז"ל המובאים בספר אשל
+               <lb/>אברהם מתלמודו הגה״ק אבד״ק <placeName>בוטשאטש</placeName> וז"ל שם הל׳ <name type="work">ק"ש</name>
+               <lb/>סי׳ ס"ב אודות מה שכתב ב<name type="work">זוה״ק</name> פ׳ <name type="work">וישלח</name> שצריך לפרטה בשפתיו נראה
+               <lb/>שאין קפידא כ״כ שיהי׳ דוקא בדיבור וכן שמעתי ממורי הה״ק מו״ה משה
+               <lb/>יודא ליבב מ<placeName>סאסיב</placeName> נ״י שאמר שראה כן בספרים קדושים ושמעתי אז ממנו
                <lb/>הטעם שבפה דוקא הוא. כי בלב א"א שיסודר כ״כ היטב. אבל בלב לבד
                <lb/>מקובל ג״כ : ובסי׳ קל״א שמעתי שהרב החסיד המפורסים בש״ט מו״ה
-               <persName><lb/>משה יהודא ליב</persName> ז״ל מק״ק <persName>סאסיב יצ״ו</persName>, הי׳ נוהג שלא לומר תחנון גם
-               <lb/>במנחה ביום שהי' בו מוהל. וב<name type="work">סי</name>׳ קצ"ב אודות קימה ברגליו בעת אמירת
-               <lb/>הזימון בעשרה שראיתי מהמפורסם בש<orgName>״</orgName>ט מו״<orgName>ה</orgName> <persName>משה יודא ליב</persName> ע״<orgName>ה</orgName> מ״כ
-               <lb/>ב<placeName>ק"ק</placeName> <persName>סאסיב יצ<placeName/>״<persName/>ו</persName> שהי׳ נוהג כן לעמוד על רגליו בזימון עשרה. עיי״ש
-               <lb/>ובס׳ <name type="work">עטרת צבי</name> מתלמודו הגה״ק <persName>מוהרצ״ה</persName> ז״ל מ<placeName>זידיטשוב</placeName> כתב ב<name type="work">פרש'</name>
+               <persName><lb/>משה יהודא ליב</persName> ז״ל מק״ק <placeName>סאסיב</placeName> יצ״ו, הי׳ נוהג שלא לומר תחנון גם
+               <lb/>במנחה ביום שהי' בו מוהל. ובסי׳ קצ"ב אודות קימה ברגליו בעת אמירת
+               <lb/>הזימון בעשרה שראיתי מהמפורסם בש״ט מו״ה <persName>משה יודא ליב</persName> ע״ה מ״כ
+               <lb/>בק"ק <placeName>סאסיב</placeName> יצ״ו שהי׳ נוהג כן לעמוד על רגליו בזימון עשרה. עיי״ש
+               <lb/>ובס׳ <name type="work">עטרת צבי</name> מתלמודו הגה״ק <persName>מוהרצ״ה</persName> ז״ל מ<placeName>זידיטשוב</placeName> כתב בפרש'
                <name type="work"><lb/>תזריע</name> דף י"ט ע״ב וז״ל שם וכן ראיתי למורי הקדוש <persName>מוהרי"י מ<placeName ana="bio">לובלין</placeName></persName> אשר
                <lb/>לא הניח תפילין בעת המילה, הגם שלא ראיתיו חולץ התפילין לשעת המילה.
                <lb/>אבל לא נזדמן לי זה אמנם ראיתיו שלא הניח תפילין למילה, וכן ראיתי
                <lb/>למורי הקדוש מוהר״ר <persName>משה יהודא ליב מ<placeName ana="bio">סאסיב</placeName></persName> שחלץ התפילין. וכל
-               <lb/>מעשיו הי׳ ע״פ קבלת רבו הגאון הקדוש <persName>מוהר״ר</persName> שמעלקא נשמתם צרורות
+               <lb/>מעשיו הי׳ ע״פ קבלת רבו הגאון הקדוש מוהר״ר <persName>שמעלקא</persName> נשמתם צרורות
                <lb/>בצרור החיים עכ״ל הק' :
             </p>
             <p>
