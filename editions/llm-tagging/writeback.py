@@ -43,6 +43,10 @@ def main():
     before = ''.join(txt.itertext())
     runs = HERE / 'runs' / path.stem
     stats, report = Counter(), []
+    # genre.json: {div_id: "not-a-hasidic-story:TAG"} for story divs the tagger judged not to be a
+    # Hasidic story (Sinai 2026-11-22: keep the author's division, mark its genre with a tag)
+    gf = runs / 'genre.json'
+    genre = json.loads(gf.read_text()) if gf.exists() else {}
     for did, d in divisions(root):
         f = runs / f'{did}.json'
         if not f.exists():
@@ -63,6 +67,8 @@ def main():
                 c = int(t.get('confidence', 2))
                 if c >= min_conf:
                     tags[t['tag']] = max(tags.get(t['tag'], 0), c)
+        if did in genre:
+            tags[genre[did]] = 3
         if kind != 'hasidic_story' or len(stories) != 1:
             report.append((did, 'story', f'{kind}, {len(stories)} stories', res['unit'].get('why', '')))
         spans = [s for s in d.iter(T + 'span')]
