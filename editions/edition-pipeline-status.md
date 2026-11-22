@@ -1,5 +1,7 @@
 # Edition Pipeline Status Report
 
+> **Superseded (2026-11-22).** This is a snapshot from April 2026 and its step list has **no topic-tagging step**, which is how the 8 April editions reached the site untagged. The current, ordered checklist is [PIPELINE.md](PIPELINE.md); run `editions/scripts/preupload_check.py` before any upload.
+
 Generated: 2026-03-26 | Updated: 2026-04-12 | Editions: 39 (27 online + 12 incoming)
 
 **Legend:** 🟢 done | 🟡 partial/needs attention | 🔴 missing/not started | 🔵 present (unchecked) | ⚪ n/a
