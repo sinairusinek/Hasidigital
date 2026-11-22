@@ -295,6 +295,11 @@ def _call_gemini_passages(
     """
     n = len(passages)
     prompt_template = _load_prompt()
+    if client == "claude-cli":
+        # Claude reads the Gemini-tuned rules too literally (keeps cut spans,
+        # adds almost nothing); the addendum rebalances them (2026-11-22 test).
+        addendum = (Path(__file__).parent / "claude_correction_addendum.txt").read_text(encoding="utf-8")
+        prompt_template = addendum + "\n" + prompt_template
 
     # Build the PASSAGES block: each passage is labelled PASSAGE N
     passage_blocks = []
@@ -410,8 +415,8 @@ def _call_gemini_passages(
                 continue
             validated.append({
                 "text": ent["text"],
-                "start": int(ent.get("start", 0)),
-                "end": int(ent.get("end", 0)),
+                "start": int(ent.get("start") or 0),
+                "end": int(ent.get("end") or 0),
                 "label": _prompt_to_code_label(ent["label"]),
             })
 
