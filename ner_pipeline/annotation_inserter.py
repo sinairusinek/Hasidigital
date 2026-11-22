@@ -239,52 +239,49 @@ def extract_existing_entities_simple(tree):
     if text_el is None:
         return [], plain_text
 
-    # Collect all annotation elements with their text
-    raw_entities = []
-    for tag_name, label in _TAG_TO_LABEL.items():
-        for el in text_el.iter(f"{{{TEI_NS}}}{tag_name}"):
-            text = "".join(el.itertext()).strip()
-            ref = el.get("ref")
-            if text:
-                raw_entities.append({"text": text, "label": label, "ref": ref})
-
-    # Also handle <name type="work|book|misc|event">
-    for el in text_el.iter(f"{{{TEI_NS}}}name"):
-        name_type = el.get("type", "")
-        text = "".join(el.itertext()).strip()
-        ref = el.get("ref")
-        if not text:
-            continue
-        if name_type in ("work", "book"):
-            raw_entities.append({"text": text, "label": "WOA", "ref": ref})
-        elif name_type in ("misc", "event"):
-            raw_entities.append({"text": text, "label": "MISC", "ref": ref})
-
-    # Locate each entity in the plain text by sequential string matching
+    # Positions by a document-order walk (plain_text == "".join(text_el.itertext()), the
+    # standoffconverter view). Until 2026-11-22 this located each entity by string search, one tag
+    # type at a time, falling back to the FIRST occurrence in the whole text and using the
+    # whitespace-normalized length: tags left untouched by a --correct run (e.g. all non-story
+    # tags in story mode) could be re-inserted on another occurrence of the same name, or cut
+    # short where the name crosses a line break.
+    labels = {f"{{{TEI_NS}}}{t}": l for t, l in _TAG_TO_LABEL.items()}
+    name_tag = f"{{{TEI_NS}}}name"
     entities = []
-    search_from = 0
-    # Sort by document order — find each occurrence sequentially
-    for raw in raw_entities:
-        # Normalize whitespace for matching
-        normalized = " ".join(raw["text"].split())
-        # Search in plain text from current position
-        idx = plain_text.find(normalized, search_from)
-        if idx == -1:
-            # Try from beginning (entities may not be in perfect order)
-            idx = plain_text.find(normalized)
-        if idx == -1:
-            # Try with original whitespace
-            idx = plain_text.find(raw["text"], search_from)
-        if idx >= 0:
-            entities.append({
-                "text": normalized,
-                "start": idx,
-                "end": idx + len(normalized),
-                "label": raw["label"],
-                "ref": raw.get("ref"),
-            })
-            search_from = idx + len(normalized)
+    pos = [0]
 
+    def _walk(el):
+        is_ent = isinstance(el.tag, str) and (el.tag in labels or el.tag == name_tag)
+        start = pos[0]
+        if el.text:
+            pos[0] += len(el.text)
+        for c in el:
+            _walk(c)
+            if c.tail:
+                pos[0] += len(c.tail)
+        if not is_ent:
+            return
+        if el.tag == name_tag:
+            nt = el.get("type", "")
+            label = "WOA" if nt in ("work", "book") else "MISC" if nt in ("misc", "event") else None
+        else:
+            label = labels[el.tag]
+        raw = plain_text[start:pos[0]]
+        st = start + (len(raw) - len(raw.lstrip()))
+        en = pos[0] - (len(raw) - len(raw.rstrip()))
+        if label is None or en <= st:
+            return
+        entities.append({
+            "text": " ".join(plain_text[st:en].split()),
+            "start": st,
+            "end": en,
+            "label": label,
+            "ref": el.get("ref"),
+        })
+
+    _walk(text_el)
+    assert pos[0] == len(plain_text), "standoff view and XML text differ"
+    entities.sort(key=lambda e: (e["start"], e["end"]))
     return entities, plain_text
 
 

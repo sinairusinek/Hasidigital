@@ -257,6 +257,36 @@ def get_story_div_chunks(tree, plain_text, entities):
     return chunks
 
 
+def get_non_story_chunks(story_chunks, plain_text, entities, max_chars=3000):
+    """Chunks of the text outside every story div, cut at line breaks into pieces of at most
+    ~max_chars, same tuple form as get_story_div_chunks (id = "non-story@OFFSET").
+    Whitespace-only pieces are dropped; an entity crossing a piece boundary is left unchanged."""
+    spans = sorted((off, off + len(t)) for t, _, off, sid in story_chunks if sid is not None)
+    gaps, cur = [], 0
+    for a, b in spans:
+        if a > cur:
+            gaps.append((cur, a))
+        cur = max(cur, b)
+    if cur < len(plain_text):
+        gaps.append((cur, len(plain_text)))
+    out = []
+    for a, b in gaps:
+        start = a
+        while start < b:
+            end = min(b, start + max_chars)
+            if end < b:
+                nl = plain_text.rfind("\n", start + max_chars // 2, end)
+                if nl > start:
+                    end = nl + 1
+            piece = plain_text[start:end]
+            if piece.strip():
+                ents = [{**e, "start": e["start"] - start, "end": e["end"] - start}
+                        for e in entities if e["start"] >= start and e["end"] <= end]
+                out.append((piece, ents, start, f"non-story@{start}"))
+            start = end
+    return out
+
+
 # ── Gemini API call ────────────────────────────────────────────────────────────
 
 def _call_gemini_passages(
@@ -338,6 +368,10 @@ def _call_gemini_passages(
                     config=types.GenerateContentConfig(
                         response_mime_type="application/json",
                         temperature=0.1,
+                        # GEMINI_THINKING_BUDGET caps thinking tokens (unset = model default, uncapped)
+                        **({"thinking_config": types.ThinkingConfig(
+                            thinking_budget=int(os.environ["GEMINI_THINKING_BUDGET"]))}
+                           if os.environ.get("GEMINI_THINKING_BUDGET") else {}),
                     ),
                 )
                 raw = response.text
@@ -677,10 +711,14 @@ def correct_entities(
         client = _get_client(api_key)
 
     chunks = get_story_div_chunks(tree, plain_text, existing_entities)
-    if story_id is not None:
-        selected_chunks = [chunk for chunk in chunks if chunk[3] == story_id]
-        if not selected_chunks:
-            raise ValueError(f"Story id not found: {story_id}")
+    if story_id == "@non-story":
+        # all text outside story divs (paratext, sayings, commentary): Sinai 2026-11-22
+        selected_chunks = get_non_story_chunks(chunks, plain_text, existing_entities)
+    elif story_id is not None:
+        wanted = set(story_id.split(","))
+        selected_chunks = [chunk for chunk in chunks if chunk[3] in wanted]
+        if len(selected_chunks) != len(wanted):
+            raise ValueError(f"Story id not found: {wanted - {c[3] for c in selected_chunks}}")
     else:
         selected_chunks = chunks
 
@@ -741,6 +779,18 @@ def correct_entities(
         if batch_idx + passages_per_call < len(selected_chunks) and delay_s > 0:
             time.sleep(delay_s)
 
+    # Linked entities (with a ref: hand-curated or authority-linked) are never removed or
+    # re-spanned by the model: keep the original and drop any overlapping suggestion.
+    # (Found 2026-11-22: in Smichat-Moshe's approbations Gemini trimmed 24 linked names,
+    # e.g. מפיעטרקוב -> פיעטרקוב, and the ref was lost.)
+    protected = [dict(e) for e in existing_entities if e.get("ref")
+                 and any(e["start"] >= a and e["end"] <= b for a, b in selected_spans)]
+    if protected:
+        keep_spans = {(e["start"], e["end"]) for e in protected}
+        all_corrected = [c for c in all_corrected if (c["start"], c["end"]) in keep_spans or not any(
+            c["start"] < p["end"] and c["end"] > p["start"] for p in protected)]
+        have = {(c["start"], c["end"]) for c in all_corrected}
+        all_corrected += [p for p in protected if (p["start"], p["end"]) not in have]
     all_corrected.sort(key=lambda e: (e["start"], e["end"]))
     return all_corrected
 

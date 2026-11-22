@@ -126,7 +126,8 @@ def main():
         help=(
             "Optional xml:id of a single <div type=\"story\"> to process in "
             "--correct mode. Example: Kokhvei-Or_0001. Other stories remain "
-            "unchanged."
+            "unchanged. Several ids: comma-separated. '@non-story': all text "
+            "outside story divs, in pieces of ~3000 characters."
         ),
     )
 

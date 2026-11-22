@@ -70,6 +70,12 @@ def main():
                     tags[t['tag']] = max(tags.get(t['tag'], 0), c)
         if did in genre:
             tags[genre[did]] = 3
+        elif not tags and kind == 'saying_or_teaching':
+            # option (b), Sinai 2026-11-22: keep the author's story division, mark its genre
+            why = res['unit'].get('why', '').lower()
+            tags['not-a-hasidic-story:halakhah' if any(w in why for w in ('halakh', 'custom', 'law'))
+                 else 'not-a-hasidic-story:sermon'] = 2
+            stats['genre tag'] += 1
         if kind != 'hasidic_story' or len(stories) != 1:
             report.append((did, 'story', f'{kind}, {len(stories)} stories', res['unit'].get('why', '')))
         spans = [s for s in d.iter(T + 'span')]
