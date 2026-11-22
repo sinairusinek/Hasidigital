@@ -1,0 +1,169 @@
+{
+ "unit": {
+  "kind": "hasidic_story",
+  "why": "A single narrative about R. Moshe Leib of Sasov. He rejoices at a poor couple's wedding and wishes to be escorted to his grave with its tune, and at his death the musicians' horses miraculously bring them to his funeral.",
+  "boundary_note": "Numbered (מו); ends with a source note '(מובא בשהגה\"ח...)'. OCR artifacts 'חתונהחתיכה' and 'פתאוםבתאום' appear in the text."
+ },
+ "stories": [
+  {
+   "k": 1,
+   "start_quote": "פעם אחת עשה נשואין לחתן וכלה עניים",
+   "end_quote": "שיזמרו זה הניגון וכן עשו",
+   "hasidic": true,
+   "summary_en": "The tsaddik arranged and joyfully celebrated a poor couple's wedding with musicians and wished that tune would accompany him to his grave. Years later, on the day of his death, the musicians' horses ran uncontrollably to the cemetery, where the people recalled his words and had the musicians play that tune.",
+   "tags": [
+    {
+     "tag": "social:marriage",
+     "scope": "span",
+     "quotes": [
+      "פעם אחת עשה נשואין לחתן וכלה עניים"
+     ],
+     "confidence": 3,
+     "why": "the tsaddik arranges a wedding",
+     "quotes_failed": false
+    },
+    {
+     "tag": "ethics-and-emotions:charity",
+     "scope": "span",
+     "quotes": [
+      "פעם אחת עשה נשואין לחתן וכלה עניים"
+     ],
+     "confidence": 3,
+     "why": "he marries off a poor couple (hakhnasat kallah)",
+     "quotes_failed": false
+    },
+    {
+     "tag": "ethics-and-emotions:joy",
+     "scope": "span",
+     "quotes": [
+      "והי' שמח מאד בהכנסת כלה לחופה בכלי זמר"
+     ],
+     "confidence": 3,
+     "why": "his great joy at the wedding",
+     "quotes_failed": false
+    },
+    {
+     "tag": "practice:music",
+     "scope": "span",
+     "quotes": [
+      "והי' שמח מאד בהכנסת כלה לחופה בכלי זמר",
+      "ואמרו להמזמרים שיזמרו זה הניגון וכן עשו"
+     ],
+     "confidence": 3,
+     "why": "wedding music and the tune played at his funeral",
+     "quotes_failed": false
+    },
+    {
+     "tag": "times:death",
+     "scope": "span",
+     "quotes": [
+      "ויהי כבוא יום פטירתו יום ד׳ בחודש שבט בשנת תקס״ו"
+     ],
+     "confidence": 3,
+     "why": "the tsaddik's death",
+     "quotes_failed": false
+    },
+    {
+     "tag": "folkloristics:story_type_death_of_the_tsaddik",
+     "scope": "story",
+     "quotes": [],
+     "confidence": 2,
+     "why": "the story's climax is his death and funeral",
+     "quotes_failed": false
+    },
+    {
+     "tag": "supernatural:miracle",
+     "scope": "span",
+     "quotes": [
+      "התחילו הסוסים לרוץ עם העגלה ובעלי המזמרים",
+      "עד שבאו סמוך לבית עלמין ועמדו הסוסים"
+     ],
+     "confidence": 3,
+     "why": "the horses are miraculously driven to the cemetery",
+     "quotes_failed": false
+    },
+    {
+     "tag": "supernatural:prognostication",
+     "scope": "span",
+     "quotes": [
+      "מי יתן שעם הניגון הזה יוליכוני לבית מועד לעל חי"
+     ],
+     "confidence": 1,
+     "why": "his expressed wish is fulfilled, though it is a wish rather than a prediction",
+     "quotes_failed": false
+    },
+    {
+     "tag": "social:retrospective_recognition",
+     "scope": "span",
+     "quotes": [
+      "ונזכרו המעשה אשר שמעו אומרו מפה קדשו"
+     ],
+     "confidence": 2,
+     "why": "people belatedly recall his words and understand the event",
+     "quotes_failed": false
+    },
+    {
+     "tag": "practice:pilgrimage_to_the_graves_of_tsaddikim",
+     "scope": "span",
+     "quotes": [
+      "עד שבאו סמוך לבית עלמין ועמדו הסוסים"
+     ],
+     "confidence": 1,
+     "why": "the burial of the tsaddik is shown as a reverent, miraculous occasion",
+     "quotes_failed": false
+    },
+    {
+     "tag": "spaces:rabbinical_court",
+     "scope": "span",
+     "quotes": [
+      "והושיבו ב\"ד על זאת"
+     ],
+     "confidence": 1,
+     "why": "a court is convened to decide whether to play music at the funeral",
+     "quotes_failed": false
+    },
+    {
+     "tag": "social:relations_with_non_jews",
+     "scope": "story",
+     "quotes": [],
+     "confidence": 1,
+     "why": "the musicians may be non-Jewish; the text does not say",
+     "quotes_failed": false
+    },
+    {
+     "tag": "women:mention_only",
+     "scope": "span",
+     "quotes": [
+      "פעם אחת עשה נשואין לחתן וכלה עניים"
+     ],
+     "confidence": 2,
+     "why": "the bride is mentioned but does not act",
+     "quotes_failed": false
+    },
+    {
+     "tag": "folkloristics:story_type_virtues",
+     "scope": "story",
+     "quotes": [],
+     "confidence": 2,
+     "why": "illustrates his devotion to hakhnasat kallah",
+     "quotes_failed": false
+    }
+   ],
+   "missing_concepts": [
+    "hakhnasat kallah (dowering/marrying off poor brides)",
+    "funeral procession / music at a funeral",
+    "yahrzeit date given"
+   ],
+   "start_quote_found": true,
+   "end_quote_found": true
+  }
+ ],
+ "check": {
+  "non_vocab_tags": [],
+  "quotes": 13,
+  "quotes_not_found": 0
+ },
+ "id": "Torat-Haramal_0003",
+ "chars": 736,
+ "seconds": 22
+}

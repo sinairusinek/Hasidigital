@@ -1,0 +1,89 @@
+{
+ "unit": {
+  "kind": "hasidic_story",
+  "why": "A short anecdote reported by the tzaddik (R. Moshe Leib of Sasov): he overheard drunken villagers talking and learned from them what love of Israel means. It has a minimal event and a moral lesson.",
+  "boundary_note": ""
+ },
+ "stories": [
+  {
+   "k": 1,
+   "start_quote": "אמר הה״ק ז\"לז״כ שלמד אהבת ישראל מכפרי",
+   "end_quote": "ולסבול כל מכאובם. ובצרתם לו צר",
+   "hasidic": true,
+   "summary_en": "The tzaddik says he learned love of Israel from a drunken villager. The villager asked his friend whether he loved him, then rebuked him: a true friend would know what he lacked. The tzaddik concluded that loving Israel means feeling every lack and pain of one's fellow Jews.",
+   "tags": [
+    {
+     "tag": "ethics-and-emotions:virtues",
+     "scope": "span",
+     "quotes": [
+      "כי אהבת ישראל הוא להרגיש כל מחסורם"
+     ],
+     "confidence": 3,
+     "why": "The point is the virtue of love of Israel.",
+     "quotes_failed": false
+    },
+    {
+     "tag": "not-a-hasidic-story:virtues",
+     "scope": "story",
+     "quotes": [],
+     "confidence": 2,
+     "why": "Framed as moral instruction ('from this he learned') in love of one's fellow.",
+     "quotes_failed": false
+    },
+    {
+     "tag": "practice:drinking_alcohol",
+     "scope": "span",
+     "quotes": [
+      "וכטוב לבו ביין אמר לרעהו"
+     ],
+     "confidence": 3,
+     "why": "The exchange takes place over wine at a drinking party.",
+     "quotes_failed": false
+    },
+    {
+     "tag": "social:relations_with_non_jews",
+     "scope": "span",
+     "quotes": [
+      "מכפרי אחד שהי׳ במסובה עם כפריים אחרים"
+     ],
+     "confidence": 2,
+     "why": "The villagers are probably gentile peasants, as in other versions of this tale.",
+     "quotes_failed": false
+    },
+    {
+     "tag": "folkloristics:story_type_parable",
+     "scope": "story",
+     "quotes": [],
+     "confidence": 1,
+     "why": "Told by the tzaddik as an exemplum with a moral, close to a mashal.",
+     "quotes_failed": false
+    },
+    {
+     "tag": "practice:sermon",
+     "scope": "span",
+     "quotes": [
+      "כי אהבת ישראל הוא להרגיש כל מחסורם ולסבול כל מכאובם"
+     ],
+     "confidence": 1,
+     "why": "Ends with the tzaddik's teaching drawn from the anecdote.",
+     "quotes_failed": false
+    }
+   ],
+   "missing_concepts": [
+    "love of Israel (ahavat Yisrael)",
+    "learning a religious lesson from simple or gentile folk",
+    "empathy / sharing others' suffering"
+   ],
+   "start_quote_found": true,
+   "end_quote_found": true
+  }
+ ],
+ "check": {
+  "non_vocab_tags": [],
+  "quotes": 4,
+  "quotes_not_found": 0
+ },
+ "id": "Torat-Haramal_0005",
+ "chars": 309,
+ "seconds": 15
+}

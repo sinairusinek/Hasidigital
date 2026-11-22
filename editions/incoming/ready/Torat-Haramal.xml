@@ -3,7 +3,7 @@
    <teiHeader>
 		<fileDesc>
 			<titleStmt>
-				<title type="main">Torat HaRamal HaShalem 1903 תורת הרמ&quot;ל השלם</title>
+				<title type="main">Torat HaRamal HaShalem 1903 תורת הרמ"ל השלם</title>
 				<respStmt>
 					<resp>Digitization</resp>
 					<orgName>HebrewBooks.org</orgName>
@@ -18,7 +18,7 @@
 					<name>DictaBert</name>
 					<note>automatic tagging, corrected with Gemini; not yet reviewed by hand</note>
 				</respStmt>
-			</titleStmt><editionStmt><edition n="1.0.0">Working edition</edition></editionStmt>
+			<respStmt xml:id="llm-tagging"><resp>Topic tags: assigned by Claude Opus 5.5 with the project's topic scheme (editions/llm-tagging; calibrated 2026-11-16, est. precision 0.89 / recall 0.90, model-judged); not reviewed by hand</resp><name>Claude Opus 5.5 (Anthropic)</name></respStmt></titleStmt><editionStmt><edition n="1.0.0">Working edition</edition></editionStmt>
 			<publicationStmt>
 				<p>This edition was created in the framework of the the project "Historical Digital
 					Analysis of Hasidic Stories Until 1914", PI: Gadi Sagiv; Supervising
@@ -26,12 +26,12 @@
 					TEI-Publisher Annotator and the XML-Planter, developed by DH-dev.com (Gil
 					Shalit).</p>
 			</publicationStmt>
-			<sourceDesc><bibl type="digital"><title>Digital scan from HebrewBooks.org</title><publisher>HebrewBooks.org</publisher><ptr target="https://hebrewbooks.org/3827" /><idno type="HebrewBooks">3827</idno><idno type="Transkribus">15471223</idno><note>Source for transcription</note></bibl><bibl type="original"><title type="main" xml:lang="he">תורת הרמ&quot;ל השלם</title><title type="main" xml:lang="en">Torat HaRamal HaShalem</title><author><persName xml:lang="he">מנחם מנדל אב&quot;ד זאבילטוב</persName><persName xml:lang="en">Menachem Mendel, Abad Zabiletov</persName></author><pubPlace xml:lang="he">סיגט</pubPlace><pubPlace xml:lang="en">Sighet</pubPlace><date when="1903">תרס&quot;ג</date><textLang mainLang="heb" /><idno type="HebrewBooks">3827</idno><idno type="Kima">99</idno><idno type="Transkribus">15471223</idno><idno type="DBid">3719</idno><idno type="work">73</idno></bibl></sourceDesc>
+			<sourceDesc><bibl type="digital"><title>Digital scan from HebrewBooks.org</title><publisher>HebrewBooks.org</publisher><ptr target="https://hebrewbooks.org/3827"/><idno type="HebrewBooks">3827</idno><idno type="Transkribus">15471223</idno><note>Source for transcription</note></bibl><bibl type="original"><title type="main" xml:lang="he">תורת הרמ"ל השלם</title><title type="main" xml:lang="en">Torat HaRamal HaShalem</title><author><persName xml:lang="he">מנחם מנדל אב"ד זאבילטוב</persName><persName xml:lang="en">Menachem Mendel, Abad Zabiletov</persName></author><pubPlace xml:lang="he">סיגט</pubPlace><pubPlace xml:lang="en">Sighet</pubPlace><date when="1903">תרס"ג</date><textLang mainLang="heb"/><idno type="HebrewBooks">3827</idno><idno type="Kima">99</idno><idno type="Transkribus">15471223</idno><idno type="DBid">3719</idno><idno type="work">73</idno></bibl></sourceDesc>
 		</fileDesc>
-	<revisionDesc><change when="2026-11-22">header in the shape of the online editions; page breaks restored from the Transkribus export</change><change when="2026-11-22">NER: DictaBERT, stories corrected with Gemini 2.5 Flash (not yet reviewed by hand); pipeline FLAGGED notes removed</change></revisionDesc></teiHeader>
+	<revisionDesc><change when="2026-11-22">header in the shape of the online editions; page breaks restored from the Transkribus export</change><change when="2026-11-22">NER: DictaBERT, stories corrected with Gemini 2.5 Flash (not yet reviewed by hand); pipeline FLAGGED notes removed</change><change when="2026-11-22">topic tags (LLM, confidence &gt;= 2) written for 5 stories; not reviewed by hand</change></revisionDesc></teiHeader>
    <text>
       <front><div type="front-matter"><p>
-               <pb facs="Torat-Haramal_0001.jpg" /><lb/>ספר
+               <pb facs="Torat-Haramal_0001.jpg"/><lb/>ספר
                <lb/>תורת ה<persName>רמ"ל</persName> השלם
                <lb/>אמרים נע<supplied reason="">י</supplied>מים, כנ<supplied reason="">י</supplied>ם ונאמנים, מדבש מת<supplied reason="">ו</supplied>קם מכ״ק אבי זקני הגאון דקדוש איש
                <lb/>אלקים <choice><corr>מופת</corr><sic>מיפת</sic></choice> ד<supplied reason="">ורו</supplied>, קדש <choice><corr>עליון</corr><sic>עליין</sic></choice> הלכו לאורו, רשבבה״ג בקש״ת <choice><corr>מו"ה</corr><sic>מי״ה</sic></choice> רבי
@@ -73,7 +73,7 @@
     </persName>           <lb/>הלוי ז"ל אבד"ק <placeName>האמבורג</placeName> ולמעלה בקודש גאוני עולם דור אחר <choice><corr>דור</corr><sic>דיר</sic></choice> נ"ע
             </p>
          <head>
-               <pb facs="Torat-Haramal_0002.jpg" /><lb/>הקדמת הרב המסדר, נכד המחבר</head>
+               <pb facs="Torat-Haramal_0002.jpg"/><lb/>הקדמת הרב המסדר, נכד המחבר</head>
             <p>
                <lb/>ישמחו הצדיקים ויעלזו החסידים בהגלות נגלות לעינינו את הס<name type="misc">׳</name> הק'
                <lb/>תורת ה<persName>רמ״</persName>ל השלם. דבר ולא חצי דבר. כליל תפארת אמרות
@@ -121,7 +121,7 @@
             <fw facs="#facs_2_tr_1743011056" place="bottom" type="catch">
                <lb/>יש</fw>
             <fw facs="#facs_3_tr_1743011055" type="running-head">
-               <pb facs="Torat-Haramal_0003.jpg" /><lb/>הקדמה
+               <pb facs="Torat-Haramal_0003.jpg"/><lb/>הקדמה
             </fw>
             <p>
                <lb/>יש קנקן חדש מלא ישן. ומה נעימים לי בזה דברי ה<persName>רמב״ן</persName> הק׳ ז״ל בתחלת דיני
@@ -161,7 +161,7 @@
                <lb/>עניניהם בכלל כל <placeName>ישראל</placeName> אכי<placeName>״</placeName>ר
             </p>
             <fw facs="#facs_4_tr_1743011069" type="pageNum" place="top">
-               <pb facs="Torat-Haramal_0004.jpg" /><lb/>ג</fw>
+               <pb facs="Torat-Haramal_0004.jpg"/><lb/>ג</fw>
             <fw facs="#facs_4_tr_1743011070" type="running-head">
                <lb/>הסכמות
             </fw>
@@ -236,7 +236,7 @@
          <head>
                <persName><lb/>יצחק במוהר"ר</persName> <persName>שלום יוסף</persName>.</head>
             <fw facs="#facs_5_tr_1743011059" type="running-head">
-               <persName><pb facs="Torat-Haramal_0005.jpg" /><lb/>ה</persName>סכמות
+               <persName><pb facs="Torat-Haramal_0005.jpg"/><lb/>ה</persName>סכמות
             </fw>
             <fw facs="#facs_5_tr_1743011062" type="pageNum" place="top">
                <lb/>ב״ה</fw>
@@ -295,7 +295,7 @@
          <head>
                <placeName><lb/>ישראל</placeName> כמוהר״ר <persName>אברהם יעקב</persName>.</head>
             <fw facs="#facs_6_tr_1743011053" type="running-head">
-               <pb facs="Torat-Haramal_0006.jpg" /><lb/>תורת הרמ<persName>״ל</persName>
+               <pb facs="Torat-Haramal_0006.jpg"/><lb/>תורת הרמ<persName>״ל</persName>
             </fw>
          <head>
                <lb/>ב<name type="work">ראשית</name></head>
@@ -351,7 +351,7 @@
             <fw facs="#facs_6_tr_1743011051" place="bottom" type="catch">
                <lb/>זה</fw>
             <fw facs="#facs_7_tr_1743011076" type="running-head">
-               <pb facs="Torat-Haramal_0007.jpg" /><lb/>תורת הרמ״ל
+               <pb facs="Torat-Haramal_0007.jpg"/><lb/>תורת הרמ״ל
             </fw>
          <head>
                <lb/>בראשית</head>
@@ -407,7 +407,7 @@
             <fw facs="#facs_7_tr_1743011072" place="bottom" type="catch">
                <lb/>יליד</fw>
             <fw facs="#facs_8_tr_1743011069" type="running-head">
-               <pb facs="Torat-Haramal_0008.jpg" /><lb/>תורת הרמ"ל
+               <pb facs="Torat-Haramal_0008.jpg"/><lb/>תורת הרמ"ל
             </fw>
          <head>
                <lb/>נח לך וירא</head>
@@ -464,7 +464,7 @@
             <fw facs="#facs_8_tr_1743011064" place="bottom" type="catch">
                <lb/>מלכות</fw>
             <fw facs="#facs_9_tr_1743011059" type="running-head">
-               <pb facs="Torat-Haramal_0009.jpg" /><lb/>תורת הרמ״ל
+               <pb facs="Torat-Haramal_0009.jpg"/><lb/>תורת הרמ״ל
             </fw>
          <head>
                <lb/>וירא תולדות</head>
@@ -519,7 +519,7 @@
             <fw facs="#facs_9_tr_1743011057" place="bottom" type="catch">
                <lb/>להתקיים</fw>
             <fw facs="#facs_10_tr_1743011056" type="running-head">
-               <pb facs="Torat-Haramal_0010.jpg" /><lb/>תורת הרמ״ל
+               <pb facs="Torat-Haramal_0010.jpg"/><lb/>תורת הרמ״ל
             </fw>
          <head>
                <lb/>תולדות ויצא</head>
@@ -577,7 +577,7 @@
             <fw facs="#facs_10_tr_1743011051" place="bottom" type="catch">
                <lb/>הדביקות</fw>
             <fw facs="#facs_11_tr_1743011072" type="running-head">
-               <pb facs="Torat-Haramal_0011.jpg" /><lb/>תורת הרמ״ל
+               <pb facs="Torat-Haramal_0011.jpg"/><lb/>תורת הרמ״ל
             </fw>
          <head>
                <lb/>וישלח וישב</head>
@@ -637,7 +637,7 @@
             <fw facs="#facs_11_tr_1743011066" place="bottom" type="catch">
                <lb/>לחם</fw>
             <fw facs="#facs_12_tr_1743011070" type="running-head">
-               <pb facs="Torat-Haramal_0012.jpg" /><lb/>תורת ה<persName>רמ</persName>״ל
+               <pb facs="Torat-Haramal_0012.jpg"/><lb/>תורת ה<persName>רמ</persName>״ל
             </fw>
          <head>
                <lb/>וישב דרוש חגוכה</head>
@@ -693,7 +693,7 @@
             <fw facs="#facs_12_tr_1743011066" place="bottom" type="catch">
                <lb/>וזה</fw>
             <fw facs="#facs_13_tr_1743011053" type="running-head">
-               <pb facs="Torat-Haramal_0013.jpg" /><lb/>תורת הרמ״ל
+               <pb facs="Torat-Haramal_0013.jpg"/><lb/>תורת הרמ״ל
             </fw>
             <fw facs="#facs_13_tr_1743011054" type="running-head">
                <lb/>וישב דרוש חנוכה
@@ -746,7 +746,7 @@
             <fw facs="#facs_13_tr_1743011052" place="bottom" type="catch">
                <lb/>כספירים</fw>
             <fw facs="#facs_14_tr_1743011064" type="running-head">
-               <pb facs="Torat-Haramal_0014.jpg" /><lb/>תורת הר"נ
+               <pb facs="Torat-Haramal_0014.jpg"/><lb/>תורת הר"נ
             </fw>
             <fw facs="#facs_14_tr_1743011065" type="running-head">
                <lb/>וישב דרוש חנוכה
@@ -803,7 +803,7 @@
             <fw facs="#facs_14_tr_1743011061" place="bottom" type="catch">
                <lb/>בטחון</fw>
             <fw facs="#facs_15_tr_1743011049" type="running-head">
-               <pb facs="Torat-Haramal_0015.jpg" /><lb/>תורת הרמ״ל
+               <pb facs="Torat-Haramal_0015.jpg"/><lb/>תורת הרמ״ל
             </fw>
             <fw facs="#facs_15_tr_1743011051" type="running-head">
                <lb/>מקץ ויחי שמות
@@ -859,7 +859,7 @@
             <fw facs="#facs_15_tr_1743011047" place="bottom" type="catch">
                <lb/>ועוד</fw>
             <fw facs="#facs_16_tr_1743011060" type="running-head">
-               <pb facs="Torat-Haramal_0016.jpg" /><lb/>תורת הרמ<persName>״ל</persName>
+               <pb facs="Torat-Haramal_0016.jpg"/><lb/>תורת הרמ<persName>״ל</persName>
             </fw>
             <fw facs="#facs_16_tr_1743011062" type="running-head">
                <name type="work"><lb/>שמות</name>
@@ -914,7 +914,7 @@
             <fw facs="#facs_16_tr_1743011058" place="bottom" type="catch">
                <lb/>מצד</fw>
             <fw facs="#facs_17_tr_1743011062" type="running-head">
-               <pb facs="Torat-Haramal_0017.jpg" /><lb/>תורת ה<persName>רמ״</persName>ל
+               <pb facs="Torat-Haramal_0017.jpg"/><lb/>תורת ה<persName>רמ״</persName>ל
             </fw>
             <fw facs="#facs_17_tr_1743011065" type="running-head">
                <lb/>בא בשלח משפטים
@@ -972,7 +972,7 @@
             <fw facs="#facs_17_tr_1743011059" place="bottom" type="catch">
                <lb/>אמרתי</fw>
             <fw facs="#facs_18_tr_1743011048" type="running-head">
-               <pb facs="Torat-Haramal_0018.jpg" /><lb/>תורת ה<persName>רמ</persName>״ל
+               <pb facs="Torat-Haramal_0018.jpg"/><lb/>תורת ה<persName>רמ</persName>״ל
             </fw>
             <fw facs="#facs_18_tr_1743011051" type="running-head">
                <lb/>משפטים תרומה תצוה
@@ -1030,7 +1030,7 @@
             <fw facs="#facs_18_tr_1743011046" place="bottom" type="catch">
                <lb/>לצאת</fw>
             <fw facs="#facs_19_tr_1743011054" type="running-head">
-               <pb facs="Torat-Haramal_0019.jpg" /><lb/>עת הר״מ״ל
+               <pb facs="Torat-Haramal_0019.jpg"/><lb/>עת הר״מ״ל
             </fw>
             <fw facs="#facs_19_tr_1743011056" type="running-head">
                <lb/>תצוה תשא ויקהל
@@ -1088,7 +1088,7 @@
             <fw facs="#facs_19_tr_1743011049" place="bottom" type="catch">
                <lb/>פתיים</fw>
             <fw facs="#facs_20_tr_1743011073" type="running-head">
-               <pb facs="Torat-Haramal_0020.jpg" /><lb/>תורת ה<persName>רמ</persName>״ל
+               <pb facs="Torat-Haramal_0020.jpg"/><lb/>תורת ה<persName>רמ</persName>״ל
             </fw>
             <fw facs="#facs_20_tr_1743011072" type="running-head">
                <lb/>ו<name type="work">יקהל</name> פקודי
@@ -1142,7 +1142,7 @@
             <fw facs="#facs_20_tr_1743011070" place="bottom" type="catch">
                <lb/>ומעשים</fw>
             <fw facs="#facs_21_tr_1743011070" type="running-head">
-               <pb facs="Torat-Haramal_0021.jpg" /><lb/>תורת הרמ״ל
+               <pb facs="Torat-Haramal_0021.jpg"/><lb/>תורת הרמ״ל
             </fw>
             <fw facs="#facs_21_tr_1743011072" type="running-head">
                <lb/>פקודי ויקרא אחרי
@@ -1199,7 +1199,7 @@
             <fw facs="#facs_21_tr_1743011065" place="bottom" type="catch">
                <lb/>שהוא</fw>
             <fw facs="#facs_22_tr_1743011049" type="running-head">
-               <pb facs="Torat-Haramal_0022.jpg" /><lb/>תורת הרמ״ל
+               <pb facs="Torat-Haramal_0022.jpg"/><lb/>תורת הרמ״ל
             </fw>
             <p>
                <name type="work"><lb/>אחרי אמיר בחר</name>
@@ -1255,7 +1255,7 @@
             <fw facs="#facs_22_tr_1743011046" place="bottom" type="catch">
                <lb/>אם</fw>
             <fw facs="#facs_23_tr_1743011061" type="running-head">
-               <pb facs="Torat-Haramal_0023.jpg" /><lb/>תורת ה<persName>רמ״ל</persName>
+               <pb facs="Torat-Haramal_0023.jpg"/><lb/>תורת ה<persName>רמ״ל</persName>
             </fw>
             <fw facs="#facs_23_tr_1743011063" type="running-head">
                <lb/>בחקותי במדבר
@@ -1307,7 +1307,7 @@
             <fw facs="#facs_23_tr_1743011060" place="bottom" type="catch">
                <lb/>במדרש</fw>
             <fw facs="#facs_24_tr_1743011061" type="running-head">
-               <pb facs="Torat-Haramal_0024.jpg" /><lb/>תורת הרמ״ל
+               <pb facs="Torat-Haramal_0024.jpg"/><lb/>תורת הרמ״ל
             </fw>
             <fw facs="#facs_24_tr_1743011064" type="running-head">
                <name type="work"><lb/>נשא</name> <name type="work">בהעלותך</name>
@@ -1366,7 +1366,7 @@
             <fw facs="#facs_24_tr_1743011058" place="bottom" type="catch">
                <lb/>ויקרא</fw>
             <fw facs="#facs_25_tr_1743011059" type="running-head">
-               <pb facs="Torat-Haramal_0025.jpg" /><lb/>תורת ה<persName>רמ"ל</persName>
+               <pb facs="Torat-Haramal_0025.jpg"/><lb/>תורת ה<persName>רמ"ל</persName>
             </fw>
             <fw facs="#facs_25_tr_1743011061" type="running-head">
                <lb/>בהעלותך <name type="work">שלח</name> <persName>קרח</persName>
@@ -1424,7 +1424,7 @@
             <fw facs="#facs_25_tr_1743011056" place="bottom" type="catch">
                <lb/>הלשון</fw>
             <fw facs="#facs_26_tr_1743011076" type="running-head">
-               <persName><pb facs="Torat-Haramal_0026.jpg" /><lb/>קרח</persName> ב<name type="work">לק פנחס</name> מסות
+               <persName><pb facs="Torat-Haramal_0026.jpg"/><lb/>קרח</persName> ב<name type="work">לק פנחס</name> מסות
             </fw>
             <fw facs="#facs_26_tr_1743011075" type="running-head">
                <name type="work"><lb/>תורת</name> הרב
@@ -1479,7 +1479,7 @@
             <fw facs="#facs_26_tr_1743011070" place="bottom" type="catch">
                <lb/>במדרש</fw>
             <fw facs="#facs_27_tr_1743011051" type="running-head">
-               <pb facs="Torat-Haramal_0027.jpg" /><lb/>תורת הרמ"ל
+               <pb facs="Torat-Haramal_0027.jpg"/><lb/>תורת הרמ"ל
             </fw>
             <fw facs="#facs_27_tr_1743011054" type="running-head">
                <name type="work"><lb/>דברים</name> ואתונן
@@ -1536,7 +1536,7 @@
             <fw facs="#facs_27_tr_1743011049" place="bottom" type="catch">
                <lb/>המדר״ת</fw>
             <fw facs="#facs_28_tr_1743011067" type="running-head">
-               <pb facs="Torat-Haramal_0028.jpg" /><lb/>תורת ה<persName>רמ</persName>״ל
+               <pb facs="Torat-Haramal_0028.jpg"/><lb/>תורת ה<persName>רמ</persName>״ל
             </fw>
             <fw facs="#facs_28_tr_1743011068" type="running-head">
                <lb/>ואתחנן עקב ראה
@@ -1600,7 +1600,7 @@
             <fw facs="#facs_28_tr_1743011062" place="bottom" type="catch">
                <lb/>וז״פ</fw>
             <fw facs="#facs_29_tr_1743011076" type="running-head">
-               <pb facs="Torat-Haramal_0029.jpg" /><lb/>תורת הרמ״ל
+               <pb facs="Torat-Haramal_0029.jpg"/><lb/>תורת הרמ״ל
             </fw>
             <fw facs="#facs_29_tr_1743011078" type="running-head">
                <lb/>ראה תבא נצבים
@@ -1659,7 +1659,7 @@
             <fw facs="#facs_29_tr_1743011072" place="bottom" type="catch">
                <lb/>השמים</fw>
             <fw facs="#facs_30_tr_1743011063" type="running-head">
-               <pb facs="Torat-Haramal_0030.jpg" /><lb/>תורת הרמ״כ
+               <pb facs="Torat-Haramal_0030.jpg"/><lb/>תורת הרמ״כ
             </fw>
             <fw facs="#facs_30_r_85" type="pageNum" place="top">
                <lb/>ברכה</fw>
@@ -1714,7 +1714,7 @@
             <fw facs="#facs_30_tr_1743011062" place="bottom" type="catch">
                <lb/>מהלל</fw>
             <fw facs="#facs_31_tr_1743011069" type="running-head">
-               <pb facs="Torat-Haramal_0031.jpg" /><lb/>תורת הרמ״ל
+               <pb facs="Torat-Haramal_0031.jpg"/><lb/>תורת הרמ״ל
             </fw>
             <fw facs="#facs_31_tr_1743011070" type="running-head">
                <lb/>מאמרי הלקוטים
@@ -1776,7 +1776,7 @@
             <fw facs="#facs_31_tr_1743011067" place="bottom" type="catch">
                <lb/>בחסדים</fw>
             <fw facs="#facs_32_tr_1743011070" type="running-head">
-               <pb facs="Torat-Haramal_0032.jpg" /><lb/>תורת הרמ״ל
+               <pb facs="Torat-Haramal_0032.jpg"/><lb/>תורת הרמ״ל
             </fw>
             <fw facs="#facs_32_tr_1743011072" type="running-head">
                <lb/>מאמרי הלקוטים
@@ -1834,7 +1834,7 @@
             <fw facs="#facs_32_tr_1743011069" place="bottom" type="catch">
                <lb/>שרים</fw>
             <fw facs="#facs_33_tr_1743011074" type="running-head">
-               <pb facs="Torat-Haramal_0033.jpg" /><lb/>תורת הרמ״ל
+               <pb facs="Torat-Haramal_0033.jpg"/><lb/>תורת הרמ״ל
             </fw>
             <fw facs="#facs_33_tr_1743011076" type="running-head">
                <lb/>מאמרי הלקיטים
@@ -1896,7 +1896,7 @@
             <fw facs="#facs_33_tr_1743011071" place="bottom" type="catch">
                <lb/>אינו</fw>
             <fw facs="#facs_34_tr_1743011051" type="running-head">
-               <pb facs="Torat-Haramal_0034.jpg" /><lb/>תורת
+               <pb facs="Torat-Haramal_0034.jpg"/><lb/>תורת
             </fw>
             <fw facs="#facs_34_tr_1743011053" type="running-head">
                <lb/>מאמרי הלקושים
@@ -1963,7 +1963,7 @@
             <fw facs="#facs_34_tr_1743011046" place="bottom" type="catch">
                <lb/>עליו</fw>
             <fw facs="#facs_35_tr_1743011058" type="running-head">
-               <pb facs="Torat-Haramal_0035.jpg" /><lb/>תורת הרמ״ל
+               <pb facs="Torat-Haramal_0035.jpg"/><lb/>תורת הרמ״ל
             </fw>
             <fw facs="#facs_35_tr_1743011060" type="running-head">
                <lb/>מאמרי הלקוטים
@@ -2028,7 +2028,7 @@
             <fw facs="#facs_35_tr_1743011053" place="bottom" type="catch">
                <lb/>ולא</fw>
             <fw facs="#facs_36_tr_1743011054" type="running-head">
-               <pb facs="Torat-Haramal_0036.jpg" /><lb/>תורת הרמ״ל
+               <pb facs="Torat-Haramal_0036.jpg"/><lb/>תורת הרמ״ל
             </fw>
             <fw facs="#facs_36_tr_1743011055" type="running-head">
                <lb/>מאמרי היקוטים
@@ -2093,7 +2093,7 @@
             <fw facs="#facs_36_tr_1743011046" place="bottom" type="catch">
                <lb/>מבקש</fw>
             <fw facs="#facs_37_tr_1743011079" type="running-head">
-               <pb facs="Torat-Haramal_0037.jpg" /><lb/>תורת הרמ״ל
+               <pb facs="Torat-Haramal_0037.jpg"/><lb/>תורת הרמ״ל
             </fw>
             <fw facs="#facs_37_tr_1743011080" type="running-head">
                <lb/>מאמרי הלקוטים
@@ -2158,7 +2158,7 @@
             <fw facs="#facs_37_tr_1743011074" place="bottom" type="catch">
                <lb/>מחמת</fw>
             <fw facs="#facs_38_tr_1743011057" type="running-head">
-               <pb facs="Torat-Haramal_0038.jpg" /><lb/>תורת הרמ״ל
+               <pb facs="Torat-Haramal_0038.jpg"/><lb/>תורת הרמ״ל
             </fw>
             <fw facs="#facs_38_tr_1743011058" type="running-head">
                <lb/>מאמרי הלקוטים
@@ -2216,7 +2216,7 @@
             <fw facs="#facs_38_tr_1743011054" place="bottom" type="catch">
                <lb/>מהמקבלי</fw>
             <fw facs="#facs_39_tr_1743011046" type="running-head">
-               <pb facs="Torat-Haramal_0039.jpg" /><lb/>תורת ה<persName>רמ״ל</persName>
+               <pb facs="Torat-Haramal_0039.jpg"/><lb/>תורת ה<persName>רמ״ל</persName>
             </fw>
             <fw facs="#facs_39_tr_1743011047" type="running-head">
                <lb/>מאמרי הלקיטים
@@ -2267,13 +2267,13 @@
             </p>
          </div><div type="non-story" ana="heading"><head>
                <lb/>מאמר מרגניתא טבא</head>
-            </div><div type="story" xml:id="Torat-Haramal_0001" n="1"><head type="storyHead">Torat-Haramal_0001</head>
+            </div><div type="story" xml:id="Torat-Haramal_0001" n="1"><head type="storyHead">Torat-Haramal_0001</head><span ana="ethics-and-emotions:charity; ethics-and-emotions:humility; folkloristics:story_type_virtues; social:relations_with_sinners" resp="#llm-tagging">תיוגים</span>
 <p>
                <lb/>(מד) בספר ה<name type="work">מאור הגדול</name> כתב בשם זקיני המחבר הק' ז"ל שפעם אחד
                <lb/>פיזר צדקה לאיש אחד רע מעללים והניח עצמו ריקן בלא
             </p>
             <fw facs="#facs_40_tr_1743011076" type="running-head">
-               <name type="work"><pb facs="Torat-Haramal_0040.jpg" /><lb/>תורת הרמ״ל</name>
+               <name type="work"><pb facs="Torat-Haramal_0040.jpg"/><lb/>תורת הרמ״ל</name>
             </fw>
             <fw facs="#facs_40_tr_1743011078" type="running-head">
                <name type="work"><lb/>מאמרי חלקוטים</name>
@@ -2287,7 +2287,7 @@
                <lb/>הקב"ה ידין אותי מדה כנגד מדה ויתן לי ג״כ הגם שאני לא טוב. (מובא בס׳
                <name type="work"><lb/>מנורת זהב</name>)
             </p>
-            </div><div type="story" xml:id="Torat-Haramal_0002" n="2"><head type="storyHead">Torat-Haramal_0002</head>
+            </div><div type="story" xml:id="Torat-Haramal_0002" n="2"><head type="storyHead">Torat-Haramal_0002</head><span ana="practice:prayer; practice:the_travels_of_the_tsaddik; practice:travel_to_other_tsaddik; social:inter_hasidic; supernatural:miracle" resp="#llm-tagging">תיוגים</span>
 <p>
                <lb/>(מה) אמר אשר שלשה עשר שנים רצופים למד אצל הגה"ק <persName>רר״ש
                <lb/>מ<placeName ana="bio">ניקלשבורג</placeName></persName>, <choice><corr>ואירע</corr><sic>ואירא</sic></choice> פ"ע ששמע שהה״ק מ<placeName>סדילקוב</placeName> בעל דגל
@@ -2304,7 +2304,7 @@
                <lb/>הי׳ לי קול כאשר שמעתם אותי מתפלל לפני התיבה, ב<placeName>בראד</placeName>, תדעו שזה הי'
                <lb/>קול נמוך מאד אבל לעת הזאת ביער הי' לי שאגת ארי׳ כמו <unclear>כי</unclear>
             </p>
-            </div><div type="story" xml:id="Torat-Haramal_0003" n="3"><head type="storyHead">Torat-Haramal_0003</head>
+            </div><div type="story" xml:id="Torat-Haramal_0003" n="3"><head type="storyHead">Torat-Haramal_0003</head><span ana="ethics-and-emotions:charity; ethics-and-emotions:joy; practice:music; social:marriage; supernatural:miracle; times:death; folkloristics:story_type_death_of_the_tsaddik; folkloristics:story_type_virtues; social:retrospective_recognition; women:mention_only" resp="#llm-tagging">תיוגים</span>
 <p>
                <lb/>(מו) פעם אחת עשה נשואין לחתן וכלה עניים והי' עומד מצד שניהם
                <lb/>והי' שמח מאד בהכנסת כלה לחופה בכלי זמר והי׳ אומר אז
@@ -2319,7 +2319,7 @@
                <lb/>החתונה והושיבו ב"ד על זאת, ואמרו להמזמרים שיזמרו זה הניגון וכן עשו.
                <lb/>(מובא בשהגה"ח ברמז המעשה זו)
             </p>
-            </div><div type="story" xml:id="Torat-Haramal_0004" n="4"><head type="storyHead">Torat-Haramal_0004</head>
+            </div><div type="story" xml:id="Torat-Haramal_0004" n="4"><head type="storyHead">Torat-Haramal_0004</head><span ana="ethics-and-emotions:resisting_temptation; practice:pidyon_shvuyim; practice:redemption_of_captives; practice:devekut; practice:prayer; social:inter_hasidic_master_disciple_relationship; social:relations_with_non_jews" resp="#llm-tagging">תיוגים</span>
 <p>
                <lb/>טז) פעם אחת הי' אצל שר אחד לפדות איזה שבוי אחד והוא עדיין
                <lb/>לא הי' טעם כלום באותו יום והי׳ עומד שם בבית התבשיל
@@ -2330,7 +2330,7 @@
                <lb/>שוין פאר געסין אין דעם תבשיל ואמר ע"ז הה״ק <persName>מוהרצ"ה</persName> ז"ל שכל צדיק יש
                <lb/>לו עולם בפ"ע יש שמרגיש זה בנשמת ויש ב<name type="work">ק"ש</name> ויש ב<name type="work">פסד"ז</name> ויש בתפלת <name type="work">שמ"ע</name>
                <lb/></p>
-</div><div type="story" xml:id="Torat-Haramal_0005" n="5"><head type="storyHead">Torat-Haramal_0005</head>
+</div><div type="story" xml:id="Torat-Haramal_0005" n="5"><head type="storyHead">Torat-Haramal_0005</head><span ana="ethics-and-emotions:virtues; practice:drinking_alcohol; not-a-hasidic-story:virtues; social:relations_with_non_jews" resp="#llm-tagging">תיוגים</span>
 <p>(מה) אמר הה״ק <choice><corr>ז"ל</corr><sic>ז״כ</sic></choice> שלמד אהבת ישראל מכפרי אחד שהי׳ במסובה עם
                <lb/>כפריים אחרים, וכטוב לבו ביין אמר לרעהו אהבת אותי או
                <lb/>לא ויענהו אהבתיך למאד ואומר הכפרי אתה תאמר אהבתני ולא תדע מה
@@ -2338,7 +2338,7 @@
             <fw facs="#facs_40_tr_1743011074" place="bottom" type="catch">
                <lb/>יחסר</fw>
             <fw facs="#facs_41_tr_1743011070" type="running-head">
-               <name type="work"><pb facs="Torat-Haramal_0041.jpg" /><lb/>תורת הרמ״ל</name>
+               <name type="work"><pb facs="Torat-Haramal_0041.jpg"/><lb/>תורת הרמ״ל</name>
             </fw>
             <fw facs="#facs_41_tr_1743011072" type="running-head">
                <name type="work"><lb/>מאמרי הלקושים</name>

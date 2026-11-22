@@ -1,0 +1,144 @@
+{
+ "unit": {
+  "kind": "hasidic_story",
+  "why": "A single anecdote: R. Moshe Leib of Sasov, hungry at a nobleman's house while ransoming a captive, overcomes his craving for a dish by recalling Shabbat Nishmat, and his disciple of Zidichov draws a teaching from it.",
+  "boundary_note": ""
+ },
+ "stories": [
+  {
+   "k": 1,
+   "start_quote": "פעם אחת הי' אצל שר אחד",
+   "end_quote": "ויש בפסד\"ז ויש בתפלת שמ\"ע",
+   "hasidic": true,
+   "summary_en": "While at a nobleman's house to ransom a captive and still fasting, R. Moshe Leib of Sasov was seized by craving at the smell of a costly dish but overcame it by recalling the delight of Shabbat Nishmat. He told this to his disciple R. Zvi Hirsh of Zidichov, who commented that each tzaddik has his own world, found in a different part of the prayer.",
+   "tags": [
+    {
+     "tag": "practice:pidyon_shvuyim",
+     "scope": "span",
+     "quotes": [
+      "אצל שר אחד לפדות איזה שבוי אחד"
+     ],
+     "confidence": 3,
+     "why": "His visit was to ransom a captive",
+     "quotes_failed": false
+    },
+    {
+     "tag": "practice:redemption_of_captives",
+     "scope": "span",
+     "quotes": [
+      "אצל שר אחד לפדות איזה שבוי אחד"
+     ],
+     "confidence": 3,
+     "why": "Duplicate of pidyon_shvuyim",
+     "quotes_failed": false
+    },
+    {
+     "tag": "social:relations_with_non_jews",
+     "scope": "span",
+     "quotes": [
+      "פעם אחת הי' אצל שר אחד"
+     ],
+     "confidence": 2,
+     "why": "He stays at a nobleman's house",
+     "quotes_failed": false
+    },
+    {
+     "tag": "ethics-and-emotions:resisting_temptation",
+     "scope": "span",
+     "quotes": [
+      "ועלה הריח בנפשו עד שאחזו כמעט בולמוס",
+      "האט שוין פאר געסין אין דעם תבשיל"
+     ],
+     "confidence": 3,
+     "why": "He overcomes his craving for the dish",
+     "quotes_failed": false
+    },
+    {
+     "tag": "ethics-and-emotions:lust",
+     "scope": "span",
+     "quotes": [
+      "ועלה הריח בנפשו עד שאחזו כמעט בולמוס"
+     ],
+     "confidence": 1,
+     "why": "Desire for food is the temptation",
+     "quotes_failed": false
+    },
+    {
+     "tag": "practice:prayer",
+     "scope": "span",
+     "quotes": [
+      "נשמת כל חי של שבת",
+      "יש שמרגיש זה בנשמת ויש בק\"ש"
+     ],
+     "confidence": 2,
+     "why": "The Nishmat prayer is his remedy, and the teaching is about parts of the liturgy",
+     "quotes_failed": false
+    },
+    {
+     "tag": "practice:devekut",
+     "scope": "span",
+     "quotes": [
+      "האט ער פיעל מעהר תענוג גיהאט"
+     ],
+     "confidence": 2,
+     "why": "Spiritual delight in prayer outweighs physical pleasure",
+     "quotes_failed": false
+    },
+    {
+     "tag": "social:inter_hasidic_master_disciple_relationship",
+     "scope": "span",
+     "quotes": [
+      "וספר לתלמודו הה״ק מוהרצ\"ה ז\"ל מזידיטשוב"
+     ],
+     "confidence": 2,
+     "why": "The master tells the episode to his disciple, who interprets it",
+     "quotes_failed": false
+    },
+    {
+     "tag": "practice:storytelling",
+     "scope": "span",
+     "quotes": [
+      "וספר לתלמודו הה״ק מוהרצ\"ה ז\"ל מזידיטשוב"
+     ],
+     "confidence": 1,
+     "why": "The tzaddik narrates his own experience",
+     "quotes_failed": false
+    },
+    {
+     "tag": "practice:sermon",
+     "scope": "span",
+     "quotes": [
+      "שכל צדיק יש לו עולם בפ\"ע"
+     ],
+     "confidence": 1,
+     "why": "The disciple's closing teaching",
+     "quotes_failed": false
+    },
+    {
+     "tag": "practice:asceticism",
+     "scope": "span",
+     "quotes": [
+      "לא הי' טעם כלום באותו יום"
+     ],
+     "confidence": 1,
+     "why": "He has not eaten all day and refrains from the food",
+     "quotes_failed": false
+    }
+   ],
+   "missing_concepts": [
+    "spiritual pleasure (תענוג) overcoming bodily appetite",
+    "each tzaddik's individual spiritual 'world' or root in a different part of prayer"
+   ],
+   "start_quote_found": true,
+   "end_quote_found": true
+  }
+ ],
+ "check": {
+  "non_vocab_tags": [],
+  "quotes": 13,
+  "quotes_not_found": 0
+ },
+ "id": "Torat-Haramal_0004",
+ "chars": 487,
+ "seconds": 18
+}

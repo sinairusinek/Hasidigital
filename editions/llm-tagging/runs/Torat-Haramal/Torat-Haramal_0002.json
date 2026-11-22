@@ -1,0 +1,104 @@
+{
+ "unit": {
+  "kind": "hasidic_story",
+  "why": "A single anecdote: R. Moshe Leib of Sasov meets the author of Degel Mahaneh Ephraim on the road, and in a forest his shout miraculously gathers a tenth man for the afternoon prayer.",
+  "boundary_note": "division ends mid-sentence ('כמו כי'); the end of the story appears truncated, and the next division begins a new numbered story (מו)"
+ },
+ "stories": [
+  {
+   "k": 1,
+   "start_quote": "אמר אשר שלשה עשר שנים רצופים",
+   "end_quote": "הי' לי שאגת ארי׳ כמו כי",
+   "hasidic": true,
+   "summary_en": "R. Moshe Leib, longing to see the Degel Mahaneh Ephraim of Sudylkow, who was travelling to the doctors in Lviv, meets him on the road and travels with him; in a forest at the time of the afternoon prayer, with only nine men, he cries out 'come to the synagogue', and a man far away hears it and comes to complete the minyan, and R. Moshe Leib explains that his voice then was like a lion's roar.",
+   "tags": [
+    {
+     "tag": "practice:travel_to_other_tsaddik",
+     "scope": "span",
+     "quotes": [
+      "ונכספה נפשו מאד לראותו ונסע ונפגשו באמצע הדרך"
+     ],
+     "confidence": 3,
+     "why": "He goes out to meet a tsaddik who is not his teacher R. Shmelke.",
+     "quotes_failed": false
+    },
+    {
+     "tag": "practice:the_travels_of_the_tsaddik",
+     "scope": "span",
+     "quotes": [
+      "ונסעו יחד ללותו ללבוב",
+      "והי׳ להם לנסוע כמה פרסאות דרך יער"
+     ],
+     "confidence": 3,
+     "why": "The story turns on the two tsaddikim's journey through the forest.",
+     "quotes_failed": false
+    },
+    {
+     "tag": "social:inter_hasidic",
+     "scope": "span",
+     "quotes": [
+      "ודלג הה״ק הרמ\"ל ז\"ל על עגלת הרב מסדילקוב"
+     ],
+     "confidence": 2,
+     "why": "Two Hasidic masters meet and interact.",
+     "quotes_failed": false
+    },
+    {
+     "tag": "practice:prayer",
+     "scope": "span",
+     "quotes": [
+      "כי דרכו הי' להתפלל תמיד במנין",
+      "שמעתם אותי מתפלל לפני התיבה"
+     ],
+     "confidence": 3,
+     "why": "The plot centres on praying the afternoon service with a minyan.",
+     "quotes_failed": false
+    },
+    {
+     "tag": "supernatural:miracle",
+     "scope": "span",
+     "quotes": [
+      "עד ששמע איש אחד ממרחק רב ורץ אחר הקול"
+     ],
+     "confidence": 2,
+     "why": "His shout is heard from a great distance and brings the tenth man.",
+     "quotes_failed": false
+    },
+    {
+     "tag": "practice:halakhah",
+     "scope": "span",
+     "quotes": [
+      "לא נמצא רק תשעה אנשים ועד עבור דרך היער יעבור זמן המנחה"
+     ],
+     "confidence": 1,
+     "why": "The problem is the quorum and the time limit for the afternoon prayer.",
+     "quotes_failed": false
+    },
+    {
+     "tag": "practice:sermon",
+     "scope": "span",
+     "quotes": [
+      "ואמר ויעקב הלך לדרכו ויפגעו בו מלאכי אלקים"
+     ],
+     "confidence": 1,
+     "why": "The tsaddik applies a verse to the meeting.",
+     "quotes_failed": false
+    }
+   ],
+   "missing_concepts": [
+    "need for a minyan (gathering a tenth man)",
+    "the power of the tsaddik's voice or cry"
+   ],
+   "start_quote_found": true,
+   "end_quote_found": true
+  }
+ ],
+ "check": {
+  "non_vocab_tags": [],
+  "quotes": 9,
+  "quotes_not_found": 0
+ },
+ "id": "Torat-Haramal_0002",
+ "chars": 859,
+ "seconds": 17
+}

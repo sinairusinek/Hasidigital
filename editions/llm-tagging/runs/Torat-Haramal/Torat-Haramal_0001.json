@@ -1,0 +1,93 @@
+{
+ "unit": {
+  "kind": "hasidic_story",
+  "why": "A short anecdote about the author's grandfather (R. Moshe Leib of Sasov) giving all his money to a wicked man and explaining why when his people ask him.",
+  "boundary_note": ""
+ },
+ "stories": [
+  {
+   "k": 1,
+   "start_quote": "בספר המאור הגדול כתב בשם זקיני",
+   "end_quote": "ויתן לי ג״כ הגם שאני לא טוב",
+   "hasidic": true,
+   "summary_en": "The tsaddik gives all his money to a man of bad deeds and is left penniless. When his followers ask why, he answers that he too is not good, so God will give to him measure for measure even though he is not good.",
+   "tags": [
+    {
+     "tag": "ethics-and-emotions:charity",
+     "scope": "span",
+     "quotes": [
+      "פיזר צדקה לאיש אחד רע מעללים",
+      "ואם אני נותן צדקה לאיש אשר הוא לא טוב"
+     ],
+     "confidence": 3,
+     "why": "Giving alms is the core act of the story.",
+     "quotes_failed": false
+    },
+    {
+     "tag": "ethics-and-emotions:humility",
+     "scope": "span",
+     "quotes": [
+      "והשיב גם אני לא טוב"
+     ],
+     "confidence": 3,
+     "why": "The tsaddik counts himself as not good.",
+     "quotes_failed": false
+    },
+    {
+     "tag": "social:relations_with_sinners",
+     "scope": "span",
+     "quotes": [
+      "לאיש אחד רע מעללים",
+      "לאיש הרע הזה"
+     ],
+     "confidence": 3,
+     "why": "The tsaddik gives charity to a wicked Jew.",
+     "quotes_failed": false
+    },
+    {
+     "tag": "folkloristics:story_type_virtues",
+     "scope": "story",
+     "quotes": [],
+     "confidence": 3,
+     "why": "The anecdote illustrates the tsaddik's charity and humility.",
+     "quotes_failed": false
+    },
+    {
+     "tag": "social:poverty",
+     "scope": "span",
+     "quotes": [
+      "והניח עצמו ריקן בלא פרוטה"
+     ],
+     "confidence": 1,
+     "why": "He leaves himself penniless of his own will.",
+     "quotes_failed": false
+    },
+    {
+     "tag": "social:inter_hasidic_master_disciple_relationship",
+     "scope": "span",
+     "quotes": [
+      "ושאלו אותו אנשיו, רבינו מפני מה"
+     ],
+     "confidence": 1,
+     "why": "His followers question their master, but the relationship is not central.",
+     "quotes_failed": false
+    }
+   ],
+   "missing_concepts": [
+    "measure for measure (מדה כנגד מדה) as divine reciprocity",
+    "charity to the unworthy",
+    "citation chain from earlier books (המאור הגדול, מנורת זהב)"
+   ],
+   "start_quote_found": true,
+   "end_quote_found": true
+  }
+ ],
+ "check": {
+  "non_vocab_tags": [],
+  "quotes": 7,
+  "quotes_not_found": 0
+ },
+ "id": "Torat-Haramal_0001",
+ "chars": 316,
+ "seconds": 11
+}

@@ -38,7 +38,10 @@ If a step is skipped on purpose, say so to Sinai before the upload and record it
     - Tag every division with `editions/llm-tagging/tagger.py`, the project's scheme. Its README has the vocabulary, the calibration and the caveats.
     - Write the tags into the XML as `<span ana="family:tag">`, in the form the curated editions use.
     - Mark the edition as LLM-tagged; the site labels the curation tier.
-    - Status 2026-11-22: the tagger writes JSON. The write-back to the XML is **not yet built**.
+    - How:
+      - `CLAUDE_CLI_BIN=… python3 editions/llm-tagging/tag_edition.py X.xml` runs one Opus call per division, on the Max plan, cached in `editions/llm-tagging/runs/{slug}/`. Divisions over 30,000 characters are skipped and listed.
+      - Then `python3 editions/llm-tagging/writeback.py X.xml --write`. It writes the tags (confidence ≥ 2) as `<span ana="…" resp="#llm-tagging">תיוגים</span>` after each storyHead, and adds `respStmt xml:id="llm-tagging"` to the header. It never overwrites curated tags, and it reports any story division the tagger judged not to be a story.
+      - First run: Torat-Haramal, 2026-11-22.
     - The vocabulary is `editions/llm-tagging/vocab.tsv`, not `legitimate-tags.tsv`.
 13. **Women tags.** These are the `women:*` tags (major / minor / catalyst / mention_only), part of the vocabulary in step 12. Check that they are present, because the women dashboard and the article read them.
 
