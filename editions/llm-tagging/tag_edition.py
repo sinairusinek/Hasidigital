@@ -29,6 +29,7 @@ def div_text(d):
 
     def walk(el):
         if el.tag in SKIP or (el.tag == T + 'head' and el.get('type') == 'storyHead') or \
+           (el is not d and el.tag == T + 'div' and el.get('type') == 'story') or \
            (el.tag == T + 'span' and (''.join(el.itertext()).strip() in ('תיוגים', 'תיוגים*'))):
             if el.tail:
                 out.append(el.tail)
@@ -46,11 +47,19 @@ def div_text(d):
 def divisions(root):
     """Top-level text divisions in reading order, with a stable id."""
     txt = root.find(T + 'text')
-    divs = [d for d in txt.iter(T + 'div') if d.get('type') in ('story', 'non-story', 'front-matter', 'unclear')
-            and not any(a.tag == T + 'div' and a.get('type') in ('story', 'non-story') for a in d.iterancestors())]
-    out = []
-    for i, d in enumerate(divs):
-        did = d.get(XID) or f"{d.get('type')}-{i + 1:03d}"
+    # a story div nested in a paratext div (split_embedded_story.py) is its own division;
+    # the paratext's text then excludes it (div_text)
+    divs = [d for d in txt.iter(T + 'div')
+            if (d.get('type') == 'story' and not any(a.get('type') == 'story' for a in d.iterancestors(T + 'div')))
+            or (d.get('type') in ('non-story', 'front-matter', 'unclear')
+                and not any(a.get('type') in ('story', 'non-story') for a in d.iterancestors(T + 'div')))]
+    out, i = [], 0
+    for d in divs:
+        nested = any(a.tag == T + 'div' for a in d.iterancestors()) and d.get('type') == 'story' and \
+            any(a.get('type') in ('non-story', 'front-matter', 'unclear') for a in d.iterancestors(T + 'div'))
+        if not nested:  # nested stories don't shift the fallback ids (= run cache names) of the rest
+            i += 1
+        did = d.get(XID) or f"{d.get('type')}-{i:03d}"
         out.append((did, d))
     return out
 

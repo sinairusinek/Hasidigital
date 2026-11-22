@@ -57,7 +57,8 @@ def main():
         kind = res['unit']['kind']
         stories = res.get('stories', [])
         if d.get('type') != 'story':
-            if stories:
+            split = [x for x in d.iter(T + 'div') if x.get('type') == 'story']
+            if stories and len(split) < len(stories):
                 report.append((did, d.get('type'), f'{kind}: contains {len(stories)} story(ies) — not tagged in XML',
                                '; '.join(s.get('summary_en', '')[:90] for s in stories)))
             continue
