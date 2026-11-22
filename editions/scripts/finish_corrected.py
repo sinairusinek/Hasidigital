@@ -20,7 +20,18 @@ from ner_pipeline.annotation_inserter import _unwrap_element
 src, out, bak, note = sys.argv[1:5]
 T = '{http://www.tei-c.org/ns/1.0}'
 ENT = {T + t for t in ('persName', 'placeName', 'orgName', 'date', 'name')}
-tree = etree.parse(src)
+raw = open(src, encoding='utf-8').read()
+# the inserter can write the same <anchor xml:id=X/> twice (an entity whose span
+# crosses a break); keep the first, as replay_gemini_correction.py does
+_seen = set()
+def _dedupe(m):
+    if m.group(1) in _seen:
+        return ''
+    _seen.add(m.group(1)); return m.group(0)
+raw2 = re.sub(r'<anchor xml:id="([^"]+)"\s*/>', _dedupe, raw)
+if raw2 != raw:
+    print('duplicate anchors dropped:', raw.count('<anchor') - raw2.count('<anchor'))
+tree = etree.ElementTree(etree.fromstring(raw2.encode('utf-8')))
 txt = tree.getroot().find(T + 'text')
 before = ''.join(txt.itertext())
 lbs = len(txt.findall('.//' + T + 'lb'))
