@@ -27,9 +27,9 @@ If a step is skipped on purpose, say so to Sinai before the upload and record it
    - Command: `python -m ner_pipeline.cli --input X.xml --correct --max-removal-pct 60 --output-suffix ""`.
    - Choosing the engine: see memory `project-ner-correction-engine-comparison`.
    - **Paid runs: pilot first, then ask Sinai to approve the measured cost.** Keep the `gemini-correction-log-*.tsv`.
-   - Only story divisions are corrected for now. Whether to correct non-story text is an open question to Gadi (Q5 in "Questions for Gadi", Nov 2026).
+   - Then the text outside stories (Sinai, 2026-11-22: paratext and non-story text are corrected and linked too, though the site does not show them): `python3 editions/scripts/correct_non_story.py X.xml X.xml` with `GEMINI_THINKING_BUDGET=1024`. Linked tags are never dropped or re-spanned.
 9. **Finish.** `editions/scripts/finish_corrected.py CORRECTED OUT BAK "note"`. It removes empty tags and FLAGGED notes, puts the root in the default namespace, writes the site header (`site_header.py`) and restores the page breaks (`restore_pb.py`).
-10. **Places.** Link places with the Kima pipeline (`Authorities/scripts/batch_link_places.py`, `apply_kima_*`). It links places in non-story text too; see step 8.
+10. **Places.** `python3 editions/scripts/link_places.py X.xml --write` links by exact name variant, in stories and outside them. It does not touch the Kima Review file. The names it leaves unmatched go to the Kima pipeline (`editions/kimatch/`).
 11. **Persons.** Link persons with Shidduch (`~/Documents/GitHub/Shidduch`). Not yet applied to any edition: say so at upload.
 
 ## C. Topics
@@ -41,6 +41,9 @@ If a step is skipped on purpose, say so to Sinai before the upload and record it
     - How:
       - `CLAUDE_CLI_BIN=… python3 editions/llm-tagging/tag_edition.py X.xml` runs one Opus call per division, on the Max plan, cached in `editions/llm-tagging/runs/{slug}/`. Divisions over 30,000 characters are skipped and listed.
       - Then `python3 editions/llm-tagging/writeback.py X.xml --write`. It writes the tags (confidence ≥ 2) as `<span ana="…" resp="#llm-tagging">תיוגים</span>` after each storyHead, and adds `respStmt xml:id="llm-tagging"` to the header. It never overwrites curated tags, and it reports any story division the tagger judged not to be a story.
+      - Story divisions the tagger judges to be teachings or fragments get a genre tag, `not-a-hasidic-story:sermon` or `not-a-hasidic-story:halakhah` (Sinai's option b: keep the author's division and mark its genre). `runs/{slug}/genre.json` overrides it.
+      - Stories found inside non-story divisions: `python3 editions/scripts/split_embedded_story.py X.xml --write`, **before** the write-back. Each such story becomes a story div nested in its paratext div (`subtype="in-…"`), so the site lists it. Then run its NER correction: `--correct --story-id ID1,ID2`.
+      - Queue for the remaining editions: `editions/llm-tagging/tag_queue.sh`.
       - First run: Torat-Haramal, 2026-11-22.
     - The vocabulary is `editions/llm-tagging/vocab.tsv`, not `legitimate-tags.tsv`.
 13. **Women tags.** These are the `women:*` tags (major / minor / catalyst / mention_only), part of the vocabulary in step 12. Check that they are present, because the women dashboard and the article read them.
