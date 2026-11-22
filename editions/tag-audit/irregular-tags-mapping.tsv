@@ -1,0 +1,53 @@
+current_tag	uses	stories	tagged_text	proposed	action	confidence	note
+kabbalah	31	31 stories in 6 editions	(story-level)	knowledge:esoteric	drop in 20 stories that already have knowledge:esoteric; replace in 11	sure	"knowledge:esoteric is defined as ""kabbalah, mystical doctrines""; the 11 are about the Zohar, Lurianic writings, ""black fire on white fire"". Same rule as the bare-halakhah triage. Replace in: Khal-Hasidim_0016/0080/0084/0182/0192/0249, Maase-Zadikim_0035, Shivhei-Habesht_0009/0091/0099, Shivhei-Harav_0019"
+practice:magic,besht_as_kabbalist	1	Shivhei-Habesht_0014	(story-level)	supernatural:magic; knowledge:practical_kabbalah	split (bad separator)	sure	knowledge:practical_kabbalah already on the story
+practice:prayer,experience:shaking_during_prayer	1	Shivhei-Habesht		practice:prayer; experience:trembling	split (bad separator)	sure	
+practice:ritual_bathing, practice:prayer	1	Shivhei-Habesht		practice:tvilah; practice:prayer	split (bad separator)	sure	
+practice:magic:make_it_rain	1	Shivhei-Habesht		supernatural:magic	replace	sure	double colon; magic lives in supernatural:
+clothing	6	Shivhei-Habesht_0002/0010/0013/0015/0029	פעלציל, חגורה, קלייד, טוזליק	practice:clothing	replace	sure	the tag exists
+seclusion	2	Shivhei-Habesht_0004, 0005B	התבודדות	practice:solitude	replace	sure	
+mikveh	2	Shivhei-Habesht_0004	בית המרחץ ובית הטבילה	spaces:mikveh	replace	sure	
+ritual-ablution	1	Shivhei-Habesht_0004	בית המרחץ ובית הטבילה	practice:tvilah	replace	sure	
+alien_thoughts	1	Shivhei-Habesht_0008A	מחשבה זרה	practice:coping_with_alien_thoughts	replace	sure	
+amulets	1	Shivhei-Habesht_0006	השמירות	practice:writing_amulets	replace	sure	already on the story
+assistant:scribe	1	Shivhei-Habesht_0005A	שהי׳ אצלו סופר	characters-and-roles:scribe	replace	sure	already on the story
+beverage:alcohol	2	Shivhei-Habesht_0110	"י""ש, חביו׳ דבש"	practice:drinking_alcohol	replace	sure	already on the story
+appearance_shaking	1	Shivhei-Habesht_0016	הרעד	experience:trembling	replace	sure	already on the story
+appearance:shaking	2	Shivhei-Habesht_0015	השראת השכינה; הארץ	experience:trembling	replace	likely	on the earth shaking as the Shekhinah rests
+appearance:death_like	1	Shivhei-Habesht_0015	…ועומדים בלי תנועה כמו גוסס	drop	drop	likely	ecstatic death-like state; experience:devekut and experience:enthusiasm already on the story
+advent_story	1	Shivhei-Habesht_0005B	התגלותו	folkloristics:story_type_advent	replace	sure	already on the story
+coronation	1	Shivhei-Habesht_0004	…ועשו ביער כסא… וקיבלו אותו לרב עליהם	times:inauguration	replace	likely	folkloristics:story_type_inauguration already on the story
+concealment	1	Shivhei-Habesht_0004	לא ידעו ממנו דבר	characters-and-roles:hidden_righteous	replace	sure	already on the story
+radiance	1	Shivhei-Habesht_0004	הסיר הבעש״ט את המסוה וראה הרב אור גדול	supernatural:light_or_fire_as_a_sign_of_righteousness	replace	sure	
+debate	1	Shivhei-Habesht_0004	…שאינו מניח תפילין… בחה״מ	practice:tefillin; practice:halakhah	replace	likely	tefillin on hol ha-moed; same span also carries ritual and sefarad_custom
+ritual	1	Shivhei-Habesht_0004	(same span as debate)	drop	drop	likely	covered by the debate row
+sefarad_custom	1	Shivhei-Habesht_0004	(same span as debate)	practice:halakhah	replace	likely	Sefardi custom of no tefillin on hol ha-moed
+ritual:debate	1	Shivhei-Habesht_0004	"נשק ר""ג את המזוזה והבעש״ט… ולא נשקה"	practice:halakhah; social:conflict	replace	likely	mezuzah custom, the rabbi angry
+ritual:third_meal	1	Shivhei-Habesht_0005A	בסעודה שלישית	times:shabbat	replace	sure	
+divination	1	Shivhei-Habesht_0008A	יודע אני שעסקת׳ במשנה אחרת	supernatural:perception	replace	sure	already on the story
+confirmation	1	Shivhei-Habesht_0007	כי באמת סומים אנחנו	social:retrospective_recognition	replace	sure	already on the story
+competition_with_doctor	1	Shivhei-Habesht_0008B	שלחו אחר דאקטער	social:competition	replace	sure	practice:healing already on the story
+spiritual_ascension	1	Shivhei-Habesht_0005A	"פע׳ א׳ הלכתי לג""ע"	experience:journey_to_heaven	replace	sure	already on the story
+esoteric-knowledge:divine_names	1	Shivhei-Habesht_0005B	(story-level)	practice:use_of_holy_names	replace	sure	
+esoteric-knowledge:prohibition	1	Shivhei-Habesht_0005B	(story-level)	knowledge:esoteric	replace	likely	prohibition on revealing esoteric knowledge; ethics-and-emotions:prohibitions already on the story
+tsaddik_protection	1	Shivhei-Habesht_0002	אם תשבעו לי שלא תפגעו ביהודי	practice:protection	replace	sure	
+tsaddik_relations_with_criminals	1	Shivhei-Habesht_0002	לסטים	social:relations_with_sinners	replace	likely	robbers; no closer tag
+non_jewish_property_owner	1	Shivhei-Habesht_0010	זופיצא	social:relations_with_non_jews	replace	sure	already on the story
+authority	1	Shivhei-Habesht_0012	…נוסע אליו בכל פעם לשמוע ממנו דברי תורה	social:inter_hasidic_master_disciple_relationship	replace	sure	already on the story
+poverty	1	Shivhei-Habesht_0005B	עני	social:poverty	replace	sure	
+animals	1	Shivhei-Habesht_0003	בצפרדע	drop	drop	likely	soul reincarnated in a frog; supernatural:reincarnation already on the story
+property:horse	2	Shivhei-Habesht_0011	סוס	drop	drop	likely	an object, not a topic; also possession:horse on the same word
+possession:horse	1	Shivhei-Habesht_0011	סוס	drop	drop	likely	as property:horse
+book:toldot_yaakov_yosef	1	Shivhei-Habesht_0015	תולדות יעקב	"drop (tag the title as <name type=""work"">)"	drop	likely	a book title is a named entity, not a topic
+economy:currency	2	Shivhei-Habesht_0110	אדומים, זהובי׳	"drop (tag as <name type=""currency"">)"	drop	likely	coins are handled by the currency annotation
+servant	1	Shivhei-Habesht_0003	משרת	drop	drop	likely	no role tag for servants
+double	2	Khal-Hasidim_0024, Maase-Zadikim_0008	והוא; כל	drop	drop	likely	on single function words; looks like a slip
+body:nails	1	Shivhei-Habesht_0005A	לא הי׳ לו על יד ימין צפרנים שלימים	drop	drop	you decide	a bodily detail; no tag for the body or appearance
+childhood	3	Shivhei-Habesht_0001	הילד; ילד (+ story-level)	drop, or a new tag (e.g. times:childhood)	you decide	you decide	the story of the Besht as a child; folkloristics:story_type_birth_of_the_tsaddik already on it
+complete	10	Shivhei-Habesht_0004/0005B/0008/0008B/0013/0016/0029	י״ב חלות; חלם; טאבק; ועסק ברפואתו…	drop	you decide	you decide	"not a topic; on unrelated phrases. Possibly an RA marker (""annotation complete""?)"
+custom	2	Khal-Hasidim_0174, Shivhei-Harav_0014	(story-level)	practice:halakhah, or a new tag (e.g. practice:custom)	you decide	you decide	minhag; in Shivhei-Harav_0014 the change of prayer rite
+not-a-hasidic-story	2	Shivhei-Habesht_0054, 0055	(story-level)	not-a-hasidic-story:? (hagiography / halakhah / sermon / virtues)	you decide	you decide	dreams of heaven and hell; which sub-type, or drop
+business:leasing	1	Shivhei-Habesht_0110	לשכור הארענדי	drop, or a new tag (e.g. social:arenda)	you decide	you decide	the arenda lease; no economy family
+financial-support-to-the-tsaddik	1	Shivhei-Habesht_0110	נתן לו קמחים ודגים באמנה	drop, or a new tag	you decide	you decide	gifts or credit to the tsaddik; no tag
+self_esteem	1	Shivhei-Habesht_0014	"א""ל שוטה הלא אור שבר׳ הקב""ה…"	ethics-and-emotions:pride, or drop	you decide	you decide	the Besht rebukes someone who doubts him
+folkloristics:story_type_ joke	1	Shivhei-Habesht_0124	(story-level)	folkloristics:story_type_joke (new) or practice:joke (exists)	you decide	you decide	"stray space split it into an empty ""story_type_"" and ""joke"""
