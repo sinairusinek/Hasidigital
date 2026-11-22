@@ -35,58 +35,28 @@ def _text_content(el):
 
 
 def _unwrap_element(el):
-    """Remove an element but keep its text and children in the parent."""
-    parent = el.getparent()
-    if parent is None:
-        return
-    idx = list(parent).index(el)
+    """Remove an element but keep its text and children in the parent.
 
-    # Merge el.text into preceding sibling's tail or parent's text
-    if el.text:
-        if idx > 0:
-            prev = parent[idx - 1]
-            prev.tail = (prev.tail or "") + el.text
-        else:
-            parent.text = (parent.text or "") + el.text
+    Uses the fixed ner_pipeline version: the copy that used to live here moved
+    children while iterating over them and put the tail before them, which
+    reordered text and lost <lb/> (same bug as the April 2026 Gemini pass).
+    """
+    from ner_pipeline.annotation_inserter import _unwrap_element as _fixed
+    _fixed(el)
 
-    # Move children into parent at the same position
-    for i, child in enumerate(el):
-        parent.insert(idx + i, child)
 
-    # Merge el.tail into the last moved child's tail or preceding text
-    if el.tail:
-        if len(el) > 0:
-            last_child = el[-1]  # but it's been moved — use parent[idx + len(el) - 1]
-            moved_last = parent[idx + len(list(el)) - 1]
-            moved_last.tail = (moved_last.tail or "") + el.tail
-        elif idx > 0:
-            prev = parent[idx - 1]
-            prev.tail = (prev.tail or "") + el.tail
-        else:
-            parent.text = (parent.text or "") + el.tail
-
-    parent.remove(el)
+_ENTITY_LOCALNAMES = {"persName", "placeName", "orgName", "date", "name", "rs"}
 
 
 def _remove_element_keep_text(el):
-    """Remove element, merging its text content into surrounding text."""
-    parent = el.getparent()
-    if parent is None:
-        return
-    idx = list(parent).index(el)
-    full_text = _text_content(el)
-    combined = (full_text or "") + (el.tail or "")
-
-    if idx > 0:
-        prev = parent[idx - 1]
-        prev.tail = (prev.tail or "") + combined
-    else:
-        parent.text = (parent.text or "") + combined
-
-    # Remove any children first (they become plain text)
-    for child in list(el):
-        el.remove(child)
-    parent.remove(el)
+    """Remove an entity element and any entity elements nested in it, keeping
+    all text in order. Break elements (<lb/>, <pb/>, <cb/>) are kept (the old
+    version deleted them)."""
+    nested = [d for d in el.iterdescendants()
+              if isinstance(d.tag, str) and etree.QName(d).localname in _ENTITY_LOCALNAMES]
+    for d in reversed(nested):
+        _unwrap_element(d)
+    _unwrap_element(el)
 
 
 # ── Fix 1: Remove empty self-closing NER tags ────────────────────────────────
