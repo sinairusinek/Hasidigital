@@ -1,4 +1,4 @@
-"""Wrap printer's catchwords left at the end of a division in <fw type="catchword">.
+"""Wrap printer's catchwords left at the end of a division in <fw type="catch">.
 
 Usage: mark_catchwords.py EDITION.xml BOUNDARIES.tsv [--write]
 Takes the rows of BOUNDARIES.tsv (from check/boundary_check.py) whose signals
@@ -36,7 +36,7 @@ for r in rows:
     if not stripped.endswith(word):
         print('SKIP', r['story_id'], 'prev ends', repr(stripped[-30:]), 'word', word); continue
     head, trail = stripped[:-len(word)], s[len(stripped):]
-    fw = etree.Element(T + 'fw', type='catchword'); fw.text = word; fw.tail = trail
+    fw = etree.Element(T + 'fw', type='catch'); fw.text = word; fw.tail = trail
     if attr == 'text':
         el.text = head; el.insert(0, fw)
     else:
