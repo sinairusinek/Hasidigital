@@ -10,6 +10,7 @@ text and the lb/pb count are unchanged. Log: gemini-correction-log-{slug}-non-st
 """
 import copy
 import os
+import re
 import shutil
 import subprocess
 import sys
@@ -32,17 +33,34 @@ def main():
     env = dict(os.environ)
     if '--engine' in sys.argv and sys.argv[sys.argv.index('--engine') + 1] == 'claude-cli':
         env['NER_CORRECTOR'] = 'claude-cli'
-    tmpd = Path(tempfile.mkdtemp())
-    tmp = tmpd / src.name
-    shutil.copy(src, tmp)
-    subprocess.run([sys.executable, '-m', 'ner_pipeline.cli', '--input', str(tmp), '--correct',
-                    '--story-id', '@non-story', '--max-removal-pct', '60', '--output-suffix', ''],
-                   cwd=ROOT, env=env, check=True)
+    if '--from-corrected' in sys.argv:  # finish a run whose Gemini part already ran
+        tmp = Path(sys.argv[sys.argv.index('--from-corrected') + 1])
+        tmpd = tmp.parent
+    else:
+        tmpd = Path(tempfile.mkdtemp())
+        tmp = tmpd / src.name
+        shutil.copy(src, tmp)
+        print('scratch copy:', tmp, flush=True)
+        subprocess.run([sys.executable, '-m', 'ner_pipeline.cli', '--input', str(tmp), '--correct',
+                        '--story-id', '@non-story', '--max-removal-pct', '60', '--output-suffix', ''],
+                       cwd=ROOT, env=env, check=True)
     log = tmpd / 'gemini-correction-log.tsv'
     if log.exists():
-        shutil.copy(log, src.parent / f'gemini-correction-log-{src.stem}-non-story.tsv')
+        d = ROOT / 'editions' / 'ner-logs'
+        d.mkdir(exist_ok=True)
+        shutil.copy(log, d / f'gemini-correction-log-{src.stem}-non-story.tsv')
     orig = etree.parse(str(src))
-    corr = etree.parse(str(tmp))
+    # the inserter can write the same <anchor xml:id=X/> twice (a tag ending at a <supplied>
+    # boundary); drop the repeats, as finish_corrected.py does
+    raw, seen = tmp.read_bytes().decode('utf-8'), set()
+
+    def _dedupe(m):
+        if m.group(1) in seen:
+            return ''
+        seen.add(m.group(1))
+        return m.group(0)
+    raw = re.sub(r'<anchor xml:id="([^"]+)"\s*/>', _dedupe, raw)
+    corr = etree.ElementTree(etree.fromstring(raw.encode('utf-8')))
     o_st, c_st = outer_stories(orig.getroot()), outer_stories(corr.getroot())
     assert len(o_st) == len(c_st), 'story count differs'
     for o, c in zip(o_st, c_st):
