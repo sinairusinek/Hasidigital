@@ -6,6 +6,9 @@ export CLAUDE_CLI_BIN=${CLAUDE_CLI_BIN:-~/.vscode/extensions/anthropic.claude-co
 L=editions/llm-tagging/logs
 for f in editions/incoming/ready/Shaarei-Haemuna.xml editions/incoming/ready/Eser-Kedushot.xml editions/incoming/ready/Eser-Orot.xml \
          editions/online/{Maim-Rabim,Derech-Haemuna,Likutim-Hadashim,Maasim-Tovim,Peulat-Hatzadikim,Seva-Ratzon,Tiferet-Hayyim,Toldot-Haniflaot}.xml; do
+  # a malformed JSON answer kills a run; finished divisions are cached, so retry
+  python3 editions/llm-tagging/tag_edition.py $f >> $L/$(basename $f .xml).log 2>&1 || \
+  python3 editions/llm-tagging/tag_edition.py $f >> $L/$(basename $f .xml).log 2>&1 || \
   python3 editions/llm-tagging/tag_edition.py $f >> $L/$(basename $f .xml).log 2>&1 || { echo "STOPPED at $f" >> $L/queue.log; exit 1; }
   echo "done $f $(date)" >> $L/queue.log
 done
@@ -13,6 +16,7 @@ done
 for f in editions/online/*.xml; do
   grep -q 'resp="#llm-tagging"' $f && continue
   case $(basename $f .xml) in Maim-Rabim|Derech-Haemuna|Likutim-Hadashim|Maasim-Tovim|Peulat-Hatzadikim|Seva-Ratzon|Tiferet-Hayyim|Toldot-Haniflaot) continue;; esac
+  python3 editions/llm-tagging/tag_edition.py $f --non-story-only >> $L/$(basename $f .xml).log 2>&1 || \
   python3 editions/llm-tagging/tag_edition.py $f --non-story-only >> $L/$(basename $f .xml).log 2>&1 || { echo "STOPPED at $f" >> $L/queue.log; exit 1; }
   echo "done $f $(date)" >> $L/queue.log
 done

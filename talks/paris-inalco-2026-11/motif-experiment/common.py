@@ -55,7 +55,12 @@ def parse_json(s: str) -> dict:
         s = m.group(1)
     else:
         s = s[s.find("{"): s.rfind("}") + 1]
-    return json.loads(s)
+    try:
+        return json.loads(s)
+    except json.JSONDecodeError:
+        # Hebrew abbreviations quoted unescaped inside a JSON string (מו"ה, ז"ל):
+        # a " between two Hebrew letters becomes gershayim
+        return json.loads(re.sub(r'(?<=[א-ת])"(?=[א-ת])', "״", s))
 
 
 def is_heading(code: str) -> bool:

@@ -9,7 +9,7 @@ for f in "$@"; do
   c=$(cost)
   if (( c > 8.8 )); then echo "BUDGET STOP at $f (spent \$$c)"; exit 2; fi
   echo "== $f (spent so far \$$c) $(date +%H:%M)"
-  python3 editions/scripts/correct_non_story.py $f $f > editions/ner-logs/last.out 2>&1 || { echo "FAILED $f"; tail -5 editions/ner-logs/last.out; exit 1; }
+  python3 editions/scripts/correct_non_story.py $f $f > editions/ner-logs/last.out 2>&1 || { echo "FAILED $f"; grep "scratch copy" editions/ner-logs/last.out; tail -3 editions/ner-logs/last.out; cp editions/ner-logs/last.out "editions/ner-logs/failed-$(basename $f .xml).out"; continue; }
   grep -E "^before|^after" editions/ner-logs/last.out
 done
 echo "ALL DONE, spent \$$(cost)"
