@@ -1,0 +1,99 @@
+{
+ "unit": {
+  "kind": "hasidic_story",
+  "why": "A short anecdote: R. Moshe Leib of Sassov gives away all his money as charity to a wicked man and, when his followers question him, explains why.",
+  "boundary_note": ""
+ },
+ "stories": [
+  {
+   "k": 1,
+   "start_quote": "בס׳ המאור הגדול כתב בשם הה״ק",
+   "end_quote": "ויתן לי ג״כ הגם שאני לא טוב",
+   "hasidic": true,
+   "summary_en": "R. Moshe Leib of Sassov gave all his money to a man of bad conduct, and when his followers asked why, he said that he too was not good and hoped God would repay him measure for measure.",
+   "tags": [
+    {
+     "tag": "ethics-and-emotions:charity",
+     "scope": "span",
+     "quotes": [
+      "פיזר צדקה לאיש א׳ רע מעללים",
+      "ואם אני נותן צדקה לאיש אשר לא טוב"
+     ],
+     "confidence": 3,
+     "why": "giving alms is the core of the story",
+     "quotes_failed": false
+    },
+    {
+     "tag": "ethics-and-emotions:humility",
+     "scope": "span",
+     "quotes": [
+      "והשיב גם אני לא טוב"
+     ],
+     "confidence": 3,
+     "why": "the tzaddik counts himself as not good",
+     "quotes_failed": false
+    },
+    {
+     "tag": "folkloristics:story_type_virtues",
+     "scope": "story",
+     "quotes": [],
+     "confidence": 3,
+     "why": "the story illustrates the tzaddik's charity and humility",
+     "quotes_failed": false
+    },
+    {
+     "tag": "social:relations_with_sinners",
+     "scope": "span",
+     "quotes": [
+      "לאיש א׳ רע מעללים",
+      "מפזר כל הונך לאיש הרע הזה"
+     ],
+     "confidence": 3,
+     "why": "the tzaddik gives to a wicked Jew",
+     "quotes_failed": false
+    },
+    {
+     "tag": "social:inter_hasidic_master_disciple_relationship",
+     "scope": "span",
+     "quotes": [
+      "ושאלו אותו אנשיו רבינו מפני מה"
+     ],
+     "confidence": 1,
+     "why": "his followers question their rebbe",
+     "quotes_failed": false
+    },
+    {
+     "tag": "social:poverty",
+     "scope": "span",
+     "quotes": [
+      "והניח עצמו ריקן בלא פרוטה"
+     ],
+     "confidence": 2,
+     "why": "he leaves himself penniless",
+     "quotes_failed": false
+    },
+    {
+     "tag": "not-a-hasidic-story:virtues",
+     "scope": "story",
+     "quotes": [],
+     "confidence": 1,
+     "why": "it opens a chapter 'on the matter of charity' in an ethical compilation",
+     "quotes_failed": false
+    }
+   ],
+   "missing_concepts": [
+    "measure for measure (מדה כנגד מדה) divine reciprocity"
+   ],
+   "start_quote_found": true,
+   "end_quote_found": true
+  }
+ ],
+ "check": {
+  "non_vocab_tags": [],
+  "quotes": 7,
+  "quotes_not_found": 0
+ },
+ "id": "Shaarei-Haemuna_0065",
+ "chars": 287,
+ "seconds": 12
+}

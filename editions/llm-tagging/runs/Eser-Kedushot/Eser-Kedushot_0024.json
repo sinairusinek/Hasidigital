@@ -1,0 +1,186 @@
+{
+ "unit": {
+  "kind": "hasidic_story",
+  "why": "The Komarno rebbe reports that his uncle and master, R. Zvi Hirsh, told him how he was expelled in disgrace from Brody on a Friday and then received a wondrous illumination in prayer.",
+  "boundary_note": ""
+ },
+ "stories": [
+  {
+   "k": 1,
+   "start_quote": "עוד בס׳ זוהר חי הנ\"ל בזה\"ל",
+   "end_quote": "בלב טהור וקדוש ונקי עכ״ל",
+   "hasidic": true,
+   "summary_en": "R. Zvi Hirsh tells his nephew-disciple that he still fears the kelipat nogah. He recounts being driven in disgrace out of Brody on a Friday, arriving home in Podkamin without Sabbath clothes, and then praying for light and feeling all his limbs ignite during prayer; the narrator adds that he habitually drew suffering on himself each Friday to receive divine light on the Sabbath.",
+   "tags": [
+    {
+     "tag": "ethics-and-emotions:fear",
+     "scope": "span",
+     "quotes": [
+      "עדיין הייתי מפחד האם אני חלילה בקליפת נוגה",
+      "עדיין בכל עת ורגע אני מפחד מזה"
+     ],
+     "confidence": 3,
+     "why": "He constantly fears being under the kelipat nogah.",
+     "quotes_failed": false
+    },
+    {
+     "tag": "ethics-and-emotions:shame",
+     "scope": "span",
+     "quotes": [
+      "גורש משם בעש\"ק בבזיון גדול ונורא",
+      "הרואה בעלבון הנעלבים ובלבבי הנשבר"
+     ],
+     "confidence": 3,
+     "why": "He is publicly humiliated by the expulsion.",
+     "quotes_failed": false
+    },
+    {
+     "tag": "ethics-and-emotions:humility",
+     "scope": "span",
+     "quotes": [
+      "ובלבבי הנשבר תן לי אור"
+     ],
+     "confidence": 2,
+     "why": "His broken-hearted self-abasement before God.",
+     "quotes_failed": false
+    },
+    {
+     "tag": "social:conflict",
+     "scope": "span",
+     "quotes": [
+      "בהיותו בעיר בראד גורש משם"
+     ],
+     "confidence": 2,
+     "why": "He is expelled from Brody, presumably by opponents.",
+     "quotes_failed": false
+    },
+    {
+     "tag": "times:shabbat",
+     "scope": "span",
+     "quotes": [
+      "ולא הי׳ לו בגדי שבת עד אחר התפלה",
+      "בעת התפלה וסעודה שלישית"
+     ],
+     "confidence": 3,
+     "why": "The events are framed by Friday and the Sabbath.",
+     "quotes_failed": false
+    },
+    {
+     "tag": "practice:clothing",
+     "scope": "span",
+     "quotes": [
+      "ולא הי׳ לו בגדי שבת עד אחר התפלה"
+     ],
+     "confidence": 2,
+     "why": "Lacking Sabbath garments marks his distress.",
+     "quotes_failed": false
+    },
+    {
+     "tag": "practice:prayer",
+     "scope": "span",
+     "quotes": [
+      "אמר לפני השי\"ת רבש״ע הרואה בעלבון הנעלבים",
+      "אן גיצונדען מאנע איברים בעת התפלה"
+     ],
+     "confidence": 3,
+     "why": "His prayer and the experience during it are central.",
+     "quotes_failed": false
+    },
+    {
+     "tag": "experience:enthusiasm",
+     "scope": "span",
+     "quotes": [
+      "האבין זיך אין מיר אן גיצונדען מאנע איברים"
+     ],
+     "confidence": 3,
+     "why": "His limbs 'ignited' during prayer: burning fervor.",
+     "quotes_failed": false
+    },
+    {
+     "tag": "practice:devekut",
+     "scope": "span",
+     "quotes": [
+      "לקבל בעת התפלה וסעודה שלישית אורו יתברך"
+     ],
+     "confidence": 2,
+     "why": "He receives divine light in rapt prayer.",
+     "quotes_failed": false
+    },
+    {
+     "tag": "experience:devekut",
+     "scope": "span",
+     "quotes": [
+      "שלא טעמתי מימי כזאת ולא אטעום"
+     ],
+     "confidence": 2,
+     "why": "He describes a unique mystical experience in prayer.",
+     "quotes_failed": false
+    },
+    {
+     "tag": "practice:asceticism",
+     "scope": "span",
+     "quotes": [
+      "והמשיך על עצמו יסורין ודוחק וצער בכל עש״ק"
+     ],
+     "confidence": 2,
+     "why": "He habitually took suffering on himself each Friday.",
+     "quotes_failed": false
+    },
+    {
+     "tag": "practice:storytelling",
+     "scope": "span",
+     "quotes": [
+      "וסיפר לי שבהיותו בעיר בראד"
+     ],
+     "confidence": 2,
+     "why": "The master narrates his own experience to his disciple.",
+     "quotes_failed": false
+    },
+    {
+     "tag": "social:inter_hasidic_master_disciple_relationship",
+     "scope": "span",
+     "quotes": [
+      "ואמר לי הקדוש מורי ורבי דודי",
+      "ואמר לי בני חביבי"
+     ],
+     "confidence": 2,
+     "why": "The intimate teaching exchange between master and disciple frames the story.",
+     "quotes_failed": false
+    },
+    {
+     "tag": "folkloristics:story_type_virtues",
+     "scope": "story",
+     "quotes": [],
+     "confidence": 2,
+     "why": "The tale illustrates the tzaddik's holy conduct and fear of sin.",
+     "quotes_failed": false
+    },
+    {
+     "tag": "characters-and-roles:the_family_of_the_tsaddik",
+     "scope": "span",
+     "quotes": [
+      "מורי ורבי דודי"
+     ],
+     "confidence": 1,
+     "why": "The master is the narrator's uncle, which is extended family only.",
+     "quotes_failed": false
+    }
+   ],
+   "missing_concepts": [
+    "kelipat nogah / fear of being in the realm of the husks",
+    "self-nullification (bittul) before the Sabbath",
+    "humiliation as a spiritual means"
+   ],
+   "start_quote_found": true,
+   "end_quote_found": true
+  }
+ ],
+ "check": {
+  "non_vocab_tags": [],
+  "quotes": 19,
+  "quotes_not_found": 0
+ },
+ "id": "Eser-Kedushot_0024",
+ "chars": 711,
+ "seconds": 21
+}

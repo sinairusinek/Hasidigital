@@ -26,12 +26,12 @@
 					TEI-Publisher Annotator and the XML-Planter, developed by DH-dev.com (Gil
 					Shalit).</p>
 			</publicationStmt>
-			<sourceDesc><bibl type="digital"><title>Digital scan from HebrewBooks.org</title><publisher>HebrewBooks.org</publisher><ptr target="https://hebrewbooks.org/3801" /><idno type="HebrewBooks">3801</idno><idno type="Transkribus">6577152</idno><note>Source for transcription</note></bibl><bibl type="original"><title type="main" xml:lang="he">פעולת הצדיקים</title><title type="main" xml:lang="en">Peulat HaTzadikim</title><author><persName xml:lang="he">יצחק צינגר</persName><persName xml:lang="en">Yitzhak Zinger</persName></author><pubPlace xml:lang="he">פאדגורזא</pubPlace><pubPlace xml:lang="en">Podgorze</pubPlace><date when="1900">תר&quot;ס</date><textLang mainLang="heb" /><idno type="HebrewBooks">3801</idno><idno type="Kima">168</idno><idno type="Transkribus">6577152</idno><idno type="DBid">3703</idno><idno type="work">56</idno></bibl></sourceDesc>
+			<sourceDesc><bibl type="digital"><title>Digital scan from HebrewBooks.org</title><publisher>HebrewBooks.org</publisher><ptr target="https://hebrewbooks.org/3801"/><idno type="HebrewBooks">3801</idno><idno type="Transkribus">6577152</idno><note>Source for transcription</note></bibl><bibl type="original"><title type="main" xml:lang="he">פעולת הצדיקים</title><title type="main" xml:lang="en">Peulat HaTzadikim</title><author><persName xml:lang="he">יצחק צינגר</persName><persName xml:lang="en">Yitzhak Zinger</persName></author><pubPlace xml:lang="he">פאדגורזא</pubPlace><pubPlace xml:lang="en">Podgorze</pubPlace><date when="1900">תר"ס</date><textLang mainLang="heb"/><idno type="HebrewBooks">3801</idno><idno type="Kima">168</idno><idno type="Transkribus">6577152</idno><idno type="DBid">3703</idno><idno type="work">56</idno></bibl></sourceDesc>
 		</fileDesc>
 	<revisionDesc><change when="2026-04-29">sourceDesc synced from edition-metadata.json</change><change when="2026-11-21">text repaired: Gemini correction pass replayed without the tag-stripping bug that shuffled text (58f4166); later tag edits carried over</change><change when="2026-11-21">header in the shape of the online editions; page breaks restored from the Transkribus export</change></revisionDesc></teiHeader>
 	<text>
 		<front><div type="front-matter"><p>
-					<pb facs="Peulat-Hatzadikim_0001.jpg" /><lb/>ספר
+					<pb facs="Peulat-Hatzadikim_0001.jpg"/><lb/>ספר
 					<lb/>פעולת הצדיקים
 					<lb/>קבוצת מאמרים, פנינים יקרים, סיפורים נוראים, ודברים
 					<lb/>נפלאים, גם יכלל בתוכו חידושים וביאורים, מאירים
@@ -50,7 +50,7 @@
 				</div></front><body>
 			<div type="story" xml:id="Peulat-Hatzadikim_0001" n="1"><head type="storyHead">Peulat-Hatzadikim_0001</head>
 <p>
-					<pb facs="Peulat-Hatzadikim_0002.jpg" /><lb/>מהה"ק ר׳ <persName>אהרן משה מ<placeName ana="bio">בראד</placeName></persName> ז״ל
+					<pb facs="Peulat-Hatzadikim_0002.jpg"/><lb/>מהה"ק ר׳ <persName>אהרן משה מ<placeName ana="bio">בראד</placeName></persName> ז״ל
 				</p>
 				<p>
 					<lb/>הה"ק <persName>רא״מ</persName> תלמיד להק׳ מ<placeName>לובלין</placeName> נסע פ"א לדרכו ויהי כי בא אל המלון
@@ -98,7 +98,7 @@
 					<lb/>רכוותי
 				</p>
 				<p>
-					<pb facs="Peulat-Hatzadikim_0003.jpg" /><lb/>מהה"ק מ<persName>הרא"ל מלאנצוט</persName>
+					<pb facs="Peulat-Hatzadikim_0003.jpg"/><lb/>מהה"ק מ<persName>הרא"ל מלאנצוט</persName>
 				</p>
 				<p>
 					<lb/>דכוותי ואנשי <placeName>קעשיגוב</placeName> קבלו אותו לר״מ בכבוד ושמחה רבה ויהי׳ לתשובת
@@ -147,7 +147,7 @@
 				</p>
 				</div><div type="story" xml:id="Peulat-Hatzadikim_0004" n="4"><head type="storyHead">Peulat-Hatzadikim_0004</head>
 <p>
-					<pb facs="Peulat-Hatzadikim_0004.jpg" /><lb/>מהה"ק ר׳ <persName>אהרן מ<placeName ana="bio">קארלין</placeName></persName> ז"ל
+					<pb facs="Peulat-Hatzadikim_0004.jpg"/><lb/>מהה"ק ר׳ <persName>אהרן מ<placeName ana="bio">קארלין</placeName></persName> ז"ל
 				</p>
 				<p>
 					<lb/>כשנסתלק הה״ק הנ"ל ועלה למרום הספידו תלמידו הקדוש ר׳ <persName>שלמו
@@ -197,7 +197,7 @@
 					<lb/>האורח
 				</p>
 				<p>
-					<pb facs="Peulat-Hatzadikim_0005.jpg" /><lb/>מהגה"ק רבי ר׳ <persName>אביש מ<placeName ana="bio">פפד״מ</placeName></persName> זצ״ל
+					<pb facs="Peulat-Hatzadikim_0005.jpg"/><lb/>מהגה"ק רבי ר׳ <persName>אביש מ<placeName ana="bio">פפד״מ</placeName></persName> זצ״ל
 				</p>
 				<p>
 					<lb/>האורח והגיר לו כי לא רעב הוא רק לנסותו בא אם יגיע לבל עם
@@ -249,7 +249,7 @@
 					<lb/>95
 				</p>
 				<p>
-					<pb facs="Peulat-Hatzadikim_0006.jpg" /><lb/>מהצה״ק רבי ר׳ <persName>אלימלך מליזענסק</persName>
+					<pb facs="Peulat-Hatzadikim_0006.jpg"/><lb/>מהצה״ק רבי ר׳ <persName>אלימלך מליזענסק</persName>
 				</p>
 				<p>
 					<lb/>לי התמנות זה או התמנות אחר הן אנכי פזרתי כל הוני ורכושי
@@ -293,7 +293,7 @@
 					<lb/>דבר
 				</p>
 				<p>
-					<pb facs="Peulat-Hatzadikim_0007.jpg" /><lb/>מהצה״ק רבי ר׳ <persName>אלימלך מליזענסק</persName>
+					<pb facs="Peulat-Hatzadikim_0007.jpg"/><lb/>מהצה״ק רבי ר׳ <persName>אלימלך מליזענסק</persName>
 				</p>
 				<p>
 					<lb/>דבר שלא כרצון אביך ואז תשב לבטח בהיכל המלך ועיניך תחזנה המלך
@@ -341,7 +341,7 @@
 				</p>
 				</div><div type="story" xml:id="Peulat-Hatzadikim_0011" n="11"><head type="storyHead">Peulat-Hatzadikim_0011</head>
 <p>
-					<pb facs="Peulat-Hatzadikim_0008.jpg" /><lb/>הרב הקדוש ר׳ <persName>יעקב יצחק מ<placeName ana="bio">לובלין</placeName></persName> זצ״ל
+					<pb facs="Peulat-Hatzadikim_0008.jpg"/><lb/>הרב הקדוש ר׳ <persName>יעקב יצחק מ<placeName ana="bio">לובלין</placeName></persName> זצ״ל
 				</p>
 				<p>
 					<lb/>בעת שהי׳ הה״ק רבי ר׳ <persName>אישא</persName> ז"ל ונד בכל עיר ועיר וטרם ידעו
@@ -380,7 +380,7 @@
 					<persName><lb/>שלמה</persName>
 				</p>
 				<p>
-					<pb facs="Peulat-Hatzadikim_0009.jpg" /><lb/>הה"ק מ<placeName>לובלין</placeName> זצ״ל
+					<pb facs="Peulat-Hatzadikim_0009.jpg"/><lb/>הה"ק מ<placeName>לובלין</placeName> זצ״ל
 				</p>
 				<p>
 					<persName><lb/>שלמה</persName> הוא מסדר הי״ב חלות טרם בואו מחמרחץ והי׳ דרכו בקודש
@@ -428,7 +428,7 @@
 					<lb/>האיש
 				</p>
 				<p>
-					<pb facs="Peulat-Hatzadikim_0010.jpg" /><lb/>הה"ק מ<placeName>לובלין</placeName> זצ״ל
+					<pb facs="Peulat-Hatzadikim_0010.jpg"/><lb/>הה"ק מ<placeName>לובלין</placeName> זצ״ל
 				</p>
 				<p>
 					<lb/>האיש הדופק בפתח הוא אחד מהג׳ תלמידים שיש לי שאינם שובחים
@@ -486,7 +486,7 @@
 					<lb/>פ״א
 				</p>
 				<p>
-					<pb facs="Peulat-Hatzadikim_0011.jpg" /><lb/>הה"ק מ<placeName>לובלין</placeName> זצ"ל
+					<pb facs="Peulat-Hatzadikim_0011.jpg"/><lb/>הה"ק מ<placeName>לובלין</placeName> זצ"ל
 				</p>
 				</div><div type="story" xml:id="Peulat-Hatzadikim_0020" n="20"><head type="storyHead">Peulat-Hatzadikim_0020</head>
 <p>
@@ -543,7 +543,7 @@
 					<lb/>ואמר
 				</p>
 				<p>
-					<pb facs="Peulat-Hatzadikim_0012.jpg" /><lb/>הה"ק מ<placeName>לובלין</placeName> זצ״ל
+					<pb facs="Peulat-Hatzadikim_0012.jpg"/><lb/>הה"ק מ<placeName>לובלין</placeName> זצ״ל
 				</p>
 				<p>
 					<lb/>ואמר לו תלמידו הקדוש מ<placeName>לובלין</placeName> אם יתן לי רבינו רשות אענה גם אני
@@ -601,7 +601,7 @@
 					<lb/>פ"א
 				</p>
 				<p>
-					<pb facs="Peulat-Hatzadikim_0013.jpg" /><lb/>הה"ק מ<placeName>לובלין</placeName> זצ״ל
+					<pb facs="Peulat-Hatzadikim_0013.jpg"/><lb/>הה"ק מ<placeName>לובלין</placeName> זצ״ל
 				</p>
 				</div><div type="story" xml:id="Peulat-Hatzadikim_0028" n="28"><head type="storyHead">Peulat-Hatzadikim_0028</head>
 <p>
@@ -654,7 +654,7 @@
 					<lb/>אליו
 				</p>
 				<p>
-					<pb facs="Peulat-Hatzadikim_0014.jpg" /><lb/>ל 22
+					<pb facs="Peulat-Hatzadikim_0014.jpg"/><lb/>ל 22
 				</p>
 				<p>
 					<lb/>אליו עד אור הבוקר והנה התפללו כולם וביניהם גם האברך הנזכר
@@ -699,7 +699,7 @@
 				</p>
 				</div><div type="story" xml:id="Peulat-Hatzadikim_0031" n="31"><head type="storyHead">Peulat-Hatzadikim_0031</head>
 <p>
-					<pb facs="Peulat-Hatzadikim_0015.jpg" /><lb/>הה"ק ר׳ <persName>יצחק מ<placeName ana="bio">דראהביטש</placeName></persName> ז״ל
+					<pb facs="Peulat-Hatzadikim_0015.jpg"/><lb/>הה"ק ר׳ <persName>יצחק מ<placeName ana="bio">דראהביטש</placeName></persName> ז״ל
 				</p>
 				<p>
 					<lb/>אמר כשאני רוצה לנסוע על הדרך להוכיח את בני ישראל ולקבל
@@ -735,7 +735,7 @@
 				</p>
 				</div><div type="story" xml:id="Peulat-Hatzadikim_0033" n="33"><head type="storyHead">Peulat-Hatzadikim_0033</head>
 <p>
-					<pb facs="Peulat-Hatzadikim_0016.jpg" /><lb/>הה"ק ר׳ <persName>יהודא צבי</persName> ז״ל <placeName>מראזלא</placeName>
+					<pb facs="Peulat-Hatzadikim_0016.jpg"/><lb/>הה"ק ר׳ <persName>יהודא צבי</persName> ז״ל <placeName>מראזלא</placeName>
 				</p>
 				<p>
 					<persName><lb/>ה</persName>וא הי׳ אומר פירש התפלה בי זובר כל הנשבחות אתה הוא מעולם
@@ -784,7 +784,7 @@
 					<lb/>אויף
 				</p>
 				<p>
-					<pb facs="Peulat-Hatzadikim_0017.jpg" /><lb/>הה"ק מ<placeName>ראזלא</placeName> ז״ל
+					<pb facs="Peulat-Hatzadikim_0017.jpg"/><lb/>הה"ק מ<placeName>ראזלא</placeName> ז״ל
 				</p>
 				<p>
 					<lb/>אויף איחר האבין מיר זיך בארעכינט אינזער צער וועלין מיר שאחן
@@ -833,7 +833,7 @@
 				</p>
 				</div><div type="story" xml:id="Peulat-Hatzadikim_0039" n="39"><head type="storyHead">Peulat-Hatzadikim_0039</head>
 <p>
-					<pb facs="Peulat-Hatzadikim_0018.jpg" /><lb/>הה"ק ר׳ <persName>ישראל מ<placeName ana="bio">ריזין</placeName></persName> ז״ל
+					<pb facs="Peulat-Hatzadikim_0018.jpg"/><lb/>הה"ק ר׳ <persName>ישראל מ<placeName ana="bio">ריזין</placeName></persName> ז״ל
 				</p>
 				<p>
 					<lb/>הוא הי׳ אומר פי׳ הפסוק והיה אם שכוח תשכח את ד׳ אלקיך אין
@@ -891,7 +891,7 @@
 					<lb/>היום
 				</p>
 				<p>
-					<pb facs="Peulat-Hatzadikim_0019.jpg" /><lb/>הה"ק ר׳ <persName>ישראל מ<placeName ana="bio">ריזין</placeName></persName> ז
+					<pb facs="Peulat-Hatzadikim_0019.jpg"/><lb/>הה"ק ר׳ <persName>ישראל מ<placeName ana="bio">ריזין</placeName></persName> ז
 				</p>
 				<p>
 					<lb/>היום המוגבל. ואם כי כיום ההוא לא נפל בגודלו ללכת שמה לשמור.
@@ -932,7 +932,7 @@
 				</p>
 				</div><div type="story" xml:id="Peulat-Hatzadikim_0045" n="45"><head type="storyHead">Peulat-Hatzadikim_0045</head>
 <p>
-					<pb facs="Peulat-Hatzadikim_0020.jpg" /><lb/>הה"ק ר׳ <persName>ליזר</persName> בהגה"ק <persName>ר״י חריף</persName> ז"ל מ<placeName>אהביטש</placeName>
+					<pb facs="Peulat-Hatzadikim_0020.jpg"/><lb/>הה"ק ר׳ <persName>ליזר</persName> בהגה"ק <persName>ר״י חריף</persName> ז"ל מ<placeName>אהביטש</placeName>
 				</p>
 				<p>
 					<lb/>הוא הי׳ תלמיד הקדוש ר״ר <persName>וישא</persName> ז"ל ופ״א בקש את רבו שיובל לעמוד
@@ -979,7 +979,7 @@
 					<lb/>פ״א
 				</p>
 				<p>
-					<pb facs="Peulat-Hatzadikim_0021.jpg" /><lb/>מהה"ק ר׳ <persName>מנחם מענדיל מרימאנוב</persName> זצ״ל
+					<pb facs="Peulat-Hatzadikim_0021.jpg"/><lb/>מהה"ק ר׳ <persName>מנחם מענדיל מרימאנוב</persName> זצ״ל
 				</p>
 				</div><div type="story" xml:id="Peulat-Hatzadikim_0047" n="47"><head type="storyHead">Peulat-Hatzadikim_0047</head>
 <p>
@@ -1031,7 +1031,7 @@
 					<lb/>איש
 				</p>
 				<p>
-					<persName><pb facs="Peulat-Hatzadikim_0022.jpg" /><lb/>אתלי</persName> זצ"ל <persName>אבד״ק ראפשיץ</persName>
+					<persName><pb facs="Peulat-Hatzadikim_0022.jpg"/><lb/>אתלי</persName> זצ"ל <persName>אבד״ק ראפשיץ</persName>
 					<lb/>הה"ק ר׳ נא
 				</p>
 				</div><div type="story" xml:id="Peulat-Hatzadikim_0050" n="50"><head type="storyHead">Peulat-Hatzadikim_0050</head>
@@ -1089,7 +1089,7 @@
 					<lb/>אמר
 				</p>
 				<p>
-					<pb facs="Peulat-Hatzadikim_0023.jpg" /><lb/>הה"ק ר׳ <persName>צבי הירש מ<placeName ana="bio">זידיטשוב</placeName></persName> ז״ל
+					<pb facs="Peulat-Hatzadikim_0023.jpg"/><lb/>הה"ק ר׳ <persName>צבי הירש מ<placeName ana="bio">זידיטשוב</placeName></persName> ז״ל
 				</p>
 				</div><div type="story" xml:id="Peulat-Hatzadikim_0055" n="55"><head type="storyHead">Peulat-Hatzadikim_0055</head>
 <p>
@@ -1133,7 +1133,7 @@
 				</p>
 				</div><div type="story" xml:id="Peulat-Hatzadikim_0058" n="58"><head type="storyHead">Peulat-Hatzadikim_0058</head>
 <p>
-					<pb facs="Peulat-Hatzadikim_0024.jpg" /><lb/>מעשה מא' מן הל"ו צדיקים
+					<pb facs="Peulat-Hatzadikim_0024.jpg"/><lb/>מעשה מא' מן הל"ו צדיקים
 				</p>
 				<p>
 					<lb/>יען כי דברנו בזה כי גדול השתתפות ישראל בצער חביריהם. לבן
@@ -1180,7 +1180,7 @@
 					<date><lb/>1784</date>
 				</p>
 				<p>
-					<pb facs="Peulat-Hatzadikim_0025.jpg" /><lb/>מעשה מא' מל"ו צדיקים
+					<pb facs="Peulat-Hatzadikim_0025.jpg"/><lb/>מעשה מא' מל"ו צדיקים
 				</p>
 				<p>
 					<lb/>נצח אל יעזבנו ואל יטשנו כי אז אתה תמלא מקום הפאפסט ואמנה לא
@@ -1229,7 +1229,7 @@
 					<lb/>הזה
 				</p>
 				<p>
-					<pb facs="Peulat-Hatzadikim_0026.jpg" /><lb/>מעשה מא׳ מל"ו צדיקים
+					<pb facs="Peulat-Hatzadikim_0026.jpg"/><lb/>מעשה מא׳ מל"ו צדיקים
 				</p>
 				<p>
 					<lb/>הזה את שקו ויאזרהו ללבת בשמחה אל הקארריגאל הראשון לאמר לו
@@ -1261,7 +1261,7 @@
 				</p>
 				</div><div type="story" xml:id="Peulat-Hatzadikim_0059" n="59"><head type="storyHead">Peulat-Hatzadikim_0059</head>
 <p>
-					<pb facs="Peulat-Hatzadikim_0027.jpg" /><lb/>מעשה מהחייט
+					<pb facs="Peulat-Hatzadikim_0027.jpg"/><lb/>מעשה מהחייט
 				</p>
 				<p>
 					<lb/>ומדי דברי במשטמת הישמעאלים אספר עוד מעשה נפלאה אשר בה
@@ -1309,7 +1309,7 @@
 					<lb/>ישוריו
 				</p>
 				<p>
-					<pb facs="Peulat-Hatzadikim_0028.jpg" /><lb/>מעשה מהחייט
+					<pb facs="Peulat-Hatzadikim_0028.jpg"/><lb/>מעשה מהחייט
 				</p>
 				<p>
 					<lb/>ישורון לבר המצוה הגדולה אשר תהי׳ על ידו. והכריזו שנים ושלשה
@@ -1359,7 +1359,7 @@
 					<lb/>יא
 				</p>
 				<p>
-					<pb facs="Peulat-Hatzadikim_0029.jpg" /><lb/>מעשה מהחייט
+					<pb facs="Peulat-Hatzadikim_0029.jpg"/><lb/>מעשה מהחייט
 				</p>
 				<p>
 					<lb/>עוד אתנו יודע כי לקחתם עבור המלכה (וכן הי׳ כי חג אחת בשנה הגגו
@@ -1410,7 +1410,7 @@
 					<lb/>460
 				</p>
 				<p>
-					<pb facs="Peulat-Hatzadikim_0030.jpg" /><lb/>מעשה מהחייט
+					<pb facs="Peulat-Hatzadikim_0030.jpg"/><lb/>מעשה מהחייט
 				</p>
 				<p>
 					<lb/>נוי קו קו ומבוסה ועד נצח מוכנים המה לכל מסות ואדנונות המלך
@@ -1459,7 +1459,7 @@
 					<lb/>הרע
 				</p>
 				<p>
-					<pb facs="Peulat-Hatzadikim_0031.jpg" /><lb/>מעשה מהחייט
+					<pb facs="Peulat-Hatzadikim_0031.jpg"/><lb/>מעשה מהחייט
 				</p>
 				<p>
 					<lb/>הכרע הכרעתי את נפשי. ואנכי בעצמי בעוברי. ה<persName>מחמ״ד</persName> פנה עודף

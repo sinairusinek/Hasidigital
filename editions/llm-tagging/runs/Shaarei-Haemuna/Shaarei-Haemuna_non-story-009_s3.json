@@ -1,0 +1,62 @@
+{
+ "unit": {
+  "kind": "hasidic_story",
+  "why": "split out of non-story-009 (non-story)"
+ },
+ "stories": [
+  {
+   "k": 3,
+   "start_quote": "ומעשה היה באחד מעמי הארץ שבא",
+   "end_quote": "עבור שהוא הי׳ כולו שמרים ונדבקו בו השמרים",
+   "hasidic": true,
+   "summary_en": "An unlearned man asked the Maggid of Mezritch for words of Torah. He clung only to the odd-seeming reading of שמרה as 'dregs' and missed its moral lesson.",
+   "tags": [
+    {
+     "tag": "practice:travel_to_the_tsaddik",
+     "scope": "span",
+     "quotes": [
+      "שבא לפני הרב המגיד דק\"ק מעזריטש"
+     ],
+     "confidence": 2,
+     "why": "he came to the Maggid with a request",
+     "quotes_failed": false
+    },
+    {
+     "tag": "practice:reception_of_hasidim",
+     "scope": "span",
+     "quotes": [
+      "וביקש ממנו שיאמר לו ד״ת"
+     ],
+     "confidence": 2,
+     "why": "the tsaddik receives a visitor",
+     "quotes_failed": false
+    },
+    {
+     "tag": "practice:sermon",
+     "scope": "span",
+     "quotes": [
+      "פתח ואמר לדוד שמרה נפשי כי חסיד אני"
+     ],
+     "confidence": 3,
+     "why": "the Maggid delivers Torah words",
+     "quotes_failed": false
+    },
+    {
+     "tag": "not-a-hasidic-story:sermon",
+     "scope": "story",
+     "quotes": [],
+     "confidence": 3,
+     "why": "an illustration within a homily on Avot 5",
+     "quotes_failed": false
+    }
+   ],
+   "missing_concepts": [
+    "the am ha-aretz (unlearned man) misunderstanding a teaching"
+   ],
+   "start_quote_found": true,
+   "end_quote_found": true
+  }
+ ],
+ "id": "Shaarei-Haemuna_non-story-009_s3",
+ "split_from": "non-story-009"
+}

@@ -1,0 +1,60 @@
+{
+ "unit": {
+  "kind": "hasidic_story",
+  "why": "A minimal anecdote: the master once placed a great tzaddik's kvitl inside his holy manuscript book and declared that from there anyone could obtain salvation; it is an act plus a saying, so it barely counts as a narrative.",
+  "boundary_note": ""
+ },
+ "stories": [
+  {
+   "k": 1,
+   "start_quote": "פ\"א הניח מורינו קוויטל של גדול",
+   "end_quote": "ישועה בבני חיי ומזוני",
+   "hasidic": true,
+   "summary_en": "The master once placed the kvitl of a great tzaddik inside his holy handwritten book and said that from it anyone could find salvation in children, life and livelihood.",
+   "tags": [
+    {
+     "tag": "practice:torat_ha_tsaddik",
+     "scope": "span",
+     "quotes": [
+      "שמשם יוכל כל אדם להיות לו ישועה"
+     ],
+     "confidence": 2,
+     "why": "The tzaddik's power to bring salvation to others through his kvitl and book",
+     "quotes_failed": false
+    },
+    {
+     "tag": "knowledge:secret_texts",
+     "scope": "span",
+     "quotes": [
+      "בתוך ספרו הקדוש כת״י"
+     ],
+     "confidence": 1,
+     "why": "His holy manuscript book is used as a vessel of power",
+     "quotes_failed": false
+    },
+    {
+     "tag": "folkloristics:story_type_virtues",
+     "scope": "story",
+     "quotes": [],
+     "confidence": 1,
+     "why": "Part of a list of the master's praises",
+     "quotes_failed": false
+    }
+   ],
+   "missing_concepts": [
+    "kvitl (petition note) as a sacred object",
+    "blessing for children, life and sustenance (בני חיי ומזוני)"
+   ],
+   "start_quote_found": true,
+   "end_quote_found": true
+  }
+ ],
+ "check": {
+  "non_vocab_tags": [],
+  "quotes": 2,
+  "quotes_not_found": 0
+ },
+ "id": "Eser-Kedushot_0129",
+ "chars": 132,
+ "seconds": 12
+}

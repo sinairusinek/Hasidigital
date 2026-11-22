@@ -1,0 +1,122 @@
+{
+ "unit": {
+  "kind": "hasidic_story",
+  "why": "A short anecdote: R. Zvi Elimelekh of Dinov, while rabbi of Munkatch, persuades R. Zvi of Zhidachov to travel to Hungary despite his fear, citing the sign of the scar on the nobleman's forehead.",
+  "boundary_note": "linked to the previous division (refers back to the sign on the nobleman's forehead told there), but forms its own episode"
+ },
+ "stories": [
+  {
+   "k": 1,
+   "start_quote": "והנה הסימן על מצח השר הגיד",
+   "end_quote": "ואז נרצה לבקשתו ונסע",
+   "hasidic": true,
+   "summary_en": "When the Dinover rabbi, then rabbi of Munkatch, asked R. Zvi to come to Hungary, R. Zvi was afraid, because he blamed his only son's death on an earlier journey there; he asked for a sign, and the Dinover named the scar on the nobleman's forehead, which R. Zvi admitted he had made; only when the Dinover took responsibility for his household in Zhidachov did R. Zvi agree to go.",
+   "tags": [
+    {
+     "tag": "ethics-and-emotions:fear",
+     "scope": "span",
+     "quotes": [
+      "והי׳ ירא לנסוע שמה",
+      "וע\"כ מתירא ליסע לאונגארין"
+     ],
+     "confidence": 3,
+     "why": "R. Zvi fears the journey to Hungary",
+     "quotes_failed": false
+    },
+    {
+     "tag": "characters-and-roles:the_family_of_the_tsaddik",
+     "scope": "span",
+     "quotes": [
+      "מעת שנפטר בנו יחידו",
+      "שהוא ישגיח על ב״ב בזידיטשוב"
+     ],
+     "confidence": 3,
+     "why": "his dead son and his household are at stake",
+     "quotes_failed": false
+    },
+    {
+     "tag": "times:death",
+     "scope": "span",
+     "quotes": [
+      "מעת שנפטר בנו יחידו"
+     ],
+     "confidence": 1,
+     "why": "the son's death is recalled as the cause of the fear, not depicted as an event",
+     "quotes_failed": false
+    },
+    {
+     "tag": "practice:protection",
+     "scope": "span",
+     "quotes": [
+      "והבטיחו המוהרצ\"א שלא יזיק לו",
+      "וקיבל עליו אחריותם"
+     ],
+     "confidence": 3,
+     "why": "the Dinover promises to shield R. Zvi and his family from harm",
+     "quotes_failed": false
+    },
+    {
+     "tag": "folkloristics:story_type_protection",
+     "scope": "story",
+     "quotes": [],
+     "confidence": 2,
+     "why": "the arc turns on securing a tzaddik's protection",
+     "quotes_failed": false
+    },
+    {
+     "tag": "supernatural:perception",
+     "scope": "span",
+     "quotes": [
+      "והגיד לו המוהרצ\"א זה הסימן"
+     ],
+     "confidence": 2,
+     "why": "the Dinover knows a hidden sign he could not have known by ordinary means",
+     "quotes_failed": false
+    },
+    {
+     "tag": "practice:the_travels_of_the_tsaddik",
+     "scope": "span",
+     "quotes": [
+      "שיסע לאונגארין",
+      "ואז נרצה לבקשתו ונסע"
+     ],
+     "confidence": 3,
+     "why": "the story turns on the tzaddik's journey to Hungary",
+     "quotes_failed": false
+    },
+    {
+     "tag": "social:inter_hasidic",
+     "scope": "story",
+     "quotes": [],
+     "confidence": 3,
+     "why": "the episode is an interaction between two tzaddikim",
+     "quotes_failed": false
+    },
+    {
+     "tag": "practice:torat_ha_tsaddik",
+     "scope": "span",
+     "quotes": [
+      "וקיבל עליו אחריותם ואז נרצה"
+     ],
+     "confidence": 1,
+     "why": "the tzaddik's power to take responsibility for others",
+     "quotes_failed": false
+    }
+   ],
+   "missing_concepts": [
+    "a sign/token (סימן) requested to confirm a tzaddik's assurance",
+    "the danger of a tzaddik travelling to a foreign region"
+   ],
+   "start_quote_found": true,
+   "end_quote_found": true
+  }
+ ],
+ "check": {
+  "non_vocab_tags": [],
+  "quotes": 11,
+  "quotes_not_found": 0
+ },
+ "id": "Eser-Kedushot_0044",
+ "chars": 460,
+ "seconds": 19
+}

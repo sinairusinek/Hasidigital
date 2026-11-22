@@ -1,0 +1,79 @@
+{
+ "unit": {
+  "kind": "hasidic_story",
+  "why": "A short first-person memorate in which R. Yitzhak Isaac of Komarno, quoted from his Netiv Mitzvotekha, recounts how his uncle and teacher R. Zvi (of Zidichov) filled him with dread, so that he trembled and could not enter his room. It is a habitual account rather than a single event.",
+  "boundary_note": "one of a series of numbered testimonies about R. Zvi of Zidichov (cf. preceding and following divisions)"
+ },
+ "stories": [
+  {
+   "k": 1,
+   "start_quote": "בסה״ק נתיב מצותיך למורינו הגאוה״ק מוהרי״א מקאמרנא",
+   "end_quote": "רבי ומורי אימות השכינה עד כאן לשונו",
+   "hasidic": true,
+   "summary_en": "The Komarno rebbe testifies that the sound of his uncle-teacher's footsteps filled him with awe and trembling, and that he would stand at the door for a quarter of an hour, unable to enter for fear of the Shekhinah's awe upon his master.",
+   "tags": [
+    {
+     "tag": "ethics-and-emotions:awe",
+     "scope": "span",
+     "quotes": [
+      "מאימות רבי ומורי אימות השכינה"
+     ],
+     "confidence": 3,
+     "why": "religious awe of the tzaddik, likened to awe of the Shekhinah",
+     "quotes_failed": false
+    },
+    {
+     "tag": "ethics-and-emotions:fear",
+     "scope": "span",
+     "quotes": [
+      "נפל עלי אימה ופחד",
+      "ולא יכולתי לכנוס מרוב אימות ופחדים"
+     ],
+     "confidence": 3,
+     "why": "the disciple's fear of his master",
+     "quotes_failed": false
+    },
+    {
+     "tag": "experience:trembling",
+     "scope": "span",
+     "quotes": [
+      "ובכל איברי אחזני רעדה"
+     ],
+     "confidence": 3,
+     "why": "physical trembling before the tzaddik",
+     "quotes_failed": false
+    },
+    {
+     "tag": "social:inter_hasidic_master_disciple_relationship",
+     "scope": "story",
+     "quotes": [],
+     "confidence": 3,
+     "why": "the tale centres on the disciple's relation to 'מורי דודי'",
+     "quotes_failed": false
+    },
+    {
+     "tag": "folkloristics:story_type_virtues",
+     "scope": "story",
+     "quotes": [],
+     "confidence": 2,
+     "why": "illustrates the holiness and awesome presence of R. Zvi",
+     "quotes_failed": false
+    }
+   ],
+   "missing_concepts": [
+    "first-person memorate quoted from a printed book",
+    "the tzaddik's awe-inspiring presence (Shekhinah resting on him)"
+   ],
+   "start_quote_found": true,
+   "end_quote_found": true
+  }
+ ],
+ "check": {
+  "non_vocab_tags": [],
+  "quotes": 4,
+  "quotes_not_found": 0
+ },
+ "id": "Eser-Kedushot_0037",
+ "chars": 368,
+ "seconds": 13
+}

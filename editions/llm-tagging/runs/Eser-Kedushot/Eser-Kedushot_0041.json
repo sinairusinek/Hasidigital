@@ -1,0 +1,102 @@
+{
+ "unit": {
+  "kind": "hasidic_story",
+  "why": "A single narrative: on a cloudy night R. Zvi Hirsh of Zidichov makes the moon visible through an unusual window so the ailing Seer of Lublin can sanctify it.",
+  "boundary_note": ""
+ },
+ "stories": [
+  {
+   "k": 1,
+   "start_quote": "ידוע כי מרן הקדוש מלובלין זצוק\"ל בשנה",
+   "end_quote": "להטריח יותר בחולשת כחינו לחלון הרחוק",
+   "hasidic": true,
+   "summary_en": "In the Seer of Lublin's last year, the sky is clouded at the time for sanctifying the moon, and R. Zvi Hirsh of Zidichov is escorting his ailing master. When the Seer wishes aloud for a moon, R. Zvi brings him back and makes the moon shine at a window that never faces it. The Seer explains that R. Zvi rearranged the heavens, not the study-hall walls.",
+   "tags": [
+    {
+     "tag": "supernatural:miracle",
+     "scope": "span",
+     "quotes": [
+      "הפך כל מערכת השמים עד שהלבנה תאיר",
+      "באותו הצד אשר משם לא נראית הלבנה מעולם"
+     ],
+     "confidence": 3,
+     "why": "the moon miraculously appears at an impossible window",
+     "quotes_failed": false
+    },
+    {
+     "tag": "social:inter_hasidic_master_disciple_relationship",
+     "scope": "span",
+     "quotes": [
+      "והוליך רבינו צבי בידו את רבו מלובלין"
+     ],
+     "confidence": 3,
+     "why": "the disciple serves his master and fulfils his wish",
+     "quotes_failed": false
+    },
+    {
+     "tag": "times:shabbat",
+     "scope": "span",
+     "quotes": [
+      "במוצאי ש\"ק זמן קידוש לבנה"
+     ],
+     "confidence": 2,
+     "why": "the story is set on the night after the Sabbath",
+     "quotes_failed": false
+    },
+    {
+     "tag": "spaces:beth_midrash",
+     "scope": "span",
+     "quotes": [
+      "והוליכו בחזרה לביהמ\"ד והעמידו אצל חלון הראשון"
+     ],
+     "confidence": 3,
+     "why": "the miracle takes place at the study-hall window",
+     "quotes_failed": false
+    },
+    {
+     "tag": "practice:prayer",
+     "scope": "span",
+     "quotes": [
+      "וקידש הלבנה מתוך החלון"
+     ],
+     "confidence": 2,
+     "why": "the Sanctification of the Moon is a liturgical rite",
+     "quotes_failed": false
+    },
+    {
+     "tag": "folkloristics:story_type_virtues",
+     "scope": "story",
+     "quotes": [],
+     "confidence": 2,
+     "why": "the story shows R. Zvi's wondrous power and his devotion to his master",
+     "quotes_failed": false
+    },
+    {
+     "tag": "supernatural:perception",
+     "scope": "span",
+     "quotes": [
+      "אתם תדמו כי ר׳ הירשלי הפך כותלי ביהמ\"ד"
+     ],
+     "confidence": 1,
+     "why": "the Seer discerns the hidden nature of the miracle",
+     "quotes_failed": false
+    }
+   ],
+   "missing_concepts": [
+    "Kiddush levanah (sanctification of the new moon) as a ritual",
+    "the illness and weakness of the Seer of Lublin before his death",
+    "a tzaddik's power over nature and the heavens"
+   ],
+   "start_quote_found": true,
+   "end_quote_found": true
+  }
+ ],
+ "check": {
+  "non_vocab_tags": [],
+  "quotes": 7,
+  "quotes_not_found": 0
+ },
+ "id": "Eser-Kedushot_0041",
+ "chars": 694,
+ "seconds": 13
+}

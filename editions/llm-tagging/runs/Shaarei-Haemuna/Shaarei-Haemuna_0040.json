@@ -1,0 +1,87 @@
+{
+ "unit": {
+  "kind": "non_hasidic_story",
+  "why": "A short first-person memorate, quoted from Lev Ivri, about the Brody rabbinic authority R. Zalman Margaliot changing his study garment before idle talk; it is presented as an example of respect for Torah.",
+  "boundary_note": ""
+ },
+ "stories": [
+  {
+   "k": 1,
+   "start_quote": "ראיתי מכבוד התורה הגדול והייתי בבראד",
+   "end_quote": "שלומד בו תורת אלהים חיים",
+   "hasidic": false,
+   "summary_en": "The narrator saw in Brody that R. Zalman Margaliot would take off the outer garment he studied in whenever he had to engage in mundane talk, so as not to speak idle words in the garment of Torah study.",
+   "tags": [
+    {
+     "tag": "not-a-hasidic-story:hagiography",
+     "scope": "story",
+     "quotes": [],
+     "confidence": 2,
+     "why": "The anecdote praises the piety of a non-Hasidic rabbinic authority of Brody and is copied from Lev Ivri.",
+     "quotes_failed": false
+    },
+    {
+     "tag": "practice:clothing",
+     "scope": "span",
+     "quotes": [
+      "החליף שמלותיו בגד עליון שהיה לומד בתוכו",
+      "מיד זרק האי בגד מעליו"
+     ],
+     "confidence": 3,
+     "why": "The garment worn for study carries religious significance.",
+     "quotes_failed": false
+    },
+    {
+     "tag": "practice:study",
+     "scope": "span",
+     "quotes": [
+      "באותו בגד שלומד בו תורת אלהים חיים"
+     ],
+     "confidence": 2,
+     "why": "Torah study is the practice the garment is reserved for.",
+     "quotes_failed": false
+    },
+    {
+     "tag": "ethics-and-emotions:awe",
+     "scope": "span",
+     "quotes": [
+      "ראיתי מכבוד התורה הגדול"
+     ],
+     "confidence": 2,
+     "why": "The act expresses reverence for the Torah.",
+     "quotes_failed": false
+    },
+    {
+     "tag": "ethics-and-emotions:virtues",
+     "scope": "story",
+     "quotes": [],
+     "confidence": 2,
+     "why": "The point of the anecdote is an exemplary pious practice.",
+     "quotes_failed": false
+    },
+    {
+     "tag": "not-a-hasidic-story:virtues",
+     "scope": "story",
+     "quotes": [],
+     "confidence": 1,
+     "why": "The book's topical arrangement ('on garments') suggests it is meant as moral or practical instruction, but no explicit lesson is drawn.",
+     "quotes_failed": false
+    }
+   ],
+   "missing_concepts": [
+    "respect for Torah (kevod ha-Torah)",
+    "avoidance of idle talk (sihat hulin)"
+   ],
+   "start_quote_found": true,
+   "end_quote_found": true
+  }
+ ],
+ "check": {
+  "non_vocab_tags": [],
+  "quotes": 4,
+  "quotes_not_found": 0
+ },
+ "id": "Shaarei-Haemuna_0040",
+ "chars": 251,
+ "seconds": 15
+}

@@ -1,0 +1,152 @@
+{
+ "unit": {
+  "kind": "hasidic_story",
+  "why": "A teaching by the Apter Rav on the danger young men face when travelling to a tzaddik, followed by the author's first-person memorate of his awe before his uncle and master, who embraced him and swore to him by his beard on a Sabbath eve.",
+  "boundary_note": "the narrative part is a short memorate wrapped in a homiletic frame; a borderline case between story and teaching"
+ },
+ "stories": [
+  {
+   "k": 1,
+   "start_quote": "באמת יש בזה לפעמים קלקול",
+   "end_quote": "ובנחת ובאהבה ובשלום. (נ״מ שביל התורה)",
+   "hasidic": true,
+   "summary_en": "The Apter Rav warns that young men who come to a tzaddik without awe are 'extinguished' and become opponents. The author recalls that his uncle and master always showed him love, yet he trembled before him and stood at the door unable to enter. Through this awe he stayed bound to the master, who swore by his holy beard on a Sabbath eve never to abandon him.",
+   "tags": [
+    {
+     "tag": "not-a-hasidic-story:sermon",
+     "scope": "story",
+     "quotes": [],
+     "confidence": 2,
+     "why": "Memorate embedded in a homiletic warning about conduct toward a tzaddik",
+     "quotes_failed": false
+    },
+    {
+     "tag": "practice:travel_to_the_tsaddik",
+     "scope": "span",
+     "quotes": [
+      "יזהרו היונגי לאייט ברות שנוסעין לצדיק"
+     ],
+     "confidence": 2,
+     "why": "The teaching concerns young men travelling to the tzaddik",
+     "quotes_failed": false
+    },
+    {
+     "tag": "practice:torat_ha_tsaddik",
+     "scope": "span",
+     "quotes": [
+      "כי הצדיק אש שורף גדול",
+      "התקשרתי עמו בקשר אמיץ"
+     ],
+     "confidence": 3,
+     "why": "The tzaddik as a great fire and the need for proper attachment to him",
+     "quotes_failed": false
+    },
+    {
+     "tag": "ethics-and-emotions:awe",
+     "scope": "span",
+     "quotes": [
+      "שיעמדו באימה ויראה וברתת",
+      "מאימת רבי ומורי אימות השכינה"
+     ],
+     "confidence": 3,
+     "why": "Awe before the tzaddik is central",
+     "quotes_failed": false
+    },
+    {
+     "tag": "ethics-and-emotions:fear",
+     "scope": "span",
+     "quotes": [
+      "נפל עלי אימה ופחד"
+     ],
+     "confidence": 3,
+     "why": "The author's fear of his master",
+     "quotes_failed": false
+    },
+    {
+     "tag": "experience:trembling",
+     "scope": "span",
+     "quotes": [
+      "ובכל אברי אחזני רחת"
+     ],
+     "confidence": 3,
+     "why": "Physical trembling before the master",
+     "quotes_failed": false
+    },
+    {
+     "tag": "social:inter_hasidic_master_disciple_relationship",
+     "scope": "span",
+     "quotes": [
+      "ובזה היתי תלמיד נאמן לפניו",
+      "שלא יעזוב אותי לעולם"
+     ],
+     "confidence": 3,
+     "why": "The bond between master and disciple is the core",
+     "quotes_failed": false
+    },
+    {
+     "tag": "characters-and-roles:the_family_of_the_tsaddik",
+     "scope": "span",
+     "quotes": [
+      "כי מו״ר דודי הי' תמיד מחבב אותי"
+     ],
+     "confidence": 2,
+     "why": "The narrator is the tzaddik's nephew",
+     "quotes_failed": false
+    },
+    {
+     "tag": "times:shabbat",
+     "scope": "span",
+     "quotes": [
+      "בדיקנא קדישא שלו בליל שבת"
+     ],
+     "confidence": 2,
+     "why": "The oath takes place on a Sabbath eve",
+     "quotes_failed": false
+    },
+    {
+     "tag": "social:relations_with_non_hasidim",
+     "scope": "span",
+     "quotes": [
+      "ונעשה מתנגד על הצדיק"
+     ],
+     "confidence": 1,
+     "why": "Warns that an irreverent visitor turns into an opponent",
+     "quotes_failed": false
+    },
+    {
+     "tag": "spaces:institutions_hassidic_court",
+     "scope": "span",
+     "quotes": [
+      "הייתי עומד על הפתח רבע שעה"
+     ],
+     "confidence": 1,
+     "why": "The scene at the master's door, presumably at his court",
+     "quotes_failed": false
+    },
+    {
+     "tag": "ethics-and-emotions:virtues",
+     "scope": "story",
+     "quotes": [],
+     "confidence": 1,
+     "why": "Reverence toward the tzaddik and his peace-seeking are held up as virtues",
+     "quotes_failed": false
+    }
+   ],
+   "missing_concepts": [
+    "the tzaddik's oath to his disciple (sworn by his beard)",
+    "spiritual danger of improper closeness to a tzaddik",
+    "the tzaddik descending from his level for the sake of peace"
+   ],
+   "start_quote_found": true,
+   "end_quote_found": false
+  }
+ ],
+ "check": {
+  "non_vocab_tags": [],
+  "quotes": 13,
+  "quotes_not_found": 0
+ },
+ "id": "Shaarei-Haemuna_0044",
+ "chars": 1298,
+ "seconds": 20
+}

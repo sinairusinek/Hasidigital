@@ -1,0 +1,123 @@
+{
+ "unit": {
+  "kind": "hasidic_story",
+  "why": "A short anecdote: a man brings a kvitl with a pidyon to the holy sage of Rozdol, who answers him humbly with a homily on Jeremiah and the men of Anatot.",
+  "boundary_note": ""
+ },
+ "stories": [
+  {
+   "k": 1,
+   "start_quote": "פ״א בבא לפניו איש אחד ונתן לו",
+   "end_quote": "את אשר אחון אעפ\"י וכו' ודפח״ח",
+   "hasidic": true,
+   "summary_en": "When a man gives the sage of Rozdol a petition with a pidyon, the rebbe protests that he is not a true 'good Jew'. He then explains, through Jeremiah's curse on the men of Anatot, that giving to someone unworthy arouses undeserved heavenly mercy, so the man will be saved all the same.",
+   "tags": [
+    {
+     "tag": "practice:reception_of_hasidim",
+     "scope": "span",
+     "quotes": [
+      "בבא לפניו איש אחד ונתן לו פתקא"
+     ],
+     "confidence": 3,
+     "why": "A visitor is received and hands in a kvitl.",
+     "quotes_failed": false
+    },
+    {
+     "tag": "practice:pidyon_nefesh",
+     "scope": "span",
+     "quotes": [
+      "ונתן לו פתקא עם פ\"נ כנהוג",
+      "שאתה נותן לי פ\"נ שאני באמת אינו הגון"
+     ],
+     "confidence": 3,
+     "why": "The pidyon payment given to the tsaddik is the subject.",
+     "quotes_failed": false
+    },
+    {
+     "tag": "ethics-and-emotions:humility",
+     "scope": "span",
+     "quotes": [
+      "כאשר יתוודע לך האמת שאיננו גוטר יוד",
+      "שאני באמת אינו הגון"
+     ],
+     "confidence": 3,
+     "why": "The rebbe declares himself unworthy.",
+     "quotes_failed": false
+    },
+    {
+     "tag": "folkloristics:story_type_virtues",
+     "scope": "story",
+     "quotes": [],
+     "confidence": 2,
+     "why": "The anecdote shows the tsaddik's humility.",
+     "quotes_failed": false
+    },
+    {
+     "tag": "ethics-and-emotions:charity",
+     "scope": "span",
+     "quotes": [
+      "כאשר האדם משפיע ונותן צדקה למטה אף למי שאינו הגון"
+     ],
+     "confidence": 3,
+     "why": "The teaching is about giving charity to unworthy recipients.",
+     "quotes_failed": false
+    },
+    {
+     "tag": "practice:sermon",
+     "scope": "span",
+     "quotes": [
+      "כי ירמיה הנביא קילל אנשי ענתות",
+      "באתערותא דלתתא אתער עובדא דלעילא"
+     ],
+     "confidence": 3,
+     "why": "The rebbe answers with an exegetical homily.",
+     "quotes_failed": false
+    },
+    {
+     "tag": "not-a-hasidic-story:sermon",
+     "scope": "story",
+     "quotes": [],
+     "confidence": 2,
+     "why": "The thin narrative frame mostly carries an extended homily.",
+     "quotes_failed": false
+    },
+    {
+     "tag": "practice:torat_ha_tsaddik",
+     "scope": "span",
+     "quotes": [
+      "בחשבך שאני גוטר יוד",
+      "מהראוי שתוושע גם אתה מהיכל וחנותי"
+     ],
+     "confidence": 2,
+     "why": "The passage discusses the tsaddik's power to bring salvation and whether he is worthy of it.",
+     "quotes_failed": false
+    },
+    {
+     "tag": "knowledge:esoteric",
+     "scope": "span",
+     "quotes": [
+      "בחי' עתיק לא בסבא טעמא כידוע"
+     ],
+     "confidence": 1,
+     "why": "The homily uses a kabbalistic concept (Atik).",
+     "quotes_failed": false
+    }
+   ],
+   "missing_concepts": [
+    "kvitl (petition note) to the rebbe",
+    "the 'gutter yid' rebbe's doubt about his own worthiness",
+    "undeserved grace (וחנותי את אשר אחון)"
+   ],
+   "start_quote_found": true,
+   "end_quote_found": true
+  }
+ ],
+ "check": {
+  "non_vocab_tags": [],
+  "quotes": 11,
+  "quotes_not_found": 0
+ },
+ "id": "Eser-Kedushot_0113",
+ "chars": 1153,
+ "seconds": 18
+}

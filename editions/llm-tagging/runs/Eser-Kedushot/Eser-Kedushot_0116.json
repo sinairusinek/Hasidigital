@@ -1,0 +1,94 @@
+{
+ "unit": {
+  "kind": "hasidic_story",
+  "why": "A short anecdote: a man with a large request pesters the rebbe on the eve of Pesach after the search for chametz, and the rebbe answers with a pointed homiletic wordplay.",
+  "boundary_note": ""
+ },
+ "stories": [
+  {
+   "k": 1,
+   "start_quote": "עוד מהנ\"ל בשמו הק׳ שפ\"א בא איש",
+   "end_quote": "לעשות מן שאר שבעיסה אתוון רא״ש ודפח״ח",
+   "hasidic": true,
+   "summary_en": "On the eve of Pesach a petitioner keeps pressing the rebbe, who is busy preparing for the festival, until the rebbe dismisses him with an Ari-based wordplay on 'we have no mouth to answer' (פה-סח) and on מצח as the letters of חמץ.",
+   "tags": [
+    {
+     "tag": "practice:reception_of_hasidim",
+     "scope": "span",
+     "quotes": [
+      "בא איש אחד שהי׳ לו מבוקש גדול",
+      "ושהה אצלו זמן רב"
+     ],
+     "confidence": 3,
+     "why": "The rebbe receives a petitioner and finally sends him away.",
+     "quotes_failed": false
+    },
+    {
+     "tag": "times:holidays",
+     "scope": "span",
+     "quotes": [
+      "ונגש אחר בדיקת חמץ שאז הגבאים טרודים",
+      "הי' לו אז הכנה רבה לפסחא"
+     ],
+     "confidence": 3,
+     "why": "Set on the eve of Pesach.",
+     "quotes_failed": false
+    },
+    {
+     "tag": "practice:sermon",
+     "scope": "span",
+     "quotes": [
+      "כי נודע דברי מרן האר\"י אשר פסח הוא פה סח",
+      "לא עשינו מאותיות חמץ אותיות מצח"
+     ],
+     "confidence": 3,
+     "why": "The rebbe's answer is an exegesis of a verse.",
+     "quotes_failed": false
+    },
+    {
+     "tag": "not-a-hasidic-story:sermon",
+     "scope": "story",
+     "quotes": [],
+     "confidence": 2,
+     "why": "The narrative is a thin frame for a homiletic wordplay.",
+     "quotes_failed": false
+    },
+    {
+     "tag": "practice:joke",
+     "scope": "span",
+     "quotes": [
+      "כתיב אין לנו פה להשיב ולא מצח להרים ראש"
+     ],
+     "confidence": 1,
+     "why": "A witty verse-based rebuff of the importunate man.",
+     "quotes_failed": false
+    },
+    {
+     "tag": "knowledge:esoteric",
+     "scope": "span",
+     "quotes": [
+      "כי נודע דברי מרן האר\"י אשר פסח הוא פה סח"
+     ],
+     "confidence": 1,
+     "why": "Lurianic letter-mysticism is invoked.",
+     "quotes_failed": false
+    }
+   ],
+   "missing_concepts": [
+    "importunate petitioner / pestering the tsaddik",
+    "preparation for Pesach (bedikat chametz)",
+    "letter wordplay (חמץ/מצח)"
+   ],
+   "start_quote_found": true,
+   "end_quote_found": true
+  }
+ ],
+ "check": {
+  "non_vocab_tags": [],
+  "quotes": 8,
+  "quotes_not_found": 0
+ },
+ "id": "Eser-Kedushot_0116",
+ "chars": 466,
+ "seconds": 12
+}

@@ -1,0 +1,110 @@
+{
+ "unit": {
+  "kind": "hasidic_story",
+  "why": "An anecdote about several tzaddikim at a Rosh Chodesh Nisan meal in Zhidachov: R. Shimon of Jaroslaw perceives the Rozdol rabbi's hidden kavvanot, and a jest about eating nuts leads to a gematria teaching.",
+  "boundary_note": ""
+ },
+ "stories": [
+  {
+   "k": 1,
+   "start_quote": "בשבת אחים גם יחד כמה צדיקים",
+   "end_quote": "אותו היום נטל עשר עטרות",
+   "hasidic": true,
+   "summary_en": "At a gathering of tzaddikim in Zhidachov on Rosh Chodesh Nisan, R. Shimon of Jaroslaw senses that the Rozdol rabbi is eating with kavvanot. R. Shlomo of Dolina then jokes about whether nuts may be eaten on this 'New Year', and the Rozdol rabbi answers with a gematria showing that ten times 'nut' (= good) equals Nisan.",
+   "tags": [
+    {
+     "tag": "social:inter_hasidic",
+     "scope": "story",
+     "quotes": [],
+     "confidence": 3,
+     "why": "several tzaddikim interact at a shared meal",
+     "quotes_failed": false
+    },
+    {
+     "tag": "supernatural:perception",
+     "scope": "span",
+     "quotes": [
+      "והרגיש הרבי ר׳ שמעון תיכף"
+     ],
+     "confidence": 3,
+     "why": "R. Shimon senses at once the hidden kavvanah that had just come to the Rozdol rabbi's mind",
+     "quotes_failed": false
+    },
+    {
+     "tag": "kabbalah:kabbalistic_terms_kavvanot",
+     "scope": "span",
+     "quotes": [
+      "רק הרב מראזדאל אוכל עם כוונות",
+      "עלה בדעתו איזה כוונת אכילה"
+     ],
+     "confidence": 3,
+     "why": "mystical intentions while eating",
+     "quotes_failed": false
+    },
+    {
+     "tag": "practice:meditation",
+     "scope": "span",
+     "quotes": [
+      "רק הרב מראזדאל אוכל עם כוונות"
+     ],
+     "confidence": 2,
+     "why": "eating performed with contemplative kavvanot",
+     "quotes_failed": false
+    },
+    {
+     "tag": "practice:joke",
+     "scope": "span",
+     "quotes": [
+      "ואמר הצדיק ר' שלמה מדאלינא בדרך צחות"
+     ],
+     "confidence": 3,
+     "why": "a witty remark about eating nuts on 'Rosh Hashanah'",
+     "quotes_failed": false
+    },
+    {
+     "tag": "practice:sermon",
+     "scope": "span",
+     "quotes": [
+      "כי אגוז גימטריא טוב. ועשרה פעמים טוב גימטריא ניסן"
+     ],
+     "confidence": 3,
+     "why": "a gematria teaching delivered at the table",
+     "quotes_failed": false
+    },
+    {
+     "tag": "times:holidays",
+     "scope": "span",
+     "quotes": [
+      "על סעודת ר\"ח ניסן בזידיטשוב"
+     ],
+     "confidence": 2,
+     "why": "the meal takes place on Rosh Chodesh Nisan, framed as a 'Rosh Hashanah'",
+     "quotes_failed": false
+    },
+    {
+     "tag": "not-a-hasidic-story:sermon",
+     "scope": "story",
+     "quotes": [],
+     "confidence": 1,
+     "why": "the second half is an extended gematria exposition",
+     "quotes_failed": false
+    }
+   ],
+   "missing_concepts": [
+    "festive meal / tish gathering of several tzaddikim",
+    "custom of avoiding nuts on Rosh Hashanah",
+    "gematria"
+   ],
+   "start_quote_found": true,
+   "end_quote_found": true
+  }
+ ],
+ "check": {
+  "non_vocab_tags": [],
+  "quotes": 7,
+  "quotes_not_found": 0
+ },
+ "id": "Eser-Kedushot_0118",
+ "chars": 810,
+ "seconds": 16
+}

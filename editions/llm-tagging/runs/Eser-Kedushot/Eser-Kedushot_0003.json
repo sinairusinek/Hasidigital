@@ -1,0 +1,156 @@
+{
+ "unit": {
+  "kind": "hasidic_story",
+  "why": "A biographical sketch of R. Yitzhak Eizik: his trade, his learning, his discipleship of the Seer of Lublin and his traits. It ends with a short memorate by his grandson about a Seder night at his table, so it is a borderline story.",
+  "boundary_note": "part of a multi-division biography of R. Yitzhak Eizik; the next division turns to his wife Hinda"
+ },
+ "stories": [
+  {
+   "k": 1,
+   "start_quote": "הרב הגדול רי\"א הנ\"ל לא התנהג כל ימיו",
+   "end_quote": "הארה הנפלאה מקדושת זקינו זצ\"ל",
+   "hasidic": true,
+   "summary_en": "R. Yitzhak Eizik never served as a rabbi and lived by his own labour, wore white garments on Shabbat when he visited the Seer of Lublin, kept from gossip, held Torah talk at every meal and ate with his servants; his grandson recalls still tasting the holiness of his grandfather's Seder night.",
+   "tags": [
+    {
+     "tag": "folkloristics:story_type_virtues",
+     "scope": "story",
+     "quotes": [],
+     "confidence": 3,
+     "why": "the text exists to praise his holy traits",
+     "quotes_failed": false
+    },
+    {
+     "tag": "ethics-and-emotions:virtues",
+     "scope": "span",
+     "quotes": [
+      "והפליא תמיד מדותיו הקדושים",
+      "ואכל תמיד ביחד גם עם כל המשרתים באהבת ישראל"
+     ],
+     "confidence": 3,
+     "why": "his traits are listed and praised",
+     "quotes_failed": false
+    },
+    {
+     "tag": "ethics-and-emotions:humility",
+     "scope": "span",
+     "quotes": [
+      "לא התנהג כל ימיו ברבנות רק התפרנס מיגיעי כפו",
+      "ואכל תמיד ביחד גם עם כל המשרתים"
+     ],
+     "confidence": 2,
+     "why": "he declined a rabbinic post and ate with his servants",
+     "quotes_failed": false
+    },
+    {
+     "tag": "practice:clothing",
+     "scope": "span",
+     "quotes": [
+      "הלך גם הוא בבגדי לבן בשבת ככל תלמידיו"
+     ],
+     "confidence": 3,
+     "why": "white Sabbath garments worn at the Seer's court",
+     "quotes_failed": false
+    },
+    {
+     "tag": "practice:travel_to_the_tsaddik",
+     "scope": "span",
+     "quotes": [
+      "אשר בבואו לרבו הלך גם הוא בבגדי לבן"
+     ],
+     "confidence": 2,
+     "why": "his visits to the Seer of Lublin",
+     "quotes_failed": false
+    },
+    {
+     "tag": "social:inter_hasidic_master_disciple_relationship",
+     "scope": "span",
+     "quotes": [
+      "והי' מחסידי מרן הק׳ מלובלין ריעי\"צ זצ\"ל"
+     ],
+     "confidence": 2,
+     "why": "he was a disciple of the Seer",
+     "quotes_failed": false
+    },
+    {
+     "tag": "times:shabbat",
+     "scope": "span",
+     "quotes": [
+      "בבגדי לבן בשבת ככל תלמידיו הקדושים"
+     ],
+     "confidence": 1,
+     "why": "the Shabbat practice at his master's court",
+     "quotes_failed": false
+    },
+    {
+     "tag": "practice:study",
+     "scope": "span",
+     "quotes": [
+      "והי׳ בקי בע״פ בששה סדרי משנה",
+      "וכשהתחילו בניו ללמוד הנהיג שבכל יום"
+     ],
+     "confidence": 2,
+     "why": "his learning and his sons' study",
+     "quotes_failed": false
+    },
+    {
+     "tag": "practice:sermon",
+     "scope": "span",
+     "quotes": [
+      "ובכל שלחן הי' מוכרח להיות דברי תורה",
+      "יגיד בסעודה אחד מבניו איזה ד\"ת"
+     ],
+     "confidence": 1,
+     "why": "words of Torah spoken at every meal",
+     "quotes_failed": false
+    },
+    {
+     "tag": "characters-and-roles:the_family_of_the_tsaddik",
+     "scope": "span",
+     "quotes": [
+      "ובנו רבינו מוהרצ\"ה מזידיטשוב אמר עליו",
+      "ונכדו חו״ז הגאוה״ק מו\"ה יודא צבי מראזלא"
+     ],
+     "confidence": 3,
+     "why": "his son and grandson appear and speak about him",
+     "quotes_failed": false
+    },
+    {
+     "tag": "times:holidays",
+     "scope": "span",
+     "quotes": [
+      "הי' בליל שמורים דפסח אצל זקינו"
+     ],
+     "confidence": 3,
+     "why": "the grandson's memory of Seder night",
+     "quotes_failed": false
+    },
+    {
+     "tag": "ethics-and-emotions:prohibitions",
+     "scope": "span",
+     "quotes": [
+      "שלא דיבר מעולם משום אדם"
+     ],
+     "confidence": 1,
+     "why": "he never spoke about other people, i.e. kept from gossip",
+     "quotes_failed": false
+    }
+   ],
+   "missing_concepts": [
+    "avoiding gossip / lashon hara",
+    "a tzaddik earning his living by manual labour",
+    "a sensory memory of holiness (the taste of the Seder)"
+   ],
+   "start_quote_found": true,
+   "end_quote_found": true
+  }
+ ],
+ "check": {
+  "non_vocab_tags": [],
+  "quotes": 16,
+  "quotes_not_found": 0
+ },
+ "id": "Eser-Kedushot_0003",
+ "chars": 692,
+ "seconds": 20
+}

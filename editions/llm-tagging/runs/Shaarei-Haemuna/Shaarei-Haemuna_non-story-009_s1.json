@@ -1,0 +1,72 @@
+{
+ "unit": {
+  "kind": "hasidic_story",
+  "why": "split out of non-story-009 (non-story)"
+ },
+ "stories": [
+  {
+   "k": 1,
+   "start_quote": "ששמעתי מהחסיד הצדיק מו״ה וישא זללה\"ה",
+   "end_quote": "לא בשביל הנאתו והוא מדרגה גדולה",
+   "hasidic": true,
+   "summary_en": "The pious R. Yisa fasted three days because he had said the blessing over bread for his own pleasure, to still his hunger, rather than for God's sake.",
+   "tags": [
+    {
+     "tag": "practice:fasting",
+     "scope": "span",
+     "quotes": [
+      "שפ\"א התענה ג׳ ימים עבור שברך המוניא"
+     ],
+     "confidence": 3,
+     "why": "three-day fast as penance",
+     "quotes_failed": false
+    },
+    {
+     "tag": "practice:asceticism",
+     "scope": "span",
+     "quotes": [
+      "שפ\"א התענה ג׳ ימים עבור שברך המוניא"
+     ],
+     "confidence": 2,
+     "why": "self-mortification over a lapse in intention",
+     "quotes_failed": false
+    },
+    {
+     "tag": "ethics-and-emotions:repentance",
+     "scope": "span",
+     "quotes": [
+      "ולא כוון לשמם רק שכוון בברכה להנאת עצמו"
+     ],
+     "confidence": 2,
+     "why": "penitential fast for a flawed blessing",
+     "quotes_failed": false
+    },
+    {
+     "tag": "practice:prayer",
+     "scope": "span",
+     "quotes": [
+      "ובאמת צריכין לברך לה׳ על הדבר שברא"
+     ],
+     "confidence": 1,
+     "why": "the issue is reciting a blessing",
+     "quotes_failed": false
+    },
+    {
+     "tag": "not-a-hasidic-story:sermon",
+     "scope": "story",
+     "quotes": [],
+     "confidence": 3,
+     "why": "the anecdote is wrapped in an exegesis of ברכו את ה׳ המבורך",
+     "quotes_failed": false
+    }
+   ],
+   "missing_concepts": [
+    "intention in blessings over food"
+   ],
+   "start_quote_found": true,
+   "end_quote_found": true
+  }
+ ],
+ "id": "Shaarei-Haemuna_non-story-009_s1",
+ "split_from": "non-story-009"
+}

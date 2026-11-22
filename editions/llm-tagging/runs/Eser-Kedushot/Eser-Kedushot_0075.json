@@ -1,0 +1,109 @@
+{
+ "unit": {
+  "kind": "hasidic_story",
+  "why": "A short narrative of R. Moshe of Zhidachov's death on Shabbat 6 Iyar 5600, his deathbed instruction about his burial beside his brother, and how it was carried out.",
+  "boundary_note": ""
+ },
+ "stories": [
+  {
+   "k": 1,
+   "start_quote": "בשבת ת״ר ששה ימים לחודש אייר",
+   "end_quote": "ולא יבאו להתפלל על קברו] זיע\"א",
+   "hasidic": true,
+   "summary_en": "Before his death in Zhidachov in 1840, R. Moshe asked that a partition be built in his brother R. Zvi's ohel, so that the crowds visiting his brother's grave on the yahrzeit would not tread on his own grave, and so it was done; the author reads this as a sign of his humility.",
+   "tags": [
+    {
+     "tag": "folkloristics:story_type_death_of_the_tsaddik",
+     "scope": "story",
+     "quotes": [],
+     "confidence": 3,
+     "why": "The tale centres on his death and his last instruction.",
+     "quotes_failed": false
+    },
+    {
+     "tag": "times:death",
+     "scope": "span",
+     "quotes": [
+      "נחשכו המאורות וימת שם בזידיטשוב משה עבד ה׳"
+     ],
+     "confidence": 3,
+     "why": "His death is narrated.",
+     "quotes_failed": false
+    },
+    {
+     "tag": "practice:pilgrimage_to_the_graves_of_tsaddikim",
+     "scope": "span",
+     "quotes": [
+      "ועולם גדול באים בכל שנה על קבר אחיו על היא\"צ",
+      "יעשו לו מחיצה באמצע האהל"
+     ],
+     "confidence": 3,
+     "why": "The ohel is a site of yearly pilgrimage, and he gives a deathbed instruction about his burial there.",
+     "quotes_failed": false
+    },
+    {
+     "tag": "ethics-and-emotions:humility",
+     "scope": "span",
+     "quotes": [
+      "ראה אחי עד כמה גדלה שפלות רוחו"
+     ],
+     "confidence": 3,
+     "why": "The author explicitly frames the act as humility.",
+     "quotes_failed": false
+    },
+    {
+     "tag": "folkloristics:story_type_virtues",
+     "scope": "story",
+     "quotes": [],
+     "confidence": 2,
+     "why": "The narrator's point is to illustrate the tzaddik's humility.",
+     "quotes_failed": false
+    },
+    {
+     "tag": "ethics-and-emotions:anger",
+     "scope": "span",
+     "quotes": [
+      "כאשר היה קפדן בזה העולם יהי׳ קפדן"
+     ],
+     "confidence": 1,
+     "why": "He calls himself quick to take offence (קפדן) in this world and the next.",
+     "quotes_failed": false
+    },
+    {
+     "tag": "times:shabbat",
+     "scope": "span",
+     "quotes": [
+      "בשבת ת״ר ששה ימים לחודש אייר"
+     ],
+     "confidence": 1,
+     "why": "He died on Shabbat, but only as a date.",
+     "quotes_failed": false
+    },
+    {
+     "tag": "characters-and-roles:the_family_of_the_tsaddik",
+     "scope": "span",
+     "quotes": [
+      "באהל אחיו רבינו צבי"
+     ],
+     "confidence": 1,
+     "why": "His brother is referred to; a sibling is outside the core definition.",
+     "quotes_failed": false
+    }
+   ],
+   "missing_concepts": [
+    "burial arrangements / ohel construction",
+    "sibling relationship between tzaddikim"
+   ],
+   "start_quote_found": true,
+   "end_quote_found": true
+  }
+ ],
+ "check": {
+  "non_vocab_tags": [],
+  "quotes": 7,
+  "quotes_not_found": 0
+ },
+ "id": "Eser-Kedushot_0075",
+ "chars": 406,
+ "seconds": 14
+}

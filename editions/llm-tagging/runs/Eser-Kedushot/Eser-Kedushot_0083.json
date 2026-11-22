@@ -1,0 +1,119 @@
+{
+ "unit": {
+  "kind": "hasidic_story",
+  "why": "A short first-person memorate from a manuscript. As a twelve-year-old, the writer foresaw his father's death, begged him not to travel to Hungary, and the father went anyway and died there.",
+  "boundary_note": ""
+ },
+ "stories": [
+  {
+   "k": 1,
+   "start_quote": "וכשהייתי בן י\"ב שנים נסע אבי",
+   "end_quote": "כ\"א אב שנת רב ושלום",
+   "hasidic": true,
+   "summary_en": "At age twelve the writer foresaw his father's passing and wept for seven days begging him not to travel to Hungary. The father answered that it was God's decree, gave him instructions for conduct, and died in Ohel on 21 Av.",
+   "tags": [
+    {
+     "tag": "characters-and-roles:the_family_of_the_tsaddik",
+     "scope": "story",
+     "quotes": [],
+     "confidence": 3,
+     "why": "The narrator is the tzaddik's son; the story is about father and son.",
+     "quotes_failed": false
+    },
+    {
+     "tag": "supernatural:perception",
+     "scope": "span",
+     "quotes": [
+      "שראיתי הסתלקותו בשם"
+     ],
+     "confidence": 3,
+     "why": "The boy supernaturally foresaw his father's death.",
+     "quotes_failed": false
+    },
+    {
+     "tag": "supernatural:prognostication",
+     "scope": "span",
+     "quotes": [
+      "שראיתי הסתלקותו בשם",
+      "ונסע והלך לעולמו בעיר אוהעל"
+     ],
+     "confidence": 3,
+     "why": "The foreseen death comes true.",
+     "quotes_failed": false
+    },
+    {
+     "tag": "folkloristics:story_type_prognostication",
+     "scope": "story",
+     "quotes": [],
+     "confidence": 2,
+     "why": "The arc runs from foreseen death to its fulfilment.",
+     "quotes_failed": false
+    },
+    {
+     "tag": "folkloristics:story_type_death_of_the_tsaddik",
+     "scope": "story",
+     "quotes": [],
+     "confidence": 2,
+     "why": "The story centres on the father's departure and death, with his last instructions.",
+     "quotes_failed": false
+    },
+    {
+     "tag": "times:death",
+     "scope": "span",
+     "quotes": [
+      "והלך לעולמו בעיר אוהעל שבמדינה הנ\"ל"
+     ],
+     "confidence": 3,
+     "why": "The father's death is narrated.",
+     "quotes_failed": false
+    },
+    {
+     "tag": "practice:the_travels_of_the_tsaddik",
+     "scope": "span",
+     "quotes": [
+      "נסע אבי לאונגארין"
+     ],
+     "confidence": 2,
+     "why": "The father's journey to Hungary is the frame, and he dies on it.",
+     "quotes_failed": false
+    },
+    {
+     "tag": "ethics-and-emotions:sadness",
+     "scope": "span",
+     "quotes": [
+      "ואני בכיתי שבעה ימים ולילות עד קרוב לשגעון"
+     ],
+     "confidence": 1,
+     "why": "The child's extreme grief is depicted, though not as a spiritual problem.",
+     "quotes_failed": false
+    },
+    {
+     "tag": "practice:use_of_holy_names",
+     "scope": "span",
+     "quotes": [
+      "שראיתי הסתלקותו בשם"
+     ],
+     "confidence": 1,
+     "why": "Possibly perception through a divine name; the wording is unclear.",
+     "quotes_failed": false
+    }
+   ],
+   "missing_concepts": [
+    "acceptance of divine decree",
+    "ethical instructions (hanhagot) given before parting",
+    "weeping/pleading to avert fate",
+    "memorate from family manuscript"
+   ],
+   "start_quote_found": true,
+   "end_quote_found": true
+  }
+ ],
+ "check": {
+  "non_vocab_tags": [],
+  "quotes": 7,
+  "quotes_not_found": 0
+ },
+ "id": "Eser-Kedushot_0083",
+ "chars": 263,
+ "seconds": 18
+}

@@ -1,0 +1,78 @@
+{
+ "unit": {
+  "kind": "non_hasidic_story",
+  "why": "A short anecdote about the Ari, quoted from Hiddushei ha-Rim within a homily on visiting the sick: the Ari rose before a man, and Vital asked why. It is a narrative about a pre-Hasidic kabbalist.",
+  "boundary_note": "anecdote embedded in a homiletic discussion that runs from the previous division into the next"
+ },
+ "stories": [
+  {
+   "k": 1,
+   "start_quote": "וכניו שאמר האר\"י ז\"ל שבא מהר\"ש",
+   "end_quote": "ומפניו עמד האר\"י ז\"ל ע״ש",
+   "hasidic": false,
+   "summary_en": "The Ari stood up and showed great honour to a visiting man; when R. Hayyim Vital asked why, he explained that the man had performed a mitzvah that R. Pinhas ben Yair used to do, so the tanna's soul had joined him to help, and it was before that soul that the Ari rose.",
+   "tags": [
+    {
+     "tag": "not-a-hasidic-story:hagiography",
+     "scope": "story",
+     "quotes": [],
+     "confidence": 3,
+     "why": "praises the Ari's supernatural insight; the story is quoted from an earlier book",
+     "quotes_failed": false
+    },
+    {
+     "tag": "not-a-hasidic-story:sermon",
+     "scope": "story",
+     "quotes": [],
+     "confidence": 2,
+     "why": "the anecdote is wrapped in a homily on visiting the sick and on the soul of Abraham",
+     "quotes_failed": false
+    },
+    {
+     "tag": "supernatural:perception",
+     "scope": "span",
+     "quotes": [
+      "ונתחבר נשמתו עמו לעזרה"
+     ],
+     "confidence": 3,
+     "why": "the Ari perceives the tanna's soul accompanying the man",
+     "quotes_failed": false
+    },
+    {
+     "tag": "supernatural:reincarnation",
+     "scope": "span",
+     "quotes": [
+      "ונתחבר נשמתו עמו לעזרה"
+     ],
+     "confidence": 2,
+     "why": "a soul attaches to a living person (ibbur), which is close to gilgul",
+     "quotes_failed": false
+    },
+    {
+     "tag": "social:retrospective_recognition",
+     "scope": "span",
+     "quotes": [
+      "ומפניו עמד האר\"י ז\"ל"
+     ],
+     "confidence": 1,
+     "why": "the hidden reason for the honour is revealed afterwards",
+     "quotes_failed": false
+    }
+   ],
+   "missing_concepts": [
+    "ibbur (impregnation of a living person by a righteous soul) through performing a mitzvah",
+    "honouring/rising before a person"
+   ],
+   "start_quote_found": true,
+   "end_quote_found": true
+  }
+ ],
+ "check": {
+  "non_vocab_tags": [],
+  "quotes": 3,
+  "quotes_not_found": 0
+ },
+ "id": "Shaarei-Haemuna_0010",
+ "chars": 191,
+ "seconds": 59
+}

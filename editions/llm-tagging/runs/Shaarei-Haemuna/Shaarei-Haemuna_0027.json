@@ -1,0 +1,69 @@
+{
+ "unit": {
+  "kind": "non_hasidic_story",
+  "why": "A short exemplum, copied from an older book (ס׳ מבחר/מבאר הפנינים), about a sage who did not worry over the sufferings of his people and explained this with a dream analogy. It sits inside a homiletic chapter on suffering.",
+  "boundary_note": "The text is garbled: an unrelated passage about festive meals, charity and the Shpoler Zeide's saying on giving a cup of whiskey is spliced into the middle of the exemplum, probably a layout or reading-order error. That passage is a teaching, not a story."
+ },
+ "stories": [
+  {
+   "k": 1,
+   "start_quote": "שפ\"א היו אנשי מדינה אחת בצרה גדולה",
+   "end_quote": "שהוא סבר שזה הוא בהקיץ",
+   "hasidic": false,
+   "summary_en": "When a country's people suffered harsh afflictions, one sage among them did not worry. Asked why, he answered that this world is like a dream and the world to come is the waking, so blows received in the dream will not hurt once he wakes.",
+   "tags": [
+    {
+     "tag": "not-a-hasidic-story:sermon",
+     "scope": "story",
+     "quotes": [],
+     "confidence": 3,
+     "why": "The narrative is a thin frame for a homiletic analogy, embedded in a chapter of teachings on suffering.",
+     "quotes_failed": false
+    },
+    {
+     "tag": "not-a-hasidic-story:hagiography",
+     "scope": "span",
+     "quotes": [
+      "מצאתי כתוב בס׳ מבאר מפנינים"
+     ],
+     "confidence": 1,
+     "why": "It praises the wisdom of an unnamed sage and is copied from an older book, though it is only mildly laudatory.",
+     "quotes_failed": false
+    },
+    {
+     "tag": "times:eschatology",
+     "scope": "span",
+     "quotes": [
+      "שהעוה״ז הוא דומה לחלום וטוה״ב להקיץ"
+     ],
+     "confidence": 2,
+     "why": "The world to come is the waking against which suffering in this world is weighed.",
+     "quotes_failed": false
+    },
+    {
+     "tag": "ethics-and-emotions:virtues",
+     "scope": "story",
+     "quotes": [],
+     "confidence": 2,
+     "why": "The story illustrates equanimity and acceptance of suffering.",
+     "quotes_failed": false
+    }
+   ],
+   "missing_concepts": [
+    "suffering / afflictions (yissurim) and accepting them",
+    "this world as a dream (as a metaphor, not a depicted dream)",
+    "communal distress"
+   ],
+   "start_quote_found": true,
+   "end_quote_found": true
+  }
+ ],
+ "check": {
+  "non_vocab_tags": [],
+  "quotes": 2,
+  "quotes_not_found": 0
+ },
+ "id": "Shaarei-Haemuna_0027",
+ "chars": 2081,
+ "seconds": 15
+}

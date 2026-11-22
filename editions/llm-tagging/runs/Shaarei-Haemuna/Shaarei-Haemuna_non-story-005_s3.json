@@ -1,0 +1,79 @@
+{
+ "unit": {
+  "kind": "hasidic_story",
+  "why": "split out of non-story-005 (non-story)"
+ },
+ "stories": [
+  {
+   "k": 3,
+   "start_quote": "ונוראות שמעתי על הה״ק א״א ר׳ משה מפרשעווארסק",
+   "end_quote": "הטרקלין בבואו עכ״ל",
+   "hasidic": true,
+   "summary_en": "A guest rebuked R. Moshe of Przeworsk, author of Or Penei Moshe, for having no benches in his house. The rebbe asked why the guest had none, the guest replied that he was only a passing traveller, and the rebbe answered that he too is a traveller, since this world is only a corridor.",
+   "tags": [
+    {
+     "tag": "social:poverty",
+     "scope": "span",
+     "quotes": [
+      "שהוכיחו אורח על שאין לו ספסלין בביתו"
+     ],
+     "confidence": 3,
+     "why": "the tsaddik deliberately lives without basic furnishings",
+     "quotes_failed": false
+    },
+    {
+     "tag": "folkloristics:story_type_virtues",
+     "scope": "story",
+     "quotes": [],
+     "confidence": 3,
+     "why": "illustrates the tsaddik's detachment from worldly comfort",
+     "quotes_failed": false
+    },
+    {
+     "tag": "not-a-hasidic-story:virtues",
+     "scope": "story",
+     "quotes": [],
+     "confidence": 2,
+     "why": "cited as an exemplum in a section on hospitality and gemilut hasadim",
+     "quotes_failed": false
+    },
+    {
+     "tag": "practice:sermon",
+     "scope": "span",
+     "quotes": [
+      "וז״פ עוה״ז דומה לפרוזדור"
+     ],
+     "confidence": 2,
+     "why": "the punchline expounds a Mishnah from Avot",
+     "quotes_failed": false
+    },
+    {
+     "tag": "ethics-and-emotions:virtues",
+     "scope": "story",
+     "quotes": [],
+     "confidence": 2,
+     "why": "renunciation of the world as a virtue",
+     "quotes_failed": false
+    },
+    {
+     "tag": "practice:asceticism",
+     "scope": "span",
+     "quotes": [
+      "על שאין לו ספסלין בביתו כנהוג"
+     ],
+     "confidence": 1,
+     "why": "austerity in his household",
+     "quotes_failed": false
+    }
+   ],
+   "missing_concepts": [
+    "this world as a corridor or transience (עובר אורח)",
+    "hospitality setting: a guest at the tsaddik's house"
+   ],
+   "start_quote_found": true,
+   "end_quote_found": true
+  }
+ ],
+ "id": "Shaarei-Haemuna_non-story-005_s3",
+ "split_from": "non-story-005"
+}

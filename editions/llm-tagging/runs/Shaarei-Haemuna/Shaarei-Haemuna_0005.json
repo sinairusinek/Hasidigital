@@ -1,0 +1,107 @@
+{
+ "unit": {
+  "kind": "hasidic_story",
+  "why": "An anecdote about R. Barukh of Medzhybizh hosting the author of Mayim Kedoshim on Shabbat: an exchange in which each declines to speak Torah, ending with a short teaching on humility.",
+  "boundary_note": ""
+ },
+ "stories": [
+  {
+   "k": 1,
+   "start_quote": "ובס׳ בוצ״ד. וז״ל פ״א נתארח אצלו",
+   "end_quote": "ובקשתם למנוע אותה ממני עכ״ל",
+   "hasidic": true,
+   "summary_en": "On a Shabbat, R. Barukh of Medzhybizh's guest, the author of Mayim Kedoshim, refuses to speak Torah out of humility, and R. Barukh refuses too; at the third meal the guest finally teaches that the Shekhinah rests on one humble enough to fit inside the small letter yod, and R. Barukh tells him he had tried to keep a pearl from him.",
+   "tags": [
+    {
+     "tag": "times:shabbat",
+     "scope": "story",
+     "quotes": [],
+     "confidence": 3,
+     "why": "Whole episode spans the Sabbath, from Friday night to the third meal",
+     "quotes_failed": false
+    },
+    {
+     "tag": "ethics-and-emotions:humility",
+     "scope": "span",
+     "quotes": [
+      "כשאנחנו רואי׳ אתכם נסתמו מאתנו כל מעיינות החכמה",
+      "מי שהוא עניו כ״כ שיוכל להיות מונח בתוך היוד"
+     ],
+     "confidence": 3,
+     "why": "Humble refusal and a teaching on humility",
+     "quotes_failed": false
+    },
+    {
+     "tag": "folkloristics:story_type_virtues",
+     "scope": "story",
+     "quotes": [],
+     "confidence": 2,
+     "why": "Illustrates the humility of the tzaddikim",
+     "quotes_failed": false
+    },
+    {
+     "tag": "practice:sermon",
+     "scope": "span",
+     "quotes": [
+      "כל בי עשרה עשרה הוא יוד אות קטנה שבאותיות"
+     ],
+     "confidence": 3,
+     "why": "Torah homily delivered at the table",
+     "quotes_failed": false
+    },
+    {
+     "tag": "social:inter_hasidic",
+     "scope": "story",
+     "quotes": [],
+     "confidence": 2,
+     "why": "Interaction between two tzaddikim, host and guest",
+     "quotes_failed": false
+    },
+    {
+     "tag": "practice:the_travels_of_the_tsaddik",
+     "scope": "span",
+     "quotes": [
+      "נתארח אצלו בש״ק הרב הק׳ בעמ״ס מים קדושים"
+     ],
+     "confidence": 1,
+     "why": "A visiting tzaddik stays with R. Barukh as a guest",
+     "quotes_failed": false
+    },
+    {
+     "tag": "practice:joke",
+     "scope": "span",
+     "quotes": [
+      "בעד שאדרוש יפה זאל איך בעסער שטום ווערין"
+     ],
+     "confidence": 1,
+     "why": "Witty retort: rather than preach well, he would rather be struck dumb",
+     "quotes_failed": false
+    },
+    {
+     "tag": "social:retrospective_recognition",
+     "scope": "span",
+     "quotes": [
+      "מרגניהא טבא הי׳ עמכם ובקשתם למנוע אותה ממני"
+     ],
+     "confidence": 1,
+     "why": "R. Barukh recognizes that the guest's earlier refusal had hidden a treasure",
+     "quotes_failed": false
+    }
+   ],
+   "missing_concepts": [
+    "reluctance to say Torah at the tzaddik's table",
+    "tish / Sabbath table setting (third meal)"
+   ],
+   "start_quote_found": true,
+   "end_quote_found": true
+  }
+ ],
+ "check": {
+  "non_vocab_tags": [],
+  "quotes": 6,
+  "quotes_not_found": 0
+ },
+ "id": "Shaarei-Haemuna_0005",
+ "chars": 760,
+ "seconds": 16
+}

@@ -1,0 +1,120 @@
+{
+ "unit": {
+  "kind": "hasidic_story",
+  "why": "A short narrative: a man in Hungary asks R. Moshe (of Sambor? uncle of the Zhidachov rebbe) for help, is told he will be helped 'in socks, not shoes', and is saved right after the tzaddik's death.",
+  "boundary_note": ""
+ },
+ "stories": [
+  {
+   "k": 1,
+   "start_quote": "סיפר לי אבי מורי הרב זצ\"ל",
+   "end_quote": "תיכף נושע האיש ההוא כמדובר",
+   "hasidic": true,
+   "summary_en": "A man in Hungary in need of great salvation asks R. Moshe for help; the tzaddik cryptically says he will help him not 'in shoes' but 'in socks', and indeed right after R. Moshe's death the man is saved.",
+   "tags": [
+    {
+     "tag": "folkloristics:story_type_prognostication",
+     "scope": "story",
+     "quotes": [],
+     "confidence": 3,
+     "why": "cryptic prediction fulfilled after the tzaddik's death",
+     "quotes_failed": false
+    },
+    {
+     "tag": "supernatural:prognostication",
+     "scope": "span",
+     "quotes": [
+      "וועל דיר העלפין אין דיא זאקין"
+     ],
+     "confidence": 3,
+     "why": "prediction that help comes after his death",
+     "quotes_failed": false
+    },
+    {
+     "tag": "practice:reception_of_hasidim",
+     "scope": "span",
+     "quotes": [
+      "ודפק על פתחו של רבינו משה"
+     ],
+     "confidence": 2,
+     "why": "petitioner comes to the tzaddik's door",
+     "quotes_failed": false
+    },
+    {
+     "tag": "practice:travel_to_the_tsaddik",
+     "scope": "span",
+     "quotes": [
+      "ודפק על פתחו של רבינו משה"
+     ],
+     "confidence": 1,
+     "why": "man from Hungary comes to the tzaddik with a request",
+     "quotes_failed": false
+    },
+    {
+     "tag": "times:death",
+     "scope": "span",
+     "quotes": [
+      "וכן הי׳ שנסתלק רבינו משה"
+     ],
+     "confidence": 3,
+     "why": "tzaddik's passing is the turning point",
+     "quotes_failed": false
+    },
+    {
+     "tag": "supernatural:miracle",
+     "scope": "span",
+     "quotes": [
+      "ואז תיכף נושע האיש ההוא"
+     ],
+     "confidence": 2,
+     "why": "salvation immediately after the death",
+     "quotes_failed": false
+    },
+    {
+     "tag": "practice:torat_ha_tsaddik",
+     "scope": "span",
+     "quotes": [
+      "וועל דיר העלפין אין דיא זאקין"
+     ],
+     "confidence": 2,
+     "why": "tzaddik's power to help even after death",
+     "quotes_failed": false
+    },
+    {
+     "tag": "practice:storytelling",
+     "scope": "span",
+     "quotes": [
+      "סיפר לי אבי מורי הרב זצ\"ל"
+     ],
+     "confidence": 1,
+     "why": "framed as told by the author's father",
+     "quotes_failed": false
+    },
+    {
+     "tag": "social:retrospective_recognition",
+     "scope": "span",
+     "quotes": [
+      "וכן הי׳ שנסתלק רבינו משה"
+     ],
+     "confidence": 2,
+     "why": "meaning of the riddle about shoes and socks becomes clear in retrospect",
+     "quotes_failed": false
+    }
+   ],
+   "missing_concepts": [
+    "posthumous intercession of the tzaddik",
+    "cryptic/riddling speech (shoes vs. socks as allusion to burial/death)"
+   ],
+   "start_quote_found": true,
+   "end_quote_found": true
+  }
+ ],
+ "check": {
+  "non_vocab_tags": [],
+  "quotes": 8,
+  "quotes_not_found": 0
+ },
+ "id": "Eser-Kedushot_0073",
+ "chars": 250,
+ "seconds": 11
+}

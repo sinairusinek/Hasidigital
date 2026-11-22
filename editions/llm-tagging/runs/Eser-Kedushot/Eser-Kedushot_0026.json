@@ -1,0 +1,133 @@
+{
+ "unit": {
+  "kind": "hasidic_story",
+  "why": "A short anecdote about Rabbi Zvi (of Zhidachov), passed down through a chain of tellers. He hears a heavenly proclamation honouring him after prayer in tallit and tefillin, then a proclamation of woe after he moves an object without the unification of God's name.",
+  "boundary_note": "Part of a numbered series of short items from the same source; the next item (יח) is a related saying, not a continuation."
+ },
+ "stories": [
+  {
+   "k": 1,
+   "start_quote": "(יז) בהקדמת ליקו\"ת וש\"ס מהרי״א חלק",
+   "end_quote": "המתבונן בזה יעמוד מרעיד :",
+   "hasidic": true,
+   "summary_en": "After praying in tallit and tefillin, R. Zvi heard a heavenly call to honour the King's image. At home he forgot himself and moved an object without the unification of God's name, and heard a call of woe on one who rebels against his Master.",
+   "tags": [
+    {
+     "tag": "supernatural:communicating_with_the_invisible",
+     "scope": "span",
+     "quotes": [
+      "שמע שמכריזין למעלה הבו יקר לדיוקנא דמלכא",
+      "ווי לפלניא דמריד במאריה"
+     ],
+     "confidence": 3,
+     "why": "He hears heavenly proclamations.",
+     "quotes_failed": false
+    },
+    {
+     "tag": "practice:tefillin",
+     "scope": "span",
+     "quotes": [
+      "אחד התפלה בטו״ת"
+     ],
+     "confidence": 2,
+     "why": "He wears tallit and tefillin; the 'King's image' praise is tied to them.",
+     "quotes_failed": false
+    },
+    {
+     "tag": "practice:prayer",
+     "scope": "span",
+     "quotes": [
+      "אחד התפלה בטו״ת"
+     ],
+     "confidence": 2,
+     "why": "Returning home after prayer.",
+     "quotes_failed": false
+    },
+    {
+     "tag": "spaces:beth_midrash",
+     "scope": "span",
+     "quotes": [
+      "כשהלך מבהמ\"ד לביתו"
+     ],
+     "confidence": 2,
+     "why": "He walks home from the study hall.",
+     "quotes_failed": false
+    },
+    {
+     "tag": "practice:meditation",
+     "scope": "span",
+     "quotes": [
+      "בלי יחוד שמו יתברך"
+     ],
+     "confidence": 2,
+     "why": "Contemplative unification of the Name before each action.",
+     "quotes_failed": false
+    },
+    {
+     "tag": "kabbalah:kabbalistic_terms_yihudim",
+     "scope": "span",
+     "quotes": [
+      "בלי יחוד שמו יתברך"
+     ],
+     "confidence": 1,
+     "why": "Unification of the divine Name as a devotional act; borderline.",
+     "quotes_failed": false
+    },
+    {
+     "tag": "ethics-and-emotions:awe",
+     "scope": "span",
+     "quotes": [
+      "המתבונן בזה יעמוד מרעיד"
+     ],
+     "confidence": 2,
+     "why": "The closing comment evokes awe and trembling.",
+     "quotes_failed": false
+    },
+    {
+     "tag": "ethics-and-emotions:punishment",
+     "scope": "span",
+     "quotes": [
+      "ווי לפלניא דמריד במאריה"
+     ],
+     "confidence": 1,
+     "why": "Heavenly rebuke for a lapse; borderline, since no actual punishment follows.",
+     "quotes_failed": false
+    },
+    {
+     "tag": "experience:revelation",
+     "scope": "span",
+     "quotes": [
+      "שמע שמכריזין למעלה"
+     ],
+     "confidence": 2,
+     "why": "Supernatural disclosure of the heavenly verdict.",
+     "quotes_failed": false
+    },
+    {
+     "tag": "practice:storytelling",
+     "scope": "span",
+     "quotes": [
+      "ששמע מהרה״ק ר׳ שלמה מדאלינא ז\"ל ששמע מרבינו צבי"
+     ],
+     "confidence": 1,
+     "why": "Framed as an oral chain of transmission.",
+     "quotes_failed": false
+    }
+   ],
+   "missing_concepts": [
+    "constant mindfulness of God in mundane acts (unifying the Name before every action)",
+    "heavenly proclamation (כרוז) judging a tzaddik's conduct"
+   ],
+   "start_quote_found": true,
+   "end_quote_found": true
+  }
+ ],
+ "check": {
+  "non_vocab_tags": [],
+  "quotes": 11,
+  "quotes_not_found": 0
+ },
+ "id": "Eser-Kedushot_0026",
+ "chars": 389,
+ "seconds": 19
+}

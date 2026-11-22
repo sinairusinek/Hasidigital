@@ -1,0 +1,91 @@
+{
+ "unit": {
+  "kind": "hasidic_story",
+  "why": "A brief first-person memorate: the author recalls his first visit to R. Moshe of Savran, who argued with him that one must travel to the great men of the generation rather than rely on one's own reason, supported by exegesis of verses; the teaching dominates and the narrative frame is thin.",
+  "boundary_note": "excerpt quoted from another book (שושנים אות כ\"ז) inside an anthology chain of sources on travelling to the tzaddik"
+ },
+ "stories": [
+  {
+   "k": 1,
+   "start_quote": "הנה בהיותי פעם ראשונה אצל אדמו״ר",
+   "end_quote": "אז נעו מעגלותי׳ לא תדע",
+   "hasidic": true,
+   "summary_en": "On the narrator's first visit to R. Moshe of Savran, the rebbe argued at length with him that no one should choose a path of divine service by his own intellect, but should travel to the great men of the generation to be guided, interpreting Ecclesiastes and Proverbs verses to this effect.",
+   "tags": [
+    {
+     "tag": "not-a-hasidic-story:sermon",
+     "scope": "story",
+     "quotes": [],
+     "confidence": 3,
+     "why": "the content is mainly a teaching with verse exegesis inside a thin narrative frame",
+     "quotes_failed": false
+    },
+    {
+     "tag": "practice:torat_ha_tsaddik",
+     "scope": "span",
+     "quotes": [
+      "רק שנריך ליסע לגדולי הדור שיורוהו הדרך הסלולה והישרה",
+      "מבלי שישמוך אדם על שכלו ליקח לו דרך"
+     ],
+     "confidence": 3,
+     "why": "the need to be guided by a true tzaddik instead of one's own reason",
+     "quotes_failed": false
+    },
+    {
+     "tag": "practice:travel_to_the_tsaddik",
+     "scope": "span",
+     "quotes": [
+      "בהיותי פעם ראשונה אצל אדמו״ר הה״ק ר׳ משה מסאויראן"
+     ],
+     "confidence": 2,
+     "why": "the narrator's first visit to the rebbe, and the theme of travelling to the great men of the generation",
+     "quotes_failed": false
+    },
+    {
+     "tag": "social:inter_hasidic_master_disciple_relationship",
+     "scope": "span",
+     "quotes": [
+      "היה לו ויכוח גדול עמי"
+     ],
+     "confidence": 2,
+     "why": "the first encounter and debate between the rebbe and his future disciple",
+     "quotes_failed": false
+    },
+    {
+     "tag": "practice:sermon",
+     "scope": "span",
+     "quotes": [
+      "ואמר לי שזהו אמר שהע\"ה אמרתי אחכמה",
+      "וגם אחר שזה ביאור הכתוב אורח חיים כן תפלס"
+     ],
+     "confidence": 3,
+     "why": "the rebbe's exegesis of verses is quoted",
+     "quotes_failed": false
+    },
+    {
+     "tag": "practice:reception_of_hasidim",
+     "scope": "span",
+     "quotes": [
+      "בהיותי פעם ראשונה אצל אדמו״ר"
+     ],
+     "confidence": 1,
+     "why": "the rebbe receives a newcomer on his first visit",
+     "quotes_failed": false
+    }
+   ],
+   "missing_concepts": [
+    "reliance on one's own intellect versus guidance by the tzaddik"
+   ],
+   "start_quote_found": true,
+   "end_quote_found": true
+  }
+ ],
+ "check": {
+  "non_vocab_tags": [],
+  "quotes": 7,
+  "quotes_not_found": 0
+ },
+ "id": "Shaarei-Haemuna_0045",
+ "chars": 538,
+ "seconds": 18
+}

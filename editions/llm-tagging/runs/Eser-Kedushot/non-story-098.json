@@ -1,0 +1,134 @@
+{
+ "unit": {
+  "kind": "paratext_with_story",
+  "why": "A letter from R. Zvi Hirsh of Zhidachov to the ailing R. Naftali Zvi of Ropshitz. It is mainly consolation and blessing, but it embeds a short first-person account: the writer was gravely ill, was healed through the Ropshitzer's self-sacrificing prayer, and then came to his house for a thanksgiving meal.",
+  "boundary_note": ""
+ },
+ "stories": [
+  {
+   "k": 1,
+   "start_quote": "והנה ידידי בהשם אלקי יעקב אשר עזר לי",
+   "end_quote": "אשר עשה אדוני ידידי עמדי",
+   "hasidic": true,
+   "summary_en": "The Zhidachover recalls that when he was gravely ill and despaired of life, the Ropshitzer prayed for him with self-sacrifice and he recovered. He then rejoiced at the Ropshitzer's house in a thanksgiving meal, and he uses this to encourage the now-sick Ropshitzer and his sons not to be sad.",
+   "tags": [
+    {
+     "tag": "practice:healing",
+     "scope": "span",
+     "quotes": [
+      "וריפא אותי להחלימני ולהקימני",
+      "בקומי מחליי להשתעשע בזיו הדר"
+     ],
+     "confidence": 3,
+     "why": "He recovered from illness through the tzaddik's prayer",
+     "quotes_failed": false
+    },
+    {
+     "tag": "practice:prayer",
+     "scope": "span",
+     "quotes": [
+      "אשר התפלל עלי במסירת נפשו להשם"
+     ],
+     "confidence": 3,
+     "why": "The tzaddik's intercessory prayer",
+     "quotes_failed": false
+    },
+    {
+     "tag": "practice:torat_ha_tsaddik",
+     "scope": "span",
+     "quotes": [
+      "ונכנס בעובי הקורה עבורי השפל",
+      "רעיא מהימנא שלנו"
+     ],
+     "confidence": 2,
+     "why": "The tzaddik's power to intercede on another's behalf",
+     "quotes_failed": false
+    },
+    {
+     "tag": "practice:lifesaving",
+     "scope": "span",
+     "quotes": [
+      "לא אראה עוד מה בארץ החיים"
+     ],
+     "confidence": 2,
+     "why": "Rescued from expected death",
+     "quotes_failed": false
+    },
+    {
+     "tag": "supernatural:miracle",
+     "scope": "span",
+     "quotes": [
+      "לאחר יאוש ואין מקוה"
+     ],
+     "confidence": 1,
+     "why": "Recovery after despair, implicitly wondrous",
+     "quotes_failed": false
+    },
+    {
+     "tag": "practice:travel_to_other_tsaddik",
+     "scope": "span",
+     "quotes": [
+      "בביתו הקדוש באדרא דבי משכנא"
+     ],
+     "confidence": 1,
+     "why": "He visited the Ropshitzer's house, the Ropshitzer being another tzaddik",
+     "quotes_failed": false
+    },
+    {
+     "tag": "ethics-and-emotions:joy",
+     "scope": "span",
+     "quotes": [
+      "שמחו בה׳ ובטחו בה׳",
+      "בסעודת הודאת ברכות רוממות אל"
+     ],
+     "confidence": 2,
+     "why": "A thanksgiving meal, and an exhortation to joy",
+     "quotes_failed": false
+    },
+    {
+     "tag": "ethics-and-emotions:sadness",
+     "scope": "span",
+     "quotes": [
+      "ואל תעצבו וחלילה להראות עצבות"
+     ],
+     "confidence": 2,
+     "why": "He warns the sons against sadness",
+     "quotes_failed": false
+    },
+    {
+     "tag": "characters-and-roles:the_family_of_the_tsaddik",
+     "scope": "span",
+     "quotes": [
+      "קבלתי מכתב בניו הנעימים"
+     ],
+     "confidence": 2,
+     "why": "The Ropshitzer's sons wrote to him and are addressed",
+     "quotes_failed": false
+    },
+    {
+     "tag": "social:inter_hasidic",
+     "scope": "story",
+     "quotes": [],
+     "confidence": 2,
+     "why": "Friendship and correspondence between two tzaddikim",
+     "quotes_failed": false
+    }
+   ],
+   "missing_concepts": [
+    "letter / correspondence between tzaddikim",
+    "thanksgiving meal (seudat hoda'ah)",
+    "illness of the tzaddik himself"
+   ],
+   "start_quote_found": true,
+   "end_quote_found": true
+  }
+ ],
+ "check": {
+  "non_vocab_tags": [],
+  "quotes": 12,
+  "quotes_not_found": 0
+ },
+ "id": "non-story-098",
+ "chars": 2204,
+ "seconds": 19
+}

@@ -1,0 +1,147 @@
+{
+ "unit": {
+  "kind": "hasidic_story",
+  "why": "A single anecdote: on Yom Kippur at the Seer of Lublin's court, R. Moshe warms food for his dangerously ill brother R. Zvi, and the Seer links this to that day's fervent prayer.",
+  "boundary_note": ""
+ },
+ "stories": [
+  {
+   "k": 1,
+   "start_quote": "עוד בהיותו מסתופף בצל רבו הקדוש",
+   "end_quote": "ווייל איהר האט אונטר גיוואהרימט",
+   "hasidic": true,
+   "summary_en": "While staying with the Seer of Lublin, R. Moshe had to break Yom Kippur to cook and warm food for his dangerously ill brother R. Zvi. When he told the Seer, the Seer answered that now he knew why the prayer had been so 'hot' that day: R. Moshe had done the warming beneath it.",
+   "tags": [
+    {
+     "tag": "times:holidays",
+     "scope": "span",
+     "quotes": [
+      "והוכרח אחיו הרבי ר״מ אז ביוה\"כ לחמם"
+     ],
+     "confidence": 3,
+     "why": "Set on Yom Kippur",
+     "quotes_failed": false
+    },
+    {
+     "tag": "practice:halakhah",
+     "scope": "span",
+     "quotes": [
+      "כי הי׳ חולה מסוכן ל\"ע שמצוה בגדולי ישראל בזריזות",
+      "הוכרח לחלל יוה״כ עבורו בבישול וחימום"
+     ],
+     "confidence": 3,
+     "why": "Saving a life overrides Yom Kippur; the mitzvah is done by great men",
+     "quotes_failed": false
+    },
+    {
+     "tag": "practice:prayer",
+     "scope": "span",
+     "quotes": [
+      "ולא הי׳ יכול ליכנוס לבהמ\"ד להתפלל",
+      "וואס מיר האבין גיהאט היינט אזא הייס דאווינין"
+     ],
+     "confidence": 3,
+     "why": "The Yom Kippur prayer is the focus of the Seer's remark",
+     "quotes_failed": false
+    },
+    {
+     "tag": "experience:enthusiasm",
+     "scope": "span",
+     "quotes": [
+      "אזא הייס דאווינין"
+     ],
+     "confidence": 2,
+     "why": "The day's prayer was unusually fervent ('hot')",
+     "quotes_failed": false
+    },
+    {
+     "tag": "characters-and-roles:the_family_of_the_tsaddik",
+     "scope": "span",
+     "quotes": [
+      "ביחד עם אביו ורבו רבינו צבי",
+      "והוכרח אחיו הרבי ר״מ"
+     ],
+     "confidence": 3,
+     "why": "The two brothers R. Zvi and R. Moshe are the actors",
+     "quotes_failed": false
+    },
+    {
+     "tag": "social:inter_hasidic_master_disciple_relationship",
+     "scope": "span",
+     "quotes": [
+      "בהיותו מסתופף בצל רבו הקדוש מלובלין",
+      "שאל את הרבי ר״מ על שלום אחיו"
+     ],
+     "confidence": 2,
+     "why": "Disciples at the court of their master, the Seer, and their exchange with him",
+     "quotes_failed": false
+    },
+    {
+     "tag": "spaces:beth_midrash",
+     "scope": "span",
+     "quotes": [
+      "וכאשר יצא מרן מלובלין ביוה״כ מבהמ\"ד"
+     ],
+     "confidence": 2,
+     "why": "The study hall where the Yom Kippur prayer took place",
+     "quotes_failed": false
+    },
+    {
+     "tag": "supernatural:perception",
+     "scope": "span",
+     "quotes": [
+      "אצונד ווייס איך שוין וואס מיר האבין"
+     ],
+     "confidence": 1,
+     "why": "The Seer sees a hidden link between the deed and the prayer",
+     "quotes_failed": false
+    },
+    {
+     "tag": "practice:joke",
+     "scope": "span",
+     "quotes": [
+      "ווייל איהר האט אונטר גיוואהרימט"
+     ],
+     "confidence": 1,
+     "why": "Wordplay: physical warming made the prayer hot",
+     "quotes_failed": false
+    },
+    {
+     "tag": "social:retrospective_recognition",
+     "scope": "span",
+     "quotes": [
+      "אצונד ווייס איך שוין"
+     ],
+     "confidence": 2,
+     "why": "The Seer only now grasps why the prayer was so fervent",
+     "quotes_failed": false
+    },
+    {
+     "tag": "practice:travel_to_the_tsaddik",
+     "scope": "span",
+     "quotes": [
+      "בהיותו מסתופף בצל רבו הקדוש מלובלין"
+     ],
+     "confidence": 1,
+     "why": "The brothers are staying at the Seer's court for the High Holidays",
+     "quotes_failed": false
+    }
+   ],
+   "missing_concepts": [
+    "pikuach nefesh overriding Yom Kippur",
+    "a mitzvah act raising the quality of communal prayer (theurgic effect)",
+    "illness of a tsaddik"
+   ],
+   "start_quote_found": true,
+   "end_quote_found": true
+  }
+ ],
+ "check": {
+  "non_vocab_tags": [],
+  "quotes": 15,
+  "quotes_not_found": 0
+ },
+ "id": "Eser-Kedushot_0068",
+ "chars": 557,
+ "seconds": 20
+}

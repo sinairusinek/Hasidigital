@@ -1,0 +1,102 @@
+{
+ "unit": {
+  "kind": "hasidic_story",
+  "why": "A short anecdote: R. Yaakov of Sieniawa sends tobacco via the Yismah Moshe to the Seer of Lublin, who smells in it the scent of first-fruits, matching the messenger's unspoken thought.",
+  "boundary_note": ""
+ },
+ "stories": [
+  {
+   "k": 1,
+   "start_quote": "ועובדא ידעני איש אחד חסיד ועשיר",
+   "end_quote": "צבי יחזקאל כ״י האבד״ק פלונסק",
+   "hasidic": true,
+   "summary_en": "A rich hasid of Sieniawa sends tobacco to the Seer of Lublin through the Yismah Moshe. On the way the messenger thinks that one who merely brings a gift to a scholar is like one bringing first-fruits. On smelling the tobacco the Seer says it smells of first-fruits.",
+   "tags": [
+    {
+     "tag": "supernatural:perception",
+     "scope": "span",
+     "quotes": [
+      "והריח בו אמר שמריח ריח ביכורים"
+     ],
+     "confidence": 3,
+     "why": "The Seer perceives the messenger's unspoken thought through the smell.",
+     "quotes_failed": false
+    },
+    {
+     "tag": "practice:smoking",
+     "scope": "span",
+     "quotes": [
+      "שלח טאבאק להרה״ק מלובלין זלה\"ה"
+     ],
+     "confidence": 2,
+     "why": "The tobacco sent to the tzaddik is the meaningful object of the story.",
+     "quotes_failed": false
+    },
+    {
+     "tag": "practice:torat_ha_tsaddik",
+     "scope": "span",
+     "quotes": [
+      "המביא דורן לת\"ח כאלו מביא בכורים"
+     ],
+     "confidence": 2,
+     "why": "Bringing a gift to a tzaddik is valued like bringing first-fruits.",
+     "quotes_failed": false
+    },
+    {
+     "tag": "practice:travel_to_the_tsaddik",
+     "scope": "span",
+     "quotes": [
+      "ותיכף שהביאו להצדיק הק נ\"ל ז\"ל"
+     ],
+     "confidence": 2,
+     "why": "The messenger brings the gift to the tzaddik's court.",
+     "quotes_failed": false
+    },
+    {
+     "tag": "ethics-and-emotions:charity",
+     "scope": "span",
+     "quotes": [
+      "איש אחד חסיד ועשיר מק׳ שינאווע"
+     ],
+     "confidence": 1,
+     "why": "A wealthy hasid gives a gift to the tzaddik.",
+     "quotes_failed": false
+    },
+    {
+     "tag": "social:inter_hasidic",
+     "scope": "story",
+     "quotes": [],
+     "confidence": 2,
+     "why": "The story links a hasid, the rabbi of Sieniawa and the Seer of Lublin.",
+     "quotes_failed": false
+    },
+    {
+     "tag": "practice:storytelling",
+     "scope": "span",
+     "quotes": [
+      "ושמעתי מפה קדשו",
+      "זאת העתיק לנו שארי הרה״ג ר׳ צבי יחזקאל"
+     ],
+     "confidence": 2,
+     "why": "The story is framed as told by the grandson of the Yismah Moshe and passed on through family tradition.",
+     "quotes_failed": false
+    }
+   ],
+   "missing_concepts": [
+    "gifts to the tzaddik (doron)",
+    "first-fruits (bikkurim) analogy",
+    "supernatural sense of smell"
+   ],
+   "start_quote_found": true,
+   "end_quote_found": true
+  }
+ ],
+ "check": {
+  "non_vocab_tags": [],
+  "quotes": 7,
+  "quotes_not_found": 0
+ },
+ "id": "Shaarei-Haemuna_0046",
+ "chars": 551,
+ "seconds": 14
+}

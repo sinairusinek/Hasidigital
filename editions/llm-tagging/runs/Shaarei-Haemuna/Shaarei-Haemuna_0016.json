@@ -1,0 +1,116 @@
+{
+ "unit": {
+  "kind": "non_hasidic_story",
+  "why": "A short exemplum cited from Sefer Hasidim (via Shem mi-Shimon, Be-ha'alotkha) about a villager-shamash whose devekut while lighting the lamps is noticed by the town rabbi; it is a pre-Hasidic tale, not a Hasidic one.",
+  "boundary_note": "Part of a thematic chain on lighting lamps; the previous division ends with the heading 'מענין הדלקת נרות' and the next continues with homiletic material from Dudaim ba-Sadeh."
+ },
+ "stories": [
+  {
+   "k": 1,
+   "start_quote": "ע״פ דאיתא בס״ח בבן כפר",
+   "end_quote": "ומיד נתן לו נשיאותו וכו׳ עכ״ל",
+   "hasidic": false,
+   "summary_en": "A villager who became beadle of the study hall was so absorbed in cleaving to God while lighting the lamps that he poured the oil on his feet; the town rabbi noticed this, declared him fit to be rabbi and handed him his leadership.",
+   "tags": [
+    {
+     "tag": "not-a-hasidic-story:hagiography",
+     "scope": "story",
+     "quotes": [],
+     "confidence": 3,
+     "why": "Praise of a pious man, taken explicitly from Sefer Hasidim.",
+     "quotes_failed": false
+    },
+    {
+     "tag": "practice:devekut",
+     "scope": "span",
+     "quotes": [
+      "מרוב דבקותו בהש״י לא היה מרגיש מה הוא עושה"
+     ],
+     "confidence": 3,
+     "why": "Rapt attachment to God shown during his task.",
+     "quotes_failed": false
+    },
+    {
+     "tag": "experience:devekut",
+     "scope": "span",
+     "quotes": [
+      "והרגיש שעושה זה מרוב דבקות"
+     ],
+     "confidence": 3,
+     "why": "The story's central experience is mystical cleaving.",
+     "quotes_failed": false
+    },
+    {
+     "tag": "spaces:beth_midrash",
+     "scope": "span",
+     "quotes": [
+      "ונעשה שמש בהמ״ד"
+     ],
+     "confidence": 2,
+     "why": "He serves as beadle of the study hall, where the lamps are lit.",
+     "quotes_failed": false
+    },
+    {
+     "tag": "characters-and-roles:hidden_righteous",
+     "scope": "span",
+     "quotes": [
+      "בבן כפר שהלך לדור בעיר ונעשה שמש"
+     ],
+     "confidence": 2,
+     "why": "A humble beadle whose hidden piety is concealed.",
+     "quotes_failed": false
+    },
+    {
+     "tag": "folkloristics:story_type_revelation",
+     "scope": "story",
+     "quotes": [],
+     "confidence": 2,
+     "why": "The beadle's hidden greatness is disclosed to the rabbi and he is elevated.",
+     "quotes_failed": false
+    },
+    {
+     "tag": "social:retrospective_recognition",
+     "scope": "span",
+     "quotes": [
+      "אמר תמה אני כי מהראוי הוא שיהא רב"
+     ],
+     "confidence": 2,
+     "why": "The rabbi realizes the lowly beadle is worthy of leadership.",
+     "quotes_failed": false
+    },
+    {
+     "tag": "times:inauguration",
+     "scope": "span",
+     "quotes": [
+      "ומיד נתן לו נשיאותו"
+     ],
+     "confidence": 2,
+     "why": "The rabbi hands his leadership over to the beadle.",
+     "quotes_failed": false
+    },
+    {
+     "tag": "ethics-and-emotions:humility",
+     "scope": "story",
+     "quotes": [],
+     "confidence": 1,
+     "why": "A pious man in a lowly role, implicitly a model of humility.",
+     "quotes_failed": false
+    }
+   ],
+   "missing_concepts": [
+    "lighting of lamps (הדלקת נרות) as a devotional act",
+    "the synagogue beadle (shamash) as a character role"
+   ],
+   "start_quote_found": true,
+   "end_quote_found": true
+  }
+ ],
+ "check": {
+  "non_vocab_tags": [],
+  "quotes": 6,
+  "quotes_not_found": 0
+ },
+ "id": "Shaarei-Haemuna_0016",
+ "chars": 306,
+ "seconds": 17
+}

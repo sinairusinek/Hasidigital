@@ -1,0 +1,179 @@
+{
+ "unit": {
+  "kind": "non_hasidic_story",
+  "why": "A narrative quoted from Siddur Nehora ha-Shalem: the author of Zera Yitzhak hears the heavenly court judge a departed righteous man. It is a pre-Hasidic moral exemplum about uttering God's name in vain, not a tale about Hasidic figures.",
+  "boundary_note": ""
+ },
+ "stories": [
+  {
+   "k": 1,
+   "start_quote": "בסידור נהורא השלם וז\"ל מצאתי שהמחבר",
+   "end_quote": "ובחר בגיהנם מבגלגול עכ״ל",
+   "hasidic": false,
+   "summary_en": "The author of Zera Yitzhak was drawn up and heard the heavenly court judge a departed righteous man: angels born of his mitzvot testified for him, but black-clad destroying angels created by his uttering God's names in prayer without intention testified against him, and he was sentenced to choose between Gehinnom and reincarnation, choosing Gehinnom.",
+   "tags": [
+    {
+     "tag": "characters-and-roles:angels",
+     "scope": "span",
+     "quotes": [
+      "ובאו המלאכים שנבראו מהמצות אשר עשה",
+      "ובאו גדודי מלאכי חבלה לבושים ומתעטפים שחורים"
+     ],
+     "confidence": 3,
+     "why": "Angels created from his mitzvot and destroying angels testify",
+     "quotes_failed": false
+    },
+    {
+     "tag": "spaces:heaven",
+     "scope": "story",
+     "quotes": [],
+     "confidence": 3,
+     "why": "The whole scene takes place in the heavenly court",
+     "quotes_failed": false
+    },
+    {
+     "tag": "spaces:rabbinical_court",
+     "scope": "span",
+     "quotes": [
+      "ושמע בב״ד של מעלה קול רעש גדול"
+     ],
+     "confidence": 2,
+     "why": "A heavenly beit din holds legal proceedings with witnesses and a verdict",
+     "quotes_failed": false
+    },
+    {
+     "tag": "spaces:hell",
+     "scope": "span",
+     "quotes": [
+      "או לירד לגיהנם או יחזור ויבוא בגלגול",
+      "ובחר בגיהנם מבגלגול"
+     ],
+     "confidence": 2,
+     "why": "Gehinnom is the sentenced destination, though not shown as a setting",
+     "quotes_failed": false
+    },
+    {
+     "tag": "supernatural:reincarnation",
+     "scope": "span",
+     "quotes": [
+      "או יחזור ויבוא בגלגול"
+     ],
+     "confidence": 2,
+     "why": "Reincarnation is offered as an alternative punishment",
+     "quotes_failed": false
+    },
+    {
+     "tag": "ethics-and-emotions:punishment",
+     "scope": "span",
+     "quotes": [
+      "ונגמר דינו או לירד לגיהנם"
+     ],
+     "confidence": 3,
+     "why": "The man is sentenced for his transgression",
+     "quotes_failed": false
+    },
+    {
+     "tag": "ethics-and-emotions:prohibitions",
+     "scope": "span",
+     "quotes": [
+      "מזהרת מלהוציא ש״ש לבטלה"
+     ],
+     "confidence": 3,
+     "why": "The prohibition on uttering God's name in vain is the crux",
+     "quotes_failed": false
+    },
+    {
+     "tag": "practice:prayer",
+     "scope": "span",
+     "quotes": [
+      "כשהוציא כך וכך אזכר״ת בתפלה בלא כוונה"
+     ],
+     "confidence": 2,
+     "why": "His sin was saying divine names in prayer without intention",
+     "quotes_failed": false
+    },
+    {
+     "tag": "times:death",
+     "scope": "span",
+     "quotes": [
+      "פנו מקום לצדיק א׳ שנפטר"
+     ],
+     "confidence": 2,
+     "why": "The judgment follows the man's death",
+     "quotes_failed": false
+    },
+    {
+     "tag": "experience:journey_to_heaven",
+     "scope": "span",
+     "quotes": [
+      "שהמחבר זרע יצחק ז\"ל אנגיד ושמע בב״ד של מעלה"
+     ],
+     "confidence": 2,
+     "why": "The author was 'drawn up' and witnessed the heavenly court",
+     "quotes_failed": false
+    },
+    {
+     "tag": "supernatural:communicating_with_the_invisible",
+     "scope": "span",
+     "quotes": [
+      "ושמע בב״ד של מעלה קול רעש גדול"
+     ],
+     "confidence": 2,
+     "why": "He hears heavenly voices and proceedings",
+     "quotes_failed": false
+    },
+    {
+     "tag": "not-a-hasidic-story:hagiography",
+     "scope": "story",
+     "quotes": [],
+     "confidence": 1,
+     "why": "Copied from an older book about a pre-Hasidic author's experience, though it does not mainly praise him",
+     "quotes_failed": false
+    },
+    {
+     "tag": "not-a-hasidic-story:virtues",
+     "scope": "story",
+     "quotes": [],
+     "confidence": 1,
+     "why": "Functions as a moral warning against uttering God's name in vain",
+     "quotes_failed": false
+    },
+    {
+     "tag": "practice:halakhah",
+     "scope": "span",
+     "quotes": [
+      "ושאלוהו קיימת תורה בע״פ ואמר הן"
+     ],
+     "confidence": 1,
+     "why": "His observance of the Shulhan Arukh and specific commandments is examined",
+     "quotes_failed": false
+    },
+    {
+     "tag": "ethics-and-emotions:awe",
+     "scope": "span",
+     "quotes": [
+      "טפה סרוחה איך לא יראת"
+     ],
+     "confidence": 1,
+     "why": "He is rebuked for lacking fear of God",
+     "quotes_failed": false
+    }
+   ],
+   "missing_concepts": [
+    "heavenly trial / posthumous judgment of the soul",
+    "angels created from mitzvot and sins (advocates and accusers)",
+    "rending garments in mourning"
+   ],
+   "start_quote_found": true,
+   "end_quote_found": true
+  }
+ ],
+ "check": {
+  "non_vocab_tags": [],
+  "quotes": 14,
+  "quotes_not_found": 0
+ },
+ "id": "Shaarei-Haemuna_0029",
+ "chars": 831,
+ "seconds": 25
+}

@@ -1,0 +1,92 @@
+{
+ "unit": {
+  "kind": "hasidic_story",
+  "why": "A short anecdote: R. Naftali of Ropshitz is displeased with a prayer leader in Zhidachov, and R. Zvi answers with a teaching he heard from the Maggid of Kozhnitz. The narrative frame is thin and mostly carries a homily.",
+  "boundary_note": ""
+ },
+ "stories": [
+  {
+   "k": 1,
+   "start_quote": "בעת הי׳ הרה״ק מוהר\"נ זלה\"ה מראפשיטץ בזידיטשוב",
+   "end_quote": "הבעל תפלה הוא טפל להצדיק עכד״ק",
+   "hasidic": true,
+   "summary_en": "While R. Naftali of Ropshitz was in Zhidachov, a man led the prayer in a way he disliked. R. Zvi quoted the Maggid of Kozhnitz's reading of the Yoma passage on Shemaya and Avtalyon: tzaddikim give the prayer leader his power, so the leader is secondary to the tzaddik.",
+   "tags": [
+    {
+     "tag": "practice:prayer",
+     "scope": "span",
+     "quotes": [
+      "התפלל שם אחד לפני התיבה",
+      "עיקר התפלה אנו מתפללים ולפני התיבה יעמוד איזה שיהי׳"
+     ],
+     "confidence": 3,
+     "why": "Leading public prayer is the occasion and the subject",
+     "quotes_failed": false
+    },
+    {
+     "tag": "practice:sermon",
+     "scope": "span",
+     "quotes": [
+      "ופי' כי הצדיקים נותנים כח להבעלי תפלות",
+      "על המובא בגמ׳ [יומא ע״א ב] בכה\"ג אחד"
+     ],
+     "confidence": 3,
+     "why": "Talmud exegesis quoted as a tzaddik's teaching",
+     "quotes_failed": false
+    },
+    {
+     "tag": "practice:torat_ha_tsaddik",
+     "scope": "span",
+     "quotes": [
+      "הצדיקים נותנים כח להבעלי תפלות להתפלל ברעותא שלים",
+      "כי הבעל תפלה הוא טפל להצדיק"
+     ],
+     "confidence": 3,
+     "why": "The tzaddik's merit empowers the prayer leader's prayer",
+     "quotes_failed": false
+    },
+    {
+     "tag": "not-a-hasidic-story:sermon",
+     "scope": "story",
+     "quotes": [],
+     "confidence": 2,
+     "why": "A minimal narrative wrapped around an extended homiletic explanation",
+     "quotes_failed": false
+    },
+    {
+     "tag": "social:inter_hasidic",
+     "scope": "span",
+     "quotes": [
+      "ואמר לו רבינו צבי ששמע מהמגיד הקדוש מקאזניץ"
+     ],
+     "confidence": 2,
+     "why": "Exchange between R. Zvi and the Ropshitzer, passing on a teaching of the Kozhnitzer",
+     "quotes_failed": false
+    },
+    {
+     "tag": "practice:the_travels_of_the_tsaddik",
+     "scope": "span",
+     "quotes": [
+      "הרה״ק מוהר\"נ זלה\"ה מראפשיטץ בזידיטשוב"
+     ],
+     "confidence": 1,
+     "why": "The Ropshitzer is staying in Zhidachov, though the story does not turn on the journey",
+     "quotes_failed": false
+    }
+   ],
+   "missing_concepts": [
+    "status of the prayer leader (shaliach tzibbur / ba'al tefillah) relative to the tzaddik"
+   ],
+   "start_quote_found": true,
+   "end_quote_found": true
+  }
+ ],
+ "check": {
+  "non_vocab_tags": [],
+  "quotes": 8,
+  "quotes_not_found": 0
+ },
+ "id": "Eser-Kedushot_0056",
+ "chars": 746,
+ "seconds": 16
+}

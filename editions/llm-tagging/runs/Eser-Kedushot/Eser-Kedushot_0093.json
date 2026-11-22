@@ -1,0 +1,81 @@
+{
+ "unit": {
+  "kind": "hasidic_story",
+  "why": "A brief memorate: R. Yitzhak Isaac of Zhidachov testifies that his teacher R. Zvi Hirsh, though the elder brother, stood at full height before R. Yissachar Ber and said he did not reach his ankles in fear of Heaven. It is a habitual act with a saying, so it is borderline between story and trait-praise.",
+  "boundary_note": "part of a numbered series of praises of R. Yissachar Ber; (ד) in the next division is a separate item"
+ },
+ "stories": [
+  {
+   "k": 1,
+   "start_quote": "העיד מורינו בנו הנ\"ל מוהרי״א מזידיטשוב",
+   "end_quote": "שאינו מגיע לקרסוליו ביראת שמים",
+   "hasidic": true,
+   "summary_en": "R. Yitzhak Isaac of Zhidachov testifies that his master R. Zvi Hirsh, although the elder brother, used to stand at full height before his younger brother R. Yissachar Ber and declare that he did not reach his ankles in fear of Heaven.",
+   "tags": [
+    {
+     "tag": "folkloristics:story_type_virtues",
+     "scope": "story",
+     "quotes": [],
+     "confidence": 2,
+     "why": "the point is to praise the piety of R. Yissachar Ber",
+     "quotes_failed": false
+    },
+    {
+     "tag": "ethics-and-emotions:awe",
+     "scope": "span",
+     "quotes": [
+      "שאינו מגיע לקרסוליו ביראת שמים"
+     ],
+     "confidence": 3,
+     "why": "fear of Heaven is the praised quality",
+     "quotes_failed": false
+    },
+    {
+     "tag": "ethics-and-emotions:humility",
+     "scope": "span",
+     "quotes": [
+      "אעפי״כ עמד לפניו מלא קומתו"
+     ],
+     "confidence": 2,
+     "why": "the elder brother and master humbles himself before his younger brother",
+     "quotes_failed": false
+    },
+    {
+     "tag": "characters-and-roles:the_family_of_the_tsaddik",
+     "scope": "span",
+     "quotes": [
+      "העיד מורינו בנו הנ\"ל מוהרי״א מזידיטשוב",
+      "לפני אחיו הרה״ק ר׳ ישכר בעריש"
+     ],
+     "confidence": 3,
+     "why": "the tzaddik's son testifies and his brother acts",
+     "quotes_failed": false
+    },
+    {
+     "tag": "social:inter_hasidic_master_disciple_relationship",
+     "scope": "span",
+     "quotes": [
+      "כי רבו רבינו צבי"
+     ],
+     "confidence": 1,
+     "why": "R. Zvi is the narrator's master, though this relationship is not the focus",
+     "quotes_failed": false
+    }
+   ],
+   "missing_concepts": [
+    "sibling relationship between tzaddikim (elder brother deferring to younger)",
+    "standing in reverence before a tzaddik"
+   ],
+   "start_quote_found": true,
+   "end_quote_found": true
+  }
+ ],
+ "check": {
+  "non_vocab_tags": [],
+  "quotes": 5,
+  "quotes_not_found": 0
+ },
+ "id": "Eser-Kedushot_0093",
+ "chars": 188,
+ "seconds": 13
+}

@@ -1,0 +1,98 @@
+{
+ "unit": {
+  "kind": "hasidic_story",
+  "why": "A short eyewitness memorate quoted from another book: R. Elimelech of Lizhensk rebuked himself in public for sins he never committed, and many listeners repented.",
+  "boundary_note": ""
+ },
+ "stories": [
+  {
+   "k": 1,
+   "start_quote": "ובס׳ ד״מ (קרח) וז״ל וכאשר עיני",
+   "end_quote": "כי הבינו שאליהם הדברים נוגעין",
+   "hasidic": true,
+   "summary_en": "The author of ד״מ testifies that R. Elimelech of Lizhensk publicly accused himself of evil deeds he never did, and many listeners understood that the words were aimed at them and repented.",
+   "tags": [
+    {
+     "tag": "ethics-and-emotions:repentance",
+     "scope": "span",
+     "quotes": [
+      "ורבים עשו תשובה גדולה"
+     ],
+     "confidence": 3,
+     "why": "The listeners turn to repentance.",
+     "quotes_failed": false
+    },
+    {
+     "tag": "ethics-and-emotions:humility",
+     "scope": "span",
+     "quotes": [
+      "שהוכיח עצמו בפני רבים באמרו ע״ע דברים רעים"
+     ],
+     "confidence": 2,
+     "why": "The tzaddik publicly ascribes sins to himself.",
+     "quotes_failed": false
+    },
+    {
+     "tag": "folkloristics:story_type_virtues",
+     "scope": "story",
+     "quotes": [],
+     "confidence": 2,
+     "why": "The anecdote illustrates the tzaddik's method and virtue in rebuke.",
+     "quotes_failed": false
+    },
+    {
+     "tag": "social:relations_with_sinners",
+     "scope": "span",
+     "quotes": [
+      "כי הבינו שאליהם הדברים נוגעין"
+     ],
+     "confidence": 2,
+     "why": "The tzaddik indirectly rebukes sinners and draws them to repentance.",
+     "quotes_failed": false
+    },
+    {
+     "tag": "practice:healing_of_the_soul",
+     "scope": "span",
+     "quotes": [
+      "ועי״ז רבים השומעים הדברו בתשובה"
+     ],
+     "confidence": 2,
+     "why": "The tzaddik draws people to repentance.",
+     "quotes_failed": false
+    },
+    {
+     "tag": "practice:sermon",
+     "scope": "span",
+     "quotes": [
+      "שהוכיח עצמו בפני רבים"
+     ],
+     "confidence": 2,
+     "why": "A public rebuke discourse is delivered.",
+     "quotes_failed": false
+    },
+    {
+     "tag": "not-a-hasidic-story:sermon",
+     "scope": "story",
+     "quotes": [],
+     "confidence": 1,
+     "why": "Quoted as an example within a homiletic or encyclopedic discussion of rebuke.",
+     "quotes_failed": false
+    }
+   ],
+   "missing_concepts": [
+    "public rebuke (tokhacha) through self-accusation",
+    "eyewitness testimony quoted from an earlier book"
+   ],
+   "start_quote_found": true,
+   "end_quote_found": true
+  }
+ ],
+ "check": {
+  "non_vocab_tags": [],
+  "quotes": 5,
+  "quotes_not_found": 0
+ },
+ "id": "Shaarei-Haemuna_0085",
+ "chars": 261,
+ "seconds": 16
+}

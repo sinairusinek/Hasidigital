@@ -1,0 +1,147 @@
+{
+ "unit": {
+  "kind": "hasidic_story",
+  "why": "A short memorate quoted from Ramatayim Tzofim: the rebbe of Peshischa promises a son to the author's in-law, whose children kept dying, and orders that the boy's name be hidden and that he be raised in another town. It is set inside a discussion of the custom of concealing a child's name, with a kabbalistic justification from the Ari via the Hida.",
+  "boundary_note": "Continues the topic (concealing a child's name) of the previous division, but the narrative itself is self-contained."
+ },
+ "stories": [
+  {
+   "k": 1,
+   "start_quote": "ובס׳ רמ״ץ אות צ״ד כ׳ וז״ל",
+   "end_quote": "וכל דבריו הקדושים מהיכן נובעים, עכ״ל",
+   "hasidic": true,
+   "summary_en": "The rebbe of Peshischa promises R. Zalman, who had lost seventeen children, a son, and orders that the boy's real name never be revealed (he is called 'Alter') and that he be born and raised in Pilov; the boy survives, and the narrator later finds the custom's kabbalistic source in the Ari.",
+   "tags": [
+    {
+     "tag": "supernatural:prognostication",
+     "scope": "span",
+     "quotes": [
+      "כאשר הבטיח למחותני ה״ר זלמן ע״ה שיזכה לבן זכר"
+     ],
+     "confidence": 3,
+     "why": "The promise of a son comes true.",
+     "quotes_failed": false
+    },
+    {
+     "tag": "folkloristics:story_type_prognostication",
+     "scope": "story",
+     "quotes": [],
+     "confidence": 2,
+     "why": "The story's arc is a promise that is fulfilled.",
+     "quotes_failed": false
+    },
+    {
+     "tag": "supernatural:pregnancy",
+     "scope": "span",
+     "quotes": [
+      "שיזכה לבן זכר"
+     ],
+     "confidence": 1,
+     "why": "A son is promised to a man whose children all died; not strictly childlessness.",
+     "quotes_failed": false
+    },
+    {
+     "tag": "practice:protection",
+     "scope": "span",
+     "quotes": [
+      "שלא יגלה שם של הילד כלל רק שיקרא אותו אלטער",
+      "ועוד צוה שלא יהי׳ בביתו רק יהי׳ ויתגדל בעיר אחרת"
+     ],
+     "confidence": 3,
+     "why": "The rebbe's instructions shield the child from the death that took his siblings.",
+     "quotes_failed": false
+    },
+    {
+     "tag": "folkloristics:story_type_protection",
+     "scope": "story",
+     "quotes": [],
+     "confidence": 2,
+     "why": "The central point is protecting the child from death.",
+     "quotes_failed": false
+    },
+    {
+     "tag": "practice:lifesaving",
+     "scope": "span",
+     "quotes": [
+      "כי היו לו בנים שכולים ולא הי׳ יכול לגדלם"
+     ],
+     "confidence": 2,
+     "why": "Averts the foretold pattern of child deaths.",
+     "quotes_failed": false
+    },
+    {
+     "tag": "times:birth",
+     "scope": "span",
+     "quotes": [
+      "ושם נולד ונתגדל שם עד שהי׳ בר מצוה"
+     ],
+     "confidence": 2,
+     "why": "The birth of the promised child is narrated.",
+     "quotes_failed": false
+    },
+    {
+     "tag": "women:minor_character",
+     "scope": "span",
+     "quotes": [
+      "והוצרכה אמו ליסע לעיר פילוב"
+     ],
+     "confidence": 2,
+     "why": "The mother acts by travelling to give birth elsewhere.",
+     "quotes_failed": false
+    },
+    {
+     "tag": "social:retrospective_recognition",
+     "scope": "span",
+     "quotes": [
+      "וראה כוונת אדמו״ר וכל דבריו הקדושים מהיכן נובעים"
+     ],
+     "confidence": 2,
+     "why": "The narrator later grasps the source behind the rebbe's instruction.",
+     "quotes_failed": false
+    },
+    {
+     "tag": "knowledge:esoteric",
+     "scope": "span",
+     "quotes": [
+      "כי היו הקליפות רבות כי כל מה שהוא באתגליא שלטא ביה עינא"
+     ],
+     "confidence": 1,
+     "why": "Kabbalistic rationale from the Ari.",
+     "quotes_failed": false
+    },
+    {
+     "tag": "practice:torat_ha_tsaddik",
+     "scope": "span",
+     "quotes": [
+      "וראה כוונת אדמו״ר וכל דבריו הקדושים מהיכן נובעים"
+     ],
+     "confidence": 1,
+     "why": "Praises the hidden depth of the rebbe's words.",
+     "quotes_failed": false
+    },
+    {
+     "tag": "not-a-hasidic-story:sermon",
+     "scope": "story",
+     "quotes": [],
+     "confidence": 2,
+     "why": "The anecdote is wrapped in a justificatory frame about a custom and its exegetical source (Noah's naming).",
+     "quotes_failed": false
+    }
+   ],
+   "missing_concepts": [
+    "concealing a child's name / naming customs (calling a child 'Alter') to ward off death",
+    "infant mortality"
+   ],
+   "start_quote_found": true,
+   "end_quote_found": true
+  }
+ ],
+ "check": {
+  "non_vocab_tags": [],
+  "quotes": 10,
+  "quotes_not_found": 0
+ },
+ "id": "Shaarei-Haemuna_0052",
+ "chars": 735,
+ "seconds": 20
+}

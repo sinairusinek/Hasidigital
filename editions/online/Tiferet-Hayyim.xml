@@ -26,52 +26,52 @@
 					TEI-Publisher Annotator and the XML-Planter, developed by DH-dev.com (Gil
 					Shalit).</p>
 			</publicationStmt>
-			<sourceDesc><bibl type="digital"><title>Digital scan from HebrewBooks.org</title><publisher>HebrewBooks.org</publisher><ptr target="https://hebrewbooks.org/3686" /><idno type="HebrewBooks">3686</idno><idno type="Transkribus">9568035</idno><note>Source for transcription</note></bibl><bibl type="original"><title type="main" xml:lang="he">תפארת חיים</title><title type="main" xml:lang="en">Tiferet Hayyim</title><author><persName xml:lang="he">נתן נטע דונר</persName><persName xml:lang="en">Natan Netah Doner</persName></author><pubPlace xml:lang="he">ורשה</pubPlace><pubPlace xml:lang="en">Warsaw</pubPlace><date when="1905">תרס&quot;ה</date><textLang mainLang="heb" /><idno type="HebrewBooks">3686</idno><idno type="BHB">177534</idno><idno type="Kima">953</idno><idno type="Transkribus">9568035</idno><idno type="work">82</idno></bibl></sourceDesc>
+			<sourceDesc><bibl type="digital"><title>Digital scan from HebrewBooks.org</title><publisher>HebrewBooks.org</publisher><ptr target="https://hebrewbooks.org/3686"/><idno type="HebrewBooks">3686</idno><idno type="Transkribus">9568035</idno><note>Source for transcription</note></bibl><bibl type="original"><title type="main" xml:lang="he">תפארת חיים</title><title type="main" xml:lang="en">Tiferet Hayyim</title><author><persName xml:lang="he">נתן נטע דונר</persName><persName xml:lang="en">Natan Netah Doner</persName></author><pubPlace xml:lang="he">ורשה</pubPlace><pubPlace xml:lang="en">Warsaw</pubPlace><date when="1905">תרס"ה</date><textLang mainLang="heb"/><idno type="HebrewBooks">3686</idno><idno type="BHB">177534</idno><idno type="Kima">953</idno><idno type="Transkribus">9568035</idno><idno type="work">82</idno></bibl></sourceDesc>
 		</fileDesc>
 	<revisionDesc><change when="2026-04-29">sourceDesc synced from edition-metadata.json</change><change when="2026-11-21">text repaired: Gemini correction pass replayed without the tag-stripping bug that shuffled text (58f4166); later tag edits carried over</change><change when="2026-11-21">header in the shape of the online editions; page breaks restored from the Transkribus export</change></revisionDesc></teiHeader>
 	<text>
 		<front><div type="front-matter"><p>
-					<pb facs="Tiferet-Hayyim_0001.jpg" /><lb/>ספר
+					<pb facs="Tiferet-Hayyim_0001.jpg"/><lb/>ספר
 					<name type="work"><lb/>תפארת חיים</name>
-					<lb/>חידושי <name type="work">תורה</name> דברים נפלאים ויקרים, כשמש בצהרים מאירים מכבוד הגאוה״ק <placeName>בוצ״ק</placeName>
+					<lb/>חידושי תורה דברים נפלאים ויקרים, כשמש בצהרים מאירים מכבוד הגאוה״ק <placeName>בוצ״ק</placeName>
 					<lb/>מופת הדור אספקריא המאירה, א״א קדו׳ דומה למלאך ה׳ צבאות חו״פ בנש״ק אדמו״ר
-					<lb/>בקש״ת הרב ר׳ <persName>חיים מאיר יחיאל</persName>, וצוקללה״ה זי״ע, אשר אור תורתו הקדושה
+					<lb/>ב<placeName>קש</placeName>״ת הרב ר׳ <persName>חיים מאיר יחיאל</persName>, וצוקללה״ה זי״ע, אשר אור תורתו הקדושה
 					<lb/><sic correction="הופיע">היפך</sic> בעיר מ<placeName>אגלניצא</placeName> יע״״א והי׳ <persName>אבד״ק</persName> <placeName>קאזניץ</placeName> ומ<placeName>אגלניצא</placeName> ושם מנ״כ <date>שנת תר״ט</date>
 					<date><lb/>ט״ו אייר</date> בן נ״ג בן כבוד הה״״ג הצדיק המפורסם הרב ר׳ <persName>אביעזרא זעליג</persName> זצלה"ה
-					<persName><lb/>אבד״ק</persName> <placeName>גרעניץ</placeName> שהי׳ חתן רבינו הגדול א״א המגיד הקדוש מ<placeName>קאזניץ</placeName> זצוקללה״ה זי״ע.
+					<persName><lb/>אבד״ק</persName> <placeName>גרעניץ</placeName> שהי׳ חתן רבינו הגדול א״<persName>א</persName> המגיד הקדוש מ<placeName>קאזניץ</placeName> זצוקללה״ה זי״ע.
 					<lb/>ונלוה לזה קונטרס מי דעת ח"ת מאירים בשמש בצהרים מאת הגה״ק א״א וכו׳
 					<lb/>אדמו״ר הרב ר׳ <persName>ירחמיאל זצללה"ה</persName> האבד״ק <placeName>פרשיסיחא</placeName>, ומצורף לזה ח״ת
-					<lb/><sic correction="מבנו">מונו</sic> א״א קדו׳ וכו׳ אדמו״ר הרב ר׳ <persName>נתן דוד זצללה</persName>״<persName>ה משידלאווצי</persName>, זי״ע.
-					<lb/>ונלוה עוד קונטרס יקד ונחמד חזון <persName>ישעי׳</persName> מכבוד הגאון הגדול שר התורה <sic correction="א&quot;א">א א</sic> קדו׳ וכו׳
-					<lb/>אדמו״ר ר׳ ישעי׳ זצלל"הה האבד״ק פרעדבארז.
-					<lb/>ונלוה עוד קונ׳ דרך ישר מכבוד הגה״ק א״א וכו׳ אדמו״ר הרב ר׳ <persName>ישכר בער</persName>
+					<lb/><sic correction="מבנו">מונו</sic> א״א קדו׳ וכו׳ אדמו״ר הרב ר׳ <persName>נתן דוד זצללה</persName>״<persName>ה משידלאווצי</persName>, זי<placeName>״ע</placeName>.
+					<lb/>ונלוה עוד קונטרס יקד ונחמד חזון ישעי׳ מכבוד הגאון הגדול שר התורה <sic correction="א&quot;א">א א</sic> קדו׳ וכו׳
+					<lb/>אדמו״ר ר׳ <persName>ישעי׳</persName> זצלל"הה האבד״ק פרעדבארז.
+					<lb/>ונלוה עוד קונ׳ דרך ישר מכבוד הגה״ק <persName>א</persName>״א וכו׳ אדמו״ר הרב ר׳ <persName>ישכר בער</persName>
 					<lb/>זצללה״ה האבד״ק <placeName>ראדשיץ</placeName> זי״ע.
-					<lb/>וגלוה עוד קנ׳ תפארת <persName>משה</persName>, מכבוד הגה״ק א״א וכו׳ אדמו״ר הרב
-					<lb/>ר׳ משה זצללה"ה מ<placeName>לעלוב</placeName>.
+					<lb/>וגלוה עוד קנ׳ תפארת משה, מכבוד הגה״ק א״א וכו׳ אדמו״ר הרב
+					<persName><lb/>ר</persName>׳ <persName>משה</persName> זצללה"ה מ<placeName>לעלוב</placeName>.
 					<lb/>כ״ז נעתק ונאסף ע״י הרב המאוה״ג חו״ב <sic correction="וכו'">וכי</sic> מוה׳
 					<persName><lb/>נתן נטע הכהן</persName> שליט״א האבד״ק <placeName>קאלביעל</placeName>.
 					<lb/>נדפס בהוצאות הרבני הנגיד המפורסם ר׳ <persName>אברהם יוסף נ״י
-					<lb/>קל</persName>יימאן מו״ס מ<placeName>קאלביעל</placeName>
-					<lb/>ו<placeName ref="#H-LOC_178">וארשא</placeName>
-					<date><lb/>שנת תרס״ה</date> לפ"ק
+					<lb/>קליימאן</persName> מו״ס מ<placeName>קאלביעל</placeName>
+					<lb/>ו<placeName>וארשא</placeName>
+					<date><lb/>שנת תרס״ה</date> ל<placeName>פ"ק</placeName>
 				</p>
 				</div></front><body>
 			<div type="non-story" ana="introduction"><p>
-					<pb facs="Tiferet-Hayyim_0002.jpg" /><lb/>הקדמה
+					<pb facs="Tiferet-Hayyim_0002.jpg"/><lb/>הקדמה
 				</p>
 				<p>
 					<lb/>ישמחו היראים ויעלזו החסידים. בראותם יחד כליל תפארת חי׳ תורה מאת
 					<lb/>כבוד הרבנים הe׳ <placeName>צי"ע</placeName> המפורסמים בכל קצוי ארץ ה"ה המבוארים בקצת שבח
 					<lb/>ותהלה בפאר הכבוד והמעלה בשער הספר הלז וביותר כ"א על מקומו. ואבותינו
-					<lb/>ז״ל סיפרו לנו גדולות ונפלאות מהם אין די באר. והנה הדברים הנאמרים בחיבורינו
-					<lb/>הזה. ממקור קדוש ונאמן יהלכון. מספרי בניהם ותלמידיהם צי״ע זצללה"ה. ומסודרים
-					<lb/>בסדר נכון וברור כסדר על התורה ונ״ך. דבר דיבור על אופניו ועל מקומו הראוי
+					<lb/>ז״ל סיפרו לנו גדולות ונפלאות מהם אין די ב<placeName>אר</placeName>. והנה הדברים הנאמרים בחיבורינו
+					<lb/>הזה. ממקור קדוש ונאמן יהלכון. מספרי בניהם ותלמידיהם <orgName>צי</orgName>״ע זצללה"ה. ומסודרים
+					<lb/>בסדר נכון וברור כסדר על ה<name type="work">תורה</name> ונ״ך. דבר דיבור על אופניו ועל מקומו הראוי
 					<lb/>לפי קט שכלי ב<placeName>עזה</placeName>״י וכבר ידוע מאמר ה<name type="work">ש"ס</name> יבמות דצ״ז וכן הוא ב<name type="work">ירושלמי</name> שקלים
 					<lb/>פ״ב על פסוק אגורה באהליך עולמים שביקש <persName>דוד</persName> המע"ה שיהיו דבריו נאמרין בב״כ
 					<lb/>ובבהמ"ד וכו' כל א״ח שאומרים דבר הלכה מפיו בעוה״ז שפתותי׳ רוחשת עמו בקבר
-					<lb/>וכו׳ <persName>שמעון ב"נ</persName> בשם ר״י כמאן דשתי קונדוטין וכו׳ <persName>ר"י</persName> אמר כהדין דשתי אמר
-					<lb/>עתיק ר׳ <persName>גידיל</persName> אמר האומר שמועה בשם אומרו יראה כאלו בעל שמועה עומד לנגדו
-					<lb/>עכ״ל והרבה האריכו הספה״ק בזה ועיי״ש מש"ה מחו״ז בח״א מ<persName>הרש"א</persName>. וב<name type="work">זוה</name>״<name type="work">ק</name> וישב
+					<lb/>וכו׳ <persName>שמעון ב"נ</persName> בשם ר<persName>״י</persName> כמאן דשתי קונדוטין וכו׳ <persName>ר"י</persName> אמר כהדין דשתי אמר
+					<lb/>עתיק ר<persName>׳</persName> <persName>גידיל</persName> אמר האומר שמועה בשם אומרו יראה כאלו בעל שמועה עומד לנגדו
+					<lb/>עכ״ל והרבה האריכו הספה״ק בזה ועיי״ש מש"ה מחו״ז בח״א מ<persName>הרש"א</persName>. ובזוה״ק וישב
 					<lb/>קצ״ב וז״ל ת״ח האי מאן דאיסתכל במאי דאוליף מרבי׳ וחמו לי׳ בההוא חכמתא יכול
 					<lb/>לאתוספא בההוא רוחא יתיר ובס׳ <name type="work">קדושת לוי</name> כ׳ וז״ל והנה יש עוד דבר גדול להתחבר
 					<lb/>א״ע והוא יותר גבוה משכל של רבו והוא הלומד מתוך הספר כי אותיות מחכימות
@@ -94,19 +94,19 @@
 					<lb/>אכי״ר :
 				</p>
 				<p>
-					<lb/>ואפריון נמטי׳ לבני יקירי מוה׳ <persName>יעקב שלום</persName> שיחי׳ שטרח לסייע הרבה בסידור
+					<lb/>ואפריון נמטי׳ לבני יקירי מוה<persName>׳</persName> <persName>יעקב שלום</persName> שיחי׳ שטרח לסייע הרבה בסידור
 					<lb/>הכתבים ובהעתקה ויתברך בכל הברכות הנ״ל
 					<lb/>באעה״ח ה׳ חי׳ אר״ס קאלביעל
 				</p>
 				<p>
-					<persName><lb/>נתן נטע</persName> ב<persName>מוהר"נ הכהן</persName> ז"ל האבד״ק הנ"ל .
+					<persName><lb/>נתן נטע</persName> ב<persName>מוהר"נ הכהן</persName> ז"ל האבד״<persName>ק</persName> הנ"ל .
 				</p>
 				</div><div type="non-story" ana="approbation"><p>
-					<pb facs="Tiferet-Hayyim_0003.jpg" /><lb/>הסכמת הרבנים צדיקי זמנינו שליט"<supplied reason="damage">א</supplied> 
+					<pb facs="Tiferet-Hayyim_0003.jpg"/><lb/>הסכמת הרבנים צדיקי זמנינו שליט"<supplied reason="damage">א</supplied> 
 				</p>
 				<p>
-					<lb/>מהה"ק <placeName>חו״פ</placeName> וכו׳ בנש״ק האבד״ק
-					<persName><lb/>פאריסאוב</persName> יע״א.
+					<lb/>מהה"ק <placeName>חו״פ</placeName> וכו׳ בנש״ק האבד״<persName>ק</persName>
+					<persName><lb/>פאריסאוב</persName> יע״<persName>א</persName>.
 					<lb/>הנה נדרשתי מאת כבוד הרב המאוה״ג
 					<lb/>חו״ב וכו׳ מוה׳ <persName>נתן נטע הכהן</persName>
 					<lb/>שליט״א אב"ד דפה בדבר אשר יגע בדבר
@@ -131,10 +131,10 @@
 				</p>
 				<p>
 					<lb/>מהה״ק חו״פ וכו׳ בנש״ק מ<placeName>גראדזיסק</placeName>
-					<lb/>יע״א.
-					<lb/>הנה כבוד הרב המאוה״ג חו״ב וכו׳ <persName>מוה</persName>
+					<persName><lb/>יע״א</persName>.
+					<lb/>הנה כבוד הרב המאוה״<persName>ג</persName> <placeName>חו</placeName>״ב וכו׳ <persName>מוה</persName>
 					<persName><lb/>נתן נטע הכהן</persName> שליט״א <persName>אבד״</persName>ק
-					<placeName><lb/>קאלביעל</placeName> הראה לפני חיבור מאא"ז הה״ק
+					<placeName><lb/>קאלביעל</placeName> הראה לפני חיבור מ<persName>אא"ז</persName> הה״<persName>ק</persName>
 					<persName><lb/>א״א</persName> אדמו״ר מ<placeName>מגלניצא</placeName> זצללה<persName>״ה זי״ע</persName>
 					<lb/>ומכבוד <persName>אא"ז</persName> הה״ק <persName>א"א</persName> אדמו״ר הרב ר'
 					<persName><lb/>ירחמיאל מפרשיסחא זצללה״ה</persName>. זי״ע
@@ -156,12 +156,12 @@
 					<lb/>המחבר
 				</p>
 				</div><div type="non-story"><p>
-					<pb facs="Tiferet-Hayyim_0004.jpg" /><lb/>בראשית ברא <name type="misc">אלהים</name> את השמים ואת
+					<pb facs="Tiferet-Hayyim_0004.jpg"/><lb/>בראשית ברא <name type="misc">אלהים</name> את השמים ואת
 					<lb/>הארץ. יבואר עפ״י ששמעתי
 					<lb/>מאממו״ר [הה״ק ר׳ <persName>חיים מאיר יחיאל</persName>
 					<lb/>זצוקללה"ה האבד״ק מ<placeName>אגלניצא</placeName>] שאמר בשם
 					<lb/>רבו הקדוש רבינו ר׳ <persName>אברהם יהושע
-					</persName><lb/>העשיל זצללה״ה ממעזבוז כי כל אדם
+					<lb/>העשיל</persName> זצללה״ה ממעזבוז כי כל אדם
 					<lb/>החפץ בעבודת ה<name type="misc">שי"ת</name>. מיד בראשית
 					<lb/>העבודה הגם שהוא עדיין במדריגה מעוטה
 					<lb/>צריך להעלות במחשבתו שיהי׳ בעבודתו
@@ -184,8 +184,8 @@
 					<lb/>ויאמר <name type="misc">אלהים</name> יהי אור כן צריך האדם גם
 					<lb/>כשהוא בבחי׳ קטנה בחי׳ תהו צריך מיד
 					<lb/>לכוון להמתיק הדין ולהאיר באור פני מלך
-					<lb/>אכי״ר (ס׳ <name type="work">אמרי אלימלך</name> מבנו הה״ק
-					<lb/>ר׳ <persName>אלימלך</persName> זצוקלל"ה <sic correction="מגראדזיסק">מ<placeName>גראוזיסק</placeName></sic>) :
+					<lb/>אכי״ר (ס׳ <name type="work">אמרי אלימלך</name> מבנו הה״<persName>ק</persName>
+					<lb/>ר<persName>׳</persName> <persName>אלימלך</persName> זצוקלל"ה <sic correction="מגראדזיסק">מ<placeName>גראוזיסק</placeName></sic>) :
 				</p>
 				<p>
 					<lb/>רבים
@@ -194,7 +194,7 @@
 					<lb/>ובס׳ <name type="work">דרכי</name> צדק אות כו׳ כ׳ וז״ל יחשוב בכל עת בשם המטהר המחשבה הנזכר בש"צ
 					<lb/>קבלתי ממורי בכל עת שהוא לומד יחשוב הריני עושה א״ע מרכבה לשכינה
 					<lb/>כדאיתא בשערי ציון בתקוני הנפש ואפילו אלף פעמים ביום יאמר כן ואמר מ״ו
-					<lb/>אלימלך זצוקללה"ה נ"י כי הגוף מתקדש מאד מזה כדאיתא ב<placeName>ב״א</placeName> וכשירגיל עצמו בזה
+					<persName><lb/>אלימלך</persName> זצוקללה"ה נ"י כי הגוף מתקדש מאד מזה כדאיתא ב<placeName>ב״א</placeName> וכשירגיל עצמו בזה
 					<lb/>זהר מחשבתו ויסיר ממנו הרהורי עבירה ויזכה להתפלל במחשבות קדושות ומקדש
 					<lb/>עצמו כמו בתענית וסגופי׳ עכ״ל :
 				</p>
@@ -204,14 +204,14 @@
 					<lb/>כחפצו ויוכל האדם להיות למדן וחסיד וכשחס ושלום נחסר נקודה הפנימיות הכל כלא
 					<lb/>נחשב והעיקר לברר ולזכך המדות בלתי לה׳ לבדו ולכל ענין שמרגיש אדם שלבו
 					<lb/>נמשך אליו זה עיקר תיקונו כמו שמצינו בגמ׳ במאי הוי זהיר טפי שחלילה לדמות
-					<lb/>שבשאר מצות הי' מיקל זולת שבזה הי' מאיר נפשו מלשון והמשכילים יזהרו כ<name type="work">זוהר</name>
+					<lb/>שבשאר מצות הי' מיקל זולת שבזה הי' מאיר נפשו מלשון והמשכילים יזהרו כזוהר
 					<lb/>הרקיע והנקודה היא הנשמה והחיו׳ של כל העולמות והאדם בכח תנועתו בפה או
-					<lb/>ידים או ברגלים יוכל להמשיך הדבר שרוצה ומצוה להתפלל עבור ישראל והענוה
+					<lb/>ידים או ברגלים יוכל להמשיך הדבר שרוצה ומצוה להתפלל עבור <placeName>ישראל</placeName> והענוה
 					<lb/>בזה אינה משובחת : הגם ששורש הטוב הוא הכנעה וכל חיות פנימיות האדם הוא
 					<lb/>בחי׳ אין כידוע למשכיל ההולך בדרך הזה שכל זאת לענין התפלה לא יתכן לאחוז
 					<lb/>במדת ענוה המדומ׳ ולהעלים עין מחסדון אחב"י הק'. והנה כאשר מי ששוקל דרכיו
-					<lb/>בפלם לעשות רצין ה<name type="misc">בורא</name> ב"ה בכח תנועתו מאיר ומשמח כל העולמות כמ״כ ח״ו מי
-					<lb/>שאינו חושש לרצון הבורא ית"ש ממשיך ח"ו ג״כ לפי מעשיו וזה וכל ערכך מה שמעריך
+					<lb/>בפלם לעשות רצין הבורא ב"ה בכח תנועתו מאיר ומשמח כל העולמות כמ״כ ח״ו מי
+					<lb/>שאינו חושש לרצון ה<name type="misc">בורא</name> ית"ש ממשיך ח"ו ג״כ לפי מעשיו וזה וכל ערכך מה שמעריך
 					<lb/>להאדם ונמשיכו זה לתורה וזה לתפלה או למע״ט יהי' בשקל הקודש פי' ע״י ששם
 					<lb/>דרכיו לעשות רצון קונו ועי"ז שוקל ולוקח השפעות טובות מבחי׳ אין הנק׳ קודש :
 				</p>
@@ -224,7 +224,7 @@
 					<lb/>קליכן לה״ה כל מיני טובות וישועות ונמשך לכל ישראל אכי״ר :
 				</p>
 				<p>
-					<pb facs="Tiferet-Hayyim_0005.jpg" /><lb/>תפארה
+					<pb facs="Tiferet-Hayyim_0005.jpg"/><lb/>תפארה
 				</p>
 				<p>
 					<name type="work"><lb/>רשת נח</name>
@@ -236,7 +236,7 @@
 					<lb/>רבים תמהו מה היה הנסיון של <persName>אברהם</persName>
 					<lb/>אע"ה באור <placeName>כשדים</placeName> הלא אנו רואים
 					<lb/>שכמה הדיוטות מוסרים נפשם על קידוש
-					<lb/>השם ואמר הרה״ק ר׳ <persName>מאיר</persName> <persName>יחיאל</persName> זצ״ל
+					<lb/>השם ואמר הרה״ק ר׳ <persName>מאיר</persName> <persName>יחיאל</persName> זצ״<persName>ל</persName>
 					<lb/>ממאגלניצע שבא השטן אצל <persName>אברהם</persName> אע"ה
 					<lb/>בטענה הלא אתה צריך לפרסם אלהותו
 					<lb/>בעולם כי אין בעולם מי שיודע אלהותו
@@ -261,13 +261,13 @@
 					<lb/>ואמר אאמו״ר ז״ל ע״ז כי כשאדם בא
 					<lb/>לבחי׳ ביטול ואין אז יכול לקבל יותר מבחי
 					<lb/>כלים שלו ויובן הדבר ע״פ המבואר בספר
-					<lb/>קדושת <name type="work">לוי</name> ואת<name type="misc">ה</name> תצוה העולה מדבריו שם
+					<lb/>קדושת <name type="work">לוי</name> ואתה תצוה העולה מדבריו שם
 					<lb/>כי לכל צדיק יש בחי׳ עבודה במדה
 					<lb/>מיוחדת במדת אהבה או יראה וכדומה.
 					<lb/>וכשהצדיקים מסתכלים לשורשם ובאו לבחי'
 					<lb/>אין אזי יכולים לעבוד בכל המדרגות ע״ש.
 					<lb/>וזהו הכוונה שאמר אא״ז זצ״ל שאני עומד
-					<lb/>לפני ה׳ כמו נער משולח היינו שהוא ה'
+					<lb/>לפני <name type="misc">ה</name>׳ כמו נער משולח היינו שהוא ה'
 					<lb/>בא לבתי׳ ביטול ואין עד שלא הי׳ לו מדה
 					<lb/>מיוחדת ורק הוא עומד מוכן לכל הבחי'
 					<lb/>ומדות אשר השי״ת מראהו לו כמו נער
@@ -278,9 +278,9 @@
 					<lb/>לבוא לבחי׳ ביטול המדות ואין. ורק תהי'
 				</p>
 				<p>
-					<lb/>עומד מוכן לקבל הבחי׳ והמדה ב<name type="work">עבודת</name>
+					<lb/>עומד מוכן לקבל הבחי׳ והמדה בעבודת
 					<lb/>ה׳ כפי רצוני אשר אני מראה אותך (עי'
-					<lb/>בס׳ עבודת ישראל פ׳ תרומה ע״פ ככל
+					<lb/>בס׳ <name type="work">עבודת</name> <placeName>ישראל</placeName> פ׳ תרומה ע״פ ככל
 					<lb/>אשר אני מראה אותך כו') וזהו כוונת
 					<lb/>המדרש שאני עושה אותך ברי׳ חדשה את
 					<lb/>פרה ולבה היינו כשיגיע האדם <sic correction="לבחי'">לבתי'</sic>
@@ -290,7 +290,7 @@
 					<lb/>מורי ז"ל אמר העיקר לבטל כל הרצונות
 					<lb/>הגשמיות אפילו בעבדות ה׳ לא יבחר
 					<lb/>בעבדות זו דוקא אלא כל העבדות יהא
-					<lb/>שוה לפניו ברצון הש״י ואמר בשם הה״ק
+					<lb/>שוה לפניו ברצון הש״<orgName>י</orgName> ואמר בשם הה״ק
 					<lb/>ממעזביז אדם צריך להיות כמו כלי שכל
 					<lb/>מה שירצה הבעה״ב לשפוך בו יקבל הכל
 					<lb/>יין או חומץ ואמר הה״ק הנ"ל ראו כי
@@ -299,9 +299,9 @@
 					<lb/>שהיא שפל בעיני עצמו כ״כ עד
 					<lb/>שעושה העפר עליו שהעפר הוא יותר
 					<lb/>טוב ממנו אז גם זרעך ימנה שנעשה
-					<lb/>ממונה על בני ישראל ללמד אותם דרכי
+					<lb/>ממונה על בני <placeName>ישראל</placeName> ללמד אותם דרכי
 					<lb/>ה<name type="misc">ש"י</name> (ס׳ דברי תורה מהרב החסיד ר'
-					<lb/>משה ז"ל. בשם מורו הה״ק מ<persName>מאג ליביצא</persName>)
+					<persName><lb/>משה</persName> ז"ל. בשם מורו הה״ק מ<persName>מאג ליביצא</persName>)
 					<lb/>ובס׳ <name type="work">עמק המלך</name> (הביאו שם) וז"ל וקשה
 					<lb/>למה משבח ה<name type="work">תורה</name> <persName>משה רבינו</persName>
 					<lb/>במידת ענוה וכי הי׳ מדה טובה בעולם
@@ -327,7 +327,7 @@
 					<lb/>דגדולה
 				</p>
 				<p>
-					<pb facs="Tiferet-Hayyim_0006.jpg" /><lb/>תפארת
+					<pb facs="Tiferet-Hayyim_0006.jpg"/><lb/>תפארת
 				</p>
 				<p>
 					<name type="work"><lb/>פרשת וירא</name>
@@ -335,7 +335,7 @@
 				<p>
 					<lb/>הגדולה הכנסת אורחים וכו׳ ואין סברא
 					<lb/>דפליג. ונראה ע״פ המבואר במדרש ו<name type="work">יקרא</name>
-					<lb/>פרש<name type="misc">ה</name> י״ג ע״פ כל אמרה אלוה צרופה לא
+					<lb/>פרשה י״ג ע״פ כל אמרה אלוה צרופה לא
 					<lb/>נתנו המצות אלא לצרף בהם את הבריות
 					<lb/>ויובן ע״פ המבואר בדברינו כמה פעמים.
 					<lb/>כי בראשונה צריך האדם לעבוד לשמו ית׳
@@ -384,25 +384,25 @@
 					<lb/>גדולה יותר ממעלה גבוה כזו הוא
 					<lb/>קבלת פני השכינה ואפשר להבין ע״פ מה
 					<lb/>שפירשתי הפסוק ואהבת לרעך כמוך אני
-					<lb/>ה׳ ע״פ המבואר ב<name type="work">מדרש</name> <name type="work">ה׳ צלך</name> כי
+					<name type="misc"><lb/>ה</name>׳ ע״פ המבואר ב<name type="work">מדרש</name> <name type="work">ה׳ צלך</name> כי
 					<lb/>ה<name type="misc">שי"ת</name> הוא דוגמת הצל כי כמו שבצל עושה
 					<lb/>כל תנועה ותנועה שהאדם עושה כן הוא
-					<lb/>מדתו של ה<name type="misc">קב״ה</name>. כי כל מד<name type="misc">ה</name> ומדה שאדם
+					<lb/>מדתו של ה<name type="misc">קב״ה</name>. כי כל מדה ומדה שאדם
 					<lb/>עושה ככה מעורר דוגמתו למעלה וזהו
-					<lb/>ואהבת לרעך כי ידוע תדע כמוך אני ה׳.
+					<lb/>ואהבת לרעך כי ידוע תדע כמוך אני <name type="misc">ה</name>׳.
 					<lb/>כי ממש כמוך כן אני ה׳ כמו שאתה
 					<lb/>מתנהג כן אני <name type="misc">ה'</name>. לכן אם אתה תאהב
 					<lb/>לרעך תגרום למעלה אשר השי״ת יגלה
 					<lb/>גודל אהבתו לב״י. ועפי״ז יובן הדבר
-					<lb/>אשר גדולה הכנסת אורחים יותר מ<name type="misc">קב</name>לת
-					<lb/>פני <name type="misc">ה</name>שכינה כי ע״י מצוה זו אשר עושה
+					<lb/>אשר גדולה הכנסת אורחים יותר מקבלת
+					<lb/>פני השכינה כי ע״י מצוה זו אשר עושה
 					<lb/>חסד חנם עם הבריות להכניס אורחים
 					<lb/>לקרב את הרחוקים. ומצוה זו ודאי עושה
-					<lb/>לש״ש. כי אינו מצפה לתשלום <name type="work">גמ</name>ול כי
+					<lb/>לש״ש. כי אינו מצפה לתשלום גמול כי
 					<lb/>עושה חסד חנם גם עם אנשים אשר לא
 					<lb/>הכירם ולא ידעם מעולם והולכים לדרכם
 					<lb/>ועיניו לא יראו עוד אותם בזה הוא מעורר
-					<lb/>כי גם הקב״ה עושה חסד חנם עם כל
+					<lb/>כי גם ה<name type="misc">קב</name>״<name type="misc">ה</name> עושה חסד חנם עם כל
 					<lb/>באי עולם. לכן גדולה הכנסת אורחים
 					<lb/>אשר ע״י מצוה זו עושה חסד וטובה
 					<lb/>גדולה לכל העולם. יותר מקבלת פני
@@ -412,7 +412,7 @@
 					<lb/>השכינה והבן :
 				</p>
 				<p>
-					<lb/>עוד נראה ע״פ המבואר בגמ׳ <name type="work">ברכות</name>
+					<lb/>עוד נראה ע״פ המבואר ב<name type="work">גמ</name>׳ <name type="work">ברכות</name>
 					<lb/>ל"ד ע״ב במקום שבע״ת עומדי
 					<lb/>צדיקים גמורים אינם עומדין שנא׳ שלום
 					<lb/>שלום לרחוק ולקרוב לרחוק ברישא
@@ -423,7 +423,7 @@
 					<lb/>הכנסת אורחים יותר מקבלת פני השכינה
 				</p>
 				<p>
-					<pb facs="Tiferet-Hayyim_0007.jpg" /><lb/>תפארת
+					<pb facs="Tiferet-Hayyim_0007.jpg"/><lb/>תפארת
 				</p>
 				<p>
 					<lb/>פרשת וירא
@@ -453,20 +453,20 @@
 					<lb/>תורה ומצות יחשב בעיניו ית׳ לרב ותקובל
 					<lb/>לרצון. והשענו תחת העץ. וישראל יהיו
 					<lb/>נשענים ובוטחים שודאי יקובל תשובהם
-					<lb/>לרצון כי תחת העץ. ע״ץ בגימ׳ <name type="misc">הוי</name>״<name type="misc">ה</name>
-					<lb/>בהכאה ור"ל כי הוי״ה ב"ה ברוב רחמיו
+					<lb/>לרצון כי תחת העץ. ע״ץ בגימ׳ הוי״ה
+					<lb/>בהכאה ור"ל כי <name type="misc">הוי</name>״ה ב"ה ברוב רחמיו
 					<lb/>וחסדיו יורד לתחת במקום שהאדם יורד
 					<lb/>ועוד יותר בכדי לפעלותו בעת ישוב
 					<lb/>בתשובה וכמ״ש בכל הגוים אשר הדיתך
-					<lb/>ה׳ אלהיך שמה להעלותו אליו אכי״ר ב״ב.
-					<lb/>(ד״א באושפיזי ד<persName>אברהם</persName>) :
+					<name type="misc"><lb/>ה</name>׳ אלהיך שמה להעלותו אליו אכי״ר ב״ב.
+					<lb/>(ד״א באושפיזי דאברהם) :
 				</p>
 				<p>
 					<lb/>המכסה אני מ<persName>אברהם</persName> אשר אני עושה
 					<lb/>במה שאני עושה עמו מדת
 				</p>
 				<p>
-					<lb/>אברהם היתכן שבזה הטובות שעשיתי עמו
+					<persName><lb/>אברהם</persName> היתכן שבזה הטובות שעשיתי עמו
 					<lb/>יתגאה עמהם ויתכסה וישכח אותו כמ״ש
 					<lb/>(פ<name type="work">׳ עקב</name>) ורם לבבך ושכחת את <name type="misc">ה'</name>
 					<lb/>וכמ״ש (פ<name type="work">׳</name> ו<name type="work">ילך</name>) כי אביאנו אל ארץ זבת
@@ -474,13 +474,13 @@
 					<lb/>אשר אני עושה עמו שצריך שיזכור תמיד
 					<lb/>שאני עשיתי עמו כל הטובות (מורי ז"ל
 					<lb/>הקדוש <persName>א"א ממאגלניצא</persName> נכד הקדוש <persName>א"א
-					<lb/>המגיד מק</persName>אזניץ) (<name type="work">דברי תורה</name> שער עיקר
+					<lb/>המגיד מקאזניץ</persName>) (<name type="work">דברי תורה</name> שער עיקר
 					<lb/>ענוה <name type="work">ס׳ החיים</name> שער ד׳ אות י״א) :
 				</p>
 				<p>
 					<lb/>וישלח <persName>אברהם</persName> את ידו ויקח את המאכלת
 					<lb/>שמעתי מ<persName>אאמו״ר</persName> ז״ל בשם הה״ק
-					<lb/>רבינו ר׳ <persName>מנחם מענדיל</persName> זצ"ל מ<placeName>רומנאב</placeName>.
+					<lb/>רבינו ר<persName>׳</persName> <persName>מנחם מענדיל</persName> זצ"ל מ<placeName>רומנאב</placeName>.
 					<lb/>פי׳ הכתוב דהנה <persName>אברהם אבינו</persName> הי׳ מקדש
 					<lb/>ומטהר את כל אבריו עד שהאברים
 					<lb/>בעצמם הרגישו רצון ה<name type="misc">בורא</name> ב"ה ולא הי'
@@ -493,14 +493,14 @@
 					<lb/>לשבועות ד״א קדושים) :
 				</p>
 				<p>
-					<lb/>ובס׳ ד״א מש<name type="work">פ</name>טים סיים וז״ל וכן הי
+					<lb/>ובס׳ ד״א משפטים סיים וז״ל וכן הי
 					<lb/>ג״כ צדיקים גדולים אשר היו יודעים
 					<lb/>ומרגישים עתידות מאבריהם בעצמם וכל
 					<lb/>הנגזר בשמים וכמו ששמעתי מאדוני מודי
-					<lb/>הה״ק מ<persName>רוזין</persName> זצ״ל :
+					<lb/>הה״<persName>ק</persName> מ<persName>רוזין</persName> זצ״ל :
 				</p>
 				<p>
-					<lb/>ושם בפ׳ חוקת כ׳ וז״ל כי אדם צריך להיות
+					<lb/>ושם ב<name type="work">פ</name>׳ חוקת כ׳ וז״ל כי אדם צריך להיות
 					<lb/>ביראה כשיתבונן כי עליו מוטל לזכך
 					<lb/>עצמו שיהי׳ גופו גופי תורה והייני כי רמ״ח
 				</p>
@@ -519,7 +519,7 @@
 					<lb/>שנדחים והנעשהיים מבירא עמיקתא לאיגרא רמה לאביהם שבשמים עכ״ל :
 				</p>
 				<p>
-					<pb facs="Tiferet-Hayyim_0008.jpg" /><lb/>תפארת
+					<pb facs="Tiferet-Hayyim_0008.jpg"/><lb/>תפארת
 				</p>
 				<p>
 					<lb/>רשת וירא
@@ -535,7 +535,7 @@
 					<lb/>ה״מ היו כ״כ מזככים בערך נשמות של
 					<lb/>בני אדם אחרים וכמו ששמענו בשם מורי
 					<lb/>הה״ק וצללה״ה מרוזין שאמר בשם מרן
-					<lb/>הה״ק מ<persName>מעזבוז</persName> זצ״ל שאמר לו. כי
+					<lb/>הה״<persName>ק</persName> מ<persName>מעזבוז</persName> זצ״ל שאמר לו. כי
 					<lb/>האברים שלו מגידין לו עתידות וגם מה
 					<lb/>שאמר על עצמו על הגוף הקדוש שלו דבר
 					<lb/>גדול מאד :
@@ -585,12 +585,12 @@
 					<lb/>חיי ויגש ו<persName>פנחס</persName>):
 				</p>
 				<p>
-					<name type="work"><lb/>פרשת</name> תולדות
+					<lb/>פרשת תולדות
 				</p>
 				<p>
 					<lb/>וימצא מאה שערים. ראיתי בכת״י חתנו
 					<lb/>של רבינו הקדוש הה״ג החסיד
-					<lb/>ר׳ <persName>אלחנן זצ"ל</persName> שפ"א הי׳ ב<placeName ref="#H-LOC_178">ווארשא</placeName> בזמן
+					<lb/>ר׳ <persName>אלחנן זצ"ל</persName> שפ"א הי׳ ב<placeName>ווארשא</placeName> בזמן
 					<lb/>הגה"ל בעל חמדת <persName>שלמה</persName> והלך אליו לקבל
 					<lb/>פניו וחתנו הנ"ל הי' עמו ושאל הגאון
 					<lb/>הנ״ל אותו מ״ש <persName>רש״י</persName> ע״פ וימצא מאה
@@ -620,16 +620,16 @@
 					<lb/>באריכות) :
 				</p>
 				<p>
-					<lb/>ו<persName>יעקב</persName>
+					<lb/>ויעקב
 				</p>
 				<p>
-					<pb facs="Tiferet-Hayyim_0009.jpg" /><lb/>10
+					<pb facs="Tiferet-Hayyim_0009.jpg"/><lb/>10
 				</p>
 				<p>
 					<lb/>תפארת
 				</p>
 				<p>
-					<lb/>פרשת ו<name type="work">ישלח</name>
+					<name type="work"><lb/>פרשת</name> ו<name type="work">ישלח</name>
 				</p>
 				<p>
 					<name type="work"><lb/>פרשת</name> ו<name type="work">ישלח</name>
@@ -643,15 +643,15 @@
 					<lb/>שם חסיד הוא מדרגה גדולה מאד כי
 					<lb/>איזה חסיד המתחסד עם קונו ואמר שהוא
 					<lb/>כמו הנהוג בין אנשים שקוראים לכל סוחר
-					<lb/>הקונה עצים סוחר <placeName>דאנציג</placeName> הגם שעוד לא
+					<lb/>הקונה עצים סוחר דאנציג הגם שעוד לא
 					<lb/>הי' מעולם שם עם העצים מ״מ נקרא מיד
 					<lb/>בשם סוחר דאנציג ע״ש התעסקות
-					<lb/>והשתדלות עתה להוליך לדאנציג כן המה
+					<lb/>והשתדלות עתה להוליך ל<placeName>דאנציג</placeName> כן המה
 					<lb/>מפני שמשתדלים ועוסקים בעבודת <name type="misc">ה'</name>
 					<lb/>וחפצים לבוא למדרגת חסיד ומצפים
 					<lb/>ואומרים מתי יגיע מעשי למעשי אבותי
 					<lb/>החסידים לכן מיד נקראים בשם זה. וזהו
-					<lb/>ויעקב נסע <placeName>סכתה</placeName> יעקב היא מדרגה
+					<lb/>ו<persName>יעקב</persName> נסע <placeName>סכתה</placeName> יעקב היא מדרגה
 					<lb/>קטנה בחי׳ עקב. סוכה הוא תשובה כנ"ל
 					<lb/>ור״ל גם מי שהוא עדיין במדרגה קטנה
 					<lb/>רק שנוסע ובא לטהר ולבא לתשובה ג״כ
@@ -665,15 +665,15 @@
 				<p>
 					<lb/>ואל שדי יתן לכם רחמים ופרש״י מי
 					<lb/>שאמר לעולם
-					<lb/>די יאמר לצרותי די שמעתי מאאמו״ר ז״ל
-					<lb/>שאמר בשם הה״ק מ<persName>מעזבוז</persName> זצ"ל דהענין
+					<lb/>די יאמר לצרותי די שמעתי מאאמו<persName>״</persName>ר ז״ל
+					<lb/>שאמר בשם הה״<persName>ק</persName> מ<persName>מעזבוז</persName> זצ"ל דהענין
 					<lb/>דכשנברא העולם והתחיל העולם להתפשט
-					<lb/>וראה ה<name type="misc">קב</name>״ה שאם יתפשט עוד יותר
+					<lb/>וראה ה<name type="misc">קב</name>״<persName>ה</persName> שאם יתפשט עוד יותר
 					<lb/>והגשם יותר עד שלא יוכל לחזור עוד
-					<lb/>ולדבק בשורשו. אמר ה<name type="misc">קב</name>״ה די שלא
+					<lb/>ולדבק בשורשו. אמר ה<name type="misc">קב</name>״<persName>ה</persName> די שלא
 					<lb/>יתפשט עוד ונמצא ששם זה מורה על
 					<lb/>צמצום שלא יתפשטו הדינים יותר וכן כל
-					<lb/>פעם כשרואה ה<name type="misc">קב</name>״ה שהרע נתגבר כ״כ
+					<lb/>פעם כשרואה ה<name type="misc">קב</name>״<persName>ה</persName> שהרע נתגבר כ״כ
 					<lb/>עד שאם יתגבר עוד ח"ו לא יוכל עוד
 					<lb/>לחזור לשורשו נתעורר רחמים משם שדי
 					<lb/>שיאמר די. והנה לענין תשובה הוא ג״כ
@@ -682,7 +682,7 @@
 					<lb/>כך שמכיין שכבר חטא ונתרחק משורשו
 					<lb/>ואם ח״ו לא יקובל תשובתו יתרחק יותר
 					<lb/>ולא יוכל לחזור עוד לשורשו נתעורר
-					<lb/>רחמים משם שדי שיאמר ה<name type="misc">קב</name>״ה די ומקבל
+					<lb/>רחמים משם שדי שיאמר ה<name type="misc">קב</name>״<persName>ה</persName> די ומקבל
 					<lb/>תשובתו כדי שיוכל לחזור לשורשו. (א"א
 					<lb/>תשא ולפ׳ פרה ולחג הפסח) :
 				</p>
@@ -694,14 +694,14 @@
 					<lb/>ז"ל בשם צדיק אחד
 					<lb/>שאמר כי ה<name type="misc">שי"ת</name> יש לו שלו תמיד כי על
 					<lb/>הכל אנו מברכין אותו בין על הטובה בין
-					<lb/>על הרעה א״כ יש לו נח״ר מכל דבר כי
+					<lb/>על הרעה א״כ יש לו <persName>נח</persName>״<persName>ר</persName> מכל דבר כי
 					<lb/>אנו מאמינים כי הכל טובה וחסד כי גם
 					<lb/>הגבורה והדין הוא חסד ה׳. אמנם כל
-					<lb/>איש ישראל צריך לגשת בתפלה שהשי״ת
+					<lb/>איש <placeName>ישראל</placeName> צריך לגשת בתפלה שהשי״ת
 					<lb/>וגמלנו חסדים טובים שלא יהי' התלבשות
 					<lb/>החסדים בדין רק גם החיצוניות יהי' חסד
 					<lb/>וטוב וראו כל עמי הארץ כי שם ה׳ נקרא
-					<lb/>על ישראל וזהו ויגש הגשה זו תפלה ויגש
+					<lb/>על <placeName>ישראל</placeName> וזהו ויגש הגשה זו תפלה ויגש
 					<lb/>בתפלה ויאמר אליו ית׳. <persName>יהודה</persName>. כי
 					<lb/>באמת אנו מודים ומברכים אליו ית׳ על
 					<lb/>כל כשם שאנו מברכים על הטובה כך
@@ -710,7 +710,7 @@
 					<lb/>הוא רק בי בקרבי אני מאמין שהכל חסד
 					<lb/>אבל לא בהתגלות לעיני כל חי. לכן ידבר
 					<lb/>נא עבדך דבר באזני אדני וראו כל עמי
-					<lb/>הארץ. כי יקובל תפלת עבדך ישראל.
+					<lb/>הארץ. כי יקובל תפלת עבדך <placeName>ישראל</placeName>.
 					<lb/>ואל יחר אפך בעבדך בבחי׳ חיצוניות הדין
 					<lb/>ורק כי כמוך שאתה רב חסד ובעל
 					<lb/>הרחמים. כן <persName>פרעה</persName> כן יהי׳ באתגלי׳ רב
@@ -731,7 +731,7 @@
 					<lb/>שגם
 				</p>
 				<p>
-					<pb facs="Tiferet-Hayyim_0010.jpg" /><lb/>תפארת
+					<pb facs="Tiferet-Hayyim_0010.jpg"/><lb/>תפארת
 				</p>
 				<p>
 					<lb/>פרשת <name type="work">ויבש</name>
@@ -766,12 +766,12 @@
 					<lb/>הה״ק ר׳ <persName>יעקב מ<placeName ana="bio">בלענדאוו</placeName></persName>) :
 				</p>
 				</div><div type="non-story"><p>
-					<lb/>ויסע ישראל וכל אשר לו וגו׳ ויאמר
+					<lb/>ויסע <placeName>ישראל</placeName> וכל אשר לו וגו׳ ויאמר
 					<persName><lb/>יעקב</persName> <persName>יעקב</persName> ויאמר הנני שמעתי
 					<lb/>מאאמו״ר ז״ל שאמר בשם מו״ר ז״ל כי
-					<persName><lb/>יעקב</persName> הי' רוצה בתיקון גמור בבחי׳ ישראל
+					<persName><lb/>יעקב</persName> הי' רוצה בתיקון גמור בבחי׳ <placeName>ישראל</placeName>
 					<lb/>ואמר לו ה׳ <persName>יעקב יעקב</persName> כי יהי׳ הגלות
-					<lb/>ולא תהי׳ בבחי׳ ישראל רק במדרגה נמוכה
+					<lb/>ולא תהי׳ בבחי׳ <placeName>ישראל</placeName> רק במדרגה נמוכה
 					<lb/>בחי׳ <persName>יעקב</persName> ויאמר הנני הנני מקבל עלי
 					<lb/>עול גלות באהבה כרצון ה׳ ויאמר אל
 					<lb/>תירא מרדה <placeName>מצרימה</placeName> כי אהי׳ עמך שם
@@ -779,20 +779,20 @@
 					<lb/>מב״ש כי עתה הלך בבחי׳ <persName>יעקב</persName> כפי
 					<lb/>אשר שמע גזירת השי״ת. אמנם בניו לא
 					<lb/>היו יודעים מזה ועוד חשבו שיעשה התיקון
-					<lb/>לכן כתיב וישאו בני ישראל את <persName>יעקב</persName>
-					<lb/>אביהם בני ישראל דוקא שהלכו בכוונה
-					<lb/>לישא את בחי׳ <persName>יעקב</persName> לבחי׳ ישראל וזהו
+					<lb/>לכן כתיב וישאו בני <placeName>ישראל</placeName> את <persName>יעקב</persName>
+					<lb/>אביהם בני <placeName>ישראל</placeName> דוקא שהלכו בכוונה
+					<lb/>לישא את בחי׳ <persName>יעקב</persName> לבחי׳ <placeName>ישראל</placeName> וזהו
 					<lb/>את <persName>יהודה</persName> שלח לפניו אל <persName>יוסף</persName> להורות
 					<lb/>לפניו גשנה ושמעתי בשם חותני הה״ק ר'
 					<persName><lb/>ירחמיאל</persName> זצ״ל מפרשיסחא כי <persName>גשנה</persName> בגימ׳
 					<persName><lb/>משיח</persName> היינו לפני גשנה לפני <persName>משיח</persName> שעשה
 					<lb/>התיקון לימי הגלות לפני ימי המשיח.
-					<lb/>ויאסר <persName>יוסף</persName> מרכבתו ויעל לקראת ישראל
+					<lb/>ויאסר <persName>יוסף</persName> מרכבתו ויעל לקראת <placeName>ישראל</placeName>
 					<lb/>כי <persName>יוסף</persName> לא ידע ממראות <name type="misc">אלהים</name> אל
-					<persName><lb/>יעקב</persName> כנ"ל ולכן חשב אולי י<name type="misc">ה</name>י׳ רצון ה׳
+					<persName><lb/>יעקב</persName> כנ"ל ולכן חשב אולי יהי׳ רצון <name type="misc">ה</name>׳
 					<lb/>ע״י <persName>יעקב</persName> שיבא לכאן שיהי׳ התיקון הגמור
-					<lb/>לכן כתיב ויעל לקראת ישראל אביו גשנה
-					<lb/>לקראת דייקא לעומה כוונתו ורק ישראל
+					<lb/>לכן כתיב ויעל לקראת <placeName>ישראל</placeName> אביו גשנה
+					<lb/>לקראת דייקא לעומה כוונתו ורק <placeName>ישראל</placeName>
 				</p>
 				<p>
 					<lb/>לעשות
@@ -815,7 +815,7 @@
 					<lb/>שלום עה״ת פ׳ <name type="work">ויגש</name>) :
 				</p>
 				<p>
-					<pb facs="Tiferet-Hayyim_0011.jpg" /><lb/>12
+					<pb facs="Tiferet-Hayyim_0011.jpg"/><lb/>12
 				</p>
 				<p>
 					<lb/>שת ויגש
@@ -911,7 +911,7 @@
 					<lb/>אינו
 				</p>
 				<p>
-					<pb facs="Tiferet-Hayyim_0012.jpg" /><lb/>תפארת
+					<pb facs="Tiferet-Hayyim_0012.jpg"/><lb/>תפארת
 				</p>
 				<p>
 					<lb/>פרשת <name type="work">שבת</name>
@@ -987,7 +987,7 @@
 					<lb/>ניחוח כו׳ ודבר זה גילה לנו ה<persName>בעש״ט</persName> זצללה״ה זי״ע :
 				</p>
 				<p>
-					<pb facs="Tiferet-Hayyim_0013.jpg" /><lb/>14
+					<pb facs="Tiferet-Hayyim_0013.jpg"/><lb/>14
 				</p>
 				<p>
 					<lb/>תפארת
@@ -1069,19 +1069,19 @@
 					<lb/>מורי ז"ל אמר אם אדם עובד במס״נ
 				</p>
 				<p>
-					<lb/>*) בס׳ <name type="work">נוצר</name> חסד על אבות מהה״ק <placeName>מקמארנא</placeName> בפ"ה מי״ט כ׳ בשם אביו הגה״ק
-					<lb/>ר׳ <persName>אלכסנדר זצללה"ה</persName> וז״ל דהנה מקור ויסוד עבודה הוא תיכף בהעיר אדם משנתו
+					<lb/>*) ב<name type="work">ס</name>׳ <name type="work">נוצר</name> חסד על אבות מהה״ק <placeName>מקמארנא</placeName> בפ"ה מי״ט כ׳ בשם אביו הגה״ק
+					<lb/>ר<persName>׳</persName> <persName>אלכסנדר זצללה"ה</persName> וז״ל דהנה מקור ויסוד עבודה הוא תיכף בהעיר אדם משנתו
 					<lb/>לקבל עול מלכותו יתברך ולייחד עצמו ביחוד גמור עם אדון עולם לנחת רוח לפניו
-					<lb/>ויגמור בדעתו לעשות רצון ה<name type="misc">בורא</name> ויבקש רחמים מבעל הרחמים שיעזור לו להוציא
-					<lb/>מחשבתו מכח אל הפועל החוב הזה חייב כל בר ישראל כל חד לפום דרגא דיליה
+					<lb/>ויגמור בדעתו לעשות רצון הבורא ויבקש רחמים מבעל הרחמים שיעזור לו להוציא
+					<lb/>מחשבתו מכח אל הפועל החוב הזה חייב כל בר <placeName>ישראל</placeName> כל חד לפום דרגא דיליה
 					<lb/>ומחשבה ראשונה עיקרת לכל היום לכל מצות שיעשה כל היום והנה כפי מדריגה שאדם
 					<lb/>מעורר עצמו עבודתו ית"ש כן מעורר לעילא לעילא והנה כשאדם מחשב ומהרהר
-					<lb/>ומתמרמר רוחו שלא יצא ידי חובתו כנגד הבורא ית"ש כן מעורר לעילא שכביכול ה<name type="misc">קב"ה</name>
+					<lb/>ומתמרמר רוחו שלא יצא ידי חובתו כנגד ה<name type="misc">בורא</name> ית"ש כן מעורר לעילא שכביכול ה<name type="misc">קב"ה</name>
 					<lb/>מחשב ומפשפש במעשיו שלא יצא עדיין נגד בריותיו להשפיע להם רב טוב וזהו
 					<lb/>בבקר זרע זרעך תיכף בהקיצו ולערב שאתה מפשפש במעשיך אל תנח ידיך ע״כ :
 				</p>
 				<p>
-					<pb facs="Tiferet-Hayyim_0014.jpg" /><lb/>תפארת
+					<pb facs="Tiferet-Hayyim_0014.jpg"/><lb/>תפארת
 				</p>
 				<p>
 					<lb/>פרשת שמות
@@ -1112,7 +1112,7 @@
 					<name type="work"><lb/>פרשת</name> בא
 				</p>
 				<p>
-					<lb/>בא אל <persName>פרעה</persName><anchor xml:id="ner_37758_37786"/> כי אני הכבדתי את לבו
+					<lb/>בא אל פרעה<anchor xml:id="ner_37758_37786"/> כי אני הכבדתי את לבו
 					<lb/>וגו׳ יבואר בדרך מוסר
 					<lb/>עפ״י ששמעתי מאאמו״ר ז״ל שאמר בשם
 					<lb/>אא"ז הה״מ ז״ל כי מהבת קול שיוצא בכל
@@ -1123,7 +1123,7 @@
 					<lb/>הרצון והרהור הטוב בלבו שהוא איזה
 					<lb/>בחי׳ עצבות ומרה שחורה והכבדת הלב.
 					<lb/>ולזה מסיח דעתו ממנו ע״כ דה״ק *) וזהו
-					<lb/>הרמז בכאן בא אל פרעה שצריך אתה
+					<lb/>הרמז בכאן בא אל <persName>פרעה</persName> שצריך אתה
 				</p>
 				<p>
 					<lb/>לבוא אל ההתגלות הקדושה הנשפע אליך
@@ -1143,7 +1143,7 @@
 					<lb/>ב<placeName>פורקני</placeName> היינו שהם שמחים על פורקן
 					<lb/>השכינה שיצאה מהגלות לגמרי ובגליות ד׳
 					<lb/>מלכיות אין השכינה עוד בעצם הגלות.
-					<lb/>וכמבואר ב<name type="work">זוהר</name> ו<name type="work">יקהל</name> רי"ו ב' דאע"ג
+					<lb/>וכמבואר ב<name type="work">זוהר</name> ויקהל רי"ו ב' דאע"ג
 					<lb/>דהוא בגלותא השתא תירא אית לה מיומא
 					<lb/>דאינון קשרין ב<placeName>מצרים</placeName> אשתריאו וכו׳ בגלותא
 					<lb/>איהו לדיירא עמהון דישראל ולאגנא עלייהו
@@ -1157,11 +1157,11 @@
 				<p>
 					<lb/>ויאסור את רכבו ואת עמו לקח עמו.
 					<lb/>עפ״י ששמעתי מכאדמו״ר
-					<lb/>ממעזבוז שיחי׳ כי <name type="misc">ה</name>סגופי׳ שאדם מסגף
+					<lb/>ממעזבוז שיחי׳ כי הסגופי׳ שאדם מסגף
 					<lb/>עצמו לזכך נשמתו הגם שאין כוונתו בלתי
 					<lb/>לה׳ לבדו אעפי״כ עושים רושם ודבריו
 					<lb/>נשמעים אפילו להרע ח״ו. אבל אין זה
-					<lb/>דרך ישר שבחר ה׳ וצריך האדם להיות
+					<lb/>דרך ישר שבחר <name type="misc">ה</name>׳ וצריך האדם להיות
 					<lb/>כוונתו בלתי לה׳ לבדו ולהרגיע א"ע
 				</p>
 				<p>
@@ -1170,7 +1170,7 @@
 				<p>
 					<lb/>*) בס׳ <name type="work">תפארת שלמה</name> פ׳ <name type="work">נצבים</name> וז"ל ידוע באנשי דורינו כי בזמנינו העיקר
 					<lb/>לעבדות השם הוא להתדבק אל הצדיקים כל אחד לפי מדריגתו. וזה הענין פרסם
-					<lb/>הבעש״ט ז"ל בעולם שכל מי שמפריד א״ע מהצדיק ואומר בלבבו מה לי לנסוע לצדיק
+					<lb/>הבעש<persName>״ט</persName> ז"ל בעולם שכל מי שמפריד א״ע מהצדיק ואומר בלבבו מה לי לנסוע לצדיק
 					<lb/>הדור לבקש תורה מפיו הלא כמה ספרים קדושים במוסר השכל דרושים לכל תפציהם
 					<lb/>בתורה ויראת שמים. אבל באמת אין זה כלום כי ראיית פני הצדיק הוא מבטל ממנו
 					<lb/>כל הסבות רעות דהיינו העצלות ועצבות וכל התאוות רעות ר"ל וגם בצדקה מה
@@ -1178,15 +1178,15 @@
 					<lb/>תפלתו למעלה כי ה<name type="misc">קב"ה</name> מתאווה לתפלתן של צדיקים ומגלין אלהותו ית״ש בעולם עכ״ל :
 				</p>
 				<p>
-					<pb facs="Tiferet-Hayyim_0015.jpg" /><lb/>16
+					<pb facs="Tiferet-Hayyim_0015.jpg"/><lb/>16
 				</p>
 				<p>
-					<lb/>למשוך טוב על ישראל וזפ"ה ויאסור את
+					<lb/>למשוך טוב על <placeName>ישראל</placeName> וזפ"ה ויאסור את
 					<lb/>רכבו דהיינו שאוסר עצמו הנאת הגוף
 					<lb/>ורכבו נק׳ הגוף שמורכב לנשמה ובמה
 					<lb/>יודע שכוונתו לשמים ולזה אמר הכתוב
 					<lb/>ואת עמו לקח עמו אם מסגף עצמו
-					<lb/>ואעפ״כ אוהב את ישראל ומבקש טובתם
+					<lb/>ואעפ״כ אוהב את <placeName>ישראל</placeName> ומבקש טובתם
 					<lb/>זה סימן שכוונת הסיגופי׳ לתקן נשמתו.
 					<lb/>(ס׳ אור לשמים שם) :
 				</p>
@@ -1194,9 +1194,9 @@
 					<name type="work"><lb/>פרשת יתרו</name>
 				</p>
 				<p>
-					<lb/>ויחן שם ישראל נגד ההר אמר <persName>אאמו״ר</persName>
-					<lb/>ז"ל בשם הה״ק רבינו
-					<persName><lb/>משה בן הה״מ מקאזניץ</persName> ז״ל שישראל הי'
+					<lb/>ויחן שם <placeName>ישראל</placeName> נגד ההר אמר <persName>אאמו״ר</persName>
+					<lb/>ז"ל בשם הה״<persName>ק</persName> רבינו
+					<persName><lb/>משה בן הה״מ מקאזניץ</persName> ז״ל ש<placeName>ישראל</placeName> הי'
 					<lb/>מעלה חן נגד ההר מרומז ל<name type="misc">השם</name> הוי'
 					<lb/>ב״ה (<name type="work">אמרי</name> <persName>אלימלך</persName> שם) :
 				</p>
@@ -1263,9 +1263,9 @@
 				</div><div type="non-story"><p>
 					<lb/>שביתין ושביקין מסאבין דרחיקין.
 					<lb/>מורי ז"ל אמר כשאדם שובק ועוזב
-					<lb/>השביתה ומנוחה רק שעוסק ב<name type="work">תורה</name> ותפלה
+					<lb/>השביתה ומנוחה רק שעוסק בתורה ותפלה
 					<lb/>אזי מסאבין דרחיקין נתרחק ממנו כל
-					<lb/>טומאה (ס׳ דברי תורה ותולדת הנפלאות) :
+					<lb/>טומאה (ס׳ דברי <name type="work">תורה</name> ותולדת הנפלאות) :
 				</p>
 				</div><div type="story" xml:id="Tiferet-Hayyim_0007" n="7"><head type="storyHead">Tiferet-Hayyim_0007</head>
 <p>
@@ -1277,10 +1277,10 @@
 				</p>
 				</div><div type="non-story"><p>
 					<lb/>וירא העם וינועו ויעמדו מרחוק. אמר
-					<lb/>הרה״ק מו<name type="misc">ה׳</name> <persName>יחזקאל</persName> זצ״ל
+					<lb/>הרה״ק מוה׳ <persName>יחזקאל</persName> זצ״ל
 					<persName>מקאזמיר</persName> כי מי שאין יכול להשקיט היראה
 					<lb/>בקרבו הוא סימן שהוא עדיין מרחוק
-					<lb/>מי שיש לו יראת ה׳ טהורה אז היראה
+					<lb/>מי שיש לו יראת <name type="misc">ה׳</name> טהורה אז היראה
 					<lb/>מצאה קן בלבו ובטל לרצון ה<name type="misc">בורא</name> ית״ש.
 					<lb/>ושוב יכול להנהיג בה מנהג דרך ארץ.
 				</p>
@@ -1288,7 +1288,7 @@
 					<lb/>וזה
 				</p>
 				<p>
-					<pb facs="Tiferet-Hayyim_0016.jpg" /><lb/>17
+					<pb facs="Tiferet-Hayyim_0016.jpg"/><lb/>17
 				</p>
 				<p>
 					<name type="work"><lb/>פרשת יתרו</name>
@@ -1304,13 +1304,13 @@
 					<lb/>ובעבור תהי׳ יראתו על פניכם ודרשו
 					<lb/>בנדרים (ד״כ) זו בושה לבלתי
 					<lb/>תחטאו מלמד שהבושה מביאה לידי יראת
-					<lb/>חטא. מורי הה״ק זצללה"ה אמר שהעיקר
+					<lb/>חטא. מורי הה<persName>״ק</persName> זצללה"ה אמר שהעיקר
 					<lb/>שהאדם ישגיח תמיד על גודל רוממות
 					<lb/>נשמתו ויבוש מאד איך האדם שיש לו
 					<lb/>נשמה קדושה כל כך יעסוק בדברים
 					<lb/>הנבזים וזה יותר טוב לתקן נשמתו מהזכרת
-					<lb/>יום המיתה כמ״ש בס׳ <name type="work">נועם</name> <persName>אלימלך</persName> (<name type="work">פ'
-			</name>		<lb/>קרח) על דברי חז"ל (ב״מ ד״י) בא אחד
+					<lb/>יום המיתה כמ״ש ב<name type="work">ס</name>׳ <name type="work">נועם</name> <persName>אלימלך</persName> (<name type="work">פ'
+					<lb/>קרח</name>) על דברי חז"ל (ב״מ ד״י) בא אחד
 					<lb/>והחזיק בה שמחזיקו ואומר לו איך שאדם
 					<lb/>חשוב כמוך יעשה שטותים כאלה ומקשה
 					<lb/>והא <sic correction="אמרת">אמרח</sic> ד״א של אדם קונה שעל ידי
@@ -1339,13 +1339,13 @@
 					<lb/>פרשת <name type="work">משפטים</name>
 				</p>
 				<p>
-					<lb/>כל אשר דבר <name type="misc">ה</name>׳ נעשה ונשמע. אחז"ל כל
+					<lb/>כל אשר דבר ה׳ נעשה ונשמע. אחז"ל כל
 					<lb/>שחכמתו מרובה ממעשיו אין חכמתו
 					<lb/>מתקיימת ולדעתי בדוק <sic correction="ומנוסה">ומנורה</sic> מי שמרבה
 				</p>
 				<p>
 					<lb/>החכמה על המעשה הוא פוגם ולא בזה
-					<lb/>בחר ה׳ ועיקר ושורש הכל <sic correction="שיתן">שיחן</sic> עיניו
+					<lb/>בחר <name type="misc">ה</name>׳ ועיקר ושורש הכל <sic correction="שיתן">שיחן</sic> עיניו
 					<lb/>ולבו לדבר מדברי <name type="misc">אלהים</name> חיים אשר
 					<lb/>ישמע ויחזיקה במסמרים שיהא תפור וחקוק
 					<lb/>בלבו כמו באר מים חיים ונוזלים מעצמם
@@ -1354,21 +1354,21 @@
 					<lb/>ועי׳ ב<name type="work">ס</name>׳ <name type="work">פרי הארץ</name> פ׳<unclear> </unclear>) :
 				</p>
 				<p>
-					<lb/>ל<name type="work">פרשת</name> שקים
+					<lb/>לפרשת שקים
 				</p>
 				<p>
 					<lb/>אור פניך עלינו אדון נשא ושקל אשא
 					<lb/>בבית נכון ונשא. להבין שייכות
 					<lb/>ענין תפלה זו דאור פניך נשא ל<name type="work">פרשת</name>
-					<name type="misc"><lb/>שקלים</name> ונראה עפ״י ששמעתי מאאמו״ר
-					<lb/>זצ"ל כי בפרשת שקלים שאנו מבקשים אור
+					<lb/>שקלים ונראה עפ״י ששמעתי מאאמו<persName>״</persName>ר
+					<lb/>זצ"ל כי ב<name type="work">פרשת</name> <name type="misc">שקלים</name> שאנו מבקשים אור
 					<lb/>פניך עלינו נשא שהוא נובע מפסוק נסה
 					<lb/>עלינו אור פניך "י"ה אשר בפסוק זה
 					<lb/>מרומז שם הפרנסה פא״י ר״ת "פותח "את
 					<lb/>"ידך צריכים להמשיך פרנסה חיי ומזוני.
 					<lb/>והנה צדיקי הדורות שלפנינו אמרו כי בא
 					<lb/>בשלח הוא פסח <name type="work">יתרו</name> הוא שבועות משפטים
-					<lb/>הוא ר״ה. והנה כתיב כי חק לישראל הוא
+					<lb/>הוא ר״<persName>ה</persName>. והנה כתיב כי חק ל<placeName>ישראל</placeName> הוא
 					<lb/>משפט ל<name type="misc">אלהי יעקב</name> חק לישנא דמזוני כי
 					<lb/>בר״ה צריכין אנו להמשיך תיי ומזוני על כל
 					<lb/>השנה. והנה להמשיך תיי ומזוני צריכים
@@ -1383,8 +1383,8 @@
 					<lb/>במדה. אבל כשמבקשים מ״ח פותחים
 					<lb/>שער אוצמ״ח לכל העולם וכו׳ וזהו בפ'
 					<lb/>שקלים שע״פ הרוב <sic correction="חל">תל</sic> בפ׳ משפטים שהוא
-					<lb/>בתי׳ ר"ה <sic correction="בחי'">בתי'</sic> חק לישראל משפט לאלהי
-					<lb/>יעקב כנ"ל אנו מבקשים אור פניך עלינו
+					<lb/>בתי׳ ר"ה <sic correction="בחי'">בתי'</sic> חק ל<placeName>ישראל</placeName> משפט ל<name type="misc">אלהי
+					<lb/>יעקב</name> כנ"ל אנו מבקשים אור פניך עלינו
 					<lb/>נשא שיתמשך עלינו פרנסה היי ומזוני
 					<lb/>בגשמיות ורותניות מבחי׳ אור פני ה׳
 					<lb/>מקום גבוה בחי' חסד חנם. ושקל הוא
@@ -1393,7 +1393,7 @@
 					<lb/>בתי'
 				</p>
 				<p>
-					<pb facs="Tiferet-Hayyim_0017.jpg" /><lb/>18
+					<pb facs="Tiferet-Hayyim_0017.jpg"/><lb/>18
 				</p>
 				<p>
 					<lb/>תפארת
@@ -1406,7 +1406,7 @@
 					<lb/>כפי מדה במדה. אשא בבית נכון ונשא כי
 					<lb/>אז בימי הגאולה ב״ב יתנהג עלמא בדיני
 					<lb/>מדה במדה כנודע וכמבואר ב<name type="work">זוהר</name> ויצא
-					<lb/>והי׳ <name type="misc">ה׳</name> לי לאלהים אמר יעקב השתא לא
+					<lb/>והי׳ ה׳ לי לאלהים אמר <persName>יעקב</persName> השתא לא
 					<lb/>אצטריכנא לדינא כד איתוב לבית אבא
 					<lb/>אתכלילנא בדינא ואתקשר בי' עי״ש. כן
 					<lb/>אנו מבקשים דהשתא לא צריכנא לדינא.
@@ -1438,7 +1438,7 @@
 					<lb/>מרובה אין מרגיש בעצמותו שום רעבון
 					<lb/>וצמאון. אך כל חושיו תקועים בעסק
 					<lb/>ההוא. כן הדבר הזה ואז יגיע ליראת
-					<lb/>ה׳ ובחי׳ יראה ההוא יהי' כלי שתנוח
+					<name type="misc"><lb/>ה׳</name> ובחי׳ יראה ההוא יהי' כלי שתנוח
 					<lb/>ותתקיים בו הרצון הטוב ההוא [כי בחי'
 					<lb/>יראה הוא בחי׳ כלי כמ״ש יראת <name type="misc">ה'</name> היא
 					<lb/>אוצרו] וכמבואר בקדושת <persName>לוי</persName> בשם ה<persName>רמב״ן</persName>
@@ -1448,14 +1448,14 @@
 					<lb/>יתקבץ <sic correction="ויוחזר">ויוחור</sic> אליו נינוצי נפשו. והנה
 				</p>
 				<p>
-					<lb/>שמעתי מאאמו״ר ז״ל בשם רבו הקדוש
+					<lb/>שמעתי מאאמו<persName>״</persName>ר ז״ל בשם רבו הקדוש
 					<lb/>מ<persName>מעזבוז</persName> זצ"ל כי כל אדם הגם שהוא
 					<lb/>במדרגה מעיטה לדיך לעבוד ולכוון צורך
 					<lb/>גבוה לאקמא שכינתא מעפרא. ובל יאמר
 					<lb/>מה אני לבוא עד הלום למדרגה גבוה כזו
 					<lb/>כי באמת זה כל האדם תורת העולה
 					<lb/>להעלות השכינה והנה כמו כן צריך כל
-					<lb/>אדם לעבוד לשמו ית׳ בשם כל ישראל.
+					<lb/>אדם לעבוד לשמו ית׳ בשם כל <placeName>ישראל</placeName>.
 					<lb/>וזה אפשר לכוון כאן ויקחו לי תרומה
 					<lb/>הכוונה שצריך כל אדם ליקח ולקבץ חלקי
 					<lb/>ניצוצי נפשו הנתרם והנפרש ממנו מאת
@@ -1498,40 +1498,40 @@
 					<lb/>וזה הדבר אשר תעשה להם. במד״ר
 				</p>
 				<p>
-					<pb facs="Tiferet-Hayyim_0018.jpg" /><lb/>תפארת
+					<pb facs="Tiferet-Hayyim_0018.jpg"/><lb/>תפארת
 				</p>
 				<p>
-					<name type="work"><lb/>פרשת</name> תצו<name type="misc">ה</name>
+					<name type="work"><lb/>פרשת</name> תצוה
 				</p>
 				<p>
 					<lb/>שם <sic correction="פל&quot;ח">פל"ת</sic> הדה"ד קחו עמכם דברים ושובו
-					<lb/>אל ה׳ לפי שישראל אמרו הנשיאים חטאו
+					<lb/>אל <name type="misc">ה</name>׳ לפי שישראל אמרו הנשיאים חטאו
 					<lb/>ומביאים קרבן ומתכפר להם. אנו אין
 					<lb/>לנו קרבן א״ל אם כל עדת ישראל ישגו
 					<lb/>א״ל עניים אנו ואין לנו קרבן. א״ל דברים
 					<lb/>אני מבקש ואין דברים אלא <name type="work">תורה</name> א״ל
-					<lb/>אין יודעין א״ל בכו ו<name type="misc">ה</name>תפללו לפני ואני
-					<lb/>מקבל. אבותיכם ב<placeName>מצרים</placeName> לא בתפל<name type="misc">ה</name>
+					<lb/>אין יודעין א״ל בכו והתפללו לפני ואני
+					<lb/>מקבל. אבותיכם ב<placeName>מצרים</placeName> לא בתפלה
 					<lb/>פדיתי אותם שנאמר ויאנחו בני ישראל מן
 					<lb/>העבודה. בימי <persName>יהושע</persName> לא בתפלה עשיתי
 					<lb/>להם נסים הוי אין אני מבקש לא זבח ולא
 					<lb/>קרבנות אלא דברים שנאמר קחו עמכם
-					<lb/>דברים ושובו אל ה׳. מורי ז״ל אמר
+					<lb/>דברים ושובו אל <name type="misc">ה</name>׳. מורי ז״ל אמר
 					<lb/>עיקר שיעשה תמיד <sic correction="תשובה">חשובה</sic> בלי הפסק כי
 					<lb/>שערי תשובה לעולם פתוחין והעיקר
-					<lb/>שיצעק תמיד אל ה׳. כי על ה<name type="work">תורה</name> אמרו
+					<lb/>שיצעק תמיד אל <name type="misc">ה</name>׳. כי על ה<name type="work">תורה</name> אמרו
 					<lb/>אין אנו יודעין ועל הצעקה לא אמרו אין
 					<lb/>אנו יודעין. (ס׳ דברי <name type="work">תורה</name>) :
 				</p>
 				<p>
-					<lb/>ל<name type="work">פרשת</name> פרה ושייך ג״כ ל<name type="work">פרשת</name> <name type="work">חקת</name>
+					<lb/>ל<name type="work">פרשת</name> פרה ושייך ג״כ ל<name type="work">פרשת</name> חקת
 				</p>
 				<p>
-					<lb/>בשם <persName>אדומ</persName>״ו הקדוש א״א זצוק"ל
-					<lb/>ממאגל<name type="work">י</name>ניצא ל<name type="work">פ</name>׳ פרה. איתא
-					<lb/>במדרש (פ׳ חקת פ׳ י״ט) ר״א בשם ר״ח
+					<lb/>בשם <persName>אדומ</persName>״<persName>ו</persName> הקדוש א״א זצוק"ל
+					<lb/>ממאגליניצא לפ׳ פרה. איתא
+					<lb/>במדרש (פ׳ <name type="work">חקת</name> פ׳ <name type="work">י</name>״ט) ר״א בשם ר״<persName>ח</persName>
 					<lb/>אמר בשעה שעלה <persName>משה</persName> למרום שמע קולו
-					<lb/>של <persName>הקב״ה</persName> שיושב ועוסק בפ׳ פרה אדומה
+					<lb/>של <persName>הקב״ה</persName> שיושב ועוסק ב<name type="work">פ</name>׳ פרה אדומה
 					<lb/>ואומר הלכה בשם אומרה רבי <persName>אליעזר</persName>
 					<lb/>אומר עגלה בת שנתה ופרה בת שתים
 					<lb/>אמר לפניו רבון העולמים יהי רצון שיהי'
@@ -1556,17 +1556,17 @@
 					<lb/>נצטוו במרה והנה במס׳ פרה פ״א ר״א
 					<lb/>אומר עגלה בת שנתה ופרה בת שתים
 					<lb/>וחכ״א עגלה בת שתים ופרה בת שלש.
-					<lb/>והנה אם ישראל חטאו בעגל וצריכים
+					<lb/>והנה אם <placeName>ישראל</placeName> חטאו בעגל וצריכים
 					<lb/>לפרה שתבוא אמו ותקנת צריכה הפרה
 					<lb/>להיות בת שלש כי בת שתים אינה יולדת
 					<lb/>ואינה נקראת אם לקנח ולדברי ר"א
 					<lb/>שפרה בת שתים אינה יולדת ואינה נקראת
-					<lb/>אם לקנח כדברי ר״מ הדרשן ולפ״ז ר״א
+					<lb/>אם לקנח כדברי ר״<persName>מ</persName> הדרשן ולפ״ז ר״א
 					<lb/>ס״ל שלא חטאו ופרה במרה נצטוו והנה
 					<lb/>כששמע משרע״ה מה<name type="misc">קב״ה</name> שר״א אומר
 					<lb/>פרה בת שתים הבין שס"ל שלא חטאו
 					<lb/>בעגל כלל ואינם צריכים לאם לקנת והיה
-					<lb/>ר״א מליץ יושר על ישראל ובשביל זאת
+					<lb/>ר״א מליץ יושר על <placeName>ישראל</placeName> ובשביל זאת
 					<lb/>אמר משרע״ה יהי רצון שיצא מחלצי עכ״ל :
 				</p>
 				<p>
@@ -1580,8 +1580,8 @@
 					<lb/>להיות שבאם יתגלה לי הטעם פ״א אני
 					<lb/>מגלה לאחרים וקבלתי עלי שלא אגלה
 					<lb/>לאחרים ותיכף נתגלה לי טעם פרה דפח״ח
-					<lb/>ע״כ ממורי הק׳ <persName>א״א</persName>. רבינו חיים מאיר
-					<lb/>יחיאל זצוק"ל מ<placeName>מאגליניצא</placeName>. (ס׳ אמרי
+					<lb/>ע״כ ממורי הק׳ <persName>א״א</persName>. רבינו <persName>חיים מאיר
+					<lb/>יחיאל</persName> זצוק"ל מ<placeName>מאגליניצא</placeName>. (ס׳ אמרי
 					<lb/>צדיקים) :
 				</p>
 				<p>
@@ -1590,18 +1590,18 @@
 				<p>
 					<lb/>ואכלתי חטאת היום היטב בעיני ה׳
 					<lb/>עי׳ פרש"י ז"ל
-					<lb/>לבאר ענין דעת משה שלא הי׳ מחלק בין
+					<lb/>לבאר ענין דעת <persName>משה</persName> שלא הי׳ מחלק בין
 					<lb/>קדשי שעה לקדשי דורות. ע״פ ששמעתי
-					<lb/>מאאמו״ר זצ"ל ענין מה שקצף משה כ"כ
+					<lb/>מאאמו״ר זצ"ל ענין מה שקצף <persName>משה</persName> כ"כ
 					<lb/>על מה שלא אכלו החטאת ואמר כי נודע
 					<lb/>מאמרם ז״ל על השעיר ר״ח שנאמר בו
-					<lb/>זאת לה׳ אמר הקב״ה הביאו כפרה עלי
+					<lb/>זאת לה׳ אמר <persName>הקב</persName>״ה הביאו כפרה עלי
 				</p>
 				<p>
 					<lb/>על
 				</p>
 				<p>
-					<pb facs="Tiferet-Hayyim_0019.jpg" /><lb/>על שמיעטתי את הירח ולכן אם היו
+					<pb facs="Tiferet-Hayyim_0019.jpg"/><lb/>על שמיעטתי את הירח ולכן אם היו
 					<lb/>אוכלים החטאת הזה הי׳ התיקון על פגם
 					<lb/>מיעוט הירח כי הכהנים אוכלים ובעלים
 					<lb/>מתכפרים כביכול והי׳ אור הלבנה כאור
@@ -1610,27 +1610,27 @@
 					<lb/>ר״ח לכפר על מיעוט הירח א״כ שעיר
 					<lb/>ר״ח הוי נמי רק קדשי שעה שמותר לאכול
 					<lb/>באנינות ולכן קצף עליהם ואמר מדוע
-					<lb/>לא אכלתם את החטאת וגו׳ כי משה הי'
+					<lb/>לא אכלתם את החטאת וגו׳ כי <persName>משה</persName> הי'
 					<lb/>עומד ומצפה שיהי׳ התיקון והי׳ רק קדשי
-					<lb/>שעה אמנם אהרן ובניו ראו עיניהם שלא
+					<lb/>שעה אמנם <persName>אהרן</persName> ובניו ראו עיניהם שלא
 					<lb/>יהי׳ עתה התיקון כי כבר הי׳ קרוב
-					<lb/>להתיקון ונתקלקל הדבר ע״י חטא נדב
-					<lb/>ואביהוא כמבואר ב<name type="work">זוהר</name> פרש<name type="misc">ה</name> זו דל״ז
+					<lb/>להתיקון ונתקלקל הדבר ע״י חטא <persName>נדב</persName>
+					<lb/>ואביהוא כמבואר ב<name type="work">זוהר</name> פרשה זו דל״ז
 					<lb/>ע״ב וראו שמעתה יתאחד התיקון עד עת
 					<lb/>קץ ולכן הוי שעיר ראש חודש קדשי דורות
 					<lb/>ואין למדין מן קדשי שעה יה״ר שיתוקן
-					<lb/>הדבר ב״ב. (דברי אלימלך שמיני) :
+					<lb/>הדבר ב״ב. (דברי <persName>אלימלך</persName> שמיני) :
 				</p>
 				<p>
 					<lb/>לפסח
 				</p>
 				<p>
-					<lb/>שמעתי בשם אאמו״ר ז״ל שהש״ב לאחד
+					<lb/>שמעתי בשם אאמו<persName>״</persName>ר ז״ל שהש״ב לאחד
 					<lb/>ששאל אותו מפני מה החסידים
-					<lb/>החרדים על דבר ה׳ כאשר בא חג הפסח
+					<lb/>החרדים על דבר <name type="misc">ה</name>׳ כאשר בא חג הפסח
 					<lb/>אומרים הלל בלילי פסח בשמחה רבה
 					<lb/>כמנהג ה<orgName>בית יוסף</orgName> ו<orgName>האריז״ל</orgName> ובתיקון חצות
-					<lb/>אשר גם זה הוא כפי הב״י והאריז״ל
+					<lb/>אשר גם זה הוא כפי הב״<orgName>י</orgName> וה<persName>אריז</persName>״<orgName>ל</orgName>
 					<lb/>אינם נזהרים והשיב כי אנו רואים למשל
 					<lb/>כאשר אחד הוא בשמחה כמו שמחת
 					<lb/>נשואין וכדומה אזי מרוב השמחה כולם
@@ -1666,7 +1666,7 @@
 					<lb/>זה וחרה לו מאד ואמר לא די שאין אתה
 					<lb/>מצער בצרתי אתה משחק בי כן כשרואה
 					<lb/>ה<persName>שי"ת</persName> כשיאמר האדם תיקון חצות ואינו
-					<lb/>מצר באמת על חרבן בהמ״ק אז השי"ת
+					<lb/>מצר באמת על חרבן בהמ״ק אז ה<name type="misc">שי"ת</name>
 					<lb/>כועס עליו ביותר ואם יצטרך לישן יחזור
 					<lb/>וישן עד לאור הבוקר *) עכ״ל :
 				</p>
@@ -1690,7 +1690,7 @@
 					<lb/>פעם אחת דבוק בהבורא כפי יפלתו ישמח אפילו כשהוא מבחוץ וזהו בצאתך וכו׳ עי״ש :
 				</p>
 				<p>
-					<pb facs="Tiferet-Hayyim_0020.jpg" /><lb/>תפארת
+					<pb facs="Tiferet-Hayyim_0020.jpg"/><lb/>תפארת
 				</p>
 				<p>
 					<lb/>הספר
@@ -1718,18 +1718,18 @@
 					<lb/>זה הוולד אבל מי שמכווין להוליד בנים
 					<lb/>לעהי״ת שנקרא <name type="misc">אלהי</name> אמת זה נקרא זרע
 					<lb/>אמת וי״ל שזה פי׳ הפסוק <name type="work">אשה</name> כי תזריע
-					<lb/>וילד<name type="misc">ה</name> זכר ר״ל בשעה שמורעת תהי׳ כוונתה
-					<lb/>שתלד זכר לעבוד ה׳ לא למלאות תאותה
+					<lb/>וילדה זכר ר״ל בשעה שמורעת תהי׳ כוונתה
+					<lb/>שתלד זכר לעבוד <name type="misc">ה</name>׳ לא למלאות תאותה
 					<lb/>וזה ג״כ ונתתי לכם לב בשר (<name type="work">יחזקאל</name> ל״ו)
 					<lb/>לב להוציא בשר אבל לא למלאות התאוה
 					<lb/>רק להוציא בשר היינו בנים לעבודתו ית״ש.
 					<lb/>(ס׳ יקר מפז מהמגיד הק' מ<persName>קאזניץ</persName>) ועי׳
-					<lb/>בספרו הק׳ עבודת ישראל על אבות פ״ב
+					<lb/>בספרו הק׳ עבודת <placeName>ישראל</placeName> על אבות פ״ב
 					<lb/>מ״ח דברים נוראים בזה :
 				</p>
 				<p>
 					<lb/>איש כי ימרט ראשו קרח הוא טהור
-					<lb/>הוא. מורי ז״ל הה״ק מ<persName>מאגליניצא</persName>
+					<lb/>הוא. מורי ז״ל הה״ק מ<placeName>מאגליניצא</placeName>
 					<lb/>אמר הנה עיקר שפלות צריך להיות
 					<lb/>מרוממות ה׳ אך אם האדם שפל מחמת
 					<lb/>כי מכיר רוב שפלות ומיעוט עבודתו ג״כ
@@ -1754,8 +1754,8 @@
 				<p>
 					<lb/>אמר מורי ז"ל עיקר שפלות להיות כאין
 					<lb/>רק שהכל הוא מה<name type="misc">בורא</name> ית׳ כמ״ש
-					<lb/>(פ׳ ואחתנן) וידעת <name type="misc">ה</name>יום וגו׳ כי ה׳ הוא
-					<name type="misc"><lb/>אלהים</name> בשמים ממעל ועל ה<placeName>ארץ</placeName> מתחת אין
+					<lb/>(פ׳ ואחתנן) וידעת היום וגו׳ כי <name type="misc">ה</name>׳ הוא
+					<name type="misc"><lb/>אלהים</name> בשמים ממעל ועל הארץ מתחת אין
 					<lb/>עוד. וכ״ז שמרגיש עצמיותו הוא רחוק
 					<lb/>מהאמונה זו וצריך אדם להתפלל להש"י
 					<lb/>שיתגלה האוצר של האמונה ויראה הטמון
@@ -1789,7 +1789,7 @@
 					<lb/>פרשת אחרי
 				</p>
 				<p>
-					<lb/>כמעשה ארץ <placeName>מצרים</placeName> אשר ישבתם בה
+					<lb/>כמעשה <placeName>ארץ</placeName> <placeName>מצרים</placeName> אשר ישבתם בה
 					<lb/>לא תעשו. שצריך לעשות תשובה
 					<lb/>גדולה כ״כ עד שלא יהא ניכר המקום
 					<lb/>שישב בה. או ירצה לא תעשו שצריך למאס
@@ -1801,7 +1801,7 @@
 					<lb/>ג״כ
 				</p>
 				<p>
-					<pb facs="Tiferet-Hayyim_0021.jpg" /><lb/>32
+					<pb facs="Tiferet-Hayyim_0021.jpg"/><lb/>32
 				</p>
 				<p>
 					<lb/>תפארת
@@ -1813,7 +1813,7 @@
 					<lb/>ג״כ לקיים המצות שהיצה״ר מתגבר כנגדם.
 					<lb/>אמר לי העיקר לשבור המסכים וזה
 					<lb/>הגדולה שבעבדות. (ס׳ דברי <name type="work">תורה</name> בשם
-					<lb/>מורו הה״ק ממאגליניצא) :
+					<lb/>מורו הה<persName>״ק</persName> מ<persName>מאגליניצא</persName>) :
 				</p>
 				<p>
 					<name type="work"><lb/>פרשת</name> קדושים
@@ -1839,7 +1839,7 @@
 					<lb/>לגמרי עכ״ל] :
 				</p>
 				<p>
-					<lb/>ובהק׳ לס׳ רוממת נשמת ישראל כ׳ וז״ל
+					<lb/>ובהק׳ לס׳ רוממת נשמת <placeName>ישראל</placeName> כ׳ וז״ל
 					<lb/>מצאתי בכתב יד שבקש אדם
 					<lb/>מצדיק אחד שילמדנו דרכי השם והשיב לו
 					<lb/>וואס מען טאר ניט טאר מען ניט און
@@ -1873,17 +1873,17 @@
 					<lb/>*) איתא ב<name type="work">ערכין</name> (דט״ו) כל המספר לשון הרע נגעים באים עליו איתא
 					<lb/>בס׳ הקנה דעתה בזמן הגלות נענש בעניות ח״ו במקום הצרעת. וכעין זה כתב
 					<lb/>ה<persName>מהרש״א</persName> בח״א (בע״ז די״ט) וז״ל ונראה דקשה לשון הרע שאפילו שיהי׳ האדם עוסק
-					<lb/>ל<name type="work">תורה</name> לא ישיג בתורתו ארחות חיים כי הלואי תועיל ה<name type="work">תורה</name> שלו לרפאות עון לשון
-					<lb/>אר לכך הזהירו דינצור לשונו מרע ואח״כ יעסוק בתורה. כי אז התורה נותנתו לו
+					<lb/>ל<name type="work">תורה</name> לא ישיג בתורתו ארחות חיים כי הלואי תועיל התורה שלו לרפאות עון לשון
+					<lb/>אר לכך הזהירו דינצור לשונו מרע ואח״כ יעסוק בתורה. כי אז ה<name type="work">תורה</name> נותנתו לו
 					<lb/>חיים כדכתיב עץ חיים היא למחזיקים בה עכ״ל. ובס׳ דבש לפי מערכת ל׳ בשם מדרש
 					<lb/>שוח״ט מי שירצה לקנות עוה״ב בזול נצור לשונך מרע עכ״ד ובד״א זוטא פ״ט אם
 					<lb/>שמרת פיך מלה״ר תהא כל ימיך לשלום :
 				</p>
 				<p>
 					<lb/>ועי׳ <sic correction="בס'">שס׳</sic> <persName>מאור ענים</persName> פ׳ מצורע לרבינו הקדוש <persName>מטשערנאביל</persName> זצוקללה״ה וז״ל כתיב
-					<lb/>ב<name type="work">ראשית</name> ברא וגו׳ ודרז״ל בשביל ה<name type="work">תורה</name> ובשביל ישראל נמצא ישראל הם דבר
+					<lb/>ב<name type="work">ראשית</name> ברא וגו׳ ודרז״ל בשביל ה<name type="work">תורה</name> ובשביל <placeName>ישראל</placeName> נמצא <placeName>ישראל</placeName> הם דבר
 					<lb/>חשוב מאד לפני הש״י שבשבילם ברא כל העולמות וכל הברואים והש״י מקבל תענוג
-					<lb/>מכל א׳ מישראל אפילו מרשע גדול כפלח הרמון רקתך אפילו רקנים שבך מלאים מצות
+					<lb/>מכל א׳ מ<placeName>ישראל</placeName> אפילו מרשע גדול כפלח הרמון רקתך אפילו רקנים שבך מלאים מצות
 					<lb/>כרימון וכשמדבר לה״ר על א׳ מישראל אפילו כשאומר אמת הוא מבטל תענוג ה<name type="misc">בורא</name>
 					<lb/>ית׳ כביכול ומביא בו מדת עצבות כביכול כאמור ויתעצב על לבו ומהפך מעונג לנגע
 					<lb/>לכן שכרו מכ״מ נגעים באים עליו. וארז״ל גדולה לה״ר כנגד ע״ז ג״ע וש״ד וצ״ל מה
@@ -1895,11 +1895,11 @@
 					<lb/>הנאה לא יכעוס כלל אפילו בפה ובזה יעורר עליו מלמעלה אהבת ה<name type="misc">בורא</name> :
 				</p>
 				<p>
-					<pb facs="Tiferet-Hayyim_0022.jpg" /><lb/>הוכח תוכיח את עמיתך וכו׳ מורי ז"ל
+					<pb facs="Tiferet-Hayyim_0022.jpg"/><lb/>הוכח תוכיח את עמיתך וכו׳ מורי ז"ל
 					<lb/>אמר צריך להוכיח את
 					<lb/>האדם כל אחד לפי אותו האדם שמוכיחו
 					<lb/>ולא תוכיח אותו לפי ערכך. (ס׳ <name type="work">דבר
-				</name>	<lb/>תורה). עי׳ ב<name type="work">ספר תולדת יעקב יוסף</name> פ׳
+					<lb/>תורה</name>). עי׳ ב<name type="work">ספר תולדת יעקב יוסף</name> פ׳
 					<lb/>קדושים :
 				</p>
 				<p>
@@ -1949,8 +1949,8 @@
 				<p>
 					<lb/>ישא ה׳ פניו אליך וישם לך שלום. במס'
 					<lb/>עוקצין פ״ג מי״ב <persName>א״ר</persName> <persName>שמעון בן
-					</persName><lb/>חלפתא לא מצא ה<name type="misc">קב״ה</name> כלי מחזיק ברכה
-					<lb/>לישראל אלא השלום כו' אמר <persName>אאמו״ר</persName>
+					<lb/>חלפתא</persName> לא מצא ה<name type="misc">קב״ה</name> כלי מחזיק ברכה
+					<lb/>ל<placeName>ישראל</placeName> אלא השלום כו' אמר <persName>אאמו״ר</persName>
 					<lb/>זצ"ל על אמרם אין כלי מחזיק ברכה אלא
 					<lb/>שלום והיינו כי כ״א נולד במזל אחר זה
 					<lb/>נולד במזל שיהי׳ לו בנים. וזה נולד במזל
@@ -1973,18 +1973,18 @@
 					<lb/>אין אדם קונה דברי <name type="work">תורה</name> עד שימית עצמו
 					<lb/>עליה כי עיקר ויסוד גדול הוא <sic correction="שאדם">שארם</sic>
 					<lb/>יעמוק בשכלו גודל רעת העבירות כמ״ש
-					<lb/>אדמו״ר הק׳ א״א מ<placeName>מאגליניצא</placeName> שאין זה
+					<lb/>אדמו״ר הק׳ א״<persName>א</persName> ממאגליניצא שאין זה
 					<lb/>שפל ממה שאדם יודע שחטא כי גם הרשע
 					<lb/>יודע ג״כ שחטא רק שאין מרגיש כמה
 					<lb/>רע ומר לאדם שחוטא וצריך להרגיש גודל
 					<lb/>המרירות מהחטאים כמו אדם שהי׳ תמיד
 					<lb/>בהיכל מלך ויגרשהו ויזרקהו לבית הכסא
-					<lb/>וכתב בס׳ <name type="work">שערי</name> תשובה לר״י יתכן שיתחרט
+					<lb/>וכתב בס׳ <name type="work">שערי</name> תשובה לר״<orgName>י</orgName> יתכן שיתחרט
 					<lb/>אדם על חטאיו אשר חטא. אך כי גם
 					<lb/>הפסד <name type="currency">דינר</name> או איסר קשה בעיניו אך אם
 					<lb/>הפסיד כל עשרו ויצא נקי מנכסיו אז
 					<lb/>תכבד עליו אנחתו ונפשו מרה עליו. יותר
-					<lb/>מזה ראוי שיצער ויאנח מי שהמרה הש״י
+					<lb/>מזה ראוי שיצער ויאנח מי שהמרה ה<persName>ש״י</persName>
 					<lb/>ולא זכר אשר בראו יש מאין ונוצר נפשו
 					<lb/>בכל רגע. וזה כוונת חז״ל אין אדם קונה
 					<lb/>דברי <name type="work">תורה</name> עד שימית עצמו עלי׳ היינו
@@ -1994,7 +1994,7 @@
 					<lb/><sic correction="בחטאים">בחטחים</sic>
 				</p>
 				<p>
-					<pb facs="Tiferet-Hayyim_0023.jpg" /><lb/>34
+					<pb facs="Tiferet-Hayyim_0023.jpg"/><lb/>34
 				</p>
 				<p>
 					<lb/>תפארת
@@ -2018,12 +2018,12 @@
 					<lb/>כן הברית כרותה שלא לעבור על ה<name type="work">תורה</name>
 					<lb/>כיון שה<name type="work">תורה</name> והחיות שוים אצלו וז״ש אין
 					<lb/>אדם קונה ד״ת אא״כ ימית עצמו עלי'
-					<lb/>שתולה כל חיותו בה<name type="work">תורה</name> ובמצות אז קונה
-					<lb/>התורה בקנין גמור (הקדמה לפ׳ החיים
+					<lb/>שתולה כל חיותו בהתורה ובמצות אז קונה
+					<lb/>ה<name type="work">תורה</name> בקנין גמור (הקדמה לפ׳ החיים
 					<lb/>מהרב החסיד ר׳ <persName>משה</persName> זצ"ל בעל ד״ת) :
 				</p>
 				<p>
-					<name type="work"><lb/>פרשת</name> פנחס
+					<name type="work"><lb/>פרשת</name> <persName>פנחס</persName>
 				</p>
 				<p>
 					<lb/>שמעתי מאאמו״ר ז״ל הענין שכתב
@@ -2033,7 +2033,7 @@
 					<lb/>לפי שבו מת <persName>משה</persName> רבן והוא לא ידע שבז'
 					<lb/>ב<date>אדר</date> מת וב<date>ז</date>׳ ב<date>אדר</date> נולד ע״ש. הענין
 					<lb/>כל צדיק נולד על בחי׳ מיוחדת שזו
-					<lb/>הבחי׳ יתקן ויעבוד בה <persName>הקב</persName>״ה. ולכן כיון
+					<lb/>הבחי׳ יתקן ויעבוד בה ה<name type="misc">קב״ה</name>. ולכן כיון
 					<lb/>שבאמת הצדיק מתקן הדבר שבעבורו נולד
 					<lb/>בא יום הלידה ומכפר על יום המיתה. ואין
 					<lb/>המיתה עושה שום רושם. כיון שביום המיתה
@@ -2045,14 +2045,14 @@
 					<lb/>מכפר על יום המיתה. לכן עשתה
 					<lb/>מיתתו רושם ולכן כתיב זאת ב<name type="work">תורה</name> כי
 					<lb/>הוא מת ב<date>חדש</date> אב ימי החרבן והגלות
-					<lb/>והפך ה׳ החודש ליו<date>״ט</date> ולשמחה מהרה :
+					<lb/>והפך ה׳ החודש ליו״ט ולשמחה מהרה :
 					<lb/>[אבל <persName>משה</persName> איתא ב<name type="work">מג</name>״ע שביום
 				</p>
 				<p>
 					<lb/>השיג גם שער הנ׳ וא״כ השיג אז כל
 					<lb/>המדרגות והבחינות] ואני אומר ע״פ
-					<lb/>המבואר ב<name type="work">דברי</name>נו וכו' עי״ש. (דברי <persName>אלימלך</persName>
-					<lb/>פנחס) :
+					<lb/>המבואר בדברינו וכו' עי״ש. (<name type="work">דברי</name> <persName>אלימלך</persName>
+					<persName><lb/>פנחס</persName>) :
 				</p>
 				<p>
 					<name type="work"><lb/>פרשת</name> מטות
@@ -2077,12 +2077,12 @@
 					<name type="work"><lb/>פרשת</name> מסעי
 				</p>
 				<p>
-					<lb/>ויצו <persName>משה</persName> וגו׳ כן מטה בני <persName>יוסף</persName> דברים
+					<lb/>ויצו משה וגו׳ כן מטה בני יוסף דברים
 					<lb/>וגו׳. הנה הה"צ הקדוש
-					<lb/>ממאגליניצא זצללה"ה הקשה להרב אב"ד
+					<lb/>מ<placeName>מאגליניצא</placeName> זצללה"ה הקשה להרב אב"ד
 					<lb/>מ<placeName>לובלין</placeName> על מה שאנו פוסקים הלכה
 					<lb/>דירושת הבעל לאו דאורייתא הלא איתא
-					<lb/>ב<name type="work">גמ</name>׳ (<placeName>ב"ב</placeName> הי״ט) שבנות צלפחד בנס ה'
+					<lb/>ב<name type="work">גמ</name>׳ (<placeName>ב"ב</placeName> הי<date>״ט</date>) שבנות צלפחד בנס ה'
 					<lb/>יולדת מחמת שאפילו הקטנה שבהם לא
 					<lb/>נישאת <sic correction="פחותה">כחותה</sic> מארבעים שנה ושוב אינה
 					<lb/>ולדת רק שבנס היו יולדת וא״כ קשה
@@ -2093,14 +2093,14 @@
 					<lb/>אלא ע״כ מתשובת ה<name type="misc">שי"ת</name> מוכח דירושת
 					<lb/>הבעל דאורייתא וקשיא אהלכתא. ונראה
 					<lb/>לתרץ עפ״י מה דאיתא עוד שם ב<name type="work">גמרא</name>
-					<lb/>דבנות צ<persName>לפחד</persName> היתרו לינשא לכל השבטים
+					<lb/>דבנות צלפחד היתרו לינשא לכל השבטים
 					<lb/>ולא נאסר אלא לשאר בת יורשת נחלה.
 				</p>
 				<p>
 					<lb/>אבל
 				</p>
 				<p>
-					<pb facs="Tiferet-Hayyim_0024.jpg" /><lb/>תפארת
+					<pb facs="Tiferet-Hayyim_0024.jpg"/><lb/>תפארת
 				</p>
 				<p>
 					<lb/>פרשת מסע
@@ -2137,7 +2137,7 @@
 					<lb/>הותרו להנשא אפילו לשאר השבטים וכמו
 					<lb/>שדרשו בגמ׳ לטוב בעיניהם תהיינה
 					<lb/>לנשים אפילו לשאר השבטים. ומה שהשיב
-					<lb/>להם ה<name type="misc">שי"ת</name> כן מטה בני יוסף דברים זהו
+					<lb/>להם ה<name type="misc">שי"ת</name> כן מטה בני <persName>יוסף</persName> דברים זהו
 					<lb/>רק לענין עיקר בקשתם שלא תסוב נחלה
 					<lb/>ממטה למטה. בזה כנים דברים. אבל
 					<lb/>בבנות צלפחד בלאו הכי אין חשש מחמת
@@ -2165,28 +2165,28 @@
 					<lb/>הי' מוחרות להנשא אפילו לשאר השבטים
 					<lb/>רק בדרך עצה טובה השיאן שינשאו למטה
 					<lb/>אביהם כנ"ל. ובזה מתורץ ג״כ מה ששינה
-					<lb/>הכתוב כאן בלשונו כאשר צוה ה׳ את <persName>משה</persName>
-					<lb/>וכן עשו בנות ללפחד ותהיינה וגו׳ והיה נ"ל
-					<lb/>ותעשינה בנות <persName>צלפחד</persName> כאשר צוה וגו׳.
+					<lb/>הכתוב כאן בלשונו כאשר צוה ה<persName>׳</persName> את <persName>משה</persName>
+					<lb/>וכן עשו בנות ל<persName>לפחד</persName> ותהיינה וגו׳ והיה נ"ל
+					<lb/>ותעשינה בנות צלפחד כאשר צוה וגו׳.
 					<lb/>ולפי מה שפירשנו בגמ׳ ניחא שאם הי'
 					<lb/>כתוב ותעשינה בנות <placeName>צלפתד</placeName> כאשר צוה <name type="misc">ה'</name>
-					<lb/>וגו' הי' משמע שה<name type="misc">שי"ת</name> אשר להן שלא
+					<lb/>וגו' הי' משמע שהשי"ת אשר להן שלא
 					<lb/>ינשאו רק למטה אביהם ובאמת אינו כן
 					<lb/>כנ"ל. לכן שינה הכתוב בלשונו לכתוב
-					<lb/>כאשר צוה את משה כן עשו בנות <persName>צלפחד</persName>.
+					<lb/>כאשר צוה את <persName>משה</persName> כן עשו בנות <persName>צלפחד</persName>.
 					<lb/>להורות שלא היה להן צווי מה<name type="misc">שי"ת</name> בדוקא
 					<lb/>שלא ינשאו רק למשפחת מטה אביהם רק
 					<lb/>בדרך עלה טובה ומה שאמר הכ׳ כאשר
 					<lb/>צוה וגו׳ זה לא קאי רק על עיקר הדין
 					<lb/>שצוה שלא תסוב נתלה ממטה למטה אחר
-					<lb/>שזה הי׳ עיקר הצווי מהשי"ת ועי״ז ממילא
-					<lb/>הוא עצה טובה לבנות צלפחד שלא ינשאו
+					<lb/>שזה הי׳ עיקר הצווי מה<name type="misc">שי"ת</name> ועי״ז ממילא
+					<lb/>הוא עצה טובה לבנות <persName>צלפחד</persName> שלא ינשאו
 					<lb/>רק למשפחת מטה אביהם כדי שיוכל
 					<lb/>לעשות להן נס כנ"ל. וע״ז אמר הכתוב
 					<lb/>כן עשו בנות צלפתך ותהיינה לבני דדיהן
 					<lb/>לנשים ודו"ק. (ס׳ עטרה לראש צדיק שם
 					<lb/>מהה״ק ר׳ <persName>יעקב צבי זצללה"ה</persName> <persName>אבד״ק
-					<lb/>פ</persName>ארסוב) :
+					<lb/>פארסוב</persName>) :
 				</p>
 				<p>
 					<lb/>איכה
@@ -2199,7 +2199,7 @@
 					<lb/>בבלי
 				</p>
 				<p>
-					<pb facs="Tiferet-Hayyim_0025.jpg" /><lb/>26
+					<pb facs="Tiferet-Hayyim_0025.jpg"/><lb/>26
 				</p>
 				<p>
 					<lb/>תפארת
@@ -2211,8 +2211,8 @@
 					<lb/>בבלי. אמר מורי זצללה"ה שראה ה<name type="misc">שי"ת</name>
 					<lb/>שבכל דור ודור נתמעט המוח ואור השכל
 					<lb/>ונתן לנו ה<name type="misc">ש"י</name> עצה שנעסוק ונלמוד בתלמוד
-					<name type="work"><lb/>בבלי</name> בבעלי <name type="work">תוספות</name> הקדושים והרא״ש
-					<lb/>הקדוש עי״ז נצא מהחשכות וה<name type="work">תורה</name> יאיר
+					<name type="work"><lb/>בבלי</name> בבעלי <name type="work">תוספות</name> הקדושים ו<orgName>הרא</orgName>״ש
+					<lb/>הקדוש עי״ז נצא מהחשכות והתורה יאיר
 					<lb/>לנו *) (ס׳ דברי <name type="work">תורה</name>) :
 				</p>
 				<p>
@@ -2224,7 +2224,7 @@
 					<lb/>והעלבונות והחרופים והגדופים והיא
 					<lb/>מעולה יותר מכל מלקיות וסיגופי תעניות
 					<lb/>שבעולם כי אם יסגף עצמו לבד יחוש
-					<lb/>ויבטל מדברי תורה למאן דלא אפשר לי'
+					<lb/>ויבטל מדברי <name type="work">תורה</name> למאן דלא אפשר לי'
 					<lb/>ונקרא חוטא וכן במלקיות והיוצא. אמנם
 					<lb/>במדה זו תאכל ותשתה ותעבוד והעונות
 					<lb/>מתכפרים ומבינתך חדל כי הגע עצמך
@@ -2248,8 +2248,8 @@
 					<lb/>ישבע בחרפה כמדובר ובזה אל יזניחך
 					<name type="misc"><lb/>אלהים</name> לעולם וזהו כי לא יזנח לעולם <name type="misc">ה'</name>.
 					<lb/>(ס׳ קול בוכים מרבינו הק׳ ר׳ <persName>אברהם
-					<lb/>ג</persName>לאנטי זצללה"ה תלמידו של רבינו הקדוש
-					<lb/>אור עולם המ״ק ו<persName>צללה"ה</persName> וי״ע) מצוה
+					<lb/>גלאנטי</persName> זצללה"ה תלמידו של רבינו הקדוש
+					<persName><lb/>אור</persName> עולם המ״ק ו<persName>צללה"ה</persName> ו<persName>י</persName>״ע) מצוה
 					<lb/>ללמוד זאת בכל יום :
 				</p>
 				<p>
@@ -2259,17 +2259,17 @@
 					<lb/>ואשמעם את דברי אשר ילמדון ליראה
 					<lb/>אותי וגו'. הנה כל
 					<lb/>איש ישראלי צריך לראות שיהיו כל דיבוריו
-					<lb/>ב<name type="work">תורה</name> ותפלה <sic correction="ברוח">ברות</sic> נשברה כי אם אינו
+					<lb/>בתורה ותפלה <sic correction="ברוח">ברות</sic> נשברה כי אם אינו
 					<lb/>בבחי׳ זו אינם נחשבים לכלום ובאמת איך
 					<lb/>לא יהא האדם בגודל הבושה בהתבונן כי
-					<lb/>כל אות ואות מהתורה ותפלה הוא שמותיו
+					<lb/>כל אות ואות מה<name type="work">תורה</name> ותפלה הוא שמותיו
 					<lb/>של ה<name type="misc">קב"ה</name> ואיך אדם השפל הקרוץ מחומר
 					<lb/>דבר דברים קדושים האלה וכמו שאמר
-					<persName><lb/>אאמו״</persName>ר זצללה"ה בענין <name type="work">תורה</name> לשמה כי
+					<persName><lb/>אאמו״</persName>ר זצללה"ה בענין תורה לשמה כי
 					<lb/>ודאי לא כאו"א זוכה לבא לבחי׳ <name type="work">תורה</name>
 					<lb/>לשמה ואך עכ״פ צריך כאו״א קודם
 					<lb/>שיתחיל ללמוד לידע ולהתבונן בגודל מעלת
-					<lb/>התורה איך שכל <sic correction="אות">אית</sic> ואות הוא שמותיו
+					<lb/>ה<name type="work">תורה</name> איך שכל <sic correction="אות">אית</sic> ואות הוא שמותיו
 					<lb/>של ה<name type="misc">קב"ה</name> והיא נעלמה מכל מלאכי מעלה
 					<lb/>יחשוב בגודל שפלות עצמו וכלא נחשב
 					<lb/>הוא לפתוח פיו בדברים קדושים כאלה רק
@@ -2283,7 +2283,7 @@
 					<lb/>אליו
 				</p>
 				<p>
-					<lb/>*) עי׳ כתיב מצותיך שביל אמונה שביל ה׳ שכ׳ וז"ל ילמוד חמשה דפין עם רא״ש
+					<lb/>*) עי׳ כתיב מצותיך שביל אמונה שביל ה׳ שכ׳ וז"ל ילמוד חמשה דפין עם <persName>רא</persName>״<persName>ש</persName>
 					<lb/>כאשר צוה רבינו <persName>אלימלך</persName> ואמר ששני דפין <name type="work">גמרא</name> עם <persName>רא״ש</persName> מועיל יותר מן התענית
 					<lb/>עכ״ל. ושם בשביל ה<name type="work">תורה</name> שביל א׳ וז"ל וראוי לקבוע עצמו ללמוד חמש דפין ב<name type="work">זוהר</name> בכל
 					<lb/>יום והוא תועלת גדול ותיקון גדול לנפש להאירה ולזככה ולתקנה ולכלות קוצים מדות
@@ -2295,7 +2295,7 @@
 					<lb/>ובר״ח
 				</p>
 				<p>
-					<pb facs="Tiferet-Hayyim_0026.jpg" /><lb/>28
+					<pb facs="Tiferet-Hayyim_0026.jpg"/><lb/>28
 				</p>
 				<p>
 					<lb/>תפארת
@@ -2304,16 +2304,16 @@
 					<name type="work"><lb/>פרשת</name> ואתחנן
 				</p>
 				<p>
-					<lb/>אליו בחי׳ ירא<name type="misc">ה</name> *) (אמרי <persName>אלימלך</persName> במדבר) :
+					<lb/>אליו בחי׳ יראה *) (אמרי <persName>אלימלך</persName> במדבר) :
 					<lb/>ובקשתם משם את ה׳ א׳ ומצאת וגו׳.
 					<lb/>שמעתי מאאמו״ר זצללה"ה
 					<lb/>בשם מרן רבינו הקדוש מ<orgName>הרד״ב</orgName> זצללה"ה
 					<lb/>שצריך אדם לצעוק ולקרות ל<orgName>הקב״ה</orgName> אב
 					<lb/>עד שנעשה אב (דברי <persName>אלימלך</persName> ל<persName>הושענא
-			</persName>		<lb/>רבא) :
+					<lb/>רבא</persName>) :
 				</p>
 				<p>
-					<lb/>וידעת היום והשבת אל לבבך כי ה׳ הוא
+					<lb/>וידעת היום והשבת אל לבבך כי <name type="misc">ה</name>׳ הוא
 					<lb/>הא׳ בשמים ממעל וגו׳. מורי
 					<lb/>ז״ל אמר עיקר שיחשוב אדם שיהא מה
 					<lb/>שיהא אפ״ה נשאר עוד מקושר בהבורא
@@ -2321,9 +2321,9 @@
 				<p>
 					<lb/>כמ״ש וידעת היום וגו׳ עי״ז מקשר כל
 					<lb/>העולמות בה׳ וידע כי אף שפגם אפ״ה כיון
-					<lb/>שחי אח״כ רצון הש״י הוא שיחיה ויעבוד
+					<lb/>שחי אח״כ רצון הש״<orgName>י</orgName> הוא שיחיה ויעבוד
 					<lb/>אותו א״כ צריך לעבוד בשמחה כרצון ה<name type="misc">ש"י</name>
-					<lb/>ויכלול עצמו עם כל ישראל. עוד אמר
+					<lb/>ויכלול עצמו עם כל <placeName>ישראל</placeName>. עוד אמר
 					<lb/>להשליך על ה׳ יהבו אע"פ שרואה שעבודתו
 					<lb/>הוא למשא אצל ה<name type="misc">ש"י</name> אפ"ה ישליך את
 					<lb/>עצמו על ה׳. עוד שם מורי ז"ל אמר
@@ -2340,7 +2340,7 @@
 					<lb/>הא קודם התרטה והתשובה אין תורתו רצויה ומקובלת כאומרו (<name type="work">תהלים</name> נ) ולרשע
 					<lb/>אמר <name type="misc">אלהים</name> מה לך לספר חוקי וכן כל אשר בו מום לא יקרב ואם זה בצואת עונותיו
 					<lb/>מסריח היאך יתקרב לפני המלך אדרבה המלך יחרחק. ולזה כיון החסיד ר׳ <persName>יהודה בר
-					</persName><lb/>אילעי ע״ה [בברכות די״ז הובא זאת בשם ר״י] באומרו אשרי מי שעמלו בתורה ועושה
+					<lb/>אילעי</persName> ע״ה [בברכות די״ז הובא זאת בשם ר״<persName>י</persName>] באומרו אשרי מי שעמלו בתורה ועושה
 					<lb/>נחת רוח ליוצרו פי׳ שהעוסק בה נקי מחטא ועון שאז המלך משתעשע בו ובתורתו וזו
 					<lb/>היתה מעלת הראשונים שהיתה תורתם רצויה כ״כ שהיו פטורים אפילו מן התפלה מפני
 					<lb/>שהיתה החורה שלהם נקיה אבל מי שהוא מלא מסרחון צואת עונותיו אין תורתו נחת
@@ -2350,7 +2350,7 @@
 					<lb/>האדם מלוכלך בכתמי עונותיו אין התורה שורה בו כי אין בו כסא לשרות לא התורה
 					<lb/>ולא השכינה כי כל חטא יהיה קוץ מהאיב וסלון ממאיר ליושב על הכסא ולכן קודם
 					<lb/>צריך שירחץ צואת עונותיו בתשובה כראוי ואח״כ יעסוק בתורה ויקח דמיון מהדין הנפסק
-					<lb/>ב<name type="work">גמרא</name> ובפוסקים כי במקום שיש ריח רע אסור לעסוק שם ב<name type="work">תורה</name> ובתפל<name type="misc">ה</name> וצריך
+					<lb/>ב<name type="work">גמרא</name> ובפוסקים כי במקום שיש ריח רע אסור לעסוק שם בתורה ובתפלה וצריך
 					<lb/>להרחיק ארבע אמות ממקום שכלה הריח כן הדבר לעסוק בתורה וטומאת צואת עונותיו
 					<lb/>עליו כי כל הקדושים העליונים מתרחקים עכ״ל :
 				</p>
@@ -2366,14 +2366,14 @@
 				</p>
 				<p>
 					<lb/>ובס׳ אור הגנוז לצדיקים פ׳ משפטים וז״ל וכשעוסק בתורה אע״פ שנפטר בברכת
-					<lb/>התורה שבירך בבוקר כו׳ אעפ״כ כדי שיזכור בדביקות הש״י יאמר בכל פעם
+					<lb/>ה<name type="work">תורה</name> שבירך בבוקר כו׳ אעפ״כ כדי שיזכור בדביקות הש״י יאמר בכל פעם
 					<lb/>ליקבה״ו בריך רחמנא מלכא דעלמא מארי דהאי אורייתא ואפילו כשהולך בלי עסק
 				</p>
 				<p>
 					<lb/>תורה
 				</p>
 				<p>
-					<pb facs="Tiferet-Hayyim_0027.jpg" /><lb/>28
+					<pb facs="Tiferet-Hayyim_0027.jpg"/><lb/>28
 				</p>
 				<p>
 					<lb/>תפארת
@@ -2382,7 +2382,7 @@
 					<lb/>ת ואתחנן
 				</p>
 				<p>
-					<lb/>ואהבת את ה׳ אלהיך בכל לבבך ובכל
+					<lb/>ואהבת את <name type="misc">ה</name>׳ אלהיך בכל לבבך ובכל
 					<lb/>נפשך ועי׳ ברכות (דס״א ע״ב)
 					<lb/>בר״ע שהי׳ <persName>סורקין</persName> בשרו והי׳ מקבל עליו
 					<lb/>עול מ״ש באהבה אמרו לו תלמידיו רבינו
@@ -2446,7 +2446,7 @@
 					<lb/>והמשכיל יבין עכ"ל :
 				</p>
 				<p>
-					<lb/>ובס׳ <name type="work">דברי</name> <name type="work">תורה</name> וז"ל כתב יד מהה״ק ממעזבוז ה<name type="work">תורה</name> הזהירה לזכור במעמד <placeName>הר סיני</placeName>
+					<lb/>ובס׳ <name type="work">דברי</name> <name type="work">תורה</name> וז"ל כתב יד מהה״ק ממעזבוז התורה הזהירה לזכור במעמד <placeName>הר סיני</placeName>
 					<lb/>ולהיות דומה בעיניו כאילו עומד ב<placeName>הר סיני</placeName> לקבל ה<name type="work">תורה</name> מפי הגבורה אז בא
 					<lb/>לידי אימה ויראה כמי שנתנה ברתת דכתיב ויחרד כל העם אשר במחנה וצריך שיהא
 					<lb/>לאדם חרדה בכל האברים הנקראים מחנה עכ״ל :
@@ -2455,16 +2455,16 @@
 					<lb/>שם וז״ל שמעתי שטוב לזכור בעת הלימוד ועשיית המצות התפלה של ר״ה אתה נגלית
 					<lb/>בענן כבודך על עם קדשך לדבר עמם מן השמים השמעתם קולך ונגלית עליהם
 					<lb/>בערפלי טוהר גם כל העולם כולו חל מפניך ובריות בראשית חרדו ממך בהגלותך
-					<lb/>מלכנו על <placeName>הר סיני</placeName> ללמד לעמך תורה ומצות ותשמיעם את הוד קולך ודברות קדשך
+					<lb/>מלכנו על <placeName>הר סיני</placeName> ללמד לעמך <name type="work">תורה</name> ומצות ותשמיעם את הוד קולך ודברות קדשך
 					<lb/>מלהבות אש בקולות וברקים עליהם נגלית ובקול שופר עליהם הופעת ככתוב בתורתך
 					<lb/>ויהי ביום השלישי בהיות הבקר ויהי קולות וברקים וענן כבד על ההר וקול שופר
-					<lb/>חזק מאד <persName>משה</persName> ידבר והאלהים יעננו בקול וכל העם רואים את הקולות ואת הלפידיו
+					<lb/>חזק מאד משה ידבר והאלהים יעננו בקול וכל העם רואים את הקולות ואת הלפידיו
 					<lb/>ואת קול השופר ואת ההר עשן וירא העם וינועו ויעמדו מרחוק עכ״ל. ונכון לומר בשעת
 					<lb/>לימוד הפסוק כי <name type="misc">ה׳</name> יתן חכמה מפיו דעת ותבונה והפסוק גל עיני ואביטה נפלאות
 					<lb/>מתורתך והפסוק דרך שקר הסר ממני ותורתך חנני :
 				</p>
 				<p>
-					<pb facs="Tiferet-Hayyim_0028.jpg" /><lb/>28
+					<pb facs="Tiferet-Hayyim_0028.jpg"/><lb/>28
 				</p>
 				<p>
 					<lb/>תפארת
@@ -2521,10 +2521,10 @@
 					<lb/>בתורתך] :
 				</p>
 				<p>
-					<lb/>ועתה ישראל וגו׳ כי אם ליראה וגו'.
+					<lb/>ועתה <placeName>ישראל</placeName> וגו׳ כי אם ליראה וגו'.
 					<lb/>בברכות דף ל״ג ע״ב אטו
 					<lb/>יראת שמים מילתא זוטרתא היא כו׳ אין
-					<lb/>לגבי משה מילתא זוטרתא היא [פי'
+					<lb/>לגבי <persName>משה</persName> מילתא זוטרתא היא [פי'
 					<lb/>המפרשים וספרי קודש ידוע] שמעתי
 					<lb/>מאאמו״ר ז״ל שאמר ברוב ענותנותו כאשר
 					<lb/>אני מסתכל ב<name type="work">התורה</name> מוצא אנכי עצמי
@@ -2560,7 +2560,7 @@
 					<lb/>ה׳ מפני שהוא מבורך ולא לצד להשלים רעבונו או בשביל הנאות אחרות והבן :
 				</p>
 				<p>
-					<pb facs="Tiferet-Hayyim_0029.jpg" /><lb/>30
+					<pb facs="Tiferet-Hayyim_0029.jpg"/><lb/>30
 				</p>
 				<p>
 					<lb/>תפארת
@@ -2594,10 +2594,10 @@
 					<lb/>מאאמו״ר ז״ל כי בדור הזה עיקר
 					<lb/>העבודה הוא רוח נשברה ויובן הדבר
 					<lb/>עפ״י המבואר ב<name type="work">זוה״ק</name> ו<name type="work">יקרא</name>. אבל הא
-					<lb/>כתיב זבחי <name type="misc">אלהים</name> רוח נשבר<name type="misc">ה</name> זבחי
-					<name type="misc"><lb/>אלהים</name> כתיב ולא זבחי ה׳ ודאי הכי הוא
+					<lb/>כתיב זבחי <name type="misc">אלהים</name> רוח נשברה זבחי
+					<lb/>אלהים כתיב ולא זבחי <name type="misc">ה</name>׳ ודאי הכי הוא
 					<lb/>קרבן <name type="misc">אלהים</name> לא כתיב אלא זבחי אלהים
-					<lb/>דהא זביחא דא בגין אלהים ההוא סטר
+					<lb/>דהא זביחא דא בגין <name type="misc">אלהים</name> ההוא סטר
 					<lb/>גבורה דיתבסם ויתבר רוחא דדינא לתברא
 					<lb/>חילא דדינא קשיא למיהוי ההוא רוחא
 					<lb/>תקיפא נשברה עכ״ל. לכן בדור הזה
@@ -2605,7 +2605,7 @@
 					<lb/>ז"ל צריך להיות עיקר העבודה ברוח
 					<lb/>נשברה למיהוי ההוא רוחא תקיפא נשברה
 					<lb/>והנה ע״י שפלות ורוח נשברה גורם ג״כ
-					<lb/>השראת השכינה בין ישראל כמ״ש אשכון
+					<lb/>השראת השכינה בין <placeName>ישראל</placeName> כמ״ש אשכון
 					<lb/>את דכא :
 				</p>
 				<p>
@@ -2625,11 +2625,11 @@
 				</p>
 				<p>
 					<lb/>למען יברכך <name type="misc">ה׳</name> א׳ בכל מעשי
-					<lb/>אשר תעש<name type="misc">ה</name>. מורי
+					<lb/>אשר תעשה. מורי
 					<lb/>ז״ל אמר אם אדם סומך מאד על הסיבה
 					<lb/>שעוסק בה אזי היה עושה מסך המבדיל
 					<lb/>לפני השפעה רק שצריך לסמוך על חסדי
-					<lb/>ה׳ לבד (ס׳ דברי <name type="work">תורה</name>) :
+					<name type="misc"><lb/>ה</name>׳ לבד (ס׳ דברי <name type="work">תורה</name>) :
 				</p>
 				</div><div type="story" xml:id="Tiferet-Hayyim_0013" n="13"><head type="storyHead">Tiferet-Hayyim_0013</head>
 <p>
@@ -2655,7 +2655,7 @@
 					<lb/>גבול הארצות תשלש ותעלה אל שלשה
 					<lb/>העולמות דלעילא הנ"ל ומה מאד נמרצו
 					<lb/>דברי יושר עפי״ז דברי כבוד גיסי כו׳
-					<lb/>הרב מוה׳ <persName>אביעזרי זעליג נ</persName>״י [הוא אבי
+					<lb/>הרב מוה<persName>׳</persName> <persName>אביעזרי זעליג נ</persName>״י [הוא אבי
 					<lb/>הה״ק ממאגלניצע] שפירש ושלשח לשון
 					<lb/>שלשלת ור"ל שחקשור עוה״ז כמו עם
 					<lb/>שלשלת בעולם העליון על המדות הג״ת
@@ -2673,7 +2673,7 @@
 					<lb/>מורי
 				</p>
 				<p>
-					<pb facs="Tiferet-Hayyim_0030.jpg" /><lb/>3
+					<pb facs="Tiferet-Hayyim_0030.jpg"/><lb/>3
 				</p>
 				<p>
 					<lb/>תפארת
@@ -2691,9 +2691,9 @@
 					<lb/>המרירות כמו האדם שהיה תמיד בהיכל
 					<lb/>המלך ויגרשהו משם כן צריך להרגיש
 					<lb/>תמיד גודל המרירות מהחטאים ושיראה
-					<lb/>תמיד איך שהוא רחוק מ<placeName>הש"י</placeName>. ומכל דברים
+					<lb/>תמיד איך שהוא רחוק מה<placeName>ש"י</placeName>. ומכל דברים
 					<lb/>רעים ומרים אינו בנמצא רע ומר כ״כ
-					<lb/>כמו מי שנתרחק מהש"י וצריך שידע כל
+					<lb/>כמו מי שנתרחק מ<placeName>הש"י</placeName> וצריך שידע כל
 					<lb/>הפגמים וגודל רעת עבירות ושהוא רע
 					<lb/>ומר למי שחוטא ותשובה זו אין לה סוף
 					<lb/>כי בכל פעם מרגיש יותר הרעות מן
@@ -2745,8 +2745,8 @@
 					<lb/>מורי ז"ל אמר אם האדם
 					<lb/>אינו חושב א"ע לדבר נפרד ויש בפני
 					<lb/>עצמו רק שהוא חלק אלוה ומטמין א"ע
-					<lb/>בה<name type="misc">בורא</name> א״כ אין דנים את האדם אלא
-					<lb/>את הבורא כביכול לזה האיש יכול לילך
+					<lb/>בהבורא א״כ אין דנים את האדם אלא
+					<lb/>את ה<name type="misc">בורא</name> כביכול לזה האיש יכול לילך
 					<lb/>הברכה בלי ערך וז"ש יצו <name type="misc">ה'</name> אתך את הברכה
 					<lb/>באסמיך ע״י שהאדם מטמין ומכסה עצמו
 					<lb/>ב<name type="misc">הש</name>״י והעיקר לעבוד באמת ועיקר אמת
@@ -2775,12 +2775,12 @@
 				<p>
 					<lb/>*) ובספר שפתי <name type="work">צדיקים</name> פ׳ תרומה כ׳ וז"ל הורנו חכמי אמת ז"ל שכל מצוה
 					<lb/>ומצוה שאדם עושה יאמר תחלה הפסוק או הפרשה ששייך לאותו מצוה ובזה עושה
-					<lb/>מהמצוה <name type="work">תורה</name> ושוב אין עבירה מכבה אותה דאין עבירה מכבה תורה עד״מ כשמניח
+					<lb/>מהמצוה תורה ושוב אין עבירה מכבה אותה דאין עבירה מכבה <name type="work">תורה</name> עד״מ כשמניח
 					<lb/>תפילין יאמר תחלה הפרשה השייך לתפילין וכן עד״ז בכל התרי״ג מצות עכ"ד ועי׳ בס'
 					<lb/>תולדות <persName>יעקב יוסף</persName> פ׳ נח באריכות :
 				</p>
 				<p>
-					<pb facs="Tiferet-Hayyim_0031.jpg" /><lb/>32
+					<pb facs="Tiferet-Hayyim_0031.jpg"/><lb/>32
 				</p>
 				<p>
 					<lb/>תפארת
@@ -2832,8 +2832,8 @@
 					<lb/>לה׳ אלהיינו שאין מי שיודע בזה רק ה<name type="misc">שי"ת</name>
 					<lb/>אבל הנגלות לנו ולבנינו שצריך ללמוד
 					<lb/>ולעשות מע״ט כדי שאף בנינו ידעו איך
-					<lb/>להתנהג (מצאתי כ׳ בשם הרה״ק ר' מאיר
-					<lb/>יחיאל זצ"ל מ<placeName>מאגליניצא</placeName>).
+					<lb/>להתנהג (מצאתי כ׳ בשם הרה״ק ר' <persName>מאיר
+					<lb/>יחיאל</persName> זצ"ל מ<placeName>מאגליניצא</placeName>).
 				</p>
 				</div><div type="story" xml:id="Tiferet-Hayyim_0015" n="15"><head type="storyHead">Tiferet-Hayyim_0015</head>
 <p>
@@ -2875,7 +2875,7 @@
 					<lb/>הי' מרגיש ורואה באויר העולם עכ״ל :
 				</p>
 				</div><div type="non-story"><p>
-					<lb/>ושבת עד <name type="misc">ה׳</name> אלהיך אמר אאמו״ר ז״ל
+					<lb/>ושבת עד <name type="misc">ה׳</name> אלהיך אמר אאמו<persName>״</persName>ר ז״ל
 					<lb/>בשם אא״ז הה״מ
 					<lb/>מ<placeName>קאזניץ</placeName> ז"ל כי אדם הרוצה לשוב בתשובה
 					<lb/>שלימה לפניו ית׳ צריך מקודם להשליך
@@ -2895,7 +2895,7 @@
 					<lb/>נכון
 				</p>
 				<p>
-					<pb facs="Tiferet-Hayyim_0032.jpg" /><lb/>תפארת
+					<pb facs="Tiferet-Hayyim_0032.jpg"/><lb/>תפארת
 				</p>
 				<p>
 					<name type="work"><lb/>פרשת</name> צבים
@@ -2911,13 +2911,13 @@
 					<lb/>להיות לו לב נשבר ולצעוק תמיד אל
 					<lb/>ה׳ בשבירות לב עי״ז מתקן פנימיותו
 					<lb/>משא״כ בתעניתים מתקן חיצוניותו. (ס׳
-					<lb/>דברי <name type="work">תורה</name>) :
+					<lb/>דברי תורה) :
 				</p>
 				<p>
-					<lb/>עוד שם מורי ז"ל <name type="work">א</name>מר מי שהולך בעצבות
+					<lb/>עוד שם מורי ז"ל אמר מי שהולך בעצבות
 					<lb/>על עונותיו ואינו עושה <sic correction="כלום">כלים</sic> הוא
 					<lb/>שוטה רק שיתחיל לעשות מעש״ט ובשעת
-					<lb/>לימודו יתחרט על עונותיו (ס׳ דברי תורה) :
+					<lb/>לימודו יתחרט על עונותיו (ס׳ דברי <name type="work">תורה</name>) :
 				</p>
 				<p>
 					<lb/>עוד שם מורי ז"ל אמר כשאדם רוצה
@@ -2936,7 +2936,7 @@
 					<lb/>עוד ולא יהא עוד שוב ספק אצלו כלל
 					<lb/>שבודאי לא יחטא עוד אבל אם אינו
 					<lb/>ברור אצלו כ״כ שבודאי לא יחטא אין זה
-					<lb/>תשובה וז"ש ועתה אחז"ל (ב״כ פכ״א סי׳
+					<lb/>תשובה וז"ש ועתה אחז"ל (ב״כ פכ״<name type="work">א</name> סי׳
 					<lb/>ו') עתה הוא תשובה וזה פירושו אם אדם
 					<lb/>עושה תשובה ואין ברור לו שבודאי לא
 					<lb/>יכשל עוד וז״ש (<persName>יתרו</persName>) ועתה אם שמוע
@@ -2947,9 +2947,9 @@
 					<lb/>לשבת תשובה
 				</p>
 				<p>
-					<lb/>ב<name type="work">הפטרה</name> <sic correction="שובה">שיבה</sic> ישראל עד <name type="misc">ה׳ אלהיך</name>
+					<lb/>ב<name type="work">הפטרה</name> <sic correction="שובה">שיבה</sic> <name type="work">ישראל</name> עד <name type="misc">ה׳ אלהיך</name>
 					<lb/>כי כשלת בעוניך. בשם
-					<lb/>אאמו״ר זצ"ל כי אא"ז הה״מ מ<persName>קאזניץ</persName>
+					<lb/>אאמו<persName>״ר</persName> זצ"ל כי אא"ז הה״מ מ<persName>קאזניץ</persName>
 					<lb/>זצ״ל פי׳ ע״פ המבואר ב<name type="work">רמב״ם</name> הלכות
 				</p>
 				<p>
@@ -2957,10 +2957,10 @@
 					<lb/>על שעבר ויעיד עליו יודע תעלומות שלא
 					<lb/><sic correction="ישוב">ישיב</sic> לזה החטא מעולם ע״ש. וזהו שובה
 					<placeName><lb/>ישראל</placeName> עד <name type="misc">ה׳ אלהיך</name> עד הוא לשון עדות
-					<lb/>והיינו <name type="misc">שה׳</name> אל<name type="misc">ה</name>יך יעיד עליך שלא תשוב
+					<lb/>והיינו <name type="misc">שה׳</name> אלהיך יעיד עליך שלא תשוב
 					<lb/>לכסלה ואאמו״ר אמר כי כתיב אתה
-					<lb/>הראת לדעת כי ה׳ הוא ה<name type="misc">אלהים</name> אין עוד
-					<lb/>מלבדו. כי ישראל המה בבחי׳ ראי׳ שראו
+					<lb/>הראת לדעת כי <name type="misc">ה</name>׳ הוא ה<name type="misc">אלהים</name> אין עוד
+					<lb/>מלבדו. כי <placeName>ישראל</placeName> המה בבחי׳ ראי׳ שראו
 					<lb/>והשיגו כי אין עוד מלבדו. ולכן אך אנו
 					<lb/>בנ״י יכולים להעיד על אחדותו ית"ש :
 					<lb/>ולפיכך ע׳ שבשמע וד׳ שבאחד אותיות
@@ -2975,8 +2975,8 @@
 					<lb/>כח זה להעיד על <sic correction="יחודו">יתודו</sic> ית׳. לכן צריך
 					<lb/>לשוב על עונותיו ועל בחי׳ פגם האמונה
 					<lb/>עד שיהא לו שוב כח זה להעיד על יחודו
-					<lb/>ית׳. וזהו שובה ישראל שחשוב על עונותיך
-					<lb/>עד <name type="misc">ה׳</name> אלהיך עד הוא עדות כנ"ל. עד
+					<lb/>ית׳. וזהו שובה <placeName>ישראל</placeName> שחשוב על עונותיך
+					<lb/>עד ה׳ אלהיך עד הוא עדות כנ"ל. עד
 					<lb/>שתוכל שוב להעיד על <name type="misc">ה׳</name> אלהיך על יחודו
 					<lb/>ואחדותו ית״ש בעולם. כי כשלת בעוניך.
 					<lb/>כי ע״י עוניך נכשלת ג״כ בהאמונה. לכן
@@ -2994,12 +2994,12 @@
 					<lb/>דברים היינו קחו הדבורים אשר עמכם
 					<lb/>מה שאתם בעצמיכם היו מדברים באם
 					<lb/>תראו דבר זה אצל איש אחר ועי"ז ושובו
-					<lb/>אל ה׳ ותחדלו מעשות דבר זה אמרו אליו
+					<lb/>אל <name type="misc">ה׳</name> ותחדלו מעשות דבר זה אמרו אליו
 					<lb/>כל תשא עון וקת טוב ע"ד זדונות נעשו
 					<lb/>כזכיות ונשלמה פרים שפתינו כי מטבע
 				</p>
 				<p>
-					<pb facs="Tiferet-Hayyim_0033.jpg" /><lb/>תפארת
+					<pb facs="Tiferet-Hayyim_0033.jpg"/><lb/>תפארת
 				</p>
 				<p>
 					<lb/>8
@@ -3028,7 +3028,7 @@
 					<lb/>ודפח״ח) (ס׳ <name type="work">אמרי אלימלך</name> לשבת תשובה ):
 				</p>
 				<p>
-					<lb/>שובה ישראל וגו׳ ולא נאמר עוד אלהיינו
+					<lb/>שובה <placeName>ישראל</placeName> וגו׳ ולא נאמר עוד אלהיינו
 					<lb/>למעשה ידינו דהנה האדם
 					<lb/>הולך לעשות איזה עסק או מסחר ואומר
 					<lb/>ש<name type="misc">הקב״ה</name> ג״כ יעזור לי מזה נראה שעושה
@@ -3041,24 +3041,24 @@
 					<lb/>לעסק או למסחר או לכל ענינים נותן
 					<lb/>ה<name type="misc">שי"ת</name> בלבו לעשות או שלא לעשות לילך
 					<lb/>או שלא לילך וז״פ ולא נאמר עוד אלהינו
-					<lb/>למעשה ידינו רצ״ל שה<name type="misc">שי"ת</name> ג״כ יעזור לנו
+					<lb/>למעשה ידינו רצ״ל שהשי"ת ג״כ יעזור לנו
 					<lb/>אל מעשה ידינו כי נראה שאדם עושה
 					<lb/>ח״ו מעשה ידיו לעיקר רק אנו יודעים
 					<lb/>שהכל מאתו יתב״ש בהשגחה פרטית :
-					<lb/>(ס׳ אמת ל<persName>יעקב</persName> פ׳ האזינו מבנו הה״ק
+					<lb/>(ס׳ אמת ל<persName>יעקב</persName> פ׳ האזינו מבנו הה״<persName>ק</persName>
 					<lb/>מ<persName>בלענדוב</persName> בשם אביו הה״ק אדמו״ר
 					<lb/>זצללה"ה מ<persName>מאגליניצא</persName>) :
 				</p>
 				<p>
 					<lb/>יעזוב רשע דרכו ואיש און מחשבותיו
-					<lb/>וישוב אל <name type="misc">ה׳</name> וירחמהו
+					<lb/>וישוב אל <persName>ה</persName>׳ וירחמהו
 					<lb/>ואל אלהיינו כי ירבה ל<persName>סלות</persName>. יבואר דהנה
 					<lb/>ה<name type="misc">שי"ת</name> מבקש מאתנו שנעזוב את דרכינו
 					<lb/>הרע ויהא מזה אשר איש און הוא השטן
 					<lb/>הוא היצה"ר במחשבותיו ישוב בעצמו אל
-					<lb/>ה׳ להמליץ טוב בעדנו וזהו וירחמהו כדי
+					<name type="misc"><lb/>ה׳</name> להמליץ טוב בעדנו וזהו וירחמהו כדי
 					<lb/>שה<name type="misc">שי"ת</name> ירחם עלינו ואל אלהינו רצ"ל
-					<lb/>שהשי"ת חפץ בזה מאד ושמחה לפניו בעת
+					<lb/>שה<name type="misc">שי"ת</name> חפץ בזה מאד ושמחה לפניו בעת
 					<lb/>שאנחנו עושים תשובה שלימה לפניו כי
 					<lb/>הוא המרבה לסלוח (שם בדרוש ליו״כ) *) :
 				</p>
@@ -3088,7 +3088,7 @@
 					<lb/>מפאת
 				</p>
 				<p>
-					<pb facs="Tiferet-Hayyim_0034.jpg" /><lb/>81
+					<pb facs="Tiferet-Hayyim_0034.jpg"/><lb/>81
 				</p>
 				<p>
 					<lb/>תפארת
@@ -3136,11 +3136,11 @@
 					<lb/>כי החולה השוכב על מטתו הרעיש כל העולמות :
 				</p>
 				</div><div type="non-story"><p>
-					<lb/>*) ובס׳ <name type="work">עירין קדישין</name> ב<placeName>לקוטים</placeName> (מרבינו הק׳ ר״י מ<persName>רוזין זצוקללה"ה זי״ע</persName>) וז״ל
-					<lb/>כי מי שיודע בעניני <placeName>גלגו</placeName>לים לא קשה כלל כי מה שאנו רואים שיש אנשים טובים
+					<lb/>*) וב<name type="work">ס</name>׳ <name type="work">עירין קדישין</name> ב<placeName>לקוטים</placeName> (מרבינו הק<persName>׳</persName> ר<persName>״י</persName> מ<persName>רוזין זצוקללה"ה זי״ע</persName>) וז״ל
+					<lb/>כי מי שיודע בעניני גלגולים לא קשה כלל כי מה שאנו רואים שיש אנשים טובים
 					<lb/>ועשרים ומצטערים בעולם זה הוא מפני ענין הגלגולי׳ כי אפשר לא הי׳ טוב בגלגול
 					<lb/>ראשון ע״כ בא לעולם כדי לקבל גמולו בזה העולם וזהו מחסד ה<name type="misc">שי"ת</name>. ומה שאנו
-					<lb/>רואים שטוב לרשעים מפני שבגלגו' ראשון הי׳ טוב אך שלא לשמה. אע״פ שמתוך
+					<lb/>רואים שטוב לרשעים מפני שב<placeName>גלגו</placeName>' ראשון הי׳ טוב אך שלא לשמה. אע״פ שמתוך
 					<lb/>שלא לשמה בא לשמה הוא עשה כל ימיו שלא לשמה ע״כ בא לזה העולם כדי לקבל
 					<lb/>תשלומין בעוה״ז ואם מיישב עצמו ועושה טוב בזה העושר אזי מוכרח הוא לבוא עוד
 					<lb/>לעולם ויצטער ביסורים עד שבא לשלימתא ואם לאו אזי נאמר משנה פניו ותשלחהו
@@ -3159,7 +3159,7 @@
 				</div><div type="story" xml:id="Tiferet-Hayyim_0018" n="18"><head type="storyHead">Tiferet-Hayyim_0018</head>
 </div><div type="story" xml:id="Tiferet-Hayyim_0019" n="19"><head type="storyHead">Tiferet-Hayyim_0019</head>
 <p>
-					<pb facs="Tiferet-Hayyim_0035.jpg" /><lb/>36
+					<pb facs="Tiferet-Hayyim_0035.jpg"/><lb/>36
 				</p>
 				<p>
 					<lb/>תפארת
@@ -3274,7 +3274,7 @@
 					<lb/>מניח להם מיד לבנות אך הוא כדי וקראו
 				</p>
 				<p>
-					<pb facs="Tiferet-Hayyim_0036.jpg" /><lb/>בלאני
+					<pb facs="Tiferet-Hayyim_0036.jpg"/><lb/>בלאני
 					<lb/>תפארת
 				</p>
 				<p>
@@ -3382,7 +3382,7 @@
 					<lb/>בשמים כל אשר חפץ עשה. שמעתי מחותני
 				</p>
 				<p>
-					<pb facs="Tiferet-Hayyim_0037.jpg" /><lb/>38
+					<pb facs="Tiferet-Hayyim_0037.jpg"/><lb/>38
 				</p>
 				<p>
 					<lb/>תהילים
@@ -3478,7 +3478,7 @@
 					<lb/>יעו״ש מעשה נפלא מענין הזה) :
 				</p>
 				<p>
-					<pb facs="Tiferet-Hayyim_0038.jpg" /><lb/>30
+					<pb facs="Tiferet-Hayyim_0038.jpg"/><lb/>30
 				</p>
 				<p>
 					<lb/>ספר <name type="work">מ״י דעת</name>
@@ -3565,7 +3565,7 @@
 					<lb/>זי״ע ועכ״י :
 				</p>
 				<p>
-					<pb facs="Tiferet-Hayyim_0039.jpg" /><lb/>40
+					<pb facs="Tiferet-Hayyim_0039.jpg"/><lb/>40
 				</p>
 				<p>
 					<lb/>״י
@@ -3629,19 +3629,19 @@
 					<lb/>הנ"ל וד"ל (שם) :
 				</p>
 				<p>
-					<lb/>ד) שמעתי אמרי קודש בשם מר אבי אדמו״ר הה״ק ר׳ <persName>נתן דוד</persName> זצללה"ה זי״ע
+					<lb/>ד) שמעתי אמרי קודש בשם מר אבי אדמו״ר הה״ק ר<persName>׳</persName> <persName>נתן דוד</persName> זצללה"ה זי״ע
 					<lb/>ועכ״י שפירש (<name type="work">תהלים</name> קט״ו) עצביהם כסף וזהב היינו <sic correction="עצבות">ענבות</sic> העכו״ם היא
 					<lb/>תמיד רק עבור להרבות כסף וזהב חבור עצבים אפרים הנח לי (הישע ד') היינו
-					<lb/>כשתחבר ותעיין בעצבות ישראל תראה שעיקר עצבות שלהם תמיד אך הנח לו פירוש
+					<lb/>כשתחבר ותעיין בעצבות <placeName>ישראל</placeName> תראה שעיקר עצבות שלהם תמיד אך הנח לו פירוש
 					<lb/><sic correction="שהונח">שהינח</sic> וידיו רפו מעבודתו יתברך שמו באמת (בהקדמה לס׳ תולדת הדם (ממחו׳ הה״ק
-					<lb/>ר״י מאוסטראווע זצוקללה"ה) מבנו הה״ק וכו׳ ר׳ <persName>יצחק יעקב</persName> שליט״א מביאלא) :
+					<lb/>ר<persName>״י</persName> מאוסטראווע זצוקללה"ה) מבנו הה״ק וכו׳ ר<persName>׳</persName> <persName>יצחק יעקב</persName> שליט״א מביאלא) :
 					<lb/>ה) בשם אדומ״ו הק׳ אי״א מוהר״ר <persName>נתן דוד</persName> זלה"ה משידלאווצי איתא ב<name type="work">גמרא</name> גיטין
-					<lb/>דנ״ו כל המיצר לישראל נעשה ראש אמר שנוכל לפרש מיצר מלשון בין
-					<lb/>הצרים שהיא גבול <sic correction="כי">כי'</sic> מי שיכול לעשות לישראל גבול שלא יוכל שום דבר רע להגיע
+					<lb/>דנ״ו כל המיצר ל<placeName>ישראל</placeName> נעשה ראש אמר שנוכל לפרש מיצר מלשון בין
+					<lb/>הצרים שהיא גבול <sic correction="כי">כי'</sic> מי שיכול לעשות ל<placeName>ישראל</placeName> גבול שלא יוכל שום דבר רע להגיע
 					<lb/>להם זה נעשה ראש (אמרי צדיקים) :
 				</p>
 				<p>
-					<pb facs="Tiferet-Hayyim_0040.jpg" /><lb/>עת
+					<pb facs="Tiferet-Hayyim_0040.jpg"/><lb/>עת
 				</p>
 				<p>
 					<lb/>על זה. אך שכל זה עשה השם יחברך
@@ -3661,7 +3661,7 @@
 					<lb/>מרוצה לפניו. אעפ״כ יבחר האדם לעשות
 					<lb/>המצוה כי מכל מקום מצוה הוא עושה
 					<lb/>כמו שמצינו במצות הצדקה שהתירו לנו
-					<lb/>חז"ל ליתן צדקה אפי׳ שלא לשם שמים.
+					<orgName><lb/>חז"ל</orgName> ליתן צדקה אפי׳ שלא לשם שמים.
 					<lb/>והנה הגם שהאדם עושה מצות הרבה
 					<lb/>חבילות חבילות של מצות כגון צדקה אע״פ
 					<lb/>שהרבה לעשות צדקה אל יחזיק טובה
@@ -3713,7 +3713,7 @@
 					<lb/>כו׳ ומי יכוף לו <sic correction="להאדם">להאד</sic> לסכון עצמו
 					<lb/>בעבירה חמורה בעבור שונאו הרודף אותו
 					<lb/>לא ירדוף אותו ולא יתענש על ידו. והנה
-					<lb/>קרח בידאי שלא היה מאחד הסכלים
+					<persName><lb/>קרח</persName> בידאי שלא היה מאחד הסכלים
 					<lb/>להחזיק במחלוקת ובמדת הכעס בעבור
 					<lb/>הדבר הנוגע לעצמו בלבד ובודאי שכוונתו
 					<lb/>הי' לש"ש אך שטעה בזה והי׳ סבור
@@ -3729,13 +3729,13 @@
 					<lb/>ואיתפליג <persName>קרח</persName> שנפרד מן הקדושה ודו״ק :
 					<lb/>או יאמר ויקח <persName>קרח</persName> דהנה יש כמה בני
 					<lb/>אדם שהתחילו בעבודת ה<name type="misc">שם</name> יתברך
-					<lb/>להתנהג בחסידו<name type="work">׳</name> להתפלל בגודל ההתלהבות
+					<lb/>להתנהג בחסידו׳ להתפלל בגודל ההתלהבות
 				</p>
 				<p>
 					<lb/>וקד כה
 				</p>
 				<p>
-					<pb facs="Tiferet-Hayyim_0041.jpg" /><lb/>42
+					<pb facs="Tiferet-Hayyim_0041.jpg"/><lb/>42
 				</p>
 				<p>
 					<lb/>ועת
@@ -3745,11 +3745,11 @@
 					<lb/>נשכח מהם כל החסידות ונעשו צוננים
 					<lb/>מגודל ההתלהבות וקרין ומקוררין מעבודתו
 					<lb/>ית׳. וכבר <sic correction="דברו">דברי</sic> מזה חכמו המוסר
-					<lb/>שלפנינו [עי׳ בספר הק׳ הרוקח] באמרם
+					<lb/>שלפנינו [עי׳ בספר הק<name type="work">׳</name> הרוקח] באמרם
 					<lb/>אין חסידות כתחילתו ולהבין זאת לשורשו
 					<lb/>של דבר מהיכן ימצא כזה הסיבה לזה
 					<lb/>הוא דהאדם מתחילתו צריך לידע כשלבו
-					<persName><lb/>נדב</persName>ו להיות מעובדי ה<name type="misc">שם</name> ידע בקרבו
+					<lb/>נדבו להיות מעובדי ה<name type="misc">שם</name> ידע בקרבו
 					<lb/>נאמנה שיש לפניו מלחמה גדולה מלחמת
 					<lb/>היצר המאמר חז"ל יצרו של אדם מתגבר
 					<lb/>עליו בכל יום וצריך להתגבר בכל עוז כחו
@@ -3813,7 +3813,7 @@
 					<lb/>אם לכוון בהם כוונה הראויה לשמו ית׳ :
 					<lb/>לעשות נחת רוח ליוצרו. ואז יתלהב לבו
 					<lb/>בקרבו בגשתו לעבוד ולהתפלל לפניו ית׳.
-					<lb/>ולא יבלבלו מח<date>שבת</date>ו קודש שום ענין
+					<lb/>ולא יבלבלו מחשבתו קודש שום ענין
 					<lb/>מעניני העולם הזה ולא יפול לו שום
 					<lb/>מחשבה זרה בתפלתו כי כל המחשבות
 					<lb/>זרות הם באים לו לאדם מחמת שאינו
@@ -3836,15 +3836,15 @@
 					<lb/>שיזכר
 				</p>
 				<p>
-					<pb facs="Tiferet-Hayyim_0042.jpg" /><lb/>דעת
+					<pb facs="Tiferet-Hayyim_0042.jpg"/><lb/>דעת
 				</p>
 				<p>
 					<lb/>שיזכר שמו על הדבר והלא בכל ה<name type="work">תורה</name>
-					<lb/>כולה נאמר בני ישראל ומצינו בכמה
+					<lb/>כולה נאמר בני <placeName>ישראל</placeName> ומצינו בכמה
 					<lb/>מקומות שהגם שישראל חוטאים ואינם
 					<lb/>נוהגים תס ושלום כשורה אעפ״כ נקראים
-					<lb/>בני ישראל. אך דהנה אחז"ל ( ) שיעקב
-					<lb/>אבינו ע״ה הי׳ לו צער גידול בנים וג״כ
+					<lb/>בני <placeName>ישראל</placeName>. אך דהנה אחז"ל ( ) ש<persName>יעקב
+					<lb/>אבינו</persName> ע״ה הי׳ לו צער גידול בנים וג״כ
 					<lb/>צריך להבין מה הענין צער גידול בנים
 					<lb/>שהי' לו ל<persName>יעקב אבינו</persName> ע״ה. והלא לא מצינו
 					<lb/>בכל ה<name type="work">תורה</name> שאחד מן השבטים הי׳ חולה
@@ -3877,14 +3877,14 @@
 					<lb/>בו ולפגום בו ח"ו. ואז יוכל להיות לו
 					<lb/>תיקון ולזה סיים <persName>רש"י</persName> ז"ל והיכן נזכר
 					<lb/>שמו על <persName>קרח</persName> בהתייחסם על הדוכן דוכן
-					<lb/>מרמז על עסק ה<name type="work">תורה</name> ועבודה זו תפלה
+					<lb/>מרמז על עסק התורה ועבודה זו תפלה
 					<lb/>שישראל מזמרי בשירות ותשבחות לפניו
 					<lb/>ית׳ והוגים בתוה״ק יומם ולילה לשמה הוא
 					<lb/>חשוב בעיני הש״י השי. על הדוכן שהי'
 				</p>
 				<p>
 					<lb/>הלוים משוררין בזמן המקדש. ובזה שבניו
-					<lb/>יהי' משבחין ומזמרין בתורה לפני ה<name type="misc">ש"י</name>
+					<lb/>יהי' משבחין ומזמרין ב<name type="work">תורה</name> לפני ה<name type="misc">ש"י</name>
 					<lb/>יהי׳ לו תיקון עי"ז :
 				</p>
 				<p>
@@ -3892,14 +3892,14 @@
 					<lb/>מה ראה לשטות זה וכו׳ נ"ל דהנה
 					<lb/>כתיב שפכי כמים לבך וגו׳ דהאדם מחויב
 					<lb/>לשבר לבו בקרבו להיות לבו נמס בקרבו
-					<lb/>כמים המוגרים ואז יקוים בישראל כמים
+					<lb/>כמים המוגרים ואז יקוים ב<placeName>ישראל</placeName> כמים
 					<lb/>פנים אל פנים כן לב האדם אל האדם
-					<lb/>כי בהיות לב כל אחד מישראל נמס בקרבו
+					<lb/>כי בהיות לב כל אחד מ<placeName>ישראל</placeName> נמס בקרבו
 					<lb/>כמים ומים במים מתערבין זה עם זה
-					<lb/>ואז יתאחדו לבות בני ישראל באחדות
+					<lb/>ואז יתאחדו לבות בני <placeName>ישראל</placeName> באחדות
 					<lb/>הגמור כי הלב הוא סתום מכל צדדיו
 					<lb/>ובלתי אפשרי להשיג מה שבלב חבירו כי
-					<lb/>אם בהשפך לב כל אחד מישראל כמים
+					<lb/>אם בהשפך לב כל אחד מ<placeName>ישראל</placeName> כמים
 					<lb/>המיגרים ואז יתודע לכל אחד מה בלבו של
 					<lb/>חבירו על ידי ההתערבות וההתאחדות יחד
 					<lb/>כי מים במים מתערבין כנ"ל וכמים פנים
@@ -3934,7 +3934,7 @@
 					<lb/>מוכנים
 				</p>
 				<p>
-					<pb facs="Tiferet-Hayyim_0043.jpg" /><lb/>64
+					<pb facs="Tiferet-Hayyim_0043.jpg"/><lb/>64
 				</p>
 				<p>
 					<lb/>ס״י
@@ -3979,25 +3979,25 @@
 					<lb/>כחם ולעמול בעבודתו ית׳ כפי יתרון
 					<lb/>שכלם שחנן אותם ה<name type="misc">ש"י</name> ואז יתראה להם
 					<lb/>שאמר כל הפעולות בלתי אפשרי להגיע
-					<lb/>לתכלית המבוקש כ״א בעזרת ה<name type="misc">ש"י</name> מ<name type="misc">ה</name>
+					<lb/>לתכלית המבוקש כ״א בעזרת ה<name type="misc">ש"י</name> מה
 					<lb/>שחונן לאדם דעת ומלמד לאנוש בינה.
 					<lb/>אז ישבר לבו בקרבו לעולמי עולמים כנ"ל
 				</p>
 				<p>
 					<lb/>ויש שלבם רחב ויש להם גודל השכל והם
 					<lb/>במעלת החכמה יותר מכל אדם מחויב
-					<lb/>לשער בעצמו על מה עשה ה׳ ככה לתת
+					<lb/>לשער בעצמו על מה עשה <name type="misc">ה</name>׳ ככה לתת
 					<lb/>לי שכל הגדול הזה בודאי לא על חנם הוא
 					<lb/>כ"א שאייגע ואעמול <sic correction="בתורתו">בחורתו</sic> ובעבודתו
 					<lb/>בכל עון כחי וכפי שכלי הרחב ככה
 					<lb/>אעמיק להשכיל ולהתבונן בתורתו ובעבודתו
 					<lb/>יח׳ ואחר כל א<supplied reason="damage">ל</supplied>ה יראה שאין ביכולת
 					<lb/>האדם לבוא אל התכלית כ״א ברחמי
-					<lb/>ה<name type="misc">בורא</name> ית<name type="misc">׳</name> כשירחם על האדם להביאו אל
+					<lb/>ה<name type="misc">בורא</name> ית׳ כשירחם על האדם להביאו אל
 					<lb/>האמת ולתכלית העבודה אז יושבר לב
 					<lb/>האדם ויהי׳ לו לב נשבר עד עולמי עד
 					<lb/>להיות כלי ראוי ומוכן להשראת אלהותו
-					<lb/>ית׳ כאמור אשכון את דכא. ולב נשבר
+					<lb/>ית<name type="misc">׳</name> כאמור אשכון את דכא. ולב נשבר
 					<lb/>ונדכה <name type="misc">אלהים</name> לא תבזה. אבל כשהאדם לא
 					<lb/>יעבוד וישתמש בשכלו לעבודתו ית׳ אז
 					<lb/>יראה לו בעיניו שהוא חכם ויבוא מזה
@@ -4033,17 +4033,17 @@
 					<lb/>בודאי
 				</p>
 				<p>
-					<pb facs="Tiferet-Hayyim_0044.jpg" /><lb/>דט
+					<pb facs="Tiferet-Hayyim_0044.jpg"/><lb/>דט
 				</p>
 				<p>
 					<lb/>בודאי מסתמא אתם עושים פעולה לזה
 					<lb/>להמשיך עליכם אלו המדרגות ולמה אין
-					<lb/>אתם ממשיכים זאת על כל עדת ישראל.
+					<lb/>אתם ממשיכים זאת על כל עדת <placeName>ישראל</placeName>.
 					<lb/>וע״ז בא בתשובה נכונה על דבריו לאמר
 					<lb/>לדורות כי הענין נוהג ג״כ לדורות ואמר
 					<lb/>בוקר מלשון ביקור ודרישה. כלו' שכל
 					<lb/>אדם מישראל מחויב לדרוש ולבקר אחר
-					<lb/>הש"י בכל נפשו ומאודו. ואז ויודע ה׳ את
+					<lb/>ה<name type="misc">ש"י</name> בכל נפשו ומאודו. ואז ויודע ה׳ את
 					<lb/>אשר לו יתוודע לו לכ״א הויות העליון כפי
 					<lb/>כחו ויד שכלו וכפי חלקו המגיע לו ואת
 					<lb/>הקדוש זה שהוא לגמרי קדוש לה׳ והקריב
@@ -4071,7 +4071,7 @@
 					<lb/>מפני האחדות שבהם וסברתם ושכלם הי'
 					<lb/>אחד באחדות הגמור ע״כ לא נאמר בהם
 					<lb/>כ״א מחלוקת <persName>הלל</persName> ו<persName>שמאי</persName> לא כן במחלוקת
-					<lb/>קרח שבוודאי <persName>קרח</persName> מצד עצמו לא הי׳ כלל
+					<persName><lb/>קרח</persName> שבוודאי <persName>קרח</persName> מצד עצמו לא הי׳ כלל
 					<lb/>יכלתו לחלוק על <persName>משה</persName> כ״א כ״ז שערב
 					<lb/>לבו לחלוק על <persName>משה</persName> לא הי׳ כ״א מחמת
 					<lb/>שהי׳ אתו עדה המתוועדים אתו יחד אז
@@ -4094,14 +4094,14 @@
 					<lb/>דאגה בלבו ע״ז. מדוע לא יתוסף בו יראת
 					<lb/>שמים בהקבץ אליו אסיפת עדה הקדושה
 					<lb/>מישראל. (כ״ז מספר תולדת אדם הנ"ל
-					<lb/>בשם רבינו הקדוש הרב ר׳ <persName>ירחמיאל</persName>
+					<lb/>בשם רבינו הקדוש הרב <persName>ר</persName>׳ <persName>ירחמיאל</persName>
 					<lb/>זצללה״ה זי״ע האבד״ק פרשישתא יע״א) :
 				</p>
 				<p>
 					<name type="work"><lb/>פרשת עקב</name>
 				</p>
 				<p>
-					<lb/>ועתה ישראל מה ה׳ אלהיך שואל מעמך
+					<lb/>ועתה <placeName>ישראל</placeName> מה ה׳ אלהיך שואל מעמך
 					<lb/>כי אם ליראה וגו'. <persName>מור׳</persName>
 					<lb/>ז"ל מפרשיסחא אמר כמו שהסוחר אינו
 					<lb/>משגיח על טלטול הדרך כן תכלית העולם
@@ -4112,10 +4112,10 @@
 					<lb/>ותכלית ה<name type="work">תורה</name> לבא ליראת שמים [וכמ״ש
 					<lb/>ב<name type="work">פ</name>׳ <name type="work">ראה</name> למען תלמד ליראה] ובבחינה
 					<lb/>שלומד ויודע כי ה<name type="work">תורה</name> קדמה לעולם כן
-					<lb/>הוא הפותח שער בה<name type="work">תורה</name>. סימן של
+					<lb/>הוא הפותח שער בהתורה. סימן של
 					<lb/>עבדות האמת שידע שמלא כל הארץ
 					<lb/>כבודו שלא נמצא שום דבר שאין בו חיות
-					<lb/>אלהות (דברי תורה) :
+					<lb/>אלהות (דברי <name type="work">תורה</name>) :
 				</p>
 				<p>
 					<lb/>פרשת תצא
@@ -4133,7 +4133,7 @@
 					<lb/>תחת
 				</p>
 				<p>
-					<pb facs="Tiferet-Hayyim_0045.jpg" /><lb/>46
+					<pb facs="Tiferet-Hayyim_0045.jpg"/><lb/>46
 				</p>
 				<p>
 					<lb/>מ״י
@@ -4190,8 +4190,8 @@
 				<p>
 					<lb/>בין איש לחבירו ובין איש לאשתו ה<name type="misc">שי"ת</name>
 					<lb/>יזכינו במדת השלום (ועי׳ סוטה דמ״ב)
-					<lb/>(ס׳ <name type="work">בית יעקב</name> שמות מהה"צ ר׳ יעקב
-					<lb/>אהרן זצ״ל האבד״ק אלכסנדר) :
+					<lb/>(ס׳ <name type="work">בית יעקב</name> שמות מהה"צ ר׳ <persName>יעקב
+					<lb/>אהרן</persName> זצ״ל האבד״ק <persName>אלכסנדר</persName>) :
 				</p>
 				<p>
 					<lb/>ובס׳ <name type="work">היכל הברכה</name> פ׳ <name type="work">שלח</name> (מהה״ק
@@ -4207,7 +4207,7 @@
 				</p>
 				<p>
 					<lb/>ממעמקים קראתיך <name type="misc">ה</name>׳. מורי הקדוש
-					<lb/>ז״ל מ<placeName>פרשיסחא</placeName>
+					<lb/>ז״ל מ<name type="work">פרשיסחא</name>
 					<lb/>אמר שצריך לידע שני עומקין כמו אחד
 					<lb/>שהלך במדבר וכלה לו הלחם. ופגע
 					<lb/>במדבר איש עובר אורח ובידו לחם. אז
@@ -4217,16 +4217,16 @@
 					<lb/>עוד במדבר שירחם עליו עי״ז מבקש ממנו
 					<lb/>מעומק הלב. כן צריך לידע עומק א'
 					<lb/>איך שרע ומר למי שחוטא נגד <name type="misc">בורא
-				</name>	<lb/>עולם. עומק ב׳ צריך שידע שאם <name type="misc">ה</name>׳ לא
-					<lb/>עזור לו לא י<name type="misc">ה</name>א נעזר לעולם. ולא נתן
-					<lb/>ה׳ לכם לב לדעת פי׳ רש״י להכיר חסדי
+					<lb/>עולם</name>. עומק ב׳ צריך שידע שאם <name type="misc">ה</name>׳ לא
+					<lb/>עזור לו לא יהא נעזר לעולם. ולא נתן
+					<name type="misc"><lb/>ה</name>׳ לכם לב לדעת פי׳ <persName>רש״י</persName> להכיר חסדי
 					<lb/>המקום ולדבק בו עכ״ל (ס׳ דברי תורה) :
 				</p>
 				<p>
-					<lb/>מס <date>שבת</date>
+					<lb/>מס <name type="work">שבת</name>
 				</p>
 				<p>
-					<lb/>שמעתי מאדומ״ו הקדוש א״א מ<placeName>פרשיסחא</placeName>
+					<lb/>שמעתי מאדומ״<persName>ו</persName> הקדוש א״א מ<placeName>פרשיסחא</placeName>
 					<lb/>שאמר ששמע בשם אביו הקדוש
 					<lb/>א״א הגאון היהודי ז״ל שברר לקיים שני
 					<lb/>מצות במס״נ יותר מכל המצות כענין
@@ -4240,11 +4240,11 @@
 					<lb/>א״כ
 				</p>
 				<p>
-					<pb facs="Tiferet-Hayyim_0046.jpg" /><lb/>דו
+					<pb facs="Tiferet-Hayyim_0046.jpg"/><lb/>דו
 				</p>
 				<p>
 					<lb/>א״כ אין עול מצות על האדם רק העול
-					<lb/>אותו מצוה שעוסק בה עתה (ס׳ ה<name type="work">חיים</name>) :
+					<lb/>אותו מצוה שעוסק בה עתה (<name type="work">ס</name>׳ ה<name type="work">חיים</name>) :
 					<lb/>ועי׳ ב<name type="work">נועם</name> <persName>אלימלך</persName> פ׳ ב<name type="work">שלח</name> ד״ה ואתה
 					<lb/>ותבין היטב :
 				</p>
@@ -4254,8 +4254,8 @@
 				<p>
 					<lb/>שמעתי מהה״צ מוה׳ <persName>נחמי׳</persName> ז״ל
 					<lb/>רבינו הק׳ היהודי <persName>זלזקללה״ה</persName>
-					<lb/>זי״ע מפרשיסחא בשם מורו הה״ק הצדיק
-					<lb/>מוה׳ <persName>ישראל</persName> זצ״ל <persName>מסאדיגורא</persName> על המשנה
+					<lb/>זי״ע מ<placeName>פרשיסחא</placeName> בשם מורו הה״<persName>ק</persName> הצדיק
+					<lb/>מוה<persName>׳</persName> <persName>ישראל</persName> זצ״ל <persName>מסאדיגורא</persName> על המשנה
 					<lb/>הנ״ל כל הרודף אחר הכבוד הכבוד בורח
 					<lb/>ממנו וכל הבורח מן הכבוד הכבוד
 				</p>
@@ -4272,53 +4272,53 @@
 					<lb/>לו עבודה רבה להציל את נפשו מגאות
 					<lb/>ר״ל כי אדם צריך להיות בבחינה שלא
 					<lb/>יתפעל נפשו משום כבוד בעולם ואז
-					<lb/>אינו צריך לברוח ממנו (ס׳ בית יעקב
+					<lb/>אינו צריך לברוח ממנו (ס׳ בית <orgName>יעקב</orgName>
 					<lb/>הנ״ל פ׳ <name type="work">יתרו</name>) :
 				</p>
 				<p>
-					<pb facs="Tiferet-Hayyim_0047.jpg" /><lb/>68
+					<pb facs="Tiferet-Hayyim_0047.jpg"/><lb/>68
 				</p>
 				<p>
 					<name type="work"><lb/>חזון ישעיה</name>
 				</p>
 				<p>
 					<lb/>דברים נפלאים ויקרים, כשמש בצהרים מאירים מכבוד הגאון הגדול של
-					<lb/>התורה <placeName>בוצ״ק</placeName> מופת הדור אספתלריא המאירה א"א קדוש דומה למלאך ה׳
-					<lb/>צבאות כל רז לא אניס ליה בנגלה ובנסתר חו״פ בנש״ק אדמו״ר כקש״ת
-					<lb/>הרב מוה׳ <persName>ישעי׳</persName> זצוקללה"ה האבד״ק <persName>פרשעדבארז</persName> [ושם מנ״כ תקצ״א
-					<lb/>ד׳ אלול בן <name type="misc">ה</name>רב וכו׳ ר׳ <persName>מאיר זקללה״ה</persName>] זי"ע ועכ״י תלמיד מובהק
-					<lb/>לרבינו הגדול <persName>א"א</persName> קדוש ונורא <persName>רשכבה"ג</persName> וכו' אדמו״ר הרב ר׳ יעקב
-					<lb/>יצחק זצוקללה״ה זי״ע ועכ״י מ<placeName>לובלין</placeName> יע״א :
+					<lb/>התורה <placeName>בוצ״ק</placeName> מופת הדור אספתלריא המאירה א"א קדוש דומה למלאך <name type="misc">ה׳
+					<lb/>צבאות</name> כל רז לא אניס ליה בנגלה ובנסתר חו״פ בנש״ק אדמו״ר כקש״ת
+					<lb/>הרב מוה<persName>׳</persName> <persName>ישעי׳</persName> זצוקללה"ה האבד״ק <persName>פרשעדבארז</persName> [ושם מנ״כ תקצ״א
+					<lb/>ד׳ אלול בן הרב וכו׳ ר׳ <persName>מאיר זקללה״ה</persName>] זי"ע ועכ״י תלמיד מובהק
+					<lb/>לרבינו הגדול <persName>א"א</persName> קדוש ונורא <persName>רשכבה"ג</persName> וכו' אדמו״ר הרב ר׳ <persName>יעקב
+					<lb/>יצחק</persName> זצוקללה״<persName>ה</persName> זי״ע ועכ״י מ<placeName>לובלין</placeName> יע״א :
 				</p>
 				<p>
-					<lb/>פרשת לך
+					<name type="work"><lb/>פרשת</name> לך
 				</p>
 				<p>
 					<lb/>אל הארץ אשר אראך שמעתי מהה״ח
-					<lb/>אדמו״ר מוהר״ר <persName>ירחמיאל
-				</persName>	<lb/>זצ"ל שדרך העבודה כך הוא מתחילה
-					<lb/>נראה ונדמה לאדם דרך עבודת ה'
+					<lb/>אדמו״ר מוהר<persName>״</persName>ר <persName>ירחמיאל
+					<lb/>זצ"ל</persName> שדרך העבודה כך הוא מתחילה
+					<lb/>נראה ונדמה לאדם דרך עבודת <name type="misc">ה'</name>
 					<lb/>רחוק ממנו השמי וכאשר עוסק בעבודה
 					<lb/>ומייגע עצמו עד אשר משיגו אז נעשה
 					<lb/>לפניו דרך זה כארץ ומראין לו שמים
 					<lb/>חדשים וצריך העובד לייגע עצמו ולהשיג
 					<lb/>גם הם כן הוא תמיד ואמר לכן אל
 					<lb/>יתנצל אדם לאמר שחשקו מאד לילך
-					<lb/><sic correction="בדרכי">בפרכי</sic> עבודת הש"י רק שאין יודע היאך
+					<lb/><sic correction="בדרכי">בפרכי</sic> עבודת ה<name type="misc">ש"י</name> רק שאין יודע היאך
 					<lb/>ומה כי קודם יעבוד בבחי׳ קטנה כאשר
 					<lb/>יודע. ועי״ז יתגלה לו דרכי העבודה
 					<lb/>מחדש. וזהו נ"ל אל הארץ אשר אראך
-					<lb/>כי זאת הי' בתחילת העבודה של אברהם
-					<lb/>אבינו והי׳ נדמה לו ראות ממנו כשמים
-					<lb/>והבטיח לו הש"י אל הארץ אשר אראך
+					<lb/>כי זאת הי' בתחילת העבודה של <persName>אברהם
+					<lb/>אבינו</persName> והי׳ נדמה לו ראות ממנו כשמים
+					<lb/>והבטיח לו ה<name type="misc">ש"י</name> אל הארץ אשר אראך
 					<lb/>שישיב ויראה בעיניו קרוב אליו כבחי'
-					<lb/>ארץ והבן (ס׳ בית יעקב פ׳ לך) :
+					<lb/>ארץ והבן (ס׳ בית <orgName>יעקב</orgName> פ׳ <name type="work">לך</name>) :
 				</p>
 				<p>
 					<lb/>והאמין בה׳ ויחשבה לו צדקה שמעתי
-					<lb/>ממורי הצדיק הגאון מוה׳
-					<lb/>שעי׳ זצ"ל מ<name type="work">פרשעדבארז</name> ע״ד שאמרו.
-					<lb/>נח מקטני אמנה הי' והקשה וכי איש
+					<lb/>ממורי הצדיק הגאון מוה<persName>׳</persName>
+					<lb/>ש<persName>עי׳</persName> זצ"ל מפרשעדבארז ע״ד שאמרו.
+					<persName><lb/>נח</persName> מקטני אמנה הי' והקשה וכי איש
 					<lb/>גדול כזה שממנו הושתל העולם יהי'
 					<lb/>מקטני אמנה ואמור מפני שהי׳ עניו ושפל
 					<lb/>מאד בעיני עצמו הי׳ קשה לו להאמין
@@ -4326,7 +4326,7 @@
 					<lb/>והנה אברהם שאמר ואנכי עפר ואפר
 					<lb/>לא הי׳ יכול מתחילה להאמין שיגביה אותו
 					<lb/>למעלה מהמזל כמ״ש הבט השמימה כו'.
-					<lb/>אמנם אברהם שם עצה לזה. ואמר הלא
+					<lb/>אמנם <persName>אברהם</persName> שם עצה לזה. ואמר הלא
 				</p>
 				<p>
 					<lb/>כל החיות שלי אינו ראוי לפי מעשי רק
@@ -4335,8 +4335,8 @@
 					<lb/>וחסדיו הם ג״כ באין שיעור. וזהו
 					<lb/>והאמין בה׳ ויחשבה לו להש"י צדקה שכל
 					<lb/>מה שהש"י עשה עמי מקטן ועד גדול
-					<lb/>הוא אך חסד וצדקה ודפח״ח (ס׳ בית
-					<lb/>יעקב פ׳ ויצא מהה״צ ר׳ <persName>יעקב אהרן</persName>
+					<lb/>הוא אך חסד וצדקה ודפח״ח (<name type="work">ס</name>׳ <name type="work">בית
+					<lb/>יעקב</name> פ׳ ויצא מהה״צ ר<persName>׳</persName> <persName>יעקב אהרן</persName>
 					<lb/>זצ״ל) :
 				</p>
 				<p>
@@ -4345,24 +4345,24 @@
 				<p>
 					<lb/>רק הרחק לא תרחיקו ללכת העתירו
 					<lb/>בעדי הנראה לרמז בזה
-					<lb/>עפ״מ שמצינו בזוה״ק כמה פעמים (עי'
-					<lb/>זוהר ויקהל דר״א) שאמרו התלמידים
+					<lb/>עפ״מ שמצינו ב<name type="work">זוה</name>״<name type="work">ק</name> כמה פעמים (עי'
+					<name type="work"><lb/>זוהר</name> ו<name type="work">יקהל</name> דר״א) שאמרו התלמידים
 					<lb/>ל<persName>רשב״י</persName> ווי כד אסתלק <persName>בוצינא קדישא</persName>
 					<lb/>מינן מה נעבד והוא דבר תימה שיאמרו
 					<lb/>תלמידים כן לרבם הגדול ואין זה מענין
 					<lb/>דרך ארץ. ושמענו תירץ בזה מאת כבוד
-					<lb/>מו״ר הה״ק <persName>מוהר"י זללה"ה</persName> מפרשעדבארז
+					<lb/>מו״ר הה״<persName>ק</persName> <persName>מוהר"י זללה"ה</persName> מ<name type="work">פרשעדבארז</name>
 					<lb/>כי רצו להתחזק בגודל אהבה עזה עליו
 					<lb/>כי מאחר שהי׳ להם תענוג תמידי רצו
 					<lb/>לצייר בנפשם אם יחסר להם התענוג הזה
 					<lb/>מה יעשו וגם זאת אמרו מה נעשה אחר
 					<lb/>מותך כדי שיתקשר עמם ועם נשמתם
 					<lb/>אחר מיתתו. אולם מה שנ"ל בזה כי דרך
-					<lb/>הצדיקים הגדולים בהתיחדם ב<name type="work">תורה</name> ותפלה
+					<lb/>הצדיקים הגדולים בהתיחדם בתורה ותפלה
 					<lb/>ועליית נשמה גבוה מעל גבוה הנה הם
 					<lb/>בטילים לגמרי במציאות זה העולם ואינם
 					<lb/>זוכרים כלל מעניני עוה״ז אשר ע״כ בקש
-					<lb/>דוד המע״ה זכרני ה׳ ברצון עמך ר"ל
+					<persName><lb/>דוד</persName> המע״<persName>ה</persName> זכרני <name type="misc">ה</name>׳ ברצון עמך ר"ל
 					<lb/>אם אני בעלותי במעלות היחודים הנפלאים
 					<lb/>בעולמות העליונים אזי אשכח מעניני
 				</p>
@@ -4370,11 +4370,11 @@
 					<lb/>עוה״ז
 				</p>
 				<p>
-					<pb facs="Tiferet-Hayyim_0048.jpg" /><lb/>ניה
+					<pb facs="Tiferet-Hayyim_0048.jpg"/><lb/>ניה
 					<lb/>חזון
 				</p>
 				<p>
-					<lb/><sic correction="עוה&quot;ז">עיה״ז</sic> מבני ישראל עמך להוריד להם
+					<lb/><sic correction="עוה&quot;ז">עיה״ז</sic> מבני <placeName>ישראל</placeName> עמך להוריד להם
 					<lb/>השפעות טובות וחסדים נא אתה ברתמיך
 					<lb/>הרבים תזכרני ברצון עמך להפיק להם רצון
 					<lb/>מה׳ ופקדני בישועתך וכן תלמידי <persName>רשב"י</persName>
@@ -4392,7 +4392,7 @@
 					<lb/>וארא) ועי׳ שם בפ׳ תצא :
 				</p>
 				<p>
-					<name type="work"><lb/>פרשת</name> אמור
+					<lb/>פרשת אמור
 				</p>
 				<p>
 					<lb/>ביום ה<date>שבת</date> ביום ה<date>שבת</date> יערכנו לפני
@@ -4405,33 +4405,33 @@
 					<lb/>שהאדם עושה ביום ה<date>שבת</date> יש לו עלי'
 					<lb/>באותו יום כי כל הלילה שאחריו הוא חול
 					<lb/>ופסק כח קדושת ה<date>שבת</date> וז״פ ביום ה<date>שבת</date>
-					<lb/>מה שנעשה ביום ה<date>שבת</date> תו״מי ביום השבת
+					<lb/>מה שנעשה ביום ה<date>שבת</date> תו״מי ביום ה<date>שבת</date>
 					<lb/>ערכנו לפני ה׳. לעלות למקונו בעולם
 					<lb/>העליון כי גם כל השלחנות של בנ״י
-					<lb/>הסדורים למטה בעוה״ז בקדושת השבת
+					<lb/>הסדורים למטה בעוה״ז בקדושת ה<date>שבת</date>
 					<lb/>גם למעלה יש עולם המיוחד לזה להיות
 					<lb/>מסודרים למעלה בדוגמא שלמטה וז״ש
 					<lb/>אצל <persName>שמאי הזקן</persName> שכל ימיו הי׳ אוכל לכבוד
-					<lb/>שבת והבן (תפארת <persName>שלמה</persName> לרמזי ש"ק) :
+					<date><lb/>שבת</date> והבן (תפארת <persName>שלמה</persName> לרמזי ש"ק) :
 				</p>
 				<p>
 					<lb/>ל<date>יוה"כ</date>
 				</p>
 				<p>
 					<lb/>והכהנים והעם עומדים בעזרה. שמענו
-					<lb/>ממ״ו הרב הגאון <persName>אדמ״ו</persName> מוהר״י
-					<lb/>מפרשעדבארז זלה״ה פי׳ שהעם עמדו
+					<lb/>ממ״ו הרב הגאון <persName>אדמ״ו</persName> מוהר<persName>״י</persName>
+					<lb/>מ<name type="work">פרשעדבארז</name> זלה״ה פי׳ שהעם עמדו
 				</p>
 				<p>
 					<lb/>בעזרתו בתפלה ותחנונים עבור הכה״ג
 					<lb/>שיקובל ע<supplied reason="damage">ב</supplied>ודתו ברצון כי האמנם הוא
-					<lb/>מובחר האנושי מכלל ישראל אעפ״כ לא
+					<lb/>מובחר האנושי מכלל <placeName>ישראל</placeName> אעפ״כ לא
 					<lb/>הי׳ בכוחו לגשת אל הקדש בלתי סעד
 					<lb/>ועזר מבנ״י אשר נתנו בו כח וז״ש והכהן
 					<lb/>הגדול מאחיו גדלהו משל אחיו ר"ל
 					<lb/>גדולתו הי' מכח אחיו כלל ישראל
 					<lb/>המסייעים אותו וכיוצא בזה שמענו אומרים
-					<lb/>בשם הה״ק מוהר״מ <persName>מענדלי</persName> מפריסטיג
+					<lb/>בשם הה״ק מוהר<persName>״מ</persName> <persName>מענדלי</persName> מ<orgName>פריסטיג</orgName>
 					<lb/>זלה"ה מ״ש בגמ׳ הארון נושא את נושאיו
 					<lb/>רמז לצדיק הדור הוא נושא את נושאיו
 					<lb/>שהוא נושא את התלמידים הנלווי׳ אליו
@@ -4442,10 +4442,10 @@
 					<lb/>דוגמת הארון שהי׳ נושא את הכהנים
 					<lb/>הנושאים אותו כמ״ש והי׳ כאשר נתקו
 					<lb/>כפות רגלי הכהנים וגו' (שם פ׳ אחר
-					<lb/>על התורה) :
+					<lb/>על ה<name type="work">תורה</name>) :
 				</p>
 				<p>
-					<lb/>פרשת בחוקתי
+					<name type="work"><lb/>פרשת</name> בחוקתי
 				</p>
 				<p>
 					<lb/>ואם המר ימירנו. והי׳ הוא ותמורתו
@@ -4460,7 +4460,7 @@
 					<lb/>ותמורתו אותיות ותרומתו. זהו סימן
 					<lb/>שההתרוממות שלו יהי׳ קדש לרצון לפני
 					<lb/>הש"י (ספר עטרה לראש צדיק ב<name type="work">לקוטים</name>
-					<lb/>בשם <name type="misc">ה</name>גה"ק <persName>מוהר״י</persName> <persName>מפשעדבארז</persName> וצללה"ה) :
+					<lb/>בשם הגה"ק <persName>מוהר״י</persName> <persName>מפשעדבארז</persName> וצללה"ה) :
 				</p>
 				<p>
 					<lb/>פרשת קרח
@@ -4473,20 +4473,20 @@
 					<lb/>הברים
 				</p>
 				<p>
-					<pb facs="Tiferet-Hayyim_0049.jpg" /><lb/>80
+					<pb facs="Tiferet-Hayyim_0049.jpg"/><lb/>80
 				</p>
 				<p>
 					<lb/>חזון <persName>שעיה</persName>
 				</p>
 				<p>
-					<lb/>הקדוש וכו׳ מוה׳ <persName>ישעיה</persName> זללה"ה אבד״ק
+					<lb/>הקדוש וכו׳ מוה<persName>׳</persName> <persName>ישעיה</persName> זללה"ה אבד״ק
 					<persName><lb/>פרשעדבארז</persName> אשר אמר טרם פטירתו
 					<lb/>פירש ע״ז הפסוק האם תמנו לגוע האם
 					<lb/>השגנו מעלת השלימות אשר האדם צרין
 					<lb/>להשיג בחייו אזי יכול להיות מוכן ח״ו
 					<lb/>לגוע עכדה״ק (ת"ש הנ״ל בהשמטה לפ׳
 					<lb/>קרת) ובפנים שם סיים וז״ל וז״ש חסדי
-					<lb/>ה׳ כי לא תמנו פי׳ זהו החסד הגמור
+					<name type="misc"><lb/>ה</name>׳ כי לא תמנו פי׳ זהו החסד הגמור
 					<lb/>שאיננו בא לתכלית התמימות ויש לו עוד
 					<lb/>מלחמת היצר כדי שיהי׳ לו עוד חיות
 					<lb/>בעוה״ז כנ"ל :
@@ -4497,7 +4497,7 @@
 				<p>
 					<lb/><sic correction="ואתחנן">ואתהנן</sic> אל ה׳ פירש"י אף שיש להם
 					<lb/>לצדיקים לתלות במעשיהם
-					<lb/>הטובים אינם מבקשים רק מתנת <name type="work">תנם</name>
+					<lb/>הטובים אינם מבקשים רק מתנת תנם
 					<lb/>שמעתי מפ״ק מדבר הרב מו״ר הגה״ק
 					<persName><lb/>מוהר״י</persName> מפרשעדבארז זלה"ה כי הצדיקים
 					<lb/>יש להם לחלות לקבל תפלתם עבור
@@ -4507,7 +4507,7 @@
 					<lb/>הגון ואינו כדאי עד״ז יכול כל האדם
 				</p>
 				<p>
-					<lb/>להתפלל וזה ואחתנן מתנת תנם (ת״ש
+					<lb/>להתפלל וזה ואחתנן מתנת <name type="work">תנם</name> (ת״ש
 					<lb/>פ׳ וירא) :
 				</p>
 				<p>
@@ -4531,15 +4531,15 @@
 				<p>
 					<lb/>האשה נקנית בג׳ דרכים. שמענו מאת
 					<lb/>מו״ר הרב <persName>מוהר״י אבד״ק
-					<lb/>פרשע</persName>דבורו זי״ע בפי׳ המשנה רמז על ג׳
+					<lb/>פרשעדבורו</persName> זי״ע בפי׳ המשנה רמז על ג׳
 					<lb/>גאולת בכסף רמז לגאולת <placeName>מצרים</placeName> שהי׳ ביזת
-					<placeName><lb/>מצרים</placeName> וביזת הים בשטר רמז לגאולת עזרא
+					<placeName><lb/>מצרים</placeName> וביזת הים בשטר רמז לגאולת <persName>עזרא</persName>
 					<lb/>ששלח אגרות ל<placeName>בבל</placeName>. ביאה רמז לגאולה
 					<lb/>העתידה ב״ב אז יהי׳ היתוד בתי׳ נשואין ואז
 					<lb/>יהי׳ תתיית המתים (ת״ש הנ״ל פ׳ <name type="work">תצוה</name>) :
 				</p>
 				<p>
-					<pb facs="Tiferet-Hayyim_0050.jpg" /><lb/>81
+					<pb facs="Tiferet-Hayyim_0050.jpg"/><lb/>81
 				</p>
 				<p>
 					<lb/>דרך ישר
@@ -4547,8 +4547,8 @@
 				<p>
 					<lb/>חידושי תורה דברים נפלאים ויקרים כשמש בצהרים מאירים מכבוד
 					<lb/>הגה"ק <placeName>בוצ"ק</placeName> מופת הדור <placeName>אספהלריא</placeName> המאירה א״א קדוש דומה למלאך
-					<name type="misc"><lb/>ה׳ צבאות</name> חו״פ סבא קדישא אדמו״ר כקש״ת הרב ר׳ <persName>ישכר בער</persName>
-					<lb/>[בהר"י] האבד״ק <persName>ראדשיץ</persName> זצוקללה״ה זי״ע [ושם מנ״כ <date>תר"ג</date> י<date>״ח סיון</date> בן
+					<name type="misc"><lb/>ה׳</name> צבאות חו״פ סבא קדישא אדמו״ר כקש״<persName>ת</persName> הרב ר׳ <persName>ישכר בער</persName>
+					<lb/>[בהר"י] האבד״ק <persName>ראדשיץ</persName> זצוקללה״<persName>ה</persName> זי״ע [ושם מנ״כ <date>תר"ג</date> י<date>״ח סיון</date> בן
 					<lb/><sic correction="ע&quot;ח">ע״ת</sic>] ב<name type="work">סשה״</name>ג ה<name type="work">חדש</name> מ"ב אות ל"ו כ׳ וז"ל שכל ימיו הי' מרגלא בפומיה
 					<lb/>ואמר תיתי לי שזכיתי לשמש וליצוק מים על ידי מאה ועשרים תלמידי
 					<lb/>חכמים כולם בעלי <sic correction="רוח"><name type="misc">רות</name></sic> הקודש זי"ע עכ"ל :
@@ -4562,8 +4562,8 @@
 					<lb/>בהתעוררות הלב ובהתלהבות איננו יכול
 					<lb/>להתאפק את עצמו לפעמים מלהראות
 					<lb/>לאחרים את יראתו ואהבתו ל<name type="misc">השי</name>״ת.
-					<lb/>והתלהבותו בעבודת ה<name type="misc">שי"ת</name> ולכאור<name type="misc">ה</name> יפלא
-					<lb/>מדוע עשה ה׳ ככה שהצדיק לא יוכל
+					<lb/>והתלהבותו בעבודת ה<name type="misc">שי"ת</name> ולכאורה יפלא
+					<lb/>מדוע עשה <name type="misc">ה</name>׳ ככה שהצדיק לא יוכל
 					<lb/>להתאפק עצמו הלא יותר טוב הי׳ שיעבוד
 					<lb/>ה<name type="misc">שי"ת</name> בהצנע כמו שאמר הכתוב. והצנע
 					<lb/>לכת עם אלהיך. אמנם אין זה כי אם לעורר
@@ -4597,21 +4597,21 @@
 					<lb/>ורעדה ונזכרים שאת בן המלך הם דנים.
 					<lb/>ומיד מכריעין הדין לכף זכות ומוציאים
 					<lb/>המשפט לאורה וכן הוא בנמשל. שהמלך
-					<lb/>הוא ה<name type="misc">קב"ה</name> מלכו של עולם ובני ישראל
+					<lb/>הוא ה<name type="misc">קב"ה</name> מלכו של עולם ובני <placeName>ישראל</placeName>
 					<lb/>הם בניו שנקראים בני׳ למקום. ובימים
-					<lb/>הנוראים יושבים למעלה ה<orgName>ב"ד</orgName> של מעלה
+					<lb/>הנוראים יושבים למעלה הב"ד של מעלה
 					<lb/>בכסאות למשפט כי מלך במשפט יעמיד
-					<lb/>ארץ. וכשרואה ה<name type="misc">קב"ה</name> שה<orgName>ב"ד</orgName> של מעלה
+					<lb/>ארץ. וכשרואה ה<name type="misc">קב"ה</name> שהב"ד של מעלה
 					<lb/>מטים הדין לתוב על בנ״י ת"ו. הוא לובש
 					<lb/>עצמו כביכול בבגדי מלכותו ית"ש והדר
 					<lb/>יקר תפארתו וכתר מלכות בראשו. וזהו
 					<lb/>גלמי ראו עיניך גלמי נוטריקון ה׳ מל״ך
 					<lb/>גאו״ת לב״ש עיניך הם עיני העדה שהם
-					<lb/>הסנהדרין הב"ד של מעלה פירוש כשהב"ד
+					<lb/>הסנהדרין ה<orgName>ב"ד</orgName> של מעלה פירוש כשה<orgName>ב"ד</orgName>
 					<lb/>של מעלה שנקראים עיני העדה. רואין
 					<lb/>את מלכו של עולם כביכול מלובש בלבוש
 					<lb/>מלכות אז. ועל ספרך כולם יכתבו היינו
-					<lb/>שכותבים את בני ישראל שהם בנים למלך.
+					<lb/>שכותבים את בני <placeName>ישראל</placeName> שהם בנים למלך.
 					<lb/>כולם ב<name type="work">ספר החיים</name> וסיים ע״ז רבינו הק'
 					<lb/>ר׳ <persName>יעקב צבי מפאריסאוו</persName> זצללה"ה שהראיה
 					<lb/>הוא ממשרע״ה שאמר מחני נא מספריך
@@ -4631,7 +4631,7 @@
 					<lb/>בעבודת השי"ת ואקבל עלי מהיום והלאה
 				</p>
 				<p>
-					<pb facs="Tiferet-Hayyim_0051.jpg" /><lb/>52
+					<pb facs="Tiferet-Hayyim_0051.jpg"/><lb/>52
 				</p>
 				</div><div type="story" xml:id="Tiferet-Hayyim_0022" n="21"><head type="storyHead">Tiferet-Hayyim_0022</head>
 <p>
@@ -4669,11 +4669,11 @@
 				</p>
 				<p>
 					<lb/>חידושי תירה דברים נפלאים ויקרים כשמש בצהרים מאירים מכבוד הגה״ק
-					<placeName><lb/>בוצ״ה</placeName> מופ״ה אספקלריא המאירה אא״ק דומה למלאך ה׳ צבאות חו״פ
+					<placeName><lb/>בוצ״ה</placeName> מופ״ה אספקלריא המאירה אא״<persName>ק</persName> דומה למלאך <name type="misc">ה׳</name> צבאות חו״פ
 					<lb/>בנש"ק אדמו״ר הרב ר׳ <persName>משה זצוקללה</persName>״<persName>ה מלעלוב</persName> [מנ״כ בעה״ק <placeName>ירושלים</placeName>
 					<lb/><sic correction="תובב&quot;א">תיבב״א</sic> תרי״א ושנותיו היו ע"ד שנים וחי ב<placeName>אה״ק</placeName> ע"ד ימים כמנין
-					<lb/>שנותיו ואמר שיום אחד ב<placeName ref="#H-LOC_105">א״י</placeName> יחשב לו כמו שנה בחו״ל] בן כבוד
-					<persName><lb/>אא״ק</persName> ונורא וכו׳ הדומה למלאך ה׳ צבאות רשכבה״ג הרב ר׳ <persName>דוד</persName>
+					<lb/>שנותיו ואמר שיום אחד ב<placeName>א״י</placeName> יחשב לו כמו שנה בחו״ל] בן כבוד
+					<persName><lb/>אא״ק</persName> ונורא וכו׳ הדומה למלאך <name type="misc">ה׳</name> צבאות רשכבה<persName>״ג</persName> הרב ר׳ <persName>דוד</persName>
 					<lb/>זצללה"ה <placeName>מלעלוב</placeName> [ושם מנ״כ <date>שנת תקע"ד</date> ז׳ <date>שבת</date>]. וגם מכ״ק אדמו״ר
 					<lb/>וכו׳ ר׳ זצלל"ה הובאו הלום ח"ת :
 				</p>
@@ -4685,40 +4685,40 @@
 					<lb/>ברכה הוא שלא ע״פ דרך הטבע
 					<lb/>והצלחה הוא ע״פ דרך הטבע כמובן.
 					<lb/>ואמר מו״ח הרב היהודי זצלה"ה שב<placeName>חוצה
-					<lb/>לארץ </placeName>ישראל יוכל לחול רק <sic correction="הצלחה">ה לרה</sic> ולא
+					<lb/>לארץ ישראל</placeName> יוכל לחול רק <sic correction="הצלחה">ה לרה</sic> ולא
 					<lb/>ברכה ובארץ הקדושה יוכל <sic correction="לחול">לחיל</sic> גם
 					<lb/>ברכה. כמאמר הכתוב יברכך <name type="misc">ה'</name> מציון
-					<lb/>כו׳ עכדה"ק. ואאמו״ר ההצה"ק כו׳ מוה׳
-					<lb/>דוד זצללה"ה <placeName>מלעלוב</placeName> הוסיף על דבריו הק'
+					<lb/>כו׳ עכדה"ק. ואאמו״ר ההצה"ק כו׳ מוה<persName>׳</persName>
+					<persName><lb/>דוד</persName> זצללה"ה <placeName>מלעלוב</placeName> הוסיף על דבריו הק'
 					<lb/>דגם בחוצה לארץ יכול ג״כ לחול ברכה :
 					<lb/>היינו אם אדם מקדש עצמו מלמטה
 					<lb/>ומלמעלה ואפי׳ ד׳ אמות שלו בקדושה
 					<lb/>וטהרה אזי יחול הברכה בנכסיו אפילו
 				</p>
 				<p>
-					<lb/>בחוצה לארץ כי זהו ג״כ בחינת ארץ
-					<lb/>ישראל כנודע ע״כ :
+					<lb/>בחוצה לארץ כי זהו ג״כ בחינת <placeName>ארץ
+					<lb/>ישראל</placeName> כנודע ע״כ :
 				</p>
 				<p>
 					<lb/>ואני כננס ע״ג הענק ארמז דברי
-					<persName><lb/>אאמו״</persName>ר זצללה״ה בפסוקי ה<name type="work">תורה</name>
-					<lb/>הדק היטב. ב<name type="work">פ</name>׳ ו<name type="work">ישב</name> ו<persName>יוסף</persName> הורד מ<placeName>מצרימה</placeName>
+					<persName><lb/>אאמו״</persName>ר זצללה<persName>״ה</persName> בפסוקי ה<name type="work">תורה</name>
+					<lb/>הדק היטב. ב<name type="work">פ</name>׳ ו<name type="work">ישב</name> ויוסף הורד מ<placeName>מצרימה</placeName>
 					<lb/>כו׳ ויהי ה׳ את <persName>יוסף</persName> ויהי איש מצליח. ויהי
 					<lb/>בבית אדוניו המצרי וירא אדוניו כי ה׳
-					<lb/><sic correction="אתו">אתי</sic> וכל אשר הוא עושה <name type="misc">ה'</name> מצליח בידו
+					<lb/><sic correction="אתו">אתי</sic> וכל אשר הוא עושה ה' מצליח בידו
 					<lb/>כו׳ ויפקידהו על ביתו וכל יש לו נתן
 					<lb/>בידו ויהי מאז הפקיד אותו כו׳ ויברך ה׳
 					<lb/>כו׳ ויהי ברכת ה׳ כו׳ ולכאורה פתח
 					<lb/>בהצלחה וסיים בברכה. אך לפי דברי
 					<lb/>אאמו״ר הנ"ל נכון מאד ומדויק היטב
-					<lb/>בפסוקים כי מתחילה מחמת יוסף הי׳ שורה
+					<lb/>בפסוקים כי מתחילה מחמת <persName>יוסף</persName> הי׳ שורה
 					<lb/>רק הצלחה בנכסי אדוניו. כי הי׳ בח<supplied reason="damage">ו</supplied>ץ
 				</p>
 				<p>
 					<lb/>לקרץ
 				</p>
 				<p>
-					<pb facs="Tiferet-Hayyim_0052.jpg" /><lb/>תפארת <persName>משה</persName>
+					<pb facs="Tiferet-Hayyim_0052.jpg"/><lb/>תפארת <persName>משה</persName>
 				</p>
 				<p>
 					<lb/>לארץ ובבית אדוניו המצרי ואין יכולת
@@ -4735,12 +4735,12 @@
 					<lb/>הכל כמו שלו ותיכף התחיל הברכה לחול
 					<lb/>במעשה ידיו ובנכסיו וזהו שסיים <sic correction="הפסוק">הפסיק</sic>.
 					<lb/>ויהי מאז הפקיד אותו בביתו כו'. ויברך
-					<lb/>ה׳ את בית המצרי כו׳ ויהי ברכת ה'
+					<lb/>ה׳ את בית המצרי כו׳ ויהי ברכת <name type="misc">ה'</name>
 					<lb/>בכל אשר יש לו כו'. שתיכף התחיל
 					<lb/>הברכה לחול בנכסיו וכנ"ל וצדקו דברי
 					<persName><lb/>אאמו״</persName>ר זצללה"ה והבן. (ב<name type="work">ס"ס</name> <name type="work">לקוטי
-					</name><lb/>מהר"א להה״ק רבינו ר׳ <persName>אלעזר מקרזניץ</persName>
-					<lb/>זצוקללה"ה בשם הה״ק ר׳ <persName>משה מלעלוב</persName>
+					<lb/>מהר"א</name> להה״ק רבינו ר׳ <persName>אלעזר מקרזניץ</persName>
+					<lb/>זצוקללה"ה בשם הה״<persName>ק</persName> ר׳ <persName>משה מלעלוב</persName>
 					<lb/>ו<persName>צוקללה"ה</persName> זי״ע ועכי"א) :
 				</p>
 				<p>
@@ -4754,7 +4754,7 @@
 					<lb/>יום א׳ חירות משעבוד העבודה רק
 					<lb/>משרע״ה בחר להם יום ה<date>שבת</date> למנוחה.
 					<lb/>והי׳ דרכם ביום ההוא להתאסף ביחד
-					<lb/>ל<persName>משה</persName> וזקני ישראל לשמוע תוכחת חיים
+					<lb/>ל<persName>משה</persName> וזקני <placeName>ישראל</placeName> לשמוע תוכחת חיים
 					<lb/>להאמין באחדותו ומציאותו ית׳ ולאשר
 					<persName><lb/>פרעה</persName> לגודל רשעתו אשר מתפצו לסורם
 				</p>
@@ -4776,7 +4776,7 @@
 					<lb/>איך תחשוב בדעתך
 					<lb/>שיעלה תפלתך להשמים אם אין לך קדושת
 					<lb/>זיווג שזה עיקר יסוד דקדושה וכמ״ש בשם
-					<lb/>הה״ק <persName>מוהר"ד</persName> <persName>מלעלוב זללה״ה</persName> זי״ע (ס׳
+					<lb/>הה<persName>״ק</persName> <persName>מוהר"ד</persName> <persName>מלעלוב זללה״ה</persName> זי<persName>״</persName>ע (ס׳
 					<lb/>תפארת <persName>שלמה</persName> מ<persName>הה״ק</persName> <persName>מראדאמסק</persName>
 					<lb/>זצוקללה"ה זי"ע בשער התפלה ורמזי
 					<lb/><sic correction="סוכות">סכות</sic>).
@@ -4809,11 +4809,11 @@
 					<lb/>דקס״ה) רובם בגזל וכולם באבק לה״ר ופי' הוא זצלה"ה שהגמרא מלמד זכות על
 					<lb/>ישראל ואומרת רבש"ע עד מתי לא תרחם על ישראל להוציא אותם מגלות המר שכבר
 					<lb/>נשתקעו בין הקליפות ויש להם מסכים גדולים ומניעות גדולות וכל מה שתאריך הגלות
-					<lb/>עלו ח״ו יותר שטומאה לכן מהר לגאלנו עכ"ל <name type="work">ספר</name> <name type="work">תולדות אהרן</name> פ׳ <name type="work">שמות</name> מהה"ק
-					<lb/>אהרן זצוקללה״<persName>ה מזיטאמר</persName> :
+					<lb/>עלו ח״ו יותר שטומאה לכן מהר לגאלנו עכ"ל ספר <name type="work">תולדות אהרן</name> פ׳ <name type="work">שמות</name> מהה"ק
+					<persName><lb/>אהרן</persName> זצוקללה״<persName>ה מזיטאמר</persName> :
 				</p>
 				<p>
-					<pb facs="Tiferet-Hayyim_0053.jpg" /><lb/>תפארת <persName>משה</persName>
+					<pb facs="Tiferet-Hayyim_0053.jpg"/><lb/>תפארת <persName>משה</persName>
 				</p>
 				<p>
 					<lb/>מצדיקי הדור שהי׳ בזמנינו שלא הוכיחו
@@ -4823,7 +4823,7 @@
 					<lb/>האדם מעצמו על לבו לשוב מחטאיו וכה
 					<lb/>אמר הרב היהודי האיש האלהי מפרשיסחא
 					<lb/>זצוקללה״ה זי״ע כי קבל דברי הרב הצדיק
-					<lb/>האלקי ר׳ <persName>דוד</persName> מלעלוב זי״ע שלא להוכיח
+					<lb/>האלקי ר<persName>׳</persName> <persName>דוד</persName> מלעלוב זי״ע שלא להוכיח
 					<lb/>עוד אנשים בדברי תוכחת וניאוצים כדי
 					<lb/>להשיבם בתשובה שלימה לפני ה<name type="misc">ש"י</name> כי אם
 					<lb/>להתהלך עמהם בדברי ריצוי ובנחת ולקרב
@@ -4841,14 +4841,14 @@
 					<lb/>לפני ה<name type="misc">ש"י</name> ב"ה על מצות נר חנוכה שישראל
 					<lb/>מדליקין לומר ראה כמה בניך טוב
 					<lb/>כמה הם נזהרין במצותיך והמדה הזאת
-					<lb/>היא באה מגודל האהבה ל<name type="misc">הש"י</name> ב"<name type="misc">ה</name> וגודל
-					<lb/>אהבת ישראל שמבקש תמיד שלום בין
+					<lb/>היא באה מגודל האהבה להש"י ב"ה וגודל
+					<lb/>אהבת <placeName>ישראל</placeName> שמבקש תמיד שלום בין
 					<placeName><lb/>ישראל</placeName> לאביהם שבשמים לכך הוא מחבבם
-					<lb/>כ״כ להיותם ורע ברך <name type="misc">ה׳</name> ומקיימי מצותיו
+					<lb/>כ״כ להיותם ורע ברך ה׳ ומקיימי מצותיו
 					<lb/>כל הימים לכך אין לראות בהם שום
 					<lb/>נפתל ועיקש. והנה הדבר הזה הוא מושרש
 					<lb/>בלב הצדיקים המבקשים כלל טובות
-					<lb/>מישראל כמו שידענו זה מבחי׳ אדמו״ר
+					<lb/>מ<placeName>ישראל</placeName> כמו שידענו זה מבחי׳ אדמו״ר
 					<lb/>הצדיק האלקי ר׳ <persName>פישלי</persName> מ<persName>סטריקעוו</persName> זי״ע
 					<lb/>שמעולם לא הי׳ יכול להאמין ששום אחד
 					<lb/>מישראל יחטא ויעבור איזה עבירה וכל
@@ -4856,18 +4856,18 @@
 				<p>
 					<lb/>מה שהגידו לו הכל הי' מכזב כי לא
 					<lb/>האמין כי אמר שכל איש מישראל לא
-					<lb/>וחטא וזהו מגודל קדושתו ודביקותו בהש"י
-					<lb/>האוהב עמו ישראל וכבר נאמר לא הביט
-					<lb/>אין ב<persName>יעקב</persName> ולא ראה עמל בישראל לכך
-					<lb/>הנה הצדיקים ההולכים לפני ה׳ הנה עיני
-					<lb/>ה׳ אל צדיקים ג״כ אינם רואים שום חטא
-					<lb/>על ישראל כל הימים כנ"ל (<name type="work">ספר תפארת
-				</name>	<lb/>שלמה ברמזי אבות מהה״ק ר׳ שלמה
-					<lb/>הכהן זצוקללה"ה זי״ע האבד״ק <persName>ראדאסק</persName>) :
+					<lb/>וחטא וזהו מגודל קדושתו ודביקותו ב<name type="misc">הש"י</name>
+					<lb/>האוהב עמו <placeName>ישראל</placeName> וכבר נאמר לא הביט
+					<lb/>אין ב<persName>יעקב</persName> ולא ראה עמל ב<placeName>ישראל</placeName> לכך
+					<lb/>הנה הצדיקים ההולכים לפני <name type="misc">ה</name>׳ הנה עיני
+					<name type="misc"><lb/>ה׳</name> אל צדיקים ג״כ אינם רואים שום חטא
+					<lb/>על <placeName>ישראל</placeName> כל הימים כנ"ל (<name type="work">ספר תפארת
+					<lb/>שלמה</name> ברמזי אבות מהה״ק ר׳ <persName>שלמה
+					<lb/>הכהן</persName> זצוקללה"ה זי״ע האבד״ק <persName>ראדאסק</persName>) :
 				</p>
 				<p>
-					<lb/>ואהבת לרעך כמוך וגו׳. בס׳ תפארת
-					<lb/>שלמה על מועדים
+					<lb/>ואהבת לרעך כמוך וגו׳. ב<name type="work">ס</name>׳ <name type="work">תפארת
+					<lb/>שלמה</name> על מועדים
 					<lb/>ברמזי פורים (להה״ק <persName>מראדאמסק</persName>) וז"ל
 					<lb/>וכדרך הזה שמענו מפ״ק הרב הוותיק אוהב
 					<placeName><lb/>ישראל</placeName> ר׳ <persName>דוד מלעלוב</persName> זלה"ה שאמר בזה"ל
@@ -4876,16 +4876,16 @@
 					<lb/>מבשאר בנ״י עכ״ל :
 				</p>
 				<p>
-					<lb/>פרשת <persName>קרח</persName>
+					<name type="work"><lb/>פרשת קרח</name>
 				</p>
 				<p>
-					<lb/>בליל <date>שבת</date> קודש פ<name type="work">׳ קרח</name>. שהיותי אצל
+					<lb/>בליל <date>שבת</date> קודש פ׳ <persName>קרח</persName>. שהיותי אצל
 					<lb/>הה״ק המפורסם חסידא קדישא
-					<lb/>משה זצוקללה״ה זי״ע מלעלוב. בכל
+					<persName><lb/>משה</persName> זצוקללה״<persName>ה</persName> זי״ע מלעלוב. בכל
 					<lb/>הסעודות אמר הרבה פעמים וקרח שפיקח
 					<lb/>הי' (צוא קליג טאר מען נישט זיין)
 					<lb/>להבין דבריו הק׳ דהנה כל איש הישר אלי
-					<lb/>מוזהר לשמור א״ע שלא י<name type="work">לך</name> בהתורה הק'
+					<lb/>מוזהר לשמור א״ע שלא ילך בהתורה הק'
 					<lb/>בשום התחכמות כלל כי אם הולך חלילה
 					<lb/>בהתחכמות יוכל ליפול ח״ו להתחכמות
 					<lb/>רעין ובישין רח"ל ויכול ליפול ח"ו לכל
@@ -4901,39 +4901,39 @@
 					<lb/>*) עי׳ תדב״א זוטא פ״ח שאמר שם וז״ל הי׳ לו ל<persName>אליהו</persName> לומר לפני הקב״ה
 					<lb/>רבש"ע בניך הם בני בחוניך הם בני <persName>אברהם</persName> <persName>יצחק</persName> ו<persName>יעקב</persName> שעשו רצונך בעולם וגו׳ ושם
 					<lb/>פ״ט אמר וז״ל הי׳ צופה בכולם מי שהוא מבקש רחמים על בניו וכו'. והי׳ לו להושע
-					<lb/>למר לפני הקב"ה רבש"ע בניך הם בחוניך בני אברהם <persName>יצחק</persName> ו<persName>יעקב</persName> שעשו רצונך
-					<lb/>בעולם גלגל עליהם מדת רחמיך ורחם עליהם ומחול לעונותיהם וכו׳ יעו״ש המא<name type="work">ס</name>ף :
+					<lb/>למר לפני ה<name type="misc">קב"ה</name> רבש"ע בניך הם בחוניך בני אברהם <persName>יצחק</persName> ו<persName>יעקב</persName> שעשו רצונך
+					<lb/>בעולם גלגל עליהם מדת רחמיך ורחם עליהם ומחול לעונותיהם וכו׳ יעו״ש המאסף :
 				</p>
 				<p>
-					<pb facs="Tiferet-Hayyim_0054.jpg" /><lb/>תפארת <persName>משה</persName>
+					<pb facs="Tiferet-Hayyim_0054.jpg"/><lb/>תפארת <persName>משה</persName>
 				</p>
 				<p>
 					<lb/>תכמתו מתקיימת כי לכאורה קשה על דתן
-					<lb/>ואבירם כי לפי הידוע שהי׳ גדולי ישראל
+					<lb/>ואבירם כי לפי הידוע שהי׳ גדולי <placeName>ישראל</placeName>
 					<lb/>ובודאי הי׳ להם אנשים אשר הי' מסתופפים
 					<lb/>בצילם הנקראים בשם חסידים שלהם
 					<lb/>היתכן איך הי' יכולים להיות דבוקים בהם
 					<lb/>הלא ראו בהם כל מה שעשו הי׳ שלא
-					<lb/>כמו שכ׳ בתורה הם שהתירו מן המן
+					<lb/>כמו שכ׳ ב<name type="work">תורה</name> הם שהתירו מן המן
 					<lb/>ועוד הרבה דברים כידוע וא״כ אין
 					<lb/>מלאה לבם להתחבר בהם אך זאת היתה
 					<lb/>שהמה היו הולכים תמיד <sic correction="בתורה">בחורה</sic> בהתחכמות
 					<lb/>ואמרו מאן יימר שאם נותר מן המן
 					<lb/>שיתליע ועשו זאת למען יברר האמת שכל
-					<lb/>מה שכתב בתורה הוא אמת ונכון וכן כל
+					<lb/>מה שכתב ב<name type="work">תורה</name> הוא אמת ונכון וכן כל
 					<lb/>מה שעשו הי׳ בזה האופן להראות לכל
 					<lb/>שלא טוב לעשות מה שנא׳ שלא לעשות
 					<lb/>רק צריכים לברר בתחלה האמת אבל
 					<lb/>סופם מוכיח על תחלתם שצרעת המינות
-					<lb/>פרחה במצחם וכפרו בתורה ונעקרו מן
+					<lb/>פרחה במצחם וכפרו ב<name type="work">תורה</name> ונעקרו מן
 					<lb/>העולם רח"ל ע״כ צריכים ליזהר שלא
 					<lb/>לסור ח"ו <sic correction="מהתוה&quot;ק">מהתיה״ק</sic> ימין ושמאל ולא לילך
 					<lb/>בהתחכמות רק להאמין באמונה שלימה
 					<lb/>בפשטות ולילך בעקבי הצאן ולעשות מה
 					<lb/>שנאמר לעשות ולקיים מה שנאמר <sic correction="בתורה">בחורה</sic>
 					<lb/>שלא לעשות ולהיות מיראת חטאו קודמת
-					<lb/>לחכמתו חכמתו מתקיימת (ספר אמת
-					<lb/>ל<persName>יעקב</persName> מהה״ק מ<persName>בלענדוב</persName> פ׳ קרח) :
+					<lb/>לחכמתו חכמתו מתקיימת (<name type="work">ספר</name> אמת
+					<lb/>ל<persName>יעקב</persName> מהה״<persName>ק</persName> מ<persName>בלענדוב</persName> פ<name type="work">׳ קרח</name>) :
 				</p>
 				<p>
 					<name type="work"><lb/>פרשת מסעי</name>
@@ -4942,15 +4942,15 @@
 					<lb/>אמר הרה״ק רבינו <persName>מוהר״י מווארקי</persName>
 					<lb/>זצוקללה"ה בשם מורו רבינו
 					<lb/>הקדוש ר״ד <persName>מלעלוב זצוקללה"ה</persName>. זי״ע
-					<lb/>משה רבינו הי' כותב כל המסעות של
-					<lb/>ישראל ונעשה מהן <name type="work">תורה</name> כן עתה
+					<persName><lb/>משה</persName> רבינו הי' כותב כל המסעות של
+					<placeName><lb/>ישראל</placeName> ונעשה מהן <name type="work">תורה</name> כן עתה
 					<persName><lb/>אליהו</persName> כותב כל המסעות <sic correction="והרפתקאות">והפרתקאות</sic>
-					<lb/>של כל מישראל וכשיבא משיח <placeName>ב"ב</placeName> יהי'
+					<lb/>של כל מ<placeName>ישראל</placeName> וכשיבא משיח <placeName>ב"ב</placeName> יהי'
 				</p>
 				<p>
 					<lb/>מזה ספר שנלמד ממנו עכ״ל (ס"ס
-					<orgName><lb/>בית יעקב</orgName> מהה״ג החסיד ר׳ <persName>יעקב
-					<lb/>אהרן זצ</persName>ללה"ה האבד״ק <persName>אלכסנדר</persName>) :
+					<name type="work"><lb/>בית</name> <orgName>יעקב</orgName> מהה״ג החסיד ר<persName>׳</persName> <persName>יעקב
+					<lb/>אהרן זצללה"ה</persName> האבד״ק <persName>אלכסנדר</persName>) :
 				</p>
 				<p>
 					<name type="work"><lb/>פרשת</name> <name type="work">דברים</name>
@@ -4958,8 +4958,8 @@
 				<p>
 					<lb/>ולמכיר נתתי את ה<placeName>גלעד</placeName> הרב החסיד
 					<persName><lb/>זעליג משרענצק</persName> זצ"ל
-					<lb/>אמר בשם רבו מובהק הקדוש מוה׳ <persName>דוד
-					<lb/>לעלאווער </persName>זלה"ה שאמר בזה"ל <name type="work">פר</name> וואהר
+					<lb/>אמר בשם רבו מובהק הקדוש מוה<persName>׳</persName> <persName>דוד
+					<lb/>לעלאווער זלה"ה</persName> שאמר בזה"ל <name type="work">פר</name> וואהר
 					<name type="work"><lb/>דיא</name> <name type="work">תורה</name> שטייט נישט געפינטעלט מען
 					<lb/>זאל קענען דרשענען דיא תורה וויא
 					<lb/>מען דארף זאג איך <sic correction="ולמכיר">ילמכיר</sic> צו דעם
@@ -4990,7 +4990,7 @@
 					<lb/>ובדעת ובשמחה :
 				</p>
 				<p>
-					<pb facs="Tiferet-Hayyim_0055.jpg" /><lb/>תפארת <persName>משה</persName>
+					<pb facs="Tiferet-Hayyim_0055.jpg"/><lb/>תפארת <persName>משה</persName>
 				</p>
 				<p>
 					<name type="work"><lb/>פרשת וישב</name>

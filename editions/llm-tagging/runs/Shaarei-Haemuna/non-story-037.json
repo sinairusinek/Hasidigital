@@ -1,0 +1,285 @@
+{
+ "unit": {
+  "kind": "several_stories",
+  "why": "A confession formula and an ethical teaching on the true path, with three short narratives embedded in the teaching: Apter's childhood clairvoyance, an ascetic in the Besht's time, and a scholar's ascetic study ending in illumination.",
+  "boundary_note": "Division opens with the teaching 'מענין וידוי'; the stories sit inside the teaching 'מענין זהירות לדרך אמת'; the next topic 'מענין זיו וזוהר הפנים' starts at the end and continues into the next division."
+ },
+ "stories": [
+  {
+   "k": 1,
+   "start_quote": "כמו שאמר מו״ר הקדוש מוהר״ר אברהם יהושע העשיל",
+   "end_quote": "ולא עוד אלא אפשר מטעין אותי",
+   "hasidic": true,
+   "summary_en": "R. Avraham Yehoshua Heshel tells how plants foretold the future to him and how, as a child, he could describe any person from their name, and how he prayed for the gift to be taken away for fear of being deceived.",
+   "tags": [
+    {
+     "tag": "supernatural:perception",
+     "scope": "span",
+     "quotes": [
+      "היה מכוון בכיון מי הוא זה השם",
+      "וכוון ממש כל צורתו ושערו והנהגתו"
+     ],
+     "confidence": 3,
+     "why": "He knows people's appearance and status from their name alone.",
+     "quotes_failed": false
+    },
+    {
+     "tag": "supernatural:communicating_with_the_invisible",
+     "scope": "span",
+     "quotes": [
+      "שעשבי השדה היו אומרין לו עתידות"
+     ],
+     "confidence": 2,
+     "why": "The grasses of the field speak to him.",
+     "quotes_failed": false
+    },
+    {
+     "tag": "ethics-and-emotions:humility",
+     "scope": "span",
+     "quotes": [
+      "ידעתי גם ידעתי שעדיין אני רחוק מאד מהש\"י"
+     ],
+     "confidence": 3,
+     "why": "Despite his powers he declares himself far from God.",
+     "quotes_failed": false
+    },
+    {
+     "tag": "ethics-and-emotions:fear",
+     "scope": "span",
+     "quotes": [
+      "ויראתי שלא אטעה ובקשתי מאד הרחמן"
+     ],
+     "confidence": 2,
+     "why": "He fears being misled by his powers.",
+     "quotes_failed": false
+    },
+    {
+     "tag": "folkloristics:story_type_virtues",
+     "scope": "story",
+     "quotes": [],
+     "confidence": 2,
+     "why": "The anecdote illustrates his humility and caution.",
+     "quotes_failed": false
+    },
+    {
+     "tag": "not-a-hasidic-story:sermon",
+     "scope": "story",
+     "quotes": [],
+     "confidence": 2,
+     "why": "It is embedded in an ethical discourse on spiritual 'gifts'.",
+     "quotes_failed": false
+    }
+   ],
+   "missing_concepts": [
+    "renouncing supernatural gifts out of fear of self-deception"
+   ],
+   "start_quote_found": true,
+   "end_quote_found": true
+  },
+  {
+   "k": 2,
+   "start_quote": "כמו שהיה בזמן מרן הקדוש שאחד סיגף עצמו",
+   "end_quote": "עזרו היה נאבד משני עולמות",
+   "hasidic": true,
+   "summary_en": "In the Besht's time a man mortified himself to attain the holy spirit, was deceived by false spiritual levels, and was saved only by the Besht's help.",
+   "tags": [
+    {
+     "tag": "practice:asceticism",
+     "scope": "span",
+     "quotes": [
+      "שאחד סיגף עצמו להשיג רוה״ק"
+     ],
+     "confidence": 3,
+     "why": "He practises self-mortification to gain the holy spirit.",
+     "quotes_failed": false
+    },
+    {
+     "tag": "practice:healing_of_the_soul",
+     "scope": "span",
+     "quotes": [
+      "ולולא מרן הקדוש רבינו הריב״ש זצ\"ל עזרו"
+     ],
+     "confidence": 2,
+     "why": "The Besht rescues him spiritually.",
+     "quotes_failed": false
+    },
+    {
+     "tag": "supernatural:perception",
+     "scope": "span",
+     "quotes": [
+      "ואמר מרן שבעולם החמורות משחקין ממנו"
+     ],
+     "confidence": 2,
+     "why": "The Besht perceives what is happening to him in the upper worlds.",
+     "quotes_failed": false
+    },
+    {
+     "tag": "not-a-hasidic-story:sermon",
+     "scope": "story",
+     "quotes": [],
+     "confidence": 2,
+     "why": "A brief exemplum inside the discourse.",
+     "quotes_failed": false
+    }
+   ],
+   "missing_concepts": [
+    "false spiritual attainments / self-deception"
+   ],
+   "start_quote_found": true,
+   "end_quote_found": true
+  },
+  {
+   "k": 3,
+   "start_quote": "ומיראה זה פירש עצמו לגמרי מכל",
+   "end_quote": "מתיקות ידידות עריבות אורו יתברך",
+   "hasidic": true,
+   "summary_en": "A pious scholar withdraws from the world, studies in poverty and solitude through melancholy and hardship, is suddenly flooded with supernal light while studying Yevamot, travels to the tsaddikim of his generation, and endures terrifying dreams and trials while the divine light stays with him.",
+   "tags": [
+    {
+     "tag": "practice:solitude",
+     "scope": "span",
+     "quotes": [
+      "ומחמת שישב בקרירות ובבדידות",
+      "פירש עצמו לגמרי מכל עניני עוה״ז"
+     ],
+     "confidence": 3,
+     "why": "He lives withdrawn from worldly life.",
+     "quotes_failed": false
+    },
+    {
+     "tag": "practice:study",
+     "scope": "span",
+     "quotes": [
+      "ולמד חמשה דפין גמרא עם רא״ש",
+      "באמצע לימוד גמרא יבמות"
+     ],
+     "confidence": 3,
+     "why": "Intense Talmud study is depicted.",
+     "quotes_failed": false
+    },
+    {
+     "tag": "knowledge:esoteric",
+     "scope": "span",
+     "quotes": [
+      "וגם זוהר שערי אורה פרדס כתבי מרן"
+     ],
+     "confidence": 2,
+     "why": "He studies kabbalistic works.",
+     "quotes_failed": false
+    },
+    {
+     "tag": "practice:asceticism",
+     "scope": "span",
+     "quotes": [
+      "ולא טעם בכל יום אלא מעט לחם ומים במשורה"
+     ],
+     "confidence": 3,
+     "why": "He lives in severe austerity.",
+     "quotes_failed": false
+    },
+    {
+     "tag": "practice:fasting",
+     "scope": "span",
+     "quotes": [
+      "כי התענית מזיק מאד בימי הקטנות"
+     ],
+     "confidence": 2,
+     "why": "The text discusses and criticises fasting.",
+     "quotes_failed": false
+    },
+    {
+     "tag": "social:poverty",
+     "scope": "span",
+     "quotes": [
+      "ולא היה לו פת לאכול ולא מלבוש לכסות"
+     ],
+     "confidence": 2,
+     "why": "He lives in deprivation as part of his devotion.",
+     "quotes_failed": false
+    },
+    {
+     "tag": "ethics-and-emotions:sadness",
+     "scope": "span",
+     "quotes": [
+      "כמה חומות לפני׳ מרה שחורה והתכסות השכל"
+     ],
+     "confidence": 3,
+     "why": "Melancholy is a spiritual obstacle he overcomes.",
+     "quotes_failed": false
+    },
+    {
+     "tag": "supernatural:light_or_fire_as_a_sign_of_righteousness",
+     "scope": "span",
+     "quotes": [
+      "נפל עליו אור עליון ונתמלא כל הבית אורה"
+     ],
+     "confidence": 3,
+     "why": "Supernal light fills the house during his Torah study.",
+     "quotes_failed": false
+    },
+    {
+     "tag": "experience:revelation",
+     "scope": "span",
+     "quotes": [
+      "וטעם ממש טעם אור עוה״ב"
+     ],
+     "confidence": 2,
+     "why": "He has a mystical disclosure of divine light.",
+     "quotes_failed": false
+    },
+    {
+     "tag": "practice:devekut",
+     "scope": "span",
+     "quotes": [
+      "לחזות בנועם וזיו פני מלך אלהים חיים"
+     ],
+     "confidence": 1,
+     "why": "His goal is communion with God.",
+     "quotes_failed": false
+    },
+    {
+     "tag": "practice:travel_to_the_tsaddik",
+     "scope": "span",
+     "quotes": [
+      "עד שהתחיל לנסוע לצדיקי הדור"
+     ],
+     "confidence": 2,
+     "why": "He travels to the tsaddikim for guidance.",
+     "quotes_failed": false
+    },
+    {
+     "tag": "experience:dream",
+     "scope": "span",
+     "quotes": [
+      "ואמר שעמדו עליו כמה חלומות מבהילים"
+     ],
+     "confidence": 2,
+     "why": "Terrifying dreams are among his trials.",
+     "quotes_failed": false
+    },
+    {
+     "tag": "not-a-hasidic-story:sermon",
+     "scope": "story",
+     "quotes": [],
+     "confidence": 2,
+     "why": "The narrative is wrapped in an ethical discourse.",
+     "quotes_failed": false
+    }
+   ],
+   "missing_concepts": [
+    "spiritual ascent and descent (עולה ויורד)",
+    "trials and suffering as purification"
+   ],
+   "start_quote_found": true,
+   "end_quote_found": true
+  }
+ ],
+ "check": {
+  "non_vocab_tags": [],
+  "quotes": 22,
+  "quotes_not_found": 0
+ },
+ "id": "non-story-037",
+ "chars": 4194,
+ "seconds": 37
+}

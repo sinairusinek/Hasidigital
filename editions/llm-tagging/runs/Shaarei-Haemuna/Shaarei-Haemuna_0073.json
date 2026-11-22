@@ -1,0 +1,81 @@
+{
+ "unit": {
+  "kind": "non_hasidic_story",
+  "why": "A short biographical-hagiographic note, copied from the Hida's Shem ha-Gedolim, about the pre-Hasidic kabbalist R. Eliyahu de Vidas: his books, his move from Safed to Hebron, his burial there, and his soul-root; it is minimal as a narrative but does narrate events.",
+  "boundary_note": "Opens a new section (אות ד, on studying Reshit Hokhmah); the next division continues the same topic with a further citation."
+ },
+ "stories": [
+  {
+   "k": 1,
+   "start_quote": "רבינו אליהו די וידאש תלמיד הרמ״ק",
+   "end_quote": "(שה״ג להג׳ חיד״א מער׳ א׳ אות קנ\"ז)",
+   "hasidic": false,
+   "summary_en": "R. Eliyahu de Vidas, disciple of R. Moses Cordovero, wrote Reshit Hokhmah and left Safed for Hebron, where he was buried; R. Hayyim Vital reports that he and Cordovero shared the soul of Zechariah son of Jehoiada, which is why they loved each other.",
+   "tags": [
+    {
+     "tag": "not-a-hasidic-story:hagiography",
+     "scope": "story",
+     "quotes": [],
+     "confidence": 3,
+     "why": "It praises a pre-Hasidic Safed kabbalist and is explicitly copied from Shem ha-Gedolim.",
+     "quotes_failed": false
+    },
+    {
+     "tag": "supernatural:reincarnation",
+     "scope": "span",
+     "quotes": [
+      "נפש ורוח זכריהו בן יהוידע",
+      "בחינת נפש מאבטליון"
+     ],
+     "confidence": 3,
+     "why": "It identifies his soul-root and earlier incarnations.",
+     "quotes_failed": false
+    },
+    {
+     "tag": "spaces:the_land_of_israel",
+     "scope": "span",
+     "quotes": [
+      "יצא מצפת ויבוא עד חברון ויקבר שם"
+     ],
+     "confidence": 3,
+     "why": "The story is set in Safed and Hebron.",
+     "quotes_failed": false
+    },
+    {
+     "tag": "times:death",
+     "scope": "span",
+     "quotes": [
+      "ויבוא עד חברון ויקבר שם"
+     ],
+     "confidence": 2,
+     "why": "It reports his death and burial in Hebron.",
+     "quotes_failed": false
+    },
+    {
+     "tag": "knowledge:esoteric",
+     "scope": "span",
+     "quotes": [
+      "רבינו אליהו די וידאש תלמיד הרמ״ק"
+     ],
+     "confidence": 1,
+     "why": "It concerns the kabbalistic circle of Cordovero and Vital.",
+     "quotes_failed": false
+    }
+   ],
+   "missing_concepts": [
+    "authorship and transmission of musar/kabbalistic books (Reshit Hokhmah and its abridgement)",
+    "soul kinship explaining love between two sages"
+   ],
+   "start_quote_found": true,
+   "end_quote_found": true
+  }
+ ],
+ "check": {
+  "non_vocab_tags": [],
+  "quotes": 5,
+  "quotes_not_found": 0
+ },
+ "id": "Shaarei-Haemuna_0073",
+ "chars": 322,
+ "seconds": 15
+}

@@ -1,0 +1,171 @@
+{
+ "unit": {
+  "kind": "hasidic_story",
+  "why": "A short narrative: the narrator's father asks the Seer of Lublin to pray for a son, accepts the condition that he will not live long with him, and receives a yihud to draw down the narrator's soul.",
+  "boundary_note": ""
+ },
+ "stories": [
+  {
+   "k": 1,
+   "start_quote": "עו״ש בכת״י כשהי׳ אבי הצדיק אצל",
+   "end_quote": "בעת היחוד להוריד נשמתי וכו׳ עכ״ל",
+   "hasidic": true,
+   "summary_en": "The narrator's father begs the Seer of Lublin for a son; the Seer says that if he decrees it the son will be born but the father will not live long with him; the father accepts, and the Seer gives him an awesome yihud and holy names to concentrate on at union, in order to bring down the narrator's soul.",
+   "tags": [
+    {
+     "tag": "folkloristics:story_type_birth_of_the_tsaddik",
+     "scope": "story",
+     "quotes": [],
+     "confidence": 3,
+     "why": "The tale tells of the miraculous conception of the narrator, himself a tzaddik.",
+     "quotes_failed": false
+    },
+    {
+     "tag": "supernatural:pregnancy",
+     "scope": "span",
+     "quotes": [
+      "שיבקש רחמים עליו שיהי׳ לו בן זכר"
+     ],
+     "confidence": 3,
+     "why": "A son is granted through the tzaddik's intercession.",
+     "quotes_failed": false
+    },
+    {
+     "tag": "kabbalah:kabbalistic_terms_yihudim",
+     "scope": "span",
+     "quotes": [
+      "ומסר לו יחוד נורא ושמות קדושים"
+     ],
+     "confidence": 3,
+     "why": "The Seer transmits a kabbalistic yihud.",
+     "quotes_failed": false
+    },
+    {
+     "tag": "practice:use_of_holy_names",
+     "scope": "span",
+     "quotes": [
+      "ושמות קדושים לכוין בעת היחוד"
+     ],
+     "confidence": 3,
+     "why": "Holy names are used to draw down a soul.",
+     "quotes_failed": false
+    },
+    {
+     "tag": "practice:meditation",
+     "scope": "span",
+     "quotes": [
+      "לכוין בעת היחוד להוריד נשמתי"
+     ],
+     "confidence": 2,
+     "why": "Contemplative concentration with names during the act.",
+     "quotes_failed": false
+    },
+    {
+     "tag": "kabbalah:kabbalistic_terms_kavvanot",
+     "scope": "span",
+     "quotes": [
+      "ושמות קדושים לכוין בעת היחוד"
+     ],
+     "confidence": 2,
+     "why": "Mystical intentions are assigned to a ritual act.",
+     "quotes_failed": false
+    },
+    {
+     "tag": "knowledge:practical_kabbalah",
+     "scope": "span",
+     "quotes": [
+      "ומסר לו יחוד נורא ושמות קדושים"
+     ],
+     "confidence": 2,
+     "why": "Mystical knowledge is used for a concrete result, a conception.",
+     "quotes_failed": false
+    },
+    {
+     "tag": "supernatural:prognostication",
+     "scope": "span",
+     "quotes": [
+      "אבל לא תאריך ימים להיות עמו ביחד"
+     ],
+     "confidence": 2,
+     "why": "The Seer foretells the father's short life with his son; fulfilment is implied, not narrated.",
+     "quotes_failed": false
+    },
+    {
+     "tag": "practice:torat_ha_tsaddik",
+     "scope": "span",
+     "quotes": [
+      "שבהכרח אם אגזור שיהי׳ לך בן זכר יהי'"
+     ],
+     "confidence": 2,
+     "why": "The tzaddik's power to decree is asserted.",
+     "quotes_failed": false
+    },
+    {
+     "tag": "practice:travel_to_the_tsaddik",
+     "scope": "span",
+     "quotes": [
+      "כשהי׳ אבי הצדיק אצל מורינו קדוש אלקי ישראל מלובלין"
+     ],
+     "confidence": 2,
+     "why": "The father is at the Seer's court with a request.",
+     "quotes_failed": false
+    },
+    {
+     "tag": "characters-and-roles:the_family_of_the_tsaddik",
+     "scope": "span",
+     "quotes": [
+      "כשהי׳ אבי הצדיק אצל"
+     ],
+     "confidence": 3,
+     "why": "The narrator-tzaddik's father is the protagonist.",
+     "quotes_failed": false
+    },
+    {
+     "tag": "social:inter_hasidic_master_disciple_relationship",
+     "scope": "span",
+     "quotes": [
+      "אצל מורינו קדוש אלקי ישראל מלובלין"
+     ],
+     "confidence": 1,
+     "why": "The father is a follower of the Seer.",
+     "quotes_failed": false
+    },
+    {
+     "tag": "social:marital_relationship",
+     "scope": "span",
+     "quotes": [
+      "לכוין בעת היחוד להוריד נשמתי"
+     ],
+     "confidence": 1,
+     "why": "The marital union is the occasion for the yihud.",
+     "quotes_failed": false
+    },
+    {
+     "tag": "practice:storytelling",
+     "scope": "span",
+     "quotes": [
+      "עו״ש בכת״י"
+     ],
+     "confidence": 1,
+     "why": "The story is framed as quoted from a manuscript written by the narrator.",
+     "quotes_failed": false
+    }
+   ],
+   "missing_concepts": [
+    "drawing down a specific soul at conception",
+    "trade-off of the father's lifespan for a child",
+    "quotation from a manuscript (כתב יד) as the source"
+   ],
+   "start_quote_found": true,
+   "end_quote_found": true
+  }
+ ],
+ "check": {
+  "non_vocab_tags": [],
+  "quotes": 13,
+  "quotes_not_found": 0
+ },
+ "id": "Eser-Kedushot_0085",
+ "chars": 286,
+ "seconds": 16
+}

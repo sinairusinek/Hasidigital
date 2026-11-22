@@ -1,0 +1,79 @@
+{
+ "unit": {
+  "kind": "hasidic_story",
+  "why": "A brief anecdote: R. Moshe of Ludmir, who did not usually say Torah in public, was pressed to do so and answered with an exegesis that showed his humility.",
+  "boundary_note": ""
+ },
+ "stories": [
+  {
+   "k": 1,
+   "start_quote": "ובס׳ ד״ש ויקהל כ׳ וז״ל",
+   "end_quote": "אמר אני אין יכול וה.",
+   "hasidic": true,
+   "summary_en": "R. Moshe of Ludmir, who avoided saying Torah in public, was urged to speak and explained through Rashi that only one who can address each listener at his own level may say Torah; in his humility he declared that he could not.",
+   "tags": [
+    {
+     "tag": "ethics-and-emotions:humility",
+     "scope": "span",
+     "quotes": [
+      "ומרוב ענותנותו אמר אני אין יכול"
+     ],
+     "confidence": 3,
+     "why": "His refusal is explicitly attributed to humility",
+     "quotes_failed": false
+    },
+    {
+     "tag": "folkloristics:story_type_virtues",
+     "scope": "story",
+     "quotes": [],
+     "confidence": 3,
+     "why": "The anecdote illustrates the tzaddik's humility",
+     "quotes_failed": false
+    },
+    {
+     "tag": "practice:sermon",
+     "scope": "span",
+     "quotes": [
+      "בקשו והפצירו אותו מאוד לומר תורה",
+      "ופירש״י לא פחות ולא יותר"
+     ],
+     "confidence": 3,
+     "why": "The story is about saying Torah and includes his exegesis of a verse",
+     "quotes_failed": false
+    },
+    {
+     "tag": "practice:torat_ha_tsaddik",
+     "scope": "span",
+     "quotes": [
+      "לכאו״א לפי בחינתו ומדרגתו ומי שיכול"
+     ],
+     "confidence": 1,
+     "why": "Teaches that a true teacher must address each person at his own spiritual level",
+     "quotes_failed": false
+    },
+    {
+     "tag": "not-a-hasidic-story:sermon",
+     "scope": "story",
+     "quotes": [],
+     "confidence": 1,
+     "why": "A thin narrative frame around an exegetical point, quoted from an earlier book",
+     "quotes_failed": false
+    }
+   ],
+   "missing_concepts": [
+    "a tzaddik's refusal to deliver Torah teachings in public",
+    "quotation from an earlier book (דגל מחנה אפרים)"
+   ],
+   "start_quote_found": true,
+   "end_quote_found": true
+  }
+ ],
+ "check": {
+  "non_vocab_tags": [],
+  "quotes": 4,
+  "quotes_not_found": 0
+ },
+ "id": "Shaarei-Haemuna_0004",
+ "chars": 326,
+ "seconds": 13
+}

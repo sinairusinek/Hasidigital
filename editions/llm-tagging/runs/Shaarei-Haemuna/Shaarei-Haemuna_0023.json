@@ -1,0 +1,134 @@
+{
+ "unit": {
+  "kind": "hasidic_story",
+  "why": "Within a teaching on distress of mind (חלישות דעת), the Komarna author tells a first-person memorate of visiting R. Naftali of Ropshitz, their exchange, and the tsaddik's homily on Hezekiah and Isaiah.",
+  "boundary_note": "division is section ב) of the topic 'מענין חלישות דעת' begun in the previous division; the story is framed by homiletic teaching"
+ },
+ "stories": [
+  {
+   "k": 1,
+   "start_quote": "ובעת שעליתי לקבל אנפי שכינתא לקבל",
+   "end_quote": "ובעוז בפנים מאירות",
+   "hasidic": true,
+   "summary_en": "The author visits R. Naftali of Ropshitz, who asks why his face shines despite persecution; the author says opponents' chatter cannot touch him, and the tsaddik answers with a kabbalistic homily on the dispute of Hezekiah and Isaiah: Heaven greatly fears causing distress of mind, and the author replies that God widens his mind with the light of the world to come.",
+   "tags": [
+    {
+     "tag": "practice:travel_to_the_tsaddik",
+     "scope": "span",
+     "quotes": [
+      "ובעת שעליתי לקבל אנפי שכינתא לקבל פני הצדיק"
+     ],
+     "confidence": 3,
+     "why": "the author goes up to visit the Ropshitzer",
+     "quotes_failed": false
+    },
+    {
+     "tag": "practice:reception_of_hasidim",
+     "scope": "span",
+     "quotes": [
+      "שאל אותי אני רואה פניך מאירין ושמחים מה זה"
+     ],
+     "confidence": 2,
+     "why": "the tsaddik greets and questions the visitor",
+     "quotes_failed": false
+    },
+    {
+     "tag": "practice:sermon",
+     "scope": "span",
+     "quotes": [
+      "כמו שמצינו במחלוקת חזקיה עם ישעי׳ זה אומר אני מלך"
+     ],
+     "confidence": 3,
+     "why": "the tsaddik delivers a homily on a talmudic dispute",
+     "quotes_failed": false
+    },
+    {
+     "tag": "not-a-hasidic-story:sermon",
+     "scope": "story",
+     "quotes": [],
+     "confidence": 2,
+     "why": "the narrative is wrapped in an extended homiletic and kabbalistic discussion",
+     "quotes_failed": false
+    },
+    {
+     "tag": "ethics-and-emotions:joy",
+     "scope": "span",
+     "quotes": [
+      "אני רואה פניך מאירין ושמחים",
+      "ומזה מתרחב דמתי בשמחה ובעוז בפנים מאירות"
+     ],
+     "confidence": 3,
+     "why": "joy despite persecution is the theme",
+     "quotes_failed": false
+    },
+    {
+     "tag": "ethics-and-emotions:sadness",
+     "scope": "span",
+     "quotes": [
+      "אעפ״כ חלישת דעת הוא ולמעלה חוששין מאד"
+     ],
+     "confidence": 3,
+     "why": "distress of mind is the spiritual problem addressed",
+     "quotes_failed": false
+    },
+    {
+     "tag": "social:conflict",
+     "scope": "span",
+     "quotes": [
+      "מה לי לחוש לקול פטפוטי עופות טמאים"
+     ],
+     "confidence": 2,
+     "why": "the author faces opponents who slander him",
+     "quotes_failed": false
+    },
+    {
+     "tag": "knowledge:esoteric",
+     "scope": "span",
+     "quotes": [
+      "כי נביאים הם נו\"ה וחזקיה מלכות המקבלת אורה"
+     ],
+     "confidence": 2,
+     "why": "the homily is a sefirotic interpretation",
+     "quotes_failed": false
+    },
+    {
+     "tag": "practice:study",
+     "scope": "span",
+     "quotes": [
+      "וכשאני עומד אחר חצות לילה ללמוד"
+     ],
+     "confidence": 2,
+     "why": "midnight study is cited as his source of strength",
+     "quotes_failed": false
+    },
+    {
+     "tag": "times:eschatology",
+     "scope": "span",
+     "quotes": [
+      "לא יהיה אלא בזמן המשיח בגאולה העתידה",
+      "מטעים אותי מאור עוה״ב"
+     ],
+     "confidence": 1,
+     "why": "messianic time and the world to come are mentioned",
+     "quotes_failed": false
+    }
+   ],
+   "missing_concepts": [
+    "faith that suffering comes from God (accepting afflictions with love)",
+    "persecution or slander of a tsaddik by opponents",
+    "first-person memorate by the author",
+    "sefirot (netzah, hod, malkhut)"
+   ],
+   "start_quote_found": true,
+   "end_quote_found": true
+  }
+ ],
+ "check": {
+  "non_vocab_tags": [],
+  "quotes": 11,
+  "quotes_not_found": 0
+ },
+ "id": "Shaarei-Haemuna_0023",
+ "chars": 1723,
+ "seconds": 20
+}

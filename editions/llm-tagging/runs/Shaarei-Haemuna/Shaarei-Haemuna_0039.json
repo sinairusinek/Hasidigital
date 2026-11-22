@@ -1,0 +1,160 @@
+{
+ "unit": {
+  "kind": "non_hasidic_story",
+  "why": "A medieval exemplum quoted from R. Isaac of Acre via Reshit Hokhmah (Sha'ar ha-Ahavah 4). It tells of a man whose desire for a princess turned into cleaving to God, used here to illustrate love of God.",
+  "boundary_note": "previous division gives the homiletic frame (love of God likened to a lover's passion); story is self-contained here"
+ },
+ "stories": [
+  {
+   "k": 1,
+   "start_quote": "וכן נלמד ממעשה אמר שכתב הרב",
+   "end_quote": "עד שהלך שמו למרחוק עכ״ל לעניננו",
+   "hasidic": false,
+   "summary_en": "A loafer desires a princess. Her retort 'in the cemetery' is misunderstood as a rendezvous, so he sits in the cemetery fixing his mind on her. His total concentration detaches him from all sensual things until he cleaves to God and becomes a holy man whose blessings are sought by travellers.",
+   "tags": [
+    {
+     "tag": "not-a-hasidic-story:virtues",
+     "scope": "story",
+     "quotes": [],
+     "confidence": 2,
+     "why": "Introduced with 'וכן נלמד' as an exemplum teaching love of God.",
+     "quotes_failed": false
+    },
+    {
+     "tag": "not-a-hasidic-story:sermon",
+     "scope": "story",
+     "quotes": [],
+     "confidence": 2,
+     "why": "Embedded in a homiletic discussion of love of God, quoted from a musar book.",
+     "quotes_failed": false
+    },
+    {
+     "tag": "ethics-and-emotions:lust",
+     "scope": "span",
+     "quotes": [
+      "מי יתן אותה ברשותי לעשות בה כטוב בעיני",
+      "ומרוב חשקו בה הפשיט את מחשבתו מכל מורגש"
+     ],
+     "confidence": 3,
+     "why": "His desire for the princess drives the plot.",
+     "quotes_failed": false
+    },
+    {
+     "tag": "practice:devekut",
+     "scope": "span",
+     "quotes": [
+      "ושבה להתדבק במושכלות",
+      "ודבקה בש\"י"
+     ],
+     "confidence": 3,
+     "why": "His soul comes to cleave to God.",
+     "quotes_failed": false
+    },
+    {
+     "tag": "experience:devekut",
+     "scope": "span",
+     "quotes": [
+      "ודבקה בש\"י"
+     ],
+     "confidence": 3,
+     "why": "Mystical cleaving is the climax of the tale.",
+     "quotes_failed": false
+    },
+    {
+     "tag": "practice:solitude",
+     "scope": "span",
+     "quotes": [
+      "ויום ולילה תמיד ישב בבית הקברות",
+      "והתבודדותו וחשקו הגמור"
+     ],
+     "confidence": 3,
+     "why": "He lives secluded in the cemetery.",
+     "quotes_failed": false
+    },
+    {
+     "tag": "practice:asceticism",
+     "scope": "span",
+     "quotes": [
+      "ומרוב פרישותו מכל מורגש"
+     ],
+     "confidence": 2,
+     "why": "He withdraws from everything sensual.",
+     "quotes_failed": false
+    },
+    {
+     "tag": "practice:meditation",
+     "scope": "span",
+     "quotes": [
+      "וקשירת מחשבת שכלו בדבר אחד תמיד"
+     ],
+     "confidence": 2,
+     "why": "Sustained mental concentration on a single object.",
+     "quotes_failed": false
+    },
+    {
+     "tag": "women:catalyst_character",
+     "scope": "span",
+     "quotes": [
+      "ותען בת המלך ותאמר לו בבית הקברות"
+     ],
+     "confidence": 3,
+     "why": "The princess's remark triggers his retreat, but she plays no further part.",
+     "quotes_failed": false
+    },
+    {
+     "tag": "ethics-and-emotions:virtues",
+     "scope": "story",
+     "quotes": [],
+     "confidence": 2,
+     "why": "Illustrates the virtue of whole-hearted love of God.",
+     "quotes_failed": false
+    },
+    {
+     "tag": "ethics-and-emotions:repentance",
+     "scope": "span",
+     "quotes": [
+      "ושב להיות עובד שלם איש האלהים קדוש"
+     ],
+     "confidence": 1,
+     "why": "He turns from lust to holiness, though no explicit teshuvah is described.",
+     "quotes_failed": false
+    },
+    {
+     "tag": "supernatural:miracle",
+     "scope": "span",
+     "quotes": [
+      "עד שתפלתו נשמעת וברכתו פועלת"
+     ],
+     "confidence": 1,
+     "why": "His prayers and blessings become effective; this is ambient efficacy rather than a discrete miracle.",
+     "quotes_failed": false
+    },
+    {
+     "tag": "social:retrospective_recognition",
+     "scope": "span",
+     "quotes": [
+      "והיא לא נתכוונה לזה אבל רצתה לומר"
+     ],
+     "confidence": 1,
+     "why": "The narrator reveals the true meaning of her words, which he misunderstood.",
+     "quotes_failed": false
+    }
+   ],
+   "missing_concepts": [
+    "sublimation of erotic desire into love of God (ahavat ha-Shem)",
+    "misunderstood utterance as the plot device",
+    "cemetery as the setting and a symbol of equality in death"
+   ],
+   "start_quote_found": true,
+   "end_quote_found": true
+  }
+ ],
+ "check": {
+  "non_vocab_tags": [],
+  "quotes": 13,
+  "quotes_not_found": 0
+ },
+ "id": "Shaarei-Haemuna_0039",
+ "chars": 1204,
+ "seconds": 20
+}

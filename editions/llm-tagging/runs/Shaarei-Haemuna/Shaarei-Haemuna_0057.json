@@ -1,0 +1,160 @@
+{
+ "unit": {
+  "kind": "hasidic_story",
+  "why": "A short narrative: a secluded ascetic tzaddik from a distant land comes to R. Elimelech's beit midrash, is recognised by him through holy spirit, and becomes his disciple. A one-line homiletic exhortation closes the division.",
+  "boundary_note": "The story is embedded in a homiletic context: the previous division ends with an ethical teaching, and the division closes with an exhortation ('וכשתשיג אמיתות דרך השם...')."
+ },
+ "stories": [
+  {
+   "k": 1,
+   "start_quote": "ומעשה היה שבא צדיק אחד ממדינה רחוקה",
+   "end_quote": "ודיבק נפשו לרבינו והיה מגדולי תלמידיו",
+   "hasidic": true,
+   "summary_en": "A secluded, ascetic tzaddik from a distant land, skeptical of R. Elimelech's reputation, comes to his beit midrash; R. Elimelech perceives him by holy spirit, goes out to greet him with a verse about one who hides, and the stranger becomes one of his greatest disciples.",
+   "tags": [
+    {
+     "tag": "characters-and-roles:hidden_righteous",
+     "scope": "span",
+     "quotes": [
+      "שהיה דרכו להיות סגור ומסוגר ולא דיבר עם שום אדם",
+      "ושום אדם לא הכיר מהותו וענינו"
+     ],
+     "confidence": 3,
+     "why": "Unknown, secluded tzaddik whose nature no one knew",
+     "quotes_failed": false
+    },
+    {
+     "tag": "practice:solitude",
+     "scope": "span",
+     "quotes": [
+      "שהיה דרכו להיות סגור ומסוגר ולא דיבר עם שום אדם"
+     ],
+     "confidence": 3,
+     "why": "Lived shut away and spoke to no one",
+     "quotes_failed": false
+    },
+    {
+     "tag": "practice:asceticism",
+     "scope": "span",
+     "quotes": [
+      "מכל התאות ולומד תורה יומם ולילה"
+     ],
+     "confidence": 2,
+     "why": "Separation from all desires",
+     "quotes_failed": false
+    },
+    {
+     "tag": "practice:tefillin",
+     "scope": "span",
+     "quotes": [
+      "והיה מעוטף בטלית ותפילין"
+     ],
+     "confidence": 2,
+     "why": "Constantly wrapped in tallit and tefillin",
+     "quotes_failed": false
+    },
+    {
+     "tag": "practice:study",
+     "scope": "span",
+     "quotes": [
+      "ולומד תורה יומם ולילה"
+     ],
+     "confidence": 2,
+     "why": "Studies Torah day and night",
+     "quotes_failed": false
+    },
+    {
+     "tag": "supernatural:perception",
+     "scope": "span",
+     "quotes": [
+      "צפה ברוח קדשו ויצא לנגדו מביתו"
+     ],
+     "confidence": 3,
+     "why": "R. Elimelech foresees the stranger's arrival and knows who he is",
+     "quotes_failed": false
+    },
+    {
+     "tag": "practice:travel_to_the_tsaddik",
+     "scope": "span",
+     "quotes": [
+      "ובא לבית מדרשומדרשי של רבינו"
+     ],
+     "confidence": 3,
+     "why": "Travels from afar to R. Elimelech",
+     "quotes_failed": false
+    },
+    {
+     "tag": "practice:reception_of_hasidim",
+     "scope": "span",
+     "quotes": [
+      "ונתן לו שלום בסבר פנים יפות"
+     ],
+     "confidence": 3,
+     "why": "The rebbe goes out and greets the newcomer",
+     "quotes_failed": false
+    },
+    {
+     "tag": "spaces:beth_midrash",
+     "scope": "span",
+     "quotes": [
+      "ויצא לנגדו מביתו לבהמ\"ד שלו"
+     ],
+     "confidence": 2,
+     "why": "The meeting takes place at the beit midrash",
+     "quotes_failed": false
+    },
+    {
+     "tag": "folkloristics:story_type_rapprochement",
+     "scope": "story",
+     "quotes": [],
+     "confidence": 3,
+     "why": "A wondering outsider is drawn close and becomes a disciple",
+     "quotes_failed": false
+    },
+    {
+     "tag": "social:inter_hasidic_master_disciple_relationship",
+     "scope": "span",
+     "quotes": [
+      "ודיבק נפשו לרבינו והיה מגדולי תלמידיו"
+     ],
+     "confidence": 2,
+     "why": "The outcome is discipleship",
+     "quotes_failed": false
+    },
+    {
+     "tag": "social:retrospective_recognition",
+     "scope": "span",
+     "quotes": [
+      "והצדיק הזה תמה כי לא היה מכיר אדם שם"
+     ],
+     "confidence": 1,
+     "why": "The stranger realises the rebbe's true power through being recognised",
+     "quotes_failed": false
+    },
+    {
+     "tag": "not-a-hasidic-story:sermon",
+     "scope": "span",
+     "quotes": [
+      "וכשתשיג אמיתות דרך השם באמת לשמו ית׳"
+     ],
+     "confidence": 1,
+     "why": "The story is framed within an ethical-homiletic discourse",
+     "quotes_failed": false
+    }
+   ],
+   "missing_concepts": [
+    "the tzaddik's reputation for wonders draws a skeptic to test him"
+   ],
+   "start_quote_found": true,
+   "end_quote_found": true
+  }
+ ],
+ "check": {
+  "non_vocab_tags": [],
+  "quotes": 13,
+  "quotes_not_found": 0
+ },
+ "id": "Shaarei-Haemuna_0057",
+ "chars": 661,
+ "seconds": 23
+}

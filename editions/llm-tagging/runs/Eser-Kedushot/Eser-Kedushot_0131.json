@@ -1,0 +1,91 @@
+{
+ "unit": {
+  "kind": "hasidic_story",
+  "why": "A short anecdote about the master: he could not travel to R. Naftali of Ropshitz, then met him in Zhidichov, clung to him, and received the secret of shirayim.",
+  "boundary_note": ""
+ },
+ "stories": [
+  {
+   "k": 1,
+   "start_quote": "אמר כי רצה לנסוע להרה״ק מו\"ה נפתלי",
+   "end_quote": "מסר לו הרה״ק הנ\"ל דבר גדול כזה",
+   "hasidic": true,
+   "summary_en": "The master wanted to travel to R. Naftali of Ropshitz but could not; when R. Naftali came to Zhidichov he never let go of his hand, watched his every movement, and received from him the secret of the shirayim tzaddikim leave from their meals, all before the age of twenty-two.",
+   "tags": [
+    {
+     "tag": "practice:travel_to_the_tsaddik",
+     "scope": "span",
+     "quotes": [
+      "רצה לנסוע להרה״ק מו\"ה נפתלי זללה״ה מראפשיטץ"
+     ],
+     "confidence": 2,
+     "why": "He intended a journey to the tzaddik, which did not happen",
+     "quotes_failed": false
+    },
+    {
+     "tag": "practice:the_travels_of_the_tsaddik",
+     "scope": "span",
+     "quotes": [
+      "כאשר זכה שבא הרה\"ק הנ\"ל לזידיטשוב"
+     ],
+     "confidence": 2,
+     "why": "R. Naftali's visit to Zhidichov is the occasion of the meeting",
+     "quotes_failed": false
+    },
+    {
+     "tag": "social:inter_hasidic_master_disciple_relationship",
+     "scope": "span",
+     "quotes": [
+      "לא זזה ידו מתוך ידו",
+      "והביט על כל תנועה ותנועה"
+     ],
+     "confidence": 2,
+     "why": "The young man clings to the older tzaddik and receives a teaching from him",
+     "quotes_failed": false
+    },
+    {
+     "tag": "knowledge:esoteric",
+     "scope": "span",
+     "quotes": [
+      "מסר לו הסוד של שירים שמניחין הצדיקים באכילתן"
+     ],
+     "confidence": 3,
+     "why": "A secret is transmitted from one tzaddik to another",
+     "quotes_failed": false
+    },
+    {
+     "tag": "folkloristics:story_type_virtues",
+     "scope": "story",
+     "quotes": [],
+     "confidence": 2,
+     "why": "The tale is framed as showing the master's great holiness at a young age",
+     "quotes_failed": false
+    },
+    {
+     "tag": "times:death",
+     "scope": "span",
+     "quotes": [
+      "כשנסתלק הרה״ק הנ\"ל הי׳ מורינו בן כ\"ב שנים"
+     ],
+     "confidence": 1,
+     "why": "R. Naftali's death is mentioned only to date the event",
+     "quotes_failed": false
+    }
+   ],
+   "missing_concepts": [
+    "shirayim (the tzaddik's meal leftovers) and their secret",
+    "observing a tzaddik's movements as a way of learning"
+   ],
+   "start_quote_found": true,
+   "end_quote_found": true
+  }
+ ],
+ "check": {
+  "non_vocab_tags": [],
+  "quotes": 6,
+  "quotes_not_found": 0
+ },
+ "id": "Eser-Kedushot_0131",
+ "chars": 337,
+ "seconds": 16
+}

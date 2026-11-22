@@ -1,0 +1,91 @@
+{
+ "unit": {
+  "kind": "hasidic_story",
+  "why": "A short anecdote: R. Zvi leads the prayer at the Apter Rav's, sees the old rabbi finish the Amidah, and starts the repetition at once so as not to tire him.",
+  "boundary_note": ""
+ },
+ "stories": [
+  {
+   "k": 1,
+   "start_quote": "פ״א התפלל רבינו צבי לפני התיבה",
+   "end_quote": "ח\"ו חולשת הדעת להסבא קדישא",
+   "hasidic": true,
+   "summary_en": "While leading the prayer at the Apter Rav's, R. Zvi of Zhidachov cut short his own Amidah when he saw the old Apter had finished, and began the loud repetition at once so the elder would not be weakened by waiting.",
+   "tags": [
+    {
+     "tag": "practice:prayer",
+     "scope": "span",
+     "quotes": [
+      "התפלל רבינו צבי לפני התיבה אצל הרה״ק מאפטא",
+      "התחלתי תיכף לומר השמ\"ע דקול רם"
+     ],
+     "confidence": 3,
+     "why": "Leading the congregational prayer and the Amidah repetition are the subject.",
+     "quotes_failed": false
+    },
+    {
+     "tag": "social:inter_hasidic",
+     "scope": "span",
+     "quotes": [
+      "אצל הרה״ק מאפטא"
+     ],
+     "confidence": 2,
+     "why": "One tsaddik shows consideration for another, older tsaddik.",
+     "quotes_failed": false
+    },
+    {
+     "tag": "practice:travel_to_other_tsaddik",
+     "scope": "span",
+     "quotes": [
+      "התפלל רבינו צבי לפני התיבה אצל הרה״ק מאפטא"
+     ],
+     "confidence": 1,
+     "why": "He is staying with the Apter Rav, not his own master.",
+     "quotes_failed": false
+    },
+    {
+     "tag": "ethics-and-emotions:virtues",
+     "scope": "span",
+     "quotes": [
+      "שלא יהי' ח\"ו חולשת הדעת להסבא קדישא"
+     ],
+     "confidence": 2,
+     "why": "His regard for the elder's strength is the point of the anecdote.",
+     "quotes_failed": false
+    },
+    {
+     "tag": "folkloristics:story_type_virtues",
+     "scope": "story",
+     "quotes": [],
+     "confidence": 2,
+     "why": "The tale illustrates R. Zvi's considerateness and respect for an elder tsaddik.",
+     "quotes_failed": false
+    },
+    {
+     "tag": "practice:halakhah",
+     "scope": "span",
+     "quotes": [
+      "כאשר עמדתי בברכת רצה בתפלת י\"ח"
+     ],
+     "confidence": 1,
+     "why": "Implies a point of law: the cantor shortens his silent Amidah for the sake of the congregation's elder.",
+     "quotes_failed": false
+    }
+   ],
+   "missing_concepts": [
+    "respect for elders / honouring a senior tsaddik",
+    "role of the prayer leader (shaliach tzibbur)"
+   ],
+   "start_quote_found": true,
+   "end_quote_found": true
+  }
+ ],
+ "check": {
+  "non_vocab_tags": [],
+  "quotes": 6,
+  "quotes_not_found": 0
+ },
+ "id": "Eser-Kedushot_0045",
+ "chars": 246,
+ "seconds": 27
+}

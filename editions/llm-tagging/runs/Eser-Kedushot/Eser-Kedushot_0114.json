@@ -1,0 +1,126 @@
+{
+ "unit": {
+  "kind": "hasidic_story",
+  "why": "A short anecdote: during his youth at the court of his uncle and father-in-law R. Zvi, the holy sage of Raudal (?) mocks a fellow young man who was striving to become a rebbe, in a witty five-point comparison. The narrative frame is thin and the core is a saying.",
+  "boundary_note": ""
+ },
+ "stories": [
+  {
+   "k": 1,
+   "start_quote": "בימי חורפו עת הסתופף בצל קודש",
+   "end_quote": "ודפח\"ח שיחת חולין של ת\"ח",
+   "hasidic": true,
+   "summary_en": "While studying at the court of his master R. Zvi, the sage of Raudal jokingly contrasts himself, a Talmud and Shulhan Arukh scholar seeking a rabbinic post, with a young hasid who practised midnight vigils and mikveh immersions in order to become a rebbe, ending with the barb that he will become a rebbe too and the other will not.",
+   "tags": [
+    {
+     "tag": "practice:joke",
+     "scope": "span",
+     "quotes": [
+      "אמר אליו החכם הקדוש מראודאל בדרך צחות",
+      "ודפח\"ח שיחת חולין של ת\"ח"
+     ],
+     "confidence": 3,
+     "why": "The whole point is a witty jest",
+     "quotes_failed": false
+    },
+    {
+     "tag": "practice:study",
+     "scope": "span",
+     "quotes": [
+      "והי׳ שוקד מאד בנגלות התורה וארבע ש\"ע",
+      "כשאני שוקד על דלתי הש\"ס והפוסקים"
+     ],
+     "confidence": 3,
+     "why": "His diligent study of halakhic literature is contrasted",
+     "quotes_failed": false
+    },
+    {
+     "tag": "practice:tvilah",
+     "scope": "span",
+     "quotes": [
+      "בעמדך בחצות ליל והולך למקוה",
+      "אם תלוי במאה מקואות או באלף מקואות"
+     ],
+     "confidence": 2,
+     "why": "The aspirant's habit of immersing in the mikveh is mocked",
+     "quotes_failed": false
+    },
+    {
+     "tag": "ethics-and-emotions:pride",
+     "scope": "span",
+     "quotes": [
+      "שהתחיל בנערותיו לדפוק על דרך להיות רבי"
+     ],
+     "confidence": 2,
+     "why": "Ambition to become a rebbe is satirised",
+     "quotes_failed": false
+    },
+    {
+     "tag": "social:inter_hasidic",
+     "scope": "span",
+     "quotes": [
+      "ואז הסתופף גם הרב החסיד וכו׳"
+     ],
+     "confidence": 2,
+     "why": "Exchange between two young men at the same court",
+     "quotes_failed": false
+    },
+    {
+     "tag": "practice:torat_ha_tsaddik",
+     "scope": "span",
+     "quotes": [
+      "כי רעבישקייט ומדריגות הוא ענין פנימי",
+      "עולם שיהיו משוגע לקבל אותך לרבי"
+     ],
+     "confidence": 2,
+     "why": "Reflects on what makes a true rebbe and his acceptance by followers",
+     "quotes_failed": false
+    },
+    {
+     "tag": "spaces:institutions_hassidic_court",
+     "scope": "span",
+     "quotes": [
+      "עת הסתופף בצל קודש דודו ורבו המובהק"
+     ],
+     "confidence": 2,
+     "why": "Set in R. Zvi's court",
+     "quotes_failed": false
+    },
+    {
+     "tag": "social:inter_hasidic_master_disciple_relationship",
+     "scope": "span",
+     "quotes": [
+      "דודו ורבו המובהק וחותנו הקדוש רבינו צבי"
+     ],
+     "confidence": 1,
+     "why": "Discipleship forms the setting only",
+     "quotes_failed": false
+    },
+    {
+     "tag": "practice:meditation",
+     "scope": "span",
+     "quotes": [
+      "בעמדך בחצות ליל והולך למקוה ואומר החצות והזוהר"
+     ],
+     "confidence": 1,
+     "why": "Midnight vigils as inner worship, mentioned in the jest",
+     "quotes_failed": false
+    }
+   ],
+   "missing_concepts": [
+    "ambition to become a rebbe / careerism in hasidic leadership",
+    "rabbi (moreh hora'ah) vs. rebbe contrast"
+   ],
+   "start_quote_found": true,
+   "end_quote_found": true
+  }
+ ],
+ "check": {
+  "non_vocab_tags": [],
+  "quotes": 13,
+  "quotes_not_found": 0
+ },
+ "id": "Eser-Kedushot_0114",
+ "chars": 1024,
+ "seconds": 20
+}

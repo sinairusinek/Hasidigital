@@ -1,0 +1,130 @@
+{
+ "unit": {
+  "kind": "hasidic_story",
+  "why": "A quoted memorate: R. Yehiel Meir of Gostynin tells how R. Zelig of Sharensk visited him and perceived that he had prayed without concentration.",
+  "boundary_note": "The division ends by pointing to a teaching printed later ('כתובה להלן'). The previous division is a separate teaching on charity and reward."
+ },
+ "stories": [
+  {
+   "k": 1,
+   "start_quote": "ובס׳ מרום הרי״ם וז\"ל די לי",
+   "end_quote": "כתובה להלן בין חידושי דבריו מפיו ז״ל",
+   "hasidic": true,
+   "summary_en": "R. Yehiel Meir of Gostynin recalls a visit from R. Zelig of Sharensk, who arrived hungry. R. Yehiel Meir made him eat alone while he went to pray, and R. Zelig then told him by holy spirit that he had prayed without concentration, explaining it with a parable from Hovot HaLevavot and a witty reading of a verse.",
+   "tags": [
+    {
+     "tag": "supernatural:perception",
+     "scope": "span",
+     "quotes": [
+      "אומר לך רוה״ק שלא התפללת היום בישוב הדעת"
+     ],
+     "confidence": 3,
+     "why": "R. Zelig knows the quality of the other man's prayer without having seen it.",
+     "quotes_failed": false
+    },
+    {
+     "tag": "practice:prayer",
+     "scope": "span",
+     "quotes": [
+      "נכנסתי במשך זמן סעודתו לחדר השני להתפלל",
+      "כשמתפלל (להקב״ה) בלא כונה"
+     ],
+     "confidence": 3,
+     "why": "Prayer and its quality are the core of the story.",
+     "quotes_failed": false
+    },
+    {
+     "tag": "practice:the_travels_of_the_tsaddik",
+     "scope": "span",
+     "quotes": [
+      "בא עיף מאד ומעונה ומורעב מן הדרך"
+     ],
+     "confidence": 2,
+     "why": "The tsaddik arrives from the road and the story takes place during his stay.",
+     "quotes_failed": false
+    },
+    {
+     "tag": "practice:storytelling",
+     "scope": "span",
+     "quotes": [
+      "וספוריו הנעימים מצדיקי דורו רבנן קשישאי"
+     ],
+     "confidence": 2,
+     "why": "His visits were marked by telling tales of the tsaddikim of his generation.",
+     "quotes_failed": false
+    },
+    {
+     "tag": "ethics-and-emotions:joy",
+     "scope": "span",
+     "quotes": [
+      "היה יום טוב ממש לא אכלנו ולא שתינו"
+     ],
+     "confidence": 2,
+     "why": "His visit is described as a festive joy.",
+     "quotes_failed": false
+    },
+    {
+     "tag": "practice:joke",
+     "scope": "span",
+     "quotes": [
+      "ואמר עוד דרך הלצה בפסוק אל תלחם"
+     ],
+     "confidence": 3,
+     "why": "He gives a witty reading of a verse.",
+     "quotes_failed": false
+    },
+    {
+     "tag": "practice:sermon",
+     "scope": "span",
+     "quotes": [
+      "דאיתא בחוה\"ל שכשמתפלל (להקב״ה) בלא כונה",
+      "ג׳ דברים מרחייבין דעתו של אדם"
+     ],
+     "confidence": 2,
+     "why": "Torah teachings are quoted within the story.",
+     "quotes_failed": false
+    },
+    {
+     "tag": "social:inter_hasidic",
+     "scope": "story",
+     "quotes": [],
+     "confidence": 2,
+     "why": "The story is an interaction between two Hasidic figures, host and guest.",
+     "quotes_failed": false
+    },
+    {
+     "tag": "social:inter_hasidic_master_disciple_relationship",
+     "scope": "span",
+     "quotes": [
+      "מהק׳ מו״ר הה״ק ר׳ יחיאל מאיר זצוק\"ל"
+     ],
+     "confidence": 1,
+     "why": "The chain of transmission runs from master to disciple; the relationship is a frame, not the plot.",
+     "quotes_failed": false
+    },
+    {
+     "tag": "folkloristics:story_type_virtues",
+     "scope": "story",
+     "quotes": [],
+     "confidence": 1,
+     "why": "The story praises R. Zelig's holy spirit and charm.",
+     "quotes_failed": false
+    }
+   ],
+   "missing_concepts": [
+    "hospitality / host-guest etiquette (eating with a guest)",
+    "prayer without concentration compared to letting a guest eat alone"
+   ],
+   "start_quote_found": true,
+   "end_quote_found": true
+  }
+ ],
+ "check": {
+  "non_vocab_tags": [],
+  "quotes": 10,
+  "quotes_not_found": 0
+ },
+ "id": "Shaarei-Haemuna_0019",
+ "chars": 1321,
+ "seconds": 19
+}

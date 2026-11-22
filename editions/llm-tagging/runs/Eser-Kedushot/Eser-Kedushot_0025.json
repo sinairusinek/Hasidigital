@@ -1,0 +1,92 @@
+{
+ "unit": {
+  "kind": "hasidic_story",
+  "why": "A short first-person anecdote, quoted from the introduction to Zohar Hai, about the author as a child performing a yihud and his master perceiving it through ruach ha-kodesh.",
+  "boundary_note": ""
+ },
+ "stories": [
+  {
+   "k": 1,
+   "start_quote": "כשהייתי ילד קטן חזרתי במקום אחד",
+   "end_quote": "והחזיר לי פניו פנים שוחקות",
+   "hasidic": true,
+   "summary_en": "As a small child the narrator recited the yihud of the beard (dikna) in some place. When his master later came there, he perceived it through his holy spirit, asked who had performed yihudim there, and turned a smiling face to him.",
+   "tags": [
+    {
+     "tag": "kabbalah:kabbalistic_terms_yihudim",
+     "scope": "span",
+     "quotes": [
+      "חזרתי במקום אחד על יחוד הדיקנא",
+      "מי הי' כאן שייחד יחודים"
+     ],
+     "confidence": 3,
+     "why": "Contemplative Lurianic yihud of the dikna performed by the child.",
+     "quotes_failed": false
+    },
+    {
+     "tag": "practice:meditation",
+     "scope": "span",
+     "quotes": [
+      "חזרתי במקום אחד על יחוד הדיקנא"
+     ],
+     "confidence": 3,
+     "why": "Performing yihudim is contemplative mystical practice.",
+     "quotes_failed": false
+    },
+    {
+     "tag": "supernatural:perception",
+     "scope": "span",
+     "quotes": [
+      "וראה ברוח קדשו ואמר מי הי' כאן"
+     ],
+     "confidence": 3,
+     "why": "The master knows through ruach ha-kodesh that yihudim were performed there.",
+     "quotes_failed": false
+    },
+    {
+     "tag": "social:inter_hasidic_master_disciple_relationship",
+     "scope": "span",
+     "quotes": [
+      "ואחר שעה בא מורי זצ\"ל למקום זה",
+      "והחזיר לי פניו פנים שוחקות"
+     ],
+     "confidence": 3,
+     "why": "The master's approving recognition of his young disciple is the point of the story.",
+     "quotes_failed": false
+    },
+    {
+     "tag": "knowledge:esoteric",
+     "scope": "span",
+     "quotes": [
+      "על יחוד הדיקנא"
+     ],
+     "confidence": 2,
+     "why": "Kabbalistic knowledge mastered in childhood.",
+     "quotes_failed": false
+    },
+    {
+     "tag": "folkloristics:story_type_virtues",
+     "scope": "story",
+     "quotes": [],
+     "confidence": 1,
+     "why": "The anecdote shows the narrator's precocious holiness.",
+     "quotes_failed": false
+    }
+   ],
+   "missing_concepts": [
+    "child prodigy / precocious spiritual attainment",
+    "first-person memoir quoted from the author's own book introduction"
+   ],
+   "start_quote_found": true,
+   "end_quote_found": true
+  }
+ ],
+ "check": {
+  "non_vocab_tags": [],
+  "quotes": 7,
+  "quotes_not_found": 0
+ },
+ "id": "Eser-Kedushot_0025",
+ "chars": 194,
+ "seconds": 12
+}

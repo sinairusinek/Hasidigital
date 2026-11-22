@@ -1,0 +1,81 @@
+{
+ "unit": {
+  "kind": "paratext_with_story",
+  "why": "The compiler's note answers a scholarly objection about the month of Abraham's death and quotes, as support, a short tradition about the Seer of Lublin foreseeing each month's events, which ends with his own death.",
+  "boundary_note": "The compiler's note then introduces letters of approbation that continue into the next division."
+ },
+ "stories": [
+  {
+   "k": 1,
+   "start_quote": "והרה״ק מלובלין הי׳ כותב ברוח קדשו",
+   "end_quote": "לא כתב רק עד יום ה׳ דניסן",
+   "hasidic": true,
+   "summary_en": "Each year the Seer of Lublin used the first twelve days of Nisan to write down by divine inspiration what would happen in each month, and in the year he died in Av he wrote only up to the fifth of Nisan, the day that stands for Av.",
+   "tags": [
+    {
+     "tag": "supernatural:perception",
+     "scope": "span",
+     "quotes": [
+      "הי׳ כותב ברוח קדשו בכל יום מה שיהי' בכל החודש"
+     ],
+     "confidence": 3,
+     "why": "He foresees each month's events by divine inspiration.",
+     "quotes_failed": false
+    },
+    {
+     "tag": "supernatural:prognostication",
+     "scope": "span",
+     "quotes": [
+      "ובשנה שנתבקש בישיבה ש\"מ בחדש מנחם לא כתב רק עד יום ה׳ דניסן"
+     ],
+     "confidence": 2,
+     "why": "His writing stopped at the day standing for the month he died, an implicit prediction of his death.",
+     "quotes_failed": false
+    },
+    {
+     "tag": "times:death",
+     "scope": "span",
+     "quotes": [
+      "ובשנה שנתבקש בישיבה ש\"מ בחדש מנחם"
+     ],
+     "confidence": 2,
+     "why": "The tsaddik's death is the point of the anecdote.",
+     "quotes_failed": false
+    },
+    {
+     "tag": "not-a-hasidic-story:sermon",
+     "scope": "story",
+     "quotes": [],
+     "confidence": 3,
+     "why": "The anecdote serves a scholarly argument reconciling the Talmud with the book Keranim.",
+     "quotes_failed": false
+    },
+    {
+     "tag": "practice:sermon",
+     "scope": "span",
+     "quotes": [
+      "אשר י\"ב ימים הראשונים דניסן הם כח כללי לי״ב חדשי השנה"
+     ],
+     "confidence": 2,
+     "why": "A teaching of the Lublin rebbe is quoted.",
+     "quotes_failed": false
+    }
+   ],
+   "missing_concepts": [
+    "scholarly correspondence between the compiler and a rabbi",
+    "calendar mysticism (the twelve days of Nisan standing for the twelve months)",
+    "the compiler defending his reliability"
+   ],
+   "start_quote_found": true,
+   "end_quote_found": true
+  }
+ ],
+ "check": {
+  "non_vocab_tags": [],
+  "quotes": 4,
+  "quotes_not_found": 0
+ },
+ "id": "non-story-009",
+ "chars": 1146,
+ "seconds": 34
+}

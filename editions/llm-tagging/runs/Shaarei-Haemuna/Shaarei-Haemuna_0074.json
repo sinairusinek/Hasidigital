@@ -1,0 +1,220 @@
+{
+ "unit": {
+  "kind": "several_stories",
+  "why": "A quotation from Zekhor le-Avraham holds two linked narratives: the Bach's dismissal from the Belz rabbinate and the birds announcing his call to Krakow, then a later decree to exhume graves in Belz, which the local tzaddik explains as punishment of the Bach's opponents.",
+  "boundary_note": ""
+ },
+ "stories": [
+  {
+   "k": 1,
+   "start_quote": "ואני הגבר מעיד שבשנת ה׳ תקצ\"ח",
+   "end_quote": "וכך היה שקודם הערב באו",
+   "hasidic": false,
+   "summary_en": "The Bach, ousted from the Belz rabbinate by wicked opponents and living in poverty, learns from chirping birds on a Friday that he has been chosen rabbi of Krakow, has his wife prepare for three emissaries, and they arrive before evening.",
+   "tags": [
+    {
+     "tag": "not-a-hasidic-story:hagiography",
+     "scope": "story",
+     "quotes": [],
+     "confidence": 3,
+     "why": "Praises the Bach, a pre-Hasidic rabbinic authority.",
+     "quotes_failed": false
+    },
+    {
+     "tag": "social:conflict",
+     "scope": "span",
+     "quotes": [
+      "וקמו שם כת רשעים וגרו במחלוקת",
+      "והעבירו אותו מהרבנות"
+     ],
+     "confidence": 3,
+     "why": "Opponents remove him from his post.",
+     "quotes_failed": false
+    },
+    {
+     "tag": "supernatural:perception",
+     "scope": "span",
+     "quotes": [
+      "שנתבשר מהצפרים שהוא נתקבל להיות לרב"
+     ],
+     "confidence": 3,
+     "why": "He understands the birds' message.",
+     "quotes_failed": false
+    },
+    {
+     "tag": "supernatural:prognostication",
+     "scope": "span",
+     "quotes": [
+      "והם יבואו לכאן ע״ז השבת",
+      "וכך היה שקודם הערב באו"
+     ],
+     "confidence": 3,
+     "why": "His prediction of the emissaries comes true.",
+     "quotes_failed": false
+    },
+    {
+     "tag": "supernatural:communicating_with_the_invisible",
+     "scope": "span",
+     "quotes": [
+      "כי כך שמעתי מהצפרם הנ\"ל"
+     ],
+     "confidence": 1,
+     "why": "Hears a message conveyed through birds.",
+     "quotes_failed": false
+    },
+    {
+     "tag": "characters-and-roles:the_family_of_the_tsaddik",
+     "scope": "span",
+     "quotes": [
+      "ואמר לאשתו הצדקת"
+     ],
+     "confidence": 3,
+     "why": "His wife appears.",
+     "quotes_failed": false
+    },
+    {
+     "tag": "women:minor_character",
+     "scope": "span",
+     "quotes": [
+      "אמרה לו אין לי מעות",
+      "קח על משכון וכן עשתה"
+     ],
+     "confidence": 3,
+     "why": "The wife speaks and acts.",
+     "quotes_failed": false
+    },
+    {
+     "tag": "times:shabbat",
+     "scope": "span",
+     "quotes": [
+      "ויהי היום בע״ש כשהיה רוחץ",
+      "והכן עוד יותר על ש\"ק"
+     ],
+     "confidence": 3,
+     "why": "Set on the eve of Shabbat, with preparations for it.",
+     "quotes_failed": false
+    },
+    {
+     "tag": "ethics-and-emotions:joy",
+     "scope": "span",
+     "quotes": [
+      "והרב כשמעם מיד שמח ונכנס"
+     ],
+     "confidence": 2,
+     "why": "He rejoices at the news.",
+     "quotes_failed": false
+    },
+    {
+     "tag": "social:poverty",
+     "scope": "span",
+     "quotes": [
+      "והוא ז״ל היה עני גדול"
+     ],
+     "confidence": 1,
+     "why": "Shows the righteous man's poverty, though not as embraced poverty.",
+     "quotes_failed": false
+    }
+   ],
+   "missing_concepts": [
+    "understanding the language of birds",
+    "appointment to a rabbinate"
+   ],
+   "start_quote_found": true,
+   "end_quote_found": true
+  },
+  {
+   "k": 2,
+   "start_quote": "והנה טרם וקודם הזמן שהייתי",
+   "end_quote": "ע״כ שמעתי שם מאנשי אמת",
+   "hasidic": true,
+   "summary_en": "A decree forces Belz to exhume bones from its cemetery, and the town's tzaddik reassures the distressed people that these are the bones of the Bach's opponents, being punished for their dispute.",
+   "tags": [
+    {
+     "tag": "supernatural:perception",
+     "scope": "span",
+     "quotes": [
+      "שידוע לי בבירור שהעצמות האלה"
+     ],
+     "confidence": 3,
+     "why": "The tzaddik knows supernaturally whose bones these are.",
+     "quotes_failed": false
+    },
+    {
+     "tag": "ethics-and-emotions:punishment",
+     "scope": "span",
+     "quotes": [
+      "ולכן נגזרה זאת עליהם לטלטלם"
+     ],
+     "confidence": 3,
+     "why": "Posthumous punishment of the opponents.",
+     "quotes_failed": false
+    },
+    {
+     "tag": "social:conflict",
+     "scope": "span",
+     "quotes": [
+      "מאנשים שהיו חולקים עם הרב הב\"ח"
+     ],
+     "confidence": 2,
+     "why": "The earlier dispute is the reason for the punishment.",
+     "quotes_failed": false
+    },
+    {
+     "tag": "social:retrospective_recognition",
+     "scope": "span",
+     "quotes": [
+      "ולכן נגזרה זאת עליהם לטלטלם"
+     ],
+     "confidence": 2,
+     "why": "The hidden meaning of the decree is revealed.",
+     "quotes_failed": false
+    },
+    {
+     "tag": "times:historical_event",
+     "scope": "span",
+     "quotes": [
+      "היה בק\"ק בעלז גזרה על המקום דב״ע"
+     ],
+     "confidence": 2,
+     "why": "A decree concerning the cemetery.",
+     "quotes_failed": false
+    },
+    {
+     "tag": "ethics-and-emotions:fear",
+     "scope": "span",
+     "quotes": [
+      "והיה לאנשי העיר ע״נ גדול",
+      "אל תדאגו"
+     ],
+     "confidence": 2,
+     "why": "The townspeople are distressed.",
+     "quotes_failed": false
+    },
+    {
+     "tag": "social:relations_with_the_authorities",
+     "scope": "span",
+     "quotes": [
+      "שהיו מוכרחים אנשי העיר להוציא מקבריהם"
+     ],
+     "confidence": 1,
+     "why": "An imposed decree, presumably from the authorities.",
+     "quotes_failed": false
+    }
+   ],
+   "missing_concepts": [
+    "exhumation / relocation of a cemetery",
+    "posthumous punishment of the dead"
+   ],
+   "start_quote_found": true,
+   "end_quote_found": true
+  }
+ ],
+ "check": {
+  "non_vocab_tags": [],
+  "quotes": 21,
+  "quotes_not_found": 0
+ },
+ "id": "Shaarei-Haemuna_0074",
+ "chars": 971,
+ "seconds": 27
+}

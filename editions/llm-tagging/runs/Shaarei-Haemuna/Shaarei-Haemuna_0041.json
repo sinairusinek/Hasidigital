@@ -1,0 +1,116 @@
+{
+ "unit": {
+  "kind": "non_hasidic_story",
+  "why": "Within a halakhic note on a thirteen-branched menorah, the text gives a short hagiographic anecdote. The Maggid of Kozhnitz sees the menorah that R. Avraham (Abish), later rabbi of Frankfurt, installed in the synagogue of Karov, and perceives a great light shining from it. The passage adds that Elijah was revealed to R. Avraham.",
+  "boundary_note": "closes the section 'מענין מנורה'; next division begins a new letter-section"
+ },
+ "stories": [
+  {
+   "k": 1,
+   "start_quote": "הגה״ק צי״ע וכו' המפורסם הרב ר׳ בערוש",
+   "end_quote": "מטשעכנאווצע שאסר מנורה כזו.",
+   "hasidic": false,
+   "summary_en": "R. Berish of Biala relates that R. Avraham, later rabbi of Frankfurt, possessed the holy spirit and was revealed to by Elijah, and that the Maggid of Kozhnitz saw the 13-branched menorah he installed in Karov and said a great light shone from it; this is followed by a reference to a halakhic debate on whether a seven-branched menorah is forbidden.",
+   "tags": [
+    {
+     "tag": "not-a-hasidic-story:hagiography",
+     "scope": "story",
+     "quotes": [],
+     "confidence": 3,
+     "why": "praises a non-Hasidic rabbinic authority, the rabbi of Frankfurt, citing an approbation",
+     "quotes_failed": false
+    },
+    {
+     "tag": "not-a-hasidic-story:sermon",
+     "scope": "story",
+     "quotes": [],
+     "confidence": 2,
+     "why": "the anecdote sits inside a halakhic/bibliographic discussion of menorot",
+     "quotes_failed": false
+    },
+    {
+     "tag": "practice:halakhah",
+     "scope": "span",
+     "quotes": [
+      "פלפול אם יש לאסור מנורה שיש בה שבעה נרוח"
+     ],
+     "confidence": 3,
+     "why": "the legal question of a seven-branched menorah is raised",
+     "quotes_failed": false
+    },
+    {
+     "tag": "ethics-and-emotions:prohibitions",
+     "scope": "span",
+     "quotes": [
+      "הרב הצדיק מטשעכנאווצע שאסר מנורה כזו"
+     ],
+     "confidence": 2,
+     "why": "the prohibition of such a menorah is debated",
+     "quotes_failed": false
+    },
+    {
+     "tag": "characters-and-roles:elijah_the_prophet",
+     "scope": "span",
+     "quotes": [
+      "נודע שנתגלה אליו אליהו זכור לטוב"
+     ],
+     "confidence": 3,
+     "why": "Elijah is said to have been revealed to him",
+     "quotes_failed": false
+    },
+    {
+     "tag": "experience:revelation",
+     "scope": "span",
+     "quotes": [
+      "נודע שנתגלה אליו אליהו זכור לטוב"
+     ],
+     "confidence": 2,
+     "why": "the revelation of Elijah",
+     "quotes_failed": false
+    },
+    {
+     "tag": "supernatural:perception",
+     "scope": "span",
+     "quotes": [],
+     "confidence": 2,
+     "why": "the Maggid perceives a hidden spiritual light",
+     "quotes_failed": false
+    },
+    {
+     "tag": "supernatural:light_or_fire_as_a_sign_of_righteousness",
+     "scope": "span",
+     "quotes": [
+      "זורח שם אור גדול מהה״ק הלז שתיקן זאת"
+     ],
+     "confidence": 2,
+     "why": "light shining from the object as a sign of its maker's holiness",
+     "quotes_failed": false
+    },
+    {
+     "tag": "characters-and-roles:preacher",
+     "scope": "span",
+     "quotes": [
+      "והמגיד מקאזניץ ראה המנורה עם י\"ג קנים"
+     ],
+     "confidence": 1,
+     "why": "the Maggid of Kozhnitz appears, though as a tsaddik rather than in a distinct preacher's role",
+     "quotes_failed": false
+    }
+   ],
+   "missing_concepts": [
+    "ritual objects (synagogue menorah, its number of branches)",
+    "rabbinic approbation (haskamah) as the source of a tradition"
+   ],
+   "start_quote_found": true,
+   "end_quote_found": true
+  }
+ ],
+ "check": {
+  "non_vocab_tags": [],
+  "quotes": 7,
+  "quotes_not_found": 1
+ },
+ "id": "Shaarei-Haemuna_0041",
+ "chars": 480,
+ "seconds": 20
+}

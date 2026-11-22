@@ -1,0 +1,158 @@
+{
+ "unit": {
+  "kind": "hasidic_story",
+  "why": "A first-person memorate: on the morning of Shavuot the narrator walks in on his uncle and teacher, unseen, and hears him weeping in prayer to God; seized by trembling, he flees.",
+  "boundary_note": ""
+ },
+ "stories": [
+  {
+   "k": 1,
+   "start_quote": "עוד שם פ\"א כשהאיר היום בחג שבועות",
+   "end_quote": "וכעת ארבעים אלף בישראל אין די",
+   "hasidic": true,
+   "summary_en": "On the dawn of Shavuot the narrator enters his holy uncle's room unnoticed and hears him pacing and weeping before God, begging not to be pushed away because of the crowd of 400-500 visitors that Samael may have sent; overcome with trembling, the narrator flees.",
+   "tags": [
+    {
+     "tag": "times:holidays",
+     "scope": "story",
+     "quotes": [],
+     "confidence": 3,
+     "why": "Set on Shavuot",
+     "quotes_failed": false
+    },
+    {
+     "tag": "practice:prayer",
+     "scope": "span",
+     "quotes": [
+      "והי' בוכה ומבכה לפני קונו"
+     ],
+     "confidence": 3,
+     "why": "Weeping supplication before God",
+     "quotes_failed": false
+    },
+    {
+     "tag": "experience:trembling",
+     "scope": "span",
+     "quotes": [
+      "ואחזתני חיל ורעדה ופתחתי הדלת ונסתי"
+     ],
+     "confidence": 3,
+     "why": "The narrator trembles",
+     "quotes_failed": false
+    },
+    {
+     "tag": "ethics-and-emotions:fear",
+     "scope": "span",
+     "quotes": [
+      "ואחזתני חיל ורעדה ופתחתי הדלת ונסתי"
+     ],
+     "confidence": 3,
+     "why": "Fear makes him flee",
+     "quotes_failed": false
+    },
+    {
+     "tag": "ethics-and-emotions:awe",
+     "scope": "span",
+     "quotes": [
+      "ואחזתני חיל ורעדה"
+     ],
+     "confidence": 2,
+     "why": "Awe of the tzaddik's devotion",
+     "quotes_failed": false
+    },
+    {
+     "tag": "ethics-and-emotions:humility",
+     "scope": "span",
+     "quotes": [
+      "חוס וחמול על נפש העני הזה",
+      "להדיחני מעליך"
+     ],
+     "confidence": 3,
+     "why": "The tzaddik fears fame and the crowd will distance him from God",
+     "quotes_failed": false
+    },
+    {
+     "tag": "ethics-and-emotions:resisting_temptation",
+     "scope": "span",
+     "quotes": [
+      "שלח לו הס״מ ימ\"ש להדיחני מעליך"
+     ],
+     "confidence": 2,
+     "why": "Treats the crowd and fame as Samael's temptation",
+     "quotes_failed": false
+    },
+    {
+     "tag": "characters-and-roles:the_family_of_the_tsaddik",
+     "scope": "span",
+     "quotes": [
+      "נכנסתי אצל מורי דודי הקדוש ז\"ל"
+     ],
+     "confidence": 2,
+     "why": "The narrator is the tzaddik's nephew",
+     "quotes_failed": false
+    },
+    {
+     "tag": "folkloristics:story_type_virtues",
+     "scope": "story",
+     "quotes": [],
+     "confidence": 2,
+     "why": "Shows the tzaddik's humility and fervent piety",
+     "quotes_failed": false
+    },
+    {
+     "tag": "social:inter_hasidic_master_disciple_relationship",
+     "scope": "span",
+     "quotes": [
+      "נכנסתי אצל מורי דודי הקדוש ז\"ל"
+     ],
+     "confidence": 2,
+     "why": "The uncle is the narrator's teacher",
+     "quotes_failed": false
+    },
+    {
+     "tag": "practice:travel_to_the_tsaddik",
+     "scope": "span",
+     "quotes": [
+      "והי' שם על חג לערך ארבע או חמש מאות אנשים"
+     ],
+     "confidence": 2,
+     "why": "Hundreds of hasidim came for the holiday",
+     "quotes_failed": false
+    },
+    {
+     "tag": "spaces:institutions_hassidic_court",
+     "scope": "span",
+     "quotes": [
+      "והי' שם על חג לערך ארבע או חמש מאות אנשים"
+     ],
+     "confidence": 1,
+     "why": "The holiday gathering at the court",
+     "quotes_failed": false
+    },
+    {
+     "tag": "practice:devekut",
+     "scope": "span",
+     "quotes": [],
+     "confidence": 1,
+     "why": "Absorbed in prayer, he does not notice the narrator",
+     "quotes_failed": false
+    }
+   ],
+   "missing_concepts": [
+    "weeping in prayer",
+    "a tzaddik's fear that fame and a following distance him from God",
+    "a disciple's unseen eavesdropping on the master"
+   ],
+   "start_quote_found": true,
+   "end_quote_found": true
+  }
+ ],
+ "check": {
+  "non_vocab_tags": [],
+  "quotes": 12,
+  "quotes_not_found": 1
+ },
+ "id": "Eser-Kedushot_0022",
+ "chars": 392,
+ "seconds": 14
+}

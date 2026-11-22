@@ -1,0 +1,132 @@
+{
+ "unit": {
+  "kind": "hasidic_story",
+  "why": "A short narrative: the tsaddik wants to divorce his wife because they have no daughter, she weeps and prays, and she miraculously gives birth to a daughter after menopause.",
+  "boundary_note": "part of a genealogical chapter; the previous division lists the five sons and the daughter Perl Gittel, and this story explains her birth"
+ },
+ "stories": [
+  {
+   "k": 1,
+   "start_quote": "וכתב לי הגה\"ק רי״מ הנ\"ל מספינקא",
+   "end_quote": "תפלתה וילדה עוד בת הנ\"ל",
+   "hasidic": true,
+   "summary_en": "After five sons, Hinda stopped menstruating, and her husband R. Y.A. wanted to divorce her because they had no daughter; she wept and prayed, God heard her, and she bore a daughter.",
+   "tags": [
+    {
+     "tag": "supernatural:pregnancy",
+     "scope": "span",
+     "quotes": [
+      "חדל להיות לה ארח הנשים",
+      "וילדה עוד בת הנ\"ל"
+     ],
+     "confidence": 3,
+     "why": "she conceives after menopause",
+     "quotes_failed": false
+    },
+    {
+     "tag": "supernatural:miracle",
+     "scope": "span",
+     "quotes": [
+      "ששמע הש״י תפלתה וילדה עוד בת"
+     ],
+     "confidence": 3,
+     "why": "the birth is presented as answered prayer",
+     "quotes_failed": false
+    },
+    {
+     "tag": "social:divorce",
+     "scope": "span",
+     "quotes": [
+      "ורצה הרב רי\"א הנז׳ לגרשה"
+     ],
+     "confidence": 3,
+     "why": "the planned divorce drives the plot",
+     "quotes_failed": false
+    },
+    {
+     "tag": "social:marital_relationship",
+     "scope": "span",
+     "quotes": [
+      "והתחילה אשתו הצדיקת מ' הינדא הנז׳ לבכות לפניו"
+     ],
+     "confidence": 3,
+     "why": "an exchange between husband and wife",
+     "quotes_failed": false
+    },
+    {
+     "tag": "characters-and-roles:the_family_of_the_tsaddik",
+     "scope": "story",
+     "quotes": [],
+     "confidence": 3,
+     "why": "the tsaddik's wife and children",
+     "quotes_failed": false
+    },
+    {
+     "tag": "women:major_character",
+     "scope": "span",
+     "quotes": [
+      "ואמרה הלא אין מעצור לה׳ להושיע"
+     ],
+     "confidence": 3,
+     "why": "Hinda acts through weeping, speech and prayer",
+     "quotes_failed": false
+    },
+    {
+     "tag": "practice:prayer",
+     "scope": "span",
+     "quotes": [
+      "ששמע הש״י תפלתה"
+     ],
+     "confidence": 2,
+     "why": "her prayer is answered",
+     "quotes_failed": false
+    },
+    {
+     "tag": "times:birth",
+     "scope": "span",
+     "quotes": [
+      "וילדה עוד בת הנ\"ל"
+     ],
+     "confidence": 3,
+     "why": "the birth of the daughter",
+     "quotes_failed": false
+    },
+    {
+     "tag": "practice:halakhah",
+     "scope": "span",
+     "quotes": [
+      "לגרשה פל שלא הי' להם בת"
+     ],
+     "confidence": 1,
+     "why": "implicitly the commandment of procreation (a son and a daughter)",
+     "quotes_failed": false
+    },
+    {
+     "tag": "ethics-and-emotions:sadness",
+     "scope": "span",
+     "quotes": [
+      "לבכות לפניו"
+     ],
+     "confidence": 1,
+     "why": "she weeps in distress",
+     "quotes_failed": false
+    }
+   ],
+   "missing_concepts": [
+    "faith or trust in God (bitachon) expressed by a woman",
+    "commandment of procreation (son and daughter) as grounds for divorce",
+    "transmission of the story by letter from a descendant"
+   ],
+   "start_quote_found": true,
+   "end_quote_found": true
+  }
+ ],
+ "check": {
+  "non_vocab_tags": [],
+  "quotes": 10,
+  "quotes_not_found": 0
+ },
+ "id": "Eser-Kedushot_0007",
+ "chars": 263,
+ "seconds": 17
+}

@@ -1,0 +1,121 @@
+{
+ "unit": {
+  "kind": "hasidic_story",
+  "why": "A single anecdote: R. Mordechai Leitner, the disciple, overhears an invisible voice teaching his master R. Zvi Hirsh of Zydaczow at night, and later learns from his master that the voice was the Ari.",
+  "boundary_note": ""
+ },
+ "stories": [
+  {
+   "k": 1,
+   "start_quote": "סיפר תלמידו הגאוה״ק ר׳ מרדכי לעטניר זצ\"ל",
+   "end_quote": "מי הי׳ אותו הקול ששמע בלילה",
+   "hasidic": true,
+   "summary_en": "R. Mordechai Leitner, sleeping beside his master R. Zvi Hirsh's room, hears at night an unseen voice explaining a Zohar passage to him; at the next Third Meal he hears the same homily from his master, who ends 'thus I heard from the mouth of the Ari', and he understands whose voice it was.",
+   "tags": [
+    {
+     "tag": "supernatural:communicating_with_the_invisible",
+     "scope": "span",
+     "quotes": [
+      "שמע קול מדבר אל רבו פירוש על מאמר מזוה״ק",
+      "ולא ראה שם שום אדם רק שמע הקול מדבר"
+     ],
+     "confidence": 3,
+     "why": "the tzaddik is taught by the invisible soul of the Ari",
+     "quotes_failed": false
+    },
+    {
+     "tag": "experience:revelation",
+     "scope": "span",
+     "quotes": [
+      "כך שמעתי מפי האריז\"ל"
+     ],
+     "confidence": 3,
+     "why": "a revelation of the Ari to the tzaddik",
+     "quotes_failed": false
+    },
+    {
+     "tag": "social:retrospective_recognition",
+     "scope": "span",
+     "quotes": [
+      "אז הבין הרה״ק ר״מ מי הי׳ אותו הקול ששמע בלילה"
+     ],
+     "confidence": 3,
+     "why": "the disciple understands afterwards who had spoken",
+     "quotes_failed": false
+    },
+    {
+     "tag": "social:inter_hasidic_master_disciple_relationship",
+     "scope": "story",
+     "quotes": [],
+     "confidence": 3,
+     "why": "the story is told by the disciple about his master",
+     "quotes_failed": false
+    },
+    {
+     "tag": "practice:sermon",
+     "scope": "span",
+     "quotes": [
+      "שמע הרה״ק ר״מ הנ״ל את הדרוש מדבר מתוך גרונו של רבו"
+     ],
+     "confidence": 3,
+     "why": "the master delivers a homily",
+     "quotes_failed": false
+    },
+    {
+     "tag": "times:shabbat",
+     "scope": "span",
+     "quotes": [
+      "ויהי בשבת הבא בסעודה שלישית"
+     ],
+     "confidence": 3,
+     "why": "the homily is given at the Sabbath Third Meal",
+     "quotes_failed": false
+    },
+    {
+     "tag": "knowledge:esoteric",
+     "scope": "span",
+     "quotes": [
+      "פירוש על מאמר מזוה״ק"
+     ],
+     "confidence": 2,
+     "why": "the subject is an explanation of a Zohar passage",
+     "quotes_failed": false
+    },
+    {
+     "tag": "practice:storytelling",
+     "scope": "span",
+     "quotes": [
+      "סיפר תלמידו הגאוה״ק ר׳ מרדכי לעטניר זצ\"ל"
+     ],
+     "confidence": 2,
+     "why": "the tale is framed as told by a named disciple",
+     "quotes_failed": false
+    },
+    {
+     "tag": "supernatural:perception",
+     "scope": "span",
+     "quotes": [
+      "והוא ידע אין איש אתו שמה"
+     ],
+     "confidence": 1,
+     "why": "the disciple hears a voice from a being who cannot be seen; borderline",
+     "quotes_failed": false
+    }
+   ],
+   "missing_concepts": [
+    "heavenly teacher (maggid / gilui Eliyahu-type instruction) from the soul of the Ari",
+    "speech issuing from the tzaddik's throat (Shekhinah speaking through him)"
+   ],
+   "start_quote_found": true,
+   "end_quote_found": true
+  }
+ ],
+ "check": {
+  "non_vocab_tags": [],
+  "quotes": 9,
+  "quotes_not_found": 0
+ },
+ "id": "Eser-Kedushot_0020",
+ "chars": 542,
+ "seconds": 14
+}

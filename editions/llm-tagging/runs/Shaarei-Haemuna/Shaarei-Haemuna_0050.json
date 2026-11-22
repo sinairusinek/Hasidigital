@@ -1,0 +1,114 @@
+{
+ "unit": {
+  "kind": "hasidic_story",
+  "why": "A short anecdote: the aged Kozhnitzer cannot eat, appeals to the Lubliner, and receives a remedy of bread and wine explained by gematria, framed as a segulah.",
+  "boundary_note": ""
+ },
+ "stories": [
+  {
+   "k": 1,
+   "start_quote": "סיפר מרן מנעסכיז שההצה״ק מקאzיניץ לזקנותו",
+   "end_quote": "ויתחזק כחו ויוכל לאכול",
+   "hasidic": true,
+   "summary_en": "The Neskhizer rebbe told that the Kozhnitzer, unable to eat in old age, asked the Lubliner to pray for him, and the Lubliner told him to eat bread and wine, explaining their gematria and verses; the teller adds that anyone weak can draw strength from these hints.",
+   "tags": [
+    {
+     "tag": "practice:healing",
+     "scope": "span",
+     "quotes": [
+      "לא הי׳ יכול לאכול כלל ונחלש מזה ביותר",
+      "שיאכל לחם ויין"
+     ],
+     "confidence": 3,
+     "why": "The Lubliner gives a remedy for the Kozhnitzer's weakness and inability to eat",
+     "quotes_failed": false
+    },
+    {
+     "tag": "practice:storytelling",
+     "scope": "span",
+     "quotes": [
+      "סיפר מרן מנעסכיז"
+     ],
+     "confidence": 3,
+     "why": "The story is framed as told by a named tsaddik",
+     "quotes_failed": false
+    },
+    {
+     "tag": "practice:drinking_alcohol",
+     "scope": "span",
+     "quotes": [
+      "שיאכל לחם ויין",
+      "ויין ישמח לבב אנוש"
+     ],
+     "confidence": 2,
+     "why": "Wine is prescribed as part of the remedy",
+     "quotes_failed": false
+    },
+    {
+     "tag": "practice:sermon",
+     "scope": "span",
+     "quotes": [
+      "לחם מספר ג״פ הוי״ה ב״ה",
+      "יין מספר סוד כמארז״ל נכנס יין יצא סוד"
+     ],
+     "confidence": 3,
+     "why": "The tale contains gematria and an exegesis of verses",
+     "quotes_failed": false
+    },
+    {
+     "tag": "practice:prayer",
+     "scope": "span",
+     "quotes": [
+      "שיתפלל בעדו ע״ז"
+     ],
+     "confidence": 1,
+     "why": "A request for intercessory prayer",
+     "quotes_failed": false
+    },
+    {
+     "tag": "practice:torat_ha_tsaddik",
+     "scope": "span",
+     "quotes": [
+      "הרהצה״ק הלובלינר שיתפלל בעדו ע״ז"
+     ],
+     "confidence": 2,
+     "why": "One tsaddik turns to another for intercession",
+     "quotes_failed": false
+    },
+    {
+     "tag": "not-a-hasidic-story:sermon",
+     "scope": "story",
+     "quotes": [],
+     "confidence": 2,
+     "why": "A brief narrative wrapped in a segulah and gematria teaching frame",
+     "quotes_failed": false
+    },
+    {
+     "tag": "social:inter_hasidic",
+     "scope": "span",
+     "quotes": [
+      "ופקד לספר זה לפני הרהצה״ק הלובלינר"
+     ],
+     "confidence": 2,
+     "why": "An interaction between the Kozhnitzer and the Lubliner",
+     "quotes_failed": false
+    }
+   ],
+   "missing_concepts": [
+    "segulah (folk remedy formula)",
+    "gematria",
+    "old age and loss of appetite"
+   ],
+   "start_quote_found": true,
+   "end_quote_found": true
+  }
+ ],
+ "check": {
+  "non_vocab_tags": [],
+  "quotes": 10,
+  "quotes_not_found": 0
+ },
+ "id": "Shaarei-Haemuna_0050",
+ "chars": 382,
+ "seconds": 14
+}

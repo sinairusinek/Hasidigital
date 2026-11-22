@@ -1,0 +1,82 @@
+{
+ "unit": {
+  "kind": "hasidic_story",
+  "why": "A brief anecdote: R. Zusha of Anipoli sees the image of his brother R. Elimelech in the leftovers a servant is carrying. It is cited from a book and closed with a verse interpretation, continuing the previous division's teaching on shirayim.",
+  "boundary_note": "anecdote is the illustrative tail of the shirayim teaching in the previous division"
+ },
+ "stories": [
+  {
+   "k": 1,
+   "start_quote": "ובס׳ ה\"ה מקץ פ״א ראה הקדוש",
+   "end_quote": "וזהו משאת מאת פניו והבן",
+   "hasidic": true,
+   "summary_en": "R. Zusha saw his brother R. Elimelech's image in his house and asked the servant what he was carrying; it turned out to be R. Elimelech's leftover food, which bore his holy brother's form, and the text reads this into the verse 'משאת מאת פניו'.",
+   "tags": [
+    {
+     "tag": "supernatural:perception",
+     "scope": "span",
+     "quotes": [
+      "ראה הקדוש ר׳ זושא מאניפאלי בביתו צורת אחיו"
+     ],
+     "confidence": 3,
+     "why": "R. Zusha perceives his brother's form in the food, which others do not see",
+     "quotes_failed": false
+    },
+    {
+     "tag": "experience:visions",
+     "scope": "span",
+     "quotes": [
+      "והיה בהם צורה אחיו הקדוש"
+     ],
+     "confidence": 2,
+     "why": "a supernatural sight seen while awake",
+     "quotes_failed": false
+    },
+    {
+     "tag": "characters-and-roles:the_family_of_the_tsaddik",
+     "scope": "span",
+     "quotes": [
+      "צורת אחיו רבינו אלימלך"
+     ],
+     "confidence": 2,
+     "why": "the tzaddik's brother is involved; brothers are not on the definition's list",
+     "quotes_failed": false
+    },
+    {
+     "tag": "not-a-hasidic-story:sermon",
+     "scope": "span",
+     "quotes": [
+      "וזהו משאת מאת פניו והבן"
+     ],
+     "confidence": 2,
+     "why": "the anecdote sits inside a homiletic discussion of shirayim and ends with a verse interpretation",
+     "quotes_failed": false
+    },
+    {
+     "tag": "practice:sermon",
+     "scope": "span",
+     "quotes": [
+      "וזהו משאת מאת פניו והבן"
+     ],
+     "confidence": 2,
+     "why": "exegesis of a verse applied to the event",
+     "quotes_failed": false
+    }
+   ],
+   "missing_concepts": [
+    "shirayim (the tzaddik's leftover food) and its holiness",
+    "the tzaddik's image or presence embedded in objects"
+   ],
+   "start_quote_found": true,
+   "end_quote_found": true
+  }
+ ],
+ "check": {
+  "non_vocab_tags": [],
+  "quotes": 5,
+  "quotes_not_found": 0
+ },
+ "id": "Shaarei-Haemuna_0083",
+ "chars": 178,
+ "seconds": 13
+}

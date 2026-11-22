@@ -1,0 +1,143 @@
+{
+ "unit": {
+  "kind": "hasidic_story",
+  "why": "A first-person anecdote by a disciple and nephew of the Zhidachov rebbe: he spoke harshly about a tzaddik who then died on Shabbat. It is set inside a homiletic discussion of harsh speech that sweetens judgments and of the ban on slandering scholars.",
+  "boundary_note": "the teaching frame begins in the previous division and continues into the next (lashon hara sources)"
+ },
+ "stories": [
+  {
+   "k": 1,
+   "start_quote": "ופ\"א הייתי בעיר אחת וראיתי וכו'",
+   "end_quote": "אלא לטובה גדולה הי׳ כוונתי",
+   "hasidic": true,
+   "summary_en": "While travelling, the narrator spoke loudly against a certain tzaddik, which he later regretted. A mysterious man appeared and vanished, and on the Saturday night he noted in his Gemara that the tzaddik had died that Shabbat. When the news arrived, the astonished people found the note, and he explained that his harsh words had been meant to sweeten judgments, for good.",
+   "tags": [
+    {
+     "tag": "not-a-hasidic-story:sermon",
+     "scope": "story",
+     "quotes": [],
+     "confidence": 2,
+     "why": "The anecdote illustrates a homiletic point about harsh speech and is wrapped in that teaching.",
+     "quotes_failed": false
+    },
+    {
+     "tag": "practice:the_travels_of_the_tsaddik",
+     "scope": "span",
+     "quotes": [
+      "ובהיותי על הדרך ולא הי' על העגלה"
+     ],
+     "confidence": 3,
+     "why": "The key event happens on the road, on the wagon.",
+     "quotes_failed": false
+    },
+    {
+     "tag": "supernatural:perception",
+     "scope": "span",
+     "quotes": [
+      "כתבתי על דף גמרא שלי היום בים שבת נפטר צדיק פלוני"
+     ],
+     "confidence": 3,
+     "why": "He knew of the tzaddik's death before the news arrived.",
+     "quotes_failed": false
+    },
+    {
+     "tag": "times:death",
+     "scope": "span",
+     "quotes": [
+      "שנחלה ביום ואו ונסתלק ביום שבת"
+     ],
+     "confidence": 3,
+     "why": "The tzaddik's death is reported.",
+     "quotes_failed": false
+    },
+    {
+     "tag": "times:shabbat",
+     "scope": "span",
+     "quotes": [
+      "ובכל יום השבת נתתי תודה לפני רבים",
+      "ובליל מו״ש כתבתי על דף גמרא"
+     ],
+     "confidence": 3,
+     "why": "The events centre on Shabbat.",
+     "quotes_failed": false
+    },
+    {
+     "tag": "social:retrospective_recognition",
+     "scope": "span",
+     "quotes": [
+      "המה ראו כן תמהו",
+      "ותודו לי שלא דברתי חלילה להרע"
+     ],
+     "confidence": 3,
+     "why": "The people realize afterward what his harsh words meant.",
+     "quotes_failed": false
+    },
+    {
+     "tag": "ethics-and-emotions:prohibitions",
+     "scope": "span",
+     "quotes": [
+      "על חנם דברתי דבורי׳ על צדיק"
+     ],
+     "confidence": 2,
+     "why": "Speaking against a tzaddik (lashon hara) is the moral issue.",
+     "quotes_failed": false
+    },
+    {
+     "tag": "ethics-and-emotions:anger",
+     "scope": "span",
+     "quotes": [
+      "ודברתי ברעש גדול דבורי על איזה צדיק"
+     ],
+     "confidence": 2,
+     "why": "He spoke heatedly against the tzaddik.",
+     "quotes_failed": false
+    },
+    {
+     "tag": "ethics-and-emotions:sadness",
+     "scope": "span",
+     "quotes": [
+      "שיש לי מכאוב גדול על זה"
+     ],
+     "confidence": 1,
+     "why": "He expresses remorse and pain.",
+     "quotes_failed": false
+    },
+    {
+     "tag": "supernatural:communicating_with_the_invisible",
+     "scope": "span",
+     "quotes": [
+      "בא איש אחד ואמר כו' ונעלם תיכף"
+     ],
+     "confidence": 1,
+     "why": "A mysterious figure appears, speaks and vanishes.",
+     "quotes_failed": false
+    },
+    {
+     "tag": "practice:study",
+     "scope": "span",
+     "quotes": [
+      "לכו ראו בגמרא פלונית מה שנרשם שם"
+     ],
+     "confidence": 1,
+     "why": "His Gemara is the medium of the note.",
+     "quotes_failed": false
+    }
+   ],
+   "missing_concepts": [
+    "sweetening of judgments (המתקת דינים) through harsh speech",
+    "lashon hara against a tzaddik",
+    "harsh words of a tzaddik causing another tzaddik's death"
+   ],
+   "start_quote_found": true,
+   "end_quote_found": true
+  }
+ ],
+ "check": {
+  "non_vocab_tags": [],
+  "quotes": 12,
+  "quotes_not_found": 0
+ },
+ "id": "Shaarei-Haemuna_0035",
+ "chars": 1319,
+ "seconds": 21
+}

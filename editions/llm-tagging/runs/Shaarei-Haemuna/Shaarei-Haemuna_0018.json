@@ -1,0 +1,142 @@
+{
+ "unit": {
+  "kind": "non_hasidic_story",
+  "why": "A pre-Hasidic legend about the birth of R. Abraham de Pisa, owed to his grandfather's hospitality toward Spanish exiles, followed by a moralizing note quoted from Midrash Talpiyot and Tanhuma.",
+  "boundary_note": ""
+ },
+ "stories": [
+  {
+   "k": 1,
+   "start_quote": "הגאון כמוהר״ר אברהם דפיסה ולה״ה בא לעולם",
+   "end_quote": "כמו שרה שאירחה את האורחים עכ״ל",
+   "hasidic": false,
+   "summary_en": "During the Spanish expulsion, R. Abraham de Pisa's grandfather lavishly supported and provisioned fleeing exiles; four sage elders, seeing his generosity, asked what he wished for, and when he asked for wise children they foretold a son within a year, to be named Abraham, whose grandson became the great scholar, a lesson in the reward of lovingkindness.",
+   "tags": [
+    {
+     "tag": "not-a-hasidic-story:hagiography",
+     "scope": "story",
+     "quotes": [],
+     "confidence": 3,
+     "why": "Praises a pre-Hasidic Italian sage and his ancestor, taken from Midrash Talpiyot.",
+     "quotes_failed": false
+    },
+    {
+     "tag": "not-a-hasidic-story:virtues",
+     "scope": "span",
+     "quotes": [
+      "ראה כי ג\"ח כמה הוא שמלבד השכר",
+      "ויש מצות שמתן שכרה בנים"
+     ],
+     "confidence": 3,
+     "why": "Explicitly framed as a lesson on lovingkindness and hospitality (section on הכנסת אורחים).",
+     "quotes_failed": false
+    },
+    {
+     "tag": "not-a-hasidic-story:sermon",
+     "scope": "span",
+     "quotes": [
+      "לפי שכשהבן צדיק כל מה שעוסק בתורה"
+     ],
+     "confidence": 2,
+     "why": "The narrative is wrapped in a homiletic frame on reward.",
+     "quotes_failed": false
+    },
+    {
+     "tag": "ethics-and-emotions:charity",
+     "scope": "span",
+     "quotes": [
+      "מקבל עניים ועשירים ומכלכלם ומלוה אותם",
+      "ובזבו הון רב"
+     ],
+     "confidence": 3,
+     "why": "The grandfather provides for the exiles.",
+     "quotes_failed": false
+    },
+    {
+     "tag": "ethics-and-emotions:virtues",
+     "scope": "span",
+     "quotes": [
+      "ונפש החסידה והנדיבה שעשה לכל הגלות"
+     ],
+     "confidence": 2,
+     "why": "Hospitality and generosity are the point of the tale.",
+     "quotes_failed": false
+    },
+    {
+     "tag": "supernatural:prognostication",
+     "scope": "span",
+     "quotes": [
+      "בטח בה׳ שיצא תוך שנה בן מחלציך",
+      "ויצא מבן בנו זה הגאון"
+     ],
+     "confidence": 3,
+     "why": "The elders foretell a wise son, and the prediction comes true.",
+     "quotes_failed": false
+    },
+    {
+     "tag": "folkloristics:story_type_prognostication",
+     "scope": "story",
+     "quotes": [],
+     "confidence": 2,
+     "why": "The arc is a prediction by sages that comes true (though the sages are not Hasidic tzaddikim).",
+     "quotes_failed": false
+    },
+    {
+     "tag": "folkloristics:story_type_birth_of_the_tsaddik",
+     "scope": "span",
+     "quotes": [
+      "בא לעולם בתפלת חכמי ישראל"
+     ],
+     "confidence": 2,
+     "why": "The sage's coming into the world through the sages' prayer frames the tale.",
+     "quotes_failed": false
+    },
+    {
+     "tag": "times:birth",
+     "scope": "span",
+     "quotes": [
+      "שיצא תוך שנה בן מחלציך"
+     ],
+     "confidence": 2,
+     "why": "The foretold birth of a son.",
+     "quotes_failed": false
+    },
+    {
+     "tag": "times:historical_event",
+     "scope": "span",
+     "quotes": [
+      "שבהיות גלות ספרד היו בורחים משם היהודים"
+     ],
+     "confidence": 3,
+     "why": "The Spanish expulsion is the setting.",
+     "quotes_failed": false
+    },
+    {
+     "tag": "supernatural:pregnancy",
+     "scope": "span",
+     "quotes": [
+      "ויאמרו לו בטח בה׳ שיצא תוך שנה"
+     ],
+     "confidence": 1,
+     "why": "Conception follows the sages' blessing, though childlessness is not stated.",
+     "quotes_failed": false
+    }
+   ],
+   "missing_concepts": [
+    "hospitality to guests (הכנסת אורחים)",
+    "reward of a mitzvah through offspring / merit of descendants",
+    "blessing by sages"
+   ],
+   "start_quote_found": true,
+   "end_quote_found": true
+  }
+ ],
+ "check": {
+  "non_vocab_tags": [],
+  "quotes": 12,
+  "quotes_not_found": 0
+ },
+ "id": "Shaarei-Haemuna_0018",
+ "chars": 912,
+ "seconds": 17
+}

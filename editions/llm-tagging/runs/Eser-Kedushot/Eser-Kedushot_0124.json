@@ -1,0 +1,101 @@
+{
+ "unit": {
+  "kind": "hasidic_story",
+  "why": "A short anecdote: R. Naftali of Ropshitz, visiting R. Zvi of Zhidachov with his son Eliezer, asks the boy who will succeed this tsaddik, and praises his answer.",
+  "boundary_note": ""
+ },
+ "stories": [
+  {
+   "k": 1,
+   "start_quote": "סיפר מחו' הרה״ק מו\"ה אליעזר מדזיקאב",
+   "end_quote": "חכם אתה והיטבת לראות",
+   "hasidic": true,
+   "summary_en": "R. Eliezer of Dzikov told the sons of the book's master that, when he was at Zhidachov with his father R. Naftali of Ropshitz visiting R. Zvi, his father asked him who would fill that tsaddik's place, and when the boy pointed to 'our master' his father praised his wisdom.",
+   "tags": [
+    {
+     "tag": "characters-and-roles:the_family_of_the_tsaddik",
+     "scope": "span",
+     "quotes": [
+      "שבהיותו עם אביו הרה״ק ר׳ נפתלי מרופשיטץ",
+      "אליעזר בני אמור אתה"
+     ],
+     "confidence": 3,
+     "why": "Father and son, both tsaddikim, are the actors",
+     "quotes_failed": false
+    },
+    {
+     "tag": "social:inter_hasidic_inheritance_of_leadership",
+     "scope": "span",
+     "quotes": [
+      "מי ימלא מקום הצדיק הזה לאחר מאה שנים"
+     ],
+     "confidence": 3,
+     "why": "The question is who will succeed R. Zvi",
+     "quotes_failed": false
+    },
+    {
+     "tag": "practice:travel_to_other_tsaddik",
+     "scope": "span",
+     "quotes": [
+      "בזידיטשוב אצל רבינו צבי"
+     ],
+     "confidence": 2,
+     "why": "The Ropshitzer and his son stay with another tsaddik at Zhidachov",
+     "quotes_failed": false
+    },
+    {
+     "tag": "practice:storytelling",
+     "scope": "span",
+     "quotes": [
+      "סיפר מחו' הרה״ק מו\"ה אליעזר מדזיקאב לבני מורינו"
+     ],
+     "confidence": 2,
+     "why": "The tale is framed as told by R. Eliezer to the master's sons",
+     "quotes_failed": false
+    },
+    {
+     "tag": "supernatural:perception",
+     "scope": "span",
+     "quotes": [
+      "חכם אתה והיטבת לראות"
+     ],
+     "confidence": 1,
+     "why": "The son discerns the future leader; this may be spiritual insight",
+     "quotes_failed": false
+    },
+    {
+     "tag": "supernatural:prognostication",
+     "scope": "span",
+     "quotes": [
+      "והראה לו על אביהם הוא מורינו"
+     ],
+     "confidence": 1,
+     "why": "Implied prediction of the master's future leadership",
+     "quotes_failed": false
+    },
+    {
+     "tag": "folkloristics:story_type_virtues",
+     "scope": "story",
+     "quotes": [],
+     "confidence": 1,
+     "why": "The anecdote serves to praise the book's master as R. Zvi's worthy successor",
+     "quotes_failed": false
+    }
+   ],
+   "missing_concepts": [
+    "recognition of a future successor by another tsaddik's discernment",
+    "testing a child's insight"
+   ],
+   "start_quote_found": true,
+   "end_quote_found": true
+  }
+ ],
+ "check": {
+  "non_vocab_tags": [],
+  "quotes": 7,
+  "quotes_not_found": 0
+ },
+ "id": "Eser-Kedushot_0124",
+ "chars": 262,
+ "seconds": 16
+}

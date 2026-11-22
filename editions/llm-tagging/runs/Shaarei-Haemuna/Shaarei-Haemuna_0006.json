@@ -1,0 +1,154 @@
+{
+ "unit": {
+  "kind": "hasidic_story",
+  "why": "A single narrative: the Ropshitzer weeps after revealing Torah secrets at Seudah Shlishit, fearing they came from the 'other side', travels overnight to R. Mendele of Pristik, who tests the teaching and reassures him.",
+  "boundary_note": ""
+ },
+ "stories": [
+  {
+   "k": 1,
+   "start_quote": "ובס׳ דביר המוצנע (פ׳ שמיני) כ׳ וז״ל",
+   "end_quote": "בדרכי השם לגלות קוין דאורייתא ע״כ",
+   "hasidic": true,
+   "summary_en": "After revealing Torah secrets at the third Sabbath meal, R. Naftali of Ropshitz wept, fearing in his humility that they came from the 'other side'; he walked through the night with the hasid R. Feishel the scribe to R. Mendele of Pristik, who heard the teaching, embraced him and assured him it was the way of God.",
+   "tags": [
+    {
+     "tag": "times:shabbat",
+     "scope": "span",
+     "quotes": [
+      "בסעודה שלישית של שבת קודש אמר תורה",
+      "שתיכף בליל מוצש״ק ביקש מאת האיש"
+     ],
+     "confidence": 3,
+     "why": "The teaching is given at the third Sabbath meal and the journey starts on Saturday night.",
+     "quotes_failed": false
+    },
+    {
+     "tag": "practice:sermon",
+     "scope": "span",
+     "quotes": [
+      "אמר תורה וגילה רזין דאורייתא",
+      "יאמר מר נר״ו התורה לפני"
+     ],
+     "confidence": 3,
+     "why": "The Torah discourse he delivered is at the center of the story.",
+     "quotes_failed": false
+    },
+    {
+     "tag": "knowledge:esoteric",
+     "scope": "span",
+     "quotes": [
+      "וגילה רזין דאורייתא"
+     ],
+     "confidence": 3,
+     "why": "He revealed secrets of the Torah.",
+     "quotes_failed": false
+    },
+    {
+     "tag": "ethics-and-emotions:humility",
+     "scope": "span",
+     "quotes": [
+      "והוא יודע שפלותו שאינו ראוי לכך"
+     ],
+     "confidence": 3,
+     "why": "His knowledge of his own lowliness makes him feel unworthy.",
+     "quotes_failed": false
+    },
+    {
+     "tag": "ethics-and-emotions:fear",
+     "scope": "span",
+     "quotes": [
+      "ויבא לנפשו אולי הוא ח\"ו מצד אחר"
+     ],
+     "confidence": 2,
+     "why": "He fears that his teaching came from the 'other side'.",
+     "quotes_failed": false
+    },
+    {
+     "tag": "ethics-and-emotions:sadness",
+     "scope": "span",
+     "quotes": [
+      "שאחר הס״ש בכה מאוד",
+      "והתחיל לבכות מאוד"
+     ],
+     "confidence": 2,
+     "why": "His weeping and distress are the spiritual problem the story resolves.",
+     "quotes_failed": false
+    },
+    {
+     "tag": "practice:travel_to_other_tsaddik",
+     "scope": "span",
+     "quotes": [
+      "שילך עמו לאדמו״ר לפריסטיק לכבוד איש אלקי",
+      "והלכו כל הלילה ד׳ פרסאות"
+     ],
+     "confidence": 3,
+     "why": "The tsaddik of Ropshitz travels to another tsaddik, R. Mendele.",
+     "quotes_failed": false
+    },
+    {
+     "tag": "characters-and-roles:scribe",
+     "scope": "span",
+     "quotes": [
+      "הוא החסיד ר' פיישיל סופר"
+     ],
+     "confidence": 2,
+     "why": "His companion, the hasid Feishel, is identified as a scribe (sofer).",
+     "quotes_failed": false
+    },
+    {
+     "tag": "practice:reception_of_hasidim",
+     "scope": "span",
+     "quotes": [
+      "מה אתם עושים בכאן כ״כ בהשכמה השלום לכם"
+     ],
+     "confidence": 2,
+     "why": "R. Mendele receives and greets the visitors who arrive at dawn.",
+     "quotes_failed": false
+    },
+    {
+     "tag": "social:inter_hasidic",
+     "scope": "span",
+     "quotes": [
+      "הכה על כתפיו והראה לו אהבה"
+     ],
+     "confidence": 2,
+     "why": "A warm encounter between two tsaddikim.",
+     "quotes_failed": false
+    },
+    {
+     "tag": "folkloristics:story_type_virtues",
+     "scope": "story",
+     "quotes": [],
+     "confidence": 2,
+     "why": "The story shows the Ropshitzer's humility and how his teaching is affirmed.",
+     "quotes_failed": false
+    },
+    {
+     "tag": "practice:storytelling",
+     "scope": "span",
+     "quotes": [
+      "וסיפר לי איש אחד יר\"ש"
+     ],
+     "confidence": 1,
+     "why": "The story is framed as one an eyewitness told the author.",
+     "quotes_failed": false
+    }
+   ],
+   "missing_concepts": [
+    "discernment of spirits: testing whether a teaching comes from holiness or from the 'other side' (סטרא אחרא)",
+    "validation or approval of one tsaddik's teaching by another"
+   ],
+   "start_quote_found": true,
+   "end_quote_found": true
+  }
+ ],
+ "check": {
+  "non_vocab_tags": [],
+  "quotes": 15,
+  "quotes_not_found": 0
+ },
+ "id": "Shaarei-Haemuna_0006",
+ "chars": 883,
+ "seconds": 19
+}

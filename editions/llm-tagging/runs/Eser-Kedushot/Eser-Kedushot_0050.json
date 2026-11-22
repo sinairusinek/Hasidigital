@@ -1,0 +1,111 @@
+{
+ "unit": {
+  "kind": "hasidic_story",
+  "why": "A short narrative: R. Zvi sees R. Menachem Mendel of Rymanów bend his thumb under his four fingers and wishes to attain it before his death; on his death day his brother sees him do so and weeps, knowing he will die.",
+  "boundary_note": ""
+ },
+ "stories": [
+  {
+   "k": 1,
+   "start_quote": "פ\"א ראה רבינו צבי איך הרה״ק",
+   "end_quote": "כי ידע כי עתה יסתלק",
+   "hasidic": true,
+   "summary_en": "R. Zvi saw R. Menachem Mendel of Rymanów fold his thumb under his four fingers, bowing all his limbs to God, and wished to attain this before his death; on the day he died his brother R. Moshe saw him make the same gesture and wept, knowing he was about to pass away.",
+   "tags": [
+    {
+     "tag": "folkloristics:story_type_death_of_the_tsaddik",
+     "scope": "story",
+     "quotes": [],
+     "confidence": 3,
+     "why": "The narrative culminates in R. Zvi's deathbed sign.",
+     "quotes_failed": false
+    },
+    {
+     "tag": "times:death",
+     "scope": "span",
+     "quotes": [
+      "והנה ביום פטירתו של רבינו צבי"
+     ],
+     "confidence": 3,
+     "why": "The day of the tsaddik's death is depicted.",
+     "quotes_failed": false
+    },
+    {
+     "tag": "characters-and-roles:the_family_of_the_tsaddik",
+     "scope": "span",
+     "quotes": [
+      "ראה אותו אחיו הרה״ק רבי ר' משה"
+     ],
+     "confidence": 3,
+     "why": "His brother R. Moshe is a character.",
+     "quotes_failed": false
+    },
+    {
+     "tag": "social:inter_hasidic_master_disciple_relationship",
+     "scope": "span",
+     "quotes": [
+      "ראה רבינו צבי איך הרה״ק רבינו מנחם מענדל מרימונאב"
+     ],
+     "confidence": 2,
+     "why": "R. Zvi observes and emulates his master of Rymanów.",
+     "quotes_failed": false
+    },
+    {
+     "tag": "practice:devekut",
+     "scope": "span",
+     "quotes": [
+      "ואז כפף כל איבריו לה׳"
+     ],
+     "confidence": 2,
+     "why": "A bodily gesture of total submission and cleaving to God.",
+     "quotes_failed": false
+    },
+    {
+     "tag": "ethics-and-emotions:sadness",
+     "scope": "span",
+     "quotes": [
+      "והתחיל לצעוק ולבכות"
+     ],
+     "confidence": 1,
+     "why": "The brother cries out and weeps.",
+     "quotes_failed": false
+    },
+    {
+     "tag": "supernatural:prognostication",
+     "scope": "span",
+     "quotes": [
+      "כי ידע כי עתה יסתלק"
+     ],
+     "confidence": 1,
+     "why": "The gesture is read as a sign of imminent death, fulfilling R. Zvi's wish.",
+     "quotes_failed": false
+    },
+    {
+     "tag": "social:retrospective_recognition",
+     "scope": "span",
+     "quotes": [
+      "כי ידע כי עתה יסתלק"
+     ],
+     "confidence": 1,
+     "why": "The brother recognises the meaning of the gesture.",
+     "quotes_failed": false
+    }
+   ],
+   "missing_concepts": [
+    "bodily gesture as spiritual sign",
+    "wish fulfilled at death",
+    "emulation of the master's gesture"
+   ],
+   "start_quote_found": true,
+   "end_quote_found": true
+  }
+ ],
+ "check": {
+  "non_vocab_tags": [],
+  "quotes": 7,
+  "quotes_not_found": 0
+ },
+ "id": "Eser-Kedushot_0050",
+ "chars": 308,
+ "seconds": 11
+}

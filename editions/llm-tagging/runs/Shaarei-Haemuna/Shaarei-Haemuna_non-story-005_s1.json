@@ -1,0 +1,60 @@
+{
+ "unit": {
+  "kind": "hasidic_story",
+  "why": "split out of non-story-005 (non-story)"
+ },
+ "stories": [
+  {
+   "k": 1,
+   "start_quote": "אמרו עליו על הלל הזקן שלקח",
+   "end_quote": "ורץ לפניו שלשה מילין",
+   "hasidic": false,
+   "summary_en": "Hillel the Elder provided an impoverished man of good family with a horse and a servant, and once, finding no servant, ran before him himself for three miles.",
+   "tags": [
+    {
+     "tag": "ethics-and-emotions:charity",
+     "scope": "span",
+     "quotes": [
+      "שלקח למני בן טובים אחד סוס לרכוב עליו"
+     ],
+     "confidence": 3,
+     "why": "providing for a poor man according to his former status",
+     "quotes_failed": false
+    },
+    {
+     "tag": "not-a-hasidic-story:hagiography",
+     "scope": "story",
+     "quotes": [],
+     "confidence": 2,
+     "why": "praises a Talmudic sage, copied from Ketubot",
+     "quotes_failed": false
+    },
+    {
+     "tag": "not-a-hasidic-story:virtues",
+     "scope": "story",
+     "quotes": [],
+     "confidence": 3,
+     "why": "cited as an exemplum within a section on gemilut hasadim",
+     "quotes_failed": false
+    },
+    {
+     "tag": "ethics-and-emotions:humility",
+     "scope": "span",
+     "quotes": [
+      "ורץ לפניו שלשה מילין"
+     ],
+     "confidence": 2,
+     "why": "the sage himself runs before the poor man",
+     "quotes_failed": false
+    }
+   ],
+   "missing_concepts": [
+    "supporting the 'poor of good family' according to their former standard"
+   ],
+   "start_quote_found": true,
+   "end_quote_found": true
+  }
+ ],
+ "id": "Shaarei-Haemuna_non-story-005_s1",
+ "split_from": "non-story-005"
+}

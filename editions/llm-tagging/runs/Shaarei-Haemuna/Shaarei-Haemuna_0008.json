@@ -1,0 +1,69 @@
+{
+ "unit": {
+  "kind": "non_hasidic_story",
+  "why": "A short memorate, embedded in an ethical discourse on honouring Torah scholars: the author of Hokhmat Adam brings his book to R. Yosef Yozpa of Zolkiew, who warns that it will breed brazenness toward rabbis.",
+  "boundary_note": "the anecdote sits inside a homiletic discourse that begins in the previous division and continues into the next"
+ },
+ "stories": [
+  {
+   "k": 1,
+   "start_quote": "ונהירנא כד הוינא טליא בא הגדול",
+   "end_quote": "נהרס חלילה כרם השם צבאות",
+   "hasidic": false,
+   "summary_en": "The narrator recalls that as a child he saw the author of Hokhmat Adam show his book to R. Yosef Yozpa of Zolkiew before printing it; the rabbi praised it but warned that laymen reading the abridgement would think themselves halakhic authorities and grow brazen toward rabbis.",
+   "tags": [
+    {
+     "tag": "not-a-hasidic-story:sermon",
+     "scope": "story",
+     "quotes": [],
+     "confidence": 3,
+     "why": "The anecdote serves as an example inside an ethical discourse on honouring Torah scholars.",
+     "quotes_failed": false
+    },
+    {
+     "tag": "practice:halakhah",
+     "scope": "span",
+     "quotes": [
+      "יסבור שהוא בעל הוראה כמו הרב"
+     ],
+     "confidence": 2,
+     "why": "Concerns halakhic authority and the effect of a halakhic digest on lay rulings.",
+     "quotes_failed": false
+    },
+    {
+     "tag": "ethics-and-emotions:pride",
+     "scope": "span",
+     "quotes": [
+      "שיתרבה עזי פנים נגד הרבנים"
+     ],
+     "confidence": 1,
+     "why": "The feared outcome is the arrogance of laymen toward rabbis.",
+     "quotes_failed": false
+    },
+    {
+     "tag": "not-a-hasidic-story:hagiography",
+     "scope": "story",
+     "quotes": [],
+     "confidence": 1,
+     "why": "It concerns the wisdom of non-Hasidic rabbinic authorities, though it does not much praise them.",
+     "quotes_failed": false
+    }
+   ],
+   "missing_concepts": [
+    "printing and approbation of a halakhic book",
+    "honour due to rabbis and Torah scholars (kevod ha-Torah)",
+    "danger of halakhic abridgements for laymen"
+   ],
+   "start_quote_found": true,
+   "end_quote_found": true
+  }
+ ],
+ "check": {
+  "non_vocab_tags": [],
+  "quotes": 2,
+  "quotes_not_found": 0
+ },
+ "id": "Shaarei-Haemuna_0008",
+ "chars": 301,
+ "seconds": 16
+}

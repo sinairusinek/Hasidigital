@@ -1,0 +1,133 @@
+{
+ "unit": {
+  "kind": "hasidic_story",
+  "why": "The division is mostly a list of the Neskhizer tzaddik's customs about bad dreams, but it ends with a brief anecdote: he sees a townsman upset one morning, asks him why, and rules that he need not fast.",
+  "boundary_note": "Part of a run of divisions on dreams (מענין חלומות). The preceding division ends with the heading, and the next division continues the topic with a quotation from דודאים בשדה."
+ },
+ "stories": [
+  {
+   "k": 1,
+   "start_quote": "כשהיו מספרין לפני מרן הצה״ק מנעסכיז",
+   "end_quote": "יעו״ש מה שהארכנו בזה והוא נחוץ מאד",
+   "hasidic": true,
+   "summary_en": "The Neskhizer tzaddik's customs for people with bad dreams (charity to R. Meir Baal HaNes, secret charity, a blessing instead of immersion on Yom Kippur night), and an anecdote in which he tells an upset townsman that he need not fast over a Shulchan Arukh dream unless his soul is grieved.",
+   "tags": [
+    {
+     "tag": "not-a-hasidic-story:sermon",
+     "scope": "story",
+     "quotes": [],
+     "confidence": 2,
+     "why": "Mainly a description and justification of customs, with only a minimal narrative.",
+     "quotes_failed": false
+    },
+    {
+     "tag": "experience:dream",
+     "scope": "span",
+     "quotes": [
+      "מחמת שחלם לי מהחלומות המובאים בש״ע להתענות עליהם"
+     ],
+     "confidence": 2,
+     "why": "A character's dream triggers the anecdote.",
+     "quotes_failed": false
+    },
+    {
+     "tag": "ethics-and-emotions:charity",
+     "scope": "span",
+     "quotes": [
+      "ליתן ח\"י ג״פ לצדקת ר״מ בעל הנס",
+      "וח״י ג״פ ליתן בסתר"
+     ],
+     "confidence": 3,
+     "why": "Charity is prescribed as the remedy for a bad dream.",
+     "quotes_failed": false
+    },
+    {
+     "tag": "practice:fasting",
+     "scope": "span",
+     "quotes": [
+      "אם אין נפשך עגומה עליך לא תתענה"
+     ],
+     "confidence": 3,
+     "why": "The question is whether to keep a dream fast (תענית חלום).",
+     "quotes_failed": false
+    },
+    {
+     "tag": "practice:halakhah",
+     "scope": "span",
+     "quotes": [
+      "מהחלומות המובאים בש״ע להתענות עליהם"
+     ],
+     "confidence": 3,
+     "why": "He gives a halakhic ruling about a fast prescribed in the Shulchan Arukh.",
+     "quotes_failed": false
+    },
+    {
+     "tag": "practice:tvilah",
+     "scope": "span",
+     "quotes": [
+      "שחרית לא היה אומר לטבול"
+     ],
+     "confidence": 2,
+     "why": "Immersion after a nocturnal emission is at issue, and he declines to require it.",
+     "quotes_failed": false
+    },
+    {
+     "tag": "times:holidays",
+     "scope": "span",
+     "quotes": [
+      "ומי שארעהו החלום ר״ל בליל יוה״כ"
+     ],
+     "confidence": 2,
+     "why": "One of the customs is set on the night of Yom Kippur.",
+     "quotes_failed": false
+    },
+    {
+     "tag": "ethics-and-emotions:sadness",
+     "scope": "span",
+     "quotes": [
+      "בבוקר עומד זועף",
+      "אם אין נפשך עגומה עליך"
+     ],
+     "confidence": 2,
+     "why": "The man's distress after his dream is what the ruling addresses.",
+     "quotes_failed": false
+    },
+    {
+     "tag": "supernatural:perception",
+     "scope": "span",
+     "quotes": [
+      "ולפרקים הי' מבין מי שרוצה לשאלו על זה"
+     ],
+     "confidence": 1,
+     "why": "He sometimes knew, without being told, who wanted to ask him.",
+     "quotes_failed": false
+    },
+    {
+     "tag": "women:mention_only",
+     "scope": "span",
+     "quotes": [
+      "וכן לאותן נשים שיש להם חלימות של מקרה"
+     ],
+     "confidence": 2,
+     "why": "Women are mentioned as a category but do not act.",
+     "quotes_failed": false
+    }
+   ],
+   "missing_concepts": [
+    "remedies for bad dreams / dream fasts (תענית חלום, הטבת חלום)",
+    "nocturnal emission (קרי, מקרה לילה)",
+    "charity to R. Meir Baal HaNes"
+   ],
+   "start_quote_found": true,
+   "end_quote_found": true
+  }
+ ],
+ "check": {
+  "non_vocab_tags": [],
+  "quotes": 11,
+  "quotes_not_found": 0
+ },
+ "id": "Shaarei-Haemuna_0022",
+ "chars": 680,
+ "seconds": 20
+}

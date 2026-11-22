@@ -1,0 +1,146 @@
+{
+ "unit": {
+  "kind": "paratext_with_story",
+  "why": "This is a letter (1876) from R. Yekutiel Yehuda Teitelbaum of Sighet to R. Israel, chiefly on halakhic and kabbalistic questions about tefillin. It embeds two short narrative episodes: the 'wondrous' arrival of a guest praying from the sought-for siddur, and the writer's eyewitness memory of R. Zvi of Rimanov wearing two pairs of tefillin in private.",
+  "boundary_note": "The letter begins with a heading continuing from the previous division and runs into the next division (homily on Rebecca / Eliezer)."
+ },
+ "stories": [
+  {
+   "k": 1,
+   "start_quote": "והדבר פלא כי ביום וא\"ו עש\"ק העבר",
+   "end_quote": "ותיכף חפשתי ומצאתי כדבריך",
+   "hasidic": true,
+   "summary_en": "Right after his correspondent cited a source in R. Shabbetai's siddur, a guest arrived in Sighet for Shabbat praying from that very siddur, so the rebbe could verify the source.",
+   "tags": [
+    {
+     "tag": "times:shabbat",
+     "scope": "span",
+     "quotes": [
+      "ביום וא\"ו עש\"ק העבר בא לכאן איש א׳ לשבת פה"
+     ],
+     "confidence": 3,
+     "why": "The guest came for Shabbat.",
+     "quotes_failed": false
+    },
+    {
+     "tag": "practice:prayer",
+     "scope": "span",
+     "quotes": [
+      "והי׳ מתפלל מתוך סידור זה"
+     ],
+     "confidence": 2,
+     "why": "The guest prays from the siddur.",
+     "quotes_failed": false
+    },
+    {
+     "tag": "supernatural:miracle",
+     "scope": "span",
+     "quotes": [
+      "והדבר פלא כי ביום וא\"ו עש\"ק העבר"
+     ],
+     "confidence": 1,
+     "why": "Presented as a wondrous coincidence.",
+     "quotes_failed": false
+    }
+   ],
+   "missing_concepts": [
+    "providential coincidence",
+    "rabbinic correspondence / verifying sources"
+   ],
+   "start_quote_found": true,
+   "end_quote_found": true
+  },
+  {
+   "k": 2,
+   "start_quote": "וזכורני בהיותי ק\"ק רימינאב ראיתי את",
+   "end_quote": "של רש״י כך ראיתי בעיני",
+   "hasidic": true,
+   "summary_en": "The writer recalls seeing R. Zvi of Rimanov, even in old age, put on two pairs of tefillin together at home at dawn when few people were about, and then pray in the beit midrash in Rashi tefillin only; he cites this to advise his correspondent to keep the practice private.",
+   "tags": [
+    {
+     "tag": "practice:tefillin",
+     "scope": "span",
+     "quotes": [
+      "הי' מניח בביתו כאור הבוקר ב׳ זוגות תפילין ביחד",
+      "הי' מתפלל בביהמ״ד בתפילין של רש״י"
+     ],
+     "confidence": 3,
+     "why": "Two pairs of tefillin is the subject.",
+     "quotes_failed": false
+    },
+    {
+     "tag": "practice:prayer",
+     "scope": "span",
+     "quotes": [
+      "אח״כ הי' מתפלל בביהמ״ד בתפילין של רש״י"
+     ],
+     "confidence": 3,
+     "why": "His prayer is depicted.",
+     "quotes_failed": false
+    },
+    {
+     "tag": "spaces:beth_midrash",
+     "scope": "span",
+     "quotes": [
+      "הי' מתפלל בביהמ״ד"
+     ],
+     "confidence": 2,
+     "why": "The beit midrash is a setting.",
+     "quotes_failed": false
+    },
+    {
+     "tag": "ethics-and-emotions:humility",
+     "scope": "span",
+     "quotes": [
+      "תסתיר מעשיך ותניחם בצנעה בתוך ביתך",
+      "בשעה שבני אדם אינם מצוים כ״כ"
+     ],
+     "confidence": 2,
+     "why": "He conceals his special piety (tzniut).",
+     "quotes_failed": false
+    },
+    {
+     "tag": "practice:halakhah",
+     "scope": "span",
+     "quotes": [
+      "ונידון ב׳ זוגי תפילין כיחד שפתי לא אכלא"
+     ],
+     "confidence": 3,
+     "why": "Framed as a ruling on a point of practice.",
+     "quotes_failed": false
+    },
+    {
+     "tag": "folkloristics:story_type_virtues",
+     "scope": "story",
+     "quotes": [],
+     "confidence": 2,
+     "why": "Illustrates the tzaddik's private piety.",
+     "quotes_failed": false
+    },
+    {
+     "tag": "not-a-hasidic-story:sermon",
+     "scope": "story",
+     "quotes": [],
+     "confidence": 1,
+     "why": "The memorate is wrapped in a halakhic/kabbalistic responsum.",
+     "quotes_failed": false
+    }
+   ],
+   "missing_concepts": [
+    "eyewitness memorate",
+    "Rashi vs. Rabbenu Tam tefillin custom",
+    "concealment of pious practices (tzniut)"
+   ],
+   "start_quote_found": true,
+   "end_quote_found": true
+  }
+ ],
+ "check": {
+  "non_vocab_tags": [],
+  "quotes": 10,
+  "quotes_not_found": 0
+ },
+ "id": "non-story-011",
+ "chars": 1479,
+ "seconds": 21
+}

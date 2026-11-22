@@ -1,0 +1,124 @@
+{
+ "unit": {
+  "kind": "hasidic_story",
+  "why": "A minimal anecdote: at a festive meal a guest says he is not a hasid, the rebbe objects, and the rest is a long homily on why the name 'tsaddik' gave way to 'hasid'. The homily takes up most of the text.",
+  "boundary_note": ""
+ },
+ "stories": [
+  {
+   "k": 1,
+   "start_quote": "עוד שם ששמע מפיו הקדוש פ\"א",
+   "end_quote": "להוציא א״ע מהכלל חסידים ודפח\"ח",
+   "hasidic": true,
+   "summary_en": "At a festive meal one guest shrugs that he is 'not a hasid'. The rebbe is displeased and explains, through Isaiah's verse, that Satan replaced the old pair tsaddik/rasha with 'hasid' so that sinners need not be ashamed, so no one should exclude himself from the hasidim.",
+   "tags": [
+    {
+     "tag": "not-a-hasidic-story:sermon",
+     "scope": "story",
+     "quotes": [],
+     "confidence": 3,
+     "why": "The short incident is wrapped in an extended exegetical homily.",
+     "quotes_failed": false
+    },
+    {
+     "tag": "practice:sermon",
+     "scope": "span",
+     "quotes": [
+      "וזאת יספר לנו ישעי׳ הנביא בפסוק הצדיק אבד"
+     ],
+     "confidence": 3,
+     "why": "The rebbe expounds a verse.",
+     "quotes_failed": false
+    },
+    {
+     "tag": "ethics-and-emotions:anger",
+     "scope": "span",
+     "quotes": [
+      "והקפיד ע״ז הרה״ק ואמר כי ח\"ו"
+     ],
+     "confidence": 2,
+     "why": "The rebbe is displeased by the remark.",
+     "quotes_failed": false
+    },
+    {
+     "tag": "social:relations_with_non_hasidim",
+     "scope": "span",
+     "quotes": [
+      "ומה בכך אינני חסיד"
+     ],
+     "confidence": 2,
+     "why": "The exchange is about a Jew who declares he is not a hasid.",
+     "quotes_failed": false
+    },
+    {
+     "tag": "practice:clothing",
+     "scope": "span",
+     "quotes": [
+      "בבגדי יהודית שלו השגיח מאד",
+      "אם במלבושי רשע או בבית התפלה"
+     ],
+     "confidence": 2,
+     "why": "Jewish versus wicked dress is a marker of righteousness in the homily.",
+     "quotes_failed": false
+    },
+    {
+     "tag": "ethics-and-emotions:shame",
+     "scope": "span",
+     "quotes": [
+      "והי׳ לדראון ולחרפה ובע״כ הוכרח",
+      "שלא יתבייש לעשות מה שלבו חפץ"
+     ],
+     "confidence": 2,
+     "why": "The homily turns on social shame as what kept the wicked in check.",
+     "quotes_failed": false
+    },
+    {
+     "tag": "ethics-and-emotions:prohibitions",
+     "scope": "span",
+     "quotes": [
+      "הולך בחקות העכו\"ם שעטנז מגדל בלורית"
+     ],
+     "confidence": 1,
+     "why": "Violated prohibitions are listed.",
+     "quotes_failed": false
+    },
+    {
+     "tag": "ethics-and-emotions:repentance",
+     "scope": "span",
+     "quotes": [
+      "ובע״כ הוכרח לשוב מרשעתו"
+     ],
+     "confidence": 1,
+     "why": "In the old order, shame forced the wicked to repent.",
+     "quotes_failed": false
+    },
+    {
+     "tag": "spaces:beth_midrash",
+     "scope": "span",
+     "quotes": [
+      "אם בבית התפלה להתפלל באימה וביראה"
+     ],
+     "confidence": 1,
+     "why": "The house of prayer is mentioned as a place of conduct.",
+     "quotes_failed": false
+    }
+   ],
+   "missing_concepts": [
+    "the term 'hasid' versus 'tsaddik' as identity labels",
+    "Hasidic self-identification",
+    "festive meal (seudat mitzvah) setting",
+    "Satan (ba'al davar) as a scheming concept, not a character"
+   ],
+   "start_quote_found": true,
+   "end_quote_found": true
+  }
+ ],
+ "check": {
+  "non_vocab_tags": [],
+  "quotes": 10,
+  "quotes_not_found": 0
+ },
+ "id": "Eser-Kedushot_0112",
+ "chars": 1344,
+ "seconds": 20
+}

@@ -1,0 +1,103 @@
+{
+ "unit": {
+  "kind": "hasidic_story",
+  "why": "A short anecdote: before a journey the tsaddik hands his son his manuscript and names it 'Zikhron Devarim'; the name is later explained when most of the work is stolen.",
+  "boundary_note": "One of a numbered series of anecdotes about the same tsaddik; the 'journey mentioned above' refers back to an earlier division."
+ },
+ "stories": [
+  {
+   "k": 1,
+   "start_quote": "עו״ש שבפרידתו מאתו (לנסיעה הנ\"ל)",
+   "end_quote": "יפה צוה עליו אביו הרה״ק בשם זה",
+   "hasidic": true,
+   "summary_en": "When parting from his son before a journey, the tsaddik gives him his manuscript to print and names it 'Zikhron Devarim'. The son is puzzled but too ashamed to ask. The manuscript is later neglected by his brother-in-law and most of its sermons are stolen, so that only 'a remembrance of words' remains, and the son then understands the name.",
+   "tags": [
+    {
+     "tag": "characters-and-roles:the_family_of_the_tsaddik",
+     "scope": "span",
+     "quotes": [
+      "ביד גיסו מו\"ה אשר ז\"ל",
+      "כי בנו הי׳ קטן אז"
+     ],
+     "confidence": 3,
+     "why": "The son, who narrates, and the brother-in-law are central.",
+     "quotes_failed": false
+    },
+    {
+     "tag": "supernatural:prognostication",
+     "scope": "span",
+     "quotes": [
+      "וקראת שמו זכרון דברים",
+      "ולא נשאר אלא זכרון דברים"
+     ],
+     "confidence": 2,
+     "why": "The name implicitly foresaw the loss of most of the work.",
+     "quotes_failed": false
+    },
+    {
+     "tag": "folkloristics:story_type_prognostication",
+     "scope": "story",
+     "quotes": [],
+     "confidence": 2,
+     "why": "The arc is a hidden foreknowledge that comes true.",
+     "quotes_failed": false
+    },
+    {
+     "tag": "social:retrospective_recognition",
+     "scope": "span",
+     "quotes": [
+      "ואז הבין כי יפה צוה עליו אביו"
+     ],
+     "confidence": 3,
+     "why": "The son later grasps the meaning of the name.",
+     "quotes_failed": false
+    },
+    {
+     "tag": "ethics-and-emotions:fear",
+     "scope": "span",
+     "quotes": [
+      "ובוש וירא לשאול"
+     ],
+     "confidence": 1,
+     "why": "The son is afraid to ask.",
+     "quotes_failed": false
+    },
+    {
+     "tag": "ethics-and-emotions:shame",
+     "scope": "span",
+     "quotes": [
+      "ובוש וירא לשאול"
+     ],
+     "confidence": 1,
+     "why": "He is too abashed to ask.",
+     "quotes_failed": false
+    },
+    {
+     "tag": "supernatural:perception",
+     "scope": "span",
+     "quotes": [
+      "וקראת שמו זכרון דברים"
+     ],
+     "confidence": 1,
+     "why": "The tsaddik implicitly knows the fate of his book.",
+     "quotes_failed": false
+    }
+   ],
+   "missing_concepts": [
+    "transmission, printing and loss of a tsaddik's manuscript",
+    "naming of a book",
+    "theft of writings"
+   ],
+   "start_quote_found": true,
+   "end_quote_found": true
+  }
+ ],
+ "check": {
+  "non_vocab_tags": [],
+  "quotes": 8,
+  "quotes_not_found": 0
+ },
+ "id": "Eser-Kedushot_0087",
+ "chars": 364,
+ "seconds": 15
+}

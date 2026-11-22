@@ -1,0 +1,98 @@
+{
+ "unit": {
+  "kind": "saying_or_teaching",
+  "why": "An anthology of sources on charity (Zohar, Talmud, Tanna de-Vei Eliyahu, Rambam, Tanya and Iggeret ha-Kodesh, kavvanot for giving charity); it holds only brief embedded talmudic anecdotes, the fullest being R. Akiva's daughter.",
+  "boundary_note": "previous division ends a Hasidic story about a letter on charity; the next division begins a new story from רמ״ץ"
+ },
+ "stories": [
+  {
+   "k": 1,
+   "start_quote": "ומדר״ע כו' הוי לי׳ ברתא",
+   "end_quote": "נפיק ר״ע ודרש וצדקה תציל וגו׳",
+   "hasidic": false,
+   "summary_en": "A talmudic anecdote, quoted in abbreviated form: astrologers foretold that R. Akiva's daughter would die of a snakebite on her wedding day, but she was saved because she had given her portion of food to a poor man at the door, and R. Akiva then preached that charity saves from death.",
+   "tags": [
+    {
+     "tag": "ethics-and-emotions:charity",
+     "scope": "span",
+     "quotes": [
+      "שקלתי לריסתנאי דיהבית לי יהבתיה ניהליה"
+     ],
+     "confidence": 3,
+     "why": "she gives her food to the poor man",
+     "quotes_failed": false
+    },
+    {
+     "tag": "not-a-hasidic-story:sermon",
+     "scope": "story",
+     "quotes": [],
+     "confidence": 3,
+     "why": "embedded in a homiletic anthology on charity",
+     "quotes_failed": false
+    },
+    {
+     "tag": "not-a-hasidic-story:virtues",
+     "scope": "story",
+     "quotes": [],
+     "confidence": 3,
+     "why": "quoted as a lesson in the virtue of charity",
+     "quotes_failed": false
+    },
+    {
+     "tag": "practice:sermon",
+     "scope": "span",
+     "quotes": [
+      "נפיק ר״ע ודרש וצדקה תציל וגו׳"
+     ],
+     "confidence": 2,
+     "why": "R. Akiva preaches on the verse",
+     "quotes_failed": false
+    },
+    {
+     "tag": "women:major_character",
+     "scope": "span",
+     "quotes": [
+      "אמרה ליה בפניא אתא עניא קרא אבבא"
+     ],
+     "confidence": 3,
+     "why": "the daughter acts and is the protagonist",
+     "quotes_failed": false
+    },
+    {
+     "tag": "characters-and-roles:the_family_of_the_tsaddik",
+     "scope": "span",
+     "quotes": [
+      "הוי לי׳ ברתא אמרי לי׳"
+     ],
+     "confidence": 1,
+     "why": "the sage's daughter",
+     "quotes_failed": false
+    },
+    {
+     "tag": "supernatural:miracle",
+     "scope": "span",
+     "quotes": [
+      "טריק לה חיויא"
+     ],
+     "confidence": 1,
+     "why": "her rescue from the foretold death",
+     "quotes_failed": false
+    }
+   ],
+   "missing_concepts": [
+    "charity saves from death (צדקה תציל ממות)",
+    "astrological prediction averted"
+   ],
+   "start_quote_found": true,
+   "end_quote_found": true
+  }
+ ],
+ "check": {
+  "non_vocab_tags": [],
+  "quotes": 5,
+  "quotes_not_found": 0
+ },
+ "id": "non-story-127",
+ "chars": 5884,
+ "seconds": 19
+}

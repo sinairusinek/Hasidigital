@@ -1,0 +1,109 @@
+{
+ "unit": {
+  "kind": "hasidic_story",
+  "why": "A short anecdote: during an earthquake the Besht calms the frightened townspeople with a prediction that comes true, followed by a brief kabbalistic gloss on the letter permutation רעש/ערש.",
+  "boundary_note": ""
+ },
+ "stories": [
+  {
+   "k": 1,
+   "start_quote": "שמעתי בשם הבעש״ט זלה\"ה שפ\"א היה רעש",
+   "end_quote": "והענין עמוק מאד מאד (ס׳ א\"ה ברמזי וירא)",
+   "hasidic": true,
+   "summary_en": "When a great earthquake terrified a town, the Besht reassured the people that it meant the lord would order a bed taken for his needs; this came true, and the author explains that a true sage can permute רעש (quake) into ערש (bed).",
+   "tags": [
+    {
+     "tag": "ethics-and-emotions:fear",
+     "scope": "span",
+     "quotes": [
+      "ויחרדו העם אשר במחנה מן הרעש"
+     ],
+     "confidence": 3,
+     "why": "townspeople are frightened by the earthquake",
+     "quotes_failed": false
+    },
+    {
+     "tag": "supernatural:prognostication",
+     "scope": "span",
+     "quotes": [
+      "כי הרעש הוא שהאדון יצוה ליקח ערש לחפציו",
+      "וכן הוה"
+     ],
+     "confidence": 3,
+     "why": "the Besht predicts the outcome and it comes true",
+     "quotes_failed": false
+    },
+    {
+     "tag": "folkloristics:story_type_prognostication",
+     "scope": "story",
+     "quotes": [],
+     "confidence": 3,
+     "why": "the whole anecdote is a prediction that is fulfilled",
+     "quotes_failed": false
+    },
+    {
+     "tag": "supernatural:perception",
+     "scope": "span",
+     "quotes": [
+      "ואמר להם אל ירע זאת בעיניכם"
+     ],
+     "confidence": 2,
+     "why": "the Besht knows the hidden meaning of the quake",
+     "quotes_failed": false
+    },
+    {
+     "tag": "practice:protection",
+     "scope": "span",
+     "quotes": [
+      "כח ביד המשכיל וחכם אמתי להפוך צירוף רע״ש לצירוף ער\"ש"
+     ],
+     "confidence": 2,
+     "why": "the sage averts a disaster by permuting its letters",
+     "quotes_failed": false
+    },
+    {
+     "tag": "knowledge:esoteric",
+     "scope": "span",
+     "quotes": [
+      "להפוך צירוף רע״ש לצירוף ער\"ש והענין עמוק מאד מאד"
+     ],
+     "confidence": 2,
+     "why": "mystical doctrine of letter permutations",
+     "quotes_failed": false
+    },
+    {
+     "tag": "not-a-hasidic-story:sermon",
+     "scope": "story",
+     "quotes": [],
+     "confidence": 1,
+     "why": "the anecdote sits inside a lexicon entry and ends with an exegetical gloss",
+     "quotes_failed": false
+    },
+    {
+     "tag": "social:relations_with_non_jews",
+     "scope": "span",
+     "quotes": [
+      "שהאדון יצוה ליקח ערש לחפציו"
+     ],
+     "confidence": 1,
+     "why": "the 'adon' is probably the local nobleman",
+     "quotes_failed": false
+    }
+   ],
+   "missing_concepts": [
+    "earthquake / natural disaster",
+    "letter permutation (tseruf) to change reality"
+   ],
+   "start_quote_found": true,
+   "end_quote_found": true
+  }
+ ],
+ "check": {
+  "non_vocab_tags": [],
+  "quotes": 7,
+  "quotes_not_found": 0
+ },
+ "id": "Shaarei-Haemuna_0075",
+ "chars": 258,
+ "seconds": 12
+}

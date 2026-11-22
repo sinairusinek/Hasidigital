@@ -1,0 +1,184 @@
+{
+ "unit": {
+  "kind": "hasidic_story",
+  "why": "A single narrative, told by the Rozdol tsaddik himself, of his birth delayed two months in the womb to clear his mother of slander.",
+  "boundary_note": ""
+ },
+ "stories": [
+  {
+   "k": 1,
+   "start_quote": "שמעתי מפה קדוש כבוד אבא מארי",
+   "end_quote": "סיפר הרה״ק מראזלא פ\"א ברבים זי\"ע",
+   "hasidic": true,
+   "summary_en": "The Rozdol rebbe tells how he began to emerge from the womb in the seventh month after his parents' wedding, but slanderers accused his mother of conceiving before marriage, so at her plea he withdrew and stayed two more months, thereby fulfilling the commandment of honouring his mother.",
+   "tags": [
+    {
+     "tag": "folkloristics:story_type_birth_of_the_tsaddik",
+     "scope": "story",
+     "quotes": [],
+     "confidence": 3,
+     "why": "Miraculous circumstances of the tsaddik's birth",
+     "quotes_failed": false
+    },
+    {
+     "tag": "times:birth",
+     "scope": "span",
+     "quotes": [
+      "על קושי הלידה של אמי מורתי ע\"ה"
+     ],
+     "confidence": 3,
+     "why": "Birth is the central event",
+     "quotes_failed": false
+    },
+    {
+     "tag": "supernatural:miracle",
+     "scope": "span",
+     "quotes": [
+      "ותיכף החזרתי ראשי והתעכבתי שמה עוד ב׳ ירחים"
+     ],
+     "confidence": 3,
+     "why": "The fetus withdraws and delays its birth",
+     "quotes_failed": false
+    },
+    {
+     "tag": "characters-and-roles:the_family_of_the_tsaddik",
+     "scope": "span",
+     "quotes": [
+      "אביו הקדוש האלקי רבי ר״מ מסאמבור",
+      "אז הבינה אמי הצדיקת מה קול האנחות"
+     ],
+     "confidence": 3,
+     "why": "The father and mother are the main actors",
+     "quotes_failed": false
+    },
+    {
+     "tag": "women:major_character",
+     "scope": "span",
+     "quotes": [
+      "ואז נתנה אמי את ידה על בטנה",
+      "כי אמרה תמיד שרצונה ליקח רק ירא שמים"
+     ],
+     "confidence": 3,
+     "why": "The mother acts decisively and saves her own name",
+     "quotes_failed": false
+    },
+    {
+     "tag": "ethics-and-emotions:adultery",
+     "scope": "span",
+     "quotes": [
+      "והיא הרה לזנונים ח\"ו"
+     ],
+     "confidence": 2,
+     "why": "Slanderous suspicion of premarital conception",
+     "quotes_failed": false
+    },
+    {
+     "tag": "ethics-and-emotions:shame",
+     "scope": "span",
+     "quotes": [
+      "מיך מציל צו זיין מחרפת דברת בני האדם"
+     ],
+     "confidence": 3,
+     "why": "Public disgrace is threatened",
+     "quotes_failed": false
+    },
+    {
+     "tag": "ethics-and-emotions:sadness",
+     "scope": "span",
+     "quotes": [
+      "ובא לביתו והתאנה מאד מאד",
+      "והתאנח יותר בקול מר"
+     ],
+     "confidence": 2,
+     "why": "The father's grief over the slander",
+     "quotes_failed": false
+    },
+    {
+     "tag": "practice:prayer",
+     "scope": "span",
+     "quotes": [
+      "ושפך שיחו ברעש לפני ה׳ על קושי הלידה"
+     ],
+     "confidence": 3,
+     "why": "The father prays for the birth",
+     "quotes_failed": false
+    },
+    {
+     "tag": "spaces:beth_midrash",
+     "scope": "span",
+     "quotes": [
+      "והלך אבי מורי לבהמ\"ד ושפך שיחו"
+     ],
+     "confidence": 3,
+     "why": "A scene is set in the beit midrash",
+     "quotes_failed": false
+    },
+    {
+     "tag": "social:marital_relationship",
+     "scope": "span",
+     "quotes": [
+      "אמי ע\"ה בשמעה קול אנחותיו שלחה מחדרה"
+     ],
+     "confidence": 2,
+     "why": "Exchange between husband and wife",
+     "quotes_failed": false
+    },
+    {
+     "tag": "social:marriage",
+     "scope": "span",
+     "quotes": [
+      "ולא הוטב בעיניה שום שודך עד שבא גורלו"
+     ],
+     "confidence": 2,
+     "why": "Her late marriage and choice of a match",
+     "quotes_failed": false
+    },
+    {
+     "tag": "practice:storytelling",
+     "scope": "span",
+     "quotes": [
+      "עד כה סיפר הרה״ק מראזלא פ\"א ברבים"
+     ],
+     "confidence": 3,
+     "why": "The tsaddik tells the story publicly",
+     "quotes_failed": false
+    },
+    {
+     "tag": "ethics-and-emotions:virtues",
+     "scope": "span",
+     "quotes": [
+      "כי בכל רגע קיימתי מצות כיבוד אם"
+     ],
+     "confidence": 2,
+     "why": "Honouring one's mother as the story's point",
+     "quotes_failed": false
+    },
+    {
+     "tag": "social:conflict",
+     "scope": "span",
+     "quotes": [
+      "היו מרבנים אחרי׳ כנהוג בעוה״ר אצל בעלי חיצים"
+     ],
+     "confidence": 1,
+     "why": "Slanderers act against the family",
+     "quotes_failed": false
+    }
+   ],
+   "missing_concepts": [
+    "slander / evil speech (lashon hara)",
+    "fetus with agency and speech in the womb",
+    "honouring parents (kibbud em)"
+   ],
+   "start_quote_found": true,
+   "end_quote_found": true
+  }
+ ],
+ "check": {
+  "non_vocab_tags": [],
+  "quotes": 17,
+  "quotes_not_found": 0
+ },
+ "id": "Eser-Kedushot_0101",
+ "chars": 1738,
+ "seconds": 16
+}

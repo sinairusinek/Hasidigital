@@ -1,0 +1,100 @@
+{
+ "unit": {
+  "kind": "hasidic_story",
+  "why": "split out of non-story-005 (non-story)"
+ },
+ "stories": [
+  {
+   "k": 2,
+   "start_quote": "האי דאתי לקמיה דרבא א״ל במה",
+   "end_quote": "א״ל נעניתי לך קום אכול",
+   "hasidic": false,
+   "summary_en": "A poor man asks Rava for fattened chicken and old wine, citing God's provision of each person's food in its time. Just then Rava's sister, unseen for thirteen years, arrives bearing exactly those foods, and Rava concedes.",
+   "tags": [
+    {
+     "tag": "ethics-and-emotions:charity",
+     "scope": "span",
+     "quotes": [
+      "במה אתה סועד א״ל בתרנגולת פסומה ויין ישן"
+     ],
+     "confidence": 3,
+     "why": "the dispute concerns how far charity should provide for a poor man",
+     "quotes_failed": false
+    },
+    {
+     "tag": "not-a-hasidic-story:hagiography",
+     "scope": "story",
+     "quotes": [],
+     "confidence": 1,
+     "why": "Talmudic anecdote about Rava",
+     "quotes_failed": false
+    },
+    {
+     "tag": "not-a-hasidic-story:virtues",
+     "scope": "story",
+     "quotes": [],
+     "confidence": 3,
+     "why": "exemplum in a section on gemilut hasadim",
+     "quotes_failed": false
+    },
+    {
+     "tag": "social:retrospective_recognition",
+     "scope": "span",
+     "quotes": [
+      "אמר מה דקמי. א״ל נעניתי לך קום אכול"
+     ],
+     "confidence": 2,
+     "why": "Rava realizes the poor man's claim was justified",
+     "quotes_failed": false
+    },
+    {
+     "tag": "women:minor_character",
+     "scope": "span",
+     "quotes": [
+      "אדהכי אתא אחתיה דרבא דלא חזי ליה תליסר שני"
+     ],
+     "confidence": 3,
+     "why": "Rava's sister arrives and brings the food",
+     "quotes_failed": false
+    },
+    {
+     "tag": "supernatural:miracle",
+     "scope": "span",
+     "quotes": [
+      "ואתיא ליה תרנגולת פטומה ויין ישן"
+     ],
+     "confidence": 1,
+     "why": "providential arrival of the exact foods",
+     "quotes_failed": false
+    },
+    {
+     "tag": "practice:drinking_alcohol",
+     "scope": "span",
+     "quotes": [
+      "בתרנגולת פסומה ויין ישן"
+     ],
+     "confidence": 1,
+     "why": "old wine as the requested fare",
+     "quotes_failed": false
+    },
+    {
+     "tag": "practice:sermon",
+     "scope": "span",
+     "quotes": [
+      "בעתם לא נאמר אלא בעתו"
+     ],
+     "confidence": 2,
+     "why": "exegesis of a verse within the story",
+     "quotes_failed": false
+    }
+   ],
+   "missing_concepts": [
+    "divine providence in livelihood (each person's sustenance)"
+   ],
+   "start_quote_found": true,
+   "end_quote_found": true
+  }
+ ],
+ "id": "Shaarei-Haemuna_non-story-005_s2",
+ "split_from": "non-story-005"
+}

@@ -1,0 +1,197 @@
+{
+ "unit": {
+  "kind": "hasidic_story",
+  "why": "A single narrative: the tsaddik of Rozdol shuts himself in with his dying daughter Hinda, means to revive her as Elisha did, is stopped by his late father-in-law, and later recounts all this in the sukkah.",
+  "boundary_note": ""
+ },
+ "stories": [
+  {
+   "k": 1,
+   "start_quote": "שמעתי מאיש ת\"ח וחסיד עובד ה׳",
+   "end_quote": "כאור נוגה אור ח׳ וכו׳ עכד״ק",
+   "hasidic": true,
+   "summary_en": "When his daughter Hinda lay dying, the tsaddik of Rozdol shut himself in alone with her, meaning to revive her as Elisha revived the Shunammite's son, because he grieved for the broken bond with the Sasov dynasty; his father-in-law came and warned him off as dangerous, and on Sukkot night he told the story at the meal and then gave a Torah teaching.",
+   "tags": [
+    {
+     "tag": "times:death",
+     "scope": "span",
+     "quotes": [
+      "והיא אסתלקת באותו השבת ונפטרה"
+     ],
+     "confidence": 3,
+     "why": "the daughter's death is depicted",
+     "quotes_failed": false
+    },
+    {
+     "tag": "characters-and-roles:the_family_of_the_tsaddik",
+     "scope": "span",
+     "quotes": [
+      "בתו הצדיקת מרת הינדא ע\"ה",
+      "וואס וועלין מיר טאהן מיט דעם צער פין הייליגען שווער"
+     ],
+     "confidence": 3,
+     "why": "his daughter and father-in-law are central",
+     "quotes_failed": false
+    },
+    {
+     "tag": "women:catalyst_character",
+     "scope": "span",
+     "quotes": [
+      "שכבה על ערש דוי קודם פטירתה"
+     ],
+     "confidence": 3,
+     "why": "the dying daughter drives the plot but does not act",
+     "quotes_failed": false
+    },
+    {
+     "tag": "times:shabbat",
+     "scope": "span",
+     "quotes": [
+      "בשבת האחרון ממחלתה הלך לבקרה",
+      "לא אמר אגיטען שבת כנהוג"
+     ],
+     "confidence": 3,
+     "why": "the central scene takes place on Shabbat",
+     "quotes_failed": false
+    },
+    {
+     "tag": "times:holidays",
+     "scope": "span",
+     "quotes": [
+      "בחג הסכות בליל א' בכניסתו בשמחה",
+      "והי׳ זה ששבת שלפני סליחות"
+     ],
+     "confidence": 3,
+     "why": "the telling happens on Sukkot",
+     "quotes_failed": false
+    },
+    {
+     "tag": "practice:storytelling",
+     "scope": "span",
+     "quotes": [
+      "מיר וועלין דער ציילין אביסיל פין אונזער טויכטער"
+     ],
+     "confidence": 3,
+     "why": "the tsaddik narrates the episode at the festive meal",
+     "quotes_failed": false
+    },
+    {
+     "tag": "practice:sermon",
+     "scope": "span",
+     "quotes": [
+      "התחיל תיכף הרב הק׳ מראזלא לומר תורה"
+     ],
+     "confidence": 2,
+     "why": "he follows the story with a Torah discourse",
+     "quotes_failed": false
+    },
+    {
+     "tag": "practice:lifesaving",
+     "scope": "span",
+     "quotes": [
+      "והי' ברצונינו לעשות כמו אלישע",
+      "ויסגור הדלת וישם פיו על פיו"
+     ],
+     "confidence": 2,
+     "why": "an attempted revival of the dying daughter, modelled on Elisha",
+     "quotes_failed": false
+    },
+    {
+     "tag": "practice:failure",
+     "scope": "span",
+     "quotes": [
+      "בני הלך מזה כי הוא ענין מסוכן"
+     ],
+     "confidence": 1,
+     "why": "the intended revival is abandoned and she dies",
+     "quotes_failed": false
+    },
+    {
+     "tag": "supernatural:perception",
+     "scope": "span",
+     "quotes": [
+      "האבין מיר שיין גיזעהן איך הדבר עומד"
+     ],
+     "confidence": 2,
+     "why": "he knew her fate on Shabbat morning",
+     "quotes_failed": false
+    },
+    {
+     "tag": "supernatural:communicating_with_the_invisible",
+     "scope": "span",
+     "quotes": [
+      "ובא אלינו תיכף חותני ומורי ואמר לנו"
+     ],
+     "confidence": 2,
+     "why": "the late father-in-law appears and speaks to him",
+     "quotes_failed": false
+    },
+    {
+     "tag": "ethics-and-emotions:sadness",
+     "scope": "span",
+     "quotes": [
+      "אונזער צער וועלין מיר שוין מקבל זיין באהבה"
+     ],
+     "confidence": 2,
+     "why": "his grief, which he accepts with love",
+     "quotes_failed": false
+    },
+    {
+     "tag": "ethics-and-emotions:joy",
+     "scope": "span",
+     "quotes": [
+      "בכניסתו בשמחה לתוך הסוכה"
+     ],
+     "confidence": 2,
+     "why": "joyful entry into the sukkah",
+     "quotes_failed": false
+    },
+    {
+     "tag": "practice:music",
+     "scope": "span",
+     "quotes": [
+      "בכניסתו להסוכה בשיר ושבח"
+     ],
+     "confidence": 1,
+     "why": "song on entering the sukkah",
+     "quotes_failed": false
+    },
+    {
+     "tag": "practice:solitude",
+     "scope": "span",
+     "quotes": [
+      "וסגר א״ע עמה לבדו"
+     ],
+     "confidence": 1,
+     "why": "he shuts himself in alone with her",
+     "quotes_failed": false
+    },
+    {
+     "tag": "times:eschatology",
+     "scope": "span",
+     "quotes": [
+      "אז ער וועט בעולם העליון גיוואהר וועהרין"
+     ],
+     "confidence": 1,
+     "why": "the father-in-law would learn of it in the upper world",
+     "quotes_failed": false
+    }
+   ],
+   "missing_concepts": [
+    "resurrection of the dead modelled on Elisha",
+    "dynastic marriage ties between Hasidic houses (the 'golden rope')",
+    "Sukkot customs: kissing the walls of the sukkah"
+   ],
+   "start_quote_found": true,
+   "end_quote_found": true
+  }
+ ],
+ "check": {
+  "non_vocab_tags": [],
+  "quotes": 20,
+  "quotes_not_found": 0
+ },
+ "id": "Eser-Kedushot_0106",
+ "chars": 1464,
+ "seconds": 23
+}

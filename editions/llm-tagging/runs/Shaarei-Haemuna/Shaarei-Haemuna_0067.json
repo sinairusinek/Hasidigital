@@ -1,0 +1,127 @@
+{
+ "unit": {
+  "kind": "hasidic_story",
+  "why": "A single narrative, quoted from the book Ramatz, about the Rebbe of Peshischa's lavish charity to the poor hasid R. Zalman of Shefs, ending with the Rebbe's explanation of the verse on giving.",
+  "boundary_note": ""
+ },
+ "stories": [
+  {
+   "k": 1,
+   "start_quote": "ובס׳ רמ״ץ (אות ע״ד) וז\"ל סיפר",
+   "end_quote": "הנמצא איש כזה אשר רוח אלקי׳ בקרבו",
+   "hasidic": true,
+   "summary_en": "On his way home from Danzig the Rebbe of Peshischa stops in Shefs. He gives the poor hasid R. Zalman money for a festive meal and clothes him and his whole family. At parting he gives him still more money and explains that only once pity is gone can one fulfil the commandment of charity properly.",
+   "tags": [
+    {
+     "tag": "ethics-and-emotions:charity",
+     "scope": "story",
+     "quotes": [],
+     "confidence": 3,
+     "why": "the whole story is about the rebbe's giving to the poor",
+     "quotes_failed": false
+    },
+    {
+     "tag": "folkloristics:story_type_virtues",
+     "scope": "story",
+     "quotes": [],
+     "confidence": 3,
+     "why": "illustrates the tzaddik's virtue of charity",
+     "quotes_failed": false
+    },
+    {
+     "tag": "practice:the_travels_of_the_tsaddik",
+     "scope": "span",
+     "quotes": [
+      "נסע מדאנציג לביתו דרך עיר שעפס"
+     ],
+     "confidence": 3,
+     "why": "story takes place during the rebbe's stop en route",
+     "quotes_failed": false
+    },
+    {
+     "tag": "practice:clothing",
+     "scope": "span",
+     "quotes": [
+      "והלבישו מכף רגל ועד ראש",
+      "ליקח על מלבושים לכל הב\"ב"
+     ],
+     "confidence": 2,
+     "why": "clothing the poor family is central",
+     "quotes_failed": false
+    },
+    {
+     "tag": "practice:sermon",
+     "scope": "span",
+     "quotes": [
+      "הלא אמרה התורה נתן תתן ולא ידע לבבך"
+     ],
+     "confidence": 3,
+     "why": "the rebbe gives an exegesis of a verse",
+     "quotes_failed": false
+    },
+    {
+     "tag": "practice:drinking_alcohol",
+     "scope": "span",
+     "quotes": [
+      "ואחרי אכלם צוה לקנות משקה"
+     ],
+     "confidence": 2,
+     "why": "drink bought for the meal",
+     "quotes_failed": false
+    },
+    {
+     "tag": "ethics-and-emotions:joy",
+     "scope": "span",
+     "quotes": [
+      "והי׳ להם שמחה גדולה"
+     ],
+     "confidence": 2,
+     "why": "the family's joy",
+     "quotes_failed": false
+    },
+    {
+     "tag": "social:inter_hasidic",
+     "scope": "story",
+     "quotes": [],
+     "confidence": 2,
+     "why": "a tzaddik interacts with a local hasid",
+     "quotes_failed": false
+    },
+    {
+     "tag": "practice:storytelling",
+     "scope": "span",
+     "quotes": [
+      "סיפר לי אחד מהתלמידים בהיותי בפרשיסחא"
+     ],
+     "confidence": 1,
+     "why": "framed as a story told by a disciple",
+     "quotes_failed": false
+    },
+    {
+     "tag": "women:mention_only",
+     "scope": "span",
+     "quotes": [
+      "ראה את כל ב\"ב ערומי׳"
+     ],
+     "confidence": 1,
+     "why": "the household (presumably including the wife) is referred to collectively",
+     "quotes_failed": false
+    }
+   ],
+   "missing_concepts": [
+    "pity versus the commandment of charity (giving until one no longer feels compassion)",
+    "festive hasidic meal (se'udah) given by the rebbe"
+   ],
+   "start_quote_found": true,
+   "end_quote_found": true
+  }
+ ],
+ "check": {
+  "non_vocab_tags": [],
+  "quotes": 8,
+  "quotes_not_found": 0
+ },
+ "id": "Shaarei-Haemuna_0067",
+ "chars": 1652,
+ "seconds": 13
+}

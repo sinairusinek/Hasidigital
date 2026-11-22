@@ -1,0 +1,93 @@
+{
+ "unit": {
+  "kind": "hasidic_story",
+  "why": "A genealogical list of R. Moshe of Zhydachiv's sons that frames a short narrative, sent in a letter, about the dead R. Yeshaya appearing to his brother R. Kapil, who later died in the same town.",
+  "boundary_note": "division ends with the heading of the next section (sayings of R. Moshe), which belongs to the following division"
+ },
+ "stories": [
+  {
+   "k": 1,
+   "start_quote": "הרב ר׳ ישעי׳ נפטר ונטמן בעיר סגאטין",
+   "end_quote": "ונסתלק שמה ומונחים שמה גם יחד",
+   "hasidic": true,
+   "summary_en": "After R. Yeshaya, son of R. Moshe, died and was buried in Snyatyn, he appeared to his brother R. Kapil while he was awake and asked him to come to him because he was lonely there; R. Kapil first went home to give his last instructions, later returned to Snyatyn, died there and was buried beside his brother.",
+   "tags": [
+    {
+     "tag": "characters-and-roles:the_family_of_the_tsaddik",
+     "scope": "story",
+     "quotes": [],
+     "confidence": 3,
+     "why": "the protagonists are sons of R. Moshe the tsaddik",
+     "quotes_failed": false
+    },
+    {
+     "tag": "times:death",
+     "scope": "span",
+     "quotes": [
+      "הרב ר׳ ישעי׳ נפטר ונטמן בעיר סגאטין",
+      "ושוב בא לסנאטין ונסתלק שמה"
+     ],
+     "confidence": 3,
+     "why": "both brothers' deaths are narrated",
+     "quotes_failed": false
+    },
+    {
+     "tag": "supernatural:communicating_with_the_invisible",
+     "scope": "span",
+     "quotes": [
+      "ובא אליו אחיו הרב ר׳ ישעי׳ בהקיץ"
+     ],
+     "confidence": 3,
+     "why": "the dead brother speaks to the living one",
+     "quotes_failed": false
+    },
+    {
+     "tag": "experience:visions",
+     "scope": "span",
+     "quotes": [
+      "ובא אליו אחיו הרב ר׳ ישעי׳ בהקיץ"
+     ],
+     "confidence": 3,
+     "why": "R. Kapil sees his dead brother while awake",
+     "quotes_failed": false
+    },
+    {
+     "tag": "supernatural:prognostication",
+     "scope": "span",
+     "quotes": [
+      "אהובי אחי בא אלי",
+      "ונסתלק שמה ומונחים שמה גם יחד"
+     ],
+     "confidence": 1,
+     "why": "the summons implicitly foretells R. Kapil's death, which then occurs",
+     "quotes_failed": false
+    },
+    {
+     "tag": "practice:the_travels_of_the_tsaddik",
+     "scope": "span",
+     "quotes": [
+      "ונסע לביתו ועברו איזה זמנים ושוב בא לסנאטין"
+     ],
+     "confidence": 1,
+     "why": "R. Kapil's journeys home and back frame the outcome",
+     "quotes_failed": false
+    }
+   ],
+   "missing_concepts": [
+    "apparition of a dead person summoning a living relative",
+    "burial of brothers side by side",
+    "story transmitted by letter from a descendant"
+   ],
+   "start_quote_found": true,
+   "end_quote_found": true
+  }
+ ],
+ "check": {
+  "non_vocab_tags": [],
+  "quotes": 7,
+  "quotes_not_found": 0
+ },
+ "id": "Eser-Kedushot_0076",
+ "chars": 790,
+ "seconds": 16
+}

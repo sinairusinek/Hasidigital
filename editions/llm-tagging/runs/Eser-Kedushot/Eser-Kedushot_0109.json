@@ -1,0 +1,109 @@
+{
+ "unit": {
+  "kind": "hasidic_story",
+  "why": "A short narrative about the tzaddik foreseeing his death, secretly dictating his last will to a scribe on Hoshana Rabba, and the will being revealed only after his passing.",
+  "boundary_note": "Part of a series of numbered death-related anecdotes; the deathbed scene follows in the next division."
+ },
+ "stories": [
+  {
+   "k": 1,
+   "start_quote": "שמעתי מפי מגידי אמת כי בשנה",
+   "end_quote": "הוציא הצוואה שנכתבה בהושע\"ר",
+   "hasidic": true,
+   "summary_en": "On Hoshana Rabba before his death, the tzaddik secluded himself with a scribe, dictated his last will, revealed that he would die soon after the festival and swore the scribe to secrecy; the scribe left weeping and produced the will only after the tzaddik died.",
+   "tags": [
+    {
+     "tag": "folkloristics:story_type_death_of_the_tsaddik",
+     "scope": "story",
+     "quotes": [],
+     "confidence": 3,
+     "why": "The story is about the last will and the approaching death of the tzaddik.",
+     "quotes_failed": false
+    },
+    {
+     "tag": "supernatural:prognostication",
+     "scope": "span",
+     "quotes": [
+      "וגילה לו אז כי בקרוב אחר החג יסתלק לעולמו"
+     ],
+     "confidence": 3,
+     "why": "He foretells his own death, and the prediction comes true.",
+     "quotes_failed": false
+    },
+    {
+     "tag": "folkloristics:story_type_prognostication",
+     "scope": "story",
+     "quotes": [],
+     "confidence": 2,
+     "why": "The narrative arc is a prediction of his death that is fulfilled.",
+     "quotes_failed": false
+    },
+    {
+     "tag": "times:holidays",
+     "scope": "span",
+     "quotes": [
+      "בהושענא רבא אחרי גמרו ההושענות והתפלה"
+     ],
+     "confidence": 3,
+     "why": "The scene is set on Hoshana Rabba / Sukkot.",
+     "quotes_failed": false
+    },
+    {
+     "tag": "times:death",
+     "scope": "span",
+     "quotes": [
+      "עד אחר יציאת נשמתו הקדושה"
+     ],
+     "confidence": 3,
+     "why": "The tzaddik's death is the event the story leads to.",
+     "quotes_failed": false
+    },
+    {
+     "tag": "practice:prayer",
+     "scope": "span",
+     "quotes": [
+      "אחרי גמרו ההושענות והתפלה"
+     ],
+     "confidence": 1,
+     "why": "The festival prayers are mentioned as the moment before the scene.",
+     "quotes_failed": false
+    },
+    {
+     "tag": "ethics-and-emotions:sadness",
+     "scope": "span",
+     "quotes": [
+      "ודמעתו על לחייו בעינים אדומים מרוב הבכיה"
+     ],
+     "confidence": 1,
+     "why": "The scribe weeps over the coming death; this is grief, not melancholy as a spiritual problem.",
+     "quotes_failed": false
+    },
+    {
+     "tag": "practice:storytelling",
+     "scope": "span",
+     "quotes": [
+      "שמעתי מפי מגידי אמת"
+     ],
+     "confidence": 1,
+     "why": "The story is framed as heard from trustworthy tellers.",
+     "quotes_failed": false
+    }
+   ],
+   "missing_concepts": [
+    "ethical will (tsava'ah) of the tzaddik",
+    "secrecy / oath not to reveal",
+    "scribe or secretary who is not a sofer"
+   ],
+   "start_quote_found": true,
+   "end_quote_found": true
+  }
+ ],
+ "check": {
+  "non_vocab_tags": [],
+  "quotes": 6,
+  "quotes_not_found": 0
+ },
+ "id": "Eser-Kedushot_0109",
+ "chars": 404,
+ "seconds": 15
+}

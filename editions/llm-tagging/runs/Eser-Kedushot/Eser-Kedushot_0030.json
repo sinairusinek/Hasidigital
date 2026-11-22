@@ -1,0 +1,92 @@
+{
+ "unit": {
+  "kind": "hasidic_story",
+  "why": "A short anecdote: the Dinover rebbe at Zhidachov refuses to eat potatoes, and R. Zvi tells him the food will one day feed many people, a prediction that came true.",
+  "boundary_note": ""
+ },
+ "stories": [
+  {
+   "k": 1,
+   "start_quote": "עו״ש כאשר הגאוה״ק רצ\"א מדינוב הי' בזידיטשוב",
+   "end_quote": "ועתה אנו רואים שדבריו נתקיימו",
+   "hasidic": true,
+   "summary_en": "When R. Zvi Elimelekh of Dinov visited Zhidachov and declined to eat the new food, potatoes, his relative by marriage R. Zvi Hirsh urged him to eat, foretelling that many people in their land would live from it, which came true.",
+   "tags": [
+    {
+     "tag": "folkloristics:story_type_prognostication",
+     "scope": "story",
+     "quotes": [],
+     "confidence": 3,
+     "why": "the arc is a prediction that is fulfilled",
+     "quotes_failed": false
+    },
+    {
+     "tag": "supernatural:prognostication",
+     "scope": "span",
+     "quotes": [
+      "כי המאכל הזה יוצרך בעולם גם במדינתינו",
+      "ועתה אנו רואים שדבריו נתקיימו"
+     ],
+     "confidence": 3,
+     "why": "the prediction about potatoes came true",
+     "quotes_failed": false
+    },
+    {
+     "tag": "practice:the_travels_of_the_tsaddik",
+     "scope": "span",
+     "quotes": [
+      "הגאוה״ק רצ\"א מדינוב הי' בזידיטשוב"
+     ],
+     "confidence": 2,
+     "why": "the Dinover tsaddik is staying away from home in Zhidachov",
+     "quotes_failed": false
+    },
+    {
+     "tag": "practice:travel_to_other_tsaddik",
+     "scope": "span",
+     "quotes": [
+      "הגאוה״ק רצ\"א מדינוב הי' בזידיטשוב"
+     ],
+     "confidence": 2,
+     "why": "one tsaddik visits another tsaddik's town",
+     "quotes_failed": false
+    },
+    {
+     "tag": "social:inter_hasidic",
+     "scope": "span",
+     "quotes": [
+      "ואמר לו מחותנו רבינו צבי שיאכל"
+     ],
+     "confidence": 2,
+     "why": "two tsaddikim, related by marriage, interact at the table",
+     "quotes_failed": false
+    },
+    {
+     "tag": "characters-and-roles:the_family_of_the_tsaddik",
+     "scope": "span",
+     "quotes": [
+      "ואמר לו מחותנו רבינו צבי"
+     ],
+     "confidence": 1,
+     "why": "the two are related by marriage (mehutanim), though not immediate family",
+     "quotes_failed": false
+    }
+   ],
+   "missing_concepts": [
+    "food and new foods (potatoes)",
+    "the tsaddik's table / communal meal",
+    "economic livelihood of the region"
+   ],
+   "start_quote_found": true,
+   "end_quote_found": true
+  }
+ ],
+ "check": {
+  "non_vocab_tags": [],
+  "quotes": 6,
+  "quotes_not_found": 0
+ },
+ "id": "Eser-Kedushot_0030",
+ "chars": 285,
+ "seconds": 11
+}

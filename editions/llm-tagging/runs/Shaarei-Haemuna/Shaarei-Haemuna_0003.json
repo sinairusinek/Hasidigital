@@ -1,0 +1,154 @@
+{
+ "unit": {
+  "kind": "hasidic_story",
+  "why": "A single narrative, quoted from the book רמ״ז: the rabbi of Gritza comes to the Seer of Lublin to mock him, and is won over when the Seer perceives at a distance how his friend R. Zusha treated a guest.",
+  "boundary_note": ""
+ },
+ "stories": [
+  {
+   "k": 1,
+   "start_quote": "ובס׳ רמ״ז כתב וז״ל הה״ג הק׳",
+   "end_quote": "של הרבי ונסעו תיכף שנית",
+   "hasidic": true,
+   "summary_en": "The rabbi of Gritza goes to the Seer of Lublin's third Sabbath meal to mock him but is drawn to him. He submits a kvitel for himself and his friend R. Zusha, and the Seer first condemns and later praises Zusha. They then learn that Zusha had shamed a learned guest at that time and afterwards made amends and helped him with money, so they recognize the Seer's holy spirit and return to him.",
+   "tags": [
+    {
+     "tag": "folkloristics:story_type_rapprochement",
+     "scope": "story",
+     "quotes": [],
+     "confidence": 3,
+     "why": "Came to mock and was drawn close; both travel back to the Seer.",
+     "quotes_failed": false
+    },
+    {
+     "tag": "supernatural:perception",
+     "scope": "span",
+     "quotes": [
+      "אז ראו כי רוה״ק שורה בתוך בית מדרשו",
+      "אז דבר הרבי על הרב מו״ה זושיא הנ״ל דברים לא טובים"
+     ],
+     "confidence": 3,
+     "why": "The Seer knows Zusha's conduct from afar.",
+     "quotes_failed": false
+    },
+    {
+     "tag": "practice:travel_to_the_tsaddik",
+     "scope": "span",
+     "quotes": [
+      "ונסע שם בצירוף חותנו",
+      "ונסעו תיכף שנית"
+     ],
+     "confidence": 3,
+     "why": "Journeys to Lublin.",
+     "quotes_failed": false
+    },
+    {
+     "tag": "practice:reception_of_hasidim",
+     "scope": "span",
+     "quotes": [
+      "ונתן קוויטיל עבורו ועבור רעו",
+      "בעת נסיעתו משם נתן פעם ב׳ קוויטיל"
+     ],
+     "confidence": 3,
+     "why": "Kvitlakh are submitted to the rebbe.",
+     "quotes_failed": false
+    },
+    {
+     "tag": "social:relations_with_non_hasidim",
+     "scope": "span",
+     "quotes": [
+      "אצל הרה״ק אור ישראל הרבי מלובלין ז״ל לשחוק ממנו"
+     ],
+     "confidence": 2,
+     "why": "A skeptical scholar comes to mock the rebbe.",
+     "quotes_failed": false
+    },
+    {
+     "tag": "times:shabbat",
+     "scope": "span",
+     "quotes": [
+      "והיה בשבת בסעודת שלישית"
+     ],
+     "confidence": 3,
+     "why": "The encounter takes place at the third Sabbath meal.",
+     "quotes_failed": false
+    },
+    {
+     "tag": "ethics-and-emotions:repentance",
+     "scope": "span",
+     "quotes": [
+      "מה זה עשיתי לא די שלא ראיתי מעות",
+      "ותיקן בעצמו מה שהשיג עליו"
+     ],
+     "confidence": 3,
+     "why": "Zusha regrets his deed and makes amends.",
+     "quotes_failed": false
+    },
+    {
+     "tag": "ethics-and-emotions:shame",
+     "scope": "span",
+     "quotes": [
+      "אז נחלש דעת האורח והלך ממנו בפחי נפש"
+     ],
+     "confidence": 3,
+     "why": "The guest is humiliated.",
+     "quotes_failed": false
+    },
+    {
+     "tag": "ethics-and-emotions:charity",
+     "scope": "span",
+     "quotes": [
+      "והשתדל עבורו ונתן לו מעות"
+     ],
+     "confidence": 3,
+     "why": "Zusha gives money to the poor guest.",
+     "quotes_failed": false
+    },
+    {
+     "tag": "social:retrospective_recognition",
+     "scope": "span",
+     "quotes": [
+      "אז ראו כי רוה״ק שורה"
+     ],
+     "confidence": 3,
+     "why": "The Seer's puzzling words are understood afterwards.",
+     "quotes_failed": false
+    },
+    {
+     "tag": "social:inter_hasidic",
+     "scope": "span",
+     "quotes": [
+      "נכנס אצל רעו הנ״ל וספר לו הכל"
+     ],
+     "confidence": 2,
+     "why": "The two friends exchange accounts.",
+     "quotes_failed": false
+    },
+    {
+     "tag": "practice:storytelling",
+     "scope": "span",
+     "quotes": [
+      "ובס׳ רמ״ז כתב וז״ל"
+     ],
+     "confidence": 1,
+     "why": "The story is framed as quoted from an earlier book.",
+     "quotes_failed": false
+    }
+   ],
+   "missing_concepts": [
+    "hospitality to guests (hakhnasat orchim)",
+    "kvitel as a vehicle of the rebbe's knowledge"
+   ],
+   "start_quote_found": true,
+   "end_quote_found": true
+  }
+ ],
+ "check": {
+  "non_vocab_tags": [],
+  "quotes": 15,
+  "quotes_not_found": 0
+ },
+ "id": "Shaarei-Haemuna_0003",
+ "chars": 1158,
+ "seconds": 20
+}

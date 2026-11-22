@@ -1,0 +1,134 @@
+{
+ "unit": {
+  "kind": "paratext_with_story",
+  "why": "A footnote (הערה) on R. Zvi Hirsh of Zhidachov tells an anecdote about his little brother's death on Pesach, then lists bibliographic references to his works.",
+  "boundary_note": "footnote attached to the biography of R. Zvi Hirsh in the previous division; the trailing list of works is bibliographic, not narrative"
+ },
+ "stories": [
+  {
+   "k": 1,
+   "start_quote": "הערה מקובל כי הי' להם עוד",
+   "end_quote": "כי הילד הזה תיכף של\"ח",
+   "hasidic": true,
+   "summary_en": "On Pesach a small brother of R. Zvi Hirsh of Zhidachov cried for leavened bread; when their mother asked him what to do, the tsaddik, absorbed in prayer, answered in Yiddish that a child who wants chametz on Pesach is not needed, and the child died at once.",
+   "tags": [
+    {
+     "tag": "characters-and-roles:the_family_of_the_tsaddik",
+     "scope": "span",
+     "quotes": [
+      "הי' להם עוד את אחד ילד קטן",
+      "והלכה אמו לשאול פי בנה הגדול"
+     ],
+     "confidence": 3,
+     "why": "The tsaddik's little brother and his mother are the characters.",
+     "quotes_failed": false
+    },
+    {
+     "tag": "women:minor_character",
+     "scope": "span",
+     "quotes": [
+      "והלכה אמו לשאול פי בנה הגדול"
+     ],
+     "confidence": 3,
+     "why": "The mother acts by bringing the question to the tsaddik.",
+     "quotes_failed": false
+    },
+    {
+     "tag": "times:holidays",
+     "scope": "span",
+     "quotes": [
+      "ויהי בחג הפסח בעת אחיו"
+     ],
+     "confidence": 3,
+     "why": "The story is set on Pesach.",
+     "quotes_failed": false
+    },
+    {
+     "tag": "times:death",
+     "scope": "span",
+     "quotes": [
+      "כי הילד הזה תיכף של\"ח"
+     ],
+     "confidence": 3,
+     "why": "The child dies.",
+     "quotes_failed": false
+    },
+    {
+     "tag": "practice:prayer",
+     "scope": "span",
+     "quotes": [
+      "רבינו צבי ז\"ל עמד בתפלתו"
+     ],
+     "confidence": 3,
+     "why": "The tsaddik is in the middle of praying.",
+     "quotes_failed": false
+    },
+    {
+     "tag": "practice:devekut",
+     "scope": "span",
+     "quotes": [
+      "בעמדו בלהב קדושתו ענה לה"
+     ],
+     "confidence": 2,
+     "why": "He answers while rapt in holy fervor.",
+     "quotes_failed": false
+    },
+    {
+     "tag": "experience:enthusiasm",
+     "scope": "span",
+     "quotes": [
+      "בעמדו בלהב קדושתו ענה לה"
+     ],
+     "confidence": 2,
+     "why": "The burning fervor (להב) of his prayer is depicted.",
+     "quotes_failed": false
+    },
+    {
+     "tag": "ethics-and-emotions:prohibitions",
+     "scope": "span",
+     "quotes": [
+      "התגעגע לאכול חתיכה לחם חמץ",
+      "וואס וויל חמץ בפסח"
+     ],
+     "confidence": 2,
+     "why": "The child's craving is for chametz, which is forbidden on Pesach.",
+     "quotes_failed": false
+    },
+    {
+     "tag": "practice:halakhah",
+     "scope": "span",
+     "quotes": [
+      "כדת מה לעשות עמו"
+     ],
+     "confidence": 2,
+     "why": "The mother asks a question of law about feeding chametz to a child on Pesach.",
+     "quotes_failed": false
+    },
+    {
+     "tag": "supernatural:miracle",
+     "scope": "span",
+     "quotes": [
+      "ותהי כשגגה היוצאת מלפני השליט"
+     ],
+     "confidence": 1,
+     "why": "The tsaddik's word takes effect supernaturally and kills the child.",
+     "quotes_failed": false
+    }
+   ],
+   "missing_concepts": [
+    "power of a tsaddik's unintended word or curse (שגגה היוצאת מלפני השליט)",
+    "child death"
+   ],
+   "start_quote_found": true,
+   "end_quote_found": true
+  }
+ ],
+ "check": {
+  "non_vocab_tags": [],
+  "quotes": 12,
+  "quotes_not_found": 0
+ },
+ "id": "Eser-Kedushot_0010",
+ "chars": 465,
+ "seconds": 16
+}

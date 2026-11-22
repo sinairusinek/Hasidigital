@@ -1,0 +1,122 @@
+{
+ "unit": {
+  "kind": "hasidic_story",
+  "why": "A short memorate: a descendant staying with the rebbe during his illness sees him at night holding his beard and weeping, and the rebbe senses him and explains why he weeps.",
+  "boundary_note": "thematically continues the previous division (rebbe's wish to set all Hasidim right before his death) but is a self-contained anecdote"
+ },
+ "stories": [
+  {
+   "k": 1,
+   "start_quote": "וככה סיפר א' מצאצאיו הקדושים שלן",
+   "end_quote": "לא ליעול בכסופא לעלמא דאתי",
+   "hasidic": true,
+   "summary_en": "A descendant staying with the ill rebbe creeps barefoot to his bed at night and finds him weeping while holding his beard. The rebbe senses him and explains that he weeps because he wishes to set all his Hasidim right before his death, so that none of them enters the world to come in shame.",
+   "tags": [
+    {
+     "tag": "characters-and-roles:the_family_of_the_tsaddik",
+     "scope": "span",
+     "quotes": [
+      "א' מצאצאיו הקדושים שלן אצלו בעת חליו"
+     ],
+     "confidence": 3,
+     "why": "the witness is the rebbe's descendant",
+     "quotes_failed": false
+    },
+    {
+     "tag": "ethics-and-emotions:sadness",
+     "scope": "span",
+     "quotes": [
+      "אוחז בדיקנא קדישא שלו ובוכה"
+     ],
+     "confidence": 2,
+     "why": "the rebbe weeps at night",
+     "quotes_failed": false
+    },
+    {
+     "tag": "supernatural:perception",
+     "scope": "span",
+     "quotes": [
+      "ומורינו הרגיש שא׳ עומד אצל המטה"
+     ],
+     "confidence": 2,
+     "why": "he senses the silent barefoot visitor",
+     "quotes_failed": false
+    },
+    {
+     "tag": "practice:healing_of_the_soul",
+     "scope": "span",
+     "quotes": [
+      "להעמיד כל אנ\"ש על מכונם קודם פטירתו",
+      "שיתקן כ\"א מה שבא לזה העולם השפל"
+     ],
+     "confidence": 3,
+     "why": "he wants to repair his followers' souls",
+     "quotes_failed": false
+    },
+    {
+     "tag": "practice:torat_ha_tsaddik",
+     "scope": "span",
+     "quotes": [
+      "להעמיד כל אנ\"ש על מכונם קודם פטירתו"
+     ],
+     "confidence": 2,
+     "why": "the tsaddik is responsible for his followers' spiritual repair",
+     "quotes_failed": false
+    },
+    {
+     "tag": "ethics-and-emotions:shame",
+     "scope": "span",
+     "quotes": [
+      "לא ליעול בכסופא לעלמא דאתי"
+     ],
+     "confidence": 2,
+     "why": "the aim is that his followers not enter the next world in shame",
+     "quotes_failed": false
+    },
+    {
+     "tag": "times:eschatology",
+     "scope": "span",
+     "quotes": [
+      "לא ליעול בכסופא לעלמא דאתי"
+     ],
+     "confidence": 1,
+     "why": "the world to come is mentioned",
+     "quotes_failed": false
+    },
+    {
+     "tag": "folkloristics:story_type_virtues",
+     "scope": "story",
+     "quotes": [],
+     "confidence": 2,
+     "why": "illustrates the rebbe's devotion to his followers",
+     "quotes_failed": false
+    },
+    {
+     "tag": "social:inter_hasidic_master_disciple_relationship",
+     "scope": "span",
+     "quotes": [
+      "רוצה להעמיד כל אנ\"ש על מכונם"
+     ],
+     "confidence": 2,
+     "why": "the rebbe's care for his Hasidim",
+     "quotes_failed": false
+    }
+   ],
+   "missing_concepts": [
+    "the tsaddik's illness before death",
+    "weeping as devotional or intercessory act",
+    "holding the beard (dikna kadisha)"
+   ],
+   "start_quote_found": true,
+   "end_quote_found": true
+  }
+ ],
+ "check": {
+  "non_vocab_tags": [],
+  "quotes": 9,
+  "quotes_not_found": 0
+ },
+ "id": "Eser-Kedushot_0139",
+ "chars": 312,
+ "seconds": 15
+}

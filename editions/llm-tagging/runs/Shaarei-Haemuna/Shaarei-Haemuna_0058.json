@@ -1,0 +1,158 @@
+{
+ "unit": {
+  "kind": "non_hasidic_story",
+  "why": "A single anecdote about an unnamed rabbinic gaon of the previous generation who freed an agunah and exposed a forged letter; taken from Mishivat Nefesh, with no Hasidic figure.",
+  "boundary_note": ""
+ },
+ "stories": [
+  {
+   "k": 1,
+   "start_quote": "שמעתי מעשה על רב גאון אחד",
+   "end_quote": "צא ולמד כמה גדול כח התורה",
+   "hasidic": false,
+   "summary_en": "A gaon permits an agunah to remarry. An enemy forges a letter from her 'living' first husband, and the rabbi at once sees through it. He explains that a ruling reached by pure Torah toil cannot lead to sin: even had the husband been alive, he would have died at the hour of the ruling.",
+   "tags": [
+    {
+     "tag": "characters-and-roles:agunah",
+     "scope": "span",
+     "quotes": [
+      "באשה עגונה מבעלה והיו לה עדים"
+     ],
+     "confidence": 3,
+     "why": "the agunah's case is the subject",
+     "quotes_failed": false
+    },
+    {
+     "tag": "practice:releasing_agunot",
+     "scope": "span",
+     "quotes": [
+      "ואחר החו\"ד כדת ישראל התיר לה"
+     ],
+     "confidence": 3,
+     "why": "the rabbi frees her to remarry",
+     "quotes_failed": false
+    },
+    {
+     "tag": "practice:halakhah",
+     "scope": "span",
+     "quotes": [
+      "מכמה ראשונים ופוסקים אחרוני׳ עד שמצאתי לה היתר"
+     ],
+     "confidence": 3,
+     "why": "a halakhic ruling is central",
+     "quotes_failed": false
+    },
+    {
+     "tag": "ethics-and-emotions:lying",
+     "scope": "span",
+     "quotes": [
+      "כתב מכתב מזויף בשם בעלה הראשון"
+     ],
+     "confidence": 3,
+     "why": "a forged letter",
+     "quotes_failed": false
+    },
+    {
+     "tag": "ethics-and-emotions:anger",
+     "scope": "span",
+     "quotes": [
+      "ואמר להשליח בדברי כעס"
+     ],
+     "confidence": 2,
+     "why": "the rabbi rebukes the messenger angrily",
+     "quotes_failed": false
+    },
+    {
+     "tag": "supernatural:perception",
+     "scope": "span",
+     "quotes": [
+      "היאך נתגלה לכם בהשקפה הראשונה כי המכתב היה בשקר"
+     ],
+     "confidence": 2,
+     "why": "he recognizes the forgery at first glance",
+     "quotes_failed": false
+    },
+    {
+     "tag": "spaces:rabbinical_court",
+     "scope": "span",
+     "quotes": [
+      "הדיינין היושבים לפניו בדין"
+     ],
+     "confidence": 2,
+     "why": "judges sit with him in court",
+     "quotes_failed": false
+    },
+    {
+     "tag": "social:marriage",
+     "scope": "span",
+     "quotes": [
+      "ואח״כ נישאת לבעל"
+     ],
+     "confidence": 2,
+     "why": "her remarriage is at stake",
+     "quotes_failed": false
+    },
+    {
+     "tag": "ethics-and-emotions:prohibitions",
+     "scope": "span",
+     "quotes": [
+      "להכשל ח״ו באיסור א״א"
+     ],
+     "confidence": 2,
+     "why": "the prohibition on a married woman",
+     "quotes_failed": false
+    },
+    {
+     "tag": "women:major_character",
+     "scope": "span",
+     "quotes": [
+      "ובאתה לפניו בבקשתה ובכייתה לעיין בדינה"
+     ],
+     "confidence": 2,
+     "why": "the woman acts, petitioning the rabbi",
+     "quotes_failed": false
+    },
+    {
+     "tag": "practice:study",
+     "scope": "span",
+     "quotes": [
+      "וכמה יגיעות יגעתי ביום ובלילה משך שני שבועות"
+     ],
+     "confidence": 2,
+     "why": "intensive Torah study toward the ruling",
+     "quotes_failed": false
+    },
+    {
+     "tag": "not-a-hasidic-story:hagiography",
+     "scope": "story",
+     "quotes": [],
+     "confidence": 3,
+     "why": "praises a non-Hasidic gaon; copied from Mishivat Nefesh",
+     "quotes_failed": false
+    },
+    {
+     "tag": "ethics-and-emotions:virtues",
+     "scope": "story",
+     "quotes": [],
+     "confidence": 1,
+     "why": "illustrates his integrity and lack of bias",
+     "quotes_failed": false
+    }
+   ],
+   "missing_concepts": [
+    "power of Torah / halakhic ruling to shape reality (כח התורה)",
+    "forgery by an enemy"
+   ],
+   "start_quote_found": true,
+   "end_quote_found": true
+  }
+ ],
+ "check": {
+  "non_vocab_tags": [],
+  "quotes": 11,
+  "quotes_not_found": 0
+ },
+ "id": "Shaarei-Haemuna_0058",
+ "chars": 1040,
+ "seconds": 14
+}

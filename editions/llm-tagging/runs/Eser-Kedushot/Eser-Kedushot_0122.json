@@ -1,0 +1,78 @@
+{
+ "unit": {
+  "kind": "hasidic_story",
+  "why": "A short anecdote: during the author's teacher's visit to R. Shimon of Jaroslaw, R. Shimon wondered aloud that he too had come, and the teacher answered with a pointed verse.",
+  "boundary_note": "One numbered item in a series of the teacher's visits to tsaddikim, (ג) between (ב) and (ד)."
+ },
+ "stories": [
+  {
+   "k": 1,
+   "start_quote": "בהיותו אצל הרה״ק רבי ר׳ שמעון מיעריסלאב",
+   "end_quote": "בכם נתקיים עולמך תראה בחייך",
+   "hasidic": true,
+   "summary_en": "When 'our teacher' visited R. Shimon of Jaroslaw, the tsaddik held him in such esteem that he asked in wonder, 'Have you too come to me?', and the teacher replied that in him the saying 'you shall see your world in your lifetime' was fulfilled.",
+   "tags": [
+    {
+     "tag": "practice:travel_to_other_tsaddik",
+     "scope": "span",
+     "quotes": [
+      "בהיותו אצל הרה״ק רבי ר׳ שמעון מיעריסלאב"
+     ],
+     "confidence": 2,
+     "why": "The teacher visits another tsaddik, one of a series of such visits.",
+     "quotes_failed": false
+    },
+    {
+     "tag": "practice:reception_of_hasidim",
+     "scope": "span",
+     "quotes": [
+      "ששאל אותו גם אתם באתם אלי בלשון תימה"
+     ],
+     "confidence": 2,
+     "why": "The tsaddik greets the visitor at his court.",
+     "quotes_failed": false
+    },
+    {
+     "tag": "social:inter_hasidic",
+     "scope": "story",
+     "quotes": [],
+     "confidence": 2,
+     "why": "An exchange between two Hasidic figures of mutual esteem.",
+     "quotes_failed": false
+    },
+    {
+     "tag": "ethics-and-emotions:humility",
+     "scope": "span",
+     "quotes": [
+      "גם אתם באתם אלי בלשון תימה"
+     ],
+     "confidence": 1,
+     "why": "R. Shimon wonders that so great a man came to him.",
+     "quotes_failed": false
+    },
+    {
+     "tag": "folkloristics:story_type_virtues",
+     "scope": "story",
+     "quotes": [],
+     "confidence": 1,
+     "why": "The anecdote serves to show the teacher's standing in a great tsaddik's eyes.",
+     "quotes_failed": false
+    }
+   ],
+   "missing_concepts": [
+    "mutual esteem between tsaddikim",
+    "witty or apt reply using a rabbinic saying"
+   ],
+   "start_quote_found": true,
+   "end_quote_found": true
+  }
+ ],
+ "check": {
+  "non_vocab_tags": [],
+  "quotes": 3,
+  "quotes_not_found": 0
+ },
+ "id": "Eser-Kedushot_0122",
+ "chars": 177,
+ "seconds": 13
+}

@@ -1,0 +1,91 @@
+{
+ "unit": {
+  "kind": "hasidic_story",
+  "why": "A short anecdote: at a meeting between R. Zvi Hirsh of Zhidachov and R. Avraham Haim of Zlotshov, they exchange views on segulot; it is mainly a teaching put as dialogue.",
+  "boundary_note": ""
+ },
+ "stories": [
+  {
+   "k": 1,
+   "start_quote": "עוד שם בהתוועד רבינו צבי יחד",
+   "end_quote": "ואין אנו צריכין לשום סגולה",
+   "hasidic": true,
+   "summary_en": "When R. Zvi Hirsh met the Orah le-Hayyim of Zlotshov, he asked why he gives segulot; told that prayer achieves only half and the segulah supplies the other half, R. Zvi replied that they pray beyond the request until the whole request is answered, so they need no segulah.",
+   "tags": [
+    {
+     "tag": "social:inter_hasidic",
+     "scope": "span",
+     "quotes": [
+      "בהתוועד רבינו צבי יחד עם הרה״ק מו״ה אברהם חיים מזלאטשוב"
+     ],
+     "confidence": 2,
+     "why": "meeting and exchange between two Hasidic tzaddikim",
+     "quotes_failed": false
+    },
+    {
+     "tag": "practice:prayer",
+     "scope": "span",
+     "quotes": [
+      "אשר תפלה עושה מחצה",
+      "אנו מתפללים יותר מהמבוקש עד שאנו נענין"
+     ],
+     "confidence": 3,
+     "why": "the efficacy of prayer is the subject of the exchange",
+     "quotes_failed": false
+    },
+    {
+     "tag": "practice:torat_ha_tsaddik",
+     "scope": "span",
+     "quotes": [
+      "אנו מתפללים יותר מהמבוקש עד שאנו נענין כל המבוקש"
+     ],
+     "confidence": 2,
+     "why": "the tzaddik's power to intercede in prayer for others",
+     "quotes_failed": false
+    },
+    {
+     "tag": "knowledge:practical_kabbalah",
+     "scope": "span",
+     "quotes": [
+      "למה הוא אומר סגולות",
+      "הוא נותן סגולה על חצי׳ השני"
+     ],
+     "confidence": 1,
+     "why": "giving segulot as concrete remedies",
+     "quotes_failed": false
+    },
+    {
+     "tag": "social:competition",
+     "scope": "span",
+     "quotes": [
+      "ואין אנו צריכין לשום סגולה"
+     ],
+     "confidence": 1,
+     "why": "R. Zvi implicitly contrasts his way with the other tzaddik's",
+     "quotes_failed": false
+    },
+    {
+     "tag": "not-a-hasidic-story:sermon",
+     "scope": "story",
+     "quotes": [],
+     "confidence": 1,
+     "why": "the content is mostly a teaching on prayer and segulot in dialogue form",
+     "quotes_failed": false
+    }
+   ],
+   "missing_concepts": [
+    "segulot (folk/mystical remedies) as a practice debated between tzaddikim"
+   ],
+   "start_quote_found": true,
+   "end_quote_found": true
+  }
+ ],
+ "check": {
+  "non_vocab_tags": [],
+  "quotes": 7,
+  "quotes_not_found": 0
+ },
+ "id": "Eser-Kedushot_0029",
+ "chars": 301,
+ "seconds": 14
+}

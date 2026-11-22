@@ -1,0 +1,99 @@
+{
+ "unit": {
+  "kind": "non_hasidic_story",
+  "why": "A short anecdote: rabbis permitted beans on Passover, people stumbled, the rabbis retracted, and the rabbis blamed the deadly year that followed on that ruling. It is embedded in a halakhic discussion of kitniyot.",
+  "boundary_note": "division begins mid-sentence ('להם'), so the frame starts in an earlier division; the halakhic discussion of kitniyot continues into the next division"
+ },
+ "stories": [
+  {
+   "k": 1,
+   "start_quote": "שפעם אחת נתאספו הרבנים הגאונים והתירו",
+   "end_quote": "ה׳ יצילנו משגיאות הוראה",
+   "hasidic": false,
+   "summary_en": "Rabbis once permitted eating beans on Passover, which led the masses into error; the rabbis retracted, and a hard year of deadly illness followed, which they attributed to that sin.",
+   "tags": [
+    {
+     "tag": "practice:halakhah",
+     "scope": "story",
+     "quotes": [],
+     "confidence": 3,
+     "why": "the tale turns on a halakhic ruling about kitniyot on Pesach",
+     "quotes_failed": false
+    },
+    {
+     "tag": "ethics-and-emotions:prohibitions",
+     "scope": "span",
+     "quotes": [
+      "והתירו לקנות „בונים״ (מין קיטניות) לאכול בפסח"
+     ],
+     "confidence": 3,
+     "why": "relaxing a customary prohibition is the issue",
+     "quotes_failed": false
+    },
+    {
+     "tag": "times:holidays",
+     "scope": "span",
+     "quotes": [
+      "לאכול בפסח"
+     ],
+     "confidence": 2,
+     "why": "concerns Passover practice",
+     "quotes_failed": false
+    },
+    {
+     "tag": "ethics-and-emotions:punishment",
+     "scope": "span",
+     "quotes": [
+      "ותלו הרבנים אז באותו חטא"
+     ],
+     "confidence": 3,
+     "why": "the plague is seen as punishment for the lenient ruling",
+     "quotes_failed": false
+    },
+    {
+     "tag": "times:death",
+     "scope": "span",
+     "quotes": [
+      "ורבים מתו בחלאים קשים ורעים"
+     ],
+     "confidence": 3,
+     "why": "many died in the hard year",
+     "quotes_failed": false
+    },
+    {
+     "tag": "ethics-and-emotions:repentance",
+     "scope": "span",
+     "quotes": [
+      "וחזרו בהם הרבנים"
+     ],
+     "confidence": 1,
+     "why": "the rabbis retract their ruling",
+     "quotes_failed": false
+    },
+    {
+     "tag": "not-a-hasidic-story:sermon",
+     "scope": "story",
+     "quotes": [],
+     "confidence": 2,
+     "why": "the anecdote serves as an exemplum inside a halakhic discourse against leniency",
+     "quotes_failed": false
+    }
+   ],
+   "missing_concepts": [
+    "erroneous halakhic ruling (שגיאת הוראה) and its consequences",
+    "kitniyot on Passover",
+    "epidemic as collective punishment"
+   ],
+   "start_quote_found": true,
+   "end_quote_found": true
+  }
+ ],
+ "check": {
+  "non_vocab_tags": [],
+  "quotes": 5,
+  "quotes_not_found": 0
+ },
+ "id": "non-story-123",
+ "chars": 254,
+ "seconds": 14
+}

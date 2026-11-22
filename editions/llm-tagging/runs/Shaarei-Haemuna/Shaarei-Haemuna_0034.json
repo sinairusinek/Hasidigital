@@ -1,0 +1,104 @@
+{
+ "unit": {
+  "kind": "non_hasidic_story",
+  "why": "A short anecdote from Peri Etz Hayyim: R. Hayyim Vital's shoulder ached and the Ari traced the pain to a halakhic transgression through a letter permutation (תיכף = כתף), so it is a pre-Hasidic kabbalistic tale, not a Hasidic one.",
+  "boundary_note": ""
+ },
+ "stories": [
+  {
+   "k": 1,
+   "start_quote": "מצאתי בס׳ פרי עץ חיים להאריז״ל",
+   "end_quote": "שלא היתה מושגת לשום אדם",
+   "hasidic": false,
+   "summary_en": "R. Hayyim Vital's shoulder hurt; the Ari told him it came from interrupting between mayim aharonim and grace after meals, since the letters of תיכף (immediately) permute into כתף (shoulder).",
+   "tags": [
+    {
+     "tag": "not-a-hasidic-story:hagiography",
+     "scope": "story",
+     "quotes": [],
+     "confidence": 3,
+     "why": "Praises the Ari's unique spiritual insight; the story is copied from an earlier kabbalistic work.",
+     "quotes_failed": false
+    },
+    {
+     "tag": "practice:halakhah",
+     "scope": "span",
+     "quotes": [
+      "תיכף לנטילה ברכה דהיינו בין מים אחרונים לברכת המזון",
+      "צריך לחזור וליטול ידיו מחדש"
+     ],
+     "confidence": 3,
+     "why": "The law against interrupting between washing and grace is set out.",
+     "quotes_failed": false
+    },
+    {
+     "tag": "ethics-and-emotions:prohibitions",
+     "scope": "span",
+     "quotes": [
+      "בין מים אחרונים לברכת המזון אסוד להפסיק",
+      "מפני שעברת על משארז\"ל"
+     ],
+     "confidence": 3,
+     "why": "He violated a rabbinic prohibition.",
+     "quotes_failed": false
+    },
+    {
+     "tag": "ethics-and-emotions:punishment",
+     "scope": "span",
+     "quotes": [
+      "והחטא ההוא הכה לו בכתפו",
+      "לכן הכתף כואבת לך"
+     ],
+     "confidence": 3,
+     "why": "The shoulder pain is the punishment for the sin.",
+     "quotes_failed": false
+    },
+    {
+     "tag": "supernatural:perception",
+     "scope": "span",
+     "quotes": [
+      "רוחניית שלא היתה מושגת לשום אדם"
+     ],
+     "confidence": 2,
+     "why": "The Ari perceives the hidden spiritual cause of the pain.",
+     "quotes_failed": false
+    },
+    {
+     "tag": "practice:healing_of_the_soul",
+     "scope": "span",
+     "quotes": [
+      "והשיב לו מפני שעברת על משארז\"ל"
+     ],
+     "confidence": 2,
+     "why": "The master reveals the sin behind the ailment so that it can be mended.",
+     "quotes_failed": false
+    },
+    {
+     "tag": "knowledge:esoteric",
+     "scope": "span",
+     "quotes": [
+      "ותיכף אותיות כתף",
+      "החטא של תיכף נתהפך צרופו ונעשה ממנו כתף"
+     ],
+     "confidence": 2,
+     "why": "A kabbalistic letter permutation explains the bodily effect.",
+     "quotes_failed": false
+    }
+   ],
+   "missing_concepts": [
+    "bodily ailment as a measure-for-measure sign of sin",
+    "mayim aharonim / grace after meals"
+   ],
+   "start_quote_found": true,
+   "end_quote_found": true
+  }
+ ],
+ "check": {
+  "non_vocab_tags": [],
+  "quotes": 10,
+  "quotes_not_found": 0
+ },
+ "id": "Shaarei-Haemuna_0034",
+ "chars": 436,
+ "seconds": 15
+}

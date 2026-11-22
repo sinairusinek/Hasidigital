@@ -1,0 +1,84 @@
+{
+ "unit": {
+  "kind": "non_hasidic_story",
+  "why": "A short anecdote, quoted from the preface to Semikhat Moshe, about the Hakham Tzvi, a non-Hasidic rabbinic authority: he always read the honorific titles on letters sent to him so that shame would keep him from sinning.",
+  "boundary_note": ""
+ },
+ "stories": [
+  {
+   "k": 1,
+   "start_quote": "ובהק׳ לס׳ סמיכת משה וז״ל",
+   "end_quote": "ויהי׳ לו בושה לעשות עבירה עכ״ל",
+   "hasidic": false,
+   "summary_en": "The Hakham Tzvi always read the praising titles written on letters addressed to him, and when a close associate asked why, he explained that seeing himself lauded as a great sage would make him ashamed to commit a sin.",
+   "tags": [
+    {
+     "tag": "not-a-hasidic-story:hagiography",
+     "scope": "story",
+     "quotes": [],
+     "confidence": 3,
+     "why": "Laudatory anecdote about the Hakham Tzvi, a non-Hasidic rabbinic authority, quoted from an earlier book.",
+     "quotes_failed": false
+    },
+    {
+     "tag": "ethics-and-emotions:shame",
+     "scope": "span",
+     "quotes": [
+      "ויהי׳ לו בושה לעשות עבירה"
+     ],
+     "confidence": 3,
+     "why": "Shame is used deliberately as a safeguard against sin.",
+     "quotes_failed": false
+    },
+    {
+     "tag": "ethics-and-emotions:prohibitions",
+     "scope": "span",
+     "quotes": [
+      "ויהי׳ לו בושה לעשות עבירה"
+     ],
+     "confidence": 1,
+     "why": "The point is avoiding transgression (עבירה).",
+     "quotes_failed": false
+    },
+    {
+     "tag": "ethics-and-emotions:virtues",
+     "scope": "story",
+     "quotes": [],
+     "confidence": 2,
+     "why": "The anecdote illustrates a pious technique for guarding against sin.",
+     "quotes_failed": false
+    },
+    {
+     "tag": "not-a-hasidic-story:virtues",
+     "scope": "story",
+     "quotes": [],
+     "confidence": 1,
+     "why": "It sits in an ethical-instruction context (the next division is on anger), but it has no explicit 'from this we learn' frame.",
+     "quotes_failed": false
+    },
+    {
+     "tag": "social:relations_with_non_hasidim",
+     "scope": "story",
+     "quotes": [],
+     "confidence": 1,
+     "why": "Its subject is a non-Hasidic rabbinic figure, although no Hasidic interaction is shown.",
+     "quotes_failed": false
+    }
+   ],
+   "missing_concepts": [
+    "honorific titles in rabbinic correspondence",
+    "using public reputation as a safeguard against sin"
+   ],
+   "start_quote_found": true,
+   "end_quote_found": true
+  }
+ ],
+ "check": {
+  "non_vocab_tags": [],
+  "quotes": 2,
+  "quotes_not_found": 0
+ },
+ "id": "Shaarei-Haemuna_0031",
+ "chars": 266,
+ "seconds": 13
+}

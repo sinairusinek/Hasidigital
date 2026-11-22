@@ -1,0 +1,124 @@
+{
+ "unit": {
+  "kind": "hasidic_story",
+  "why": "A short anecdote, told by the Karliner rebbe, about R. Aharon of Karlin quietly reciting the Song of Songs after the Friday-night meal and the Maggid asking him to stop. It is set inside a kabbalistic remark on raising and lowering waters.",
+  "boundary_note": ""
+ },
+ "stories": [
+  {
+   "k": 1,
+   "start_quote": "הה״ק מקארלין דיבר מענין התקשרות ואהבת צדיקים",
+   "end_quote": "בכל הסעודות של שבת קודש",
+   "hasidic": true,
+   "summary_en": "The Karliner rebbe tells that his grandfather R. Aharon recited the Song of Songs inaudibly in his lodging after the Sabbath-eve meal, yet the Maggid of Mezeritch sent word asking him to stop because he could not sleep while it was being said; the grandfather also set out twelve hallot at his master's table.",
+   "tags": [
+    {
+     "tag": "social:inter_hasidic_master_disciple_relationship",
+     "scope": "story",
+     "quotes": [],
+     "confidence": 3,
+     "why": "The story is about the bond between R. Aharon and his master, the Maggid.",
+     "quotes_failed": false
+    },
+    {
+     "tag": "times:shabbat",
+     "scope": "span",
+     "quotes": [
+      "אחר סעודת ליל שבת",
+      "בכל הסעודות של שבת קודש"
+     ],
+     "confidence": 3,
+     "why": "It is set on Friday night and at the Sabbath meals.",
+     "quotes_failed": false
+    },
+    {
+     "tag": "supernatural:perception",
+     "scope": "span",
+     "quotes": [
+      "ואמר שיה״ש בחשאי שלא נשמע לשום ב\"א",
+      "שלא היה יכול לישן כ\"ז שאומר שיה״ש"
+     ],
+     "confidence": 3,
+     "why": "The Maggid perceives a recitation that no human could hear.",
+     "quotes_failed": false
+    },
+    {
+     "tag": "knowledge:esoteric",
+     "scope": "span",
+     "quotes": [
+      "היה בבחינת העלאת מ\"נ",
+      "היה בבחינת הורדת מ\"ד"
+     ],
+     "confidence": 2,
+     "why": "The anecdote is framed by the kabbalistic concepts of mayin nukvin and mayin dukhrin.",
+     "quotes_failed": false
+    },
+    {
+     "tag": "not-a-hasidic-story:sermon",
+     "scope": "span",
+     "quotes": [
+      "דיבר מענין התקשרות ואהבת צדיקים זה לזה"
+     ],
+     "confidence": 1,
+     "why": "The narrative is wrapped in a doctrinal remark about love between tsaddikim.",
+     "quotes_failed": false
+    },
+    {
+     "tag": "practice:storytelling",
+     "scope": "span",
+     "quotes": [
+      "הה״ק מקארלין דיבר מענין התקשרות"
+     ],
+     "confidence": 2,
+     "why": "A named tsaddik narrates the tale about his grandfather.",
+     "quotes_failed": false
+    },
+    {
+     "tag": "characters-and-roles:the_family_of_the_tsaddik",
+     "scope": "span",
+     "quotes": [
+      "אא\"ז ז\"ל היה בבחינת העלאת מ\"נ"
+     ],
+     "confidence": 1,
+     "why": "The protagonist is the narrating tsaddik's grandfather.",
+     "quotes_failed": false
+    },
+    {
+     "tag": "practice:torat_ha_tsaddik",
+     "scope": "span",
+     "quotes": [
+      "התקשרות ואהבת צדיקים זה לזה"
+     ],
+     "confidence": 1,
+     "why": "The theme is the attachment between tsaddikim.",
+     "quotes_failed": false
+    },
+    {
+     "tag": "social:inter_hasidic",
+     "scope": "span",
+     "quotes": [
+      "ושלח רבו הק׳ לבקש מאתו שיפסיק"
+     ],
+     "confidence": 1,
+     "why": "The two figures interact through a messenger.",
+     "quotes_failed": false
+    }
+   ],
+   "missing_concepts": [
+    "recitation of the Song of Songs on Sabbath eve",
+    "twelve hallot arranged on the tsaddik's table",
+    "mayin nukvin / mayin dukhrin as types of tsaddikim"
+   ],
+   "start_quote_found": true,
+   "end_quote_found": true
+  }
+ ],
+ "check": {
+  "non_vocab_tags": [],
+  "quotes": 11,
+  "quotes_not_found": 0
+ },
+ "id": "Shaarei-Haemuna_0081",
+ "chars": 420,
+ "seconds": 20
+}

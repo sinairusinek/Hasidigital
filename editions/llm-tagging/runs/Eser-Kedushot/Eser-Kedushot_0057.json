@@ -1,0 +1,89 @@
+{
+ "unit": {
+  "kind": "hasidic_story",
+  "why": "An anecdote: a dialogue between the Seer of Lublin and his disciple R. Hershele of Zhidachov, ending with the Seer's delight at the disciple's exegesis of 120 years as 'forever'.",
+  "boundary_note": ""
+ },
+ "stories": [
+  {
+   "k": 1,
+   "start_quote": "פ\"א אמר לו רבו הק׳ מלובלין",
+   "end_quote": "[בהקדמת ליקו״ת וש\"ס מהרי״א דברים]",
+   "hasidic": true,
+   "summary_en": "The Seer of Lublin warns R. Hershele of Zhidachov that he may fall from his level after the Seer's death. Hershele answers that he does not wish to outlive his master, prays that he live 'forever', and explains that Moses' 120 years equal the 120 jubilees, each called 'olam'. The Seer is greatly pleased.",
+   "tags": [
+    {
+     "tag": "social:inter_hasidic_master_disciple_relationship",
+     "scope": "story",
+     "quotes": [],
+     "confidence": 3,
+     "why": "The whole exchange is between the rebbe and his disciple.",
+     "quotes_failed": false
+    },
+    {
+     "tag": "practice:sermon",
+     "scope": "span",
+     "quotes": [
+      "ובששת אלפים יש ק\"ך יובלות ויובל נקרא עולם"
+     ],
+     "confidence": 3,
+     "why": "The disciple gives an exegesis of the 120 years.",
+     "quotes_failed": false
+    },
+    {
+     "tag": "practice:torat_ha_tsaddik",
+     "scope": "span",
+     "quotes": [
+      "כל זמן שאנו בחיים אין אנו יראין שמא תפלו ממדריגתכם"
+     ],
+     "confidence": 2,
+     "why": "The disciple's spiritual level depends on the living master.",
+     "quotes_failed": false
+    },
+    {
+     "tag": "practice:prayer",
+     "scope": "span",
+     "quotes": [
+      "אתפלל שיחי׳ רבינו לעולם"
+     ],
+     "confidence": 1,
+     "why": "The disciple vows to pray for the master's long life; the prayer is not depicted.",
+     "quotes_failed": false
+    },
+    {
+     "tag": "not-a-hasidic-story:sermon",
+     "scope": "story",
+     "quotes": [],
+     "confidence": 1,
+     "why": "The point of the anecdote is a piece of exegetical wordplay.",
+     "quotes_failed": false
+    },
+    {
+     "tag": "times:eschatology",
+     "scope": "span",
+     "quotes": [
+      "כי ששת אלפים הוי עלמא"
+     ],
+     "confidence": 1,
+     "why": "The exegesis rests on the reckoning of the world's 6,000 years.",
+     "quotes_failed": false
+    }
+   ],
+   "missing_concepts": [
+    "a disciple's fear of losing his spiritual level after his master's death",
+    "exegetical wit and wordplay in dialogue",
+    "the master's longevity (120 years like Moses)"
+   ],
+   "start_quote_found": true,
+   "end_quote_found": true
+  }
+ ],
+ "check": {
+  "non_vocab_tags": [],
+  "quotes": 4,
+  "quotes_not_found": 0
+ },
+ "id": "Eser-Kedushot_0057",
+ "chars": 804,
+ "seconds": 16
+}

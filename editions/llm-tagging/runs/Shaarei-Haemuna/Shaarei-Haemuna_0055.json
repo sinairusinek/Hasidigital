@@ -1,0 +1,176 @@
+{
+ "unit": {
+  "kind": "hasidic_story",
+  "why": "A narrative about R. Levi Yitzhak of Berditchev, who was punished in Heaven for reading the Biur of an unknown heretical author, set inside an anti-heresy exhortation and followed by a non-narrative testimony praising R. Shneur Zalman of Liadi.",
+  "boundary_note": "The division opens mid-exhortation continued from the previous division, and the closing testimony about the Rav of Liadi is a saying, not a story."
+ },
+ "stories": [
+  {
+   "k": 1,
+   "start_quote": "שפ\"א בהיותו בדרך במלון אור ליום",
+   "end_quote": "לזאת עשה משתה ויו״ט",
+   "hasidic": true,
+   "summary_en": "While lodging at an inn on a Thursday night, R. Levi Yitzhak of Berditchev read a Chumash printed with a new commentary whose author was then still unknown and later proved to be the head of the heretics; Heaven decreed that his prayers would not be accepted for thirty days, and when the period ended he held a feast and told the whole story.",
+   "tags": [
+    {
+     "tag": "practice:the_travels_of_the_tsaddik",
+     "scope": "span",
+     "quotes": [
+      "בהיותו בדרך במלון אור ליום י' עש\"ק"
+     ],
+     "confidence": 3,
+     "why": "The event happens while the tsaddik is lodging at an inn on a journey.",
+     "quotes_failed": false
+    },
+    {
+     "tag": "characters-and-roles:tavern_keeper",
+     "scope": "span",
+     "quotes": [
+      "ולקח אצל בעה״ב חומש להשלים הפרשה"
+     ],
+     "confidence": 1,
+     "why": "The innkeeper who supplies the Chumash plays only a peripheral role.",
+     "quotes_failed": false
+    },
+    {
+     "tag": "practice:study",
+     "scope": "span",
+     "quotes": [
+      "ולקח אצל בעה״ב חומש להשלים הפרשה",
+      "ועיין בהם באיזה מקומות"
+     ],
+     "confidence": 3,
+     "why": "He reads the weekly portion together with the commentary.",
+     "quotes_failed": false
+    },
+    {
+     "tag": "times:shabbat",
+     "scope": "span",
+     "quotes": [
+      "אור ליום י' עש\"ק"
+     ],
+     "confidence": 2,
+     "why": "The reading is part of completing the weekly portion before the Sabbath.",
+     "quotes_failed": false
+    },
+    {
+     "tag": "social:relations_with_non_hasidim",
+     "scope": "span",
+     "quotes": [
+      "כי היה ראש האפיקורס כידוע כעת"
+     ],
+     "confidence": 2,
+     "why": "The story concerns a heretical, Haskalah-type author and his book.",
+     "quotes_failed": false
+    },
+    {
+     "tag": "ethics-and-emotions:prohibitions",
+     "scope": "span",
+     "quotes": [
+      "על אשר למד בס׳ שכתבו מין"
+     ],
+     "confidence": 3,
+     "why": "Reading a book written by a heretic is forbidden.",
+     "quotes_failed": false
+    },
+    {
+     "tag": "ethics-and-emotions:punishment",
+     "scope": "span",
+     "quotes": [
+      "ונגזר עליו בעולם העליון שלא תתקבל תפלתו שלשים יום"
+     ],
+     "confidence": 3,
+     "why": "Heaven punishes him for the reading.",
+     "quotes_failed": false
+    },
+    {
+     "tag": "practice:prayer",
+     "scope": "span",
+     "quotes": [
+      "שלא תתקבל תפלתו שלשים יום",
+      "ובע\"ה תפלתי נתקבלה"
+     ],
+     "confidence": 3,
+     "why": "Whether his prayer is accepted is the core of the punishment.",
+     "quotes_failed": false
+    },
+    {
+     "tag": "ethics-and-emotions:sadness",
+     "scope": "span",
+     "quotes": [
+      "ראו האנשים שפניו זועפות ואינו כאתמול שלשום"
+     ],
+     "confidence": 2,
+     "why": "He is visibly downcast during the thirty days.",
+     "quotes_failed": false
+    },
+    {
+     "tag": "ethics-and-emotions:joy",
+     "scope": "span",
+     "quotes": [
+      "עשה הרה״ק משתה ושמחה ויו״ט"
+     ],
+     "confidence": 3,
+     "why": "He celebrates when his prayer is accepted again.",
+     "quotes_failed": false
+    },
+    {
+     "tag": "practice:storytelling",
+     "scope": "span",
+     "quotes": [
+      "וסיפר לפני האנשים המכובדים את כל המאורע"
+     ],
+     "confidence": 2,
+     "why": "The tsaddik tells the whole episode to the notables at his feast.",
+     "quotes_failed": false
+    },
+    {
+     "tag": "social:retrospective_recognition",
+     "scope": "span",
+     "quotes": [
+      "והמחברו עדיין לא נודע בימיו",
+      "אשר לא נודע לו מי הוא המחברו"
+     ],
+     "confidence": 2,
+     "why": "Only afterwards is the author known to be a heretic.",
+     "quotes_failed": false
+    },
+    {
+     "tag": "ethics-and-emotions:fear",
+     "scope": "span",
+     "quotes": [
+      "כי חשש מאד לטנטם הלב"
+     ],
+     "confidence": 2,
+     "why": "He is very afraid that his heart has been spiritually dulled.",
+     "quotes_failed": false
+    },
+    {
+     "tag": "not-a-hasidic-story:sermon",
+     "scope": "span",
+     "quotes": [
+      "הביטו וראו גודל העונש להמעיין בספריהם"
+     ],
+     "confidence": 2,
+     "why": "The tale is set inside a homiletic warning against heretical books.",
+     "quotes_failed": false
+    }
+   ],
+   "missing_concepts": [
+    "Haskalah / Mendelssohn's Biur as a heretical book",
+    "spiritual contamination (timtum ha-lev) from reading heretical works",
+    "heavenly decree that a person's prayers will not be accepted"
+   ],
+   "start_quote_found": true,
+   "end_quote_found": true
+  }
+ ],
+ "check": {
+  "non_vocab_tags": [],
+  "quotes": 17,
+  "quotes_not_found": 0
+ },
+ "id": "Shaarei-Haemuna_0055",
+ "chars": 1103,
+ "seconds": 21
+}

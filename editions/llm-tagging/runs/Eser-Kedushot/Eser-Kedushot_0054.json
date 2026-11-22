@@ -1,0 +1,134 @@
+{
+ "unit": {
+  "kind": "hasidic_story",
+  "why": "A sick man comes to Rabbi Zvi, who heals him through a Torah teaching at the Sabbath table, followed by the author's homiletic elaboration.",
+  "boundary_note": ""
+ },
+ "stories": [
+  {
+   "k": 1,
+   "start_quote": "שמעתי מפי מגידי אמת שפ\"א בא",
+   "end_quote": "בסוד התרומה בסוד תרי ממאה והבן",
+   "hasidic": true,
+   "summary_en": "A gravely ill man comes to Rabbi Zvi before Shabbat Terumah. Rabbi Zvi says the cure will come only through his Torah teaching. At the Sabbath table he gives a gematria derashah: Terumah plus the Name equals 'refuah shelemah'. He has the sick man give 26 coins to charity, and the author adds a kabbalistic explanation.",
+   "tags": [
+    {
+     "tag": "practice:healing",
+     "scope": "span",
+     "quotes": [
+      "בא לפני רבינו צבי איש חולה",
+      "הודות לה' יש לי רפואה עבורך"
+     ],
+     "confidence": 3,
+     "why": "the tzaddik heals a sick man",
+     "quotes_failed": false
+    },
+    {
+     "tag": "practice:sermon",
+     "scope": "span",
+     "quotes": [
+      "כי על ויקחו לי תרומה פירש״י לי לשמי",
+      "והנה תרומה גימטריא מכוון רפ\"א של\"ם"
+     ],
+     "confidence": 3,
+     "why": "the remedy is delivered as a Torah discourse",
+     "quotes_failed": false
+    },
+    {
+     "tag": "times:shabbat",
+     "scope": "span",
+     "quotes": [
+      "ובשבת בשבתו אצל השלחן",
+      "ואמר לו בעש\"ק פ׳ תרומה"
+     ],
+     "confidence": 3,
+     "why": "the healing happens at the Sabbath table",
+     "quotes_failed": false
+    },
+    {
+     "tag": "ethics-and-emotions:charity",
+     "scope": "span",
+     "quotes": [
+      "להפריש כ״ו מטבעות לצדקה אף מטבעות היותר קטנות"
+     ],
+     "confidence": 3,
+     "why": "charity is prescribed as part of the cure",
+     "quotes_failed": false
+    },
+    {
+     "tag": "practice:reception_of_hasidim",
+     "scope": "span",
+     "quotes": [
+      "בא לפני רבינו צבי איש חולה"
+     ],
+     "confidence": 2,
+     "why": "a petitioner is received by the tzaddik",
+     "quotes_failed": false
+    },
+    {
+     "tag": "practice:travel_to_the_tsaddik",
+     "scope": "span",
+     "quotes": [
+      "בא לפני רבינו צבי איש חולה"
+     ],
+     "confidence": 1,
+     "why": "the sick man comes to the tzaddik with a request",
+     "quotes_failed": false
+    },
+    {
+     "tag": "practice:torat_ha_tsaddik",
+     "scope": "span",
+     "quotes": [
+      "אין בידי הרפואה בזולת אם בעת אמירת התורה"
+     ],
+     "confidence": 2,
+     "why": "the tzaddik's Torah teaching has healing power",
+     "quotes_failed": false
+    },
+    {
+     "tag": "supernatural:miracle",
+     "scope": "span",
+     "quotes": [
+      "יש לי רפואה עבורך"
+     ],
+     "confidence": 1,
+     "why": "a wondrous cure is implied but its outcome is not narrated",
+     "quotes_failed": false
+    },
+    {
+     "tag": "knowledge:esoteric",
+     "scope": "span",
+     "quotes": [
+      "עפימ״ש האריז\"ל כי כל חולה חסר לו שער הנון",
+      "בסוד התרומה בסוד תרי ממאה"
+     ],
+     "confidence": 2,
+     "why": "Lurianic teaching on the fifty gates of understanding",
+     "quotes_failed": false
+    },
+    {
+     "tag": "not-a-hasidic-story:sermon",
+     "scope": "story",
+     "quotes": [],
+     "confidence": 2,
+     "why": "a short narrative wrapped in an extended gematria and kabbalistic exegesis",
+     "quotes_failed": false
+    }
+   ],
+   "missing_concepts": [
+    "gematria as a healing method",
+    "Torah teaching at the Sabbath table (tish) as a theurgic act"
+   ],
+   "start_quote_found": true,
+   "end_quote_found": true
+  }
+ ],
+ "check": {
+  "non_vocab_tags": [],
+  "quotes": 13,
+  "quotes_not_found": 0
+ },
+ "id": "Eser-Kedushot_0054",
+ "chars": 1177,
+ "seconds": 17
+}

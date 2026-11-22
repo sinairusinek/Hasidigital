@@ -1,0 +1,150 @@
+{
+ "unit": {
+  "kind": "hasidic_story",
+  "why": "A deathbed narrative of the tzaddik: in his last moments he loudly recites the Ten Commandments and Shema, sends his wife out, and performs the Ari's yihudim before his soul departs.",
+  "boundary_note": "part of a biographical sequence; the previous division (testament written on Hoshana Rabba, foretold death) leads into this death scene"
+ },
+ "stories": [
+  {
+   "k": 1,
+   "start_quote": "סיפר לי חותני הרב הקדוש שליט״א כי",
+   "end_quote": "היו שנותיו בערך נ\"ז שנה זיע\"א",
+   "hasidic": true,
+   "summary_en": "The author's father-in-law relates that moments before his death the tzaddik loudly recited the Ten Commandments and Shema; his weeping wife came in, and he sent her out because he was performing the Ari's yihudim for the last moments, then his soul ascended on 7 Marheshvan 608.",
+   "tags": [
+    {
+     "tag": "folkloristics:story_type_death_of_the_tsaddik",
+     "scope": "story",
+     "quotes": [],
+     "confidence": 3,
+     "why": "deathbed scene is the whole narrative",
+     "quotes_failed": false
+    },
+    {
+     "tag": "times:death",
+     "scope": "span",
+     "quotes": [
+      "וגמר מסירת נפשו ועלתה נשמתו השמימה"
+     ],
+     "confidence": 3,
+     "why": "death depicted",
+     "quotes_failed": false
+    },
+    {
+     "tag": "kabbalah:kabbalistic_terms_yihudim",
+     "scope": "span",
+     "quotes": [
+      "עוסק ביחודים הנמסרים מהאריז\"ל לייחד ברגעים האחרונים"
+     ],
+     "confidence": 3,
+     "why": "Lurianic yihudim at death",
+     "quotes_failed": false
+    },
+    {
+     "tag": "practice:meditation",
+     "scope": "span",
+     "quotes": [
+      "עוסק ביחודים הנמסרים מהאריז\"ל לייחד ברגעים האחרונים"
+     ],
+     "confidence": 3,
+     "why": "performing yihudim",
+     "quotes_failed": false
+    },
+    {
+     "tag": "practice:prayer",
+     "scope": "span",
+     "quotes": [
+      "עשרת הדברות ופרשיות דקריאת שמע ברעש כזה"
+     ],
+     "confidence": 3,
+     "why": "recitation of Shema",
+     "quotes_failed": false
+    },
+    {
+     "tag": "practice:devekut",
+     "scope": "span",
+     "quotes": [
+      "איך מוסר נשמתו להשם בקדושה ובטהרה"
+     ],
+     "confidence": 2,
+     "why": "rapt surrender of soul to God",
+     "quotes_failed": false
+    },
+    {
+     "tag": "experience:enthusiasm",
+     "scope": "span",
+     "quotes": [
+      "אמר בקול רעש גדול עשרת הדברות"
+     ],
+     "confidence": 2,
+     "why": "unprecedented fervent loud recitation",
+     "quotes_failed": false
+    },
+    {
+     "tag": "characters-and-roles:the_family_of_the_tsaddik",
+     "scope": "span",
+     "quotes": [
+      "הבינה זוגתו הרבנית כי קרבו הרגעים האחרונים"
+     ],
+     "confidence": 3,
+     "why": "his wife appears",
+     "quotes_failed": false
+    },
+    {
+     "tag": "women:minor_character",
+     "scope": "span",
+     "quotes": [
+      "ובאתה הביתה בבכיה גדולה"
+     ],
+     "confidence": 3,
+     "why": "wife acts in a small role",
+     "quotes_failed": false
+    },
+    {
+     "tag": "ethics-and-emotions:sadness",
+     "scope": "span",
+     "quotes": [
+      "ובאתה הביתה בבכיה גדולה"
+     ],
+     "confidence": 1,
+     "why": "wife weeps",
+     "quotes_failed": false
+    },
+    {
+     "tag": "social:marital_relationship",
+     "scope": "span",
+     "quotes": [
+      "ואמר לה בעלה הקדוש צא צא ואל תבלבלני"
+     ],
+     "confidence": 2,
+     "why": "husband-wife exchange at deathbed",
+     "quotes_failed": false
+    },
+    {
+     "tag": "practice:storytelling",
+     "scope": "span",
+     "quotes": [
+      "סיפר לי חותני הרב הקדוש שליט״א"
+     ],
+     "confidence": 1,
+     "why": "framed as told by the father-in-law",
+     "quotes_failed": false
+    }
+   ],
+   "missing_concepts": [
+    "recitation of the Ten Commandments at death",
+    "date of death / yahrzeit and age"
+   ],
+   "start_quote_found": true,
+   "end_quote_found": true
+  }
+ ],
+ "check": {
+  "non_vocab_tags": [],
+  "quotes": 11,
+  "quotes_not_found": 0
+ },
+ "id": "Eser-Kedushot_0110",
+ "chars": 495,
+ "seconds": 14
+}

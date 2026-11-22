@@ -1,0 +1,62 @@
+{
+ "unit": {
+  "kind": "hasidic_story",
+  "why": "split out of non-story-037 (non-story)"
+ },
+ "stories": [
+  {
+   "k": 2,
+   "start_quote": "כמו שהיה בזמן מרן הקדוש שאחד סיגף עצמו",
+   "end_quote": "עזרו היה נאבד משני עולמות",
+   "hasidic": true,
+   "summary_en": "In the Besht's time a man mortified himself to attain the holy spirit, was deceived by false spiritual levels, and was saved only by the Besht's help.",
+   "tags": [
+    {
+     "tag": "practice:asceticism",
+     "scope": "span",
+     "quotes": [
+      "שאחד סיגף עצמו להשיג רוה״ק"
+     ],
+     "confidence": 3,
+     "why": "He practises self-mortification to gain the holy spirit.",
+     "quotes_failed": false
+    },
+    {
+     "tag": "practice:healing_of_the_soul",
+     "scope": "span",
+     "quotes": [
+      "ולולא מרן הקדוש רבינו הריב״ש זצ\"ל עזרו"
+     ],
+     "confidence": 2,
+     "why": "The Besht rescues him spiritually.",
+     "quotes_failed": false
+    },
+    {
+     "tag": "supernatural:perception",
+     "scope": "span",
+     "quotes": [
+      "ואמר מרן שבעולם החמורות משחקין ממנו"
+     ],
+     "confidence": 2,
+     "why": "The Besht perceives what is happening to him in the upper worlds.",
+     "quotes_failed": false
+    },
+    {
+     "tag": "not-a-hasidic-story:sermon",
+     "scope": "story",
+     "quotes": [],
+     "confidence": 2,
+     "why": "A brief exemplum inside the discourse.",
+     "quotes_failed": false
+    }
+   ],
+   "missing_concepts": [
+    "false spiritual attainments / self-deception"
+   ],
+   "start_quote_found": true,
+   "end_quote_found": true
+  }
+ ],
+ "id": "Shaarei-Haemuna_non-story-037_s2",
+ "split_from": "non-story-037"
+}

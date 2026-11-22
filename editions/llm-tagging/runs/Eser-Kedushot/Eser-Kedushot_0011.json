@@ -1,0 +1,71 @@
+{
+ "unit": {
+  "kind": "hasidic_story",
+  "why": "A short numbered biographical item with a minimal narrative event: a disciple of the Besht passed through the rabbi's town, the rabbi kept him for several days and learned much from him, and this is why he counted himself 'third' from the Besht.",
+  "boundary_note": "part of a numbered series of biographical items (ב) about R. Zvi Hirsh (רצ״ה); item (ג) in the next division is an approbation quotation"
+ },
+ "stories": [
+  {
+   "k": 1,
+   "start_quote": "הוא הי' מוסמך מרבו הקדוש והנורא",
+   "end_quote": "אצלו כמה ימים ולמד ממנו הרבה",
+   "hasidic": true,
+   "summary_en": "The rabbi was ordained by the Seer of Lublin and other tsaddikim, and counted himself third in line from the Besht because in his youth a disciple of the Besht passed through his town, he kept him there several days and learned much from him.",
+   "tags": [
+    {
+     "tag": "social:inter_hasidic_master_disciple_relationship",
+     "scope": "span",
+     "quotes": [
+      "הי' מוסמך מרבו הקדוש והנורא מו\"ה יעקב יצחק מלובלין",
+      "ועכבו רבינו רצ״ה אצלו כמה ימים ולמד ממנו הרבה"
+     ],
+     "confidence": 3,
+     "why": "Discipleship and transmission of the chain from the Besht is the point of the item",
+     "quotes_failed": false
+    },
+    {
+     "tag": "practice:study",
+     "scope": "span",
+     "quotes": [
+      "ולמד ממנו הרבה"
+     ],
+     "confidence": 2,
+     "why": "He learned from the Besht's disciple",
+     "quotes_failed": false
+    },
+    {
+     "tag": "practice:travel_to_other_tsaddik",
+     "scope": "span",
+     "quotes": [
+      "נסע תלמיד א' מתלמידי הבעש״ט דרך מקומו"
+     ],
+     "confidence": 1,
+     "why": "He sought out another master who was passing through his town, besides his own master",
+     "quotes_failed": false
+    },
+    {
+     "tag": "social:inter_hasidic",
+     "scope": "story",
+     "quotes": [],
+     "confidence": 2,
+     "why": "The item is about interaction between Hasidic figures and the line of transmission",
+     "quotes_failed": false
+    }
+   ],
+   "missing_concepts": [
+    "chain of transmission / spiritual lineage from the Besht",
+    "rabbinic ordination (semikhah)"
+   ],
+   "start_quote_found": true,
+   "end_quote_found": true
+  }
+ ],
+ "check": {
+  "non_vocab_tags": [],
+  "quotes": 4,
+  "quotes_not_found": 0
+ },
+ "id": "Eser-Kedushot_0011",
+ "chars": 220,
+ "seconds": 13
+}

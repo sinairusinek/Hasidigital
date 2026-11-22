@@ -1,0 +1,109 @@
+{
+ "unit": {
+  "kind": "hasidic_story",
+  "why": "A narrative episode: the Besht perceives through ruach hakodesh that his disciples' praise of Israel causes accusation above, and he rebukes them angrily, then praises Israel himself.",
+  "boundary_note": ""
+ },
+ "stories": [
+  {
+   "k": 1,
+   "start_quote": "במי שאירע פ״א בימי מרן הקדוש",
+   "end_quote": "והשפעות על כל ישראל (כ״מ שביל אמונה)",
+   "hasidic": true,
+   "summary_en": "The Besht's disciples praise Israel after midnight. He perceives through the holy spirit that their praise is insincere and causes accusation above. He comes to them in anger, compares them to a wife who praises her husband's sons by another woman, then praises Israel himself and draws down divine favour.",
+   "tags": [
+    {
+     "tag": "supernatural:perception",
+     "scope": "span",
+     "quotes": [
+      "ראה ברוח הקודש שזה אינו אלא"
+     ],
+     "confidence": 3,
+     "why": "the Besht perceives through the holy spirit what is happening in the upper worlds",
+     "quotes_failed": false
+    },
+    {
+     "tag": "ethics-and-emotions:anger",
+     "scope": "span",
+     "quotes": [
+      "והלך מרן אצלם בחרון אף"
+     ],
+     "confidence": 3,
+     "why": "the Besht comes to them in anger",
+     "quotes_failed": false
+    },
+    {
+     "tag": "social:inter_hasidic_master_disciple_relationship",
+     "scope": "story",
+     "quotes": [],
+     "confidence": 3,
+     "why": "the master rebukes his disciples and teaches them",
+     "quotes_failed": false
+    },
+    {
+     "tag": "folkloristics:story_type_parable",
+     "scope": "span",
+     "quotes": [
+      "כמו אשה שמשבחת לפני בעלה את בניו"
+     ],
+     "confidence": 2,
+     "why": "the Besht's rebuke is built on a mashal",
+     "quotes_failed": false
+    },
+    {
+     "tag": "practice:sermon",
+     "scope": "span",
+     "quotes": [
+      "והאריך הקדוש בשבח ישראל עד שגרם"
+     ],
+     "confidence": 2,
+     "why": "the Besht delivers an extended discourse in praise of Israel",
+     "quotes_failed": false
+    },
+    {
+     "tag": "practice:torat_ha_tsaddik",
+     "scope": "span",
+     "quotes": [
+      "והמשיך חסדים טובים והשפעות על כל ישראל"
+     ],
+     "confidence": 2,
+     "why": "the tsaddik's words draw down divine bounty",
+     "quotes_failed": false
+    },
+    {
+     "tag": "women:mention_only",
+     "scope": "span",
+     "quotes": [
+      "כמו אשה שמשבחת לפני בעלה"
+     ],
+     "confidence": 2,
+     "why": "a woman appears only inside the parable",
+     "quotes_failed": false
+    },
+    {
+     "tag": "not-a-hasidic-story:sermon",
+     "scope": "story",
+     "quotes": [],
+     "confidence": 1,
+     "why": "the text sits in a thematic chapter on praise of Israel and is partly homiletic",
+     "quotes_failed": false
+    }
+   ],
+   "missing_concepts": [
+    "love of Israel / praising Israel (ahavat Yisrael)",
+    "heavenly accusation (kitrug) caused by human speech",
+    "sincerity versus insincere praise"
+   ],
+   "start_quote_found": true,
+   "end_quote_found": true
+  }
+ ],
+ "check": {
+  "non_vocab_tags": [],
+  "quotes": 6,
+  "quotes_not_found": 0
+ },
+ "id": "Shaarei-Haemuna_0076",
+ "chars": 569,
+ "seconds": 13
+}

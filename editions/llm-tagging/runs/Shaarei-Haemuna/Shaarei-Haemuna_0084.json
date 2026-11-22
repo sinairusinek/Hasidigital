@@ -1,0 +1,109 @@
+{
+ "unit": {
+  "kind": "hasidic_story",
+  "why": "A brief anecdote: R. Zusya and his brother R. Elimelekh argue whether humility or contemplation of God's greatness comes first, and the Maggid of Mezritch decides between them. It is minimal but narrated, and its substance is a teaching.",
+  "boundary_note": ""
+ },
+ "stories": [
+  {
+   "k": 1,
+   "start_quote": "שמעתי מפי הקדוש המנוח הרב מוה״ר זוסיא",
+   "end_quote": "היא מדרגה הגדולה מחברתה ע״כ",
+   "hasidic": true,
+   "summary_en": "R. Zusya relates that he and his brother R. Elimelekh disputed whether one should first attain lowliness of spirit or first contemplate God's greatness; the Maggid of Mezritch ruled that both are valid but that beginning with self-lowliness is the higher rung.",
+   "tags": [
+    {
+     "tag": "ethics-and-emotions:humility",
+     "scope": "span",
+     "quotes": [
+      "שיהיה האדם מקודם שפל רוח לתכליתו",
+      "מדרגה זו שחושב קודם שפלות עצמו"
+     ],
+     "confidence": 3,
+     "why": "Humility (שפלות) is the subject of the dispute and of the ruling",
+     "quotes_failed": false
+    },
+    {
+     "tag": "ethics-and-emotions:awe",
+     "scope": "span",
+     "quotes": [
+      "שיסתכל מקודם בגדולת הבורא ב״ה"
+     ],
+     "confidence": 2,
+     "why": "Contemplating the Creator's greatness is the alternative path to humility",
+     "quotes_failed": false
+    },
+    {
+     "tag": "ethics-and-emotions:virtues",
+     "scope": "story",
+     "quotes": [],
+     "confidence": 2,
+     "why": "The point of the story is the correct order of acquiring virtues",
+     "quotes_failed": false
+    },
+    {
+     "tag": "social:inter_hasidic_master_disciple_relationship",
+     "scope": "span",
+     "quotes": [
+      "ושאלו את הה״מ ממעזריטש וצוק\"ל שיכריע ביניהם"
+     ],
+     "confidence": 3,
+     "why": "The disciples bring their dispute to their master, who decides it",
+     "quotes_failed": false
+    },
+    {
+     "tag": "social:inter_hasidic",
+     "scope": "span",
+     "quotes": [
+      "היה מתווכח עם אחיו המפורסם מוהר״ר אלימלך"
+     ],
+     "confidence": 2,
+     "why": "The dispute is between two Hasidic brothers, both disciples",
+     "quotes_failed": false
+    },
+    {
+     "tag": "characters-and-roles:the_family_of_the_tsaddik",
+     "scope": "span",
+     "quotes": [
+      "עם אחיו המפורסם מוהר״ר אלימלך"
+     ],
+     "confidence": 1,
+     "why": "Zusya's brother is a character, though he is himself a tzaddik",
+     "quotes_failed": false
+    },
+    {
+     "tag": "not-a-hasidic-story:sermon",
+     "scope": "story",
+     "quotes": [],
+     "confidence": 2,
+     "why": "The anecdote mainly serves as a vehicle for an ethical-devotional teaching",
+     "quotes_failed": false
+    },
+    {
+     "tag": "practice:storytelling",
+     "scope": "span",
+     "quotes": [
+      "שמעתי מפי הקדוש המנוח הרב מוה״ר זוסיא"
+     ],
+     "confidence": 1,
+     "why": "Framed as told orally by R. Zusya",
+     "quotes_failed": false
+    }
+   ],
+   "missing_concepts": [
+    "a halakhic-style dispute between disciples decided by the master (אלו ואלו)",
+    "the order of spiritual stages"
+   ],
+   "start_quote_found": true,
+   "end_quote_found": true
+  }
+ ],
+ "check": {
+  "non_vocab_tags": [],
+  "quotes": 7,
+  "quotes_not_found": 0
+ },
+ "id": "Shaarei-Haemuna_0084",
+ "chars": 453,
+ "seconds": 16
+}

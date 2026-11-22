@@ -1,0 +1,118 @@
+{
+ "unit": {
+  "kind": "hasidic_story",
+  "why": "A brief report, quoted from Keter Shem Tov, of the Besht making an ascent of the soul and seeing the archangel Michael defend Israel. The narrative is minimal but an event does take place. It sits in a thematic anthology section on ascent of the soul.",
+  "boundary_note": ""
+ },
+ "stories": [
+  {
+   "k": 1,
+   "start_quote": "מורי הבעש״ט עשה עליות נשמה וראה",
+   "end_quote": "או לעשות צדקה וכיו״ב הכל מוכרחים",
+   "hasidic": true,
+   "summary_en": "During an ascent of the soul the Besht saw the archangel Michael plead for Israel, arguing that all their sins are really merits, since they cheat only to marry their children to Torah scholars or to give charity.",
+   "tags": [
+    {
+     "tag": "experience:journey_to_heaven",
+     "scope": "span",
+     "quotes": [
+      "מורי הבעש״ט עשה עליות נשמה"
+     ],
+     "confidence": 3,
+     "why": "Explicit aliyat neshamah",
+     "quotes_failed": false
+    },
+    {
+     "tag": "spaces:heaven",
+     "scope": "story",
+     "quotes": [],
+     "confidence": 2,
+     "why": "The scene takes place in the upper world during the ascent",
+     "quotes_failed": false
+    },
+    {
+     "tag": "characters-and-roles:angels",
+     "scope": "span",
+     "quotes": [
+      "מיכאל אפטרופסא רבא דישראל המליץ עבור ישראל"
+     ],
+     "confidence": 3,
+     "why": "The archangel Michael acts as advocate",
+     "quotes_failed": false
+    },
+    {
+     "tag": "experience:visions",
+     "scope": "span",
+     "quotes": [
+      "וראה איך מיכאל אפטרופסא רבא"
+     ],
+     "confidence": 2,
+     "why": "He sees a heavenly scene",
+     "quotes_failed": false
+    },
+    {
+     "tag": "experience:revelation",
+     "scope": "span",
+     "quotes": [
+      "וראה איך מיכאל אפטרופסא רבא"
+     ],
+     "confidence": 2,
+     "why": "A disclosure of how Israel is defended in heaven",
+     "quotes_failed": false
+    },
+    {
+     "tag": "supernatural:perception",
+     "scope": "span",
+     "quotes": [
+      "וראה איך מיכאל אפטרופסא רבא"
+     ],
+     "confidence": 1,
+     "why": "Sees what is hidden from others",
+     "quotes_failed": false
+    },
+    {
+     "tag": "ethics-and-emotions:charity",
+     "scope": "span",
+     "quotes": [
+      "או לעשות צדקה וכיו״ב"
+     ],
+     "confidence": 2,
+     "why": "Charity is the justification Michael gives for Israel's misdeeds",
+     "quotes_failed": false
+    },
+    {
+     "tag": "social:marriage",
+     "scope": "span",
+     "quotes": [
+      "כדי שיוכלו לעשות שידוך עם ת״ח"
+     ],
+     "confidence": 1,
+     "why": "Matching children with Torah scholars is the motive cited",
+     "quotes_failed": false
+    },
+    {
+     "tag": "not-a-hasidic-story:sermon",
+     "scope": "story",
+     "quotes": [],
+     "confidence": 2,
+     "why": "A cited anthology excerpt whose point is doctrinal (Israel's sins are merits) rather than plot",
+     "quotes_failed": false
+    }
+   ],
+   "missing_concepts": [
+    "heavenly advocacy / defense of Israel (melitz yosher)",
+    "sins reinterpreted as merits"
+   ],
+   "start_quote_found": true,
+   "end_quote_found": true
+  }
+ ],
+ "check": {
+  "non_vocab_tags": [],
+  "quotes": 7,
+  "quotes_not_found": 0
+ },
+ "id": "Shaarei-Haemuna_0059",
+ "chars": 221,
+ "seconds": 14
+}

@@ -1,0 +1,101 @@
+{
+ "unit": {
+  "kind": "hasidic_story",
+  "why": "A brief anecdote, passed down through a named chain, in which the Besht sees a certain righteous man and perceives that the forces of the 'world of temurot' mock him because his ascetic piety carries a hidden motive.",
+  "boundary_note": ""
+ },
+ "stories": [
+  {
+   "k": 1,
+   "start_quote": "ושמעתי ממו״ח הצדיק המפו׳ מוה׳ אברהם",
+   "end_quote": "מפסיד מדרגתו בקדושה. (א\"ה בחקותי)",
+   "hasidic": true,
+   "summary_en": "The Besht saw a righteous ascetic and said that in the world of temurot they laugh at him, because his wish to attain the holy spirit was not for the sake of Heaven and so his deeds went to the other side and cost him his spiritual rank.",
+   "tags": [
+    {
+     "tag": "supernatural:perception",
+     "scope": "span",
+     "quotes": [
+      "ראה איש צדיק אחד ואמר שבעולם התמורות משחקין"
+     ],
+     "confidence": 3,
+     "why": "The Besht perceives what happens to the man's deeds in the upper realms and knows his hidden intention.",
+     "quotes_failed": false
+    },
+    {
+     "tag": "practice:asceticism",
+     "scope": "span",
+     "quotes": [
+      "מפליא בצדקתו ובפרישות וסגופים"
+     ],
+     "confidence": 3,
+     "why": "The man's self-mortification is described.",
+     "quotes_failed": false
+    },
+    {
+     "tag": "practice:sexual_abstinence",
+     "scope": "span",
+     "quotes": [
+      "מפליא בצדקתו ובפרישות וסגופים"
+     ],
+     "confidence": 1,
+     "why": "פרישות may imply abstinence, but the text does not specify it.",
+     "quotes_failed": false
+    },
+    {
+     "tag": "ethics-and-emotions:pride",
+     "scope": "span",
+     "quotes": [
+      "נתערב בו כוונה שיזכה לרוח הקודש"
+     ],
+     "confidence": 1,
+     "why": "A self-serving spiritual ambition is the failing, which is close to pride.",
+     "quotes_failed": false
+    },
+    {
+     "tag": "ethics-and-emotions:punishment",
+     "scope": "span",
+     "quotes": [
+      "מפסיד מדרגתו בקדושה"
+     ],
+     "confidence": 2,
+     "why": "He loses his spiritual rank as the consequence of his impure motive.",
+     "quotes_failed": false
+    },
+    {
+     "tag": "practice:storytelling",
+     "scope": "span",
+     "quotes": [
+      "ושמעתי ממו״ח הצדיק המפו׳ מוה׳ אברהם מרדכי מפינטשוב"
+     ],
+     "confidence": 1,
+     "why": "The tale is framed as one told by a named tsaddik and passed down to the author.",
+     "quotes_failed": false
+    },
+    {
+     "tag": "not-a-hasidic-story:sermon",
+     "scope": "story",
+     "quotes": [],
+     "confidence": 1,
+     "why": "The anecdote sits inside a moral exhortation and serves as an ethical lesson.",
+     "quotes_failed": false
+    }
+   ],
+   "missing_concepts": [
+    "impure motive in worship (shelo lishmah)",
+    "the world of temurot / sitra achra feeding on misdirected deeds",
+    "the desire for ruach ha-kodesh as a spiritual danger"
+   ],
+   "start_quote_found": true,
+   "end_quote_found": true
+  }
+ ],
+ "check": {
+  "non_vocab_tags": [],
+  "quotes": 6,
+  "quotes_not_found": 0
+ },
+ "id": "Shaarei-Haemuna_0028",
+ "chars": 372,
+ "seconds": 18
+}

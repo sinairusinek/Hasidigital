@@ -1,0 +1,139 @@
+{
+ "unit": {
+  "kind": "non_hasidic_story",
+  "why": "A short legend, quoted from the Hida's Shem ha-Gedolim, about R. Meir Gavizon, a pre-Hasidic judge accused of bribery whose sight was restored after he prayed; it sits inside a halakhic discussion of judges and bribery.",
+  "boundary_note": "The closing words 'מענין שוחט.' are a section heading that belongs to the next division."
+ },
+ "stories": [
+  {
+   "k": 1,
+   "start_quote": "ובס׳ שה״ג להג׳ חיד״א (מער' מ אות ט)",
+   "end_quote": "על קברו נענש. תנצב\"ה זכותו יגן עלינו",
+   "hasidic": false,
+   "summary_en": "R. Meir Gavizon, a blind judge rumored to have taken bribes, publicly prayed that God restore his sight if he was innocent; his prayer was answered, as the Hida confirmed by comparing his signatures from before and after, and anyone who swears falsely at his grave is punished.",
+   "tags": [
+    {
+     "tag": "not-a-hasidic-story:hagiography",
+     "scope": "story",
+     "quotes": [],
+     "confidence": 3,
+     "why": "Praise of a pre-Hasidic Sephardi sage, copied from the Hida",
+     "quotes_failed": false
+    },
+    {
+     "tag": "not-a-hasidic-story:sermon",
+     "scope": "story",
+     "quotes": [],
+     "confidence": 1,
+     "why": "Embedded in a halakhic discussion of bribery and judges",
+     "quotes_failed": false
+    },
+    {
+     "tag": "supernatural:miracle",
+     "scope": "span",
+     "quotes": [
+      "ונתקבלה תפלתו בהלו נרו"
+     ],
+     "confidence": 3,
+     "why": "Sight miraculously restored",
+     "quotes_failed": false
+    },
+    {
+     "tag": "practice:healing",
+     "scope": "span",
+     "quotes": [
+      "ה׳ יאיר טיניו כבראשונה"
+     ],
+     "confidence": 2,
+     "why": "Blindness healed through prayer",
+     "quotes_failed": false
+    },
+    {
+     "tag": "practice:prayer",
+     "scope": "span",
+     "quotes": [
+      "ונתקבלה תפלתו בהלו נרו"
+     ],
+     "confidence": 2,
+     "why": "Public prayer and oath before the congregation",
+     "quotes_failed": false
+    },
+    {
+     "tag": "ethics-and-emotions:prohibitions",
+     "scope": "span",
+     "quotes": [
+      "והיו מרגנים עליו שח\"ו לקח שוחד"
+     ],
+     "confidence": 2,
+     "why": "The prohibition on taking bribes is at issue",
+     "quotes_failed": false
+    },
+    {
+     "tag": "ethics-and-emotions:punishment",
+     "scope": "span",
+     "quotes": [
+      "כל הנשבע לשקר על קברו נענש"
+     ],
+     "confidence": 2,
+     "why": "False swearers at his grave are punished",
+     "quotes_failed": false
+    },
+    {
+     "tag": "ethics-and-emotions:lying",
+     "scope": "span",
+     "quotes": [
+      "כל הנשבע לשקר על קברו נענש",
+      "שמע דבת רבים יחדיו ירננו"
+     ],
+     "confidence": 2,
+     "why": "False rumor against him and false oaths at his grave",
+     "quotes_failed": false
+    },
+    {
+     "tag": "practice:pilgrimage_to_the_graves_of_tsaddikim",
+     "scope": "span",
+     "quotes": [
+      "ועד היום כל הנשבע לשקר על קברו"
+     ],
+     "confidence": 1,
+     "why": "His grave functions as a holy site where oaths are taken",
+     "quotes_failed": false
+    },
+    {
+     "tag": "social:retrospective_recognition",
+     "scope": "span",
+     "quotes": [
+      "וראיתי חתימתו אח״כ"
+     ],
+     "confidence": 1,
+     "why": "The narrator's later evidence vindicates him against the rumor",
+     "quotes_failed": false
+    },
+    {
+     "tag": "practice:halakhah",
+     "scope": "story",
+     "quotes": [],
+     "confidence": 1,
+     "why": "The legal frame of a judge and bribery",
+     "quotes_failed": false
+    }
+   ],
+   "missing_concepts": [
+    "judges and bribery",
+    "false accusation and public vindication",
+    "oath or ordeal at a grave",
+    "blindness"
+   ],
+   "start_quote_found": true,
+   "end_quote_found": true
+  }
+ ],
+ "check": {
+  "non_vocab_tags": [],
+  "quotes": 9,
+  "quotes_not_found": 0
+ },
+ "id": "Shaarei-Haemuna_0078",
+ "chars": 488,
+ "seconds": 19
+}

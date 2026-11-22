@@ -1,0 +1,99 @@
+{
+ "unit": {
+  "kind": "hasidic_story",
+  "why": "A short anecdote about the Besht crossing the Dniester on his belt while fleeing the Ishmaelites, embedded as an example in a teaching on simple faith.",
+  "boundary_note": "The narrative is a brief exemplum inside a homiletic section on faith ('מענין נהר'). The source is cited at the end (Degel Mahaneh Ephraim)."
+ },
+ "stories": [
+  {
+   "k": 1,
+   "start_quote": "כמו שעשה מרן הקדוש הריבש״ט בעת",
+   "end_quote": "והובא ג״כ בס׳ דגל מחנה אשרים",
+   "hasidic": true,
+   "summary_en": "Fleeing the Ishmaelites, the Besht crossed the wide Dniester by laying his belt on the water, through great faith and not by any holy name; the text draws a lesson that every Jew should have simple faith, which brings joy, love of Israel and the removal of bad traits.",
+   "tags": [
+    {
+     "tag": "supernatural:miracle",
+     "scope": "span",
+     "quotes": [
+      "שהניח חגורה על הנעסטיר לא בשום שם אלא באמונה גדולה"
+     ],
+     "confidence": 3,
+     "why": "Miraculous crossing of a great river on a belt",
+     "quotes_failed": false
+    },
+    {
+     "tag": "social:relations_with_non_jews",
+     "scope": "span",
+     "quotes": [
+      "שהוצרך לברוח מן הישמעאלים"
+     ],
+     "confidence": 2,
+     "why": "Fleeing hostile Ishmaelites",
+     "quotes_failed": false
+    },
+    {
+     "tag": "folkloristics:story_type_protection",
+     "scope": "story",
+     "quotes": [],
+     "confidence": 1,
+     "why": "The plot is rescue from danger, though the Besht saves himself",
+     "quotes_failed": false
+    },
+    {
+     "tag": "not-a-hasidic-story:sermon",
+     "scope": "story",
+     "quotes": [],
+     "confidence": 3,
+     "why": "The anecdote sits inside an extended homiletic frame on faith",
+     "quotes_failed": false
+    },
+    {
+     "tag": "not-a-hasidic-story:virtues",
+     "scope": "span",
+     "quotes": [
+      "ראוי עטרה זאת לכל עי שבשם ישראל יכונה להאמין אמונה שלמה"
+     ],
+     "confidence": 2,
+     "why": "Its declared purpose is instruction in the virtue of faith",
+     "quotes_failed": false
+    },
+    {
+     "tag": "ethics-and-emotions:joy",
+     "scope": "span",
+     "quotes": [
+      "ובזה יהיה לו תמיד לב שמח ויקבל הכל בשמחה"
+     ],
+     "confidence": 2,
+     "why": "Joy is presented as the fruit of faith",
+     "quotes_failed": false
+    },
+    {
+     "tag": "ethics-and-emotions:virtues",
+     "scope": "span",
+     "quotes": [
+      "על ידי אמונה פשוטה בלב אמת"
+     ],
+     "confidence": 2,
+     "why": "Simple faith is the virtue at issue",
+     "quotes_failed": false
+    }
+   ],
+   "missing_concepts": [
+    "faith / emunah peshutah as the source of miracles",
+    "miraculous crossing of a river (Dniester) on an object",
+    "explicit denial of holy-name magic in favour of faith"
+   ],
+   "start_quote_found": true,
+   "end_quote_found": true
+  }
+ ],
+ "check": {
+  "non_vocab_tags": [],
+  "quotes": 5,
+  "quotes_not_found": 0
+ },
+ "id": "Shaarei-Haemuna_0043",
+ "chars": 477,
+ "seconds": 18
+}

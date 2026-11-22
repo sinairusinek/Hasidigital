@@ -1,0 +1,142 @@
+{
+ "unit": {
+  "kind": "non_hasidic_story",
+  "why": "A quoted note from Hut ha-Meshulash tells how the Hatam Sofer allowed R. Mordechai Banet's body to be reburied in Nikolsburg after Banet appeared to him in a night vision. This is a narrative about non-Hasidic rabbinic figures.",
+  "boundary_note": "set inside a citation chain: the previous division opens a new quotation (Shoel u-Meshiv) and the next division continues it with a separate tale about kitniyot on Pesach"
+ },
+ "stories": [
+  {
+   "k": 1,
+   "start_quote": "ובחוט המשולש תולדות החת\"ם זצ״ל יש",
+   "end_quote": "לזאת הסכים זקיני ז\"ל על הדבר עכ״ל",
+   "hasidic": false,
+   "summary_en": "R. Mordechai Banet died in Karlsbad and was buried in Lichtenstadt. Half a year later he appeared to the Hatam Sofer in a night vision and asked to be moved to Nikolsburg, explaining that his temporary burial had been a punishment for breaking off a marriage match in his youth. The Hatam Sofer then permitted the reburial.",
+   "tags": [
+    {
+     "tag": "not-a-hasidic-story:hagiography",
+     "scope": "story",
+     "quotes": [],
+     "confidence": 3,
+     "why": "Praises the non-Hasidic sages Banet and the Hatam Sofer; the story is copied from Hut ha-Meshulash",
+     "quotes_failed": false
+    },
+    {
+     "tag": "experience:dream",
+     "scope": "span",
+     "quotes": [
+      "בא הגאון רמ״ב ז״ל בחזיון לילה אל זקיני ז\"ל"
+     ],
+     "confidence": 3,
+     "why": "The night vision drives the decision to rebury",
+     "quotes_failed": false
+    },
+    {
+     "tag": "supernatural:communicating_with_the_invisible",
+     "scope": "span",
+     "quotes": [
+      "וביקש מאתו שיסכים להוליכו לק\"ק נ״ש"
+     ],
+     "confidence": 3,
+     "why": "The dead rabbi's soul speaks to the Hatam Sofer",
+     "quotes_failed": false
+    },
+    {
+     "tag": "times:death",
+     "scope": "span",
+     "quotes": [
+      "נח נפשיה דרב האי גאון מהרמ״צ זצ״ל במרחץ קארלסבבד"
+     ],
+     "confidence": 3,
+     "why": "Banet's death is narrated",
+     "quotes_failed": false
+    },
+    {
+     "tag": "ethics-and-emotions:punishment",
+     "scope": "span",
+     "quotes": [
+      "לזאת נענש בזה לשכב שמה כחצי שנה"
+     ],
+     "confidence": 3,
+     "why": "His temporary burial was a heavenly punishment",
+     "quotes_failed": false
+    },
+    {
+     "tag": "social:marriage",
+     "scope": "span",
+     "quotes": [
+      "והוא הפריד הקשר",
+      "החיתון אם בת הרב דקהל ל״ש"
+     ],
+     "confidence": 2,
+     "why": "A broken marriage match is the sin being punished",
+     "quotes_failed": false
+    },
+    {
+     "tag": "practice:halakhah",
+     "scope": "span",
+     "quotes": [
+      "והסכים והחליט להתיר אז והוליכו את גוף הקדוש"
+     ],
+     "confidence": 2,
+     "why": "The Hatam Sofer issues a ruling permitting the body to be moved",
+     "quotes_failed": false
+    },
+    {
+     "tag": "practice:pilgrimage_to_the_graves_of_tsaddikim",
+     "scope": "span",
+     "quotes": [
+      "ולקברו בעירו ומקום קבורת אבותיו"
+     ],
+     "confidence": 1,
+     "why": "The burial place of a holy man is the subject, though no one visits the grave",
+     "quotes_failed": false
+    },
+    {
+     "tag": "social:retrospective_recognition",
+     "scope": "span",
+     "quotes": [
+      "ולדעת למה שיכה קדוש זקיני החת״ם ז״ל טעמו"
+     ],
+     "confidence": 1,
+     "why": "The hidden reason for the delayed reburial is revealed afterwards",
+     "quotes_failed": false
+    },
+    {
+     "tag": "characters-and-roles:the_family_of_the_tsaddik",
+     "scope": "span",
+     "quotes": [
+      "כתב זקיני ז\"ל שנית לבדק\"ק נ\"ש"
+     ],
+     "confidence": 1,
+     "why": "The narrator is the Hatam Sofer's grandson",
+     "quotes_failed": false
+    },
+    {
+     "tag": "women:mention_only",
+     "scope": "span",
+     "quotes": [
+      "החיתון אם בת הרב דקהל ל״ש"
+     ],
+     "confidence": 2,
+     "why": "The rabbi's daughter is named as the broken match but does not act",
+     "quotes_failed": false
+    }
+   ],
+   "missing_concepts": [
+    "reinterment / exhumation and moving a body for reburial",
+    "punishment of the dead after death for a sin in life",
+    "breaking off an engagement (shidduch) as a sin"
+   ],
+   "start_quote_found": true,
+   "end_quote_found": true
+  }
+ ],
+ "check": {
+  "non_vocab_tags": [],
+  "quotes": 11,
+  "quotes_not_found": 0
+ },
+ "id": "Shaarei-Haemuna_0064",
+ "chars": 720,
+ "seconds": 20
+}

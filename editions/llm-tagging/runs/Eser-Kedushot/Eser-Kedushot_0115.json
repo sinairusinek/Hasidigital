@@ -1,0 +1,91 @@
+{
+ "unit": {
+  "kind": "hasidic_story",
+  "why": "A brief anecdote: the Rozdol tzaddik, visiting the Yeshuot Yaakov, is asked about the Hasidic custom of demanding a 'tikkun' from a guest, answers with a wordplay on a verse, and is praised by the gaon.",
+  "boundary_note": ""
+ },
+ "stories": [
+  {
+   "k": 1,
+   "start_quote": "עוד מהנ\"ל בשמו הק' שבהיותו בבית",
+   "end_quote": "ולא לעוותי וקלסי׳ הגאון מאד",
+   "hasidic": true,
+   "summary_en": "While staying in the house of the Yeshuot Yaakov, the Rozdol tzaddik is asked why Hasidim demand a 'tikkun' from a guest; he explains that a traveller is a messenger sent by God, so they ask him to 'repair' and not distort, and the gaon praises him greatly.",
+   "tags": [
+    {
+     "tag": "social:relations_with_non_hasidim",
+     "scope": "span",
+     "quotes": [
+      "בבית הגאון האמיתי בעל ישועות יעקב זצ\"ל"
+     ],
+     "confidence": 3,
+     "why": "Encounter and dialogue with a non-Hasidic rabbinic authority who questions a Hasidic custom",
+     "quotes_failed": false
+    },
+    {
+     "tag": "practice:sermon",
+     "scope": "span",
+     "quotes": [
+      "כי להיות מה' מצעדי גבר כוננו",
+      "לתקוני שדרתוך ולא לעוותי"
+     ],
+     "confidence": 3,
+     "why": "The answer is an exegesis of verses and a rabbinic saying",
+     "quotes_failed": false
+    },
+    {
+     "tag": "not-a-hasidic-story:sermon",
+     "scope": "story",
+     "quotes": [],
+     "confidence": 1,
+     "why": "Thin narrative frame around a homiletic explanation of a custom",
+     "quotes_failed": false
+    },
+    {
+     "tag": "practice:drinking_alcohol",
+     "scope": "span",
+     "quotes": [
+      "כשבא אורח תובעים ממנו תיקון"
+     ],
+     "confidence": 1,
+     "why": "The 'tikkun' asked of a guest is customarily a treat of liquor, though drinking is not depicted",
+     "quotes_failed": false
+    },
+    {
+     "tag": "practice:joke",
+     "scope": "span",
+     "quotes": [
+      "והשיב הרה״ק מראזדאל בחכמתו"
+     ],
+     "confidence": 1,
+     "why": "A witty, punning answer to a challenge",
+     "quotes_failed": false
+    },
+    {
+     "tag": "practice:the_travels_of_the_tsaddik",
+     "scope": "span",
+     "quotes": [
+      "שבהיותו בבית הגאון האמיתי"
+     ],
+     "confidence": 1,
+     "why": "The tzaddik is a guest away from home, but the story does not turn on the journey",
+     "quotes_failed": false
+    }
+   ],
+   "missing_concepts": [
+    "Hasidic custom of demanding a 'tikkun' (drink treat) from guests",
+    "defense of Hasidic customs before a non-Hasidic authority"
+   ],
+   "start_quote_found": true,
+   "end_quote_found": true
+  }
+ ],
+ "check": {
+  "non_vocab_tags": [],
+  "quotes": 6,
+  "quotes_not_found": 0
+ },
+ "id": "Eser-Kedushot_0115",
+ "chars": 300,
+ "seconds": 17
+}

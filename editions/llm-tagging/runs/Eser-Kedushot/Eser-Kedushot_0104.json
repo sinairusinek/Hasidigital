@@ -1,0 +1,170 @@
+{
+ "unit": {
+  "kind": "hasidic_story",
+  "why": "A single anecdote about the young Rebbe of Rozdol: he declares an animal kosher, fears his ruling was wrong, and is vindicated by his master and by an overheard conversation.",
+  "boundary_note": ""
+ },
+ "stories": [
+  {
+   "k": 1,
+   "start_quote": "ועם כ\"ז עובדא ידענא",
+   "end_quote": "לפסוק כדת וכהלכה",
+   "hasidic": true,
+   "summary_en": "In his youth the Rozdol rebbe declares kosher a Sabbath animal found with a needle in its intestines. Later he is terrified the meat was treif and waits anxiously for his master R. Zvi to finish the Minhah prayer. R. Zvi assures him that Heaven ruled the same way, and next morning he overhears two little girls revealing that one of them had hidden the needle there, confirming his ruling.",
+   "tags": [
+    {
+     "tag": "practice:halakhah",
+     "scope": "span",
+     "quotes": [
+      "הובא לפניו שאלה על בהמה לכבוד שבת",
+      "להכשיר טריפות גמורה",
+      "לפסוק כדת וכהלכה"
+     ],
+     "confidence": 3,
+     "why": "The story turns on a ruling about whether an animal is treif",
+     "quotes_failed": false
+    },
+    {
+     "tag": "practice:ritual_slaughtering",
+     "scope": "span",
+     "quotes": [
+      "שמצאו בהדקין מחט גדול"
+     ],
+     "confidence": 1,
+     "why": "The question is about inspecting a slaughtered animal for treifot",
+     "quotes_failed": false
+    },
+    {
+     "tag": "times:shabbat",
+     "scope": "span",
+     "quotes": [
+      "ויהי בעש״ק ב׳ או ג׳ שעות אחר חצות",
+      "בהמה לכבוד שבת"
+     ],
+     "confidence": 3,
+     "why": "The crisis happens on the eve of the Sabbath, over meat for the Sabbath",
+     "quotes_failed": false
+    },
+    {
+     "tag": "ethics-and-emotions:fear",
+     "scope": "span",
+     "quotes": [
+      "נבהל מאד על השגגה הנוראה הלז"
+     ],
+     "confidence": 3,
+     "why": "He is terrified that he made an error",
+     "quotes_failed": false
+    },
+    {
+     "tag": "ethics-and-emotions:sadness",
+     "scope": "span",
+     "quotes": [
+      "והי׳ לו צער גדול מאד",
+      "יגון על יגונו"
+     ],
+     "confidence": 2,
+     "why": "He grieves over the possible error",
+     "quotes_failed": false
+    },
+    {
+     "tag": "ethics-and-emotions:joy",
+     "scope": "span",
+     "quotes": [
+      "מה גדלה שמחתו בזה"
+     ],
+     "confidence": 2,
+     "why": "He rejoices when his ruling is affirmed",
+     "quotes_failed": false
+    },
+    {
+     "tag": "practice:prayer",
+     "scope": "span",
+     "quotes": [
+      "כבר התחיל להתפלל תפלת שמ\"ע של מנחה",
+      "להאריך בתפלתו ב׳ ג׳ שעות ויותר"
+     ],
+     "confidence": 3,
+     "why": "R. Zvi's long Minhah prayer delays the answer",
+     "quotes_failed": false
+    },
+    {
+     "tag": "supernatural:perception",
+     "scope": "span",
+     "quotes": [
+      "ואמר לו שאל ידאג מאומה כי גם בשמים הורו כן"
+     ],
+     "confidence": 3,
+     "why": "R. Zvi knows, without being told, both the question and Heaven's ruling",
+     "quotes_failed": false
+    },
+    {
+     "tag": "social:inter_hasidic_master_disciple_relationship",
+     "scope": "span",
+     "quotes": [
+      "בלי שאלת פי מורו ורבו דודו וחותנו",
+      "ובלי הסכמתו לא רצה לעשות מאומה"
+     ],
+     "confidence": 3,
+     "why": "He depends on his master's approval before acting",
+     "quotes_failed": false
+    },
+    {
+     "tag": "characters-and-roles:the_family_of_the_tsaddik",
+     "scope": "span",
+     "quotes": [
+      "מורו ורבו דודו וחותנו הקדוש רבינו צבי"
+     ],
+     "confidence": 2,
+     "why": "His master is also his uncle and father-in-law",
+     "quotes_failed": false
+    },
+    {
+     "tag": "women:minor_character",
+     "scope": "span",
+     "quotes": [
+      "ראה שתי נערות קטנות הולכות ומדברות"
+     ],
+     "confidence": 3,
+     "why": "The two girls' conversation resolves the plot",
+     "quotes_failed": false
+    },
+    {
+     "tag": "social:retrospective_recognition",
+     "scope": "span",
+     "quotes": [
+      "הבין תיכף כי זאת היא השאלה עם המחט הזה"
+     ],
+     "confidence": 3,
+     "why": "He realizes afterwards that the needle was planted, so his ruling was correct",
+     "quotes_failed": false
+    },
+    {
+     "tag": "ethics-and-emotions:prohibitions",
+     "scope": "span",
+     "quotes": [
+      "וכמה כלים יאוסרו עי״ז"
+     ],
+     "confidence": 2,
+     "why": "He fears that forbidden meat and dishes will spread through the town",
+     "quotes_failed": false
+    }
+   ],
+   "missing_concepts": [
+    "Fear of a mistaken halakhic ruling (hora'ah)",
+    "Divine guidance confirming a legal ruling",
+    "Children's play as a channel of providence",
+    "Communal responsibility of the rabbinic decisor"
+   ],
+   "start_quote_found": true,
+   "end_quote_found": true
+  }
+ ],
+ "check": {
+  "non_vocab_tags": [],
+  "quotes": 19,
+  "quotes_not_found": 0
+ },
+ "id": "Eser-Kedushot_0104",
+ "chars": 1552,
+ "seconds": 22
+}

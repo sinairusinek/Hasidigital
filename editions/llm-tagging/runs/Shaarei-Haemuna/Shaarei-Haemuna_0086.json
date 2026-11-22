@@ -1,0 +1,131 @@
+{
+ "unit": {
+  "kind": "hasidic_story",
+  "why": "A compilation note on tefillin and constant intention, with a testimony about the Seer of Lublin's yihudim, frames a short first-person memorate by the Zhidachov rebbe: heavenly voices praise him after prayer in tefillin, then cry woe when he handles his pipe without intention.",
+  "boundary_note": "part of a running tefillin compilation; previous and next divisions continue the same homiletic/halakhic thread"
+ },
+ "stories": [
+  {
+   "k": 1,
+   "start_quote": "ופ״א אמר מורי דודי הקדוש מזדיטשוב",
+   "end_quote": "ושמעתי קורין ווי לפלניא דמריד במאריה",
+   "hasidic": true,
+   "summary_en": "The Zhidachov rebbe recounts that, going to prayer in radiant tefillin, he heard heaven proclaim honour before him, and after moving his pipe without intention he heard a cry of woe against one who rebels against his Master; the text uses this to teach that every act must be done for God's sake.",
+   "tags": [
+    {
+     "tag": "practice:tefillin",
+     "scope": "span",
+     "quotes": [
+      "הלכתי לבית התפלה בתפלין מאירין הרבה"
+     ],
+     "confidence": 3,
+     "why": "the radiant tefillin are the occasion of the heavenly praise",
+     "quotes_failed": false
+    },
+    {
+     "tag": "practice:smoking",
+     "scope": "span",
+     "quotes": [
+      "וטלטלתי הלולקע ציבת בלי כונה"
+     ],
+     "confidence": 3,
+     "why": "handling the pipe without intention is the meaningful act that draws rebuke",
+     "quotes_failed": false
+    },
+    {
+     "tag": "supernatural:communicating_with_the_invisible",
+     "scope": "span",
+     "quotes": [
+      "ושמעתי שקראו לפני הבו יקר לבריה",
+      "ושמעתי קורין ווי לפלניא דמריד במאריה"
+     ],
+     "confidence": 3,
+     "why": "he hears heavenly proclamations",
+     "quotes_failed": false
+    },
+    {
+     "tag": "supernatural:perception",
+     "scope": "span",
+     "quotes": [
+      "ושמעתי קורין ווי לפלניא דמריד במאריה"
+     ],
+     "confidence": 2,
+     "why": "supernatural hearing of heavenly judgment",
+     "quotes_failed": false
+    },
+    {
+     "tag": "practice:prayer",
+     "scope": "span",
+     "quotes": [
+      "הלכתי לבית התפלה בתפלין מאירין הרבה"
+     ],
+     "confidence": 2,
+     "why": "going to the house of prayer",
+     "quotes_failed": false
+    },
+    {
+     "tag": "kabbalah:kabbalistic_terms_yihudim",
+     "scope": "span",
+     "quotes": [
+      "שאפילו עפעפי עיניו אינו מגביה בלתי יחוד שם"
+     ],
+     "confidence": 2,
+     "why": "the frame says the Seer of Lublin performed a yihud with every movement",
+     "quotes_failed": false
+    },
+    {
+     "tag": "practice:meditation",
+     "scope": "span",
+     "quotes": [
+      "שאפילו עפעפי עיניו אינו מגביה בלתי יחוד שם"
+     ],
+     "confidence": 2,
+     "why": "constant contemplative intention in every act",
+     "quotes_failed": false
+    },
+    {
+     "tag": "not-a-hasidic-story:sermon",
+     "scope": "story",
+     "quotes": [],
+     "confidence": 2,
+     "why": "the anecdote sits inside a homiletic and halakhic discussion of tefillin and intention",
+     "quotes_failed": false
+    },
+    {
+     "tag": "practice:storytelling",
+     "scope": "span",
+     "quotes": [
+      "ופ״א אמר מורי דודי הקדוש מזדיטשוב"
+     ],
+     "confidence": 1,
+     "why": "presented as a first-person account told by a named tzaddik",
+     "quotes_failed": false
+    },
+    {
+     "tag": "ethics-and-emotions:awe",
+     "scope": "span",
+     "quotes": [
+      "לא ישתמש אדם בפניו ורגליו אלא לכבוד קונהו"
+     ],
+     "confidence": 1,
+     "why": "the lesson is reverent use of every limb for God",
+     "quotes_failed": false
+    }
+   ],
+   "missing_concepts": [
+    "intention (kavvanah) in mundane acts / serving God in all one's ways (bekhol derakhekha da'ehu)",
+    "heavenly proclamations of honour and of rebuke"
+   ],
+   "start_quote_found": true,
+   "end_quote_found": true
+  }
+ ],
+ "check": {
+  "non_vocab_tags": [],
+  "quotes": 10,
+  "quotes_not_found": 0
+ },
+ "id": "Shaarei-Haemuna_0086",
+ "chars": 514,
+ "seconds": 20
+}

@@ -1,0 +1,70 @@
+{
+ "unit": {
+  "kind": "hasidic_story",
+  "why": "split out of non-story-009 (non-story)"
+ },
+ "stories": [
+  {
+   "k": 2,
+   "start_quote": "כמו שעשה מרן הקדוש הריב״ש טוב בעת דוחק",
+   "end_quote": "לא בשום שם אלא באמונה גדולה",
+   "hasidic": true,
+   "summary_en": "Fleeing the Ishmaelites, the Besht spread his belt on the wide Dniester and crossed it by pure faith, without any holy name.",
+   "tags": [
+    {
+     "tag": "supernatural:miracle",
+     "scope": "span",
+     "quotes": [
+      "שהניח חגורה על הנעסטיר ועבר את הנעסטיר"
+     ],
+     "confidence": 3,
+     "why": "crossing the river on a belt",
+     "quotes_failed": false
+    },
+    {
+     "tag": "social:relations_with_non_jews",
+     "scope": "span",
+     "quotes": [
+      "שהוצרך לברוח מן הישמעאלים"
+     ],
+     "confidence": 2,
+     "why": "flight from the Ishmaelites",
+     "quotes_failed": false
+    },
+    {
+     "tag": "ethics-and-emotions:virtues",
+     "scope": "span",
+     "quotes": [
+      "לא בשום שם אלא באמונה גדולה"
+     ],
+     "confidence": 2,
+     "why": "illustrates simple faith",
+     "quotes_failed": false
+    },
+    {
+     "tag": "not-a-hasidic-story:sermon",
+     "scope": "story",
+     "quotes": [],
+     "confidence": 3,
+     "why": "an exemplum inside a teaching on faith",
+     "quotes_failed": false
+    },
+    {
+     "tag": "not-a-hasidic-story:virtues",
+     "scope": "story",
+     "quotes": [],
+     "confidence": 2,
+     "why": "framed as instruction in perfect faith",
+     "quotes_failed": false
+    }
+   ],
+   "missing_concepts": [
+    "faith (emunah) as a virtue"
+   ],
+   "start_quote_found": true,
+   "end_quote_found": true
+  }
+ ],
+ "id": "Shaarei-Haemuna_non-story-009_s2",
+ "split_from": "non-story-009"
+}

@@ -1,0 +1,156 @@
+{
+ "unit": {
+  "kind": "hasidic_story",
+  "why": "A numbered memoir passage by the tzaddik's son. It recounts a concrete episode: the son went two days without bread, his father studied with him to ease his suffering, and the father spoke to his starving family. It ends with a portrait of the father's virtues.",
+  "boundary_note": "Part of a series of numbered passages (ה) from the son's writings on the same father. The previous and next divisions treat the same hunger theme, but this one stands as its own anecdote."
+ },
+ "stories": [
+  {
+   "k": 1,
+   "start_quote": "עוד כתב שם וזה\"ל וכל ימיו",
+   "end_quote": "וראיתי בו מדריגות רמות ורוה״ק",
+   "hasidic": true,
+   "summary_en": "The tzaddik's son recalls his father's poverty. As a boy he went nearly two days without bread, and his father studied Talmud and Lurianic teaching with him to distract him from his pain. The father told his hungry daughters that life does not last more than seventy years, and paced reviewing the Talmud with a shining face. The son then lists his father's humility, fervour and patience.",
+   "tags": [
+    {
+     "tag": "folkloristics:story_type_virtues",
+     "scope": "story",
+     "quotes": [],
+     "confidence": 3,
+     "why": "The passage exists to show the tzaddik's virtues in poverty.",
+     "quotes_failed": false
+    },
+    {
+     "tag": "social:poverty",
+     "scope": "span",
+     "quotes": [
+      "וכל ימיו הי' בדוחק פרנסה ולא הרגיש",
+      "ובני ביתו עטופים ברעב"
+     ],
+     "confidence": 3,
+     "why": "He lives in poverty and is indifferent to it.",
+     "quotes_failed": false
+    },
+    {
+     "tag": "characters-and-roles:the_family_of_the_tsaddik",
+     "scope": "span",
+     "quotes": [
+      "ובני ביתו עטופים ברעב ונכנס לחדרם",
+      "שאני שהייתי קטן לא הי' לי מעט פת"
+     ],
+     "confidence": 3,
+     "why": "His son (the narrator) and his daughters appear.",
+     "quotes_failed": false
+    },
+    {
+     "tag": "practice:study",
+     "scope": "span",
+     "quotes": [
+      "למד עמי לפקח צערי שלש מדות בנערה",
+      "וחזר על שיטת הש\"ס"
+     ],
+     "confidence": 3,
+     "why": "He studies Talmud with his son and reviews it himself.",
+     "quotes_failed": false
+    },
+    {
+     "tag": "knowledge:esoteric",
+     "scope": "span",
+     "quotes": [
+      "למד עמי בדרך פנימי עפ\"י דרך מרן האר״י"
+     ],
+     "confidence": 2,
+     "why": "He teaches his son Lurianic inner (mystical) learning.",
+     "quotes_failed": false
+    },
+    {
+     "tag": "ethics-and-emotions:humility",
+     "scope": "span",
+     "quotes": [
+      "מלא חסידות וענוה יתירה שפל בעיניו ונבזה"
+     ],
+     "confidence": 3,
+     "why": "His humility is stated explicitly.",
+     "quotes_failed": false
+    },
+    {
+     "tag": "experience:enthusiasm",
+     "scope": "span",
+     "quotes": [
+      "ויראה ואהבה בתפלה בוער כאש"
+     ],
+     "confidence": 2,
+     "why": "He burns with fervour in prayer.",
+     "quotes_failed": false
+    },
+    {
+     "tag": "ethics-and-emotions:awe",
+     "scope": "span",
+     "quotes": [
+      "ויראה ואהבה בתפלה בוער כאש"
+     ],
+     "confidence": 2,
+     "why": "Awe of God in prayer.",
+     "quotes_failed": false
+    },
+    {
+     "tag": "supernatural:light_or_fire_as_a_sign_of_righteousness",
+     "scope": "span",
+     "quotes": [
+      "ופניו מאירין באור עליון"
+     ],
+     "confidence": 2,
+     "why": "His face shines with supernal light while he studies.",
+     "quotes_failed": false
+    },
+    {
+     "tag": "ethics-and-emotions:virtues",
+     "scope": "span",
+     "quotes": [
+      "וכל מדות טובות הי' בו",
+      "והי' שפל וסבלן לסבול חירופין"
+     ],
+     "confidence": 3,
+     "why": "A general list of good traits.",
+     "quotes_failed": false
+    },
+    {
+     "tag": "women:mention_only",
+     "scope": "span",
+     "quotes": [
+      "ואמר להם בנותי קינדרליך"
+     ],
+     "confidence": 2,
+     "why": "His daughters are spoken to but do not act.",
+     "quotes_failed": false
+    },
+    {
+     "tag": "supernatural:perception",
+     "scope": "span",
+     "quotes": [
+      "וראיתי בו מדריגות רמות ורוה״ק"
+     ],
+     "confidence": 1,
+     "why": "Holy spirit is attributed to him in general terms only.",
+     "quotes_failed": false
+    }
+   ],
+   "missing_concepts": [
+    "hunger / starvation of a tzaddik's household",
+    "eyewitness memoir by the tzaddik's son",
+    "patience in bearing insults (silence under abuse)",
+    "Yiddish speech embedded in the Hebrew text"
+   ],
+   "start_quote_found": true,
+   "end_quote_found": true
+  }
+ ],
+ "check": {
+  "non_vocab_tags": [],
+  "quotes": 15,
+  "quotes_not_found": 0
+ },
+ "id": "Eser-Kedushot_0081",
+ "chars": 626,
+ "seconds": 25
+}

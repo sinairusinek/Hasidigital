@@ -1,0 +1,160 @@
+{
+ "unit": {
+  "kind": "hasidic_story",
+  "why": "R. Simcha Bunem of Przysucha tells his disciples how he came before the Holy Jew, shamed and pale, and finally admitted that the book Shevet Musar had shamed him; the narrator then adds a homiletic commentary.",
+  "boundary_note": "an unrelated footnote (ובר״ח שער הקדושה... on not talking during the cantor's repetition) is inserted mid-text after 'שפ״א א)'; the story text resumes at 'סוד נסע ובא'"
+ },
+ "stories": [
+  {
+   "k": 1,
+   "start_quote": "ובס׳ רמ״ץ (אות פ״ז) וז״ל",
+   "end_quote": "והבעל שבט עושר הוכיחו ממש עכ\"ל",
+   "hasidic": true,
+   "summary_en": "R. Bunem of Przysucha tells how the Holy Jew saw his downcast face and pressed him to name the man who had shamed him; the 'man' turned out to be the musar book Shevet Musar, which R. Bunem then kissed, and the Holy Jew rejoiced at his wisdom; the narrator draws a lesson about how to read musar books.",
+   "tags": [
+    {
+     "tag": "ethics-and-emotions:shame",
+     "scope": "span",
+     "quotes": [
+      "והשיב לו שאחד ביישו למאוד עד שרגע",
+      "ונפל עלי בושה גדולה עד שכמעט שנאתי נפשי"
+     ],
+     "confidence": 3,
+     "why": "the being-shamed is the core of the story",
+     "quotes_failed": false
+    },
+    {
+     "tag": "practice:storytelling",
+     "scope": "span",
+     "quotes": [
+      "סיפר מקן אדמו״ר מפרשיסחא. לתלמידיו"
+     ],
+     "confidence": 3,
+     "why": "the tsaddik narrates the tale to his disciples, and the narrator asks why he told it",
+     "quotes_failed": false
+    },
+    {
+     "tag": "practice:travel_to_the_tsaddik",
+     "scope": "span",
+     "quotes": [
+      "נסע ובא לפני הרה״ק היהודי ז\"ל"
+     ],
+     "confidence": 3,
+     "why": "R. Bunem travels to the Holy Jew",
+     "quotes_failed": false
+    },
+    {
+     "tag": "social:inter_hasidic_master_disciple_relationship",
+     "scope": "story",
+     "quotes": [],
+     "confidence": 3,
+     "why": "the Holy Jew questions his disciple and approves of him",
+     "quotes_failed": false
+    },
+    {
+     "tag": "practice:study",
+     "scope": "span",
+     "quotes": [
+      "והבנתי בס׳ שבט מוסר והי׳ מבייש אותי",
+      "ללמוד ולהביט בספרי מוסר"
+     ],
+     "confidence": 3,
+     "why": "the study of a musar book is the subject",
+     "quotes_failed": false
+    },
+    {
+     "tag": "ethics-and-emotions:joy",
+     "scope": "span",
+     "quotes": [
+      "שמח שמחה גדולה על חכמתו"
+     ],
+     "confidence": 2,
+     "why": "the Holy Jew rejoices",
+     "quotes_failed": false
+    },
+    {
+     "tag": "ethics-and-emotions:humility",
+     "scope": "span",
+     "quotes": [
+      "ראיתי שמעולם לא התחלתי לעבוד את הבורא"
+     ],
+     "confidence": 2,
+     "why": "R. Bunem humbly judges himself",
+     "quotes_failed": false
+    },
+    {
+     "tag": "social:retrospective_recognition",
+     "scope": "span",
+     "quotes": [
+      "והבנתי בס׳ שבט מוסר והי׳ מבייש אותי"
+     ],
+     "confidence": 2,
+     "why": "the 'man' who shamed him turns out to be a book",
+     "quotes_failed": false
+    },
+    {
+     "tag": "practice:reception_of_hasidim",
+     "scope": "span",
+     "quotes": [
+      "ושאל אותו מה היום מיומים"
+     ],
+     "confidence": 2,
+     "why": "the tsaddik receives the visitor and questions him",
+     "quotes_failed": false
+    },
+    {
+     "tag": "ethics-and-emotions:anger",
+     "scope": "span",
+     "quotes": [
+      "כי רצה להעניש אותו איש עד שהקפיד עלי"
+     ],
+     "confidence": 1,
+     "why": "the Holy Jew is annoyed and wants to punish the offender",
+     "quotes_failed": false
+    },
+    {
+     "tag": "ethics-and-emotions:repentance",
+     "scope": "span",
+     "quotes": [
+      "כל העובר עבירה ומתבייש בה מוחלין לו"
+     ],
+     "confidence": 1,
+     "why": "the frame ties shame to forgiveness of sin",
+     "quotes_failed": false
+    },
+    {
+     "tag": "not-a-hasidic-story:sermon",
+     "scope": "span",
+     "quotes": [
+      "בוודאי ללמוד אותנו האיך ללמוד ולהביט בספרי מוסר"
+     ],
+     "confidence": 2,
+     "why": "the narrative is wrapped in an extended homiletic frame",
+     "quotes_failed": false
+    },
+    {
+     "tag": "folkloristics:story_type_virtues",
+     "scope": "story",
+     "quotes": [],
+     "confidence": 2,
+     "why": "illustrates the tsaddik's sincerity and self-scrutiny",
+     "quotes_failed": false
+    }
+   ],
+   "missing_concepts": [
+    "reading musar literature as a spiritual practice",
+    "reverence for holy books (kissing a book)"
+   ],
+   "start_quote_found": true,
+   "end_quote_found": true
+  }
+ ],
+ "check": {
+  "non_vocab_tags": [],
+  "quotes": 13,
+  "quotes_not_found": 0
+ },
+ "id": "Shaarei-Haemuna_0009",
+ "chars": 1841,
+ "seconds": 28
+}

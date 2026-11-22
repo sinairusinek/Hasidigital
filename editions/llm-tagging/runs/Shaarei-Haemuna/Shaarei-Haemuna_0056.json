@@ -1,0 +1,120 @@
+{
+ "unit": {
+  "kind": "hasidic_story",
+  "why": "R. Aaron of Karlin tells how the Besht appeared to his son after his death and showed him, through a vision of a mountain and an abyss, how to serve the Creator.",
+  "boundary_note": "The homiletic frame (R. Aaron of Karlin's moral teaching on toil in divine service) begins in the previous division. The narrative itself is complete here."
+ },
+ "stories": [
+  {
+   "k": 1,
+   "start_quote": "וסיפר המעשה מהבעש״ט הק נבג״מ",
+   "end_quote": "כך עובדין את הבורא (ס׳ בית אהרן בדרוש לפסח)",
+   "hasidic": true,
+   "summary_en": "After his death the Besht appears to his son, who asks how one serves the Creator. The Besht stands on a high mountain above a deep abyss, throws himself down until his limbs break into crumbs, and says: this is how one serves the Creator.",
+   "tags": [
+    {
+     "tag": "characters-and-roles:the_family_of_the_tsaddik",
+     "scope": "span",
+     "quotes": [
+      "שנראה לבנו אחר פטירתו"
+     ],
+     "confidence": 3,
+     "why": "The Besht's son is the recipient of the appearance.",
+     "quotes_failed": false
+    },
+    {
+     "tag": "supernatural:communicating_with_the_invisible",
+     "scope": "span",
+     "quotes": [
+      "שנראה לבנו אחר פטירתו ושאל אותו איך עובדין את הבורא"
+     ],
+     "confidence": 3,
+     "why": "The son converses with his deceased father's soul.",
+     "quotes_failed": false
+    },
+    {
+     "tag": "experience:visions",
+     "scope": "span",
+     "quotes": [
+      "ונדמה לו כהר גבוה תחת",
+      "ועמד על ראש ההר וזרק א״ע לתוך העמק"
+     ],
+     "confidence": 2,
+     "why": "The son sees a supernatural visionary scene; it is unclear whether he was awake or dreaming.",
+     "quotes_failed": false
+    },
+    {
+     "tag": "experience:revelation",
+     "scope": "span",
+     "quotes": [
+      "ואח״כ א״ל כך עובדין את הבורא"
+     ],
+     "confidence": 2,
+     "why": "The dead tsaddik discloses the essence of divine service.",
+     "quotes_failed": false
+    },
+    {
+     "tag": "practice:storytelling",
+     "scope": "span",
+     "quotes": [
+      "וסיפר המעשה מהבעש״ט הק נבג״מ"
+     ],
+     "confidence": 3,
+     "why": "R. Aaron of Karlin tells the tale within his teaching.",
+     "quotes_failed": false
+    },
+    {
+     "tag": "not-a-hasidic-story:sermon",
+     "scope": "story",
+     "quotes": [],
+     "confidence": 2,
+     "why": "The tale is embedded in a moral discourse and cited from a derush for Pesach.",
+     "quotes_failed": false
+    },
+    {
+     "tag": "practice:sermon",
+     "scope": "span",
+     "quotes": [
+      "(ס׳ בית אהרן בדרוש לפסח)"
+     ],
+     "confidence": 2,
+     "why": "The tale is quoted as part of a homily.",
+     "quotes_failed": false
+    },
+    {
+     "tag": "ethics-and-emotions:humility",
+     "scope": "span",
+     "quotes": [
+      "ונתפרקו אבריו עד לפרורין"
+     ],
+     "confidence": 1,
+     "why": "The self-annihilating leap may illustrate self-nullification in service.",
+     "quotes_failed": false
+    },
+    {
+     "tag": "characters-and-roles:the_family_of_the_tsaddik",
+     "scope": "story",
+     "quotes": [],
+     "confidence": 1,
+     "why": "Duplicate check: the son is the only other character.",
+     "quotes_failed": false
+    }
+   ],
+   "missing_concepts": [
+    "appearance of a dead tsaddik's soul",
+    "self-sacrifice / self-annihilation (bittul, mesirut nefesh) as the mode of divine service",
+    "toil and effort in divine service"
+   ],
+   "start_quote_found": true,
+   "end_quote_found": true
+  }
+ ],
+ "check": {
+  "non_vocab_tags": [],
+  "quotes": 8,
+  "quotes_not_found": 0
+ },
+ "id": "Shaarei-Haemuna_0056",
+ "chars": 248,
+ "seconds": 18
+}

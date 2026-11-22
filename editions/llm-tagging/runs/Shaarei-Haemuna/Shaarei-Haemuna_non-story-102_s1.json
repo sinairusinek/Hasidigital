@@ -1,0 +1,95 @@
+{
+ "unit": {
+  "kind": "hasidic_story",
+  "why": "split out of non-story-102 (non-story)"
+ },
+ "stories": [
+  {
+   "k": 1,
+   "start_quote": "שמעתי מהה״צ וכו׳ ר' פנחס ז״ל מקארץ",
+   "end_quote": "ומוסר לבקש מהש״י רפואות עכלה\"ק",
+   "hasidic": true,
+   "summary_en": "A man with an unstoppable nosebleed, given up by the doctors, is cured when a passer-by makes him drink good wine; R. Pinhas of Korets, told of it, shows that the remedy is alluded to in the Torah ('ודם ענבים שותה', from asvata, healing).",
+   "tags": [
+    {
+     "tag": "practice:healing",
+     "scope": "span",
+     "quotes": [
+      "תיכף בשתותו היין נתרפא ונפסק הדם",
+      "עד שהרופאים נלאו לבקש רפואות לזה ונתייאשו ממנו"
+     ],
+     "confidence": 3,
+     "why": "the story is about curing a sick man after the doctors failed",
+     "quotes_failed": false
+    },
+    {
+     "tag": "practice:drinking_alcohol",
+     "scope": "span",
+     "quotes": [
+      "ולקח מדה אחד יין טוב וח\"ק וצוה אל החולה לשתותו"
+     ],
+     "confidence": 3,
+     "why": "drinking wine is the cure",
+     "quotes_failed": false
+    },
+    {
+     "tag": "practice:sermon",
+     "scope": "span",
+     "quotes": [
+      "הראה להם איך שהרפואה זו נרמוז בהתורה"
+     ],
+     "confidence": 3,
+     "why": "the tzaddik gives an exegesis of a verse",
+     "quotes_failed": false
+    },
+    {
+     "tag": "not-a-hasidic-story:sermon",
+     "scope": "story",
+     "quotes": [],
+     "confidence": 2,
+     "why": "the anecdote serves the homiletic point that all remedies are alluded to in the Torah, inside a segulot compilation",
+     "quotes_failed": false
+    },
+    {
+     "tag": "practice:storytelling",
+     "scope": "span",
+     "quotes": [
+      "וכשנרצה הדברי׳ לפני הה״צ הנ\"ל"
+     ],
+     "confidence": 1,
+     "why": "the event is recounted before the tzaddik",
+     "quotes_failed": false
+    },
+    {
+     "tag": "supernatural:miracle",
+     "scope": "span",
+     "quotes": [
+      "וישתוממו הרופאים והללו את ד'"
+     ],
+     "confidence": 1,
+     "why": "the sudden cure astonishes the doctors, though it is presented as a natural remedy",
+     "quotes_failed": false
+    },
+    {
+     "tag": "ethics-and-emotions:sadness",
+     "scope": "span",
+     "quotes": [
+      "וכל ב״ב היו בוכים"
+     ],
+     "confidence": 1,
+     "why": "the family weeps over the dying man",
+     "quotes_failed": false
+    }
+   ],
+   "missing_concepts": [
+    "segulot / folk remedies",
+    "Torah as a source of medical knowledge",
+    "doctors' failure"
+   ],
+   "start_quote_found": true,
+   "end_quote_found": true
+  }
+ ],
+ "id": "Shaarei-Haemuna_non-story-102_s1",
+ "split_from": "non-story-102"
+}

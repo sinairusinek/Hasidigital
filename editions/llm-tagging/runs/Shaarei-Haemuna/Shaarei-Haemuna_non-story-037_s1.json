@@ -1,0 +1,81 @@
+{
+ "unit": {
+  "kind": "hasidic_story",
+  "why": "split out of non-story-037 (non-story)"
+ },
+ "stories": [
+  {
+   "k": 1,
+   "start_quote": "כמו שאמר מו״ר הקדוש מוהר״ר אברהם יהושע העשיל",
+   "end_quote": "ולא עוד אלא אפשר מטעין אותי",
+   "hasidic": true,
+   "summary_en": "R. Avraham Yehoshua Heshel tells how plants foretold the future to him and how, as a child, he could describe any person from their name, and how he prayed for the gift to be taken away for fear of being deceived.",
+   "tags": [
+    {
+     "tag": "supernatural:perception",
+     "scope": "span",
+     "quotes": [
+      "היה מכוון בכיון מי הוא זה השם",
+      "וכוון ממש כל צורתו ושערו והנהגתו"
+     ],
+     "confidence": 3,
+     "why": "He knows people's appearance and status from their name alone.",
+     "quotes_failed": false
+    },
+    {
+     "tag": "supernatural:communicating_with_the_invisible",
+     "scope": "span",
+     "quotes": [
+      "שעשבי השדה היו אומרין לו עתידות"
+     ],
+     "confidence": 2,
+     "why": "The grasses of the field speak to him.",
+     "quotes_failed": false
+    },
+    {
+     "tag": "ethics-and-emotions:humility",
+     "scope": "span",
+     "quotes": [
+      "ידעתי גם ידעתי שעדיין אני רחוק מאד מהש\"י"
+     ],
+     "confidence": 3,
+     "why": "Despite his powers he declares himself far from God.",
+     "quotes_failed": false
+    },
+    {
+     "tag": "ethics-and-emotions:fear",
+     "scope": "span",
+     "quotes": [
+      "ויראתי שלא אטעה ובקשתי מאד הרחמן"
+     ],
+     "confidence": 2,
+     "why": "He fears being misled by his powers.",
+     "quotes_failed": false
+    },
+    {
+     "tag": "folkloristics:story_type_virtues",
+     "scope": "story",
+     "quotes": [],
+     "confidence": 2,
+     "why": "The anecdote illustrates his humility and caution.",
+     "quotes_failed": false
+    },
+    {
+     "tag": "not-a-hasidic-story:sermon",
+     "scope": "story",
+     "quotes": [],
+     "confidence": 2,
+     "why": "It is embedded in an ethical discourse on spiritual 'gifts'.",
+     "quotes_failed": false
+    }
+   ],
+   "missing_concepts": [
+    "renouncing supernatural gifts out of fear of self-deception"
+   ],
+   "start_quote_found": true,
+   "end_quote_found": true
+  }
+ ],
+ "id": "Shaarei-Haemuna_non-story-037_s1",
+ "split_from": "non-story-037"
+}

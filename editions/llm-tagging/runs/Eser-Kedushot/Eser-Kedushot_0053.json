@@ -1,0 +1,133 @@
+{
+ "unit": {
+  "kind": "hasidic_story",
+  "why": "A dream narrative in which R. Zvi Hirsh of Zidichov enters the heavenly academy of the Beit Yosef and delivers a halakhic novella there, which the Beit Yosef approves.",
+  "boundary_note": ""
+ },
+ "stories": [
+  {
+   "k": 1,
+   "start_quote": "ופ\"א פ׳ מקץ והי׳ רבינו דודי מזידיטשוב",
+   "end_quote": "טוב דברתם וחדשתם בתורה הק׳",
+   "hasidic": true,
+   "summary_en": "In a dream during the week of Miketz, R. Zvi Hirsh of Zidichov enters the heavenly yeshiva of the Beit Yosef, where he is greeted by name. Asked for words of Torah, he explains how Joseph could accept the Egyptians' silver and gold idols: they had annulled them by breaking them. The Beit Yosef praises his novella.",
+   "tags": [
+    {
+     "tag": "experience:dream",
+     "scope": "span",
+     "quotes": [
+      "ישן בלילה וראה בחלום שנכנס להיכל רבינו הבית יוסף"
+     ],
+     "confidence": 3,
+     "why": "the whole event takes place in a dream",
+     "quotes_failed": false
+    },
+    {
+     "tag": "spaces:heaven",
+     "scope": "span",
+     "quotes": [
+      "שיושבים הרבה ת\"ח במתיבתא זו אצל רבינו הב״י"
+     ],
+     "confidence": 3,
+     "why": "heavenly academy (היכל, מתיבתא) of the deceased Beit Yosef is the setting",
+     "quotes_failed": false
+    },
+    {
+     "tag": "supernatural:communicating_with_the_invisible",
+     "scope": "span",
+     "quotes": [
+      "עמד רבינו ב״י מכסאו ואמר ברוך הבא"
+     ],
+     "confidence": 2,
+     "why": "converses with the soul of the long-dead Beit Yosef",
+     "quotes_failed": false
+    },
+    {
+     "tag": "practice:sermon",
+     "scope": "span",
+     "quotes": [
+      "אגיד לכם חידוש אחד מנגלות התורה",
+      "וביקש מרבינו דודי שיאמר לו איזה ד״ת"
+     ],
+     "confidence": 3,
+     "why": "he delivers a Torah novella on the weekly portion",
+     "quotes_failed": false
+    },
+    {
+     "tag": "practice:halakhah",
+     "scope": "span",
+     "quotes": [
+      "וההלכה היא כשהעכו\"ם בעצמו מבטל ע\"ז שלו",
+      "כיון שאסור ליהנות מע״ז"
+     ],
+     "confidence": 3,
+     "why": "the novella turns on the halakha of nullifying idols",
+     "quotes_failed": false
+    },
+    {
+     "tag": "ethics-and-emotions:prohibitions",
+     "scope": "span",
+     "quotes": [
+      "כיון שאסור ליהנות מע״ז"
+     ],
+     "confidence": 1,
+     "why": "the prohibition on benefiting from idolatry is the subject of the teaching, not of the plot",
+     "quotes_failed": false
+    },
+    {
+     "tag": "knowledge:esoteric",
+     "scope": "span",
+     "quotes": [
+      "ואני כל עסקי בסודות התורה"
+     ],
+     "confidence": 1,
+     "why": "he contrasts his own esoteric pursuits with revealed Torah",
+     "quotes_failed": false
+    },
+    {
+     "tag": "practice:study",
+     "scope": "span",
+     "quotes": [
+      "גדולי תלמידי חכמים שעוסקים בנגלות התורה"
+     ],
+     "confidence": 2,
+     "why": "the heavenly academy is a scene of Torah learning",
+     "quotes_failed": false
+    },
+    {
+     "tag": "spaces:beth_midrash",
+     "scope": "span",
+     "quotes": [
+      "ומיד כשבא רבינו דודי זלה\"ה למתיבתא זאת"
+     ],
+     "confidence": 2,
+     "why": "the setting is a (heavenly) yeshiva",
+     "quotes_failed": false
+    },
+    {
+     "tag": "not-a-hasidic-story:sermon",
+     "scope": "story",
+     "quotes": [],
+     "confidence": 1,
+     "why": "the narrative is largely a frame for an exegetical-halakhic novella",
+     "quotes_failed": false
+    }
+   ],
+   "missing_concepts": [
+    "heavenly approval of a tsaddik's Torah novella by an earlier halakhic authority",
+    "relationship between revealed and hidden Torah (nigleh vs. nistar)",
+    "story cited from a written source (Zohar Hai introduction) by a family member"
+   ],
+   "start_quote_found": true,
+   "end_quote_found": true
+  }
+ ],
+ "check": {
+  "non_vocab_tags": [],
+  "quotes": 11,
+  "quotes_not_found": 0
+ },
+ "id": "Eser-Kedushot_0053",
+ "chars": 947,
+ "seconds": 18
+}

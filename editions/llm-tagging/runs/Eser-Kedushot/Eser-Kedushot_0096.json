@@ -1,0 +1,160 @@
+{
+ "unit": {
+  "kind": "hasidic_story",
+  "why": "A single narrative explaining R. Lipa's early death: a heavenly revelation on Seder night that his brother R. Zvi would soon be taken, followed by an agreed exchange in which he died in his brother's place.",
+  "boundary_note": "Next division (ג) gives an alternative version of the same event; story begins with the heading in the previous division (א)."
+ },
+ "stories": [
+  {
+   "k": 1,
+   "start_quote": "אנכי קבלתי מחביריי ומתלמידים של רבותינו הקדושים",
+   "end_quote": "לביתו ונסתלק לעולמו",
+   "hasidic": true,
+   "summary_en": "On Seder night R. Lipa learned from Heaven that his brother R. Zvi of Zhidachov would soon die; he travelled to him and offered to die in his place, since Zvi could benefit many souls, and R. Lipa then went home and died.",
+   "tags": [
+    {
+     "tag": "experience:revelation",
+     "scope": "span",
+     "quotes": [
+      "גילו לו מן השמים כי אחיו רבינו צבי"
+     ],
+     "confidence": 3,
+     "why": "heavenly disclosure",
+     "quotes_failed": false
+    },
+    {
+     "tag": "times:holidays",
+     "scope": "span",
+     "quotes": [
+      "בליל שמורים על הסדר של פסח"
+     ],
+     "confidence": 3,
+     "why": "Pesach seder",
+     "quotes_failed": false
+    },
+    {
+     "tag": "times:death",
+     "scope": "span",
+     "quotes": [
+      "ונסע הרה״ק ר׳ ליפא לביתו ונסתלק לעולמו"
+     ],
+     "confidence": 3,
+     "why": "his death",
+     "quotes_failed": false
+    },
+    {
+     "tag": "folkloristics:story_type_death_of_the_tsaddik",
+     "scope": "story",
+     "quotes": [],
+     "confidence": 3,
+     "why": "explains the cause of R. Lipa's death",
+     "quotes_failed": false
+    },
+    {
+     "tag": "characters-and-roles:the_family_of_the_tsaddik",
+     "scope": "span",
+     "quotes": [
+      "ונסע תיכף אחר החג לאחיו הנ\"ל"
+     ],
+     "confidence": 3,
+     "why": "brothers",
+     "quotes_failed": false
+    },
+    {
+     "tag": "practice:pidyon_nefesh",
+     "scope": "span",
+     "quotes": [
+      "רצונו להחליף עמו שהוא יסתלק לעולם העליון תמורתו"
+     ],
+     "confidence": 2,
+     "why": "averting the decree on his brother by substitution",
+     "quotes_failed": false
+    },
+    {
+     "tag": "practice:lifesaving",
+     "scope": "span",
+     "quotes": [
+      "רצונו להחליף עמו שהוא יסתלק לעולם העליון תמורתו"
+     ],
+     "confidence": 2,
+     "why": "saves brother from foretold death",
+     "quotes_failed": false
+    },
+    {
+     "tag": "practice:torat_ha_tsaddik",
+     "scope": "span",
+     "quotes": [
+      "ואחיו רבינו צבי יוכל לזכות הרבה נפשות ישראל"
+     ],
+     "confidence": 2,
+     "why": "tzaddik's value to the public",
+     "quotes_failed": false
+    },
+    {
+     "tag": "ethics-and-emotions:humility",
+     "scope": "span",
+     "quotes": [
+      "בהיות שהוא אינו יכול להשתדל עם העולם"
+     ],
+     "confidence": 2,
+     "why": "self-effacing judgment",
+     "quotes_failed": false
+    },
+    {
+     "tag": "supernatural:prognostication",
+     "scope": "span",
+     "quotes": [
+      "יבוקש בקרוב לישיבה של מעלה"
+     ],
+     "confidence": 1,
+     "why": "foretold death, averted by exchange",
+     "quotes_failed": false
+    },
+    {
+     "tag": "spaces:heaven",
+     "scope": "span",
+     "quotes": [
+      "יבוקש בקרוב לישיבה של מעלה"
+     ],
+     "confidence": 1,
+     "why": "heavenly academy mentioned as destination",
+     "quotes_failed": false
+    },
+    {
+     "tag": "practice:the_travels_of_the_tsaddik",
+     "scope": "span",
+     "quotes": [
+      "ונסע תיכף אחר החג לאחיו"
+     ],
+     "confidence": 1,
+     "why": "journey to brother",
+     "quotes_failed": false
+    },
+    {
+     "tag": "practice:storytelling",
+     "scope": "span",
+     "quotes": [
+      "אנכי קבלתי מחביריי ומתלמידים של רבותינו"
+     ],
+     "confidence": 1,
+     "why": "transmitted oral tradition",
+     "quotes_failed": false
+    }
+   ],
+   "missing_concepts": [
+    "self-sacrifice: dying in place of another (substitution of lives)",
+    "agreement/pact between brothers about life and death"
+   ],
+   "start_quote_found": true,
+   "end_quote_found": true
+  }
+ ],
+ "check": {
+  "non_vocab_tags": [],
+  "quotes": 12,
+  "quotes_not_found": 0
+ },
+ "id": "Eser-Kedushot_0096",
+ "chars": 466,
+ "seconds": 17
+}

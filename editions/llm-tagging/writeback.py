@@ -70,7 +70,7 @@ def main():
                     tags[t['tag']] = max(tags.get(t['tag'], 0), c)
         if did in genre:
             tags[genre[did]] = 3
-        elif not tags and kind == 'saying_or_teaching':
+        elif not tags and kind in ('saying_or_teaching', 'continuation_or_fragment'):
             # option (b), Sinai 2026-11-22: keep the author's story division, mark its genre
             why = res['unit'].get('why', '').lower()
             tags['not-a-hasidic-story:halakhah' if any(w in why for w in ('halakh', 'custom', 'law'))

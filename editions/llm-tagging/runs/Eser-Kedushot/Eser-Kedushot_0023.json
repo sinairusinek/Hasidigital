@@ -1,0 +1,83 @@
+{
+ "unit": {
+  "kind": "hasidic_story",
+  "why": "A short first-person memorate, quoted from Zohar Hai, about the author receiving an overwhelming illumination from his master R. Zvi, with a brief closing teaching on the meaning of 'Rebbe'.",
+  "boundary_note": ""
+ },
+ "stories": [
+  {
+   "k": 1,
+   "start_quote": "עוד שם פ\"א בהיותי במדינת פולין",
+   "end_quote": "ורבו מרבו עד אליהו עכ״ל",
+   "hasidic": true,
+   "summary_en": "While in Poland, the narrator received from his master R. Zvi such a wondrous illumination and spiritual attainment that he could not bear it, and had to go back to him to ask him to take some of it away; the 'Rebbe' is so called because he receives from his master, back in a chain to Elijah.",
+   "tags": [
+    {
+     "tag": "social:inter_hasidic_master_disciple_relationship",
+     "scope": "story",
+     "quotes": [],
+     "confidence": 3,
+     "why": "The whole anecdote is about the spiritual flow from master to disciple.",
+     "quotes_failed": false
+    },
+    {
+     "tag": "practice:torat_ha_tsaddik",
+     "scope": "span",
+     "quotes": [
+      "לזה יקרא רבי כי נסמך ולקח מרבו",
+      "ורבו מרבו עד אליהו"
+     ],
+     "confidence": 3,
+     "why": "Doctrine of the rebbe as one who receives and transmits through a chain of masters.",
+     "quotes_failed": false
+    },
+    {
+     "tag": "experience:revelation",
+     "scope": "span",
+     "quotes": [
+      "והשפיע עלי כל כך הארה נפלאה והשגה"
+     ],
+     "confidence": 2,
+     "why": "The disciple receives a supernatural illumination and attainment.",
+     "quotes_failed": false
+    },
+    {
+     "tag": "practice:travel_to_the_tsaddik",
+     "scope": "span",
+     "quotes": [
+      "והוצרכתי לחזור אצלו שיקח מעט"
+     ],
+     "confidence": 2,
+     "why": "He goes back to his master to have the illumination reduced.",
+     "quotes_failed": false
+    },
+    {
+     "tag": "supernatural:miracle",
+     "scope": "span",
+     "quotes": [
+      "האיר עלי [רבינו צבי] והשפיע עלי"
+     ],
+     "confidence": 1,
+     "why": "Supernatural transfer of illumination from the master.",
+     "quotes_failed": false
+    }
+   ],
+   "missing_concepts": [
+    "excess of spiritual illumination that is unbearable and must be reduced",
+    "chain of transmission (semikhah) from master to disciple"
+   ],
+   "start_quote_found": true,
+   "end_quote_found": true
+  }
+ ],
+ "check": {
+  "non_vocab_tags": [
+   "elijah_the_prophet"
+  ],
+  "quotes": 5,
+  "quotes_not_found": 0
+ },
+ "id": "Eser-Kedushot_0023",
+ "chars": 197,
+ "seconds": 16
+}

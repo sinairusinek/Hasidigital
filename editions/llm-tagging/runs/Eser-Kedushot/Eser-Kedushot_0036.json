@@ -1,0 +1,132 @@
+{
+ "unit": {
+  "kind": "hasidic_story",
+  "why": "After a short Zohar citation on the radiant 'garment' of the righteous, the author gives a first-person memorate: he saw his master-uncle's face shining at Minhah of Rosh Hashanah and fell back in fear.",
+  "boundary_note": ""
+ },
+ "stories": [
+  {
+   "k": 1,
+   "start_quote": "ואני זכיתי לראות פני מורי דודי",
+   "end_quote": "לכותל על רגע ולא ראיתי עוד",
+   "hasidic": true,
+   "summary_en": "The narrator saw the face of his teacher and uncle shining like a heavenly rainbow during Minhah on Rosh Hashanah and fell backward in fear; the master noticed and turned his face to the wall for a moment, and the radiance was not seen again.",
+   "tags": [
+    {
+     "tag": "supernatural:light_or_fire_as_a_sign_of_righteousness",
+     "scope": "span",
+     "quotes": [
+      "שהי׳ פניו מבהיק ומאיר כעין קשת שלמעלה",
+      "ר׳ אבא אתלהיטו אנפוי כנורא"
+     ],
+     "confidence": 3,
+     "why": "The tzaddik's face radiates light as a sign of his holiness.",
+     "quotes_failed": false
+    },
+    {
+     "tag": "ethics-and-emotions:fear",
+     "scope": "span",
+     "quotes": [
+      "עד שנפלתי לאחורי מאומה ופחד"
+     ],
+     "confidence": 3,
+     "why": "The narrator falls back in dread.",
+     "quotes_failed": false
+    },
+    {
+     "tag": "ethics-and-emotions:awe",
+     "scope": "span",
+     "quotes": [
+      "עד שנפלתי לאחורי מאומה ופחד"
+     ],
+     "confidence": 2,
+     "why": "Religious awe of the tzaddik.",
+     "quotes_failed": false
+    },
+    {
+     "tag": "practice:prayer",
+     "scope": "span",
+     "quotes": [
+      "במנחה ראש השנה"
+     ],
+     "confidence": 2,
+     "why": "The scene takes place during the Minhah prayer.",
+     "quotes_failed": false
+    },
+    {
+     "tag": "times:holidays",
+     "scope": "span",
+     "quotes": [
+      "במנחה ראש השנה"
+     ],
+     "confidence": 3,
+     "why": "The scene is set on Rosh Hashanah.",
+     "quotes_failed": false
+    },
+    {
+     "tag": "experience:visions",
+     "scope": "span",
+     "quotes": [
+      "ואני זכיתי לראות פני מורי דודי"
+     ],
+     "confidence": 2,
+     "why": "The narrator sees a supernatural sight while awake.",
+     "quotes_failed": false
+    },
+    {
+     "tag": "social:inter_hasidic_master_disciple_relationship",
+     "scope": "span",
+     "quotes": [
+      "והבין זה מורי והחזיר פניו לכותל"
+     ],
+     "confidence": 2,
+     "why": "A memorate of a disciple about his master.",
+     "quotes_failed": false
+    },
+    {
+     "tag": "characters-and-roles:the_family_of_the_tsaddik",
+     "scope": "span",
+     "quotes": [
+      "פני מורי דודי"
+     ],
+     "confidence": 1,
+     "why": "The narrator is the master's nephew; an uncle is not strictly immediate family.",
+     "quotes_failed": false
+    },
+    {
+     "tag": "supernatural:perception",
+     "scope": "span",
+     "quotes": [
+      "והבין זה מורי והחזיר פניו לכותל"
+     ],
+     "confidence": 1,
+     "why": "The master perceives the disciple's fright.",
+     "quotes_failed": false
+    },
+    {
+     "tag": "folkloristics:story_type_virtues",
+     "scope": "story",
+     "quotes": [],
+     "confidence": 1,
+     "why": "The tale praises the master's holiness.",
+     "quotes_failed": false
+    }
+   ],
+   "missing_concepts": [
+    "the radiant 'garment' of the righteous (Zohar lavush) as a frame",
+    "the tzaddik concealing his radiance out of consideration for the onlooker",
+    "first-person memorate"
+   ],
+   "start_quote_found": true,
+   "end_quote_found": true
+  }
+ ],
+ "check": {
+  "non_vocab_tags": [],
+  "quotes": 10,
+  "quotes_not_found": 0
+ },
+ "id": "Eser-Kedushot_0036",
+ "chars": 373,
+ "seconds": 17
+}

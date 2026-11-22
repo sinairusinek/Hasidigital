@@ -1,0 +1,162 @@
+{
+ "unit": {
+  "kind": "several_stories",
+  "why": "Two separate short anecdotes about R. Levi Yitzhak of Berdichev, each cited from a different book: R. Barukh of Medzhybizh's mockery of him, and his sleepless night before taking the lulav.",
+  "boundary_note": ""
+ },
+ "stories": [
+  {
+   "k": 1,
+   "start_quote": "שמענו בבירור שקה״ק רבי׳ ברוך נ״ע ממעזבוז",
+   "end_quote": "ועשה זה לטובתו להמתיק והבן",
+   "hasidic": true,
+   "summary_en": "R. Barukh of Medzhybizh used to mock R. Levi Yitzhak of Berdichev; after Levi Yitzhak's death he explained that he did it to protect him, because the heavenly seraphim envied his great love and awe of God.",
+   "tags": [
+    {
+     "tag": "social:inter_hasidic_conflict_between_tsaddikim",
+     "scope": "span",
+     "quotes": [
+      "הי׳ דרכו לצחוק ולהלעיג מאוד מהגה״ק ר׳ לוי יצחק"
+     ],
+     "confidence": 2,
+     "why": "One tzaddik habitually mocks another; the hostility turns out to be only apparent.",
+     "quotes_failed": false
+    },
+    {
+     "tag": "characters-and-roles:angels",
+     "scope": "span",
+     "quotes": [
+      "ששרפי מעלה היו מתקנאים בו"
+     ],
+     "confidence": 3,
+     "why": "The seraphim envy Levi Yitzhak.",
+     "quotes_failed": false
+    },
+    {
+     "tag": "social:retrospective_recognition",
+     "scope": "span",
+     "quotes": [
+      "ואחר פטירתו אמר שעשה זה מפני"
+     ],
+     "confidence": 3,
+     "why": "The true reason for the mockery is revealed only after Levi Yitzhak's death.",
+     "quotes_failed": false
+    },
+    {
+     "tag": "practice:protection",
+     "scope": "span",
+     "quotes": [
+      "ועשה זה לטובתו להמתיק והבן"
+     ],
+     "confidence": 2,
+     "why": "The mockery was meant to sweeten judgment and shield him from heavenly envy.",
+     "quotes_failed": false
+    },
+    {
+     "tag": "ethics-and-emotions:awe",
+     "scope": "span",
+     "quotes": [
+      "מגודל אהבתו ויראהו"
+     ],
+     "confidence": 2,
+     "why": "Levi Yitzhak's awe of God is the cause of the heavenly envy.",
+     "quotes_failed": false
+    },
+    {
+     "tag": "folkloristics:story_type_virtues",
+     "scope": "story",
+     "quotes": [],
+     "confidence": 2,
+     "why": "The tale is told under the heading of Levi Yitzhak's greatness.",
+     "quotes_failed": false
+    },
+    {
+     "tag": "practice:joke",
+     "scope": "span",
+     "quotes": [
+      "לצחוק ולהלעיג מאוד"
+     ],
+     "confidence": 1,
+     "why": "A tzaddik's deliberate ridicule of another.",
+     "quotes_failed": false
+    }
+   ],
+   "missing_concepts": [
+    "heavenly envy of a tzaddik",
+    "apparent disrespect as concealed protection"
+   ],
+   "start_quote_found": true,
+   "end_quote_found": true
+  },
+  {
+   "k": 2,
+   "start_quote": "בעת שהי׳ מגיע למצות לולב ואתרוג",
+   "end_quote": "לידי ולברך עליהם עכ״ל",
+   "hasidic": true,
+   "summary_en": "Before the commandment of lulav and etrog, Levi Yitzhak of Berdichev stayed awake all night, roaring like a lion, dancing and rejoicing in longing for the moment he would take them and say the blessing.",
+   "tags": [
+    {
+     "tag": "times:holidays",
+     "scope": "span",
+     "quotes": [
+      "למצות לולב ואתרוג"
+     ],
+     "confidence": 3,
+     "why": "The scene is the night before the lulav commandment on Sukkot.",
+     "quotes_failed": false
+    },
+    {
+     "tag": "practice:dance",
+     "scope": "span",
+     "quotes": [
+      "ושאג כארי ורקד ושמח"
+     ],
+     "confidence": 3,
+     "why": "He danced all night.",
+     "quotes_failed": false
+    },
+    {
+     "tag": "ethics-and-emotions:joy",
+     "scope": "span",
+     "quotes": [
+      "ושאג כארי ורקד ושמח"
+     ],
+     "confidence": 3,
+     "why": "Religious joy in the commandment.",
+     "quotes_failed": false
+    },
+    {
+     "tag": "experience:enthusiasm",
+     "scope": "span",
+     "quotes": [
+      "היה נעור כל הלילה ושאג כארי"
+     ],
+     "confidence": 3,
+     "why": "Burning fervor: roaring and staying up all night.",
+     "quotes_failed": false
+    },
+    {
+     "tag": "folkloristics:story_type_virtues",
+     "scope": "story",
+     "quotes": [],
+     "confidence": 2,
+     "why": "The tale illustrates his love of the commandments.",
+     "quotes_failed": false
+    }
+   ],
+   "missing_concepts": [
+    "longing for a commandment (hiddur mitzvah)"
+   ],
+   "start_quote_found": true,
+   "end_quote_found": true
+  }
+ ],
+ "check": {
+  "non_vocab_tags": [],
+  "quotes": 10,
+  "quotes_not_found": 0
+ },
+ "id": "Shaarei-Haemuna_0071",
+ "chars": 469,
+ "seconds": 21
+}

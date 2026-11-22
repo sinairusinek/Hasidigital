@@ -1,0 +1,130 @@
+{
+ "unit": {
+  "kind": "non_hasidic_story",
+  "why": "A single narrative, copied from Emek HaMelekh, about the Ari, R. Hayyim Vital and the young R. Shmuel de Uzeda; it illustrates the preceding homily that 'one who comes to purify himself is helped'.",
+  "boundary_note": "the story illustrates the homiletic passage that ends the previous division"
+ },
+ "stories": [
+  {
+   "k": 1,
+   "start_quote": "וכן אירע מעשה בזמן אור שבעת הימים",
+   "end_quote": "כל ארחות ה׳ חסד ואמת וגו'",
+   "hasidic": false,
+   "summary_en": "The Ari rises before the young Shmuel de Uzeda because the soul of R. Pinhas ben Yair has entered him in ibbur; R. Hayyim Vital learns that Shmuel had that morning given his own clothes to a family stripped by night thieves.",
+   "tags": [
+    {
+     "tag": "not-a-hasidic-story:hagiography",
+     "scope": "story",
+     "quotes": [],
+     "confidence": 3,
+     "why": "Praises the Ari and his circle and is copied from Emek HaMelekh.",
+     "quotes_failed": false
+    },
+    {
+     "tag": "supernatural:reincarnation",
+     "scope": "span",
+     "quotes": [
+      "שנשמתו נתלבשת היום הזה בזה הבחור",
+      "ובעבור זאת המצוה זכה שנתלבשה בו נשמת רבי פנחס בן יאיר"
+     ],
+     "confidence": 3,
+     "why": "Ibbur: a righteous soul enters the young man.",
+     "quotes_failed": false
+    },
+    {
+     "tag": "supernatural:perception",
+     "scope": "span",
+     "quotes": [
+      "לרבי פנחס בן יאיר כבדתי שנכנס עמו מעל ראשו"
+     ],
+     "confidence": 3,
+     "why": "The Ari sees the soul accompanying the young man.",
+     "quotes_failed": false
+    },
+    {
+     "tag": "ethics-and-emotions:charity",
+     "scope": "span",
+     "quotes": [
+      "ופשטתי את מלבושי מעלי והלבשתים לבעל הבית"
+     ],
+     "confidence": 3,
+     "why": "He clothes the robbed family.",
+     "quotes_failed": false
+    },
+    {
+     "tag": "ethics-and-emotions:virtues",
+     "scope": "span",
+     "quotes": [
+      "לגמול חסד עם האמללים והנדכתים"
+     ],
+     "confidence": 2,
+     "why": "Lovingkindness is the virtue being praised.",
+     "quotes_failed": false
+    },
+    {
+     "tag": "practice:clothing",
+     "scope": "span",
+     "quotes": [
+      "והלבשתי בגדי שבת והנך רואה בעיניך שאני לבוש בגדי שבת"
+     ],
+     "confidence": 2,
+     "why": "His Sabbath clothes on a weekday prove the deed.",
+     "quotes_failed": false
+    },
+    {
+     "tag": "social:retrospective_recognition",
+     "scope": "span",
+     "quotes": [
+      "קם ורדף אחרי רבי שמואל ע״ה לשאול לו אם צדקו דברי הרב"
+     ],
+     "confidence": 2,
+     "why": "Vital checks and confirms the hidden reason for the Ari's honor.",
+     "quotes_failed": false
+    },
+    {
+     "tag": "social:inter_hasidic_master_disciple_relationship",
+     "scope": "span",
+     "quotes": [
+      "וחזר לרבו וסיפר לו המעשה"
+     ],
+     "confidence": 1,
+     "why": "The bond between the Ari and his disciple Vital frames the story; the relationship is not Hasidic.",
+     "quotes_failed": false
+    },
+    {
+     "tag": "not-a-hasidic-story:sermon",
+     "scope": "span",
+     "quotes": [
+      "זאת סוד הבא לטהר מסייעין אותו מלמעלה"
+     ],
+     "confidence": 2,
+     "why": "The tale sits inside a homiletic explanation of a rabbinic saying.",
+     "quotes_failed": false
+    },
+    {
+     "tag": "folkloristics:story_type_virtues",
+     "scope": "story",
+     "quotes": [],
+     "confidence": 2,
+     "why": "The tale exemplifies the virtue of lovingkindness.",
+     "quotes_failed": false
+    }
+   ],
+   "missing_concepts": [
+    "ibbur (temporary soul impregnation) as distinct from gilgul",
+    "theft / night robbery",
+    "rising in honor before a person"
+   ],
+   "start_quote_found": true,
+   "end_quote_found": true
+  }
+ ],
+ "check": {
+  "non_vocab_tags": [],
+  "quotes": 9,
+  "quotes_not_found": 0
+ },
+ "id": "Shaarei-Haemuna_0061",
+ "chars": 1893,
+ "seconds": 23
+}

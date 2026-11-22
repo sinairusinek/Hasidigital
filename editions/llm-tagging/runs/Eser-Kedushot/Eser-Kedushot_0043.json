@@ -1,0 +1,145 @@
+{
+ "unit": {
+  "kind": "hasidic_story",
+  "why": "A single narrative: at a wedding in Kalev, R. Zvi Hirsh of Zhidachov arrives in Hungary, the hasidim leave the other tzaddikim to greet him, and he placates them, which leads to a match between the families.",
+  "boundary_note": "next division (לה) continues the motif of the sign on the governor's forehead"
+ },
+ "stories": [
+  {
+   "k": 1,
+   "start_quote": "בעת עשה הרב האלקי מו\"ה יצחק אייזיק",
+   "end_quote": "כמבואר במגלת יוחסין שלנו",
+   "hasidic": true,
+   "summary_en": "At a wedding hosted by R. Yitzhak Isaac of Kalev in Hungary, the hasidim abandon the assembled tzaddikim to greet the arriving R. Zvi Hirsh; he senses their offense, forces his way into their lodging, apologizes and explains that he knows the governor of the land (by a scar on his forehead), and they forgive him; a match between the two families follows.",
+   "tags": [
+    {
+     "tag": "social:marriage",
+     "scope": "span",
+     "quotes": [
+      "עשה הרב האלקי מו\"ה יצחק אייזיק טוב מקאהלוב במדינת הגר נישואין",
+      "ונתקשר אז השידך"
+     ],
+     "confidence": 3,
+     "why": "wedding setting and resulting match",
+     "quotes_failed": false
+    },
+    {
+     "tag": "social:inter_hasidic_conflict_between_tsaddikim",
+     "scope": "span",
+     "quotes": [
+      "כי הקדושים הנ\"ל רוצים לנגוע בו לרעה",
+      "מדוע ידונו אותו שלא בפניו"
+     ],
+     "confidence": 3,
+     "why": "the tzaddikim are offended and wish to harm him",
+     "quotes_failed": false
+    },
+    {
+     "tag": "social:competition",
+     "scope": "span",
+     "quotes": [
+      "ויצאו כולם לקראת רבינו צבי ועזבו את המחו' הקדושים"
+     ],
+     "confidence": 2,
+     "why": "rivalry for the hasidim's attention",
+     "quotes_failed": false
+    },
+    {
+     "tag": "supernatural:perception",
+     "scope": "span",
+     "quotes": [
+      "והרגיש רבינו צבי בבאו העירה כי הקדושים הנ\"ל רוצים לנגוע בו לרעה"
+     ],
+     "confidence": 3,
+     "why": "he senses their intent from afar",
+     "quotes_failed": false
+    },
+    {
+     "tag": "practice:the_travels_of_the_tsaddik",
+     "scope": "span",
+     "quotes": [
+      "איך מלאו לבו לבא למדינה כזו קוממיות"
+     ],
+     "confidence": 3,
+     "why": "his journey into Hungary is the issue",
+     "quotes_failed": false
+    },
+    {
+     "tag": "social:inter_hasidic",
+     "scope": "span",
+     "quotes": [
+      "החסיד המפורסם ר׳ בער מסיסקיו ז\"ל בקול רם מבשר"
+     ],
+     "confidence": 2,
+     "why": "hasidim and tzaddikim interacting at the wedding",
+     "quotes_failed": false
+    },
+    {
+     "tag": "characters-and-roles:the_family_of_the_tsaddik",
+     "scope": "span",
+     "quotes": [
+      "לקח בת רבינו צבי בתו הצדיקת מרת ריזל ע\"ה"
+     ],
+     "confidence": 3,
+     "why": "sons and daughters of the tzaddikim matched",
+     "quotes_failed": false
+    },
+    {
+     "tag": "women:mention_only",
+     "scope": "span",
+     "quotes": [
+      "בתו הצדיקת מרת ריזל ע\"ה"
+     ],
+     "confidence": 3,
+     "why": "daughter is named only as bride",
+     "quotes_failed": false
+    },
+    {
+     "tag": "ethics-and-emotions:humility",
+     "scope": "span",
+     "quotes": [
+      "והתחיל להתנצל מדוע ידונו אותו שלא בפניו"
+     ],
+     "confidence": 2,
+     "why": "he humbly apologizes to the offended tzaddikim",
+     "quotes_failed": false
+    },
+    {
+     "tag": "ethics-and-emotions:shame",
+     "scope": "span",
+     "quotes": [
+      "כי נשארו יחידים ביתה נחלש דעתם"
+     ],
+     "confidence": 2,
+     "why": "the hosts feel slighted when left alone",
+     "quotes_failed": false
+    },
+    {
+     "tag": "social:relations_with_the_authorities",
+     "scope": "span",
+     "quotes": [
+      "אם אני מכיר את השר ממדינה זו",
+      "וסימן שיש לו חריץ על מצחו"
+     ],
+     "confidence": 2,
+     "why": "his knowledge of the governor of the land justifies his coming",
+     "quotes_failed": false
+    }
+   ],
+   "missing_concepts": [
+    "offense or slight among tzaddikim and their reconciliation",
+    "a tzaddik's spiritual 'territory' or jurisdiction over a country"
+   ],
+   "start_quote_found": true,
+   "end_quote_found": true
+  }
+ ],
+ "check": {
+  "non_vocab_tags": [],
+  "quotes": 14,
+  "quotes_not_found": 0
+ },
+ "id": "Eser-Kedushot_0043",
+ "chars": 1046,
+ "seconds": 15
+}

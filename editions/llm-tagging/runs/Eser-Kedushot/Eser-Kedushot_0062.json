@@ -1,0 +1,100 @@
+{
+ "unit": {
+  "kind": "hasidic_story",
+  "why": "A brief self-reported anecdote: R. Zvi says he would have surpassed a seraph, but his mother ate gentile-cooked cabbage while pregnant with him, which held back his soul's rise.",
+  "boundary_note": ""
+ },
+ "stories": [
+  {
+   "k": 1,
+   "start_quote": "אמר על עצמו פעם אחת שהי׳ מגיע",
+   "end_quote": "שלא הגיע למעלה זו [בס׳ רחמי האב]",
+   "hasidic": true,
+   "summary_en": "R. Zvi once said that his great soul would have risen above a seraph, but because his mother, while pregnant with him, craved and ate a little cold cabbage cooked by gentiles, he did not reach that level.",
+   "tags": [
+    {
+     "tag": "characters-and-roles:the_family_of_the_tsaddik",
+     "scope": "span",
+     "quotes": [
+      "רק שאמו הצדיקת בימי עיבורה עמו"
+     ],
+     "confidence": 3,
+     "why": "The tzaddik's mother is the subject of the anecdote.",
+     "quotes_failed": false
+    },
+    {
+     "tag": "women:catalyst_character",
+     "scope": "span",
+     "quotes": [
+      "התאוה תאוה ואכלה מעט כרוב צונן"
+     ],
+     "confidence": 3,
+     "why": "The mother's act during pregnancy explains the outcome.",
+     "quotes_failed": false
+    },
+    {
+     "tag": "ethics-and-emotions:lust",
+     "scope": "span",
+     "quotes": [
+      "התאוה תאוה ואכלה מעט כרוב צונן"
+     ],
+     "confidence": 2,
+     "why": "A craving for food is what leads her to eat it.",
+     "quotes_failed": false
+    },
+    {
+     "tag": "ethics-and-emotions:prohibitions",
+     "scope": "span",
+     "quotes": [
+      "ואכלה מעט כרוב צונן מתביות עכו״ם"
+     ],
+     "confidence": 3,
+     "why": "Eating food cooked by gentiles (bishul akum) is forbidden.",
+     "quotes_failed": false
+    },
+    {
+     "tag": "practice:halakhah",
+     "scope": "span",
+     "quotes": [
+      "מתביות עכו״ם זאת גרם לו"
+     ],
+     "confidence": 1,
+     "why": "Gentile cooking as a point of law has spiritual consequences.",
+     "quotes_failed": false
+    },
+    {
+     "tag": "times:birth",
+     "scope": "span",
+     "quotes": [
+      "בימי עיבורה עמו התאוה תאוה"
+     ],
+     "confidence": 1,
+     "why": "Concerns the pregnancy before the tzaddik's birth.",
+     "quotes_failed": false
+    },
+    {
+     "tag": "folkloristics:story_type_birth_of_the_tsaddik",
+     "scope": "story",
+     "quotes": [],
+     "confidence": 1,
+     "why": "The tale turns on the pregnancy and the soul of the tzaddik before his birth.",
+     "quotes_failed": false
+    }
+   ],
+   "missing_concepts": [
+    "prenatal influence of the mother's diet on the child's soul",
+    "levels of the soul (מדרגת נשמה) compared to angels/seraphim"
+   ],
+   "start_quote_found": true,
+   "end_quote_found": true
+  }
+ ],
+ "check": {
+  "non_vocab_tags": [],
+  "quotes": 6,
+  "quotes_not_found": 0
+ },
+ "id": "Eser-Kedushot_0062",
+ "chars": 186,
+ "seconds": 14
+}

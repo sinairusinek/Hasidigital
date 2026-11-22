@@ -1,6 +1,6 @@
 """Run the topic tagger (tagger.py) on every division of one edition (PIPELINE.md step 12).
 
-Usage: python3 editions/llm-tagging/tag_edition.py EDITION.xml [--max-chars 30000] [--only DIV_ID ...]
+Usage: python3 editions/llm-tagging/tag_edition.py EDITION.xml [--max-chars 30000] [--non-story-only] [--only DIV_ID ...]
 
 One `claude -p` call per division (Max plan, Opus 5.5, as in the calibration). Results are
 cached as JSON in editions/llm-tagging/runs/{slug}/{division}.json, so a run can be resumed
@@ -79,6 +79,8 @@ def main():
     for i, (did, d) in enumerate(divs):
         if only and did not in only:
             continue
+        if '--non-story-only' in sys.argv and d.get('type') == 'story':
+            continue  # curated editions: look only for stories hidden in paratext
         f = runs / f'{did}.json'
         if f.exists():
             continue

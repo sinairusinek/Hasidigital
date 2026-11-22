@@ -1,0 +1,110 @@
+{
+ "unit": {
+  "kind": "hasidic_story",
+  "why": "A short anecdote, reported by R. Yitzhak of Radoshitz (?) via 'ושמעתי', in which the Seer of Lublin's household delays his meal and he deliberately refrains from anger, plus that rabbi's Yiddish comment on it.",
+  "boundary_note": "Embedded in an ethical compilation on anger and pride; previous and next divisions are teachings on the same theme."
+ },
+ "stories": [
+  {
+   "k": 1,
+   "start_quote": "ושמעתי מפ״ק הגאון מוהרי״צ מראודל איך",
+   "end_quote": "משא ומתן ניט פרליכען. (ר״א אות י״א)",
+   "hasidic": true,
+   "summary_en": "The Seer of Lublin asked his household to serve supper early so he could rise early for a great spiritual task; they served it even later, ruining his plan, yet he reasoned that his purpose was God's will and that God's will also forbids anger, so he did not grow angry.",
+   "tags": [
+    {
+     "tag": "ethics-and-emotions:anger",
+     "scope": "span",
+     "quotes": [
+      "מהראוי לו לכעוס על בני ביתו",
+      "גם זה רצון קוני שלא אכעוס"
+     ],
+     "confidence": 3,
+     "why": "The story turns on a justified provocation to anger that the tzaddik overcomes.",
+     "quotes_failed": false
+    },
+    {
+     "tag": "characters-and-roles:the_family_of_the_tsaddik",
+     "scope": "span",
+     "quotes": [
+      "וצוה לבני ביתו שיקדימו לו סעודת הלילה",
+      "והם לא די שלא הקדימו אלא אדרבא איחרו"
+     ],
+     "confidence": 3,
+     "why": "His household delays the meal and so triggers the plot.",
+     "quotes_failed": false
+    },
+    {
+     "tag": "folkloristics:story_type_virtues",
+     "scope": "story",
+     "quotes": [],
+     "confidence": 3,
+     "why": "The tale illustrates the Seer's self-restraint and freedom from anger.",
+     "quotes_failed": false
+    },
+    {
+     "tag": "ethics-and-emotions:virtues",
+     "scope": "span",
+     "quotes": [
+      "גם זה רצון קוני שלא אכעוס"
+     ],
+     "confidence": 2,
+     "why": "Restraint from anger is shown as a virtue.",
+     "quotes_failed": false
+    },
+    {
+     "tag": "ethics-and-emotions:resisting_temptation",
+     "scope": "span",
+     "quotes": [
+      "גם זה רצון קוני שלא אכעוס"
+     ],
+     "confidence": 1,
+     "why": "He resists the impulse to become angry.",
+     "quotes_failed": false
+    },
+    {
+     "tag": "not-a-hasidic-story:virtues",
+     "scope": "story",
+     "quotes": [],
+     "confidence": 2,
+     "why": "It sits inside an ethical compilation on avoiding anger and serves as an exemplary lesson.",
+     "quotes_failed": false
+    },
+    {
+     "tag": "practice:storytelling",
+     "scope": "span",
+     "quotes": [
+      "ושמעתי מפ״ק הגאון מוהרי״צ מראודל איך"
+     ],
+     "confidence": 1,
+     "why": "Framed as a tale told by a named tzaddik, who adds his own Yiddish comment.",
+     "quotes_failed": false
+    },
+    {
+     "tag": "women:mention_only",
+     "scope": "span",
+     "quotes": [
+      "וצוה לבני ביתו שיקדימו לו"
+     ],
+     "confidence": 1,
+     "why": "'Household' implies women who prepare the meal, but none is named or acts individually.",
+     "quotes_failed": false
+    }
+   ],
+   "missing_concepts": [
+    "a tzaddik's plan for a spiritual task (tikkun) frustrated by mundane circumstances",
+    "reasoning that accepting the frustration is itself God's will"
+   ],
+   "start_quote_found": true,
+   "end_quote_found": true
+  }
+ ],
+ "check": {
+  "non_vocab_tags": [],
+  "quotes": 8,
+  "quotes_not_found": 0
+ },
+ "id": "Shaarei-Haemuna_0032",
+ "chars": 476,
+ "seconds": 16
+}

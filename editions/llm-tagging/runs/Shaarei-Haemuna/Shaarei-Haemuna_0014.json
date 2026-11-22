@@ -1,0 +1,122 @@
+{
+ "unit": {
+  "kind": "hasidic_story",
+  "why": "An eyewitness anecdote, quoted from Eretz ha-Hayyim, about the rabbi of Zlotchov: he sensed that a chicken was treif although the question put to him showed nothing wrong, and it later proved treif on other grounds.",
+  "boundary_note": ""
+ },
+ "stories": [
+  {
+   "k": 1,
+   "start_quote": "אגב אזכיר כאן דבר נפלא אחד",
+   "end_quote": "הוא ג״כ תפלה בפ״ע עכ״ל",
+   "hasidic": true,
+   "summary_en": "A boy brings intestines of a fowl to the rabbi of Zlotchov with a question. The rabbi argues to forbid it although the narrator finds no ground, and admits that his mouth will not say 'kosher'. The chicken is fetched and found to have a disqualifying wound. The rabbi then explains R. Nehunya ben ha-Kanah's prayer not to call the impure pure.",
+   "tags": [
+    {
+     "tag": "practice:halakhah",
+     "scope": "span",
+     "quotes": [
+      "והתחיל לצדד בה צד איסור ואמר כמה צדדים",
+      "מכה אשר כתובה ומטרפה בא התרנגולת"
+     ],
+     "confidence": 3,
+     "why": "the case turns on a ruling about kashrut (treifah)",
+     "quotes_failed": false
+    },
+    {
+     "tag": "ethics-and-emotions:prohibitions",
+     "scope": "span",
+     "quotes": [
+      "שאין כאן שום צד ונדנוד איסור"
+     ],
+     "confidence": 2,
+     "why": "whether the food is forbidden is the issue",
+     "quotes_failed": false
+    },
+    {
+     "tag": "supernatural:perception",
+     "scope": "span",
+     "quotes": [
+      "אין פי רוצה לומר על תרנגולת זו כשרה",
+      "ולבי נוטה לומר בה טרפה"
+     ],
+     "confidence": 3,
+     "why": "the tzaddik intuits a hidden defect",
+     "quotes_failed": false
+    },
+    {
+     "tag": "social:retrospective_recognition",
+     "scope": "span",
+     "quotes": [
+      "והנה בה מכה גדולה",
+      "ותמהתי על המראה מאד מאד"
+     ],
+     "confidence": 3,
+     "why": "the narrator realizes afterwards why the rabbi hesitated",
+     "quotes_failed": false
+    },
+    {
+     "tag": "practice:sermon",
+     "scope": "span",
+     "quotes": [
+      "איך שאדם צריך להתפלל תפלת רבב״ה שלא אומר על טמא טהור"
+     ],
+     "confidence": 2,
+     "why": "the rabbi interprets a liturgical text",
+     "quotes_failed": false
+    },
+    {
+     "tag": "practice:torat_ha_tsaddik",
+     "scope": "span",
+     "quotes": [
+      "וראיתי אשר אין הקב״ה מביא תקלה ע״י צדיקים"
+     ],
+     "confidence": 2,
+     "why": "the lesson is about divine protection of the tzaddik from error",
+     "quotes_failed": false
+    },
+    {
+     "tag": "practice:prayer",
+     "scope": "span",
+     "quotes": [
+      "לא על טמא טהור הוא ג״כ תפלה בפ״ע"
+     ],
+     "confidence": 1,
+     "why": "prayer is discussed, not depicted",
+     "quotes_failed": false
+    },
+    {
+     "tag": "folkloristics:story_type_virtues",
+     "scope": "story",
+     "quotes": [],
+     "confidence": 2,
+     "why": "illustrates the tzaddik's holiness as a halakhic decisor",
+     "quotes_failed": false
+    },
+    {
+     "tag": "characters-and-roles:ritual_slaughterer",
+     "scope": "story",
+     "quotes": [],
+     "confidence": 1,
+     "why": "only the kashrut setting suggests a shochet, who does not appear; borderline at best",
+     "quotes_failed": false
+    }
+   ],
+   "missing_concepts": [
+    "tzaddik as halakhic decisor (moreh hora'ah) and divine guidance in rulings",
+    "eyewitness narrator (memorate)",
+    "the boy who brings the question to the rabbi (minor male character)"
+   ],
+   "start_quote_found": true,
+   "end_quote_found": true
+  }
+ ],
+ "check": {
+  "non_vocab_tags": [],
+  "quotes": 10,
+  "quotes_not_found": 0
+ },
+ "id": "Shaarei-Haemuna_0014",
+ "chars": 1362,
+ "seconds": 18
+}

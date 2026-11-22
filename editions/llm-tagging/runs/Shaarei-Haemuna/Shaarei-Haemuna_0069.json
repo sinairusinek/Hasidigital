@@ -1,0 +1,72 @@
+{
+ "unit": {
+  "kind": "hasidic_story",
+  "why": "A brief anecdote, quoted from the book Toldot Adam, in which the Besht opens a window and sees a great light over a dunghill from a tzaddik of centuries ago, followed by a short homiletic conclusion.",
+  "boundary_note": ""
+ },
+ "stories": [
+  {
+   "k": 1,
+   "start_quote": "ובס׳ תולדות אדם רמזי פסח כ׳",
+   "end_quote": "ואין שום דבר יכול לכבותה עכ״ל",
+   "hasidic": true,
+   "summary_en": "The Besht, while somewhere, opened a window and said he saw a great light over a dunghill, coming from a tzaddik of several hundred years earlier; the lesson drawn is that the holiness of Israel endures and cannot be extinguished.",
+   "tags": [
+    {
+     "tag": "supernatural:perception",
+     "scope": "span",
+     "quotes": [
+      "ופתח החלון ואמר שרואה אור גדול"
+     ],
+     "confidence": 3,
+     "why": "The Besht sees a light that is invisible to others.",
+     "quotes_failed": false
+    },
+    {
+     "tag": "supernatural:light_or_fire_as_a_sign_of_righteousness",
+     "scope": "span",
+     "quotes": [
+      "אור גדול מצדיק אחד מכמה מאות שנים"
+     ],
+     "confidence": 3,
+     "why": "A great light emanates from a long-dead tzaddik as a sign of his holiness.",
+     "quotes_failed": false
+    },
+    {
+     "tag": "experience:visions",
+     "scope": "span",
+     "quotes": [
+      "שרואה אור גדול מצדיק אחד"
+     ],
+     "confidence": 2,
+     "why": "He has a waking supernatural sight.",
+     "quotes_failed": false
+    },
+    {
+     "tag": "not-a-hasidic-story:sermon",
+     "scope": "span",
+     "quotes": [
+      "מזה אנו רואים שעצם קדושת ישראל קיימת"
+     ],
+     "confidence": 1,
+     "why": "The anecdote is quoted inside a homiletic frame that draws a lesson from it.",
+     "quotes_failed": false
+    }
+   ],
+   "missing_concepts": [
+    "holiness persisting in an impure place (dunghill)",
+    "the enduring holiness of Israel"
+   ],
+   "start_quote_found": true,
+   "end_quote_found": true
+  }
+ ],
+ "check": {
+  "non_vocab_tags": [],
+  "quotes": 4,
+  "quotes_not_found": 0
+ },
+ "id": "Shaarei-Haemuna_0069",
+ "chars": 218,
+ "seconds": 12
+}

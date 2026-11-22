@@ -1,0 +1,121 @@
+{
+ "unit": {
+  "kind": "saying_or_teaching",
+  "why": "An alphabetical anthology of teachings (on concealment/hypocrisy, tzitzit, Kabbalat Shabbat, the holiness of tsaddikim) quoted from the Zohar and Hasidic books; the only narrative is the talmudic tale of the man careful with tzitzit, retold inside a homily on the wedding custom.",
+  "boundary_note": "the 'holiness of tsaddikim' teaching continues into the next division"
+ },
+ "stories": [
+  {
+   "k": 1,
+   "start_quote": "מעשה באדם אחד שהי׳ זהיר במצות ציצית",
+   "end_quote": "ועכשיו נדמו עלי כארבעה עדים",
+   "hasidic": false,
+   "summary_en": "Talmudic tale (Menahot 44a), retold as part of a homily: a man careful with tzitzit goes to a costly harlot overseas, but his four fringes strike him in the face and he withdraws from the sin. The homilist uses it to explain why a bride sends the groom a tallit.",
+   "tags": [
+    {
+     "tag": "not-a-hasidic-story:sermon",
+     "scope": "story",
+     "quotes": [],
+     "confidence": 3,
+     "why": "the talmudic tale is embedded in a homily explaining a wedding custom and a verse",
+     "quotes_failed": false
+    },
+    {
+     "tag": "ethics-and-emotions:adultery",
+     "scope": "span",
+     "quotes": [
+      "נואף אשה חסר לב"
+     ],
+     "confidence": 2,
+     "why": "illicit sex with a harlot; the homily ties it to the verse on adultery",
+     "quotes_failed": false
+    },
+    {
+     "tag": "ethics-and-emotions:lust",
+     "scope": "span",
+     "quotes": [
+      "ואף הוא עלה וישב ערום כנגדה"
+     ],
+     "confidence": 3,
+     "why": "his desire for the harlot drives the plot",
+     "quotes_failed": false
+    },
+    {
+     "tag": "ethics-and-emotions:resisting_temptation",
+     "scope": "span",
+     "quotes": [
+      "באו ארבע ציצותיו וטפחו לו על פניו נשמט"
+     ],
+     "confidence": 3,
+     "why": "he withdraws from the sin at the last moment",
+     "quotes_failed": false
+    },
+    {
+     "tag": "ethics-and-emotions:prohibitions",
+     "scope": "span",
+     "quotes": [
+      "מצילתו מן החטא"
+     ],
+     "confidence": 2,
+     "why": "the tale turns on avoiding a forbidden act",
+     "quotes_failed": false
+    },
+    {
+     "tag": "supernatural:miracle",
+     "scope": "span",
+     "quotes": [
+      "באו ארבע ציצותיו וטפחו לו על פניו"
+     ],
+     "confidence": 1,
+     "why": "the fringes strike him, a quasi-miraculous event",
+     "quotes_failed": false
+    },
+    {
+     "tag": "practice:clothing",
+     "scope": "span",
+     "quotes": [
+      "שולחת לו טלית עם ד׳ ציצית"
+     ],
+     "confidence": 2,
+     "why": "the tallit and tzitzit carry religious significance",
+     "quotes_failed": false
+    },
+    {
+     "tag": "social:marriage",
+     "scope": "span",
+     "quotes": [
+      "ביום שנכנס לחופה עם בת זוגו"
+     ],
+     "confidence": 1,
+     "why": "the homily's frame concerns the wedding custom",
+     "quotes_failed": false
+    },
+    {
+     "tag": "women:major_character",
+     "scope": "span",
+     "quotes": [
+      "שמע שיש ויצה בכרכי הים"
+     ],
+     "confidence": 2,
+     "why": "the harlot is the second main character",
+     "quotes_failed": false
+    }
+   ],
+   "missing_concepts": [
+    "tzitzit as a commandment that protects from sin",
+    "prostitution",
+    "wedding custom of the bride sending a tallit"
+   ],
+   "start_quote_found": true,
+   "end_quote_found": true
+  }
+ ],
+ "check": {
+  "non_vocab_tags": [],
+  "quotes": 8,
+  "quotes_not_found": 0
+ },
+ "id": "non-story-129",
+ "chars": 3888,
+ "seconds": 17
+}

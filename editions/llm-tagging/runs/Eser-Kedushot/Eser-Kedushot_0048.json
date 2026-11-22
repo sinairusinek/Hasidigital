@@ -1,0 +1,91 @@
+{
+ "unit": {
+  "kind": "hasidic_story",
+  "why": "A short anecdote, passed on by trustworthy tellers: R. Zvi tells his brother R. Moshe of Sambor that in an earlier incarnation he was R. Ishmael ben Elisha the High Priest, and he answers his brother's question about their past relation.",
+  "boundary_note": "text ends abruptly ('והגיד לו מה') and seems truncated; the next division is a new story (מ)"
+ },
+ "stories": [
+  {
+   "k": 1,
+   "start_quote": "קבלתי ממגידי אמת שפ\"א אמר רבינו צבי",
+   "end_quote": "רק קרוב והגיד לו מה",
+   "hasidic": true,
+   "summary_en": "R. Zvi tells his brother R. Moshe of Sambor that in a former incarnation he was R. Ishmael ben Elisha the High Priest and still remembers the heavenly ascents described in Sefer Heikhalot; asked whether his brother was his brother then too, he answers that he was only a relative.",
+   "tags": [
+    {
+     "tag": "supernatural:reincarnation",
+     "scope": "span",
+     "quotes": [
+      "שבגליל אחד הי' הוא ר׳ ישמעאל בן אלישע כ\"ג"
+     ],
+     "confidence": 3,
+     "why": "R. Zvi identifies his earlier incarnation.",
+     "quotes_failed": false
+    },
+    {
+     "tag": "characters-and-roles:the_family_of_the_tsaddik",
+     "scope": "span",
+     "quotes": [
+      "אמר רבינו צבי לאחיו רבינו משה מסאמבור",
+      "והשיב לו לא אח רק קרוב"
+     ],
+     "confidence": 2,
+     "why": "His brother is the other character in the dialogue.",
+     "quotes_failed": false
+    },
+    {
+     "tag": "experience:journey_to_heaven",
+     "scope": "span",
+     "quotes": [
+      "וזוכר עוד כל העליות אשר עלה כמוזכר בס׳ היכלות"
+     ],
+     "confidence": 2,
+     "why": "He remembers the heavenly ascents of the Heikhalot tradition.",
+     "quotes_failed": false
+    },
+    {
+     "tag": "supernatural:perception",
+     "scope": "span",
+     "quotes": [
+      "וזוכר עוד כל העליות אשר עלה"
+     ],
+     "confidence": 2,
+     "why": "He has supernatural memory of a past life.",
+     "quotes_failed": false
+    },
+    {
+     "tag": "knowledge:esoteric",
+     "scope": "span",
+     "quotes": [
+      "כמוזכר בס׳ היכלות"
+     ],
+     "confidence": 1,
+     "why": "Heikhalot mystical tradition is referenced.",
+     "quotes_failed": false
+    },
+    {
+     "tag": "folkloristics:story_type_revelation",
+     "scope": "story",
+     "quotes": [],
+     "confidence": 1,
+     "why": "The tzaddik discloses the hidden identity of his soul.",
+     "quotes_failed": false
+    }
+   ],
+   "missing_concepts": [
+    "soul-root / identity of a tzaddik's soul with an ancient sage",
+    "kinship of souls across incarnations"
+   ],
+   "start_quote_found": true,
+   "end_quote_found": true
+  }
+ ],
+ "check": {
+  "non_vocab_tags": [],
+  "quotes": 6,
+  "quotes_not_found": 0
+ },
+ "id": "Eser-Kedushot_0048",
+ "chars": 230,
+ "seconds": 14
+}

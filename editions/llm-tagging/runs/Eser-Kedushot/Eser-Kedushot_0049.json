@@ -1,0 +1,219 @@
+{
+ "unit": {
+  "kind": "hasidic_story",
+  "why": "A single narrative of the death of R. Zvi (of Zidichov) in the 1831 cholera epidemic: his self-offering as atonement, the omen of the torn tzitzit, his wife's death, his illness, last words and teaching.",
+  "boundary_note": ""
+ },
+ "stories": [
+  {
+   "k": 1,
+   "start_quote": "בשנת תקצ״א בעת שלטה החולי רע",
+   "end_quote": "אור י\"א תמוז תקצ״א זיע״א",
+   "hasidic": true,
+   "summary_en": "During the 1831 cholera epidemic R. Zvi offers himself as atonement for all Israel, foresees bad news from a torn tzitzit, loses his wife to the disease, falls ill, judges his only merit to be marrying off forty orphans, laments Rashbi in Yiddish, and dies in the middle of a teaching on R. Abahu.",
+   "tags": [
+    {
+     "tag": "folkloristics:story_type_death_of_the_tsaddik",
+     "scope": "story",
+     "quotes": [],
+     "confidence": 3,
+     "why": "The narrative leads up to and centres on his deathbed and death.",
+     "quotes_failed": false
+    },
+    {
+     "tag": "times:death",
+     "scope": "span",
+     "quotes": [
+      "נפטרה זוגתו הרבנית הצדיקת מרת רחל פערל",
+      "ובאמצע הדרוש עלתה נשמתו השמימה"
+     ],
+     "confidence": 3,
+     "why": "His wife dies, and then he dies.",
+     "quotes_failed": false
+    },
+    {
+     "tag": "times:historical_event",
+     "scope": "span",
+     "quotes": [
+      "בשנת תקצ״א בעת שלטה החולי רע"
+     ],
+     "confidence": 3,
+     "why": "The 1831 cholera epidemic is the setting.",
+     "quotes_failed": false
+    },
+    {
+     "tag": "practice:pidyon_nefesh",
+     "scope": "span",
+     "quotes": [
+      "הריני כפרת כל ישראל"
+     ],
+     "confidence": 2,
+     "why": "He offers himself as atonement to avert the plague decree from Israel.",
+     "quotes_failed": false
+    },
+    {
+     "tag": "supernatural:prognostication",
+     "scope": "span",
+     "quotes": [
+      "הנה בשבוע הבאה יהי׳ איזה חדשות"
+     ],
+     "confidence": 3,
+     "why": "From the invalid tzitzit he predicts news, and his wife dies the next week.",
+     "quotes_failed": false
+    },
+    {
+     "tag": "folkloristics:story_type_prognostication",
+     "scope": "story",
+     "quotes": [],
+     "confidence": 1,
+     "why": "The omen and its fulfilment form part of the story's arc.",
+     "quotes_failed": false
+    },
+    {
+     "tag": "characters-and-roles:the_family_of_the_tsaddik",
+     "scope": "span",
+     "quotes": [
+      "נפטרה זוגתו הרבנית הצדיקת מרת רחל פערל",
+      "שאל לחתנו הקדוש מראזלא"
+     ],
+     "confidence": 3,
+     "why": "His wife and his son-in-law of Rozdol appear.",
+     "quotes_failed": false
+    },
+    {
+     "tag": "women:mention_only",
+     "scope": "span",
+     "quotes": [
+      "נפטרה זוגתו הרבנית הצדיקת מרת רחל פערל"
+     ],
+     "confidence": 2,
+     "why": "His wife's death is reported, but she does not act.",
+     "quotes_failed": false
+    },
+    {
+     "tag": "times:shabbat",
+     "scope": "span",
+     "quotes": [
+      "בשבת שאחר זה בלבשו הטלית של שבת",
+      "לשבת בשבת בסעודה שלישית כמנהגו"
+     ],
+     "confidence": 2,
+     "why": "The omen comes on Shabbat, and he misses the third Sabbath meal.",
+     "quotes_failed": false
+    },
+    {
+     "tag": "ethics-and-emotions:charity",
+     "scope": "span",
+     "quotes": [
+      "מה שהשיא ארבעים יתומים",
+      "ונתן להם נדן ומזונות על שלחנו"
+     ],
+     "confidence": 3,
+     "why": "He married off orphans and gave them dowries and board.",
+     "quotes_failed": false
+    },
+    {
+     "tag": "ethics-and-emotions:humility",
+     "scope": "span",
+     "quotes": [
+      "בדקתי כל שנותי וחפשתי מכל צד ולא מצאתי",
+      "הצדיקים אף בעולם העליון חושדין את עצמן"
+     ],
+     "confidence": 3,
+     "why": "He finds no merit in himself, and he teaches the self-doubt of the righteous.",
+     "quotes_failed": false
+    },
+    {
+     "tag": "practice:halakhah",
+     "scope": "span",
+     "quotes": [
+      "אם אדם רשאי למצוא בעצמו איזה מעלה טובה"
+     ],
+     "confidence": 2,
+     "why": "He asks whether one is permitted to find a virtue in oneself, and the answer is given according to Torah.",
+     "quotes_failed": false
+    },
+    {
+     "tag": "practice:sermon",
+     "scope": "span",
+     "quotes": [
+      "ואמר אח״כ תורה וביאר המדרש",
+      "וז״פ כל אלין דאבהו מלשון בהו"
+     ],
+     "confidence": 3,
+     "why": "His last Torah teaching, on the midrash of R. Abahu, is quoted.",
+     "quotes_failed": false
+    },
+    {
+     "tag": "practice:tefillin",
+     "scope": "span",
+     "quotes": [
+      "בעמדו עוד מעוטף בטו״ת"
+     ],
+     "confidence": 1,
+     "why": "He is wrapped in tallit and tefillin in the study hall.",
+     "quotes_failed": false
+    },
+    {
+     "tag": "spaces:beth_midrash",
+     "scope": "span",
+     "quotes": [
+      "ונמסרו לו המכתבים בבית מדרשו"
+     ],
+     "confidence": 2,
+     "why": "The opening scene takes place in his study hall.",
+     "quotes_failed": false
+    },
+    {
+     "tag": "practice:clothing",
+     "scope": "span",
+     "quotes": [
+      "ראה כי ציצה אחת נפסלה והוכרח לקחת הטלית של חול"
+     ],
+     "confidence": 2,
+     "why": "Having to wear the weekday tallit on Shabbat serves as an omen.",
+     "quotes_failed": false
+    },
+    {
+     "tag": "practice:study",
+     "scope": "span",
+     "quotes": [
+      "ווער וועט אייך נאך אזוי לערנין וויא אונז"
+     ],
+     "confidence": 1,
+     "why": "He laments that no one will study the Zohar as they did.",
+     "quotes_failed": false
+    },
+    {
+     "tag": "ethics-and-emotions:sadness",
+     "scope": "span",
+     "quotes": [
+      "והציקתהו רוחו בצערן של ישראל",
+      "התחיל לקונן בזה\"ל"
+     ],
+     "confidence": 1,
+     "why": "He grieves over Israel's suffering and laments.",
+     "quotes_failed": false
+    }
+   ],
+   "missing_concepts": [
+    "epidemic / plague (cholera)",
+    "self-sacrifice of the tsaddik as atonement (kapparah)",
+    "omens / portents",
+    "marrying off orphans (hakhnasat kallah)",
+    "Zohar / Rashbi devotion",
+    "Yiddish speech embedded in the Hebrew"
+   ],
+   "start_quote_found": true,
+   "end_quote_found": true
+  }
+ ],
+ "check": {
+  "non_vocab_tags": [],
+  "quotes": 23,
+  "quotes_not_found": 0
+ },
+ "id": "Eser-Kedushot_0049",
+ "chars": 1510,
+ "seconds": 28
+}

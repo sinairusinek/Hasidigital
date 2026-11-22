@@ -1,0 +1,140 @@
+{
+ "unit": {
+  "kind": "hasidic_story",
+  "why": "A single anecdote about R. Y.A. (a hasid of the Seer of Lublin) ransoming two Jewish girls from a Polish nobleman, raising them and marrying them off.",
+  "boundary_note": ""
+ },
+ "stories": [
+  {
+   "k": 1,
+   "start_quote": "פעם א׳ נסע דרך בית מלוכו אדון",
+   "end_quote": "והשיא אותם ופזר עליהם ממון רב",
+   "hasidic": true,
+   "summary_en": "A Polish nobleman passing through takes two little Jewish girls as lifelong servants for their father's unpaid debt. R. Y.A. takes pity on them, ransoms them at great cost, raises them as his own children with his wife, and later marries them off at great expense.",
+   "tags": [
+    {
+     "tag": "practice:pidyon_shvuyim",
+     "scope": "span",
+     "quotes": [
+      "ונכמרו רחמי הרב רי\"א הנ\"ל ופדאם בהון רב"
+     ],
+     "confidence": 3,
+     "why": "He ransoms Jewish girls held by a nobleman",
+     "quotes_failed": false
+    },
+    {
+     "tag": "practice:redemption_of_captives",
+     "scope": "span",
+     "quotes": [
+      "ונכמרו רחמי הרב רי\"א הנ\"ל ופדאם בהון רב"
+     ],
+     "confidence": 3,
+     "why": "Duplicate tag of pidyon_shvuyim with the same scope",
+     "quotes_failed": false
+    },
+    {
+     "tag": "ethics-and-emotions:charity",
+     "scope": "span",
+     "quotes": [
+      "והחזיקם על שלחנו בכל הצטרכותם כמו צאצאיו",
+      "והשיא אותם ופזר עליהם ממון רב"
+     ],
+     "confidence": 3,
+     "why": "He supports the orphaned girls and dowers them",
+     "quotes_failed": false
+    },
+    {
+     "tag": "folkloristics:story_type_virtues",
+     "scope": "story",
+     "quotes": [],
+     "confidence": 3,
+     "why": "The point of the tale is to illustrate his compassion and generosity",
+     "quotes_failed": false
+    },
+    {
+     "tag": "ethics-and-emotions:virtues",
+     "scope": "story",
+     "quotes": [],
+     "confidence": 2,
+     "why": "Compassion and kindness are the subject",
+     "quotes_failed": false
+    },
+    {
+     "tag": "social:relations_with_non_jews",
+     "scope": "span",
+     "quotes": [
+      "אדון אחד מרוסיש פולין והוליך אתו שני ילדות"
+     ],
+     "confidence": 3,
+     "why": "He deals with a Polish nobleman",
+     "quotes_failed": false
+    },
+    {
+     "tag": "social:marriage",
+     "scope": "span",
+     "quotes": [
+      "והשיא אותם ופזר עליהם ממון רב"
+     ],
+     "confidence": 2,
+     "why": "He arranges the girls' marriages",
+     "quotes_failed": false
+    },
+    {
+     "tag": "social:poverty",
+     "scope": "span",
+     "quotes": [
+      "אשר אביהם הי' חייב לו הרבה מעות ולא הי' לו לשלם"
+     ],
+     "confidence": 1,
+     "why": "The father's poverty and debt cause the girls' captivity; this is poverty as hardship, not poverty embraced as a virtue",
+     "quotes_failed": false
+    },
+    {
+     "tag": "characters-and-roles:the_family_of_the_tsaddik",
+     "scope": "span",
+     "quotes": [
+      "ואת זוגתו הצדיקת ע\"ה לאם"
+     ],
+     "confidence": 2,
+     "why": "His righteous wife serves as the girls' mother",
+     "quotes_failed": false
+    },
+    {
+     "tag": "women:catalyst_character",
+     "scope": "span",
+     "quotes": [
+      "שני ילדות קטנות מבנות ישראל"
+     ],
+     "confidence": 2,
+     "why": "The captive girls are the reason for the events, though they barely act",
+     "quotes_failed": false
+    },
+    {
+     "tag": "women:mention_only",
+     "scope": "span",
+     "quotes": [
+      "ואת זוגתו הצדיקת ע\"ה לאם"
+     ],
+     "confidence": 2,
+     "why": "His wife is referred to but does not act",
+     "quotes_failed": false
+    }
+   ],
+   "missing_concepts": [
+    "debt bondage / children seized for a debt owed to a nobleman",
+    "adoption / raising orphans",
+    "dowering brides (hakhnasat kallah)"
+   ],
+   "start_quote_found": true,
+   "end_quote_found": true
+  }
+ ],
+ "check": {
+  "non_vocab_tags": [],
+  "quotes": 10,
+  "quotes_not_found": 0
+ },
+ "id": "Eser-Kedushot_0002",
+ "chars": 386,
+ "seconds": 17
+}

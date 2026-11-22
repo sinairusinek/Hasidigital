@@ -1,0 +1,82 @@
+{
+ "unit": {
+  "kind": "hasidic_story",
+  "why": "A short narrative about R. Yitzhak Isaac Eichenstein of Safrin, a poor leaseholder who grows rich after solving a nobleman's difficult accounts with divine help.",
+  "boundary_note": "The division contains an embedded English editorial note on the genealogy ('see genealogy at the end of Esser Orot...'), which is not part of the printed text. The next division begins a new story (ב)."
+ },
+ "stories": [
+  {
+   "k": 1,
+   "start_quote": "איש יהודי הי׳ בכפר ספרין",
+   "end_quote": "הולך וגדול. וצדקתו מלאה הארץ",
+   "hasidic": true,
+   "summary_en": "R. Isaac Eichenstein of Safrin, a pious but poor leaseholder, solves within a short time a nobleman's accounts that no one else could work out; the nobleman sees this as beyond nature and rewards him with great wealth, and from then on he prospers and becomes famous.",
+   "tags": [
+    {
+     "tag": "characters-and-roles:tavern_keeper",
+     "scope": "span",
+     "quotes": [
+      "והי׳ רינדאר ופרנסתו הי' בדוחק וצמצום מאוד"
+     ],
+     "confidence": 2,
+     "why": "He is described as a rendar (arendar, leaseholder).",
+     "quotes_failed": false
+    },
+    {
+     "tag": "social:relations_with_non_jews",
+     "scope": "span",
+     "quotes": [
+      "אדון גביר אחד הי׳ צריך לעשות חשבונות קשים",
+      "וראה האדון כי אין זה דרך הטבע"
+     ],
+     "confidence": 3,
+     "why": "The plot turns on his dealings with a non-Jewish nobleman.",
+     "quotes_failed": false
+    },
+    {
+     "tag": "supernatural:miracle",
+     "scope": "span",
+     "quotes": [
+      "כי הי' השם אתו שהצליח במלאכתו",
+      "וראה האדון כי אין זה דרך הטבע"
+     ],
+     "confidence": 2,
+     "why": "His success is presented as divine help beyond nature.",
+     "quotes_failed": false
+    },
+    {
+     "tag": "ethics-and-emotions:awe",
+     "scope": "span",
+     "quotes": [
+      "ובגודל צדקתו ויראתו אין די באר"
+     ],
+     "confidence": 1,
+     "why": "His fear of Heaven is praised, though only briefly.",
+     "quotes_failed": false
+    },
+    {
+     "tag": "folkloristics:story_type_virtues",
+     "scope": "story",
+     "quotes": [],
+     "confidence": 1,
+     "why": "The opening tale praises his righteousness and the reward it brings.",
+     "quotes_failed": false
+    }
+   ],
+   "missing_concepts": [
+    "sudden enrichment / reversal from poverty to wealth through divine providence",
+    "genealogy of the tzaddik (descent from the Tosafot Yom Tov)"
+   ],
+   "start_quote_found": true,
+   "end_quote_found": true
+  }
+ ],
+ "check": {
+  "non_vocab_tags": [],
+  "quotes": 6,
+  "quotes_not_found": 0
+ },
+ "id": "Eser-Kedushot_0001",
+ "chars": 761,
+ "seconds": 13
+}

@@ -1,0 +1,160 @@
+{
+ "unit": {
+  "kind": "hasidic_story",
+  "why": "A short narrative about a holy man in 'our generation' martyred after a blood libel, who dies through devekut. It is cited from a book as an illustration within a homily on thought.",
+  "boundary_note": ""
+ },
+ "stories": [
+  {
+   "k": 1,
+   "start_quote": "הנה שמעתי שבדורנו העלילו וכו׳ דם",
+   "end_quote": "(ס׳ ע״ה בדרוש המחשבה)",
+   "hasidic": true,
+   "summary_en": "A holy man falsely accused in a blood libel fasts all week, is impaled by gentiles near the Sabbath, and sings hymns while dying. He feels no pain because of his devekut, and his soul departs through his cleaving to God rather than through the killing.",
+   "tags": [
+    {
+     "tag": "practice:devekut",
+     "scope": "span",
+     "quotes": [
+      "מרוב דביקות מחשבתו באהבה עזה ועצומה",
+      "הוא המית את עצמו ע״י דבוק מחשבתו"
+     ],
+     "confidence": 3,
+     "why": "Rapt cleaving to God makes him insensible to pain",
+     "quotes_failed": false
+    },
+    {
+     "tag": "experience:devekut",
+     "scope": "span",
+     "quotes": [
+      "ע״י דבוק מחשבתו בו ית׳ ונשארה דבוקה שם"
+     ],
+     "confidence": 3,
+     "why": "His soul cleaves to God and departs",
+     "quotes_failed": false
+    },
+    {
+     "tag": "practice:fasting",
+     "scope": "span",
+     "quotes": [
+      "כי התענה כל הששה ימים"
+     ],
+     "confidence": 3,
+     "why": "Fasted the whole week",
+     "quotes_failed": false
+    },
+    {
+     "tag": "practice:music",
+     "scope": "span",
+     "quotes": [
+      "הי' מזמר שירות ותשבחות באהבה עזה"
+     ],
+     "confidence": 3,
+     "why": "Sings hymns before his death",
+     "quotes_failed": false
+    },
+    {
+     "tag": "ethics-and-emotions:joy",
+     "scope": "span",
+     "quotes": [
+      "ומרוב שמחתו בשעשוע נשמתו העתידה"
+     ],
+     "confidence": 3,
+     "why": "Joy in his soul's coming delight",
+     "quotes_failed": false
+    },
+    {
+     "tag": "times:death",
+     "scope": "span",
+     "quotes": [
+      "וסמוך לקידוש הרגוהו"
+     ],
+     "confidence": 3,
+     "why": "His martyr's death is depicted",
+     "quotes_failed": false
+    },
+    {
+     "tag": "times:shabbat",
+     "scope": "span",
+     "quotes": [
+      "וזה הי' סמוך לליל שבת"
+     ],
+     "confidence": 2,
+     "why": "The killing takes place on Sabbath eve, near Kiddush",
+     "quotes_failed": false
+    },
+    {
+     "tag": "social:relations_with_non_jews",
+     "scope": "span",
+     "quotes": [
+      "וכסבורין הגוי׳ שע״י הריג׳ נפרדה נשמתו מגופו"
+     ],
+     "confidence": 3,
+     "why": "The gentiles are the accusers and the executioners",
+     "quotes_failed": false
+    },
+    {
+     "tag": "social:conflict",
+     "scope": "span",
+     "quotes": [
+      "העלילו וכו׳ דם שקר על איש קדוש אחד"
+     ],
+     "confidence": 2,
+     "why": "The blood libel sets him against the gentiles",
+     "quotes_failed": false
+    },
+    {
+     "tag": "ethics-and-emotions:lying",
+     "scope": "span",
+     "quotes": [
+      "העלילו וכו׳ דם שקר"
+     ],
+     "confidence": 2,
+     "why": "A false accusation",
+     "quotes_failed": false
+    },
+    {
+     "tag": "spaces:heaven",
+     "scope": "span",
+     "quotes": [
+      "העתידה לבא לאחר שעה מועט בג״ע"
+     ],
+     "confidence": 1,
+     "why": "Gan Eden appears as his soul's destination, not as a setting",
+     "quotes_failed": false
+    },
+    {
+     "tag": "not-a-hasidic-story:sermon",
+     "scope": "story",
+     "quotes": [],
+     "confidence": 2,
+     "why": "The tale is framed by a homily on thought and devekut and cited from a derush",
+     "quotes_failed": false
+    },
+    {
+     "tag": "folkloristics:story_type_virtues",
+     "scope": "story",
+     "quotes": [],
+     "confidence": 2,
+     "why": "It illustrates the martyr's love of God and devekut",
+     "quotes_failed": false
+    }
+   ],
+   "missing_concepts": [
+    "martyrdom / kiddush ha-Shem",
+    "blood libel",
+    "insensibility to pain through mystical absorption"
+   ],
+   "start_quote_found": true,
+   "end_quote_found": true
+  }
+ ],
+ "check": {
+  "non_vocab_tags": [],
+  "quotes": 12,
+  "quotes_not_found": 0
+ },
+ "id": "Shaarei-Haemuna_0072",
+ "chars": 717,
+ "seconds": 20
+}

@@ -1,0 +1,236 @@
+{
+ "unit": {
+  "kind": "hasidic_story",
+  "why": "A single narrative: R. Ozer, childless, travels to R. Zvi with a note from his father-in-law R. Feivush; R. Zvi finds the note, promises a son, and serves as sandak; the two tzaddikim then dispute who should lead the grace after meals.",
+  "boundary_note": ""
+ },
+ "stories": [
+  {
+   "k": 1,
+   "start_quote": "הרב ר' עוזר חתנו של הרה״ק ר׳ פייבוש",
+   "end_quote": "קומט זיך טאקע אייך דעס בענטשין",
+   "hasidic": true,
+   "summary_en": "The childless R. Ozer hides a seemingly disrespectful note from his father-in-law R. Feivush of Bolshovtsy; R. Zvi finds it in his pocket and explains that it holds name-combinations from the Priestly Blessing. He promises a son on condition he is sandak, and at the circumcision meal the two tzaddikim playfully dispute who should lead the zimmun.",
+   "tags": [
+    {
+     "tag": "supernatural:pregnancy",
+     "scope": "span",
+     "quotes": [
+      "הבטיח לו כעת חי׳ ולר' עוזר בן זכר",
+      "ואשת הר׳ עוזר המליטה זכר"
+     ],
+     "confidence": 3,
+     "why": "childless man's wife bears a son after the tzaddik's promise",
+     "quotes_failed": false
+    },
+    {
+     "tag": "supernatural:prognostication",
+     "scope": "span",
+     "quotes": [
+      "הבטיח לו כעת חי׳ ולר' עוזר בן זכר"
+     ],
+     "confidence": 3,
+     "why": "the promise of a son comes true",
+     "quotes_failed": false
+    },
+    {
+     "tag": "folkloristics:story_type_prognostication",
+     "scope": "story",
+     "quotes": [],
+     "confidence": 2,
+     "why": "arc of the promise and its fulfilment",
+     "quotes_failed": false
+    },
+    {
+     "tag": "supernatural:perception",
+     "scope": "span",
+     "quotes": [
+      "התחיל הקדוש רבינו צבי למשמש בכיסו של הר״ר עוזר",
+      "חמדה גנוזה זו למה הטמנת ממני"
+     ],
+     "confidence": 3,
+     "why": "R. Zvi knows of the hidden note",
+     "quotes_failed": false
+    },
+    {
+     "tag": "practice:use_of_holy_names",
+     "scope": "span",
+     "quotes": [
+      "פתקא עם אותיות משמות וצירופים היוצאים מברכת כהנים"
+     ],
+     "confidence": 3,
+     "why": "the note holds combinations of divine names",
+     "quotes_failed": false
+    },
+    {
+     "tag": "knowledge:esoteric",
+     "scope": "span",
+     "quotes": [
+      "משמות וצירופים היוצאים מברכת כהנים"
+     ],
+     "confidence": 2,
+     "why": "hidden meaning of the letters",
+     "quotes_failed": false
+    },
+    {
+     "tag": "practice:circumcision",
+     "scope": "span",
+     "quotes": [
+      "ובתנאי אשר יכבד אותו במצות סנדקאות",
+      "לפני ברכת המזון מהסעודת ברית מילה"
+     ],
+     "confidence": 3,
+     "why": "sandak honour and circumcision feast",
+     "quotes_failed": false
+    },
+    {
+     "tag": "times:birth",
+     "scope": "span",
+     "quotes": [
+      "ואשת הר׳ עוזר המליטה זכר"
+     ],
+     "confidence": 3,
+     "why": "birth of the promised son",
+     "quotes_failed": false
+    },
+    {
+     "tag": "practice:travel_to_the_tsaddik",
+     "scope": "span",
+     "quotes": [
+      "ונסע על שבת לרבינו צבי"
+     ],
+     "confidence": 3,
+     "why": "journeys to R. Zvi with his request",
+     "quotes_failed": false
+    },
+    {
+     "tag": "practice:reception_of_hasidim",
+     "scope": "span",
+     "quotes": [
+      "בעת הציע מבוקשו לפני רבינו"
+     ],
+     "confidence": 2,
+     "why": "audience with the tzaddik",
+     "quotes_failed": false
+    },
+    {
+     "tag": "characters-and-roles:the_family_of_the_tsaddik",
+     "scope": "span",
+     "quotes": [
+      "הרב ר' עוזר חתנו של הרה״ק ר׳ פייבוש"
+     ],
+     "confidence": 3,
+     "why": "son-in-law of R. Feivush",
+     "quotes_failed": false
+    },
+    {
+     "tag": "ethics-and-emotions:shame",
+     "scope": "span",
+     "quotes": [
+      "הי' בוש ונכלם למסור הפתקא הזאת"
+     ],
+     "confidence": 2,
+     "why": "ashamed to hand over the note",
+     "quotes_failed": false
+    },
+    {
+     "tag": "social:retrospective_recognition",
+     "scope": "span",
+     "quotes": [
+      "ומה יעשה חותנך אם אין שם בברכת כהנים אותיות אחרים"
+     ],
+     "confidence": 2,
+     "why": "the seemingly slighting note turns out to be meaningful",
+     "quotes_failed": false
+    },
+    {
+     "tag": "social:competition",
+     "scope": "span",
+     "quotes": [
+      "נפל ביניהם דיבורים למי שייך ברכת הזימון"
+     ],
+     "confidence": 2,
+     "why": "friendly contest between two tzaddikim over precedence",
+     "quotes_failed": false
+    },
+    {
+     "tag": "practice:halakhah",
+     "scope": "span",
+     "quotes": [
+      "למי שייך ברכת הזימון ואמר הר״ר פיבוש הלא אני כהן"
+     ],
+     "confidence": 2,
+     "why": "precedence of a kohen in zimmun",
+     "quotes_failed": false
+    },
+    {
+     "tag": "practice:joke",
+     "scope": "span",
+     "quotes": [
+      "אז איהר האלט שוין אזוי הויך קומט זיך טאקע אייך דעס בענטשין"
+     ],
+     "confidence": 2,
+     "why": "witty exchange that closes the dispute",
+     "quotes_failed": false
+    },
+    {
+     "tag": "practice:sermon",
+     "scope": "span",
+     "quotes": [
+      "הלא רש\"י אומר להגיד שבחו של אהרן שלא שינה",
+      "שלא הי' ישן שהי׳ מעורר"
+     ],
+     "confidence": 2,
+     "why": "exegesis of Rashi exchanged between the tzaddikim",
+     "quotes_failed": false
+    },
+    {
+     "tag": "characters-and-roles:messiah",
+     "scope": "span",
+     "quotes": [
+      "שכשיבא המשיח וועט זיך אהרן הכהן נאך צו לערנין"
+     ],
+     "confidence": 1,
+     "why": "messianic future invoked in the debate",
+     "quotes_failed": false
+    },
+    {
+     "tag": "times:shabbat",
+     "scope": "span",
+     "quotes": [
+      "ונסע על שבת לרבינו צבי"
+     ],
+     "confidence": 1,
+     "why": "visit is over Shabbat",
+     "quotes_failed": false
+    },
+    {
+     "tag": "women:minor_character",
+     "scope": "span",
+     "quotes": [
+      "ואשת הר׳ עוזר המליטה זכר"
+     ],
+     "confidence": 2,
+     "why": "wife gives birth, a peripheral role",
+     "quotes_failed": false
+    }
+   ],
+   "missing_concepts": [
+    "childlessness / blessing for offspring",
+    "letter of recommendation between tzaddikim",
+    "priestly status (kohen) and precedence",
+    "Yiddish dialogue embedded in Hebrew narrative"
+   ],
+   "start_quote_found": true,
+   "end_quote_found": true
+  }
+ ],
+ "check": {
+  "non_vocab_tags": [],
+  "quotes": 23,
+  "quotes_not_found": 0
+ },
+ "id": "Eser-Kedushot_0034",
+ "chars": 1601,
+ "seconds": 20
+}

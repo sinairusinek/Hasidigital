@@ -1,0 +1,146 @@
+{
+ "unit": {
+  "kind": "hasidic_story",
+  "why": "A first-person memorate, quoted from the manuscript Megillat Setarim, in which a starving child is sent by his tsaddik father to a tavern and is fed by a 'gentile' later understood to be Elijah.",
+  "boundary_note": "Fuller variant of the story told in the previous division ('סיפור הנ\"ל מאות ה׳'), but it stands on its own."
+ },
+ "stories": [
+  {
+   "k": 1,
+   "start_quote": "בכ״י קונטרס מגלת סתרים מבנו מורינו",
+   "end_quote": "לראות אליהו אלא בבלבול כזה",
+   "hasidic": true,
+   "summary_en": "The tsaddik's young son, starving after a day without food, is told by his father to go to a tavern-keeper who would never give him credit; a gentile sitting there offers him bread and brandy, and the father later explains that it was Elijah, seen only in this confused way because of the boy's sins.",
+   "tags": [
+    {
+     "tag": "characters-and-roles:elijah_the_prophet",
+     "scope": "span",
+     "quotes": [
+      "שמגודל עונותי לא זכיתי לראות אליהו"
+     ],
+     "confidence": 3,
+     "why": "The disguised gentile is revealed to be Elijah.",
+     "quotes_failed": false
+    },
+    {
+     "tag": "characters-and-roles:the_family_of_the_tsaddik",
+     "scope": "span",
+     "quotes": [
+      "ואמר לי אבי לך אל השכינת"
+     ],
+     "confidence": 3,
+     "why": "The tsaddik's son is the narrator and protagonist, and the father acts.",
+     "quotes_failed": false
+    },
+    {
+     "tag": "characters-and-roles:tavern_keeper",
+     "scope": "span",
+     "quotes": [
+      "לך אל השכינת וקח לך לאכול",
+      "שאותה השכינת לא יתנה לי"
+     ],
+     "confidence": 2,
+     "why": "The female tavern-keeper (שינקערין) is the destination; she is referred to but does not act.",
+     "quotes_failed": false
+    },
+    {
+     "tag": "supernatural:miracle",
+     "scope": "span",
+     "quotes": [
+      "רוצה אתה לחם ונתן לי הכל",
+      "וכל רואה הי' מתפלא"
+     ],
+     "confidence": 3,
+     "why": "The boy is miraculously fed by a stranger.",
+     "quotes_failed": false
+    },
+    {
+     "tag": "supernatural:perception",
+     "scope": "span",
+     "quotes": [
+      "ואח\"כ הבנתי מאבי זצ\"ל"
+     ],
+     "confidence": 2,
+     "why": "The father knows in advance and explains the hidden identity of the stranger.",
+     "quotes_failed": false
+    },
+    {
+     "tag": "supernatural:prognostication",
+     "scope": "span",
+     "quotes": [
+      "לך אל השכינת וקח לך לאכול"
+     ],
+     "confidence": 1,
+     "why": "The father's instruction implies a prediction that the boy will be fed, which comes true.",
+     "quotes_failed": false
+    },
+    {
+     "tag": "social:retrospective_recognition",
+     "scope": "span",
+     "quotes": [
+      "ואח\"כ הבנתי מאבי זצ\"ל",
+      "לא הי' לי פנאי להשכיל מה זאת"
+     ],
+     "confidence": 3,
+     "why": "Only afterwards does the boy realize that the gentile was Elijah.",
+     "quotes_failed": false
+    },
+    {
+     "tag": "social:relations_with_non_jews",
+     "scope": "span",
+     "quotes": [
+      "וישב שם גוי ותיכף אמר אלי"
+     ],
+     "confidence": 2,
+     "why": "The boy is fed by an apparent gentile.",
+     "quotes_failed": false
+    },
+    {
+     "tag": "practice:drinking_alcohol",
+     "scope": "span",
+     "quotes": [
+      "בני רוצה אתה יין שרף"
+     ],
+     "confidence": 2,
+     "why": "Brandy is offered and given to the boy.",
+     "quotes_failed": false
+    },
+    {
+     "tag": "practice:torat_ha_tsaddik",
+     "scope": "span",
+     "quotes": [
+      "והאמנתי בו והלכתי ועמדתי על הפתח"
+     ],
+     "confidence": 1,
+     "why": "The son trusts his father's instruction against all expectation.",
+     "quotes_failed": false
+    },
+    {
+     "tag": "women:mention_only",
+     "scope": "span",
+     "quotes": [
+      "שאותה השכינת לא יתנה לי"
+     ],
+     "confidence": 2,
+     "why": "The tavern-keeper woman is only referred to.",
+     "quotes_failed": false
+    }
+   ],
+   "missing_concepts": [
+    "hunger / starvation of the tsaddik's family",
+    "the child of a tsaddik as narrator (first-person memorate from a manuscript)",
+    "seeing Elijah in a degraded form because of one's sins"
+   ],
+   "start_quote_found": true,
+   "end_quote_found": true
+  }
+ ],
+ "check": {
+  "non_vocab_tags": [],
+  "quotes": 14,
+  "quotes_not_found": 0
+ },
+ "id": "Eser-Kedushot_0082",
+ "chars": 546,
+ "seconds": 20
+}

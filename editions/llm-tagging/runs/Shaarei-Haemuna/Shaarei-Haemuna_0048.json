@@ -1,0 +1,118 @@
+{
+ "unit": {
+  "kind": "hasidic_story",
+  "why": "A brief anecdote, told by the Ropshitzer, about R. Haikel of Amdur: his asceticism and study brought him no rest until he came to the Maggid of Mezritch. It is embedded in a homiletic passage on the need to cleave to the tzaddikim.",
+  "boundary_note": "part of a continuous homiletic discourse on cleaving to tzaddikim that runs from the previous division into the next; the narrative core is only the first sentence"
+ },
+ "stories": [
+  {
+   "k": 1,
+   "start_quote": "כאשר נשמע מה״ק של הה״ק מראויץ",
+   "end_quote": "להפריד הרע מן הטוב. עכ״ל.",
+   "hasidic": true,
+   "summary_en": "The Rebbe of Ropshitz told that R. Haikel of Amdur found no peace for his soul despite great self-mortification and sleepless study, until he came to the Maggid of Mezritch, where his tikkun was completed. The author uses this to argue that one must join the tzaddikim of the Besht's light.",
+   "tags": [
+    {
+     "tag": "practice:asceticism",
+     "scope": "span",
+     "quotes": [
+      "לגודל הסיגופים אשר עשה לנפשו"
+     ],
+     "confidence": 3,
+     "why": "his self-mortifications are central",
+     "quotes_failed": false
+    },
+    {
+     "tag": "practice:study",
+     "scope": "span",
+     "quotes": [
+      "והתמדת הלימוד שנדד שינה נועיניו"
+     ],
+     "confidence": 3,
+     "why": "assiduous, sleepless Torah study",
+     "quotes_failed": false
+    },
+    {
+     "tag": "practice:travel_to_the_tsaddik",
+     "scope": "span",
+     "quotes": [
+      "עד אשר זכה לבוא אל הרה״ק סבא קדישא"
+     ],
+     "confidence": 2,
+     "why": "he comes to the Maggid's court",
+     "quotes_failed": false
+    },
+    {
+     "tag": "practice:healing_of_the_soul",
+     "scope": "span",
+     "quotes": [
+      "אז נגמר תקונו וכו׳"
+     ],
+     "confidence": 3,
+     "why": "the Maggid completes the repair of his soul",
+     "quotes_failed": false
+    },
+    {
+     "tag": "practice:torat_ha_tsaddik",
+     "scope": "span",
+     "quotes": [
+      "צריך ג״כ להיות צדיק בדור כי הם יודעים לרצות ולתקן",
+      "להתחבר עמהם כי כן היתה כוונת הבריאה"
+     ],
+     "confidence": 3,
+     "why": "the doctrine that one must cleave to a tzaddik, who repairs souls",
+     "quotes_failed": false
+    },
+    {
+     "tag": "social:inter_hasidic_master_disciple_relationship",
+     "scope": "story",
+     "quotes": [],
+     "confidence": 2,
+     "why": "R. Haikel becomes the Maggid's disciple",
+     "quotes_failed": false
+    },
+    {
+     "tag": "practice:storytelling",
+     "scope": "span",
+     "quotes": [
+      "של הה״ק מראויץ זלה\"ה שסיפר המעשה"
+     ],
+     "confidence": 2,
+     "why": "framed as a tale told by the Ropshitzer",
+     "quotes_failed": false
+    },
+    {
+     "tag": "not-a-hasidic-story:sermon",
+     "scope": "story",
+     "quotes": [],
+     "confidence": 2,
+     "why": "the anecdote is wrapped in an extended homiletic frame with verse exegesis",
+     "quotes_failed": false
+    },
+    {
+     "tag": "practice:sermon",
+     "scope": "span",
+     "quotes": [
+      "כמ״ש חצון ורחום וצדיק אע״פ שהבורא ב״ה"
+     ],
+     "confidence": 2,
+     "why": "exegesis of a verse as part of the teaching",
+     "quotes_failed": false
+    }
+   ],
+   "missing_concepts": [
+    "insufficiency of solitary asceticism without a tzaddik"
+   ],
+   "start_quote_found": true,
+   "end_quote_found": true
+  }
+ ],
+ "check": {
+  "non_vocab_tags": [],
+  "quotes": 8,
+  "quotes_not_found": 0
+ },
+ "id": "Shaarei-Haemuna_0048",
+ "chars": 485,
+ "seconds": 17
+}

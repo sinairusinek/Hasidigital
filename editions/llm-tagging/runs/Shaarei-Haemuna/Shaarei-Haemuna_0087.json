@@ -1,0 +1,161 @@
+{
+ "unit": {
+  "kind": "non_hasidic_story",
+  "why": "A legend about the Ari, who learns from angels that an unlettered man's broken-hearted prayer of the alphabet ranks above his own; it is quoted from a sefer and followed by a short halakhic note from the compiler.",
+  "boundary_note": "Ends with a compiler's bracketed note (המאסף) on praying explicitly for one's household; this is not part of the story."
+ },
+ "stories": [
+  {
+   "k": 1,
+   "start_quote": "שמענו על קה״ק האריז״ל שפ\"א התפלל",
+   "end_quote": "ובאמת קב״ה לא בעי אלא לבא",
+   "hasidic": false,
+   "summary_en": "On the Days of Awe the Ari is shown by angels that a simple man in another town prays better than he does; he travels there and learns that the man, who knows only the letters from alef to yod, recited them with a broken heart and asked God to form words and combinations from them.",
+   "tags": [
+    {
+     "tag": "not-a-hasidic-story:hagiography",
+     "scope": "story",
+     "quotes": [],
+     "confidence": 2,
+     "why": "A legend about the Ari, a pre-Hasidic kabbalist, taken from an earlier book.",
+     "quotes_failed": false
+    },
+    {
+     "tag": "characters-and-roles:angels",
+     "scope": "span",
+     "quotes": [
+      "והראו לו מה״ש שיש אחד בעיר פלונית"
+     ],
+     "confidence": 3,
+     "why": "Ministering angels show the Ari the simple man.",
+     "quotes_failed": false
+    },
+    {
+     "tag": "supernatural:communicating_with_the_invisible",
+     "scope": "span",
+     "quotes": [
+      "והראו לו מה״ש שיש אחד בעיר פלונית"
+     ],
+     "confidence": 2,
+     "why": "The angels communicate a revelation to the Ari.",
+     "quotes_failed": false
+    },
+    {
+     "tag": "experience:revelation",
+     "scope": "span",
+     "quotes": [
+      "והראו לו מה״ש שיש אחד בעיר פלונית שמתפלל יותר בטוב ממנו"
+     ],
+     "confidence": 2,
+     "why": "A heavenly disclosure starts the plot.",
+     "quotes_failed": false
+    },
+    {
+     "tag": "practice:prayer",
+     "scope": "span",
+     "quotes": [
+      "התפלל בכונה מאד בימים הנוראים",
+      "כל העולם מתפללין בכונה ובקול"
+     ],
+     "confidence": 3,
+     "why": "Prayer is the subject of the story.",
+     "quotes_failed": false
+    },
+    {
+     "tag": "times:holidays",
+     "scope": "span",
+     "quotes": [
+      "מה עשית בימים הנוראים"
+     ],
+     "confidence": 3,
+     "why": "The story is set on the Days of Awe.",
+     "quotes_failed": false
+    },
+    {
+     "tag": "kabbalah:kabbalistic_terms_kavvanot",
+     "scope": "span",
+     "quotes": [
+      "התפלל בכונה מאד בימים הנוראים"
+     ],
+     "confidence": 1,
+     "why": "The Ari's prayer with kavvanah is implied, set against the simple man's.",
+     "quotes_failed": false
+    },
+    {
+     "tag": "spaces:beth_midrash",
+     "scope": "span",
+     "quotes": [
+      "וכשבאתי לביהכ״נ וראיתי"
+     ],
+     "confidence": 1,
+     "why": "The synagogue is the setting of the simple man's prayer.",
+     "quotes_failed": false
+    },
+    {
+     "tag": "ethics-and-emotions:humility",
+     "scope": "span",
+     "quotes": [
+      "ונשבר לבי בקרבי ואמרתי"
+     ],
+     "confidence": 2,
+     "why": "The man's broken heart and self-effacement are what make his prayer worthy.",
+     "quotes_failed": false
+    },
+    {
+     "tag": "ethics-and-emotions:virtues",
+     "scope": "span",
+     "quotes": [
+      "ובאמת קב״ה לא בעי אלא לבא"
+     ],
+     "confidence": 2,
+     "why": "The story's point is the value of sincerity of the heart.",
+     "quotes_failed": false
+    },
+    {
+     "tag": "characters-and-roles:hidden_righteous",
+     "scope": "span",
+     "quotes": [
+      "שיש אחד בעיר פלונית שמתפלל יותר בטוב ממנו"
+     ],
+     "confidence": 1,
+     "why": "An unknown simple man turns out to be spiritually superior; this is borderline.",
+     "quotes_failed": false
+    },
+    {
+     "tag": "social:retrospective_recognition",
+     "scope": "span",
+     "quotes": [
+      "ודבוריו פעלו למעלה יותר מתפלת האלהי האר״י ז״ל"
+     ],
+     "confidence": 2,
+     "why": "The worth of the unlearned man's prayer is recognized afterwards.",
+     "quotes_failed": false
+    },
+    {
+     "tag": "practice:the_travels_of_the_tsaddik",
+     "scope": "span",
+     "quotes": [
+      "ונסע לעיר הנ״ל וקרא להאיש"
+     ],
+     "confidence": 1,
+     "why": "The Ari travels to the man's town.",
+     "quotes_failed": false
+    }
+   ],
+   "missing_concepts": [
+    "simple (unlettered) person's prayer valued above the scholar's",
+    "prayer of the broken heart (lev nishbar)"
+   ],
+   "start_quote_found": true,
+   "end_quote_found": true
+  }
+ ],
+ "check": {
+  "non_vocab_tags": [],
+  "quotes": 13,
+  "quotes_not_found": 0
+ },
+ "id": "Shaarei-Haemuna_0087",
+ "chars": 720,
+ "seconds": 20
+}

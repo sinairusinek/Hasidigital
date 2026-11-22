@@ -26,12 +26,12 @@
 					TEI-Publisher Annotator and the XML-Planter, developed by DH-dev.com (Gil
 					Shalit).</p>
 			</publicationStmt>
-			<sourceDesc><bibl type="digital"><title>Digital scan from HebrewBooks.org</title><publisher>HebrewBooks.org</publisher><ptr target="https://hebrewbooks.org/3711" /><idno type="HebrewBooks">3711</idno><idno type="Transkribus">6577154</idno><note>Source for transcription</note></bibl><bibl type="original"><title type="main" xml:lang="he">מים רבים</title><title type="main" xml:lang="en">Maim Rabim</title><author><persName xml:lang="he">נתן נטע דונר</persName><persName xml:lang="en">Natan Netah Doner</persName></author><pubPlace xml:lang="he">ורשה</pubPlace><pubPlace xml:lang="en">Warsaw</pubPlace><date when="1899">תרנ&quot;ט</date><textLang mainLang="heb" /><idno type="HebrewBooks">3711</idno><idno type="BHB">125501</idno><idno type="Kima">953</idno><idno type="Transkribus">6577154</idno><idno type="DBid">3698</idno><idno type="work">52</idno></bibl></sourceDesc>
+			<sourceDesc><bibl type="digital"><title>Digital scan from HebrewBooks.org</title><publisher>HebrewBooks.org</publisher><ptr target="https://hebrewbooks.org/3711"/><idno type="HebrewBooks">3711</idno><idno type="Transkribus">6577154</idno><note>Source for transcription</note></bibl><bibl type="original"><title type="main" xml:lang="he">מים רבים</title><title type="main" xml:lang="en">Maim Rabim</title><author><persName xml:lang="he">נתן נטע דונר</persName><persName xml:lang="en">Natan Netah Doner</persName></author><pubPlace xml:lang="he">ורשה</pubPlace><pubPlace xml:lang="en">Warsaw</pubPlace><date when="1899">תרנ"ט</date><textLang mainLang="heb"/><idno type="HebrewBooks">3711</idno><idno type="BHB">125501</idno><idno type="Kima">953</idno><idno type="Transkribus">6577154</idno><idno type="DBid">3698</idno><idno type="work">52</idno></bibl></sourceDesc>
 		</fileDesc>
 	<revisionDesc><change when="2026-04-29">sourceDesc synced from edition-metadata.json</change><change when="2026-11-21">text repaired: Gemini correction pass replayed without the tag-stripping bug that shuffled text (58f4166); later tag edits carried over</change><change when="2026-11-21">header in the shape of the online editions; page breaks restored from the Transkribus export</change></revisionDesc></teiHeader>
 	<text>
 		<front><div type="front-matter"><p>
-					<pb facs="Maim-Rabim_0001.jpg" /><lb/>ספר
+					<pb facs="Maim-Rabim_0001.jpg"/><lb/>ספר
 					<lb/>מים רבים
 				</p>
 				<p>
@@ -40,54 +40,54 @@
 					<lb/>אשר ב<placeName>רמה</placeName>, עיר <sic correction="וקדיש">וקדש</sic> מן שמיא נחית, ה"ה הה״ק והטהור צי״ע, אשר <sic correction="האיר">האור</sic>
 					<lb/>בקדושתו בכל העולם בוצינא עילאה ויקירא עמודא דנהורא רב רבנן וחכם הרוים,
 					<lb/>נזר החסידים ועטרת הצדיקים אספקלריא המאירה דין <sic correction="גליא">גלוא</sic> רזא עמיקא וטמירא,
-					<lb/>ראש גולת <placeName>אריאל</placeName> הנערץ והנקדש בתוך רבבות אלפי ישראל ושמו הטוב הולך
+					<lb/>ראש גולת <placeName>אריאל</placeName> הנערץ והנקדש בתוך רבבות אלפי <placeName>ישראל</placeName> ושמו הטוב הולך
 					<lb/>מסוף העולם ועד סופו, א״א קדוש, חוטר מגזע אבני שיש טהור מרנא ורבנא
 					<persName><lb/>יחיאל מיכל</persName> זצוקללה״ה מ״מ דק״ק <persName>זליטשוב</persName> ושאר ק״ק. ומי״כ ב<placeName>יאמפאלא</placeName> צדיק
 					<lb/>בן צי״מ א״א קדוש המפורסים בכל העולם המוכיח ר׳ <persName>יצחק</persName> זצוקללה״ה מ״מ
 					<lb/>דק"ק ה<placeName>ארחוב</placeName> ושם מנ״כ ודק״ק <placeName>דראהביטש</placeName>, בהה״ק מוה׳ <persName>יוסף</persName> הנקרא בפי כל,
 					<lb/>איש אמת זצ״ל, בהה״ק מו״ה <persName>משה מזווירש</persName> זצ״ל שנהרג על <name type="work">קה״</name>ש, ולמעלה
-					<lb/>כמה וכמה דורות צדיקים וקדושי ישראל, והי׳ נכד הגאון הגדול בעהמ״ס <persName>אפי</persName>
+					<lb/>כמה וכמה דורות צדיקים וקדושי <placeName>ישראל</placeName>, והי׳ נכד הגאון הגדול בעהמ״ס <persName>אפי</persName>
 					<lb/>רברבי זצ״ל מגזע חסידי <placeName>פרובינצא</placeName> נכד <persName>רש״״י</persName> זצ״ל שהי׳ לו יחוס דור אחר דור
 					<lb/>עד ר״י הסנדלר ר״ג הזקן עד דהמע״ה, זי״ע ועכ״״י אמן, גם נמצא פה חידושי
-					<lb/>תורה מאביו <persName>א"א</persName> קדוש ר׳ <persName>יצחק מדראביטש</persName> ומבני הה״ק <persName>המגיד מ<placeName ana="bio" ref="#H-LOC_398">זלאטשוב</placeName></persName>,
+					<lb/>תורה מאביו <persName>א"א</persName> קדוש ר׳ <persName>יצחק מדראביטש</persName> ומבני הה״ק ה<name type="work">מגיד</name> מ<placeName>זלאטשוב</placeName>,
 					<lb/>כאשר יבואר בהקדמה :
-					<lb/>כ״ז נעתק ונאסף ע״״י הרב המאוה״ג וכו׳ כש״ת מו״ה
+					<lb/>כ״ז נעתק ונאסף ע״״י הרב המאוה<persName>״</persName>ג וכו׳ כש״ת מו״<persName>ה</persName>
 					<persName><lb/>נתן נטע הכהן</persName> האבד״ק <placeName>קאלביעל</placeName>
-					<lb/>נדפס בהוצאות של הרב ה״ה בנש״ק ר׳ <persName>פנחס מנחם</persName> שליט״א <persName>יוסטמאן</persName>
+					<lb/>נדפס בהוצאות של הרב <persName>ה</persName>״<persName>ה</persName> בנש״ק ר׳ <persName>פנחס מנחם</persName> שליט״א <persName>יוסטמאן</persName>
 					<placeName><lb/>מגור</placeName> <persName>קאלוואריע</persName>
 				</p>
 				<p>
-					<lb/>ו<placeName ref="#H-LOC_178">וארשא</placeName>
+					<lb/>ו<placeName>וארשא</placeName>
 					<lb/>שנת ברוך אתה בבאך ל<placeName>פ"ק</placeName>
-					<lb/>בדפוס א. <placeName>שריפטניססער</placeName> ב<placeName>אניפראטערסקע</placeName> No 4
+					<lb/>בדפוס <placeName>א</placeName>. <placeName>שריפטניססער</placeName> ב<placeName>אניפראטערסקע</placeName> No 4
 				</p>
 				</div></front><body>
 			<div type="non-story" ana="students-list"><p>
-					<pb facs="Maim-Rabim_0135.jpg" /><lb/>ואלה הם תלמידיו הצה״ק גדולי עולם <sic correction="המפורסמים">המפורסמם</sic> וגם אשר היו בהיכל קדשו
+					<pb facs="Maim-Rabim_0135.jpg"/><lb/>ואלה הם תלמידיו הצה״ק גדולי עולם <sic correction="המפורסמים">המפורסמם</sic> וגם אשר היו בהיכל קדשו
 					<lb/>של רבינו הק׳ ה<persName>מגיד מזלאטשוב<sic/>.</persName> זצוקלל״ה זי״ע הנודעים לנו :
 				</p>
 				<p>
-					<lb/>א) הה"ק ר׳ <persName>אברהם יהושע העשיל</persName> ממעזבוז (ס׳ אוהב ישראל ורזין דאורייתא)
+					<lb/>א) הה"ק ר׳ <persName>אברהם יהושע העשיל</persName> ממעזבוז (ס׳ אוהב <placeName>ישראל</placeName> ורזין דאורייתא)
 					<lb/>ב) הה״ק ר׳ <persName>אברהם</persName> מדרכי <placeName>מפינטשוב</placeName> (היכל הברכה תנא)
-					<lb/>ג) הה"ק ר׳ <persName>אליעזר הלוי</persName> אבד״ק <placeName>טארניגראד</placeName> (נועם מגדים מצורע)
+					<lb/>ג) הה"ק ר<persName>׳</persName> <persName>אליעזר הלוי</persName> אבד<persName>״ק</persName> <placeName>טארניגראד</placeName> (נועם מגדים מצורע)
 					<lb/>ד) הה"ק ר׳ <persName>ארון ליב</persName> אבי הה״ק ר״מ מ<placeName>פרעמישלאן</placeName> (סדר הדורות החדש)
 					<lb/>ה) הה״ק ר׳ <persName>בנימין</persName> מ״מ דק״ק <placeName>זלאזיץ</placeName> (אהבת דודים <name type="work">שיר השירים</name> בפסוק <name type="work">הגידה לי</name>)
 					<lb/>ו) הה״ק ר׳ <persName>חיים</persName> בעהמ״ס <name type="work">באר מים חיים</name> (שם בכמה מקומות)
-					<lb/>ז) הה״ק ר׳ <persName>יעקב יצחק הלוי מלובלין</persName> (דברי אמת ויקרא וזאת זכרון לפ׳ <name type="work">וישלח</name>. כותב
+					<lb/>ז) הה״ק ר׳ <persName>יעקב יצחק הלוי מלובלין</persName> (דברי אמת ויקרא וזאת זכרון <date>לפ</date>׳ <name type="work">וישלח</name>. כותב
 					<lb/>עליו מורי והקדמת ס׳ <name type="work">אוצר החיים</name> לסדר במדבר מהה״ק מ<placeName>קאמארנא</placeName>)
 					<lb/>ח) המגיד הקדוש ר׳ <persName>ישראל מקאזניץ</persName> הי׳ בהיכל קדשו (דעת <persName>משה</persName> לבנו זצ״ל במדבר)
-					<lb/>ט) <persName>יוסף</persName> האבד״ק <placeName>זמיגראד</placeName>. (<name type="work">נתיב</name> מצותיך <name type="work">שביל אמונה</name> שביל ג׳)
+					<lb/>ט) <persName>יוסף</persName> האבד<persName>״ק</persName> <placeName>זמיגראד</placeName>. (<name type="work">נתיב</name> מצותיך <name type="work">שביל אמונה</name> שביל ג׳)
 					<lb/>י) הה״ק ר׳ <persName>יוסף</persName> בעהמ״ע גנזי יוסף עה״ת הי' בהיכל קדשו (שם פ׳ אחרי)
-					<lb/>יא) הה״ק ר׳ <persName>מנחם מענדיל מלוסקא</persName> אבי הה״ק <placeName>מראפשיץ</placeName> (<name type="work">רמתים</name> צופים אות ס׳)
+					<lb/>יא) הה״ק ר<persName>׳</persName> <persName>מנחם מענדיל מלוסקא</persName> אבי הה״ק <placeName>מראפשיץ</placeName> (<name type="work">רמתים</name> צופים אות ס׳)
 					<lb/>יב) הה״ק ר' <persName>מרדכי מנעסכיז</persName> (<persName>רשפי אש</persName>). וקבלתי מכבוד מחו׳ הה״ק ר' <persName>משה</persName> שליט״א
 					<placeName><lb/>מזעליחאו</placeName> שבעצמו שמע מהה״ק <persName>מהר"י מנעסכיז</persName> שאביו הה״ק <persName>מהר"ם זי״</persName>ע לא הי'
 					<lb/>לו רב אחר רק את רבינו הקדוש ה<persName>מגיד מזלאטשוב</persName>. ורק פ״א הי׳ אצל רבינו
 					<lb/>הקדוש <placeName>מליזענסק</placeName> זי"ע זצללה"ה]
 					<lb/>יג) הה״ק ר׳ <persName>משולם פייבוש הלוי מזבאריז</persName> (ליקוטי יקרים)
-					<lb/>יד) הה״ק ר׳ <persName>משה מדאלינא</persName> בעהמ״ס <name type="work">דבר</name>י משה (שם) והוא הי׳ חותן הה״ק ר״י
-					<lb/>מראדוויל זצ״ל.
+					<lb/>יד) הה״ק ר<persName>׳</persName> <persName>משה מדאלינא</persName> בעהמ״ס דברי <name type="work">משה</name> (שם) והוא הי׳ חותן הה״ק ר״<persName>י
+					<lb/>מראדוויל</persName> זצ״ל.
 					<lb/>טו) הה״ק ר׳ <persName>צבי ליב מאליק</persName> (שה״ג החדש)
-					<lb/>טז) הה״ק ר׳ <persName>שלמה מקארלין</persName> (דבר שלום עה״ת בהקדמה)
+					<lb/>טז) הה״ק ר׳ <persName>שלמה מקארלין</persName> (<name type="work">דבר</name> שלום עה״ת בהקדמה)
 					<lb/>יז) הה״ק ר׳ <persName>אברהם חיים מזלאטשוב</persName> הי׳ בהיכל קדשו (מבואר בספרו הק' <name type="work">אורח</name> לחיים)
 				</p>
 				<p>
@@ -105,7 +105,7 @@
 					<lb/>יוסף ואמר לו שלום עליכם מורי ורבי התלוצץ על <persName>הבעש״ט</persName> נוסע דרך כזה ובעש״ט
 				</p>
 				<p>
-					<pb facs="Maim-Rabim_0136.jpg" /><lb/>מוחל בלב שלם. ראה כמה הגיע תנועה של לשון הרע ואתם אחיי תשמרו בנפשכם וחיו
+					<pb facs="Maim-Rabim_0136.jpg"/><lb/>מוחל בלב שלם. ראה כמה הגיע תנועה של לשון הרע ואתם אחיי תשמרו בנפשכם וחיו
 					<lb/>לאורך ימים : (ס׳ <name type="work">נתיב מצותיך</name>. להה״ק מ<placeName>קאמארנא</placeName>. <name type="work">שביל היחוד</name> <name type="work">שביל ד'</name>)
 				</p>
 				</div><div type="story" xml:id="Maim-Rabim_0002" n="2"><head type="storyHead">Maim-Rabim_0002</head>
@@ -163,7 +163,7 @@
 				</p>
 				</div><div type="story" xml:id="Maim-Rabim_0006" n="6"><head type="storyHead">Maim-Rabim_0006</head>
 <p>
-					<pb facs="Maim-Rabim_0137.jpg" /><lb/>בס׳ <name type="work">עבודת ישראל</name> (<name type="work">אבות</name> <name type="work">פ״ה י״ח</name>) כ׳ וז״ל ויש ג״כ צדיקים המכירים כל חטאי החוטא
+					<pb facs="Maim-Rabim_0137.jpg"/><lb/>בס׳ <name type="work">עבודת ישראל</name> (<name type="work">אבות</name> <name type="work">פ״ה י״ח</name>) כ׳ וז״ל ויש ג״כ צדיקים המכירים כל חטאי החוטא
 					<lb/>בפניו כמעשה ה<persName>אר״י</persName> ז״ל שאמר לאדם א׳ כל העבירות שעשה והודה לו על כולם
 					<lb/>רק על א׳ לא הודה והעביר ה<persName>אר״י</persName> ז״ל ידו על פניו והציב לפניו העבירה עצמה שעבר
 					<lb/>עלי׳ וכמו כן יש בכל דור ודור. וכמו מעשה שהי׳ אצל הה״מ מו״ה <persName>יחיאל מיכל</persName>
@@ -219,7 +219,7 @@
 					<lb/>עד שראתה בתו הצדיקת ורצתה ואמרה לאחיה הצדיק ר׳ <persName>יצחק</persName> ז״ל ורץ לחדרו ותפסו
 				</p>
 				<p>
-					<pb facs="Maim-Rabim_0138.jpg" /><lb/>לבלבל אותו ולהורידו ונפל על שכמו ואמר שמע ישראל ה׳ אלהינו ה׳ אחד. ויצתה
+					<pb facs="Maim-Rabim_0138.jpg"/><lb/>לבלבל אותו ולהורידו ונפל על שכמו ואמר שמע ישראל ה׳ אלהינו ה׳ אחד. ויצתה
 					<lb/>נשמתו הק׳ ור׳ <persName>יוסף</persName> בנו הי׳ למעלה עד יום הראשון לבקר ובעת שהי' עומד לפני ה<orgName>ב"ד</orgName>
 					<lb/>שלמעלה שמע כרוז שילכו הצדיקים לקבל פני הרב הק׳ רבי <persName>מיכל מ<placeName ana="bio" ref="#H-LOC_722">זלאטשוב</placeName></persName>. שבא
 					<lb/>לכאן והלכו ובתוכם הלך מרן הק׳ נר ישראל רוח אפינו הרב <persName>ישראל בן אליעזר</persName>.
@@ -271,7 +271,7 @@
 					<lb/>והכלים שהי׳ לו וויין הויז. והה״ק ר׳ <persName>יצחק</persName> זצ״ל אמר למחו׳ ר״מ הנ"ל אשר בנו הה״ק
 				</p>
 				<p>
-					<persName><pb facs="Maim-Rabim_0139.jpg" /><lb/>רי״מ</persName> אורו זורח מסוף עולם ועד סופו. לכן יתן לו דירה מיוחדת להתבודדת. פ״א ראה
+					<persName><pb facs="Maim-Rabim_0139.jpg"/><lb/>רי״מ</persName> אורו זורח מסוף עולם ועד סופו. לכן יתן לו דירה מיוחדת להתבודדת. פ״א ראה
 					<lb/>הה״ק <persName>רי״מ</persName> את זו׳ הרבנית <persName>רעכיל</persName> בוכת ושאל אותה מה אתה בוכת והשיבה שאבותי׳ בצער
 					<lb/>שמא ימכור הכלים הנ״ל. ולא יהי׳ להם ממה להתפרנס והבטיח לה שמוחל השיעבוד הנ״ל
 					<lb/>והה״ק <persName>רי״מ</persName> ישב בבית ההתבודדת ולא יצא לביתו רק משבת לשבת וזו׳ הרבנית הית׳
@@ -325,7 +325,7 @@
 					<lb/>למדת צדק ונעשה צדק׳. ואז העולם מלא ושבע כל טוב שפע וברכה רחמים וחיים
 				</p>
 				<p>
-					<pb facs="Maim-Rabim_0140.jpg" /><lb/>ובני ומזוני ושלום עד אין קץ ותכלי׳ הנשפע ע״י הצדיק המקבל את הצדק׳ וע״י הולכת
+					<pb facs="Maim-Rabim_0140.jpg"/><lb/>ובני ומזוני ושלום עד אין קץ ותכלי׳ הנשפע ע״י הצדיק המקבל את הצדק׳ וע״י הולכת
 					<lb/>ההשפעה לכל העולם לכל אחד ואחד די מחסורי והצטרכותו. יעו״ש שמאריך בזה שיש
 					<lb/>ג' מיני צדיקים :
 				</p>
@@ -341,15 +341,15 @@
 				</p>
 				</div><div type="non-story" ana="letter"><p>
 					<lb/>בזכרון טוב חלק ג׳ הביא מעשה מענין הסגת גבול והעתיק מכתב מרבינו הק׳ ה<persName>מגיד
-					ממע</persName>זריטש. שכ׳ וז״ל וכן תקף גזירתי כו׳ יקוב הדין את ההר ביניכם בדייני
+					ממעזריטש</persName>. שכ׳ וז״ל וכן תקף גזירתי כו׳ יקוב הדין את ההר ביניכם בדייני
 					<lb/>ישראל כדתוה<name type="misc">״ק</name> להעמיד הדת על תילה כי ידוע הוא כל המביא דין ישראל כו' הוא מחלל
 					<lb/>כו'. ואין לך עביר׳ גדולה מזו. בכן כלך מדרך זו. ושומע לדברי ישכון בטח ושאנן
-					<lb/>עד ביאת ינון ואומר שלום מ<persName>א"ה</persName> ומינאי <persName>דוב</persName> ב״מ <persName>אברהם</persName> זלה"ה. מ״מ דע״ק מ<placeName>עזריטש</placeName>
+					<lb/>עד ביאת ינון ואומר שלום מ<persName>א"ה</persName> ומינאי <persName>דוב</persName> ב״<persName>מ</persName> <persName>אברהם</persName> זלה"ה. מ״מ דע״ק מ<placeName>עזריטש</placeName>
 					<lb/>גדול וק"ק <placeName>קארעץ</placeName> : ואח"ז העתיק שם עוד מכתב הפסק הלז וכו׳ הק׳ <persName>יחיאל מיכל</persName>
-					<lb/>בהרב המנוח מ׳ <persName>יצחק</persName> ז"ל מ״מ <placeName>דק"ק</placeName> <placeName ref="#H-LOC_398">זלאטשוב</placeName>. עוד העתק מכתב הנה מדי עברי פה
-					<lb/>ק"ק <placeName ref="#H-LOC_54">ראוונא</placeName> והי׳ למראה עיני כו׳ מכבוד אח״מ הרב המפורסם המנוח מו״ה <persName>יחיאל מיכל</persName>
-					<lb/>מ״מ דק״ק <placeName ref="#H-LOC_398">זלאטשוב</placeName> וכו׳ מכבוד הרב החסיד המפו׳ מופ״ה כש״ת המנוח מו״ה <persName>דובער</persName>
-					<lb/>מ״מ דק"ק מ<placeName>עזריטש</placeName> כו׳ ואגידה ואדברה נא שלום ואבקשה מאת כבוד אחי וריעי גדולי
+					<lb/>בהרב המנוח מ<persName>׳</persName> <persName>יצחק</persName> ז"ל מ״מ <placeName>דק"ק</placeName> <placeName>זלאטשוב</placeName>. עוד העתק מכתב הנה מדי עברי פה
+					<lb/>ק"ק <placeName>ראוונא</placeName> והי׳ למראה עיני כו׳ מכבוד אח״מ הרב המפורסם המנוח <persName>מו</persName>״<persName>ה</persName> <persName>יחיאל מיכל</persName>
+					<lb/>מ״מ <placeName>דק</placeName>״ק <placeName>זלאטשוב</placeName> וכו׳ מכבוד הרב החסיד המפו׳ מופ״ה כש״ת המנוח מו״ה <persName>דובער</persName>
+					<lb/>מ״מ דק"ק מ<placeName>עזריטש</placeName> <placeName>כו</placeName>׳ ואגידה ואדברה נא שלום ואבקשה מאת כבוד אחי וריעי גדולי
 					<lb/>הדור מפו' בדורונו להיות פי מליץ יושר בכדי להחזיק הדת על <sic correction="תילה">תולה</sic> וכו׳ ע״כ ימחלו על
 					<lb/>כבודם הרמה ונשאה. שגם המה יבואו על הגלוי ועל התחוב ובמכתב אזהרותי׳ וכו׳ הק׳
 					<persName><lb/>מרדכי</persName> בהרב המנוח המפו׳ מו״ה <persName>יחיאל מיכל</persName> זלה״ה. עוד מכתב. גם דעתי מסכמת
@@ -371,14 +371,14 @@
 					<lb/>הקדוש המגיד <persName>רי״מ</persName> זצוקללה״ה מ<placeName ref="#H-LOC_398">זלאטשוב</placeName> :
 				</p>
 				</div><div type="non-story"><p>
-					<lb/>ובס׳ <name type="work">מאור</name> ו<persName>שמש</persName> (רמזי ר׳ דסוכות) וז"ל שמעתי מהה״ק האבד״ק <persName>נעסכיז</persName> זצוק"ל שע״י
+					<lb/>ובס׳ <name type="work">מאור</name> ו<persName>שמש</persName> (רמזי ר׳ דסוכות) וז"ל שמעתי מהה״ק האבד<persName>״ק</persName> <persName>נעסכיז</persName> זצוק"ל שע״י
 					<lb/>האמונה יוכל האדם להחיות מתים ולהפוך כסף לזהב ולשנות כל דרכי הטבע.
 					<lb/>וגם מי שיש לו אמונה האמיתות איני מתירא משום דבר ולא יזיקנו שום דבר ואמונה הוא
 					<lb/>לשון אמון כמו ואהי׳ אצלו אמון שהוא לשון המשכה שע״י האמונה האדם ממשיך עליו
 					<lb/>נועם אור אלהותו יתברך עכ״ל :
 				</p>
 				</div><div type="non-story" ana="marginal" n="20"><p>
-					<pb facs="Maim-Rabim_0141.jpg" /><lb/>ובכן יה״ר שנזכה אנחנו וזרעינו וז״ז לאמונה שלימה צדיק באמונתו יחי׳ : בהקדמת
+					<pb facs="Maim-Rabim_0141.jpg"/><lb/>ובכן יה״ר שנזכה אנחנו וזרעינו וז״ז לאמונה שלימה צדיק באמונתו יחי׳ : בהקדמת
 					<lb/>עלי עדן על משניות סדר זרעים להרה״ק מ<placeName>קאמארנא</placeName> כ׳ וז״ל אבל הלומד תורה
 					<lb/>שלא לשמה לקנטר ולהתגאות ואין בו תוך ועל זה לא יעבור שום דבר נסיון כי חיותו
 					<lb/>שמקבל הוא מקליפות נגה זה נעשה לו התורה סם המות ונוח לו שנהפכה לו וכו׳
@@ -389,7 +389,7 @@
 					<lb/>לשם אל עולם :
 				</p>
 				</div><div type="non-story"><p>
-					<lb/>כוונת המקוה ממרן רבינו ה<persName>בעל</persName> שם טוב זצללה״ה
+					<lb/>כוונת המקוה ממרן רבינו ה<persName>בעל</persName> שם טוב זצללה״<persName>ה</persName>
 				</p>
 				<p>
 					<lb/>לשמור <date>שבת</date> כהלכתו ובכל פרטיו וסימנך תשב אנוש עד דכא תש״ב אותיות שב״ת
@@ -397,7 +397,7 @@
 					<lb/>וטהרה את יום ה<date>שבת</date>. ע״כ צריך שיטבול במקוה בכל עש״ק וקודם לזה צריך לשבור
 					<lb/><sic correction="לבו">לבי</sic> בקרבו ולקבל עליו עול מלכות שמים ולעבור פשעיו וכל חטאיו ולמאוס עצמו
 					<lb/>מרוב פשעיו. ומעתה מוכן לעבוד ה׳ באהבה חס"ד ויראה גבור״ה. בכדי שיוכל ה<name type="misc">קב״ה</name>
-					<lb/>להתפאר בתפארת תפאר״ת בו וזהו ישראל אשר בך אתפאר. וימסור עצמו על
+					<lb/>להתפאר בתפארת תפאר״ת בו וזהו <placeName>ישראל</placeName> אשר בך אתפאר. וימסור עצמו על
 					<lb/>קדושת שמו הקדוש. ועי״ז ינוצח נצ״ח הסט״א בבטחונו ב<name type="misc">השי</name>״ת. שישיב את נדחו.
 					<lb/>וצריך להודות הו״ד לו שניצל ממצולות ים ואז הוא נכלל בכלל צדיק יסו״ד עולם. ועי״ז
 					<lb/>נתגדל ויוכר כבוד מלכותו מלכו״ת שם שמים לעד ולדור דורים ויכנס אח״ז למקוה ויכוין
@@ -405,10 +405,10 @@
 					<lb/>ושם אהי״ה סוד המחשבה. ובמקוה הגג של המקוה נגד שם אהיה. וד׳ רוחות של
 					<lb/>המקוה נגד ה׳ אותיות של <name type="misc">הוי</name>״<name type="misc">ה</name> ב״ה. וקרקע המקוה נגד שם אדנ״י וג׳ שמות אלו
 					<lb/>יב״ק הוא ר״ת יחוד ברכה קדושה. ויכוין לבו לבקש מאת ה<name type="misc">קב</name>״ה שיכנס בגימטרי
-					<lb/>לקבל הקדושה והטהרה למח<date>שבת</date>ו ולקולו ולדיבורו. ואם יכוין כוונות הנ"ל אף אם שבע
+					<lb/>לקבל הקדושה והטהרה למחשבתו ולקולו ולדיבורו. ואם יכוין כוונות הנ"ל אף אם שבע
 					<lb/>יפול הצדיק ארצה יקום. אף אם ירד שבע מעלות אחורנית ירפאהו ה׳ ויכרות עמו ברית
 					<lb/>חדשה אשר לא סופר ואז יאיר על נשמתו קומ״ה הרוחניות. אותיות מקו״ה ויאמר
-					<lb/>פסוק מקוה ישראל הי' מושיע בעת צרה ויכוין הר״ת מ״י י״ם. ע״כ מצאתי עכ״ל.
+					<lb/>פסוק מקוה <placeName>ישראל</placeName> הי' מושיע בעת צרה ויכוין הר״ת מ״י י״ם. ע״כ מצאתי עכ״ל.
 					<lb/>(העתקה מס׳ דברי <persName>שמואל</persName> להגה"ק ר״ר ש<persName>מעלקי</persName> זצ"ל מ<name type="work">ניקלשפורג</name>)
 				</p>
 				</div><div type="non-story"><p>
@@ -418,15 +418,15 @@
 					<lb/>בהכנסו למקוה יכוין שנכנס לעלמא דחירות שאין שבירה שולט שם ויפשוט מעליו (בגדי
 					<lb/>חול) הבגדים של חול שהם מסטרא דחול כי כשבאים לעלמא דחירות אפי
 					<lb/>עבד יוצא לחירות והכל מתבטלין ויכוין ולמקוה המים קרא ימים ר״ת גימטריא <name type="misc">הוי״ה
-					<lb/>אלהים</name> כמבואר בכוונות שהקטנות שהוא קטנות השכל הנק' מוחין ד<name type="misc">אלהים</name> שהוא הנובע
+					<lb/>אלהים</name> כמבואר בכוונות שהקטנות שהוא קטנות השכל הנק' מוחין דאלהים שהוא הנובע
 					<lb/>שהוא נובעת העולמות יומתקו ויתעלו לגדלות השכל מוחין דהוי״ה כי כל השכלים שנפלו
 					<lb/>בקטנות יתעלו למעלה אל מקום מקוה המים. ששם נקוים ומתחברים ומתעלים כל
 					<lb/>השכלים וזהו ולמקוה המים קרא ימים מקום שמתאספי׳ השכלי׳ קרא ימים י' מים הם
 					<lb/>עשרה שכלים המתאספים ומתאחדים ואז אקרא <name type="misc">אלהים</name> ליבשה ארץ מה דהוית יבשה דלא
-					<lb/>עביד פירין יהי' ארץ דעביד פירין ואיבן וכל אלהים הנרמזין בזה הפסוק דיודי״ן דאלפי"ן
+					<lb/>עביד פירין יהי' ארץ דעביד פירין ואיבן וכל <name type="misc">אלהים</name> הנרמזין בזה הפסוק דיודי״ן דאלפי"ן
 				</p>
 				<p>
-					<pb facs="Maim-Rabim_0142.jpg" /><lb/>דהיהי״ן ופשוטון כמבואר בפע״ח הם הנמתקין כאמור שהוא ד׳ אלהים דקטנות מוחין
+					<pb facs="Maim-Rabim_0142.jpg"/><lb/>דהיהי״ן ופשוטון כמבואר בפע״ח הם הנמתקין כאמור שהוא ד׳ <name type="misc">אלהים</name> דקטנות מוחין
 					<lb/>וע״י השכל שהוא משה גדלות השכל שהוא חכמה ע״י הכנסו למקוה מקוה המים ונעשה
 					<lb/>ק"ן לחכמה הנקרא אלף מלשון ואאלפך חכמה והוא בבחינת קנא ק"ן א'. וישרה בו החכמה
 					<lb/>וכשישתה מנחל ההמשכה ירים ראש הם המוחין כי זהו נוצר חסד לאלפים הם בבחינת
@@ -453,7 +453,7 @@
 					<lb/>עצמם). משמושא דחול מאי טעמא בגין דבחול רוחא אחרא אזלא ושטיא ושריא על
 					<lb/>עלמא. וכד בעי בר נש לנפקא מן האי רוחא ולאעל ברוחא אחרא קדישא עלאה. בעי
 					<lb/>לאסחאה גרמיה למשריה עלי' ההוא רוחא עלאה קדישא ע״כ. ועל כרחך באה הטבילה
-					<lb/>השנית למשוך עליו קדושת שבת מאחר שדעתו נכון לנקות ולזכך מקום שתוכל לשרותו
+					<lb/>השנית למשוך עליו קדושת <date>שבת</date> מאחר שדעתו נכון לנקות ולזכך מקום שתוכל לשרותו
 					<lb/>בו הקדושה. אבל לא יועיל לו לעשות מעשה קוף לטבול ולכוין במחשבתו להשליך <sic correction="ואינו">ואינ</sic>
 					<lb/>משליך כלום. ושמצו וטנופו קבוע בלבו וכמסמרות נטועות במחשבתו ולבבו ודאי שאין
 					<lb/>תועלת בעשייתו לבד ולא מגרש וממילא לא מקדש עכ״ל :
@@ -466,7 +466,7 @@
 					<lb/>יתן הכח ההוא בלימוד התורה ותפלה שיתפלל בכל כח וכוונתו ובזה יבוא למדריגה :
 				</p>
 				</div><div type="non-story"><p>
-					<lb/>ובס׳ <name type="work">אור לשמים</name> (פ׳ בהר) וז״ל כאשר שמעתי בשם רבינו האלהי מו״ה <sic correction="אלימלך">אילמלך</sic> זצללה"ה<anchor xml:id="ner_24764_24778"/>
+					<lb/>ובס׳ <name type="work">אור לשמים</name> (פ׳ בהר) וז״ל כאשר שמעתי בשם רבינו האלהי מ<persName>ו</persName>״<persName>ה</persName> <sic correction="אלימלך">אילמלך</sic> זצללה"ה<anchor xml:id="ner_24764_24778"/>
 					<lb/>שעש״ק הוא בחי׳ עיוה״כ :
 				</p>
 				<p>
@@ -477,15 +477,15 @@
 					<lb/>א״ע כדי לעשות נתת רוח לקונו במה שיוכל לקבל שפעו כי דרכו הוא <sic correction="להטיב">להיטב</sic> ואינו צריך
 				</p>
 				<p>
-					<pb facs="Maim-Rabim_0143.jpg" /><lb/>לגלות דברים כאלו כי לכל אחד ואחד איכא השגה בפ"ע במה שילמוד אותו <name type="misc">ה'</name> אם ילך
+					<pb facs="Maim-Rabim_0143.jpg"/><lb/>לגלות דברים כאלו כי לכל אחד ואחד איכא השגה בפ"ע במה שילמוד אותו <name type="misc">ה'</name> אם ילך
 					<lb/>בתמים כי לא ימנע הטוב להולכי בתמים וזה חדשים לבקרים כי בכל יום ויום צריך
 					<lb/>האדם לחדש במצות האיך לעבוד את בוראו כמו שהוא כביכול מחדש בכל יום מעשה
 					<lb/>בראשית וזה בכל יום יהי' בעיניך כחדשים אבל מי שמבקש הכל על עצמו מקוננת השכינה
 					<lb/>נתנני בידי לא אוכל קום כמ״ש ה<persName>אריז</persName>״ל עכ״ל :
 				</p>
 				<p>
-					<lb/>ובספר <name type="work">עטרת צבי על</name> הזוה״ק מהגה״ק <persName>מופ"ה</persName> רבינו <persName>צבי הירש מזידיטשוב</persName> זצלה"ה האריך
-					<lb/>בענין כוונת מקוה בפ׳ וארא וב<name type="work">ספרו פרי קודש</name> הלולים הו<name type="work">ס</name>יף עוד רבינו המחבר
+					<lb/>ובספר <name type="work">עטרת צבי על</name> הזוה״ק מ<orgName>הגה</orgName>״ק <persName>מופ"ה</persName> רבינו <persName>צבי הירש מזידיטשוב</persName> זצלה"ה האריך
+					<lb/>בענין כוונת מקוה בפ׳ וארא וב<name type="work">ספרו פרי קודש</name> הלולים הוסיף עוד רבינו המחבר
 					<lb/>לדבר מזה וכ׳ וז״ל קבלנו מפי רבותינו בשם הבעש״ט אשר פני׳ וגדלות לא יזיק לכוונת
 					<lb/>המקוה אחר שהמעשה גורמת בעצמה טהרה וכן הדין בצדקה. ע״כ והאריך שם מאוד
 					<lb/>בזה וסיים אבל עכ״פ צריך לכוין שם טהרה לשם תשובה כי בל״ז המעשה בטלה וכו׳.
@@ -495,65 +495,65 @@
 					<lb/>יוהרא בעלמא המעשה הזה הוא כחלל מתה מעולם השבירה ר״ל יעו״ש :
 				</p>
 				<p>
-					<lb/>ובס׳ <name type="work">בית</name> <orgName>אהרן</orgName> ב<name type="work">לקוטים</name> וז״ל בשם צדיקים מקוה בע״ש איז כדאי צו גיין איין מאל צוא
+					<lb/>וב<name type="work">ס</name>׳ <name type="work">בית</name> <orgName>אהרן</orgName> ב<name type="work">לקוטים</name> וז״ל בשם צדיקים מקוה בע״ש איז כדאי צו גיין איין מאל צוא
 					<lb/>פיס ומקוה בשבת בבוקר וואלט כדאי גיוועזען גיין דרייא מייל אם הי׳ מותר
 					<lb/>עכ״ל : לב טהור ברא לי <name type="misc">אלהים</name> ורוח נכון חדש בקרבי :
 				</p>
 				<p>
-					<pb facs="Maim-Rabim_0144.jpg" /><lb/>מגילת יוחסין
+					<pb facs="Maim-Rabim_0144.jpg"/><lb/>מגילת יוחסין
 				</p>
 				<p>
-					<lb/>מת<name type="misc">ה</name>לך בתומו צדיק אשרי בניו אחריו (משלי ב׳) ביראת ה׳ מבטח
+					<lb/>מתהלך בתומו צדיק אשרי בניו אחריו (משלי ב׳) ביראת <name type="misc">ה</name>׳ מבטח
 					<lb/>עוז ולבניו יהי׳ מחסה. ראה ביאורם בס׳ רבינו ב<persName>חיי</persName> ריש <name type="work">פרשת</name> נח. ובמס׳
-					<lb/>(ב״מ <sic correction="דפ&quot;ה.">דפ״מ.</sic>) איתא <persName>א״ר</persName> <persName>פרנך</persName> אמר ר׳ <persName>יוחנן</persName> כל שהוא תלמיד חכם, ובנו תלמיד
+					<lb/>(ב״מ <sic correction="דפ&quot;ה.">דפ״מ.</sic>) איתא <persName>א״ר</persName> <persName>פרנך</persName> אמר ר<persName>׳</persName> <persName>יוחנן</persName> כל שהוא תלמיד חכם, ובנו תלמיד
 					<lb/>חכם, ובן בנו תלמיד חכם שוב אין <name type="work">תורה</name> פוסקת מזרעו, ועי״ש דרב <persName>יוסף</persName>
 					<lb/>יתיב ארבעין תעניתא כו׳ ועי׳ ב<name type="work">של</name>״ה (שער עניני תפלה וקריאה ב<name type="work">ס</name>״ת) ענינים
 					<lb/>נפלאים בזה. וקבע לזה זמן בער״ח סיון. ולדעתי שלמטרת הכוונה הזאת.
 					<lb/>מצינו ב<name type="work">תורה</name> בכמה מקומות יחוסי דורות להראות עד היכן מגיע כח גודל
 					<lb/>זכות אבות, לבניהם ולבני בניהם, עד עולם. (עיין <persName>נועם אלימלך</persName> פ׳ <persName>פנחס</persName> ד״ה
 					<lb/>וידבר) ועי״ז יתחזקו הבנים ללכת בעקבי אבותיהם. כי ידעו כי זכות אבות
-					<lb/>יהיה מסייעתם וכמש״כ בס׳ <orgName>בית אהרן</orgName> להה״ק מ<placeName>קארלין</placeName> זצללה״ה בדרושי פסח
+					<lb/>יהיה מסייעתם וכמש״כ בס׳ <orgName>בית אהרן</orgName> להה<persName>״</persName>ק מ<placeName>קארלין</placeName> זצללה״ה בדרושי פסח
 					<lb/>וז״ל זכות אבותם מסייעתם. וצדקתם עומדת לעד. פירוש שתהי׳ צדקתם עומדת
-					<lb/>בקיום חזק לעד. ולזאת הכוונה באתי גם אני לסדר יחוס משפחת מחו״ז הה״ק
-					<lb/>רי״ש זללה״ה אשר ת״ל נכדיי שליט״א המה ענפי כל המשפחה הזאת
+					<lb/>בקיום חזק לעד. ולזאת הכוונה באתי גם אני לסדר יחוס משפחת מ<placeName>חו</placeName>״ז הה״ק
+					<lb/>רי<persName>״ש</persName> זללה״<persName>ה</persName> אשר ת״ל נכדיי שליט״א המה ענפי כל המשפחה הזאת
 					<lb/>כמבואר הלאה :
 				</p>
 				<p>
-					<lb/>(א) מחותני זקיני הה״ק ר׳ <persName>יצחק שלמה
-					<lb/>מזעל</persName>עחאוו :
+					<lb/>(א) מחותני זקיני הה״ק ר<persName>׳</persName> <persName>יצחק שלמה
+					<lb/>מזעלעחאוו</persName> :
 					<lb/>(ב) בהה״ק ר׳ <persName>יחיאל</persName> <persName>מיכל מזיווהעל</persName> :
-					<lb/>(ג) בהה״ק ר׳ <persName>משה מזיווהעל</persName> :
+					<lb/>(<persName>ג</persName>) בהה״ק ר׳ <persName>משה מזיווהעל</persName> :
 					<lb/>(ד) בהצה״ק והטהור <persName>א״א</persName> רבינו ר׳
 					<persName><lb/>יחיאל מיכל מזלאטשוב</persName>. שהי׳ מגיד
-					<lb/>בק׳ ב<placeName>ראד</placeName> <placeName ref="#H-LOC_398">זלאטשוב</placeName> ו<persName>קאלק</persName> ומ<placeName>נ״כ</placeName>
+					<lb/>בק׳ ב<placeName>ראד</placeName> <placeName>זלאטשוב</placeName> ו<persName>קאלק</persName> ומ<placeName>נ״כ</placeName>
 					<lb/>ב<placeName>יאמפאלא</placeName> :
 				</p>
 				<p>
 					<lb/>בניו
-					<lb/>[א) הה״ק ר׳ <persName>יוסף מיאמפאלא</persName>. ב) הה״ק
-					<persName><lb/>יצחק מראדוויל</persName>. ג) הה״ק ר׳ בנימין
-					<lb/>ז. מ<placeName>זבאריז</placeName>. ד) הה״ק ר׳ משה מזיווהעל.
+					<lb/>[א) הה״<persName>ק</persName> ר׳ <persName>יוסף מיאמפאלא</persName>. ב) הה״<persName>ק</persName>
+					<persName><lb/>יצחק מראדוויל</persName>. ג) הה״ק ר׳ <persName>בנימין
+					<lb/>ז</persName>. מ<placeName>זבאריז</placeName>. ד) הה״ק ר׳ <persName>משה מזיווהעל</persName>.
 					<lb/>ה) הה״ק ר׳ <persName>מרדכי מקרעמניץ</persName> (ואחותם
-					<lb/>הרבנית הצ׳ מרת <persName>מרים</persName> אשת הה״ק ד׳
+					<lb/>הרבנית הצ׳ מרת <persName>מרים</persName> אשת הה״ק <persName>ד</persName>׳
 					<persName><lb/>דוד מלוי</persName> מ״מ דק״ק <placeName>סטעפין</placeName>) :
 				</p>
 				<p>
 					<lb/>יד נתן
 				</p>
 				<p>
-					<lb/>א) הילולא שלו. כ״ט <date>מרחשון תרל״ב</date>. <date>י</date>מי חייו נ״ט שנים ומנ״כ <sic correction="בעיר">ב<placeName>ייד</placeName></sic> <placeName>זעלעחאוו</placeName>.
+					<lb/>א) הילולא שלו. כ״ט <date>מרחשון תרל״ב</date>. ימי חייו נ״ט שנים ומנ״כ <sic correction="בעיר">ב<placeName>ייד</placeName></sic> <placeName>זעלעחאוו</placeName>.
 					<lb/>ובנו הוא הה״ק ר׳ <persName>משה אליקים בריעה</persName> שליט״א מ<placeName>זעלחאוו</placeName>.
-					<lb/>חתן הה״ק ר׳ <persName>יהושע אשר</persName> זצללה״ה בן רבינו הקדוש א״א מרנא ורבנא ר׳ יעקב
-					<lb/>יצחק זצלל״ה הנקרא בפי כל איש יהודי מ<placeName>פרשיסחא</placeName>. ויחוסו מבואר בשער הס׳
+					<lb/>חתן הה״ק ר׳ <persName>יהושע אשר</persName> זצללה״ה בן רבינו הקדוש א״א מרנא ורבנא ר׳ <persName>יעקב
+					<lb/>יצחק</persName> זצלל״ה הנקרא בפי כל איש יהודי מ<placeName>פרשיסחא</placeName>. ויחוסו מבואר בשער הס׳
 					<lb/>עטרה לראש צדיק (מבנו הה״ק ר׳ <persName>יעקב צבי</persName> זצללה״ה האבד״ק פארסאוו).
 					<lb/>מגזע הגאון <persName>הר״י הלוי</persName> אחי הט״ז מצד האב ומגזע הגה״ק בעל הלבושים. ורבינו
 					<lb/>הג׳ ר׳ <persName>נפתלי כ״ץ</persName> בעל סמיכת חכמים נכד רבינו ה<persName>מהר"ל</persName> זי״ע] והג׳ <persName>ר"ר
-					</persName><lb/>העשיל ומרן הט״ז מצד האם. ועוד כמה גדולים וגאוני ארץ וצללה״ה זי״ע :
+					<lb/>העשיל</persName> ומרן הט״ז מצד האם. ועוד כמה גדולים וגאוני ארץ וצללה״ה זי״ע :
 				</p>
 				<p>
-					<lb/>(ב) הילולא שלו, י״ב <date>תשרי</date> <date>תרט״</date>ז וימי חייו בערך שבעים ומנ״כ ב<placeName>זיווהעל</placeName>.
-					<lb/>וכעת הה״ק ר׳ <persName>מדרכי</persName> (שליט״א) [זצוק"ל] ממלא מקומו לאוי״ט
-					<lb/>ב<placeName>זיווהעל</placeName>. ואשת הה״ק בנש״ק הרב הקדוש המפורסם ר׳ <persName>ישכר בער</persName> (שליט״א)
+					<lb/>(ב) הילולא שלו, <date>י</date>״ב <date>תשרי</date> <date>תרט״</date>ז וימי חייו בערך שבעים ומנ״כ ב<placeName>זיווהעל</placeName>.
+					<lb/>וכעת הה״ק ר<persName>׳</persName> <persName>מדרכי</persName> (שליט״א) [זצוק"ל] ממלא מקומו לאוי״ט
+					<lb/>ב<placeName>זיווהעל</placeName>. ואשת הה״ק בנש״ק הרב הקדוש המפורסם ר<persName>׳</persName> <persName>ישכר בער</persName> (שליט״א)
 					<lb/>זצוק"ל מ<placeName>בעלז</placeName> היא נכדתו :
 				</p>
 				<p>
@@ -569,7 +569,7 @@
 					<lb/>הכוונה קמת עם הכולל האות היינו <date>שנת תקמ״א</date>. וגם הרב ר׳ <persName>יחיאל ישעי׳</persName> מו״ץ
 				</p>
 				<p>
-					<pb facs="Maim-Rabim_0145.jpg" /><lb/>(ה) ההה״ק המוכיח הגדול המפורסם
+					<pb facs="Maim-Rabim_0145.jpg"/><lb/>(ה) ההה״ק המוכיח הגדול המפורסם
 					<lb/>בישראל הצדיק א״א רבינו <persName>יצחק</persName>
 					<lb/>מ״מ דק״ק <placeName>דראביטש</placeName> ומנ"כ ב<placeName ref="#H-LOC_250">הארחוב</placeName> :
 				</p>
@@ -635,7 +635,7 @@
 					<lb/>(ז) כן מבאר במכתב שקבלתי מנכדיו בשם הה״ק ר׳ <persName>מרדכי</persName> שליט״א מ<placeName>זיווהעל</placeName>
 				</p>
 				<p>
-					<pb facs="Maim-Rabim_0146.jpg" /><lb/>שנהרג על קה״ש ולמעלה כמה וכמה
+					<pb facs="Maim-Rabim_0146.jpg"/><lb/>שנהרג על קה״ש ולמעלה כמה וכמה
 					<lb/>דורות צדיקים וגדולי ישראל זצללה״ה
 					<lb/>עד
 					<lb/>(ח) הה״ק המפו׳ רבינו <persName>יצחק חיות</persName>
@@ -702,7 +702,7 @@
 					<lb/>(יב) יום הילולא שלו. <date>ערב סוכות תקע״ה</date> ומנ״כ שם :
 				</p>
 				<p>
-					<pb facs="Maim-Rabim_0147.jpg" /><lb/>(טו) בהה״ק א״א רבן של ישראל רבינו
+					<pb facs="Maim-Rabim_0147.jpg"/><lb/>(טו) בהה״ק א״א רבן של ישראל רבינו
 					<persName><lb/>אלימלך מ<placeName ana="bio">ליזענסק</placeName></persName>
 					<lb/>(טז) בהרב ר׳ <persName>אלעזר ליפמאן</persName> :
 				</p>
@@ -766,7 +766,7 @@
 					<lb/>קצרה הידיעה מהכיל. אך אפס מנהו אכתוב צדקת אמו זלה״ה אם שהיתה
 				</p>
 				<p>
-					<pb facs="Maim-Rabim_0148.jpg" /><lb/>(יח) בן רבינו הצדיק הקדוש והטהור
+					<pb facs="Maim-Rabim_0148.jpg"/><lb/>(יח) בן רבינו הצדיק הקדוש והטהור
 					<lb/>א״א רבינו ר׳ <persName>אברהם המלאך</persName>
 					<lb/>(יט) בן רבינו הגדול א״א הק׳ והטהור
 					<lb/>רבן של ישראל ר׳ <persName>דוב בער</persName> <persName>המגיד</persName>
@@ -841,7 +841,7 @@
 					<lb/>שמה הרבנית <persName>רחע רבקה</persName> תנצב״ה בת הה״ק ר׳ <persName>יהושע אשר</persName> הנ״ל (באות א׳) :
 				</p>
 				<p>
-					<pb facs="Maim-Rabim_0149.jpg" /><lb/>(כו) בהרב ר׳ <persName>מאיר</persName> ז״ק
+					<pb facs="Maim-Rabim_0149.jpg"/><lb/>(כו) בהרב ר׳ <persName>מאיר</persName> ז״ק
 					<lb/>(כז) מגזע הג׳ ר׳ <persName>מאיר</persName> ז"ק האבד"ק
 					<lb/>לבוב
 					<lb/>(כח) בהג״מ <persName>אברהם</persName> ז״ק
@@ -905,7 +905,7 @@
 					<lb/>(לו) הה״צ ר׳ <persName>אלימלך</persName> שליט״א ב<placeName>ליזענסק</placeName>. הנ״ל כ׳ אלי וז״ל אודיעהו שזקנינו
 				</p>
 				<p>
-					<pb facs="Maim-Rabim_0150.jpg" /><lb/>(לז) בגי הג״מ <persName>שמואל שמעלקי מרגליות</persName>
+					<pb facs="Maim-Rabim_0150.jpg"/><lb/>(לז) בגי הג״מ <persName>שמואל שמעלקי מרגליות</persName>
 					<lb/>האבד״ק <placeName>עלקוש</placeName> והג״מ <persName>שמעלקי</persName> היה
 					<lb/>חתן ר׳ <persName>משה</persName> ראבד״ק <placeName>קראקא</placeName> בהג״מ
 				</p>
@@ -955,9 +955,9 @@
 					<lb/>ובהיותי בזה אמרתי לציין קצת. עי׳ <name type="work">פסחים</name> <name type="work">דנ״</name>ט<note>דנ"ט</note> ת״ר לעולם ימכור אדם
 					<lb/>כל מה שיש לו וישא בת ת״ח וישיא בתו לת״ח משל לענבי הנפן
 					<lb/>בענבי הנפן דבר נאה ומתקבל בו׳ עיי״ש (ושם ע"ב) לא מצא בת ת"ח ישא בת
-					<lb/>גדולי הדור כו׳ יעיי"ש. ועי׳ <persName>מהרש</persName>״א דברים נפלאים וע׳ לו יומא דע"ב ע״ב אמר
+					<lb/>גדולי הדור כו׳ יעיי"ש. ועי׳ <persName>מהרש</persName>״<persName>א</persName> דברים נפלאים וע׳ לו יומא דע"ב ע״ב אמר
 					<lb/>רבא כל ת"ח וכו׳ יעיי״ש. ושם דע״א. וא"ר <persName>ברכיה</persName> אם רואה אדם שתורה פוסקת
-					<lb/>מזרעו ישא בת ת"ח שנא' וכו' בח"א מהרש״א ועי׳ ב״ב דק״ט אר״א
+					<lb/>מזרעו ישא בת ת"ח שנא' וכו' בח"א מ<placeName>הרש״א</placeName> ועי׳ ב״ב דק״ט אר״א
 					<lb/>לעולם ידבק אדם בטובים וכו׳ יעו״ש בח"א דבר נפלא. ועי' בס' חסידים 
 					<lb/>סי׳ קנ״ו ואם תראה שג׳ דורות וא״ז כולם ת״ח ואח״כ זרעם ע״ה וכו׳. שהרי
 					<lb/>נתחתנו במשפחה שאין דינם להיות ביניהם ת"ח. ואחז״ל ב״ב ק״י רוב בנים
@@ -966,21 +966,21 @@
 					<lb/>שאינו ירא שמים וחסיד. ולפיכך אותו הדור כך. ולפיבך יתחנן אדם עליו ועל
 				</p>
 				<p>
-					<pb facs="Maim-Rabim_0151.jpg" /><lb/>זרעו ועל ז״ז. בכ״י לזווגם בזיווג יראת שמים עם ת"ח וג״ח וכו׳. ועי׳ עוד ס׳
+					<pb facs="Maim-Rabim_0151.jpg"/><lb/>זרעו ועל ז״ז. בכ״י לזווגם בזיווג יראת שמים עם ת"ח וג״ח וכו׳. ועי׳ עוד ס׳
 					<lb/>חסידים ס׳ קס״ז שהאריך בזה בדברים נפלאים וסיים וז״ל ולכן יתפלל כל
 					<lb/>חסיד ע״ז שידבק באשה טובה שאחי׳ ואחיותי׳ טובים ואבי׳ ואמה טובים ושלא
 					<lb/>יהי׳ דבר במי שידבק בהם שיעכב את זרעו מלהיות ת״ח. וכן יתפלל על בניו
 					<lb/>ועל בנותיו. שישיאם על פרקם ושיהיה בהצלחה טובה וחיים טובים עם נשותיהם
 					<lb/>ובנותי׳ עם בעליהן והוא עם אשתו עכ״ל. ויש לבקש רחמים שיתן לו השי״ת
 					<lb/>בנים טובים ויזמינם לו במזל עושר כמ״ש רבינו הק׳ בעל <name type="work">אור החיים</name> בספרו
-					<name type="work"><lb/>חפץ ה׳</name> שבת דקנ״א שעי״ז יוכל אדם להתפלל. ועי׳ ברכות ד״ה ברבינו יונה
+					<name type="work"><lb/>חפץ ה׳</name> שבת דקנ״א שעי״ז יוכל אדם להתפלל. ועי׳ ברכות ד״ה ברבינו <persName>יונה</persName>
 					<lb/>שהאריך בזה בדברים מתוקים ונחוצים מאוד. ועי׳ בשל״ה שער האותיות אות
 					<lb/>ד׳ וז״ל ותמיד יהי׳ תפלה שגורה בפי האב ואם להתפלל על זרעם שיהיה לומדי
-					<name type="work"><lb/>תורה</name> וצדיקים ובעלי מדות טובות ויכוין במאוד ע״ז בברכת התורה ונהיה אנחנו
+					<lb/>תורה וצדיקים ובעלי מדות טובות ויכוין במאוד ע״ז בברכת ה<name type="work">תורה</name> ונהיה אנחנו
 					<lb/>וצאצאינו וכן בברכת אהבה רבה. וכן כשאומר למען לא ניגע לריק. וכתבו
 					<lb/>הספרים שראוי ונכון לכל אדם להתפלל בכל יום בתפילת <name type="misc">אלהי</name> נצור על צרכיו
-					<lb/>ופרנסתו ושלא ימוש <name type="misc">התורה</name> מפלו וזרעו וזרע זרעו. ושיהיה כל יוצאי חלציו
-					<lb/>עובדי ה׳ באמת. וינצלו מן החטא ויהיה כל זרעו קודש בלי פגם. ושלא ימצא
+					<lb/>ופרנסתו ושלא ימוש התורה מפלו וזרעו וזרע זרעו. ושיהיה כל יוצאי חלציו
+					<lb/>עובדי <name type="misc">ה</name>׳ באמת. וינצלו מן החטא ויהיה כל זרעו קודש בלי פגם. ושלא ימצא
 					<lb/>בהם פסול, ועי׳ בס׳ תדא״ר פי״ח. ובס׳ חסידים אות רמ״״ז. שע״ד שע״ו שע״ז
 					<lb/>שע״ח שפ״א שפ״ח תקמ״ט וסי׳ תקמ״ט וסי׳ תקנ״ז שהאריך בזה :
 				</p>
@@ -989,12 +989,12 @@
 					<lb/>ולבנ״י בני״ך. ששמעתי בשם איש קדוש אחד מדבר שהדעת הנשפעת
 					<lb/>לאיזה איש ב<name type="work">תורה</name> ועבודה יועיל לבניו. ולבני בניו שדעת האב נמשך עד בן
 					<lb/>בנו. והדברים עתיקים ע״כ נאמר לא ימושו מפיך ומפי זרעך ומפי ז״ז ותתבונן
-					<lb/>מתענית רב <persName>יוסף</persName> וז״ש. אותו הדעת שהתבוננת בתורה תזכה להמשיכהו עד בן
+					<lb/>מתענית רב <persName>יוסף</persName> וז״ש. אותו הדעת שהתבוננת ב<name type="work">תורה</name> תזכה להמשיכהו עד בן
 					<lb/>בניך וכו' :
 				</p>
 				<p>
-					<lb/>ובזוהר פ׳ בחוקתי ובאין אינון צדיקא דזכאין לבנין <name type="misc">קדישין</name> ולגזעין קדישין
-					<lb/>עליי<name type="misc">ה</name>ו אתקרי כל רואיהם יכירום כי הם זרע ברך ה׳ ויה״ר שיזכנו
+					<lb/>ובזוהר פ׳ בחוקתי ובאין אינון צדיקא דזכאין לבנין קדישין ולגזעין <name type="misc">קדישין</name>
+					<lb/>עלייהו אתקרי כל רואיהם יכירום כי הם זרע ברך <name type="misc">ה</name>׳ ויה״ר שיזכנו
 					<lb/>ה<name type="misc">שי"ת</name> אותי ואת זרעי ע״ע לזה :
 				</p>
 				<p>

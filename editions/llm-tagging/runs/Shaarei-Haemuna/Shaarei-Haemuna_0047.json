@@ -1,0 +1,75 @@
+{
+ "unit": {
+  "kind": "hasidic_story",
+  "why": "A short anecdote about R. Zeev of Zhitomir's journeys to the Maggid of Mezeritch: he attained spiritual fulfilment at each stage of approach. It is quoted to illustrate the teaching in the previous division that one gains from a tzaddik merely by preparing for him and seeing him.",
+  "boundary_note": "Continues the homiletic argument of the previous division ('כמ\"ש' completes the preceding sentence); the next division resumes citation of other books."
+ },
+ "stories": [
+  {
+   "k": 1,
+   "start_quote": "כמ\"ש בשם הרה״ק ר׳ זאב זצ\"ל",
+   "end_quote": "כאשר רחה את המגיד השיג כפי יכולתו עכ״ל",
+   "hasidic": true,
+   "summary_en": "When R. Zeev of Zhitomir travelled to the Maggid of Mezeritch, he attained all he needed on entering the Maggid's town limits, or on reaching his court, or on opening his door, and all the more so on seeing him.",
+   "tags": [
+    {
+     "tag": "practice:travel_to_the_tsaddik",
+     "scope": "span",
+     "quotes": [
+      "כאשר נסע אל המגיד זצ\"ל במעזריטש"
+     ],
+     "confidence": 3,
+     "why": "R. Zeev journeys to the Maggid's court",
+     "quotes_failed": false
+    },
+    {
+     "tag": "practice:torat_ha_tsaddik",
+     "scope": "story",
+     "quotes": [],
+     "confidence": 3,
+     "why": "The point is the tzaddik's holiness flowing to whoever approaches and sees him",
+     "quotes_failed": false
+    },
+    {
+     "tag": "spaces:institutions_hassidic_court",
+     "scope": "span",
+     "quotes": [
+      "תיכף בבואו לחצר המגיד השיג"
+     ],
+     "confidence": 3,
+     "why": "The Maggid's court is the setting of the attainment",
+     "quotes_failed": false
+    },
+    {
+     "tag": "social:inter_hasidic_master_disciple_relationship",
+     "scope": "story",
+     "quotes": [],
+     "confidence": 2,
+     "why": "R. Zeev is the Maggid's disciple receiving from his master",
+     "quotes_failed": false
+    },
+    {
+     "tag": "not-a-hasidic-story:sermon",
+     "scope": "story",
+     "quotes": [],
+     "confidence": 2,
+     "why": "The anecdote is embedded in a homiletic discourse on going to the tzaddik",
+     "quotes_failed": false
+    }
+   ],
+   "missing_concepts": [
+    "spiritual attainment through mere proximity to or sight of the tzaddik"
+   ],
+   "start_quote_found": true,
+   "end_quote_found": true
+  }
+ ],
+ "check": {
+  "non_vocab_tags": [],
+  "quotes": 2,
+  "quotes_not_found": 0
+ },
+ "id": "Shaarei-Haemuna_0047",
+ "chars": 358,
+ "seconds": 16
+}

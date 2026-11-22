@@ -1,0 +1,153 @@
+{
+ "unit": {
+  "kind": "hasidic_story",
+  "why": "A single miracle legend about R. Zvi Hirsh (Zhidachov), teacher of R. Yitzhak Eizik, who finds a precious gem and, after Heaven offers him a choice, gives up wealth for the mind or soul of the Ari.",
+  "boundary_note": ""
+ },
+ "stories": [
+  {
+   "k": 1,
+   "start_quote": "ידוע ומפורסם בין תלמידי מורינו מוהרי\"א הנ\"ל",
+   "end_quote": "ופרח כמו ניצוצי אש עד שלא נראה עוד",
+   "hasidic": true,
+   "summary_en": "Worshipping in the dark on a winter dawn, R. Zvi Hirsh sees a great light and finds a huge gem worth more than kings' treasures; he fasts to learn its meaning, is offered either wealth for his descendants or the mind or soul of the Ari, chooses the latter, and throws the gem skyward, where it vanishes in sparks.",
+   "tags": [
+    {
+     "tag": "supernatural:miracle",
+     "scope": "span",
+     "quotes": [
+      "ומצא אבן טוב גדול כביצה גדולה",
+      "ופרח כמו ניצוצי אש עד שלא נראה עוד"
+     ],
+     "confidence": 3,
+     "why": "A gem given from Heaven appears and then vanishes in fire.",
+     "quotes_failed": false
+    },
+    {
+     "tag": "supernatural:light_or_fire_as_a_sign_of_righteousness",
+     "scope": "span",
+     "quotes": [
+      "וראה שנעשה אור גדול בביתו",
+      "דבר מאיר מאד"
+     ],
+     "confidence": 2,
+     "why": "A great light fills his house while he worships without a candle.",
+     "quotes_failed": false
+    },
+    {
+     "tag": "practice:fasting",
+     "scope": "span",
+     "quotes": [
+      "והתענה הפסקות שיודיעוהו מהשמים מה זאת"
+     ],
+     "confidence": 3,
+     "why": "He undertakes extended fasts to receive a heavenly answer.",
+     "quotes_failed": false
+    },
+    {
+     "tag": "supernatural:communicating_with_the_invisible",
+     "scope": "span",
+     "quotes": [
+      "והודיעוהו כי יש לו ברירה לבחור",
+      "והשיבו לו לזרקו בחוץ השמימה"
+     ],
+     "confidence": 3,
+     "why": "Heaven answers him and instructs him.",
+     "quotes_failed": false
+    },
+    {
+     "tag": "experience:revelation",
+     "scope": "span",
+     "quotes": [
+      "שיודיעוהו מהשמים מה זאת"
+     ],
+     "confidence": 2,
+     "why": "A heavenly disclosure explains the gem's meaning.",
+     "quotes_failed": false
+    },
+    {
+     "tag": "social:poverty",
+     "scope": "span",
+     "quotes": [
+      "ובחר לו זאת המדריגה ולא חפץ בעשירות"
+     ],
+     "confidence": 3,
+     "why": "He refuses great wealth and stays poor (he had no candle).",
+     "quotes_failed": false
+    },
+    {
+     "tag": "ethics-and-emotions:resisting_temptation",
+     "scope": "span",
+     "quotes": [
+      "ולא חפץ בעשירות"
+     ],
+     "confidence": 3,
+     "why": "He resists the temptation of riches.",
+     "quotes_failed": false
+    },
+    {
+     "tag": "folkloristics:story_type_virtues",
+     "scope": "story",
+     "quotes": [],
+     "confidence": 3,
+     "why": "The tale illustrates the tsaddik's preference for spiritual rank over wealth.",
+     "quotes_failed": false
+    },
+    {
+     "tag": "knowledge:esoteric",
+     "scope": "span",
+     "quotes": [
+      "או שיתנו לו מוח [או נשמת] האר״י הקדוש"
+     ],
+     "confidence": 2,
+     "why": "The reward chosen is the Ari's kabbalistic mind.",
+     "quotes_failed": false
+    },
+    {
+     "tag": "supernatural:reincarnation",
+     "scope": "span",
+     "quotes": [
+      "מוח [או נשמת] האר״י הקדוש"
+     ],
+     "confidence": 1,
+     "why": "Receiving the soul of the Ari implies a soul-transfer or gilgul.",
+     "quotes_failed": false
+    },
+    {
+     "tag": "practice:storytelling",
+     "scope": "span",
+     "quotes": [
+      "ידוע ומפורסם בין תלמידי מורינו מוהרי\"א",
+      "שנשמע ממנו מספר"
+     ],
+     "confidence": 2,
+     "why": "The tale is framed as told by R. Yitzhak Eizik and circulated among his disciples.",
+     "quotes_failed": false
+    },
+    {
+     "tag": "ethics-and-emotions:virtues",
+     "scope": "story",
+     "quotes": [],
+     "confidence": 2,
+     "why": "Contempt for wealth is the virtue the tale illustrates.",
+     "quotes_failed": false
+    }
+   ],
+   "missing_concepts": [
+    "heavenly choice between wealth and spiritual rank",
+    "night or dawn worship (ashmoret ha-boker)",
+    "precious gem as a heavenly gift"
+   ],
+   "start_quote_found": true,
+   "end_quote_found": true
+  }
+ ],
+ "check": {
+  "non_vocab_tags": [],
+  "quotes": 14,
+  "quotes_not_found": 0
+ },
+ "id": "Eser-Kedushot_0019",
+ "chars": 711,
+ "seconds": 19
+}

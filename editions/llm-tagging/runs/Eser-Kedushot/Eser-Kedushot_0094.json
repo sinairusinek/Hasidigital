@@ -1,0 +1,109 @@
+{
+ "unit": {
+  "kind": "hasidic_story",
+  "why": "A short anecdote: R. Yissachar Ber, studying at midnight in great poverty, asks his son where the promised 'thread of grace' is, and the son answers.",
+  "boundary_note": "The closing words 'דברי תורה משמו מהנמצא בידינו' are a heading for the teachings in the following divisions."
+ },
+ "stories": [
+  {
+   "k": 1,
+   "start_quote": "הי׳ עומד תמיד בחצות לילה ועוסק בתורה",
+   "end_quote": "לקום בחצות לילה לעסוק בתורה ועבודה ודפח\"ח",
+   "hasidic": true,
+   "summary_en": "R. Yissachar Ber, who rose every midnight to study Torah amid dire poverty, asked his son why the Talmud's promised 'thread of grace' did not appear when they had nothing to eat; the son answered that the grace lies in accepting everything with love and rising again the next midnight.",
+   "tags": [
+    {
+     "tag": "practice:study",
+     "scope": "span",
+     "quotes": [
+      "הי׳ עומד תמיד בחצות לילה ועוסק בתורה"
+     ],
+     "confidence": 3,
+     "why": "Midnight Torah study is the frame of the story.",
+     "quotes_failed": false
+    },
+    {
+     "tag": "social:poverty",
+     "scope": "span",
+     "quotes": [
+      "מתוך עניות ודחקות גדול ל\"ע",
+      "אנו מקבלים הכל באהבה"
+     ],
+     "confidence": 3,
+     "why": "Poverty is accepted with love as part of serving God.",
+     "quotes_failed": false
+    },
+    {
+     "tag": "characters-and-roles:the_family_of_the_tsaddik",
+     "scope": "span",
+     "quotes": [
+      "שפ\"א שאל אותו אביו הקדוש. בני יחידי"
+     ],
+     "confidence": 3,
+     "why": "The tzaddik's son is the other character in the dialogue.",
+     "quotes_failed": false
+    },
+    {
+     "tag": "folkloristics:story_type_virtues",
+     "scope": "story",
+     "quotes": [],
+     "confidence": 2,
+     "why": "The anecdote illustrates devotion, and acceptance of suffering with love.",
+     "quotes_failed": false
+    },
+    {
+     "tag": "ethics-and-emotions:virtues",
+     "scope": "span",
+     "quotes": [
+      "החוט של חסד הוא שאעפי״כ אנו מקבלים הכל באהבה"
+     ],
+     "confidence": 2,
+     "why": "The point is the virtue of accepting suffering with love.",
+     "quotes_failed": false
+    },
+    {
+     "tag": "practice:sermon",
+     "scope": "span",
+     "quotes": [
+      "כל העוסק בתורה בלילה חוט של חסד משוך עליו ביום"
+     ],
+     "confidence": 2,
+     "why": "A Talmudic dictum is quoted and interpreted.",
+     "quotes_failed": false
+    },
+    {
+     "tag": "practice:asceticism",
+     "scope": "span",
+     "quotes": [
+      "ננדד שינה מעינינו לקום בחצות לילה"
+     ],
+     "confidence": 1,
+     "why": "Giving up sleep and food in austere devotion.",
+     "quotes_failed": false
+    },
+    {
+     "tag": "not-a-hasidic-story:sermon",
+     "scope": "story",
+     "quotes": [],
+     "confidence": 1,
+     "why": "The narrative core is a short exegetical exchange.",
+     "quotes_failed": false
+    }
+   ],
+   "missing_concepts": [
+    "midnight vigil (tikkun hatsot / rising at midnight)",
+    "acceptance of suffering with love (kabbalat yissurin be-ahavah)"
+   ],
+   "start_quote_found": true,
+   "end_quote_found": true
+  }
+ ],
+ "check": {
+  "non_vocab_tags": [],
+  "quotes": 7,
+  "quotes_not_found": 0
+ },
+ "id": "Eser-Kedushot_0094",
+ "chars": 476,
+ "seconds": 18
+}

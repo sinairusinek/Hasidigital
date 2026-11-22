@@ -1,0 +1,104 @@
+{
+ "unit": {
+  "kind": "hasidic_story",
+  "why": "A short anecdote, heard from R. Pinhas of Korets, about a man whose fatal nosebleed was cured by strong wine, followed by the tsaddik's exegesis of the cure; it sits inside a segulah compendium.",
+  "boundary_note": "The heading 'סגולה לדם היוצא מן החוטם' ends the previous division."
+ },
+ "stories": [
+  {
+   "k": 1,
+   "start_quote": "שמעתי מהה״צ וכו׳ ר׳ פנחס ז״ל מקארץ",
+   "end_quote": "לבקש מהש״י רפואות עכלה״ק. (ש״ל בראשית)",
+   "hasidic": true,
+   "summary_en": "A man near death from an unstoppable nosebleed, given up by the doctors, is cured when a passer-by makes him drink a measure of strong wine; when the story is told before R. Pinhas of Korets he shows that the cure is hinted in the Torah ('ודם ענבים שותה', אסוותא) and teaches that all remedies are alluded to there.",
+   "tags": [
+    {
+     "tag": "practice:healing",
+     "scope": "span",
+     "quotes": [
+      "ותיכף בשתותו היין נתרפא ונפסק הדם",
+      "עד שהרופאים נלאו לבקש רפואות לזה ונתייאשו ממנו"
+     ],
+     "confidence": 3,
+     "why": "The doctors fail and a remedy cures the sick man.",
+     "quotes_failed": false
+    },
+    {
+     "tag": "practice:drinking_alcohol",
+     "scope": "span",
+     "quotes": [
+      "וילך במהירות לבית היין ולקח מדה אחד יין",
+      "וצוה אל החולה לשתותו בלי הפסק"
+     ],
+     "confidence": 3,
+     "why": "Drinking wine is the cure.",
+     "quotes_failed": false
+    },
+    {
+     "tag": "practice:sermon",
+     "scope": "span",
+     "quotes": [
+      "הראה להם איך שהרפואה זו נרמוז בהתורה",
+      "שבהתורה נרמז כל מיני רפואות שבעול׳ וסגולו"
+     ],
+     "confidence": 3,
+     "why": "The tsaddik gives an exegesis of a verse.",
+     "quotes_failed": false
+    },
+    {
+     "tag": "not-a-hasidic-story:sermon",
+     "scope": "story",
+     "quotes": [],
+     "confidence": 1,
+     "why": "The short narrative is framed by the tsaddik's exegetical point and the segulah context.",
+     "quotes_failed": false
+    },
+    {
+     "tag": "practice:storytelling",
+     "scope": "span",
+     "quotes": [
+      "והשנרצה הדברי׳ לפני הה״צ הנ״ל"
+     ],
+     "confidence": 2,
+     "why": "The tale is recounted before the tsaddik, who responds to it.",
+     "quotes_failed": false
+    },
+    {
+     "tag": "supernatural:miracle",
+     "scope": "span",
+     "quotes": [
+      "וישתוממו הרופאים והללו את ד׳ אשר בראו"
+     ],
+     "confidence": 1,
+     "why": "The cure is wondrous but presented as a natural segulah.",
+     "quotes_failed": false
+    },
+    {
+     "tag": "ethics-and-emotions:sadness",
+     "scope": "span",
+     "quotes": [
+      "וכל ב״ב היו בוכים"
+     ],
+     "confidence": 1,
+     "why": "The household weeps over the dying man.",
+     "quotes_failed": false
+    }
+   ],
+   "missing_concepts": [
+    "segulot / folk remedies",
+    "Torah as source of all remedies",
+    "nosebleed"
+   ],
+   "start_quote_found": true,
+   "end_quote_found": true
+  }
+ ],
+ "check": {
+  "non_vocab_tags": [],
+  "quotes": 9,
+  "quotes_not_found": 0
+ },
+ "id": "Shaarei-Haemuna_0053",
+ "chars": 689,
+ "seconds": 16
+}

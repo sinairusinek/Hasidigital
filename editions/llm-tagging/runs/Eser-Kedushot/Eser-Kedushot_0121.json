@@ -1,0 +1,99 @@
+{
+ "unit": {
+  "kind": "hasidic_story",
+  "why": "A short anecdote: the subject meets the Apter Rav in Mezhibozh, who gives him a blessing in the form of a homily, and the text reports that the blessing came true.",
+  "boundary_note": "Second numbered item in a series about the same rabbi (continues the biography begun in the previous division); next division is a separate anecdote."
+ },
+ "stories": [
+  {
+   "k": 1,
+   "start_quote": "(ב) כאשר זכה לקבל פני הרה״ק",
+   "end_quote": "עכ״ד למורינו ז\"ל ונתקיימה ברכתו",
+   "hasidic": true,
+   "summary_en": "When the author's master came to R. Abraham Joshua Heschel of Apta in Mezhibozh, the Apter expounded 'ונתנך ה׳ לראש ולא לזנב' as a promise that he would be a head among heads, and the blessing was fulfilled.",
+   "tags": [
+    {
+     "tag": "practice:sermon",
+     "scope": "span",
+     "quotes": [
+      "כתיב ונתנך ה׳ לראש ולא לזנב ולכאורה הוא כפל לשון"
+     ],
+     "confidence": 3,
+     "why": "The core is the tzaddik's exegesis of a verse.",
+     "quotes_failed": false
+    },
+    {
+     "tag": "not-a-hasidic-story:sermon",
+     "scope": "story",
+     "quotes": [],
+     "confidence": 2,
+     "why": "A minimal narrative frame around a homiletic interpretation.",
+     "quotes_failed": false
+    },
+    {
+     "tag": "supernatural:prognostication",
+     "scope": "span",
+     "quotes": [
+      "ומבטיחך הכתוב שתהי' ראש לראשים",
+      "ונתקיימה ברכתו"
+     ],
+     "confidence": 2,
+     "why": "The blessing works as a prediction of leadership that came true.",
+     "quotes_failed": false
+    },
+    {
+     "tag": "folkloristics:story_type_prognostication",
+     "scope": "story",
+     "quotes": [],
+     "confidence": 2,
+     "why": "The arc runs from blessing or prediction to its fulfilment.",
+     "quotes_failed": false
+    },
+    {
+     "tag": "practice:travel_to_the_tsaddik",
+     "scope": "span",
+     "quotes": [
+      "כאשר זכה לקבל פני הרה״ק רשכב\"ה"
+     ],
+     "confidence": 2,
+     "why": "He came to be received by the Apter Rav.",
+     "quotes_failed": false
+    },
+    {
+     "tag": "practice:reception_of_hasidim",
+     "scope": "span",
+     "quotes": [
+      "כאשר זכה לקבל פני הרה״ק"
+     ],
+     "confidence": 2,
+     "why": "The tzaddik receives the visitor and greets him with a blessing.",
+     "quotes_failed": false
+    },
+    {
+     "tag": "practice:torat_ha_tsaddik",
+     "scope": "span",
+     "quotes": [
+      "ונתקיימה ברכתו"
+     ],
+     "confidence": 1,
+     "why": "The tzaddik's blessing has effective power.",
+     "quotes_failed": false
+    }
+   ],
+   "missing_concepts": [
+    "blessing of a tzaddik (ברכה) for future leadership",
+    "endorsement of a future rebbe by an elder tzaddik"
+   ],
+   "start_quote_found": true,
+   "end_quote_found": true
+  }
+ ],
+ "check": {
+  "non_vocab_tags": [],
+  "quotes": 6,
+  "quotes_not_found": 0
+ },
+ "id": "Eser-Kedushot_0121",
+ "chars": 402,
+ "seconds": 15
+}

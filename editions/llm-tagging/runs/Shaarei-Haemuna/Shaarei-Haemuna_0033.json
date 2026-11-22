@@ -1,0 +1,190 @@
+{
+ "unit": {
+  "kind": "non_hasidic_story",
+  "why": "Within a compilation of teachings on anger, the division quotes a short anecdote from the Lurianic circle: a disciple performs yihudim on Tisha B'Av night, Samael provokes him to anger, and the Ari (מרן) tells him he caused a murder. It ends with a homiletic citation from Noam Megadim.",
+  "boundary_note": "part of an ongoing anthology of sayings on anger; previous and next divisions are teachings"
+ },
+ "stories": [
+  {
+   "k": 1,
+   "start_quote": "וכן אירע פ״א לתלמיד שהי׳ יושב",
+   "end_quote": "ועשה תשובה גם על זה עכ״ל",
+   "hasidic": false,
+   "summary_en": "A disciple of the Ari performed yihudim and wrote Torah secrets on the night of Tisha B'Av, easing his mourning because the fast was postponed and a circumcision fell that day. He thereby entered Samael's domain, and Samael provoked him to great anger that week, which caused one wicked man to stab another to death. The Ari revealed this to him and he repented.",
+   "tags": [
+    {
+     "tag": "not-a-hasidic-story:hagiography",
+     "scope": "story",
+     "quotes": [],
+     "confidence": 2,
+     "why": "anecdote of the Ari's circle (מרן), copied from an earlier book",
+     "quotes_failed": false
+    },
+    {
+     "tag": "not-a-hasidic-story:sermon",
+     "scope": "story",
+     "quotes": [],
+     "confidence": 2,
+     "why": "embedded in a homiletic anthology of teachings on anger",
+     "quotes_failed": false
+    },
+    {
+     "tag": "ethics-and-emotions:anger",
+     "scope": "span",
+     "quotes": [
+      "והביאו לידי כעס גדול"
+     ],
+     "confidence": 3,
+     "why": "the disciple's anger is the moral failing at the centre",
+     "quotes_failed": false
+    },
+    {
+     "tag": "kabbalah:kabbalistic_terms_yihudim",
+     "scope": "span",
+     "quotes": [
+      "והי׳ מייחד יחודים וכותב רזין דאורייתא"
+     ],
+     "confidence": 3,
+     "why": "performs Lurianic yihudim",
+     "quotes_failed": false
+    },
+    {
+     "tag": "practice:meditation",
+     "scope": "span",
+     "quotes": [
+      "והי׳ מייחד יחודים וכותב רזין דאורייתא"
+     ],
+     "confidence": 3,
+     "why": "night contemplative yihudim",
+     "quotes_failed": false
+    },
+    {
+     "tag": "knowledge:esoteric",
+     "scope": "span",
+     "quotes": [
+      "וכותב רזין דאורייתא"
+     ],
+     "confidence": 2,
+     "why": "writing secrets of the Torah",
+     "quotes_failed": false
+    },
+    {
+     "tag": "times:holidays",
+     "scope": "span",
+     "quotes": [
+      "שהי׳ יושב בליל ת\"ב אחר חצות"
+     ],
+     "confidence": 3,
+     "why": "Tisha B'Av night",
+     "quotes_failed": false
+    },
+    {
+     "tag": "practice:circumcision",
+     "scope": "span",
+     "quotes": [
+      "וגם ברית מילה הי' ביום זה"
+     ],
+     "confidence": 2,
+     "why": "a brit that day is the reason he eased his mourning",
+     "quotes_failed": false
+    },
+    {
+     "tag": "practice:halakhah",
+     "scope": "span",
+     "quotes": [
+      "כי הי׳ נדחה וגם ברית מילה",
+      "על כן הקיל לעצמו והסיח דעתו מן אבילות"
+     ],
+     "confidence": 2,
+     "why": "a leniency in the mourning laws of a postponed fast",
+     "quotes_failed": false
+    },
+    {
+     "tag": "characters-and-roles:demons",
+     "scope": "span",
+     "quotes": [
+      "והשיג גבולו של ס\"ם הרשע",
+      "התגרה בו הרשע באותו שבוע"
+     ],
+     "confidence": 3,
+     "why": "Samael provokes him",
+     "quotes_failed": false
+    },
+    {
+     "tag": "social:conflict",
+     "scope": "span",
+     "quotes": [
+      "התגרה בו הרשע באותו שבוע"
+     ],
+     "confidence": 1,
+     "why": "Samael attacks the disciple",
+     "quotes_failed": false
+    },
+    {
+     "tag": "times:death",
+     "scope": "span",
+     "quotes": [
+      "תחב סכין בבטן רשע כמותו והרגו"
+     ],
+     "confidence": 3,
+     "why": "a murder results",
+     "quotes_failed": false
+    },
+    {
+     "tag": "supernatural:perception",
+     "scope": "span",
+     "quotes": [
+      "ואמר לו מרן שכ״ז גרם הוא"
+     ],
+     "confidence": 3,
+     "why": "the Ari knows the hidden causal chain",
+     "quotes_failed": false
+    },
+    {
+     "tag": "social:retrospective_recognition",
+     "scope": "span",
+     "quotes": [
+      "ואמר לו מרן שכ״ז גרם הוא"
+     ],
+     "confidence": 2,
+     "why": "the disciple learns the hidden meaning of the events",
+     "quotes_failed": false
+    },
+    {
+     "tag": "ethics-and-emotions:repentance",
+     "scope": "span",
+     "quotes": [
+      "ועשה תשובה גם על זה"
+     ],
+     "confidence": 3,
+     "why": "he repents",
+     "quotes_failed": false
+    },
+    {
+     "tag": "social:inter_hasidic_master_disciple_relationship",
+     "scope": "span",
+     "quotes": [
+      "ואמר לו מרן שכ״ז גרם הוא"
+     ],
+     "confidence": 1,
+     "why": "master corrects disciple (Ari circle, not Hasidic)",
+     "quotes_failed": false
+    }
+   ],
+   "missing_concepts": [
+    "mourning on Tisha B'Av (aveilut)",
+    "cosmic consequences of a sin / causal responsibility for another's sin"
+   ],
+   "start_quote_found": true,
+   "end_quote_found": true
+  }
+ ],
+ "check": {
+  "non_vocab_tags": [],
+  "quotes": 16,
+  "quotes_not_found": 0
+ },
+ "id": "Shaarei-Haemuna_0033",
+ "chars": 522,
+ "seconds": 19
+}

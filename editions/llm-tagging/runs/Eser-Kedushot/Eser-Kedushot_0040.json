@@ -1,0 +1,122 @@
+{
+ "unit": {
+  "kind": "hasidic_story",
+  "why": "A single tale about Rabbi Zvi Hirsh (of Zhidachov) who, while gravely ill at the Seer of Lublin's court on Sukkot, is visited in the sukkah by an unknown old man later revealed as Abraham our father.",
+  "boundary_note": ""
+ },
+ "stories": [
+  {
+   "k": 1,
+   "start_quote": "סיפר מורינו הגה״ק מוהרי״א מקומארנא זצ\"ל שבפ\"א",
+   "end_quote": "הוא הי' אברהם אבינו ע\"ה והדבר ידוע",
+   "hasidic": true,
+   "summary_en": "When R. Zvi was very ill at the Seer of Lublin's court on Sukkot, he had himself carried up to the Seer's small sukkah to eat an olive's bulk; there his attendant found an unknown old man sitting with him, who vanished, and R. Zvi later revealed that it was Abraham our father (one of the ushpizin).",
+   "tags": [
+    {
+     "tag": "times:holidays",
+     "scope": "story",
+     "quotes": [],
+     "confidence": 3,
+     "why": "Set on Sukkot in the sukkah",
+     "quotes_failed": false
+    },
+    {
+     "tag": "spaces:institutions_hassidic_court",
+     "scope": "span",
+     "quotes": [
+      "והתאכסן בחצר קדשו של רבו מלובלין"
+     ],
+     "confidence": 3,
+     "why": "Lodging at the Lublin court",
+     "quotes_failed": false
+    },
+    {
+     "tag": "practice:travel_to_the_tsaddik",
+     "scope": "span",
+     "quotes": [
+      "בהיותו בלובלין על המועדים"
+     ],
+     "confidence": 2,
+     "why": "Disciple at his master's court for the festivals",
+     "quotes_failed": false
+    },
+    {
+     "tag": "social:inter_hasidic_master_disciple_relationship",
+     "scope": "span",
+     "quotes": [
+      "אל הסוכה קטנה של הרבי מלובלין"
+     ],
+     "confidence": 2,
+     "why": "R. Zvi as disciple of the Seer of Lublin",
+     "quotes_failed": false
+    },
+    {
+     "tag": "supernatural:communicating_with_the_invisible",
+     "scope": "span",
+     "quotes": [
+      "כי זקן אחר הבלתי ניכר לו יושב אצל הרב",
+      "כי הוא הי' אברהם אבינו ע\"ה"
+     ],
+     "confidence": 3,
+     "why": "Visit of the patriarch Abraham's soul",
+     "quotes_failed": false
+    },
+    {
+     "tag": "experience:revelation",
+     "scope": "span",
+     "quotes": [
+      "כי הוא הי' אברהם אבינו ע\"ה"
+     ],
+     "confidence": 2,
+     "why": "Supernatural disclosure of the patriarch",
+     "quotes_failed": false
+    },
+    {
+     "tag": "social:retrospective_recognition",
+     "scope": "span",
+     "quotes": [
+      "והגיד לו אח\"כ רבינו צבי כי הוא הי' אברהם אבינו"
+     ],
+     "confidence": 3,
+     "why": "The attendant learns afterwards who the old man was",
+     "quotes_failed": false
+    },
+    {
+     "tag": "practice:storytelling",
+     "scope": "span",
+     "quotes": [
+      "סיפר מורינו הגה״ק מוהרי״א מקומארנא זצ\"ל"
+     ],
+     "confidence": 2,
+     "why": "Framed as told by the Komarno rebbe",
+     "quotes_failed": false
+    },
+    {
+     "tag": "supernatural:miracle",
+     "scope": "span",
+     "quotes": [
+      "ואחרי זמן מה נעלם ממנו"
+     ],
+     "confidence": 1,
+     "why": "The visitor vanishes miraculously",
+     "quotes_failed": false
+    }
+   ],
+   "missing_concepts": [
+    "ushpizin (supernal guests in the sukkah)",
+    "illness of the tzaddik",
+    "biblical patriarch appearing"
+   ],
+   "start_quote_found": true,
+   "end_quote_found": true
+  }
+ ],
+ "check": {
+  "non_vocab_tags": [],
+  "quotes": 9,
+  "quotes_not_found": 0
+ },
+ "id": "Eser-Kedushot_0040",
+ "chars": 464,
+ "seconds": 12
+}

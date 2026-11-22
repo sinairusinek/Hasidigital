@@ -1,0 +1,133 @@
+{
+ "unit": {
+  "kind": "hasidic_story",
+  "why": "A memorate told by the author's father-in-law: the tsaddik of Rozdol wrote his books wrapped in tallit and tefillin and, on his deathbed, looked over his manuscripts and spoke about them.",
+  "boundary_note": ""
+ },
+ "stories": [
+  {
+   "k": 1,
+   "start_quote": "סיפר לי חותני הרה״צ המפו' מו\"ה מנחם מענדל",
+   "end_quote": "ווען מיר האבין דאם געשריבען",
+   "hasidic": true,
+   "summary_en": "The tsaddik of Rozdol wrote his books every day in seclusion, wrapped in tallit and tefillin; before his death he asked for his writings and declared that, having no son, he relied on his book, which seemed written by an angel and which he himself now had to strain to understand.",
+   "tags": [
+    {
+     "tag": "practice:tefillin",
+     "scope": "span",
+     "quotes": [
+      "מעוטף ומוכתר בטלית ותפילין"
+     ],
+     "confidence": 3,
+     "why": "He wrote his books while wearing tallit and tefillin.",
+     "quotes_failed": false
+    },
+    {
+     "tag": "practice:solitude",
+     "scope": "span",
+     "quotes": [
+      "בטלית ותפילין סגור ומסוגר"
+     ],
+     "confidence": 2,
+     "why": "He wrote shut away from others.",
+     "quotes_failed": false
+    },
+    {
+     "tag": "practice:study",
+     "scope": "span",
+     "quotes": [
+      "כתב ספריו בכל יום"
+     ],
+     "confidence": 2,
+     "why": "He devoted daily work to composing Torah books.",
+     "quotes_failed": false
+    },
+    {
+     "tag": "folkloristics:story_type_death_of_the_tsaddik",
+     "scope": "span",
+     "quotes": [
+      "ובעת שחלה חוליו האחרון ביקש לפני פטירתו",
+      "שיגישו לידו הכתבים שלו ועיין בהם"
+     ],
+     "confidence": 2,
+     "why": "The deathbed scene and his last words form the climax.",
+     "quotes_failed": false
+    },
+    {
+     "tag": "times:death",
+     "scope": "span",
+     "quotes": [
+      "ובעת שחלה חוליו האחרון ביקש לפני פטירתו"
+     ],
+     "confidence": 2,
+     "why": "His final illness and death are depicted.",
+     "quotes_failed": false
+    },
+    {
+     "tag": "characters-and-roles:the_family_of_the_tsaddik",
+     "scope": "span",
+     "quotes": [
+      "בן הצדיקת מרת הינדא ע\"ה בתו",
+      "מיר לאזין נישט איבער קיין בן זכר"
+     ],
+     "confidence": 2,
+     "why": "The tsaddik's grandson tells the story; his daughter is named and his lack of a son is discussed.",
+     "quotes_failed": false
+    },
+    {
+     "tag": "women:mention_only",
+     "scope": "span",
+     "quotes": [
+      "בן הצדיקת מרת הינדא ע\"ה בתו"
+     ],
+     "confidence": 3,
+     "why": "His daughter Hinda is named but does not act.",
+     "quotes_failed": false
+    },
+    {
+     "tag": "practice:storytelling",
+     "scope": "span",
+     "quotes": [
+      "סיפר לי חותני הרה״צ המפו'"
+     ],
+     "confidence": 1,
+     "why": "The story is framed as told by a named tsaddik, the author's father-in-law.",
+     "quotes_failed": false
+    },
+    {
+     "tag": "folkloristics:story_type_virtues",
+     "scope": "story",
+     "quotes": [],
+     "confidence": 2,
+     "why": "The story's point is the holiness with which he composed his writings.",
+     "quotes_failed": false
+    },
+    {
+     "tag": "practice:clothing",
+     "scope": "span",
+     "quotes": [
+      "מעוטף ומוכתר בטלית ותפילין"
+     ],
+     "confidence": 1,
+     "why": "He was wrapped in a tallit as a sign of holiness while writing.",
+     "quotes_failed": false
+    }
+   ],
+   "missing_concepts": [
+    "writing of sacred books as a holy act",
+    "books as a tsaddik's legacy in place of sons",
+    "the author unable to grasp his own inspired writing"
+   ],
+   "start_quote_found": true,
+   "end_quote_found": true
+  }
+ ],
+ "check": {
+  "non_vocab_tags": [],
+  "quotes": 11,
+  "quotes_not_found": 0
+ },
+ "id": "Eser-Kedushot_0105",
+ "chars": 580,
+ "seconds": 18
+}

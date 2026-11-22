@@ -1,0 +1,164 @@
+{
+ "unit": {
+  "kind": "several_stories",
+  "why": "A genealogical account of R. Zvi's son and four daughters and their marriages. It contains two short narratives: the Seer of Lublin making two matches by reading R. Zvi's kvitlekh, and R. Zvi's prediction of a grandson to be named after him.",
+  "boundary_note": "Ends with a heading that opens the next section ('חידושים ומאמרים בדרך פשטי התורה'), so the teachings section begins in the next division."
+ },
+ "stories": [
+  {
+   "k": 1,
+   "start_quote": "אשר מרן החוזה הקדוש מלובלין הי' השדכן",
+   "end_quote": "מראזלי היתה שחורה]",
+   "hasidic": true,
+   "summary_en": "The Seer of Lublin arranged the matches of R. Zvi's twin daughters. Reading R. Zvi's kvitlekh, he assigned 'the white one' to R. Yosli's son and 'the black one' to R. Moshe of Sambor's son, matching the daughters' complexions.",
+   "tags": [
+    {
+     "tag": "social:marriage",
+     "scope": "span",
+     "quotes": [
+      "הי' השדכן משתי אלה הזיווגים"
+     ],
+     "confidence": 3,
+     "why": "The Seer acts as matchmaker for two marriages.",
+     "quotes_failed": false
+    },
+    {
+     "tag": "characters-and-roles:the_family_of_the_tsaddik",
+     "scope": "story",
+     "quotes": [],
+     "confidence": 3,
+     "why": "The tzaddik's daughters are the subject.",
+     "quotes_failed": false
+    },
+    {
+     "tag": "supernatural:perception",
+     "scope": "span",
+     "quotes": [
+      "בקראו הצעטלין של רבינו צבי אמר מרן החוזה",
+      "דיא שווארצע להרבי ר' משה מסאמבור"
+     ],
+     "confidence": 2,
+     "why": "From the kvitlekh alone, the Seer knows the brides' complexions.",
+     "quotes_failed": false
+    },
+    {
+     "tag": "women:mention_only",
+     "scope": "span",
+     "quotes": [
+      "היתה תאומים עם אחותה הרבנית הצדיקת מרת חיה"
+     ],
+     "confidence": 2,
+     "why": "The brides are referred to but do not act.",
+     "quotes_failed": false
+    }
+   ],
+   "missing_concepts": [
+    "matchmaking (shidduch) by a tzaddik",
+    "kvitl reading"
+   ],
+   "start_quote_found": true,
+   "end_quote_found": true
+  },
+  {
+   "k": 2,
+   "start_quote": "ולא נשאר להם בנים זכרים רק אחד",
+   "end_quote": "ד׳ ירחים אחר פטירתו",
+   "hasidic": true,
+   "summary_en": "R. Zvi told his daughter Rivkale, whose sons had died, that within the year she would bear a long-lived son who must be named Zvi after him. She wept. R. Zvi died, and the son was born four months later.",
+   "tags": [
+    {
+     "tag": "folkloristics:story_type_prognostication",
+     "scope": "story",
+     "quotes": [],
+     "confidence": 3,
+     "why": "The arc is a prediction that comes true.",
+     "quotes_failed": false
+    },
+    {
+     "tag": "supernatural:prognostication",
+     "scope": "span",
+     "quotes": [
+      "בשנה ההיא תלד בן זכר והוא יאריך ימים",
+      "וכן הי' אשר רבינו צבי נפטר"
+     ],
+     "confidence": 3,
+     "why": "The birth and the son's long life were foretold.",
+     "quotes_failed": false
+    },
+    {
+     "tag": "times:birth",
+     "scope": "span",
+     "quotes": [
+      "ובנה נולד ירח חשון תקצ״ב"
+     ],
+     "confidence": 3,
+     "why": "The predicted birth occurs.",
+     "quotes_failed": false
+    },
+    {
+     "tag": "times:death",
+     "scope": "span",
+     "quotes": [
+      "אשר רבינו צבי נפטר י\"א תמוז תקצ״א"
+     ],
+     "confidence": 2,
+     "why": "The tzaddik's death, implied by the naming instruction, takes place.",
+     "quotes_failed": false
+    },
+    {
+     "tag": "characters-and-roles:the_family_of_the_tsaddik",
+     "scope": "story",
+     "quotes": [],
+     "confidence": 3,
+     "why": "The tzaddik's daughter and grandson are the subject.",
+     "quotes_failed": false
+    },
+    {
+     "tag": "women:minor_character",
+     "scope": "span",
+     "quotes": [
+      "קרא זקינינו רבינו צבי לבתו מרת רבקהלי",
+      "והתחילה לבכות"
+     ],
+     "confidence": 2,
+     "why": "The daughter is addressed and reacts by weeping.",
+     "quotes_failed": false
+    },
+    {
+     "tag": "ethics-and-emotions:sadness",
+     "scope": "span",
+     "quotes": [
+      "והתחילה לבכות אבל הוא אמר"
+     ],
+     "confidence": 1,
+     "why": "She weeps on understanding that her father will die.",
+     "quotes_failed": false
+    },
+    {
+     "tag": "supernatural:miracle",
+     "scope": "span",
+     "quotes": [
+      "ושל\"ח ב\"מ ולא נשאר להם בנים זכרים"
+     ],
+     "confidence": 1,
+     "why": "After her other children died, a surviving son is born through the blessing.",
+     "quotes_failed": false
+    }
+   ],
+   "missing_concepts": [
+    "naming a child after a deceased tzaddik",
+    "child mortality"
+   ],
+   "start_quote_found": true,
+   "end_quote_found": true
+  }
+ ],
+ "check": {
+  "non_vocab_tags": [],
+  "quotes": 12,
+  "quotes_not_found": 0
+ },
+ "id": "Eser-Kedushot_0051",
+ "chars": 2932,
+ "seconds": 22
+}

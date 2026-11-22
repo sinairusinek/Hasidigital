@@ -1,0 +1,147 @@
+{
+ "unit": {
+  "kind": "hasidic_story",
+  "why": "An anecdote: the tzaddik's wife rebukes him for giving to his opponents, and he answers with a homiletic explanation.",
+  "boundary_note": ""
+ },
+ "stories": [
+  {
+   "k": 1,
+   "start_quote": "הי׳ דרכו בקודש להעניק לאנשי ריבו",
+   "end_quote": "ונשאר בפרנסתינו עכד״ק",
+   "hasidic": true,
+   "summary_en": "The tzaddik used to give generously to his opponents. His wife Sarah, daughter of R. Zvi of Zhidachov, urged him to punish them instead. He answered that the world stands on whoever keeps silent during a quarrel, and that this, not his being a tzaddik, is why people support him.",
+   "tags": [
+    {
+     "tag": "characters-and-roles:the_family_of_the_tsaddik",
+     "scope": "span",
+     "quotes": [
+      "הוכיחה אותו ע״ז זוגתו הרבנית הצדיקת מרת שרה"
+     ],
+     "confidence": 3,
+     "why": "His wife is the interlocutor",
+     "quotes_failed": false
+    },
+    {
+     "tag": "women:minor_character",
+     "scope": "span",
+     "quotes": [
+      "ופ\"א הוכיחה אותו ע״ז זוגתו הרבנית הצדיקת מרת שרה"
+     ],
+     "confidence": 2,
+     "why": "The wife acts by speaking, but the story centres on his reply",
+     "quotes_failed": false
+    },
+    {
+     "tag": "social:marital_relationship",
+     "scope": "span",
+     "quotes": [
+      "ע״כ אהובתי הרבנית שמע לקולי"
+     ],
+     "confidence": 2,
+     "why": "An exchange between husband and wife",
+     "quotes_failed": false
+    },
+    {
+     "tag": "ethics-and-emotions:charity",
+     "scope": "span",
+     "quotes": [
+      "להעניק לאנשי ריבו מטובו ופזר נתן לשונאיו"
+     ],
+     "confidence": 3,
+     "why": "He gives to his opponents",
+     "quotes_failed": false
+    },
+    {
+     "tag": "ethics-and-emotions:humility",
+     "scope": "span",
+     "quotes": [
+      "הלא אנכי היודע שאין אני בגדר צדיק יסוד עולם"
+     ],
+     "confidence": 3,
+     "why": "He denies that he is a tzaddik",
+     "quotes_failed": false
+    },
+    {
+     "tag": "ethics-and-emotions:punishment",
+     "scope": "span",
+     "quotes": [
+      "ויותר הי׳ טוב להעניש הרשעים האלה"
+     ],
+     "confidence": 1,
+     "why": "Punishment is proposed but rejected",
+     "quotes_failed": false
+    },
+    {
+     "tag": "social:conflict",
+     "scope": "span",
+     "quotes": [
+      "יותר טוב לשתוק ולסבול לשונאינו וריבנו"
+     ],
+     "confidence": 2,
+     "why": "Opponents in a dispute with the tzaddik",
+     "quotes_failed": false
+    },
+    {
+     "tag": "folkloristics:story_type_virtues",
+     "scope": "story",
+     "quotes": [],
+     "confidence": 3,
+     "why": "Illustrates his forbearance and humility",
+     "quotes_failed": false
+    },
+    {
+     "tag": "practice:torat_ha_tsaddik",
+     "scope": "span",
+     "quotes": [
+      "והצדיק הוא היסוד [כמ\"ש וצדיק יסוד עולם]",
+      "ראוי שכל העולם יתנו לו מעות להחזיקו"
+     ],
+     "confidence": 3,
+     "why": "Doctrine of the tzaddik as foundation of the world, supported by the people",
+     "quotes_failed": false
+    },
+    {
+     "tag": "practice:sermon",
+     "scope": "span",
+     "quotes": [
+      "תולה ארץ על בלימה אין העולם מתקיים"
+     ],
+     "confidence": 2,
+     "why": "His reply is a homiletic exposition",
+     "quotes_failed": false
+    },
+    {
+     "tag": "not-a-hasidic-story:sermon",
+     "scope": "story",
+     "quotes": [],
+     "confidence": 1,
+     "why": "Most of the text is a homiletic answer",
+     "quotes_failed": false
+    },
+    {
+     "tag": "ethics-and-emotions:virtues",
+     "scope": "story",
+     "quotes": [],
+     "confidence": 2,
+     "why": "The virtue of keeping silent in a quarrel",
+     "quotes_failed": false
+    }
+   ],
+   "missing_concepts": [
+    "forbearance / silence in the face of opponents (בולם עצמו בשעת מריבה)",
+    "the tzaddik's income from followers' money (pidyonot / maamad)"
+   ],
+   "start_quote_found": true,
+   "end_quote_found": true
+  }
+ ],
+ "check": {
+  "non_vocab_tags": [],
+  "quotes": 10,
+  "quotes_not_found": 0
+ },
+ "id": "Eser-Kedushot_0108",
+ "chars": 1152,
+ "seconds": 15
+}

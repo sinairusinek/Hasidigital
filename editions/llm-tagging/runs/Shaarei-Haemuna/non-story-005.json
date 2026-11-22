@@ -1,0 +1,226 @@
+{
+ "unit": {
+  "kind": "several_stories",
+  "why": "An anthology section of teachings on love of friends, gemilut hasadim and hospitality (Yesod ha-Avodah, R. Elimelekh's 'three pillars', the Apter Rav's homily on escorting guests, Jacob crossing his hands). Three short narratives are embedded in it: two Talmudic anecdotes from Ketubot 67 and one Hasidic anecdote about R. Moshe of Przeworsk.",
+  "boundary_note": "The Przeworsk anecdote is cut in the middle by a long editor's footnote (המאסף) and resumes after it with 'אורח. וז״פ עוה״ז דומה לפרוזדור'. The anthology on gemilut hasadim continues into the next division."
+ },
+ "stories": [
+  {
+   "k": 1,
+   "start_quote": "אמרו עליו על הלל הזקן שלקח",
+   "end_quote": "ורץ לפניו שלשה מילין",
+   "hasidic": false,
+   "summary_en": "Hillel the Elder provided an impoverished man of good family with a horse and a servant, and once, finding no servant, ran before him himself for three miles.",
+   "tags": [
+    {
+     "tag": "ethics-and-emotions:charity",
+     "scope": "span",
+     "quotes": [
+      "שלקח למני בן טובים אחד סוס לרכוב עליו"
+     ],
+     "confidence": 3,
+     "why": "providing for a poor man according to his former status",
+     "quotes_failed": false
+    },
+    {
+     "tag": "not-a-hasidic-story:hagiography",
+     "scope": "story",
+     "quotes": [],
+     "confidence": 2,
+     "why": "praises a Talmudic sage, copied from Ketubot",
+     "quotes_failed": false
+    },
+    {
+     "tag": "not-a-hasidic-story:virtues",
+     "scope": "story",
+     "quotes": [],
+     "confidence": 3,
+     "why": "cited as an exemplum within a section on gemilut hasadim",
+     "quotes_failed": false
+    },
+    {
+     "tag": "ethics-and-emotions:humility",
+     "scope": "span",
+     "quotes": [
+      "ורץ לפניו שלשה מילין"
+     ],
+     "confidence": 2,
+     "why": "the sage himself runs before the poor man",
+     "quotes_failed": false
+    }
+   ],
+   "missing_concepts": [
+    "supporting the 'poor of good family' according to their former standard"
+   ],
+   "start_quote_found": true,
+   "end_quote_found": true
+  },
+  {
+   "k": 2,
+   "start_quote": "האי דאתי לקמיה דרבא א״ל במה",
+   "end_quote": "א״ל נעניתי לך קום אכול",
+   "hasidic": false,
+   "summary_en": "A poor man asks Rava for fattened chicken and old wine, citing God's provision of each person's food in its time. Just then Rava's sister, unseen for thirteen years, arrives bearing exactly those foods, and Rava concedes.",
+   "tags": [
+    {
+     "tag": "ethics-and-emotions:charity",
+     "scope": "span",
+     "quotes": [
+      "במה אתה סועד א״ל בתרנגולת פסומה ויין ישן"
+     ],
+     "confidence": 3,
+     "why": "the dispute concerns how far charity should provide for a poor man",
+     "quotes_failed": false
+    },
+    {
+     "tag": "not-a-hasidic-story:hagiography",
+     "scope": "story",
+     "quotes": [],
+     "confidence": 1,
+     "why": "Talmudic anecdote about Rava",
+     "quotes_failed": false
+    },
+    {
+     "tag": "not-a-hasidic-story:virtues",
+     "scope": "story",
+     "quotes": [],
+     "confidence": 3,
+     "why": "exemplum in a section on gemilut hasadim",
+     "quotes_failed": false
+    },
+    {
+     "tag": "social:retrospective_recognition",
+     "scope": "span",
+     "quotes": [
+      "אמר מה דקמי. א״ל נעניתי לך קום אכול"
+     ],
+     "confidence": 2,
+     "why": "Rava realizes the poor man's claim was justified",
+     "quotes_failed": false
+    },
+    {
+     "tag": "women:minor_character",
+     "scope": "span",
+     "quotes": [
+      "אדהכי אתא אחתיה דרבא דלא חזי ליה תליסר שני"
+     ],
+     "confidence": 3,
+     "why": "Rava's sister arrives and brings the food",
+     "quotes_failed": false
+    },
+    {
+     "tag": "supernatural:miracle",
+     "scope": "span",
+     "quotes": [
+      "ואתיא ליה תרנגולת פטומה ויין ישן"
+     ],
+     "confidence": 1,
+     "why": "providential arrival of the exact foods",
+     "quotes_failed": false
+    },
+    {
+     "tag": "practice:drinking_alcohol",
+     "scope": "span",
+     "quotes": [
+      "בתרנגולת פסומה ויין ישן"
+     ],
+     "confidence": 1,
+     "why": "old wine as the requested fare",
+     "quotes_failed": false
+    },
+    {
+     "tag": "practice:sermon",
+     "scope": "span",
+     "quotes": [
+      "בעתם לא נאמר אלא בעתו"
+     ],
+     "confidence": 2,
+     "why": "exegesis of a verse within the story",
+     "quotes_failed": false
+    }
+   ],
+   "missing_concepts": [
+    "divine providence in livelihood (each person's sustenance)"
+   ],
+   "start_quote_found": true,
+   "end_quote_found": true
+  },
+  {
+   "k": 3,
+   "start_quote": "ונוראות שמעתי על הה״ק א״א ר׳ משה מפרשעווארסק",
+   "end_quote": "הטרקלין בבואו עכ״ל",
+   "hasidic": true,
+   "summary_en": "A guest rebuked R. Moshe of Przeworsk, author of Or Penei Moshe, for having no benches in his house. The rebbe asked why the guest had none, the guest replied that he was only a passing traveller, and the rebbe answered that he too is a traveller, since this world is only a corridor.",
+   "tags": [
+    {
+     "tag": "social:poverty",
+     "scope": "span",
+     "quotes": [
+      "שהוכיחו אורח על שאין לו ספסלין בביתו"
+     ],
+     "confidence": 3,
+     "why": "the tsaddik deliberately lives without basic furnishings",
+     "quotes_failed": false
+    },
+    {
+     "tag": "folkloristics:story_type_virtues",
+     "scope": "story",
+     "quotes": [],
+     "confidence": 3,
+     "why": "illustrates the tsaddik's detachment from worldly comfort",
+     "quotes_failed": false
+    },
+    {
+     "tag": "not-a-hasidic-story:virtues",
+     "scope": "story",
+     "quotes": [],
+     "confidence": 2,
+     "why": "cited as an exemplum in a section on hospitality and gemilut hasadim",
+     "quotes_failed": false
+    },
+    {
+     "tag": "practice:sermon",
+     "scope": "span",
+     "quotes": [
+      "וז״פ עוה״ז דומה לפרוזדור"
+     ],
+     "confidence": 2,
+     "why": "the punchline expounds a Mishnah from Avot",
+     "quotes_failed": false
+    },
+    {
+     "tag": "ethics-and-emotions:virtues",
+     "scope": "story",
+     "quotes": [],
+     "confidence": 2,
+     "why": "renunciation of the world as a virtue",
+     "quotes_failed": false
+    },
+    {
+     "tag": "practice:asceticism",
+     "scope": "span",
+     "quotes": [
+      "על שאין לו ספסלין בביתו כנהוג"
+     ],
+     "confidence": 1,
+     "why": "austerity in his household",
+     "quotes_failed": false
+    }
+   ],
+   "missing_concepts": [
+    "this world as a corridor or transience (עובר אורח)",
+    "hospitality setting: a guest at the tsaddik's house"
+   ],
+   "start_quote_found": true,
+   "end_quote_found": true
+  }
+ ],
+ "check": {
+  "non_vocab_tags": [],
+  "quotes": 11,
+  "quotes_not_found": 0
+ },
+ "id": "non-story-005",
+ "chars": 2862,
+ "seconds": 35
+}

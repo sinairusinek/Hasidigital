@@ -1,0 +1,133 @@
+{
+ "unit": {
+  "kind": "hasidic_story",
+  "why": "A short memorate, transmitted through named tellers, about R. Zvi Hirsh being overwhelmed with awe while about to pray and finding a way to pray with self-sacrifice.",
+  "boundary_note": ""
+ },
+ "stories": [
+  {
+   "k": 1,
+   "start_quote": "סיפר הרה״ק מראודל הכו' בשם חותנו",
+   "end_quote": "מפי הק׳ מראזלא בשמו",
+   "hasidic": true,
+   "summary_en": "When R. Zvi Hirsh began to pray, contemplating God's greatness and his own lowliness overwhelmed him with awe and shame until he could not pray, and he resolved it by offering his soul in self-sacrifice, reasoning that before the Infinite all creatures are as nothing.",
+   "tags": [
+    {
+     "tag": "ethics-and-emotions:awe",
+     "scope": "span",
+     "quotes": [
+      "נפל עליו אימה ופחד ובושה גדולה"
+     ],
+     "confidence": 3,
+     "why": "Religious awe before God's greatness is the story's core.",
+     "quotes_failed": false
+    },
+    {
+     "tag": "ethics-and-emotions:fear",
+     "scope": "span",
+     "quotes": [
+      "נפל עליו אימה ופחד ובושה גדולה"
+     ],
+     "confidence": 2,
+     "why": "He is gripped by dread before God.",
+     "quotes_failed": false
+    },
+    {
+     "tag": "ethics-and-emotions:shame",
+     "scope": "span",
+     "quotes": [
+      "ובושה גדולה ולא הי׳ יכול להרים ראש"
+     ],
+     "confidence": 2,
+     "why": "He feels great shame before God; this is spiritual shame, not social.",
+     "quotes_failed": false
+    },
+    {
+     "tag": "ethics-and-emotions:humility",
+     "scope": "span",
+     "quotes": [
+      "ובשפלות עצמו נפל עליו אימה",
+      "גם בריה שנפלהשפלה כמוני יכול להתפלל"
+     ],
+     "confidence": 3,
+     "why": "His sense of his own lowliness drives the plot and its resolution.",
+     "quotes_failed": false
+    },
+    {
+     "tag": "practice:prayer",
+     "scope": "span",
+     "quotes": [
+      "פ\"א נכנס להתפלל",
+      "ואופן להתפלל לפניו ית״ש"
+     ],
+     "confidence": 3,
+     "why": "The whole episode concerns how he can bring himself to pray.",
+     "quotes_failed": false
+    },
+    {
+     "tag": "practice:devekut",
+     "scope": "span",
+     "quotes": [
+      "כי כמעט נתבטל במציאות"
+     ],
+     "confidence": 2,
+     "why": "He is shown nearly annulled, absorbed in contemplation of God.",
+     "quotes_failed": false
+    },
+    {
+     "tag": "practice:meditation",
+     "scope": "span",
+     "quotes": [
+      "וכשהתחיל להתבונן בגדלות הבורא ית״ש"
+     ],
+     "confidence": 2,
+     "why": "Contemplation of God's greatness before prayer.",
+     "quotes_failed": false
+    },
+    {
+     "tag": "practice:storytelling",
+     "scope": "span",
+     "quotes": [
+      "סיפר הרה״ק מראודל הכו' בשם חותנו",
+      "ששמע זאת הגה\"צ מו\"ה יצחק ווייס"
+     ],
+     "confidence": 2,
+     "why": "The text frames the story as told by a named tsaddik and passes it down a named chain.",
+     "quotes_failed": false
+    },
+    {
+     "tag": "folkloristics:story_type_virtues",
+     "scope": "story",
+     "quotes": [],
+     "confidence": 2,
+     "why": "The story illustrates the tsaddik's humility and awe in prayer.",
+     "quotes_failed": false
+    },
+    {
+     "tag": "characters-and-roles:the_family_of_the_tsaddik",
+     "scope": "span",
+     "quotes": [
+      "בשם חותנו רבינו צבי"
+     ],
+     "confidence": 1,
+     "why": "The teller is the tsaddik's son-in-law, but only as narrator, not as an actor.",
+     "quotes_failed": false
+    }
+   ],
+   "missing_concepts": [
+    "self-sacrifice (mesirut nefesh) in prayer",
+    "self-annulment (bittul) before the Infinite"
+   ],
+   "start_quote_found": true,
+   "end_quote_found": true
+  }
+ ],
+ "check": {
+  "non_vocab_tags": [],
+  "quotes": 12,
+  "quotes_not_found": 0
+ },
+ "id": "Eser-Kedushot_0052",
+ "chars": 645,
+ "seconds": 18
+}
