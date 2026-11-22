@@ -8,7 +8,8 @@ Fails (exit 1) on any of:
   - header fields the site reads: titleStmt/title[@type=main],
     sourceDesc/bibl/pubPlace and sourceDesc//bibl/date (no <imprint> wrapper),
     editionStmt/edition/@n, revisionDesc/change/@when
-  - no <pb> (image names not in the {Slug}_{NNNN}.jpg form are only noted)
+  - no <pb>, or a <pb> inside <fw> or <head> (the site hides those, so the page image never
+    shows: fix with hoist_pb.py) (image names not in the {Slug}_{NNNN}.jpg form are only noted)
   - a story <div> without xml:id or without <head type="storyHead">
   - duplicate xml:id; a leftover ana="FLAGGED..."
   - no NER tags at all
@@ -57,6 +58,10 @@ def check(path, images=False):
     pbs = txt.findall(f'.//{T}pb')
     if not pbs:
         errs.append('no <pb>')
+    hidden = [pb for pb in pbs if any(a.tag in (T + 'fw', T + 'head') for a in pb.iterancestors())]
+    if hidden:
+        errs.append(f'{len(hidden)} <pb> inside <fw>/<head>, whose images the site will not show '
+                    f'(e.g. {hidden[0].get("facs")}); run editions/scripts/hoist_pb.py --write')
     bad_facs = [pb.get('facs') for pb in pbs if not re.fullmatch(re.escape(slug) + r'_\d{4}\.jpg', pb.get('facs') or '')]
     if bad_facs:  # legacy names (e.g. MifalotZadikim-0001.jpg) work on the site; --images checks they exist
         notes.append(f'{len(bad_facs)} pb/@facs not in the {slug}_NNNN.jpg form, e.g. {bad_facs[0]}')

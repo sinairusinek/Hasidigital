@@ -28,7 +28,7 @@ If a step is skipped on purpose, say so to Sinai before the upload and record it
    - Choosing the engine: see memory `project-ner-correction-engine-comparison`.
    - **Paid runs: pilot first, then ask Sinai to approve the measured cost.** Keep the `gemini-correction-log-*.tsv`.
    - Then the text outside stories (Sinai, 2026-11-22: paratext and non-story text are corrected and linked too, though the site does not show them): `python3 editions/scripts/correct_non_story.py X.xml X.xml` with `GEMINI_THINKING_BUDGET=1024`. Linked tags are never dropped or re-spanned.
-9. **Finish.** `editions/scripts/finish_corrected.py CORRECTED OUT BAK "note"`. It removes empty tags and FLAGGED notes, puts the root in the default namespace, writes the site header (`site_header.py`) and restores the page breaks (`restore_pb.py`).
+9. **Finish.** `editions/scripts/finish_corrected.py CORRECTED OUT BAK "note"`. It removes empty tags and FLAGGED notes, puts the root in the default namespace, writes the site header (`site_header.py`) and restores the page breaks (`restore_pb.py`). Then run `editions/scripts/hoist_pb.py OUT --write`: a page that starts with a running head gets its `<pb>` inside the `<fw>`, and the site's edition view never shows that page's image (Shaarei-Haemuna, 2026-11-22). The gate fails on it.
 10. **Places.** `python3 editions/scripts/link_places.py X.xml --write` links by exact name variant, in stories and outside them. It does not touch the Kima Review file. The names it leaves unmatched go to the Kima pipeline (`editions/kimatch/`).
 11. **Persons.** Link persons with Shidduch (`~/Documents/GitHub/Shidduch`). Not yet applied to any edition: say so at upload.
 
