@@ -86,7 +86,7 @@ def main():
     items = meta if isinstance(meta, list) else meta['editions']
     m = next(x for x in items if x['xml_filename'] == path.name)
     xml = path.read_text(encoding='utf-8')
-    hdr = re.search(r'<teiHeader>.*?</teiHeader>', xml, re.S)
+    hdr = re.search(r'<teiHeader\b[^>]*>.*?</teiHeader>', xml, re.S)
     old = re.search(r'<revisionDesc>(.*?)</revisionDesc>', hdr.group(), re.S)
     new = build(m, path.name, old.group(1) if old else '')
     print(new)
