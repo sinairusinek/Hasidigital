@@ -139,6 +139,7 @@ def _get_api_key(api_key=None):
 
 CLAUDE_CLI_BIN = os.environ.get("CLAUDE_CLI_BIN", "claude")
 CLAUDE_CLI_MODEL = os.environ.get("CLAUDE_CLI_MODEL", "claude-sonnet-5-5")
+GEMINI_USAGE_LOG = os.environ.get("GEMINI_USAGE_LOG")  # optional TSV: model, passages, in, out, thinking, prompt chars
 CLAUDE_USAGE_LOG = os.environ.get("CLAUDE_USAGE_LOG")  # optional TSV of per-call usage
 
 
@@ -340,6 +341,15 @@ def _call_gemini_passages(
                     ),
                 )
                 raw = response.text
+                if GEMINI_USAGE_LOG:
+                    u = getattr(response, "usage_metadata", None)
+                    with open(GEMINI_USAGE_LOG, "a", encoding="utf-8") as fh:
+                        fh.write("\t".join(str(x) for x in (
+                            model_name, n,
+                            getattr(u, "prompt_token_count", ""),
+                            getattr(u, "candidates_token_count", ""),
+                            getattr(u, "thoughts_token_count", ""),
+                            len(prompt))) + "\n")
             try:
                 result = json.loads(raw)
             except json.JSONDecodeError:
