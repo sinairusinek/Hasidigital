@@ -31,6 +31,9 @@ def outer_stories(root):
 def main():
     src, out = Path(sys.argv[1]), Path(sys.argv[2])
     env = dict(os.environ)
+    # --story-id A,B: correct those story divs instead of the non-story text (split stories)
+    sid = sys.argv[sys.argv.index('--story-id') + 1] if '--story-id' in sys.argv else '@non-story'
+    keep_new = set(sid.split(',')) if sid != '@non-story' else set()
     if '--engine' in sys.argv and sys.argv[sys.argv.index('--engine') + 1] == 'claude-cli':
         env['NER_CORRECTOR'] = 'claude-cli'
     if '--from-corrected' in sys.argv:  # finish a run whose Gemini part already ran
@@ -42,13 +45,13 @@ def main():
         shutil.copy(src, tmp)
         print('scratch copy:', tmp, flush=True)
         subprocess.run([sys.executable, '-m', 'ner_pipeline.cli', '--input', str(tmp), '--correct',
-                        '--story-id', '@non-story', '--max-removal-pct', '60', '--output-suffix', ''],
+                        '--story-id', sid, '--max-removal-pct', '60', '--output-suffix', ''],
                        cwd=ROOT, env=env, check=True)
     log = tmpd / 'gemini-correction-log.tsv'
     if log.exists():
         d = ROOT / 'editions' / 'ner-logs'
         d.mkdir(exist_ok=True)
-        shutil.copy(log, d / f'gemini-correction-log-{src.stem}-non-story.tsv')
+        shutil.copy(log, d / f'gemini-correction-log-{src.stem}-{"split-stories" if keep_new else "non-story"}.tsv')
     orig = etree.parse(str(src))
     # the inserter can write the same <anchor xml:id=X/> twice (a tag ending at a <supplied>
     # boundary); drop the repeats, as finish_corrected.py does
@@ -64,6 +67,8 @@ def main():
     o_st, c_st = outer_stories(orig.getroot()), outer_stories(corr.getroot())
     assert len(o_st) == len(c_st), 'story count differs'
     for o, c in zip(o_st, c_st):
+        if o.get('{http://www.w3.org/XML/1998/namespace}id') in keep_new:
+            continue
         n = copy.deepcopy(o)
         n.tail = c.tail
         c.getparent().replace(c, n)
@@ -73,6 +78,17 @@ def main():
         assert len(ot.findall(f'.//{T}{tag}')) == len(ct.findall(f'.//{T}{tag}')), f'{tag} count changed'
     # the header is the original's (the pipeline may touch it)
     corr.getroot().replace(corr.getroot().find(T + 'teiHeader'), copy.deepcopy(orig.getroot().find(T + 'teiHeader')))
+    if keep_new:  # the rest of the file exactly as it was: put the corrected stories into the original
+        new = {d.get('{http://www.w3.org/XML/1998/namespace}id'): d for d in c_st}
+        for o in o_st:
+            i = o.get('{http://www.w3.org/XML/1998/namespace}id')
+            if i in keep_new:
+                n = copy.deepcopy(new[i])
+                n.tail = o.tail
+                o.getparent().replace(o, n)
+        corr = orig
+        ct = corr.getroot().find(T + 'text')
+        assert ''.join(ot.itertext()) == ''.join(ct.itertext()), 'text changed'
     corr.write(str(out), xml_declaration=True, encoding='UTF-8')
     cnt = lambda t: {k: len(t.findall(f'.//{T}{k}')) for k in ('placeName', 'persName', 'name', 'date')}
     print('before', cnt(ot), '\nafter ', cnt(ct))
