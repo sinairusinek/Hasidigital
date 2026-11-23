@@ -13,6 +13,8 @@ import re
 from collections import Counter
 from datetime import date
 from pathlib import Path
+import sys
+sys.path.insert(0, str(Path(__file__).resolve().parent / "scripts"))
 
 REPO = Path(__file__).resolve().parent.parent
 REGISTRY = REPO / "editions" / "edition-registry.tsv"
@@ -68,7 +70,7 @@ def story_summary(files):
             f'the incoming editions are not yet checked for duplicates, and looser retellings are not counted.</div></div>')
 
 
-STAGES = ["Decision", "Scan", "Transkribus", "Scan QA", "Layout test", "Layout", "Transcribed", "TEI", "Stories", "Online", "Women", "Zenodo"]
+STAGES = ["Decision", "Scan", "Transkribus", "Scan QA", "Layout test", "Layout", "Transcribed", "TEI", "Stories", "Topics", "Online", "Women", "Zenodo"]
 LABELS = {"done": "Done", "part": "In progress / partial", "todo": "Not started",
           "block": "Blocked (needs a scan or Gadi)", "na": "N/A"}
 
@@ -92,6 +94,7 @@ def resolve(name, files):
 
 TRP_LINK = "https://app.transkribus.org/collection/49371/doc/{}/edit?pageNr=1"
 SITE_STORY = "https://www.hasidic-stories.org/Story/{}/{}"
+EXIST_DATA = "https://teipub9.dh-dev.com/exist/rest/db/apps/HasidicStoriesServer/data/"
 
 
 def first_story_id(path):
@@ -174,6 +177,50 @@ def layout_cells(r, c, has_xml):
                        f"local layout uploaded to Transkribus {when}, {pp} pp; next: review it in Transkribus, collecting layout issues for a fix pass on all books, then HTR")
 
 
+_SERVER = None
+
+
+def server_dates():
+    """file name -> last-modified on the eXist server (public REST listing), {} when offline."""
+    global _SERVER
+    if _SERVER is None:
+        try:
+            import urllib.request
+            x = urllib.request.urlopen(EXIST_DATA, timeout=30).read().decode("utf-8")
+            _SERVER = dict(re.findall(r'name="([^"]+\.xml)"[^>]*last-modified="([^"]+)"', x))
+        except Exception:
+            _SERVER = {}
+    return _SERVER
+
+
+def topics_cell(path, n):
+    """Topic tags on every story (the pre-upload gate's topic check)."""
+    from preupload_check import check
+    errs, _ = check(str(path))
+    topic = [e for e in errs if "TOPIC TAGGING" in e]
+    other = [e for e in errs if "TOPIC TAGGING" not in e]
+    llm = 'resp="#llm-tagging"' in path.read_text(encoding="utf-8")
+    if topic:
+        m = re.search(r"(\d+) of (\d+)", topic[0])
+        return ("part" if m and m.group(1) != m.group(2) else "todo", f"{m.group(1)} of {m.group(2)} untagged" if m else "")
+    return ("done" if not other else "part", ("LLM-tagged" if llm else "hand-tagged") + ("" if not other else "; gate: " + other[0][:60]))
+
+
+def online_cell(path, loc):
+    if loc != "online" and loc != "incoming":
+        return ("todo", "")
+    srv = server_dates().get(path.name)
+    if not srv:
+        return ("todo", "ready, not uploaded" if loc == "incoming" else "not on the server")
+    import subprocess
+    repo = subprocess.run(["git", "log", "-1", "--format=%cI", "--", str(path)], cwd=REPO,
+                          capture_output=True, text=True).stdout.strip()
+    from datetime import datetime
+    if repo and datetime.fromisoformat(repo) > datetime.fromisoformat(re.sub(r"\.\d+", "", srv).replace("Z", "+00:00")):
+        return ("part", f"online; repo newer ({repo[:10]}) than the site ({srv[:10]}): re-upload")
+    return ("done", f"online, up to date ({srv[:10]})")
+
+
 def cells(r, files):
     c = {}
     dec, step = r["decision"], r["next_step"]
@@ -220,12 +267,13 @@ def cells(r, files):
         n, women = stories_and_women(path)
         c["TEI"] = ("done", f"{path.name} ({loc})")
         c["Stories"] = ("part" if loc == "check" else "done", f"{n} stories" + (", structure check" if loc == "check" else ""))
-        c["Online"] = ("done", "") if loc == "online" else ("todo", "ready" if loc == "incoming" else "")
+        c["Topics"] = topics_cell(path, n)
+        c["Online"] = online_cell(path, loc)
         c["Women"] = ("done", "") if women else ("todo", "")
         c["Zenodo"] = ("done", "v1") if key in ZENODO_V1 else ("todo", "")
     else:
         c["TEI"] = ("part", "needs re-export") if r["xml_location"] == "registered, no XML" else ("todo", "")
-        for s in ("Stories", "Online", "Women", "Zenodo"):
+        for s in ("Stories", "Topics", "Online", "Women", "Zenodo"):
             c[s] = ("todo", "")
     if dec == "no":
         c = {s: ("na", v[1]) if s != "Decision" else v for s, v in c.items()}

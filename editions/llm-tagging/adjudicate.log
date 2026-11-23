@@ -1,0 +1,39 @@
+380 judgements to run
+0
+25
+50
+75
+100
+125
+150
+175
+200
+225
+250
+275
+300
+325
+350
+375
+
+## Adjudicated estimate (independent Opus judge, tagger confidence >= 2)
+
+- judge says present: AGREE 95% (n=60), EXTRA 83% (n=200), MISSED 38% (n=120)
+- estimated tagger precision 0.89, estimated recall 0.90 (population: 613 agree, 548 extra, 299 missed)
+- for comparison, the RA+audit reference: estimated precision 0.95 on agreed tags; estimated recall of the reference 0.61
+
+| category | EXTRA judged present | MISSED judged present |
+|---|---|---|
+| characters-and-roles | 8/11 | 3/6 |
+| ethics-and-emotions | 16/20 | 5/20 |
+| experience | 10/11 | 4/9 |
+| folkloristics | 10/11 | 3/12 |
+| kabbalah | 1/1 | - |
+| knowledge | - | 2/5 |
+| not-a-hasidic-story | 1/1 | 2/5 |
+| practice | 55/68 | 2/12 |
+| social | 25/30 | 16/23 |
+| spaces | 3/5 | 0/3 |
+| supernatural | 19/21 | 4/15 |
+| times | 12/14 | 2/4 |
+| women | 6/7 | 3/6 |
