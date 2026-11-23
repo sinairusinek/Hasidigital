@@ -1,0 +1,120 @@
+{
+ "unit": {
+  "kind": "non_hasidic_story",
+  "why": "An anecdote about R. Shimon, moreh tzedek of Vilna, a non-Hasidic rabbinic authority, who rushed at night to correct a halakhic ruling; it is followed by a homiletic explanation.",
+  "boundary_note": "The division ends with a homiletic gloss and a source citation (מנ\"י). The next division begins a new teaching."
+ },
+ "stories": [
+  {
+   "k": 1,
+   "start_quote": "וקבלתי מעשה מהרב ר׳ שמעון מ״ץ מווילנא",
+   "end_quote": "ומצאתי עון שלא אוכל לתקנו",
+   "hasidic": false,
+   "summary_en": "R. Shimon, moreh tzedek of Vilna, realized he had erred in a ruling on the seven clean days. He went through Vilna's streets at midnight to tell the woman she must count again, explaining to his complaining servant that he might die in the night and be left with a sin he could not mend.",
+   "tags": [
+    {
+     "tag": "not-a-hasidic-story:hagiography",
+     "scope": "story",
+     "quotes": [],
+     "confidence": 3,
+     "why": "Praises the scrupulous piety of a non-Hasidic Vilna rabbinic authority",
+     "quotes_failed": false
+    },
+    {
+     "tag": "not-a-hasidic-story:sermon",
+     "scope": "span",
+     "quotes": [
+      "בדרך צחות י״ל ע״ד מאמרם ז״ל",
+      "לעולם יראה דיין כאלו חרב מונחת"
+     ],
+     "confidence": 2,
+     "why": "The anecdote is wrapped in a homiletic exposition on the judge's fear",
+     "quotes_failed": false
+    },
+    {
+     "tag": "practice:halakhah",
+     "scope": "span",
+     "quotes": [
+      "שנכשל פ״א בהוראת ז״נ",
+      "שצריכה לספור מחדש ז״נ"
+     ],
+     "confidence": 3,
+     "why": "An erroneous ruling on niddah law and its correction",
+     "quotes_failed": false
+    },
+    {
+     "tag": "ethics-and-emotions:awe",
+     "scope": "span",
+     "quotes": [
+      "לעולם יראה דיין כאלו חרב מונחת"
+     ],
+     "confidence": 2,
+     "why": "The judge's fear of Heaven for his rulings",
+     "quotes_failed": false
+    },
+    {
+     "tag": "ethics-and-emotions:fear",
+     "scope": "span",
+     "quotes": [
+      "אולי לא יחזירו לי נשמתו בלילה ח״ו"
+     ],
+     "confidence": 2,
+     "why": "He fears dying before he can correct the sin",
+     "quotes_failed": false
+    },
+    {
+     "tag": "ethics-and-emotions:prohibitions",
+     "scope": "span",
+     "quotes": [
+      "שצריכה לספור מחדש ז״נ"
+     ],
+     "confidence": 2,
+     "why": "A niddah prohibition is at stake in the ruling",
+     "quotes_failed": false
+    },
+    {
+     "tag": "ethics-and-emotions:repentance",
+     "scope": "span",
+     "quotes": [
+      "ומצאתי עון שלא אוכל לתקנו"
+     ],
+     "confidence": 1,
+     "why": "He hastens to mend his error",
+     "quotes_failed": false
+    },
+    {
+     "tag": "ethics-and-emotions:virtues",
+     "scope": "story",
+     "quotes": [],
+     "confidence": 2,
+     "why": "Illustrates conscientiousness and alacrity in rectifying error",
+     "quotes_failed": false
+    },
+    {
+     "tag": "women:mention_only",
+     "scope": "span",
+     "quotes": [
+      "שצריכה לספור מחדש ז״נ"
+     ],
+     "confidence": 2,
+     "why": "The woman who received the ruling is referred to but does not act",
+     "quotes_failed": false
+    }
+   ],
+   "missing_concepts": [
+    "rabbinic judge's responsibility for erroneous rulings",
+    "alacrity (zerizut) in correcting a mistake"
+   ],
+   "start_quote_found": true,
+   "end_quote_found": true
+  }
+ ],
+ "check": {
+  "non_vocab_tags": [],
+  "quotes": 9,
+  "quotes_not_found": 0
+ },
+ "id": "Derech-Haemuna_0072",
+ "chars": 740,
+ "seconds": 17
+}

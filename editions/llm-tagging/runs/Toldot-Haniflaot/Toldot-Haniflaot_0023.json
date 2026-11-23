@@ -1,0 +1,112 @@
+{
+ "unit": {
+  "kind": "hasidic_story",
+  "why": "A short narrative: the disciple Meir Leib weeps in Lublin over the death of the Holy Jew, and the Seer of Lublin summons him and comforts him.",
+  "boundary_note": ""
+ },
+ "stories": [
+  {
+   "k": 1,
+   "start_quote": "סיפר כי היה בלובלין אז כשנתוודע",
+   "end_quote": "ולבל להצטער ולבכות יותר מדאי",
+   "hasidic": true,
+   "summary_en": "When news came of the Holy Jew's death, Meir Leib wept so bitterly in Lublin that he left town to hide it; the Seer of Lublin summoned him, embraced him, admitted he too had rolled in the dust weeping, and urged him to stop, since 'our God lives forever.'",
+   "tags": [
+    {
+     "tag": "ethics-and-emotions:sadness",
+     "scope": "span",
+     "quotes": [
+      "והיה הולך ובוכה מאד",
+      "לבל להצטער ולבכות יותר מדאי"
+     ],
+     "confidence": 3,
+     "why": "Excessive grief and weeping is the problem the Seer addresses.",
+     "quotes_failed": false
+    },
+    {
+     "tag": "ethics-and-emotions:fear",
+     "scope": "span",
+     "quotes": [
+      "עד שהיה ירא לבכות כ״כ בפני אנשים"
+     ],
+     "confidence": 1,
+     "why": "He fears weeping before the hasidim.",
+     "quotes_failed": false
+    },
+    {
+     "tag": "times:death",
+     "scope": "span",
+     "quotes": [
+      "כשנתוודע מפטירת הק׳ היהודי זצ״ל"
+     ],
+     "confidence": 2,
+     "why": "The death of the Holy Jew is the triggering event, reported rather than depicted.",
+     "quotes_failed": false
+    },
+    {
+     "tag": "social:inter_hasidic_master_disciple_relationship",
+     "scope": "span",
+     "quotes": [
+      "ומיד חיבק אותו ואמר לו מאיר לעב"
+     ],
+     "confidence": 3,
+     "why": "The Seer's tender care for his disciple is central.",
+     "quotes_failed": false
+    },
+    {
+     "tag": "social:inter_hasidic",
+     "scope": "span",
+     "quotes": [
+      "בפני אנשים החסידים שמה שיאמרו כי הלא מרן הק' מלובלין הוא עמנו"
+     ],
+     "confidence": 2,
+     "why": "He worries what the Lublin hasidim would say.",
+     "quotes_failed": false
+    },
+    {
+     "tag": "spaces:institutions_hassidic_court",
+     "scope": "story",
+     "quotes": [],
+     "confidence": 2,
+     "why": "The story is set at the Seer's court in Lublin.",
+     "quotes_failed": false
+    },
+    {
+     "tag": "practice:storytelling",
+     "scope": "span",
+     "quotes": [
+      "סיפר כי היה בלובלין"
+     ],
+     "confidence": 1,
+     "why": "Framed as the subject's own recounted memory.",
+     "quotes_failed": false
+    },
+    {
+     "tag": "practice:torat_ha_tsaddik",
+     "scope": "span",
+     "quotes": [
+      "כי ההק׳ היהודי ז״ל איננו, אבל אלהיינו הוא חי וקיים לעד"
+     ],
+     "confidence": 1,
+     "why": "Reflection on the place of the tsaddik versus God after a tsaddik's death.",
+     "quotes_failed": false
+    }
+   ],
+   "missing_concepts": [
+    "mourning for a tsaddik",
+    "consolation / comforting the grieving",
+    "weeping"
+   ],
+   "start_quote_found": true,
+   "end_quote_found": true
+  }
+ ],
+ "check": {
+  "non_vocab_tags": [],
+  "quotes": 8,
+  "quotes_not_found": 0
+ },
+ "id": "Toldot-Haniflaot_0023",
+ "chars": 599,
+ "seconds": 16
+}

@@ -1,0 +1,135 @@
+{
+ "unit": {
+  "kind": "hasidic_story",
+  "why": "An anecdote told by a young hasid: before taking leave of the Rebbe of Mogielnica he planned to isolate himself at home, and the Rebbe, unprompted, told him as he entered not to be alone.",
+  "boundary_note": ""
+ },
+ "stories": [
+  {
+   "k": 1,
+   "start_quote": "סיפר לי אברך א׳ חסיד וי״ש",
+   "end_quote": "את רוה״ק המרחף על פניו",
+   "hasidic": true,
+   "summary_en": "A young hasid, advised by a fellow hasid to shut himself away at home rather than frequent the shtibl, came to take leave of the Rebbe of Mogielnica, who at the threshold called him by name and told him it is not good for a man to be alone and he must mix with people; the narrator adds that the Holy Spirit rested on the Mogielnica rebbe constantly, more than on the Kozienice Maggid.",
+   "tags": [
+    {
+     "tag": "supernatural:perception",
+     "scope": "span",
+     "quotes": [
+      "וכאשר היה עוד במפתן הבית, קרא מרן ז״ל אליו בשמו",
+      "לראות בכל עת ובכל שעה את רוה״ק המרחף על פניו"
+     ],
+     "confidence": 3,
+     "why": "The rebbe knew the private plan unprompted (ruach ha-kodesh).",
+     "quotes_failed": false
+    },
+    {
+     "tag": "practice:solitude",
+     "scope": "span",
+     "quotes": [
+      "יותר יפה לו להיות יושב בחדרו וללמיד בהתמדה",
+      "יחזקאל לא טוב היות אדם לבדו"
+     ],
+     "confidence": 3,
+     "why": "The plan to seclude himself, and the rebbe's rejection of it, is the story's subject.",
+     "quotes_failed": false
+    },
+    {
+     "tag": "practice:travel_to_the_tsaddik",
+     "scope": "span",
+     "quotes": [
+      "קודם שהלך לבית מרן ז״ל ליטול רשות ליסע לביתו"
+     ],
+     "confidence": 2,
+     "why": "He is staying at the rebbe's court and takes leave before returning home.",
+     "quotes_failed": false
+    },
+    {
+     "tag": "practice:reception_of_hasidim",
+     "scope": "span",
+     "quotes": [
+      "ליטול רשות ליסע לביתו"
+     ],
+     "confidence": 2,
+     "why": "A leave-taking audience with the rebbe.",
+     "quotes_failed": false
+    },
+    {
+     "tag": "social:inter_hasidic_master_disciple_relationship",
+     "scope": "span",
+     "quotes": [
+      "ואח״כ הלך לבית מורו ז״ל"
+     ],
+     "confidence": 2,
+     "why": "The rebbe guides his disciple's spiritual path.",
+     "quotes_failed": false
+    },
+    {
+     "tag": "social:inter_hasidic",
+     "scope": "span",
+     "quotes": [
+      "היה הולך בחוץ עם חסיד אז מופלג מעירו"
+     ],
+     "confidence": 2,
+     "why": "A conversation and advice between two hasidim.",
+     "quotes_failed": false
+    },
+    {
+     "tag": "experience:enthusiasm",
+     "scope": "span",
+     "quotes": [
+      "התלהב לבו בקרבו כ״כ עד שהיה נמאס אצלו"
+     ],
+     "confidence": 2,
+     "why": "The fellow hasid describes his fervor on returning from the rebbe.",
+     "quotes_failed": false
+    },
+    {
+     "tag": "practice:study",
+     "scope": "span",
+     "quotes": [
+      "וללמיד בהתמדה ולעבוד ה׳ בלי מניעה"
+     ],
+     "confidence": 1,
+     "why": "Diligent study is the stated aim of the planned seclusion.",
+     "quotes_failed": false
+    },
+    {
+     "tag": "spaces:institutions_hassidic_court",
+     "scope": "span",
+     "quotes": [
+      "במפתן הבית, קרא מרן ז״ל אליו"
+     ],
+     "confidence": 1,
+     "why": "The scene takes place at the rebbe's house.",
+     "quotes_failed": false
+    },
+    {
+     "tag": "characters-and-roles:preacher",
+     "scope": "span",
+     "quotes": [
+      "כי במרן מקאזניץ ג״כ אנו רואים דברים גדולים"
+     ],
+     "confidence": 1,
+     "why": "The Maggid of Kozienice is mentioned as a point of comparison.",
+     "quotes_failed": false
+    }
+   ],
+   "missing_concepts": [
+    "the shtibl as a hasidic space",
+    "warning against isolation and the danger of improper thoughts (מ\"ש)",
+    "comparison of the spiritual stature of tsaddikim"
+   ],
+   "start_quote_found": true,
+   "end_quote_found": true
+  }
+ ],
+ "check": {
+  "non_vocab_tags": [],
+  "quotes": 12,
+  "quotes_not_found": 0
+ },
+ "id": "Toldot-Haniflaot_0061",
+ "chars": 797,
+ "seconds": 14
+}

@@ -1,0 +1,128 @@
+{
+ "unit": {
+  "kind": "non_hasidic_story",
+  "why": "A single anecdote, heard from the narrator's master, about the pre-Hasidic gaon R. Heschel and the rebuker he kept: the rebuker held back his reproach because he saw the Tosafists accompanying him.",
+  "boundary_note": ""
+ },
+ "stories": [
+  {
+   "k": 1,
+   "start_quote": "פ״א שמעתי ממנו ז״ל בי הגאון",
+   "end_quote": "שהיה לו קודם התפלה",
+   "hasidic": false,
+   "summary_en": "R. Heschel kept a righteous man as a permanent rebuker. One morning he was late to prayer because he was absorbed in a Tosafot passage. The rebuker had stood ready to scold him but kept silent, explaining afterwards that he had seen the Ri and Rabbenu Tam enter with him.",
+   "tags": [
+    {
+     "tag": "not-a-hasidic-story:hagiography",
+     "scope": "story",
+     "quotes": [],
+     "confidence": 3,
+     "why": "praises the pre-Hasidic gaon R. Heschel, whose study draws the Tosafists to him",
+     "quotes_failed": false
+    },
+    {
+     "tag": "practice:study",
+     "scope": "span",
+     "quotes": [
+      "היה לו עיון גדול באיזה דיבור תוס׳"
+     ],
+     "confidence": 3,
+     "why": "his intense Talmud study causes the delay",
+     "quotes_failed": false
+    },
+    {
+     "tag": "practice:prayer",
+     "scope": "span",
+     "quotes": [
+      "מלכנוס לבית הכנסת להתפלל בזמנו כדרכו תמיד"
+     ],
+     "confidence": 3,
+     "why": "his lateness to communal prayer is the issue",
+     "quotes_failed": false
+    },
+    {
+     "tag": "supernatural:perception",
+     "scope": "span",
+     "quotes": [
+      "ראיתי אשר עם ביאתך באו עמך הר\"י והר״ת"
+     ],
+     "confidence": 3,
+     "why": "the rebuker sees what others cannot",
+     "quotes_failed": false
+    },
+    {
+     "tag": "experience:visions",
+     "scope": "span",
+     "quotes": [
+      "ראיתי אשר עם ביאתך באו עמך הר\"י והר״ת"
+     ],
+     "confidence": 2,
+     "why": "a waking vision of the souls of the Tosafists",
+     "quotes_failed": false
+    },
+    {
+     "tag": "supernatural:communicating_with_the_invisible",
+     "scope": "span",
+     "quotes": [
+      "באו עמך הר\"י והר״ת בעל התוס׳"
+     ],
+     "confidence": 1,
+     "why": "the souls of departed sages are present, though no one speaks with them",
+     "quotes_failed": false
+    },
+    {
+     "tag": "ethics-and-emotions:awe",
+     "scope": "span",
+     "quotes": [
+      "איך הייתי יכול להעיז ולפתוח פי נגד עיניהם"
+     ],
+     "confidence": 2,
+     "why": "the rebuker is held back by reverence for the sages",
+     "quotes_failed": false
+    },
+    {
+     "tag": "social:retrospective_recognition",
+     "scope": "span",
+     "quotes": [
+      "על מה ולמה לא הוכחת אותי כלל"
+     ],
+     "confidence": 2,
+     "why": "the gaon learns afterwards the hidden reason for the silence",
+     "quotes_failed": false
+    },
+    {
+     "tag": "practice:storytelling",
+     "scope": "span",
+     "quotes": [
+      "שמעתי ממנו ז״ל"
+     ],
+     "confidence": 1,
+     "why": "framed as told by the narrator's master",
+     "quotes_failed": false
+    },
+    {
+     "tag": "ethics-and-emotions:virtues",
+     "scope": "story",
+     "quotes": [],
+     "confidence": 1,
+     "why": "the gaon's humility in keeping a rebuker, and the merit of his study",
+     "quotes_failed": false
+    }
+   ],
+   "missing_concepts": [
+    "keeping a personal rebuker (מוכיח) / accepting reproof",
+    "souls of earlier sages accompanying one who studies their words"
+   ],
+   "start_quote_found": true,
+   "end_quote_found": true
+  }
+ ],
+ "check": {
+  "non_vocab_tags": [],
+  "quotes": 8,
+  "quotes_not_found": 0
+ },
+ "id": "Toldot-Haniflaot_0098",
+ "chars": 773,
+ "seconds": 16
+}

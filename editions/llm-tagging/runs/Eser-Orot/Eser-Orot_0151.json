@@ -1,0 +1,142 @@
+{
+ "unit": {
+  "kind": "hasidic_story",
+  "why": "A single anecdote: the Maggid of Kozienice, unsure whether his fame comes from the Other Side, goes to his master R. Elimelech, who is sent by the angel Metatron to console him.",
+  "boundary_note": ""
+ },
+ "stories": [
+  {
+   "k": 1,
+   "start_quote": "עו\"ש הרה״ח ר׳ מאיר שעפס מקאזניץ",
+   "end_quote": "אז ידע כי נוכח ה׳ דרכו",
+   "hasidic": true,
+   "summary_en": "The Maggid of Kozienice fears his rising fame may come from the sitra achra and goes to his master R. Elimelech of Lizhensk, who is asleep; the Maggid weeps bitterly at his lodging until R. Elimelech, woken by the angel Metatron, comes to console him and marvels that so great a hasid lives only twelve parasangs from Warsaw, which assures the Maggid that his path is holy.",
+   "tags": [
+    {
+     "tag": "social:inter_hasidic_master_disciple_relationship",
+     "scope": "story",
+     "quotes": [],
+     "confidence": 3,
+     "why": "Disciple seeks confirmation from his master; the tale turns on the master's custom toward his disciples.",
+     "quotes_failed": false
+    },
+    {
+     "tag": "practice:travel_to_the_tsaddik",
+     "scope": "span",
+     "quotes": [
+      "לזה הלך לרבו הרב נוא\"ל"
+     ],
+     "confidence": 3,
+     "why": "The Maggid journeys to his rebbe.",
+     "quotes_failed": false
+    },
+    {
+     "tag": "characters-and-roles:angels",
+     "scope": "span",
+     "quotes": [
+      "הנה המלאך מט״ט העירני לבא לאכסניא"
+     ],
+     "confidence": 3,
+     "why": "The angel Metatron wakes R. Elimelech.",
+     "quotes_failed": false
+    },
+    {
+     "tag": "supernatural:communicating_with_the_invisible",
+     "scope": "span",
+     "quotes": [
+      "הנה המלאך מט״ט העירני לבא לאכסניא"
+     ],
+     "confidence": 3,
+     "why": "R. Elimelech receives a message from an angel.",
+     "quotes_failed": false
+    },
+    {
+     "tag": "supernatural:perception",
+     "scope": "span",
+     "quotes": [
+      "המלאך מט״ט העירני לבא לאכסניא של המגיד לנחמו"
+     ],
+     "confidence": 2,
+     "why": "He knows of the Maggid's distress without being told.",
+     "quotes_failed": false
+    },
+    {
+     "tag": "ethics-and-emotions:sadness",
+     "scope": "span",
+     "quotes": [
+      "הלך המגיד לאכסניא שלו במר נפשו",
+      "ובכה עד כלות הנפש"
+     ],
+     "confidence": 3,
+     "why": "The Maggid's bitter weeping and spiritual distress.",
+     "quotes_failed": false
+    },
+    {
+     "tag": "ethics-and-emotions:fear",
+     "scope": "span",
+     "quotes": [
+      "דאג המגיד אולי זה הכל מצד הסט״א"
+     ],
+     "confidence": 2,
+     "why": "He fears his success comes from the Other Side.",
+     "quotes_failed": false
+    },
+    {
+     "tag": "ethics-and-emotions:humility",
+     "scope": "span",
+     "quotes": [
+      "דאג המגיד אולי זה הכל מצד הסט״א"
+     ],
+     "confidence": 2,
+     "why": "Self-doubt about his fame and wonders.",
+     "quotes_failed": false
+    },
+    {
+     "tag": "practice:storytelling",
+     "scope": "span",
+     "quotes": [
+      "ר׳ מאיר שעפס מקאזניץ מגדולי תלמידי המגיד סיפר"
+     ],
+     "confidence": 1,
+     "why": "The tale is framed as told by a named disciple.",
+     "quotes_failed": false
+    },
+    {
+     "tag": "social:retrospective_recognition",
+     "scope": "span",
+     "quotes": [
+      "אז ידע כי נוכח ה׳ דרכו"
+     ],
+     "confidence": 1,
+     "why": "The Maggid realizes that his path is holy.",
+     "quotes_failed": false
+    },
+    {
+     "tag": "practice:the_travels_of_the_tsaddik",
+     "scope": "span",
+     "quotes": [
+      "לבא לאכסניא של המגיד לנחמו"
+     ],
+     "confidence": 1,
+     "why": "R. Elimelech goes to the Maggid's lodging.",
+     "quotes_failed": false
+    }
+   ],
+   "missing_concepts": [
+    "doubt whether a tsaddik's power stems from holiness or from the sitra achra",
+    "confirmation or validation of a disciple's path by his master",
+    "Warsaw as a place far from piety"
+   ],
+   "start_quote_found": true,
+   "end_quote_found": true
+  }
+ ],
+ "check": {
+  "non_vocab_tags": [],
+  "quotes": 11,
+  "quotes_not_found": 0
+ },
+ "id": "Eser-Orot_0151",
+ "chars": 549,
+ "seconds": 20
+}

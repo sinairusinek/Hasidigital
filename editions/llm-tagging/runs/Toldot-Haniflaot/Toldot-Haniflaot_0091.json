@@ -1,0 +1,90 @@
+{
+ "unit": {
+  "kind": "hasidic_story",
+  "why": "A short anecdote from the account of the master's last illness: a disciple is told the master could recover but sees great darkness in the world, and R. Moshe of Przeworsk visits before his death and gets no answer to his question.",
+  "boundary_note": "part of a numbered sequence (§§95–97) on the tzaddik's final illness and death; neighbouring divisions continue the same frame"
+ },
+ "stories": [
+  {
+   "k": 1,
+   "start_quote": "והנה אז בימים האלה היה ההק׳",
+   "end_quote": "ולא השיב לו כלל ע״ז",
+   "hasidic": true,
+   "summary_en": "During his final illness the master says he could be fully healthy in two days but sees great darkness in the world; his illness is understood as a hidden struggle for all Israel, and when R. Moshe of Przeworsk visits on the Sabbath eve before his death and offers to help, the master does not answer.",
+   "tags": [
+    {
+     "tag": "folkloristics:story_type_death_of_the_tsaddik",
+     "scope": "story",
+     "quotes": [],
+     "confidence": 2,
+     "why": "episode within the narrative of the tzaddik's last illness before his passing",
+     "quotes_failed": false
+    },
+    {
+     "tag": "practice:torat_ha_tsaddik",
+     "scope": "span",
+     "quotes": [
+      "שהיה מתאמץ ומתעקש בשביל זה בשביל כלל ישראל"
+     ],
+     "confidence": 2,
+     "why": "the tzaddik's illness is a hidden effort on behalf of the whole people",
+     "quotes_failed": false
+    },
+    {
+     "tag": "supernatural:perception",
+     "scope": "span",
+     "quotes": [
+      "שאני רואה חשכות גדול בעולם"
+     ],
+     "confidence": 2,
+     "why": "the tzaddik perceives a spiritual darkness in the world",
+     "quotes_failed": false
+    },
+    {
+     "tag": "social:inter_hasidic",
+     "scope": "span",
+     "quotes": [
+      "סבא קדישא ר׳ משה זצ״ל מפרשעדבארז אליו לבקרו"
+     ],
+     "confidence": 2,
+     "why": "another tzaddik visits him and offers help",
+     "quotes_failed": false
+    },
+    {
+     "tag": "times:shabbat",
+     "scope": "span",
+     "quotes": [
+      "כי עש\"ק קודם הסתלקותו"
+     ],
+     "confidence": 1,
+     "why": "the visit takes place on the Sabbath eve before his death",
+     "quotes_failed": false
+    },
+    {
+     "tag": "social:inter_hasidic_master_disciple_relationship",
+     "scope": "span",
+     "quotes": [
+      "היה ההק׳ המפורסם ר״י מעיר חדש אצל מרן"
+     ],
+     "confidence": 1,
+     "why": "R. Y. of Ir Hadash is with the master and hears his words",
+     "quotes_failed": false
+    }
+   ],
+   "missing_concepts": [
+    "the tzaddik's illness as vicarious suffering / hidden struggle on behalf of Israel",
+    "the tzaddik's refusal to reveal his secret purpose"
+   ],
+   "start_quote_found": true,
+   "end_quote_found": true
+  }
+ ],
+ "check": {
+  "non_vocab_tags": [],
+  "quotes": 5,
+  "quotes_not_found": 0
+ },
+ "id": "Toldot-Haniflaot_0091",
+ "chars": 470,
+ "seconds": 16
+}

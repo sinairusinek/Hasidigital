@@ -1,0 +1,140 @@
+{
+ "unit": {
+  "kind": "hasidic_story",
+  "why": "A single anecdote about R. Shlomo of Karlin losing devekut on a downhill ride and repenting by risking death at a border crossing, with a short moral at the end.",
+  "boundary_note": ""
+ },
+ "stories": [
+  {
+   "k": 1,
+   "start_quote": "וכמו ששמעתי מאאמו״ר ז״ל שסיפר מהצ״ה",
+   "end_quote": "כי אז היה נמנע מלשמח הקב״ה",
+   "hasidic": true,
+   "summary_en": "R. Shlomo of Karlin was interrupted in his devekut by fear of the bolting horses on a steep descent. As repentance he deliberately crossed a border where guards could shoot him, holding fast to devekut in mortal danger, and then ordered a stop so that customs would not be evaded.",
+   "tags": [
+    {
+     "tag": "practice:devekut",
+     "scope": "span",
+     "quotes": [
+      "נפסק מדביקות ה׳ לשעה מיעט",
+      "היה מחזיק עצמו לבל להיות נפסק מדביקות ה׳"
+     ],
+     "confidence": 3,
+     "why": "The whole story turns on keeping unbroken cleaving to God.",
+     "quotes_failed": false
+    },
+    {
+     "tag": "experience:devekut",
+     "scope": "span",
+     "quotes": [
+      "היה מחזיק עצמו לבל להיות נפסק מדביקות ה׳"
+     ],
+     "confidence": 2,
+     "why": "His state of devekut is depicted.",
+     "quotes_failed": false
+    },
+    {
+     "tag": "ethics-and-emotions:fear",
+     "scope": "span",
+     "quotes": [
+      "ומפחד הסוסים אשר רצים מבוהלים",
+      "היה ביראה מסכנת מות"
+     ],
+     "confidence": 3,
+     "why": "Fear of the horses and of being shot.",
+     "quotes_failed": false
+    },
+    {
+     "tag": "ethics-and-emotions:repentance",
+     "scope": "span",
+     "quotes": [
+      "וקיבל על עצמו מס\"נ ממש לתקן זאת לפי תשובת המשקל"
+     ],
+     "confidence": 3,
+     "why": "He undertakes a penance that matches the lapse (teshuvat ha-mishkal).",
+     "quotes_failed": false
+    },
+    {
+     "tag": "ethics-and-emotions:sadness",
+     "scope": "span",
+     "quotes": [
+      "מיעט והתמרמר מאד ע״ז"
+     ],
+     "confidence": 1,
+     "why": "He is deeply distressed over the lapse.",
+     "quotes_failed": false
+    },
+    {
+     "tag": "practice:the_travels_of_the_tsaddik",
+     "scope": "story",
+     "quotes": [],
+     "confidence": 3,
+     "why": "The story happens on the tzaddik's journey and the border crossing.",
+     "quotes_failed": false
+    },
+    {
+     "tag": "social:relations_with_the_authorities",
+     "scope": "span",
+     "quotes": [
+      "צוה לעמוד לבל להבריח המכס כמנהג המדינה",
+      "לפי הנימוס רשאים לירות אחריו"
+     ],
+     "confidence": 2,
+     "why": "Border guards and customs law.",
+     "quotes_failed": false
+    },
+    {
+     "tag": "folkloristics:story_type_virtues",
+     "scope": "story",
+     "quotes": [],
+     "confidence": 3,
+     "why": "Framed to show the greatness of the tzaddikim.",
+     "quotes_failed": false
+    },
+    {
+     "tag": "ethics-and-emotions:awe",
+     "scope": "span",
+     "quotes": [
+      "אשר יראים ועושים תשובה במס״נ"
+     ],
+     "confidence": 2,
+     "why": "His religious awe over even a moment's lapse.",
+     "quotes_failed": false
+    },
+    {
+     "tag": "practice:storytelling",
+     "scope": "span",
+     "quotes": [
+      "וכמו ששמעתי מאאמו״ר ז״ל שסיפר"
+     ],
+     "confidence": 1,
+     "why": "The story is passed on as told by the author's father.",
+     "quotes_failed": false
+    },
+    {
+     "tag": "ethics-and-emotions:virtues",
+     "scope": "story",
+     "quotes": [],
+     "confidence": 2,
+     "why": "Its point is to illustrate a virtue.",
+     "quotes_failed": false
+    }
+   ],
+   "missing_concepts": [
+    "self-sacrifice (mesirut nefesh) as a penance",
+    "teshuvat ha-mishkal (penance matched to the lapse)",
+    "honesty in paying customs duty / not smuggling"
+   ],
+   "start_quote_found": true,
+   "end_quote_found": true
+  }
+ ],
+ "check": {
+  "non_vocab_tags": [],
+  "quotes": 11,
+  "quotes_not_found": 0
+ },
+ "id": "Derech-Haemuna_0051",
+ "chars": 604,
+ "seconds": 13
+}

@@ -1,0 +1,154 @@
+{
+ "unit": {
+  "kind": "non_hasidic_story",
+  "why": "A legend about the pre-Hasidic kabbalist R. Shimshon of Ostropol, saved on the Sabbath in the desert by a lion, with a short closing frame in which the Kotzker rebbe comments on it.",
+  "boundary_note": ""
+ },
+ "stories": [
+  {
+   "k": 1,
+   "start_quote": "שמעתי מעשה מהרב הק׳ ר׳ שמשון מאסטריפאליע",
+   "end_quote": "מן הטבע מותר לסמוך על הנס",
+   "hasidic": false,
+   "summary_en": "R. Shimshon of Ostropol pays a caravan owner not to travel on the Sabbath, but the owner takes the money and leaves him alone in the desert; a lion guards him through the Sabbath and afterwards carries him back to the caravan, and the Kotzker later explains that one who serves God above nature may rely on miracles.",
+   "tags": [
+    {
+     "tag": "not-a-hasidic-story:hagiography",
+     "scope": "story",
+     "quotes": [],
+     "confidence": 3,
+     "why": "A wonder tale about the pre-Hasidic kabbalist R. Shimshon of Ostropol.",
+     "quotes_failed": false
+    },
+    {
+     "tag": "times:shabbat",
+     "scope": "span",
+     "quotes": [
+      "ביקש מבעל השיירא שלא ילך בשבת",
+      "ורבץ לפניו כל השב״ק"
+     ],
+     "confidence": 3,
+     "why": "The whole plot turns on keeping the Sabbath in the desert.",
+     "quotes_failed": false
+    },
+    {
+     "tag": "supernatural:miracle",
+     "scope": "span",
+     "quotes": [
+      "והארי רץ עד שהשיג את השיירא",
+      "איך היה באמת מו״ר לסמוך על הנס"
+     ],
+     "confidence": 3,
+     "why": "The lion guards him and carries him to the caravan.",
+     "quotes_failed": false
+    },
+    {
+     "tag": "ethics-and-emotions:sadness",
+     "scope": "span",
+     "quotes": [
+      "והי׳ עצוב מאוד"
+     ],
+     "confidence": 3,
+     "why": "He grieves after being left behind.",
+     "quotes_failed": false
+    },
+    {
+     "tag": "ethics-and-emotions:fear",
+     "scope": "span",
+     "quotes": [
+      "ראה שרץ אריה גדול אצלו ונתפחד מאוד"
+     ],
+     "confidence": 3,
+     "why": "He is afraid of the lion.",
+     "quotes_failed": false
+    },
+    {
+     "tag": "ethics-and-emotions:lying",
+     "scope": "span",
+     "quotes": [
+      "והבעל שיירא לקח המעות ואעפ״כ הלך עם השיירא"
+     ],
+     "confidence": 2,
+     "why": "The caravan owner deceives him by taking payment and leaving anyway.",
+     "quotes_failed": false
+    },
+    {
+     "tag": "ethics-and-emotions:prohibitions",
+     "scope": "span",
+     "quotes": [
+      "ביקש מבעל השיירא שלא ילך בשבת"
+     ],
+     "confidence": 2,
+     "why": "The story rests on the ban on travelling on the Sabbath.",
+     "quotes_failed": false
+    },
+    {
+     "tag": "practice:halakhah",
+     "scope": "span",
+     "quotes": [
+      "הלא כתיב וחי בהם וכו׳",
+      "למעלה מן הטבע מותר לסמוך על הנס"
+     ],
+     "confidence": 2,
+     "why": "It raises the halakhic question of endangering one's life and of relying on miracles.",
+     "quotes_failed": false
+    },
+    {
+     "tag": "practice:the_travels_of_the_tsaddik",
+     "scope": "span",
+     "quotes": [
+      "שהלך במדבר עם שיירא"
+     ],
+     "confidence": 2,
+     "why": "The holy man's desert journey frames the whole story.",
+     "quotes_failed": false
+    },
+    {
+     "tag": "practice:storytelling",
+     "scope": "span",
+     "quotes": [
+      "וכשספרו המעשה הזאת לפני הרה״ק מ״מ זצ״ל מקאצק"
+     ],
+     "confidence": 3,
+     "why": "The tale is told before the Kotzker, who comments on it.",
+     "quotes_failed": false
+    },
+    {
+     "tag": "practice:sermon",
+     "scope": "span",
+     "quotes": [
+      "שמי שעובד את ה׳ למעלה מן הטבע מותר לסמוך על הנס"
+     ],
+     "confidence": 1,
+     "why": "The Kotzker's short teaching at the close.",
+     "quotes_failed": false
+    },
+    {
+     "tag": "practice:protection",
+     "scope": "span",
+     "quotes": [
+      "ובא הארי׳ אצלו ורבץ לפניו כל השב״ק"
+     ],
+     "confidence": 2,
+     "why": "The lion guards him alone in the desert.",
+     "quotes_failed": false
+    }
+   ],
+   "missing_concepts": [
+    "helpful wild animal (lion as miraculous guardian/mount)",
+    "relying on miracles (סמיכה על הנס)",
+    "self-endangerment for a commandment"
+   ],
+   "start_quote_found": true,
+   "end_quote_found": true
+  }
+ ],
+ "check": {
+  "non_vocab_tags": [],
+  "quotes": 14,
+  "quotes_not_found": 0
+ },
+ "id": "Likutim-Hadashim_0006",
+ "chars": 664,
+ "seconds": 20
+}

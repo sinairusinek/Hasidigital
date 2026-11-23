@@ -1,0 +1,91 @@
+{
+ "unit": {
+  "kind": "hasidic_story",
+  "why": "A short memorate, heard from the master, about a man taken up to the heavenly palaces on the night of his bar mitzvah to choose his soul, with the narrator's guess that the master meant himself.",
+  "boundary_note": ""
+ },
+ "stories": [
+  {
+   "k": 1,
+   "start_quote": "שמעתי ממנו ז\"ל שאמר שהוא הכיר",
+   "end_quote": "ומחמת ענותנותו היה אומר כך",
+   "hasidic": true,
+   "summary_en": "The master told of a man who, on his bar mitzvah night, was led up to the upper palaces and allowed to choose any soul; he chose a very great one, yet remained a lowly man, and the narrator supposes the master spoke of himself out of humility.",
+   "tags": [
+    {
+     "tag": "experience:journey_to_heaven",
+     "scope": "span",
+     "quotes": [
+      "היו מוליכים אותו למעלה בהיכלות עליונים"
+     ],
+     "confidence": 3,
+     "why": "The man's soul is taken up to the upper palaces while he is alive.",
+     "quotes_failed": false
+    },
+    {
+     "tag": "spaces:heaven",
+     "scope": "span",
+     "quotes": [
+      "למעלה בהיכלות עליונים ונתנו לו רשות"
+     ],
+     "confidence": 3,
+     "why": "The choice of a soul takes place in the heavenly palaces.",
+     "quotes_failed": false
+    },
+    {
+     "tag": "ethics-and-emotions:humility",
+     "scope": "span",
+     "quotes": [
+      "ומחמת ענותנותו היה אומר כך"
+     ],
+     "confidence": 3,
+     "why": "The master hides his own experience out of humility.",
+     "quotes_failed": false
+    },
+    {
+     "tag": "folkloristics:story_type_virtues",
+     "scope": "story",
+     "quotes": [],
+     "confidence": 2,
+     "why": "The point of the anecdote is the master's humility.",
+     "quotes_failed": false
+    },
+    {
+     "tag": "social:retrospective_recognition",
+     "scope": "span",
+     "quotes": [
+      "וההשערה היה שהוא בעצמו היה זה"
+     ],
+     "confidence": 2,
+     "why": "The listeners realize that the anonymous man was the speaker himself.",
+     "quotes_failed": false
+    },
+    {
+     "tag": "practice:storytelling",
+     "scope": "span",
+     "quotes": [
+      "שמעתי ממנו ז\"ל שאמר שהוא הכיר"
+     ],
+     "confidence": 1,
+     "why": "The tale is framed as told by the master.",
+     "quotes_failed": false
+    }
+   ],
+   "missing_concepts": [
+    "bar mitzvah as the occasion of receiving a soul",
+    "choosing one's own soul in heaven",
+    "a great soul that does not reach a high spiritual level"
+   ],
+   "start_quote_found": true,
+   "end_quote_found": true
+  }
+ ],
+ "check": {
+  "non_vocab_tags": [],
+  "quotes": 5,
+  "quotes_not_found": 0
+ },
+ "id": "Toldot-Haniflaot_0099",
+ "chars": 314,
+ "seconds": 12
+}

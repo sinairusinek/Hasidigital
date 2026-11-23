@@ -1,0 +1,81 @@
+{
+ "unit": {
+  "kind": "hasidic_story",
+  "why": "A short anecdote: the Belz rebbe's habit of healing a paralysed sick man by touching his whole body, a practice he said he received from the Maggid of Kozhnitz. It is habitual rather than a single event, so the story status is borderline.",
+  "boundary_note": ""
+ },
+ "stories": [
+  {
+   "k": 1,
+   "start_quote": "עוד שם במכתב הנ\"ל אמר הרה״ק מבעלזא",
+   "end_quote": "שקיבל זאת מהמגיד ז\"ל מקאזניץ",
+   "hasidic": true,
+   "summary_en": "The Belz rebbe would heal a sick man who lay as if dead and could not move a limb by touching his whole body with his hands, and he said he had received this practice from the Maggid of Kozhnitz.",
+   "tags": [
+    {
+     "tag": "practice:healing",
+     "scope": "span",
+     "quotes": [
+      "היה ממשש את כל גופו בידיו הקדושים",
+      "מישוש בידים לאיש החולה בכל גופו ויתרפא מיד"
+     ],
+     "confidence": 3,
+     "why": "healing by touch is the subject",
+     "quotes_failed": false
+    },
+    {
+     "tag": "supernatural:miracle",
+     "scope": "span",
+     "quotes": [
+      "ומיד ומיד נתרפא"
+     ],
+     "confidence": 2,
+     "why": "instant cure of a paralysed man",
+     "quotes_failed": false
+    },
+    {
+     "tag": "practice:torat_ha_tsaddik",
+     "scope": "span",
+     "quotes": [
+      "בידיו הקדושים ומיד ומיד נתרפא"
+     ],
+     "confidence": 1,
+     "why": "the tsaddik's bodily power to heal",
+     "quotes_failed": false
+    },
+    {
+     "tag": "folkloristics:story_type_virtues",
+     "scope": "story",
+     "quotes": [],
+     "confidence": 1,
+     "why": "praise of the tsaddik's wondrous power",
+     "quotes_failed": false
+    },
+    {
+     "tag": "social:inter_hasidic_master_disciple_relationship",
+     "scope": "span",
+     "quotes": [
+      "זה הענין קיבל הוא ז\"ל מהמגיד הק׳ מקאזניץ"
+     ],
+     "confidence": 2,
+     "why": "a practice passed from the Kozhnitz Maggid to the Belz rebbe",
+     "quotes_failed": false
+    }
+   ],
+   "missing_concepts": [
+    "transmission of a healing technique from one tsaddik to another",
+    "healing by laying on of hands"
+   ],
+   "start_quote_found": true,
+   "end_quote_found": true
+  }
+ ],
+ "check": {
+  "non_vocab_tags": [],
+  "quotes": 5,
+  "quotes_not_found": 0
+ },
+ "id": "Eser-Orot_0127",
+ "chars": 316,
+ "seconds": 15
+}

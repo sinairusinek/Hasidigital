@@ -1,0 +1,131 @@
+{
+ "unit": {
+  "kind": "hasidic_story",
+  "why": "A halakhic and custom discussion about not studying Mishnah on the night of Shavuot, which contains a first-person memorate of the author's debate with his uncle R. Zvi and the uncle's concession the following year.",
+  "boundary_note": "Part of a numbered series of glosses (לה) on Shavuot-night customs. The previous and next divisions are related teachings, not continuations of this story."
+ },
+ "stories": [
+  {
+   "k": 1,
+   "start_quote": "וכבר בימי חורפי הי' לי פתחון פה",
+   "end_quote": "שלא יעיינו כלל במשניות בלילה זאת",
+   "hasidic": true,
+   "summary_en": "As a young man the author argued with his uncle and teacher R. Zvi that one may not study Mishnah on Shavuot night; the uncle did not agree, but on the eve of Shavuot the next year he conceded with a shining face and said he had already warned his disciples.",
+   "tags": [
+    {
+     "tag": "times:holidays",
+     "scope": "story",
+     "quotes": [],
+     "confidence": 3,
+     "why": "The whole matter concerns the night of Shavuot.",
+     "quotes_failed": false
+    },
+    {
+     "tag": "practice:study",
+     "scope": "span",
+     "quotes": [
+      "וכל אחד למוד תורה שבע״פ לפי השגתו",
+      "שלשים שנה למדתי ואמרתי משניות בלילה הקדושה"
+     ],
+     "confidence": 3,
+     "why": "The subject is what to study on Shavuot night.",
+     "quotes_failed": false
+    },
+    {
+     "tag": "practice:halakhah",
+     "scope": "span",
+     "quotes": [
+      "ופלפלתי עמו הרבה בחכמה שאסור לומר"
+     ],
+     "confidence": 3,
+     "why": "A halakhic and custom question is debated and decided.",
+     "quotes_failed": false
+    },
+    {
+     "tag": "ethics-and-emotions:prohibitions",
+     "scope": "span",
+     "quotes": [
+      "איבד זכותי שאסור לומר וללמוד משניות כדברך"
+     ],
+     "confidence": 3,
+     "why": "The prohibition on studying Mishnah that night is at issue.",
+     "quotes_failed": false
+    },
+    {
+     "tag": "social:inter_hasidic_master_disciple_relationship",
+     "scope": "span",
+     "quotes": [
+      "לפני דודי מורי רבינו צבי",
+      "ואמר לי בני אייזיק"
+     ],
+     "confidence": 2,
+     "why": "The dispute is between the young author and his uncle and master.",
+     "quotes_failed": false
+    },
+    {
+     "tag": "ethics-and-emotions:humility",
+     "scope": "span",
+     "quotes": [
+      "והודה לי בפנים נהורין"
+     ],
+     "confidence": 2,
+     "why": "The master concedes to his young disciple and admits he lost merit.",
+     "quotes_failed": false
+    },
+    {
+     "tag": "social:retrospective_recognition",
+     "scope": "span",
+     "quotes": [
+      "שלשים שנה למדתי ואמרתי משניות בלילה הקדושה דשבועות איבד זכותי"
+     ],
+     "confidence": 1,
+     "why": "The uncle belatedly recognises that his long-held practice was wrong.",
+     "quotes_failed": false
+    },
+    {
+     "tag": "practice:sermon",
+     "scope": "span",
+     "quotes": [
+      "על מאמר הזוה״ק דבעי לי׳ למילעי בהאי לילא"
+     ],
+     "confidence": 2,
+     "why": "The story is framed by exegesis of a Zohar passage.",
+     "quotes_failed": false
+    },
+    {
+     "tag": "not-a-hasidic-story:sermon",
+     "scope": "story",
+     "quotes": [],
+     "confidence": 2,
+     "why": "The short narrative is wrapped in an extended halakhic and homiletic frame.",
+     "quotes_failed": false
+    },
+    {
+     "tag": "times:shabbat",
+     "scope": "span",
+     "quotes": [
+      "והי' זה ביום שבת שבלילה הי' ליל שבועות"
+     ],
+     "confidence": 1,
+     "why": "The first debate took place on the Sabbath, as a passing setting.",
+     "quotes_failed": false
+    }
+   ],
+   "missing_concepts": [
+    "Tikkun leil Shavuot (Shavuot-night vigil and study order)",
+    "A halakhic dispute between rabbis resolved by one side conceding",
+    "Joseph Karo's maggid revelations through Mishnah study (mentioned)"
+   ],
+   "start_quote_found": true,
+   "end_quote_found": true
+  }
+ ],
+ "check": {
+  "non_vocab_tags": [],
+  "quotes": 10,
+  "quotes_not_found": 0
+ },
+ "id": "Eser-Kedushot_0182",
+ "chars": 957,
+ "seconds": 19
+}

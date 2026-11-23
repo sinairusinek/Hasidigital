@@ -1,0 +1,130 @@
+{
+ "unit": {
+  "kind": "hasidic_story",
+  "why": "A single anecdote: the tsaddik's mother travels to R. Elimelekh's grave, the Maor va-Shemesh discourages her, and he reverses himself after his dead master rebukes him.",
+  "boundary_note": ""
+ },
+ "stories": [
+  {
+   "k": 1,
+   "start_quote": "פ\"א שמעתי ממנו זצ״ל שסיפר כי",
+   "end_quote": "שיהיה לה מרכבה לעבור הגבול",
+   "hasidic": true,
+   "summary_en": "On her way to R. Elimelekh's grave in Lizhensk, the tsaddik's mother spends Shabbat with the author of Maor va-Shemesh, who tells her not to go. His late master then comes to him and rebukes him, so he urges her to go and arranges a carriage to take her across the border.",
+   "tags": [
+    {
+     "tag": "practice:pilgrimage_to_the_graves_of_tsaddikim",
+     "scope": "story",
+     "quotes": [],
+     "confidence": 3,
+     "why": "The plot turns on her journey to the grave of R. Elimelekh.",
+     "quotes_failed": false
+    },
+    {
+     "tag": "women:major_character",
+     "scope": "span",
+     "quotes": [
+      "נסעה אמו תחי׳ לליזענסק על קבר הק׳ בעל נועם אלימלך"
+     ],
+     "confidence": 3,
+     "why": "The mother is the central actor and the traveller.",
+     "quotes_failed": false
+    },
+    {
+     "tag": "characters-and-roles:the_family_of_the_tsaddik",
+     "scope": "span",
+     "quotes": [
+      "נסעה אמו תחי׳ לליזענסק"
+     ],
+     "confidence": 3,
+     "why": "The tsaddik's mother is the protagonist.",
+     "quotes_failed": false
+    },
+    {
+     "tag": "supernatural:communicating_with_the_invisible",
+     "scope": "span",
+     "quotes": [
+      "תדע כי מורי ורבי בא אלי והקפיד עלי מאוד"
+     ],
+     "confidence": 3,
+     "why": "The dead R. Elimelekh appears to his disciple and speaks to him.",
+     "quotes_failed": false
+    },
+    {
+     "tag": "experience:dream",
+     "scope": "span",
+     "quotes": [
+      "מורי ורבי בא אלי והקפיד עלי מאוד"
+     ],
+     "confidence": 1,
+     "why": "The night appearance is probably a dream, though the text does not say so.",
+     "quotes_failed": false
+    },
+    {
+     "tag": "social:inter_hasidic_master_disciple_relationship",
+     "scope": "span",
+     "quotes": [
+      "מה לך שתסית את הצדקת הזאת לבל תסע על קברי"
+     ],
+     "confidence": 2,
+     "why": "The dead master corrects his disciple.",
+     "quotes_failed": false
+    },
+    {
+     "tag": "practice:torat_ha_tsaddik",
+     "scope": "span",
+     "quotes": [
+      "ובעזה״י תשיג שם כל חפצה ומשאלותה"
+     ],
+     "confidence": 2,
+     "why": "The tsaddik keeps his power to help petitioners at his grave.",
+     "quotes_failed": false
+    },
+    {
+     "tag": "ethics-and-emotions:anger",
+     "scope": "span",
+     "quotes": [
+      "והקפיד עלי מאוד"
+     ],
+     "confidence": 2,
+     "why": "The master is strict and displeased with his disciple.",
+     "quotes_failed": false
+    },
+    {
+     "tag": "times:shabbat",
+     "scope": "span",
+     "quotes": [
+      "והיתה שבתה בשבת בעיר חדש הסמוך לגבול"
+     ],
+     "confidence": 2,
+     "why": "The first exchange takes place during a Shabbat stay.",
+     "quotes_failed": false
+    },
+    {
+     "tag": "practice:storytelling",
+     "scope": "span",
+     "quotes": [
+      "שמעתי ממנו זצ״ל שסיפר"
+     ],
+     "confidence": 2,
+     "why": "The tale is framed as told by the tsaddik himself.",
+     "quotes_failed": false
+    }
+   ],
+   "missing_concepts": [
+    "women's pilgrimage and its legitimacy",
+    "crossing a state border"
+   ],
+   "start_quote_found": true,
+   "end_quote_found": true
+  }
+ ],
+ "check": {
+  "non_vocab_tags": [],
+  "quotes": 9,
+  "quotes_not_found": 0
+ },
+ "id": "Toldot-Haniflaot_0005",
+ "chars": 539,
+ "seconds": 17
+}

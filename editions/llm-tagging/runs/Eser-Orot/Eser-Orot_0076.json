@@ -1,0 +1,113 @@
+{
+ "unit": {
+  "kind": "hasidic_story",
+  "why": "A short anecdote: the Berditchever summons the narrator in his last year to teach him the kavvanot of lulav and etrog, his own children are jealous, and he explains why.",
+  "boundary_note": ""
+ },
+ "stories": [
+  {
+   "k": 1,
+   "start_quote": "עוד סיפר הרה״ק הנ\"ל שהבארדיטשובר בשנה האחרונה",
+   "end_quote": "הדלת בעדם ולימדו כוונת הנזכרים",
+   "hasidic": true,
+   "summary_en": "In his last year R. Levi Yitzhak of Berditchev called the narrator, son of R. Mordechai of Neskhiz, to teach him the kavvanot of lulav and etrog. When his own children grew jealous, he said he would have to answer to R. Mordechai in the World of Truth for what he had taught his son, and he taught him behind closed doors.",
+   "tags": [
+    {
+     "tag": "kabbalah:kabbalistic_terms_kavvanot",
+     "scope": "span",
+     "quotes": [
+      "ללמודו כוונת נטילת לולב ואתרוג",
+      "אני מלמדו כוונת הללו של לולב ואתרוג"
+     ],
+     "confidence": 3,
+     "why": "Lurianic kavvanot of the lulav ritual are being transmitted.",
+     "quotes_failed": false
+    },
+    {
+     "tag": "knowledge:esoteric",
+     "scope": "span",
+     "quotes": [
+      "וסיגרו הדלת בעדם ולימדו כוונת הנזכרים"
+     ],
+     "confidence": 3,
+     "why": "Secret teaching passed on privately behind a closed door.",
+     "quotes_failed": false
+    },
+    {
+     "tag": "practice:study",
+     "scope": "span",
+     "quotes": [
+      "ולימדו כוונת הנזכרים"
+     ],
+     "confidence": 2,
+     "why": "The tsaddik teaches a pupil.",
+     "quotes_failed": false
+    },
+    {
+     "tag": "social:inter_hasidic_master_disciple_relationship",
+     "scope": "story",
+     "quotes": [],
+     "confidence": 2,
+     "why": "The Berditchever acts as teacher to the son of another tsaddik.",
+     "quotes_failed": false
+    },
+    {
+     "tag": "characters-and-roles:the_family_of_the_tsaddik",
+     "scope": "span",
+     "quotes": [
+      "ונתקנאו בו יו\"ח של הבארדיטשובר",
+      "מה למדת את בני"
+     ],
+     "confidence": 3,
+     "why": "The Berditchever's children and the Neskhizer's son appear.",
+     "quotes_failed": false
+    },
+    {
+     "tag": "practice:storytelling",
+     "scope": "span",
+     "quotes": [
+      "עוד סיפר הרה״ק הנ\"ל"
+     ],
+     "confidence": 2,
+     "why": "The anecdote is framed as told by a named tsaddik.",
+     "quotes_failed": false
+    },
+    {
+     "tag": "times:holidays",
+     "scope": "span",
+     "quotes": [
+      "כוונת נטילת לולב ואתרוג"
+     ],
+     "confidence": 1,
+     "why": "Sukkot ritual is the subject, though the scene is not set on the holiday.",
+     "quotes_failed": false
+    },
+    {
+     "tag": "times:eschatology",
+     "scope": "span",
+     "quotes": [
+      "בעלמא דקשוט מה למדת את בני"
+     ],
+     "confidence": 1,
+     "why": "Accountability in the World of Truth after death.",
+     "quotes_failed": false
+    }
+   ],
+   "missing_concepts": [
+    "jealousy/envy among the tsaddik's children",
+    "transmission of esoteric teaching to a fellow tsaddik's son",
+    "obligation to a deceased colleague"
+   ],
+   "start_quote_found": true,
+   "end_quote_found": true
+  }
+ ],
+ "check": {
+  "non_vocab_tags": [],
+  "quotes": 9,
+  "quotes_not_found": 0
+ },
+ "id": "Eser-Orot_0076",
+ "chars": 344,
+ "seconds": 16
+}

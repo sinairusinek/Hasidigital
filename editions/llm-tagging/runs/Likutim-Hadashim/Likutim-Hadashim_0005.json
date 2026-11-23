@@ -1,0 +1,163 @@
+{
+ "unit": {
+  "kind": "non_hasidic_story",
+  "why": "A legend about the Maharam of Rothenburg's imprisonment, refusal to be ransomed, uncorrupted body and the wealthy man who ransomed it, all pre-Hasidic figures.",
+  "boundary_note": ""
+ },
+ "stories": [
+  {
+   "k": 1,
+   "start_quote": "שמעתי מעשה שהר\"ם מרוטונבערג היה רבו",
+   "end_quote": "וכך הוה שזכה לשניהם",
+   "hasidic": false,
+   "summary_en": "The Maharam of Rothenburg refuses to let his disciple the Rosh ransom him, dies in prison, and his body lies unburied for years until a wealthy man pays for it; the body has not decayed, and in a dream the Maharam rewards the man with both a place beside him in the afterlife and wealth.",
+   "tags": [
+    {
+     "tag": "not-a-hasidic-story:hagiography",
+     "scope": "story",
+     "quotes": [],
+     "confidence": 3,
+     "why": "Praises the medieval Maharam of Rothenburg, a pre-Hasidic sage.",
+     "quotes_failed": false
+    },
+    {
+     "tag": "practice:pidyon_shvuyim",
+     "scope": "span",
+     "quotes": [
+      "אסף הרבה מעות ורצה ליתן בעד רבו",
+      "ורבו אמר שלא יתן להם מעות"
+     ],
+     "confidence": 3,
+     "why": "The ransom of the imprisoned rabbi, and his refusal of it, are central.",
+     "quotes_failed": false
+    },
+    {
+     "tag": "practice:redemption_of_captives",
+     "scope": "span",
+     "quotes": [
+      "אסף הרבה מעות ורצה ליתן בעד רבו"
+     ],
+     "confidence": 3,
+     "why": "This tag duplicates pidyon_shvuyim.",
+     "quotes_failed": false
+    },
+    {
+     "tag": "social:relations_with_the_authorities",
+     "scope": "span",
+     "quotes": [
+      "גזרה המלכות על היהודים שיתנו לו הון רב",
+      "וביקש מן המלך שיניח אותו לקבור"
+     ],
+     "confidence": 3,
+     "why": "The ruler extorts money from the Jews and holds the body.",
+     "quotes_failed": false
+    },
+    {
+     "tag": "times:historical_event",
+     "scope": "span",
+     "quotes": [
+      "גזרה המלכות על היהודים שיתנו לו הון רב"
+     ],
+     "confidence": 2,
+     "why": "The Maharam's historical imprisonment is the setting.",
+     "quotes_failed": false
+    },
+    {
+     "tag": "times:death",
+     "scope": "span",
+     "quotes": [
+      "וישב בתפיסה עד שנפטר בהתפיסה"
+     ],
+     "confidence": 3,
+     "why": "The rabbi dies in prison.",
+     "quotes_failed": false
+    },
+    {
+     "tag": "experience:dream",
+     "scope": "span",
+     "quotes": [
+      "בא הר\"ם מרוטינבערג בחלום להגביר הנ״ל"
+     ],
+     "confidence": 3,
+     "why": "The dead rabbi appears to the wealthy man in a dream.",
+     "quotes_failed": false
+    },
+    {
+     "tag": "supernatural:miracle",
+     "scope": "span",
+     "quotes": [
+      "נדמה לכל אדם כמו אדם ישן ולא הסריח"
+     ],
+     "confidence": 3,
+     "why": "The body has not decayed after years unburied.",
+     "quotes_failed": false
+    },
+    {
+     "tag": "supernatural:communicating_with_the_invisible",
+     "scope": "span",
+     "quotes": [
+      "ושאל אותו מה אתה רוצה בשביל זה"
+     ],
+     "confidence": 2,
+     "why": "The dead rabbi speaks to the living man.",
+     "quotes_failed": false
+    },
+    {
+     "tag": "times:eschatology",
+     "scope": "span",
+     "quotes": [
+      "שתהא במחיצתי לאחר מאה שנים"
+     ],
+     "confidence": 2,
+     "why": "A place beside the rabbi in the afterlife is the reward offered.",
+     "quotes_failed": false
+    },
+    {
+     "tag": "ethics-and-emotions:charity",
+     "scope": "span",
+     "quotes": [
+      "והתיישב הגביר שכמה שיש לו יתן לו"
+     ],
+     "confidence": 2,
+     "why": "The wealthy man gives all he has to secure the burial.",
+     "quotes_failed": false
+    },
+    {
+     "tag": "social:inter_hasidic_master_disciple_relationship",
+     "scope": "span",
+     "quotes": [
+      "והרא״ש תלמידו אסף הרבה מעות"
+     ],
+     "confidence": 1,
+     "why": "A master-disciple relationship appears, though not a Hasidic one.",
+     "quotes_failed": false
+    },
+    {
+     "tag": "social:relations_with_non_jews",
+     "scope": "span",
+     "quotes": [
+      "ונתרצה המלך ליתן לקבור אותו"
+     ],
+     "confidence": 2,
+     "why": "The Jews deal with a gentile ruler.",
+     "quotes_failed": false
+    }
+   ],
+   "missing_concepts": [
+    "burial of the dead / denial of burial",
+    "self-sacrifice for the community (refusing ransom to prevent future extortion)",
+    "reward for honouring the dead"
+   ],
+   "start_quote_found": true,
+   "end_quote_found": true
+  }
+ ],
+ "check": {
+  "non_vocab_tags": [],
+  "quotes": 14,
+  "quotes_not_found": 0
+ },
+ "id": "Likutim-Hadashim_0005",
+ "chars": 1001,
+ "seconds": 15
+}

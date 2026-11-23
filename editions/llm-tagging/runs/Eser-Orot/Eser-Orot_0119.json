@@ -1,0 +1,178 @@
+{
+ "unit": {
+  "kind": "hasidic_story",
+  "why": "A transmitted anecdote about the Maggid of Kozhnitz's childhood: on Hanukkah night his candle miraculously burned all night, his father beat him, and he stayed silent. It is followed by biographical notes on his studies, marriage and later kindness to a benefactor's son-in-law.",
+  "boundary_note": ""
+ },
+ "stories": [
+  {
+   "k": 1,
+   "start_quote": "עוד במכתב הנ\"ל וז\"ל וכ׳ אלי",
+   "end_quote": "ה׳ ר״ט לכל שבוע כל ימי חייו",
+   "hasidic": true,
+   "summary_en": "As a seven-year-old, the future Maggid of Kozhnitz promised his father to study only as long as a small candle lasted, but angels made it burn all night. Beaten by his father for supposedly playing cards, he would not exploit the honour of Torah to excuse himself. Later he married in Przysucha, was supported by Issachar Berish, and in turn supported Berish's impoverished son-in-law for life.",
+   "tags": [
+    {
+     "tag": "supernatural:miracle",
+     "scope": "span",
+     "quotes": [
+      "המלאכים נהנו מאד מלימודו ודלק הנר כל הלילה"
+     ],
+     "confidence": 3,
+     "why": "the small candle burns the whole night",
+     "quotes_failed": false
+    },
+    {
+     "tag": "characters-and-roles:angels",
+     "scope": "span",
+     "quotes": [
+      "המלאכים נהנו מאד מלימודו"
+     ],
+     "confidence": 2,
+     "why": "angels are named as the cause of the miracle",
+     "quotes_failed": false
+    },
+    {
+     "tag": "supernatural:light_or_fire_as_a_sign_of_righteousness",
+     "scope": "span",
+     "quotes": [
+      "ודלק הנר כל הלילה"
+     ],
+     "confidence": 2,
+     "why": "the candle keeps burning because of his Torah study",
+     "quotes_failed": false
+    },
+    {
+     "tag": "practice:study",
+     "scope": "span",
+     "quotes": [
+      "ולעצמו למד בביהמ\"ד בלילה",
+      "לא ילמוד יותר מן נר של ג׳ גדולים"
+     ],
+     "confidence": 3,
+     "why": "the child's night study",
+     "quotes_failed": false
+    },
+    {
+     "tag": "spaces:beth_midrash",
+     "scope": "span",
+     "quotes": [
+      "לא הניחו אביו לילך לבהמ\"ד"
+     ],
+     "confidence": 2,
+     "why": "beit midrash and yeshiva settings",
+     "quotes_failed": false
+    },
+    {
+     "tag": "times:holidays",
+     "scope": "span",
+     "quotes": [
+      "ליל חנוכה לא הניחו אביו לילך"
+     ],
+     "confidence": 3,
+     "why": "the events take place on Hanukkah night",
+     "quotes_failed": false
+    },
+    {
+     "tag": "characters-and-roles:the_family_of_the_tsaddik",
+     "scope": "span",
+     "quotes": [
+      "אביו המנוח כיסה הכסת על ראשו",
+      "אביו הר״ר שבתי בק' אפטא"
+     ],
+     "confidence": 3,
+     "why": "his father is a central actor",
+     "quotes_failed": false
+    },
+    {
+     "tag": "ethics-and-emotions:humility",
+     "scope": "span",
+     "quotes": [
+      "חשב לעוולה שיציל עצמו ע\"י כבוד התורה"
+     ],
+     "confidence": 2,
+     "why": "he refuses to benefit from the honour of Torah",
+     "quotes_failed": false
+    },
+    {
+     "tag": "folkloristics:story_type_virtues",
+     "scope": "story",
+     "quotes": [],
+     "confidence": 3,
+     "why": "the tale illustrates the young tzaddik's diligence, honesty and self-effacement",
+     "quotes_failed": false
+    },
+    {
+     "tag": "ethics-and-emotions:virtues",
+     "scope": "span",
+     "quotes": [
+      "שלא הי' משקר מעולם",
+      "וסבל פצעי נאמנים"
+     ],
+     "confidence": 2,
+     "why": "his truthfulness and silent endurance",
+     "quotes_failed": false
+    },
+    {
+     "tag": "ethics-and-emotions:prohibitions",
+     "scope": "span",
+     "quotes": [
+      "לא הניחו אביו לילך לבהמ\"ד"
+     ],
+     "confidence": 1,
+     "why": "his father forbids him to go to the beit midrash",
+     "quotes_failed": false
+    },
+    {
+     "tag": "social:marriage",
+     "scope": "span",
+     "quotes": [
+      "ונשא אשה שם ושם בפרשיסחא",
+      "ויבחר עבור בתו לחתן החריף"
+     ],
+     "confidence": 2,
+     "why": "his marriage and the benefactor's choice of a son-in-law",
+     "quotes_failed": false
+    },
+    {
+     "tag": "ethics-and-emotions:charity",
+     "scope": "span",
+     "quotes": [
+      "זכר המגיד חסדו ויקחהו לביתו לקאזניץ",
+      "מחזיק אותו כמה שנים"
+     ],
+     "confidence": 3,
+     "why": "mutual support and lifelong maintenance of the impoverished son-in-law",
+     "quotes_failed": false
+    },
+    {
+     "tag": "women:mention_only",
+     "scope": "span",
+     "quotes": [
+      "ונשא אשה שם",
+      "ויבחר עבור בתו לחתן"
+     ],
+     "confidence": 2,
+     "why": "a wife and a daughter are mentioned but do not act",
+     "quotes_failed": false
+    }
+   ],
+   "missing_concepts": [
+    "unjust corporal punishment of a child by his father",
+    "gratitude and repaying kindness",
+    "chain of oral transmission (letter quoting a hearer)",
+    "child prodigy / precocious study"
+   ],
+   "start_quote_found": true,
+   "end_quote_found": true
+  }
+ ],
+ "check": {
+  "non_vocab_tags": [],
+  "quotes": 19,
+  "quotes_not_found": 0
+ },
+ "id": "Eser-Orot_0119",
+ "chars": 1353,
+ "seconds": 21
+}

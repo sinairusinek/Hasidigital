@@ -1,0 +1,63 @@
+{
+ "unit": {
+  "kind": "hasidic_story",
+  "why": "A brief anecdote: on Rosh Hashanah night the Seer of Lublin eats a certain dish, asks his disciples why, and approves R. Simha Bunem's answer.",
+  "boundary_note": ""
+ },
+ "stories": [
+  {
+   "k": 1,
+   "start_quote": "פ״א בליל ר\"ה אכל הרבי מלובלין",
+   "end_quote": "אמר הרבי יפה כיוון",
+   "hasidic": true,
+   "summary_en": "On Rosh Hashanah night the Seer of Lublin ate a dish (grieflech) and asked his disciples to explain why; R. Simha Bunem answered that the rebbe was 'sweetening harsh judgments', and the rebbe praised his answer.",
+   "tags": [
+    {
+     "tag": "times:holidays",
+     "scope": "span",
+     "quotes": [
+      "פ״א בליל ר\"ה אכל הרבי מלובלין"
+     ],
+     "confidence": 3,
+     "why": "Set on the night of Rosh Hashanah",
+     "quotes_failed": false
+    },
+    {
+     "tag": "social:inter_hasidic_master_disciple_relationship",
+     "scope": "span",
+     "quotes": [
+      "ושאל לתלמידיו שיכוונו הטעם למה אוכל זה",
+      "אמר הרבי יפה כיוון"
+     ],
+     "confidence": 3,
+     "why": "The master tests his disciples and approves a disciple's answer",
+     "quotes_failed": false
+    },
+    {
+     "tag": "knowledge:esoteric",
+     "scope": "span",
+     "quotes": [
+      "הרבי ממתיק דיני קשיא"
+     ],
+     "confidence": 1,
+     "why": "The answer gives a mystical reason, the sweetening of judgments",
+     "quotes_failed": false
+    }
+   ],
+   "missing_concepts": [
+    "symbolic or theurgic meaning of holiday foods",
+    "the rebbe testing his disciples' understanding"
+   ],
+   "start_quote_found": true,
+   "end_quote_found": true
+  }
+ ],
+ "check": {
+  "non_vocab_tags": [],
+  "quotes": 4,
+  "quotes_not_found": 0
+ },
+ "id": "Eser-Orot_0229",
+ "chars": 152,
+ "seconds": 10
+}

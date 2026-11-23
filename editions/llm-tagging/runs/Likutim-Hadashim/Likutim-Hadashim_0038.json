@@ -1,0 +1,158 @@
+{
+ "unit": {
+  "kind": "hasidic_story",
+  "why": "A single narrative: R. Aharon ha-Levi (of Staroselye) tells his hasidim that the Besht came to him in a dream during Kabbalat Shabbat and asked him to join ten tzaddikim taken to the upper world to annul an evil decree, and he dies immediately after.",
+  "boundary_note": ""
+ },
+ "stories": [
+  {
+   "k": 1,
+   "start_quote": "שמעתי מעשה מהרה״ק הר׳ אהרן הלוי זצ״ל",
+   "end_quote": "שכב על מטתו תיכף ונפטר",
+   "hasidic": true,
+   "summary_en": "R. Aharon ha-Levi, a disciple of the Tanya's author, prays Kabbalat Shabbat at the prayer stand. At kiddush he tells his hasidim that the Besht appeared to him in a dream and asked him to complete a minyan of ten tzaddikim who would ascend to annul an evil decree on Israel. He agreed, lay down on his bed and died at once.",
+   "tags": [
+    {
+     "tag": "folkloristics:story_type_death_of_the_tsaddik",
+     "scope": "story",
+     "quotes": [],
+     "confidence": 3,
+     "why": "The tale centres on the tzaddik's death.",
+     "quotes_failed": false
+    },
+    {
+     "tag": "times:death",
+     "scope": "span",
+     "quotes": [
+      "שכב על מטתו תיכף ונפטר"
+     ],
+     "confidence": 3,
+     "why": "His death is narrated.",
+     "quotes_failed": false
+    },
+    {
+     "tag": "times:shabbat",
+     "scope": "story",
+     "quotes": [],
+     "confidence": 3,
+     "why": "The story is set on Friday night, Kabbalat Shabbat and kiddush.",
+     "quotes_failed": false
+    },
+    {
+     "tag": "experience:dream",
+     "scope": "span",
+     "quotes": [
+      "בא הבעש״ט אצלי בחלום מעולם העליון"
+     ],
+     "confidence": 3,
+     "why": "The Besht appears to him in a dream.",
+     "quotes_failed": false
+    },
+    {
+     "tag": "supernatural:communicating_with_the_invisible",
+     "scope": "span",
+     "quotes": [
+      "בא הבעש״ט אצלי בחלום מעולם העליון ואמר לי"
+     ],
+     "confidence": 3,
+     "why": "The deceased Besht speaks to him from the upper world.",
+     "quotes_failed": false
+    },
+    {
+     "tag": "spaces:heaven",
+     "scope": "span",
+     "quotes": [
+      "שיקחו עשרה צדיקים מעולם הזה לעולם העליון"
+     ],
+     "confidence": 2,
+     "why": "The upper world is the destination of the tzaddikim.",
+     "quotes_failed": false
+    },
+    {
+     "tag": "practice:prayer",
+     "scope": "span",
+     "quotes": [
+      "שהיה מתפלל בשבת קודש לפני העמוד בקבלת שבת"
+     ],
+     "confidence": 3,
+     "why": "He leads the prayer before the prayer stand.",
+     "quotes_failed": false
+    },
+    {
+     "tag": "practice:pidyon_nefesh",
+     "scope": "span",
+     "quotes": [
+      "ויבטלו הגזרה"
+     ],
+     "confidence": 2,
+     "why": "The tzaddikim give their lives to avert a heavenly decree on Israel.",
+     "quotes_failed": false
+    },
+    {
+     "tag": "practice:protection",
+     "scope": "span",
+     "quotes": [
+      "נגזרה גזרה רעה על בני ישראל",
+      "ויבטלו הגזרה"
+     ],
+     "confidence": 2,
+     "why": "The tzaddikim shield the community from the decree.",
+     "quotes_failed": false
+    },
+    {
+     "tag": "practice:torat_ha_tsaddik",
+     "scope": "span",
+     "quotes": [
+      "ופעל שיקחו עשרה צדיקים מעולם הזה"
+     ],
+     "confidence": 2,
+     "why": "It shows the tzaddikim's power to annul decrees on others' behalf.",
+     "quotes_failed": false
+    },
+    {
+     "tag": "practice:drinking_alcohol",
+     "scope": "span",
+     "quotes": [
+      "וקידש לפני החסידים"
+     ],
+     "confidence": 1,
+     "why": "Kiddush implies wine, but the drinking itself is not described.",
+     "quotes_failed": false
+    },
+    {
+     "tag": "social:inter_hasidic_master_disciple_relationship",
+     "scope": "span",
+     "quotes": [
+      "שהיה תלמידו של הרב בעל התניא"
+     ],
+     "confidence": 1,
+     "why": "His discipleship is only mentioned.",
+     "quotes_failed": false
+    },
+    {
+     "tag": "ethics-and-emotions:virtues",
+     "scope": "story",
+     "quotes": [],
+     "confidence": 1,
+     "why": "His willing self-sacrifice for Israel is implied rather than stated.",
+     "quotes_failed": false
+    }
+   ],
+   "missing_concepts": [
+    "self-sacrifice of tzaddikim to annul a decree (death as atonement)",
+    "minyan of ten tzaddikim in heaven",
+    "a deceased tzaddik (the Besht) summoning a living one"
+   ],
+   "start_quote_found": true,
+   "end_quote_found": true
+  }
+ ],
+ "check": {
+  "non_vocab_tags": [],
+  "quotes": 11,
+  "quotes_not_found": 0
+ },
+ "id": "Likutim-Hadashim_0038",
+ "chars": 435,
+ "seconds": 15
+}

@@ -1,0 +1,121 @@
+{
+ "unit": {
+  "kind": "hasidic_story",
+  "why": "A single anecdote, quoted from Tiferet Shlomo, in which the Besht presses R. Michel to accept a rabbinate, threatens him, and then reveals that it was a test of his humility.",
+  "boundary_note": ""
+ },
+ "stories": [
+  {
+   "k": 1,
+   "start_quote": "כמו שנודע המעשה מהבעש״ט זי״ע שפ״א",
+   "end_quote": "לדעת את אשר בלבבך להטיבך באחריתך",
+   "hasidic": true,
+   "summary_en": "The Besht urges his disciple R. Michel to accept a town's rabbinate and threatens that he will lose both worlds if he refuses; Michel refuses anyway, and the Besht blesses him and explains that he only meant to test whether Michel's spirit would grow proud.",
+   "tags": [
+    {
+     "tag": "ethics-and-emotions:humility",
+     "scope": "span",
+     "quotes": [
+      "כאשר לא התנשא רוחך ולבך על כל דברי אלה"
+     ],
+     "confidence": 3,
+     "why": "Michel refuses honor and authority",
+     "quotes_failed": false
+    },
+    {
+     "tag": "folkloristics:story_type_virtues",
+     "scope": "story",
+     "quotes": [],
+     "confidence": 3,
+     "why": "the tale illustrates the disciple's humility",
+     "quotes_failed": false
+    },
+    {
+     "tag": "social:inter_hasidic_master_disciple_relationship",
+     "scope": "span",
+     "quotes": [
+      "באחד מגדולי תלמידיו הוא הצה״ק ר' מיכל"
+     ],
+     "confidence": 3,
+     "why": "the Besht tests his disciple",
+     "quotes_failed": false
+    },
+    {
+     "tag": "ethics-and-emotions:anger",
+     "scope": "span",
+     "quotes": [
+      "עד שכעס עליו הבעש״ט"
+     ],
+     "confidence": 2,
+     "why": "the Besht shows anger, even if it is feigned",
+     "quotes_failed": false
+    },
+    {
+     "tag": "social:disobedience",
+     "scope": "span",
+     "quotes": [
+      "מ״מ לא אקבל שררות הרבנות עלי"
+     ],
+     "confidence": 2,
+     "why": "Michel refuses the master's demand",
+     "quotes_failed": false
+    },
+    {
+     "tag": "ethics-and-emotions:joy",
+     "scope": "span",
+     "quotes": [
+      "אז ענהו הבעש״ט בשמחה"
+     ],
+     "confidence": 1,
+     "why": "the Besht answers with joy",
+     "quotes_failed": false
+    },
+    {
+     "tag": "social:retrospective_recognition",
+     "scope": "span",
+     "quotes": [
+      "כי אנכי אך לנסותך באתי"
+     ],
+     "confidence": 2,
+     "why": "the threat is revealed to have been a test",
+     "quotes_failed": false
+    },
+    {
+     "tag": "ethics-and-emotions:pride",
+     "scope": "span",
+     "quotes": [
+      "כאשר לא התנשא רוחך ולבך"
+     ],
+     "confidence": 1,
+     "why": "pride is the failing being tested for",
+     "quotes_failed": false
+    },
+    {
+     "tag": "times:eschatology",
+     "scope": "span",
+     "quotes": [
+      "אבדת עולמך בזה ובבא",
+      "זכאי חלקך בג״ע"
+     ],
+     "confidence": 1,
+     "why": "the world to come is what is at stake",
+     "quotes_failed": false
+    }
+   ],
+   "missing_concepts": [
+    "refusing communal office / the rabbinate",
+    "a tzaddik's test (nisayon) of a disciple"
+   ],
+   "start_quote_found": true,
+   "end_quote_found": true
+  }
+ ],
+ "check": {
+  "non_vocab_tags": [],
+  "quotes": 9,
+  "quotes_not_found": 0
+ },
+ "id": "Maim-Rabim_0008",
+ "chars": 556,
+ "seconds": 11
+}

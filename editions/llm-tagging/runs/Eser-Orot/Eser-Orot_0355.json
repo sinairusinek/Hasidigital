@@ -1,0 +1,91 @@
+{
+ "unit": {
+  "kind": "hasidic_story",
+  "why": "A minimal narrative: R. Zvi Hirsh of Zhidachov tells a dream in which R. Tanhuma is tried in heaven over a midrash and defends it with an exegesis; the exegesis makes up most of the text.",
+  "boundary_note": ""
+ },
+ "stories": [
+  {
+   "k": 1,
+   "start_quote": "(ב) בספר זכרון אלעזר (דף מ')",
+   "end_quote": "ועשיר יענה עזות ודפח\"ח עכ״ל",
+   "hasidic": true,
+   "summary_en": "R. Zvi Hirsh of Zhidachov dreamt that R. Tanhuma was brought to judgment in heaven for calling God 'the rich man who answers harshly' to Moses, and that R. Tanhuma justified himself by an acronym reading of 'רב לך' (Ruth and Boaz, the ancestors of the Davidic line, with the remaining letters spelling עזות).",
+   "tags": [
+    {
+     "tag": "experience:dream",
+     "scope": "span",
+     "quotes": [
+      "סיפר פ\"א חלומו שראה שתבעו למעלה לדין"
+     ],
+     "confidence": 3,
+     "why": "The whole narrative is a dream of the tzaddik.",
+     "quotes_failed": false
+    },
+    {
+     "tag": "spaces:heaven",
+     "scope": "span",
+     "quotes": [
+      "שתבעו למעלה לדין את רבי תנחומא"
+     ],
+     "confidence": 2,
+     "why": "The dream's action is a heavenly judgment.",
+     "quotes_failed": false
+    },
+    {
+     "tag": "spaces:rabbinical_court",
+     "scope": "span",
+     "quotes": [
+      "שתבעו למעלה לדין את רבי תנחומא"
+     ],
+     "confidence": 1,
+     "why": "Heavenly court proceedings; this is not an earthly beit din.",
+     "quotes_failed": false
+    },
+    {
+     "tag": "practice:sermon",
+     "scope": "span",
+     "quotes": [
+      "וז\"ש רב לך היינו ר\"ת רות",
+      "ועשיר יענה עזות"
+     ],
+     "confidence": 3,
+     "why": "Acronym exegesis of verses is the content.",
+     "quotes_failed": false
+    },
+    {
+     "tag": "not-a-hasidic-story:sermon",
+     "scope": "story",
+     "quotes": [],
+     "confidence": 2,
+     "why": "The narrative frame is thin; the point is the exegesis of the midrash.",
+     "quotes_failed": false
+    },
+    {
+     "tag": "practice:storytelling",
+     "scope": "span",
+     "quotes": [
+      "הצדיק מוהר\"צ מזידיטשוב סיפר פ\"א חלומו"
+     ],
+     "confidence": 1,
+     "why": "The tzaddik narrates his dream.",
+     "quotes_failed": false
+    }
+   ],
+   "missing_concepts": [
+    "heavenly trial of a sage for disrespectful speech about God",
+    "Moses's exclusion from the Land of Israel as a precondition for the Davidic kingdom"
+   ],
+   "start_quote_found": true,
+   "end_quote_found": true
+  }
+ ],
+ "check": {
+  "non_vocab_tags": [],
+  "quotes": 6,
+  "quotes_not_found": 0
+ },
+ "id": "Eser-Orot_0355",
+ "chars": 431,
+ "seconds": 14
+}

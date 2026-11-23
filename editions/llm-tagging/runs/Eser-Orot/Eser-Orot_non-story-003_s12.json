@@ -1,0 +1,62 @@
+{
+ "unit": {
+  "kind": "hasidic_story",
+  "why": "split out of non-story-003 (non-story)"
+ },
+ "stories": [
+  {
+   "k": 12,
+   "start_quote": "באותו חסיד ששמע בר״ה בבית הקברות",
+   "end_quote": "כבר נשמעו בין החיים",
+   "hasidic": false,
+   "summary_en": "A pious man overhears two dead girls' spirits in a cemetery and profits from their knowledge, until his wife's talk ends the secret.",
+   "tags": [
+    {
+     "tag": "supernatural:communicating_with_the_invisible",
+     "scope": "span",
+     "quotes": [
+      "שתי רוחות שמספרות זל״ז"
+     ],
+     "confidence": 3,
+     "why": "spirits overheard",
+     "quotes_failed": false
+    },
+    {
+     "tag": "times:holidays",
+     "scope": "span",
+     "quotes": [
+      "ששמע בר״ה בבית הקברות"
+     ],
+     "confidence": 2,
+     "why": "Rosh Hashana",
+     "quotes_failed": false
+    },
+    {
+     "tag": "women:minor_character",
+     "scope": "span",
+     "quotes": [
+      "כאשר אמרה אשתו של אותו חסיד"
+     ],
+     "confidence": 2,
+     "why": "wife reveals the secret",
+     "quotes_failed": false
+    },
+    {
+     "tag": "not-a-hasidic-story:hagiography",
+     "scope": "story",
+     "quotes": [],
+     "confidence": 2,
+     "why": "talmudic",
+     "quotes_failed": false
+    }
+   ],
+   "missing_concepts": [
+    "knowledge from behind the heavenly curtain (פרגוד)"
+   ],
+   "start_quote_found": true,
+   "end_quote_found": true
+  }
+ ],
+ "id": "Eser-Orot_non-story-003_s12",
+ "split_from": "non-story-003"
+}

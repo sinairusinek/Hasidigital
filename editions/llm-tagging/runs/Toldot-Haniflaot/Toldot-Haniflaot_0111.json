@@ -1,0 +1,103 @@
+{
+ "unit": {
+  "kind": "hasidic_story",
+  "why": "A short narrative, told by the author's teacher: the Maggid of Mezeritch asks Heaven for the scholar of the generation and then arranges the match of his son with R. Feivel of Kamenitz's daughter.",
+  "boundary_note": ""
+ },
+ "stories": [
+  {
+   "k": 1,
+   "start_quote": "קכג עוד שמעתי ממנו ז\"ל פ\"א",
+   "end_quote": "שלקח את בתו לבנו הנ״ל",
+   "hasidic": true,
+   "summary_en": "While studying a passage on eating terumah of hametz on Passover, the rebbe asks for the book Mishnat Hakhamim and tells how the Maggid of Mezeritch asked Heaven who was the scholar of the generation, so he could match his son R. Abraham the Angel with that scholar's daughter. Heaven named R. Feivel of Kamenitz, the author of that book, and the match was made.",
+   "tags": [
+    {
+     "tag": "social:marriage",
+     "scope": "span",
+     "quotes": [
+      "בכדי לשדך עמו וליתן בת ת\"ח שבדור לבנו"
+     ],
+     "confidence": 3,
+     "why": "arranging a match is the plot",
+     "quotes_failed": false
+    },
+    {
+     "tag": "characters-and-roles:the_family_of_the_tsaddik",
+     "scope": "span",
+     "quotes": [
+      "לבנו הה\"ק המלאך ז\"ל"
+     ],
+     "confidence": 3,
+     "why": "the Maggid's son is the groom",
+     "quotes_failed": false
+    },
+    {
+     "tag": "supernatural:communicating_with_the_invisible",
+     "scope": "span",
+     "quotes": [
+      "שאל משמים להגיד לו מי הוא הת״ח"
+     ],
+     "confidence": 3,
+     "why": "he asks Heaven and receives an answer",
+     "quotes_failed": false
+    },
+    {
+     "tag": "experience:revelation",
+     "scope": "span",
+     "quotes": [
+      "והשיבו לו על הרב הגאון ר׳ פייבל מקאמניץ"
+     ],
+     "confidence": 2,
+     "why": "a heavenly disclosure names the scholar",
+     "quotes_failed": false
+    },
+    {
+     "tag": "practice:storytelling",
+     "scope": "span",
+     "quotes": [
+      "וסיפר אשר הה״ק מהד״ב ז\"ל שאל"
+     ],
+     "confidence": 3,
+     "why": "the rebbe tells the tale during study",
+     "quotes_failed": false
+    },
+    {
+     "tag": "practice:study",
+     "scope": "span",
+     "quotes": [
+      "היה לומד שיעור השיטה דאוכל תרומת חמץ בפסח"
+     ],
+     "confidence": 3,
+     "why": "the frame is a Talmud study session",
+     "quotes_failed": false
+    },
+    {
+     "tag": "women:mention_only",
+     "scope": "span",
+     "quotes": [
+      "וכן היה שלקח את בתו לבנו"
+     ],
+     "confidence": 3,
+     "why": "the bride is referred to but does not act",
+     "quotes_failed": false
+    }
+   ],
+   "missing_concepts": [
+    "matchmaking (shiddukh) by heavenly guidance",
+    "prestige of Torah scholarship in choosing a match",
+    "citation of a rabbinic book as the trigger for a story"
+   ],
+   "start_quote_found": true,
+   "end_quote_found": true
+  }
+ ],
+ "check": {
+  "non_vocab_tags": [],
+  "quotes": 7,
+  "quotes_not_found": 0
+ },
+ "id": "Toldot-Haniflaot_0111",
+ "chars": 399,
+ "seconds": 11
+}

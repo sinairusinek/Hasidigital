@@ -1,0 +1,71 @@
+{
+ "unit": {
+  "kind": "hasidic_story",
+  "why": "A short biographical account of the narrator's ancestor attaching himself to the Ohev Yisrael of Apt/Medzhybizh after the deaths of his earlier masters, with a remembered saying about his devotion to that master.",
+  "boundary_note": "Part of a numbered sequence (לא) of biographical sections; the next division (לב) continues on the same master-disciple theme."
+ },
+ "stories": [
+  {
+   "k": 1,
+   "start_quote": "והנה אחר פטירת אבי זקני הה\"מ",
+   "end_quote": "שיהיה לי עוד רבי כמוהו",
+   "hasidic": true,
+   "summary_en": "After the deaths of the Maggid of Kozhnitz and the Seer of Lublin, the author's ancestor took the Ohev Yisrael as his only true rebbe. He visited other tzaddikim but never regarded any of them as his master, and in the prayer 'Restore our judges' he would pray for another rebbe like him.",
+   "tags": [
+    {
+     "tag": "social:inter_hasidic_master_disciple_relationship",
+     "scope": "story",
+     "quotes": [],
+     "confidence": 3,
+     "why": "The whole passage concerns his exclusive bond with his rebbe.",
+     "quotes_failed": false
+    },
+    {
+     "tag": "practice:travel_to_other_tsaddik",
+     "scope": "span",
+     "quotes": [
+      "היה דרכו ליסע לפרקים ג״כ לשאר צדיקים",
+      "לדבק עצמו באיזה צדיק גדול"
+     ],
+     "confidence": 3,
+     "why": "He travels to other tzaddikim, both during and after his master's lifetime.",
+     "quotes_failed": false
+    },
+    {
+     "tag": "practice:torat_ha_tsaddik",
+     "scope": "span",
+     "quotes": [
+      "אני מכוון שיהיה לי עוד רבי כמוהו",
+      "והוא היה לו לרבי מובחק שלו"
+     ],
+     "confidence": 2,
+     "why": "The passage stresses the need to cleave to a true rebbe.",
+     "quotes_failed": false
+    },
+    {
+     "tag": "practice:prayer",
+     "scope": "span",
+     "quotes": [
+      "בכל פעם שאני מתפלל השיבה שופטינו כבראשונה"
+     ],
+     "confidence": 2,
+     "why": "It describes his intention while reciting a specific benediction.",
+     "quotes_failed": false
+    }
+   ],
+   "missing_concepts": [
+    "exclusive loyalty to a single rebbe after his death"
+   ],
+   "start_quote_found": true,
+   "end_quote_found": true
+  }
+ ],
+ "check": {
+  "non_vocab_tags": [],
+  "quotes": 5,
+  "quotes_not_found": 0
+ },
+ "id": "Toldot-Haniflaot_0026",
+ "chars": 526,
+ "seconds": 15
+}

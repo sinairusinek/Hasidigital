@@ -1,0 +1,110 @@
+{
+ "unit": {
+  "kind": "hasidic_story",
+  "why": "A short memorate: a famed sage lodged with the narrator's in-laws on his way back from visiting the Chortkov rebbe and said he had found a true rebbe in him.",
+  "boundary_note": ""
+ },
+ "stories": [
+  {
+   "k": 1,
+   "start_quote": "סיפר לי חותני הרב הצדיק שליט״א",
+   "end_quote": "במלא מובן התואר רבי עכד״ק",
+   "hasidic": true,
+   "summary_en": "The narrator's father- and mother-in-law tell how a renowned sage lodged with them in Zablotow on his way back from the Chortkov rebbe. He said that after his own masters died he had feared he would find no rebbe, but in R. David Moshe he had found a rebbe in the full sense.",
+   "tags": [
+    {
+     "tag": "practice:travel_to_the_tsaddik",
+     "scope": "span",
+     "quotes": [
+      "בבאו מטשארטקוב מקבלת פני שכינה כ\"ק הרה״ק הנ\"ל"
+     ],
+     "confidence": 3,
+     "why": "the sage travelled to the Chortkov rebbe",
+     "quotes_failed": false
+    },
+    {
+     "tag": "practice:travel_to_other_tsaddik",
+     "scope": "span",
+     "quotes": [
+      "אחרי פטירת רבותינו נוחי נפש זללה\"ה לא אמצא לי רבי"
+     ],
+     "confidence": 3,
+     "why": "after his masters died he sought out another tsaddik",
+     "quotes_failed": false
+    },
+    {
+     "tag": "practice:torat_ha_tsaddik",
+     "scope": "span",
+     "quotes": [
+      "מצאתי בו רבי במלא מובן התואר רבי"
+     ],
+     "confidence": 2,
+     "why": "stresses the need for a true rebbe",
+     "quotes_failed": false
+    },
+    {
+     "tag": "practice:storytelling",
+     "scope": "span",
+     "quotes": [
+      "סיפר לי חותני הרב הצדיק שליט״א ואף חמותי"
+     ],
+     "confidence": 2,
+     "why": "framed as told by the narrator's in-laws",
+     "quotes_failed": false
+    },
+    {
+     "tag": "characters-and-roles:the_family_of_the_tsaddik",
+     "scope": "span",
+     "quotes": [
+      "ואף חמותי הרבנית הצדיקת ע\"ה"
+     ],
+     "confidence": 1,
+     "why": "the narrator's in-laws, a tsaddik's household, are the informants",
+     "quotes_failed": false
+    },
+    {
+     "tag": "women:minor_character",
+     "scope": "span",
+     "quotes": [
+      "ואף חמותי הרבנית הצדיקת ע\"ה"
+     ],
+     "confidence": 2,
+     "why": "the mother-in-law is a co-narrator and the host",
+     "quotes_failed": false
+    },
+    {
+     "tag": "folkloristics:story_type_virtues",
+     "scope": "story",
+     "quotes": [],
+     "confidence": 2,
+     "why": "the tale serves to praise the Chortkov rebbe's greatness",
+     "quotes_failed": false
+    },
+    {
+     "tag": "social:inter_hasidic",
+     "scope": "span",
+     "quotes": [
+      "התאכסן אצלם בזאבליטוב לפני ארבעים שנה"
+     ],
+     "confidence": 1,
+     "why": "the host family and the visiting sage interact",
+     "quotes_failed": false
+    }
+   ],
+   "missing_concepts": [
+    "hospitality / lodging a guest",
+    "a disciple's testimony praising another tsaddik"
+   ],
+   "start_quote_found": true,
+   "end_quote_found": true
+  }
+ ],
+ "check": {
+  "non_vocab_tags": [],
+  "quotes": 7,
+  "quotes_not_found": 0
+ },
+ "id": "Eser-Orot_0337",
+ "chars": 374,
+ "seconds": 11
+}

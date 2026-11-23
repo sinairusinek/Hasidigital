@@ -1,0 +1,154 @@
+{
+ "unit": {
+  "kind": "hasidic_story",
+  "why": "A single anecdote about the Besht: he swore to a barren woman she would have a son, heard a heavenly proclamation that he had lost the World to Come, rejoiced at the chance to serve God without reward, and learned from Ahijah the Shilonite that it was a test.",
+  "boundary_note": ""
+ },
+ "stories": [
+  {
+   "k": 1,
+   "start_quote": "מעשה ממרן הריב״ש זצ״ל פ״א ע״י",
+   "end_quote": "השלני הנביא שהיה זה לנסיון",
+   "hasidic": true,
+   "summary_en": "The Besht, pressed by a barren woman who generously supplied him before Passover, swore she would bear a son; a heavenly herald proclaimed he had lost his share in the World to Come, and he rejoiced that he could now serve God truly without reward, until his teacher Ahijah the Shilonite told him it had been a test.",
+   "tags": [
+    {
+     "tag": "supernatural:pregnancy",
+     "scope": "span",
+     "quotes": [
+      "ונשבע לה שיהי׳ לה בן",
+      "והוא היתה אילינות ממש לגמרי"
+     ],
+     "confidence": 2,
+     "why": "The Besht promises a son to a completely barren woman; the conception itself is not narrated.",
+     "quotes_failed": false
+    },
+    {
+     "tag": "supernatural:communicating_with_the_invisible",
+     "scope": "span",
+     "quotes": [
+      "שמע כרוז שאין לו חלק עוה״ב",
+      "ואמר לו רבו אחיהו השלני הנביא"
+     ],
+     "confidence": 3,
+     "why": "He hears a heavenly herald and is addressed by the prophet Ahijah.",
+     "quotes_failed": false
+    },
+    {
+     "tag": "experience:revelation",
+     "scope": "span",
+     "quotes": [
+      "שמע כרוז שאין לו חלק עוה״ב"
+     ],
+     "confidence": 2,
+     "why": "A heavenly proclamation is disclosed to him.",
+     "quotes_failed": false
+    },
+    {
+     "tag": "ethics-and-emotions:joy",
+     "scope": "span",
+     "quotes": [
+      "ושמח הצדיק שמחה גדולה"
+     ],
+     "confidence": 3,
+     "why": "He rejoices greatly at losing his reward.",
+     "quotes_failed": false
+    },
+    {
+     "tag": "times:eschatology",
+     "scope": "span",
+     "quotes": [
+      "שאין לו חלק עוה״ב",
+      "אחר שאין לי בטחון עוה״ב"
+     ],
+     "confidence": 3,
+     "why": "His share in the World to Come is central.",
+     "quotes_failed": false
+    },
+    {
+     "tag": "ethics-and-emotions:punishment",
+     "scope": "span",
+     "quotes": [
+      "וע״י שעשה זאת להטריח את קונו"
+     ],
+     "confidence": 2,
+     "why": "The loss of his share in the World to Come is decreed for troubling his Creator.",
+     "quotes_failed": false
+    },
+    {
+     "tag": "ethics-and-emotions:charity",
+     "scope": "span",
+     "quotes": [
+      "והיא הביאה לו בהרחבה"
+     ],
+     "confidence": 2,
+     "why": "The woman generously provides for the Besht in his need.",
+     "quotes_failed": false
+    },
+    {
+     "tag": "times:holidays",
+     "scope": "span",
+     "quotes": [
+      "עת דוחק קודם הפסח"
+     ],
+     "confidence": 1,
+     "why": "The scene is set before Passover.",
+     "quotes_failed": false
+    },
+    {
+     "tag": "women:catalyst_character",
+     "scope": "span",
+     "quotes": [
+      "ע״י הפצרות אשה עקרה אחת"
+     ],
+     "confidence": 3,
+     "why": "The barren woman's pleading triggers the plot.",
+     "quotes_failed": false
+    },
+    {
+     "tag": "folkloristics:story_type_virtues",
+     "scope": "story",
+     "quotes": [],
+     "confidence": 3,
+     "why": "The story illustrates the Besht's selfless service of God.",
+     "quotes_failed": false
+    },
+    {
+     "tag": "ethics-and-emotions:virtues",
+     "scope": "span",
+     "quotes": [
+      "לעבוד את בוראי באמת בכל לבי"
+     ],
+     "confidence": 2,
+     "why": "It shows service of God without hope of reward.",
+     "quotes_failed": false
+    },
+    {
+     "tag": "practice:torat_ha_tsaddik",
+     "scope": "span",
+     "quotes": [
+      "ונשבע לה שיהי׳ לה בן"
+     ],
+     "confidence": 1,
+     "why": "The tsaddik's power to compel Heaven on another's behalf is at issue.",
+     "quotes_failed": false
+    }
+   ],
+   "missing_concepts": [
+    "Ahijah the Shilonite as the Besht's heavenly teacher",
+    "divine test (nisayon)",
+    "serving God without reward (lishmah)"
+   ],
+   "start_quote_found": true,
+   "end_quote_found": true
+  }
+ ],
+ "check": {
+  "non_vocab_tags": [],
+  "quotes": 14,
+  "quotes_not_found": 0
+ },
+ "id": "Derech-Haemuna_0169",
+ "chars": 439,
+ "seconds": 18
+}

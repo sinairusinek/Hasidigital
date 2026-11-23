@@ -1,0 +1,112 @@
+{
+ "unit": {
+  "kind": "hasidic_story",
+  "why": "A homily on the length of the exile embeds a short anecdote: a tzaddik in the Besht's day tried to force the redemption, the Besht rebuked him, and he was punished from Heaven.",
+  "boundary_note": "Homiletic frame continues the exegesis on 'ושב וקבצך'; the next division begins a new homily-plus-story from Divrei Elimelekh."
+ },
+ "stories": [
+  {
+   "k": 1,
+   "start_quote": "שהי' בימי הריב״ש זצלה\"ה זי\"ע צדיק אחד",
+   "end_quote": "ובעבור ששכח מהצלת ישראל נענש ממרומים ר\"ל",
+   "hasidic": true,
+   "summary_en": "In the Besht's time a tzaddik sought to bring the redemption by arousing severities and judgments against the wicked. The Besht asked him by what power he would protect Israel from those judgments. Because he forgot Israel's rescue, he was punished from on high. The tale is framed by a homily that the exile is prolonged so that no Jewish soul is lost.",
+   "tags": [
+    {
+     "tag": "characters-and-roles:messiah",
+     "scope": "span",
+     "quotes": [
+      "צדיק אחד שרצה להביא הגאולה ע״י התעוררת גבורות ודינים",
+      "שיש לאל ידו להביא הגאולה"
+     ],
+     "confidence": 3,
+     "why": "The attempt to hasten the redemption is the core of the story.",
+     "quotes_failed": false
+    },
+    {
+     "tag": "times:eschatology",
+     "scope": "span",
+     "quotes": [
+      "שלכן ארכו ימי גלותינו בכדי שלא ידח ממנו שום נדח",
+      "שרצה להביא הגאולה"
+     ],
+     "confidence": 3,
+     "why": "Redemption and end of exile are the theme.",
+     "quotes_failed": false
+    },
+    {
+     "tag": "ethics-and-emotions:punishment",
+     "scope": "span",
+     "quotes": [
+      "ובעבור ששכח מהצלת ישראל נענש ממרומים ר\"ל"
+     ],
+     "confidence": 3,
+     "why": "The tzaddik is punished by Heaven.",
+     "quotes_failed": false
+    },
+    {
+     "tag": "not-a-hasidic-story:sermon",
+     "scope": "story",
+     "quotes": [],
+     "confidence": 2,
+     "why": "The narrative is wrapped in an exegetical homily on a verse and the Tikkunim.",
+     "quotes_failed": false
+    },
+    {
+     "tag": "practice:sermon",
+     "scope": "span",
+     "quotes": [
+      "ושב וקבצך מכל העמים וגו׳ והנה מבואר בתקונים ובספרים"
+     ],
+     "confidence": 2,
+     "why": "Verse exegesis presented as teaching.",
+     "quotes_failed": false
+    },
+    {
+     "tag": "social:conflict",
+     "scope": "span",
+     "quotes": [
+      "וא\"ל הריב״ש זי\"ע שבאיזה כח יציל הישראל"
+     ],
+     "confidence": 1,
+     "why": "The Besht challenges the other tzaddik's plan.",
+     "quotes_failed": false
+    },
+    {
+     "tag": "practice:torat_ha_tsaddik",
+     "scope": "span",
+     "quotes": [
+      "שיש לאל ידו להביא הגאולה אך שיהי' הרבה נדחים"
+     ],
+     "confidence": 1,
+     "why": "Concerns the tzaddik's power to bring about the redemption.",
+     "quotes_failed": false
+    },
+    {
+     "tag": "social:relations_with_sinners",
+     "scope": "span",
+     "quotes": [
+      "התעוררת גבורות ודינים על הרשעים"
+     ],
+     "confidence": 1,
+     "why": "The plan was to bring judgments on the wicked of Israel.",
+     "quotes_failed": false
+    }
+   ],
+   "missing_concepts": [
+    "forcing the end (dehikat ha-ketz) as a dangerous act",
+    "gathering of the scattered sparks / lost souls of Israel"
+   ],
+   "start_quote_found": true,
+   "end_quote_found": true
+  }
+ ],
+ "check": {
+  "non_vocab_tags": [],
+  "quotes": 9,
+  "quotes_not_found": 0
+ },
+ "id": "Tiferet-Hayyim_0015",
+ "chars": 571,
+ "seconds": 17
+}

@@ -1,0 +1,102 @@
+{
+ "unit": {
+  "kind": "hasidic_story",
+  "why": "A single anecdote about R. Shmelke of Nikolsburg acting strangely on his arrival to take up the rabbinate, ending with his explanation.",
+  "boundary_note": ""
+ },
+ "stories": [
+  {
+   "k": 1,
+   "start_quote": "מעשה בר׳ ר׳ שמעלקע כשבא על הרבנות",
+   "end_quote": "כאילו בעצמך עשית את הכבוד",
+   "hasidic": true,
+   "summary_en": "When R. Shmelke arrived to take up the rabbinate in Nikolsburg and was received with great honor, he went home and honored himself aloud (seating himself at the head, offering himself brandy and mead), so that people thought him mad, and he explained it through the saying 'let your fellow's honor be dear to you as your own': one should take no pleasure in honor others give.",
+   "tags": [
+    {
+     "tag": "ethics-and-emotions:humility",
+     "scope": "span",
+     "quotes": [
+      "אם אתה רואה שעושין לך כבוד לא תהנה מהכבוד"
+     ],
+     "confidence": 3,
+     "why": "the point is refusing to enjoy honor",
+     "quotes_failed": false
+    },
+    {
+     "tag": "ethics-and-emotions:pride",
+     "scope": "span",
+     "quotes": [
+      "וכשראה שעשו לו כבוד גדול נתפעל"
+     ],
+     "confidence": 2,
+     "why": "he guards against pride arising from the honor he received",
+     "quotes_failed": false
+    },
+    {
+     "tag": "folkloristics:story_type_virtues",
+     "scope": "story",
+     "quotes": [],
+     "confidence": 3,
+     "why": "the story illustrates the tzaddik's humility",
+     "quotes_failed": false
+    },
+    {
+     "tag": "times:inauguration",
+     "scope": "span",
+     "quotes": [
+      "כשבא על הרבנות לניקלשבורג עשו לו כבוד גדול"
+     ],
+     "confidence": 2,
+     "why": "the setting is his installation as rabbi of Nikolsburg",
+     "quotes_failed": false
+    },
+    {
+     "tag": "practice:drinking_alcohol",
+     "scope": "span",
+     "quotes": [
+      "אפשר תשתו יי״ש וכן עשה",
+      "אפשר תשתו מי דבש ושתה"
+     ],
+     "confidence": 3,
+     "why": "he drinks brandy and mead as part of the act",
+     "quotes_failed": false
+    },
+    {
+     "tag": "practice:sermon",
+     "scope": "span",
+     "quotes": [
+      "יהי כבוד חברך חביב עליך כשלך",
+      "ויהיה דומה כך הכבוד מה שעושין לך אחרים"
+     ],
+     "confidence": 2,
+     "why": "he gives an exegesis of the Avot saying",
+     "quotes_failed": false
+    },
+    {
+     "tag": "social:retrospective_recognition",
+     "scope": "span",
+     "quotes": [
+      "וסברו האנשים שהוא ח\"ו משוגע"
+     ],
+     "confidence": 2,
+     "why": "behavior taken as madness is shown afterward to carry a meaning",
+     "quotes_failed": false
+    }
+   ],
+   "missing_concepts": [
+    "honor (kavod) and its rejection",
+    "strange or paradoxical behavior of a tzaddik"
+   ],
+   "start_quote_found": true,
+   "end_quote_found": true
+  }
+ ],
+ "check": {
+  "non_vocab_tags": [],
+  "quotes": 8,
+  "quotes_not_found": 0
+ },
+ "id": "Likutim-Hadashim_0001",
+ "chars": 506,
+ "seconds": 13
+}

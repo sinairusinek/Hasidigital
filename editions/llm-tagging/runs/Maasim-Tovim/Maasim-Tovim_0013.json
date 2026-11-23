@@ -1,0 +1,182 @@
+{
+ "unit": {
+  "kind": "non_hasidic_story",
+  "why": "A legend about Nahmanides (Ramban) being drawn to kabbalah by an old practical kabbalist who escaped burning: a pre-Hasidic hagiographic tale.",
+  "boundary_note": ""
+ },
+ "stories": [
+  {
+   "k": 1,
+   "start_quote": "שבחי אדונינו מורינו ורבן של כל ישראל",
+   "end_quote": "עד שיצא ראש החכמים בדורו על זאת החכמה",
+   "hasidic": false,
+   "summary_en": "Nahmanides, a physician and philosopher who disdained kabbalah, refused to intercede for an old kabbalist sentenced to burning on a false charge of visiting a brothel. The sage, saved by practical kabbalah when a donkey was burned in his place, appeared at the Ramban's Sabbath kiddush. This persuaded the Ramban to study kabbalah.",
+   "tags": [
+    {
+     "tag": "not-a-hasidic-story:hagiography",
+     "scope": "story",
+     "quotes": [],
+     "confidence": 3,
+     "why": "Praises of Ramban, a pre-Hasidic sage",
+     "quotes_failed": false
+    },
+    {
+     "tag": "knowledge:practical_kabbalah",
+     "scope": "span",
+     "quotes": [
+      "החכם בקבלה מעשיות שהי׳ יודע החליף שהטילו חמור תחתיו"
+     ],
+     "confidence": 3,
+     "why": "Practical kabbalah used to swap himself with a donkey",
+     "quotes_failed": false
+    },
+    {
+     "tag": "knowledge:esoteric",
+     "scope": "span",
+     "quotes": [
+      "השתדל ללמדו חכמת הקבלה",
+      "ואז נתלהב הרמב״ן ללמדה והשכים והעריב עליה"
+     ],
+     "confidence": 3,
+     "why": "Transmission of kabbalah is the theme",
+     "quotes_failed": false
+    },
+    {
+     "tag": "characters-and-roles:baal_shem",
+     "scope": "span",
+     "quotes": [
+      "עד שבא אליו זקן חכם גדול בקבלה"
+     ],
+     "confidence": 2,
+     "why": "Pre-Hasidic wonder-working kabbalist",
+     "quotes_failed": false
+    },
+    {
+     "tag": "supernatural:miracle",
+     "scope": "span",
+     "quotes": [
+      "שהטילו חמור תחתיו והוא הלך לבית הרמב״ן במנחה"
+     ],
+     "confidence": 3,
+     "why": "Miraculous escape from burning",
+     "quotes_failed": false
+    },
+    {
+     "tag": "times:shabbat",
+     "scope": "span",
+     "quotes": [
+      "ודנוהו לשריפה בשבת קודש",
+      "וימצאהו מקדש על היין"
+     ],
+     "confidence": 3,
+     "why": "Execution and kiddush on Shabbat",
+     "quotes_failed": false
+    },
+    {
+     "tag": "social:relations_with_the_authorities",
+     "scope": "span",
+     "quotes": [
+      "ויבא החצר ויתפשהו ודנוהו לשריפה"
+     ],
+     "confidence": 3,
+     "why": "Arrested and sentenced by the authorities",
+     "quotes_failed": false
+    },
+    {
+     "tag": "social:relations_with_non_jews",
+     "scope": "span",
+     "quotes": [
+      "הוציאו את החכם הזקן הנ״ל ע״פ השוק ברבים"
+     ],
+     "confidence": 2,
+     "why": "Public execution by gentile court",
+     "quotes_failed": false
+    },
+    {
+     "tag": "ethics-and-emotions:adultery",
+     "scope": "span",
+     "quotes": [
+      "ללכת בקובה של זונות",
+      "והרמב״ן הוכיחו על מעשה הזנות"
+     ],
+     "confidence": 2,
+     "why": "Alleged visit to a brothel is the pretext",
+     "quotes_failed": false
+    },
+    {
+     "tag": "ethics-and-emotions:lying",
+     "scope": "span",
+     "quotes": [
+      "זה החכם הערים ללכת בקובה של זונות",
+      "באמרו כי שקר הוא"
+     ],
+     "confidence": 2,
+     "why": "The sage stages the affair by a ruse",
+     "quotes_failed": false
+    },
+    {
+     "tag": "folkloristics:story_type_rapprochement",
+     "scope": "story",
+     "quotes": [],
+     "confidence": 2,
+     "why": "A skeptic is drawn to kabbalah by the events",
+     "quotes_failed": false
+    },
+    {
+     "tag": "practice:study",
+     "scope": "span",
+     "quotes": [
+      "ולמד זאת החכמה מהרב הר״א מגרמיזא בעל ספר הרוקח"
+     ],
+     "confidence": 3,
+     "why": "Kabbalah study depicted",
+     "quotes_failed": false
+    },
+    {
+     "tag": "practice:drinking_alcohol",
+     "scope": "span",
+     "quotes": [
+      "וימצאהו מקדש על היין"
+     ],
+     "confidence": 2,
+     "why": "Kiddush over wine is the scene of the wonder",
+     "quotes_failed": false
+    },
+    {
+     "tag": "experience:enthusiasm",
+     "scope": "span",
+     "quotes": [
+      "ואז נתלהב הרמב״ן ללמדה"
+     ],
+     "confidence": 2,
+     "why": "Ramban became fervent about study",
+     "quotes_failed": false
+    },
+    {
+     "tag": "social:retrospective_recognition",
+     "scope": "span",
+     "quotes": [
+      "הלא ראית כח זאת החכמה ומדוע תמנע הטוב מאתך"
+     ],
+     "confidence": 2,
+     "why": "Ramban realizes the power of kabbalah",
+     "quotes_failed": false
+    }
+   ],
+   "missing_concepts": [
+    "philosophy versus kabbalah",
+    "execution by burning / substitution of a donkey"
+   ],
+   "start_quote_found": true,
+   "end_quote_found": true
+  }
+ ],
+ "check": {
+  "non_vocab_tags": [],
+  "quotes": 17,
+  "quotes_not_found": 0
+ },
+ "id": "Maasim-Tovim_0013",
+ "chars": 1096,
+ "seconds": 16
+}

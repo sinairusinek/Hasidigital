@@ -1,0 +1,122 @@
+{
+ "unit": {
+  "kind": "hasidic_story",
+  "why": "A memorate by R. Moshe of Sambor about an exchange with the Seer of Lublin at a Sabbath meal, in which the Seer humbles himself and his disciple answers him.",
+  "boundary_note": ""
+ },
+ "stories": [
+  {
+   "k": 1,
+   "start_quote": "שמעתי מרבי מלובלין. פעם אחת בסעודת שבת",
+   "end_quote": "לפני בית דין של מעלה שלא יוותרו",
+   "hasidic": true,
+   "summary_en": "At a Sabbath meal the Seer of Lublin denies that he is a tsaddik; when R. Moshe of Sambor protests that in the world of truth he will admit he is righteous, the Seer answers that he trusts only in God's mercy and not in the heavenly court.",
+   "tags": [
+    {
+     "tag": "times:shabbat",
+     "scope": "span",
+     "quotes": [
+      "פעם אחת בסעודת שבת"
+     ],
+     "confidence": 3,
+     "why": "Setting is the Sabbath meal",
+     "quotes_failed": false
+    },
+    {
+     "tag": "ethics-and-emotions:humility",
+     "scope": "span",
+     "quotes": [
+      "שהשפיל והקטין עצמו עד למאוד שאינו צדיק",
+      "ונתמעט בענותנותו והשיב בענותנותו"
+     ],
+     "confidence": 3,
+     "why": "The tsaddik's self-abasement is the core of the story",
+     "quotes_failed": false
+    },
+    {
+     "tag": "folkloristics:story_type_virtues",
+     "scope": "story",
+     "quotes": [],
+     "confidence": 3,
+     "why": "The story illustrates the Seer's humility",
+     "quotes_failed": false
+    },
+    {
+     "tag": "social:inter_hasidic_master_disciple_relationship",
+     "scope": "span",
+     "quotes": [
+      "ואני השפל עמדתי על רגלי והעזתי פני",
+      "ואמר לי בזה הלשון ר׳ משה"
+     ],
+     "confidence": 3,
+     "why": "A dialogue between master and disciple",
+     "quotes_failed": false
+    },
+    {
+     "tag": "spaces:heaven",
+     "scope": "span",
+     "quotes": [
+      "אך לא לפני בית דין של מעלה"
+     ],
+     "confidence": 1,
+     "why": "The heavenly judgment is discussed but is not a setting",
+     "quotes_failed": false
+    },
+    {
+     "tag": "times:eschatology",
+     "scope": "span",
+     "quotes": [
+      "כשיבא משפטי לפני בורא כל עולמים"
+     ],
+     "confidence": 2,
+     "why": "Concern with judgment after death",
+     "quotes_failed": false
+    },
+    {
+     "tag": "ethics-and-emotions:fear",
+     "scope": "span",
+     "quotes": [
+      "שלא יוותרו"
+     ],
+     "confidence": 1,
+     "why": "An implied fear of strict heavenly judgment",
+     "quotes_failed": false
+    },
+    {
+     "tag": "ethics-and-emotions:awe",
+     "scope": "span",
+     "quotes": [
+      "רוצה לישבע שרבי הוא צדיק גמור"
+     ],
+     "confidence": 2,
+     "why": "The disciple's reverence for the master",
+     "quotes_failed": false
+    },
+    {
+     "tag": "practice:torat_ha_tsaddik",
+     "scope": "span",
+     "quotes": [
+      "יודע אני שיש מאה אנשים נשבעים בעדי"
+     ],
+     "confidence": 1,
+     "why": "Concerns the status of the tsaddik in his followers' eyes",
+     "quotes_failed": false
+    }
+   ],
+   "missing_concepts": [
+    "self-doubt of the tsaddik about his own righteousness",
+    "heavenly judgment (בית דין של מעלה) versus divine mercy"
+   ],
+   "start_quote_found": true,
+   "end_quote_found": true
+  }
+ ],
+ "check": {
+  "non_vocab_tags": [],
+  "quotes": 10,
+  "quotes_not_found": 0
+ },
+ "id": "Eser-Orot_0217",
+ "chars": 725,
+ "seconds": 12
+}

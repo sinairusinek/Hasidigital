@@ -1,0 +1,89 @@
+{
+ "unit": {
+  "kind": "hasidic_story",
+  "why": "A brief anecdote, quoted from Vayechal Moshe, about R. Meshullam Zusya at a crossroads holding his tzitzit and unifying the Name to find the right road.",
+  "boundary_note": "part of a compilation of sources on tzitzit; the previous division is a teaching and the next division is a separate quoted account"
+ },
+ "stories": [
+  {
+   "k": 1,
+   "start_quote": "ובס׳ ויחל משה (תהלים בקפי׳ קי״ט)",
+   "end_quote": "זהו הדרך לכו בו ומאין ידע וכו׳",
+   "hasidic": true,
+   "summary_en": "R. Zusya, travelling and unsure which of several forking paths to take, took his tzitzit in hand, unified the divine Name, and declared which road was the right one.",
+   "tags": [
+    {
+     "tag": "practice:the_travels_of_the_tsaddik",
+     "scope": "span",
+     "quotes": [
+      "כאשר נסע בדרך והיה מפוצלי׳ נתיבות לכאן"
+     ],
+     "confidence": 3,
+     "why": "the story turns on the tsaddik's journey and a fork in the road",
+     "quotes_failed": false
+    },
+    {
+     "tag": "kabbalah:kabbalistic_terms_yihudim",
+     "scope": "span",
+     "quotes": [
+      "לקח הציצית בידו וייחד ששמו ית׳"
+     ],
+     "confidence": 2,
+     "why": "he unifies the divine Name contemplatively",
+     "quotes_failed": false
+    },
+    {
+     "tag": "practice:meditation",
+     "scope": "span",
+     "quotes": [
+      "לקח הציצית בידו וייחד ששמו ית׳"
+     ],
+     "confidence": 2,
+     "why": "a contemplative yihud performed in order to decide",
+     "quotes_failed": false
+    },
+    {
+     "tag": "supernatural:perception",
+     "scope": "span",
+     "quotes": [
+      "ואמר זהו הדרך לכו בו"
+     ],
+     "confidence": 2,
+     "why": "he knows the right road by supernatural means",
+     "quotes_failed": false
+    },
+    {
+     "tag": "practice:use_of_holy_names",
+     "scope": "span",
+     "quotes": [
+      "וייחד ששמו ית׳ ואמר זהו הדרך"
+     ],
+     "confidence": 1,
+     "why": "the Name is used for practical guidance",
+     "quotes_failed": false
+    },
+    {
+     "tag": "not-a-hasidic-story:sermon",
+     "scope": "story",
+     "quotes": [],
+     "confidence": 1,
+     "why": "the anecdote is quoted to illustrate a teaching on tzitzit",
+     "quotes_failed": false
+    }
+   ],
+   "missing_concepts": [
+    "tzitzit as a ritual object with mystical or guiding power"
+   ],
+   "start_quote_found": true,
+   "end_quote_found": true
+  }
+ ],
+ "check": {
+  "non_vocab_tags": [],
+  "quotes": 5,
+  "quotes_not_found": 0
+ },
+ "id": "Derech-Haemuna_0185",
+ "chars": 197,
+ "seconds": 14
+}

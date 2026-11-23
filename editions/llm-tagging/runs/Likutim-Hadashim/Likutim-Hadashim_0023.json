@@ -1,0 +1,101 @@
+{
+ "unit": {
+  "kind": "hasidic_story",
+  "why": "A short memorate: the narrator's grandfather, as a youth at the court of the rebbe of Lublin, is asked whether he hears the great secrets being explained, and the rebbe then says that a good heart outweighs all of it.",
+  "boundary_note": ""
+ },
+ "stories": [
+  {
+   "k": 1,
+   "start_quote": "שמעתי מאבי זקני זצ״ל בעוד שהיה",
+   "end_quote": "„לב טוב מכריע את כל זה\"",
+   "hasidic": true,
+   "summary_en": "While a disciple expounds a Zohar commentary at the rebbe of Lublin's table, the rebbe asks the narrator's young grandfather whether he hears the great secrets, and then remarks that a good heart outweighs all this.",
+   "tags": [
+    {
+     "tag": "knowledge:esoteric",
+     "scope": "span",
+     "quotes": [
+      "שיאמר ביאור של הרב על הזהר",
+      "איך הרב מדבר סודות גדולות"
+     ],
+     "confidence": 3,
+     "why": "The setting is the exposition of Zohar secrets.",
+     "quotes_failed": false
+    },
+    {
+     "tag": "practice:study",
+     "scope": "span",
+     "quotes": [
+      "שיאמר ביאור של הרב על הזהר"
+     ],
+     "confidence": 2,
+     "why": "A Zohar commentary is expounded aloud before the rebbe.",
+     "quotes_failed": false
+    },
+    {
+     "tag": "ethics-and-emotions:virtues",
+     "scope": "span",
+     "quotes": [
+      "לב טוב מכריע את כל זה"
+     ],
+     "confidence": 3,
+     "why": "The point is that the virtue of a good heart outweighs esoteric knowledge.",
+     "quotes_failed": false
+    },
+    {
+     "tag": "social:inter_hasidic_master_disciple_relationship",
+     "scope": "span",
+     "quotes": [
+      "היה לו מקום שישב סמוך אצל הרב",
+      "והטה הרבי זצ״ל לאבי זקני"
+     ],
+     "confidence": 2,
+     "why": "The rebbe's intimate exchange with his young disciple is the core of the story.",
+     "quotes_failed": false
+    },
+    {
+     "tag": "spaces:institutions_hassidic_court",
+     "scope": "story",
+     "quotes": [],
+     "confidence": 2,
+     "why": "The scene takes place at the Lublin rebbe's court or table.",
+     "quotes_failed": false
+    },
+    {
+     "tag": "practice:travel_to_the_tsaddik",
+     "scope": "span",
+     "quotes": [
+      "בעוד שהיה רך בשנים היה אצל הרבי זצ״ל מלובלין"
+     ],
+     "confidence": 1,
+     "why": "The grandfather stayed with the rebbe as a youth; no journey is narrated.",
+     "quotes_failed": false
+    },
+    {
+     "tag": "practice:sermon",
+     "scope": "span",
+     "quotes": [
+      "שיאמר ביאור של הרב על הזהר"
+     ],
+     "confidence": 1,
+     "why": "A Torah exposition is delivered in the scene, though its content is not given.",
+     "quotes_failed": false
+    }
+   ],
+   "missing_concepts": [
+    "preference of good-heartedness / simple piety over esoteric learning"
+   ],
+   "start_quote_found": true,
+   "end_quote_found": true
+  }
+ ],
+ "check": {
+  "non_vocab_tags": [],
+  "quotes": 8,
+  "quotes_not_found": 0
+ },
+ "id": "Likutim-Hadashim_0023",
+ "chars": 291,
+ "seconds": 17
+}

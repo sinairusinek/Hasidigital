@@ -1,0 +1,145 @@
+{
+ "unit": {
+  "kind": "hasidic_story",
+  "why": "A single anecdote: a merchant asks the Ropshitz tsaddik to bless his business trip, is instead blessed with his wife's recovery, and later learns she had fallen dangerously ill and recovered that same day.",
+  "boundary_note": ""
+ },
+ "stories": [
+  {
+   "k": 1,
+   "start_quote": "סיפר לי בעה״ב כשר אחד תורני ויר\"א",
+   "end_quote": "בלי מסך המבדיל בכל העולם כולו",
+   "hasidic": true,
+   "summary_en": "A merchant passing through Ropshitz gives the tsaddik a kvittel asking for business success. The tsaddik twice answers only with a blessing for his wife's full recovery. The business fails, and at home the merchant learns that his wife had fallen dangerously ill and began to recover on the very day of his visit.",
+   "tags": [
+    {
+     "tag": "supernatural:perception",
+     "scope": "span",
+     "quotes": [
+      "השיב לו שהש״י יעזור לזוגתו רפואה שלימה",
+      "אשרי עין ראתה בלי מסך המבדיל"
+     ],
+     "confidence": 3,
+     "why": "the tsaddik knows from afar of the wife's illness",
+     "quotes_failed": false
+    },
+    {
+     "tag": "practice:healing",
+     "scope": "span",
+     "quotes": [
+      "הוטב מעמדה ונתרפאה לאט לאט עד שובו הביתה"
+     ],
+     "confidence": 3,
+     "why": "the wife is healed after the tsaddik's blessing",
+     "quotes_failed": false
+    },
+    {
+     "tag": "practice:reception_of_hasidim",
+     "scope": "span",
+     "quotes": [
+      "והלך אליו עם פתקא ופ\"נ כנהוג"
+     ],
+     "confidence": 3,
+     "why": "the tsaddik receives a visitor's kvittel and pidyon",
+     "quotes_failed": false
+    },
+    {
+     "tag": "practice:travel_to_the_tsaddik",
+     "scope": "span",
+     "quotes": [
+      "דרך עיר ראצפערד והי׳ אז בשם מו״ר הרה״ק"
+     ],
+     "confidence": 2,
+     "why": "he seeks out the tsaddik while passing through the town",
+     "quotes_failed": false
+    },
+    {
+     "tag": "practice:business_advice",
+     "scope": "span",
+     "quotes": [
+      "למען יברכהו הצדיק בהצלחה",
+      "ואבד ממון הרבה כי לא הצליח"
+     ],
+     "confidence": 2,
+     "why": "the request for a business blessing is implicitly refused, and the business fails",
+     "quotes_failed": false
+    },
+    {
+     "tag": "social:retrospective_recognition",
+     "scope": "span",
+     "quotes": [
+      "ותהי בעיניו כמתעתע",
+      "ובבאו לביתו נודע לו כי אחרי נסיעתו"
+     ],
+     "confidence": 3,
+     "why": "the merchant understands the strange answer only afterwards",
+     "quotes_failed": false
+    },
+    {
+     "tag": "supernatural:miracle",
+     "scope": "span",
+     "quotes": [
+      "ובאותו יום שהי' בעלה אצל הרה״ק ז\"ל הוטב מעמדה"
+     ],
+     "confidence": 2,
+     "why": "her recovery coincides with the visit",
+     "quotes_failed": false
+    },
+    {
+     "tag": "practice:pidyon_nefesh",
+     "scope": "span",
+     "quotes": [
+      "עם פתקא ופ\"נ כנהוג"
+     ],
+     "confidence": 1,
+     "why": "a pidyon is given; the sick wife is saved",
+     "quotes_failed": false
+    },
+    {
+     "tag": "women:catalyst_character",
+     "scope": "span",
+     "quotes": [
+      "נפלה זוגתו בחולי מסוכן כמעט אחר היאוש"
+     ],
+     "confidence": 3,
+     "why": "the wife's illness drives the plot but she does not act",
+     "quotes_failed": false
+    },
+    {
+     "tag": "social:marital_relationship",
+     "scope": "span",
+     "quotes": [
+      "יעזור לזוגתו רפואה שלימה"
+     ],
+     "confidence": 1,
+     "why": "the husband's concern is redirected to his wife",
+     "quotes_failed": false
+    },
+    {
+     "tag": "practice:torat_ha_tsaddik",
+     "scope": "span",
+     "quotes": [
+      "אשרי עין ראתה בלי מסך המבדיל בכל העולם כולו"
+     ],
+     "confidence": 1,
+     "why": "the closing praises the tsaddik's unobstructed sight",
+     "quotes_failed": false
+    }
+   ],
+   "missing_concepts": [
+    "kvittel (petition note) as the medium of the request",
+    "tsaddik answering a different need than the one asked for"
+   ],
+   "start_quote_found": true,
+   "end_quote_found": true
+  }
+ ],
+ "check": {
+  "non_vocab_tags": [],
+  "quotes": 14,
+  "quotes_not_found": 0
+ },
+ "id": "Eser-Kedushot_0157",
+ "chars": 697,
+ "seconds": 16
+}

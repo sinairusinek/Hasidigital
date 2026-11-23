@@ -1,0 +1,102 @@
+{
+ "unit": {
+  "kind": "hasidic_story",
+  "why": "A short anecdote: a woman whose children kept dying brings her small daughter to the Maggid, who blesses the girl, and the blessing is fulfilled.",
+  "boundary_note": ""
+ },
+ "stories": [
+  {
+   "k": 1,
+   "start_quote": "עוד שם בחארזיל הי' ר׳ שמואל משה גוטליב",
+   "end_quote": "בשם לשון הגאב\"ד סעראצק שליט״א",
+   "hasidic": true,
+   "summary_en": "Pessel, wife of R. Shmuel Moshe Gottlieb of Chorzele, whose children kept dying, brings her two-year-old daughter Frumet to the Maggid. He takes the child's hand and promises she will have a minyan of children, which comes true; Frumet later becomes mother-in-law of the Serock rabbi, whose family prospers.",
+   "tags": [
+    {
+     "tag": "folkloristics:story_type_prognostication",
+     "scope": "story",
+     "quotes": [],
+     "confidence": 3,
+     "why": "The story turns on the Maggid's promise and its fulfilment.",
+     "quotes_failed": false
+    },
+    {
+     "tag": "supernatural:prognostication",
+     "scope": "span",
+     "quotes": [
+      "ואמר יהי' לך ממנה מניין",
+      "היינו עשרה. וכך הוה"
+     ],
+     "confidence": 3,
+     "why": "His prediction of ten descendants comes true.",
+     "quotes_failed": false
+    },
+    {
+     "tag": "practice:travel_to_the_tsaddik",
+     "scope": "span",
+     "quotes": [
+      "ונסעה אשתו מ' פעסל עם בתה הילדה"
+     ],
+     "confidence": 3,
+     "why": "The mother travels to the Maggid with her request.",
+     "quotes_failed": false
+    },
+    {
+     "tag": "practice:torat_ha_tsaddik",
+     "scope": "span",
+     "quotes": [
+      "לקחה על ידו הקדושה ואמר"
+     ],
+     "confidence": 2,
+     "why": "The tzaddik's blessing and touch are what secure the child's future.",
+     "quotes_failed": false
+    },
+    {
+     "tag": "women:major_character",
+     "scope": "span",
+     "quotes": [
+      "ונסעה אשתו מ' פעסל עם בתה הילדה"
+     ],
+     "confidence": 3,
+     "why": "Pessel acts on her own and is the one who brings the request.",
+     "quotes_failed": false
+    },
+    {
+     "tag": "women:minor_character",
+     "scope": "span",
+     "quotes": [
+      "והאשה פרומט היא חמותו של הרה״ג מסעראצק"
+     ],
+     "confidence": 2,
+     "why": "The daughter Frumet is the object of the blessing and its later fulfilment.",
+     "quotes_failed": false
+    },
+    {
+     "tag": "practice:pidyon_nefesh",
+     "scope": "span",
+     "quotes": [
+      "והי' לו צער גידול בנים ל״ע"
+     ],
+     "confidence": 1,
+     "why": "The Maggid's intervention averts the pattern of children dying; there is no explicit decree or pidyon payment.",
+     "quotes_failed": false
+    }
+   ],
+   "missing_concepts": [
+    "child mortality (tsaar gidul banim)",
+    "blessing for offspring / fertility of descendants",
+    "chain of transmission through a rabbi's letter"
+   ],
+   "start_quote_found": true,
+   "end_quote_found": true
+  }
+ ],
+ "check": {
+  "non_vocab_tags": [],
+  "quotes": 7,
+  "quotes_not_found": 0
+ },
+ "id": "Eser-Orot_0124",
+ "chars": 357,
+ "seconds": 13
+}

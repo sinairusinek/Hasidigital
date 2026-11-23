@@ -1,0 +1,142 @@
+{
+ "unit": {
+  "kind": "hasidic_story",
+  "why": "A single anecdote about R. Emanuel: his master sent him home by an unusual road, where a stranger gave him money for Passover.",
+  "boundary_note": ""
+ },
+ "stories": [
+  {
+   "k": 1,
+   "start_quote": "שמעתי מבניו של הה״צ ר׳ עמנואל ז\"ל",
+   "end_quote": "והיה לו מזה על צרכי פסח",
+   "hasidic": true,
+   "summary_en": "Before Passover, R. Emanuel was too poor to pay for the holiday and did not tell his master. When he took leave, the master told him to travel home by an unfamiliar road. In a village on the way, a Jew recognized him as the son of the gaon R. Y. of Przedbórz and gave him five hundred gold coins for Passover.",
+   "tags": [
+    {
+     "tag": "times:holidays",
+     "scope": "story",
+     "quotes": [],
+     "confidence": 3,
+     "why": "The need for Passover expenses frames the story.",
+     "quotes_failed": false
+    },
+    {
+     "tag": "supernatural:perception",
+     "scope": "span",
+     "quotes": [
+      "ולא היה דרכו להתנצל לפני מורו ז\"ל על דברים האלה",
+      "אני אומר לכבודו שיסע לביתו דרך פלוני"
+     ],
+     "confidence": 3,
+     "why": "The master knew of the unspoken need and of the help waiting on that road.",
+     "quotes_failed": false
+    },
+    {
+     "tag": "social:inter_hasidic_master_disciple_relationship",
+     "scope": "span",
+     "quotes": [
+      "כאשר קיבל רשות ממורו ז״ל ליסע לביתו",
+      "רק מ״מ עשה כמו שאמר לו מורו ז״ל"
+     ],
+     "confidence": 3,
+     "why": "The disciple obeys his master's instruction without understanding it.",
+     "quotes_failed": false
+    },
+    {
+     "tag": "practice:travel_to_the_tsaddik",
+     "scope": "span",
+     "quotes": [
+      "היה במאגלגיצא קודם חג הפסח"
+     ],
+     "confidence": 2,
+     "why": "He stays at the master's court and then travels home.",
+     "quotes_failed": false
+    },
+    {
+     "tag": "ethics-and-emotions:charity",
+     "scope": "span",
+     "quotes": [
+      "ולקח חמש מאות זהובים וביקש מאתו שיקבל ממנו"
+     ],
+     "confidence": 3,
+     "why": "A householder gives money to a poor scholar.",
+     "quotes_failed": false
+    },
+    {
+     "tag": "practice:torat_ha_tsaddik",
+     "scope": "span",
+     "quotes": [
+      "ולא היה יודע על מה ולמה צוה לו כך"
+     ],
+     "confidence": 2,
+     "why": "Trusting obedience to the tsaddik's command brings salvation.",
+     "quotes_failed": false
+    },
+    {
+     "tag": "supernatural:miracle",
+     "scope": "span",
+     "quotes": [
+      "ולקח חמש מאות זהובים וביקש מאתו שיקבל ממנו"
+     ],
+     "confidence": 1,
+     "why": "Providential rescue arranged through the tsaddik.",
+     "quotes_failed": false
+    },
+    {
+     "tag": "social:retrospective_recognition",
+     "scope": "span",
+     "quotes": [
+      "ואמר כי פניו ניכר אליו קצת ואין ידוע לו מהיכן"
+     ],
+     "confidence": 2,
+     "why": "The host recognizes the guest's family; the meaning of the master's instruction becomes clear only afterwards.",
+     "quotes_failed": false
+    },
+    {
+     "tag": "characters-and-roles:the_family_of_the_tsaddik",
+     "scope": "span",
+     "quotes": [
+      "כי הוא בן ההק' הגאון ר״י ז״ל משם"
+     ],
+     "confidence": 2,
+     "why": "His identity as a tsaddik's son is the key to the gift.",
+     "quotes_failed": false
+    },
+    {
+     "tag": "practice:storytelling",
+     "scope": "span",
+     "quotes": [
+      "שמעתי מבניו של הה״צ ר׳ עמנואל ז\"ל ששמעו מאביהם"
+     ],
+     "confidence": 1,
+     "why": "The tale is framed as passed down orally through R. Emanuel's sons.",
+     "quotes_failed": false
+    },
+    {
+     "tag": "practice:reception_of_hasidim",
+     "scope": "span",
+     "quotes": [
+      "כאשר קיבל רשות ממורו ז״ל ליסע לביתו"
+     ],
+     "confidence": 1,
+     "why": "A leave-taking audience with the master.",
+     "quotes_failed": false
+    }
+   ],
+   "missing_concepts": [
+    "poverty as hardship and need for holiday expenses (not voluntary poverty)",
+    "divine providence guiding a route"
+   ],
+   "start_quote_found": true,
+   "end_quote_found": true
+  }
+ ],
+ "check": {
+  "non_vocab_tags": [],
+  "quotes": 12,
+  "quotes_not_found": 0
+ },
+ "id": "Toldot-Haniflaot_0060",
+ "chars": 832,
+ "seconds": 18
+}

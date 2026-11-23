@@ -1,0 +1,72 @@
+{
+ "unit": {
+  "kind": "hasidic_story",
+  "why": "A brief testimony that the Besht's disciples heard the Sinai revelation, the Decalogue spoken by God, which is an event happening to named characters rather than a mere teaching.",
+  "boundary_note": "Very short; quoted from an earlier book ('שם פ׳ בשלח') within a citation chain; borderline between memorate and teaching."
+ },
+ "stories": [
+  {
+   "k": 1,
+   "start_quote": "והעידו תלמידי רבינו מרן הק' ישראל בן אליעזר",
+   "end_quote": "כל הדברות מפי הקב״ה עכ״ל",
+   "hasidic": true,
+   "summary_en": "The Besht's disciples testified that they had purified themselves until they heard the giving of the Torah at Sinai, with thunder, lightning and shofar, and heard the commandments from God's mouth.",
+   "tags": [
+    {
+     "tag": "experience:revelation",
+     "scope": "span",
+     "quotes": [
+      "ששמעו מעמד הר סיני בקולות וברקים"
+     ],
+     "confidence": 3,
+     "why": "Direct supernatural disclosure of the Sinai revelation",
+     "quotes_failed": false
+    },
+    {
+     "tag": "supernatural:communicating_with_the_invisible",
+     "scope": "span",
+     "quotes": [
+      "ושמעו אנכי ה׳ אלקיך כל הדברות מפי הקב״ה"
+     ],
+     "confidence": 2,
+     "why": "They hear the divine voice",
+     "quotes_failed": false
+    },
+    {
+     "tag": "social:inter_hasidic_master_disciple_relationship",
+     "scope": "span",
+     "quotes": [
+      "והעידו תלמידי רבינו מרן הק' ישראל בן אליעזר"
+     ],
+     "confidence": 1,
+     "why": "The disciples of the Besht are the subject, though the relationship itself is not elaborated",
+     "quotes_failed": false
+    },
+    {
+     "tag": "experience:visions",
+     "scope": "span",
+     "quotes": [
+      "בקולות וברקים וקול שופר חזק מאד"
+     ],
+     "confidence": 1,
+     "why": "Thunder and lightning are perceived in a waking state, though the experience is mainly auditory",
+     "quotes_failed": false
+    }
+   ],
+   "missing_concepts": [
+    "purification of the soul (זיכוך) as a precondition for revelation",
+    "re-experiencing the Sinai revelation (מעמד הר סיני)"
+   ],
+   "start_quote_found": true,
+   "end_quote_found": true
+  }
+ ],
+ "check": {
+  "non_vocab_tags": [],
+  "quotes": 4,
+  "quotes_not_found": 0
+ },
+ "id": "Eser-Kedushot_0192",
+ "chars": 192,
+ "seconds": 11
+}

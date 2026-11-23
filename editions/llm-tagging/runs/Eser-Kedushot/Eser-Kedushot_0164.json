@@ -1,0 +1,145 @@
+{
+ "unit": {
+  "kind": "hasidic_story",
+  "why": "A narrative about R. Isaac Leib (the author's father) living in poverty in Zhidachov, R. Zvi of Zhidachov appointing him head of the rabbinical court, and later vowing that he would not die before his disciple became a recognized leader.",
+  "boundary_note": ""
+ },
+ "stories": [
+  {
+   "k": 1,
+   "start_quote": "ודר בעיר פינטשוב ערך ד׳ או ה׳",
+   "end_quote": "מתפשט זיין בכל העולם כולו עכד״ק",
+   "hasidic": true,
+   "summary_en": "R. Zvi of Zhidachov orders his beloved disciple R. Isaac Leib to settle in Zhidachov. When he hears that the family is starving, he has the community appoint him head of the rabbinical court with a salary. Later, when a local man distresses the disciple, R. Zvi rises at the Sabbath meal and swears he will not leave the world until Isaac Leib is a vessel of blessing whose teaching spreads throughout the world.",
+   "tags": [
+    {
+     "tag": "social:inter_hasidic_master_disciple_relationship",
+     "scope": "story",
+     "quotes": [],
+     "confidence": 3,
+     "why": "R. Zvi's love for and care of his disciple is the core of the story",
+     "quotes_failed": false
+    },
+    {
+     "tag": "social:poverty",
+     "scope": "span",
+     "quotes": [
+      "וישב בזידיטשוב כמה שנים בדחקות גדול",
+      "אפילו שתי נרות להדליק נר של שבת"
+     ],
+     "confidence": 2,
+     "why": "the tzaddik's family lives in severe poverty",
+     "quotes_failed": false
+    },
+    {
+     "tag": "ethics-and-emotions:charity",
+     "scope": "span",
+     "quotes": [
+      "שירחם איזה איש עליהם ליתן להם מעט לחם"
+     ],
+     "confidence": 1,
+     "why": "the family begs for bread; the community is made to provide for them",
+     "quotes_failed": false
+    },
+    {
+     "tag": "characters-and-roles:the_family_of_the_tsaddik",
+     "scope": "span",
+     "quotes": [
+      "עד שב\"ב הלכו בשוק וצעקו בקול גדול",
+      "ולא הי' לאמי הצדיקת תחי׳"
+     ],
+     "confidence": 3,
+     "why": "his household and wife appear",
+     "quotes_failed": false
+    },
+    {
+     "tag": "women:minor_character",
+     "scope": "span",
+     "quotes": [
+      "ולא הי' לאמי הצדיקת תחי׳ אפילו שתי נרות"
+     ],
+     "confidence": 2,
+     "why": "the wife lacks Sabbath candles, a small role",
+     "quotes_failed": false
+    },
+    {
+     "tag": "times:shabbat",
+     "scope": "span",
+     "quotes": [
+      "בעת סעודה ראשונה של שבת קודש",
+      "נר של שבת"
+     ],
+     "confidence": 3,
+     "why": "the key scene takes place at the Sabbath meal",
+     "quotes_failed": false
+    },
+    {
+     "tag": "spaces:rabbinical_court",
+     "scope": "span",
+     "quotes": [
+      "שאאמו״ר יהי' עליהם ראש ב\"ד לפסוק"
+     ],
+     "confidence": 1,
+     "why": "he is appointed head of the beit din, though no court scene is shown",
+     "quotes_failed": false
+    },
+    {
+     "tag": "supernatural:prognostication",
+     "scope": "span",
+     "quotes": [
+      "אז איך וועל נישט ארויס גיין מזה העולם",
+      "דוא וועסט מתפשט זיין בכל העולם כולו"
+     ],
+     "confidence": 2,
+     "why": "a sworn prediction of the disciple's future leadership",
+     "quotes_failed": false
+    },
+    {
+     "tag": "social:inter_hasidic_inheritance_of_leadership",
+     "scope": "span",
+     "quotes": [
+      "ואור אין וועסט נעמין מיין תורה"
+     ],
+     "confidence": 2,
+     "why": "the master designates his disciple to carry on his teaching",
+     "quotes_failed": false
+    },
+    {
+     "tag": "social:conflict",
+     "scope": "span",
+     "quotes": [
+      "הי' לאאמו״ר זלה\"ה חלישת דעת גדול מאיש אחד"
+     ],
+     "confidence": 2,
+     "why": "a local man distresses the disciple",
+     "quotes_failed": false
+    },
+    {
+     "tag": "practice:torat_ha_tsaddik",
+     "scope": "span",
+     "quotes": [
+      "אכלי מחזיק ברכה ואור"
+     ],
+     "confidence": 1,
+     "why": "the tzaddik as a vessel of blessing",
+     "quotes_failed": false
+    }
+   ],
+   "missing_concepts": [
+    "community rabbinic appointment and salary",
+    "oath / vow by the tzaddik",
+    "Yiddish direct speech"
+   ],
+   "start_quote_found": true,
+   "end_quote_found": true
+  }
+ ],
+ "check": {
+  "non_vocab_tags": [],
+  "quotes": 14,
+  "quotes_not_found": 0
+ },
+ "id": "Eser-Kedushot_0164",
+ "chars": 884,
+ "seconds": 16
+}

@@ -1,0 +1,143 @@
+{
+ "unit": {
+  "kind": "hasidic_story",
+  "why": "A single anecdote about the holy rabbi (R. Levi Yitzhak of Berdichev, per the book's section) who, while in Hungary, pretends to be a shochet in order to teach a careless butcher a lesson.",
+  "boundary_note": "Division ends with a section heading ('שיחות ומאמרים מתוקים ממנו הקדוש...') that belongs to the following sayings section, not to the story."
+ },
+ "stories": [
+  {
+   "k": 1,
+   "start_quote": "יסופר בשמו שפ\"א בא באונגארין אצל קצב",
+   "end_quote": "להעבירו מדעתו דעת קלה הנ\"ל",
+   "hasidic": true,
+   "summary_en": "In Hungary a butcher who does not recognize the tsaddik asks him to slaughter a beast. The tsaddik pretends to be a shochet and asks for a loan of twenty roubles. When the butcher refuses to lend money to a stranger, the tsaddik points out that he was ready to trust that same stranger with kashrut, which is a far graver matter. The butcher repents.",
+   "tags": [
+    {
+     "tag": "characters-and-roles:ritual_slaughterer",
+     "scope": "span",
+     "quotes": [
+      "ושאל אותו הקצב אם איננו שו\"ב",
+      "והשו״ב דר זה בשני פרסאות ממקום הכפר"
+     ],
+     "confidence": 3,
+     "why": "The shochet's role and its impersonation drive the plot",
+     "quotes_failed": false
+    },
+    {
+     "tag": "practice:ritual_slaughtering",
+     "scope": "span",
+     "quotes": [
+      "והי׳ שוחט הבהמה ובודקה ומכשירה",
+      "ורצה הקצב שהרב ישחוט לו הבהמה"
+     ],
+     "confidence": 3,
+     "why": "The story turns on who may be trusted to slaughter",
+     "quotes_failed": false
+    },
+    {
+     "tag": "ethics-and-emotions:prohibitions",
+     "scope": "span",
+     "quotes": [
+      "והיית ח\"ו מאכיל טריפות לישראל"
+     ],
+     "confidence": 3,
+     "why": "The danger of feeding Jews non-kosher meat",
+     "quotes_failed": false
+    },
+    {
+     "tag": "practice:halakhah",
+     "scope": "span",
+     "quotes": [
+      "אשר זהו עבירה יותר גדולה מן עשרים רו״כ"
+     ],
+     "confidence": 2,
+     "why": "Kashrut and the halakhic weighing of transgressions",
+     "quotes_failed": false
+    },
+    {
+     "tag": "ethics-and-emotions:repentance",
+     "scope": "span",
+     "quotes": [
+      "ואז החזיר הרה\"ק את הקצב למוטב"
+     ],
+     "confidence": 3,
+     "why": "The butcher turns from his careless practice",
+     "quotes_failed": false
+    },
+    {
+     "tag": "practice:healing_of_the_soul",
+     "scope": "span",
+     "quotes": [
+      "החזיר הרה\"ק את הקצב למוטב שמעתה לא יעשה מעשה כזאת"
+     ],
+     "confidence": 2,
+     "why": "The tsaddik draws the man to repentance",
+     "quotes_failed": false
+    },
+    {
+     "tag": "ethics-and-emotions:lying",
+     "scope": "span",
+     "quotes": [
+      "וגילה לו כי הוא איננו שו\"ב",
+      "ענהו הרה״ק. הן."
+     ],
+     "confidence": 2,
+     "why": "The tsaddik deliberately pretends to be a shochet",
+     "quotes_failed": false
+    },
+    {
+     "tag": "practice:the_travels_of_the_tsaddik",
+     "scope": "span",
+     "quotes": [
+      "שפ\"א בא באונגארין אצל קצב א׳ שלא הכירו"
+     ],
+     "confidence": 2,
+     "why": "The episode happens while the tsaddik is travelling in Hungary",
+     "quotes_failed": false
+    },
+    {
+     "tag": "social:retrospective_recognition",
+     "scope": "span",
+     "quotes": [
+      "וגילה לו כי הוא איננו שו\"ב"
+     ],
+     "confidence": 2,
+     "why": "The butcher learns afterwards who the stranger really was and why he acted",
+     "quotes_failed": false
+    },
+    {
+     "tag": "practice:sermon",
+     "scope": "span",
+     "quotes": [
+      "ישמעו אזנך מה שאתה מוציא מפיך"
+     ],
+     "confidence": 1,
+     "why": "A short moral rebuke delivered to the butcher",
+     "quotes_failed": false
+    },
+    {
+     "tag": "social:relations_with_sinners",
+     "scope": "story",
+     "quotes": [],
+     "confidence": 2,
+     "why": "The tsaddik corrects a lax Jew",
+     "quotes_failed": false
+    }
+   ],
+   "missing_concepts": [
+    "kashrut / trusting an unknown shochet",
+    "test of trust through a loan request (a didactic trick)"
+   ],
+   "start_quote_found": true,
+   "end_quote_found": true
+  }
+ ],
+ "check": {
+  "non_vocab_tags": [],
+  "quotes": 13,
+  "quotes_not_found": 0
+ },
+ "id": "Eser-Orot_0091",
+ "chars": 1288,
+ "seconds": 17
+}

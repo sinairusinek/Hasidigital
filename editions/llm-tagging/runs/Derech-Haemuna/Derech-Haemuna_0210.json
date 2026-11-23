@@ -1,0 +1,118 @@
+{
+ "unit": {
+  "kind": "hasidic_story",
+  "why": "A short anecdote quoted from another book: the Apta Rav as a youth fasted, asked R. Elimelech about it, and received a pointed answer. It is embedded in an ethical discussion against fasting.",
+  "boundary_note": "Part of a running anthology of quotations against fasting; the previous and next divisions are teachings on the same theme."
+ },
+ "stories": [
+  {
+   "k": 1,
+   "start_quote": "והרב מאפטא סיפר לי שבילדותו היה מתענה",
+   "end_quote": "לבטל התעניתים הייתי מבטל אתהן",
+   "hasidic": true,
+   "summary_en": "The Apta Rav recounts that as a youth he fasted and asked R. Elimelech, who allowed fasting only if he could then eat a kvart of dry kasha, and who said that with two more partners he would abolish fasts altogether.",
+   "tags": [
+    {
+     "tag": "practice:fasting",
+     "scope": "story",
+     "quotes": [],
+     "confidence": 3,
+     "why": "The whole anecdote concerns the youth's fasting and the rebbe's criticism of it.",
+     "quotes_failed": false
+    },
+    {
+     "tag": "practice:asceticism",
+     "scope": "span",
+     "quotes": [
+      "אם תוכל אחר התענית לאכול"
+     ],
+     "confidence": 3,
+     "why": "Debate over whether ascetic self-denial is proper.",
+     "quotes_failed": false
+    },
+    {
+     "tag": "social:inter_hasidic_master_disciple_relationship",
+     "scope": "span",
+     "quotes": [
+      "ושאל להרב ר׳ אלימלך זצ״ל ע״ז"
+     ],
+     "confidence": 3,
+     "why": "A disciple consults his master about his devotional practice.",
+     "quotes_failed": false
+    },
+    {
+     "tag": "practice:storytelling",
+     "scope": "span",
+     "quotes": [
+      "והרב מאפטא סיפר לי שבילדותו"
+     ],
+     "confidence": 2,
+     "why": "The tale is framed as told by a named tsaddik to the author.",
+     "quotes_failed": false
+    },
+    {
+     "tag": "not-a-hasidic-story:sermon",
+     "scope": "span",
+     "quotes": [
+      "וכשם שמצוה לשמור ישראל מעבירה כן מצוה ליזהר"
+     ],
+     "confidence": 2,
+     "why": "The anecdote is wrapped in an ethical and halakhic exhortation against fasting.",
+     "quotes_failed": false
+    },
+    {
+     "tag": "ethics-and-emotions:prohibitions",
+     "scope": "span",
+     "quotes": [
+      "אז מותר לך להתענות"
+     ],
+     "confidence": 2,
+     "why": "The rebbe permits fasting only under a condition; the frame enjoins the weak not to fast.",
+     "quotes_failed": false
+    },
+    {
+     "tag": "practice:halakhah",
+     "scope": "span",
+     "quotes": [
+      "שהוא ד׳ לוגין אז מותר לך להתענות"
+     ],
+     "confidence": 1,
+     "why": "The ruling is phrased in quasi-halakhic terms of measure and permission.",
+     "quotes_failed": false
+    },
+    {
+     "tag": "practice:joke",
+     "scope": "span",
+     "quotes": [
+      "לאכול אין מלכות קווארט קאשי יבישה"
+     ],
+     "confidence": 1,
+     "why": "The kvart of dry kasha may be a witty, hyperbolic condition.",
+     "quotes_failed": false
+    },
+    {
+     "tag": "folkloristics:story_type_virtues",
+     "scope": "story",
+     "quotes": [],
+     "confidence": 1,
+     "why": "Illustrates R. Elimelech's teaching on moderation, though it is more doctrine than virtue.",
+     "quotes_failed": false
+    }
+   ],
+   "missing_concepts": [
+    "opposition to fasting / anti-asceticism as Hasidic doctrine",
+    "guarding one's bodily strength in divine service"
+   ],
+   "start_quote_found": true,
+   "end_quote_found": true
+  }
+ ],
+ "check": {
+  "non_vocab_tags": [],
+  "quotes": 7,
+  "quotes_not_found": 0
+ },
+ "id": "Derech-Haemuna_0210",
+ "chars": 351,
+ "seconds": 15
+}

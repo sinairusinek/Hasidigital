@@ -1,0 +1,156 @@
+{
+ "unit": {
+  "kind": "hasidic_story",
+  "why": "A first-person memorate: as a nine-year-old at the Seer of Lublin's Pesach seder, the narrator saw fire on the Seer's head and was given the zeroa as a form of semikhah.",
+  "boundary_note": "Section header 'מענין סמיכה' sits at the end of the previous division; the trailing header 'מענין ספר תורה' belongs to the next division."
+ },
+ "stories": [
+  {
+   "k": 1,
+   "start_quote": "ואצל רבינו מו״ר מוה׳ יעקב יצחק מלובלין",
+   "end_quote": "שעמדתי על עמדי בחוזק רב",
+   "hasidic": true,
+   "summary_en": "The narrator recalls visiting the Seer of Lublin as a child with his father on Pesach; he saw fire and light on the Seer's head, and on the second seder night the Seer, after three tries, gave him the zeroa, a gesture of semikhah in the Besht's power that later sustained him against his persecutors.",
+   "tags": [
+    {
+     "tag": "supernatural:light_or_fire_as_a_sign_of_righteousness",
+     "scope": "span",
+     "quotes": [
+      "ראיתי אש מלהטת על ראשו ואור נפלא",
+      "וראיתי פניו כלפידים"
+     ],
+     "confidence": 3,
+     "why": "Fire and light seen on the Seer's head and face",
+     "quotes_failed": false
+    },
+    {
+     "tag": "experience:visions",
+     "scope": "span",
+     "quotes": [
+      "ראיתי אש מלהטת על ראשו ואור נפלא"
+     ],
+     "confidence": 2,
+     "why": "The child sees a supernatural sight while awake",
+     "quotes_failed": false
+    },
+    {
+     "tag": "times:holidays",
+     "scope": "span",
+     "quotes": [
+      "והייתי שם על חג הפסח",
+      "ובליל שני אחר הסדר"
+     ],
+     "confidence": 3,
+     "why": "The scene is set at the Pesach seder",
+     "quotes_failed": false
+    },
+    {
+     "tag": "supernatural:perception",
+     "scope": "span",
+     "quotes": [
+      "אמר ברוח קדשו למי אתן הזרוע"
+     ],
+     "confidence": 2,
+     "why": "The Seer chooses the recipient by ruach ha-kodesh",
+     "quotes_failed": false
+    },
+    {
+     "tag": "experience:trembling",
+     "scope": "span",
+     "quotes": [
+      "בפעם השלישית ברעדה וברתת כדרכו"
+     ],
+     "confidence": 3,
+     "why": "The Seer trembles as he speaks the third time",
+     "quotes_failed": false
+    },
+    {
+     "tag": "practice:travel_to_the_tsaddik",
+     "scope": "span",
+     "quotes": [
+      "כשהייתי בלובלין עם אבי זצ״ל"
+     ],
+     "confidence": 3,
+     "why": "The narrator and his father came to Lublin for the holiday",
+     "quotes_failed": false
+    },
+    {
+     "tag": "social:inter_hasidic_master_disciple_relationship",
+     "scope": "span",
+     "quotes": [
+      "היה רגיל ליתן לגדולי תלמידיו להיותן מסומכין",
+      "קריאות בשם מורה מורינו ואמירה רכה סמיכה לתלמידיו"
+     ],
+     "confidence": 3,
+     "why": "The Seer's semikhah of his disciples is the theme",
+     "quotes_failed": false
+    },
+    {
+     "tag": "times:inauguration",
+     "scope": "span",
+     "quotes": [
+      "להיותן מסומכין בסמיכה ובכח מרן הריב״ש טוב"
+     ],
+     "confidence": 1,
+     "why": "Giving the zeroa confers authority, close to an investiture",
+     "quotes_failed": false
+    },
+    {
+     "tag": "practice:torat_ha_tsaddik",
+     "scope": "span",
+     "quotes": [
+      "זה הענין עמד לי לעזר גדול ונורא"
+     ],
+     "confidence": 2,
+     "why": "The tsaddik's transmitted power protects the narrator for life",
+     "quotes_failed": false
+    },
+    {
+     "tag": "practice:prayer",
+     "scope": "span",
+     "quotes": [
+      "בעת שפתח הדלת לומר כגוונא"
+     ],
+     "confidence": 1,
+     "why": "The Seer recites Kegavna",
+     "quotes_failed": false
+    },
+    {
+     "tag": "social:conflict",
+     "scope": "span",
+     "quotes": [
+      "בעת רבים רודפי וצרי"
+     ],
+     "confidence": 1,
+     "why": "Persecutors are mentioned in passing",
+     "quotes_failed": false
+    },
+    {
+     "tag": "ethics-and-emotions:awe",
+     "scope": "span",
+     "quotes": [
+      "והיה זה לפלא בעיני צדיקים שישבו שם"
+     ],
+     "confidence": 1,
+     "why": "The tsaddikim present are amazed",
+     "quotes_failed": false
+    }
+   ],
+   "missing_concepts": [
+    "semikhah (rabbinic/hasidic ordination) as a theme",
+    "Pesach seder ritual objects (zeroa) as a vehicle of transmission",
+    "child as recipient of a tsaddik's blessing"
+   ],
+   "start_quote_found": true,
+   "end_quote_found": true
+  }
+ ],
+ "check": {
+  "non_vocab_tags": [],
+  "quotes": 15,
+  "quotes_not_found": 0
+ },
+ "id": "Derech-Haemuna_0166",
+ "chars": 808,
+ "seconds": 19
+}

@@ -1,0 +1,121 @@
+{
+ "unit": {
+  "kind": "hasidic_story",
+  "why": "A deathbed scene: the Besht's last teaching on humility and the self-surrender of the heart, ending with his soul departing on the first day of Shavuot. The narrative is minimal and the teaching dominates.",
+  "boundary_note": "Borderline with saying_or_teaching; quoted from היכל הברכה. The year שכ\"ר is as printed."
+ },
+ "stories": [
+  {
+   "k": 1,
+   "start_quote": "ובאמת מרן הקדוש הריב״ש טוב קודם פטירת נשמתו",
+   "end_quote": "ביום ראשון של חג השבועות קודם התפלה",
+   "hasidic": true,
+   "summary_en": "Before his death the Baal Shem Tov taught that one should feel 'sold' to the evil inclination, with a broken and humble heart, so that no accuser can rule over him; with these words his soul departed on the first day of Shavuot before prayer.",
+   "tags": [
+    {
+     "tag": "folkloristics:story_type_death_of_the_tsaddik",
+     "scope": "story",
+     "quotes": [],
+     "confidence": 3,
+     "why": "The text is a deathbed scene with the Besht's last teaching.",
+     "quotes_failed": false
+    },
+    {
+     "tag": "times:death",
+     "scope": "span",
+     "quotes": [
+      "ובזה יצאה נשמתו ביום ראשון של חג השבועות"
+     ],
+     "confidence": 3,
+     "why": "The Besht's death is depicted.",
+     "quotes_failed": false
+    },
+    {
+     "tag": "times:holidays",
+     "scope": "span",
+     "quotes": [
+      "ביום ראשון של חג השבועות קודם התפלה"
+     ],
+     "confidence": 3,
+     "why": "He dies on Shavuot.",
+     "quotes_failed": false
+    },
+    {
+     "tag": "practice:sermon",
+     "scope": "span",
+     "quotes": [
+      "ואמר והתמכרתם שם בלבך לאויביך",
+      "ואמר בזה הלשון ואין קנה כשתהי׳ לבבכם נכנע"
+     ],
+     "confidence": 3,
+     "why": "The Besht gives an exegesis of the verse as his last teaching.",
+     "quotes_failed": false
+    },
+    {
+     "tag": "not-a-hasidic-story:sermon",
+     "scope": "story",
+     "quotes": [],
+     "confidence": 2,
+     "why": "The text is mainly homiletic, with a thin narrative frame.",
+     "quotes_failed": false
+    },
+    {
+     "tag": "ethics-and-emotions:humility",
+     "scope": "span",
+     "quotes": [
+      "אל תבואני רגל גאוה",
+      "כשתהי׳ לבבכם נכנע ונשבר ושפל"
+     ],
+     "confidence": 3,
+     "why": "The teaching is about the broken, humble heart.",
+     "quotes_failed": false
+    },
+    {
+     "tag": "ethics-and-emotions:pride",
+     "scope": "span",
+     "quotes": [
+      "אל תבואני רגל גאוה"
+     ],
+     "confidence": 2,
+     "why": "The teaching warns against pride.",
+     "quotes_failed": false
+    },
+    {
+     "tag": "practice:devekut",
+     "scope": "span",
+     "quotes": [
+      "דיא וועסט זיין דבוק בחיה חיים"
+     ],
+     "confidence": 2,
+     "why": "The promised outcome is cleaving to the Living God.",
+     "quotes_failed": false
+    },
+    {
+     "tag": "characters-and-roles:angels",
+     "scope": "span",
+     "quotes": [
+      "קיין משטין ומקטרג"
+     ],
+     "confidence": 1,
+     "why": "Accusing forces are mentioned in the teaching, but no angel acts in the scene.",
+     "quotes_failed": false
+    }
+   ],
+   "missing_concepts": [
+    "last words of a tzaddik",
+    "the evil inclination (yetzer hara)",
+    "serving God not for reward"
+   ],
+   "start_quote_found": true,
+   "end_quote_found": true
+  }
+ ],
+ "check": {
+  "non_vocab_tags": [],
+  "quotes": 9,
+  "quotes_not_found": 0
+ },
+ "id": "Eser-Kedushot_0197",
+ "chars": 782,
+ "seconds": 14
+}

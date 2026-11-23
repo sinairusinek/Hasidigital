@@ -1,0 +1,113 @@
+{
+ "unit": {
+  "kind": "hasidic_story",
+  "why": "A short anecdote, told by the narrator's interlocutor, about the Maggid (of Kozhnitz) and the Holy Jew disputing a Torah novella. It is framed as an illustration of the preceding conversation.",
+  "boundary_note": "frame continues from previous division (the halakhic exchange it comments on); next division begins a new numbered item"
+ },
+ "stories": [
+  {
+   "k": 1,
+   "start_quote": "ואח״כ מיד סיפר כי עובדא היה",
+   "end_quote": "גם כאן היה כדבר הזה והבן",
+   "hasidic": true,
+   "summary_en": "The Maggid tells a Torah novella before the Holy Jew, who first refutes it and then sets it right; the Maggid thanks him, saying he was building worlds with that novella and the refutation would have destroyed them; the narrator sees the same thing in his own preceding exchange.",
+   "tags": [
+    {
+     "tag": "practice:storytelling",
+     "scope": "span",
+     "quotes": [
+      "ואח״כ מיד סיפר כי עובדא היה",
+      "ומיד שסיפר זה הלך מאצלנו"
+     ],
+     "confidence": 3,
+     "why": "the tale is told by the interlocutor as a comment on the conversation",
+     "quotes_failed": false
+    },
+    {
+     "tag": "practice:sermon",
+     "scope": "span",
+     "quotes": [
+      "המגיד זצ\"ל אמר איזה חידוש ד״ת"
+     ],
+     "confidence": 2,
+     "why": "a Torah novella delivered before a tzaddik is the core of the plot",
+     "quotes_failed": false
+    },
+    {
+     "tag": "social:inter_hasidic",
+     "scope": "span",
+     "quotes": [
+      "לפני ההק' הגאון היהודי ז״ל"
+     ],
+     "confidence": 3,
+     "why": "an exchange between two tzaddikim, the Maggid and the Holy Jew",
+     "quotes_failed": false
+    },
+    {
+     "tag": "social:inter_hasidic_conflict_between_tsaddikim",
+     "scope": "span",
+     "quotes": [
+      "ואמר הק' היהודי לסתור דברי אא״ז המגיד ז״ל"
+     ],
+     "confidence": 1,
+     "why": "a scholarly contradiction, quickly resolved",
+     "quotes_failed": false
+    },
+    {
+     "tag": "practice:torat_ha_tsaddik",
+     "scope": "span",
+     "quotes": [
+      "כי הייתי בונה עולמות בחידוש זה"
+     ],
+     "confidence": 2,
+     "why": "the tzaddik's Torah has the power to build worlds",
+     "quotes_failed": false
+    },
+    {
+     "tag": "knowledge:esoteric",
+     "scope": "span",
+     "quotes": [
+      "הייתי בונה עולמות בחידוש זה והיית מחריב אותם"
+     ],
+     "confidence": 1,
+     "why": "the mystical effect of Torah novellae on the upper worlds",
+     "quotes_failed": false
+    },
+    {
+     "tag": "social:retrospective_recognition",
+     "scope": "span",
+     "quotes": [
+      "והיה נראה ממש כי גם כאן היה כדבר הזה"
+     ],
+     "confidence": 2,
+     "why": "the narrator realizes the hidden meaning of the earlier exchange",
+     "quotes_failed": false
+    },
+    {
+     "tag": "characters-and-roles:the_family_of_the_tsaddik",
+     "scope": "span",
+     "quotes": [
+      "דברי אא״ז המגיד ז״ל"
+     ],
+     "confidence": 1,
+     "why": "the Maggid is the narrator's grandfather; family is only a framing relation",
+     "quotes_failed": false
+    }
+   ],
+   "missing_concepts": [
+    "theurgic power of Torah novellae (building/destroying worlds)",
+    "refutation and reconciliation of a Torah argument"
+   ],
+   "start_quote_found": true,
+   "end_quote_found": true
+  }
+ ],
+ "check": {
+  "non_vocab_tags": [],
+  "quotes": 9,
+  "quotes_not_found": 0
+ },
+ "id": "Toldot-Haniflaot_0020",
+ "chars": 348,
+ "seconds": 16
+}

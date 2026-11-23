@@ -1,0 +1,272 @@
+{
+ "unit": {
+  "kind": "hasidic_story",
+  "why": "A single narrative: a melamed buys three sayings from the young Berdichever rebbe for his savings, and each saying saves him on his journey home.",
+  "boundary_note": ""
+ },
+ "stories": [
+  {
+   "k": 1,
+   "start_quote": "בימי עלומיו של הרה״ק מברדיטשוב בא לפניו",
+   "end_quote": "במותר המעות אשר נשאר עוד בידו",
+   "hasidic": true,
+   "summary_en": "A poor melamed, returning home after twelve years with 900 roubles, pays the young R. Levi Yitzhak of Berdichev 300 for each of three sayings: take the right-hand road, an old man with a young wife is half dead, believe only what you see. Each saying proves true on the way: he recovers stolen goods and is rewarded, he saves an old innkeeper from a murder plot by his young wife, and he does not wrongly condemn his own wife, whose nightly visitor turns out to be their son held as a pledge by the nobleman.",
+   "tags": [
+    {
+     "tag": "folkloristics:story_type_prognostication",
+     "scope": "story",
+     "quotes": [],
+     "confidence": 3,
+     "why": "the three cryptic sayings are borne out one by one",
+     "quotes_failed": false
+    },
+    {
+     "tag": "supernatural:prognostication",
+     "scope": "span",
+     "quotes": [
+      "וידע בטח כי רוח קדשו צפה זאת",
+      "אזי ידע תוכן מעשה הראשונה"
+     ],
+     "confidence": 3,
+     "why": "the tzaddik's foresight of future events is realized",
+     "quotes_failed": false
+    },
+    {
+     "tag": "supernatural:perception",
+     "scope": "span",
+     "quotes": [
+      "וידע בטח כי רוח קדשו צפה זאת"
+     ],
+     "confidence": 2,
+     "why": "the tzaddik's holy spirit foresaw the situation",
+     "quotes_failed": false
+    },
+    {
+     "tag": "practice:travel_to_the_tsaddik",
+     "scope": "span",
+     "quotes": [
+      "ובנסעו דרך עיר ברדיטשוב הלך להרה״ק"
+     ],
+     "confidence": 2,
+     "why": "the melamed goes to the rebbe while passing through Berdichev",
+     "quotes_failed": false
+    },
+    {
+     "tag": "practice:prayer",
+     "scope": "span",
+     "quotes": [
+      "והתפלל שמה אתו עמו במנין שלו"
+     ],
+     "confidence": 2,
+     "why": "he prays in the rebbe's minyan",
+     "quotes_failed": false
+    },
+    {
+     "tag": "practice:reception_of_hasidim",
+     "scope": "span",
+     "quotes": [
+      "והרה״ק נתן לו שלום והזמינו כי יבא המלמד"
+     ],
+     "confidence": 2,
+     "why": "the rebbe receives the visitor and invites him to eat",
+     "quotes_failed": false
+    },
+    {
+     "tag": "practice:storytelling",
+     "scope": "span",
+     "quotes": [
+      "הנה אספר לך ג׳ סופורים"
+     ],
+     "confidence": 2,
+     "why": "the rebbe 'tells' three paid stories (in fact sayings)",
+     "quotes_failed": false
+    },
+    {
+     "tag": "practice:torat_ha_tsaddik",
+     "scope": "span",
+     "quotes": [
+      "אבל אהבתו לרבו תוקד בקרבו והאמין כי בלי ספק לא דבר ריק הוא"
+     ],
+     "confidence": 2,
+     "why": "faith in the tzaddik's words is rewarded",
+     "quotes_failed": false
+    },
+    {
+     "tag": "practice:lifesaving",
+     "scope": "span",
+     "quotes": [
+      "תיכף עשה רעש גדול והקיץ את בעל הבית והאנשים הרוצחים נסו לקולו"
+     ],
+     "confidence": 2,
+     "why": "the old innkeeper is saved from murder through the tzaddik's saying",
+     "quotes_failed": false
+    },
+    {
+     "tag": "characters-and-roles:tavern_keeper",
+     "scope": "span",
+     "quotes": [
+      "בא שמה בחזרה אצל הקרעטשמע",
+      "ואז לפני נסעו מביתו הי' לו קרעטשמע קטנה"
+     ],
+     "confidence": 3,
+     "why": "the old innkeeper, and the melamed himself was a leaseholder or tavern-keeper",
+     "quotes_failed": false
+    },
+    {
+     "tag": "ethics-and-emotions:adultery",
+     "scope": "span",
+     "quotes": [
+      "ואשתו סרה מדרך הטוב והיא מופקרת רח״ל",
+      "להרוג את בעל הבית בעצת אשתו הצעירה"
+     ],
+     "confidence": 2,
+     "why": "suspected adultery is central, and the young wife plots with the men",
+     "quotes_failed": false
+    },
+    {
+     "tag": "social:retrospective_recognition",
+     "scope": "span",
+     "quotes": [
+      "והכיר הילד החי כי הוא בנו",
+      "אז ראה והבין דברי הרה״ק"
+     ],
+     "confidence": 3,
+     "why": "the 'lover' turns out to be his son, and the meaning of the sayings becomes clear",
+     "quotes_failed": false
+    },
+    {
+     "tag": "social:marital_relationship",
+     "scope": "span",
+     "quotes": [
+      "ברם זכור תזכור עת הלוך הלכת מאתנו ואותנו עזבת",
+      "ואשתו היתה אשה צעירה רכה וענוגה"
+     ],
+     "confidence": 3,
+     "why": "the melamed and his wife, and the old man with his young wife",
+     "quotes_failed": false
+    },
+    {
+     "tag": "social:relations_with_non_jews",
+     "scope": "span",
+     "quotes": [
+      "והאדון הפריץ לקח למשכון את בנינו זה הילד הקטן",
+      "למען לא יטמע בין העכו\"ם ח\"ו"
+     ],
+     "confidence": 3,
+     "why": "the nobleman holds the son as a pledge",
+     "quotes_failed": false
+    },
+    {
+     "tag": "practice:study",
+     "scope": "span",
+     "quotes": [
+      "ואני לומד עמו סדר התפלה וחומש"
+     ],
+     "confidence": 2,
+     "why": "the mother secretly teaches the boy every night",
+     "quotes_failed": false
+    },
+    {
+     "tag": "ethics-and-emotions:lying",
+     "scope": "span",
+     "quotes": [
+      "והוא עשה א״ע שוכב כאיש שכור",
+      "שינה את בגדי כלאו כי לא יכירו אותו"
+     ],
+     "confidence": 2,
+     "why": "he feigns drunkenness and disguises himself",
+     "quotes_failed": false
+    },
+    {
+     "tag": "ethics-and-emotions:joy",
+     "scope": "span",
+     "quotes": [
+      "ותירב השמחה בקרבה וענתה האשה. בעלי בעלי"
+     ],
+     "confidence": 2,
+     "why": "the joyful family reunion",
+     "quotes_failed": false
+    },
+    {
+     "tag": "ethics-and-emotions:anger",
+     "scope": "span",
+     "quotes": [
+      "אבל הוא צעק בקול גדול ולשמחה מה זו עושה"
+     ],
+     "confidence": 2,
+     "why": "the husband angrily confronts his wife",
+     "quotes_failed": false
+    },
+    {
+     "tag": "social:poverty",
+     "scope": "span",
+     "quotes": [
+      "המלמד בנסעו מבית רבו קרח מכל וכל"
+     ],
+     "confidence": 1,
+     "why": "poverty is depicted but not embraced as a virtue, so this is borderline",
+     "quotes_failed": false
+    },
+    {
+     "tag": "practice:drinking_alcohol",
+     "scope": "span",
+     "quotes": [
+      "בלילה עשה א״ע כאיש שכור שתה שמה"
+     ],
+     "confidence": 1,
+     "why": "he drinks as part of feigning drunkenness",
+     "quotes_failed": false
+    },
+    {
+     "tag": "women:major_character",
+     "scope": "span",
+     "quotes": [
+      "אמרה לו אל תבהל ברוחך להוציא זאת מפיך"
+     ],
+     "confidence": 3,
+     "why": "the melamed's wife acts and defends herself, and her conduct is the crux of the third episode",
+     "quotes_failed": false
+    },
+    {
+     "tag": "women:minor_character",
+     "scope": "span",
+     "quotes": [
+      "והאשה בעלת הבית לא רצתה ליתן לו מלון"
+     ],
+     "confidence": 3,
+     "why": "the innkeeper's young wife refuses him lodging and plots the murder",
+     "quotes_failed": false
+    },
+    {
+     "tag": "characters-and-roles:the_family_of_the_tsaddik",
+     "scope": "span",
+     "quotes": [
+      "הבנים ברב חדוה שמחו אתו כמו בן לאב"
+     ],
+     "confidence": 1,
+     "why": "this is the melamed's family, not the tzaddik's, so the tag is borderline",
+     "quotes_failed": false
+    }
+   ],
+   "missing_concepts": [
+    "buying wisdom or advice for money (the 'three counsels' tale type, ATU 910B)",
+    "a Jewish child held as a pledge for arenda debt by a nobleman",
+    "a long absence of the husband and the family's reunion",
+    "robbers and recovery of stolen goods",
+    "a murder plot by a young wife against an old husband"
+   ],
+   "start_quote_found": true,
+   "end_quote_found": true
+  }
+ ],
+ "check": {
+  "non_vocab_tags": [
+   "story_type_protection"
+  ],
+  "quotes": 29,
+  "quotes_not_found": 0
+ },
+ "id": "Eser-Orot_0086",
+ "chars": 5714,
+ "seconds": 25
+}

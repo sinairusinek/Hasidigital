@@ -1,0 +1,174 @@
+{
+ "unit": {
+  "kind": "hasidic_story",
+  "why": "A single narrative: R. Berish of Oshpitsin assures the iron monopolist R. Isaac that his gentile rival will not get the iron, and within three days the rival, tormented at night, begs forgiveness and renounces the trade.",
+  "boundary_note": "The text opens with 'אחר זה', but the content is a new story. A stray heading fragment, 'ה. מהה״ק ר׳ בעריש מאושפצין', is embedded mid-text, probably a misplaced section heading or source line."
+ },
+ "stories": [
+  {
+   "k": 1,
+   "start_quote": "אחר זה שבר ר׳ אייזק מהגיבערנער בלבוב",
+   "end_quote": "ולקח כל הכתבים מהגבערני ושרף אותם לעיניו",
+   "hasidic": true,
+   "summary_en": "A gentile neighbour gets a license from the Lviv authorities to share R. Isaac's iron monopoly; R. Berish predicts he will not take the iron, and after three sleepless, tormented nights the gentile, urged by his wife, begs forgiveness, swears off the iron trade and burns the license documents.",
+   "tags": [
+    {
+     "tag": "folkloristics:story_type_prognostication",
+     "scope": "story",
+     "quotes": [],
+     "confidence": 3,
+     "why": "The plot turns on the tzaddik's prediction coming true within three days.",
+     "quotes_failed": false
+    },
+    {
+     "tag": "supernatural:prognostication",
+     "scope": "span",
+     "quotes": [
+      "לא יקח בשום אופן תמתין ג׳ ימיח אז יתודע לך",
+      "ויזכור הנגיד את דברי הה״ק ר' בעריש ויהי לאות"
+     ],
+     "confidence": 3,
+     "why": "Prediction stated and then fulfilled.",
+     "quotes_failed": false
+    },
+    {
+     "tag": "folkloristics:story_type_protection",
+     "scope": "story",
+     "quotes": [],
+     "confidence": 2,
+     "why": "The tzaddik protects R. Isaac's livelihood from a hostile gentile.",
+     "quotes_failed": false
+    },
+    {
+     "tag": "practice:protection",
+     "scope": "span",
+     "quotes": [
+      "שלח ר׳ אייזק ויבקש את הה״ק ר׳ בעריש שיבא אליו"
+     ],
+     "confidence": 2,
+     "why": "The tzaddik shields him from the rival's threat.",
+     "quotes_failed": false
+    },
+    {
+     "tag": "social:relations_with_non_jews",
+     "scope": "span",
+     "quotes": [
+      "והערלים מקנאים אותו עד מאוד על הצלחתו",
+      "ויפול הערל לפני רגליו וכרע על ברכיו"
+     ],
+     "confidence": 3,
+     "why": "Central conflict with a gentile neighbour.",
+     "quotes_failed": false
+    },
+    {
+     "tag": "social:conflict",
+     "scope": "span",
+     "quotes": [
+      "ומדוע יקח היהודי הכל ופעל והשיג רשיון על החצי"
+     ],
+     "confidence": 3,
+     "why": "Commercial rivalry between the Jew and the gentile.",
+     "quotes_failed": false
+    },
+    {
+     "tag": "social:relations_with_the_authorities",
+     "scope": "span",
+     "quotes": [
+      "הלך הוא ג״כ אל הנבערנער ללבוב לבקש מלפניו רשיון"
+     ],
+     "confidence": 2,
+     "why": "The governor's office in Lviv grants the license.",
+     "quotes_failed": false
+    },
+    {
+     "tag": "ethics-and-emotions:fear",
+     "scope": "span",
+     "quotes": [
+      "פחד מאוד כי בודאי יקלקל השער",
+      "ור׳ אייזק יושב בסתר בפחד גדול"
+     ],
+     "confidence": 3,
+     "why": "R. Isaac's fear.",
+     "quotes_failed": false
+    },
+    {
+     "tag": "ethics-and-emotions:punishment",
+     "scope": "span",
+     "quotes": [
+      "וכשהי׳ רוצה לישן ולסגור עינו הי׳ קורעים אותו"
+     ],
+     "confidence": 3,
+     "why": "The gentile is tormented for wronging the Jew.",
+     "quotes_failed": false
+    },
+    {
+     "tag": "supernatural:miracle",
+     "scope": "span",
+     "quotes": [
+      "כי ראה דבר פלא ולא ידע מה נעשה עמו"
+     ],
+     "confidence": 2,
+     "why": "Supernatural torment that ends once he is forgiven.",
+     "quotes_failed": false
+    },
+    {
+     "tag": "practice:drinking_alcohol",
+     "scope": "span",
+     "quotes": [
+      "ויצו להביא יין טוב מהמרתף ונתן לו לשתות",
+      "ויתן ר׳ אייזק להערל עוד יין טוב ושתה הרבה"
+     ],
+     "confidence": 3,
+     "why": "Wine given to the gentile.",
+     "quotes_failed": false
+    },
+    {
+     "tag": "women:minor_character",
+     "scope": "span",
+     "quotes": [
+      "ובלילה זו אמרה אליו אשתו אין זה רק בעבור שחטאת",
+      "ותאמר לו הערלית אשת השכן הנ\"ל"
+     ],
+     "confidence": 3,
+     "why": "The gentile's wife advises him and asks forgiveness herself.",
+     "quotes_failed": false
+    },
+    {
+     "tag": "social:retrospective_recognition",
+     "scope": "span",
+     "quotes": [
+      "ויזכור הנגיד את דברי הה״ק ר' בעריש ויהי לאות"
+     ],
+     "confidence": 2,
+     "why": "R. Isaac realizes the events fulfil the tzaddik's words.",
+     "quotes_failed": false
+    },
+    {
+     "tag": "practice:torat_ha_tsaddik",
+     "scope": "span",
+     "quotes": [
+      "ור׳ אייזק לא האמין לדברו יען כי עשה הוצאות רבות"
+     ],
+     "confidence": 1,
+     "why": "Faith in the tzaddik's word is tested and vindicated.",
+     "quotes_failed": false
+    }
+   ],
+   "missing_concepts": [
+    "economic monopoly/lease (iron trade)",
+    "gentile acknowledging Jewish divine protection ('הנוגע בהם כנוגע בבבת עינו')",
+    "forgiveness/reconciliation"
+   ],
+   "start_quote_found": true,
+   "end_quote_found": true
+  }
+ ],
+ "check": {
+  "non_vocab_tags": [],
+  "quotes": 17,
+  "quotes_not_found": 0
+ },
+ "id": "Seva-Ratzon_0009",
+ "chars": 1936,
+ "seconds": 21
+}

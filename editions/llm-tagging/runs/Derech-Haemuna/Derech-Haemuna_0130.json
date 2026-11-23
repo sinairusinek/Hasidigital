@@ -1,0 +1,144 @@
+{
+ "unit": {
+  "kind": "non_hasidic_story",
+  "why": "A story quoted from the Hida's Shem ha-Gedolim about the kabbalist R. Tzemach in Damascus, who was healed after Elijah appeared to him. He is a pre-Hasidic figure.",
+  "boundary_note": ""
+ },
+ "stories": [
+  {
+   "k": 1,
+   "start_quote": "והרב מוהר״ר צמח הנז׳ היה חולה",
+   "end_quote": "בשערי טבילה שיטבלו בערב כדין",
+   "hasidic": false,
+   "summary_en": "R. Tzemach lay sick in Damascus for about two years until Elijah appeared to him and told him to undertake to study Torah all night on the eve of every circumcision in the city; he accepted, was healed at once, kept this custom from then on, and also urged people about Sabbath observance and immersion on Friday.",
+   "tags": [
+    {
+     "tag": "not-a-hasidic-story:hagiography",
+     "scope": "story",
+     "quotes": [],
+     "confidence": 3,
+     "why": "Praise of a pre-Hasidic kabbalist, copied from the Hida's Shem ha-Gedolim.",
+     "quotes_failed": false
+    },
+    {
+     "tag": "characters-and-roles:elijah_the_prophet",
+     "scope": "span",
+     "quotes": [
+      "שנגלה אליו אליהו זכור לטוב"
+     ],
+     "confidence": 3,
+     "why": "Elijah reveals himself and gives instructions.",
+     "quotes_failed": false
+    },
+    {
+     "tag": "experience:revelation",
+     "scope": "span",
+     "quotes": [
+      "שנגלה אליו אליהו זכור לטוב ואמר לו"
+     ],
+     "confidence": 3,
+     "why": "A supernatural disclosure by Elijah.",
+     "quotes_failed": false
+    },
+    {
+     "tag": "supernatural:communicating_with_the_invisible",
+     "scope": "span",
+     "quotes": [
+      "שנגלה אליו אליהו זכור לטוב ואמר לו"
+     ],
+     "confidence": 2,
+     "why": "He talks with Elijah.",
+     "quotes_failed": false
+    },
+    {
+     "tag": "practice:healing",
+     "scope": "span",
+     "quotes": [
+      "שלח מלאכו וירפאהו וכמו רגע חזר לבריאתו",
+      "וקיבל עליו ותיכף נתרפא"
+     ],
+     "confidence": 3,
+     "why": "He is miraculously healed of a long illness.",
+     "quotes_failed": false
+    },
+    {
+     "tag": "supernatural:miracle",
+     "scope": "span",
+     "quotes": [
+      "ואתרחיש ליה ניסא שלח מלאכו וירפאהו"
+     ],
+     "confidence": 3,
+     "why": "Sudden miraculous recovery.",
+     "quotes_failed": false
+    },
+    {
+     "tag": "practice:circumcision",
+     "scope": "span",
+     "quotes": [
+      "ללמוד כל ליל ברית מילה לכל הילודים בעיר",
+      "לילך ליל שלפני המילה במקום שיהיה"
+     ],
+     "confidence": 3,
+     "why": "Vigil on the eve of the circumcision.",
+     "quotes_failed": false
+    },
+    {
+     "tag": "practice:study",
+     "scope": "span",
+     "quotes": [
+      "ולעסוק בתורה כל הלילה"
+     ],
+     "confidence": 3,
+     "why": "Night-long Torah study is the remedy and his custom.",
+     "quotes_failed": false
+    },
+    {
+     "tag": "practice:tvilah",
+     "scope": "span",
+     "quotes": [
+      "ויתיב בשערי טבילה שיטבלו בערב כדין"
+     ],
+     "confidence": 2,
+     "why": "He sat at the gates of the ritual bath on Friday to urge immersion.",
+     "quotes_failed": false
+    },
+    {
+     "tag": "times:shabbat",
+     "scope": "span",
+     "quotes": [
+      "ומהם להזהיר על השבת הוא בעצמו ביום הששי"
+     ],
+     "confidence": 2,
+     "why": "He warned people about Sabbath observance on Fridays.",
+     "quotes_failed": false
+    },
+    {
+     "tag": "practice:storytelling",
+     "scope": "span",
+     "quotes": [
+      "כי סיפר הרב ז״ל שנגלה אליו",
+      "והרבו לספר ממעשיו של הרב ז״ל"
+     ],
+     "confidence": 1,
+     "why": "The tale is framed as told by the rabbi and by eyewitnesses.",
+     "quotes_failed": false
+    }
+   ],
+   "missing_concepts": [
+    "vow or undertaking (kabbalah) as a condition of healing",
+    "chain of oral transmission or eyewitness attestation",
+    "illness as the narrative trigger"
+   ],
+   "start_quote_found": true,
+   "end_quote_found": true
+  }
+ ],
+ "check": {
+  "non_vocab_tags": [],
+  "quotes": 13,
+  "quotes_not_found": 0
+ },
+ "id": "Derech-Haemuna_0130",
+ "chars": 568,
+ "seconds": 15
+}

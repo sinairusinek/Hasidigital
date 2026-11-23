@@ -1,0 +1,144 @@
+{
+ "unit": {
+  "kind": "hasidic_story",
+  "why": "A single tale told by the Rebbe of Neskhiz about the young Seer of Lublin, who resisted a seductive woman while travelling to R. Elimelekh; the whole scene turned out to be an illusion sent to test him.",
+  "boundary_note": ""
+ },
+ "stories": [
+  {
+   "k": 1,
+   "start_quote": "סיפר מרן מנעסכיז ז\"ל שהרבי מלובלין הלך",
+   "end_quote": "עומד אצל הדרך שהי' צריך ללכת בו",
+   "hasidic": true,
+   "summary_en": "While the young Seer of Lublin was travelling to R. Elimelekh of Lizhensk, he lost his way in rain and cold and entered a warm, lit house in a forest where a beautiful woman tried to seduce him; he refused, saying he does only what gives his Creator pleasure, and at once the house, forest and woman vanished: it had been an illusion sent to test him.",
+   "tags": [
+    {
+     "tag": "practice:travel_to_the_tsaddik",
+     "scope": "span",
+     "quotes": [
+      "הלך בנערותו להרה״ק רבי ר׳ אלימלך ז\"ל מליזענסק"
+     ],
+     "confidence": 3,
+     "why": "the young Seer is on his way to R. Elimelekh's court",
+     "quotes_failed": false
+    },
+    {
+     "tag": "ethics-and-emotions:resisting_temptation",
+     "scope": "span",
+     "quotes": [
+      "והיא רצתה לפתותו לעבירה ר\"ל",
+      "קבלתי עלי שלא לעשות אפילו דבר הרשות"
+     ],
+     "confidence": 3,
+     "why": "he refuses the woman's seduction",
+     "quotes_failed": false
+    },
+    {
+     "tag": "ethics-and-emotions:lust",
+     "scope": "span",
+     "quotes": [
+      "והיא רצתה לפתותו לעבירה ר\"ל"
+     ],
+     "confidence": 3,
+     "why": "sexual temptation is the story's central trial",
+     "quotes_failed": false
+    },
+    {
+     "tag": "ethics-and-emotions:prohibitions",
+     "scope": "span",
+     "quotes": [
+      "ולא ידע מה לעשות אודות יחוד"
+     ],
+     "confidence": 2,
+     "why": "he worries about the prohibition on being alone with a woman",
+     "quotes_failed": false
+    },
+    {
+     "tag": "women:major_character",
+     "scope": "span",
+     "quotes": [
+      "והיתה שם רק אשה אחת יפ\"ת",
+      "ואמרה שהיא פנויה וטהרה"
+     ],
+     "confidence": 2,
+     "why": "the seductress acts and drives the plot, even though she proves illusory",
+     "quotes_failed": false
+    },
+    {
+     "tag": "supernatural:magic",
+     "scope": "span",
+     "quotes": [
+      "ראה שהי' הכל דמיון כדי לנסותו"
+     ],
+     "confidence": 1,
+     "why": "a supernatural illusion is created, though no magician is named",
+     "quotes_failed": false
+    },
+    {
+     "tag": "experience:visions",
+     "scope": "span",
+     "quotes": [
+      "וראה בית שהי' מאיר ביער",
+      "ולא הי' שם לא יער ולא בית ולא אשה"
+     ],
+     "confidence": 2,
+     "why": "a waking illusory sight of a house, a forest and a woman",
+     "quotes_failed": false
+    },
+    {
+     "tag": "social:retrospective_recognition",
+     "scope": "span",
+     "quotes": [
+      "מיד ראה שהי' הכל דמיון כדי לנסותו"
+     ],
+     "confidence": 3,
+     "why": "he realizes afterwards that the whole scene was a test",
+     "quotes_failed": false
+    },
+    {
+     "tag": "practice:storytelling",
+     "scope": "span",
+     "quotes": [
+      "סיפר מרן מנעסכיז ז\"ל"
+     ],
+     "confidence": 2,
+     "why": "the tale is framed as told by the Neskhizer",
+     "quotes_failed": false
+    },
+    {
+     "tag": "folkloristics:story_type_virtues",
+     "scope": "story",
+     "quotes": [],
+     "confidence": 3,
+     "why": "the story illustrates the young tzaddik's holiness and self-restraint",
+     "quotes_failed": false
+    },
+    {
+     "tag": "ethics-and-emotions:virtues",
+     "scope": "span",
+     "quotes": [
+      "רק מה שיגיע ממנו תענוג ונחת רוח ליוצרי"
+     ],
+     "confidence": 2,
+     "why": "he does every act, even a permitted one, only for the Creator's sake",
+     "quotes_failed": false
+    }
+   ],
+   "missing_concepts": [
+    "divine test (nisayon) through an illusory temptation",
+    "getting lost in the forest",
+    "doing even permitted acts only for the sake of heaven"
+   ],
+   "start_quote_found": true,
+   "end_quote_found": true
+  }
+ ],
+ "check": {
+  "non_vocab_tags": [],
+  "quotes": 13,
+  "quotes_not_found": 0
+ },
+ "id": "Eser-Orot_0193",
+ "chars": 580,
+ "seconds": 15
+}

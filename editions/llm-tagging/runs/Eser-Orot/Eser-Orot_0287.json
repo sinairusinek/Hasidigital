@@ -1,0 +1,128 @@
+{
+ "unit": {
+  "kind": "hasidic_story",
+  "why": "An anecdote about R. Shneur Zalman of Liadi visiting Probisht on his return from Petersburg, meeting Hava, wife of R. Shalom, and her sons, and the young Israel of Ruzhin asking him a question about the Shema.",
+  "boundary_note": ""
+ },
+ "stories": [
+  {
+   "k": 1,
+   "start_quote": "העיד הרב החסיד איש האמת מו\"ה יצחה",
+   "end_quote": "מפיו של הקדוש רש״ז מלאדי זצוק\"ל",
+   "hasidic": true,
+   "summary_en": "On his way back from Petersburg, R. Shneur Zalman of Liadi passed through Probisht, where the tsaddeket Hava brought her two sons to him; the seven- or eight-year-old Israel of Ruzhin asked how one can say ve-ahavta, which implies a sense of self, right after the first verse of the Shema, which requires self-sacrifice and the annulment of self; R. Shneur Zalman gave him a vast answer, and the child understood all of it.",
+   "tags": [
+    {
+     "tag": "characters-and-roles:the_family_of_the_tsaddik",
+     "scope": "span",
+     "quotes": [
+      "הצדיקת חוה אשת הרה״ק ר״ש. עם שני בניה"
+     ],
+     "confidence": 3,
+     "why": "the wife and sons of R. Shalom appear",
+     "quotes_failed": false
+    },
+    {
+     "tag": "women:minor_character",
+     "scope": "span",
+     "quotes": [
+      "ובאתה אליו הצדיקת חוה אשת הרה״ק ר״ש"
+     ],
+     "confidence": 3,
+     "why": "Hava brings her sons to him",
+     "quotes_failed": false
+    },
+    {
+     "tag": "practice:the_travels_of_the_tsaddik",
+     "scope": "span",
+     "quotes": [
+      "ונסע דרך עיר פראבישט מקום משכנו"
+     ],
+     "confidence": 3,
+     "why": "the encounter happens while he is travelling through",
+     "quotes_failed": false
+    },
+    {
+     "tag": "social:relations_with_the_authorities",
+     "scope": "span",
+     "quotes": [
+      "שבעת באו מפעטערסבורג"
+     ],
+     "confidence": 1,
+     "why": "returning from Petersburg, an implied allusion to his imprisonment",
+     "quotes_failed": false
+    },
+    {
+     "tag": "practice:prayer",
+     "scope": "span",
+     "quotes": [
+      "אם קורין את שמע פסוק ראשון"
+     ],
+     "confidence": 2,
+     "why": "the question concerns reciting the Shema",
+     "quotes_failed": false
+    },
+    {
+     "tag": "practice:sermon",
+     "scope": "span",
+     "quotes": [
+      "אני אמרתי לו תירוץ ערוך וארוך"
+     ],
+     "confidence": 2,
+     "why": "a Torah discourse in answer to the question",
+     "quotes_failed": false
+    },
+    {
+     "tag": "ethics-and-emotions:humility",
+     "scope": "span",
+     "quotes": [
+      "ממש ביטול המציאות והישות"
+     ],
+     "confidence": 1,
+     "why": "the annulment of self as a theme",
+     "quotes_failed": false
+    },
+    {
+     "tag": "practice:storytelling",
+     "scope": "span",
+     "quotes": [
+      "כן שמע הרב ריצ\"מ מפיו של הקדוש"
+     ],
+     "confidence": 2,
+     "why": "framed as a story R. Shneur Zalman told to his disciple",
+     "quotes_failed": false
+    },
+    {
+     "tag": "folkloristics:story_type_virtues",
+     "scope": "story",
+     "quotes": [],
+     "confidence": 2,
+     "why": "illustrates the child Israel of Ruzhin's precocious greatness",
+     "quotes_failed": false
+    },
+    {
+     "tag": "social:inter_hasidic",
+     "scope": "story",
+     "quotes": [],
+     "confidence": 2,
+     "why": "a meeting between the families of different tsaddikim",
+     "quotes_failed": false
+    }
+   ],
+   "missing_concepts": [
+    "child prodigy (precocious spiritual understanding)",
+    "mesirut nefesh / self-sacrifice in reciting the Shema"
+   ],
+   "start_quote_found": true,
+   "end_quote_found": true
+  }
+ ],
+ "check": {
+  "non_vocab_tags": [],
+  "quotes": 8,
+  "quotes_not_found": 0
+ },
+ "id": "Eser-Orot_0287",
+ "chars": 839,
+ "seconds": 13
+}

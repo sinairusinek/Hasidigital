@@ -1,0 +1,173 @@
+{
+ "unit": {
+  "kind": "non_hasidic_story",
+  "why": "Inside a homiletic discussion on the burdens of the rabbinate, the division tells an anecdote about the Hatam Sofer, a non-Hasidic rabbinic authority. He flees a match offered with the promise of a rabbinate, and his teacher, the Mahatsit ha-Shekel, foretells that he will become a rabbi against his will.",
+  "boundary_note": "the division begins mid-quotation from a book; it ends with the heading 'מענין רצון', which belongs to the next division"
+ },
+ "stories": [
+  {
+   "k": 1,
+   "start_quote": "ושמעתי אומר בשם רבינו הח״ס ז״ל",
+   "end_quote": "מכח האי קללה נהייתי לרב",
+   "hasidic": false,
+   "summary_en": "The young Hatam Sofer leaves a wealthy match because the prospective father-in-law promised to obtain a rabbinate for him. His teacher, the Mahatsit ha-Shekel, foretells that he will become a rabbi against his will, which comes true; the Hatam Sofer later told the story to his students with a sigh and endured great poverty before taking a post.",
+   "tags": [
+    {
+     "tag": "not-a-hasidic-story:hagiography",
+     "scope": "story",
+     "quotes": [],
+     "confidence": 3,
+     "why": "praises the Hatam Sofer and the Mahatsit ha-Shekel, both non-Hasidic rabbinic authorities",
+     "quotes_failed": false
+    },
+    {
+     "tag": "not-a-hasidic-story:sermon",
+     "scope": "span",
+     "quotes": [
+      "אהוב את המלאכה כלומר המלאכה אשר היא אצל הרבנות",
+      "כי רבנות מקברת את בעליה בגמ׳ פסחים"
+     ],
+     "confidence": 3,
+     "why": "the anecdote sits inside an extended homiletic discussion of the rabbinate",
+     "quotes_failed": false
+    },
+    {
+     "tag": "supernatural:prognostication",
+     "scope": "span",
+     "quotes": [
+      "מובטחני שבהכרח על כרחך תהיה לרב",
+      "וכן נתקיים"
+     ],
+     "confidence": 3,
+     "why": "the teacher's prediction comes true",
+     "quotes_failed": false
+    },
+    {
+     "tag": "folkloristics:story_type_prognostication",
+     "scope": "story",
+     "quotes": [],
+     "confidence": 2,
+     "why": "the narrative arc is a prediction that is fulfilled",
+     "quotes_failed": false
+    },
+    {
+     "tag": "social:marriage",
+     "scope": "span",
+     "quotes": [
+      "שידך אחד בעושר גדול ונסע על כתיבת התנאים"
+     ],
+     "confidence": 3,
+     "why": "the plot turns on a proposed marriage match",
+     "quotes_failed": false
+    },
+    {
+     "tag": "ethics-and-emotions:humility",
+     "scope": "span",
+     "quotes": [
+      "ראה להשמיט עצמו וברח ושב לבית רבו"
+     ],
+     "confidence": 2,
+     "why": "he flees honour and the rabbinate",
+     "quotes_failed": false
+    },
+    {
+     "tag": "social:poverty",
+     "scope": "span",
+     "quotes": [
+      "כמה כובד עניות ודוחק עבר על רבינו ז״ל",
+      "ואשתו היתה מוכרת כיפה מעל ראשה ליין קידוש"
+     ],
+     "confidence": 3,
+     "why": "he endured poverty rather than accept a rabbinate",
+     "quotes_failed": false
+    },
+    {
+     "tag": "practice:study",
+     "scope": "span",
+     "quotes": [
+      "כאשר למד תורה אצל בעל מחצית השקל",
+      "כאשר למד רבינו אז בהתמדה רבה"
+     ],
+     "confidence": 3,
+     "why": "his diligent Torah study is depicted",
+     "quotes_failed": false
+    },
+    {
+     "tag": "practice:storytelling",
+     "scope": "span",
+     "quotes": [
+      "היה רגיל לספר אותו מעשה לתלמידיו"
+     ],
+     "confidence": 3,
+     "why": "the Hatam Sofer habitually told this story to his students",
+     "quotes_failed": false
+    },
+    {
+     "tag": "ethics-and-emotions:fear",
+     "scope": "span",
+     "quotes": [
+      "וחרד לבו ושאל אותו על הסיבה"
+     ],
+     "confidence": 2,
+     "why": "the teacher is alarmed on hearing the match was broken off",
+     "quotes_failed": false
+    },
+    {
+     "tag": "ethics-and-emotions:sadness",
+     "scope": "span",
+     "quotes": [
+      "ותמיד העלה אנחה מקירות לבו"
+     ],
+     "confidence": 1,
+     "why": "his recurring sigh over the rabbinate",
+     "quotes_failed": false
+    },
+    {
+     "tag": "characters-and-roles:the_family_of_the_tsaddik",
+     "scope": "span",
+     "quotes": [
+      "ואשתו היתה מוכרת כיפה מעל ראשה"
+     ],
+     "confidence": 2,
+     "why": "his wife appears",
+     "quotes_failed": false
+    },
+    {
+     "tag": "women:minor_character",
+     "scope": "span",
+     "quotes": [
+      "ואשתו היתה מוכרת כיפה מעל ראשה ליין קידוש"
+     ],
+     "confidence": 2,
+     "why": "the wife acts briefly by selling her head covering",
+     "quotes_failed": false
+    },
+    {
+     "tag": "practice:drinking_alcohol",
+     "scope": "span",
+     "quotes": [
+      "ליין קידוש"
+     ],
+     "confidence": 1,
+     "why": "wine for kiddush is mentioned in passing",
+     "quotes_failed": false
+    }
+   ],
+   "missing_concepts": [
+    "refusing rabbinic office",
+    "the rabbinate as a burden or curse",
+    "the teacher's words acting as an unintended curse"
+   ],
+   "start_quote_found": true,
+   "end_quote_found": true
+  }
+ ],
+ "check": {
+  "non_vocab_tags": [],
+  "quotes": 16,
+  "quotes_not_found": 0
+ },
+ "id": "Derech-Haemuna_0195",
+ "chars": 2234,
+ "seconds": 23
+}

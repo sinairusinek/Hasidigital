@@ -1,0 +1,125 @@
+{
+ "unit": {
+  "kind": "hasidic_story",
+  "why": "A short narrative: a madman comes to the tzaddik for healing, is told to study a mishnah, the tzaddik explains the remedy to R. David of Lelov, and the man is cured.",
+  "boundary_note": ""
+ },
+ "stories": [
+  {
+   "k": 1,
+   "start_quote": "פ״א בא לפניו איש משוגע שנסע",
+   "end_quote": "אבל הרופאים אינם יודעים כלל",
+   "hasidic": true,
+   "summary_en": "A madman travels to the tzaddik to be cured. The tzaddik tells him to study Akavia ben Mahalalel's mishnah, then explains to R. David of Lelov that man as a microcosm holds all remedies but cannot find them because of pride, which this mishnah humbles. The man is cured.",
+   "tags": [
+    {
+     "tag": "practice:healing",
+     "scope": "span",
+     "quotes": [
+      "איש משוגע שנסע אליו אודות חליו",
+      "וממשנה זו יכנע וימצא רפואתן וכן הי'"
+     ],
+     "confidence": 3,
+     "why": "The tzaddik cures a mentally ill man through a prescribed study.",
+     "quotes_failed": false
+    },
+    {
+     "tag": "practice:travel_to_the_tsaddik",
+     "scope": "span",
+     "quotes": [
+      "איש משוגע שנסע אליו אודות חליו"
+     ],
+     "confidence": 3,
+     "why": "The sick man journeys to the tzaddik with a request.",
+     "quotes_failed": false
+    },
+    {
+     "tag": "practice:study",
+     "scope": "span",
+     "quotes": [
+      "וצוה עליו ללמוד המשנה דעקביא בן מהללאל"
+     ],
+     "confidence": 2,
+     "why": "Studying a mishnah is the prescribed remedy.",
+     "quotes_failed": false
+    },
+    {
+     "tag": "ethics-and-emotions:pride",
+     "scope": "span",
+     "quotes": [
+      "שמחמת גאותו שאינו יכול להשפיל א\"ע"
+     ],
+     "confidence": 3,
+     "why": "Pride is given as the cause of the man's inability to heal himself.",
+     "quotes_failed": false
+    },
+    {
+     "tag": "ethics-and-emotions:humility",
+     "scope": "span",
+     "quotes": [
+      "וממשנה זו יכנע וימצא רפואתן"
+     ],
+     "confidence": 2,
+     "why": "Self-humbling is the mechanism of the cure.",
+     "quotes_failed": false
+    },
+    {
+     "tag": "practice:sermon",
+     "scope": "span",
+     "quotes": [
+      "וא\"ל שכל הרפואות הם סמים המעוררים לחימום",
+      "ואחרי שהאדם הוא עולם קטן ויש בו"
+     ],
+     "confidence": 2,
+     "why": "The tzaddik gives a homiletic explanation of the remedy.",
+     "quotes_failed": false
+    },
+    {
+     "tag": "social:inter_hasidic",
+     "scope": "span",
+     "quotes": [
+      "והי׳ שם הרה\"ק ר' דוד מלעלוב. ושאלו ענין זה"
+     ],
+     "confidence": 2,
+     "why": "A fellow tzaddik, R. David of Lelov, asks the tzaddik about his remedy.",
+     "quotes_failed": false
+    },
+    {
+     "tag": "supernatural:miracle",
+     "scope": "span",
+     "quotes": [
+      "וימצא רפואתן וכן הי'"
+     ],
+     "confidence": 1,
+     "why": "The cure succeeded, though it is framed as natural self-healing rather than a wonder.",
+     "quotes_failed": false
+    },
+    {
+     "tag": "practice:reception_of_hasidim",
+     "scope": "span",
+     "quotes": [
+      "פ״א בא לפניו איש משוגע"
+     ],
+     "confidence": 2,
+     "why": "The tzaddik receives a petitioner and gives him instructions.",
+     "quotes_failed": false
+    }
+   ],
+   "missing_concepts": [
+    "mental illness / madness (משוגע)",
+    "critique of doctors and medicine",
+    "man as microcosm (עולם קטן)"
+   ],
+   "start_quote_found": true,
+   "end_quote_found": true
+  }
+ ],
+ "check": {
+  "non_vocab_tags": [],
+  "quotes": 11,
+  "quotes_not_found": 0
+ },
+ "id": "Eser-Orot_0225",
+ "chars": 466,
+ "seconds": 14
+}

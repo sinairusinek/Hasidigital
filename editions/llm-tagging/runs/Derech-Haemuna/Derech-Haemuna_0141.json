@@ -1,0 +1,179 @@
+{
+ "unit": {
+  "kind": "non_hasidic_story",
+  "why": "A single cited tale (from Sefer S\"H) about R. Shmuel, author of the responsa Even ha-Shoham, a rabbinic authority outside the Hasidic movement: an informer who harmed him is summoned to judgment after the rabbi's death.",
+  "boundary_note": "The final words 'מענין מוכיח' are a section heading belonging to the next division."
+ },
+ "stories": [
+  {
+   "k": 1,
+   "start_quote": "מעשה נורא בהק׳ ס׳ שו״ת אבן השוהם",
+   "end_quote": "וזה היה בשנת תקס״ז",
+   "hasidic": false,
+   "summary_en": "An informer in Lubzhenitz has the rabbi (author of Even ha-Shoham) jailed and fined; the rabbi dies on a Friday without forgiving him, and at that moment the informer, at the Danzig fair, sees the rabbi and his parents summoning him to judgment, begs forgiveness, and soon dies, while his accomplices waste away from illness (1807).",
+   "tags": [
+    {
+     "tag": "not-a-hasidic-story:hagiography",
+     "scope": "story",
+     "quotes": [],
+     "confidence": 3,
+     "why": "The story praises a non-Hasidic rabbinic authority and is copied from an earlier book.",
+     "quotes_failed": false
+    },
+    {
+     "tag": "social:conflict",
+     "scope": "span",
+     "quotes": [
+      "היה שם מלשין אחד היה לו מחלוקת עם הקהל",
+      "נעשה איש ההוא שונא להרב"
+     ],
+     "confidence": 3,
+     "why": "The informer is in conflict with the rabbi.",
+     "quotes_failed": false
+    },
+    {
+     "tag": "social:relations_with_the_authorities",
+     "scope": "span",
+     "quotes": [
+      "וגרם שנתפס הרב ונקנס בסך מסוים",
+      "וישב בתפיסה במקום סכנה"
+     ],
+     "confidence": 3,
+     "why": "Through the informer, the authorities imprison and fine the rabbi.",
+     "quotes_failed": false
+    },
+    {
+     "tag": "ethics-and-emotions:punishment",
+     "scope": "span",
+     "quotes": [
+      "ואותו איש חלה מאד ומת",
+      "הלכו וכלים בחולאים"
+     ],
+     "confidence": 3,
+     "why": "Heaven punishes the informer and his accomplices.",
+     "quotes_failed": false
+    },
+    {
+     "tag": "times:death",
+     "scope": "span",
+     "quotes": [
+      "ובחצות היום נפטר ונקבר אחר חצות",
+      "ואותו איש חלה מאד ומת"
+     ],
+     "confidence": 3,
+     "why": "The deaths of the rabbi and of the informer are depicted.",
+     "quotes_failed": false
+    },
+    {
+     "tag": "times:shabbat",
+     "scope": "span",
+     "quotes": [
+      "לעת הליכות לבה״כ למנחה בעש״ק"
+     ],
+     "confidence": 2,
+     "why": "The events take place on the eve of Shabbat.",
+     "quotes_failed": false
+    },
+    {
+     "tag": "experience:visions",
+     "scope": "span",
+     "quotes": [
+      "ומצד אחד עומד איש זקן אביו ומצד השני אמו"
+     ],
+     "confidence": 3,
+     "why": "The informer sees the dead rabbi and his parents while awake.",
+     "quotes_failed": false
+    },
+    {
+     "tag": "supernatural:communicating_with_the_invisible",
+     "scope": "span",
+     "quotes": [
+      "מ״ו אני מבקש מחילה ממך",
+      "וכן אביו ואמו אומרים כך רשע אתה"
+     ],
+     "confidence": 3,
+     "why": "The informer speaks with the souls of the dead, whom no one else can see.",
+     "quotes_failed": false
+    },
+    {
+     "tag": "ethics-and-emotions:fear",
+     "scope": "span",
+     "quotes": [
+      "וחיל ורעדה ופלצות אחזו ופחד ורעד"
+     ],
+     "confidence": 3,
+     "why": "The bystanders are seized with fear.",
+     "quotes_failed": false
+    },
+    {
+     "tag": "experience:trembling",
+     "scope": "span",
+     "quotes": [
+      "וחיל ורעדה ופלצות אחזו ופחד ורעד"
+     ],
+     "confidence": 2,
+     "why": "Trembling is the bystanders' response to the supernatural event.",
+     "quotes_failed": false
+    },
+    {
+     "tag": "social:retrospective_recognition",
+     "scope": "span",
+     "quotes": [
+      "ומתחלה סברו שהוא קצת שגעון כי לא נודע שם שמת הרב"
+     ],
+     "confidence": 2,
+     "why": "The bystanders first take him for mad, then realize the vision was true.",
+     "quotes_failed": false
+    },
+    {
+     "tag": "characters-and-roles:the_family_of_the_tsaddik",
+     "scope": "span",
+     "quotes": [
+      "ומצד אחד עומד איש זקן אביו ומצד השני אמו",
+      "כי הניח הרב כמה בנות"
+     ],
+     "confidence": 2,
+     "why": "The rabbi's parents appear and his daughters are mentioned.",
+     "quotes_failed": false
+    },
+    {
+     "tag": "women:minor_character",
+     "scope": "span",
+     "quotes": [
+      "ומצד השני אמו",
+      "וכן אביו ואמו אומרים כך רשע אתה"
+     ],
+     "confidence": 2,
+     "why": "The rabbi's dead mother appears in the vision and speaks.",
+     "quotes_failed": false
+    },
+    {
+     "tag": "practice:pilgrimage_to_the_graves_of_tsaddikim",
+     "scope": "span",
+     "quotes": [
+      "ולבקש מחילה על קברו"
+     ],
+     "confidence": 1,
+     "why": "A messenger is sent to ask forgiveness at the rabbi's grave.",
+     "quotes_failed": false
+    }
+   ],
+   "missing_concepts": [
+    "informer (malshin / mesirah)",
+    "the dead summoning the living to the heavenly court (din)",
+    "refusal of forgiveness (mechilah) before death",
+    "yahrzeit kaddish"
+   ],
+   "start_quote_found": true,
+   "end_quote_found": true
+  }
+ ],
+ "check": {
+  "non_vocab_tags": [],
+  "quotes": 20,
+  "quotes_not_found": 0
+ },
+ "id": "Derech-Haemuna_0141",
+ "chars": 1394,
+ "seconds": 22
+}

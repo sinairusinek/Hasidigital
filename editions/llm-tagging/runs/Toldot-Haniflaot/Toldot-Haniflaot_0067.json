@@ -1,0 +1,116 @@
+{
+ "unit": {
+  "kind": "hasidic_story",
+  "why": "A single anecdote: the Magelnitsa rebbe fell gravely ill, people prayed and sent word to R. Moshe of Zelechow, and when someone asked why no great doctors were brought, R. Moshe answered with a teaching on the tsaddik of the upper and lower aspects.",
+  "boundary_note": ""
+ },
+ "stories": [
+  {
+   "k": 1,
+   "start_quote": "פ״א היה מרן נחלה למאד",
+   "end_quote": "כן שמעתי מנכדי הצדיק ר״מ הנ\"ל",
+   "hasidic": true,
+   "summary_en": "When the Magelnitsa rebbe was gravely ill and towns recited Psalms for him, R. Moshe of Zelechow, asked why no great doctors were brought as for another famous tsaddik, explained that the rebbe is a 'supernal tsaddik' whose illness and cure are above nature, so doctors are irrelevant.",
+   "tags": [
+    {
+     "tag": "practice:recitation_of_psalms",
+     "scope": "span",
+     "quotes": [
+      "והיו אומרים תהלים ומבקשים רחמים עבורו"
+     ],
+     "confidence": 3,
+     "why": "Psalms recited as intercession for the sick rebbe",
+     "quotes_failed": false
+    },
+    {
+     "tag": "practice:prayer",
+     "scope": "span",
+     "quotes": [
+      "לבקש רחמים עבורו"
+     ],
+     "confidence": 2,
+     "why": "petitionary prayer for the rebbe's recovery",
+     "quotes_failed": false
+    },
+    {
+     "tag": "practice:healing",
+     "scope": "span",
+     "quotes": [
+      "אשר מחלתו אינו ע״פ הטבע, וגם רפואתו אינו ע״פ הטבע",
+      "ולכן נצרך לדאקטורים"
+     ],
+     "confidence": 2,
+     "why": "the rebbe's illness and the question of doctors versus supernatural cure",
+     "quotes_failed": false
+    },
+    {
+     "tag": "practice:torat_ha_tsaddik",
+     "scope": "span",
+     "quotes": [
+      "הוא בחי׳ צדיק דלעילא אשר מחלתו אינו ע״פ הטבע",
+      "צדיק פלוני הוא בחי׳ צדיק דלתתא"
+     ],
+     "confidence": 3,
+     "why": "doctrine of the two ranks of tsaddik, upper and lower",
+     "quotes_failed": false
+    },
+    {
+     "tag": "social:inter_hasidic",
+     "scope": "span",
+     "quotes": [
+      "והיה נשלח גם לזעליחאוו אל הרב הצדיק ר׳ משה סטעניצר"
+     ],
+     "confidence": 2,
+     "why": "the rebbe's circle turns to another tsaddik",
+     "quotes_failed": false
+    },
+    {
+     "tag": "social:inter_hasidic_master_disciple_relationship",
+     "scope": "span",
+     "quotes": [
+      "והיה תלמיד מובהק של מרן ז\"ל מלובלין"
+     ],
+     "confidence": 1,
+     "why": "mention of discipleship to the Seer of Lublin",
+     "quotes_failed": false
+    },
+    {
+     "tag": "practice:sermon",
+     "scope": "span",
+     "quotes": [
+      "ענה ואמר הה״צ ר׳ משה הנ״ל, אתה מדמה צדיק פלוני"
+     ],
+     "confidence": 1,
+     "why": "the answer is a short teaching",
+     "quotes_failed": false
+    },
+    {
+     "tag": "ethics-and-emotions:awe",
+     "scope": "span",
+     "quotes": [
+      "בכל העיירות היה רעש גדול"
+     ],
+     "confidence": 1,
+     "why": "communal alarm and reverence over the rebbe's illness",
+     "quotes_failed": false
+    }
+   ],
+   "missing_concepts": [
+    "illness of the tsaddik",
+    "tsaddik above nature (צדיק דלעילא / דלתתא)",
+    "doctors / medicine versus the tsaddik",
+    "chain of transmission through the tsaddik's grandsons"
+   ],
+   "start_quote_found": true,
+   "end_quote_found": true
+  }
+ ],
+ "check": {
+  "non_vocab_tags": [],
+  "quotes": 10,
+  "quotes_not_found": 0
+ },
+ "id": "Toldot-Haniflaot_0067",
+ "chars": 814,
+ "seconds": 14
+}

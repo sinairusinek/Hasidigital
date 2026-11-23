@@ -1,0 +1,99 @@
+{
+ "unit": {
+  "kind": "hasidic_story",
+  "why": "A brief anecdote: the Seer of Lublin praises a man to his face, sees his face change, and remarks that he lacks equanimity. The grandson then explains the remark, so the anecdote sits inside a teaching on hishtavut.",
+  "boundary_note": ""
+ },
+ "stories": [
+  {
+   "k": 1,
+   "start_quote": "כמו ששמעתי ממו״ר אא\"ק מהרי\"י מלובלין",
+   "end_quote": "וזהו ההשתוות האמת עכל״ק",
+   "hasidic": true,
+   "summary_en": "The Seer of Lublin tested a man by praising him to his face; seeing the man's face change, he said the man had not yet reached equanimity, and R. Moshe of Sambor explains that true equanimity means seeing oneself as nothing, untouched by praise or blame.",
+   "tags": [
+    {
+     "tag": "ethics-and-emotions:humility",
+     "scope": "span",
+     "quotes": [
+      "כשיהי׳ בעיני עצמו כאין מאפס ותהו נחשב"
+     ],
+     "confidence": 3,
+     "why": "true equanimity is defined as self-nullification",
+     "quotes_failed": false
+    },
+    {
+     "tag": "ethics-and-emotions:virtues",
+     "scope": "span",
+     "quotes": [
+      "עדיין אין לו השתוות",
+      "וזהו ההשתוות האמת עכל״ק"
+     ],
+     "confidence": 3,
+     "why": "the virtue of hishtavut (equanimity) is the subject",
+     "quotes_failed": false
+    },
+    {
+     "tag": "not-a-hasidic-story:sermon",
+     "scope": "story",
+     "quotes": [],
+     "confidence": 2,
+     "why": "a short anecdote wrapped in an exegetical explanation of the Hovot ha-Levavot concept",
+     "quotes_failed": false
+    },
+    {
+     "tag": "not-a-hasidic-story:virtues",
+     "scope": "story",
+     "quotes": [],
+     "confidence": 2,
+     "why": "the text is framed as instruction in the virtue of equanimity",
+     "quotes_failed": false
+    },
+    {
+     "tag": "ethics-and-emotions:pride",
+     "scope": "span",
+     "quotes": [
+      "שנתכרכמו פניו באמרו שבחו בפניו"
+     ],
+     "confidence": 1,
+     "why": "the man is affected by praise, the opposite of self-nullification",
+     "quotes_failed": false
+    },
+    {
+     "tag": "social:inter_hasidic_master_disciple_relationship",
+     "scope": "span",
+     "quotes": [
+      "ואמר לזה האיש בנענוע הראש"
+     ],
+     "confidence": 1,
+     "why": "the rebbe tests and judges a person's spiritual level",
+     "quotes_failed": false
+    },
+    {
+     "tag": "practice:sermon",
+     "scope": "span",
+     "quotes": [
+      "שענין ההשתוות המובא בחוה\"ל בשם החסיד"
+     ],
+     "confidence": 2,
+     "why": "the tsaddik's teaching interprets an earlier text",
+     "quotes_failed": false
+    }
+   ],
+   "missing_concepts": [
+    "equanimity (hishtavut) toward praise and blame",
+    "testing a person by praising him to his face"
+   ],
+   "start_quote_found": true,
+   "end_quote_found": true
+  }
+ ],
+ "check": {
+  "non_vocab_tags": [],
+  "quotes": 6,
+  "quotes_not_found": 0
+ },
+ "id": "Eser-Orot_0212",
+ "chars": 465,
+ "seconds": 13
+}

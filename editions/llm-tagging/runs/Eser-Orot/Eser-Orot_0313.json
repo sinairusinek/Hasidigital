@@ -1,0 +1,99 @@
+{
+ "unit": {
+  "kind": "hasidic_story",
+  "why": "A short memorate: R. Zvi Hirsch of Liska spends a Sabbath with the rebbe and describes watching him cleave to God during Shalom Aleichem and Kiddush.",
+  "boundary_note": "The closing words 'ממדריגותיו הנוראים.' look like a heading for the next division (ד)."
+ },
+ "stories": [
+  {
+   "k": 1,
+   "start_quote": "הרב הגאון הקדוש מופה\"ד מו\"ה צבי הירש",
+   "end_quote": "כלות נפשו ורוחו הקדוש אל חי החיים",
+   "hasidic": true,
+   "summary_en": "R. Zvi Hirsch of Liska spends a Sabbath with the rebbe and sees him, during Shalom Aleichem and Kiddush, yearning for God like a nursing infant longing for its mother's breast.",
+   "tags": [
+    {
+     "tag": "times:shabbat",
+     "scope": "span",
+     "quotes": [
+      "בבאו על ש\"ק להרה״ק מוהרא\"י הנ\"ל",
+      "בליל שבת שלום עליכם והקידוש"
+     ],
+     "confidence": 3,
+     "why": "The scene is Friday night.",
+     "quotes_failed": false
+    },
+    {
+     "tag": "practice:travel_to_other_tsaddik",
+     "scope": "span",
+     "quotes": [
+      "בבאו על ש\"ק להרה״ק מוהרא\"י הנ\"ל"
+     ],
+     "confidence": 3,
+     "why": "The rabbi of Liska, himself a tsaddik, comes to visit another tsaddik.",
+     "quotes_failed": false
+    },
+    {
+     "tag": "practice:devekut",
+     "scope": "span",
+     "quotes": [
+      "כלות נפשו ורוחו הקדוש אל חי החיים",
+      "מתגעגע וכוסף בכלות נפשו אליהם"
+     ],
+     "confidence": 3,
+     "why": "The rebbe is shown in rapt longing for God.",
+     "quotes_failed": false
+    },
+    {
+     "tag": "experience:devekut",
+     "scope": "span",
+     "quotes": [
+      "כלות נפשו ורוחו הקדוש אל חי החיים"
+     ],
+     "confidence": 3,
+     "why": "Mystical cleaving is described.",
+     "quotes_failed": false
+    },
+    {
+     "tag": "practice:prayer",
+     "scope": "span",
+     "quotes": [
+      "בעת שאמר בליל שבת שלום עליכם והקידוש"
+     ],
+     "confidence": 2,
+     "why": "He recites the Sabbath-eve liturgy (Shalom Aleichem, Kiddush).",
+     "quotes_failed": false
+    },
+    {
+     "tag": "folkloristics:story_type_virtues",
+     "scope": "story",
+     "quotes": [],
+     "confidence": 2,
+     "why": "The point is to praise the rebbe's devotion.",
+     "quotes_failed": false
+    },
+    {
+     "tag": "social:inter_hasidic",
+     "scope": "story",
+     "quotes": [],
+     "confidence": 1,
+     "why": "One tsaddik visits and observes another.",
+     "quotes_failed": false
+    }
+   ],
+   "missing_concepts": [
+    "eyewitness testimony of one tsaddik about another"
+   ],
+   "start_quote_found": true,
+   "end_quote_found": true
+  }
+ ],
+ "check": {
+  "non_vocab_tags": [],
+  "quotes": 7,
+  "quotes_not_found": 0
+ },
+ "id": "Eser-Orot_0313",
+ "chars": 347,
+ "seconds": 13
+}

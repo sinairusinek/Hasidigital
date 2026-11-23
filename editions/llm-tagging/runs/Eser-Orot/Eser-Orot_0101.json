@@ -1,0 +1,101 @@
+{
+ "unit": {
+  "kind": "hasidic_story",
+  "why": "A short narrative about the wedding of Rebbetzin Reizel and R. Shalom Yosef of Ruzhin, where R. Itzikl of Radzivil delays the huppah until his late father, the Maggid, arrives from the Garden of Eden.",
+  "boundary_note": "division opens with a genealogical introduction of R. Yitzhak of Buhusz; it ends with a section heading ('חידושים ומאמרים מתוקים ממנו הקדוש') that introduces the next division's teachings"
+ },
+ "stories": [
+  {
+   "k": 1,
+   "start_quote": "הנה נודע ומפורסם כי בעת הי' הנישואין",
+   "end_quote": "אביו הק׳ מן גן עדנו הנה בא",
+   "hasidic": true,
+   "summary_en": "At the wedding of R. Itzikl of Radzivil's granddaughter Reizel to the son of R. Israel of Ruzhin, R. Itzikl refuses to begin the huppah, though the Ruzhiner urges him that the day is passing, until he sees his late father, the holy Maggid, come from the Garden of Eden to attend.",
+   "tags": [
+    {
+     "tag": "social:marriage",
+     "scope": "story",
+     "quotes": [],
+     "confidence": 3,
+     "why": "the wedding and huppah frame the whole tale",
+     "quotes_failed": false
+    },
+    {
+     "tag": "characters-and-roles:the_family_of_the_tsaddik",
+     "scope": "span",
+     "quotes": [
+      "עם בעלה הרה״ק מו\"ה שלום יוסף זצ\"ל בנו",
+      "עד אשר אביו המגיד הקדוש יבא אל החופה"
+     ],
+     "confidence": 3,
+     "why": "the tzaddikim's children, grandchildren and deceased father are central",
+     "quotes_failed": false
+    },
+    {
+     "tag": "supernatural:perception",
+     "scope": "span",
+     "quotes": [
+      "ולע״ע אינו רואהו",
+      "כי עתה גם אביו הק׳ מן גן עדנו הנה בא"
+     ],
+     "confidence": 3,
+     "why": "R. Itzikl perceives his deceased father's soul arriving",
+     "quotes_failed": false
+    },
+    {
+     "tag": "experience:visions",
+     "scope": "span",
+     "quotes": [
+      "ולע״ע אינו רואהו"
+     ],
+     "confidence": 2,
+     "why": "he waits to see his late father in a waking vision",
+     "quotes_failed": false
+    },
+    {
+     "tag": "supernatural:communicating_with_the_invisible",
+     "scope": "span",
+     "quotes": [
+      "אביו הק׳ מן גן עדנו הנה בא"
+     ],
+     "confidence": 2,
+     "why": "presence of a departed soul at the wedding",
+     "quotes_failed": false
+    },
+    {
+     "tag": "social:inter_hasidic",
+     "scope": "span",
+     "quotes": [
+      "ושלח למחותנו הרב ר׳ איציקל הנז׳ כי יעבור היום"
+     ],
+     "confidence": 2,
+     "why": "the two tzaddikim interact as in-laws over the timing",
+     "quotes_failed": false
+    },
+    {
+     "tag": "women:mention_only",
+     "scope": "span",
+     "quotes": [
+      "הנישואין של הרבנות מרת ריזיל הנ\"ל"
+     ],
+     "confidence": 2,
+     "why": "the bride Reizel is named but does not act",
+     "quotes_failed": false
+    }
+   ],
+   "missing_concepts": [
+    "deceased ancestors attending a wedding (souls of the dead at a simcha)"
+   ],
+   "start_quote_found": true,
+   "end_quote_found": true
+  }
+ ],
+ "check": {
+  "non_vocab_tags": [],
+  "quotes": 8,
+  "quotes_not_found": 0
+ },
+ "id": "Eser-Orot_0101",
+ "chars": 560,
+ "seconds": 14
+}

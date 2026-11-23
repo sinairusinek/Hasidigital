@@ -1,0 +1,80 @@
+{
+ "unit": {
+  "kind": "hasidic_story",
+  "why": "A short anecdote: on hearing of R. Aharon of Zhitomir's death and burial in Hungary, the Berditchever travels there to 'purify the air'.",
+  "boundary_note": ""
+ },
+ "stories": [
+  {
+   "k": 1,
+   "start_quote": "כאשר שמע הרב מבארדיטשוב כי הרה״ק",
+   "end_quote": "לטהר את האויר כי שם מת אהרן",
+   "hasidic": true,
+   "summary_en": "When R. Levi Yitzhak of Berditchev heard that R. Aharon of Zhitomir (author of Toldot Aharon) had died and been buried in Királyhida, Hungary, he travelled to Hungary, saying he must purify the air there because Aharon died there.",
+   "tags": [
+    {
+     "tag": "times:death",
+     "scope": "span",
+     "quotes": [
+      "בעל תולדות אהרן מזיטאמר נפטר ונטמן באונגארין"
+     ],
+     "confidence": 3,
+     "why": "the tzaddik's death and burial trigger the story",
+     "quotes_failed": false
+    },
+    {
+     "tag": "practice:the_travels_of_the_tsaddik",
+     "scope": "span",
+     "quotes": [
+      "נסע הרב מבא״ד לאונגארין"
+     ],
+     "confidence": 3,
+     "why": "the Berditchever's journey is the whole event",
+     "quotes_failed": false
+    },
+    {
+     "tag": "practice:pilgrimage_to_the_graves_of_tsaddikim",
+     "scope": "span",
+     "quotes": [
+      "נפטר ונטמן באונגארין עיר קראלע"
+     ],
+     "confidence": 2,
+     "why": "he travels to the place where the tzaddik is buried",
+     "quotes_failed": false
+    },
+    {
+     "tag": "social:inter_hasidic",
+     "scope": "story",
+     "quotes": [],
+     "confidence": 2,
+     "why": "relationship between two tzaddikim",
+     "quotes_failed": false
+    },
+    {
+     "tag": "practice:torat_ha_tsaddik",
+     "scope": "span",
+     "quotes": [
+      "מוכרח אני לנסוע לאונגארין לטהר את האויר"
+     ],
+     "confidence": 1,
+     "why": "the tzaddik's power to purify a place",
+     "quotes_failed": false
+    }
+   ],
+   "missing_concepts": [
+    "purifying the air / sanctifying a place",
+    "a tzaddik dying in exile, far from home"
+   ],
+   "start_quote_found": true,
+   "end_quote_found": true
+  }
+ ],
+ "check": {
+  "non_vocab_tags": [],
+  "quotes": 4,
+  "quotes_not_found": 0
+ },
+ "id": "Eser-Orot_0060",
+ "chars": 182,
+ "seconds": 10
+}

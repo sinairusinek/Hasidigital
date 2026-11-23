@@ -1,0 +1,108 @@
+{
+ "unit": {
+  "kind": "hasidic_story",
+  "why": "A short memorate: R. Hillel of Radoshitz recounts what he saw when he spent a Sabbath with the rebbe of Mogielnica, who chanted a Sabbath hymn line in fervor while his face changed colors.",
+  "boundary_note": ""
+ },
+ "stories": [
+  {
+   "k": 1,
+   "start_quote": "סיפר הרב הקדוש ר' הלל שליט״א מראדשיץ",
+   "end_quote": "משתנה בכל רגע ורגע לגוונים שונים.",
+   "hasidic": true,
+   "summary_en": "R. Hillel of Radoshitz recounts that on a Sabbath with R. Hayyim of Mogielnica he saw the rebbe repeat the hymn line 'ישדר לן שופריה' many times in tremendous fervor, his countenance changing colors at every moment.",
+   "tags": [
+    {
+     "tag": "times:shabbat",
+     "scope": "story",
+     "quotes": [],
+     "confidence": 3,
+     "why": "The scene takes place on a Sabbath with the rebbe.",
+     "quotes_failed": false
+    },
+    {
+     "tag": "experience:enthusiasm",
+     "scope": "span",
+     "quotes": [
+      "כמה וכמה פעמים בהתלהבות עצום נורא מאד"
+     ],
+     "confidence": 3,
+     "why": "The text explicitly describes hitlahavut.",
+     "quotes_failed": false
+    },
+    {
+     "tag": "practice:music",
+     "scope": "span",
+     "quotes": [
+      "ישדר לן שופרי׳ ונחזי ביקרי׳ ויחזי לן סתרי"
+     ],
+     "confidence": 2,
+     "why": "He chants a line of a Sabbath hymn (zemer).",
+     "quotes_failed": false
+    },
+    {
+     "tag": "practice:devekut",
+     "scope": "span",
+     "quotes": [
+      "בהתלהבות עצום נורא מאד וזיו פניו"
+     ],
+     "confidence": 2,
+     "why": "Rapt, ecstatic worship at the Sabbath table.",
+     "quotes_failed": false
+    },
+    {
+     "tag": "supernatural:light_or_fire_as_a_sign_of_righteousness",
+     "scope": "span",
+     "quotes": [
+      "וזיו פניו הי' משתנה בכל רגע ורגע לגוונים שונים"
+     ],
+     "confidence": 1,
+     "why": "His radiant face changes colors, a possible sign of holiness.",
+     "quotes_failed": false
+    },
+    {
+     "tag": "practice:travel_to_the_tsaddik",
+     "scope": "span",
+     "quotes": [
+      "שבהיותו בש\"ק אצל רבינו הקדוש ממאגליניצא"
+     ],
+     "confidence": 2,
+     "why": "R. Hillel spends a Sabbath at the rebbe's.",
+     "quotes_failed": false
+    },
+    {
+     "tag": "practice:storytelling",
+     "scope": "span",
+     "quotes": [
+      "סיפר הרב הקדוש ר' הלל שליט״א מראדשיץ"
+     ],
+     "confidence": 1,
+     "why": "The text frames the account as told by a named tsaddik.",
+     "quotes_failed": false
+    },
+    {
+     "tag": "folkloristics:story_type_virtues",
+     "scope": "story",
+     "quotes": [],
+     "confidence": 1,
+     "why": "The anecdote illustrates the rebbe's fervent holiness.",
+     "quotes_failed": false
+    }
+   ],
+   "missing_concepts": [
+    "Sabbath table hymns (zemirot) of the Ari, Azamer bi-shevahin",
+    "change of facial color / countenance in ecstasy"
+   ],
+   "start_quote_found": true,
+   "end_quote_found": true
+  }
+ ],
+ "check": {
+  "non_vocab_tags": [],
+  "quotes": 6,
+  "quotes_not_found": 0
+ },
+ "id": "Tiferet-Hayyim_0006",
+ "chars": 233,
+ "seconds": 15
+}

@@ -1,0 +1,99 @@
+{
+ "unit": {
+  "kind": "non_hasidic_story",
+  "why": "A brief anecdote, quoted from an earlier book, about an unnamed gaon who posed a dream question about when the Messiah will come and got an answer in a dream. It sits inside a homiletic discussion of messianic timing.",
+  "boundary_note": "part of a running anthology of messianic-calculation excerpts; previous and next divisions are similar quotations"
+ },
+ "stories": [
+  {
+   "k": 1,
+   "start_quote": "ושמעתי שגאון אחד עשה שאלת חלום",
+   "end_quote": "שמשיח יבוא קודם סיום אלף הששי",
+   "hasidic": false,
+   "summary_en": "A gaon asks in a dream when the Messiah will come and is answered with the verse 'אמר אויב ארדוף אשיג אחלק שלל', whose five alef-initial words allude to five thousand years; this is taken as proof that the Messiah will come before the end of the sixth millennium.",
+   "tags": [
+    {
+     "tag": "experience:dream",
+     "scope": "span",
+     "quotes": [
+      "עשה שאלת חלום על זמן ביאת המשיח",
+      "והשיבו לו בחלום"
+     ],
+     "confidence": 3,
+     "why": "the answer comes through a dream question",
+     "quotes_failed": false
+    },
+    {
+     "tag": "characters-and-roles:messiah",
+     "scope": "span",
+     "quotes": [
+      "על זמן ביאת המשיח"
+     ],
+     "confidence": 3,
+     "why": "the time of the Messiah's coming is the subject",
+     "quotes_failed": false
+    },
+    {
+     "tag": "times:eschatology",
+     "scope": "story",
+     "quotes": [],
+     "confidence": 3,
+     "why": "calculation of the end of days",
+     "quotes_failed": false
+    },
+    {
+     "tag": "experience:revelation",
+     "scope": "span",
+     "quotes": [
+      "והשיבו לו בחלום אמר אויב ארדוף"
+     ],
+     "confidence": 2,
+     "why": "heavenly disclosure of a hidden date",
+     "quotes_failed": false
+    },
+    {
+     "tag": "supernatural:communicating_with_the_invisible",
+     "scope": "span",
+     "quotes": [
+      "והשיבו לו בחלום"
+     ],
+     "confidence": 2,
+     "why": "unseen respondents answer his dream question",
+     "quotes_failed": false
+    },
+    {
+     "tag": "not-a-hasidic-story:sermon",
+     "scope": "story",
+     "quotes": [],
+     "confidence": 3,
+     "why": "the anecdote serves as proof in a homiletic and gematria argument",
+     "quotes_failed": false
+    },
+    {
+     "tag": "knowledge:esoteric",
+     "scope": "span",
+     "quotes": [
+      "והשנים שבאלף הששי לא גלו לו"
+     ],
+     "confidence": 1,
+     "why": "hidden knowledge of the end, partly withheld",
+     "quotes_failed": false
+    }
+   ],
+   "missing_concepts": [
+    "dream question (she'elat halom) as a technique",
+    "messianic calculation / gematria of the end (ketz)"
+   ],
+   "start_quote_found": true,
+   "end_quote_found": true
+  }
+ ],
+ "check": {
+  "non_vocab_tags": [],
+  "quotes": 6,
+  "quotes_not_found": 0
+ },
+ "id": "Derech-Haemuna_0154",
+ "chars": 258,
+ "seconds": 13
+}

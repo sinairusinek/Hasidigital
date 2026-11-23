@@ -1,0 +1,166 @@
+{
+ "unit": {
+  "kind": "several_stories",
+  "why": "An ethical teaching on shunning honour, quoted from an earlier book, wraps two short anecdotes: the Baal Haflaah's reception in Frankfurt and the Besht being honoured in a town.",
+  "boundary_note": "part of a continuing ethical discourse on honour that runs from the previous division into the next"
+ },
+ "stories": [
+  {
+   "k": 1,
+   "start_quote": "וסיפרו כשקבלו את הג׳ בעל הפלא״ה",
+   "end_quote": "וכל העם מלוים אותו",
+   "hasidic": false,
+   "summary_en": "When the author of Haflaah was received as rabbi of Frankfurt with great honour, he said he imagined himself being carried on a bier to the cemetery with all the people escorting him.",
+   "tags": [
+    {
+     "tag": "ethics-and-emotions:humility",
+     "scope": "span",
+     "quotes": [
+      "שדומה בנפשו שנושאים אותו במטה לבית החיים"
+     ],
+     "confidence": 3,
+     "why": "he deflates the honour by thinking of death",
+     "quotes_failed": false
+    },
+    {
+     "tag": "not-a-hasidic-story:hagiography",
+     "scope": "story",
+     "quotes": [],
+     "confidence": 2,
+     "why": "praises a rabbinic authority, the Baal Haflaah of Frankfurt",
+     "quotes_failed": false
+    },
+    {
+     "tag": "not-a-hasidic-story:virtues",
+     "scope": "story",
+     "quotes": [],
+     "confidence": 3,
+     "why": "framed as instruction to flee honour",
+     "quotes_failed": false
+    },
+    {
+     "tag": "not-a-hasidic-story:sermon",
+     "scope": "story",
+     "quotes": [],
+     "confidence": 2,
+     "why": "embedded in an ethical discourse",
+     "quotes_failed": false
+    },
+    {
+     "tag": "ethics-and-emotions:pride",
+     "scope": "span",
+     "quotes": [
+      "כבוד שלא לחמוד כבוד ואדרבה להתרחק מן הכבוד"
+     ],
+     "confidence": 2,
+     "why": "seeking honour is the failing being warned against",
+     "quotes_failed": false
+    },
+    {
+     "tag": "times:death",
+     "scope": "span",
+     "quotes": [
+      "שנושאים אותו במטה לבית החיים"
+     ],
+     "confidence": 1,
+     "why": "death is imagined, not depicted",
+     "quotes_failed": false
+    }
+   ],
+   "missing_concepts": [
+    "honour (kavod) and fleeing from honour",
+    "appointment of a communal rabbi"
+   ],
+   "start_quote_found": true,
+   "end_quote_found": true
+  },
+  {
+   "k": 2,
+   "start_quote": "ופ״א בא הבעש״ט למקום א׳",
+   "end_quote": "שהביאו אותו לידי תשובה",
+   "hasidic": true,
+   "summary_en": "The Besht, greatly honoured in a town, taught that honour brings heavenly scrutiny of one's deeds, but a wise person turns it into self-examination and repentance.",
+   "tags": [
+    {
+     "tag": "ethics-and-emotions:humility",
+     "scope": "story",
+     "quotes": [],
+     "confidence": 3,
+     "why": "the lesson is about receiving honour humbly",
+     "quotes_failed": false
+    },
+    {
+     "tag": "ethics-and-emotions:repentance",
+     "scope": "span",
+     "quotes": [
+      "מיד כשמכבדים אותו מהרהר בתשובה",
+      "שהביאו אותו לידי תשובה"
+     ],
+     "confidence": 3,
+     "why": "honour as a prompt to repent",
+     "quotes_failed": false
+    },
+    {
+     "tag": "practice:sermon",
+     "scope": "span",
+     "quotes": [
+      "ואמר להם הבעש״ט תדעו כי כשמכבדים"
+     ],
+     "confidence": 2,
+     "why": "the Besht's teaching is quoted",
+     "quotes_failed": false
+    },
+    {
+     "tag": "not-a-hasidic-story:sermon",
+     "scope": "story",
+     "quotes": [],
+     "confidence": 3,
+     "why": "mostly a teaching, with only a thin narrative",
+     "quotes_failed": false
+    },
+    {
+     "tag": "not-a-hasidic-story:virtues",
+     "scope": "story",
+     "quotes": [],
+     "confidence": 3,
+     "why": "moral instruction on honour, addressed to 'my dear sons'",
+     "quotes_failed": false
+    },
+    {
+     "tag": "practice:the_travels_of_the_tsaddik",
+     "scope": "span",
+     "quotes": [
+      "ופ״א בא הבעש״ט למקום א׳"
+     ],
+     "confidence": 1,
+     "why": "the Besht arrives at a place, but only in passing",
+     "quotes_failed": false
+    },
+    {
+     "tag": "spaces:heaven",
+     "scope": "span",
+     "quotes": [
+      "מפשפשים במעשיו בעולם העליון"
+     ],
+     "confidence": 1,
+     "why": "heavenly judgement is mentioned, not used as a setting",
+     "quotes_failed": false
+    }
+   ],
+   "missing_concepts": [
+    "honour (kavod) and its spiritual danger",
+    "equanimity (hishtavut)"
+   ],
+   "start_quote_found": true,
+   "end_quote_found": true
+  }
+ ],
+ "check": {
+  "non_vocab_tags": [],
+  "quotes": 8,
+  "quotes_not_found": 0
+ },
+ "id": "Derech-Haemuna_0119",
+ "chars": 837,
+ "seconds": 17
+}

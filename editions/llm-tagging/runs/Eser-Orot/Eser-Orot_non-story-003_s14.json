@@ -1,0 +1,68 @@
+{
+ "unit": {
+  "kind": "hasidic_story",
+  "why": "split out of non-story-003 (non-story)"
+ },
+ "stories": [
+  {
+   "k": 14,
+   "start_quote": "שרבי אחר פטירתו בא לביתו בכל ערב שבת",
+   "end_quote": "שלא להוציא לעז על צדיקים הראשונים",
+   "hasidic": false,
+   "summary_en": "After his death Rabbi comes home every Sabbath eve, and stops once a neighbour learns of it.",
+   "tags": [
+    {
+     "tag": "times:shabbat",
+     "scope": "story",
+     "quotes": [],
+     "confidence": 3,
+     "why": "Sabbath eve",
+     "quotes_failed": false
+    },
+    {
+     "tag": "supernatural:communicating_with_the_invisible",
+     "scope": "span",
+     "quotes": [
+      "שרבי אחר פטירתו בא לביתו"
+     ],
+     "confidence": 2,
+     "why": "the dead return",
+     "quotes_failed": false
+    },
+    {
+     "tag": "women:minor_character",
+     "scope": "span",
+     "quotes": [
+      "אמרה שפחה של רבי אליה שתוק"
+     ],
+     "confidence": 3,
+     "why": "neighbour and maid",
+     "quotes_failed": false
+    },
+    {
+     "tag": "ethics-and-emotions:humility",
+     "scope": "span",
+     "quotes": [
+      "שלא להוציא לעז על צדיקים הראשונים"
+     ],
+     "confidence": 1,
+     "why": "concern for earlier sages",
+     "quotes_failed": false
+    },
+    {
+     "tag": "not-a-hasidic-story:hagiography",
+     "scope": "story",
+     "quotes": [],
+     "confidence": 3,
+     "why": "talmudic",
+     "quotes_failed": false
+    }
+   ],
+   "missing_concepts": [],
+   "start_quote_found": true,
+   "end_quote_found": true
+  }
+ ],
+ "id": "Eser-Orot_non-story-003_s14",
+ "split_from": "non-story-003"
+}

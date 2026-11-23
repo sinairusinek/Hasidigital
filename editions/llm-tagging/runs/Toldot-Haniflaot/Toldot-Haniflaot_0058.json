@@ -1,0 +1,113 @@
+{
+ "unit": {
+  "kind": "hasidic_story",
+  "why": "A short introduction to the tsaddik's holy spirit followed by one anecdote: he answered R' Emanuel's unspoken question about drinking wine.",
+  "boundary_note": ""
+ },
+ "stories": [
+  {
+   "k": 1,
+   "start_quote": "נודע ג״כ כי היה בעל רוה\"ק גדול",
+   "end_quote": "בפירוש כאלו היה שואל אותו",
+   "hasidic": true,
+   "summary_en": "R' Emanuel of Przedbórz came to the rebbe in Mogielnica meaning to ask him privately whether he should drink wine; at the Friday-night meal wine was unusually set on the table, and the rebbe gave him wine and answered his whole question explicitly, as if he had asked.",
+   "tags": [
+    {
+     "tag": "supernatural:perception",
+     "scope": "span",
+     "quotes": [
+      "נודע ג״כ כי היה בעל רוה\"ק גדול",
+      "ואמר לו כל התשובה בפירוש כאלו היה שואל אותו"
+     ],
+     "confidence": 3,
+     "why": "The rebbe knows the unspoken question through ruach ha-kodesh.",
+     "quotes_failed": false
+    },
+    {
+     "tag": "practice:drinking_alcohol",
+     "scope": "span",
+     "quotes": [
+      "אם ישתה יין כי היה לו איזה ענין ספק",
+      "אבל באמת נתן לו יין"
+     ],
+     "confidence": 3,
+     "why": "Drinking wine is the subject of the question and of the rebbe's act.",
+     "quotes_failed": false
+    },
+    {
+     "tag": "practice:travel_to_the_tsaddik",
+     "scope": "span",
+     "quotes": [
+      "פ״א בא למאגלניצא והיה בדעתו לשאול אותו"
+     ],
+     "confidence": 3,
+     "why": "The disciple travels to the rebbe's court to bring a question.",
+     "quotes_failed": false
+    },
+    {
+     "tag": "times:shabbat",
+     "scope": "span",
+     "quotes": [
+      "ובסעודת ע״ש לא היו רגילים להעמיד יין"
+     ],
+     "confidence": 3,
+     "why": "The scene is the Friday-night meal.",
+     "quotes_failed": false
+    },
+    {
+     "tag": "social:inter_hasidic_master_disciple_relationship",
+     "scope": "span",
+     "quotes": [
+      "מהה״צ ר׳ עמנואל ז״ל מפרשעדבורז תלמיד מרן ז״ל"
+     ],
+     "confidence": 2,
+     "why": "The disciple seeks his master's guidance.",
+     "quotes_failed": false
+    },
+    {
+     "tag": "practice:storytelling",
+     "scope": "span",
+     "quotes": [
+      "סיפר הרב החסיד ר׳ מאטיל הרב דגאוורטשוב",
+      "שהיה מספר כי פ״א בא"
+     ],
+     "confidence": 2,
+     "why": "The tale is framed as passed on by named hasidim.",
+     "quotes_failed": false
+    },
+    {
+     "tag": "spaces:institutions_hassidic_court",
+     "scope": "span",
+     "quotes": [
+      "שרגיל לסעוד עם אנשיו החסידים"
+     ],
+     "confidence": 2,
+     "why": "The action takes place at the rebbe's table with his hasidim at court.",
+     "quotes_failed": false
+    },
+    {
+     "tag": "folkloristics:story_type_virtues",
+     "scope": "story",
+     "quotes": [],
+     "confidence": 1,
+     "why": "The story is offered as an example of the rebbe's great holy spirit.",
+     "quotes_failed": false
+    }
+   ],
+   "missing_concepts": [
+    "answering an unspoken question (mind-reading)",
+    "the tsaddik's table (tish) and handing out food or wine from it"
+   ],
+   "start_quote_found": true,
+   "end_quote_found": true
+  }
+ ],
+ "check": {
+  "non_vocab_tags": [],
+  "quotes": 10,
+  "quotes_not_found": 0
+ },
+ "id": "Toldot-Haniflaot_0058",
+ "chars": 583,
+ "seconds": 15
+}

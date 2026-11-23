@@ -1,0 +1,102 @@
+{
+ "unit": {
+  "kind": "non_hasidic_story",
+  "why": "A short legend about the posthumous honour of the pre-Hasidic sage R. Yoel Sirkes (the Bach): the heavenly court asks him to preach and he asks that Gehinnom be cooled for thirty days. It comes via a Hasidic chain of transmission and has a parenthetical supporting anecdote about a possessing spirit.",
+  "boundary_note": "Continues the theme of the previous division (the Besht's dream about the Bach and Gehinnom being cooled); ends with the section heading 'מענין בית המדרש' that belongs to the next division"
+ },
+ "stories": [
+  {
+   "k": 1,
+   "start_quote": "ובהקדמת ס׳ שער הגלגולים החדש וז״ל",
+   "end_quote": "פנו מקום לר׳ יואל סירקש מקראקא",
+   "hasidic": false,
+   "summary_en": "When the Bach died, the heavenly court honoured him by asking him to preach, and he agreed only if Gehinnom were cooled for thirty days so the wicked would not be judged. A spirit that possessed a man later reported that a herald in heaven proclaimed 'make room for R. Yoel Sirkes of Krakow'.",
+   "tags": [
+    {
+     "tag": "not-a-hasidic-story:hagiography",
+     "scope": "story",
+     "quotes": [],
+     "confidence": 3,
+     "why": "Praises the heavenly standing of the Bach, a pre-Hasidic rabbinic authority, citing earlier books",
+     "quotes_failed": false
+    },
+    {
+     "tag": "spaces:heaven",
+     "scope": "span",
+     "quotes": [
+      "כיבדו אותו ב״ד של מעלה בדרשה",
+      "כאשר עלה נשמת הב״ח זל״ה השמימה"
+     ],
+     "confidence": 3,
+     "why": "The action takes place in the heavenly court",
+     "quotes_failed": false
+    },
+    {
+     "tag": "spaces:hell",
+     "scope": "span",
+     "quotes": [
+      "שיצננו הגהינם ל׳ יום כדי שלא ידונו הרשעים"
+     ],
+     "confidence": 2,
+     "why": "Gehinnom and the judgment of the wicked are part of the plot",
+     "quotes_failed": false
+    },
+    {
+     "tag": "times:death",
+     "scope": "span",
+     "quotes": [
+      "בעת שהרב בעל הב״ח זל\"ה נפטר לעולמו"
+     ],
+     "confidence": 3,
+     "why": "The Bach's death frames the story",
+     "quotes_failed": false
+    },
+    {
+     "tag": "practice:sermon",
+     "scope": "span",
+     "quotes": [
+      "כיבדו אותו ב״ד של מעלה בדרשה"
+     ],
+     "confidence": 2,
+     "why": "He is honoured with delivering a heavenly homily",
+     "quotes_failed": false
+    },
+    {
+     "tag": "supernatural:communicating_with_the_invisible",
+     "scope": "span",
+     "quotes": [
+      "רוח אחד נתגלה באיש א׳ והרוח בתוך דבריו"
+     ],
+     "confidence": 2,
+     "why": "A spirit speaks through a man and reports a heavenly proclamation",
+     "quotes_failed": false
+    },
+    {
+     "tag": "practice:storytelling",
+     "scope": "span",
+     "quotes": [
+      "וכן שמעתי מא״א הה״ק ר״ש מראדאמסק זל\"ה"
+     ],
+     "confidence": 1,
+     "why": "Tale passed orally through named Hasidic masters",
+     "quotes_failed": false
+    }
+   ],
+   "missing_concepts": [
+    "spirit possession (dibbuk)",
+    "posthumous fate and honour of a sage's soul",
+    "cooling of Gehinnom / respite for the wicked"
+   ],
+   "start_quote_found": true,
+   "end_quote_found": true
+  }
+ ],
+ "check": {
+  "non_vocab_tags": [],
+  "quotes": 7,
+  "quotes_not_found": 0
+ },
+ "id": "Derech-Haemuna_0024",
+ "chars": 506,
+ "seconds": 19
+}

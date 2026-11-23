@@ -1,0 +1,118 @@
+{
+ "unit": {
+  "kind": "hasidic_story",
+  "why": "A short anecdote: the Berditchever predicts that he can support his grandson's couple for only four years, and he dies on the last day of that period.",
+  "boundary_note": ""
+ },
+ "stories": [
+  {
+   "k": 1,
+   "start_quote": "עוד סיפר הרה״ח מכעסכיז כי כאשר",
+   "end_quote": "ביום האחרון נסתלק הבארדיטשובר :",
+   "hasidic": true,
+   "summary_en": "The rabbi of Nesukhoyezhe tells that when he married the Berditchever's grandchild, the Berditchever insisted he could support the couple for no more than four years, and he died on the last day of those four years.",
+   "tags": [
+    {
+     "tag": "folkloristics:story_type_prognostication",
+     "scope": "story",
+     "quotes": [],
+     "confidence": 3,
+     "why": "The narrative arc is a prediction that comes true.",
+     "quotes_failed": false
+    },
+    {
+     "tag": "supernatural:prognostication",
+     "scope": "span",
+     "quotes": [
+      "שאינו יכול להבטיח מזונות להזוג יותר מן ארבעה שנים"
+     ],
+     "confidence": 3,
+     "why": "He foresees the limit of his life.",
+     "quotes_failed": false
+    },
+    {
+     "tag": "times:death",
+     "scope": "span",
+     "quotes": [
+      "ביום האחרון נסתלק הבארדיטשובר"
+     ],
+     "confidence": 3,
+     "why": "The tzaddik's death is the story's climax.",
+     "quotes_failed": false
+    },
+    {
+     "tag": "social:marriage",
+     "scope": "span",
+     "quotes": [
+      "כאשר הי׳ נשוי את נכדו של הבארדיטשובר"
+     ],
+     "confidence": 2,
+     "why": "The marriage and the support promised to the couple (kest) frame the story.",
+     "quotes_failed": false
+    },
+    {
+     "tag": "characters-and-roles:the_family_of_the_tsaddik",
+     "scope": "span",
+     "quotes": [
+      "נכדו של הבארדיטשובר"
+     ],
+     "confidence": 2,
+     "why": "The tzaddik's grandchild and grandchild-in-law are involved.",
+     "quotes_failed": false
+    },
+    {
+     "tag": "practice:storytelling",
+     "scope": "span",
+     "quotes": [
+      "עוד סיפר הרה״ח מכעסכיז"
+     ],
+     "confidence": 2,
+     "why": "The story is framed as told by a named tzaddik.",
+     "quotes_failed": false
+    },
+    {
+     "tag": "social:retrospective_recognition",
+     "scope": "span",
+     "quotes": [
+      "והי' אז לפלא. אבל לבסוף"
+     ],
+     "confidence": 2,
+     "why": "The puzzling insistence is understood only after his death.",
+     "quotes_failed": false
+    },
+    {
+     "tag": "folkloristics:story_type_death_of_the_tsaddik",
+     "scope": "story",
+     "quotes": [],
+     "confidence": 1,
+     "why": "The story ends with the death of the tzaddik, though the focus is the prediction.",
+     "quotes_failed": false
+    },
+    {
+     "tag": "women:mention_only",
+     "scope": "span",
+     "quotes": [
+      "להבטיח מזונות להזוג"
+     ],
+     "confidence": 1,
+     "why": "The bride is implied in 'the couple' but does not act.",
+     "quotes_failed": false
+    }
+   ],
+   "missing_concepts": [
+    "kest (support of a newly married couple by the in-laws)",
+    "foreknowledge of one's own death"
+   ],
+   "start_quote_found": true,
+   "end_quote_found": true
+  }
+ ],
+ "check": {
+  "non_vocab_tags": [],
+  "quotes": 7,
+  "quotes_not_found": 0
+ },
+ "id": "Eser-Orot_0075",
+ "chars": 258,
+ "seconds": 11
+}

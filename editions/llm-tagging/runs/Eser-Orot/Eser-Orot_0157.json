@@ -1,0 +1,173 @@
+{
+ "unit": {
+  "kind": "several_stories",
+  "why": "Two brief anecdotes in which different petitioners ask the Maggid (of Kozhenitz) for a remedy against sinful thoughts and he gives each a holy-name segulah; they have minimal narrative and are close to teaching.",
+  "boundary_note": "Previous division ends with a header 'משיחותיו ותורותיו הקדושים'; this section opens a sayings section, so the anecdotes are borderline sayings."
+ },
+ "stories": [
+  {
+   "k": 1,
+   "start_quote": "בספר ברכת אברהם דט״ו הביא כי",
+   "end_quote": "של שם גדשנא״ל המסוגל לזה",
+   "hasidic": true,
+   "summary_en": "A man asks the holy Maggid for a segulah against evil thoughts. The Maggid tells him to address his Evil Inclination with a Yiddish phrase whose initials form the holy name גדשנא\"ל.",
+   "tags": [
+    {
+     "tag": "practice:coping_with_alien_thoughts",
+     "scope": "span",
+     "quotes": [
+      "ביקש סגולה להנצל מהרהורים רעים"
+     ],
+     "confidence": 3,
+     "why": "remedy against bad thoughts",
+     "quotes_failed": false
+    },
+    {
+     "tag": "practice:use_of_holy_names",
+     "scope": "span",
+     "quotes": [
+      "והוא ר\"ת של שם גדשנא״ל המסוגל לזה"
+     ],
+     "confidence": 3,
+     "why": "name acronym used as segulah",
+     "quotes_failed": false
+    },
+    {
+     "tag": "ethics-and-emotions:lust",
+     "scope": "span",
+     "quotes": [
+      "להנצל מהרהורים רעים"
+     ],
+     "confidence": 2,
+     "why": "sinful (sexual) thoughts",
+     "quotes_failed": false
+    },
+    {
+     "tag": "practice:reception_of_hasidim",
+     "scope": "span",
+     "quotes": [
+      "בא לפניו אחד שביקש סגולה"
+     ],
+     "confidence": 2,
+     "why": "petitioner received by the Maggid",
+     "quotes_failed": false
+    },
+    {
+     "tag": "practice:torat_ha_tsaddik",
+     "scope": "story",
+     "quotes": [],
+     "confidence": 1,
+     "why": "the tzaddik is the source of the remedy",
+     "quotes_failed": false
+    },
+    {
+     "tag": "not-a-hasidic-story:sermon",
+     "scope": "story",
+     "quotes": [],
+     "confidence": 2,
+     "why": "mostly an explanation of a segulah",
+     "quotes_failed": false
+    }
+   ],
+   "missing_concepts": [
+    "segulah (spiritual remedy)",
+    "Yiddish formula addressed to the Evil Inclination",
+    "citation from an earlier book (Birkat Avraham)"
+   ],
+   "start_quote_found": true,
+   "end_quote_found": true
+  },
+  {
+   "k": 2,
+   "start_quote": "וחייט אחד תופר מלבושי נשים",
+   "end_quote": "יום המיתה] ויתבטל ממנו היצה\"ר",
+   "hasidic": true,
+   "summary_en": "A tailor who sews women's clothes asks the Maggid how to avoid evil thoughts. He is told to meditate on the name סא\"ל, the initials of 'the end of man is death', and his evil inclination will be nullified.",
+   "tags": [
+    {
+     "tag": "practice:coping_with_alien_thoughts",
+     "scope": "span",
+     "quotes": [
+      "שלא יהי' לו הרהורים רעים כי עסקו עם הנשים"
+     ],
+     "confidence": 3,
+     "why": "remedy against bad thoughts",
+     "quotes_failed": false
+    },
+    {
+     "tag": "ethics-and-emotions:lust",
+     "scope": "span",
+     "quotes": [
+      "כי עסקו עם הנשים"
+     ],
+     "confidence": 3,
+     "why": "sexual temptation from his work",
+     "quotes_failed": false
+    },
+    {
+     "tag": "practice:use_of_holy_names",
+     "scope": "span",
+     "quotes": [
+      "ואמר לו כי יכוין שם סא\"ל"
+     ],
+     "confidence": 3,
+     "why": "contemplation of a name",
+     "quotes_failed": false
+    },
+    {
+     "tag": "ethics-and-emotions:resisting_temptation",
+     "scope": "span",
+     "quotes": [
+      "ויתבטל ממנו היצה\"ר"
+     ],
+     "confidence": 2,
+     "why": "aim is overcoming temptation",
+     "quotes_failed": false
+    },
+    {
+     "tag": "practice:reception_of_hasidim",
+     "scope": "span",
+     "quotes": [
+      "ביקש ג\"כ מאתו שלא יהי' לו"
+     ],
+     "confidence": 2,
+     "why": "petitioner received by the Maggid",
+     "quotes_failed": false
+    },
+    {
+     "tag": "women:mention_only",
+     "scope": "span",
+     "quotes": [
+      "תופר מלבושי נשים"
+     ],
+     "confidence": 2,
+     "why": "women referenced only",
+     "quotes_failed": false
+    },
+    {
+     "tag": "not-a-hasidic-story:sermon",
+     "scope": "story",
+     "quotes": [],
+     "confidence": 2,
+     "why": "mostly an explanation of a segulah",
+     "quotes_failed": false
+    }
+   ],
+   "missing_concepts": [
+    "segulah (spiritual remedy)",
+    "remembering the day of death as an ethical remedy",
+    "artisan professions (tailor)"
+   ],
+   "start_quote_found": true,
+   "end_quote_found": true
+  }
+ ],
+ "check": {
+  "non_vocab_tags": [],
+  "quotes": 10,
+  "quotes_not_found": 0
+ },
+ "id": "Eser-Orot_0157",
+ "chars": 362,
+ "seconds": 19
+}

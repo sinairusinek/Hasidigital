@@ -1,0 +1,91 @@
+{
+ "unit": {
+  "kind": "hasidic_story",
+  "why": "A short anecdote, reported by R. Yehuda Zvi of Rozdol: his father-in-law R. Zvi sent a note by messenger to the graves of the Ari and Rashbi and signed it 'your disciple'.",
+  "boundary_note": ""
+ },
+ "stories": [
+  {
+   "k": 1,
+   "start_quote": "בספר פעולת הצדיקים כי סיפר חתנו",
+   "end_quote": "וחתם עצמו „תלמידך צבי בן הינדא״",
+   "hasidic": true,
+   "summary_en": "R. Zvi's son-in-law testifies that he saw R. Zvi's handwritten note, sent by messenger to the graves of the Ari and R. Shimon bar Yohai, signed 'your disciple Zvi son of Hinda'.",
+   "tags": [
+    {
+     "tag": "practice:pilgrimage_to_the_graves_of_tsaddikim",
+     "scope": "span",
+     "quotes": [
+      "ששלח פתקא ביד איש אחד על ציון",
+      "ועל קבר התנא האלקי הרשב״י"
+     ],
+     "confidence": 3,
+     "why": "A petition note is sent to be placed on holy graves.",
+     "quotes_failed": false
+    },
+    {
+     "tag": "spaces:the_land_of_israel",
+     "scope": "span",
+     "quotes": [
+      "על ציון המצויינת קדש הקדשים האריז\"ל"
+     ],
+     "confidence": 2,
+     "why": "The note's destination is the graves in Safed and Meron, implied rather than named.",
+     "quotes_failed": false
+    },
+    {
+     "tag": "ethics-and-emotions:humility",
+     "scope": "span",
+     "quotes": [
+      "וחתם עצמו „תלמידך צבי בן הינדא״"
+     ],
+     "confidence": 2,
+     "why": "The tsaddik signs himself as the disciple of the dead sages.",
+     "quotes_failed": false
+    },
+    {
+     "tag": "folkloristics:story_type_virtues",
+     "scope": "story",
+     "quotes": [],
+     "confidence": 2,
+     "why": "The anecdote illustrates his humility and his reverence for the Ari and Rashbi.",
+     "quotes_failed": false
+    },
+    {
+     "tag": "characters-and-roles:the_family_of_the_tsaddik",
+     "scope": "span",
+     "quotes": [
+      "סיפר חתנו הרה״ק מראזלא מו\"ה יהודא צבי"
+     ],
+     "confidence": 2,
+     "why": "The son-in-law is the eyewitness narrator.",
+     "quotes_failed": false
+    },
+    {
+     "tag": "women:mention_only",
+     "scope": "span",
+     "quotes": [
+      "תלמידך צבי בן הינדא"
+     ],
+     "confidence": 1,
+     "why": "His mother Hinda is named only in the signature formula.",
+     "quotes_failed": false
+    }
+   ],
+   "missing_concepts": [
+    "kvitl / petition note to the dead",
+    "veneration of the Ari and Rashbi as heavenly masters"
+   ],
+   "start_quote_found": true,
+   "end_quote_found": true
+  }
+ ],
+ "check": {
+  "non_vocab_tags": [],
+  "quotes": 6,
+  "quotes_not_found": 0
+ },
+ "id": "Eser-Orot_0359",
+ "chars": 233,
+ "seconds": 13
+}

@@ -18,7 +18,7 @@
 					<name>DictaBert</name>
 					<note>automatic tagging, corrected with Gemini; not yet reviewed by hand</note>
 				</respStmt>
-			</titleStmt><editionStmt><edition n="1.0.0">Working edition</edition></editionStmt>
+			<respStmt xml:id="llm-tagging"><resp>Topic tags: assigned by Claude Opus 5.5 with the project's topic scheme (editions/llm-tagging; calibrated 2026-11-16, est. precision 0.89 / recall 0.90, model-judged); not reviewed by hand</resp><name>Claude Opus 5.5 (Anthropic)</name></respStmt></titleStmt><editionStmt><edition n="1.0.0">Working edition</edition></editionStmt>
 			<publicationStmt>
 				<p>This edition was created in the framework of the the project "Historical Digital
 					Analysis of Hasidic Stories Until 1914", PI: Gadi Sagiv; Supervising
@@ -28,7 +28,7 @@
 			</publicationStmt>
 			<sourceDesc><bibl type="digital"><title>Digital scan from HebrewBooks.org</title><publisher>HebrewBooks.org</publisher><ptr target="https://hebrewbooks.org/3711"/><idno type="HebrewBooks">3711</idno><idno type="Transkribus">6577154</idno><note>Source for transcription</note></bibl><bibl type="original"><title type="main" xml:lang="he">מים רבים</title><title type="main" xml:lang="en">Maim Rabim</title><author><persName xml:lang="he">נתן נטע דונר</persName><persName xml:lang="en">Natan Netah Doner</persName></author><pubPlace xml:lang="he">ורשה</pubPlace><pubPlace xml:lang="en">Warsaw</pubPlace><date when="1899">תרנ"ט</date><textLang mainLang="heb"/><idno type="HebrewBooks">3711</idno><idno type="BHB">125501</idno><idno type="Kima">953</idno><idno type="Transkribus">6577154</idno><idno type="DBid">3698</idno><idno type="work">52</idno></bibl></sourceDesc>
 		</fileDesc>
-	<revisionDesc><change when="2026-04-29">sourceDesc synced from edition-metadata.json</change><change when="2026-11-21">text repaired: Gemini correction pass replayed without the tag-stripping bug that shuffled text (58f4166); later tag edits carried over</change><change when="2026-11-21">header in the shape of the online editions; page breaks restored from the Transkribus export</change></revisionDesc></teiHeader>
+	<revisionDesc><change when="2026-04-29">sourceDesc synced from edition-metadata.json</change><change when="2026-11-21">text repaired: Gemini correction pass replayed without the tag-stripping bug that shuffled text (58f4166); later tag edits carried over</change><change when="2026-11-21">header in the shape of the online editions; page breaks restored from the Transkribus export</change><change when="2026-11-23">topic tags (LLM, confidence &gt;= 2) written for 24 stories; not reviewed by hand</change></revisionDesc></teiHeader>
 	<text>
 		<front><div type="front-matter"><p>
 					<pb facs="Maim-Rabim_0001.jpg"/><lb/>ספר
@@ -93,7 +93,7 @@
 				<p>
 					<name type="work"><lb/>סיפורים נפלאים</name>
 				</p>
-				</div><div type="story" xml:id="Maim-Rabim_0001" n="1"><head type="storyHead">Maim-Rabim_0001</head>
+				</div><div type="story" xml:id="Maim-Rabim_0001" n="1"><head type="storyHead">Maim-Rabim_0001</head><span ana="ethics-and-emotions:repentance; practice:travel_to_the_tsaddik; spaces:beth_midrash; supernatural:perception; ethics-and-emotions:prohibitions; folkloristics:story_type_rapprochement; folkloristics:story_type_virtues; not-a-hasidic-story:virtues; practice:prayer; social:relations_with_non_hasidim" resp="#llm-tagging">תיוגים</span>
 <p>
 					<lb/>הרב הקדוש רבינו <persName>יצחק מדראהביטש</persName> זצוקלה״ה זי״ע הי׳ לו ענין שתיכף שאמר בידך
 					<lb/>אפקיד ישן לו ואם אירע שלא יכול לישן הי' יודע שעשה איזה חטא ואינם רוצין
@@ -108,13 +108,13 @@
 					<pb facs="Maim-Rabim_0136.jpg"/><lb/>מוחל בלב שלם. ראה כמה הגיע תנועה של לשון הרע ואתם אחיי תשמרו בנפשכם וחיו
 					<lb/>לאורך ימים : (ס׳ <name type="work">נתיב מצותיך</name>. להה״ק מ<placeName>קאמארנא</placeName>. <name type="work">שביל היחוד</name> <name type="work">שביל ד'</name>)
 				</p>
-				</div><div type="story" xml:id="Maim-Rabim_0002" n="2"><head type="storyHead">Maim-Rabim_0002</head>
+				</div><div type="story" xml:id="Maim-Rabim_0002" n="2"><head type="storyHead">Maim-Rabim_0002</head><span ana="kabbalah:kabbalistic_terms_yihudim; practice:meditation; practice:the_travels_of_the_tsaddik; supernatural:contraction_of_the_road; supernatural:communicating_with_the_invisible; supernatural:miracle" resp="#llm-tagging">תיוגים</span>
 <p>
 					<lb/>הה״ק החסיד ר׳ <persName>יצחק דראהביטשטר</persName> זצללה״ה. פ״א הי׳ תועה בדרך ובא בלילה בעיר
 					<lb/>גדול והי׳ מיחד יחוד א׳ וע״י היחוד עשה טובה גדולה להשר של היער ועי״ז הי'
 					<lb/>השר הנ"ל הוליך אותו לעיר מקום חפצו בהרף עין : (<name type="work">מבשר צדק</name> <name type="work">קרח</name>)
 				</p>
-				</div><div type="story" xml:id="Maim-Rabim_0003" n="3"><head type="storyHead">Maim-Rabim_0003</head>
+				</div><div type="story" xml:id="Maim-Rabim_0003" n="3"><head type="storyHead">Maim-Rabim_0003</head><span ana="characters-and-roles:the_family_of_the_tsaddik; practice:reception_of_hasidim; practice:sermon; practice:travel_to_the_tsaddik; characters-and-roles:preacher; folkloristics:story_type_advent; folkloristics:story_type_virtues; not-a-hasidic-story:sermon; practice:storytelling; supernatural:perception" resp="#llm-tagging">תיוגים</span>
 <p>
 					<lb/>סיפרו לי מגידי אמת ששמעו מכבוד הה״ק המגיד מ<persName>הרי״ם</persName> זצוק"ל שסיפר להם שבשעת
 					<lb/>בואו בפעם הראשון להרב <persName>הבעש״ט</persName> זללה״ה. צוה לכבדו ואמר תדעו שהאיש
@@ -126,7 +126,7 @@
 					<lb/>דמלכות דעשי׳ אבל לפי דברים הנ"ל הוא מובן שיש בכח האדם ע״י מעשיו להגבי'
 					<lb/>נשמתו עדי אין ערך והבן: *) (<name type="work">אגרא דפירקא</name> אות כ״ט)
 				</p>
-				</div><div type="story" xml:id="Maim-Rabim_0004" n="4"><head type="storyHead">Maim-Rabim_0004</head>
+				</div><div type="story" xml:id="Maim-Rabim_0004" n="4"><head type="storyHead">Maim-Rabim_0004</head><span ana="folkloristics:story_type_prognostication; practice:study; practice:the_travels_of_the_tsaddik; social:relations_with_non_jews; spaces:the_land_of_israel; supernatural:prognostication; women:minor_character; ethics-and-emotions:fear; ethics-and-emotions:humility; practice:travel_to_other_tsaddik" resp="#llm-tagging">תיוגים</span>
 <p>
 					<lb/>אביו של הה״ק ר׳ <persName>יצחק</persName> הנ״ל הי׳ שמו הה״ק ר׳ <persName>יוסף ספראווידליווער</persName> לעת זקנתו
 					<lb/>רצה ליסע אל <placeName ref="#H-LOC_529">ארץ הקדושה</placeName>. ושמע אשר הרבינו <persName>בעש״ט</persName> זצוקללה״ה רוצה ג״כ
@@ -139,7 +139,7 @@
 					<lb/>העבד ואמר זה הוא הרב <persName>ר״י</persName> הנקרא <persName>ספראווידליווער</persName> וצותה ליקח אותו על הספינה
 					<lb/>והביאה אותו ל<placeName ref="#H-LOC_105">אה״ק</placeName>. ומנ״כ שם זי״ע :
 				</p>
-				</div><div type="story" xml:id="Maim-Rabim_0005" n="5"><head type="storyHead">Maim-Rabim_0005</head>
+				</div><div type="story" xml:id="Maim-Rabim_0005" n="5"><head type="storyHead">Maim-Rabim_0005</head><span ana="characters-and-roles:angels; characters-and-roles:the_family_of_the_tsaddik; supernatural:communicating_with_the_invisible; supernatural:perception; women:major_character; practice:prayer; practice:storytelling" resp="#llm-tagging">תיוגים</span>
 <p>
 					<lb/>אשת הה״ק ר׳ <persName>יוסף ספראווידליווער</persName>. אמו של הה״ק ר' <persName>יצחק מ<placeName ana="bio">דראהביטש</placeName></persName> היתה נקראת
 					<persName><lb/>יענטע</persName> דיא נביאה פ"א בשעה שהיתה מכבדת הבית היתה אומרת קדושה ואמרה
@@ -161,7 +161,7 @@
 					<lb/>בבחי׳ נשמה וא״כ הי׳ נשמתו בבחי׳ נשמה לנשמה מעולם האצילות עכ״ל ועי׳ לעיל בהספד
 					<lb/>מ<name type="work">עץ הדעת</name> מדרגת רבינו הה״ק רבי ר׳ <persName>מיכל</persName> זללה״ה זי״ע ועכ״י אמן :
 				</p>
-				</div><div type="story" xml:id="Maim-Rabim_0006" n="6"><head type="storyHead">Maim-Rabim_0006</head>
+				</div><div type="story" xml:id="Maim-Rabim_0006" n="6"><head type="storyHead">Maim-Rabim_0006</head><span ana="not-a-hasidic-story:hagiography; not-a-hasidic-story:sermon; supernatural:perception; ethics-and-emotions:lying; ethics-and-emotions:repentance; ethics-and-emotions:shame; practice:healing_of_the_soul; social:relations_with_sinners; supernatural:miracle" resp="#llm-tagging">תיוגים</span>
 <p>
 					<pb facs="Maim-Rabim_0137.jpg"/><lb/>בס׳ <name type="work">עבודת ישראל</name> (<name type="work">אבות</name> <name type="work">פ״ה י״ח</name>) כ׳ וז״ל ויש ג״כ צדיקים המכירים כל חטאי החוטא
 					<lb/>בפניו כמעשה ה<persName>אר״י</persName> ז״ל שאמר לאדם א׳ כל העבירות שעשה והודה לו על כולם
@@ -173,12 +173,12 @@
 					<lb/>וירא ויבוש מלפני מלך רם ונשא ולא יעבור על דבריו וישוב בתשובה שלימה לפניו
 					<lb/>עכ״ל :
 				</p>
-				</div><div type="story" xml:id="Maim-Rabim_0007" n="7"><head type="storyHead">Maim-Rabim_0007</head>
+				</div><div type="story" xml:id="Maim-Rabim_0007" n="7"><head type="storyHead">Maim-Rabim_0007</head><span ana="not-a-hasidic-story:sermon" resp="#llm-tagging">תיוגים</span>
 <p>
 					<lb/>ובס׳ <name type="work">אמרי קדוש</name> להה״ק מ<placeName ref="#H-LOC_209">סטרעליסק</placeName> וז״ל אמר שהצדיק ר״ר <persName>מיכל</persName> הי׳ לו נשמת כו׳
 					<lb/>ולכך לא הי׳ יכול לסבול איש הפוגם ברית :
 				</p>
-				</div><div type="story" xml:id="Maim-Rabim_0008" n="8"><head type="storyHead">Maim-Rabim_0008</head>
+				</div><div type="story" xml:id="Maim-Rabim_0008" n="8"><head type="storyHead">Maim-Rabim_0008</head><span ana="ethics-and-emotions:humility; folkloristics:story_type_virtues; social:inter_hasidic_master_disciple_relationship; ethics-and-emotions:anger; social:disobedience; social:retrospective_recognition" resp="#llm-tagging">תיוגים</span>
 <p>
 					<lb/>ובס׳ <name type="work">תפארת שלמה</name> מהה״ק מ<placeName>ראדאמסק</placeName> בפ׳ דברי׳ וז״ל כמו שנודע המעשה מה<persName>בעש״ט</persName>
 					<lb/>זי״ע שפ״א הפציר מאוד באחד מגדולי תלמידיו הוא הצה״ק ר' <persName>מיכל</persName> ז״ל אשר בני
@@ -189,7 +189,7 @@
 					<lb/>וברוך טעמך זכאי חלקך בג״ע כאשר לא התנשא רוחך ולבך על כל דברי אלה כי אנכי
 					<lb/>אך לנסותך באתי לדעת את אשר בלבבך להטיבך באחריתך עכ״ל :
 				</p>
-				</div><div type="story" xml:id="Maim-Rabim_0009" n="9"><head type="storyHead">Maim-Rabim_0009</head>
+				</div><div type="story" xml:id="Maim-Rabim_0009" n="9"><head type="storyHead">Maim-Rabim_0009</head><span ana="not-a-hasidic-story:sermon" resp="#llm-tagging">תיוגים</span>
 <p>
 					<lb/>ובס׳ <name type="work">נתיב מצותיך</name> בהקדמה וז"ל וכן התנהג רבינו הק' מוהר״ר <persName>יחיאל מיכל מ<placeName ana="bio" ref="#H-LOC_398">זלאטשוב</placeName></persName>
 					<lb/>שהי׳ מלבושיו מלבושי מלכות והכנת סעודתו בכל יום כסעודת המלך ולא נהנה
@@ -197,7 +197,7 @@
 					<lb/>ומחבר הקרסים של לבושו ממשיך שפע למעלה לשמנים אלף כיתות מלאכים והוא חיותם
 					<lb/>והי׳ צריך שמירה בכל עת שלא יצא נפשו מגודל אור הדביקות עכ״ל :
 				</p>
-				</div><div type="story" xml:id="Maim-Rabim_0010" n="10"><head type="storyHead">Maim-Rabim_0010</head>
+				</div><div type="story" xml:id="Maim-Rabim_0010" n="10"><head type="storyHead">Maim-Rabim_0010</head><span ana="characters-and-roles:angels; characters-and-roles:the_family_of_the_tsaddik; experience:devekut; experience:journey_to_heaven; experience:trembling; practice:devekut; practice:prayer; spaces:heaven; supernatural:light_or_fire_as_a_sign_of_righteousness; times:death; times:shabbat; women:minor_character; ethics-and-emotions:fear; folkloristics:story_type_death_of_the_tsaddik; practice:healing; practice:torat_ha_tsaddik; social:inter_hasidic_master_disciple_relationship; supernatural:communicating_with_the_invisible; supernatural:miracle; supernatural:perception" resp="#llm-tagging">תיוגים</span>
 <p>
 					<lb/>ובס׳ הנ"ל <name type="work">שביל אמונה שביל ג'</name>. וז"ל כמו שאירע לבן הקדוש של רבינו הקדוש <persName>המגיד</persName>
 					<lb/>מו״ה <persName>יחיאל מיכל</persName> זצללה״ה ושמו הה״צ <persName>מוהר״ר</persName> <persName>יוסף מ<placeName ana="bio">יאמפלא</placeName></persName> זצלה״ה. פ״א אינגיד
@@ -239,14 +239,14 @@
 					<lb/>יכולתו ולא יחפוץ דוקא לעלות מדריגות כי הם יבואו ממילא לתמים במעשיו וטוב לו בזה
 					<lb/>עכ"ל :
 				</p>
-				</div><div type="story" xml:id="Maim-Rabim_0011" n="11"><head type="storyHead">Maim-Rabim_0011</head>
+				</div><div type="story" xml:id="Maim-Rabim_0011" n="11"><head type="storyHead">Maim-Rabim_0011</head><span ana="kabbalah:kabbalistic_terms_yihudim; practice:meditation; practice:prayer; kabbalah:kabbalistic_terms_kavvanot" resp="#llm-tagging">תיוגים</span>
 <p>
 					<lb/>שמעתי ממחותני הרב המפורסם <persName>מהר"י</persName> ז"ל מ<placeName>ברעזנא</placeName> שפ"א נכנס א׳ אצל זקנו הקדוש
 					<lb/>והטהור מו"ה <persName>יחיאל מיכל מ<placeName ana="bio" ref="#H-LOC_398">זלאטשוב</placeName></persName>. קודם התפלה ואמר לו הרב הנ״ל
 					<lb/>איך האלט שוין את שם וכו'. כי מקודם הי' מכוון ומיחד היחודים של כל התפלה ואח״כ
 					<lb/>הי' אומר התיבות (דברי <persName>שלום</persName> לך מהה״צ ר׳ שלום שליט״א מ<placeName>קאדינאוי</placeName>) :
 				</p>
-				</div><div type="story" xml:id="Maim-Rabim_0012" n="12"><head type="storyHead">Maim-Rabim_0012</head>
+				</div><div type="story" xml:id="Maim-Rabim_0012" n="12"><head type="storyHead">Maim-Rabim_0012</head><span ana="characters-and-roles:the_family_of_the_tsaddik; ethics-and-emotions:prohibitions; practice:asceticism; practice:ritual_slaughtering; supernatural:perception; characters-and-roles:ritual_slaughterer; ethics-and-emotions:anger; practice:halakhah; practice:reception_of_hasidim; practice:study; social:retrospective_recognition" resp="#llm-tagging">תיוגים</span>
 <p>
 					<lb/>הה״ק <persName>רי״מ מ<placeName ana="bio" ref="#H-LOC_398">זלאטשוב</placeName></persName> זצוקללה״ה הי׳ מעביר הסידרא בס״ת ובנו הרה״ק ר׳ <persName>משה
 					<lb/>מ<placeName ana="bio">זיווהעל</placeName></persName> הי׳ אומר לו התרגום מחומש. ובא לפניו איש גדול ומפורסם מו״ה
@@ -261,7 +261,7 @@
 					<lb/>לשחוט בעצמם עופות וליקח לעצמם שכר שחיטה : (מכתב מהה״ק ר׳ <persName>מרדכי</persName> שליט״א
 					<lb/>מ<placeName>זיווהעל</placeName> הנ"ל)
 				</p>
-				</div><div type="story" xml:id="Maim-Rabim_0013" n="13"><head type="storyHead">Maim-Rabim_0013</head>
+				</div><div type="story" xml:id="Maim-Rabim_0013" n="13"><head type="storyHead">Maim-Rabim_0013</head><span ana="characters-and-roles:the_family_of_the_tsaddik; practice:solitude; social:marital_relationship; social:marriage; characters-and-roles:preacher; characters-and-roles:tavern_keeper; folkloristics:story_type_virtues; practice:asceticism; social:poverty; women:major_character" resp="#llm-tagging">תיוגים</span>
 <p>
 					<lb/>חותנו של הה״ק רבינו ר׳ <persName>יחיאל מיכל מ<placeName ana="bio" ref="#H-LOC_398">זלאטשוב</placeName></persName> שמו ר׳ <persName>משה</persName> ז"ל והי׳ דר בכפר
 					<lb/>סמוך לעיר <placeName ref="#H-LOC_117">שדה לבן</placeName> ופתאום בא הה״ק המוכיח <persName>ר״י מ<placeName ana="bio">דראהביטש</placeName></persName> להרב הגדול ר'
@@ -278,7 +278,7 @@
 					<lb/>עניה כ״כ שלא הי׳ לה מנעלים על רגלה והלכה באנפלאות שעשתה בעצמה ומה שהיתה
 					<lb/>משתכרת לפעמים היתה מביאה לבעלה הה״ק זצוקלל"ה : (מכתב מהרב הנ״ל שליט״א)
 				</p>
-				</div><div type="story" xml:id="Maim-Rabim_0014" n="14"><head type="storyHead">Maim-Rabim_0014</head>
+				</div><div type="story" xml:id="Maim-Rabim_0014" n="14"><head type="storyHead">Maim-Rabim_0014</head><span ana="supernatural:perception; characters-and-roles:the_family_of_the_tsaddik; practice:halakhah; social:retrospective_recognition" resp="#llm-tagging">תיוגים</span>
 <p>
 					<lb/>הה״ק ר׳ <persName>יוסף</persName> וצוללה״ה מ<placeName>יאמפאלא</placeName> בנו של הה״ק רבינו <persName>רי״מ</persName> זצ"ל. בא ל<placeName>מעזריטש</placeName>
 					<lb/>ואמר יש בכאן ספר תורה חסר פסוק א׳. לימים הי׳ שם אחיו הה״ק ר' <persName>משה
@@ -286,7 +286,7 @@
 					מ<placeName>זיווהעל</placeName> הי׳ אומר לו התרגום ומצאו שם הטעות בפ' <name type="work">דברי'</name> שהי׳ חסר מזרד עד זרד :
 					<lb/>(מכתב מהנ״ל)
 				</p>
-				</div><div type="story" xml:id="Maim-Rabim_0015" n="15"><head type="storyHead">Maim-Rabim_0015</head>
+				</div><div type="story" xml:id="Maim-Rabim_0015" n="15"><head type="storyHead">Maim-Rabim_0015</head><span ana="social:conflict; social:relations_with_non_hasidim; ethics-and-emotions:virtues" resp="#llm-tagging">תיוגים</span>
 <p>
 					<lb/>ב<name type="work">שה״ג החדש מר׳ גדולים מערכה פ׳. אות כ״ב.</name> נמצא העתק מכתב מהגה"ק בעל
 					<persName><lb/>הפלאה</persName> שכ׳ להה״ג ר׳ <persName>טעבלי מ<placeName ana="bio" ref="#H-LOC_25">ליסא</placeName></persName> זצ״ל שיכתוב להגה״צ ר׳ <persName>יוסף מ<placeName ana="bio" ref="#H-LOC_5">פוזנא</placeName></persName>
@@ -294,7 +294,7 @@
 					<lb/>זצ״ל מ<placeName ref="#H-LOC_398">זלאטשוב</placeName>. וז״ל כי אחי הגאון החסיד מו״ה <persName>שמעלקי</persName> זצ״ל מ<placeName ref="#H-LOC_66">ניקלשבורג</placeName> העיד עליו
 					<lb/>שכל כוונתיו לש"ש לכן אל יבטל אותו צדיק מעבודתו עכ״ל :
 				</p>
-				</div><div type="story" xml:id="Maim-Rabim_0016" n="16"><head type="storyHead">Maim-Rabim_0016</head>
+				</div><div type="story" xml:id="Maim-Rabim_0016" n="16"><head type="storyHead">Maim-Rabim_0016</head><span ana="not-a-hasidic-story:sermon" resp="#llm-tagging">תיוגים</span>
 <p>
 					<lb/>הה״ק ר׳ <persName>אברהם יהושע העשיל מ<placeName ana="bio" ref="#H-LOC_133">אפטא</placeName></persName> זקללה״ה. אמר בזה״ל כי רבו הקדוש
 					<lb/>רבינו ר׳ <persName>יחיאל מיכל מ<placeName ana="bio" ref="#H-LOC_398">זלאטשוב</placeName></persName>. הי׳ ישן לא' משני פנים בחיות הרוחניות
@@ -312,7 +312,7 @@
 					<lb/>ולזאת קמ״ל דאינו דומה כלל לזה רק מהחלוקה הג׳ נחשב היושב בטל עכ"ד ודפח"ח :
 					<lb/>(ס׳ <name type="work">רזין דאורייתא</name>)
 				</p>
-				</div><div type="story" xml:id="Maim-Rabim_0017" n="17"><head type="storyHead">Maim-Rabim_0017</head>
+				</div><div type="story" xml:id="Maim-Rabim_0017" n="17"><head type="storyHead">Maim-Rabim_0017</head><span ana="ethics-and-emotions:charity; kabbalah:kabbalistic_terms_yihudim; social:inter_hasidic_master_disciple_relationship; practice:meditation; practice:storytelling" resp="#llm-tagging">תיוגים</span>
 <p>
 					<lb/>סיפר מרן הה״ק ר׳ <persName>יצחק מ<placeName ana="bio">נעסכיז</placeName></persName> שאביו הג׳ <persName>מהר"ם</persName> זצוקללה״ה זי״ע בהיותו לפני
 					<lb/>הרב <persName>המגיד</persName> רבו ר' <persName>מיכל מ<placeName ana="bio" ref="#H-LOC_398">זלאטשוב</placeName></persName>. בא אז לפני הרה״מ איש מכובד שהי'
@@ -329,7 +329,7 @@
 					<lb/>ההשפעה לכל העולם לכל אחד ואחד די מחסורי והצטרכותו. יעו״ש שמאריך בזה שיש
 					<lb/>ג' מיני צדיקים :
 				</p>
-				</div><div type="story" xml:id="Maim-Rabim_0018" n="18"><head type="storyHead">Maim-Rabim_0018</head>
+				</div><div type="story" xml:id="Maim-Rabim_0018" n="18"><head type="storyHead">Maim-Rabim_0018</head><span ana="practice:prayer; practice:sermon; practice:storytelling; practice:torat_ha_tsaddik; ethics-and-emotions:humility; not-a-hasidic-story:sermon; social:inter_hasidic_master_disciple_relationship; times:shabbat" resp="#llm-tagging">תיוגים</span>
 <p>
 					<lb/>ב<name type="work">זכרון טוב</name> בעניני תפלה ז"ל ש"ק פ׳ <name type="work">עקב</name> <date>תרכ״ז</date> סיפר הרה״ק <persName>מהר"י מ<placeName ana="bio">נעסכיז</placeName></persName> זצוקללה"ה
 					<lb/>שהרצה״ק ר' <persName>מיכל</persName> זלה"ה מ<placeName ref="#H-LOC_398">זלאטשוב</placeName> שאלוהו התלמידים טעם על תפלתו לאחר
@@ -356,7 +356,7 @@
 					<lb/>וכו' אשר גבלו ראשונים והועמד גברא תחזקתי׳ וכו׳ הק' <persName>משה</persName> בהרב המנוח המפורסם
 					<lb/>מו"ה <persName>יחיאל מיכל</persName> זללה"ה :
 				</p>
-				</div><div type="story" xml:id="Maim-Rabim_0019" n="19"><head type="storyHead">Maim-Rabim_0019</head>
+				</div><div type="story" xml:id="Maim-Rabim_0019" n="19"><head type="storyHead">Maim-Rabim_0019</head><span ana="supernatural:miracle; supernatural:perception; characters-and-roles:the_family_of_the_tsaddik; practice:lifesaving; practice:storytelling; practice:torat_ha_tsaddik; social:inter_hasidic; social:retrospective_recognition" resp="#llm-tagging">תיוגים</span>
 <p>
 					<lb/>עוד שם (במאמר סיום בטוב) וז״ל כאשר נשמע בעולם פרסום מופתי ה<persName>נעסכיזר</persName> וכל
 					<lb/>באי עולם חרדו מעזוזי נפלאותיו. וישמעו מזה בני רבו <persName>המגיד מ<placeName ana="bio" ref="#H-LOC_398">זלאטשוב</placeName></persName> זצקלל"ה.
@@ -382,11 +382,11 @@
 					<lb/>עלי עדן על משניות סדר זרעים להרה״ק מ<placeName>קאמארנא</placeName> כ׳ וז״ל אבל הלומד תורה
 					<lb/>שלא לשמה לקנטר ולהתגאות ואין בו תוך ועל זה לא יעבור שום דבר נסיון כי חיותו
 					<lb/>שמקבל הוא מקליפות נגה זה נעשה לו התורה סם המות ונוח לו שנהפכה לו וכו׳
-					<lb/>ואמר הקדוש הרב מוהר״ר <persName>מיכל מזלאטשוב</persName> לתלמידיו הראיתם את זה לא יזכה לעולם
+					<lb/></p><div type="story" xml:id="Maim-Rabim_non-story-024_s1" subtype="in-non-story"><head type="storyHead">Maim-Rabim_non-story-024_s1</head><span ana="practice:halakhah; practice:study; supernatural:prognostication; ethics-and-emotions:pride; ethics-and-emotions:virtues; folkloristics:story_type_prognostication; not-a-hasidic-story:sermon; social:relations_with_non_hasidim; supernatural:perception" resp="#llm-tagging">תיוגים</span><p>ואמר הקדוש הרב מוהר״ר <persName>מיכל מזלאטשוב</persName> לתלמידיו הראיתם את זה לא יזכה לעולם
 					<lb/><sic correction="להורות">להורת</sic> כהלכה אלא להפוך דברי אלהים חיים ויאמר על אסור מותר ועל מותר אסור
 					<lb/>על שלומד תורה כדואג משפה ולחון וכך הוה וכשבא אצלו הגאון בעל <name type="work">פרי מגדים</name> כיבד
 					<lb/>אותו ביותר. ואמר לו שהכריזו ברקיע שיזכה לקבוע הלכה כמותו על שלומד בטהרה
-					<lb/>לשם אל עולם :
+					<lb/>לשם אל עולם</p></div><p> :
 				</p>
 				</div><div type="non-story"><p>
 					<lb/>כוונת המקוה ממרן רבינו <persName>הבעל שם טוב</persName> זצללה״ה
@@ -458,7 +458,7 @@
 					<lb/>משליך כלום. ושמצו וטנופו קבוע בלבו וכמסמרות נטועות במחשבתו ולבבו ודאי שאין
 					<lb/>תועלת בעשייתו לבד ולא מגרש וממילא לא מקדש עכ״ל :
 				</p>
-				</div><div type="story" xml:id="Maim-Rabim_0020" n="21"><head type="storyHead">Maim-Rabim_0020</head>
+				</div><div type="story" xml:id="Maim-Rabim_0020" n="21"><head type="storyHead">Maim-Rabim_0020</head><span ana="not-a-hasidic-story:sermon" resp="#llm-tagging">תיוגים</span>
 <p>
 					<lb/>ובס׳ <name type="work">כש״ט</name> וז״ל אמרו על רבינו <persName>הבעש״ט</persName> ע״ה שזכה לכל הארה והמדריגות שהי׳ לו
 					<lb/>הכל מחמת המקואות שהי׳ תמיד בטבילות ומקוואות יותר בתמידות טוב יותר
@@ -560,7 +560,7 @@
 					<lb/>(ג) יום הילולא שלו. יו״ד <date>אייר תקצ״</date>א ומנ״כ ב<placeName>זיווהעל</placeName> וראיתי הסכמתו על ס׳
 					<name type="work"><lb/>קצות</name> החושן  ב<date>שנת תקע״</date>ו).
 				</p>
-				</div><div type="story" xml:id="Maim-Rabim_0021" n="1"><head type="storyHead">Maim-Rabim_0021</head>
+				</div><div type="story" xml:id="Maim-Rabim_0021" n="1"><head type="storyHead">Maim-Rabim_0021</head><span ana="folkloristics:story_type_death_of_the_tsaddik; times:death; times:shabbat; practice:sermon; supernatural:prognostication" resp="#llm-tagging">תיוגים</span>
 <p>
 					<lb/>(ד) יום הילולא של רבינו הקדוש. מ״ה <date>אלול תקמ״ו</date> בש״ק בזמן מנחה. מנ״כ
 					<lb/>ב<placeName>יאמפאלא</placeName> ועל מצבתו נרשם שנת וקמת ועלית אל המקום (כן כתבו
@@ -630,7 +630,7 @@
 				<p>
 					<lb/>(ו) זוג׳ הרבנית הצדקנות הי׳ שמה <persName>יענטא</persName>. ועי׳ בדברינו לעיל ממנה :
 				</p>
-				</div><div type="story" xml:id="Maim-Rabim_0022" n="2"><head type="storyHead">Maim-Rabim_0022</head>
+				</div><div type="story" xml:id="Maim-Rabim_0022" n="2"><head type="storyHead">Maim-Rabim_0022</head><span ana="characters-and-roles:the_family_of_the_tsaddik; ethics-and-emotions:joy; experience:devekut; practice:devekut; practice:fasting; practice:music; social:relations_with_non_jews; times:death; social:conflict; spaces:the_land_of_israel; times:historical_event; times:shabbat" resp="#llm-tagging">תיוגים</span>
 <p>
 					<lb/>(ז) כן מבאר במכתב שקבלתי מנכדיו בשם הה״ק ר׳ <persName>מרדכי</persName> שליט״א מ<placeName>זיווהעל</placeName>
 				</p>
@@ -685,7 +685,7 @@
 					מ<placeName ana="bio">דראביטש</placeName></persName>. וכן ראיתי בסדר היחוס לבית רבינו הקדוש <persName>ר״י מ<placeName ana="bio">סאדיגורא</placeName></persName>
 					<lb/>זצללה״ה :
 				</p>
-				</div><div type="story" xml:id="Maim-Rabim_0023" n="3"><head type="storyHead">Maim-Rabim_0023</head>
+				</div><div type="story" xml:id="Maim-Rabim_0023" n="3"><head type="storyHead">Maim-Rabim_0023</head><span ana="not-a-hasidic-story:hagiography" resp="#llm-tagging">תיוגים</span>
 <p>
 					<lb/>(ח) יום הילולא שלו. הוא <date>י״א תמוז תמ״ב</date>. ובס׳ <name type="work">נוצר חסד</name> (<name type="work">אבות</name> פ״ד מט״ז)
 					<lb/>להה״ק מ<placeName>קאמארנא</placeName> כ׳ וז״ל כדי שתכנס לטרקלין אפילו שומר
@@ -740,7 +740,7 @@
 					<persName><lb/>נפתלי</persName> הנ״ל שהה״ק ר׳ <persName>אליעזר</persName> בן רבינו הק׳ ר״ר <persName>אלימלך</persName>. הי׳ חתן ר׳ שמואל
 					<lb/>מלמד מ<placeName>שינאווע</placeName>. אשר לא נודע ממנו מאומה יחוס משפחתו ומהותו :
 				</p>
-				</div><div type="story" xml:id="Maim-Rabim_0024" n="4"><head type="storyHead">Maim-Rabim_0024</head>
+				</div><div type="story" xml:id="Maim-Rabim_0024" n="4"><head type="storyHead">Maim-Rabim_0024</head><span ana="not-a-hasidic-story:hagiography" resp="#llm-tagging">תיוגים</span>
 <p>
 					<lb/>(טז) כן ב׳ לי הה״צ ר׳ <persName>אלימלך</persName> שליט״א הנ״ל. העתק מצבתו. ומה שנמצא
 					<lb/>במכתב בס״ס <name type="work">נועם אלימלך</name> (דפוס <placeName ref="#H-LOC_40">לעמבערג</placeName> <date>תרל״ו</date>) חתימתו „הק'
@@ -865,7 +865,7 @@
 				<p>
 					<lb/>יד נתן
 				</p>
-				</div><div type="story" xml:id="Maim-Rabim_0025" n="5"><head type="storyHead">Maim-Rabim_0025</head>
+				</div><div type="story" xml:id="Maim-Rabim_0025" n="5"><head type="storyHead">Maim-Rabim_0025</head><span ana="characters-and-roles:elijah_the_prophet; practice:circumcision; practice:study; social:marriage; social:retrospective_recognition; supernatural:perception; women:major_character; characters-and-roles:the_family_of_the_tsaddik; experience:visions; not-a-hasidic-story:hagiography; times:birth; times:death; women:minor_character" resp="#llm-tagging">תיוגים</span>
 <p>
 					<lb/>(כה) לדידי הה״ג <persName>ר״ז</persName> <persName>העניך</persName> הנ״ל האבד״ק <placeName>שארגראד</placeName>. כ׳ לי העתק מצבתו
 					<lb/>וז״ל „פ״נ הארי שבח(בורה) בוצינא דנהורא. שר התורה הרב המאור הג'(דול)

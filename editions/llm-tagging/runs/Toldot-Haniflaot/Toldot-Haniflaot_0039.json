@@ -1,0 +1,174 @@
+{
+ "unit": {
+  "kind": "hasidic_story",
+  "why": "A single narrative: hasidim on their way to the rebbe survive a ferry sinking on the Vistula by miracle, which is then linked to his Sabbath Torah discourse.",
+  "boundary_note": ""
+ },
+ "stories": [
+  {
+   "k": 1,
+   "start_quote": "וגם נודע המעשה מהנטבעים בווייסיל",
+   "end_quote": "נצבים היום בר״ה כולם באין מחסור",
+   "hasidic": true,
+   "summary_en": "Before Rosh Hashanah an overloaded ferry sank in the Vistula near Sabin and many drowned, leaving agunot. All the hasidim travelling to the rebbe at Magielnica were miraculously saved. People then understood that his Friday-night discourse on 'Atem nitzavim' had been a hidden effort to save them.",
+   "tags": [
+    {
+     "tag": "supernatural:miracle",
+     "scope": "span",
+     "quotes": [
+      "כולם ניצולו ב״ה ע״פ נס",
+      "וספרו כי מעשה ניסים היו להם"
+     ],
+     "confidence": 3,
+     "why": "miraculous rescue from drowning",
+     "quotes_failed": false
+    },
+    {
+     "tag": "practice:lifesaving",
+     "scope": "span",
+     "quotes": [
+      "ובד״ת זו היה מתאמץ להציל כל הנוסעים"
+     ],
+     "confidence": 3,
+     "why": "the tsaddik saves the travellers from death",
+     "quotes_failed": false
+    },
+    {
+     "tag": "practice:protection",
+     "scope": "span",
+     "quotes": [
+      "ובד״ת זו היה מתאמץ להציל כל הנוסעים"
+     ],
+     "confidence": 3,
+     "why": "he shields his hasidim from danger",
+     "quotes_failed": false
+    },
+    {
+     "tag": "folkloristics:story_type_protection",
+     "scope": "story",
+     "quotes": [],
+     "confidence": 3,
+     "why": "the central arc is the tsaddik protecting his followers",
+     "quotes_failed": false
+    },
+    {
+     "tag": "practice:travel_to_the_tsaddik",
+     "scope": "span",
+     "quotes": [
+      "וכל אנשים הנוסעים למרן ז״ל",
+      "ועיני ראו אותם כשבאו למאגלניצא"
+     ],
+     "confidence": 3,
+     "why": "hasidim travelling to the rebbe for Rosh Hashanah",
+     "quotes_failed": false
+    },
+    {
+     "tag": "practice:sermon",
+     "scope": "span",
+     "quotes": [
+      "רמז מרן ז״ל כ״ז בד״ת אשר אמר על פסוק אתם נצבים"
+     ],
+     "confidence": 3,
+     "why": "the Torah discourse on a verse is quoted",
+     "quotes_failed": false
+    },
+    {
+     "tag": "times:shabbat",
+     "scope": "span",
+     "quotes": [
+      "ואז הבינו הבל אשר בסעודת ליל שבת הקודם"
+     ],
+     "confidence": 2,
+     "why": "the discourse was given at the Friday-night meal",
+     "quotes_failed": false
+    },
+    {
+     "tag": "times:holidays",
+     "scope": "span",
+     "quotes": [
+      "וגם נודע המעשה מהנטבעים בווייסיל קודם ר״ה",
+      "שיהיו נצבים היום בר״ה כולם באין מחסור"
+     ],
+     "confidence": 2,
+     "why": "the events surround Rosh Hashanah",
+     "quotes_failed": false
+    },
+    {
+     "tag": "social:retrospective_recognition",
+     "scope": "span",
+     "quotes": [
+      "ואז הבינו הבל אשר בסעודת ליל שבת הקודם"
+     ],
+     "confidence": 3,
+     "why": "the discourse's hidden meaning is understood only afterwards",
+     "quotes_failed": false
+    },
+    {
+     "tag": "times:death",
+     "scope": "span",
+     "quotes": [
+      "ונטבע הספינה והיו שמה איזה כתית חסידים"
+     ],
+     "confidence": 2,
+     "why": "others on the ferry drowned",
+     "quotes_failed": false
+    },
+    {
+     "tag": "characters-and-roles:agunah",
+     "scope": "span",
+     "quotes": [
+      "ואיזה עגונות נשארו"
+     ],
+     "confidence": 2,
+     "why": "the drownings left agunot behind",
+     "quotes_failed": false
+    },
+    {
+     "tag": "women:mention_only",
+     "scope": "span",
+     "quotes": [
+      "ואיזה עגונות נשארו"
+     ],
+     "confidence": 2,
+     "why": "agunot are mentioned but do not act",
+     "quotes_failed": false
+    },
+    {
+     "tag": "practice:torat_ha_tsaddik",
+     "scope": "span",
+     "quotes": [
+      "ובד״ת זו היה מתאמץ להציל כל הנוסעים"
+     ],
+     "confidence": 2,
+     "why": "the tsaddik's power to act for his followers through his Torah",
+     "quotes_failed": false
+    },
+    {
+     "tag": "supernatural:perception",
+     "scope": "span",
+     "quotes": [
+      "רמז מרן ז״ל כ״ז בד״ת אשר אמר על פסוק אתם נצבים"
+     ],
+     "confidence": 2,
+     "why": "he foresaw the danger beforehand",
+     "quotes_failed": false
+    }
+   ],
+   "missing_concepts": [
+    "shipwreck / drowning disaster",
+    "theurgic efficacy of a Torah discourse",
+    "eyewitness narrator's testimony"
+   ],
+   "start_quote_found": true,
+   "end_quote_found": true
+  }
+ ],
+ "check": {
+  "non_vocab_tags": [],
+  "quotes": 16,
+  "quotes_not_found": 0
+ },
+ "id": "Toldot-Haniflaot_0039",
+ "chars": 506,
+ "seconds": 20
+}

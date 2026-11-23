@@ -1,0 +1,130 @@
+{
+ "unit": {
+  "kind": "hasidic_story",
+  "why": "A short narrative: during the Passover seder the Maggid (of Kozienice) has a vision of a youth who strikes him playfully and vanishes, and R. Levi Yitzhak of Berdichev identifies the youth as Elijah.",
+  "boundary_note": ""
+ },
+ "stories": [
+  {
+   "k": 1,
+   "start_quote": "עוד שם המגיד בהגדה ש\"פ התלהב מאד",
+   "end_quote": "כי אליהו ז\"ל הי׳ אצלך",
+   "hasidic": true,
+   "summary_en": "While reciting the Haggadah on the Passover night the Maggid burned with fervor and saw a young man who stood before him, struck him playfully with his staff and vanished; he then travelled to R. Levi Yitzhak in Zelechow, who told him Elijah had visited him.",
+   "tags": [
+    {
+     "tag": "characters-and-roles:elijah_the_prophet",
+     "scope": "span",
+     "quotes": [
+      "כי אליהו ז\"ל הי׳ אצלך"
+     ],
+     "confidence": 3,
+     "why": "The youth is identified as Elijah.",
+     "quotes_failed": false
+    },
+    {
+     "tag": "experience:enthusiasm",
+     "scope": "span",
+     "quotes": [
+      "בהגדה ש\"פ התלהב מאד"
+     ],
+     "confidence": 3,
+     "why": "The Maggid burns with fervor during the Haggadah.",
+     "quotes_failed": false
+    },
+    {
+     "tag": "experience:visions",
+     "scope": "span",
+     "quotes": [
+      "ופתאום ראה והנה צעיר לימים עמד לקראתו"
+     ],
+     "confidence": 3,
+     "why": "Waking supernatural sight of a youth.",
+     "quotes_failed": false
+    },
+    {
+     "tag": "times:holidays",
+     "scope": "story",
+     "quotes": [],
+     "confidence": 3,
+     "why": "The story is set on the Passover seder night.",
+     "quotes_failed": false
+    },
+    {
+     "tag": "practice:travel_to_other_tsaddik",
+     "scope": "span",
+     "quotes": [
+      "ונסע לזעליחאוו להקדושת לוי"
+     ],
+     "confidence": 3,
+     "why": "The Maggid travels to another tzaddik, R. Levi Yitzhak.",
+     "quotes_failed": false
+    },
+    {
+     "tag": "social:retrospective_recognition",
+     "scope": "span",
+     "quotes": [
+      "ואמר לו כי אליהו ז\"ל הי׳ אצלך"
+     ],
+     "confidence": 3,
+     "why": "The youth is later revealed to have been Elijah.",
+     "quotes_failed": false
+    },
+    {
+     "tag": "supernatural:perception",
+     "scope": "span",
+     "quotes": [
+      "ואמר לו כי אליהו ז\"ל הי׳ אצלך"
+     ],
+     "confidence": 2,
+     "why": "R. Levi Yitzhak knows of the visit without having been told.",
+     "quotes_failed": false
+    },
+    {
+     "tag": "experience:revelation",
+     "scope": "span",
+     "quotes": [
+      "ובמטהו הכה בשחוק להמגיד. מגידיל. ונעלם"
+     ],
+     "confidence": 2,
+     "why": "A supernatural apparition discloses itself to the Maggid and then vanishes.",
+     "quotes_failed": false
+    },
+    {
+     "tag": "social:inter_hasidic",
+     "scope": "span",
+     "quotes": [
+      "ונסע לזעליחאוו להקדושת לוי ואמר לו"
+     ],
+     "confidence": 2,
+     "why": "An exchange between two tzaddikim.",
+     "quotes_failed": false
+    },
+    {
+     "tag": "practice:prayer",
+     "scope": "span",
+     "quotes": [
+      "עוד שם המגיד בהגדה ש\"פ"
+     ],
+     "confidence": 1,
+     "why": "He is reciting the Haggadah liturgy.",
+     "quotes_failed": false
+    }
+   ],
+   "missing_concepts": [
+    "Passover seder / Haggadah recitation as a ritual setting",
+    "Elijah's visit at the seder"
+   ],
+   "start_quote_found": true,
+   "end_quote_found": true
+  }
+ ],
+ "check": {
+  "non_vocab_tags": [],
+  "quotes": 9,
+  "quotes_not_found": 0
+ },
+ "id": "Eser-Orot_0122",
+ "chars": 203,
+ "seconds": 13
+}

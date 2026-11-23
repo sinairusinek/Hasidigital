@@ -1,0 +1,98 @@
+{
+ "unit": {
+  "kind": "hasidic_story",
+  "why": "A short anecdote about the Maggid of Kozienice on the eve of Yom Kippur: the townspeople weep at his door, he weeps with them, declares himself the greater sinner and rolls in the dust, and then they go to Kol Nidre.",
+  "boundary_note": ""
+ },
+ "stories": [
+  {
+   "k": 1,
+   "start_quote": "עו\"ש בשם הנ\"ל אשר בעיוה״כ",
+   "end_quote": "ובכן באו להבהכנ\"ס לכל נדרי",
+   "hasidic": true,
+   "summary_en": "On Yom Kippur eve the people of Kozienice come weeping to the Maggid's door for atonement; he weeps with them, says he is a greater sinner than they, rolls in the dust, and they then go to the synagogue for Kol Nidre.",
+   "tags": [
+    {
+     "tag": "times:holidays",
+     "scope": "story",
+     "quotes": [],
+     "confidence": 3,
+     "why": "The scene takes place on the eve of Yom Kippur, leading to Kol Nidre.",
+     "quotes_failed": false
+    },
+    {
+     "tag": "ethics-and-emotions:humility",
+     "scope": "span",
+     "quotes": [
+      "גם אני יותר פושע מכם והתגולל לעפר"
+     ],
+     "confidence": 3,
+     "why": "The Maggid declares himself more sinful than the people and abases himself.",
+     "quotes_failed": false
+    },
+    {
+     "tag": "folkloristics:story_type_virtues",
+     "scope": "story",
+     "quotes": [],
+     "confidence": 3,
+     "why": "The anecdote's point is the tzaddik's humility.",
+     "quotes_failed": false
+    },
+    {
+     "tag": "ethics-and-emotions:repentance",
+     "scope": "span",
+     "quotes": [
+      "ובכו בקול רם לכפרת עונם"
+     ],
+     "confidence": 2,
+     "why": "The townspeople weep for atonement of their sins on Yom Kippur eve.",
+     "quotes_failed": false
+    },
+    {
+     "tag": "practice:prayer",
+     "scope": "span",
+     "quotes": [
+      "באו להבהכנ\"ס לכל נדרי"
+     ],
+     "confidence": 2,
+     "why": "The scene ends with everyone going to the synagogue for the Kol Nidre service.",
+     "quotes_failed": false
+    },
+    {
+     "tag": "practice:reception_of_hasidim",
+     "scope": "span",
+     "quotes": [
+      "לבא לפתח המגיד"
+     ],
+     "confidence": 2,
+     "why": "The townspeople come to the tzaddik's door and he receives them.",
+     "quotes_failed": false
+    },
+    {
+     "tag": "women:minor_character",
+     "scope": "span",
+     "quotes": [
+      "כל אנשי העיר ונשיהם וטפם"
+     ],
+     "confidence": 1,
+     "why": "Women appear only collectively, coming and weeping with the rest of the town.",
+     "quotes_failed": false
+    }
+   ],
+   "missing_concepts": [
+    "weeping / tears as a ritual act",
+    "a communal custom at the tzaddik's door"
+   ],
+   "start_quote_found": true,
+   "end_quote_found": true
+  }
+ ],
+ "check": {
+  "non_vocab_tags": [],
+  "quotes": 5,
+  "quotes_not_found": 0
+ },
+ "id": "Eser-Orot_0139",
+ "chars": 217,
+ "seconds": 15
+}

@@ -1,0 +1,94 @@
+{
+ "unit": {
+  "kind": "hasidic_story",
+  "why": "A short biographical narrative from a quoted letter about the young Maggid of Kozhnitz: a failed match, drawing close to Hasidic masters, his journeys to them, and his poverty as a village teacher.",
+  "boundary_note": "Part of a numbered series of excerpts from the same letter; the next division (יז) continues with a separate episode."
+ },
+ "stories": [
+  {
+   "k": 1,
+   "start_quote": "המגיד מקאזניץ הי' מפורסם לעילוי",
+   "end_quote": "בכפר הסמוך לקאזניץ. ומשם לקאזניץ",
+   "hasidic": true,
+   "summary_en": "The young Maggid of Kozhnitz, a renowned prodigy, was tested by the author of Minhat Aharon for a match with his daughter, but the match fell through. He drew close to R. Abraham of Przysucha, through him travelled to R. Shmelke while Shmelke was still in Ritzwal, and then to the Great Maggid R. Ber in Rovno; out of poverty he worked as a village teacher near Kozhnitz and then settled in Kozhnitz.",
+   "tags": [
+    {
+     "tag": "practice:travel_to_the_tsaddik",
+     "scope": "span",
+     "quotes": [
+      "ועי״ז נסע כ״פ להגה\"ח מו״ה שמואל שמעלקא מנילשבורג",
+      "ולק׳ ראווני להמגיד הגדול הר״ר בער"
+     ],
+     "confidence": 3,
+     "why": "He journeys repeatedly to R. Shmelke and to the Maggid of Mezeritch.",
+     "quotes_failed": false
+    },
+    {
+     "tag": "practice:travel_to_other_tsaddik",
+     "scope": "span",
+     "quotes": [
+      "ולק׳ ראווני להמגיד הגדול הר״ר בער"
+     ],
+     "confidence": 2,
+     "why": "He moves on from R. Shmelke to another master, the Great Maggid.",
+     "quotes_failed": false
+    },
+    {
+     "tag": "social:inter_hasidic_master_disciple_relationship",
+     "scope": "span",
+     "quotes": [
+      "המגיד נתקרב להרה״ק מו\"ה אברהם המגיד הקדוש מפרשיסחא"
+     ],
+     "confidence": 2,
+     "why": "The narrative traces his discipleship under successive Hasidic masters.",
+     "quotes_failed": false
+    },
+    {
+     "tag": "social:marriage",
+     "scope": "span",
+     "quotes": [
+      "בחנו ולקחו לבתו לחתן אבל מאיזה סיבה נתבטל הדבר"
+     ],
+     "confidence": 2,
+     "why": "A proposed marriage match is made and then cancelled.",
+     "quotes_failed": false
+    },
+    {
+     "tag": "social:relations_with_non_hasidim",
+     "scope": "span",
+     "quotes": [
+      "והגאון בעל מנחת אהרן על סנהדרין בחנו"
+     ],
+     "confidence": 1,
+     "why": "A rabbinic scholar, apparently not a Hasid, examines him as a prospective son-in-law.",
+     "quotes_failed": false
+    },
+    {
+     "tag": "women:mention_only",
+     "scope": "span",
+     "quotes": [
+      "ולקחו לבתו לחתן"
+     ],
+     "confidence": 2,
+     "why": "The prospective bride is mentioned but does not act.",
+     "quotes_failed": false
+    }
+   ],
+   "missing_concepts": [
+    "child prodigy (עילוי) examined by a scholar",
+    "poverty as hardship (not embraced as a virtue): working as a village melamed",
+    "biographical chronicle and family lineage"
+   ],
+   "start_quote_found": true,
+   "end_quote_found": true
+  }
+ ],
+ "check": {
+  "non_vocab_tags": [],
+  "quotes": 7,
+  "quotes_not_found": 0
+ },
+ "id": "Eser-Orot_0120",
+ "chars": 444,
+ "seconds": 17
+}

@@ -1,0 +1,152 @@
+{
+ "unit": {
+  "kind": "hasidic_story",
+  "why": "A single narrative about the night the Rav of Apta died: in Tiberias a voice called the members of Kollel Volhynia to escort his soul, and the story also gives his last words about the Messiah.",
+  "boundary_note": ""
+ },
+ "stories": [
+  {
+   "k": 1,
+   "start_quote": "מובא בספרים כי בלילה שנפטר מרן",
+   "end_quote": "עד שנשכח מזה. ואני לא אשכח",
+   "hasidic": true,
+   "summary_en": "On the night the Rav of Apta died, a knock in Tiberias called the Volhynia kollel to escort him, and they saw thousands of souls accompanying his bier. A new grave-like patch of earth confirmed the event, and they later learned that before dying he had cried out over the exile, vowing not to forget the Messiah as the Berditchever had.",
+   "tags": [
+    {
+     "tag": "folkloristics:story_type_death_of_the_tsaddik",
+     "scope": "story",
+     "quotes": [],
+     "confidence": 3,
+     "why": "The tale centres on the Apta rav's death and his last words.",
+     "quotes_failed": false
+    },
+    {
+     "tag": "times:death",
+     "scope": "span",
+     "quotes": [
+      "בלילה שנפטר מרן הרב מאפטא"
+     ],
+     "confidence": 3,
+     "why": "His death is the event the story turns on.",
+     "quotes_failed": false
+    },
+    {
+     "tag": "spaces:the_land_of_israel",
+     "scope": "span",
+     "quotes": [
+      "שמעו בטבריא קול דופק על חלונות"
+     ],
+     "confidence": 3,
+     "why": "The events take place in Tiberias.",
+     "quotes_failed": false
+    },
+    {
+     "tag": "supernatural:communicating_with_the_invisible",
+     "scope": "span",
+     "quotes": [
+      "קול דופק על חלונות בית וועד כולל וואלין",
+      "צאו ללוות הרב מאפטא"
+     ],
+     "confidence": 3,
+     "why": "An unseen voice summons them to the escort.",
+     "quotes_failed": false
+    },
+    {
+     "tag": "experience:visions",
+     "scope": "span",
+     "quotes": [
+      "וראו כמה אלפים נשמות הולכים עם מטתו"
+     ],
+     "confidence": 3,
+     "why": "They see the souls while awake.",
+     "quotes_failed": false
+    },
+    {
+     "tag": "supernatural:miracle",
+     "scope": "span",
+     "quotes": [
+      "וראו על מקום ההוא צורת קרקע חדשה"
+     ],
+     "confidence": 2,
+     "why": "A physical trace of fresh earth confirms the supernatural event.",
+     "quotes_failed": false
+    },
+    {
+     "tag": "social:retrospective_recognition",
+     "scope": "span",
+     "quotes": [
+      "ואח״כ נתוודע להם שיום זה נסתלק"
+     ],
+     "confidence": 3,
+     "why": "They only learn afterwards that the vision coincided with his death.",
+     "quotes_failed": false
+    },
+    {
+     "tag": "characters-and-roles:messiah",
+     "scope": "span",
+     "quotes": [
+      "ומדוע איחר בן ישי",
+      "ולא יניח לכל הקדושים עד שיבא משיח"
+     ],
+     "confidence": 3,
+     "why": "His last words concern the delay of the Messiah.",
+     "quotes_failed": false
+    },
+    {
+     "tag": "times:eschatology",
+     "scope": "span",
+     "quotes": [
+      "צעק על גלותינו. ומדוע איחר בן ישי"
+     ],
+     "confidence": 2,
+     "why": "Exile and redemption are the theme of his last words.",
+     "quotes_failed": false
+    },
+    {
+     "tag": "spaces:heaven",
+     "scope": "span",
+     "quotes": [
+      "השתעשעו עמו בהיכלות ומדריגות עד שנשכח"
+     ],
+     "confidence": 1,
+     "why": "The heavenly palaces are mentioned as where the Berditchever's soul was distracted.",
+     "quotes_failed": false
+    },
+    {
+     "tag": "practice:pilgrimage_to_the_graves_of_tsaddikim",
+     "scope": "span",
+     "quotes": [
+      "עד שהלכו להב״ע"
+     ],
+     "confidence": 1,
+     "why": "The procession of souls goes to the cemetery and leaves a burial-like mark there.",
+     "quotes_failed": false
+    },
+    {
+     "tag": "ethics-and-emotions:sadness",
+     "scope": "span",
+     "quotes": [
+      "ובכה ואמר הרב מבארדיטשוב"
+     ],
+     "confidence": 1,
+     "why": "He weeps over the exile, though this is not melancholy as a spiritual problem.",
+     "quotes_failed": false
+    }
+   ],
+   "missing_concepts": [
+    "souls escorting a tzaddik's funeral",
+    "a tzaddik's vow to press for redemption after death"
+   ],
+   "start_quote_found": true,
+   "end_quote_found": true
+  }
+ ],
+ "check": {
+  "non_vocab_tags": [],
+  "quotes": 13,
+  "quotes_not_found": 0
+ },
+ "id": "Eser-Orot_0260",
+ "chars": 582,
+ "seconds": 18
+}

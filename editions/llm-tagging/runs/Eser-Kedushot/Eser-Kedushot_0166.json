@@ -1,0 +1,81 @@
+{
+ "unit": {
+  "kind": "hasidic_story",
+  "why": "A short first-person memorate, quoted from a book, in which the author recalls serving his uncle R. Zvi from age six to twenty-six and accepting him as his master only after the uncle showed he had the Besht's spiritual level.",
+  "boundary_note": ""
+ },
+ "stories": [
+  {
+   "k": 1,
+   "start_quote": "בזו\"ח למו״ר הרה״ק בדפי הספר",
+   "end_quote": "מרן אלקי הקדוש הריב״ש טוב וכו׳ עכ״ל",
+   "hasidic": true,
+   "summary_en": "The author testifies that his uncle and teacher R. Zvi raised him and ordained him, that he served him for twenty years, and that he accepted him as his principal master only after R. Zvi showed him he had the level of the Besht.",
+   "tags": [
+    {
+     "tag": "social:inter_hasidic_master_disciple_relationship",
+     "scope": "story",
+     "quotes": [],
+     "confidence": 3,
+     "why": "The whole testimony concerns the disciple's service to his master and his acceptance of him as master",
+     "quotes_failed": false
+    },
+    {
+     "tag": "practice:torat_ha_tsaddik",
+     "scope": "span",
+     "quotes": [
+      "לא קבלתי אותו לרבי מובהק עד שהראה לי"
+     ],
+     "confidence": 2,
+     "why": "The disciple requires proof of the master's level before accepting him as his rebbe muvhak",
+     "quotes_failed": false
+    },
+    {
+     "tag": "folkloristics:story_type_virtues",
+     "scope": "span",
+     "quotes": [
+      "קדושתו ומדריגתו מי ימלל מה שראו עיני"
+     ],
+     "confidence": 2,
+     "why": "The point of the text is to praise the master's holiness",
+     "quotes_failed": false
+    },
+    {
+     "tag": "folkloristics:story_type_revelation",
+     "scope": "span",
+     "quotes": [
+      "שהראה לי שיש לו מדריגת מרן אלקי הקדוש"
+     ],
+     "confidence": 1,
+     "why": "The master discloses his hidden spiritual level to the disciple",
+     "quotes_failed": false
+    },
+    {
+     "tag": "supernatural:perception",
+     "scope": "span",
+     "quotes": [
+      "מה שראו עיני ולא זר"
+     ],
+     "confidence": 1,
+     "why": "The disciple claims to have witnessed things beyond the ordinary, though they are not specified",
+     "quotes_failed": false
+    }
+   ],
+   "missing_concepts": [
+    "ordination / laying of hands (סמיכה)",
+    "uncle as rearer and teacher (extended family)",
+    "comparison of a tsaddik to the Besht's level"
+   ],
+   "start_quote_found": true,
+   "end_quote_found": true
+  }
+ ],
+ "check": {
+  "non_vocab_tags": [],
+  "quotes": 4,
+  "quotes_not_found": 0
+ },
+ "id": "Eser-Kedushot_0166",
+ "chars": 324,
+ "seconds": 15
+}

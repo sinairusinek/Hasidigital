@@ -1,0 +1,113 @@
+{
+ "unit": {
+  "kind": "hasidic_story",
+  "why": "A short anecdote: a childless elderly mitnagged couple conceive, and the Maggid (of Kozhenits) remarks jokingly on it.",
+  "boundary_note": ""
+ },
+ "stories": [
+  {
+   "k": 1,
+   "start_quote": "עו״ש מהנ״ל שסיפרו לו איך",
+   "end_quote": "הוא ג״כ יכול ליתן ב״ז",
+   "hasidic": true,
+   "summary_en": "The Maggid was told that an elderly childless mitnagged couple had conceived, and he joked that God had shown that He too can grant children, since everyone runs to the Maggid or the Seer of Lublin.",
+   "tags": [
+    {
+     "tag": "supernatural:pregnancy",
+     "scope": "span",
+     "quotes": [
+      "והיו עקרים ונפקדו בזרע של קיימא"
+     ],
+     "confidence": 2,
+     "why": "a barren old couple conceives, presented as divine act",
+     "quotes_failed": false
+    },
+    {
+     "tag": "social:relations_with_non_hasidim",
+     "scope": "span",
+     "quotes": [
+      "איך שהיה איש מתנגד לערך חמשים שנה"
+     ],
+     "confidence": 3,
+     "why": "the subject is a mitnagged",
+     "quotes_failed": false
+    },
+    {
+     "tag": "practice:joke",
+     "scope": "span",
+     "quotes": [
+      "ואמר בדרך הלצה השי״ת הראה שהוא ג״כ יכול"
+     ],
+     "confidence": 3,
+     "why": "the Maggid speaks in jest",
+     "quotes_failed": false
+    },
+    {
+     "tag": "practice:torat_ha_tsaddik",
+     "scope": "span",
+     "quotes": [
+      "היו רצים או להמגיד או להרבי מלובלין",
+      "מחמת שכל העולם שוכחים מהשי״ת"
+     ],
+     "confidence": 3,
+     "why": "reflection on people relying on tzaddikim rather than God",
+     "quotes_failed": false
+    },
+    {
+     "tag": "practice:travel_to_the_tsaddik",
+     "scope": "span",
+     "quotes": [
+      "היו רצים או להמגיד או להרבי מלובלין"
+     ],
+     "confidence": 1,
+     "why": "people running to tzaddikim with requests, mentioned generally",
+     "quotes_failed": false
+    },
+    {
+     "tag": "ethics-and-emotions:humility",
+     "scope": "span",
+     "quotes": [
+      "השי״ת הראה שהוא ג״כ יכול ליתן ב״ז"
+     ],
+     "confidence": 2,
+     "why": "the Maggid credits God rather than tzaddikim",
+     "quotes_failed": false
+    },
+    {
+     "tag": "characters-and-roles:preacher",
+     "scope": "span",
+     "quotes": [
+      "אמר המגיד זצ״ל שהשי״ת עשה טוב מאוד"
+     ],
+     "confidence": 1,
+     "why": "the Maggid (of Kozhenits) speaks, though as a rebbe",
+     "quotes_failed": false
+    },
+    {
+     "tag": "women:minor_character",
+     "scope": "span",
+     "quotes": [
+      "ואשתו ג״כ היתה לערך זה"
+     ],
+     "confidence": 2,
+     "why": "the wife is part of the barren couple who conceive",
+     "quotes_failed": false
+    }
+   ],
+   "missing_concepts": [
+    "childlessness / barrenness",
+    "God acting without the tzaddik's mediation"
+   ],
+   "start_quote_found": true,
+   "end_quote_found": true
+  }
+ ],
+ "check": {
+  "non_vocab_tags": [],
+  "quotes": 9,
+  "quotes_not_found": 0
+ },
+ "id": "Likutim-Hadashim_0010",
+ "chars": 298,
+ "seconds": 12
+}

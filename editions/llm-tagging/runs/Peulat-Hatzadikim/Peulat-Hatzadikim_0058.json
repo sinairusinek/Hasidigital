@@ -1,0 +1,186 @@
+{
+ "unit": {
+  "kind": "non_hasidic_story",
+  "why": "A legend about an anonymous hidden righteous man, one of the 36. It is set among Jews persecuted by the Church and has no Hasidic figures or setting.",
+  "boundary_note": ""
+ },
+ "stories": [
+  {
+   "k": 1,
+   "start_quote": "מעשה מא' מן הל\"ו צדיקים יען",
+   "end_quote": "היה לאל ידו להושיע אותם",
+   "hasidic": false,
+   "summary_en": "A bishop's decree bans all dealings with Jews. After a week of fasting and prayer the Jews press an anonymous holy man to act. He collects a gold coin from every Jew and goes to Rome, where he foretells the pope's sudden illness to the youngest cardinal. In return for a written pledge to favour the Jews, he bribes the other cardinals to elect that cardinal pope, and the persecution ends.",
+   "tags": [
+    {
+     "tag": "characters-and-roles:hidden_righteous",
+     "scope": "story",
+     "quotes": [],
+     "confidence": 3,
+     "why": "The hero is explicitly one of the hidden 36 righteous.",
+     "quotes_failed": false
+    },
+    {
+     "tag": "not-a-hasidic-story:hagiography",
+     "scope": "story",
+     "quotes": [],
+     "confidence": 2,
+     "why": "Praises a non-Hasidic hidden saint.",
+     "quotes_failed": false
+    },
+    {
+     "tag": "folkloristics:story_type_protection",
+     "scope": "story",
+     "quotes": [],
+     "confidence": 3,
+     "why": "The holy man saves the community from a hostile decree.",
+     "quotes_failed": false
+    },
+    {
+     "tag": "practice:protection",
+     "scope": "span",
+     "quotes": [
+      "ותשקט הארץ מתרועת מלחמה ושנאת היהודים"
+     ],
+     "confidence": 3,
+     "why": "The community is shielded from persecution.",
+     "quotes_failed": false
+    },
+    {
+     "tag": "supernatural:prognostication",
+     "scope": "span",
+     "quotes": [
+      "יבא אליך הבשורה כי חלה הפאפסט חולי מסוכנה"
+     ],
+     "confidence": 3,
+     "why": "He predicts the pope's illness, and it happens.",
+     "quotes_failed": false
+    },
+    {
+     "tag": "folkloristics:story_type_prognostication",
+     "scope": "story",
+     "quotes": [],
+     "confidence": 2,
+     "why": "The fulfilled prediction is the turning point of the plot.",
+     "quotes_failed": false
+    },
+    {
+     "tag": "social:relations_with_non_jews",
+     "scope": "span",
+     "quotes": [
+      "דרש הבישאף כי אסור לבל ישמעאל לעסוק עם ישראל",
+      "ויאמר האיש הזה אל הקדריגאל חטה אזניך"
+     ],
+     "confidence": 3,
+     "why": "The plot turns on the bishop, the cardinals and the pope.",
+     "quotes_failed": false
+    },
+    {
+     "tag": "social:relations_with_the_authorities",
+     "scope": "span",
+     "quotes": [
+      "ישבו כל הסגנים לבחור פאפסט"
+     ],
+     "confidence": 2,
+     "why": "He deals with the Church hierarchy, which holds political power.",
+     "quotes_failed": false
+    },
+    {
+     "tag": "practice:fasting",
+     "scope": "span",
+     "quotes": [
+      "ויצומו ויבכו בתחנה ובתפלה לאדון המושיע"
+     ],
+     "confidence": 3,
+     "why": "The community holds a week of fasting.",
+     "quotes_failed": false
+    },
+    {
+     "tag": "practice:prayer",
+     "scope": "span",
+     "quotes": [
+      "יום אחר יום רצופים בצום ובבכי ובתפלה"
+     ],
+     "confidence": 3,
+     "why": "The community prays for deliverance.",
+     "quotes_failed": false
+    },
+    {
+     "tag": "ethics-and-emotions:humility",
+     "scope": "span",
+     "quotes": [
+      "כי מה ראיתם מאתי להעמים עלי מעמסת"
+     ],
+     "confidence": 2,
+     "why": "He refuses to be seen as holy.",
+     "quotes_failed": false
+    },
+    {
+     "tag": "ethics-and-emotions:fear",
+     "scope": "span",
+     "quotes": [
+      "ויחרד הקארדינאל הזה חרדה גדולה"
+     ],
+     "confidence": 2,
+     "why": "The cardinal is terrified when the prophecy is fulfilled.",
+     "quotes_failed": false
+    },
+    {
+     "tag": "supernatural:miracle",
+     "scope": "span",
+     "quotes": [
+      "חלה הפאפסט חולי מסוכנה פתאום חולי אשר ימות בה"
+     ],
+     "confidence": 2,
+     "why": "The healthy pope falls ill suddenly, as foretold.",
+     "quotes_failed": false
+    },
+    {
+     "tag": "times:death",
+     "scope": "span",
+     "quotes": [
+      "הנה מת אדונינו הפאפסט ויבוקש אחד במקומו"
+     ],
+     "confidence": 2,
+     "why": "The pope dies.",
+     "quotes_failed": false
+    },
+    {
+     "tag": "practice:torat_ha_tsaddik",
+     "scope": "span",
+     "quotes": [
+      "בכח כל ישראל כי בטחו בו היה לאל ידו"
+     ],
+     "confidence": 1,
+     "why": "His power comes from the people's trust in him.",
+     "quotes_failed": false
+    },
+    {
+     "tag": "not-a-hasidic-story:virtues",
+     "scope": "span",
+     "quotes": [
+      "כי גדול השתתפות ישראל בצער חביריהם"
+     ],
+     "confidence": 1,
+     "why": "The story is framed as an example of sharing in others' suffering.",
+     "quotes_failed": false
+    }
+   ],
+   "missing_concepts": [
+    "bribery / political manipulation of a papal election",
+    "Church-sponsored anti-Jewish economic boycott",
+    "communal collection of money for intercession"
+   ],
+   "start_quote_found": true,
+   "end_quote_found": true
+  }
+ ],
+ "check": {
+  "non_vocab_tags": [],
+  "quotes": 13,
+  "quotes_not_found": 0
+ },
+ "id": "Peulat-Hatzadikim_0058",
+ "chars": 5441,
+ "seconds": 22
+}

@@ -1,0 +1,63 @@
+{
+ "unit": {
+  "kind": "hasidic_story",
+  "why": "A short narrative: the Besht sees at a distance, through the holy spirit, a palace whose purpose was to shelter a hasid from hailstones for one hour, and he laughs at it.",
+  "boundary_note": "Division ends with the heading 'מענין ארץ', which belongs to the next entry (יז)."
+ },
+ "stories": [
+  {
+   "k": 1,
+   "start_quote": "וכבר שמענו בזמננו שפ״א שחק הבעש״ט",
+   "end_quote": "נפל הבנין והוא ידוע ומפורסם",
+   "hasidic": true,
+   "summary_en": "The Besht saw from afar, through the holy spirit, a palace that had been built for sixteen years and never finished; in one hour it sheltered a hasid from hailstones, and it collapsed as soon as he left. The Besht laughed at the sight.",
+   "tags": [
+    {
+     "tag": "supernatural:perception",
+     "scope": "span",
+     "quotes": [
+      "שראה ברוה״ק למרחקים"
+     ],
+     "confidence": 3,
+     "why": "The Besht sees a distant event through the holy spirit.",
+     "quotes_failed": false
+    },
+    {
+     "tag": "supernatural:miracle",
+     "scope": "span",
+     "quotes": [
+      "ובשעה אחת ניצל חסיד אחד מאבני אלגביש",
+      "וכשיצא משם אותו החסיד נפל הבנין"
+     ],
+     "confidence": 2,
+     "why": "The hasid is miraculously saved, and the building collapses right after he leaves.",
+     "quotes_failed": false
+    },
+    {
+     "tag": "social:retrospective_recognition",
+     "scope": "span",
+     "quotes": [
+      "שבנאו ארמון ט״ז שנים ולא השלימוהו"
+     ],
+     "confidence": 1,
+     "why": "The hidden purpose of the long, unfinished building becomes clear afterwards.",
+     "quotes_failed": false
+    }
+   ],
+   "missing_concepts": [
+    "divine providence (hashgacha pratit): a long-term event exists only to serve one moment of rescue",
+    "the tsaddik's laughter as a response to seeing providence at work"
+   ],
+   "start_quote_found": true,
+   "end_quote_found": true
+  }
+ ],
+ "check": {
+  "non_vocab_tags": [],
+  "quotes": 4,
+  "quotes_not_found": 0
+ },
+ "id": "Derech-Haemuna_0018",
+ "chars": 224,
+ "seconds": 11
+}

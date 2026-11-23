@@ -1,0 +1,98 @@
+{
+ "unit": {
+  "kind": "hasidic_story",
+  "why": "A brief anecdote: a tzaddik's son praises his father's devekut before the rebbe (R. Zvi), who answers with a witty teaching on divine names in every breath. It is a minimal narrative with an event and a reply.",
+  "boundary_note": ""
+ },
+ "stories": [
+  {
+   "k": 1,
+   "start_quote": "עוד שם פ' ויצא וז\"ל וכאשר",
+   "end_quote": "בשם הוי׳ ב\"ה וב\"ש עכדפח\"ח עכ״ל",
+   "hasidic": true,
+   "summary_en": "A tzaddik's son boasts that his father never broke his cleaving to God for twenty hours a day. The rebbe retorts that the father cleaved in every breath, drawing the breath in with the name Elohim and out with the Tetragrammaton.",
+   "tags": [
+    {
+     "tag": "practice:devekut",
+     "scope": "span",
+     "quotes": [
+      "לא הפסיק מדביקות הבורא"
+     ],
+     "confidence": 3,
+     "why": "The anecdote centers on uninterrupted cleaving to God.",
+     "quotes_failed": false
+    },
+    {
+     "tag": "experience:devekut",
+     "scope": "span",
+     "quotes": [
+      "שבכל נשימה ונשימה כאשר המשיך אותה אל תוך הגוף"
+     ],
+     "confidence": 2,
+     "why": "It describes devekut sustained in every breath.",
+     "quotes_failed": false
+    },
+    {
+     "tag": "characters-and-roles:the_family_of_the_tsaddik",
+     "scope": "span",
+     "quotes": [
+      "שבח בן צדיק אחד לפניו את אביו"
+     ],
+     "confidence": 2,
+     "why": "A tzaddik's son speaks about his father.",
+     "quotes_failed": false
+    },
+    {
+     "tag": "practice:joke",
+     "scope": "span",
+     "quotes": [
+      "והשיב בצחות לשונו מה אתה אומר נער"
+     ],
+     "confidence": 1,
+     "why": "The rebbe's reply is a witty retort.",
+     "quotes_failed": false
+    },
+    {
+     "tag": "practice:meditation",
+     "scope": "span",
+     "quotes": [
+      "הי' בשם אלקים ובהתפשטות לחוץ הי' בשם הוי׳"
+     ],
+     "confidence": 1,
+     "why": "Contemplating divine names with each breath is a form of mystical concentration.",
+     "quotes_failed": false
+    },
+    {
+     "tag": "not-a-hasidic-story:sermon",
+     "scope": "story",
+     "quotes": [],
+     "confidence": 1,
+     "why": "The point of the anecdote is a kabbalistic teaching quoted from a homiletic work.",
+     "quotes_failed": false
+    },
+    {
+     "tag": "ethics-and-emotions:virtues",
+     "scope": "story",
+     "quotes": [],
+     "confidence": 1,
+     "why": "It praises a tzaddik's spiritual virtue.",
+     "quotes_failed": false
+    }
+   ],
+   "missing_concepts": [
+    "breath as a vehicle of divine names (mysticism of breathing)",
+    "praising a tzaddik's piety and having the praise corrected"
+   ],
+   "start_quote_found": true,
+   "end_quote_found": true
+  }
+ ],
+ "check": {
+  "non_vocab_tags": [],
+  "quotes": 5,
+  "quotes_not_found": 0
+ },
+ "id": "Eser-Orot_0357",
+ "chars": 289,
+ "seconds": 15
+}

@@ -1,0 +1,170 @@
+{
+ "unit": {
+  "kind": "hasidic_story",
+  "why": "A single narrative: R. Itzikl of Radvil heals a duchess's son, who later becomes a high judicial official and frees him and other tzaddikim from a denunciation.",
+  "boundary_note": ""
+ },
+ "stories": [
+  {
+   "k": 1,
+   "start_quote": "מחו׳ הרה״ק ר׳ איציקל מראדוויל פלאי פלאות",
+   "end_quote": "גם להצדיקים הנ\"ל טובה על ידו זי\"ע",
+   "hasidic": true,
+   "summary_en": "As a young maggid in Nadvorna, R. Itzikl of Radvil promises a weeping duchess that her dying son will recover so that he may one day benefit Israel; the boy grows up to head the court officials in Zhitomir, and when R. Itzikl, R. Motele of Chernobyl and the Ruzhiner are denounced and summoned there, he recognizes R. Itzikl, honors him and releases him, benefiting the other tzaddikim too.",
+   "tags": [
+    {
+     "tag": "practice:healing",
+     "scope": "span",
+     "quotes": [
+      "והבטיח לה אשר יתרפא הילד. והלכה מאתו וכן היה"
+     ],
+     "confidence": 3,
+     "why": "child healed after doctors despaired",
+     "quotes_failed": false
+    },
+    {
+     "tag": "practice:lifesaving",
+     "scope": "span",
+     "quotes": [
+      "בנה הילד מוטל על ערש דוי והרופאים אמרו נואש"
+     ],
+     "confidence": 2,
+     "why": "dying child saved",
+     "quotes_failed": false
+    },
+    {
+     "tag": "practice:prayer",
+     "scope": "span",
+     "quotes": [
+      "רבש\"ע הלא יש כמה ערלים בעולם יחיה גם הערל הזה"
+     ],
+     "confidence": 2,
+     "why": "brief prayer to God for the child",
+     "quotes_failed": false
+    },
+    {
+     "tag": "supernatural:miracle",
+     "scope": "span",
+     "quotes": [
+      "והבטיח לה אשר יתרפא הילד. והלכה מאתו וכן היה"
+     ],
+     "confidence": 3,
+     "why": "miraculous recovery",
+     "quotes_failed": false
+    },
+    {
+     "tag": "supernatural:prognostication",
+     "scope": "span",
+     "quotes": [
+      "אולי יצמח לבר ישראל טובה על ידו"
+     ],
+     "confidence": 2,
+     "why": "anticipated benefit to Jews comes true",
+     "quotes_failed": false
+    },
+    {
+     "tag": "folkloristics:story_type_prognostication",
+     "scope": "story",
+     "quotes": [],
+     "confidence": 2,
+     "why": "arc fulfills the tzaddik's words",
+     "quotes_failed": false
+    },
+    {
+     "tag": "folkloristics:story_type_protection",
+     "scope": "story",
+     "quotes": [],
+     "confidence": 3,
+     "why": "tzaddikim protected from denunciation",
+     "quotes_failed": false
+    },
+    {
+     "tag": "practice:protection",
+     "scope": "span",
+     "quotes": [
+      "ונתגלגל גם להצדיקים הנ\"ל טובה על ידו"
+     ],
+     "confidence": 3,
+     "why": "rescue from a hostile legal proceeding",
+     "quotes_failed": false
+    },
+    {
+     "tag": "social:relations_with_non_jews",
+     "scope": "span",
+     "quotes": [
+      "באה לפניו דוכסה אחת בבכיה גדולה"
+     ],
+     "confidence": 3,
+     "why": "non-Jewish duchess and her son",
+     "quotes_failed": false
+    },
+    {
+     "tag": "social:relations_with_the_authorities",
+     "scope": "span",
+     "quotes": [
+      "נעשה שר גדול על כל הממונים בבית המשפט",
+      "והוכרחו לנסוע לזיטאמיר להיות בבית המשפט"
+     ],
+     "confidence": 3,
+     "why": "state court in Zhitomir",
+     "quotes_failed": false
+    },
+    {
+     "tag": "social:conflict",
+     "scope": "span",
+     "quotes": [
+      "נעשה מסירה גדולה על שלשה צדיקי הדור"
+     ],
+     "confidence": 2,
+     "why": "denunciation by informers",
+     "quotes_failed": false
+    },
+    {
+     "tag": "social:retrospective_recognition",
+     "scope": "span",
+     "quotes": [
+      "רץ לקראתו ברוב אהבה והכיר אותו תיכף"
+     ],
+     "confidence": 2,
+     "why": "official recognizes his healer",
+     "quotes_failed": false
+    },
+    {
+     "tag": "characters-and-roles:preacher",
+     "scope": "span",
+     "quotes": [
+      "בהיותו עוד מגיד מישרים דעיר נאדבורנא"
+     ],
+     "confidence": 1,
+     "why": "tzaddik served as maggid",
+     "quotes_failed": false
+    },
+    {
+     "tag": "women:catalyst_character",
+     "scope": "span",
+     "quotes": [
+      "באה לפניו דוכסה אחת בבכיה גדולה"
+     ],
+     "confidence": 3,
+     "why": "duchess's request triggers the plot",
+     "quotes_failed": false
+    }
+   ],
+   "missing_concepts": [
+    "informing / denunciation (mesirah) to authorities",
+    "judicial oath demanded of tzaddikim",
+    "ungrateful vs. grateful gentile beneficiary repaying tzaddik"
+   ],
+   "start_quote_found": true,
+   "end_quote_found": true
+  }
+ ],
+ "check": {
+  "non_vocab_tags": [],
+  "quotes": 13,
+  "quotes_not_found": 0
+ },
+ "id": "Eser-Orot_0100",
+ "chars": 1211,
+ "seconds": 18
+}

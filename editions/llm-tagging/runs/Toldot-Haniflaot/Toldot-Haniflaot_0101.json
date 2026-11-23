@@ -1,0 +1,88 @@
+{
+ "unit": {
+  "kind": "hasidic_story",
+  "why": "A minimal anecdote: once a man asked the rebbe to speak words of Hasidism to him, and he answered that he knew none except not to be idle and to engage always in Torah and prayer.",
+  "boundary_note": "Barely narrative: a request-and-reply chreia among numbered sayings. It could equally be classed as saying_or_teaching."
+ },
+ "stories": [
+  {
+   "k": 1,
+   "start_quote": "כ״פ אירע אשר איש א׳ היה",
+   "end_quote": "ולעסוק תמיד בתורה ותפלה",
+   "hasidic": true,
+   "summary_en": "When a man asks the tsaddik for words of Hasidism, he humbly replies that he knows none, only not to be idle and to engage constantly in Torah and prayer.",
+   "tags": [
+    {
+     "tag": "ethics-and-emotions:humility",
+     "scope": "span",
+     "quotes": [
+      "איני יודע כלל דברי חסידות"
+     ],
+     "confidence": 2,
+     "why": "The tsaddik disclaims any knowledge of Hasidic teaching.",
+     "quotes_failed": false
+    },
+    {
+     "tag": "folkloristics:story_type_virtues",
+     "scope": "story",
+     "quotes": [],
+     "confidence": 1,
+     "why": "The anecdote illustrates the tsaddik's modesty and his simple devotion.",
+     "quotes_failed": false
+    },
+    {
+     "tag": "not-a-hasidic-story:sermon",
+     "scope": "story",
+     "quotes": [],
+     "confidence": 2,
+     "why": "The point is a teaching (avoid idleness, study and pray), with only a minimal narrative frame.",
+     "quotes_failed": false
+    },
+    {
+     "tag": "practice:study",
+     "scope": "span",
+     "quotes": [
+      "ולעסוק תמיד בתורה ותפלה"
+     ],
+     "confidence": 1,
+     "why": "Constant Torah study is recommended, though it is not depicted.",
+     "quotes_failed": false
+    },
+    {
+     "tag": "practice:prayer",
+     "scope": "span",
+     "quotes": [
+      "ולעסוק תמיד בתורה ותפלה"
+     ],
+     "confidence": 1,
+     "why": "Prayer is discussed as the core of service.",
+     "quotes_failed": false
+    },
+    {
+     "tag": "practice:reception_of_hasidim",
+     "scope": "span",
+     "quotes": [
+      "איש א׳ היה מבקש ממנו שידבר עמו"
+     ],
+     "confidence": 1,
+     "why": "A visitor makes a request and the tsaddik responds.",
+     "quotes_failed": false
+    }
+   ],
+   "missing_concepts": [
+    "avoiding idleness (bittul zman)",
+    "simplicity of Hasidic doctrine"
+   ],
+   "start_quote_found": true,
+   "end_quote_found": true
+  }
+ ],
+ "check": {
+  "non_vocab_tags": [],
+  "quotes": 4,
+  "quotes_not_found": 0
+ },
+ "id": "Toldot-Haniflaot_0101",
+ "chars": 136,
+ "seconds": 11
+}

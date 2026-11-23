@@ -1,0 +1,101 @@
+{
+ "unit": {
+  "kind": "hasidic_story",
+  "why": "split out of non-story-111 (non-story)"
+ },
+ "stories": [
+  {
+   "k": 1,
+   "start_quote": "ראיתי בכת\"י חתנו הרב ר׳ אלחנן ז\"ל",
+   "end_quote": "ואמר שתירוץ אמיתי הוא",
+   "hasidic": true,
+   "summary_en": "While in Warsaw, the tsaddik visits the Gaon author of Hemdat Shlomo, who asks him how Isaac could tithe by estimate; he answers at once from Mishnah Gittin, and the Gaon praises the answer as true.",
+   "tags": [
+    {
+     "tag": "practice:halakhah",
+     "scope": "span",
+     "quotes": [
+      "והלא איתא דאין מעשרין מאומד"
+     ],
+     "confidence": 3,
+     "why": "the question turns on the law against tithing by estimate",
+     "quotes_failed": false
+    },
+    {
+     "tag": "practice:sermon",
+     "scope": "span",
+     "quotes": [
+      "מ״ש רש\"י ע״פ וימצא מאה שערים"
+     ],
+     "confidence": 2,
+     "why": "the exchange is exegesis of a verse and Rashi",
+     "quotes_failed": false
+    },
+    {
+     "tag": "practice:study",
+     "scope": "span",
+     "quotes": [
+      "והשיב לו מיד ע״פ דאיתא במתני׳ דגיטין"
+     ],
+     "confidence": 2,
+     "why": "a scholarly Torah exchange with the Gaon",
+     "quotes_failed": false
+    },
+    {
+     "tag": "practice:the_travels_of_the_tsaddik",
+     "scope": "span",
+     "quotes": [
+      "שפ\"א היה בווארשא בזמן הגאון הצדיק"
+     ],
+     "confidence": 2,
+     "why": "the encounter happens during the tsaddik's stay in Warsaw",
+     "quotes_failed": false
+    },
+    {
+     "tag": "social:relations_with_non_hasidim",
+     "scope": "span",
+     "quotes": [
+      "והלך אליו לקבל פניו"
+     ],
+     "confidence": 2,
+     "why": "meeting with the non-Hasidic rabbi of Warsaw, the Hemdat Shlomo",
+     "quotes_failed": false
+    },
+    {
+     "tag": "characters-and-roles:the_family_of_the_tsaddik",
+     "scope": "span",
+     "quotes": [
+      "וחתנו הנ״ל היה עמו"
+     ],
+     "confidence": 2,
+     "why": "his son-in-law accompanies him and recorded the event",
+     "quotes_failed": false
+    },
+    {
+     "tag": "folkloristics:story_type_virtues",
+     "scope": "story",
+     "quotes": [],
+     "confidence": 1,
+     "why": "the point is to show the tsaddik's learning and quick wit",
+     "quotes_failed": false
+    },
+    {
+     "tag": "not-a-hasidic-story:sermon",
+     "scope": "story",
+     "quotes": [],
+     "confidence": 1,
+     "why": "the narrative is a thin frame around an exegetical answer",
+     "quotes_failed": false
+    }
+   ],
+   "missing_concepts": [
+    "Torah scholarship and erudition of the tsaddik praised by a gaon",
+    "written source: son-in-law's manuscript"
+   ],
+   "start_quote_found": true,
+   "end_quote_found": true
+  }
+ ],
+ "id": "Toldot-Haniflaot_non-story-111_s1",
+ "split_from": "non-story-111"
+}

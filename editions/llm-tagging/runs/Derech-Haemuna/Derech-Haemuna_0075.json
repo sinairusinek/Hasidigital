@@ -1,0 +1,182 @@
+{
+ "unit": {
+  "kind": "hasidic_story",
+  "why": "An ethical teaching on mercy, quoted from a book, frames one narrative: Elijah tests R. Eliezer, the Besht's father, and promises him a son.",
+  "boundary_note": ""
+ },
+ "stories": [
+  {
+   "k": 1,
+   "start_quote": "וספרו מעשה נפלאה מרבי אליעזר אבי הבעש״ט",
+   "end_quote": "שיאיר עיני ב״י וזכה להבעש״ט",
+   "hasidic": true,
+   "summary_en": "R. Eliezer, the Besht's father, is famed for hospitality, so Heaven decides to test him; Elijah comes disguised as a poor man who has broken the Sabbath, and R. Eliezer hosts him without shaming him, so Elijah reveals himself and promises a son who will enlighten Israel, the Besht.",
+   "tags": [
+    {
+     "tag": "characters-and-roles:elijah_the_prophet",
+     "scope": "span",
+     "quotes": [
+      "והלך אלי׳ ז\"ל אליו בשבת אחר חצות בדמות עני",
+      "דע לך שאני אלי׳ הנביא ובאתי לנסותך"
+     ],
+     "confidence": 3,
+     "why": "Elijah comes in disguise and tests him",
+     "quotes_failed": false
+    },
+    {
+     "tag": "characters-and-roles:the_family_of_the_tsaddik",
+     "scope": "span",
+     "quotes": [
+      "מרבי אליעזר אבי הבעש״ט זצ״ל"
+     ],
+     "confidence": 3,
+     "why": "the protagonist is the Besht's father",
+     "quotes_failed": false
+    },
+    {
+     "tag": "characters-and-roles:angel_of_death",
+     "scope": "span",
+     "quotes": [
+      "ואמר הס\"ם אני אלך"
+     ],
+     "confidence": 2,
+     "why": "Samael offers to carry out the test",
+     "quotes_failed": false
+    },
+    {
+     "tag": "spaces:heaven",
+     "scope": "span",
+     "quotes": [
+      "שיבחו בשמים ממעל מאד הנהגות טובות שלו",
+      "והסכימו בשמים לנסותו באיזה דבר"
+     ],
+     "confidence": 2,
+     "why": "a scene of deliberation in Heaven",
+     "quotes_failed": false
+    },
+    {
+     "tag": "ethics-and-emotions:charity",
+     "scope": "span",
+     "quotes": [
+      "נתן לו מיד נדבה הגונה קודם שיאכל",
+      "ונתן לו ג״כ נדבה"
+     ],
+     "confidence": 3,
+     "why": "he gives alms and hosts the poor",
+     "quotes_failed": false
+    },
+    {
+     "tag": "ethics-and-emotions:virtues",
+     "scope": "story",
+     "quotes": [],
+     "confidence": 3,
+     "why": "the tale shows his patience and hospitality",
+     "quotes_failed": false
+    },
+    {
+     "tag": "folkloristics:story_type_virtues",
+     "scope": "story",
+     "quotes": [],
+     "confidence": 3,
+     "why": "the tale's point is his virtue of forbearance",
+     "quotes_failed": false
+    },
+    {
+     "tag": "not-a-hasidic-story:virtues",
+     "scope": "story",
+     "quotes": [],
+     "confidence": 2,
+     "why": "the frame is a lesson in the virtue of mercy",
+     "quotes_failed": false
+    },
+    {
+     "tag": "folkloristics:story_type_birth_of_the_tsaddik",
+     "scope": "span",
+     "quotes": [
+      "ובשכר זה תזכה לבן שיאיר עיני ב״י"
+     ],
+     "confidence": 2,
+     "why": "the Besht's birth is promised as a reward",
+     "quotes_failed": false
+    },
+    {
+     "tag": "supernatural:prognostication",
+     "scope": "span",
+     "quotes": [
+      "תזכה לבן שיאיר עיני ב״י וזכה להבעש״ט"
+     ],
+     "confidence": 2,
+     "why": "the promise of a son comes true",
+     "quotes_failed": false
+    },
+    {
+     "tag": "experience:revelation",
+     "scope": "span",
+     "quotes": [
+      "גילה א״ע אליו ואמר לו"
+     ],
+     "confidence": 2,
+     "why": "Elijah reveals himself to him",
+     "quotes_failed": false
+    },
+    {
+     "tag": "social:retrospective_recognition",
+     "scope": "span",
+     "quotes": [
+      "דע לך שאני אלי׳ הנביא ובאתי לנסותך"
+     ],
+     "confidence": 3,
+     "why": "the poor guest turns out to be Elijah",
+     "quotes_failed": false
+    },
+    {
+     "tag": "times:shabbat",
+     "scope": "span",
+     "quotes": [
+      "בשבת אחר חצות בדמות עני במקלו ותרמילו",
+      "לאכול סעודה שלישית בכבוד"
+     ],
+     "confidence": 3,
+     "why": "the test happens on Shabbat",
+     "quotes_failed": false
+    },
+    {
+     "tag": "ethics-and-emotions:prohibitions",
+     "scope": "span",
+     "quotes": [
+      "לגרשו לחוץ כמחלל שבת",
+      "ולא הזכיר לו כלל מענין חילול שבת"
+     ],
+     "confidence": 2,
+     "why": "the guest has apparently broken the Sabbath",
+     "quotes_failed": false
+    },
+    {
+     "tag": "social:relations_with_sinners",
+     "scope": "span",
+     "quotes": [
+      "היה סבלן ולא רצה לביישו"
+     ],
+     "confidence": 2,
+     "why": "he bears with an apparent sinner",
+     "quotes_failed": false
+    }
+   ],
+   "missing_concepts": [
+    "hospitality (hakhnasat orchim)",
+    "heavenly test of a righteous man",
+    "not shaming a sinner / mercy"
+   ],
+   "start_quote_found": true,
+   "end_quote_found": true
+  }
+ ],
+ "check": {
+  "non_vocab_tags": [],
+  "quotes": 17,
+  "quotes_not_found": 0
+ },
+ "id": "Derech-Haemuna_0075",
+ "chars": 1603,
+ "seconds": 21
+}

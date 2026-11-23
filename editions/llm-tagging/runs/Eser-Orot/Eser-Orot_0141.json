@@ -1,0 +1,312 @@
+{
+ "unit": {
+  "kind": "hasidic_story",
+  "why": "A chained narrative quoted from a letter: the Seer of Lublin arranges a match for R. Leib, the barren wife is blessed by the Kozhnitzer Maggid, and the Maggid's journey to the circumcision is told with further wonders along the way.",
+  "boundary_note": ""
+ },
+ "stories": [
+  {
+   "k": 1,
+   "start_quote": "עו\"ש בשם מכתב הגאבד״ק סעראצק שי׳",
+   "end_quote": "וכיבדו הנסיך מאד וכו' עכ״ל",
+   "hasidic": true,
+   "summary_en": "The Seer of Lublin tells R. Leib Mimeles to marry his sister-in-law Bila after the Seer's own wife dies. She is childless, so she is sent to the Maggid of Kozhnitz, whose roaring prayer brings a pregnancy. On the way to the circumcision in Lublin, the Maggid heals a noblewoman's crippled son on condition that she protect her Jewish leaseholders, is attacked by a hostile tailor while carrying the Torah scroll, and is honoured by Prince Czartoryski.",
+   "tags": [
+    {
+     "tag": "social:marriage",
+     "scope": "span",
+     "quotes": [
+      "לא הזדמן לפניה שידוך הגון",
+      "ושלח הרבי מלובלין לה״ר ליב כי היא זיווגו"
+     ],
+     "confidence": 3,
+     "why": "the match arranged by the Seer",
+     "quotes_failed": false
+    },
+    {
+     "tag": "supernatural:prognostication",
+     "scope": "span",
+     "quotes": [
+      "השיב א״כ תזדמן בקרוב"
+     ],
+     "confidence": 2,
+     "why": "the Seer's prediction of a quick match comes true",
+     "quotes_failed": false
+    },
+    {
+     "tag": "characters-and-roles:the_family_of_the_tsaddik",
+     "scope": "span",
+     "quotes": [
+      "וחלתה אשת הרבי הרבנית מרת טילא ונפטרה"
+     ],
+     "confidence": 3,
+     "why": "the Seer's wife, whose death opens the match",
+     "quotes_failed": false
+    },
+    {
+     "tag": "times:death",
+     "scope": "span",
+     "quotes": [
+      "וחלתה אשת הרבי הרבנית מרת טילא ונפטרה"
+     ],
+     "confidence": 3,
+     "why": "the rebbetzin's death is told",
+     "quotes_failed": false
+    },
+    {
+     "tag": "supernatural:pregnancy",
+     "scope": "span",
+     "quotes": [
+      "תשמע תפלתי ותועיל להריון",
+      "ואח״ז נתעברה וילדה ש\"ק חוקת"
+     ],
+     "confidence": 3,
+     "why": "conception after the Maggid's prayer",
+     "quotes_failed": false
+    },
+    {
+     "tag": "times:birth",
+     "scope": "span",
+     "quotes": [
+      "ואח״ז נתעברה וילדה ש\"ק חוקת"
+     ],
+     "confidence": 3,
+     "why": "the birth is told",
+     "quotes_failed": false
+    },
+    {
+     "tag": "practice:circumcision",
+     "scope": "span",
+     "quotes": [
+      "שיבא על הב״מ לובלינה"
+     ],
+     "confidence": 3,
+     "why": "the Maggid is invited to the brit and travels to it",
+     "quotes_failed": false
+    },
+    {
+     "tag": "practice:travel_to_the_tsaddik",
+     "scope": "span",
+     "quotes": [
+      "ושלח אותה לקאזניץ לקאזניץ וכו׳"
+     ],
+     "confidence": 3,
+     "why": "the woman travels to the Kozhnitzer Maggid",
+     "quotes_failed": false
+    },
+    {
+     "tag": "practice:travel_to_other_tsaddik",
+     "scope": "span",
+     "quotes": [
+      "ושלח אותה לקאזניץ לקאזניץ וכו׳"
+     ],
+     "confidence": 2,
+     "why": "a Lublin disciple's wife is sent to another tsaddik",
+     "quotes_failed": false
+    },
+    {
+     "tag": "practice:prayer",
+     "scope": "span",
+     "quotes": [
+      "בתפלה שאג כארי"
+     ],
+     "confidence": 3,
+     "why": "the Maggid's prayer for her",
+     "quotes_failed": false
+    },
+    {
+     "tag": "experience:enthusiasm",
+     "scope": "span",
+     "quotes": [
+      "בסיבת התלהבותו נעדר מתאוות המשגל",
+      "בתפלה שאג כארי"
+     ],
+     "confidence": 2,
+     "why": "R. Leib's fervour and the Maggid's roaring prayer",
+     "quotes_failed": false
+    },
+    {
+     "tag": "ethics-and-emotions:lust",
+     "scope": "span",
+     "quotes": [
+      "נעדר מתאוות המשגל וכח גברא"
+     ],
+     "confidence": 1,
+     "why": "his absence of sexual desire is given as the cause of childlessness",
+     "quotes_failed": false
+    },
+    {
+     "tag": "women:major_character",
+     "scope": "span",
+     "quotes": [
+      "אין רצונה להמתין",
+      "וביקשה את המגיד הק' שיבא"
+     ],
+     "confidence": 3,
+     "why": "Bila acts throughout the story",
+     "quotes_failed": false
+    },
+    {
+     "tag": "women:minor_character",
+     "scope": "span",
+     "quotes": [
+      "ואדונית אחת באה עם בנה שנכווצו רגליו"
+     ],
+     "confidence": 3,
+     "why": "the noblewoman brings her son",
+     "quotes_failed": false
+    },
+    {
+     "tag": "practice:the_travels_of_the_tsaddik",
+     "scope": "span",
+     "quotes": [
+      "ובנסעו נסע דרך עיר פילוב",
+      "בנסעו חזרה בא המגיד הק׳ לארמון הנסיך"
+     ],
+     "confidence": 3,
+     "why": "the Maggid's journey to Lublin and back",
+     "quotes_failed": false
+    },
+    {
+     "tag": "social:relations_with_non_jews",
+     "scope": "span",
+     "quotes": [
+      "והנסיך טשארטרינסקי שר פילוב נסע לקראתי",
+      "ואדונית אחת באה עם בנה"
+     ],
+     "confidence": 3,
+     "why": "the prince and the noblewoman",
+     "quotes_failed": false
+    },
+    {
+     "tag": "practice:healing",
+     "scope": "span",
+     "quotes": [
+      "בנה שנכווצו רגליו וא״י להלוך",
+      "ומהרה קם ויהי לנס"
+     ],
+     "confidence": 3,
+     "why": "the crippled boy is healed",
+     "quotes_failed": false
+    },
+    {
+     "tag": "supernatural:miracle",
+     "scope": "span",
+     "quotes": [
+      "ומהרה קם ויהי לנס",
+      "כי ראה ממנו הרבה מופתים"
+     ],
+     "confidence": 3,
+     "why": "the healing wonder",
+     "quotes_failed": false
+    },
+    {
+     "tag": "practice:smoking",
+     "scope": "span",
+     "quotes": [
+      "נתן לו הלולקא שלו להביא גחלת"
+     ],
+     "confidence": 3,
+     "why": "the pipe is the means of the cure",
+     "quotes_failed": false
+    },
+    {
+     "tag": "practice:protection",
+     "scope": "span",
+     "quotes": [
+      "אם לא תקח שום הוספה מהארענדארים שלך מאחב\"י"
+     ],
+     "confidence": 2,
+     "why": "he secures protection for the Jewish leaseholders",
+     "quotes_failed": false
+    },
+    {
+     "tag": "characters-and-roles:tavern_keeper",
+     "scope": "span",
+     "quotes": [
+      "מהארענדארים שלך מאחב\"י"
+     ],
+     "confidence": 1,
+     "why": "Jewish leaseholders are mentioned",
+     "quotes_failed": false
+    },
+    {
+     "tag": "times:shabbat",
+     "scope": "span",
+     "quotes": [
+      "בש\"ק בלק התפלל בביהכנ\"ס המהרש\"ל"
+     ],
+     "confidence": 3,
+     "why": "the synagogue scene takes place on Shabbat",
+     "quotes_failed": false
+    },
+    {
+     "tag": "social:relations_with_non_hasidim",
+     "scope": "span",
+     "quotes": [
+      "מצד התנגדות נגד החסידים אז כנודע"
+     ],
+     "confidence": 3,
+     "why": "the tailor acts as an opponent of the Hasidim",
+     "quotes_failed": false
+    },
+    {
+     "tag": "social:conflict",
+     "scope": "span",
+     "quotes": [
+      "וחייט אחד נפל עם ב׳ ידיו על הספר לחטפו"
+     ],
+     "confidence": 3,
+     "why": "the attack on the Maggid",
+     "quotes_failed": false
+    },
+    {
+     "tag": "supernatural:perception",
+     "scope": "span",
+     "quotes": [
+      "אמר המגיד אתה חושב כאלו היא ערלית"
+     ],
+     "confidence": 2,
+     "why": "the Maggid reads the tailor's thought",
+     "quotes_failed": false
+    },
+    {
+     "tag": "spaces:beth_midrash",
+     "scope": "span",
+     "quotes": [
+      "ממקום הבהמ\"ד של ר' משה אלי'"
+     ],
+     "confidence": 1,
+     "why": "study halls mark the route of the crowd",
+     "quotes_failed": false
+    },
+    {
+     "tag": "social:inter_hasidic_master_disciple_relationship",
+     "scope": "span",
+     "quotes": [
+      "היה תלמיד הרבי מלובלין"
+     ],
+     "confidence": 2,
+     "why": "R. Leib turns to his master repeatedly",
+     "quotes_failed": false
+    }
+   ],
+   "missing_concepts": [
+    "a tsaddik's blessing for a match (shidduch)",
+    "the Seer marrying his disciple to his own sister-in-law",
+    "a crowd of nobles escorting the tsaddik",
+    "the Torah scroll procession"
+   ],
+   "start_quote_found": true,
+   "end_quote_found": true
+  }
+ ],
+ "check": {
+  "non_vocab_tags": [],
+  "quotes": 35,
+  "quotes_not_found": 0
+ },
+ "id": "Eser-Orot_0141",
+ "chars": 1567,
+ "seconds": 30
+}

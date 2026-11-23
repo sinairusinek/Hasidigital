@@ -1,0 +1,100 @@
+{
+ "unit": {
+  "kind": "hasidic_story",
+  "why": "A homily on why the exile is prolonged (messiah section) that contains a brief anecdote: a tsaddik in the Besht's time tried to force the redemption, was rebuked by the Besht and punished from Heaven.",
+  "boundary_note": "Opens with numbered item יב) under the heading 'מענין משיח' that closes the previous division."
+ },
+ "stories": [
+  {
+   "k": 1,
+   "start_quote": "שהיה בימי הריב״ש זי״ע צדיק אחד",
+   "end_quote": "ובעבור ששכח מהצלת ישראל נענש ממרומים",
+   "hasidic": true,
+   "summary_en": "A tsaddik in the Besht's day wanted to bring the redemption by arousing severe judgments on the wicked. The Besht asked how he would save Israel from those judgments, and the tsaddik was punished from Heaven for forgetting Israel's rescue. The tale is set in a homily, attributed to the Maggid of Kozhnitz, on why the exile is prolonged.",
+   "tags": [
+    {
+     "tag": "characters-and-roles:messiah",
+     "scope": "story",
+     "quotes": [],
+     "confidence": 3,
+     "why": "The attempt to bring the redemption is the subject.",
+     "quotes_failed": false
+    },
+    {
+     "tag": "times:eschatology",
+     "scope": "span",
+     "quotes": [
+      "צדיק אחד שרצה להביא הגאולה",
+      "שיש לאל ידו להביא הגאולה"
+     ],
+     "confidence": 3,
+     "why": "Forcing the end of days and the timing of the redemption.",
+     "quotes_failed": false
+    },
+    {
+     "tag": "ethics-and-emotions:punishment",
+     "scope": "span",
+     "quotes": [
+      "ובעבור ששכח מהצלת ישראל נענש ממרומים"
+     ],
+     "confidence": 3,
+     "why": "The tsaddik is punished by Heaven.",
+     "quotes_failed": false
+    },
+    {
+     "tag": "not-a-hasidic-story:sermon",
+     "scope": "story",
+     "quotes": [],
+     "confidence": 3,
+     "why": "The anecdote sits inside a homiletic explanation of the long exile.",
+     "quotes_failed": false
+    },
+    {
+     "tag": "practice:sermon",
+     "scope": "span",
+     "quotes": [
+      "שלכן ארכו ימי גלותינו בכדי שלא ידח ממנו שום נדח"
+     ],
+     "confidence": 2,
+     "why": "The Maggid of Kozhnitz's teaching on the exile is quoted.",
+     "quotes_failed": false
+    },
+    {
+     "tag": "social:conflict",
+     "scope": "span",
+     "quotes": [
+      "וא״ל הריב״ש זי״ע שבאיזה כח יציל הישראל"
+     ],
+     "confidence": 1,
+     "why": "The Besht challenges the other tsaddik's plan.",
+     "quotes_failed": false
+    },
+    {
+     "tag": "practice:storytelling",
+     "scope": "span",
+     "quotes": [
+      "וכמו ששמעתי ג״כ מאאמו״ר זצ״ל"
+     ],
+     "confidence": 1,
+     "why": "The tale is framed as told by the author's father.",
+     "quotes_failed": false
+    }
+   ],
+   "missing_concepts": [
+    "forcing the end (דחיקת הקץ)",
+    "arousing divine judgments (gevurot/dinim) against the wicked",
+    "gathering the scattered sparks / outcasts of Israel"
+   ],
+   "start_quote_found": true,
+   "end_quote_found": true
+  }
+ ],
+ "check": {
+  "non_vocab_tags": [],
+  "quotes": 6,
+  "quotes_not_found": 0
+ },
+ "id": "Derech-Haemuna_0153",
+ "chars": 507,
+ "seconds": 17
+}

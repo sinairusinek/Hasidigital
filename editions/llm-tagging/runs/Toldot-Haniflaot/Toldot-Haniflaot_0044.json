@@ -1,0 +1,130 @@
+{
+ "unit": {
+  "kind": "hasidic_story",
+  "why": "A short anecdote, relayed through R. Moshe, about the rebbe seeing a young man's recent grave sin, the youth denying it and then confessing, with a general note on the awe young hasidim felt before him.",
+  "boundary_note": ""
+ },
+ "stories": [
+  {
+   "k": 1,
+   "start_quote": "וגם שמעתי מהחסיד המפורסם ר׳ משה",
+   "end_quote": "כנודע ומפורסם, היה זה בין אנ\"ש",
+   "hasidic": true,
+   "summary_en": "The rebbe told R. Moshe that he had seen in a young visitor a recent grave sin; the youth first denied it, but after the rebbe's rebuke he confessed, and such cases made young hasidim approach the rebbe in dread, as if before the heavenly court, and think of repentance.",
+   "tags": [
+    {
+     "tag": "supernatural:perception",
+     "scope": "span",
+     "quotes": [
+      "אני רואה בך שעברת עבירה חמורה"
+     ],
+     "confidence": 3,
+     "why": "The rebbe supernaturally perceives the youth's hidden sin.",
+     "quotes_failed": false
+    },
+    {
+     "tag": "ethics-and-emotions:lying",
+     "scope": "span",
+     "quotes": [
+      "והתחיל לכפור ואמר אפשר בזמן רחוק"
+     ],
+     "confidence": 2,
+     "why": "The youth denies the sin and evades the question.",
+     "quotes_failed": false
+    },
+    {
+     "tag": "ethics-and-emotions:repentance",
+     "scope": "span",
+     "quotes": [
+      "עד אשר הודה ואמר אמת הדבר",
+      "והרהרו בתשובה"
+     ],
+     "confidence": 2,
+     "why": "The youth confesses, and others are moved to think of repentance.",
+     "quotes_failed": false
+    },
+    {
+     "tag": "ethics-and-emotions:awe",
+     "scope": "span",
+     "quotes": [
+      "היה באמת יראה ופחד מפניו מאד"
+     ],
+     "confidence": 3,
+     "why": "The text stresses the awe felt before the tzaddik.",
+     "quotes_failed": false
+    },
+    {
+     "tag": "ethics-and-emotions:fear",
+     "scope": "span",
+     "quotes": [
+      "כאלו הולכים לפני ב\"ד של מעלה"
+     ],
+     "confidence": 3,
+     "why": "Young hasidim dread appearing before him.",
+     "quotes_failed": false
+    },
+    {
+     "tag": "social:relations_with_sinners",
+     "scope": "span",
+     "quotes": [
+      "ודיבר אליו והוכיח אותו"
+     ],
+     "confidence": 3,
+     "why": "The rebbe rebukes a sinner and draws him to confess.",
+     "quotes_failed": false
+    },
+    {
+     "tag": "practice:reception_of_hasidim",
+     "scope": "span",
+     "quotes": [
+      "כי היום בא נער א׳"
+     ],
+     "confidence": 2,
+     "why": "The scene is a youth coming before the rebbe for an audience.",
+     "quotes_failed": false
+    },
+    {
+     "tag": "practice:healing_of_the_soul",
+     "scope": "span",
+     "quotes": [
+      "תן תודה כי אני רואה בך"
+     ],
+     "confidence": 2,
+     "why": "The rebbe reveals a sin that must be mended and brings the youth to confession.",
+     "quotes_failed": false
+    },
+    {
+     "tag": "practice:storytelling",
+     "scope": "span",
+     "quotes": [
+      "סיפר לי מרן ז\"ל כי היום"
+     ],
+     "confidence": 1,
+     "why": "The rebbe himself narrates the incident to R. Moshe.",
+     "quotes_failed": false
+    },
+    {
+     "tag": "spaces:institutions_hassidic_court",
+     "scope": "story",
+     "quotes": [],
+     "confidence": 2,
+     "why": "The setting is the rebbe's court, where young hasidim come before him.",
+     "quotes_failed": false
+    }
+   ],
+   "missing_concepts": [
+    "confession (וידוי, הודאה) of sin to the tzaddik"
+   ],
+   "start_quote_found": true,
+   "end_quote_found": true
+  }
+ ],
+ "check": {
+  "non_vocab_tags": [],
+  "quotes": 10,
+  "quotes_not_found": 0
+ },
+ "id": "Toldot-Haniflaot_0044",
+ "chars": 559,
+ "seconds": 14
+}

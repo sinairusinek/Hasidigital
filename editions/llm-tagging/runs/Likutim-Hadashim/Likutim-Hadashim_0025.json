@@ -1,0 +1,112 @@
+{
+ "unit": {
+  "kind": "hasidic_story",
+  "why": "A single anecdote: the Yehudi sends his disciple R. Peretz to show a dead soul the door, and contrasts his fear with R. Bunem's fearlessness.",
+  "boundary_note": ""
+ },
+ "stories": [
+  {
+   "k": 1,
+   "start_quote": "שמעתי פעם אחת אמר היהודי זצ\"ל",
+   "end_quote": "היכן הפתח ולא פחד כלל",
+   "hasidic": true,
+   "summary_en": "The Yehudi sends his disciple R. Peretz outside to show a dead soul the door to him. Peretz returns weakened by fear, and the Yehudi says that R. Bunem, who showed the dead the door without any fear, could lead even a great city, while Peretz could not lead even a small village.",
+   "tags": [
+    {
+     "tag": "supernatural:communicating_with_the_invisible",
+     "scope": "span",
+     "quotes": [
+      "כי עומד בחוץ נפטר אחד ואינו יודע",
+      "שיראה לנפטרים היכן הפתח"
+     ],
+     "confidence": 3,
+     "why": "The dead souls come to the tzaddik and the disciples guide them to his door.",
+     "quotes_failed": false
+    },
+    {
+     "tag": "supernatural:perception",
+     "scope": "span",
+     "quotes": [
+      "כי עומד בחוץ נפטר אחד ואינו יודע"
+     ],
+     "confidence": 3,
+     "why": "The Yehudi knows that an invisible dead soul is waiting outside.",
+     "quotes_failed": false
+    },
+    {
+     "tag": "ethics-and-emotions:fear",
+     "scope": "span",
+     "quotes": [
+      "נחלש מאוד מחמת הפחד שהיה לו בחוץ",
+      "ולא פחד כלל"
+     ],
+     "confidence": 3,
+     "why": "Peretz's fear of the dead is contrasted with Bunem's fearlessness.",
+     "quotes_failed": false
+    },
+    {
+     "tag": "social:inter_hasidic_master_disciple_relationship",
+     "scope": "story",
+     "quotes": [],
+     "confidence": 3,
+     "why": "The Yehudi tests and judges his disciples.",
+     "quotes_failed": false
+    },
+    {
+     "tag": "social:inter_hasidic_inheritance_of_leadership",
+     "scope": "span",
+     "quotes": [
+      "ר׳ בונם יוכל להיות מנהיג ואפילו עיר גדולה"
+     ],
+     "confidence": 2,
+     "why": "The Yehudi judges which disciple is fit for leadership, pointing to Bunem as his future successor.",
+     "quotes_failed": false
+    },
+    {
+     "tag": "practice:torat_ha_tsaddik",
+     "scope": "span",
+     "quotes": [
+      "ואתה איך יכול להנהיג אפילו כפר קטון"
+     ],
+     "confidence": 2,
+     "why": "Fitness for leadership is tied to the tzaddik's ability to deal with souls of the dead.",
+     "quotes_failed": false
+    },
+    {
+     "tag": "spaces:institutions_hassidic_court",
+     "scope": "span",
+     "quotes": [
+      "היכן הוא הפתח שיבא אצלי"
+     ],
+     "confidence": 1,
+     "why": "The action takes place at the door of the Yehudi's house.",
+     "quotes_failed": false
+    },
+    {
+     "tag": "practice:healing_of_the_soul",
+     "scope": "span",
+     "quotes": [
+      "ואינו יודע היכן הוא הפתח שיבא אצלי"
+     ],
+     "confidence": 1,
+     "why": "The dead soul seeks the tzaddik, implicitly for a tikkun.",
+     "quotes_failed": false
+    }
+   ],
+   "missing_concepts": [
+    "souls of the dead seeking out a tzaddik",
+    "a test of a disciple's fitness for leadership"
+   ],
+   "start_quote_found": true,
+   "end_quote_found": true
+  }
+ ],
+ "check": {
+  "non_vocab_tags": [],
+  "quotes": 9,
+  "quotes_not_found": 0
+ },
+ "id": "Likutim-Hadashim_0025",
+ "chars": 336,
+ "seconds": 15
+}

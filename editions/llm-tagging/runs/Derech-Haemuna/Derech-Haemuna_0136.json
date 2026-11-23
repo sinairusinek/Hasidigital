@@ -1,0 +1,100 @@
+{
+ "unit": {
+  "kind": "hasidic_story",
+  "why": "A brief anecdote quoted from the book א״א. The author's father, a Hasidic master, rebukes a man who snatched food on Shabbat and claimed he did it in honour of the Sabbath. It is a minimal narrative embedded in an anthology of teachings on eating.",
+  "boundary_note": "part of a chain of quoted teachings on eating; previous and next divisions are teachings, not continuations of this anecdote"
+ },
+ "stories": [
+  {
+   "k": 1,
+   "start_quote": "ובס׳ א״א (פ׳ משפטים) וז״ל",
+   "end_quote": "שאוכל לכ״ש אבל באמת אינו כן",
+   "hasidic": true,
+   "summary_en": "The author's father rebuked a man who greedily grabbed food on Shabbat while claiming it was for the honour of Shabbat. He told him that until he has refined his traits so that physicality becomes repugnant to him, he only imagines he eats for the Sabbath's sake.",
+   "tags": [
+    {
+     "tag": "ethics-and-emotions:lust",
+     "scope": "span",
+     "quotes": [
+      "אשר חטף לאכול איזה מאכל בשבת"
+     ],
+     "confidence": 3,
+     "why": "greedy appetite for food is the issue",
+     "quotes_failed": false
+    },
+    {
+     "tag": "times:shabbat",
+     "scope": "span",
+     "quotes": [
+      "ואמר שכוונתו לכבוד שבת"
+     ],
+     "confidence": 3,
+     "why": "the incident and its pretext concern Shabbat eating",
+     "quotes_failed": false
+    },
+    {
+     "tag": "ethics-and-emotions:lying",
+     "scope": "span",
+     "quotes": [
+      "אז נדמה לו שאוכל לכ״ש אבל באמת אינו כן"
+     ],
+     "confidence": 1,
+     "why": "the man's pious pretext is self-deception rather than outright lying",
+     "quotes_failed": false
+    },
+    {
+     "tag": "ethics-and-emotions:virtues",
+     "scope": "span",
+     "quotes": [
+      "כל עוד שלא תיקון מדותיו"
+     ],
+     "confidence": 2,
+     "why": "refinement of character traits is the point of the rebuke",
+     "quotes_failed": false
+    },
+    {
+     "tag": "practice:asceticism",
+     "scope": "span",
+     "quotes": [
+      "שהגשמיות והיה נמאס עליו"
+     ],
+     "confidence": 2,
+     "why": "the ideal of physicality becoming repugnant",
+     "quotes_failed": false
+    },
+    {
+     "tag": "not-a-hasidic-story:sermon",
+     "scope": "story",
+     "quotes": [],
+     "confidence": 2,
+     "why": "a minimal anecdote serving an ethical teaching within a compilation of homiletic quotations",
+     "quotes_failed": false
+    },
+    {
+     "tag": "characters-and-roles:the_family_of_the_tsaddik",
+     "scope": "span",
+     "quotes": [
+      "כי הנה שמעתי מאאמו״ר ז״ל"
+     ],
+     "confidence": 1,
+     "why": "the author's father is the tsaddik who acts; the family link is in the transmission only",
+     "quotes_failed": false
+    }
+   ],
+   "missing_concepts": [
+    "rebuke (tokhechah) of a follower",
+    "eating as religious service / holy eating"
+   ],
+   "start_quote_found": true,
+   "end_quote_found": true
+  }
+ ],
+ "check": {
+  "non_vocab_tags": [],
+  "quotes": 6,
+  "quotes_not_found": 0
+ },
+ "id": "Derech-Haemuna_0136",
+ "chars": 225,
+ "seconds": 16
+}

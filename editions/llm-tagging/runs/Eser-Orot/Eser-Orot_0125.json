@@ -1,0 +1,116 @@
+{
+ "unit": {
+  "kind": "hasidic_story",
+  "why": "A short anecdote: the Holy Jew of Przysucha spends a Sabbath with the Maggid of Kozienice, asks him a question at the meal, and the Maggid answers with a marital parable and kisses him on the forehead.",
+  "boundary_note": ""
+ },
+ "stories": [
+  {
+   "k": 1,
+   "start_quote": "עוד שם פ\"א הי' הגאון האלהי",
+   "end_quote": "ונשקו על מצחו באומרו החייתנו",
+   "hasidic": true,
+   "summary_en": "At a Sabbath meal with the Maggid of Kozienice, the Holy Jew of Przysucha asks why he feels more holiness on the second day of a festival than on the first; the Maggid answers with the image of a husband and wife who quarrel and then reconcile, and the Jew kisses him on the forehead, saying 'you have revived us'.",
+   "tags": [
+    {
+     "tag": "practice:travel_to_other_tsaddik",
+     "scope": "span",
+     "quotes": [
+      "משובתי ש\"ק אצל המגיד הק׳ זי\"ע"
+     ],
+     "confidence": 2,
+     "why": "One tsaddik, the Holy Jew, stays for the Sabbath at another tsaddik's court.",
+     "quotes_failed": false
+    },
+    {
+     "tag": "times:shabbat",
+     "scope": "span",
+     "quotes": [
+      "ובסעודת שבת שאלו בזה\"ל"
+     ],
+     "confidence": 3,
+     "why": "The exchange takes place at the Sabbath meal.",
+     "quotes_failed": false
+    },
+    {
+     "tag": "times:holidays",
+     "scope": "span",
+     "quotes": [
+      "ביום ב׳ של יו״ט יותר מביום ראשון"
+     ],
+     "confidence": 1,
+     "why": "The second day of the festival is the subject of the question, not the setting.",
+     "quotes_failed": false
+    },
+    {
+     "tag": "practice:sermon",
+     "scope": "span",
+     "quotes": [
+      "כשהבעל מתקוטט עם אשתו ואח״כ נתפייס"
+     ],
+     "confidence": 2,
+     "why": "The Maggid's answer is a short homiletic teaching.",
+     "quotes_failed": false
+    },
+    {
+     "tag": "not-a-hasidic-story:sermon",
+     "scope": "story",
+     "quotes": [],
+     "confidence": 1,
+     "why": "The narrative is a thin frame around the teaching.",
+     "quotes_failed": false
+    },
+    {
+     "tag": "folkloristics:story_type_parable",
+     "scope": "span",
+     "quotes": [
+      "כשהבעל מתקוטט עם אשתו ואח״כ נתפייס אז האהבה תוגדל"
+     ],
+     "confidence": 1,
+     "why": "The answer uses a brief mashal of a husband and wife.",
+     "quotes_failed": false
+    },
+    {
+     "tag": "social:inter_hasidic",
+     "scope": "story",
+     "quotes": [],
+     "confidence": 2,
+     "why": "The story is an encounter between two tsaddikim.",
+     "quotes_failed": false
+    },
+    {
+     "tag": "spaces:institutions_hassidic_court",
+     "scope": "story",
+     "quotes": [],
+     "confidence": 1,
+     "why": "The setting is the Sabbath table at the Maggid's court.",
+     "quotes_failed": false
+    },
+    {
+     "tag": "ethics-and-emotions:awe",
+     "scope": "span",
+     "quotes": [
+      "הנני מרגיש קדושה והארה יתירה"
+     ],
+     "confidence": 1,
+     "why": "Religious feeling of holiness on the festival.",
+     "quotes_failed": false
+    }
+   ],
+   "missing_concepts": [
+    "second day of festival in the Diaspora (yom tov sheni shel galuyot)",
+    "God–Israel relationship pictured as husband and wife reconciling after exile"
+   ],
+   "start_quote_found": true,
+   "end_quote_found": true
+  }
+ ],
+ "check": {
+  "non_vocab_tags": [],
+  "quotes": 6,
+  "quotes_not_found": 0
+ },
+ "id": "Eser-Orot_0125",
+ "chars": 337,
+ "seconds": 16
+}

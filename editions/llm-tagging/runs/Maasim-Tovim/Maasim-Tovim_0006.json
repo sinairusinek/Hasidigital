@@ -1,0 +1,110 @@
+{
+ "unit": {
+  "kind": "non_hasidic_story",
+  "why": "A talmudic (Yerushalmi) tale of R. Abba bar Zevina, a tailor who refuses a gentile's demand to eat carrion, retold with a moral about loyalty to one's religion.",
+  "boundary_note": ""
+ },
+ "stories": [
+  {
+   "k": 1,
+   "start_quote": "מעשה ברבי אבא בר זבינא שהי׳ תופר בגדים",
+   "end_quote": "והוא מהירושלמי מס׳ שבועות פ״ד",
+   "hasidic": false,
+   "summary_en": "R. Abba bar Zevina, working as a tailor in a gentile's house, refuses on pain of death to eat carrion; the gentile reveals he was only testing him and would have killed him had he eaten, since a man must be faithful to his religion.",
+   "tags": [
+    {
+     "tag": "not-a-hasidic-story:hagiography",
+     "scope": "story",
+     "quotes": [],
+     "confidence": 3,
+     "why": "Praises the steadfastness of a talmudic sage, copied from the Yerushalmi",
+     "quotes_failed": false
+    },
+    {
+     "tag": "social:relations_with_non_jews",
+     "scope": "span",
+     "quotes": [
+      "שהי׳ תופר בגדים בבית גוי אחד",
+      "ויאמר לו הגוי אם לא תאכל אני הורגך"
+     ],
+     "confidence": 3,
+     "why": "The plot is the sage's encounter with a gentile employer",
+     "quotes_failed": false
+    },
+    {
+     "tag": "ethics-and-emotions:prohibitions",
+     "scope": "span",
+     "quotes": [
+      "ואני לא אוכל בשר נבילה"
+     ],
+     "confidence": 3,
+     "why": "Refusal to violate the prohibition of eating carrion",
+     "quotes_failed": false
+    },
+    {
+     "tag": "ethics-and-emotions:resisting_temptation",
+     "scope": "span",
+     "quotes": [
+      "אם תרצה להרוג אותי הרגוני נא הרוג"
+     ],
+     "confidence": 2,
+     "why": "He withstands coercion to sin under threat of death",
+     "quotes_failed": false
+    },
+    {
+     "tag": "practice:halakhah",
+     "scope": "span",
+     "quotes": [
+      "כי לא הי' בדעתו להעבירו על דתו רק לנסותו"
+     ],
+     "confidence": 2,
+     "why": "Concerns the halakhic issue of transgressing under duress",
+     "quotes_failed": false
+    },
+    {
+     "tag": "social:retrospective_recognition",
+     "scope": "span",
+     "quotes": [
+      "ואז הגיד לו הגוי כי לא הי' בדעתו"
+     ],
+     "confidence": 2,
+     "why": "The threat is revealed afterwards to have been only a test",
+     "quotes_failed": false
+    },
+    {
+     "tag": "not-a-hasidic-story:virtues",
+     "scope": "span",
+     "quotes": [
+      "כי האדם צריך להיות איש אמונים לדתו"
+     ],
+     "confidence": 2,
+     "why": "Framed with an explicit moral lesson on religious faithfulness",
+     "quotes_failed": false
+    },
+    {
+     "tag": "ethics-and-emotions:virtues",
+     "scope": "story",
+     "quotes": [],
+     "confidence": 2,
+     "why": "The story illustrates steadfastness and faithfulness to one's religion",
+     "quotes_failed": false
+    }
+   ],
+   "missing_concepts": [
+    "martyrdom / readiness to die rather than transgress (kiddush ha-shem)",
+    "artisan profession (tailor)",
+    "consistency of religious identity as a moral"
+   ],
+   "start_quote_found": true,
+   "end_quote_found": true
+  }
+ ],
+ "check": {
+  "non_vocab_tags": [],
+  "quotes": 7,
+  "quotes_not_found": 0
+ },
+ "id": "Maasim-Tovim_0006",
+ "chars": 526,
+ "seconds": 12
+}

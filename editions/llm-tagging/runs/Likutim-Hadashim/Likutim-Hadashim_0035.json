@@ -1,0 +1,156 @@
+{
+ "unit": {
+  "kind": "hasidic_story",
+  "why": "A single narrative about R. Neta of Chelm: his self-taught path, a sign-test in the winter forest, his habit of stripping rival tsaddikim of their spiritual levels, and his encounter with the Seer of Lublin.",
+  "boundary_note": ""
+ },
+ "stories": [
+  {
+   "k": 1,
+   "start_quote": "שמעתי מהרה\"ק ר׳ נטע זצ\"ל מחעלם",
+   "end_quote": "ואח״כ שמחו שניהם יחד",
+   "hasidic": true,
+   "summary_en": "R. Neta of Chelm, self-taught, tests his path by casting off his clothes in a winter forest and they are brought back to him; he later strips tsaddikim he disapproves of of their levels, but when he slips into the Seer of Lublin's third Sabbath meal in the dark, the Seer senses him, warns him off and they end up rejoicing together.",
+   "tags": [
+    {
+     "tag": "supernatural:miracle",
+     "scope": "span",
+     "quotes": [
+      "והביאו הבגדים אצלו"
+     ],
+     "confidence": 2,
+     "why": "the clothes are miraculously returned to him as a sign",
+     "quotes_failed": false
+    },
+    {
+     "tag": "practice:asceticism",
+     "scope": "span",
+     "quotes": [
+      "והלך ליער בחורף ופשט בגדיו"
+     ],
+     "confidence": 1,
+     "why": "stripping his clothes in a winter forest as a self-imposed ordeal",
+     "quotes_failed": false
+    },
+    {
+     "tag": "practice:solitude",
+     "scope": "span",
+     "quotes": [
+      "והלך ליער בחורף ופשט בגדיו והלך למרחוק"
+     ],
+     "confidence": 1,
+     "why": "he withdraws alone to the forest",
+     "quotes_failed": false
+    },
+    {
+     "tag": "practice:travel_to_other_tsaddik",
+     "scope": "span",
+     "quotes": [
+      "לסוף ימיו נסע להצדיקים שהיו בימיו",
+      "פ\"א בא אצל הרבי ז\"ל מלובלין עש\"ק"
+     ],
+     "confidence": 3,
+     "why": "he travels to the tsaddikim of his generation, including the Seer of Lublin",
+     "quotes_failed": false
+    },
+    {
+     "tag": "practice:the_travels_of_the_tsaddik",
+     "scope": "span",
+     "quotes": [
+      "לסוף ימיו נסע להצדיקים שהיו בימיו"
+     ],
+     "confidence": 2,
+     "why": "the tsaddik's own journeys drive the story",
+     "quotes_failed": false
+    },
+    {
+     "tag": "social:competition",
+     "scope": "span",
+     "quotes": [
+      "נטל ממנו המדרגות עד שלא היה יכול להיות עוד רבי",
+      "מעלתו סובר שגם כאן יעשה כך"
+     ],
+     "confidence": 3,
+     "why": "spiritual rivalry between tsaddikim",
+     "quotes_failed": false
+    },
+    {
+     "tag": "social:inter_hasidic_conflict_between_tsaddikim",
+     "scope": "span",
+     "quotes": [
+      "לא יעשה כן במקומנו"
+     ],
+     "confidence": 2,
+     "why": "the Seer confronts R. Neta's intent to strip him of his levels",
+     "quotes_failed": false
+    },
+    {
+     "tag": "supernatural:perception",
+     "scope": "span",
+     "quotes": [
+      "תיכף הרגיש הרבי זצ״ל ואמר הרבי בקול רם ברוך הבא ר׳ נטע"
+     ],
+     "confidence": 3,
+     "why": "the Seer senses him in the dark and knows his intent",
+     "quotes_failed": false
+    },
+    {
+     "tag": "times:shabbat",
+     "scope": "span",
+     "quotes": [
+      "בא אצל הרבי ז\"ל מלובלין עש\"ק",
+      "רק בסעודה שלישיה שהיה חושך"
+     ],
+     "confidence": 3,
+     "why": "the Lublin scene takes place on the Sabbath, at the third meal",
+     "quotes_failed": false
+    },
+    {
+     "tag": "ethics-and-emotions:joy",
+     "scope": "span",
+     "quotes": [
+      "ואח״כ שמחו שניהם יחד"
+     ],
+     "confidence": 2,
+     "why": "the two rejoice together at the end",
+     "quotes_failed": false
+    },
+    {
+     "tag": "practice:reception_of_hasidim",
+     "scope": "span",
+     "quotes": [
+      "ברוך הבא ר׳ נטע"
+     ],
+     "confidence": 1,
+     "why": "the Seer greets the visitor at his table",
+     "quotes_failed": false
+    },
+    {
+     "tag": "practice:clothing",
+     "scope": "span",
+     "quotes": [
+      "ופשט בגדיו והלך למרחוק"
+     ],
+     "confidence": 1,
+     "why": "his garments serve as the sign of his right path",
+     "quotes_failed": false
+    }
+   ],
+   "missing_concepts": [
+    "self-taught tsaddik without a master",
+    "seeking a sign or omen to confirm one's spiritual path",
+    "taking away another tsaddik's spiritual levels (spiritual power struggle)"
+   ],
+   "start_quote_found": true,
+   "end_quote_found": true
+  }
+ ],
+ "check": {
+  "non_vocab_tags": [],
+  "quotes": 15,
+  "quotes_not_found": 0
+ },
+ "id": "Likutim-Hadashim_0035",
+ "chars": 653,
+ "seconds": 18
+}

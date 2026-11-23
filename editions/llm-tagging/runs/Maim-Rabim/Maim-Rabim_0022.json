@@ -1,0 +1,164 @@
+{
+ "unit": {
+  "kind": "paratext_with_story",
+  "why": "Genealogical footnotes on the author's lineage that embed a martyrdom narrative: R. Moshe, father of R. Yosef 'Ish Emet', killed in a blood libel, quoted from Amud ha-Avodah.",
+  "boundary_note": "lineage notes (ז)-(יד) continue from the previous division; the story is embedded in note (יד)"
+ },
+ "stories": [
+  {
+   "k": 1,
+   "start_quote": "יד נתן וכותב כי הה״ק ר׳ יוסף",
+   "end_quote": "אינו מרגיש יסורין כלל ע״כ]",
+   "hasidic": true,
+   "summary_en": "R. Yosef 'Ish Emet' sends a Pentateuch from the Holy Land lamenting his father R. Moshe, who was martyred in a blood libel. Impaled on a stake near Sabbath eve after a week-long fast, R. Moshe sang hymns and felt no pain from the strength of his cleaving to God.",
+   "tags": [
+    {
+     "tag": "times:death",
+     "scope": "span",
+     "quotes": [
+      "וסמוך לקידוש הרגוהו",
+      "על אבי ר׳ משה שנהרג על קה״ש"
+     ],
+     "confidence": 3,
+     "why": "martyr's death is the core event",
+     "quotes_failed": false
+    },
+    {
+     "tag": "social:relations_with_non_jews",
+     "scope": "span",
+     "quotes": [
+      "העלילו דם שקר על איש קדוש אחד",
+      "וכסבורין הגוים שע״י הריגה נפרד נשמתו מגופו"
+     ],
+     "confidence": 3,
+     "why": "blood libel and killing by gentiles",
+     "quotes_failed": false
+    },
+    {
+     "tag": "social:conflict",
+     "scope": "span",
+     "quotes": [
+      "העלילו דם שקר על איש קדוש אחד"
+     ],
+     "confidence": 2,
+     "why": "persecution by accusers",
+     "quotes_failed": false
+    },
+    {
+     "tag": "times:historical_event",
+     "scope": "span",
+     "quotes": [
+      "העלילו דם שקר על איש קדוש אחד"
+     ],
+     "confidence": 2,
+     "why": "a blood libel is the setting",
+     "quotes_failed": false
+    },
+    {
+     "tag": "practice:fasting",
+     "scope": "span",
+     "quotes": [
+      "כי התענה כל הששה ימים"
+     ],
+     "confidence": 3,
+     "why": "fasted six days before death",
+     "quotes_failed": false
+    },
+    {
+     "tag": "practice:music",
+     "scope": "span",
+     "quotes": [
+      "וקודם מיתתו הי׳ מזמר שירות ותשבחות באהבה עזה"
+     ],
+     "confidence": 3,
+     "why": "sang hymns while dying",
+     "quotes_failed": false
+    },
+    {
+     "tag": "practice:devekut",
+     "scope": "span",
+     "quotes": [
+      "וכל זה מרוב דביקות מחשבתו"
+     ],
+     "confidence": 3,
+     "why": "rapt cleaving made him insensible to pain",
+     "quotes_failed": false
+    },
+    {
+     "tag": "experience:devekut",
+     "scope": "span",
+     "quotes": [
+      "וכל זה מרוב דביקות מחשבתו"
+     ],
+     "confidence": 3,
+     "why": "mystical cleaving depicted",
+     "quotes_failed": false
+    },
+    {
+     "tag": "ethics-and-emotions:joy",
+     "scope": "span",
+     "quotes": [
+      "ומרוב שמחתו בשעשוע נשמתו העתידה לבא"
+     ],
+     "confidence": 3,
+     "why": "joy in facing martyrdom",
+     "quotes_failed": false
+    },
+    {
+     "tag": "times:shabbat",
+     "scope": "span",
+     "quotes": [
+      "וזה הי' סמוך לליל שבת"
+     ],
+     "confidence": 2,
+     "why": "killed near Sabbath eve and kiddush",
+     "quotes_failed": false
+    },
+    {
+     "tag": "spaces:the_land_of_israel",
+     "scope": "span",
+     "quotes": [
+      "נסע קודם פטירתו לארץ הקדושה"
+     ],
+     "confidence": 2,
+     "why": "R. Yosef travels to the Holy Land",
+     "quotes_failed": false
+    },
+    {
+     "tag": "characters-and-roles:the_family_of_the_tsaddik",
+     "scope": "span",
+     "quotes": [
+      "ושלח משם חומש לבנו הה״ק ר׳ יצחק מדראביטש"
+     ],
+     "confidence": 3,
+     "why": "father, son and grandson of the tsaddik appear",
+     "quotes_failed": false
+    },
+    {
+     "tag": "not-a-hasidic-story:sermon",
+     "scope": "story",
+     "quotes": [],
+     "confidence": 1,
+     "why": "quoted from a homily on thought, with an explanatory frame",
+     "quotes_failed": false
+    }
+   ],
+   "missing_concepts": [
+    "martyrdom / kiddush ha-Shem",
+    "blood libel",
+    "insensibility to pain under torture",
+    "genealogy / yichus"
+   ],
+   "start_quote_found": true,
+   "end_quote_found": true
+  }
+ ],
+ "check": {
+  "non_vocab_tags": [],
+  "quotes": 14,
+  "quotes_not_found": 0
+ },
+ "id": "Maim-Rabim_0022",
+ "chars": 1985,
+ "seconds": 24
+}

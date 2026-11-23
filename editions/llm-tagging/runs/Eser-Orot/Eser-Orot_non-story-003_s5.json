@@ -1,0 +1,80 @@
+{
+ "unit": {
+  "kind": "hasidic_story",
+  "why": "split out of non-story-003 (non-story)"
+ },
+ "stories": [
+  {
+   "k": 5,
+   "start_quote": "במס׳ ע״ז (דף יו״ד ע״ב) באנטונינוס ורבי",
+   "end_quote": "בעי רחמי עליה ואחייה ושדריה",
+   "hasidic": false,
+   "summary_en": "Antoninus kills his slaves to keep his visits to Rabbi secret; R. Hanina bar Hama finds one dead and revives him by prayer.",
+   "tags": [
+    {
+     "tag": "practice:lifesaving",
+     "scope": "span",
+     "quotes": [
+      "בעי רחמי עליה ואחייה ושדריה"
+     ],
+     "confidence": 2,
+     "why": "revives the dead",
+     "quotes_failed": false
+    },
+    {
+     "tag": "supernatural:miracle",
+     "scope": "span",
+     "quotes": [
+      "בעי רחמי עליה ואחייה"
+     ],
+     "confidence": 3,
+     "why": "resurrection",
+     "quotes_failed": false
+    },
+    {
+     "tag": "social:relations_with_the_authorities",
+     "scope": "span",
+     "quotes": [
+      "קא מזלזלינו במלכותא"
+     ],
+     "confidence": 3,
+     "why": "emperor",
+     "quotes_failed": false
+    },
+    {
+     "tag": "social:relations_with_non_jews",
+     "scope": "span",
+     "quotes": [
+      "באנטונינוס ורבי שהי׳ לו מערה"
+     ],
+     "confidence": 2,
+     "why": "Roman emperor",
+     "quotes_failed": false
+    },
+    {
+     "tag": "times:death",
+     "scope": "span",
+     "quotes": [
+      "חד קטליה אבבא דבי רבי"
+     ],
+     "confidence": 2,
+     "why": "slaves killed",
+     "quotes_failed": false
+    },
+    {
+     "tag": "not-a-hasidic-story:hagiography",
+     "scope": "story",
+     "quotes": [],
+     "confidence": 3,
+     "why": "talmudic",
+     "quotes_failed": false
+    }
+   ],
+   "missing_concepts": [],
+   "start_quote_found": true,
+   "end_quote_found": true
+  }
+ ],
+ "id": "Eser-Orot_non-story-003_s5",
+ "split_from": "non-story-003"
+}

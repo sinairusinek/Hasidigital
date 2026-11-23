@@ -1,0 +1,130 @@
+{
+ "unit": {
+  "kind": "hasidic_story",
+  "why": "A short anecdote: the tzaddik (R. David Moshe, per the following division) goes four nights without sleep around Yom Kippur, his wife weeps to him, and he answers about cleaving to the Ein Sof.",
+  "boundary_note": ""
+ },
+ "stories": [
+  {
+   "k": 1,
+   "start_quote": "ופ״א אחר יוה״ק עברו עליו כמה",
+   "end_quote": "ששמע מאביו ע\"ה :",
+   "hasidic": true,
+   "summary_en": "After Yom Kippur the tzaddik went four nights without sleep; when his weeping wife told him so in the presence of R. Nahum Shotek, he answered that one truly cleaving to the Ein Sof can go forty days without eating or sleeping.",
+   "tags": [
+    {
+     "tag": "times:holidays",
+     "scope": "span",
+     "quotes": [
+      "ליל של עיוה״ק. וליל יוה״ק. ומוצאי יוה״ק"
+     ],
+     "confidence": 3,
+     "why": "set around Yom Kippur",
+     "quotes_failed": false
+    },
+    {
+     "tag": "practice:devekut",
+     "scope": "span",
+     "quotes": [
+      "מען איז באמת דבוק צום אין סוף ברוך הוא"
+     ],
+     "confidence": 3,
+     "why": "cleaving to Ein Sof explains his state",
+     "quotes_failed": false
+    },
+    {
+     "tag": "experience:devekut",
+     "scope": "span",
+     "quotes": [
+      "מען איז באמת דבוק צום אין סוף ברוך הוא"
+     ],
+     "confidence": 2,
+     "why": "implied mystical communion",
+     "quotes_failed": false
+    },
+    {
+     "tag": "practice:asceticism",
+     "scope": "span",
+     "quotes": [
+      "זה ארבעה לילות שלא נתן תנומה לעפעפיו",
+      "פירציג טאג אום גיגעססין אין אום גישלאפין"
+     ],
+     "confidence": 3,
+     "why": "going without sleep or food",
+     "quotes_failed": false
+    },
+    {
+     "tag": "characters-and-roles:the_family_of_the_tsaddik",
+     "scope": "span",
+     "quotes": [
+      "ונכנסה הרבנית הצדיקת עה״ש"
+     ],
+     "confidence": 3,
+     "why": "his wife appears",
+     "quotes_failed": false
+    },
+    {
+     "tag": "women:minor_character",
+     "scope": "span",
+     "quotes": [
+      "ובכתה וסיפרה שזה ארבעה לילות"
+     ],
+     "confidence": 3,
+     "why": "the rebbetzin acts briefly",
+     "quotes_failed": false
+    },
+    {
+     "tag": "ethics-and-emotions:sadness",
+     "scope": "span",
+     "quotes": [
+      "ובכתה וסיפרה"
+     ],
+     "confidence": 1,
+     "why": "wife weeps from worry",
+     "quotes_failed": false
+    },
+    {
+     "tag": "folkloristics:story_type_virtues",
+     "scope": "story",
+     "quotes": [],
+     "confidence": 2,
+     "why": "illustrates his holiness and devotion",
+     "quotes_failed": false
+    },
+    {
+     "tag": "practice:storytelling",
+     "scope": "span",
+     "quotes": [
+      "כן סיפר בנו של ר׳ נחום שותק ששמע מאביו"
+     ],
+     "confidence": 1,
+     "why": "chain of oral transmission",
+     "quotes_failed": false
+    },
+    {
+     "tag": "social:marital_relationship",
+     "scope": "span",
+     "quotes": [
+      "ונכנסה הרבנית הצדיקת עה״ש"
+     ],
+     "confidence": 2,
+     "why": "wife expresses concern to her husband",
+     "quotes_failed": false
+    }
+   ],
+   "missing_concepts": [
+    "sleep deprivation / sleeplessness as spiritual feat"
+   ],
+   "start_quote_found": true,
+   "end_quote_found": true
+  }
+ ],
+ "check": {
+  "non_vocab_tags": [],
+  "quotes": 10,
+  "quotes_not_found": 0
+ },
+ "id": "Eser-Orot_0344",
+ "chars": 397,
+ "seconds": 11
+}

@@ -1,0 +1,156 @@
+{
+ "unit": {
+  "kind": "hasidic_story",
+  "why": "An anecdote: on the second day of Pesach the young rebbe grows angry at hasidim for drinking, they complain to R. Moshe, and he explains his anger kabbalistically.",
+  "boundary_note": ""
+ },
+ "stories": [
+  {
+   "k": 1,
+   "start_quote": "סיפר לי הגאוה״ק ריוס״מ שליט״א מספינקא",
+   "end_quote": "אָה אזוי וואט האלסטו שוין",
+   "hasidic": true,
+   "summary_en": "In his youth at the court of his uncle and master R. Moshe, the rebbe grew angry at hasidim who drank much on the second day of Pesach; when they complained, he explained that his anger, an aspect of gevurah, drew down the first portion of the mohin of hokhmah through the Omer count, and R. Moshe accepted it.",
+   "tags": [
+    {
+     "tag": "ethics-and-emotions:anger",
+     "scope": "span",
+     "quotes": [
+      "כעס מורינו על החסידים בשם ששתו הרבה משקה",
+      "מדוע כעסת היום כ״כ"
+     ],
+     "confidence": 3,
+     "why": "the anger is the subject of the story",
+     "quotes_failed": false
+    },
+    {
+     "tag": "practice:drinking_alcohol",
+     "scope": "span",
+     "quotes": [
+      "ששתו הרבה משקה"
+     ],
+     "confidence": 3,
+     "why": "the hasidim's drinking provokes the event",
+     "quotes_failed": false
+    },
+    {
+     "tag": "times:holidays",
+     "scope": "span",
+     "quotes": [
+      "פ\"א ביום ב׳ דפסח",
+      "היום יום ב׳ דפסח שהוא א' לספה\"ע"
+     ],
+     "confidence": 3,
+     "why": "set on Pesach and the first day of the Omer",
+     "quotes_failed": false
+    },
+    {
+     "tag": "kabbalah:kabbalistic_terms_kavvanot",
+     "scope": "span",
+     "quotes": [
+      "כמבואר בכוונות ובארבע כוסות",
+      "אנו צריכין להמשיך חלק א׳ ממוח החכמה"
+     ],
+     "confidence": 3,
+     "why": "Lurianic kavvanot of the seder and the Omer explain the act",
+     "quotes_failed": false
+    },
+    {
+     "tag": "knowledge:esoteric",
+     "scope": "span",
+     "quotes": [
+      "והנה חכמה דאריך מלבוש לגבורה דעתיק"
+     ],
+     "confidence": 3,
+     "why": "kabbalistic doctrine of partzufim",
+     "quotes_failed": false
+    },
+    {
+     "tag": "social:inter_hasidic_master_disciple_relationship",
+     "scope": "span",
+     "quotes": [
+      "מסתופף בצל דודו ורבו זקינינו הרבי ר' משה",
+      "ושאל רבינו משה את בן אחיו"
+     ],
+     "confidence": 3,
+     "why": "the master questions his disciple and accepts his answer",
+     "quotes_failed": false
+    },
+    {
+     "tag": "characters-and-roles:the_family_of_the_tsaddik",
+     "scope": "span",
+     "quotes": [
+      "דודו ורבו זקינינו הרבי ר' משה"
+     ],
+     "confidence": 2,
+     "why": "R. Moshe is his uncle",
+     "quotes_failed": false
+    },
+    {
+     "tag": "social:conflict",
+     "scope": "span",
+     "quotes": [
+      "ובאו החסידים אח״כ בקובלנא עליו לרבם"
+     ],
+     "confidence": 2,
+     "why": "the hasidim complain against the young rebbe",
+     "quotes_failed": false
+    },
+    {
+     "tag": "ethics-and-emotions:pride",
+     "scope": "span",
+     "quotes": [
+      "ובעיניהם ליוהרא יחשב"
+     ],
+     "confidence": 2,
+     "why": "the hasidim suspect him of arrogance",
+     "quotes_failed": false
+    },
+    {
+     "tag": "practice:storytelling",
+     "scope": "span",
+     "quotes": [
+      "סיפר לי הגאוה״ק ריוס״מ שליט״א מספינקא בשם מורינו"
+     ],
+     "confidence": 2,
+     "why": "framed as told by a named tsaddik",
+     "quotes_failed": false
+    },
+    {
+     "tag": "spaces:institutions_hassidic_court",
+     "scope": "span",
+     "quotes": [
+      "עת הי׳ מסתופף בצל דודו ורבו"
+     ],
+     "confidence": 2,
+     "why": "set at R. Moshe's court",
+     "quotes_failed": false
+    },
+    {
+     "tag": "practice:sermon",
+     "scope": "span",
+     "quotes": [
+      "ידוע שבלילות הסדרים לא המשיכו רק מוחי הבינה"
+     ],
+     "confidence": 1,
+     "why": "his answer is a short kabbalistic teaching",
+     "quotes_failed": false
+    }
+   ],
+   "missing_concepts": [
+    "Counting of the Omer (sefirat ha-omer) as a kabbalistic practice",
+    "Theurgic or ritual use of an emotion (anger as gevurah)"
+   ],
+   "start_quote_found": true,
+   "end_quote_found": true
+  }
+ ],
+ "check": {
+  "non_vocab_tags": [],
+  "quotes": 16,
+  "quotes_not_found": 0
+ },
+ "id": "Eser-Kedushot_0141",
+ "chars": 711,
+ "seconds": 17
+}

@@ -1,0 +1,119 @@
+{
+ "unit": {
+  "kind": "hasidic_story",
+  "why": "A verse interpretation (Ps. 119) set in a minimal narrative: the holy master is arrested after a slanderous accusation by gentiles, is afraid it may be God's decree, then calms himself and rejoices.",
+  "boundary_note": "Numbered item (סו) in a series of psalm interpretations; the narrative is embedded in exegesis."
+ },
+ "stories": [
+  {
+   "k": 1,
+   "start_quote": "(סו) (שם) שרים רדפוני חנם.",
+   "end_quote": "כמוצא שלל רב ודפח\"ח :",
+   "hasidic": true,
+   "summary_en": "When the holy master was imprisoned after gentiles slandered him, he read 'princes persecute me without cause, but my heart fears Your word' as fear that the arrest might be God's will, then settled himself to rejoice in it as God's decree.",
+   "tags": [
+    {
+     "tag": "not-a-hasidic-story:sermon",
+     "scope": "story",
+     "quotes": [],
+     "confidence": 3,
+     "why": "Mainly an exegesis of a psalm verse with a narrative frame in brackets.",
+     "quotes_failed": false
+    },
+    {
+     "tag": "practice:sermon",
+     "scope": "span",
+     "quotes": [
+      "אמר שרים רדפוני [מזה לא אירא ולא אפחד"
+     ],
+     "confidence": 2,
+     "why": "The tsaddik's interpretation of the verse is quoted.",
+     "quotes_failed": false
+    },
+    {
+     "tag": "social:relations_with_the_authorities",
+     "scope": "span",
+     "quotes": [
+      "כשקבלו למאסר את מרן הרה״ק"
+     ],
+     "confidence": 3,
+     "why": "Arrest and imprisonment.",
+     "quotes_failed": false
+    },
+    {
+     "tag": "social:relations_with_non_jews",
+     "scope": "span",
+     "quotes": [
+      "משפחות גוים קראו עליו שטנה בעלילה"
+     ],
+     "confidence": 3,
+     "why": "Gentiles bring a slanderous accusation.",
+     "quotes_failed": false
+    },
+    {
+     "tag": "social:conflict",
+     "scope": "span",
+     "quotes": [
+      "קראו עליו שטנה בעלילה"
+     ],
+     "confidence": 2,
+     "why": "Hostile accusation against the tsaddik.",
+     "quotes_failed": false
+    },
+    {
+     "tag": "ethics-and-emotions:fear",
+     "scope": "span",
+     "quotes": [
+      "ומדברך פחד לבי [אולי דבר זה שאבא למאסר"
+     ],
+     "confidence": 3,
+     "why": "His fear that the arrest is God's decree.",
+     "quotes_failed": false
+    },
+    {
+     "tag": "ethics-and-emotions:awe",
+     "scope": "span",
+     "quotes": [
+      "ומדברך פחד לבי"
+     ],
+     "confidence": 2,
+     "why": "His fear is fear of God's word, not of the officials.",
+     "quotes_failed": false
+    },
+    {
+     "tag": "ethics-and-emotions:joy",
+     "scope": "span",
+     "quotes": [
+      "שש אנכי על אמרתך כמוצא שלל רב"
+     ],
+     "confidence": 2,
+     "why": "He rejoices in accepting God's will.",
+     "quotes_failed": false
+    },
+    {
+     "tag": "folkloristics:story_type_virtues",
+     "scope": "story",
+     "quotes": [],
+     "confidence": 2,
+     "why": "Shows the tsaddik's faith and acceptance of the divine will.",
+     "quotes_failed": false
+    }
+   ],
+   "missing_concepts": [
+    "imprisonment of a tsaddik",
+    "acceptance of divine decree / faith (bitachon)",
+    "blood libel / slander (alila)"
+   ],
+   "start_quote_found": true,
+   "end_quote_found": true
+  }
+ ],
+ "check": {
+  "non_vocab_tags": [],
+  "quotes": 7,
+  "quotes_not_found": 0
+ },
+ "id": "Eser-Orot_0308",
+ "chars": 304,
+ "seconds": 15
+}

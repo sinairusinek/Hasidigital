@@ -1,0 +1,173 @@
+{
+ "unit": {
+  "kind": "hasidic_story",
+  "why": "A single narrative: the Maggid of Mezeritch sends R. Nahum of Chernobyl to R. Aaron of Karlin's grave to announce a soul from the world of tikkun, which is then born as R. Mordechai (Motele) of Chernobyl, who marries R. Aaron's daughter.",
+  "boundary_note": "Ends with the source abbreviation 'מתו'' (truncated attribution)."
+ },
+ "stories": [
+  {
+   "k": 1,
+   "start_quote": "הרה״מ הק' אמר כ״פ לתלמידיו הקדושים",
+   "end_quote": "והרה״ק ר׳ יוסף מיאמפלי זי\"ע",
+   "hasidic": true,
+   "summary_en": "The Maggid of Mezeritch holds a great soul from the world of tikkun. After R. Aaron of Karlin dies, he sends R. Nahum of Chernobyl to the grave to announce that this soul will be born to Nahum as a son who will marry Aaron's little daughter Haya Sarah; R. Motele of Chernobyl is born that year and marries her.",
+   "tags": [
+    {
+     "tag": "folkloristics:story_type_birth_of_the_tsaddik",
+     "scope": "story",
+     "quotes": [],
+     "confidence": 3,
+     "why": "The story is about the destined birth of R. Motele of Chernobyl from a special soul.",
+     "quotes_failed": false
+    },
+    {
+     "tag": "folkloristics:story_type_prognostication",
+     "scope": "story",
+     "quotes": [],
+     "confidence": 2,
+     "why": "The Maggid predicts the birth and the marriage, and both come true.",
+     "quotes_failed": false
+    },
+    {
+     "tag": "supernatural:prognostication",
+     "scope": "span",
+     "quotes": [
+      "ואמר לו שיולד אצלו הנשמה הזאת",
+      "ובאותה שנה נולד אצלו הרה״ק ר׳ מאטילי מטשערנאבל"
+     ],
+     "confidence": 3,
+     "why": "The prediction is fulfilled.",
+     "quotes_failed": false
+    },
+    {
+     "tag": "times:birth",
+     "scope": "span",
+     "quotes": [
+      "ובאותה שנה נולד אצלו הרה״ק ר׳ מאטילי מטשערנאבל"
+     ],
+     "confidence": 3,
+     "why": "The birth is a depicted event.",
+     "quotes_failed": false
+    },
+    {
+     "tag": "times:death",
+     "scope": "span",
+     "quotes": [
+      "וכשנפטר תלמידו הרה״ק ר׳ אהרן הגדול מקארלין"
+     ],
+     "confidence": 2,
+     "why": "The death of R. Aaron of Karlin triggers the plot.",
+     "quotes_failed": false
+    },
+    {
+     "tag": "practice:pilgrimage_to_the_graves_of_tsaddikim",
+     "scope": "span",
+     "quotes": [
+      "שיסע לעיר קארלין על ציון הרה״ק ר׳ אהרן",
+      "והגיד הדברים הנ\"ל על הציון הקדוש"
+     ],
+     "confidence": 3,
+     "why": "R. Nahum travels to the grave and speaks there.",
+     "quotes_failed": false
+    },
+    {
+     "tag": "supernatural:communicating_with_the_invisible",
+     "scope": "span",
+     "quotes": [
+      "ככה יאמר על ציון הרה\"ק ר' אהרן ז\"ל"
+     ],
+     "confidence": 2,
+     "why": "A message is delivered to a dead tzaddik's soul at his grave.",
+     "quotes_failed": false
+    },
+    {
+     "tag": "social:marriage",
+     "scope": "span",
+     "quotes": [
+      "והבן זכר שיולד יהי' בעלה של הילדה",
+      "ולקח את בת הרה״ק ר׳ אהרן מקארלין"
+     ],
+     "confidence": 3,
+     "why": "A destined match between tzaddik families.",
+     "quotes_failed": false
+    },
+    {
+     "tag": "social:inter_hasidic_master_disciple_relationship",
+     "scope": "span",
+     "quotes": [
+      "אז אמר הרה״מ לתלמידו הרה״ק ר׳ נחום מטשערנאבל"
+     ],
+     "confidence": 3,
+     "why": "The Maggid bestows a soul on a disciple and sends him on a mission.",
+     "quotes_failed": false
+    },
+    {
+     "tag": "characters-and-roles:the_family_of_the_tsaddik",
+     "scope": "span",
+     "quotes": [
+      "ילדה אחת קטנה שמה חיה שרה",
+      "והוליד ממנה שלשה בנים"
+     ],
+     "confidence": 3,
+     "why": "The tzaddikim's children and their lineage are central.",
+     "quotes_failed": false
+    },
+    {
+     "tag": "women:catalyst_character",
+     "scope": "span",
+     "quotes": [
+      "ילדה אחת קטנה שמה חיה שרה"
+     ],
+     "confidence": 2,
+     "why": "The orphan daughter is the reason for the mission but does not act.",
+     "quotes_failed": false
+    },
+    {
+     "tag": "practice:travel_to_the_tsaddik",
+     "scope": "span",
+     "quotes": [
+      "ונסע בחזרה להמגיד"
+     ],
+     "confidence": 1,
+     "why": "R. Nahum returns to his master.",
+     "quotes_failed": false
+    },
+    {
+     "tag": "practice:torat_ha_tsaddik",
+     "scope": "span",
+     "quotes": [
+      "שיש לו נשמה גדולה מעולם התיקון וברצונו ליתן אותה"
+     ],
+     "confidence": 2,
+     "why": "The tzaddik has the power to bestow souls.",
+     "quotes_failed": false
+    },
+    {
+     "tag": "supernatural:miracle",
+     "scope": "span",
+     "quotes": [
+      "ויתן המגיד את הנשמה מעולם התיקון"
+     ],
+     "confidence": 1,
+     "why": "A supernatural transmission of a soul.",
+     "quotes_failed": false
+    }
+   ],
+   "missing_concepts": [
+    "bestowal or allocation of a soul by a tzaddik",
+    "dynastic lineage / genealogy of tsaddik families",
+    "world of tikkun (olam ha-tikkun)"
+   ],
+   "start_quote_found": true,
+   "end_quote_found": true
+  }
+ ],
+ "check": {
+  "non_vocab_tags": [],
+  "quotes": 16,
+  "quotes_not_found": 0
+ },
+ "id": "Eser-Orot_0022",
+ "chars": 923,
+ "seconds": 18
+}

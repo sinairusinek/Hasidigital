@@ -1,0 +1,130 @@
+{
+ "unit": {
+  "kind": "hasidic_story",
+  "why": "A short anecdote: a father comes to the Rebbe of Apta about his son, who is about to apostatize, and the rebbe answers with a condition and a verse-based explanation.",
+  "boundary_note": ""
+ },
+ "stories": [
+  {
+   "k": 1,
+   "start_quote": "מובא בספר שפת אמת [והובא גם",
+   "end_quote": "את חג המצות תשמור ודפח״ח",
+   "hasidic": true,
+   "summary_en": "A man asks the Rebbe of Apta to help turn back his son, who has abandoned religion and wants to convert. The rebbe says the son can be saved only if he has not eaten chametz on Pesach since he lapsed, and links this to the juxtaposed verses in Ki Tisa.",
+   "tags": [
+    {
+     "tag": "social:converts_and_conversion",
+     "scope": "span",
+     "quotes": [
+      "בן שנתפקר ורצה להמיר דתו ר\"ל"
+     ],
+     "confidence": 3,
+     "why": "The son's threatened apostasy is the subject",
+     "quotes_failed": false
+    },
+    {
+     "tag": "social:relations_with_sinners",
+     "scope": "span",
+     "quotes": [
+      "וביקש מהרב לעזור לו להפוך לבו לטוב"
+     ],
+     "confidence": 2,
+     "why": "The tzaddik judges whether a sinner can be brought back",
+     "quotes_failed": false
+    },
+    {
+     "tag": "practice:reception_of_hasidim",
+     "scope": "span",
+     "quotes": [
+      "פ\"א בא לפני הרב מאפטא איש א׳"
+     ],
+     "confidence": 2,
+     "why": "A petitioner comes before the rebbe with a request",
+     "quotes_failed": false
+    },
+    {
+     "tag": "practice:healing_of_the_soul",
+     "scope": "span",
+     "quotes": [
+      "אז אפשר להושיעו. ואם לאו לאו"
+     ],
+     "confidence": 2,
+     "why": "The request is for spiritual repair of the son, and the rebbe sets its condition",
+     "quotes_failed": false
+    },
+    {
+     "tag": "ethics-and-emotions:prohibitions",
+     "scope": "span",
+     "quotes": [
+      "שלא אכל חמץ בפסח מעת שנתפקר"
+     ],
+     "confidence": 2,
+     "why": "Keeping the chametz prohibition is the criterion for whether the son can be saved",
+     "quotes_failed": false
+    },
+    {
+     "tag": "ethics-and-emotions:repentance",
+     "scope": "span",
+     "quotes": [
+      "לעזור לו להפוך לבו לטוב"
+     ],
+     "confidence": 2,
+     "why": "The possibility of the son's return is at issue",
+     "quotes_failed": false
+    },
+    {
+     "tag": "practice:sermon",
+     "scope": "span",
+     "quotes": [
+      "ב׳ כתובים בפ' כי תשא אלהי מסכה לא תעשה לך"
+     ],
+     "confidence": 2,
+     "why": "The answer is backed by exegesis of juxtaposed verses",
+     "quotes_failed": false
+    },
+    {
+     "tag": "times:holidays",
+     "scope": "span",
+     "quotes": [
+      "שלא אכל חמץ בפסח"
+     ],
+     "confidence": 1,
+     "why": "Pesach is central to the answer, though the story is not set on it",
+     "quotes_failed": false
+    },
+    {
+     "tag": "characters-and-roles:the_family_of_the_tsaddik",
+     "scope": "span",
+     "quotes": [
+      "איש א׳ שהי׳ לו בן"
+     ],
+     "confidence": 1,
+     "why": "Borderline: father and son are central, but they are not the tzaddik's family",
+     "quotes_failed": false
+    },
+    {
+     "tag": "not-a-hasidic-story:sermon",
+     "scope": "story",
+     "quotes": [],
+     "confidence": 1,
+     "why": "The anecdote is thin and serves an exegetical point",
+     "quotes_failed": false
+    }
+   ],
+   "missing_concepts": [
+    "link between keeping Pesach/chametz and remaining within Judaism (a residual mitzvah as an anchor against apostasy)",
+    "father's intercession for a wayward child"
+   ],
+   "start_quote_found": true,
+   "end_quote_found": true
+  }
+ ],
+ "check": {
+  "non_vocab_tags": [],
+  "quotes": 9,
+  "quotes_not_found": 0
+ },
+ "id": "Eser-Orot_0267",
+ "chars": 313,
+ "seconds": 15
+}

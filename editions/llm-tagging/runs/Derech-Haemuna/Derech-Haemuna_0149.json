@@ -1,0 +1,113 @@
+{
+ "unit": {
+  "kind": "non_hasidic_story",
+  "why": "A talmudic-exegetical discussion of how the Patriarchs are arranged in the Cave of Machpelah (from Mar'eh ha-Panim on the Yerushalmi). It embeds a narrated account by a Hebron emissary who, as a child, entered the dome over the cave with his mother when she was called to heal the Muslim guard.",
+  "boundary_note": "division opens with the tail of an exegetical passage and closes with the source citation; next division is a separate teaching"
+ },
+ "stories": [
+  {
+   "k": 1,
+   "start_quote": "וכשהייתי באיטליא דברתי עם שליח א׳ מחברון",
+   "end_quote": "שיהודה הרג לעשו שנאמר ידך בעורף אויביך",
+   "hasidic": false,
+   "summary_en": "The author recounts that in Italy a Hebron emissary, R. Yitzhak Ze'evi, told him how as a child he entered the forbidden dome over the Cave of Machpelah with his mother, an herbal healer summoned secretly by the sick Muslim guard. There he saw the names of the Patriarchs and Matriarchs inscribed in a set order and a niche said to hold Esau's head, details the author uses to settle a talmudic point about seating order.",
+   "tags": [
+    {
+     "tag": "spaces:the_land_of_israel",
+     "scope": "story",
+     "quotes": [],
+     "confidence": 3,
+     "why": "Set in Hebron at the Cave of Machpelah; the teller is an emissary from Hebron",
+     "quotes_failed": false
+    },
+    {
+     "tag": "social:relations_with_non_jews",
+     "scope": "span",
+     "quotes": [
+      "אין רשות לשום אדם ואומה אחרת להכנס להחצר",
+      "ע״פ סיבה שהשומר חלה מאד ושלח אחרי אמי"
+     ],
+     "confidence": 3,
+     "why": "Muslims bar Jews from the site, and the Muslim guard secretly summons a Jewish healer",
+     "quotes_failed": false
+    },
+    {
+     "tag": "practice:healing",
+     "scope": "span",
+     "quotes": [
+      "שהיא בקיאה הרבה ברפואות העשבים והסממנים"
+     ],
+     "confidence": 2,
+     "why": "The mother is called to heal the sick guard with herbal remedies (not a tzaddik)",
+     "quotes_failed": false
+    },
+    {
+     "tag": "women:minor_character",
+     "scope": "span",
+     "quotes": [
+      "נכנסתי אני עם אמי ז״ל",
+      "ולקחה אותי אתה עמה ברשות השומר"
+     ],
+     "confidence": 3,
+     "why": "The emissary's mother acts: she heals the guard and brings her son along",
+     "quotes_failed": false
+    },
+    {
+     "tag": "women:catalyst_character",
+     "scope": "span",
+     "quotes": [
+      "ושלח אחרי אמי שהיה מכירה"
+     ],
+     "confidence": 2,
+     "why": "Her skill as a healer is the reason the boy could enter the site",
+     "quotes_failed": false
+    },
+    {
+     "tag": "practice:pilgrimage_to_the_graves_of_tsaddikim",
+     "scope": "span",
+     "quotes": [
+      "הוליך אותנו למעלה להכיפה הבנויה ע״ג המערה"
+     ],
+     "confidence": 2,
+     "why": "The tomb of the Patriarchs is shown as a revered holy site that is entered and viewed",
+     "quotes_failed": false
+    },
+    {
+     "tag": "not-a-hasidic-story:sermon",
+     "scope": "story",
+     "quotes": [],
+     "confidence": 3,
+     "why": "The narrative is wrapped in a talmudic-exegetical argument about the order of reclining (דרך הסב)",
+     "quotes_failed": false
+    },
+    {
+     "tag": "practice:storytelling",
+     "scope": "span",
+     "quotes": [
+      "עוד סיפר לי החכם השליח הנ״ל"
+     ],
+     "confidence": 1,
+     "why": "Framed as an oral account the emissary told the author; not a tzaddik telling stories on a set occasion",
+     "quotes_failed": false
+    }
+   ],
+   "missing_concepts": [
+    "Cave of Machpelah / tombs of the Patriarchs",
+    "Muslim prohibition on Jews entering holy sites",
+    "emissary from the Land of Israel (shadar)",
+    "eyewitness testimony used as halakhic or exegetical evidence",
+    "burial of Esau's head"
+   ],
+   "start_quote_found": true,
+   "end_quote_found": true
+  }
+ ],
+ "check": {
+  "non_vocab_tags": [],
+  "quotes": 8,
+  "quotes_not_found": 0
+ },
+ "id": "Derech-Haemuna_0149",
+ "chars": 1732,
+ "seconds": 19
+}

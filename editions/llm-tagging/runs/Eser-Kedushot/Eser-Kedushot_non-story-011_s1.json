@@ -1,0 +1,55 @@
+{
+ "unit": {
+  "kind": "hasidic_story",
+  "why": "split out of non-story-011 (non-story)"
+ },
+ "stories": [
+  {
+   "k": 1,
+   "start_quote": "והדבר פלא כי ביום וא\"ו עש\"ק העבר",
+   "end_quote": "ותיכף חפשתי ומצאתי כדבריך",
+   "hasidic": true,
+   "summary_en": "Right after his correspondent cited a source in R. Shabbetai's siddur, a guest arrived in Sighet for Shabbat praying from that very siddur, so the rebbe could verify the source.",
+   "tags": [
+    {
+     "tag": "times:shabbat",
+     "scope": "span",
+     "quotes": [
+      "ביום וא\"ו עש\"ק העבר בא לכאן איש א׳ לשבת פה"
+     ],
+     "confidence": 3,
+     "why": "The guest came for Shabbat.",
+     "quotes_failed": false
+    },
+    {
+     "tag": "practice:prayer",
+     "scope": "span",
+     "quotes": [
+      "והי׳ מתפלל מתוך סידור זה"
+     ],
+     "confidence": 2,
+     "why": "The guest prays from the siddur.",
+     "quotes_failed": false
+    },
+    {
+     "tag": "supernatural:miracle",
+     "scope": "span",
+     "quotes": [
+      "והדבר פלא כי ביום וא\"ו עש\"ק העבר"
+     ],
+     "confidence": 1,
+     "why": "Presented as a wondrous coincidence.",
+     "quotes_failed": false
+    }
+   ],
+   "missing_concepts": [
+    "providential coincidence",
+    "rabbinic correspondence / verifying sources"
+   ],
+   "start_quote_found": true,
+   "end_quote_found": true
+  }
+ ],
+ "id": "Eser-Kedushot_non-story-011_s1",
+ "split_from": "non-story-011"
+}

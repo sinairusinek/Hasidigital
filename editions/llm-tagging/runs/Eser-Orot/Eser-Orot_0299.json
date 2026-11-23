@@ -1,0 +1,82 @@
+{
+ "unit": {
+  "kind": "hasidic_story",
+  "why": "A brief table-scene anecdote: rabbis at the tzaddik's table are discussing Maimonides, the tzaddik asks why, a rabbi answers, and the tzaddik replies with a parable; it is a minimal narrative framing a teaching.",
+  "boundary_note": ""
+ },
+ "stories": [
+  {
+   "k": 1,
+   "start_quote": "פ״א בשבתו על השלחו הטהור וישבו",
+   "end_quote": "שוכח בהמלך ונותן כל דעתו ע״ז",
+   "hasidic": true,
+   "summary_en": "At the tzaddik's table, rabbis criticize Maimonides for writing that Aristotle grasped up to the eighth sphere more than Ezekiel. The tzaddik defends Maimonides with a parable of a wise man and a fool entering a king's palace: the wise man goes straight to the king, while the fool is distracted by the ornaments.",
+   "tags": [
+    {
+     "tag": "folkloristics:story_type_parable",
+     "scope": "span",
+     "quotes": [
+      "החכם הולך למלכות ממש ואינו מביט כלל",
+      "והשוטה כשבא להחדרים ורואה הגוונים"
+     ],
+     "confidence": 3,
+     "why": "The tzaddik answers with a mashal of the king's palace",
+     "quotes_failed": false
+    },
+    {
+     "tag": "not-a-hasidic-story:sermon",
+     "scope": "story",
+     "quotes": [],
+     "confidence": 2,
+     "why": "The thin narrative frame mainly carries an exegetical and ideological teaching",
+     "quotes_failed": false
+    },
+    {
+     "tag": "practice:sermon",
+     "scope": "span",
+     "quotes": [
+      "והשיב הרה״ק הצדק עם הרמב״ם כי נתבונן"
+     ],
+     "confidence": 2,
+     "why": "The tzaddik's teaching is quoted",
+     "quotes_failed": false
+    },
+    {
+     "tag": "social:inter_hasidic",
+     "scope": "span",
+     "quotes": [
+      "בשבתו על השלחו הטהור וישבו כמה רבנים"
+     ],
+     "confidence": 2,
+     "why": "A gathering of rabbis at the tzaddik's table",
+     "quotes_failed": false
+    },
+    {
+     "tag": "knowledge:esoteric",
+     "scope": "span",
+     "quotes": [
+      "שאריסטו השיג עד גלגל השמיני יותר מיחזקאל הנביא"
+     ],
+     "confidence": 1,
+     "why": "The dispute concerns cosmological and prophetic apprehension",
+     "quotes_failed": false
+    }
+   ],
+   "missing_concepts": [
+    "attitude to Maimonides and philosophy",
+    "Aristotle versus prophecy",
+    "the tzaddik's table (tish) as a setting"
+   ],
+   "start_quote_found": true,
+   "end_quote_found": true
+  }
+ ],
+ "check": {
+  "non_vocab_tags": [],
+  "quotes": 5,
+  "quotes_not_found": 0
+ },
+ "id": "Eser-Orot_0299",
+ "chars": 425,
+ "seconds": 14
+}

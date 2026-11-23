@@ -1,0 +1,125 @@
+{
+ "unit": {
+  "kind": "hasidic_story",
+  "why": "A single anecdote, told by the rebbetzin, about the infant R. David Moshe of Chortkov crying until his tzitzit garment was put back on, with the Ruzhiner perceiving the cause.",
+  "boundary_note": ""
+ },
+ "stories": [
+  {
+   "k": 1,
+   "start_quote": "(ה) הרבנית הצדיקת זיווג שני של הרה\"ק רד״מ",
+   "end_quote": "קראו אחיו את שמו דאס ציצית יודל :",
+   "hasidic": true,
+   "summary_en": "The infant R. David Moshe cries without stopping; his mother asks the Ruzhiner, who laughingly says they forgot to wrap his little tzitzit garment in his swaddling, and once it is put on he calms, earning the nickname 'the tzitzit Jew'.",
+   "tags": [
+    {
+     "tag": "characters-and-roles:the_family_of_the_tsaddik",
+     "scope": "span",
+     "quotes": [
+      "והלכה לקרא את הרבנית היא אמו",
+      "היו אחיו הקדושים קורין אותו"
+     ],
+     "confidence": 3,
+     "why": "mother, brothers, wife and father of the tzaddik appear",
+     "quotes_failed": false
+    },
+    {
+     "tag": "practice:clothing",
+     "scope": "span",
+     "quotes": [
+      "היו עושים לו בגד של ארבע כנפות עם ציצית",
+      "והלבישוהו את הארבע כנפות ותיכף פסק מלבכות"
+     ],
+     "confidence": 3,
+     "why": "the tzitzit garment is central",
+     "quotes_failed": false
+    },
+    {
+     "tag": "supernatural:perception",
+     "scope": "span",
+     "quotes": [
+      "מען האט אודאי פארגעסין איהם אריין צו לייגען"
+     ],
+     "confidence": 3,
+     "why": "the Ruzhiner knows the cause without seeing it",
+     "quotes_failed": false
+    },
+    {
+     "tag": "folkloristics:story_type_virtues",
+     "scope": "story",
+     "quotes": [],
+     "confidence": 2,
+     "why": "illustrates the infant's innate holiness",
+     "quotes_failed": false
+    },
+    {
+     "tag": "ethics-and-emotions:fear",
+     "scope": "span",
+     "quotes": [
+      "ופחדה המינקת והלכה לקרא את הרבנית",
+      "ופחדה הרבנית ואמרה פן הנהו חולה"
+     ],
+     "confidence": 2,
+     "why": "the nurse and mother are frightened",
+     "quotes_failed": false
+    },
+    {
+     "tag": "women:major_character",
+     "scope": "span",
+     "quotes": [
+      "ונסתה גם היא לשחק עמו ולנענעו",
+      "והלכה הרבנית ומצאה שכן הוא"
+     ],
+     "confidence": 2,
+     "why": "the mother acts throughout and the rebbetzin narrates",
+     "quotes_failed": false
+    },
+    {
+     "tag": "women:minor_character",
+     "scope": "span",
+     "quotes": [
+      "ופחדה המינקת והלכה לקרא את הרבנית"
+     ],
+     "confidence": 3,
+     "why": "the wet-nurse",
+     "quotes_failed": false
+    },
+    {
+     "tag": "practice:storytelling",
+     "scope": "span",
+     "quotes": [
+      "ספרה שבילדותו של הרה״ק רד״מ"
+     ],
+     "confidence": 2,
+     "why": "framed as told by the rebbetzin",
+     "quotes_failed": false
+    },
+    {
+     "tag": "practice:joke",
+     "scope": "span",
+     "quotes": [
+      "ושחק הרה״ק ואמר מען האט אודאי"
+     ],
+     "confidence": 1,
+     "why": "the Ruzhiner laughs at the matter",
+     "quotes_failed": false
+    }
+   ],
+   "missing_concepts": [
+    "childhood holiness of a tzaddik",
+    "origin of a nickname",
+    "tzitzit as an infant custom"
+   ],
+   "start_quote_found": true,
+   "end_quote_found": true
+  }
+ ],
+ "check": {
+  "non_vocab_tags": [],
+  "quotes": 12,
+  "quotes_not_found": 0
+ },
+ "id": "Eser-Orot_0340",
+ "chars": 914,
+ "seconds": 12
+}

@@ -1,0 +1,125 @@
+{
+ "unit": {
+  "kind": "non_hasidic_story",
+  "why": "A pre-Hasidic exemplum (Kraków, 1669), quoted from R. Haim Bochner's Or Hadash, about a Jew saved from a gentile murderer through kiddush levana; it sits inside a halakhic note on the blessing over kiddush ha-shem.",
+  "boundary_note": ""
+ },
+ "stories": [
+  {
+   "k": 1,
+   "start_quote": "ב) מעשה קידוש לבנה מה שאירע",
+   "end_quote": "עכ״ל הטהור בספר אור חדש :",
+   "hasidic": false,
+   "summary_en": "A Jew attacked at night by a gentile asks first to perform one mitzvah, sanctifies the new moon with great devotion, and is ready to die joyfully for kiddush ha-shem; when he leaps three times as the rite requires, a wind carries him away and he is saved.",
+   "tags": [
+    {
+     "tag": "not-a-hasidic-story:hagiography",
+     "scope": "story",
+     "quotes": [],
+     "confidence": 2,
+     "why": "Taken from an earlier work by a pre-Hasidic Kraków kabbalist, on the authority of R. Moshe Meisels",
+     "quotes_failed": false
+    },
+    {
+     "tag": "not-a-hasidic-story:sermon",
+     "scope": "span",
+     "quotes": [
+      "אז קודם שיהרגוהו יברך בשמחה בא\"י אמ״ה",
+      "כי שכרה גדול כ״כ כמ״ש חכז״ל"
+     ],
+     "confidence": 2,
+     "why": "The tale is wrapped in a halakhic and homiletic frame on kiddush ha-shem and kiddush levana",
+     "quotes_failed": false
+    },
+    {
+     "tag": "social:relations_with_non_jews",
+     "scope": "span",
+     "quotes": [
+      "שפגע בעכו\"ם בלילה ורצה העכו\"ם להרגו",
+      "ושמע הנכרי ונעתר לבקשתו"
+     ],
+     "confidence": 3,
+     "why": "The plot turns on the encounter with a murderous gentile",
+     "quotes_failed": false
+    },
+    {
+     "tag": "supernatural:miracle",
+     "scope": "span",
+     "quotes": [
+      "ונעשה לו נס כשדלג וקפץ ג״פ",
+      "נשאו רוח מאת העכו\"ם"
+     ],
+     "confidence": 3,
+     "why": "A wind miraculously carries him away",
+     "quotes_failed": false
+    },
+    {
+     "tag": "practice:prayer",
+     "scope": "span",
+     "quotes": [
+      "והלבנה היתה בחידושה וקידשה בפניו בכוונה גדולה"
+     ],
+     "confidence": 3,
+     "why": "He recites the kiddush levana liturgy",
+     "quotes_failed": false
+    },
+    {
+     "tag": "practice:dance",
+     "scope": "span",
+     "quotes": [
+      "כשדלג וקפץ ג״פ כמנהג כשם שאני רוקד"
+     ],
+     "confidence": 2,
+     "why": "The ritual leaping of kiddush levana, 'as I dance', is the moment of the miracle",
+     "quotes_failed": false
+    },
+    {
+     "tag": "ethics-and-emotions:joy",
+     "scope": "span",
+     "quotes": [
+      "רצה למסור נפשו בשמחה על קדושת השם"
+     ],
+     "confidence": 2,
+     "why": "He prepares to give his life joyfully",
+     "quotes_failed": false
+    },
+    {
+     "tag": "practice:halakhah",
+     "scope": "span",
+     "quotes": [
+      "אקב״ו לקדש שמו ברבים",
+      "מי שיקדש הלבנה מיום שיקדשה לא ידאג"
+     ],
+     "confidence": 2,
+     "why": "The frame discusses the blessing for kiddush ha-shem and the law and reward of kiddush levana",
+     "quotes_failed": false
+    },
+    {
+     "tag": "practice:storytelling",
+     "scope": "span",
+     "quotes": [
+      "וסיפר לי מעשה רב שאירע לא׳"
+     ],
+     "confidence": 2,
+     "why": "The tale is told by R. Moshe Meisels to his kinsman",
+     "quotes_failed": false
+    }
+   ],
+   "missing_concepts": [
+    "kiddush ha-shem / martyrdom",
+    "kiddush levana (sanctification of the moon)",
+    "a mitzvah's protective power / a segulah for rescue"
+   ],
+   "start_quote_found": true,
+   "end_quote_found": true
+  }
+ ],
+ "check": {
+  "non_vocab_tags": [],
+  "quotes": 12,
+  "quotes_not_found": 0
+ },
+ "id": "Maasim-Tovim_0002",
+ "chars": 1142,
+ "seconds": 20
+}

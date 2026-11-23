@@ -1,0 +1,206 @@
+{
+ "unit": {
+  "kind": "hasidic_story",
+  "why": "A single narrative about the Maggid of Kozienice protecting a young Hasid from sin by appearing in his dream, as related by the tzaddik of Parysów.",
+  "boundary_note": ""
+ },
+ "stories": [
+  {
+   "k": 1,
+   "start_quote": "ואגב אכתוב מעשה א׳ הנודע ומפורסם",
+   "end_quote": "ממורו ז״ל, והיה הדבר הזה לפלא",
+   "hasidic": true,
+   "summary_en": "At a Friday-night meal in Kozienice the Maggid speaks at length about a young Hasid from Parysów and says he must guard the young men even at home. His disciple, the tzaddik of Parysów, questions the young man. The man tells him that the Maggid twice appeared in his dream on his wife's immersion night and warned him, so he held back until she became niddah. The disciple marvels at his master's power.",
+   "tags": [
+    {
+     "tag": "experience:dream",
+     "scope": "span",
+     "quotes": [
+      "ונדמה לו בחלומו כאלו בא אליו אדמו״ר מקאזניץ",
+      "ושוב בא אליו ואמר אל תהיה דבר זה קל בעיניך"
+     ],
+     "confidence": 3,
+     "why": "the warning comes in a dream that drives the plot",
+     "quotes_failed": false
+    },
+    {
+     "tag": "supernatural:perception",
+     "scope": "span",
+     "quotes": [
+      "לא זו בלבד אשר אנכי צריך לשמור הבני נעורים",
+      "ראה גודל כח מורו ורבו"
+     ],
+     "confidence": 3,
+     "why": "the Maggid knows of the danger from afar",
+     "quotes_failed": false
+    },
+    {
+     "tag": "practice:protection",
+     "scope": "span",
+     "quotes": [
+      "שצריך אגבי לשמור אותם כאשר המה בביתם"
+     ],
+     "confidence": 3,
+     "why": "the tzaddik guards his hasidim from sin at a distance",
+     "quotes_failed": false
+    },
+    {
+     "tag": "folkloristics:story_type_protection",
+     "scope": "story",
+     "quotes": [],
+     "confidence": 2,
+     "why": "the central arc is the tzaddik protecting someone from sin",
+     "quotes_failed": false
+    },
+    {
+     "tag": "ethics-and-emotions:prohibitions",
+     "scope": "span",
+     "quotes": [
+      "היה ירא לגשת עד שפירסה נדה"
+     ],
+     "confidence": 3,
+     "why": "the prohibition of relations with a niddah is at issue",
+     "quotes_failed": false
+    },
+    {
+     "tag": "ethics-and-emotions:resisting_temptation",
+     "scope": "span",
+     "quotes": [
+      "ושהה בשלחנו כי היה ירא לגשת"
+     ],
+     "confidence": 2,
+     "why": "the young man holds back from his wife",
+     "quotes_failed": false
+    },
+    {
+     "tag": "ethics-and-emotions:fear",
+     "scope": "span",
+     "quotes": [
+      "כי היה ירא לגשת עד שפירסה נדה"
+     ],
+     "confidence": 2,
+     "why": "the young man is afraid after the warning",
+     "quotes_failed": false
+    },
+    {
+     "tag": "times:shabbat",
+     "scope": "span",
+     "quotes": [
+      "ובסעודת ליל שבת אחר האכילה",
+      "כי בליל שבת זו היה ליל טבילה"
+     ],
+     "confidence": 3,
+     "why": "both scenes are set on Friday night",
+     "quotes_failed": false
+    },
+    {
+     "tag": "practice:tvilah",
+     "scope": "span",
+     "quotes": [
+      "כי בליל שבת זו היה ליל טבילה"
+     ],
+     "confidence": 2,
+     "why": "the wife's immersion night is the setting",
+     "quotes_failed": false
+    },
+    {
+     "tag": "social:marital_relationship",
+     "scope": "span",
+     "quotes": [
+      "היה ירא לגשת עד שפירסה נדה"
+     ],
+     "confidence": 2,
+     "why": "marital relations are the subject",
+     "quotes_failed": false
+    },
+    {
+     "tag": "social:inter_hasidic_master_disciple_relationship",
+     "scope": "span",
+     "quotes": [
+      "ראה גודל כח מורו ורבו"
+     ],
+     "confidence": 3,
+     "why": "the disciple marvels at his master; the young man is the Maggid's hasid",
+     "quotes_failed": false
+    },
+    {
+     "tag": "practice:travel_to_the_tsaddik",
+     "scope": "span",
+     "quotes": [
+      "כי פ״א היה בקאזניץ ובסעודת ליל שבת",
+      "ואח״כ כשנסע לביתו קרא לאיש הזה"
+     ],
+     "confidence": 2,
+     "why": "the disciple spends Shabbat at his master's court",
+     "quotes_failed": false
+    },
+    {
+     "tag": "practice:storytelling",
+     "scope": "span",
+     "quotes": [
+      "ותלמידו הה״צ המפורסם מפארסוב היה מספר אותו מעשה"
+     ],
+     "confidence": 2,
+     "why": "the tale is framed as told by a named tzaddik",
+     "quotes_failed": false
+    },
+    {
+     "tag": "social:retrospective_recognition",
+     "scope": "span",
+     "quotes": [
+      "והיה הדבר הזה לפלא בעיני הה״ק מפארעסעוו",
+      "וכאשר שמע ההק' מפארעסעוו דבר זה"
+     ],
+     "confidence": 2,
+     "why": "the disciple later understands the meaning of the Maggid's words",
+     "quotes_failed": false
+    },
+    {
+     "tag": "practice:torat_ha_tsaddik",
+     "scope": "span",
+     "quotes": [
+      "אנכי צריך לשמור הבני נעורים כאשר המה בכאן"
+     ],
+     "confidence": 2,
+     "why": "the tzaddik's responsibility for and power over his hasidim",
+     "quotes_failed": false
+    },
+    {
+     "tag": "women:mention_only",
+     "scope": "span",
+     "quotes": [
+      "עד שפירסה נדה"
+     ],
+     "confidence": 2,
+     "why": "the wife is referred to but does not act",
+     "quotes_failed": false
+    },
+    {
+     "tag": "spaces:institutions_hassidic_court",
+     "scope": "span",
+     "quotes": [
+      "כי פ״א היה בקאזניץ ובסעודת ליל שבת"
+     ],
+     "confidence": 1,
+     "why": "the Shabbat table at Kozienice",
+     "quotes_failed": false
+    }
+   ],
+   "missing_concepts": [
+    "family purity / niddah laws",
+    "tzaddik appearing in a dream as a warning (dream-visitation by a living tzaddik)",
+    "the tzaddik's table (tish) as a setting"
+   ],
+   "start_quote_found": true,
+   "end_quote_found": true
+  }
+ ],
+ "check": {
+  "non_vocab_tags": [],
+  "quotes": 21,
+  "quotes_not_found": 0
+ },
+ "id": "Toldot-Haniflaot_0079",
+ "chars": 1010,
+ "seconds": 18
+}

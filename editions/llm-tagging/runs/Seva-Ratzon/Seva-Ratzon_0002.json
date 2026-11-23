@@ -1,0 +1,149 @@
+{
+ "unit": {
+  "kind": "hasidic_story",
+  "why": "A single anecdote about R. Berish of Oshpitzin preaching on Shabbat Shuva, being challenged by a man from Moravia, and later explaining at the third meal how he forgot his prepared sermon.",
+  "boundary_note": ""
+ },
+ "stories": [
+  {
+   "k": 1,
+   "start_quote": "פעם אחת דרש בשבת תשובה בביהכנ״ס",
+   "end_quote": "לכן בא השטן וד׳ הצילני",
+   "hasidic": true,
+   "summary_en": "During his Shabbat Shuva sermon R. Berish is challenged by a man from Moravia, who follows the Ashkenazi custom of debating the preacher. After a pause he replies that one who learns Torah for its own sake cannot be moved, and at the third meal he reveals that he had broken his practice of preaching only what God puts in his mouth, that the prepared sermon was wiped from his memory, and that this was God saving him from Satan.",
+   "tags": [
+    {
+     "tag": "practice:sermon",
+     "scope": "span",
+     "quotes": [
+      "פעם אחת דרש בשבת תשובה בביהכנ״ס",
+      "רק הדיבורים אשר ישים ד׳ בפי אותו אדבר"
+     ],
+     "confidence": 3,
+     "why": "The story centres on the tsaddik's sermon and how he prepares it.",
+     "quotes_failed": false
+    },
+    {
+     "tag": "times:shabbat",
+     "scope": "span",
+     "quotes": [
+      "דרש בשבת תשובה בביהכנ״ס",
+      "ובשלש סעודות אמר בזה״ל"
+     ],
+     "confidence": 3,
+     "why": "Set on Shabbat, including the third meal.",
+     "quotes_failed": false
+    },
+    {
+     "tag": "times:holidays",
+     "scope": "span",
+     "quotes": [
+      "דרש בשבת תשובה בביהכנ״ס"
+     ],
+     "confidence": 1,
+     "why": "Shabbat Shuva falls in the High Holiday period; borderline as a holiday.",
+     "quotes_failed": false
+    },
+    {
+     "tag": "social:relations_with_non_hasidim",
+     "scope": "span",
+     "quotes": [
+      "והי׳ שם איש א' ממעהררו ובא אל הדרשה",
+      "ואצל האשכנזים המנהג לפלפל עם הרב"
+     ],
+     "confidence": 2,
+     "why": "A non-Hasidic Ashkenazi (Moravian) Jew challenges the rebbe with a scholarly question.",
+     "quotes_failed": false
+    },
+    {
+     "tag": "social:conflict",
+     "scope": "span",
+     "quotes": [
+      "וישאלהו האיש ממעהרין איזה קושיא"
+     ],
+     "confidence": 1,
+     "why": "Mild confrontation through a challenging question during the sermon.",
+     "quotes_failed": false
+    },
+    {
+     "tag": "practice:prayer",
+     "scope": "span",
+     "quotes": [
+      "אני התפללתי להש\"י שלא אצטרו",
+      "ופתחתי בתפלה ר׳ שפתי תפתח"
+     ],
+     "confidence": 2,
+     "why": "He prays not to need preparation, and opens the sermon with a prayer.",
+     "quotes_failed": false
+    },
+    {
+     "tag": "experience:revelation",
+     "scope": "span",
+     "quotes": [
+      "והראו לי מן השמים פלאים"
+     ],
+     "confidence": 2,
+     "why": "Heaven showed him wonders while he prepared the sermon.",
+     "quotes_failed": false
+    },
+    {
+     "tag": "supernatural:miracle",
+     "scope": "span",
+     "quotes": [
+      "נשכח ממני כל הסדר",
+      "לכן בא השטן וד׳ הצילני"
+     ],
+     "confidence": 1,
+     "why": "Forgetting the prepared sermon is presented as divine rescue from Satan.",
+     "quotes_failed": false
+    },
+    {
+     "tag": "practice:study",
+     "scope": "span",
+     "quotes": [
+      "מי שלומד שלא לשמה אפי׳ זבוב יוכל לדחות אותו"
+     ],
+     "confidence": 1,
+     "why": "His reply turns on Torah study for its own sake.",
+     "quotes_failed": false
+    },
+    {
+     "tag": "ethics-and-emotions:humility",
+     "scope": "span",
+     "quotes": [
+      "ורק אמרתי כדרכי מעולם מה שהש״י מזמין לפי"
+     ],
+     "confidence": 1,
+     "why": "He relies on God rather than his own preparation; self-effacement in preaching.",
+     "quotes_failed": false
+    },
+    {
+     "tag": "practice:torat_ha_tsaddik",
+     "scope": "span",
+     "quotes": [
+      "רק הדיבורים אשר ישים ד׳ בפי אותו אדבר"
+     ],
+     "confidence": 1,
+     "why": "The tsaddik's speech is presented as divinely given.",
+     "quotes_failed": false
+    }
+   ],
+   "missing_concepts": [
+    "Satan / evil inclination as a tempter (not a demon)",
+    "inspired versus prepared preaching",
+    "regional custom: Ashkenazi/Moravian versus Polish practice of debating the preacher",
+    "Torah study for its own sake (lishmah)"
+   ],
+   "start_quote_found": true,
+   "end_quote_found": true
+  }
+ ],
+ "check": {
+  "non_vocab_tags": [],
+  "quotes": 16,
+  "quotes_not_found": 0
+ },
+ "id": "Seva-Ratzon_0002",
+ "chars": 885,
+ "seconds": 20
+}

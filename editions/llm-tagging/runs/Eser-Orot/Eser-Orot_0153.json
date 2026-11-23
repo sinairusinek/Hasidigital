@@ -1,0 +1,205 @@
+{
+ "unit": {
+  "kind": "several_stories",
+  "why": "Two separate anecdotes about the Maggid of Kozienice and military commanders in the Napoleonic wars: a treacherous general exposed, and a prophecy to Marshal Poniatowski.",
+  "boundary_note": ""
+ },
+ "stories": [
+  {
+   "k": 1,
+   "start_quote": "עו״ש במלחמת צרפת ופרייסין בפולין",
+   "end_quote": "וירה כדור בלבו והמית עצמו",
+   "hasidic": true,
+   "summary_en": "A great general in Kozienice summons the Maggid. The Maggid refuses, saying the general must come to him because he is a traitor. The general's two letters, one to the Prussian minister and one to the French general, are then swapped, his treason is exposed, and he shoots himself.",
+   "tags": [
+    {
+     "tag": "times:historical_event",
+     "scope": "span",
+     "quotes": [
+      "במלחמת צרפת ופרייסין בפולין"
+     ],
+     "confidence": 3,
+     "why": "set during the Franco-Prussian war in Poland",
+     "quotes_failed": false
+    },
+    {
+     "tag": "social:relations_with_the_authorities",
+     "scope": "span",
+     "quotes": [
+      "יבא געניראל גדול לקאזניץ ושלח אחרי המגיד"
+     ],
+     "confidence": 3,
+     "why": "a general summons the Maggid",
+     "quotes_failed": false
+    },
+    {
+     "tag": "social:relations_with_non_jews",
+     "scope": "span",
+     "quotes": [
+      "אמר המגיד להשליח כי השר צריך לבא אליו"
+     ],
+     "confidence": 3,
+     "why": "dealings with a gentile officer",
+     "quotes_failed": false
+    },
+    {
+     "tag": "social:conflict",
+     "scope": "span",
+     "quotes": [
+      "אמר המגיד להשליח כי השר צריך לבא אליו"
+     ],
+     "confidence": 2,
+     "why": "the Maggid refuses the officer's summons",
+     "quotes_failed": false
+    },
+    {
+     "tag": "supernatural:perception",
+     "scope": "span",
+     "quotes": [
+      "כי השר מרד ומכר עצמו בכסף"
+     ],
+     "confidence": 3,
+     "why": "the Maggid knows of the secret treason",
+     "quotes_failed": false
+    },
+    {
+     "tag": "ethics-and-emotions:punishment",
+     "scope": "span",
+     "quotes": [
+      "ראה השר שנתגלה פשעו"
+     ],
+     "confidence": 2,
+     "why": "the traitor is exposed and dies",
+     "quotes_failed": false
+    },
+    {
+     "tag": "ethics-and-emotions:lying",
+     "scope": "span",
+     "quotes": [
+      "ונתחלפו לו המכתבים מה שהוצרך לשלוח"
+     ],
+     "confidence": 2,
+     "why": "double dealing with both sides",
+     "quotes_failed": false
+    },
+    {
+     "tag": "times:death",
+     "scope": "span",
+     "quotes": [
+      "ושלח יד בנפשו וירה כדור בלבו"
+     ],
+     "confidence": 3,
+     "why": "the general's suicide",
+     "quotes_failed": false
+    }
+   ],
+   "missing_concepts": [
+    "treason/espionage",
+    "suicide"
+   ],
+   "start_quote_found": true,
+   "end_quote_found": true
+  },
+  {
+   "k": 2,
+   "start_quote": "ואח״ז במלחמת צרפת ורוסיא הי' המארשל",
+   "end_quote": "לביתו שנטבע בלייפציג עכ״ל",
+   "hasidic": true,
+   "summary_en": "During the Franco-Russian war, Marshal Józef Poniatowski comes to Kozienice. The Maggid foretells his defeat and gives as a sign that his mare is pregnant with a foal that has a white-spotted leg. An old eyewitness later confirmed the sign, and Poniatowski drowned at Leipzig.",
+   "tags": [
+    {
+     "tag": "folkloristics:story_type_prognostication",
+     "scope": "story",
+     "quotes": [],
+     "confidence": 3,
+     "why": "the arc is a prediction that comes true",
+     "quotes_failed": false
+    },
+    {
+     "tag": "supernatural:prognostication",
+     "scope": "span",
+     "quotes": [
+      "ושאלו אם יצליח במלחמתו והשיבו לא"
+     ],
+     "confidence": 3,
+     "why": "he foretells the defeat",
+     "quotes_failed": false
+    },
+    {
+     "tag": "supernatural:perception",
+     "scope": "span",
+     "quotes": [
+      "כי הסוסיא עומד לנגדו הרה ובנה רגל נמור לבן"
+     ],
+     "confidence": 3,
+     "why": "he knows the unborn foal's markings",
+     "quotes_failed": false
+    },
+    {
+     "tag": "times:historical_event",
+     "scope": "span",
+     "quotes": [
+      "במלחמת צרפת ורוסיא הי' המארשל יאזעף פאניטאווסקי"
+     ],
+     "confidence": 3,
+     "why": "Napoleonic war; Poniatowski at Leipzig",
+     "quotes_failed": false
+    },
+    {
+     "tag": "social:relations_with_the_authorities",
+     "scope": "span",
+     "quotes": [
+      "והלך המגיד והיהודים לקראתו"
+     ],
+     "confidence": 3,
+     "why": "the Maggid meets the marshal",
+     "quotes_failed": false
+    },
+    {
+     "tag": "social:relations_with_non_jews",
+     "scope": "span",
+     "quotes": [
+      "והלך המגיד והיהודים לקראתו"
+     ],
+     "confidence": 3,
+     "why": "the marshal is a gentile commander",
+     "quotes_failed": false
+    },
+    {
+     "tag": "social:retrospective_recognition",
+     "scope": "span",
+     "quotes": [
+      "והבינו כי לא ישוב לביתו"
+     ],
+     "confidence": 2,
+     "why": "the confirmed sign is understood after the fact",
+     "quotes_failed": false
+    },
+    {
+     "tag": "times:death",
+     "scope": "span",
+     "quotes": [
+      "שנטבע בלייפציג"
+     ],
+     "confidence": 2,
+     "why": "Poniatowski's drowning",
+     "quotes_failed": false
+    }
+   ],
+   "missing_concepts": [
+    "eyewitness attestation by a gentile soldier",
+    "sign (mofet) given as proof of a prophecy"
+   ],
+   "start_quote_found": true,
+   "end_quote_found": true
+  }
+ ],
+ "check": {
+  "non_vocab_tags": [],
+  "quotes": 15,
+  "quotes_not_found": 0
+ },
+ "id": "Eser-Orot_0153",
+ "chars": 680,
+ "seconds": 21
+}

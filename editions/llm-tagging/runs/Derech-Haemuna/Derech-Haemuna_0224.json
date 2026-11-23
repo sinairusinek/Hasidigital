@@ -1,0 +1,111 @@
+{
+ "unit": {
+  "kind": "hasidic_story",
+  "why": "A short anecdote: a penitent comes to R. Zusha asking for a penance, and Zusha sends him to fast forty days in Ostroh before returning.",
+  "boundary_note": ""
+ },
+ "stories": [
+  {
+   "k": 1,
+   "start_quote": "מעשה אירע ג״כ אצל אדמו״ר הה״ק",
+   "end_quote": "פתח התשובה כשתוכל לעמוד בזה",
+   "hasidic": true,
+   "summary_en": "A penitent asks R. Zusha for a penance; Zusha tells him first to go to Ostroh and fast there forty days, then return so he can open the gate of repentance for him.",
+   "tags": [
+    {
+     "tag": "ethics-and-emotions:repentance",
+     "scope": "span",
+     "quotes": [
+      "איש אחד בעל תשובה וביקש ממנו לתת לו תשובה",
+      "ואיעצך לפתוח לך פתח התשובה"
+     ],
+     "confidence": 3,
+     "why": "the story is about a penitent seeking a penance",
+     "quotes_failed": false
+    },
+    {
+     "tag": "practice:fasting",
+     "scope": "span",
+     "quotes": [
+      "ותתענה שם ארבעים יום"
+     ],
+     "confidence": 3,
+     "why": "Zusha prescribes a forty-day fast",
+     "quotes_failed": false
+    },
+    {
+     "tag": "practice:asceticism",
+     "scope": "span",
+     "quotes": [
+      "ותתענה שם ארבעים יום"
+     ],
+     "confidence": 2,
+     "why": "a prolonged fast as penitential self-denial",
+     "quotes_failed": false
+    },
+    {
+     "tag": "practice:travel_to_the_tsaddik",
+     "scope": "span",
+     "quotes": [
+      "שבא אצלו איש אחד בעל תשובה"
+     ],
+     "confidence": 3,
+     "why": "the penitent comes to the tsaddik with a request",
+     "quotes_failed": false
+    },
+    {
+     "tag": "practice:reception_of_hasidim",
+     "scope": "span",
+     "quotes": [
+      "לא אוכל לפרש לך תשובה עד שתלך מקודם"
+     ],
+     "confidence": 2,
+     "why": "Zusha receives the visitor and puts him to a test before helping him",
+     "quotes_failed": false
+    },
+    {
+     "tag": "practice:healing_of_the_soul",
+     "scope": "span",
+     "quotes": [
+      "ואיעצך לפתוח לך פתח התשובה"
+     ],
+     "confidence": 2,
+     "why": "the tsaddik as guide for repairing a sinner's soul",
+     "quotes_failed": false
+    },
+    {
+     "tag": "social:relations_with_sinners",
+     "scope": "span",
+     "quotes": [
+      "איש אחד בעל תשובה"
+     ],
+     "confidence": 2,
+     "why": "the tsaddik deals with a repentant sinner",
+     "quotes_failed": false
+    },
+    {
+     "tag": "practice:torat_ha_tsaddik",
+     "scope": "story",
+     "quotes": [],
+     "confidence": 1,
+     "why": "the penitent depends on the tsaddik to set his penance",
+     "quotes_failed": false
+    }
+   ],
+   "missing_concepts": [
+    "penitential regimen (tikkunei teshuvah) prescribed by a tsaddik",
+    "sending a penitent to another town (Ostroh) as part of the penance"
+   ],
+   "start_quote_found": true,
+   "end_quote_found": true
+  }
+ ],
+ "check": {
+  "non_vocab_tags": [],
+  "quotes": 8,
+  "quotes_not_found": 0
+ },
+ "id": "Derech-Haemuna_0224",
+ "chars": 257,
+ "seconds": 11
+}

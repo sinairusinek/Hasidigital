@@ -1,0 +1,144 @@
+{
+ "unit": {
+  "kind": "hasidic_story",
+  "why": "A single narrative about the brothers R. Shmelke and R. Pinchas (author of the Hafla'ah) consulting the Maggid of Mezeritch over two rabbinates, cited from the book Shemen ha-Tov.",
+  "boundary_note": ""
+ },
+ "stories": [
+  {
+   "k": 1,
+   "start_quote": "האחים הקדושים הרבי ר׳ שמעלקא והרב ר' פנחס",
+   "end_quote": "וקיבלו כ\"א כסא הרבנות כמו שהכריע רבם",
+   "hasidic": true,
+   "summary_en": "R. Shmelke and R. Pinchas are both offered the rabbinates of Frankfurt and Nikolsburg and each humbly defers to the other. They travel to the Maggid of Mezeritch, who knows without being told which brother is the elder and tells them a story about a nobleman. Back at their lodging they realize the story was a parable that settles both their Zohar question and their choice of posts.",
+   "tags": [
+    {
+     "tag": "ethics-and-emotions:humility",
+     "scope": "span",
+     "quotes": [
+      "מרוב ענותנותו אמר כי אחיו הרר״פ הגון יותר",
+      "כי כ\"א אמר לאחיו שהוא גדול ממנו"
+     ],
+     "confidence": 3,
+     "why": "Each brother defers to the other out of humility.",
+     "quotes_failed": false
+    },
+    {
+     "tag": "folkloristics:story_type_virtues",
+     "scope": "story",
+     "quotes": [],
+     "confidence": 2,
+     "why": "The story illustrates the humility of the two tzaddikim.",
+     "quotes_failed": false
+    },
+    {
+     "tag": "practice:travel_to_the_tsaddik",
+     "scope": "span",
+     "quotes": [
+      "והסכימו ביניהם לנסוע להמגיד ממעזריטש לשאול עצתו"
+     ],
+     "confidence": 3,
+     "why": "The brothers journey to the Maggid to ask his advice.",
+     "quotes_failed": false
+    },
+    {
+     "tag": "practice:reception_of_hasidim",
+     "scope": "span",
+     "quotes": [
+      "וכשבאו לבית הרה״מ התחילו האחים מדיינים",
+      "צוה להם שילכו לשלום"
+     ],
+     "confidence": 2,
+     "why": "The Maggid receives the visitors and then sends them away.",
+     "quotes_failed": false
+    },
+    {
+     "tag": "supernatural:perception",
+     "scope": "span",
+     "quotes": [
+      "ומיד אמר המגיד בזה\"ל הרב דק' נ\"ש ילך בראש"
+     ],
+     "confidence": 2,
+     "why": "The Maggid knows, unprompted, what they were disputing and who is the elder.",
+     "quotes_failed": false
+    },
+    {
+     "tag": "practice:storytelling",
+     "scope": "span",
+     "quotes": [
+      "סיפר להם המגיד מעשה משר אחד ממנהגו"
+     ],
+     "confidence": 3,
+     "why": "The tzaddik answers them by telling a story.",
+     "quotes_failed": false
+    },
+    {
+     "tag": "folkloristics:story_type_parable",
+     "scope": "span",
+     "quotes": [
+      "וראו בעינא פקיחא שהוא משל"
+     ],
+     "confidence": 1,
+     "why": "A parable told by the tzaddik drives the plot, but its content is not given.",
+     "quotes_failed": false
+    },
+    {
+     "tag": "social:retrospective_recognition",
+     "scope": "span",
+     "quotes": [
+      "נתיישבו בדבר כי בודאי הסיפור לא דבר ריק הוא",
+      "ומתוכו הבינו מאמר הזוה\"ק על בוריו"
+     ],
+     "confidence": 2,
+     "why": "Only later do they grasp the hidden meaning of the story.",
+     "quotes_failed": false
+    },
+    {
+     "tag": "social:inter_hasidic_master_disciple_relationship",
+     "scope": "span",
+     "quotes": [
+      "כמו שהכריע רבם"
+     ],
+     "confidence": 2,
+     "why": "The disciples accept their master's decision.",
+     "quotes_failed": false
+    },
+    {
+     "tag": "knowledge:esoteric",
+     "scope": "span",
+     "quotes": [
+      "מאמר א' בזוה\"ק הקשה להם הבנתו"
+     ],
+     "confidence": 2,
+     "why": "A difficult passage of the Zohar is one of the questions they bring.",
+     "quotes_failed": false
+    },
+    {
+     "tag": "practice:study",
+     "scope": "span",
+     "quotes": [
+      "מאמר א' בזוה\"ק הקשה להם הבנתו"
+     ],
+     "confidence": 1,
+     "why": "Study of a Zohar passage is the second question they bring.",
+     "quotes_failed": false
+    }
+   ],
+   "missing_concepts": [
+    "appointment to a communal rabbinate (rabbanut)",
+    "brothers as paired tzaddikim",
+    "an answer given indirectly, without the question being asked"
+   ],
+   "start_quote_found": true,
+   "end_quote_found": true
+  }
+ ],
+ "check": {
+  "non_vocab_tags": [],
+  "quotes": 13,
+  "quotes_not_found": 0
+ },
+ "id": "Eser-Orot_0023",
+ "chars": 1059,
+ "seconds": 44
+}

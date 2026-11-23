@@ -1,0 +1,101 @@
+{
+ "unit": {
+  "kind": "hasidic_story",
+  "why": "A brief memorate: a disciple overhears the Seer of Lublin after midnight, before his study, tearfully fearing he is among the wicked to whom 'what hast thou to declare My statutes' applies.",
+  "boundary_note": ""
+ },
+ "stories": [
+  {
+   "k": 1,
+   "start_quote": "שמע תלמיד אחד שרבינו מלובלין אחר",
+   "end_quote": "דברי ריצוי ובכיה ותחנונים עכ״ל",
+   "hasidic": true,
+   "summary_en": "A disciple overheard the Seer of Lublin, after midnight and before his study, cry out that perhaps he is among those of whom it is said 'what hast thou to declare My statutes', and plead with God at length in tears.",
+   "tags": [
+    {
+     "tag": "ethics-and-emotions:humility",
+     "scope": "span",
+     "quotes": [
+      "אפשר אני מן אותו שכתב בהם מה לך לספר חוקי"
+     ],
+     "confidence": 3,
+     "why": "The tsaddik doubts his own worthiness to study Torah.",
+     "quotes_failed": false
+    },
+    {
+     "tag": "practice:prayer",
+     "scope": "span",
+     "quotes": [
+      "והאריך בדברי ריצוי ובכיה ותחנונים"
+     ],
+     "confidence": 2,
+     "why": "He offers a spontaneous supplication rather than formal liturgy.",
+     "quotes_failed": false
+    },
+    {
+     "tag": "practice:study",
+     "scope": "span",
+     "quotes": [
+      "אחר חצות קודם לימודו אמר רבש\"ע"
+     ],
+     "confidence": 2,
+     "why": "The scene is his preparation for night study.",
+     "quotes_failed": false
+    },
+    {
+     "tag": "ethics-and-emotions:sadness",
+     "scope": "span",
+     "quotes": [
+      "והתמרמר מאד והאריך בדברי ריצוי"
+     ],
+     "confidence": 1,
+     "why": "Bitter weeping, though contrite rather than melancholic.",
+     "quotes_failed": false
+    },
+    {
+     "tag": "ethics-and-emotions:awe",
+     "scope": "span",
+     "quotes": [
+      "והתמרמר מאד והאריך בדברי ריצוי ובכיה"
+     ],
+     "confidence": 2,
+     "why": "He shows fearful reverence before God.",
+     "quotes_failed": false
+    },
+    {
+     "tag": "folkloristics:story_type_virtues",
+     "scope": "story",
+     "quotes": [],
+     "confidence": 2,
+     "why": "The anecdote illustrates the tsaddik's humility and contrition.",
+     "quotes_failed": false
+    },
+    {
+     "tag": "social:inter_hasidic_master_disciple_relationship",
+     "scope": "span",
+     "quotes": [
+      "שמע תלמיד אחד שרבינו מלובלין"
+     ],
+     "confidence": 1,
+     "why": "The account comes from a disciple who overheard his master.",
+     "quotes_failed": false
+    }
+   ],
+   "missing_concepts": [
+    "weeping / tearful supplication",
+    "midnight vigil (tikkun hatsot) before study",
+    "tsaddik's self-doubt about his own worthiness"
+   ],
+   "start_quote_found": true,
+   "end_quote_found": true
+  }
+ ],
+ "check": {
+  "non_vocab_tags": [],
+  "quotes": 6,
+  "quotes_not_found": 0
+ },
+ "id": "Eser-Orot_0202",
+ "chars": 190,
+ "seconds": 13
+}

@@ -1,0 +1,96 @@
+{
+ "unit": {
+  "kind": "non_hasidic_story",
+  "why": "A brief exemplary legend, quoted from an earlier book, about an anonymous pious villager whose lifelong study of tractate Hagigah escorted him to Paradise; it has no Hasidic figures.",
+  "boundary_note": ""
+ },
+ "stories": [
+  {
+   "k": 1,
+   "start_quote": "ובא וראה מהמעשה בחסיד שהיה דר",
+   "end_quote": "עד שהביאו לאותו החסיד לג״ע",
+   "hasidic": false,
+   "summary_en": "A pious man in a small village who owned only tractate Hagigah studied it all his long life, and at his death the tractate took human form, went before him and brought him to Paradise.",
+   "tags": [
+    {
+     "tag": "practice:study",
+     "scope": "span",
+     "quotes": [
+      "והיה כל ימיו של אותו החסיד עוסק במסכת חגיגה"
+     ],
+     "confidence": 3,
+     "why": "Lifelong study of one tractate is the core of the tale",
+     "quotes_failed": false
+    },
+    {
+     "tag": "times:death",
+     "scope": "span",
+     "quotes": [
+      "ולבסוף קודם מותו נתלבשה אותה המס׳"
+     ],
+     "confidence": 3,
+     "why": "His death is the climax",
+     "quotes_failed": false
+    },
+    {
+     "tag": "spaces:heaven",
+     "scope": "span",
+     "quotes": [
+      "עד שהביאו לאותו החסיד לג״ע"
+     ],
+     "confidence": 2,
+     "why": "He is brought to Gan Eden",
+     "quotes_failed": false
+    },
+    {
+     "tag": "supernatural:miracle",
+     "scope": "span",
+     "quotes": [
+      "נתלבשה אותה המס׳ בדמות אשם והלכה לפניו"
+     ],
+     "confidence": 2,
+     "why": "The tractate takes on a bodily form",
+     "quotes_failed": false
+    },
+    {
+     "tag": "not-a-hasidic-story:hagiography",
+     "scope": "story",
+     "quotes": [],
+     "confidence": 2,
+     "why": "Praises an anonymous pre-Hasidic pious man and is quoted from an earlier book",
+     "quotes_failed": false
+    },
+    {
+     "tag": "not-a-hasidic-story:virtues",
+     "scope": "story",
+     "quotes": [],
+     "confidence": 2,
+     "why": "Framed with 'ובא וראה' as a lesson in the value of persistent Torah study",
+     "quotes_failed": false
+    },
+    {
+     "tag": "not-a-hasidic-story:sermon",
+     "scope": "story",
+     "quotes": [],
+     "confidence": 1,
+     "why": "Embedded in a homiletic discussion of the merit of studying without full understanding",
+     "quotes_failed": false
+    }
+   ],
+   "missing_concepts": [
+    "personified Torah text as an escort of the soul after death",
+    "reward for Torah study in the afterlife"
+   ],
+   "start_quote_found": true,
+   "end_quote_found": true
+  }
+ ],
+ "check": {
+  "non_vocab_tags": [],
+  "quotes": 4,
+  "quotes_not_found": 0
+ },
+ "id": "Derech-Haemuna_0132",
+ "chars": 266,
+ "seconds": 14
+}

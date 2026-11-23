@@ -1,0 +1,122 @@
+{
+ "unit": {
+  "kind": "hasidic_story",
+  "why": "A single narrative about the rabbi of Bardichev (מבא\"ד) on Yom Kippur: he falls to the ground in devekut during the Musaf service, appears dead, and later returns in fervor to complete the prayer.",
+  "boundary_note": ""
+ },
+ "stories": [
+  {
+   "k": 1,
+   "start_quote": "שמעתי בשמו ממגידי אמת מי ששמע",
+   "end_quote": "וצעק ואחת. והתפלל להלאה כסדר",
+   "hasidic": true,
+   "summary_en": "On Yom Kippur, during the Avodah in Musaf at 'and thus he would count: one', the rabbi of Bardichev fell to the ground in devekut and seemed truly dead, even to doctors. He was carried to his room, but at Ne'ilah he suddenly ran back into the study hall to the prayer stand, cried 'and one', and went on praying in order.",
+   "tags": [
+    {
+     "tag": "times:holidays",
+     "scope": "story",
+     "quotes": [],
+     "confidence": 3,
+     "why": "Set on Yom Kippur during the High Holy Days",
+     "quotes_failed": false
+    },
+    {
+     "tag": "practice:prayer",
+     "scope": "span",
+     "quotes": [
+      "בעת העבודה בתפלת מוסף באמרו וכך הי׳ מונה אחת",
+      "התחילו להתפלל נעילה"
+     ],
+     "confidence": 3,
+     "why": "The Musaf and Ne'ilah liturgy frames the whole story",
+     "quotes_failed": false
+    },
+    {
+     "tag": "practice:devekut",
+     "scope": "span",
+     "quotes": [
+      "נפל בדביקותו ארצה"
+     ],
+     "confidence": 3,
+     "why": "He falls in rapt cleaving during prayer",
+     "quotes_failed": false
+    },
+    {
+     "tag": "experience:devekut",
+     "scope": "span",
+     "quotes": [
+      "נפל בדביקותו ארצה",
+      "כי הוא מת ממש"
+     ],
+     "confidence": 3,
+     "why": "A mystical communion so deep that he seems dead",
+     "quotes_failed": false
+    },
+    {
+     "tag": "experience:enthusiasm",
+     "scope": "span",
+     "quotes": [
+      "דלג ופסח ורץ הרב מבא\"ד ברב התלהבותו"
+     ],
+     "confidence": 3,
+     "why": "Burning fervor (hitlahavut) when he returns",
+     "quotes_failed": false
+    },
+    {
+     "tag": "spaces:beth_midrash",
+     "scope": "span",
+     "quotes": [
+      "וגמרו בבית מדרשו תפלת מוסף",
+      "לתוך הביהמ\"ד להתיבה"
+     ],
+     "confidence": 3,
+     "why": "The study hall is the setting",
+     "quotes_failed": false
+    },
+    {
+     "tag": "experience:journey_to_heaven",
+     "scope": "span",
+     "quotes": [
+      "וראו כי כל הפעולות לחנם כי הוא מת ממש"
+     ],
+     "confidence": 1,
+     "why": "Death-like absence suggests an ascent of the soul, though the text does not say so",
+     "quotes_failed": false
+    },
+    {
+     "tag": "folkloristics:story_type_virtues",
+     "scope": "story",
+     "quotes": [],
+     "confidence": 2,
+     "why": "Illustrates the tzaddik's extraordinary fervor in prayer",
+     "quotes_failed": false
+    },
+    {
+     "tag": "practice:storytelling",
+     "scope": "span",
+     "quotes": [
+      "שמעתי בשמו ממגידי אמת מי ששמע מחסיד"
+     ],
+     "confidence": 1,
+     "why": "Framed as a chain of oral transmission",
+     "quotes_failed": false
+    }
+   ],
+   "missing_concepts": [
+    "apparent death / catalepsy in prayer",
+    "Yom Kippur Avodah service (Seder ha-Avodah)",
+    "doctors failing to revive the tzaddik"
+   ],
+   "start_quote_found": true,
+   "end_quote_found": true
+  }
+ ],
+ "check": {
+  "non_vocab_tags": [],
+  "quotes": 10,
+  "quotes_not_found": 0
+ },
+ "id": "Eser-Orot_0079",
+ "chars": 518,
+ "seconds": 13
+}

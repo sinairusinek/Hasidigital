@@ -1,0 +1,89 @@
+{
+ "unit": {
+  "kind": "hasidic_story",
+  "why": "A minimal memorate quoted from Keter Shem Tov: a soul tells the Besht that his revelations came from praying with great intention. It is embedded in a homiletic chain of quotations on prayer.",
+  "boundary_note": "Part of an anthology sequence of quotations on prayer; the neighbouring divisions are homiletic."
+ },
+ "stories": [
+  {
+   "k": 1,
+   "start_quote": "הנשמה אמרה להרב ר׳ ישראל בעש״ט",
+   "end_quote": "משם זכה למעלה עליונה",
+   "hasidic": true,
+   "summary_en": "A soul tells the Baal Shem Tov that he was granted revelations of higher matters not for much Talmud and codes study but for always praying with great intention.",
+   "tags": [
+    {
+     "tag": "supernatural:communicating_with_the_invisible",
+     "scope": "span",
+     "quotes": [
+      "הנשמה אמרה להרב ר׳ ישראל בעש״ט"
+     ],
+     "confidence": 3,
+     "why": "A soul speaks to the Besht",
+     "quotes_failed": false
+    },
+    {
+     "tag": "experience:revelation",
+     "scope": "span",
+     "quotes": [
+      "שזכה שנתגלו אליו דברים עליונים"
+     ],
+     "confidence": 3,
+     "why": "Higher matters were revealed to him",
+     "quotes_failed": false
+    },
+    {
+     "tag": "practice:prayer",
+     "scope": "span",
+     "quotes": [
+      "רק משום תפלה שהיה מתפלל תמיד בכוונה גדולה"
+     ],
+     "confidence": 3,
+     "why": "Constant prayer is the cause of his spiritual merit",
+     "quotes_failed": false
+    },
+    {
+     "tag": "practice:study",
+     "scope": "span",
+     "quotes": [
+      "לא מפני שלמד הרבה מסכת ופוסקים"
+     ],
+     "confidence": 2,
+     "why": "Study is contrasted with prayer and found secondary",
+     "quotes_failed": false
+    },
+    {
+     "tag": "practice:devekut",
+     "scope": "span",
+     "quotes": [
+      "שהיה מתפלל תמיד בכוונה גדולה"
+     ],
+     "confidence": 1,
+     "why": "Intense devotional prayer; devekut is implied, not stated",
+     "quotes_failed": false
+    },
+    {
+     "tag": "not-a-hasidic-story:sermon",
+     "scope": "story",
+     "quotes": [],
+     "confidence": 2,
+     "why": "Quoted as a proof-text inside a homiletic anthology on prayer",
+     "quotes_failed": false
+    }
+   ],
+   "missing_concepts": [
+    "prayer valued over Torah study as the path to spiritual attainment"
+   ],
+   "start_quote_found": true,
+   "end_quote_found": true
+  }
+ ],
+ "check": {
+  "non_vocab_tags": [],
+  "quotes": 5,
+  "quotes_not_found": 0
+ },
+ "id": "Derech-Haemuna_0218",
+ "chars": 189,
+ "seconds": 16
+}

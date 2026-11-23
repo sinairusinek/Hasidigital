@@ -1,0 +1,81 @@
+{
+ "unit": {
+  "kind": "hasidic_story",
+  "why": "A brief anecdote, quoted from another book: one night the Rebbe of Peshischa questions his students while they study, then gives his own answer about knowing that repentance has been accepted. The narrative frame is thin and the point is the teaching.",
+  "boundary_note": "the closing words 'מענין תיקון הברית' are a section heading belonging to the next division"
+ },
+ "stories": [
+  {
+   "k": 1,
+   "start_quote": "הנה אצל אדמו״ר מפרשיסחא זל\"ה פ\"א בלילה",
+   "end_quote": "ועכ״פ הרהורים היה לו",
+   "hasidic": true,
+   "summary_en": "One night the Rebbe of Peshischa asks his students how a person can know in this world that his repentance has been forgiven, has each give his view, and answers that if a person does not return to the sin, or even to thoughts of it, he has surely been forgiven.",
+   "tags": [
+    {
+     "tag": "ethics-and-emotions:repentance",
+     "scope": "span",
+     "quotes": [
+      "שאחר תשובתו נתכפר לו",
+      "שאם האדם איננו חוזר לחטוא עוד אחר תשובתו"
+     ],
+     "confidence": 3,
+     "why": "the subject of the discussion is the effect of repentance",
+     "quotes_failed": false
+    },
+    {
+     "tag": "practice:study",
+     "scope": "span",
+     "quotes": [
+      "פ\"א בלילה היה בלימוד איזה תלמידים"
+     ],
+     "confidence": 2,
+     "why": "the scene is a night study session with students",
+     "quotes_failed": false
+    },
+    {
+     "tag": "social:inter_hasidic_master_disciple_relationship",
+     "scope": "span",
+     "quotes": [
+      "ושאל אותם שיגידו לו",
+      "וכל אחד היה מוכרח לומר סברתו"
+     ],
+     "confidence": 2,
+     "why": "the master tests his disciples and then teaches them",
+     "quotes_failed": false
+    },
+    {
+     "tag": "practice:sermon",
+     "scope": "span",
+     "quotes": [
+      "ואח״ז אמר הוא ז״ל שאם האדם איננו חוזר"
+     ],
+     "confidence": 2,
+     "why": "the tzaddik's teaching is quoted",
+     "quotes_failed": false
+    },
+    {
+     "tag": "not-a-hasidic-story:sermon",
+     "scope": "story",
+     "quotes": [],
+     "confidence": 2,
+     "why": "mainly a teaching on repentance inside a minimal narrative frame",
+     "quotes_failed": false
+    }
+   ],
+   "missing_concepts": [
+    "signs that sin has been forgiven (assurance of atonement)"
+   ],
+   "start_quote_found": true,
+   "end_quote_found": true
+  }
+ ],
+ "check": {
+  "non_vocab_tags": [],
+  "quotes": 6,
+  "quotes_not_found": 0
+ },
+ "id": "Derech-Haemuna_0226",
+ "chars": 338,
+ "seconds": 15
+}

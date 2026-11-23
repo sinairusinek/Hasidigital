@@ -1,0 +1,133 @@
+{
+ "unit": {
+  "kind": "hasidic_story",
+  "why": "A single anecdote, told by R. Yehudah Leib of Nesukhoyiz, about the Rav of Berdichev waking sleeping guests at midnight to offer them brandy so he could compare a Jew with a non-Jew.",
+  "boundary_note": ""
+ },
+ "stories": [
+  {
+   "k": 1,
+   "start_quote": "וסיפר הרה״ק מוהר\"י מנעסכיז [שהי' נשוי",
+   "end_quote": "רבש״ע ראה מה בין אלו לאלו",
+   "hasidic": true,
+   "summary_en": "At midnight the Rav of Berdichev took brandy to the bathhouse where homeless guests slept; a woken Jew refused to drink without water for hand-washing and a place to bless, while a non-Jew drank at once without a blessing, and the Rav joyfully pleaded before God: see the difference between these and those.",
+   "tags": [
+    {
+     "tag": "practice:drinking_alcohol",
+     "scope": "span",
+     "quotes": [
+      "והקיצו לאמר שתה נא מעט יי\"ש",
+      "ושתה תיכף היי״ש במקומו"
+     ],
+     "confidence": 3,
+     "why": "the offer of brandy is the core of the test",
+     "quotes_failed": false
+    },
+    {
+     "tag": "social:relations_with_non_jews",
+     "scope": "span",
+     "quotes": [
+      "ומצא הרב מבא\"ד מצד אחר ערל"
+     ],
+     "confidence": 3,
+     "why": "the Rav wakes a non-Jew and offers him a drink",
+     "quotes_failed": false
+    },
+    {
+     "tag": "practice:halakhah",
+     "scope": "span",
+     "quotes": [
+      "שאין לו מים לנט״י ומקום לברך נמנע"
+     ],
+     "confidence": 2,
+     "why": "the Jew refuses on halakhic grounds (hand-washing, a clean place to bless)",
+     "quotes_failed": false
+    },
+    {
+     "tag": "ethics-and-emotions:joy",
+     "scope": "span",
+     "quotes": [
+      "וחזר הרב מבא\"ד בשמחה עצומה לביתו"
+     ],
+     "confidence": 3,
+     "why": "the Rav returns home in great joy",
+     "quotes_failed": false
+    },
+    {
+     "tag": "experience:enthusiasm",
+     "scope": "span",
+     "quotes": [
+      "ובהתלהבות טענתו אמר רבש״ע"
+     ],
+     "confidence": 2,
+     "why": "he pleads before God with fervour",
+     "quotes_failed": false
+    },
+    {
+     "tag": "practice:torat_ha_tsaddik",
+     "scope": "span",
+     "quotes": [
+      "רבש״ע ראה מה בין אלו לאלו"
+     ],
+     "confidence": 2,
+     "why": "the tzaddik pleading Israel's merit before God",
+     "quotes_failed": false
+    },
+    {
+     "tag": "practice:storytelling",
+     "scope": "span",
+     "quotes": [
+      "וסיפר הרה״ק מוהר\"י מנעסכיז"
+     ],
+     "confidence": 2,
+     "why": "framed as told by a named tzaddik",
+     "quotes_failed": false
+    },
+    {
+     "tag": "characters-and-roles:the_family_of_the_tsaddik",
+     "scope": "span",
+     "quotes": [
+      "שהי' נשוי את נכדו של הרב מבא\"ד"
+     ],
+     "confidence": 1,
+     "why": "the narrator is the Rav's grandson-in-law, in the frame only",
+     "quotes_failed": false
+    },
+    {
+     "tag": "ethics-and-emotions:prohibitions",
+     "scope": "span",
+     "quotes": [
+      "נמנע ולא רצה לשתות"
+     ],
+     "confidence": 1,
+     "why": "the Jew holds back from drinking without a blessing",
+     "quotes_failed": false
+    },
+    {
+     "tag": "folkloristics:story_type_virtues",
+     "scope": "story",
+     "quotes": [],
+     "confidence": 2,
+     "why": "illustrates the Rav's devotion to defending Israel",
+     "quotes_failed": false
+    }
+   ],
+   "missing_concepts": [
+    "defending Israel's merit before God (limmud zekhut)",
+    "a test staged to show the difference between Jew and non-Jew",
+    "midnight vigil (chatzot)",
+    "hospitality to homeless guests sleeping in the bathhouse"
+   ],
+   "start_quote_found": true,
+   "end_quote_found": true
+  }
+ ],
+ "check": {
+  "non_vocab_tags": [],
+  "quotes": 10,
+  "quotes_not_found": 0
+ },
+ "id": "Eser-Orot_0066",
+ "chars": 518,
+ "seconds": 15
+}

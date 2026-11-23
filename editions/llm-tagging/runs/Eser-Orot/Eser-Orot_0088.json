@@ -1,0 +1,111 @@
+{
+ "unit": {
+  "kind": "hasidic_story",
+  "why": "A single narrative about the Rav of Mrachov whispering to the dead R. Levi Yitzhak of Berdichev at his funeral, and then dying seven weeks later.",
+  "boundary_note": ""
+ },
+ "stories": [
+  {
+   "k": 1,
+   "start_quote": "בעיר בארדיטשוב בזמן הרה\"ק ר׳ לוי יצחק",
+   "end_quote": "נפטר גם הוא המראחיבער זצ\"ל",
+   "hasidic": true,
+   "summary_en": "The Rav of Mrachov in Berdichev had open rebuke and hidden love for R. Levi Yitzhak. At R. Levi Yitzhak's funeral he whispered in the dead man's ear, ending with the audible words 'count seven weeks for yourself', and he himself died seven weeks later.",
+   "tags": [
+    {
+     "tag": "times:death",
+     "scope": "span",
+     "quotes": [
+      "וכשנפטר הרה״ק ר׳ לוי יצחק",
+      "נפטר גם הוא המראחיבער זצ\"ל"
+     ],
+     "confidence": 3,
+     "why": "Two deaths are depicted.",
+     "quotes_failed": false
+    },
+    {
+     "tag": "folkloristics:story_type_death_of_the_tsaddik",
+     "scope": "story",
+     "quotes": [],
+     "confidence": 3,
+     "why": "The story centres on the death and funeral of R. Levi Yitzhak and the death of the Mrachover.",
+     "quotes_failed": false
+    },
+    {
+     "tag": "supernatural:prognostication",
+     "scope": "span",
+     "quotes": [
+      "שבעה שבועות תספר לך",
+      "וכן הי׳ שאחר עבור שבעה שבועות"
+     ],
+     "confidence": 3,
+     "why": "His words foretell his own death seven weeks later, and it comes true.",
+     "quotes_failed": false
+    },
+    {
+     "tag": "folkloristics:story_type_prognostication",
+     "scope": "story",
+     "quotes": [],
+     "confidence": 2,
+     "why": "The arc is an utterance that is fulfilled.",
+     "quotes_failed": false
+    },
+    {
+     "tag": "supernatural:communicating_with_the_invisible",
+     "scope": "span",
+     "quotes": [
+      "ולחש לו באזניו וסיים איזה דיבורים בקול"
+     ],
+     "confidence": 2,
+     "why": "He speaks to the soul of the departed tzaddik.",
+     "quotes_failed": false
+    },
+    {
+     "tag": "social:competition",
+     "scope": "span",
+     "quotes": [
+      "הי' תוכחת מגולה ואהבה מסותרת"
+     ],
+     "confidence": 2,
+     "why": "Open rivalry and rebuke between the two figures.",
+     "quotes_failed": false
+    },
+    {
+     "tag": "social:inter_hasidic_conflict_between_tsaddikim",
+     "scope": "span",
+     "quotes": [
+      "ובינו ובין הרה״ק ר׳ לוי יצחק הי' תוכחת מגולה"
+     ],
+     "confidence": 2,
+     "why": "Open rebuke between the two rabbis; it is unclear whether the Mrachover was a Hasidic tzaddik.",
+     "quotes_failed": false
+    },
+    {
+     "tag": "practice:pilgrimage_to_the_graves_of_tsaddikim",
+     "scope": "span",
+     "quotes": [
+      "להובילו לבית מועד לכל חי"
+     ],
+     "confidence": 1,
+     "why": "The funeral procession to the burial is depicted.",
+     "quotes_failed": false
+    }
+   ],
+   "missing_concepts": [
+    "funeral / escorting the dead (levayah)",
+    "dead person summoning a living person to follow him",
+    "hidden love beneath open rivalry"
+   ],
+   "start_quote_found": true,
+   "end_quote_found": true
+  }
+ ],
+ "check": {
+  "non_vocab_tags": [],
+  "quotes": 8,
+  "quotes_not_found": 0
+ },
+ "id": "Eser-Orot_0088",
+ "chars": 534,
+ "seconds": 11
+}

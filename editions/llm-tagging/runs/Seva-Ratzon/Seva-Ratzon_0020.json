@@ -1,0 +1,203 @@
+{
+ "unit": {
+  "kind": "hasidic_story",
+  "why": "A single narrative: a Lithuanian scholar heckles the Berdichever's sermons, goes to R. Barukh of Medzhybizh to test him, and loses all his learning.",
+  "boundary_note": ""
+ },
+ "stories": [
+  {
+   "k": 1,
+   "start_quote": "בעת שהי׳ הגה״ק מבארדיטשוב דרבו לילך",
+   "end_quote": "ונעשה ע\"ה והי׳ שמש בביהכנ״ס",
+   "hasidic": true,
+   "summary_en": "A Lithuanian scholar in Berdichev twice heckles R. Levi Yitzhak's sermons; R. Barukh of Medzhybizh says that if he comes to him he will be unable to learn. The scholar comes to test him with an obscure Zohar passage, finds the Zohar already open at that passage, and after R. Barukh's teaching on the angel of forgetting he forgets everything and ends up an ignorant synagogue beadle.",
+   "tags": [
+    {
+     "tag": "social:relations_with_non_hasidim",
+     "scope": "story",
+     "quotes": [],
+     "confidence": 3,
+     "why": "The Lithuanian (mitnagdic) scholar opposes and tests the tsaddikim",
+     "quotes_failed": false
+    },
+    {
+     "tag": "social:conflict",
+     "scope": "span",
+     "quotes": [
+      "שבא ליטוואק א׳ לקנטר את הה״ק בדרשותיו"
+     ],
+     "confidence": 3,
+     "why": "The scholar provokes the tsaddik",
+     "quotes_failed": false
+    },
+    {
+     "tag": "social:competition",
+     "scope": "span",
+     "quotes": [
+      "והבין עצמו להראות להה\"ק רר״ב מאמר סתום בזוהר"
+     ],
+     "confidence": 2,
+     "why": "A contest of learning between the scholar and R. Barukh",
+     "quotes_failed": false
+    },
+    {
+     "tag": "ethics-and-emotions:pride",
+     "scope": "span",
+     "quotes": [
+      "על אשר הרהיב עוז בנפשו להקשותו בפומבי"
+     ],
+     "confidence": 2,
+     "why": "The scholar's arrogance in publicly challenging the tsaddik",
+     "quotes_failed": false
+    },
+    {
+     "tag": "ethics-and-emotions:punishment",
+     "scope": "span",
+     "quotes": [
+      "ושכח כל לימודו ונעשה ע\"ה והי׳ שמש בביהכנ״ס"
+     ],
+     "confidence": 3,
+     "why": "The scholar loses his learning as punishment",
+     "quotes_failed": false
+    },
+    {
+     "tag": "supernatural:miracle",
+     "scope": "span",
+     "quotes": [
+      "ויצא מבית הרב כברי׳ חדשה ושכח כל לימודו"
+     ],
+     "confidence": 3,
+     "why": "Supernatural loss of all his learning",
+     "quotes_failed": false
+    },
+    {
+     "tag": "supernatural:perception",
+     "scope": "span",
+     "quotes": [
+      "הי׳ הזוהר פתוח לפני הה״ק באותו מאמר שהי' בדעת הליטוואק לשאול"
+     ],
+     "confidence": 3,
+     "why": "R. Barukh knew in advance which passage the scholar intended to ask about",
+     "quotes_failed": false
+    },
+    {
+     "tag": "supernatural:prognostication",
+     "scope": "span",
+     "quotes": [
+      "אם יבא הליטוואק אלי לא יוכל ללמוד כלל"
+     ],
+     "confidence": 3,
+     "why": "R. Barukh's prediction comes true",
+     "quotes_failed": false
+    },
+    {
+     "tag": "folkloristics:story_type_prognostication",
+     "scope": "story",
+     "quotes": [],
+     "confidence": 2,
+     "why": "The plot fulfils R. Barukh's prediction",
+     "quotes_failed": false
+    },
+    {
+     "tag": "practice:sermon",
+     "scope": "span",
+     "quotes": [
+      "הלך הה״ק לדרוש וכל מהה\"ק ר׳ ברוך",
+      "אני אתרץ לכם דלכאורה קשה למה"
+     ],
+     "confidence": 3,
+     "why": "The Berdichever's sermons and R. Barukh's exegesis of the Talmud passage",
+     "quotes_failed": false
+    },
+    {
+     "tag": "practice:study",
+     "scope": "span",
+     "quotes": [
+      "יכולים אתם ללמוד השיבו הן",
+      "השיבו ש\"ס ופוסקים"
+     ],
+     "confidence": 2,
+     "why": "Torah learning is the issue",
+     "quotes_failed": false
+    },
+    {
+     "tag": "practice:travel_to_the_tsaddik",
+     "scope": "span",
+     "quotes": [
+      "נסעו החסידים מבארדיטשיב להה״ק ר׳ ברוך",
+      "ונסע למעזיבוז"
+     ],
+     "confidence": 3,
+     "why": "Hasidim, and then the scholar, travel to R. Barukh",
+     "quotes_failed": false
+    },
+    {
+     "tag": "practice:reception_of_hasidim",
+     "scope": "span",
+     "quotes": [
+      "ויאמר שיבא לפניו ויבא אליו ונתן לו שלום"
+     ],
+     "confidence": 2,
+     "why": "R. Barukh admits and tests the visitor",
+     "quotes_failed": false
+    },
+    {
+     "tag": "characters-and-roles:angels",
+     "scope": "span",
+     "quotes": [
+      "בא מלאך וסטרו על פיו ושוכח",
+      "נמצא שיש ב׳ מלאכים"
+     ],
+     "confidence": 2,
+     "why": "Angels appear in the teaching that drives the climax",
+     "quotes_failed": false
+    },
+    {
+     "tag": "knowledge:esoteric",
+     "scope": "span",
+     "quotes": [
+      "כי שמע מהחסידים שהה״ק בקי בזוה״ק"
+     ],
+     "confidence": 2,
+     "why": "Zohar knowledge as the test",
+     "quotes_failed": false
+    },
+    {
+     "tag": "spaces:beth_midrash",
+     "scope": "span",
+     "quotes": [
+      "לילך לביהכנ״ס לדרוש"
+     ],
+     "confidence": 2,
+     "why": "The sermons take place in the synagogue/study house",
+     "quotes_failed": false
+    },
+    {
+     "tag": "social:inter_hasidic",
+     "scope": "span",
+     "quotes": [
+      "ויספרו לו שבא ליטוואק א׳ לקנטר"
+     ],
+     "confidence": 1,
+     "why": "Berdichev hasidim report to another tsaddik",
+     "quotes_failed": false
+    }
+   ],
+   "missing_concepts": [
+    "loss or forgetting of Torah learning as a sanction",
+    "testing the tsaddik's learning",
+    "the forgetting that makes the world possible"
+   ],
+   "start_quote_found": true,
+   "end_quote_found": true
+  }
+ ],
+ "check": {
+  "non_vocab_tags": [],
+  "quotes": 19,
+  "quotes_not_found": 0
+ },
+ "id": "Seva-Ratzon_0020",
+ "chars": 2203,
+ "seconds": 25
+}

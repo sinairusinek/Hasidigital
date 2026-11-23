@@ -1,0 +1,68 @@
+{
+ "unit": {
+  "kind": "hasidic_story",
+  "why": "split out of non-story-003 (non-story)"
+ },
+ "stories": [
+  {
+   "k": 15,
+   "start_quote": "ברב אשי שנראה לו המלאך בשוק",
+   "end_quote": "אפילו כמלא נימא",
+   "hasidic": false,
+   "summary_en": "The Angel of Death grants R. Ashi thirty days to review his learning, then returns early because R. Ashi's successor's term has come.",
+   "tags": [
+    {
+     "tag": "characters-and-roles:angel_of_death",
+     "scope": "span",
+     "quotes": [
+      "א\"ל המלאך משום שאתה דוחה רגל"
+     ],
+     "confidence": 3,
+     "why": "agent",
+     "quotes_failed": false
+    },
+    {
+     "tag": "practice:study",
+     "scope": "span",
+     "quotes": [
+      "עד שאחזור ואלמוד מה שלמדתי"
+     ],
+     "confidence": 2,
+     "why": "reviewing learning",
+     "quotes_failed": false
+    },
+    {
+     "tag": "times:death",
+     "scope": "story",
+     "quotes": [],
+     "confidence": 2,
+     "why": "impending death",
+     "quotes_failed": false
+    },
+    {
+     "tag": "social:inter_hasidic_inheritance_of_leadership",
+     "scope": "span",
+     "quotes": [
+      "שהגיע זמנו להיות נשיא"
+     ],
+     "confidence": 1,
+     "why": "succession (non-Hasidic)",
+     "quotes_failed": false
+    },
+    {
+     "tag": "not-a-hasidic-story:hagiography",
+     "scope": "story",
+     "quotes": [],
+     "confidence": 3,
+     "why": "talmudic",
+     "quotes_failed": false
+    }
+   ],
+   "missing_concepts": [],
+   "start_quote_found": true,
+   "end_quote_found": true
+  }
+ ],
+ "id": "Eser-Orot_non-story-003_s15",
+ "split_from": "non-story-003"
+}

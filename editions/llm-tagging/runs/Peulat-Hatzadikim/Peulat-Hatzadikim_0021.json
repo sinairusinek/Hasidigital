@@ -1,0 +1,103 @@
+{
+ "unit": {
+  "kind": "hasidic_story",
+  "why": "A short anecdote in which R. Moshe Teitelbaum boasts to the Seer of Lublin that studying the Guide left him with no doubts and the Seer explains why, followed by two appended sayings of R. Pinchas of Korets on Rashi and on lying.",
+  "boundary_note": "the division ends with appended sayings of R. Pinchas of Korets that are teachings, not narrative"
+ },
+ "stories": [
+  {
+   "k": 1,
+   "start_quote": "הה״ק ר׳ משה טייטעלבוים זצ״ל מאוהל התפאר",
+   "end_quote": "שקר חמור כמו עריות יבא משיח",
+   "hasidic": true,
+   "summary_en": "R. Moshe Teitelbaum of Ujhely boasts to the Seer of Lublin that he studied Maimonides' Guide without being left with doubts; the Seer attributes this to his having learned Chumash with Rashi from his uncle R. Yosef of Kolbuszowa, and sayings of R. Pinchas of Korets on Rashi as conducive to faith and on lying follow.",
+   "tags": [
+    {
+     "tag": "social:inter_hasidic_master_disciple_relationship",
+     "scope": "span",
+     "quotes": [
+      "התפאר א״ע לפני הק׳ מלובלין",
+      "השיבו רבו זה גרם לו"
+     ],
+     "confidence": 3,
+     "why": "the exchange is between the disciple and his master, the Seer of Lublin",
+     "quotes_failed": false
+    },
+    {
+     "tag": "practice:study",
+     "scope": "span",
+     "quotes": [
+      "שלמד ספר המורה להרמב״ם",
+      "שלמד חומש עם פירש״י אצל דודו"
+     ],
+     "confidence": 3,
+     "why": "the story turns on his study of the Guide and of Chumash with Rashi",
+     "quotes_failed": false
+    },
+    {
+     "tag": "ethics-and-emotions:pride",
+     "scope": "span",
+     "quotes": [
+      "התפאר א״ע לפני הק׳ מלובלין"
+     ],
+     "confidence": 1,
+     "why": "he boasts of his achievement, though it is not condemned",
+     "quotes_failed": false
+    },
+    {
+     "tag": "practice:sermon",
+     "scope": "span",
+     "quotes": [
+      "מי שלומד חומש עם פירש״י מסוגל לאמונה",
+      "ששקר צריך להיות חמור כמו עריות"
+     ],
+     "confidence": 2,
+     "why": "teachings of R. Pinchas are quoted",
+     "quotes_failed": false
+    },
+    {
+     "tag": "not-a-hasidic-story:sermon",
+     "scope": "story",
+     "quotes": [],
+     "confidence": 1,
+     "why": "the anecdote is minimal and largely carries teachings on faith and lying",
+     "quotes_failed": false
+    },
+    {
+     "tag": "ethics-and-emotions:lying",
+     "scope": "span",
+     "quotes": [
+      "ששקר צריך להיות חמור כמו עריות"
+     ],
+     "confidence": 1,
+     "why": "lying is discussed as a sin in an appended saying, not committed by a character",
+     "quotes_failed": false
+    },
+    {
+     "tag": "characters-and-roles:messiah",
+     "scope": "span",
+     "quotes": [
+      "כשיהי׳ שקר חמור כמו עריות יבא משיח"
+     ],
+     "confidence": 1,
+     "why": "messianic expectation appears in the appended saying",
+     "quotes_failed": false
+    }
+   ],
+   "missing_concepts": [
+    "philosophy versus faith: studying Maimonides' Guide of the Perplexed without doubts",
+    "Rashi's commentary on the Torah as conducive to faith (emunah)"
+   ],
+   "start_quote_found": true,
+   "end_quote_found": true
+  }
+ ],
+ "check": {
+  "non_vocab_tags": [],
+  "quotes": 9,
+  "quotes_not_found": 0
+ },
+ "id": "Peulat-Hatzadikim_0021",
+ "chars": 385,
+ "seconds": 14
+}

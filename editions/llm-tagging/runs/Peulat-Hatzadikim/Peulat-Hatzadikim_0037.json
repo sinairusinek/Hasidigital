@@ -1,0 +1,138 @@
+{
+ "unit": {
+  "kind": "hasidic_story",
+  "why": "A short anecdote: the rebbetzin rebukes the tsaddik for giving money to his enemies and he answers with a homiletic justification, so the narrative is minimal and mostly a teaching.",
+  "boundary_note": ""
+ },
+ "stories": [
+  {
+   "k": 1,
+   "start_quote": "פ״א הוכיחה אותו הרבנות על אשר",
+   "end_quote": "ורבנו ונשאר בפרנסתנו :",
+   "hasidic": true,
+   "summary_en": "The tsaddik's wife reproaches him for generously giving money to his opponents instead of punishing them; he explains that the tsaddik is the 'foundation of the world', that he is not himself such a tsaddik, and that he sustains the world by keeping silent in strife, so it is better to stay silent, bear their enmity and keep their livelihood.",
+   "tags": [
+    {
+     "tag": "characters-and-roles:the_family_of_the_tsaddik",
+     "scope": "span",
+     "quotes": [
+      "הוכיחה אותו הרבנות על אשר פזר נתן"
+     ],
+     "confidence": 3,
+     "why": "His wife, the rebbetzin, is his interlocutor.",
+     "quotes_failed": false
+    },
+    {
+     "tag": "women:minor_character",
+     "scope": "span",
+     "quotes": [
+      "ושאלה ממנו הלא ידעתיך לאיש מופת"
+     ],
+     "confidence": 2,
+     "why": "The wife acts by rebuking and questioning him, which prompts his answer.",
+     "quotes_failed": false
+    },
+    {
+     "tag": "social:marital_relationship",
+     "scope": "span",
+     "quotes": [
+      "שמע לקולי יותר טוב לשתוק ולסבול"
+     ],
+     "confidence": 2,
+     "why": "The exchange is a dispute between husband and wife.",
+     "quotes_failed": false
+    },
+    {
+     "tag": "ethics-and-emotions:charity",
+     "scope": "span",
+     "quotes": [
+      "פזר נתן לשונאיו ולאנשי ריבו"
+     ],
+     "confidence": 3,
+     "why": "He gives money generously, even to his enemies.",
+     "quotes_failed": false
+    },
+    {
+     "tag": "ethics-and-emotions:humility",
+     "scope": "span",
+     "quotes": [
+      "אנכי יודע בעצמי שאינני בגדר צדיק ויסוד"
+     ],
+     "confidence": 3,
+     "why": "He denies being a true tsaddik.",
+     "quotes_failed": false
+    },
+    {
+     "tag": "ethics-and-emotions:virtues",
+     "scope": "span",
+     "quotes": [
+      "מי ששותק לשונאיו ואינו פותח פיו"
+     ],
+     "confidence": 3,
+     "why": "The virtue of silence and forbearance in strife is the point.",
+     "quotes_failed": false
+    },
+    {
+     "tag": "social:conflict",
+     "scope": "span",
+     "quotes": [
+      "למה לא תעניש אנשי ריבך"
+     ],
+     "confidence": 2,
+     "why": "He has opponents and enemies.",
+     "quotes_failed": false
+    },
+    {
+     "tag": "practice:torat_ha_tsaddik",
+     "scope": "span",
+     "quotes": [
+      "והצדיק הוא יסוד הבנין במש״ה וצדיק יסוד עולם"
+     ],
+     "confidence": 3,
+     "why": "The tsaddik as the foundation of the world, which is why people give him money.",
+     "quotes_failed": false
+    },
+    {
+     "tag": "practice:sermon",
+     "scope": "span",
+     "quotes": [
+      "תולה ארץ על בלימה אין העולם מתקיים"
+     ],
+     "confidence": 3,
+     "why": "His answer is an exegetical teaching.",
+     "quotes_failed": false
+    },
+    {
+     "tag": "not-a-hasidic-story:sermon",
+     "scope": "story",
+     "quotes": [],
+     "confidence": 2,
+     "why": "The text is mostly a homiletic justification with a thin narrative frame.",
+     "quotes_failed": false
+    },
+    {
+     "tag": "folkloristics:story_type_virtues",
+     "scope": "story",
+     "quotes": [],
+     "confidence": 2,
+     "why": "It illustrates the tsaddik's forbearance and humility.",
+     "quotes_failed": false
+    }
+   ],
+   "missing_concepts": [
+    "forbearance / silence toward enemies (bolem atzmo bi-she'at merivah)",
+    "money given to tsaddikim as support of the world"
+   ],
+   "start_quote_found": true,
+   "end_quote_found": true
+  }
+ ],
+ "check": {
+  "non_vocab_tags": [],
+  "quotes": 9,
+  "quotes_not_found": 0
+ },
+ "id": "Peulat-Hatzadikim_0037",
+ "chars": 919,
+ "seconds": 17
+}

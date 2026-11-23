@@ -1,0 +1,166 @@
+{
+ "unit": {
+  "kind": "hasidic_story",
+  "why": "A single narrative: a tsaddik shuts himself in with his dying daughter Hinda, she dies, and on Sukkot night he reveals that he had meant to revive her like Elisha but his deceased father-in-law warned him off.",
+  "boundary_note": ""
+ },
+ "stories": [
+  {
+   "k": 1,
+   "start_quote": "בעת שהיתה בתו הצדיקת מ׳ הינדא",
+   "end_quote": "ע״פ ואורח צדיקים כאור נוגה",
+   "hasidic": true,
+   "summary_en": "When his righteous daughter Hinda lay dying, the tsaddik shut himself in alone with her on Shabbat, and she died that day. Only on the first night of Sukkot did he tell, in Yiddish, that he had wanted to revive her as Elisha revived the child, but his late father-in-law came and warned him that this was dangerous.",
+   "tags": [
+    {
+     "tag": "characters-and-roles:the_family_of_the_tsaddik",
+     "scope": "span",
+     "quotes": [
+      "בתו הצדיקת מ׳ הינדא שוכבה על ערשה",
+      "ובא אלינו חותני מורי ורבי"
+     ],
+     "confidence": 3,
+     "why": "Daughter and father-in-law of the tsaddik",
+     "quotes_failed": false
+    },
+    {
+     "tag": "times:death",
+     "scope": "span",
+     "quotes": [
+      "והיא נפטרה באותו יום ד״ל"
+     ],
+     "confidence": 3,
+     "why": "The daughter's death",
+     "quotes_failed": false
+    },
+    {
+     "tag": "times:shabbat",
+     "scope": "span",
+     "quotes": [
+      "ובשבת האחרון למחלתה הלך אחר מוסף לבקרה",
+      "והי׳ זה בשבת לפני סליחות"
+     ],
+     "confidence": 3,
+     "why": "The seclusion and the death take place on Shabbat",
+     "quotes_failed": false
+    },
+    {
+     "tag": "times:holidays",
+     "scope": "span",
+     "quotes": [
+      "עד ליל א׳ דסובות בבואו לתוך הסובה"
+     ],
+     "confidence": 3,
+     "why": "The revelation happens on Sukkot night",
+     "quotes_failed": false
+    },
+    {
+     "tag": "women:catalyst_character",
+     "scope": "span",
+     "quotes": [
+      "בתו הצדיקת מ׳ הינדא שוכבה על ערשה"
+     ],
+     "confidence": 2,
+     "why": "The dying daughter is the reason for the events but does not act",
+     "quotes_failed": false
+    },
+    {
+     "tag": "supernatural:communicating_with_the_invisible",
+     "scope": "span",
+     "quotes": [
+      "ובא אלינו חותני מורי ורבי ואמר לנו כלך מדרך זה"
+     ],
+     "confidence": 3,
+     "why": "His deceased father-in-law appears and speaks to him",
+     "quotes_failed": false
+    },
+    {
+     "tag": "practice:lifesaving",
+     "scope": "span",
+     "quotes": [
+      "והי׳ ברצוננו לעשות כמו אלישע",
+      "ויסגור הדלת וישם פיו על פיו"
+     ],
+     "confidence": 1,
+     "why": "He planned to revive her but did not go through with it",
+     "quotes_failed": false
+    },
+    {
+     "tag": "ethics-and-emotions:sadness",
+     "scope": "span",
+     "quotes": [
+      "אינזער צער וועלין מיר שאחן מקבל זיין באהבה"
+     ],
+     "confidence": 2,
+     "why": "His grief over his daughter, accepted with love",
+     "quotes_failed": false
+    },
+    {
+     "tag": "ethics-and-emotions:joy",
+     "scope": "span",
+     "quotes": [
+      "בבואו לתוך הסובה בשמחה רבה"
+     ],
+     "confidence": 2,
+     "why": "Holiday joy as he enters the sukkah",
+     "quotes_failed": false
+    },
+    {
+     "tag": "practice:storytelling",
+     "scope": "span",
+     "quotes": [
+      "לאזען מיר דערציילין אביסיל פין אינזער טאבטיר הינדא"
+     ],
+     "confidence": 3,
+     "why": "The tsaddik tells the story at the festive meal",
+     "quotes_failed": false
+    },
+    {
+     "tag": "practice:sermon",
+     "scope": "span",
+     "quotes": [
+      "פתח הרב לומר תורה ע״פ ואורח צדיקים כאור נוגה"
+     ],
+     "confidence": 2,
+     "why": "He then delivers a Torah discourse",
+     "quotes_failed": false
+    },
+    {
+     "tag": "social:retrospective_recognition",
+     "scope": "span",
+     "quotes": [
+      "ולא נודע לשום איש מה הענין ההוא שסגר עמה"
+     ],
+     "confidence": 2,
+     "why": "The meaning of the seclusion is revealed only later",
+     "quotes_failed": false
+    },
+    {
+     "tag": "social:marriage",
+     "scope": "span",
+     "quotes": [
+      "דאם התקשרות עם נכד הרבי ר׳ משה ליב מסאסיב"
+     ],
+     "confidence": 1,
+     "why": "Her marriage tie to the Sasov dynasty is mentioned",
+     "quotes_failed": false
+    }
+   ],
+   "missing_concepts": [
+    "resurrection of the dead / imitating Elisha's revival",
+    "acceptance of a tsaddik's limits (refraining from a dangerous miracle)",
+    "Sukkah customs (kissing the walls)"
+   ],
+   "start_quote_found": true,
+   "end_quote_found": true
+  }
+ ],
+ "check": {
+  "non_vocab_tags": [],
+  "quotes": 16,
+  "quotes_not_found": 0
+ },
+ "id": "Peulat-Hatzadikim_0035",
+ "chars": 1260,
+ "seconds": 21
+}

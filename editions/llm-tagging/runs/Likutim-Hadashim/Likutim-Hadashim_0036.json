@@ -1,0 +1,92 @@
+{
+ "unit": {
+  "kind": "hasidic_story",
+  "why": "A short anecdote: two men come to the rebbe asking for a partnership contract, and he writes four letters and explains them as a witty lesson.",
+  "boundary_note": ""
+ },
+ "stories": [
+  {
+   "k": 1,
+   "start_quote": "שמעתי שפ\"א באו אליו שני אנשים",
+   "end_quote": "ג, גנבה . ד, דלות",
+   "hasidic": true,
+   "summary_en": "Two men who wanted to form a partnership asked the rebbe to write them a contract; he wrote the letters A-B-C-D in the four corners and explained: truth brings blessing, theft brings poverty.",
+   "tags": [
+    {
+     "tag": "practice:business_advice",
+     "scope": "span",
+     "quotes": [
+      "שני אנשים שהיו רוצים לעשות שותפות",
+      "ולקח נייר וכתב בד׳ הקצוות כסדר"
+     ],
+     "confidence": 3,
+     "why": "The tzaddik advises partners on the right conduct in commerce.",
+     "quotes_failed": false
+    },
+    {
+     "tag": "practice:reception_of_hasidim",
+     "scope": "span",
+     "quotes": [
+      "באו אליו שני אנשים"
+     ],
+     "confidence": 2,
+     "why": "Visitors come to the rebbe with a request.",
+     "quotes_failed": false
+    },
+    {
+     "tag": "practice:joke",
+     "scope": "span",
+     "quotes": [
+      "ואמר להם שזה הכתב שותפות ולא הבינו מה זה"
+     ],
+     "confidence": 2,
+     "why": "A witty, riddle-like 'contract' made of four letters.",
+     "quotes_failed": false
+    },
+    {
+     "tag": "ethics-and-emotions:virtues",
+     "scope": "span",
+     "quotes": [
+      "א, הוא אמת. ב, הוא ברכה"
+     ],
+     "confidence": 2,
+     "why": "Honesty is taught as the virtue that brings blessing.",
+     "quotes_failed": false
+    },
+    {
+     "tag": "ethics-and-emotions:lying",
+     "scope": "span",
+     "quotes": [
+      "ג, גנבה . ד, דלות"
+     ],
+     "confidence": 1,
+     "why": "Dishonesty and theft are warned against as leading to poverty.",
+     "quotes_failed": false
+    },
+    {
+     "tag": "folkloristics:story_type_virtues",
+     "scope": "story",
+     "quotes": [],
+     "confidence": 1,
+     "why": "The anecdote shows the tzaddik's wisdom in teaching an ethical lesson.",
+     "quotes_failed": false
+    }
+   ],
+   "missing_concepts": [
+    "business partnership / contract",
+    "wordplay on the alphabet (alef-bet acrostic)",
+    "honesty in commerce"
+   ],
+   "start_quote_found": true,
+   "end_quote_found": true
+  }
+ ],
+ "check": {
+  "non_vocab_tags": [],
+  "quotes": 6,
+  "quotes_not_found": 0
+ },
+ "id": "Likutim-Hadashim_0036",
+ "chars": 220,
+ "seconds": 12
+}

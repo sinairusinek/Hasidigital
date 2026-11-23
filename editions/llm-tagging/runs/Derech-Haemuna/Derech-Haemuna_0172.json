@@ -1,0 +1,152 @@
+{
+ "unit": {
+  "kind": "non_hasidic_story",
+  "why": "A homily on written and oral Torah as the two pillars before a scholar's bier, illustrated by a legend about R. Moses Cordovero's funeral and the Ari, taken from Or ha-Yashar.",
+  "boundary_note": "Homiletic frame precedes the story within the same division."
+ },
+ "stories": [
+  {
+   "k": 1,
+   "start_quote": "וכך מצינו באיש קדוש מהרמ״ק ז״ל",
+   "end_quote": "והוציאו מביתו והנער הלך לו ע״כ",
+   "hasidic": false,
+   "summary_en": "At the Ramak's funeral only a boy sees two pillars of fire before the bier. The Ari promises him his daughter in marriage, then perceives in the boy's face that he has had a seminal emission, tells him he has lost his high level and sends him away.",
+   "tags": [
+    {
+     "tag": "not-a-hasidic-story:hagiography",
+     "scope": "story",
+     "quotes": [],
+     "confidence": 3,
+     "why": "Praises the Ramak and the Ari, pre-Hasidic kabbalists, in a tale cited from Or ha-Yashar",
+     "quotes_failed": false
+    },
+    {
+     "tag": "not-a-hasidic-story:sermon",
+     "scope": "span",
+     "quotes": [
+      "ועוסק התורה יהיה בתורה שבכתב ובתורה שבע״פ"
+     ],
+     "confidence": 3,
+     "why": "The story is wrapped in a homily on written and oral Torah",
+     "quotes_failed": false
+    },
+    {
+     "tag": "supernatural:light_or_fire_as_a_sign_of_righteousness",
+     "scope": "span",
+     "quotes": [
+      "ב׳ עמודים של אש המאירים עד מאד"
+     ],
+     "confidence": 3,
+     "why": "Pillars of fire go before the righteous man's bier",
+     "quotes_failed": false
+    },
+    {
+     "tag": "experience:visions",
+     "scope": "span",
+     "quotes": [
+      "ב׳ עמודים של אש המאירים עד מאד",
+      "מי הרואה מה שאני רואה ענין גדול כאן"
+     ],
+     "confidence": 3,
+     "why": "The Ari and the boy see a supernatural sight while awake",
+     "quotes_failed": false
+    },
+    {
+     "tag": "supernatural:perception",
+     "scope": "span",
+     "quotes": [
+      "הסתכל הרב ז״ל בפני הנער והשיג כי ראה קרי"
+     ],
+     "confidence": 3,
+     "why": "The Ari knows the boy's hidden impurity by looking at his face",
+     "quotes_failed": false
+    },
+    {
+     "tag": "times:death",
+     "scope": "span",
+     "quotes": [
+      "שהלכו אחר מטתו הרבה בני אדם"
+     ],
+     "confidence": 2,
+     "why": "The scene is the Ramak's funeral",
+     "quotes_failed": false
+    },
+    {
+     "tag": "social:marriage",
+     "scope": "span",
+     "quotes": [
+      "הריני נותן לך בתי לאשה"
+     ],
+     "confidence": 2,
+     "why": "A promised match that is then withdrawn",
+     "quotes_failed": false
+    },
+    {
+     "tag": "characters-and-roles:the_family_of_the_tsaddik",
+     "scope": "span",
+     "quotes": [
+      "הריני נותן לך בתי לאשה"
+     ],
+     "confidence": 1,
+     "why": "The Ari's daughter is referred to",
+     "quotes_failed": false
+    },
+    {
+     "tag": "women:mention_only",
+     "scope": "span",
+     "quotes": [
+      "ואינך רשאי לקחת בתי"
+     ],
+     "confidence": 3,
+     "why": "The daughter is mentioned but does not act",
+     "quotes_failed": false
+    },
+    {
+     "tag": "ethics-and-emotions:punishment",
+     "scope": "span",
+     "quotes": [
+      "הנה אבדת המעלה הגדולה שהיה בך"
+     ],
+     "confidence": 2,
+     "why": "The boy loses his spiritual level and the match after the emission",
+     "quotes_failed": false
+    },
+    {
+     "tag": "ethics-and-emotions:prohibitions",
+     "scope": "span",
+     "quotes": [
+      "ואינך רשאי לקחת בתי ולך מביתי"
+     ],
+     "confidence": 1,
+     "why": "The boy is forbidden to marry the daughter because of his impurity",
+     "quotes_failed": false
+    },
+    {
+     "tag": "experience:revelation",
+     "scope": "span",
+     "quotes": [
+      "ב׳ עמודים של אש המאירים עד מאד"
+     ],
+     "confidence": 1,
+     "why": "A supernatural disclosure is granted to the boy",
+     "quotes_failed": false
+    }
+   ],
+   "missing_concepts": [
+    "nocturnal emission (keri) and the impurity it brings",
+    "funeral procession of a sage",
+    "Torah study as pillars of cloud and fire"
+   ],
+   "start_quote_found": true,
+   "end_quote_found": true
+  }
+ ],
+ "check": {
+  "non_vocab_tags": [],
+  "quotes": 12,
+  "quotes_not_found": 0
+ },
+ "id": "Derech-Haemuna_0172",
+ "chars": 1026,
+ "seconds": 20
+}

@@ -1,0 +1,156 @@
+{
+ "unit": {
+  "kind": "hasidic_story",
+  "why": "A single narrative about the Seer of Lublin's visit to R. Barukh of Medzhybizh, where the Seer turned away from R. Barukh's daughter at the table and the two then disagreed.",
+  "boundary_note": ""
+ },
+ "stories": [
+  {
+   "k": 1,
+   "start_quote": "שמעתי פעם אחת היה הרבי זצ\"ל מלובלין",
+   "end_quote": "ובאו כל בני העיר אצלו ואמר להם תורה",
+   "hasidic": true,
+   "summary_en": "While visiting R. Barukh of Medzhybizh, the Seer of Lublin shielded himself from the gaze of R. Barukh's daughter at the table, so she fled. R. Barukh objected, citing a verse, and the Seer stayed away from his table, declined his offer of Torah secrets, and held his own third Sabbath meal, where the townspeople came to hear his teaching.",
+   "tags": [
+    {
+     "tag": "practice:the_travels_of_the_tsaddik",
+     "scope": "story",
+     "quotes": [],
+     "confidence": 3,
+     "why": "The Seer visits R. Barukh, and the story takes place during his stay there.",
+     "quotes_failed": false
+    },
+    {
+     "tag": "characters-and-roles:the_family_of_the_tsaddik",
+     "scope": "span",
+     "quotes": [
+      "ישבה בתו של הרה״ק ר׳ ברוך כנגדו"
+     ],
+     "confidence": 3,
+     "why": "R. Barukh's daughter appears as a character.",
+     "quotes_failed": false
+    },
+    {
+     "tag": "women:catalyst_character",
+     "scope": "span",
+     "quotes": [
+      "ישבה בתו של הרה״ק ר׳ ברוך כנגדו והביטה בפניו"
+     ],
+     "confidence": 3,
+     "why": "The daughter's gaze sets off the conflict.",
+     "quotes_failed": false
+    },
+    {
+     "tag": "social:inter_hasidic_conflict_between_tsaddikim",
+     "scope": "span",
+     "quotes": [
+      "והרבי ר׳ ברוך זצ\"ל הקפיד ע״ז למה גירש אותה",
+      "ובבוקר לא רצה הרבי זצ״ל מלובלין לילך להשולחן"
+     ],
+     "confidence": 3,
+     "why": "The two tsaddikim fall out over the incident.",
+     "quotes_failed": false
+    },
+    {
+     "tag": "social:conflict",
+     "scope": "span",
+     "quotes": [
+      "והרבי ר׳ ברוך זצ\"ל הקפיד ע״ז למה גירש אותה"
+     ],
+     "confidence": 2,
+     "why": "An open dispute between the two men.",
+     "quotes_failed": false
+    },
+    {
+     "tag": "ethics-and-emotions:anger",
+     "scope": "span",
+     "quotes": [
+      "הקפיד ע״ז למה גירש אותה"
+     ],
+     "confidence": 2,
+     "why": "R. Barukh is displeased at what the Seer did.",
+     "quotes_failed": false
+    },
+    {
+     "tag": "ethics-and-emotions:lust",
+     "scope": "span",
+     "quotes": [
+      "העבר עיני מראות שוא"
+     ],
+     "confidence": 1,
+     "why": "The issue is guarding the eyes against forbidden sights.",
+     "quotes_failed": false
+    },
+    {
+     "tag": "ethics-and-emotions:prohibitions",
+     "scope": "span",
+     "quotes": [
+      "עיקר שיעבור עיניו שאל יראה בשוא"
+     ],
+     "confidence": 2,
+     "why": "The prohibition on looking at a woman is debated.",
+     "quotes_failed": false
+    },
+    {
+     "tag": "practice:sermon",
+     "scope": "span",
+     "quotes": [
+      "העבר עיני מראות שוא היה לו לכתוב העבר עיני משוא",
+      "ואמר להם תורה"
+     ],
+     "confidence": 3,
+     "why": "R. Barukh interprets a verse, and the Seer delivers Torah teaching.",
+     "quotes_failed": false
+    },
+    {
+     "tag": "times:shabbat",
+     "scope": "span",
+     "quotes": [
+      "ולעת ערב בש״ס שלח ר' ברוך",
+      "ועשה ש״ס באכסניא שלו"
+     ],
+     "confidence": 3,
+     "why": "The story turns on the third Sabbath meal.",
+     "quotes_failed": false
+    },
+    {
+     "tag": "knowledge:esoteric",
+     "scope": "span",
+     "quotes": [
+      "ויגלה לו רזין דאורייתא"
+     ],
+     "confidence": 2,
+     "why": "R. Barukh offers to reveal the secrets of the Torah.",
+     "quotes_failed": false
+    },
+    {
+     "tag": "social:competition",
+     "scope": "span",
+     "quotes": [
+      "ועשה ש״ס באכסניא שלו ובאו כל בני העיר אצלו"
+     ],
+     "confidence": 2,
+     "why": "The Seer holds a rival meal, and the townspeople come to him.",
+     "quotes_failed": false
+    }
+   ],
+   "missing_concepts": [
+    "the tsaddik's table (tish) and its customs",
+    "guarding the eyes / modesty between the sexes",
+    "seudah shlishit as a separate gathering of a visiting tsaddik"
+   ],
+   "start_quote_found": true,
+   "end_quote_found": true
+  }
+ ],
+ "check": {
+  "non_vocab_tags": [
+   "practice:tish"
+  ],
+  "quotes": 14,
+  "quotes_not_found": 0
+ },
+ "id": "Likutim-Hadashim_0040",
+ "chars": 663,
+ "seconds": 16
+}

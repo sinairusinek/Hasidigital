@@ -1,0 +1,151 @@
+{
+ "unit": {
+  "kind": "hasidic_story",
+  "why": "A single narrative, quoted from the Komarno rebbe's Netiv Mitzvotekha: R. Yaakov Shimshon of Shepetovka in the Land of Israel sees a vision of the Shekhinah as a weeping widow and knows that R. Pinhas of Korets has died that night, which is later confirmed.",
+  "boundary_note": ""
+ },
+ "stories": [
+  {
+   "k": 1,
+   "start_quote": "כתב מו״ר הגאוה״ק מוהרי״א מקאמרנא ז\"ל",
+   "end_quote": "נתאמתו דברים אלו מכוון באותו לילה עכ״ל",
+   "hasidic": true,
+   "summary_en": "While in the Land of Israel, R. Yaakov Shimshon of Shepetovka sees the Shekhinah as a woman mourning her husband, tells his companions that R. Pinhas of Korets has died, rends his garment, says the blessing and weeps, and the death is later confirmed to have happened that very night.",
+   "tags": [
+    {
+     "tag": "spaces:the_land_of_israel",
+     "scope": "span",
+     "quotes": [
+      "כשהי׳ בארץ הקדושה ראה שהשכינה הקדושה"
+     ],
+     "confidence": 3,
+     "why": "the seer is in the Land of Israel",
+     "quotes_failed": false
+    },
+    {
+     "tag": "supernatural:perception",
+     "scope": "span",
+     "quotes": [
+      "אלא הקדוש ר' פנחס מקאריץ. ובודאי נסתלק בלילה ההוא"
+     ],
+     "confidence": 3,
+     "why": "he knows of a distant death through ruach hakodesh",
+     "quotes_failed": false
+    },
+    {
+     "tag": "experience:visions",
+     "scope": "span",
+     "quotes": [
+      "ראה שהשכינה הקדושה בדמיונו בדמות אשה בוכה"
+     ],
+     "confidence": 2,
+     "why": "he sees the Shekhinah in imagery, possibly while asleep",
+     "quotes_failed": false
+    },
+    {
+     "tag": "experience:dream",
+     "scope": "span",
+     "quotes": [
+      "והקיץ משנתו ואמר לחביריו"
+     ],
+     "confidence": 2,
+     "why": "he wakes from sleep, so the vision was apparently a dream",
+     "quotes_failed": false
+    },
+    {
+     "tag": "experience:revelation",
+     "scope": "span",
+     "quotes": [
+      "ראה שהשכינה הקדושה בדמיונו בדמות אשה בוכה"
+     ],
+     "confidence": 2,
+     "why": "the Shekhinah is disclosed to him",
+     "quotes_failed": false
+    },
+    {
+     "tag": "times:death",
+     "scope": "span",
+     "quotes": [
+      "ובודאי נסתלק בלילה ההוא"
+     ],
+     "confidence": 3,
+     "why": "the death of R. Pinhas of Korets is central",
+     "quotes_failed": false
+    },
+    {
+     "tag": "folkloristics:story_type_death_of_the_tsaddik",
+     "scope": "story",
+     "quotes": [],
+     "confidence": 2,
+     "why": "the tale centres on the passing of R. Pinhas, though it is told from a distance",
+     "quotes_failed": false
+    },
+    {
+     "tag": "practice:halakhah",
+     "scope": "span",
+     "quotes": [
+      "וקרע ובירך"
+     ],
+     "confidence": 1,
+     "why": "he performs the mourning rites of keriah and the blessing over bad news",
+     "quotes_failed": false
+    },
+    {
+     "tag": "ethics-and-emotions:sadness",
+     "scope": "span",
+     "quotes": [
+      "ובכה הרבה בכיות שהי' רבו"
+     ],
+     "confidence": 2,
+     "why": "he weeps for his master",
+     "quotes_failed": false
+    },
+    {
+     "tag": "social:inter_hasidic_master_disciple_relationship",
+     "scope": "span",
+     "quotes": [
+      "ובכה הרבה בכיות שהי' רבו"
+     ],
+     "confidence": 2,
+     "why": "R. Pinhas was his master",
+     "quotes_failed": false
+    },
+    {
+     "tag": "women:mention_only",
+     "scope": "span",
+     "quotes": [
+      "בדמות אשה בוכה ומצטערת על בעל נעוריה"
+     ],
+     "confidence": 1,
+     "why": "the Shekhinah appears as a woman figure who does not act in the plot",
+     "quotes_failed": false
+    },
+    {
+     "tag": "folkloristics:story_type_virtues",
+     "scope": "span",
+     "quotes": [
+      "אין בעולם כעת מי שיהי׳ בעלה דמטרוניתא"
+     ],
+     "confidence": 1,
+     "why": "the story praises R. Pinhas's unique spiritual standing",
+     "quotes_failed": false
+    }
+   ],
+   "missing_concepts": [
+    "Shekhinah appearing as a widow (bereaved Matronita)",
+    "the tzaddik as 'husband of the Matronita'",
+    "learning at a distance of a tzaddik's death"
+   ],
+   "start_quote_found": true,
+   "end_quote_found": true
+  }
+ ],
+ "check": {
+  "non_vocab_tags": [],
+  "quotes": 11,
+  "quotes_not_found": 0
+ },
+ "id": "Eser-Orot_0033",
+ "chars": 422,
+ "seconds": 17
+}

@@ -1,0 +1,165 @@
+{
+ "unit": {
+  "kind": "hasidic_story",
+  "why": "A single tale: the Besht explains why a righteous sick man is not healed and predicts that he will recover, and the prediction comes true.",
+  "boundary_note": ""
+ },
+ "stories": [
+  {
+   "k": 1,
+   "start_quote": "איש א׳ צדיק היה חולה זמן רב",
+   "end_quote": "עמד גם זה האיש תיכף מחליו ג״כ",
+   "hasidic": true,
+   "summary_en": "A pious man stays ill despite a pidyon given to the Besht; the Besht reveals that his suffering shields Jews from bandits in the forest and foretells his recovery once the bandits are brought to town in chains, which happens.",
+   "tags": [
+    {
+     "tag": "folkloristics:story_type_prognostication",
+     "scope": "story",
+     "quotes": [],
+     "confidence": 3,
+     "why": "The Besht's prediction of the recovery comes true.",
+     "quotes_failed": false
+    },
+    {
+     "tag": "supernatural:prognostication",
+     "scope": "span",
+     "quotes": [
+      "ואחר שלשה ימים כשיבואו לעיר אותן הריקים",
+      "וכן היה שתיכף כשהביאו לעיר אותן הפוחזים"
+     ],
+     "confidence": 3,
+     "why": "The foretold event is fulfilled.",
+     "quotes_failed": false
+    },
+    {
+     "tag": "supernatural:perception",
+     "scope": "span",
+     "quotes": [
+      "הנה אגלה לך שיש ביער כמה רקים ופוחזים",
+      "וכי כבר נשלחו אנשי מלחמה לבקש אותן הרוצחים"
+     ],
+     "confidence": 3,
+     "why": "The Besht knows hidden facts at a distance.",
+     "quotes_failed": false
+    },
+    {
+     "tag": "practice:pidyon_nefesh",
+     "scope": "span",
+     "quotes": [
+      "נתנו לו פדיון",
+      "שיקבל פדיון ואינו מועיל"
+     ],
+     "confidence": 3,
+     "why": "A pidyon is given to the tzaddik for the sick man.",
+     "quotes_failed": false
+    },
+    {
+     "tag": "practice:failure",
+     "scope": "span",
+     "quotes": [
+      "העולם מתרעם עליו שיקבל פדיון ואינו מועיל",
+      "יהיה עדיין חולה ויהיה שוכב על ערש דוי"
+     ],
+     "confidence": 3,
+     "why": "The pidyon seems not to work, and the Besht explains why.",
+     "quotes_failed": false
+    },
+    {
+     "tag": "practice:healing",
+     "scope": "span",
+     "quotes": [
+      "שיבקש רחמים עליו שיעמוד מחליו",
+      "עמד גם זה האיש תיכף מחליו"
+     ],
+     "confidence": 2,
+     "why": "Healing is requested and the man recovers, though not through direct action.",
+     "quotes_failed": false
+    },
+    {
+     "tag": "practice:protection",
+     "scope": "span",
+     "quotes": [
+      "וזה האיש ע״י יסוריו הוא מגין עליהם"
+     ],
+     "confidence": 2,
+     "why": "Protection of Jews from bandits through a righteous man's suffering.",
+     "quotes_failed": false
+    },
+    {
+     "tag": "social:inter_hasidic_master_disciple_relationship",
+     "scope": "span",
+     "quotes": [
+      "והפציר בו תלמידו לרבו הבעש״ט"
+     ],
+     "confidence": 2,
+     "why": "The disciple presses his master, who reveals a secret to him.",
+     "quotes_failed": false
+    },
+    {
+     "tag": "practice:the_travels_of_the_tsaddik",
+     "scope": "span",
+     "quotes": [
+      "וכשהיה עובר דרך שם הבעש״ט"
+     ],
+     "confidence": 2,
+     "why": "The episode happens while the Besht is passing through.",
+     "quotes_failed": false
+    },
+    {
+     "tag": "social:relations_with_non_jews",
+     "scope": "span",
+     "quotes": [
+      "ורוצים להרע כמה אנשים מערים של ישראל"
+     ],
+     "confidence": 1,
+     "why": "The bandits are probably non-Jews threatening Jews.",
+     "quotes_failed": false
+    },
+    {
+     "tag": "social:relations_with_the_authorities",
+     "scope": "span",
+     "quotes": [
+      "כבר נשלחו אנשי מלחמה לבקש אותן הרוצחים"
+     ],
+     "confidence": 1,
+     "why": "Armed forces arrest the bandits.",
+     "quotes_failed": false
+    },
+    {
+     "tag": "supernatural:miracle",
+     "scope": "span",
+     "quotes": [
+      "עמד גם זה האיש תיכף מחליו ג״כ"
+     ],
+     "confidence": 2,
+     "why": "A sudden recovery that coincides with the bandits' capture.",
+     "quotes_failed": false
+    },
+    {
+     "tag": "social:retrospective_recognition",
+     "scope": "span",
+     "quotes": [
+      "וזה האיש ע״י יסוריו הוא מגין עליהם"
+     ],
+     "confidence": 1,
+     "why": "The illness is revealed to have had a hidden meaning.",
+     "quotes_failed": false
+    }
+   ],
+   "missing_concepts": [
+    "vicarious suffering of the righteous (yesurim) as atonement or protection for the community",
+    "bandits / robbers in the forest"
+   ],
+   "start_quote_found": true,
+   "end_quote_found": true
+  }
+ ],
+ "check": {
+  "non_vocab_tags": [],
+  "quotes": 17,
+  "quotes_not_found": 0
+ },
+ "id": "Derech-Haemuna_0097",
+ "chars": 652,
+ "seconds": 15
+}

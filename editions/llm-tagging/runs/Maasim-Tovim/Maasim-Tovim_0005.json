@@ -1,0 +1,188 @@
+{
+ "unit": {
+  "kind": "non_hasidic_story",
+  "why": "A moral exemplum on escorting the dead. A bedridden pious man is miraculously able to rise only for the righteous dead. Its moral, which leads into a homily on hypocrites, is that an apparent saint was a secret idolater and an apparent villain was saved by honouring his father. No Hasidic figures appear.",
+  "boundary_note": ""
+ },
+ "stories": [
+  {
+   "k": 1,
+   "start_quote": "מעשה באיש אחד שהי׳ צדיק בכל דרכיו",
+   "end_quote": "כמעשה זמרי ומבקשים שכר כפנחס",
+   "hasidic": false,
+   "summary_en": "A pious man who always escorted the dead becomes lame and prays to be able to rise when a righteous corpse passes. When he fails to rise for a revered elder but rises for a known villain, two elders investigate. They find that the villain had devotedly honoured his aged father, while the revered man secretly kept a golden idol with a cross in a locked room.",
+   "tags": [
+    {
+     "tag": "not-a-hasidic-story:virtues",
+     "scope": "story",
+     "quotes": [],
+     "confidence": 3,
+     "why": "Exemplary tale framed as a lesson on the mitzvot of escorting the dead and honouring parents",
+     "quotes_failed": false
+    },
+    {
+     "tag": "not-a-hasidic-story:sermon",
+     "scope": "span",
+     "quotes": [
+      "כמו פרושים אנשי שכם שעושים מעשה שכמי",
+      "וגם מן הצבועים המחפיס ראשיהם ומראין טלפיהן"
+     ],
+     "confidence": 2,
+     "why": "The narrative ends in an extended homily on kinds of hypocritical Pharisees",
+     "quotes_failed": false
+    },
+    {
+     "tag": "characters-and-roles:angels",
+     "scope": "span",
+     "quotes": [
+      "ויענהו מלאך ד׳ במחזה"
+     ],
+     "confidence": 3,
+     "why": "An angel answers his prayer",
+     "quotes_failed": false
+    },
+    {
+     "tag": "supernatural:communicating_with_the_invisible",
+     "scope": "span",
+     "quotes": [
+      "ויענהו מלאך ד׳ במחזה"
+     ],
+     "confidence": 2,
+     "why": "The pious man receives an angel's answer",
+     "quotes_failed": false
+    },
+    {
+     "tag": "experience:visions",
+     "scope": "span",
+     "quotes": [
+      "ויענהו מלאך ד׳ במחזה"
+     ],
+     "confidence": 2,
+     "why": "The angel's answer comes in a vision (מחזה)",
+     "quotes_failed": false
+    },
+    {
+     "tag": "practice:prayer",
+     "scope": "span",
+     "quotes": [
+      "ויעש תפלה לד' כל הלילה",
+      "ועומד ומתפלל על נפשו"
+     ],
+     "confidence": 3,
+     "why": "His night-long prayer to be able to stand",
+     "quotes_failed": false
+    },
+    {
+     "tag": "supernatural:miracle",
+     "scope": "span",
+     "quotes": [
+      "קם לפניו ועמד על רגליו"
+     ],
+     "confidence": 2,
+     "why": "The lame man rises miraculously before the righteous dead",
+     "quotes_failed": false
+    },
+    {
+     "tag": "times:death",
+     "scope": "span",
+     "quotes": [
+      "יום אחד מת זקן אחד תפארת זקנים",
+      "ויהי ממחרת וימת איש מחרחר ריב"
+     ],
+     "confidence": 3,
+     "why": "The two deaths and funerals drive the plot",
+     "quotes_failed": false
+    },
+    {
+     "tag": "social:retrospective_recognition",
+     "scope": "span",
+     "quotes": [
+      "אז ידעו כי מצות כבוד אב כפר חטאיו",
+      "וידעו כי הוא רשע וכופר וברית עולם מפר"
+     ],
+     "confidence": 3,
+     "why": "The townspeople belatedly learn the true moral standing of both men",
+     "quotes_failed": false
+    },
+    {
+     "tag": "ethics-and-emotions:lying",
+     "scope": "span",
+     "quotes": [
+      "וגונב לבות האנשים כמו פרושים"
+     ],
+     "confidence": 3,
+     "why": "The revered man is a hypocrite who deceives the public",
+     "quotes_failed": false
+    },
+    {
+     "tag": "social:converts_and_conversion",
+     "scope": "span",
+     "quotes": [
+      "וימצאו עם בה צלם זהב ובידו שתי וערב"
+     ],
+     "confidence": 2,
+     "why": "He turns out to be a secret idolater with a crucifix (crypto-apostasy)",
+     "quotes_failed": false
+    },
+    {
+     "tag": "ethics-and-emotions:virtues",
+     "scope": "span",
+     "quotes": [
+      "והי׳ עובדו ומכבדו ונושק כל היום את ידיו"
+     ],
+     "confidence": 3,
+     "why": "Honouring one's father is the redeeming virtue",
+     "quotes_failed": false
+    },
+    {
+     "tag": "times:eschatology",
+     "scope": "span",
+     "quotes": [
+      "כפר חטאיו ואשמיו וזכה לגן עדן"
+     ],
+     "confidence": 2,
+     "why": "Reward in the world to come is at issue",
+     "quotes_failed": false
+    },
+    {
+     "tag": "social:marital_relationship",
+     "scope": "span",
+     "quotes": [
+      "כל היום הי׳ מכה אותי ונושא את נפשי",
+      "לא גער בי ולא הכלימני וגברת על כל אשר לו שמני"
+     ],
+     "confidence": 2,
+     "why": "The two widows describe how their husbands treated them",
+     "quotes_failed": false
+    },
+    {
+     "tag": "women:minor_character",
+     "scope": "span",
+     "quotes": [
+      "ואשת הנ״ל נתנה עליהם בקולה",
+      "ותען אותם במר נפשה"
+     ],
+     "confidence": 3,
+     "why": "The two widows act as informants who reveal the truth",
+     "quotes_failed": false
+    }
+   ],
+   "missing_concepts": [
+    "escorting the dead (levayat ha-met)",
+    "honouring parents (kibbud av)",
+    "hypocrisy / false piety",
+    "hidden sinner revealed"
+   ],
+   "start_quote_found": true,
+   "end_quote_found": true
+  }
+ ],
+ "check": {
+  "non_vocab_tags": [],
+  "quotes": 20,
+  "quotes_not_found": 0
+ },
+ "id": "Maasim-Tovim_0005",
+ "chars": 3782,
+ "seconds": 22
+}

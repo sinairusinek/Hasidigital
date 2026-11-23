@@ -1,0 +1,173 @@
+{
+ "unit": {
+  "kind": "paratext_with_story",
+  "why": "Genealogical footnotes on rabbinic families (tombstone text, lineage letters, approbations) that contain one narrative: Elijah revealed to R. Avraham Z\"K and serving as sandak at his son's circumcision.",
+  "boundary_note": ""
+ },
+ "stories": [
+  {
+   "k": 1,
+   "start_quote": "קבלה ביד זקני עירנו שנתגלה אליהו",
+   "end_quote": "של בנו הה״ק ר׳ דוד האבד״ק גראביוויטץ",
+   "hasidic": false,
+   "summary_en": "A girl serving R. Avraham Z\"K (d. 1760) at his night study sees an unseen guest beside him and serves two cups; he later marries her, and at their son's circumcision a mysterious poor man appears, is made sandak and vanishes: it was Elijah the prophet.",
+   "tags": [
+    {
+     "tag": "not-a-hasidic-story:hagiography",
+     "scope": "story",
+     "quotes": [],
+     "confidence": 2,
+     "why": "Praises a pre-Hasidic rabbinic authority (av beit din, d. 1760) through a town tradition",
+     "quotes_failed": false
+    },
+    {
+     "tag": "characters-and-roles:elijah_the_prophet",
+     "scope": "span",
+     "quotes": [
+      "והוא אליהו הנביא ע״ה"
+     ],
+     "confidence": 3,
+     "why": "Elijah appears in disguise and serves as sandak",
+     "quotes_failed": false
+    },
+    {
+     "tag": "practice:circumcision",
+     "scope": "span",
+     "quotes": [
+      "והרר״א כבדהו בסנדק ואחר הב״מ תיכף נעלם"
+     ],
+     "confidence": 3,
+     "why": "The climax takes place at the son's brit",
+     "quotes_failed": false
+    },
+    {
+     "tag": "practice:study",
+     "scope": "span",
+     "quotes": [
+      "קם בכל לילה באשמורת לעסוק בתורה"
+     ],
+     "confidence": 3,
+     "why": "He studies Torah in the night watches",
+     "quotes_failed": false
+    },
+    {
+     "tag": "supernatural:perception",
+     "scope": "span",
+     "quotes": [
+      "לפי שראיתי יושב אצלך עוד איש אחד",
+      "צוה הרר״א ז״ק להמתין עוד על איש אחד"
+     ],
+     "confidence": 3,
+     "why": "The girl sees the invisible guest; the rabbi knows the guest will come",
+     "quotes_failed": false
+    },
+    {
+     "tag": "experience:visions",
+     "scope": "span",
+     "quotes": [
+      "לפי שראיתי יושב אצלך עוד איש אחד"
+     ],
+     "confidence": 2,
+     "why": "The girl sees a figure no one else sees while awake",
+     "quotes_failed": false
+    },
+    {
+     "tag": "social:retrospective_recognition",
+     "scope": "span",
+     "quotes": [
+      "והוא היה האיש אשר הנערה ראתה אותו"
+     ],
+     "confidence": 3,
+     "why": "The vanished poor man is recognized as Elijah and as the guest the girl saw",
+     "quotes_failed": false
+    },
+    {
+     "tag": "supernatural:miracle",
+     "scope": "span",
+     "quotes": [
+      "תיכף נעלם ולא נודעו עקבותיו"
+     ],
+     "confidence": 1,
+     "why": "Sudden appearance and disappearance of the guest",
+     "quotes_failed": false
+    },
+    {
+     "tag": "social:marriage",
+     "scope": "span",
+     "quotes": [
+      "ויקח את הנערה לאשה"
+     ],
+     "confidence": 3,
+     "why": "He marries the girl after recognizing her merit",
+     "quotes_failed": false
+    },
+    {
+     "tag": "times:death",
+     "scope": "span",
+     "quotes": [
+      "ובקרוב הימים מתה עליו אשתו ע״ה"
+     ],
+     "confidence": 2,
+     "why": "The first wife's death opens the way to the marriage",
+     "quotes_failed": false
+    },
+    {
+     "tag": "times:birth",
+     "scope": "span",
+     "quotes": [
+      "ותהר ותלד לו בן"
+     ],
+     "confidence": 2,
+     "why": "A son is born, and his circumcision is the setting of the climax",
+     "quotes_failed": false
+    },
+    {
+     "tag": "characters-and-roles:the_family_of_the_tsaddik",
+     "scope": "span",
+     "quotes": [
+      "ואשתו היתה חלושה",
+      "ותהר ותלד לו בן"
+     ],
+     "confidence": 2,
+     "why": "His wives and son appear in the story",
+     "quotes_failed": false
+    },
+    {
+     "tag": "women:major_character",
+     "scope": "span",
+     "quotes": [
+      "לקחה אצלה נערה אחת משאריה",
+      "לכן נתתי שתי כוסות א׳ לך"
+     ],
+     "confidence": 3,
+     "why": "The girl acts, perceives Elijah and drives the plot",
+     "quotes_failed": false
+    },
+    {
+     "tag": "women:minor_character",
+     "scope": "span",
+     "quotes": [
+      "ואשתו היתה חלושה ולא יכולה לעמוד"
+     ],
+     "confidence": 2,
+     "why": "The first wife brings in the girl",
+     "quotes_failed": false
+    }
+   ],
+   "missing_concepts": [
+    "oral town tradition and a lost communal pinkas as the source of the story",
+    "serving a scholar a hot drink during night study"
+   ],
+   "start_quote_found": true,
+   "end_quote_found": true
+  }
+ ],
+ "check": {
+  "non_vocab_tags": [],
+  "quotes": 16,
+  "quotes_not_found": 0
+ },
+ "id": "Maim-Rabim_0025",
+ "chars": 3766,
+ "seconds": 26
+}

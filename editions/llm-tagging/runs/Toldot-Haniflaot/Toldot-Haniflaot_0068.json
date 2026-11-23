@@ -1,0 +1,128 @@
+{
+ "unit": {
+  "kind": "hasidic_story",
+  "why": "A single anecdote: on Rosh Hashana the aged tsaddik R. M. lost his strength while leading Musaf and was revived on hearing the fervent prayer of the Maggid of Mogielnica.",
+  "boundary_note": ""
+ },
+ "stories": [
+  {
+   "k": 1,
+   "start_quote": "וגם שמעתי מהם שספרו כי פעם",
+   "end_quote": "כ״ז שמעו מפי זקנם ז״ל",
+   "hasidic": true,
+   "summary_en": "On Rosh Hashana the aged R. M. lost all strength while leading the Musaf prayer and meant to step down, but he suddenly heard the fervent prayer of the rebbe of Mogielnica, his strength returned, and he finished the prayer.",
+   "tags": [
+    {
+     "tag": "practice:prayer",
+     "scope": "span",
+     "quotes": [
+      "מתפלל מוסף לפני העמוד כדרכו",
+      "וגמר התפלה כדרכו"
+     ],
+     "confidence": 3,
+     "why": "leading Musaf is the setting and the plot",
+     "quotes_failed": false
+    },
+    {
+     "tag": "times:holidays",
+     "scope": "span",
+     "quotes": [
+      "פעם א' בר\"ה כשהיה הה\"צ"
+     ],
+     "confidence": 3,
+     "why": "Rosh Hashana",
+     "quotes_failed": false
+    },
+    {
+     "tag": "experience:enthusiasm",
+     "scope": "span",
+     "quotes": [
+      "כשהיה מתפלל לפני העמוד בהתלהבות גדול"
+     ],
+     "confidence": 3,
+     "why": "the Mogielnica rebbe's hitlahavut",
+     "quotes_failed": false
+    },
+    {
+     "tag": "supernatural:miracle",
+     "scope": "span",
+     "quotes": [
+      "ומיד שב רוחו אליו ונתחזק כל הכוחות"
+     ],
+     "confidence": 2,
+     "why": "sudden restoration of strength",
+     "quotes_failed": false
+    },
+    {
+     "tag": "supernatural:perception",
+     "scope": "span",
+     "quotes": [
+      "פתאום נשמע אליו תפלת מרן ממאגלניצא"
+     ],
+     "confidence": 2,
+     "why": "hearing the other rebbe's prayer, apparently from afar",
+     "quotes_failed": false
+    },
+    {
+     "tag": "supernatural:communicating_with_the_invisible",
+     "scope": "span",
+     "quotes": [
+      "פתאום נשמע אליו תפלת מרן ממאגלניצא"
+     ],
+     "confidence": 1,
+     "why": "an inaudible voice reaches him",
+     "quotes_failed": false
+    },
+    {
+     "tag": "practice:torat_ha_tsaddik",
+     "scope": "story",
+     "quotes": [],
+     "confidence": 2,
+     "why": "the tsaddik's power sustains another person",
+     "quotes_failed": false
+    },
+    {
+     "tag": "social:inter_hasidic",
+     "scope": "story",
+     "quotes": [],
+     "confidence": 2,
+     "why": "a spiritual link between two tsaddikim",
+     "quotes_failed": false
+    },
+    {
+     "tag": "folkloristics:story_type_virtues",
+     "scope": "story",
+     "quotes": [],
+     "confidence": 1,
+     "why": "praises the power of the Mogielnica rebbe's prayer",
+     "quotes_failed": false
+    },
+    {
+     "tag": "characters-and-roles:the_family_of_the_tsaddik",
+     "scope": "span",
+     "quotes": [
+      "כ״ז שמעו מפי זקנם ז״ל"
+     ],
+     "confidence": 1,
+     "why": "the tale comes from the tsaddik's grandsons",
+     "quotes_failed": false
+    }
+   ],
+   "missing_concepts": [
+    "old age / physical weakness of a tsaddik",
+    "chain of transmission through the tsaddik's grandchildren",
+    "leading prayer as cantor (shaliach tzibbur)"
+   ],
+   "start_quote_found": true,
+   "end_quote_found": true
+  }
+ ],
+ "check": {
+  "non_vocab_tags": [],
+  "quotes": 8,
+  "quotes_not_found": 0
+ },
+ "id": "Toldot-Haniflaot_0068",
+ "chars": 378,
+ "seconds": 12
+}

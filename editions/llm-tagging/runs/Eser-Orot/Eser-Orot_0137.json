@@ -1,0 +1,174 @@
+{
+ "unit": {
+  "kind": "hasidic_story",
+  "why": "A single tale: the Maggid of Kozienice is told from heaven not to eat from the Przysucha shochet, and the shochet is later exposed as a drunkard and removed from his post.",
+  "boundary_note": ""
+ },
+ "stories": [
+  {
+   "k": 1,
+   "start_quote": "עו\"ש בשם מכתב הרה״ג מסעראצק שי׳",
+   "end_quote": "שכור כלוט והעבירוהו ממשמרתו עכ״ל",
+   "hasidic": true,
+   "summary_en": "The Maggid of Kozienice receives a heavenly revelation not to eat the meat of the Przysucha shochet; when he asks why only he is told, he is promised the town will soon know, and the shochet soon appears drunk in the study hall, claims a cow had no lungs, is mocked and dismissed.",
+   "tags": [
+    {
+     "tag": "characters-and-roles:ritual_slaughterer",
+     "scope": "span",
+     "quotes": [
+      "משחיטת השו\"ב מפרשיסחא"
+     ],
+     "confidence": 3,
+     "why": "the unfit shochet is the central figure",
+     "quotes_failed": false
+    },
+    {
+     "tag": "practice:ritual_slaughtering",
+     "scope": "span",
+     "quotes": [
+      "כי בהמה אחת אין לה שום ריאה",
+      "והעבירוהו ממשמרתו עכ״ל"
+     ],
+     "confidence": 3,
+     "why": "the slaughterhouse, and the shochet's dismissal",
+     "quotes_failed": false
+    },
+    {
+     "tag": "experience:revelation",
+     "scope": "span",
+     "quotes": [
+      "שנתגלה לו מן השמים שלא לאכול"
+     ],
+     "confidence": 3,
+     "why": "a heavenly disclosure",
+     "quotes_failed": false
+    },
+    {
+     "tag": "supernatural:communicating_with_the_invisible",
+     "scope": "span",
+     "quotes": [
+      "והשיבוהו שיודיעו בקרוב גם לאנשי העיר"
+     ],
+     "confidence": 2,
+     "why": "heaven answers his question",
+     "quotes_failed": false
+    },
+    {
+     "tag": "supernatural:prognostication",
+     "scope": "span",
+     "quotes": [
+      "שיודיעו בקרוב גם לאנשי העיר"
+     ],
+     "confidence": 2,
+     "why": "the promised public exposure comes true",
+     "quotes_failed": false
+    },
+    {
+     "tag": "supernatural:perception",
+     "scope": "span",
+     "quotes": [
+      "שנתגלה לו מן השמים שלא לאכול"
+     ],
+     "confidence": 2,
+     "why": "he knows the shochet is unfit before anyone else does",
+     "quotes_failed": false
+    },
+    {
+     "tag": "ethics-and-emotions:prohibitions",
+     "scope": "span",
+     "quotes": [
+      "שלא לאכול משחיטת השו\"ב מפרשיסחא"
+     ],
+     "confidence": 3,
+     "why": "he refrains from forbidden meat",
+     "quotes_failed": false
+    },
+    {
+     "tag": "practice:halakhah",
+     "scope": "span",
+     "quotes": [
+      "אין לה שום ריאה",
+      "והנה לא נפתח הטרפש עדיין"
+     ],
+     "confidence": 2,
+     "why": "kashrut of the slaughtered animal",
+     "quotes_failed": false
+    },
+    {
+     "tag": "ethics-and-emotions:shame",
+     "scope": "span",
+     "quotes": [
+      "והנה לא נפתח הטרפש עדיין וצחקו"
+     ],
+     "confidence": 3,
+     "why": "the shochet is publicly mocked",
+     "quotes_failed": false
+    },
+    {
+     "tag": "ethics-and-emotions:punishment",
+     "scope": "span",
+     "quotes": [
+      "והעבירוהו ממשמרתו"
+     ],
+     "confidence": 2,
+     "why": "the drunk shochet is removed from his post",
+     "quotes_failed": false
+    },
+    {
+     "tag": "practice:drinking_alcohol",
+     "scope": "span",
+     "quotes": [
+      "נופל על הארץ שכור כלוט"
+     ],
+     "confidence": 3,
+     "why": "his drunkenness exposes him",
+     "quotes_failed": false
+    },
+    {
+     "tag": "spaces:beth_midrash",
+     "scope": "span",
+     "quotes": [
+      "ופתאום בא השו\"ב לבהמ\"ד"
+     ],
+     "confidence": 3,
+     "why": "the scene takes place in the study hall",
+     "quotes_failed": false
+    },
+    {
+     "tag": "social:retrospective_recognition",
+     "scope": "span",
+     "quotes": [
+      "וראו כי הוא נופל על הארץ שכור"
+     ],
+     "confidence": 2,
+     "why": "the townspeople realize the shochet was unfit",
+     "quotes_failed": false
+    },
+    {
+     "tag": "practice:storytelling",
+     "scope": "span",
+     "quotes": [
+      "שמעתי מה\"ר יודל מזאקליקוב ששמע מפ״ק"
+     ],
+     "confidence": 1,
+     "why": "the tale is framed by a chain of oral transmission",
+     "quotes_failed": false
+    }
+   ],
+   "missing_concepts": [
+    "kashrut supervision / unfit shochet exposed",
+    "chain of oral transmission (shalshelet ha-mesirah)"
+   ],
+   "start_quote_found": true,
+   "end_quote_found": true
+  }
+ ],
+ "check": {
+  "non_vocab_tags": [],
+  "quotes": 16,
+  "quotes_not_found": 0
+ },
+ "id": "Eser-Orot_0137",
+ "chars": 473,
+ "seconds": 17
+}

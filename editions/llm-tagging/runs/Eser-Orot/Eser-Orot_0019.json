@@ -1,0 +1,97 @@
+{
+ "unit": {
+  "kind": "hasidic_story",
+  "why": "A short anecdote, quoted from Toldot Adam, about the Maggid of Kozhnitz who studied 800 kabbalah books and then, on reaching the Maggid of Mezeritch, saw that he had not yet begun to learn.",
+  "boundary_note": ""
+ },
+ "stories": [
+  {
+   "k": 1,
+   "start_quote": "בספר תולדות אדם ברמזי חנוכה מהרה״ק",
+   "end_quote": "ראה שלא התחיל עדיין ללמוד מאומה",
+   "hasidic": true,
+   "summary_en": "Before going to the Maggid of Mezeritch, the Maggid of Kozhnitz studied eight hundred books of kabbalah, yet when he arrived he saw that he had not yet begun to learn anything.",
+   "tags": [
+    {
+     "tag": "practice:travel_to_the_tsaddik",
+     "scope": "span",
+     "quotes": [
+      "שטרם שנסע להרה״מ הגדול ממעזריטש"
+     ],
+     "confidence": 3,
+     "why": "He journeys to the Maggid of Mezeritch.",
+     "quotes_failed": false
+    },
+    {
+     "tag": "practice:study",
+     "scope": "span",
+     "quotes": [
+      "למד מקודם שמונה מאות ספרי קבלה"
+     ],
+     "confidence": 3,
+     "why": "His extensive study of kabbalah books is depicted.",
+     "quotes_failed": false
+    },
+    {
+     "tag": "knowledge:esoteric",
+     "scope": "span",
+     "quotes": [
+      "שמונה מאות ספרי קבלה"
+     ],
+     "confidence": 2,
+     "why": "The learning in question is kabbalah.",
+     "quotes_failed": false
+    },
+    {
+     "tag": "social:inter_hasidic_master_disciple_relationship",
+     "scope": "story",
+     "quotes": [],
+     "confidence": 2,
+     "why": "The disciple recognizes that the master's teaching surpasses all his book learning.",
+     "quotes_failed": false
+    },
+    {
+     "tag": "social:retrospective_recognition",
+     "scope": "span",
+     "quotes": [
+      "ראה שלא התחיל עדיין ללמוד מאומה"
+     ],
+     "confidence": 2,
+     "why": "He realizes belatedly that his earlier learning was as nothing.",
+     "quotes_failed": false
+    },
+    {
+     "tag": "ethics-and-emotions:humility",
+     "scope": "span",
+     "quotes": [
+      "ראה שלא התחיל עדיין ללמוד מאומה"
+     ],
+     "confidence": 2,
+     "why": "He humbly reassesses his own learning.",
+     "quotes_failed": false
+    },
+    {
+     "tag": "practice:torat_ha_tsaddik",
+     "scope": "story",
+     "quotes": [],
+     "confidence": 1,
+     "why": "Implies that true learning is received from the tzaddik.",
+     "quotes_failed": false
+    }
+   ],
+   "missing_concepts": [
+    "book learning versus learning received from a living master"
+   ],
+   "start_quote_found": true,
+   "end_quote_found": true
+  }
+ ],
+ "check": {
+  "non_vocab_tags": [],
+  "quotes": 5,
+  "quotes_not_found": 0
+ },
+ "id": "Eser-Orot_0019",
+ "chars": 218,
+ "seconds": 12
+}

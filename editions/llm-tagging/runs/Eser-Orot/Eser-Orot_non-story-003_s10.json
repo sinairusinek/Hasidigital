@@ -1,0 +1,70 @@
+{
+ "unit": {
+  "kind": "hasidic_story",
+  "why": "split out of non-story-003 (non-story)"
+ },
+ "stories": [
+  {
+   "k": 10,
+   "start_quote": "פ״א גזרה המלבות על ישראל",
+   "end_quote": "היו קורין אותו אלישע בעל כנפים",
+   "hasidic": false,
+   "summary_en": "Under a decree against tefillin, Elisha's tefillin turn into dove's wings in the hand of a pursuing officer.",
+   "tags": [
+    {
+     "tag": "practice:tefillin",
+     "scope": "span",
+     "quotes": [
+      "שכל המניח תפילין ויצא לשוק"
+     ],
+     "confidence": 3,
+     "why": "central object",
+     "quotes_failed": false
+    },
+    {
+     "tag": "supernatural:miracle",
+     "scope": "span",
+     "quotes": [
+      "פשט את ידו ונמצא בה כנפי יונה"
+     ],
+     "confidence": 3,
+     "why": "transformation",
+     "quotes_failed": false
+    },
+    {
+     "tag": "social:relations_with_the_authorities",
+     "scope": "span",
+     "quotes": [
+      "וראהו ממונה אחד מהמלכות"
+     ],
+     "confidence": 3,
+     "why": "officer",
+     "quotes_failed": false
+    },
+    {
+     "tag": "times:historical_event",
+     "scope": "span",
+     "quotes": [
+      "גזרה המלבות על ישראל"
+     ],
+     "confidence": 2,
+     "why": "persecution decree",
+     "quotes_failed": false
+    },
+    {
+     "tag": "not-a-hasidic-story:hagiography",
+     "scope": "story",
+     "quotes": [],
+     "confidence": 3,
+     "why": "talmudic",
+     "quotes_failed": false
+    }
+   ],
+   "missing_concepts": [],
+   "start_quote_found": true,
+   "end_quote_found": true
+  }
+ ],
+ "id": "Eser-Orot_non-story-003_s10",
+ "split_from": "non-story-003"
+}

@@ -1,0 +1,153 @@
+{
+ "unit": {
+  "kind": "hasidic_story",
+  "why": "A single narrative: R. Zusha, while wandering, meets the boy Seer of Lublin, who weeps during the prayer; Zusha says he has given him nefesh and ruach and sends him to his brother R. Elimelekh.",
+  "boundary_note": ""
+ },
+ "stories": [
+  {
+   "k": 1,
+   "start_quote": "בעת שהי׳ הרה\"ק ר״ר זושא זצ\"ל נע ונד",
+   "end_quote": "ומאז נעשה תלמיד הה״ק רבי ר' אלימלך ז\"ל",
+   "hasidic": true,
+   "summary_en": "During his anonymous wanderings R. Zusha prays behind the stove in the town of the ten-year-old future Seer of Lublin; his glance makes the boy weep until he weeps blood, after which Zusha says he has given him nefesh and ruach and sends him to his brother Elimelekh for neshamah, and the boy becomes Elimelekh's disciple.",
+   "tags": [
+    {
+     "tag": "practice:the_travels_of_the_tsaddik",
+     "scope": "span",
+     "quotes": [
+      "נע ונד בכל עיר ועיר וטרם ידעו ממנו"
+     ],
+     "confidence": 3,
+     "why": "Zusha's wandering exile is the frame of the story",
+     "quotes_failed": false
+    },
+    {
+     "tag": "practice:prayer",
+     "scope": "span",
+     "quotes": [
+      "עמד להתפלל אחורי אחורי התנור כדרכו",
+      "והחזיר פניו להתנור והתפלל כמקודם"
+     ],
+     "confidence": 3,
+     "why": "the scene takes place while Zusha is at prayer",
+     "quotes_failed": false
+    },
+    {
+     "tag": "practice:clothing",
+     "scope": "span",
+     "quotes": [
+      "וראשו מעוטף בטלית"
+     ],
+     "confidence": 1,
+     "why": "the tallit covering his head is part of his habit",
+     "quotes_failed": false
+    },
+    {
+     "tag": "social:inter_hasidic_master_disciple_relationship",
+     "scope": "span",
+     "quotes": [
+      "ומאז נעשה תלמיד הה״ק רבי ר' אלימלך ז\"ל"
+     ],
+     "confidence": 3,
+     "why": "the story is about how the Seer becomes Elimelekh's disciple",
+     "quotes_failed": false
+    },
+    {
+     "tag": "practice:travel_to_the_tsaddik",
+     "scope": "span",
+     "quotes": [
+      "וכעת לך לאחי אלימלך ויהי' לך נשמה"
+     ],
+     "confidence": 2,
+     "why": "he is sent to go to Elimelekh",
+     "quotes_failed": false
+    },
+    {
+     "tag": "practice:healing_of_the_soul",
+     "scope": "span",
+     "quotes": [
+      "נפש ורוח יש לך מעתה כי נתתי לך"
+     ],
+     "confidence": 2,
+     "why": "Zusha bestows soul-levels on the boy",
+     "quotes_failed": false
+    },
+    {
+     "tag": "practice:torat_ha_tsaddik",
+     "scope": "span",
+     "quotes": [
+      "נפש ורוח יש לך מעתה כי נתתי לך",
+      "וכעת לך לאחי אלימלך ויהי' לך נשמה"
+     ],
+     "confidence": 2,
+     "why": "the tzaddik has the power to impart soul to another",
+     "quotes_failed": false
+    },
+    {
+     "tag": "supernatural:miracle",
+     "scope": "span",
+     "quotes": [
+      "עד שפסקו הדמעות וירד דם"
+     ],
+     "confidence": 2,
+     "why": "the boy weeps until blood comes, under Zusha's glance",
+     "quotes_failed": false
+    },
+    {
+     "tag": "folkloristics:story_type_advent",
+     "scope": "story",
+     "quotes": [],
+     "confidence": 2,
+     "why": "it is the boy's first encounter with the tzaddikim that sets his path",
+     "quotes_failed": false
+    },
+    {
+     "tag": "characters-and-roles:hidden_righteous",
+     "scope": "span",
+     "quotes": [
+      "וטרם ידעו ממנו"
+     ],
+     "confidence": 1,
+     "why": "Zusha was still unknown at this time",
+     "quotes_failed": false
+    },
+    {
+     "tag": "supernatural:perception",
+     "scope": "span",
+     "quotes": [
+      "אז הביט הרר״ז בהר\"ר יעי\"צ ולא אמר לו דבר"
+     ],
+     "confidence": 1,
+     "why": "Zusha implicitly discerns the boy's spiritual potential",
+     "quotes_failed": false
+    },
+    {
+     "tag": "ethics-and-emotions:awe",
+     "scope": "span",
+     "quotes": [
+      "ויפתחו מעינות תהום דמעות של הנער הזה"
+     ],
+     "confidence": 1,
+     "why": "the boy's weeping is a reaction of religious awe",
+     "quotes_failed": false
+    }
+   ],
+   "missing_concepts": [
+    "weeping / tears as a spiritual response",
+    "levels of the soul (nefesh, ruach, neshamah) imparted by a tzaddik",
+    "childhood of a future tzaddik"
+   ],
+   "start_quote_found": true,
+   "end_quote_found": true
+  }
+ ],
+ "check": {
+  "non_vocab_tags": [],
+  "quotes": 13,
+  "quotes_not_found": 0
+ },
+ "id": "Eser-Orot_0191",
+ "chars": 560,
+ "seconds": 15
+}

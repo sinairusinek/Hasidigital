@@ -1,0 +1,108 @@
+{
+ "unit": {
+  "kind": "hasidic_story",
+  "why": "A single anecdote about the Apter Rav choosing a host on a journey, with his explanation.",
+  "boundary_note": ""
+ },
+ "stories": [
+  {
+   "k": 1,
+   "start_quote": "שמעתי מרב מפורסם שפ\"א נסע הרב הק׳ מאפטא",
+   "end_quote": "במע׳ הרה״ק מלובלין אות מ\"ה ובהגה\"ה שם ותבין",
+   "hasidic": true,
+   "summary_en": "The Apter Rav, offered lodging with two wealthy men, chose the humble one rumored to sin sexually over the proud one, explaining that God cannot dwell with the arrogant but dwells with the impure.",
+   "tags": [
+    {
+     "tag": "practice:the_travels_of_the_tsaddik",
+     "scope": "story",
+     "quotes": [],
+     "confidence": 3,
+     "why": "the tale turns on his lodging while travelling",
+     "quotes_failed": false
+    },
+    {
+     "tag": "ethics-and-emotions:pride",
+     "scope": "span",
+     "quotes": [
+      "הי' בעל גאוה הנקרא שיינער יוד",
+      "ע״י הגאוה אמר הקב\"ה אין אני והוא"
+     ],
+     "confidence": 3,
+     "why": "pride is the decisive failing",
+     "quotes_failed": false
+    },
+    {
+     "tag": "ethics-and-emotions:humility",
+     "scope": "span",
+     "quotes": [
+      "והי׳ טוב המזג. ושפל בעיניו",
+      "שאין בו גסות הרוח רק שיש בו עבירות"
+     ],
+     "confidence": 3,
+     "why": "the humility of the chosen host",
+     "quotes_failed": false
+    },
+    {
+     "tag": "ethics-and-emotions:adultery",
+     "scope": "span",
+     "quotes": [
+      "מרננים עליו בעבירות על עריות ואביזרייהו"
+     ],
+     "confidence": 2,
+     "why": "rumored sexual transgressions",
+     "quotes_failed": false
+    },
+    {
+     "tag": "social:relations_with_sinners",
+     "scope": "span",
+     "quotes": [
+      "ובחר בזה שהיו מרננים עליו ושמה התאכסן"
+     ],
+     "confidence": 3,
+     "why": "the tzaddik lodges with a reputed sinner",
+     "quotes_failed": false
+    },
+    {
+     "tag": "practice:sermon",
+     "scope": "span",
+     "quotes": [
+      "כי אני ה׳ השוכן אתם בתוך טומאותם"
+     ],
+     "confidence": 2,
+     "why": "he justifies his choice with a verse and a talmudic saying",
+     "quotes_failed": false
+    },
+    {
+     "tag": "folkloristics:story_type_virtues",
+     "scope": "story",
+     "quotes": [],
+     "confidence": 2,
+     "why": "illustrates the value of humility over outward purity",
+     "quotes_failed": false
+    },
+    {
+     "tag": "ethics-and-emotions:virtues",
+     "scope": "story",
+     "quotes": [],
+     "confidence": 2,
+     "why": "the point is a moral lesson about humility versus pride",
+     "quotes_failed": false
+    }
+   ],
+   "missing_concepts": [
+    "hospitality / choice of host (אכסניא)",
+    "rumor and reputation"
+   ],
+   "start_quote_found": true,
+   "end_quote_found": true
+  }
+ ],
+ "check": {
+  "non_vocab_tags": [],
+  "quotes": 7,
+  "quotes_not_found": 0
+ },
+ "id": "Eser-Orot_0268",
+ "chars": 836,
+ "seconds": 11
+}

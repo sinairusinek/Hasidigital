@@ -1,0 +1,122 @@
+{
+ "unit": {
+  "kind": "hasidic_story",
+  "why": "A short anecdote, told by a holy rabbi, about R. Isaac Junger of Jędrzejów: a Rosh Hashana decree of mortal danger is averted by daily charity set aside as a pidyon on a great tzaddik's instruction.",
+  "boundary_note": ""
+ },
+ "stories": [
+  {
+   "k": 1,
+   "start_quote": "פ״א אמר הה״ק ר״ב על ר׳ אייזק",
+   "end_quote": "ענין סכנת נפשות וניצול מכולם",
+   "hasidic": true,
+   "summary_en": "A great tzaddik sends word to R. Isaac Junger, community head of Jędrzejów, that a Rosh Hashana decree of danger hangs over him and that he must set aside charity money as a hidden pidyon every morning for a year; he does so, and that year he is saved from mortal danger three times.",
+   "tags": [
+    {
+     "tag": "practice:pidyon_nefesh",
+     "scope": "span",
+     "quotes": [
+      "ויניח הפדיון במקום מוצנע",
+      "אז ידע כי בטל הגזירה"
+     ],
+     "confidence": 3,
+     "why": "Daily pidyon money is set aside to avert a heavenly decree.",
+     "quotes_failed": false
+    },
+    {
+     "tag": "ethics-and-emotions:charity",
+     "scope": "span",
+     "quotes": [
+      "יפריש מעות לנדבה לפ\"ג כאשר השיג ידו"
+     ],
+     "confidence": 3,
+     "why": "The remedy is daily giving of alms.",
+     "quotes_failed": false
+    },
+    {
+     "tag": "times:holidays",
+     "scope": "span",
+     "quotes": [
+      "נגזר עליו בזה ר״ה ענין ס\"ג"
+     ],
+     "confidence": 2,
+     "why": "The decree is sealed on Rosh Hashana.",
+     "quotes_failed": false
+    },
+    {
+     "tag": "supernatural:perception",
+     "scope": "span",
+     "quotes": [
+      "וישלח אליו איש א׳ להגיד לו בשם גדול א׳"
+     ],
+     "confidence": 2,
+     "why": "The great tzaddik knows of the hidden heavenly decree.",
+     "quotes_failed": false
+    },
+    {
+     "tag": "practice:lifesaving",
+     "scope": "span",
+     "quotes": [
+      "עבר עליו ג״פ ענין סכנת נפשות וניצול מכולם"
+     ],
+     "confidence": 2,
+     "why": "The tzaddik's remedy saves him from foretold mortal danger.",
+     "quotes_failed": false
+    },
+    {
+     "tag": "folkloristics:story_type_protection",
+     "scope": "story",
+     "quotes": [],
+     "confidence": 2,
+     "why": "The tale centres on protection from a decreed danger through the tzaddik's instruction.",
+     "quotes_failed": false
+    },
+    {
+     "tag": "supernatural:miracle",
+     "scope": "span",
+     "quotes": [
+      "וניצול מכולם"
+     ],
+     "confidence": 2,
+     "why": "He is miraculously rescued three times.",
+     "quotes_failed": false
+    },
+    {
+     "tag": "practice:torat_ha_tsaddik",
+     "scope": "span",
+     "quotes": [
+      "להגיד לו בשם גדול א׳"
+     ],
+     "confidence": 1,
+     "why": "The tzaddik acts on another's behalf to annul a decree.",
+     "quotes_failed": false
+    },
+    {
+     "tag": "practice:storytelling",
+     "scope": "span",
+     "quotes": [
+      "פ״א אמר הה״ק ר״ב על ר׳ אייזק"
+     ],
+     "confidence": 2,
+     "why": "The story is framed as told by a named holy rabbi.",
+     "quotes_failed": false
+    }
+   ],
+   "missing_concepts": [
+    "heavenly decree (gezerah) and its annulment",
+    "communal leader (rosh ha-kahal) as protagonist",
+    "tzaddik's remedy delivered through a messenger"
+   ],
+   "start_quote_found": true,
+   "end_quote_found": true
+  }
+ ],
+ "check": {
+  "non_vocab_tags": [],
+  "quotes": 9,
+  "quotes_not_found": 0
+ },
+ "id": "Seva-Ratzon_0008",
+ "chars": 351,
+ "seconds": 18
+}

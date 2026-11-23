@@ -1,0 +1,90 @@
+{
+ "unit": {
+  "kind": "hasidic_story",
+  "why": "A short anecdote: the Berdichever rabbi is visiting the Seer of Lublin, coffee is served, and he tells them to pour the milk first, explaining why by gematria.",
+  "boundary_note": ""
+ },
+ "stories": [
+  {
+   "k": 1,
+   "start_quote": "פ״א הי' הרב מבא\"ד בלובלין",
+   "end_quote": "עם קוה הוא אותיות מקוה",
+   "hasidic": true,
+   "summary_en": "While R. Levi Yitzhak of Berdichev is visiting the tsaddik of Lublin, the host serves him coffee, and he asks that the milk be poured before the coffee: milk (חלב, numerical value 40 = the letter מ) joined with קוה spells מקוה.",
+   "tags": [
+    {
+     "tag": "practice:travel_to_other_tsaddik",
+     "scope": "span",
+     "quotes": [
+      "הי' הרב מבא\"ד בלובלין אצל הרה״ק דשם"
+     ],
+     "confidence": 3,
+     "why": "The Berdichever stays with another tsaddik, in Lublin.",
+     "quotes_failed": false
+    },
+    {
+     "tag": "practice:the_travels_of_the_tsaddik",
+     "scope": "span",
+     "quotes": [
+      "הי' הרב מבא\"ד בלובלין אצל הרה״ק דשם"
+     ],
+     "confidence": 2,
+     "why": "The scene happens during the tsaddik's stay away from home.",
+     "quotes_failed": false
+    },
+    {
+     "tag": "practice:sermon",
+     "scope": "span",
+     "quotes": [
+      "כי חלב גימט׳ מ׳ ואות מ׳ עם קוה הוא אותיות מקוה"
+     ],
+     "confidence": 2,
+     "why": "He explains his instruction with a gematria wordplay.",
+     "quotes_failed": false
+    },
+    {
+     "tag": "kabbalah:kabbalistic_terms_kavvanot",
+     "scope": "span",
+     "quotes": [
+      "מחמת שאנו מכוונים חלב עם קוה הוא מקוה"
+     ],
+     "confidence": 1,
+     "why": "A mystical intention is assigned to the order of a ritual-like everyday act; it rests on gematria rather than Lurianic kavvanot.",
+     "quotes_failed": false
+    },
+    {
+     "tag": "social:inter_hasidic",
+     "scope": "span",
+     "quotes": [
+      "והביא הלובלינר הקאווע עבור הרה״ק מבא\"ד"
+     ],
+     "confidence": 2,
+     "why": "Two tsaddikim interact as host and guest.",
+     "quotes_failed": false
+    },
+    {
+     "tag": "not-a-hasidic-story:sermon",
+     "scope": "story",
+     "quotes": [],
+     "confidence": 1,
+     "why": "The narrative is minimal and mainly carries a wordplay explanation.",
+     "quotes_failed": false
+    }
+   ],
+   "missing_concepts": [
+    "sanctifying everyday eating and drinking (coffee) through mystical intention",
+    "gematria wordplay"
+   ],
+   "start_quote_found": true,
+   "end_quote_found": true
+  }
+ ],
+ "check": {
+  "non_vocab_tags": [],
+  "quotes": 5,
+  "quotes_not_found": 0
+ },
+ "id": "Eser-Orot_0080",
+ "chars": 256,
+ "seconds": 13
+}

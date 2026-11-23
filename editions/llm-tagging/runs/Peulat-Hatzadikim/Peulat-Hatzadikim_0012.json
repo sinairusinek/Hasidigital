@@ -1,0 +1,90 @@
+{
+ "unit": {
+  "kind": "hasidic_story",
+  "why": "A short anecdote about a tzaddik's youthful practice: he kept his eyes closed for seven years except to read his prayer book and study texts, and as a result his eyes became weak. It is a minimal narrative with an act and a consequence, not a teaching.",
+  "boundary_note": "The subject is unnamed; it is presumably the tzaddik of the surrounding divisions (R. Elimelech or R. Zusha). The next division begins another anecdote about the same figure."
+ },
+ "stories": [
+  {
+   "k": 1,
+   "start_quote": "בימי חרפו סגר את עיניו שבע שנים",
+   "end_quote": "וע״כ היו עיניו כחות וקצר ראות",
+   "hasidic": true,
+   "summary_en": "In his youth the tzaddik kept his eyes shut for seven straight years so as not to see anything indecent, opening them only to read his prayer book and study texts, and so his sight became weak and short.",
+   "tags": [
+    {
+     "tag": "practice:asceticism",
+     "scope": "span",
+     "quotes": [
+      "סגר את עיניו שבע שנים רצופות"
+     ],
+     "confidence": 3,
+     "why": "Seven years of self-imposed closing of the eyes is rigorous austerity, at the cost of his eyesight.",
+     "quotes_failed": false
+    },
+    {
+     "tag": "ethics-and-emotions:resisting_temptation",
+     "scope": "span",
+     "quotes": [
+      "לבלתי יראה ערות דבר"
+     ],
+     "confidence": 2,
+     "why": "He guards his eyes from seeing anything immodest.",
+     "quotes_failed": false
+    },
+    {
+     "tag": "ethics-and-emotions:prohibitions",
+     "scope": "span",
+     "quotes": [
+      "לבלתי יראה ערות דבר"
+     ],
+     "confidence": 1,
+     "why": "He avoids seeing what is forbidden.",
+     "quotes_failed": false
+    },
+    {
+     "tag": "practice:prayer",
+     "scope": "span",
+     "quotes": [
+      "אם לא בעת תפילתו ולימודו"
+     ],
+     "confidence": 2,
+     "why": "Prayer is the occasion on which he opens his eyes.",
+     "quotes_failed": false
+    },
+    {
+     "tag": "practice:study",
+     "scope": "span",
+     "quotes": [
+      "בהספר אשר קרא בו והתפלל בו"
+     ],
+     "confidence": 2,
+     "why": "Study is the other occasion on which he opens his eyes.",
+     "quotes_failed": false
+    },
+    {
+     "tag": "folkloristics:story_type_virtues",
+     "scope": "story",
+     "quotes": [],
+     "confidence": 2,
+     "why": "The anecdote exists to illustrate the tzaddik's piety and holiness.",
+     "quotes_failed": false
+    }
+   ],
+   "missing_concepts": [
+    "guarding the eyes (shmirat einayim)",
+    "physical cost of piety (weakened eyesight)"
+   ],
+   "start_quote_found": true,
+   "end_quote_found": true
+  }
+ ],
+ "check": {
+  "non_vocab_tags": [],
+  "quotes": 5,
+  "quotes_not_found": 0
+ },
+ "id": "Peulat-Hatzadikim_0012",
+ "chars": 167,
+ "seconds": 13
+}

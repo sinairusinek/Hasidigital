@@ -1,0 +1,152 @@
+{
+ "unit": {
+  "kind": "hasidic_story",
+  "why": "A single tale told by R. Barukh of Medzhybizh about a dead old scholar who protests in the heavenly court that a young man ranks above him; it ends with God's answer, an exegesis of the verse 'ויהי מקץ שנתיים'.",
+  "boundary_note": "Division ends with the catchword heading 'מענין אגרת מבני משה' belonging to the next division; the heading 'מענין אברך' for this story sits at the end of the previous division."
+ },
+ "stories": [
+  {
+   "k": 1,
+   "start_quote": "הנה הה״צ ר״ר ברוך ז״ל ממעזבוז סיפר",
+   "end_quote": "סרה תלונה הזקן ושלום על ישראל",
+   "hasidic": true,
+   "summary_en": "R. Barukh of Medzhybizh tells of an old scholar who reaches heaven and protests that a young man who died early ranks higher. God answers from the verse 'מקץ שנתים ימים': a man's years count only by the days truly devoted to service, and the young man, who never left Torah and prayer, had more such days than the old man, who also traded.",
+   "tags": [
+    {
+     "tag": "practice:storytelling",
+     "scope": "span",
+     "quotes": [
+      "הנה הה״צ ר״ר ברוך ז״ל ממעזבוז סיפר מעשה נוראה"
+     ],
+     "confidence": 3,
+     "why": "Framed as a tale told by a named tsaddik",
+     "quotes_failed": false
+    },
+    {
+     "tag": "spaces:heaven",
+     "scope": "span",
+     "quotes": [
+      "וישאל את הדין הלזה לפני ב״ד של מעלה",
+      "אשר לא כביר עלה השמימה"
+     ],
+     "confidence": 3,
+     "why": "Main action takes place before the heavenly court",
+     "quotes_failed": false
+    },
+    {
+     "tag": "times:death",
+     "scope": "span",
+     "quotes": [
+      "הלך לעולמו בימי עלומיו",
+      "ושבק חיים לכ\"י ועזב עמו לאנחות"
+     ],
+     "confidence": 3,
+     "why": "Deaths of both protagonists",
+     "quotes_failed": false
+    },
+    {
+     "tag": "practice:study",
+     "scope": "span",
+     "quotes": [
+      "וכל ימיו לא מש מתוך אהלה של תורה",
+      "אשר מילא כריסו בש\"ס ופוסקים"
+     ],
+     "confidence": 3,
+     "why": "Torah study is the measure being judged",
+     "quotes_failed": false
+    },
+    {
+     "tag": "practice:sermon",
+     "scope": "span",
+     "quotes": [
+      "הלא דין מפורש בתוה״ק בסדר ויהי מקץ שנתים ימים"
+     ],
+     "confidence": 3,
+     "why": "Resolution is an exegesis of a verse",
+     "quotes_failed": false
+    },
+    {
+     "tag": "not-a-hasidic-story:sermon",
+     "scope": "story",
+     "quotes": [],
+     "confidence": 2,
+     "why": "Narrative is wrapped in an exegetical frame on the opening verse",
+     "quotes_failed": false
+    },
+    {
+     "tag": "times:eschatology",
+     "scope": "span",
+     "quotes": [
+      "היה במעלה היותר עליונה מהזקן"
+     ],
+     "confidence": 2,
+     "why": "Ranking of souls after death in the world to come",
+     "quotes_failed": false
+    },
+    {
+     "tag": "ethics-and-emotions:anger",
+     "scope": "span",
+     "quotes": [
+      "והיטב נזרה לו על המעשה הזאת"
+     ],
+     "confidence": 2,
+     "why": "The old man is aggrieved at the ranking",
+     "quotes_failed": false
+    },
+    {
+     "tag": "practice:prayer",
+     "scope": "span",
+     "quotes": [
+      "ועבודה שבלב זו תפלה"
+     ],
+     "confidence": 1,
+     "why": "Prayer named as part of the young man's devotion",
+     "quotes_failed": false
+    },
+    {
+     "tag": "knowledge:esoteric",
+     "scope": "span",
+     "quotes": [
+      "וגם בנסתר יגע את עצמו"
+     ],
+     "confidence": 1,
+     "why": "The old man also studied hidden lore",
+     "quotes_failed": false
+    },
+    {
+     "tag": "supernatural:communicating_with_the_invisible",
+     "scope": "span",
+     "quotes": [
+      "ענה הקב״ה ואמר הלא דין מפורש"
+     ],
+     "confidence": 1,
+     "why": "God answers the soul directly",
+     "quotes_failed": false
+    },
+    {
+     "tag": "ethics-and-emotions:virtues",
+     "scope": "story",
+     "quotes": [],
+     "confidence": 2,
+     "why": "Point is the value of undivided devotion to Torah and service",
+     "quotes_failed": false
+    }
+   ],
+   "missing_concepts": [
+    "heavenly judgment / weighing of merits after death",
+    "Torah study vs. commerce (time devoted to service)",
+    "complaint against divine justice"
+   ],
+   "start_quote_found": true,
+   "end_quote_found": true
+  }
+ ],
+ "check": {
+  "non_vocab_tags": [],
+  "quotes": 13,
+  "quotes_not_found": 0
+ },
+ "id": "Derech-Haemuna_0001",
+ "chars": 1301,
+ "seconds": 22
+}

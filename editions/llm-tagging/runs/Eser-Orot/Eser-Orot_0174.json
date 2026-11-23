@@ -1,0 +1,83 @@
+{
+ "unit": {
+  "kind": "hasidic_story",
+  "why": "A short anecdote: the tsaddik refuses to make kiddush on a sealed bottle, sensing it is not wine, and it turns out to be mead from Hungary.",
+  "boundary_note": ""
+ },
+ "stories": [
+  {
+   "k": 1,
+   "start_quote": "פ״א בהביא לפניו יין לקידוש",
+   "end_quote": "מי דבש שהובא מארץ הגר",
+   "hasidic": true,
+   "summary_en": "When wine was brought to the tsaddik for kiddush in a sealed bottle, he looked at it, would not make kiddush on it because he saw no 'wine aspect' on it, and when it was opened after kiddush it turned out to be honey-water (mead) from Hungary.",
+   "tags": [
+    {
+     "tag": "supernatural:perception",
+     "scope": "span",
+     "quotes": [
+      "ואמר שלא ראה עליו ענין יין",
+      "לשים עיניו על היין כשהוא בכלי"
+     ],
+     "confidence": 3,
+     "why": "He perceives the contents of a sealed bottle",
+     "quotes_failed": false
+    },
+    {
+     "tag": "practice:halakhah",
+     "scope": "span",
+     "quotes": [
+      "ולא רצה לקדש עליו וקידש על יין"
+     ],
+     "confidence": 2,
+     "why": "Whether the drink is fit for kiddush",
+     "quotes_failed": false
+    },
+    {
+     "tag": "practice:drinking_alcohol",
+     "scope": "span",
+     "quotes": [
+      "בהביא לפניו יין לקידוש"
+     ],
+     "confidence": 2,
+     "why": "Wine for kiddush is the occasion of the wonder",
+     "quotes_failed": false
+    },
+    {
+     "tag": "times:shabbat",
+     "scope": "span",
+     "quotes": [
+      "בהביא לפניו יין לקידוש"
+     ],
+     "confidence": 1,
+     "why": "Kiddush implies a Sabbath or holiday, but this is not stated",
+     "quotes_failed": false
+    },
+    {
+     "tag": "social:retrospective_recognition",
+     "scope": "span",
+     "quotes": [
+      "ואחר הקידוש פתחו הכלי וראו שהוא מי דבש"
+     ],
+     "confidence": 2,
+     "why": "The onlookers realize afterwards why he refused",
+     "quotes_failed": false
+    }
+   ],
+   "missing_concepts": [
+    "kiddush ritual",
+    "kashrut / fitness of food and drink sensed by the tsaddik"
+   ],
+   "start_quote_found": true,
+   "end_quote_found": true
+  }
+ ],
+ "check": {
+  "non_vocab_tags": [],
+  "quotes": 6,
+  "quotes_not_found": 0
+ },
+ "id": "Eser-Orot_0174",
+ "chars": 267,
+ "seconds": 9
+}

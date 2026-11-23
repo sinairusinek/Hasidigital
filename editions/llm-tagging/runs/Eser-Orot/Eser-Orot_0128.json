@@ -1,0 +1,112 @@
+{
+ "unit": {
+  "kind": "hasidic_story",
+  "why": "A single anecdote about the Maggid of Kozienice weeping at Shabbat Bereshit Minhah, predicting a flood from a gematria of the Torah verse; the prediction comes true before Pesach.",
+  "boundary_note": "The final words 'ובתפלותיו הקל' are elliptical: the story ends with his prayers having lightened the flood."
+ },
+ "stories": [
+  {
+   "k": 1,
+   "start_quote": "שמעתי מש\"ב הגאון ר׳ יוסף אבד\"ק סעראצק",
+   "end_quote": "קאנסקיוואלי. ובתפלותיו הקל",
+   "hasidic": true,
+   "summary_en": "On Shabbat Bereshit the Maggid of Kozienice wept at the Minhah Torah reading and read the initials of 'קנים תעשה עצי גופר' as the year 573, foretelling a flood. Before Pesach the towns of Pilev, Kazimierz and Końskowola were flooded, and his prayers lessened the disaster.",
+   "tags": [
+    {
+     "tag": "folkloristics:story_type_prognostication",
+     "scope": "story",
+     "quotes": [],
+     "confidence": 3,
+     "why": "The tale is built on a prediction that comes true.",
+     "quotes_failed": false
+    },
+    {
+     "tag": "supernatural:prognostication",
+     "scope": "span",
+     "quotes": [
+      "שנה זאת יהי' מבול בגלילותינו",
+      "וקודם פסח נטבעו עיר פילוב"
+     ],
+     "confidence": 3,
+     "why": "He predicts the flood and it happens.",
+     "quotes_failed": false
+    },
+    {
+     "tag": "times:shabbat",
+     "scope": "span",
+     "quotes": [
+      "שהי׳ בקאזניץ שבת בראשית"
+     ],
+     "confidence": 3,
+     "why": "The scene is set on Shabbat Bereshit.",
+     "quotes_failed": false
+    },
+    {
+     "tag": "practice:prayer",
+     "scope": "span",
+     "quotes": [
+      "ולעת קריאת התורה במנחה בכה",
+      "ובתפלותיו הקל"
+     ],
+     "confidence": 2,
+     "why": "The Minhah service is the setting, and his prayers lessen the disaster.",
+     "quotes_failed": false
+    },
+    {
+     "tag": "practice:sermon",
+     "scope": "span",
+     "quotes": [
+      "הלא קריתם ק\"נים ת\"עשה ע\"צי ג\"ופר"
+     ],
+     "confidence": 2,
+     "why": "He gives an exegetical reading of the verse by its initials.",
+     "quotes_failed": false
+    },
+    {
+     "tag": "ethics-and-emotions:sadness",
+     "scope": "span",
+     "quotes": [
+      "בכה המגיד זי״ע"
+     ],
+     "confidence": 1,
+     "why": "He weeps over the coming disaster; this is not melancholy as a spiritual problem.",
+     "quotes_failed": false
+    },
+    {
+     "tag": "practice:protection",
+     "scope": "span",
+     "quotes": [
+      "ובתפלותיו הקל"
+     ],
+     "confidence": 2,
+     "why": "His prayers mitigate the flood for the region.",
+     "quotes_failed": false
+    },
+    {
+     "tag": "practice:storytelling",
+     "scope": "span",
+     "quotes": [
+      "ששמע בילדותו מהישיש ר' איסר מפילוב"
+     ],
+     "confidence": 1,
+     "why": "The story is framed as passed down orally through named tellers.",
+     "quotes_failed": false
+    }
+   ],
+   "missing_concepts": [
+    "natural disaster / flood",
+    "gematria / notarikon dating of a future event"
+   ],
+   "start_quote_found": true,
+   "end_quote_found": true
+  }
+ ],
+ "check": {
+  "non_vocab_tags": [],
+  "quotes": 9,
+  "quotes_not_found": 0
+ },
+ "id": "Eser-Orot_0128",
+ "chars": 370,
+ "seconds": 12
+}

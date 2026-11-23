@@ -1,0 +1,113 @@
+{
+ "unit": {
+  "kind": "hasidic_story",
+  "why": "A single anecdote: R. Mendel of Przemyślany travels incognito to the Maggid of Mezeritch, who recognizes him at once.",
+  "boundary_note": ""
+ },
+ "stories": [
+  {
+   "k": 1,
+   "start_quote": "כאשר נתפרסם בעולם שמעו של הרה״מ",
+   "end_quote": "אמר המגיד גם ברוך יהי'",
+   "hasidic": true,
+   "summary_en": "R. Mendel of Przemyślany travels incognito to the Maggid of Mezeritch under the name Barukh, but the Maggid greets him by name, explains that he sensed the moment Mendel decided to come, and blesses him, 'he shall also be blessed (barukh)'.",
+   "tags": [
+    {
+     "tag": "practice:travel_to_the_tsaddik",
+     "scope": "span",
+     "quotes": [
+      "רצה הצדיק ר' מענדלי מפרימישלאן לנסוע אליו לראותו"
+     ],
+     "confidence": 3,
+     "why": "R. Mendel journeys to the Maggid's court",
+     "quotes_failed": false
+    },
+    {
+     "tag": "supernatural:perception",
+     "scope": "span",
+     "quotes": [
+      "שלום עליכם ר' מענדילי מפרימישלאן",
+      "ואני לא ארגיש זאת תיכף"
+     ],
+     "confidence": 3,
+     "why": "The Maggid knows the incognito visitor's identity and sensed his intention from afar",
+     "quotes_failed": false
+    },
+    {
+     "tag": "practice:reception_of_hasidim",
+     "scope": "span",
+     "quotes": [
+      "הושיט לו המגיד ידו ואמר לו שלום עליכם"
+     ],
+     "confidence": 3,
+     "why": "The Maggid greets a newcomer at his court",
+     "quotes_failed": false
+    },
+    {
+     "tag": "ethics-and-emotions:humility",
+     "scope": "span",
+     "quotes": [
+      "לא יקראהו רבי",
+      "תקרא אותי ברוך"
+     ],
+     "confidence": 2,
+     "why": "R. Mendel hides his rabbinic status while travelling",
+     "quotes_failed": false
+    },
+    {
+     "tag": "ethics-and-emotions:lying",
+     "scope": "span",
+     "quotes": [
+      "זה האיש אין שמו מענדילי"
+     ],
+     "confidence": 2,
+     "why": "The attendant denies his master's identity",
+     "quotes_failed": false
+    },
+    {
+     "tag": "characters-and-roles:preacher",
+     "scope": "span",
+     "quotes": [
+      "כל העולם קוראים אותי המגיד הגדול"
+     ],
+     "confidence": 1,
+     "why": "The Maggid of Mezeritch is a maggid, though here in the role of rebbe",
+     "quotes_failed": false
+    },
+    {
+     "tag": "practice:joke",
+     "scope": "span",
+     "quotes": [
+      "אמר המגיד גם ברוך יהי'"
+     ],
+     "confidence": 2,
+     "why": "A witty closing pun on the false name Barukh",
+     "quotes_failed": false
+    },
+    {
+     "tag": "practice:travel_to_other_tsaddik",
+     "scope": "story",
+     "quotes": [],
+     "confidence": 1,
+     "why": "One tzaddik seeks out another tzaddik",
+     "quotes_failed": false
+    }
+   ],
+   "missing_concepts": [
+    "incognito / concealed identity",
+    "attendant (meshamesh) as a character",
+    "pun on a name as a blessing"
+   ],
+   "start_quote_found": true,
+   "end_quote_found": true
+  }
+ ],
+ "check": {
+  "non_vocab_tags": [],
+  "quotes": 9,
+  "quotes_not_found": 0
+ },
+ "id": "Eser-Orot_0020",
+ "chars": 581,
+ "seconds": 14
+}

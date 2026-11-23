@@ -1,0 +1,90 @@
+{
+ "unit": {
+  "kind": "hasidic_story",
+  "why": "A short anecdote: at the betrothal terms for his grandson with the daughter of R. Tzvi Hirsh of Rymanów, the Ruzhiner recites his lineage by bare names and then asks his in-law for his.",
+  "boundary_note": "trailing 'בסתר' is probably a catchword or source marker, not part of the story"
+ },
+ "stories": [
+  {
+   "k": 1,
+   "start_quote": "בעת עשה תנאים לנכדו עם בת",
+   "end_quote": "יספר לי מע״כ מחו׳ את יחוסו",
+   "hasidic": true,
+   "summary_en": "At the signing of the engagement terms between his grandson and the daughter of R. Tzvi Hirsh of Rymanów, R. Israel of Ruzhin lists his ancestors (R. Dov Ber, R. Abraham the Angel, R. Nahum, R. Motel) by bare name, without titles, then asks the in-law to tell his own lineage.",
+   "tags": [
+    {
+     "tag": "social:marriage",
+     "scope": "span",
+     "quotes": [
+      "בעת עשה תנאים לנכדו עם בת הרה״ק מוהרצ\"ה מרימינאב"
+     ],
+     "confidence": 3,
+     "why": "the setting is the betrothal (tena'im) of the grandson",
+     "quotes_failed": false
+    },
+    {
+     "tag": "characters-and-roles:the_family_of_the_tsaddik",
+     "scope": "span",
+     "quotes": [
+      "ראש שלשלת יחוסי אבי אבי זקיני ר' בעריש ז\"ל",
+      "ואבי זקיני בנו ר' אברהם המלאך ז\"ל"
+     ],
+     "confidence": 3,
+     "why": "the grandson, the bride and the tsaddik's ancestors are the subject",
+     "quotes_failed": false
+    },
+    {
+     "tag": "ethics-and-emotions:humility",
+     "scope": "span",
+     "quotes": [
+      "ולא אמר שום שבח ותואר עליהם רק קראם בשמותם"
+     ],
+     "confidence": 2,
+     "why": "he names his illustrious ancestors without praise or titles",
+     "quotes_failed": false
+    },
+    {
+     "tag": "folkloristics:story_type_virtues",
+     "scope": "story",
+     "quotes": [],
+     "confidence": 2,
+     "why": "the anecdote's point is the tsaddik's modest way of stating his lineage",
+     "quotes_failed": false
+    },
+    {
+     "tag": "social:inter_hasidic",
+     "scope": "story",
+     "quotes": [],
+     "confidence": 2,
+     "why": "two tsaddikim meet as future in-laws (mehutanim)",
+     "quotes_failed": false
+    },
+    {
+     "tag": "women:mention_only",
+     "scope": "span",
+     "quotes": [
+      "עם בת הרה״ק מוהרצ\"ה מרימינאב"
+     ],
+     "confidence": 3,
+     "why": "the bride is mentioned but does not act",
+     "quotes_failed": false
+    }
+   ],
+   "missing_concepts": [
+    "lineage / yichus (dynastic pedigree)",
+    "tena'im (engagement contract) ceremony",
+    "dynastic marriage alliances between tsaddikim"
+   ],
+   "start_quote_found": true,
+   "end_quote_found": true
+  }
+ ],
+ "check": {
+  "non_vocab_tags": [],
+  "quotes": 5,
+  "quotes_not_found": 0
+ },
+ "id": "Eser-Orot_0301",
+ "chars": 509,
+ "seconds": 13
+}

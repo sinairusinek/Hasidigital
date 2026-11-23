@@ -1,0 +1,99 @@
+{
+ "unit": {
+  "kind": "hasidic_story",
+  "why": "A minimal anecdote: R. Moshe of Kozienice hears someone sigh on Shabbat and rebukes him that even sighing over heavenly matters is forbidden on Shabbat. It is an event plus a reaction, not only a saying.",
+  "boundary_note": "Borderline with saying_or_teaching: the anecdote mainly frames a halakhic-ethical rule."
+ },
+ "stories": [
+  {
+   "k": 1,
+   "start_quote": "שמעתי מאאמו״ר זצ״ל שא\"ל דודו",
+   "end_quote": "אסור בשבת (ס׳ דברי אלימלך פ׳ עקב)",
+   "hasidic": true,
+   "summary_en": "The author's father heard from his uncle, R. Moshe of Kozienice, that he had heard someone sigh on Shabbat and told him that even sighing and grieving over heavenly matters is forbidden on Shabbat.",
+   "tags": [
+    {
+     "tag": "times:shabbat",
+     "scope": "story",
+     "quotes": [],
+     "confidence": 3,
+     "why": "The incident and the rule concern Shabbat.",
+     "quotes_failed": false
+    },
+    {
+     "tag": "ethics-and-emotions:prohibitions",
+     "scope": "span",
+     "quotes": [
+      "גם להתאנח ולהות מיצר על מילי דשמיא אסור בשבת"
+     ],
+     "confidence": 3,
+     "why": "The character is told that sighing on Shabbat is forbidden.",
+     "quotes_failed": false
+    },
+    {
+     "tag": "ethics-and-emotions:sadness",
+     "scope": "span",
+     "quotes": [
+      "ששמע ממנו שהתאנח בשבת"
+     ],
+     "confidence": 3,
+     "why": "Sighing and grief are the spiritual problem being addressed.",
+     "quotes_failed": false
+    },
+    {
+     "tag": "practice:halakhah",
+     "scope": "span",
+     "quotes": [
+      "גם להתאנח ולהות מיצר על מילי דשמיא אסור בשבת"
+     ],
+     "confidence": 2,
+     "why": "A Shabbat conduct rule is stated as law.",
+     "quotes_failed": false
+    },
+    {
+     "tag": "characters-and-roles:the_family_of_the_tsaddik",
+     "scope": "span",
+     "quotes": [
+      "שמעתי מאאמו״ר זצ״ל שא\"ל דודו"
+     ],
+     "confidence": 2,
+     "why": "The chain of transmission runs through the tzaddik's family (father, uncle).",
+     "quotes_failed": false
+    },
+    {
+     "tag": "social:inter_hasidic_master_disciple_relationship",
+     "scope": "span",
+     "quotes": [
+      "ששמע ממנו שהתאנח בשבת וא״ל"
+     ],
+     "confidence": 1,
+     "why": "The elder tzaddik rebukes and instructs the younger figure.",
+     "quotes_failed": false
+    },
+    {
+     "tag": "not-a-hasidic-story:sermon",
+     "scope": "story",
+     "quotes": [],
+     "confidence": 1,
+     "why": "The piece is mostly a teaching about Shabbat conduct wrapped in a tiny anecdote.",
+     "quotes_failed": false
+    }
+   ],
+   "missing_concepts": [
+    "sighing (אנחה) as a religious act",
+    "joy and the absence of grief as a Shabbat obligation",
+    "chain of oral transmission (שמעתי מ...)"
+   ],
+   "start_quote_found": true,
+   "end_quote_found": true
+  }
+ ],
+ "check": {
+  "non_vocab_tags": [],
+  "quotes": 5,
+  "quotes_not_found": 0
+ },
+ "id": "Tiferet-Hayyim_0007",
+ "chars": 159,
+ "seconds": 15
+}

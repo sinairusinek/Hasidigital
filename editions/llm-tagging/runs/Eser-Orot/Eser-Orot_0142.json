@@ -1,0 +1,102 @@
+{
+ "unit": {
+  "kind": "hasidic_story",
+  "why": "A short narrative: the Maggid of Kozienice arranges his daughter's match and, at the wedding ceremony, waits a long time with strange movements to draw down the soul of the Shakh, whose consent was needed.",
+  "boundary_note": ""
+ },
+ "stories": [
+  {
+   "k": 1,
+   "start_quote": "עו\"ש בשם הרב מסעראצק המגיד מקאזניץ",
+   "end_quote": "המשיך את נשמת הש\"ך ז\"ל לשם",
+   "hasidic": true,
+   "summary_en": "The Maggid of Kozienice seeks Avi Ezra Zelig, of the lineage of the Bach and the Shakh, as his son-in-law; at the start of the betrothal ceremony he waits a long time with strange movements, later explaining that the Shakh had not consented to the match, which would not have lasted, so he drew the Shakh's soul down to the wedding.",
+   "tags": [
+    {
+     "tag": "social:marriage",
+     "scope": "story",
+     "quotes": [],
+     "confidence": 3,
+     "why": "the match and the wedding ceremony are the subject",
+     "quotes_failed": false
+    },
+    {
+     "tag": "characters-and-roles:the_family_of_the_tsaddik",
+     "scope": "span",
+     "quotes": [
+      "השתדל מאד להשיג חתנו"
+     ],
+     "confidence": 3,
+     "why": "the tsaddik's son-in-law and family match",
+     "quotes_failed": false
+    },
+    {
+     "tag": "characters-and-roles:preacher",
+     "scope": "span",
+     "quotes": [
+      "המגיד מקאזניץ השתדל מאד"
+     ],
+     "confidence": 1,
+     "why": "the protagonist is titled Maggid, though his role here is that of a rebbe",
+     "quotes_failed": false
+    },
+    {
+     "tag": "supernatural:communicating_with_the_invisible",
+     "scope": "span",
+     "quotes": [
+      "המשיך את נשמת הש\"ך ז\"ל לשם",
+      "הש\"ך לא הסכים בשידוך הלז"
+     ],
+     "confidence": 3,
+     "why": "he draws down a dead sage's soul and learns its consent",
+     "quotes_failed": false
+    },
+    {
+     "tag": "supernatural:perception",
+     "scope": "span",
+     "quotes": [
+      "ואמר כי הש\"ך לא הסכים בשידוך הלז"
+     ],
+     "confidence": 2,
+     "why": "supernatural knowledge of the Shakh's objection",
+     "quotes_failed": false
+    },
+    {
+     "tag": "social:retrospective_recognition",
+     "scope": "span",
+     "quotes": [
+      "הי' ממתין זמן רב בתנועות משונות"
+     ],
+     "confidence": 2,
+     "why": "his strange delay is explained afterwards",
+     "quotes_failed": false
+    },
+    {
+     "tag": "practice:storytelling",
+     "scope": "span",
+     "quotes": [
+      "עו\"ש בשם הרב מסעראצק"
+     ],
+     "confidence": 1,
+     "why": "transmitted in the name of a named rabbi",
+     "quotes_failed": false
+    }
+   ],
+   "missing_concepts": [
+    "lineage / yichus (descent from the Bach and the Shakh)",
+    "consent of ancestors' souls to a match",
+    "summoning the soul of a deceased sage"
+   ],
+   "start_quote_found": true,
+   "end_quote_found": true
+  }
+ ],
+ "check": {
+  "non_vocab_tags": [],
+  "quotes": 7,
+  "quotes_not_found": 0
+ },
+ "id": "Eser-Orot_0142",
+ "chars": 332,
+ "seconds": 14
+}

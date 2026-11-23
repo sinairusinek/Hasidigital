@@ -1,0 +1,134 @@
+{
+ "unit": {
+  "kind": "hasidic_story",
+  "why": "Opening of the Seer of Lublin chapter: mostly praise and descriptions of his habits from testimonies, with one anecdote: in the year he died he wrote his monthly forecasts only up to Av, the month of his death.",
+  "boundary_note": "chapter introduction; the following division (ב) begins the separate accounts of his deeds"
+ },
+ "stories": [
+  {
+   "k": 1,
+   "start_quote": "מחו׳ הרב הגאון הקדוש האלקי רשכב\"ה",
+   "end_quote": "ממדריגותיו הקדושים ודרכי עבודתו.",
+   "hasidic": true,
+   "summary_en": "Testimonies praise the Seer of Lublin: he never lifted his eyes without a divine unification, he read people's deeds through their name-notes, and each day of early Nisan he wrote what the matching month would bring; in the year of his death he wrote only up to Av, the month he died.",
+   "tags": [
+    {
+     "tag": "folkloristics:story_type_virtues",
+     "scope": "story",
+     "quotes": [],
+     "confidence": 2,
+     "why": "praise of the tzaddik's holy levels",
+     "quotes_failed": false
+    },
+    {
+     "tag": "supernatural:perception",
+     "scope": "span",
+     "quotes": [
+      "הי' צופה ומביט מסוף העולם ועד סופו",
+      "הי' מתבונן ברוח קדשו מעשי האיש"
+     ],
+     "confidence": 3,
+     "why": "supernatural sight and reading of souls",
+     "quotes_failed": false
+    },
+    {
+     "tag": "supernatural:prognostication",
+     "scope": "span",
+     "quotes": [
+      "הי' כותב ברוח קדשו בכל יום מה יהי' בכל החודש",
+      "לא כתב רק עד מנחם"
+     ],
+     "confidence": 3,
+     "why": "monthly forecasts; foresaw his own death",
+     "quotes_failed": false
+    },
+    {
+     "tag": "times:death",
+     "scope": "span",
+     "quotes": [
+      "ובאותה השנה שנתבקש בישיבה ש\"מ בחודש מנחם"
+     ],
+     "confidence": 2,
+     "why": "his death in Av is alluded to",
+     "quotes_failed": false
+    },
+    {
+     "tag": "times:holidays",
+     "scope": "span",
+     "quotes": [
+      "דבאותן הי״ב ימים הראשונים דניסן"
+     ],
+     "confidence": 1,
+     "why": "the first days of Nisan as a time of special sight",
+     "quotes_failed": false
+    },
+    {
+     "tag": "kabbalah:kabbalistic_terms_yihudim",
+     "scope": "span",
+     "quotes": [
+      "לא הגביה ריסי עיניו בלי יחוד שמו יתברך"
+     ],
+     "confidence": 2,
+     "why": "constant unification of the divine name",
+     "quotes_failed": false
+    },
+    {
+     "tag": "practice:meditation",
+     "scope": "span",
+     "quotes": [
+      "בלי יחוד שמו יתברך",
+      "והוא לדעתי שהי' מכוין וכו'"
+     ],
+     "confidence": 2,
+     "why": "yihudim and kavvanot",
+     "quotes_failed": false
+    },
+    {
+     "tag": "practice:reception_of_hasidim",
+     "scope": "span",
+     "quotes": [
+      "כאשר הי' קורא מהכתב שמות בני אדם שכתבו לו"
+     ],
+     "confidence": 2,
+     "why": "reading followers' name-notes (kvitlekh)",
+     "quotes_failed": false
+    },
+    {
+     "tag": "practice:torat_ha_tsaddik",
+     "scope": "span",
+     "quotes": [
+      "אשר רוב צדיקי דורו השכימו לפתחו"
+     ],
+     "confidence": 1,
+     "why": "the tzaddik's central standing",
+     "quotes_failed": false
+    },
+    {
+     "tag": "practice:prayer",
+     "scope": "span",
+     "quotes": [
+      "שהי׳ אומר קודם הקריאה לשיקובה״ו"
+     ],
+     "confidence": 1,
+     "why": "the formula for unification of God he said before reading",
+     "quotes_failed": false
+    }
+   ],
+   "missing_concepts": [
+    "kvitl (petitioners' name-notes) as a medium of seeing",
+    "the epithet 'the Seer' (Hozeh) and eye imagery",
+    "testimonies chained from other tzaddikim and from books"
+   ],
+   "start_quote_found": true,
+   "end_quote_found": true
+  }
+ ],
+ "check": {
+  "non_vocab_tags": [],
+  "quotes": 12,
+  "quotes_not_found": 0
+ },
+ "id": "Eser-Orot_0171",
+ "chars": 1387,
+ "seconds": 18
+}

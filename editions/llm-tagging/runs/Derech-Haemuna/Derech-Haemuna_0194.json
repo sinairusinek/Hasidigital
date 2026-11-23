@@ -1,0 +1,131 @@
+{
+ "unit": {
+  "kind": "hasidic_story",
+  "why": "A narrative about the Besht pressing his disciple R. Michel to accept a rabbinate, which he refuses, and the Besht reveals it was a test of humility; quoted from Ma'amar Teferet Shlomo-type book within a halakhic/ethical compilation section on rabbinate.",
+  "boundary_note": ""
+ },
+ "stories": [
+  {
+   "k": 1,
+   "start_quote": "כמו שנודע המעשה מהבעש״ט זי״ע שפ״א",
+   "end_quote": "לדעת את אשר בלבבך להטיבך באחריתך",
+   "hasidic": true,
+   "summary_en": "The Besht urges his disciple R. Michel to accept a town's rabbinate, threatening him with loss of both worlds; Michel refuses anyway, and the Besht joyfully blesses him, revealing it was a test of his humility.",
+   "tags": [
+    {
+     "tag": "ethics-and-emotions:humility",
+     "scope": "span",
+     "quotes": [
+      "כאשר לא התנשא רוחך ולבך"
+     ],
+     "confidence": 3,
+     "why": "refusing rabbinic office out of humility",
+     "quotes_failed": false
+    },
+    {
+     "tag": "ethics-and-emotions:anger",
+     "scope": "span",
+     "quotes": [
+      "עד שכעס עליו הבעש״ט"
+     ],
+     "confidence": 3,
+     "why": "Besht becomes (feigned) angry",
+     "quotes_failed": false
+    },
+    {
+     "tag": "ethics-and-emotions:joy",
+     "scope": "span",
+     "quotes": [
+      "אז ענהו הבעש״ט בשמחה"
+     ],
+     "confidence": 2,
+     "why": "Besht answers joyfully",
+     "quotes_failed": false
+    },
+    {
+     "tag": "ethics-and-emotions:resisting_temptation",
+     "scope": "span",
+     "quotes": [
+      "לא אקבל שררות הרבנות עלי"
+     ],
+     "confidence": 2,
+     "why": "resists lure of authority/office",
+     "quotes_failed": false
+    },
+    {
+     "tag": "ethics-and-emotions:pride",
+     "scope": "span",
+     "quotes": [
+      "כאשר לא התנשא רוחך ולבך"
+     ],
+     "confidence": 1,
+     "why": "avoidance of arrogance is the point",
+     "quotes_failed": false
+    },
+    {
+     "tag": "social:inter_hasidic_master_disciple_relationship",
+     "scope": "span",
+     "quotes": [
+      "הפציר מאד באחד מגדולי תלמידיו",
+      "כי אנכי אך לנסותך באתי"
+     ],
+     "confidence": 3,
+     "why": "master tests his disciple",
+     "quotes_failed": false
+    },
+    {
+     "tag": "social:disobedience",
+     "scope": "span",
+     "quotes": [
+      "אם לא תשמע לדברי אלה"
+     ],
+     "confidence": 2,
+     "why": "disciple refuses master's instruction, but rewarded",
+     "quotes_failed": false
+    },
+    {
+     "tag": "social:retrospective_recognition",
+     "scope": "span",
+     "quotes": [
+      "כי אנכי אך לנסותך באתי לדעת את אשר בלבבך"
+     ],
+     "confidence": 2,
+     "why": "the demand is revealed as a test",
+     "quotes_failed": false
+    },
+    {
+     "tag": "folkloristics:story_type_virtues",
+     "scope": "story",
+     "quotes": [],
+     "confidence": 3,
+     "why": "story illustrates the disciple's humility",
+     "quotes_failed": false
+    },
+    {
+     "tag": "times:eschatology",
+     "scope": "span",
+     "quotes": [
+      "זכאי חולקך בג״ע"
+     ],
+     "confidence": 1,
+     "why": "reward in Garden of Eden / world to come",
+     "quotes_failed": false
+    }
+   ],
+   "missing_concepts": [
+    "acceptance/refusal of rabbinic office (rabbanut)",
+    "testing of a disciple by the master"
+   ],
+   "start_quote_found": true,
+   "end_quote_found": true
+  }
+ ],
+ "check": {
+  "non_vocab_tags": [],
+  "quotes": 10,
+  "quotes_not_found": 0
+ },
+ "id": "Derech-Haemuna_0194",
+ "chars": 547,
+ "seconds": 12
+}

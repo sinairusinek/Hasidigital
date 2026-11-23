@@ -1,0 +1,159 @@
+{
+ "unit": {
+  "kind": "hasidic_story",
+  "why": "A single narrative about R. Aharon Moshe of Brody perceiving an idol and an uncircumcised boy at an inn, followed by the Apter Rav's advice to pray for the vision to be removed.",
+  "boundary_note": ""
+ },
+ "stories": [
+  {
+   "k": 1,
+   "start_quote": "מהה\"ק ר׳ אהרן משה מבראד ז״ל",
+   "end_quote": "בעה״ק לבר עולם יהי׳ צדיק",
+   "hasidic": true,
+   "summary_en": "R. Aharon Moshe of Brody, disciple of the Seer of Lublin, refuses to enter an inn because an idol is hidden in it and refuses to bless an uncircumcised boy; the Apter Rav, arriving at the same inn, tells him that he once saw people's past transmigrations, prayed to have the bad sights taken away, and advises him to do the same.",
+   "tags": [
+    {
+     "tag": "supernatural:perception",
+     "scope": "span",
+     "quotes": [
+      "מפני שנמצא ע״ז בביתך",
+      "איננו חפץ לברך את הערל",
+      "אם אני רואה ממש כמו כעין הנשמי"
+     ],
+     "confidence": 3,
+     "why": "he sees the hidden idol and knows the boy is uncircumcised",
+     "quotes_failed": false
+    },
+    {
+     "tag": "supernatural:reincarnation",
+     "scope": "span",
+     "quotes": [
+      "ראיתי כבמה גילגולים הי׳ מקודם ומה תיקן בו",
+      "וכל המע\"ט שעשה בכל הגלגולים"
+     ],
+     "confidence": 2,
+     "why": "the Apter perceives people's previous transmigrations",
+     "quotes_failed": false
+    },
+    {
+     "tag": "practice:circumcision",
+     "scope": "span",
+     "quotes": [
+      "הן אמת שלא נימול אולם לא בזדון",
+      "שמתו אחיו מחמת מילה ועל פי הדין אין למולו"
+     ],
+     "confidence": 2,
+     "why": "the boy's circumcision was withheld on halakhic grounds",
+     "quotes_failed": false
+    },
+    {
+     "tag": "practice:halakhah",
+     "scope": "span",
+     "quotes": [
+      "ועל פי הדין אין למולו"
+     ],
+     "confidence": 2,
+     "why": "the law exempting a boy whose brothers died from circumcision",
+     "quotes_failed": false
+    },
+    {
+     "tag": "practice:the_travels_of_the_tsaddik",
+     "scope": "span",
+     "quotes": [
+      "נסע פ\"א לדרכו ויהי כי בא אל המלון",
+      "בא להעיר הה\"ק מאפטא ונבנס ג״כ לאכסניא זו"
+     ],
+     "confidence": 3,
+     "why": "the story is set at an inn on the tsaddik's journey",
+     "quotes_failed": false
+    },
+    {
+     "tag": "characters-and-roles:tavern_keeper",
+     "scope": "span",
+     "quotes": [
+      "ויבא בעה״ב וישאלהו מה זה"
+     ],
+     "confidence": 2,
+     "why": "the innkeeper searches and finds the idol",
+     "quotes_failed": false
+    },
+    {
+     "tag": "social:inter_hasidic",
+     "scope": "span",
+     "quotes": [
+      "ויאמר הרב מאפטא להרב ר׳ אהרן משה (סערצי) אתם החילותם לחיות חוזה"
+     ],
+     "confidence": 2,
+     "why": "two tsaddikim discuss the younger one's seer-vision",
+     "quotes_failed": false
+    },
+    {
+     "tag": "practice:prayer",
+     "scope": "span",
+     "quotes": [
+      "העתרתי לפני הקב״ה שיקח זאת ממני",
+      "העתירו ג״כ אל ד׳ שיקח מכם החזיון הזה"
+     ],
+     "confidence": 2,
+     "why": "praying for the visionary power to be taken away",
+     "quotes_failed": false
+    },
+    {
+     "tag": "women:minor_character",
+     "scope": "span",
+     "quotes": [
+      "באתה אשה אחת מאנשי הבית ובנה הולך על ידה",
+      "ותאמר לו האשה הן אמת שלא נימול"
+     ],
+     "confidence": 3,
+     "why": "the mother asks for a blessing and explains why the boy was not circumcised",
+     "quotes_failed": false
+    },
+    {
+     "tag": "ethics-and-emotions:humility",
+     "scope": "span",
+     "quotes": [
+      "ובאשר ראינו שלא בשר הדבר לראות על היהודים דברים לא טובים"
+     ],
+     "confidence": 1,
+     "why": "the tsaddik gives up the power to see other Jews' faults",
+     "quotes_failed": false
+    },
+    {
+     "tag": "supernatural:miracle",
+     "scope": "span",
+     "quotes": [
+      "וכאשר ראו האנשים השני מופתים האלו"
+     ],
+     "confidence": 1,
+     "why": "the onlookers call the two perceptions wonders",
+     "quotes_failed": false
+    },
+    {
+     "tag": "social:relations_with_non_jews",
+     "scope": "span",
+     "quotes": [
+      "וימצא על התקרה הי׳ טמון ע״ז אחת"
+     ],
+     "confidence": 1,
+     "why": "the idol hidden in a Jew's house; non-Jewish worship is only implied",
+     "quotes_failed": false
+    }
+   ],
+   "missing_concepts": [
+    "the tsaddik's self-limitation of his clairvoyance: praying to see only people's merits, not their sins",
+    "avoiding a place of idolatry"
+   ],
+   "start_quote_found": true,
+   "end_quote_found": true
+  }
+ ],
+ "check": {
+  "non_vocab_tags": [],
+  "quotes": 19,
+  "quotes_not_found": 0
+ },
+ "id": "Peulat-Hatzadikim_0001",
+ "chars": 1314,
+ "seconds": 16
+}

@@ -1,0 +1,116 @@
+{
+ "unit": {
+  "kind": "hasidic_story",
+  "why": "A teaching on fixed devotion by the rebbe of Mogielnica, followed by a first-person anecdote he told the author: weak with hunger during his daily study, he resisted the evil inclination's urging to eat first and finished his set portions.",
+  "boundary_note": ""
+ },
+ "stories": [
+  {
+   "k": 1,
+   "start_quote": "עוד שם ממורי ז\"ל איש אלהים",
+   "end_quote": "וגמר כל השיעורים כולן (ס׳ דברי תורה)",
+   "hasidic": true,
+   "summary_en": "The rebbe of Mogielnica teaches that devotion must be fixed and unbroken, and tells his disciple how he once felt faint from hunger during his daily study, found no food, rejected the evil inclination's argument that his life was in danger, and finished all his set study portions.",
+   "tags": [
+    {
+     "tag": "practice:study",
+     "scope": "span",
+     "quotes": [
+      "באמצע הלימוד שלמד אחר התפלה השיעורים הקבועים",
+      "ומסר נפשו על התורה וקבל עליו"
+     ],
+     "confidence": 3,
+     "why": "the story turns on keeping the fixed daily study portions",
+     "quotes_failed": false
+    },
+    {
+     "tag": "ethics-and-emotions:resisting_temptation",
+     "scope": "span",
+     "quotes": [
+      "ואמר לו היצר הלא אתה בעצמך רואה",
+      "לכן תלך לאכול בראשונה"
+     ],
+     "confidence": 3,
+     "why": "he resists the evil inclination's urging to stop and eat",
+     "quotes_failed": false
+    },
+    {
+     "tag": "folkloristics:story_type_virtues",
+     "scope": "story",
+     "quotes": [],
+     "confidence": 3,
+     "why": "illustrates the tsaddik's steadfastness and self-sacrifice for Torah",
+     "quotes_failed": false
+    },
+    {
+     "tag": "practice:storytelling",
+     "scope": "span",
+     "quotes": [
+      "בעת שבא לשלחנו סיפר לי מה שאירע לו",
+      "וסיפר מצדיקים שגם בנשואי ושמחת בניהם"
+     ],
+     "confidence": 2,
+     "why": "the rebbe narrates the episode, and tales of other tsaddikim, at his table",
+     "quotes_failed": false
+    },
+    {
+     "tag": "social:inter_hasidic_master_disciple_relationship",
+     "scope": "span",
+     "quotes": [
+      "ממורי ז\"ל איש אלהים הרב ממאגליניצא",
+      "ואמר לי שמעולם לא השגיח"
+     ],
+     "confidence": 2,
+     "why": "the account is transmitted from the master to his disciple",
+     "quotes_failed": false
+    },
+    {
+     "tag": "not-a-hasidic-story:sermon",
+     "scope": "span",
+     "quotes": [
+      "עיקר עבדות שיהא העבדות בקבע"
+     ],
+     "confidence": 1,
+     "why": "the anecdote sits inside a teaching frame on fixed devotion",
+     "quotes_failed": false
+    },
+    {
+     "tag": "practice:asceticism",
+     "scope": "span",
+     "quotes": [
+      "מעולם לא השגיח על חלשות הלב",
+      "שיהיה מה שיהיה וגמר כל השיעורים"
+     ],
+     "confidence": 1,
+     "why": "ignores bodily weakness and hunger for the sake of devotion",
+     "quotes_failed": false
+    },
+    {
+     "tag": "practice:prayer",
+     "scope": "span",
+     "quotes": [
+      "באמצע הלימוד שלמד אחר התפלה"
+     ],
+     "confidence": 1,
+     "why": "prayer is mentioned only as part of his daily routine",
+     "quotes_failed": false
+    }
+   ],
+   "missing_concepts": [
+    "fixed daily devotional routine (keviut)",
+    "self-sacrifice (mesirut nefesh) for Torah",
+    "the evil inclination (yetzer) as an inner voice arguing danger to life"
+   ],
+   "start_quote_found": true,
+   "end_quote_found": true
+  }
+ ],
+ "check": {
+  "non_vocab_tags": [],
+  "quotes": 12,
+  "quotes_not_found": 0
+ },
+ "id": "Tiferet-Hayyim_0004",
+ "chars": 671,
+ "seconds": 15
+}

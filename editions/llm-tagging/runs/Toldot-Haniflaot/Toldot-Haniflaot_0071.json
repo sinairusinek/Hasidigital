@@ -1,0 +1,114 @@
+{
+ "unit": {
+  "kind": "hasidic_story",
+  "why": "The rebbe recounts the miracle of the Maharshal's candle, says his grandfather the Maggid had the same miracle, and tells how a needed book was brought to him from Heaven, open at the right place.",
+  "boundary_note": ""
+ },
+ "stories": [
+  {
+   "k": 1,
+   "start_quote": "שמעתי מחתנו הרב החסיד וכו׳ ר׳ אלחנן",
+   "end_quote": "בהמקום שהיה נצרך לי לעיין בו",
+   "hasidic": true,
+   "summary_en": "As reported by his son-in-law, the rebbe cited the Maharshal's miracle of a small candle burning all night (from Kav ha-Yashar), said his grandfather the Maggid had the same miracle, and told how Heaven once brought him a needed book, open at the right place, while he studied alone.",
+   "tags": [
+    {
+     "tag": "supernatural:miracle",
+     "scope": "span",
+     "quotes": [
+      "שהיה לו נס בנר קטן שהדליק אצלו כל הלילה",
+      "ומיד הובא אלי ספר זה פתוח"
+     ],
+     "confidence": 3,
+     "why": "candle miracle and book brought from Heaven",
+     "quotes_failed": false
+    },
+    {
+     "tag": "practice:study",
+     "scope": "span",
+     "quotes": [
+      "באמצע לימודי היה נצרך לי ספר אחד לעיין בו"
+     ],
+     "confidence": 3,
+     "why": "the miracle happens during his Torah study",
+     "quotes_failed": false
+    },
+    {
+     "tag": "practice:storytelling",
+     "scope": "span",
+     "quotes": [
+      "דיבר מרן ז״ל מהגאון מהרש״ל ז״ל",
+      "וסיפר כי גם באא״ז הרב המגיד"
+     ],
+     "confidence": 2,
+     "why": "the rebbe narrates miracle tales",
+     "quotes_failed": false
+    },
+    {
+     "tag": "supernatural:light_or_fire_as_a_sign_of_righteousness",
+     "scope": "span",
+     "quotes": [
+      "נס בנר קטן שהדליק אצלו כל הלילה"
+     ],
+     "confidence": 1,
+     "why": "a light miraculously sustained for a righteous man's study",
+     "quotes_failed": false
+    },
+    {
+     "tag": "characters-and-roles:the_family_of_the_tsaddik",
+     "scope": "span",
+     "quotes": [
+      "שמעתי מחתנו הרב החסיד וכו׳ ר׳ אלחנן",
+      "גם באא״ז הרב המגיד זצ״ל"
+     ],
+     "confidence": 2,
+     "why": "son-in-law as transmitter; grandfather as subject",
+     "quotes_failed": false
+    },
+    {
+     "tag": "not-a-hasidic-story:hagiography",
+     "scope": "span",
+     "quotes": [
+      "מהגאון מהרש״ל ז״ל מה דאיתא בקב הישר"
+     ],
+     "confidence": 1,
+     "why": "embedded praise of the Maharshal, taken from an older book",
+     "quotes_failed": false
+    },
+    {
+     "tag": "folkloristics:story_type_virtues",
+     "scope": "story",
+     "quotes": [],
+     "confidence": 1,
+     "why": "illustrates the rebbe's holiness as one served from Heaven",
+     "quotes_failed": false
+    },
+    {
+     "tag": "practice:torat_ha_tsaddik",
+     "scope": "span",
+     "quotes": [
+      "גם אותי היו משמשים לי פ״א משמים"
+     ],
+     "confidence": 1,
+     "why": "Heaven serves the tsaddik",
+     "quotes_failed": false
+    }
+   ],
+   "missing_concepts": [
+    "heavenly service to a tsaddik (being served from Heaven)",
+    "miraculous book appearance",
+    "lineage of repeating miracles across generations"
+   ],
+   "start_quote_found": true,
+   "end_quote_found": true
+  }
+ ],
+ "check": {
+  "non_vocab_tags": [],
+  "quotes": 10,
+  "quotes_not_found": 0
+ },
+ "id": "Toldot-Haniflaot_0071",
+ "chars": 371,
+ "seconds": 15
+}

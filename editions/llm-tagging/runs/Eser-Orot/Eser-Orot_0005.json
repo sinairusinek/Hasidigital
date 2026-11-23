@@ -1,0 +1,105 @@
+{
+ "unit": {
+  "kind": "hasidic_story",
+  "why": "A short anecdote, copied from the preface to Tehillah le-Moshe, in which the Yismach Moshe sends two messengers to the grave of R. Elimelech of Lizhensk to pray for his son and tells them how to alert the tsaddik's soul.",
+  "boundary_note": "Quoted excerpt appended ('אגב אעתיק לכאן') after the author's signature closing the previous division; next division is empty."
+ },
+ "stories": [
+  {
+   "k": 1,
+   "start_quote": "אגב אעתיק לכאן דבר יקר מהקדמת",
+   "end_quote": "להתפלל בעד בנו וכו׳ עכ״ל",
+   "hasidic": true,
+   "summary_en": "The Yismach Moshe sends two worthy men to R. Elimelech's grave in Lizhensk to pray for his son. He tells them first to pledge a perutah of charity for whichever soul will run to tell R. Elimelech's soul that they have come, because the dead value such merit.",
+   "tags": [
+    {
+     "tag": "practice:pilgrimage_to_the_graves_of_tsaddikim",
+     "scope": "span",
+     "quotes": [
+      "על הציון של רבינו הקדוש הנועם אלימלך",
+      "ואח״כ תלכו על קברו להתפלל בעד בנו"
+     ],
+     "confidence": 3,
+     "why": "Messengers sent to pray at the tsaddik's grave",
+     "quotes_failed": false
+    },
+    {
+     "tag": "ethics-and-emotions:charity",
+     "scope": "span",
+     "quotes": [
+      "אנחנו מנדרים פרוטה לצדקה בעד הנשמה"
+     ],
+     "confidence": 3,
+     "why": "A charity pledge for the benefit of a soul",
+     "quotes_failed": false
+    },
+    {
+     "tag": "practice:prayer",
+     "scope": "span",
+     "quotes": [
+      "להתפלל בעד בנו"
+     ],
+     "confidence": 3,
+     "why": "Intercessory prayer at the grave",
+     "quotes_failed": false
+    },
+    {
+     "tag": "supernatural:communicating_with_the_invisible",
+     "scope": "span",
+     "quotes": [
+      "ירוצו כל הנשמות הנמצאים שם בעת ההוא",
+      "תלך ותגיד לנשמת הרב ר׳ אלימלך"
+     ],
+     "confidence": 2,
+     "why": "Addressing the souls of the dead, who carry the message",
+     "quotes_failed": false
+    },
+    {
+     "tag": "practice:torat_ha_tsaddik",
+     "scope": "span",
+     "quotes": [
+      "לא בכל עת שורה נפשו של אדם על קברו"
+     ],
+     "confidence": 2,
+     "why": "The dead tsaddik's power to intercede, and how to reach his soul",
+     "quotes_failed": false
+    },
+    {
+     "tag": "characters-and-roles:the_family_of_the_tsaddik",
+     "scope": "span",
+     "quotes": [
+      "להתפלל בעד בנו"
+     ],
+     "confidence": 2,
+     "why": "The tsaddik's son is the subject of the prayer",
+     "quotes_failed": false
+    },
+    {
+     "tag": "practice:travel_to_other_tsaddik",
+     "scope": "span",
+     "quotes": [
+      "שלח שני אנשים כשרים לליזענסק"
+     ],
+     "confidence": 1,
+     "why": "Emissaries sent to another (deceased) tsaddik",
+     "quotes_failed": false
+    }
+   ],
+   "missing_concepts": [
+    "souls of the dead benefiting from charity given for them",
+    "the soul's presence at the grave (when the soul rests on the tomb)",
+    "emissaries sent to pray on someone's behalf"
+   ],
+   "start_quote_found": true,
+   "end_quote_found": true
+  }
+ ],
+ "check": {
+  "non_vocab_tags": [],
+  "quotes": 9,
+  "quotes_not_found": 0
+ },
+ "id": "Eser-Orot_0005",
+ "chars": 620,
+ "seconds": 17
+}

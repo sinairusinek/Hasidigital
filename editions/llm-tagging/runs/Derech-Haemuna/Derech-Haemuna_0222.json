@@ -1,0 +1,116 @@
+{
+ "unit": {
+  "kind": "hasidic_story",
+  "why": "A single memorate, given in two quoted versions, about the author's father: praying as rabbi of Sieniawa in the room where R. Shmelke and R. Elimelech had prayed, he was seized by fear and then by love, which he credited to the holiness they left in the place.",
+  "boundary_note": ""
+ },
+ "stories": [
+  {
+   "k": 1,
+   "start_quote": "ובס׳ הנ״ל מאמר אבני זכרון",
+   "end_quote": "צבי יחזקאל מיכלהן נכדו שי')",
+   "hasidic": true,
+   "summary_en": "The author's father, as rabbi of Sieniawa, prayed in the room once used by R. Shmelke of Nikolsburg and R. Elimelech. One Sabbath eve he was suddenly seized by awe and fear that lasted a week, and the next Sabbath by a fiery love, which he attributed to the blessing R. Shmelke left in that place.",
+   "tags": [
+    {
+     "tag": "ethics-and-emotions:fear",
+     "scope": "span",
+     "quotes": [
+      "נפל עליו פתאום בליל ש״ק אימה ופחד גדול",
+      "זכה מוזל״ה לבחי׳ יראה ופחד"
+     ],
+     "confidence": 3,
+     "why": "sudden fear seizes him for a week",
+     "quotes_failed": false
+    },
+    {
+     "tag": "ethics-and-emotions:awe",
+     "scope": "span",
+     "quotes": [
+      "זכה מוזל״ה לבחי׳ יראה ופחד עד מלוא שבועה"
+     ],
+     "confidence": 3,
+     "why": "religious awe (yirah) as a spiritual state",
+     "quotes_failed": false
+    },
+    {
+     "tag": "experience:enthusiasm",
+     "scope": "span",
+     "quotes": [
+      "זכה לבחי׳ אהבה רשפי׳ כשפי אש",
+      "בא בלבו אהבה ותשוקה נפלאה"
+     ],
+     "confidence": 2,
+     "why": "a burning love and longing, akin to hitlahavut",
+     "quotes_failed": false
+    },
+    {
+     "tag": "times:shabbat",
+     "scope": "span",
+     "quotes": [
+      "פתאום בליל ש״ק זכה מוזל״ה",
+      "ובש״ק שאח״ז בא בלבו אהבה"
+     ],
+     "confidence": 3,
+     "why": "both experiences begin on Sabbath eve",
+     "quotes_failed": false
+    },
+    {
+     "tag": "practice:prayer",
+     "scope": "span",
+     "quotes": [
+      "והתפלל בחדר שהתפלל בו הגה״ק מהר״ש שמעלקא",
+      "והיה מתפלל בחדר שהתפלל בו מהר״ש"
+     ],
+     "confidence": 2,
+     "why": "the setting is his place of prayer",
+     "quotes_failed": false
+    },
+    {
+     "tag": "characters-and-roles:the_family_of_the_tsaddik",
+     "scope": "span",
+     "quotes": [
+      "אשר שמעתי מפ״ק של מוזל״ה"
+     ],
+     "confidence": 2,
+     "why": "the subject is the narrating tsaddik's own father",
+     "quotes_failed": false
+    },
+    {
+     "tag": "practice:storytelling",
+     "scope": "span",
+     "quotes": [
+      "וכעין ששמעתי מפי מוזל״ה סיפר לי"
+     ],
+     "confidence": 1,
+     "why": "the father tells his son about his experience",
+     "quotes_failed": false
+    },
+    {
+     "tag": "supernatural:miracle",
+     "scope": "span",
+     "quotes": [
+      "וידעתי כי מתת אלהים הוא מכת קדושת המקום"
+     ],
+     "confidence": 1,
+     "why": "a supernatural spiritual gift transmitted through the holy place",
+     "quotes_failed": false
+    }
+   ],
+   "missing_concepts": [
+    "sanctity of a place where tsaddikim prayed, conveying a lingering blessing or spiritual state",
+    "fear and love (yirah/ahavah) as successive spiritual states"
+   ],
+   "start_quote_found": true,
+   "end_quote_found": true
+  }
+ ],
+ "check": {
+  "non_vocab_tags": [],
+  "quotes": 12,
+  "quotes_not_found": 0
+ },
+ "id": "Derech-Haemuna_0222",
+ "chars": 805,
+ "seconds": 18
+}

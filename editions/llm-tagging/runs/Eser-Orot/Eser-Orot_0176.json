@@ -1,0 +1,98 @@
+{
+ "unit": {
+  "kind": "hasidic_story",
+  "why": "An anecdote of an encounter between the Berdichever and the Seer of Lublin about saying ruach ha-kodesh, with the son's follow-up question and the Seer's answer.",
+  "boundary_note": ""
+ },
+ "stories": [
+  {
+   "k": 1,
+   "start_quote": "פ\"א הי' הרה\"ק מבארדיטשוב אצל הרב מלובלין",
+   "end_quote": "שאגיד רוה״ק גם מכאן ולהלאה",
+   "hasidic": true,
+   "summary_en": "When the Berdichever visits him, he asks the Seer of Lublin to justify 'saying ruach ha-kodesh'. The Seer offers to stop if told to, and the Berdichever permits it. The Seer's son R. Yosef later asks how he could make his practice depend on the Berdichever. The Seer answers that he already knew through ruach ha-kodesh that the Berdichever would agree.",
+   "tags": [
+    {
+     "tag": "supernatural:perception",
+     "scope": "span",
+     "quotes": [
+      "הלא ידעתי ברוה״ק שיסכים עלי"
+     ],
+     "confidence": 3,
+     "why": "the Seer foreknew the Berdichever's consent through ruach ha-kodesh",
+     "quotes_failed": false
+    },
+    {
+     "tag": "supernatural:prognostication",
+     "scope": "span",
+     "quotes": [
+      "ידעתי ברוה״ק שיסכים עלי שאגיד רוה״ק"
+     ],
+     "confidence": 2,
+     "why": "he foreknew the outcome, and it happened",
+     "quotes_failed": false
+    },
+    {
+     "tag": "characters-and-roles:the_family_of_the_tsaddik",
+     "scope": "span",
+     "quotes": [
+      "שאל הרה״ק ר׳ יוסף ז\"ל את אביו הרבי מלובלין"
+     ],
+     "confidence": 3,
+     "why": "the Seer's son questions his father",
+     "quotes_failed": false
+    },
+    {
+     "tag": "practice:travel_to_other_tsaddik",
+     "scope": "span",
+     "quotes": [
+      "הי' הרה\"ק מבארדיטשוב אצל הרב מלובלין"
+     ],
+     "confidence": 2,
+     "why": "the Berdichever visits another tzaddik",
+     "quotes_failed": false
+    },
+    {
+     "tag": "ethics-and-emotions:humility",
+     "scope": "span",
+     "quotes": [
+      "אז איהר הייסט מיך נישט זאגין וועל איך נישט זאגין"
+     ],
+     "confidence": 2,
+     "why": "the Seer is willing to stop at the other tzaddik's word",
+     "quotes_failed": false
+    },
+    {
+     "tag": "social:inter_hasidic",
+     "scope": "story",
+     "quotes": [],
+     "confidence": 2,
+     "why": "an exchange between two tzaddikim",
+     "quotes_failed": false
+    },
+    {
+     "tag": "practice:torat_ha_tsaddik",
+     "scope": "story",
+     "quotes": [],
+     "confidence": 1,
+     "why": "whether a tzaddik may reveal ruach ha-kodesh",
+     "quotes_failed": false
+    }
+   ],
+   "missing_concepts": [
+    "legitimacy of publicly displaying ruach ha-kodesh / clairvoyance",
+    "one tzaddik's authority to sanction another's practice"
+   ],
+   "start_quote_found": true,
+   "end_quote_found": true
+  }
+ ],
+ "check": {
+  "non_vocab_tags": [],
+  "quotes": 5,
+  "quotes_not_found": 0
+ },
+ "id": "Eser-Orot_0176",
+ "chars": 497,
+ "seconds": 11
+}

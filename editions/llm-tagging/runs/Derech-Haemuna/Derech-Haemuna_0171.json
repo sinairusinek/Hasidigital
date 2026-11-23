@@ -1,0 +1,126 @@
+{
+ "unit": {
+  "kind": "hasidic_story",
+  "why": "An ethical teaching against young men smoking, which frames a short anecdote about R. Shalom of Belz giving up his pipe because it took time from Talmud study.",
+  "boundary_note": "The homiletic frame (rule ג) on smoking began in the previous division's heading. A brief halakhic report from Ksav Sofer about R. Mordechai Benet follows the anecdote."
+ },
+ "stories": [
+  {
+   "k": 1,
+   "start_quote": "ושמעתי איך שרבינו הק׳ מהר״ש מבעלז",
+   "end_quote": "צדיק מפורסם בכל העולם",
+   "hasidic": true,
+   "summary_en": "In his youth R. Shalom of Belz saw that he had studied a whole page of Gemara while a youth cleaned and filled his pipe, and he resolved never to smoke again so that the pipe would not take him away from Torah.",
+   "tags": [
+    {
+     "tag": "practice:smoking",
+     "scope": "story",
+     "quotes": [],
+     "confidence": 3,
+     "why": "The anecdote turns on the tsaddik's pipe smoking.",
+     "quotes_failed": false
+    },
+    {
+     "tag": "practice:study",
+     "scope": "span",
+     "quotes": [
+      "למד הרב מוהר״ש דף גמ׳",
+      "בהיותו עוסק בתורה בביהמ״ד"
+     ],
+     "confidence": 3,
+     "why": "Talmud study is the value he weighs against smoking.",
+     "quotes_failed": false
+    },
+    {
+     "tag": "spaces:beth_midrash",
+     "scope": "span",
+     "quotes": [
+      "בהיותו עוסק בתורה בביהמ״ד"
+     ],
+     "confidence": 3,
+     "why": "The scene takes place in the study hall.",
+     "quotes_failed": false
+    },
+    {
+     "tag": "ethics-and-emotions:resisting_temptation",
+     "scope": "span",
+     "quotes": [
+      "לא תבא עוד בפי ומאז והלאה לא לקח אותה מעולם"
+     ],
+     "confidence": 2,
+     "why": "He renounces a habitual pleasure.",
+     "quotes_failed": false
+    },
+    {
+     "tag": "practice:asceticism",
+     "scope": "span",
+     "quotes": [
+      "ומאז והלאה לא לקח אותה מעולם"
+     ],
+     "confidence": 1,
+     "why": "Self-denial of a pleasure for the sake of study.",
+     "quotes_failed": false
+    },
+    {
+     "tag": "folkloristics:story_type_virtues",
+     "scope": "story",
+     "quotes": [],
+     "confidence": 2,
+     "why": "Illustrates the tsaddik's devotion to study and his self-discipline.",
+     "quotes_failed": false
+    },
+    {
+     "tag": "not-a-hasidic-story:sermon",
+     "scope": "story",
+     "quotes": [],
+     "confidence": 3,
+     "why": "The anecdote sits inside an ethical-homiletic rule against smoking, with verse exegesis and halakhic citations.",
+     "quotes_failed": false
+    },
+    {
+     "tag": "not-a-hasidic-story:virtues",
+     "scope": "story",
+     "quotes": [],
+     "confidence": 2,
+     "why": "The text's declared purpose is moral instruction to young men.",
+     "quotes_failed": false
+    },
+    {
+     "tag": "ethics-and-emotions:pride",
+     "scope": "span",
+     "quotes": [
+      "כי כל הרואה יראה שזה כולו גאות"
+     ],
+     "confidence": 2,
+     "why": "The frame condemns smoking as arrogance.",
+     "quotes_failed": false
+    },
+    {
+     "tag": "practice:halakhah",
+     "scope": "span",
+     "quotes": [
+      "שתה תחלה מים ובירך על המים והתכוין על שתי׳ הטיטן"
+     ],
+     "confidence": 1,
+     "why": "The appended halakhic question of a blessing over tobacco (outside the core anecdote).",
+     "quotes_failed": false
+    }
+   ],
+   "missing_concepts": [
+    "smoking as a means to raise subtle sparks (incense, tikkun of nitzotzot)",
+    "waste of time (bittul Torah) as a moral concern",
+    "guidance on proper conduct for young men"
+   ],
+   "start_quote_found": true,
+   "end_quote_found": true
+  }
+ ],
+ "check": {
+  "non_vocab_tags": [],
+  "quotes": 7,
+  "quotes_not_found": 0
+ },
+ "id": "Derech-Haemuna_0171",
+ "chars": 1126,
+ "seconds": 17
+}

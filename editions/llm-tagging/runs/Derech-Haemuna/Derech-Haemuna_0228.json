@@ -1,0 +1,342 @@
+{
+ "unit": {
+  "kind": "non_hasidic_story",
+  "why": "A single, documented account of the 1696 Nikolsburg exorcism of a dybbuk from the youth Abraham by the kabbalist R. Moshe Prager under R. David Oppenheim. It is a pre-Hasidic narrative copied from Zera Kodesh and framed by an opening and closing praise of God.",
+  "boundary_note": "opening doxology 'מעשה ה׳ כי נורא הוא' precedes the narrative; division ends with source note '(הועתק מספר זרע קודש...)'"
+ },
+ "stories": [
+  {
+   "k": 1,
+   "start_quote": "הנה ידוע ומפורסם לקרובים ולרחוקים",
+   "end_quote": "נאום דוד הקטן אופנהיים החונה ק״ק נקלשפורג",
+   "hasidic": false,
+   "summary_en": "A youth possessed for six years by the spirit of a sinful Polish community leader is brought to Nikolsburg, where R. Moshe Prager, sent by R. David Oppenheim, uses adjurations, excommunications and shofar blasts to expel the spirit through the youth's toe and a window, then annuls the bans and protects the recovering boy.",
+   "tags": [
+    {
+     "tag": "not-a-hasidic-story:hagiography",
+     "scope": "story",
+     "quotes": [],
+     "confidence": 3,
+     "why": "praises the wonders of the pre-Hasidic kabbalist Moshe Prager; copied from Zera Kodesh",
+     "quotes_failed": false
+    },
+    {
+     "tag": "characters-and-roles:baal_shem",
+     "scope": "span",
+     "quotes": [
+      "שהמקובל אלהי החכם והשלם מהור״ר משה פרעגער"
+     ],
+     "confidence": 3,
+     "why": "non-Hasidic kabbalist exorcist and wonder-worker",
+     "quotes_failed": false
+    },
+    {
+     "tag": "characters-and-roles:demons",
+     "scope": "span",
+     "quotes": [
+      "אשר נכנס בו רוח תזזית רוח עועים",
+      "ראה ראיתי כמה אלפים ורבבות מלאכי חבלה"
+     ],
+     "confidence": 3,
+     "why": "possessing spirit and destroying agents",
+     "quotes_failed": false
+    },
+    {
+     "tag": "characters-and-roles:angels",
+     "scope": "span",
+     "quotes": [
+      "ראה ראיתי כמה אלפים ורבבות מלאכי חבלה"
+     ],
+     "confidence": 2,
+     "why": "angels of destruction pursue the spirit",
+     "quotes_failed": false
+    },
+    {
+     "tag": "knowledge:practical_kabbalah",
+     "scope": "span",
+     "quotes": [
+      "להשביע אותו בשמות קדושים"
+     ],
+     "confidence": 3,
+     "why": "exorcism by kabbalistic means",
+     "quotes_failed": false
+    },
+    {
+     "tag": "practice:use_of_holy_names",
+     "scope": "span",
+     "quotes": [
+      "להשביע אותו בשמות קדושים"
+     ],
+     "confidence": 3,
+     "why": "adjurations by holy names",
+     "quotes_failed": false
+    },
+    {
+     "tag": "knowledge:secret_texts",
+     "scope": "span",
+     "quotes": [
+      "מגילת ספר הנמצא בין כתבי קודש שלי"
+     ],
+     "confidence": 3,
+     "why": "Oppenheim hands over his manuscripts of adjurations",
+     "quotes_failed": false
+    },
+    {
+     "tag": "practice:writing_amulets",
+     "scope": "span",
+     "quotes": [
+      "תלה עליו קמיעות ושמות קדושים לשמור אותו"
+     ],
+     "confidence": 3,
+     "why": "protective amulets hung on the boy",
+     "quotes_failed": false
+    },
+    {
+     "tag": "practice:protection",
+     "scope": "span",
+     "quotes": [
+      "תלה עליו קמיעות ושמות קדושים לשמור אותו"
+     ],
+     "confidence": 2,
+     "why": "the boy is guarded from the spirit's return",
+     "quotes_failed": false
+    },
+    {
+     "tag": "social:excommunication",
+     "scope": "span",
+     "quotes": [
+      "ויתירו כל החרמות ונדויים ושמתות אשר נתנו על הרוח"
+     ],
+     "confidence": 3,
+     "why": "bans imposed on the spirit and its overseers, later annulled",
+     "quotes_failed": false
+    },
+    {
+     "tag": "social:conflict",
+     "scope": "span",
+     "quotes": [
+      "והשיב הרוח אני משחק בכם"
+     ],
+     "confidence": 3,
+     "why": "the kabbalist contends with a defiant spirit",
+     "quotes_failed": false
+    },
+    {
+     "tag": "practice:recitation_of_psalms",
+     "scope": "span",
+     "quotes": [
+      "ותיכף ומיד תעשה התחלה לומר תהלים עבורי ותאמר קדיש"
+     ],
+     "confidence": 3,
+     "why": "Psalms recited for the spirit",
+     "quotes_failed": false
+    },
+    {
+     "tag": "practice:prayer",
+     "scope": "span",
+     "quotes": [
+      "ונוסח התפלה יהיה כך רבש״ע אב הרחמים"
+     ],
+     "confidence": 3,
+     "why": "prayer text composed for the spirit",
+     "quotes_failed": false
+    },
+    {
+     "tag": "practice:healing_of_the_soul",
+     "scope": "span",
+     "quotes": [
+      "אזי אני מתקן אותך בתפלות וצדקות"
+     ],
+     "confidence": 3,
+     "why": "promised tikkun for the sinful spirit",
+     "quotes_failed": false
+    },
+    {
+     "tag": "practice:healing",
+     "scope": "span",
+     "quotes": [
+      "ותיכף ומיד נעשה הנער בריה חדשה"
+     ],
+     "confidence": 2,
+     "why": "the possessed boy is cured",
+     "quotes_failed": false
+    },
+    {
+     "tag": "practice:tefillin",
+     "scope": "span",
+     "quotes": [
+      "ועמד והתפלל והניח תפילין ואמר קדיש"
+     ],
+     "confidence": 2,
+     "why": "the freed boy puts on tefillin for the first time in six years",
+     "quotes_failed": false
+    },
+    {
+     "tag": "practice:fasting",
+     "scope": "span",
+     "quotes": [
+      "גם הב״ד גזרו תענית בק״ק נ״ש"
+     ],
+     "confidence": 2,
+     "why": "a fast decreed over the adjurations; a year of fasts promised",
+     "quotes_failed": false
+    },
+    {
+     "tag": "practice:study",
+     "scope": "span",
+     "quotes": [
+      "והיו עוסקים בלימוד בספר הזוהר אחר חצות"
+     ],
+     "confidence": 2,
+     "why": "Zohar study at the boy's bedside",
+     "quotes_failed": false
+    },
+    {
+     "tag": "spaces:beth_midrash",
+     "scope": "span",
+     "quotes": [
+      "וצוו האלופים והקצינים לשכב מטתו בבית המדרש דוקא"
+     ],
+     "confidence": 2,
+     "why": "the boy's sickbed scene is set in the study hall",
+     "quotes_failed": false
+    },
+    {
+     "tag": "spaces:rabbinical_court",
+     "scope": "span",
+     "quotes": [],
+     "confidence": 1,
+     "why": "the beit din convenes to conduct the adjurations",
+     "quotes_failed": false
+    },
+    {
+     "tag": "supernatural:communicating_with_the_invisible",
+     "scope": "span",
+     "quotes": [
+      "ודברו עמו פה על פה ממש כמדבר איש אל רעהו"
+     ],
+     "confidence": 3,
+     "why": "dialogue with the spirit",
+     "quotes_failed": false
+    },
+    {
+     "tag": "supernatural:miracle",
+     "scope": "span",
+     "quotes": [
+      "ונעשה חור עגול כמו דינר בחלון"
+     ],
+     "confidence": 2,
+     "why": "the spirit's visible exit as a sign",
+     "quotes_failed": false
+    },
+    {
+     "tag": "experience:visions",
+     "scope": "span",
+     "quotes": [
+      "הרוח עומד לנגדי ואבן של רחיים על כתפו"
+     ],
+     "confidence": 2,
+     "why": "the boy and the Jerusalem guest see the spirit while awake",
+     "quotes_failed": false
+    },
+    {
+     "tag": "ethics-and-emotions:punishment",
+     "scope": "span",
+     "quotes": [
+      "מקדם היה דנין אותו ע״י המחבלים ד׳ פעמים ביום"
+     ],
+     "confidence": 3,
+     "why": "the sinner's soul is punished after death",
+     "quotes_failed": false
+    },
+    {
+     "tag": "ethics-and-emotions:fear",
+     "scope": "span",
+     "quotes": [
+      "וחרדה ורעדה ופחד גדולה נפלה עליהם"
+     ],
+     "confidence": 2,
+     "why": "the household is terrified",
+     "quotes_failed": false
+    },
+    {
+     "tag": "experience:trembling",
+     "scope": "span",
+     "quotes": [
+      "עמד מרעיד ואמר מי יתן"
+     ],
+     "confidence": 1,
+     "why": "Oppenheim trembles at the sight",
+     "quotes_failed": false
+    },
+    {
+     "tag": "social:relations_with_non_jews",
+     "scope": "span",
+     "quotes": [
+      "התאספו שם עם עצום ורב יהודים וערלים וגם איזה מושלים"
+     ],
+     "confidence": 2,
+     "why": "gentile spectators; concern about desecrating God's name before them",
+     "quotes_failed": false
+    },
+    {
+     "tag": "times:shabbat",
+     "scope": "span",
+     "quotes": [
+      "ובשבת קודש מיצר ומענה אותו בעינויים קשים"
+     ],
+     "confidence": 2,
+     "why": "the spirit torments the boy on Shabbat; first peaceful Shabbat after the adjuration",
+     "quotes_failed": false
+    },
+    {
+     "tag": "times:historical_event",
+     "scope": "span",
+     "quotes": [
+      "אחר שריפת ק״ק פראג"
+     ],
+     "confidence": 1,
+     "why": "the Prague fire as background; dated 1696 events",
+     "quotes_failed": false
+    },
+    {
+     "tag": "ethics-and-emotions:joy",
+     "scope": "span",
+     "quotes": [
+      "זלגו עיניהם דמעות מרוב שמחה"
+     ],
+     "confidence": 1,
+     "why": "the onlookers' joy at the boy's recovery",
+     "quotes_failed": false
+    },
+    {
+     "tag": "women:mention_only",
+     "scope": "span",
+     "quotes": [
+      "ואמי היתה נקראת בשמה בילא"
+     ],
+     "confidence": 2,
+     "why": "the spirit's mother is named and blamed but does not act",
+     "quotes_failed": false
+    }
+   ],
+   "missing_concepts": [
+    "dybbuk possession and exorcism",
+    "kaddish and mourning rites for a wandering soul",
+    "shofar blowing in exorcism",
+    "the spirit's confession (vidui)",
+    "annulment of bans (hatarat herem)"
+   ],
+   "start_quote_found": true,
+   "end_quote_found": true
+  }
+ ],
+ "check": {
+  "non_vocab_tags": [],
+  "quotes": 31,
+  "quotes_not_found": 1
+ },
+ "id": "Derech-Haemuna_0228",
+ "chars": 21110,
+ "seconds": 51
+}

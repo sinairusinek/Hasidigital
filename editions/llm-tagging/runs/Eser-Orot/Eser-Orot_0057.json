@@ -1,0 +1,92 @@
+{
+ "unit": {
+  "kind": "hasidic_story",
+  "why": "An anecdote about R. Levi Yitzhak of Berdichev at the table of R. Barukh of Medzhybizh: in fervour he leaps onto the table and breaks all the glasses.",
+  "boundary_note": "Division ends with a one-sentence stub about a Passover visit to the tsaddik of Kalov (a separate table set for him), too brief to count as its own story; it continues the series of numbered anecdotes about the Berdichever."
+ },
+ "stories": [
+  {
+   "k": 1,
+   "start_quote": "פ\"א הי' אצל הרה״ק רבי ר' ברוך ממעזבוז",
+   "end_quote": "וערכו לו השלחן וסדר בפני עצמו",
+   "hasidic": true,
+   "summary_en": "Visiting the fastidious R. Barukh of Medzhybizh, the Berdichever offers to sit across from him so his gestures will not disturb him; at the blessing over bread he is seized by fervour, leaps onto the table and smashes all the glasses and the bottle. A coda says that in Kalov at Passover a separate table was set for him.",
+   "tags": [
+    {
+     "tag": "experience:enthusiasm",
+     "scope": "span",
+     "quotes": [
+      "נתלהב הרב מבארדיטשוב וקפץ על השלחן"
+     ],
+     "confidence": 3,
+     "why": "His ecstatic fervour at the blessing is the climax of the story.",
+     "quotes_failed": false
+    },
+    {
+     "tag": "practice:devekut",
+     "scope": "span",
+     "quotes": [
+      "וכאשר ברכו ברכת המוציא נתלהב הרב מבארדיטשוב"
+     ],
+     "confidence": 2,
+     "why": "Rapt ecstatic worship at the table.",
+     "quotes_failed": false
+    },
+    {
+     "tag": "practice:travel_to_other_tsaddik",
+     "scope": "span",
+     "quotes": [
+      "פ\"א הי' אצל הרה״ק רבי ר' ברוך ממעזבוז",
+      "הי' בפסח בקאלוב אצל הרה״ק מקאהלוב"
+     ],
+     "confidence": 2,
+     "why": "A tsaddik is staying with other tsaddikim.",
+     "quotes_failed": false
+    },
+    {
+     "tag": "social:inter_hasidic",
+     "scope": "story",
+     "quotes": [],
+     "confidence": 3,
+     "why": "The story turns on the interaction between two tsaddikim at a shared table.",
+     "quotes_failed": false
+    },
+    {
+     "tag": "ethics-and-emotions:virtues",
+     "scope": "span",
+     "quotes": [
+      "כדי איך זאל אייך נישט דערקיטשען מיט מיינע תנועות"
+     ],
+     "confidence": 1,
+     "why": "He considerately anticipates his host's sensitivity.",
+     "quotes_failed": false
+    },
+    {
+     "tag": "times:holidays",
+     "scope": "span",
+     "quotes": [
+      "ופ\"א הי' בפסח בקאלוב"
+     ],
+     "confidence": 1,
+     "why": "The coda is set on Passover.",
+     "quotes_failed": false
+    }
+   ],
+   "missing_concepts": [
+    "the tsaddik's ecstatic bodily movements (tenu'ot) disrupting others",
+    "a fastidious, irritable (kapdan) host tsaddik",
+    "seating arrangement and table etiquette at a tsaddik's meal"
+   ],
+   "start_quote_found": true,
+   "end_quote_found": true
+  }
+ ],
+ "check": {
+  "non_vocab_tags": [],
+  "quotes": 6,
+  "quotes_not_found": 0
+ },
+ "id": "Eser-Orot_0057",
+ "chars": 581,
+ "seconds": 18
+}

@@ -1,0 +1,95 @@
+{
+ "unit": {
+  "kind": "hasidic_story",
+  "why": "A short anecdote: a tsaddik's habitual melody 'bam bam' is mocked by a mitnaged, who later imitates it, and the tsaddik answers him with a verse.",
+  "boundary_note": ""
+ },
+ "stories": [
+  {
+   "k": 1,
+   "start_quote": "ראיתי בס׳ ד״ע משמו שהי׳ מרגלא",
+   "end_quote": "ומעתה מי שירצה לדבר ידבר",
+   "hasidic": true,
+   "summary_en": "A mitnaged mocks the tsaddik's habitual tune 'bam bam'. The tsaddik justifies it with 've-dibarta bam'. When the mitnaged later imitates the tune, the tsaddik retorts with 'the righteous walk in them and transgressors stumble in them', since all depends on intention.",
+   "tags": [
+    {
+     "tag": "social:relations_with_non_hasidim",
+     "scope": "span",
+     "quotes": [
+      "ומתנגד א' שחק מאתו"
+     ],
+     "confidence": 3,
+     "why": "exchange with a mitnaged",
+     "quotes_failed": false
+    },
+    {
+     "tag": "social:conflict",
+     "scope": "span",
+     "quotes": [
+      "ושאלו הרה״ק למה תשחק ממני"
+     ],
+     "confidence": 2,
+     "why": "mockery and rebuttal",
+     "quotes_failed": false
+    },
+    {
+     "tag": "practice:music",
+     "scope": "span",
+     "quotes": [
+      "שהי׳ מרגלא בפומי' תנועת בָם בָם",
+      "זימר ג״כ לעצמו כתנועה זאת"
+     ],
+     "confidence": 3,
+     "why": "the tsaddik's habitual melody",
+     "quotes_failed": false
+    },
+    {
+     "tag": "practice:joke",
+     "scope": "span",
+     "quotes": [
+      "יָא יָא עס שטייט אבער צדיקים ילכו בם"
+     ],
+     "confidence": 2,
+     "why": "witty retort",
+     "quotes_failed": false
+    },
+    {
+     "tag": "practice:sermon",
+     "scope": "span",
+     "quotes": [
+      "הלא כן כתיב בתוה״ק ודברת בם",
+      "צדיקים ילכו בם ופושעים יכשלו בם"
+     ],
+     "confidence": 2,
+     "why": "verse exegesis as answer",
+     "quotes_failed": false
+    },
+    {
+     "tag": "ethics-and-emotions:shame",
+     "scope": "span",
+     "quotes": [
+      "ומעתה מי שירצה לדבר ידבר"
+     ],
+     "confidence": 1,
+     "why": "the mocker is put to shame by the retort",
+     "quotes_failed": false
+    }
+   ],
+   "missing_concepts": [
+    "mockery / ridicule of a tsaddik",
+    "importance of intention (kavvanah) in a non-kabbalistic sense",
+    "citation from an earlier book (ס׳ ד״ע)"
+   ],
+   "start_quote_found": true,
+   "end_quote_found": true
+  }
+ ],
+ "check": {
+  "non_vocab_tags": [],
+  "quotes": 8,
+  "quotes_not_found": 0
+ },
+ "id": "Eser-Orot_0309",
+ "chars": 428,
+ "seconds": 10
+}

@@ -1,0 +1,79 @@
+{
+ "unit": {
+  "kind": "non_hasidic_story",
+  "why": "A brief anecdote, quoted from an earlier book, about the pre-Hasidic Shelah taking leave of his teacher the Rashal before his wedding and receiving a blessing to keep holiness in eating and in marital relations.",
+  "boundary_note": "Part of a thematic section 'מענין אכילה' that begins at the end of the previous division and continues as homiletic teaching in the next division."
+ },
+ "stories": [
+  {
+   "k": 1,
+   "start_quote": "השל\"ה היה מתלמידי הרש״ל ולמד אצלו",
+   "end_quote": "בכל עניניך תהל עליך אור",
+   "hasidic": false,
+   "summary_en": "Before his wedding the Shelah, a leading disciple of the Rashal, comes to take leave of his teacher, who blesses him to be careful in the holiness of eating and of marital union, so that light will shine on all his affairs.",
+   "tags": [
+    {
+     "tag": "not-a-hasidic-story:hagiography",
+     "scope": "story",
+     "quotes": [],
+     "confidence": 2,
+     "why": "Laudatory anecdote about pre-Hasidic sages (Rashal, Shelah), taken from an earlier book",
+     "quotes_failed": false
+    },
+    {
+     "tag": "not-a-hasidic-story:virtues",
+     "scope": "story",
+     "quotes": [],
+     "confidence": 2,
+     "why": "Placed in a thematic section on eating as instruction in the holiness of eating and marital relations",
+     "quotes_failed": false
+    },
+    {
+     "tag": "social:marriage",
+     "scope": "span",
+     "quotes": [
+      "וכאשר נעשה חתן והגיע עתו להיות נכנס לחופה"
+     ],
+     "confidence": 3,
+     "why": "The leave-taking happens just before the Shelah's wedding",
+     "quotes_failed": false
+    },
+    {
+     "tag": "social:marital_relationship",
+     "scope": "span",
+     "quotes": [
+      "ובק׳ הזיוווג"
+     ],
+     "confidence": 1,
+     "why": "The blessing concerns holiness in marital union",
+     "quotes_failed": false
+    },
+    {
+     "tag": "ethics-and-emotions:virtues",
+     "scope": "span",
+     "quotes": [
+      "שתהיה נזהר באלו השני דברים שאצוך"
+     ],
+     "confidence": 2,
+     "why": "The teacher urges carefulness in eating and in marital union",
+     "quotes_failed": false
+    }
+   ],
+   "missing_concepts": [
+    "sanctity of eating (kedushat ha-akhilah)",
+    "teacher's parting blessing to a disciple",
+    "pre-Hasidic rabbinic master-disciple relationship"
+   ],
+   "start_quote_found": true,
+   "end_quote_found": true
+  }
+ ],
+ "check": {
+  "non_vocab_tags": [],
+  "quotes": 3,
+  "quotes_not_found": 0
+ },
+ "id": "Derech-Haemuna_0010",
+ "chars": 272,
+ "seconds": 14
+}

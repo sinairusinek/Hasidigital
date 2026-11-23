@@ -1,0 +1,139 @@
+{
+ "unit": {
+  "kind": "non_hasidic_story",
+  "why": "A halakhic-homiletic passage on tefillin that contains a short legend about a disciple of the Ari who appeared to him in a dream after death; it ends with a gematria explanation.",
+  "boundary_note": "the passage continues a sequence of tefillin teachings ('מענין תפילין') from the previous division"
+ },
+ "stories": [
+  {
+   "k": 1,
+   "start_quote": "מעשה בתלמיד א׳ ותיק של הק׳ אר״י",
+   "end_quote": "הסחתי דעתי אז מן התפילין",
+   "hasidic": false,
+   "summary_en": "A pious disciple of the Ari appears to him in a dream after his death. He reports that his state in the world to come is very good, but he was judged strictly for one thing: while concentrating intensely on 'ולמען לא ניגע לריק' in the Kedusha de-Sidra, he let his mind stray from his tefillin.",
+   "tags": [
+    {
+     "tag": "not-a-hasidic-story:hagiography",
+     "scope": "story",
+     "quotes": [],
+     "confidence": 2,
+     "why": "Legend about the Ari and his circle, a pre-Hasidic kabbalist",
+     "quotes_failed": false
+    },
+    {
+     "tag": "not-a-hasidic-story:sermon",
+     "scope": "story",
+     "quotes": [],
+     "confidence": 3,
+     "why": "The narrative sits inside a halakhic-homiletic frame with a gematria explanation",
+     "quotes_failed": false
+    },
+    {
+     "tag": "experience:dream",
+     "scope": "span",
+     "quotes": [
+      "ראה אותו בחלום אר״י ז״ל"
+     ],
+     "confidence": 3,
+     "why": "The dead disciple appears to the Ari in a dream",
+     "quotes_failed": false
+    },
+    {
+     "tag": "supernatural:communicating_with_the_invisible",
+     "scope": "span",
+     "quotes": [
+      "שאל לו על מעמדו בעה״ב"
+     ],
+     "confidence": 2,
+     "why": "The Ari converses with the soul of the dead disciple",
+     "quotes_failed": false
+    },
+    {
+     "tag": "times:death",
+     "scope": "span",
+     "quotes": [
+      "שנפטר והלך לעולמו"
+     ],
+     "confidence": 2,
+     "why": "The disciple's death opens the story",
+     "quotes_failed": false
+    },
+    {
+     "tag": "practice:tefillin",
+     "scope": "span",
+     "quotes": [
+      "הסחתי דעתי אז מן התפילין"
+     ],
+     "confidence": 3,
+     "why": "Distraction from the tefillin is the sin he was judged for",
+     "quotes_failed": false
+    },
+    {
+     "tag": "practice:prayer",
+     "scope": "span",
+     "quotes": [
+      "כשהייתי מגיע לקדושה דסדרא לבסוף"
+     ],
+     "confidence": 3,
+     "why": "The scene is liturgical prayer",
+     "quotes_failed": false
+    },
+    {
+     "tag": "kabbalah:kabbalistic_terms_kavvanot",
+     "scope": "span",
+     "quotes": [
+      "הייתי מכוין שם ביותר כי תפלה עצומה"
+     ],
+     "confidence": 2,
+     "why": "His intense mystical intention on a specific phrase of the prayer",
+     "quotes_failed": false
+    },
+    {
+     "tag": "practice:meditation",
+     "scope": "span",
+     "quotes": [
+      "ומחמת הכיון הגדול הסחתי דעתי"
+     ],
+     "confidence": 1,
+     "why": "Deep contemplative concentration in prayer",
+     "quotes_failed": false
+    },
+    {
+     "tag": "ethics-and-emotions:punishment",
+     "scope": "span",
+     "quotes": [
+      "בשביל דבר אחד דקדקו עמי קצת"
+     ],
+     "confidence": 2,
+     "why": "He was judged strictly in heaven for a minor lapse",
+     "quotes_failed": false
+    },
+    {
+     "tag": "times:eschatology",
+     "scope": "span",
+     "quotes": [
+      "שאל לו על מעמדו בעה״ב"
+     ],
+     "confidence": 1,
+     "why": "His standing in the world to come is the subject of the conversation",
+     "quotes_failed": false
+    }
+   ],
+   "missing_concepts": [
+    "afterlife judgment of the dead reported by the deceased",
+    "gematria",
+    "the requirement to keep mindful of the tefillin while wearing them (hesech ha-da'at)"
+   ],
+   "start_quote_found": true,
+   "end_quote_found": true
+  }
+ ],
+ "check": {
+  "non_vocab_tags": [],
+  "quotes": 9,
+  "quotes_not_found": 0
+ },
+ "id": "Derech-Haemuna_0213",
+ "chars": 660,
+ "seconds": 17
+}

@@ -1,0 +1,110 @@
+{
+ "unit": {
+  "kind": "hasidic_story",
+  "why": "split out of non-story-003 (non-story)"
+ },
+ "stories": [
+  {
+   "k": 6,
+   "start_quote": "בש״ס בבלי מס׳ תענית (דף כ\"ה ע\"א) ברחב\"ד",
+   "end_quote": "אבל אין לוקחים ממנו בחזרה",
+   "hasidic": false,
+   "summary_en": "At his poor wife's urging, R. Hanina ben Dosa receives a golden table leg from heaven; after her dream of the world to come he prays for it to be taken back.",
+   "tags": [
+    {
+     "tag": "supernatural:miracle",
+     "scope": "span",
+     "quotes": [
+      "ונתנו לו רגל אחד מן שלחן זהב"
+     ],
+     "confidence": 3,
+     "why": "gift from heaven",
+     "quotes_failed": false
+    },
+    {
+     "tag": "social:poverty",
+     "scope": "span",
+     "quotes": [
+      "מגודל העוני והמחסור שהי' בביתו"
+     ],
+     "confidence": 2,
+     "why": "accepted poverty",
+     "quotes_failed": false
+    },
+    {
+     "tag": "experience:dream",
+     "scope": "span",
+     "quotes": [
+      "אח\"כ ראתה אשתו בחלומה"
+     ],
+     "confidence": 3,
+     "why": "wife's dream",
+     "quotes_failed": false
+    },
+    {
+     "tag": "times:eschatology",
+     "scope": "span",
+     "quotes": [
+      "שעתידין צדיקים לאכול על שלחן זהב"
+     ],
+     "confidence": 2,
+     "why": "world to come",
+     "quotes_failed": false
+    },
+    {
+     "tag": "social:marital_relationship",
+     "scope": "span",
+     "quotes": [
+      "ואמרה לו אשתו עד אימתי נסבול"
+     ],
+     "confidence": 3,
+     "why": "husband and wife",
+     "quotes_failed": false
+    },
+    {
+     "tag": "women:major_character",
+     "scope": "span",
+     "quotes": [
+      "ואמרה לו אשתו עד אימתי נסבול"
+     ],
+     "confidence": 3,
+     "why": "wife drives the plot",
+     "quotes_failed": false
+    },
+    {
+     "tag": "characters-and-roles:the_family_of_the_tsaddik",
+     "scope": "span",
+     "quotes": [
+      "ואמרה לו אשתו"
+     ],
+     "confidence": 2,
+     "why": "wife",
+     "quotes_failed": false
+    },
+    {
+     "tag": "practice:prayer",
+     "scope": "span",
+     "quotes": [
+      "ביקש רחמים ולקחו מאתו בחזרה"
+     ],
+     "confidence": 2,
+     "why": "petitionary prayer",
+     "quotes_failed": false
+    },
+    {
+     "tag": "not-a-hasidic-story:hagiography",
+     "scope": "story",
+     "quotes": [],
+     "confidence": 3,
+     "why": "talmudic",
+     "quotes_failed": false
+    }
+   ],
+   "missing_concepts": [],
+   "start_quote_found": true,
+   "end_quote_found": true
+  }
+ ],
+ "id": "Eser-Orot_non-story-003_s6",
+ "split_from": "non-story-003"
+}

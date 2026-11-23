@@ -1,0 +1,102 @@
+{
+ "unit": {
+  "kind": "hasidic_story",
+  "why": "A short anecdote, cited from another book (ס״מ), tells how the Besht saw a man desecrate the Sabbath, examined himself, and found his own fault.",
+  "boundary_note": "The closing words 'מענין חלישות דעת' are a heading for the next division. The division repeats, in a parallel version, the story quoted at the end of the previous division."
+ },
+ "stories": [
+  {
+   "k": 1,
+   "start_quote": "שמעתי שראה הבעש״ט חילול שבת מאדם",
+   "end_quote": "הת״ח נק׳ שבת כמבואר בזוהר",
+   "hasidic": true,
+   "summary_en": "The Besht sees a man desecrating the Sabbath, examines himself at his disciples' question, and realizes that Heaven showed it to him because he had heard a scholar disparaged and kept silent, since a scholar is called 'Sabbath'.",
+   "tags": [
+    {
+     "tag": "supernatural:perception",
+     "scope": "span",
+     "quotes": [
+      "שהראוהו מן השמים חילול שבת"
+     ],
+     "confidence": 2,
+     "why": "Heaven showed him a sign that mirrored his own fault.",
+     "quotes_failed": false
+    },
+    {
+     "tag": "ethics-and-emotions:prohibitions",
+     "scope": "span",
+     "quotes": [
+      "ראה הבעש״ט חילול שבת מאדם",
+      "ששמע מקרוב זילותא דת״ח ושתק"
+     ],
+     "confidence": 2,
+     "why": "The story turns on Sabbath desecration and on the sin of tolerating contempt for a scholar.",
+     "quotes_failed": false
+    },
+    {
+     "tag": "ethics-and-emotions:repentance",
+     "scope": "span",
+     "quotes": [
+      "שהתישב איזה חילול שבת יש בידו"
+     ],
+     "confidence": 1,
+     "why": "The Besht examines his own conduct to find the sin.",
+     "quotes_failed": false
+    },
+    {
+     "tag": "social:inter_hasidic_master_disciple_relationship",
+     "scope": "span",
+     "quotes": [
+      "שאלוהו תלמידיו מה זה והשיב"
+     ],
+     "confidence": 1,
+     "why": "His disciples question him and he explains.",
+     "quotes_failed": false
+    },
+    {
+     "tag": "social:retrospective_recognition",
+     "scope": "span",
+     "quotes": [
+      "עד שנז׳ ששמע מקרוב זילותא דת״ח ושתק"
+     ],
+     "confidence": 2,
+     "why": "He realizes the hidden meaning of what he saw.",
+     "quotes_failed": false
+    },
+    {
+     "tag": "practice:sermon",
+     "scope": "span",
+     "quotes": [
+      "כי הת״ח נק׳ שבת כמבואר בזוהר"
+     ],
+     "confidence": 1,
+     "why": "A short Zohar-based explanation closes the story.",
+     "quotes_failed": false
+    },
+    {
+     "tag": "ethics-and-emotions:virtues",
+     "scope": "story",
+     "quotes": [],
+     "confidence": 1,
+     "why": "The tale teaches the duty to defend a scholar's honour.",
+     "quotes_failed": false
+    }
+   ],
+   "missing_concepts": [
+    "honour of Torah scholars (כבוד תלמידי חכמים)",
+    "mirror principle: a sin seen in another reflects one's own",
+    "self-examination (חשבון הנפש)"
+   ],
+   "start_quote_found": true,
+   "end_quote_found": true
+  }
+ ],
+ "check": {
+  "non_vocab_tags": [],
+  "quotes": 7,
+  "quotes_not_found": 0
+ },
+ "id": "Derech-Haemuna_0105",
+ "chars": 244,
+ "seconds": 14
+}

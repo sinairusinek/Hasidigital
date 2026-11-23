@@ -1,0 +1,91 @@
+{
+ "unit": {
+  "kind": "hasidic_story",
+  "why": "A brief memorate: the master spoke with R. Reuven about R. Michel of Zlotchov's habit of being in Gan Eden, told stories about it, and then revealed that he himself had the same level.",
+  "boundary_note": ""
+ },
+ "stories": [
+  {
+   "k": 1,
+   "start_quote": "עד שמעתי מהחסיד המפורסם ר׳ ראובן",
+   "end_quote": "מדרגה זו להיות בג״ע",
+   "hasidic": true,
+   "summary_en": "The master once told R. Reuven of Zelichów stories about R. Michel of Zlotchov, who used to ascend to Gan Eden, and then revealed that he too had this spiritual level.",
+   "tags": [
+    {
+     "tag": "experience:journey_to_heaven",
+     "scope": "span",
+     "quotes": [
+      "אשר היה רגיל להיות בג״ע",
+      "גם הוא יש לו מדרגה זו להיות בג״ע"
+     ],
+     "confidence": 3,
+     "why": "habitual ascent to Gan Eden by R. Michel and by the master",
+     "quotes_failed": false
+    },
+    {
+     "tag": "spaces:heaven",
+     "scope": "span",
+     "quotes": [
+      "אשר היה רגיל להיות בג״ע"
+     ],
+     "confidence": 2,
+     "why": "Gan Eden as a place the tzaddikim reach",
+     "quotes_failed": false
+    },
+    {
+     "tag": "practice:storytelling",
+     "scope": "span",
+     "quotes": [
+      "וסיפר כמה מעשיות מזה"
+     ],
+     "confidence": 3,
+     "why": "the master tells stories about another tzaddik",
+     "quotes_failed": false
+    },
+    {
+     "tag": "folkloristics:story_type_revelation",
+     "scope": "span",
+     "quotes": [
+      "ואז גילה אליו שגם הוא יש לו"
+     ],
+     "confidence": 2,
+     "why": "the master discloses his own hidden spiritual level",
+     "quotes_failed": false
+    },
+    {
+     "tag": "social:inter_hasidic_master_disciple_relationship",
+     "scope": "span",
+     "quotes": [
+      "אשר פ״א דיבר מרן ז״ל עמו"
+     ],
+     "confidence": 2,
+     "why": "an intimate disclosure from the master to his hasid",
+     "quotes_failed": false
+    },
+    {
+     "tag": "practice:torat_ha_tsaddik",
+     "scope": "story",
+     "quotes": [],
+     "confidence": 1,
+     "why": "the exalted spiritual stature of the tzaddik is the theme",
+     "quotes_failed": false
+    }
+   ],
+   "missing_concepts": [
+    "chain of oral transmission (שמעתי מ...)",
+    "a tzaddik's spiritual level (מדרגה)"
+   ],
+   "start_quote_found": true,
+   "end_quote_found": true
+  }
+ ],
+ "check": {
+  "non_vocab_tags": [],
+  "quotes": 6,
+  "quotes_not_found": 0
+ },
+ "id": "Toldot-Haniflaot_0069",
+ "chars": 193,
+ "seconds": 13
+}

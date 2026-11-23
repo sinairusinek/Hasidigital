@@ -1,0 +1,175 @@
+{
+ "unit": {
+  "kind": "hasidic_story",
+  "why": "A teaching by R. Asher of Karlin on immersion in the mikveh that contains a short narrative: the Maggid of Kozhnitz's son falls dangerously ill, and the Berditchever immerses to change the father's intention in prayer.",
+  "boundary_note": "narrative embedded in an extended homiletic frame on mikveh"
+ },
+ "stories": [
+  {
+   "k": 1,
+   "start_quote": "ובס׳ ב״א (בלקוטים) וז״ל אמר הרה״ק",
+   "end_quote": "ועי׳ לעיל באות מקוה) :",
+   "hasidic": true,
+   "summary_en": "R. Asher of Karlin teaches that immersion in a mikveh lets one unite another's mind with one's own, and tells how, when the young son of the Maggid of Kozhnitz was gravely ill and the father resolved to pray joyfully without thinking of him, the Berditchever sensed this and immersed to change the Maggid's intention so that he would pray for the child's recovery, which sweetened the judgments over all Jewish children; further sayings on mikveh follow.",
+   "tags": [
+    {
+     "tag": "practice:tvilah",
+     "scope": "span",
+     "quotes": [
+      "והלך לטבול במקוה ואמר שפעל בטבלתו",
+      "שע״י טבילה במקוה יוכל האדם לייחד"
+     ],
+     "confidence": 3,
+     "why": "the Berditchever's immersion is the means of the story's effect",
+     "quotes_failed": false
+    },
+    {
+     "tag": "spaces:mikveh",
+     "scope": "span",
+     "quotes": [
+      "והלך לטבול במקוה"
+     ],
+     "confidence": 2,
+     "why": "the key act takes place in the mikveh",
+     "quotes_failed": false
+    },
+    {
+     "tag": "characters-and-roles:the_family_of_the_tsaddik",
+     "scope": "span",
+     "quotes": [
+      "בנו של הרה״ק המגיד מקאזניץ בהיותו ילד קטן"
+     ],
+     "confidence": 3,
+     "why": "the Maggid's young son is the sick child",
+     "quotes_failed": false
+    },
+    {
+     "tag": "practice:prayer",
+     "scope": "span",
+     "quotes": [
+      "ובהגיע זמן התפלה גמר בדעתו",
+      "שיתפלל דוקא על רפואת בנו הילד"
+     ],
+     "confidence": 3,
+     "why": "the plot turns on the intention of the father's prayer",
+     "quotes_failed": false
+    },
+    {
+     "tag": "practice:healing",
+     "scope": "span",
+     "quotes": [
+      "וייאשו אותו הרופאים",
+      "שיתפלל דוקא על רפואת בנו הילד"
+     ],
+     "confidence": 2,
+     "why": "the doctors had given up on the child and prayer for his recovery follows; the cure is implied",
+     "quotes_failed": false
+    },
+    {
+     "tag": "supernatural:perception",
+     "scope": "span",
+     "quotes": [
+      "והרגיש בדבר הרה״ק מבארדיטשוב זצוקלל״ה"
+     ],
+     "confidence": 3,
+     "why": "the Berditchever senses the Maggid's inner decision from afar",
+     "quotes_failed": false
+    },
+    {
+     "tag": "ethics-and-emotions:sadness",
+     "scope": "span",
+     "quotes": [
+      "והיה אביו הרה״ק שרוי בצער גדול"
+     ],
+     "confidence": 2,
+     "why": "the father's grief, which he tries to set aside",
+     "quotes_failed": false
+    },
+    {
+     "tag": "ethics-and-emotions:joy",
+     "scope": "span",
+     "quotes": [
+      "עבור תיבה אחת מהתפלה שתהיה בשמחה"
+     ],
+     "confidence": 2,
+     "why": "the Maggid's wish to pray in joy",
+     "quotes_failed": false
+    },
+    {
+     "tag": "practice:torat_ha_tsaddik",
+     "scope": "span",
+     "quotes": [
+      "שע״י ששינה דעתו להתפלל על הרפואה הי' המתקת דינים מעל כלל ילדי ישראל"
+     ],
+     "confidence": 2,
+     "why": "the tzaddik's power to act on another's mind and sweeten judgments for all",
+     "quotes_failed": false
+    },
+    {
+     "tag": "practice:storytelling",
+     "scope": "span",
+     "quotes": [
+      "וסיפר שפ״א נחלה הרה״ק ר׳ משה זצוק״ל"
+     ],
+     "confidence": 2,
+     "why": "R. Asher of Karlin tells the tale as part of his discourse",
+     "quotes_failed": false
+    },
+    {
+     "tag": "practice:sermon",
+     "scope": "span",
+     "quotes": [
+      "כי׳ הפ׳ בזע״ם תצעד ארץ זעם ר״ת זביחה עירובין מקוואות",
+      "ותשלך את הילד תחת אחד השיחים שיח לשון תפלה"
+     ],
+     "confidence": 3,
+     "why": "exegesis of verses inside the narrative and its frame",
+     "quotes_failed": false
+    },
+    {
+     "tag": "not-a-hasidic-story:sermon",
+     "scope": "story",
+     "quotes": [],
+     "confidence": 2,
+     "why": "a short narrative wrapped in an extended homiletic discourse on mikveh",
+     "quotes_failed": false
+    },
+    {
+     "tag": "practice:recitation_of_psalms",
+     "scope": "span",
+     "quotes": [
+      "שהיה אומר תהלים בהיותו במקוה"
+     ],
+     "confidence": 1,
+     "why": "the Besht's custom, reported in the frame",
+     "quotes_failed": false
+    },
+    {
+     "tag": "social:inter_hasidic",
+     "scope": "span",
+     "quotes": [
+      "לשנות דעת הרה״ק אבי הילד הנ״ל"
+     ],
+     "confidence": 2,
+     "why": "one tzaddik intervenes in another's spiritual act",
+     "quotes_failed": false
+    }
+   ],
+   "missing_concepts": [
+    "unification of minds between people (ייחוד דעת חבירו) through ritual",
+    "sweetening of judgments (המתקת דינים)",
+    "prophecy outside the Land of Israel near water"
+   ],
+   "start_quote_found": true,
+   "end_quote_found": true
+  }
+ ],
+ "check": {
+  "non_vocab_tags": [],
+  "quotes": 17,
+  "quotes_not_found": 0
+ },
+ "id": "Derech-Haemuna_0227",
+ "chars": 1461,
+ "seconds": 24
+}

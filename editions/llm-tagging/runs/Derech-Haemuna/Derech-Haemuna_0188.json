@@ -1,0 +1,111 @@
+{
+ "unit": {
+  "kind": "hasidic_story",
+  "why": "A short anecdote, told by R. Yehezkel of Kuzmir, about R. Elimelech looking at his watch during Kedushat Keter on Shabbat so that he would not expire from rapture.",
+  "boundary_note": "the trailing words 'מענין קדושת לוי' are the heading of the next division; the opening 'מענין קדושת כתר' heading sits at the end of the previous division"
+ },
+ "stories": [
+  {
+   "k": 1,
+   "start_quote": "ב) סיפר הה״צ ר״י מקאזמור זצ״ל",
+   "end_quote": "להחזיק את הנפש בתוך הגוף",
+   "hasidic": true,
+   "summary_en": "R. Elimelech of Lizhensk would look at his watch while saying Kedushat Keter on Shabbat, because the sweetness he felt was so great that he feared his soul would expire, so he fixed his gaze on a worldly object to keep his soul in his body.",
+   "tags": [
+    {
+     "tag": "practice:prayer",
+     "scope": "span",
+     "quotes": [
+      "בשעה שאמר בשבת קדושת כתר"
+     ],
+     "confidence": 3,
+     "why": "The scene takes place while he recites the Kedushah prayer.",
+     "quotes_failed": false
+    },
+    {
+     "tag": "practice:devekut",
+     "scope": "span",
+     "quotes": [
+      "היה מרגיש מתיקות גדול בשעת קדושת כתר",
+      "שלא יהיה לו כלות הנפש מגודל המתיקות"
+     ],
+     "confidence": 3,
+     "why": "He is so absorbed in God during prayer that his soul nearly expires.",
+     "quotes_failed": false
+    },
+    {
+     "tag": "experience:devekut",
+     "scope": "span",
+     "quotes": [
+      "שלא יהיה לו כלות הנפש מגודל המתיקות"
+     ],
+     "confidence": 3,
+     "why": "He experiences mystical rapture to the point of kalot ha-nefesh.",
+     "quotes_failed": false
+    },
+    {
+     "tag": "times:shabbat",
+     "scope": "span",
+     "quotes": [
+      "בשעה שאמר בשבת קדושת כתר"
+     ],
+     "confidence": 3,
+     "why": "The scene is set during the Shabbat prayer.",
+     "quotes_failed": false
+    },
+    {
+     "tag": "practice:storytelling",
+     "scope": "span",
+     "quotes": [
+      "סיפר הה״צ ר״י מקאזמור זצ״ל"
+     ],
+     "confidence": 2,
+     "why": "The text frames the anecdote as told by a named tsaddik.",
+     "quotes_failed": false
+    },
+    {
+     "tag": "ethics-and-emotions:fear",
+     "scope": "span",
+     "quotes": [
+      "והיה ירא שלא יהיה לו כלות הנפש"
+     ],
+     "confidence": 2,
+     "why": "He fears that his soul will leave his body.",
+     "quotes_failed": false
+    },
+    {
+     "tag": "ethics-and-emotions:joy",
+     "scope": "span",
+     "quotes": [
+      "היה מרגיש מתיקות גדול"
+     ],
+     "confidence": 1,
+     "why": "The story describes the sweetness and delight he feels in worship.",
+     "quotes_failed": false
+    },
+    {
+     "tag": "folkloristics:story_type_virtues",
+     "scope": "story",
+     "quotes": [],
+     "confidence": 2,
+     "why": "The anecdote illustrates the tsaddik's intense piety in prayer.",
+     "quotes_failed": false
+    }
+   ],
+   "missing_concepts": [
+    "kalot ha-nefesh (danger of the soul expiring in rapture)",
+    "a worldly object (watch) used to keep the soul anchored in the body"
+   ],
+   "start_quote_found": true,
+   "end_quote_found": true
+  }
+ ],
+ "check": {
+  "non_vocab_tags": [],
+  "quotes": 8,
+  "quotes_not_found": 0
+ },
+ "id": "Derech-Haemuna_0188",
+ "chars": 318,
+ "seconds": 14
+}

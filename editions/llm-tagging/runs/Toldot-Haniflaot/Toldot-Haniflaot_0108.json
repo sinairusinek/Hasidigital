@@ -1,0 +1,80 @@
+{
+ "unit": {
+  "kind": "hasidic_story",
+  "why": "A short anecdote: the Holy Jew suffers great pains, rolls on the ground, is reminded to pray Maariv, and explains that his suffering was revenge on his body, his great enemy.",
+  "boundary_note": ""
+ },
+ "stories": [
+  {
+   "k": 1,
+   "start_quote": "פ״א שמעתי ממנו ז״ל שסיפר כי הה״ק",
+   "end_quote": "כמו שהוא ז״ל שונא את גופו",
+   "hasidic": true,
+   "summary_en": "The Holy Jew of Przysucha, in great suffering and rolling on the ground, is reminded to pray Maariv and says that his pain was revenge on his greatest enemy, his own body, so that he could then pray well.",
+   "tags": [
+    {
+     "tag": "practice:prayer",
+     "scope": "span",
+     "quotes": [
+      "הזכירו אותו שצריך להתפלל ערבית",
+      "היה יכול להתפלל ערבית בטוב"
+     ],
+     "confidence": 3,
+     "why": "Evening prayer is the turning point",
+     "quotes_failed": false
+    },
+    {
+     "tag": "practice:asceticism",
+     "scope": "span",
+     "quotes": [
+      "היה לו נקמה בשונאו הגדול הוא גופו",
+      "אין לו שונא גדול בעולם כמו שהוא ז״ל שונא את גופו"
+     ],
+     "confidence": 2,
+     "why": "Hostility to the body; suffering welcomed as mortification",
+     "quotes_failed": false
+    },
+    {
+     "tag": "practice:storytelling",
+     "scope": "span",
+     "quotes": [
+      "פ״א שמעתי ממנו ז״ל שסיפר כי"
+     ],
+     "confidence": 2,
+     "why": "Framed as a story told by the author's master",
+     "quotes_failed": false
+    },
+    {
+     "tag": "folkloristics:story_type_virtues",
+     "scope": "story",
+     "quotes": [],
+     "confidence": 2,
+     "why": "Illustrates the tzaddik's piety and contempt for the body",
+     "quotes_failed": false
+    },
+    {
+     "tag": "ethics-and-emotions:virtues",
+     "scope": "story",
+     "quotes": [],
+     "confidence": 1,
+     "why": "Spiritual attitude to suffering is the point",
+     "quotes_failed": false
+    }
+   ],
+   "missing_concepts": [
+    "suffering / bodily pain (yissurim) and its spiritual value",
+    "body as enemy of the soul"
+   ],
+   "start_quote_found": true,
+   "end_quote_found": true
+  }
+ ],
+ "check": {
+  "non_vocab_tags": [],
+  "quotes": 5,
+  "quotes_not_found": 0
+ },
+ "id": "Toldot-Haniflaot_0108",
+ "chars": 352,
+ "seconds": 8
+}

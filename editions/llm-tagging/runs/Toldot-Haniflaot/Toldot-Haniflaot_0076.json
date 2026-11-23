@@ -1,0 +1,141 @@
+{
+ "unit": {
+  "kind": "hasidic_story",
+  "why": "A single anecdote: a Warsaw Jew gives an exceptional etrog to the rebbe of Mogielnica in exchange for a promised son, and a son is born that year.",
+  "boundary_note": ""
+ },
+ "stories": [
+  {
+   "k": 1,
+   "start_quote": "בא ליד איש א׳ מווארשא קודם סכות",
+   "end_quote": "שיהיה רשאי ליטול ולברך עליו",
+   "hasidic": true,
+   "summary_en": "A childless German-style Jew of Warsaw gives his superb etrog to the rebbe of Mogielnica after R. Yosel promises him a son on the rebbe's behalf; on Sukkot the rebbe hesitates in deep thought, then blesses on it, and a son is born that year, a story later told in wonder by the Gur rebbe.",
+   "tags": [
+    {
+     "tag": "times:holidays",
+     "scope": "story",
+     "quotes": [],
+     "confidence": 3,
+     "why": "The story is set on Sukkot and turns on the etrog blessing",
+     "quotes_failed": false
+    },
+    {
+     "tag": "supernatural:pregnancy",
+     "scope": "span",
+     "quotes": [
+      "כי לא היה לו בנים כלל",
+      "בשנה ההוא נולד בן זכר לאיש ההוא"
+     ],
+     "confidence": 3,
+     "why": "A childless man has a son through the tsaddik",
+     "quotes_failed": false
+    },
+    {
+     "tag": "supernatural:miracle",
+     "scope": "span",
+     "quotes": [
+      "וכן היה אשר בשנה ההוא נולד בן זכר"
+     ],
+     "confidence": 2,
+     "why": "The promised birth is fulfilled as a wonder",
+     "quotes_failed": false
+    },
+    {
+     "tag": "supernatural:prognostication",
+     "scope": "span",
+     "quotes": [
+      "אם יבטיח לי שיהיה לי בשנה זו בן זכר"
+     ],
+     "confidence": 2,
+     "why": "The promise of a son within the year comes true",
+     "quotes_failed": false
+    },
+    {
+     "tag": "practice:travel_to_the_tsaddik",
+     "scope": "span",
+     "quotes": [
+      "ונתן לו האתרוג ונסע עמו למאגלניצא"
+     ],
+     "confidence": 3,
+     "why": "The hasid travels to Mogielnica with the etrog",
+     "quotes_failed": false
+    },
+    {
+     "tag": "social:relations_with_non_hasidim",
+     "scope": "span",
+     "quotes": [
+      "והיה אשכנזי (דייט״ש)"
+     ],
+     "confidence": 2,
+     "why": "The donor is a 'German' (non-Hasidic, acculturated) Jew",
+     "quotes_failed": false
+    },
+    {
+     "tag": "ethics-and-emotions:joy",
+     "scope": "span",
+     "quotes": [
+      "שמח בו מאד ואמר כי אין שכיח"
+     ],
+     "confidence": 2,
+     "why": "The tsaddik rejoices in the beautiful etrog",
+     "quotes_failed": false
+    },
+    {
+     "tag": "practice:halakhah",
+     "scope": "span",
+     "quotes": [
+      "שיהיה רשאי ליטול ולברך עליו"
+     ],
+     "confidence": 2,
+     "why": "At issue is whether he may take and bless on an etrog given on condition",
+     "quotes_failed": false
+    },
+    {
+     "tag": "practice:torat_ha_tsaddik",
+     "scope": "span",
+     "quotes": [
+      "וידע שודאי יועיל בתפלתו שיהיה לו בן זכר"
+     ],
+     "confidence": 2,
+     "why": "The tsaddik is confident in the power of his prayer to bring about a birth",
+     "quotes_failed": false
+    },
+    {
+     "tag": "practice:storytelling",
+     "scope": "span",
+     "quotes": [
+      "ששמע מהה״ג הק׳ ז\"ל שסיפר מעשה זו"
+     ],
+     "confidence": 2,
+     "why": "The Gur rebbe told this story",
+     "quotes_failed": false
+    },
+    {
+     "tag": "social:inter_hasidic_master_disciple_relationship",
+     "scope": "span",
+     "quotes": [
+      "ואמר שאפציר במורי שיבטיח לך"
+     ],
+     "confidence": 2,
+     "why": "R. Yosel makes a promise on his master's behalf",
+     "quotes_failed": false
+    }
+   ],
+   "missing_concepts": [
+    "etrog / four species",
+    "conditional gift in exchange for a blessing"
+   ],
+   "start_quote_found": true,
+   "end_quote_found": true
+  }
+ ],
+ "check": {
+  "non_vocab_tags": [],
+  "quotes": 11,
+  "quotes_not_found": 0
+ },
+ "id": "Toldot-Haniflaot_0076",
+ "chars": 992,
+ "seconds": 19
+}

@@ -1,0 +1,122 @@
+{
+ "unit": {
+  "kind": "hasidic_story",
+  "why": "A single anecdote: the Maggid of Kozhenitz, still poor and unknown, visits R. Levi Yitzhak of Berditchev, who borrows his fur coat while escorting him in the cold, and afterwards the Maggid becomes famous and prosperous.",
+  "boundary_note": ""
+ },
+ "stories": [
+  {
+   "k": 1,
+   "start_quote": "עוד שמעתי ממנו שסיפר שטרם שנתפרסם",
+   "end_quote": "בעולם והי׳ לו כל טוב",
+   "hasidic": true,
+   "summary_en": "Before he became famous, the poor Maggid of Kozhenitz complained of his poverty to R. Levi Yitzhak of Berditchev in Zelichov. While escorting him out in bitter cold, R. Levi Yitzhak borrowed the Maggid's fur coat until the Maggid nearly froze, then returned it saying in Yiddish 'Reb Yisraelkin, now be warm'. From then on the Maggid became famous and prospered.",
+   "tags": [
+    {
+     "tag": "practice:travel_to_the_tsaddik",
+     "scope": "span",
+     "quotes": [
+      "ונסע להרה״ק ז\"ל מבארדיטשוב שהי' אז משכנו"
+     ],
+     "confidence": 3,
+     "why": "The Maggid travels to the Berditchever to bring his plea",
+     "quotes_failed": false
+    },
+    {
+     "tag": "practice:clothing",
+     "scope": "span",
+     "quotes": [
+      "שתשאילו לי את האדרת שער שלכם",
+      "הסיר מעליו האדרת שער והחזירו להרה״מ"
+     ],
+     "confidence": 3,
+     "why": "The fur coat is the vehicle of the symbolic act",
+     "quotes_failed": false
+    },
+    {
+     "tag": "practice:torat_ha_tsaddik",
+     "scope": "span",
+     "quotes": [
+      "ר׳ ישראלכין לאז אייך שוין זיין ווארם",
+      "ומאז והלאה נתפרסם הרה״מ בעולם"
+     ],
+     "confidence": 2,
+     "why": "The tsaddik's act changes another person's fortune",
+     "quotes_failed": false
+    },
+    {
+     "tag": "supernatural:miracle",
+     "scope": "span",
+     "quotes": [
+      "ומאז והלאה נתפרסם הרה״מ בעולם והי׳ לו כל טוב"
+     ],
+     "confidence": 2,
+     "why": "A sudden change in fortune follows the tsaddik's act",
+     "quotes_failed": false
+    },
+    {
+     "tag": "social:inter_hasidic",
+     "scope": "story",
+     "quotes": [],
+     "confidence": 3,
+     "why": "Interaction between two Hasidic tsaddikim",
+     "quotes_failed": false
+    },
+    {
+     "tag": "social:poverty",
+     "scope": "span",
+     "quotes": [
+      "הי' עני גדול ומסובל בדחקות רב"
+     ],
+     "confidence": 1,
+     "why": "Poverty is central, but it is not embraced as a virtue",
+     "quotes_failed": false
+    },
+    {
+     "tag": "ethics-and-emotions:virtues",
+     "scope": "span",
+     "quotes": [
+      "והרה״מ לא הי' חושש על נפשו והשאיל לו"
+     ],
+     "confidence": 1,
+     "why": "The Maggid's self-sacrificing compliance",
+     "quotes_failed": false
+    },
+    {
+     "tag": "practice:storytelling",
+     "scope": "span",
+     "quotes": [
+      "עוד שמעתי ממנו שסיפר"
+     ],
+     "confidence": 1,
+     "why": "Framed as told by a named informant",
+     "quotes_failed": false
+    },
+    {
+     "tag": "folkloristics:story_type_inauguration",
+     "scope": "story",
+     "quotes": [],
+     "confidence": 1,
+     "why": "The story explains how the Maggid rose to fame, though it is not a formal inauguration",
+     "quotes_failed": false
+    }
+   ],
+   "missing_concepts": [
+    "escorting a departing guest (levayah)",
+    "symbolic act that transfers fortune or blessing",
+    "rise to fame of a tsaddik",
+    "cold and winter hardship"
+   ],
+   "start_quote_found": true,
+   "end_quote_found": true
+  }
+ ],
+ "check": {
+  "non_vocab_tags": [],
+  "quotes": 9,
+  "quotes_not_found": 0
+ },
+ "id": "Eser-Orot_0132",
+ "chars": 981,
+ "seconds": 18
+}

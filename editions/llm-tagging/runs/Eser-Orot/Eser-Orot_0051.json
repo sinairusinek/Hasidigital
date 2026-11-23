@@ -1,0 +1,122 @@
+{
+ "unit": {
+  "kind": "hasidic_story",
+  "why": "A short hagiographic account of R. Levi Yitzhak of Berditchev's prayer: his trembling, his bowing that carried him from corner to corner, and the terror of those who watched. It describes recurring events rather than a single episode, which makes it a borderline story.",
+  "boundary_note": "Section (ג) of a series of praises of the Berditchever; the next division (ד) begins a separate anecdote."
+ },
+ "stories": [
+  {
+   "k": 1,
+   "start_quote": "הגאון הקדוש הרב מבארדיטשוב יודעי חן",
+   "end_quote": "ואימת מות נפלו עליהם ויעמדו מרחוק",
+   "hasidic": true,
+   "summary_en": "R. Levi Yitzhak of Berditchev, said to carry the soul of R. Akiva, would tremble and bow so violently in prayer that he moved from corner to corner, and all who stood by him were seized with mortal dread.",
+   "tags": [
+    {
+     "tag": "practice:prayer",
+     "scope": "span",
+     "quotes": [
+      "בעמדו לשפוך שיחו לפני קונו",
+      "וכל העומדים בעת תפלתו סמר שערות בשרם"
+     ],
+     "confidence": 3,
+     "why": "Centres on his manner of praying",
+     "quotes_failed": false
+    },
+    {
+     "tag": "experience:trembling",
+     "scope": "span",
+     "quotes": [
+      "רעש וחרד מאד נמס לבבו בקרבו"
+     ],
+     "confidence": 3,
+     "why": "Physical trembling in prayer",
+     "quotes_failed": false
+    },
+    {
+     "tag": "ethics-and-emotions:fear",
+     "scope": "span",
+     "quotes": [
+      "מפני פחד ה׳ ומהדר גאונו",
+      "פלצות אחזתם וירא העם וינועו"
+     ],
+     "confidence": 3,
+     "why": "His fear of God and the onlookers' terror",
+     "quotes_failed": false
+    },
+    {
+     "tag": "ethics-and-emotions:awe",
+     "scope": "span",
+     "quotes": [
+      "ואימת מות נפלו עליהם ויעמדו מרחוק"
+     ],
+     "confidence": 3,
+     "why": "Awe of God and of the tzaddik",
+     "quotes_failed": false
+    },
+    {
+     "tag": "practice:devekut",
+     "scope": "span",
+     "quotes": [
+      "גודל קדושתו ודביקותו לאלקיו"
+     ],
+     "confidence": 2,
+     "why": "Rapt, ecstatic worship",
+     "quotes_failed": false
+    },
+    {
+     "tag": "experience:devekut",
+     "scope": "span",
+     "quotes": [
+      "גודל קדושתו ודביקותו לאלקיו"
+     ],
+     "confidence": 2,
+     "why": "Cleaving to God stated explicitly",
+     "quotes_failed": false
+    },
+    {
+     "tag": "experience:enthusiasm",
+     "scope": "span",
+     "quotes": [
+      "והתלהבותו בעבודת השם ואהבתו לישראל"
+     ],
+     "confidence": 3,
+     "why": "Hitlahavut stated explicitly",
+     "quotes_failed": false
+    },
+    {
+     "tag": "folkloristics:story_type_virtues",
+     "scope": "story",
+     "quotes": [],
+     "confidence": 3,
+     "why": "Praise of the tzaddik's holiness and fervour",
+     "quotes_failed": false
+    },
+    {
+     "tag": "supernatural:reincarnation",
+     "scope": "span",
+     "quotes": [
+      "שהי׳ בו נשמת רבי עקיבא"
+     ],
+     "confidence": 1,
+     "why": "Soul of R. Akiva attributed to him, mentioned only in passing",
+     "quotes_failed": false
+    }
+   ],
+   "missing_concepts": [
+    "ecstatic bodily movement in prayer (bowing/prostration moving him across the room)",
+    "love of Israel (אהבת ישראל)"
+   ],
+   "start_quote_found": true,
+   "end_quote_found": true
+  }
+ ],
+ "check": {
+  "non_vocab_tags": [],
+  "quotes": 10,
+  "quotes_not_found": 0
+ },
+ "id": "Eser-Orot_0051",
+ "chars": 430,
+ "seconds": 17
+}

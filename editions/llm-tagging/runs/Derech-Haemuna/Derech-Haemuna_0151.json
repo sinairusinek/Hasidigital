@@ -1,0 +1,83 @@
+{
+ "unit": {
+  "kind": "hasidic_story",
+  "why": "A short anecdote: the Rebbe of Neskhiz tells a householder to do something, the man fails to do it, and the rebbe rebukes him.",
+  "boundary_note": "Division ends with the heading 'מענין מקוה', which belongs to the next division."
+ },
+ "stories": [
+  {
+   "k": 1,
+   "start_quote": "פ״א ציוה מרן מנסכיז לבעה״ב אחד",
+   "end_quote": "שמאל שהוא ימין ובפרט שהוא ימין",
+   "hasidic": true,
+   "summary_en": "The Rebbe of Neskhiz orders a householder to do something, probably for the community; the man holds back because he thinks not doing it is better, and the rebbe calls him a fool, citing 'lo tasur' even when told left is right.",
+   "tags": [
+    {
+     "tag": "social:disobedience",
+     "scope": "span",
+     "quotes": [
+      "ונתרשל אותו אדם לעשות כן",
+      "נ״ל שראוי שלא לעשות כן"
+     ],
+     "confidence": 3,
+     "why": "The householder does not carry out the tsaddik's instruction.",
+     "quotes_failed": false
+    },
+    {
+     "tag": "practice:torat_ha_tsaddik",
+     "scope": "span",
+     "quotes": [
+      "אפילו כשאומר לך על שמאל שהוא ימין"
+     ],
+     "confidence": 2,
+     "why": "The point is that one must obey the tsaddik even against one's own judgment.",
+     "quotes_failed": false
+    },
+    {
+     "tag": "practice:halakhah",
+     "scope": "span",
+     "quotes": [
+      "ארז״ל במצות ל״ת דלא תסור"
+     ],
+     "confidence": 2,
+     "why": "The rebbe justifies the duty to obey with the halakhic principle of 'lo tasur'.",
+     "quotes_failed": false
+    },
+    {
+     "tag": "ethics-and-emotions:prohibitions",
+     "scope": "span",
+     "quotes": [
+      "במצות ל״ת דלא תסור"
+     ],
+     "confidence": 1,
+     "why": "The negative commandment not to stray from the sages' words is invoked.",
+     "quotes_failed": false
+    },
+    {
+     "tag": "ethics-and-emotions:anger",
+     "scope": "span",
+     "quotes": [
+      "והשיב מרן שוטה אתה"
+     ],
+     "confidence": 1,
+     "why": "The rebbe answers with a sharp rebuke.",
+     "quotes_failed": false
+    }
+   ],
+   "missing_concepts": [
+    "obedience to the sages' instructions even against one's own judgment (emunat chakhamim)",
+    "communal needs (tzorkhei tzibbur)"
+   ],
+   "start_quote_found": true,
+   "end_quote_found": true
+  }
+ ],
+ "check": {
+  "non_vocab_tags": [],
+  "quotes": 6,
+  "quotes_not_found": 0
+ },
+ "id": "Derech-Haemuna_0151",
+ "chars": 365,
+ "seconds": 13
+}

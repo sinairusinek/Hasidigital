@@ -1,0 +1,93 @@
+{
+ "unit": {
+  "kind": "hasidic_story",
+  "why": "A short anecdote: someone visits R. Yehiel Michel of Zlotchov before prayer, and the rebbe's reply shows that he had already completed the yihudim of the whole prayer.",
+  "boundary_note": ""
+ },
+ "stories": [
+  {
+   "k": 1,
+   "start_quote": "שמעתי ממחותני הרב המפורסם מהר\"י ז\"ל מברעזנא",
+   "end_quote": "ר׳ שלום שליט״א מקאדינאוי) :",
+   "hasidic": true,
+   "summary_en": "When a man came to R. Yehiel Michel of Zlotchov before prayer, the tsaddik said he was already holding at a certain point, because he first meditated all the yihudim of the prayer and only then said the words.",
+   "tags": [
+    {
+     "tag": "kabbalah:kabbalistic_terms_yihudim",
+     "scope": "span",
+     "quotes": [
+      "הי' מכוון ומיחד היחודים של כל התפלה"
+     ],
+     "confidence": 3,
+     "why": "he performs the yihudim of the whole prayer beforehand",
+     "quotes_failed": false
+    },
+    {
+     "tag": "kabbalah:kabbalistic_terms_kavvanot",
+     "scope": "span",
+     "quotes": [
+      "כי מקודם הי' מכוון ומיחד היחודים"
+     ],
+     "confidence": 2,
+     "why": "he holds mystical intentions for the prayer before saying it",
+     "quotes_failed": false
+    },
+    {
+     "tag": "practice:meditation",
+     "scope": "span",
+     "quotes": [
+      "הי' מכוון ומיחד היחודים של כל התפלה"
+     ],
+     "confidence": 3,
+     "why": "contemplative yihudim before the spoken prayer",
+     "quotes_failed": false
+    },
+    {
+     "tag": "practice:prayer",
+     "scope": "span",
+     "quotes": [
+      "קודם התפלה ואמר לו הרב הנ״ל",
+      "ואח״כ הי' אומר התיבות"
+     ],
+     "confidence": 3,
+     "why": "his manner of praying is the subject",
+     "quotes_failed": false
+    },
+    {
+     "tag": "practice:reception_of_hasidim",
+     "scope": "span",
+     "quotes": [
+      "שפ\"א נכנס א׳ אצל זקנו הקדוש"
+     ],
+     "confidence": 1,
+     "why": "a visitor comes in to the tsaddik",
+     "quotes_failed": false
+    },
+    {
+     "tag": "practice:storytelling",
+     "scope": "span",
+     "quotes": [
+      "שמעתי ממחותני הרב המפורסם מהר\"י ז\"ל מברעזנא"
+     ],
+     "confidence": 1,
+     "why": "the tale is framed by a named chain of oral transmission",
+     "quotes_failed": false
+    }
+   ],
+   "missing_concepts": [
+    "sequence of mental prayer before the spoken words",
+    "oral transmission chain of the tale"
+   ],
+   "start_quote_found": true,
+   "end_quote_found": true
+  }
+ ],
+ "check": {
+  "non_vocab_tags": [],
+  "quotes": 7,
+  "quotes_not_found": 0
+ },
+ "id": "Maim-Rabim_0011",
+ "chars": 273,
+ "seconds": 15
+}

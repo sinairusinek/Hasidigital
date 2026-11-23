@@ -1,0 +1,101 @@
+{
+ "unit": {
+  "kind": "hasidic_story",
+  "why": "A short anecdote about R. Abraham Joshua Heschel of Apt (the Ohev Yisrael): his habitual saying on love of Israel and his deathbed instruction to his sons that only 'Ohev Yisrael' be inscribed on his tombstone, which was carried out. It is a minimal narrative inside a numbered list of his virtues.",
+  "boundary_note": "item (ה) of a numbered list of the tsaddik's levels; the list continues in the next division"
+ },
+ "stories": [
+  {
+   "k": 1,
+   "start_quote": "מבואר בהקדמת אוהב ישראל כי הי׳",
+   "end_quote": "שום שבח רק אוהב ישראל וכן נרשם",
+   "hasidic": true,
+   "summary_en": "The Apter Rav used to say that he could boast of his love of Israel even before the heavenly court, and before his death he ordered his sons to inscribe no praise on his tombstone except 'Ohev Yisrael', which was done.",
+   "tags": [
+    {
+     "tag": "folkloristics:story_type_virtues",
+     "scope": "story",
+     "quotes": [],
+     "confidence": 3,
+     "why": "the point is to illustrate his love of Israel",
+     "quotes_failed": false
+    },
+    {
+     "tag": "ethics-and-emotions:virtues",
+     "scope": "span",
+     "quotes": [
+      "אשר אהבת ישראל תקועה בלבו"
+     ],
+     "confidence": 3,
+     "why": "love of Israel as his defining virtue",
+     "quotes_failed": false
+    },
+    {
+     "tag": "ethics-and-emotions:humility",
+     "scope": "span",
+     "quotes": [
+      "שלא ירשמו על מצבת אבן",
+      "שום שבח רק אוהב ישראל"
+     ],
+     "confidence": 2,
+     "why": "he refuses praises on his tombstone",
+     "quotes_failed": false
+    },
+    {
+     "tag": "characters-and-roles:the_family_of_the_tsaddik",
+     "scope": "span",
+     "quotes": [
+      "צוה לבניו שלא ירשמו"
+     ],
+     "confidence": 2,
+     "why": "his sons receive the instruction",
+     "quotes_failed": false
+    },
+    {
+     "tag": "times:death",
+     "scope": "span",
+     "quotes": [
+      "וטרם הלקח ארון אלהים צוה לבניו"
+     ],
+     "confidence": 2,
+     "why": "the instruction is set at his death",
+     "quotes_failed": false
+    },
+    {
+     "tag": "folkloristics:story_type_death_of_the_tsaddik",
+     "scope": "span",
+     "quotes": [
+      "וטרם הלקח ארון אלהים צוה לבניו"
+     ],
+     "confidence": 1,
+     "why": "a deathbed instruction is the main event",
+     "quotes_failed": false
+    },
+    {
+     "tag": "practice:pilgrimage_to_the_graves_of_tsaddikim",
+     "scope": "span",
+     "quotes": [
+      "שיציינו על בנין הנפש שלו"
+     ],
+     "confidence": 1,
+     "why": "a deathbed instruction about his tomb",
+     "quotes_failed": false
+    }
+   ],
+   "missing_concepts": [
+    "love of Israel (ahavat Yisrael) as a specific virtue",
+    "tombstone inscription / epitaph"
+   ],
+   "start_quote_found": true,
+   "end_quote_found": true
+  }
+ ],
+ "check": {
+  "non_vocab_tags": [],
+  "quotes": 7,
+  "quotes_not_found": 0
+ },
+ "id": "Eser-Orot_0246",
+ "chars": 229,
+ "seconds": 14
+}

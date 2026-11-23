@@ -1,0 +1,90 @@
+{
+ "unit": {
+  "kind": "continuation_or_fragment",
+  "why": "This short paragraph continues the account of the tzaddik's last winter before his death, begun in the previous division (\"והנה אז בכל החורף ההוא\"). It describes his changed habit at the third Sabbath meal and has no self-contained plot.",
+  "boundary_note": "Continues the last-winter / approaching-death sequence from the previous division; the sequence goes on into the next division (his stay in Radom)."
+ },
+ "stories": [
+  {
+   "k": 1,
+   "start_quote": "והנה אז בכל החורף ההוא",
+   "end_quote": "רק הזמירות בהתלהבות גדל",
+   "hasidic": true,
+   "summary_en": "In his last winter the tzaddik, against all his former custom, gave plain moral rebuke with much weeping at every third Sabbath meal, where before he only sang the zemirot with fervor.",
+   "tags": [
+    {
+     "tag": "folkloristics:story_type_death_of_the_tsaddik",
+     "scope": "story",
+     "quotes": [],
+     "confidence": 2,
+     "why": "Part of the sequence of signs before the tzaddik's death in that winter",
+     "quotes_failed": false
+    },
+    {
+     "tag": "times:shabbat",
+     "scope": "span",
+     "quotes": [
+      "בכל שבת בסעודת שלש סעודות"
+     ],
+     "confidence": 3,
+     "why": "The scene is the third Sabbath meal",
+     "quotes_failed": false
+    },
+    {
+     "tag": "practice:sermon",
+     "scope": "span",
+     "quotes": [
+      "היה אומר מוסר לפני אנשים בבכיה רבה"
+     ],
+     "confidence": 3,
+     "why": "He delivers moral rebuke to the assembled people",
+     "quotes_failed": false
+    },
+    {
+     "tag": "practice:music",
+     "scope": "span",
+     "quotes": [
+      "רק הזמירות בהתלהבות גדל"
+     ],
+     "confidence": 2,
+     "why": "His usual custom was singing zemirot",
+     "quotes_failed": false
+    },
+    {
+     "tag": "experience:enthusiasm",
+     "scope": "span",
+     "quotes": [
+      "רק הזמירות בהתלהבות גדל"
+     ],
+     "confidence": 2,
+     "why": "He sang with great fervor",
+     "quotes_failed": false
+    },
+    {
+     "tag": "ethics-and-emotions:sadness",
+     "scope": "span",
+     "quotes": [
+      "בבכיה רבה מוסר פשוט כמו שהאב מוכיח לבן"
+     ],
+     "confidence": 1,
+     "why": "Weeping marks the mood of the last winter",
+     "quotes_failed": false
+    }
+   ],
+   "missing_concepts": [
+    "change in a tzaddik's custom as a sign of approaching death",
+    "third Sabbath meal (seudah shlishit) as a setting"
+   ],
+   "start_quote_found": true,
+   "end_quote_found": true
+  }
+ ],
+ "check": {
+  "non_vocab_tags": [],
+  "quotes": 5,
+  "quotes_not_found": 0
+ },
+ "id": "Toldot-Haniflaot_0088",
+ "chars": 224,
+ "seconds": 13
+}

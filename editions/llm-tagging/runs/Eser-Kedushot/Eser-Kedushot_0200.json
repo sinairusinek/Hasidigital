@@ -1,0 +1,125 @@
+{
+ "unit": {
+  "kind": "hasidic_story",
+  "why": "A short, letter-reported account of R. Yitzhak (grandson of R. Tsvi of Zhidachov's circle): his wedding at which he began wearing tallit and tefillin, and his four-year ascetic practice of waking at midnight. It is mostly a description of habits but is anchored in events.",
+  "boundary_note": "Second item (ב) in a numbered series about this tzaddik; the next division (ג) is a separate report from the same correspondent."
+ },
+ "stories": [
+  {
+   "k": 1,
+   "start_quote": "נכדו של הרה״ק רי\"צ הז׳",
+   "end_quote": "והי׳ כל ימיו רק מתבודד במועדו",
+   "hasidic": true,
+   "summary_en": "The tzaddik's grandson writes to the author that his grandfather began wearing tallit and tefillin on his wedding day, when his bride, R. Tsvi of Zhidachov's daughter, was twelve. For four years he woke at midnight with a vessel of water and threw himself on the ground to drive off sleep. He lived in seclusion and spoke very little.",
+   "tags": [
+    {
+     "tag": "folkloristics:story_type_virtues",
+     "scope": "story",
+     "quotes": [],
+     "confidence": 3,
+     "why": "The account exists to praise the tzaddik's piety and habits.",
+     "quotes_failed": false
+    },
+    {
+     "tag": "practice:asceticism",
+     "scope": "span",
+     "quotes": [
+      "ובהקיצו הפיל א\"ע על הארץ ונטל ידיו",
+      "כי עשה לו כלי מלא מים"
+     ],
+     "confidence": 3,
+     "why": "Rigorous self-denial of sleep, kept up for four years.",
+     "quotes_failed": false
+    },
+    {
+     "tag": "practice:solitude",
+     "scope": "span",
+     "quotes": [
+      "והי׳ כל ימיו רק מתבודד במועדו",
+      "ולא עשה בזה העולם שום התחברות עם בני אדם"
+     ],
+     "confidence": 3,
+     "why": "He kept apart from society and withdrew to worship alone.",
+     "quotes_failed": false
+    },
+    {
+     "tag": "practice:tefillin",
+     "scope": "span",
+     "quotes": [
+      "התחיל להניח טלית ותפילין ביום חופתו"
+     ],
+     "confidence": 3,
+     "why": "He began wearing tefillin (and tallit) on his wedding day.",
+     "quotes_failed": false
+    },
+    {
+     "tag": "social:marriage",
+     "scope": "span",
+     "quotes": [
+      "היתה בת י״ב שנים ביום חופתם"
+     ],
+     "confidence": 2,
+     "why": "The wedding and the bride's age are described.",
+     "quotes_failed": false
+    },
+    {
+     "tag": "characters-and-roles:the_family_of_the_tsaddik",
+     "scope": "span",
+     "quotes": [
+      "וזוגתו [בת רבינו צבי מזידיטשוב] הקדושה והטהורה",
+      "בן בנו יחידו הרב החסיד"
+     ],
+     "confidence": 3,
+     "why": "His wife, his father-in-law's family and his descendants appear.",
+     "quotes_failed": false
+    },
+    {
+     "tag": "women:mention_only",
+     "scope": "span",
+     "quotes": [
+      "מרת רבקהלי ע\"ה היתה בת י״ב שנים"
+     ],
+     "confidence": 3,
+     "why": "His wife is named but does not act.",
+     "quotes_failed": false
+    },
+    {
+     "tag": "practice:storytelling",
+     "scope": "span",
+     "quotes": [
+      "כתב לי כי זקינו הקדוש הנ\"ל"
+     ],
+     "confidence": 1,
+     "why": "Framed as a family tradition transmitted to the author in a letter.",
+     "quotes_failed": false
+    },
+    {
+     "tag": "ethics-and-emotions:virtues",
+     "scope": "span",
+     "quotes": [
+      "והי׳ צדיק תמים וצמצם דיבוריו מאד מאד"
+     ],
+     "confidence": 2,
+     "why": "His blamelessness and restraint in speech are praised.",
+     "quotes_failed": false
+    }
+   ],
+   "missing_concepts": [
+    "midnight vigil (tikkun hatsot / waking at midnight)",
+    "restraint of speech (shmirat ha-dibbur)",
+    "child marriage / bride's age",
+    "family tradition transmitted by letter"
+   ],
+   "start_quote_found": true,
+   "end_quote_found": true
+  }
+ ],
+ "check": {
+  "non_vocab_tags": [],
+  "quotes": 11,
+  "quotes_not_found": 0
+ },
+ "id": "Eser-Kedushot_0200",
+ "chars": 700,
+ "seconds": 17
+}

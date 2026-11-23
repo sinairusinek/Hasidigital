@@ -1,0 +1,265 @@
+{
+ "unit": {
+  "kind": "several_stories",
+  "why": "The division holds three separate anecdotes: the rebbe who could not pray until a borrowed wheel was returned, the Vorka rebbe's visit to the sick rebbe, and R. Levi Yitzhak's visit to the dying Vorka rebbe.",
+  "boundary_note": ""
+ },
+ "stories": [
+  {
+   "k": 1,
+   "start_quote": "עוד סיפר פ\"א היה מתאחר קצת מהעת התפלה",
+   "end_quote": "ראה והבן גדולים מעשה הצדיקים",
+   "hasidic": true,
+   "summary_en": "The rebbe cannot bring himself to put on his tallit and pray until midday. He realizes that a wheel borrowed weeks earlier from a village dairyman was never returned and sends it back at once. He then prays, and it turns out the villager's own wheel had broken that day and he faced a heavy loss.",
+   "tags": [
+    {
+     "tag": "practice:prayer",
+     "scope": "span",
+     "quotes": [
+      "ולא היה יכול בשום אופן להתעטף בו ולהתפלל",
+      "ומיד קם הוא ז\"ל להתפלל אחר זה"
+     ],
+     "confidence": 3,
+     "why": "Being unable to pray is the core of the plot.",
+     "quotes_failed": false
+    },
+    {
+     "tag": "supernatural:perception",
+     "scope": "span",
+     "quotes": [
+      "עד אשר הרגיש שהוא בשביל זה המדובר"
+     ],
+     "confidence": 2,
+     "why": "He senses the hidden cause that is blocking his prayer.",
+     "quotes_failed": false
+    },
+    {
+     "tag": "social:retrospective_recognition",
+     "scope": "span",
+     "quotes": [
+      "סיפר כי באותו יום נשבר אופן אז מהעגלה של בן הכפר ההוא"
+     ],
+     "confidence": 2,
+     "why": "The servant's report reveals the hidden meaning of the delay.",
+     "quotes_failed": false
+    },
+    {
+     "tag": "ethics-and-emotions:prohibitions",
+     "scope": "span",
+     "quotes": [
+      "האם חזרת אליו האופן, ואמר לא"
+     ],
+     "confidence": 2,
+     "why": "Failing to return a borrowed object and causing another's loss.",
+     "quotes_failed": false
+    },
+    {
+     "tag": "social:relations_with_non_jews",
+     "scope": "span",
+     "quotes": [
+      "בכפר א' הסמוך לכאן אצל שווייגער אחד"
+     ],
+     "confidence": 1,
+     "why": "The dairyman is probably a non-Jewish villager.",
+     "quotes_failed": false
+    },
+    {
+     "tag": "practice:the_travels_of_the_tsaddik",
+     "scope": "span",
+     "quotes": [
+      "נסענו בהדרך והיה נשבר אופן אחד מהעגלה שלי"
+     ],
+     "confidence": 1,
+     "why": "The wheel was borrowed on one of the tzaddik's journeys.",
+     "quotes_failed": false
+    },
+    {
+     "tag": "folkloristics:story_type_virtues",
+     "scope": "story",
+     "quotes": [],
+     "confidence": 2,
+     "why": "Illustrates the tzaddik's scrupulous honesty and sensitivity.",
+     "quotes_failed": false
+    },
+    {
+     "tag": "spaces:beth_midrash",
+     "scope": "span",
+     "quotes": [
+      "היה שולח לבית מדרשו שלא להמתין הצבור עליו"
+     ],
+     "confidence": 1,
+     "why": "The beit midrash is mentioned as the place of public prayer.",
+     "quotes_failed": false
+    }
+   ],
+   "missing_concepts": [
+    "returning borrowed property / honesty in money matters",
+    "a hidden cause blocking prayer"
+   ],
+   "start_quote_found": true,
+   "end_quote_found": true
+  },
+  {
+   "k": 2,
+   "start_quote": "פ\"א היה מרן ז\"ל נחלה מאד",
+   "end_quote": "רצון נפש קדוש וטהור ושישמע אלי",
+   "hasidic": true,
+   "summary_en": "When the rebbe is gravely ill and will not eat, the Vorka rebbe visits him. Asked to persuade him to eat, the Vorka rebbe says he cannot override the will of so holy a soul.",
+   "tags": [
+    {
+     "tag": "practice:travel_to_other_tsaddik",
+     "scope": "span",
+     "quotes": [
+      "ובא ההק׳ המפורסם ז\"ל מווארקא לבקרו"
+     ],
+     "confidence": 2,
+     "why": "One tzaddik comes to visit another.",
+     "quotes_failed": false
+    },
+    {
+     "tag": "social:inter_hasidic",
+     "scope": "story",
+     "quotes": [],
+     "confidence": 2,
+     "why": "Shows the relations between two rebbes.",
+     "quotes_failed": false
+    },
+    {
+     "tag": "ethics-and-emotions:humility",
+     "scope": "span",
+     "quotes": [
+      "וכי איך אוכל אנכי להעביר רצון נפש קדוש וטהור"
+     ],
+     "confidence": 2,
+     "why": "The Vorka rebbe defers to the other tzaddik.",
+     "quotes_failed": false
+    },
+    {
+     "tag": "ethics-and-emotions:awe",
+     "scope": "span",
+     "quotes": [
+      "רצון נפש קדוש וטהור ושישמע אלי"
+     ],
+     "confidence": 1,
+     "why": "Reverence for the sick tzaddik.",
+     "quotes_failed": false
+    },
+    {
+     "tag": "practice:fasting",
+     "scope": "span",
+     "quotes": [
+      "שיקח איזה דבר לפיו להשיב נפשו"
+     ],
+     "confidence": 1,
+     "why": "The sick rebbe refuses food.",
+     "quotes_failed": false
+    }
+   ],
+   "missing_concepts": [
+    "illness of the tzaddik / visiting the sick"
+   ],
+   "start_quote_found": true,
+   "end_quote_found": true
+  },
+  {
+   "k": 3,
+   "start_quote": "שמעתי מהרב החסיד ר׳ לוי יצחק",
+   "end_quote": "וכהנה וכהנה דיבר כך שמעתי אז ממנו",
+   "hasidic": true,
+   "summary_en": "Before Pesach the rebbe sends R. Levi Yitzhak to visit the dying Vorka rebbe, who rejoices at the visit, repeatedly calls the rebbe 'Rebbe' and says only his prayer keeps him alive.",
+   "tags": [
+    {
+     "tag": "practice:travel_to_other_tsaddik",
+     "scope": "span",
+     "quotes": [
+      "היה שולח אותו אל ההק׳ מווארקי ז\"ל קודם פסח לבקרו"
+     ],
+     "confidence": 2,
+     "why": "An emissary is sent to another tzaddik.",
+     "quotes_failed": false
+    },
+    {
+     "tag": "practice:torat_ha_tsaddik",
+     "scope": "span",
+     "quotes": [
+      "רק תפלת רבי מעמיד אותי"
+     ],
+     "confidence": 2,
+     "why": "The tzaddik's prayer sustains the life of another.",
+     "quotes_failed": false
+    },
+    {
+     "tag": "ethics-and-emotions:humility",
+     "scope": "span",
+     "quotes": [
+      "וקורא אותו בשם רבי"
+     ],
+     "confidence": 2,
+     "why": "The Vorka rebbe calls the other his rebbe.",
+     "quotes_failed": false
+    },
+    {
+     "tag": "ethics-and-emotions:joy",
+     "scope": "span",
+     "quotes": [
+      "היה שמח מאוד בביאתו"
+     ],
+     "confidence": 2,
+     "why": "He rejoices at the visit.",
+     "quotes_failed": false
+    },
+    {
+     "tag": "times:holidays",
+     "scope": "span",
+     "quotes": [
+      "שהיה נפטר אז באחרון של פסח"
+     ],
+     "confidence": 1,
+     "why": "Set before Pesach; the death falls on Pesach.",
+     "quotes_failed": false
+    },
+    {
+     "tag": "times:death",
+     "scope": "span",
+     "quotes": [
+      "שהיה נפטר אז באחרון של פסח"
+     ],
+     "confidence": 1,
+     "why": "The Vorka rebbe's death is mentioned.",
+     "quotes_failed": false
+    },
+    {
+     "tag": "social:inter_hasidic",
+     "scope": "story",
+     "quotes": [],
+     "confidence": 2,
+     "why": "Shows the relations between two rebbes.",
+     "quotes_failed": false
+    },
+    {
+     "tag": "practice:prayer",
+     "scope": "span",
+     "quotes": [
+      "רק תפלת רבי מעמיד אותי"
+     ],
+     "confidence": 1,
+     "why": "Prayer on behalf of a sick man is referred to.",
+     "quotes_failed": false
+    }
+   ],
+   "missing_concepts": [
+    "visiting the sick (bikkur holim)"
+   ],
+   "start_quote_found": true,
+   "end_quote_found": true
+  }
+ ],
+ "check": {
+  "non_vocab_tags": [],
+  "quotes": 19,
+  "quotes_not_found": 0
+ },
+ "id": "Toldot-Haniflaot_0066",
+ "chars": 1967,
+ "seconds": 29
+}

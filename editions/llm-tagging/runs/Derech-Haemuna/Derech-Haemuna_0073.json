@@ -1,0 +1,164 @@
+{
+ "unit": {
+  "kind": "non_hasidic_story",
+  "why": "A hospitality tale about R. Abish, Av Beit Din of Frankfurt, a non-Hasidic rabbinic figure. It is followed by an interpretation the author heard from his father in the name of the Seer of Lublin.",
+  "boundary_note": ""
+ },
+ "stories": [
+  {
+   "k": 1,
+   "start_quote": "בהיות הה״ג ר׳ אביש אב״ד בפפד״מ",
+   "end_quote": "שיאמינו בדברי חז״ל וד״ל. (ברכת אברהם בהק')",
+   "hasidic": false,
+   "summary_en": "A repulsive guest at R. Abish's Sabbath table devours everything, rages and curses him, and demands more. R. Abish patiently feeds him, even slaughtering thirteen oxen, until the guest reveals he came to test whether R. Abish would lose his temper. The Seer of Lublin explains that the real test was R. Abish's faith in the sages' dictum that a poor man is hungry.",
+   "tags": [
+    {
+     "tag": "not-a-hasidic-story:hagiography",
+     "scope": "story",
+     "quotes": [],
+     "confidence": 3,
+     "why": "Praises the patience and faith of R. Abish of Frankfurt, a non-Hasidic rabbi",
+     "quotes_failed": false
+    },
+    {
+     "tag": "not-a-hasidic-story:virtues",
+     "scope": "span",
+     "quotes": [
+      "כדרכו להכניס אורחים"
+     ],
+     "confidence": 3,
+     "why": "Placed under the heading on hospitality as an exemplary tale",
+     "quotes_failed": false
+    },
+    {
+     "tag": "ethics-and-emotions:virtues",
+     "scope": "span",
+     "quotes": [
+      "וקיבלו בסבר פנים יפות כדרכו להכניס אורחים"
+     ],
+     "confidence": 3,
+     "why": "Hospitality and patience illustrated",
+     "quotes_failed": false
+    },
+    {
+     "tag": "ethics-and-emotions:anger",
+     "scope": "span",
+     "quotes": [
+      "וכעס מאד על זקיני",
+      "בא לנסותו אם יגיע לכלל כעס"
+     ],
+     "confidence": 3,
+     "why": "The guest rages; the test is whether the host will become angry",
+     "quotes_failed": false
+    },
+    {
+     "tag": "ethics-and-emotions:charity",
+     "scope": "span",
+     "quotes": [
+      "נתן לו אל כל העיר להביא לביתו תמחוי"
+     ],
+     "confidence": 2,
+     "why": "Feeding the poor, with the town's soup-kitchen collection",
+     "quotes_failed": false
+    },
+    {
+     "tag": "times:shabbat",
+     "scope": "span",
+     "quotes": [
+      "בא אורח אחד להתאכסן בביתו בש״ק",
+      "החמין הטמונים בתנור לשבת שחרית"
+     ],
+     "confidence": 3,
+     "why": "The visit takes place on Shabbat",
+     "quotes_failed": false
+    },
+    {
+     "tag": "characters-and-roles:hidden_righteous",
+     "scope": "span",
+     "quotes": [
+      "והגיד שהוא חשוב בשמים מאד"
+     ],
+     "confidence": 2,
+     "why": "A disguised stranger turns out to be highly regarded in heaven",
+     "quotes_failed": false
+    },
+    {
+     "tag": "social:retrospective_recognition",
+     "scope": "span",
+     "quotes": [
+      "הגיד לו האורח כי איננו מהאנשים הרעבים"
+     ],
+     "confidence": 3,
+     "why": "The guest's true nature is revealed at the end",
+     "quotes_failed": false
+    },
+    {
+     "tag": "practice:ritual_slaughtering",
+     "scope": "span",
+     "quotes": [
+      "וצוה לשחוט עבורו ונטרפו עד י״ג פרים"
+     ],
+     "confidence": 2,
+     "why": "Oxen slaughtered and found treif until the thirteenth was kosher",
+     "quotes_failed": false
+    },
+    {
+     "tag": "practice:halakhah",
+     "scope": "span",
+     "quotes": [
+      "ונטרפו עד י״ג פרים והי״ג הוכשר"
+     ],
+     "confidence": 1,
+     "why": "Kashrut status of the slaughtered animals",
+     "quotes_failed": false
+    },
+    {
+     "tag": "practice:storytelling",
+     "scope": "span",
+     "quotes": [
+      "מה ששמעתי מאאמו״ר הרב זצל״ה שאמר משם הה״ק רבינו מלובלין"
+     ],
+     "confidence": 2,
+     "why": "The interpretation is transmitted orally from the Seer of Lublin",
+     "quotes_failed": false
+    },
+    {
+     "tag": "not-a-hasidic-story:sermon",
+     "scope": "span",
+     "quotes": [
+      "שהעיקר הנסיון היה שהאמין במאמר חז״ל"
+     ],
+     "confidence": 1,
+     "why": "A short homiletic frame interpreting the tale",
+     "quotes_failed": false
+    },
+    {
+     "tag": "characters-and-roles:the_family_of_the_tsaddik",
+     "scope": "span",
+     "quotes": [
+      "עד כי נוה על ב״ב להוציא הסעודה"
+     ],
+     "confidence": 1,
+     "why": "The household is ordered to bring out the food",
+     "quotes_failed": false
+    }
+   ],
+   "missing_concepts": [
+    "hospitality (hachnasat orchim)",
+    "test / trial (nisayon) of the righteous",
+    "faith in the words of the sages (emunat chakhamim)",
+    "patience / forbearance"
+   ],
+   "start_quote_found": true,
+   "end_quote_found": true
+  }
+ ],
+ "check": {
+  "non_vocab_tags": [],
+  "quotes": 14,
+  "quotes_not_found": 0
+ },
+ "id": "Derech-Haemuna_0073",
+ "chars": 1050,
+ "seconds": 21
+}

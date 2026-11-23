@@ -1,0 +1,122 @@
+{
+ "unit": {
+  "kind": "hasidic_story",
+  "why": "A single anecdote, told by the son of R. Mordechai of Neschiz, about his father giving away the money he had saved for an etrog to a water-carrier whose horse had died.",
+  "boundary_note": ""
+ },
+ "stories": [
+  {
+   "k": 1,
+   "start_quote": "סיפר מר מנשחיז שאביו הגאון מוהר״מ זצל\"ה",
+   "end_quote": "אתרוג יפה ומהודר עד מאד. (ז״ט)",
+   "hasidic": true,
+   "summary_en": "R. Mordechai of Neschiz saved for a long time to buy an etrog, but on his way to Brody he gave all six roubles to a weeping water-carrier whose horse had died, saying that this too is God's commandment; in the end a beautiful etrog was brought to his home.",
+   "tags": [
+    {
+     "tag": "ethics-and-emotions:charity",
+     "scope": "span",
+     "quotes": [
+      "ועמד הרב ונתן לו הששה רו״כ",
+      "וקנה לו סוס אחר בעדם"
+     ],
+     "confidence": 3,
+     "why": "He gives his etrog money to the poor water-carrier.",
+     "quotes_failed": false
+    },
+    {
+     "tag": "folkloristics:story_type_virtues",
+     "scope": "story",
+     "quotes": [],
+     "confidence": 3,
+     "why": "The tale illustrates the tzaddik's charity and self-sacrifice.",
+     "quotes_failed": false
+    },
+    {
+     "tag": "ethics-and-emotions:virtues",
+     "scope": "span",
+     "quotes": [
+      "וכי מה הוא החילוק אתרוג הוא מצות ה׳ וזהו ג״כ מצות ה׳ היא"
+     ],
+     "confidence": 2,
+     "why": "He states that helping the needy is as much a mitzvah as the etrog.",
+     "quotes_failed": false
+    },
+    {
+     "tag": "ethics-and-emotions:sadness",
+     "scope": "span",
+     "quotes": [
+      "והיה בוכה ומתאנח ע״ז"
+     ],
+     "confidence": 1,
+     "why": "The water-carrier weeps over his dead horse.",
+     "quotes_failed": false
+    },
+    {
+     "tag": "times:holidays",
+     "scope": "span",
+     "quotes": [
+      "עד שקיבץ לו על אתרוג של מצוה"
+     ],
+     "confidence": 2,
+     "why": "The etrog for Sukkot frames the story.",
+     "quotes_failed": false
+    },
+    {
+     "tag": "practice:the_travels_of_the_tsaddik",
+     "scope": "span",
+     "quotes": [
+      "ונסע לקנות אתרוג לבראד ופגע בשואב מים אחד"
+     ],
+     "confidence": 2,
+     "why": "The encounter takes place on his journey to Brody.",
+     "quotes_failed": false
+    },
+    {
+     "tag": "supernatural:miracle",
+     "scope": "span",
+     "quotes": [
+      "והביאו לו לביתו אתרוג יפה ומהודר עד מאד"
+     ],
+     "confidence": 1,
+     "why": "The unexpected arrival of a fine etrog is implied as a reward; it is not explicitly called a miracle.",
+     "quotes_failed": false
+    },
+    {
+     "tag": "practice:storytelling",
+     "scope": "span",
+     "quotes": [
+      "סיפר מר מנשחיז שאביו הגאון"
+     ],
+     "confidence": 2,
+     "why": "The tale is framed as told by the tzaddik's son.",
+     "quotes_failed": false
+    },
+    {
+     "tag": "practice:halakhah",
+     "scope": "span",
+     "quotes": [
+      "אתרוג הוא מצות ה׳ וזהו ג״כ מצות ה׳ היא"
+     ],
+     "confidence": 1,
+     "why": "He weighs one mitzvah against another; the point is closer to ethics than law.",
+     "quotes_failed": false
+    }
+   ],
+   "missing_concepts": [
+    "Commandment of the four species / etrog (hiddur mitzvah)",
+    "Weighing one mitzvah against another",
+    "Heavenly reward for self-sacrifice"
+   ],
+   "start_quote_found": true,
+   "end_quote_found": true
+  }
+ ],
+ "check": {
+  "non_vocab_tags": [],
+  "quotes": 9,
+  "quotes_not_found": 0
+ },
+ "id": "Derech-Haemuna_0021",
+ "chars": 473,
+ "seconds": 17
+}

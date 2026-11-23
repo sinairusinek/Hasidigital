@@ -1,0 +1,132 @@
+{
+ "unit": {
+  "kind": "hasidic_story",
+  "why": "A teaching by the Holy Jew on revealing the messianic end, with a gematria prediction for 5603 (1843) and his instruction to visit his grave; it ends with a short account of the prediction coming true and people going to his grave with a Torah scroll. This makes it a minimal narrative.",
+  "boundary_note": "borderline: mostly saying/exegesis with a brief fulfilment narrative"
+ },
+ "stories": [
+  {
+   "k": 1,
+   "start_quote": "אמר הה״ק היהודי זצ״ל במחילה מכבודם",
+   "end_quote": "והועילו מעט על שנה אחת",
+   "hasidic": true,
+   "summary_en": "The Holy Jew says that whoever reveals the messianic end does not truly know it, yet foresees redemption or else troubles in 5603 (תר״ג), and tells people to come to his grave with a Torah scroll. The troubles came, people did so, and it helped a little for one year.",
+   "tags": [
+    {
+     "tag": "folkloristics:story_type_prognostication",
+     "scope": "story",
+     "quotes": [],
+     "confidence": 3,
+     "why": "The arc is the tzaddik's prediction and its fulfilment.",
+     "quotes_failed": false
+    },
+    {
+     "tag": "supernatural:prognostication",
+     "scope": "span",
+     "quotes": [
+      "בשנת תר״ג אני רואה פקידה",
+      "וכן היה שנתחדשו אז הצרות הידועים"
+     ],
+     "confidence": 3,
+     "why": "He predicts troubles in 1843 and they come.",
+     "quotes_failed": false
+    },
+    {
+     "tag": "characters-and-roles:messiah",
+     "scope": "span",
+     "quotes": [
+      "המגלים קץ המשיח"
+     ],
+     "confidence": 3,
+     "why": "Calculating the messianic end is the theme.",
+     "quotes_failed": false
+    },
+    {
+     "tag": "times:eschatology",
+     "scope": "span",
+     "quotes": [
+      "המגלים קץ המשיח",
+      "ואם לא יהיה אז קץ האמיתי"
+     ],
+     "confidence": 3,
+     "why": "The end of days and redemption are discussed.",
+     "quotes_failed": false
+    },
+    {
+     "tag": "practice:pilgrimage_to_the_graves_of_tsaddikim",
+     "scope": "span",
+     "quotes": [
+      "לכן יראו אז לעלות על קברי עם ס״ת",
+      "והלכו אנשים ידועים על קברו עם ס״ת"
+     ],
+     "confidence": 3,
+     "why": "He instructs a visit to his grave, and people carry it out.",
+     "quotes_failed": false
+    },
+    {
+     "tag": "practice:prayer",
+     "scope": "span",
+     "quotes": [
+      "ולבקש רחמים וכן היה"
+     ],
+     "confidence": 2,
+     "why": "Praying for mercy at the grave.",
+     "quotes_failed": false
+    },
+    {
+     "tag": "practice:sermon",
+     "scope": "span",
+     "quotes": [
+      "וזה נרמז בפסוק וברב גאונך תהרס"
+     ],
+     "confidence": 2,
+     "why": "He derives the date by exegesis of a verse.",
+     "quotes_failed": false
+    },
+    {
+     "tag": "not-a-hasidic-story:sermon",
+     "scope": "story",
+     "quotes": [],
+     "confidence": 1,
+     "why": "Most of the text is a saying and a gematria interpretation, with only a brief narrative.",
+     "quotes_failed": false
+    },
+    {
+     "tag": "practice:torat_ha_tsaddik",
+     "scope": "span",
+     "quotes": [
+      "והלכו אנשים ידועים על קברו עם ס״ת והועילו מעט"
+     ],
+     "confidence": 1,
+     "why": "The dead tzaddik's grave is effective for intercession.",
+     "quotes_failed": false
+    },
+    {
+     "tag": "times:historical_event",
+     "scope": "span",
+     "quotes": [
+      "שנתחדשו אז הצרות הידועים"
+     ],
+     "confidence": 1,
+     "why": "Refers to the well-known troubles of 1843, probably government decrees.",
+     "quotes_failed": false
+    }
+   ],
+   "missing_concepts": [
+    "calculating the messianic end (חישוב קץ)",
+    "gematria/notarikon derivation of a date",
+    "carrying a Torah scroll to a grave as a ritual against troubles"
+   ],
+   "start_quote_found": true,
+   "end_quote_found": true
+  }
+ ],
+ "check": {
+  "non_vocab_tags": [],
+  "quotes": 11,
+  "quotes_not_found": 0
+ },
+ "id": "Derech-Haemuna_0066",
+ "chars": 534,
+ "seconds": 18
+}

@@ -1,0 +1,124 @@
+{
+ "unit": {
+  "kind": "hasidic_story",
+  "why": "A single narrative about R. Simha Bunem of Przysucha arranging a match between his disciple R. Menahem Mendel (of Kotzk) and R. Hirsch'le Dishkes, with its aftermath.",
+  "boundary_note": ""
+ },
+ "stories": [
+  {
+   "k": 1,
+   "start_quote": "שמעתי פ״א כשהי׳ יושב הרה״ק הנ\"ל",
+   "end_quote": "היה שמו כשמי מנחם בן אסתר",
+   "hasidic": true,
+   "summary_en": "R. Simha Bunem tells his disciple R. Menahem Mendel to make a match with the wealthy R. Zvi Hirsch Dishkes (the narrator's ancestor). Both laugh it off until the rebbe's son R. Avraham Moshe brokers the match. R. Zvi's family mocks the match with a poor man. R. Zvi's wife goes to Przysucha to complain, and the rebbe tells her to imagine the groom's father is R. Menahem Mendel of Vitebsk. Later the Kotzker hints at this identity, telling R. Zvi that the author of Pri ha-Aretz bore his own name, Menahem son of Esther.",
+   "tags": [
+    {
+     "tag": "social:marriage",
+     "scope": "story",
+     "quotes": [],
+     "confidence": 3,
+     "why": "The whole story concerns arranging a match (shiddukh).",
+     "quotes_failed": false
+    },
+    {
+     "tag": "social:inter_hasidic_master_disciple_relationship",
+     "scope": "span",
+     "quotes": [
+      "אמר לתלמידו הרה״ק ר׳ מ״מ זצ״ל אני רוצה שתשדך"
+     ],
+     "confidence": 3,
+     "why": "The rebbe directs his disciple's family matters.",
+     "quotes_failed": false
+    },
+    {
+     "tag": "characters-and-roles:the_family_of_the_tsaddik",
+     "scope": "span",
+     "quotes": [
+      "וכששמע בנו הרה״ק ר׳ אברהם משה זצ\"ל"
+     ],
+     "confidence": 3,
+     "why": "The rebbe's son mediates the match.",
+     "quotes_failed": false
+    },
+    {
+     "tag": "women:minor_character",
+     "scope": "span",
+     "quotes": [
+      "ונסעה אשתו של הרה״ק ר׳ צבי זצ״ל עם הכלה לפרשיסחא"
+     ],
+     "confidence": 3,
+     "why": "R. Zvi's wife travels to the rebbe and questions him.",
+     "quotes_failed": false
+    },
+    {
+     "tag": "practice:travel_to_the_tsaddik",
+     "scope": "span",
+     "quotes": [
+      "עם הכלה לפרשיסחא להרה״ק ר׳ שמחה בונם זצ\"ל",
+      "וכשנסע אח״כ הרה״ק ר׳ צבי זל״ל לקאצק"
+     ],
+     "confidence": 3,
+     "why": "Journeys to Przysucha and to Kotzk.",
+     "quotes_failed": false
+    },
+    {
+     "tag": "supernatural:reincarnation",
+     "scope": "span",
+     "quotes": [
+      "השמעת מהרה״ק ר׳ מ״מ זצ״ל מוויטעבסק ודמה לך שזה הוא",
+      "היה שמו כשמי מנחם בן אסתר"
+     ],
+     "confidence": 2,
+     "why": "Implies that the Kotzker is a gilgul of R. Menahem Mendel of Vitebsk.",
+     "quotes_failed": false
+    },
+    {
+     "tag": "supernatural:perception",
+     "scope": "span",
+     "quotes": [
+      "ודמה לך שזה הוא"
+     ],
+     "confidence": 2,
+     "why": "The rebbe knows the soul-root of his disciple.",
+     "quotes_failed": false
+    },
+    {
+     "tag": "social:retrospective_recognition",
+     "scope": "span",
+     "quotes": [
+      "תדעו שזה הבעהמ״ח היה שמו כשמי"
+     ],
+     "confidence": 2,
+     "why": "The true stature of the poor groom's father is revealed after the fact.",
+     "quotes_failed": false
+    },
+    {
+     "tag": "social:poverty",
+     "scope": "span",
+     "quotes": [
+      "הלא הוא איש עני ואביון ואתה ב״ה נגיד"
+     ],
+     "confidence": 1,
+     "why": "The disciple's poverty is the family's objection to the match; it is not explicitly embraced as a virtue.",
+     "quotes_failed": false
+    }
+   ],
+   "missing_concepts": [
+    "matchmaking arranged by a tsaddik (shiddukh)",
+    "family genealogy / narrator's ancestor",
+    "rich–poor match",
+    "books of earlier tsaddikim (Pri ha-Aretz)"
+   ],
+   "start_quote_found": true,
+   "end_quote_found": true
+  }
+ ],
+ "check": {
+  "non_vocab_tags": [],
+  "quotes": 10,
+  "quotes_not_found": 0
+ },
+ "id": "Likutim-Hadashim_0047",
+ "chars": 960,
+ "seconds": 18
+}

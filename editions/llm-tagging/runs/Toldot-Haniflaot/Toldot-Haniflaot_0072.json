@@ -1,0 +1,112 @@
+{
+ "unit": {
+  "kind": "hasidic_story",
+  "why": "A short anecdote: on a Friday night the tzaddik tells his table that a bird knocked on his door and called him back from rapture to the waiting hasidim.",
+  "boundary_note": ""
+ },
+ "stories": [
+  {
+   "k": 1,
+   "start_quote": "עז סיפר לי הרב החסיד, אשר",
+   "end_quote": "ולמה לא תלך אליהם :",
+   "hasidic": true,
+   "summary_en": "After Friday-night kiddush the tzaddik tells those at his table that, while alone in his room and so absorbed that he forgot he was in this world, a bird knocked on his door and told him the people at the table were waiting for him.",
+   "tags": [
+    {
+     "tag": "times:shabbat",
+     "scope": "span",
+     "quotes": [
+      "אחר קידוש דליל שבת אמר להיושבים על שלחנו"
+     ],
+     "confidence": 3,
+     "why": "The scene is set at the Friday-night table.",
+     "quotes_failed": false
+    },
+    {
+     "tag": "practice:devekut",
+     "scope": "span",
+     "quotes": [
+      "היה נשכח ממני לגמרי שאני בעוה״ז"
+     ],
+     "confidence": 3,
+     "why": "He was so rapt that he forgot this world.",
+     "quotes_failed": false
+    },
+    {
+     "tag": "experience:devekut",
+     "scope": "span",
+     "quotes": [
+      "היה נשכח ממני לגמרי שאני בעוה״ז"
+     ],
+     "confidence": 3,
+     "why": "The tzaddik describes his own mystical absorption.",
+     "quotes_failed": false
+    },
+    {
+     "tag": "practice:solitude",
+     "scope": "span",
+     "quotes": [
+      "וישבתי בחדרי היה נשכח ממני"
+     ],
+     "confidence": 2,
+     "why": "He was secluded in his room before coming to the table.",
+     "quotes_failed": false
+    },
+    {
+     "tag": "supernatural:communicating_with_the_invisible",
+     "scope": "span",
+     "quotes": [
+      "ובא עוף א׳ ודפק על פתחי ואמר"
+     ],
+     "confidence": 1,
+     "why": "A bird speaks to him, apparently a heavenly messenger.",
+     "quotes_failed": false
+    },
+    {
+     "tag": "supernatural:miracle",
+     "scope": "span",
+     "quotes": [
+      "ובא עוף א׳ ודפק על פתחי ואמר"
+     ],
+     "confidence": 2,
+     "why": "A talking bird is a discrete wondrous event.",
+     "quotes_failed": false
+    },
+    {
+     "tag": "practice:storytelling",
+     "scope": "span",
+     "quotes": [
+      "אמר להיושבים על שלחנו, הנה עוף אחד ריחם עליכם"
+     ],
+     "confidence": 2,
+     "why": "The tzaddik tells the event at his Shabbat table.",
+     "quotes_failed": false
+    },
+    {
+     "tag": "spaces:institutions_hassidic_court",
+     "scope": "span",
+     "quotes": [
+      "כי אנשים היושבים בהשלחן מצפים ביאתך"
+     ],
+     "confidence": 1,
+     "why": "The tzaddik's table with his followers is the setting.",
+     "quotes_failed": false
+    }
+   ],
+   "missing_concepts": [
+    "animal (bird) as a divine messenger",
+    "the tzaddik's tish (Shabbat table gathering)"
+   ],
+   "start_quote_found": true,
+   "end_quote_found": true
+  }
+ ],
+ "check": {
+  "non_vocab_tags": [],
+  "quotes": 8,
+  "quotes_not_found": 0
+ },
+ "id": "Toldot-Haniflaot_0072",
+ "chars": 249,
+ "seconds": 13
+}

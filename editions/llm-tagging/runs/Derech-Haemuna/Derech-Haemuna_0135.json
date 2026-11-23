@@ -1,0 +1,154 @@
+{
+ "unit": {
+  "kind": "hasidic_story",
+  "why": "A moral teaching on guarding one's speech is illustrated by one narrative: R. Yitzhak of Drohobych fails to fall asleep, discovers his sin of silent complicity in mockery of the Besht, travels to Medzhybizh, and the Besht recognizes and forgives him.",
+  "boundary_note": "Division opens as item ד of the alphabetical section on mockery (מענין ליצנות) and ends with the heading for the next section (מענין מאכלים)."
+ },
+ "stories": [
+  {
+   "k": 1,
+   "start_quote": "כמו שאירע להק׳ רבינו יצחק מדראהביטש",
+   "end_quote": "ובעש״ט מוחל בלב שלם",
+   "hasidic": true,
+   "summary_en": "R. Yitzhak of Drohobych, whose inability to sleep after reciting 'Into Your hand' signaled an unrepented sin, realizes he stood silently while scoffers mocked the Besht; he rides at once to Medzhybizh, prays unknown in the Besht's study hall, and the Besht calls him by name at the Torah reading, names his offense and forgives him wholeheartedly.",
+   "tags": [
+    {
+     "tag": "not-a-hasidic-story:sermon",
+     "scope": "story",
+     "quotes": [],
+     "confidence": 2,
+     "why": "Narrative is wrapped in a homiletic frame warning against evil speech, closing with an admonition to the reader.",
+     "quotes_failed": false
+    },
+    {
+     "tag": "supernatural:perception",
+     "scope": "span",
+     "quotes": [
+      "קרא אותו מרן מורה מרינו ר׳ יצחק בן ר׳ יוסף",
+      "התלוצץ על הבעש״ט ונסע דרך כזה"
+     ],
+     "confidence": 3,
+     "why": "The Besht knows the stranger's name and his sin without being told.",
+     "quotes_failed": false
+    },
+    {
+     "tag": "supernatural:communicating_with_the_invisible",
+     "scope": "span",
+     "quotes": [
+      "ואינם רוצין לקבלו עד שיעשה תשובה"
+     ],
+     "confidence": 1,
+     "why": "Heaven signals refusal through his inability to sleep.",
+     "quotes_failed": false
+    },
+    {
+     "tag": "ethics-and-emotions:repentance",
+     "scope": "span",
+     "quotes": [
+      "ואינם רוצין לקבלו עד שיעשה תשובה",
+      "ונסע תיכף לק״ק מעזיבז לבקש ממנו מטו"
+     ],
+     "confidence": 3,
+     "why": "He seeks out his sin and travels to ask forgiveness.",
+     "quotes_failed": false
+    },
+    {
+     "tag": "ethics-and-emotions:prohibitions",
+     "scope": "span",
+     "quotes": [
+      "והאיך לשמור עצמו מלדבר סרה",
+      "והוא שתק ולא מיחה"
+     ],
+     "confidence": 2,
+     "why": "The prohibition against evil speech and mockery, and failing to protest, is at issue.",
+     "quotes_failed": false
+    },
+    {
+     "tag": "ethics-and-emotions:punishment",
+     "scope": "span",
+     "quotes": [
+      "ואם אירע שלא יכול לישן היה יודע שעשה איזה חטא"
+     ],
+     "confidence": 1,
+     "why": "Sleeplessness functions as a heavenly sign or sanction for sin.",
+     "quotes_failed": false
+    },
+    {
+     "tag": "practice:travel_to_the_tsaddik",
+     "scope": "span",
+     "quotes": [
+      "ונסע תיכף לק״ק מעזיבז לבקש ממנו מטו"
+     ],
+     "confidence": 3,
+     "why": "He journeys to the Besht's town to see him.",
+     "quotes_failed": false
+    },
+    {
+     "tag": "practice:prayer",
+     "scope": "span",
+     "quotes": [
+      "שתיכף שיאמר בידך אפקיד ישן לו",
+      "ועמד שם בזויות להתפלל"
+     ],
+     "confidence": 3,
+     "why": "He recites the bedtime prayer and prays in the study hall.",
+     "quotes_failed": false
+    },
+    {
+     "tag": "spaces:beth_midrash",
+     "scope": "span",
+     "quotes": [
+      "והלך הרב ר׳ יצחק לבית מדרשו של מרן להתפלל"
+     ],
+     "confidence": 3,
+     "why": "The recognition scene takes place in the Besht's study hall.",
+     "quotes_failed": false
+    },
+    {
+     "tag": "social:relations_with_non_hasidim",
+     "scope": "span",
+     "quotes": [
+      "שהי׳ עומד במסיבות לצים שעשו ליצנות ממרן"
+     ],
+     "confidence": 2,
+     "why": "He was among people who scoffed at the Besht, i.e. outside or opposed to his circle.",
+     "quotes_failed": false
+    },
+    {
+     "tag": "folkloristics:story_type_rapprochement",
+     "scope": "story",
+     "quotes": [],
+     "confidence": 1,
+     "why": "A man complicit in mocking the Besht comes to him and is reconciled.",
+     "quotes_failed": false
+    },
+    {
+     "tag": "ethics-and-emotions:virtues",
+     "scope": "span",
+     "quotes": [
+      "ובעש״ט מוחל בלב שלם"
+     ],
+     "confidence": 1,
+     "why": "The Besht's wholehearted forgiveness is shown as a virtue.",
+     "quotes_failed": false
+    }
+   ],
+   "missing_concepts": [
+    "lashon hara / mockery of a tzaddik",
+    "complicity through silence (failing to protest)",
+    "sleep as a sign of heavenly acceptance",
+    "forgiveness"
+   ],
+   "start_quote_found": true,
+   "end_quote_found": true
+  }
+ ],
+ "check": {
+  "non_vocab_tags": [],
+  "quotes": 14,
+  "quotes_not_found": 0
+ },
+ "id": "Derech-Haemuna_0135",
+ "chars": 874,
+ "seconds": 20
+}

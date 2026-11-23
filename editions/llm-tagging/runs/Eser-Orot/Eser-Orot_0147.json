@@ -1,0 +1,135 @@
+{
+ "unit": {
+  "kind": "hasidic_story",
+  "why": "A short narrative: three tsaddikim (the Kozienice Maggid, the Seer of Lublin, R. Mendele of Przytyk) agreed to pray for redemption on Simhat Torah 1815, and all three died that same year.",
+  "boundary_note": ""
+ },
+ "stories": [
+  {
+   "k": 1,
+   "start_quote": "עו\"ש בשם הרה״ג מו״ה חיים דובער גראס",
+   "end_quote": "[א\"ה ויבא מזה במע׳ מרן מלובלין זי״ע]",
+   "hasidic": true,
+   "summary_en": "The Maggid of Kozienice, the Seer of Lublin and R. Mendele of Przytyk, bound by deep love, agreed to plead for the hastening of redemption on Shemini Atzeret 1815. Because of the generation's sins the Maggid died on the eve of Sukkot, and the other two died later that same year.",
+   "tags": [
+    {
+     "tag": "characters-and-roles:messiah",
+     "scope": "span",
+     "quotes": [
+      "ירבו ברחמים להחיש גאולתינו"
+     ],
+     "confidence": 3,
+     "why": "the plan to hasten the redemption is the core of the story",
+     "quotes_failed": false
+    },
+    {
+     "tag": "times:eschatology",
+     "scope": "span",
+     "quotes": [
+      "ירבו ברחמים להחיש גאולתינו"
+     ],
+     "confidence": 3,
+     "why": "a messianic attempt to bring the redemption",
+     "quotes_failed": false
+    },
+    {
+     "tag": "times:death",
+     "scope": "span",
+     "quotes": [
+      "נתבקש המגיד הק׳ בישיבה ש\"מ בערב סוכות תקע\"ה",
+      "ונפטרו גם שניהם בשנה ההוא"
+     ],
+     "confidence": 3,
+     "why": "the deaths of all three tsaddikim are narrated",
+     "quotes_failed": false
+    },
+    {
+     "tag": "times:holidays",
+     "scope": "span",
+     "quotes": [
+      "שבשמ״ע דשנת תקע\"ה ירבו ברחמים",
+      "בערב סוכות תקע\"ה"
+     ],
+     "confidence": 3,
+     "why": "the plan is set for Shemini Atzeret and the Maggid dies on the eve of Sukkot",
+     "quotes_failed": false
+    },
+    {
+     "tag": "practice:failure",
+     "scope": "span",
+     "quotes": [
+      "והן בעון הדור נתבקש המגיד הק׳"
+     ],
+     "confidence": 2,
+     "why": "the joint intercession is thwarted, and the sin of the generation is given as the reason",
+     "quotes_failed": false
+    },
+    {
+     "tag": "practice:prayer",
+     "scope": "span",
+     "quotes": [
+      "ירבו ברחמים להחיש גאולתינו"
+     ],
+     "confidence": 2,
+     "why": "planned intercessory prayer",
+     "quotes_failed": false
+    },
+    {
+     "tag": "social:inter_hasidic",
+     "scope": "span",
+     "quotes": [
+      "אהבה עזה היתה בין המגיד הק' מקאזניץ",
+      "הני תלתא סבי קדושי ז\"ל"
+     ],
+     "confidence": 3,
+     "why": "friendship and alliance among three tsaddikim",
+     "quotes_failed": false
+    },
+    {
+     "tag": "practice:travel_to_other_tsaddik",
+     "scope": "span",
+     "quotes": [
+      "עודנו בקאזניץ לקבל פני המגיד הק׳ ז\"ל אוהבו"
+     ],
+     "confidence": 2,
+     "why": "R. Mendele visits the Maggid in Kozienice",
+     "quotes_failed": false
+    },
+    {
+     "tag": "practice:torat_ha_tsaddik",
+     "scope": "span",
+     "quotes": [
+      "ויעשו מה שיעשו בחכמתם הק׳"
+     ],
+     "confidence": 1,
+     "why": "assumes the tsaddikim have power to affect the redemption",
+     "quotes_failed": false
+    },
+    {
+     "tag": "practice:storytelling",
+     "scope": "span",
+     "quotes": [
+      "עו\"ש בשם הרה״ג מו״ה חיים דובער גראס"
+     ],
+     "confidence": 1,
+     "why": "presented as a tradition passed on from a named rabbi",
+     "quotes_failed": false
+    }
+   ],
+   "missing_concepts": [
+    "a joint messianic attempt by several tsaddikim (the 1815 'forcing the end' tradition)",
+    "the deaths of the tsaddikim read as the consequence of a messianic attempt"
+   ],
+   "start_quote_found": true,
+   "end_quote_found": true
+  }
+ ],
+ "check": {
+  "non_vocab_tags": [],
+  "quotes": 13,
+  "quotes_not_found": 0
+ },
+ "id": "Eser-Orot_0147",
+ "chars": 615,
+ "seconds": 19
+}

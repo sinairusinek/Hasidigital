@@ -1,0 +1,113 @@
+{
+ "unit": {
+  "kind": "hasidic_story",
+  "why": "A short anecdote: the tsaddik's mother sees a tsaddik's soul during prayer and correctly infers that it is his yahrzeit, which the people then verify.",
+  "boundary_note": "Part of a numbered series of anecdotes about the tsaddik's mother (previous §: his birth foretold; next §: her vision during Kedushah); this section stands as its own episode."
+ },
+ "stories": [
+  {
+   "k": 1,
+   "start_quote": "ובל תחשוב כי היא וחלומותיה היו",
+   "end_quote": "והבינה כי היום הוא היא״צ שלו",
+   "hasidic": true,
+   "summary_en": "The mother of the tsaddik, a woman of high spiritual rank who saw souls of tzaddikim while awake, asks one morning after prayer whether it is a certain tzaddik's yahrzeit; inquiry confirms it, and she explains she saw him during prayer.",
+   "tags": [
+    {
+     "tag": "women:major_character",
+     "scope": "story",
+     "quotes": [],
+     "confidence": 3,
+     "why": "The mother is the central actor and visionary.",
+     "quotes_failed": false
+    },
+    {
+     "tag": "characters-and-roles:the_family_of_the_tsaddik",
+     "scope": "span",
+     "quotes": [
+      "באשר שמעתי בפירוש ממרן הק זצ״ל"
+     ],
+     "confidence": 3,
+     "why": "The protagonist is the tsaddik's mother.",
+     "quotes_failed": false
+    },
+    {
+     "tag": "experience:visions",
+     "scope": "span",
+     "quotes": [
+      "וזכתה לגילוי נשמות הצדיקים בהקיץ",
+      "ואמרה שראתה אותו בעת תפלה"
+     ],
+     "confidence": 3,
+     "why": "She sees a departed tzaddik's soul while awake.",
+     "quotes_failed": false
+    },
+    {
+     "tag": "supernatural:communicating_with_the_invisible",
+     "scope": "span",
+     "quotes": [
+      "וזכתה לגילוי נשמות הצדיקים בהקיץ"
+     ],
+     "confidence": 2,
+     "why": "Souls of tzaddikim are disclosed to her.",
+     "quotes_failed": false
+    },
+    {
+     "tag": "supernatural:perception",
+     "scope": "span",
+     "quotes": [
+      "שאלה מהאנשים אם היום הוא היא״צ של צדיק פלוני"
+     ],
+     "confidence": 3,
+     "why": "Through her vision she knows the yahrzeit, which she could not have known otherwise.",
+     "quotes_failed": false
+    },
+    {
+     "tag": "experience:revelation",
+     "scope": "span",
+     "quotes": [
+      "וזכתה לגילוי נשמות הצדיקים בהקיץ"
+     ],
+     "confidence": 2,
+     "why": "The text calls it a disclosure (giluy) of souls.",
+     "quotes_failed": false
+    },
+    {
+     "tag": "practice:prayer",
+     "scope": "span",
+     "quotes": [
+      "ופ״א בבקר אחר התפלה",
+      "שראתה אותו בעת תפלה"
+     ],
+     "confidence": 2,
+     "why": "The vision occurs during morning prayer.",
+     "quotes_failed": false
+    },
+    {
+     "tag": "ethics-and-emotions:virtues",
+     "scope": "span",
+     "quotes": [
+      "תדע כי נודע ומפורסם שהיתה בעל מדרגה גדולה"
+     ],
+     "confidence": 1,
+     "why": "The story praises her spiritual rank.",
+     "quotes_failed": false
+    }
+   ],
+   "missing_concepts": [
+    "yahrzeit (anniversary of a tzaddik's death)",
+    "verification of a supernatural claim by inquiry",
+    "spiritual rank of a tsaddik's mother"
+   ],
+   "start_quote_found": true,
+   "end_quote_found": true
+  }
+ ],
+ "check": {
+  "non_vocab_tags": [],
+  "quotes": 9,
+  "quotes_not_found": 0
+ },
+ "id": "Toldot-Haniflaot_0003",
+ "chars": 320,
+ "seconds": 15
+}

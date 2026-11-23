@@ -1,0 +1,62 @@
+{
+ "unit": {
+  "kind": "hasidic_story",
+  "why": "split out of non-story-003 (non-story)"
+ },
+ "stories": [
+  {
+   "k": 9,
+   "start_quote": "במס׳ סנהדרין (דף ס\"ה ע״ב) רבא ברא גברא",
+   "end_quote": "הדר לעפרך",
+   "hasidic": false,
+   "summary_en": "Rava creates a man through Sefer Yetzirah; R. Zera finds it cannot speak and returns it to dust.",
+   "tags": [
+    {
+     "tag": "knowledge:practical_kabbalah",
+     "scope": "span",
+     "quotes": [
+      "ע\"י ספר יצירה שלמדו צירוף אותיות של שם"
+     ],
+     "confidence": 3,
+     "why": "creating a golem",
+     "quotes_failed": false
+    },
+    {
+     "tag": "practice:use_of_holy_names",
+     "scope": "span",
+     "quotes": [
+      "צירוף אותיות של שם"
+     ],
+     "confidence": 3,
+     "why": "letter combinations",
+     "quotes_failed": false
+    },
+    {
+     "tag": "knowledge:secret_texts",
+     "scope": "span",
+     "quotes": [
+      "ע\"י ספר יצירה"
+     ],
+     "confidence": 2,
+     "why": "Sefer Yetzirah",
+     "quotes_failed": false
+    },
+    {
+     "tag": "not-a-hasidic-story:hagiography",
+     "scope": "story",
+     "quotes": [],
+     "confidence": 2,
+     "why": "talmudic",
+     "quotes_failed": false
+    }
+   ],
+   "missing_concepts": [
+    "golem"
+   ],
+   "start_quote_found": true,
+   "end_quote_found": true
+  }
+ ],
+ "id": "Eser-Orot_non-story-003_s9",
+ "split_from": "non-story-003"
+}

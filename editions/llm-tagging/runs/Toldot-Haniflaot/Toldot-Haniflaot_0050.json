@@ -1,0 +1,124 @@
+{
+ "unit": {
+  "kind": "hasidic_story",
+  "why": "A single narrative, heard from R. Mattel of Novertchov, about the Mogielnica rebbe who knew of the death of R. Mattel's father and told of the father's visits to his third meal.",
+  "boundary_note": ""
+ },
+ "stories": [
+  {
+   "k": 1,
+   "start_quote": "שמעתי מהחסיד ר' מאטיל אב\"ד דק' נאווערטשוב",
+   "end_quote": "כ״כ היה יכול להיות אצלי",
+   "hasidic": true,
+   "summary_en": "R. Mattel hides his father's death from the Mogielnica rebbe so as not to grieve him and says kaddish secretly; the rebbe perceives it and tells him that the father came to him at the Sabbath third meal before his death and asked that his son Leibli sing for him, which the rebbe arranged.",
+   "tags": [
+    {
+     "tag": "supernatural:perception",
+     "scope": "span",
+     "quotes": [
+      "ומ״מ שמע הרב והבין שאינו רוצה לצער אותו",
+      "הכי איני יודע שמת אביך"
+     ],
+     "confidence": 2,
+     "why": "The rebbe knows of the death and of the hidden intent without being told.",
+     "quotes_failed": false
+    },
+    {
+     "tag": "supernatural:communicating_with_the_invisible",
+     "scope": "span",
+     "quotes": [
+      "באמצע שלש סעודות בא אביך אלי"
+     ],
+     "confidence": 2,
+     "why": "The father's soul appears to the rebbe at the third meal near the time of his death.",
+     "quotes_failed": false
+    },
+    {
+     "tag": "times:death",
+     "scope": "span",
+     "quotes": [
+      "כשהיה אביו החסיד ר׳ זעליג מאמטשנאוו נפטר מהעולם"
+     ],
+     "confidence": 3,
+     "why": "The father's death drives the plot.",
+     "quotes_failed": false
+    },
+    {
+     "tag": "times:shabbat",
+     "scope": "span",
+     "quotes": [
+      "ובשבת השניה באמצעות שלש סעודות בא אל"
+     ],
+     "confidence": 3,
+     "why": "The visits happen at the Sabbath third meal.",
+     "quotes_failed": false
+    },
+    {
+     "tag": "practice:music",
+     "scope": "span",
+     "quotes": [
+      "שאקח בנו לייבלי למנגן אלי",
+      "וכובדתי אותו לזמר איזה זמר"
+     ],
+     "confidence": 3,
+     "why": "The son is honoured with singing a song.",
+     "quotes_failed": false
+    },
+    {
+     "tag": "practice:prayer",
+     "scope": "span",
+     "quotes": [
+      "והלך לכותל מערב לומר קדיש בחשאי"
+     ],
+     "confidence": 2,
+     "why": "He recites the mourner's kaddish.",
+     "quotes_failed": false
+    },
+    {
+     "tag": "practice:travel_to_the_tsaddik",
+     "scope": "span",
+     "quotes": [
+      "היה הרב ר׳ מאטיל במאגלניצא"
+     ],
+     "confidence": 2,
+     "why": "R. Mattel is staying with the rebbe at Mogielnica.",
+     "quotes_failed": false
+    },
+    {
+     "tag": "social:inter_hasidic_master_disciple_relationship",
+     "scope": "span",
+     "quotes": [
+      "ולא היה רוצה לצער את מרן לידע מפטירת אביו"
+     ],
+     "confidence": 2,
+     "why": "The disciple tries to spare his master grief.",
+     "quotes_failed": false
+    },
+    {
+     "tag": "practice:torat_ha_tsaddik",
+     "scope": "span",
+     "quotes": [
+      "ואמר כי דבר גדול הוא אשר סמוך לפטירתו"
+     ],
+     "confidence": 1,
+     "why": "Being with the tsaddik close to one's death is valued as a great thing.",
+     "quotes_failed": false
+    }
+   ],
+   "missing_concepts": [
+    "mourning / kaddish for a parent",
+    "soul of a dying person visiting a tsaddik"
+   ],
+   "start_quote_found": true,
+   "end_quote_found": true
+  }
+ ],
+ "check": {
+  "non_vocab_tags": [],
+  "quotes": 11,
+  "quotes_not_found": 0
+ },
+ "id": "Toldot-Haniflaot_0050",
+ "chars": 557,
+ "seconds": 17
+}

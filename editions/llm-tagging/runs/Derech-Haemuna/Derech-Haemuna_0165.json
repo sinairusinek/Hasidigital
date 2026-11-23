@@ -1,0 +1,259 @@
+{
+ "unit": {
+  "kind": "non_hasidic_story",
+  "why": "A first-person memorate by the pre-Hasidic author of Gaon Zvi (dated תנ\"ד). After a nocturnal pollution on Yom Kippur night he despaired, and an old man in a dream prescribed charity, Psalms and other practices. Liturgical segulah instructions and a brief note on the Neskhizh rebbe's custom follow.",
+  "boundary_note": "Division begins with section number ט) and ends with the heading of the next section 'מענין סמיכה'. The closing note on מרן מנסכיז is a habitual custom, not a separate narrative."
+ },
+ "stories": [
+  {
+   "k": 1,
+   "start_quote": "ומעשה שהיה כך היה בליל י״כ",
+   "end_quote": "לשום אדם",
+   "hasidic": false,
+   "summary_en": "On Yom Kippur night 1694 the author suffered a nocturnal emission and fell into despair, fasting and weeping. An old man appeared to him in a dream and prescribed charity by his ערך, daily and Rosh-Hodesh alms, avoiding anger and lies, reciting all of Psalms weekly, and more study instead of fasts. He followed it, had a good year, and was told to keep it secret.",
+   "tags": [
+    {
+     "tag": "not-a-hasidic-story:hagiography",
+     "scope": "story",
+     "quotes": [],
+     "confidence": 2,
+     "why": "pre-Hasidic rabbinic figure (Gaon Zvi), copied from his book",
+     "quotes_failed": false
+    },
+    {
+     "tag": "experience:dream",
+     "scope": "span",
+     "quotes": [
+      "נרדמתי על פני ואראה בחלום איש זקן בא בפתח"
+     ],
+     "confidence": 3,
+     "why": "central dream revelation",
+     "quotes_failed": false
+    },
+    {
+     "tag": "experience:revelation",
+     "scope": "span",
+     "quotes": [
+      "שמן השמים ממש עיר וקדיש נחית ללמדני"
+     ],
+     "confidence": 2,
+     "why": "dream understood as heavenly disclosure",
+     "quotes_failed": false
+    },
+    {
+     "tag": "supernatural:communicating_with_the_invisible",
+     "scope": "span",
+     "quotes": [
+      "ומיד נעלם מנגד עיני ולא ראיתיו כלל"
+     ],
+     "confidence": 2,
+     "why": "a heavenly messenger speaks to him",
+     "quotes_failed": false
+    },
+    {
+     "tag": "characters-and-roles:angels",
+     "scope": "span",
+     "quotes": [
+      "עיר וקדיש נחית ללמדני להועיל"
+     ],
+     "confidence": 1,
+     "why": "old man identified as a heavenly 'ir ve-kaddish'",
+     "quotes_failed": false
+    },
+    {
+     "tag": "ethics-and-emotions:fear",
+     "scope": "span",
+     "quotes": [
+      "וחרדה גדולה נפלה עלי בהקיצי",
+      "ונפל עלי אימה ופחד גדול מאד"
+     ],
+     "confidence": 3,
+     "why": "his dread after the sin and after the dream",
+     "quotes_failed": false
+    },
+    {
+     "tag": "experience:trembling",
+     "scope": "span",
+     "quotes": [
+      "אירתותי מירתת גם הוא ולא השיב לי"
+     ],
+     "confidence": 2,
+     "why": "son trembles on hearing",
+     "quotes_failed": false
+    },
+    {
+     "tag": "ethics-and-emotions:sadness",
+     "scope": "span",
+     "quotes": [
+      "ולבי עלי דאב רצתי ביגוני לבית התפלה",
+      "ועתה רואה אני שאתה לומד ופניך זועפות"
+     ],
+     "confidence": 3,
+     "why": "melancholy as the spiritual problem addressed",
+     "quotes_failed": false
+    },
+    {
+     "tag": "practice:fasting",
+     "scope": "span",
+     "quotes": [
+      "וקבלתי על עצמי כמה תעניתים בלי חשבון",
+      "ותרחק מפתח ביתך הצומות ותעניתים"
+     ],
+     "confidence": 3,
+     "why": "fasting, then rejected by the visitor",
+     "quotes_failed": false
+    },
+    {
+     "tag": "practice:asceticism",
+     "scope": "span",
+     "quotes": [
+      "שני לילות ושני ימים לא נתתי שונה לעיני"
+     ],
+     "confidence": 2,
+     "why": "sleepless self-mortification, debated",
+     "quotes_failed": false
+    },
+    {
+     "tag": "ethics-and-emotions:charity",
+     "scope": "span",
+     "quotes": [
+      "זו צדקה הנני נותן ערכי לחלק לעניים",
+      "כי צדקה תציל ממות"
+     ],
+     "confidence": 3,
+     "why": "charity is the core prescription",
+     "quotes_failed": false
+    },
+    {
+     "tag": "practice:recitation_of_psalms",
+     "scope": "span",
+     "quotes": [
+      "ואמר שאגיד כולה בשבוע אחת",
+      "והתהלים חלקתי כנ״ל כולו לשבוע אחד"
+     ],
+     "confidence": 3,
+     "why": "weekly recitation of all Psalms",
+     "quotes_failed": false
+    },
+    {
+     "tag": "ethics-and-emotions:anger",
+     "scope": "span",
+     "quotes": [
+      "שמור נפשך מאד משום כעס בעולם"
+     ],
+     "confidence": 2,
+     "why": "warning against anger as a failing",
+     "quotes_failed": false
+    },
+    {
+     "tag": "ethics-and-emotions:lying",
+     "scope": "span",
+     "quotes": [
+      "ושלא יצא דבר שקר מפיך כלל אפילו לעשות שלום"
+     ],
+     "confidence": 2,
+     "why": "lying is forbidden to him",
+     "quotes_failed": false
+    },
+    {
+     "tag": "ethics-and-emotions:prohibitions",
+     "scope": "span",
+     "quotes": [
+      "הקרה לי מקרה בלתי טהור",
+      "והזהירני שלא אגלה כל הדברים הנ״ל"
+     ],
+     "confidence": 2,
+     "why": "impurity and imposed prohibitions",
+     "quotes_failed": false
+    },
+    {
+     "tag": "ethics-and-emotions:repentance",
+     "scope": "span",
+     "quotes": [
+      "שפכתי דמעותי כל הלילה וכל היום הפלתי תחינתי"
+     ],
+     "confidence": 2,
+     "why": "penitential weeping and fasting",
+     "quotes_failed": false
+    },
+    {
+     "tag": "practice:prayer",
+     "scope": "span",
+     "quotes": [
+      "רצתי ביגוני לבית התפלה",
+      "שאראה להיות מעשרה ראשונים בב״ה"
+     ],
+     "confidence": 2,
+     "why": "prayer and synagogue attendance",
+     "quotes_failed": false
+    },
+    {
+     "tag": "practice:study",
+     "scope": "span",
+     "quotes": [
+      "שאוסיף מעט לימוד ע״כ שיעורים שאני לומד"
+     ],
+     "confidence": 2,
+     "why": "studying at night and asked to add study",
+     "quotes_failed": false
+    },
+    {
+     "tag": "times:holidays",
+     "scope": "span",
+     "quotes": [
+      "בליל י״כ תנ\"ד לבנ״י הקרה לי"
+     ],
+     "confidence": 3,
+     "why": "event on Yom Kippur night",
+     "quotes_failed": false
+    },
+    {
+     "tag": "ethics-and-emotions:joy",
+     "scope": "span",
+     "quotes": [
+      "ועלתה לי שנתי ת״ל בשמחה וטיב לב"
+     ],
+     "confidence": 2,
+     "why": "outcome: a year of joy",
+     "quotes_failed": false
+    },
+    {
+     "tag": "characters-and-roles:the_family_of_the_tsaddik",
+     "scope": "span",
+     "quotes": [
+      "רק לבן חביבי הגה״ק מוה׳ אפרים"
+     ],
+     "confidence": 2,
+     "why": "his son appears as confidant",
+     "quotes_failed": false
+    },
+    {
+     "tag": "spaces:beth_midrash",
+     "scope": "span",
+     "quotes": [
+      "רצתי ביגוני לבית התפלה"
+     ],
+     "confidence": 1,
+     "why": "synagogue setting of his weeping",
+     "quotes_failed": false
+    }
+   ],
+   "missing_concepts": [
+    "nocturnal emission (keri) on Yom Kippur and its remedy",
+    "segulah / tikkun prescriptions for longevity and offspring",
+    "ערך (valuation vow) as charity",
+    "liturgical piyyut instructions"
+   ],
+   "start_quote_found": true,
+   "end_quote_found": true
+  }
+ ],
+ "check": {
+  "non_vocab_tags": [],
+  "quotes": 28,
+  "quotes_not_found": 0
+ },
+ "id": "Derech-Haemuna_0165",
+ "chars": 5636,
+ "seconds": 30
+}

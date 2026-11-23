@@ -1,0 +1,180 @@
+{
+ "unit": {
+  "kind": "non_hasidic_story",
+  "why": "A legend about R. Abish of Frankfurt, a pre-Hasidic rabbinic authority, who hosts a strange insatiable guest sent to test his hospitality; the Seer of Lublin's comment is appended.",
+  "boundary_note": ""
+ },
+ "stories": [
+  {
+   "k": 1,
+   "start_quote": "בהיות הגאון ז\"ל אב״ד בפפד״מ",
+   "end_quote": "מאכלי העיר פפד״מ לא יספיק לו ויהי' כפין",
+   "hasidic": false,
+   "summary_en": "R. Abish of Frankfurt patiently feeds an insulting guest who devours everything over Shabbat, even the whole town's food and thirteen slaughtered animals; the guest reveals he came to test him and that the rabbi is highly esteemed in Heaven, and the Seer of Lublin explains that the real test was the rabbi's faith in the Sages' saying.",
+   "tags": [
+    {
+     "tag": "not-a-hasidic-story:hagiography",
+     "scope": "story",
+     "quotes": [],
+     "confidence": 3,
+     "why": "Praises R. Abish of Frankfurt, a non-Hasidic rabbinic authority",
+     "quotes_failed": false
+    },
+    {
+     "tag": "folkloristics:story_type_virtues",
+     "scope": "story",
+     "quotes": [],
+     "confidence": 3,
+     "why": "The tale illustrates the rabbi's hospitality, patience and innocent faith",
+     "quotes_failed": false
+    },
+    {
+     "tag": "ethics-and-emotions:virtues",
+     "scope": "span",
+     "quotes": [
+      "והגאון ז״ל לתומו האמין כי רעב הוא"
+     ],
+     "confidence": 3,
+     "why": "Hospitality and innocence (temimut) are tested and praised",
+     "quotes_failed": false
+    },
+    {
+     "tag": "ethics-and-emotions:charity",
+     "scope": "span",
+     "quotes": [
+      "ובליל ש״ק האכילו והשקהו"
+     ],
+     "confidence": 2,
+     "why": "He feeds a seemingly starving poor guest",
+     "quotes_failed": false
+    },
+    {
+     "tag": "ethics-and-emotions:humility",
+     "scope": "span",
+     "quotes": [
+      "והאורח לא נח מלקללו ולבזותו"
+     ],
+     "confidence": 2,
+     "why": "He endures the guest's curses and insults while appeasing him",
+     "quotes_failed": false
+    },
+    {
+     "tag": "times:shabbat",
+     "scope": "span",
+     "quotes": [
+      "ובליל ש״ק האכילו והשקהו",
+      "להביא לביתו תמחוי מסעודת שבת"
+     ],
+     "confidence": 3,
+     "why": "The test unfolds over Shabbat and Motzaei Shabbat",
+     "quotes_failed": false
+    },
+    {
+     "tag": "practice:ritual_slaughtering",
+     "scope": "span",
+     "quotes": [
+      "צוה לשחוט עבודו בהמה ונטרפו עד י\"ג בהמות"
+     ],
+     "confidence": 2,
+     "why": "Animals are slaughtered for the guest, and twelve are found treif",
+     "quotes_failed": false
+    },
+    {
+     "tag": "practice:halakhah",
+     "scope": "span",
+     "quotes": [
+      "ונטרפו עד י\"ג בהמות והי״ג הוכשר"
+     ],
+     "confidence": 1,
+     "why": "The kashrut status of the slaughtered animals (treifa or kosher)",
+     "quotes_failed": false
+    },
+    {
+     "tag": "social:retrospective_recognition",
+     "scope": "span",
+     "quotes": [
+      "והגיר לו כי לא רעב הוא רק לנסותו בא"
+     ],
+     "confidence": 3,
+     "why": "The guest is revealed to have been a heavenly tester",
+     "quotes_failed": false
+    },
+    {
+     "tag": "spaces:heaven",
+     "scope": "span",
+     "quotes": [
+      "והגיד שהגאון ז\"ל חשוב מאוד בשמים"
+     ],
+     "confidence": 1,
+     "why": "Heaven's esteem for the rabbi is mentioned; Heaven is not really a setting",
+     "quotes_failed": false
+    },
+    {
+     "tag": "characters-and-roles:elijah_the_prophet",
+     "scope": "span",
+     "quotes": [
+      "אז נתגלה אליו האורח"
+     ],
+     "confidence": 1,
+     "why": "The disguised testing guest follows the typical Elijah pattern, but he is not named",
+     "quotes_failed": false
+    },
+    {
+     "tag": "supernatural:miracle",
+     "scope": "span",
+     "quotes": [
+      "וכל הרואה משתומם כי לא היה בגדר אנושי"
+     ],
+     "confidence": 2,
+     "why": "The guest eats a superhuman amount of food",
+     "quotes_failed": false
+    },
+    {
+     "tag": "practice:storytelling",
+     "scope": "span",
+     "quotes": [
+      "וכשמוע הק׳ מלובלין ז״ל המעשה זו אמר"
+     ],
+     "confidence": 2,
+     "why": "The Seer of Lublin hears the tale and comments on it",
+     "quotes_failed": false
+    },
+    {
+     "tag": "practice:sermon",
+     "scope": "span",
+     "quotes": [
+      "שעיקר הנסיון הי׳ שהאמין במאמר חז״ל"
+     ],
+     "confidence": 1,
+     "why": "Closing interpretation of a rabbinic dictum",
+     "quotes_failed": false
+    },
+    {
+     "tag": "women:mention_only",
+     "scope": "span",
+     "quotes": [
+      "עד כי צוה על ב״ב להוציא החמין"
+     ],
+     "confidence": 1,
+     "why": "Household members, probably the wife, are only implied",
+     "quotes_failed": false
+    }
+   ],
+   "missing_concepts": [
+    "hospitality (hakhnasat orchim)",
+    "heavenly test (nisayon) of a righteous man",
+    "faith in the Sages' words (emunat chachamim)"
+   ],
+   "start_quote_found": true,
+   "end_quote_found": true
+  }
+ ],
+ "check": {
+  "non_vocab_tags": [],
+  "quotes": 14,
+  "quotes_not_found": 0
+ },
+ "id": "Peulat-Hatzadikim_0005",
+ "chars": 1305,
+ "seconds": 22
+}

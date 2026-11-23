@@ -1,0 +1,111 @@
+{
+ "unit": {
+  "kind": "hasidic_story",
+  "why": "A self-told anecdote: at the mikveh a dignitary praises R. Meir Yehiel, and Meir Yehiel, unrecognized, belittles himself and hurries away.",
+  "boundary_note": "Same 'וסיפר' anecdote series as the previous division (R. Meir Yehiel and the Rav of Mezhbizh); this division stands on its own."
+ },
+ "stories": [
+  {
+   "k": 1,
+   "start_quote": "וסיפר כי פ\"א היה במקוה שמה",
+   "end_quote": "מיד מיהר ללבוש עצמו ולצאת",
+   "hasidic": true,
+   "summary_en": "R. Meir Yehiel tells how, at the mikveh before prayer, a distinguished man praised him to his face without recognizing him; he answered that the master's praise was exaggerated, perhaps given only as a favor, and fled before anyone could recognize him.",
+   "tags": [
+    {
+     "tag": "ethics-and-emotions:humility",
+     "scope": "span",
+     "quotes": [
+      "ובאמת אין הוא כמו שאמר מרן ז״ל",
+      "ואולי היה נצרך לעשות לו איזה טובה"
+     ],
+     "confidence": 3,
+     "why": "He belittles himself and avoids being praised.",
+     "quotes_failed": false
+    },
+    {
+     "tag": "folkloristics:story_type_virtues",
+     "scope": "story",
+     "quotes": [],
+     "confidence": 3,
+     "why": "The anecdote's point is the tsaddik's humility.",
+     "quotes_failed": false
+    },
+    {
+     "tag": "spaces:mikveh",
+     "scope": "span",
+     "quotes": [
+      "פ\"א היה במקוה שמה קודם התפלה"
+     ],
+     "confidence": 3,
+     "why": "The whole scene takes place in the mikveh.",
+     "quotes_failed": false
+    },
+    {
+     "tag": "practice:tvilah",
+     "scope": "span",
+     "quotes": [
+      "ודרכו היה לשהות הרבה במקוה"
+     ],
+     "confidence": 3,
+     "why": "His habit of long immersion before prayer.",
+     "quotes_failed": false
+    },
+    {
+     "tag": "practice:storytelling",
+     "scope": "span",
+     "quotes": [
+      "וסיפר כי פ\"א היה במקוה"
+     ],
+     "confidence": 2,
+     "why": "He tells the story himself.",
+     "quotes_failed": false
+    },
+    {
+     "tag": "ethics-and-emotions:fear",
+     "scope": "span",
+     "quotes": [
+      "והיה ירא אולי בתוך כך יבא אחד המכיר אותו"
+     ],
+     "confidence": 2,
+     "why": "He fears being recognized.",
+     "quotes_failed": false
+    },
+    {
+     "tag": "ethics-and-emotions:lying",
+     "scope": "span",
+     "quotes": [
+      "אני מכיר אותו היטב ובאמת אין הוא כמו שאמר"
+     ],
+     "confidence": 1,
+     "why": "He hides his identity and misleads the questioner out of humility.",
+     "quotes_failed": false
+    },
+    {
+     "tag": "social:inter_hasidic",
+     "scope": "span",
+     "quotes": [
+      "כי הייתי מקודם בבית מרן ודיבר עמי הרבה ממנו"
+     ],
+     "confidence": 2,
+     "why": "A hasid who visited the master's court meets the subject of the master's praise.",
+     "quotes_failed": false
+    }
+   ],
+   "missing_concepts": [
+    "concealment of one's own identity / anonymity of the tsaddik",
+    "avoiding praise"
+   ],
+   "start_quote_found": true,
+   "end_quote_found": true
+  }
+ ],
+ "check": {
+  "non_vocab_tags": [],
+  "quotes": 8,
+  "quotes_not_found": 0
+ },
+ "id": "Toldot-Haniflaot_0030",
+ "chars": 540,
+ "seconds": 17
+}

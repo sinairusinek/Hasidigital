@@ -1,0 +1,123 @@
+{
+ "unit": {
+  "kind": "hasidic_story",
+  "why": "A short anecdote, transmitted from the Rebbe of Ruzhin, about the Maggid of Mezritch: he grieved over his fame, and Heaven revealed it was a punishment for an unnecessary journey on Hol ha-Moed.",
+  "boundary_note": "Topical heading 'מענין חול המועד' belongs to the previous division; the trailing heading 'מענין חיבורים' introduces the next division."
+ },
+ "stories": [
+  {
+   "k": 1,
+   "start_quote": "ושמעתי מכה קדוש הרב מראזדעל איך",
+   "end_quote": "ולכך נענש שנעשה מפורסם",
+   "hasidic": true,
+   "summary_en": "The Maggid of Mezritch was distressed at becoming famous, and Heaven revealed to him that this was a punishment for once travelling needlessly during Hol ha-Moed, which counted as disrespecting the festival.",
+   "tags": [
+    {
+     "tag": "ethics-and-emotions:punishment",
+     "scope": "span",
+     "quotes": [
+      "ולכך נענש שנעשה מפורסם"
+     ],
+     "confidence": 3,
+     "why": "His fame is a heavenly punishment.",
+     "quotes_failed": false
+    },
+    {
+     "tag": "experience:revelation",
+     "scope": "span",
+     "quotes": [
+      "וגילו לו מן השמים שפ״א נסע בחוה״מ"
+     ],
+     "confidence": 3,
+     "why": "Heaven disclosed the cause to him.",
+     "quotes_failed": false
+    },
+    {
+     "tag": "supernatural:communicating_with_the_invisible",
+     "scope": "span",
+     "quotes": [
+      "וגילו לו מן השמים"
+     ],
+     "confidence": 2,
+     "why": "Message received from Heaven.",
+     "quotes_failed": false
+    },
+    {
+     "tag": "times:holidays",
+     "scope": "span",
+     "quotes": [
+      "נסע בחוה״מ דרך שלא היה צריך",
+      "כמבזה את המועדות"
+     ],
+     "confidence": 3,
+     "why": "The sin concerns Hol ha-Moed.",
+     "quotes_failed": false
+    },
+    {
+     "tag": "ethics-and-emotions:prohibitions",
+     "scope": "span",
+     "quotes": [
+      "וחשבו לו זה כמבזה את המועדות"
+     ],
+     "confidence": 2,
+     "why": "Needless travel on the festival is treated as a violation.",
+     "quotes_failed": false
+    },
+    {
+     "tag": "practice:the_travels_of_the_tsaddik",
+     "scope": "span",
+     "quotes": [
+      "נסע בחוה״מ דרך שלא היה צריך"
+     ],
+     "confidence": 2,
+     "why": "The story turns on the tsaddik's journey.",
+     "quotes_failed": false
+    },
+    {
+     "tag": "ethics-and-emotions:humility",
+     "scope": "span",
+     "quotes": [
+      "נצטער ע״ז על שנעשה מפורסם"
+     ],
+     "confidence": 2,
+     "why": "He grieves over fame; renown is seen as a burden.",
+     "quotes_failed": false
+    },
+    {
+     "tag": "ethics-and-emotions:sadness",
+     "scope": "span",
+     "quotes": [
+      "נצטער ע״ז על שנעשה מפורסם"
+     ],
+     "confidence": 1,
+     "why": "His distress is the story's trigger.",
+     "quotes_failed": false
+    },
+    {
+     "tag": "practice:storytelling",
+     "scope": "span",
+     "quotes": [
+      "ושמעתי מכה קדוש הרב מראזדעל"
+     ],
+     "confidence": 2,
+     "why": "Framed as told by the Rebbe of Ruzhin.",
+     "quotes_failed": false
+    }
+   ],
+   "missing_concepts": [
+    "fame / publicity of the tsaddik as a burden",
+    "heaven's strict judgment of tsaddikim (כחוט השערה)"
+   ],
+   "start_quote_found": true,
+   "end_quote_found": true
+  }
+ ],
+ "check": {
+  "non_vocab_tags": [],
+  "quotes": 10,
+  "quotes_not_found": 0
+ },
+ "id": "Derech-Haemuna_0100",
+ "chars": 250,
+ "seconds": 13
+}

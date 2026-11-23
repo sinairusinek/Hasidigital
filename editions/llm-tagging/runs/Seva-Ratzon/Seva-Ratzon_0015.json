@@ -1,0 +1,237 @@
+{
+ "unit": {
+  "kind": "hasidic_story",
+  "why": "One narrative: the Vizhnitzer tsaddik visits Kshanov during R. Berish's last illness, R. Berish dies, the Vizhnitzer eulogizes him, and R. Yekili eventually succeeds him. An anecdote about R. Moshe Leib of Sasov is embedded in it.",
+  "boundary_note": ""
+ },
+ "stories": [
+  {
+   "k": 1,
+   "start_quote": "הה״ק מווישניצא עלה על דעתו ליסע לאה״ק",
+   "end_quote": "ושמש בהוראה כ״ד שנים זי״ע",
+   "hasidic": true,
+   "summary_en": "While collecting money for a journey to the Holy Land, the Vizhnitzer tsaddik spends Shabbat in Kshanov as R. Berish lies dying; he praises R. Yekili for staying at the sick man's side, eulogizes R. Berish in the beit midrash, and R. Yekili, after first refusing, succeeds him seven years later.",
+   "tags": [
+    {
+     "tag": "folkloristics:story_type_death_of_the_tsaddik",
+     "scope": "story",
+     "quotes": [],
+     "confidence": 3,
+     "why": "The central event is R. Berish's illness, deathbed, death, eulogy and succession.",
+     "quotes_failed": false
+    },
+    {
+     "tag": "times:death",
+     "scope": "span",
+     "quotes": [
+      "וילך מחיל אם חיל בדביקות גדול"
+     ],
+     "confidence": 3,
+     "why": "R. Berish's death is narrated.",
+     "quotes_failed": false
+    },
+    {
+     "tag": "spaces:the_land_of_israel",
+     "scope": "span",
+     "quotes": [
+      "עלה על דעתו ליסע לאה״ק אך מן השמים עכבוהו"
+     ],
+     "confidence": 2,
+     "why": "The Land of Israel is the intended destination of the journey.",
+     "quotes_failed": false
+    },
+    {
+     "tag": "practice:the_travels_of_the_tsaddik",
+     "scope": "span",
+     "quotes": [
+      "נסע לאיזה קהילות לאסוף על הוצאת הדרך",
+      "הרב מווישניצא בא לאושפצין על שבת"
+     ],
+     "confidence": 3,
+     "why": "The Vizhnitzer's journey is what brings him to Kshanov.",
+     "quotes_failed": false
+    },
+    {
+     "tag": "times:shabbat",
+     "scope": "span",
+     "quotes": [
+      "ובליל שבת נאספו אל הה״ק ר׳ בעריש"
+     ],
+     "confidence": 3,
+     "why": "The gathering at the sickbed takes place on Shabbat eve.",
+     "quotes_failed": false
+    },
+    {
+     "tag": "practice:music",
+     "scope": "span",
+     "quotes": [
+      "בשבחים ובזמירות לשמחו"
+     ],
+     "confidence": 2,
+     "why": "The hasidim sing zemirot to cheer the ailing rebbe.",
+     "quotes_failed": false
+    },
+    {
+     "tag": "times:holidays",
+     "scope": "span",
+     "quotes": [
+      "פ״א בליל יוהב״פ לא בא לתפילת כל נדרי"
+     ],
+     "confidence": 2,
+     "why": "The embedded Sasov anecdote is set on Yom Kippur eve.",
+     "quotes_failed": false
+    },
+    {
+     "tag": "practice:prayer",
+     "scope": "span",
+     "quotes": [
+      "לא בא לתפילת כל נדרי",
+      "והתפלל תפלת שחרית"
+     ],
+     "confidence": 2,
+     "why": "Kol Nidrei and the morning prayer are both depicted.",
+     "quotes_failed": false
+    },
+    {
+     "tag": "practice:tefillin",
+     "scope": "span",
+     "quotes": [
+      "והניח תפילין דר״ת ומנהגו הי׳ עפ״י הרוב להניחם קודם מנחה"
+     ],
+     "confidence": 3,
+     "why": "Putting on Rabbenu Tam tefillin at an unusual time signals that death is near.",
+     "quotes_failed": false
+    },
+    {
+     "tag": "practice:devekut",
+     "scope": "span",
+     "quotes": [
+      "בדביקות גדול"
+     ],
+     "confidence": 3,
+     "why": "R. Berish dies in a state of great devekut.",
+     "quotes_failed": false
+    },
+    {
+     "tag": "experience:devekut",
+     "scope": "span",
+     "quotes": [
+      "בדביקות גדול"
+     ],
+     "confidence": 2,
+     "why": "R. Berish experiences devekut at the moment of death.",
+     "quotes_failed": false
+    },
+    {
+     "tag": "characters-and-roles:the_family_of_the_tsaddik",
+     "scope": "span",
+     "quotes": [
+      "ברך את בניו"
+     ],
+     "confidence": 2,
+     "why": "R. Berish's sons appear at the deathbed blessing.",
+     "quotes_failed": false
+    },
+    {
+     "tag": "practice:sermon",
+     "scope": "span",
+     "quotes": [
+      "עשה לפניו מספד גדול וכבד מאוד בבהמ\"ד",
+      "ויקרא יעקב שם המקום פניאט"
+     ],
+     "confidence": 3,
+     "why": "The eulogy is a homily on the Vayishlach verse.",
+     "quotes_failed": false
+    },
+    {
+     "tag": "spaces:beth_midrash",
+     "scope": "span",
+     "quotes": [
+      "מספד גדול וכבד מאוד בבהמ\"ד"
+     ],
+     "confidence": 3,
+     "why": "The eulogy is delivered in the beit midrash.",
+     "quotes_failed": false
+    },
+    {
+     "tag": "ethics-and-emotions:humility",
+     "scope": "span",
+     "quotes": [
+      "כי יעקב מחמת עניוות לא תלה בעצמו הקדושה",
+      "ר׳ יעקילי סורב מתחלה"
+     ],
+     "confidence": 2,
+     "why": "Jacob's humility is the theme of the sermon, and R. Yekili at first refuses the post.",
+     "quotes_failed": false
+    },
+    {
+     "tag": "social:inter_hasidic_inheritance_of_leadership",
+     "scope": "span",
+     "quotes": [
+      "רצה תיכף שישאר הרה״ג ר׳ יעקילי תחתיו",
+      "וישב על כסאו ושמש בהוראה"
+     ],
+     "confidence": 3,
+     "why": "R. Yekili's succession to R. Berish is narrated.",
+     "quotes_failed": false
+    },
+    {
+     "tag": "times:inauguration",
+     "scope": "span",
+     "quotes": [
+      "בא לאושפצין וישב על כסאו"
+     ],
+     "confidence": 2,
+     "why": "R. Yekili's installation in R. Berish's seat is narrated.",
+     "quotes_failed": false
+    },
+    {
+     "tag": "social:inter_hasidic_master_disciple_relationship",
+     "scope": "span",
+     "quotes": [
+      "לא מש מתוך האחל ולא זזה ידו מתוך ידו"
+     ],
+     "confidence": 2,
+     "why": "R. Yekili's devotion to his master runs through the story.",
+     "quotes_failed": false
+    },
+    {
+     "tag": "social:inter_hasidic",
+     "scope": "span",
+     "quotes": [
+      "ויאמר לו הה״ק מווישניצא שכיון לדעת הגדול"
+     ],
+     "confidence": 2,
+     "why": "The Vizhnitzer tsaddik interacts with another rebbe's circle.",
+     "quotes_failed": false
+    },
+    {
+     "tag": "practice:storytelling",
+     "scope": "span",
+     "quotes": [
+      "שכיון לדעת הגדול הה״ק ר׳ משה ליב מסאסוב"
+     ],
+     "confidence": 1,
+     "why": "The Vizhnitzer tells the Sasov anecdote as a precedent.",
+     "quotes_failed": false
+    }
+   ],
+   "missing_concepts": [
+    "visiting / sitting with the sick (bikur holim)",
+    "eulogy (hesped) as an event",
+    "the hekdesh (poorhouse for the sick)",
+    "a heavenly obstacle preventing emigration to the Land of Israel"
+   ],
+   "start_quote_found": true,
+   "end_quote_found": true
+  }
+ ],
+ "check": {
+  "non_vocab_tags": [],
+  "quotes": 24,
+  "quotes_not_found": 0
+ },
+ "id": "Seva-Ratzon_0015",
+ "chars": 1368,
+ "seconds": 28
+}

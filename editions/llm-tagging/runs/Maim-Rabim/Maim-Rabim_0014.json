@@ -1,0 +1,94 @@
+{
+ "unit": {
+  "kind": "hasidic_story",
+  "why": "A short anecdote: R. Yosef of Yampol perceives that a Torah scroll in Mezhirech lacks a verse, and this is later confirmed during the reading.",
+  "boundary_note": ""
+ },
+ "stories": [
+  {
+   "k": 1,
+   "start_quote": "הה״ק ר׳ יוסף וצוללה״ה מיאמפאלא בנו",
+   "end_quote": "שהי׳ חסר מזרד עד זרד",
+   "hasidic": true,
+   "summary_en": "R. Yosef of Yampol, son of R. Yehiel Michel of Zloczow, came to Mezhirech and declared that a Torah scroll there lacked one verse; later, when his brother R. Moshe of Zvhil read from it with his son R. Yehiel Michel reciting the Targum, the error was found in Deuteronomy, a verse missing from 'zered' to 'zered'.",
+   "tags": [
+    {
+     "tag": "supernatural:perception",
+     "scope": "span",
+     "quotes": [
+      "בא למעזריטש ואמר יש בכאן ספר תורה חסר פסוק א׳"
+     ],
+     "confidence": 3,
+     "why": "He knows of the hidden defect in the scroll without having examined it",
+     "quotes_failed": false
+    },
+    {
+     "tag": "social:retrospective_recognition",
+     "scope": "span",
+     "quotes": [
+      "ומצאו שם הטעות בפ' דברי' שהי׳ חסר מזרד עד זרד"
+     ],
+     "confidence": 2,
+     "why": "The later discovery confirms what the tzaddik said",
+     "quotes_failed": false
+    },
+    {
+     "tag": "characters-and-roles:the_family_of_the_tsaddik",
+     "scope": "span",
+     "quotes": [
+      "לימים הי׳ שם אחיו הה״ק ר' משה מזיווהעל",
+      "ובנו הה״צ ר׳ יחיאל מיכל זצללה״ה מזיווהעל"
+     ],
+     "confidence": 2,
+     "why": "The tzaddik's brother and nephew take part in the confirmation",
+     "quotes_failed": false
+    },
+    {
+     "tag": "practice:halakhah",
+     "scope": "span",
+     "quotes": [
+      "יש בכאן ספר תורה חסר פסוק א׳"
+     ],
+     "confidence": 2,
+     "why": "A Torah scroll missing a verse is ritually unfit",
+     "quotes_failed": false
+    },
+    {
+     "tag": "practice:the_travels_of_the_tsaddik",
+     "scope": "span",
+     "quotes": [
+      "בא למעזריטש ואמר"
+     ],
+     "confidence": 1,
+     "why": "The perception happens during his visit to Mezhirech",
+     "quotes_failed": false
+    },
+    {
+     "tag": "practice:prayer",
+     "scope": "span",
+     "quotes": [
+      "והי׳ מעביר הסידרא בס״ת"
+     ],
+     "confidence": 1,
+     "why": "The public Torah reading is the setting of the discovery",
+     "quotes_failed": false
+    }
+   ],
+   "missing_concepts": [
+    "Torah scroll (sefer Torah) defect / pasul scroll",
+    "Torah reading with Targum",
+    "source attribution by letter (מכתב)"
+   ],
+   "start_quote_found": true,
+   "end_quote_found": true
+  }
+ ],
+ "check": {
+  "non_vocab_tags": [],
+  "quotes": 7,
+  "quotes_not_found": 0
+ },
+ "id": "Maim-Rabim_0014",
+ "chars": 298,
+ "seconds": 11
+}

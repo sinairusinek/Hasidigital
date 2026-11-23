@@ -1,0 +1,84 @@
+{
+ "unit": {
+  "kind": "hasidic_story",
+  "why": "A short anecdote, told by the author's father: before the wedding of R. Avraham Yaakov of Sadigura, his father R. Israel of Ruzhin blessed him and spoke of his own father and of his children.",
+  "boundary_note": "The closing words 'שיחותיו ותורותיו הקדושים.' are a section heading that belongs to the next division."
+ },
+ "stories": [
+  {
+   "k": 1,
+   "start_quote": "סיפר לי אדוני אבי מו״ר הרה״צ זצ\"ל",
+   "end_quote": "גייא צו דער חופה אין א גיטער שעה",
+   "hasidic": true,
+   "summary_en": "Before the wedding of R. Avraham Yaakov of Sadigura, his father R. Israel of Ruzhin blessed him: R. Shalom Shakhna had said his children would show who he was, but Israel says his children will show who God is, and he tells his son he chose him a very holy soul as a bride.",
+   "tags": [
+    {
+     "tag": "social:marriage",
+     "scope": "span",
+     "quotes": [
+      "לפני חופתו של מרן הרה״ק רא\"י מס\"ג",
+      "גייא צו דער חופה אין א גיטער שעה"
+     ],
+     "confidence": 3,
+     "why": "The blessing is given at the son's wedding",
+     "quotes_failed": false
+    },
+    {
+     "tag": "characters-and-roles:the_family_of_the_tsaddik",
+     "scope": "span",
+     "quotes": [
+      "ברך אותו אביו מרו קוה\"ק מהר״י מריזין",
+      "הוא הרה״ק ר׳ שלום שכנא בן המלאך"
+     ],
+     "confidence": 3,
+     "why": "Father, son and grandfather of the Ruzhin dynasty appear",
+     "quotes_failed": false
+    },
+    {
+     "tag": "practice:storytelling",
+     "scope": "span",
+     "quotes": [
+      "סיפר לי אדוני אבי מו״ר הרה״צ זצ\"ל"
+     ],
+     "confidence": 1,
+     "why": "The tale is framed as told by the author's father",
+     "quotes_failed": false
+    },
+    {
+     "tag": "women:mention_only",
+     "scope": "span",
+     "quotes": [
+      "איך האב דיר אויס גיקליבען זייער אהייליג נשמהלי"
+     ],
+     "confidence": 2,
+     "why": "The bride is referred to but does not act",
+     "quotes_failed": false
+    },
+    {
+     "tag": "practice:torat_ha_tsaddik",
+     "scope": "span",
+     "quotes": [
+      "פון מיינע קינדער וועט מען זעהן וועהר גאטט איז"
+     ],
+     "confidence": 1,
+     "why": "The tsaddik's offspring are presented as revealing God",
+     "quotes_failed": false
+    }
+   ],
+   "missing_concepts": [
+    "a tsaddik's blessing of his son before the wedding",
+    "dynastic self-understanding of the Ruzhin line"
+   ],
+   "start_quote_found": true,
+   "end_quote_found": true
+  }
+ ],
+ "check": {
+  "non_vocab_tags": [],
+  "quotes": 7,
+  "quotes_not_found": 0
+ },
+ "id": "Eser-Orot_0321",
+ "chars": 408,
+ "seconds": 12
+}

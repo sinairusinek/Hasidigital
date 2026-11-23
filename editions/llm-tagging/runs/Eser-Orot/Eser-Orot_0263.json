@@ -1,0 +1,91 @@
+{
+ "unit": {
+  "kind": "hasidic_story",
+  "why": "A short anecdote: the Apter Rav tells exaggerations at a meal with R. Barukh of Medzhybizh, onlookers wait for mockery, and R. Barukh instead praises his weighed speech.",
+  "boundary_note": "Part of a series of anecdotes about the Apter's exaggerations told by the Neskhizer; self-contained."
+ },
+ "stories": [
+  {
+   "k": 1,
+   "start_quote": "וסיפר עוד שפ\"א ישב האפטער בסעודה",
+   "end_quote": "ששוקל כל דיבור קודם שאומרו",
+   "hasidic": true,
+   "summary_en": "The Apter Rav told exaggerations at a meal with R. Barukh of Medzhybizh; onlookers hoped R. Barukh would laugh, but after the Apter left, R. Barukh praised him as the wisest man in Poland, who weighs every word on a golden scale before speaking.",
+   "tags": [
+    {
+     "tag": "practice:storytelling",
+     "scope": "span",
+     "quotes": [
+      "והרבה לספר גוזמות"
+     ],
+     "confidence": 3,
+     "why": "the Apter tells exaggerated tales at a meal, and the whole anecdote is framed as told by the Neskhizer",
+     "quotes_failed": false
+    },
+    {
+     "tag": "social:inter_hasidic",
+     "scope": "span",
+     "quotes": [
+      "ישב האפטער בסעודה עם הרה״ק ר״ר ברוך ממעזיבוז"
+     ],
+     "confidence": 3,
+     "why": "two tzaddikim meet at a meal",
+     "quotes_failed": false
+    },
+    {
+     "tag": "social:retrospective_recognition",
+     "scope": "span",
+     "quotes": [
+      "מכל אנשי פולין לא ראיתי חכם כמוהו"
+     ],
+     "confidence": 2,
+     "why": "the apparently laughable exaggerations are revealed as wisdom",
+     "quotes_failed": false
+    },
+    {
+     "tag": "folkloristics:story_type_virtues",
+     "scope": "story",
+     "quotes": [],
+     "confidence": 2,
+     "why": "illustrates the Apter's wisdom and careful speech",
+     "quotes_failed": false
+    },
+    {
+     "tag": "social:competition",
+     "scope": "span",
+     "quotes": [
+      "אולי יתחיל הרר\"ב לצחוק מזה ויוסיפו הם בשחוק"
+     ],
+     "confidence": 1,
+     "why": "onlookers expect R. Barukh, known for sharpness, to mock the other tzaddik",
+     "quotes_failed": false
+    },
+    {
+     "tag": "ethics-and-emotions:virtues",
+     "scope": "span",
+     "quotes": [
+      "שיש לו משקולת זהב בפיו ששוקל כל דיבור"
+     ],
+     "confidence": 2,
+     "why": "the virtue of guarding and weighing one's speech",
+     "quotes_failed": false
+    }
+   ],
+   "missing_concepts": [
+    "exaggeration (guzma) as a holy speech mode",
+    "mockery or ridicule by onlookers",
+    "guarding one's speech"
+   ],
+   "start_quote_found": true,
+   "end_quote_found": true
+  }
+ ],
+ "check": {
+  "non_vocab_tags": [],
+  "quotes": 5,
+  "quotes_not_found": 0
+ },
+ "id": "Eser-Orot_0263",
+ "chars": 287,
+ "seconds": 12
+}

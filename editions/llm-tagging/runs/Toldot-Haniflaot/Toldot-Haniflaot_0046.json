@@ -1,0 +1,84 @@
+{
+ "unit": {
+  "kind": "hasidic_story",
+  "why": "An eyewitness anecdote: the tzaddik touched a man who needed immersion and sprang back, illustrating his known sensitivity to ritual impurity.",
+  "boundary_note": ""
+ },
+ "stories": [
+  {
+   "k": 1,
+   "start_quote": "וגם היה נודע לכל כי הרגיש",
+   "end_quote": "מהמוני עם לא היה איכפת ליה",
+   "hasidic": true,
+   "summary_en": "The narrator saw a traveller who needed immersion warm himself in the study hall before going to the mikveh. When the tzaddik touched his fingertips in greeting, he leapt back, sensing the impurity. People in that state therefore kept away from him, though he paid no heed to simple folk.",
+   "tags": [
+    {
+     "tag": "supernatural:perception",
+     "scope": "span",
+     "quotes": [
+      "כי הרגיש מאד במי שהיה צריך טבילה",
+      "קפץ מיד לאחוריו פתאום בדילוג רב מאתו"
+     ],
+     "confidence": 3,
+     "why": "The tzaddik supernaturally senses a person's ritual impurity.",
+     "quotes_failed": false
+    },
+    {
+     "tag": "practice:tvilah",
+     "scope": "span",
+     "quotes": [
+      "קודם הליכתו למקוה",
+      "ואמר כי הרגיש גם אחר הטבילה עד הערב שמש"
+     ],
+     "confidence": 3,
+     "why": "The need for immersion and going to the mikveh are the subject.",
+     "quotes_failed": false
+    },
+    {
+     "tag": "spaces:beth_midrash",
+     "scope": "span",
+     "quotes": [
+      "היה נכנס מקודם לבית המדרש להחם עצמו",
+      "בא מרן ז\"ל לבהמ״ד וראה אותו"
+     ],
+     "confidence": 3,
+     "why": "The scene takes place in the study hall.",
+     "quotes_failed": false
+    },
+    {
+     "tag": "folkloristics:story_type_virtues",
+     "scope": "story",
+     "quotes": [],
+     "confidence": 2,
+     "why": "The tale illustrates the tzaddik's holiness and sensitivity to purity.",
+     "quotes_failed": false
+    },
+    {
+     "tag": "ethics-and-emotions:fear",
+     "scope": "span",
+     "quotes": [
+      "שמר עצמו מאד מלבוא נגד פניו"
+     ],
+     "confidence": 1,
+     "why": "People in need of immersion avoided coming before him.",
+     "quotes_failed": false
+    }
+   ],
+   "missing_concepts": [
+    "ritual purity / impurity (keri) sensed by the tzaddik",
+    "eyewitness narrator",
+    "tzaddik's differing standards for scholars vs. simple folk"
+   ],
+   "start_quote_found": true,
+   "end_quote_found": true
+  }
+ ],
+ "check": {
+  "non_vocab_tags": [],
+  "quotes": 7,
+  "quotes_not_found": 0
+ },
+ "id": "Toldot-Haniflaot_0046",
+ "chars": 547,
+ "seconds": 12
+}

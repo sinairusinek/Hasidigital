@@ -1,0 +1,190 @@
+{
+ "unit": {
+  "kind": "hasidic_story",
+  "why": "A single tale, passed down through Hasidic tsaddikim (R. Shalom of Belz to a Kozhnitz rabbi), about a wicked Jewish doctor's son. He dies for the sake of hand-washing, is admitted to Paradise, and must first have his excommunication lifted.",
+  "boundary_note": ""
+ },
+ "stories": [
+  {
+   "k": 1,
+   "start_quote": "מעשה נוראה ששמעתי מפי ק' של הרב",
+   "end_quote": "הנחילה אותו את כל הכבוד הזה",
+   "hasidic": true,
+   "summary_en": "A wicked man keeps only his mother's command to wash his hands before eating. Excommunicated for defying a rabbinic ruling, he travels alone, stops to wash his hands and is killed by robbers. The heavenly court awards him Paradise, but the gatekeeper bars him until the rabbi lifts the ban, first in a dream, then in writing while awake, and buries him.",
+   "tags": [
+    {
+     "tag": "practice:storytelling",
+     "scope": "span",
+     "quotes": [
+      "ששמעתי מפי ק' של הרב הצדיק",
+      "שסיפר לו הרב הצדיק מו״ה הר״ש בק״ק בעלזא"
+     ],
+     "confidence": 3,
+     "why": "Tale framed as told by named tsaddikim",
+     "quotes_failed": false
+    },
+    {
+     "tag": "social:excommunication",
+     "scope": "span",
+     "quotes": [
+      "ושמתו אותו הרב וגם על זה לא השגיח",
+      "שיתיר אותו הרב מנדויו"
+     ],
+     "confidence": 3,
+     "why": "Ban imposed and later lifted",
+     "quotes_failed": false
+    },
+    {
+     "tag": "social:relations_with_sinners",
+     "scope": "span",
+     "quotes": [
+      "ולא הלך בדרך הישר והיה רשע גמור"
+     ],
+     "confidence": 2,
+     "why": "The protagonist is a sinner, and the rabbi bans him and later releases him",
+     "quotes_failed": false
+    },
+    {
+     "tag": "social:disobedience",
+     "scope": "span",
+     "quotes": [
+      "לא רצה לקיים את פסק דינו"
+     ],
+     "confidence": 2,
+     "why": "He defies the rabbi's ruling",
+     "quotes_failed": false
+    },
+    {
+     "tag": "spaces:rabbinical_court",
+     "scope": "span",
+     "quotes": [
+      "היה לו דין תורה עם אחד מבני עירו",
+      "ופסקו לו בית דין של מעלה"
+     ],
+     "confidence": 2,
+     "why": "An earthly lawsuit and the heavenly court both appear",
+     "quotes_failed": false
+    },
+    {
+     "tag": "spaces:heaven",
+     "scope": "span",
+     "quotes": [
+      "נעשה רעש גדול בפמליא של מעלה",
+      "ולא ערב אותו שומר הפתח"
+     ],
+     "confidence": 3,
+     "why": "Scenes at the heavenly court and the gate of Paradise",
+     "quotes_failed": false
+    },
+    {
+     "tag": "practice:halakhah",
+     "scope": "span",
+     "quotes": [
+      "לאכול מפני פיקוח נפש בלא נטילת ידים",
+      "מסר נפשו בשביל מצוה דרבנן"
+     ],
+     "confidence": 3,
+     "why": "Hand-washing set against saving life, and the written ban",
+     "quotes_failed": false
+    },
+    {
+     "tag": "ethics-and-emotions:prohibitions",
+     "scope": "span",
+     "quotes": [
+      "שלא לאכול בלא נטילת ידים"
+     ],
+     "confidence": 2,
+     "why": "His self-imposed ban on eating without washing his hands",
+     "quotes_failed": false
+    },
+    {
+     "tag": "times:death",
+     "scope": "span",
+     "quotes": [
+      "השיגו אותו הגזלנים והרגו אותו"
+     ],
+     "confidence": 3,
+     "why": "He is murdered by robbers",
+     "quotes_failed": false
+    },
+    {
+     "tag": "experience:dream",
+     "scope": "span",
+     "quotes": [
+      "ובא בחלום להרב שיתיר אותו מנדויו"
+     ],
+     "confidence": 3,
+     "why": "The dead man appears in the rabbi's dream",
+     "quotes_failed": false
+    },
+    {
+     "tag": "supernatural:communicating_with_the_invisible",
+     "scope": "span",
+     "quotes": [
+      "והצריך לירד להרב בהקיץ ויספר לו"
+     ],
+     "confidence": 3,
+     "why": "The dead man speaks with the rabbi while awake",
+     "quotes_failed": false
+    },
+    {
+     "tag": "practice:fasting",
+     "scope": "span",
+     "quotes": [
+      "היה יכול להתענות לא לאכול בלא נטילת ידים"
+     ],
+     "confidence": 2,
+     "why": "He goes without food rather than eat unwashed",
+     "quotes_failed": false
+    },
+    {
+     "tag": "women:catalyst_character",
+     "scope": "span",
+     "quotes": [
+      "אשר הזהירתו אמו על נטילת ידים",
+      "דאמו הנחילה אותו את כל הכבוד הזה"
+     ],
+     "confidence": 3,
+     "why": "His mother's warning sets the whole plot in motion",
+     "quotes_failed": false
+    },
+    {
+     "tag": "practice:sermon",
+     "scope": "span",
+     "quotes": [
+      "בואו וראו דברי שלמה המלך ע״ה שאמר ואל תטוש תורת אמך"
+     ],
+     "confidence": 1,
+     "why": "Closing homiletic moral",
+     "quotes_failed": false
+    },
+    {
+     "tag": "practice:study",
+     "scope": "span",
+     "quotes": [
+      "שלפני פתח הגן עדן למדו אותו כל התורת כולה"
+     ],
+     "confidence": 1,
+     "why": "He is taught Torah before the gate of Paradise",
+     "quotes_failed": false
+    }
+   ],
+   "missing_concepts": [
+    "netilat yadayim (ritual hand-washing)",
+    "mesirut nefesh (self-sacrifice) for a rabbinic commandment",
+    "the dead requesting burial in a Jewish grave",
+    "highway robbers"
+   ],
+   "start_quote_found": true,
+   "end_quote_found": true
+  }
+ ],
+ "check": {
+  "non_vocab_tags": [],
+  "quotes": 21,
+  "quotes_not_found": 0
+ },
+ "id": "Toldot-Haniflaot_0113",
+ "chars": 2239,
+ "seconds": 23
+}

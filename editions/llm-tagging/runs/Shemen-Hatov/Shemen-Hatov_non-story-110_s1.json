@@ -1,0 +1,181 @@
+{
+ "unit": {
+  "kind": "hasidic_story",
+  "why": "split out of non-story-110 (non-story)"
+ },
+ "stories": [
+  {
+   "k": 1,
+   "start_quote": "אחד מיוחד אשר התייחס להגאון בעל סדר הדורות",
+   "end_quote": "שהכה אותו על פניו ולכך נענש",
+   "hasidic": false,
+   "summary_en": "The Lublin Maggid takes on the defence of Jews accused in a blood libel and is jailed in Zamość. Polish officials resent him for welcoming the Russians, so he is imprisoned. In prison he studies aloud with his son and prays loudly, answers the jailer's mocking question with a retort about idols, and is slapped. That night the jailer dies suddenly, and this is understood as punishment.",
+   "tags": [
+    {
+     "tag": "not-a-hasidic-story:hagiography",
+     "scope": "story",
+     "quotes": [],
+     "confidence": 2,
+     "why": "Praise of a rabbinic ancestor (gaon, maggid) who is not presented as a Hasidic tsaddik",
+     "quotes_failed": false
+    },
+    {
+     "tag": "times:historical_event",
+     "scope": "span",
+     "quotes": [
+      "בעת שהי' עלילת דם על קהל ישראל",
+      "נגד השר הרוסיא עם אנשי חילו שבאו ללובלין בעת הרעווילאציע"
+     ],
+     "confidence": 3,
+     "why": "Blood libel; Russian troops entering Lublin during the revolution",
+     "quotes_failed": false
+    },
+    {
+     "tag": "social:relations_with_the_authorities",
+     "scope": "span",
+     "quotes": [
+      "ויען אשר הסאנד מפולין חרה אפם על המגיד",
+      "וישב במבצר זאמושטץ כשנה תמימה"
+     ],
+     "confidence": 3,
+     "why": "Imprisoned and tried by the state",
+     "quotes_failed": false
+    },
+    {
+     "tag": "social:relations_with_non_jews",
+     "scope": "span",
+     "quotes": [
+      "ונכנס אליו ושאלו: מדוע אתה צועק",
+      "אתם מתפללים בלחש : יען שצורת אלהיכם"
+     ],
+     "confidence": 3,
+     "why": "Exchange with the gentile jailer",
+     "quotes_failed": false
+    },
+    {
+     "tag": "social:conflict",
+     "scope": "span",
+     "quotes": [
+      "וחרה להשר על תשובתו ונתן לו מכת לחי"
+     ],
+     "confidence": 3,
+     "why": "Conflict with the jailer",
+     "quotes_failed": false
+    },
+    {
+     "tag": "ethics-and-emotions:punishment",
+     "scope": "span",
+     "quotes": [
+      "ובאותה הלילה בחצות מת השר במיתה משונה",
+      "שהכה אותו על פניו ולכך נענש"
+     ],
+     "confidence": 3,
+     "why": "The jailer is struck dead for slapping the maggid",
+     "quotes_failed": false
+    },
+    {
+     "tag": "times:death",
+     "scope": "span",
+     "quotes": [
+      "ובאותה הלילה בחצות מת השר במיתה משונה"
+     ],
+     "confidence": 3,
+     "why": "The jailer's death is narrated",
+     "quotes_failed": false
+    },
+    {
+     "tag": "supernatural:miracle",
+     "scope": "span",
+     "quotes": [
+      "מת השר במיתה משונה. ופתאומיות"
+     ],
+     "confidence": 2,
+     "why": "Sudden, strange death presented as divine retribution",
+     "quotes_failed": false
+    },
+    {
+     "tag": "practice:protection",
+     "scope": "span",
+     "quotes": [
+      "אשר זקיני המגיד קיבל ע״ע להיות המליץ עבורם",
+      "כי בירר שעלילת שקר הוא"
+     ],
+     "confidence": 2,
+     "why": "He defends the community against the blood libel",
+     "quotes_failed": false
+    },
+    {
+     "tag": "practice:prayer",
+     "scope": "span",
+     "quotes": [
+      "ושוב בעת תפילתו התפלל בקול רם בצעקות גדולות"
+     ],
+     "confidence": 3,
+     "why": "His loud prayer in prison",
+     "quotes_failed": false
+    },
+    {
+     "tag": "practice:tefillin",
+     "scope": "span",
+     "quotes": [
+      "וביקש שיתנו לו לבית הסוהר הטלית ותפילין"
+     ],
+     "confidence": 2,
+     "why": "He requests tefillin in prison",
+     "quotes_failed": false
+    },
+    {
+     "tag": "practice:study",
+     "scope": "span",
+     "quotes": [
+      "ויען אשר דרכו הי׳ ללמוד עם בנו בקול רם בע״פ",
+      "כה עבר כל הלילה בלימוד ובהפסקות קצת בשינה"
+     ],
+     "confidence": 3,
+     "why": "Night-long oral study with his son",
+     "quotes_failed": false
+    },
+    {
+     "tag": "characters-and-roles:the_family_of_the_tsaddik",
+     "scope": "span",
+     "quotes": [
+      "וגם ביקש רשיון אשר בנו הר׳ אליעזריל"
+     ],
+     "confidence": 3,
+     "why": "His son R. Eliezer joins him in prison",
+     "quotes_failed": false
+    },
+    {
+     "tag": "practice:storytelling",
+     "scope": "span",
+     "quotes": [
+      "שמעתי מאבי נ״י מה ששמע מדודו"
+     ],
+     "confidence": 2,
+     "why": "Framed as family oral transmission",
+     "quotes_failed": false
+    },
+    {
+     "tag": "times:shabbat",
+     "scope": "span",
+     "quotes": [
+      "כי בכל שבת ושבת כשהלך המגיד לישן"
+     ],
+     "confidence": 1,
+     "why": "The Sabbath-night study habit appears only in a digression",
+     "quotes_failed": false
+    }
+   ],
+   "missing_concepts": [
+    "blood libel",
+    "imprisonment of a rabbi",
+    "self-sacrifice for the community (mesirut nefesh)",
+    "polemic against gentile worship (idols)"
+   ],
+   "start_quote_found": true,
+   "end_quote_found": true
+  }
+ ],
+ "id": "Shemen-Hatov_non-story-110_s1",
+ "split_from": "non-story-110"
+}

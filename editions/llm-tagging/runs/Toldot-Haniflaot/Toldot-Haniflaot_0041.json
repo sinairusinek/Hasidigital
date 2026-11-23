@@ -1,0 +1,171 @@
+{
+ "unit": {
+  "kind": "hasidic_story",
+  "why": "A single anecdote: the tzaddik first refuses, then suddenly orders a hasid's family to flee a plague-stricken town just before the plague strikes their house.",
+  "boundary_note": ""
+ },
+ "stories": [
+  {
+   "k": 1,
+   "start_quote": "שמעתי מהחסיד המפורסם ר׳ ראובן מזעליחאוו",
+   "end_quote": "שום רע בכל חדרים בהבית",
+   "hasidic": true,
+   "summary_en": "During an epidemic, R. Reuven of Zelechów stays with the tzaddik in Mogielnica. The tzaddik repeatedly refuses to let him tell his family to leave for Kozienice, then suddenly orders them to flee at once. As soon as they are outside the town, the plague strikes their house, which had stayed untouched while they lived there.",
+   "tags": [
+    {
+     "tag": "folkloristics:story_type_protection",
+     "scope": "story",
+     "quotes": [],
+     "confidence": 3,
+     "why": "the tzaddik's timing protects the family from the plague",
+     "quotes_failed": false
+    },
+    {
+     "tag": "practice:protection",
+     "scope": "span",
+     "quotes": [
+      "שיסעו מהר מביתם בלי איחור לקאזניץ",
+      "לא היה נגע עוד שום רע בכל חדרים"
+     ],
+     "confidence": 3,
+     "why": "the family is shielded from the epidemic",
+     "quotes_failed": false
+    },
+    {
+     "tag": "supernatural:perception",
+     "scope": "span",
+     "quotes": [
+      "ופ״א פתאום שלח מרן ז״ל לקרוא אותו"
+     ],
+     "confidence": 2,
+     "why": "the tzaddik knows when the plague will strike the house",
+     "quotes_failed": false
+    },
+    {
+     "tag": "supernatural:prognostication",
+     "scope": "span",
+     "quotes": [
+      "תיכף התחיל הנגף ר״ל בבית הזה"
+     ],
+     "confidence": 2,
+     "why": "the implied foreknowledge of the danger comes true",
+     "quotes_failed": false
+    },
+    {
+     "tag": "supernatural:miracle",
+     "scope": "span",
+     "quotes": [
+      "וכ״ז שהיו הב״ב באותו בית לא היה נגע"
+     ],
+     "confidence": 2,
+     "why": "the house stays untouched while the family is in it",
+     "quotes_failed": false
+    },
+    {
+     "tag": "practice:lifesaving",
+     "scope": "span",
+     "quotes": [
+      "שיסעו מהר מביתם בלי איחור לקאזניץ"
+     ],
+     "confidence": 2,
+     "why": "the family escapes imminent death from plague",
+     "quotes_failed": false
+    },
+    {
+     "tag": "practice:travel_to_the_tsaddik",
+     "scope": "span",
+     "quotes": [
+      "היה יושב במאגלניצא אצל מרן ז״ל"
+     ],
+     "confidence": 2,
+     "why": "the hasid stays at the tzaddik's court",
+     "quotes_failed": false
+    },
+    {
+     "tag": "spaces:institutions_hassidic_court",
+     "scope": "span",
+     "quotes": [
+      "היה יושב במאגלניצא אצל מרן ז״ל"
+     ],
+     "confidence": 2,
+     "why": "part of the story is set at the Mogielnica court",
+     "quotes_failed": false
+    },
+    {
+     "tag": "practice:torat_ha_tsaddik",
+     "scope": "span",
+     "quotes": [
+      "ובכל פעם צוה אותו לבל לכתוב אליהם"
+     ],
+     "confidence": 1,
+     "why": "the hasid depends entirely on the tzaddik's instruction",
+     "quotes_failed": false
+    },
+    {
+     "tag": "social:inter_hasidic_master_disciple_relationship",
+     "scope": "span",
+     "quotes": [
+      "אשר היה מקורב אל מרן ז״ל מאד"
+     ],
+     "confidence": 2,
+     "why": "a close hasid relies on the master's guidance",
+     "quotes_failed": false
+    },
+    {
+     "tag": "practice:storytelling",
+     "scope": "span",
+     "quotes": [
+      "שמעתי מהחסיד המפורסם ר׳ ראובן מזעליחאוו"
+     ],
+     "confidence": 1,
+     "why": "framed as a story heard from a named hasid",
+     "quotes_failed": false
+    },
+    {
+     "tag": "times:historical_event",
+     "scope": "span",
+     "quotes": [
+      "היה החולי הנ\"ל מתהלך מאד ר״ל"
+     ],
+     "confidence": 2,
+     "why": "an epidemic (likely cholera) is the setting",
+     "quotes_failed": false
+    },
+    {
+     "tag": "ethics-and-emotions:fear",
+     "scope": "span",
+     "quotes": [
+      "שאל הרבה פעמים מאתו, אם יכתוב לאנשי ביתו"
+     ],
+     "confidence": 1,
+     "why": "the hasid's anxiety for his family",
+     "quotes_failed": false
+    },
+    {
+     "tag": "women:mention_only",
+     "scope": "span",
+     "quotes": [
+      "לב״ב שיסעו מהר מביתם"
+     ],
+     "confidence": 1,
+     "why": "the household (implicitly his wife) is referred to collectively",
+     "quotes_failed": false
+    }
+   ],
+   "missing_concepts": [
+    "epidemic / plague (cholera) as a threat",
+    "the tzaddik's timing: waiting, then acting at the exact moment"
+   ],
+   "start_quote_found": true,
+   "end_quote_found": true
+  }
+ ],
+ "check": {
+  "non_vocab_tags": [],
+  "quotes": 14,
+  "quotes_not_found": 0
+ },
+ "id": "Toldot-Haniflaot_0041",
+ "chars": 642,
+ "seconds": 15
+}

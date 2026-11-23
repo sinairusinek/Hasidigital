@@ -1,0 +1,142 @@
+{
+ "unit": {
+  "kind": "hasidic_story",
+  "why": "A short anecdote: the Seer of Lublin prays at length for sinners' repentance while staying with R. Zusha, who corrects him; the Seer then gives an exegetical teaching built on the episode.",
+  "boundary_note": ""
+ },
+ "stories": [
+  {
+   "k": 1,
+   "start_quote": "מעשה אשר פ\"א הי' אצל הצדיק",
+   "end_quote": "ואז ותהי לי לאשה סוד הזיווג",
+   "hasidic": true,
+   "summary_en": "While visiting R. Zusha, the Seer of Lublin prayed at length for Israel's sinners to repent. Zusha told him not to pray for repentance alone, since repentance (Binah) can arouse judgments and bring repentance through suffering, but to ask for mercy for all Israel, and repentance would follow; the Seer then read Gen. 20:12 in this light.",
+   "tags": [
+    {
+     "tag": "practice:prayer",
+     "scope": "span",
+     "quotes": [
+      "והאריך הוא ז\"ל באיזה תפלה להתפלל על פושעי ישראל"
+     ],
+     "confidence": 3,
+     "why": "The Seer's prayer and its proper wording are the subject of the story.",
+     "quotes_failed": false
+    },
+    {
+     "tag": "ethics-and-emotions:repentance",
+     "scope": "span",
+     "quotes": [
+      "שיחזרו בתשובה",
+      "אל יתפלל סתם שיעשו תשובה"
+     ],
+     "confidence": 2,
+     "why": "Repentance of sinners is the topic of the prayer, though no one is shown repenting.",
+     "quotes_failed": false
+    },
+    {
+     "tag": "social:relations_with_sinners",
+     "scope": "span",
+     "quotes": [
+      "להתפלל על פושעי ישראל שיחזרו בתשובה"
+     ],
+     "confidence": 2,
+     "why": "The tzaddik intercedes for Jewish sinners.",
+     "quotes_failed": false
+    },
+    {
+     "tag": "ethics-and-emotions:punishment",
+     "scope": "span",
+     "quotes": [
+      "תשובה ע\"י יסורין ועונש"
+     ],
+     "confidence": 1,
+     "why": "Zusha warns of repentance brought about through suffering and punishment.",
+     "quotes_failed": false
+    },
+    {
+     "tag": "practice:torat_ha_tsaddik",
+     "scope": "span",
+     "quotes": [
+      "שיבקש רחמים וחסדים על כל ישראל"
+     ],
+     "confidence": 2,
+     "why": "The story concerns how a tzaddik should intercede on Israel's behalf.",
+     "quotes_failed": false
+    },
+    {
+     "tag": "social:inter_hasidic",
+     "scope": "span",
+     "quotes": [
+      "פ\"א הי' אצל הצדיק ר\"ר זושא ז\"ל"
+     ],
+     "confidence": 2,
+     "why": "An encounter between two tzaddikim in which one corrects the other.",
+     "quotes_failed": false
+    },
+    {
+     "tag": "supernatural:perception",
+     "scope": "span",
+     "quotes": [
+      "והרגיש ר' זושא בדבר"
+     ],
+     "confidence": 1,
+     "why": "Zusha sensed something about the prayer; this may imply supernatural insight.",
+     "quotes_failed": false
+    },
+    {
+     "tag": "practice:storytelling",
+     "scope": "span",
+     "quotes": [
+      "וכמו ששמעתי מאדומו\"ר וכו׳ מלובלין הכ\"מ מעשה"
+     ],
+     "confidence": 2,
+     "why": "The episode is framed as told by the Seer of Lublin and heard from him.",
+     "quotes_failed": false
+    },
+    {
+     "tag": "practice:sermon",
+     "scope": "span",
+     "quotes": [
+      "לפי״ז פי׳ הפסוק וג״ם אמנ\"ם"
+     ],
+     "confidence": 3,
+     "why": "The Seer's exegesis of a verse is quoted.",
+     "quotes_failed": false
+    },
+    {
+     "tag": "knowledge:esoteric",
+     "scope": "span",
+     "quotes": [
+      "כי נודע אשר בינה הוא תשובה",
+      "סוד בינה כי אם לבינה תקרא"
+     ],
+     "confidence": 2,
+     "why": "The teaching rests on sefirotic doctrine: Binah, Hokhmah and judgments.",
+     "quotes_failed": false
+    },
+    {
+     "tag": "not-a-hasidic-story:sermon",
+     "scope": "story",
+     "quotes": [],
+     "confidence": 2,
+     "why": "The short narrative is embedded in a homiletic book and leads into extended exegesis.",
+     "quotes_failed": false
+    }
+   ],
+   "missing_concepts": [
+    "the proper wording or intention of intercessory prayer (mercy rather than repentance)",
+    "repentance as Binah arousing judgments"
+   ],
+   "start_quote_found": true,
+   "end_quote_found": true
+  }
+ ],
+ "check": {
+  "non_vocab_tags": [],
+  "quotes": 12,
+  "quotes_not_found": 0
+ },
+ "id": "Eser-Orot_0236",
+ "chars": 638,
+ "seconds": 20
+}

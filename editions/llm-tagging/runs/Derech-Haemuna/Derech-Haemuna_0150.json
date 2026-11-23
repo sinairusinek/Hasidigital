@@ -1,0 +1,133 @@
+{
+ "unit": {
+  "kind": "hasidic_story",
+  "why": "A homiletic exhortation (night prayer, Psalms, supporting true scholars and tsaddikim) built around one embedded narrative: R. Zusha of Anipoli's three-day fasts and the miraculous milk and honey nursing that sustained him, told through a chain of transmission.",
+  "boundary_note": "the story is embedded in a sermon frame that runs before and after it; the division ends with the heading of the next section ('מענין מצוה לשמוע דברי חכמים')"
+ },
+ "stories": [
+  {
+   "k": 1,
+   "start_quote": "וסיפר לי מו״ח הצדיק המפורסם מוהר״ר",
+   "end_quote": "כך סיפר הצדיק בפיו למו״ח",
+   "hasidic": true,
+   "summary_en": "R. Zusha, a poor beadle in Ostroh who fasted for days, decided that begging for bread showed a lack of faith; when no one was worthy to feed him, God made him two nipples in his mouth giving honey and milk, which fed him for three months until a man handed him coins for bread.",
+   "tags": [
+    {
+     "tag": "practice:fasting",
+     "scope": "span",
+     "quotes": [
+      "והיה דרכו להתענות שנים ושלשה ימים",
+      "ופ״א התענה שלשה ימם כדרכו"
+     ],
+     "confidence": 3,
+     "why": "his habitual multi-day fasts drive the plot",
+     "quotes_failed": false
+    },
+    {
+     "tag": "practice:asceticism",
+     "scope": "span",
+     "quotes": [
+      "והתענה והלך עד שהיה קרוב למות"
+     ],
+     "confidence": 2,
+     "why": "extreme self-denial, fasting nearly to death",
+     "quotes_failed": false
+    },
+    {
+     "tag": "supernatural:miracle",
+     "scope": "span",
+     "quotes": [
+      "שני דדין בפיו אחד הוציא דבש",
+      "אזי ברגע נפסק זה הדבש וחלב"
+     ],
+     "confidence": 3,
+     "why": "a discrete miracle of miraculous nourishment",
+     "quotes_failed": false
+    },
+    {
+     "tag": "social:poverty",
+     "scope": "span",
+     "quotes": [
+      "בעניותו היה שמש בעיר אוסטרהא",
+      "שזהו חסרון אמונה לילך ולבקש לחם"
+     ],
+     "confidence": 2,
+     "why": "he chooses not to beg, accepting poverty out of trust in God",
+     "quotes_failed": false
+    },
+    {
+     "tag": "folkloristics:story_type_virtues",
+     "scope": "story",
+     "quotes": [],
+     "confidence": 2,
+     "why": "the story illustrates Zusha's faith and trust in God",
+     "quotes_failed": false
+    },
+    {
+     "tag": "ethics-and-emotions:virtues",
+     "scope": "span",
+     "quotes": [
+      "יבטח באלהיו באמונה שלימה שלא יחסר מזונו"
+     ],
+     "confidence": 2,
+     "why": "faith and trust are the virtue at issue",
+     "quotes_failed": false
+    },
+    {
+     "tag": "ethics-and-emotions:charity",
+     "scope": "span",
+     "quotes": [
+      "שיתן לו על לחם להשיב נפשו",
+      "זוסא קח לך ששה גראשיש וקנה לך לחם"
+     ],
+     "confidence": 2,
+     "why": "giving to the poor tsaddik, and the merit of doing so, is the point of the story and its frame",
+     "quotes_failed": false
+    },
+    {
+     "tag": "practice:storytelling",
+     "scope": "span",
+     "quotes": [
+      "ששמע מאיש וכו׳ קדוש מוהר״ר זוסא",
+      "כך סיפר הצדיק בפיו למו״ח"
+     ],
+     "confidence": 2,
+     "why": "the text frames the tale as told by the tsaddik himself and handed on",
+     "quotes_failed": false
+    },
+    {
+     "tag": "not-a-hasidic-story:sermon",
+     "scope": "story",
+     "quotes": [],
+     "confidence": 3,
+     "why": "the narrative is wrapped in an extended homiletic exhortation",
+     "quotes_failed": false
+    },
+    {
+     "tag": "practice:torat_ha_tsaddik",
+     "scope": "span",
+     "quotes": [
+      "שתתקשר לצדיק אמת כי על ידי התקשרות"
+     ],
+     "confidence": 2,
+     "why": "the frame urges attachment to and support of a true tsaddik",
+     "quotes_failed": false
+    }
+   ],
+   "missing_concepts": [
+    "trust in God (bitachon) versus asking for sustenance",
+    "the worthiness or merit needed to perform a mitzvah (supporting a true scholar)"
+   ],
+   "start_quote_found": true,
+   "end_quote_found": true
+  }
+ ],
+ "check": {
+  "non_vocab_tags": [],
+  "quotes": 14,
+  "quotes_not_found": 1
+ },
+ "id": "Derech-Haemuna_0150",
+ "chars": 3190,
+ "seconds": 24
+}

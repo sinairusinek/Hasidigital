@@ -1,0 +1,197 @@
+{
+ "unit": {
+  "kind": "several_stories",
+  "why": "The division holds a quoted tale about the Neskhizer and the sons of the Zlotshover Maggid scraping gold from their father's table, then the author's own oral report that the Neskhizer revived a dead person with the Maggid's tea cup.",
+  "boundary_note": ""
+ },
+ "stories": [
+  {
+   "k": 1,
+   "start_quote": "כאשר נשמע בעולם פרסום מופתי הנעסכיזר",
+   "end_quote": "ויגרוד זהב מהשלחן לעיניהם עכ״ל",
+   "hasidic": true,
+   "summary_en": "The five sons of the Maggid of Zlotshov gather to examine whether the Neskhizer's wonders are suspect; the Neskhizer senses it through the holy spirit, comes there, wins their recognition, and scrapes gold from their father's table before their eyes.",
+   "tags": [
+    {
+     "tag": "supernatural:perception",
+     "scope": "span",
+     "quotes": [
+      "והנעסכיזר זצלה\"ה הרגיש מזה ברוה״ק"
+     ],
+     "confidence": 3,
+     "why": "He knows of the gathering through the holy spirit.",
+     "quotes_failed": false
+    },
+    {
+     "tag": "supernatural:miracle",
+     "scope": "span",
+     "quotes": [
+      "ויקח סכין ויגרוד זהב מהשלחן לעיניהם"
+     ],
+     "confidence": 3,
+     "why": "He scrapes gold from a wooden table.",
+     "quotes_failed": false
+    },
+    {
+     "tag": "social:competition",
+     "scope": "span",
+     "quotes": [
+      "להתבונן אודות הנעסכיזר ומהות נפלאותיו אם יש לחוש ח״ו לזה"
+     ],
+     "confidence": 1,
+     "why": "Other tsaddikim scrutinize a rival wonder-worker.",
+     "quotes_failed": false
+    },
+    {
+     "tag": "social:retrospective_recognition",
+     "scope": "span",
+     "quotes": [
+      "ויראו כי קדוש הוא והכירו בו ויחבבוהו כראוי"
+     ],
+     "confidence": 2,
+     "why": "The suspicious sons come to recognize his holiness.",
+     "quotes_failed": false
+    },
+    {
+     "tag": "folkloristics:story_type_rapprochement",
+     "scope": "story",
+     "quotes": [],
+     "confidence": 1,
+     "why": "Doubters are won over by the events.",
+     "quotes_failed": false
+    },
+    {
+     "tag": "characters-and-roles:the_family_of_the_tsaddik",
+     "scope": "span",
+     "quotes": [
+      "וישמעו מזה בני רבו המגיד מזלאטשוב"
+     ],
+     "confidence": 2,
+     "why": "The sons of the Maggid of Zlotshov act in the story.",
+     "quotes_failed": false
+    },
+    {
+     "tag": "practice:torat_ha_tsaddik",
+     "scope": "span",
+     "quotes": [
+      "אילו הי׳ אצלי שולחן רבי אביכם זצוקללה\"ה הייתי גורד זהב ממנו"
+     ],
+     "confidence": 2,
+     "why": "The master's sanctified table holds power.",
+     "quotes_failed": false
+    },
+    {
+     "tag": "social:inter_hasidic",
+     "scope": "span",
+     "quotes": [
+      "ויתוועדו אל מקום אחד מהם"
+     ],
+     "confidence": 2,
+     "why": "Tsaddikim gather and interact.",
+     "quotes_failed": false
+    },
+    {
+     "tag": "ethics-and-emotions:awe",
+     "scope": "span",
+     "quotes": [
+      "וכל באי עולם חרדו מעזוזי נפלאותיו"
+     ],
+     "confidence": 1,
+     "why": "People are in awe of his wonders.",
+     "quotes_failed": false
+    }
+   ],
+   "missing_concepts": [
+    "sanctity of objects belonging to a tsaddik (relics)",
+    "testing or vetting the legitimacy of a wonder-worker"
+   ],
+   "start_quote_found": true,
+   "end_quote_found": true
+  },
+  {
+   "k": 2,
+   "start_quote": "אני הכותם שמעתי מאיש מהימן מאוד",
+   "end_quote": "המגיד רי״מ זצוקללה״ה מזלאטשוב",
+   "hasidic": true,
+   "summary_en": "The author reports, through a chain of trusted tellers, that R. Mordecai of Neskhiz revived a dead person using the vessel from which his master, the Maggid of Zlotshov, drank tea.",
+   "tags": [
+    {
+     "tag": "supernatural:miracle",
+     "scope": "span",
+     "quotes": [
+      "שהחי׳ את המת בהכלי ששתה בו טייא"
+     ],
+     "confidence": 3,
+     "why": "Raising the dead.",
+     "quotes_failed": false
+    },
+    {
+     "tag": "practice:lifesaving",
+     "scope": "span",
+     "quotes": [
+      "שהחי׳ את המת"
+     ],
+     "confidence": 2,
+     "why": "A tsaddik revives the dead.",
+     "quotes_failed": false
+    },
+    {
+     "tag": "times:death",
+     "scope": "span",
+     "quotes": [
+      "שהחי׳ את המת"
+     ],
+     "confidence": 1,
+     "why": "A death is implied before the revival.",
+     "quotes_failed": false
+    },
+    {
+     "tag": "practice:torat_ha_tsaddik",
+     "scope": "span",
+     "quotes": [
+      "בהכלי ששתה בו טייא רבו רבינו הקדוש המגיד"
+     ],
+     "confidence": 2,
+     "why": "The master's vessel carries his power.",
+     "quotes_failed": false
+    },
+    {
+     "tag": "social:inter_hasidic_master_disciple_relationship",
+     "scope": "span",
+     "quotes": [
+      "רבו רבינו הקדוש המגיד רי״מ"
+     ],
+     "confidence": 1,
+     "why": "The disciple uses his master's object.",
+     "quotes_failed": false
+    },
+    {
+     "tag": "practice:storytelling",
+     "scope": "span",
+     "quotes": [
+      "ששמע בעצמו מזקינו הגה״ק הנ\"ל שאמר בשם"
+     ],
+     "confidence": 2,
+     "why": "The tale is framed by a chain of oral transmission from tsaddikim.",
+     "quotes_failed": false
+    }
+   ],
+   "missing_concepts": [
+    "relics / holy objects of a tsaddik",
+    "chain of oral transmission"
+   ],
+   "start_quote_found": true,
+   "end_quote_found": true
+  }
+ ],
+ "check": {
+  "non_vocab_tags": [
+   "the_travels_of_the_tsaddik"
+  ],
+  "quotes": 14,
+  "quotes_not_found": 0
+ },
+ "id": "Maim-Rabim_0019",
+ "chars": 790,
+ "seconds": 24
+}

@@ -1,0 +1,148 @@
+{
+ "unit": {
+  "kind": "hasidic_story",
+  "why": "A short anecdote: the Maggid of Kozhnitz reads the hidden thoughts of an old teacher whose wife is dying, and correctly foretells her recovery through a play on a verse.",
+  "boundary_note": ""
+ },
+ "stories": [
+  {
+   "k": 1,
+   "start_quote": "סיפר הג״מ רפאל הלוי מקאזניץ",
+   "end_quote": "שאשתך תקום מחליה וכן הוה",
+   "hasidic": true,
+   "summary_en": "An old teacher comes to the study hall to pray while his wife lies dying; the Maggid quotes Proverbs 19:21 to show he knows the man is already thinking of a new, moneyed wife, and foretells that his wife will recover, which she does.",
+   "tags": [
+    {
+     "tag": "folkloristics:story_type_prognostication",
+     "scope": "story",
+     "quotes": [],
+     "confidence": 3,
+     "why": "The tale turns on the Maggid's prediction that comes true.",
+     "quotes_failed": false
+    },
+    {
+     "tag": "supernatural:prognostication",
+     "scope": "span",
+     "quotes": [
+      "היא תקום שאשתך תקום מחליה וכן הוה"
+     ],
+     "confidence": 3,
+     "why": "He predicts the wife's recovery and it happens.",
+     "quotes_failed": false
+    },
+    {
+     "tag": "supernatural:perception",
+     "scope": "span",
+     "quotes": [
+      "רבות מחשבות בלב איש [איזהו אשה תקח ועם מעות]"
+     ],
+     "confidence": 3,
+     "why": "The Maggid reads the man's hidden thoughts about remarrying.",
+     "quotes_failed": false
+    },
+    {
+     "tag": "spaces:beth_midrash",
+     "scope": "span",
+     "quotes": [
+      "שהי' שם בביהמ\"ד זקן ומלמד"
+     ],
+     "confidence": 3,
+     "why": "The scene takes place in the study hall.",
+     "quotes_failed": false
+    },
+    {
+     "tag": "women:catalyst_character",
+     "scope": "span",
+     "quotes": [
+      "ואשתו היתה גוססת"
+     ],
+     "confidence": 3,
+     "why": "The dying wife sets off the plot but does not act herself.",
+     "quotes_failed": false
+    },
+    {
+     "tag": "practice:sermon",
+     "scope": "span",
+     "quotes": [
+      "רבות מחשבות בלב איש",
+      "ועצת ה׳ [יהי' אשר] היא תקום"
+     ],
+     "confidence": 2,
+     "why": "The Maggid's message is given as an exegesis of a verse.",
+     "quotes_failed": false
+    },
+    {
+     "tag": "characters-and-roles:preacher",
+     "scope": "story",
+     "quotes": [],
+     "confidence": 1,
+     "why": "The tzaddik is the Maggid of Kozhnitz, but here he acts as a rebbe.",
+     "quotes_failed": false
+    },
+    {
+     "tag": "practice:healing",
+     "scope": "span",
+     "quotes": [
+      "שאשתך תקום מחליה וכן הוה"
+     ],
+     "confidence": 2,
+     "why": "The dying woman recovers through the tzaddik's word.",
+     "quotes_failed": false
+    },
+    {
+     "tag": "practice:lifesaving",
+     "scope": "span",
+     "quotes": [
+      "ואשתו היתה גוססת"
+     ],
+     "confidence": 1,
+     "why": "A woman on her deathbed is spared, though by prediction rather than by an explicit act.",
+     "quotes_failed": false
+    },
+    {
+     "tag": "practice:prayer",
+     "scope": "span",
+     "quotes": [
+      "ובא לביהמ\"ד להתפלל"
+     ],
+     "confidence": 1,
+     "why": "The man comes to pray; prayer is only the occasion.",
+     "quotes_failed": false
+    },
+    {
+     "tag": "social:marital_relationship",
+     "scope": "span",
+     "quotes": [
+      "רבות מחשבות בלב איש [איזהו אשה תקח ועם מעות]"
+     ],
+     "confidence": 2,
+     "why": "The husband's thoughts of remarrying while his wife is dying are exposed.",
+     "quotes_failed": false
+    },
+    {
+     "tag": "practice:storytelling",
+     "scope": "span",
+     "quotes": [
+      "סיפר הג״מ רפאל הלוי מקאזניץ"
+     ],
+     "confidence": 1,
+     "why": "The tale is framed as told by a named rabbi.",
+     "quotes_failed": false
+    }
+   ],
+   "missing_concepts": [
+    "husband's premature thoughts of remarriage / a second marriage for money"
+   ],
+   "start_quote_found": true,
+   "end_quote_found": true
+  }
+ ],
+ "check": {
+  "non_vocab_tags": [],
+  "quotes": 11,
+  "quotes_not_found": 0
+ },
+ "id": "Eser-Orot_0158",
+ "chars": 232,
+ "seconds": 18
+}

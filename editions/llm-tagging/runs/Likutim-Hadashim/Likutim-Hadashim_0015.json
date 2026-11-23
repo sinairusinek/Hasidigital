@@ -1,0 +1,73 @@
+{
+ "unit": {
+  "kind": "hasidic_story",
+  "why": "A brief anecdote: people said R. Levi Yitzhak of Berdichev had R. Akiva's soul, so the Maggid would not let him be called his disciple, although he studied with him for years.",
+  "boundary_note": ""
+ },
+ "stories": [
+  {
+   "k": 1,
+   "start_quote": "עו״ש שהיו אומרים על הרה״ק בעהמ״ס",
+   "end_quote": "לא היה להם אריכות ימים",
+   "hasidic": true,
+   "summary_en": "Because R. Levi Yitzhak of Berdichev was said to bear the soul of R. Akiva, the Maggid of Mezeritch refused to have him called his disciple, since R. Akiva's disciples did not live long.",
+   "tags": [
+    {
+     "tag": "supernatural:reincarnation",
+     "scope": "span",
+     "quotes": [
+      "שהיה לו נשמת ר׳ עקיבא"
+     ],
+     "confidence": 3,
+     "why": "Levi Yitzhak is said to carry R. Akiva's soul, which drives the Maggid's decision",
+     "quotes_failed": false
+    },
+    {
+     "tag": "social:inter_hasidic_master_disciple_relationship",
+     "scope": "span",
+     "quotes": [
+      "לא היה רוצה המגיד ז״ל שיקרא תלמידו",
+      "הגם שהיה לומד אצלו איזה שנים"
+     ],
+     "confidence": 3,
+     "why": "The anecdote is about whether Levi Yitzhak may be called the Maggid's disciple",
+     "quotes_failed": false
+    },
+    {
+     "tag": "practice:study",
+     "scope": "span",
+     "quotes": [
+      "הגם שהיה לומד אצלו איזה שנים"
+     ],
+     "confidence": 1,
+     "why": "Mentions years of study with the Maggid, but only in passing",
+     "quotes_failed": false
+    },
+    {
+     "tag": "practice:protection",
+     "scope": "span",
+     "quotes": [
+      "מחמת שמתלמידי ר׳ עקיבא לא היה להם אריכות ימים"
+     ],
+     "confidence": 1,
+     "why": "The Maggid's refusal implicitly guards Levi Yitzhak from the short life of R. Akiva's disciples",
+     "quotes_failed": false
+    }
+   ],
+   "missing_concepts": [
+    "longevity / fear of early death tied to the fate of a soul-root's disciples",
+    "the naming of a disciple as a spiritually consequential act"
+   ],
+   "start_quote_found": true,
+   "end_quote_found": true
+  }
+ ],
+ "check": {
+  "non_vocab_tags": [],
+  "quotes": 5,
+  "quotes_not_found": 0
+ },
+ "id": "Likutim-Hadashim_0015",
+ "chars": 186,
+ "seconds": 12
+}

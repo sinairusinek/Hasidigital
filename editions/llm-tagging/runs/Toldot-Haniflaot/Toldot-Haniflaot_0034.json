@@ -1,0 +1,151 @@
+{
+ "unit": {
+  "kind": "several_stories",
+  "why": "The division holds two separate anecdotes told by the attendant R. Moshe Aharon: the rebbe perceiving from afar that R. Gabriel was in danger, and the rebbe knowing that challah had not been taken from bread.",
+  "boundary_note": ""
+ },
+ "stories": [
+  {
+   "k": 1,
+   "start_quote": "פ\"א היה במעזבוז עם החסיד מפורסם",
+   "end_quote": "שהיה בשעה זו בסכנה גדולה מאד",
+   "hasidic": true,
+   "summary_en": "On the way home from Medzhybizh, the tzaddik tells his attendant that R. Gabriel, who stayed behind, needs great mercy at that moment; the attendant notes the time, and it is later confirmed that R. Gabriel was in great danger at that very hour.",
+   "tags": [
+    {
+     "tag": "supernatural:perception",
+     "scope": "span",
+     "quotes": [
+      "כי הרב ר״ג צריך עתה לרחמים גדולים",
+      "ונמצא מכוון שהיה בשעה זו בסכנה גדולה מאד"
+     ],
+     "confidence": 3,
+     "why": "The tzaddik knows at a distance that R. Gabriel is in danger.",
+     "quotes_failed": false
+    },
+    {
+     "tag": "practice:the_travels_of_the_tsaddik",
+     "scope": "span",
+     "quotes": [
+      "וכאשר נסע לביתו והרב ר״ג נשאר עוד שם",
+      "ובאמצע הדרך אמר למשרתו"
+     ],
+     "confidence": 2,
+     "why": "The perception takes place during the tzaddik's journey home.",
+     "quotes_failed": false
+    },
+    {
+     "tag": "social:retrospective_recognition",
+     "scope": "span",
+     "quotes": [
+      "ובמכוון ראה ר' משה אהרן בזייגעריל איזה שעה הוא",
+      "חקר ודרש אותו מה היה לו"
+     ],
+     "confidence": 2,
+     "why": "The attendant later verifies that the time of the danger matches the time of the tzaddik's words.",
+     "quotes_failed": false
+    },
+    {
+     "tag": "social:inter_hasidic",
+     "scope": "span",
+     "quotes": [
+      "עם החסיד מפורסם ר׳ גבריאל ז\"ל ממאגלניצא"
+     ],
+     "confidence": 1,
+     "why": "Shows the tzaddik's concern for a fellow Hasid.",
+     "quotes_failed": false
+    }
+   ],
+   "missing_concepts": [
+    "attendant (meshamesh) as witness and narrator",
+    "verification of clairvoyance by noting the clock time"
+   ],
+   "start_quote_found": true,
+   "end_quote_found": true
+  },
+  {
+   "k": 2,
+   "start_quote": "וגם סיפר ר' משה אהרן אשר פ״א",
+   "end_quote": "מה שראה אצלו תמיד עוד מימי קטנותו",
+   "hasidic": true,
+   "summary_en": "In a town on the road, the tzaddik sees bread his attendant brought and orders it returned because challah was not taken from it; the baker confirms that they forgot to separate challah.",
+   "tags": [
+    {
+     "tag": "supernatural:perception",
+     "scope": "span",
+     "quotes": [
+      "מיד כשהיה רואה מרן ז\"ל",
+      "ונתוודע ששכחו להפריש חלה"
+     ],
+     "confidence": 3,
+     "why": "He knows the dough's ritual status just by looking at the bread.",
+     "quotes_failed": false
+    },
+    {
+     "tag": "practice:halakhah",
+     "scope": "span",
+     "quotes": [
+      "תלך להחזיר הלחם כי לא נקח חלה מהם"
+     ],
+     "confidence": 3,
+     "why": "The law of separating challah is the point of the story.",
+     "quotes_failed": false
+    },
+    {
+     "tag": "ethics-and-emotions:prohibitions",
+     "scope": "span",
+     "quotes": [
+      "תלך להחזיר הלחם כי לא נקח חלה מהם"
+     ],
+     "confidence": 2,
+     "why": "The bread is forbidden to eat, so he refuses it.",
+     "quotes_failed": false
+    },
+    {
+     "tag": "practice:the_travels_of_the_tsaddik",
+     "scope": "span",
+     "quotes": [
+      "באמצע הדרך באיזה עיר לקח לחם סולת"
+     ],
+     "confidence": 2,
+     "why": "The episode takes place in a town on the road.",
+     "quotes_failed": false
+    },
+    {
+     "tag": "social:retrospective_recognition",
+     "scope": "span",
+     "quotes": [
+      "ומיד חזר להאופה ונתוודע ששכחו להפריש חלה"
+     ],
+     "confidence": 2,
+     "why": "The baker's admission confirms the tzaddik's knowledge.",
+     "quotes_failed": false
+    },
+    {
+     "tag": "practice:storytelling",
+     "scope": "span",
+     "quotes": [
+      "וכן סיפר הרבה כהנה מה שראה אצלו"
+     ],
+     "confidence": 1,
+     "why": "The attendant is framed as the teller of many such tales.",
+     "quotes_failed": false
+    }
+   ],
+   "missing_concepts": [
+    "kashrut / food purity perceived supernaturally",
+    "attendant as eyewitness source"
+   ],
+   "start_quote_found": true,
+   "end_quote_found": true
+  }
+ ],
+ "check": {
+  "non_vocab_tags": [],
+  "quotes": 14,
+  "quotes_not_found": 0
+ },
+ "id": "Toldot-Haniflaot_0034",
+ "chars": 652,
+ "seconds": 20
+}

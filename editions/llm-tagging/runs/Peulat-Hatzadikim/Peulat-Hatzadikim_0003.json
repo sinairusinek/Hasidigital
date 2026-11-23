@@ -1,0 +1,157 @@
+{
+ "unit": {
+  "kind": "hasidic_story",
+  "why": "A single narrative: two Chabad scholars spend Shabbat with R. Aharon of Karlin, look down on his simple conduct, and he rebukes them with a midrash and a homily on Joseph speaking in the holy tongue.",
+  "boundary_note": "The final word 'כשנסתלק' is a catchword that opens the next division's eulogy story."
+ },
+ "stories": [
+  {
+   "k": 1,
+   "start_quote": "פ״א הי׳ אצלו על ש\"ק שני ת\"ח",
+   "end_quote": "מ״מ במח נחשב הוא :",
+   "hasidic": true,
+   "summary_en": "Two disciples of R. Shneur Zalman spend Shabbat with R. Aharon of Karlin and, seeing no esoteric teachings, think little of him. Sensing this, he grows angry, shows them a midrash they did not know, predicts their mockery of his eating, drinking and speaking in vernacular, and explains through Joseph's words that a holy tongue may speak any language on Shabbat.",
+   "tags": [
+    {
+     "tag": "times:shabbat",
+     "scope": "story",
+     "quotes": [],
+     "confidence": 3,
+     "why": "The whole episode happens at the Shabbat meals.",
+     "quotes_failed": false
+    },
+    {
+     "tag": "social:inter_hasidic",
+     "scope": "story",
+     "quotes": [],
+     "confidence": 3,
+     "why": "Chabad hasidim interact with the Karlin tsaddik.",
+     "quotes_failed": false
+    },
+    {
+     "tag": "practice:travel_to_other_tsaddik",
+     "scope": "span",
+     "quotes": [
+      "שני ת\"ח מתלמידי הגאון רש\"ז בעל התניא"
+     ],
+     "confidence": 2,
+     "why": "Disciples of another rebbe visit him for Shabbat.",
+     "quotes_failed": false
+    },
+    {
+     "tag": "ethics-and-emotions:anger",
+     "scope": "span",
+     "quotes": [
+      "וכשהרגיש הרב זאת חרה לו מאוד"
+     ],
+     "confidence": 3,
+     "why": "The tsaddik is angered by their disdain.",
+     "quotes_failed": false
+    },
+    {
+     "tag": "supernatural:perception",
+     "scope": "span",
+     "quotes": [
+      "אני יודע בכם בשתבואו למדינתכם תספרו"
+     ],
+     "confidence": 2,
+     "why": "He knows their unspoken thoughts and what they will say.",
+     "quotes_failed": false
+    },
+    {
+     "tag": "ethics-and-emotions:humility",
+     "scope": "span",
+     "quotes": [
+      "דרכו בקודש היה להיות הצגע לכת והכל בהסתר גדול"
+     ],
+     "confidence": 2,
+     "why": "The tsaddik's modest, concealed conduct is the point of contrast.",
+     "quotes_failed": false
+    },
+    {
+     "tag": "ethics-and-emotions:pride",
+     "scope": "span",
+     "quotes": [
+      "ילא היה להם שום הכנעה לפניו"
+     ],
+     "confidence": 2,
+     "why": "The scholars' lack of submission and their condescension.",
+     "quotes_failed": false
+    },
+    {
+     "tag": "ethics-and-emotions:shame",
+     "scope": "span",
+     "quotes": [
+      "הראוני אנה מבואר זאת במדרש ולא ידעו"
+     ],
+     "confidence": 2,
+     "why": "The scholars are exposed as ignorant of the midrash.",
+     "quotes_failed": false
+    },
+    {
+     "tag": "practice:sermon",
+     "scope": "span",
+     "quotes": [
+      "הנה רש״י ז״ל פירש על הפסוק כי פי המדבר אליכם"
+     ],
+     "confidence": 3,
+     "why": "The tsaddik delivers an exegesis of a verse.",
+     "quotes_failed": false
+    },
+    {
+     "tag": "practice:study",
+     "scope": "span",
+     "quotes": [
+      "וצוה תיכף להביא לפניו מדרש והראה להם"
+     ],
+     "confidence": 2,
+     "why": "He tests their learning and studies a midrash with them.",
+     "quotes_failed": false
+    },
+    {
+     "tag": "practice:drinking_alcohol",
+     "scope": "span",
+     "quotes": [
+      "ואוכל הרבה ושיתה הרבה זולל וסובא"
+     ],
+     "confidence": 2,
+     "why": "His eating and drinking at the Shabbat table is at issue.",
+     "quotes_failed": false
+    },
+    {
+     "tag": "knowledge:esoteric",
+     "scope": "span",
+     "quotes": [
+      "בסודות נוראים ויחודים כדרך החב״ד"
+     ],
+     "confidence": 2,
+     "why": "The Chabad expectation of esoteric teaching is contrasted with his hiddenness.",
+     "quotes_failed": false
+    },
+    {
+     "tag": "social:conflict",
+     "scope": "story",
+     "quotes": [],
+     "confidence": 1,
+     "why": "A tense confrontation between the tsaddik and the skeptical guests.",
+     "quotes_failed": false
+    }
+   ],
+   "missing_concepts": [
+    "speaking the vernacular / non-Hebrew languages on Shabbat",
+    "contrast between Chabad and Karlin styles of tsaddik conduct",
+    "holiness of speech (לשון קדוש)"
+   ],
+   "start_quote_found": true,
+   "end_quote_found": true
+  }
+ ],
+ "check": {
+  "non_vocab_tags": [],
+  "quotes": 10,
+  "quotes_not_found": 0
+ },
+ "id": "Peulat-Hatzadikim_0003",
+ "chars": 1549,
+ "seconds": 18
+}

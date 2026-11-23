@@ -1,0 +1,90 @@
+{
+ "unit": {
+  "kind": "hasidic_story",
+  "why": "A one-line anecdote in a numbered series of praises of the Berditchever: while reciting the blessing over the Megillah reading he danced on the reader's stand and almost onto the scroll.",
+  "boundary_note": "Part of a numbered series of short anecdotes (ז, ח, ט) about the same tzaddik; this item is self-contained."
+ },
+ "stories": [
+  {
+   "k": 1,
+   "start_quote": "(ח) בעת בירך ברכת על מקרא מגלה",
+   "end_quote": "רקד על העמוד וכמעט על המגלה",
+   "hasidic": true,
+   "summary_en": "When the tzaddik (R. Levi Yitzhak of Berditchev, by context) recited the blessing over the Megillah reading, he danced on the reader's stand and almost onto the scroll itself.",
+   "tags": [
+    {
+     "tag": "practice:dance",
+     "scope": "span",
+     "quotes": [
+      "רקד על העמוד וכמעט על המגלה"
+     ],
+     "confidence": 3,
+     "why": "He dances during the blessing.",
+     "quotes_failed": false
+    },
+    {
+     "tag": "times:holidays",
+     "scope": "span",
+     "quotes": [
+      "בירך ברכת על מקרא מגלה"
+     ],
+     "confidence": 3,
+     "why": "The Megillah reading places the scene on Purim.",
+     "quotes_failed": false
+    },
+    {
+     "tag": "experience:enthusiasm",
+     "scope": "span",
+     "quotes": [
+      "רקד על העמוד וכמעט על המגלה"
+     ],
+     "confidence": 2,
+     "why": "Ecstatic fervor during the blessing.",
+     "quotes_failed": false
+    },
+    {
+     "tag": "practice:devekut",
+     "scope": "span",
+     "quotes": [
+      "בעת בירך ברכת על מקרא מגלה רקד"
+     ],
+     "confidence": 1,
+     "why": "Rapt worship while saying the blessing, implied rather than stated.",
+     "quotes_failed": false
+    },
+    {
+     "tag": "ethics-and-emotions:joy",
+     "scope": "span",
+     "quotes": [
+      "רקד על העמוד"
+     ],
+     "confidence": 1,
+     "why": "Dancing as religious joy on Purim, implied.",
+     "quotes_failed": false
+    },
+    {
+     "tag": "folkloristics:story_type_virtues",
+     "scope": "story",
+     "quotes": [],
+     "confidence": 2,
+     "why": "One of a series of anecdotes illustrating the tzaddik's fervent piety.",
+     "quotes_failed": false
+    }
+   ],
+   "missing_concepts": [
+    "Megillah reading / Purim ritual",
+    "ecstatic bodily gestures in worship"
+   ],
+   "start_quote_found": true,
+   "end_quote_found": true
+  }
+ ],
+ "check": {
+  "non_vocab_tags": [],
+  "quotes": 5,
+  "quotes_not_found": 0
+ },
+ "id": "Eser-Orot_0056",
+ "chars": 60,
+ "seconds": 12
+}

@@ -1,0 +1,135 @@
+{
+ "unit": {
+  "kind": "hasidic_story",
+  "why": "A short narrative: R. Hayyim Meir Yehiel of Mogielnica travels to R. Zvi Hirsh of Rymanów on R. Israel of Ruzhin's advice, and the Rymanów rebbe, seeing him eat little, whispers a teaching to him. A further homily follows.",
+  "boundary_note": "the division ends with a separate homily of the Rymanów rebbe (מעין עוה״ב), quoted from Be'erot ha-Mayim"
+ },
+ "stories": [
+  {
+   "k": 1,
+   "start_quote": "ובס׳ בארת המים פ׳ בראשית",
+   "end_quote": "להשגת יראת שמים וזהו מעין עוה״ב עכ״ל",
+   "hasidic": true,
+   "summary_en": "On R. Israel of Ruzhin's advice, R. Hayyim Meir Yehiel of Mogielnica travels with his son-in-law to R. Zvi Hirsh ha-Kohen of Rymanów, who sees that he eats little and whispers to him a teaching on why Sabbath eating is a 'handle' for receiving Sabbath holiness; a homily on Sabbath as a foretaste of the world to come follows.",
+   "tags": [
+    {
+     "tag": "practice:travel_to_other_tsaddik",
+     "scope": "span",
+     "quotes": [
+      "שאמר לו שיסע לרימנאב ויסתכל היטב",
+      "יחדיו יבואו לרימנאב וכן עשה"
+     ],
+     "confidence": 3,
+     "why": "the Ruzhiner sends him to another tsaddik, the Rymanów rebbe",
+     "quotes_failed": false
+    },
+    {
+     "tag": "practice:travel_to_the_tsaddik",
+     "scope": "span",
+     "quotes": [
+      "יחדיו יבואו לרימנאב וכן עשה"
+     ],
+     "confidence": 2,
+     "why": "a journey to a tsaddik's court",
+     "quotes_failed": false
+    },
+    {
+     "tag": "practice:asceticism",
+     "scope": "span",
+     "quotes": [
+      "ממעט באכילה אזי למען הרבות חשקו באכילה"
+     ],
+     "confidence": 3,
+     "why": "his restraint in eating is corrected",
+     "quotes_failed": false
+    },
+    {
+     "tag": "times:shabbat",
+     "scope": "span",
+     "quotes": [
+      "חשקו באכילה לכבוד ש\"ק",
+      "לקבל ע״ע קדושת יום השבת"
+     ],
+     "confidence": 3,
+     "why": "centres on Sabbath eating",
+     "quotes_failed": false
+    },
+    {
+     "tag": "practice:sermon",
+     "scope": "span",
+     "quotes": [
+      "לחש לאזנו הנה אנו אומרים בהזמירות",
+      "ואמר כי הפי׳ הוא כך"
+     ],
+     "confidence": 3,
+     "why": "the tsaddik's exegesis of the zemirot and the Sabbath prayer is quoted",
+     "quotes_failed": false
+    },
+    {
+     "tag": "not-a-hasidic-story:sermon",
+     "scope": "story",
+     "quotes": [],
+     "confidence": 2,
+     "why": "a thin narrative frame around extended homiletic content",
+     "quotes_failed": false
+    },
+    {
+     "tag": "social:inter_hasidic_master_disciple_relationship",
+     "scope": "span",
+     "quotes": [
+      "הי' אצל רבינו הקדוש הנ\"ל",
+      "עפ״י דבר קדשו של הרה״ק מאורן של ישראל"
+     ],
+     "confidence": 2,
+     "why": "he follows a master's instruction and visits a tsaddik",
+     "quotes_failed": false
+    },
+    {
+     "tag": "times:eschatology",
+     "scope": "span",
+     "quotes": [
+      "כי עוה״ב אין בו לא אכילה",
+      "וזהו מעין עוה״ב עכ״ל"
+     ],
+     "confidence": 1,
+     "why": "the world to come is discussed in the homily",
+     "quotes_failed": false
+    },
+    {
+     "tag": "ethics-and-emotions:awe",
+     "scope": "span",
+     "quotes": [
+      "הוא להשגת יראת שמים וזהו"
+     ],
+     "confidence": 2,
+     "why": "Sabbath eating as a means of attaining fear of Heaven",
+     "quotes_failed": false
+    },
+    {
+     "tag": "supernatural:perception",
+     "scope": "span",
+     "quotes": [
+      "וידע כי ראה פני השכינה"
+     ],
+     "confidence": 1,
+     "why": "the tsaddik's face reveals the Shekhinah",
+     "quotes_failed": false
+    }
+   ],
+   "missing_concepts": [
+    "Sabbath eating (oneg Shabbat) as a religious duty",
+    "tsaddik's face as a manifestation of the Shekhinah"
+   ],
+   "start_quote_found": true,
+   "end_quote_found": true
+  }
+ ],
+ "check": {
+  "non_vocab_tags": [],
+  "quotes": 14,
+  "quotes_not_found": 0
+ },
+ "id": "Tiferet-Hayyim_0005",
+ "chars": 1181,
+ "seconds": 20
+}

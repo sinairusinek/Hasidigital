@@ -1,0 +1,134 @@
+{
+ "unit": {
+  "kind": "hasidic_story",
+  "why": "A first-person dream memorate quoted from Heikhal Berakha: the author dreams of the Maggid R. Dov Ber, asks him about his Torah novellae, and forgets the teaching on waking.",
+  "boundary_note": ""
+ },
+ "stories": [
+  {
+   "k": 1,
+   "start_quote": "בהיכל ברכה פ' תבא (ד׳ קע״ה ע״ב)",
+   "end_quote": "נשכח ממני הכל בעוני עכ״ל",
+   "hasidic": true,
+   "summary_en": "After studying Gemara at midnight, the author falls asleep and dreams of the Maggid R. Dov Ber, who approves his Torah novellae as accepted above and teaches him about defective and plene spellings, but on returning to this world he forgets it all.",
+   "tags": [
+    {
+     "tag": "experience:dream",
+     "scope": "span",
+     "quotes": [
+      "ונפל עלי שינה וישנתי וראיתי את רבינו הקדוש"
+     ],
+     "confidence": 3,
+     "why": "The whole event is a dream encounter.",
+     "quotes_failed": false
+    },
+    {
+     "tag": "practice:study",
+     "scope": "span",
+     "quotes": [
+      "כתבתי בחצות לילה ואח\"כ למדתי גמרא"
+     ],
+     "confidence": 3,
+     "why": "Night study precedes the dream, and the dream concerns his Torah novellae.",
+     "quotes_failed": false
+    },
+    {
+     "tag": "ethics-and-emotions:joy",
+     "scope": "span",
+     "quotes": [
+      "ומרוב שמחתי דחקתי ונכנסתי"
+     ],
+     "confidence": 2,
+     "why": "He is joyful at seeing the Maggid.",
+     "quotes_failed": false
+    },
+    {
+     "tag": "supernatural:communicating_with_the_invisible",
+     "scope": "span",
+     "quotes": [
+      "רבינו הקדוש ילמדנו ארחות חיים"
+     ],
+     "confidence": 2,
+     "why": "He converses with the soul of the deceased Maggid.",
+     "quotes_failed": false
+    },
+    {
+     "tag": "experience:revelation",
+     "scope": "span",
+     "quotes": [
+      "והשיב טוב ומקובל למעלה",
+      "ואמר לי כמה דרכים בענין חסרות ויתרות"
+     ],
+     "confidence": 2,
+     "why": "The Maggid discloses heaven's view of his novellae and teaches him Torah secrets.",
+     "quotes_failed": false
+    },
+    {
+     "tag": "experience:journey_to_heaven",
+     "scope": "span",
+     "quotes": [
+      "כשירדתי לזה העולם נשכח ממני הכל"
+     ],
+     "confidence": 2,
+     "why": "'Descending to this world' implies that his soul had ascended.",
+     "quotes_failed": false
+    },
+    {
+     "tag": "spaces:heaven",
+     "scope": "span",
+     "quotes": [
+      "כשירדתי לזה העולם נשכח ממני הכל"
+     ],
+     "confidence": 1,
+     "why": "The encounter seems to take place in the upper world.",
+     "quotes_failed": false
+    },
+    {
+     "tag": "knowledge:esoteric",
+     "scope": "span",
+     "quotes": [
+      "ואמר לי כמה דרכים בענין חסרות ויתרות"
+     ],
+     "confidence": 1,
+     "why": "Hidden teachings on spelling are given and then lost.",
+     "quotes_failed": false
+    },
+    {
+     "tag": "social:inter_hasidic_master_disciple_relationship",
+     "scope": "span",
+     "quotes": [
+      "ראיתי את רבינו הקדוש מוהר\"ר דוב בער"
+     ],
+     "confidence": 1,
+     "why": "He seeks guidance from a revered master, 'our rabbi'.",
+     "quotes_failed": false
+    },
+    {
+     "tag": "ethics-and-emotions:humility",
+     "scope": "span",
+     "quotes": [
+      "נשכח ממני הכל בעוני"
+     ],
+     "confidence": 1,
+     "why": "He attributes forgetting to his own sin.",
+     "quotes_failed": false
+    }
+   ],
+   "missing_concepts": [
+    "forgetting heavenly teaching upon waking",
+    "heavenly approval of Torah novellae (chidushim)",
+    "first-person memorate quoted from a book"
+   ],
+   "start_quote_found": true,
+   "end_quote_found": true
+  }
+ ],
+ "check": {
+  "non_vocab_tags": [],
+  "quotes": 11,
+  "quotes_not_found": 0
+ },
+ "id": "Eser-Kedushot_0169",
+ "chars": 384,
+ "seconds": 18
+}

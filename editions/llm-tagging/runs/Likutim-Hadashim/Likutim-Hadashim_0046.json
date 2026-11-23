@@ -1,0 +1,160 @@
+{
+ "unit": {
+  "kind": "hasidic_story",
+  "why": "A short anecdote: a villager follows R. Elimelekh's advice to stay in his village rather than the Seer of Lublin's, and after R. Elimelekh's death his property burns.",
+  "boundary_note": "Parallel to the story ending the previous division ('וכיוצא בזה'); the closing explanation ('ג״כ כנ״ל') refers back to the previous story's lesson that each tzaddik sees only for his own lifetime."
+ },
+ "stories": [
+  {
+   "k": 1,
+   "start_quote": "וכיוצא בזה שמעתי מהרה״ק ר׳ אלימלך",
+   "end_quote": "ובא אל הרבי ז״ל ואמר לו ג״כ כנ״ל",
+   "hasidic": true,
+   "summary_en": "A villager asks R. Elimelekh whether to keep living in his village and is told yes; his disciple the Seer of Lublin tells him not to, but the villager follows R. Elimelekh. After R. Elimelekh dies, the villager's property burns down, and the Seer explains that each tzaddik sees only as far as his own lifetime.",
+   "tags": [
+    {
+     "tag": "practice:business_advice",
+     "scope": "span",
+     "quotes": [
+      "ושאל לו הכפרי אם ידור בהכפר",
+      "אמר להכפרי שאל ידור בכפר הזה"
+     ],
+     "confidence": 3,
+     "why": "Advice on whether to keep his village residence and livelihood",
+     "quotes_failed": false
+    },
+    {
+     "tag": "practice:travel_to_the_tsaddik",
+     "scope": "span",
+     "quotes": [
+      "שבא איש כפר ושאל לו הכפרי"
+     ],
+     "confidence": 2,
+     "why": "The villager comes to the tzaddik with a question",
+     "quotes_failed": false
+    },
+    {
+     "tag": "practice:reception_of_hasidim",
+     "scope": "span",
+     "quotes": [
+      "שבא איש כפר ושאל לו הכפרי"
+     ],
+     "confidence": 2,
+     "why": "The tzaddik receives and answers a petitioner",
+     "quotes_failed": false
+    },
+    {
+     "tag": "supernatural:prognostication",
+     "scope": "span",
+     "quotes": [
+      "אמר להכפרי שאל ידור בכפר הזה",
+      "ונשרף להכפרי מה שהיה לו ר״ל"
+     ],
+     "confidence": 3,
+     "why": "The Seer's warning is borne out by the fire",
+     "quotes_failed": false
+    },
+    {
+     "tag": "folkloristics:story_type_prognostication",
+     "scope": "story",
+     "quotes": [],
+     "confidence": 3,
+     "why": "The story's arc is a warning that comes true",
+     "quotes_failed": false
+    },
+    {
+     "tag": "supernatural:perception",
+     "scope": "story",
+     "quotes": [],
+     "confidence": 2,
+     "why": "The tzaddikim's foresight about the villager's future",
+     "quotes_failed": false
+    },
+    {
+     "tag": "social:disobedience",
+     "scope": "span",
+     "quotes": [
+      "ולא שמע להרבי זצ״ל רק ששמע להרה״ק"
+     ],
+     "confidence": 3,
+     "why": "The villager ignores the Seer's warning, with consequences",
+     "quotes_failed": false
+    },
+    {
+     "tag": "social:inter_hasidic_master_disciple_relationship",
+     "scope": "span",
+     "quotes": [
+      "שהיה תלמידו של הרה״ק הנ״ל"
+     ],
+     "confidence": 2,
+     "why": "The disciple's advice differs from his master's",
+     "quotes_failed": false
+    },
+    {
+     "tag": "social:inter_hasidic_conflict_between_tsaddikim",
+     "scope": "span",
+     "quotes": [
+      "אמר להכפרי שאל ידור בכפר הזה"
+     ],
+     "confidence": 1,
+     "why": "The two tzaddikim give opposing advice, though no open conflict",
+     "quotes_failed": false
+    },
+    {
+     "tag": "times:death",
+     "scope": "span",
+     "quotes": [
+      "ובתוך כך נפטר הרה״ק ר׳ אלימלך"
+     ],
+     "confidence": 3,
+     "why": "R. Elimelekh's death is the turning point",
+     "quotes_failed": false
+    },
+    {
+     "tag": "practice:failure",
+     "scope": "span",
+     "quotes": [
+      "ובתוך כך נפטר הרה״ק ר׳ אלימלך ונשרף להכפרי"
+     ],
+     "confidence": 2,
+     "why": "R. Elimelekh's advice fails after his death, and the failure is explained",
+     "quotes_failed": false
+    },
+    {
+     "tag": "practice:torat_ha_tsaddik",
+     "scope": "span",
+     "quotes": [
+      "ובא אל הרבי ז״ל ואמר לו ג״כ כנ״ל"
+     ],
+     "confidence": 2,
+     "why": "The principle that a tzaddik's protection reaches only as far as his lifetime",
+     "quotes_failed": false
+    },
+    {
+     "tag": "practice:storytelling",
+     "scope": "span",
+     "quotes": [
+      "וכיוצא בזה שמעתי מהרה״ק ר׳ אלימלך"
+     ],
+     "confidence": 1,
+     "why": "Framed as a story heard and passed on",
+     "quotes_failed": false
+    }
+   ],
+   "missing_concepts": [
+    "limit of a tzaddik's foresight or protection to his own lifetime",
+    "fire / loss of property as calamity"
+   ],
+   "start_quote_found": true,
+   "end_quote_found": true
+  }
+ ],
+ "check": {
+  "non_vocab_tags": [],
+  "quotes": 13,
+  "quotes_not_found": 0
+ },
+ "id": "Likutim-Hadashim_0046",
+ "chars": 311,
+ "seconds": 19
+}

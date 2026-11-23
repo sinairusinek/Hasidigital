@@ -1,0 +1,142 @@
+{
+ "unit": {
+  "kind": "hasidic_story",
+  "why": "A single anecdote in which a mitnagged tests the rebbe's fervor during the Kedushat Keter and is seized by him, then comes to believe.",
+  "boundary_note": ""
+ },
+ "stories": [
+  {
+   "k": 1,
+   "start_quote": "פ\"א אמרו חסידיו כי בעת אומרו",
+   "end_quote": "ואז האמין לדבריהם :",
+   "hasidic": true,
+   "summary_en": "A mitnagged who doubted that angels come to hear the rebbe's Kedushah stands behind him on Rosh Hodesh; the rebbe, burning with fervor, grabs him by his garment and drags him around the synagogue, and the man barely escapes and then believes.",
+   "tags": [
+    {
+     "tag": "social:relations_with_non_hasidim",
+     "scope": "span",
+     "quotes": [
+      "והי׳ שם איש אחד ממתנגדי הרב"
+     ],
+     "confidence": 3,
+     "why": "a mitnagged opponent",
+     "quotes_failed": false
+    },
+    {
+     "tag": "folkloristics:story_type_rapprochement",
+     "scope": "story",
+     "quotes": [],
+     "confidence": 3,
+     "why": "the skeptic comes to believe",
+     "quotes_failed": false
+    },
+    {
+     "tag": "experience:enthusiasm",
+     "scope": "span",
+     "quotes": [
+      "והתחיל להתלהב בעבודתו",
+      "והרה״ק בא בגודל התלהבותו"
+     ],
+     "confidence": 3,
+     "why": "hitlahavut in prayer",
+     "quotes_failed": false
+    },
+    {
+     "tag": "practice:prayer",
+     "scope": "span",
+     "quotes": [
+      "בעת אומרו קדושת כתר",
+      "בתפלת ראש חודש והרה״ק כאשר התפלל"
+     ],
+     "confidence": 3,
+     "why": "the Kedushah prayer",
+     "quotes_failed": false
+    },
+    {
+     "tag": "practice:tefillin",
+     "scope": "span",
+     "quotes": [
+      "ונתן תפילין שלו בתוך כיס התפלה של איש אחר"
+     ],
+     "confidence": 2,
+     "why": "in his rapture he misplaces his tefillin",
+     "quotes_failed": false
+    },
+    {
+     "tag": "characters-and-roles:angels",
+     "scope": "span",
+     "quotes": [
+      "מלאכי צבאות ידודון ידודון וכולם באים לשמוע"
+     ],
+     "confidence": 2,
+     "why": "angels said to come and listen",
+     "quotes_failed": false
+    },
+    {
+     "tag": "practice:devekut",
+     "scope": "span",
+     "quotes": [
+      "ומתוך התלהבותו לא הבחין את אשר הוא עושה"
+     ],
+     "confidence": 2,
+     "why": "absorption that cuts him off from his surroundings",
+     "quotes_failed": false
+    },
+    {
+     "tag": "ethics-and-emotions:fear",
+     "scope": "span",
+     "quotes": [
+      "וברח לנפשו עוד נשמתו בקרבו"
+     ],
+     "confidence": 2,
+     "why": "the mitnagged flees in fear",
+     "quotes_failed": false
+    },
+    {
+     "tag": "times:holidays",
+     "scope": "span",
+     "quotes": [
+      "בתפלת ראש חודש"
+     ],
+     "confidence": 1,
+     "why": "Rosh Hodesh setting",
+     "quotes_failed": false
+    },
+    {
+     "tag": "social:conflict",
+     "scope": "span",
+     "quotes": [
+      "אשר לא רצה להאמין וחפץ להבחין הדבר"
+     ],
+     "confidence": 1,
+     "why": "the opponent tests the rebbe",
+     "quotes_failed": false
+    },
+    {
+     "tag": "social:inter_hasidic",
+     "scope": "span",
+     "quotes": [
+      "ותומ\"י הלכו להמתנגד לאמר כי הגיע שעה"
+     ],
+     "confidence": 1,
+     "why": "the hasidim act together to fetch the skeptic",
+     "quotes_failed": false
+    }
+   ],
+   "missing_concepts": [
+    "testing the tzaddik's authenticity",
+    "physical violence or seizure during ecstatic prayer"
+   ],
+   "start_quote_found": true,
+   "end_quote_found": true
+  }
+ ],
+ "check": {
+  "non_vocab_tags": [],
+  "quotes": 12,
+  "quotes_not_found": 0
+ },
+ "id": "Eser-Orot_0052",
+ "chars": 693,
+ "seconds": 15
+}

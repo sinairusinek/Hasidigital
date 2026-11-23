@@ -1,0 +1,153 @@
+{
+ "unit": {
+  "kind": "hasidic_story",
+  "why": "An eyewitness memorate, quoted from a preface, describing the tzaddik's habitual wonders: he foresaw the quality of proposed matches from names alone, predicted whether the sick would live and barren women conceive, and each Sukkot announced how many barren women would be remembered after Abraham answered him.",
+  "boundary_note": "one of a numbered series of excerpts from the same preface; previous and next divisions are separate items"
+ },
+ "stories": [
+  {
+   "k": 1,
+   "start_quote": "עוד כתב בהקדמה הנ\"ל וזה\"ל",
+   "end_quote": "וכך הי' בכל שנה ושנה עכ״ל",
+   "hasidic": true,
+   "summary_en": "The writer of a preface testifies that the tzaddik's holy spirit showed openly in matchmaking questions, in judging the sick and barren women, and in his yearly Sukkot seclusion, after which he announced that Abraham, as the Sukkot guest, had granted that a set number of barren women would conceive that year.",
+   "tags": [
+    {
+     "tag": "supernatural:perception",
+     "scope": "span",
+     "quotes": [
+      "ועיקר התגלות רוח קדשו לעיני כל הי' בענין הזווגים",
+      "רק שמות החתן והכלה ושם אמם לבד"
+     ],
+     "confidence": 3,
+     "why": "He knows the character and status of the bride, groom and in-laws from their names alone.",
+     "quotes_failed": false
+    },
+    {
+     "tag": "supernatural:prognostication",
+     "scope": "span",
+     "quotes": [
+      "הי' אומר לי זה חי וזה וכו'",
+      "זו עקרה נפקדת בזו השנה"
+     ],
+     "confidence": 3,
+     "why": "He predicts who will recover and which barren women will conceive.",
+     "quotes_failed": false
+    },
+    {
+     "tag": "folkloristics:story_type_prognostication",
+     "scope": "story",
+     "quotes": [],
+     "confidence": 2,
+     "why": "The account centres on his predictions coming true every year.",
+     "quotes_failed": false
+    },
+    {
+     "tag": "supernatural:pregnancy",
+     "scope": "span",
+     "quotes": [
+      "על ארבעה עקרות שיפקדו בזו השנה"
+     ],
+     "confidence": 3,
+     "why": "Barren women conceive through his intercession.",
+     "quotes_failed": false
+    },
+    {
+     "tag": "times:holidays",
+     "scope": "span",
+     "quotes": [
+      "ליל א' בסכות הסגיר א\"ע לבד בסוכה"
+     ],
+     "confidence": 3,
+     "why": "The Sukkot ritual is set on the first night of Sukkot.",
+     "quotes_failed": false
+    },
+    {
+     "tag": "practice:solitude",
+     "scope": "span",
+     "quotes": [
+      "הסגיר א\"ע לבד בסוכה"
+     ],
+     "confidence": 2,
+     "why": "He secludes himself alone in the sukkah.",
+     "quotes_failed": false
+    },
+    {
+     "tag": "supernatural:communicating_with_the_invisible",
+     "scope": "span",
+     "quotes": [
+      "עתה נעניתי מאברהם אבינו ע\"ה באושפיזא שלו"
+     ],
+     "confidence": 3,
+     "why": "Abraham, the Sukkot guest, answers his request.",
+     "quotes_failed": false
+    },
+    {
+     "tag": "social:marriage",
+     "scope": "span",
+     "quotes": [
+      "ועיקר התגלות רוח קדשו לעיני כל הי' בענין הזווגים"
+     ],
+     "confidence": 3,
+     "why": "Proposed matches are the main subject of the questions brought to him.",
+     "quotes_failed": false
+    },
+    {
+     "tag": "practice:reception_of_hasidim",
+     "scope": "span",
+     "quotes": [
+      "כשבאים לבקש עבור איזה חולה"
+     ],
+     "confidence": 2,
+     "why": "Petitioners come to him with requests and questions.",
+     "quotes_failed": false
+    },
+    {
+     "tag": "practice:torat_ha_tsaddik",
+     "scope": "span",
+     "quotes": [
+      "כשבאים לבקש עבור איזה חולה",
+      "על ארבעה עקרות שיפקדו בזו השנה"
+     ],
+     "confidence": 1,
+     "why": "Shows the tzaddik's power to intercede for others.",
+     "quotes_failed": false
+    },
+    {
+     "tag": "folkloristics:story_type_virtues",
+     "scope": "story",
+     "quotes": [],
+     "confidence": 1,
+     "why": "Laudatory account of his holy spirit.",
+     "quotes_failed": false
+    },
+    {
+     "tag": "women:mention_only",
+     "scope": "span",
+     "quotes": [
+      "וכן מהכלה אם היא טובה לזה",
+      "וכן בכמה עקר ועקרה ראיתי בעיני"
+     ],
+     "confidence": 3,
+     "why": "Brides and barren women are referred to but do not act.",
+     "quotes_failed": false
+    }
+   ],
+   "missing_concepts": [
+    "ruach ha-kodesh as a habitual trait (eyewitness testimony)",
+    "ushpizin (Sukkot guests)",
+    "comparison to R. Hanina ben Dosa's prayer for the sick"
+   ],
+   "start_quote_found": true,
+   "end_quote_found": true
+  }
+ ],
+ "check": {
+  "non_vocab_tags": [],
+  "quotes": 14,
+  "quotes_not_found": 0
+ },
+ "id": "Eser-Kedushot_0161",
+ "chars": 804,
+ "seconds": 23
+}

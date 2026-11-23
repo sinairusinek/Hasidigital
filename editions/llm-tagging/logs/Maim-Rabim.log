@@ -1,0 +1,65 @@
+front-matter-001: paratext_no_story, 0 stories, 0 tags, 5 s
+non-story-002: paratext_no_story, 0 stories, 0 tags, 7 s
+Maim-Rabim_0001: hasidic_story, 1 stories, 12 tags, 16 s
+Maim-Rabim_0002: hasidic_story, 1 stories, 9 tags, 15 s
+Maim-Rabim_0003: hasidic_story, 1 stories, 10 tags, 18 s
+Traceback (most recent call last):
+  File "/Users/sinairusinek/Documents/GitHub/Hasidigital/editions/llm-tagging/tag_edition.py", line 109, in <module>
+    main()
+  File "/Users/sinairusinek/Documents/GitHub/Hasidigital/editions/llm-tagging/tag_edition.py", line 97, in main
+    res = tag_unit(unit)
+  File "/Users/sinairusinek/Documents/GitHub/Hasidigital/editions/llm-tagging/tagger.py", line 94, in tag_unit
+    res = call_claude(SYSTEM, user, timeout=900)
+  File "/Users/sinairusinek/Documents/GitHub/Hasidigital/talks/paris-inalco-2026-11/motif-experiment/common.py", line 49, in call_claude
+    raise RuntimeError(err)
+RuntimeError: JSONDecodeError("Expecting ',' delimiter: line 9 column 97 (char 1388)")
+Traceback (most recent call last):
+  File "/Users/sinairusinek/Documents/GitHub/Hasidigital/editions/llm-tagging/tag_edition.py", line 109, in <module>
+    main()
+  File "/Users/sinairusinek/Documents/GitHub/Hasidigital/editions/llm-tagging/tag_edition.py", line 97, in main
+    res = tag_unit(unit)
+  File "/Users/sinairusinek/Documents/GitHub/Hasidigital/editions/llm-tagging/tagger.py", line 94, in tag_unit
+    res = call_claude(SYSTEM, user, timeout=900)
+  File "/Users/sinairusinek/Documents/GitHub/Hasidigital/talks/paris-inalco-2026-11/motif-experiment/common.py", line 49, in call_claude
+    raise RuntimeError(err)
+RuntimeError: JSONDecodeError("Expecting ',' delimiter: line 9 column 95 (char 1307)")
+Traceback (most recent call last):
+  File "/Users/sinairusinek/Documents/GitHub/Hasidigital/editions/llm-tagging/tag_edition.py", line 109, in <module>
+    main()
+  File "/Users/sinairusinek/Documents/GitHub/Hasidigital/editions/llm-tagging/tag_edition.py", line 97, in main
+    res = tag_unit(unit)
+  File "/Users/sinairusinek/Documents/GitHub/Hasidigital/editions/llm-tagging/tagger.py", line 94, in tag_unit
+    res = call_claude(SYSTEM, user, timeout=900)
+  File "/Users/sinairusinek/Documents/GitHub/Hasidigital/talks/paris-inalco-2026-11/motif-experiment/common.py", line 49, in call_claude
+    raise RuntimeError(err)
+RuntimeError: JSONDecodeError("Expecting ',' delimiter: line 9 column 97 (char 1451)")
+Maim-Rabim_0004: hasidic_story, 1 stories, 13 tags, 18 s
+Maim-Rabim_0005: hasidic_story, 1 stories, 10 tags, 17 s
+Maim-Rabim_0006: several_stories, 2 stories, 14 tags, 21 s
+Maim-Rabim_0007: saying_or_teaching, 0 stories, 0 tags, 6 s
+Maim-Rabim_0008: hasidic_story, 1 stories, 9 tags, 11 s
+Maim-Rabim_0009: saying_or_teaching, 0 stories, 0 tags, 6 s
+Maim-Rabim_0010: hasidic_story, 1 stories, 21 tags, 25 s
+Maim-Rabim_0011: hasidic_story, 1 stories, 6 tags, 15 s
+Maim-Rabim_0012: hasidic_story, 1 stories, 13 tags, 16 s
+Maim-Rabim_0013: hasidic_story, 1 stories, 14 tags, 17 s
+Maim-Rabim_0014: hasidic_story, 1 stories, 6 tags, 11 s
+Maim-Rabim_0015: hasidic_story, 1 stories, 5 tags, 14 s
+Maim-Rabim_0016: saying_or_teaching, 0 stories, 0 tags, 6 s
+Maim-Rabim_0017: hasidic_story, 1 stories, 7 tags, 18 s
+Maim-Rabim_0018: hasidic_story, 1 stories, 10 tags, 21 s
+non-story-021: paratext_no_story, 0 stories, 0 tags, 5 s
+Maim-Rabim_0019: several_stories, 2 stories, 15 tags, 24 s
+non-story-023: saying_or_teaching, 0 stories, 0 tags, 7 s
+non-story-024: hasidic_story, 1 stories, 11 tags, 20 s
+non-story-025: saying_or_teaching, 0 stories, 0 tags, 6 s
+non-story-026: saying_or_teaching, 0 stories, 0 tags, 6 s
+Maim-Rabim_0020: saying_or_teaching, 0 stories, 0 tags, 7 s
+non-story-028: paratext_no_story, 0 stories, 0 tags, 5 s
+Maim-Rabim_0021: paratext_with_story, 1 stories, 7 tags, 17 s
+Maim-Rabim_0022: paratext_with_story, 1 stories, 13 tags, 24 s
+Maim-Rabim_0023: paratext_no_story, 0 stories, 0 tags, 8 s
+Maim-Rabim_0024: paratext_no_story, 0 stories, 0 tags, 11 s
+Maim-Rabim_0025: paratext_with_story, 1 stories, 14 tags, 26 s
+non-story-034: paratext_no_story, 0 stories, 0 tags, 5 s
+29 divisions tagged in 389 s; skipped (too long): []

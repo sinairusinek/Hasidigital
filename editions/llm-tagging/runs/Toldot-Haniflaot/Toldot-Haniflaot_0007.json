@@ -1,0 +1,133 @@
+{
+ "unit": {
+  "kind": "hasidic_story",
+  "why": "A narrative about the naming of R. Meir (of Przemyślany/Mogielnica? — the 'Maran') at his circumcision by his grandfather the Maggid of Kozienice, with the Berdichever's instruction overriding, plus his later use of the anecdote in a divorce case.",
+  "boundary_note": ""
+ },
+ "stories": [
+  {
+   "k": 1,
+   "start_quote": "והנה בעת הכנסו בבריתו של אאע\"ה",
+   "end_quote": "אשר הי׳ נשכח שם המגרש מקטנותו",
+   "hasidic": true,
+   "summary_en": "At the boy's circumcision his grandfather the Maggid named him Jeremiah, but the father reported the Berdichever's order to name him Meir, so the Maggid renamed him, yet for years still called him Jeremiah, seeing him as Jeremiah's reincarnation; the rebbe told this himself when a divorce came before him where the husband's childhood name had been forgotten.",
+   "tags": [
+    {
+     "tag": "practice:circumcision",
+     "scope": "span",
+     "quotes": [
+      "בעת הכנסו בבריתו של אאע\"ה"
+     ],
+     "confidence": 3,
+     "why": "naming at the brit",
+     "quotes_failed": false
+    },
+    {
+     "tag": "characters-and-roles:the_family_of_the_tsaddik",
+     "scope": "span",
+     "quotes": [
+      "חתנו הרב מגרעניץ (הוא אבי הילד הק')",
+      "היה קורא אותו זקנו המגיד זצ\"ל ירמיהו"
+     ],
+     "confidence": 3,
+     "why": "grandfather and father of the child tzaddik",
+     "quotes_failed": false
+    },
+    {
+     "tag": "supernatural:reincarnation",
+     "scope": "span",
+     "quotes": [
+      "כי אמר שהיה רואה כי הוא גלגול ירמיה"
+     ],
+     "confidence": 3,
+     "why": "child seen as gilgul of Jeremiah",
+     "quotes_failed": false
+    },
+    {
+     "tag": "supernatural:perception",
+     "scope": "span",
+     "quotes": [
+      "שהיה רואה כי הוא גלגול ירמיה"
+     ],
+     "confidence": 2,
+     "why": "Maggid perceives the soul's origin",
+     "quotes_failed": false
+    },
+    {
+     "tag": "supernatural:prognostication",
+     "scope": "span",
+     "quotes": [
+      "כי יהיה מאיר לכל העולם"
+     ],
+     "confidence": 1,
+     "why": "Berdichever's naming as prediction of the child's greatness",
+     "quotes_failed": false
+    },
+    {
+     "tag": "social:divorce",
+     "scope": "span",
+     "quotes": [
+      "כאשר בא גט א׳ לפניו"
+     ],
+     "confidence": 3,
+     "why": "a get brought before the rebbe frames the telling",
+     "quotes_failed": false
+    },
+    {
+     "tag": "practice:halakhah",
+     "scope": "span",
+     "quotes": [
+      "אשר הי׳ נשכח שם המגרש מקטנותו"
+     ],
+     "confidence": 2,
+     "why": "names in a get is a halakhic issue",
+     "quotes_failed": false
+    },
+    {
+     "tag": "practice:storytelling",
+     "scope": "span",
+     "quotes": [
+      "כן סיפר מרן זצ״ל בעצמו פ״א"
+     ],
+     "confidence": 3,
+     "why": "rebbe narrates his own story",
+     "quotes_failed": false
+    },
+    {
+     "tag": "characters-and-roles:preacher",
+     "scope": "span",
+     "quotes": [
+      "היה קורא אותו זקנו המגיד זצ\"ל"
+     ],
+     "confidence": 1,
+     "why": "the Maggid of Kozienice, though as grandfather-tzaddik",
+     "quotes_failed": false
+    },
+    {
+     "tag": "social:inter_hasidic",
+     "scope": "span",
+     "quotes": [
+      "ההק' מברדיטשוב צוה להקרא שמו מאיר"
+     ],
+     "confidence": 2,
+     "why": "interaction between Berdichever and the Maggid's family",
+     "quotes_failed": false
+    }
+   ],
+   "missing_concepts": [
+    "naming of a child / significance of names",
+    "childhood of the tsaddik"
+   ],
+   "start_quote_found": true,
+   "end_quote_found": true
+  }
+ ],
+ "check": {
+  "non_vocab_tags": [],
+  "quotes": 11,
+  "quotes_not_found": 0
+ },
+ "id": "Toldot-Haniflaot_0007",
+ "chars": 454,
+ "seconds": 15
+}

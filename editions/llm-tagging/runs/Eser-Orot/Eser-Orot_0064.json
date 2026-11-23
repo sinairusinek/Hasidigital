@@ -1,0 +1,144 @@
+{
+ "unit": {
+  "kind": "hasidic_story",
+  "why": "A Rosh Hashanah liturgical custom frames a short Yiddish anecdote: a weeping woman comes to the tzaddik, and he comforts her with a verse about God's mercy on his only child.",
+  "boundary_note": ""
+ },
+ "stories": [
+  {
+   "k": 1,
+   "start_quote": "נודע היות מה שאמר בניגון נפלא",
+   "end_quote": "מתוקה מדבש מקובלת אצל החסידים",
+   "hasidic": true,
+   "summary_en": "During the Rosh Hashanah Musaf Zikhronot, the Berdichever rebbe (or his son R. Israel of Pikov) inserted a sung Yiddish tale. In it a mother weeps that her only child may not merit a good judgment, and the tzaddik replies that a father pities his only, precious child, citing 'הבן יקיר לי אפרים'.",
+   "tags": [
+    {
+     "tag": "times:holidays",
+     "scope": "story",
+     "quotes": [],
+     "confidence": 3,
+     "why": "Set in Rosh Hashanah Musaf and the Days of Awe.",
+     "quotes_failed": false
+    },
+    {
+     "tag": "practice:prayer",
+     "scope": "span",
+     "quotes": [
+      "בסוף זכרונות במוסף דר״ה"
+     ],
+     "confidence": 3,
+     "why": "Recitation of the Musaf liturgy.",
+     "quotes_failed": false
+    },
+    {
+     "tag": "practice:music",
+     "scope": "span",
+     "quotes": [
+      "עם ניגון ותנועה מיוחדת מתוקה מדבש",
+      "אמר בזה\"ל בניגון יפה הנודע"
+     ],
+     "confidence": 3,
+     "why": "The tale is sung to a known melody.",
+     "quotes_failed": false
+    },
+    {
+     "tag": "practice:storytelling",
+     "scope": "span",
+     "quotes": [
+      "דער טאטע זכרונו לברכה האט מיר דערציילט"
+     ],
+     "confidence": 3,
+     "why": "The tzaddik narrates the tale within prayer, as his father told it to him.",
+     "quotes_failed": false
+    },
+    {
+     "tag": "characters-and-roles:the_family_of_the_tsaddik",
+     "scope": "span",
+     "quotes": [
+      "וי״א כי בנו הרה״ק ר׳ ישראל מפיקוב",
+      "דער טאטע זכרונו לברכה"
+     ],
+     "confidence": 2,
+     "why": "Father-son transmission between tzaddikim.",
+     "quotes_failed": false
+    },
+    {
+     "tag": "women:major_character",
+     "scope": "span",
+     "quotes": [
+      "איז צו איהם גיקומין איודינע מיט אגרויס גיוויין"
+     ],
+     "confidence": 3,
+     "why": "The weeping mother drives the anecdote.",
+     "quotes_failed": false
+    },
+    {
+     "tag": "practice:reception_of_hasidim",
+     "scope": "span",
+     "quotes": [
+      "איז צו איהם גיקומין איודינע"
+     ],
+     "confidence": 2,
+     "why": "A woman comes to the tzaddik and is received.",
+     "quotes_failed": false
+    },
+    {
+     "tag": "ethics-and-emotions:fear",
+     "scope": "span",
+     "quotes": [
+      "האב איך מורא טאמיר וועט ער ניט זוכה בדין זיין"
+     ],
+     "confidence": 3,
+     "why": "She fears for her child's judgment.",
+     "quotes_failed": false
+    },
+    {
+     "tag": "ethics-and-emotions:sadness",
+     "scope": "span",
+     "quotes": [
+      "פאר וואס וויינסט דוא"
+     ],
+     "confidence": 2,
+     "why": "Her weeping is the problem the tzaddik addresses.",
+     "quotes_failed": false
+    },
+    {
+     "tag": "practice:sermon",
+     "scope": "span",
+     "quotes": [
+      "הבן יחיד לי אפרים אם ילד שעשועים"
+     ],
+     "confidence": 2,
+     "why": "A verse is applied homiletically to divine mercy.",
+     "quotes_failed": false
+    },
+    {
+     "tag": "practice:joke",
+     "scope": "span",
+     "quotes": [
+      "אז דיא וועסט וויינען וועט דוך דיר דער האפף נאך ארגער ווייא טוהן"
+     ],
+     "confidence": 1,
+     "why": "A wry reply about crying making the headache worse.",
+     "quotes_failed": false
+    }
+   ],
+   "missing_concepts": [
+    "divine mercy / God as compassionate father",
+    "Yiddish interpolation into the liturgy",
+    "judgment of the Days of Awe",
+    "parent-child love as model for God and Israel"
+   ],
+   "start_quote_found": true,
+   "end_quote_found": true
+  }
+ ],
+ "check": {
+  "non_vocab_tags": [],
+  "quotes": 12,
+  "quotes_not_found": 0
+ },
+ "id": "Eser-Orot_0064",
+ "chars": 966,
+ "seconds": 22
+}

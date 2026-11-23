@@ -1,0 +1,183 @@
+{
+ "unit": {
+  "kind": "hasidic_story",
+  "why": "Narrates the tsaddik's vision before his last Passover, in which his late master invited him to preach on parashat Emor in Gan Eden; the hasidim anxiously waited, and he died on Monday of the week of Emor.",
+  "boundary_note": "story continues into next division (deathbed scene, §צט)"
+ },
+ "stories": [
+  {
+   "k": 1,
+   "start_quote": "והנה נודע ומפורסם אשר פ״א קודם פסח האחרון",
+   "end_quote": "אשר עליונים נצחו את התחתונים וכו׳",
+   "hasidic": true,
+   "summary_en": "Before his last Passover the tsaddik told of a vision in which his late master asked him to preach on parashat Emor in Gan Eden. His followers anxiously waited out Passover and the week of Emor, tsaddikim and hasidim gathered with him, and he died on Monday of that week.",
+   "tags": [
+    {
+     "tag": "experience:visions",
+     "scope": "span",
+     "quotes": [
+      "ראיתי את מורי ורבי עם עוד הרבה צדיקים",
+      "וחזיון זה סיפר ג״כ"
+     ],
+     "confidence": 2,
+     "why": "a vision (חזיון) of his dead master and other tsaddikim",
+     "quotes_failed": false
+    },
+    {
+     "tag": "supernatural:communicating_with_the_invisible",
+     "scope": "span",
+     "quotes": [
+      "ואמר לי מורי ז\"ל אני מכבד אותך"
+     ],
+     "confidence": 3,
+     "why": "his deceased master speaks to him",
+     "quotes_failed": false
+    },
+    {
+     "tag": "spaces:heaven",
+     "scope": "span",
+     "quotes": [
+      "שתאמר דרשה בפרשת אמור כאן במקומי בג״ע"
+     ],
+     "confidence": 2,
+     "why": "the vision is set in Gan Eden",
+     "quotes_failed": false
+    },
+    {
+     "tag": "supernatural:prognostication",
+     "scope": "span",
+     "quotes": [
+      "היו מצפים על ימי הפסח שיעברו בשלום",
+      "והיו שמה עד יום פטירתו הוא יום ב׳ דפרשת אמור"
+     ],
+     "confidence": 3,
+     "why": "the vision foretold his death in the week of Emor, and it came true",
+     "quotes_failed": false
+    },
+    {
+     "tag": "folkloristics:story_type_prognostication",
+     "scope": "story",
+     "quotes": [],
+     "confidence": 2,
+     "why": "the story's arc is a foretelling that is fulfilled",
+     "quotes_failed": false
+    },
+    {
+     "tag": "folkloristics:story_type_death_of_the_tsaddik",
+     "scope": "story",
+     "quotes": [],
+     "confidence": 3,
+     "why": "the story leads up to the tsaddik's death",
+     "quotes_failed": false
+    },
+    {
+     "tag": "times:death",
+     "scope": "span",
+     "quotes": [
+      "עד יום פטירתו הוא יום ב׳ דפרשת אמור"
+     ],
+     "confidence": 3,
+     "why": "the tsaddik's death is narrated",
+     "quotes_failed": false
+    },
+    {
+     "tag": "times:holidays",
+     "scope": "span",
+     "quotes": [
+      "וכאשר עברו ימי הפסח היה שמחה גדולה"
+     ],
+     "confidence": 2,
+     "why": "Passover is the time frame of the waiting",
+     "quotes_failed": false
+    },
+    {
+     "tag": "practice:sermon",
+     "scope": "span",
+     "quotes": [
+      "שתאמר דרשה בפרשת אמור כאן במקומי"
+     ],
+     "confidence": 2,
+     "why": "a heavenly sermon is the content of the vision",
+     "quotes_failed": false
+    },
+    {
+     "tag": "practice:storytelling",
+     "scope": "span",
+     "quotes": [
+      "היה מספר ואומר כי ראיתי",
+      "וחזיון זה סיפר ג״כ לפני הה״צ"
+     ],
+     "confidence": 2,
+     "why": "the tsaddik recounts his vision to others",
+     "quotes_failed": false
+    },
+    {
+     "tag": "characters-and-roles:the_family_of_the_tsaddik",
+     "scope": "span",
+     "quotes": [
+      "לפני הה״צ ר׳ דוד ז״ל מאמטשנאוו"
+     ],
+     "confidence": 1,
+     "why": "R. David of Amshinov, presumably the tsaddik's son, hears the vision",
+     "quotes_failed": false
+    },
+    {
+     "tag": "practice:travel_to_the_tsaddik",
+     "scope": "span",
+     "quotes": [
+      "היו באים איזה אנשים חסידים ממרחק על שבוע דפרשת אמור",
+      "בא ההק׳ סבא קדישא ר״מ ז״ל מלעלוב"
+     ],
+     "confidence": 3,
+     "why": "hasidim and tsaddikim come to him for that week",
+     "quotes_failed": false
+    },
+    {
+     "tag": "social:inter_hasidic_master_disciple_relationship",
+     "scope": "span",
+     "quotes": [
+      "ואמר לי מורי ז\"ל אני מכבד אותך"
+     ],
+     "confidence": 2,
+     "why": "his late master honours him with the task of preaching in his place",
+     "quotes_failed": false
+    },
+    {
+     "tag": "ethics-and-emotions:joy",
+     "scope": "span",
+     "quotes": [
+      "וכאשר עברו ימי הפסח היה שמחה גדולה"
+     ],
+     "confidence": 1,
+     "why": "relief and joy once Passover passed",
+     "quotes_failed": false
+    },
+    {
+     "tag": "ethics-and-emotions:fear",
+     "scope": "span",
+     "quotes": [
+      "היו מצפים על ימי הפסח שיעברו בשלום"
+     ],
+     "confidence": 1,
+     "why": "the hasidim's anxious waiting",
+     "quotes_failed": false
+    }
+   ],
+   "missing_concepts": [
+    "premonition / foreknowledge of one's own death",
+    "a heavenly invitation to replace one's master after death",
+    "the hasidim's anxious vigil awaiting a foretold death"
+   ],
+   "start_quote_found": true,
+   "end_quote_found": true
+  }
+ ],
+ "check": {
+  "non_vocab_tags": [],
+  "quotes": 17,
+  "quotes_not_found": 0
+ },
+ "id": "Toldot-Haniflaot_0093",
+ "chars": 645,
+ "seconds": 22
+}

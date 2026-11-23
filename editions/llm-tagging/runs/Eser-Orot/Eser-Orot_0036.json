@@ -1,0 +1,111 @@
+{
+ "unit": {
+  "kind": "hasidic_story",
+  "why": "A short anecdote: the brothers R. Shmelke and the Haflaah come to R. Pinchas of Korets for Shabbat, and he answers their unspoken wish with a verse.",
+  "boundary_note": ""
+ },
+ "stories": [
+  {
+   "k": 1,
+   "start_quote": "(ה) דומה לזה מה שכתב לי",
+   "end_quote": "ויטעמו טעם שבת ודפח״ח",
+   "hasidic": true,
+   "summary_en": "R. Shmelke of Nikolsburg and his brother the Haflaah come to R. Pinchas of Korets for Shabbat, secretly wishing to taste the true taste of Shabbat. They find him cooking the Shabbat fish, and he at once answers their unspoken thought with a punning reading of Isaiah's verse on the eunuchs (סריסים).",
+   "tags": [
+    {
+     "tag": "practice:travel_to_the_tsaddik",
+     "scope": "span",
+     "quotes": [
+      "באו זקיניי האחים הקדושים רר״ש מנ״ש",
+      "להרה\"ק ר״פ על שבת"
+     ],
+     "confidence": 3,
+     "why": "the brothers journey to R. Pinchas for Shabbat",
+     "quotes_failed": false
+    },
+    {
+     "tag": "practice:travel_to_other_tsaddik",
+     "scope": "span",
+     "quotes": [
+      "באו זקיניי האחים הקדושים רר״ש מנ״ש"
+     ],
+     "confidence": 1,
+     "why": "the visitors are tsaddikim themselves, visiting another tsaddik",
+     "quotes_failed": false
+    },
+    {
+     "tag": "times:shabbat",
+     "scope": "story",
+     "quotes": [],
+     "confidence": 3,
+     "why": "set on Shabbat eve and centred on the taste of Shabbat",
+     "quotes_failed": false
+    },
+    {
+     "tag": "supernatural:perception",
+     "scope": "span",
+     "quotes": [
+      "כי עלה ברעיונם שרוצים לטעום טעם שבת באמת",
+      "ותיכף פתח ואמר. כה אמר ה׳ לסריסים"
+     ],
+     "confidence": 3,
+     "why": "the tsaddik answers their unspoken thought",
+     "quotes_failed": false
+    },
+    {
+     "tag": "practice:sermon",
+     "scope": "span",
+     "quotes": [
+      "כה אמר ה׳ לסריסים [שאין טועמין כ״כ טעם שבת]"
+     ],
+     "confidence": 2,
+     "why": "punning exegesis of a verse",
+     "quotes_failed": false
+    },
+    {
+     "tag": "practice:joke",
+     "scope": "span",
+     "quotes": [
+      "כה אמר ה׳ לסריסים [שאין טועמין כ״כ טעם שבת]"
+     ],
+     "confidence": 1,
+     "why": "witty wordplay on סריסים and 'tasting'",
+     "quotes_failed": false
+    },
+    {
+     "tag": "social:inter_hasidic",
+     "scope": "story",
+     "quotes": [],
+     "confidence": 2,
+     "why": "an encounter among tsaddikim",
+     "quotes_failed": false
+    },
+    {
+     "tag": "practice:storytelling",
+     "scope": "span",
+     "quotes": [
+      "שמעתי מרב זקן אחד שפ\"א"
+     ],
+     "confidence": 1,
+     "why": "framed as an oral report passed on by letter",
+     "quotes_failed": false
+    }
+   ],
+   "missing_concepts": [
+    "tsaddik's preparation of Shabbat food (cooking fish)",
+    "'taste of Shabbat' as a spiritual experience",
+    "transmission chain via letter from a descendant"
+   ],
+   "start_quote_found": true,
+   "end_quote_found": true
+  }
+ ],
+ "check": {
+  "non_vocab_tags": [],
+  "quotes": 8,
+  "quotes_not_found": 0
+ },
+ "id": "Eser-Orot_0036",
+ "chars": 361,
+ "seconds": 16
+}

@@ -1,0 +1,242 @@
+{
+ "unit": {
+  "kind": "several_stories",
+  "why": "The division tells how the Maggid's disciples counter-excommunicated the Pinsk opponents and the Maggid foretold his own death. It then appends a separate printed tradition: at his burial the dead Maggid immersed himself in the mikveh.",
+  "boundary_note": "Division ends with a running-head/catchword fragment ('מחו' עשר מערכת ב׳ ... אורות') that belongs to the page furniture, not the story."
+ },
+ "stories": [
+  {
+   "k": 1,
+   "start_quote": "(סג) בשנת תקל״ב (שנה לפני פטירתו",
+   "end_quote": "הנדפס בס׳ בית רבי עיי״ש.",
+   "hasidic": true,
+   "summary_en": "In 1772 the mitnagdim of Pinsk persecute R. Levi Yitzhak's household, and the Maggid's disciples, including R. Shneur Zalman, turn the bans back on the banners. The Maggid tells them that this cost them their head, his own life, but won the Hasidim the upper hand in every future dispute, and he dies that year on 19 Kislev.",
+   "tags": [
+    {
+     "tag": "social:excommunication",
+     "scope": "span",
+     "quotes": [
+      "להפך כל החרמות שמחרימין אותם שלא כדת"
+     ],
+     "confidence": 3,
+     "why": "the disciples turn the bans back on those who issued them",
+     "quotes_failed": false
+    },
+    {
+     "tag": "social:conflict",
+     "scope": "span",
+     "quotes": [
+      "בפינסק הציקו המתנגדים מאד לב״ב"
+     ],
+     "confidence": 3,
+     "why": "persecution by opponents",
+     "quotes_failed": false
+    },
+    {
+     "tag": "social:relations_with_non_hasidim",
+     "scope": "span",
+     "quotes": [
+      "שיהי׳ מחלוקת בין החסידים והמתנגדים"
+     ],
+     "confidence": 3,
+     "why": "Hasidim versus mitnagdim",
+     "quotes_failed": false
+    },
+    {
+     "tag": "social:inter_hasidic_master_disciple_relationship",
+     "scope": "span",
+     "quotes": [
+      "ויאמר להם הה״מ בני מה עשיתם בלילה זו"
+     ],
+     "confidence": 3,
+     "why": "the Maggid responds to his disciples' act",
+     "quotes_failed": false
+    },
+    {
+     "tag": "social:inter_hasidic",
+     "scope": "span",
+     "quotes": [
+      "נתוועדו התלמידים ביחד לטכס עצה בעצמם"
+     ],
+     "confidence": 2,
+     "why": "the disciples confer among themselves",
+     "quotes_failed": false
+    },
+    {
+     "tag": "practice:halakhah",
+     "scope": "span",
+     "quotes": [
+      "על המחרימים בעצמם כי כן הדין",
+      "מה צריך לעשות להם עפ״י ד\"ת"
+     ],
+     "confidence": 2,
+     "why": "the counter-ban is justified by law",
+     "quotes_failed": false
+    },
+    {
+     "tag": "supernatural:prognostication",
+     "scope": "span",
+     "quotes": [
+      "תדעו שבזה הפסדתם הראש שלכם",
+      "יהי׳ יד החסידים על העליונה"
+     ],
+     "confidence": 3,
+     "why": "the Maggid foretells his death and the Hasidim's victory",
+     "quotes_failed": false
+    },
+    {
+     "tag": "folkloristics:story_type_prognostication",
+     "scope": "story",
+     "quotes": [],
+     "confidence": 2,
+     "why": "the prediction comes true ('וכן הי')",
+     "quotes_failed": false
+    },
+    {
+     "tag": "ethics-and-emotions:punishment",
+     "scope": "span",
+     "quotes": [
+      "שנגזר שיסתלק הה״מ נ״ע"
+     ],
+     "confidence": 2,
+     "why": "the master's death is the price of the act",
+     "quotes_failed": false
+    },
+    {
+     "tag": "times:death",
+     "scope": "span",
+     "quotes": [
+      "נפטר הרב המגיד הק' י״ט כסלו"
+     ],
+     "confidence": 3,
+     "why": "the Maggid's death",
+     "quotes_failed": false
+    },
+    {
+     "tag": "folkloristics:story_type_death_of_the_tsaddik",
+     "scope": "story",
+     "quotes": [],
+     "confidence": 2,
+     "why": "the narrative leads to and explains the Maggid's death",
+     "quotes_failed": false
+    },
+    {
+     "tag": "times:shabbat",
+     "scope": "span",
+     "quotes": [
+      "שבש\"ק בעת הסעודות",
+      "ע״כ במוש״ק נתוועדו התלמידים"
+     ],
+     "confidence": 2,
+     "why": "the letter is read at the Sabbath meals and the disciples meet on Saturday night",
+     "quotes_failed": false
+    },
+    {
+     "tag": "practice:torat_ha_tsaddik",
+     "scope": "span",
+     "quotes": [
+      "הפסדתם הראש שלכם"
+     ],
+     "confidence": 1,
+     "why": "the tsaddik as the 'head' of the community",
+     "quotes_failed": false
+    },
+    {
+     "tag": "times:historical_event",
+     "scope": "span",
+     "quotes": [
+      "כאשר עשו הרדיפות הגדולות והמשונות"
+     ],
+     "confidence": 2,
+     "why": "the 1772 bans against the Hasidim",
+     "quotes_failed": false
+    }
+   ],
+   "missing_concepts": [
+    "self-sacrifice or vicarious death of the tsaddik for his followers",
+    "tsaddik's silence read as consent or refusal"
+   ],
+   "start_quote_found": true,
+   "end_quote_found": true
+  },
+  {
+   "k": 2,
+   "start_quote": "ובסיפורים הנדפסים מכבר כתוב לאמר",
+   "end_quote": "וטבל בעצמו ג״פ.",
+   "hasidic": true,
+   "summary_en": "In an earlier printed version, when the dead Maggid is brought to the mikveh, R. Shneur Zalman says that the righteous are greater in death, and the body immerses itself three times.",
+   "tags": [
+    {
+     "tag": "spaces:mikveh",
+     "scope": "span",
+     "quotes": [
+      "שהובילו את הרה״מ למקוה לטבול"
+     ],
+     "confidence": 3,
+     "why": "the scene takes place at the mikveh",
+     "quotes_failed": false
+    },
+    {
+     "tag": "practice:tvilah",
+     "scope": "span",
+     "quotes": [
+      "וטבל בעצמו ג״פ"
+     ],
+     "confidence": 3,
+     "why": "an act of immersion",
+     "quotes_failed": false
+    },
+    {
+     "tag": "supernatural:miracle",
+     "scope": "span",
+     "quotes": [
+      "יניחו את מורינו [הה״מ] שיטבול בעצמו"
+     ],
+     "confidence": 3,
+     "why": "the corpse immerses itself",
+     "quotes_failed": false
+    },
+    {
+     "tag": "times:death",
+     "scope": "story",
+     "quotes": [],
+     "confidence": 3,
+     "why": "the preparation of the tsaddik's body for burial",
+     "quotes_failed": false
+    },
+    {
+     "tag": "folkloristics:story_type_death_of_the_tsaddik",
+     "scope": "story",
+     "quotes": [],
+     "confidence": 2,
+     "why": "a wonder at the tsaddik's death",
+     "quotes_failed": false
+    },
+    {
+     "tag": "social:inter_hasidic_master_disciple_relationship",
+     "scope": "span",
+     "quotes": [
+      "שזכה עפ״י הגורל להתעסק בראשו של הה״מ"
+     ],
+     "confidence": 2,
+     "why": "the disciple's honour in handling his master's body",
+     "quotes_failed": false
+    }
+   ],
+   "missing_concepts": [
+    "purification of the dead (tahara)",
+    "variant traditions cited from earlier printed books"
+   ],
+   "start_quote_found": true,
+   "end_quote_found": true
+  }
+ ],
+ "check": {
+  "non_vocab_tags": [],
+  "quotes": 19,
+  "quotes_not_found": 0
+ },
+ "id": "Eser-Orot_0031",
+ "chars": 1846,
+ "seconds": 26
+}

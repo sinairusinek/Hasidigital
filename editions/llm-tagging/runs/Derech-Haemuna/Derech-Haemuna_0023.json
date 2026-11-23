@@ -1,0 +1,132 @@
+{
+ "unit": {
+  "kind": "hasidic_story",
+  "why": "Short anecdote about the Neshkhiz rebbe relying on the Bach for kiddush levanah on Sukkot. Inside it he tells a narrative about the Besht's dream concerning the Bach's ruling on new grain (chadash).",
+  "boundary_note": ""
+ },
+ "stories": [
+  {
+   "k": 1,
+   "start_quote": "פ״א עשה מרן מנסכיז זלה״ה מעשה",
+   "end_quote": "כדאי הב״ח שמתיר כדי לסמוך עליו",
+   "hasidic": true,
+   "summary_en": "The Neshkhiz rebbe relied on the Bach and sanctified the moon during the meal on the second night of Sukkot. He told how the Besht asked in a dream about the law of new grain and was told that Gehinnom had been cooled for forty days in the Bach's honour, so the Besht drank beer made from new grain, relying on the Bach.",
+   "tags": [
+    {
+     "tag": "practice:halakhah",
+     "scope": "span",
+     "quotes": [
+      "שאל בחלומו על חדש בזה״ז איך הדין",
+      "כדאי הב״ח שמתיר כדי לסמוך עליו"
+     ],
+     "confidence": 3,
+     "why": "Halakhic rulings (new grain, kiddush levanah) relying on the Bach",
+     "quotes_failed": false
+    },
+    {
+     "tag": "experience:dream",
+     "scope": "span",
+     "quotes": [
+      "שהבעש״ט שאל בחלומו על חדש"
+     ],
+     "confidence": 3,
+     "why": "The Besht's dream answer settles the question",
+     "quotes_failed": false
+    },
+    {
+     "tag": "supernatural:communicating_with_the_invisible",
+     "scope": "span",
+     "quotes": [
+      "וענו אותו שלאחר פטירת הב״ח"
+     ],
+     "confidence": 2,
+     "why": "Heavenly answer received in a dream",
+     "quotes_failed": false
+    },
+    {
+     "tag": "spaces:hell",
+     "scope": "span",
+     "quotes": [
+      "ציננו את הגהינם ארבעים יום לכבוד הב״ח"
+     ],
+     "confidence": 2,
+     "why": "Gehinnom cooled in the Bach's honour",
+     "quotes_failed": false
+    },
+    {
+     "tag": "times:holidays",
+     "scope": "span",
+     "quotes": [
+      "וקידש הלבנה בליל ב׳ דסוכות בתוך הסעודה"
+     ],
+     "confidence": 3,
+     "why": "The act takes place on Sukkot",
+     "quotes_failed": false
+    },
+    {
+     "tag": "practice:prayer",
+     "scope": "span",
+     "quotes": [
+      "וקידש הלבנה בליל ב׳ דסוכות"
+     ],
+     "confidence": 2,
+     "why": "Recitation of kiddush levanah",
+     "quotes_failed": false
+    },
+    {
+     "tag": "practice:drinking_alcohol",
+     "scope": "span",
+     "quotes": [
+      "ושלח להביא שכר מן החדש ושתהו"
+     ],
+     "confidence": 3,
+     "why": "The Besht drinks beer made from new grain",
+     "quotes_failed": false
+    },
+    {
+     "tag": "practice:storytelling",
+     "scope": "span",
+     "quotes": [
+      "וסיפר שהבעש״ט שאל בחלומו"
+     ],
+     "confidence": 2,
+     "why": "The Neshkhiz rebbe narrates a Besht tale",
+     "quotes_failed": false
+    },
+    {
+     "tag": "not-a-hasidic-story:hagiography",
+     "scope": "story",
+     "quotes": [],
+     "confidence": 1,
+     "why": "Praises the Bach, a pre-Hasidic authority, although the actors are Hasidic",
+     "quotes_failed": false
+    },
+    {
+     "tag": "times:eschatology",
+     "scope": "span",
+     "quotes": [
+      "ציננו את הגהינם ארבעים יום"
+     ],
+     "confidence": 1,
+     "why": "Afterlife judgement",
+     "quotes_failed": false
+    }
+   ],
+   "missing_concepts": [
+    "reliance on a halakhic authority (posek) and his heavenly standing",
+    "chadash (new grain) prohibition",
+    "kiddush levanah"
+   ],
+   "start_quote_found": true,
+   "end_quote_found": true
+  }
+ ],
+ "check": {
+  "non_vocab_tags": [],
+  "quotes": 10,
+  "quotes_not_found": 0
+ },
+ "id": "Derech-Haemuna_0023",
+ "chars": 319,
+ "seconds": 15
+}

@@ -1,0 +1,280 @@
+{
+ "unit": {
+  "kind": "hasidic_story",
+  "why": "One frame narrative: R. Berish of Oshpitsin foretells that his follower's sick, childless wife will be helped by a rebbe who will come to Vishnitsa, and the prediction comes true. Inside it he tells a story about a hasid in Kshanov and a homily on Abraham and Isaac.",
+  "boundary_note": "story continues into next division"
+ },
+ "stories": [
+  {
+   "k": 1,
+   "start_quote": "איש אחד ממקורבי הה״ק ר׳ בעריש נחלה",
+   "end_quote": "נסעו אליו אנשים רבים בפרסום גדול",
+   "hasidic": true,
+   "summary_en": "R. Berish of Oshpitsin, after telling tales of tsaddikim, repeatedly predicts that his follower Menahem ben Gitel will find salvation through a rebbe yet to come to Vishnitsa. In an embedded tale he defends the R. of Sinyawa's humility against a proud hasid. When the rebbe arrives, four Oshpitsin men travel to him secretly; he receives them warmly by ruah ha-kodesh and blesses the man, giving him an herb. The wife recovers and conceives, despite opposition in the town, and many then travel to the rebbe.",
+   "tags": [
+    {
+     "tag": "practice:storytelling",
+     "scope": "span",
+     "quotes": [
+      "התחיל לספר כמה מעשיות מרבו הק׳ מקשאנוב",
+      "ויספר לפניו כמה מעשיות מצדיקים"
+     ],
+     "confidence": 3,
+     "why": "R. Berish tells tales of tsaddikim as a means of drawing healing",
+     "quotes_failed": false
+    },
+    {
+     "tag": "supernatural:prognostication",
+     "scope": "span",
+     "quotes": [
+      "ולמעלתו יבא ישועה ע״י הרב שיבא לווישניצא"
+     ],
+     "confidence": 3,
+     "why": "prediction that comes true",
+     "quotes_failed": false
+    },
+    {
+     "tag": "folkloristics:story_type_prognostication",
+     "scope": "story",
+     "quotes": [],
+     "confidence": 3,
+     "why": "the story's arc is the fulfilment of the prediction",
+     "quotes_failed": false
+    },
+    {
+     "tag": "practice:healing",
+     "scope": "span",
+     "quotes": [
+      "בעז\"ה יהי׳ לה רפואה ויהי׳ לה בנים",
+      "ויתן לה עשב הנקרא בעליצא"
+     ],
+     "confidence": 3,
+     "why": "the sick wife is healed by blessing and an herb",
+     "quotes_failed": false
+    },
+    {
+     "tag": "supernatural:pregnancy",
+     "scope": "span",
+     "quotes": [
+      "וגם הנה הוא הרה"
+     ],
+     "confidence": 3,
+     "why": "the barren wife conceives through the blessing",
+     "quotes_failed": false
+    },
+    {
+     "tag": "supernatural:miracle",
+     "scope": "span",
+     "quotes": [
+      "כי הרב מווישניצא איש מופת הוא"
+     ],
+     "confidence": 2,
+     "why": "the cure is recognized as a wonder",
+     "quotes_failed": false
+    },
+    {
+     "tag": "practice:travel_to_other_tsaddik",
+     "scope": "span",
+     "quotes": [
+      "נוסעים אנחנו אליו",
+      "ויסנו לשלום ויבואו לשם בע״ש"
+     ],
+     "confidence": 3,
+     "why": "R. Berish's followers travel to another tsaddik, at his prompting",
+     "quotes_failed": false
+    },
+    {
+     "tag": "practice:travel_to_the_tsaddik",
+     "scope": "span",
+     "quotes": [
+      "ויסנו לשלום ויבואו לשם בע״ש"
+     ],
+     "confidence": 2,
+     "why": "a journey to a tsaddik's court to bring a request",
+     "quotes_failed": false
+    },
+    {
+     "tag": "practice:reception_of_hasidim",
+     "scope": "span",
+     "quotes": [
+      "קבל אותם בספ״י והראה להם פנים שוחקות",
+      "צעק עלי לך מאתי כי לא אתן לך שלום"
+     ],
+     "confidence": 3,
+     "why": "the rebbe welcomes some visitors and sends others away",
+     "quotes_failed": false
+    },
+    {
+     "tag": "supernatural:perception",
+     "scope": "span",
+     "quotes": [
+      "אין זה כי אם ברוה\"ק",
+      "יש לו רוה״ק וכי מאין ידע הרב מווישניצא"
+     ],
+     "confidence": 3,
+     "why": "the rebbe knows a visitor's character without being told",
+     "quotes_failed": false
+    },
+    {
+     "tag": "practice:sermon",
+     "scope": "span",
+     "quotes": [
+      "הנה ידוע כי אברהם אבינו ע״ה הי׳ מדתו מדת החסד"
+     ],
+     "confidence": 3,
+     "why": "an embedded homily on Abraham, Isaac and true discipleship",
+     "quotes_failed": false
+    },
+    {
+     "tag": "social:inter_hasidic_master_disciple_relationship",
+     "scope": "span",
+     "quotes": [
+      "ומה שעושה הכל כהתנהגות רבו",
+      "ומזה הוכחה שאינו תלמיד מובהק"
+     ],
+     "confidence": 3,
+     "why": "the discussion turns on what makes a true disciple",
+     "quotes_failed": false
+    },
+    {
+     "tag": "practice:torat_ha_tsaddik",
+     "scope": "span",
+     "quotes": [
+      "רבי שלי למד אותו שאוכל לידע מי שישיג ישועה מאיזה צדיק"
+     ],
+     "confidence": 2,
+     "why": "each person's salvation comes through a particular tsaddik",
+     "quotes_failed": false
+    },
+    {
+     "tag": "ethics-and-emotions:humility",
+     "scope": "span",
+     "quotes": [
+      "מחמת הבנעה גדולה שבו"
+     ],
+     "confidence": 3,
+     "why": "the R. of Sinyawa's humility is defended",
+     "quotes_failed": false
+    },
+    {
+     "tag": "ethics-and-emotions:pride",
+     "scope": "span",
+     "quotes": [
+      "כי ראיתי שיש בו גבהות הלב קצת"
+     ],
+     "confidence": 3,
+     "why": "the critic hasid's arrogance",
+     "quotes_failed": false
+    },
+    {
+     "tag": "social:relations_with_non_hasidim",
+     "scope": "span",
+     "quotes": [
+      "כי הי׳ רעש בעיר והתנגדות גדול וביותר עליך",
+      "רק בשתיקה שלא יהי׳ התנגדות"
+     ],
+     "confidence": 3,
+     "why": "townspeople oppose the new practice of travelling to a tsaddik",
+     "quotes_failed": false
+    },
+    {
+     "tag": "social:conflict",
+     "scope": "span",
+     "quotes": [
+      "כי הי׳ רעש בעיר והתנגדות גדול וביותר עליך"
+     ],
+     "confidence": 2,
+     "why": "the town turns against the man",
+     "quotes_failed": false
+    },
+    {
+     "tag": "times:shabbat",
+     "scope": "span",
+     "quotes": [
+      "ויבואו לשם בע״ש",
+      "ואמר ג״ט שבת וילך ממנו האיש בשמחה"
+     ],
+     "confidence": 3,
+     "why": "the visit takes place over Shabbat",
+     "quotes_failed": false
+    },
+    {
+     "tag": "practice:drinking_alcohol",
+     "scope": "span",
+     "quotes": [
+      "מחויב אני לתת לכל א׳ עוד כום א׳"
+     ],
+     "confidence": 2,
+     "why": "the rebbe singles them out by giving each an extra cup",
+     "quotes_failed": false
+    },
+    {
+     "tag": "practice:music",
+     "scope": "span",
+     "quotes": [
+      "והלכו כולם אחריו בשירה ובזמרה"
+     ],
+     "confidence": 2,
+     "why": "the hasidim escort the rebbe with song",
+     "quotes_failed": false
+    },
+    {
+     "tag": "ethics-and-emotions:fear",
+     "scope": "span",
+     "quotes": [
+      "יראתי לילך בעצמי"
+     ],
+     "confidence": 2,
+     "why": "the man is afraid to approach the rebbe alone",
+     "quotes_failed": false
+    },
+    {
+     "tag": "ethics-and-emotions:joy",
+     "scope": "span",
+     "quotes": [
+      "וילך ממנו האיש בשמחה"
+     ],
+     "confidence": 1,
+     "why": "the man leaves joyful after the blessing",
+     "quotes_failed": false
+    },
+    {
+     "tag": "women:minor_character",
+     "scope": "span",
+     "quotes": [
+      "ותאמר לו אשם. הזהר מלילך בשוק"
+     ],
+     "confidence": 3,
+     "why": "the wife, whose illness drives the plot, warns her husband about the town",
+     "quotes_failed": false
+    },
+    {
+     "tag": "folkloristics:story_type_rapprochement",
+     "scope": "span",
+     "quotes": [
+      "אז הודו כולם ואמרו כי הרב מווישניצא איש מופת הוא"
+     ],
+     "confidence": 2,
+     "why": "the hostile town is won over to the rebbe",
+     "quotes_failed": false
+    }
+   ],
+   "missing_concepts": [
+    "praying for the sick by telling tales of tsaddikim",
+    "directing hasidim to another tsaddik by thought, not speech",
+    "kvitlekh (petition notes)",
+    "drawing converts/strangers close before the messiah"
+   ],
+   "start_quote_found": true,
+   "end_quote_found": true
+  }
+ ],
+ "check": {
+  "non_vocab_tags": [],
+  "quotes": 31,
+  "quotes_not_found": 0
+ },
+ "id": "Seva-Ratzon_0010",
+ "chars": 8830,
+ "seconds": 39
+}

@@ -1,0 +1,164 @@
+{
+ "unit": {
+  "kind": "hasidic_story",
+  "why": "A single narrative about the tzaddik's sexual abstinence, his mother's complaint to R. Moshe of Sambor, the decree to resume marital relations, and the birth and early death of a holy son.",
+  "boundary_note": ""
+ },
+ "stories": [
+  {
+   "k": 1,
+   "start_quote": "ידעתי נאמנה מפי גאון וצדיק אחד",
+   "end_quote": "אשר אין רצוני לכתבו כאן",
+   "hasidic": true,
+   "summary_en": "In his great devekut the tzaddik stopped visiting his wife even on immersion nights. His mother complained to his uncle R. Moshe of Sambor, who decreed that he fulfil his marital duty. A holy son was born, but the child died young because of a word the tzaddik let slip on the day of the decree.",
+   "tags": [
+    {
+     "tag": "practice:sexual_abstinence",
+     "scope": "span",
+     "quotes": [
+      "לא התיחד רק בליל טבילה",
+      "ועברו איזה לילי טבילה ולא פקד את ביתו"
+     ],
+     "confidence": 3,
+     "why": "separation from his wife as a practice",
+     "quotes_failed": false
+    },
+    {
+     "tag": "practice:asceticism",
+     "scope": "span",
+     "quotes": [
+      "כי גם זאת כבד עליו בגודל דביקותו"
+     ],
+     "confidence": 2,
+     "why": "ascetic austerity",
+     "quotes_failed": false
+    },
+    {
+     "tag": "practice:devekut",
+     "scope": "span",
+     "quotes": [
+      "בגודל דביקותו"
+     ],
+     "confidence": 2,
+     "why": "his devekut is the motive for abstaining",
+     "quotes_failed": false
+    },
+    {
+     "tag": "social:marital_relationship",
+     "scope": "story",
+     "quotes": [],
+     "confidence": 3,
+     "why": "the couple's conjugal relations are the subject",
+     "quotes_failed": false
+    },
+    {
+     "tag": "characters-and-roles:the_family_of_the_tsaddik",
+     "scope": "span",
+     "quotes": [
+      "והלכה אמו של מורינו ז\"ל לקבול על בנה",
+      "זוגתו הצדיקת מרת ליבא ע\"ה"
+     ],
+     "confidence": 3,
+     "why": "his mother, wife, uncle and son appear",
+     "quotes_failed": false
+    },
+    {
+     "tag": "women:major_character",
+     "scope": "span",
+     "quotes": [
+      "והלכה אמו של מורינו ז\"ל לקבול על בנה"
+     ],
+     "confidence": 2,
+     "why": "the mother acts on her own and drives the plot",
+     "quotes_failed": false
+    },
+    {
+     "tag": "women:minor_character",
+     "scope": "span",
+     "quotes": [
+      "ואז נפקדה אשת מורינו שוב בבן זכר"
+     ],
+     "confidence": 2,
+     "why": "the wife conceives",
+     "quotes_failed": false
+    },
+    {
+     "tag": "practice:tvilah",
+     "scope": "span",
+     "quotes": [
+      "לא התיחד רק בליל טבילה"
+     ],
+     "confidence": 1,
+     "why": "the wife's immersion nights frame the story",
+     "quotes_failed": false
+    },
+    {
+     "tag": "practice:halakhah",
+     "scope": "span",
+     "quotes": [
+      "ובזה קיים עונתה",
+      "אני גוזר עליך בגזירת התורה"
+     ],
+     "confidence": 2,
+     "why": "the marital duty (onah) as a legal obligation",
+     "quotes_failed": false
+    },
+    {
+     "tag": "social:inter_hasidic_master_disciple_relationship",
+     "scope": "span",
+     "quotes": [
+      "אני גוזר עליך בגזירת התורה וגזירת רבי"
+     ],
+     "confidence": 2,
+     "why": "R. Moshe acts as uncle and master giving a binding order",
+     "quotes_failed": false
+    },
+    {
+     "tag": "times:birth",
+     "scope": "span",
+     "quotes": [
+      "ואז נפקדה אשת מורינו שוב בבן זכר"
+     ],
+     "confidence": 3,
+     "why": "a son is born",
+     "quotes_failed": false
+    },
+    {
+     "tag": "times:death",
+     "scope": "span",
+     "quotes": [
+      "לא האריך ימים ונסתלק בילדותו"
+     ],
+     "confidence": 3,
+     "why": "the child dies young",
+     "quotes_failed": false
+    },
+    {
+     "tag": "ethics-and-emotions:punishment",
+     "scope": "span",
+     "quotes": [
+      "ע\"י דיבור חד שיצא מפי מורינו"
+     ],
+     "confidence": 1,
+     "why": "the child's death is linked to a word the tzaddik said",
+     "quotes_failed": false
+    }
+   ],
+   "missing_concepts": [
+    "the onah (marital duty) obligation",
+    "a mother intervening in her son's marriage",
+    "the power of a tzaddik's speech to cause death"
+   ],
+   "start_quote_found": true,
+   "end_quote_found": true
+  }
+ ],
+ "check": {
+  "non_vocab_tags": [],
+  "quotes": 15,
+  "quotes_not_found": 0
+ },
+ "id": "Eser-Kedushot_0140",
+ "chars": 643,
+ "seconds": 13
+}

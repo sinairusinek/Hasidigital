@@ -1,0 +1,112 @@
+{
+ "unit": {
+  "kind": "hasidic_story",
+  "why": "A short anecdote: a villager who lost everything in a fire comes to the Maggid of Kozienice, who explains the misfortune through a notarikon on 'ויטע אשל'.",
+  "boundary_note": ""
+ },
+ "stories": [
+  {
+   "k": 1,
+   "start_quote": "שמעתי איך שבא בן כפר אחד",
+   "end_quote": "וחסרת הלמ\"ד ונשאר אותיות א\"ש",
+   "hasidic": true,
+   "summary_en": "A villager complains to the Maggid of Kozienice that despite his hospitality his property burned down. The Maggid explains that by the notarikon of אשל (eating, drinking, escorting, lodging) he kept only eating and drinking and neglected lodging and escorting. So the ל was missing and only אש (fire) remained.",
+   "tags": [
+    {
+     "tag": "practice:travel_to_the_tsaddik",
+     "scope": "span",
+     "quotes": [
+      "שבא בן כפר אחד להמגיד הק׳ מקאזניץ"
+     ],
+     "confidence": 3,
+     "why": "villager comes to the Maggid with his complaint",
+     "quotes_failed": false
+    },
+    {
+     "tag": "practice:reception_of_hasidim",
+     "scope": "span",
+     "quotes": [
+      "וקובל לפניו איך שהי' מכניס אורחים"
+     ],
+     "confidence": 2,
+     "why": "the tzaddik receives a petitioner and answers him",
+     "quotes_failed": false
+    },
+    {
+     "tag": "ethics-and-emotions:punishment",
+     "scope": "span",
+     "quotes": [
+      "הי' לו פסק רח\"ל שנשרף כל אשר לו",
+      "וחסרת הלמ\"ד ונשאר אותיות א\"ש"
+     ],
+     "confidence": 3,
+     "why": "the fire is explained as punishment for incomplete hospitality",
+     "quotes_failed": false
+    },
+    {
+     "tag": "ethics-and-emotions:virtues",
+     "scope": "span",
+     "quotes": [
+      "ואתה לא קיימת רק אכילה ושתיה"
+     ],
+     "confidence": 2,
+     "why": "full hospitality is the virtue at issue",
+     "quotes_failed": false
+    },
+    {
+     "tag": "practice:sermon",
+     "scope": "span",
+     "quotes": [
+      "ויטע אש\"ל נוטריקון א\"כילה ש\"תיה ל\"ויה ל\"ינה"
+     ],
+     "confidence": 3,
+     "why": "the tzaddik gives an exegesis of a verse",
+     "quotes_failed": false
+    },
+    {
+     "tag": "not-a-hasidic-story:sermon",
+     "scope": "story",
+     "quotes": [],
+     "confidence": 1,
+     "why": "the brief narrative mainly frames a notarikon teaching; it is cited from a homiletic book by parasha",
+     "quotes_failed": false
+    },
+    {
+     "tag": "supernatural:perception",
+     "scope": "span",
+     "quotes": [
+      "ולא השגחת על הלינה שיהי' בטוב"
+     ],
+     "confidence": 1,
+     "why": "the Maggid knows the hidden fault behind the misfortune",
+     "quotes_failed": false
+    },
+    {
+     "tag": "social:retrospective_recognition",
+     "scope": "span",
+     "quotes": [
+      "וחסרת הלמ\"ד ונשאר אותיות א\"ש"
+     ],
+     "confidence": 1,
+     "why": "the hidden meaning of the fire is disclosed",
+     "quotes_failed": false
+    }
+   ],
+   "missing_concepts": [
+    "hospitality (hakhnasat orchim)",
+    "fire / loss of property as misfortune",
+    "notarikon wordplay as explanation of misfortune"
+   ],
+   "start_quote_found": true,
+   "end_quote_found": true
+  }
+ ],
+ "check": {
+  "non_vocab_tags": [],
+  "quotes": 8,
+  "quotes_not_found": 0
+ },
+ "id": "Eser-Orot_0162",
+ "chars": 326,
+ "seconds": 14
+}

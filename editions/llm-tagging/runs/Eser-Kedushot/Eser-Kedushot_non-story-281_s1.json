@@ -1,0 +1,95 @@
+{
+ "unit": {
+  "kind": "hasidic_story",
+  "why": "split out of non-story-281 (non-story)"
+ },
+ "stories": [
+  {
+   "k": 1,
+   "start_quote": "והצדיק הזה הי' נחבא אל הכלים",
+   "end_quote": "שבעיניו יפלא לחבר חיבור כזה",
+   "hasidic": true,
+   "summary_en": "R. Avraham Abele, the author of a kabbalistic commentary on the Tikkunim, lived hidden as a children's teacher and was recognised only by the rabbi of Drohobych; when his book came before R. Zvi of Zhidachov, R. Zvi marvelled at the author's spiritual attainment and praised it at length to his disciples.",
+   "tags": [
+    {
+     "tag": "characters-and-roles:hidden_righteous",
+     "scope": "span",
+     "quotes": [
+      "הי' נחבא אל הכלים מיקרי דרדקי ולא הכירו אדם",
+      "והוא הי׳ טמון כמוס ועמוס"
+     ],
+     "confidence": 3,
+     "why": "the author lived as a concealed tzaddik working as a melamed",
+     "quotes_failed": false
+    },
+    {
+     "tag": "folkloristics:story_type_revelation",
+     "scope": "story",
+     "quotes": [],
+     "confidence": 1,
+     "why": "the hidden author's greatness is disclosed to others through his book",
+     "quotes_failed": false
+    },
+    {
+     "tag": "knowledge:esoteric",
+     "scope": "span",
+     "quotes": [
+      "שיבח אותו לפני תלמידיו הרבה",
+      "מיוסד על הקדמות מרן האר\"י"
+     ],
+     "confidence": 2,
+     "why": "the book is a Lurianic kabbalistic commentary",
+     "quotes_failed": false
+    },
+    {
+     "tag": "knowledge:secret_texts",
+     "scope": "span",
+     "quotes": [
+      "וכבר בימי חורפי היה זה הספר לפני עיני"
+     ],
+     "confidence": 1,
+     "why": "a hidden kabbalistic manuscript is passed on and shown",
+     "quotes_failed": false
+    },
+    {
+     "tag": "social:inter_hasidic_master_disciple_relationship",
+     "scope": "span",
+     "quotes": [
+      "ושיבח אותו לפני תלמידיו הרבה"
+     ],
+     "confidence": 1,
+     "why": "the narrator recalls his master and uncle R. Zvi teaching his disciples",
+     "quotes_failed": false
+    },
+    {
+     "tag": "characters-and-roles:the_family_of_the_tsaddik",
+     "scope": "span",
+     "quotes": [
+      "מורי ורבי מובהק דודי איש אלקים קדוש"
+     ],
+     "confidence": 1,
+     "why": "the narrator's uncle and the author's great-grandson both appear",
+     "quotes_failed": false
+    },
+    {
+     "tag": "social:retrospective_recognition",
+     "scope": "span",
+     "quotes": [
+      "הי' מתמיה ומפליא הרבה על השגת המחבר הזה"
+     ],
+     "confidence": 1,
+     "why": "the author's unknown greatness is recognised through his book",
+     "quotes_failed": false
+    }
+   ],
+   "missing_concepts": [
+    "approbation (haskamah) as a frame for the story",
+    "kabbalistic book production and its legitimacy (Lurianic foundations versus 'imaginings')"
+   ],
+   "start_quote_found": true,
+   "end_quote_found": true
+  }
+ ],
+ "id": "Eser-Kedushot_non-story-281_s1",
+ "split_from": "non-story-281"
+}

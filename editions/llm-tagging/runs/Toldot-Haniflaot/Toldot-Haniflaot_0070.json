@@ -1,0 +1,112 @@
+{
+ "unit": {
+  "kind": "hasidic_story",
+  "why": "A short anecdote: the rebbe was late to his Friday-night meal because his soul was in Gan Eden seeking to see the Noam Elimelekh, transmitted through a chain of named hasidim.",
+  "boundary_note": ""
+ },
+ "stories": [
+  {
+   "k": 1,
+   "start_quote": "שמעתי מהחסיד מפורסם ר׳ נפתלי מזעליחאוו",
+   "end_quote": "והיה מתאחר מאוד עד שזכה לראותו",
+   "hasidic": true,
+   "summary_en": "One Friday night the rebbe came late to his Sabbath meal; afterwards he told R. Reuven of Zelichov that he never comes to the table before visiting Gan Eden among the souls of the tsaddikim, and that night he waited long until he was granted to see R. Elimelekh, author of Noam Elimelekh.",
+   "tags": [
+    {
+     "tag": "experience:journey_to_heaven",
+     "scope": "span",
+     "quotes": [
+      "לעולם אינו בא לשולחנו עד שהוא בג״ע בין נשמות הצדיקים"
+     ],
+     "confidence": 3,
+     "why": "The rebbe's soul ascends to Gan Eden before the meal.",
+     "quotes_failed": false
+    },
+    {
+     "tag": "spaces:heaven",
+     "scope": "span",
+     "quotes": [
+      "עד שהוא בג״ע בין נשמות הצדיקים"
+     ],
+     "confidence": 3,
+     "why": "Gan Eden is where the scene takes place.",
+     "quotes_failed": false
+    },
+    {
+     "tag": "supernatural:communicating_with_the_invisible",
+     "scope": "span",
+     "quotes": [
+      "היה רוצה לראות את מרן בעל נועם אלימלך"
+     ],
+     "confidence": 2,
+     "why": "He seeks out the soul of a deceased tsaddik.",
+     "quotes_failed": false
+    },
+    {
+     "tag": "times:shabbat",
+     "scope": "span",
+     "quotes": [
+      "איחר מרן ז\"ל בליל ש״ק מלבוא לשלחן סעודתו"
+     ],
+     "confidence": 3,
+     "why": "The event happens at the Friday-night meal.",
+     "quotes_failed": false
+    },
+    {
+     "tag": "experience:visions",
+     "scope": "span",
+     "quotes": [
+      "והיה מתאחר מאוד עד שזכה לראותו"
+     ],
+     "confidence": 1,
+     "why": "He was granted a sight of the Noam Elimelekh.",
+     "quotes_failed": false
+    },
+    {
+     "tag": "social:inter_hasidic_master_disciple_relationship",
+     "scope": "span",
+     "quotes": [
+      "ואחר שבת סיפר לר׳ ראובן הנ״ל ואמר"
+     ],
+     "confidence": 1,
+     "why": "The rebbe confides his secret to his hasid.",
+     "quotes_failed": false
+    },
+    {
+     "tag": "social:retrospective_recognition",
+     "scope": "span",
+     "quotes": [
+      "ואחר שבת סיפר לר׳ ראובן הנ״ל ואמר כי לעולם"
+     ],
+     "confidence": 2,
+     "why": "The reason for the delay is explained only afterwards.",
+     "quotes_failed": false
+    },
+    {
+     "tag": "practice:storytelling",
+     "scope": "span",
+     "quotes": [
+      "סיפר לי שהחסיד ר׳ ראובן הנ״ל הגיד לו"
+     ],
+     "confidence": 1,
+     "why": "Framed as a chain of oral transmission between hasidim.",
+     "quotes_failed": false
+    }
+   ],
+   "missing_concepts": [
+    "chain of oral transmission (shalshelet ha-mesirah) as the frame",
+    "visiting souls of deceased tsaddikim / meeting a departed master"
+   ],
+   "start_quote_found": true,
+   "end_quote_found": true
+  }
+ ],
+ "check": {
+  "non_vocab_tags": [],
+  "quotes": 8,
+  "quotes_not_found": 0
+ },
+ "id": "Toldot-Haniflaot_0070",
+ "chars": 370,
+ "seconds": 13
+}

@@ -1,0 +1,111 @@
+{
+ "unit": {
+  "kind": "hasidic_story",
+  "why": "A single anecdote: a disciple troubled by heretical doubts travels to R. Pinhas of Korets, who perceives the doubts through the window and resolves them with one sentence on greeting.",
+  "boundary_note": ""
+ },
+ "stories": [
+  {
+   "k": 1,
+   "start_quote": "רב אחד מתלמידיו הנה ראה כי",
+   "end_quote": "ותיכף נסע הרב לביתו שלם ברעיוניו",
+   "hasidic": true,
+   "summary_en": "A rabbi among R. Pinhas's disciples was tormented by heretical doubts about how God can know human thoughts; when he came to his master, R. Pinhas saw his thoughts through the window and, before he could speak, asked him in Yiddish 'How can God not know, if I know?', and the disciple went home healed in his mind.",
+   "tags": [
+    {
+     "tag": "supernatural:perception",
+     "scope": "span",
+     "quotes": [
+      "וראהו הרה״ק דרך החלון והכיר בצודתו מרחוק את כל רעיונות הכוזבות"
+     ],
+     "confidence": 3,
+     "why": "the tzaddik discerns the disciple's hidden thoughts from afar",
+     "quotes_failed": false
+    },
+    {
+     "tag": "practice:travel_to_the_tsaddik",
+     "scope": "span",
+     "quotes": [
+      "ונסע לרבו הרה״ק ר״פ הנ\"ל לפרש שיחתו"
+     ],
+     "confidence": 3,
+     "why": "the disciple journeys to his master to ask for help",
+     "quotes_failed": false
+    },
+    {
+     "tag": "social:inter_hasidic_master_disciple_relationship",
+     "scope": "story",
+     "quotes": [],
+     "confidence": 3,
+     "why": "the story turns on the bond between master and disciple",
+     "quotes_failed": false
+    },
+    {
+     "tag": "practice:healing_of_the_soul",
+     "scope": "span",
+     "quotes": [
+      "ולבקש אשר רבו יפשיט העקמומיות הזה מלבו",
+      "ותיכף נסע הרב לביתו שלם ברעיוניו"
+     ],
+     "confidence": 3,
+     "why": "the tzaddik heals the disciple's spiritual and doctrinal affliction",
+     "quotes_failed": false
+    },
+    {
+     "tag": "practice:reception_of_hasidim",
+     "scope": "span",
+     "quotes": [
+      "וכאשר נכנס לביתו לקבל שלום"
+     ],
+     "confidence": 2,
+     "why": "the greeting and audience is where the resolution happens",
+     "quotes_failed": false
+    },
+    {
+     "tag": "ethics-and-emotions:sadness",
+     "scope": "span",
+     "quotes": [
+      "הי' לו מזה צער ויסורין"
+     ],
+     "confidence": 2,
+     "why": "the disciple's distress is the problem the story addresses",
+     "quotes_failed": false
+    },
+    {
+     "tag": "practice:torat_ha_tsaddik",
+     "scope": "span",
+     "quotes": [
+      "וויא אזוי ווייסט גאטט ב\"ה נישט אז איך ווייס"
+     ],
+     "confidence": 2,
+     "why": "the tzaddik's knowledge serves as proof of divine knowledge",
+     "quotes_failed": false
+    },
+    {
+     "tag": "practice:sermon",
+     "scope": "span",
+     "quotes": [
+      "וויא אזוי ווייסט גאטט ב\"ה נישט אז איך ווייס"
+     ],
+     "confidence": 1,
+     "why": "a brief theological teaching delivered as a retort",
+     "quotes_failed": false
+    }
+   ],
+   "missing_concepts": [
+    "heretical doubts / crisis of faith (מינות, ספקות באמונה)",
+    "divine omniscience as a theological question"
+   ],
+   "start_quote_found": true,
+   "end_quote_found": true
+  }
+ ],
+ "check": {
+  "non_vocab_tags": [],
+  "quotes": 8,
+  "quotes_not_found": 0
+ },
+ "id": "Eser-Orot_0035",
+ "chars": 571,
+ "seconds": 14
+}

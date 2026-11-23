@@ -1,0 +1,141 @@
+{
+ "unit": {
+  "kind": "hasidic_story",
+  "why": "A narrative told by R. Bertsi of Nadvorna about R. Shabbetai of Rashkov's soul after his death on a Friday, followed by a short homiletic tail on Sabbath customs.",
+  "boundary_note": "division ends with section-transition matter ('סליק אות כ ונתחיל אות ל... מענין לדון את חבירו לכף זכות') belonging to the next section"
+ },
+ "stories": [
+  {
+   "k": 1,
+   "start_quote": "שמעתי שסיפר הה״צ רבי בערצי מנאדבורנא",
+   "end_quote": "כמו תקרא את התורה הזאת",
+   "hasidic": true,
+   "summary_en": "R. Shabbetai of Rashkov died on a Friday; at evening a heavenly messenger led him to the palace where Sabbath is received above, but an old man at the gate told him he would not be admitted until morning, because his custom was not to put on a white shirt for Sabbath until morning; the story leads into teachings on prolonging the Sabbath and not wasting it.",
+   "tags": [
+    {
+     "tag": "spaces:heaven",
+     "scope": "span",
+     "quotes": [
+      "שיבא להיכל שמקבלין בו שבת בעולם העליון",
+      "וכאשר הגיע לפתח ההיכל"
+     ],
+     "confidence": 3,
+     "why": "action takes place at a heavenly palace",
+     "quotes_failed": false
+    },
+    {
+     "tag": "times:shabbat",
+     "scope": "story",
+     "quotes": [],
+     "confidence": 3,
+     "why": "set on Sabbath eve; the story is about Sabbath customs",
+     "quotes_failed": false
+    },
+    {
+     "tag": "times:death",
+     "scope": "span",
+     "quotes": [
+      "רבי שבתי מראשקוב נסתלק בע״ש"
+     ],
+     "confidence": 3,
+     "why": "the tzaddik's death opens the story",
+     "quotes_failed": false
+    },
+    {
+     "tag": "practice:clothing",
+     "scope": "span",
+     "quotes": [
+      "שלא לבש כתונת לבן לכבוד שבת עד הבוקר"
+     ],
+     "confidence": 3,
+     "why": "a white Sabbath shirt determines his heavenly reception",
+     "quotes_failed": false
+    },
+    {
+     "tag": "characters-and-roles:angels",
+     "scope": "span",
+     "quotes": [
+      "בא אליו שליח דרחמנא"
+     ],
+     "confidence": 2,
+     "why": "a heavenly messenger fetches him",
+     "quotes_failed": false
+    },
+    {
+     "tag": "supernatural:communicating_with_the_invisible",
+     "scope": "span",
+     "quotes": [
+      "ראה שם זקן נכבד עומד ושאל אותו"
+     ],
+     "confidence": 2,
+     "why": "the deceased soul converses with a figure in the upper world",
+     "quotes_failed": false
+    },
+    {
+     "tag": "ethics-and-emotions:punishment",
+     "scope": "span",
+     "quotes": [
+      "שאין מניחין אותו עד הבוקר"
+     ],
+     "confidence": 2,
+     "why": "he is barred from entry, measure for measure, because of his custom",
+     "quotes_failed": false
+    },
+    {
+     "tag": "practice:storytelling",
+     "scope": "span",
+     "quotes": [
+      "שמעתי שסיפר הה״צ רבי בערצי מנאדבורנא"
+     ],
+     "confidence": 2,
+     "why": "framed as a tale told by a named tzaddik",
+     "quotes_failed": false
+    },
+    {
+     "tag": "practice:recitation_of_psalms",
+     "scope": "span",
+     "quotes": [
+      "צריך ללמוד או לומר תהלים"
+     ],
+     "confidence": 1,
+     "why": "Psalms recommended in the appended teaching, not narrated",
+     "quotes_failed": false
+    },
+    {
+     "tag": "practice:sermon",
+     "scope": "span",
+     "quotes": [
+      "וע״ז נאמר וקראת לשבת עונג",
+      "כי השבת בתוך ימי החול כנשמה בגוף"
+     ],
+     "confidence": 2,
+     "why": "homiletic teaching attached to the tale",
+     "quotes_failed": false
+    },
+    {
+     "tag": "not-a-hasidic-story:sermon",
+     "scope": "story",
+     "quotes": [],
+     "confidence": 1,
+     "why": "the narrative is wrapped in a homiletic and halakhic tail on Sabbath customs",
+     "quotes_failed": false
+    }
+   ],
+   "missing_concepts": [
+    "the soul's posthumous fate and reception in heaven",
+    "measure-for-measure judgment for a ritual custom",
+    "prolonging the Sabbath at its departure (tosefet Shabbat)"
+   ],
+   "start_quote_found": true,
+   "end_quote_found": true
+  }
+ ],
+ "check": {
+  "non_vocab_tags": [],
+  "quotes": 11,
+  "quotes_not_found": 0
+ },
+ "id": "Derech-Haemuna_0124",
+ "chars": 691,
+ "seconds": 14
+}

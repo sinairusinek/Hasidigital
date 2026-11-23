@@ -1,0 +1,232 @@
+{
+ "unit": {
+  "kind": "hasidic_story",
+  "why": "A single narrative about R. Jacob Samson of Shepetivka travelling to collect ransom money and meeting a mysterious old sage in the West who knows R. Baruch of Medzhybizh.",
+  "boundary_note": ""
+ },
+ "stories": [
+  {
+   "k": 1,
+   "start_quote": "הרב הגה״ק מו\"ה יעקב שמשון משיפיטיווקא ז״ל",
+   "end_quote": "שבילי דרקיעא כשבילי דארעא:",
+   "hasidic": true,
+   "summary_en": "R. Jacob Samson of Shepetivka, travelling far west to raise ransom money, lodges with an old sage who asks about R. Baruch of Medzhybizh. He forgets all his master's teachings until he recalls one small interpretation of the Grace after Meals. The sage then expounds its mysteries, and the two spend three days in rapture without food or drink. The sage finally reveals that he knows R. Baruch from the paths of heaven.",
+   "tags": [
+    {
+     "tag": "practice:pidyon_shvuyim",
+     "scope": "span",
+     "quotes": [
+      "ליסע למרחקים לקבץ ממון על פדיון שבוים"
+     ],
+     "confidence": 3,
+     "why": "travels to collect ransom money",
+     "quotes_failed": false
+    },
+    {
+     "tag": "practice:redemption_of_captives",
+     "scope": "span",
+     "quotes": [
+      "ליסע למרחקים לקבץ ממון על פדיון שבוים"
+     ],
+     "confidence": 3,
+     "why": "duplicate tag of pidyon_shvuyim",
+     "quotes_failed": false
+    },
+    {
+     "tag": "ethics-and-emotions:charity",
+     "scope": "span",
+     "quotes": [
+      "גם לפרנס הצדיקים הנסתרים"
+     ],
+     "confidence": 2,
+     "why": "supports hidden righteous",
+     "quotes_failed": false
+    },
+    {
+     "tag": "practice:the_travels_of_the_tsaddik",
+     "scope": "story",
+     "quotes": [],
+     "confidence": 3,
+     "why": "the story turns on his journey and lodging",
+     "quotes_failed": false
+    },
+    {
+     "tag": "characters-and-roles:hidden_righteous",
+     "scope": "span",
+     "quotes": [
+      "ויבא לבית חכם אחד זקן גדול",
+      "כי הבין שאיש קדוש הוא"
+     ],
+     "confidence": 2,
+     "why": "unknown sage revealed as a holy man",
+     "quotes_failed": false
+    },
+    {
+     "tag": "supernatural:perception",
+     "scope": "span",
+     "quotes": [
+      "וברוח קדשו יודע מהה״ק רר״ב"
+     ],
+     "confidence": 3,
+     "why": "the sage knows R. Baruch by holy spirit",
+     "quotes_failed": false
+    },
+    {
+     "tag": "social:inter_hasidic_master_disciple_relationship",
+     "scope": "span",
+     "quotes": [
+      "וגם כפוף אנכי תחתיו כאחד מעבדיו",
+      "לא שכח כל ימיו דבר א׳ ממשנתו"
+     ],
+     "confidence": 2,
+     "why": "his discipleship to R. Baruch",
+     "quotes_failed": false
+    },
+    {
+     "tag": "practice:sermon",
+     "scope": "span",
+     "quotes": [
+      "ואמר הה״ק רר״ב פירוש הדברים אנחנו צריכים להודות"
+     ],
+     "confidence": 3,
+     "why": "a quoted Torah teaching",
+     "quotes_failed": false
+    },
+    {
+     "tag": "ethics-and-emotions:sadness",
+     "scope": "span",
+     "quotes": [
+      "והי׳ להה\"ק צער גדול על אשר נשכח ממנו",
+      "הי׳ יגון ודאבון לב"
+     ],
+     "confidence": 2,
+     "why": "grief over the forgotten teachings",
+     "quotes_failed": false
+    },
+    {
+     "tag": "ethics-and-emotions:joy",
+     "scope": "span",
+     "quotes": [
+      "ויאמר להחכם בשמחה גדולה הנה נזכרת"
+     ],
+     "confidence": 2,
+     "why": "joy on remembering",
+     "quotes_failed": false
+    },
+    {
+     "tag": "ethics-and-emotions:fear",
+     "scope": "span",
+     "quotes": [
+      "ויענה החכם הנ״ל ברוב פחד ובהלה"
+     ],
+     "confidence": 2,
+     "why": "awe and fear at R. Baruch's words",
+     "quotes_failed": false
+    },
+    {
+     "tag": "ethics-and-emotions:awe",
+     "scope": "span",
+     "quotes": [
+      "ויענה החכם הנ״ל ברוב פחד ובהלה"
+     ],
+     "confidence": 2,
+     "why": "religious awe of the tsaddik's teaching",
+     "quotes_failed": false
+    },
+    {
+     "tag": "knowledge:esoteric",
+     "scope": "span",
+     "quotes": [
+      "והתחיל לומר ע״ז סתרי תורה"
+     ],
+     "confidence": 3,
+     "why": "the sage expounds the secrets of the Torah",
+     "quotes_failed": false
+    },
+    {
+     "tag": "practice:devekut",
+     "scope": "span",
+     "quotes": [
+      "וישבו יחד ג׳ ימים בהתדבקות המוחין ובהתפשטות הגשמיות"
+     ],
+     "confidence": 3,
+     "why": "three days of mystical cleaving",
+     "quotes_failed": false
+    },
+    {
+     "tag": "experience:devekut",
+     "scope": "span",
+     "quotes": [
+      "בהתדבקות המוחין ובהתפשטות הגשמיות"
+     ],
+     "confidence": 3,
+     "why": "experienced communion with God",
+     "quotes_failed": false
+    },
+    {
+     "tag": "practice:asceticism",
+     "scope": "span",
+     "quotes": [
+      "ולא אכלו ולא שתו ג׳ ימים"
+     ],
+     "confidence": 1,
+     "why": "three days without food, though from rapture rather than an ascetic practice",
+     "quotes_failed": false
+    },
+    {
+     "tag": "spaces:heaven",
+     "scope": "span",
+     "quotes": [
+      "ונהירין לי׳ שבילי דרקיעא כשבילי דארעא"
+     ],
+     "confidence": 1,
+     "why": "implies the sage met R. Baruch in the upper worlds",
+     "quotes_failed": false
+    },
+    {
+     "tag": "social:retrospective_recognition",
+     "scope": "span",
+     "quotes": [
+      "ויענהו החכם הנ״ל ראיתי אותו ונהירין"
+     ],
+     "confidence": 2,
+     "why": "it is finally revealed how the sage knows R. Baruch",
+     "quotes_failed": false
+    },
+    {
+     "tag": "folkloristics:story_type_revelation",
+     "scope": "story",
+     "quotes": [],
+     "confidence": 2,
+     "why": "a hidden holy sage is revealed",
+     "quotes_failed": false
+    },
+    {
+     "tag": "practice:torat_ha_tsaddik",
+     "scope": "span",
+     "quotes": [
+      "הלא דבר גדול דבר"
+     ],
+     "confidence": 1,
+     "why": "the greatness of R. Baruch is recognized from afar",
+     "quotes_failed": false
+    }
+   ],
+   "missing_concepts": [
+    "miraculous forgetting of Torah (שכחה)",
+    "Grace after Meals (ברכת המזון) exegesis",
+    "tsaddik's fame known in distant lands"
+   ],
+   "start_quote_found": true,
+   "end_quote_found": true
+  }
+ ],
+ "check": {
+  "non_vocab_tags": [],
+  "quotes": 21,
+  "quotes_not_found": 0
+ },
+ "id": "Seva-Ratzon_0018",
+ "chars": 1682,
+ "seconds": 24
+}

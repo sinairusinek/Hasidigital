@@ -1,0 +1,102 @@
+{
+ "unit": {
+  "kind": "hasidic_story",
+  "why": "A short anecdote, quoted from Tiferet Shlomo of Radomsk, about a poor hasid whose Sabbath needs are miraculously supplied.",
+  "boundary_note": ""
+ },
+ "stories": [
+  {
+   "k": 1,
+   "start_quote": "וכן היה מעשה בחסיד א׳ שנדחק",
+   "end_quote": "בגדים ותכשיטים וכ״ט ויהי כן",
+   "hasidic": true,
+   "summary_en": "A destitute hasid's wife sells their lamp for food on Sabbath eve. A stranger arrives and sells them lamps on credit. The hasid concludes that his way is not hidden from God and refuses to keep suffering until he is given clothes, jewelry and all good things.",
+   "tags": [
+    {
+     "tag": "times:shabbat",
+     "scope": "span",
+     "quotes": [
+      "בע״ש לא היה לו כלל צרכי שבת",
+      "לקנות מנורות טובות לכבוד שבת"
+     ],
+     "confidence": 3,
+     "why": "The whole plot turns on Sabbath-eve needs.",
+     "quotes_failed": false
+    },
+    {
+     "tag": "supernatural:miracle",
+     "scope": "span",
+     "quotes": [
+      "והנה איש בא מן החוץ לאמר",
+      "עד הביאו לו בגדים ותכשיטים וכ״ט ויהי כן"
+     ],
+     "confidence": 3,
+     "why": "Lamps and later goods are miraculously supplied.",
+     "quotes_failed": false
+    },
+    {
+     "tag": "social:poverty",
+     "scope": "span",
+     "quotes": [
+      "שנדחק מאד כל ימיו ביסורי עוני"
+     ],
+     "confidence": 2,
+     "why": "Lifelong poverty borne as suffering; he later refuses to bear it.",
+     "quotes_failed": false
+    },
+    {
+     "tag": "women:minor_character",
+     "scope": "span",
+     "quotes": [
+      "ולקחה אשתו המנורה שהיה להם ותתן"
+     ],
+     "confidence": 3,
+     "why": "The wife acts by selling the lamp for food.",
+     "quotes_failed": false
+    },
+    {
+     "tag": "social:marital_relationship",
+     "scope": "span",
+     "quotes": [
+      "ויאמר לאשתו תנה נא לי כעת"
+     ],
+     "confidence": 2,
+     "why": "The couple deal with their poverty together.",
+     "quotes_failed": false
+    },
+    {
+     "tag": "social:retrospective_recognition",
+     "scope": "span",
+     "quotes": [
+      "א״כ לא נסתר דרכי מה׳"
+     ],
+     "confidence": 2,
+     "why": "The hasid realizes that his deeds are acceptable to God after all.",
+     "quotes_failed": false
+    },
+    {
+     "tag": "not-a-hasidic-story:sermon",
+     "scope": "story",
+     "quotes": [],
+     "confidence": 1,
+     "why": "Quoted as an illustration inside a homiletic compilation on Sabbath eve.",
+     "quotes_failed": false
+    }
+   ],
+   "missing_concepts": [
+    "trust in God (bitachon) and demanding provision from Heaven",
+    "despair over unaccepted deeds"
+   ],
+   "start_quote_found": true,
+   "end_quote_found": true
+  }
+ ],
+ "check": {
+  "non_vocab_tags": [],
+  "quotes": 8,
+  "quotes_not_found": 0
+ },
+ "id": "Derech-Haemuna_0176",
+ "chars": 609,
+ "seconds": 14
+}

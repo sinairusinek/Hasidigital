@@ -1,0 +1,281 @@
+{
+ "unit": {
+  "kind": "hasidic_story",
+  "why": "A single narrative about a dybbuk: the spirit of a dead sinner possesses a young man from Przysucha and is exorcised by the rebbe of Mogielnica.",
+  "boundary_note": ""
+ },
+ "stories": [
+  {
+   "k": 1,
+   "start_quote": "מעשה נוראה שהיה בנער אחד מפרשיסחא",
+   "end_quote": "בקיצור גדול עיי״ש מה שכתב שם",
+   "hasidic": true,
+   "summary_en": "Weeks after his wedding a youth falls into melancholy. He reveals that he once refused the seduction of a learned cantor, who has since died, and that this man's spirit now pursues him asking for a tikkun. The spirit possesses him, sings and confesses its sins, and is finally expelled by the tzaddik of Mogielnica after repeated visits.",
+   "tags": [
+    {
+     "tag": "ethics-and-emotions:sadness",
+     "scope": "span",
+     "quotes": [
+      "הלך משומם במרה שחורה מאד ולא אכל ולא שתה"
+     ],
+     "confidence": 3,
+     "why": "The youth's melancholy opens the plot.",
+     "quotes_failed": false
+    },
+    {
+     "tag": "ethics-and-emotions:lust",
+     "scope": "span",
+     "quotes": [
+      "תקף עליו יצרו ופיתה אותי לעשות בי עבירה"
+     ],
+     "confidence": 3,
+     "why": "The man's sexual desire for the boy.",
+     "quotes_failed": false
+    },
+    {
+     "tag": "ethics-and-emotions:resisting_temptation",
+     "scope": "span",
+     "quotes": [
+      "ולא הייתי נתפתה אליו",
+      "והצלתי אותו מחטא"
+     ],
+     "confidence": 3,
+     "why": "The youth refused to be seduced.",
+     "quotes_failed": false
+    },
+    {
+     "tag": "ethics-and-emotions:prohibitions",
+     "scope": "span",
+     "quotes": [
+      "וטמאתי הרבה נערים, אוי לי מה עשיתי"
+     ],
+     "confidence": 2,
+     "why": "Sexual transgression with boys is at issue.",
+     "quotes_failed": false
+    },
+    {
+     "tag": "ethics-and-emotions:repentance",
+     "scope": "span",
+     "quotes": [
+      "רוב שיחותיו היה וידוי דברים שהיה מתוודה",
+      "הרהורי תשובה שהיו אז ולואי בכל יום"
+     ],
+     "confidence": 3,
+     "why": "The spirit confesses, and the event stirred thoughts of repentance in others.",
+     "quotes_failed": false
+    },
+    {
+     "tag": "ethics-and-emotions:shame",
+     "scope": "span",
+     "quotes": [
+      "כי אוי לי מגודל הבושה ואיך אשא פני הרב",
+      "מחמת פחד ובושה"
+     ],
+     "confidence": 3,
+     "why": "The spirit is ashamed to face the rebbe.",
+     "quotes_failed": false
+    },
+    {
+     "tag": "ethics-and-emotions:fear",
+     "scope": "span",
+     "quotes": [
+      "היה סר הרוח מאתו מחמת פחד ובושה"
+     ],
+     "confidence": 3,
+     "why": "The spirit flees out of fear of the tzaddik.",
+     "quotes_failed": false
+    },
+    {
+     "tag": "ethics-and-emotions:punishment",
+     "scope": "span",
+     "quotes": [
+      "והיו צריכים לרחוץ את הקרקע אשר אנכי היה עומד עליה"
+     ],
+     "confidence": 1,
+     "why": "The sinner's soul wanders unredeemed after death; this is implied rather than stated.",
+     "quotes_failed": false
+    },
+    {
+     "tag": "supernatural:communicating_with_the_invisible",
+     "scope": "span",
+     "quotes": [
+      "זה שמונה ימים שאני רואה אותו תמיד הולך אחרי",
+      "מיד נכנס הרוח בו והתחיל לנגן"
+     ],
+     "confidence": 3,
+     "why": "The youth sees the dead man's spirit and is possessed by it.",
+     "quotes_failed": false
+    },
+    {
+     "tag": "supernatural:perception",
+     "scope": "span",
+     "quotes": [
+      "הסבא קדישא מראדשיץ הטעיתי אותו, אבל הוא היה מכיר בי"
+     ],
+     "confidence": 2,
+     "why": "The Radoshitz tzaddik saw through the sinner.",
+     "quotes_failed": false
+    },
+    {
+     "tag": "supernatural:miracle",
+     "scope": "span",
+     "quotes": [
+      "ואז הוציא הרוח מאתו, ושוב לא חזר אליו"
+     ],
+     "confidence": 2,
+     "why": "The exorcism is a discrete wonder with a before and after.",
+     "quotes_failed": false
+    },
+    {
+     "tag": "practice:healing_of_the_soul",
+     "scope": "span",
+     "quotes": [
+      "כח בידי לעשות לו טובה, ותיקון"
+     ],
+     "confidence": 2,
+     "why": "A tikkun for the wandering soul and the youth's release are sought.",
+     "quotes_failed": false
+    },
+    {
+     "tag": "practice:protection",
+     "scope": "span",
+     "quotes": [
+      "עד שהוציא ההק׳ שוב הרוח ממנו",
+      "לא יעזוב את הנער יחידי"
+     ],
+     "confidence": 3,
+     "why": "The tzaddik shields the youth from the spirit.",
+     "quotes_failed": false
+    },
+    {
+     "tag": "folkloristics:story_type_protection",
+     "scope": "story",
+     "quotes": [],
+     "confidence": 3,
+     "why": "The story's arc is the rebbe freeing the youth from possession.",
+     "quotes_failed": false
+    },
+    {
+     "tag": "practice:travel_to_the_tsaddik",
+     "scope": "span",
+     "quotes": [
+      "שיסע עמו למאגלניצא אל מרן ז״ל",
+      "והוכרח שוב לשוב למאגלניצא"
+     ],
+     "confidence": 3,
+     "why": "Father and son journey to the Mogielnica rebbe.",
+     "quotes_failed": false
+    },
+    {
+     "tag": "practice:tefillin",
+     "scope": "span",
+     "quotes": [
+      "היה מניח פרשיות התפלין ואמר ראה והסתכל"
+     ],
+     "confidence": 3,
+     "why": "The rebbe uses the tefillin parchments to test the youth.",
+     "quotes_failed": false
+    },
+    {
+     "tag": "spaces:rabbinical_court",
+     "scope": "span",
+     "quotes": [
+      "שיושיב ב״ד להתיר לו שבועה אחת"
+     ],
+     "confidence": 3,
+     "why": "A beit din annuls the youth's oath.",
+     "quotes_failed": false
+    },
+    {
+     "tag": "practice:halakhah",
+     "scope": "span",
+     "quotes": [
+      "ויתירו לו את השבועה",
+      "שאשבע בנקיטת חפץ בקדושת החומש"
+     ],
+     "confidence": 2,
+     "why": "A sworn oath and its legal annulment.",
+     "quotes_failed": false
+    },
+    {
+     "tag": "practice:music",
+     "scope": "span",
+     "quotes": [
+      "התחיל לנגן בניגון יפה ונאה",
+      "והמנגנים שהיו מכירים את האיש וקול ניגונו"
+     ],
+     "confidence": 3,
+     "why": "The possessed youth sings in the dead cantor's voice.",
+     "quotes_failed": false
+    },
+    {
+     "tag": "practice:prayer",
+     "scope": "span",
+     "quotes": [
+      "אני התפללתי לפני העמוד, אמנם היה נגינתי בהרהורים רעים"
+     ],
+     "confidence": 2,
+     "why": "The sinner's corrupt prayer leading is confessed.",
+     "quotes_failed": false
+    },
+    {
+     "tag": "practice:storytelling",
+     "scope": "span",
+     "quotes": [
+      "שהיה מספר כ״ז בבהמ״ד לפני הרבה אנשים"
+     ],
+     "confidence": 2,
+     "why": "The father told the tale publicly in the beit midrash.",
+     "quotes_failed": false
+    },
+    {
+     "tag": "social:inter_hasidic_master_disciple_relationship",
+     "scope": "span",
+     "quotes": [
+      "ואח״כ היה הנער בא תמיד אל מרן ז״ל"
+     ],
+     "confidence": 1,
+     "why": "The youth becomes an adherent of the rebbe afterwards.",
+     "quotes_failed": false
+    },
+    {
+     "tag": "social:retrospective_recognition",
+     "scope": "span",
+     "quotes": [
+      "והמנגנים שהיו מכירים את האיש וקול ניגונו היו אומרים שזהו קולו ממש"
+     ],
+     "confidence": 2,
+     "why": "The respected man is revealed as a sinner, and his voice is recognized in the youth.",
+     "quotes_failed": false
+    },
+    {
+     "tag": "social:marriage",
+     "scope": "span",
+     "quotes": [
+      "ה׳ שבועות אחר החתונה"
+     ],
+     "confidence": 1,
+     "why": "Recent wedding as the timing of the affliction.",
+     "quotes_failed": false
+    }
+   ],
+   "missing_concepts": [
+    "dybbuk possession and exorcism",
+    "spirit of the dead (non-demonic)",
+    "homosexual abuse / pederasty",
+    "oath and its annulment",
+    "xenoglossia (speaking Hebrew fluently)"
+   ],
+   "start_quote_found": true,
+   "end_quote_found": true
+  }
+ ],
+ "check": {
+  "non_vocab_tags": [],
+  "quotes": 31,
+  "quotes_not_found": 0
+ },
+ "id": "Toldot-Haniflaot_0057",
+ "chars": 2967,
+ "seconds": 29
+}

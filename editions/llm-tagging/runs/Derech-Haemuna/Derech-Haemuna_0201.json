@@ -1,0 +1,178 @@
+{
+ "unit": {
+  "kind": "hasidic_story",
+  "why": "A narrative about R. Abraham Joshua Heschel of Apta as rabbi of Kolbuszow being unknowingly bribed, framed by a homily on 'even a perfect tzaddik who takes a bribe'.",
+  "boundary_note": "trailing 'מענין שידוך' is the heading of the next division"
+ },
+ "stories": [
+  {
+   "k": 1,
+   "start_quote": "והדרש אפילו צדיק גמור ונוטל שוחד",
+   "end_quote": "ובלי ידיעה כלל קיבל שוחד נסתלף דבריו",
+   "hasidic": true,
+   "summary_en": "As young rabbi of Kolbuszow, the Apter Rav found his judgment bending toward corrupt judges after a litigant secretly hid gold coins in his Rosh Hodesh garment; he wept, delayed the verdict, found the coins, made the man confess and return them, and drew the lesson that even a perfect tzaddik is swayed by an unknowing bribe.",
+   "tags": [
+    {
+     "tag": "practice:halakhah",
+     "scope": "span",
+     "quotes": [
+      "ואמר שאין כך הלכה"
+     ],
+     "confidence": 3,
+     "why": "a legal ruling is the issue of the case",
+     "quotes_failed": false
+    },
+    {
+     "tag": "spaces:rabbinical_court",
+     "scope": "span",
+     "quotes": [
+      "וישב בדין משפט גדול עם איזה דינים"
+     ],
+     "confidence": 3,
+     "why": "a court proceeding with judges",
+     "quotes_failed": false
+    },
+    {
+     "tag": "ethics-and-emotions:prohibitions",
+     "scope": "span",
+     "quotes": [
+      "וגזר עליו באיסור ואיים עליו"
+     ],
+     "confidence": 2,
+     "why": "the bribery prohibition is at issue",
+     "quotes_failed": false
+    },
+    {
+     "tag": "ethics-and-emotions:lying",
+     "scope": "span",
+     "quotes": [
+      "שיניח בבגד של ר\"ח סך רב של זהובים אדומים"
+     ],
+     "confidence": 2,
+     "why": "the coins were hidden in secret to deceive the rabbi",
+     "quotes_failed": false
+    },
+    {
+     "tag": "practice:prayer",
+     "scope": "span",
+     "quotes": [
+      "והלך לחדרו ובכה בכיות לפני אדון כל"
+     ],
+     "confidence": 2,
+     "why": "tearful supplication before God",
+     "quotes_failed": false
+    },
+    {
+     "tag": "ethics-and-emotions:sadness",
+     "scope": "span",
+     "quotes": [
+      "ובכה בכיות לפני אדון כל"
+     ],
+     "confidence": 1,
+     "why": "weeping in distress",
+     "quotes_failed": false
+    },
+    {
+     "tag": "characters-and-roles:the_family_of_the_tsaddik",
+     "scope": "span",
+     "quotes": [
+      "ושאל לאשתו מי היה כאן"
+     ],
+     "confidence": 3,
+     "why": "the rebbe's wife appears",
+     "quotes_failed": false
+    },
+    {
+     "tag": "women:minor_character",
+     "scope": "span",
+     "quotes": [
+      "ושאל לאשתו מי היה כאן"
+     ],
+     "confidence": 2,
+     "why": "the wife takes part in the inquiry",
+     "quotes_failed": false
+    },
+    {
+     "tag": "social:retrospective_recognition",
+     "scope": "span",
+     "quotes": [
+      "והרגיש שהוא כבד הרבה ונתן ידו לכיס הבגד"
+     ],
+     "confidence": 3,
+     "why": "he discovers why his judgment had bent",
+     "quotes_failed": false
+    },
+    {
+     "tag": "social:conflict",
+     "scope": "span",
+     "quotes": [
+      "ואמר לו לך רשע"
+     ],
+     "confidence": 2,
+     "why": "the rabbi confronts the corrupt litigant",
+     "quotes_failed": false
+    },
+    {
+     "tag": "times:holidays",
+     "scope": "span",
+     "quotes": [
+      "עד שהגיע יום ר״ח ולקח בגדיו"
+     ],
+     "confidence": 1,
+     "why": "the discovery happens on Rosh Hodesh",
+     "quotes_failed": false
+    },
+    {
+     "tag": "practice:clothing",
+     "scope": "span",
+     "quotes": [
+      "בבגד של ר\"ח"
+     ],
+     "confidence": 2,
+     "why": "a special Rosh Hodesh garment is the hiding place",
+     "quotes_failed": false
+    },
+    {
+     "tag": "practice:sermon",
+     "scope": "span",
+     "quotes": [
+      "ואמר הצדיק זהו שכתוב ויסלף דברי צדיקים"
+     ],
+     "confidence": 3,
+     "why": "the tzaddik's exegesis of the verse",
+     "quotes_failed": false
+    },
+    {
+     "tag": "not-a-hasidic-story:sermon",
+     "scope": "story",
+     "quotes": [],
+     "confidence": 1,
+     "why": "the narrative is wrapped in a homiletic frame on the verse",
+     "quotes_failed": false
+    },
+    {
+     "tag": "ethics-and-emotions:virtues",
+     "scope": "story",
+     "quotes": [],
+     "confidence": 2,
+     "why": "illustrates the judge's integrity",
+     "quotes_failed": false
+    }
+   ],
+   "missing_concepts": [
+    "bribery (shochad) and judicial corruption",
+    "the tzaddik as communal rabbi/judge (rav)"
+   ],
+   "start_quote_found": true,
+   "end_quote_found": true
+  }
+ ],
+ "check": {
+  "non_vocab_tags": [],
+  "quotes": 13,
+  "quotes_not_found": 0
+ },
+ "id": "Derech-Haemuna_0201",
+ "chars": 1124,
+ "seconds": 15
+}

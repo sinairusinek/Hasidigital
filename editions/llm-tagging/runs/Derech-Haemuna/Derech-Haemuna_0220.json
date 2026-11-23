@@ -1,0 +1,141 @@
+{
+ "unit": {
+  "kind": "hasidic_story",
+  "why": "A quoted teaching from Noam Elimelech on 'expanding one's mind' with worldly matters, illustrated by R. Yehiel Mikhel of Zlotshov's regal conduct and a brief exchange in which a young man asks him about it; the anecdote is minimal and the homiletic frame dominates.",
+  "boundary_note": "borderline with saying_or_teaching: the narrative element is a single question-and-answer"
+ },
+ "stories": [
+  {
+   "k": 1,
+   "start_quote": "ובס׳ נ״מ בהק׳ כ׳ וז״ל",
+   "end_quote": "שצריך להרחיב דעתו לעבודת הש״י",
+   "hasidic": true,
+   "summary_en": "Quoting Noam Elimelech: a purified tzaddik must sometimes indulge worldly comforts so that the evil inclination does not accuse him. R. Yehiel Mikhel of Zlotshov did this, wearing royal garments and eating a king's meal daily but only looking at it. R. Elimelech said that fastening his garment's hooks drew divine abundance to eighty thousand bands of angels. When a youth asked why he lived so lavishly, he answered that he must broaden his mind for God's service.",
+   "tags": [
+    {
+     "tag": "not-a-hasidic-story:sermon",
+     "scope": "story",
+     "quotes": [],
+     "confidence": 2,
+     "why": "The anecdote is embedded in a quoted homiletic teaching about expanding the mind.",
+     "quotes_failed": false
+    },
+    {
+     "tag": "practice:clothing",
+     "scope": "span",
+     "quotes": [
+      "שהיה מלבושיו מלבושי מלכות",
+      "ומחבר הקרסים של לבושו ממשיך שפע"
+     ],
+     "confidence": 3,
+     "why": "His royal garments and the act of fastening them carry mystical significance.",
+     "quotes_failed": false
+    },
+    {
+     "tag": "practice:devekut",
+     "scope": "span",
+     "quotes": [
+      "שלא יצא נפשו מגודל אור הדביקות",
+      "כי הדביקות והחיות אלהות ולב שמח"
+     ],
+     "confidence": 3,
+     "why": "His intense cleaving to God endangered his soul.",
+     "quotes_failed": false
+    },
+    {
+     "tag": "experience:devekut",
+     "scope": "span",
+     "quotes": [
+      "שלא יצא נפשו מגודל אור הדביקות"
+     ],
+     "confidence": 2,
+     "why": "He is depicted in an overwhelming state of devekut.",
+     "quotes_failed": false
+    },
+    {
+     "tag": "ethics-and-emotions:joy",
+     "scope": "span",
+     "quotes": [
+      "והיה תמיד פניו מאירין ושמחין מחדוותא דשמעתא"
+     ],
+     "confidence": 2,
+     "why": "Joy in Torah study and prayer is depicted.",
+     "quotes_failed": false
+    },
+    {
+     "tag": "practice:asceticism",
+     "scope": "span",
+     "quotes": [
+      "מפני מה הוא מתנהג כ״כ בהרחבה",
+      "ולא נהנה אלא ראות עיניו"
+     ],
+     "confidence": 2,
+     "why": "The text debates austerity against lavish conduct; he looks at the meal but does not enjoy it.",
+     "quotes_failed": false
+    },
+    {
+     "tag": "characters-and-roles:angels",
+     "scope": "span",
+     "quotes": [
+      "לשמונים אלף כיתות מלאכים והוא חיותם"
+     ],
+     "confidence": 2,
+     "why": "Angels sustained by his actions are part of the depicted scene.",
+     "quotes_failed": false
+    },
+    {
+     "tag": "practice:prayer",
+     "scope": "span",
+     "quotes": [
+      "כשהוא לובש המלבוש לתפלה"
+     ],
+     "confidence": 2,
+     "why": "He dresses for prayer.",
+     "quotes_failed": false
+    },
+    {
+     "tag": "practice:tefillin",
+     "scope": "span",
+     "quotes": [
+      "ולב שמח מתפלה ותפילין הוא ממש"
+     ],
+     "confidence": 1,
+     "why": "Tefillin are mentioned only within the teaching.",
+     "quotes_failed": false
+    },
+    {
+     "tag": "practice:torat_ha_tsaddik",
+     "scope": "span",
+     "quotes": [
+      "ממשיך שפע למעלה לשמונים אלף כיתות"
+     ],
+     "confidence": 2,
+     "why": "The tzaddik's acts channel divine abundance to the upper worlds.",
+     "quotes_failed": false
+    },
+    {
+     "tag": "folkloristics:story_type_virtues",
+     "scope": "story",
+     "quotes": [],
+     "confidence": 2,
+     "why": "The account illustrates the tzaddik's exemplary conduct.",
+     "quotes_failed": false
+    }
+   ],
+   "missing_concepts": [
+    "harchavat ha-da'at (deliberate worldly expansiveness / luxury as a spiritual strategy)",
+    "the evil inclination (yetzer ha-ra / sitra achra) accusing a tzaddik"
+   ],
+   "start_quote_found": true,
+   "end_quote_found": true
+  }
+ ],
+ "check": {
+  "non_vocab_tags": [],
+  "quotes": 12,
+  "quotes_not_found": 0
+ },
+ "id": "Derech-Haemuna_0220",
+ "chars": 752,
+ "seconds": 20
+}

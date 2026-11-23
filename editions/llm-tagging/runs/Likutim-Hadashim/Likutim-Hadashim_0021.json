@@ -1,0 +1,123 @@
+{
+ "unit": {
+  "kind": "hasidic_story",
+  "why": "A single anecdote: R. Zvi travels to the Seer of Lublin to learn to pray, and the Seer has R. Moshe Sofer of Przeworsk write him tefillin, which are later handed down by will.",
+  "boundary_note": ""
+ },
+ "stories": [
+  {
+   "k": 1,
+   "start_quote": "שמעתי מא״ז הק׳ ר׳ צבי ז״ל",
+   "end_quote": "ליד דודו הנ״ל ועדיין הם כשרים",
+   "hasidic": true,
+   "summary_en": "As a young man supported by his father-in-law, R. Zvi travels to the Seer of Lublin to learn how to pray; the Seer takes one ruble from him and has R. Moshe Sofer of Przeworsk write him kosher tefillin, which R. Zvi keeps all his life and which pass by will to R. David of Kotsk.",
+   "tags": [
+    {
+     "tag": "practice:tefillin",
+     "scope": "span",
+     "quotes": [
+      "תן לי א׳ ר״ט ויהא לך תפילין כשרים",
+      "והתפילין היו אצלו כל ימי חייו"
+     ],
+     "confidence": 3,
+     "why": "the tefillin are the center of the story",
+     "quotes_failed": false
+    },
+    {
+     "tag": "characters-and-roles:scribe",
+     "scope": "span",
+     "quotes": [
+      "ונתן להרה״ק ר׳ משה סופר מפשעווארסק ז״ל",
+      "ואמר לו כתוב לי תפילין בשביל זה האברך"
+     ],
+     "confidence": 3,
+     "why": "R. Moshe Sofer writes the parchments",
+     "quotes_failed": false
+    },
+    {
+     "tag": "practice:travel_to_the_tsaddik",
+     "scope": "span",
+     "quotes": [
+      "נסע להרבי מלובלין זצ״ל"
+     ],
+     "confidence": 3,
+     "why": "journey to the Seer",
+     "quotes_failed": false
+    },
+    {
+     "tag": "practice:prayer",
+     "scope": "span",
+     "quotes": [
+      "והשיב לו שצריך ללמוד איך להתפלל"
+     ],
+     "confidence": 2,
+     "why": "the stated purpose is learning to pray",
+     "quotes_failed": false
+    },
+    {
+     "tag": "practice:reception_of_hasidim",
+     "scope": "span",
+     "quotes": [
+      "וכשבא להרבי תיכף אמר לו"
+     ],
+     "confidence": 2,
+     "why": "the Seer receives the newcomer and responds at once",
+     "quotes_failed": false
+    },
+    {
+     "tag": "characters-and-roles:the_family_of_the_tsaddik",
+     "scope": "span",
+     "quotes": [
+      "ושאל אותו חותנו למה אתה נוסע",
+      "ואח״כ נתן בנו התפילין ליד דודי"
+     ],
+     "confidence": 2,
+     "why": "father-in-law, son and uncle appear",
+     "quotes_failed": false
+    },
+    {
+     "tag": "social:marriage",
+     "scope": "span",
+     "quotes": [
+      "כשהיה אוכל מזונות אצל חותנו"
+     ],
+     "confidence": 1,
+     "why": "kest arrangement with the father-in-law as the setting",
+     "quotes_failed": false
+    },
+    {
+     "tag": "supernatural:perception",
+     "scope": "span",
+     "quotes": [
+      "תיכף אמר לו תן לי א׳ ר״ט"
+     ],
+     "confidence": 1,
+     "why": "the Seer may know at once what the visitor needs",
+     "quotes_failed": false
+    },
+    {
+     "tag": "social:inter_hasidic_master_disciple_relationship",
+     "scope": "story",
+     "quotes": [],
+     "confidence": 2,
+     "why": "a young man becomes the Seer's disciple",
+     "quotes_failed": false
+    }
+   ],
+   "missing_concepts": [
+    "inheritance of a sacred object by will",
+    "scribe's fixed fee and writing only on the rebbe's word"
+   ],
+   "start_quote_found": true,
+   "end_quote_found": true
+  }
+ ],
+ "check": {
+  "non_vocab_tags": [],
+  "quotes": 11,
+  "quotes_not_found": 0
+ },
+ "id": "Likutim-Hadashim_0021",
+ "chars": 599,
+ "seconds": 12
+}

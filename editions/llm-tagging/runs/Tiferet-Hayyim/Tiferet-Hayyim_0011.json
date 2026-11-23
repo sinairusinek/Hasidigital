@@ -1,0 +1,108 @@
+{
+ "unit": {
+  "kind": "paratext_with_story",
+  "why": "A footnote, mostly a halakhic and homiletic discussion of blessings over bread, which contains a brief anecdote about R. Zusha fasting three days over an improperly intended blessing.",
+  "boundary_note": "footnote attached to the preceding main text; ends with a running header '30 תפארת פרשת ע'"
+ },
+ "stories": [
+  {
+   "k": 1,
+   "start_quote": "שמעתי מהחסיד הצדיק מוה׳ זושא זללה\"ה",
+   "end_quote": "או בשביל הנאות אחרות והבן",
+   "hasidic": true,
+   "summary_en": "R. Zusha once fasted three days because, when he said the blessing over bread, he also had in mind his own pleasure in satisfying his hunger. The anecdote becomes a homily on blessing God purely for His creation.",
+   "tags": [
+    {
+     "tag": "practice:fasting",
+     "scope": "span",
+     "quotes": [
+      "שפ״א התענה ג׳ ימים עבור שבירך המוציא"
+     ],
+     "confidence": 3,
+     "why": "Zusha fasts three days",
+     "quotes_failed": false
+    },
+    {
+     "tag": "practice:asceticism",
+     "scope": "span",
+     "quotes": [
+      "שפ״א התענה ג׳ ימים עבור שבירך המוציא"
+     ],
+     "confidence": 2,
+     "why": "self-mortification over a subtle fault",
+     "quotes_failed": false
+    },
+    {
+     "tag": "ethics-and-emotions:repentance",
+     "scope": "span",
+     "quotes": [
+      "שפ״א התענה ג׳ ימים עבור שבירך המוציא"
+     ],
+     "confidence": 2,
+     "why": "the fast atones for an improper intention",
+     "quotes_failed": false
+    },
+    {
+     "tag": "practice:halakhah",
+     "scope": "span",
+     "quotes": [
+      "בש\"ע סי׳ קס\"ז סי׳ י אם במקום ברכת המוציא"
+     ],
+     "confidence": 3,
+     "why": "the frame discusses the law of the hamotzi blessing",
+     "quotes_failed": false
+    },
+    {
+     "tag": "not-a-hasidic-story:sermon",
+     "scope": "story",
+     "quotes": [],
+     "confidence": 3,
+     "why": "the anecdote is wrapped in halakhic and exegetical discussion",
+     "quotes_failed": false
+    },
+    {
+     "tag": "practice:sermon",
+     "scope": "span",
+     "quotes": [
+      "וז״פ ברכו את ה׳ המבורך"
+     ],
+     "confidence": 2,
+     "why": "exegesis of a verse drawn from the anecdote",
+     "quotes_failed": false
+    },
+    {
+     "tag": "folkloristics:story_type_virtues",
+     "scope": "story",
+     "quotes": [],
+     "confidence": 2,
+     "why": "illustrates Zusha's piety and purity of intention",
+     "quotes_failed": false
+    },
+    {
+     "tag": "practice:prayer",
+     "scope": "span",
+     "quotes": [
+      "רק שכיון בברכה להנאת עצמו להשלים רעבונו"
+     ],
+     "confidence": 1,
+     "why": "intention in reciting a blessing",
+     "quotes_failed": false
+    }
+   ],
+   "missing_concepts": [
+    "blessings over food (ברכת הנהנין) and the intention behind them",
+    "purity of intention (לשמה) versus self-interest"
+   ],
+   "start_quote_found": true,
+   "end_quote_found": true
+  }
+ ],
+ "check": {
+  "non_vocab_tags": [],
+  "quotes": 6,
+  "quotes_not_found": 0
+ },
+ "id": "Tiferet-Hayyim_0011",
+ "chars": 927,
+ "seconds": 15
+}

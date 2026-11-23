@@ -1,0 +1,106 @@
+{
+ "unit": {
+  "kind": "hasidic_story",
+  "why": "A short anecdote: the Sanzer rabbi returns from visiting the Ruzhiner, a gaon asks him why he went, and he answers with a homily praising the Ruzhiner's self-sacrifice.",
+  "boundary_note": ""
+ },
+ "stories": [
+  {
+   "k": 1,
+   "start_quote": "בבא הגה\"ק מצאנז בחזרה מנסיעתו",
+   "end_quote": "שפשט את צווארו עבור ה׳ עכ״ל",
+   "hasidic": true,
+   "summary_en": "On returning from a visit to the Ruzhiner, R. Hayyim of Sanz is asked by a gaon why he, a scholar himself, went; he explains through the Moriah/Sinai homily that self-sacrifice outweighs Torah, and that he saw the Ruzhiner constantly stretch out his neck for God.",
+   "tags": [
+    {
+     "tag": "practice:travel_to_other_tsaddik",
+     "scope": "span",
+     "quotes": [
+      "בחזרה מנסיעתו לקבל פני הרה״ק מריזין"
+     ],
+     "confidence": 3,
+     "why": "The Sanzer tsaddik travels to another tsaddik, the Ruzhiner.",
+     "quotes_failed": false
+    },
+    {
+     "tag": "practice:sermon",
+     "scope": "span",
+     "quotes": [
+      "ובאמת קשה למה זה נבנה המקדש על הר המוריה"
+     ],
+     "confidence": 3,
+     "why": "His answer is an exegetical homily.",
+     "quotes_failed": false
+    },
+    {
+     "tag": "folkloristics:story_type_virtues",
+     "scope": "story",
+     "quotes": [],
+     "confidence": 3,
+     "why": "The point of the story is to illustrate the Ruzhiner's virtue of self-sacrifice.",
+     "quotes_failed": false
+    },
+    {
+     "tag": "ethics-and-emotions:virtues",
+     "scope": "span",
+     "quotes": [
+      "בכל עת ורגע ראיתי ממנו שפשט את צווארו"
+     ],
+     "confidence": 2,
+     "why": "The virtue at issue is self-sacrifice for God.",
+     "quotes_failed": false
+    },
+    {
+     "tag": "practice:torat_ha_tsaddik",
+     "scope": "span",
+     "quotes": [
+      "למה נסע להרב ומה ראה ממנו"
+     ],
+     "confidence": 2,
+     "why": "The question is why a great scholar would need a rebbe at all.",
+     "quotes_failed": false
+    },
+    {
+     "tag": "social:inter_hasidic",
+     "scope": "story",
+     "quotes": [],
+     "confidence": 2,
+     "why": "The story concerns relations between two Hasidic masters.",
+     "quotes_failed": false
+    },
+    {
+     "tag": "social:relations_with_non_hasidim",
+     "scope": "span",
+     "quotes": [
+      "שאל אותו גאון אחד למה נסע להרב"
+     ],
+     "confidence": 1,
+     "why": "The questioner may be a non-Hasidic scholar who is skeptical of rebbes.",
+     "quotes_failed": false
+    },
+    {
+     "tag": "not-a-hasidic-story:sermon",
+     "scope": "story",
+     "quotes": [],
+     "confidence": 1,
+     "why": "The narrative is a minimal frame around a homiletic answer.",
+     "quotes_failed": false
+    }
+   ],
+   "missing_concepts": [
+    "self-sacrifice / mesirut nefesh",
+    "scholarship (gaon) versus the rebbe's spiritual authority"
+   ],
+   "start_quote_found": true,
+   "end_quote_found": true
+  }
+ ],
+ "check": {
+  "non_vocab_tags": [],
+  "quotes": 5,
+  "quotes_not_found": 0
+ },
+ "id": "Eser-Orot_0288",
+ "chars": 586,
+ "seconds": 15
+}

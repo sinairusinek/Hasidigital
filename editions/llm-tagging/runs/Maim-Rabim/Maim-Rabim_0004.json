@@ -1,0 +1,161 @@
+{
+ "unit": {
+  "kind": "hasidic_story",
+  "why": "A single narrative: R. Yosef Yampoler asks the Besht to take him to the Land of Israel, is refused, predicts the Besht's failure and his own arrival, and is carried there by a noblewoman's ship.",
+  "boundary_note": ""
+ },
+ "stories": [
+  {
+   "k": 1,
+   "start_quote": "אביו של הה״ק ר׳ יצחק הנ״ל",
+   "end_quote": "והביאה אותו לאה״ק. ומנ״כ שם זי״ע",
+   "hasidic": true,
+   "summary_en": "R. Yosef 'Spravedlivy' asks the Besht to take him along to the Holy Land; the Besht, fearing his strictness, puts him off; R. Yosef predicts that the Besht, travelling like royalty, will not arrive while he, travelling like a beggar, will; the Besht's ship breaks up, and a noblewoman sees R. Yosef studying on the shore and brings him to the Land of Israel, where he is buried.",
+   "tags": [
+    {
+     "tag": "spaces:the_land_of_israel",
+     "scope": "story",
+     "quotes": [],
+     "confidence": 3,
+     "why": "The Land of Israel is the destination around which the whole story turns.",
+     "quotes_failed": false
+    },
+    {
+     "tag": "supernatural:prognostication",
+     "scope": "span",
+     "quotes": [
+      "אתם תסעו כמו מלכות ולא תבואו לשם",
+      "ובעזה״י אבוא לשם וכך הי׳"
+     ],
+     "confidence": 3,
+     "why": "His prediction about both journeys comes true.",
+     "quotes_failed": false
+    },
+    {
+     "tag": "folkloristics:story_type_prognostication",
+     "scope": "story",
+     "quotes": [],
+     "confidence": 3,
+     "why": "The story's arc is a prediction that is fulfilled.",
+     "quotes_failed": false
+    },
+    {
+     "tag": "practice:travel_to_other_tsaddik",
+     "scope": "span",
+     "quotes": [
+      "נסע הרה״ק ר״י הנ״ל אל הבעש״ט לבקש ממנו"
+     ],
+     "confidence": 2,
+     "why": "One tzaddik travels to another tzaddik, the Besht, with a request.",
+     "quotes_failed": false
+    },
+    {
+     "tag": "practice:the_travels_of_the_tsaddik",
+     "scope": "span",
+     "quotes": [
+      "הבעש״ט נסע ונשבר הספינה והוכרח לשוב לביתו"
+     ],
+     "confidence": 3,
+     "why": "The Besht's failed journey to the Holy Land.",
+     "quotes_failed": false
+    },
+    {
+     "tag": "ethics-and-emotions:fear",
+     "scope": "span",
+     "quotes": [
+      "הבעש״ט הי' ירא מעונש הקפדה שלו"
+     ],
+     "confidence": 2,
+     "why": "The Besht fears the punishment R. Yosef's strictness might bring.",
+     "quotes_failed": false
+    },
+    {
+     "tag": "social:relations_with_non_jews",
+     "scope": "span",
+     "quotes": [
+      "ונסעה מטרוניתא אחת על הים",
+      "וצותה ליקח אותו על הספינה"
+     ],
+     "confidence": 3,
+     "why": "A noblewoman, apparently a non-Jew, carries him on her ship.",
+     "quotes_failed": false
+    },
+    {
+     "tag": "women:minor_character",
+     "scope": "span",
+     "quotes": [
+      "ונסעה מטרוניתא אחת על הים"
+     ],
+     "confidence": 3,
+     "why": "The noblewoman acts in a small but decisive role.",
+     "quotes_failed": false
+    },
+    {
+     "tag": "practice:study",
+     "scope": "span",
+     "quotes": [
+      "ישב על שפת הים וספר בידו ולמד שם"
+     ],
+     "confidence": 3,
+     "why": "He is studying on the shore when he is found.",
+     "quotes_failed": false
+    },
+    {
+     "tag": "social:competition",
+     "scope": "span",
+     "quotes": [
+      "אתם תסעו כמו מלכות ולא תבואו לשם ואני נוסע לשם כמו בעטלער"
+     ],
+     "confidence": 1,
+     "why": "Implicit rivalry with the Besht over who will reach the Land.",
+     "quotes_failed": false
+    },
+    {
+     "tag": "ethics-and-emotions:humility",
+     "scope": "span",
+     "quotes": [
+      "ואני נוסע לשם כמו בעטלער"
+     ],
+     "confidence": 2,
+     "why": "Travelling humbly like a beggar, set against royal travel.",
+     "quotes_failed": false
+    },
+    {
+     "tag": "supernatural:miracle",
+     "scope": "span",
+     "quotes": [
+      "וראתה מרחוק איש יושב על שפת הים"
+     ],
+     "confidence": 1,
+     "why": "Providential rescue that is not explicitly called a miracle.",
+     "quotes_failed": false
+    },
+    {
+     "tag": "practice:pilgrimage_to_the_graves_of_tsaddikim",
+     "scope": "span",
+     "quotes": [
+      "ומנ״כ שם זי״ע"
+     ],
+     "confidence": 1,
+     "why": "Only a closing note that he is buried in the Holy Land.",
+     "quotes_failed": false
+    }
+   ],
+   "missing_concepts": [
+    "the Besht's failed journey to the Land of Israel",
+    "shipwreck / sea voyage",
+    "the tzaddik's strictness (hakpadah) and fear of its punishment"
+   ],
+   "start_quote_found": true,
+   "end_quote_found": true
+  }
+ ],
+ "check": {
+  "non_vocab_tags": [],
+  "quotes": 13,
+  "quotes_not_found": 0
+ },
+ "id": "Maim-Rabim_0004",
+ "chars": 681,
+ "seconds": 18
+}

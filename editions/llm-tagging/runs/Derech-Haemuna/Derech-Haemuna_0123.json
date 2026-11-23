@@ -1,0 +1,103 @@
+{
+ "unit": {
+  "kind": "hasidic_story",
+  "why": "An anecdote about the Besht: while he gave a lesson on how a vessel holds its maker's intellect, a jug that had apparently been in pieces stood whole before him, and it crumbled again once the lesson ended.",
+  "boundary_note": "Final 'מענין כתונת' is a heading catchword for the next section, not part of the story"
+ },
+ "stories": [
+  {
+   "k": 1,
+   "start_quote": "מעשה מבעש״ט ע״ה שהיה אומר שיעור",
+   "end_quote": "נתפרד לפרורים כבראשונה. (כתבי קודש)",
+   "hasidic": true,
+   "summary_en": "During a lesson on how a vessel holds its craftsman's intellect, the Besht read from a jug before him that its maker had no legs; after the lesson a student set the jug on a bench and it fell into shards as before.",
+   "tags": [
+    {
+     "tag": "supernatural:miracle",
+     "scope": "span",
+     "quotes": [
+      "ותיכף בעמידת הכלי נתפרד לפרורים כבראשונה"
+     ],
+     "confidence": 3,
+     "why": "the jug held together only while the Besht taught, then crumbled",
+     "quotes_failed": false
+    },
+    {
+     "tag": "supernatural:perception",
+     "scope": "span",
+     "quotes": [
+      "אני רואה שהאומן שלה היא איש בלא רגלים"
+     ],
+     "confidence": 3,
+     "why": "the Besht knows the unseen craftsman's physical condition from the vessel",
+     "quotes_failed": false
+    },
+    {
+     "tag": "practice:sermon",
+     "scope": "span",
+     "quotes": [
+      "כי זה שכלו הוא מעפר ויש לו התחברות",
+      "כי ידוע שבענף יש כח והשורש"
+     ],
+     "confidence": 3,
+     "why": "the Besht's teaching on matter, form and the craftsman's intellect is quoted",
+     "quotes_failed": false
+    },
+    {
+     "tag": "practice:study",
+     "scope": "span",
+     "quotes": [
+      "שהיה אומר שיעור כדרכו"
+     ],
+     "confidence": 2,
+     "why": "the setting is the Besht's regular lesson to his students",
+     "quotes_failed": false
+    },
+    {
+     "tag": "social:inter_hasidic_master_disciple_relationship",
+     "scope": "span",
+     "quotes": [
+      "ואחר השיעור לקח תלמיד אחד הכד בידו"
+     ],
+     "confidence": 2,
+     "why": "the Besht teaches his students and a student handles the jug",
+     "quotes_failed": false
+    },
+    {
+     "tag": "knowledge:esoteric",
+     "scope": "span",
+     "quotes": [
+      "התחברות כלי זה מכח אצילות ושכל"
+     ],
+     "confidence": 2,
+     "why": "mystical doctrine of emanation and intellect within physical vessels",
+     "quotes_failed": false
+    },
+    {
+     "tag": "social:retrospective_recognition",
+     "scope": "span",
+     "quotes": [
+      "נתפרד לפרורים כבראשונה"
+     ],
+     "confidence": 1,
+     "why": "only when the jug crumbles do the onlookers realize it was held together by the lesson",
+     "quotes_failed": false
+    }
+   ],
+   "missing_concepts": [
+    "a material object held together by a tzaddik's teaching or intellect",
+    "reading a craftsman's traits from the object he made"
+   ],
+   "start_quote_found": true,
+   "end_quote_found": true
+  }
+ ],
+ "check": {
+  "non_vocab_tags": [],
+  "quotes": 8,
+  "quotes_not_found": 0
+ },
+ "id": "Derech-Haemuna_0123",
+ "chars": 648,
+ "seconds": 14
+}

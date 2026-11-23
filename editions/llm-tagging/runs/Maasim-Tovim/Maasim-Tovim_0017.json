@@ -1,0 +1,164 @@
+{
+ "unit": {
+  "kind": "non_hasidic_story",
+  "why": "An exemplary tale about a disciple of the Ramban (Nachmanides) who neglected prayer for Torah study and was punished, wrapped in a moralizing frame on proper prayer.",
+  "boundary_note": ""
+ },
+ "stories": [
+  {
+   "k": 1,
+   "start_quote": "מעשה בתלמיד אחד מתלמידי הרמב״ן שחשקה",
+   "end_quote": "והתחיל להתפלל כדת וכהלכה עכ״ל",
+   "hasidic": false,
+   "summary_en": "A disciple of Nachmanides, so devoted to Torah that he neglected proper prayer despite his master's warnings, finds a horseman raping his virgin daughter on his study table, and the Ramban explains it as the consequence of neglecting the daily prayer for protection from evil, after which the disciple prays properly.",
+   "tags": [
+    {
+     "tag": "not-a-hasidic-story:hagiography",
+     "scope": "story",
+     "quotes": [],
+     "confidence": 2,
+     "why": "Pre-Hasidic sage (Ramban) and his circle, copied from an earlier source (עכ״ל)",
+     "quotes_failed": false
+    },
+    {
+     "tag": "not-a-hasidic-story:sermon",
+     "scope": "span",
+     "quotes": [
+      "ע״כ יראה האדם לפחד תמיד בהעלותו על לבו",
+      "ויראה להתפלל בדמע כי תפלה בדמעות היא חשובה"
+     ],
+     "confidence": 3,
+     "why": "Narrative wrapped in an extended homiletic frame on prayer",
+     "quotes_failed": false
+    },
+    {
+     "tag": "practice:prayer",
+     "scope": "span",
+     "quotes": [
+      "ולא הי׳ מתפלל בכונה וכראוי לחסיד",
+      "והתחיל להתפלל כדת וכהלכה"
+     ],
+     "confidence": 3,
+     "why": "Proper prayer is the theme",
+     "quotes_failed": false
+    },
+    {
+     "tag": "practice:study",
+     "scope": "span",
+     "quotes": [
+      "חשקה נפשו בתורה חשק נפלא וממש לא הי׳ שינה בעיניו"
+     ],
+     "confidence": 3,
+     "why": "Obsessive Torah study",
+     "quotes_failed": false
+    },
+    {
+     "tag": "ethics-and-emotions:punishment",
+     "scope": "span",
+     "quotes": [
+      "ואתה לא שמעת בקולי לכן בא לך זה הסיבה"
+     ],
+     "confidence": 3,
+     "why": "Misfortune as punishment for neglecting prayer",
+     "quotes_failed": false
+    },
+    {
+     "tag": "social:disobedience",
+     "scope": "span",
+     "quotes": [
+      "ולא השגיח התלמיד אל דבריו ולא שם אל לבו"
+     ],
+     "confidence": 3,
+     "why": "Disciple ignores master's warning",
+     "quotes_failed": false
+    },
+    {
+     "tag": "ethics-and-emotions:repentance",
+     "scope": "span",
+     "quotes": [
+      "ומשם והלאה ראה התלמיד שהשגחה פרטית הוא בבטול תפלה"
+     ],
+     "confidence": 2,
+     "why": "Disciple changes his ways",
+     "quotes_failed": false
+    },
+    {
+     "tag": "ethics-and-emotions:prohibitions",
+     "scope": "span",
+     "quotes": [
+      "אמנם לא תפשע בה כי התורה תתבע עלבונה"
+     ],
+     "confidence": 1,
+     "why": "Warning not to neglect prayer",
+     "quotes_failed": false
+    },
+    {
+     "tag": "ethics-and-emotions:sadness",
+     "scope": "span",
+     "quotes": [
+      "ונתאבל ע״ז ימים רבים"
+     ],
+     "confidence": 2,
+     "why": "Prolonged mourning over the event",
+     "quotes_failed": false
+    },
+    {
+     "tag": "social:relations_with_non_jews",
+     "scope": "span",
+     "quotes": [
+      "מצא פרש אחד שוכב עם בתו הבתולה באונס"
+     ],
+     "confidence": 2,
+     "why": "Assault by a (presumably gentile) horseman",
+     "quotes_failed": false
+    },
+    {
+     "tag": "women:catalyst_character",
+     "scope": "span",
+     "quotes": [
+      "שוכב עם בתו הבתולה באונס"
+     ],
+     "confidence": 2,
+     "why": "Daughter is the victim through whom punishment comes, not an actor",
+     "quotes_failed": false
+    },
+    {
+     "tag": "characters-and-roles:the_family_of_the_tsaddik",
+     "scope": "span",
+     "quotes": [
+      "שוכב עם בתו הבתולה באונס"
+     ],
+     "confidence": 1,
+     "why": "The disciple's daughter appears, though he is not a tsaddik",
+     "quotes_failed": false
+    },
+    {
+     "tag": "ethics-and-emotions:fear",
+     "scope": "span",
+     "quotes": [
+      "וכל העם ישמעון וייראון"
+     ],
+     "confidence": 1,
+     "why": "Moral frame urges fear",
+     "quotes_failed": false
+    }
+   ],
+   "missing_concepts": [
+    "rape / sexual violence",
+    "Torah study vs. prayer tension",
+    "divine providence (hashgacha pratit)",
+    "tears in prayer (gates of tears)"
+   ],
+   "start_quote_found": true,
+   "end_quote_found": true
+  }
+ ],
+ "check": {
+  "non_vocab_tags": [],
+  "quotes": 14,
+  "quotes_not_found": 0
+ },
+ "id": "Maasim-Tovim_0017",
+ "chars": 1429,
+ "seconds": 19
+}

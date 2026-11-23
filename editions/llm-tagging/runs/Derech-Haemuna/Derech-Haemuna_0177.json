@@ -1,0 +1,144 @@
+{
+ "unit": {
+  "kind": "hasidic_story",
+  "why": "A single anecdote, quoted from another book, about R. Avraham Abele of Drohobych: his attendant hides under his bed at night and sees him perform a pidyon with 160 copper coins.",
+  "boundary_note": "The closing words 'מענין פיקוח נפש' are a section heading that belongs to the next division."
+ },
+ "stories": [
+  {
+   "k": 1,
+   "start_quote": "ובס׳ ב\"א (על ת\"ז בהק') מהה״ק ר׳ אברהם",
+   "end_quote": "שיחזרו המטבעות על השולחן עכ״ל",
+   "hasidic": true,
+   "summary_en": "An attendant of the hidden tzaddik R. Avraham Abele of Drohobych hides under his bed to learn what he does at night with holy names; he sees him perform a pidyon with 160 copper coins, and the rebbe senses him, rebukes him in anger and throws the coins to the floor.",
+   "tags": [
+    {
+     "tag": "characters-and-roles:hidden_righteous",
+     "scope": "span",
+     "quotes": [
+      "שהיה א׳ מהנסתרים מקרי דרדקי",
+      "ובסוף ימיו גילה אותו הה״ק מלובלין"
+     ],
+     "confidence": 3,
+     "why": "He was a hidden tzaddik working as a children's teacher until the Seer of Lublin revealed him.",
+     "quotes_failed": false
+    },
+    {
+     "tag": "practice:pidyon_nefesh",
+     "scope": "span",
+     "quotes": [
+      "ועשה פדיון עם ק״ס מטבעות נחושת"
+     ],
+     "confidence": 3,
+     "why": "The central act witnessed is a pidyon performed with coins.",
+     "quotes_failed": false
+    },
+    {
+     "tag": "ethics-and-emotions:anger",
+     "scope": "span",
+     "quotes": [
+      "וכעס עליו ונטל את הק״ס מטבעות"
+     ],
+     "confidence": 3,
+     "why": "The rebbe is angry at the attendant who spied on him.",
+     "quotes_failed": false
+    },
+    {
+     "tag": "supernatural:perception",
+     "scope": "span",
+     "quotes": [
+      "והרגיש רבו שאדם אחד שוכב תחת המטה"
+     ],
+     "confidence": 2,
+     "why": "The rebbe senses the hidden spy.",
+     "quotes_failed": false
+    },
+    {
+     "tag": "practice:use_of_holy_names",
+     "scope": "span",
+     "quotes": [
+      "היה יודע שרבו עוסק בשמות הקדושים"
+     ],
+     "confidence": 2,
+     "why": "The rebbe's nightly practice with holy names is what motivates the spying.",
+     "quotes_failed": false
+    },
+    {
+     "tag": "knowledge:esoteric",
+     "scope": "span",
+     "quotes": [
+      "והיה רוצה לידע מה רבו עוסק בלילה"
+     ],
+     "confidence": 2,
+     "why": "The attendant tries to uncover the rebbe's hidden nightly practice.",
+     "quotes_failed": false
+    },
+    {
+     "tag": "practice:meditation",
+     "scope": "span",
+     "quotes": [
+      "אחר חצות הלילה ראה שרבו קם מהמטה"
+     ],
+     "confidence": 1,
+     "why": "A midnight vigil of secret worship.",
+     "quotes_failed": false
+    },
+    {
+     "tag": "social:inter_hasidic_master_disciple_relationship",
+     "scope": "span",
+     "quotes": [
+      "וראה שהוא ריש דוכנא שלו"
+     ],
+     "confidence": 2,
+     "why": "The story turns on the attendant's relationship to his master.",
+     "quotes_failed": false
+    },
+    {
+     "tag": "folkloristics:story_type_revelation",
+     "scope": "span",
+     "quotes": [
+      "ובסוף ימיו גילה אותו הה״ק מלובלין"
+     ],
+     "confidence": 1,
+     "why": "His revelation is mentioned only in the frame; the plot is a secret glimpsed by a disciple.",
+     "quotes_failed": false
+    },
+    {
+     "tag": "practice:storytelling",
+     "scope": "span",
+     "quotes": [
+      "ושמעתי מפיו שאמר שהיה עמו"
+     ],
+     "confidence": 1,
+     "why": "Framed as an oral report from the old attendant R. Leib.",
+     "quotes_failed": false
+    },
+    {
+     "tag": "spaces:institutions_hassidic_court",
+     "scope": "span",
+     "quotes": [
+      "ובביתו היה דר זקן א׳"
+     ],
+     "confidence": 1,
+     "why": "Takes place in the rebbe's home with his attendants.",
+     "quotes_failed": false
+    }
+   ],
+   "missing_concepts": [
+    "spying on a tzaddik's secret nightly practice",
+    "the attendant (meshares) as a role",
+    "the symbolic number of coins in a pidyon (160)"
+   ],
+   "start_quote_found": true,
+   "end_quote_found": true
+  }
+ ],
+ "check": {
+  "non_vocab_tags": [],
+  "quotes": 12,
+  "quotes_not_found": 0
+ },
+ "id": "Derech-Haemuna_0177",
+ "chars": 657,
+ "seconds": 19
+}

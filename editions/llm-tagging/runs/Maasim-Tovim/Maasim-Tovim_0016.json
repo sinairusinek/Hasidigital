@@ -1,0 +1,226 @@
+{
+ "unit": {
+  "kind": "non_hasidic_story",
+  "why": "A legend about Nahmanides (Ramban), his apostate son, and the Pope, ending with a moral lesson for women on raising children; not about Hasidic figures.",
+  "boundary_note": ""
+ },
+ "stories": [
+  {
+   "k": 1,
+   "start_quote": "דרשה של הרמב״ן ישראל שהמיר אינו מזרע",
+   "end_quote": "בניו בדרך טובים אז טוב להם לעולם",
+   "hasidic": false,
+   "summary_en": "After Nahmanides preaches that an apostate cannot be of true Jewish seed, his own son converts. The Pope challenges him, and his wife then reveals that a nobleman raped her and fathered the son. The bitten-off finger proves her account before the Pope, vindicating the Ramban. The tale closes with a moral on mothers educating their children.",
+   "tags": [
+    {
+     "tag": "not-a-hasidic-story:hagiography",
+     "scope": "story",
+     "quotes": [],
+     "confidence": 3,
+     "why": "praises pre-Hasidic sage Ramban, vindicating his teaching",
+     "quotes_failed": false
+    },
+    {
+     "tag": "social:converts_and_conversion",
+     "scope": "span",
+     "quotes": [
+      "שהמיר בן אחד מבני הרמב״ן את דתו"
+     ],
+     "confidence": 3,
+     "why": "son's apostasy is the plot trigger",
+     "quotes_failed": false
+    },
+    {
+     "tag": "social:relations_with_non_jews",
+     "scope": "span",
+     "quotes": [
+      "שלח האפיפיור ויקרא להרמב״ן",
+      "ותיכף שלח האפיפיור אחר אותו השר"
+     ],
+     "confidence": 3,
+     "why": "Pope and nobleman",
+     "quotes_failed": false
+    },
+    {
+     "tag": "social:conflict",
+     "scope": "span",
+     "quotes": [
+      "ועתה נכשלת בדבריך אצל זרעך ומה תשיב לי"
+     ],
+     "confidence": 2,
+     "why": "Pope challenges the Ramban",
+     "quotes_failed": false
+    },
+    {
+     "tag": "practice:sermon",
+     "scope": "span",
+     "quotes": [
+      "כתב בספרו דרוש אחד ואמר כל בר ישראל"
+     ],
+     "confidence": 3,
+     "why": "the derashah is central",
+     "quotes_failed": false
+    },
+    {
+     "tag": "ethics-and-emotions:sadness",
+     "scope": "span",
+     "quotes": [
+      "הי' יושב על הארץ ובוכה"
+     ],
+     "confidence": 3,
+     "why": "Ramban's grief",
+     "quotes_failed": false
+    },
+    {
+     "tag": "practice:asceticism",
+     "scope": "span",
+     "quotes": [
+      "והי׳ מסגף עצמו בסגופים גדולים"
+     ],
+     "confidence": 2,
+     "why": "self-mortification in grief",
+     "quotes_failed": false
+    },
+    {
+     "tag": "practice:fasting",
+     "scope": "span",
+     "quotes": [
+      "ולא הי׳ אוכל ושותה כמה ימים"
+     ],
+     "confidence": 2,
+     "why": "abstains from food for days",
+     "quotes_failed": false
+    },
+    {
+     "tag": "ethics-and-emotions:joy",
+     "scope": "span",
+     "quotes": [
+      "ושמח שמחה גדולה ואמר לאשתו שמחתני"
+     ],
+     "confidence": 2,
+     "why": "joy at vindication",
+     "quotes_failed": false
+    },
+    {
+     "tag": "women:major_character",
+     "scope": "span",
+     "quotes": [
+      "עד שבאתה אשתו אליו והיתה מדברת על לבו",
+      "שנשכתי וחתיתי בשיני את אצבעו"
+     ],
+     "confidence": 3,
+     "why": "the wife's revelation and her resistance resolve the plot",
+     "quotes_failed": false
+    },
+    {
+     "tag": "characters-and-roles:the_family_of_the_tsaddik",
+     "scope": "span",
+     "quotes": [
+      "בן אחד מבני הרמב״ן",
+      "עד שבאתה אשתו אליו"
+     ],
+     "confidence": 2,
+     "why": "the sage's wife and son are characters",
+     "quotes_failed": false
+    },
+    {
+     "tag": "social:marital_relationship",
+     "scope": "span",
+     "quotes": [
+      "והיתה מדברת על לבו שלא יצטער"
+     ],
+     "confidence": 2,
+     "why": "wife consoles husband",
+     "quotes_failed": false
+    },
+    {
+     "tag": "ethics-and-emotions:adultery",
+     "scope": "span",
+     "quotes": [
+      "אנס אשת איש איש מבני ישראל"
+     ],
+     "confidence": 2,
+     "why": "forced relations with a married woman; the son's illegitimacy is the point",
+     "quotes_failed": false
+    },
+    {
+     "tag": "ethics-and-emotions:lust",
+     "scope": "span",
+     "quotes": [
+      "ראה שר אחד את חוד יפיה"
+     ],
+     "confidence": 2,
+     "why": "the nobleman's desire",
+     "quotes_failed": false
+    },
+    {
+     "tag": "practice:tvilah",
+     "scope": "span",
+     "quotes": [
+      "היתה הולכת לבית הטבילה שהי׳ רחוק מביתה"
+     ],
+     "confidence": 2,
+     "why": "the wife's immersion is the setting of the assault",
+     "quotes_failed": false
+    },
+    {
+     "tag": "social:retrospective_recognition",
+     "scope": "span",
+     "quotes": [
+      "אז ראה שחסר לו אצבע אחד מידו"
+     ],
+     "confidence": 3,
+     "why": "the son's true parentage is revealed and the teaching is shown true",
+     "quotes_failed": false
+    },
+    {
+     "tag": "ethics-and-emotions:lying",
+     "scope": "span",
+     "quotes": [
+      "ולא רצה השר להסיר"
+     ],
+     "confidence": 1,
+     "why": "the nobleman conceals the evidence",
+     "quotes_failed": false
+    },
+    {
+     "tag": "not-a-hasidic-story:virtues",
+     "scope": "span",
+     "quotes": [
+      "ע״כ נלמוד מהמעשה הזה שהכל תלוי בהאשה",
+      "צריכה האשה להדריך את בניה בדרך טובים"
+     ],
+     "confidence": 3,
+     "why": "explicit moral lesson on educating children",
+     "quotes_failed": false
+    },
+    {
+     "tag": "women:mention_only",
+     "scope": "span",
+     "quotes": [
+      "מבת שבע אשת דוד המלך"
+     ],
+     "confidence": 1,
+     "why": "Bathsheba cited as an exemplum",
+     "quotes_failed": false
+    }
+   ],
+   "missing_concepts": [
+    "rape",
+    "illegitimacy / paternity of an apostate",
+    "child education and discipline",
+    "Jewish-Christian disputation before the Pope"
+   ],
+   "start_quote_found": true,
+   "end_quote_found": true
+  }
+ ],
+ "check": {
+  "non_vocab_tags": [],
+  "quotes": 22,
+  "quotes_not_found": 0
+ },
+ "id": "Maasim-Tovim_0016",
+ "chars": 1922,
+ "seconds": 18
+}

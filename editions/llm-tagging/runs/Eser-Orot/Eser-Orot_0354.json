@@ -1,0 +1,150 @@
+{
+ "unit": {
+  "kind": "hasidic_story",
+  "why": "A deathbed narrative of a tzaddik on Hoshana Rabba 5664: he dons white garments, blesses his only son and successor, recites Nishmat and dies in devekut.",
+  "boundary_note": "Division ends with a section heading for the omissions to ספר עשר קדושות (paratext), which belongs with the next division."
+ },
+ "stories": [
+  {
+   "k": 1,
+   "start_quote": "בך יברך ישראל מסדר פטירתו נפלאות",
+   "end_quote": "ויצאה נשמתו בקדושה זי\"ע ועכי\"א",
+   "hasidic": true,
+   "summary_en": "On the night of Hoshana Rabba 5664 the tzaddik dressed in new white garments and blessed his only son and successor, telling him to come with all Jews to the Land of Israel. He then began reciting Nishmat and died in a state of devekut.",
+   "tags": [
+    {
+     "tag": "folkloristics:story_type_death_of_the_tsaddik",
+     "scope": "story",
+     "quotes": [],
+     "confidence": 3,
+     "why": "The whole text narrates the tzaddik's passing.",
+     "quotes_failed": false
+    },
+    {
+     "tag": "times:death",
+     "scope": "span",
+     "quotes": [
+      "ודבק בא\"ס ב\"ה ויצאה נשמתו בקדושה"
+     ],
+     "confidence": 3,
+     "why": "His death is narrated.",
+     "quotes_failed": false
+    },
+    {
+     "tag": "times:holidays",
+     "scope": "span",
+     "quotes": [
+      "בליל הושענא רבה שנת תרס״ד"
+     ],
+     "confidence": 3,
+     "why": "It takes place on Hoshana Rabba.",
+     "quotes_failed": false
+    },
+    {
+     "tag": "practice:clothing",
+     "scope": "span",
+     "quotes": [
+      "לבש מלבושים חדשים לבנים וקידש עצמו כשרפים"
+     ],
+     "confidence": 3,
+     "why": "He puts on white garments as a preparation for death.",
+     "quotes_failed": false
+    },
+    {
+     "tag": "characters-and-roles:the_family_of_the_tsaddik",
+     "scope": "span",
+     "quotes": [
+      "ברך את בנו יחידו היושב על כסאו"
+     ],
+     "confidence": 3,
+     "why": "His son appears in the scene.",
+     "quotes_failed": false
+    },
+    {
+     "tag": "social:inter_hasidic_inheritance_of_leadership",
+     "scope": "span",
+     "quotes": [
+      "ברך את בנו יחידו היושב על כסאו"
+     ],
+     "confidence": 2,
+     "why": "He blesses his son, who now sits on his seat of leadership.",
+     "quotes_failed": false
+    },
+    {
+     "tag": "practice:prayer",
+     "scope": "span",
+     "quotes": [
+      "נשמת כל חי תברך את שמך ה׳ אלקינו"
+     ],
+     "confidence": 3,
+     "why": "He recites the Nishmat prayer as he dies.",
+     "quotes_failed": false
+    },
+    {
+     "tag": "practice:devekut",
+     "scope": "span",
+     "quotes": [
+      "ודבק בא\"ס ב\"ה ויצאה נשמתו"
+     ],
+     "confidence": 3,
+     "why": "He dies cleaving to the Infinite.",
+     "quotes_failed": false
+    },
+    {
+     "tag": "experience:devekut",
+     "scope": "span",
+     "quotes": [
+      "ודבק בא\"ס ב\"ה ויצאה נשמתו"
+     ],
+     "confidence": 3,
+     "why": "He experiences mystical cleaving at death.",
+     "quotes_failed": false
+    },
+    {
+     "tag": "spaces:the_land_of_israel",
+     "scope": "span",
+     "quotes": [
+      "דיא זאלסט קימען מיט אלע יודין קיין ארץ ישראל"
+     ],
+     "confidence": 2,
+     "why": "His last charge names the Land of Israel as a destination.",
+     "quotes_failed": false
+    },
+    {
+     "tag": "characters-and-roles:messiah",
+     "scope": "span",
+     "quotes": [
+      "דיא זאלסט קימען מיט אלע יודין קיין ארץ ישראל"
+     ],
+     "confidence": 1,
+     "why": "The charge to come with all Jews to the Land of Israel implies a messianic ingathering.",
+     "quotes_failed": false
+    },
+    {
+     "tag": "times:eschatology",
+     "scope": "span",
+     "quotes": [
+      "מיט אלע יודין קיין ארץ ישראל"
+     ],
+     "confidence": 1,
+     "why": "The ingathering of all Jews is an implied end-of-days theme.",
+     "quotes_failed": false
+    }
+   ],
+   "missing_concepts": [
+    "last words / deathbed blessing",
+    "dying with a prayer or psalm on one's lips (Nishmat, ברכי נפשי)"
+   ],
+   "start_quote_found": true,
+   "end_quote_found": true
+  }
+ ],
+ "check": {
+  "non_vocab_tags": [],
+  "quotes": 11,
+  "quotes_not_found": 0
+ },
+ "id": "Eser-Orot_0354",
+ "chars": 593,
+ "seconds": 18
+}

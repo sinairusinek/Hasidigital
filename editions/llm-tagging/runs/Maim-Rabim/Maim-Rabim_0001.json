@@ -1,0 +1,155 @@
+{
+ "unit": {
+  "kind": "hasidic_story",
+  "why": "A single narrative about R. Yitzhak of Drohobych, who cannot sleep because he stayed silent when others mocked the Besht, travels to Medzhybizh, and is greeted and forgiven by the Besht; it ends with a moral about lashon hara and a source citation.",
+  "boundary_note": ""
+ },
+ "stories": [
+  {
+   "k": 1,
+   "start_quote": "הרב הקדוש רבינו יצחק מדראהביטש זצוקלה״ה",
+   "end_quote": "תשמרו בנפשכם וחיו לאורך ימים",
+   "hasidic": true,
+   "summary_en": "R. Yitzhak of Drohobych, who could always fall asleep at once unless he had sinned, finds he had stayed silent while others mocked the Besht; he travels to Medzhybizh to ask forgiveness, and the Besht, who never knew him, calls him by name to the Torah and forgives him wholeheartedly.",
+   "tags": [
+    {
+     "tag": "ethics-and-emotions:repentance",
+     "scope": "span",
+     "quotes": [
+      "ואינם רוצין לקבלו עד שיעשה תשובה",
+      "לק\"ק מעזביז לבקש ממנו מטו"
+     ],
+     "confidence": 3,
+     "why": "He searches out his sin and seeks atonement and forgiveness",
+     "quotes_failed": false
+    },
+    {
+     "tag": "ethics-and-emotions:prohibitions",
+     "scope": "span",
+     "quotes": [
+      "ראה כמה הגיע תנועה של לשון הרע"
+     ],
+     "confidence": 2,
+     "why": "The prohibition of lashon hara, and of failing to protest, is the point",
+     "quotes_failed": false
+    },
+    {
+     "tag": "ethics-and-emotions:punishment",
+     "scope": "span",
+     "quotes": [
+      "ואם אירע שלא יכול לישן"
+     ],
+     "confidence": 1,
+     "why": "Sleeplessness serves as a heavenly sign of sin",
+     "quotes_failed": false
+    },
+    {
+     "tag": "supernatural:perception",
+     "scope": "span",
+     "quotes": [
+      "קרא אותו מרן מורה מורינו ר׳ יצחק בן יוסף",
+      "התלוצץ על הבעש״ט נוסע דרך כזה"
+     ],
+     "confidence": 3,
+     "why": "The Besht knows the stranger's name and his errand",
+     "quotes_failed": false
+    },
+    {
+     "tag": "practice:travel_to_the_tsaddik",
+     "scope": "span",
+     "quotes": [
+      "ונסע תיכף לק\"ק מעזביז"
+     ],
+     "confidence": 3,
+     "why": "He journeys to the Besht",
+     "quotes_failed": false
+    },
+    {
+     "tag": "spaces:beth_midrash",
+     "scope": "span",
+     "quotes": [
+      "לבית מדרשו של מרן להתפלל"
+     ],
+     "confidence": 3,
+     "why": "The key scene takes place in the Besht's study house",
+     "quotes_failed": false
+    },
+    {
+     "tag": "practice:prayer",
+     "scope": "span",
+     "quotes": [
+      "ועמד שם בזוית להתפלל",
+      "שתיכף שאמר בידך אפקיד ישן לו"
+     ],
+     "confidence": 2,
+     "why": "Bedtime prayer and synagogue prayer are depicted",
+     "quotes_failed": false
+    },
+    {
+     "tag": "social:relations_with_non_hasidim",
+     "scope": "span",
+     "quotes": [
+      "במסיבת לצים שעשו לצנות ממרן אלהי הבעש״ט"
+     ],
+     "confidence": 2,
+     "why": "Mockers of the Besht; R. Yitzhak was then a non-Hasidic figure",
+     "quotes_failed": false
+    },
+    {
+     "tag": "folkloristics:story_type_rapprochement",
+     "scope": "story",
+     "quotes": [],
+     "confidence": 2,
+     "why": "An outsider who never knew the Besht comes to him and is reconciled",
+     "quotes_failed": false
+    },
+    {
+     "tag": "folkloristics:story_type_virtues",
+     "scope": "span",
+     "quotes": [
+      "ובעש״ט מוחל בלב שלם"
+     ],
+     "confidence": 2,
+     "why": "Shows the Besht's forgiveness",
+     "quotes_failed": false
+    },
+    {
+     "tag": "social:retrospective_recognition",
+     "scope": "span",
+     "quotes": [
+      "עד שבדק וחקר שהי׳ עומד במסיבת לצים"
+     ],
+     "confidence": 1,
+     "why": "He belatedly realizes what his sin was",
+     "quotes_failed": false
+    },
+    {
+     "tag": "not-a-hasidic-story:virtues",
+     "scope": "span",
+     "quotes": [
+      "ואתם אחיי תשמרו בנפשכם וחיו לאורך ימים"
+     ],
+     "confidence": 2,
+     "why": "Framed as moral instruction against lashon hara",
+     "quotes_failed": false
+    }
+   ],
+   "missing_concepts": [
+    "lashon hara / slander",
+    "seeking forgiveness (mechilah) from a person wronged",
+    "sin of silence: failing to protest mockery",
+    "sleeplessness as a sign of sin"
+   ],
+   "start_quote_found": true,
+   "end_quote_found": true
+  }
+ ],
+ "check": {
+  "non_vocab_tags": [],
+  "quotes": 14,
+  "quotes_not_found": 0
+ },
+ "id": "Maim-Rabim_0001",
+ "chars": 725,
+ "seconds": 16
+}

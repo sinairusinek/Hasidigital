@@ -1,0 +1,185 @@
+{
+ "unit": {
+  "kind": "hasidic_story",
+  "why": "A single anecdote about R. Motele of Chernobyl at a village house, where he thwarts a preacher's attempted seduction and then rebukes him with a mock teaching.",
+  "boundary_note": ""
+ },
+ "stories": [
+  {
+   "k": 1,
+   "start_quote": "שמעתי מהרה״ק ר׳ מאטיל מטשירנאביל זצ״ל שבא",
+   "end_quote": "שאין לו עם מה לתקן :",
+   "hasidic": true,
+   "summary_en": "R. Motele of Chernobyl, lodging in a village, overhears a visiting preacher seducing the hostess with the promise that studying a chapter of Mishnah would atone for the sin. He lights a fire and a candle to break up the meeting, and the next day, when the preacher scorns him and demands Torah, he answers with a cutting homily on Manoah.",
+   "tags": [
+    {
+     "tag": "characters-and-roles:preacher",
+     "scope": "span",
+     "quotes": [
+      "והיה יושב בכפר בעל דארשער אחד בראש המסובין"
+     ],
+     "confidence": 3,
+     "why": "the antagonist is a preacher (ba'al darshan)",
+     "quotes_failed": false
+    },
+    {
+     "tag": "ethics-and-emotions:adultery",
+     "scope": "span",
+     "quotes": [
+      "ופיתה אותה שתזנה עמו"
+     ],
+     "confidence": 3,
+     "why": "attempted adultery with the hostess",
+     "quotes_failed": false
+    },
+    {
+     "tag": "ethics-and-emotions:lust",
+     "scope": "span",
+     "quotes": [
+      "ופיתה אותה שתזנה עמו"
+     ],
+     "confidence": 2,
+     "why": "the preacher's desire drives the plot",
+     "quotes_failed": false
+    },
+    {
+     "tag": "ethics-and-emotions:anger",
+     "scope": "span",
+     "quotes": [
+      "חרה מאוד להבעל דרשער על הרב הנ״ל"
+     ],
+     "confidence": 3,
+     "why": "the preacher is angry at the rebbe",
+     "quotes_failed": false
+    },
+    {
+     "tag": "ethics-and-emotions:prohibitions",
+     "scope": "span",
+     "quotes": [
+      "ואינו אסור לילך רק אחר אשה אחרת",
+      "איך אנו יכולין לעבור עבירה כזאת"
+     ],
+     "confidence": 2,
+     "why": "the prohibition of adultery is at issue",
+     "quotes_failed": false
+    },
+    {
+     "tag": "ethics-and-emotions:lying",
+     "scope": "span",
+     "quotes": [
+      "שהוא ילמוד פרק משניות אחד ויכפר העון"
+     ],
+     "confidence": 2,
+     "why": "the preacher offers a false promise of atonement to seduce her",
+     "quotes_failed": false
+    },
+    {
+     "tag": "ethics-and-emotions:shame",
+     "scope": "span",
+     "quotes": [
+      "זילזל מאוד הבעל דארשער להרה״ק הנ״ל"
+     ],
+     "confidence": 2,
+     "why": "the preacher belittles the rebbe, and the rebbe's answer exposes him",
+     "quotes_failed": false
+    },
+    {
+     "tag": "practice:sermon",
+     "scope": "span",
+     "quotes": [
+      "ואמר בעל דארשער תורה",
+      "כעת אני אומר תורה ואמר מ״ז שכ׳ אצל מנוח"
+     ],
+     "confidence": 3,
+     "why": "both men deliver Torah words, and the rebbe's homily is the punchline",
+     "quotes_failed": false
+    },
+    {
+     "tag": "practice:the_travels_of_the_tsaddik",
+     "scope": "span",
+     "quotes": [
+      "שבא לכפר אחד"
+     ],
+     "confidence": 3,
+     "why": "the story happens at a village where the rebbe is staying",
+     "quotes_failed": false
+    },
+    {
+     "tag": "social:conflict",
+     "scope": "span",
+     "quotes": [
+      "על מה שביטל אותו מהמקח הרע הנ״ל"
+     ],
+     "confidence": 3,
+     "why": "conflict between the tsaddik and the preacher",
+     "quotes_failed": false
+    },
+    {
+     "tag": "social:relations_with_sinners",
+     "scope": "span",
+     "quotes": [
+      "שמי שהוא למדן גדול מפושעי ישראל"
+     ],
+     "confidence": 2,
+     "why": "the rebbe confronts and rebukes a sinner",
+     "quotes_failed": false
+    },
+    {
+     "tag": "practice:protection",
+     "scope": "span",
+     "quotes": [
+      "מיד התחיל לעשות אש והדליק נר עד שנתבטל המקח"
+     ],
+     "confidence": 2,
+     "why": "the rebbe prevents the sin",
+     "quotes_failed": false
+    },
+    {
+     "tag": "practice:joke",
+     "scope": "span",
+     "quotes": [
+      "ושחק הרה״ק",
+      "וא׳ כעת ניחא שמי שהוא למדן גדול"
+     ],
+     "confidence": 2,
+     "why": "the rebbe answers with a mocking, ironic teaching",
+     "quotes_failed": false
+    },
+    {
+     "tag": "women:minor_character",
+     "scope": "span",
+     "quotes": [
+      "והאשה אמרה איך אנו יכולין לעבור עבירה כזאת"
+     ],
+     "confidence": 3,
+     "why": "the hostess speaks and acts in a small role",
+     "quotes_failed": false
+    },
+    {
+     "tag": "practice:study",
+     "scope": "span",
+     "quotes": [
+      "שהוא ילמוד פרק משניות אחד ויכפר העון"
+     ],
+     "confidence": 1,
+     "why": "Mishnah study as a false means of atonement",
+     "quotes_failed": false
+    }
+   ],
+   "missing_concepts": [
+    "hypocrisy of the learned / misuse of Torah study as license to sin",
+    "atonement through study"
+   ],
+   "start_quote_found": true,
+   "end_quote_found": true
+  }
+ ],
+ "check": {
+  "non_vocab_tags": [],
+  "quotes": 18,
+  "quotes_not_found": 0
+ },
+ "id": "Likutim-Hadashim_0032",
+ "chars": 924,
+ "seconds": 17
+}

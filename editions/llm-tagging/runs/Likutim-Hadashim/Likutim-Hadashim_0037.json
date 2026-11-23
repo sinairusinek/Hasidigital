@@ -1,0 +1,112 @@
+{
+ "unit": {
+  "kind": "hasidic_story",
+  "why": "A short anecdote about two tzaddikim travelling: one of them learns fear of Heaven from a villager who holds back his anger at his old father.",
+  "boundary_note": ""
+ },
+ "stories": [
+  {
+   "k": 1,
+   "start_quote": "שמעתי איך שהיו נוסעים שני צדיקים בדרך",
+   "end_quote": "מ״מ מנע א״ע מחמת יראת שמים",
+   "hasidic": true,
+   "summary_en": "Two tzaddikim stop at a village while travelling; one goes into a house to smoke his pipe and says he learned fear of Heaven there, having seen a villager who, enraged at his old father for holding a calf's head badly, refrained from striking him only out of fear of God.",
+   "tags": [
+    {
+     "tag": "practice:the_travels_of_the_tsaddik",
+     "scope": "span",
+     "quotes": [
+      "היו נוסעים שני צדיקים בדרך ובאו לכפר אחד"
+     ],
+     "confidence": 3,
+     "why": "the tzaddikim travel and the lesson comes during a stop on the way",
+     "quotes_failed": false
+    },
+    {
+     "tag": "practice:smoking",
+     "scope": "span",
+     "quotes": [
+      "הלך אחד מהם לבית לעשן הלולקע"
+     ],
+     "confidence": 3,
+     "why": "the tzaddik goes into the house to smoke his pipe, which sets up the scene",
+     "quotes_failed": false
+    },
+    {
+     "tag": "ethics-and-emotions:awe",
+     "scope": "span",
+     "quotes": [
+      "שלמדתי יראת שמים בתוך זה הזמן",
+      "מ״מ מנע א״ע מחמת יראת שמים"
+     ],
+     "confidence": 3,
+     "why": "fear of Heaven is the lesson of the story",
+     "quotes_failed": false
+    },
+    {
+     "tag": "ethics-and-emotions:anger",
+     "scope": "span",
+     "quotes": [
+      "ונתכעס מאוד על אביו ואמר לו בכעס גדול"
+     ],
+     "confidence": 3,
+     "why": "the villager's rage at his father",
+     "quotes_failed": false
+    },
+    {
+     "tag": "ethics-and-emotions:resisting_temptation",
+     "scope": "span",
+     "quotes": [
+      "אלמלא שאני ירא מד׳ בקעתי את מוחך בקרדום"
+     ],
+     "confidence": 2,
+     "why": "he holds back a violent urge out of fear of God",
+     "quotes_failed": false
+    },
+    {
+     "tag": "ethics-and-emotions:virtues",
+     "scope": "story",
+     "quotes": [],
+     "confidence": 2,
+     "why": "the tale shows the virtue of fear of Heaven, learned even from a simple villager",
+     "quotes_failed": false
+    },
+    {
+     "tag": "social:inter_hasidic",
+     "scope": "span",
+     "quotes": [
+      "שאל לו חבירו למה שהה כל כך"
+     ],
+     "confidence": 2,
+     "why": "an exchange between two tzaddikim who are companions, not master and disciple",
+     "quotes_failed": false
+    },
+    {
+     "tag": "characters-and-roles:the_family_of_the_tsaddik",
+     "scope": "span",
+     "quotes": [
+      "ויש לו אב זקן"
+     ],
+     "confidence": 1,
+     "why": "father–son relationship, though it is the villager's family, not the tzaddik's; borderline",
+     "quotes_failed": false
+    }
+   ],
+   "missing_concepts": [
+    "learning a religious lesson from a simple or uneducated person",
+    "honouring one's parents (kibbud av)",
+    "village Jews (yishuvnikim)"
+   ],
+   "start_quote_found": true,
+   "end_quote_found": true
+  }
+ ],
+ "check": {
+  "non_vocab_tags": [],
+  "quotes": 8,
+  "quotes_not_found": 0
+ },
+ "id": "Likutim-Hadashim_0037",
+ "chars": 515,
+ "seconds": 12
+}

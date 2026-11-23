@@ -1,0 +1,113 @@
+{
+ "unit": {
+  "kind": "hasidic_story",
+  "why": "A single anecdote: while the tzaddik R. David Moshe (rd\"m) recites 'Anenu' in public, his only son faints from the crowd and the heat, and he keeps praying without interruption.",
+  "boundary_note": ""
+ },
+ "stories": [
+  {
+   "k": 1,
+   "start_quote": "כתב הרב הגדול מוהר\"י הלוי וועבער",
+   "end_quote": "והוא אמר „עננו\" בלי הפסק",
+   "hasidic": true,
+   "summary_en": "During the communal recitation of 'Anenu', the crowd presses around R. David Moshe so it can hear his whispered words, and his son R. Israel faints from the crush and the heat; told of it, the tzaddik does not lift his eyes from the selichah, motions for the son to be taken away, and goes on without pause.",
+   "tags": [
+    {
+     "tag": "practice:prayer",
+     "scope": "span",
+     "quotes": [
+      "בעת שאמר הרה״ק רד״מ „עננו\" בצבור",
+      "לא הסיב עיניו מהסליחה אף על רגע אחת"
+     ],
+     "confidence": 3,
+     "why": "Communal recitation of selichot / Anenu is the setting.",
+     "quotes_failed": false
+    },
+    {
+     "tag": "practice:devekut",
+     "scope": "span",
+     "quotes": [
+      "והוא זללה\"ה לא שמע ואמר „עננו\"",
+      "והוא אמר „עננו\" בלי הפסק"
+     ],
+     "confidence": 3,
+     "why": "He is so absorbed in prayer that he does not hear the commotion.",
+     "quotes_failed": false
+    },
+    {
+     "tag": "experience:devekut",
+     "scope": "span",
+     "quotes": [
+      "והוא זללה\"ה לא שמע ואמר „עננו\""
+     ],
+     "confidence": 2,
+     "why": "His rapt state cuts him off from his surroundings.",
+     "quotes_failed": false
+    },
+    {
+     "tag": "characters-and-roles:the_family_of_the_tsaddik",
+     "scope": "span",
+     "quotes": [
+      "ומחמת הדוחק והחום נתעלף בנו הרה״ק",
+      "שבן יחידו נתעלף"
+     ],
+     "confidence": 3,
+     "why": "The tzaddik's only son is a character.",
+     "quotes_failed": false
+    },
+    {
+     "tag": "folkloristics:story_type_virtues",
+     "scope": "story",
+     "quotes": [],
+     "confidence": 3,
+     "why": "The point of the anecdote is to illustrate the tzaddik's unbroken concentration in prayer.",
+     "quotes_failed": false
+    },
+    {
+     "tag": "supernatural:light_or_fire_as_a_sign_of_righteousness",
+     "scope": "span",
+     "quotes": [
+      "שהיו חוצבים להבות אש"
+     ],
+     "confidence": 1,
+     "why": "Only a metaphor for his fiery words, so borderline.",
+     "quotes_failed": false
+    },
+    {
+     "tag": "times:holidays",
+     "scope": "span",
+     "quotes": [
+      "או בי\"ג מדות או בליל יוה״ק"
+     ],
+     "confidence": 1,
+     "why": "The occasion may have been Yom Kippur night; the narrator is unsure.",
+     "quotes_failed": false
+    },
+    {
+     "tag": "ethics-and-emotions:awe",
+     "scope": "span",
+     "quotes": [
+      "וכל הצבור רצו לשמוע דבריו הקדושים"
+     ],
+     "confidence": 1,
+     "why": "The community crowds around him in reverence.",
+     "quotes_failed": false
+    }
+   ],
+   "missing_concepts": [
+    "uninterrupted prayer (lo lehafsik) placed above concern for a family member",
+    "chain of oral transmission (son heard it from his father)"
+   ],
+   "start_quote_found": true,
+   "end_quote_found": true
+  }
+ ],
+ "check": {
+  "non_vocab_tags": [],
+  "quotes": 10,
+  "quotes_not_found": 0
+ },
+ "id": "Eser-Orot_0345",
+ "chars": 691,
+ "seconds": 13
+}

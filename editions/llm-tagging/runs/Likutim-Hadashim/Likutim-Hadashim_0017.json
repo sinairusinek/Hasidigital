@@ -1,0 +1,125 @@
+{
+ "unit": {
+  "kind": "hasidic_story",
+  "why": "A single anecdote about the Seer of Lublin at his table, rebuking invisible souls who crowd him, and explaining that they came from a heavenly hall to watch how he eats.",
+  "boundary_note": ""
+ },
+ "stories": [
+  {
+   "k": 1,
+   "start_quote": "שמעתי פעם אחת היה הרבי זצ\"ל מלובלין",
+   "end_quote": "אמרתי להם שאל ידחקו אצלי",
+   "hasidic": true,
+   "summary_en": "The Seer of Lublin, sitting at his table with few people, rebukes those 'crowding' him and explains that righteous souls came from a heavenly hall to watch his eating, after his simple father was brought up to them through his son's merit.",
+   "tags": [
+    {
+     "tag": "supernatural:communicating_with_the_invisible",
+     "scope": "span",
+     "quotes": [
+      "וגער הרבי זצ״ל למה תדחקו אצלי",
+      "ובאו אצלי לראותי איך אני מתנהג באכילה"
+     ],
+     "confidence": 3,
+     "why": "He addresses invisible souls of tzaddikim",
+     "quotes_failed": false
+    },
+    {
+     "tag": "supernatural:perception",
+     "scope": "span",
+     "quotes": [
+      "ולא הבינו את דברי מחמת שהיו מעט אנשים"
+     ],
+     "confidence": 3,
+     "why": "He perceives beings others cannot see",
+     "quotes_failed": false
+    },
+    {
+     "tag": "spaces:heaven",
+     "scope": "span",
+     "quotes": [
+      "יש לו אב בגן עדן והעלו אותו להיכל גדול",
+      "שהיו שם צדיקים ושאלו אותו מהיכן זכית"
+     ],
+     "confidence": 3,
+     "why": "Scene in the heavenly hall of tzaddikim",
+     "quotes_failed": false
+    },
+    {
+     "tag": "characters-and-roles:the_family_of_the_tsaddik",
+     "scope": "span",
+     "quotes": [
+      "אני איש פשוט אבל יש לי בן צדיק"
+     ],
+     "confidence": 3,
+     "why": "The tzaddik's father appears",
+     "quotes_failed": false
+    },
+    {
+     "tag": "practice:torat_ha_tsaddik",
+     "scope": "span",
+     "quotes": [
+      "יש לי בן צדיק שהוא אוכל היטב והוא העלה אותי"
+     ],
+     "confidence": 2,
+     "why": "The tzaddik's holy eating raises his father's soul",
+     "quotes_failed": false
+    },
+    {
+     "tag": "practice:healing_of_the_soul",
+     "scope": "span",
+     "quotes": [
+      "והוא העלה אותי אצליכם"
+     ],
+     "confidence": 1,
+     "why": "Son elevates his deceased father's soul",
+     "quotes_failed": false
+    },
+    {
+     "tag": "ethics-and-emotions:anger",
+     "scope": "span",
+     "quotes": [
+      "וגער הרבי זצ״ל למה תדחקו אצלי"
+     ],
+     "confidence": 1,
+     "why": "He rebukes the crowding",
+     "quotes_failed": false
+    },
+    {
+     "tag": "social:retrospective_recognition",
+     "scope": "span",
+     "quotes": [
+      "ושאלו אותו למי הוא מדבר את הדברים האלה"
+     ],
+     "confidence": 2,
+     "why": "Onlookers learn the hidden meaning of his rebuke",
+     "quotes_failed": false
+    },
+    {
+     "tag": "spaces:institutions_hassidic_court",
+     "scope": "span",
+     "quotes": [
+      "יושב אצל השלחן והיו אצלו מעט אנשים"
+     ],
+     "confidence": 1,
+     "why": "Setting at the rebbe's table",
+     "quotes_failed": false
+    }
+   ],
+   "missing_concepts": [
+    "the tzaddik's table / holy eating (achilah) as a spiritual practice",
+    "merit of a son elevating a deceased parent's soul (bra mezakeh aba)",
+    "souls of the dead visiting the living"
+   ],
+   "start_quote_found": true,
+   "end_quote_found": true
+  }
+ ],
+ "check": {
+  "non_vocab_tags": [],
+  "quotes": 11,
+  "quotes_not_found": 0
+ },
+ "id": "Likutim-Hadashim_0017",
+ "chars": 461,
+ "seconds": 13
+}

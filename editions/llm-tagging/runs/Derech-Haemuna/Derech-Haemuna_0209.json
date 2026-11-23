@@ -1,0 +1,146 @@
+{
+ "unit": {
+  "kind": "hasidic_story",
+  "why": "A teaching against excessive fasting, quoted from a book, contains a short anecdote about R. Gershon of Kutov rebuking at the cemetery a man who died from imitating his fasts.",
+  "boundary_note": "part of a chain of quotations on fasting; the previous and next divisions quote other books on the same subject"
+ },
+ "stories": [
+  {
+   "k": 1,
+   "start_quote": "והה״צ הג׳ ר׳ גרשון מקוטעב ז״ל היה",
+   "end_quote": "ריבוי התעניתים שאינם לפי כחך",
+   "hasidic": true,
+   "summary_en": "A man imitated R. Gershon of Kutov's week-long fasts until he died, and at the cemetery R. Gershon kicked the corpse and publicly rebuked him for killing himself with fasts beyond his strength; the anecdote is framed by a teaching that prayer, study and joy purify more than fasting.",
+   "tags": [
+    {
+     "tag": "practice:fasting",
+     "scope": "span",
+     "quotes": [
+      "היה מתענה כ״פ משבת לשבת",
+      "והתענה ג״כ בכך עד שמת"
+     ],
+     "confidence": 3,
+     "why": "the plot turns on week-long fasts",
+     "quotes_failed": false
+    },
+    {
+     "tag": "practice:asceticism",
+     "scope": "span",
+     "quotes": [
+      "שאין להרבות בתעניתים כ״א מי שגופו חזק",
+      "ריבוי התעניתים שאינם לפי כחך"
+     ],
+     "confidence": 3,
+     "why": "the text debates whether excessive self-mortification is proper",
+     "quotes_failed": false
+    },
+    {
+     "tag": "times:death",
+     "scope": "span",
+     "quotes": [
+      "והתענה ג״כ בכך עד שמת"
+     ],
+     "confidence": 3,
+     "why": "the imitator dies",
+     "quotes_failed": false
+    },
+    {
+     "tag": "ethics-and-emotions:anger",
+     "scope": "span",
+     "quotes": [
+      "הרים הרר״ג את רגלו ובעט בהמת"
+     ],
+     "confidence": 2,
+     "why": "a heated rebuke in which he kicks the corpse",
+     "quotes_failed": false
+    },
+    {
+     "tag": "ethics-and-emotions:shame",
+     "scope": "span",
+     "quotes": [
+      "ואמר לו בפני כולם רשע רשע"
+     ],
+     "confidence": 2,
+     "why": "the dead man is shamed in public",
+     "quotes_failed": false
+    },
+    {
+     "tag": "ethics-and-emotions:prohibitions",
+     "scope": "span",
+     "quotes": [
+      "מפני מה הרגת א״ע",
+      "שאין להרבות בתעניתים"
+     ],
+     "confidence": 2,
+     "why": "harming oneself through fasting is treated as forbidden",
+     "quotes_failed": false
+    },
+    {
+     "tag": "not-a-hasidic-story:sermon",
+     "scope": "story",
+     "quotes": [],
+     "confidence": 3,
+     "why": "the anecdote sits inside an extended ethical teaching on fasting, quoted from a book",
+     "quotes_failed": false
+    },
+    {
+     "tag": "ethics-and-emotions:joy",
+     "scope": "span",
+     "quotes": [
+      "ויראה להעיר לבו בשמחה ואהבת ה׳",
+      "איך ששיבח מאד את השמחה"
+     ],
+     "confidence": 2,
+     "why": "the teaching recommends joy in serving God instead of fasting",
+     "quotes_failed": false
+    },
+    {
+     "tag": "ethics-and-emotions:repentance",
+     "scope": "span",
+     "quotes": [
+      "יזכה עי״ז לתשובה מאהבה"
+     ],
+     "confidence": 2,
+     "why": "repentance out of love is discussed in the teaching",
+     "quotes_failed": false
+    },
+    {
+     "tag": "ethics-and-emotions:humility",
+     "scope": "span",
+     "quotes": [
+      "שיהיה ע״ד הצנע לכת",
+      "הכנה להכנעת הלב"
+     ],
+     "confidence": 1,
+     "why": "the teaching mentions modesty and a contrite heart",
+     "quotes_failed": false
+    },
+    {
+     "tag": "social:inter_hasidic",
+     "scope": "span",
+     "quotes": [
+      "וראה אחד ולמד ממנו"
+     ],
+     "confidence": 1,
+     "why": "a man copies the tsaddik's practice",
+     "quotes_failed": false
+    }
+   ],
+   "missing_concepts": [
+    "imitation of a tsaddik's practices by an unfit person",
+    "the dangers of excessive piety and self-harm",
+    "funeral and burial (accompanying the dead)"
+   ],
+   "start_quote_found": true,
+   "end_quote_found": true
+  }
+ ],
+ "check": {
+  "non_vocab_tags": [],
+  "quotes": 15,
+  "quotes_not_found": 0
+ },
+ "id": "Derech-Haemuna_0209",
+ "chars": 895,
+ "seconds": 17
+}

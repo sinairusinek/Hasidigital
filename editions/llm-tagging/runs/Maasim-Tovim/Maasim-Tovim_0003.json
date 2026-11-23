@@ -1,0 +1,174 @@
+{
+ "unit": {
+  "kind": "non_hasidic_story",
+  "why": "A single narrative about an elderly Russian sage who, while collecting alms, meets his former student, now an armed robber, and kills him through a halakhic ruse; no Hasidic figures appear.",
+  "boundary_note": ""
+ },
+ "stories": [
+  {
+   "k": 1,
+   "start_quote": "ג) מעשה נפלא מה שאירע תלמיד",
+   "end_quote": "כזה כן זה לא נופל דבר",
+   "hasidic": false,
+   "summary_en": "An old sage, fallen into poverty and collecting alms, is stopped in a forest by his former student, now a murderous highwayman. Using the principle 'one does not forsake the permitted for the forbidden' and 'if one comes to kill you, kill him first', he talks the robber into letting himself be struck once. After a prayer the sage stuns him and kills him with his own gun.",
+   "tags": [
+    {
+     "tag": "practice:halakhah",
+     "scope": "span",
+     "quotes": [
+      "לא שביק אינש היתירא ואכל איסורא",
+      "ההיתר ידוע ונגלה הבא להרגך השכם להרגו"
+     ],
+     "confidence": 3,
+     "why": "The plot turns on halakhic principles invoked as a ruse",
+     "quotes_failed": false
+    },
+    {
+     "tag": "social:relations_with_sinners",
+     "scope": "span",
+     "quotes": [
+      "יצא לתרבית רעה ונעשה ונעשה לסטים מזויין",
+      "אבל זאת מלאכתי וממנה פרנסתי"
+     ],
+     "confidence": 3,
+     "why": "The sage confronts a Jewish student who became a murderer",
+     "quotes_failed": false
+    },
+    {
+     "tag": "social:conflict",
+     "scope": "span",
+     "quotes": [
+      "והיישיר קנה השריפה כנגד לבו של הזקן"
+     ],
+     "confidence": 3,
+     "why": "Life-and-death confrontation between the sage and the robber",
+     "quotes_failed": false
+    },
+    {
+     "tag": "ethics-and-emotions:fear",
+     "scope": "span",
+     "quotes": [
+      "כמעט פרחה נשמתו כי ידע כי בנפשו ידבר",
+      "ענה הזקן בנפש בהלה מדוע"
+     ],
+     "confidence": 3,
+     "why": "The sage is terrified of the robber",
+     "quotes_failed": false
+    },
+    {
+     "tag": "ethics-and-emotions:lying",
+     "scope": "span",
+     "quotes": [
+      "נתחכם הזקן העני וכה סידר דבריו"
+     ],
+     "confidence": 2,
+     "why": "The sage deceives the robber with a staged blow",
+     "quotes_failed": false
+    },
+    {
+     "tag": "practice:prayer",
+     "scope": "span",
+     "quotes": [
+      "אהה ה׳ אלקים עשה עמי תשועה גדולה"
+     ],
+     "confidence": 3,
+     "why": "The sage prays for strength before striking",
+     "quotes_failed": false
+    },
+    {
+     "tag": "ethics-and-emotions:punishment",
+     "scope": "span",
+     "quotes": [
+      "ויתקעה בבטנו כן יאבדו כל אויביך"
+     ],
+     "confidence": 2,
+     "why": "The murderer meets a fitting end",
+     "quotes_failed": false
+    },
+    {
+     "tag": "times:death",
+     "scope": "span",
+     "quotes": [
+      "ויזדרז הזקן חיש קל וישלח ידו"
+     ],
+     "confidence": 3,
+     "why": "The robber is killed",
+     "quotes_failed": false
+    },
+    {
+     "tag": "ethics-and-emotions:charity",
+     "scope": "span",
+     "quotes": [
+      "לדפוק על דלתי הנדיבים מעיר לעיר"
+     ],
+     "confidence": 2,
+     "why": "The impoverished sage collects alms",
+     "quotes_failed": false
+    },
+    {
+     "tag": "ethics-and-emotions:repentance",
+     "scope": "span",
+     "quotes": [
+      "ואני נותן לך זמן להתודות ולשוב אל ד׳"
+     ],
+     "confidence": 1,
+     "why": "Confession before death is demanded, though it is never performed",
+     "quotes_failed": false
+    },
+    {
+     "tag": "practice:storytelling",
+     "scope": "span",
+     "quotes": [
+      "סיפר לו חכם אחד זקן ברוסיא"
+     ],
+     "confidence": 2,
+     "why": "Framed as told by the sage to the emissary R. Mohariko",
+     "quotes_failed": false
+    },
+    {
+     "tag": "social:retrospective_recognition",
+     "scope": "span",
+     "quotes": [
+      "וישתדל הלסטים הנ\"ל לתת לו סימנים מובהקים"
+     ],
+     "confidence": 2,
+     "why": "The sage recognizes the robber as his former student",
+     "quotes_failed": false
+    },
+    {
+     "tag": "not-a-hasidic-story:hagiography",
+     "scope": "story",
+     "quotes": [],
+     "confidence": 2,
+     "why": "Praises the wisdom of a non-Hasidic sage ('והחכמה תחיה בעליה')",
+     "quotes_failed": false
+    },
+    {
+     "tag": "supernatural:miracle",
+     "scope": "span",
+     "quotes": [
+      "ומאת ה' מן השמים היה כי אותו שעה שעת רצון"
+     ],
+     "confidence": 1,
+     "why": "Deliverance is attributed to Heaven, but no overt supernatural event occurs",
+     "quotes_failed": false
+    }
+   ],
+   "missing_concepts": [
+    "banditry / highway robbery",
+    "teacher-student relationship (non-Hasidic)",
+    "self-defense / trickery as a survival ruse"
+   ],
+   "start_quote_found": true,
+   "end_quote_found": true
+  }
+ ],
+ "check": {
+  "non_vocab_tags": [],
+  "quotes": 16,
+  "quotes_not_found": 0
+ },
+ "id": "Maasim-Tovim_0003",
+ "chars": 3811,
+ "seconds": 20
+}

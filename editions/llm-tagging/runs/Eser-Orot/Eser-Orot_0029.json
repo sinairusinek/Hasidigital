@@ -1,0 +1,89 @@
+{
+ "unit": {
+  "kind": "hasidic_story",
+  "why": "A teaching attributed to the Maggid (הרה״מ) answering why telling novellae and stories is permitted on Shabbat. The answer is a fully narrated parable about a king's feast and a foolish leper who asks for dung.",
+  "boundary_note": ""
+ },
+ "stories": [
+  {
+   "k": 1,
+   "start_quote": "בספר מנחת שבת וידי\"נ ומחו' הגאון",
+   "end_quote": "עכתוד\"ק בקצרה והנמשל מובן",
+   "hasidic": true,
+   "summary_en": "The Maggid explains why telling stories on Shabbat is permitted to one who enjoys it. His parable tells of a king who grants every guest at his feast whatever he asks. A foolish leper asks for two loads of cold dung, and the king rules that the fool be given just what he chose, since that is evidently his pleasure.",
+   "tags": [
+    {
+     "tag": "folkloristics:story_type_parable",
+     "scope": "story",
+     "quotes": [],
+     "confidence": 3,
+     "why": "The narrative is a mashal told by the Maggid.",
+     "quotes_failed": false
+    },
+    {
+     "tag": "not-a-hasidic-story:sermon",
+     "scope": "story",
+     "quotes": [],
+     "confidence": 3,
+     "why": "The parable is wrapped in a homiletic question and answer about a Shabbat custom, quoted from a book.",
+     "quotes_failed": false
+    },
+    {
+     "tag": "practice:sermon",
+     "scope": "span",
+     "quotes": [
+      "מביא בשם הרה״מ שהקשה למה התירו לספר"
+     ],
+     "confidence": 2,
+     "why": "A teaching of the tsaddik is quoted.",
+     "quotes_failed": false
+    },
+    {
+     "tag": "times:shabbat",
+     "scope": "span",
+     "quotes": [
+      "דברי חידושים וסיפורים בשבת למי שיש לו עונג"
+     ],
+     "confidence": 2,
+     "why": "The subject is what is permitted on Shabbat.",
+     "quotes_failed": false
+    },
+    {
+     "tag": "practice:storytelling",
+     "scope": "span",
+     "quotes": [
+      "למה התירו לספר דברי חידושים וסיפורים בשבת"
+     ],
+     "confidence": 2,
+     "why": "Telling stories on Shabbat is the topic under discussion.",
+     "quotes_failed": false
+    },
+    {
+     "tag": "practice:halakhah",
+     "scope": "span",
+     "quotes": [
+      "למה התירו לספר דברי חידושים וסיפורים"
+     ],
+     "confidence": 1,
+     "why": "The question is whether a practice is permitted.",
+     "quotes_failed": false
+    }
+   ],
+   "missing_concepts": [
+    "oneg Shabbat (Shabbat delight) and its permissibility",
+    "the king as a figure for God within the parable",
+    "the fool's lowly choice of pleasure"
+   ],
+   "start_quote_found": true,
+   "end_quote_found": true
+  }
+ ],
+ "check": {
+  "non_vocab_tags": [],
+  "quotes": 4,
+  "quotes_not_found": 0
+ },
+ "id": "Eser-Orot_0029",
+ "chars": 1251,
+ "seconds": 16
+}

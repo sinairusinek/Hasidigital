@@ -1,0 +1,129 @@
+{
+ "unit": {
+  "kind": "non_hasidic_story",
+  "why": "A legend about Moses and an Arab king's painter and physiognomists, quoted from Tiferet Yisrael; it is a narrative but not about Hasidic figures.",
+  "boundary_note": ""
+ },
+ "stories": [
+  {
+   "k": 1,
+   "start_quote": "מ״כ דבר נחמד שכשהוציא משרע״ה את ישראל",
+   "end_quote": "בשמים ממעל ובארץ מתחת. (תפארת ישראל קידושין פ״ד)",
+   "hasidic": false,
+   "summary_en": "An Arab king has Moses' portrait drawn, and his physiognomists judge it to show a wicked nature; the king comes to see Moses and finds the portrait exact, and Moses explains that he has those evil traits by nature but conquered them until their opposites became second nature.",
+   "tags": [
+    {
+     "tag": "not-a-hasidic-story:hagiography",
+     "scope": "story",
+     "quotes": [],
+     "confidence": 3,
+     "why": "Praises Moses, a non-Hasidic figure; copied from Tiferet Yisrael",
+     "quotes_failed": false
+    },
+    {
+     "tag": "not-a-hasidic-story:virtues",
+     "scope": "story",
+     "quotes": [],
+     "confidence": 2,
+     "why": "The point is moral: overcoming one's natural bad traits",
+     "quotes_failed": false
+    },
+    {
+     "tag": "ethics-and-emotions:virtues",
+     "scope": "span",
+     "quotes": [
+      "ואני בכח אמיץ הנה התחזקתי ורדיתי וכבשתי אותם"
+     ],
+     "confidence": 3,
+     "why": "Moses conquered his bad traits",
+     "quotes_failed": false
+    },
+    {
+     "tag": "ethics-and-emotions:pride",
+     "scope": "span",
+     "quotes": [
+      "בגאות וחמדת הממון ובשרירות הלב"
+     ],
+     "confidence": 2,
+     "why": "Arrogance is among the traits read in his face",
+     "quotes_failed": false
+    },
+    {
+     "tag": "ethics-and-emotions:humility",
+     "scope": "span",
+     "quotes": [
+      "לא אבוש לומר לך כי כל החסרונות"
+     ],
+     "confidence": 2,
+     "why": "Moses frankly admits his flaws",
+     "quotes_failed": false
+    },
+    {
+     "tag": "ethics-and-emotions:anger",
+     "scope": "span",
+     "quotes": [
+      "ויקצוף המלך מאד ויאמר"
+     ],
+     "confidence": 2,
+     "why": "The king becomes angry at the wise men",
+     "quotes_failed": false
+    },
+    {
+     "tag": "ethics-and-emotions:fear",
+     "scope": "span",
+     "quotes": [
+      "ויחרדו האנשים מאד"
+     ],
+     "confidence": 2,
+     "why": "The wise men fear the king",
+     "quotes_failed": false
+    },
+    {
+     "tag": "ethics-and-emotions:awe",
+     "scope": "span",
+     "quotes": [
+      "ויקרע וישתחוה לאפיו"
+     ],
+     "confidence": 2,
+     "why": "The king bows before Moses",
+     "quotes_failed": false
+    },
+    {
+     "tag": "social:relations_with_non_jews",
+     "scope": "span",
+     "quotes": [
+      "ולכן התעורר מלך ערביי א׳ וישלח צייר"
+     ],
+     "confidence": 3,
+     "why": "Moses deals with a non-Jewish king",
+     "quotes_failed": false
+    },
+    {
+     "tag": "social:retrospective_recognition",
+     "scope": "span",
+     "quotes": [
+      "ויבט והנהו כתמונתו וכצלמו כאשר ציירו הצייר"
+     ],
+     "confidence": 2,
+     "why": "The king realizes both the painter and the wise men were right",
+     "quotes_failed": false
+    }
+   ],
+   "missing_concepts": [
+    "physiognomy",
+    "nature versus character / self-transformation of innate traits",
+    "portraiture"
+   ],
+   "start_quote_found": true,
+   "end_quote_found": true
+  }
+ ],
+ "check": {
+  "non_vocab_tags": [],
+  "quotes": 8,
+  "quotes_not_found": 0
+ },
+ "id": "Derech-Haemuna_0229",
+ "chars": 2102,
+ "seconds": 12
+}

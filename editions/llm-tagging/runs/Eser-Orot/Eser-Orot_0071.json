@@ -1,0 +1,148 @@
+{
+ "unit": {
+  "kind": "hasidic_story",
+  "why": "A reported narrative, quoted from the Komarno rebbe's preface, about R. Levi Yitzhak of Berditchev's fall from his spiritual level in 1793, its heavenly cause, his recovery, and his casting of lots about the people around him.",
+  "boundary_note": ""
+ },
+ "stories": [
+  {
+   "k": 1,
+   "start_quote": "הרה״ק מו״ר מוהרי״א מקומארנא בהקדמה שני׳",
+   "end_quote": "שהם אינם כדאים להיות אצלי עכ״ל",
+   "hasidic": true,
+   "summary_en": "People around R. Levi Yitzhak of Berditchev so wore down his spirit that in 1793 he fell from his level, which the Maggid of Kozhnitz explained by a heavenly accusation; the next year he had recovered, the Komarno rebbe's father-in-law studied with him for almost a year, and he told him that lots he cast always showed the people around him were unworthy.",
+   "tags": [
+    {
+     "tag": "practice:storytelling",
+     "scope": "span",
+     "quotes": [
+      "שסיפר לי מו״ח שהיו מחלישין דעתו",
+      "וסיפר לי מו\"ח הצדיק הקדוש מו\"ה אברהם מרדכי מפינטשוב"
+     ],
+     "confidence": 2,
+     "why": "the story is framed as told by the father-in-law",
+     "quotes_failed": false
+    },
+    {
+     "tag": "ethics-and-emotions:sadness",
+     "scope": "span",
+     "quotes": [
+      "מרוב חלישת דעת הרבה נפל ממדריגתו",
+      "והי׳ לו חלישת הדעת הרבה מאותו"
+     ],
+     "confidence": 3,
+     "why": "his dejection is the spiritual problem at the centre of the story",
+     "quotes_failed": false
+    },
+    {
+     "tag": "social:conflict",
+     "scope": "span",
+     "quotes": [
+      "שהיו מחלישין דעתו מאד אין שיעור"
+     ],
+     "confidence": 2,
+     "why": "people around him harass him and wear him down",
+     "quotes_failed": false
+    },
+    {
+     "tag": "practice:prayer",
+     "scope": "span",
+     "quotes": [
+      "והי׳ מתפלל בתוך סידור קטן במהירות"
+     ],
+     "confidence": 3,
+     "why": "his changed way of praying shows his fall",
+     "quotes_failed": false
+    },
+    {
+     "tag": "spaces:heaven",
+     "scope": "span",
+     "quotes": [
+      "שגם בשמים ממעל בשנה הזאת הי' עליו קטרוג"
+     ],
+     "confidence": 1,
+     "why": "a heavenly accusation explains his fall, though heaven is not a scene",
+     "quotes_failed": false
+    },
+    {
+     "tag": "practice:travel_to_the_tsaddik",
+     "scope": "span",
+     "quotes": [
+      "ומו״ח הי' אצלו בשנת תקנ\"ד",
+      "והי׳ אצלו קרוב לשנה"
+     ],
+     "confidence": 2,
+     "why": "the father-in-law stays at the tsaddik's court for about a year",
+     "quotes_failed": false
+    },
+    {
+     "tag": "practice:study",
+     "scope": "span",
+     "quotes": [
+      "ולמד אצלו תורה ויראה ואהבה"
+     ],
+     "confidence": 2,
+     "why": "the father-in-law studies with him",
+     "quotes_failed": false
+    },
+    {
+     "tag": "social:inter_hasidic_master_disciple_relationship",
+     "scope": "span",
+     "quotes": [
+      "ולמד אצלו תורה ויראה ואהבה עד שנעשה כאש",
+      "וקרא למו\"ח ואמר לו ראה בני"
+     ],
+     "confidence": 2,
+     "why": "the master-disciple bond, in which the master confides in the disciple",
+     "quotes_failed": false
+    },
+    {
+     "tag": "experience:enthusiasm",
+     "scope": "span",
+     "quotes": [
+      "עד שנעשה כאש שורף להבת שלהבת"
+     ],
+     "confidence": 2,
+     "why": "the disciple becomes burning with fervour",
+     "quotes_failed": false
+    },
+    {
+     "tag": "practice:travel_to_other_tsaddik",
+     "scope": "span",
+     "quotes": [
+      "שהמגיד הקדוש מקאזניץ תלמידו עזרו הרבה"
+     ],
+     "confidence": 1,
+     "why": "another tsaddik, the Maggid of Kozhnitz, helps and comments; borderline",
+     "quotes_failed": false
+    },
+    {
+     "tag": "supernatural:perception",
+     "scope": "span",
+     "quotes": [
+      "שגם בשמים ממעל בשנה הזאת הי' עליו קטרוג"
+     ],
+     "confidence": 1,
+     "why": "the Maggid knows of the heavenly accusation",
+     "quotes_failed": false
+    }
+   ],
+   "missing_concepts": [
+    "a tsaddik's fall from his spiritual level (ירידה)",
+    "heavenly accusation (קטרוג) against a tsaddik",
+    "casting lots (גורל) for divination",
+    "unworthy followers called ערב רב"
+   ],
+   "start_quote_found": true,
+   "end_quote_found": true
+  }
+ ],
+ "check": {
+  "non_vocab_tags": [],
+  "quotes": 15,
+  "quotes_not_found": 0
+ },
+ "id": "Eser-Orot_0071",
+ "chars": 905,
+ "seconds": 20
+}

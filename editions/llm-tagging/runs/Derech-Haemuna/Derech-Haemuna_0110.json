@@ -1,0 +1,124 @@
+{
+ "unit": {
+  "kind": "hasidic_story",
+  "why": "A memorate quoted from a book's preface: an eyewitness describes how a holy rabbi expounded Sha'ar ha-Gilgulim at midnight, his listeners wept, and he roused them to repentance.",
+  "boundary_note": "Borderline: the text is largely a description of the rabbi's habitual practice rather than a single event."
+ },
+ "stories": [
+  {
+   "k": 1,
+   "start_quote": "ובס׳ הנ״ל בהקדמה וז״ל ובעת שהיה",
+   "end_quote": "את נשמת הרשעים דאזלין ערטלאין",
+   "hasidic": true,
+   "summary_en": "An eyewitness recounts that the rabbi, in good spirits at midnight, expounded the doctrine of reincarnations from the Lurianic writings before his companions, who wept; he urged them to repentance, and apparently intended thereby to repair the souls of the wandering wicked.",
+   "tags": [
+    {
+     "tag": "supernatural:reincarnation",
+     "scope": "span",
+     "quotes": [
+      "בשעה שדיבר בעניני הגלגולים והסבות",
+      "ויש נשמות אשר זה אלפים שנה הם נע ונד"
+     ],
+     "confidence": 3,
+     "why": "The discourse centres on transmigrations of souls.",
+     "quotes_failed": false
+    },
+    {
+     "tag": "practice:sermon",
+     "scope": "span",
+     "quotes": [
+      "איזה מאמר מכתבי קודש (משער הגלגולים ח״ב)",
+      "התחיל בפסוקים רבים המעוררים על התשובה"
+     ],
+     "confidence": 3,
+     "why": "The rabbi delivers an exposition of kabbalistic texts and verses.",
+     "quotes_failed": false
+    },
+    {
+     "tag": "practice:study",
+     "scope": "span",
+     "quotes": [
+      "אמר עם הספר בעת חצות לילה"
+     ],
+     "confidence": 2,
+     "why": "He studies and expounds from a book at midnight.",
+     "quotes_failed": false
+    },
+    {
+     "tag": "knowledge:esoteric",
+     "scope": "span",
+     "quotes": [
+      "איזה מאמר מכתבי קודש (משער הגלגולים ח״ב)"
+     ],
+     "confidence": 2,
+     "why": "Lurianic kabbalistic doctrine is the subject.",
+     "quotes_failed": false
+    },
+    {
+     "tag": "ethics-and-emotions:repentance",
+     "scope": "span",
+     "quotes": [
+      "התחיל בפסוקים רבים המעוררים על התשובה"
+     ],
+     "confidence": 2,
+     "why": "He arouses the listeners to repentance.",
+     "quotes_failed": false
+    },
+    {
+     "tag": "ethics-and-emotions:awe",
+     "scope": "span",
+     "quotes": [
+      "חרדים לדבר ד׳",
+      "שזלגו עיני יראי ה׳ המקשיבים לקולו בדמעות"
+     ],
+     "confidence": 2,
+     "why": "The listeners are in awe and weep.",
+     "quotes_failed": false
+    },
+    {
+     "tag": "practice:healing_of_the_soul",
+     "scope": "span",
+     "quotes": [
+      "כי רצה לתקן בזה את נשמת הרשעים"
+     ],
+     "confidence": 2,
+     "why": "His intention was the tikkun of the souls of the wicked.",
+     "quotes_failed": false
+    },
+    {
+     "tag": "practice:meditation",
+     "scope": "span",
+     "quotes": [
+      "לדבר מזה הענין דוקא אחר חצות"
+     ],
+     "confidence": 1,
+     "why": "A midnight vigil of mystical teaching.",
+     "quotes_failed": false
+    },
+    {
+     "tag": "not-a-hasidic-story:sermon",
+     "scope": "story",
+     "quotes": [],
+     "confidence": 1,
+     "why": "The account is largely about the content of a teaching.",
+     "quotes_failed": false
+    }
+   ],
+   "missing_concepts": [
+    "weeping of listeners",
+    "tikkun chatzot / midnight devotion",
+    "eyewitness testimony"
+   ],
+   "start_quote_found": true,
+   "end_quote_found": true
+  }
+ ],
+ "check": {
+  "non_vocab_tags": [],
+  "quotes": 11,
+  "quotes_not_found": 0
+ },
+ "id": "Derech-Haemuna_0110",
+ "chars": 907,
+ "seconds": 19
+}

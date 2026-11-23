@@ -1,0 +1,110 @@
+{
+ "unit": {
+  "kind": "hasidic_story",
+  "why": "A short anecdote: a great scholar asks the Seer of Lublin why crowds come to him rather than to the scholar, and the Seer answers with humility and a witty reversal.",
+  "boundary_note": ""
+ },
+ "stories": [
+  {
+   "k": 1,
+   "start_quote": "פ״א שאל רב גאון אחד את הרבי מלובלין",
+   "end_quote": "ע״כ יעזבוהו ולא יבואו אליו",
+   "hasidic": true,
+   "summary_en": "A great Torah scholar asks the Seer of Lublin why many Jews flock to him and not to the scholar, who is more learned; the Seer humbly replies that he himself wonders at it, and that perhaps people come to him because he knows his own low worth, and they leave the scholar because the scholar wonders why they do not come.",
+   "tags": [
+    {
+     "tag": "ethics-and-emotions:humility",
+     "scope": "span",
+     "quotes": [
+      "כי אנכי ידעתי ערכי השפל מי אנכי ומה אנכי",
+      "וידעתי ערכי כי איני ראוי לאותו איצטלא"
+     ],
+     "confidence": 3,
+     "why": "The Seer's self-effacement is the point of the answer",
+     "quotes_failed": false
+    },
+    {
+     "tag": "ethics-and-emotions:pride",
+     "scope": "span",
+     "quotes": [
+      "הלא אנכי ת\"ח גדול ומופלג בתורה מאד יותר מרום כבודו"
+     ],
+     "confidence": 3,
+     "why": "The scholar's self-regard is contrasted with the Seer's humility",
+     "quotes_failed": false
+    },
+    {
+     "tag": "folkloristics:story_type_virtues",
+     "scope": "story",
+     "quotes": [],
+     "confidence": 3,
+     "why": "The anecdote illustrates the tzaddik's humility",
+     "quotes_failed": false
+    },
+    {
+     "tag": "social:relations_with_non_hasidim",
+     "scope": "span",
+     "quotes": [
+      "שאל רב גאון אחד את הרבי מלובלין"
+     ],
+     "confidence": 2,
+     "why": "A non-Hasidic rabbinic scholar confronts the rebbe",
+     "quotes_failed": false
+    },
+    {
+     "tag": "social:competition",
+     "scope": "span",
+     "quotes": [
+      "ולמה לא יבאו גם אלי"
+     ],
+     "confidence": 2,
+     "why": "Rivalry over followers between the scholar and the tzaddik",
+     "quotes_failed": false
+    },
+    {
+     "tag": "practice:travel_to_the_tsaddik",
+     "scope": "span",
+     "quotes": [
+      "כי ינהרו רבים מבנ\"י אל כבודו ללמוד ממנו"
+     ],
+     "confidence": 2,
+     "why": "Crowds come to the Seer's court",
+     "quotes_failed": false
+    },
+    {
+     "tag": "practice:torat_ha_tsaddik",
+     "scope": "span",
+     "quotes": [
+      "כי רבים מבנ״י יבאו אלי לדרוש אלהים"
+     ],
+     "confidence": 1,
+     "why": "The question of what draws people to a tzaddik rather than to a scholar",
+     "quotes_failed": false
+    },
+    {
+     "tag": "practice:joke",
+     "scope": "span",
+     "quotes": [
+      "ולבעבור כי כבודו יתפלא למה לא יבאו אליו"
+     ],
+     "confidence": 1,
+     "why": "A witty reversal in the reply",
+     "quotes_failed": false
+    }
+   ],
+   "missing_concepts": [
+    "tzaddik versus rabbinic scholar (lamdan) as a source of authority"
+   ],
+   "start_quote_found": true,
+   "end_quote_found": true
+  }
+ ],
+ "check": {
+  "non_vocab_tags": [],
+  "quotes": 8,
+  "quotes_not_found": 0
+ },
+ "id": "Eser-Orot_0207",
+ "chars": 544,
+ "seconds": 11
+}

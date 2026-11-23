@@ -1,0 +1,141 @@
+{
+ "unit": {
+  "kind": "hasidic_story",
+  "why": "After a closing blessing and a quotation from the Komarner's preface on Torah study for wrong motives, R. Michel of Zlotshov predicts that a certain scholar will rule falsely, the prediction comes true, and he honours the Peri Megadim, telling him Heaven proclaimed that the halakha would follow him.",
+  "boundary_note": "opens with the close of the previous homily and a quoted teaching; the anecdote is embedded in that homiletic frame"
+ },
+ "stories": [
+  {
+   "k": 1,
+   "start_quote": "ואמר הקדוש הרב מוהר״ר מיכל מזלאטשוב לתלמידיו",
+   "end_quote": "על שלומד בטהרה לשם אל עולם",
+   "hasidic": true,
+   "summary_en": "R. Michel of Zlotshov tells his disciples that a scholar who studies Torah out of pride will never rule halakha correctly, which comes true, while he honours the Peri Megadim and tells him Heaven proclaimed that the halakha would follow him because he studies in purity.",
+   "tags": [
+    {
+     "tag": "supernatural:prognostication",
+     "scope": "span",
+     "quotes": [
+      "לא יזכה לעולם להורת כהלכה",
+      "וכך הוה"
+     ],
+     "confidence": 3,
+     "why": "R. Michel predicts the scholar's false rulings, and it comes true",
+     "quotes_failed": false
+    },
+    {
+     "tag": "folkloristics:story_type_prognostication",
+     "scope": "story",
+     "quotes": [],
+     "confidence": 2,
+     "why": "the core arc is a prediction that is fulfilled",
+     "quotes_failed": false
+    },
+    {
+     "tag": "supernatural:perception",
+     "scope": "span",
+     "quotes": [
+      "שהכריזו ברקיע שיזכה לקבוע הלכה כמותו"
+     ],
+     "confidence": 2,
+     "why": "R. Michel knows of a heavenly proclamation",
+     "quotes_failed": false
+    },
+    {
+     "tag": "supernatural:communicating_with_the_invisible",
+     "scope": "span",
+     "quotes": [
+      "שהכריזו ברקיע שיזכה לקבוע הלכה כמותו"
+     ],
+     "confidence": 1,
+     "why": "the heavenly announcement implies he heard a voice from above",
+     "quotes_failed": false
+    },
+    {
+     "tag": "practice:halakhah",
+     "scope": "span",
+     "quotes": [
+      "ויאמר על אסור מותר ועל מותר אסור",
+      "לקבוע הלכה כמותו"
+     ],
+     "confidence": 3,
+     "why": "the story turns on correct halakhic ruling",
+     "quotes_failed": false
+    },
+    {
+     "tag": "practice:study",
+     "scope": "span",
+     "quotes": [
+      "על שלומד תורה כדואג משפה ולחון",
+      "על שלומד בטהרה לשם אל עולם"
+     ],
+     "confidence": 3,
+     "why": "Torah study for the right or wrong motives is the theme",
+     "quotes_failed": false
+    },
+    {
+     "tag": "ethics-and-emotions:pride",
+     "scope": "span",
+     "quotes": [
+      "הלומד תורה שלא לשמה לקנטר ולהתגאות"
+     ],
+     "confidence": 2,
+     "why": "studying out of arrogance is the failing that is condemned",
+     "quotes_failed": false
+    },
+    {
+     "tag": "social:relations_with_non_hasidim",
+     "scope": "span",
+     "quotes": [
+      "וכשבא אצלו הגאון בעל פרי מגדים"
+     ],
+     "confidence": 2,
+     "why": "a Hasidic master meets and honours a non-Hasidic rabbinic authority",
+     "quotes_failed": false
+    },
+    {
+     "tag": "social:inter_hasidic_master_disciple_relationship",
+     "scope": "span",
+     "quotes": [
+      "מיכל מזלאטשוב לתלמידיו הראיתם את זה"
+     ],
+     "confidence": 1,
+     "why": "the teaching is addressed to his disciples",
+     "quotes_failed": false
+    },
+    {
+     "tag": "not-a-hasidic-story:sermon",
+     "scope": "story",
+     "quotes": [],
+     "confidence": 2,
+     "why": "the anecdote sits inside a homiletic frame on studying Torah lishmah",
+     "quotes_failed": false
+    },
+    {
+     "tag": "ethics-and-emotions:virtues",
+     "scope": "span",
+     "quotes": [
+      "על שלומד בטהרה לשם אל עולם"
+     ],
+     "confidence": 2,
+     "why": "pure study for God's sake is the virtue being praised",
+     "quotes_failed": false
+    }
+   ],
+   "missing_concepts": [
+    "Torah study lishmah vs. shelo lishmah (pure vs. impure motives)",
+    "comparison with Doeg and Ahitophel as learned sinners"
+   ],
+   "start_quote_found": true,
+   "end_quote_found": true
+  }
+ ],
+ "check": {
+  "non_vocab_tags": [],
+  "quotes": 12,
+  "quotes_not_found": 0
+ },
+ "id": "non-story-024",
+ "chars": 590,
+ "seconds": 20
+}

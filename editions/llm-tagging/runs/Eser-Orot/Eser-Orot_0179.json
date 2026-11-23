@@ -1,0 +1,185 @@
+{
+ "unit": {
+  "kind": "hasidic_story",
+  "why": "A single narrative about the Seer of Lublin rescuing R. Hershele of Napatchna, who disobeyed his instruction, from Prussian border guards by a miracle.",
+  "boundary_note": ""
+ },
+ "stories": [
+  {
+   "k": 1,
+   "start_quote": "פ\"א בא אל הרבי מלובלין החסיד",
+   "end_quote": "כי אין זה כלל אותו היין",
+   "hasidic": true,
+   "summary_en": "The Seer of Lublin recognizes the wealthy R. Hershele as a relative and orders him to stop in Lublin for permission before each wine-trading trip. When Hershele disobeys, Prussian border guards seize his wine on Saturday night. The Seer, still at the third Sabbath meal, intercedes, and the guards taste the wine, find it is water, laugh and release him. The Seer then assures him that the wine poses no issue of yayin nesekh, because it is not the same wine.",
+   "tags": [
+    {
+     "tag": "practice:travel_to_the_tsaddik",
+     "scope": "span",
+     "quotes": [
+      "בא אל הרבי מלובלין החסיד הנגיד ר׳ הערשלי מנאפאטשנע",
+      "אז תיכף נסע ללובלין"
+     ],
+     "confidence": 3,
+     "why": "Hershele travels to the Seer's court, twice",
+     "quotes_failed": false
+    },
+    {
+     "tag": "practice:reception_of_hasidim",
+     "scope": "span",
+     "quotes": [
+      "בצירוף כמה אנשים לקבל שלום ונתן לכולם שלום",
+      "שלקרוב צריך ליתן שלום אחר"
+     ],
+     "confidence": 3,
+     "why": "The Seer greets the newcomers",
+     "quotes_failed": false
+    },
+    {
+     "tag": "supernatural:perception",
+     "scope": "span",
+     "quotes": [
+      "כי הכיר בו שהוא קרוב",
+      "הערשל אינו מניח אותי לישב"
+     ],
+     "confidence": 3,
+     "why": "The Seer knows of the kinship and of the distant danger",
+     "quotes_failed": false
+    },
+    {
+     "tag": "practice:business_advice",
+     "scope": "span",
+     "quotes": [
+      "שבכל עת שיסע אחר מסחר היין יסע דרך לובלין ליטול רשות"
+     ],
+     "confidence": 3,
+     "why": "Instruction on how to conduct his wine trade",
+     "quotes_failed": false
+    },
+    {
+     "tag": "social:disobedience",
+     "scope": "span",
+     "quotes": [
+      "פ\"א עבר על ציווי הנ\"ל"
+     ],
+     "confidence": 3,
+     "why": "Hershele violates the Seer's order, with consequences",
+     "quotes_failed": false
+    },
+    {
+     "tag": "social:relations_with_the_authorities",
+     "scope": "span",
+     "quotes": [
+      "לקחוהו על הגבול השומרים מפקודת פרייסין"
+     ],
+     "confidence": 3,
+     "why": "Arrest by Prussian border guards",
+     "quotes_failed": false
+    },
+    {
+     "tag": "social:relations_with_non_jews",
+     "scope": "span",
+     "quotes": [
+      "טעמו השומרים היין וראו שהוא מים ושחקו ממנו"
+     ],
+     "confidence": 2,
+     "why": "Gentile guards handle and taste the wine",
+     "quotes_failed": false
+    },
+    {
+     "tag": "folkloristics:story_type_protection",
+     "scope": "story",
+     "quotes": [],
+     "confidence": 3,
+     "why": "Central arc is the tzaddik rescuing the hasid from the authorities",
+     "quotes_failed": false
+    },
+    {
+     "tag": "practice:protection",
+     "scope": "span",
+     "quotes": [
+      "ואני צריך לבקש עבורו"
+     ],
+     "confidence": 3,
+     "why": "The Seer shields him from the authorities",
+     "quotes_failed": false
+    },
+    {
+     "tag": "supernatural:miracle",
+     "scope": "span",
+     "quotes": [
+      "וראו שהוא מים ושחקו ממנו"
+     ],
+     "confidence": 3,
+     "why": "The wine miraculously appears as water",
+     "quotes_failed": false
+    },
+    {
+     "tag": "practice:torat_ha_tsaddik",
+     "scope": "span",
+     "quotes": [
+      "ואני צריך לבקש עבורו"
+     ],
+     "confidence": 2,
+     "why": "The tzaddik's power to intercede on another's behalf",
+     "quotes_failed": false
+    },
+    {
+     "tag": "times:shabbat",
+     "scope": "span",
+     "quotes": [
+      "וזה הי׳ תחלת ליל מוצש״ק",
+      "ישב אז עדיין בסעודה שלישית"
+     ],
+     "confidence": 3,
+     "why": "Set at the third Sabbath meal and Saturday night",
+     "quotes_failed": false
+    },
+    {
+     "tag": "practice:halakhah",
+     "scope": "span",
+     "quotes": [
+      "ומשום נסך לא תחוש כי אין זה כלל אותו היין"
+     ],
+     "confidence": 3,
+     "why": "Ruling on yayin nesekh after gentiles touched the wine",
+     "quotes_failed": false
+    },
+    {
+     "tag": "ethics-and-emotions:prohibitions",
+     "scope": "span",
+     "quotes": [
+      "ומשום נסך לא תחוש"
+     ],
+     "confidence": 2,
+     "why": "The prohibition of gentile-touched wine is at issue",
+     "quotes_failed": false
+    },
+    {
+     "tag": "characters-and-roles:the_family_of_the_tsaddik",
+     "scope": "span",
+     "quotes": [
+      "כי הכיר בו שהוא קרוב"
+     ],
+     "confidence": 1,
+     "why": "Hershele is a relative of the Seer, though not immediate family",
+     "quotes_failed": false
+    }
+   ],
+   "missing_concepts": [
+    "wine trade / cross-border commerce",
+    "kinship recognized by a tzaddik",
+    "transformation of a substance (wine to water)"
+   ],
+   "start_quote_found": true,
+   "end_quote_found": true
+  }
+ ],
+ "check": {
+  "non_vocab_tags": [],
+  "quotes": 18,
+  "quotes_not_found": 0
+ },
+ "id": "Eser-Orot_0179",
+ "chars": 763,
+ "seconds": 21
+}

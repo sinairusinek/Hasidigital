@@ -1,0 +1,92 @@
+{
+ "unit": {
+  "kind": "hasidic_story",
+  "why": "A brief anecdote: as a child in Lublin, the subject was pointed out by the Seer of Lublin, who foretold that in his days Judah and Jerusalem would be saved; the narrator adds that because of our sins it did not come about.",
+  "boundary_note": "one of a numbered series of short anecdotes about the same figure (grandson of the Kozienice Maggid); the previous and next divisions are separate anecdotes"
+ },
+ "stories": [
+  {
+   "k": 1,
+   "start_quote": "יד כשהיה קטן היה בלובלין",
+   "end_quote": "תוושע יהודה וירושלים, ובעונותינו שרבו כו׳",
+   "hasidic": true,
+   "summary_en": "When the subject was a child in Lublin, the Seer of Lublin pointed at him and declared that in his days Judah and Jerusalem would be saved, a promise the narrator laments went unfulfilled because of the generation's sins.",
+   "tags": [
+    {
+     "tag": "characters-and-roles:messiah",
+     "scope": "span",
+     "quotes": [
+      "ואמר בימיו תוושע יהודה וירושלים"
+     ],
+     "confidence": 2,
+     "why": "The Seer expresses messianic expectation of redemption in the child's lifetime.",
+     "quotes_failed": false
+    },
+    {
+     "tag": "times:eschatology",
+     "scope": "span",
+     "quotes": [
+      "ואמר בימיו תוושע יהודה וירושלים"
+     ],
+     "confidence": 3,
+     "why": "The prediction concerns the final redemption of Judah and Jerusalem.",
+     "quotes_failed": false
+    },
+    {
+     "tag": "supernatural:perception",
+     "scope": "span",
+     "quotes": [
+      "הראה באצבע עליו ואמר בימיו תוושע יהודה וירושלים"
+     ],
+     "confidence": 2,
+     "why": "The Seer discerns the child's future destiny.",
+     "quotes_failed": false
+    },
+    {
+     "tag": "practice:failure",
+     "scope": "span",
+     "quotes": [
+      "ובעונותינו שרבו כו׳"
+     ],
+     "confidence": 2,
+     "why": "The tsaddik's prediction did not come true, and the narrator explains this by the generation's sins.",
+     "quotes_failed": false
+    },
+    {
+     "tag": "practice:travel_to_the_tsaddik",
+     "scope": "span",
+     "quotes": [
+      "כשהיה קטן היה בלובלין"
+     ],
+     "confidence": 1,
+     "why": "As a child he stayed at the Seer's court in Lublin.",
+     "quotes_failed": false
+    },
+    {
+     "tag": "spaces:institutions_hassidic_court",
+     "scope": "span",
+     "quotes": [
+      "כשהיה קטן היה בלובלין"
+     ],
+     "confidence": 1,
+     "why": "The scene is set at the Lublin court.",
+     "quotes_failed": false
+    }
+   ],
+   "missing_concepts": [
+    "a tsaddik's designation or blessing of a child's future greatness",
+    "messianic hope deferred because of sin"
+   ],
+   "start_quote_found": true,
+   "end_quote_found": true
+  }
+ ],
+ "check": {
+  "non_vocab_tags": [],
+  "quotes": 6,
+  "quotes_not_found": 0
+ },
+ "id": "Toldot-Haniflaot_0009",
+ "chars": 116,
+ "seconds": 16
+}

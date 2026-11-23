@@ -1,0 +1,113 @@
+{
+ "unit": {
+  "kind": "hasidic_story",
+  "why": "A short anecdote about the Maggid of Mezritch: he insists in prayer for a sick man, Heaven tells him he has lost his share in the World to Come, and he resolves to pray for Israel without hope of reward.",
+  "boundary_note": "The trailing heading 'מענין התגלות' belongs to the next division."
+ },
+ "stories": [
+  {
+   "k": 1,
+   "start_quote": "ע״ד המעשה המובא בשם אדמו״ר איש אלהים",
+   "end_quote": "כי אין לי לצפות כלל",
+   "hasidic": true,
+   "summary_en": "The Maggid of Mezritch persists in prayer for a sick man until he is healed; Heaven informs him that he has lost his share in the World to Come for this, and after his first alarm he resolves that he can now pray for Israel truly, without any thought of reward.",
+   "tags": [
+    {
+     "tag": "practice:prayer",
+     "scope": "span",
+     "quotes": [
+      "הרבה והפציר בתפלה עבור חולה אחד",
+      "הנה עתה העת להתפלל עבור ישראל"
+     ],
+     "confidence": 3,
+     "why": "The story is about insistent prayer.",
+     "quotes_failed": false
+    },
+    {
+     "tag": "practice:healing",
+     "scope": "span",
+     "quotes": [
+      "ולא רצה לנטות מעליו עד יתרפא"
+     ],
+     "confidence": 2,
+     "why": "He prays for the healing of a sick man.",
+     "quotes_failed": false
+    },
+    {
+     "tag": "supernatural:communicating_with_the_invisible",
+     "scope": "span",
+     "quotes": [
+      "והודיעו לו מן השמים כי אבד חלקו בעוה״ב"
+     ],
+     "confidence": 3,
+     "why": "Heaven sends him a message.",
+     "quotes_failed": false
+    },
+    {
+     "tag": "ethics-and-emotions:fear",
+     "scope": "span",
+     "quotes": [
+      "ויתבהל מאד"
+     ],
+     "confidence": 2,
+     "why": "He is alarmed by the heavenly decree.",
+     "quotes_failed": false
+    },
+    {
+     "tag": "times:eschatology",
+     "scope": "span",
+     "quotes": [
+      "אבד חלקו בעוה״ב עבור זה",
+      "בלי שום מחשבות גמול בעוה״ב"
+     ],
+     "confidence": 2,
+     "why": "The loss of his share in the World to Come is central.",
+     "quotes_failed": false
+    },
+    {
+     "tag": "folkloristics:story_type_virtues",
+     "scope": "story",
+     "quotes": [],
+     "confidence": 3,
+     "why": "The story illustrates the tzaddik's selfless devotion and his service without reward.",
+     "quotes_failed": false
+    },
+    {
+     "tag": "ethics-and-emotions:virtues",
+     "scope": "span",
+     "quotes": [
+      "ולזעוק אל ד׳ באמת בלי שום מחשבות גמול"
+     ],
+     "confidence": 2,
+     "why": "Disinterested service is the virtue at issue.",
+     "quotes_failed": false
+    },
+    {
+     "tag": "practice:torat_ha_tsaddik",
+     "scope": "span",
+     "quotes": [
+      "הרבה והפציר בתפלה עבור חולה אחד"
+     ],
+     "confidence": 1,
+     "why": "The tzaddik intercedes on behalf of others even at his own cost.",
+     "quotes_failed": false
+    }
+   ],
+   "missing_concepts": [
+    "serving God without expectation of reward (lishmah)",
+    "self-sacrifice of the tzaddik's own spiritual reward for others",
+    "insistent or forcing prayer (הפצרה) against a heavenly decree"
+   ],
+   "start_quote_found": true,
+   "end_quote_found": true
+  }
+ ],
+ "check": {
+  "non_vocab_tags": [],
+  "quotes": 9,
+  "quotes_not_found": 0
+ },
+ "id": "Derech-Haemuna_0082",
+ "chars": 381,
+ "seconds": 14
+}

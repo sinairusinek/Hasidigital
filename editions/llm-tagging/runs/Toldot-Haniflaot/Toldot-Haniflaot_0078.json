@@ -1,0 +1,102 @@
+{
+ "unit": {
+  "kind": "hasidic_story",
+  "why": "A short memorate, told by R. A. of Kozhnitz during the shiva, about his foreseeing on the second Nasi day that Maran would die in Iyar, which then came true and which he sensed at the moment it happened.",
+  "boundary_note": "thematically continues the previous division (Maran's foreknowledge on the Nasi days); the next division begins a new story"
+ },
+ "stories": [
+  {
+   "k": 1,
+   "start_quote": "והנה בימי שבעת אבלו של מרן ז״ל",
+   "end_quote": "שנפטר היה מרגיש ג״כ בביתו",
+   "hasidic": true,
+   "summary_en": "During the mourning week for Maran, R. A. of Kozhnitz tells the narrator three things: Maran knew from the twelve Nasi days what each month would bring; he himself saw on the second Nasi day that Maran would die in Iyar, the second month, and waited anxiously for that month to pass, which it did not; and he sensed the death from his own house at the moment it happened.",
+   "tags": [
+    {
+     "tag": "supernatural:prognostication",
+     "scope": "span",
+     "quotes": [
+      "היה רואה ביום נשיא ב׳ על מרן ז״ל",
+      "שנפטר באייר חודש ב׳"
+     ],
+     "confidence": 3,
+     "why": "the death in Iyar is foreseen and comes true",
+     "quotes_failed": false
+    },
+    {
+     "tag": "folkloristics:story_type_prognostication",
+     "scope": "story",
+     "quotes": [],
+     "confidence": 3,
+     "why": "the whole arc is a prediction that is fulfilled",
+     "quotes_failed": false
+    },
+    {
+     "tag": "supernatural:perception",
+     "scope": "span",
+     "quotes": [
+      "היה יודע בי\"ב נשיאים מה שיהי׳ בי״ב חדשי השנה",
+      "גם בשעה שנפטר היה מרגיש ג״כ בביתו"
+     ],
+     "confidence": 3,
+     "why": "supernatural foreknowledge, and sensing the death from a distance",
+     "quotes_failed": false
+    },
+    {
+     "tag": "times:death",
+     "scope": "span",
+     "quotes": [
+      "כן היה שנפטר בימי אייר"
+     ],
+     "confidence": 3,
+     "why": "Maran's death is the depicted event",
+     "quotes_failed": false
+    },
+    {
+     "tag": "practice:storytelling",
+     "scope": "span",
+     "quotes": [
+      "אמר לי אדמו״ר ז״ל הה״ק ר״א מקאזניץ"
+     ],
+     "confidence": 2,
+     "why": "framed as a tale told by a named tsaddik during the shiva",
+     "quotes_failed": false
+    },
+    {
+     "tag": "experience:visions",
+     "scope": "span",
+     "quotes": [
+      "ואמר לי כיצד היה ראייתו בזה"
+     ],
+     "confidence": 1,
+     "why": "his 'seeing' on the Nasi day may be a vision",
+     "quotes_failed": false
+    },
+    {
+     "tag": "ethics-and-emotions:fear",
+     "scope": "span",
+     "quotes": [
+      "היה מצפה רק על חודש אייר שיעבור בשלום"
+     ],
+     "confidence": 1,
+     "why": "anxious waiting for the month to pass safely",
+     "quotes_failed": false
+    }
+   ],
+   "missing_concepts": [
+    "mourning / shiva as setting",
+    "divination by the twelve Nesi'im days of Nisan (calendar-based foreknowledge)"
+   ],
+   "start_quote_found": true,
+   "end_quote_found": true
+  }
+ ],
+ "check": {
+  "non_vocab_tags": [],
+  "quotes": 8,
+  "quotes_not_found": 0
+ },
+ "id": "Toldot-Haniflaot_0078",
+ "chars": 371,
+ "seconds": 18
+}

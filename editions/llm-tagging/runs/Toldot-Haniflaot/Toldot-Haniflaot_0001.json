@@ -1,0 +1,107 @@
+{
+ "unit": {
+  "kind": "hasidic_story",
+  "why": "A short narrative: the Maggid of Kozhnitz visits R. Elimelekh with his daughter, and R. Elimelekh foretells that a great soul will descend to her. That soul is the future rebbe of Mogielnica.",
+  "boundary_note": "opens the birth narrative of the Mogielnica rebbe, which continues in the next division (ז)"
+ },
+ "stories": [
+  {
+   "k": 1,
+   "start_quote": "ועתה אכתוב בעזה״י מלידת מרן ז\"ל",
+   "end_quote": "בנה הק' מרן זצ״ל ממאגלניצא",
+   "hasidic": true,
+   "summary_en": "The Maggid of Kozhnitz visits R. Elimelekh of Lizhensk with his daughter. R. Elimelekh foretells that a great soul will descend to her, and the author explains that this soul was her son, the rebbe of Mogielnica.",
+   "tags": [
+    {
+     "tag": "folkloristics:story_type_birth_of_the_tsaddik",
+     "scope": "story",
+     "quotes": [],
+     "confidence": 3,
+     "why": "explicitly introduced as the account of the rebbe's birth",
+     "quotes_failed": false
+    },
+    {
+     "tag": "supernatural:prognostication",
+     "scope": "span",
+     "quotes": [
+      "כי נשמה גדולה תרד אל בת מעלתו"
+     ],
+     "confidence": 3,
+     "why": "R. Elimelekh foretells the birth of a great soul, and it comes true",
+     "quotes_failed": false
+    },
+    {
+     "tag": "folkloristics:story_type_prognostication",
+     "scope": "story",
+     "quotes": [],
+     "confidence": 2,
+     "why": "the arc is a prediction that is fulfilled",
+     "quotes_failed": false
+    },
+    {
+     "tag": "supernatural:perception",
+     "scope": "span",
+     "quotes": [
+      "נשמה גדולה תרד אל בת מעלתו"
+     ],
+     "confidence": 2,
+     "why": "R. Elimelekh has supernatural knowledge of a soul yet to descend",
+     "quotes_failed": false
+    },
+    {
+     "tag": "characters-and-roles:the_family_of_the_tsaddik",
+     "scope": "span",
+     "quotes": [
+      "היה עם בתו הצדקת"
+     ],
+     "confidence": 3,
+     "why": "the daughter of the Maggid, mother of the future tsaddik, appears",
+     "quotes_failed": false
+    },
+    {
+     "tag": "women:minor_character",
+     "scope": "span",
+     "quotes": [
+      "היה עם בתו הצדקת אצל מרן הק'"
+     ],
+     "confidence": 2,
+     "why": "the daughter goes with her father but plays a small role",
+     "quotes_failed": false
+    },
+    {
+     "tag": "practice:travel_to_other_tsaddik",
+     "scope": "span",
+     "quotes": [
+      "היה עם בתו הצדקת אצל מרן הק' בעל נועם אלימלך"
+     ],
+     "confidence": 2,
+     "why": "the Maggid of Kozhnitz visits another tsaddik",
+     "quotes_failed": false
+    },
+    {
+     "tag": "practice:storytelling",
+     "scope": "span",
+     "quotes": [
+      "סיפר ז\"ל, כי אא״ז הה״מ מקאזניץ"
+     ],
+     "confidence": 1,
+     "why": "the tale is framed as told by a named holy figure",
+     "quotes_failed": false
+    }
+   ],
+   "missing_concepts": [
+    "descent of a great soul as a pre-birth annunciation"
+   ],
+   "start_quote_found": true,
+   "end_quote_found": true
+  }
+ ],
+ "check": {
+  "non_vocab_tags": [],
+  "quotes": 6,
+  "quotes_not_found": 0
+ },
+ "id": "Toldot-Haniflaot_0001",
+ "chars": 217,
+ "seconds": 14
+}

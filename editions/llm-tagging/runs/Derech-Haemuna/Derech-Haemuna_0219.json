@@ -1,0 +1,117 @@
+{
+ "unit": {
+  "kind": "hasidic_story",
+  "why": "A quoted excerpt in which R. Gershon of Kuty's remark to the Besht on prayer is followed by R. Nahman's eyewitness account of the Besht's face changing colour, like fire and then like snow, while he prayed.",
+  "boundary_note": "part of a chain of quotations from Hasidic books on prayer; the previous and next divisions are separate excerpts"
+ },
+ "stories": [
+  {
+   "k": 1,
+   "start_quote": "ובס׳ ה״ה (פ׳ תצא) וז״ל כמו שאמר",
+   "end_quote": "וברגע כשלג בכל רגע לגוון אחר",
+   "hasidic": true,
+   "summary_en": "R. Gershon of Kuty tells his brother-in-law the Besht, before he recognized the Besht's rank, that true prayer means the soul leaving the body, and R. Nahman testifies that as a youth he crept under the Besht's tallit during prayer and saw his face turn, moment by moment, from a burning torch to snow and to other colours.",
+   "tags": [
+    {
+     "tag": "practice:prayer",
+     "scope": "story",
+     "quotes": [],
+     "confidence": 3,
+     "why": "the whole excerpt concerns the Besht's prayer",
+     "quotes_failed": false
+    },
+    {
+     "tag": "practice:devekut",
+     "scope": "span",
+     "quotes": [
+      "אלא נפשי יצאה בדברו",
+      "נכנס תחת הטלית של מרן בעת התפלה"
+     ],
+     "confidence": 3,
+     "why": "ecstatic prayer in which the soul leaves the body",
+     "quotes_failed": false
+    },
+    {
+     "tag": "experience:devekut",
+     "scope": "span",
+     "quotes": [
+      "אלא נפשי יצאה בדברו"
+     ],
+     "confidence": 2,
+     "why": "mystical cleaving in prayer is described",
+     "quotes_failed": false
+    },
+    {
+     "tag": "supernatural:light_or_fire_as_a_sign_of_righteousness",
+     "scope": "span",
+     "quotes": [
+      "ברגע בוער כלפיד אש וברגע כשלג"
+     ],
+     "confidence": 3,
+     "why": "the Besht's face burns like a torch during prayer",
+     "quotes_failed": false
+    },
+    {
+     "tag": "experience:enthusiasm",
+     "scope": "span",
+     "quotes": [
+      "ברגע בוער כלפיד אש"
+     ],
+     "confidence": 2,
+     "why": "fiery fervour in prayer",
+     "quotes_failed": false
+    },
+    {
+     "tag": "ethics-and-emotions:awe",
+     "scope": "span",
+     "quotes": [
+      "בעת שעדיין לא הכיר מדריגתו"
+     ],
+     "confidence": 1,
+     "why": "implied reverence for the Besht's rank",
+     "quotes_failed": false
+    },
+    {
+     "tag": "folkloristics:story_type_virtues",
+     "scope": "story",
+     "quotes": [],
+     "confidence": 2,
+     "why": "the excerpt illustrates the Besht's holiness in prayer",
+     "quotes_failed": false
+    },
+    {
+     "tag": "not-a-hasidic-story:sermon",
+     "scope": "story",
+     "quotes": [],
+     "confidence": 1,
+     "why": "a quoted teaching on prayer with a brief eyewitness anecdote attached",
+     "quotes_failed": false
+    },
+    {
+     "tag": "kabbalah:kabbalistic_terms_kavvanot",
+     "scope": "span",
+     "quotes": [
+      "עדיין לא הגעת לכוונת התפלה"
+     ],
+     "confidence": 1,
+     "why": "kavvanah of prayer is mentioned, but probably in a general rather than Lurianic sense",
+     "quotes_failed": false
+    }
+   ],
+   "missing_concepts": [
+    "transfiguration or changing colours of the tsaddik's face during prayer",
+    "eyewitness testimony from hiding under the tallit"
+   ],
+   "start_quote_found": true,
+   "end_quote_found": true
+  }
+ ],
+ "check": {
+  "non_vocab_tags": [],
+  "quotes": 7,
+  "quotes_not_found": 0
+ },
+ "id": "Derech-Haemuna_0219",
+ "chars": 335,
+ "seconds": 15
+}

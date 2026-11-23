@@ -1,0 +1,99 @@
+{
+ "unit": {
+  "kind": "hasidic_story",
+  "why": "A short anecdote: at the funeral of the Gur rebbe (Hiddushei ha-Rim), the Sochatchover rebbe gave a eulogy and retold the Kozhnitzer Maggid's saying about tzaddikim who finish their task and devise new work to prolong their lives; the saying dominates, but it is set in a narrated event.",
+  "boundary_note": ""
+ },
+ "stories": [
+  {
+   "k": 1,
+   "start_quote": "שמעתי כי בהיות הגה\"ק מסאכטשוב שי' בגור",
+   "end_quote": "כן סיים המגיד הק׳ בלשונו הטהור",
+   "hasidic": true,
+   "summary_en": "At the Gur rebbe's funeral in Shevat 1866, the Sochatchover rebbe praised him as having completed his life's service, and recalled the Kozhnitzer Maggid's saying that such tzaddikim find new work to extend their lives, as the Haflaah did by becoming rabbi of Frankfurt, while the Maggid 'gave himself another counsel'.",
+   "tags": [
+    {
+     "tag": "times:death",
+     "scope": "span",
+     "quotes": [
+      "על הלוויה של אדומו״ר הגה\"ק מגור זי״ע"
+     ],
+     "confidence": 3,
+     "why": "the funeral of the Gur rebbe frames the anecdote",
+     "quotes_failed": false
+    },
+    {
+     "tag": "folkloristics:story_type_death_of_the_tsaddik",
+     "scope": "story",
+     "quotes": [],
+     "confidence": 2,
+     "why": "eulogy at a tzaddik's funeral explaining why he died",
+     "quotes_failed": false
+    },
+    {
+     "tag": "practice:sermon",
+     "scope": "span",
+     "quotes": [
+      "דיבר בשבח הנפטר מרן הק׳ זצ\"ל"
+     ],
+     "confidence": 3,
+     "why": "funeral eulogy / discourse",
+     "quotes_failed": false
+    },
+    {
+     "tag": "practice:storytelling",
+     "scope": "span",
+     "quotes": [
+      "וסיפר כי המגיד הק׳ מקאזניץ אמר"
+     ],
+     "confidence": 2,
+     "why": "a tzaddik retells a tradition at a set occasion",
+     "quotes_failed": false
+    },
+    {
+     "tag": "practice:torat_ha_tsaddik",
+     "scope": "span",
+     "quotes": [
+      "ישנם צדיקים שמשלימים עבודתם בקודש בזה העולם"
+     ],
+     "confidence": 2,
+     "why": "teaching on the tzaddik's mission and lifespan",
+     "quotes_failed": false
+    },
+    {
+     "tag": "not-a-hasidic-story:sermon",
+     "scope": "story",
+     "quotes": [],
+     "confidence": 2,
+     "why": "mainly a saying in a thin narrative frame",
+     "quotes_failed": false
+    },
+    {
+     "tag": "social:inter_hasidic",
+     "scope": "span",
+     "quotes": [
+      "בהיות הגה\"ק מסאכטשוב שי' בגור"
+     ],
+     "confidence": 1,
+     "why": "one rebbe eulogizes another",
+     "quotes_failed": false
+    }
+   ],
+   "missing_concepts": [
+    "eulogy (hesped)",
+    "completion of the tzaddik's life task as cause of death",
+    "prolonging life by taking on new service"
+   ],
+   "start_quote_found": true,
+   "end_quote_found": true
+  }
+ ],
+ "check": {
+  "non_vocab_tags": [],
+  "quotes": 5,
+  "quotes_not_found": 0
+ },
+ "id": "Eser-Orot_0161",
+ "chars": 621,
+ "seconds": 17
+}

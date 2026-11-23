@@ -1,0 +1,151 @@
+{
+ "unit": {
+  "kind": "hasidic_story",
+  "why": "A single narrative, quoted from the preface of Maamar Mordekhai, tells how the Seer of Lublin sent its author to spend Shabbat Behukotai with the Maggid of Kozienice and what he heard there.",
+  "boundary_note": ""
+ },
+ "stories": [
+  {
+   "k": 1,
+   "start_quote": "בסה״ק מאמר מרדכי בהקדמה מבנו וז״ל",
+   "end_quote": "נדפס בפנים בס׳ מאמר מרדכי הנ\"ל] עכ״ל",
+   "hasidic": true,
+   "summary_en": "The Seer of Lublin tells his disciple, the author of Maamar Mordekhai, that the Maggid of Kozienice turns the rebuke into blessings; the disciple goes there for Shabbat Behukotai, hears the Maggid read the rebuke in a thunderous voice and cry out 'would that we merit to be at this hour', and conceives a hundred interpretations of the verse.",
+   "tags": [
+    {
+     "tag": "practice:travel_to_other_tsaddik",
+     "scope": "span",
+     "quotes": [
+      "ועלה ברגלו על שבת לקאזניץ"
+     ],
+     "confidence": 3,
+     "why": "On his master's advice the disciple goes to another tzaddik",
+     "quotes_failed": false
+    },
+    {
+     "tag": "practice:travel_to_the_tsaddik",
+     "scope": "span",
+     "quotes": [
+      "הוא טוב לשבות אצל הק' מקאזניץ"
+     ],
+     "confidence": 2,
+     "why": "He journeys to spend Shabbat at a tzaddik's court",
+     "quotes_failed": false
+    },
+    {
+     "tag": "times:shabbat",
+     "scope": "story",
+     "quotes": [],
+     "confidence": 3,
+     "why": "The events take place on Shabbat Behukotai",
+     "quotes_failed": false
+    },
+    {
+     "tag": "social:inter_hasidic_master_disciple_relationship",
+     "scope": "span",
+     "quotes": [
+      "והי' דרכו לעמוד תחת כסא הכבוד של הרה״ק מלובלין"
+     ],
+     "confidence": 2,
+     "why": "The disciple follows the Seer of Lublin's instruction",
+     "quotes_failed": false
+    },
+    {
+     "tag": "characters-and-roles:preacher",
+     "scope": "span",
+     "quotes": [
+      "ועמד מדי קרוא המגיד הק' בס\"ת"
+     ],
+     "confidence": 1,
+     "why": "The Maggid of Kozienice appears, though as a tzaddik rather than in a separate preacher role",
+     "quotes_failed": false
+    },
+    {
+     "tag": "experience:enthusiasm",
+     "scope": "span",
+     "quotes": [
+      "הרים קול וכמעט קול אלקים מדברת מתוך גרונו"
+     ],
+     "confidence": 2,
+     "why": "The Maggid reads the rebuke with burning fervor",
+     "quotes_failed": false
+    },
+    {
+     "tag": "practice:devekut",
+     "scope": "span",
+     "quotes": [
+      "והקול הולך וחזק מאד"
+     ],
+     "confidence": 1,
+     "why": "Rapt, ecstatic reading of the Torah",
+     "quotes_failed": false
+    },
+    {
+     "tag": "practice:sermon",
+     "scope": "span",
+     "quotes": [
+      "אבינו שבשמים מי יתן ונזכה להיות בשעה זו",
+      "לפחות מאה פירושים"
+     ],
+     "confidence": 2,
+     "why": "The Maggid's exclamation is exegesis of the verse, and it gives rise to the disciple's interpretations",
+     "quotes_failed": false
+    },
+    {
+     "tag": "practice:prayer",
+     "scope": "span",
+     "quotes": [
+      "אבינו שבשמים מי יתן ונזכה להיות בשעה זו"
+     ],
+     "confidence": 1,
+     "why": "A prayer-like plea spoken during the Torah reading",
+     "quotes_failed": false
+    },
+    {
+     "tag": "times:eschatology",
+     "scope": "span",
+     "quotes": [
+      "מי יתן ונזכה להיות בשעה זו"
+     ],
+     "confidence": 1,
+     "why": "Longing for the hour the rebuke describes, read as the turning toward redemption",
+     "quotes_failed": false
+    },
+    {
+     "tag": "ethics-and-emotions:awe",
+     "scope": "span",
+     "quotes": [
+      "וכמעט קול אלקים מדברת מתוך גרונו"
+     ],
+     "confidence": 2,
+     "why": "Awe at the tzaddik's voice",
+     "quotes_failed": false
+    },
+    {
+     "tag": "practice:storytelling",
+     "scope": "span",
+     "quotes": [
+      "וסיפר לי [אביו הרה״ק בעהמ״ח]"
+     ],
+     "confidence": 2,
+     "why": "The father tells the story to his son",
+     "quotes_failed": false
+    }
+   ],
+   "missing_concepts": [
+    "public Torah reading (keriat ha-Torah) and the tokhehah portion",
+    "turning rebuke/curses into blessings"
+   ],
+   "start_quote_found": true,
+   "end_quote_found": true
+  }
+ ],
+ "check": {
+  "non_vocab_tags": [],
+  "quotes": 12,
+  "quotes_not_found": 0
+ },
+ "id": "Eser-Orot_0164",
+ "chars": 819,
+ "seconds": 16
+}

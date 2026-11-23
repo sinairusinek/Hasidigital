@@ -1,0 +1,153 @@
+{
+ "unit": {
+  "kind": "hasidic_story",
+  "why": "One anecdote: the author of Sho'el u-Meshiv/Hoshiv Moshe, while still examining Hasidism, travels to the Seer of Lublin with a doubt about constant joy, and the Seer answers it unasked.",
+  "boundary_note": "Ends with the closing formula of letter ש; next division opens a new section (תהלים)."
+ },
+ "stories": [
+  {
+   "k": 1,
+   "start_quote": "כתב בס׳ ייטב פנים מאמר יפה לעינים",
+   "end_quote": "אבד״ק פלונסק שליט״א שהוא נכדו]",
+   "hasidic": true,
+   "summary_en": "While studying the ways of the Hasidim, R. Moshe Teitelbaum (author of Heshiv Moshe) doubted their constant joy, since Halakhah calls for mourning over the Temple. He prayed for an answer and travelled to the Seer of Lublin, who at once raised the question himself and answered it with R. Shmelke of Nikolsburg's parable of the captive king lodging with a friend.",
+   "tags": [
+    {
+     "tag": "folkloristics:story_type_rapprochement",
+     "scope": "story",
+     "quotes": [],
+     "confidence": 3,
+     "why": "A man investigating Hasidism has his doubt resolved by the tsaddik and approves of its ways.",
+     "quotes_failed": false
+    },
+    {
+     "tag": "supernatural:perception",
+     "scope": "span",
+     "quotes": [
+      "תיכף שאל אותו מדוע פניכם כחושים היום"
+     ],
+     "confidence": 3,
+     "why": "The Seer answers the unspoken question.",
+     "quotes_failed": false
+    },
+    {
+     "tag": "practice:travel_to_the_tsaddik",
+     "scope": "span",
+     "quotes": [
+      "בנוסעו לקבל פני רבו הק׳ מוה׳ יעקב יצחק"
+     ],
+     "confidence": 3,
+     "why": "Journey to Lublin to see the Seer.",
+     "quotes_failed": false
+    },
+    {
+     "tag": "ethics-and-emotions:joy",
+     "scope": "span",
+     "quotes": [
+      "על דרכן של החסידים לשמוח תמיד",
+      "ועם כ״ז הכל בשמחה"
+     ],
+     "confidence": 3,
+     "why": "Hasidic joy is the subject.",
+     "quotes_failed": false
+    },
+    {
+     "tag": "ethics-and-emotions:sadness",
+     "scope": "span",
+     "quotes": [
+      "שיהא מיצר ודואג על חורבן בהמ״ק"
+     ],
+     "confidence": 2,
+     "why": "Grief over the Temple, set against joy.",
+     "quotes_failed": false
+    },
+    {
+     "tag": "practice:halakhah",
+     "scope": "span",
+     "quotes": [
+      "והלא מבואר בש״ע ראוי לכל י״ש"
+     ],
+     "confidence": 2,
+     "why": "The doubt rests on a ruling of the Shulhan Arukh.",
+     "quotes_failed": false
+    },
+    {
+     "tag": "practice:prayer",
+     "scope": "span",
+     "quotes": [
+      "להתחנן אל ה׳ הבוחן לבות",
+      "אנחנו אומרים תיקון חצות בבכי׳ והספד"
+     ],
+     "confidence": 2,
+     "why": "His petition, and the midnight lament (Tikkun Hatsot).",
+     "quotes_failed": false
+    },
+    {
+     "tag": "practice:sermon",
+     "scope": "span",
+     "quotes": [
+      "משל למלך שנשבה למרחקים ועמד לפוש",
+      "שזש״ה קומי רוני בלילה בלשון רינה"
+     ],
+     "confidence": 3,
+     "why": "The parable and the reading of verses are quoted teaching.",
+     "quotes_failed": false
+    },
+    {
+     "tag": "practice:torat_ha_tsaddik",
+     "scope": "span",
+     "quotes": [
+      "גם אותו צדיק יסייע לי להעמידני על האמת"
+     ],
+     "confidence": 2,
+     "why": "The tsaddik acts as God's helper in leading a man to truth.",
+     "quotes_failed": false
+    },
+    {
+     "tag": "social:inter_hasidic_master_disciple_relationship",
+     "scope": "span",
+     "quotes": [
+      "לקבל פני רבו הק׳ מוה׳ יעקב יצחק זל״ה"
+     ],
+     "confidence": 2,
+     "why": "The Seer is described as his master.",
+     "quotes_failed": false
+    },
+    {
+     "tag": "practice:reception_of_hasidim",
+     "scope": "span",
+     "quotes": [
+      "והיה כבואו אל הצדיק הק׳ זל״ה"
+     ],
+     "confidence": 2,
+     "why": "The tsaddik greets the arriving visitor.",
+     "quotes_failed": false
+    },
+    {
+     "tag": "not-a-hasidic-story:sermon",
+     "scope": "span",
+     "quotes": [
+      "ואני עשיתי סמוכין לדבריו ממ״ש שישו"
+     ],
+     "confidence": 1,
+     "why": "The narrative ends in a homiletic frame.",
+     "quotes_failed": false
+    }
+   ],
+   "missing_concepts": [
+    "mourning for the destruction of the Temple vs. joy",
+    "the Shekhinah dwelling with Israel in exile"
+   ],
+   "start_quote_found": true,
+   "end_quote_found": true
+  }
+ ],
+ "check": {
+  "non_vocab_tags": [],
+  "quotes": 14,
+  "quotes_not_found": 0
+ },
+ "id": "Derech-Haemuna_0205",
+ "chars": 1761,
+ "seconds": 23
+}

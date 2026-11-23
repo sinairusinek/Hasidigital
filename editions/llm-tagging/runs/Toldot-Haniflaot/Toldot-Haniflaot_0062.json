@@ -1,0 +1,118 @@
+{
+ "unit": {
+  "kind": "hasidic_story",
+  "why": "A single anecdote: the Vurke rebbe sends a message through R. Isser to the Mogielnica rebbe, who perceives that the matter has gone badly, and later events prove him right.",
+  "boundary_note": ""
+ },
+ "stories": [
+  {
+   "k": 1,
+   "start_quote": "שמעתי כ״פ מהרבני החסיד ר׳ איסר מווארקא",
+   "end_quote": "רבי שלכם הוא בשמים ואני בארץ",
+   "hasidic": true,
+   "summary_en": "Before Rosh Hashanah, the Vurke rebbe sends R. Isser to tell the Mogielnica rebbe that a known matter stands well. The Mogielnica rebbe replies that Vurke was misled and the matter stands very badly, and when this proves true, the Vurke rebbe concedes: 'your rebbe is in heaven and I am on earth.'",
+   "tags": [
+    {
+     "tag": "supernatural:perception",
+     "scope": "span",
+     "quotes": [
+      "תאמר להה״ק מווארקא שידע כי הטעו אותו",
+      "כי הדבר עומד ברע מאד ר״ל"
+     ],
+     "confidence": 3,
+     "why": "Mogielnica knows the true state of a distant matter",
+     "quotes_failed": false
+    },
+    {
+     "tag": "supernatural:prognostication",
+     "scope": "span",
+     "quotes": [
+      "ואחר איזה ימים נתוודע לו שכבר נגמר הדבר"
+     ],
+     "confidence": 2,
+     "why": "his statement is confirmed by later events",
+     "quotes_failed": false
+    },
+    {
+     "tag": "folkloristics:story_type_prognostication",
+     "scope": "story",
+     "quotes": [],
+     "confidence": 2,
+     "why": "the story's arc is a tzaddik's pronouncement that is confirmed",
+     "quotes_failed": false
+    },
+    {
+     "tag": "social:competition",
+     "scope": "span",
+     "quotes": [
+      "עתה ידעתי כי רבי שלכם הוא בשמים ואני בארץ"
+     ],
+     "confidence": 2,
+     "why": "the two tzaddikim's insight is compared and one concedes superiority",
+     "quotes_failed": false
+    },
+    {
+     "tag": "social:retrospective_recognition",
+     "scope": "span",
+     "quotes": [
+      "עתה ידעתי כי רבי שלכם הוא בשמים ואני בארץ"
+     ],
+     "confidence": 3,
+     "why": "Vurke belatedly recognizes Mogielnica's greater insight",
+     "quotes_failed": false
+    },
+    {
+     "tag": "practice:travel_to_the_tsaddik",
+     "scope": "span",
+     "quotes": [
+      "כאשר הוצרך לנסוע למאגליניצא",
+      "היה הולך אל ההק' המפורסם מווארקא ליטול רשות"
+     ],
+     "confidence": 3,
+     "why": "the hasid travels to his rebbe for Rosh Hashanah",
+     "quotes_failed": false
+    },
+    {
+     "tag": "times:holidays",
+     "scope": "span",
+     "quotes": [
+      "פ\"א קודם ר״ה כאשר הוצרך לנסוע"
+     ],
+     "confidence": 2,
+     "why": "the visit is for Rosh Hashanah",
+     "quotes_failed": false
+    },
+    {
+     "tag": "social:inter_hasidic",
+     "scope": "story",
+     "quotes": [],
+     "confidence": 2,
+     "why": "a hasid carries messages between two tzaddikim",
+     "quotes_failed": false
+    },
+    {
+     "tag": "folkloristics:story_type_virtues",
+     "scope": "story",
+     "quotes": [],
+     "confidence": 1,
+     "why": "the story praises the Mogielnica rebbe's holy spirit",
+     "quotes_failed": false
+    }
+   ],
+   "missing_concepts": [
+    "hasid as messenger between tzaddikim",
+    "asking a rebbe's permission (נטילת רשות) to travel to another tzaddik"
+   ],
+   "start_quote_found": true,
+   "end_quote_found": true
+  }
+ ],
+ "check": {
+  "non_vocab_tags": [],
+  "quotes": 8,
+  "quotes_not_found": 0
+ },
+ "id": "Toldot-Haniflaot_0062",
+ "chars": 684,
+ "seconds": 12
+}

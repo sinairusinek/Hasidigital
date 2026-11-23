@@ -1,0 +1,108 @@
+{
+ "unit": {
+  "kind": "saying_or_teaching",
+  "why": "Homiletic teachings from several Hasidic masters on bearing the yoke of divine service and on coming prepared to the tsaddik. The only narrative is a one-sentence illustrative anecdote about the Maggid of Kozienice.",
+  "boundary_note": "teachings continue into next division (עוד שם ממורי ז\"ל)"
+ },
+ "stories": [
+  {
+   "k": 1,
+   "start_quote": "וכמי שאמרו על הרב המגיד הקדוש",
+   "end_quote": "שלא התחיל עדיין ללמוד מאומה",
+   "hasidic": true,
+   "summary_en": "Before travelling to the Maggid of Mezeritch, the Maggid of Kozienice studied eight hundred kabbalistic books, yet on arriving he realized he had not yet begun to learn anything.",
+   "tags": [
+    {
+     "tag": "not-a-hasidic-story:sermon",
+     "scope": "story",
+     "quotes": [],
+     "confidence": 3,
+     "why": "The anecdote is embedded in an extended homily on preparing oneself before coming to the tsaddik.",
+     "quotes_failed": false
+    },
+    {
+     "tag": "practice:travel_to_the_tsaddik",
+     "scope": "span",
+     "quotes": [
+      "שקודם שנסע להרב המגיד הגדול זצ\"ל זי״ע ממעזריטש"
+     ],
+     "confidence": 3,
+     "why": "He journeys to the Maggid of Mezeritch.",
+     "quotes_failed": false
+    },
+    {
+     "tag": "practice:study",
+     "scope": "span",
+     "quotes": [
+      "למד מקודם שמונה מאות ספרי קבלה"
+     ],
+     "confidence": 3,
+     "why": "His study of kabbalah books is depicted.",
+     "quotes_failed": false
+    },
+    {
+     "tag": "knowledge:esoteric",
+     "scope": "span",
+     "quotes": [
+      "למד מקודם שמונה מאות ספרי קבלה"
+     ],
+     "confidence": 2,
+     "why": "The study in question is kabbalah.",
+     "quotes_failed": false
+    },
+    {
+     "tag": "ethics-and-emotions:humility",
+     "scope": "span",
+     "quotes": [
+      "ראה שלא התחיל עדיין ללמוד מאומה"
+     ],
+     "confidence": 2,
+     "why": "He recognizes how little he knows.",
+     "quotes_failed": false
+    },
+    {
+     "tag": "social:inter_hasidic_master_disciple_relationship",
+     "scope": "story",
+     "quotes": [],
+     "confidence": 2,
+     "why": "The anecdote concerns a disciple coming to his master.",
+     "quotes_failed": false
+    },
+    {
+     "tag": "practice:torat_ha_tsaddik",
+     "scope": "span",
+     "quotes": [
+      "ולאנשים כמותם יוכל הצדיק הדור להורות להם"
+     ],
+     "confidence": 2,
+     "why": "The frame argues that the tsaddik can help only those who come prepared.",
+     "quotes_failed": false
+    },
+    {
+     "tag": "social:retrospective_recognition",
+     "scope": "span",
+     "quotes": [
+      "ראה שלא התחיל עדיין ללמוד מאומה"
+     ],
+     "confidence": 1,
+     "why": "He belatedly realizes his learning amounted to nothing.",
+     "quotes_failed": false
+    }
+   ],
+   "missing_concepts": [
+    "preparation before coming to the tsaddik",
+    "yoke of the kingdom of heaven (עול מלכות שמים)"
+   ],
+   "start_quote_found": true,
+   "end_quote_found": true
+  }
+ ],
+ "check": {
+  "non_vocab_tags": [],
+  "quotes": 6,
+  "quotes_not_found": 0
+ },
+ "id": "Tiferet-Hayyim_0003",
+ "chars": 4105,
+ "seconds": 17
+}

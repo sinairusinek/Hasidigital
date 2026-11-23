@@ -1,0 +1,101 @@
+{
+ "unit": {
+  "kind": "hasidic_story",
+  "why": "A single anecdote: the young Me'or va-Shemesh hid under the Berdichever's tallit, and later the Berdichever recognized him and claimed him as his own disciple.",
+  "boundary_note": ""
+ },
+ "stories": [
+  {
+   "k": 1,
+   "start_quote": "הרה״ק ד״ז בעל מאור ושמש כאשר הי' ילד",
+   "end_quote": "הופיע בו כח הקדושה עד כי גדל למאד",
+   "hasidic": true,
+   "summary_en": "As a five-year-old, the future author of Me'or va-Shemesh hid under the tallit of R. Levi Yitzhak of Berdichev, and a holy fire was kindled in him. Years later the Noam Elimelekh boasted that he was his disciple, but the Berdichever looked at his face, recognized him and said 'this one is mine'.",
+   "tags": [
+    {
+     "tag": "social:inter_hasidic_master_disciple_relationship",
+     "scope": "story",
+     "quotes": [],
+     "confidence": 3,
+     "why": "The story turns on whose disciple the Me'or va-Shemesh is.",
+     "quotes_failed": false
+    },
+    {
+     "tag": "supernatural:light_or_fire_as_a_sign_of_righteousness",
+     "scope": "span",
+     "quotes": [
+      "ומאז בערה בהילד אש קדוש"
+     ],
+     "confidence": 2,
+     "why": "A holy fire burns in the child as a sign of holiness, though it is figurative.",
+     "quotes_failed": false
+    },
+    {
+     "tag": "social:retrospective_recognition",
+     "scope": "span",
+     "quotes": [
+      "הביט הרב מבארדיטשוב בפניו של המאור ושמש והכירו"
+     ],
+     "confidence": 3,
+     "why": "The Berdichever recognizes the grown man as the child under his tallit.",
+     "quotes_failed": false
+    },
+    {
+     "tag": "practice:clothing",
+     "scope": "span",
+     "quotes": [
+      "התחפש תחת טליתו של הרה״ק מבארדיטשוב"
+     ],
+     "confidence": 2,
+     "why": "The tzaddik's tallit is the vehicle through which holiness is transmitted.",
+     "quotes_failed": false
+    },
+    {
+     "tag": "social:competition",
+     "scope": "span",
+     "quotes": [
+      "התפאר עם הרה״ק בעל מאור ושמש כי הוא תלמידו",
+      "זה משלי הוא"
+     ],
+     "confidence": 2,
+     "why": "Two tzaddikim playfully compete over the claim to a disciple.",
+     "quotes_failed": false
+    },
+    {
+     "tag": "practice:prayer",
+     "scope": "span",
+     "quotes": [
+      "תחת טליתו של הרה״ק מבארדיטשוב לראות מעשהו"
+     ],
+     "confidence": 1,
+     "why": "The child watches the tzaddik's deeds in his tallit, implicitly at prayer.",
+     "quotes_failed": false
+    },
+    {
+     "tag": "supernatural:perception",
+     "scope": "span",
+     "quotes": [
+      "הביט הרב מבארדיטשוב בפניו של המאור ושמש והכירו"
+     ],
+     "confidence": 1,
+     "why": "He recognizes from the face the holiness he once transmitted.",
+     "quotes_failed": false
+    }
+   ],
+   "missing_concepts": [
+    "transmission of holiness through physical proximity / contact with the tzaddik's garment",
+    "childhood of a tzaddik"
+   ],
+   "start_quote_found": true,
+   "end_quote_found": true
+  }
+ ],
+ "check": {
+  "non_vocab_tags": [],
+  "quotes": 7,
+  "quotes_not_found": 0
+ },
+ "id": "Eser-Orot_0059",
+ "chars": 377,
+ "seconds": 14
+}

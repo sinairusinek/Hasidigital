@@ -1,0 +1,128 @@
+{
+ "unit": {
+  "kind": "non_hasidic_story",
+  "why": "Mainly an ethical teaching against harsh and excessive speech, quoted from an older moralistic work (א״ה פ״ה), with a short embedded exemplum: a deceased pious man appears to his wife radiant with light.",
+  "boundary_note": "Teaching on speech continues from the previous division (heading 'מענין דיבור'); the embedded exemplum is self-contained."
+ },
+ "stories": [
+  {
+   "k": 1,
+   "start_quote": "ומצינו בחסיד א׳ כשמת ובא אח״כ",
+   "end_quote": "שהיה כ״כ ממעט בדיבורו",
+   "hasidic": false,
+   "summary_en": "After a pious man died, he appeared to his wife shining like a torch and told her that he had merited this radiance because he had spoken very little in his life.",
+   "tags": [
+    {
+     "tag": "not-a-hasidic-story:sermon",
+     "scope": "story",
+     "quotes": [],
+     "confidence": 3,
+     "why": "The exemplum is wrapped in an ethical discourse about speech.",
+     "quotes_failed": false
+    },
+    {
+     "tag": "not-a-hasidic-story:virtues",
+     "scope": "span",
+     "quotes": [
+      "וזו הוא מדה טובה למעט בדבור בכל מה דאפשר"
+     ],
+     "confidence": 3,
+     "why": "The declared purpose is instruction in the virtue of restrained speech.",
+     "quotes_failed": false
+    },
+    {
+     "tag": "not-a-hasidic-story:hagiography",
+     "scope": "span",
+     "quotes": [
+      "ומצינו בחסיד א׳ כשמת ובא אח״כ לאשתו"
+     ],
+     "confidence": 1,
+     "why": "It praises an anonymous pre-Hasidic pious man taken from an older book.",
+     "quotes_failed": false
+    },
+    {
+     "tag": "supernatural:light_or_fire_as_a_sign_of_righteousness",
+     "scope": "span",
+     "quotes": [
+      "וראתה אותו מאיר מאד וכל שערות ראשו וזקנו מאירים כגד אבוקה"
+     ],
+     "confidence": 3,
+     "why": "His radiance signifies the merit of his righteousness.",
+     "quotes_failed": false
+    },
+    {
+     "tag": "supernatural:communicating_with_the_invisible",
+     "scope": "span",
+     "quotes": [
+      "והגיד לה שכ״ז זכה על שהיה כ״כ ממעט בדיבורו"
+     ],
+     "confidence": 2,
+     "why": "The dead man's soul speaks with his wife.",
+     "quotes_failed": false
+    },
+    {
+     "tag": "experience:visions",
+     "scope": "span",
+     "quotes": [
+      "ובא אח״כ לאשתו וראתה אותו מאיר מאד"
+     ],
+     "confidence": 2,
+     "why": "The wife sees her dead husband; the text does not say whether this was a dream.",
+     "quotes_failed": false
+    },
+    {
+     "tag": "times:death",
+     "scope": "span",
+     "quotes": [
+      "ומצינו בחסיד א׳ כשמת"
+     ],
+     "confidence": 2,
+     "why": "The pious man's death frames the apparition.",
+     "quotes_failed": false
+    },
+    {
+     "tag": "women:minor_character",
+     "scope": "span",
+     "quotes": [
+      "ובא אח״כ לאשתו וראתה אותו מאיר מאד"
+     ],
+     "confidence": 2,
+     "why": "The wife is the one who sees him and hears his message.",
+     "quotes_failed": false
+    },
+    {
+     "tag": "ethics-and-emotions:virtues",
+     "scope": "story",
+     "quotes": [],
+     "confidence": 3,
+     "why": "The exemplum illustrates the merit of minimal speech.",
+     "quotes_failed": false
+    },
+    {
+     "tag": "ethics-and-emotions:punishment",
+     "scope": "span",
+     "quotes": [
+      "שיצטרך לסבול צער גדול בשביל דבור קל"
+     ],
+     "confidence": 1,
+     "why": "The surrounding frame describes the posthumous suffering that follows sinful speech.",
+     "quotes_failed": false
+    }
+   ],
+   "missing_concepts": [
+    "guarding one's speech (שמירת הלשון / מיעוט דיבור)",
+    "apparition of a dead person to the living"
+   ],
+   "start_quote_found": true,
+   "end_quote_found": true
+  }
+ ],
+ "check": {
+  "non_vocab_tags": [],
+  "quotes": 8,
+  "quotes_not_found": 0
+ },
+ "id": "Derech-Haemuna_0057",
+ "chars": 811,
+ "seconds": 20
+}

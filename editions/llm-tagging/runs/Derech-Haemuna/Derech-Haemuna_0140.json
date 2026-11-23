@@ -1,0 +1,140 @@
+{
+ "unit": {
+  "kind": "hasidic_story",
+  "why": "A short anecdote (someone slaps R. Elimelech, who forgives him wholeheartedly) and a reported saying of his about the messiah, quoted from an earlier book and set inside a homiletic explanation of why the wicked persecute tzaddikim.",
+  "boundary_note": "Quoted from ס' בשביל אמונה; the next division begins a new quoted story from ס' ס\"ה."
+ },
+ "stories": [
+  {
+   "k": 1,
+   "start_quote": "ובס׳ הנ״ל (בשביל אמונה) וז״ל ובפרט",
+   "end_quote": "ואהבה ודביקות ושמחה בעבודתו",
+   "hasidic": true,
+   "summary_en": "Someone strikes R. Elimelech of Lizhensk on the cheek and he forgives him so that no one will be punished on his account. The narrator's father-in-law heard him say that if two women would stop quarrelling over him, he would bring the messiah, and that he had already sweetened the decrees foretold for the end of days. A homily follows on why persecution by wicked people refines the tzaddik.",
+   "tags": [
+    {
+     "tag": "social:conflict",
+     "scope": "span",
+     "quotes": [
+      "ופ״א הכה אחד על לחי לרבינו אלימלך"
+     ],
+     "confidence": 3,
+     "why": "an assailant strikes the tzaddik; persecution of tzaddikim is the theme",
+     "quotes_failed": false
+    },
+    {
+     "tag": "ethics-and-emotions:virtues",
+     "scope": "span",
+     "quotes": [
+      "אני מוחל בלב שלם ובלב שמח"
+     ],
+     "confidence": 3,
+     "why": "wholehearted forgiveness of the assailant",
+     "quotes_failed": false
+    },
+    {
+     "tag": "folkloristics:story_type_virtues",
+     "scope": "story",
+     "quotes": [],
+     "confidence": 2,
+     "why": "the anecdote illustrates the tzaddik's forbearance",
+     "quotes_failed": false
+    },
+    {
+     "tag": "characters-and-roles:messiah",
+     "scope": "span",
+     "quotes": [
+      "ותביא משיח וגאולה שלימה"
+     ],
+     "confidence": 3,
+     "why": "R. Elimelech's messianic claim",
+     "quotes_failed": false
+    },
+    {
+     "tag": "times:eschatology",
+     "scope": "span",
+     "quotes": [
+      "גזירות רעות ויסורים שיהיו קודם ביאת משיח",
+      "כבר המתיק אותם וביטל אותם אלימלך"
+     ],
+     "confidence": 3,
+     "why": "the tribulations before the messiah, which he says he has already annulled",
+     "quotes_failed": false
+    },
+    {
+     "tag": "not-a-hasidic-story:sermon",
+     "scope": "story",
+     "quotes": [],
+     "confidence": 3,
+     "why": "the anecdote is wrapped in a long homiletic justification",
+     "quotes_failed": false
+    },
+    {
+     "tag": "practice:torat_ha_tsaddik",
+     "scope": "span",
+     "quotes": [
+      "הסבה הוא שהצדיק הולך בדביקתו ואהבתו",
+      "ולכן הש״י שולח לצדיק נסיונת"
+     ],
+     "confidence": 2,
+     "why": "doctrine of the tzaddik's trials and of heavenly accusation against him",
+     "quotes_failed": false
+    },
+    {
+     "tag": "practice:devekut",
+     "scope": "span",
+     "quotes": [
+      "שמוסיף חור ואהבה ודביקות ושמחה בעבודתו"
+     ],
+     "confidence": 1,
+     "why": "devekut is discussed as a trait of the tzaddik, not narrated",
+     "quotes_failed": false
+    },
+    {
+     "tag": "ethics-and-emotions:shame",
+     "scope": "span",
+     "quotes": [
+      "ע״י אנשים רעים שמבזין אותו ומחלישין דעתו"
+     ],
+     "confidence": 2,
+     "why": "the tzaddik is humiliated by wicked people",
+     "quotes_failed": false
+    },
+    {
+     "tag": "women:mention_only",
+     "scope": "span",
+     "quotes": [
+      "ינוחו מלחלוק עלי שתי נשים"
+     ],
+     "confidence": 2,
+     "why": "two women are referred to but do not act",
+     "quotes_failed": false
+    },
+    {
+     "tag": "social:inter_hasidic_conflict_between_tsaddikim",
+     "scope": "span",
+     "quotes": [],
+     "confidence": 1,
+     "why": "no conflict between tzaddikim is shown in this division; this quote is from the previous division and does not apply here",
+     "quotes_failed": false
+    }
+   ],
+   "missing_concepts": [
+    "forgiveness of an assailant",
+    "persecution of tzaddikim by the wicked as a divine trial",
+    "heavenly accusation (קטרוג) against the tzaddik",
+    "sweetening (המתקה) of decrees"
+   ],
+   "start_quote_found": true,
+   "end_quote_found": true
+  }
+ ],
+ "check": {
+  "non_vocab_tags": [],
+  "quotes": 11,
+  "quotes_not_found": 1
+ },
+ "id": "Derech-Haemuna_0140",
+ "chars": 1149,
+ "seconds": 18
+}

@@ -1,0 +1,153 @@
+{
+ "unit": {
+  "kind": "hasidic_story",
+  "why": "A short anecdote about the Besht in Istanbul opening one of R. Naftali Ha-Kohen's amulets. It is retold by R. David Moshe, who adds a homiletic explanation.",
+  "boundary_note": ""
+ },
+ "stories": [
+  {
+   "k": 1,
+   "start_quote": "פ\"א סיפר המעשה שבעת שהיה הבעש״ט",
+   "end_quote": "הוי כהוגה את השם וכו׳ ודפח\"ח",
+   "hasidic": true,
+   "summary_en": "On his journey to the Land of Israel the Besht, in Istanbul, had one of R. Naftali Ha-Kohen's famous amulets opened and found only R. Naftali's own name written in it; R. David Moshe draws from this an explanation of the rabbinic rule that one who calls his master by name is liable to death.",
+   "tags": [
+    {
+     "tag": "practice:writing_amulets",
+     "scope": "span",
+     "quotes": [
+      "שנותן קמיעות ומשמש בשמות הקדושים",
+      "וביקש הבעש״ט מאחד שיביא לו איזה קמיע"
+     ],
+     "confidence": 3,
+     "why": "The plot centres on an amulet and its contents.",
+     "quotes_failed": false
+    },
+    {
+     "tag": "practice:use_of_holy_names",
+     "scope": "span",
+     "quotes": [
+      "ומשמש בשמות הקדושים",
+      "יוכל להיות שיועיל כמו שם משמות הקדושים"
+     ],
+     "confidence": 3,
+     "why": "Use of holy names, and the tsaddik's name acting as one.",
+     "quotes_failed": false
+    },
+    {
+     "tag": "knowledge:practical_kabbalah",
+     "scope": "span",
+     "quotes": [
+      "והשם הזה לבד הי' מועיל לכל מה"
+     ],
+     "confidence": 2,
+     "why": "The amulet's practical efficacy.",
+     "quotes_failed": false
+    },
+    {
+     "tag": "characters-and-roles:baal_shem",
+     "scope": "span",
+     "quotes": [
+      "מהרב רבי ר׳ נפתלי הכהן זללה\"ה"
+     ],
+     "confidence": 2,
+     "why": "R. Naftali Katz is a pre-Hasidic kabbalist who writes amulets.",
+     "quotes_failed": false
+    },
+    {
+     "tag": "practice:the_travels_of_the_tsaddik",
+     "scope": "span",
+     "quotes": [
+      "בעיר סטאמבול בנסיעתו לאה״ק"
+     ],
+     "confidence": 3,
+     "why": "The Besht's stay in Istanbul en route.",
+     "quotes_failed": false
+    },
+    {
+     "tag": "spaces:the_land_of_israel",
+     "scope": "span",
+     "quotes": [
+      "בנסיעתו לאה״ק"
+     ],
+     "confidence": 2,
+     "why": "The Land of Israel is the destination of the journey.",
+     "quotes_failed": false
+    },
+    {
+     "tag": "practice:storytelling",
+     "scope": "span",
+     "quotes": [
+      "פ\"א סיפר המעשה"
+     ],
+     "confidence": 3,
+     "why": "The tale is framed as told by R. David Moshe.",
+     "quotes_failed": false
+    },
+    {
+     "tag": "practice:sermon",
+     "scope": "span",
+     "quotes": [
+      "שבזה מובן שפיר מה שאמרו חז\"ל"
+     ],
+     "confidence": 3,
+     "why": "R. David Moshe's exegetical comment on the tale.",
+     "quotes_failed": false
+    },
+    {
+     "tag": "practice:halakhah",
+     "scope": "span",
+     "quotes": [
+      "שהקורא לרבו בשמו חייב מיתה",
+      "הוי כהוגה את השם"
+     ],
+     "confidence": 2,
+     "why": "The rule on calling one's master by name is discussed.",
+     "quotes_failed": false
+    },
+    {
+     "tag": "ethics-and-emotions:prohibitions",
+     "scope": "span",
+     "quotes": [
+      "שהקורא לרבו בשמו חייב מיתה"
+     ],
+     "confidence": 2,
+     "why": "A prohibition and its severe penalty are discussed.",
+     "quotes_failed": false
+    },
+    {
+     "tag": "social:retrospective_recognition",
+     "scope": "span",
+     "quotes": [
+      "רק שמו הקדוש נפתלי הכהן"
+     ],
+     "confidence": 2,
+     "why": "It is discovered that the amulet's power lay in the rabbi's own name.",
+     "quotes_failed": false
+    },
+    {
+     "tag": "not-a-hasidic-story:sermon",
+     "scope": "story",
+     "quotes": [],
+     "confidence": 1,
+     "why": "The short narrative is wrapped in a homiletic and halakhic explanation.",
+     "quotes_failed": false
+    }
+   ],
+   "missing_concepts": [
+    "holiness/power of a tsaddik's personal name",
+    "the Besht's journey to the Land of Israel"
+   ],
+   "start_quote_found": true,
+   "end_quote_found": true
+  }
+ ],
+ "check": {
+  "non_vocab_tags": [],
+  "quotes": 14,
+  "quotes_not_found": 0
+ },
+ "id": "Eser-Orot_0350",
+ "chars": 538,
+ "seconds": 17
+}

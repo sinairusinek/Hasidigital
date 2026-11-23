@@ -1,0 +1,114 @@
+{
+ "unit": {
+  "kind": "hasidic_story",
+  "why": "A short anecdote about R. Menahem Mendel of Rymanów weeping on parting from the Maggid of Kozienice after a Sabbath, and how he was consoled.",
+  "boundary_note": ""
+ },
+ "stories": [
+  {
+   "k": 1,
+   "start_quote": "עוד שמעתי ממנו שסיפר שפ\"א כשהי׳",
+   "end_quote": "עכ״ל של הגר\"ח שי' מפלאצק",
+   "hasidic": true,
+   "summary_en": "After spending a Sabbath with the Maggid of Kozienice, R. Menahem Mendel of Rymanów wept bitterly at having to leave such a rebbe, until his companions consoled him: if the Maggid is truly his rebbe, he knows what he is doing and grieves at his grief.",
+   "tags": [
+    {
+     "tag": "practice:travel_to_the_tsaddik",
+     "scope": "span",
+     "quotes": [
+      "מרימינאב אצל המגיד הק׳ ז\"ל על ש\"ק"
+     ],
+     "confidence": 3,
+     "why": "He came to the Maggid for Shabbat.",
+     "quotes_failed": false
+    },
+    {
+     "tag": "times:shabbat",
+     "scope": "span",
+     "quotes": [
+      "ויהי אחר ש\"ק כאשר נתפרד לשלום"
+     ],
+     "confidence": 2,
+     "why": "The visit and the parting are set around Shabbat.",
+     "quotes_failed": false
+    },
+    {
+     "tag": "ethics-and-emotions:sadness",
+     "scope": "span",
+     "quotes": [
+      "הצטער מאד ובכה בכי רב בדמעות שליש",
+      "וימאן להתנחם"
+     ],
+     "confidence": 2,
+     "why": "His grief at parting is the core of the story.",
+     "quotes_failed": false
+    },
+    {
+     "tag": "social:inter_hasidic_master_disciple_relationship",
+     "scope": "span",
+     "quotes": [
+      "אם אתם מחזיקים אותו לרבי"
+     ],
+     "confidence": 3,
+     "why": "His attachment to the Maggid as his rebbe is central.",
+     "quotes_failed": false
+    },
+    {
+     "tag": "practice:torat_ha_tsaddik",
+     "scope": "span",
+     "quotes": [
+      "הלא ידעתם שיודע מה אתם עושים פה",
+      "יש לו צער מצעריכם"
+     ],
+     "confidence": 2,
+     "why": "The consolation rests on faith in the rebbe's awareness of, and bond with, his disciple.",
+     "quotes_failed": false
+    },
+    {
+     "tag": "supernatural:perception",
+     "scope": "span",
+     "quotes": [
+      "שיודע מה אתם עושים פה"
+     ],
+     "confidence": 1,
+     "why": "The companions assume the rebbe knows at a distance what is happening.",
+     "quotes_failed": false
+    },
+    {
+     "tag": "social:inter_hasidic",
+     "scope": "span",
+     "quotes": [
+      "והאנשים שהיו אתו דברו על לבו"
+     ],
+     "confidence": 2,
+     "why": "His companions comfort him.",
+     "quotes_failed": false
+    },
+    {
+     "tag": "practice:storytelling",
+     "scope": "span",
+     "quotes": [
+      "עוד שמעתי ממנו שסיפר"
+     ],
+     "confidence": 1,
+     "why": "The text gives its chain of oral transmission.",
+     "quotes_failed": false
+    }
+   ],
+   "missing_concepts": [
+    "weeping/grief at parting from the rebbe",
+    "the rebbe's empathy with his followers' sorrow"
+   ],
+   "start_quote_found": true,
+   "end_quote_found": true
+  }
+ ],
+ "check": {
+  "non_vocab_tags": [],
+  "quotes": 10,
+  "quotes_not_found": 0
+ },
+ "id": "Eser-Orot_0134",
+ "chars": 423,
+ "seconds": 14
+}

@@ -1,0 +1,81 @@
+{
+ "unit": {
+  "kind": "hasidic_story",
+  "why": "A short tale about R. Yeshaya of Dinovitz miraculously receiving a cantor's sweet voice after praying for it.",
+  "boundary_note": ""
+ },
+ "stories": [
+  {
+   "k": 1,
+   "start_quote": "פ״א סיפר איך שהרה״ק ר׳ ישעי׳ מדיניוויץ",
+   "end_quote": "ומאז הי' מנגן גדול מאד",
+   "hasidic": true,
+   "summary_en": "R. Yeshaya of Dinovitz, who had no singing voice, heard a cantor singing sweetly and asked God for that voice so he could serve Him with it; the voice passed from the cantor to him, and from then on he was a great singer.",
+   "tags": [
+    {
+     "tag": "practice:music",
+     "scope": "span",
+     "quotes": [
+      "ושמע חון אחד משורר בקול ערב מאד",
+      "ומאז הי' מנגן גדול מאד"
+     ],
+     "confidence": 3,
+     "why": "singing and the gift of melody are the subject",
+     "quotes_failed": false
+    },
+    {
+     "tag": "supernatural:miracle",
+     "scope": "span",
+     "quotes": [
+      "ונתחלף הקול מהחזן והי' לר׳ ישעי׳ זצ\"ל"
+     ],
+     "confidence": 3,
+     "why": "the voice miraculously passes from the cantor to the tsaddik",
+     "quotes_failed": false
+    },
+    {
+     "tag": "practice:prayer",
+     "scope": "span",
+     "quotes": [
+      "אמר רבש\"ע אם תתן לי זה הקול ערב אעבדך בזה"
+     ],
+     "confidence": 2,
+     "why": "the tsaddik petitions God",
+     "quotes_failed": false
+    },
+    {
+     "tag": "practice:storytelling",
+     "scope": "span",
+     "quotes": [
+      "פ״א סיפר איך שהרה״ק ר׳ ישעי׳ מדיניוויץ"
+     ],
+     "confidence": 2,
+     "why": "framed as a tale told by the book's master",
+     "quotes_failed": false
+    },
+    {
+     "tag": "folkloristics:story_type_virtues",
+     "scope": "story",
+     "quotes": [],
+     "confidence": 1,
+     "why": "shows his desire to serve God with everything he has",
+     "quotes_failed": false
+    }
+   ],
+   "missing_concepts": [
+    "transfer of a gift or talent from one person to another",
+    "cantor (hazzan) as a character"
+   ],
+   "start_quote_found": true,
+   "end_quote_found": true
+  }
+ ],
+ "check": {
+  "non_vocab_tags": [],
+  "quotes": 5,
+  "quotes_not_found": 0
+ },
+ "id": "Eser-Orot_0334",
+ "chars": 257,
+ "seconds": 9
+}

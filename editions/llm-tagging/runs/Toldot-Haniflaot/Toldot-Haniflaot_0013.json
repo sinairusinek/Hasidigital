@@ -1,0 +1,181 @@
+{
+ "unit": {
+  "kind": "several_stories",
+  "why": "The division holds an anecdote about the Maggid of Mezeritch questioning the Maggid of Zlotchov about his grandson, then an editorial note with a second short anecdote about a young man after the Megillah reading, which turns into a teaching on 'frum'.",
+  "boundary_note": "the second anecdote sits inside an editor's parenthetical note (א\"ה)"
+ },
+ "stories": [
+  {
+   "k": 1,
+   "start_quote": "שמעתי מפיו הק׳ כ״פ שסיפר כי",
+   "end_quote": "ואמר כי אין אתה מבין כלל",
+   "hasidic": true,
+   "summary_en": "The tsaddik often told that, as a small boy, his grandfather the Maggid of Mezeritch asked the Maggid of Zlotchov whether he knew the boy; when the Zlotchover called him very 'frum', the Maggid grew angry and said he understood nothing.",
+   "tags": [
+    {
+     "tag": "practice:storytelling",
+     "scope": "span",
+     "quotes": [
+      "שמעתי מפיו הק׳ כ״פ שסיפר"
+     ],
+     "confidence": 2,
+     "why": "framed as a tale the tsaddik told many times",
+     "quotes_failed": false
+    },
+    {
+     "tag": "characters-and-roles:the_family_of_the_tsaddik",
+     "scope": "span",
+     "quotes": [
+      "המכיר כבודו את נכדי שלי״ט הלזה"
+     ],
+     "confidence": 3,
+     "why": "the Maggid and his grandson",
+     "quotes_failed": false
+    },
+    {
+     "tag": "characters-and-roles:preacher",
+     "scope": "span",
+     "quotes": [
+      "היה המגיד מזאלטשוב בעל אורח לחיים"
+     ],
+     "confidence": 1,
+     "why": "the Maggid of Zlotchov appears, though as a tsaddik rather than in the separate role of preacher",
+     "quotes_failed": false
+    },
+    {
+     "tag": "ethics-and-emotions:anger",
+     "scope": "span",
+     "quotes": [
+      "וכעס עליו הה״מ זצ״ל"
+     ],
+     "confidence": 3,
+     "why": "the Maggid is angry at the Zlotchover's judgment",
+     "quotes_failed": false
+    },
+    {
+     "tag": "social:inter_hasidic",
+     "scope": "story",
+     "quotes": [],
+     "confidence": 2,
+     "why": "an exchange between two tsaddikim",
+     "quotes_failed": false
+    },
+    {
+     "tag": "practice:travel_to_other_tsaddik",
+     "scope": "span",
+     "quotes": [
+      "היה המגיד מזאלטשוב בעל אורח לחיים אצל"
+     ],
+     "confidence": 1,
+     "why": "the Zlotchover is visiting the Maggid",
+     "quotes_failed": false
+    },
+    {
+     "tag": "folkloristics:story_type_virtues",
+     "scope": "story",
+     "quotes": [],
+     "confidence": 1,
+     "why": "the point is the boy's true, not merely 'frum', piety",
+     "quotes_failed": false
+    }
+   ],
+   "missing_concepts": [
+    "critique of 'frumkeit' (formal piety)",
+    "the tsaddik's childhood"
+   ],
+   "start_quote_found": true,
+   "end_quote_found": true
+  },
+  {
+   "k": 2,
+   "start_quote": "ופ״א שמעתי כי אחר קריאת המגילה",
+   "end_quote": "כמ״ש באהבתו תשגה תמיד",
+   "hasidic": true,
+   "summary_en": "After the rebbe read the Megillah himself, a young hasid who had followed along feared he had missed a word; the rebbe called this 'frum' and taught that the essence is cleaving to God's will in the mitzvah, not merely fulfilling the obligation.",
+   "tags": [
+    {
+     "tag": "times:holidays",
+     "scope": "span",
+     "quotes": [
+      "אחר קריאת המגילה שהיה הוא ז\"ל קורא בעצמו"
+     ],
+     "confidence": 3,
+     "why": "Purim Megillah reading",
+     "quotes_failed": false
+    },
+    {
+     "tag": "practice:halakhah",
+     "scope": "span",
+     "quotes": [
+      "ולכן הוא ירא אולי לא יצאתי י\"ח"
+     ],
+     "confidence": 2,
+     "why": "concern about fulfilling the obligation of the mitzvah",
+     "quotes_failed": false
+    },
+    {
+     "tag": "ethics-and-emotions:fear",
+     "scope": "span",
+     "quotes": [
+      "כי ירא אנכי אולי לא שמעתי היטב"
+     ],
+     "confidence": 2,
+     "why": "the young man's fear that he did not fulfil the mitzvah",
+     "quotes_failed": false
+    },
+    {
+     "tag": "practice:devekut",
+     "scope": "span",
+     "quotes": [
+      "והאדם צריך לדבק כ״ב בהרצון ה׳"
+     ],
+     "confidence": 2,
+     "why": "teaching on cleaving to the divine will",
+     "quotes_failed": false
+    },
+    {
+     "tag": "practice:sermon",
+     "scope": "span",
+     "quotes": [
+      "אבל העיקר הכונה הוא לקיים רצון ה'"
+     ],
+     "confidence": 2,
+     "why": "the tsaddik's teaching with a verse",
+     "quotes_failed": false
+    },
+    {
+     "tag": "not-a-hasidic-story:sermon",
+     "scope": "story",
+     "quotes": [],
+     "confidence": 1,
+     "why": "the anecdote is mostly a frame for a teaching on 'frum'",
+     "quotes_failed": false
+    },
+    {
+     "tag": "social:inter_hasidic_master_disciple_relationship",
+     "scope": "span",
+     "quotes": [
+      "ועמד אצלו אברך חסיד וי״ש אחד"
+     ],
+     "confidence": 1,
+     "why": "the rebbe corrects a hasid's attitude",
+     "quotes_failed": false
+    }
+   ],
+   "missing_concepts": [
+    "critique of 'frumkeit' / scrupulosity",
+    "Megillah reading"
+   ],
+   "start_quote_found": true,
+   "end_quote_found": true
+  }
+ ],
+ "check": {
+  "non_vocab_tags": [],
+  "quotes": 11,
+  "quotes_not_found": 0
+ },
+ "id": "Toldot-Haniflaot_0013",
+ "chars": 862,
+ "seconds": 22
+}

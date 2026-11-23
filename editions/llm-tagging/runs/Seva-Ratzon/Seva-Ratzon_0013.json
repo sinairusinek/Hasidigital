@@ -1,0 +1,126 @@
+{
+ "unit": {
+  "kind": "hasidic_story",
+  "why": "A single anecdote told by R. Berish about how the Seer of Lublin, at a great wedding, had him fill his pipe and thereby gave him the power to divest himself of corporeality.",
+  "boundary_note": ""
+ },
+ "stories": [
+  {
+   "k": 1,
+   "start_quote": "סיפר הרב ר׳ בעריש פעם א׳ הי׳ חתונה",
+   "end_quote": "יכול להפשיט מעליו הגשמיות",
+   "hasidic": true,
+   "summary_en": "At a great wedding in Zarnovtsa attended by hundreds of tzaddikim, the Seer of Lublin had the young R. Berish fill and light his pipe; when R. Berish handed it over he lost all his senses, then regained them as the Seer spoke to him, and from then on he could divest himself of corporeality at will.",
+   "tags": [
+    {
+     "tag": "practice:smoking",
+     "scope": "span",
+     "quotes": [
+      "זה האברך יעש לי הפייף",
+      "ובעת לקחו מירו הפייף הרגיש"
+     ],
+     "confidence": 3,
+     "why": "Filling the tzaddik's pipe is the act through which the transmission happens",
+     "quotes_failed": false
+    },
+    {
+     "tag": "practice:storytelling",
+     "scope": "span",
+     "quotes": [
+      "סיפר הרב ר׳ בעריש פעם א׳"
+     ],
+     "confidence": 2,
+     "why": "Framed as a first-person memorate narrated by R. Berish",
+     "quotes_failed": false
+    },
+    {
+     "tag": "social:marriage",
+     "scope": "span",
+     "quotes": [
+      "הי׳ חתונה גדולה בזארנווצא",
+      "שהה״ק מלובלין הי׳ המחותן"
+     ],
+     "confidence": 2,
+     "why": "A great wedding is the setting, with the Seer as an in-law of the couple",
+     "quotes_failed": false
+    },
+    {
+     "tag": "experience:devekut",
+     "scope": "span",
+     "quotes": [
+      "קבל ממנו ענין התפשטות הגשמיות",
+      "יכול להפשיט מעליו הגשמיות"
+     ],
+     "confidence": 2,
+     "why": "He gains the mystical capacity to divest himself of corporeality",
+     "quotes_failed": false
+    },
+    {
+     "tag": "practice:devekut",
+     "scope": "span",
+     "quotes": [
+      "הרגיש הרב ר׳ בעריש שהלכו ממנו כל החושים"
+     ],
+     "confidence": 2,
+     "why": "A rapt state in which the senses depart",
+     "quotes_failed": false
+    },
+    {
+     "tag": "social:inter_hasidic_master_disciple_relationship",
+     "scope": "span",
+     "quotes": [
+      "ורמז בידו על הרב ר׳ בעריש",
+      "ואז קבל ממנו ענין התפשטות הגשמיות"
+     ],
+     "confidence": 3,
+     "why": "The Seer singles out the young man and transmits a spiritual capacity to him",
+     "quotes_failed": false
+    },
+    {
+     "tag": "social:inter_hasidic",
+     "scope": "span",
+     "quotes": [
+      "והי׳ שם צדיקים יותר מב׳ מאות"
+     ],
+     "confidence": 2,
+     "why": "A mass gathering of tzaddikim and hasidim",
+     "quotes_failed": false
+    },
+    {
+     "tag": "supernatural:miracle",
+     "scope": "span",
+     "quotes": [
+      "פתאום בא אליו חזרה כל החושים"
+     ],
+     "confidence": 1,
+     "why": "A sudden supernatural transformation brought about by touching the pipe",
+     "quotes_failed": false
+    },
+    {
+     "tag": "supernatural:perception",
+     "scope": "span",
+     "quotes": [
+      "ורמז בידו על הרב ר׳ בעריש זה האברך"
+     ],
+     "confidence": 1,
+     "why": "The Seer picks out the unknown young man from the crowd, implicitly perceiving his potential",
+     "quotes_failed": false
+    }
+   ],
+   "missing_concepts": [
+    "hitpashtut ha-gashmiyut (divestment of corporeality) as a transmitted spiritual gift",
+    "transmission of spiritual power through an object or service to the tzaddik"
+   ],
+   "start_quote_found": true,
+   "end_quote_found": true
+  }
+ ],
+ "check": {
+  "non_vocab_tags": [],
+  "quotes": 13,
+  "quotes_not_found": 0
+ },
+ "id": "Seva-Ratzon_0013",
+ "chars": 685,
+ "seconds": 18
+}

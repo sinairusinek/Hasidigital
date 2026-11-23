@@ -1,0 +1,103 @@
+{
+ "unit": {
+  "kind": "hasidic_story",
+  "why": "A short anecdote quoted from the preface of Zohar Hai: R. Zvi of Zhidachov blesses his six-year-old son to lose his ruach ha-kodesh until age thirty, the child agrees, and it departs from him at once.",
+  "boundary_note": ""
+ },
+ "stories": [
+  {
+   "k": 1,
+   "start_quote": "ובהקדמת זוהר חי כתב בנו",
+   "end_quote": "נסתלק ממנו הרוה״ק שהי׳ לו מקודם",
+   "hasidic": true,
+   "summary_en": "When his son reached his sixth year, R. Zvi of Zhidachov blessed him to stop speaking with the holy spirit until age thirty so it would not harm his simple Jewish piety; the child agreed and the holy spirit immediately left him.",
+   "tags": [
+    {
+     "tag": "characters-and-roles:the_family_of_the_tsaddik",
+     "scope": "span",
+     "quotes": [
+      "כתב בנו הרה״צ מוהר\"א",
+      "מיין קינד איך וועל דיך בענטשין"
+     ],
+     "confidence": 3,
+     "why": "Father-tsaddik and his child are the protagonists",
+     "quotes_failed": false
+    },
+    {
+     "tag": "supernatural:perception",
+     "scope": "span",
+     "quotes": [
+      "דוא זאלסט שוין נישט זאגין קיין רוח הקודש",
+      "נסתלק ממנו הרוה״ק שהי׳ לו מקודם"
+     ],
+     "confidence": 3,
+     "why": "The child possessed ruach ha-kodesh (supernatural knowledge)",
+     "quotes_failed": false
+    },
+    {
+     "tag": "supernatural:miracle",
+     "scope": "span",
+     "quotes": [
+      "ותיכף ומיד נסתלק ממנו הרוה״ק"
+     ],
+     "confidence": 2,
+     "why": "The blessing immediately removes the child's holy spirit, a discrete before/after supernatural event",
+     "quotes_failed": false
+    },
+    {
+     "tag": "ethics-and-emotions:humility",
+     "scope": "span",
+     "quotes": [
+      "לעבוד הבוב״ה בפשיטות גדול"
+     ],
+     "confidence": 2,
+     "why": "Worshipping God in simplicity rather than with displays of spiritual gifts",
+     "quotes_failed": false
+    },
+    {
+     "tag": "supernatural:prognostication",
+     "scope": "span",
+     "quotes": [
+      "וכשתהי׳ בן שלשים ותרצה אז אחזור לך המדריגה"
+     ],
+     "confidence": 1,
+     "why": "Promise that the spiritual level will return at thirty",
+     "quotes_failed": false
+    },
+    {
+     "tag": "social:inter_hasidic_master_disciple_relationship",
+     "scope": "span",
+     "quotes": [
+      "ונתרצה הילד הקדוש"
+     ],
+     "confidence": 1,
+     "why": "Father acts as spiritual guide shaping the son's path",
+     "quotes_failed": false
+    },
+    {
+     "tag": "folkloristics:story_type_virtues",
+     "scope": "story",
+     "quotes": [],
+     "confidence": 2,
+     "why": "The anecdote illustrates the tsaddik's preference for simple, unassuming worship",
+     "quotes_failed": false
+    }
+   ],
+   "missing_concepts": [
+    "child prodigy / precocious holiness",
+    "deliberate renunciation or suspension of spiritual gifts",
+    "Yiddish speech quoted within Hebrew text"
+   ],
+   "start_quote_found": true,
+   "end_quote_found": true
+  }
+ ],
+ "check": {
+  "non_vocab_tags": [],
+  "quotes": 8,
+  "quotes_not_found": 0
+ },
+ "id": "Eser-Kedushot_0160",
+ "chars": 398,
+ "seconds": 16
+}

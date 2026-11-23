@@ -18,7 +18,7 @@
 					<name>DictaBert</name>
 					<note>automatic tagging, corrected with Gemini; not yet reviewed by hand</note>
 				</respStmt>
-			</titleStmt><editionStmt><edition n="1.0.0">Working edition</edition></editionStmt>
+			<respStmt xml:id="llm-tagging"><resp>Topic tags: assigned by Claude Opus 5.5 with the project's topic scheme (editions/llm-tagging; calibrated 2026-11-16, est. precision 0.89 / recall 0.90, model-judged); not reviewed by hand</resp><name>Claude Opus 5.5 (Anthropic)</name></respStmt></titleStmt><editionStmt><edition n="1.0.0">Working edition</edition></editionStmt>
 			<publicationStmt>
 				<p>This edition was created in the framework of the the project "Historical Digital
 					Analysis of Hasidic Stories Until 1914", PI: Gadi Sagiv; Supervising
@@ -28,7 +28,7 @@
 			</publicationStmt>
 			<sourceDesc><bibl type="original"><title type="main" xml:lang="he">עשר קדושות</title><title type="main" xml:lang="en">Eser Kedushoth</title><author><persName xml:lang="he">ישראל ברגר</persName><persName xml:lang="en">Yisrael Berger</persName></author><pubPlace xml:lang="he">פיוטרקוב</pubPlace><pubPlace xml:lang="en">Piotrkow</pubPlace><date when="1906">תרס"ו</date><textLang mainLang="heb"/><idno type="Kima">250</idno><idno type="Transkribus">9194695</idno><idno type="DBid">3734</idno><idno type="work">86</idno></bibl></sourceDesc>
 		</fileDesc>
-	<revisionDesc><change when="2026-11-22">header in the shape of the online editions; page breaks restored from the Transkribus export</change><change when="2026-11-22">NER: DictaBERT, corrected with Gemini 2.5 Flash (not yet reviewed by hand); pipeline FLAGGED notes removed</change></revisionDesc></teiHeader>
+	<revisionDesc><change when="2026-11-22">header in the shape of the online editions; page breaks restored from the Transkribus export</change><change when="2026-11-22">NER: DictaBERT, corrected with Gemini 2.5 Flash (not yet reviewed by hand); pipeline FLAGGED notes removed</change><change when="2026-11-23">topic tags (LLM, confidence &gt;= 2) written for 181 stories; not reviewed by hand</change></revisionDesc></teiHeader>
 	<text>
 		<front><div type="front-matter"><p>
 					<pb facs="Eser-Kedushot_0005.jpg"/><lb/>ספר <name type="work">זכות ישראל</name>
@@ -342,9 +342,9 @@
 					<lb/>הרה״ק <persName>מוהרצ"א</persName> הנ"ל בשם רבו הק׳ הרבי מ<placeName ref="#H-LOC_56">לובלין</placeName> [הובא בספרותינו במע׳
 					<lb/>הרה״ק מ<placeName ref="#H-LOC_56">לובלין</placeName>] אשר י"ב ימים הראשונים <placeName>דניסן</placeName> הם כח כללי לי״ב חדשי השנה
 					<lb/>כל יום רומז לחודש שלם וכו' וזכי הראות יכולין להתבונן בכל יום איזה
-					<lb/>מאורעות יהי' בחודש אשר הוא נגד היום ההוא והרה״ק מ<placeName ref="#H-LOC_56">לובלין</placeName> הי<persName>׳</persName> כותב
+					<lb/>מאורעות יהי' בחודש אשר הוא נגד היום ההוא </p><div type="story" xml:id="Eser-Kedushot_non-story-009_s1" subtype="in-non-story"><head type="storyHead">Eser-Kedushot_non-story-009_s1</head><span ana="not-a-hasidic-story:sermon; supernatural:perception; practice:sermon; supernatural:prognostication; times:death" resp="#llm-tagging">תיוגים</span><p>והרה״ק מ<placeName ref="#H-LOC_56">לובלין</placeName> הי<persName>׳</persName> כותב
 					<lb/>ברוח קדשו בכל יום מה שיהי' בכל החודש וכו' ובשנה שנתבקש בישיבה ש"מ
-					<lb/>ב<date>חדש מנחם</date> לא כתב רק עד יום <date>ה׳ דניסן</date> וכו׳ עיי״ש הנה לפי״ז אתה תבין
+					<lb/>ב<date>חדש מנחם</date> לא כתב רק עד יום <date>ה׳ דניסן</date></p></div><p> וכו׳ עיי״ש הנה לפי״ז אתה תבין
 					<lb/>כי אלו ואלו דא״ח די"ל ש<persName>אאע"ה</persName> נפטר בעשירי ל<date>ירח ניסן</date> שהוא כח כללי דירח
 					<lb/>טבת ושניהם צדקו יחדו והנה הגאון הנ"ל מ<placeName ref="#H-LOC_154">ירושלים</placeName> קלסי׳ מאד לתשובתי זאת :
 				</p>
@@ -415,10 +415,10 @@
 					<lb/>מפתח שפתי נמטי לי'
 					<lb/>אפריון אשר הראה מקור דברי בסידור
 					<persName><lb/>מהר"ש</persName> ז"ל והאמת כי סידור זה לא
-					<lb/>הי' בידי. והדבר פלא כי ביום וא"ו
+					<lb/>הי' בידי. </p><div type="story" xml:id="Eser-Kedushot_non-story-011_s1" subtype="in-non-story"><head type="storyHead">Eser-Kedushot_non-story-011_s1</head><span ana="times:shabbat; practice:prayer" resp="#llm-tagging">תיוגים</span><p>והדבר פלא כי ביום וא"ו
 					<lb/>עש"ק העבר בא לכאן איש א׳ לשבת
 					<lb/>פה והי׳ מתפלל מתוך סידור זה ונודע
-					<lb/>לי הדבר ותיכף חפשתי ומצאתי כדבריך
+					<lb/>לי הדבר ותיכף חפשתי ומצאתי כדבריך</p></div><p>
 					<lb/>ות״ל ית' ויתעלה כי יפה אמרתי
 					<lb/>מדעתי ובשבת זה שבת כאן הסופר
 					<lb/>מ<placeName>ספינקא</placeName> ועל ידו הודעתי לידידינו הרב
@@ -427,13 +427,13 @@
 					<lb/><sic correction="ביחד">כיחד</sic> שפתי לא אכלא מלהודיע דעתי
 					<lb/>לאשר תה"ל אתה א״ב רך בשנים
 					<lb/>תסתיר מעשיך ותניחם בצנעה בתוך
-					<lb/>ביתך. וזכורני בהיותי ק"ק <placeName ref="#H-LOC_59">רימינאב</placeName>
+					<lb/>ביתך. </p><div type="story" xml:id="Eser-Kedushot_non-story-011_s2" subtype="in-non-story"><head type="storyHead">Eser-Kedushot_non-story-011_s2</head><span ana="practice:halakhah; practice:prayer; practice:tefillin; ethics-and-emotions:humility; folkloristics:story_type_virtues; spaces:beth_midrash" resp="#llm-tagging">תיוגים</span><p>וזכורני בהיותי ק"ק <placeName ref="#H-LOC_59">רימינאב</placeName>
 					<lb/>ראיתי את הרב הקדוש ר׳ <persName>צבי</persName> זללה"ה
 					<lb/>משם גם בימי זקנותו הי' מניח בביתו
 					<lb/>כאור הבוקר ב׳ זוגות תפילין ביחד
 					<lb/>בשעה שבני אדם אינם מצוים כ״כ.
 					<lb/>אח״כ הי' מתפלל בביהמ״ד בתפילין
-					<lb/>של <persName>רש״י</persName> כך ראיתי בעיני. ונידון תפילין
+					<lb/>של <persName>רש״י</persName> כך ראיתי בעיני.</p></div><p> ונידון תפילין
 					<lb/>של <persName>שמושא רבא</persName> הקשית לשאול מעמדי
 				</p>
 				<p>
@@ -585,10 +585,10 @@
 					<lb/>ועיין בפנים הספר במערכת מו״ר הגאוה״ק <persName>מוהרי״א מקאמרנא</persName> מכתב ה׳
 					<lb/>מה שכתב אלי השפל בשנת <date>תרל״ג</date> שנה אחת לפני פטירתו בהיותי כבר
 					<lb/>ח"י שנה בתואר „החסיד המקובל" עיי״ש. וגם יש אתי כתבי תעודה מת"ח
-					<lb/>ויראי ה' אשר היו אתי בצוותא ב<placeName ref="#H-LOC_127">צאנז</placeName> אצל מרן הגאוה״ק רשכב"ה מוהר"ח
+					<lb/>ויראי ה' </p><div type="story" xml:id="Eser-Kedushot_non-story-018_s1" subtype="in-non-story"><head type="storyHead">Eser-Kedushot_non-story-018_s1</head><span ana="ethics-and-emotions:humility; practice:reception_of_hasidim; practice:storytelling; practice:travel_to_the_tsaddik; spaces:institutions_hassidic_court" resp="#llm-tagging">תיוגים</span><p>אשר היו אתי בצוותא ב<placeName ref="#H-LOC_127">צאנז</placeName> אצל מרן הגאוה״ק רשכב"ה מוהר"ח
 					<lb/>האלברשטאם זצוק"ל אשר המה ראו כי הקדוש בעצמו לא ישב עד שהביאו ספסל
 					<lb/>לראש השלחן והושיבני אצלו ממש אף שהי׳ שם גדולי הדור וזקינים שישבו מהצד
-					<lb/>וכיבד אותי בברכת הזימון אשר זה לא הי' רגיל לכבד רק לגדולי הדור המפורסמים
+					<lb/>וכיבד אותי בברכת הזימון אשר זה לא הי' רגיל לכבד רק לגדולי הדור המפורסמים</p></div><p>
 					<lb/>ואם כי אחרי כל אלה ידעתי נפשי מך ערכי ודלותי מאד בנפשי ונשמתי אבל
 					<lb/>עכ״פ הי' רוח חכמים נוחה הימני לכן תאמינו לי בכל מה שאני מספר מהגאונים
 					<lb/>הקדושים האלה. כי ח"ו נצח ישרא"ל לא ישקר והדן אותי השפל לכ״ז מן השמים
@@ -672,7 +672,7 @@
 					<lb/>קדושות
 					<lb/>מערכת א׳ זקינינו הרה"ק ר׳ <persName>אייזיק מספרין</persName>
 				</p>
-				</div><div type="story" xml:id="Eser-Kedushot_0001" n="1"><head type="storyHead">Eser<anchor xml:id="ner_24254_24281"/>-Kedushot_0001</head>
+				</div><div type="story" xml:id="Eser-Kedushot_0001" n="1"><head type="storyHead">Eser<anchor xml:id="ner_24254_24281"/>-Kedushot_0001</head><span ana="social:relations_with_non_jews; characters-and-roles:tavern_keeper; supernatural:miracle" resp="#llm-tagging">תיוגים</span>
 <p>
 					<lb/>[א] (א) איש יהודי הי׳ בכפר <placeName>ספרין</placeName> (א) הסמוך ל<placeName>סאמבור</placeName> ושמו הרב הגדול
 					<lb/>והקדוש מו"ה <persName>יצחק אייזיק אייכענשטיין</persName> ז"ל בן הרב (ב) ר'
@@ -685,7 +685,7 @@
 					<lb/>בזמן קט וראה האדון כי אין זה דרך הטבע ומסר לו עי״ז הון רב ומני אז שחקה
 					<lb/>ההצלחה לפניו ויהי שמו הולך וגדול. וצדקתו מלאה הארץ :
 				</p>
-				</div><div type="story" xml:id="Eser-Kedushot_0002" n="2"><head type="storyHead">Eser-Kedushot_0002</head>
+				</div><div type="story" xml:id="Eser-Kedushot_0002" n="2"><head type="storyHead">Eser-Kedushot_0002</head><span ana="ethics-and-emotions:charity; folkloristics:story_type_virtues; practice:pidyon_shvuyim; practice:redemption_of_captives; social:relations_with_non_jews; characters-and-roles:the_family_of_the_tsaddik; ethics-and-emotions:virtues; social:marriage; women:catalyst_character; women:mention_only" resp="#llm-tagging">תיוגים</span>
 <p>
 					<lb/>(ב) פעם א׳ נסע דרך בית מלוכו אדון אחד מרוסיש <placeName ref="#H-LOC_225">פולין</placeName> והוליך אתו שני
 					<lb/>ילדות קטנות מבנות ישראל אשר אביהם הי' חייב לו הרבה מעות ולא
@@ -694,7 +694,7 @@
 					<lb/>הצטרכותם כמו צאצאיו והילדים החזיקו אותו לאב ואת זוגתו הצדיקת ע"ה לאם
 					<lb/>כי לא ידעו מי אבותיהם והשיא אותם ופזר עליהם ממון רב :
 				</p>
-				</div><div type="story" xml:id="Eser-Kedushot_0003" n="3"><head type="storyHead">Eser-Kedushot_0003</head>
+				</div><div type="story" xml:id="Eser-Kedushot_0003" n="3"><head type="storyHead">Eser-Kedushot_0003</head><span ana="characters-and-roles:the_family_of_the_tsaddik; ethics-and-emotions:virtues; folkloristics:story_type_virtues; practice:clothing; times:holidays; ethics-and-emotions:humility; practice:study; practice:travel_to_the_tsaddik; social:inter_hasidic_master_disciple_relationship" resp="#llm-tagging">תיוגים</span>
 <p>
 					<lb/>(ג) הרב הגדול <persName>רי"א</persName> הנ"ל לא התנהג כל ימיו ברבנות רק התפרנס <sic correction="מיגיע">מיגיעי</sic>
 					<lb/>כפו והי׳ בקי בע״פ בששה סדרי <name type="work">משנה</name> ובד' חלקי <name type="work">שלחן ערוך</name> והי'
@@ -708,7 +708,7 @@
 					<lb/>זקינו הרב <persName>רי"א</persName> הנז׳ ועודנו זוכר ומרגיש הטעם בעריבות מתיקות הארה
 					<lb/>הנפלאה מקדושת זקינו זצ"ל :
 				</p>
-				</div><div type="story" xml:id="Eser-Kedushot_0004" n="4"><head type="storyHead">Eser-Kedushot_0004</head>
+				</div><div type="story" xml:id="Eser-Kedushot_0004" n="4"><head type="storyHead">Eser-Kedushot_0004</head><span ana="characters-and-roles:the_family_of_the_tsaddik; practice:prayer; practice:the_travels_of_the_tsaddik; women:major_character; ethics-and-emotions:virtues; folkloristics:story_type_virtues" resp="#llm-tagging">תיוגים</span>
 <p>
 					<lb/>(ד) ושם אשת הרב <persName>רי"א</persName> הנז' היתה הצדיקת המפורסמת מרת <persName>הינדא</persName> ע"ה בת
 					<lb/>איש חסיד מפורסם ושמו ר׳ <persName>צבי</persName> ז"ל אשר היתה מפורסמת בעבודת
@@ -737,7 +737,7 @@
 					<lb/>השגיחה ע״ז למען הרגילם לקום תמיד בחצות לילה [כן קבלתי מאאמו״ר הרב
 					<lb/>ז״ל] :
 				</p>
-				</div><div type="story" xml:id="Eser-Kedushot_0005" n="5"><head type="storyHead">Eser-Kedushot_0005</head>
+				</div><div type="story" xml:id="Eser-Kedushot_0005" n="5"><head type="storyHead">Eser-Kedushot_0005</head><span ana="not-a-hasidic-story:sermon" resp="#llm-tagging">תיוגים</span>
 <p>
 					<lb/>(ה) הרה"צ <persName>רי״א</persName> ואשתו הצדיקת מרת <persName>הינדא</persName> הנז׳ הולידו את החמשה ארזי
 					<lb/>לבנון אדירי התורה אנשי אלקים רבני ישראל המפורסמים אשר
@@ -750,7 +750,7 @@
 					<lb/>הצה"ק ר׳ <persName>ליפא מ<placeName ana="bio">סאמבור</placeName></persName> אשר נקטף בימי עלומיו כמבואר להלן במדור
 					<lb/>מערכת שלו *):
 				</p>
-				</div><div type="story" xml:id="Eser-Kedushot_0006" n="7"><head type="storyHead">Eser-Kedushot_0006</head>
+				</div><div type="story" xml:id="Eser-Kedushot_0006" n="7"><head type="storyHead">Eser-Kedushot_0006</head><span ana="not-a-hasidic-story:sermon" resp="#llm-tagging">תיוגים</span>
 <p>
 					<lb/>(ו) אגדת החסידות מספרת וכן מקובל בפי העולם וכבר נדפס בספרים אשר
 					<lb/>אמם הצדיקת מרת <persName>הינדא</persName> הנ"ל לפני פטירתה אמרה על החמשה
@@ -758,7 +758,7 @@
 					<lb/>שמותם <persName>בעריש משה סענדר ליפא הירש</persName>. גם הי' להם בת אחת ושמה פערל
 					<lb/>גיטל :
 				</p>
-				</div><div type="story" xml:id="Eser-Kedushot_0007" n="8"><head type="storyHead">Eser-Kedushot_0007</head>
+				</div><div type="story" xml:id="Eser-Kedushot_0007" n="8"><head type="storyHead">Eser-Kedushot_0007</head><span ana="characters-and-roles:the_family_of_the_tsaddik; social:divorce; social:marital_relationship; supernatural:miracle; supernatural:pregnancy; times:birth; women:major_character; practice:prayer" resp="#llm-tagging">תיוגים</span>
 <p>
 					<lb/>(ז) וכתב לי הגה"ק <persName>רי״מ</persName> הנ"ל מ<placeName>ספינקא</placeName> שליט״א כי אחרי שהי' להם החמשה
 					<lb/>בנים זכרים חדל להיות לה ארח הנשים ורצה הרב <persName>רי"א</persName> הנז׳ לגרשה
@@ -766,7 +766,7 @@
 					<lb/>ואמרה הלא אין מעצור לה׳ להושיע וכן הי׳ ששמע הש״י תפלתה וילדה עוד
 					<lb/>בת הנ"ל :
 				</p>
-				</div><div type="story" xml:id="Eser-Kedushot_0008" n="9"><head type="storyHead">Eser-Kedushot_0008</head>
+				</div><div type="story" xml:id="Eser-Kedushot_0008" n="9"><head type="storyHead">Eser-Kedushot_0008</head><span ana="not-a-hasidic-story:halakhah" resp="#llm-tagging">תיוגים</span>
 <p>
 					<lb/>(ח) כפי שכתב לי נכדם הוא חותני הרב הצדיק המפורסם מו״ה מנחם מענדל
 					<lb/>האגור שליט״א האבד״ק <placeName>זאבליטוב</placeName> הנה נסתלק הרב <persName>רי״א</persName> לעולמו ב׳
@@ -775,12 +775,12 @@
 				<p>
 					<lb/>מערכת ב׳ זקינינו הרה"ק <persName>מוהרצ"ה מ<placeName ana="bio" ref="#H-LOC_92">זידיטשוב</placeName></persName>.
 				</p>
-				</div><div type="story" xml:id="Eser-Kedushot_0009" n="10"><head type="storyHead">Eser-Kedushot_0009</head>
+				</div><div type="story" xml:id="Eser-Kedushot_0009" n="10"><head type="storyHead">Eser-Kedushot_0009</head><span ana="not-a-hasidic-story:hagiography" resp="#llm-tagging">תיוגים</span>
 <p>
 					<lb/>[ב] (א) רבינו הגאון הקדוש הרב האלקי <persName>רצ"ה מ<placeName ana="bio" ref="#H-LOC_92">זידיטשוב</placeName></persName> זללה"ה בעהמ״ח
 					<lb/>הה״ק <name type="work">עטרת צבי</name> פירוש על <name type="work">הזוה״ק</name> והה״ק <name type="work">פרי קודש</name>
 				</p>
-				</div><div type="story" xml:id="Eser-Kedushot_0010" n="6"><head type="storyHead">Eser-Kedushot_0010</head>
+				</div><div type="story" xml:id="Eser-Kedushot_0010" n="6"><head type="storyHead">Eser-Kedushot_0010</head><span ana="characters-and-roles:the_family_of_the_tsaddik; practice:prayer; times:death; times:holidays; women:minor_character; ethics-and-emotions:prohibitions; experience:enthusiasm; practice:devekut; practice:halakhah" resp="#llm-tagging">תיוגים</span>
 <p>
 					<lb/>*) הערה מקובל כי הי' להם עוד את אחד ילד קטן ויהי בחג הפסח בעת אחיו
 					<lb/>הגדול רבינו <persName>צבי</persName> ז"ל עמד בתפלתו הנה הילד התגעגע לאכול חתיכה
@@ -793,14 +793,14 @@
 					<pb facs="Eser-Kedushot_0018.jpg"/><lb/>הלולים על <name type="work">הפע״ח</name> הקדוש. וס׳ <name type="work">סור מרע ועשה טוב</name> הקדמה ודרך ל<name type="work">עץ החיים</name>
 					<lb/>הקדוש וס׳ <name type="work">בית ישראל</name> על התורה :
 				</p>
-				</div><div type="story" xml:id="Eser-Kedushot_0011" n="11"><head type="storyHead">Eser-Kedushot_0011</head>
+				</div><div type="story" xml:id="Eser-Kedushot_0011" n="11"><head type="storyHead">Eser-Kedushot_0011</head><span ana="social:inter_hasidic_master_disciple_relationship; practice:study; social:inter_hasidic" resp="#llm-tagging">תיוגים</span>
 <p>
 					<lb/>(ב) הוא הי' מוסמך מרבו הקדוש והנורא מו"ה <persName>יעקב יצחק מ<placeName ana="bio" ref="#H-LOC_56">לובלין</placeName></persName> זללה״ה
 					<lb/>ומשאר צדיקים והי׳ חושב עצמו השלישי ל<persName>בעש״ט</persName> הקדוש זללה״ה כי
 					<lb/>בימי חורפו נסע תלמיד א' מתלמידי ה<persName>בעש״ט</persName> דרך מקומו ועכבו רבינו <persName>רצ״ה</persName> אצלו
 					<lb/>כמה ימים ולמד ממנו הרבה :
 				</p>
-				</div><div type="story" xml:id="Eser-Kedushot_0012" n="12"><head type="storyHead">Eser-Kedushot_0012</head>
+				</div><div type="story" xml:id="Eser-Kedushot_0012" n="12"><head type="storyHead">Eser-Kedushot_0012</head><span ana="not-a-hasidic-story:hagiography" resp="#llm-tagging">תיוגים</span>
 <p>
 					<lb/>(ג) הגאוה״ק <persName>ר״מ ט״ב מ<placeName ana="bio" ref="#H-LOC_17">אוהעל</placeName></persName> בהסכמתו על ס׳ <name type="work">עט"צ</name> לרבינו הנ"ל כותב
 					<lb/>עליו בזה"ל. איש אלקים קדוש צדיק יסוד עולם רבן של ישראל
@@ -809,7 +809,7 @@
 					<lb/>ייתי פורקנא דישראל עכ״ל וידוע מאן האי גברא רבה הדין המעיד ה״ה בעהמ״ח
 					<name type="work"><lb/>ישמח משה</name> עה״ת ושו״ת <name type="work">השיב משה</name>. ו<name type="work">תפלה למשה</name> על התהלים :
 				</p>
-				</div><div type="story" xml:id="Eser-Kedushot_0013" n="13"><head type="storyHead">Eser-Kedushot_0013</head>
+				</div><div type="story" xml:id="Eser-Kedushot_0013" n="13"><head type="storyHead">Eser-Kedushot_0013</head><span ana="not-a-hasidic-story:hagiography" resp="#llm-tagging">תיוגים</span>
 <p>
 					<lb/>(ד) הגאוה״ק <persName>מוהרצ״א מ<placeName ana="bio">דינוב</placeName></persName> בהסכמתו על <name type="work">עט"צ</name> הנ"ל כותב בזה"ל. וידוע
 					<lb/>לכל אשר עם גודל קדושתו <reg reg="ופרישותו">ופרישתו</reg> <reg reg="וחסידותו">וחסידתו</reg> זכה שנפתחו
@@ -822,13 +822,13 @@
 					<name type="work"><lb/>ליקוטי מוהרצ״א</name>. <name type="work">כלי הרואים</name> דברים נחמדים. <name type="work">הגהות על הזוה״ק</name>. הוספות לס'
 					<name type="work"><lb/>סור מרע</name> :
 				</p>
-				</div><div type="story" xml:id="Eser-Kedushot_0014" n="14"><head type="storyHead">Eser-Kedushot_0014</head>
+				</div><div type="story" xml:id="Eser-Kedushot_0014" n="14"><head type="storyHead">Eser-Kedushot_0014</head><span ana="not-a-hasidic-story:hagiography" resp="#llm-tagging">תיוגים</span>
 <p>
 					<lb/>(ה) הגאון האמיתי ב<name type="work">שו״ת אמרי אש</name> חאו"ח סי׳ י"ט כותב על רבינו הנ"ל
 					<lb/>בזה"ל הגאון איש אלקים מו"ה <persName>צבי</persName>. וכותב שם ומי בדורנו זה
 					<lb/>אשר ישאהו לבבו לדמות א״ע להרב הגאון <persName>רצ"ה</persName> עכ״ל :
 				</p>
-				</div><div type="story" xml:id="Eser-Kedushot_0015" n="15"><head type="storyHead">Eser-Kedushot_0015</head>
+				</div><div type="story" xml:id="Eser-Kedushot_0015" n="15"><head type="storyHead">Eser-Kedushot_0015</head><span ana="not-a-hasidic-story:hagiography" resp="#llm-tagging">תיוגים</span>
 <p>
 					<lb/>(ו) אחיו הגאוה״ק מו״ה <persName>אלכסנדר סענדר מ<placeName ana="bio" ref="#H-LOC_37">קאמרנא</placeName></persName> בספרו <name type="work">זכרון דברים</name> (דף
 					<lb/>כ״א ע״א) כ׳ בזה״ל ואחי מורי הקדוש בעשר מיני קדושות <persName>מוהר"צ</persName>
@@ -836,7 +836,7 @@
 					<lb/>רום שמי המעלות והרוצה לטעום נופת צוף ודבש יעיין בדבריו הקדושים ויאירו
 					<lb/>עיניו עכ״ל :
 				</p>
-				</div><div type="story" xml:id="Eser-Kedushot_0016" n="16"><head type="storyHead">Eser-Kedushot_0016</head>
+				</div><div type="story" xml:id="Eser-Kedushot_0016" n="16"><head type="storyHead">Eser-Kedushot_0016</head><span ana="not-a-hasidic-story:sermon" resp="#llm-tagging">תיוגים</span>
 <p>
 					<lb/>(ז) ואחיו הקדוש ונורא מו״ה <persName>משה מ<placeName ana="bio">סאמבור</placeName></persName> בס׳ <name type="work">תפלה למשה</name> בהקדמתו כ׳
 					<lb/>בזה"ל מה ששמעתי מאחי אמ״ו איש אלקים קדוש מו״ה <persName>צבי הירש</persName>
@@ -845,13 +845,13 @@
 					<lb/>אשר כל השגתי בו מאפס ותהו נחשבו מגודל עמקות החכמה והקדושה והפרישות
 					<lb/>והענוה אשר בו וכו׳ עכ״ל :
 				</p>
-				</div><div type="story" xml:id="Eser-Kedushot_0017" n="17"><head type="storyHead">Eser-Kedushot_0017</head>
+				</div><div type="story" xml:id="Eser-Kedushot_0017" n="17"><head type="storyHead">Eser-Kedushot_0017</head><span ana="not-a-hasidic-story:sermon" resp="#llm-tagging">תיוגים</span>
 <p>
 					<lb/>(ח) הגאוה״ק מו״ה <persName>יודא צבי מ<placeName ana="bio">ראזלא</placeName></persName> [תלמידו וחתנו ובן אחיו <persName>הרר״מ
 					<lb/>מ<placeName ana="bio">סאמבור</placeName></persName> הנז'] אמר כי אין שום פסוק בכל ה<name type="work">תנ"ך</name> אשר
 					<lb/>מורו דודו <persName>רצ"ה</persName> לא גילה לו סודו :
 				</p>
-				</div><div type="story" xml:id="Eser-Kedushot_0018" n="18"><head type="storyHead">Eser-Kedushot_0018</head>
+				</div><div type="story" xml:id="Eser-Kedushot_0018" n="18"><head type="storyHead">Eser-Kedushot_0018</head><span ana="not-a-hasidic-story:sermon" resp="#llm-tagging">תיוגים</span>
 <p>
 					<lb/>(ט) מורינו ש"ב הגאוה״ק <persName>מוהרי"א מ<placeName ana="bio" ref="#H-LOC_92">זידיטשוב</placeName></persName> [תלמידו וב"א הה״ק ר׳ ישכר
 					<lb/>בעריש] בהסכמתו על <name type="work">עט״צ</name> כותב בזה״ל. וכאשר שמעתי
@@ -863,7 +863,7 @@
 				<p>
 					<lb/>ממדריגותיו הנוראים.
 				</p>
-				</div><div type="story" xml:id="Eser-Kedushot_0019" n="19"><head type="storyHead">Eser-Kedushot_0019</head>
+				</div><div type="story" xml:id="Eser-Kedushot_0019" n="19"><head type="storyHead">Eser-Kedushot_0019</head><span ana="ethics-and-emotions:resisting_temptation; folkloristics:story_type_virtues; practice:fasting; social:poverty; supernatural:communicating_with_the_invisible; supernatural:miracle; ethics-and-emotions:virtues; experience:revelation; knowledge:esoteric; practice:storytelling; supernatural:light_or_fire_as_a_sign_of_righteousness" resp="#llm-tagging">תיוגים</span>
 <p>
 					<lb/>(י) ידוע ומפורסם בין תלמידי מורינו <persName>מוהרי"א</persName> הנ"ל שנשמע ממנו מספר
 					<lb/>ממה שניתן לרבו רבינו <persName>צבי אבן טוב</persName> מהשמים כלומר אשר באשמורת
@@ -877,7 +877,7 @@
 					<lb/>המדריגה ולא חפץ בעשירות ושאל מה לעשות עם האבן טוב והשיבו לו לזרקו
 					<lb/>בחוץ השמימה וכן עשה ופרח כמו ניצוצי אש עד שלא נראה עוד :
 				</p>
-				</div><div type="story" xml:id="Eser-Kedushot_0020" n="20"><head type="storyHead">Eser-Kedushot_0020</head>
+				</div><div type="story" xml:id="Eser-Kedushot_0020" n="20"><head type="storyHead">Eser-Kedushot_0020</head><span ana="experience:revelation; practice:sermon; social:inter_hasidic_master_disciple_relationship; social:retrospective_recognition; supernatural:communicating_with_the_invisible; times:shabbat; knowledge:esoteric; practice:storytelling" resp="#llm-tagging">תיוגים</span>
 <p>
 					<lb/>(יא) סיפר תלמידו הגאוה״ק ר׳ <persName>מרדכי לעטניר</persName> זצ"ל בעמ״ח סה״ק מאמר
 					<lb/>מרדכי. שישן בחדר הסמוך לחדר רבו <persName>רצ"ה</persName> רק כותל נסרים
@@ -889,7 +889,7 @@
 					<lb/>אז בלילה וסיים רבו הדרוש ואמר בסיומו כך שמעתי מפי ה<persName>אריז"ל</persName> אז הבין
 					<lb/>הרה״ק <persName>ר״מ</persName> מי הי׳ אותו הקול ששמע בלילה :
 				</p>
-				</div><div type="story" xml:id="Eser-Kedushot_0021" n="21"><head type="storyHead">Eser-Kedushot_0021</head>
+				</div><div type="story" xml:id="Eser-Kedushot_0021" n="21"><head type="storyHead">Eser-Kedushot_0021</head><span ana="practice:lifesaving; practice:prayer; supernatural:perception; times:holidays; ethics-and-emotions:fear; practice:devekut; practice:drinking_alcohol; practice:healing; practice:healing_of_the_soul; practice:recitation_of_psalms; practice:torat_ha_tsaddik; practice:travel_to_the_tsaddik; social:retrospective_recognition; spaces:beth_midrash" resp="#llm-tagging">תיוגים</span>
 <p>
 					<lb/>(יב) מו״ר הגאוה״ק <persName>מוהרי"א מ<placeName ana="bio" ref="#H-LOC_37">קאמרנא</placeName></persName> בס׳ <name type="work">זוהר חי</name> סוף <name type="work">פ' בראשית</name> כ'
 					<lb/>בזה״ל פ״א בשנת <date>תקע״א</date> לפרט בחג <date>שבועות</date> הלך מורי דודי
@@ -907,7 +907,7 @@
 					<date><lb/>יו״ס</date> רכב על סוס ורץ לביתו והי' מכוון כמו שאמר לו מורי דודי בשעה מכוונת.
 					<lb/>ובאמת ראיתי אצל מורי דודי מדריגות נפלאות רבי מובהק עכ״ל :
 				</p>
-				</div><div type="story" xml:id="Eser-Kedushot_0022" n="22"><head type="storyHead">Eser-Kedushot_0022</head>
+				</div><div type="story" xml:id="Eser-Kedushot_0022" n="22"><head type="storyHead">Eser-Kedushot_0022</head><span ana="ethics-and-emotions:fear; ethics-and-emotions:humility; experience:trembling; practice:prayer; times:holidays; characters-and-roles:the_family_of_the_tsaddik; ethics-and-emotions:awe; ethics-and-emotions:resisting_temptation; folkloristics:story_type_virtues; practice:travel_to_the_tsaddik; social:inter_hasidic_master_disciple_relationship" resp="#llm-tagging">תיוגים</span>
 <p>
 					<pb facs="Eser-Kedushot_0020.jpg"/><lb/>(יג) עוד שם פ"א כשהאיר היום בחג שבועות. נכנסתי אצל מורי דודי הקדוש
 					<lb/>ז"ל והוא לא ראה כשנכנסתי. ושמעתי שהי' הולך כאן וכאן והי'
@@ -917,14 +917,14 @@
 					<lb/>ואחזתני חיל ורעדה ופתחתי הדלת ונסתי. וכעת ארבעים אלף ב<placeName>ישראל</placeName> אין די
 					<lb/>עכ״ל :
 				</p>
-				</div><div type="story" xml:id="Eser-Kedushot_0023" n="23"><head type="storyHead">Eser-Kedushot_0023</head>
+				</div><div type="story" xml:id="Eser-Kedushot_0023" n="23"><head type="storyHead">Eser-Kedushot_0023</head><span ana="practice:torat_ha_tsaddik; social:inter_hasidic_master_disciple_relationship; experience:revelation; practice:travel_to_the_tsaddik" resp="#llm-tagging">תיוגים</span>
 <p>
 					<lb/>(יד) עוד שם פ"א בהיותי במדינת <placeName ref="#H-LOC_225">פולין</placeName> האיר עלי [רבינו <persName>צבי</persName>] והשפיע עלי
 					<lb/>כל כך הארה נפלאה והשגה עד שלא יכולתי לסבול והוצרכתי לחזור
 					<lb/>אצלו שיקח מעט. לזה יקרא רבי כי נסמך ולקח מרבו ורבו מרבו עד <persName>אליהו</persName>
 					<lb/>עכ״ל :
 				</p>
-				</div><div type="story" xml:id="Eser-Kedushot_0024" n="24"><head type="storyHead">Eser-Kedushot_0024</head>
+				</div><div type="story" xml:id="Eser-Kedushot_0024" n="24"><head type="storyHead">Eser-Kedushot_0024</head><span ana="ethics-and-emotions:fear; ethics-and-emotions:shame; experience:enthusiasm; practice:prayer; times:shabbat; ethics-and-emotions:humility; experience:devekut; folkloristics:story_type_virtues; practice:asceticism; practice:clothing; practice:devekut; practice:storytelling; social:conflict; social:inter_hasidic_master_disciple_relationship" resp="#llm-tagging">תיוגים</span>
 <p>
 					<lb/>(טו) עוד בס׳ <name type="work">זוהר חי</name> הנ"ל בזה"ל. ואמר לי הקדוש מורי ורבי דודי. כשהייתי
 					<lb/>בן ארבעים עדיין הייתי מפחד האם אני חלילה בקליפת נוגה
@@ -938,14 +938,14 @@
 					<lb/>ודוחק וצער בכל <date>עש״ק</date> כדי שיתבטל לגמרי קודם <date>שבת</date> שיוכל לקבל בעת התפלה
 					<lb/>וסעודה שלישית אורו יתברך בלב טהור וקדוש ונקי עכ״ל :
 				</p>
-				</div><div type="story" xml:id="Eser-Kedushot_0025" n="25"><head type="storyHead">Eser-Kedushot_0025</head>
+				</div><div type="story" xml:id="Eser-Kedushot_0025" n="25"><head type="storyHead">Eser-Kedushot_0025</head><span ana="kabbalah:kabbalistic_terms_yihudim; practice:meditation; social:inter_hasidic_master_disciple_relationship; supernatural:perception; knowledge:esoteric" resp="#llm-tagging">תיוגים</span>
 <p>
 					<lb/>(טז) בהקדמת ס׳ <name type="work">הזהר</name> ב<name type="work">זוהר חי</name> ד"ז וזה"ל כשהייתי ילד קטן חזרתי
 					<lb/>במקום אחד על יחוד הדיקנא ואחר שעה בא מורי זצ"ל
 					<lb/>למקום זה וראה ברוח קדשו ואמר מי הי' כאן שייחד יחודים והחזיר לי פניו
 					<lb/>פנים שוחקות עכ״ל :
 				</p>
-				</div><div type="story" xml:id="Eser-Kedushot_0026" n="26"><head type="storyHead">Eser-Kedushot_0026</head>
+				</div><div type="story" xml:id="Eser-Kedushot_0026" n="26"><head type="storyHead">Eser-Kedushot_0026</head><span ana="supernatural:communicating_with_the_invisible; ethics-and-emotions:awe; experience:revelation; practice:meditation; practice:prayer; practice:tefillin; spaces:beth_midrash" resp="#llm-tagging">תיוגים</span>
 <p>
 					<lb/>(יז) בהקדמת <name type="work">ליקו"ת</name> ו<name type="work">ש"ס</name> <persName>מהרי״א</persName> חלק דברים כתב ידי"נ הגאוה״ק
 					<lb/>מ<placeName>ספינקא</placeName> מו"ה <persName>יוסף מאיר</persName> שליט״א [תלמיד מובהק למורינו
@@ -955,13 +955,13 @@
 					<lb/>יחוד שמו יתברך ושמע שמכריזין למעלה ווי לפלניא דמריד במאריה המתבונן
 					<lb/>בזה יעמוד מרעיד :
 				</p>
-				</div><div type="story" xml:id="Eser-Kedushot_0027" n="27"><head type="storyHead">Eser-Kedushot_0027</head>
+				</div><div type="story" xml:id="Eser-Kedushot_0027" n="27"><head type="storyHead">Eser-Kedushot_0027</head><span ana="not-a-hasidic-story:sermon" resp="#llm-tagging">תיוגים</span>
 <p>
 					<lb/>(יח) עוד שם שזקינו הקדוש שמע מפה רבינו <persName>צבי</persName> שאמר שאם ח״ו יקח
 					<lb/>מאכל או משקה לתוך פיו בלי יחוד שמו יתברך מוטב לו שיחנק
 					<lb/>ח"ו ולא יבא לידו דבר זה :
 				</p>
-				</div><div type="story" xml:id="Eser-Kedushot_0028" n="28"><head type="storyHead">Eser-Kedushot_0028</head>
+				</div><div type="story" xml:id="Eser-Kedushot_0028" n="28"><head type="storyHead">Eser-Kedushot_0028</head><span ana="not-a-hasidic-story:sermon" resp="#llm-tagging">תיוגים</span>
 <p>
 					<lb/>(יט) עוד שם אמר רבינו <persName>צבי</persName> ש<persName>הבעש״ט</persName> לא רצה לבא בזה העולם עד
 					<lb/>שהבטיחו לו מן השמים ליתן לו ששים גבורים היינו תלמידים. וכן
@@ -972,7 +972,7 @@
 				<p>
 					<pb facs="Eser-Kedushot_0021.jpg"/><lb/>ט
 				</p>
-				</div><div type="story" xml:id="Eser-Kedushot_0029" n="29"><head type="storyHead">Eser-Kedushot_0029</head>
+				</div><div type="story" xml:id="Eser-Kedushot_0029" n="29"><head type="storyHead">Eser-Kedushot_0029</head><span ana="practice:prayer; practice:torat_ha_tsaddik; social:inter_hasidic" resp="#llm-tagging">תיוגים</span>
 <p>
 					<lb/>(כ) עוד שם בהתוועד רבינו <persName>צבי</persName> יחד עם הרה״ק מו״ה <persName>אברהם חיים
 					<lb/>מ<placeName ana="bio" ref="#H-LOC_398">זלאטשוב</placeName></persName> ז"ל בעל <name type="work">אורח לחיים</name> שאל לו רבינו למה הוא אומר
@@ -980,7 +980,7 @@
 					<lb/>נותן סגולה על חצי׳ השני. אז אמר לו רבינו <persName>צבי</persName> אנו מתפללים יותר מהמבוקש
 					<lb/>עד שאנו נענין כל המבוקש ואין אנו צריכין לשום סגולה :
 				</p>
-				</div><div type="story" xml:id="Eser-Kedushot_0030" n="30"><head type="storyHead">Eser-Kedushot_0030</head>
+				</div><div type="story" xml:id="Eser-Kedushot_0030" n="30"><head type="storyHead">Eser-Kedushot_0030</head><span ana="folkloristics:story_type_prognostication; supernatural:prognostication; practice:the_travels_of_the_tsaddik; practice:travel_to_other_tsaddik; social:inter_hasidic" resp="#llm-tagging">תיוגים</span>
 <p>
 					<lb/>(כא) עו״ש כאשר הגאוה״ק <persName>רצ"א מ<placeName ana="bio">דינוב</placeName></persName> הי' ב<placeName ref="#H-LOC_92">זידיטשוב</placeName> והעלו על השולחן
 					<lb/>תפוחי אדמה שהיה אצלם כמעט מאכל חדש שהי' זה בתחלה
@@ -988,7 +988,7 @@
 					<persName><lb/>צבי</persName> שיאכל כי המאכל הזה יוצרך בעולם גם במדינתינו וכו״כ בני אדם יתפרנסו
 					<lb/>מזה ועתה אנו רואים שדבריו נתקיימו :
 				</p>
-				</div><div type="story" xml:id="Eser-Kedushot_0031" n="31"><head type="storyHead">Eser-Kedushot_0031</head>
+				</div><div type="story" xml:id="Eser-Kedushot_0031" n="31"><head type="storyHead">Eser-Kedushot_0031</head><span ana="practice:torat_ha_tsaddik; social:inter_hasidic_master_disciple_relationship; supernatural:communicating_with_the_invisible; characters-and-roles:the_family_of_the_tsaddik; experience:visions; practice:healing_of_the_soul; practice:storytelling; spaces:heaven" resp="#llm-tagging">תיוגים</span>
 <p>
 					<lb/>(כב) עו"ש סיפר מורינו הק' <persName>מוהרי״א</persName> ז"ל מ<placeName ref="#H-LOC_92">זידיטשוב</placeName> ששמע ההרה״ק מו"ה
 					<persName><lb/>יהודא צבי מ<placeName ana="bio">ראזלי</placeName></persName> ז"ל שראה את רבו וחותנו הקדוש רבינו <persName>צבי</persName>
@@ -996,7 +996,7 @@
 					<lb/>שאינו רוצה לילך למקומו עד שיתקן כל אנשי שלומו ויעמידם על מכונם <reg reg="בשורש">בשרש</reg>
 					<lb/>העליון :
 				</p>
-				</div><div type="story" xml:id="Eser-Kedushot_0032" n="32"><head type="storyHead">Eser-Kedushot_0032</head>
+				</div><div type="story" xml:id="Eser-Kedushot_0032" n="32"><head type="storyHead">Eser-Kedushot_0032</head><span ana="practice:fasting; supernatural:communicating_with_the_invisible; experience:visions; practice:asceticism; practice:storytelling; spaces:heaven; times:eschatology" resp="#llm-tagging">תיוגים</span>
 <p>
 					<lb/>(כג) עו״ש סיפר מורינו הנ"ל שאמר לו רבו רבינו <persName>צבי</persName> שהתענה כו״כ תעניות
 					<lb/>שיזכה לראות את הרה״ק <persName>מוהרי״מ</persName> <persName>המגיד מ<placeName ana="bio" ref="#H-LOC_398">זלאטשוב</placeName></persName>. וראה
@@ -1004,7 +1004,7 @@
 					<lb/>ויום מן העולם ועד העולם וכשמגיע לעולם שלמעלה מזה אשר הי' אתמול
 					<lb/>השמים הוא הארץ נגד השמים שלמעלה :
 				</p>
-				</div><div type="story" xml:id="Eser-Kedushot_0033" n="33"><head type="storyHead">Eser-Kedushot_0033</head>
+				</div><div type="story" xml:id="Eser-Kedushot_0033" n="33"><head type="storyHead">Eser-Kedushot_0033</head><span ana="ethics-and-emotions:fear; social:inter_hasidic_master_disciple_relationship; characters-and-roles:the_family_of_the_tsaddik; experience:journey_to_heaven; practice:storytelling" resp="#llm-tagging">תיוגים</span>
 <p>
 					<lb/>(כד) עו״ש שסיפר מורינו הנ"ל שפ"א הי׳ הוא עם אביו הקדוש זצ"ל לפני
 					<lb/>רבם הקדוש רבינו <persName>צבי</persName> ואמר להם בזה"ל כל זמן שרבותינו
@@ -1013,7 +1013,7 @@
 					<lb/>והיום אנו מתיראים. וגם אמר לו שאפילו בהחלומות הוא מכיר חילוק מעת
 					<lb/>שנפטר רבו מ<placeName ref="#H-LOC_56">לובלין</placeName> זצ"ל :
 				</p>
-				</div><div type="story" xml:id="Eser-Kedushot_0034" n="34"><head type="storyHead">Eser-Kedushot_0034</head>
+				</div><div type="story" xml:id="Eser-Kedushot_0034" n="34"><head type="storyHead">Eser-Kedushot_0034</head><span ana="characters-and-roles:the_family_of_the_tsaddik; practice:circumcision; practice:travel_to_the_tsaddik; practice:use_of_holy_names; supernatural:perception; supernatural:pregnancy; supernatural:prognostication; times:birth; ethics-and-emotions:shame; folkloristics:story_type_prognostication; knowledge:esoteric; practice:halakhah; practice:joke; practice:reception_of_hasidim; practice:sermon; social:competition; social:retrospective_recognition; women:minor_character" resp="#llm-tagging">תיוגים</span>
 <p>
 					<lb/>(כה) הרב ר' <persName>עוזר</persName> חתנו של הרה״ק ר׳ <persName>פייבוש מ<placeName ana="bio" ref="#H-LOC_573">באלשוועץ</placeName></persName> זצ"ל הי' חשוכי
 					<lb/>בנים ל״ע. ואז התחיל להתנוצץ בעולם שמו הטוב של רבינו <persName>צבי</persName>.
@@ -1042,7 +1042,7 @@
 					<lb/>ישן שהי׳ מעורר האי עינא פקיחא דלא אדמוך ולא נאים. ואמר לו <persName>הרר״פ</persName>
 					<lb/>אז איהר האלט שוין אזוי הויך קומט זיך טאקע אייך דעס בענטשין :
 				</p>
-				</div><div type="story" xml:id="Eser-Kedushot_0035" n="35"><head type="storyHead">Eser-Kedushot_0035</head>
+				</div><div type="story" xml:id="Eser-Kedushot_0035" n="35"><head type="storyHead">Eser-Kedushot_0035</head><span ana="ethics-and-emotions:awe; kabbalah:kabbalistic_terms_yihudim; knowledge:esoteric; practice:storytelling; practice:torat_ha_tsaddik; social:inter_hasidic_master_disciple_relationship; folkloristics:story_type_virtues; practice:meditation; practice:reception_of_hasidim" resp="#llm-tagging">תיוגים</span>
 <p>
 					<lb/>(כו) ב<name type="work">זהר חי</name> פ׳ <name type="work">ויחי</name> בדפי הספר שצ"ד ב׳ כ׳ בזה"ל ראיתי לרבותי הקדושים
 					<lb/>שהיו נזהרים מאד בשמירת פיהם ולשונם שכל דיבורם הי' ביחודים
@@ -1054,7 +1054,7 @@
 					<lb/>מבין מעניני היחודים של דיבוריו הוא מבלבל מעט ממה שצריך להמשיך ישועה
 					<lb/>של אותו הנצרך לישועה עכ״ל :
 				</p>
-				</div><div type="story" xml:id="Eser-Kedushot_0036" n="36"><head type="storyHead">Eser-Kedushot_0036</head>
+				</div><div type="story" xml:id="Eser-Kedushot_0036" n="36"><head type="storyHead">Eser-Kedushot_0036</head><span ana="ethics-and-emotions:fear; supernatural:light_or_fire_as_a_sign_of_righteousness; times:holidays; ethics-and-emotions:awe; experience:visions; practice:prayer; social:inter_hasidic_master_disciple_relationship" resp="#llm-tagging">תיוגים</span>
 <p>
 					<lb/>(כז) ב<name type="work">זהר חי</name> <name type="work">פקודי</name> דרס"ה ב׳ וז"ל וחילוקא דרבנן המלובש בו בג״ע ארצי
 					<lb/>אחר <sic correction="פטירתו">פטורתו</sic> ולפעמים זוכה כי גם בעוה״ז לבוש מלכות וזכו בו
@@ -1063,7 +1063,7 @@
 					<lb/>מבהיק ומאיר כעין קשת שלמעלה עד שנפלתי לאחורי מאומה ופחד והבין זה
 					<lb/>מורי והחזיר פניו לכותל על רגע ולא ראיתי עוד :
 				</p>
-				</div><div type="story" xml:id="Eser-Kedushot_0037" n="37"><head type="storyHead">Eser-Kedushot_0037</head>
+				</div><div type="story" xml:id="Eser-Kedushot_0037" n="37"><head type="storyHead">Eser-Kedushot_0037</head><span ana="ethics-and-emotions:awe; ethics-and-emotions:fear; experience:trembling; social:inter_hasidic_master_disciple_relationship; folkloristics:story_type_virtues" resp="#llm-tagging">תיוגים</span>
 <p>
 					<lb/>(כח) בסה״ק <name type="work">נתיב מצותיך</name> למורינו הגאוה״ק <persName>מוהרי״א מ<placeName ana="bio" ref="#H-LOC_37">קאמרנא</placeName></persName> <placeName>דל״א</placeName> ב׳
 					<lb/>וזה"ל ויעיד עלי יוצר בראשית כי מורי דודי וכו' כשאני
@@ -1072,7 +1072,7 @@
 					<lb/>הייתי עומד על הפתח רבע שעה ולא יכולתי לכנוס מרוב אימות ופחדים שהי'
 					<lb/>עלי מאימות רבי ומורי אימות השכינה עד כאן לשונו :
 				</p>
-				</div><div type="story" xml:id="Eser-Kedushot_0038" n="38"><head type="storyHead">Eser-Kedushot_0038</head>
+				</div><div type="story" xml:id="Eser-Kedushot_0038" n="38"><head type="storyHead">Eser-Kedushot_0038</head><span ana="not-a-hasidic-story:halakhah" resp="#llm-tagging">תיוגים</span>
 <p>
 					<lb/>(כט) הגאוה"ק הנ"ל מ<placeName>קומארנא</placeName> בהקדמתו לפי' <name type="work">המשניות</name> שלו ב<name type="work">סדר זרעים</name>
 					<lb/>כ׳ וזה"ל וכזה ראיתי למורי דודי הקדוש רבינו <persName>צבי</persName> שהי′
@@ -1082,7 +1082,7 @@
 					<lb/>דבר אכילה כל תנועה ולעיסה הי׳ בדוגמא דלעילא. ומעט מעט שיאכל המשיך
 					<lb/>רב טוב לבית ישראל עכ״ל :
 				</p>
-				</div><div type="story" xml:id="Eser-Kedushot_0039" n="39"><head type="storyHead">Eser-Kedushot_0039</head>
+				</div><div type="story" xml:id="Eser-Kedushot_0039" n="39"><head type="storyHead">Eser-Kedushot_0039</head><span ana="not-a-hasidic-story:halakhah" resp="#llm-tagging">תיוגים</span>
 <p>
 					<lb/>(ל) שמעתי בשמו הקדוש שבפ׳ <name type="work">בלק</name> לא אמר דברי תורה על השלחן וראיתי
 					<lb/>לרב אחד שכתב טעם הדבר לפי שהי׳ דרכו של זקינינו רבינו
@@ -1094,7 +1094,7 @@
 					<pb facs="Eser-Kedushot_0023.jpg"/><lb/>נזכר כל תורתו של האי ינוקא לכן שפיר שפרה ליה לשתוק אז דדבריו נאמרים
 					<lb/>אז בשער בת רבים ב<name type="work">זוה"ק</name> בפרשה זו :
 				</p>
-				</div><div type="story" xml:id="Eser-Kedushot_0040" n="40"><head type="storyHead">Eser-Kedushot_0040</head>
+				</div><div type="story" xml:id="Eser-Kedushot_0040" n="40"><head type="storyHead">Eser-Kedushot_0040</head><span ana="social:retrospective_recognition; spaces:institutions_hassidic_court; supernatural:communicating_with_the_invisible; times:holidays; experience:revelation; practice:storytelling; practice:travel_to_the_tsaddik; social:inter_hasidic_master_disciple_relationship" resp="#llm-tagging">תיוגים</span>
 <p>
 					<lb/>(לא) סיפר מורינו הגה״ק <persName>מוהרי״א מ<placeName ana="bio">קומארנא</placeName></persName> זצ"ל שבפ"א שרבו רבינו
 					<persName><lb/>צבי</persName> הי' חולה מאד ל״ע בהיותו ב<placeName ref="#H-LOC_56">לובלין</placeName> על המועדים והתאכסן
@@ -1105,7 +1105,7 @@
 					<lb/>זמן מה נעלם ממנו. והגיד לו אח"כ רבינו <persName>צבי</persName> כי הוא הי' <persName>אברהם אבינו</persName> ע"ה
 					<lb/>והדבר ידוע :
 				</p>
-				</div><div type="story" xml:id="Eser-Kedushot_0041" n="41"><head type="storyHead">Eser-Kedushot_0041</head>
+				</div><div type="story" xml:id="Eser-Kedushot_0041" n="41"><head type="storyHead">Eser-Kedushot_0041</head><span ana="social:inter_hasidic_master_disciple_relationship; spaces:beth_midrash; supernatural:miracle; folkloristics:story_type_virtues; practice:prayer; times:shabbat" resp="#llm-tagging">תיוגים</span>
 <p>
 					<lb/>(לב) ידוע כי מרן הקדוש מ<placeName ref="#H-LOC_56">לובלין</placeName> זצוק"ל בשנה האחרונה לימי חייו בירח
 					<date><lb/>מרחשון</date> במוצאי ש"ק זמן קידוש לבנה והתקשרו שמים בעבים
@@ -1119,7 +1119,7 @@
 					<persName><lb/>הירשלי</persName> הפך כל מערכת השמים עד שהלבנה תאיר אצל חלון זה שלא נצטרך
 					<lb/>להטריח יותר בחולשת כחינו לחלון הרחוק :
 				</p>
-				</div><div type="story" xml:id="Eser-Kedushot_0042" n="42"><head type="storyHead">Eser-Kedushot_0042</head>
+				</div><div type="story" xml:id="Eser-Kedushot_0042" n="42"><head type="storyHead">Eser-Kedushot_0042</head><span ana="ethics-and-emotions:humility; folkloristics:story_type_virtues; practice:prayer; social:inter_hasidic; social:inter_hasidic_inheritance_of_leadership; ethics-and-emotions:pride; practice:tefillin; practice:travel_to_other_tsaddik; social:retrospective_recognition; times:death" resp="#llm-tagging">תיוגים</span>
 <p>
 					<lb/>(לג) ידוע כי אחרי פטירת מרן מ<placeName ref="#H-LOC_56">לובלין</placeName> זצוק"ל נתוועדו בעיר <placeName>קאמארנא</placeName>
 					<lb/>הרבה מתלמידיו מגדולי הצדיקים ובראשם רבינו הרה״ק <persName>מוהרצ"ה</persName>
@@ -1136,7 +1136,7 @@
 					<lb/>כי שמע ממנו בשם תפלת י״ח במנחה אשר מימי רבינו <persName>אלימלך</persName> לא שמע <reg reg="שמונה">שמנה</reg>
 					<lb/>עשרה כזאת :
 				</p>
-				</div><div type="story" xml:id="Eser-Kedushot_0043" n="43"><head type="storyHead">Eser-Kedushot_0043</head>
+				</div><div type="story" xml:id="Eser-Kedushot_0043" n="43"><head type="storyHead">Eser-Kedushot_0043</head><span ana="characters-and-roles:the_family_of_the_tsaddik; practice:the_travels_of_the_tsaddik; social:inter_hasidic_conflict_between_tsaddikim; social:marriage; supernatural:perception; women:mention_only; ethics-and-emotions:humility; ethics-and-emotions:shame; social:competition; social:inter_hasidic; social:relations_with_the_authorities" resp="#llm-tagging">תיוגים</span>
 <p>
 					<lb/>(לד) בעת עשה הרב האלקי מו"ה <persName>יצחק אייזיק טוב מ<placeName ana="bio">קאהלוב</placeName></persName> במדינת
 					<placeName><lb/>הגר</placeName> נישואין שם לאחד מצאצאיו והי' שם גאונים וקדושי עליון
@@ -1158,7 +1158,7 @@
 					<lb/>לקח בת רבינו <persName>צבי</persName> בתו הצדיקת מרת <persName>ריזל</persName> ע"ה כמבואר ב<name type="work">מגלת יוחסין</name>
 					<lb/>שלנו :
 				</p>
-				</div><div type="story" xml:id="Eser-Kedushot_0044" n="44"><head type="storyHead">Eser-Kedushot_0044</head>
+				</div><div type="story" xml:id="Eser-Kedushot_0044" n="44"><head type="storyHead">Eser-Kedushot_0044</head><span ana="characters-and-roles:the_family_of_the_tsaddik; ethics-and-emotions:fear; practice:protection; practice:the_travels_of_the_tsaddik; social:inter_hasidic; folkloristics:story_type_protection; supernatural:perception" resp="#llm-tagging">תיוגים</span>
 <p>
 					<lb/>(לה) והנה הסימן על מצח השר הגיד גם הרה״ק <persName>מוהרצ"א מ<placeName ana="bio">דינוב</placeName></persName> זצ"ל
 					<lb/>בהיותו רב דק׳ <placeName>מונקאטש</placeName> לרבינו <persName>צבי</persName> בעת ביקש ממנו ה<persName>מוהרצ״א</persName>
@@ -1169,21 +1169,21 @@
 					<lb/>ב״ב ב<placeName ref="#H-LOC_92">זידיטשוב</placeName> כ״ז היותו ב<placeName>מונקאטש</placeName> וקיבל עליו אחריותם ואז נרצה לבקשתו
 					<lb/>ונסע :
 				</p>
-				</div><div type="story" xml:id="Eser-Kedushot_0045" n="45"><head type="storyHead">Eser-Kedushot_0045</head>
+				</div><div type="story" xml:id="Eser-Kedushot_0045" n="45"><head type="storyHead">Eser-Kedushot_0045</head><span ana="practice:prayer; ethics-and-emotions:virtues; folkloristics:story_type_virtues; social:inter_hasidic" resp="#llm-tagging">תיוגים</span>
 <p>
 					<lb/>(לו) פ״א התפלל רבינו <persName>צבי</persName> לפני התיבה אצל הרה״ק מ<placeName ref="#H-LOC_133">אפטא</placeName> ואמר אח״כ
 					<lb/>תיתי לי שכאשר עמדתי בברכת <name type="work">רצה</name> בתפלת <name type="work">י"ח</name> פתחתי עיני
 					<lb/>וארא כי הזקן [היינו הרב ד<placeName ref="#H-LOC_133">אפטא</placeName>] סיים תפלת <name type="work">י"ח</name> ופסע הג' פסיעות הנה
 					<lb/>התחלתי תיכף לומר <name type="work">השמ"ע</name> דקול רם שלא יהי' ח"ו חולשת הדעת להסבא קדישא :
 				</p>
-				</div><div type="story" xml:id="Eser-Kedushot_0046" n="46"><head type="storyHead">Eser-Kedushot_0046</head>
+				</div><div type="story" xml:id="Eser-Kedushot_0046" n="46"><head type="storyHead">Eser-Kedushot_0046</head><span ana="not-a-hasidic-story:sermon" resp="#llm-tagging">תיוגים</span>
 <p>
 					<lb/>(לז) רבינו <persName>צבי</persName> אמר פ"א לאחיו הצה"ק <persName>רר״מ מ<placeName ana="bio">סאמבור</placeName></persName> כי הוא מרומז
 					<lb/>בפסוק הנותן בים דר״ך כי כן מספר דרך <sic correction="מכוון">מכאן</sic> כמנין צבי בן
 					<lb/>הינדא וענה לו אחיו הנ"ל והן אני בהיותי אחיך מרומז ג״כ בסוף פסוק זה
 					<lb/>ובמים עזים נתיבה כי כן מספר נתיבה מכוון כמנין <persName>משה בן הינדא</persName> :
 				</p>
-				</div><div type="story" xml:id="Eser-Kedushot_0047" n="47"><head type="storyHead">Eser-Kedushot_0047</head>
+				</div><div type="story" xml:id="Eser-Kedushot_0047" n="47"><head type="storyHead">Eser-Kedushot_0047</head><span ana="not-a-hasidic-story:sermon" resp="#llm-tagging">תיוגים</span>
 <p>
 					<lb/>(לח) סיפר מורינו הק׳ <persName>מוהרי״א מ<placeName ana="bio" ref="#H-LOC_92">זידיטשוב</placeName></persName> שרבו רבינו <persName>צבי</persName> אמר דבעלי
 					<lb/>הפיוטים הם מיורדי המרכבה ואמר פ"א מיר ווואלטין אויך
@@ -1192,14 +1192,14 @@
 					<lb/>שבית המדרש של רבו רבינו <persName>צבי</persName> עומד על רצועה ד<placeName ref="#H-LOC_105">ארץ ישראל</placeName> גם אמר שכל
 					<lb/>התפלות מחוץ לארץ נדחים ל<placeName ref="#H-LOC_105">ארץ ישראל</placeName> הולכים ע"י בהמ"ד של רבו הנ"ל :
 				</p>
-				</div><div type="story" xml:id="Eser-Kedushot_0048" n="48"><head type="storyHead">Eser-Kedushot_0048</head>
+				</div><div type="story" xml:id="Eser-Kedushot_0048" n="48"><head type="storyHead">Eser-Kedushot_0048</head><span ana="supernatural:reincarnation; characters-and-roles:the_family_of_the_tsaddik; experience:journey_to_heaven; supernatural:perception" resp="#llm-tagging">תיוגים</span>
 <p>
 					<lb/>(לט) קבלתי ממגידי אמת שפ"א אמר רבינו <persName>צבי</persName> לאחיו רבינו <persName>משה מ<placeName ana="bio">סאמבור</placeName></persName>
 					<lb/><sic correction="שבגלגול">שבגליל</sic> אחד הי' הוא ר׳ <persName>ישמעאל בן אלישע</persName> כ"ג וזוכר עוד כל
 					<lb/>העליות אשר עלה כמוזכר בס׳ <name type="work">היכלות</name> ואז שאלו אחיו הנ"ל אם גם אז הי'
 					<lb/>הוא אחיו והשיב לו לא אח רק קרוב והגיד לו מה :
 				</p>
-				</div><div type="story" xml:id="Eser-Kedushot_0049" n="49"><head type="storyHead">Eser-Kedushot_0049</head>
+				</div><div type="story" xml:id="Eser-Kedushot_0049" n="49"><head type="storyHead">Eser-Kedushot_0049</head><span ana="characters-and-roles:the_family_of_the_tsaddik; ethics-and-emotions:charity; ethics-and-emotions:humility; folkloristics:story_type_death_of_the_tsaddik; practice:sermon; supernatural:prognostication; times:death; times:historical_event; practice:clothing; practice:halakhah; practice:pidyon_nefesh; spaces:beth_midrash; times:shabbat; women:mention_only" resp="#llm-tagging">תיוגים</span>
 <p>
 					<lb/>(מ) ב<date>שנת תקצ״א</date> בעת שלטה החולי רע רח"ל וביום אחד הגיע לרבינו
 					<persName><lb/>צבי</persName> מכתבים מרורים מאנשי בריתו מרחוק ומקרוב מחוזק
@@ -1227,7 +1227,7 @@
 					<lb/>ובהו אולי ח״ו לא זכו עוד אל האמת. וז״פ כל אלין דאבהו מלשון בהו וכו׳ ובאמצע
 					<lb/>הדרוש עלתה נשמתו השמימה אור <date>י"א תמוז תקצ״א</date> זיע״א :
 				</p>
-				</div><div type="story" xml:id="Eser-Kedushot_0050" n="50"><head type="storyHead">Eser-Kedushot_0050</head>
+				</div><div type="story" xml:id="Eser-Kedushot_0050" n="50"><head type="storyHead">Eser-Kedushot_0050</head><span ana="characters-and-roles:the_family_of_the_tsaddik; folkloristics:story_type_death_of_the_tsaddik; times:death; practice:devekut; social:inter_hasidic_master_disciple_relationship" resp="#llm-tagging">תיוגים</span>
 <p>
 					<lb/>(מא) פ"א ראה רבינו <persName>צבי</persName> איך הרה״ק רבינו <persName>מנחם מענדל מ<placeName ana="bio">רימונאב</placeName></persName> כפף
 					<lb/>את אצבעו העבה הנקרא אגודל תחת ד׳ אצבעותיו ואז כפף כל
@@ -1235,7 +1235,7 @@
 					<lb/>של רבינו <persName>צבי</persName> ראה אותו אחיו הרה״ק רבי ר' <persName>משה</persName> כי כפף אצבעו הנ"ל תחת
 					<lb/>ד׳ אצבעותיו. והתחיל לצעוק ולבכות כי ידע כי עתה יסתלק :
 				</p>
-				</div><div type="story" xml:id="Eser-Kedushot_0051" n="51"><head type="storyHead">Eser-Kedushot_0051</head>
+				</div><div type="story" xml:id="Eser-Kedushot_0051" n="51"><head type="storyHead">Eser-Kedushot_0051</head><span ana="characters-and-roles:the_family_of_the_tsaddik; folkloristics:story_type_prognostication; social:marriage; supernatural:prognostication; times:birth; supernatural:perception; times:death; women:mention_only; women:minor_character" resp="#llm-tagging">תיוגים</span>
 <p>
 					<lb/>(מב) הי׳ לו לרבינו <persName>צבי</persName> בן יחיד אשר נקטף בימי נעוריו בחיי אביו הקדוש
 					<lb/>אשר חתן אותו הבן יחיד הי׳ הרב החסיד מו"ה <persName>יוסף הכהן מ<placeName ana="bio">סקאלי</placeName></persName>
@@ -1366,7 +1366,7 @@
 					<lb/>הוא בחי׳ כ"ד תיבין דבשכמל״ו <reg reg="התכוננות">התכוננת</reg> מלכות שמים בבחי׳ כ״ד [וזהו כ"ד פיטרי]
 					<lb/>ותמלא כדה ותעל עכ״ל וש״י :
 				</p>
-				</div><div type="story" xml:id="Eser-Kedushot_0052" n="52"><head type="storyHead">Eser-Kedushot_0052</head>
+				</div><div type="story" xml:id="Eser-Kedushot_0052" n="52"><head type="storyHead">Eser-Kedushot_0052</head><span ana="ethics-and-emotions:awe; ethics-and-emotions:humility; practice:prayer; ethics-and-emotions:fear; ethics-and-emotions:shame; folkloristics:story_type_virtues; practice:devekut; practice:meditation; practice:storytelling" resp="#llm-tagging">תיוגים</span>
 <p>
 					<lb/>(נא) סיפר הרה״ק מ<placeName>ראודל</placeName> <persName>הכו'</persName> בשם חותנו רבינו <persName>צבי שפ"א</persName> נכנס להתפלל
 					<lb/>וכשהתחיל להתבונן בגדלות הבורא ית״ש הא"ס ב"ה ובשפלות
@@ -1411,7 +1411,7 @@
 					<lb/>ודפח"ח שמעתיו בנעורי בשם רבינו ואח"ז מצאתי בשמו ג״כ ב<name type="work">ליקו״ת</name> וש"ס
 					<persName><lb/>מהרי״א</persName> פ׳ <name type="work">עקב</name> :
 				</p>
-				</div><div type="story" xml:id="Eser-Kedushot_0053" n="53" ana="marginal"><head type="storyHead">Eser-Kedushot_0053</head>
+				</div><div type="story" xml:id="Eser-Kedushot_0053" n="53" ana="marginal"><head type="storyHead">Eser-Kedushot_0053</head><span ana="experience:dream; practice:halakhah; practice:sermon; spaces:heaven; practice:study; spaces:beth_midrash; supernatural:communicating_with_the_invisible" resp="#llm-tagging">תיוגים</span>
 <p>
 					<pb facs="Eser-Kedushot_0029.jpg"/><lb/>(נה) בהקדמת <name type="work">זוהר חי</name> וזה"ל ופ"א פ׳ <name type="work">מקץ</name> והי׳ רבינו <persName>דודי מ<placeName ana="bio" ref="#H-LOC_92">זידיטשוב</placeName></persName>
 					<lb/>ישן בלילה וראה בחלום שנכנס להיכל רבינו <persName>הבית יוסף</persName>
@@ -1429,7 +1429,7 @@
 					<lb/>מותר לישראל ליהנות ממנו עכ״ד והשיב רבינו <persName>הב״י</persName> לרבינו <persName>צבי</persName> טוב דברתם
 					<lb/>וחדשתם בתורה הק׳ עכ"ל שם ודפח"ח :
 				</p>
-				</div><div type="story" xml:id="Eser-Kedushot_0054" n="54" ana="marginal"><head type="storyHead">Eser-Kedushot_0054</head>
+				</div><div type="story" xml:id="Eser-Kedushot_0054" n="54" ana="marginal"><head type="storyHead">Eser-Kedushot_0054</head><span ana="ethics-and-emotions:charity; practice:healing; practice:sermon; times:shabbat; knowledge:esoteric; not-a-hasidic-story:sermon; practice:reception_of_hasidim; practice:torat_ha_tsaddik" resp="#llm-tagging">תיוגים</span>
 <p>
 					<lb/>(נו) שמעתי מפי מגידי אמת שפ"א בא לפני רבינו <persName>צבי</persName> איש חולה ל"ע שהי'
 					<lb/>קשה להושיעהו ואמר לו בעש"ק פ׳ <name type="work">תרומה</name> לע"ע אין בידי
@@ -1457,7 +1457,7 @@
 					<lb/>קורין העולם בלשון פֶע גם תפלה זאת שומע ה<name type="misc">קב</name>״ה ברוב רו״ח עלינו
 					<lb/>ודפח״ח :
 				</p>
-				</div><div type="story" xml:id="Eser-Kedushot_0055" n="55" ana="marginal"><head type="storyHead">Eser-Kedushot_0055</head>
+				</div><div type="story" xml:id="Eser-Kedushot_0055" n="55" ana="marginal"><head type="storyHead">Eser-Kedushot_0055</head><span ana="not-a-hasidic-story:sermon" resp="#llm-tagging">תיוגים</span>
 <p>
 					<lb/>(נח) שמעתי בשמו הקדוש בדרך צחות שפ"א נדבר לפניו ממה שאומרים
 					<lb/>העולם שטוב בבוקר פייטשעטיק טוב וענה הוא הלא גם <persName>דוד</persName>
@@ -1578,7 +1578,7 @@
 					<pb facs="Eser-Kedushot_0032.jpg"/><lb/>נשני אלקים את כל עמלי אשר שם זה נגזר משמם אזי הקב״ה ברוב רו״ח מגלה
 					<lb/>נ׳ שערי בינה דהוא ר"ת בשן ואז הדינים נמתקים וש״י :
 				</p>
-				</div><div type="story" xml:id="Eser-Kedushot_0056" n="56" ana="marginal"><head type="storyHead">Eser-Kedushot_0056</head>
+				</div><div type="story" xml:id="Eser-Kedushot_0056" n="56" ana="marginal"><head type="storyHead">Eser-Kedushot_0056</head><span ana="practice:prayer; practice:sermon; practice:torat_ha_tsaddik; not-a-hasidic-story:sermon; social:inter_hasidic" resp="#llm-tagging">תיוגים</span>
 <p>
 					<lb/>(שא) בעת הי׳ הרה״ק <persName>מוהר"נ</persName> זלה"ה מ<placeName>ראפשיטץ</placeName> ב<placeName ref="#H-LOC_92">זידיטשוב</placeName> ובפ"א התפלל
 					<lb/>שם אחד לפני התיבה אשר לא הוטב בעיני הרה״ק מ<placeName>ראפשיטץ</placeName>
@@ -1641,7 +1641,7 @@
 					<lb/>בראי' וזפ"ה וראיתם את הארץ מה הוא ודפח"ח מובא בהסכמת אחיו על
 					<lb/>העט"צ :
 				</p>
-				</div><div type="story" xml:id="Eser-Kedushot_0057" n="57"><head type="storyHead">Eser-Kedushot_0057</head>
+				</div><div type="story" xml:id="Eser-Kedushot_0057" n="57"><head type="storyHead">Eser-Kedushot_0057</head><span ana="practice:sermon; social:inter_hasidic_master_disciple_relationship; practice:torat_ha_tsaddik" resp="#llm-tagging">תיוגים</span>
 <p>
 					<lb/>(עח) פ"א אמר לו רבו הק׳ מ<placeName ref="#H-LOC_56">לובלין</placeName> בזה"ל ר' <persName>הערשלי</persName> <placeName ref="#H-LOC_92">זידיטשוב</placeName>ער כל זמן
 					<lb/>שאנו בחיים אין אנו יראין שמא תפלו ממדריגתכם אבל אח"כ מי
@@ -1712,7 +1712,7 @@
 					<lb/>שם כששובע בעולם הבריות נראות יפות וזה ממשיך בגבי״ע אשר בידו וכו'
 					<lb/>ובזה הצדיק הולך ומנגן ביד וממשיך על הדור בחומ״ז עכד״ק וש"י :
 				</p>
-				</div><div type="story" xml:id="Eser-Kedushot_0058" n="58" ana="marginal"><head type="storyHead">Eser-Kedushot_0058</head>
+				</div><div type="story" xml:id="Eser-Kedushot_0058" n="58" ana="marginal"><head type="storyHead">Eser-Kedushot_0058</head><span ana="not-a-hasidic-story:sermon" resp="#llm-tagging">תיוגים</span>
 <p>
 					<lb/>(פה) עוד בשמו בפ׳ <name type="work">ואתחנן</name> בפסוק אעברה נא עפימ״ש ב<persName>האריז"ל</persName> ע״פ
 					<lb/>יגמר נ"א ר"ע שהם ד׳ קליפות הסובבים שהם "נוגה "אש "ענן
@@ -1749,7 +1749,7 @@
 					<lb/>ויהי׳ דיין לעצמו אמנם בניב שפתים אדרבה צריך האדם בעצמו להמליץ בעדו
 					<lb/>בכל האפשר וזה ו<persName>אהרן</persName> אחיך יהי׳ נביאך ודפח"ח :
 				</p>
-				</div><div type="story" xml:id="Eser-Kedushot_0059" n="59" ana="marginal"><head type="storyHead">Eser-Kedushot_0059</head>
+				</div><div type="story" xml:id="Eser-Kedushot_0059" n="59" ana="marginal"><head type="storyHead">Eser-Kedushot_0059</head><span ana="not-a-hasidic-story:sermon" resp="#llm-tagging">תיוגים</span>
 <p>
 					<lb/>(פט) ב<name type="work">ליקו״ת</name> ו<name type="work">ש"ס</name> <persName>מהרי״א</persName> פ׳ <name type="work">וירא</name> שמעתי מרבינו <persName>צבי</persName> שמקובל הוא
 					<lb/>מרבותיו שעד רבינו <persName>הטור</persName> ר׳ <persName>יעקב</persName> בעל ה<name type="work">טורים</name> והוא
@@ -1780,7 +1780,7 @@
 					<lb/>שרש כוונת האכילה הוא להכין עצמו לקבל חסד מהחפץ חסד
 					<lb/>אשר זהו רצון בעל החסד עכ״ל ודפח"ח :
 				</p>
-				</div><div type="story" xml:id="Eser-Kedushot_0060" n="60" ana="marginal"><head type="storyHead">Eser-Kedushot_0060</head>
+				</div><div type="story" xml:id="Eser-Kedushot_0060" n="60" ana="marginal"><head type="storyHead">Eser-Kedushot_0060</head><span ana="ethics-and-emotions:prohibitions; practice:tefillin; ethics-and-emotions:punishment; practice:halakhah; practice:sermon; practice:travel_to_other_tsaddik; social:inter_hasidic" resp="#llm-tagging">תיוגים</span>
 <p>
 					<lb/>(צד) רבינו <persName>צבי</persName> הזהיר שלא יהי׳ התפילין מגולים כשחלצם והי׳ תקנה מי
 					<lb/>שיניחם מגולה בלא כיס נתן קנס קווארט יי"ש פ"א הי' הרב
@@ -1789,12 +1789,12 @@
 					<lb/>הצורך כן תפילין אין נכון להיות נגולה ואם לאו נקרא ח״ו מפיר ברית גם
 					<lb/>אמר טעם פנימי ואמר רבי <persName>ר"נ מ<placeName ana="bio" ref="#H-LOC_49">רופשיץ</placeName></persName> אלו לא באתי אלא בשביל זה די :
 				</p>
-				</div><div type="story" xml:id="Eser-Kedushot_0061" n="61" ana="marginal"><head type="storyHead">Eser-Kedushot_0061</head>
+				</div><div type="story" xml:id="Eser-Kedushot_0061" n="61" ana="marginal"><head type="storyHead">Eser-Kedushot_0061</head><span ana="not-a-hasidic-story:sermon" resp="#llm-tagging">תיוגים</span>
 <p>
 					<lb/>(צה) רבינו <persName>צבי</persName> נהג ליתן תיקון לבעל תשובה לומר כל יום ה׳ דפים <name type="work">זוהר</name>
 					<lb/>או תיקונים מובא ב<name type="work">נתיב מצותיך</name> בשמו הקדוש :
 				</p>
-				</div><div type="story" xml:id="Eser-Kedushot_0062" n="62"><head type="storyHead">Eser-Kedushot_0062</head>
+				</div><div type="story" xml:id="Eser-Kedushot_0062" n="62"><head type="storyHead">Eser-Kedushot_0062</head><span ana="characters-and-roles:the_family_of_the_tsaddik; ethics-and-emotions:prohibitions; women:catalyst_character; ethics-and-emotions:lust" resp="#llm-tagging">תיוגים</span>
 <p>
 					<lb/>(צו) אמר על עצמו פעם אחת שהי׳ מגיע למעלה יותר משרף מצד גודל
 					<lb/>נשמתו רק שאמו הצדיקת בימי עיבורה עמו התאוה תאוה ואכלה
@@ -1831,7 +1831,7 @@
 					<lb/>תושב ככל אבותי שישבו בסעודתי במלוה דמלכא כמו בסעודות של האבות
 					<lb/>באימה וביראה וכבוד הסעודה ודפח"ח :
 				</p>
-				</div><div type="story" xml:id="Eser-Kedushot_0063" n="63" ana="marginal"><head type="storyHead">Eser-Kedushot_0063</head>
+				</div><div type="story" xml:id="Eser-Kedushot_0063" n="63" ana="marginal"><head type="storyHead">Eser-Kedushot_0063</head><span ana="not-a-hasidic-story:sermon" resp="#llm-tagging">תיוגים</span>
 <p>
 					<lb/>(קא) בפסוק כי אשא אל שמים ידי ואמרתי חי אנכי לעולם סיפר לי ידי"נ
 					<lb/>ומחו' הרב הגאון מו"ה <persName>יצחק אייזיק טוביש</persName> נ"י אחד מרבני
@@ -1841,7 +1841,7 @@
 					<lb/>הוא לכנוס תיכף אל השמים לעזוב זה העולם ואמנם] ואמרתי חי אנכי [מה שאני
 					<lb/>רוצה לחיות אינו בשבילי כ"א רק] לעולם בשביל העולם ודפח"ח :
 				</p>
-				</div><div type="story" xml:id="Eser-Kedushot_0064" n="64"><head type="storyHead">Eser-Kedushot_0064</head>
+				</div><div type="story" xml:id="Eser-Kedushot_0064" n="64"><head type="storyHead">Eser-Kedushot_0064</head><span ana="not-a-hasidic-story:sermon" resp="#llm-tagging">תיוגים</span>
 <p>
 					<lb/>(קב) פ"א בסעודה שלישית באמצע התורה אמר בזה"ל יש כת שנוסעים אל
 					<lb/>רבי שלהם ואומרים שאין רבי בעולם אלא רבי שלהם זהו ע"ז
@@ -1949,14 +1949,14 @@
 				<p>
 					<lb/>לדידי נפשי חי רוחי ופאר נשמת כל חי. יום אתמול קבלתי מכתב בניו
 					<lb/>הנעימים עבדי אלקי <persName>יעקב</persName> גודל היסורין אשר ממש חלתה נפשי.
-					<lb/>אשר לא סר אליי עוד וממש נתבטלו חושי וכחי. והנה ידידי בהשם אלקי
+					<lb/>אשר לא סר אליי עוד וממש נתבטלו חושי וכחי. </p><div type="story" xml:id="Eser-Kedushot_non-story-098_s1" subtype="in-non-story"><head type="storyHead">Eser-Kedushot_non-story-098_s1</head><span ana="practice:healing; practice:prayer; characters-and-roles:the_family_of_the_tsaddik; ethics-and-emotions:joy; ethics-and-emotions:sadness; practice:lifesaving; practice:torat_ha_tsaddik; social:inter_hasidic" resp="#llm-tagging">תיוגים</span><p>והנה ידידי בהשם אלקי
 					<persName><lb/>יעקב</persName> אשר עזר לי וריפא אותי להחלימני ולהקימני ת"ל ב"ה וב"ש על ידי
 					<lb/>תפלת אדוני ושועתו וצעקתו אשר התפלל עלי במסירת נפשו להשם ונכנס בעובי
 					<lb/>הקורה עבורי השפל אשר אמרתי אז בחליי לא אראה עוד מה בארץ החיים
 					<lb/>והייתי בקרבי לאחר יאוש ואין מקוה. והנה עד כה עזרני ב"ה וב"ש וזכיתי
 					<lb/>עוד בקומי מחליי להשתעשע בזיו הדר יקר זוהר בביתו הקדוש באדרא דבי
 					<lb/>משכנא לחסות בצל כנפי אדוני לשמחני ושמחתי באור פני מלך חיים בסעודת
-					<lb/>הודאת ברכות רוממות אל וגודל חסדו ואמתו אשר עשה אדוני ידידי עמדי.
+					<lb/>הודאת ברכות רוממות אל וגודל חסדו ואמתו אשר עשה אדוני ידידי עמדי.</p></div><p>
 					<lb/>אלה אזכרה ואשפכה עלי נפשי ומובטחני לידידי אשר עד כה יעשה לי אלקים
 					<lb/><supplied reason="damage">כה</supplied> יוסיף אשר יאזור אדוני וישיב לאיתנו בטהרה ואזכה עוד לשעשע ולקבל
 					<lb/><supplied reason="damage">פני</supplied> פניו בשמחה בשובה ונחת יושע בקרוב. מובטחני מובטחני מובטחני מקוה
@@ -2538,7 +2538,7 @@
 				<p>
 					<lb/>מערכת ג. זקינינו הרה"ק ר' <persName>משה מ<placeName ana="bio">סאמבור</placeName></persName>
 				</p>
-				</div><div type="story" xml:id="Eser-Kedushot_0065" n="65"><head type="storyHead">Eser-Kedushot_0065</head>
+				</div><div type="story" xml:id="Eser-Kedushot_0065" n="65"><head type="storyHead">Eser-Kedushot_0065</head><span ana="not-a-hasidic-story:hagiography" resp="#llm-tagging">תיוגים</span>
 <p>
 					<lb/>[ג] (א) רבינו הצדיק הקדוש איש אלקי מו"ה <persName>משה מ<placeName ana="bio">סאמבור</placeName></persName> הנקרא בפי
 					<lb/>כל רבי ר' <persName>משה</persName> זצוק"ל אחיו של רבינו <persName>צבי</persName> המוזכר במערכת
@@ -2552,7 +2552,7 @@
 					<lb/>נכד אחיו רבינו <persName>צבי</persName> ה"ה הרב הצדיק המפו' מו"ה <persName>יודא צבי</persName> שליט״א האבד״ק
 					<placeName><lb/>דאלינא</placeName>. ומן השמים התמנו אותו להיות מנהיג ישראל צאן קדשים :
 				</p>
-				</div><div type="story" xml:id="Eser-Kedushot_0066" n="66"><head type="storyHead">Eser-Kedushot_0066</head>
+				</div><div type="story" xml:id="Eser-Kedushot_0066" n="66"><head type="storyHead">Eser-Kedushot_0066</head><span ana="not-a-hasidic-story:halakhah" resp="#llm-tagging">תיוגים</span>
 <p>
 					<lb/>(ב) חותנו של רבינו <persName>משה</persName> הי׳ הרב הגדול הצדיק מו"ה <persName>יודל</persName> זצ"ל אחיו של
 					<lb/>הגאון הנורא ר׳ <persName>יצחק חריף</persName> זצ"ל מ<placeName>סאמבור</placeName>. שניהם בניו של
@@ -2562,7 +2562,7 @@
 				<p>
 					<lb/>ממדריגותיו הנוראים.
 				</p>
-				</div><div type="story" xml:id="Eser-Kedushot_0067" n="67"><head type="storyHead">Eser-Kedushot_0067</head>
+				</div><div type="story" xml:id="Eser-Kedushot_0067" n="67"><head type="storyHead">Eser-Kedushot_0067</head><span ana="characters-and-roles:the_family_of_the_tsaddik; ethics-and-emotions:fear; practice:prayer; social:inter_hasidic_master_disciple_relationship; social:relations_with_non_jews; experience:devekut; knowledge:esoteric; practice:devekut; practice:sermon" resp="#llm-tagging">תיוגים</span>
 <p>
 					<lb/>(ג) מעט המעט מהידוע לי אספרה לאחיו עוד בילדותו שהי׳ עוסק
 					<lb/>באיזה מו״מ והלך בכפר ועסק עם העכו"ם במו״מ ושאל את אחיו
@@ -2574,7 +2574,7 @@
 					<lb/>וטעם חדש שלא טעמת כימיך שנדלקין בך בעמדך אח״כ להתפלל [<name type="work">היכל הברכה</name>
 					<lb/>ריש <name type="work">פ' תבא</name>] משמו הקדוש :
 				</p>
-				</div><div type="story" xml:id="Eser-Kedushot_0068" n="68"><head type="storyHead">Eser-Kedushot_0068</head>
+				</div><div type="story" xml:id="Eser-Kedushot_0068" n="68"><head type="storyHead">Eser-Kedushot_0068</head><span ana="characters-and-roles:the_family_of_the_tsaddik; practice:halakhah; practice:prayer; times:holidays; experience:enthusiasm; social:inter_hasidic_master_disciple_relationship; social:retrospective_recognition; spaces:beth_midrash" resp="#llm-tagging">תיוגים</span>
 <p>
 					<lb/>(ד) עוד בהיותו מסתופף בצל רבו הקדוש מ<placeName ref="#H-LOC_56">לובלין</placeName> זצ"ל ביחד עם <sic correction="אחיו">אביו</sic>
 					<lb/>ורבו רבינו <persName>צבי</persName> ופ"א הי׳ רבינו <persName>צבי</persName> על ערש דוי בירח <date>תשרו</date> [כנז'
@@ -2588,7 +2588,7 @@
 					<pb facs="Eser-Kedushot_0052.jpg"/><lb/>איך שוין וואס מיר האבין גיהאט היינט אזא הייס דאווינין ווייל איהר האט
 					<lb/>אונטר גיוואהרימט :
 				</p>
-				</div><div type="story" xml:id="Eser-Kedushot_0069" n="69"><head type="storyHead">Eser-Kedushot_0069</head>
+				</div><div type="story" xml:id="Eser-Kedushot_0069" n="69"><head type="storyHead">Eser-Kedushot_0069</head><span ana="ethics-and-emotions:humility; practice:travel_to_the_tsaddik; practice:tvilah; spaces:mikveh; times:holidays; folkloristics:story_type_virtues; practice:torat_ha_tsaddik" resp="#llm-tagging">תיוגים</span>
 <p>
 					<lb/>(ה) רבינו <persName>משה</persName> הי<persName>׳</persName> בעל יסורין בכמה מיני חולאים ומכאובים ל"ע בכל גופו
 					<lb/>וידוע ומפורסם הענין כי פ"א בבא אליו על <sic correction="ימים">ימי</sic> נוראים הרבה
@@ -2598,7 +2598,7 @@
 					<lb/>לבבו וסיים אך הריני מקבל עלי יסורין בעד כלל <placeName>ישראל</placeName> ומזה נתהוה ענין
 					<lb/>הנ"ל :
 				</p>
-				</div><div type="story" xml:id="Eser-Kedushot_0070" n="70"><head type="storyHead">Eser-Kedushot_0070</head>
+				</div><div type="story" xml:id="Eser-Kedushot_0070" n="70"><head type="storyHead">Eser-Kedushot_0070</head><span ana="ethics-and-emotions:anger; practice:prayer; times:shabbat; kabbalah:kabbalistic_terms_kavvanot; practice:devekut; practice:meditation; practice:storytelling; practice:the_travels_of_the_tsaddik; social:inter_hasidic" resp="#llm-tagging">תיוגים</span>
 <p>
 					<lb/>(ו) סיפר לי כבוד אבי מורי הרב זצ"ל שפ"א בהיותו על ש"ק ב<placeName>מונקאטש</placeName>
 					<lb/>ואז הי' שם רב ואב"ד מחו' הגאוה״ק <persName>מוהרצ"א מ<placeName ana="bio">דינאב</placeName></persName> זצוק"ל.
@@ -2613,7 +2613,7 @@
 					<lb/>אש שלנו בתנועות משונות יאָ יאָ ווען ער זאלל קענין מיט זיין פייער אב קאכין
 					<lb/>דיא גרויסע טעפף וואלט מיך נישט גיהארט עכד״ק :
 				</p>
-				</div><div type="story" xml:id="Eser-Kedushot_0071" n="71"><head type="storyHead">Eser-Kedushot_0071</head>
+				</div><div type="story" xml:id="Eser-Kedushot_0071" n="71"><head type="storyHead">Eser-Kedushot_0071</head><span ana="ethics-and-emotions:humility; folkloristics:story_type_virtues; practice:reception_of_hasidim; practice:travel_to_the_tsaddik; characters-and-roles:the_family_of_the_tsaddik; social:inter_hasidic_inheritance_of_leadership; times:death" resp="#llm-tagging">תיוגים</span>
 <p>
 					<lb/>(ז) אחרי פטירת אחיו רבינו <persName>צבי</persName> ב<date>י"א תמוז תקצ״א</date>. והנה הרבה חסידים
 					<lb/>נסעו תיכף גם לאחיו הרה״ק ר׳ <persName>ישכר בעריש</persName> זצ"ל [אבי מורינו
@@ -2626,7 +2626,7 @@
 					<lb/>זענט אצונד יא גיקומין זאלל מיר נאך קשה זיין פאר וואס איהר זענט ביז
 					<lb/>אצונד נישט גיקומין :
 				</p>
-				</div><div type="story" xml:id="Eser-Kedushot_0072" n="72"><head type="storyHead">Eser-Kedushot_0072</head>
+				</div><div type="story" xml:id="Eser-Kedushot_0072" n="72"><head type="storyHead">Eser-Kedushot_0072</head><span ana="characters-and-roles:the_family_of_the_tsaddik; experience:visions; practice:healing; practice:lifesaving; practice:recitation_of_psalms; practice:storytelling; practice:torat_ha_tsaddik; supernatural:miracle; women:mention_only; practice:failure; practice:pidyon_nefesh; practice:travel_to_the_tsaddik; practice:writing_amulets; supernatural:perception" resp="#llm-tagging">תיוגים</span>
 <p>
 					<lb/>(ח) פ״א היו שני נכדי בנו הקדוש מו"ה <persName>יודא צבי מ<placeName ana="bio">ראזלא</placeName></persName> בחולי מסוכן
 					<lb/>ל״ע וכמעט אחר היאוש. והרה״ק מ<placeName>ראזלא</placeName> ראה אז בחזיונו את
@@ -2651,21 +2651,21 @@
 					<lb/>מ<placeName ana="bio" ref="#H-LOC_92">זידיטשוב</placeName></persName> זצ"ל ג״כ זאת המעשה וסיים אבל מי יוכל לדמות א"ע להרבי ר'
 					<persName><lb/>משה</persName> שהי׳ למעלה מהשכל. למעלה מהזמן. למעלה מהטבע :
 				</p>
-				</div><div type="story" xml:id="Eser-Kedushot_0073" n="73"><head type="storyHead">Eser-Kedushot_0073</head>
+				</div><div type="story" xml:id="Eser-Kedushot_0073" n="73"><head type="storyHead">Eser-Kedushot_0073</head><span ana="folkloristics:story_type_prognostication; supernatural:prognostication; times:death; practice:reception_of_hasidim; practice:torat_ha_tsaddik; social:retrospective_recognition; supernatural:miracle" resp="#llm-tagging">תיוגים</span>
 <p>
 					<lb/>(ט) סיפר לי אבי מורי הרב זצ"ל כי ידע אדם אחד במדינת <placeName>הגר</placeName> אשר הי'
 					<lb/>נצרך לישועה גדולה ודפק על פתחו של רבינו <persName>משה</persName> ואמר לו אז
 					<lb/>וועל דיר נישט העלפין אין דיא שיעך [מנעלים] וועל דיר העלפין אין דיא זאקין.
 					<lb/>וכן הי׳ שנסתלק רבינו <persName>משה</persName> ואז תיכף נושע האיש ההוא כמדובר :
 				</p>
-				</div><div type="story" xml:id="Eser-Kedushot_0074" n="74"><head type="storyHead">Eser-Kedushot_0074</head>
+				</div><div type="story" xml:id="Eser-Kedushot_0074" n="74"><head type="storyHead">Eser-Kedushot_0074</head><span ana="not-a-hasidic-story:sermon" resp="#llm-tagging">תיוגים</span>
 <p>
 					<lb/>(י) אמר מורינו <persName>מוהרי״א מ<placeName ana="bio" ref="#H-LOC_92">זידיטשוב</placeName></persName> זצוק"ל משמו שפ"א דיבר דודו רבי ר'
 					<persName><lb/>משה</persName> שעבודת ה' עם אכילה הוא גדולה מעבדות של תעניתים ווייל
 					<lb/>אז מען עסט טרעססיט מען מיט דער בארד [ומסתם הכוונה] שמעוררין בחי'
 					<lb/>לג תיקוני דיקנא קדישא והבן :
 				</p>
-				</div><div type="story" xml:id="Eser-Kedushot_0075" n="75"><head type="storyHead">Eser-Kedushot_0075</head>
+				</div><div type="story" xml:id="Eser-Kedushot_0075" n="75"><head type="storyHead">Eser-Kedushot_0075</head><span ana="ethics-and-emotions:humility; folkloristics:story_type_death_of_the_tsaddik; practice:pilgrimage_to_the_graves_of_tsaddikim; times:death; folkloristics:story_type_virtues" resp="#llm-tagging">תיוגים</span>
 <p>
 					<lb/>(יא) בשבת <date>ת״ר</date> ששה ימים לחודש <date>אייר</date> נחשכו המאורות וימת שם ב<placeName ref="#H-LOC_92">זידיטשוב</placeName>
 					<persName><lb/>משה</persName> עבד ה׳ והנה לפני הפטירה אמר כי כאשר היה קפדן בזה
@@ -2675,7 +2675,7 @@
 					<lb/>גדלה שפלות רוחו שהי' פשוט אצלו כי העולם ידרסו עליו ולא יבאו להתפלל
 					<lb/>על קברו] זיע"א :
 				</p>
-				</div><div type="story" xml:id="Eser-Kedushot_0076" n="76"><head type="storyHead">Eser-Kedushot_0076</head>
+				</div><div type="story" xml:id="Eser-Kedushot_0076" n="76"><head type="storyHead">Eser-Kedushot_0076</head><span ana="characters-and-roles:the_family_of_the_tsaddik; experience:visions; supernatural:communicating_with_the_invisible; times:death" resp="#llm-tagging">תיוגים</span>
 <p>
 					<lb/>(יב) מצאצאיו הקדושים הידועים לי המה (א) בנו הגאון הקדוש האלקי
 					<lb/>מו"ה <persName>יודא צבי</persName> זצ"ל האבד״ק <placeName>ראזלא</placeName> אשר יבא להלן
@@ -2831,7 +2831,7 @@
 				<p>
 					<lb/>מערכת ד. דודינו הרה"ק ר׳ <persName>אלכסנדר סענדר מ<placeName ana="bio" ref="#H-LOC_37">קאמרנא</placeName></persName>.
 				</p>
-				</div><div type="story" xml:id="Eser-Kedushot_0077" n="77"><head type="storyHead">Eser-Kedushot_0077</head>
+				</div><div type="story" xml:id="Eser-Kedushot_0077" n="77"><head type="storyHead">Eser-Kedushot_0077</head><span ana="not-a-hasidic-story:hagiography" resp="#llm-tagging">תיוגים</span>
 <p>
 					<lb/>[ד] (א) הגאון הקדוש איש אלקי מו״ה <persName>אלכסנדר סענדר</persName> הנ"ל אחיהון
 					<lb/>דרבינו <persName>צבי</persName> ורבינו <persName>משה</persName> הנזכרים בשני מערכות הקודמים
@@ -2841,7 +2841,7 @@
 					<lb/>לספרו הקדוש ח"א. וגם נדפס ממנו <name type="work">זכרון דברים</name> ח"ב והוא שו״ת להלכה
 					<lb/>ולמעשה :
 				</p>
-				</div><div type="story" xml:id="Eser-Kedushot_0078" n="78"><head type="storyHead">Eser-Kedushot_0078</head>
+				</div><div type="story" xml:id="Eser-Kedushot_0078" n="78"><head type="storyHead">Eser-Kedushot_0078</head><span ana="not-a-hasidic-story:sermon" resp="#llm-tagging">תיוגים</span>
 <p>
 					<lb/>(ב) הרה"ק <persName>מוהרא״ס</persName> הנ"ל מלבד עוצם קדושתו הי׳ מפורסם בגאונו וחריפותו
 					<lb/>כאשר נראה גם בספריו הנ"ל כמה חילוקים בעומק הפלפול
@@ -2851,7 +2851,7 @@
 					<lb/>בהסכמתו על ספר הנ"ל מזכירו בשם „הצדיק הגאון הספון וטמון פה עירנו" כי
 					<lb/>שם חלקת מחוקק ספון כאשר יבואר להלן כי נורא הוא :
 				</p>
-				</div><div type="story" xml:id="Eser-Kedushot_0079" n="79"><head type="storyHead">Eser-Kedushot_0079</head>
+				</div><div type="story" xml:id="Eser-Kedushot_0079" n="79"><head type="storyHead">Eser-Kedushot_0079</head><span ana="not-a-hasidic-story:sermon" resp="#llm-tagging">תיוגים</span>
 <p>
 					<lb/>(ג) בנו הגאוה״ק מורינו <persName>מוהרי״א</persName> זצ"ל בהקדמתו לס׳ <name type="work">זכרון דברים</name> מאביו
 					<lb/>הנ"ל מביא שאביו הגיד לו בפה קדשו כי בהיותו בר שבע הי׳ שגור
@@ -2867,7 +2867,7 @@
 				<p>
 					<lb/>ממדריגותיו הנוראים.
 				</p>
-				</div><div type="story" xml:id="Eser-Kedushot_0080" n="80"><head type="storyHead">Eser-Kedushot_0080</head>
+				</div><div type="story" xml:id="Eser-Kedushot_0080" n="80"><head type="storyHead">Eser-Kedushot_0080</head><span ana="characters-and-roles:the_family_of_the_tsaddik; folkloristics:story_type_virtues; practice:study; women:minor_character; ethics-and-emotions:virtues; practice:asceticism; practice:devekut; practice:fasting; social:inter_hasidic_master_disciple_relationship" resp="#llm-tagging">תיוגים</span>
 <p>
 					<lb/>(ד) עוד כתב שם בנו בהקדמתו הנ"ל שכ״כ הי׳ דבוק באור ומתיקת התוודה
 					<lb/>עד שהי׳ נשכח ד׳ וה׳ ימים מלטעום טעם אוכל ומשקה ופ"א אמרה
@@ -2877,7 +2877,7 @@
 					<lb/>כלל וכלל ואילו הי' לי שום הרגש חסרון אוכל ורעבון לא הייתי עטוף ברעב
 					<lb/>שהוא גורם ביטול תורה וחלישות :
 				</p>
-				</div><div type="story" xml:id="Eser-Kedushot_0081" n="81"><head type="storyHead">Eser-Kedushot_0081</head>
+				</div><div type="story" xml:id="Eser-Kedushot_0081" n="81"><head type="storyHead">Eser-Kedushot_0081</head><span ana="characters-and-roles:the_family_of_the_tsaddik; ethics-and-emotions:humility; ethics-and-emotions:virtues; folkloristics:story_type_virtues; practice:study; social:poverty; ethics-and-emotions:awe; experience:enthusiasm; knowledge:esoteric; supernatural:light_or_fire_as_a_sign_of_righteousness; women:mention_only" resp="#llm-tagging">תיוגים</span>
 <p>
 					<lb/>(ה) עוד כתב שם וזה"ל וכל ימיו הי' בדוחק פרנסה ולא הרגיש. ופ"א הי'
 					<lb/>כל כך דוחק עד שאני שהייתי קטן לא הי' לי מעט פת לטעום
@@ -2890,7 +2890,7 @@
 					<lb/>הי' בו מימי לא ראיתי אצלו שום כעס והי' שפל וסבלן לסבול חירופין ושותק
 					<lb/>בלב טהור וראיתי בו מדריגות רמות ורוה״ק :
 				</p>
-				</div><div type="story" xml:id="Eser-Kedushot_0082" n="82"><head type="storyHead">Eser-Kedushot_0082</head>
+				</div><div type="story" xml:id="Eser-Kedushot_0082" n="82"><head type="storyHead">Eser-Kedushot_0082</head><span ana="characters-and-roles:elijah_the_prophet; characters-and-roles:the_family_of_the_tsaddik; social:retrospective_recognition; supernatural:miracle; characters-and-roles:tavern_keeper; practice:drinking_alcohol; social:relations_with_non_jews; supernatural:perception; women:mention_only" resp="#llm-tagging">תיוגים</span>
 <p>
 					<lb/>(ו) בכ״י קונטרס <name type="work">מגלת סתרים</name> מבנו מורינו הנ"ל אשר לא נדפס ויש אתי
 					<lb/>העתקה יש ג״כ סיפור הנ"ל מאות ה׳ בביאור יותר שבעת הנ"ל שלא
@@ -2902,7 +2902,7 @@
 					<lb/>פנאי להשכיל מה זאת. ואח"כ הבנתי מאבי זצ"ל שמגודל עונותי לא זכיתי
 					<lb/>לראות <persName>אליהו</persName> אלא בבלבול כזה :
 				</p>
-				</div><div type="story" xml:id="Eser-Kedushot_0083" n="83"><head type="storyHead">Eser-Kedushot_0083</head>
+				</div><div type="story" xml:id="Eser-Kedushot_0083" n="83"><head type="storyHead">Eser-Kedushot_0083</head><span ana="characters-and-roles:the_family_of_the_tsaddik; supernatural:perception; supernatural:prognostication; times:death; folkloristics:story_type_death_of_the_tsaddik; folkloristics:story_type_prognostication; practice:the_travels_of_the_tsaddik" resp="#llm-tagging">תיוגים</span>
 <p>
 					<lb/>(ז) עו״ש בכת"י הנ"ל בזה"ל וכשהייתי בן י"ב שנים נסע אבי ל<placeName>אונגארין</placeName> ואני
 					<lb/>בכיתי שבעה ימים ולילות עד קרוב לשגעון הייתי שבקשתי מאתו
@@ -2910,7 +2910,7 @@
 					<lb/>כמה הנהגות ונסע והלך לעולמו בעיר <placeName ref="#H-LOC_17">אוהעל</placeName> שבמדינה הנ"ל כ"א אב שנת
 					<lb/>רב ושלום :
 				</p>
-				</div><div type="story" xml:id="Eser-Kedushot_0084" n="84"><head type="storyHead">Eser-Kedushot_0084</head>
+				</div><div type="story" xml:id="Eser-Kedushot_0084" n="84"><head type="storyHead">Eser-Kedushot_0084</head><span ana="experience:dream; experience:trembling; folkloristics:story_type_death_of_the_tsaddik; kabbalah:kabbalistic_terms_yihudim; supernatural:light_or_fire_as_a_sign_of_righteousness; times:death; characters-and-roles:the_family_of_the_tsaddik; ethics-and-emotions:awe; practice:meditation; practice:prayer; practice:torat_ha_tsaddik; supernatural:communicating_with_the_invisible; supernatural:miracle" resp="#llm-tagging">תיוגים</span>
 <p>
 					<lb/>(ח) עו״ש בכתב יד הנזכר לעיל. אבי נשמתו עדן הי' משורש ה<persName>רמב״ם</persName>
 					<lb/>ז״ל והי׳ צדיק חסיד וקדוש וגם היה קרוב לשורש ה<persName>רא"ה</persName>
@@ -2924,7 +2924,7 @@
 					<lb/>שגופו הי׳ מונח על המטה אמר לו הצדיק הרב מ<placeName ref="#H-LOC_17">אוהעל</placeName> שיתפלל על איזה גזירה
 					<lb/>לבטלה. ונזדעזע שני פעמים כמו בחיים שכן הי׳ דרכו באימה ופחד עכ״ל :
 				</p>
-				</div><div type="story" xml:id="Eser-Kedushot_0085" n="85"><head type="storyHead">Eser-Kedushot_0085</head>
+				</div><div type="story" xml:id="Eser-Kedushot_0085" n="85"><head type="storyHead">Eser-Kedushot_0085</head><span ana="characters-and-roles:the_family_of_the_tsaddik; folkloristics:story_type_birth_of_the_tsaddik; kabbalah:kabbalistic_terms_yihudim; practice:use_of_holy_names; supernatural:pregnancy; kabbalah:kabbalistic_terms_kavvanot; knowledge:practical_kabbalah; practice:meditation; practice:torat_ha_tsaddik; practice:travel_to_the_tsaddik; supernatural:prognostication" resp="#llm-tagging">תיוגים</span>
 <p>
 					<lb/>(ט) עו״ש בכת״י כשהי׳ אבי הצדיק אצל מורינו קדוש <name type="misc">אלקי</name> <placeName>ישראל</placeName> מ<placeName ref="#H-LOC_56">לובלין</placeName>
 					<lb/>הפציר בו שיבקש רחמים עליו שיהי׳ לו בן זכר והשיב לו שבהכרח
@@ -2932,12 +2932,12 @@
 					<lb/>העולם וקיבל אבי על עצמו ומסר לו יחוד נורא ושמות קדושים לכוין בעת
 					<lb/>היחוד להוריד נשמתי וכו׳ עכ״ל :
 				</p>
-				</div><div type="story" xml:id="Eser-Kedushot_0086" n="86"><head type="storyHead">Eser-Kedushot_0086</head>
+				</div><div type="story" xml:id="Eser-Kedushot_0086" n="86"><head type="storyHead">Eser-Kedushot_0086</head><span ana="not-a-hasidic-story:sermon" resp="#llm-tagging">תיוגים</span>
 <p>
 					<lb/>(י) בהקדמתו ל<name type="work">זכרון דברים</name> כתב ואמר לי מורי דודי הקדוש שרבינו
 					<persName><lb/>מוהרי"י מ<placeName ana="bio" ref="#H-LOC_56">לובלין</placeName></persName> אמר על אבי שהוא מן ל"ו צדיקים :
 				</p>
-				</div><div type="story" xml:id="Eser-Kedushot_0087" n="87"><head type="storyHead">Eser-Kedushot_0087</head>
+				</div><div type="story" xml:id="Eser-Kedushot_0087" n="87"><head type="storyHead">Eser-Kedushot_0087</head><span ana="characters-and-roles:the_family_of_the_tsaddik; social:retrospective_recognition; folkloristics:story_type_prognostication; supernatural:prognostication" resp="#llm-tagging">תיוגים</span>
 <p>
 					<lb/>(יא) עו״ש שבפרידתו מאתו (לנסיעה הנ"ל) בתוך הדברים מסר לו ספרו
 					<lb/>כת"י ואמר לו תראה להדפיס ספרי זה וקראת שמו זכרון
@@ -2946,19 +2946,19 @@
 					<lb/>השגיח עליו ונגנב ממנו הרבה דרשות ודרושים נפלאים ולא נשאר אלא זכרון
 					<lb/>דברים ואז הבין כי יפה צוה עליו אביו הרה״ק בשם זה :
 				</p>
-				</div><div type="story" xml:id="Eser-Kedushot_0088" n="88"><head type="storyHead">Eser-Kedushot_0088</head>
+				</div><div type="story" xml:id="Eser-Kedushot_0088" n="88"><head type="storyHead">Eser-Kedushot_0088</head><span ana="not-a-hasidic-story:sermon" resp="#llm-tagging">תיוגים</span>
 <p>
 					<lb/>(יב) עוד כ׳ שם בנו שאמר לו קודם נסיעתו לדרך הנ"ל שלמד וחזר שבעה
 					<lb/>פעמים כל ה<name type="work">ש"ס</name> עם כל השיטות וכל ימיו היו ארבעים ושמונה
 					<lb/>שנה.
 				</p>
-				</div><div type="story" xml:id="Eser-Kedushot_0089" n="89"><head type="storyHead">Eser-Kedushot_0089</head>
+				</div><div type="story" xml:id="Eser-Kedushot_0089" n="89"><head type="storyHead">Eser-Kedushot_0089</head><span ana="not-a-hasidic-story:sermon" resp="#llm-tagging">תיוגים</span>
 <p>
 					<lb/>(יג) הרב הגאוה״ק <persName>מוהרי״מ</persName> שליט״א מ<placeName>ספינקא</placeName> כתב לי כי הרה״ק <persName>רא״ס
 					<lb/>מ<placeName ana="bio" ref="#H-LOC_37">קאמרנא</placeName></persName> אמר שאפילו העקביים שלו מרגישין על הסדר של פסח
 					<lb/>הקדושה מאכילת מצות מצוה :
 				</p>
-				</div><div type="story" xml:id="Eser-Kedushot_0090" n="90"><head type="storyHead">Eser-Kedushot_0090</head>
+				</div><div type="story" xml:id="Eser-Kedushot_0090" n="90"><head type="storyHead">Eser-Kedushot_0090</head><span ana="not-a-hasidic-story:hagiography" resp="#llm-tagging">תיוגים</span>
 <p>
 					<lb/>(יד) מצאצאיו הקדושים ידעתי כי הי׳ לו גם בנות להרה״ק <persName>רא"ס</persName> הנז'
 					<lb/>ולא אדע שמם ושם בעליהן רק מבנו יחידו הנז׳ לעיל
@@ -3052,13 +3052,13 @@
 				<p>
 					<lb/>מערכת ה. דודינו הרה״ק ר׳ <persName>ישכר בעריש מזידיטשוב</persName> .
 				</p>
-				</div><div type="story" xml:id="Eser-Kedushot_0091" n="91"><head type="storyHead">Eser-Kedushot_0091</head>
+				</div><div type="story" xml:id="Eser-Kedushot_0091" n="91"><head type="storyHead">Eser-Kedushot_0091</head><span ana="not-a-hasidic-story:hagiography" resp="#llm-tagging">תיוגים</span>
 <p>
 					<lb/>[ה] (א) הרב הקדוש הצדיק מו"ה <persName>ישכר בעריש</persName> הנ"ל אחיהון דהני תלתא
 					<lb/>הנזכרים בשלשה מערכות הקודמים מבני הרה״ק <persName>מוהרי״א</persName>
 					<placeName><lb/>ספרין</placeName> ואביו של מורינו הגאוה״ק <persName>מוהרי״א מ<placeName ana="bio" ref="#H-LOC_92">זידיטשוב</placeName></persName> :
 				</p>
-				</div><div type="story" xml:id="Eser-Kedushot_0092" n="92"><head type="storyHead">Eser-Kedushot_0092</head>
+				</div><div type="story" xml:id="Eser-Kedushot_0092" n="92"><head type="storyHead">Eser-Kedushot_0092</head><span ana="not-a-hasidic-story:hagiography" resp="#llm-tagging">תיוגים</span>
 <p>
 					<lb/>(ב) הרה"ק ר׳ <persName>ישכר בעריש</persName> הנ"ל <reg reg="מילא">מלא</reg> מקום אחיו רבינו <persName>צבי</persName> הקדוש
 					<lb/>וישב על כסא קדשו ערך עשרה ירחים מאחרי פטירת אחיו
@@ -3070,13 +3070,13 @@
 				<p>
 					<lb/>ממדריגות קדושתו.
 				</p>
-				</div><div type="story" xml:id="Eser-Kedushot_0093" n="93"><head type="storyHead">Eser-Kedushot_0093</head>
+				</div><div type="story" xml:id="Eser-Kedushot_0093" n="93"><head type="storyHead">Eser-Kedushot_0093</head><span ana="characters-and-roles:the_family_of_the_tsaddik; ethics-and-emotions:awe; ethics-and-emotions:humility; folkloristics:story_type_virtues" resp="#llm-tagging">תיוגים</span>
 <p>
 					<lb/>(ג) העיד מורינו בנו הנ"ל <persName>מוהרי״א מ<placeName ana="bio" ref="#H-LOC_92">זידיטשוב</placeName></persName> כי רבו רבינו <persName>צבי</persName> אם שהי'
 					<lb/>אחיו הגדול רבו. אעפי״כ עמד לפניו מלא קומתו לפני אחיו
 					<lb/>הרה״ק ר׳ <persName>ישכר בעריש</persName> הנז׳ והי׳ אומר שאינו מגיע לקרסוליו ביראת שמים :
 				</p>
-				</div><div type="story" xml:id="Eser-Kedushot_0094" n="94"><head type="storyHead">Eser-Kedushot_0094</head>
+				</div><div type="story" xml:id="Eser-Kedushot_0094" n="94"><head type="storyHead">Eser-Kedushot_0094</head><span ana="characters-and-roles:the_family_of_the_tsaddik; practice:study; social:poverty; ethics-and-emotions:virtues; folkloristics:story_type_virtues; practice:sermon" resp="#llm-tagging">תיוגים</span>
 <p>
 					<lb/>(ד) הי׳ עומד תמיד בחצות לילה ועוסק ב<name type="work">תורה</name> מתוך עניות ודחקות גדול
 					<lb/>ל"ע וסיפר בנו מורינו הנ"ל שפ"א שאל אותו אביו הקדוש. בני יחידי
@@ -3121,7 +3121,7 @@
 				<p>
 					<lb/>מערכת ו. דודינו הרה"ק ר׳ <persName>ליפא מסאמבור</persName>.
 				</p>
-				</div><div type="story" xml:id="Eser-Kedushot_0095" n="95"><head type="storyHead">Eser-Kedushot_0095</head>
+				</div><div type="story" xml:id="Eser-Kedushot_0095" n="95"><head type="storyHead">Eser-Kedushot_0095</head><span ana="not-a-hasidic-story:hagiography" resp="#llm-tagging">תיוגים</span>
 <p>
 					<lb/>[ו] (א) דודינו הרב הקדוש ר׳ <persName>ליפא</persName> הנז' האח החמישי מחמשה אחים
 					<lb/>הקדושים בני הרה״ק <persName>רי״א ספרין</persName> הוא הקדוש נפטר בימי
@@ -3130,7 +3130,7 @@
 				<p>
 					<lb/>ממדריגת קדושתו.
 				</p>
-				</div><div type="story" xml:id="Eser-Kedushot_0096" n="96"><head type="storyHead">Eser-Kedushot_0096</head>
+				</div><div type="story" xml:id="Eser-Kedushot_0096" n="96"><head type="storyHead">Eser-Kedushot_0096</head><span ana="characters-and-roles:the_family_of_the_tsaddik; experience:revelation; folkloristics:story_type_death_of_the_tsaddik; times:death; times:holidays; ethics-and-emotions:humility; practice:lifesaving; practice:pidyon_nefesh; practice:torat_ha_tsaddik" resp="#llm-tagging">תיוגים</span>
 <p>
 					<lb/>(ב) אנכי קבלתי מחביריי ומתלמידים של רבותינו הקדושים מ<placeName ref="#H-LOC_92">זידיטשוב</placeName>
 					<lb/>אשר הסיבה מפטירתו בנעוריו כך הי׳ שפ"א בשבתו בליל
@@ -3143,7 +3143,7 @@
 					<lb/>עמו שהוא יסתלק לעולם העליון תמורתו והוסכם ככה ביניהם ונסע הרה״ק
 					<lb/>ר׳ <persName>ליפא</persName> לביתו ונסתלק לעולמו :
 				</p>
-				</div><div type="story" xml:id="Eser-Kedushot_0097" n="97"><head type="storyHead">Eser-Kedushot_0097</head>
+				</div><div type="story" xml:id="Eser-Kedushot_0097" n="97"><head type="storyHead">Eser-Kedushot_0097</head><span ana="characters-and-roles:the_family_of_the_tsaddik; times:death; practice:healing; practice:lifesaving; practice:pidyon_nefesh; practice:torat_ha_tsaddik; supernatural:miracle; women:mention_only; women:minor_character" resp="#llm-tagging">תיוגים</span>
 <p>
 					<lb/>(ג) ואמנם ש"ב הרה״ג חו״פ בנש"ק <persName>מוהר"נ ערליך</persName> שליט״א האבד״ק
 					<placeName><lb/>דילוטין</placeName> כ׳ לי בזה"ל שכך הוה מעשה. כשחלה זקינינו רבינו <persName>צבי</persName>
@@ -3163,7 +3163,7 @@
 				<p>
 					<lb/>מערכת ז. זקינינו הרה"ק ר׳ <persName>יודא צבי מ<placeName ana="bio">ראזלא</placeName></persName>.
 				</p>
-				</div><div type="story" xml:id="Eser-Kedushot_0098" n="98"><head type="storyHead">Eser-Kedushot_0098</head>
+				</div><div type="story" xml:id="Eser-Kedushot_0098" n="98"><head type="storyHead">Eser-Kedushot_0098</head><span ana="not-a-hasidic-story:hagiography" resp="#llm-tagging">תיוגים</span>
 <p>
 					<lb/>[ז] (א) הגאון הקדוש איש אלקי מו"ה <persName>יודא צבי</persName> אבד״ק <placeName>ראזדל</placeName> זצוק"ל
 					<lb/>בהרה״ק רבי <persName>ר״מ מ<placeName ana="bio">סאמבור</placeName></persName> וחתן דודו ורבו רבינו <persName>צבי
@@ -3172,7 +3172,7 @@
 					<lb/>שמע ברזין עליונים מלאים זיו ומפיקים נוגה וס׳ <name type="work">תעלומות חכמה</name> על מדרש
 					<lb/>רבה אשר הוצאתי לאור אנכי השפל בשנת <date>תרמ״ט</date> לפ"ק :
 				</p>
-				</div><div type="story" xml:id="Eser-Kedushot_0099" n="99"><head type="storyHead">Eser-Kedushot_0099</head>
+				</div><div type="story" xml:id="Eser-Kedushot_0099" n="99"><head type="storyHead">Eser-Kedushot_0099</head><span ana="not-a-hasidic-story:hagiography" resp="#llm-tagging">תיוגים</span>
 <p>
 					<lb/>(ב) אדומו״ר הגאוה״ק מופה"ד מו״ה <persName>חיים האלברשטאם</persName> זצוק"ל בהסכמתו
 					<lb/>על ס׳ <name type="work">דעת קדושים</name> כותב בזה"ל. מה לכם הסכמתי
@@ -3184,7 +3184,7 @@
 					<lb/>בזה"ל שהוא דבר הפלא ופלא ובו יראת השם ויחודים נפלאים אשרי הבא
 					<lb/>בסודו וכו' כי באמת אור גדול אשר הצמיח ה׳ לנו על ידו עכ״ל :
 				</p>
-				</div><div type="story" xml:id="Eser-Kedushot_0100" n="100"><head type="storyHead">Eser-Kedushot_0100</head>
+				</div><div type="story" xml:id="Eser-Kedushot_0100" n="100"><head type="storyHead">Eser-Kedushot_0100</head><span ana="not-a-hasidic-story:hagiography" resp="#llm-tagging">תיוגים</span>
 <p>
 					<lb/>(ג) הגאון האמיתי מופה"ד מו"ה <persName>אהרן משה טוביש</persName> זצ"ל בהסכנותו על
 					<lb/>ס׳ <name type="work">דע"ק</name> הנ"ל כותב עליו בזה"ל אשר הי' גדול בתורה בתלמוד
@@ -3200,7 +3200,7 @@
 				<p>
 					<lb/>ממדריגותיו הנוראים.
 				</p>
-				</div><div type="story" xml:id="Eser-Kedushot_0101" n="101"><head type="storyHead">Eser-Kedushot_0101</head>
+				</div><div type="story" xml:id="Eser-Kedushot_0101" n="101"><head type="storyHead">Eser-Kedushot_0101</head><span ana="characters-and-roles:the_family_of_the_tsaddik; ethics-and-emotions:shame; folkloristics:story_type_birth_of_the_tsaddik; practice:prayer; practice:storytelling; spaces:beth_midrash; supernatural:miracle; times:birth; women:major_character; ethics-and-emotions:adultery; ethics-and-emotions:sadness; ethics-and-emotions:virtues; social:marital_relationship; social:marriage" resp="#llm-tagging">תיוגים</span>
 <p>
 					<lb/>(ד) שמעתי מפה קדוש כבוד אבא מארי הרב זצ"ל ששמע שהרה"ק
 					<lb/>מ<placeName>ראזדאל</placeName> סיפר בעצמו פ"א שכאשר אמו הצדיקת ע"ה
@@ -3230,18 +3230,18 @@
 					<lb/>הייתי עוד פועל בטל כי בכל רגע קיימתי מצות כיבוד אם. עד כה סיפר הרה״ק
 					<lb/>מ<placeName>ראזלא</placeName> פ"א ברבים זי"ע :
 				</p>
-				</div><div type="story" xml:id="Eser-Kedushot_0102" n="102"><head type="storyHead">Eser-Kedushot_0102</head>
+				</div><div type="story" xml:id="Eser-Kedushot_0102" n="102"><head type="storyHead">Eser-Kedushot_0102</head><span ana="not-a-hasidic-story:sermon" resp="#llm-tagging">תיוגים</span>
 <p>
 					<lb/>(ה) הי' מרגלא בפומי׳ לומר בזה"ל ווען איך וויל ברוגז זיין לייג איך עס אב
 					<lb/>אויף שפעטיר איך וועל שפעטיר אויך דעם משא ומתן נישט
 					<lb/>פערליהרען :
 				</p>
-				</div><div type="story" xml:id="Eser-Kedushot_0103" n="103"><head type="storyHead">Eser-Kedushot_0103</head>
+				</div><div type="story" xml:id="Eser-Kedushot_0103" n="103"><head type="storyHead">Eser-Kedushot_0103</head><span ana="not-a-hasidic-story:halakhah" resp="#llm-tagging">תיוגים</span>
 <p>
 					<lb/>(ו) מה מאד היתה הוראתו בקדושה וטהרה עד שאמר כי קודם שנעשה בעל
 					<lb/>הוראה חזר שבעים פעמים הלכות מליחה ו<name type="work">בב"ח</name> ותערובות :
 				</p>
-				</div><div type="story" xml:id="Eser-Kedushot_0104" n="104"><head type="storyHead">Eser-Kedushot_0104</head>
+				</div><div type="story" xml:id="Eser-Kedushot_0104" n="104"><head type="storyHead">Eser-Kedushot_0104</head><span ana="ethics-and-emotions:fear; practice:halakhah; practice:prayer; social:inter_hasidic_master_disciple_relationship; social:retrospective_recognition; supernatural:perception; times:shabbat; women:minor_character; characters-and-roles:the_family_of_the_tsaddik; ethics-and-emotions:joy; ethics-and-emotions:prohibitions; ethics-and-emotions:sadness" resp="#llm-tagging">תיוגים</span>
 <p>
 					<pb facs="Eser-Kedushot_0064.jpg"/><lb/>(ז) ועם כ"ז עובדא ידענא [מובא בס׳ <name type="work">דברי יצחק</name> הנדפס מחדש דף ל"ד
 					<lb/>אות ו׳] שבימי עלומיו הובא לפניו שאלה על בהמה לכבוד <date>שבת</date>
@@ -3268,7 +3268,7 @@
 					<lb/>והדרישה מהם נתברר לו כי כן הוא האמת בלי שום ספק כלל ונתן שבח
 					<lb/>והודיה לשמו ית׳ אשר הורהו דרך האמת לפסוק כדת וכהלכה :
 				</p>
-				</div><div type="story" xml:id="Eser-Kedushot_0105" n="105"><head type="storyHead">Eser-Kedushot_0105</head>
+				</div><div type="story" xml:id="Eser-Kedushot_0105" n="105"><head type="storyHead">Eser-Kedushot_0105</head><span ana="practice:tefillin; women:mention_only; characters-and-roles:the_family_of_the_tsaddik; folkloristics:story_type_death_of_the_tsaddik; folkloristics:story_type_virtues; practice:solitude; practice:study; times:death" resp="#llm-tagging">תיוגים</span>
 <p>
 					<lb/>(ח) סיפר לי חותני הרה״צ המפו' מו"ה <persName>מנחם מענדל</persName> שליט״א אבד״ק <placeName>זאבליטוב</placeName>
 					<lb/>בן הצדיקת מרת <persName>הינדא</persName> ע"ה בתו של הרה״ק מ<placeName>ראזדאל</placeName> [אשר חותני
@@ -3280,7 +3280,7 @@
 					<lb/><reg reg="אונז">אונס</reg> מיר מיזין זיך אצונד אסאך מיטשען מיר זאלין פארשטיין וויא אזוי מיר
 					<lb/>האבין דעמאלט גימיינט ווען מיר האבין דאם געשריבען :
 				</p>
-				</div><div type="story" xml:id="Eser-Kedushot_0106" n="106"><head type="storyHead">Eser-Kedushot_0106</head>
+				</div><div type="story" xml:id="Eser-Kedushot_0106" n="106"><head type="storyHead">Eser-Kedushot_0106</head><span ana="characters-and-roles:the_family_of_the_tsaddik; practice:storytelling; times:death; times:holidays; times:shabbat; women:catalyst_character; ethics-and-emotions:joy; ethics-and-emotions:sadness; practice:lifesaving; practice:sermon; supernatural:communicating_with_the_invisible; supernatural:perception" resp="#llm-tagging">תיוגים</span>
 <p>
 					<lb/>(ט) שמעתי מאיש ת"ח וחסיד עובד ה׳ כי בעת אשר בתו הצדיקת מרת
 					<persName><lb/>הינדא</persName> ע"ה [אמו של <persName>חותני</persName> שליט״א] שכבה על ערש דוי קודם
@@ -3308,14 +3308,14 @@
 					<lb/>התחיל תיכף הרב הק׳ מ<placeName>ראזלא</placeName> לומר תורה ע״פ ואורח צדיקים כאור נוגה
 					<lb/>אור ח׳ וכו׳ עכד״ק :
 				</p>
-				</div><div type="story" xml:id="Eser-Kedushot_0107" n="107"><head type="storyHead">Eser-Kedushot_0107</head>
+				</div><div type="story" xml:id="Eser-Kedushot_0107" n="107"><head type="storyHead">Eser-Kedushot_0107</head><span ana="not-a-hasidic-story:sermon" resp="#llm-tagging">תיוגים</span>
 <p>
 					<lb/>(י) הרב הגאון מוה׳ <persName>ענזיל</persName> ז"ל מ<placeName ref="#H-LOC_723">סטריא</placeName> אמר פ"א לזקינינו הה״ק מ<placeName>ראזדאל</placeName>
 					<lb/>כמדומני אשר הנהגת רעבישקייט להיות גיטער יוד הוא ג״כ תאוה
 					<lb/>ככל התאוות. והשיב לו הה״ק בחכמתו אמת הדבר אבל אל זאת התאוה אין
 					<lb/>יכולין לזכות עד שמשברין מקודם כל התאוות :
 				</p>
-				</div><div type="story" xml:id="Eser-Kedushot_0108" n="108"><head type="storyHead">Eser-Kedushot_0108</head>
+				</div><div type="story" xml:id="Eser-Kedushot_0108" n="108"><head type="storyHead">Eser-Kedushot_0108</head><span ana="characters-and-roles:the_family_of_the_tsaddik; ethics-and-emotions:charity; ethics-and-emotions:humility; folkloristics:story_type_virtues; practice:torat_ha_tsaddik; ethics-and-emotions:virtues; practice:sermon; social:conflict; social:marital_relationship; women:minor_character" resp="#llm-tagging">תיוגים</span>
 <p>
 					<lb/>(יא) הי׳ דרכו בקודש להעניק לאנשי ריבו מטובו ופזר נתן לשונאיו. ופ"א
 					<lb/>הוכיחה אותו ע״ז זוגתו הרבנית הצדיקת מרת <persName>שרה</persName> ע"ה בת רבינו
@@ -3336,7 +3336,7 @@
 					<lb/>פרנסתינו. ע״כ אהובתי הרבנית שמע לקולי יותר טוב לשתוק ולסבול לשונאינו
 					<lb/>וריבנו ונשאר בפרנסתינו עכד״ק :
 				</p>
-				</div><div type="story" xml:id="Eser-Kedushot_0109" n="109"><head type="storyHead">Eser-Kedushot_0109</head>
+				</div><div type="story" xml:id="Eser-Kedushot_0109" n="109"><head type="storyHead">Eser-Kedushot_0109</head><span ana="folkloristics:story_type_death_of_the_tsaddik; supernatural:prognostication; times:death; times:holidays; folkloristics:story_type_prognostication" resp="#llm-tagging">תיוגים</span>
 <p>
 					<lb/>(יב) שמעתי מפי מגידי אמת כי בשנה שנסתלק לעולמו אחר חג <reg reg="הסוכות">הסכות</reg>
 					<date><lb/>ז׳ מרחשון</date> הנה שני שבועות מקודם בהושענא רבא אחרי
@@ -3348,7 +3348,7 @@
 					<pb facs="Eser-Kedushot_0066.jpg"/><lb/>אדומים מרוב הבכיה אבל לא הגיד לשום אדם עד אחר יציאת נשמתו הקדושה
 					<lb/>אז הוציא הצוואה שנכתבה ב<date>הושע"ר</date> :
 				</p>
-				</div><div type="story" xml:id="Eser-Kedushot_0110" n="110"><head type="storyHead">Eser-Kedushot_0110</head>
+				</div><div type="story" xml:id="Eser-Kedushot_0110" n="110"><head type="storyHead">Eser-Kedushot_0110</head><span ana="characters-and-roles:the_family_of_the_tsaddik; folkloristics:story_type_death_of_the_tsaddik; kabbalah:kabbalistic_terms_yihudim; practice:meditation; practice:prayer; times:death; women:minor_character; experience:enthusiasm; practice:devekut; social:marital_relationship" resp="#llm-tagging">תיוגים</span>
 <p>
 					<lb/>(יג) סיפר לי חותני הרב הקדוש שליט״א כי איזה רגעים לפני פטירתו
 					<lb/>אמר בקול רעש גדול <name type="work">עשרת הדברות</name> ופרשיות דקריאת שמע
@@ -3359,7 +3359,7 @@
 					<lb/>ברגעים האחרונים וגמר מסירת נפשו ועלתה נשמתו השמימה <date>ז׳ מרחשון</date> שנת
 					<date><lb/>תר"ח</date> ולפי השערת חותני שליט״א היו שנותיו בערך נ"ז שנה זיע"א :
 				</p>
-				</div><div type="story" xml:id="Eser-Kedushot_0111" n="111"><head type="storyHead">Eser-Kedushot_0111</head>
+				</div><div type="story" xml:id="Eser-Kedushot_0111" n="111"><head type="storyHead">Eser-Kedushot_0111</head><span ana="not-a-hasidic-story:halakhah" resp="#llm-tagging">תיוגים</span>
 <p>
 					<lb/>(יד) ואלה היו צאצאיו הנשארים אחריו ומחותניו אשר צאצאיהם היו לוקחי
 					<lb/>בנותיו. (א) בתו הצדיקת מרת <persName>הינדא</persName> ע"ה אמו של חותני
@@ -3395,7 +3395,7 @@
 					<lb/>בעקבות <persName>משיחא</persName> אשר השקר יהי' לו חן. וההבל זאת יהי׳ היופי.
 					<lb/>אשה יראת <name type="misc">ה'</name> היא תתהלל זאת תהי' לשחוק ולהוללות הש״י ירחם ודפח"ח :
 				</p>
-				</div><div type="story" xml:id="Eser-Kedushot_0112" n="112"><head type="storyHead">Eser-Kedushot_0112</head>
+				</div><div type="story" xml:id="Eser-Kedushot_0112" n="112"><head type="storyHead">Eser-Kedushot_0112</head><span ana="not-a-hasidic-story:sermon; practice:sermon; ethics-and-emotions:anger; ethics-and-emotions:shame; practice:clothing; social:relations_with_non_hasidim" resp="#llm-tagging">תיוגים</span>
 <p>
 					<pb facs="Eser-Kedushot_0067.jpg"/><lb/>(טז) עוד שם ששמע מפיו הקדוש פ"א במסיבת סעודת מצוה אמר א׳ מן
 					<lb/>המסובים ומה בכך אינני חסיד והקפיד ע״ז הרה״ק ואמר כי ח"ו
@@ -3428,7 +3428,7 @@
 					<lb/>בכל לבבך ובכ״נ ובכל מאדך שהם ג׳ חלקים אלו ודפח"ח וש״י. והמאמר ההוא
 					<lb/>נמצא גם בספרו הק' <name type="work">עמוד התו'</name> מאמר עבודה שבלב פ"ד בארוכה :
 				</p>
-				</div><div type="story" xml:id="Eser-Kedushot_0113" n="113" ana="marginal"><head type="storyHead">Eser-Kedushot_0113</head>
+				</div><div type="story" xml:id="Eser-Kedushot_0113" n="113" ana="marginal"><head type="storyHead">Eser-Kedushot_0113</head><span ana="ethics-and-emotions:charity; ethics-and-emotions:humility; practice:pidyon_nefesh; practice:reception_of_hasidim; practice:sermon; folkloristics:story_type_virtues; not-a-hasidic-story:sermon; practice:torat_ha_tsaddik" resp="#llm-tagging">תיוגים</span>
 <p>
 					<lb/>(יח) פ״א בבא לפניו איש אחד ונתן לו פתקא עם פ"נ כנהוג אמר אליו
 					<lb/>החכם הקדוש מ<placeName>ראזדל</placeName> בזה"ל אתה נותן לי כעת בקשה עם פ"נ
@@ -3452,7 +3452,7 @@
 					<lb/>הנה מהראוי שתוושע גם אתה מהיכל וחנותי את אשר אחון אעפ"י וכו'
 					<lb/>ודפח״ח :
 				</p>
-				</div><div type="story" xml:id="Eser-Kedushot_0114" n="114"><head type="storyHead">Eser-Kedushot_0114</head>
+				</div><div type="story" xml:id="Eser-Kedushot_0114" n="114"><head type="storyHead">Eser-Kedushot_0114</head><span ana="practice:joke; practice:study; ethics-and-emotions:pride; practice:torat_ha_tsaddik; practice:tvilah; social:inter_hasidic; spaces:institutions_hassidic_court" resp="#llm-tagging">תיוגים</span>
 <p>
 					<lb/>(יט) בימי חורפו עת הסתופף בצל קודש דודו ורבו המובהק וחותנו הקדוש
 					<lb/>רבינו <persName>צבי</persName> והי׳ שוקד מאד בנגלות התורה וארבע <name type="work">ש"ע</name> ואז
@@ -3569,7 +3569,7 @@
 					<lb/>שנתוסף לו אז הי' לו תקומה בלתי לה׳ לבדו ודפח"ח ועיין ב<name type="work">עמוד התו׳</name> מאמר
 					<lb/>היחוד אופן ס״ב :
 				</p>
-				</div><div type="story" xml:id="Eser-Kedushot_0115" n="115" ana="marginal"><head type="storyHead">Eser-Kedushot_0115</head>
+				</div><div type="story" xml:id="Eser-Kedushot_0115" n="115" ana="marginal"><head type="storyHead">Eser-Kedushot_0115</head><span ana="practice:sermon; social:relations_with_non_hasidim" resp="#llm-tagging">תיוגים</span>
 <p>
 					<lb/>(כח) עוד מהנ"ל בשמו הק' שבהיותו בבית הגאון האמיתי בעל <name type="work">ישועות יעקב</name>
 					<lb/>זצ"ל שאל ממנו על מה שהחסידים נוהגין כשבא אורח תובעים
@@ -3582,7 +3582,7 @@
 					<lb/>י״ז באלפא ביתא עולה טו"ב להשתמש בזה העולם. ואחרי כח
 					<lb/>באלפא ביתא אתוון ט"ל מה שעתיד ה<name type="misc">קב</name>״<persName>ה</persName> להחיותן בטל ודפח"ח :
 				</p>
-				</div><div type="story" xml:id="Eser-Kedushot_0116" n="116" ana="marginal"><head type="storyHead">Eser-Kedushot_0116</head>
+				</div><div type="story" xml:id="Eser-Kedushot_0116" n="116" ana="marginal"><head type="storyHead">Eser-Kedushot_0116</head><span ana="practice:reception_of_hasidim; practice:sermon; times:holidays; not-a-hasidic-story:sermon" resp="#llm-tagging">תיוגים</span>
 <p>
 					<lb/>(ל) עוד מהנ"ל בשמו הק׳ שפ"א בא איש אחד שהי׳ לו מבוקש גדול. ונגש
 					<lb/>אחר בדיקת חמץ שאז הגבאים טרודים ושהה אצלו זמן רב והרה״ק
@@ -3593,7 +3593,7 @@
 					<lb/>עשינו מאותיות חמץ אותיות מצח] להרים ראש לעשות מן שאר שבעיסה אתוון
 					<persName><lb/>רא״ש</persName> ודפח״ח :
 				</p>
-				</div><div type="story" xml:id="Eser-Kedushot_0117" n="117" ana="marginal"><head type="storyHead">Eser-Kedushot_0117</head>
+				</div><div type="story" xml:id="Eser-Kedushot_0117" n="117" ana="marginal"><head type="storyHead">Eser-Kedushot_0117</head><span ana="not-a-hasidic-story:sermon" resp="#llm-tagging">תיוגים</span>
 <p>
 					<lb/>(לא) בס׳ <name type="work">דבר"י</name> משמו הקדוש שאמר בשם רבי ר׳ <persName>מענדילי מ<placeName ana="bio" ref="#H-LOC_59">רימינאב</placeName></persName> זללה״ה
 					<lb/>שבמה שמדברים דברי חול לפני תפלת שחרית בזה דוחין היראה
@@ -3607,7 +3607,7 @@
 					<lb/>נ"ב הוא צ"ה הויות כמספר יפה וזה שמברכין שיעלה הזיווג יפה הרצון שיתייחדו
 					<lb/>התרין יחודים יחו"ע ויחו"ת ויעלה הזיווג יפ"ה הויות ב"ה וש״י :
 				</p>
-				</div><div type="story" xml:id="Eser-Kedushot_0118" n="118"><head type="storyHead">Eser-Kedushot_0118</head>
+				</div><div type="story" xml:id="Eser-Kedushot_0118" n="118"><head type="storyHead">Eser-Kedushot_0118</head><span ana="kabbalah:kabbalistic_terms_kavvanot; practice:joke; practice:sermon; social:inter_hasidic; supernatural:perception; practice:meditation; times:holidays" resp="#llm-tagging">תיוגים</span>
 <p>
 					<lb/>(לג) בשבת אחים גם יחד כמה צדיקים מסובים על סעודת <date>ר"ח ניסן</date>
 					<lb/>ב<placeName ref="#H-LOC_92">זידיטשוב</placeName> אמר הצה"ק רבי ר׳ <persName>שמעון מיעריסלאב</persName> זצ"ל הנה
@@ -3750,7 +3750,7 @@
 					<lb/>[כאשר יראה אשר] והבוטח בה׳ חסד יסובבנו] וז״פ משוך חסדך ליודעיך [פי'
 					<lb/>לאוהביך. ובזה תהי׳ די והותר] אל קנא ונוקם בשונאי ה׳ וש"י :
 				</p>
-				</div><div type="story" xml:id="Eser-Kedushot_0119" n="119" ana="marginal"><head type="storyHead">Eser-Kedushot_0119</head>
+				</div><div type="story" xml:id="Eser-Kedushot_0119" n="119" ana="marginal"><head type="storyHead">Eser-Kedushot_0119</head><span ana="not-a-hasidic-story:sermon" resp="#llm-tagging">תיוגים</span>
 <p>
 					<lb/>(מה) הגה״צ <persName>מוהרי״א מ<placeName ana="bio">סוואליע</placeName></persName> ששמע מפה קדשו שאמר בשם הרה״ק <persName>רמ״מ
 					<lb/>מ<placeName ana="bio" ref="#H-LOC_59">רימינאב</placeName></persName> אשר לבטל מחשבות והרהורים רעים טוב לומר
@@ -3891,7 +3891,7 @@
 				<p>
 					<lb/>מערכת ח. ש"ב הרה"ק <persName>מוהרי"א מ<placeName ana="bio" ref="#H-LOC_92">זידיטשוב</placeName></persName>.
 				</p>
-				</div><div type="story" xml:id="Eser-Kedushot_0120" n="120"><head type="storyHead">Eser-Kedushot_0120</head>
+				</div><div type="story" xml:id="Eser-Kedushot_0120" n="120"><head type="storyHead">Eser-Kedushot_0120</head><span ana="not-a-hasidic-story:hagiography" resp="#llm-tagging">תיוגים</span>
 <p>
 					<lb/>[ח] (א) ש"ב מורי ורבי הראשון הרב הגאון הצדיק הקדוש בוצינא קדישא
 					<lb/>נר ישראל איש אלקים אשר אלפים מישראל הלכו לאורו.
@@ -3901,7 +3901,7 @@
 					<lb/>ספר <name type="work">פי' מהרי"א</name> על ה<name type="work">מדרש רבה</name>. ועל ה<name type="work">ילקוט שמעוני</name>. וספר <name type="work">ליקוטי תורה</name>
 					<lb/>והש"ס על כל חמשה חומשי תורה :
 				</p>
-				</div><div type="story" xml:id="Eser-Kedushot_0121" n="121" ana="marginal"><head type="storyHead">Eser-Kedushot_0121</head>
+				</div><div type="story" xml:id="Eser-Kedushot_0121" n="121" ana="marginal"><head type="storyHead">Eser-Kedushot_0121</head><span ana="practice:sermon; folkloristics:story_type_prognostication; not-a-hasidic-story:sermon; practice:reception_of_hasidim; practice:travel_to_the_tsaddik; supernatural:prognostication" resp="#llm-tagging">תיוגים</span>
 <p>
 					<lb/>(ב) כאשר זכה לקבל פני הרה״ק <persName>רשכב"ה</persName> מו״ה <persName>אברהם יהושע העשל
 					<lb/>מ<placeName ana="bio" ref="#H-LOC_133">אפטא</placeName></persName> זללה"ה בעיר <placeName ref="#H-LOC_55">מעזיבוז</placeName> אמר לו בזה"ל כתיב ונתנך ה׳
@@ -3911,13 +3911,13 @@
 					<lb/>שתהי' ראש לראשים וזה ונתנך ה׳ לראש הנ"ל ראש לראשים עכ״ד למורינו ז"ל
 					<lb/>ונתקיימה ברכתו :
 				</p>
-				</div><div type="story" xml:id="Eser-Kedushot_0122" n="122"><head type="storyHead">Eser-Kedushot_0122</head>
+				</div><div type="story" xml:id="Eser-Kedushot_0122" n="122"><head type="storyHead">Eser-Kedushot_0122</head><span ana="practice:reception_of_hasidim; practice:travel_to_other_tsaddik; social:inter_hasidic" resp="#llm-tagging">תיוגים</span>
 <p>
 					<lb/>(ג) בהיותו אצל הרה״ק רבי ר׳ <persName>שמעון מ<placeName ana="bio" ref="#H-LOC_339">יעריסלאב</placeName></persName> זללה"ה הי' אצל הצדיק
 					<lb/>הנ"ל חשיבות גדול כל כך עד ששאל אותו גם אתם באתם אלי
 					<lb/>בלשון תימה והשיב לו מורינו אשר בכם נתקיים עולמך תראה בחייך :
 				</p>
-				</div><div type="story" xml:id="Eser-Kedushot_0123" n="123"><head type="storyHead">Eser-Kedushot_0123</head>
+				</div><div type="story" xml:id="Eser-Kedushot_0123" n="123"><head type="storyHead">Eser-Kedushot_0123</head><span ana="ethics-and-emotions:humility; practice:reception_of_hasidim; practice:torat_ha_tsaddik; practice:travel_to_the_tsaddik; not-a-hasidic-story:sermon; practice:storytelling; social:inter_hasidic_master_disciple_relationship" resp="#llm-tagging">תיוגים</span>
 <p>
 					<lb/>(ד) בהיותו אצל הרה״ק מו"ה <persName>אשר ישעי׳ מ<placeName ana="bio">ראפשיטץ</placeName></persName> זללה״ה סיפר מורינו
 					<lb/>כי בעת בואו לשם הי' יומא דשוקא. ובבאו למעון קדשו של
@@ -3931,7 +3931,7 @@
 					<pb facs="Eser-Kedushot_0077.jpg"/><lb/>עם הנכסים שלו הם המדות הטובות שיש לו ולהסתיר א"ע כל מה דאפשר רק
 					<lb/>ללמוד הכל מהצדיק ממדותיו הקדושים :
 				</p>
-				</div><div type="story" xml:id="Eser-Kedushot_0124" n="124"><head type="storyHead">Eser-Kedushot_0124</head>
+				</div><div type="story" xml:id="Eser-Kedushot_0124" n="124"><head type="storyHead">Eser-Kedushot_0124</head><span ana="characters-and-roles:the_family_of_the_tsaddik; social:inter_hasidic_inheritance_of_leadership; practice:storytelling; practice:travel_to_other_tsaddik" resp="#llm-tagging">תיוגים</span>
 <p>
 					<lb/>(ה) סיפר מחו' הרה״ק מו"ה <persName>אליעזר מדזיקאב</persName> לבני מורינו זללה"ה שבהיותו
 					<lb/>עם אביו הרה״ק ר׳ <persName>נפתלי מרופשיטץ</persName> ב<placeName ref="#H-LOC_92">זידיטשוב</placeName> אצל רבינו <persName>צבי</persName>
@@ -3939,7 +3939,7 @@
 					<lb/>מאה שנים והראה לו על אביהם הוא מורינו ואמר לו אביו חכם אתה
 					<lb/>והיטבת לראות :
 				</p>
-				</div><div type="story" xml:id="Eser-Kedushot_0125" n="125"><head type="storyHead">Eser-Kedushot_0125</head>
+				</div><div type="story" xml:id="Eser-Kedushot_0125" n="125"><head type="storyHead">Eser-Kedushot_0125</head><span ana="not-a-hasidic-story:sermon" resp="#llm-tagging">תיוגים</span>
 <p>
 					<lb/>(ו) אמר מרן הגאוה״ק מו״ה <persName>חיים הלברשטאם מ<placeName ana="bio" ref="#H-LOC_127">צאנז</placeName></persName> זללה״ה שמכיר את
 					<lb/>מורינו לקדוש עליון עוד מנעוריו :
@@ -3947,7 +3947,7 @@
 				<p>
 					<lb/>ממדריגותיו הנוראים.
 				</p>
-				</div><div type="story" xml:id="Eser-Kedushot_0126" n="126"><head type="storyHead">Eser-Kedushot_0126</head>
+				</div><div type="story" xml:id="Eser-Kedushot_0126" n="126"><head type="storyHead">Eser-Kedushot_0126</head><span ana="not-a-hasidic-story:sermon" resp="#llm-tagging">תיוגים</span>
 <p>
 					<lb/>(ז) הנה לספר שבחו. תהלתו מי יספר. וגם הלא נודע ומפורסם לאלפי
 					<lb/>ישראל אשר הסתופפו בצלו גודל קדושתו ופרישותו והי' מלא
@@ -3959,14 +3959,14 @@
 					<lb/>דוחק ועוני ונשמע מפי קדשו שהי׳ לומד בעמידה ובחורף נתבקעו צפרני ידיו
 					<lb/>מן הקור שהי׳ בביתו. ומזה תבין גודל קדושת עבודתו :
 				</p>
-				</div><div type="story" xml:id="Eser-Kedushot_0127" n="127"><head type="storyHead"><persName>Eser</persName>-Kedushot_0127</head>
+				</div><div type="story" xml:id="Eser-Kedushot_0127" n="127"><head type="storyHead"><persName>Eser</persName>-Kedushot_0127</head><span ana="not-a-hasidic-story:sermon" resp="#llm-tagging">תיוגים</span>
 <p>
 					<lb/>(ח) כמה שנים לא נתן שינה לעיניו בלילה. ונשמע מפי קדשו ממש אשר
 					<lb/>נ"ד שנים רצופים לא עבר עליו חצות לילה בשינה [חוץ מחמת
 					<lb/>אונס גדול] ולפי החשבון הי' זה מעת היותו בן י"ד שנה. כי כל ימיו היו ס"ח
 					<lb/>שנים כמנין חיים :
 				</p>
-				</div><div type="story" xml:id="Eser-Kedushot_0128" n="128"><head type="storyHead">Eser-Kedushot_0128</head>
+				</div><div type="story" xml:id="Eser-Kedushot_0128" n="128"><head type="storyHead">Eser-Kedushot_0128</head><span ana="practice:devekut; practice:sermon; times:shabbat; ethics-and-emotions:awe; experience:devekut; experience:enthusiasm; folkloristics:story_type_virtues; knowledge:esoteric; practice:travel_to_other_tsaddik" resp="#llm-tagging">תיוגים</span>
 <p>
 					<lb/>(ט) וספריו הקדושים עמוק עמוק מי ימצאנו כי נודע בטוב לכל מי שזכה
 					<lb/>לחסות בצל קדשו ולשמוע דברי <name type="misc">אלקים</name> חיים יוצאים מפיו
@@ -3979,19 +3979,19 @@
 					<lb/>הטהור. ופירש דבריו בעמקות גדול המכוון ואמר שיש לו על כמה שנים לפרש
 					<lb/>דברי ה<name type="work">תורה</name> הזאת האחת :
 				</p>
-				</div><div type="story" xml:id="Eser-Kedushot_0129" n="129"><head type="storyHead">Eser-Kedushot_0129</head>
+				</div><div type="story" xml:id="Eser-Kedushot_0129" n="129"><head type="storyHead">Eser-Kedushot_0129</head><span ana="practice:torat_ha_tsaddik" resp="#llm-tagging">תיוגים</span>
 <p>
 					<lb/>(י) פ"א הניח מורינו קוויטל של גדול וצדיק א׳ בתוך ספרו הקדוש כת״י ואמר
 					<lb/>בלשונו הטהור שמשם יוכל כל אדם להיות לו ישועה בבני חיי ומזוני :
 				</p>
-				</div><div type="story" xml:id="Eser-Kedushot_0130" n="130"><head type="storyHead">Eser-Kedushot_0130</head>
+				</div><div type="story" xml:id="Eser-Kedushot_0130" n="130"><head type="storyHead">Eser-Kedushot_0130</head><span ana="not-a-hasidic-story:sermon" resp="#llm-tagging">תיוגים</span>
 <p>
 					<lb/>(יא) פ״א אמר מורינו על צדיק אחד שהי' אז מפורסם גדול ובא בימים
 					<lb/>שהמדריגות שיש לזה הצדיק עתה כבר הוא הי' לו בהיותו אברך
 					<lb/>בשנים כבן עשרים או כ"ה [יש ב׳ נוסחאות] ומזה נוכל להבין מעט מזעיר גדולת
 					<lb/>מדריגת מורינו זללה"ה :
 				</p>
-				</div><div type="story" xml:id="Eser-Kedushot_0131" n="131"><head type="storyHead">Eser-Kedushot_0131</head>
+				</div><div type="story" xml:id="Eser-Kedushot_0131" n="131"><head type="storyHead">Eser-Kedushot_0131</head><span ana="knowledge:esoteric; folkloristics:story_type_virtues; practice:the_travels_of_the_tsaddik; practice:travel_to_the_tsaddik; social:inter_hasidic_master_disciple_relationship" resp="#llm-tagging">תיוגים</span>
 <p>
 					<pb facs="Eser-Kedushot_0078.jpg"/><lb/>(יב) אמר כי רצה לנסוע להרה״ק מו"ה <persName>נפתלי</persName> זללה״ה מ<placeName>ראפשיטץ</placeName> ולא אסתייע
 					<lb/>מלתא. ואח"כ כאשר זכה שבא הרה"ק הנ"ל ל<placeName ref="#H-LOC_92">זידיטשוב</placeName> לא זזה
@@ -4000,19 +4000,19 @@
 					<lb/>הרה״ק הנ"ל הי׳ מורינו בן כ"ב שנים ואיזה שנים קודם מסר לו הרה״ק הנ"ל
 					<lb/>דבר גדול כזה :
 				</p>
-				</div><div type="story" xml:id="Eser-Kedushot_0132" n="132"><head type="storyHead">Eser-Kedushot_0132</head>
+				</div><div type="story" xml:id="Eser-Kedushot_0132" n="132"><head type="storyHead">Eser-Kedushot_0132</head><span ana="not-a-hasidic-story:sermon" resp="#llm-tagging">תיוגים</span>
 <p>
 					<lb/>(יג) אמר מורינו שבכל לילה הוא מעיין בכל הדיבורים שדיבר אותו היום
 					<lb/>התבונן אחי ברוב קדושתו :
 				</p>
-				</div><div type="story" xml:id="Eser-Kedushot_0133" n="133"><head type="storyHead">Eser-Kedushot_0133</head>
+				</div><div type="story" xml:id="Eser-Kedushot_0133" n="133"><head type="storyHead">Eser-Kedushot_0133</head><span ana="not-a-hasidic-story:sermon" resp="#llm-tagging">תיוגים</span>
 <p>
 					<lb/>(יד) אמר פ״א בשעת ההקפות בש"ת בגודל התלהבות בזה"ל האמינו לי
 					<lb/>שמעולם לא עלתה על מחשבתי שהחסידים נוסעים אלי לכבודי רק
 					<lb/>הם מבקשים ומחפשים כח רבינו הקדוש [רבינו <persName>צבי</persName>] עכ״ל ומזה נוכל לראות גודל
 					<lb/>ענותנותו הגדולה אשר ממש הי' נשבר לבו בקרבו לאלף שברים :
 				</p>
-				</div><div type="story" xml:id="Eser-Kedushot_0134" n="134"><head type="storyHead">Eser-Kedushot_0134</head>
+				</div><div type="story" xml:id="Eser-Kedushot_0134" n="134"><head type="storyHead">Eser-Kedushot_0134</head><span ana="not-a-hasidic-story:sermon" resp="#llm-tagging">תיוגים</span>
 <p>
 					<lb/>(טו) היה מעמיק מאד בסודות ה<name type="work">תורה</name> ואמר שאין הולך משום ענין עד
 					<lb/>שמעמיק כל כך עד שרואה בעינא פקיחא שאינו משיג הענין
@@ -4022,7 +4022,7 @@
 					<lb/>כי צריך לידע ולהאמין שהכל הוא מציאות רוחניות דקים מושגים בצורת המרכבה
 					<lb/>לבעלי נבואה ורוה״ק כ"א כפי מדריגתו :
 				</p>
-				</div><div type="story" xml:id="Eser-Kedushot_0135" n="135"><head type="storyHead">Eser-Kedushot_0135</head>
+				</div><div type="story" xml:id="Eser-Kedushot_0135" n="135"><head type="storyHead">Eser-Kedushot_0135</head><span ana="not-a-hasidic-story:halakhah" resp="#llm-tagging">תיוגים</span>
 <p>
 					<lb/>(טז) גודל שקידתו בתורה הי' דבר הפלא כי אף גם שאלפים מישראל השכימו
 					<lb/>לפתחו להתפלל בעדם לא דיבר עם בני אדם בכל מעל״ע יותר
@@ -4043,18 +4043,18 @@
 					<lb/>בצבור בכל יום ה' בשבוע וכן בליל <date>יוה״כ</date> כי זהו המתקת הדינים כמ"ש
 					<lb/>ב<name type="work">עט"צ</name> ב<name type="work">זהר</name> ו<name type="work">יחי</name> (דף רמ״ט) בשם רבותיו :
 				</p>
-				</div><div type="story" xml:id="Eser-Kedushot_0136" n="136"><head type="storyHead">Eser-Kedushot_0136</head>
+				</div><div type="story" xml:id="Eser-Kedushot_0136" n="136"><head type="storyHead">Eser-Kedushot_0136</head><span ana="not-a-hasidic-story:sermon" resp="#llm-tagging">תיוגים</span>
 <p>
 					<lb/>(יז) והי' לו ג״כ כח הצדקה שעשה צדקה בלי שיעור ועשה נשואין לכמה
 					<lb/>יתומים ויתומות :
 				</p>
-				</div><div type="story" xml:id="Eser-Kedushot_0137" n="137"><head type="storyHead">Eser-Kedushot_0137</head>
+				</div><div type="story" xml:id="Eser-Kedushot_0137" n="137"><head type="storyHead">Eser-Kedushot_0137</head><span ana="not-a-hasidic-story:sermon" resp="#llm-tagging">תיוגים</span>
 <p>
 					<lb/>(יח) אמר פ״א שמי שדבוק בחיים חיותו לצדיק אמת הנה אחר פטירתו
 					<lb/>מזה העולם מראין לו את רבו והוא מוכרח לעשות לו טובה
 					<lb/>בעולם הבא :
 				</p>
-				</div><div type="story" xml:id="Eser-Kedushot_0138" n="138"><head type="storyHead">Eser-Kedushot_0138</head>
+				</div><div type="story" xml:id="Eser-Kedushot_0138" n="138"><head type="storyHead">Eser-Kedushot_0138</head><span ana="practice:storytelling; practice:torat_ha_tsaddik; social:inter_hasidic_master_disciple_relationship; supernatural:communicating_with_the_invisible; experience:visions; practice:healing_of_the_soul" resp="#llm-tagging">תיוגים</span>
 <p>
 					<pb facs="Eser-Kedushot_0079.jpg"/><lb/>(יט) וכמו כן נשמע ממנו ברבים פ"א ששמע מהרה״ק מ<placeName>ראזלי</placeName> זצללה"ה
 					<lb/>שראה את רבו וחותנו הקדוש רבינו <persName>צבי</persName> אחר הסתלקותו ושאל
@@ -4063,7 +4063,7 @@
 					<lb/>הרה״ק מ<placeName>ראזלי</placeName> וסיים הוא ע״ז ואני נתיישבתי בדעתי למה לי הטורח הזה לאחר
 					<lb/>פטירתי מוטב שאתקן אותם ואעמידם על מכונם כ״ז שאני בעוה״ז :
 				</p>
-				</div><div type="story" xml:id="Eser-Kedushot_0139" n="139"><head type="storyHead">Eser-Kedushot_0139</head>
+				</div><div type="story" xml:id="Eser-Kedushot_0139" n="139"><head type="storyHead">Eser-Kedushot_0139</head><span ana="characters-and-roles:the_family_of_the_tsaddik; practice:healing_of_the_soul; ethics-and-emotions:sadness; ethics-and-emotions:shame; folkloristics:story_type_virtues; practice:torat_ha_tsaddik; social:inter_hasidic_master_disciple_relationship; supernatural:perception" resp="#llm-tagging">תיוגים</span>
 <p>
 					<lb/>(כ) וככה סיפר א' מצאצאיו הקדושים שלן אצלו בעת חליו. ופ"א באמצע
 					<lb/>הלילה הלך אצל מטתו לאט בלי מנעלים על רגליו לראות מה
@@ -4072,7 +4072,7 @@
 					<lb/>פטירתו שיתקן כ"א מה שבא לזה העולם השפל לא ליעול בכסופא לעלמא
 					<lb/>דאתי :
 				</p>
-				</div><div type="story" xml:id="Eser-Kedushot_0140" n="140"><head type="storyHead">Eser-Kedushot_0140</head>
+				</div><div type="story" xml:id="Eser-Kedushot_0140" n="140"><head type="storyHead">Eser-Kedushot_0140</head><span ana="characters-and-roles:the_family_of_the_tsaddik; practice:sexual_abstinence; social:marital_relationship; times:birth; times:death; practice:asceticism; practice:devekut; practice:halakhah; social:inter_hasidic_master_disciple_relationship; women:major_character; women:minor_character" resp="#llm-tagging">תיוגים</span>
 <p>
 					<lb/>(כא) ידעתי נאמנה מפי גאון וצדיק אחד מתלמידיו הקדושים אשר מורינו
 					<lb/>ז"ל מיום חתונתו עד פטירת זוגתו הצדיקת מרת <persName>ליבא</persName> ע"ה
@@ -4085,7 +4085,7 @@
 					<lb/>אילן גדול אבל לא האריך ימים ונסתלק בילדותו ע"י דיבור חד שיצא מפי
 					<lb/>מורינו אז ביום שנגזר עליו מרבינו <persName>משה</persName>. אשר אין רצוני לכתבו כאן :
 				</p>
-				</div><div type="story" xml:id="Eser-Kedushot_0141" n="141"><head type="storyHead">Eser-Kedushot_0141</head>
+				</div><div type="story" xml:id="Eser-Kedushot_0141" n="141"><head type="storyHead">Eser-Kedushot_0141</head><span ana="ethics-and-emotions:anger; kabbalah:kabbalistic_terms_kavvanot; knowledge:esoteric; practice:drinking_alcohol; social:inter_hasidic_master_disciple_relationship; times:holidays; characters-and-roles:the_family_of_the_tsaddik; ethics-and-emotions:pride; practice:storytelling; social:conflict; spaces:institutions_hassidic_court" resp="#llm-tagging">תיוגים</span>
 <p>
 					<lb/>(כב) סיפר לי הגאוה״ק <persName>ריוס״מ</persName> שליט״א מ<placeName>ספינקא</placeName> בשם מורינו שבימי
 					<lb/>חורפו עת הי׳ מסתופף בצל דודו ורבו זקינינו הרבי ר' <persName>משה</persName>
@@ -4100,19 +4100,19 @@
 					<lb/>להמשיך מות החכמה ע"י הגבורה שבתוכו] והשיב לו הרבי <persName>ר"מ</persName> אָה אזוי
 					<lb/>וואט האלסטו שוין :
 				</p>
-				</div><div type="story" xml:id="Eser-Kedushot_0142" n="142"><head type="storyHead">Eser-Kedushot_0142</head>
+				</div><div type="story" xml:id="Eser-Kedushot_0142" n="142"><head type="storyHead">Eser-Kedushot_0142</head><span ana="not-a-hasidic-story:sermon" resp="#llm-tagging">תיוגים</span>
 <p>
 					<lb/>(כג) אמר פ״א שהוא מוסמך עד <persName>רשב״י</persName> יען הוא מוסמך מרבו רבינו <persName>צבי</persName>
 					<lb/>ורבו מ<placeName ref="#H-LOC_56">לובלין</placeName> והק׳ מ<placeName ref="#H-LOC_56">לובלין</placeName> מהרבי ר׳ <persName>אלימלך</persName>. ו<persName>הררא"ל</persName> מ<persName>המגיד</persName>
 					<lb/>הגדול מ<placeName>מעזריטש</placeName>. והמגיד מן <persName>הבעש״ט</persName>. והבעש״ט עד ה<persName>אר״י</persName> ותלמידיו. וה<persName>אר"י</persName>
 					<lb/>ותלמידיו עד <persName>הרמב״ן</persName> וחבריו. ו<persName>הרמב״ן</persName> וחבריו עד <persName>הרשב״י</persName> :
 				</p>
-				</div><div type="story" xml:id="Eser-Kedushot_0143" n="143"><head type="storyHead">Eser-Kedushot_0143</head>
+				</div><div type="story" xml:id="Eser-Kedushot_0143" n="143"><head type="storyHead">Eser-Kedushot_0143</head><span ana="not-a-hasidic-story:sermon" resp="#llm-tagging">תיוגים</span>
 <p>
 					<lb/>(כד) על חיבורו הטהור על המדרש אמר מובטחני כד שכיבנא נפקו בעלי
 					<lb/>המדרש ל<placeName>אפא</placeName> :
 				</p>
-				</div><div type="story" xml:id="Eser-Kedushot_0144" n="144"><head type="storyHead">Eser-Kedushot_0144</head>
+				</div><div type="story" xml:id="Eser-Kedushot_0144" n="144"><head type="storyHead">Eser-Kedushot_0144</head><span ana="not-a-hasidic-story:halakhah" resp="#llm-tagging">תיוגים</span>
 <p>
 					<lb/>(כה) כתב לי בנו ידי"נ ש"ב הרה״ק מו"ה <persName>אליהו</persName> זצ"ל סדר הנחת תפילין
 					<lb/>של מורינו אביו זללה"ה. וזה"ל לפי הנראה הי' מניח תפילין
@@ -4124,13 +4124,13 @@
 					<lb/>מר' <persName>אשר</persName> ז"ל ולפעמים בסידור הר׳ <persName>שבתי</persName> ז"ל הספר <name type="work">שג"ע</name> לא הי' בספריו.
 					<lb/>תפילין במנחה לא נהג בשום פעם עכ״ל :
 				</p>
-				</div><div type="story" xml:id="Eser-Kedushot_0145" n="145"><head type="storyHead">Eser-Kedushot_0145</head>
+				</div><div type="story" xml:id="Eser-Kedushot_0145" n="145"><head type="storyHead">Eser-Kedushot_0145</head><span ana="not-a-hasidic-story:sermon" resp="#llm-tagging">תיוגים</span>
 <p>
 					<lb/>(כו) סיפר לי אבי מורי הרב זצ"ל שפ"א אמר בזה"ל זיי ווייסען נישט אז
 					<lb/>ווען איך האב גיהאט מיין <persName>מענדילען</persName> [הוא בנו הצעיר הרה״ק
 					<persName><lb/>מוהרמ״מ</persName> זצ"ל] בין איך שוין לאנג נישט גיוועזין אויף דעם עולם :
 				</p>
-				</div><div type="story" xml:id="Eser-Kedushot_0146" n="146"><head type="storyHead">Eser-Kedushot_0146</head>
+				</div><div type="story" xml:id="Eser-Kedushot_0146" n="146"><head type="storyHead">Eser-Kedushot_0146</head><span ana="characters-and-roles:the_family_of_the_tsaddik; folkloristics:story_type_protection; practice:healing; practice:lifesaving; practice:protection; supernatural:miracle; times:death; times:shabbat; women:minor_character; practice:sermon; practice:torat_ha_tsaddik; supernatural:prognostication" resp="#llm-tagging">תיוגים</span>
 <p>
 					<lb/>(כז) שמעתי ממגידי אמת שפ"א הי' ב<placeName ref="#H-LOC_92">זידיטשוב</placeName> שכיח חולי בילדים הרבה
 					<lb/>שנעדרו מהעולם ל״ע והי' שם בעה"ב אחד שהי' לו בן יחיד
@@ -4150,7 +4150,7 @@
 					<lb/>האט ער דען נישט גיקענט אויך געפינען א פסוק וואלט מיין קינד אויך
 					<lb/>גיוועזין גילעבט :
 				</p>
-				</div><div type="story" xml:id="Eser-Kedushot_0147" n="147"><head type="storyHead"><persName>Eser</persName>-Kedushot_0147</head>
+				</div><div type="story" xml:id="Eser-Kedushot_0147" n="147"><head type="storyHead"><persName>Eser</persName>-Kedushot_0147</head><span ana="social:retrospective_recognition; folkloristics:story_type_death_of_the_tsaddik; supernatural:prognostication; times:death" resp="#llm-tagging">תיוגים</span>
 <p>
 					<lb/>(כח) ב<date>חורף</date> דשנת <date>תרל״ב</date> אשר ב<date>קיץ</date> שלאחריו נסתלק לעולמו הנה נשמע
 					<lb/>ממנו דיבורים שלפי שעה לא הי' בהם הבנה ואחרי פטירתו
@@ -4158,7 +4158,7 @@
 					<lb/>מאד אלה הדיבורים למען דעת איך להתנהג אשר בלתי דבריו לא היו יודעים
 					<lb/>מה לעשות :
 				</p>
-				</div><div type="story" xml:id="Eser-Kedushot_0148" n="148"><head type="storyHead">Eser-Kedushot_0148</head>
+				</div><div type="story" xml:id="Eser-Kedushot_0148" n="148"><head type="storyHead">Eser-Kedushot_0148</head><span ana="characters-and-roles:the_family_of_the_tsaddik; knowledge:esoteric; practice:study; ethics-and-emotions:prohibitions; practice:halakhah; practice:torat_ha_tsaddik" resp="#llm-tagging">תיוגים</span>
 <p>
 					<lb/>(כט) פ"א בתחלת הלילה נכנס אל מורינו בנו הרה״ק מו"ה <persName>ישכר בעריש
 					<lb/>מ<placeName ana="bio">דאלינא</placeName></persName> זצ"ל ומצאו שהי' עוסק ב<name type="work">זוה״ק</name> וכ<persName>האריז"ל</persName>. ונבהל. ושאלו
@@ -4166,7 +4166,7 @@
 					<lb/>דבריך נכונים אך זהו רק למי שמשועבד עוד תחת הזמן אבל אנכי למעלה
 					<lb/>מהזמן עכד״ק.
 				</p>
-				</div><div type="story" xml:id="Eser-Kedushot_0149" n="149"><head type="storyHead">Eser-Kedushot_0149</head>
+				</div><div type="story" xml:id="Eser-Kedushot_0149" n="149"><head type="storyHead">Eser-Kedushot_0149</head><span ana="practice:torat_ha_tsaddik; social:inter_hasidic; ethics-and-emotions:sadness; folkloristics:story_type_death_of_the_tsaddik; practice:prayer" resp="#llm-tagging">תיוגים</span>
 <p>
 					<lb/>(ל) בעת חליו האחרון בין <date>פסח</date> ל<date>עצרת</date> <date>יום ג׳ כ"ד למב״י</date> כתב אליו מרן
 					<lb/>הגאוה״ק איש אלקים אור החיים זצוקללה״ה מ<placeName ref="#H-LOC_127">צאנז</placeName> בזה"ל. דברי
@@ -4183,7 +4183,7 @@
 					<lb/>ממרום [חפצו צדיק] והי׳ שלום כנפש מחו' דוש"ת :
 					<lb/>הק׳ <persName>חיים האלברשטאם</persName> :
 				</p>
-				</div><div type="story" xml:id="Eser-Kedushot_0150" n="150"><head type="storyHead">Eser-Kedushot_0150</head>
+				</div><div type="story" xml:id="Eser-Kedushot_0150" n="150"><head type="storyHead">Eser-Kedushot_0150</head><span ana="experience:devekut; folkloristics:story_type_death_of_the_tsaddik; practice:devekut; practice:tefillin; times:death; times:holidays" resp="#llm-tagging">תיוגים</span>
 <p>
 					<lb/>(לא) ואמנם מורינו הקדוש בעצמו לא חפץ בחיים וכ״פ הגבי׳ ידיו הקדושים
 					<lb/>כלפי החלון אל פני השוק באמרו קוקסט אן דיא גראבע וועלט
@@ -4298,7 +4298,7 @@
 					<lb/>תייחד זווג או"א חטוף ואישתי רצ"ל תייחד זווג ז"ונ כהלולא דמי' הלולא גימ׳
 					<lb/>חסד עכד״ק :
 				</p>
-				</div><div type="story" xml:id="Eser-Kedushot_0151" n="151" ana="marginal"><head type="storyHead">Eser-Kedushot_0151</head>
+				</div><div type="story" xml:id="Eser-Kedushot_0151" n="151" ana="marginal"><head type="storyHead">Eser-Kedushot_0151</head><span ana="not-a-hasidic-story:sermon" resp="#llm-tagging">תיוגים</span>
 <p>
 					<lb/>(מא) פ"א שאל מורינו להיונגע לייט אם לומדים <name type="work">עץ חיים</name> הקדוש ושתקו
 					<lb/>ואמר להם בזה"ל איהר האט אפשר מורא פאר דיא צעהן
@@ -4326,7 +4326,7 @@
 					<lb/>עוה״ז היינו ממה שסיגל מצות ומע״ט בעוה״ז כי בלעדי זאת הוא נהמא
 					<lb/>דכסופא ודפח"ח :
 				</p>
-				</div><div type="story" xml:id="Eser-Kedushot_0152" n="152" ana="marginal"><head type="storyHead">Eser-Kedushot_0152</head>
+				</div><div type="story" xml:id="Eser-Kedushot_0152" n="152" ana="marginal"><head type="storyHead">Eser-Kedushot_0152</head><span ana="practice:joke; practice:sermon; ethics-and-emotions:humility; practice:halakhah; practice:storytelling; practice:travel_to_other_tsaddik" resp="#llm-tagging">תיוגים</span>
 <p>
 					<lb/>(מג) סיפר מורינו כי בהיותו אצל הרה״ק ר׳ <persName>מאיר מ<placeName ana="bio" ref="#H-LOC_39">פרימישלאן</placeName></persName> שאל אותו
 					<lb/>פ"א האט עטץ פרנסה והשיב לו מורינו שאין לו פרנסה רק
@@ -4535,7 +4535,7 @@
 				<p>
 					<lb/>מערכת ט. ש"ב הרה"ק <persName>מוהרי"א מ<placeName ana="bio">קאמארנא</placeName></persName> :
 				</p>
-				</div><div type="story" xml:id="Eser-Kedushot_0153" n="153"><head type="storyHead">Eser-Kedushot_0153</head>
+				</div><div type="story" xml:id="Eser-Kedushot_0153" n="153"><head type="storyHead">Eser-Kedushot_0153</head><span ana="not-a-hasidic-story:hagiography" resp="#llm-tagging">תיוגים</span>
 <p>
 					<lb/>[ט] (א) ש"ב מו״ר הגאון הקדוש המקובל האלקי מארא דרזין דמי לבר
 					<lb/>אלהין מופת הדור והדרו בוצינא דנהורא אספקלריא המאירה
@@ -4552,7 +4552,7 @@
 					<persName><lb/>מוהרחו״ו</persName> משרש נשמתו ותולדתו דברים נוראים ואנכי זכיתי לעשות לי העתקה
 					<lb/>מ<name type="work">מג״ס</name> הנ"ל :
 				</p>
-				</div><div type="story" xml:id="Eser-Kedushot_0154" n="154"><head type="storyHead">Eser-Kedushot_0154</head>
+				</div><div type="story" xml:id="Eser-Kedushot_0154" n="154"><head type="storyHead">Eser-Kedushot_0154</head><span ana="not-a-hasidic-story:hagiography" resp="#llm-tagging">תיוגים</span>
 <p>
 					<lb/>(ב) עוד בימי חורפו כאשר הדפיס ס׳ <name type="work">עשירית האיפה</name> על התו״כ כותב עליו
 					<lb/>הגאוה״ק <persName>מוהר״מ ט״ב</persName> זצ"ל האבד״ק <placeName ref="#H-LOC_17">אוהעל</placeName> [בשנת <date>תקצ״ח</date> בהיות
@@ -4567,7 +4567,7 @@
 					<lb/>צדיק וישר החסיד המאושר. כקש״ת מו"ה <persName>יצחק יהודה יחיאל</persName> נר״ו לנצח
 					<lb/>עכ״ל :
 				</p>
-				</div><div type="story" xml:id="Eser-Kedushot_0155" n="155"><head type="storyHead">Eser-Kedushot_0155</head>
+				</div><div type="story" xml:id="Eser-Kedushot_0155" n="155"><head type="storyHead">Eser-Kedushot_0155</head><span ana="not-a-hasidic-story:hagiography" resp="#llm-tagging">תיוגים</span>
 <p>
 					<lb/>(ג) מורינו הרב האלקי <persName>מוהרי״א מ<placeName ana="bio" ref="#H-LOC_92">זידיטשוב</placeName></persName> בהסכמתו על החומשים עם
 					<lb/>הפירושים ממו״ר הקדוש הנ"ל כותב בזה"ל הנה בעזהי״ת הובא
@@ -4588,7 +4588,7 @@
 				<p>
 					<lb/>ממדריגותיו הנוראים.
 				</p>
-				</div><div type="story" xml:id="Eser-Kedushot_0156" n="156"><head type="storyHead">Eser-Kedushot_0156</head>
+				</div><div type="story" xml:id="Eser-Kedushot_0156" n="156"><head type="storyHead">Eser-Kedushot_0156</head><span ana="supernatural:perception; folkloristics:story_type_virtues; practice:reception_of_hasidim" resp="#llm-tagging">תיוגים</span>
 <p>
 					<lb/>(ד) אם אמרתי לסדר ולספר אך רק מה שאנכי השפל יודע מעניניו של זה
 					<lb/>התנא האלקי זצ"ל יוצרך לחיבור שלם בפני עצמו. אמנם בהכרח
@@ -4600,7 +4600,7 @@
 					<lb/>הרחיב לתאר ולהעריך כל אחד ואחד מהאנשים האלו במהותו ואיכותו ותכונתו
 					<lb/>כאילו הכירם מעודם בכל פרטותיהן ודקדוקיהן :
 				</p>
-				</div><div type="story" xml:id="Eser-Kedushot_0157" n="157"><head type="storyHead">Eser-Kedushot_0157</head>
+				</div><div type="story" xml:id="Eser-Kedushot_0157" n="157"><head type="storyHead">Eser-Kedushot_0157</head><span ana="practice:healing; practice:reception_of_hasidim; social:retrospective_recognition; supernatural:perception; women:catalyst_character; practice:business_advice; practice:travel_to_the_tsaddik; supernatural:miracle" resp="#llm-tagging">תיוגים</span>
 <p>
 					<lb/>(ה) סיפר לי בעה״ב כשר אחד תורני ויר"א שפ"א בנסעו לרגלי מסחרו
 					<lb/>בענין עסק גדול דרך עיר <placeName>ראצפערד</placeName> והי׳ אז בשם מו״ר הרה״ק
@@ -4615,7 +4615,7 @@
 					<lb/>לאט לאט עד שובו הביתה. אשרי עין ראתה בלי מסך המבדיל בכל העולם
 					<lb/>כולו :
 				</p>
-				</div><div type="story" xml:id="Eser-Kedushot_0158" n="158"><head type="storyHead">Eser-Kedushot_0158</head>
+				</div><div type="story" xml:id="Eser-Kedushot_0158" n="158"><head type="storyHead">Eser-Kedushot_0158</head><span ana="characters-and-roles:scribe; practice:tefillin; supernatural:perception; practice:halakhah; social:retrospective_recognition" resp="#llm-tagging">תיוגים</span>
 <p>
 					<lb/>(ו) שמעתי מפי מגידי אמת שהסופר אשר הי׳ רגיל לסדר לו כמה פעמים
 					<lb/>בשנה הפרשיות התפילין תוך בתים חדשים. ופ"א בלבשו
@@ -4624,7 +4624,7 @@
 					<lb/>קדש מימין הקורא] והסופר צווח ואמר הלא אין זה פעם הראשון שאני מסדר
 					<lb/>לרבינו הפרשיות וחלילה לי לשנות ופתחו התפילין ומצאו כדברי קדשו :
 				</p>
-				</div><div type="story" xml:id="Eser-Kedushot_0159" n="159"><head type="storyHead">Eser-Kedushot_0159</head>
+				</div><div type="story" xml:id="Eser-Kedushot_0159" n="159"><head type="storyHead">Eser-Kedushot_0159</head><span ana="ethics-and-emotions:charity; experience:visions; supernatural:perception; experience:revelation; folkloristics:story_type_virtues; social:inter_hasidic_master_disciple_relationship" resp="#llm-tagging">תיוגים</span>
 <p>
 					<lb/>(ז) ב<name type="work">מגלת סתרים</name> כתי״ק וזה"ל מיום שהייתי שני שנים ועד חמשה
 					<lb/>שנים השגתי מראות נפלאות והשגת רוח הקודש ודברתי
@@ -4635,7 +4635,7 @@
 					<pb facs="Eser-Kedushot_0090.jpg"/><lb/>לי שני ריינוש בכל שבוע שאספר לו ואדבר לו כל אשר ישאל ממני ודברתי
 					<lb/>ואמרתי ברור ונקי על כל השאלות ששאל ממני והמעות חלקתי לצדקה :
 				</p>
-				</div><div type="story" xml:id="Eser-Kedushot_0160" n="160"><head type="storyHead">Eser-Kedushot_0160</head>
+				</div><div type="story" xml:id="Eser-Kedushot_0160" n="160"><head type="storyHead">Eser-Kedushot_0160</head><span ana="characters-and-roles:the_family_of_the_tsaddik; supernatural:perception; ethics-and-emotions:humility; folkloristics:story_type_virtues; supernatural:miracle" resp="#llm-tagging">תיוגים</span>
 <p>
 					<lb/>(ח) ובהקדמת <name type="work">זוהר חי</name> כתב בנו הרה״צ <persName>מוהר"א</persName> שכשבא לשנה הששית
 					<lb/>אמר לו רבינו <persName>צבי</persName> בזה"ל מיין קינד איך וועל דיך בענטשין דוא
@@ -4645,7 +4645,7 @@
 					<lb/>נסיונות רבות. ונתרצה הילד הקדוש ותיכף ומיד נסתלק ממנו הרוה״ק שהי׳ לו
 					<lb/>מקודם עכ״ל :
 				</p>
-				</div><div type="story" xml:id="Eser-Kedushot_0161" n="161"><head type="storyHead">Eser-Kedushot_0161</head>
+				</div><div type="story" xml:id="Eser-Kedushot_0161" n="161"><head type="storyHead">Eser-Kedushot_0161</head><span ana="social:marriage; supernatural:communicating_with_the_invisible; supernatural:perception; supernatural:pregnancy; supernatural:prognostication; times:holidays; women:mention_only; folkloristics:story_type_prognostication; practice:reception_of_hasidim; practice:solitude" resp="#llm-tagging">תיוגים</span>
 <p>
 					<lb/>(ט) עוד כתב בהקדמה הנ"ל וזה"ל. ועיקר התגלות רוח קדשו לעיני כל הי'
 					<lb/>בענין הזווגים כששאלו אותו ולא הי' רשאי לכתוב לו על הכתב רק
@@ -4661,7 +4661,7 @@
 					<lb/>שלו על ארבעה עקרות שיפקדו בזו השנה או חמשה או יותר או פחות וכך הי'
 					<lb/>בכל שנה ושנה עכ״ל :
 				</p>
-				</div><div type="story" xml:id="Eser-Kedushot_0162" n="162"><head type="storyHead">Eser-Kedushot_0162</head>
+				</div><div type="story" xml:id="Eser-Kedushot_0162" n="162"><head type="storyHead">Eser-Kedushot_0162</head><span ana="not-a-hasidic-story:sermon" resp="#llm-tagging">תיוגים</span>
 <p>
 					<lb/>(י) עוד שם וזה"ל ופ"א אמר לי שיש בחלק נשמתו הטהורה חלק אחד מנשמת
 					<lb/>ה<persName>אריז"ל</persName> ואפילו הצורה של ה<persName>אריז"ל</persName> יש לי שוה בשוה וגם חלק אחד
@@ -4670,7 +4670,7 @@
 					<lb/>שיש עוד כמה חלקי נשמות מנשמת תנאים ואמוראים אבל לא הי' רוצה לגלות
 					<lb/>לי ולא לשום אדם בעולם עכ״ל :
 				</p>
-				</div><div type="story" xml:id="Eser-Kedushot_0163" n="163"><head type="storyHead">Eser-Kedushot_0163</head>
+				</div><div type="story" xml:id="Eser-Kedushot_0163" n="163"><head type="storyHead">Eser-Kedushot_0163</head><span ana="characters-and-roles:the_family_of_the_tsaddik; practice:asceticism; practice:study; social:marriage; women:mention_only; characters-and-roles:hidden_righteous; folkloristics:story_type_revelation; knowledge:esoteric; practice:solitude; social:retrospective_recognition; supernatural:perception; supernatural:prognostication" resp="#llm-tagging">תיוגים</span>
 <p>
 					<lb/>(יא) עו"ש וזה"ל והי׳ רבינו מ<placeName ref="#H-LOC_56">לובלין</placeName> שדכן של אמי הרבנית הצדיקת מ׳ <persName>גיטל</persName>
 					<lb/>תחי׳ בת הרב הצדיק מו"ה <persName>אברהם מרדכי מ<placeName ana="bio">פינטשוב</placeName></persName> עם אדוני
@@ -4693,7 +4693,7 @@
 					<lb/>[ומעשה אחת מה שסיפר החבר יבא להלן אות י״ח נעתק מזו״ח מה שכותב
 					<lb/>הרה״ק בעצמו] עכ״ל :
 				</p>
-				</div><div type="story" xml:id="Eser-Kedushot_0164" n="164"><head type="storyHead">Eser-Kedushot_0164</head>
+				</div><div type="story" xml:id="Eser-Kedushot_0164" n="164"><head type="storyHead">Eser-Kedushot_0164</head><span ana="characters-and-roles:the_family_of_the_tsaddik; social:inter_hasidic_master_disciple_relationship; times:shabbat; social:conflict; social:inter_hasidic_inheritance_of_leadership; social:poverty; supernatural:prognostication; women:minor_character" resp="#llm-tagging">תיוגים</span>
 <p>
 					<lb/>(יב) עו״ש וזה"ל ודר בעיר <placeName>פינטשוב</placeName> ערך ד׳ או ה׳ שנים רצופים ואח"כ
 					<lb/>גזר עליו רבו מובהק רבינו <persName>צבי מ<placeName ana="bio" ref="#H-LOC_92">זידיטשוב</placeName></persName> שיקבע דירתו בעיר
@@ -4709,7 +4709,7 @@
 					<lb/>איך וועל נישט ארויס גיין מזה העולם ביז דוא וועסט זיין אכלי מחזיק ברכה ואור אין
 					<lb/>וועסט נעמין מיין תורה אין דוא וועסט מתפשט זיין בכל העולם כולו עכד״ק עכ״ל :
 				</p>
-				</div><div type="story" xml:id="Eser-Kedushot_0165" n="165"><head type="storyHead">Eser-Kedushot_0165</head>
+				</div><div type="story" xml:id="Eser-Kedushot_0165" n="165"><head type="storyHead">Eser-Kedushot_0165</head><span ana="characters-and-roles:the_family_of_the_tsaddik; ethics-and-emotions:fear; folkloristics:story_type_birth_of_the_tsaddik; kabbalah:kabbalistic_terms_yihudim; practice:circumcision; practice:use_of_holy_names; supernatural:light_or_fire_as_a_sign_of_righteousness; supernatural:pregnancy; supernatural:prognostication; times:birth; women:minor_character; ethics-and-emotions:joy; folkloristics:story_type_prognostication; practice:meditation; practice:storytelling; practice:the_travels_of_the_tsaddik; practice:torat_ha_tsaddik; practice:travel_to_the_tsaddik; social:inter_hasidic_master_disciple_relationship; supernatural:perception" resp="#llm-tagging">תיוגים</span>
 <p>
 					<lb/>(יג) עו״ש וזה"ל ושמעתי מפי אאמו״ר זללה״ה שאביו הוא אא"ז הגאוה״ק מו"ה
 					<persName><lb/>אלכסנדר</persName> זללה"ה סיפר לו בפיו הקדוש ואמר לו בני כשהייתי אחר
@@ -4736,7 +4736,7 @@
 					<lb/>יהי' להילד הזה אריכות ימי' ושנים ולא תפחד משום בריה כי יתגדל בימים ושנים הרבה
 					<lb/>מיד הלכה לביתה וסיפרה לאא״ז זצ"ל הדיבורים של הצדיק הזה ושמח עוד יותר :
 				</p>
-				</div><div type="story" xml:id="Eser-Kedushot_0166" n="166"><head type="storyHead">Eser-Kedushot_0166</head>
+				</div><div type="story" xml:id="Eser-Kedushot_0166" n="166"><head type="storyHead">Eser-Kedushot_0166</head><span ana="social:inter_hasidic_master_disciple_relationship; folkloristics:story_type_virtues; practice:torat_ha_tsaddik" resp="#llm-tagging">תיוגים</span>
 <p>
 					<lb/>(יד) בזו"ח למו״ר הרה״ק בדפי הספר (ג׳ ע״ב) כתב וזה"ל מורי ורבי דודי
 				</p>
@@ -4746,18 +4746,18 @@
 					<lb/>ומדריגתו מי ימלל מה שראו עיני ולא זר כי לא קבלתי אותו לרבי מובהק עד
 					<lb/>שהראה לי שיש לו מדריגת מרן אלקי הקדוש ה<persName>ריב״ש</persName> טוב וכו׳ עכ״ל :
 				</p>
-				</div><div type="story" xml:id="Eser-Kedushot_0167" n="167"><head type="storyHead">Eser-Kedushot_0167</head>
+				</div><div type="story" xml:id="Eser-Kedushot_0167" n="167"><head type="storyHead">Eser-Kedushot_0167</head><span ana="experience:dream; experience:revelation; practice:sermon" resp="#llm-tagging">תיוגים</span>
 <p>
 					<lb/>(טו) בספרו הק' <name type="work">אוצה"ח</name> על המצות פ׳ <name type="work">בהר</name> (ד׳ רנ"ט ע״ב) וזה"ל סיימתי כ"ה
 					<lb/>מרחשון וכו' והראני בחלום הלילה שכל דרושים אלו נתקבלו
 					<lb/>בג״ע לפני הצדיקים ב"ה וב"ש חי וקיים עכ״ל :
 				</p>
-				</div><div type="story" xml:id="Eser-Kedushot_0168" n="168"><head type="storyHead">Eser-Kedushot_0168</head>
+				</div><div type="story" xml:id="Eser-Kedushot_0168" n="168"><head type="storyHead">Eser-Kedushot_0168</head><span ana="not-a-hasidic-story:sermon" resp="#llm-tagging">תיוגים</span>
 <p>
 					<lb/>(טז) בס׳ הנ"ל פ' <name type="work">בחקתי</name> (ד׳ רצ"ב ע״א) וזה"ל וכפי אשר קבלתי מי״ח צדיקים
 					<lb/>בעלי רוה״ק ששמשתי אותם ובראשם מורי דודי רבינו [<persName>צבי</persName>] עכ״ל :
 				</p>
-				</div><div type="story" xml:id="Eser-Kedushot_0169" n="169"><head type="storyHead">Eser-Kedushot_0169</head>
+				</div><div type="story" xml:id="Eser-Kedushot_0169" n="169"><head type="storyHead">Eser-Kedushot_0169</head><span ana="experience:dream; practice:study; ethics-and-emotions:joy; experience:journey_to_heaven; experience:revelation; supernatural:communicating_with_the_invisible" resp="#llm-tagging">תיוגים</span>
 <p>
 					<lb/>(יז) ב<name type="work">היכל ברכה</name> <name type="work">פ' תבא</name> (ד׳ קע״ה ע״ב) וזה"ל כתבתי בחצות לילה ואח"כ
 					<lb/>למדתי גמרא ונפל עלי שינה וישנתי וראיתי את רבינו הקדוש
@@ -4766,7 +4766,7 @@
 					<lb/>בתורה והשיב טוב ומקובל למעלה ואמר לי כמה דרכים בענין חסרות ויתרות
 					<lb/>וחזרתי לפניו אעפי״כ כשירדתי לזה העולם נשכח ממני הכל בעוני עכ״ל :
 				</p>
-				</div><div type="story" xml:id="Eser-Kedushot_0170" n="170"><head type="storyHead">Eser-Kedushot_0170</head>
+				</div><div type="story" xml:id="Eser-Kedushot_0170" n="170"><head type="storyHead">Eser-Kedushot_0170</head><span ana="ethics-and-emotions:humility; practice:asceticism; practice:solitude; practice:study; social:inter_hasidic_master_disciple_relationship; supernatural:perception; ethics-and-emotions:sadness; ethics-and-emotions:shame; experience:revelation; experience:visions; kabbalah:kabbalistic_terms_yihudim; practice:torat_ha_tsaddik; social:conflict; social:poverty" resp="#llm-tagging">תיוגים</span>
 <p>
 					<lb/>(יח) בספרו <name type="work">זו"ח</name> <name type="work">פ׳ ויחי</name> בדפי הספר (שצ"ה ע"א) וזה"ל ובהיות עדיין לא
 					<lb/>נזדכך גופו יתרחק מאד מבלי ליהנות מעוה״ז ויהי׳ ניזון בלחם
@@ -4793,7 +4793,7 @@
 					<lb/>וגורמים לי טובות גדולות ולב טהור ותפלת אמת עייל ונפיק והשגה נפלאה וכולי
 					<lb/>האי ואולי יכנע להיות נכנע לפני קוני דלא איעול בכסופא לעלמא דאתי עכ״ל :
 				</p>
-				</div><div type="story" xml:id="Eser-Kedushot_0171" n="171"><head type="storyHead">Eser-Kedushot_0171</head>
+				</div><div type="story" xml:id="Eser-Kedushot_0171" n="171"><head type="storyHead">Eser-Kedushot_0171</head><span ana="ethics-and-emotions:humility; experience:dream; supernatural:communicating_with_the_invisible; ethics-and-emotions:joy; ethics-and-emotions:pride; experience:revelation; knowledge:esoteric; practice:study; social:conflict; times:shabbat" resp="#llm-tagging">תיוגים</span>
 <p>
 					<lb/>(יט) עוד שם בח"ב (תנ"ו א) בעש״ק ישנתי בצהרים וראיתי חבל נשמות
 					<lb/>היורדין כידוע ואמר לי אחד למה לך כשאתה מסיים איזה ענין
@@ -4813,7 +4813,7 @@
 					<lb/>בכל עת לגלה לי דברי אמת שלא אטעה חלילה אמת אמת אמת חנני ה<name type="misc">שי"ת</name>
 					<lb/>עכ״ל :
 				</p>
-				</div><div type="story" xml:id="Eser-Kedushot_0172" n="172"><head type="storyHead">Eser-Kedushot_0172</head>
+				</div><div type="story" xml:id="Eser-Kedushot_0172" n="172"><head type="storyHead">Eser-Kedushot_0172</head><span ana="characters-and-roles:the_family_of_the_tsaddik; folkloristics:story_type_birth_of_the_tsaddik; kabbalah:kabbalistic_terms_yihudim; supernatural:pregnancy; supernatural:reincarnation; times:birth; characters-and-roles:messiah; practice:torat_ha_tsaddik; practice:travel_to_the_tsaddik; supernatural:communicating_with_the_invisible; supernatural:prognostication; women:minor_character" resp="#llm-tagging">תיוגים</span>
 <p>
 					<lb/>(כ) ב<name type="work">מגלת סתרים</name> שלו [כת"י] וזה"ל בכור הייתי לאבי ומחמת <sic correction="הקיטרוגין">הקוטריגן</sic>
 					<lb/>שעשה פני הכלב של מקדש שני שעדיין קליפה זאת לא נתבטל
@@ -4832,7 +4832,7 @@
 					<lb/>צדק" עד היום וכו' ועדיין לא תיקנתי כל הימים אלו שבטלתי בהם עבודת
 					<lb/>המלך עכלה"ק :
 				</p>
-				</div><div type="story" xml:id="Eser-Kedushot_0173" n="173"><head type="storyHead">Eser-Kedushot_0173</head>
+				</div><div type="story" xml:id="Eser-Kedushot_0173" n="173"><head type="storyHead">Eser-Kedushot_0173</head><span ana="not-a-hasidic-story:sermon" resp="#llm-tagging">תיוגים</span>
 <p>
 					<lb/>(כא) עו״ש ב<name type="work">מג״ס</name>. מורי דודי הקדוש [רבינו <persName>צבי</persName>] נשמתו הי׳ שורש הרחו״ו משורש
 					<lb/>שקרוב אל נשמת ר׳ <persName>עקיבא</persName> שנתבאר בזה ספר <name type="work">חזיונות</name> ענין המתחיל
@@ -4841,7 +4841,7 @@
 					<lb/>של הרחו״ו ועל שרשים כאלו וכיוצא בהם שעבדו מלך עליון בהתלהבות
 					<lb/>ויחודים ומסירת נפש כמעט שלא נמצא בימי התנאים כך :
 				</p>
-				</div><div type="story" xml:id="Eser-Kedushot_0174" n="174"><head type="storyHead">Eser-Kedushot_0174</head>
+				</div><div type="story" xml:id="Eser-Kedushot_0174" n="174"><head type="storyHead">Eser-Kedushot_0174</head><span ana="ethics-and-emotions:awe; experience:trembling; knowledge:esoteric; practice:travel_to_the_tsaddik; supernatural:light_or_fire_as_a_sign_of_righteousness; supernatural:perception; times:holidays; characters-and-roles:the_family_of_the_tsaddik; experience:enthusiasm; social:inter_hasidic_master_disciple_relationship; spaces:institutions_hassidic_court; supernatural:reincarnation" resp="#llm-tagging">תיוגים</span>
 <p>
 					<lb/>(כב) עוד שם ב<name type="work">מג"ס</name> ובהקדמתו לחומש [שלא נשלח עם כל החומשים רק
 					<lb/>ליחו״ס] אבי נשמתו עדן הי׳ תלמיד מן מרן רבינו מ<placeName ref="#H-LOC_56">לובלין</placeName> ששורש
@@ -4871,7 +4871,7 @@
 					<lb/>אלא לעשות נחת רוח ליוצר בראשית באמת ובלב תמים ופשוט ויש בי ניצוץ
 					<lb/>נשמתו עכ"ל :
 				</p>
-				</div><div type="story" xml:id="Eser-Kedushot_0175" n="175"><head type="storyHead">Eser-Kedushot_0175</head>
+				</div><div type="story" xml:id="Eser-Kedushot_0175" n="175"><head type="storyHead">Eser-Kedushot_0175</head><span ana="ethics-and-emotions:lust; ethics-and-emotions:repentance; ethics-and-emotions:prohibitions; ethics-and-emotions:resisting_temptation; folkloristics:story_type_virtues; practice:prayer; women:mention_only" resp="#llm-tagging">תיוגים</span>
 <p>
 					<lb/>(כג) מספר עוד שם מזמן היותו י"ב שנה ועד י״ד ט"ו שנה בזה"ל אח"כ
 					<lb/>עבר עלי איזה זמן מועט שעבר עלי התגברות גדול מ<name type="misc">ס״מ ימ״ש</name>
@@ -4884,13 +4884,13 @@
 					<lb/>בהיותו כבן ט״ז שנים והמובן לפי החשבון כי הי׳ לו השמירה מעת היותו בן
 					<lb/>י"ד שנים] והבן :
 				</p>
-				</div><div type="story" xml:id="Eser-Kedushot_0176" n="176"><head type="storyHead">Eser-Kedushot_0176</head>
+				</div><div type="story" xml:id="Eser-Kedushot_0176" n="176"><head type="storyHead">Eser-Kedushot_0176</head><span ana="kabbalah:kabbalistic_terms_yihudim; supernatural:reincarnation; experience:revelation; knowledge:esoteric; supernatural:communicating_with_the_invisible" resp="#llm-tagging">תיוגים</span>
 <p>
 					<lb/>(כד) עוד שם ב<name type="work">מג"ס</name> פ"א עמדתי אצל דודי הקדוש [רבינו <persName>צבי</persName>] ואמר שמרן
 					<persName><lb/>הבעש״ט</persName> הוא עוד הפעם בעולם וגדול יותר באור היחודים ממה
 					<lb/>שהי' כמה מדריגות ואינו יודע היכן הוא ותמהתי עליו :
 				</p>
-				</div><div type="story" xml:id="Eser-Kedushot_0177" n="177"><head type="storyHead">Eser-Kedushot_0177</head>
+				</div><div type="story" xml:id="Eser-Kedushot_0177" n="177"><head type="storyHead">Eser-Kedushot_0177</head><span ana="characters-and-roles:angels; experience:dream; folkloristics:story_type_protection; practice:protection; social:conflict; supernatural:communicating_with_the_invisible; times:holidays; practice:torat_ha_tsaddik; social:relations_with_the_authorities; supernatural:miracle; times:historical_event" resp="#llm-tagging">תיוגים</span>
 <p>
 					<lb/>(כה) עוד שם ב<date>ראש השנה</date> <date>תר"ו</date> ביום א׳ עשיתי כמה פעולות בשביל
 					<lb/>כללות ישראל שבמדינת <placeName ref="#H-LOC_202">רוסיא</placeName> והכנעתי את השר. ומגודל הקטרוג
@@ -4900,7 +4900,7 @@
 					<lb/>עליו ברכה שמברכין על המלך והקיצותי וכן הי׳ שנתבטל כל הגזירות על היהודים
 					<lb/>שב<placeName>אדום</placeName> :
 				</p>
-				</div><div type="story" xml:id="Eser-Kedushot_0178" n="178"><head type="storyHead">Eser-Kedushot_0178</head>
+				</div><div type="story" xml:id="Eser-Kedushot_0178" n="178"><head type="storyHead">Eser-Kedushot_0178</head><span ana="not-a-hasidic-story:hagiography" resp="#llm-tagging">תיוגים</span>
 <p>
 					<lb/>(כו) עוד שם בהקדמתו להחומש וזה"ל ואם יקשה לך אחי על אריכת דיבורים
 					<lb/>שהכרח לי מצד המנגד להזכיר כחם שאני נסמך משלשה גדולי
@@ -4909,7 +4909,7 @@
 					<lb/>לכ״ז ואני מוסמך רביעי או שלישי למרן <persName>הריב"ש טוב</persName> ודי בזה הכרח וההכרח
 					<lb/>לא יגונה :
 				</p>
-				</div><div type="story" xml:id="Eser-Kedushot_0179" n="179"><head type="storyHead">Eser-Kedushot_0179</head>
+				</div><div type="story" xml:id="Eser-Kedushot_0179" n="179"><head type="storyHead">Eser-Kedushot_0179</head><span ana="experience:revelation; supernatural:perception; practice:torat_ha_tsaddik; practice:travel_to_the_tsaddik" resp="#llm-tagging">תיוגים</span>
 <p>
 					<pb facs="Eser-Kedushot_0095.jpg"/><lb/>(כז) עוד שם ומעתה אחיי ורעיו אותם המבקשים פני ה׳ ויראתו אהבתו
 					<lb/>באמת ובכמה נסיונות עמדו כעמודא תקיף בהאי עלמא אספרה
@@ -4922,7 +4922,7 @@
 					<lb/>הכל כאשר וכו׳ עכ״ל [א"ה כל מקום שנרשם כאן באות זה וכו' כן הוא שם
 					<lb/>בההקדמה] :
 				</p>
-				</div><div type="story" xml:id="Eser-Kedushot_0180" n="180"><head type="storyHead">Eser-Kedushot_0180</head>
+				</div><div type="story" xml:id="Eser-Kedushot_0180" n="180"><head type="storyHead">Eser-Kedushot_0180</head><span ana="not-a-hasidic-story:hagiography" resp="#llm-tagging">תיוגים</span>
 <p>
 					<lb/>(כח) עוד שם בהקדמה. והנה אחיי אהובי עליון אדבר התנצלות העני הזה
 					<lb/>המדוכא ברי׳ שפלה ואפלה נדוש בעקב אלף טעמי מיתה טעמתי
@@ -4936,7 +4936,7 @@
 					<lb/>ונקראים חיים והם חיים בכל רגע מן ואתה מחי׳ את כולם הדביקים ב<name type="misc">אלקים</name>
 					<lb/>חיים שיסכימו על ספרי זה ויחזיקו אותי שיהי' לי בכח וכו' עכ״ל :
 				</p>
-				</div><div type="story" xml:id="Eser-Kedushot_0181" n="181"><head type="storyHead">Eser-Kedushot_0181</head>
+				</div><div type="story" xml:id="Eser-Kedushot_0181" n="181"><head type="storyHead">Eser-Kedushot_0181</head><span ana="ethics-and-emotions:joy; experience:dream; practice:prayer; times:holidays; experience:revelation; experience:visions; supernatural:prognostication" resp="#llm-tagging">תיוגים</span>
 <p>
 					<lb/>(כט) עוד ב<name type="work">מגלת סתרים</name> וזה"ל בליל א' דר"ה <date>שנת תר"ז</date> חלמתי חלום ארוך
 					<lb/>שיש עלי דינים ואח"כ ראיתי שאני הולך בשערות על ראשי
@@ -4999,7 +4999,7 @@
 					<lb/>עליון ירחם עלינו בשנה זאת הבא עלינו שנת קומו ונקומה עליה למלחמה תזכ״ר
 					<lb/>לחיים עכ"ל :
 				</p>
-				</div><div type="story" xml:id="Eser-Kedushot_0182" n="182" ana="marginal"><head type="storyHead">Eser-Kedushot_0182</head>
+				</div><div type="story" xml:id="Eser-Kedushot_0182" n="182" ana="marginal"><head type="storyHead">Eser-Kedushot_0182</head><span ana="ethics-and-emotions:prohibitions; practice:halakhah; practice:study; times:holidays; ethics-and-emotions:humility; not-a-hasidic-story:sermon; practice:sermon; social:inter_hasidic_master_disciple_relationship" resp="#llm-tagging">תיוגים</span>
 <p>
 					<lb/>(לה) שם (דף ל״ה ע״א) על מאמר <name type="work">הזוה״ק</name> דבעי לי׳ למילעי בהאי לילא
 					<lb/>[ליל חג שבועות] אורייתא דבע״פ זה"ל הרה״ק. ועפי״ז סידר איזה
@@ -5019,7 +5019,7 @@
 					<pb facs="Eser-Kedushot_0097.jpg"/><lb/>לי בפנים נהורין ואמר לי כבר הזהרתי התלמידים שלא יעיינו כלל במשניות
 					<lb/>בלילה זאת וכו׳ עכ״ל :
 				</p>
-				</div><div type="story" xml:id="Eser-Kedushot_0183" n="183" ana="marginal"><head type="storyHead">Eser-Kedushot_0183</head>
+				</div><div type="story" xml:id="Eser-Kedushot_0183" n="183" ana="marginal"><head type="storyHead">Eser-Kedushot_0183</head><span ana="not-a-hasidic-story:halakhah" resp="#llm-tagging">תיוגים</span>
 <p>
 					<lb/>(לו) שם וסדר מנהגי תיכף אחר מעריב לומר סדר <name type="work">תנ"ך</name> של מרן ה<persName>אר"י</persName>
 					<lb/>וקרוב לחצות הולך לסעוד סעודת יו"ט ובאמצע הסעודה
@@ -5032,7 +5032,7 @@
 					<lb/>פסיק כלל בשום שינה. וגם אני נהגתי כך אחריהם וכעת נחלש כח העולם
 					<lb/>ונחלשתי שלא יכולתי עמוד בזה עכ״ל :
 				</p>
-				</div><div type="story" xml:id="Eser-Kedushot_0184" n="184"><head type="storyHead">Eser-Kedushot_0184</head>
+				</div><div type="story" xml:id="Eser-Kedushot_0184" n="184"><head type="storyHead">Eser-Kedushot_0184</head><span ana="ethics-and-emotions:humility; practice:devekut; social:conflict; ethics-and-emotions:shame; folkloristics:story_type_virtues; knowledge:esoteric; not-a-hasidic-story:sermon; practice:study; social:inter_hasidic; supernatural:light_or_fire_as_a_sign_of_righteousness" resp="#llm-tagging">תיוגים</span>
 <p>
 					<lb/>(לז) שם בזו״ח ח"א (ד׳ קצ"ה ע״א) וזה"ל <persName>אשר</persName>י אדם שמשים עצמו כעפר
 					<lb/>שהכל ירמסוהו ויהי' כאסקופה תחתונה שהכל דשין בה ממש וכל
@@ -5076,7 +5076,7 @@
 					<lb/>לפני קונו לאלף שברים נשבר קדוש הוא לאלהיו ואני לא באתי אלא אל לבבי
 					<lb/>הערל להסיר מעלי גאוה ושקר ולטהר עצמי בלב טהור ואמת עכ״ל :
 				</p>
-				</div><div type="story" xml:id="Eser-Kedushot_0185" n="185"><head type="storyHead">Eser-Kedushot_0185</head>
+				</div><div type="story" xml:id="Eser-Kedushot_0185" n="185"><head type="storyHead">Eser-Kedushot_0185</head><span ana="characters-and-roles:the_family_of_the_tsaddik; experience:trembling; kabbalah:kabbalistic_terms_kavvanot; kabbalah:kabbalistic_terms_yihudim; practice:meditation; practice:storytelling; ethics-and-emotions:awe; folkloristics:story_type_virtues; practice:tvilah; social:inter_hasidic_master_disciple_relationship; supernatural:perception; times:shabbat; women:minor_character" resp="#llm-tagging">תיוגים</span>
 <p>
 					<lb/>(מ) שם <name type="work">פ׳ ויחי</name> (דף של"ה ע"א) וכך ראיתי למו״ר רבינו הקדוש מו״ה
 					<persName><lb/>נפתלי מ<placeName ana="bio">רופשיטץ</placeName></persName> שבכל דבריו הי׳ יחודים שכליות נפלאות עד שהייתי
@@ -5092,7 +5092,7 @@
 					<lb/>סרה ואני מבקש בבכיה ובתחנונים מהש״י שאולי משגה הוא אצלי או מזיד שדברתי
 					<lb/>איזה דיבור שאינו הגון על שום בר ישראל יתן הש"י בלבו שימחול לי עכ״ל :
 				</p>
-				</div><div type="story" xml:id="Eser-Kedushot_0186" n="186" ana="marginal"><head type="storyHead">Eser-Kedushot_0186</head>
+				</div><div type="story" xml:id="Eser-Kedushot_0186" n="186" ana="marginal"><head type="storyHead">Eser-Kedushot_0186</head><span ana="not-a-hasidic-story:sermon" resp="#llm-tagging">תיוגים</span>
 <p>
 					<lb/>(מא) שם <name type="work">פ' בראשית</name> (דף קע״ז ע״א) וזה"ל וכבר אמר לי מו״ר הקדוש
 					<lb/>שמתירא בכל עת מקליפת נוגה כי בתנועה קטנה שלא לש"ש
@@ -5130,14 +5130,14 @@
 					<name type="work"><lb/>זוהר פנחס</name> רל״ב שמבאר אשר שם ב"ן בנון רבתי מספר שב"ת וזה בהמ"ה כשב״ת
 					<lb/>עכ״ל הגה"ק הנ"ל ודפח"ח :
 				</p>
-				</div><div type="story" xml:id="Eser-Kedushot_0187" n="187" ana="marginal"><head type="storyHead">Eser-Kedushot_0187</head>
+				</div><div type="story" xml:id="Eser-Kedushot_0187" n="187" ana="marginal"><head type="storyHead">Eser-Kedushot_0187</head><span ana="not-a-hasidic-story:hagiography" resp="#llm-tagging">תיוגים</span>
 <p>
 					<lb/>(מד) בסוף ספרו <name type="work">נדבות פי</name> וזה"ל קבלתי כ״ז בלחישה ונעשיתי הולך רכיל
 					<lb/>מאהבת ישראל פתחתי לך הנקב סידקית כי יש בזה רזי דרזין.
 					<lb/>ומזה תדע אחי שבכל ספרי רמזתי רזין ורזי רזין ענינים עמוקים ונסתרים
 					<lb/>ופתוחים הם להחפיצים בחברתינו ודבוקים בנפשינו והכסיל באשך הולך וכו׳ עכ״ל :
 				</p>
-				</div><div type="story" xml:id="Eser-Kedushot_0188" n="188" ana="marginal"><head type="storyHead">Eser-Kedushot_0188</head>
+				</div><div type="story" xml:id="Eser-Kedushot_0188" n="188" ana="marginal"><head type="storyHead">Eser-Kedushot_0188</head><span ana="not-a-hasidic-story:sermon" resp="#llm-tagging">תיוגים</span>
 <p>
 					<lb/>(מה) בהקדמת ספרו הקדוש <name type="work">כתם אופיר</name> על <name type="work">מגלת אסתר</name> וזה"ל אלף
 					<lb/>טעמי מיתות טעמתי עד שנפתח לבי ברזי התורה ובעזר
@@ -5151,7 +5151,7 @@
 					<lb/>ובנה במהרה. עפרא בעלמא כלי אדמה <persName>יצחק יהודה יחיאל</persName> מכונה אייזיק
 					<lb/>קאמארנא :
 				</p>
-				</div><div type="story" xml:id="Eser-Kedushot_0189" n="189" ana="marginal"><head type="storyHead">Eser-Kedushot_0189</head>
+				</div><div type="story" xml:id="Eser-Kedushot_0189" n="189" ana="marginal"><head type="storyHead">Eser-Kedushot_0189</head><span ana="experience:dream; experience:revelation; practice:halakhah; practice:tefillin; ethics-and-emotions:humility; practice:storytelling; supernatural:communicating_with_the_invisible" resp="#llm-tagging">תיוגים</span>
 <p>
 					<lb/>(מו) שם בכתם אופיר בפ׳ ויקר אלו תפילין כ׳ הרה״ק ומענין הפוטרינוק
 					<lb/>שנותנין תחתיו לחיזוק הוא כשר לכתחלה בלי פקפוק וכו' וכן ראיתי
@@ -5178,12 +5178,12 @@
 					<lb/>הרע שלו לעצמך אם כן מה שמדברים עליך הוא אמת וכל זה מן שופט צדק
 					<lb/>ב"ה וב"ש חי וקיים משלם לאיש כדרכיו עכ״ל :
 				</p>
-				</div><div type="story" xml:id="Eser-Kedushot_0190" n="190" ana="marginal"><head type="storyHead">Eser-Kedushot_0190</head>
+				</div><div type="story" xml:id="Eser-Kedushot_0190" n="190" ana="marginal"><head type="storyHead">Eser-Kedushot_0190</head><span ana="not-a-hasidic-story:hagiography" resp="#llm-tagging">תיוגים</span>
 <p>
 					<pb facs="Eser-Kedushot_0100.jpg"/><lb/>(מח) שם פ׳ דברים (י"ח ע"א) וספר החדש נמצא כעת מהקדוש מ<placeName>טשארנאבל</placeName>
 					<lb/>מו"ה <persName>מרדכי</persName> הדבק בו כי הוא כולו קודש קדשים צחצחות :
 				</p>
-				</div><div type="story" xml:id="Eser-Kedushot_0191" n="191" ana="marginal"><head type="storyHead">Eser-Kedushot_0191</head>
+				</div><div type="story" xml:id="Eser-Kedushot_0191" n="191" ana="marginal"><head type="storyHead">Eser-Kedushot_0191</head><span ana="not-a-hasidic-story:sermon" resp="#llm-tagging">תיוגים</span>
 <p>
 					<lb/>(מט) בספרו <name type="work">נוצ"ח על אבות</name> פ"ג מ"ד על הנעור בלילה וזה"ל כי
 					<lb/>מי שרוצה לעבוד הש"י בדביקות ואור אלקי ושמחה
@@ -5386,7 +5386,7 @@
 					<lb/>אשתי כי מלאו ימי ואבואה אליה במספר ברוך שם כבוד מלכותו לעולם ועד
 					<lb/>והוא יחודו של <persName>יעקב</persName> כידוע עכ״ל :
 				</p>
-				</div><div type="story" xml:id="Eser-Kedushot_0192" n="192" ana="marginal"><head type="storyHead">Eser-Kedushot_0192</head>
+				</div><div type="story" xml:id="Eser-Kedushot_0192" n="192" ana="marginal"><head type="storyHead">Eser-Kedushot_0192</head><span ana="experience:revelation; supernatural:communicating_with_the_invisible" resp="#llm-tagging">תיוגים</span>
 <p>
 					<lb/>(סה) שם פ׳ <name type="work">בשלח</name> (צ"ד ב׳) והעידו תלמידי רבינו מרן הק' <persName>ישראל בן אליעזר</persName>
 					<lb/>זצלה"ה שזיככו אותה כל כך עד ששמעו מעמד <placeName>הר סיני</placeName> בקולות
@@ -5395,7 +5395,7 @@
 					<pb facs="Eser-Kedushot_0104.jpg"/><lb/>וברקים וקול שופר חזק מאד ושמעו אנכי ה׳ אלקיך כל הדברות מפי הקב״ה
 					<lb/>עכ״ל
 				</p>
-				</div><div type="story" xml:id="Eser-Kedushot_0193" n="193"><head type="storyHead">Eser-Kedushot_0193</head>
+				</div><div type="story" xml:id="Eser-Kedushot_0193" n="193"><head type="storyHead">Eser-Kedushot_0193</head><span ana="ethics-and-emotions:humility; practice:prayer; ethics-and-emotions:fear; ethics-and-emotions:repentance; folkloristics:story_type_virtues; not-a-hasidic-story:sermon; practice:study" resp="#llm-tagging">תיוגים</span>
 <p>
 					<lb/>(סו) שם <name type="work">פ' תשא</name> (ד׳ רע״ו ע״ב) כמו שהזהיר אותנו רבינו הק' <persName>מוהרי״י מלובלין</persName>
 					<lb/>להשפיל א"ע ולעשות תשובה קודם כל תורה ותפלה כמו ששמע
@@ -5406,7 +5406,7 @@
 					<lb/>אאמין לו על אותו רגע ולא יותר כי בנקל יוכל לדחות ל<placeName>שאול</placeName> תחתית ח״ו
 					<lb/>עכ״ל :
 				</p>
-				</div><div type="story" xml:id="Eser-Kedushot_0194" n="194"><head type="storyHead">Eser-Kedushot_0194</head>
+				</div><div type="story" xml:id="Eser-Kedushot_0194" n="194"><head type="storyHead">Eser-Kedushot_0194</head><span ana="not-a-hasidic-story:sermon; social:conflict; social:relations_with_non_hasidim; ethics-and-emotions:joy; ethics-and-emotions:sadness; practice:devekut; practice:prayer; practice:tefillin" resp="#llm-tagging">תיוגים</span>
 <p>
 					<lb/>(סז) שם <name type="work">פ׳ בחקתי</name> (ד׳ רפ"א ע"א) ובאמת יאמינו לי אחיי ורעיי ידידי עליון כי
 					<lb/>כמה פעמים יעלה נסיונות של אדם וחלישת דעת הרבה מכמה
@@ -5426,7 +5426,7 @@
 					<lb/>תקיימו המצות מעלה אני עליכם כאלו עשיתם עצמיכם שבאמת נעשה ברי'
 					<lb/>חדשה בלא חטא ועון אכי״ר עכ״ל :
 				</p>
-				</div><div type="story" xml:id="Eser-Kedushot_0195" n="195" ana="marginal"><head type="storyHead">Eser-Kedushot_0195</head>
+				</div><div type="story" xml:id="Eser-Kedushot_0195" n="195" ana="marginal"><head type="storyHead">Eser-Kedushot_0195</head><span ana="not-a-hasidic-story:sermon" resp="#llm-tagging">תיוגים</span>
 <p>
 					<lb/>(סח) שם <name type="work">פ׳ ראה</name> (ר' פ"ו ע״א) ואמר לי מורי דודי כי יש הרבה נסיונות העוברות
 					<lb/>על האדם אם יעמוד באהבת רבו צדיק אמת כי העיקר הוא אהבה
@@ -5459,7 +5459,7 @@
 					<lb/>ובכל נפשך בלב אמת דבוק באהבה עזה ובאחדות עם הצדיק יהי' לך תועלת
 					<lb/>גדול ע״כ אמרו לי בחלום עכ״ל :
 				</p>
-				</div><div type="story" xml:id="Eser-Kedushot_0196" n="196"><head type="storyHead">Eser-Kedushot_0196</head>
+				</div><div type="story" xml:id="Eser-Kedushot_0196" n="196"><head type="storyHead">Eser-Kedushot_0196</head><span ana="not-a-hasidic-story:sermon; practice:prayer; practice:torat_ha_tsaddik; supernatural:perception; times:eschatology; characters-and-roles:messiah; ethics-and-emotions:prohibitions; ethics-and-emotions:sadness; practice:the_travels_of_the_tsaddik; social:inter_hasidic_conflict_between_tsaddikim; social:inter_hasidic_master_disciple_relationship; supernatural:prognostication" resp="#llm-tagging">תיוגים</span>
 <p>
 					<lb/>(ע) ב<name type="work">אוצה"ח</name> <name type="work">תצא</name> (דף קל"ד ע״ב) ומעתה תדעו אחיי שעיקר השמירה
 					<lb/>בפה עליון ותחתון ולא כמו שנתפשט מנהג הרע שבכל פנה
@@ -5483,7 +5483,7 @@
 					<lb/>ראש ולענה ותשמור פיך מלדבר סרה אם לא על מפורסם ברשעו ואל תאשים
 					<lb/>אותי שדברתי עד כה מה שאין דרכי כי כך נצטויתי בחלום הלילה עכ״ל :
 				</p>
-				</div><div type="story" xml:id="Eser-Kedushot_0197" n="197" ana="marginal"><head type="storyHead">Eser-Kedushot_0197</head>
+				</div><div type="story" xml:id="Eser-Kedushot_0197" n="197" ana="marginal"><head type="storyHead">Eser-Kedushot_0197</head><span ana="ethics-and-emotions:humility; folkloristics:story_type_death_of_the_tsaddik; practice:sermon; times:death; times:holidays; ethics-and-emotions:pride; not-a-hasidic-story:sermon; practice:devekut" resp="#llm-tagging">תיוגים</span>
 <p>
 					<lb/>(עא) שם ב<name type="work">היכל הברכה</name> פ׳ <name type="work">תצא</name> (דף קכ״ט ע״ב) ובאמת מרן הקדוש הריב״ש
 					<lb/>טוב קודם פטירת נשמתו אמר אל תבואני רגל גאוה ואמר
@@ -5500,7 +5500,7 @@
 					<pb facs="Eser-Kedushot_0106.jpg"/><lb/>קיין משטין ומקטרג אין דיא וועסט זיין דבוק בחיה חיים ובזה יצאה נשמתו ביום
 					<lb/>ראשון של חג השבועות קודם התפלה שנת <date>שכ"ר</date> לפ"ק עכ״ל :
 				</p>
-				</div><div type="story" xml:id="Eser-Kedushot_0198" n="198"><head type="storyHead">Eser-Kedushot_0198</head>
+				</div><div type="story" xml:id="Eser-Kedushot_0198" n="198"><head type="storyHead">Eser-Kedushot_0198</head><span ana="not-a-hasidic-story:hagiography" resp="#llm-tagging">תיוגים</span>
 <p>
 					<lb/>(עב) אמר הכותב והמאסף כל מה שהעתקתי אמרי קדוש אינו רק כטפה מן
 					<lb/>הים הן מספריו הן מ<name type="work">מגלת סתרים</name> ומה אעשה כי אין בכחי
@@ -5632,10 +5632,10 @@
 					<lb/>חמי מו"ה <persName>אברהם מרדכי מ<placeName ana="bio">פינטשוב</placeName></persName> ז"ל שהי׳ תלמיד מובהק של רבינו איש
 					<lb/>אלקים מו"ה <persName>אלימלך מ<placeName ana="bio" ref="#H-LOC_350">ליזענסק</placeName></persName> זי"ע שאמר ששמע מפי רבן רבינו <persName>אלימלך</persName> שאמר
 					<lb/>על הרב <persName>מגיד משנה</persName> שהי׳ אבי זקינו של הרב המחבר הנ"ל שפניו פני שכינה
-					<lb/>ממש. ואני כשהייתי ילד קטן בן י' שנים הייתי עם אבי זצ"ל על ברית מילה
+					<lb/>ממש. </p><div type="story" xml:id="Eser-Kedushot_non-story-280_s1" subtype="in-non-story"><head type="storyHead">Eser-Kedushot_non-story-280_s1</head><span ana="practice:circumcision; supernatural:light_or_fire_as_a_sign_of_righteousness; characters-and-roles:the_family_of_the_tsaddik; ethics-and-emotions:awe; folkloristics:story_type_virtues; practice:devekut; practice:sermon" resp="#llm-tagging">תיוגים</span><p>ואני כשהייתי ילד קטן בן י' שנים הייתי עם אבי זצ"ל על ברית מילה
 					<lb/>והי' שם בנו הרב הגאון החריף מו"ה <persName>יצחק</persName> שהי׳ אבד״ק <placeName>סאמבר</placeName> וראיתי תוארו
 					<lb/>כמלאך אלקים ופניו אנפי שכינתא נהירין באור זך מופלא וכל זה שהלימוד
-					<lb/>שלהם בחריפות וגאונות הי' בדביקות השכינה ובזיכוך החומר ובקדושה גדולה.
+					<lb/>שלהם בחריפות וגאונות הי' בדביקות השכינה ובזיכוך החומר ובקדושה גדולה.</p></div><p>
 					<lb/>והמחבר הזה בנו הגאון הקדוש מו"ה <persName>אברהם</persName> זצ"ל העידו עליו הקדושים מדורות
 					<lb/>שלפני מורי הקדוש מו"ה „<persName>נפתלי מ<placeName ana="bio">ראפשיטץ</placeName></persName>" זי"ע ומורי דודי רבינו „<persName>צבי הירש</persName>"
 					<lb/>מ<placeName ref="#H-LOC_92">זידיטשוב</placeName> הקדוש וגם שאר צדיקים וגאוני <name type="misc">ישראל</name> שהיו בימיו גם צדיקי וגאוני
@@ -5663,7 +5663,7 @@
 					<lb/>לפני ש"ב נכד דודי הרב החסיד המופלג בתורה וביראה ובחכמה כ"ש מוהר״ר
 					<persName><lb/>זלמן ליבר</persName> נר"ו ובידו חיבור שחיבר אבי זקינו איש אלקים קדוש ונורא מפליא
 					<lb/>פלאות כ"ש מו"ה „<persName>אברהם אבלי</persName>" זצוק"ל. הן אמת ניתן לכתוב תורת אמת היתה
-					<lb/>בפי קדוש הזה פלאי פלאות וחיבר על התיקונים פירוש נורא והצדיק הזה הי'
+					<lb/>בפי קדוש הזה פלאי פלאות וחיבר על התיקונים פירוש נורא </p><div type="story" xml:id="Eser-Kedushot_non-story-281_s1" subtype="in-non-story"><head type="storyHead">Eser-Kedushot_non-story-281_s1</head><span ana="characters-and-roles:hidden_righteous; knowledge:esoteric" resp="#llm-tagging">תיוגים</span><p>והצדיק הזה הי'
 					<lb/>נחבא אל הכלים מיקרי דרדקי ולא הכירו אדם ולא ידע מכחו ומקדושתו אלא
 					<lb/>הרב הגאון אבד"ק <placeName>דראהביטש</placeName> שהי׳ בימיו. והוא הי׳ טמון כמוס <sic correction="ועמום">ועמוס</sic>. והוא
 					<lb/>חיבור נורא אין בו דמיונות כמו שיש באיזה מחברים דמיונות וכבר נצטוינו מפי
@@ -5676,7 +5676,7 @@
 					<lb/>דודי איש אלקים קדוש רבינו <persName>צבי מזידיטשוב</persName> בעל המחבר ספר <name type="work">צבי לצדיק</name>
 					<lb/>על <name type="work">הזוהר</name> חיבור יקר ברוח הקודש כמו שראיתי בעיני וכשבא למראה עיניו זה
 					<lb/>החיבור הי' מתמיה ומפליא הרבה על השגת המחבר הזה ושיבח אותו לפני
-					<lb/>תלמידיו הרבה ואמר שבעיניו יפלא לחבר חיבור כזה וכעת בא לפני ש"ב הרב
+					<lb/>תלמידיו הרבה ואמר שבעיניו יפלא לחבר חיבור כזה</p></div><p> וכעת בא לפני ש"ב הרב
 					<lb/>הנ"ל ותבע ממני העני שאתן לו הסכמה על חיבור קדוש הזה אעפ"י שמימי
 					<lb/>לא הסכמתי על חיבורים חדשים שרובם הם דמיונות לא כן חיבור קדוש כזה כי
 					<lb/>דבר קטן וגדול מיוסד על יסודות מרן <persName>האר״י</persName> אדני פז דבריו יקרים מפנינים
@@ -5692,7 +5692,7 @@
 				<p>
 					<lb/>מערכת י. דודינו הרה"ק ר׳ <persName>יודא ליבוש מ<placeName ana="bio">ראזלא</placeName></persName>.
 				</p>
-				</div><div type="story" xml:id="Eser-Kedushot_0199" n="199"><head type="storyHead">Eser-Kedushot_0199</head>
+				</div><div type="story" xml:id="Eser-Kedushot_0199" n="199"><head type="storyHead">Eser-Kedushot_0199</head><span ana="not-a-hasidic-story:halakhah" resp="#llm-tagging">תיוגים</span>
 <p>
 					<lb/>[י] (יא) דוד״ז הרב הצדיק עובד ה׳ בקדושה מו"ה <persName>יודא ליבוש</persName> הנז' אשר
 					<lb/>הי' חתנו של רבינו <persName>צבי מ<placeName ana="bio" ref="#H-LOC_92">זידיטשוב</placeName></persName> כי לקח לאשה את בתו
@@ -5704,7 +5704,7 @@
 					<lb/>כחלק. ואפילו במלבושי ב"ב נהג את מלבושי ב"ב של דודינו הרה״ק <persName>מוהרי"ל</persName>
 					<lb/>הנז' בשוה בלי שום חילוק. ואהבתם אותן בהפלגה :
 				</p>
-				</div><div type="story" xml:id="Eser-Kedushot_0200" n="200"><head type="storyHead">Eser-Kedushot_0200</head>
+				</div><div type="story" xml:id="Eser-Kedushot_0200" n="200"><head type="storyHead">Eser-Kedushot_0200</head><span ana="characters-and-roles:the_family_of_the_tsaddik; folkloristics:story_type_virtues; practice:asceticism; practice:solitude; practice:tefillin; women:mention_only; ethics-and-emotions:virtues; social:marriage" resp="#llm-tagging">תיוגים</span>
 <p>
 					<lb/>(ב) נכדו של הרה״ק <persName>רי"צ</persName> הז׳ [בן בנו יחידו הרב החסיד מו"ה <persName>צבי הירש</persName>
 					<lb/>שליט"א המוזכר לעיל במערכת רבינו <persName>צבי מ<placeName ana="bio" ref="#H-LOC_92">זידיטשוב</placeName></persName> אות מ"ב איך
@@ -5718,7 +5718,7 @@
 					<lb/>תמים וצמצם דיבוריו מאד מאד ולא עשה בזה העולם שום התחברות עם בני אדם
 					<lb/>והי׳ כל ימיו רק מתבודד במועדו :
 				</p>
-				</div><div type="story" xml:id="Eser-Kedushot_0201" n="201"><head type="storyHead">Eser-Kedushot_0201</head>
+				</div><div type="story" xml:id="Eser-Kedushot_0201" n="201"><head type="storyHead">Eser-Kedushot_0201</head><span ana="characters-and-roles:the_family_of_the_tsaddik; ethics-and-emotions:punishment; social:retrospective_recognition; spaces:beth_midrash; times:death; women:minor_character; ethics-and-emotions:awe; ethics-and-emotions:fear; ethics-and-emotions:repentance; practice:torat_ha_tsaddik; supernatural:perception" resp="#llm-tagging">תיוגים</span>
 <p>
 					<lb/>(ג) עוד כתב לי נכדו הרב הגדול הנ"ל שליט״א וזה"ל. אבי זקיני הרה״ק ר'
 					<persName><lb/>יודא ליבוש</persName> ז"ל הי' בנו של הרב הנורא ר׳ אברהם משה <sic correction="מאוסטרא">מאסטרא</sic><anchor xml:id="ner_283806_283822"/>
@@ -5739,7 +5739,7 @@
 					<lb/>שפייסו של"ח גם השלישי ר"ל ונשארה רק בתו <persName>מינדל</persName> מהארבעה ילדים שהי׳ לו.
 					<lb/>תסמר שערות ראש :
 				</p>
-				</div><div type="story" xml:id="Eser-Kedushot_0202" n="202"><head type="storyHead">Eser-Kedushot_0202</head>
+				</div><div type="story" xml:id="Eser-Kedushot_0202" n="202"><head type="storyHead">Eser-Kedushot_0202</head><span ana="not-a-hasidic-story:hagiography" resp="#llm-tagging">תיוגים</span>
 <p>
 					<lb/>(ד) בתו אחת של הרה״צ ר׳ <persName>יודא ליבוש</persName> הנ"ל הצדיקת מרת <persName>גיטל</persName> תחי׳ עודנה
 					<lb/>ב<placeName ref="#H-LOC_105">אה״ק</placeName> היתה אשת הרב ר׳ <persName>דוד יעקב</persName> ז"ל בהרב הצדיק עובד ה׳

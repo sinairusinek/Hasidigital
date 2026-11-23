@@ -1,0 +1,108 @@
+{
+ "unit": {
+  "kind": "hasidic_story",
+  "why": "An anecdote: the Shidlovtse rebbe, spending Shabbat with the Sanzer rav and ordered to say Torah, gets out of it with a homily on 'it is better to hear than to speak'.",
+  "boundary_note": "Numbered item א) in a series of teachings; next division (ב) continues with a pure teaching of the same rebbe."
+ },
+ "stories": [
+  {
+   "k": 1,
+   "start_quote": "פ\"א שבת אדומ\"ו משידלאויצי זצ\"ל אצל",
+   "end_quote": "יצא ידי שניהם יהבן ודפח״ח",
+   "hasidic": true,
+   "summary_en": "When the rebbe of Shidlovtse spent Shabbat with the Sanzer rav and was ordered to say Torah, he did not want to disobey or to speak at his host's table, so he expounded 'Moses heard and it was good in his eyes' as meaning that listening to Torah is better than saying it, fulfilling both obligations at once.",
+   "tags": [
+    {
+     "tag": "practice:travel_to_other_tsaddik",
+     "scope": "span",
+     "quotes": [
+      "כדרכו בקודש להיות שם כפעם בפעם"
+     ],
+     "confidence": 3,
+     "why": "One tsaddik regularly visits another tsaddik's court.",
+     "quotes_failed": false
+    },
+    {
+     "tag": "times:shabbat",
+     "scope": "span",
+     "quotes": [
+      "פ\"א שבת אדומ\"ו משידלאויצי זצ\"ל אצל"
+     ],
+     "confidence": 3,
+     "why": "Set at a Shabbat stay and table.",
+     "quotes_failed": false
+    },
+    {
+     "tag": "practice:sermon",
+     "scope": "span",
+     "quotes": [
+      "ואמר על פסוק (פ׳ שמיני) וישמע משה וייטב בעיניו"
+     ],
+     "confidence": 3,
+     "why": "The story's core is a Torah discourse given at the table.",
+     "quotes_failed": false
+    },
+    {
+     "tag": "ethics-and-emotions:humility",
+     "scope": "span",
+     "quotes": [
+      "הי׳ קשה לו לומר תורה על שולחן הה״ק",
+      "טוב יותר לשמוע ד״ת מלומר בעצמו"
+     ],
+     "confidence": 3,
+     "why": "He defers to the host tsaddik and holds listening above preaching.",
+     "quotes_failed": false
+    },
+    {
+     "tag": "folkloristics:story_type_virtues",
+     "scope": "story",
+     "quotes": [],
+     "confidence": 2,
+     "why": "Illustrates his humility and wisdom.",
+     "quotes_failed": false
+    },
+    {
+     "tag": "social:inter_hasidic",
+     "scope": "story",
+     "quotes": [],
+     "confidence": 2,
+     "why": "An exchange between two tsaddikim at a court.",
+     "quotes_failed": false
+    },
+    {
+     "tag": "spaces:institutions_hassidic_court",
+     "scope": "span",
+     "quotes": [
+      "לומר תורה על שולחן הה״ק"
+     ],
+     "confidence": 2,
+     "why": "The scene is the Sanzer tish.",
+     "quotes_failed": false
+    },
+    {
+     "tag": "not-a-hasidic-story:sermon",
+     "scope": "story",
+     "quotes": [],
+     "confidence": 1,
+     "why": "Thin narrative wrapped around an exegetical teaching.",
+     "quotes_failed": false
+    }
+   ],
+   "missing_concepts": [
+    "the tish (tsaddik's table) as a setting",
+    "a guest tsaddik's etiquette: deference to the host tsaddik",
+    "a clever solution to a dilemma"
+   ],
+   "start_quote_found": true,
+   "end_quote_found": true
+  }
+ ],
+ "check": {
+  "non_vocab_tags": [],
+  "quotes": 6,
+  "quotes_not_found": 0
+ },
+ "id": "Tiferet-Hayyim_0020",
+ "chars": 578,
+ "seconds": 14
+}

@@ -1,0 +1,113 @@
+{
+ "unit": {
+  "kind": "hasidic_story",
+  "why": "A homily from Divrei Shmuel on joyful repentance versus sadness, with one short memorate in which the author's father rebukes him for being sad; the anecdote is wrapped in a teaching frame.",
+  "boundary_note": ""
+ },
+ "stories": [
+  {
+   "k": 1,
+   "start_quote": "ובס׳ ד״ש (פ׳ ויגש) וז״ל ועתה",
+   "end_quote": "שהוא רק מניעה לעבודה :",
+   "hasidic": true,
+   "summary_en": "Expounding 've-atah al te'atzvu' to mean that repentance must come with joy, the author gives his grandfather's sign for telling a broken heart from sadness. He recalls that his father once rebuked him harshly for his sadness, more than for worse faults, because sadness is never repented of. He adds sayings of R. Mordechai of Lechovitch and R. Aharon that sadness is itself a sin, like anger.",
+   "tags": [
+    {
+     "tag": "not-a-hasidic-story:sermon",
+     "scope": "story",
+     "quotes": [],
+     "confidence": 3,
+     "why": "Mainly exegesis and ethical teaching; the short anecdote is embedded in it",
+     "quotes_failed": false
+    },
+    {
+     "tag": "ethics-and-emotions:sadness",
+     "scope": "span",
+     "quotes": [
+      "שהייתי בעצבות והוכיח אותי מאד",
+      "כי עצבות ומ״ש הוא בעצם עבירה כמו כעס"
+     ],
+     "confidence": 3,
+     "why": "Sadness as a spiritual failing is the central theme",
+     "quotes_failed": false
+    },
+    {
+     "tag": "ethics-and-emotions:repentance",
+     "scope": "span",
+     "quotes": [
+      "אין ועתה אלא תשובה אל תעצבו",
+      "ע״ז לא תעשה תשובה ולא תתחרט"
+     ],
+     "confidence": 3,
+     "why": "Discusses the right manner of repentance",
+     "quotes_failed": false
+    },
+    {
+     "tag": "ethics-and-emotions:joy",
+     "scope": "span",
+     "quotes": [
+      "כי התשובה צ״ל בשמחה"
+     ],
+     "confidence": 2,
+     "why": "Repentance must be done in joy",
+     "quotes_failed": false
+    },
+    {
+     "tag": "ethics-and-emotions:anger",
+     "scope": "span",
+     "quotes": [
+      "הוא בעצבות הוא בכעס על כל העולם",
+      "הוא מלא כעס על מה שמבלבלין אותו"
+     ],
+     "confidence": 2,
+     "why": "Anger is given as the sign of sadness",
+     "quotes_failed": false
+    },
+    {
+     "tag": "characters-and-roles:the_family_of_the_tsaddik",
+     "scope": "span",
+     "quotes": [
+      "ופ״א ראה אותי א״מ ז״ל"
+     ],
+     "confidence": 3,
+     "why": "The author's father rebukes his son, and the grandfather's teachings are cited",
+     "quotes_failed": false
+    },
+    {
+     "tag": "practice:sermon",
+     "scope": "span",
+     "quotes": [
+      "אאמו״ר הה״ק מוהרב״מ נ״ע אמר ועתה"
+     ],
+     "confidence": 2,
+     "why": "A tsaddik's exegesis of a verse is quoted",
+     "quotes_failed": false
+    },
+    {
+     "tag": "social:inter_hasidic_master_disciple_relationship",
+     "scope": "span",
+     "quotes": [
+      "למה אתה מוכיח אותי כ״כ על דבר זה"
+     ],
+     "confidence": 1,
+     "why": "Father acts as spiritual guide rebuking his son",
+     "quotes_failed": false
+    }
+   ],
+   "missing_concepts": [
+    "rebuke / moral reproof (tokhaha)",
+    "broken-heartedness (lev nishbar) distinguished from sadness"
+   ],
+   "start_quote_found": true,
+   "end_quote_found": true
+  }
+ ],
+ "check": {
+  "non_vocab_tags": [],
+  "quotes": 10,
+  "quotes_not_found": 0
+ },
+ "id": "Derech-Haemuna_0225",
+ "chars": 917,
+ "seconds": 18
+}

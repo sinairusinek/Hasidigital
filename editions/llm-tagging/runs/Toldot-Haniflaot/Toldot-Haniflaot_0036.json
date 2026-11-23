@@ -1,0 +1,112 @@
+{
+ "unit": {
+  "kind": "hasidic_story",
+  "why": "A short memorate: R. Zeev of Józefów travels to the rebbe in Mogielnica in the war year 1831, is delayed by danger from troops, and the rebbe tells him he knew of the journey and protected him.",
+  "boundary_note": ""
+ },
+ "stories": [
+  {
+   "k": 1,
+   "start_quote": "שמעתי מהרב הגאון הצדיק ר׳ זאב מיוזעפאף",
+   "end_quote": "ואני שומרו ומצילו מפגעי הדרך",
+   "hasidic": true,
+   "summary_en": "During the turmoil of 1831, R. Zeev of Józefów travelled from Warsaw to Mogielnica, was held up two days by danger from troops, and on arrival the rebbe told him he knows of everyone who sets out to him and guards them from the dangers of the road.",
+   "tags": [
+    {
+     "tag": "practice:travel_to_the_tsaddik",
+     "scope": "span",
+     "quotes": [
+      "ונסע אז מווארשא (כי אז היה דר שם) למאגלניצא",
+      "משנסע מביתו לבוא אלי, יודע אני בו"
+     ],
+     "confidence": 3,
+     "why": "A hasid journeys to the rebbe's court.",
+     "quotes_failed": false
+    },
+    {
+     "tag": "times:historical_event",
+     "scope": "span",
+     "quotes": [
+      "בשנת תקצ״א כשהיה חירום בעולם",
+      "מפני סכנת גייסות"
+     ],
+     "confidence": 3,
+     "why": "The 1830–31 uprising and war frame the journey.",
+     "quotes_failed": false
+    },
+    {
+     "tag": "supernatural:perception",
+     "scope": "span",
+     "quotes": [
+      "אמר לו כי הי׳ יודע מנסיעתו",
+      "יודע אני בו"
+     ],
+     "confidence": 3,
+     "why": "The rebbe knew of the journey from a distance.",
+     "quotes_failed": false
+    },
+    {
+     "tag": "practice:protection",
+     "scope": "span",
+     "quotes": [
+      "ואני שומרו ומצילו מפגעי הדרך"
+     ],
+     "confidence": 3,
+     "why": "The rebbe shields travellers from harm.",
+     "quotes_failed": false
+    },
+    {
+     "tag": "folkloristics:story_type_protection",
+     "scope": "story",
+     "quotes": [],
+     "confidence": 2,
+     "why": "The point of the story is the tzaddik's protection on a dangerous journey.",
+     "quotes_failed": false
+    },
+    {
+     "tag": "practice:torat_ha_tsaddik",
+     "scope": "span",
+     "quotes": [
+      "וכ״א משנסע מביתו לבוא אלי, יודע אני בו"
+     ],
+     "confidence": 2,
+     "why": "States the tzaddik's power over, and care for, all who come to him.",
+     "quotes_failed": false
+    },
+    {
+     "tag": "practice:reception_of_hasidim",
+     "scope": "span",
+     "quotes": [
+      "וכשבא למרן ז״ל אמר לו"
+     ],
+     "confidence": 1,
+     "why": "The rebbe greets the arriving visitor.",
+     "quotes_failed": false
+    },
+    {
+     "tag": "practice:storytelling",
+     "scope": "span",
+     "quotes": [
+      "שמעתי מהרב הגאון הצדיק ר׳ זאב מיוזעפאף, שסיפר"
+     ],
+     "confidence": 1,
+     "why": "The story is framed as told by a named tzaddik.",
+     "quotes_failed": false
+    }
+   ],
+   "missing_concepts": [
+    "danger of the road / wartime travel hazards"
+   ],
+   "start_quote_found": true,
+   "end_quote_found": true
+  }
+ ],
+ "check": {
+  "non_vocab_tags": [],
+  "quotes": 10,
+  "quotes_not_found": 0
+ },
+ "id": "Toldot-Haniflaot_0036",
+ "chars": 298,
+ "seconds": 16
+}

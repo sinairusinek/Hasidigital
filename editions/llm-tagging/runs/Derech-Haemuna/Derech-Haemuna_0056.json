@@ -1,0 +1,122 @@
+{
+ "unit": {
+  "kind": "hasidic_story",
+  "why": "A short anecdote told by the Neskhiz rebbe about being rebuked by his father as a child for drinking against his instruction.",
+  "boundary_note": "the closing heading 'מענין דיבור' belongs to the next division"
+ },
+ "stories": [
+  {
+   "k": 1,
+   "start_quote": "ובס׳ ז״ט וז״ל סיפר מרן נעסכיז",
+   "end_quote": "הדברים היטב אל לבבי שלא לשוכחם",
+   "hasidic": true,
+   "summary_en": "The Neskhiz rebbe recalled that as a child he drank after eating fish against his father's order to wait. His father rebuked him: if he could not master a small craving now, how would he master greater desires later? He wept and kept the lesson all his life.",
+   "tags": [
+    {
+     "tag": "characters-and-roles:the_family_of_the_tsaddik",
+     "scope": "span",
+     "quotes": [
+      "ישב בסעודה לפני אביו זללה״ה"
+     ],
+     "confidence": 3,
+     "why": "The tzaddik's father is the rebuking character.",
+     "quotes_failed": false
+    },
+    {
+     "tag": "ethics-and-emotions:lust",
+     "scope": "span",
+     "quotes": [
+      "עתה אתה קטן ותאב לזה",
+      "ולא תגביר א״ע לשבור תאוותיך"
+     ],
+     "confidence": 3,
+     "why": "Mastering desire is the story's point.",
+     "quotes_failed": false
+    },
+    {
+     "tag": "social:disobedience",
+     "scope": "span",
+     "quotes": [
+      "וכשפנה אביו ממנו לקח ושתה"
+     ],
+     "confidence": 3,
+     "why": "The child disobeys his father's instruction.",
+     "quotes_failed": false
+    },
+    {
+     "tag": "ethics-and-emotions:prohibitions",
+     "scope": "span",
+     "quotes": [
+      "וציוה אביו להמתין קצת"
+     ],
+     "confidence": 2,
+     "why": "He is told not to drink and violates the instruction.",
+     "quotes_failed": false
+    },
+    {
+     "tag": "ethics-and-emotions:resisting_temptation",
+     "scope": "span",
+     "quotes": [
+      "ולא תגביר א״ע לשבור תאוותיך"
+     ],
+     "confidence": 2,
+     "why": "The lesson is about overcoming cravings.",
+     "quotes_failed": false
+    },
+    {
+     "tag": "ethics-and-emotions:repentance",
+     "scope": "span",
+     "quotes": [
+      "והתחלתי לבכות מאד ומאד",
+      "ושמתי את דברי על לבבי לזכרון תמיד"
+     ],
+     "confidence": 2,
+     "why": "He weeps and takes the rebuke to heart for good.",
+     "quotes_failed": false
+    },
+    {
+     "tag": "practice:storytelling",
+     "scope": "span",
+     "quotes": [
+      "סיפר מרן נעסכיז זללה״ה שבילדותו"
+     ],
+     "confidence": 2,
+     "why": "The story is framed as told by a named tzaddik.",
+     "quotes_failed": false
+    },
+    {
+     "tag": "practice:drinking_alcohol",
+     "scope": "span",
+     "quotes": [
+      "ורצה לשתות אחר מאכל דגים"
+     ],
+     "confidence": 1,
+     "why": "Drinking after fish is probably a customary drink, but the text does not specify the drink.",
+     "quotes_failed": false
+    },
+    {
+     "tag": "women:mention_only",
+     "scope": "story",
+     "quotes": [],
+     "confidence": 1,
+     "why": "No women appear in the story; this is the closest available women label.",
+     "quotes_failed": false
+    }
+   ],
+   "missing_concepts": [
+    "childhood of a tzaddik",
+    "parental rebuke / moral education of children"
+   ],
+   "start_quote_found": true,
+   "end_quote_found": true
+  }
+ ],
+ "check": {
+  "non_vocab_tags": [],
+  "quotes": 10,
+  "quotes_not_found": 0
+ },
+ "id": "Derech-Haemuna_0056",
+ "chars": 372,
+ "seconds": 17
+}

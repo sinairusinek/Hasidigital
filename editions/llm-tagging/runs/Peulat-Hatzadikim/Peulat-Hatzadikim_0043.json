@@ -1,0 +1,90 @@
+{
+ "unit": {
+  "kind": "hasidic_story",
+  "why": "A short anecdote: the Apter Rebbe shows great honour to the young Ruzhiner, onlookers wonder at it, and he explains himself with a midrash and an oath.",
+  "boundary_note": ""
+ },
+ "stories": [
+  {
+   "k": 1,
+   "start_quote": "הה״ק מאפטא ז\"ל עשה כבוד גדול",
+   "end_quote": "נשבע אני בזקני כי המדרש כוון עליו",
+   "hasidic": true,
+   "summary_en": "The Apter Rebbe pays great honour to the young Rebbe of Ruzhin and, when people wonder at it, cites a midrash about those who will sit with the Patriarchs in the future world and swears by his beard that it refers to him.",
+   "tags": [
+    {
+     "tag": "social:inter_hasidic",
+     "scope": "span",
+     "quotes": [
+      "עשה כבוד גדול להה״ק מריזין בעודנו צעיר לימים"
+     ],
+     "confidence": 2,
+     "why": "An elder tsaddik honours a younger tsaddik.",
+     "quotes_failed": false
+    },
+    {
+     "tag": "practice:sermon",
+     "scope": "span",
+     "quotes": [
+      "איתא במדרש לעתיד לבא עתידין לחיות תמהין"
+     ],
+     "confidence": 2,
+     "why": "The Apter Rebbe answers with a quoted midrash he applies as a teaching.",
+     "quotes_failed": false
+    },
+    {
+     "tag": "times:eschatology",
+     "scope": "span",
+     "quotes": [
+      "והרי הוא יושב עם האבות ומסיח מהן"
+     ],
+     "confidence": 2,
+     "why": "The midrash concerns the righteous in the world to come.",
+     "quotes_failed": false
+    },
+    {
+     "tag": "supernatural:perception",
+     "scope": "span",
+     "quotes": [
+      "נשבע אני בזקני כי המדרש כוון עליו"
+     ],
+     "confidence": 1,
+     "why": "He discerns the young man's exalted soul-level, which others cannot see.",
+     "quotes_failed": false
+    },
+    {
+     "tag": "folkloristics:story_type_virtues",
+     "scope": "story",
+     "quotes": [],
+     "confidence": 2,
+     "why": "The tale's point is to praise the Ruzhiner's greatness.",
+     "quotes_failed": false
+    },
+    {
+     "tag": "ethics-and-emotions:awe",
+     "scope": "span",
+     "quotes": [
+      "והי׳ לפלא בעיני כל הרואים"
+     ],
+     "confidence": 1,
+     "why": "Onlookers wonder at the honour shown; this borders on reverence for the tsaddik.",
+     "quotes_failed": false
+    }
+   ],
+   "missing_concepts": [
+    "honour shown by an elder tsaddik to a young one",
+    "oath by one's beard"
+   ],
+   "start_quote_found": true,
+   "end_quote_found": true
+  }
+ ],
+ "check": {
+  "non_vocab_tags": [],
+  "quotes": 5,
+  "quotes_not_found": 0
+ },
+ "id": "Peulat-Hatzadikim_0043",
+ "chars": 349,
+ "seconds": 12
+}

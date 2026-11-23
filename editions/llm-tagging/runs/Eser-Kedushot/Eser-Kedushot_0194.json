@@ -1,0 +1,133 @@
+{
+ "unit": {
+  "kind": "hasidic_story",
+  "why": "A homiletic passage built around brief anecdotal exempla: the Besht nearly falling from his level through the 'erev rav', R. Levi Yitzhak of Berdichev falling from his level for half a year through persecution by opponents (with the Maggid of Kozienice's comment), and the author's own experience of renewal through tefillin and prayer.",
+  "boundary_note": "narrative is minimal and wrapped in an extended homiletic frame; borderline with saying_or_teaching"
+ },
+ "stories": [
+  {
+   "k": 1,
+   "start_quote": "ובאמת יאמינו לי אחיי ורעיי ידידי עליון",
+   "end_quote": "נעשה ברי' חדשה בלא חטא ועון אכי״ר",
+   "hasidic": true,
+   "summary_en": "The author teaches that tests and despondency come upon the righteous. His examples are the Besht, who nearly fell from his level through the 'erev rav' and was strengthened from Heaven, and R. Levi Yitzhak of Berdichev, who fell from his level for over half a year through persecution by opponents. The Maggid of Kozienice explains that Levi Yitzhak did this on purpose to bring down the heavenly princes. The author then tells how he himself was renewed through tefillin, prayer and study.",
+   "tags": [
+    {
+     "tag": "not-a-hasidic-story:sermon",
+     "scope": "story",
+     "quotes": [],
+     "confidence": 3,
+     "why": "The anecdotes serve a homily on tests and on a verse/midrash about R. Hanina bar Papa",
+     "quotes_failed": false
+    },
+    {
+     "tag": "social:relations_with_non_hasidim",
+     "scope": "span",
+     "quotes": [
+      "וכן הי' לכל הצדיקים אמיתים ע״י אנשים מתנגדים"
+     ],
+     "confidence": 3,
+     "why": "Persecution of tsaddikim by mitnagdim",
+     "quotes_failed": false
+    },
+    {
+     "tag": "social:conflict",
+     "scope": "span",
+     "quotes": [
+      "וע״י רדיפות נפל ממדריגתו יותר מחצי השנה"
+     ],
+     "confidence": 3,
+     "why": "Persecution of Levi Yitzhak",
+     "quotes_failed": false
+    },
+    {
+     "tag": "ethics-and-emotions:sadness",
+     "scope": "span",
+     "quotes": [
+      "שעבר עליו חלישת דעת מערב רב",
+      "ופעם אחת נחלש דעתו מאד"
+     ],
+     "confidence": 2,
+     "why": "Despondency (חלישת דעת) as a spiritual danger",
+     "quotes_failed": false
+    },
+    {
+     "tag": "social:inter_hasidic_master_disciple_relationship",
+     "scope": "span",
+     "quotes": [
+      "ואמר תלמידו רבינו הקדוש מו\"ה ישראל מגיד מקאזניץ"
+     ],
+     "confidence": 1,
+     "why": "A disciple interprets his master's fall",
+     "quotes_failed": false
+    },
+    {
+     "tag": "spaces:heaven",
+     "scope": "span",
+     "quotes": [
+      "שגירה עצמו עם השרים שלמעלה להפילם"
+     ],
+     "confidence": 1,
+     "why": "Struggle with the heavenly princes",
+     "quotes_failed": false
+    },
+    {
+     "tag": "practice:tefillin",
+     "scope": "span",
+     "quotes": [
+      "וברגע בהנחת תפילין ציצית וק\"ש ותפלה"
+     ],
+     "confidence": 2,
+     "why": "Putting on tefillin brings the author renewal",
+     "quotes_failed": false
+    },
+    {
+     "tag": "practice:prayer",
+     "scope": "span",
+     "quotes": [
+      "בהנחת תפילין ציצית וק\"ש ותפלה או לימוד תורה"
+     ],
+     "confidence": 2,
+     "why": "Prayer as the occasion of renewal",
+     "quotes_failed": false
+    },
+    {
+     "tag": "practice:devekut",
+     "scope": "span",
+     "quotes": [
+      "הטעימו לי טעם אור עליון מתוק",
+      "עד שבטלה ממני כל המורגש של עוה״ז"
+     ],
+     "confidence": 2,
+     "why": "Rapt absorption that cancels worldly perception",
+     "quotes_failed": false
+    },
+    {
+     "tag": "ethics-and-emotions:joy",
+     "scope": "span",
+     "quotes": [
+      "באור פנים ובלב שמח בשמחה ובטוב לבב"
+     ],
+     "confidence": 2,
+     "why": "Religious joy after renewal",
+     "quotes_failed": false
+    }
+   ],
+   "missing_concepts": [
+    "spiritual tests (nisyonot) and falling from one's spiritual level (yerida)",
+    "the 'erev rav' as opponents",
+    "the author's first-person testimony"
+   ],
+   "start_quote_found": true,
+   "end_quote_found": true
+  }
+ ],
+ "check": {
+  "non_vocab_tags": [],
+  "quotes": 11,
+  "quotes_not_found": 0
+ },
+ "id": "Eser-Kedushot_0194",
+ "chars": 1066,
+ "seconds": 22
+}

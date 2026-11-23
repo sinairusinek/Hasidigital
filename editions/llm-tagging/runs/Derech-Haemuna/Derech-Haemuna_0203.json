@@ -1,0 +1,163 @@
+{
+ "unit": {
+  "kind": "non_hasidic_story",
+  "why": "A tale about the Shelah (R. Isaiah Horowitz, pre-Hasidic) and his student who became a robber chief and repented; it is framed as told by the Hasidic master of Neskhiz.",
+  "boundary_note": ""
+ },
+ "stories": [
+  {
+   "k": 1,
+   "start_quote": "מרן מנסכיז היה מפליא מאד לימוד",
+   "end_quote": "ע״י תשובה זו נעשה צדיק גמור",
+   "hasidic": false,
+   "summary_en": "The Shelah's student is struck by his master and runs away to become a robber chief. The Shelah later strays into his forest hideout, and the student threatens to kill him unless he gives him a penance. The Shelah prescribes a snake to be fed for seven years until it kills him, and through this the student becomes a perfect tzaddik.",
+   "tags": [
+    {
+     "tag": "not-a-hasidic-story:hagiography",
+     "scope": "story",
+     "quotes": [],
+     "confidence": 3,
+     "why": "Praises the Shelah, a pre-Hasidic authority.",
+     "quotes_failed": false
+    },
+    {
+     "tag": "practice:storytelling",
+     "scope": "span",
+     "quotes": [
+      "וסיפר ממני מעשה שהיה להשל\"ה ז״ל"
+     ],
+     "confidence": 2,
+     "why": "The tale is framed as told by the tzaddik of Neskhiz.",
+     "quotes_failed": false
+    },
+    {
+     "tag": "ethics-and-emotions:repentance",
+     "scope": "span",
+     "quotes": [
+      "ואם החזירני בתשובה מוטב ואם להו אהרגך",
+      "ע״י תשובה זו נעשה צדיק גמור"
+     ],
+     "confidence": 3,
+     "why": "The robber chief repents.",
+     "quotes_failed": false
+    },
+    {
+     "tag": "practice:healing_of_the_soul",
+     "scope": "span",
+     "quotes": [
+      "וזה יהיה לו לכפרה"
+     ],
+     "confidence": 3,
+     "why": "The Shelah prescribes an atonement that repairs the sinner's soul.",
+     "quotes_failed": false
+    },
+    {
+     "tag": "practice:asceticism",
+     "scope": "span",
+     "quotes": [
+      "ולהאכילו בכל יום שבע שנים מכל מאכל ומשקה"
+     ],
+     "confidence": 2,
+     "why": "A seven-year penitential self-mortification.",
+     "quotes_failed": false
+    },
+    {
+     "tag": "ethics-and-emotions:anger",
+     "scope": "span",
+     "quotes": [
+      "הכהו השל\"ה וקרע באזנו"
+     ],
+     "confidence": 2,
+     "why": "The master strikes his student in a heated moment.",
+     "quotes_failed": false
+    },
+    {
+     "tag": "practice:study",
+     "scope": "span",
+     "quotes": [
+      "העמיק במחשבתו בלימודו ותעה ביער"
+     ],
+     "confidence": 2,
+     "why": "Study at the yeshiva and the Shelah absorbed in learning.",
+     "quotes_failed": false
+    },
+    {
+     "tag": "spaces:beth_midrash",
+     "scope": "span",
+     "quotes": [
+      "תלמיד בישיבתו והקשה לשמוע"
+     ],
+     "confidence": 2,
+     "why": "The Shelah's yeshiva is the opening setting.",
+     "quotes_failed": false
+    },
+    {
+     "tag": "social:relations_with_sinners",
+     "scope": "span",
+     "quotes": [
+      "ונתחבר לגזלנים ונעשה להם ריש בריוני"
+     ],
+     "confidence": 3,
+     "why": "The sage deals with a robber chief.",
+     "quotes_failed": false
+    },
+    {
+     "tag": "social:conflict",
+     "scope": "span",
+     "quotes": [
+      "ואם להו אהרגך"
+     ],
+     "confidence": 2,
+     "why": "The student threatens to kill his master.",
+     "quotes_failed": false
+    },
+    {
+     "tag": "social:retrospective_recognition",
+     "scope": "span",
+     "quotes": [
+      "תדע שאני תלמידך פלוני ולסימן"
+     ],
+     "confidence": 2,
+     "why": "The Shelah belatedly learns that his host is his former student.",
+     "quotes_failed": false
+    },
+    {
+     "tag": "times:shabbat",
+     "scope": "span",
+     "quotes": [
+      "והיה שם בש״ק ולאחר ש״ק"
+     ],
+     "confidence": 2,
+     "why": "He stays with the robbers over Shabbat.",
+     "quotes_failed": false
+    },
+    {
+     "tag": "ethics-and-emotions:punishment",
+     "scope": "span",
+     "quotes": [
+      "ולאח״כ יקום הנחש ויהרגהו"
+     ],
+     "confidence": 2,
+     "why": "Death by the snake as expiation for his sins.",
+     "quotes_failed": false
+    }
+   ],
+   "missing_concepts": [
+    "robbers / bandits in the forest",
+    "penance (tikkun teshuvah) prescribed by a sage",
+    "getting lost in the forest by divine providence",
+    "corporal punishment of a student by his teacher"
+   ],
+   "start_quote_found": true,
+   "end_quote_found": true
+  }
+ ],
+ "check": {
+  "non_vocab_tags": [],
+  "quotes": 13,
+  "quotes_not_found": 0
+ },
+ "id": "Derech-Haemuna_0203",
+ "chars": 669,
+ "seconds": 19
+}

@@ -1,0 +1,114 @@
+{
+ "unit": {
+  "kind": "hasidic_story",
+  "why": "A short anecdote: a butcher consults the Seer of Lublin about his animals, and the Seer tells from written descriptions which are kosher and which are treif.",
+  "boundary_note": ""
+ },
+ "stories": [
+  {
+   "k": 1,
+   "start_quote": "פ״א בא הטבח ושאל עצה כדת",
+   "end_quote": "כי תורה היא ולא בשמים היא",
+   "hasidic": true,
+   "summary_en": "A butcher asks the holy rabbi of Lublin whether to slaughter his animals for the festival or sell them for fear of treifot; from written descriptions the rabbi declares each one kosher or treif, except one that will raise a doubtful question he cannot foresee, since the Torah 'is not in heaven'.",
+   "tags": [
+    {
+     "tag": "characters-and-roles:ritual_slaughterer",
+     "scope": "span",
+     "quotes": [
+      "בא הטבח ושאל עצה כדת מה לעשות"
+     ],
+     "confidence": 2,
+     "why": "the butcher who slaughters the animals is the protagonist",
+     "quotes_failed": false
+    },
+    {
+     "tag": "practice:ritual_slaughtering",
+     "scope": "span",
+     "quotes": [
+      "אם לשוחטם על החג או ימכרם",
+      "כי לבו יפחד פן ימצא טריפות"
+     ],
+     "confidence": 3,
+     "why": "slaughter and the kashrut of the animals (treifot) is the subject",
+     "quotes_failed": false
+    },
+    {
+     "tag": "practice:business_advice",
+     "scope": "span",
+     "quotes": [
+      "ושאל עצה כדת מה לעשות בבהמות",
+      "אם לשוחטם על החג או ימכרם"
+     ],
+     "confidence": 3,
+     "why": "the butcher asks whether to slaughter or sell his stock",
+     "quotes_failed": false
+    },
+    {
+     "tag": "supernatural:perception",
+     "scope": "span",
+     "quotes": [
+      "ויאמר על כל בהמה זו כשרה או טרפה"
+     ],
+     "confidence": 3,
+     "why": "the rabbi knows the inner state of the animals from written descriptions",
+     "quotes_failed": false
+    },
+    {
+     "tag": "supernatural:prognostication",
+     "scope": "span",
+     "quotes": [
+      "זו ימצא בה שאלה ואינו יודע"
+     ],
+     "confidence": 2,
+     "why": "he foretells what will be found in each animal",
+     "quotes_failed": false
+    },
+    {
+     "tag": "practice:halakhah",
+     "scope": "span",
+     "quotes": [
+      "ואינו יודע אם יפסוק המורה כשרה או טרפה",
+      "כי תורה היא ולא בשמים היא"
+     ],
+     "confidence": 3,
+     "why": "the halakhic ruling of the local authority (moreh) is beyond the rabbi's foreknowledge",
+     "quotes_failed": false
+    },
+    {
+     "tag": "times:holidays",
+     "scope": "span",
+     "quotes": [
+      "אם לשוחטם על החג"
+     ],
+     "confidence": 2,
+     "why": "the slaughter is for the festival",
+     "quotes_failed": false
+    },
+    {
+     "tag": "practice:reception_of_hasidim",
+     "scope": "span",
+     "quotes": [
+      "פ״א בא הטבח ושאל עצה"
+     ],
+     "confidence": 1,
+     "why": "a petitioner comes to the tzaddik for advice",
+     "quotes_failed": false
+    }
+   ],
+   "missing_concepts": [
+    "limits of the tzaddik's foreknowledge versus human halakhic authority ('lo ba-shamayim hi')"
+   ],
+   "start_quote_found": true,
+   "end_quote_found": true
+  }
+ ],
+ "check": {
+  "non_vocab_tags": [],
+  "quotes": 11,
+  "quotes_not_found": 0
+ },
+ "id": "Peulat-Hatzadikim_0016",
+ "chars": 308,
+ "seconds": 14
+}

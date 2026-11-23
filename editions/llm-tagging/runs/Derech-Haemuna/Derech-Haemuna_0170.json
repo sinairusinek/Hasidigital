@@ -1,0 +1,114 @@
+{
+ "unit": {
+  "kind": "hasidic_story",
+  "why": "An anecdote told by the Apter Rav about R. Elimelekh lodging with him and privately weighing whether he deserves the World to Come.",
+  "boundary_note": "The trailing heading 'מענין עישון שקורין רייכינין' belongs to the next division (on smoking)."
+ },
+ "stories": [
+  {
+   "k": 1,
+   "start_quote": "סיפר ההצה״ק מאפטא נ״י פ״א נתאכסן",
+   "end_quote": "ליתן להם בתורת צדקה",
+   "hasidic": true,
+   "summary_en": "The Apter Rav recounts that R. Elimelekh, while lodging in his house, was overheard reckoning that he was unworthy of the World to Come, then consoling himself that God, who performs charity, will give a share in the World to Come as charity to the unworthy.",
+   "tags": [
+    {
+     "tag": "ethics-and-emotions:humility",
+     "scope": "span",
+     "quotes": [
+      "נפשי נפשי אינך ראוי לעוה״ב",
+      "וחישב כל דופי שיש בו"
+     ],
+     "confidence": 3,
+     "why": "R. Elimelekh judges himself unworthy.",
+     "quotes_failed": false
+    },
+    {
+     "tag": "folkloristics:story_type_virtues",
+     "scope": "story",
+     "quotes": [],
+     "confidence": 2,
+     "why": "The anecdote illustrates the tzaddik's humility and self-scrutiny.",
+     "quotes_failed": false
+    },
+    {
+     "tag": "times:eschatology",
+     "scope": "span",
+     "quotes": [
+      "אם הוא ראוי לעוה״ב",
+      "והנה בעוה״ב שאין בו לא אכילה ושתי׳"
+     ],
+     "confidence": 3,
+     "why": "The World to Come is the central concern.",
+     "quotes_failed": false
+    },
+    {
+     "tag": "ethics-and-emotions:charity",
+     "scope": "span",
+     "quotes": [
+      "יעשה צדקה עם שאינם ראוים לעוה״ב",
+      "וגומל צדקה וכו׳"
+     ],
+     "confidence": 2,
+     "why": "Divine charity is the point of his consolation.",
+     "quotes_failed": false
+    },
+    {
+     "tag": "practice:storytelling",
+     "scope": "span",
+     "quotes": [
+      "סיפר ההצה״ק מאפטא נ״י"
+     ],
+     "confidence": 2,
+     "why": "Framed as told by a named tzaddik.",
+     "quotes_failed": false
+    },
+    {
+     "tag": "practice:the_travels_of_the_tsaddik",
+     "scope": "span",
+     "quotes": [
+      "פ״א נתאכסן אצלו הרב ר׳ אלימלך",
+      "ויחדתי לו בית בפ״ע"
+     ],
+     "confidence": 2,
+     "why": "R. Elimelekh lodges with the Apter Rav while travelling.",
+     "quotes_failed": false
+    },
+    {
+     "tag": "practice:sermon",
+     "scope": "span",
+     "quotes": [
+      "כי הלא אמרו ז״ל קב״ה קיים כל התורה"
+     ],
+     "confidence": 1,
+     "why": "His self-consolation includes a homiletic reading of a rabbinic saying.",
+     "quotes_failed": false
+    },
+    {
+     "tag": "practice:solitude",
+     "scope": "span",
+     "quotes": [
+      "ומצאתיו שיושב וחשב חשבונות לעצמו"
+     ],
+     "confidence": 1,
+     "why": "He sits alone in a separate house and talks to himself.",
+     "quotes_failed": false
+    }
+   ],
+   "missing_concepts": [
+    "self-reckoning (cheshbon ha-nefesh)",
+    "doubt about one's own merit for the World to Come"
+   ],
+   "start_quote_found": true,
+   "end_quote_found": true
+  }
+ ],
+ "check": {
+  "non_vocab_tags": [],
+  "quotes": 11,
+  "quotes_not_found": 0
+ },
+ "id": "Derech-Haemuna_0170",
+ "chars": 540,
+ "seconds": 15
+}

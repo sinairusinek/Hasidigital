@@ -18,7 +18,7 @@
 					<name>DictaBert</name>
 					<note>automatic tagging, corrected with Gemini; not yet reviewed by hand</note>
 				</respStmt>
-			</titleStmt><editionStmt><edition n="1.0.0">Working edition</edition></editionStmt>
+			<respStmt xml:id="llm-tagging"><resp>Topic tags: assigned by Claude Opus 5.5 with the project's topic scheme (editions/llm-tagging; calibrated 2026-11-16, est. precision 0.89 / recall 0.90, model-judged); not reviewed by hand</resp><name>Claude Opus 5.5 (Anthropic)</name></respStmt></titleStmt><editionStmt><edition n="1.0.0">Working edition</edition></editionStmt>
 			<publicationStmt>
 				<p>This edition was created in the framework of the the project "Historical Digital
 					Analysis of Hasidic Stories Until 1914", PI: Gadi Sagiv; Supervising
@@ -28,7 +28,7 @@
 			</publicationStmt>
 			<sourceDesc><bibl type="digital"><title>Digital scan from HebrewBooks.org</title><publisher>HebrewBooks.org</publisher><ptr target="https://hebrewbooks.org/3882"/><idno type="HebrewBooks">3882</idno><idno type="Transkribus">6452887</idno><note>Source for transcription</note></bibl><bibl type="original"><title type="main" xml:lang="he">תולדות הנפלאות</title><title type="main" xml:lang="en">Toldot HaNiflaot</title><author><persName xml:lang="he">ישראל משה ברומברג</persName><persName xml:lang="en">Yisrael Moshe Brumberg</persName></author><pubPlace xml:lang="he">ורשה</pubPlace><pubPlace xml:lang="en">Warsaw</pubPlace><date when="1899">תרנ"ט</date><textLang mainLang="heb"/><idno type="HebrewBooks">3882</idno><idno type="Kima">953</idno><idno type="Transkribus">6452887</idno><idno type="DBid">3696</idno><idno type="work">49</idno></bibl></sourceDesc>
 		</fileDesc>
-	<revisionDesc><change when="2026-04-29">sourceDesc synced from edition-metadata.json</change><change when="2026-11-21">text repaired: Gemini correction pass replayed without the tag-stripping bug that shuffled text (58f4166); later tag edits carried over</change><change when="2026-11-21">header in the shape of the online editions; page breaks restored from the Transkribus export</change></revisionDesc></teiHeader>
+	<revisionDesc><change when="2026-04-29">sourceDesc synced from edition-metadata.json</change><change when="2026-11-21">text repaired: Gemini correction pass replayed without the tag-stripping bug that shuffled text (58f4166); later tag edits carried over</change><change when="2026-11-21">header in the shape of the online editions; page breaks restored from the Transkribus export</change><change when="2026-11-23">topic tags (LLM, confidence &gt;= 2) written for 116 stories; not reviewed by hand</change></revisionDesc></teiHeader>
 	<text>
 		<front><div type="front-matter"><p>
 					<pb facs="Toldot-Haniflaot_0001.jpg"/><lb/>ספר
@@ -89,14 +89,14 @@
 					<lb/>הוא. וזהו כי ימרט ראשו היינו הגדלות וגבהות מחמת שבאמת קרח
 					<lb/>הוא מתורה ומצות ג״כ טהור הוא :
 				</p>
-				</div><div type="story" xml:id="Toldot-Haniflaot_0001" n="1"><head type="storyHead">Toldot-Haniflaot_0001</head>
+				</div><div type="story" xml:id="Toldot-Haniflaot_0001" n="1"><head type="storyHead">Toldot-Haniflaot_0001</head><span ana="characters-and-roles:the_family_of_the_tsaddik; folkloristics:story_type_birth_of_the_tsaddik; supernatural:prognostication; folkloristics:story_type_prognostication; practice:travel_to_other_tsaddik; supernatural:perception; women:minor_character" resp="#llm-tagging">תיוגים</span>
 <p>
 					<pb facs="Toldot-Haniflaot_0003.jpg"/><lb/>ו ועתה אכתוב בעזה״י מלידת מרן ז"ל, סיפר ז"ל, כי אא״ז <persName>הה״מ
 					<lb/>מ<placeName ana="bio" ref="#H-LOC_151">קאזניץ</placeName></persName> זצ״ל היה עם בתו הצדקת אצל מרן הק' בעל
 					<persName><lb/>נועם אלימלך</persName> שהיה אומר דע <persName>המגיד</persName> הק׳ כי נשמה גדולה תרד אל בת
 					<lb/>מעלתו, זה הכוונה עליו הוא בנה הק' מרן זצ״ל מ<placeName>מאגלניצא</placeName> :
 				</p>
-				</div><div type="story" xml:id="Toldot-Haniflaot_0002" n="2"><head type="storyHead">Toldot-Haniflaot_0002</head>
+				</div><div type="story" xml:id="Toldot-Haniflaot_0002" n="2"><head type="storyHead">Toldot-Haniflaot_0002</head><span ana="characters-and-roles:the_family_of_the_tsaddik; experience:dream; practice:prayer; supernatural:prognostication; supernatural:reincarnation; times:birth; times:death; women:major_character; ethics-and-emotions:sadness; folkloristics:story_type_birth_of_the_tsaddik; practice:sermon; practice:travel_to_the_tsaddik; spaces:beth_midrash; spaces:heaven; supernatural:communicating_with_the_invisible; supernatural:perception; supernatural:pregnancy; times:shabbat" resp="#llm-tagging">תיוגים</span>
 <p>
 					<lb/>ז והנה נודע מהילדים אשר היה לאמו הצדקת מרת <persName>פעריל</persName> בת
 					<persName><lb/>הה״מ</persName> הק׳ זצ״ל, אשר היו ממש כמו הינוקות מ<name type="work">זוהר</name>
@@ -140,7 +140,7 @@
 					<lb/>ויהיה מאיר בכל העולמות, וכן היה ולמחרתו נולד למז"ט בנה הק'
 					<lb/>הוא מרן זצ״ל, כן שמעתי ג׳ פעמים ממנה ז״ל בעצמה :
 				</p>
-				</div><div type="story" xml:id="Toldot-Haniflaot_0003" n="3"><head type="storyHead">Toldot-Haniflaot_0003</head>
+				</div><div type="story" xml:id="Toldot-Haniflaot_0003" n="3"><head type="storyHead">Toldot-Haniflaot_0003</head><span ana="characters-and-roles:the_family_of_the_tsaddik; experience:visions; supernatural:perception; women:major_character; experience:revelation; practice:prayer; supernatural:communicating_with_the_invisible" resp="#llm-tagging">תיוגים</span>
 <p>
 					<lb/>ח ובל תחשוב כי היא וחלומותיה היו פשוטים כדרך שאר נשים,
 					<lb/>תדע כי נודע ומפורסם שהיתה בעל מדרגה גדולה,
@@ -150,14 +150,14 @@
 					<lb/>הא׳, ואמרה שראתה אותו בעת תפלה, והבינה כי היום הוא
 					<lb/>היא״צ שלו :
 				</p>
-				</div><div type="story" xml:id="Toldot-Haniflaot_0004" n="4"><head type="storyHead">Toldot-Haniflaot_0004</head>
+				</div><div type="story" xml:id="Toldot-Haniflaot_0004" n="4"><head type="storyHead">Toldot-Haniflaot_0004</head><span ana="characters-and-roles:the_family_of_the_tsaddik; experience:visions; practice:prayer; supernatural:perception; women:major_character" resp="#llm-tagging">תיוגים</span>
 <p>
 					<lb/>ט פ"א אמרה אל בנה הצדיק <persName>מרן</persName> זצ״ל. בני אני ראיתי כי
 					<lb/>בקדושת כתר שאמרת, היה עומד אבי <persName>הה״מ</persName> זצ״ל מצדך
 					<lb/>הוא, והה״ק מ<placeName ref="#H-LOC_56">לובלין</placeName> זצ״ל מצדך השני, והיה אומר <persName>מרן</persName> זצ״ל שיש
 					<lb/>לו סימנים כי אמת הדבר :
 				</p>
-				</div><div type="story" xml:id="Toldot-Haniflaot_0005" n="5"><head type="storyHead">Toldot-Haniflaot_0005</head>
+				</div><div type="story" xml:id="Toldot-Haniflaot_0005" n="5"><head type="storyHead">Toldot-Haniflaot_0005</head><span ana="characters-and-roles:the_family_of_the_tsaddik; practice:pilgrimage_to_the_graves_of_tsaddikim; supernatural:communicating_with_the_invisible; women:major_character; ethics-and-emotions:anger; practice:storytelling; practice:torat_ha_tsaddik; social:inter_hasidic_master_disciple_relationship; times:shabbat" resp="#llm-tagging">תיוגים</span>
 <p>
 					<lb/>י פ"א שמעתי ממנו זצ״ל שסיפר כי פ״א נסעה אמו תחי׳ ל<placeName ref="#H-LOC_350">ליזענסק</placeName>
 					<lb/>על קבר הק׳ בעל <persName>נועם אלימלך</persName> והיתה שבתה בשבת בעיר
@@ -172,7 +172,7 @@
 					<pb facs="Toldot-Haniflaot_0005.jpg"/><lb/>שתסע על קברי ובעזה״י תשיג שם כל חפצה ומשאלותה, ואח״ז
 					<lb/>הה״ק בעצמו השתדל עבורה שיהיה לה מרכבה לעבור הגבול :
 				</p>
-				</div><div type="story" xml:id="Toldot-Haniflaot_0006" n="6"><head type="storyHead">Toldot-Haniflaot_0006</head>
+				</div><div type="story" xml:id="Toldot-Haniflaot_0006" n="6"><head type="storyHead">Toldot-Haniflaot_0006</head><span ana="characters-and-roles:the_family_of_the_tsaddik; folkloristics:story_type_birth_of_the_tsaddik; folkloristics:story_type_prognostication; supernatural:prognostication; characters-and-roles:preacher; ethics-and-emotions:prohibitions; practice:travel_to_other_tsaddik; social:inter_hasidic; social:marriage; supernatural:pregnancy; times:birth; times:holidays; women:mention_only" resp="#llm-tagging">תיוגים</span>
 <p>
 					<lb/>יא והנה לידת <persName>מרן</persName> זצ"ל היה ג"כ ע"י התאמצות ותפלות של
 					<lb/>הצדיקים אשר היו אז ובפרט על ידי התאמצות הה״ק
@@ -186,7 +186,7 @@
 					<lb/>ועד יום חתונתו ידליק בו מר במנורה זו, וכן היה ובמנורה זו היה
 					<lb/>מדליק <persName>מרן</persName> זצ״ל כל ימי חייו :
 				</p>
-				</div><div type="story" xml:id="Toldot-Haniflaot_0007" n="7"><head type="storyHead">Toldot-Haniflaot_0007</head>
+				</div><div type="story" xml:id="Toldot-Haniflaot_0007" n="7"><head type="storyHead">Toldot-Haniflaot_0007</head><span ana="characters-and-roles:the_family_of_the_tsaddik; practice:circumcision; practice:storytelling; social:divorce; supernatural:reincarnation; practice:halakhah; social:inter_hasidic; supernatural:perception" resp="#llm-tagging">תיוגים</span>
 <p>
 					<lb/>יב והנה בעת הכנסו בבריתו של <persName>אאע"ה</persName> היה אומר <persName>הה״מ</persName> הק׳
 					<lb/>זצ״ל ויקרא שמו בישראל <persName>ירמיה</persName>, ואמר לו חתנו הרב
@@ -198,20 +198,20 @@
 					<lb/>סיפר <persName>מרן</persName> זצ״ל בעצמו פ״א כאשר בא גט א׳ לפניו אשר הי׳ נשכח
 					<lb/>שם המגרש מקטנותו :
 				</p>
-				</div><div type="story" xml:id="Toldot-Haniflaot_0008" n="8"><head type="storyHead">Toldot-Haniflaot_0008</head>
+				</div><div type="story" xml:id="Toldot-Haniflaot_0008" n="8"><head type="storyHead">Toldot-Haniflaot_0008</head><span ana="characters-and-roles:the_family_of_the_tsaddik; social:inter_hasidic_inheritance_of_leadership; supernatural:perception; supernatural:prognostication; folkloristics:story_type_prognostication; practice:prayer; practice:storytelling; practice:torat_ha_tsaddik" resp="#llm-tagging">תיוגים</span>
 <p>
 					<lb/>יג סיפר פ״א כשהיה קטן נחלה מאוד ושלח זקנו ה<persName>מגיד</persName>
 					<lb/>הק' ז״ל שטיפעט אל <persName>ההק׳</persName> ז"ל ל<placeName ref="#H-LOC_56">לובלין</placeName> שיתפלל בעדו,
 					<lb/>ואז כאשר הסתכל <persName>ההק'</persName> בשמו הכתוב בהפתקא אמר אני רואה
 					<lb/>שיהיה ממלא מקומו של זקנו ה<persName>מגיד</persName> הקדוש, זצ״ל :
 				</p>
-				</div><div type="story" xml:id="Toldot-Haniflaot_0009" n="9"><head type="storyHead">Toldot-Haniflaot_0009</head>
+				</div><div type="story" xml:id="Toldot-Haniflaot_0009" n="9"><head type="storyHead">Toldot-Haniflaot_0009</head><span ana="times:eschatology; characters-and-roles:messiah; practice:failure; supernatural:perception" resp="#llm-tagging">תיוגים</span>
 <p>
 					<lb/>יד כשהיה קטן היה ב<placeName ref="#H-LOC_56">לובלין</placeName>, והי׳ <persName>ההק'</persName> הרבי זצ"ל הראה
 					<lb/>באצבע עליו ואמר בימיו תוושע <placeName ref="#H-LOC_702">יהודה</placeName> ו<placeName ref="#H-LOC_154">ירושלים</placeName>,
 					<lb/>ובעונותינו שרבו כו׳ :
 				</p>
-				</div><div type="story" xml:id="Toldot-Haniflaot_0010" n="10"><head type="storyHead">Toldot-Haniflaot_0010</head>
+				</div><div type="story" xml:id="Toldot-Haniflaot_0010" n="10"><head type="storyHead">Toldot-Haniflaot_0010</head><span ana="practice:sermon; times:shabbat; spaces:institutions_hassidic_court; supernatural:perception" resp="#llm-tagging">תיוגים</span>
 <p>
 					<lb/>טו סיפר כשהיה קטן והיה ב<placeName ref="#H-LOC_56">לובלין</placeName> בש״ק והיה יושב סמוך ממש
 				</p>
@@ -221,7 +221,7 @@
 					<lb/>זצ״ל, ואמר במכוון שוב עוד הפעם ע״ד <persName>המגיד</persName> זצ״ל, וענה ואמר
 					<lb/>כן אומר זקני :
 				</p>
-				</div><div type="story" xml:id="Toldot-Haniflaot_0011" n="11"><head type="storyHead">Toldot-Haniflaot_0011</head>
+				</div><div type="story" xml:id="Toldot-Haniflaot_0011" n="11"><head type="storyHead">Toldot-Haniflaot_0011</head><span ana="characters-and-roles:the_family_of_the_tsaddik; practice:clothing; social:inter_hasidic_master_disciple_relationship; practice:storytelling; practice:travel_to_the_tsaddik; spaces:institutions_hassidic_court" resp="#llm-tagging">תיוגים</span>
 <p>
 					<lb/>טז שמעתי מפיו הק׳ הרבה פעמים, ואמר כי הרבי ז"ל מ<placeName ref="#H-LOC_56">לובלין</placeName>
 					<lb/>לא היה סובל כמו שרגילים כמה אנשים חסידים
@@ -233,7 +233,7 @@
 					<lb/>ואמר מרן ז"ל שכמעט לא היה עוד אחד שיהא הרבי ז"ל מ<placeName ref="#H-LOC_56">לובלין</placeName>
 					<lb/>אוהב אותו כמו שאהב אותי :
 				</p>
-				</div><div type="story" xml:id="Toldot-Haniflaot_0012" n="12"><head type="storyHead">Toldot-Haniflaot_0012</head>
+				</div><div type="story" xml:id="Toldot-Haniflaot_0012" n="12"><head type="storyHead">Toldot-Haniflaot_0012</head><span ana="characters-and-roles:the_family_of_the_tsaddik; experience:devekut; folkloristics:story_type_virtues; practice:devekut; practice:prayer; practice:travel_to_other_tsaddik; practice:storytelling; practice:travel_to_the_tsaddik" resp="#llm-tagging">תיוגים</span>
 <p>
 					<lb/>יז חסיד מפורסם אחד שהיה רגיל לנסוע להה"ק מ<placeName ref="#H-LOC_52">קאוולע</placeName>
 					<lb/>ואחר פטרת הה״צ הזה היה דרכו בקודש לנסוע
@@ -247,7 +247,7 @@
 					<lb/>ודמו היה זב על כל פניו ולא חלי ולא מרגיש כלל מרוב דבקותו
 					<lb/>בתפלתו :
 				</p>
-				</div><div type="story" xml:id="Toldot-Haniflaot_0013" n="13"><head type="storyHead">Toldot-Haniflaot_0013</head>
+				</div><div type="story" xml:id="Toldot-Haniflaot_0013" n="13"><head type="storyHead">Toldot-Haniflaot_0013</head><span ana="characters-and-roles:the_family_of_the_tsaddik; ethics-and-emotions:anger; times:holidays; ethics-and-emotions:fear; practice:devekut; practice:halakhah; practice:sermon; practice:storytelling; social:inter_hasidic" resp="#llm-tagging">תיוגים</span>
 <p>
 					<lb/>יח שמעתי מפיו הק׳ כ״פ שסיפר כי פעם אחת היה <persName>המגיד
 					<lb/>מ<placeName ana="bio">זאלטשוב</placeName></persName> בעל <persName>אורח לחיים</persName> אצל <persName>אא״ז</persName> <persName>הה״מ</persName>
@@ -268,7 +268,7 @@
 					<lb/>לדבק כ״ב בהרצון ה׳ אשר בהמצוה עד שלפעמים יכול שישנה
 					<lb/>מעט בגוף המצוה, כמ״ש באהבתו תשגה תמיד) :
 				</p>
-				</div><div type="story" xml:id="Toldot-Haniflaot_0014" n="14"><head type="storyHead">Toldot-Haniflaot_0014</head>
+				</div><div type="story" xml:id="Toldot-Haniflaot_0014" n="14"><head type="storyHead">Toldot-Haniflaot_0014</head><span ana="characters-and-roles:the_family_of_the_tsaddik; experience:revelation; experience:visions; times:holidays; folkloristics:story_type_virtues; practice:sermon; practice:storytelling; social:inter_hasidic_master_disciple_relationship; social:retrospective_recognition; supernatural:communicating_with_the_invisible; supernatural:perception" resp="#llm-tagging">תיוגים</span>
 <p>
 					<lb/>יט והנה גם כשהיה קטן היה לו מדרגות גדולות ושמעתי
 					<lb/>מפיו הק׳ שסיפר ואמר כשהייתי בן שמונה שנים
@@ -279,7 +279,7 @@
 					<lb/>לי בני לא אלי' הוא זה רק מורי ר׳ ר׳ <persName>בער</persName> ז"ל, והוא מדרגה
 					<lb/>יותר גדולה מגילוי <persName>אליהו</persName> :
 				</p>
-				</div><div type="story" xml:id="Toldot-Haniflaot_0015" n="15"><head type="storyHead">Toldot-Haniflaot_0015</head>
+				</div><div type="story" xml:id="Toldot-Haniflaot_0015" n="15"><head type="storyHead">Toldot-Haniflaot_0015</head><span ana="characters-and-roles:the_family_of_the_tsaddik; practice:prayer; practice:study; practice:tefillin; social:inter_hasidic_master_disciple_relationship; ethics-and-emotions:virtues; experience:dream; folkloristics:story_type_virtues; knowledge:esoteric; practice:storytelling; spaces:beth_midrash" resp="#llm-tagging">תיוגים</span>
 <p>
 					<lb/>כ סיפר לי חסיד מופלג א׳ ששמע מפיו הק׳ ז"ל מספר ואומר
 					<lb/>כי פ״א כשהייתי בן י״א שנים קרא אותי <persName>אא״ז</persName> ז״ל
@@ -300,7 +300,7 @@
 					<pb facs="Toldot-Haniflaot_0008.jpg"/><lb/>ההק׳ בעל <persName>אוהב ישראל</persName> הנודע, הביא בתים של תפלין מג״ע ונתן
 					<lb/>לו, ואמר הפתרון שהביא לו מוחין קדישין שהשיג ע״פ עבודתו :
 				</p>
-				</div><div type="story" xml:id="Toldot-Haniflaot_0016" n="16"><head type="storyHead">Toldot-Haniflaot_0016</head>
+				</div><div type="story" xml:id="Toldot-Haniflaot_0016" n="16"><head type="storyHead">Toldot-Haniflaot_0016</head><span ana="characters-and-roles:the_family_of_the_tsaddik; practice:study; folkloristics:story_type_virtues; knowledge:esoteric; practice:halakhah" resp="#llm-tagging">תיוגים</span>
 <p>
 					<lb/>כא והנה עכ״ז למד הרבה מזקנו הק׳ <persName>המגיד</persName> זצ״ל, וכמ״ש
 					<lb/>בעצמו בהקדמת <name type="work">עבודת ישראל</name> וז״ל ינקתי דבש
@@ -313,7 +313,7 @@
 					<lb/>מונח אצל מרן ז"ל הרבה דפין גדולים, כתובין בכת״י הגאון הק׳
 					<lb/>הנ״ל בהלכות נדה הנשלח מידו אל מרן זצ״ל :
 				</p>
-				</div><div type="story" xml:id="Toldot-Haniflaot_0017" n="17"><head type="storyHead">Toldot-Haniflaot_0017</head>
+				</div><div type="story" xml:id="Toldot-Haniflaot_0017" n="17"><head type="storyHead">Toldot-Haniflaot_0017</head><span ana="characters-and-roles:the_family_of_the_tsaddik; ethics-and-emotions:humility; ethics-and-emotions:shame; folkloristics:story_type_virtues; practice:study; ethics-and-emotions:virtues; practice:storytelling; social:inter_hasidic" resp="#llm-tagging">תיוגים</span>
 <p>
 					<lb/>כב שמעתי ממנו ז"ל כי פ"א הראה אא"ז ז"ל איזה ד"ת
 					<lb/>להגאון הק׳ הנ״ל שהיה נער קטן שירגיש מה
@@ -330,7 +330,7 @@
 					<lb/>דבר שאצטרך למחול לך, ואמר לי מה שנתביישת בסיבתי, והפציר
 					<lb/>בי עד שאמרתי לו כי אמחול לו :
 				</p>
-				</div><div type="story" xml:id="Toldot-Haniflaot_0018" n="18"><head type="storyHead">Toldot-Haniflaot_0018</head>
+				</div><div type="story" xml:id="Toldot-Haniflaot_0018" n="18"><head type="storyHead">Toldot-Haniflaot_0018</head><span ana="not-a-hasidic-story:sermon" resp="#llm-tagging">תיוגים</span>
 <p>
 					<lb/>כג והנה גם בגדולתו היה נמנה בין גדולי ישראל גם בנגלה
 					<lb/>ופ"א היה כותב תשובה על שאלה הנשלח אליו. והיה
@@ -346,7 +346,7 @@
 					<lb/>ועיקר חידושיו היה קודם התפלה, כנודע מכתבי ה<persName>אר״י</persName> שפלפולי
 					<lb/>אורייתא מזמר עריצים :
 				</p>
-				</div><div type="story" xml:id="Toldot-Haniflaot_0019" n="19"><head type="storyHead">Toldot-Haniflaot_0019</head>
+				</div><div type="story" xml:id="Toldot-Haniflaot_0019" n="19"><head type="storyHead">Toldot-Haniflaot_0019</head><span ana="ethics-and-emotions:fear; experience:trembling; knowledge:esoteric; practice:halakhah; practice:sermon; practice:study; social:inter_hasidic_master_disciple_relationship; ethics-and-emotions:awe; kabbalah:kabbalistic_terms_yihudim; spaces:beth_midrash; times:shabbat" resp="#llm-tagging">תיוגים</span>
 <p>
 					<lb/>כד וראינו בחוש כי כל פלפוליו היו ביחודים קדושים ליחד
 					<lb/>למעלה ובדידי היה עובדא אשר פ״א קודם פסח
@@ -390,7 +390,7 @@
 					<lb/>למעלה בשרשי ודאי שפיר קאמינא, אבל משום זה אין הוכחה
 					<lb/>דגם עוה״ז יתנהג כפי ההלכה הלזו וכנ"ל :
 				</p>
-				</div><div type="story" xml:id="Toldot-Haniflaot_0020" n="20"><head type="storyHead">Toldot-Haniflaot_0020</head>
+				</div><div type="story" xml:id="Toldot-Haniflaot_0020" n="20"><head type="storyHead">Toldot-Haniflaot_0020</head><span ana="practice:storytelling; social:inter_hasidic; practice:sermon; practice:torat_ha_tsaddik; social:retrospective_recognition" resp="#llm-tagging">תיוגים</span>
 <p>
 					<lb/>כה ואח״כ מיד סיפר כי עובדא היה כי אח"ז <persName>המגיד</persName> זצ"ל אמר
 					<lb/>איזה חידוש ד״ת לפני ההק' הגאון <persName>היהודי</persName> ז״ל ואמר
@@ -400,7 +400,7 @@
 					<lb/>אותם ח״ו, ומיד שסיפר זה הלך מאצלנו, והיה נראה ממש כי
 					<lb/>גם כאן היה כדבר הזה והבן :
 				</p>
-				</div><div type="story" xml:id="Toldot-Haniflaot_0021" n="21"><head type="storyHead">Toldot-Haniflaot_0021</head>
+				</div><div type="story" xml:id="Toldot-Haniflaot_0021" n="21"><head type="storyHead">Toldot-Haniflaot_0021</head><span ana="characters-and-roles:the_family_of_the_tsaddik; practice:joke; folkloristics:story_type_virtues; knowledge:esoteric; practice:clothing; practice:travel_to_other_tsaddik; social:inter_hasidic; social:inter_hasidic_master_disciple_relationship; social:retrospective_recognition" resp="#llm-tagging">תיוגים</span>
 <p>
 					<lb/>כו ואמר כי מאוד חשקה נפשו לנסוע אל ההק׳ <persName>היהודי</persName> ז"ל
 					<lb/>וגם ללמוד אצלו וכמדומה לי שסיפר כי ההק' <persName>היהודי</persName>
@@ -421,14 +421,14 @@
 					<lb/>צחות בי אין חסר לו כלום רק שיהיה לבוש בשטריימיל ואמר לו
 					<lb/>הה״מ, ז"ל כ״ז אני יודע מכבר :
 				</p>
-				</div><div type="story" xml:id="Toldot-Haniflaot_0022" n="22"><head type="storyHead">Toldot-Haniflaot_0022</head>
+				</div><div type="story" xml:id="Toldot-Haniflaot_0022" n="22"><head type="storyHead">Toldot-Haniflaot_0022</head><span ana="characters-and-roles:the_family_of_the_tsaddik; folkloristics:story_type_prognostication; supernatural:prognostication; women:minor_character" resp="#llm-tagging">תיוגים</span>
 <p>
 					<lb/>כז שמעתי כ״פ מאמר הרבנית הצדקת ז"ל, כי אביה ה<persName>ה"מ</persName>
 					<lb/>הקדוש אמר לה תדע שבנך יחיה גדול וטוב
 					<lb/>ממני, ואמרתי לו ולואי שיהיה טוב כמו אתה, ואיני חפץ יותר,
 					<lb/>ואמר לה בתי אני אומר לך דייקא שיהיה טוב וגדול יותר ממנו :
 				</p>
-				</div><div type="story" xml:id="Toldot-Haniflaot_0023" n="23"><head type="storyHead">Toldot-Haniflaot_0023</head>
+				</div><div type="story" xml:id="Toldot-Haniflaot_0023" n="23"><head type="storyHead">Toldot-Haniflaot_0023</head><span ana="ethics-and-emotions:sadness; social:inter_hasidic_master_disciple_relationship; social:inter_hasidic; spaces:institutions_hassidic_court; times:death" resp="#llm-tagging">תיוגים</span>
 <p>
 					<lb/>כח סיפר כי היה ב<placeName ref="#H-LOC_56">לובלין</placeName> אז כשנתוודע מפטירת הק׳
 					<lb/>היהודי זצ״ל. והיה הולך ובוכה מאד. עד שהיה
@@ -443,7 +443,7 @@
 					<lb/>לעב לבל להרבות בבכי עוד, ודיבר אליו כה וכה לנחמו ולבל
 					<lb/>להצטער ולבכות יותר מדאי :
 				</p>
-				</div><div type="story" xml:id="Toldot-Haniflaot_0024" n="24"><head type="storyHead">Toldot-Haniflaot_0024</head>
+				</div><div type="story" xml:id="Toldot-Haniflaot_0024" n="24"><head type="storyHead">Toldot-Haniflaot_0024</head><span ana="not-a-hasidic-story:sermon" resp="#llm-tagging">תיוגים</span>
 <p>
 					<lb/>כט והנה דרך עבודתו היה בהתלהבות עצום ובדבקות
 					<lb/>נפלא מאד. והצדיקים אומרים כי מיום <persName>הה״צ הק׳
@@ -470,7 +470,7 @@
 					<lb/>שבלב, אבל מות ומחשבה לבד אין כלום, (איני זוכר היטב הלשון
 					<lb/>שהיה אומר אז רק אני כותב כפי ההכנה שהיה נשאר בזכרוני) :
 				</p>
-				</div><div type="story" xml:id="Toldot-Haniflaot_0025" n="25"><head type="storyHead">Toldot-Haniflaot_0025</head>
+				</div><div type="story" xml:id="Toldot-Haniflaot_0025" n="25"><head type="storyHead">Toldot-Haniflaot_0025</head><span ana="not-a-hasidic-story:sermon" resp="#llm-tagging">תיוגים</span>
 <p>
 					<lb/>ל אמר פי׳ הכתוב מה רב טובך אשר צפנת ליראיך וגו׳, כי
 					<lb/>ודאי שכר המצות המה צפינים ומכוסים,א מנם זה
@@ -481,7 +481,7 @@
 					<lb/>חושיו בשעת עבודה, אשרי עין רואה ואזן שומעת עבודתו, אשר
 					<lb/>א״א לספר ולכתוב, רק מי שהיה זוכה לראות ולשמוע נמס בלבו :
 				</p>
-				</div><div type="story" xml:id="Toldot-Haniflaot_0026" n="26"><head type="storyHead">Toldot-Haniflaot_0026</head>
+				</div><div type="story" xml:id="Toldot-Haniflaot_0026" n="26"><head type="storyHead">Toldot-Haniflaot_0026</head><span ana="practice:travel_to_other_tsaddik; social:inter_hasidic_master_disciple_relationship; practice:prayer; practice:torat_ha_tsaddik" resp="#llm-tagging">תיוגים</span>
 <p>
 					<lb/>לא והנה אחר פטירת אבי זקני הה"מ הק' זצ"ל, וההק׳ מ<placeName ref="#H-LOC_56">לובלין</placeName>
 					<lb/>ז"ל, דבק נפשו בהצדיק איש אלהים ההק׳ מ<placeName ref="#H-LOC_55">מעזבוז</placeName>
@@ -494,7 +494,7 @@
 					<lb/>אומרים משמו ז״ל שהי׳ אומר כי בכל פעם שאני מתפלל השיבה
 					<lb/>שופטינו כבראשונה, אני מכוון שיהיה לי עוד רבי כמוהו :
 				</p>
-				</div><div type="story" xml:id="Toldot-Haniflaot_0027" n="27"><head type="storyHead">Toldot-Haniflaot_0027</head>
+				</div><div type="story" xml:id="Toldot-Haniflaot_0027" n="27"><head type="storyHead">Toldot-Haniflaot_0027</head><span ana="not-a-hasidic-story:sermon" resp="#llm-tagging">תיוגים</span>
 <p>
 					<pb facs="Toldot-Haniflaot_0013.jpg"/><lb/>לב שמעתי מפיו הק׳ ז"ל שאמר כי בעת שאני הלכתי
 					<lb/>מאכסניא שלי לילך לבית מורי ורבי הנ"ל לדבר
@@ -502,7 +502,7 @@
 					<lb/>ענין להרויח אלפי אלפים דברי זהב, לא הי׳ עולה בלבי להשגיח
 					<lb/>ע״ז ולבטל הליכתי אליו ז"ל, ראה והבן כמה גדולים מעשה צדיקים :
 				</p>
-				</div><div type="story" xml:id="Toldot-Haniflaot_0028" n="28"><head type="storyHead">Toldot-Haniflaot_0028</head>
+				</div><div type="story" xml:id="Toldot-Haniflaot_0028" n="28"><head type="storyHead">Toldot-Haniflaot_0028</head><span ana="social:inter_hasidic_master_disciple_relationship; ethics-and-emotions:pride; ethics-and-emotions:virtues; practice:storytelling; social:conflict; social:inter_hasidic; spaces:institutions_hassidic_court" resp="#llm-tagging">תיוגים</span>
 <p>
 					<lb/>לג שמעתי <sic correction="ממנו">שמנו</sic> ז"ל כ״פ איך שמורו ורבו הנ"ל היה מחזיק
 					<lb/>אותו במדרגה גדולה מאד ושמעתי ממנו ז״ל
@@ -514,7 +514,7 @@
 					<lb/>בקול <persName>מאיר יחיאל</persName> איז לפני ולפנים, ולקח אותו מביניהם והושיבו
 					<lb/>אצלו ממש, כך שמעתי ממנו כ״פ :
 				</p>
-				</div><div type="story" xml:id="Toldot-Haniflaot_0029" n="29"><head type="storyHead">Toldot-Haniflaot_0029</head>
+				</div><div type="story" xml:id="Toldot-Haniflaot_0029" n="29"><head type="storyHead">Toldot-Haniflaot_0029</head><span ana="characters-and-roles:the_family_of_the_tsaddik; ethics-and-emotions:humility; folkloristics:story_type_virtues; practice:joke; social:inter_hasidic_master_disciple_relationship; practice:storytelling; practice:travel_to_the_tsaddik" resp="#llm-tagging">תיוגים</span>
 <p>
 					<lb/>לד והנה נודע האגרת אשר של הה״צ <persName>ר״ש</persName> <persName>דייטש</persName> כשהיה
 					<lb/>ב<placeName ref="#H-LOC_55">מעזבוז</placeName>, אל הה״צ אבי מרן ז"ל לבשרו איך בנו
@@ -533,7 +533,7 @@
 					<lb/>לו בדרך צחות, הלא גם אנכי אומר כן ואף על פי כן אני
 					<lb/>מנהיג ורבי :
 				</p>
-				</div><div type="story" xml:id="Toldot-Haniflaot_0030" n="30"><head type="storyHead">Toldot-Haniflaot_0030</head>
+				</div><div type="story" xml:id="Toldot-Haniflaot_0030" n="30"><head type="storyHead">Toldot-Haniflaot_0030</head><span ana="ethics-and-emotions:humility; folkloristics:story_type_virtues; practice:tvilah; spaces:mikveh; ethics-and-emotions:fear; practice:storytelling; social:inter_hasidic" resp="#llm-tagging">תיוגים</span>
 <p>
 					<pb facs="Toldot-Haniflaot_0014.jpg"/><lb/>לה וסיפר כי פ"א היה במקוה שמה קודם התפלה, ודרכו
 					<lb/>היה לשהות הרבה במקוה, ובתוך כך בא איש נכבד
@@ -547,7 +547,7 @@
 					<lb/>והיה ירא אולי בתוך כך יבא אחד המכיר אותו, לכן מיד מיהר
 					<lb/>ללבוש עצמו ולצאת :
 				</p>
-				</div><div type="story" xml:id="Toldot-Haniflaot_0031" n="31"><head type="storyHead">Toldot-Haniflaot_0031</head>
+				</div><div type="story" xml:id="Toldot-Haniflaot_0031" n="31"><head type="storyHead">Toldot-Haniflaot_0031</head><span ana="practice:the_travels_of_the_tsaddik; characters-and-roles:the_family_of_the_tsaddik; practice:storytelling; practice:travel_to_other_tsaddik; social:inter_hasidic; supernatural:perception" resp="#llm-tagging">תיוגים</span>
 <p>
 					<lb/>לו והנה הה״צ ר׳ <persName>יוסף מ<placeName ana="bio">דאמבראווע</placeName></persName> חתן ההק' ר״מ <persName>א״מ
 					<lb/>מ<placeName ana="bio" ref="#H-LOC_151">קאזניץ</placeName></persName> ז״ל סיפר כי פ״א הי׳ ב<placeName ref="#H-LOC_55">מעזבוז</placeName> עם חותנו
@@ -561,7 +561,7 @@
 					<lb/>ויותר, עד שהוצרכו להפטר זמ"ז ונטל ידו בידו בנהוג ואמר לו דע
 					<lb/>כי אחר כל השבח הזה אינך מכיר אותו כלל וכלל :
 				</p>
-				</div><div type="story" xml:id="Toldot-Haniflaot_0032" n="32"><head type="storyHead">Toldot-Haniflaot_0032</head>
+				</div><div type="story" xml:id="Toldot-Haniflaot_0032" n="32"><head type="storyHead">Toldot-Haniflaot_0032</head><span ana="ethics-and-emotions:humility; characters-and-roles:the_family_of_the_tsaddik; folkloristics:story_type_inauguration; practice:sermon; practice:storytelling; social:inter_hasidic; times:inauguration" resp="#llm-tagging">תיוגים</span>
 <p>
 					<lb/>לז סיפר לי חסיד מפורסם איש זקן א׳, אשר פ״א היה מרן
 					<lb/>ז״ל התנצל עצמו לפניו על נשיאותו ואמר מה אעשה
@@ -574,7 +574,7 @@
 					<lb/>שדיבר מצדיק גדול אז מפורסם מאד, ואמר כי אני מוסמך הרבה
 					<lb/>והרבה יותר ממנו :
 				</p>
-				</div><div type="story" xml:id="Toldot-Haniflaot_0033" n="33"><head type="storyHead">Toldot-Haniflaot_0033</head>
+				</div><div type="story" xml:id="Toldot-Haniflaot_0033" n="33"><head type="storyHead">Toldot-Haniflaot_0033</head><span ana="ethics-and-emotions:humility; practice:travel_to_the_tsaddik; supernatural:perception; supernatural:prognostication; ethics-and-emotions:sadness; folkloristics:story_type_virtues; practice:failure; social:inter_hasidic_master_disciple_relationship; times:death" resp="#llm-tagging">תיוגים</span>
 <p>
 					<pb facs="Toldot-Haniflaot_0015.jpg"/><lb/>לו ושמעתי אומרים משמו כי מנעוריו היה נוסע לכמה
 					<lb/>צדיקים שיבטלו ממנו המדרגות, ואמר כי בפ״א
@@ -585,7 +585,7 @@
 					<lb/>לבטל ממנו המדרגות, רק מורו ורבו מ<placeName ref="#H-LOC_55">מעזבוז</placeName> הועיל לו בכל העת
 					<lb/>שהיה ב<placeName ref="#H-LOC_55">מעזבוז</placeName> :
 				</p>
-				</div><div type="story" xml:id="Toldot-Haniflaot_0034" n="34"><head type="storyHead">Toldot-Haniflaot_0034</head>
+				</div><div type="story" xml:id="Toldot-Haniflaot_0034" n="34"><head type="storyHead">Toldot-Haniflaot_0034</head><span ana="practice:halakhah; supernatural:perception; ethics-and-emotions:prohibitions; practice:the_travels_of_the_tsaddik; social:retrospective_recognition" resp="#llm-tagging">תיוגים</span>
 <p>
 					<lb/>לט פ"א היה ב<placeName ref="#H-LOC_55">מעזבוז</placeName> עם החסיד מפורסם ר׳ <persName>גבריאל</persName> ז"ל מ<placeName>מאגלניצא</placeName>
 					<lb/>אשר נתגדל בבית <persName>הה״מ</persName> זצ״ל מ<placeName ref="#H-LOC_151">קאזניץ</placeName>, וכאשר נסע לביתו
@@ -600,13 +600,13 @@
 					<lb/>מהם, ומיד חזר להאופה ונתוודע ששכחו להפריש חלה, וכן סיפר
 					<lb/>הרבה כהנה מה שראה אצלו תמיד עוד מימי קטנותו :
 				</p>
-				</div><div type="story" xml:id="Toldot-Haniflaot_0035" n="35"><head type="storyHead">Toldot-Haniflaot_0035</head>
+				</div><div type="story" xml:id="Toldot-Haniflaot_0035" n="35"><head type="storyHead">Toldot-Haniflaot_0035</head><span ana="not-a-hasidic-story:sermon" resp="#llm-tagging">תיוגים</span>
 <p>
 					<lb/>מ והנה בעת שהתחילו האנשים לנסוע אליו לחסות בצל כנפיו,
 					<lb/>אמר לחסיד מפורסם אחד, כמו שאתה מביט היטב
 					<lb/>דרך חלון זך וצלול, כן אני מביט היטב בנשמות ישראל :
 				</p>
-				</div><div type="story" xml:id="Toldot-Haniflaot_0036" n="36"><head type="storyHead">Toldot-Haniflaot_0036</head>
+				</div><div type="story" xml:id="Toldot-Haniflaot_0036" n="36"><head type="storyHead">Toldot-Haniflaot_0036</head><span ana="practice:protection; practice:travel_to_the_tsaddik; supernatural:perception; times:historical_event; folkloristics:story_type_protection; practice:torat_ha_tsaddik" resp="#llm-tagging">תיוגים</span>
 <p>
 					<lb/>מא שמעתי מהרב הגאון הצדיק ר׳ <persName>זאב מ<placeName ana="bio">יוזעפאף</placeName></persName>, שסיפר כי
 					<lb/>אז בשנת <date>תקצ״א</date> כשהיה חירום בעולם, ונסע אז
@@ -615,7 +615,7 @@
 					<lb/>לו כי הי׳ יודע מנסיעתו, וכ״א משנסע מביתו לבוא אלי, יודע אני
 					<lb/>בו, ואני שומרו ומצילו מפגעי הדרך :
 				</p>
-				</div><div type="story" xml:id="Toldot-Haniflaot_0037" n="37"><head type="storyHead">Toldot-Haniflaot_0037</head>
+				</div><div type="story" xml:id="Toldot-Haniflaot_0037" n="37"><head type="storyHead">Toldot-Haniflaot_0037</head><span ana="practice:prayer; practice:sermon; supernatural:communicating_with_the_invisible; times:historical_event; times:holidays; characters-and-roles:angels; ethics-and-emotions:fear; experience:visions; practice:protection; social:conflict; social:relations_with_the_authorities" resp="#llm-tagging">תיוגים</span>
 <p>
 					<lb/>מב שמעתי מפיו הק' ז"ל שאמר כי אז בשעת חירום כנודע
 					<lb/>הי' הוא מתפלל תמיד בעד הקיסר שלנו הוא
@@ -630,7 +630,7 @@
 					<lb/>בכל שנה ושנה <date>בליל ב׳</date> ד<date>ר״ה</date> בסעודת הלילה אמר ד"ת זו משמו
 					<lb/>כנודע לכל אנ"ש :
 				</p>
-				</div><div type="story" xml:id="Toldot-Haniflaot_0038" n="38"><head type="storyHead">Toldot-Haniflaot_0038</head>
+				</div><div type="story" xml:id="Toldot-Haniflaot_0038" n="38"><head type="storyHead">Toldot-Haniflaot_0038</head><span ana="ethics-and-emotions:fear; practice:drinking_alcohol; practice:travel_to_the_tsaddik; social:relations_with_non_jews; supernatural:perception; folkloristics:story_type_protection; practice:prayer; practice:protection; practice:storytelling; practice:tvilah; social:conflict; social:inter_hasidic_master_disciple_relationship" resp="#llm-tagging">תיוגים</span>
 <p>
 					<lb/>מג סיפר הרב החסיד ר׳ <persName>מאטיל</persName> הרב דק"ק <placeName>גאוורטשוב</placeName> אשר
 					<lb/>בימים הראשונים שהתחיל לנסוע למרן ז״ל ל<placeName>מאגלניצא</placeName>
@@ -654,7 +654,7 @@
 					<lb/>לעשות כן, רק שהייתי ירא שלא תוכל לסבול הפחד ורעדה לכן
 					<lb/>מיהרתי לקראתך שתשיב נפשך במעט יי"ש :
 				</p>
-				</div><div type="story" xml:id="Toldot-Haniflaot_0039" n="39"><head type="storyHead">Toldot-Haniflaot_0039</head>
+				</div><div type="story" xml:id="Toldot-Haniflaot_0039" n="39"><head type="storyHead">Toldot-Haniflaot_0039</head><span ana="folkloristics:story_type_protection; practice:lifesaving; practice:protection; practice:sermon; practice:travel_to_the_tsaddik; social:retrospective_recognition; supernatural:miracle; characters-and-roles:agunah; practice:torat_ha_tsaddik; supernatural:perception; times:death; times:holidays; times:shabbat; women:mention_only" resp="#llm-tagging">תיוגים</span>
 <p>
 					<lb/>מד וגם נודע המעשה מהנטבעים ב<placeName>ווייסיל</placeName> קודם <date>ר״ה</date> במעבר
 					<lb/>הספינה סמוך ל<placeName>סאבין</placeName>, אשר העמיסו הרבה את הספינה
@@ -669,14 +669,14 @@
 					<lb/>זו היה מתאמץ להציל כל הנוסעים, שיהיו נצבים היום ב<date>ר״ה</date>
 					<lb/>כולם באין מחסור :
 				</p>
-				</div><div type="story" xml:id="Toldot-Haniflaot_0040" n="40"><head type="storyHead">Toldot-Haniflaot_0040</head>
+				</div><div type="story" xml:id="Toldot-Haniflaot_0040" n="40"><head type="storyHead">Toldot-Haniflaot_0040</head><span ana="folkloristics:story_type_protection; practice:protection; times:holidays; practice:reception_of_hasidim; practice:travel_to_the_tsaddik" resp="#llm-tagging">תיוגים</span>
 <p>
 					<lb/>מה וכן פ״א כשהיה החולי ר״ל מתהלך בכל המדינה, והיה אז
 					<date><lb/>בר״ה</date> מתאסף אל אנשים רבים, ומיד אחד <date>ר״ה</date> צוה
 					<lb/>להכריז אשר כולם ישובו לביתם, ואמר בקול רם אשר מנסיעת
 					<lb/>הדרך עד ביתם אני מבטיח אותם לבל יגע רע לשום אחד מהם :
 				</p>
-				</div><div type="story" xml:id="Toldot-Haniflaot_0041" n="41"><head type="storyHead">Toldot-Haniflaot_0041</head>
+				</div><div type="story" xml:id="Toldot-Haniflaot_0041" n="41"><head type="storyHead">Toldot-Haniflaot_0041</head><span ana="folkloristics:story_type_protection; practice:protection; practice:lifesaving; practice:travel_to_the_tsaddik; social:inter_hasidic_master_disciple_relationship; spaces:institutions_hassidic_court; supernatural:miracle; supernatural:perception; supernatural:prognostication; times:historical_event" resp="#llm-tagging">תיוגים</span>
 <p>
 					<lb/>מו שמעתי מהחסיד המפורסם ר׳ <persName>ראובן מ<placeName ana="bio">זעליחאוו</placeName></persName> ז"ל אשר
 					<lb/>היה מקורב אל מרן ז״ל מאד, כי פעם אז היה
@@ -691,7 +691,7 @@
 					<lb/>תיכף התחיל הנגף ר״ל בבית הזה והיה מה שהיה ר״ל, וכ״ז שהיו
 					<lb/>הב״ב באותו בית לא היה נגע עוד שום רע בכל חדרים בהבית :
 				</p>
-				</div><div type="story" xml:id="Toldot-Haniflaot_0042" n="42"><head type="storyHead">Toldot-Haniflaot_0042</head>
+				</div><div type="story" xml:id="Toldot-Haniflaot_0042" n="42"><head type="storyHead">Toldot-Haniflaot_0042</head><span ana="ethics-and-emotions:anger; ethics-and-emotions:lust; practice:the_travels_of_the_tsaddik; social:relations_with_sinners; social:retrospective_recognition; spaces:mikveh; supernatural:perception; times:shabbat; ethics-and-emotions:prohibitions; practice:torat_ha_tsaddik; practice:tvilah; social:inter_hasidic_master_disciple_relationship" resp="#llm-tagging">תיוגים</span>
 <p>
 					<lb/>מז שמעתי מחסיד המפורסם הנ"ל, אשר פ"א שלחו אנשי עיר
 					<placeName><lb/>זעליחאיו</placeName> אל מרן ז״ל לבקשו שיבא אל עירם
@@ -720,7 +720,7 @@
 					<lb/>המה דברי א״ח דברי מרן ז"ל, כי הבל היה בסוד, אמנם לאחר
 					<lb/>איזה זמן נתגלה הקלון ונתפרסם שכן היה ממש כמו שאמר מרן ז״ל :
 				</p>
-				</div><div type="story" xml:id="Toldot-Haniflaot_0043" n="43"><head type="storyHead">Toldot-Haniflaot_0043</head>
+				</div><div type="story" xml:id="Toldot-Haniflaot_0043" n="43"><head type="storyHead">Toldot-Haniflaot_0043</head><span ana="ethics-and-emotions:lying; ethics-and-emotions:shame; practice:travel_to_the_tsaddik; social:relations_with_sinners; supernatural:perception; ethics-and-emotions:prohibitions; ethics-and-emotions:punishment; practice:drinking_alcohol; practice:healing_of_the_soul; social:inter_hasidic; times:holidays" resp="#llm-tagging">תיוגים</span>
 <p>
 					<lb/>מח ושוב היה מעשה בנער א׳ מבני הנעורים החסידים הנוסעים
 					<lb/>למרן ז״ל מעיר א׳, והיא היה נאהב להרבה אנשים
@@ -742,7 +742,7 @@
 					<lb/>עמו ומה שצוה אל החסיד ר׳ <persName>ראובן</persName> כנ״ל, שמעתי הכל מר'
 					<persName><lb/>ראובן</persName> ז״ל :
 				</p>
-				</div><div type="story" xml:id="Toldot-Haniflaot_0044" n="44"><head type="storyHead">Toldot-Haniflaot_0044</head>
+				</div><div type="story" xml:id="Toldot-Haniflaot_0044" n="44"><head type="storyHead">Toldot-Haniflaot_0044</head><span ana="ethics-and-emotions:awe; ethics-and-emotions:fear; social:relations_with_sinners; supernatural:perception; ethics-and-emotions:lying; ethics-and-emotions:repentance; practice:healing_of_the_soul; practice:reception_of_hasidim; spaces:institutions_hassidic_court" resp="#llm-tagging">תיוגים</span>
 <p>
 					<lb/>מט וגם שמעתי מהחסיד המפורסם ר׳ <persName>משה</persName> בעל דברי תורה,
 					<lb/>אמר לי כי היום סיפר לי מרן ז"ל כי היום בא נער א׳,
@@ -756,7 +756,7 @@
 					<lb/>עמדו לנגד עיניהם והרהרו בתשובה, כנודע ומפורסם, היה זה
 					<lb/>בין אנ"ש :
 				</p>
-				</div><div type="story" xml:id="Toldot-Haniflaot_0045" n="45"><head type="storyHead">Toldot-Haniflaot_0045</head>
+				</div><div type="story" xml:id="Toldot-Haniflaot_0045" n="45"><head type="storyHead">Toldot-Haniflaot_0045</head><span ana="ethics-and-emotions:humility; practice:drinking_alcohol; social:retrospective_recognition; supernatural:perception; folkloristics:story_type_virtues; practice:the_travels_of_the_tsaddik; practice:travel_to_other_tsaddik; social:inter_hasidic; social:relations_with_sinners; spaces:institutions_hassidic_court" resp="#llm-tagging">תיוגים</span>
 <p>
 					<lb/>נ פ״א היה ההק׳ הצדיק מ<placeName>ווארקא</placeName> זצ״ל ב<placeName>מאגלניצא</placeName> והיה מרן
 					<lb/>ז״ל עושה סעודה גדולה עבורו כדרכו תמיד, ובעת
@@ -775,7 +775,7 @@
 					<lb/>ולדרוש אודות האיש ההוא ונתוודע אליו שכבר יצא עליו ש״ר
 					<lb/>ורינון גדול :
 				</p>
-				</div><div type="story" xml:id="Toldot-Haniflaot_0046" n="46"><head type="storyHead"><persName>Toldot</persName>-Haniflaot_0046</head>
+				</div><div type="story" xml:id="Toldot-Haniflaot_0046" n="46"><head type="storyHead"><persName>Toldot</persName>-Haniflaot_0046</head><span ana="practice:tvilah; spaces:beth_midrash; supernatural:perception; folkloristics:story_type_virtues" resp="#llm-tagging">תיוגים</span>
 <p>
 					<pb facs="Toldot-Haniflaot_0020.jpg"/><lb/>נא וגם היה נודע לכל כי הרגיש מאד במי שהיה צריך טבילה
 					<lb/>ובעיני ראיתי באחד שבא והיה צריך טבילה מטורח
@@ -789,7 +789,7 @@
 					<lb/>תורה וי״ש והיה צריך טבילה אבל אנשים פשוטים מהמוני עם לא
 					<lb/>היה איכפת ליה :
 				</p>
-				</div><div type="story" xml:id="Toldot-Haniflaot_0047" n="47"><head type="storyHead">Toldot-Haniflaot_0047</head>
+				</div><div type="story" xml:id="Toldot-Haniflaot_0047" n="47"><head type="storyHead">Toldot-Haniflaot_0047</head><span ana="ethics-and-emotions:virtues; folkloristics:story_type_virtues; practice:prayer; practice:reception_of_hasidim; practice:healing; practice:torat_ha_tsaddik; supernatural:perception" resp="#llm-tagging">תיוגים</span>
 <p>
 					<lb/>נב שמעתי מהחסיד המפורסם ר׳ <persName>משה</persName> הנ"ל, כי פ"א היה
 					<lb/>מרן ז"ל נחלה מאד עד שהיה רעש גדול בעולם מגודל
@@ -808,7 +808,7 @@
 					<lb/>ז״ל אם ת״ח הוא צריך שיחליא עצמו עליו, וזה לא היה ת"ח כ״כ
 					<lb/>ומ״מ היה מחליא עצמו עליו כ״כ :
 				</p>
-				</div><div type="story" xml:id="Toldot-Haniflaot_0048" n="48"><head type="storyHead">Toldot-Haniflaot_0048</head>
+				</div><div type="story" xml:id="Toldot-Haniflaot_0048" n="48"><head type="storyHead">Toldot-Haniflaot_0048</head><span ana="practice:torat_ha_tsaddik; spaces:beth_midrash; supernatural:perception; times:shabbat; practice:travel_to_the_tsaddik; social:inter_hasidic_master_disciple_relationship; spaces:institutions_hassidic_court; times:holidays" resp="#llm-tagging">תיוגים</span>
 <p>
 					<lb/>נג שמעתי מהחסיד ר׳ <persName>משה</persName> הנ"ל, כי פ"א בעת שלש סעודות
 					<lb/>קודם <date>ר״ה</date> כשהיה בית המדרש הגדול מלא
@@ -820,7 +820,7 @@
 					<lb/>יודע שאני ישנתי, והשיב לו אם לא הייתי יודע היה עבירה בידך
 					<lb/>לנסוע אלי :
 				</p>
-				</div><div type="story" xml:id="Toldot-Haniflaot_0049" n="49"><head type="storyHead">Toldot-Haniflaot_0049</head>
+				</div><div type="story" xml:id="Toldot-Haniflaot_0049" n="49"><head type="storyHead">Toldot-Haniflaot_0049</head><span ana="practice:storytelling; supernatural:communicating_with_the_invisible; supernatural:perception" resp="#llm-tagging">תיוגים</span>
 <p>
 					<lb/>נד שמעתי מהחסיד ר׳ <persName>משה</persName> שאמר לנו, הנה אספר לכם
 					<lb/>מה שסיפר לי היום מרן שלי״ט, אמר כי היום
@@ -829,7 +829,7 @@
 					<lb/>כמדומה לי שעוד לא יודע שהוא נפטר מן העולם והולך בדמיון
 					<lb/>שהוא חי :
 				</p>
-				</div><div type="story" xml:id="Toldot-Haniflaot_0050" n="50"><head type="storyHead">Toldot-Haniflaot_0050</head>
+				</div><div type="story" xml:id="Toldot-Haniflaot_0050" n="50"><head type="storyHead">Toldot-Haniflaot_0050</head><span ana="practice:music; times:death; times:shabbat; practice:prayer; practice:travel_to_the_tsaddik; social:inter_hasidic_master_disciple_relationship; supernatural:communicating_with_the_invisible; supernatural:perception" resp="#llm-tagging">תיוגים</span>
 <p>
 					<lb/>נה שמעתי מהחסיד ר' <persName>מאטיל</persName> אב"ד דק' <placeName>נאווערטשוב</placeName>, כשהיה
 					<lb/>אביו החסיד ר׳ <persName>זעליג מ<placeName ana="bio">אמטשנאוו</placeName></persName> נפטר מהעולם,
@@ -843,14 +843,14 @@
 					<lb/>וכובדתי אותו לזמר איזה זמר, ואמר כי דבר גדול הוא אשר סמוך
 					<lb/>לפטירתו כ״כ היה יכול להיות אצלי :
 				</p>
-				</div><div type="story" xml:id="Toldot-Haniflaot_0051" n="51"><head type="storyHead">Toldot-Haniflaot_0051</head>
+				</div><div type="story" xml:id="Toldot-Haniflaot_0051" n="51"><head type="storyHead">Toldot-Haniflaot_0051</head><span ana="practice:storytelling; supernatural:perception; ethics-and-emotions:punishment" resp="#llm-tagging">תיוגים</span>
 <p>
 					<lb/>נו שמעתי אומרים כי אדמו״ר הה״ק המפורסם <persName>ר״א מ<placeName ana="bio" ref="#H-LOC_151">קאזניץ</placeName></persName>
 					<lb/>סיפר משמיה דמרן ז״ל אשר פ״א עבר מלפני רחיים
 					<lb/>של מים וראה איש א׳ עומד תחת הגלגל כשהיה מגלגל ושופך
 					<lb/>מים, אשר בחיים חיותו היה מהמקורבים אצל צדיק א׳ :
 				</p>
-				</div><div type="story" xml:id="Toldot-Haniflaot_0052" n="52"><head type="storyHead">Toldot-Haniflaot_0052</head>
+				</div><div type="story" xml:id="Toldot-Haniflaot_0052" n="52"><head type="storyHead">Toldot-Haniflaot_0052</head><span ana="supernatural:perception; supernatural:reincarnation; practice:reception_of_hasidim; practice:storytelling; practice:the_travels_of_the_tsaddik" resp="#llm-tagging">תיוגים</span>
 <p>
 					<lb/>נז פ״א היה מרן ז״ל בכפר א׳ ובאו אנשים רבים לקבל פניו
 					<lb/>וסיפר אח״כ כי פ״א באו אנשים מכובדים לקבל <sic correction="פני">פנ</sic>
@@ -858,7 +858,7 @@
 					<lb/>לידתם מגולגלים בחזירים ועתה המה מנכבדי העיר, ואחר שסיפר זה
 					<lb/>אמר כי גם באנשים ההמה שהיו בכאן היה ג״כ כן :
 				</p>
-				</div><div type="story" xml:id="Toldot-Haniflaot_0053" n="53"><head type="storyHead">Toldot-Haniflaot_0053</head>
+				</div><div type="story" xml:id="Toldot-Haniflaot_0053" n="53"><head type="storyHead">Toldot-Haniflaot_0053</head><span ana="characters-and-roles:demons; ethics-and-emotions:fear; folkloristics:story_type_protection; practice:protection; spaces:beth_midrash; supernatural:miracle; kabbalah:kabbalistic_terms_kavvanot; practice:healing; practice:prayer; social:inter_hasidic; supernatural:communicating_with_the_invisible; women:minor_character" resp="#llm-tagging">תיוגים</span>
 <p>
 					<lb/>נח והנה בעיני ראיתי כי כמה רוחות רעות שהיה הוא ז"ל
 					<lb/>מגרש אותם. וראינו <sic correction="הפחד">הפ ד</sic> הגדול שהיה להם מפניו,
@@ -881,7 +881,7 @@
 					<lb/>לי מר שאיני מכוון שום כוונה רק שהמה שוטים שיראים מפני,
 					<lb/>ולכן המה בורחים :
 				</p>
-				</div><div type="story" xml:id="Toldot-Haniflaot_0054" n="54"><head type="storyHead">Toldot-Haniflaot_0054</head>
+				</div><div type="story" xml:id="Toldot-Haniflaot_0054" n="54"><head type="storyHead">Toldot-Haniflaot_0054</head><span ana="ethics-and-emotions:awe; practice:healing; social:relations_with_non_jews; supernatural:miracle" resp="#llm-tagging">תיוגים</span>
 <p>
 					<lb/>נט והנה הרבה פעמים הביאו אליו גם משוגעים, וראינו בעינינו
 					<lb/>שכולם נתרפאו ונסעו לביתם בריא אולם, וזכורני כי
@@ -891,7 +891,7 @@
 					<lb/>נקרא עליך ויראו ממך, כי כל עמי העיר והסביבות היו יראים
 					<lb/>ממנו וכבדו אותו ואמרו בפיהם כי הרב הוא איש <name type="misc">אלהים</name> נורא :
 				</p>
-				</div><div type="story" xml:id="Toldot-Haniflaot_0055" n="55"><head type="storyHead">Toldot-Haniflaot_0055</head>
+				</div><div type="story" xml:id="Toldot-Haniflaot_0055" n="55"><head type="storyHead">Toldot-Haniflaot_0055</head><span ana="folkloristics:story_type_protection; practice:drinking_alcohol; practice:protection; practice:the_travels_of_the_tsaddik; social:relations_with_non_jews; practice:travel_to_other_tsaddik; social:conflict; social:inter_hasidic; supernatural:miracle; supernatural:perception" resp="#llm-tagging">תיוגים</span>
 <p>
 					<lb/>ס סיפר לי איש אחד מעשה נפלאה אשר הוא היה עומד שם
 					<lb/>בשעת מעשה זו. והוא כאשר <persName>מרן</persName> ז״ל היה ב<placeName>ראדשיץ</placeName>
@@ -925,7 +925,7 @@
 					<lb/>הדבר לפלא, ואח״כ אמר ההק' מ<placeName>ראדשיץ</placeName> תדעו כי המופת ההוא
 					<lb/>אין שלי לבדי רק בשותפות עם ההק' מ<placeName>מאגלניצא</placeName> זי״ע :
 				</p>
-				</div><div type="story" xml:id="Toldot-Haniflaot_0056" n="56"><head type="storyHead">Toldot-Haniflaot_0056</head>
+				</div><div type="story" xml:id="Toldot-Haniflaot_0056" n="56"><head type="storyHead">Toldot-Haniflaot_0056</head><span ana="practice:travel_to_the_tsaddik; supernatural:communicating_with_the_invisible; supernatural:prognostication; women:minor_character; characters-and-roles:agunah; folkloristics:story_type_prognostication; practice:halakhah; practice:reception_of_hasidim; practice:releasing_agunot; practice:torat_ha_tsaddik; supernatural:perception; times:shabbat" resp="#llm-tagging">תיוגים</span>
 <p>
 					<lb/>סא ואגב אכתוב מעשה נוראה מהאי סבא קדישא מ<placeName>ראדשיץ</placeName> אשר
 					<lb/>סיפר לי חתנו הרב מ״ו <persName>יוסף חיים</persName> ז״ל, פ״א ששמע
@@ -983,7 +983,7 @@
 					<lb/>לי הרב ר׳ <persName>יוסף חיים</persName> הנ״ל, מה שהיה אח״כ אין ידוע לי עוד,
 					<lb/>ועתה דע הבן כח הצדיקים :
 				</p>
-				</div><div type="story" xml:id="Toldot-Haniflaot_0057" n="57"><head type="storyHead">Toldot-Haniflaot_0057</head>
+				</div><div type="story" xml:id="Toldot-Haniflaot_0057" n="57"><head type="storyHead">Toldot-Haniflaot_0057</head><span ana="ethics-and-emotions:fear; ethics-and-emotions:lust; ethics-and-emotions:repentance; ethics-and-emotions:resisting_temptation; ethics-and-emotions:sadness; ethics-and-emotions:shame; folkloristics:story_type_protection; practice:music; practice:protection; practice:tefillin; practice:travel_to_the_tsaddik; spaces:rabbinical_court; supernatural:communicating_with_the_invisible; ethics-and-emotions:prohibitions; practice:halakhah; practice:healing_of_the_soul; practice:prayer; practice:storytelling; social:retrospective_recognition; supernatural:miracle; supernatural:perception" resp="#llm-tagging">תיוגים</span>
 <p>
 					<lb/>סב מעשה נוראה שהיה בנער אחד מ<placeName ref="#H-LOC_63">פרשיסחא</placeName> ה׳ שבועות
 					<lb/>אחר החתונה, והנה כמו ח׳ ימים הלך משומם
@@ -1042,7 +1042,7 @@
 					<lb/>על ידי סבות כאלה ח"ו, רק מאהבת ה׳ לבד, ועיין בספר דברי
 					<lb/>אלימלך <sic>פרשת</sic> שנרמז מעשה זו בקיצור גדול עיי״ש מה שכתב שם :
 				</p>
-				</div><div type="story" xml:id="Toldot-Haniflaot_0058" n="58"><head type="storyHead">Toldot-Haniflaot_0058</head>
+				</div><div type="story" xml:id="Toldot-Haniflaot_0058" n="58"><head type="storyHead">Toldot-Haniflaot_0058</head><span ana="practice:drinking_alcohol; practice:travel_to_the_tsaddik; supernatural:perception; times:shabbat; practice:storytelling; social:inter_hasidic_master_disciple_relationship; spaces:institutions_hassidic_court" resp="#llm-tagging">תיוגים</span>
 <p>
 					<pb facs="Toldot-Haniflaot_0027.jpg"/><lb/>סג נודע ג״כ כי היה בעל רוה"ק גדול, ואספר איזה מעשיות
 					<lb/>הגם שהם כטפה מן הים כי כ״א היה מספר מעשיות
@@ -1056,7 +1056,7 @@
 					<lb/>לו מרן יין מה יהיה עושה, אבל באמת נתן לו יין ואמר לו כל
 					<lb/>התשובה בפירוש כאלו היה שואל אותו :
 				</p>
-				</div><div type="story" xml:id="Toldot-Haniflaot_0059" n="59"><head type="storyHead">Toldot-Haniflaot_0059</head>
+				</div><div type="story" xml:id="Toldot-Haniflaot_0059" n="59"><head type="storyHead">Toldot-Haniflaot_0059</head><span ana="practice:tvilah; supernatural:perception; times:shabbat; practice:reception_of_hasidim; social:inter_hasidic_master_disciple_relationship; spaces:institutions_hassidic_court; spaces:mikveh" resp="#llm-tagging">תיוגים</span>
 <p>
 					<lb/>סד פ"א היה יוצא הה"צ ר׳ <persName>עמנואל</persName> ז"ל מהמקוה ע"ש לעת ערב
 					<lb/>והיו שני בני הנעורים מעירו עמו, וביקש א׳ מהם
@@ -1070,7 +1070,7 @@
 					<lb/>אז כשהלכתי ממקוה עמהם ושאלו ממני דבר זה כנ"ל היה מרן
 					<lb/>ז״ל אז ג״כ במקוה, ועכ"ז ידע ברוה״ק מה שהיו מדברים עמי :
 				</p>
-				</div><div type="story" xml:id="Toldot-Haniflaot_0060" n="60"><head type="storyHead">Toldot-Haniflaot_0060</head>
+				</div><div type="story" xml:id="Toldot-Haniflaot_0060" n="60"><head type="storyHead">Toldot-Haniflaot_0060</head><span ana="ethics-and-emotions:charity; social:inter_hasidic_master_disciple_relationship; supernatural:perception; times:holidays; characters-and-roles:the_family_of_the_tsaddik; practice:torat_ha_tsaddik; practice:travel_to_the_tsaddik; social:retrospective_recognition" resp="#llm-tagging">תיוגים</span>
 <p>
 					<lb/>סה שמעתי מבניו של הה״צ ר׳ <persName>עמנואל</persName> ז"ל ששמעו מאביהם
 					<lb/>ז״ל כי פ״א היה ב<placeName>מאגלגיצא</placeName> קודם חג הפסח,
@@ -1091,7 +1091,7 @@
 					<lb/>אצלו, ולקח חמש מאות <name type="currency">זהובים</name> וביקש מאתו שיקבל ממנו, והיה
 					<lb/>לו מזה על צרכי פסח :
 				</p>
-				</div><div type="story" xml:id="Toldot-Haniflaot_0061" n="61"><head type="storyHead">Toldot-Haniflaot_0061</head>
+				</div><div type="story" xml:id="Toldot-Haniflaot_0061" n="61"><head type="storyHead">Toldot-Haniflaot_0061</head><span ana="practice:solitude; supernatural:perception; experience:enthusiasm; practice:reception_of_hasidim; practice:travel_to_the_tsaddik; social:inter_hasidic; social:inter_hasidic_master_disciple_relationship" resp="#llm-tagging">תיוגים</span>
 <p>
 					<lb/>סו סיפר לי אברך א׳ חסיד וי״ש, כי פ״א קודם שהלך
 					<lb/>לבית מרן ז״ל ליטול רשות ליסע לביתו, היה הולך
@@ -1109,7 +1109,7 @@
 					<lb/>דברים גדולים, אבל אך לפרקים, אבל במרן ז״ל מ<placeName>מאגלניצא</placeName> היינו
 					<lb/>רגילים לראות בכל עת ובכל שעה את רוה״ק המרחף על פניו :
 				</p>
-				</div><div type="story" xml:id="Toldot-Haniflaot_0062" n="62"><head type="storyHead">Toldot-Haniflaot_0062</head>
+				</div><div type="story" xml:id="Toldot-Haniflaot_0062" n="62"><head type="storyHead">Toldot-Haniflaot_0062</head><span ana="practice:travel_to_the_tsaddik; social:retrospective_recognition; supernatural:perception; folkloristics:story_type_prognostication; social:competition; social:inter_hasidic; supernatural:prognostication; times:holidays" resp="#llm-tagging">תיוגים</span>
 <p>
 					<lb/>סז שמעתי כ״פ מהרבני החסיד ר׳ <persName>איסר מ<placeName ana="bio">ווארקא</placeName></persName>, כי פ"א
 					<lb/>קודם <date>ר״ה</date> כאשר הוצרך לנסוע ל<placeName>מאגליניצא</placeName>, היה
@@ -1127,7 +1127,7 @@
 					<lb/>ואין לאחריו כלום, ושלח במכוון לקרוא להחסיד ר' <persName>איסר</persName> הנ״ל
 					<lb/>ואמר אליו עתה ידעתי כי רבי שלכם הוא בשמים ואני בארץ :
 				</p>
-				</div><div type="story" xml:id="Toldot-Haniflaot_0063" n="63"><head type="storyHead">Toldot-Haniflaot_0063</head>
+				</div><div type="story" xml:id="Toldot-Haniflaot_0063" n="63"><head type="storyHead">Toldot-Haniflaot_0063</head><span ana="supernatural:perception; characters-and-roles:the_family_of_the_tsaddik; practice:pidyon_nefesh; practice:torat_ha_tsaddik; social:inter_hasidic; supernatural:prognostication" resp="#llm-tagging">תיוגים</span>
 <p>
 					<lb/>סח ראיתי אגרת מהה"ג הצדיק ר׳ <persName>פייבל מ<placeName ana="bio">גריצא</placeName></persName> ז״ל,
 					<lb/>אל מרן ז"ל מ<placeName>נאדרזין</placeName> בעת שהיה ההק׳ ב<placeName>ווארקא</placeName>
@@ -1139,7 +1139,7 @@
 					<lb/>ב׳ שנים קודם את חוליו ב<placeName>נאדרזין</placeName> והמתיק הדינים ממנו, והאגרת
 					<lb/>הלזו היה מונח בידי כמה שנים ונאבד ממני :
 				</p>
-				</div><div type="story" xml:id="Toldot-Haniflaot_0064" n="64"><head type="storyHead">Toldot-Haniflaot_0064</head>
+				</div><div type="story" xml:id="Toldot-Haniflaot_0064" n="64"><head type="storyHead">Toldot-Haniflaot_0064</head><span ana="ethics-and-emotions:anger; ethics-and-emotions:shame; practice:pidyon_nefesh; practice:travel_to_the_tsaddik; social:retrospective_recognition; supernatural:perception; times:holidays; ethics-and-emotions:fear; practice:protection; practice:storytelling; practice:torat_ha_tsaddik; social:inter_hasidic_master_disciple_relationship; spaces:institutions_hassidic_court" resp="#llm-tagging">תיוגים</span>
 <p>
 					<lb/>סט סיפר לי הה״ג החסיד ר׳ <persName>יעקב יצחק</persName> אב״ד דעיר <placeName>סאבין</placeName>
 					<lb/>בן הרב הצדיק ר׳ <persName>משה סטעניצר מ<placeName ana="bio">זעליחאוו</placeName></persName> אשר
@@ -1164,7 +1164,7 @@
 					<lb/>ע״ז כי היה נודע ומפורסם כי נבחן הדבר שהיה מסיר בזה
 					<lb/>הדינים מכ״א :
 				</p>
-				</div><div type="story" xml:id="Toldot-Haniflaot_0065" n="65"><head type="storyHead">Toldot-Haniflaot_0065</head>
+				</div><div type="story" xml:id="Toldot-Haniflaot_0065" n="65"><head type="storyHead">Toldot-Haniflaot_0065</head><span ana="ethics-and-emotions:anger; ethics-and-emotions:punishment; practice:halakhah; practice:sermon; social:conflict; social:relations_with_sinners; practice:reception_of_hasidim; practice:storytelling; practice:torat_ha_tsaddik; practice:travel_to_the_tsaddik; spaces:rabbinical_court; supernatural:prognostication" resp="#llm-tagging">תיוגים</span>
 <p>
 					<lb/>ע סיפר הרב הנ״ל ב׳ מעשיות שהיו מפניו, שהיה איש אחד
 					<lb/>י״ש שהיה לו דין ודברים עם עשיר א׳ שהיה גבר אלם
@@ -1198,7 +1198,7 @@
 					<lb/>אחרים ר״ל ונתקיים הוי זהור בגחלתן, יתן ה׳ לקיים התורה
 					<lb/>והמצות אכי״ר :
 				</p>
-				</div><div type="story" xml:id="Toldot-Haniflaot_0066" n="66"><head type="storyHead">Toldot-Haniflaot_0066</head>
+				</div><div type="story" xml:id="Toldot-Haniflaot_0066" n="66"><head type="storyHead">Toldot-Haniflaot_0066</head><span ana="practice:prayer; ethics-and-emotions:humility; ethics-and-emotions:joy; ethics-and-emotions:prohibitions; folkloristics:story_type_virtues; practice:torat_ha_tsaddik; practice:travel_to_other_tsaddik; social:inter_hasidic; social:retrospective_recognition; supernatural:perception" resp="#llm-tagging">תיוגים</span>
 <p>
 					<lb/>עא עוד סיפר פ"א היה מתאחר קצת מהעת התפלה בבקר,
 					<lb/>ודרכו היה כאשר הגיע זייגער עשירי או קצת יותר ולא
@@ -1246,7 +1246,7 @@
 					<persName><lb/>רבי</persName>, ואמר כי רק תפלת <persName>רבי</persName> מעמיד אותי וכהנה וכהנה דיבר כך
 					<lb/>שמעתי אז ממנו :
 				</p>
-				</div><div type="story" xml:id="Toldot-Haniflaot_0067" n="67"><head type="storyHead">Toldot-Haniflaot_0067</head>
+				</div><div type="story" xml:id="Toldot-Haniflaot_0067" n="67"><head type="storyHead">Toldot-Haniflaot_0067</head><span ana="practice:recitation_of_psalms; practice:torat_ha_tsaddik; practice:healing; practice:prayer; social:inter_hasidic" resp="#llm-tagging">תיוגים</span>
 <p>
 					<lb/>עב פ״א היה <persName>מרן</persName> נחלה למאד, בכל העיירות היה רעש
 					<lb/>גדול והיו אומרים תהלים ומבקשים רחמים עבורו והיה
@@ -1264,7 +1264,7 @@
 					<lb/>אשר מחלתו אינו ע״פ הטבע, וגם רפואתו אינו ע״פ הטבע, ואיזה
 					<lb/>שייכות יש להדאקטורים אליו, כן שמעתי מנכדי הצדיק <persName>ר״מ</persName> הנ"ל :
 				</p>
-				</div><div type="story" xml:id="Toldot-Haniflaot_0068" n="68"><head type="storyHead">Toldot-Haniflaot_0068</head>
+				</div><div type="story" xml:id="Toldot-Haniflaot_0068" n="68"><head type="storyHead">Toldot-Haniflaot_0068</head><span ana="experience:enthusiasm; practice:prayer; times:holidays; practice:torat_ha_tsaddik; social:inter_hasidic; supernatural:miracle; supernatural:perception" resp="#llm-tagging">תיוגים</span>
 <p>
 					<lb/>עג וגם שמעתי מהם שספרו כי פעם א' ב<date>ר"ה</date> כשהיה הה"צ <persName>ר"מ</persName>
 					<lb/>הנ״ל זקנם מתפלל מוסף לפני העמוד כדרכו, היה
@@ -1277,14 +1277,14 @@
 					<lb/>רוחו אליו ונתחזק כל הכוחות וגמר התפלה כדרכו כ״ז שמעו
 					<lb/>מפי זקנם ז״ל :
 				</p>
-				</div><div type="story" xml:id="Toldot-Haniflaot_0069" n="69"><head type="storyHead">Toldot-Haniflaot_0069</head>
+				</div><div type="story" xml:id="Toldot-Haniflaot_0069" n="69"><head type="storyHead">Toldot-Haniflaot_0069</head><span ana="experience:journey_to_heaven; practice:storytelling; folkloristics:story_type_revelation; social:inter_hasidic_master_disciple_relationship; spaces:heaven" resp="#llm-tagging">תיוגים</span>
 <p>
 					<lb/>עד שמעתי מהחסיד המפורסם ר׳ <persName>ראובן מ<placeName ana="bio">זעליחאוו</placeName></persName> הנ"ל,
 					<lb/>אשר פ״א דיבר <persName>מרן</persName> ז״ל עמו מהה״ק ר׳ <persName>מיכל
 					<lb/>מ<placeName ana="bio" ref="#H-LOC_398">זלאטשוב</placeName></persName>, אשר היה רגיל להיות בג״ע וסיפר כמה מעשיות מזה,
 					<lb/>ואז גילה אליו שגם הוא יש לו מדרגה זו להיות בג״ע :
 				</p>
-				</div><div type="story" xml:id="Toldot-Haniflaot_0070" n="70"><head type="storyHead">Toldot-Haniflaot_0070</head>
+				</div><div type="story" xml:id="Toldot-Haniflaot_0070" n="70"><head type="storyHead">Toldot-Haniflaot_0070</head><span ana="experience:journey_to_heaven; spaces:heaven; times:shabbat; social:retrospective_recognition; supernatural:communicating_with_the_invisible" resp="#llm-tagging">תיוגים</span>
 <p>
 					<lb/>עה שמעתי מהחסיד מפורסם ר׳ <persName>נפתלי מ<placeName ana="bio">זעליחאוו</placeName></persName> חתן הה"צ
 					<lb/>ר׳ <persName>יחזקאל</persName> ז״ל שהיה חתן <persName>המגיד</persName> הק׳ מ<placeName ref="#H-LOC_151">קאזניץ</placeName>
@@ -1294,7 +1294,7 @@
 					<lb/>בג״ע בין נשמות הצדיקים, ובליל ש״ק זו היה רוצה לראות את
 					<lb/>מרן בעל <persName>נועם אלימלך</persName>, והיה מתאחר מאוד עד שזכה לראותו :
 				</p>
-				</div><div type="story" xml:id="Toldot-Haniflaot_0071" n="71"><head type="storyHead">Toldot-Haniflaot_0071</head>
+				</div><div type="story" xml:id="Toldot-Haniflaot_0071" n="71"><head type="storyHead">Toldot-Haniflaot_0071</head><span ana="practice:study; supernatural:miracle; characters-and-roles:the_family_of_the_tsaddik; practice:storytelling" resp="#llm-tagging">תיוגים</span>
 <p>
 					<lb/>עו שמעתי מחתנו הרב החסיד וכו׳ ר׳ <persName>אלחנן</persName> ז"ל, שפ"א דיבר
 					<lb/>מרן ז״ל מהגאון <persName>מהרש״ל</persName> ז״ל מה דאיתא ב<name type="work">קב הישר</name>
@@ -1304,7 +1304,7 @@
 					<lb/>נצרך לי ספר אחד לעיין בו, ואז לא היה איש בביתי, ומיד
 					<lb/>הובא אלי ספר זה פתוח בהמקום שהיה נצרך לי לעיין בו :
 				</p>
-				</div><div type="story" xml:id="Toldot-Haniflaot_0072" n="72"><head type="storyHead">Toldot-Haniflaot_0072</head>
+				</div><div type="story" xml:id="Toldot-Haniflaot_0072" n="72"><head type="storyHead">Toldot-Haniflaot_0072</head><span ana="experience:devekut; practice:devekut; times:shabbat; practice:solitude; practice:storytelling; supernatural:miracle" resp="#llm-tagging">תיוגים</span>
 <p>
 					<lb/>עז סיפר לי הרב החסיד, אשר פ"א אחר קידוש דליל <date>שבת</date>
 					<lb/>אמר להיושבים על שלחנו, הנה עוף אחד ריחם עליכם,
@@ -1312,7 +1312,7 @@
 					<lb/>שאני בעוה״ז, ובא עוף א׳ ודפק על פתחי ואמר כי אנשים
 					<lb/>היושבים בהשלחן מצפים ביאתך ולמה לא תלך אליהם :
 				</p>
-				</div><div type="story" xml:id="Toldot-Haniflaot_0073" n="73"><head type="storyHead">Toldot-Haniflaot_0073</head>
+				</div><div type="story" xml:id="Toldot-Haniflaot_0073" n="73"><head type="storyHead">Toldot-Haniflaot_0073</head><span ana="characters-and-roles:angels; ethics-and-emotions:awe; ethics-and-emotions:fear; folkloristics:story_type_virtues; practice:the_travels_of_the_tsaddik; practice:travel_to_the_tsaddik; supernatural:communicating_with_the_invisible; characters-and-roles:the_family_of_the_tsaddik; ethics-and-emotions:humility; practice:storytelling; social:inter_hasidic_master_disciple_relationship" resp="#llm-tagging">תיוגים</span>
 <p>
 					<lb/>עח עוד סיפר לי בי פ"א היה נוסע מרן ז"ל ל<placeName ref="#H-LOC_178">ווארשא</placeName> והוא היה
 					<lb/>יושב בהמרכבה אצלו, וכאשר הגיע כמו תחום שבת
@@ -1333,7 +1333,7 @@
 					<lb/>הולך בדרך הטוב, ראה והבן כי אחר כל צדקותיו ומדרגותיו, עד
 					<lb/>היכן הגיע היראת שמים שלו :
 				</p>
-				</div><div type="story" xml:id="Toldot-Haniflaot_0074" n="74"><head type="storyHead">Toldot-Haniflaot_0074</head>
+				</div><div type="story" xml:id="Toldot-Haniflaot_0074" n="74"><head type="storyHead">Toldot-Haniflaot_0074</head><span ana="not-a-hasidic-story:sermon" resp="#llm-tagging">תיוגים</span>
 <p>
 					<lb/>עט שמעתי מהה"ג אב"ד דק"ק <placeName>טשעכוב</placeName> אשר אח״כ היה
 					<lb/>ב<placeName>פיעטרקב</placeName> שאמר לו מרן ז״ל, כי כאשר גם
@@ -1341,13 +1341,13 @@
 					<lb/>(כי כן היה דרכו לנגן תכנת שבת וישמחו במלכותך) אזי ממש
 					<lb/>הלוים שב<name type="misc">ג״ע</name> מנגנים עמדי :
 				</p>
-				</div><div type="story" xml:id="Toldot-Haniflaot_0075" n="75"><head type="storyHead">Toldot-Haniflaot_0075</head>
+				</div><div type="story" xml:id="Toldot-Haniflaot_0075" n="75"><head type="storyHead">Toldot-Haniflaot_0075</head><span ana="not-a-hasidic-story:sermon" resp="#llm-tagging">תיוגים</span>
 <p>
 					<lb/>פ ואמר כי בזמירות שלש סעודות פותחין לו היכלות עליונים
 					<lb/>מאד, וירא לכנוס בהם כי אין מי שימשיך אותו
 					<lb/>שוב משם :
 				</p>
-				</div><div type="story" xml:id="Toldot-Haniflaot_0076" n="76"><head type="storyHead">Toldot-Haniflaot_0076</head>
+				</div><div type="story" xml:id="Toldot-Haniflaot_0076" n="76"><head type="storyHead">Toldot-Haniflaot_0076</head><span ana="practice:travel_to_the_tsaddik; supernatural:pregnancy; times:holidays; ethics-and-emotions:joy; practice:halakhah; practice:storytelling; practice:torat_ha_tsaddik; social:inter_hasidic_master_disciple_relationship; social:relations_with_non_hasidim; supernatural:miracle; supernatural:prognostication" resp="#llm-tagging">תיוגים</span>
 <p>
 					<lb/>פא פ״א בא ליד איש א׳ מ<placeName ref="#H-LOC_178">ווארשא</placeName> קודם סכות אתרוג א׳ יפה
 					<lb/>ומהודר אשר לא היה כמוהו, והיה אשכנזי (דייט״ש),
@@ -1371,7 +1371,7 @@
 					<lb/>כ״כ וידע שודאי יועיל בתפלתו שיהיה לו בן זכר שיהיה רשאי
 					<lb/>ליטול ולברך עליו :
 				</p>
-				</div><div type="story" xml:id="Toldot-Haniflaot_0077" n="77"><head type="storyHead">Toldot-Haniflaot_0077</head>
+				</div><div type="story" xml:id="Toldot-Haniflaot_0077" n="77"><head type="storyHead">Toldot-Haniflaot_0077</head><span ana="characters-and-roles:the_family_of_the_tsaddik; experience:dream; folkloristics:story_type_prognostication; supernatural:perception; supernatural:prognostication; times:death; times:holidays; times:shabbat; women:catalyst_character" resp="#llm-tagging">תיוגים</span>
 <p>
 					<lb/>פב נודע כי מרן ז"ל היה יודע בימי <date>ניסן</date> בי״ב נשיאים כל מה
 					<lb/>שיהיה בי״ב חדשי השנה וכמו שראיתי כמדומה לי
@@ -1388,7 +1388,7 @@
 					<lb/>לך קודם <date>פסח</date>, ענה ואמר אותו איש אני זוכר היטב והיה זה ביום
 					<lb/>נשיא <date>ג׳</date> :
 				</p>
-				</div><div type="story" xml:id="Toldot-Haniflaot_0078" n="78"><head type="storyHead">Toldot-Haniflaot_0078</head>
+				</div><div type="story" xml:id="Toldot-Haniflaot_0078" n="78"><head type="storyHead">Toldot-Haniflaot_0078</head><span ana="folkloristics:story_type_prognostication; supernatural:perception; supernatural:prognostication; times:death; practice:storytelling" resp="#llm-tagging">תיוגים</span>
 <p>
 					<lb/>פג והנה בימי שבעת אבלו של מרן ז״ל, אמר לי אדמו״ר ז״ל
 					<lb/>הה״ק <persName>ר״א מ<placeName ana="bio" ref="#H-LOC_151">קאזניץ</placeName></persName>, כי מרן ז"ל היה יודע בי"ב
@@ -1400,7 +1400,7 @@
 				<p>
 					<date><pb facs="Toldot-Haniflaot_0036.jpg"/><lb/>אייר</date> ואמר לי שגם בשעה שנפטר היה מרגיש ג״כ בביתו :
 				</p>
-				</div><div type="story" xml:id="Toldot-Haniflaot_0079" n="79"><head type="storyHead">Toldot-Haniflaot_0079</head>
+				</div><div type="story" xml:id="Toldot-Haniflaot_0079" n="79"><head type="storyHead">Toldot-Haniflaot_0079</head><span ana="ethics-and-emotions:prohibitions; experience:dream; practice:protection; social:inter_hasidic_master_disciple_relationship; supernatural:perception; times:shabbat; ethics-and-emotions:fear; ethics-and-emotions:resisting_temptation; folkloristics:story_type_protection; practice:storytelling; practice:torat_ha_tsaddik; practice:travel_to_the_tsaddik; practice:tvilah; social:marital_relationship; social:retrospective_recognition; women:mention_only" resp="#llm-tagging">תיוגים</span>
 <p>
 					<lb/>פד ואגב אכתוב מעשה א׳ הנודע ומפורסם מאדמו״ר ההק׳ ד<placeName ref="#H-LOC_151">קאזניץ</placeName>
 					<lb/>הנ״ל ותלמידו הה״צ המפורסם מ<placeName>פארסוב</placeName> היה מספר
@@ -1422,7 +1422,7 @@
 					<lb/>מ<placeName>פארעסעוו</placeName> דבר זה ראה גודל כח מורו ורבו, וסיפר לו כל מה
 					<lb/>ששמע בסעודת ליל <date>ש״ק</date> ממורו ז״ל, והיה הדבר הזה לפלא :
 				</p>
-				</div><div type="story" xml:id="Toldot-Haniflaot_0080" n="80"><head type="storyHead">Toldot-Haniflaot_0080</head>
+				</div><div type="story" xml:id="Toldot-Haniflaot_0080" n="80"><head type="storyHead">Toldot-Haniflaot_0080</head><span ana="practice:prayer; folkloristics:story_type_virtues; practice:torat_ha_tsaddik; social:inter_hasidic_master_disciple_relationship" resp="#llm-tagging">תיוגים</span>
 <p>
 					<lb/>פה פ״א קודם אור הבוקר נכנס הרב החסיד ר' <persName>משה</persName> בעל דברי
 					<lb/>תורה אל בית מורו ההק׳ ד<placeName ref="#H-LOC_151">קאזניץ</placeName> זצ״ל, ושמע כי בוכה
@@ -1431,7 +1431,7 @@
 					<lb/>ההק׳ זצ״ל מ<placeName>גראדזיסק</placeName>, רק שאין הכוונה בקונטרס זה לספר מהם
 					<lb/>ונצרך קונטרס מיוחד לזה :
 				</p>
-				</div><div type="story" xml:id="Toldot-Haniflaot_0081" n="81"><head type="storyHead">Toldot-Haniflaot_0081</head>
+				</div><div type="story" xml:id="Toldot-Haniflaot_0081" n="81"><head type="storyHead">Toldot-Haniflaot_0081</head><span ana="characters-and-roles:the_family_of_the_tsaddik; experience:visions; kabbalah:kabbalistic_terms_yihudim; practice:clothing; practice:halakhah; practice:tvilah; social:marital_relationship; times:death; times:holidays; times:shabbat; ethics-and-emotions:sadness; ethics-and-emotions:virtues; folkloristics:story_type_virtues; practice:meditation; practice:music; practice:prayer; practice:sermon; social:marriage; supernatural:perception; women:catalyst_character" resp="#llm-tagging">תיוגים</span>
 <p>
 					<lb/>פו ונחזור להנ"ל כי הנה מאז ב<date>יום א׳ ניסן</date> כאשר היה רואה
 					<lb/>על אשתו הרבנית כנ"ל, היה לו אח״כ עוד כמה
@@ -1482,7 +1482,7 @@
 					<lb/>ביחודים קדושים, וכבר נודע ומפורסם שאמר כי כל זווגיו לא היה
 					<lb/>עד שהיה רואה לנגד עיניו אותיות שם הוי״ה ברור וצלול :
 				</p>
-				</div><div type="story" xml:id="Toldot-Haniflaot_0082" n="82"><head type="storyHead">Toldot-Haniflaot_0082</head>
+				</div><div type="story" xml:id="Toldot-Haniflaot_0082" n="82"><head type="storyHead">Toldot-Haniflaot_0082</head><span ana="kabbalah:kabbalistic_terms_yihudim; practice:meditation; practice:prayer; social:inter_hasidic_master_disciple_relationship" resp="#llm-tagging">תיוגים</span>
 <p>
 					<lb/>פז פעם אחד איזה שבועות קודם פטירתו היה נכנס תלמידו
 					<lb/>אדמו״ר ההק' מ<placeName ref="#H-LOC_151">קאזניץ</placeName> עם עוד חסיד מפורסם א׳ אליו
@@ -1490,7 +1490,7 @@
 					<lb/>ואמר מה תעשה לשמך הגדול, וכי יש עוד אחד אשר מיחד
 					<lb/>שמך הגדול יחודים הקדושים כמוני, ועיין לעיל אות י״ז :
 				</p>
-				</div><div type="story" xml:id="Toldot-Haniflaot_0083" n="83"><head type="storyHead">Toldot-Haniflaot_0083</head>
+				</div><div type="story" xml:id="Toldot-Haniflaot_0083" n="83"><head type="storyHead">Toldot-Haniflaot_0083</head><span ana="ethics-and-emotions:joy; practice:dance; practice:drinking_alcohol; social:conflict; times:holidays; ethics-and-emotions:anger; ethics-and-emotions:fear; experience:enthusiasm; practice:devekut; practice:torat_ha_tsaddik; social:inter_hasidic; social:inter_hasidic_conflict_between_tsaddikim; women:mention_only" resp="#llm-tagging">תיוגים</span>
 <p>
 					<lb/>פח ופ״א ב<date>פורים</date> בלילה בעת סעודתו ושתיית יין והיה שמח מאד
 					<lb/>ורוקד כדרכו, נכנס אליו איש זקן וחסיד, והתחיל
@@ -1508,7 +1508,7 @@
 					<lb/>וגו׳, ואז אמר בקול שאין אחד בעולם שיהא לו השנה מן העולמות
 					<lb/>שאני השגתי אותם, ודיבר עוד כמה דברים שאין בזכרוני עתה :
 				</p>
-				</div><div type="story" xml:id="Toldot-Haniflaot_0084" n="84"><head type="storyHead">Toldot-Haniflaot_0084</head>
+				</div><div type="story" xml:id="Toldot-Haniflaot_0084" n="84"><head type="storyHead">Toldot-Haniflaot_0084</head><span ana="characters-and-roles:the_family_of_the_tsaddik; ethics-and-emotions:punishment; practice:circumcision; supernatural:reincarnation; times:death; women:mention_only; ethics-and-emotions:prohibitions; ethics-and-emotions:repentance; ethics-and-emotions:sadness; experience:revelation; practice:storytelling; social:retrospective_recognition; supernatural:communicating_with_the_invisible" resp="#llm-tagging">תיוגים</span>
 <p>
 					<lb/>פט והנה בתוך שלשים לפטירת אשתו הרבנית הנ״ל היה
 					<lb/>נפטר נכדו הילד <persName>בערילי</persName> בן ד׳ שנים בן בנו של הה״צ ר׳
@@ -1532,7 +1532,7 @@
 					<lb/>זקיני שהעולם לא היה ראוי שיהיה הוא ביניהם, ועכשיו הייתי
 					<lb/>סבור אשר אצלי יתקיים, אבל גם עתה אין הדור ראוי לזה :
 				</p>
-				</div><div type="story" xml:id="Toldot-Haniflaot_0085" n="85"><head type="storyHead">Toldot-Haniflaot_0085</head>
+				</div><div type="story" xml:id="Toldot-Haniflaot_0085" n="85"><head type="storyHead">Toldot-Haniflaot_0085</head><span ana="characters-and-roles:the_family_of_the_tsaddik; ethics-and-emotions:anger; ethics-and-emotions:fear; social:retrospective_recognition; supernatural:perception; times:death; times:holidays; times:shabbat; characters-and-roles:demons; ethics-and-emotions:virtues; folkloristics:story_type_parable; practice:failure; practice:torat_ha_tsaddik; women:catalyst_character" resp="#llm-tagging">תיוגים</span>
 <p>
 					<lb/>צ והנה בסיבות האחרון של ימי חייו ביום אחד מימי החג
 					<lb/>כשהיה יושב בסעודתו בסוכה, פתאום אמר הנה איתא
@@ -1561,7 +1561,7 @@
 					<lb/>מספיד אותה היה מונה שבחה וצדקותיה, ואח״כ אמר חוץ מדרגות
 					<lb/>גדולים מה שאני יודע שהיו לה :
 				</p>
-				</div><div type="story" xml:id="Toldot-Haniflaot_0086" n="86"><head type="storyHead">Toldot-Haniflaot_0086</head>
+				</div><div type="story" xml:id="Toldot-Haniflaot_0086" n="86"><head type="storyHead">Toldot-Haniflaot_0086</head><span ana="characters-and-roles:the_family_of_the_tsaddik; ethics-and-emotions:humility; supernatural:reincarnation; ethics-and-emotions:punishment; ethics-and-emotions:shame; folkloristics:story_type_virtues; supernatural:communicating_with_the_invisible; supernatural:perception; women:catalyst_character" resp="#llm-tagging">תיוגים</span>
 <p>
 					<lb/>צא שמעתי אומרים שהה״ק <persName>היהודי</persName> ז"ל ועוד צדיקים אמרו
 					<lb/>שהיה לו בת זכר צדיק גדול, ומרן ההק'
@@ -1573,7 +1573,7 @@
 					<lb/>החזיקה אותו לצדיק, ואמר בשביל שהיתה צדקת גדולה לכן
 					<lb/>אינם רוצים בשמים לצער אותה ומרמים אותה שאני צדיק :
 				</p>
-				</div><div type="story" xml:id="Toldot-Haniflaot_0087" n="87"><head type="storyHead"><persName>Toldot</persName>-Haniflaot_0087</head>
+				</div><div type="story" xml:id="Toldot-Haniflaot_0087" n="87"><head type="storyHead"><persName>Toldot</persName>-Haniflaot_0087</head><span ana="ethics-and-emotions:anger; folkloristics:story_type_death_of_the_tsaddik; social:retrospective_recognition; times:death" resp="#llm-tagging">תיוגים</span>
 <p>
 					<lb/>צב והנה מאז כל ה<date>חורף</date> לא היה יכול לסבול שום דבר והיה
 					<lb/>כועס על כאו״א, ושמעתי אומרים משמו של ההק'
@@ -1581,7 +1581,7 @@
 					<lb/>אז הבין שהוא סמוך להסתלקותו, מזה שלא היה יכול לסבול עוד
 					<lb/>את בני אדם, כי כן דרך הצדיקים :
 				</p>
-				</div><div type="story" xml:id="Toldot-Haniflaot_0088" n="88"><head type="storyHead"><persName>Toldot</persName>-Haniflaot_0088</head>
+				</div><div type="story" xml:id="Toldot-Haniflaot_0088" n="88"><head type="storyHead"><persName>Toldot</persName>-Haniflaot_0088</head><span ana="practice:sermon; times:shabbat; experience:enthusiasm; folkloristics:story_type_death_of_the_tsaddik; practice:music" resp="#llm-tagging">תיוגים</span>
 <p>
 					<lb/>צג והנה אז בכל החורף ההוא בכל <date>שבת</date> בסעודת שלש סעודות
 					<lb/>היה אומר מוסר לפני אנשים בבכיה רבה מוסר פשוט
@@ -1589,7 +1589,7 @@
 					<lb/>בזה, בפרט בשלש סעודות לא היה דרכו מעולם לומר ד״ת, רק
 					<lb/>הזמירות בהתלהבות גדל :
 				</p>
-				</div><div type="story" xml:id="Toldot-Haniflaot_0089" n="89"><head type="storyHead"><persName>Toldot</persName>-Haniflaot_0089</head>
+				</div><div type="story" xml:id="Toldot-Haniflaot_0089" n="89"><head type="storyHead"><persName>Toldot</persName>-Haniflaot_0089</head><span ana="practice:halakhah; practice:torat_ha_tsaddik; practice:tvilah; ethics-and-emotions:prohibitions; practice:asceticism; practice:the_travels_of_the_tsaddik" resp="#llm-tagging">תיוגים</span>
 <p>
 					<lb/>צד והנה אז באמצע החורף היה ב׳ <date>שבועות</date> ב<placeName ref="#H-LOC_141">ראדום</placeName>, והיה
 				</p>
@@ -1605,7 +1605,7 @@
 					<lb/>לוקח הסכין ממקום זה ומניח אותו במקום זה ואנשי רואים, המה
 					<lb/>עושים תשובה :
 				</p>
-				</div><div type="story" xml:id="Toldot-Haniflaot_0090" n="90"><head type="storyHead">Toldot-Haniflaot_0090</head>
+				</div><div type="story" xml:id="Toldot-Haniflaot_0090" n="90"><head type="storyHead">Toldot-Haniflaot_0090</head><span ana="not-a-hasidic-story:sermon" resp="#llm-tagging">תיוגים</span>
 <p>
 					<lb/>צה שמעתי מאיש חסיד ונאמן, אשר שמע ממרן ז"ל פ"א
 					<lb/>שהיה מספר ואמר אשר מרן בעל <persName>נועם אלימלך</persName>
@@ -1613,7 +1613,7 @@
 					<lb/>יפטור מן העולם בלי תשובה, וסיים הוא ואמר ואני אומר
 					<lb/>עכ״פ מי שהיה אוכל אצלי קוגע״ל לא יפטור מן העולם בלי תשובה :
 				</p>
-				</div><div type="story" xml:id="Toldot-Haniflaot_0091" n="91"><head type="storyHead">Toldot-Haniflaot_0091</head>
+				</div><div type="story" xml:id="Toldot-Haniflaot_0091" n="91"><head type="storyHead">Toldot-Haniflaot_0091</head><span ana="folkloristics:story_type_death_of_the_tsaddik; practice:torat_ha_tsaddik; social:inter_hasidic; supernatural:perception" resp="#llm-tagging">תיוגים</span>
 <p>
 					<lb/>צו והנה אז בימים האלה היה ההק׳ המפורסם <persName>ר״י מ<placeName ana="bio" ref="#H-LOC_386">עיר חדש</placeName></persName>
 					<lb/>אצל <persName>מרן</persName> ז"ל, והיה אומר לו אם היה רוצה היה יכול
@@ -1625,7 +1625,7 @@
 					<lb/>נא מר אלי מה הוא הדבר אשר כבוד קדושתו מתעקש כ״כ עליו,
 					<lb/>אולי אוכל גם אנכי לסייע למר ולא השיב לו כלל ע״ז :
 				</p>
-				</div><div type="story" xml:id="Toldot-Haniflaot_0092" n="92"><head type="storyHead">Toldot-Haniflaot_0092</head>
+				</div><div type="story" xml:id="Toldot-Haniflaot_0092" n="92"><head type="storyHead">Toldot-Haniflaot_0092</head><span ana="practice:asceticism; practice:tvilah; spaces:mikveh; folkloristics:story_type_virtues; times:shabbat" resp="#llm-tagging">תיוגים</span>
 <p>
 					<lb/>צז והנה המקואות לא עזב בכל ימי חליו עד כי ב<date>שבת</date> היו
 					<lb/>אנשים נושאים אותו בידיהם אל המקוה, והיו רגילים
@@ -1640,7 +1640,7 @@
 					<lb/>שאמר כי אין לי שנאה בעולם כמו שאני שונא את גופי, גם כשאני
 					<lb/>מסתכל באצבע קטנה שלי), עיין לקמן אות <name type="work">ק״י</name> :
 				</p>
-				</div><div type="story" xml:id="Toldot-Haniflaot_0093" n="93"><head type="storyHead">Toldot-Haniflaot_0093</head>
+				</div><div type="story" xml:id="Toldot-Haniflaot_0093" n="93"><head type="storyHead">Toldot-Haniflaot_0093</head><span ana="folkloristics:story_type_death_of_the_tsaddik; practice:travel_to_the_tsaddik; supernatural:communicating_with_the_invisible; supernatural:prognostication; times:death; experience:visions; folkloristics:story_type_prognostication; practice:sermon; practice:storytelling; social:inter_hasidic_master_disciple_relationship; spaces:heaven; times:holidays" resp="#llm-tagging">תיוגים</span>
 <p>
 					<lb/>צח והנה נודע ומפורסם אשר פ״א קודם <date>פסח</date> האחרון היה
 					<lb/>מספר ואומר כי ראיתי את מורי ורבי עם עוד הרבה
@@ -1655,7 +1655,7 @@
 					<lb/>הצדיק ר׳ <persName>חיים דור מ<placeName ana="bio" ref="#H-LOC_104">פיעטרקאוו</placeName></persName>, והיו שמה עד יום פטירתו הוא
 					<date><lb/>יום ב׳</date> ד<name type="work">פרשת אמור</name> אשר עליונים נצחו את התחתונים וכו׳ :
 				</p>
-				</div><div type="story" xml:id="Toldot-Haniflaot_0094" n="94"><head type="storyHead">Toldot-Haniflaot_0094</head>
+				</div><div type="story" xml:id="Toldot-Haniflaot_0094" n="94"><head type="storyHead">Toldot-Haniflaot_0094</head><span ana="folkloristics:story_type_death_of_the_tsaddik; times:death" resp="#llm-tagging">תיוגים</span>
 <p>
 					<lb/>צט והנה אז בעת יציאת נשמתו הקדושה היה עומד שמח
 					<lb/>הה״צ ר<persName>״י מ<placeName ana="bio">דאמבראווע</placeName></persName> חתן ההק' ר' <persName>משה מ<placeName ana="bio" ref="#H-LOC_151">קאזניץ</placeName></persName>
@@ -1665,7 +1665,7 @@
 					<lb/>משה ז"ל היה אוחז בזקנו ברגע האחרונה, כי היה להם יחוד בזה
 					<lb/>למסור נפש לה׳ ברגע האחרונה, כן שמעתי אז :
 				</p>
-				</div><div type="story" xml:id="Toldot-Haniflaot_0095" n="95"><head type="storyHead">Toldot-Haniflaot_0095</head>
+				</div><div type="story" xml:id="Toldot-Haniflaot_0095" n="95"><head type="storyHead">Toldot-Haniflaot_0095</head><span ana="folkloristics:story_type_death_of_the_tsaddik; spaces:beth_midrash; times:death; ethics-and-emotions:shame; practice:sermon; supernatural:perception" resp="#llm-tagging">תיוגים</span>
 <p>
 					<lb/>ק ואח״כ בעת הלויה היו מכניסים אותו לבית המדרש הגדול
 					<lb/>בבכיה גדולה מאד, והיו משתיקים הקול בבית
@@ -1682,7 +1682,7 @@
 					<lb/>את מרן הק׳ ז"ל בשמים, ואמר יתן ה׳ שיהיה דורש טוב לישראל
 					<lb/>בדרשה זו, זי״ע ועכ״י :
 				</p>
-				</div><div type="story" xml:id="Toldot-Haniflaot_0096" n="96"><head type="storyHead">Toldot-Haniflaot_0096</head>
+				</div><div type="story" xml:id="Toldot-Haniflaot_0096" n="96"><head type="storyHead">Toldot-Haniflaot_0096</head><span ana="characters-and-roles:the_family_of_the_tsaddik; ethics-and-emotions:awe; ethics-and-emotions:prohibitions; folkloristics:story_type_virtues; practice:pilgrimage_to_the_graves_of_tsaddikim; supernatural:communicating_with_the_invisible; women:minor_character; ethics-and-emotions:anger; practice:clothing; practice:halakhah; practice:storytelling; practice:travel_to_other_tsaddik; social:marital_relationship" resp="#llm-tagging">תיוגים</span>
 <p>
 					<lb/>קא והנה שמעתי שההק׳ <persName>ר״מ מ<placeName ana="bio">רימענעוו</placeName></persName> ז"ל היה פ"א על קבר
 					<persName><lb/>הבעש״ט</persName> ז"ל וכשחזר מקברו אמר ש<persName>הבעש״ט</persName> אמר
@@ -1702,7 +1702,7 @@
 					<lb/>נתעלף ונפל לארץ, והוצרכו להקיצו, ראה והבן עד היכן היא
 					<lb/>הי״ש אשר לו ז״ל :
 				</p>
-				</div><div type="story" xml:id="Toldot-Haniflaot_0097" n="97"><head type="storyHead">Toldot-Haniflaot_0097</head>
+				</div><div type="story" xml:id="Toldot-Haniflaot_0097" n="97"><head type="storyHead">Toldot-Haniflaot_0097</head><span ana="ethics-and-emotions:prohibitions; practice:prayer; social:inter_hasidic_master_disciple_relationship; spaces:beth_midrash; ethics-and-emotions:anger; ethics-and-emotions:humility; practice:halakhah; practice:sermon; social:inter_hasidic" resp="#llm-tagging">תיוגים</span>
 <p>
 					<lb/>קב ועתה אכתוב איזה דברים אשר ממנו ז"ל, פ"א
 					<lb/>היה בחוץ בתחילת הלילה ושמע אשר שני בני
@@ -1732,7 +1732,7 @@
 					<lb/>שוודאי יש טעם במה שרבו עושה כן, אבל רק לעצמו, אבל לא
 					<lb/>ללמוד ממנו דבר זה :
 				</p>
-				</div><div type="story" xml:id="Toldot-Haniflaot_0098" n="98"><head type="storyHead">Toldot-Haniflaot_0098</head>
+				</div><div type="story" xml:id="Toldot-Haniflaot_0098" n="98"><head type="storyHead">Toldot-Haniflaot_0098</head><span ana="not-a-hasidic-story:hagiography; practice:prayer; practice:study; supernatural:perception; ethics-and-emotions:awe; experience:visions; social:retrospective_recognition" resp="#llm-tagging">תיוגים</span>
 <p>
 					<lb/>קג פ״א שמעתי ממנו ז״ל בי הגאון ר׳ ר׳ <persName>העשיל</persName> ז״ל היה
 					<lb/>מחזיק אצלו איש צדיק שיהיה לו למוכיח תמיד, פ״א
@@ -1756,7 +1756,7 @@
 					<lb/>תן פחדך בכדי לעורר לבבם, וההק׳ <persName>היהודי</persName> ז״ל צוה שיאמרו
 					<lb/>בלילה <name type="work">משנה תורה</name> לעורר לבבם :
 				</p>
-				</div><div type="story" xml:id="Toldot-Haniflaot_0099" n="99"><head type="storyHead">Toldot-Haniflaot_0099</head>
+				</div><div type="story" xml:id="Toldot-Haniflaot_0099" n="99"><head type="storyHead">Toldot-Haniflaot_0099</head><span ana="ethics-and-emotions:humility; experience:journey_to_heaven; spaces:heaven; folkloristics:story_type_virtues; social:retrospective_recognition" resp="#llm-tagging">תיוגים</span>
 <p>
 					<lb/>קה שמעתי ממנו ז"ל שאמר שהוא הכיר איש א׳ בשהגיע ליל
 					<lb/>של בר מצוה שלו, היו מוליכים אותו למעלה
@@ -1766,7 +1766,7 @@
 					<lb/>וההשערה היה שהוא בעצמו היה זה ומחמת ענותנותו היה
 					<lb/>אומר כך :
 				</p>
-				</div><div type="story" xml:id="Toldot-Haniflaot_0100" n="100" ana="marginal"><head type="storyHead">Toldot-Haniflaot_0100</head>
+				</div><div type="story" xml:id="Toldot-Haniflaot_0100" n="100" ana="marginal"><head type="storyHead">Toldot-Haniflaot_0100</head><span ana="not-a-hasidic-story:sermon" resp="#llm-tagging">תיוגים</span>
 <p>
 					<lb/>קו פ״א שמעתי ממנו כשהיה מדבר דברי חסידות וי"ש עם איזה
 					<lb/>בני נעורים החסידים ואני הייתי בתוכם, אמר כי עיקר
@@ -1781,7 +1781,7 @@
 					<lb/>שאח״כ נופל מזה, צריך לעשות סימן וזכרון שאז היה בבחינת
 					<lb/>ההוא בכדי שידע אח״כ שישוב לבוא לבחי׳ ההוא :
 				</p>
-				</div><div type="story" xml:id="Toldot-Haniflaot_0101" n="101" ana="marginal"><head type="storyHead">Toldot-Haniflaot_0101</head>
+				</div><div type="story" xml:id="Toldot-Haniflaot_0101" n="101" ana="marginal"><head type="storyHead">Toldot-Haniflaot_0101</head><span ana="ethics-and-emotions:humility; not-a-hasidic-story:sermon" resp="#llm-tagging">תיוגים</span>
 <p>
 					<lb/>קח כ״פ אירע אשר איש א׳ היה מבקש ממנו שידבר עמו דברי
 					<lb/>חסידות, אמר אליו איני יודע כלל דברי חסידות רק
@@ -1802,7 +1802,7 @@
 					<lb/>עד שירגיש שמונח עליו עול כבד כמ״ש ב<name type="work">תנא דב״א</name> ישים אדם
 					<lb/>את עצמו כשור לעול וכחמור למשא עיי״ש עוד :
 				</p>
-				</div><div type="story" xml:id="Toldot-Haniflaot_0102" n="102" ana="marginal"><head type="storyHead">Toldot-Haniflaot_0102</head>
+				</div><div type="story" xml:id="Toldot-Haniflaot_0102" n="102" ana="marginal"><head type="storyHead">Toldot-Haniflaot_0102</head><span ana="not-a-hasidic-story:sermon" resp="#llm-tagging">תיוגים</span>
 <p>
 					<lb/>קיא ושמעתי ממנו כ״פ בסעודת מלוה מלכה בעת שהתחיל
 					<lb/>פרשיות <date>שובבים</date> שהזהיר לבל להתענות, ואמר
@@ -1813,7 +1813,7 @@
 					<lb/>צריך להתענות מאד על עונותיו, רק מה אעשה כי צדיקי דורות
 					<lb/>הללו צוו לבל להתענות :
 				</p>
-				</div><div type="story" xml:id="Toldot-Haniflaot_0103" n="103"><head type="storyHead">Toldot-Haniflaot_0103</head>
+				</div><div type="story" xml:id="Toldot-Haniflaot_0103" n="103"><head type="storyHead">Toldot-Haniflaot_0103</head><span ana="ethics-and-emotions:humility; ethics-and-emotions:pride; folkloristics:story_type_virtues; practice:healing_of_the_soul; practice:reception_of_hasidim" resp="#llm-tagging">תיוגים</span>
 <p>
 					<lb/>קיב פ״א ביקש א׳ ממנו שידבר עמו וליתן לו עצה איך להסיר
 					<lb/>גאות מלבו, ואמר אליו כי איני יודע כלל ליתן עצה
@@ -1822,7 +1822,7 @@
 					<lb/>להתגאות ואיך אתן עצה לזה, אמנם באמת דיבורים האלה היו
 					<lb/>עצה נפלאה, והיו יורדים לחדרי בטנו כי אין לאדם להתגאות כלל :
 				</p>
-				</div><div type="story" xml:id="Toldot-Haniflaot_0104" n="104"><head type="storyHead">Toldot-Haniflaot_0104</head>
+				</div><div type="story" xml:id="Toldot-Haniflaot_0104" n="104"><head type="storyHead">Toldot-Haniflaot_0104</head><span ana="ethics-and-emotions:prohibitions; practice:reception_of_hasidim" resp="#llm-tagging">תיוגים</span>
 <p>
 					<lb/>קיג פ״א שמעתי ממנו ז״ל שאמר כי איש א׳ בא אליו וביקש
 					<lb/>ממנו שידבר עמו בכדי שיצא מינות מלבו, ואמר כי
@@ -1831,7 +1831,7 @@
 					<lb/>לא הייתי חפץ לדבר מזה, כי אנו מחויבים לשמור ולקיים, ככל
 					<lb/>אשר צוו אותנו :
 				</p>
-				</div><div type="story" xml:id="Toldot-Haniflaot_0105" n="105"><head type="storyHead">Toldot-Haniflaot_0105</head>
+				</div><div type="story" xml:id="Toldot-Haniflaot_0105" n="105"><head type="storyHead">Toldot-Haniflaot_0105</head><span ana="ethics-and-emotions:anger; ethics-and-emotions:prohibitions" resp="#llm-tagging">תיוגים</span>
 <p>
 					<lb/>קיד גם שמעתי ממנו ז״ל שפ״א ראה ספר א׳ מגדולי הראשונים
 					<lb/>אשר היה גדול וצדיק מאד, רק שהספר הזה הוא בדרך
@@ -1839,7 +1839,7 @@
 					<lb/>ומיד הנחתיו מידי ולא רציתי להביט בו עוד :
 				</p>
 				</div><div type="non-story"><p>
-					<lb/>קטו ראיתי בכת"י חתנו הרב ר׳ <persName>אלחנן</persName> ז"ל, שפ"א היה ב<placeName ref="#H-LOC_178">ווארשא</placeName>
+					<lb/>קטו </p><div type="story" xml:id="Toldot-Haniflaot_non-story-111_s1" subtype="in-non-story"><head type="storyHead">Toldot-Haniflaot_non-story-111_s1</head><span ana="practice:halakhah; characters-and-roles:the_family_of_the_tsaddik; practice:sermon; practice:study; practice:the_travels_of_the_tsaddik; social:relations_with_non_hasidim" resp="#llm-tagging">תיוגים</span><p>ראיתי בכת"י חתנו הרב ר׳ <persName>אלחנן</persName> ז"ל, שפ"א היה ב<placeName ref="#H-LOC_178">ווארשא</placeName>
 					<lb/>בזמן הגאון הצדיק בעל <persName>חמדת שלמה</persName>, והלך אליו
 				</p>
 				<p>
@@ -1850,7 +1850,7 @@
 					<lb/>מפריש עליהן מחלקן מפריש עליהן כו׳, וזה היה ב<persName>יצחק</persName> שהי׳ מלוה
 					<lb/>להם מעות כפי אומר המעשרות שהיה לו, אבל אח״כ בעת שהפריש
 					<lb/>ודאי לא היה מאומד, והגאון הנ"ל שיבח את הדברים האלה
-					<lb/>ואמר שתירוץ אמיתי הוא :
+					<lb/>ואמר שתירוץ אמיתי הוא</p></div><p> :
 				</p>
 				<p>
 					<lb/>קטז שמעתי מא׳ שאמר משמו ז"ל ע"פ ויזבח זבחים לאלקי
@@ -1866,7 +1866,7 @@
 					<lb/>דלמה לא כתב בהדיא וזבח לאלהי <persName>אברהם</persName> ומתרץ לפי שחייב
 					<lb/>אדם בכבוד אביו, לפיכך תלה בו ואמר אביו של <persName>יצחק</persName> :
 				</p>
-				</div><div type="story" xml:id="Toldot-Haniflaot_0106" n="106"><head type="storyHead">Toldot-Haniflaot_0106</head>
+				</div><div type="story" xml:id="Toldot-Haniflaot_0106" n="106"><head type="storyHead">Toldot-Haniflaot_0106</head><span ana="not-a-hasidic-story:sermon" resp="#llm-tagging">תיוגים</span>
 <p>
 					<lb/>קיז שמעתי פ״א ל דברי <persName>הרמב״ם</persName> שכתב הטעם
 					<lb/>בענין קטורת הנודע ומפורסם, אשר כולם
@@ -1878,7 +1878,7 @@
 					<lb/>על ענין אחד בספר <name type="work">עבודת הק׳</name> ל<persName>מהר"מ</persName> <persName>גבאי</persName> ז״ל שכתב כדברי
 					<lb/>מרן הנ״ל :
 				</p>
-				</div><div type="story" xml:id="Toldot-Haniflaot_0107" n="107" ana="marginal"><head type="storyHead">Toldot-Haniflaot_0107</head>
+				</div><div type="story" xml:id="Toldot-Haniflaot_0107" n="107" ana="marginal"><head type="storyHead">Toldot-Haniflaot_0107</head><span ana="not-a-hasidic-story:halakhah" resp="#llm-tagging">תיוגים</span>
 <p>
 					<lb/>קיח עוד פ״א שמעתי ממנו ז״ל אמר בשם זקנו <persName>הה״מ</persName> ז״ל
 				</p>
@@ -1891,7 +1891,7 @@
 					<lb/>כי כמו שיש הפרש בין חסידי אוה״ע לבין ישראל
 					<lb/>בערך זה יש הפרש בין בן איש פשוט לבין בן איש צדיק :
 				</p>
-				</div><div type="story" xml:id="Toldot-Haniflaot_0108" n="108"><head type="storyHead">Toldot-Haniflaot_0108</head>
+				</div><div type="story" xml:id="Toldot-Haniflaot_0108" n="108"><head type="storyHead">Toldot-Haniflaot_0108</head><span ana="practice:prayer; folkloristics:story_type_virtues; practice:asceticism; practice:storytelling" resp="#llm-tagging">תיוגים</span>
 <p>
 					<lb/>קכ פ״א שמעתי ממנו ז״ל שסיפר כי הה״ק <persName>היהודי</persName> ז״ל היה לו
 					<lb/>פ״א יסורים גדולים מאד אשר היה שוכב בארץ ומתגלגל
@@ -1901,7 +1901,7 @@
 					<lb/>כמו שאמר ג״כ הוא ז״ל על עצמו כי אין לו שונא גדול בעולם כמו
 					<lb/>שהוא ז״ל שונא את גופו :
 				</p>
-				</div><div type="story" xml:id="Toldot-Haniflaot_0109" n="109"><head type="storyHead">Toldot-Haniflaot_0109</head>
+				</div><div type="story" xml:id="Toldot-Haniflaot_0109" n="109"><head type="storyHead">Toldot-Haniflaot_0109</head><span ana="not-a-hasidic-story:sermon" resp="#llm-tagging">תיוגים</span>
 <p>
 					<lb/>קכא פ״א שמעתי ממנו באמצע לימוד השיעור בעיון, שהיה
 					<lb/>מדבר מגודל מעלת הב״ת ואמר כי החולה כשבא
@@ -1909,7 +1909,7 @@
 					<lb/>ז"ל על אשר ב״פ מוקשים דבריו מאד, זה היה מגודל דבקותו
 					<lb/>בחי׳ אז כשהיה כותב דברים האלה :
 				</p>
-				</div><div type="story" xml:id="Toldot-Haniflaot_0110" n="110"><head type="storyHead">Toldot-Haniflaot_0110</head>
+				</div><div type="story" xml:id="Toldot-Haniflaot_0110" n="110"><head type="storyHead">Toldot-Haniflaot_0110</head><span ana="ethics-and-emotions:humility; supernatural:communicating_with_the_invisible; folkloristics:story_type_virtues; practice:storytelling; practice:the_travels_of_the_tsaddik; social:relations_with_non_hasidim" resp="#llm-tagging">תיוגים</span>
 <p>
 					<lb/>קכב שמעתי ממנו ז"ל פ"א שסיפר כי <persName>הבע״שט</persName> הק׳ שאל
 					<lb/>משמים להגיד לו מי הוא הת״ח שבדור בכדי
@@ -1918,7 +1918,7 @@
 					<lb/>ידיו והושיט לו <persName>בעש״ט</persName> מים ליטול ידיו ומיד נסע משם ולא
 					<lb/>התראה אליו עוד :
 				</p>
-				</div><div type="story" xml:id="Toldot-Haniflaot_0111" n="111"><head type="storyHead">Toldot-Haniflaot_0111</head>
+				</div><div type="story" xml:id="Toldot-Haniflaot_0111" n="111"><head type="storyHead">Toldot-Haniflaot_0111</head><span ana="characters-and-roles:the_family_of_the_tsaddik; practice:storytelling; practice:study; social:marriage; supernatural:communicating_with_the_invisible; women:mention_only; experience:revelation" resp="#llm-tagging">תיוגים</span>
 <p>
 					<lb/>קכג עוד שמעתי ממנו ז"ל פ"א היה לומד שיעור השיטה
 					<lb/>דאוכל תרומת חמץ בפסח, ואמר להביא אליו הספר
@@ -1944,7 +1944,7 @@
 					<lb/>דזה נוגע לנפש חבירו כאלו גם לו אין ג״כ עושר ולכן מובן כי
 					<lb/>השלום והאוהב מחזיק כל הברכות והבן :
 				</p>
-				</div><div type="story" xml:id="Toldot-Haniflaot_0112" n="112"><head type="storyHead">Toldot-Haniflaot_0112</head>
+				</div><div type="story" xml:id="Toldot-Haniflaot_0112" n="112"><head type="storyHead">Toldot-Haniflaot_0112</head><span ana="characters-and-roles:demons; ethics-and-emotions:repentance; ethics-and-emotions:shame; practice:recitation_of_psalms; practice:storytelling; social:converts_and_conversion; supernatural:communicating_with_the_invisible; women:mention_only; ethics-and-emotions:fear; ethics-and-emotions:punishment; ethics-and-emotions:resisting_temptation; ethics-and-emotions:virtues; practice:healing_of_the_soul; practice:protection; practice:sermon; social:relations_with_sinners; social:retrospective_recognition; times:death" resp="#llm-tagging">תיוגים</span>
 <p>
 					<pb facs="Toldot-Haniflaot_0050.jpg"/><lb/>מעשה נורא שמעתי מפה קדוש של אדומ״ר הרב דק"ק
 					<placeName><lb/>קאזעניץ</placeName> זצקלה״ה, בעיר אחת היו שני בחורים
@@ -2012,7 +2012,7 @@
 					<lb/>כחה של תשובה, עוד אמר שהרב הנ"ל תקן הכל כ״א דבר
 					<lb/>אחד אשר לא תקן והוכרח לביוש הזה :
 				</p>
-				</div><div type="story" xml:id="Toldot-Haniflaot_0113" n="113"><head type="storyHead">Toldot-Haniflaot_0113</head>
+				</div><div type="story" xml:id="Toldot-Haniflaot_0113" n="113"><head type="storyHead">Toldot-Haniflaot_0113</head><span ana="experience:dream; practice:halakhah; practice:storytelling; social:excommunication; spaces:heaven; supernatural:communicating_with_the_invisible; times:death; women:catalyst_character; ethics-and-emotions:prohibitions; practice:fasting; social:disobedience; social:relations_with_sinners; spaces:rabbinical_court" resp="#llm-tagging">תיוגים</span>
 <p>
 					<lb/>מעשה נוראה ששמעתי מפי ק' של הרב הצדיק מוהר"ר <persName>הר"א</persName>
 				</p>
@@ -2060,7 +2060,7 @@
 					<lb/>המלך ע״ה שאמר ואל תטוש תורת אמך דאמו הנחילה אותו את
 					<lb/>כל הכבוד הזה :
 				</p>
-				</div><div type="story" xml:id="Toldot-Haniflaot_0114" n="114"><head type="storyHead">Toldot-Haniflaot_0114</head>
+				</div><div type="story" xml:id="Toldot-Haniflaot_0114" n="114"><head type="storyHead">Toldot-Haniflaot_0114</head><span ana="ethics-and-emotions:punishment; practice:travel_to_the_tsaddik; social:relations_with_non_jews; social:retrospective_recognition; supernatural:prognostication; ethics-and-emotions:shame; folkloristics:story_type_prognostication; practice:reception_of_hasidim; practice:the_travels_of_the_tsaddik; social:relations_with_the_authorities; supernatural:perception" resp="#llm-tagging">תיוגים</span>
 <p>
 					<pb facs="Toldot-Haniflaot_0054.jpg"/><lb/>פ״א בימי ילדותו היה נסע ל<placeName ref="#H-LOC_55">מעזבוז</placeName> למורו ורבו בעל אוהב
 					<persName><lb/>ישראל</persName> היה בא בליל ששי בעיר אחת אשר היה עוד
@@ -2136,7 +2136,7 @@
 					<lb/>אותי עוד שמה לא היה לך עוד שום תקנה ח"ו ובשביל כי נחמת
 					<lb/>ועשית טוב עמי, לכן ניחם ה׳ על הרעה לעשות טוב עמך.
 				</p>
-				</div><div type="story" xml:id="Toldot-Haniflaot_0115" n="115"><head type="storyHead">Toldot-Haniflaot_0115</head>
+				</div><div type="story" xml:id="Toldot-Haniflaot_0115" n="115"><head type="storyHead">Toldot-Haniflaot_0115</head><span ana="spaces:beth_midrash; ethics-and-emotions:humility; folkloristics:story_type_virtues; practice:reception_of_hasidim; practice:storytelling; supernatural:perception" resp="#llm-tagging">תיוגים</span>
 <p>
 					<lb/>סיפר אחד מחסידי הצדיק ר׳ <persName>ליבלי א״ר</persName> ז"ל ששמע ממנו
 					<lb/>שסיפר כי פ״א היה הה״ק מ<placeName>מאגלניצא</placeName> ב<placeName ref="#H-LOC_56">לובלין</placeName> ורציתי

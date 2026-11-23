@@ -1,0 +1,119 @@
+{
+ "unit": {
+  "kind": "hasidic_story",
+  "why": "A short anecdote: the rebbe knows, without having seen it, that a hasid slept during the third Sabbath meal before Rosh Hashana, and gives a pointed answer.",
+  "boundary_note": ""
+ },
+ "stories": [
+  {
+   "k": 1,
+   "start_quote": "שמעתי מהחסיד ר׳ משה הנ\"ל, כי",
+   "end_quote": "היה עבירה בידך לנסוע אלי",
+   "hasidic": true,
+   "summary_en": "The hasid R. Moshe dozed by the door of the crowded study hall during the third Sabbath meal before Rosh Hashana; the next day the rebbe asked him why he slept, and when Moshe dared to ask how he knew, the rebbe answered that if he had not known, Moshe would have sinned by travelling to him.",
+   "tags": [
+    {
+     "tag": "supernatural:perception",
+     "scope": "span",
+     "quotes": [
+      "למחרתו שאל אותו מרן למה אתה ישן בעת שלש סעודות",
+      "אם לא הייתי יודע היה עבירה בידך לנסוע אלי"
+     ],
+     "confidence": 3,
+     "why": "The rebbe knows of the sleeping without having seen it.",
+     "quotes_failed": false
+    },
+    {
+     "tag": "spaces:beth_midrash",
+     "scope": "span",
+     "quotes": [
+      "כשהיה בית המדרש הגדול מלא מהאנשים"
+     ],
+     "confidence": 3,
+     "why": "The scene takes place in the great study hall.",
+     "quotes_failed": false
+    },
+    {
+     "tag": "times:shabbat",
+     "scope": "span",
+     "quotes": [
+      "בעת שלש סעודות קודם ר״ה"
+     ],
+     "confidence": 3,
+     "why": "Set at the third Sabbath meal.",
+     "quotes_failed": false
+    },
+    {
+     "tag": "times:holidays",
+     "scope": "span",
+     "quotes": [
+      "בעת שלש סעודות קודם ר״ה"
+     ],
+     "confidence": 2,
+     "why": "Set on the Sabbath just before Rosh Hashana, when hasidim gather at the court.",
+     "quotes_failed": false
+    },
+    {
+     "tag": "practice:torat_ha_tsaddik",
+     "scope": "span",
+     "quotes": [
+      "אם לא הייתי יודע היה עבירה בידך לנסוע אלי"
+     ],
+     "confidence": 3,
+     "why": "The point is that a true tzaddik must have such knowledge, or travelling to him would be a sin.",
+     "quotes_failed": false
+    },
+    {
+     "tag": "practice:travel_to_the_tsaddik",
+     "scope": "span",
+     "quotes": [
+      "היה עבירה בידך לנסוע אלי"
+     ],
+     "confidence": 2,
+     "why": "Moshe has travelled to the rebbe's court for the holiday, and the journey is what is at issue.",
+     "quotes_failed": false
+    },
+    {
+     "tag": "social:inter_hasidic_master_disciple_relationship",
+     "scope": "story",
+     "quotes": [],
+     "confidence": 2,
+     "why": "The exchange between the rebbe and his hasid is the core of the story.",
+     "quotes_failed": false
+    },
+    {
+     "tag": "spaces:institutions_hassidic_court",
+     "scope": "story",
+     "quotes": [],
+     "confidence": 2,
+     "why": "Set among the crowd gathered at the rebbe's court.",
+     "quotes_failed": false
+    },
+    {
+     "tag": "practice:storytelling",
+     "scope": "span",
+     "quotes": [
+      "שמעתי מהחסיד ר׳ משה הנ\"ל"
+     ],
+     "confidence": 1,
+     "why": "Framed as a memorate the author heard from the hasid.",
+     "quotes_failed": false
+    }
+   ],
+   "missing_concepts": [
+    "third Sabbath meal (shalosh seudos) as a gathering at the tzaddik's table",
+    "falling asleep at the tzaddik's table"
+   ],
+   "start_quote_found": true,
+   "end_quote_found": true
+  }
+ ],
+ "check": {
+  "non_vocab_tags": [],
+  "quotes": 8,
+  "quotes_not_found": 0
+ },
+ "id": "Toldot-Haniflaot_0048",
+ "chars": 310,
+ "seconds": 12
+}

@@ -1,0 +1,158 @@
+{
+ "unit": {
+  "kind": "non_hasidic_story",
+  "why": "A legend about the death of Nachmanides (Ramban), a pre-Hasidic sage, taken from an old pamphlet.",
+  "boundary_note": ""
+ },
+ "stories": [
+  {
+   "k": 1,
+   "start_quote": "פטירת הרמב״ן ז״ל. מובא בקונטרס ישן",
+   "end_quote": "צדקינו במהרה בימנו אכי״ר",
+   "hasidic": false,
+   "summary_en": "Before leaving for the Land of Israel, Nachmanides tells his disciples that his mother's tombstone will crack, showing a menorah figure, on the day of his death; three years later a disciple finds it so, and the community mourns him.",
+   "tags": [
+    {
+     "tag": "not-a-hasidic-story:hagiography",
+     "scope": "story",
+     "quotes": [],
+     "confidence": 3,
+     "why": "Praises the Ramban, a pre-Hasidic sage; copied from an old pamphlet",
+     "quotes_failed": false
+    },
+    {
+     "tag": "folkloristics:story_type_death_of_the_tsaddik",
+     "scope": "story",
+     "quotes": [],
+     "confidence": 3,
+     "why": "The story is about the Ramban's death and the sign that announced it",
+     "quotes_failed": false
+    },
+    {
+     "tag": "supernatural:prognostication",
+     "scope": "span",
+     "quotes": [
+      "בזאת תדעון כי ביום פטירתי תבקע מצבת הורתי"
+     ],
+     "confidence": 3,
+     "why": "He foretells the sign of his death, and it comes true",
+     "quotes_failed": false
+    },
+    {
+     "tag": "folkloristics:story_type_prognostication",
+     "scope": "story",
+     "quotes": [],
+     "confidence": 2,
+     "why": "The story's arc is a prediction that is fulfilled",
+     "quotes_failed": false
+    },
+    {
+     "tag": "supernatural:miracle",
+     "scope": "span",
+     "quotes": [
+      "מצא תלמיד אחד את המצבה נבקעת והמנורה מצויירת בה"
+     ],
+     "confidence": 3,
+     "why": "The tombstone miraculously cracks and shows a menorah",
+     "quotes_failed": false
+    },
+    {
+     "tag": "spaces:the_land_of_israel",
+     "scope": "span",
+     "quotes": [
+      "בחר ללכת לארץ ישראל למות שם",
+      "וילך הרב אל ארץ הצבי"
+     ],
+     "confidence": 3,
+     "why": "He travels to the Land of Israel to die there",
+     "quotes_failed": false
+    },
+    {
+     "tag": "times:death",
+     "scope": "span",
+     "quotes": [
+      "ויתאבלו מאד ויבכו אותו כל ישראל"
+     ],
+     "confidence": 3,
+     "why": "His death and the mourning for it",
+     "quotes_failed": false
+    },
+    {
+     "tag": "social:inter_hasidic_master_disciple_relationship",
+     "scope": "span",
+     "quotes": [
+      "והיו תלמידיו מלויין אותו ובקשו ממנו"
+     ],
+     "confidence": 1,
+     "why": "Master and disciples, though not Hasidic",
+     "quotes_failed": false
+    },
+    {
+     "tag": "practice:pilgrimage_to_the_graves_of_tsaddikim",
+     "scope": "span",
+     "quotes": [
+      "ונשמע ח״כ שנקבר הרב על דרך ביאת גאולים"
+     ],
+     "confidence": 1,
+     "why": "His burial place is presented as significant",
+     "quotes_failed": false
+    },
+    {
+     "tag": "times:eschatology",
+     "scope": "span",
+     "quotes": [
+      "על דרך ביאת גאולים שיהי׳ לעתיד לבא",
+      "שנזכה לביאת המשיח צדקינו במהרה"
+     ],
+     "confidence": 2,
+     "why": "He is buried on the road of the future redemption",
+     "quotes_failed": false
+    },
+    {
+     "tag": "characters-and-roles:messiah",
+     "scope": "span",
+     "quotes": [
+      "שנזכה לביאת המשיח צדקינו במהרה"
+     ],
+     "confidence": 1,
+     "why": "Closing messianic wish",
+     "quotes_failed": false
+    },
+    {
+     "tag": "women:mention_only",
+     "scope": "span",
+     "quotes": [
+      "תבקע מצבת הורתי הנקברת בעיר הזאת"
+     ],
+     "confidence": 3,
+     "why": "His mother is mentioned only through her tombstone",
+     "quotes_failed": false
+    },
+    {
+     "tag": "characters-and-roles:the_family_of_the_tsaddik",
+     "scope": "span",
+     "quotes": [
+      "מצבת הורתי הנקברת בעיר הזאת"
+     ],
+     "confidence": 1,
+     "why": "His mother's grave plays a role, though she is not a character",
+     "quotes_failed": false
+    }
+   ],
+   "missing_concepts": [
+    "sign or token agreed in advance to announce a death at a distance",
+    "tombstone omen"
+   ],
+   "start_quote_found": true,
+   "end_quote_found": true
+  }
+ ],
+ "check": {
+  "non_vocab_tags": [],
+  "quotes": 12,
+  "quotes_not_found": 0
+ },
+ "id": "Maasim-Tovim_0018",
+ "chars": 571,
+ "seconds": 14
+}

@@ -1,0 +1,103 @@
+{
+ "unit": {
+  "kind": "hasidic_story",
+  "why": "A short anecdote: the master, while visiting a village, tells how his teacher of Medzhybizh saw that some notables who came to greet him had been reincarnated as pigs, and says the same holds for the people present.",
+  "boundary_note": ""
+ },
+ "stories": [
+  {
+   "k": 1,
+   "start_quote": "פ״א היה מרן ז״ל בכפר א׳",
+   "end_quote": "שהיו בכאן היה ג״כ כן",
+   "hasidic": true,
+   "summary_en": "While visiting a village where many came to greet him, the master told how his teacher in Medzhybizh saw that some dignitaries welcoming him had been pigs in a previous incarnation, and added that the same was true of some who had come to greet him now.",
+   "tags": [
+    {
+     "tag": "supernatural:reincarnation",
+     "scope": "span",
+     "quotes": [
+      "היו בתוכם אנשים שהיו קודם לידתם מגולגלים בחזירים"
+     ],
+     "confidence": 3,
+     "why": "The point is the prior incarnation of the notables as pigs.",
+     "quotes_failed": false
+    },
+    {
+     "tag": "supernatural:perception",
+     "scope": "span",
+     "quotes": [
+      "גם באנשים ההמה שהיו בכאן היה ג״כ כן"
+     ],
+     "confidence": 3,
+     "why": "Both tsaddikim discern the hidden past incarnations of the people before them.",
+     "quotes_failed": false
+    },
+    {
+     "tag": "practice:the_travels_of_the_tsaddik",
+     "scope": "span",
+     "quotes": [
+      "פ״א היה מרן ז״ל בכפר א׳"
+     ],
+     "confidence": 2,
+     "why": "The scene is set during the master's stay in a village.",
+     "quotes_failed": false
+    },
+    {
+     "tag": "practice:reception_of_hasidim",
+     "scope": "span",
+     "quotes": [
+      "ובאו אנשים רבים לקבל פניו",
+      "באו אנשים מכובדים לקבל פנ מורו ורבו ממעזבוז"
+     ],
+     "confidence": 2,
+     "why": "Crowds and notables come to greet the tsaddik.",
+     "quotes_failed": false
+    },
+    {
+     "tag": "practice:storytelling",
+     "scope": "span",
+     "quotes": [
+      "וסיפר אח״כ כי פ״א באו אנשים מכובדים"
+     ],
+     "confidence": 2,
+     "why": "The master narrates a story about his own teacher.",
+     "quotes_failed": false
+    },
+    {
+     "tag": "social:inter_hasidic_master_disciple_relationship",
+     "scope": "span",
+     "quotes": [
+      "מורו ורבו ממעזבוז"
+     ],
+     "confidence": 1,
+     "why": "The master's ability is modelled on, and set beside, his teacher's; the relationship is only in the background.",
+     "quotes_failed": false
+    },
+    {
+     "tag": "social:retrospective_recognition",
+     "scope": "span",
+     "quotes": [
+      "ועתה המה מנכבדי העיר"
+     ],
+     "confidence": 1,
+     "why": "The respected townsmen are revealed to have had a debased former incarnation.",
+     "quotes_failed": false
+    }
+   ],
+   "missing_concepts": [
+    "reincarnation into animals (gilgul in beasts) as a mark of a low soul",
+    "the hidden spiritual status of communal notables (nikhbadei ha-ir)"
+   ],
+   "start_quote_found": true,
+   "end_quote_found": true
+  }
+ ],
+ "check": {
+  "non_vocab_tags": [],
+  "quotes": 8,
+  "quotes_not_found": 0
+ },
+ "id": "Toldot-Haniflaot_0052",
+ "chars": 258,
+ "seconds": 14
+}

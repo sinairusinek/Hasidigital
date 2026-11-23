@@ -1,0 +1,120 @@
+{
+ "unit": {
+  "kind": "hasidic_story",
+  "why": "An eyewitness memorate of the rebbe's habit of reading petitioners' names from kvitlach and perceiving their deeds by holy spirit, followed by the author's kabbalistic and exegetical explanation; it is habitual rather than a single event, so it is borderline with a teaching.",
+  "boundary_note": "Ends with the closing formula of letter ק; the next division opens letter ר."
+ },
+ "stories": [
+  {
+   "k": 1,
+   "start_quote": "בעינינו ראינו מכבוד אדמ״ו הה״ק מהריעי״ז זל״ה",
+   "end_quote": "דינא דמלכותא אז יראה ללבב",
+   "hasidic": true,
+   "summary_en": "The author testifies that his master, R. Ya'akov Yitzhak (?), read the names written on petitions and discerned by holy spirit whether each person's deeds were pure, first saying 'leshem yihud'; the author explains this as a yihud of voice and speech in the roots of souls and links it to the verse 'man sees with the eyes, but God sees the heart'.",
+   "tags": [
+    {
+     "tag": "supernatural:perception",
+     "scope": "span",
+     "quotes": [
+      "היה מתבונן ברוח קדשו מעשה האיש אם זך ואם ישר פעלו"
+     ],
+     "confidence": 3,
+     "why": "He discerns people's deeds from their names by holy spirit.",
+     "quotes_failed": false
+    },
+    {
+     "tag": "practice:reception_of_hasidim",
+     "scope": "span",
+     "quotes": [
+      "היה קורא מהכתב שמות בני אדם שכתבו לו"
+     ],
+     "confidence": 2,
+     "why": "He reads petitioners' kvitlach (the section heading is 'reading of petitions').",
+     "quotes_failed": false
+    },
+    {
+     "tag": "kabbalah:kabbalistic_terms_yihudim",
+     "scope": "span",
+     "quotes": [
+      "שהיה מכוין לייחד הקול והדיבור ונתהווה היחוד למעלה",
+      "לייחד קול ודבור הוי״ה עם בית דינו אדנ״י"
+     ],
+     "confidence": 3,
+     "why": "Explicit unification of divine names and of voice and speech.",
+     "quotes_failed": false
+    },
+    {
+     "tag": "kabbalah:kabbalistic_terms_kavvanot",
+     "scope": "span",
+     "quotes": [
+      "שהיה אומר קודם הקריאה לשיקוב״ה"
+     ],
+     "confidence": 2,
+     "why": "He recites the 'leshem yihud' formula of intention before reading.",
+     "quotes_failed": false
+    },
+    {
+     "tag": "practice:meditation",
+     "scope": "span",
+     "quotes": [
+      "שהיה מכוין לייחד הקול והדיבור"
+     ],
+     "confidence": 2,
+     "why": "Contemplative performance of yihudim.",
+     "quotes_failed": false
+    },
+    {
+     "tag": "knowledge:esoteric",
+     "scope": "span",
+     "quotes": [
+      "ונתהווה היחוד למעלה בשורשי הנשמות"
+     ],
+     "confidence": 2,
+     "why": "Kabbalistic doctrine of the roots and branches of souls.",
+     "quotes_failed": false
+    },
+    {
+     "tag": "practice:torat_ha_tsaddik",
+     "scope": "story",
+     "quotes": [],
+     "confidence": 1,
+     "why": "The tzaddik's special insight into those who come to him.",
+     "quotes_failed": false
+    },
+    {
+     "tag": "not-a-hasidic-story:sermon",
+     "scope": "span",
+     "quotes": [
+      "וזהו לדעתי אדם יראה לעינים"
+     ],
+     "confidence": 2,
+     "why": "The anecdote is wrapped in the author's extended exegetical and kabbalistic explanation.",
+     "quotes_failed": false
+    },
+    {
+     "tag": "practice:sermon",
+     "scope": "span",
+     "quotes": [
+      "וזהו לדעתי אדם יראה לעינים רצ״ל"
+     ],
+     "confidence": 1,
+     "why": "Exegesis of a verse attached to the account.",
+     "quotes_failed": false
+    }
+   ],
+   "missing_concepts": [
+    "reading kvitlach (petition notes) as a practice"
+   ],
+   "start_quote_found": true,
+   "end_quote_found": true
+  }
+ ],
+ "check": {
+  "non_vocab_tags": [],
+  "quotes": 9,
+  "quotes_not_found": 0
+ },
+ "id": "Derech-Haemuna_0193",
+ "chars": 605,
+ "seconds": 18
+}

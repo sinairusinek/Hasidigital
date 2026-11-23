@@ -1,0 +1,148 @@
+{
+ "unit": {
+  "kind": "hasidic_story",
+  "why": "A narrated episode: R. Yeiva of Ostroh and R. Pinchas dispute which prohibition is gravest, agree to settle it by opening a Chumash at random, and the verse with its Targum vindicates both.",
+  "boundary_note": ""
+ },
+ "stories": [
+  {
+   "k": 1,
+   "start_quote": "פ״א התווכח הרב הקדוש רב ייב\"א ז\"ל",
+   "end_quote": "ואלו ואלו דברי אלקים חיים ודפח\"ח",
+   "hasidic": true,
+   "summary_en": "R. Yeiva of Ostroh holds that the gravest sin of the age is talking in the synagogue during prayer, while R. Pinchas holds it is poor Jewish girls selling food in gentile lords' houses; they open a Chumash at random to the verse 'הכזונה יעשה את אחותנו', and its Targum is read to support both views.",
+   "tags": [
+    {
+     "tag": "social:inter_hasidic_conflict_between_tsaddikim",
+     "scope": "span",
+     "quotes": [
+      "ומרוב התעצמות שהתעצם אחד על חבירו כזה",
+      "וכל אחד מהצדיקים הנ\"ל הפציר את חבירו"
+     ],
+     "confidence": 2,
+     "why": "a heated dispute between two tzaddikim",
+     "quotes_failed": false
+    },
+    {
+     "tag": "social:competition",
+     "scope": "span",
+     "quotes": [
+      "נעשה הסכם ביניהם לפתוח חומש אחד",
+      "עם מי הצדק בזה"
+     ],
+     "confidence": 2,
+     "why": "a contest over whose view is right, settled by lot",
+     "quotes_failed": false
+    },
+    {
+     "tag": "ethics-and-emotions:prohibitions",
+     "scope": "span",
+     "quotes": [
+      "אשר האיסור החמור בדור הזה הוא",
+      "אמר אשר איסור גדול שלא ילכו בנות ישראל"
+     ],
+     "confidence": 3,
+     "why": "the debate is about which prohibition is gravest",
+     "quotes_failed": false
+    },
+    {
+     "tag": "practice:prayer",
+     "scope": "span",
+     "quotes": [
+      "מה שמדברים בביהכנ״ס בשעת התפלה"
+     ],
+     "confidence": 2,
+     "why": "talking during synagogue prayer is one side of the dispute",
+     "quotes_failed": false
+    },
+    {
+     "tag": "practice:halakhah",
+     "scope": "span",
+     "quotes": [
+      "וחשש הרר״פ שלא יבאו לידי יחוד ח\"ו"
+     ],
+     "confidence": 2,
+     "why": "halakhic concerns: the prohibition of yihud and of talking during prayer",
+     "quotes_failed": false
+    },
+    {
+     "tag": "practice:sermon",
+     "scope": "span",
+     "quotes": [
+      "נראה מה שמתרגם יונתן ע״ז הפסוק",
+      "הרי שכל אומר הדבר הוא שלא יבואו"
+     ],
+     "confidence": 2,
+     "why": "exegesis of a verse and its Targum resolves the dispute",
+     "quotes_failed": false
+    },
+    {
+     "tag": "social:relations_with_non_jews",
+     "scope": "span",
+     "quotes": [
+      "לבית אדוני אוה״ע למכור המאכלים כמו עופות"
+     ],
+     "confidence": 2,
+     "why": "Jewish girls selling food in gentile lords' houses",
+     "quotes_failed": false
+    },
+    {
+     "tag": "ethics-and-emotions:lust",
+     "scope": "span",
+     "quotes": [
+      "וחשש הרר״פ שלא יבאו לידי יחוד ח\"ו"
+     ],
+     "confidence": 1,
+     "why": "fear of sexual impropriety",
+     "quotes_failed": false
+    },
+    {
+     "tag": "women:mention_only",
+     "scope": "span",
+     "quotes": [
+      "שלא ילכו בנות ישראל העניות"
+     ],
+     "confidence": 3,
+     "why": "the poor girls are discussed but do not act",
+     "quotes_failed": false
+    },
+    {
+     "tag": "social:poverty",
+     "scope": "span",
+     "quotes": [
+      "בנות ישראל העניות"
+     ],
+     "confidence": 1,
+     "why": "poverty appears, though not embraced as a virtue; borderline under the definition",
+     "quotes_failed": false
+    },
+    {
+     "tag": "spaces:beth_midrash",
+     "scope": "span",
+     "quotes": [
+      "שלא יבואו לדבר מזה בבתי כנסיות של ישראל"
+     ],
+     "confidence": 1,
+     "why": "the synagogue is the subject, not the setting of a scene",
+     "quotes_failed": false
+    }
+   ],
+   "missing_concepts": [
+    "bibliomancy / divination by opening a Chumash at random",
+    "'both these and those are the words of the living God' resolution of a dispute",
+    "talking in the synagogue",
+    "Targum interpretation"
+   ],
+   "start_quote_found": true,
+   "end_quote_found": true
+  }
+ ],
+ "check": {
+  "non_vocab_tags": [],
+  "quotes": 15,
+  "quotes_not_found": 0
+ },
+ "id": "Eser-Orot_0039",
+ "chars": 930,
+ "seconds": 19
+}

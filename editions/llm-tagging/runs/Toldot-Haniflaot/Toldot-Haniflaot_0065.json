@@ -1,0 +1,175 @@
+{
+ "unit": {
+  "kind": "hasidic_story",
+  "why": "A single anecdote about the holy rabbi (מרן החק׳) who, after the wealthy man refuses to obey a rabbinical-court ruling, declares himself a complete tzaddik and curses him, and the man is impoverished.",
+  "boundary_note": "The opening announces two stories ('ב׳ מעשיות'); only the first is here, and the second begins in the next division (עא)."
+ },
+ "stories": [
+  {
+   "k": 1,
+   "start_quote": "סיפר הרב הנ״ל ב׳ מעשיות שהיו מפניו",
+   "end_quote": "יתן ה׳ לקיים התורה והמצות אכי״ר",
+   "hasidic": true,
+   "summary_en": "A powerful rich man refuses to obey a din torah; the tzaddik first entreats him kindly, then expounds the Talmudic rule that a complete tzaddik may provoke the wicked, angrily curses him, and within a year the man loses his wealth.",
+   "tags": [
+    {
+     "tag": "ethics-and-emotions:anger",
+     "scope": "span",
+     "quotes": [
+      "ודיבר אליו בכעס גדול",
+      "כי דרכו היה לכעוס מאד על עוברי עבירה"
+     ],
+     "confidence": 3,
+     "why": "The tzaddik's anger is central and is presented as legitimate.",
+     "quotes_failed": false
+    },
+    {
+     "tag": "ethics-and-emotions:punishment",
+     "scope": "span",
+     "quotes": [
+      "ירד מנכסיו ונעשה עני חוץ עונשים אחרים"
+     ],
+     "confidence": 3,
+     "why": "The rich man is punished for defying the court.",
+     "quotes_failed": false
+    },
+    {
+     "tag": "practice:halakhah",
+     "scope": "span",
+     "quotes": [
+      "לא רצה לציית הד״ת",
+      "דצדיק גמור מותר להתגרות ברשעים"
+     ],
+     "confidence": 3,
+     "why": "The duty to obey a din torah and the Talmudic rule on provoking the wicked justify the tzaddik's action.",
+     "quotes_failed": false
+    },
+    {
+     "tag": "spaces:rabbinical_court",
+     "scope": "span",
+     "quotes": [
+      "דיבר דברים קשים נגד הדיינים שדנו אותו",
+      "לקבל עליו דין הב״ד"
+     ],
+     "confidence": 2,
+     "why": "A beit din's ruling is the subject, though no scene takes place in the court.",
+     "quotes_failed": false
+    },
+    {
+     "tag": "social:conflict",
+     "scope": "story",
+     "quotes": [],
+     "confidence": 3,
+     "why": "The tzaddik is in conflict with a defiant rich man.",
+     "quotes_failed": false
+    },
+    {
+     "tag": "social:relations_with_sinners",
+     "scope": "span",
+     "quotes": [
+      "רשע רשע אשר לא תרצה לציית הד״ת"
+     ],
+     "confidence": 3,
+     "why": "The tzaddik first tries to draw the sinner back, then judges and condemns him.",
+     "quotes_failed": false
+    },
+    {
+     "tag": "supernatural:prognostication",
+     "scope": "span",
+     "quotes": [
+      "דע כי אנכי אעקור אותך שלא ישאר שריד",
+      "וכן היה אשר לא עלתה לו שנה"
+     ],
+     "confidence": 2,
+     "why": "The threat or curse is fulfilled.",
+     "quotes_failed": false
+    },
+    {
+     "tag": "practice:sermon",
+     "scope": "span",
+     "quotes": [
+      "ואמר לפניהם מה דאיתא בגמ׳ ברכות",
+      "שיודע בעצמו אשר אין לו שום נגיעה"
+     ],
+     "confidence": 3,
+     "why": "The tzaddik expounds a Talmudic passage to the scholars.",
+     "quotes_failed": false
+    },
+    {
+     "tag": "practice:torat_ha_tsaddik",
+     "scope": "span",
+     "quotes": [
+      "והנה באמת אנכי הוא צדיק גמור בענין הזה"
+     ],
+     "confidence": 2,
+     "why": "The power of the complete tzaddik to act against the wicked.",
+     "quotes_failed": false
+    },
+    {
+     "tag": "ethics-and-emotions:pride",
+     "scope": "span",
+     "quotes": [
+      "שהיה גבר אלם ואיש מצליח מאד"
+     ],
+     "confidence": 1,
+     "why": "The rich man's arrogant defiance.",
+     "quotes_failed": false
+    },
+    {
+     "tag": "practice:travel_to_the_tsaddik",
+     "scope": "span",
+     "quotes": [
+      "והיה נוסע כ״פ למרן החק׳ ז״ל בקובלנא עליו"
+     ],
+     "confidence": 2,
+     "why": "The plaintiff travels to the tzaddik repeatedly with his complaint.",
+     "quotes_failed": false
+    },
+    {
+     "tag": "practice:reception_of_hasidim",
+     "scope": "span",
+     "quotes": [
+      "קיבל אותו בסבר פנים יפות מאד"
+     ],
+     "confidence": 2,
+     "why": "The tzaddik receives the rich visitor warmly.",
+     "quotes_failed": false
+    },
+    {
+     "tag": "practice:storytelling",
+     "scope": "span",
+     "quotes": [
+      "סיפר הרב הנ״ל ב׳ מעשיות"
+     ],
+     "confidence": 2,
+     "why": "The story is framed as told by the named rabbi.",
+     "quotes_failed": false
+    },
+    {
+     "tag": "folkloristics:story_type_prognostication",
+     "scope": "story",
+     "quotes": [],
+     "confidence": 1,
+     "why": "The arc ends with the tzaddik's declared threat coming true.",
+     "quotes_failed": false
+    }
+   ],
+   "missing_concepts": [
+    "curse by a tzaddik",
+    "refusal to obey a rabbinical-court ruling (סרבנות לדין תורה)",
+    "loss of wealth as divine retribution",
+    "danger of opposing a wicked man whom fortune favours"
+   ],
+   "start_quote_found": true,
+   "end_quote_found": true
+  }
+ ],
+ "check": {
+  "non_vocab_tags": [],
+  "quotes": 17,
+  "quotes_not_found": 0
+ },
+ "id": "Toldot-Haniflaot_0065",
+ "chars": 1551,
+ "seconds": 18
+}

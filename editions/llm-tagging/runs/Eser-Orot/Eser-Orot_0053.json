@@ -1,0 +1,142 @@
+{
+ "unit": {
+  "kind": "hasidic_story",
+  "why": "A single anecdote: the holy rabbi, serving as mohel, falls into devekut mid-circumcision, the infant dies, and he revives him to complete the periah.",
+  "boundary_note": ""
+ },
+ "stories": [
+  {
+   "k": 1,
+   "start_quote": "פ״א הי' הרה״ק מוהל ואמר כי",
+   "end_quote": "וחי הילד והי׳ פריעה",
+   "hasidic": true,
+   "summary_en": "While serving as mohel, the tzaddik threw himself under a bench in ecstatic devekut after cutting the foreskin; the bleeding infant died, but on returning the rabbi declared he wished to do the periah, and the child's soul returned and he lived.",
+   "tags": [
+    {
+     "tag": "practice:circumcision",
+     "scope": "story",
+     "quotes": [],
+     "confidence": 3,
+     "why": "whole story is a brit milah with the tzaddik as mohel",
+     "quotes_failed": false
+    },
+    {
+     "tag": "practice:devekut",
+     "scope": "span",
+     "quotes": [
+      "לבטל ולנתק אותו מדביקותו",
+      "לגשת אל הרה״ק לעוררו מדביקותו"
+     ],
+     "confidence": 3,
+     "why": "tzaddik absorbed in devekut during the ceremony",
+     "quotes_failed": false
+    },
+    {
+     "tag": "experience:devekut",
+     "scope": "span",
+     "quotes": [
+      "זרק א\"ע אל תחת ספסל אחד"
+     ],
+     "confidence": 3,
+     "why": "ecstatic cleaving experienced by the rabbi",
+     "quotes_failed": false
+    },
+    {
+     "tag": "experience:enthusiasm",
+     "scope": "span",
+     "quotes": [
+      "זרק א\"ע אל תחת ספסל אחד"
+     ],
+     "confidence": 2,
+     "why": "ecstatic throwing himself down, fervor",
+     "quotes_failed": false
+    },
+    {
+     "tag": "supernatural:miracle",
+     "scope": "span",
+     "quotes": [
+      "ובא נשמתו בקרבו וחי הילד"
+     ],
+     "confidence": 3,
+     "why": "dead infant revived",
+     "quotes_failed": false
+    },
+    {
+     "tag": "practice:lifesaving",
+     "scope": "span",
+     "quotes": [
+      "ובא נשמתו בקרבו וחי הילד"
+     ],
+     "confidence": 3,
+     "why": "tzaddik revives a dead child",
+     "quotes_failed": false
+    },
+    {
+     "tag": "times:death",
+     "scope": "span",
+     "quotes": [
+      "נתגולל בדמו ופרחה ממנו נשמתו"
+     ],
+     "confidence": 2,
+     "why": "the child dies (temporarily)",
+     "quotes_failed": false
+    },
+    {
+     "tag": "spaces:beth_midrash",
+     "scope": "span",
+     "quotes": [
+      "שהי' שם בבהמ\"ד"
+     ],
+     "confidence": 3,
+     "why": "ceremony takes place in the study hall",
+     "quotes_failed": false
+    },
+    {
+     "tag": "ethics-and-emotions:fear",
+     "scope": "span",
+     "quotes": [
+      "כי יראו לנפשם לבטל ולנתק אותו"
+     ],
+     "confidence": 2,
+     "why": "onlookers afraid to interrupt the tzaddik",
+     "quotes_failed": false
+    },
+    {
+     "tag": "ethics-and-emotions:awe",
+     "scope": "span",
+     "quotes": [
+      "והעולם עמדו משתוממים כי יראו לנפשם"
+     ],
+     "confidence": 2,
+     "why": "awe of the tzaddik prevents intervention",
+     "quotes_failed": false
+    },
+    {
+     "tag": "practice:halakhah",
+     "scope": "span",
+     "quotes": [
+      "ואמר כי ירצה להיות חיתוך ופריעה",
+      "לא רצו שאיש אחר יהי' הפורע"
+     ],
+     "confidence": 1,
+     "why": "the two stages of milah and who performs periah",
+     "quotes_failed": false
+    }
+   ],
+   "missing_concepts": [
+    "resurrection of the dead",
+    "danger to the infant caused by the tzaddik's ecstasy"
+   ],
+   "start_quote_found": true,
+   "end_quote_found": true
+  }
+ ],
+ "check": {
+  "non_vocab_tags": [],
+  "quotes": 12,
+  "quotes_not_found": 0
+ },
+ "id": "Eser-Orot_0053",
+ "chars": 519,
+ "seconds": 14
+}

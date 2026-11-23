@@ -1,0 +1,101 @@
+{
+ "unit": {
+  "kind": "hasidic_story",
+  "why": "A short anecdote: the Maggid, eating from a fine bowl, senses that those present envy him for being a rebbe and answers them.",
+  "boundary_note": ""
+ },
+ "stories": [
+  {
+   "k": 1,
+   "start_quote": "עו״ש מהמגיד זצ״ל שפ\"א אכל בקערה",
+   "end_quote": "קלל את הרשעים שיהיו צדיקים",
+   "hasidic": true,
+   "summary_en": "The Maggid eats from a small ornate bowl, perceives that the people present envy his position as rebbe, and tells them that a rebbe suffers greatly from the sorrows of Israel; he then 'curses' the wicked that they should become righteous.",
+   "tags": [
+    {
+     "tag": "practice:torat_ha_tsaddik",
+     "scope": "span",
+     "quotes": [
+      "מי שהוא רבי יש לו יסורים גדולים מצערן של ישראל"
+     ],
+     "confidence": 3,
+     "why": "The burden the rebbe carries for the suffering of Israel is the point of the story.",
+     "quotes_failed": false
+    },
+    {
+     "tag": "supernatural:perception",
+     "scope": "span",
+     "quotes": [
+      "והבין שמקנאים אותו במה שהוא רבי"
+     ],
+     "confidence": 1,
+     "why": "He discerns their unspoken envy; this may be ordinary insight rather than supernatural knowledge.",
+     "quotes_failed": false
+    },
+    {
+     "tag": "folkloristics:story_type_virtues",
+     "scope": "story",
+     "quotes": [],
+     "confidence": 2,
+     "why": "The anecdote shows the tzaddik's self-sacrificing empathy for Israel.",
+     "quotes_failed": false
+    },
+    {
+     "tag": "ethics-and-emotions:humility",
+     "scope": "span",
+     "quotes": [
+      "אתם סוברים שטוב להיות רבי"
+     ],
+     "confidence": 1,
+     "why": "He plays down the supposed glory of being a rebbe.",
+     "quotes_failed": false
+    },
+    {
+     "tag": "practice:joke",
+     "scope": "span",
+     "quotes": [
+      "ואח״כ קלל את הרשעים שיהיו צדיקים"
+     ],
+     "confidence": 2,
+     "why": "A witty 'curse' that is really a blessing.",
+     "quotes_failed": false
+    },
+    {
+     "tag": "social:relations_with_sinners",
+     "scope": "span",
+     "quotes": [
+      "קלל את הרשעים שיהיו צדיקים"
+     ],
+     "confidence": 1,
+     "why": "He addresses the wicked by wishing that they become righteous.",
+     "quotes_failed": false
+    },
+    {
+     "tag": "practice:reception_of_hasidim",
+     "scope": "span",
+     "quotes": [
+      "והיו אנשים אצלו"
+     ],
+     "confidence": 1,
+     "why": "The scene takes place with visitors present while he eats.",
+     "quotes_failed": false
+    }
+   ],
+   "missing_concepts": [
+    "envy (kin'ah) of the tzaddik's status",
+    "the tzaddik's suffering for Israel's sorrows",
+    "an ornate vessel as a symbol of the rebbe's status"
+   ],
+   "start_quote_found": true,
+   "end_quote_found": true
+  }
+ ],
+ "check": {
+  "non_vocab_tags": [],
+  "quotes": 6,
+  "quotes_not_found": 0
+ },
+ "id": "Likutim-Hadashim_0009",
+ "chars": 224,
+ "seconds": 14
+}

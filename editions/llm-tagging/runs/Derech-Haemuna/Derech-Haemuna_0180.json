@@ -1,0 +1,141 @@
+{
+ "unit": {
+  "kind": "hasidic_story",
+  "why": "A short anecdote: R. Michel of Zlotchov predicts that one scholar will never rule correctly, the prediction comes true, and he honours the visiting author of Pri Megadim with a heavenly proclamation about him.",
+  "boundary_note": "The trailing 'מענין פרנסה' is the heading of the next division."
+ },
+ "stories": [
+  {
+   "k": 1,
+   "start_quote": "אמר הה״ק מוהר״ר מיכל מזלאטשוב לתלמידו",
+   "end_quote": "על שלומד בטהרה לשם אל עולם",
+   "hasidic": true,
+   "summary_en": "R. Michel of Zlotchov foretells that a certain scholar, who studies Torah only with his lips like Doeg, will never rule correctly, which comes true; when the author of Pri Megadim visits, he honours him and says Heaven proclaimed that halakhah would follow him because he studies in purity.",
+   "tags": [
+    {
+     "tag": "supernatural:prognostication",
+     "scope": "span",
+     "quotes": [
+      "לא יזכה לעולם להורת כהלכה",
+      "וכך הוה"
+     ],
+     "confidence": 3,
+     "why": "His prediction about the scholar comes true",
+     "quotes_failed": false
+    },
+    {
+     "tag": "folkloristics:story_type_prognostication",
+     "scope": "story",
+     "quotes": [],
+     "confidence": 2,
+     "why": "The narrative arc is a prediction that is fulfilled",
+     "quotes_failed": false
+    },
+    {
+     "tag": "supernatural:perception",
+     "scope": "span",
+     "quotes": [
+      "שהכריזו ברקיע שיזכה לקבוע הלכה כמוהו"
+     ],
+     "confidence": 3,
+     "why": "He knows what was proclaimed in Heaven",
+     "quotes_failed": false
+    },
+    {
+     "tag": "supernatural:communicating_with_the_invisible",
+     "scope": "span",
+     "quotes": [
+      "שהכריזו ברקיע"
+     ],
+     "confidence": 1,
+     "why": "He is aware of a heavenly proclamation",
+     "quotes_failed": false
+    },
+    {
+     "tag": "practice:halakhah",
+     "scope": "span",
+     "quotes": [
+      "להורת כהלכה",
+      "שיזכה לקבוע הלכה כמוהו"
+     ],
+     "confidence": 3,
+     "why": "The story is about the ability to rule on Jewish law",
+     "quotes_failed": false
+    },
+    {
+     "tag": "practice:study",
+     "scope": "span",
+     "quotes": [
+      "על שלומד תורה כדואג משפה ולחוץ",
+      "על שלומד בטהרה לשם אל עולם"
+     ],
+     "confidence": 3,
+     "why": "The manner of Torah study decides each scholar's fate",
+     "quotes_failed": false
+    },
+    {
+     "tag": "practice:reception_of_hasidim",
+     "scope": "span",
+     "quotes": [
+      "וכשבא אצלו הג׳ בעל פרי מגדים כיבד אותו ביותר"
+     ],
+     "confidence": 2,
+     "why": "The tsaddik receives and honours a visitor",
+     "quotes_failed": false
+    },
+    {
+     "tag": "social:inter_hasidic_master_disciple_relationship",
+     "scope": "span",
+     "quotes": [
+      "אמר הה״ק מוהר״ר מיכל מזלאטשוב לתלמידו"
+     ],
+     "confidence": 1,
+     "why": "The saying is addressed to his disciple",
+     "quotes_failed": false
+    },
+    {
+     "tag": "social:relations_with_non_hasidim",
+     "scope": "span",
+     "quotes": [
+      "בעל פרי מגדים כיבד אותו ביותר"
+     ],
+     "confidence": 1,
+     "why": "The Pri Megadim was a non-Hasidic rabbinic authority",
+     "quotes_failed": false
+    },
+    {
+     "tag": "not-a-hasidic-story:hagiography",
+     "scope": "story",
+     "quotes": [],
+     "confidence": 1,
+     "why": "The story partly praises a non-Hasidic sage (the Pri Megadim)",
+     "quotes_failed": false
+    },
+    {
+     "tag": "ethics-and-emotions:virtues",
+     "scope": "span",
+     "quotes": [
+      "בטהרה לשם אל עולם"
+     ],
+     "confidence": 1,
+     "why": "It contrasts study for God's sake with study by the lips only",
+     "quotes_failed": false
+    }
+   ],
+   "missing_concepts": [
+    "Torah study for its own sake (lishmah) versus lip-service study",
+    "heavenly authority of a halakhic decisor"
+   ],
+   "start_quote_found": true,
+   "end_quote_found": true
+  }
+ ],
+ "check": {
+  "non_vocab_tags": [],
+  "quotes": 12,
+  "quotes_not_found": 0
+ },
+ "id": "Derech-Haemuna_0180",
+ "chars": 331,
+ "seconds": 18
+}

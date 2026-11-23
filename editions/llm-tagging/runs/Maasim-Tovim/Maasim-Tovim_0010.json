@@ -1,0 +1,209 @@
+{
+ "unit": {
+  "kind": "non_hasidic_story",
+  "why": "A self-contained legend set in the time of Rav Sherira Gaon about Ezra the Scribe's Torah scroll, desecrated by an apostate and miraculously avenged; no Hasidic figures appear.",
+  "boundary_note": ""
+ },
+ "stories": [
+  {
+   "k": 1,
+   "start_quote": "י) מעשה מה שהי׳ בספר תורה של עזרא הסופר",
+   "end_quote": "וכן הי׳ כאשר אמר אביו :",
+   "hasidic": false,
+   "summary_en": "Two heirs of a rich man in Rav Sherira Gaon's day quarrel over a Torah scroll written by Ezra the Scribe and divide it by lot; a spiteful apostate falsifies a letter in it, and the winner falls ill with grief until his dead father reveals in a dream that the apostate's eye fell out under the table and that Ezra himself will repair the scroll, which comes true.",
+   "tags": [
+    {
+     "tag": "not-a-hasidic-story:hagiography",
+     "scope": "story",
+     "quotes": [],
+     "confidence": 2,
+     "why": "Pre-Hasidic legend from the Geonic period glorifying the sanctity of Ezra's scroll",
+     "quotes_failed": false
+    },
+    {
+     "tag": "characters-and-roles:scribe",
+     "scope": "span",
+     "quotes": [
+      "ספר תורה שהי׳ כתב ידו של עזרא הסופר",
+      "אשר עזרא הסופר בעצמו יתקן את הס״ת"
+     ],
+     "confidence": 2,
+     "why": "Ezra the Scribe, a sofer, is the scroll's writer and its destined repairer",
+     "quotes_failed": false
+    },
+    {
+     "tag": "social:conflict",
+     "scope": "span",
+     "quotes": [
+      "היה מחלוקת גדול בין הבנים היורשים"
+     ],
+     "confidence": 3,
+     "why": "The heirs quarrel over the scroll",
+     "quotes_failed": false
+    },
+    {
+     "tag": "spaces:rabbinical_court",
+     "scope": "span",
+     "quotes": [
+      "והציעו טענותיהם לפני יודעי דת ובאו אל מול הרב שרירא גאון"
+     ],
+     "confidence": 2,
+     "why": "The case is brought before Rav Sherira Gaon for a ruling",
+     "quotes_failed": false
+    },
+    {
+     "tag": "practice:halakhah",
+     "scope": "span",
+     "quotes": [
+      "ויצא הפס\"ד שהחלוקה תהי׳ ביניהם עפ\"י גודל",
+      "ופיסל את הס״ת בחירוף וגידוף גדול"
+     ],
+     "confidence": 2,
+     "why": "A legal ruling on the inheritance; the scroll is made invalid by a falsified letter",
+     "quotes_failed": false
+    },
+    {
+     "tag": "social:converts_and_conversion",
+     "scope": "span",
+     "quotes": [
+      "ועשה ברשעתו מומר",
+      "מומר להכעיס ימ״ש"
+     ],
+     "confidence": 2,
+     "why": "The villain becomes an apostate out of spite",
+     "quotes_failed": false
+    },
+    {
+     "tag": "ethics-and-emotions:anger",
+     "scope": "span",
+     "quotes": [
+      "מאד חרה אפו על היורש הזה"
+     ],
+     "confidence": 3,
+     "why": "The heretic's anger drives the desecration",
+     "quotes_failed": false
+    },
+    {
+     "tag": "ethics-and-emotions:prohibitions",
+     "scope": "span",
+     "quotes": [
+      "ומחק את הע׳ מן ועבדתם וכתב א׳ במקומו"
+     ],
+     "confidence": 2,
+     "why": "Deliberate desecration of a Torah scroll",
+     "quotes_failed": false
+    },
+    {
+     "tag": "ethics-and-emotions:punishment",
+     "scope": "span",
+     "quotes": [
+      "תיכף בעת המחיקה נפל עין ימין שלו",
+      "אשר יקוים בו עין תחת עין"
+     ],
+     "confidence": 3,
+     "why": "The desecrator loses his eye as measure-for-measure punishment",
+     "quotes_failed": false
+    },
+    {
+     "tag": "supernatural:miracle",
+     "scope": "span",
+     "quotes": [
+      "ושם נמצא עין של הכופר הרשע"
+     ],
+     "confidence": 3,
+     "why": "The eye miraculously falls out at the moment of the desecration",
+     "quotes_failed": false
+    },
+    {
+     "tag": "ethics-and-emotions:sadness",
+     "scope": "span",
+     "quotes": [
+      "ומגודל היסורים ודאגה נחלה מאד"
+     ],
+     "confidence": 2,
+     "why": "The heir falls ill from grief over the damaged scroll",
+     "quotes_failed": false
+    },
+    {
+     "tag": "experience:dream",
+     "scope": "span",
+     "quotes": [
+      "ובא אליו אביו בחלום הלילה וסיפר לו את כל המאורע"
+     ],
+     "confidence": 3,
+     "why": "The dead father reveals the truth in a dream",
+     "quotes_failed": false
+    },
+    {
+     "tag": "supernatural:communicating_with_the_invisible",
+     "scope": "span",
+     "quotes": [
+      "ובא אליו אביו בחלום הלילה"
+     ],
+     "confidence": 2,
+     "why": "The dead father's soul communicates with his son",
+     "quotes_failed": false
+    },
+    {
+     "tag": "supernatural:prognostication",
+     "scope": "span",
+     "quotes": [
+      "אשר עזרא הסופר בעצמו יתקן את הס״ת",
+      "וכן הי׳ כאשר אמר אביו"
+     ],
+     "confidence": 2,
+     "why": "The father's prediction in the dream comes true",
+     "quotes_failed": false
+    },
+    {
+     "tag": "social:retrospective_recognition",
+     "scope": "span",
+     "quotes": [
+      "ודבר זה לא נתודע לשום אדם",
+      "וסיפר לו את כל המאורע"
+     ],
+     "confidence": 2,
+     "why": "The hidden cause of the error is revealed only afterwards",
+     "quotes_failed": false
+    },
+    {
+     "tag": "times:death",
+     "scope": "span",
+     "quotes": [
+      "ולאחר פטירתו היה מחלוקת גדול"
+     ],
+     "confidence": 1,
+     "why": "The father's death sets off the plot",
+     "quotes_failed": false
+    },
+    {
+     "tag": "ethics-and-emotions:joy",
+     "scope": "span",
+     "quotes": [
+      "ושמח מאד שמחה גדולה והי׳ בעיניו כמוצא שלל רב"
+     ],
+     "confidence": 1,
+     "why": "The winning heir rejoices over the scroll",
+     "quotes_failed": false
+    }
+   ],
+   "missing_concepts": [
+    "sanctity/relic status of a sacred object (Torah scroll)",
+    "inheritance dispute",
+    "heavenly court decree (בית דין של מעלה)",
+    "casting lots (גורל)",
+    "heretic/apikoros"
+   ],
+   "start_quote_found": true,
+   "end_quote_found": true
+  }
+ ],
+ "check": {
+  "non_vocab_tags": [],
+  "quotes": 22,
+  "quotes_not_found": 0
+ },
+ "id": "Maasim-Tovim_0010",
+ "chars": 1679,
+ "seconds": 23
+}

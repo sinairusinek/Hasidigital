@@ -1,0 +1,122 @@
+{
+ "unit": {
+  "kind": "hasidic_story",
+  "why": "A short anecdote, told by the Hiddushei HaRim, about a case brought to the Seer of Lublin: a married woman had been secluded with another man, and he ruled on the law and his reliance on ruach ha-kodesh.",
+  "boundary_note": ""
+ },
+ "stories": [
+  {
+   "k": 1,
+   "start_quote": "סיפר הגאון הקדוש בעל חידושי הרי״ם",
+   "end_quote": "שמבין ישראל שוה דינר זהב ע״ב:",
+   "hasidic": true,
+   "summary_en": "A case of a married woman who was secluded with another man came before the Seer of Lublin. He permitted the couple to live together as the law allows, and explained that beyond the strict law he may rely on his holy spirit, which shows him she was not defiled, but never where the law itself forbids.",
+   "tags": [
+    {
+     "tag": "practice:halakhah",
+     "scope": "span",
+     "quotes": [
+      "כדין המבואר בסי׳ קע״ח ס״ו",
+      "כשאסורה מצד הדין אין לסמוך על הרוה״ק"
+     ],
+     "confidence": 3,
+     "why": "The halakhic ruling is the core of the story.",
+     "quotes_failed": false
+    },
+    {
+     "tag": "ethics-and-emotions:adultery",
+     "scope": "span",
+     "quotes": [
+      "ענין שנסתרה א״א עם אחר"
+     ],
+     "confidence": 3,
+     "why": "Suspected adultery of a married woman is the case at issue.",
+     "quotes_failed": false
+    },
+    {
+     "tag": "ethics-and-emotions:prohibitions",
+     "scope": "span",
+     "quotes": [
+      "שאיג אסורה בלא קינוי",
+      "כשאסורה מצד הדין אין לסמוך"
+     ],
+     "confidence": 3,
+     "why": "The question is whether she is forbidden to her husband.",
+     "quotes_failed": false
+    },
+    {
+     "tag": "supernatural:perception",
+     "scope": "span",
+     "quotes": [
+      "אוכל לסמוך על רוח״ק שלי שאני רואה שלא נטמאה"
+     ],
+     "confidence": 3,
+     "why": "The Seer knows through ruach ha-kodesh that she was not defiled.",
+     "quotes_failed": false
+    },
+    {
+     "tag": "social:marital_relationship",
+     "scope": "span",
+     "quotes": [
+      "ואמר להם שידורו יחד במקדם"
+     ],
+     "confidence": 2,
+     "why": "The story decides whether the couple may continue their married life.",
+     "quotes_failed": false
+    },
+    {
+     "tag": "practice:storytelling",
+     "scope": "span",
+     "quotes": [
+      "סיפר הגאון הקדוש בעל חידושי הרי״ם"
+     ],
+     "confidence": 2,
+     "why": "The anecdote is framed as told by a named tsaddik.",
+     "quotes_failed": false
+    },
+    {
+     "tag": "women:catalyst_character",
+     "scope": "span",
+     "quotes": [
+      "שנסתרה א״א עם אחר"
+     ],
+     "confidence": 2,
+     "why": "The woman's case sets off the story, but she does not act in it.",
+     "quotes_failed": false
+    },
+    {
+     "tag": "practice:torat_ha_tsaddik",
+     "scope": "span",
+     "quotes": [
+      "אבל משום חשש בעל נפש אוכל לסמוך"
+     ],
+     "confidence": 1,
+     "why": "The story defines the limits of the tsaddik's holy spirit against the law.",
+     "quotes_failed": false
+    },
+    {
+     "tag": "not-a-hasidic-story:sermon",
+     "scope": "story",
+     "quotes": [],
+     "confidence": 1,
+     "why": "The text is largely a halakhic discussion, with only a thin narrative.",
+     "quotes_failed": false
+    }
+   ],
+   "missing_concepts": [
+    "the relation between ruach ha-kodesh and halakhic ruling",
+    "sotah / a married woman's seclusion (setirah) law"
+   ],
+   "start_quote_found": true,
+   "end_quote_found": true
+  }
+ ],
+ "check": {
+  "non_vocab_tags": [],
+  "quotes": 10,
+  "quotes_not_found": 0
+ },
+ "id": "Peulat-Hatzadikim_0029",
+ "chars": 488,
+ "seconds": 15
+}

@@ -1,0 +1,152 @@
+{
+ "unit": {
+  "kind": "hasidic_story",
+  "why": "A single anecdote about the Ropshitzer (Rymanów rabbi) perceiving two visiting hasidim's critical thoughts and their punishment, quoted from an earlier book with a closing moral.",
+  "boundary_note": ""
+ },
+ "stories": [
+  {
+   "k": 1,
+   "start_quote": "והיה מעשה אצל הק׳ מרומנאב שבאו",
+   "end_quote": "משליך אותם לשאול תחתית ודי בזה",
+   "hasidic": true,
+   "summary_en": "Two hasidim of the Lelów tzaddik visiting the rebbe of Rymanów inwardly doubt his prayer on Friday night. He feels their thought, has his attendant R. Zvi bar them from the study house, and they are struck with incurable boils. The text closes with a warning that hasidim must never question a tzaddik.",
+   "tags": [
+    {
+     "tag": "supernatural:perception",
+     "scope": "span",
+     "quotes": [
+      "ובמחשבה זאת נשכו לצדיק כמו נחש",
+      "עד שאמר להם מחשבתם הרעה"
+     ],
+     "confidence": 3,
+     "why": "tzaddik senses their unspoken thoughts",
+     "quotes_failed": false
+    },
+    {
+     "tag": "ethics-and-emotions:punishment",
+     "scope": "span",
+     "quotes": [
+      "שנשלח עליהם שחין מצרים שלא יכלו להרפא"
+     ],
+     "confidence": 3,
+     "why": "punished with boils",
+     "quotes_failed": false
+    },
+    {
+     "tag": "practice:travel_to_other_tsaddik",
+     "scope": "span",
+     "quotes": [
+      "שבאו אצלו שני חסידים מאנשים של הה״ק מאליק"
+     ],
+     "confidence": 3,
+     "why": "hasidim of one rebbe visit another",
+     "quotes_failed": false
+    },
+    {
+     "tag": "practice:reception_of_hasidim",
+     "scope": "span",
+     "quotes": [
+      "שיאמר להנהו תרי חסידים שלא יתראו עוד בבהמ״ד"
+     ],
+     "confidence": 3,
+     "why": "tzaddik sends visitors away",
+     "quotes_failed": false
+    },
+    {
+     "tag": "practice:torat_ha_tsaddik",
+     "scope": "span",
+     "quotes": [
+      "יזהרו החסידים מאד מאד כשיבאו לצדיק שלא יהרהרו אחריו",
+      "כי הצדיק מרגיש תיכף"
+     ],
+     "confidence": 3,
+     "why": "doctrine of faith in the tzaddik and his power",
+     "quotes_failed": false
+    },
+    {
+     "tag": "practice:prayer",
+     "scope": "span",
+     "quotes": [
+      "שזה אינו מתפלל בזכות כמו מו״ר"
+     ],
+     "confidence": 2,
+     "why": "his prayer is what they criticize",
+     "quotes_failed": false
+    },
+    {
+     "tag": "times:shabbat",
+     "scope": "span",
+     "quotes": [
+      "ובליל שבת היה מהרהרין"
+     ],
+     "confidence": 3,
+     "why": "Friday night setting",
+     "quotes_failed": false
+    },
+    {
+     "tag": "spaces:beth_midrash",
+     "scope": "span",
+     "quotes": [
+      "שלא יתראו עוד בבהמ״ד"
+     ],
+     "confidence": 2,
+     "why": "they are barred from the study house",
+     "quotes_failed": false
+    },
+    {
+     "tag": "social:competition",
+     "scope": "span",
+     "quotes": [
+      "שזה אינו מתפלל בזכות כמו מו״ר"
+     ],
+     "confidence": 1,
+     "why": "the visitors compare the two tzaddikim",
+     "quotes_failed": false
+    },
+    {
+     "tag": "ethics-and-emotions:prohibitions",
+     "scope": "span",
+     "quotes": [
+      "שלא יהרהרו אחריו לא דבר קטן וגדול"
+     ],
+     "confidence": 2,
+     "why": "warning against doubting the tzaddik",
+     "quotes_failed": false
+    },
+    {
+     "tag": "ethics-and-emotions:repentance",
+     "scope": "span",
+     "quotes": [
+      "וביום א׳ באו בבכיה"
+     ],
+     "confidence": 1,
+     "why": "they return weeping",
+     "quotes_failed": false
+    },
+    {
+     "tag": "social:inter_hasidic",
+     "scope": "story",
+     "quotes": [],
+     "confidence": 2,
+     "why": "hasidim of one court among another rebbe's people",
+     "quotes_failed": false
+    }
+   ],
+   "missing_concepts": [
+    "doubting / harboring critical thoughts about a tzaddik (הרהור אחר הצדיק)",
+    "the tzaddik's attendant (משרת/גבאי) as a character"
+   ],
+   "start_quote_found": true,
+   "end_quote_found": true
+  }
+ ],
+ "check": {
+  "non_vocab_tags": [],
+  "quotes": 13,
+  "quotes_not_found": 0
+ },
+ "id": "Derech-Haemuna_0080",
+ "chars": 561,
+ "seconds": 14
+}

@@ -1,0 +1,112 @@
+{
+ "unit": {
+  "kind": "hasidic_story",
+  "why": "A single anecdote: at the great wedding in Ustila a man's belongings are stolen and the Apter rav identifies the thief, Chaim, through a verse.",
+  "boundary_note": ""
+ },
+ "stories": [
+  {
+   "k": 1,
+   "start_quote": "כתב לי ידי\"נ הגאון החסיד אבד\"ק פלונסק",
+   "end_quote": "כתיב ובחרת בחיים. וכן הוי",
+   "hasidic": true,
+   "summary_en": "At the great wedding in Ustila a man's belongings are stolen on the Sabbath; the Apter rav has him list the suspects in writing and picks out the one named Chaim, citing 'ובחרת בחיים' from the previous Sabbath's portion Nitzavim, and so it proved.",
+   "tags": [
+    {
+     "tag": "supernatural:perception",
+     "scope": "span",
+     "quotes": [
+      "השיב בש\"ק העבר פ׳ נצבים כתיב ובחרת בחיים",
+      "וכן הוי"
+     ],
+     "confidence": 3,
+     "why": "The tzaddik identifies the thief supernaturally.",
+     "quotes_failed": false
+    },
+    {
+     "tag": "social:marriage",
+     "scope": "span",
+     "quotes": [
+      "שהי' בעצמו באוסטילא על החתונה הגדולה"
+     ],
+     "confidence": 2,
+     "why": "A wedding is the setting of the events.",
+     "quotes_failed": false
+    },
+    {
+     "tag": "times:shabbat",
+     "scope": "span",
+     "quotes": [
+      "שנגנב לאחד כל מה שהי' לו באותו השבת"
+     ],
+     "confidence": 2,
+     "why": "The theft happens on the Sabbath, and the clue is the Sabbath Torah portion.",
+     "quotes_failed": false
+    },
+    {
+     "tag": "practice:reception_of_hasidim",
+     "scope": "span",
+     "quotes": [
+      "ולמחרתו בא לפני הגה\"ח מאפטא המחותן"
+     ],
+     "confidence": 2,
+     "why": "The victim comes before the tzaddik with his request.",
+     "quotes_failed": false
+    },
+    {
+     "tag": "practice:joke",
+     "scope": "span",
+     "quotes": [
+      "כתיב ובחרת בחיים"
+     ],
+     "confidence": 1,
+     "why": "A witty play on the name Chaim and the verse.",
+     "quotes_failed": false
+    },
+    {
+     "tag": "practice:sermon",
+     "scope": "span",
+     "quotes": [
+      "פ׳ נצבים כתיב ובחרת בחיים"
+     ],
+     "confidence": 1,
+     "why": "The tzaddik applies a verse from the weekly portion.",
+     "quotes_failed": false
+    },
+    {
+     "tag": "folkloristics:story_type_prognostication",
+     "scope": "story",
+     "quotes": [],
+     "confidence": 1,
+     "why": "The tzaddik's pronouncement is confirmed ('וכן הוי'), though it is a detection rather than a prediction.",
+     "quotes_failed": false
+    },
+    {
+     "tag": "ethics-and-emotions:prohibitions",
+     "scope": "span",
+     "quotes": [
+      "שנגנב לאחד כל מה שהי' לו"
+     ],
+     "confidence": 1,
+     "why": "The story turns on a theft.",
+     "quotes_failed": false
+    }
+   ],
+   "missing_concepts": [
+    "theft / detecting a thief",
+    "chain of oral transmission (attributed report)",
+    "name-based wordplay as a divinatory clue"
+   ],
+   "start_quote_found": true,
+   "end_quote_found": true
+  }
+ ],
+ "check": {
+  "non_vocab_tags": [],
+  "quotes": 8,
+  "quotes_not_found": 0
+ },
+ "id": "Eser-Orot_0248",
+ "chars": 355,
+ "seconds": 14
+}

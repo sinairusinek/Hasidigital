@@ -1,0 +1,91 @@
+{
+ "unit": {
+  "kind": "hasidic_story",
+  "why": "A short anecdote: the Besht sees someone desecrate the Sabbath, searches his own deeds and finds a corresponding fault, with a moralizing explanation.",
+  "boundary_note": "next division is a parallel version of the same tale from another book"
+ },
+ "stories": [
+  {
+   "k": 1,
+   "start_quote": "ואמרו מגידי אמת שפ״א ראה הבעש״ט",
+   "end_quote": "כי ת״ח דומה לשבת ע״כ",
+   "hasidic": true,
+   "summary_en": "The Besht once saw a man desecrate the Sabbath, examined himself and found he had served a Torah scholar before learning Torah from him, which counts as desecrating the Sabbath because a scholar is likened to the Sabbath.",
+   "tags": [
+    {
+     "tag": "times:shabbat",
+     "scope": "span",
+     "quotes": [
+      "לאחד שחילל שבת"
+     ],
+     "confidence": 2,
+     "why": "Sabbath desecration is the trigger of the tale",
+     "quotes_failed": false
+    },
+    {
+     "tag": "ethics-and-emotions:prohibitions",
+     "scope": "span",
+     "quotes": [
+      "לאחד שחילל שבת",
+      "והיינו חילול שבת כי ת״ח דומה לשבת"
+     ],
+     "confidence": 3,
+     "why": "violation of a prohibition and its hidden counterpart",
+     "quotes_failed": false
+    },
+    {
+     "tag": "ethics-and-emotions:repentance",
+     "scope": "span",
+     "quotes": [
+      "פשפש ומצא בעצמו"
+     ],
+     "confidence": 1,
+     "why": "self-examination of one's deeds",
+     "quotes_failed": false
+    },
+    {
+     "tag": "social:retrospective_recognition",
+     "scope": "span",
+     "quotes": [
+      "פשפש ומצא בעצמו ששימש עם צורבא מרבנן"
+     ],
+     "confidence": 2,
+     "why": "the sight is realized as a sign of his own fault",
+     "quotes_failed": false
+    },
+    {
+     "tag": "not-a-hasidic-story:sermon",
+     "scope": "story",
+     "quotes": [],
+     "confidence": 1,
+     "why": "brief anecdote with a homiletic explanation, quoted in a teaching anthology",
+     "quotes_failed": false
+    },
+    {
+     "tag": "practice:study",
+     "scope": "span",
+     "quotes": [
+      "טרם שלמד ממנו ד״ת"
+     ],
+     "confidence": 1,
+     "why": "the order of serving a scholar and learning Torah is at issue",
+     "quotes_failed": false
+    }
+   ],
+   "missing_concepts": [
+    "self-examination: seeing another's sin as a mirror of one's own",
+    "honour due to Torah scholars"
+   ],
+   "start_quote_found": true,
+   "end_quote_found": true
+  }
+ ],
+ "check": {
+  "non_vocab_tags": [],
+  "quotes": 6,
+  "quotes_not_found": 0
+ },
+ "id": "Derech-Haemuna_0104",
+ "chars": 175,
+ "seconds": 10
+}

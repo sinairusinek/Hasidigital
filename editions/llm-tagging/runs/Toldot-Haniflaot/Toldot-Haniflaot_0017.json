@@ -1,0 +1,131 @@
+{
+ "unit": {
+  "kind": "hasidic_story",
+  "why": "A single anecdote: as boys, the future Mogielnica rebbe outshone the future gaon in a Torah test set by his grandfather, then tearfully begged forgiveness for the shame caused. The anecdote is given in two transmissions.",
+  "boundary_note": ""
+ },
+ "stories": [
+  {
+   "k": 1,
+   "start_quote": "כב שמעתי ממנו ז\"ל כי פ\"א",
+   "end_quote": "עד שאמרתי לו כי אמחול לו",
+   "hasidic": true,
+   "summary_en": "The grandfather of the Mogielnica rebbe showed a Torah matter to the young future gaon, who did not grasp the novelty; he then called his grandson, who grasped it at once, so the other boy was shamed; afterwards the grandson ran after him weeping and begged forgiveness until it was granted.",
+   "tags": [
+    {
+     "tag": "practice:study",
+     "scope": "span",
+     "quotes": [
+      "הראה אא\"ז ז\"ל איזה ד\"ת להגאון הק׳ הנ״ל",
+      "ומיד הרגשתי ואמרתי אליו זה וזה יש להתחדש"
+     ],
+     "confidence": 3,
+     "why": "The plot turns on a Torah-learning test between boys",
+     "quotes_failed": false
+    },
+    {
+     "tag": "ethics-and-emotions:shame",
+     "scope": "span",
+     "quotes": [
+      "ואמר לי מה שנתביישת בסיבתי"
+     ],
+     "confidence": 3,
+     "why": "The boy was shamed by being outshone",
+     "quotes_failed": false
+    },
+    {
+     "tag": "ethics-and-emotions:humility",
+     "scope": "span",
+     "quotes": [
+      "היה רץ אחרי וביקש ממני בבכיה שאמחול לו"
+     ],
+     "confidence": 3,
+     "why": "The young prodigy humbly seeks forgiveness",
+     "quotes_failed": false
+    },
+    {
+     "tag": "folkloristics:story_type_virtues",
+     "scope": "story",
+     "quotes": [],
+     "confidence": 3,
+     "why": "Explicitly told as 'צדקת הצדיק' in his youth",
+     "quotes_failed": false
+    },
+    {
+     "tag": "ethics-and-emotions:virtues",
+     "scope": "span",
+     "quotes": [
+      "הנה אספר לבם צדקת הצדיק הרב ממאגלניצא"
+     ],
+     "confidence": 2,
+     "why": "The story illustrates his righteous character",
+     "quotes_failed": false
+    },
+    {
+     "tag": "characters-and-roles:the_family_of_the_tsaddik",
+     "scope": "span",
+     "quotes": [
+      "אני אשלח לקרוא לכאן את נכדי",
+      "נכדי זה הוא יחיד לאביו ואמו"
+     ],
+     "confidence": 3,
+     "why": "The grandfather and the parents of the tsaddik figure in the story",
+     "quotes_failed": false
+    },
+    {
+     "tag": "practice:storytelling",
+     "scope": "span",
+     "quotes": [
+      "ואמר כי שמע זה מהגאון הק׳ הנ״ל",
+      "וסיפר מעשה זו הנ״ל"
+     ],
+     "confidence": 2,
+     "why": "The gaon himself tells the story to his hasidim",
+     "quotes_failed": false
+    },
+    {
+     "tag": "social:inter_hasidic",
+     "scope": "story",
+     "quotes": [],
+     "confidence": 2,
+     "why": "An interaction between two future Hasidic leaders as children",
+     "quotes_failed": false
+    },
+    {
+     "tag": "ethics-and-emotions:repentance",
+     "scope": "span",
+     "quotes": [
+      "וביקש ממני בבכיה שאמחול לו"
+     ],
+     "confidence": 1,
+     "why": "He seeks forgiveness for unintended harm; borderline",
+     "quotes_failed": false
+    },
+    {
+     "tag": "women:mention_only",
+     "scope": "span",
+     "quotes": [
+      "יחיד לאביו ואמו אשר יראים להכותו"
+     ],
+     "confidence": 1,
+     "why": "The mother is mentioned only",
+     "quotes_failed": false
+    }
+   ],
+   "missing_concepts": [
+    "asking forgiveness (מחילה) for causing another's embarrassment",
+    "child prodigy (עילוי) / childhood of the tsaddik"
+   ],
+   "start_quote_found": true,
+   "end_quote_found": true
+  }
+ ],
+ "check": {
+  "non_vocab_tags": [],
+  "quotes": 11,
+  "quotes_not_found": 0
+ },
+ "id": "Toldot-Haniflaot_0017",
+ "chars": 720,
+ "seconds": 17
+}

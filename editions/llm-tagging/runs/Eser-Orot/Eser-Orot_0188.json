@@ -1,0 +1,100 @@
+{
+ "unit": {
+  "kind": "hasidic_story",
+  "why": "A short anecdote: the young Seer of Lublin recites blessings aloud before his teacher R. Shmelke, his fellow students grow jealous, and the master explains that the whole heavenly retinue answers Amen.",
+  "boundary_note": ""
+ },
+ "stories": [
+  {
+   "k": 1,
+   "start_quote": "עוד שם בעת שהי׳ הרבי מלובלין",
+   "end_quote": "עונין אמן בכל הפמליא של מעלה",
+   "hasidic": true,
+   "summary_en": "When the young Seer of Lublin studied with R. Shmelke he recited his blessings aloud each day for his teacher to answer Amen; when the other students grew jealous, R. Shmelke said the whole heavenly retinue answers Amen to his blessings.",
+   "tags": [
+    {
+     "tag": "social:inter_hasidic_master_disciple_relationship",
+     "scope": "span",
+     "quotes": [
+      "אמר בכל יום הברכות בקול רם לפני רבו הרר״ש"
+     ],
+     "confidence": 3,
+     "why": "The Seer as a disciple of R. Shmelke",
+     "quotes_failed": false
+    },
+    {
+     "tag": "practice:prayer",
+     "scope": "span",
+     "quotes": [
+      "אמר בכל יום הברכות בקול רם"
+     ],
+     "confidence": 2,
+     "why": "Daily recitation of the blessings",
+     "quotes_failed": false
+    },
+    {
+     "tag": "characters-and-roles:angels",
+     "scope": "span",
+     "quotes": [
+      "עונין אמן בכל הפמליא של מעלה"
+     ],
+     "confidence": 2,
+     "why": "The heavenly retinue answers Amen",
+     "quotes_failed": false
+    },
+    {
+     "tag": "supernatural:perception",
+     "scope": "span",
+     "quotes": [
+      "הרר״ש אמר שעל הברכות שלו עונין אמן"
+     ],
+     "confidence": 2,
+     "why": "R. Shmelke knows what happens in heaven",
+     "quotes_failed": false
+    },
+    {
+     "tag": "social:inter_hasidic",
+     "scope": "span",
+     "quotes": [
+      "ויקנאו בו חברים התלמידים"
+     ],
+     "confidence": 2,
+     "why": "Jealousy among the fellow students",
+     "quotes_failed": false
+    },
+    {
+     "tag": "folkloristics:story_type_virtues",
+     "scope": "story",
+     "quotes": [],
+     "confidence": 2,
+     "why": "The story shows the holiness of the young Seer",
+     "quotes_failed": false
+    },
+    {
+     "tag": "spaces:beth_midrash",
+     "scope": "span",
+     "quotes": [
+      "בעת שהי׳ הרבי מלובלין בנעוריו בבית הרר\"ש"
+     ],
+     "confidence": 1,
+     "why": "Setting in his teacher's house or yeshiva",
+     "quotes_failed": false
+    }
+   ],
+   "missing_concepts": [
+    "jealousy among disciples",
+    "answering Amen"
+   ],
+   "start_quote_found": true,
+   "end_quote_found": true
+  }
+ ],
+ "check": {
+  "non_vocab_tags": [],
+  "quotes": 6,
+  "quotes_not_found": 0
+ },
+ "id": "Eser-Orot_0188",
+ "chars": 213,
+ "seconds": 10
+}

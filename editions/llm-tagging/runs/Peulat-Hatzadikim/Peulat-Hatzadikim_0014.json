@@ -1,0 +1,111 @@
+{
+ "unit": {
+  "kind": "hasidic_story",
+  "why": "After a short non-narrative note on the Seer of Lublin always defending Korah, the division holds one narrative: R. Leibush of Tarnogrod, a skeptic, meets the Seer during his visit and gets commercial advice.",
+  "boundary_note": "Opens with a brief saying/habit note (Seer defends Korah); story continues into next division"
+ },
+ "stories": [
+  {
+   "k": 1,
+   "start_quote": "סיפר הרה״ג ר׳ ליבוש מטארנינדאר אבי",
+   "end_quote": "ויאמר הה״ק להרב ר״ל הלא זה",
+   "hasidic": true,
+   "summary_en": "R. Leibush of Tarnogrod, a wealthy scholar who privately mocked the Seer of Lublin on his visit to town, is told by the Seer to sell his honey and hoard wax against coming price changes; meanwhile R. Zvi Hirsh of Zhidachov knocks at the door.",
+   "tags": [
+    {
+     "tag": "practice:the_travels_of_the_tsaddik",
+     "scope": "span",
+     "quotes": [
+      "פ״א הי׳ הק׳ מלובלין בעידו",
+      "יצאו כל אנשי העיר לקראתו וכבדוהו"
+     ],
+     "confidence": 3,
+     "why": "The Seer visits Tarnogrod and the story turns on his stay there",
+     "quotes_failed": false
+    },
+    {
+     "tag": "social:relations_with_non_hasidim",
+     "scope": "span",
+     "quotes": [
+      "ויהתל הרב ר״ל בלבו על הצדיקים ועל החסידים",
+      "ובעיני הרב ר״ל הי׳ זאת במצחק"
+     ],
+     "confidence": 3,
+     "why": "A non-Hasidic scholar who scorns tzaddikim interacts with the Seer",
+     "quotes_failed": false
+    },
+    {
+     "tag": "practice:business_advice",
+     "scope": "span",
+     "quotes": [
+      "וצוהו הק׳ שהרב ימכוד והשעוה ימתין",
+      "יאסוף עוד שעוה הדבה"
+     ],
+     "confidence": 3,
+     "why": "The Seer advises him on trading honey and wax",
+     "quotes_failed": false
+    },
+    {
+     "tag": "supernatural:prognostication",
+     "scope": "span",
+     "quotes": [
+      "כי הדבש הי' אז בזול ולימים יתיקד"
+     ],
+     "confidence": 2,
+     "why": "Implied prediction of price changes; outcome not shown in this division",
+     "quotes_failed": false
+    },
+    {
+     "tag": "folkloristics:story_type_rapprochement",
+     "scope": "story",
+     "quotes": [],
+     "confidence": 2,
+     "why": "A skeptic meets the tzaddik; the arc likely draws him close, but it is completed in the next division",
+     "quotes_failed": false
+    },
+    {
+     "tag": "folkloristics:story_type_advent",
+     "scope": "story",
+     "quotes": [],
+     "confidence": 1,
+     "why": "First encounter of the skeptic with the Seer",
+     "quotes_failed": false
+    },
+    {
+     "tag": "practice:storytelling",
+     "scope": "span",
+     "quotes": [
+      "סיפר הרה״ג ר׳ ליבוש מטארנינדאר אבי הגה״ק מצאנז"
+     ],
+     "confidence": 2,
+     "why": "Framed as R. Leibush's own telling",
+     "quotes_failed": false
+    },
+    {
+     "tag": "social:inter_hasidic_master_disciple_relationship",
+     "scope": "span",
+     "quotes": [
+      "הה״ק מהרצ״ה מזידיטשוב ז״ל דופק"
+     ],
+     "confidence": 1,
+     "why": "A disciple of the Seer arrives; the relationship is developed in the next division",
+     "quotes_failed": false
+    }
+   ],
+   "missing_concepts": [
+    "skeptic mocking a tzaddik",
+    "commodity prices / speculation"
+   ],
+   "start_quote_found": true,
+   "end_quote_found": true
+  }
+ ],
+ "check": {
+  "non_vocab_tags": [],
+  "quotes": 9,
+  "quotes_not_found": 0
+ },
+ "id": "Peulat-Hatzadikim_0014",
+ "chars": 1022,
+ "seconds": 18
+}

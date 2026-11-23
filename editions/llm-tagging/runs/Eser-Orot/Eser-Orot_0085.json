@@ -1,0 +1,90 @@
+{
+ "unit": {
+  "kind": "hasidic_story",
+  "why": "A short anecdote: the holy rabbi meets a powerful wicked man, grabs his garment and urges him to repent. It ends with an exegetical note linking the episode to his teaching on penitents.",
+  "boundary_note": ""
+ },
+ "stories": [
+  {
+   "k": 1,
+   "start_quote": "פ״א פגע הרה״ק מבא\"ד באדם רשע",
+   "end_quote": "נהפכים לו כל זדונותיו לזכיות",
+   "hasidic": true,
+   "summary_en": "The holy rabbi of B. seizes a powerful wicked man, the town's judge, by his garment and urges him to repent, saying he envies him because a great sinner's repentance turns his sins into merits; the text links this to the rabbi's exegesis in 'Siftei Tzaddikim' of the saying on penitents.",
+   "tags": [
+    {
+     "tag": "social:relations_with_sinners",
+     "scope": "span",
+     "quotes": [
+      "פגע הרה״ק מבא\"ד באדם רשע אחד",
+      "תפסוהו בבגדו ואמר לו חזור בך"
+     ],
+     "confidence": 3,
+     "why": "the tzaddik reaches out to a sinner",
+     "quotes_failed": false
+    },
+    {
+     "tag": "ethics-and-emotions:repentance",
+     "scope": "span",
+     "quotes": [
+      "אם תעשה תשובה אז יתהפכו כל זדונותיך לזכיות"
+     ],
+     "confidence": 2,
+     "why": "repentance is the theme, though the sinner's actual turning is not shown",
+     "quotes_failed": false
+    },
+    {
+     "tag": "practice:healing_of_the_soul",
+     "scope": "span",
+     "quotes": [
+      "ואמר לו חזור בך"
+     ],
+     "confidence": 1,
+     "why": "the tzaddik tries to draw a sinner to repentance",
+     "quotes_failed": false
+    },
+    {
+     "tag": "practice:sermon",
+     "scope": "span",
+     "quotes": [
+      "ובזה פי' הרה״ק בשפתי צדיקים מאחז\"ל"
+     ],
+     "confidence": 2,
+     "why": "the tzaddik's exegesis of a rabbinic saying is quoted",
+     "quotes_failed": false
+    },
+    {
+     "tag": "ethics-and-emotions:humility",
+     "scope": "span",
+     "quotes": [
+      "ויהי' לך יותר זכיות ממני"
+     ],
+     "confidence": 1,
+     "why": "the tzaddik ranks himself below the would-be penitent",
+     "quotes_failed": false
+    },
+    {
+     "tag": "not-a-hasidic-story:sermon",
+     "scope": "story",
+     "quotes": [],
+     "confidence": 1,
+     "why": "the brief anecdote serves as a frame for an exegetical point",
+     "quotes_failed": false
+    }
+   ],
+   "missing_concepts": [
+    "tzaddik's envy of the penitent (kin'ah) / superiority of baal teshuvah over the perfectly righteous"
+   ],
+   "start_quote_found": true,
+   "end_quote_found": true
+  }
+ ],
+ "check": {
+  "non_vocab_tags": [],
+  "quotes": 6,
+  "quotes_not_found": 0
+ },
+ "id": "Eser-Orot_0085",
+ "chars": 360,
+ "seconds": 13
+}

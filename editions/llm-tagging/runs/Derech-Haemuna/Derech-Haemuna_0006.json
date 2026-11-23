@@ -1,0 +1,72 @@
+{
+ "unit": {
+  "kind": "non_hasidic_story",
+  "why": "A short folktale quoted from Sefer ha-Hinukh: a dying sage tells his son to test his hundred friends, and none passes the test. It is followed by sages' maxims on friendship and keeping secrets.",
+  "boundary_note": "the trailing heading 'מענין אורח' introduces the next division's topic (hospitality) and belongs to it"
+ },
+ "stories": [
+  {
+   "k": 1,
+   "start_quote": "חכם אחד צוה את בנו לפני מותו",
+   "end_quote": "פן יהפוך שונאיך ויגלה סודך",
+   "hasidic": false,
+   "summary_en": "A dying sage asks his son how many friends he has made; the son says a hundred, the father says he made only half a friend in his whole life, the son tests his friends and finds not one true, and the tale closes with maxims on friends and secrets.",
+   "tags": [
+    {
+     "tag": "not-a-hasidic-story:virtues",
+     "scope": "story",
+     "quotes": [],
+     "confidence": 3,
+     "why": "The text is an exemplary tale plus maxims, framed as moral instruction on choosing and testing friends.",
+     "quotes_failed": false
+    },
+    {
+     "tag": "ethics-and-emotions:virtues",
+     "scope": "span",
+     "quotes": [
+      "אל תאהב ואל תהלל האוהב טרם שתנסהו ותבחנהו"
+     ],
+     "confidence": 2,
+     "why": "The tale's point is the virtue of prudence in friendship.",
+     "quotes_failed": false
+    },
+    {
+     "tag": "social:retrospective_recognition",
+     "scope": "span",
+     "quotes": [
+      "אבי קרה לי כאשר אמרת"
+     ],
+     "confidence": 2,
+     "why": "The son realizes too late that his many friends were not true friends.",
+     "quotes_failed": false
+    },
+    {
+     "tag": "times:death",
+     "scope": "span",
+     "quotes": [
+      "חכם אחד צוה את בנו לפני מותו"
+     ],
+     "confidence": 1,
+     "why": "The frame is a deathbed instruction to the son.",
+     "quotes_failed": false
+    }
+   ],
+   "missing_concepts": [
+    "friendship / testing friends",
+    "keeping secrets",
+    "father-son ethical testament",
+    "quotation from an earlier book (Sefer ha-Hinukh)"
+   ],
+   "start_quote_found": true,
+   "end_quote_found": true
+  }
+ ],
+ "check": {
+  "non_vocab_tags": [],
+  "quotes": 3,
+  "quotes_not_found": 0
+ },
+ "id": "Derech-Haemuna_0006",
+ "chars": 569,
+ "seconds": 12
+}

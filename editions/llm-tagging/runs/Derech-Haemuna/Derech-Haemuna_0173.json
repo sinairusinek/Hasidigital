@@ -1,0 +1,166 @@
+{
+ "unit": {
+  "kind": "non_hasidic_story",
+  "why": "A story quoted from Midrash Eliyahu: Elijah, disguised as an old man and then as a shepherd, brings back a student who left Torah study, through a halakhic riddle. No Hasidic figures appear.",
+  "boundary_note": ""
+ },
+ "stories": [
+  {
+   "k": 1,
+   "start_quote": "ובס׳ מדרש אליהו (דרוש ח') וז״ל",
+   "end_quote": "שמתוך שלא לשמה בא לשמה :",
+   "hasidic": false,
+   "summary_en": "A student leaves Torah study because he is neither honoured nor rich; Elijah, disguised as a shepherd, puts a halakhic riddle to the sages, the student solves it and is made their leader, and he later gives up honour to study for its own sake.",
+   "tags": [
+    {
+     "tag": "characters-and-roles:elijah_the_prophet",
+     "scope": "span",
+     "quotes": [
+      "ובא אליהו ז״ל ונראה לו כדמות זקן",
+      "ובא אליהו ז״ל בזה הסעודה כדמות רועה"
+     ],
+     "confidence": 3,
+     "why": "Elijah appears twice in disguise",
+     "quotes_failed": false
+    },
+    {
+     "tag": "practice:study",
+     "scope": "span",
+     "quotes": [
+      "שוב לדרכך בלמוד התורה וסוף הכבוד לבא",
+      "והיה לומד לש״ש בלב טוב ובנפש חפצה"
+     ],
+     "confidence": 3,
+     "why": "Torah study is the central theme",
+     "quotes_failed": false
+    },
+    {
+     "tag": "practice:halakhah",
+     "scope": "span",
+     "quotes": [
+      "והיוצא מן הטהור טהור",
+      "אם מלקק בלשונו הוא כלב ואם לאו"
+     ],
+     "confidence": 3,
+     "why": "the halakhic question of a lamb that looks like a dog",
+     "quotes_failed": false
+    },
+    {
+     "tag": "ethics-and-emotions:prohibitions",
+     "scope": "span",
+     "quotes": [
+      "ונתחבר עמה ואסור לאוכלו"
+     ],
+     "confidence": 2,
+     "why": "a dietary prohibition is at issue",
+     "quotes_failed": false
+    },
+    {
+     "tag": "ethics-and-emotions:anger",
+     "scope": "span",
+     "quotes": [
+      "והושב בסוף המסובים ויחר לזה מאד"
+     ],
+     "confidence": 3,
+     "why": "the student is angered by the slight",
+     "quotes_failed": false
+    },
+    {
+     "tag": "ethics-and-emotions:shame",
+     "scope": "span",
+     "quotes": [
+      "והושב בסוף המסובים"
+     ],
+     "confidence": 2,
+     "why": "he is seated at the end of the table, a humiliation",
+     "quotes_failed": false
+    },
+    {
+     "tag": "ethics-and-emotions:repentance",
+     "scope": "span",
+     "quotes": [
+      "וינחם על הרעה שעשה לבחור בכבוד העוה״ז"
+     ],
+     "confidence": 3,
+     "why": "he regrets having chosen worldly honour",
+     "quotes_failed": false
+    },
+    {
+     "tag": "ethics-and-emotions:pride",
+     "scope": "span",
+     "quotes": [
+      "מה מועיל זה לי מאחר שאין מכבדים אותי"
+     ],
+     "confidence": 2,
+     "why": "his pursuit of honour is the moral failing",
+     "quotes_failed": false
+    },
+    {
+     "tag": "ethics-and-emotions:resisting_temptation",
+     "scope": "span",
+     "quotes": [
+      "ופירש עצמו מכל עושר וכבוד של עוה״ז"
+     ],
+     "confidence": 2,
+     "why": "he gives up wealth and honour",
+     "quotes_failed": false
+    },
+    {
+     "tag": "social:retrospective_recognition",
+     "scope": "span",
+     "quotes": [
+      "וכיון שראו החכמים גודל חכמתו וישימוהו נשיא עליהם"
+     ],
+     "confidence": 2,
+     "why": "the sages belatedly recognize the student they slighted",
+     "quotes_failed": false
+    },
+    {
+     "tag": "times:eschatology",
+     "scope": "span",
+     "quotes": [
+      "כ״ש לעולם שכולו טוב לעולם שכולו ארוך"
+     ],
+     "confidence": 1,
+     "why": "reward in the world to come motivates him",
+     "quotes_failed": false
+    },
+    {
+     "tag": "not-a-hasidic-story:virtues",
+     "scope": "span",
+     "quotes": [
+      "לעולם יעסוק אדם בתורה ובמצות אפילו שלא לשמה"
+     ],
+     "confidence": 2,
+     "why": "framed as a lesson on studying Torah even not for its own sake",
+     "quotes_failed": false
+    },
+    {
+     "tag": "not-a-hasidic-story:sermon",
+     "scope": "span",
+     "quotes": [
+      "ובס׳ מדרש אליהו (דרוש ח') וז״ל"
+     ],
+     "confidence": 1,
+     "why": "copied from a homiletic work and ends with a moral",
+     "quotes_failed": false
+    }
+   ],
+   "missing_concepts": [
+    "Torah study for ulterior motives (shelo lishmah) leading to study for its own sake",
+    "riddle or test of wisdom",
+    "worldly honour and wealth as a reward for study"
+   ],
+   "start_quote_found": true,
+   "end_quote_found": true
+  }
+ ],
+ "check": {
+  "non_vocab_tags": [],
+  "quotes": 16,
+  "quotes_not_found": 0
+ },
+ "id": "Derech-Haemuna_0173",
+ "chars": 2045,
+ "seconds": 21
+}

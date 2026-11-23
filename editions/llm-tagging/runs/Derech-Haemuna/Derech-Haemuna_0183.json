@@ -1,0 +1,163 @@
+{
+ "unit": {
+  "kind": "hasidic_story",
+  "why": "A saying of the Holy Jew about why he gave so much charity leads into a short narrative: on the day of his death, R. Kalonymus Kalman foresees that he will perform a yihud that kills anyone who performs it outside the Land of Israel, and so it happens.",
+  "boundary_note": "the closing words 'מענין ציצית' are the heading of the next division"
+ },
+ "stories": [
+  {
+   "k": 1,
+   "start_quote": "שמענו מאת הה״ק היהודי זל״ה שהיה אומר",
+   "end_quote": "שנפטר לעולמו לה״ה באותו היום",
+   "hasidic": true,
+   "summary_en": "The Holy Jew of Przysucha explains that his abundant charity shielded him from the sitra achra as he rose in worship; on the day he died, R. Kalonymus Kalman (Maor va-Shemesh) tells R. Shmuel of Karov that there is a yihud that may be performed only in the Land of Israel, that whoever performs it abroad must die, and that the Holy Jew will surely perform it, and he dies that same day.",
+   "tags": [
+    {
+     "tag": "folkloristics:story_type_death_of_the_tsaddik",
+     "scope": "story",
+     "quotes": [],
+     "confidence": 3,
+     "why": "The narrative centres on the cause and circumstances of the Holy Jew's death.",
+     "quotes_failed": false
+    },
+    {
+     "tag": "times:death",
+     "scope": "span",
+     "quotes": [
+      "ביום שנפטר היהודי מפרשיסחא זל\"ה"
+     ],
+     "confidence": 3,
+     "why": "The tsaddik's death is the depicted event.",
+     "quotes_failed": false
+    },
+    {
+     "tag": "kabbalah:kabbalistic_terms_yihudim",
+     "scope": "span",
+     "quotes": [
+      "יודע אני שיש איזה יחוד שמסוגל לייחד באותו יום",
+      "ובודאי לא ישגיח ע״ז ויעשה היחוד ויסתלק"
+     ],
+     "confidence": 3,
+     "why": "A mystical unification that can be performed only on that day is the cause of the death.",
+     "quotes_failed": false
+    },
+    {
+     "tag": "practice:meditation",
+     "scope": "span",
+     "quotes": [
+      "ויעשה היחוד ויסתלק"
+     ],
+     "confidence": 2,
+     "why": "Performing a yihud is a contemplative mystical act.",
+     "quotes_failed": false
+    },
+    {
+     "tag": "supernatural:prognostication",
+     "scope": "span",
+     "quotes": [
+      "ובודאי לא ישגיח ע״ז ויעשה היחוד ויסתלק",
+      "וכן היה שנפטר לעולמו לה״ה באותו היום"
+     ],
+     "confidence": 3,
+     "why": "R. Kalonymus foresees the Holy Jew's death, and it happens.",
+     "quotes_failed": false
+    },
+    {
+     "tag": "supernatural:perception",
+     "scope": "span",
+     "quotes": [
+      "יודע אני שיש איזה יחוד שמסוגל לייחד באותו יום"
+     ],
+     "confidence": 2,
+     "why": "He knows from afar what is happening spiritually that day.",
+     "quotes_failed": false
+    },
+    {
+     "tag": "folkloristics:story_type_prognostication",
+     "scope": "story",
+     "quotes": [],
+     "confidence": 2,
+     "why": "The story's arc is a prediction that comes true.",
+     "quotes_failed": false
+    },
+    {
+     "tag": "ethics-and-emotions:charity",
+     "scope": "span",
+     "quotes": [
+      "היה מרבה מאד בצדקה ובמעש״ט יותר משאר בני אדם",
+      "לכן היה עושה צדקות וג״ח"
+     ],
+     "confidence": 3,
+     "why": "The frame explains why he gave so much charity.",
+     "quotes_failed": false
+    },
+    {
+     "tag": "practice:prayer",
+     "scope": "span",
+     "quotes": [
+      "שהי׳ כל עניני תפלותיו במס״נ",
+      "שהיה הולך לעולמו במס״נ בתפלתו"
+     ],
+     "confidence": 2,
+     "why": "He prayed with self-sacrifice and died through his prayer.",
+     "quotes_failed": false
+    },
+    {
+     "tag": "practice:the_travels_of_the_tsaddik",
+     "scope": "span",
+     "quotes": [
+      "באותו יום נזדמנו ביחד על הדרך"
+     ],
+     "confidence": 1,
+     "why": "The prediction is spoken while two tsaddikim meet on the road.",
+     "quotes_failed": false
+    },
+    {
+     "tag": "social:inter_hasidic",
+     "scope": "span",
+     "quotes": [
+      "ההצה\"ק ר׳ קלונימוס בעל מאור ושמש זל״ה עם הה״ק ר׳ שמואל מקארוב"
+     ],
+     "confidence": 2,
+     "why": "Tsaddikim discuss a fellow tsaddik.",
+     "quotes_failed": false
+    },
+    {
+     "tag": "spaces:the_land_of_israel",
+     "scope": "span",
+     "quotes": [
+      "אין יכולים לייחד אותו היחוד רק בא״י"
+     ],
+     "confidence": 1,
+     "why": "The Land of Israel is named as the only place the yihud may be performed; it is not the setting.",
+     "quotes_failed": false
+    },
+    {
+     "tag": "not-a-hasidic-story:sermon",
+     "scope": "span",
+     "quotes": [
+      "והיה ירא מהסט״א לבל יתגבר עליו ח״ו"
+     ],
+     "confidence": 1,
+     "why": "The narrative sits inside a homiletic frame on charity.",
+     "quotes_failed": false
+    }
+   ],
+   "missing_concepts": [
+    "self-sacrifice (mesirut nefesh) in worship",
+    "charity as protection against the sitra achra",
+    "a tsaddik deliberately choosing death through a mystical act"
+   ],
+   "start_quote_found": true,
+   "end_quote_found": true
+  }
+ ],
+ "check": {
+  "non_vocab_tags": [],
+  "quotes": 15,
+  "quotes_not_found": 0
+ },
+ "id": "Derech-Haemuna_0183",
+ "chars": 855,
+ "seconds": 23
+}

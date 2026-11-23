@@ -50,7 +50,8 @@ def divisions(root):
     # a story div nested in a paratext div (split_embedded_story.py) is its own division;
     # the paratext's text then excludes it (div_text)
     divs = [d for d in txt.iter(T + 'div')
-            if (d.get('type') == 'story' and not any(a.get('type') == 'story' for a in d.iterancestors(T + 'div')))
+            if (d.get('type') == 'story' and ((d.get('subtype') or '').startswith('in-')  # split: any depth
+                                              or not any(a.get('type') == 'story' for a in d.iterancestors(T + 'div'))))
             or (d.get('type') in ('non-story', 'front-matter', 'unclear')
                 and not any(a.get('type') in ('story', 'non-story') for a in d.iterancestors(T + 'div')))]
     out, i = [], 0

@@ -1,0 +1,163 @@
+{
+ "unit": {
+  "kind": "non_hasidic_story",
+  "why": "A story copied from Midrash Eliyahu (by the author of Midrash Talpiyot) about a disgruntled Torah student, Elijah disguised as a shepherd, and the student's rise; it is not about Hasidic figures and is framed by a rabbinic maxim.",
+  "boundary_note": ""
+ },
+ "stories": [
+  {
+   "k": 1,
+   "start_quote": "מעשה בתלמיד אחד שפירש מן התורה",
+   "end_quote": "שמתוך שלא לשמה בא לשמה",
+   "hasidic": false,
+   "summary_en": "A student who quit Torah study for lack of honor is urged on by Elijah in a dream. Elijah then comes disguised as a shepherd and poses a halakhic riddle about a lamb that looks like a dog. The student solves it and is made nasi and enriched, but later renounces worldly honor to study for its own sake.",
+   "tags": [
+    {
+     "tag": "not-a-hasidic-story:hagiography",
+     "scope": "story",
+     "quotes": [],
+     "confidence": 2,
+     "why": "Exemplary tale copied from an older non-Hasidic book.",
+     "quotes_failed": false
+    },
+    {
+     "tag": "not-a-hasidic-story:virtues",
+     "scope": "span",
+     "quotes": [
+      "לעולם יעסוק אדם בתורה שלא לשמה שמתוך שלא לשמה בא לשמה"
+     ],
+     "confidence": 2,
+     "why": "Framed as a lesson about study for its own sake.",
+     "quotes_failed": false
+    },
+    {
+     "tag": "characters-and-roles:elijah_the_prophet",
+     "scope": "span",
+     "quotes": [
+      "ובא אליו בחלום אליהו ז״ל ונראה לו כדמות זקן",
+      "ובא אליהו ז\"ל בזה הסעודה כדמות רועה"
+     ],
+     "confidence": 3,
+     "why": "Elijah appears in a dream and in disguise.",
+     "quotes_failed": false
+    },
+    {
+     "tag": "experience:dream",
+     "scope": "span",
+     "quotes": [
+      "ובא אליו בחלום אליהו ז״ל"
+     ],
+     "confidence": 3,
+     "why": "Elijah appears in a dream that sends the student back to study.",
+     "quotes_failed": false
+    },
+    {
+     "tag": "practice:study",
+     "scope": "span",
+     "quotes": [
+      "שוב לדרכך בלמוד התורה וסוף הכבוד לבא",
+      "והי׳ לומד תורה לשם שמים בלב טוב"
+     ],
+     "confidence": 3,
+     "why": "Torah study is the central theme.",
+     "quotes_failed": false
+    },
+    {
+     "tag": "practice:halakhah",
+     "scope": "span",
+     "quotes": [
+      "אפשר שהוא ולד שיצא מן הטמא ונתחבר עמה ואסור לאוכלו"
+     ],
+     "confidence": 3,
+     "why": "A legal question about the kashrut of the animal is decided.",
+     "quotes_failed": false
+    },
+    {
+     "tag": "ethics-and-emotions:anger",
+     "scope": "span",
+     "quotes": [
+      "והושב בסוף המסובים ויחר לזה מאד"
+     ],
+     "confidence": 3,
+     "why": "The student is angered at being seated last.",
+     "quotes_failed": false
+    },
+    {
+     "tag": "ethics-and-emotions:pride",
+     "scope": "span",
+     "quotes": [
+      "וינחם על הרעה שעשה לבחור בכבוד עולם הזה המדומה"
+     ],
+     "confidence": 2,
+     "why": "The student's craving for honor is shown as a failing.",
+     "quotes_failed": false
+    },
+    {
+     "tag": "ethics-and-emotions:repentance",
+     "scope": "span",
+     "quotes": [
+      "וינחם על הרעה שעשה לבחור בכבוד עולם הזה המדומה"
+     ],
+     "confidence": 2,
+     "why": "The student regrets his motive and turns to study for its own sake.",
+     "quotes_failed": false
+    },
+    {
+     "tag": "ethics-and-emotions:resisting_temptation",
+     "scope": "span",
+     "quotes": [
+      "ופירש עצמו מכל עושר וכבוד של עולם הזה"
+     ],
+     "confidence": 2,
+     "why": "He renounces wealth and honor.",
+     "quotes_failed": false
+    },
+    {
+     "tag": "social:poverty",
+     "scope": "span",
+     "quotes": [
+      "ופירש עצמו מכל עושר וכבוד של עולם הזה"
+     ],
+     "confidence": 1,
+     "why": "Voluntary renunciation of riches.",
+     "quotes_failed": false
+    },
+    {
+     "tag": "times:eschatology",
+     "scope": "span",
+     "quotes": [
+      "עאכ״ו לעולם שכולו טוב ולעולם שכולו אדוך"
+     ],
+     "confidence": 1,
+     "why": "He reflects on reward in the world to come.",
+     "quotes_failed": false
+    },
+    {
+     "tag": "social:retrospective_recognition",
+     "scope": "span",
+     "quotes": [
+      "ויפול על רגליו ויאמר אשריכם ישראל שזה בתוככם"
+     ],
+     "confidence": 1,
+     "why": "The disguised visitor and the sages come to recognize the student's greatness.",
+     "quotes_failed": false
+    }
+   ],
+   "missing_concepts": [
+    "honor / recognition of scholars (kavod ha-Torah)",
+    "riddle or test of wisdom",
+    "Torah study not for its own sake (shelo lishmah)"
+   ],
+   "start_quote_found": true,
+   "end_quote_found": true
+  }
+ ],
+ "check": {
+  "non_vocab_tags": [],
+  "quotes": 14,
+  "quotes_not_found": 0
+ },
+ "id": "Maasim-Tovim_0008",
+ "chars": 2167,
+ "seconds": 16
+}

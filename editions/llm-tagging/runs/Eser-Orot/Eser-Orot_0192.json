@@ -1,0 +1,90 @@
+{
+ "unit": {
+  "kind": "hasidic_story",
+  "why": "A short biographical anecdote: in his youth the tsaddik (apparently the Seer of Lublin) kept his eyes closed for seven years to avoid seeing anything indecent, which left him short-sighted.",
+  "boundary_note": "Separate numbered item (כב); the subject is not named here and is taken from the surrounding section."
+ },
+ "stories": [
+  {
+   "k": 1,
+   "start_quote": "בימי חורפו סגר את עיניו שבע שנים",
+   "end_quote": "היו עיניו כהות וקצר ראות [קורצזיכטיג]",
+   "hasidic": true,
+   "summary_en": "In his youth the tsaddik kept his eyes shut for seven straight years so as not to see anything indecent, opening them only to read his book during prayer and study, and as a result his sight grew weak and he became short-sighted.",
+   "tags": [
+    {
+     "tag": "practice:asceticism",
+     "scope": "span",
+     "quotes": [
+      "סגר את עיניו שבע שנים רצופות"
+     ],
+     "confidence": 3,
+     "why": "A prolonged self-imposed austerity",
+     "quotes_failed": false
+    },
+    {
+     "tag": "ethics-and-emotions:resisting_temptation",
+     "scope": "span",
+     "quotes": [
+      "לבלתי יראה ערות דבר"
+     ],
+     "confidence": 2,
+     "why": "Guarding the eyes from indecent sights",
+     "quotes_failed": false
+    },
+    {
+     "tag": "practice:prayer",
+     "scope": "span",
+     "quotes": [
+      "בעת תפלתו ולימודו"
+     ],
+     "confidence": 2,
+     "why": "He opened his eyes only during prayer",
+     "quotes_failed": false
+    },
+    {
+     "tag": "practice:study",
+     "scope": "span",
+     "quotes": [
+      "להביט בהספר אשר קרא בו"
+     ],
+     "confidence": 2,
+     "why": "He opened his eyes only during study",
+     "quotes_failed": false
+    },
+    {
+     "tag": "folkloristics:story_type_virtues",
+     "scope": "story",
+     "quotes": [],
+     "confidence": 2,
+     "why": "The anecdote illustrates the tsaddik's holiness and self-discipline",
+     "quotes_failed": false
+    },
+    {
+     "tag": "ethics-and-emotions:prohibitions",
+     "scope": "span",
+     "quotes": [
+      "לבלתי יראה ערות דבר"
+     ],
+     "confidence": 1,
+     "why": "Avoidance of forbidden sights",
+     "quotes_failed": false
+    }
+   ],
+   "missing_concepts": [
+    "guarding the eyes (shemirat einayim)",
+    "bodily cost of piety (weakened eyesight)"
+   ],
+   "start_quote_found": true,
+   "end_quote_found": true
+  }
+ ],
+ "check": {
+  "non_vocab_tags": [],
+  "quotes": 5,
+  "quotes_not_found": 0
+ },
+ "id": "Eser-Orot_0192",
+ "chars": 177,
+ "seconds": 13
+}

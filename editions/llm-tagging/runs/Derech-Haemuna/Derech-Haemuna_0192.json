@@ -1,0 +1,101 @@
+{
+ "unit": {
+  "kind": "hasidic_story",
+  "why": "A short anecdote, told by R. Yitzhak of Parysow, of how the Seer of Lublin and the Maggid of Kozhnitz ordered names added to sick tzaddikim, so that three generations all came to bear the name Yaakov.",
+  "boundary_note": "the trailing heading 'מענין קריאות פתקאות' belongs to the next division"
+ },
+ "stories": [
+  {
+   "k": 1,
+   "start_quote": "גם שמענו מהה\"ק רי״צ מפארסוב זל\"ה",
+   "end_quote": "נמצא ששלשתם היה שמם יעקב",
+   "hasidic": true,
+   "summary_en": "When the Holy Jew and later his son R. Asher fell gravely ill, the Seer of Lublin and the Maggid of Kozhnitz had names added to them; with the naming of the author, Yaakov Zvi, three generations of the family all bore the name Yaakov.",
+   "tags": [
+    {
+     "tag": "characters-and-roles:the_family_of_the_tsaddik",
+     "scope": "story",
+     "quotes": [],
+     "confidence": 3,
+     "why": "The story turns on three generations of one tzaddik dynasty: father, son and grandson.",
+     "quotes_failed": false
+    },
+    {
+     "tag": "practice:storytelling",
+     "scope": "span",
+     "quotes": [
+      "גם שמענו מהה\"ק רי״צ מפארסוב זל\"ה שאמר כ״פ"
+     ],
+     "confidence": 2,
+     "why": "The account is framed as told repeatedly by a named tzaddik.",
+     "quotes_failed": false
+    },
+    {
+     "tag": "practice:pidyon_nefesh",
+     "scope": "span",
+     "quotes": [
+      "בעת שהה״ק היהודי זצ\"ל היה חולה מאד צוה הרבי מלובלין",
+      "צוה הה״ק המגיד מקאזניץ זל\"ה להוסיף על שמו"
+     ],
+     "confidence": 1,
+     "why": "A name is added to a gravely ill person to avert a decree, ordered by a tzaddik.",
+     "quotes_failed": false
+    },
+    {
+     "tag": "practice:healing",
+     "scope": "span",
+     "quotes": [
+      "היה חולה מאד צוה הרבי מלובלין זצל״ה"
+     ],
+     "confidence": 1,
+     "why": "The name change is a remedy for illness, though no recovery is narrated.",
+     "quotes_failed": false
+    },
+    {
+     "tag": "practice:torat_ha_tsaddik",
+     "scope": "span",
+     "quotes": [
+      "צוה הרבי מלובלין זצל״ה לקחת שם יעקב מבנו"
+     ],
+     "confidence": 1,
+     "why": "The tzaddik's authority to intervene on another's behalf.",
+     "quotes_failed": false
+    },
+    {
+     "tag": "times:birth",
+     "scope": "span",
+     "quotes": [
+      "ואח״כ כשנולד לו רבינו המחבר זצל״ה"
+     ],
+     "confidence": 1,
+     "why": "The author's birth and naming are mentioned briefly.",
+     "quotes_failed": false
+    },
+    {
+     "tag": "social:inter_hasidic",
+     "scope": "span",
+     "quotes": [
+      "צוה הה״ק המגיד מקאזניץ זל\"ה להוסיף על שמו"
+     ],
+     "confidence": 1,
+     "why": "Tzaddikim of different courts act for one another's families.",
+     "quotes_failed": false
+    }
+   ],
+   "missing_concepts": [
+    "changing or adding a name for a sick person (שינוי השם)",
+    "naming practices and genealogy of a dynasty"
+   ],
+   "start_quote_found": true,
+   "end_quote_found": true
+  }
+ ],
+ "check": {
+  "non_vocab_tags": [],
+  "quotes": 7,
+  "quotes_not_found": 0
+ },
+ "id": "Derech-Haemuna_0192",
+ "chars": 586,
+ "seconds": 13
+}

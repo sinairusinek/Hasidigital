@@ -1,0 +1,155 @@
+{
+ "unit": {
+  "kind": "hasidic_story",
+  "why": "An anecdote told by an eyewitness: the rebbe overhears two young hasidim citing his late prayer as precedent, investigates the next morning, and delivers a rebuke-teaching to the assembled hasidim.",
+  "boundary_note": ""
+ },
+ "stories": [
+  {
+   "k": 1,
+   "start_quote": "ועתה אכתוב איזה דברים אשר ממנו ז\"ל",
+   "end_quote": "אבל לא ללמוד ממנו דבר זה",
+   "hasidic": true,
+   "summary_en": "The rebbe overhears two young hasidim saying he approves of praying late because he himself does. Next morning he angrily has them identified and teaches all his followers not to imitate any conduct of a rebbe that departs from halakhah, citing his own faults and how he behaved toward his own teacher.",
+   "tags": [
+    {
+     "tag": "practice:prayer",
+     "scope": "span",
+     "quotes": [
+      "הסכים להתפלל בזמן מאוחר",
+      "כי יש הרבה זמנים שאני פטור לגמרי מהתפלה"
+     ],
+     "confidence": 3,
+     "why": "The time of prayer is the issue.",
+     "quotes_failed": false
+    },
+    {
+     "tag": "social:inter_hasidic_master_disciple_relationship",
+     "scope": "span",
+     "quotes": [
+      "כאשר אדם רואה ברבו איזה הנהגה אשר אינו ע״פ הדין והלכה",
+      "כאשר הייתי רואה איזה דבר במורי ז״ל"
+     ],
+     "confidence": 3,
+     "why": "The teaching is about how a disciple should relate to his master's conduct.",
+     "quotes_failed": false
+    },
+    {
+     "tag": "ethics-and-emotions:prohibitions",
+     "scope": "span",
+     "quotes": [
+      "אסור ללמוד ממנו שיעשה גם הוא כן",
+      "להרהר אחר רבו אסור"
+     ],
+     "confidence": 3,
+     "why": "The disciples are told explicitly what is forbidden.",
+     "quotes_failed": false
+    },
+    {
+     "tag": "practice:halakhah",
+     "scope": "span",
+     "quotes": [
+      "כאשר אדם רואה ברבו איזה הנהגה אשר אינו ע״פ הדין והלכה"
+     ],
+     "confidence": 2,
+     "why": "The halakhic norm is set above the rebbe's personal practice.",
+     "quotes_failed": false
+    },
+    {
+     "tag": "ethics-and-emotions:anger",
+     "scope": "span",
+     "quotes": [
+      "בא מרן ז״ל לבהמ״ד והקפיד מאד על דבריהם",
+      "כ״פ אשר אני כועס על מי"
+     ],
+     "confidence": 2,
+     "why": "The rebbe is angry at the youths and admits his own anger.",
+     "quotes_failed": false
+    },
+    {
+     "tag": "spaces:beth_midrash",
+     "scope": "span",
+     "quotes": [
+      "בא מרן ז״ל לבהמ״ד והקפיד מאד על דבריהם"
+     ],
+     "confidence": 3,
+     "why": "The rebuke scene takes place in the study hall.",
+     "quotes_failed": false
+    },
+    {
+     "tag": "practice:sermon",
+     "scope": "span",
+     "quotes": [
+      "ואז דיבר מרן ז\"ל אל כל אנ״ש העומדים סביבו"
+     ],
+     "confidence": 2,
+     "why": "The rebbe delivers an ethical discourse to his followers.",
+     "quotes_failed": false
+    },
+    {
+     "tag": "ethics-and-emotions:humility",
+     "scope": "span",
+     "quotes": [
+      "תדעו כי ממני אין ראיה כלל",
+      "כ״פ אשר אני מלבין פני איש ברבים"
+     ],
+     "confidence": 2,
+     "why": "The rebbe openly confesses his own failings.",
+     "quotes_failed": false
+    },
+    {
+     "tag": "ethics-and-emotions:shame",
+     "scope": "span",
+     "quotes": [
+      "המלבין פני חבירו ברבים אין לו חלק לעוה״ב"
+     ],
+     "confidence": 1,
+     "why": "Public shaming is discussed as a sin he commits.",
+     "quotes_failed": false
+    },
+    {
+     "tag": "social:inter_hasidic",
+     "scope": "span",
+     "quotes": [
+      "שני בני הנעורים החסידים הולכים ומדברים זע״ז"
+     ],
+     "confidence": 2,
+     "why": "A conversation between two young hasidim triggers the story.",
+     "quotes_failed": false
+    },
+    {
+     "tag": "practice:storytelling",
+     "scope": "span",
+     "quotes": [
+      "ועוד סיפר מעשה מפ״א שעשה בימי נעוריו"
+     ],
+     "confidence": 1,
+     "why": "The rebbe tells an anecdote from his youth.",
+     "quotes_failed": false
+    },
+    {
+     "tag": "not-a-hasidic-story:sermon",
+     "scope": "story",
+     "quotes": [],
+     "confidence": 1,
+     "why": "A short narrative frame leads into an extended ethical teaching.",
+     "quotes_failed": false
+    }
+   ],
+   "missing_concepts": [
+    "limits of imitating the tsaddik's conduct",
+    "the tsaddik's self-criticism and admission of his faults"
+   ],
+   "start_quote_found": true,
+   "end_quote_found": true
+  }
+ ],
+ "check": {
+  "non_vocab_tags": [],
+  "quotes": 16,
+  "quotes_not_found": 0
+ },
+ "id": "Toldot-Haniflaot_0097",
+ "chars": 1322,
+ "seconds": 23
+}

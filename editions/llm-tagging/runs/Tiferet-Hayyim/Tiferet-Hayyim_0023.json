@@ -1,0 +1,133 @@
+{
+ "unit": {
+  "kind": "hasidic_story",
+  "why": "R. Yitzhak of Vorka tells how, troubled by his wife's harsh treatment of himself and his servants, he travelled to R. David of Lelov and later understood his cryptic answer through a teaching of the Besht. The story is embedded in a compilation of homiletic quotations on the same theme.",
+  "boundary_note": "the story is followed in the same division by non-narrative quotations from אור צדיקים, אוצר החיים and משמרת איתמר"
+ },
+ "stories": [
+  {
+   "k": 1,
+   "start_quote": "סיפר מורי בוצ״ק הרב מהר״י מווארקא",
+   "end_quote": "כי הכל תלוי בעצמו עכ״ל",
+   "hasidic": true,
+   "summary_en": "R. Yitzhak of Vorka told the great men sitting before him that in his youth he suffered from his wife and could not bear how she treated his servants; he went to ask R. David of Lelov, who answered 'what do you tell me, tell yourself', and only later, through a teaching of the Besht on thought, speech and action, did he understand that everything depends on the master of the house himself.",
+   "tags": [
+    {
+     "tag": "practice:storytelling",
+     "scope": "span",
+     "quotes": [
+      "כאשר ישבו לפניו גדולי ישראל",
+      "וסיפר להם איך בימי נעוריו"
+     ],
+     "confidence": 3,
+     "why": "The tsaddik narrates his own experience to an assembly of great men.",
+     "quotes_failed": false
+    },
+    {
+     "tag": "social:marital_relationship",
+     "scope": "span",
+     "quotes": [
+      "הי' לו ע\"נ וצער מאשתו והוא סבל הכל"
+     ],
+     "confidence": 3,
+     "why": "His suffering at his wife's hands is the subject of the story.",
+     "quotes_failed": false
+    },
+    {
+     "tag": "women:catalyst_character",
+     "scope": "span",
+     "quotes": [
+      "העינוי שהי׳ להמשרתים שלו ממנה"
+     ],
+     "confidence": 3,
+     "why": "The wife's behaviour triggers his journey, but she does not act on stage.",
+     "quotes_failed": false
+    },
+    {
+     "tag": "characters-and-roles:the_family_of_the_tsaddik",
+     "scope": "span",
+     "quotes": [
+      "הי' לו ע\"נ וצער מאשתו"
+     ],
+     "confidence": 2,
+     "why": "The tsaddik's wife is the figure at issue.",
+     "quotes_failed": false
+    },
+    {
+     "tag": "practice:travel_to_the_tsaddik",
+     "scope": "span",
+     "quotes": [
+      "ואמר בלבו שיסע למורו הה״ק רבינו דוד מלעלוב"
+     ],
+     "confidence": 3,
+     "why": "He travels to his master with a question.",
+     "quotes_failed": false
+    },
+    {
+     "tag": "social:inter_hasidic_master_disciple_relationship",
+     "scope": "span",
+     "quotes": [
+      "ואז הבין פי׳ דברי רבו הקדוש"
+     ],
+     "confidence": 3,
+     "why": "The story turns on the master's cryptic answer and the disciple's slow understanding of it.",
+     "quotes_failed": false
+    },
+    {
+     "tag": "practice:sermon",
+     "scope": "span",
+     "quotes": [
+      "שיש מחשבה דבור מעשה אחד כנגד אשתו"
+     ],
+     "confidence": 2,
+     "why": "A teaching of the Besht is quoted as the key to the story.",
+     "quotes_failed": false
+    },
+    {
+     "tag": "not-a-hasidic-story:sermon",
+     "scope": "story",
+     "quotes": [],
+     "confidence": 2,
+     "why": "The story sits inside an extended homiletic compilation on the same theme.",
+     "quotes_failed": false
+    },
+    {
+     "tag": "ethics-and-emotions:virtues",
+     "scope": "span",
+     "quotes": [
+      "והוא סבל הכל",
+      "ושלא להתקוטט עמה"
+     ],
+     "confidence": 2,
+     "why": "His forbearance and refusal to quarrel with his wife.",
+     "quotes_failed": false
+    },
+    {
+     "tag": "social:retrospective_recognition",
+     "scope": "span",
+     "quotes": [
+      "ואז הבין פי׳ דברי רבו הקדוש"
+     ],
+     "confidence": 2,
+     "why": "He belatedly grasps the meaning of his master's answer.",
+     "quotes_failed": false
+    }
+   ],
+   "missing_concepts": [
+    "domestic strife / a difficult wife",
+    "treatment of household servants",
+    "self-correction: responsibility of the head of the household"
+   ],
+   "start_quote_found": true,
+   "end_quote_found": true
+  }
+ ],
+ "check": {
+  "non_vocab_tags": [],
+  "quotes": 11,
+  "quotes_not_found": 0
+ },
+ "id": "Tiferet-Hayyim_0023",
+ "chars": 1811,
+ "seconds": 18
+}

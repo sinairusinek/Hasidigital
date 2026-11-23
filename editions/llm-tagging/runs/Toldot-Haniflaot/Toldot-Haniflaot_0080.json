@@ -1,0 +1,91 @@
+{
+ "unit": {
+  "kind": "hasidic_story",
+  "why": "A brief anecdote: R. Moshe, author of Divrei Torah, enters the Kozhenitser Maggid's house before dawn and overhears him weeping in prayer for his young hasidim, followed by an authorial remark that more could be told.",
+  "boundary_note": "closes a digression; the next division returns to the main narrative ('ונחזור להנ\"ל')"
+ },
+ "stories": [
+  {
+   "k": 1,
+   "start_quote": "פ״א קודם אור הבוקר נכנס הרב החסיד",
+   "end_quote": "שיהיו נשמרים וביצולים מחטא",
+   "hasidic": true,
+   "summary_en": "Before dawn R. Moshe, author of Divrei Torah, entered the house of his master the Kozhenitser Maggid and heard him weeping and praying that his young hasidim be guarded and saved from sin.",
+   "tags": [
+    {
+     "tag": "practice:prayer",
+     "scope": "span",
+     "quotes": [
+      "ושמע כי בוכה ומתפלל בעד בני הנעורים"
+     ],
+     "confidence": 3,
+     "why": "the tsaddik is overheard in tearful prayer",
+     "quotes_failed": false
+    },
+    {
+     "tag": "social:inter_hasidic_master_disciple_relationship",
+     "scope": "span",
+     "quotes": [
+      "אל בית מורו ההק׳ דקאזניץ זצ״ל"
+     ],
+     "confidence": 2,
+     "why": "the disciple witnesses his master's private devotion",
+     "quotes_failed": false
+    },
+    {
+     "tag": "practice:torat_ha_tsaddik",
+     "scope": "span",
+     "quotes": [
+      "בעד בני הנעורים החסידים שלו שיהיו נשמרים"
+     ],
+     "confidence": 2,
+     "why": "the tsaddik intercedes for his followers",
+     "quotes_failed": false
+    },
+    {
+     "tag": "folkloristics:story_type_virtues",
+     "scope": "story",
+     "quotes": [],
+     "confidence": 2,
+     "why": "the anecdote illustrates the tsaddik's devotion to his hasidim",
+     "quotes_failed": false
+    },
+    {
+     "tag": "practice:protection",
+     "scope": "span",
+     "quotes": [
+      "שיהיו נשמרים וביצולים מחטא"
+     ],
+     "confidence": 1,
+     "why": "prayer to shield the hasidim from sin",
+     "quotes_failed": false
+    },
+    {
+     "tag": "ethics-and-emotions:sadness",
+     "scope": "span",
+     "quotes": [
+      "ושמע כי בוכה ומתפלל"
+     ],
+     "confidence": 1,
+     "why": "the tsaddik weeps during his prayer",
+     "quotes_failed": false
+    }
+   ],
+   "missing_concepts": [
+    "weeping in prayer",
+    "overhearing a tsaddik's secret prayer",
+    "concern for the sexual purity of young hasidim"
+   ],
+   "start_quote_found": true,
+   "end_quote_found": true
+  }
+ ],
+ "check": {
+  "non_vocab_tags": [],
+  "quotes": 5,
+  "quotes_not_found": 0
+ },
+ "id": "Toldot-Haniflaot_0080",
+ "chars": 293,
+ "seconds": 11
+}

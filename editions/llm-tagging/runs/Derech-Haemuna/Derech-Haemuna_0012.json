@@ -1,0 +1,134 @@
+{
+ "unit": {
+  "kind": "hasidic_story",
+  "why": "A single anecdote, cited from the book ד״ש, about R. Shlomo of Karlin freeing a man from idolatrous intrusive thoughts at the Hanukkah candle-lighting.",
+  "boundary_note": "Trailing heading 'מענין אם להאמין לעצמו' belongs to the next section."
+ },
+ "stories": [
+  {
+   "k": 1,
+   "start_quote": "וכעין זה שמעתי בבירור כי איש אחד",
+   "end_quote": "שצריך לזה צדיק גדול וקדוש",
+   "hasidic": true,
+   "summary_en": "A man tormented by idolatrous thoughts is sent by a rabbi to R. Shlomo of Karlin, who strikes him on the shoulder while reciting the Hanukkah psalms, asking whether he believes God can redeem from all straits, and the man is instantly freed.",
+   "tags": [
+    {
+     "tag": "practice:coping_with_alien_thoughts",
+     "scope": "span",
+     "quotes": [
+      "שהיה לו בלבולים קשים ר״ל הרהורי ע״ז",
+      "ותומ״י נפטר האיש מהדמיון הרע"
+     ],
+     "confidence": 3,
+     "why": "The man's affliction is intrusive idolatrous thoughts, which are dispelled.",
+     "quotes_failed": false
+    },
+    {
+     "tag": "practice:healing_of_the_soul",
+     "scope": "span",
+     "quotes": [
+      "ותומ״י נפטר האיש מהדמיון הרע"
+     ],
+     "confidence": 3,
+     "why": "The tzaddik heals the man spiritually.",
+     "quotes_failed": false
+    },
+    {
+     "tag": "practice:travel_to_the_tsaddik",
+     "scope": "span",
+     "quotes": [
+      "לך אצל הקדוש מהר״ש מקארלין נ״ע",
+      "ובא אצל זקני הרה״ק הנ״ל"
+     ],
+     "confidence": 3,
+     "why": "The man goes to the Karliner with his request.",
+     "quotes_failed": false
+    },
+    {
+     "tag": "practice:travel_to_other_tsaddik",
+     "scope": "span",
+     "quotes": [
+      "אני אינו יכול להועילך לך אצל הקדוש"
+     ],
+     "confidence": 2,
+     "why": "The first rabbi refers him to another tzaddik.",
+     "quotes_failed": false
+    },
+    {
+     "tag": "times:holidays",
+     "scope": "span",
+     "quotes": [
+      "בעת הדלקת נ״ח בעת שאמר המזמורים"
+     ],
+     "confidence": 3,
+     "why": "Set at the Hanukkah candle-lighting.",
+     "quotes_failed": false
+    },
+    {
+     "tag": "practice:recitation_of_psalms",
+     "scope": "span",
+     "quotes": [
+      "בעת שאמר המזמורים כדרכו בקודש",
+      "הפסוק ויפרקנו מצרינו"
+     ],
+     "confidence": 3,
+     "why": "The tzaddik is reciting psalms when he acts.",
+     "quotes_failed": false
+    },
+    {
+     "tag": "practice:torat_ha_tsaddik",
+     "scope": "span",
+     "quotes": [
+      "שצריך לזה צדיק גדול וקדוש",
+      "אני אינו יכול להועילך"
+     ],
+     "confidence": 3,
+     "why": "Only a great tzaddik can effect such a cure.",
+     "quotes_failed": false
+    },
+    {
+     "tag": "supernatural:miracle",
+     "scope": "span",
+     "quotes": [
+      "ותומ״י נפטר האיש מהדמיון הרע"
+     ],
+     "confidence": 2,
+     "why": "The deliverance is instantaneous, through a touch.",
+     "quotes_failed": false
+    },
+    {
+     "tag": "practice:reception_of_hasidim",
+     "scope": "span",
+     "quotes": [
+      "הכה אותו על כתפו ואמר מאמין אתה"
+     ],
+     "confidence": 2,
+     "why": "The tzaddik receives the visitor and deals with him.",
+     "quotes_failed": false
+    },
+    {
+     "tag": "folkloristics:story_type_protection",
+     "scope": "story",
+     "quotes": [],
+     "confidence": 1,
+     "why": "The tzaddik rescues the man from a spiritual affliction.",
+     "quotes_failed": false
+    }
+   ],
+   "missing_concepts": [
+    "faith (emunah) as the remedy",
+    "idolatrous thoughts (הרהורי עבודה זרה) specifically"
+   ],
+   "start_quote_found": true,
+   "end_quote_found": true
+  }
+ ],
+ "check": {
+  "non_vocab_tags": [],
+  "quotes": 13,
+  "quotes_not_found": 0
+ },
+ "id": "Derech-Haemuna_0012",
+ "chars": 473,
+ "seconds": 18
+}

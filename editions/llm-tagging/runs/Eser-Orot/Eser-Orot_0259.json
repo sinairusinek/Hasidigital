@@ -1,0 +1,125 @@
+{
+ "unit": {
+  "kind": "hasidic_story",
+  "why": "A single anecdote: the Apta Rebbe is downcast over his diminished status in his tenth incarnation, until an emissary from the Holy Land brings him the presidency of Kollel Volhyn.",
+  "boundary_note": ""
+ },
+ "stories": [
+  {
+   "k": 1,
+   "start_quote": "(יח) נודע היות כי פ\"א ישב",
+   "end_quote": "סמוך לקברו של הושע בטבריה :",
+   "hasidic": true,
+   "summary_en": "The Apta Rebbe sits sad and tells his followers that in this tenth incarnation he, once a high priest, nasi and king, is now nothing; just then an emissary from the Land of Israel brings his appointment as president of Kollel Volhyn, and in his joy he holds a feast and pays fifty rubles for a plot near the prophet Hosea's tomb in Tiberias.",
+   "tags": [
+    {
+     "tag": "supernatural:reincarnation",
+     "scope": "span",
+     "quotes": [
+      "שהוא כעת בגלגול עשירי בזה העולם",
+      "והי' בחי׳ כ\"ג ונשיא ובחי׳ מלך"
+     ],
+     "confidence": 3,
+     "why": "He knows his previous incarnations and explains his mood by them.",
+     "quotes_failed": false
+    },
+    {
+     "tag": "ethics-and-emotions:sadness",
+     "scope": "span",
+     "quotes": [
+      "יושב ותוהא ושאלוהו אנ\"ש על זה"
+     ],
+     "confidence": 3,
+     "why": "His dejected state opens the story.",
+     "quotes_failed": false
+    },
+    {
+     "tag": "ethics-and-emotions:joy",
+     "scope": "span",
+     "quotes": [
+      "מובן הדבר מהשמחה שהי' אז ועשה סעודה"
+     ],
+     "confidence": 3,
+     "why": "His joy and the feast when the appointment arrives.",
+     "quotes_failed": false
+    },
+    {
+     "tag": "spaces:the_land_of_israel",
+     "scope": "span",
+     "quotes": [
+      "בא שד\"ר מאה״ק ובידו כתב נשיאות",
+      "סמוך לקברו של הושע בטבריה"
+     ],
+     "confidence": 3,
+     "why": "The emissary comes from the Holy Land, and he buys a plot in Tiberias.",
+     "quotes_failed": false
+    },
+    {
+     "tag": "practice:pilgrimage_to_the_graves_of_tsaddikim",
+     "scope": "span",
+     "quotes": [
+      "על הרקע סמוך לקברו של הושע בטבריה"
+     ],
+     "confidence": 1,
+     "why": "Buying a plot next to a prophet's tomb treats the grave as a holy site.",
+     "quotes_failed": false
+    },
+    {
+     "tag": "supernatural:perception",
+     "scope": "span",
+     "quotes": [
+      "שהוא כעת בגלגול עשירי בזה העולם"
+     ],
+     "confidence": 2,
+     "why": "He has supernatural knowledge of his own past lives.",
+     "quotes_failed": false
+    },
+    {
+     "tag": "ethics-and-emotions:humility",
+     "scope": "span",
+     "quotes": [
+      "וכעת אינו כלל"
+     ],
+     "confidence": 1,
+     "why": "He belittles his present standing.",
+     "quotes_failed": false
+    },
+    {
+     "tag": "social:inter_hasidic",
+     "scope": "span",
+     "quotes": [
+      "ושאלוהו אנ\"ש על זה והשיב להם"
+     ],
+     "confidence": 1,
+     "why": "Exchange between the rebbe and his followers.",
+     "quotes_failed": false
+    },
+    {
+     "tag": "social:retrospective_recognition",
+     "scope": "span",
+     "quotes": [
+      "ומדי דברו בזה בא שד\"ר מאה״ק"
+     ],
+     "confidence": 1,
+     "why": "The emissary's arrival as he speaks gives his lament an implied meaning.",
+     "quotes_failed": false
+    }
+   ],
+   "missing_concepts": [
+    "leadership/presidency of the Kollel (kolel) in the Land of Israel",
+    "emissary (shadar) from the Holy Land",
+    "purchase of a burial plot in the Holy Land"
+   ],
+   "start_quote_found": true,
+   "end_quote_found": true
+  }
+ ],
+ "check": {
+  "non_vocab_tags": [],
+  "quotes": 11,
+  "quotes_not_found": 0
+ },
+ "id": "Eser-Orot_0259",
+ "chars": 339,
+ "seconds": 18
+}

@@ -1,0 +1,115 @@
+{
+ "unit": {
+  "kind": "hasidic_story",
+  "why": "split out of non-story-109 (non-story)"
+ },
+ "stories": [
+  {
+   "k": 2,
+   "start_quote": "כי הג״מ אברהם שרענצילס האבד״ק לבוב",
+   "end_quote": "ביום ד׳ י׳ אייר שנת שע״ו בלובלין",
+   "hasidic": false,
+   "summary_en": "At a wedding the Maharam slighted the honour of the Sema, the teacher of R. Abraham Schrenzels. Schrenzels convened the communal council against him, and by order of the king the Maharam had to leave Lwów for Lublin, where he died.",
+   "tags": [
+    {
+     "tag": "ethics-and-emotions:pride",
+     "scope": "span",
+     "quotes": [
+      "האם רבו הגאון לא היה ראוי ג״כ שילך ללוותי"
+     ],
+     "confidence": 2,
+     "why": "The Maharam's arrogant reply about honour.",
+     "quotes_failed": false
+    },
+    {
+     "tag": "ethics-and-emotions:anger",
+     "scope": "span",
+     "quotes": [
+      "מיד חרה אפו של הג״מ אברהם שרענצילס"
+     ],
+     "confidence": 3,
+     "why": "Schrenzels becomes angry.",
+     "quotes_failed": false
+    },
+    {
+     "tag": "social:conflict",
+     "scope": "span",
+     "quotes": [
+      "ובכן דעתי שמהר\"ם לא יהיה פה לאב״ד",
+      "ונפלגו הפרנסים בדעותיהם"
+     ],
+     "confidence": 3,
+     "why": "A communal conflict over whether the Maharam stays as rabbi.",
+     "quotes_failed": false
+    },
+    {
+     "tag": "women:minor_character",
+     "scope": "span",
+     "quotes": [
+      "אמרה אליו בזה״ל : אינך רואה שגברא רבה"
+     ],
+     "confidence": 3,
+     "why": "The rabbi's wife speaks and sets off the exchange.",
+     "quotes_failed": false
+    },
+    {
+     "tag": "characters-and-roles:the_family_of_the_tsaddik",
+     "scope": "span",
+     "quotes": [
+      "והביטה האשה הרבנית כי הג״מ אברהם"
+     ],
+     "confidence": 2,
+     "why": "The Maharam's wife appears.",
+     "quotes_failed": false
+    },
+    {
+     "tag": "social:relations_with_the_authorities",
+     "scope": "span",
+     "quotes": [
+      "שמטעם המלך הוכרח המהר\"ם לנסוע משם"
+     ],
+     "confidence": 3,
+     "why": "The Maharam is expelled by royal order.",
+     "quotes_failed": false
+    },
+    {
+     "tag": "times:death",
+     "scope": "span",
+     "quotes": [
+      "ויגוע וימת ביום ד׳ י׳ אייר"
+     ],
+     "confidence": 2,
+     "why": "The Maharam's death is reported.",
+     "quotes_failed": false
+    },
+    {
+     "tag": "practice:storytelling",
+     "scope": "span",
+     "quotes": [
+      "יסופר בשם הפנקס מהה\"ק"
+     ],
+     "confidence": 1,
+     "why": "The tale is framed as transmitted from a communal record book.",
+     "quotes_failed": false
+    },
+    {
+     "tag": "not-a-hasidic-story:hagiography",
+     "scope": "story",
+     "quotes": [],
+     "confidence": 1,
+     "why": "An account of a pre-Hasidic rabbinic authority copied from an older source, though not strictly laudatory.",
+     "quotes_failed": false
+    }
+   ],
+   "missing_concepts": [
+    "rabbinic honour (kavod ha-Torah) disputes",
+    "communal council (Va'ad Arba Aratzot) politics",
+    "rabbinic appointment and dismissal"
+   ],
+   "start_quote_found": true,
+   "end_quote_found": true
+  }
+ ],
+ "id": "Shemen-Hatov_non-story-109_s2",
+ "split_from": "non-story-109"
+}

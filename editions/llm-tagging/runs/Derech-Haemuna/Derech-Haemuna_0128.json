@@ -1,0 +1,94 @@
+{
+ "unit": {
+  "kind": "hasidic_story",
+  "why": "A short anecdote: the Kotzker rebbe, in a cheerful mood, is pressed by his attendant R. Zvi Hirsh about the 36 righteous and answers 'what does my Meir Yehiel lack'. It is followed by a brief attributed report about R. Reuven Horowitz.",
+  "boundary_note": "Division ends with the heading 'מענין לימוד', which belongs to the next section (on study). It also contains a bracketed genealogical note by the author."
+ },
+ "stories": [
+  {
+   "k": 1,
+   "start_quote": "ובס׳ מ״ה וז״ל כי נאמר",
+   "end_quote": "והוא שלישי מל״ו צדיקים שהיו אז",
+   "hasidic": true,
+   "summary_en": "The Kotzker rebbe, in a cheerful revealing mood, answered his attendant R. Zvi Hirsh Tomaszower's probing question about who the 36 hidden righteous are with 'what does my Meir Yehiel [of Gostynin] lack'. A further report, in the name of the Seer of Lublin, says that R. Reuven Horowitz, author of Dudaim ba-Sadeh, had the soul of Rav Hamnuna Saba and was one of the 36.",
+   "tags": [
+    {
+     "tag": "characters-and-roles:hidden_righteous",
+     "scope": "span",
+     "quotes": [
+      "שהוא מן הל״ו צדיקים שבדור",
+      "מי יודע בעתים הללו מי המה הל״ו צדיקים",
+      "והוא שלישי מל״ו צדיקים שהיו אז"
+     ],
+     "confidence": 3,
+     "why": "The 36 hidden righteous are the subject.",
+     "quotes_failed": false
+    },
+    {
+     "tag": "folkloristics:story_type_revelation",
+     "scope": "story",
+     "quotes": [],
+     "confidence": 2,
+     "why": "The narrative discloses that a known disciple is one of the hidden 36.",
+     "quotes_failed": false
+    },
+    {
+     "tag": "social:inter_hasidic_master_disciple_relationship",
+     "scope": "span",
+     "quotes": [
+      "כדי להוציא ממורו ז״ל גילוי דבר מה",
+      "מה חסר מאיר יחיאל שלי"
+     ],
+     "confidence": 3,
+     "why": "The Kotzker, his attendant-disciple, and his disciple R. Meir Yehiel.",
+     "quotes_failed": false
+    },
+    {
+     "tag": "supernatural:reincarnation",
+     "scope": "span",
+     "quotes": [
+      "היה לו נשמת רב המנונא סבא"
+     ],
+     "confidence": 3,
+     "why": "Soul of Rav Hamnuna Saba in R. Reuven Horowitz.",
+     "quotes_failed": false
+    },
+    {
+     "tag": "supernatural:perception",
+     "scope": "span",
+     "quotes": [
+      "וגילה אז נפלאות וגדולות"
+     ],
+     "confidence": 1,
+     "why": "The tzaddik's knowledge of who the hidden righteous are implies supernatural insight.",
+     "quotes_failed": false
+    },
+    {
+     "tag": "practice:storytelling",
+     "scope": "span",
+     "quotes": [
+      "שמעתי גופא דעובדא היכי הוה",
+      "כפי מה שקיבל מפה לאוזן"
+     ],
+     "confidence": 1,
+     "why": "The anecdote is framed by an explicit oral transmission chain.",
+     "quotes_failed": false
+    }
+   ],
+   "missing_concepts": [
+    "chain of oral transmission (attendant → father → author)",
+    "rebbe's cheerful mood (בדיחא דעתיה) as an occasion for disclosure"
+   ],
+   "start_quote_found": true,
+   "end_quote_found": true
+  }
+ ],
+ "check": {
+  "non_vocab_tags": [],
+  "quotes": 9,
+  "quotes_not_found": 0
+ },
+ "id": "Derech-Haemuna_0128",
+ "chars": 931,
+ "seconds": 17
+}

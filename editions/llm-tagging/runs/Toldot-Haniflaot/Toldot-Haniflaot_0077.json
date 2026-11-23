@@ -1,0 +1,135 @@
+{
+ "unit": {
+  "kind": "hasidic_story",
+  "why": "A narrative: the master (מרן) foresaw, through the readings of the twelve Nesi'im in Nisan, his wife's death and his daughter's death in childbirth. He dreamed of the daughter's death, and the prediction was confirmed to a witness.",
+  "boundary_note": "next division continues the same theme (R. Elazar of Kozienice's testimony)"
+ },
+ "stories": [
+  {
+   "k": 1,
+   "start_quote": "נודע כי מרן ז\"ל היה יודע",
+   "end_quote": "והיה זה ביום נשיא ג׳",
+   "hasidic": true,
+   "summary_en": "The master could foresee each month of the year while reading the twelve Nesi'im in Nisan. He thus foresaw his wife's death in Nisan and his daughter's death in the third month, dreamed that she died in childbirth, and a man confirmed he had been told of it before Pesach.",
+   "tags": [
+    {
+     "tag": "supernatural:prognostication",
+     "scope": "span",
+     "quotes": [
+      "היה יודע בימי ניסן בי״ב נשיאים כל מה שיהיה",
+      "זוכר אתה מה שאמרתי לך קודם פסח"
+     ],
+     "confidence": 3,
+     "why": "foreknowledge of the year's events, confirmed",
+     "quotes_failed": false
+    },
+    {
+     "tag": "folkloristics:story_type_prognostication",
+     "scope": "story",
+     "quotes": [],
+     "confidence": 3,
+     "why": "arc of a prediction that comes true",
+     "quotes_failed": false
+    },
+    {
+     "tag": "supernatural:perception",
+     "scope": "span",
+     "quotes": [
+      "והיה אומר כי בקריאת הנשיא נחשך מאור עיניו"
+     ],
+     "confidence": 3,
+     "why": "supernatural perception during the Torah reading",
+     "quotes_failed": false
+    },
+    {
+     "tag": "experience:dream",
+     "scope": "span",
+     "quotes": [
+      "היה רואה בחלום בכל הנעשה בה",
+      "שלח אחר אנשים להיטיב חלום"
+     ],
+     "confidence": 3,
+     "why": "dream of his daughter's death",
+     "quotes_failed": false
+    },
+    {
+     "tag": "times:death",
+     "scope": "span",
+     "quotes": [
+      "וקודם פטירת אשתו בחודש ניסן",
+      "שנפטרה מתוך חבלי לידה"
+     ],
+     "confidence": 3,
+     "why": "deaths of his wife and daughter",
+     "quotes_failed": false
+    },
+    {
+     "tag": "characters-and-roles:the_family_of_the_tsaddik",
+     "scope": "span",
+     "quotes": [
+      "ובפטירת בתו הצדקת בחודש ג׳",
+      "כי אשתו צריכה לרחמים מרובים"
+     ],
+     "confidence": 3,
+     "why": "his wife and daughter",
+     "quotes_failed": false
+    },
+    {
+     "tag": "times:holidays",
+     "scope": "span",
+     "quotes": [
+      "בימי ניסן בי״ב נשיאים",
+      "מה שאמרתי לך קודם פסח"
+     ],
+     "confidence": 2,
+     "why": "set in the Nisan / Nesi'im reading period around Pesach",
+     "quotes_failed": false
+    },
+    {
+     "tag": "times:shabbat",
+     "scope": "span",
+     "quotes": [
+      "שהיה אז בש״ק אחר סעודת הבקר"
+     ],
+     "confidence": 2,
+     "why": "the confirmation scene takes place on Shabbat",
+     "quotes_failed": false
+    },
+    {
+     "tag": "women:catalyst_character",
+     "scope": "span",
+     "quotes": [
+      "ובפטירת בתו הצדקת בחודש ג׳"
+     ],
+     "confidence": 2,
+     "why": "the women's deaths are the subject of the prediction, but they do not act",
+     "quotes_failed": false
+    },
+    {
+     "tag": "times:birth",
+     "scope": "span",
+     "quotes": [
+      "שנפטרה מתוך חבלי לידה"
+     ],
+     "confidence": 1,
+     "why": "death in childbirth",
+     "quotes_failed": false
+    }
+   ],
+   "missing_concepts": [
+    "reading of the Nesi'im in Nisan as a divinatory practice",
+    "hatavat chalom (amelioration of a bad dream)"
+   ],
+   "start_quote_found": true,
+   "end_quote_found": true
+  }
+ ],
+ "check": {
+  "non_vocab_tags": [],
+  "quotes": 14,
+  "quotes_not_found": 0
+ },
+ "id": "Toldot-Haniflaot_0077",
+ "chars": 716,
+ "seconds": 14
+}

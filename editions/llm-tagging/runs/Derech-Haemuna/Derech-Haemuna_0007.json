@@ -1,0 +1,233 @@
+{
+ "unit": {
+  "kind": "several_stories",
+  "why": "The division holds two separate anecdotes about hospitality. The first is the Rebbe of Pshischa's story of R. Moshe of Przeworsk and Elijah. The second is about R. Leib of Lvov and the drunkard, introduced by 'דוגמא לזו שמעתי'. A short homiletic gloss on the word קש sits between them.",
+  "boundary_note": ""
+ },
+ "stories": [
+  {
+   "k": 1,
+   "start_quote": "פ״א סיפור אדמו״ר מפרשיסחא ז״ל שהרבי",
+   "end_quote": "ותהיו נקיים וברורים עכדה״ק",
+   "hasidic": true,
+   "summary_en": "R. Moshe of Przeworsk used to give every guest two cups of brandy and cut it to one when brandy grew dear; Elijah, who visited him daily, stopped coming and on his return explained that even a trifling lapse in generosity, light as straw, matters to him, which leads to an exegesis of 'התקוששו וקושו'.",
+   "tags": [
+    {
+     "tag": "characters-and-roles:elijah_the_prophet",
+     "scope": "span",
+     "quotes": [
+      "ואליהו ז״ל הי׳ רגיל אצלו בכל יום",
+      "עד שבא אליהו אליו ושאל לו"
+     ],
+     "confidence": 3,
+     "why": "Elijah visits the tzaddik daily, stops, then returns and talks with him.",
+     "quotes_failed": false
+    },
+    {
+     "tag": "supernatural:communicating_with_the_invisible",
+     "scope": "span",
+     "quotes": [
+      "רבי על מה לא באת ע״ע אלי"
+     ],
+     "confidence": 2,
+     "why": "The tzaddik holds a dialogue with the prophet Elijah.",
+     "quotes_failed": false
+    },
+    {
+     "tag": "ethics-and-emotions:charity",
+     "scope": "span",
+     "quotes": [
+      "מחמת שהנחת מדת הנדיבות שהיה לך"
+     ],
+     "confidence": 3,
+     "why": "The story turns on generosity to guests.",
+     "quotes_failed": false
+    },
+    {
+     "tag": "practice:drinking_alcohol",
+     "scope": "span",
+     "quotes": [
+      "ליתן להאורח הבא לפניו שני כוסות יי״ש"
+     ],
+     "confidence": 3,
+     "why": "Brandy is served to guests.",
+     "quotes_failed": false
+    },
+    {
+     "tag": "ethics-and-emotions:virtues",
+     "scope": "story",
+     "quotes": [],
+     "confidence": 2,
+     "why": "The story illustrates the virtue of generosity and hospitality.",
+     "quotes_failed": false
+    },
+    {
+     "tag": "not-a-hasidic-story:virtues",
+     "scope": "story",
+     "quotes": [],
+     "confidence": 2,
+     "why": "It is placed in a section on hospitality (מענין אורח) as moral instruction.",
+     "quotes_failed": false
+    },
+    {
+     "tag": "practice:sermon",
+     "scope": "span",
+     "quotes": [
+      "וע״ז פירש הפסוק התקוששו וקושו"
+     ],
+     "confidence": 3,
+     "why": "The story ends with an exegesis of a verse.",
+     "quotes_failed": false
+    },
+    {
+     "tag": "practice:storytelling",
+     "scope": "span",
+     "quotes": [
+      "פ״א סיפור אדמו״ר מפרשיסחא ז״ל"
+     ],
+     "confidence": 2,
+     "why": "The tale is framed as told by the Rebbe of Pshischa.",
+     "quotes_failed": false
+    },
+    {
+     "tag": "practice:halakhah",
+     "scope": "span",
+     "quotes": [
+      "הלא זהו אני נדנוד עבירה"
+     ],
+     "confidence": 1,
+     "why": "The tzaddik argues that his act is at most a trace of a transgression.",
+     "quotes_failed": false
+    }
+   ],
+   "missing_concepts": [
+    "hospitality to guests (hachnasat orchim)"
+   ],
+   "start_quote_found": true,
+   "end_quote_found": true
+  },
+  {
+   "k": 2,
+   "start_quote": "דוגמא לזו שמעתי כי דרך הרב",
+   "end_quote": "ומזה יראה שכרו של מדות",
+   "hasidic": true,
+   "summary_en": "R. Leib of Lvov gave free food and brandy to all comers; when he stopped serving a habitual drunkard, the blessing left his house, and his brother-in-law the Seer of Lublin told him to appease the man and resume, after which the blessing returned.",
+   "tags": [
+    {
+     "tag": "practice:drinking_alcohol",
+     "scope": "span",
+     "quotes": [
+      "והיה א׳ מלבוב שותה בכל יום בביתו עד שנעשה שיכור"
+     ],
+     "confidence": 3,
+     "why": "Free brandy and a drunkard are central to the plot.",
+     "quotes_failed": false
+    },
+    {
+     "tag": "ethics-and-emotions:charity",
+     "scope": "span",
+     "quotes": [
+      "ליתן לאכול לכל הבאים וכן לשתות"
+     ],
+     "confidence": 3,
+     "why": "Free provision for all comers.",
+     "quotes_failed": false
+    },
+    {
+     "tag": "supernatural:perception",
+     "scope": "span",
+     "quotes": [
+      "ושאלו הרב אם פסק ליתן לא׳ י״ש"
+     ],
+     "confidence": 3,
+     "why": "The Lublin rabbi knows the hidden cause without being told.",
+     "quotes_failed": false
+    },
+    {
+     "tag": "practice:travel_to_other_tsaddik",
+     "scope": "span",
+     "quotes": [
+      "ונסע לגיסו הרב מלובלין אודות זה"
+     ],
+     "confidence": 2,
+     "why": "R. Leib travels to his brother-in-law, the Lublin tzaddik, for advice.",
+     "quotes_failed": false
+    },
+    {
+     "tag": "practice:torat_ha_tsaddik",
+     "scope": "span",
+     "quotes": [
+      "והשיבו שיפייסו ויתן לו כדרכו וחזר הברכה"
+     ],
+     "confidence": 1,
+     "why": "The tzaddik's guidance restores the blessing.",
+     "quotes_failed": false
+    },
+    {
+     "tag": "ethics-and-emotions:punishment",
+     "scope": "span",
+     "quotes": [
+      "ומאז והלאה נפסק מעיין הברכה"
+     ],
+     "confidence": 2,
+     "why": "The blessing is withdrawn for withholding.",
+     "quotes_failed": false
+    },
+    {
+     "tag": "characters-and-roles:the_family_of_the_tsaddik",
+     "scope": "span",
+     "quotes": [
+      "ונסע לגיסו הרב מלובלין"
+     ],
+     "confidence": 1,
+     "why": "The tzaddik's brother-in-law appears.",
+     "quotes_failed": false
+    },
+    {
+     "tag": "ethics-and-emotions:virtues",
+     "scope": "span",
+     "quotes": [
+      "ומזה יראה שכרו של מדות"
+     ],
+     "confidence": 3,
+     "why": "The closing line states the moral about the reward of virtues.",
+     "quotes_failed": false
+    },
+    {
+     "tag": "not-a-hasidic-story:virtues",
+     "scope": "span",
+     "quotes": [
+      "ומזה יראה שכרו של מדות"
+     ],
+     "confidence": 2,
+     "why": "The story is framed as a lesson in hospitality.",
+     "quotes_failed": false
+    },
+    {
+     "tag": "social:retrospective_recognition",
+     "scope": "span",
+     "quotes": [
+      "אז נזכר מאותו השיכור וסיפר לו"
+     ],
+     "confidence": 2,
+     "why": "R. Leib realizes after the fact why the blessing stopped.",
+     "quotes_failed": false
+    }
+   ],
+   "missing_concepts": [
+    "hospitality to guests (hachnasat orchim)",
+    "household blessing (ברכה) dependent on generosity"
+   ],
+   "start_quote_found": true,
+   "end_quote_found": true
+  }
+ ],
+ "check": {
+  "non_vocab_tags": [],
+  "quotes": 18,
+  "quotes_not_found": 0
+ },
+ "id": "Derech-Haemuna_0007",
+ "chars": 1138,
+ "seconds": 25
+}

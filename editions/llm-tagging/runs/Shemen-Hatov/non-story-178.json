@@ -1,0 +1,81 @@
+{
+ "unit": {
+  "kind": "non_hasidic_story",
+  "why": "Brief compiled report, quoted from older books, praising the Maharal of Prague and telling how Emperor Rudolf summoned him and spoke with him face to face after a wondrous deed revealed from heaven.",
+  "boundary_note": "part of a genealogical/hagiographic sequence on the Maharal's family; next division continues with further Megillat Yuhasin excerpts"
+ },
+ "stories": [
+  {
+   "k": 1,
+   "start_quote": "בס׳ מגילת יוחסין למהר\"ל וז\"ל",
+   "end_quote": "כמו שעה וחצי. ע׳ בהק׳ הגלעד",
+   "hasidic": false,
+   "summary_en": "Excerpts from Megillat Yuhasin, Tzemah David and the Hida's Shem ha-Gedolim praise the Maharal of Prague's leadership, wealth and closeness to Emperor Rudolf, who summoned him and spoke with him face to face. According to the Hida, this audience came about through an awesome deed the Maharal performed by means of what was revealed to him from heaven.",
+   "tags": [
+    {
+     "tag": "not-a-hasidic-story:hagiography",
+     "scope": "story",
+     "quotes": [],
+     "confidence": 3,
+     "why": "Praise of the pre-Hasidic Maharal, copied from earlier books",
+     "quotes_failed": false
+    },
+    {
+     "tag": "social:relations_with_the_authorities",
+     "scope": "span",
+     "quotes": [
+      "הקיסר רודולפוס ברוב חסדו ואמיתו שלח וקרא אליו",
+      "ודיבר עמו פא״פ כאשר ידבר איש אל רעהו"
+     ],
+     "confidence": 3,
+     "why": "Audience with Emperor Rudolf",
+     "quotes_failed": false
+    },
+    {
+     "tag": "social:relations_with_non_jews",
+     "scope": "span",
+     "quotes": [
+      "וקרוב למלכות להחסיד רודאלפיס קיסר ז\"ל"
+     ],
+     "confidence": 2,
+     "why": "Close relations with the non-Jewish emperor",
+     "quotes_failed": false
+    },
+    {
+     "tag": "experience:revelation",
+     "scope": "span",
+     "quotes": [
+      "מעשה נורא שעשה ע\"י מה שגילו לו מן השמים"
+     ],
+     "confidence": 2,
+     "why": "Heavenly disclosure enabled his deed",
+     "quotes_failed": false
+    },
+    {
+     "tag": "supernatural:miracle",
+     "scope": "span",
+     "quotes": [
+      "מעשה נורא שעשה ע\"י מה שגילו לו מן השמים"
+     ],
+     "confidence": 1,
+     "why": "Unspecified awesome deed, implied to be wondrous",
+     "quotes_failed": false
+    }
+   ],
+   "missing_concepts": [
+    "genealogy / yihus of rabbinic families",
+    "citation compilation from earlier books"
+   ],
+   "start_quote_found": true,
+   "end_quote_found": true
+  }
+ ],
+ "check": {
+  "non_vocab_tags": [],
+  "quotes": 5,
+  "quotes_not_found": 0
+ },
+ "id": "non-story-178",
+ "chars": 626,
+ "seconds": 15
+}

@@ -1,0 +1,89 @@
+{
+ "unit": {
+  "kind": "hasidic_story",
+  "why": "A short anecdote about R. Zusha choosing between two roads by seeing the divine Name, quoted from Divrei Moshe and set inside a homily on Lev. 9:6.",
+  "boundary_note": "The previous division is a related anecdote about R. Yitzhak of Drohobycz lost in a forest. The trailing 'מענין דרשה' is a catchword heading for the next section."
+ },
+ "stories": [
+  {
+   "k": 1,
+   "start_quote": "שמעתי שהה״ק אדמו״ר מוה׳ זושא זלה״ה הלך",
+   "end_quote": "הדרך האמיתי לכו בה והבן",
+   "hasidic": true,
+   "summary_en": "R. Zusha, unsure which of two roads to take, saw the Name YHWH standing before him on one of them and took that road; the homilist uses this to teach that a deed is commanded if God's glory comes of it.",
+   "tags": [
+    {
+     "tag": "not-a-hasidic-story:sermon",
+     "scope": "story",
+     "quotes": [],
+     "confidence": 3,
+     "why": "The anecdote is wrapped in an exegesis of 'וזה הדבר אשר צוה ה׳' with a homiletic lesson.",
+     "quotes_failed": false
+    },
+    {
+     "tag": "practice:sermon",
+     "scope": "span",
+     "quotes": [
+      "לזאת מלמדו הכתוב כאן זה הדבר אשר צוה ה׳"
+     ],
+     "confidence": 2,
+     "why": "A verse interpretation is quoted from a homiletic book.",
+     "quotes_failed": false
+    },
+    {
+     "tag": "practice:the_travels_of_the_tsaddik",
+     "scope": "span",
+     "quotes": [
+      "הלך פעם בדרך ולא ידע לאן יפנה"
+     ],
+     "confidence": 3,
+     "why": "The tsaddik's journey is the setting of the anecdote.",
+     "quotes_failed": false
+    },
+    {
+     "tag": "experience:visions",
+     "scope": "span",
+     "quotes": [
+      "וראה באיזה דרך השם הויה עומד לנגדו"
+     ],
+     "confidence": 3,
+     "why": "He sees the divine Name in a waking vision.",
+     "quotes_failed": false
+    },
+    {
+     "tag": "supernatural:perception",
+     "scope": "span",
+     "quotes": [
+      "וראה באיזה דרך השם הויה עומד לנגדו"
+     ],
+     "confidence": 2,
+     "why": "He perceives supernaturally which road is right.",
+     "quotes_failed": false
+    },
+    {
+     "tag": "experience:revelation",
+     "scope": "span",
+     "quotes": [
+      "השם הויה עומד לנגדו ובדרך זו הלך"
+     ],
+     "confidence": 2,
+     "why": "A divine disclosure guides his choice.",
+     "quotes_failed": false
+    }
+   ],
+   "missing_concepts": [
+    "divine guidance in decision-making / discerning God's will"
+   ],
+   "start_quote_found": true,
+   "end_quote_found": true
+  }
+ ],
+ "check": {
+  "non_vocab_tags": [],
+  "quotes": 5,
+  "quotes_not_found": 0
+ },
+ "id": "Derech-Haemuna_0062",
+ "chars": 464,
+ "seconds": 12
+}

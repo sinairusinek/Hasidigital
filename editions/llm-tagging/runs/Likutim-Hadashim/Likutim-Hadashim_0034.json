@@ -1,0 +1,129 @@
+{
+ "unit": {
+  "kind": "hasidic_story",
+  "why": "A single anecdote: the Yehudi trembles in the dark at the Seer of Lublin's third Shabbat meal, is mistaken for a sick man, and stops trembling once the candles are lit.",
+  "boundary_note": ""
+ },
+ "stories": [
+  {
+   "k": 1,
+   "start_quote": "שמעתי שהיהודי זצ\"ל כשהיה אצל הרב",
+   "end_quote": "לעצור את יראת ה׳ שיהא ריק בתוכו",
+   "hasidic": true,
+   "summary_en": "At the Seer of Lublin's third Shabbat meal the Yehudi stands in the dark trembling as if feverish; people who do not recognize him tell him to go home to bed, but when the candles are lit he stands still, they recognize him and let him go to the table, showing his power to hold back his fear of God.",
+   "tags": [
+    {
+     "tag": "experience:trembling",
+     "scope": "span",
+     "quotes": [
+      "והיה עומד ומרעיד כמו איש שיש לו קדחת"
+     ],
+     "confidence": 3,
+     "why": "He trembles physically out of awe in the dark.",
+     "quotes_failed": false
+    },
+    {
+     "tag": "ethics-and-emotions:awe",
+     "scope": "span",
+     "quotes": [
+      "כח המעצר לעצור את יראת ה׳"
+     ],
+     "confidence": 3,
+     "why": "The fear of God is the theme of the story.",
+     "quotes_failed": false
+    },
+    {
+     "tag": "times:shabbat",
+     "scope": "span",
+     "quotes": [
+      "בעת שלש סעודות ונתאחר לבוא"
+     ],
+     "confidence": 3,
+     "why": "Set at the third Shabbat meal.",
+     "quotes_failed": false
+    },
+    {
+     "tag": "practice:travel_to_the_tsaddik",
+     "scope": "span",
+     "quotes": [
+      "כשהיה אצל הרב זצ״ל מלובלין"
+     ],
+     "confidence": 1,
+     "why": "The Yehudi is at the Seer's court; no journey is explicitly narrated.",
+     "quotes_failed": false
+    },
+    {
+     "tag": "spaces:institutions_hassidic_court",
+     "scope": "story",
+     "quotes": [],
+     "confidence": 2,
+     "why": "Set at the Seer's table with his hasidim.",
+     "quotes_failed": false
+    },
+    {
+     "tag": "social:inter_hasidic_master_disciple_relationship",
+     "scope": "span",
+     "quotes": [
+      "כשהיה אצל הרב זצ״ל מלובלין"
+     ],
+     "confidence": 1,
+     "why": "The Yehudi as the Seer's disciple at his table; the relationship is not central.",
+     "quotes_failed": false
+    },
+    {
+     "tag": "social:inter_hasidic",
+     "scope": "span",
+     "quotes": [
+      "היו אומרים לו העומדים אצלו שלא היו יודעים שהוא היהודי"
+     ],
+     "confidence": 2,
+     "why": "Exchange between the hasidim and the Yehudi.",
+     "quotes_failed": false
+    },
+    {
+     "tag": "social:retrospective_recognition",
+     "scope": "span",
+     "quotes": [
+      "וכשראו אותו שהוא היהודי מיד הניחו אותו"
+     ],
+     "confidence": 3,
+     "why": "Once the candles are lit, the bystanders recognize who he is.",
+     "quotes_failed": false
+    },
+    {
+     "tag": "folkloristics:story_type_virtues",
+     "scope": "story",
+     "quotes": [],
+     "confidence": 2,
+     "why": "Illustrates the Yehudi's self-restraint and hidden awe.",
+     "quotes_failed": false
+    },
+    {
+     "tag": "practice:devekut",
+     "scope": "span",
+     "quotes": [
+      "והיה עומד ומרעיד כמו איש שיש לו קדחת"
+     ],
+     "confidence": 1,
+     "why": "Ecstatic absorption at the meal is implied.",
+     "quotes_failed": false
+    }
+   ],
+   "missing_concepts": [
+    "concealment / restraint of religious emotion (כח המעצר)",
+    "the meal table (שלחן) as a ritual space",
+    "light and darkness as a hiding device"
+   ],
+   "start_quote_found": true,
+   "end_quote_found": true
+  }
+ ],
+ "check": {
+  "non_vocab_tags": [],
+  "quotes": 8,
+  "quotes_not_found": 0
+ },
+ "id": "Likutim-Hadashim_0034",
+ "chars": 445,
+ "seconds": 13
+}

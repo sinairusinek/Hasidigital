@@ -1,0 +1,160 @@
+{
+ "unit": {
+  "kind": "non_hasidic_story",
+  "why": "A legend about Elijah appearing at the circumcision of the Ari (R. Isaac Luria), quoted from Shivhei ha-Ari; the Ari is a pre-Hasidic kabbalist, so the story is not Hasidic.",
+  "boundary_note": ""
+ },
+ "stories": [
+  {
+   "k": 1,
+   "start_quote": "ובס׳ נשבחי האר״י בהקדמה וז״ל רבינו",
+   "end_quote": "כי אור גדול יוצא ממנו לעולם",
+   "hasidic": false,
+   "summary_en": "Elijah reveals himself to the Ari's father and tells him not to circumcise the child until Elijah stands beside him. At the circumcision the father waits more than half an hour despite the congregation's rebuke. Elijah then arrives, unseen by all but the father, holds the infant as sandak and declares that a great light will come from him.",
+   "tags": [
+    {
+     "tag": "not-a-hasidic-story:hagiography",
+     "scope": "story",
+     "quotes": [],
+     "confidence": 3,
+     "why": "Praise of the Ari, copied from Shivhei ha-Ari",
+     "quotes_failed": false
+    },
+    {
+     "tag": "characters-and-roles:elijah_the_prophet",
+     "scope": "span",
+     "quotes": [
+      "וכשנולד נתגלה אליהו ז״ל לאביו",
+      "בא אליהו ז״ל וישב ע״ג חיקו של אביו"
+     ],
+     "confidence": 3,
+     "why": "Elijah appears and acts",
+     "quotes_failed": false
+    },
+    {
+     "tag": "practice:circumcision",
+     "scope": "span",
+     "quotes": [
+      "הזהר ביום מילתו של זה הנער",
+      "והמוהל מל ולא ראה שום דבר"
+     ],
+     "confidence": 3,
+     "why": "The circumcision ceremony is the setting",
+     "quotes_failed": false
+    },
+    {
+     "tag": "folkloristics:story_type_birth_of_the_tsaddik",
+     "scope": "story",
+     "quotes": [],
+     "confidence": 2,
+     "why": "Miraculous circumstances around the birth and circumcision of the Ari",
+     "quotes_failed": false
+    },
+    {
+     "tag": "times:birth",
+     "scope": "span",
+     "quotes": [
+      "הורתו ולידתו בירושלים וכשנולד"
+     ],
+     "confidence": 2,
+     "why": "Birth mentioned as the frame",
+     "quotes_failed": false
+    },
+    {
+     "tag": "characters-and-roles:the_family_of_the_tsaddik",
+     "scope": "span",
+     "quotes": [
+      "לאביו שהיה חסיד גדול וכן אמו שהיתה חסידה"
+     ],
+     "confidence": 3,
+     "why": "The father is the central actor",
+     "quotes_failed": false
+    },
+    {
+     "tag": "experience:revelation",
+     "scope": "span",
+     "quotes": [
+      "נתגלה אליהו ז״ל לאביו"
+     ],
+     "confidence": 3,
+     "why": "Revelation of Elijah to the father",
+     "quotes_failed": false
+    },
+    {
+     "tag": "supernatural:perception",
+     "scope": "span",
+     "quotes": [
+      "ולא ראה שום דבר רק אביו לבדו"
+     ],
+     "confidence": 2,
+     "why": "Only the father sees Elijah",
+     "quotes_failed": false
+    },
+    {
+     "tag": "supernatural:prognostication",
+     "scope": "span",
+     "quotes": [
+      "כי אור גדול יוצא ממנו לעולם"
+     ],
+     "confidence": 2,
+     "why": "Prediction of the child's greatness",
+     "quotes_failed": false
+    },
+    {
+     "tag": "spaces:the_land_of_israel",
+     "scope": "span",
+     "quotes": [
+      "הורתו ולידתו בירושלים"
+     ],
+     "confidence": 3,
+     "why": "Set in Jerusalem",
+     "quotes_failed": false
+    },
+    {
+     "tag": "social:conflict",
+     "scope": "span",
+     "quotes": [
+      "עד שגערו בו כל הקהל"
+     ],
+     "confidence": 1,
+     "why": "The congregation rebukes the waiting father",
+     "quotes_failed": false
+    },
+    {
+     "tag": "women:mention_only",
+     "scope": "span",
+     "quotes": [
+      "וכן אמו שהיתה חסידה"
+     ],
+     "confidence": 3,
+     "why": "The mother is mentioned only",
+     "quotes_failed": false
+    },
+    {
+     "tag": "supernatural:light_or_fire_as_a_sign_of_righteousness",
+     "scope": "span",
+     "quotes": [
+      "כי אור גדול יוצא ממנו לעולם"
+     ],
+     "confidence": 1,
+     "why": "Light is used here as a metaphor for the child's future greatness, not as a seen sign",
+     "quotes_failed": false
+    }
+   ],
+   "missing_concepts": [
+    "Elijah's presence at every circumcision (the chair of Elijah)",
+    "Elijah serving as sandak"
+   ],
+   "start_quote_found": true,
+   "end_quote_found": true
+  }
+ ],
+ "check": {
+  "non_vocab_tags": [],
+  "quotes": 13,
+  "quotes_not_found": 0
+ },
+ "id": "Derech-Haemuna_0029",
+ "chars": 786,
+ "seconds": 14
+}

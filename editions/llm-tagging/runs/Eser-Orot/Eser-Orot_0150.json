@@ -1,0 +1,124 @@
+{
+ "unit": {
+  "kind": "hasidic_story",
+  "why": "A single anecdote about the Maggid of Kozienice and a fellow student: they study Magen Avraham, are filled with sudden illumination, and their rebbe R. Shmelke perceives the cause.",
+  "boundary_note": ""
+ },
+ "stories": [
+  {
+   "k": 1,
+   "start_quote": "כ׳ אלי הר״ר שמעון מנחם מגאוורטשוב",
+   "end_quote": "מביא הארות נפלאות בלב כל חכם לב עכ״ל",
+   "hasidic": true,
+   "summary_en": "While a student in R. Shmelke's yeshiva, the Maggid of Kozienice and a fellow student begin a fixed early-morning study of the newly printed Magen Avraham and are suddenly filled with fervor and light; when the Maggid comes to ask their master about it, R. Shmelke tells him at once that it came from studying Magen Avraham.",
+   "tags": [
+    {
+     "tag": "practice:study",
+     "scope": "span",
+     "quotes": [
+      "לקבוע לו שיעור מיוחד ללמוד מגן אברהם",
+      "ללמוד יחד בבוקר השכם שיעור קבוע מג\"א"
+     ],
+     "confidence": 3,
+     "why": "fixed Torah study session is the core event",
+     "quotes_failed": false
+    },
+    {
+     "tag": "spaces:beth_midrash",
+     "scope": "span",
+     "quotes": [
+      "בעת שלמד המגיד מקאזניץ בישיבת זקיני"
+     ],
+     "confidence": 3,
+     "why": "set in R. Shmelke's yeshiva",
+     "quotes_failed": false
+    },
+    {
+     "tag": "experience:enthusiasm",
+     "scope": "span",
+     "quotes": [
+      "נתלהב לבם פתאום מעבודת הש\"י באופן שאינו לפי הרגלם"
+     ],
+     "confidence": 3,
+     "why": "sudden fervor",
+     "quotes_failed": false
+    },
+    {
+     "tag": "supernatural:light_or_fire_as_a_sign_of_righteousness",
+     "scope": "span",
+     "quotes": [
+      "מחמת רוב ההארה שהאירו פניהם ולבם פתאום"
+     ],
+     "confidence": 2,
+     "why": "illumination of their faces following Torah study",
+     "quotes_failed": false
+    },
+    {
+     "tag": "supernatural:perception",
+     "scope": "span",
+     "quotes": [
+      "עודנו עומד על סוף הבית תיכף ענה",
+      "כל הכרת פניך תענה בך כי למדת מגן אברהם"
+     ],
+     "confidence": 3,
+     "why": "R. Shmelke knows the cause before being asked",
+     "quotes_failed": false
+    },
+    {
+     "tag": "social:inter_hasidic_master_disciple_relationship",
+     "scope": "span",
+     "quotes": [
+      "לשאול את רבם הקדוש הרר\"ש ז\"ל"
+     ],
+     "confidence": 3,
+     "why": "disciple consults his master",
+     "quotes_failed": false
+    },
+    {
+     "tag": "social:inter_hasidic",
+     "scope": "span",
+     "quotes": [
+      "ודיבר על לב אברך א' מחביריו להשתתף עמו"
+     ],
+     "confidence": 2,
+     "why": "study partnership among fellow students",
+     "quotes_failed": false
+    },
+    {
+     "tag": "experience:revelation",
+     "scope": "span",
+     "quotes": [
+      "מאין בא להם הארות הללו"
+     ],
+     "confidence": 1,
+     "why": "sudden spiritual illumination",
+     "quotes_failed": false
+    },
+    {
+     "tag": "ethics-and-emotions:fear",
+     "scope": "span",
+     "quotes": [
+      "עד שנבהלו שניהם מחמת רוב ההארה"
+     ],
+     "confidence": 2,
+     "why": "they are alarmed by the experience",
+     "quotes_failed": false
+    }
+   ],
+   "missing_concepts": [
+    "spiritual power of studying a specific halakhic book (Magen Avraham)",
+    "new printing / book peddler"
+   ],
+   "start_quote_found": true,
+   "end_quote_found": true
+  }
+ ],
+ "check": {
+  "non_vocab_tags": [],
+  "quotes": 11,
+  "quotes_not_found": 0
+ },
+ "id": "Eser-Orot_0150",
+ "chars": 758,
+ "seconds": 14
+}

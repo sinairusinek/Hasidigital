@@ -1,0 +1,72 @@
+{
+ "unit": {
+  "kind": "hasidic_story",
+  "why": "A brief first-person anecdote, heard from the tsaddik: he once looked into a philosophical book by an early sage, grew angry and put it down for good. There is a minimal event, so it counts as a story.",
+  "boundary_note": ""
+ },
+ "stories": [
+  {
+   "k": 1,
+   "start_quote": "גם שמעתי ממנו ז״ל שפ״א ראה",
+   "end_quote": "ולא רציתי להביט בו עוד",
+   "hasidic": true,
+   "summary_en": "The tsaddik once looked into a philosophical work by a great early sage, became angry at what he read, and put the book away, refusing to look at it again.",
+   "tags": [
+    {
+     "tag": "ethics-and-emotions:anger",
+     "scope": "span",
+     "quotes": [
+      "וחרה אפי על הדברים האלה"
+     ],
+     "confidence": 3,
+     "why": "He was angered by the philosophical content.",
+     "quotes_failed": false
+    },
+    {
+     "tag": "ethics-and-emotions:prohibitions",
+     "scope": "span",
+     "quotes": [
+      "ומיד הנחתיו מידי ולא רציתי להביט בו עוד"
+     ],
+     "confidence": 2,
+     "why": "He avoids reading philosophy as something forbidden. The previous division gives the same reasoning about heresy.",
+     "quotes_failed": false
+    },
+    {
+     "tag": "practice:study",
+     "scope": "span",
+     "quotes": [
+      "רק שהספר הזה הוא בדרך פלוסופיא"
+     ],
+     "confidence": 1,
+     "why": "The scene is reading a book, though the point is rejecting that kind of study.",
+     "quotes_failed": false
+    },
+    {
+     "tag": "practice:storytelling",
+     "scope": "span",
+     "quotes": [
+      "גם שמעתי ממנו ז״ל"
+     ],
+     "confidence": 1,
+     "why": "The tsaddik tells this about himself, and the author passes it on as heard from him.",
+     "quotes_failed": false
+    }
+   ],
+   "missing_concepts": [
+    "rejection of philosophy / medieval Jewish rationalism",
+    "reading forbidden or heretical books"
+   ],
+   "start_quote_found": true,
+   "end_quote_found": true
+  }
+ ],
+ "check": {
+  "non_vocab_tags": [],
+  "quotes": 4,
+  "quotes_not_found": 0
+ },
+ "id": "Toldot-Haniflaot_0105",
+ "chars": 194,
+ "seconds": 10
+}

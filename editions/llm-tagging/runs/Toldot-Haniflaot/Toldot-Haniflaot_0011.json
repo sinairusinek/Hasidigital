@@ -1,0 +1,102 @@
+{
+ "unit": {
+  "kind": "hasidic_story",
+  "why": "A memorate told by the Mogielnica rebbe: in Lublin the Seer's sons repeatedly brought him, carelessly dressed, before their father, who exempted him from his rule on proper dress and loved him exceptionally.",
+  "boundary_note": ""
+ },
+ "stories": [
+  {
+   "k": 1,
+   "start_quote": "שמעתי מפיו הק׳ הרבה פעמים, ואמר",
+   "end_quote": "יהא הרבי ז\"ל מלובלין אוהב אותו כמו שאהב אותי",
+   "hasidic": true,
+   "summary_en": "The Rabbi of Mogielnica recalled that the Seer of Lublin insisted hasidim dress decently, yet when the Seer's sons brought the carelessly dressed young man before him, the Seer replied in Yiddish 'I don't mean him', and he loved him more than almost anyone.",
+   "tags": [
+    {
+     "tag": "practice:clothing",
+     "scope": "span",
+     "quotes": [
+      "שהלכו בבית צוואר החלוק פתוח ובדומה",
+      "ורק לילך לבוש נאה כדרך העולם",
+      "שלא להשגיח עלי האיך אני לבוש"
+     ],
+     "confidence": 3,
+     "why": "the Seer's rule on dress and the narrator's indifference to his clothing are the subject",
+     "quotes_failed": false
+    },
+    {
+     "tag": "characters-and-roles:the_family_of_the_tsaddik",
+     "scope": "span",
+     "quotes": [
+      "היו בניו הצדיקים חוטפים אותי והוליכוני אצל אביהם"
+     ],
+     "confidence": 3,
+     "why": "the Seer's sons act in the story",
+     "quotes_failed": false
+    },
+    {
+     "tag": "social:inter_hasidic_master_disciple_relationship",
+     "scope": "span",
+     "quotes": [
+      "שיהא הרבי ז\"ל מלובלין אוהב אותו כמו שאהב אותי"
+     ],
+     "confidence": 3,
+     "why": "the Seer's special love for his disciple is the point",
+     "quotes_failed": false
+    },
+    {
+     "tag": "practice:travel_to_the_tsaddik",
+     "scope": "span",
+     "quotes": [
+      "וכאשר הייתי בלובלין"
+     ],
+     "confidence": 2,
+     "why": "the disciple stays at the Seer's court in Lublin",
+     "quotes_failed": false
+    },
+    {
+     "tag": "practice:storytelling",
+     "scope": "span",
+     "quotes": [
+      "שמעתי מפיו הק׳ הרבה פעמים"
+     ],
+     "confidence": 2,
+     "why": "framed as a tale the tsaddik told repeatedly",
+     "quotes_failed": false
+    },
+    {
+     "tag": "spaces:institutions_hassidic_court",
+     "scope": "story",
+     "quotes": [],
+     "confidence": 2,
+     "why": "set at the Lublin court",
+     "quotes_failed": false
+    },
+    {
+     "tag": "practice:reception_of_hasidim",
+     "scope": "span",
+     "quotes": [
+      "והוליכוני אצל אביהם ואומרים לו ראה, איך הוא לבוש"
+     ],
+     "confidence": 1,
+     "why": "the disciple is brought before the rebbe, who judges him",
+     "quotes_failed": false
+    }
+   ],
+   "missing_concepts": [
+    "a tzaddik exempting a favoured disciple from his general rule",
+    "Yiddish phrase quoted inside the Hebrew text"
+   ],
+   "start_quote_found": true,
+   "end_quote_found": true
+  }
+ ],
+ "check": {
+  "non_vocab_tags": [],
+  "quotes": 8,
+  "quotes_not_found": 0
+ },
+ "id": "Toldot-Haniflaot_0011",
+ "chars": 451,
+ "seconds": 14
+}

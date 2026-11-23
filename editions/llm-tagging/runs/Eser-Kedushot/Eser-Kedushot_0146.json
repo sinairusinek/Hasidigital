@@ -1,0 +1,174 @@
+{
+ "unit": {
+  "kind": "hasidic_story",
+  "why": "A single narrative: the Zhidachov rebbe rebukes a child-killing epidemic at his Sabbath table, the sick child recovers and the disease stops, and his daughter-in-law then complains.",
+  "boundary_note": ""
+ },
+ "stories": [
+  {
+   "k": 1,
+   "start_quote": "שמעתי ממגידי אמת שפ\"א הי' בזידיטשוב",
+   "end_quote": "וואלט מיין קינד אויך גיוועזין גילעבט",
+   "hasidic": true,
+   "summary_en": "During a deadly children's epidemic in Zhidachov, a father cries out at the rebbe's Friday-night table; the rebbe rebukes the disease by the verse 'ותחיין את הילדים' from his Torah and banishes it, the child is healed and the epidemic ends, and his daughter-in-law, who had lost a child to it weeks earlier, complains that he did not find a verse in Vayigash or Vayechi to save her child.",
+   "tags": [
+    {
+     "tag": "practice:healing",
+     "scope": "span",
+     "quotes": [
+      "וכדבריו הקדושים כן הי' שהילד הזה נתרפא באותו הלילה"
+     ],
+     "confidence": 3,
+     "why": "the sick child is healed through the rebbe's word",
+     "quotes_failed": false
+    },
+    {
+     "tag": "practice:lifesaving",
+     "scope": "span",
+     "quotes": [
+      "וצעק מרה למורינו שבנו יחידו קרוב לשערי מות"
+     ],
+     "confidence": 3,
+     "why": "a dying only son is saved",
+     "quotes_failed": false
+    },
+    {
+     "tag": "practice:protection",
+     "scope": "span",
+     "quotes": [
+      "אוועק פון זידיטשוב",
+      "ולא הי׳ יותר החולאת בזידיטשוב ושלום על ישראל"
+     ],
+     "confidence": 3,
+     "why": "the rebbe shields the whole town from the epidemic",
+     "quotes_failed": false
+    },
+    {
+     "tag": "folkloristics:story_type_protection",
+     "scope": "story",
+     "quotes": [],
+     "confidence": 3,
+     "why": "the central arc is the tzaddik driving off a deadly disease",
+     "quotes_failed": false
+    },
+    {
+     "tag": "supernatural:miracle",
+     "scope": "span",
+     "quotes": [
+      "ולא הי׳ יותר החולאת בזידיטשוב ושלום על ישראל"
+     ],
+     "confidence": 3,
+     "why": "the epidemic stops at once",
+     "quotes_failed": false
+    },
+    {
+     "tag": "supernatural:prognostication",
+     "scope": "span",
+     "quotes": [
+      "גיי אהיים דער קליינער וועט שוין זיין געזונד",
+      "וכדבריו הקדושים כן הי'"
+     ],
+     "confidence": 2,
+     "why": "his announced outcome comes true",
+     "quotes_failed": false
+    },
+    {
+     "tag": "times:shabbat",
+     "scope": "span",
+     "quotes": [
+      "ובא בליל שבת בעת ישב מורינו על השלחן הטהור"
+     ],
+     "confidence": 3,
+     "why": "the scene is the Friday-night tish",
+     "quotes_failed": false
+    },
+    {
+     "tag": "practice:sermon",
+     "scope": "span",
+     "quotes": [
+      "עס שטייט ביי מיר אין מיין תורה ותחיין את הילדים"
+     ],
+     "confidence": 2,
+     "why": "his Torah exegesis of the verse becomes the means of the wonder",
+     "quotes_failed": false
+    },
+    {
+     "tag": "characters-and-roles:demons",
+     "scope": "span",
+     "quotes": [
+      "איך וועל דיך אויס רייסען"
+     ],
+     "confidence": 1,
+     "why": "the disease is addressed as a personified harmful agent (שייגיץ) and banished",
+     "quotes_failed": false
+    },
+    {
+     "tag": "times:death",
+     "scope": "span",
+     "quotes": [
+      "שכיח חולי בילדים הרבה שנעדרו מהעולם ל״ע",
+      "נעדר אצלה ג״כ א׳ מצאצאי' רח\"ל בהחולאת"
+     ],
+     "confidence": 3,
+     "why": "the deaths of children, including the daughter-in-law's child",
+     "quotes_failed": false
+    },
+    {
+     "tag": "characters-and-roles:the_family_of_the_tsaddik",
+     "scope": "span",
+     "quotes": [
+      "וכלתו הצדיקת אשת בנו הרה״ק ר׳ ישכר בעריש זצ\"ל"
+     ],
+     "confidence": 3,
+     "why": "his daughter-in-law and his son's family appear",
+     "quotes_failed": false
+    },
+    {
+     "tag": "women:minor_character",
+     "scope": "span",
+     "quotes": [
+      "וכלתו הצדיקת אשת בנו הרה״ק ר׳ ישכר בעריש זצ\"ל"
+     ],
+     "confidence": 3,
+     "why": "the daughter-in-law acts in a closing scene by voicing her complaint",
+     "quotes_failed": false
+    },
+    {
+     "tag": "practice:failure",
+     "scope": "span",
+     "quotes": [
+      "נעדר אצלה ג״כ א׳ מצאצאי' רח\"ל בהחולאת התרעמה"
+     ],
+     "confidence": 1,
+     "why": "she complains that his power did not save his own grandchild",
+     "quotes_failed": false
+    },
+    {
+     "tag": "practice:torat_ha_tsaddik",
+     "scope": "span",
+     "quotes": [
+      "עס שטייט ביי מיר אין מיין תורה ותחיין את הילדים"
+     ],
+     "confidence": 2,
+     "why": "the tzaddik's Torah has the power to decree life",
+     "quotes_failed": false
+    }
+   ],
+   "missing_concepts": [
+    "epidemic / plague among children",
+    "theurgic power of the tzaddik's Torah exegesis (verse as remedy)",
+    "a family member's complaint against the tzaddik"
+   ],
+   "start_quote_found": true,
+   "end_quote_found": true
+  }
+ ],
+ "check": {
+  "non_vocab_tags": [],
+  "quotes": 16,
+  "quotes_not_found": 0
+ },
+ "id": "Eser-Kedushot_0146",
+ "chars": 1090,
+ "seconds": 28
+}

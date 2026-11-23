@@ -1,0 +1,149 @@
+{
+ "unit": {
+  "kind": "hasidic_story",
+  "why": "Two linked anecdotes about the rebbe's mother: a reincarnated tsaddik, then the son's humble weeping in mourning and his vision of her.",
+  "boundary_note": "continues the account of the mother's death and eulogy from the previous division"
+ },
+ "stories": [
+  {
+   "k": 1,
+   "start_quote": "צא שמעתי אומרים שהה״ק היהודי ז\"ל",
+   "end_quote": "ומרמים אותה שאני צדיק :",
+   "hasidic": true,
+   "summary_en": "The Yehudi and other tsaddikim said the rebbe's mother was a great male tsaddik reincarnated as a woman as a punishment. During his mourning the rebbe wept that she would be shamed in heaven for having wrongly thought him a tsaddik, and the next day said he saw that she still did, because Heaven deceives her to spare her pain.",
+   "tags": [
+    {
+     "tag": "supernatural:reincarnation",
+     "scope": "span",
+     "quotes": [
+      "ועל מה נענש שבא בגלגול נקבה"
+     ],
+     "confidence": 3,
+     "why": "mother is a male tsaddik reborn as a woman",
+     "quotes_failed": false
+    },
+    {
+     "tag": "characters-and-roles:the_family_of_the_tsaddik",
+     "scope": "story",
+     "quotes": [],
+     "confidence": 3,
+     "why": "the tsaddik's mother is the subject",
+     "quotes_failed": false
+    },
+    {
+     "tag": "ethics-and-emotions:humility",
+     "scope": "span",
+     "quotes": [
+      "ועתה בעולם האמת הוא רואה שאינו בן",
+      "ומרמים אותה שאני צדיק"
+     ],
+     "confidence": 3,
+     "why": "the rebbe denies that he is a tsaddik",
+     "quotes_failed": false
+    },
+    {
+     "tag": "folkloristics:story_type_virtues",
+     "scope": "story",
+     "quotes": [],
+     "confidence": 2,
+     "why": "illustrates the rebbe's humility and his mother's righteousness",
+     "quotes_failed": false
+    },
+    {
+     "tag": "ethics-and-emotions:shame",
+     "scope": "span",
+     "quotes": [
+      "יהיה לה בושה בעולם העליון"
+     ],
+     "confidence": 2,
+     "why": "the son fears his mother's shame in heaven",
+     "quotes_failed": false
+    },
+    {
+     "tag": "ethics-and-emotions:punishment",
+     "scope": "span",
+     "quotes": [
+      "ועל מה נענש שבא בגלגול נקבה"
+     ],
+     "confidence": 2,
+     "why": "rebirth as a woman as a heavenly punishment",
+     "quotes_failed": false
+    },
+    {
+     "tag": "supernatural:perception",
+     "scope": "span",
+     "quotes": [
+      "ומרן ההק' בנה אמר כי יודע מי היה",
+      "שהיה רואה את אמו עוד החזיקה אותו לצדיק"
+     ],
+     "confidence": 2,
+     "why": "he knows hidden things and sees his dead mother's state",
+     "quotes_failed": false
+    },
+    {
+     "tag": "supernatural:communicating_with_the_invisible",
+     "scope": "span",
+     "quotes": [
+      "שהיה רואה את אמו עוד החזיקה אותו לצדיק"
+     ],
+     "confidence": 2,
+     "why": "he perceives the soul of his deceased mother",
+     "quotes_failed": false
+    },
+    {
+     "tag": "ethics-and-emotions:sadness",
+     "scope": "span",
+     "quotes": [
+      "ביום אחד מימי אבל אמו היה בוכה"
+     ],
+     "confidence": 1,
+     "why": "weeping in mourning",
+     "quotes_failed": false
+    },
+    {
+     "tag": "times:death",
+     "scope": "span",
+     "quotes": [
+      "ביום אחד מימי אבל אמו"
+     ],
+     "confidence": 1,
+     "why": "mourning period after the mother's death",
+     "quotes_failed": false
+    },
+    {
+     "tag": "spaces:heaven",
+     "scope": "span",
+     "quotes": [
+      "לכן אינם רוצים בשמים לצער אותה"
+     ],
+     "confidence": 1,
+     "why": "the mother's state in the upper world",
+     "quotes_failed": false
+    },
+    {
+     "tag": "women:catalyst_character",
+     "scope": "story",
+     "quotes": [],
+     "confidence": 2,
+     "why": "the mother is the subject and occasion of the anecdotes but does not act",
+     "quotes_failed": false
+    }
+   ],
+   "missing_concepts": [
+    "gender-crossing reincarnation (male soul in a female body)",
+    "heaven deceiving a righteous soul out of compassion",
+    "a tsaddik's self-doubt about his own righteousness"
+   ],
+   "start_quote_found": true,
+   "end_quote_found": true
+  }
+ ],
+ "check": {
+  "non_vocab_tags": [],
+  "quotes": 11,
+  "quotes_not_found": 0
+ },
+ "id": "Toldot-Haniflaot_0086",
+ "chars": 454,
+ "seconds": 18
+}

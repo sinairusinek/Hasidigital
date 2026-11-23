@@ -1,0 +1,176 @@
+{
+ "unit": {
+  "kind": "hasidic_story",
+  "why": "A narrative quoted from R. Yitzhak Eizik of Komarno about the Seer of Lublin arranging his parents' match, his father's hidden ascetic years in Pinczow, and the study-partner who later wept for not having revealed him.",
+  "boundary_note": "part of a numbered series of biographical excerpts (עו\"ש); the next division continues the father's biography"
+ },
+ "stories": [
+  {
+   "k": 1,
+   "start_quote": "והי׳ רבינו מלובלין שדכן של אמי",
+   "end_quote": "ואצל רבינו אלקי בעש״ט זללה״ה",
+   "hasidic": true,
+   "summary_en": "The Seer of Lublin persuades the Pinczow rabbi to marry his daughter Gitl to the Komarno author's father, predicting the groom will adorn the world. The father then lives hidden and ascetic in Pinczow for years. His study partner, sworn to secrecy, later weeps that he never revealed this holy man to the town.",
+   "tags": [
+    {
+     "tag": "social:marriage",
+     "scope": "span",
+     "quotes": [
+      "שדכן של אמי הרבנית הצדיקת מ׳ גיטל",
+      "והנשואין הי' בארץ רוסיש פולין בעיר פינטשוב"
+     ],
+     "confidence": 3,
+     "why": "the Seer arranges the match",
+     "quotes_failed": false
+    },
+    {
+     "tag": "supernatural:prognostication",
+     "scope": "span",
+     "quotes": [
+      "איך זעה אז דער חתן וועט פאר שאנען דיא גאנצע וועלט"
+     ],
+     "confidence": 2,
+     "why": "the Seer foresees the groom's greatness",
+     "quotes_failed": false
+    },
+    {
+     "tag": "characters-and-roles:the_family_of_the_tsaddik",
+     "scope": "span",
+     "quotes": [
+      "עם אדוני אבי מו״ר ז\"ל",
+      "בת הרב הצדיק מו\"ה אברהם מרדכי מפינטשוב"
+     ],
+     "confidence": 3,
+     "why": "the narrator's parents and grandfather",
+     "quotes_failed": false
+    },
+    {
+     "tag": "women:mention_only",
+     "scope": "span",
+     "quotes": [
+      "אמי הרבנית הצדיקת מ׳ גיטל תחי׳"
+     ],
+     "confidence": 3,
+     "why": "the bride is named but does not act",
+     "quotes_failed": false
+    },
+    {
+     "tag": "characters-and-roles:hidden_righteous",
+     "scope": "span",
+     "quotes": [
+      "וישב בהסתר ג׳ שנים",
+      "והכל הי' בהסתר גדול"
+     ],
+     "confidence": 2,
+     "why": "the father conceals his holiness",
+     "quotes_failed": false
+    },
+    {
+     "tag": "practice:solitude",
+     "scope": "span",
+     "quotes": [
+      "כמעט שלא ראה אויר העולם"
+     ],
+     "confidence": 2,
+     "why": "lives shut away from society",
+     "quotes_failed": false
+    },
+    {
+     "tag": "practice:asceticism",
+     "scope": "span",
+     "quotes": [
+      "בנגלה ובנסתר בסגופים גדולים"
+     ],
+     "confidence": 3,
+     "why": "great mortifications",
+     "quotes_failed": false
+    },
+    {
+     "tag": "practice:study",
+     "scope": "span",
+     "quotes": [
+      "ועסק בתוה״ק בנגלה ובנסתר",
+      "ולמד שם בתחלה עם חבר אחד"
+     ],
+     "confidence": 3,
+     "why": "Torah study with a partner",
+     "quotes_failed": false
+    },
+    {
+     "tag": "knowledge:esoteric",
+     "scope": "span",
+     "quotes": [
+      "ועסק בתוה״ק בנגלה ובנסתר"
+     ],
+     "confidence": 2,
+     "why": "studies hidden Torah",
+     "quotes_failed": false
+    },
+    {
+     "tag": "supernatural:perception",
+     "scope": "span",
+     "quotes": [
+      "כמה רוח הקודש שבעצמו ראה ושמע ממנו"
+     ],
+     "confidence": 2,
+     "why": "the father's holy spirit is attested",
+     "quotes_failed": false
+    },
+    {
+     "tag": "supernatural:miracle",
+     "scope": "span",
+     "quotes": [
+      "ואותות ומופתים שעשה בעיר פינטשוב"
+     ],
+     "confidence": 1,
+     "why": "miracles are mentioned only generically",
+     "quotes_failed": false
+    },
+    {
+     "tag": "social:retrospective_recognition",
+     "scope": "span",
+     "quotes": [
+      "בכה לפני מאד ואמר מה עשיתי",
+      "שלא גליתי אז בעירנו מדרכי אביכם"
+     ],
+     "confidence": 2,
+     "why": "the friend regrets the unrevealed holiness",
+     "quotes_failed": false
+    },
+    {
+     "tag": "folkloristics:story_type_revelation",
+     "scope": "story",
+     "quotes": [],
+     "confidence": 2,
+     "why": "the hidden tzaddik's greatness is disclosed through the friend's testimony",
+     "quotes_failed": false
+    },
+    {
+     "tag": "practice:storytelling",
+     "scope": "span",
+     "quotes": [
+      "והחבר הזה סיפר לי כמה רוח הקודש"
+     ],
+     "confidence": 1,
+     "why": "the friend's oral testimony to the son frames the story",
+     "quotes_failed": false
+    }
+   ],
+   "missing_concepts": [
+    "oath of secrecy (תקיעת כף) about a tzaddik's deeds",
+    "a tzaddik acting as matchmaker (shiddukh)",
+    "lineage (yihus) weighed in a match"
+   ],
+   "start_quote_found": true,
+   "end_quote_found": true
+  }
+ ],
+ "check": {
+  "non_vocab_tags": [],
+  "quotes": 18,
+  "quotes_not_found": 0
+ },
+ "id": "Eser-Kedushot_0163",
+ "chars": 1129,
+ "seconds": 20
+}

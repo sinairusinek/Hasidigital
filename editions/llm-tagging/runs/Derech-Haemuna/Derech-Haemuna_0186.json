@@ -1,0 +1,91 @@
+{
+ "unit": {
+  "kind": "hasidic_story",
+  "why": "A short deathbed anecdote, quoted from the preface of ספר ד״ש: R. Mordechai of Lechovitch travels to a wedding, dies in Stolin, and before his passing holds his tzitzit and recites a verse.",
+  "boundary_note": "the division ends with the section marker 'סליק אות צ ונתחיל אות ק' and the heading 'מענין קבלת שבת', which belongs to the next division"
+ },
+ "stories": [
+  {
+   "k": 1,
+   "start_quote": "ונסע זקני הק׳ מהר\"ם ז״ל מלעכוויטש",
+   "end_quote": "אשר שם בבשרינו ויש בזה סוד",
+   "hasidic": true,
+   "summary_en": "R. Mordechai of Lechovitch travelled to a wedding and died in Stolin; before his death he held his tzitzit and recited 'El Hai Helkenu…' from the circumcision blessing, in which there is a secret.",
+   "tags": [
+    {
+     "tag": "folkloristics:story_type_death_of_the_tsaddik",
+     "scope": "story",
+     "quotes": [],
+     "confidence": 3,
+     "why": "The whole anecdote is the tzaddik's deathbed scene and last words.",
+     "quotes_failed": false
+    },
+    {
+     "tag": "times:death",
+     "scope": "span",
+     "quotes": [
+      "ונח נפשיה בשם ומנו״כ בעיר סטאלין",
+      "שקודם הסתלקותו אחז את הציצית בידו"
+     ],
+     "confidence": 3,
+     "why": "His death is narrated.",
+     "quotes_failed": false
+    },
+    {
+     "tag": "practice:the_travels_of_the_tsaddik",
+     "scope": "span",
+     "quotes": [
+      "ונסע זקני הק׳ מהר\"ם ז״ל מלעכוויטש על החתונה"
+     ],
+     "confidence": 2,
+     "why": "He died away from home, at Stolin, while travelling to a wedding.",
+     "quotes_failed": false
+    },
+    {
+     "tag": "social:marriage",
+     "scope": "span",
+     "quotes": [
+      "מלעכוויטש על החתונה"
+     ],
+     "confidence": 1,
+     "why": "A wedding is the occasion of the journey.",
+     "quotes_failed": false
+    },
+    {
+     "tag": "knowledge:esoteric",
+     "scope": "span",
+     "quotes": [
+      "ויש בזה סוד"
+     ],
+     "confidence": 1,
+     "why": "The narrator says his last words hold a hidden mystical meaning.",
+     "quotes_failed": false
+    },
+    {
+     "tag": "practice:prayer",
+     "scope": "span",
+     "quotes": [
+      "אל חי חלקנו צורנו צוה להציל ידידות שארינו"
+     ],
+     "confidence": 1,
+     "why": "He recites a liturgical blessing as his final words.",
+     "quotes_failed": false
+    }
+   ],
+   "missing_concepts": [
+    "tzitzit as a ritual object held at death",
+    "last words of a tzaddik"
+   ],
+   "start_quote_found": true,
+   "end_quote_found": true
+  }
+ ],
+ "check": {
+  "non_vocab_tags": [],
+  "quotes": 6,
+  "quotes_not_found": 0
+ },
+ "id": "Derech-Haemuna_0186",
+ "chars": 283,
+ "seconds": 13
+}

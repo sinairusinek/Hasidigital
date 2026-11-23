@@ -1,0 +1,162 @@
+{
+ "unit": {
+  "kind": "hasidic_story",
+  "why": "A short anecdote: the widowed Maggid of Kozhnitz refuses to remarry, and the Seer of Lublin sends word that his prayers are not ascending, so he remarries. It is framed by a Zohar-based ruling.",
+  "boundary_note": ""
+ },
+ "stories": [
+  {
+   "k": 1,
+   "start_quote": "בסה\"ק זוהר חי על הזוהר ויקרא",
+   "end_quote": "ותיכף קיים דבריו ונשא עכ״ל עיי״ש",
+   "hasidic": true,
+   "summary_en": "Citing the Zohar rule that a man without a wife may not lead public prayer, the text tells how the Seer of Lublin sent word to the Maggid of Kozhnitz, widowed past seventy and unwilling to remarry, that his prayers did not ascend properly, and the Maggid at once remarried.",
+   "tags": [
+    {
+     "tag": "social:marriage",
+     "scope": "span",
+     "quotes": [
+      "ואמור לו משמי שישא אשה",
+      "ותיכף קיים דבריו ונשא"
+     ],
+     "confidence": 3,
+     "why": "Remarriage is the outcome and the subject",
+     "quotes_failed": false
+    },
+    {
+     "tag": "practice:prayer",
+     "scope": "span",
+     "quotes": [
+      "כל תפלות שלו לא עלו כהוגן"
+     ],
+     "confidence": 3,
+     "why": "The issue is whether his prayers are valid and ascend",
+     "quotes_failed": false
+    },
+    {
+     "tag": "ethics-and-emotions:prohibitions",
+     "scope": "span",
+     "quotes": [
+      "דמי שאין לו אשה אסור להתפלל להוציא הרבים"
+     ],
+     "confidence": 3,
+     "why": "A prohibition on an unmarried man leading public prayer",
+     "quotes_failed": false
+    },
+    {
+     "tag": "practice:halakhah",
+     "scope": "span",
+     "quotes": [
+      "אסור להתפלל להוציא הרבים כי עבודתו פסולה"
+     ],
+     "confidence": 2,
+     "why": "The story turns on a legal-mystical rule about who may lead prayer",
+     "quotes_failed": false
+    },
+    {
+     "tag": "supernatural:perception",
+     "scope": "span",
+     "quotes": [
+      "כל תפלות שלו לא עלו כהוגן לא נהירין ולא בהירין"
+     ],
+     "confidence": 3,
+     "why": "The Seer knows from afar the heavenly state of another man's prayers",
+     "quotes_failed": false
+    },
+    {
+     "tag": "practice:sexual_abstinence",
+     "scope": "span",
+     "quotes": [
+      "ולא רצה עוד לישא אשה כי כבר נתבטל ממנו הכח"
+     ],
+     "confidence": 2,
+     "why": "He chooses to stay celibate after his wife's death",
+     "quotes_failed": false
+    },
+    {
+     "tag": "times:holidays",
+     "scope": "span",
+     "quotes": [
+      "באלו ימים נוראים וכן בכל יום"
+     ],
+     "confidence": 1,
+     "why": "The High Holy Days prayers are mentioned",
+     "quotes_failed": false
+    },
+    {
+     "tag": "characters-and-roles:the_family_of_the_tsaddik",
+     "scope": "span",
+     "quotes": [
+      "הי' בן שבעים ויותר שמתה אשתו"
+     ],
+     "confidence": 2,
+     "why": "The tzaddik's deceased wife is the precondition of the story",
+     "quotes_failed": false
+    },
+    {
+     "tag": "times:death",
+     "scope": "span",
+     "quotes": [
+      "שמתה אשתו"
+     ],
+     "confidence": 1,
+     "why": "The wife's death is mentioned as background",
+     "quotes_failed": false
+    },
+    {
+     "tag": "women:mention_only",
+     "scope": "span",
+     "quotes": [
+      "שמתה אשתו",
+      "שישא אשה"
+     ],
+     "confidence": 3,
+     "why": "The deceased and the future wives are referred to but do not act",
+     "quotes_failed": false
+    },
+    {
+     "tag": "social:inter_hasidic",
+     "scope": "span",
+     "quotes": [
+      "ושלח אליו רבינו יעקב יצחק מלובלין"
+     ],
+     "confidence": 2,
+     "why": "One tzaddik sends instructions to another",
+     "quotes_failed": false
+    },
+    {
+     "tag": "social:marital_relationship",
+     "scope": "story",
+     "quotes": [],
+     "confidence": 1,
+     "why": "The religious necessity of married life is the theme",
+     "quotes_failed": false
+    },
+    {
+     "tag": "not-a-hasidic-story:sermon",
+     "scope": "span",
+     "quotes": [
+      "כתב עפ״י הזוהר דשם דמי שאין לו אשה"
+     ],
+     "confidence": 1,
+     "why": "The anecdote is wrapped in a Zohar-based justificatory frame",
+     "quotes_failed": false
+    }
+   ],
+   "missing_concepts": [
+    "remarriage of an elderly widower",
+    "the validity of prayer depending on marital status (a tzaddik's duty to be married)"
+   ],
+   "start_quote_found": true,
+   "end_quote_found": true
+  }
+ ],
+ "check": {
+  "non_vocab_tags": [],
+  "quotes": 14,
+  "quotes_not_found": 0
+ },
+ "id": "Eser-Orot_0199",
+ "chars": 436,
+ "seconds": 17
+}

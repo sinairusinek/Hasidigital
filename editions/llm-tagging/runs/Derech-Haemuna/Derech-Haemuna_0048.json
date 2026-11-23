@@ -1,0 +1,138 @@
+{
+ "unit": {
+  "kind": "non_hasidic_story",
+  "why": "A short pre-Hasidic legend about the birth of R. Avraham de Pisa, promised by four sages to his grandfather for hosting the exiles from Spain. It is followed by a moral lesson on the reward for acts of kindness.",
+  "boundary_note": "The trailing words 'מענין גן עדן' are the heading of the next section, not part of this story."
+ },
+ "stories": [
+  {
+   "k": 1,
+   "start_quote": "הגאון כמוה״ר אברהם דפיסה זל\"ה בא לעולם",
+   "end_quote": "מרבים שכר אביהם בעוה״ב. (מ״ת ענף גמח)",
+   "hasidic": false,
+   "summary_en": "During the Spanish expulsion, R. Avraham de Pisa's grandfather lavishly supported fleeing Jews. Four visiting sages promised him a wise son within a year, to be named Avraham, and the promise came true; the author then draws a lesson on the reward for acts of kindness.",
+   "tags": [
+    {
+     "tag": "not-a-hasidic-story:hagiography",
+     "scope": "story",
+     "quotes": [],
+     "confidence": 3,
+     "why": "Praises a pre-Hasidic Italian sage; cited from an earlier book (מ״ת).",
+     "quotes_failed": false
+    },
+    {
+     "tag": "not-a-hasidic-story:virtues",
+     "scope": "span",
+     "quotes": [
+      "א״ה ראה כח ג״ח כמה הוא"
+     ],
+     "confidence": 3,
+     "why": "Explicitly framed as a lesson on gemilut hasadim, under the heading 'מענין גמילות חסדים'.",
+     "quotes_failed": false
+    },
+    {
+     "tag": "folkloristics:story_type_birth_of_the_tsaddik",
+     "scope": "story",
+     "quotes": [],
+     "confidence": 3,
+     "why": "The story is about the promised birth of a great sage.",
+     "quotes_failed": false
+    },
+    {
+     "tag": "times:birth",
+     "scope": "span",
+     "quotes": [
+      "ויצא ממנו בנו זה הג׳ והיה חכם"
+     ],
+     "confidence": 3,
+     "why": "The birth of the promised son is narrated.",
+     "quotes_failed": false
+    },
+    {
+     "tag": "ethics-and-emotions:charity",
+     "scope": "span",
+     "quotes": [
+      "מקבל עניים ועשירים ומכלכלם ומלוה אותם",
+      "ובזבז בהן הון רב"
+     ],
+     "confidence": 3,
+     "why": "The grandfather supports the exiles at great expense.",
+     "quotes_failed": false
+    },
+    {
+     "tag": "supernatural:prognostication",
+     "scope": "span",
+     "quotes": [
+      "בטח בה׳ שיצא תוך שנה בן מחלציך"
+     ],
+     "confidence": 3,
+     "why": "The sages predict the son's birth, and it comes true.",
+     "quotes_failed": false
+    },
+    {
+     "tag": "folkloristics:story_type_prognostication",
+     "scope": "story",
+     "quotes": [],
+     "confidence": 2,
+     "why": "The narrative arc is a promise that is fulfilled.",
+     "quotes_failed": false
+    },
+    {
+     "tag": "supernatural:pregnancy",
+     "scope": "span",
+     "quotes": [
+      "בא לעולם בתפילת חכמי ישראל"
+     ],
+     "confidence": 1,
+     "why": "The child is born through the sages' prayer and blessing, but childlessness is not stated.",
+     "quotes_failed": false
+    },
+    {
+     "tag": "times:historical_event",
+     "scope": "span",
+     "quotes": [
+      "שבהיות גלות ספרד היה בורחים משם היהודים"
+     ],
+     "confidence": 3,
+     "why": "The expulsion from Spain is the setting.",
+     "quotes_failed": false
+    },
+    {
+     "tag": "not-a-hasidic-story:sermon",
+     "scope": "span",
+     "quotes": [
+      "שמלבד השכר שיש לעושיה בעוה״ב יש לו שכר בעוה״ז"
+     ],
+     "confidence": 2,
+     "why": "The narrative is wrapped in a homiletic frame about reward.",
+     "quotes_failed": false
+    },
+    {
+     "tag": "times:eschatology",
+     "scope": "span",
+     "quotes": [
+      "מרבים שכר אביהם בעוה״ב"
+     ],
+     "confidence": 1,
+     "why": "The lesson discusses reward in the world to come.",
+     "quotes_failed": false
+    }
+   ],
+   "missing_concepts": [
+    "hospitality to refugees / exiles",
+    "naming of a child as a sign",
+    "reward through righteous offspring (ברא מזכה אבא)"
+   ],
+   "start_quote_found": true,
+   "end_quote_found": true
+  }
+ ],
+ "check": {
+  "non_vocab_tags": [],
+  "quotes": 9,
+  "quotes_not_found": 0
+ },
+ "id": "Derech-Haemuna_0048",
+ "chars": 808,
+ "seconds": 17
+}

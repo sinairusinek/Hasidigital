@@ -1,0 +1,132 @@
+{
+ "unit": {
+  "kind": "hasidic_story",
+  "why": "An anecdote about the Savran tzaddik: his dayan disputes a Talmudic citation, the tzaddik proves it and then consoles the dayan with a teaching on memory and guarding from sin.",
+  "boundary_note": ""
+ },
+ "stories": [
+  {
+   "k": 1,
+   "start_quote": "פ״א ישב ההצה\"ק רמ\"ל מסאווראן במסיבה",
+   "end_quote": "כי טובה תוכחת מגולה מאהבה מסותרת",
+   "hasidic": true,
+   "summary_en": "At a gathering the Savran tzaddik cites a Talmudic saying. His dayan R. Pinchas says it is not in the Talmud. The tzaddik, who had not studied that tractate for seventeen years, shows it is as he said. The dayan is downcast, and the tzaddik consoles him with a homily: whoever guards himself from sin does not forget his learning.",
+   "tags": [
+    {
+     "tag": "practice:study",
+     "scope": "span",
+     "quotes": [
+      "האם מזמן כביר למדת הש\"ס שהזכרתי",
+      "אני לא למדתי הש\"ס הנ\"ל זה שבע עשרה שנה"
+     ],
+     "confidence": 3,
+     "why": "The dispute turns on Talmud learning and remembering it.",
+     "quotes_failed": false
+    },
+    {
+     "tag": "practice:sermon",
+     "scope": "span",
+     "quotes": [
+      "חז\"ל אמרו על זכור ושמור בדבור אחד נאמרו",
+      "בשכר זה גם מלימודו הטוב אינו שוכח כלל"
+     ],
+     "confidence": 3,
+     "why": "The tzaddik gives a homily on זכור ושמור.",
+     "quotes_failed": false
+    },
+    {
+     "tag": "social:inter_hasidic_master_disciple_relationship",
+     "scope": "span",
+     "quotes": [
+      "וישב אצלו הדיין המובהק שלו מוה׳ פנחס ז״ל"
+     ],
+     "confidence": 2,
+     "why": "The relation between the tzaddik and his own dayan is central.",
+     "quotes_failed": false
+    },
+    {
+     "tag": "ethics-and-emotions:shame",
+     "scope": "span",
+     "quotes": [
+      "וחליש דעתי' דהרב מהר״פ הנ״ל"
+     ],
+     "confidence": 2,
+     "why": "The dayan is mortified after being shown wrong.",
+     "quotes_failed": false
+    },
+    {
+     "tag": "ethics-and-emotions:fear",
+     "scope": "span",
+     "quotes": [
+      "אולי יתרעם הה״צ עליו"
+     ],
+     "confidence": 1,
+     "why": "The dayan fears the tzaddik's displeasure.",
+     "quotes_failed": false
+    },
+    {
+     "tag": "social:conflict",
+     "scope": "span",
+     "quotes": [
+      "ואמר שלא נמצא זה המאמר בש״ס"
+     ],
+     "confidence": 1,
+     "why": "A scholarly disagreement.",
+     "quotes_failed": false
+    },
+    {
+     "tag": "ethics-and-emotions:awe",
+     "scope": "span",
+     "quotes": [
+      "ויראתו תמיד על פניו"
+     ],
+     "confidence": 1,
+     "why": "Fear of God is the basis of the teaching.",
+     "quotes_failed": false
+    },
+    {
+     "tag": "folkloristics:story_type_virtues",
+     "scope": "story",
+     "quotes": [],
+     "confidence": 2,
+     "why": "Shows the tzaddik's memory and piety, and his gentleness in appeasing the dayan.",
+     "quotes_failed": false
+    },
+    {
+     "tag": "ethics-and-emotions:virtues",
+     "scope": "span",
+     "quotes": [
+      "וכדי לפייסו א״ל כן"
+     ],
+     "confidence": 2,
+     "why": "The tzaddik appeases the embarrassed scholar.",
+     "quotes_failed": false
+    },
+    {
+     "tag": "not-a-hasidic-story:sermon",
+     "scope": "story",
+     "quotes": [],
+     "confidence": 1,
+     "why": "The narrative ends in a homiletic frame.",
+     "quotes_failed": false
+    }
+   ],
+   "missing_concepts": [
+    "memory / forgetting of Torah learning",
+    "Talmudic citation dispute",
+    "communal dayan (rabbinic judge) as a character",
+    "appeasing a humiliated scholar"
+   ],
+   "start_quote_found": true,
+   "end_quote_found": true
+  }
+ ],
+ "check": {
+  "non_vocab_tags": [],
+  "quotes": 10,
+  "quotes_not_found": 0
+ },
+ "id": "Derech-Haemuna_0094",
+ "chars": 853,
+ "seconds": 18
+}

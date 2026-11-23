@@ -1,0 +1,121 @@
+{
+ "unit": {
+  "kind": "hasidic_story",
+  "why": "A teaching that the tsaddik feels in his body the shifts between judgment and mercy, followed by a brief anecdote: the Rav of Apta told how in his childhood his limbs began telling him the future and he asked God to remove this gift.",
+  "boundary_note": ""
+ },
+ "stories": [
+  {
+   "k": 1,
+   "start_quote": "ובס׳ ע״ק (לשבח חזון) וז״ל אמר",
+   "end_quote": "ובקש מהשי״ת שיקח הדבר מאתו",
+   "hasidic": true,
+   "summary_en": "A tsaddik says he is sick and sad when judgments hang over Israel and healthy and joyful in times of mercy; the Rav of Apta tells him that as a child his limbs foretold the future to him and he prayed to God to take this away.",
+   "tags": [
+    {
+     "tag": "not-a-hasidic-story:sermon",
+     "scope": "story",
+     "quotes": [],
+     "confidence": 2,
+     "why": "Mostly a teaching on the tsaddik's bodily sensitivity, with only a minimal anecdote.",
+     "quotes_failed": false
+    },
+    {
+     "tag": "supernatural:perception",
+     "scope": "span",
+     "quotes": [
+      "הצדיק יכול להרגיש בגופו כל עניני השתנות",
+      "התחילו האברים שלו לומר לו עתידות"
+     ],
+     "confidence": 3,
+     "why": "Supernatural bodily perception of cosmic states and of the future.",
+     "quotes_failed": false
+    },
+    {
+     "tag": "supernatural:prognostication",
+     "scope": "span",
+     "quotes": [
+      "התחילו האברים שלו לומר לו עתידות"
+     ],
+     "confidence": 1,
+     "why": "Foreknowledge of the future is mentioned, but no specific prediction is shown coming true.",
+     "quotes_failed": false
+    },
+    {
+     "tag": "practice:torat_ha_tsaddik",
+     "scope": "span",
+     "quotes": [
+      "כי הצדיק יכול להרגיש בגופו כל עניני"
+     ],
+     "confidence": 2,
+     "why": "Doctrine of the tsaddik's special nature, attuned to the world's state.",
+     "quotes_failed": false
+    },
+    {
+     "tag": "practice:storytelling",
+     "scope": "span",
+     "quotes": [
+      "והרב מאפטא סיפר לו שבילדותו"
+     ],
+     "confidence": 2,
+     "why": "The Rav of Apta narrates his own childhood experience.",
+     "quotes_failed": false
+    },
+    {
+     "tag": "ethics-and-emotions:humility",
+     "scope": "span",
+     "quotes": [
+      "ובקש מהשי״ת שיקח הדבר מאתו"
+     ],
+     "confidence": 1,
+     "why": "Asking God to remove a prophetic gift may express humility.",
+     "quotes_failed": false
+    },
+    {
+     "tag": "ethics-and-emotions:sadness",
+     "scope": "span",
+     "quotes": [
+      "אזי אני חולה ועצב"
+     ],
+     "confidence": 2,
+     "why": "Sadness as the tsaddik's response to judgments on Israel.",
+     "quotes_failed": false
+    },
+    {
+     "tag": "ethics-and-emotions:joy",
+     "scope": "span",
+     "quotes": [
+      "אני בריא ושמח"
+     ],
+     "confidence": 2,
+     "why": "Joy in times of mercy.",
+     "quotes_failed": false
+    },
+    {
+     "tag": "practice:prayer",
+     "scope": "span",
+     "quotes": [
+      "ובקש מהשי״ת שיקח הדבר מאתו"
+     ],
+     "confidence": 1,
+     "why": "A petition to God, though not formal liturgy.",
+     "quotes_failed": false
+    }
+   ],
+   "missing_concepts": [
+    "renouncing a supernatural gift",
+    "the tsaddik's body as a barometer of divine judgment and mercy"
+   ],
+   "start_quote_found": true,
+   "end_quote_found": true
+  }
+ ],
+ "check": {
+  "non_vocab_tags": [],
+  "quotes": 9,
+  "quotes_not_found": 0
+ },
+ "id": "Derech-Haemuna_0079",
+ "chars": 284,
+ "seconds": 14
+}

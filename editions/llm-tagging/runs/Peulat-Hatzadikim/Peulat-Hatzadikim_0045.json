@@ -1,0 +1,122 @@
+{
+ "unit": {
+  "kind": "hasidic_story",
+  "why": "A short anecdote: R. Leizer of Hovitch asks his master, R. Yeshaya, how to keep his mind on his tefillin. Following the master's instruction he gains that level, then loses it after telling others about it on Simhat Torah.",
+  "boundary_note": ""
+ },
+ "stories": [
+  {
+   "k": 1,
+   "start_quote": "הה\"ק ר׳ ליזר בהגה\"ק ר״י חריף",
+   "end_quote": "ומיום ההוא אבד מדרגתו",
+   "hasidic": true,
+   "summary_en": "A disciple asks his rebbe how never to let his mind stray from his tefillin. The rebbe has him recite Barukh She-amar three times and he attains the level, but he loses it on the day he tells his acquaintances about it on Simhat Torah.",
+   "tags": [
+    {
+     "tag": "practice:tefillin",
+     "scope": "span",
+     "quotes": [
+      "שלא יסיח דעתו מהתפילין",
+      "לא הסיח עוד דעתו מהתפילין"
+     ],
+     "confidence": 3,
+     "why": "Constant awareness of the tefillin is the subject of the story",
+     "quotes_failed": false
+    },
+    {
+     "tag": "social:inter_hasidic_master_disciple_relationship",
+     "scope": "span",
+     "quotes": [
+      "הוא הי׳ תלמיד הקדוש ר״ר וישא",
+      "וישנה וישלש במצות רבו"
+     ],
+     "confidence": 3,
+     "why": "The disciple asks his master and obeys his instruction",
+     "quotes_failed": false
+    },
+    {
+     "tag": "practice:prayer",
+     "scope": "span",
+     "quotes": [
+      "וצוהו רבו שיאמר ברוך שאמר"
+     ],
+     "confidence": 3,
+     "why": "The remedy is reciting the Barukh She-amar prayer",
+     "quotes_failed": false
+    },
+    {
+     "tag": "times:holidays",
+     "scope": "span",
+     "quotes": [
+      "וברבות הימים בשמחת תורה סיפר"
+     ],
+     "confidence": 3,
+     "why": "The loss of the level happens on Simhat Torah",
+     "quotes_failed": false
+    },
+    {
+     "tag": "practice:storytelling",
+     "scope": "span",
+     "quotes": [
+      "סיפר הרב ז״ל למיודעיו את הענין"
+     ],
+     "confidence": 2,
+     "why": "Telling the episode is itself the turning point of the story",
+     "quotes_failed": false
+    },
+    {
+     "tag": "practice:devekut",
+     "scope": "span",
+     "quotes": [
+      "ומאז והלאה לא הסיח עוד דעתו מהתפילין"
+     ],
+     "confidence": 2,
+     "why": "He reaches a lasting state of attachment, unbroken awareness",
+     "quotes_failed": false
+    },
+    {
+     "tag": "ethics-and-emotions:punishment",
+     "scope": "span",
+     "quotes": [
+      "ומיום ההוא אבד מדרגתו"
+     ],
+     "confidence": 2,
+     "why": "He loses his spiritual level after revealing it",
+     "quotes_failed": false
+    },
+    {
+     "tag": "ethics-and-emotions:humility",
+     "scope": "story",
+     "quotes": [],
+     "confidence": 1,
+     "why": "Implied lesson that spiritual attainments should be kept hidden",
+     "quotes_failed": false
+    },
+    {
+     "tag": "supernatural:miracle",
+     "scope": "span",
+     "quotes": [
+      "ומאז והלאה לא הסיח עוד דעתו מהתפילין"
+     ],
+     "confidence": 1,
+     "why": "The rebbe's instruction has a wondrous effect",
+     "quotes_failed": false
+    }
+   ],
+   "missing_concepts": [
+    "loss of a spiritual level (madregah) through revealing it",
+    "concealment of spiritual attainments"
+   ],
+   "start_quote_found": true,
+   "end_quote_found": true
+  }
+ ],
+ "check": {
+  "non_vocab_tags": [],
+  "quotes": 10,
+  "quotes_not_found": 0
+ },
+ "id": "Peulat-Hatzadikim_0045",
+ "chars": 321,
+ "seconds": 12
+}

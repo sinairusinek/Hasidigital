@@ -1,0 +1,94 @@
+{
+ "unit": {
+  "kind": "hasidic_story",
+  "why": "A short memorate: the narrator tells how the Neskhiz rebbe, late in life, had him buy the Noda bi-Yehuda, ordered the volumes bound and shelved, and explained the gesture with a saying of the Besht.",
+  "boundary_note": "Ends with the section heading 'מענין נסיון', which introduces the next division."
+ },
+ "stories": [
+  {
+   "k": 1,
+   "start_quote": "ואעירה לי אשר מרן מנעסכיז זצל\"ה",
+   "end_quote": "עד שבא הוא לעולם. (ז״ט)",
+   "hasidic": true,
+   "summary_en": "Near the end of his life the Neskhiz rebbe asks his disciple what is new in the beit midrash, sends him to buy the Noda bi-Yehuda from a newly arrived bookseller, and has it bound and shelved; when the disciple is puzzled, the rebbe explains that the Besht said the Noda bi-Yehuda's author had a new soul, hidden on high until he came into the world.",
+   "tags": [
+    {
+     "tag": "social:inter_hasidic_master_disciple_relationship",
+     "scope": "span",
+     "quotes": [
+      "שאלני מה חידוש בבית מדרשו",
+      "וציווני ליתן לקשור אותם ולהעמידם בין הספרים"
+     ],
+     "confidence": 2,
+     "why": "The rebbe instructs his attendant-disciple, who is the narrator.",
+     "quotes_failed": false
+    },
+    {
+     "tag": "social:retrospective_recognition",
+     "scope": "span",
+     "quotes": [
+      "ועמדתי משתומם והוא ז״ל סיים"
+     ],
+     "confidence": 2,
+     "why": "The puzzled disciple learns the hidden reason for the rebbe's reverence for the book.",
+     "quotes_failed": false
+    },
+    {
+     "tag": "supernatural:perception",
+     "scope": "span",
+     "quotes": [
+      "היה לו נשמה חדשה שלא היתה עדיין בעולם"
+     ],
+     "confidence": 2,
+     "why": "The Besht supernaturally knows the origin of a soul.",
+     "quotes_failed": false
+    },
+    {
+     "tag": "spaces:beth_midrash",
+     "scope": "span",
+     "quotes": [
+      "שאלני מה חידוש בבית מדרשו"
+     ],
+     "confidence": 1,
+     "why": "The beit midrash is the frame where the bookseller arrives.",
+     "quotes_failed": false
+    },
+    {
+     "tag": "not-a-hasidic-story:hagiography",
+     "scope": "span",
+     "quotes": [
+      "הג׳ הצדיק בעל נוב״י היה לו נשמה חדשה"
+     ],
+     "confidence": 1,
+     "why": "Praises the holiness of a non-Hasidic rabbinic authority, though within a Hasidic frame.",
+     "quotes_failed": false
+    },
+    {
+     "tag": "spaces:heaven",
+     "scope": "span",
+     "quotes": [
+      "והיתה גנוזה במרומים עד שבא הוא לעולם"
+     ],
+     "confidence": 1,
+     "why": "The upper worlds are mentioned as the place where the soul was stored; not really a setting.",
+     "quotes_failed": false
+    }
+   ],
+   "missing_concepts": [
+    "new soul (נשמה חדשה) vs. reincarnated soul",
+    "reverence for books / rabbinic literature",
+    "Hasidic esteem for a non-Hasidic halakhist (Noda bi-Yehuda)"
+   ],
+   "start_quote_found": true,
+   "end_quote_found": true
+  }
+ ],
+ "check": {
+  "non_vocab_tags": [],
+  "quotes": 7,
+  "quotes_not_found": 0
+ },
+ "id": "Derech-Haemuna_0159",
+ "chars": 409,
+ "seconds": 17
+}

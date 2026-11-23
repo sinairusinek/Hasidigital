@@ -1,0 +1,143 @@
+{
+ "unit": {
+  "kind": "hasidic_story",
+  "why": "A tale told by the Hasidic tsaddik R. Baruch: an old scholar who has died complains in the heavenly court that a young man who died early ranks above him, and God settles it with an exegesis; a midrashic parallel follows.",
+  "boundary_note": ""
+ },
+ "stories": [
+  {
+   "k": 1,
+   "start_quote": "סיפר הה\"ק רר״ב הנ״ל מעשה נורא",
+   "end_quote": "התחילו הפועלים מצטערים וכו׳ עיי״ש:",
+   "hasidic": true,
+   "summary_en": "An aged scholar who also engaged in trade dies and protests in the heavenly court that a young man who died young, devoted only to Torah and prayer, sits higher than him; God answers with a reading of 'מקץ שנתים ימים' (a whole lifetime may count as only a few days), and the complaint ends. A parallel midrash from Kohelet Rabbah is cited.",
+   "tags": [
+    {
+     "tag": "practice:storytelling",
+     "scope": "span",
+     "quotes": [
+      "סיפר הה\"ק רר״ב הנ״ל מעשה נורא"
+     ],
+     "confidence": 3,
+     "why": "the story is framed as told by R. Baruch",
+     "quotes_failed": false
+    },
+    {
+     "tag": "spaces:heaven",
+     "scope": "span",
+     "quotes": [
+      "וישאל על הדבר ההוא בב״ד של מעלה",
+      "ויבא הצדיק ההוא לבית מלונו"
+     ],
+     "confidence": 3,
+     "why": "the action takes place in the upper world after death",
+     "quotes_failed": false
+    },
+    {
+     "tag": "spaces:rabbinical_court",
+     "scope": "span",
+     "quotes": [
+      "ויביאו את הדבר למשפט לפני דיין אמת"
+     ],
+     "confidence": 2,
+     "why": "proceedings before the heavenly court",
+     "quotes_failed": false
+    },
+    {
+     "tag": "times:death",
+     "scope": "span",
+     "quotes": [
+      "והלך לעולמו בימי עלומיו",
+      "ושבק חיים לכל ישראל"
+     ],
+     "confidence": 3,
+     "why": "the deaths of both men frame the plot",
+     "quotes_failed": false
+    },
+    {
+     "tag": "practice:study",
+     "scope": "span",
+     "quotes": [
+      "כי האיש מילא כריסו בש״ס ופוסקים",
+      "ולא מש מתוך אהלה של תורה"
+     ],
+     "confidence": 3,
+     "why": "lifelong Torah study is the merit being weighed",
+     "quotes_failed": false
+    },
+    {
+     "tag": "practice:prayer",
+     "scope": "span",
+     "quotes": [
+      "ועבודה שבלב זו תפלה"
+     ],
+     "confidence": 2,
+     "why": "the young man's devotion to prayer is part of his merit",
+     "quotes_failed": false
+    },
+    {
+     "tag": "practice:sermon",
+     "scope": "span",
+     "quotes": [
+      "ואמר הלא בתוה״ק בסדר ויהי מקץ",
+      "והספיד עלי הפסוק מתוקה שנת העובד"
+     ],
+     "confidence": 3,
+     "why": "the verdict is an exegesis of a verse, followed by a midrashic eulogy",
+     "quotes_failed": false
+    },
+    {
+     "tag": "not-a-hasidic-story:sermon",
+     "scope": "story",
+     "quotes": [],
+     "confidence": 2,
+     "why": "the narrative leads to an exegetical point and is wrapped in a midrashic parallel",
+     "quotes_failed": false
+    },
+    {
+     "tag": "social:conflict",
+     "scope": "span",
+     "quotes": [
+      "ומני אז סרה תלונות הזקן הנ״ל"
+     ],
+     "confidence": 2,
+     "why": "the old man disputes the ranking in heaven",
+     "quotes_failed": false
+    },
+    {
+     "tag": "ethics-and-emotions:virtues",
+     "scope": "story",
+     "quotes": [],
+     "confidence": 2,
+     "why": "the point is the quality, not the length, of a life of service",
+     "quotes_failed": false
+    },
+    {
+     "tag": "times:eschatology",
+     "scope": "span",
+     "quotes": [
+      "הי' במעלה עליונה יותר ממנו"
+     ],
+     "confidence": 1,
+     "why": "the souls' ranks in the world to come",
+     "quotes_failed": false
+    }
+   ],
+   "missing_concepts": [
+    "posthumous judgment / ranking of souls",
+    "quality versus length of life",
+    "study versus commerce (Torah and worldly occupation)"
+   ],
+   "start_quote_found": true,
+   "end_quote_found": true
+  }
+ ],
+ "check": {
+  "non_vocab_tags": [],
+  "quotes": 13,
+  "quotes_not_found": 0
+ },
+ "id": "Seva-Ratzon_0019",
+ "chars": 1174,
+ "seconds": 19
+}

@@ -1,0 +1,121 @@
+{
+ "unit": {
+  "kind": "hasidic_story",
+  "why": "An anecdote: R. Moshe asks the Lublin rebbe why he takes snuff during prayer, and the rebbe answers with a parable.",
+  "boundary_note": ""
+ },
+ "stories": [
+  {
+   "k": 1,
+   "start_quote": "בספר רמ\"צ א״ר פ\"י אות י\"ג",
+   "end_quote": "א״כ סובל ג\"כ ההפסק שלנו עכדה\"ק עכ״ל",
+   "hasidic": true,
+   "summary_en": "The Seer of Lublin used to take snuff in the middle of prayer; when R. Moshe son of R. Zalman objected that one should not interrupt, the rebbe answered with a parable of a king who chose a poor old fiddler whose strings kept snapping, and so bears his interruptions.",
+   "tags": [
+    {
+     "tag": "practice:smoking",
+     "scope": "span",
+     "quotes": [
+      "שהי׳ דרכו בתוך התפלה לשאוף אבק הטאביק"
+     ],
+     "confidence": 2,
+     "why": "habitual use of snuff during prayer as a meaningful act (snuff, not a pipe)",
+     "quotes_failed": false
+    },
+    {
+     "tag": "practice:prayer",
+     "scope": "span",
+     "quotes": [
+      "שהי׳ דרכו בתוך התפלה לשאוף אבק הטאביק",
+      "הלא אין ראוי להפסיק"
+     ],
+     "confidence": 3,
+     "why": "the issue is interrupting prayer",
+     "quotes_failed": false
+    },
+    {
+     "tag": "folkloristics:story_type_parable",
+     "scope": "story",
+     "quotes": [],
+     "confidence": 3,
+     "why": "the rebbe answers with a mashal",
+     "quotes_failed": false
+    },
+    {
+     "tag": "practice:music",
+     "scope": "span",
+     "quotes": [
+      "משורר ופורט בכנור",
+      "להשמיע קול כנורו"
+     ],
+     "confidence": 1,
+     "why": "music appears only inside the parable",
+     "quotes_failed": false
+    },
+    {
+     "tag": "characters-and-roles:angels",
+     "scope": "span",
+     "quotes": [
+      "יש לו כמה רבבות מלאכים ומניחם ולוקח אותנו"
+     ],
+     "confidence": 1,
+     "why": "angels are mentioned in the moral of the parable",
+     "quotes_failed": false
+    },
+    {
+     "tag": "practice:halakhah",
+     "scope": "span",
+     "quotes": [
+      "הלא אין ראוי להפסיק"
+     ],
+     "confidence": 2,
+     "why": "objection that prayer should not be interrupted",
+     "quotes_failed": false
+    },
+    {
+     "tag": "social:inter_hasidic",
+     "scope": "span",
+     "quotes": [
+      "ושאל אותו החריף ר׳ משה ר׳ זלמנס משם"
+     ],
+     "confidence": 2,
+     "why": "a scholar questions the rebbe",
+     "quotes_failed": false
+    },
+    {
+     "tag": "not-a-hasidic-story:sermon",
+     "scope": "story",
+     "quotes": [],
+     "confidence": 1,
+     "why": "the content is mainly a justifying teaching delivered through a parable",
+     "quotes_failed": false
+    },
+    {
+     "tag": "experience:devekut",
+     "scope": "span",
+     "quotes": [
+      "אלא שמשתעשע רק בכנורי"
+     ],
+     "confidence": 1,
+     "why": "God delights in human worship despite its interruptions",
+     "quotes_failed": false
+    }
+   ],
+   "missing_concepts": [
+    "snuff tobacco (as distinct from pipe smoking)",
+    "interruption (hefsek) in prayer",
+    "God's preference for human worship over angels"
+   ],
+   "start_quote_found": true,
+   "end_quote_found": true
+  }
+ ],
+ "check": {
+  "non_vocab_tags": [],
+  "quotes": 9,
+  "quotes_not_found": 0
+ },
+ "id": "Eser-Orot_0230",
+ "chars": 791,
+ "seconds": 12
+}

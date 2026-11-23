@@ -1,0 +1,103 @@
+{
+ "unit": {
+  "kind": "paratext_with_story",
+  "why": "A passage quoted from the author's introduction (Komarno, 'עוד שם') that reports, in heavily abbreviated form, a heavenly revelation to R. Zvi of Zhidachov and the author's visit to R. Israel of Ruzhin; the narrative core is thin.",
+  "boundary_note": "part of a run of numbered excerpts from the same introduction; the next division continues the introduction"
+ },
+ "stories": [
+  {
+   "k": 1,
+   "start_quote": "אמר מו״ר דודי רבינו צבי הקדוש",
+   "end_quote": "והי׳ יודע ברוח קדשו הכל כאשר",
+   "hasidic": true,
+   "summary_en": "The author reports that heaven revealed to his uncle R. Zvi that a soul greater than the Ari's and the Besht's exists in this world, which R. Naftali of Ropshitz also said; R. Israel of Ruzhin hinted the same when the author visited him and knew everything by holy spirit.",
+   "tags": [
+    {
+     "tag": "experience:revelation",
+     "scope": "span",
+     "quotes": [
+      "שגילו לו מן השמים אחר כמה וכו'"
+     ],
+     "confidence": 3,
+     "why": "heavenly disclosure to R. Zvi",
+     "quotes_failed": false
+    },
+    {
+     "tag": "supernatural:communicating_with_the_invisible",
+     "scope": "span",
+     "quotes": [
+      "שגילו לו מן השמים אחר כמה וכו'"
+     ],
+     "confidence": 1,
+     "why": "message received from heaven",
+     "quotes_failed": false
+    },
+    {
+     "tag": "supernatural:perception",
+     "scope": "span",
+     "quotes": [
+      "והי׳ יודע ברוח קדשו הכל כאשר"
+     ],
+     "confidence": 3,
+     "why": "the Ruzhiner knows things by ruach ha-kodesh",
+     "quotes_failed": false
+    },
+    {
+     "tag": "practice:travel_to_the_tsaddik",
+     "scope": "span",
+     "quotes": [
+      "בעת היותי אצלו לקבל אנפי שכינתא"
+     ],
+     "confidence": 2,
+     "why": "the author visits the Ruzhiner to receive the Shekhinah's countenance",
+     "quotes_failed": false
+    },
+    {
+     "tag": "practice:torat_ha_tsaddik",
+     "scope": "span",
+     "quotes": [
+      "שיש בעוה״ז נשמה והיא גדולה מנשמת מרן האר\"י"
+     ],
+     "confidence": 2,
+     "why": "rank of tzaddik souls and the coming soul that will repair",
+     "quotes_failed": false
+    },
+    {
+     "tag": "social:inter_hasidic_master_disciple_relationship",
+     "scope": "span",
+     "quotes": [
+      "אמר מו״ר דודי רבינו צבי הקדוש"
+     ],
+     "confidence": 1,
+     "why": "teachings transmitted from the author's masters",
+     "quotes_failed": false
+    },
+    {
+     "tag": "characters-and-roles:the_family_of_the_tsaddik",
+     "scope": "span",
+     "quotes": [
+      "אמר מו״ר דודי רבינו צבי הקדוש"
+     ],
+     "confidence": 1,
+     "why": "R. Zvi is the author's uncle",
+     "quotes_failed": false
+    }
+   ],
+   "missing_concepts": [
+    "hierarchy and greatness of souls (a soul greater than the Ari's and the Besht's)",
+    "the author's implied self-identification with that soul",
+    "deliberately censored or abbreviated text (וכו')"
+   ],
+   "start_quote_found": true,
+   "end_quote_found": true
+  }
+ ],
+ "check": {
+  "non_vocab_tags": [],
+  "quotes": 7,
+  "quotes_not_found": 0
+ },
+ "id": "Eser-Kedushot_0179",
+ "chars": 601,
+ "seconds": 18
+}

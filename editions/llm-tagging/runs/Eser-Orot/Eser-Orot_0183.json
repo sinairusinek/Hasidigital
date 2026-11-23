@@ -1,0 +1,120 @@
+{
+ "unit": {
+  "kind": "hasidic_story",
+  "why": "A short narrative: the Seer of Lublin, reading the kvittel of the child R. Asher Yeshaya of Ropshitz, called him 'a nice little Passover sacrifice'; the meaning became clear only when he died on Passover eve 1845.",
+  "boundary_note": ""
+ },
+ "stories": [
+  {
+   "k": 1,
+   "start_quote": "וככה הי' גם עם מחו׳ הרה\"ק",
+   "end_quote": "הרבי מלובלין בעודו עול ימים",
+   "hasidic": true,
+   "summary_en": "When R. Asher Yeshaya of Ropshitz was a child, the Seer of Lublin read his kvittel and called him 'a nice little Passover offering'. This was understood only in retrospect, when he died on the eve of Passover 1845.",
+   "tags": [
+    {
+     "tag": "supernatural:prognostication",
+     "scope": "span",
+     "quotes": [
+      "אמר עליו א שיין קרבן פסחיל"
+     ],
+     "confidence": 3,
+     "why": "The Seer's remark foretold the day of his death.",
+     "quotes_failed": false
+    },
+    {
+     "tag": "folkloristics:story_type_prognostication",
+     "scope": "story",
+     "quotes": [],
+     "confidence": 3,
+     "why": "The story's whole arc is a prediction that comes true.",
+     "quotes_failed": false
+    },
+    {
+     "tag": "social:retrospective_recognition",
+     "scope": "span",
+     "quotes": [
+      "אז ראו למפרע את אשר חזו עיני קודש"
+     ],
+     "confidence": 3,
+     "why": "The meaning of the remark was understood only later.",
+     "quotes_failed": false
+    },
+    {
+     "tag": "supernatural:perception",
+     "scope": "span",
+     "quotes": [
+      "אשר חזו עיני קודש הרבי מלובלין"
+     ],
+     "confidence": 2,
+     "why": "The Seer foresaw the future through holy insight.",
+     "quotes_failed": false
+    },
+    {
+     "tag": "times:death",
+     "scope": "span",
+     "quotes": [
+      "עד יום פטירת האי סבא קדישא"
+     ],
+     "confidence": 3,
+     "why": "The tzaddik's death is the event that fulfils the prediction.",
+     "quotes_failed": false
+    },
+    {
+     "tag": "times:holidays",
+     "scope": "span",
+     "quotes": [
+      "שהי' בערב פסח בשנת תר\"ה"
+     ],
+     "confidence": 2,
+     "why": "The death falls on Passover eve, which gives the remark its meaning.",
+     "quotes_failed": false
+    },
+    {
+     "tag": "practice:reception_of_hasidim",
+     "scope": "span",
+     "quotes": [
+      "וקרא הרב מלובלין הפתקא משמו"
+     ],
+     "confidence": 2,
+     "why": "The Seer reads the child's kvittel, as at an audience.",
+     "quotes_failed": false
+    },
+    {
+     "tag": "characters-and-roles:the_family_of_the_tsaddik",
+     "scope": "span",
+     "quotes": [
+      "אשר מילא מקום חותנו רבינו הקדוש"
+     ],
+     "confidence": 1,
+     "why": "He is presented as the son-in-law and successor of R. Naftali of Ropshitz, and as a relative of the narrator.",
+     "quotes_failed": false
+    },
+    {
+     "tag": "social:inter_hasidic_inheritance_of_leadership",
+     "scope": "span",
+     "quotes": [
+      "אשר מילא מקום חותנו רבינו הקדוש מו\"ה נפתלי צבי"
+     ],
+     "confidence": 1,
+     "why": "His succession to his father-in-law is mentioned only in passing.",
+     "quotes_failed": false
+    }
+   ],
+   "missing_concepts": [
+    "kvittel (petition note) read by the tzaddik",
+    "childhood of a tzaddik"
+   ],
+   "start_quote_found": true,
+   "end_quote_found": true
+  }
+ ],
+ "check": {
+  "non_vocab_tags": [],
+  "quotes": 8,
+  "quotes_not_found": 0
+ },
+ "id": "Eser-Orot_0183",
+ "chars": 367,
+ "seconds": 12
+}

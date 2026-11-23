@@ -1,0 +1,168 @@
+{
+ "unit": {
+  "kind": "hasidic_story",
+  "why": "A single tale: the master, on a Sabbath visit to Zelichów, angrily rebukes R. Reuven, then explains that he sensed sins in the mikveh guest-room, which is later confirmed.",
+  "boundary_note": ""
+ },
+ "stories": [
+  {
+   "k": 1,
+   "start_quote": "שמעתי מחסיד המפורסם הנ\"ל, אשר פ\"א",
+   "end_quote": "שכן היה ממש כמו שאמר מרן ז״ל",
+   "hasidic": true,
+   "summary_en": "Invited to spend Shabbat in Zelichów, the master grows angry at R. Reuven after Havdalah. The next day he explains that in the mikveh he had sensed nightly lewdness by wicked youths in the adjacent guest-room and orders corrective ordinances, which is later proven true.",
+   "tags": [
+    {
+     "tag": "practice:the_travels_of_the_tsaddik",
+     "scope": "span",
+     "quotes": [
+      "לבקשו שיבא אל עירם לשבות אצלם בש״ק"
+     ],
+     "confidence": 3,
+     "why": "the tsaddik travels to Zelichów and the story happens during his stay",
+     "quotes_failed": false
+    },
+    {
+     "tag": "times:shabbat",
+     "scope": "span",
+     "quotes": [
+      "ובמוצאי ש״ק תיכף אחר הבדלה"
+     ],
+     "confidence": 3,
+     "why": "Shabbat visit; the scene takes place on Motzaei Shabbat",
+     "quotes_failed": false
+    },
+    {
+     "tag": "ethics-and-emotions:anger",
+     "scope": "span",
+     "quotes": [
+      "והתחיל לכעוס עליו",
+      "וכהנה וכהנה דיבר בכעס גדול"
+     ],
+     "confidence": 3,
+     "why": "the tsaddik's anger is the central puzzle of the story",
+     "quotes_failed": false
+    },
+    {
+     "tag": "supernatural:perception",
+     "scope": "span",
+     "quotes": [
+      "כשהייתי במקוה הרגשתי שמה",
+      "אשר היה רואה ברוח קדשו"
+     ],
+     "confidence": 3,
+     "why": "he senses sins committed in the mikveh guest-room",
+     "quotes_failed": false
+    },
+    {
+     "tag": "spaces:mikveh",
+     "scope": "span",
+     "quotes": [
+      "קודם התפלה כשהייתי במקוה"
+     ],
+     "confidence": 3,
+     "why": "the perception happens in the mikveh",
+     "quotes_failed": false
+    },
+    {
+     "tag": "practice:tvilah",
+     "scope": "span",
+     "quotes": [
+      "בבקר קודם התפלה כשהייתי במקוה"
+     ],
+     "confidence": 2,
+     "why": "he immerses before morning prayer",
+     "quotes_failed": false
+    },
+    {
+     "tag": "ethics-and-emotions:lust",
+     "scope": "span",
+     "quotes": [
+      "הבאים שמה בכל לילה לעשות זימה"
+     ],
+     "confidence": 3,
+     "why": "nightly lewdness by local youths",
+     "quotes_failed": false
+    },
+    {
+     "tag": "social:relations_with_sinners",
+     "scope": "span",
+     "quotes": [
+      "עבירות חמורות מנערי רשעי עיר",
+      "וצוה עליו לעשות איזה תקנות"
+     ],
+     "confidence": 3,
+     "why": "the tsaddik acts against the sinful youths",
+     "quotes_failed": false
+    },
+    {
+     "tag": "ethics-and-emotions:prohibitions",
+     "scope": "span",
+     "quotes": [
+      "יש בכל לילה עבירות חמורות"
+     ],
+     "confidence": 2,
+     "why": "serious transgressions and ordinances to prevent them",
+     "quotes_failed": false
+    },
+    {
+     "tag": "social:retrospective_recognition",
+     "scope": "span",
+     "quotes": [
+      "ואמר לו עתה אודיע לך מה שכעסתי",
+      "לאחר איזה זמן נתגלה הקלון ונתפרסם"
+     ],
+     "confidence": 3,
+     "why": "the hidden meaning of the anger is revealed afterwards and confirmed",
+     "quotes_failed": false
+    },
+    {
+     "tag": "practice:torat_ha_tsaddik",
+     "scope": "span",
+     "quotes": [
+      "שהיה מסיר בזה הדינים",
+      "כי כל דברי המה דברי א״ח דברי מרן"
+     ],
+     "confidence": 2,
+     "why": "his anger sweetens judgments; the hasid acts as the tsaddik's mouthpiece",
+     "quotes_failed": false
+    },
+    {
+     "tag": "social:inter_hasidic_master_disciple_relationship",
+     "scope": "span",
+     "quotes": [
+      "והוא היה עומד ושותק, כי היה נודע דרכו"
+     ],
+     "confidence": 2,
+     "why": "R. Reuven silently obeys and carries out the master's instructions",
+     "quotes_failed": false
+    },
+    {
+     "tag": "practice:prayer",
+     "scope": "span",
+     "quotes": [
+      "בבקר קודם התפלה"
+     ],
+     "confidence": 1,
+     "why": "prayer is mentioned only as a time marker",
+     "quotes_failed": false
+    }
+   ],
+   "missing_concepts": [
+    "anger of the tsaddik as a means of sweetening judgments (המתקת דינים)",
+    "communal ordinances (תקנות) imposed at the tsaddik's command",
+    "secrecy of the tsaddik's instructions transmitted through a hasid"
+   ],
+   "start_quote_found": true,
+   "end_quote_found": true
+  }
+ ],
+ "check": {
+  "non_vocab_tags": [],
+  "quotes": 18,
+  "quotes_not_found": 0
+ },
+ "id": "Toldot-Haniflaot_0042",
+ "chars": 1293,
+ "seconds": 17
+}

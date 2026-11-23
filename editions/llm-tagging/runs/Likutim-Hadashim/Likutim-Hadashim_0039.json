@@ -1,0 +1,126 @@
+{
+ "unit": {
+  "kind": "hasidic_story",
+  "why": "A single anecdote: the Maggid of Dubno's audience leaves his sermon to greet the Seer of Lublin, and the Seer explains why people give him pidyon money and not the Maggid.",
+  "boundary_note": ""
+ },
+ "stories": [
+  {
+   "k": 1,
+   "start_quote": "שמעתי שבעיר אחת היה המגיד מדובנא",
+   "end_quote": "אינם רוצים ליתן לכם את המעות",
+   "hasidic": true,
+   "summary_en": "When the Seer of Lublin arrives in a town where the Maggid of Dubno is preaching, everyone leaves the sermon to greet him. The Maggid asks why the Seer's table is full of pidyon money while he has received none. The Seer answers that a person awakens his own feelings in others: he hates money, so people come to hate it and give it to him, while the Maggid loves money, so people want to keep theirs.",
+   "tags": [
+    {
+     "tag": "characters-and-roles:preacher",
+     "scope": "span",
+     "quotes": [
+      "היה המגיד מדובנא והיה דורש איזה ימים"
+     ],
+     "confidence": 3,
+     "why": "The Maggid of Dubno is a distinct preacher character.",
+     "quotes_failed": false
+    },
+    {
+     "tag": "practice:sermon",
+     "scope": "span",
+     "quotes": [
+      "ובתוך הדרשה שמעו שבא הרבי זצ״ל מלובלין"
+     ],
+     "confidence": 2,
+     "why": "The Maggid delivers sermons; the sermon is the setting.",
+     "quotes_failed": false
+    },
+    {
+     "tag": "practice:pidyon_nefesh",
+     "scope": "span",
+     "quotes": [
+      "השלחן מלא מעות מפדיונות שנתנו להרבי זצ״ל"
+     ],
+     "confidence": 2,
+     "why": "Pidyon payments to the tzaddik are central to the story.",
+     "quotes_failed": false
+    },
+    {
+     "tag": "practice:reception_of_hasidim",
+     "scope": "span",
+     "quotes": [
+      "והלכו ליתן שלום להרבי זצ״ל"
+     ],
+     "confidence": 2,
+     "why": "The townspeople come to greet the visiting rebbe.",
+     "quotes_failed": false
+    },
+    {
+     "tag": "practice:the_travels_of_the_tsaddik",
+     "scope": "span",
+     "quotes": [
+      "שבא הרבי זצ״ל מלובלין להעיר הנ״ל"
+     ],
+     "confidence": 2,
+     "why": "The Seer's visit to the town frames the episode.",
+     "quotes_failed": false
+    },
+    {
+     "tag": "social:competition",
+     "scope": "story",
+     "quotes": [],
+     "confidence": 2,
+     "why": "The preacher and the tzaddik implicitly compete for the public's attention and money.",
+     "quotes_failed": false
+    },
+    {
+     "tag": "social:poverty",
+     "scope": "span",
+     "quotes": [
+      "ואני באמת אני שונא המעות"
+     ],
+     "confidence": 2,
+     "why": "The tzaddik's hatred of money is presented as a virtue.",
+     "quotes_failed": false
+    },
+    {
+     "tag": "folkloristics:story_type_virtues",
+     "scope": "story",
+     "quotes": [],
+     "confidence": 2,
+     "why": "The story illustrates the tzaddik's indifference to wealth.",
+     "quotes_failed": false
+    },
+    {
+     "tag": "practice:torat_ha_tsaddik",
+     "scope": "span",
+     "quotes": [
+      "מה שבכל אחד בלבו מביא ג״כ להאתר שיהא זה בלבו"
+     ],
+     "confidence": 1,
+     "why": "The tzaddik's inner state influences others.",
+     "quotes_failed": false
+    },
+    {
+     "tag": "ethics-and-emotions:virtues",
+     "scope": "story",
+     "quotes": [],
+     "confidence": 2,
+     "why": "The story contrasts the virtue of hating money with the vice of loving it.",
+     "quotes_failed": false
+    }
+   ],
+   "missing_concepts": [
+    "love of money / greed",
+    "spiritual influence of a person's inner state on others"
+   ],
+   "start_quote_found": true,
+   "end_quote_found": true
+  }
+ ],
+ "check": {
+  "non_vocab_tags": [],
+  "quotes": 7,
+  "quotes_not_found": 0
+ },
+ "id": "Likutim-Hadashim_0039",
+ "chars": 620,
+ "seconds": 13
+}

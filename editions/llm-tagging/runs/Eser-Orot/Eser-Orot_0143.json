@@ -1,0 +1,92 @@
+{
+ "unit": {
+  "kind": "hasidic_story",
+  "why": "A reported anecdote, told by R. David of Charsel, about the Maggid's custom of singing in vernacular (Slavic) languages, with one Purim occasion on which he sang and gave an interpretation of the song.",
+  "boundary_note": ""
+ },
+ "stories": [
+  {
+   "k": 1,
+   "start_quote": "הה״ג מו\"ה דוד אבד״ק חארזיל סיפר לי",
+   "end_quote": "ועוד כהנה בנגונים מפליאים",
+   "hasidic": true,
+   "summary_en": "R. David of Charsel relates that the Maggid used to sing in Slavic languages, and on Purim sang a song linking Purim to the 'night of watching', then after the rejoicing interpreted another vernacular song as being about nullifying the body's powers ('the shirt is the body').",
+   "tags": [
+    {
+     "tag": "practice:music",
+     "scope": "span",
+     "quotes": [
+      "היה דרכו של המגיד לזמר בלשון העמים",
+      "ועוד כהנה בנגונים מפליאים"
+     ],
+     "confidence": 3,
+     "why": "The Maggid singing songs is the subject",
+     "quotes_failed": false
+    },
+    {
+     "tag": "times:holidays",
+     "scope": "span",
+     "quotes": [
+      "ואחד מהם אמר בפורים"
+     ],
+     "confidence": 3,
+     "why": "The scene takes place on Purim",
+     "quotes_failed": false
+    },
+    {
+     "tag": "ethics-and-emotions:joy",
+     "scope": "span",
+     "quotes": [
+      "ואחר השמחה ששמחו אז"
+     ],
+     "confidence": 3,
+     "why": "Purim rejoicing is depicted",
+     "quotes_failed": false
+    },
+    {
+     "tag": "practice:sermon",
+     "scope": "span",
+     "quotes": [
+      "שיהי' בהתבטלות כחות הגוף",
+      "הכתונת היא הגוף"
+     ],
+     "confidence": 2,
+     "why": "He gives a homiletic interpretation of the vernacular song",
+     "quotes_failed": false
+    },
+    {
+     "tag": "practice:storytelling",
+     "scope": "span",
+     "quotes": [
+      "מו\"ה דוד אבד״ק חארזיל סיפר לי"
+     ],
+     "confidence": 1,
+     "why": "The anecdote is explicitly framed as told by a named rabbi to the author",
+     "quotes_failed": false
+    },
+    {
+     "tag": "folkloristics:story_type_virtues",
+     "scope": "story",
+     "quotes": [],
+     "confidence": 1,
+     "why": "Praises the Maggid's spiritual use of vernacular melodies",
+     "quotes_failed": false
+    }
+   ],
+   "missing_concepts": [
+    "use of non-Jewish (Slavic/Polish) folk songs and languages in hasidic devotion",
+    "spiritual reinterpretation (sanctification) of secular songs"
+   ],
+   "start_quote_found": true,
+   "end_quote_found": true
+  }
+ ],
+ "check": {
+  "non_vocab_tags": [],
+  "quotes": 7,
+  "quotes_not_found": 0
+ },
+ "id": "Eser-Orot_0143",
+ "chars": 317,
+ "seconds": 13
+}

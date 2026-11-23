@@ -1,0 +1,173 @@
+{
+ "unit": {
+  "kind": "hasidic_story",
+  "why": "A single narrative: R. Zvi Elimelekh of Dinov hears his master's report of a heavenly proclamation and rushes to Kozienice to see the Maggid's face.",
+  "boundary_note": ""
+ },
+ "stories": [
+  {
+   "k": 1,
+   "start_quote": "עוד במכתב הנ\"ל וזה\"ל סיפר לי",
+   "end_quote": "ואמר בראיה בעלמא קני עכ״ל",
+   "hasidic": true,
+   "summary_en": "At the third Sabbath meal, R. Menahem Mendel of Rymanów reports a heavenly proclamation that whoever lives in the Maggid of Kozienice's generation and does not see him will not see the Messiah. His disciple R. Zvi Elimelekh of Dinov sets out at once, travels without rest straight to the Maggid's room, and strains over the crowd to see him. The Maggid lifts his head and says that mere seeing acquires it.",
+   "tags": [
+    {
+     "tag": "practice:travel_to_other_tsaddik",
+     "scope": "story",
+     "quotes": [],
+     "confidence": 3,
+     "why": "The disciple of the Rymanów rebbe leaves him to see the Maggid of Kozienice.",
+     "quotes_failed": false
+    },
+    {
+     "tag": "practice:travel_to_the_tsaddik",
+     "scope": "span",
+     "quotes": [
+      "ולקח מקלו בידו ותרמילו על כתפו לילך לקאזניץ"
+     ],
+     "confidence": 3,
+     "why": "He journeys to the Maggid's court.",
+     "quotes_failed": false
+    },
+    {
+     "tag": "characters-and-roles:messiah",
+     "scope": "span",
+     "quotes": [
+      "לא יזכה לראות פני משיח",
+      "פן ואולי יבא משיח"
+     ],
+     "confidence": 3,
+     "why": "Expectation of the Messiah's imminent coming drives the plot.",
+     "quotes_failed": false
+    },
+    {
+     "tag": "times:eschatology",
+     "scope": "span",
+     "quotes": [
+      "כי פן ואולי יבא משיח"
+     ],
+     "confidence": 2,
+     "why": "Imminent messianic arrival is the motive.",
+     "quotes_failed": false
+    },
+    {
+     "tag": "supernatural:communicating_with_the_invisible",
+     "scope": "span",
+     "quotes": [
+      "ששמע כרוז בשמים בשמים"
+     ],
+     "confidence": 3,
+     "why": "The Rymanów rebbe hears a heavenly proclamation.",
+     "quotes_failed": false
+    },
+    {
+     "tag": "supernatural:perception",
+     "scope": "span",
+     "quotes": [
+      "הגביה המגיד ראשו ואמר בראיה בעלמא קני"
+     ],
+     "confidence": 2,
+     "why": "The Maggid responds to the disciple's unspoken purpose.",
+     "quotes_failed": false
+    },
+    {
+     "tag": "times:shabbat",
+     "scope": "span",
+     "quotes": [
+      "שפעם אחת בסעודה שלישית הגיד"
+     ],
+     "confidence": 2,
+     "why": "The proclamation is reported at the third Sabbath meal.",
+     "quotes_failed": false
+    },
+    {
+     "tag": "social:inter_hasidic_master_disciple_relationship",
+     "scope": "span",
+     "quotes": [
+      "שבעת הסתופפו בצל הגאוה״ק רבינו מנחם מענדיל",
+      "קיבל פרידת שלום מאת רבו הק׳"
+     ],
+     "confidence": 2,
+     "why": "The disciple takes leave of his master to act on his words.",
+     "quotes_failed": false
+    },
+    {
+     "tag": "practice:reception_of_hasidim",
+     "scope": "span",
+     "quotes": [
+      "עמדו סביב מיטתו אשר הי' שוכב שמה הרבה אנשים ונשים"
+     ],
+     "confidence": 2,
+     "why": "The Maggid receives petitioners at his bedside, and the visitor gains his recognition.",
+     "quotes_failed": false
+    },
+    {
+     "tag": "spaces:beth_midrash",
+     "scope": "span",
+     "quotes": [
+      "לביהמ\"ד של המגיד במקלו בידו"
+     ],
+     "confidence": 2,
+     "why": "He goes straight to the Maggid's study hall.",
+     "quotes_failed": false
+    },
+    {
+     "tag": "practice:storytelling",
+     "scope": "span",
+     "quotes": [
+      "ששמע בעצמו מפי הגאוה״ק ר׳ צבי אלימלך מדינוב"
+     ],
+     "confidence": 1,
+     "why": "The story is framed as an oral transmission chain within a letter.",
+     "quotes_failed": false
+    },
+    {
+     "tag": "practice:torat_ha_tsaddik",
+     "scope": "span",
+     "quotes": [
+      "בראיה בעלמא קני"
+     ],
+     "confidence": 2,
+     "why": "Merely seeing the tzaddik's face carries spiritual value.",
+     "quotes_failed": false
+    },
+    {
+     "tag": "ethics-and-emotions:fear",
+     "scope": "span",
+     "quotes": [
+      "כי ירא פן יתמהמה בהליכתו לאכסניא"
+     ],
+     "confidence": 2,
+     "why": "His anxiety about delay drives his haste.",
+     "quotes_failed": false
+    },
+    {
+     "tag": "women:mention_only",
+     "scope": "span",
+     "quotes": [
+      "הרבה אנשים ונשים"
+     ],
+     "confidence": 2,
+     "why": "Women are mentioned in the crowd but do not act.",
+     "quotes_failed": false
+    }
+   ],
+   "missing_concepts": [
+    "seeing the face of the tzaddik (re'iyat panim) as spiritual acquisition",
+    "self-sacrifice (mesirut nefesh) in haste to reach a tzaddik",
+    "chain-of-transmission framing via a letter"
+   ],
+   "start_quote_found": true,
+   "end_quote_found": true
+  }
+ ],
+ "check": {
+  "non_vocab_tags": [],
+  "quotes": 15,
+  "quotes_not_found": 0
+ },
+ "id": "Eser-Orot_0118",
+ "chars": 1356,
+ "seconds": 19
+}

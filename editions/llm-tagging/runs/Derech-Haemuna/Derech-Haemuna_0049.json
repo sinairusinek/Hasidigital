@@ -1,0 +1,129 @@
+{
+ "unit": {
+  "kind": "non_hasidic_story",
+  "why": "A single anecdote about the pre-Hasidic kabbalist R. Shimshon of Ostropol testing R. Heschel (of Kraków), passed down through family transmission.",
+  "boundary_note": ""
+ },
+ "stories": [
+  {
+   "k": 1,
+   "start_quote": "שמעתי משארינו הג׳ המנוח מוה׳ יוסף שאול",
+   "end_quote": "והם נכדי הר״ר העשיל הנ\"ל",
+   "hasidic": false,
+   "summary_en": "It was revealed to the kabbalist R. Shimshon of Ostropol that he would share R. Heschel's portion in Paradise, so he disguised himself as a sick stranger to test him; R. Heschel bore it patiently, and at night Shimshon heard his weeping and trembling at Tikkun Hatzot and then revealed himself.",
+   "tags": [
+    {
+     "tag": "not-a-hasidic-story:hagiography",
+     "scope": "story",
+     "quotes": [],
+     "confidence": 3,
+     "why": "Praises pre-Hasidic rabbinic and kabbalist figures (R. Heschel, R. Shimshon of Ostropol)",
+     "quotes_failed": false
+    },
+    {
+     "tag": "experience:revelation",
+     "scope": "span",
+     "quotes": [
+      "להמקובל ר״ש מאוסטריפאלי נתגלה שיהיה חלקו בחד"
+     ],
+     "confidence": 3,
+     "why": "His shared portion in Gan Eden is disclosed to him",
+     "quotes_failed": false
+    },
+    {
+     "tag": "times:eschatology",
+     "scope": "span",
+     "quotes": [
+      "שיהיה חלקו בחד עם זקינינו הרב ר׳ העשיל בג״ע"
+     ],
+     "confidence": 2,
+     "why": "Concerns their portion in the world to come",
+     "quotes_failed": false
+    },
+    {
+     "tag": "ethics-and-emotions:lying",
+     "scope": "span",
+     "quotes": [
+      "והתחפש עצמו לעשות זר מעשהו"
+     ],
+     "confidence": 2,
+     "why": "He uses a disguise to deceive R. Heschel",
+     "quotes_failed": false
+    },
+    {
+     "tag": "experience:trembling",
+     "scope": "span",
+     "quotes": [
+      "גודל הבכיות ורעידת עצמותיו בתיקון החצות"
+     ],
+     "confidence": 3,
+     "why": "R. Heschel's bones tremble during his midnight devotion",
+     "quotes_failed": false
+    },
+    {
+     "tag": "practice:prayer",
+     "scope": "span",
+     "quotes": [
+      "ורעידת עצמותיו בתיקון החצות"
+     ],
+     "confidence": 2,
+     "why": "Tikkun Hatzot (the midnight lament) is depicted",
+     "quotes_failed": false
+    },
+    {
+     "tag": "ethics-and-emotions:virtues",
+     "scope": "span",
+     "quotes": [
+      "והר״ר העשיל לא הקפיד ע״ז"
+     ],
+     "confidence": 2,
+     "why": "R. Heschel's forbearance and hospitality toward the stranger",
+     "quotes_failed": false
+    },
+    {
+     "tag": "folkloristics:story_type_virtues",
+     "scope": "story",
+     "quotes": [],
+     "confidence": 2,
+     "why": "The tale illustrates R. Heschel's patience and piety",
+     "quotes_failed": false
+    },
+    {
+     "tag": "social:retrospective_recognition",
+     "scope": "span",
+     "quotes": [
+      "אז התגלה עצמו אליו עכ״ל"
+     ],
+     "confidence": 2,
+     "why": "The stranger turns out to be the kabbalist",
+     "quotes_failed": false
+    },
+    {
+     "tag": "characters-and-roles:baal_shem",
+     "scope": "span",
+     "quotes": [
+      "להמקובל ר״ש מאוסטריפאלי נתגלה"
+     ],
+     "confidence": 1,
+     "why": "A pre-Hasidic kabbalist figure, though not explicitly called a baal shem",
+     "quotes_failed": false
+    }
+   ],
+   "missing_concepts": [
+    "testing a sage's character",
+    "Tikkun Hatzot (midnight lament) specifically",
+    "family chain of oral transmission"
+   ],
+   "start_quote_found": true,
+   "end_quote_found": true
+  }
+ ],
+ "check": {
+  "non_vocab_tags": [],
+  "quotes": 8,
+  "quotes_not_found": 0
+ },
+ "id": "Derech-Haemuna_0049",
+ "chars": 505,
+ "seconds": 18
+}

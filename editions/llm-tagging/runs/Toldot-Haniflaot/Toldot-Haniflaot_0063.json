@@ -1,0 +1,113 @@
+{
+ "unit": {
+  "kind": "hasidic_story",
+  "why": "A short memorate: the narrator saw a letter from R. Feivel of Gritza to the Nadarzhin rebbe, which the rebbe explained by telling how he had foreseen and sweetened the harsh judgments hanging over the ailing Warka rebbe.",
+  "boundary_note": ""
+ },
+ "stories": [
+  {
+   "k": 1,
+   "start_quote": "סח ראיתי אגרת מהה\"ג הצדיק ר׳ פייבל",
+   "end_quote": "היה מונח בידי כמה שנים ונאבד ממני",
+   "hasidic": true,
+   "summary_en": "A letter from R. Feivel of Gritza to the Nadarzhin rebbe, written during the grave illness of the Warka rebbe, is explained by the Nadarzhin rebbe to his son-in-law: three years earlier he had seen harsh judgments resting on the Warka rebbe, and he had sweetened them from afar.",
+   "tags": [
+    {
+     "tag": "supernatural:perception",
+     "scope": "span",
+     "quotes": [
+      "כי אני רואה ששורה דינים על ההק' מווארקא"
+     ],
+     "confidence": 3,
+     "why": "He perceives the heavenly judgments resting on another tzaddik.",
+     "quotes_failed": false
+    },
+    {
+     "tag": "supernatural:prognostication",
+     "scope": "span",
+     "quotes": [
+      "והיה רואה ב׳ שנים קודם את חוליו בנאדרזין"
+     ],
+     "confidence": 2,
+     "why": "He foresaw the illness two years before it came.",
+     "quotes_failed": false
+    },
+    {
+     "tag": "practice:pidyon_nefesh",
+     "scope": "span",
+     "quotes": [
+      "והמתיק הדינים ממנו",
+      "מעורר רחמים עליו"
+     ],
+     "confidence": 2,
+     "why": "He intervenes to sweeten a heavenly decree hanging over a person.",
+     "quotes_failed": false
+    },
+    {
+     "tag": "practice:torat_ha_tsaddik",
+     "scope": "span",
+     "quotes": [
+      "מעורר רחמים עליו",
+      "והמתיק הדינים ממנו"
+     ],
+     "confidence": 2,
+     "why": "Shows the tzaddik's power to intercede on another's behalf.",
+     "quotes_failed": false
+    },
+    {
+     "tag": "practice:healing",
+     "scope": "span",
+     "quotes": [
+      "והיה נחלה בחולי גדול ר\"ל"
+     ],
+     "confidence": 1,
+     "why": "The intercession concerns a grave illness, though no bodily cure is narrated.",
+     "quotes_failed": false
+    },
+    {
+     "tag": "characters-and-roles:the_family_of_the_tsaddik",
+     "scope": "span",
+     "quotes": [
+      "והיה שואל חתנו הה״ג ר׳ אלחנן"
+     ],
+     "confidence": 2,
+     "why": "The rebbe's son-in-law asks him about the letter.",
+     "quotes_failed": false
+    },
+    {
+     "tag": "social:inter_hasidic",
+     "scope": "story",
+     "quotes": [],
+     "confidence": 2,
+     "why": "The story turns on dealings among three tzaddikim (Gritza, Nadarzhin, Warka).",
+     "quotes_failed": false
+    },
+    {
+     "tag": "social:retrospective_recognition",
+     "scope": "span",
+     "quotes": [
+      "ואמר לו מרן ז״ל כי זה שלש שנים"
+     ],
+     "confidence": 1,
+     "why": "The obscure phrase in the letter is understood only afterwards.",
+     "quotes_failed": false
+    }
+   ],
+   "missing_concepts": [
+    "sweetening of judgments (המתקת הדינים)",
+    "letter as a documentary witness",
+    "tzaddik's illness"
+   ],
+   "start_quote_found": true,
+   "end_quote_found": true
+  }
+ ],
+ "check": {
+  "non_vocab_tags": [],
+  "quotes": 9,
+  "quotes_not_found": 0
+ },
+ "id": "Toldot-Haniflaot_0063",
+ "chars": 468,
+ "seconds": 13
+}

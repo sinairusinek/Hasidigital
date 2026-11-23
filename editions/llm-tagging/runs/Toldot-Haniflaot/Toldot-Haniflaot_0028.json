@@ -1,0 +1,110 @@
+{
+ "unit": {
+  "kind": "hasidic_story",
+  "why": "A single anecdote: the narrator's master recalls being teased at his rebbe's table by the Besht's grandsons, and the rebbe defending him and seating him beside himself.",
+  "boundary_note": ""
+ },
+ "stories": [
+  {
+   "k": 1,
+   "start_quote": "שמעתי שמנו ז\"ל כ״פ איך שמורו",
+   "end_quote": "ממש, כך שמעתי ממנו כ״פ",
+   "hasidic": true,
+   "summary_en": "While Meir Yehiel sat at his master's table, distinguished grandsons of the Besht taunted him; the master declared aloud that he values not lineage, even from Moses, but only those who adorn the Creator, cried out that Meir Yehiel is 'in the innermost sanctum', and seated him right beside himself.",
+   "tags": [
+    {
+     "tag": "social:inter_hasidic_master_disciple_relationship",
+     "scope": "story",
+     "quotes": [],
+     "confidence": 3,
+     "why": "The story is about the master's high regard for his disciple and his public defense of him.",
+     "quotes_failed": false
+    },
+    {
+     "tag": "spaces:institutions_hassidic_court",
+     "scope": "span",
+     "quotes": [
+      "הי׳ יושב בשלחן מורו ז״ל"
+     ],
+     "confidence": 2,
+     "why": "The scene takes place at the rebbe's table, in his court.",
+     "quotes_failed": false
+    },
+    {
+     "tag": "social:inter_hasidic",
+     "scope": "span",
+     "quotes": [
+      "אנשים מכובדים נכדי הבעש״ט ז\"ל, והיו מקניטים אותו"
+     ],
+     "confidence": 2,
+     "why": "Friction between the disciple and other hasidim of lineage at the table.",
+     "quotes_failed": false
+    },
+    {
+     "tag": "social:conflict",
+     "scope": "span",
+     "quotes": [
+      "והיו מקניטים אותו בדבר מה"
+     ],
+     "confidence": 2,
+     "why": "The Besht's grandsons provoke the disciple.",
+     "quotes_failed": false
+    },
+    {
+     "tag": "ethics-and-emotions:shame",
+     "scope": "span",
+     "quotes": [
+      "והיו מקניטים אותו בדבר מה"
+     ],
+     "confidence": 1,
+     "why": "The disciple is taunted in public, and his master in turn rebukes the taunters.",
+     "quotes_failed": false
+    },
+    {
+     "tag": "ethics-and-emotions:pride",
+     "scope": "span",
+     "quotes": [
+      "אין אני מסתכל ביחוס נכדי הבעש״ט"
+     ],
+     "confidence": 2,
+     "why": "The master rejects pride in lineage.",
+     "quotes_failed": false
+    },
+    {
+     "tag": "ethics-and-emotions:virtues",
+     "scope": "span",
+     "quotes": [
+      "רק במי שעושה קישוטין נאים לבורא עולם"
+     ],
+     "confidence": 2,
+     "why": "The master values service of God over lineage.",
+     "quotes_failed": false
+    },
+    {
+     "tag": "practice:storytelling",
+     "scope": "span",
+     "quotes": [
+      "ושמעתי ממנו ז״ל שסיפר כי פ״א"
+     ],
+     "confidence": 2,
+     "why": "The narrator frames the anecdote as one his master told him repeatedly.",
+     "quotes_failed": false
+    }
+   ],
+   "missing_concepts": [
+    "yichus (lineage) versus personal merit",
+    "the Besht's descendants as characters"
+   ],
+   "start_quote_found": true,
+   "end_quote_found": true
+  }
+ ],
+ "check": {
+  "non_vocab_tags": [],
+  "quotes": 7,
+  "quotes_not_found": 0
+ },
+ "id": "Toldot-Haniflaot_0028",
+ "chars": 455,
+ "seconds": 16
+}

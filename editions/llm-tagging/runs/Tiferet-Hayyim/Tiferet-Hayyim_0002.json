@@ -1,0 +1,98 @@
+{
+ "unit": {
+  "kind": "saying_or_teaching",
+  "why": "The division is a chain of homiletic teachings on Vayigash and Vayechi from several tsaddikim. One teaching contains a brief first-person anecdote in which the speaker's father rebukes him for being sad.",
+  "boundary_note": "Division begins with a footnote (*) on 'ועתה אל תעצבו'; the passage beginning 'שת ויגש לעשות תיקון משיח' continues the previous division's homily."
+ },
+ "stories": [
+  {
+   "k": 1,
+   "start_quote": "ופ״א ראה אותי א״מ ז״ל שהייתי בעצבות",
+   "end_quote": "ולא תתחרט והוא מדה גרועה מאד",
+   "hasidic": true,
+   "summary_en": "The narrator's father, a tsaddik, finds him sad and rebukes him sharply. When the son asks why sadness is rebuked more than worse sins, the father explains that a person knows other sins are sins and regrets them, but never repents of sadness.",
+   "tags": [
+    {
+     "tag": "ethics-and-emotions:sadness",
+     "scope": "span",
+     "quotes": [
+      "שהייתי בעצבות והוכיח אותי מאד"
+     ],
+     "confidence": 3,
+     "why": "Sadness as a spiritual failing is the subject.",
+     "quotes_failed": false
+    },
+    {
+     "tag": "characters-and-roles:the_family_of_the_tsaddik",
+     "scope": "span",
+     "quotes": [
+      "ופ״א ראה אותי א״מ ז״ל"
+     ],
+     "confidence": 3,
+     "why": "The anecdote takes place between the tsaddik and his son.",
+     "quotes_failed": false
+    },
+    {
+     "tag": "ethics-and-emotions:repentance",
+     "scope": "span",
+     "quotes": [
+      "אבל ע״ז לא תעשה תשובה ולא תתחרט"
+     ],
+     "confidence": 2,
+     "why": "The lack of repentance for sadness is the father's point.",
+     "quotes_failed": false
+    },
+    {
+     "tag": "not-a-hasidic-story:sermon",
+     "scope": "story",
+     "quotes": [],
+     "confidence": 3,
+     "why": "The anecdote is embedded in a homily on 'ועתה אל תעצבו' about joy in repentance.",
+     "quotes_failed": false
+    },
+    {
+     "tag": "ethics-and-emotions:joy",
+     "scope": "span",
+     "quotes": [
+      "כי התשובה צ״ל בשמחה"
+     ],
+     "confidence": 2,
+     "why": "The framing teaching says repentance must be done in joy.",
+     "quotes_failed": false
+    },
+    {
+     "tag": "ethics-and-emotions:anger",
+     "scope": "span",
+     "quotes": [
+      "הוא בעצבות הוא בכעס על כל העולם"
+     ],
+     "confidence": 1,
+     "why": "The frame links sadness to anger.",
+     "quotes_failed": false
+    },
+    {
+     "tag": "ethics-and-emotions:virtues",
+     "scope": "story",
+     "quotes": [],
+     "confidence": 1,
+     "why": "The anecdote illustrates a moral teaching about traits.",
+     "quotes_failed": false
+    }
+   ],
+   "missing_concepts": [
+    "paternal rebuke / tochacha as moral education",
+    "distinguishing a broken heart from melancholy"
+   ],
+   "start_quote_found": true,
+   "end_quote_found": true
+  }
+ ],
+ "check": {
+  "non_vocab_tags": [],
+  "quotes": 5,
+  "quotes_not_found": 0
+ },
+ "id": "Tiferet-Hayyim_0002",
+ "chars": 3471,
+ "seconds": 18
+}

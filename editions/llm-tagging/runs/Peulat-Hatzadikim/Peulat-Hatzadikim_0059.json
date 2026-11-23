@@ -1,0 +1,168 @@
+{
+ "unit": {
+  "kind": "non_hasidic_story",
+  "why": "A Jewish folk legend: a tailor saves the Jews of a Muslim land by bringing the queen a gift and exposing a hostile bishop's false claim of flying to Muhammad's tomb. It has no Hasidic figures.",
+  "boundary_note": ""
+ },
+ "stories": [
+  {
+   "k": 1,
+   "start_quote": "מעשה מהחייט ומדי דברי במשטמת הישמעאלים",
+   "end_quote": "ונתקנו כל צנורות השפע עוד יוחד מלפנים",
+   "hasidic": false,
+   "summary_en": "When a bishop's incitement brings persecution on the Jews of a Muslim land, a tailor volunteers to bring the queen one of a pair of precious earrings. He tells her the other must be fetched from Muhammad's tomb, which the bishop claims to fly to yearly; this exposes the bishop's fraud, and the bishop repents and publicly reverses his preaching against the Jews.",
+   "tags": [
+    {
+     "tag": "social:relations_with_non_jews",
+     "scope": "story",
+     "quotes": [],
+     "confidence": 3,
+     "why": "The whole plot is Jews against Muslims and the bishop.",
+     "quotes_failed": false
+    },
+    {
+     "tag": "social:conflict",
+     "scope": "span",
+     "quotes": [
+      "ותהי משטמה גדולה על כל היהודים",
+      "והבישאף דרש ברבים כי היהודים מתועבים"
+     ],
+     "confidence": 3,
+     "why": "The bishop's incitement and the hatred that follows.",
+     "quotes_failed": false
+    },
+    {
+     "tag": "social:relations_with_the_authorities",
+     "scope": "span",
+     "quotes": [
+      "לעשות תשודה גבבדה עבור חמלבה",
+      "ותפקוד המלכה על הבישאף לאמר"
+     ],
+     "confidence": 3,
+     "why": "The Jews appeal to the queen.",
+     "quotes_failed": false
+    },
+    {
+     "tag": "women:major_character",
+     "scope": "span",
+     "quotes": [
+      "ונתפתה המלבה ותצו מהר לעשות מסך מבדיל",
+      "ותפקוד המלכה על הבישאף לאמר"
+     ],
+     "confidence": 3,
+     "why": "The queen acts decisively in the plot.",
+     "quotes_failed": false
+    },
+    {
+     "tag": "practice:fasting",
+     "scope": "span",
+     "quotes": [
+      "ויצומו ויבכו בבכי יליל תמרורים"
+     ],
+     "confidence": 3,
+     "why": "The community fasts during the persecution.",
+     "quotes_failed": false
+    },
+    {
+     "tag": "practice:recitation_of_psalms",
+     "scope": "span",
+     "quotes": [
+      "ויאמרו כל ספרי תחלים יום ויום בציבור"
+     ],
+     "confidence": 3,
+     "why": "The community recites Psalms daily.",
+     "quotes_failed": false
+    },
+    {
+     "tag": "practice:prayer",
+     "scope": "span",
+     "quotes": [
+      "זעקו אל אל אדון למושעות",
+      "ועסקו רק בתורה ותפלה"
+     ],
+     "confidence": 2,
+     "why": "The community prays in its distress.",
+     "quotes_failed": false
+    },
+    {
+     "tag": "spaces:beth_midrash",
+     "scope": "span",
+     "quotes": [
+      "נקבצו ובאו כולם אל בתי בנסיות ובתי מדרשות"
+     ],
+     "confidence": 2,
+     "why": "The Jews gather in study halls.",
+     "quotes_failed": false
+    },
+    {
+     "tag": "ethics-and-emotions:fear",
+     "scope": "span",
+     "quotes": [
+      "כי כל אחד היה פחד וירא לנפשו"
+     ],
+     "confidence": 3,
+     "why": "No one dares carry the gift.",
+     "quotes_failed": false
+    },
+    {
+     "tag": "ethics-and-emotions:lying",
+     "scope": "span",
+     "quotes": [
+      "כי אך מאורים מתעים המה לעיני הגוים",
+      "ולא אמת הדבר כי איך ארא"
+     ],
+     "confidence": 3,
+     "why": "The bishop's claimed flight is a deception.",
+     "quotes_failed": false
+    },
+    {
+     "tag": "ethics-and-emotions:repentance",
+     "scope": "span",
+     "quotes": [
+      "וישיב הבישאף אמנם חטאתי והעויתי"
+     ],
+     "confidence": 2,
+     "why": "The bishop admits his sin and reverses course.",
+     "quotes_failed": false
+    },
+    {
+     "tag": "social:retrospective_recognition",
+     "scope": "span",
+     "quotes": [
+      "כי אלקיכם הוא האלקים האדיר המציל את ישראל"
+     ],
+     "confidence": 2,
+     "why": "The bishop comes to recognize the God of Israel's protection.",
+     "quotes_failed": false
+    },
+    {
+     "tag": "practice:sermon",
+     "scope": "span",
+     "quotes": [
+      "ידרוש הבישאף לפניהם בדברי מרודות"
+     ],
+     "confidence": 1,
+     "why": "The bishop's annual sermon frames the climax.",
+     "quotes_failed": false
+    }
+   ],
+   "missing_concepts": [
+    "self-sacrifice of a simple Jew (tailor) for the community",
+    "bribery of guards",
+    "trickster ruse exposing a false prophet",
+    "Jews under Muslim rule / anti-Jewish incitement by clergy",
+    "commerce restricted by persecution"
+   ],
+   "start_quote_found": true,
+   "end_quote_found": true
+  }
+ ],
+ "check": {
+  "non_vocab_tags": [],
+  "quotes": 17,
+  "quotes_not_found": 0
+ },
+ "id": "Peulat-Hatzadikim_0059",
+ "chars": 9079,
+ "seconds": 23
+}

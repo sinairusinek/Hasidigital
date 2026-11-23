@@ -1,0 +1,114 @@
+{
+ "unit": {
+  "kind": "hasidic_story",
+  "why": "A single anecdote: the Maggid orders R. Lipman Yona to give all his money to a communal levy, blesses him as rich, and he then grows wealthy and lives long.",
+  "boundary_note": ""
+ },
+ "stories": [
+  {
+   "k": 1,
+   "start_quote": "בשנת תקס״ח הי' עת צרה לישראל בפולין",
+   "end_quote": "וראיתי בווארקי [כ״כ עוד במכתב הנ\"ל]",
+   "hasidic": true,
+   "summary_en": "In 1808, during a communal emergency in Poland, the Maggid orders R. Lipman Yona to give his entire fortune of fifty rubles and tells him 'you are rich'; the next day the town lord sends him to Hungary for wine, he earns over ten thousand rubles, and he lives to 108.",
+   "tags": [
+    {
+     "tag": "folkloristics:story_type_prognostication",
+     "scope": "story",
+     "quotes": [],
+     "confidence": 3,
+     "why": "The Maggid's words 'you are rich' come true.",
+     "quotes_failed": false
+    },
+    {
+     "tag": "supernatural:prognostication",
+     "scope": "span",
+     "quotes": [
+      "אתה גביר ואז קיים אשר צוהו",
+      "והרויח באותה שנה יותר מעשרת אלפים רו״כ"
+     ],
+     "confidence": 3,
+     "why": "The prediction of wealth is fulfilled.",
+     "quotes_failed": false
+    },
+    {
+     "tag": "ethics-and-emotions:charity",
+     "scope": "span",
+     "quotes": [
+      "כי יביאו הקהל כאו\"א לפי ערכו",
+      "וצוה עליו המגיד שיביא נ׳ ר\"כ"
+     ],
+     "confidence": 2,
+     "why": "He gives all he owns to a communal collection in a time of trouble.",
+     "quotes_failed": false
+    },
+    {
+     "tag": "times:historical_event",
+     "scope": "span",
+     "quotes": [
+      "בשנת תקס״ח הי' עת צרה לישראל בפולין"
+     ],
+     "confidence": 2,
+     "why": "The story is set during a dated communal crisis in Poland.",
+     "quotes_failed": false
+    },
+    {
+     "tag": "social:relations_with_non_jews",
+     "scope": "span",
+     "quotes": [
+      "שלח אחריו שר העיר שיסע לאונגארין בשביל יין"
+     ],
+     "confidence": 2,
+     "why": "The town lord employs him in the wine trade.",
+     "quotes_failed": false
+    },
+    {
+     "tag": "practice:torat_ha_tsaddik",
+     "scope": "span",
+     "quotes": [
+      "הי' תמה כי זה כל רכושו",
+      "אתה גביר ואז קיים אשר צוהו"
+     ],
+     "confidence": 2,
+     "why": "He obeys the tzaddik despite doubt and is rewarded; the story shows faith in the tzaddik's word.",
+     "quotes_failed": false
+    },
+    {
+     "tag": "supernatural:miracle",
+     "scope": "span",
+     "quotes": [
+      "והרויח באותה שנה יותר מעשרת אלפים רו״כ"
+     ],
+     "confidence": 1,
+     "why": "A sudden turn to wealth after the blessing.",
+     "quotes_failed": false
+    },
+    {
+     "tag": "practice:business_advice",
+     "scope": "span",
+     "quotes": [
+      "אתה גביר ואז קיים אשר צוהו"
+     ],
+     "confidence": 1,
+     "why": "The Maggid's directive bears on his fortune, but it is not commercial advice as such.",
+     "quotes_failed": false
+    }
+   ],
+   "missing_concepts": [
+    "communal levy or extortion payment demanded from a Jewish community",
+    "blessing for wealth",
+    "longevity as reward"
+   ],
+   "start_quote_found": true,
+   "end_quote_found": true
+  }
+ ],
+ "check": {
+  "non_vocab_tags": [],
+  "quotes": 10,
+  "quotes_not_found": 0
+ },
+ "id": "Eser-Orot_0123",
+ "chars": 397,
+ "seconds": 15
+}

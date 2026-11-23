@@ -1,0 +1,280 @@
+{
+ "unit": {
+  "kind": "non_hasidic_story",
+  "why": "An exemplary tale, copied from Shem Yaakov, about a pre-Hasidic pious man near Venice. He appears after death in a dream and reveals that he was punished in the heavenly court for mispronouncing his prayers, so the town hires a grammarian.",
+  "boundary_note": "trailing 'מענין דרך' is a section heading belonging to the next division"
+ },
+ "stories": [
+  {
+   "k": 1,
+   "start_quote": "איש אחד היה מחסידי עליון ואספר",
+   "end_quote": "ולכל ישראל עד ביאת הגואל אמן",
+   "hasidic": false,
+   "summary_en": "R. Ezra ben Yedidyah, a saintly ascetic near Venice, appears in dreams after his death to his friend R. Gedalyah. He tells him that his lapses in kavvanah were forgiven through his fasts, but that the mispronounced vowels and letters of his prayers accused him and he was sentenced to wander. The townspeople then hire the grammarian R. Moshe Hayyim to teach them correct pronunciation, and their prayers are accepted.",
+   "tags": [
+    {
+     "tag": "not-a-hasidic-story:hagiography",
+     "scope": "story",
+     "quotes": [],
+     "confidence": 3,
+     "why": "praise of a pre-Hasidic Italian pious man, copied from Shem Yaakov",
+     "quotes_failed": false
+    },
+    {
+     "tag": "not-a-hasidic-story:virtues",
+     "scope": "span",
+     "quotes": [
+      "שכונתו היה בכל מעשיו שממנו יראו וכן יעשו"
+     ],
+     "confidence": 2,
+     "why": "framed as an exemplary model and a lesson in careful prayer",
+     "quotes_failed": false
+    },
+    {
+     "tag": "experience:dream",
+     "scope": "span",
+     "quotes": [
+      "בא בחלום אל חבירו החסיד ר׳ גדלי׳",
+      "ואחר כלות ל׳ יום בא בחלום"
+     ],
+     "confidence": 3,
+     "why": "the dead man's revelations come in dreams",
+     "quotes_failed": false
+    },
+    {
+     "tag": "supernatural:communicating_with_the_invisible",
+     "scope": "span",
+     "quotes": [
+      "ואמר בחלום אל חבירו חבירי חבירי"
+     ],
+     "confidence": 3,
+     "why": "the dead man's soul speaks to the living",
+     "quotes_failed": false
+    },
+    {
+     "tag": "spaces:heaven",
+     "scope": "span",
+     "quotes": [
+      "הראו לו בב״ד של מעלה כל מעשיו"
+     ],
+     "confidence": 3,
+     "why": "the judgment takes place in the heavenly court",
+     "quotes_failed": false
+    },
+    {
+     "tag": "ethics-and-emotions:punishment",
+     "scope": "span",
+     "quotes": [
+      "ומשפטיך זה חרוץ להיות נע ונד"
+     ],
+     "confidence": 3,
+     "why": "he is sentenced to wander for mispronunciation",
+     "quotes_failed": false
+    },
+    {
+     "tag": "practice:prayer",
+     "scope": "span",
+     "quotes": [
+      "אלו הנקודות אשר בזית בתפלתך",
+      "לא התפלל בלי עשרה"
+     ],
+     "confidence": 3,
+     "why": "the plot centers on prayer and its pronunciation",
+     "quotes_failed": false
+    },
+    {
+     "tag": "kabbalah:kabbalistic_terms_kavvanot",
+     "scope": "span",
+     "quotes": [
+      "שלא היה מכוין פי׳ המלות בכונות הראוית"
+     ],
+     "confidence": 1,
+     "why": "intentions in prayer, possibly only intention on the plain meaning",
+     "quotes_failed": false
+    },
+    {
+     "tag": "practice:fasting",
+     "scope": "span",
+     "quotes": [
+      "וישב בתענית עד יום מותו",
+      "בתעניות אשר סגפת עצמך"
+     ],
+     "confidence": 3,
+     "why": "lifelong fasting as atonement",
+     "quotes_failed": false
+    },
+    {
+     "tag": "practice:asceticism",
+     "scope": "span",
+     "quotes": [
+      "לא עבר עליו חצי לילה בשינה",
+      "עד שהושחרו שיניו מתעניותיו"
+     ],
+     "confidence": 3,
+     "why": "self-denial in sleep and food",
+     "quotes_failed": false
+    },
+    {
+     "tag": "practice:study",
+     "scope": "span",
+     "quotes": [
+      "והיה לומד ג׳ חלקים בפשטי תורה"
+     ],
+     "confidence": 3,
+     "why": "night-long Torah study",
+     "quotes_failed": false
+    },
+    {
+     "tag": "knowledge:esoteric",
+     "scope": "span",
+     "quotes": [
+      "וחלק רביעית בסודות התורה עד אור היום"
+     ],
+     "confidence": 2,
+     "why": "he studies the secrets of the Torah",
+     "quotes_failed": false
+    },
+    {
+     "tag": "ethics-and-emotions:charity",
+     "scope": "span",
+     "quotes": [
+      "לא ישב לסעוד עד שהכניס עמו עני א׳"
+     ],
+     "confidence": 3,
+     "why": "he always fed a poor man at his table",
+     "quotes_failed": false
+    },
+    {
+     "tag": "practice:pilgrimage_to_the_graves_of_tsaddikim",
+     "scope": "span",
+     "quotes": [
+      "כל אנשי עיר כמו נ׳ איש אנשים וטף על קברו"
+     ],
+     "confidence": 3,
+     "why": "the town gathers at his grave for thirty days",
+     "quotes_failed": false
+    },
+    {
+     "tag": "experience:trembling",
+     "scope": "span",
+     "quotes": [
+      "רעדו כל אברי וברכי דא לדא נקשן"
+     ],
+     "confidence": 3,
+     "why": "physical trembling at the heavenly sight",
+     "quotes_failed": false
+    },
+    {
+     "tag": "ethics-and-emotions:fear",
+     "scope": "span",
+     "quotes": [
+      "ומיד נפלה עלי חרדה גדולה"
+     ],
+     "confidence": 3,
+     "why": "terror at the accusing vowel points",
+     "quotes_failed": false
+    },
+    {
+     "tag": "experience:visions",
+     "scope": "span",
+     "quotes": [
+      "וראיתי כמה פרחים קטנים ככוכבי השמים לרוב"
+     ],
+     "confidence": 2,
+     "why": "a sight shown to the soul in heaven",
+     "quotes_failed": false
+    },
+    {
+     "tag": "ethics-and-emotions:joy",
+     "scope": "span",
+     "quotes": [
+      "ושמחתי שמחה גדולה",
+      "והלכתי בפסק דין זה שמח וטוב לב"
+     ],
+     "confidence": 2,
+     "why": "joy at forgiveness and at the verdict",
+     "quotes_failed": false
+    },
+    {
+     "tag": "times:death",
+     "scope": "span",
+     "quotes": [
+      "תינוק א׳ שמת לו בן ה׳ שנים",
+      "לאחר פטירתו זה ד׳ שנים"
+     ],
+     "confidence": 2,
+     "why": "the death of his child, and his own death",
+     "quotes_failed": false
+    },
+    {
+     "tag": "characters-and-roles:the_family_of_the_tsaddik",
+     "scope": "span",
+     "quotes": [
+      "נתפרנס ע״י אשתו שהיא היתה עוסקת במו״מ",
+      "היה מתפרנס ע״י אמו"
+     ],
+     "confidence": 2,
+     "why": "his mother and wife support him",
+     "quotes_failed": false
+    },
+    {
+     "tag": "women:minor_character",
+     "scope": "span",
+     "quotes": [
+      "שהיא היתה עוסקת במו״מ ובעז״ה הצליחה",
+      "עד שנתעוררה אשתו וב״ב וגעו כולם בבכיה"
+     ],
+     "confidence": 2,
+     "why": "his wife runs the business and Gedalyah's wife weeps",
+     "quotes_failed": false
+    },
+    {
+     "tag": "social:retrospective_recognition",
+     "scope": "span",
+     "quotes": [
+      "אם זה החסיד שהיה סוברים שהיה חלקו צפון עם האבות"
+     ],
+     "confidence": 2,
+     "why": "the presumed perfect saint turns out to be judged harshly",
+     "quotes_failed": false
+    },
+    {
+     "tag": "practice:clothing",
+     "scope": "span",
+     "quotes": [
+      "היה פושט בגדיו ולבש בגדי חמודות"
+     ],
+     "confidence": 2,
+     "why": "he wears fine garments for the sanctification of the moon",
+     "quotes_failed": false
+    },
+    {
+     "tag": "ethics-and-emotions:repentance",
+     "scope": "span",
+     "quotes": [
+      "והרגילו עצמם כל הקהלה המה ובניהם"
+     ],
+     "confidence": 1,
+     "why": "the community corrects its prayer practice",
+     "quotes_failed": false
+    }
+   ],
+   "missing_concepts": [
+    "correct Hebrew pronunciation / grammar (dikduk) in prayer",
+    "the letters and vowel points as heavenly accusers",
+    "punishment by wandering of the soul (nad va-na)",
+    "the sanctification of the moon (kiddush levanah)"
+   ],
+   "start_quote_found": true,
+   "end_quote_found": true
+  }
+ ],
+ "check": {
+  "non_vocab_tags": [],
+  "quotes": 31,
+  "quotes_not_found": 0
+ },
+ "id": "Derech-Haemuna_0060",
+ "chars": 3768,
+ "seconds": 31
+}

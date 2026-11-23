@@ -1,0 +1,79 @@
+{
+ "unit": {
+  "kind": "hasidic_story",
+  "why": "A brief anecdote: in the winter before his death (1872) the rebbe said things nobody understood, and after his passing they were recognized as a testament guiding what to do.",
+  "boundary_note": "Reads as a summary heading; the specific sayings may be told in the following divisions (כט ff.)."
+ },
+ "stories": [
+  {
+   "k": 1,
+   "start_quote": "בחורף דשנת תרל״ב אשר בקיץ שלאחריו",
+   "end_quote": "לא היו יודעים מה לעשות",
+   "hasidic": true,
+   "summary_en": "In the winter of 1872, before his death that summer, the tzaddik said things nobody understood; after his death they were recognized as a testament on every matter, without which his followers would not have known how to act.",
+   "tags": [
+    {
+     "tag": "social:retrospective_recognition",
+     "scope": "span",
+     "quotes": [
+      "ואחרי פטירתו אגלאי מלתא למפרע"
+     ],
+     "confidence": 3,
+     "why": "His words were understood only after his death.",
+     "quotes_failed": false
+    },
+    {
+     "tag": "supernatural:prognostication",
+     "scope": "span",
+     "quotes": [
+      "כי הכל הי' כעין צוואה בכל ענין וענין"
+     ],
+     "confidence": 2,
+     "why": "His words foresaw the needs that arose after his death.",
+     "quotes_failed": false
+    },
+    {
+     "tag": "folkloristics:story_type_death_of_the_tsaddik",
+     "scope": "story",
+     "quotes": [],
+     "confidence": 2,
+     "why": "Framed around his last months and the testament he left.",
+     "quotes_failed": false
+    },
+    {
+     "tag": "times:death",
+     "scope": "span",
+     "quotes": [
+      "אשר בקיץ שלאחריו נסתלק לעולמו"
+     ],
+     "confidence": 2,
+     "why": "The tzaddik's death is the pivot of the story.",
+     "quotes_failed": false
+    },
+    {
+     "tag": "supernatural:perception",
+     "scope": "span",
+     "quotes": [
+      "מה שאח״כ הוצרכו מאד אלה הדיבורים"
+     ],
+     "confidence": 1,
+     "why": "Implied foreknowledge of what would be needed.",
+     "quotes_failed": false
+    }
+   ],
+   "missing_concepts": [
+    "cryptic testament / last instructions of a tzaddik"
+   ],
+   "start_quote_found": true,
+   "end_quote_found": true
+  }
+ ],
+ "check": {
+  "non_vocab_tags": [],
+  "quotes": 4,
+  "quotes_not_found": 0
+ },
+ "id": "Eser-Kedushot_0147",
+ "chars": 258,
+ "seconds": 13
+}

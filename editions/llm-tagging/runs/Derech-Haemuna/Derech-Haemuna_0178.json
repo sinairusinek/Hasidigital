@@ -1,0 +1,111 @@
+{
+ "unit": {
+  "kind": "hasidic_story",
+  "why": "A short dream narrative attributed to R. Shlomo of Karlin: a simple man who saved a life dies, enters paradise and is helped there by R. Shlomo. It is framed by a teaching on the reward of a commandment.",
+  "boundary_note": "The section heading 'מענין פיקוח נפש' sits at the end of the previous division. The trailing heading 'מענין פסיק רישא' belongs to the next division."
+ },
+ "stories": [
+  {
+   "k": 1,
+   "start_quote": "כמו ששמעתי בשם הק׳ ר״ש מקארלין",
+   "end_quote": "וזהו ענין שכר מצוה מצוה",
+   "hasidic": true,
+   "summary_en": "R. Shlomo of Karlin dreamt of a simple man of his time who saved a life and died soon after. Because of that merit he entered paradise, though at first it was a paradise shaped like his worldly affairs, until R. Shlomo came to his aid. This illustrates that the reward of a commandment is a further commandment, the service of God.",
+   "tags": [
+    {
+     "tag": "experience:dream",
+     "scope": "span",
+     "quotes": [
+      "שראה בחלום איש הדיוט אחד שהי׳ בזמנו"
+     ],
+     "confidence": 3,
+     "why": "The whole account is the content of the tzaddik's dream.",
+     "quotes_failed": false
+    },
+    {
+     "tag": "spaces:heaven",
+     "scope": "span",
+     "quotes": [
+      "ותיכף מחמת זכות הגדול נכנס בג״ע",
+      "רק שנתנו לו ג״ע מעין עסקיו"
+     ],
+     "confidence": 3,
+     "why": "The man's fate in paradise (Gan Eden) is the setting.",
+     "quotes_failed": false
+    },
+    {
+     "tag": "times:death",
+     "scope": "span",
+     "quotes": [
+      "ובימים אחדים נפטר זה ההדיוט"
+     ],
+     "confidence": 3,
+     "why": "The simple man's death is a narrated event.",
+     "quotes_failed": false
+    },
+    {
+     "tag": "ethics-and-emotions:virtues",
+     "scope": "span",
+     "quotes": [
+      "זכות גדול של פיקוח נפש שהציל נפש אחד ממות"
+     ],
+     "confidence": 2,
+     "why": "The story turns on the merit of saving a life.",
+     "quotes_failed": false
+    },
+    {
+     "tag": "practice:torat_ha_tsaddik",
+     "scope": "span",
+     "quotes": [
+      "עד שר״ש הנ\"ל היה בעזרו וד״ל"
+     ],
+     "confidence": 2,
+     "why": "The tzaddik intercedes for and helps the soul in the upper world.",
+     "quotes_failed": false
+    },
+    {
+     "tag": "times:eschatology",
+     "scope": "span",
+     "quotes": [
+      "וכל תענוגי ג״ע העיקר הוא לבוא עי״ז לעבודת השם"
+     ],
+     "confidence": 2,
+     "why": "It discusses the nature of the reward in the afterlife.",
+     "quotes_failed": false
+    },
+    {
+     "tag": "not-a-hasidic-story:sermon",
+     "scope": "story",
+     "quotes": [],
+     "confidence": 2,
+     "why": "The anecdote is set inside a topical anthology entry with a homiletic conclusion ('שכר מצוה מצוה').",
+     "quotes_failed": false
+    },
+    {
+     "tag": "practice:healing_of_the_soul",
+     "scope": "span",
+     "quotes": [
+      "עד שר״ש הנ\"ל היה בעזרו וד״ל"
+     ],
+     "confidence": 1,
+     "why": "The tzaddik apparently lifts the soul to a higher state of paradise.",
+     "quotes_failed": false
+    }
+   ],
+   "missing_concepts": [
+    "saving a life (pikuach nefesh) performed by an ordinary person",
+    "reward of commandments / 'the reward of a mitzvah is a mitzvah'"
+   ],
+   "start_quote_found": true,
+   "end_quote_found": true
+  }
+ ],
+ "check": {
+  "non_vocab_tags": [],
+  "quotes": 8,
+  "quotes_not_found": 0
+ },
+ "id": "Derech-Haemuna_0178",
+ "chars": 362,
+ "seconds": 17
+}

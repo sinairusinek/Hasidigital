@@ -18,7 +18,7 @@
 					<name>DictaBert</name>
 					<note>automatic tagging, corrected with Gemini; not yet reviewed by hand</note>
 				</respStmt>
-			</titleStmt><editionStmt><edition n="1.0.0">Working edition</edition></editionStmt>
+			<respStmt xml:id="llm-tagging"><resp>Topic tags: assigned by Claude Opus 5.5 with the project's topic scheme (editions/llm-tagging; calibrated 2026-11-16, est. precision 0.89 / recall 0.90, model-judged); not reviewed by hand</resp><name>Claude Opus 5.5 (Anthropic)</name></respStmt></titleStmt><editionStmt><edition n="1.0.0">Working edition</edition></editionStmt>
 			<publicationStmt>
 				<p>This edition was created in the framework of the the project "Historical Digital
 					Analysis of Hasidic Stories Until 1914", PI: Gadi Sagiv; Supervising
@@ -28,7 +28,7 @@
 			</publicationStmt>
 			<sourceDesc><bibl type="digital"><title>Digital scan from HebrewBooks.org</title><publisher>HebrewBooks.org</publisher><ptr target="https://hebrewbooks.org/3686"/><idno type="HebrewBooks">3686</idno><idno type="Transkribus">9568035</idno><note>Source for transcription</note></bibl><bibl type="original"><title type="main" xml:lang="he">תפארת חיים</title><title type="main" xml:lang="en">Tiferet Hayyim</title><author><persName xml:lang="he">נתן נטע דונר</persName><persName xml:lang="en">Natan Netah Doner</persName></author><pubPlace xml:lang="he">ורשה</pubPlace><pubPlace xml:lang="en">Warsaw</pubPlace><date when="1905">תרס"ה</date><textLang mainLang="heb"/><idno type="HebrewBooks">3686</idno><idno type="BHB">177534</idno><idno type="Kima">953</idno><idno type="Transkribus">9568035</idno><idno type="work">82</idno></bibl></sourceDesc>
 		</fileDesc>
-	<revisionDesc><change when="2026-04-29">sourceDesc synced from edition-metadata.json</change><change when="2026-11-21">text repaired: Gemini correction pass replayed without the tag-stripping bug that shuffled text (58f4166); later tag edits carried over</change><change when="2026-11-21">header in the shape of the online editions; page breaks restored from the Transkribus export</change></revisionDesc></teiHeader>
+	<revisionDesc><change when="2026-04-29">sourceDesc synced from edition-metadata.json</change><change when="2026-11-21">text repaired: Gemini correction pass replayed without the tag-stripping bug that shuffled text (58f4166); later tag edits carried over</change><change when="2026-11-21">header in the shape of the online editions; page breaks restored from the Transkribus export</change><change when="2026-11-23">topic tags (LLM, confidence &gt;= 2) written for 24 stories; not reviewed by hand</change></revisionDesc></teiHeader>
 	<text>
 		<front><div type="front-matter"><p>
 					<pb facs="Tiferet-Hayyim_0001.jpg"/><lb/>ספר
@@ -588,7 +588,7 @@
 					<lb/>פרשת <name type="work">תולדות</name>
 				</p>
 				<p>
-					<lb/>וימצא מאה שערים. ראיתי בכת״י חתנו
+					<lb/>וימצא מאה שערים. </p><div type="story" xml:id="Tiferet-Hayyim_non-story-004_s1" subtype="in-non-story"><head type="storyHead">Tiferet-Hayyim_non-story-004_s1</head><span ana="practice:halakhah; characters-and-roles:the_family_of_the_tsaddik; folkloristics:story_type_virtues; practice:sermon; social:relations_with_non_hasidim" resp="#llm-tagging">תיוגים</span><p>ראיתי בכת״י חתנו
 					<lb/>של רבינו הקדוש הה״ג החסיד
 					<lb/>ר׳ <persName>אלחנן</persName> זצ"ל שפ"א הי׳ ב<placeName ref="#H-LOC_178">ווארשא</placeName> בזמן
 					<lb/>הגה"ל בעל <name type="work">חמדת שלמה</name> והלך אליו לקבל
@@ -603,7 +603,7 @@
 					<lb/>כפי אומד המעשרות שהי׳ לו. אבל אח״כ
 					<lb/>בעת שהפריש ודאי לא הי' מאומד והגאון
 					<lb/>הנ"ל שיבח את הדברים האלה ואמר
-					<lb/>שתירץ אמיתי הוא (ס׳ <name type="work">תולדות הנפלאות</name>) :
+					<lb/>שתירץ אמיתי הוא</p></div><p> (ס׳ <name type="work">תולדות הנפלאות</name>) :
 					<lb/>ויעש להם משתה וכו׳ דהנה שמעתי
 					<lb/>מכאדמו״ר הרב מ<placeName ref="#H-LOC_55">מעזבוש</placeName> כאשר
 					<lb/>האדם עושה איזה נישואין לבניו משם
@@ -717,7 +717,7 @@
 					<lb/>טוב וחסד עלינו ועכ״י בכלל ובפרט
 					<lb/>אכי״ר. (דברי <persName>אלימלך</persName> שם) :
 				</p>
-				</div><div type="story" xml:id="Tiferet-Hayyim_0001" n="1"><head type="storyHead">Tiferet-Hayyim_0001</head>
+				</div><div type="story" xml:id="Tiferet-Hayyim_0001" n="1"><head type="storyHead">Tiferet-Hayyim_0001</head><span ana="ethics-and-emotions:humility; ethics-and-emotions:pride; practice:sermon; not-a-hasidic-story:sermon; not-a-hasidic-story:virtues; social:inter_hasidic" resp="#llm-tagging">תיוגים</span>
 <p>
 					<lb/>והגדתם לאבי את כל כבודי ב<placeName ref="#H-LOC_164">מצרים</placeName>.
 					<lb/>פ"א הי׳ אדמו״ר [הה"ק
@@ -797,7 +797,7 @@
 				<p>
 					<lb/>לעשות
 				</p>
-				</div><div type="story" xml:id="Tiferet-Hayyim_0002" n="2" ana="footnote-story"><head type="storyHead">Tiferet-Hayyim_0002</head>
+				</div><div type="story" xml:id="Tiferet-Hayyim_0002" n="2" ana="footnote-story"><head type="storyHead">Tiferet-Hayyim_0002</head><span ana="characters-and-roles:the_family_of_the_tsaddik; ethics-and-emotions:sadness; not-a-hasidic-story:sermon; ethics-and-emotions:joy; ethics-and-emotions:repentance" resp="#llm-tagging">תיוגים</span>
 <p>
 					<lb/>*) ועתה אל תעצבו. אאמו״ר הה״ק <persName>מוהדב״מ</persName> נ״ע אמר ועתה אין ועתה אלא
 					<lb/>תשובה. אל תעצבו כי התשובה צ״ל בשמחה ואמר א״א בשם אביו רבינו זקני ז״ל
@@ -903,7 +903,7 @@
 					<lb/>ויותר ובגדלות המוחין כענין ויתחזק <persName>ישראל</persName> כנ"ל וד"ל. (<name type="work">אהבת שלום</name> מהה״ק ר' מנחם
 					<lb/>מענדיל מ<placeName ref="#H-LOC_14">קאסוב</placeName>)
 				</p>
-				</div><div type="story" xml:id="Tiferet-Hayyim_0003" n="3" ana="footnote-story"><head type="storyHead">Tiferet-Hayyim_0003</head>
+				</div><div type="story" xml:id="Tiferet-Hayyim_0003" n="3" ana="footnote-story"><head type="storyHead">Tiferet-Hayyim_0003</head><span ana="not-a-hasidic-story:sermon; practice:study; practice:travel_to_the_tsaddik; ethics-and-emotions:humility; knowledge:esoteric; practice:torat_ha_tsaddik; social:inter_hasidic_master_disciple_relationship" resp="#llm-tagging">תיוגים</span>
 <p>
 					<lb/>ובס׳ <name type="work">תולדות אדם</name> ברמזי תנוכה (מהה״ק מ<placeName>אוסטראווע</placeName>) וז״ל וזאת ידוע שהצדיק הדור
 				</p>
@@ -1041,7 +1041,7 @@
 					<lb/>שהוא היום ברי׳ חדשה ויקבל עליו עול
 					<lb/>מלכות שמים מחדש *) (ס׳ <name type="work">דברי תורה</name>) :
 				</p>
-				</div><div type="story" xml:id="Tiferet-Hayyim_0004" n="4"><head type="storyHead">Tiferet-Hayyim_0004</head>
+				</div><div type="story" xml:id="Tiferet-Hayyim_0004" n="4"><head type="storyHead">Tiferet-Hayyim_0004</head><span ana="ethics-and-emotions:resisting_temptation; folkloristics:story_type_virtues; practice:study; practice:storytelling; social:inter_hasidic_master_disciple_relationship" resp="#llm-tagging">תיוגים</span>
 <p>
 					<lb/>עוד שם ממורי ז"ל איש אלהים הרב
 					<lb/>מ<placeName>מאגליניצא</placeName> עיקר עבדות שיהא
@@ -1210,7 +1210,7 @@
 					<date><lb/>שבת</date> אבל באמת אינו כן. (<name type="work">אמרי אלימלך</name>
 					<name type="work"><lb/>משפטים</name>)
 				</p>
-				</div><div type="story" xml:id="Tiferet-Hayyim_0005" n="5"><head type="storyHead">Tiferet-Hayyim_0005</head>
+				</div><div type="story" xml:id="Tiferet-Hayyim_0005" n="5"><head type="storyHead">Tiferet-Hayyim_0005</head><span ana="practice:asceticism; practice:sermon; practice:travel_to_other_tsaddik; times:shabbat; ethics-and-emotions:awe; not-a-hasidic-story:sermon; practice:travel_to_the_tsaddik; social:inter_hasidic_master_disciple_relationship" resp="#llm-tagging">תיוגים</span>
 <p>
 					<lb/>ובס׳ <name type="work">בארת המים</name> פ׳ <name type="work">בראשית</name> (מהה״ק
 					<lb/>ר׳ <persName>צבי הכהן מ<placeName ana="bio">רומנאב</placeName></persName>) וז״ל הרה״ק
@@ -1250,7 +1250,7 @@
 					<lb/>לכבוד ש"ק הוא להשגת יראת שמים וזהו
 					<name type="work"><lb/>מעין עוה״ב</name> עכ״ל :
 				</p>
-				</div><div type="story" xml:id="Tiferet-Hayyim_0006" n="6"><head type="storyHead">Tiferet-Hayyim_0006</head>
+				</div><div type="story" xml:id="Tiferet-Hayyim_0006" n="6"><head type="storyHead">Tiferet-Hayyim_0006</head><span ana="experience:enthusiasm; times:shabbat; practice:devekut; practice:music; practice:travel_to_the_tsaddik" resp="#llm-tagging">תיוגים</span>
 <p>
 					<lb/>סיפר הרב הקדוש ר' <persName>הלל</persName> שליט״א
 					<lb/>מ<placeName>ראדשיץ</placeName> שבהיותו ב<date>ש"ק</date> אצל
@@ -1267,7 +1267,7 @@
 					<lb/>אזי מסאבין דרחיקין נתרחק ממנו כל
 					<lb/>טומאה (ס׳ <name type="work">דברי תורה ותולדת הנפלאות</name>) :
 				</p>
-				</div><div type="story" xml:id="Tiferet-Hayyim_0007" n="7"><head type="storyHead">Tiferet-Hayyim_0007</head>
+				</div><div type="story" xml:id="Tiferet-Hayyim_0007" n="7"><head type="storyHead">Tiferet-Hayyim_0007</head><span ana="ethics-and-emotions:prohibitions; ethics-and-emotions:sadness; times:shabbat; characters-and-roles:the_family_of_the_tsaddik; practice:halakhah" resp="#llm-tagging">תיוגים</span>
 <p>
 					<lb/>שמעתי מאאמו״ר זצ״ל שא"ל דודו הה״ק
 					<lb/>הצדיק מוה׳ <persName>משה</persName> זצ"ל מקאזניץ
@@ -1670,7 +1670,7 @@
 					<lb/>כועס עליו ביותר ואם יצטרך לישן יחזור
 					<lb/>וישן עד לאור הבוקר *) עכ״ל :
 				</p>
-				</div><div type="story" xml:id="Tiferet-Hayyim_0008" n="8"><head type="storyHead">Tiferet-Hayyim_0008</head>
+				</div><div type="story" xml:id="Tiferet-Hayyim_0008" n="8"><head type="storyHead">Tiferet-Hayyim_0008</head><span ana="not-a-hasidic-story:sermon" resp="#llm-tagging">תיוגים</span>
 <p>
 					<lb/>ובס׳ <name type="work">תולדות הנפלאות</name> וז"ל שמעתי ממורי
 					<lb/>זצ"ל הה״ק מ<placeName>מאגליניצא</placeName> שמרן בעל
@@ -1905,7 +1905,7 @@
 				<p>
 					<lb/>פרשת <name type="work">אמור</name>
 				</p>
-				</div><div type="story" xml:id="Tiferet-Hayyim_0009" n="9"><head type="storyHead">Tiferet-Hayyim_0009</head>
+				</div><div type="story" xml:id="Tiferet-Hayyim_0009" n="9"><head type="storyHead">Tiferet-Hayyim_0009</head><span ana="experience:devekut; kabbalah:kabbalistic_terms_kavvanot; practice:devekut; practice:healing; times:holidays; knowledge:esoteric; practice:meditation; practice:storytelling; practice:study; supernatural:miracle" resp="#llm-tagging">תיוגים</span>
 <p>
 					<lb/>ולקחתם לכם ביום הראשון פרי עץ הדר
 					<lb/>וגו׳ שמעתי מאאמו״ר ז״ל
@@ -2475,7 +2475,7 @@
 				<p>
 					<lb/>ושת <name type="work">עקב</name>
 				</p>
-				</div><div type="story" xml:id="Tiferet-Hayyim_0010" n="10"><head type="storyHead">Tiferet-Hayyim_0010</head>
+				</div><div type="story" xml:id="Tiferet-Hayyim_0010" n="10"><head type="storyHead">Tiferet-Hayyim_0010</head><span ana="not-a-hasidic-story:sermon" resp="#llm-tagging">תיוגים</span>
 <p>
 					<lb/>ואכלת ושבעת וברכת את ה׳ אלהיך
 					<lb/>וגו׳ *) מורי
@@ -2543,7 +2543,7 @@
 				<p>
 					<lb/>לא
 				</p>
-				</div><div type="story" xml:id="Tiferet-Hayyim_0011" n="11" ana="footnote-story"><head type="storyHead">Tiferet-Hayyim_0011</head>
+				</div><div type="story" xml:id="Tiferet-Hayyim_0011" n="11" ana="footnote-story"><head type="storyHead">Tiferet-Hayyim_0011</head><span ana="not-a-hasidic-story:sermon; practice:fasting; practice:halakhah; ethics-and-emotions:repentance; folkloristics:story_type_virtues; practice:asceticism; practice:sermon" resp="#llm-tagging">תיוגים</span>
 <p>
 					<lb/>*) ובס׳ <name type="work">אור הגנוז</name> עה״ת פ׳ <name type="work">משפטים</name> וז"ל והנה ב<name type="work">ש"ע</name> סי׳ קס"ז סי׳ י אם
 					<lb/>במקום ברכת המוציא כו׳ אמר בריך רחמנא מלכא דעלמא מאריה דהאי פיתא יצא.
@@ -2568,7 +2568,7 @@
 				<p>
 					<name type="work"><lb/>פרשת ע</name>
 				</p>
-				</div><div type="story" xml:id="Tiferet-Hayyim_0012" n="12"><head type="storyHead">Tiferet-Hayyim_0012</head>
+				</div><div type="story" xml:id="Tiferet-Hayyim_0012" n="12"><head type="storyHead">Tiferet-Hayyim_0012</head><span ana="not-a-hasidic-story:sermon" resp="#llm-tagging">תיוגים</span>
 <p>
 					<lb/>לא נופל מהם והבן : (ס׳ <name type="work">דברי אלימלך</name>
 					<lb/>לפורים) ושם בפ׳ <name type="work">תרומה</name> וז״ל וכמו
@@ -2631,7 +2631,7 @@
 					<lb/>לפני השפעה רק שצריך לסמוך על חסדי
 					<lb/>ה׳ לבד (ס׳ <name type="work">דברי תורה</name>) :
 				</p>
-				</div><div type="story" xml:id="Tiferet-Hayyim_0013" n="13"><head type="storyHead">Tiferet-Hayyim_0013</head>
+				</div><div type="story" xml:id="Tiferet-Hayyim_0013" n="13"><head type="storyHead">Tiferet-Hayyim_0013</head><span ana="not-a-hasidic-story:sermon" resp="#llm-tagging">תיוגים</span>
 <p>
 					<lb/>עוד שם אמר גם אני צריך צרכי עולם
 					<lb/>ג״כ רק שהחילוק הוא ביני לאדם
@@ -2723,7 +2723,7 @@
 					<lb/>בתשובה ולקחת ויודע לך מעלת הנשמה.
 					<lb/>(ס׳ <name spanTo="#ner_88209_88218" type="work"/>דברי <sic correction="תורה">חורה</sic><anchor xml:id="ner_88209_88218"/>) :
 				</p>
-				</div><div type="story" xml:id="Tiferet-Hayyim_0014" n="14"><head type="storyHead">Tiferet-Hayyim_0014</head>
+				</div><div type="story" xml:id="Tiferet-Hayyim_0014" n="14"><head type="storyHead">Tiferet-Hayyim_0014</head><span ana="not-a-hasidic-story:sermon" resp="#llm-tagging">תיוגים</span>
 <p>
 					<lb/>ובהקדמה לס׳ <name type="work">רוממות נשמת ישראל</name>
 					<lb/>כ׳ וז״ל מרגלא בפה אדמו״ר
@@ -2835,7 +2835,7 @@
 					<lb/>להתנהג (מצאתי כ׳ בשם הרה״ק ר' מאיר
 					<lb/>יחיאל זצ"ל מ<placeName>מאגליניצא</placeName>).
 				</p>
-				</div><div type="story" xml:id="Tiferet-Hayyim_0015" n="15"><head type="storyHead">Tiferet-Hayyim_0015</head>
+				</div><div type="story" xml:id="Tiferet-Hayyim_0015" n="15"><head type="storyHead">Tiferet-Hayyim_0015</head><span ana="characters-and-roles:messiah; ethics-and-emotions:punishment; times:eschatology; not-a-hasidic-story:sermon; practice:sermon" resp="#llm-tagging">תיוגים</span>
 <p>
 					<lb/>ושב וקבצך מכל העמים וגו׳ והנה
 					<lb/>מבואר ב<name type="work">תקונים</name> ובספרים
@@ -2857,7 +2857,7 @@
 					<lb/>ממרומים ר"ל (ס׳ <name type="work">דברי אלימלך</name> <name type="work">לך</name>
 					<lb/>ו<name type="work">מטות</name>. <name type="work">אמרי אלימלך</name> <name type="work">וירא</name>) :
 				</p>
-				</div><div type="story" xml:id="Tiferet-Hayyim_0016" n="16"><head type="storyHead">Tiferet-Hayyim_0016</head>
+				</div><div type="story" xml:id="Tiferet-Hayyim_0016" n="16"><head type="storyHead">Tiferet-Hayyim_0016</head><span ana="characters-and-roles:messiah; spaces:the_land_of_israel; supernatural:perception; times:eschatology; practice:storytelling" resp="#llm-tagging">תיוגים</span>
 <p>
 					<lb/>ובס׳ <name type="work">דברי אלימלך</name> <name type="work">פ׳ קרח</name> כתב וז״ל
 					<lb/>ויחויב אשר בני ישראל ירגישו מיד
@@ -3062,7 +3062,7 @@
 					<lb/>שאנחנו עושים תשובה שלימה לפניו כי
 					<lb/>הוא המרבה לסלוח (שם בדרוש ליו״כ) *) :
 				</p>
-				</div><div type="story" xml:id="Tiferet-Hayyim_0017" n="17" ana="footnote-story"><head type="storyHead">Tiferet-Hayyim_0017</head>
+				</div><div type="story" xml:id="Tiferet-Hayyim_0017" n="17" ana="footnote-story"><head type="storyHead">Tiferet-Hayyim_0017</head><span ana="practice:music; practice:prayer; practice:storytelling; practice:torat_ha_tsaddik; supernatural:communicating_with_the_invisible; supernatural:perception; times:holidays; ethics-and-emotions:repentance; folkloristics:story_type_virtues" resp="#llm-tagging">תיוגים</span>
 <p>
 					<lb/>*) בסוף ספר <name type="work">בארות המים</name> עה״ק מרבינו הקדוש הרב ר׳ <persName>צבי הכהן מרומנוב</persName>
 					<lb/>זצוקלה״ה זי״ע ועכ״י כתב המביא לבית הדפוס וז"ל אמרתי להביא פה מעשה מרבינו
@@ -3150,14 +3150,13 @@
 					<lb/>אח״כ ע״י מעשיו ע״כ הצדיק הרואה זאת מר לו מאד כיון שרואה לפניו נשמות
 					<lb/>שמתנודדים למאות שנים ולאלפים שנים שעולים ויורדים כמה פעמים. ולזה הענין
 					<lb/>צריך להיות צדיק בעולם כי הלא קשה נשמה שהיא בתכלית השלימות למה תרד לעוה״ז
-					<lb/>לראות בצער העולם אלא לטעם הנ"ל כדי להעלות הנשמות הנעלמות והנפרדות כמו
+					<lb/>לראות בצער העולם אלא לטעם הנ"ל כדי להעלות הנשמות הנעלמות והנפרדות </p><div type="story" xml:id="Tiferet-Hayyim_non-story-033_s1" subtype="in-non-story"><head type="storyHead">Tiferet-Hayyim_non-story-033_s1</head><span ana="not-a-hasidic-story:sermon; practice:healing_of_the_soul; practice:torat_ha_tsaddik; supernatural:communicating_with_the_invisible; supernatural:reincarnation; ethics-and-emotions:charity; ethics-and-emotions:punishment; practice:sermon; practice:the_travels_of_the_tsaddik" resp="#llm-tagging">תיוגים</span><p>כמו
 					<lb/>שמספרים מרבי <persName>הירש ליב מאליק</persName> שפעם אחת נסע בדרך ובא למקום רפש וטיט ושם
 					<lb/>בקשה ממנו נפש אחת שיעשה לה טובה אמר מר לי ולך שאעשה לך טובה. כיון שרשע
 					<lb/>אתה ושוכן במקום כזה מסתמא שוה אתה זה הגמול והשיבה זאת הנפש כשהייתי בזה
-					<lb/>העולם נתתי לכם ממון אמר כיון שכן מוכרח אני לעשות לך טובה עכ״ל :
+					<lb/>העולם נתתי לכם ממון אמר כיון שכן מוכרח אני לעשות לך טובה</p></div><p> עכ״ל :
 				</p>
-				</div><div type="story" xml:id="Tiferet-Hayyim_0018" n="18"><head type="storyHead">Tiferet-Hayyim_0018</head>
-</div><div type="story" xml:id="Tiferet-Hayyim_0019" n="19"><head type="storyHead">Tiferet-Hayyim_0019</head>
+				</div><div type="story" xml:id="Tiferet-Hayyim_0019" n="19"><head type="storyHead">Tiferet-Hayyim_0019</head><span ana="not-a-hasidic-story:sermon" resp="#llm-tagging">תיוגים</span>
 <p>
 					<pb facs="Tiferet-Hayyim_0035.jpg"/><lb/>36
 				</p>
@@ -3600,7 +3599,7 @@
 					<lb/>מהבורא יתברך. ואין לו להאדם להחזיק
 					<lb/>טובה לעצמו על זה כי הוא מצווה ועומד
 				</p>
-				</div><div type="story" xml:id="Tiferet-Hayyim_0020" n="19" ana="footnote-story"><head type="storyHead">Tiferet-Hayyim_0020</head>
+				</div><div type="story" xml:id="Tiferet-Hayyim_0020" n="19" ana="footnote-story"><head type="storyHead">Tiferet-Hayyim_0020</head><span ana="ethics-and-emotions:humility; practice:sermon; practice:travel_to_other_tsaddik; times:shabbat; folkloristics:story_type_virtues; social:inter_hasidic; spaces:institutions_hassidic_court" resp="#llm-tagging">תיוגים</span>
 <p>
 					<lb/>א) פ"א שבת אדומ"ו <sic correction="משידלאווצי">מ<placeName>שידלאויצי</placeName></sic> זצ"ל אצל אדומ״ו הגאון הק׳ זצלל"ה מ<placeName>סאנז</placeName> כדרכו
 					<lb/>בקודש להיות שם כפעם בפעם וצוה אותו הגה"ק מ<placeName>סאנז</placeName> שיאמר תורה
@@ -4620,7 +4619,7 @@
 					<lb/>סתם ספרך הוא <name type="work">ספר התיים</name> כנ"ל
 					<lb/>(שם בשם הנ"ל) :
 				</p>
-				</div><div type="story" xml:id="Tiferet-Hayyim_0021" n="20"><head type="storyHead">Tiferet-Hayyim_0021</head>
+				</div><div type="story" xml:id="Tiferet-Hayyim_0021" n="20"><head type="storyHead">Tiferet-Hayyim_0021</head><span ana="ethics-and-emotions:repentance; ethics-and-emotions:virtues; folkloristics:story_type_virtues" resp="#llm-tagging">תיוגים</span>
 <p>
 					<lb/>פ״א תלה מאד הרה״צ הקדוש מ<placeName>ראדשי'</placeName>
 					<lb/>זצללה"ה ובעת חליו אמר הדרך היא
@@ -4633,7 +4632,7 @@
 				<p>
 					<pb facs="Tiferet-Hayyim_0051.jpg"/><lb/>52
 				</p>
-				</div><div type="story" xml:id="Tiferet-Hayyim_0022" n="21"><head type="storyHead">Tiferet-Hayyim_0022</head>
+				</div><div type="story" xml:id="Tiferet-Hayyim_0022" n="21"><head type="storyHead">Tiferet-Hayyim_0022</head><span ana="practice:asceticism; practice:fasting; practice:healing_of_the_soul; practice:storytelling; practice:study; practice:torat_ha_tsaddik; practice:travel_to_the_tsaddik; ethics-and-emotions:virtues; folkloristics:story_type_virtues; practice:healing; practice:sermon; social:inter_hasidic_master_disciple_relationship; times:shabbat" resp="#llm-tagging">תיוגים</span>
 <p>
 					<lb/>לעבוד ל<name type="misc">השי"ת</name> יותר בשקידה זה ג״כ לא
 					<lb/>אוכל לומר שבאמת כל מה שהי' בכחי
@@ -4995,7 +4994,7 @@
 				<p>
 					<name type="work"><lb/>פרשת וישב</name>
 				</p>
-				</div><div type="story" xml:id="Tiferet-Hayyim_0023" n="22"><head type="storyHead">Tiferet-Hayyim_0023</head>
+				</div><div type="story" xml:id="Tiferet-Hayyim_0023" n="22"><head type="storyHead">Tiferet-Hayyim_0023</head><span ana="practice:storytelling; practice:travel_to_the_tsaddik; social:inter_hasidic_master_disciple_relationship; social:marital_relationship; women:catalyst_character; characters-and-roles:the_family_of_the_tsaddik; ethics-and-emotions:virtues; not-a-hasidic-story:sermon; practice:sermon; social:retrospective_recognition" resp="#llm-tagging">תיוגים</span>
 <p>
 					<lb/>סיפר מורי <persName>בוצ״ק</persName> הרב <persName>מהר״י מ<placeName ana="bio">ווארקא</placeName></persName>
 					<lb/>זצוקללה"ה כאשר ישבו לפניו גדולי

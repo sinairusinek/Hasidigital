@@ -1,0 +1,130 @@
+{
+ "unit": {
+  "kind": "hasidic_story",
+  "why": "A short anecdote, heard from the Maggid, about how he once reacted on seeing an immodest woman while he was a village teacher.",
+  "boundary_note": "Trailing heading 'מענין מחלוקת' belongs to the next division."
+ },
+ "stories": [
+  {
+   "k": 1,
+   "start_quote": "ושמעתי מהמגיד זלה״ה כשהיה מלמד",
+   "end_quote": "צוה האדון לגרש אותו החוצה",
+   "hasidic": true,
+   "summary_en": "When the Maggid was a village teacher, he glanced by accident at a nobleman's immodestly dressed companion. Distressed, he made himself loathe evil by thinking on the repulsive origins of her beauty, until he vomited before them and the nobleman had him thrown out.",
+   "tags": [
+    {
+     "tag": "ethics-and-emotions:lust",
+     "scope": "span",
+     "quotes": [
+      "פרוצה אחת יפת תואר בגילוי הלב",
+      "והסתכל פתאום בלתי מתכוין"
+     ],
+     "confidence": 3,
+     "why": "The danger is sexual desire aroused by sight.",
+     "quotes_failed": false
+    },
+    {
+     "tag": "ethics-and-emotions:resisting_temptation",
+     "scope": "span",
+     "quotes": [
+      "ואזי התחיל למאוס ברע בזה האופן",
+      "עד שהתחיל להקאו׳ בפניהם"
+     ],
+     "confidence": 3,
+     "why": "He counters the temptation by cultivating disgust.",
+     "quotes_failed": false
+    },
+    {
+     "tag": "ethics-and-emotions:prohibitions",
+     "scope": "span",
+     "quotes": [
+      "והסתכל פתאום בלתי מתכוין"
+     ],
+     "confidence": 2,
+     "why": "The forbidden gaze at a woman is the issue.",
+     "quotes_failed": false
+    },
+    {
+     "tag": "ethics-and-emotions:virtues",
+     "scope": "story",
+     "quotes": [],
+     "confidence": 2,
+     "why": "It illustrates the trait of loathing evil (מאוס ברע).",
+     "quotes_failed": false
+    },
+    {
+     "tag": "folkloristics:story_type_virtues",
+     "scope": "story",
+     "quotes": [],
+     "confidence": 2,
+     "why": "It shows the Maggid's purity and self-discipline.",
+     "quotes_failed": false
+    },
+    {
+     "tag": "not-a-hasidic-story:virtues",
+     "scope": "story",
+     "quotes": [],
+     "confidence": 1,
+     "why": "It sits under a trait heading 'מענין מאוס ברע' as a moral lesson.",
+     "quotes_failed": false
+    },
+    {
+     "tag": "social:relations_with_non_jews",
+     "scope": "span",
+     "quotes": [
+      "ובא אדון אחד עם פרוצה אחת",
+      "אז צוה האדון לגרש אותו החוצה"
+     ],
+     "confidence": 3,
+     "why": "He has an encounter with a Polish nobleman.",
+     "quotes_failed": false
+    },
+    {
+     "tag": "women:catalyst_character",
+     "scope": "span",
+     "quotes": [
+      "פרוצה אחת יפת תואר בגילוי הלב"
+     ],
+     "confidence": 3,
+     "why": "The woman's appearance sets off the episode, though she does not act.",
+     "quotes_failed": false
+    },
+    {
+     "tag": "ethics-and-emotions:sadness",
+     "scope": "span",
+     "quotes": [
+      "ועלה צער בלבו עד למחר"
+     ],
+     "confidence": 1,
+     "why": "His distress lasts until the next day.",
+     "quotes_failed": false
+    },
+    {
+     "tag": "practice:storytelling",
+     "scope": "span",
+     "quotes": [
+      "ושמעתי מהמגיד זלה״ה"
+     ],
+     "confidence": 1,
+     "why": "It is framed as heard from the Maggid himself.",
+     "quotes_failed": false
+    }
+   ],
+   "missing_concepts": [
+    "disgust / vomiting as a technique against desire (מאוס ברע)",
+    "tzaddik's early life as a village melamed",
+    "guarding of the eyes"
+   ],
+   "start_quote_found": true,
+   "end_quote_found": true
+  }
+ ],
+ "check": {
+  "non_vocab_tags": [],
+  "quotes": 10,
+  "quotes_not_found": 0
+ },
+ "id": "Derech-Haemuna_0137",
+ "chars": 436,
+ "seconds": 19
+}

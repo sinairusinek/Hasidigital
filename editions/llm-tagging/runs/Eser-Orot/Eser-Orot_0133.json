@@ -1,0 +1,81 @@
+{
+ "unit": {
+  "kind": "hasidic_story",
+  "why": "A short anecdote about the Maggid of Mezeritch, who could not afford the costly Etz Hayyim and hired himself out as a teacher for a term to buy it.",
+  "boundary_note": ""
+ },
+ "stories": [
+  {
+   "k": 1,
+   "start_quote": "עוד שמעתי ממנו שסיפר שהרה״מ הי'",
+   "end_quote": "דמי השכירות את ספה\"ק עץ החיים",
+   "hasidic": true,
+   "summary_en": "The Maggid longed to own the rare and costly Etz Hayyim of the Ari, so he hired himself out as a melamed for a term and spent his entire wages on the book.",
+   "tags": [
+    {
+     "tag": "knowledge:esoteric",
+     "scope": "span",
+     "quotes": [
+      "הספה\"ק עץ החיים מהאר״י הקדוש ז\"ל"
+     ],
+     "confidence": 2,
+     "why": "The object of his longing is the central Lurianic kabbalistic work.",
+     "quotes_failed": false
+    },
+    {
+     "tag": "knowledge:secret_texts",
+     "scope": "span",
+     "quotes": [
+      "כי הי' אז מחירו רב מחמת יוקר מציאותו",
+      "וקנה בעד כל דמי השכירות את ספה\"ק עץ החיים"
+     ],
+     "confidence": 1,
+     "why": "He acquires a rare kabbalistic book; it is a printed book rather than a hidden manuscript.",
+     "quotes_failed": false
+    },
+    {
+     "tag": "folkloristics:story_type_virtues",
+     "scope": "story",
+     "quotes": [],
+     "confidence": 2,
+     "why": "The anecdote shows his devotion and self-sacrifice for kabbalistic learning.",
+     "quotes_failed": false
+    },
+    {
+     "tag": "practice:study",
+     "scope": "span",
+     "quotes": [
+      "הי' משתוקק מאד לקנות לו הספה\"ק עץ החיים"
+     ],
+     "confidence": 1,
+     "why": "His desire to study Lurianic kabbalah is implied, but study itself is not depicted.",
+     "quotes_failed": false
+    },
+    {
+     "tag": "practice:storytelling",
+     "scope": "span",
+     "quotes": [
+      "עוד שמעתי ממנו שסיפר"
+     ],
+     "confidence": 1,
+     "why": "The story is framed as one told by an informant.",
+     "quotes_failed": false
+    }
+   ],
+   "missing_concepts": [
+    "working as a melamed (teacher) for wages",
+    "sacrifice to acquire holy books / the high price of books"
+   ],
+   "start_quote_found": true,
+   "end_quote_found": true
+  }
+ ],
+ "check": {
+  "non_vocab_tags": [],
+  "quotes": 5,
+  "quotes_not_found": 0
+ },
+ "id": "Eser-Orot_0133",
+ "chars": 223,
+ "seconds": 13
+}

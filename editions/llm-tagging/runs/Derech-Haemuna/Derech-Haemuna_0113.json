@@ -1,0 +1,110 @@
+{
+ "unit": {
+  "kind": "hasidic_story",
+  "why": "A brief anecdote: R. Zusya covers himself in winter, is overcome by the awe of the angels, cannot bear it, and asks God to remove it.",
+  "boundary_note": "Part of a thematic anthology section 'מענין יראת שמים'. The next division holds a separate Zusya anecdote on the same theme."
+ },
+ "stories": [
+  {
+   "k": 1,
+   "start_quote": "וסיפר המעשה מרבי זוסיא שכסה עצמו",
+   "end_quote": "שיסור מעליו היראה. (ע״ק בלקוטים)",
+   "hasidic": true,
+   "summary_en": "R. Zusya covered himself in winter and the awe felt by the angels came upon him; unable to bear it, he asked God to take the awe away from him.",
+   "tags": [
+    {
+     "tag": "ethics-and-emotions:awe",
+     "scope": "span",
+     "quotes": [
+      "ובא עליו יראת המלאכים ולא היה יכול לסבול אותה"
+     ],
+     "confidence": 3,
+     "why": "The story centres on an overwhelming religious awe.",
+     "quotes_failed": false
+    },
+    {
+     "tag": "ethics-and-emotions:fear",
+     "scope": "span",
+     "quotes": [
+      "ולא היה יכול לסבול אותה"
+     ],
+     "confidence": 2,
+     "why": "The awe or dread is so intense he cannot bear it.",
+     "quotes_failed": false
+    },
+    {
+     "tag": "practice:asceticism",
+     "scope": "span",
+     "quotes": [
+      "שכסה עצמו בגלגל בחורף"
+     ],
+     "confidence": 1,
+     "why": "Apparently a winter self-mortification (rolling in or covering himself with snow?), but the wording is unclear.",
+     "quotes_failed": false
+    },
+    {
+     "tag": "practice:prayer",
+     "scope": "span",
+     "quotes": [
+      "ובקש מהקב״ה שיסור מעליו היראה"
+     ],
+     "confidence": 1,
+     "why": "He petitions God, though this is not formal liturgy.",
+     "quotes_failed": false
+    },
+    {
+     "tag": "experience:revelation",
+     "scope": "span",
+     "quotes": [
+      "ובא עליו יראת המלאכים"
+     ],
+     "confidence": 1,
+     "why": "The angelic awe descends on him supernaturally.",
+     "quotes_failed": false
+    },
+    {
+     "tag": "characters-and-roles:angels",
+     "scope": "span",
+     "quotes": [
+      "ובא עליו יראת המלאכים"
+     ],
+     "confidence": 1,
+     "why": "Angels are referenced through their awe; they do not act.",
+     "quotes_failed": false
+    },
+    {
+     "tag": "practice:storytelling",
+     "scope": "span",
+     "quotes": [
+      "וסיפר המעשה מרבי זוסיא"
+     ],
+     "confidence": 2,
+     "why": "The tale is framed as being told by an unnamed speaker.",
+     "quotes_failed": false
+    },
+    {
+     "tag": "not-a-hasidic-story:sermon",
+     "scope": "story",
+     "quotes": [],
+     "confidence": 1,
+     "why": "Embedded in a thematic teaching anthology on fear of Heaven.",
+     "quotes_failed": false
+    }
+   ],
+   "missing_concepts": [
+    "being overwhelmed by excessive spiritual experience and asking for its removal",
+    "angelic awe as a level of fear of God"
+   ],
+   "start_quote_found": true,
+   "end_quote_found": true
+  }
+ ],
+ "check": {
+  "non_vocab_tags": [],
+  "quotes": 7,
+  "quotes_not_found": 0
+ },
+ "id": "Derech-Haemuna_0113",
+ "chars": 140,
+ "seconds": 14
+}

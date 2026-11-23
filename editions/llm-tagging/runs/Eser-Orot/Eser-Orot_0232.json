@@ -1,0 +1,198 @@
+{
+ "unit": {
+  "kind": "hasidic_story",
+  "why": "A single narrative, transmitted through a chain of tellers, about R. Mottel Kalishiner, who on the Lublin Rebbe's word became a village tutor, learned a teaching from a villager, and saw his own fortunes restored.",
+  "boundary_note": ""
+ },
+ "stories": [
+  {
+   "k": 1,
+   "start_quote": "דבר תורה מאיש כפרי מה ששיבחה מרן",
+   "end_quote": "ולא הוצרכתי לזה עכל״ה לזקינו של הנ\"ל",
+   "hasidic": true,
+   "summary_en": "The Seer of Lublin tells the young, well-off R. Mottel to accept a tutoring post; a villager pays 40 gold coins to hire him for his dull sons; his house in Zarik is meanwhile looted by the French on their way to Russia; at the Rebbe's instruction he prays for the boys and they flourish; when he returns he repeats a villager's teaching on bearing others patiently, and the Rebbe praises it as the teaching he himself works by.",
+   "tags": [
+    {
+     "tag": "practice:storytelling",
+     "scope": "story",
+     "quotes": [],
+     "confidence": 3,
+     "why": "Explicit chain of transmission: R. Yitzhak of Warka told the story to R. Mottel's grandson, who wrote it to the author.",
+     "quotes_failed": false
+    },
+    {
+     "tag": "practice:travel_to_the_tsaddik",
+     "scope": "span",
+     "quotes": [
+      "שבילדותו בא להרבי מלובלין",
+      "נסעתי לרבי מלובליו וסיפרתי לו",
+      "ובאתי עמו להרבי"
+     ],
+     "confidence": 3,
+     "why": "He travels to the Lublin Rebbe several times.",
+     "quotes_failed": false
+    },
+    {
+     "tag": "practice:reception_of_hasidim",
+     "scope": "span",
+     "quotes": [
+      "ובכה לפני הרבי שבניו ערלי לב",
+      "תגיד לי מה תורה שמעת שם"
+     ],
+     "confidence": 3,
+     "why": "The Rebbe receives the villager and R. Mottel and directs them.",
+     "quotes_failed": false
+    },
+    {
+     "tag": "practice:business_advice",
+     "scope": "span",
+     "quotes": [
+      "כשיזדמן לפניך מלומדות טוב אינו מזיק שתקבל",
+      "והשיב שא\"צ להיות מלמד"
+     ],
+     "confidence": 3,
+     "why": "The Rebbe advises him to take up, and later to leave, work as a tutor.",
+     "quotes_failed": false
+    },
+    {
+     "tag": "supernatural:perception",
+     "scope": "span",
+     "quotes": [
+      "והבנתי שהרבי אינו טועה ונסעתי עמו"
+     ],
+     "confidence": 2,
+     "why": "The Rebbe's advice shows foreknowledge of the looting of his house.",
+     "quotes_failed": false
+    },
+    {
+     "tag": "social:retrospective_recognition",
+     "scope": "span",
+     "quotes": [
+      "חשבתי שבודאי טעה על אחר",
+      "וכתבה אלי שטוב עשיתי כי הצרפתים"
+     ],
+     "confidence": 3,
+     "why": "He first assumes the Rebbe was mistaken, then understands why the advice was given.",
+     "quotes_failed": false
+    },
+    {
+     "tag": "times:historical_event",
+     "scope": "span",
+     "quotes": [
+      "הצרפתים בעברם למלחמה לרוסיא עברו דרך עירי זאריק"
+     ],
+     "confidence": 3,
+     "why": "Napoleon's 1812 march on Russia is part of the setting.",
+     "quotes_failed": false
+    },
+    {
+     "tag": "practice:prayer",
+     "scope": "span",
+     "quotes": [
+      "אמר תתפלל עליהם וכן עשיתי"
+     ],
+     "confidence": 3,
+     "why": "His prayer for the pupils, made at the Rebbe's instruction, brings their success.",
+     "quotes_failed": false
+    },
+    {
+     "tag": "practice:study",
+     "scope": "span",
+     "quotes": [
+      "והתחלתי ללמוד עמהם חומש",
+      "והצליחו מאד בהתמדה ובפתיחת הלב"
+     ],
+     "confidence": 3,
+     "why": "Teaching Torah to the villager's sons is the core of the plot.",
+     "quotes_failed": false
+    },
+    {
+     "tag": "practice:torat_ha_tsaddik",
+     "scope": "span",
+     "quotes": [
+      "היות שעשיתי עפ\"י הרבי מלובלין מוכרח אני לשאלו"
+     ],
+     "confidence": 2,
+     "why": "He submits his choices to the tsaddik's direction and the tsaddik's prayer instruction works.",
+     "quotes_failed": false
+    },
+    {
+     "tag": "practice:sermon",
+     "scope": "span",
+     "quotes": [
+      "ויט שכמו לסבול. כי כל הסובל יש לו מנוחה"
+     ],
+     "confidence": 3,
+     "why": "A villager's reading of a verse is quoted and praised by the Rebbe.",
+     "quotes_failed": false
+    },
+    {
+     "tag": "ethics-and-emotions:anger",
+     "scope": "span",
+     "quotes": [
+      "מסרב לבא מכעסו על אחד"
+     ],
+     "confidence": 3,
+     "why": "A man's anger, which keeps him from the prayer quorum, prompts the teaching.",
+     "quotes_failed": false
+    },
+    {
+     "tag": "ethics-and-emotions:virtues",
+     "scope": "span",
+     "quotes": [
+      "והוכרחתי לאכול עם ב״ב בסבלנות",
+      "ואינו כועס על זולתו"
+     ],
+     "confidence": 2,
+     "why": "Patience and forbearance are the virtue the story praises.",
+     "quotes_failed": false
+    },
+    {
+     "tag": "social:relations_with_non_hasidim",
+     "scope": "span",
+     "quotes": [
+      "אחרי בא איש מכפר הסמוך לעיר טארניגראד"
+     ],
+     "confidence": 1,
+     "why": "He deals with simple villagers outside the Hasidic circle; borderline.",
+     "quotes_failed": false
+    },
+    {
+     "tag": "women:minor_character",
+     "scope": "span",
+     "quotes": [
+      "וכתבתי לאשתי את זאת וכתבה אלי שטוב עשיתי"
+     ],
+     "confidence": 3,
+     "why": "His wife writes back with the news of the looting.",
+     "quotes_failed": false
+    },
+    {
+     "tag": "supernatural:miracle",
+     "scope": "span",
+     "quotes": [
+      "וכן הוה שבתוך הזמן נתעשרה ביתי"
+     ],
+     "confidence": 1,
+     "why": "His wealth is restored, as if confirming the Rebbe; borderline.",
+     "quotes_failed": false
+    }
+   ],
+   "missing_concepts": [
+    "melamed (tutor) as a profession",
+    "wisdom of the simple folk (a teaching learned from a villager)",
+    "patience and forbearance (savlanut)"
+   ],
+   "start_quote_found": true,
+   "end_quote_found": true
+  }
+ ],
+ "check": {
+  "non_vocab_tags": [],
+  "quotes": 22,
+  "quotes_not_found": 0
+ },
+ "id": "Eser-Orot_0232",
+ "chars": 1461,
+ "seconds": 20
+}

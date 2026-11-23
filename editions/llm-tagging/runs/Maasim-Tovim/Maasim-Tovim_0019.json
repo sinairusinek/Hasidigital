@@ -1,0 +1,263 @@
+{
+ "unit": {
+  "kind": "non_hasidic_story",
+  "why": "The division is a moralizing folktale. A rebel who protected Jews is rewarded after death with four hours of kingship each day, and a pious merchant meets him after a shipwreck. No Hasidic figures appear.",
+  "boundary_note": ""
+ },
+ "stories": [
+  {
+   "k": 1,
+   "start_quote": "מעשה גדול ונורא של המורד בימי",
+   "end_quote": "בטחוננו בו תמיד כל ימי חיינו אכי״ר",
+   "hasidic": false,
+   "summary_en": "A rebel guarded the Jews of a conquered town in their synagogue during four hours of plunder and repaid their losses. After his execution, a shipwrecked pious merchant finds him in a desert palace, where he rules four hours daily as his reward before being killed and sent to hell. The rebel repays the merchant's losses, has him carried home in one day, and asks for prayers.",
+   "tags": [
+    {
+     "tag": "not-a-hasidic-story:virtues",
+     "scope": "span",
+     "quotes": [
+      "למדנו מהמעשה הזה לידע ולהודיע כמה גדולה מצות צדקה"
+     ],
+     "confidence": 3,
+     "why": "Explicit moral lesson on charity, lovingkindness and trust in God",
+     "quotes_failed": false
+    },
+    {
+     "tag": "ethics-and-emotions:charity",
+     "scope": "span",
+     "quotes": [
+      "כמה גדולה מצות צדקה וגמילת חסדים",
+      "ושלם להם הכל במשלם עד סוף פרוטה"
+     ],
+     "confidence": 3,
+     "why": "The rebel's lovingkindness and repayment is the core theme",
+     "quotes_failed": false
+    },
+    {
+     "tag": "ethics-and-emotions:virtues",
+     "scope": "span",
+     "quotes": [
+      "כמה עמד לו צדקתו של זה החסיד"
+     ],
+     "confidence": 2,
+     "why": "The merchant's righteousness and trust in God are praised",
+     "quotes_failed": false
+    },
+    {
+     "tag": "ethics-and-emotions:punishment",
+     "scope": "span",
+     "quotes": [
+      "ואח״כ הורגים אותי ומחזירים אותי לגיהנם להענישני",
+      "ולמדנו שהקב״ה מעניש לרשעים אפי׳ מאו״ה"
+     ],
+     "confidence": 3,
+     "why": "The rebel is punished daily in the afterlife",
+     "quotes_failed": false
+    },
+    {
+     "tag": "social:relations_with_non_jews",
+     "scope": "span",
+     "quotes": [
+      "נתן בלבו לעשות חסד עם היהודים",
+      "ויבא ויעמוד הוא בעצמו בפתח בהכ״נ"
+     ],
+     "confidence": 3,
+     "why": "A gentile rebel protects the Jews",
+     "quotes_failed": false
+    },
+    {
+     "tag": "times:historical_event",
+     "scope": "span",
+     "quotes": [
+      "בימי מלך רדאלפס הראשון בשנת מ״ו לאלף הששי"
+     ],
+     "confidence": 2,
+     "why": "Framed by a rebellion and war under a named king",
+     "quotes_failed": false
+    },
+    {
+     "tag": "social:conflict",
+     "scope": "span",
+     "quotes": [
+      "ויענהו המושל להמורד הנזכר בעזות גדול"
+     ],
+     "confidence": 2,
+     "why": "War between the rebel and the king's forces",
+     "quotes_failed": false
+    },
+    {
+     "tag": "social:relations_with_the_authorities",
+     "scope": "span",
+     "quotes": [
+      "ויקצוף המלך מאד וחמתו בערה בו"
+     ],
+     "confidence": 1,
+     "why": "Royal authorities appear, but only in the rebel's war",
+     "quotes_failed": false
+    },
+    {
+     "tag": "times:death",
+     "scope": "span",
+     "quotes": [
+      "ויתפשו את המורד חי ויהרגוהו",
+      "ונטבעו כל בני הספינה וכל אשר בה"
+     ],
+     "confidence": 3,
+     "why": "The rebel's execution and the drowning of the passengers",
+     "quotes_failed": false
+    },
+    {
+     "tag": "supernatural:miracle",
+     "scope": "span",
+     "quotes": [
+      "בראותו כי הלחם שלם בשלימות כמקדם בלי חסר",
+      "שה׳ הפליא חסדו עמו שנשאר הוא"
+     ],
+     "confidence": 3,
+     "why": "Self-replenishing food and survival of the shipwreck",
+     "quotes_failed": false
+    },
+    {
+     "tag": "supernatural:contraction_of_the_road",
+     "scope": "span",
+     "quotes": [
+      "אני אוליכהו ביום אחד",
+      "ויוליכהו ביום אחד ויניחהו על פתח עירו"
+     ],
+     "confidence": 3,
+     "why": "A servant carries him home in one day",
+     "quotes_failed": false
+    },
+    {
+     "tag": "supernatural:communicating_with_the_invisible",
+     "scope": "span",
+     "quotes": [
+      "אני אני הוא אותו המורד ואני מת ולא חי"
+     ],
+     "confidence": 2,
+     "why": "The merchant converses with a dead soul",
+     "quotes_failed": false
+    },
+    {
+     "tag": "social:retrospective_recognition",
+     "scope": "span",
+     "quotes": [
+      "ויען המלך ויאמר אני אני הוא אותו המורד"
+     ],
+     "confidence": 3,
+     "why": "The king is revealed to be the dead rebel",
+     "quotes_failed": false
+    },
+    {
+     "tag": "ethics-and-emotions:fear",
+     "scope": "span",
+     "quotes": [
+      "וארכבותיו דא לדא נקשן מרוב הפחד והחלחלה",
+      "ויירא מאד לנפשו ויבקש מקום להסתר"
+     ],
+     "confidence": 3,
+     "why": "The merchant's terror at the army and the killing",
+     "quotes_failed": false
+    },
+    {
+     "tag": "experience:trembling",
+     "scope": "span",
+     "quotes": [
+      "וארכבותיו דא לדא נקשן מרוב הפחד"
+     ],
+     "confidence": 2,
+     "why": "Knees knocking from fear",
+     "quotes_failed": false
+    },
+    {
+     "tag": "experience:dream",
+     "scope": "span",
+     "quotes": [
+      "ובאותו לילה בא בחלום להחסיד הנזכר"
+     ],
+     "confidence": 3,
+     "why": "The rebel appears in a dream to thank him",
+     "quotes_failed": false
+    },
+    {
+     "tag": "practice:prayer",
+     "scope": "span",
+     "quotes": [
+      "להתפלל בעד המורד הנזכר",
+      "קם החסיד והתפלל תפלתו"
+     ],
+     "confidence": 3,
+     "why": "Communal prayer for the rebel's soul and the merchant's daily prayer",
+     "quotes_failed": false
+    },
+    {
+     "tag": "practice:fasting",
+     "scope": "span",
+     "quotes": [
+      "כלם נקבצו ובאו תוך בית הכנסת בתענית"
+     ],
+     "confidence": 2,
+     "why": "The Jews gather fasting during the siege",
+     "quotes_failed": false
+    },
+    {
+     "tag": "spaces:hell",
+     "scope": "span",
+     "quotes": [
+      "ומחזירים אותי לגיהנם להענישני על כל מפעלי"
+     ],
+     "confidence": 1,
+     "why": "Hell is mentioned as the place of punishment, not shown as a setting",
+     "quotes_failed": false
+    },
+    {
+     "tag": "ethics-and-emotions:sadness",
+     "scope": "span",
+     "quotes": [
+      "ויתעצב אל לבו ויתמרמר בקרבו"
+     ],
+     "confidence": 1,
+     "why": "The merchant's distress while trapped",
+     "quotes_failed": false
+    },
+    {
+     "tag": "ethics-and-emotions:prohibitions",
+     "scope": "span",
+     "quotes": [
+      "מדברים אשר הם כשרים לאכול כמו מפת"
+     ],
+     "confidence": 1,
+     "why": "Care to eat only kosher food and not to take others' property",
+     "quotes_failed": false
+    },
+    {
+     "tag": "women:mention_only",
+     "scope": "span",
+     "quotes": [
+      "ואשתי ובני ועוללי יהי׳ עטופים ברעב"
+     ],
+     "confidence": 2,
+     "why": "The wife is only referred to",
+     "quotes_failed": false
+    }
+   ],
+   "missing_concepts": [
+    "measure-for-measure reward in the afterlife",
+    "shipwreck",
+    "trust in God (bitachon) and living from one's own labor",
+    "prayer for the soul of a dead non-Jew",
+    "enchanted palace and daily-repeating spectral court"
+   ],
+   "start_quote_found": true,
+   "end_quote_found": true
+  }
+ ],
+ "check": {
+  "non_vocab_tags": [],
+  "quotes": 30,
+  "quotes_not_found": 0
+ },
+ "id": "Maasim-Tovim_0019",
+ "chars": 13537,
+ "seconds": 32
+}

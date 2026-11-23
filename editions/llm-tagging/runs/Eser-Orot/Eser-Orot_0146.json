@@ -1,0 +1,90 @@
+{
+ "unit": {
+  "kind": "hasidic_story",
+  "why": "A short transmitted anecdote: a holy name was revealed to the Maggid of Kozienice that could destroy all enemies of the Jews at once, and he chose silence and endurance instead; the event is minimal but it is narrated as something that happened to him.",
+  "boundary_note": ""
+ },
+ "stories": [
+  {
+   "k": 1,
+   "start_quote": "ש״ב הרה״ק מראזווידוב אמר בשם זקינו",
+   "end_quote": "אחרי שהשי\"ת סובל עכ״ל",
+   "hasidic": true,
+   "summary_en": "The Maggid of Kozienice told the Ropshitzer that a holy name was revealed to him with which he could uproot all haters of the Jews in an instant, but he kept silent before God and endured the suffering, since God himself bears it.",
+   "tags": [
+    {
+     "tag": "experience:revelation",
+     "scope": "span",
+     "quotes": [
+      "שנתגלה לו שם לעקור כל שונאי היהודים"
+     ],
+     "confidence": 3,
+     "why": "A holy name was disclosed to him",
+     "quotes_failed": false
+    },
+    {
+     "tag": "practice:use_of_holy_names",
+     "scope": "span",
+     "quotes": [
+      "שנתגלה לו שם לעקור כל שונאי היהודים ברגע"
+     ],
+     "confidence": 2,
+     "why": "A name with destructive power is at issue, though he does not use it",
+     "quotes_failed": false
+    },
+    {
+     "tag": "ethics-and-emotions:resisting_temptation",
+     "scope": "span",
+     "quotes": [
+      "והוא דום לה׳ והתחולל לו"
+     ],
+     "confidence": 2,
+     "why": "He refrains from using the power to destroy the enemies",
+     "quotes_failed": false
+    },
+    {
+     "tag": "folkloristics:story_type_virtues",
+     "scope": "story",
+     "quotes": [],
+     "confidence": 2,
+     "why": "The anecdote illustrates the tsaddik's restraint and acceptance of suffering",
+     "quotes_failed": false
+    },
+    {
+     "tag": "practice:storytelling",
+     "scope": "span",
+     "quotes": [
+      "אמר בשם זקינו הרה״ק מראפשיטץ כי המגיד מקאזניץ אמר לו"
+     ],
+     "confidence": 1,
+     "why": "Framed as a chain of tsaddikim retelling the account",
+     "quotes_failed": false
+    },
+    {
+     "tag": "social:relations_with_non_jews",
+     "scope": "span",
+     "quotes": [
+      "לעקור כל שונאי היהודים ברגע"
+     ],
+     "confidence": 1,
+     "why": "Hostile gentiles are the implied target",
+     "quotes_failed": false
+    }
+   ],
+   "missing_concepts": [
+    "acceptance of exile/suffering in imitation of God (God bears the suffering)",
+    "restraint from using supernatural power"
+   ],
+   "start_quote_found": true,
+   "end_quote_found": true
+  }
+ ],
+ "check": {
+  "non_vocab_tags": [],
+  "quotes": 5,
+  "quotes_not_found": 0
+ },
+ "id": "Eser-Orot_0146",
+ "chars": 182,
+ "seconds": 14
+}

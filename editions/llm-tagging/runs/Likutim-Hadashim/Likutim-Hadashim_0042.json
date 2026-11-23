@@ -1,0 +1,84 @@
+{
+ "unit": {
+  "kind": "hasidic_story",
+  "why": "A short anecdote: the Holy Jew, lodging overnight with his disciple R. Simha Bunim, lies awake groaning, and when asked he explains that he foresees the decline of Hasidic leadership.",
+  "boundary_note": ""
+ },
+ "stories": [
+  {
+   "k": 1,
+   "start_quote": "שמעתי מעשה מהרה״ק היהודי זצ\"ל",
+   "end_quote": "שגם זה יתקלקל. מה יעשו ישראל ?!",
+   "hasidic": true,
+   "summary_en": "The Holy Jew, lodging one night with his disciple R. Simha Bunim, lies awake groaning; asked why, he traces the chain of Jewish leadership from Moses to the sincere preachers and says he groans because he foresees that the new institution of rebbes will also become corrupt.",
+   "tags": [
+    {
+     "tag": "social:inter_hasidic_master_disciple_relationship",
+     "scope": "span",
+     "quotes": [
+      "עם הרה״ק ר׳ שמחה בונם זצ\"ל שהי' תלמידו"
+     ],
+     "confidence": 3,
+     "why": "The exchange takes place between the master and his disciple.",
+     "quotes_failed": false
+    },
+    {
+     "tag": "practice:torat_ha_tsaddik",
+     "scope": "span",
+     "quotes": [
+      "ואח״כ התחילו רבית. ע״ז אני גונח"
+     ],
+     "confidence": 2,
+     "why": "The rebbe institution is placed in the chain of leadership, and its future decay is the point of the story.",
+     "quotes_failed": false
+    },
+    {
+     "tag": "ethics-and-emotions:sadness",
+     "scope": "span",
+     "quotes": [
+      "הי׳ חושב וגנח מאוד",
+      "ע״ז אני גונח שאני רואה שגם זה יתקלקל"
+     ],
+     "confidence": 2,
+     "why": "The tzaddik is anguished and groaning over the future of the generation.",
+     "quotes_failed": false
+    },
+    {
+     "tag": "supernatural:perception",
+     "scope": "span",
+     "quotes": [
+      "אני רואה שגם זה יתקלקל"
+     ],
+     "confidence": 1,
+     "why": "He foresees the future decline, possibly through holy insight.",
+     "quotes_failed": false
+    },
+    {
+     "tag": "practice:sermon",
+     "scope": "span",
+     "quotes": [
+      "שלאחר משה היו שופטים ולאחר שופטים נביאים"
+     ],
+     "confidence": 1,
+     "why": "The answer is a short historiosophical teaching about the succession of leadership.",
+     "quotes_failed": false
+    }
+   ],
+   "missing_concepts": [
+    "decline of the generations / corruption of religious leadership",
+    "historiosophy of the chain of Jewish leadership",
+    "self-critique of the rebbe institution (rabbanut / rebbistve)"
+   ],
+   "start_quote_found": true,
+   "end_quote_found": true
+  }
+ ],
+ "check": {
+  "non_vocab_tags": [],
+  "quotes": 6,
+  "quotes_not_found": 0
+ },
+ "id": "Likutim-Hadashim_0042",
+ "chars": 435,
+ "seconds": 14
+}

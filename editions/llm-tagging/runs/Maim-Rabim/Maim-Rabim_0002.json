@@ -1,0 +1,120 @@
+{
+ "unit": {
+  "kind": "hasidic_story",
+  "why": "A short anecdote: R. Yitzhak of Drohobych, lost on the road, performs a yihud that benefits the 'prince of the forest', who then carries him to his destination in an instant.",
+  "boundary_note": ""
+ },
+ "stories": [
+  {
+   "k": 1,
+   "start_quote": "הה״ק החסיד ר׳ יצחק דראהביטשטר זצללה״ה",
+   "end_quote": "לעיר מקום חפצו בהרף עין",
+   "hasidic": true,
+   "summary_en": "R. Yitzhak of Drohobych, lost on the way at night, performed a yihud that did a great favour for the prince of the forest, who in return brought him to his destination in the blink of an eye.",
+   "tags": [
+    {
+     "tag": "kabbalah:kabbalistic_terms_yihudim",
+     "scope": "span",
+     "quotes": [
+      "והי׳ מיחד יחוד א׳ וע״י היחוד"
+     ],
+     "confidence": 3,
+     "why": "He performs a kabbalistic unification.",
+     "quotes_failed": false
+    },
+    {
+     "tag": "practice:meditation",
+     "scope": "span",
+     "quotes": [
+      "והי׳ מיחד יחוד א׳ וע״י היחוד"
+     ],
+     "confidence": 3,
+     "why": "Performing yihudim is contemplative practice.",
+     "quotes_failed": false
+    },
+    {
+     "tag": "supernatural:contraction_of_the_road",
+     "scope": "span",
+     "quotes": [
+      "הוליך אותו לעיר מקום חפצו בהרף עין"
+     ],
+     "confidence": 3,
+     "why": "He is carried to his destination in an instant.",
+     "quotes_failed": false
+    },
+    {
+     "tag": "practice:the_travels_of_the_tsaddik",
+     "scope": "span",
+     "quotes": [
+      "פ״א הי׳ תועה בדרך ובא בלילה"
+     ],
+     "confidence": 3,
+     "why": "The tale turns on the tsaddik's journey and getting lost.",
+     "quotes_failed": false
+    },
+    {
+     "tag": "supernatural:miracle",
+     "scope": "span",
+     "quotes": [
+      "הוליך אותו לעיר מקום חפצו בהרף עין"
+     ],
+     "confidence": 2,
+     "why": "A discrete wondrous event.",
+     "quotes_failed": false
+    },
+    {
+     "tag": "supernatural:communicating_with_the_invisible",
+     "scope": "span",
+     "quotes": [
+      "עשה טובה גדולה להשר של היער"
+     ],
+     "confidence": 2,
+     "why": "He interacts with the 'prince of the forest', a spiritual being.",
+     "quotes_failed": false
+    },
+    {
+     "tag": "characters-and-roles:demons",
+     "scope": "span",
+     "quotes": [
+      "להשר של היער"
+     ],
+     "confidence": 1,
+     "why": "The forest prince may be a spirit or demon; this is ambiguous.",
+     "quotes_failed": false
+    },
+    {
+     "tag": "characters-and-roles:baal_shem",
+     "scope": "story",
+     "quotes": [],
+     "confidence": 1,
+     "why": "R. Yitzhak of Drohobych is a pre-Hasidic baal-shem-type figure.",
+     "quotes_failed": false
+    },
+    {
+     "tag": "practice:use_of_holy_names",
+     "scope": "span",
+     "quotes": [
+      "וע״י היחוד עשה טובה גדולה"
+     ],
+     "confidence": 1,
+     "why": "The unification of names is used to bring about a concrete result.",
+     "quotes_failed": false
+    }
+   ],
+   "missing_concepts": [
+    "forest spirit / 'prince of the forest' (sar ha-ya'ar) as a supernatural being who repays a favour",
+    "being lost on the road at night"
+   ],
+   "start_quote_found": true,
+   "end_quote_found": true
+  }
+ ],
+ "check": {
+  "non_vocab_tags": [],
+  "quotes": 8,
+  "quotes_not_found": 0
+ },
+ "id": "Maim-Rabim_0002",
+ "chars": 204,
+ "seconds": 15
+}

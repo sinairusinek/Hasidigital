@@ -1,0 +1,91 @@
+{
+ "unit": {
+  "kind": "continuation_or_fragment",
+  "why": "The division continues the deathbed narrative of the tzaddik ('מרן') begun in the previous division. It adds the episode of the tzaddik grasping his beard at the moment of death, and R. Y. of Dombrowa crying out on seeing it.",
+  "boundary_note": "continues the death-of-the-tzaddik story from the previous division; the funeral continues in the next division"
+ },
+ "stories": [
+  {
+   "k": 1,
+   "start_quote": "והנה אז בעת יציאת נשמתו הקדושה",
+   "end_quote": "ברגע האחרונה, כן שמעתי אז",
+   "hasidic": true,
+   "summary_en": "At the tzaddik's death, R. Y. of Dombrowa, son-in-law of R. Moshe of Kozhnitz, sees him grasp his holy beard in his last moment. He cries out that we no longer have a rebbe, because he knew the Kozhnitzer Maggid and his son R. Moshe had done the same at death as a special act of self-sacrifice to God.",
+   "tags": [
+    {
+     "tag": "folkloristics:story_type_death_of_the_tsaddik",
+     "scope": "story",
+     "quotes": [],
+     "confidence": 3,
+     "why": "Deathbed scene of the tzaddik",
+     "quotes_failed": false
+    },
+    {
+     "tag": "times:death",
+     "scope": "span",
+     "quotes": [
+      "בעת יציאת נשמתו הקדושה"
+     ],
+     "confidence": 3,
+     "why": "The tzaddik's death is depicted",
+     "quotes_failed": false
+    },
+    {
+     "tag": "practice:devekut",
+     "scope": "span",
+     "quotes": [
+      "היה להם יחוד בזה למסור נפש לה׳ ברגע האחרונה"
+     ],
+     "confidence": 1,
+     "why": "The dying tzaddik gives his soul over to God at the last moment",
+     "quotes_failed": false
+    },
+    {
+     "tag": "social:retrospective_recognition",
+     "scope": "span",
+     "quotes": [
+      "ומיד היה צועק ובוכה ואמר כי אין לנו עוד רבי"
+     ],
+     "confidence": 1,
+     "why": "The onlooker understands the meaning of the gesture from earlier precedent",
+     "quotes_failed": false
+    },
+    {
+     "tag": "characters-and-roles:the_family_of_the_tsaddik",
+     "scope": "span",
+     "quotes": [
+      "חתן ההק' ר' משה מקאזניץ"
+     ],
+     "confidence": 1,
+     "why": "Relatives of the Kozhnitz dynasty are present or mentioned",
+     "quotes_failed": false
+    },
+    {
+     "tag": "practice:storytelling",
+     "scope": "span",
+     "quotes": [
+      "כן שמעתי אז"
+     ],
+     "confidence": 1,
+     "why": "The narrator frames the episode as testimony he heard at the time",
+     "quotes_failed": false
+    }
+   ],
+   "missing_concepts": [
+    "grasping the beard at the moment of death as a dynastic deathbed rite",
+    "mesirat nefesh (self-sacrifice) at death",
+    "mourning and weeping at a tzaddik's passing"
+   ],
+   "start_quote_found": true,
+   "end_quote_found": true
+  }
+ ],
+ "check": {
+  "non_vocab_tags": [],
+  "quotes": 5,
+  "quotes_not_found": 0
+ },
+ "id": "Toldot-Haniflaot_0094",
+ "chars": 361,
+ "seconds": 17
+}

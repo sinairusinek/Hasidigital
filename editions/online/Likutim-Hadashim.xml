@@ -18,7 +18,7 @@
 					<name>DictaBert</name>
 					<note>automatic tagging, corrected with Gemini; not yet reviewed by hand</note>
 				</respStmt>
-			</titleStmt><editionStmt><edition n="1.0.0">Working edition</edition></editionStmt>
+			<respStmt xml:id="llm-tagging"><resp>Topic tags: assigned by Claude Opus 5.5 with the project's topic scheme (editions/llm-tagging; calibrated 2026-11-16, est. precision 0.89 / recall 0.90, model-judged); not reviewed by hand</resp><name>Claude Opus 5.5 (Anthropic)</name></respStmt></titleStmt><editionStmt><edition n="1.0.0">Working edition</edition></editionStmt>
 			<publicationStmt>
 				<p>This edition was created in the framework of the the project "Historical Digital
 					Analysis of Hasidic Stories Until 1914", PI: Gadi Sagiv; Supervising
@@ -28,7 +28,7 @@
 			</publicationStmt>
 			<sourceDesc><bibl type="digital"><title>Digital scan from HebrewBooks.org</title><publisher>HebrewBooks.org</publisher><ptr target="https://hebrewbooks.org/3671"/><idno type="HebrewBooks">3671</idno><idno type="Transkribus">6577070</idno><note>Source for transcription</note></bibl><bibl type="original"><title type="main" xml:lang="he">ליקוטים חדשים</title><title type="main" xml:lang="en">Likutim Hadashim</title><author><persName xml:lang="he">יחיאל משה גרינוולד</persName><persName xml:lang="en">Yechiel Moshe Greenwald</persName></author><pubPlace xml:lang="he">ורשה</pubPlace><pubPlace xml:lang="en">Warsaw</pubPlace><date when="1899">תרנ"ט</date><textLang mainLang="heb"/><idno type="HebrewBooks">3671</idno><idno type="BHB">135736</idno><idno type="Kima">953</idno><idno type="Transkribus">6577070</idno><idno type="DBid">3697</idno><idno type="work">50</idno></bibl></sourceDesc>
 		</fileDesc>
-	<revisionDesc><change when="2026-04-29">sourceDesc synced from edition-metadata.json</change><change when="2026-11-21">text repaired: Gemini correction pass replayed without the tag-stripping bug that shuffled text (58f4166); later tag edits carried over</change><change when="2026-11-21">header in the shape of the online editions; page breaks restored from the Transkribus export</change></revisionDesc></teiHeader>
+	<revisionDesc><change when="2026-04-29">sourceDesc synced from edition-metadata.json</change><change when="2026-11-21">text repaired: Gemini correction pass replayed without the tag-stripping bug that shuffled text (58f4166); later tag edits carried over</change><change when="2026-11-21">header in the shape of the online editions; page breaks restored from the Transkribus export</change><change when="2026-11-23">topic tags (LLM, confidence &gt;= 2) written for 49 stories; not reviewed by hand</change></revisionDesc></teiHeader>
 	<text>
 		<front><div type="front-matter"><p>
 					<pb facs="Likutim-Hadashim_0001.jpg"/><lb/>ליקוטים חדשים
@@ -67,7 +67,7 @@
 					<lb/>כי אדם יכול לאסור שלו על כל אדם :
 				</p>
 				</div></front><body>
-			<div type="story" xml:id="Likutim-Hadashim_0001" n="1"><head type="storyHead">Likutim-Hadashim_0001</head>
+			<div type="story" xml:id="Likutim-Hadashim_0001" n="1"><head type="storyHead">Likutim-Hadashim_0001</head><span ana="ethics-and-emotions:humility; folkloristics:story_type_virtues; practice:drinking_alcohol; ethics-and-emotions:pride; practice:sermon; social:retrospective_recognition; times:inauguration" resp="#llm-tagging">תיוגים</span>
 <p>
 					<lb/>מעשה בר׳ ר׳ <persName>שמעלקע</persName> כשבא על
 					<lb/>הרבנות ל<placeName ref="#H-LOC_66">ניקלשבורג</placeName> עשו לו
@@ -85,7 +85,7 @@
 					<lb/>כך הכבוד מה שעושין לך אחרים כאילו
 					<lb/>בעצמך עשית את הכבוד :
 				</p>
-				</div><div type="story" xml:id="Likutim-Hadashim_0002" n="2"><head type="storyHead">Likutim-Hadashim_0002</head>
+				</div><div type="story" xml:id="Likutim-Hadashim_0002" n="2"><head type="storyHead">Likutim-Hadashim_0002</head><span ana="ethics-and-emotions:humility; ethics-and-emotions:repentance; folkloristics:story_type_rapprochement; practice:sermon; social:relations_with_non_hasidim; times:shabbat; practice:reception_of_hasidim; practice:torat_ha_tsaddik; practice:travel_to_the_tsaddik; social:retrospective_recognition" resp="#llm-tagging">תיוגים</span>
 <p>
 					<lb/>שמעתי שהיה מתנגד אחד גדול בתורה
 					<lb/>ב<placeName ref="#H-LOC_136">בריסק</placeName> שנסע ל<placeName>מעזיבוזש</placeName> על
@@ -104,7 +104,7 @@
 					<lb/>פשט טוב על ה<name type="work">מדרש</name> נפלא מאוד וראה
 					<lb/>המתנגד איך שאיש אלהים הוא :
 				</p>
-				</div><div type="story" xml:id="Likutim-Hadashim_0003" n="3"><head type="storyHead">Likutim-Hadashim_0003</head>
+				</div><div type="story" xml:id="Likutim-Hadashim_0003" n="3"><head type="storyHead">Likutim-Hadashim_0003</head><span ana="practice:study; spaces:beth_midrash; ethics-and-emotions:shame; social:inter_hasidic_master_disciple_relationship" resp="#llm-tagging">תיוגים</span>
 <p>
 					<lb/>שמעתי כשהי׳ <persName>הבעל המאור</persName> ילד רך
 				</p>
@@ -119,7 +119,7 @@
 					<lb/>נערות וי<date>שבת</date>י בעצמי טוב לי להיות מעשה
 					<lb/>נערות עתה ולא כשאהיה בן עשרים שנה :
 				</p>
-				</div><div type="story" xml:id="Likutim-Hadashim_0004" n="4"><head type="storyHead">Likutim-Hadashim_0004</head>
+				</div><div type="story" xml:id="Likutim-Hadashim_0004" n="4"><head type="storyHead">Likutim-Hadashim_0004</head><span ana="ethics-and-emotions:resisting_temptation; not-a-hasidic-story:hagiography; practice:study; characters-and-roles:the_family_of_the_tsaddik; ethics-and-emotions:virtues; practice:sermon; women:minor_character" resp="#llm-tagging">תיוגים</span>
 <p>
 					<lb/>שמעתי מעשה כשהי׳ ה<persName>ש"ך</persName> ז"ל <reg reg="אוכל">אכל</reg>
 					<lb/>מזונות אצל חותנו הגביר ובשעת
@@ -140,7 +140,7 @@
 					<lb/>תורישימו ידי אקח ממנו המעות ג״כ ויהי׳ ריק
 					<lb/>מכאן ומכאן. ולא רצה לילך שוב לסחור :
 				</p>
-				</div><div type="story" xml:id="Likutim-Hadashim_0005" n="5"><head type="storyHead">Likutim-Hadashim_0005</head>
+				</div><div type="story" xml:id="Likutim-Hadashim_0005" n="5"><head type="storyHead">Likutim-Hadashim_0005</head><span ana="experience:dream; not-a-hasidic-story:hagiography; practice:pidyon_shvuyim; practice:redemption_of_captives; social:relations_with_the_authorities; supernatural:miracle; times:death; ethics-and-emotions:charity; social:relations_with_non_jews; supernatural:communicating_with_the_invisible; times:eschatology; times:historical_event" resp="#llm-tagging">תיוגים</span>
 <p>
 					<lb/>שמעתי מעשה ש<persName>הר"ם מ<placeName ana="bio">רוטונבערג</placeName></persName> היה
 					<lb/>רבו של <persName>הרא"ש</persName> פעם אחת
@@ -174,7 +174,7 @@
 					<persName><lb/>הר״ם</persName> בשכר זה תזכה לשניהם וכך הוה
 					<lb/>שזכה לשניהם :
 				</p>
-				</div><div type="story" xml:id="Likutim-Hadashim_0006" n="6"><head type="storyHead">Likutim-Hadashim_0006</head>
+				</div><div type="story" xml:id="Likutim-Hadashim_0006" n="6"><head type="storyHead">Likutim-Hadashim_0006</head><span ana="ethics-and-emotions:fear; ethics-and-emotions:sadness; not-a-hasidic-story:hagiography; practice:storytelling; supernatural:miracle; times:shabbat; ethics-and-emotions:lying; ethics-and-emotions:prohibitions; practice:halakhah; practice:protection; practice:the_travels_of_the_tsaddik" resp="#llm-tagging">תיוגים</span>
 <p>
 					<lb/>שמעתי מעשה מהרב הק׳ ר׳ <persName>שמשון
 					<lb/>מ<placeName ana="bio">אסטריפאליע</placeName></persName> שהלך במדבר
@@ -198,7 +198,7 @@
 					<lb/>להם שמי שעובד את ה׳ למעלה מן הטבע
 					<lb/>מותר לסמוך על הנס :
 				</p>
-				</div><div type="story" xml:id="Likutim-Hadashim_0007" n="7"><head type="storyHead">Likutim-Hadashim_0007</head>
+				</div><div type="story" xml:id="Likutim-Hadashim_0007" n="7"><head type="storyHead">Likutim-Hadashim_0007</head><span ana="experience:dream; not-a-hasidic-story:hagiography; practice:prayer; practice:study; social:retrospective_recognition; supernatural:perception; supernatural:reincarnation; characters-and-roles:hidden_righteous; ethics-and-emotions:humility; ethics-and-emotions:pride; experience:revelation; experience:visions; practice:the_travels_of_the_tsaddik; spaces:beth_midrash; supernatural:communicating_with_the_invisible" resp="#llm-tagging">תיוגים</span>
 <p>
 					<lb/>שמעתי שהיה מעשה כשהיה רבי ר'
 					<persName><lb/>העשיל</persName> זצ״ל רב בק"ק <placeName ref="#H-LOC_130">קראקא</placeName>
@@ -256,7 +256,7 @@
 					<lb/>וכששמע מזה <persName>הר״ר העשיל</persName> נשבע ברבים
 					<lb/>שאין זה כי אם שאמרו לו מן השמים :
 				</p>
-				</div><div type="story" xml:id="Likutim-Hadashim_0008" n="8"><head type="storyHead">Likutim-Hadashim_0008</head>
+				</div><div type="story" xml:id="Likutim-Hadashim_0008" n="8"><head type="storyHead">Likutim-Hadashim_0008</head><span ana="ethics-and-emotions:anger; ethics-and-emotions:charity; practice:healing; social:retrospective_recognition; women:mention_only; folkloristics:story_type_prognostication; practice:reception_of_hasidim; supernatural:perception; supernatural:prognostication" resp="#llm-tagging">תיוגים</span>
 <p>
 					<lb/>עו״ש מ<persName>המגיד</persName> ז"ל שהיה בא אליו איש
 					<lb/>עני וביקש מ<persName>המגיד</persName> זצ״ל שיתן לו
@@ -269,7 +269,7 @@
 					<lb/>אז הבין העני מה שאמר לו המגיד זצ״ל
 					<lb/>מקודם :
 				</p>
-				</div><div type="story" xml:id="Likutim-Hadashim_0009" n="9"><head type="storyHead">Likutim-Hadashim_0009</head>
+				</div><div type="story" xml:id="Likutim-Hadashim_0009" n="9"><head type="storyHead">Likutim-Hadashim_0009</head><span ana="practice:torat_ha_tsaddik; folkloristics:story_type_virtues; practice:joke" resp="#llm-tagging">תיוגים</span>
 <p>
 					<lb/>עו״ש מ<persName>המגיד</persName> זצ״ל שפ"א אכל בקערה
 					<lb/>קטנה שהיתה מפוארה והיו אנשים
@@ -279,7 +279,7 @@
 					<lb/>מצערן של ישראל ואח״כ קלל את הרשעים
 					<lb/>שיהיו צדיקים :
 				</p>
-				</div><div type="story" xml:id="Likutim-Hadashim_0010" n="10"><head type="storyHead">Likutim-Hadashim_0010</head>
+				</div><div type="story" xml:id="Likutim-Hadashim_0010" n="10"><head type="storyHead">Likutim-Hadashim_0010</head><span ana="practice:joke; practice:torat_ha_tsaddik; social:relations_with_non_hasidim; ethics-and-emotions:humility; supernatural:pregnancy; women:minor_character" resp="#llm-tagging">תיוגים</span>
 <p>
 					<lb/>עו״ש מהנ״ל שסיפרו לו איך שהיה איש
 					<lb/>מתנגד לערך חמשים שנה ואשתו
@@ -291,7 +291,7 @@
 					<lb/>להרבי מ<placeName ref="#H-LOC_56">לובלין</placeName> ואמר בדרך הלצה השי״ת
 					<lb/>הראה שהוא ג״כ יכול ליתן ב״ז :
 				</p>
-				</div><div type="story" xml:id="Likutim-Hadashim_0011" n="11"><head type="storyHead">Likutim-Hadashim_0011</head>
+				</div><div type="story" xml:id="Likutim-Hadashim_0011" n="11"><head type="storyHead">Likutim-Hadashim_0011</head><span ana="ethics-and-emotions:anger; practice:reception_of_hasidim; ethics-and-emotions:virtues; practice:pidyon_nefesh; practice:torat_ha_tsaddik; practice:travel_to_the_tsaddik; supernatural:perception; supernatural:pregnancy; supernatural:prognostication; women:minor_character" resp="#llm-tagging">תיוגים</span>
 <p>
 					<lb/>ע״ש שבא אל <persName>המגיד</persName> זצ"ל בן כפר אחד
 					<lb/>ואשתו ג״כ והיו מבקשים מן <persName>המגיד</persName>
@@ -308,7 +308,7 @@
 					<lb/>בהשמים ופעל שיהא לו בן זכר מחמת שסמך
 					<lb/>על השי״ת בכל לבו וד״ל :
 				</p>
-				</div><div type="story" xml:id="Likutim-Hadashim_0012" n="12"><head type="storyHead">Likutim-Hadashim_0012</head>
+				</div><div type="story" xml:id="Likutim-Hadashim_0012" n="12"><head type="storyHead">Likutim-Hadashim_0012</head><span ana="ethics-and-emotions:anger; practice:asceticism; ethics-and-emotions:charity; folkloristics:story_type_virtues; practice:reception_of_hasidim" resp="#llm-tagging">תיוגים</span>
 <p>
 					<lb/>ע״ש שבא אל <persName>המגיד</persName> זצ"ל גביר אחד
 					<lb/>ושאל לו <persName>המגיד</persName> מה הוא אוכל בכל
@@ -325,7 +325,7 @@
 					<lb/>לאכול פת במלח אבל אם הגביר יאכל בכל
 					<lb/>יום פת במלח אומר שעני צריך לאכול אבנים :
 				</p>
-				</div><div type="story" xml:id="Likutim-Hadashim_0013" n="13"><head type="storyHead">Likutim-Hadashim_0013</head>
+				</div><div type="story" xml:id="Likutim-Hadashim_0013" n="13"><head type="storyHead">Likutim-Hadashim_0013</head><span ana="characters-and-roles:the_family_of_the_tsaddik; folkloristics:story_type_birth_of_the_tsaddik; practice:clothing; practice:travel_to_the_tsaddik; supernatural:pregnancy; women:major_character; women:minor_character; practice:failure; practice:pidyon_nefesh; practice:reception_of_hasidim; practice:storytelling; practice:torat_ha_tsaddik; supernatural:prognostication" resp="#llm-tagging">תיוגים</span>
 <p>
 					<lb/>עו״ש שבאה אשה אחת אל <persName>המגיד</persName> זצ״ל
 					<lb/>וביקשה לפניו שצריכה לב״ז ואמר
@@ -349,7 +349,7 @@
 					<lb/>מהקאטינקא רק מעצמה עשתה זאת אבל
 					<lb/>אתה שמעת המעשה מאמי ז״ל :
 				</p>
-				</div><div type="story" xml:id="Likutim-Hadashim_0014" n="14"><head type="storyHead">Likutim-Hadashim_0014</head>
+				</div><div type="story" xml:id="Likutim-Hadashim_0014" n="14"><head type="storyHead">Likutim-Hadashim_0014</head><span ana="practice:prayer; practice:reception_of_hasidim; practice:study; practice:torat_ha_tsaddik; practice:travel_to_the_tsaddik; spaces:institutions_hassidic_court; supernatural:perception" resp="#llm-tagging">תיוגים</span>
 <p>
 					<lb/>עו״ש שפעם אחת אמר <persName>המגיד</persName> זצ״ל
 					<lb/>לאברך אחד שהתפלל עמו כי דרכו
@@ -377,7 +377,7 @@
 					<lb/>שלי כמנהגו ואז אוכל בעזרת השי״ת לפעול
 					<lb/>לכם :
 				</p>
-				</div><div type="story" xml:id="Likutim-Hadashim_0015" n="15"><head type="storyHead">Likutim-Hadashim_0015</head>
+				</div><div type="story" xml:id="Likutim-Hadashim_0015" n="15"><head type="storyHead">Likutim-Hadashim_0015</head><span ana="social:inter_hasidic_master_disciple_relationship; supernatural:reincarnation" resp="#llm-tagging">תיוגים</span>
 <p>
 					<lb/>עו״ש שהיו אומרים על הרה״ק בעהמ״ס
 					<name type="work"><lb/>קדושת לוי</name> שהיה לו נשמת ר׳ <persName>עקיבא</persName>
@@ -386,7 +386,7 @@
 					<lb/>מחמת שמתלמידי ר׳ <persName>עקיבא</persName> לא היה להם
 					<lb/>אריכות ימים :
 				</p>
-				</div><div type="story" xml:id="Likutim-Hadashim_0016" n="16"><head type="storyHead">Likutim-Hadashim_0016</head>
+				</div><div type="story" xml:id="Likutim-Hadashim_0016" n="16"><head type="storyHead">Likutim-Hadashim_0016</head><span ana="practice:halakhah; practice:travel_to_the_tsaddik; supernatural:prognostication; women:mention_only; ethics-and-emotions:prohibitions; folkloristics:story_type_prognostication; practice:reception_of_hasidim; social:marital_relationship; supernatural:pregnancy" resp="#llm-tagging">תיוגים</span>
 <p>
 					<lb/>שמעתי מאיש אחד שהיו מרננין עליו
 					<lb/>שאסור לדור עם אשתו גם
@@ -399,7 +399,7 @@
 					<lb/>ואמר <persName>המגיד</persName> מותר לך לדור עם אשתך ויהא
 					<lb/>לך בן זכר ג״כ וכך הוה :
 				</p>
-				</div><div type="story" xml:id="Likutim-Hadashim_0017" n="17"><head type="storyHead">Likutim-Hadashim_0017</head>
+				</div><div type="story" xml:id="Likutim-Hadashim_0017" n="17"><head type="storyHead">Likutim-Hadashim_0017</head><span ana="characters-and-roles:the_family_of_the_tsaddik; spaces:heaven; supernatural:communicating_with_the_invisible; supernatural:perception; practice:torat_ha_tsaddik; social:retrospective_recognition" resp="#llm-tagging">תיוגים</span>
 <p>
 					<lb/>שמעתי פעם אחת היה הרבי זצ"ל
 					<lb/>מ<placeName ref="#H-LOC_56">לובלין</placeName> יושב אצל השלחן והיו
@@ -416,7 +416,7 @@
 					<lb/>באכילה ודחקו אצלי ע״כ אמרתי להם שאל
 					<lb/>ידחקו אצלי :
 				</p>
-				</div><div type="story" xml:id="Likutim-Hadashim_0018" n="18"><head type="storyHead">Likutim-Hadashim_0018</head>
+				</div><div type="story" xml:id="Likutim-Hadashim_0018" n="18"><head type="storyHead">Likutim-Hadashim_0018</head><span ana="ethics-and-emotions:virtues; folkloristics:story_type_virtues; practice:drinking_alcohol; practice:reception_of_hasidim; ethics-and-emotions:humility; practice:travel_to_the_tsaddik; spaces:institutions_hassidic_court" resp="#llm-tagging">תיוגים</span>
 <p>
 					<lb/>שמעתי פ״א שלחו שליח בשביל חולה
 					<lb/>להרבי הנ״ל והיה זה בימות
@@ -435,7 +435,7 @@
 					<lb/>בעצמו. ואמר השי״ת הזמין לי מצוה של
 					<lb/>הכנסת אורחים ואתם לא הניחו לי לק<name type="misc">יי</name>ם :
 				</p>
-				</div><div type="story" xml:id="Likutim-Hadashim_0019" n="19"><head type="storyHead">Likutim-Hadashim_0019</head>
+				</div><div type="story" xml:id="Likutim-Hadashim_0019" n="19"><head type="storyHead">Likutim-Hadashim_0019</head><span ana="practice:torat_ha_tsaddik; ethics-and-emotions:charity; folkloristics:story_type_virtues; practice:joke; practice:prayer; social:conflict; supernatural:perception" resp="#llm-tagging">תיוגים</span>
 <p>
 					<lb/>מעשה מהרה״ק ר׳ <persName>לוי יצחק מברדיטשוב</persName>
 					<lb/>שהיה איש אחד שהיה נגיד ואח״כ
@@ -456,7 +456,7 @@
 					<lb/>לו. ע״כ אם תרצו ליקח אותו ג״כ בהחברה
 					<lb/>שלכם אני אתן לכם ג״כ חלק בסרסורי :
 				</p>
-				</div><div type="story" xml:id="Likutim-Hadashim_0020" n="20"><head type="storyHead">Likutim-Hadashim_0020</head>
+				</div><div type="story" xml:id="Likutim-Hadashim_0020" n="20"><head type="storyHead">Likutim-Hadashim_0020</head><span ana="practice:reception_of_hasidim; practice:travel_to_other_tsaddik; social:inter_hasidic_master_disciple_relationship; social:retrospective_recognition; folkloristics:story_type_prognostication; practice:travel_to_the_tsaddik; social:disobedience; social:inter_hasidic; supernatural:prognostication" resp="#llm-tagging">תיוגים</span>
 <p>
 					<lb/>שמעתי בשם הרה״ק <persName>היהודי</persName> ז"ל שהיה
 					<lb/>בראשונה אצל הרה״ק ר'
@@ -482,7 +482,7 @@
 					<lb/>אמר לו ששמו <persName>יעקב יצחק בן מאטיל</persName> אז
 					<lb/>שלח הרבי זצ״ל את העלם ממנו :
 				</p>
-				</div><div type="story" xml:id="Likutim-Hadashim_0021" n="21"><head type="storyHead">Likutim-Hadashim_0021</head>
+				</div><div type="story" xml:id="Likutim-Hadashim_0021" n="21"><head type="storyHead">Likutim-Hadashim_0021</head><span ana="characters-and-roles:scribe; practice:tefillin; practice:travel_to_the_tsaddik; characters-and-roles:the_family_of_the_tsaddik; practice:prayer; practice:reception_of_hasidim; social:inter_hasidic_master_disciple_relationship" resp="#llm-tagging">תיוגים</span>
 <p>
 					<lb/>שמעתי מא״ז הק׳ ר׳ <persName>צבי</persName> ז״ל בילדותו
 					<lb/>כשהיה אוכל מזונות אצל חותנו
@@ -504,7 +504,7 @@
 					<lb/>היה הצוואה לבנו שיתן התפילין ליד דודו
 					<lb/>הנ״ל ועדיין הם כשרים :
 				</p>
-				</div><div type="story" xml:id="Likutim-Hadashim_0022" n="22"><head type="storyHead">Likutim-Hadashim_0022</head>
+				</div><div type="story" xml:id="Likutim-Hadashim_0022" n="22"><head type="storyHead">Likutim-Hadashim_0022</head><span ana="practice:business_advice; practice:travel_to_the_tsaddik; practice:torat_ha_tsaddik; social:inter_hasidic_master_disciple_relationship; supernatural:miracle; supernatural:perception" resp="#llm-tagging">תיוגים</span>
 <p>
 					<lb/>שמעתי מאבי <sic correction="זקני ר'">זקניר׳</sic> <persName>צבי</persName> זצ"ל<anchor xml:id="ner_16439_16454"/> בילדותו
 					<lb/>כשנסתלק מעל שלחן אביו היה
@@ -524,7 +524,7 @@
 					<lb/>אבנים עד שהיה לו יתרון לבנות הבית עד
 					<lb/>שהג׳ מאות ר״ט נשארו לו במזומן :
 				</p>
-				</div><div type="story" xml:id="Likutim-Hadashim_0023" n="23"><head type="storyHead">Likutim-Hadashim_0023</head>
+				</div><div type="story" xml:id="Likutim-Hadashim_0023" n="23"><head type="storyHead">Likutim-Hadashim_0023</head><span ana="ethics-and-emotions:virtues; knowledge:esoteric; practice:study; social:inter_hasidic_master_disciple_relationship; spaces:institutions_hassidic_court" resp="#llm-tagging">תיוגים</span>
 <p>
 					<lb/>שמעתי מאבי זקני זצ״ל בעוד שהיה
 					<lb/>רך בשנים היה אצל הרבי זצ״ל
@@ -536,7 +536,7 @@
 					<lb/>ושוב הטה את ראשו ואמר „לב טוב מכריע
 					<lb/>את כל זה" :
 				</p>
-				</div><div type="story" xml:id="Likutim-Hadashim_0024" n="24"><head type="storyHead">Likutim-Hadashim_0024</head>
+				</div><div type="story" xml:id="Likutim-Hadashim_0024" n="24"><head type="storyHead">Likutim-Hadashim_0024</head><span ana="characters-and-roles:tavern_keeper; practice:business_advice; practice:the_travels_of_the_tsaddik; women:minor_character; ethics-and-emotions:charity; ethics-and-emotions:virtues; folkloristics:story_type_prognostication; social:marital_relationship; supernatural:prognostication" resp="#llm-tagging">תיוגים</span>
 <p>
 					<lb/>שמעתי מעשה מ<persName>היהודי</persName> זצ"ל מ<placeName>פשיסחא</placeName>
 					<lb/>שהיה אצל אבי זקני זצ״ל
@@ -575,7 +575,7 @@
 					<lb/>ואמר אבי זקני לאמי זקנתי שהיהודי שילם
 					<lb/>שכר האכסניא שלו היטב :
 				</p>
-				</div><div type="story" xml:id="Likutim-Hadashim_0025" n="25"><head type="storyHead">Likutim-Hadashim_0025</head>
+				</div><div type="story" xml:id="Likutim-Hadashim_0025" n="25"><head type="storyHead">Likutim-Hadashim_0025</head><span ana="ethics-and-emotions:fear; social:inter_hasidic_master_disciple_relationship; supernatural:communicating_with_the_invisible; supernatural:perception; practice:torat_ha_tsaddik; social:inter_hasidic_inheritance_of_leadership" resp="#llm-tagging">תיוגים</span>
 <p>
 					<lb/>שמעתי פעם אחת אמר <persName>היהודי</persName> זצ"ל
 					<lb/>לר׳ <persName>פרץ</persName> תלמידו שילך לחוץ כי
@@ -588,7 +588,7 @@
 					<lb/>כמה פעמים אמרתי ל<persName>בונם</persName> שיראה לנפטרים
 					<lb/>היכן הפתח ולא פחד כלל :
 				</p>
-				</div><div type="story" xml:id="Likutim-Hadashim_0026" n="26"><head type="storyHead">Likutim-Hadashim_0026</head>
+				</div><div type="story" xml:id="Likutim-Hadashim_0026" n="26"><head type="storyHead">Likutim-Hadashim_0026</head><span ana="characters-and-roles:the_family_of_the_tsaddik; practice:halakhah; practice:joke; social:inter_hasidic_master_disciple_relationship; women:catalyst_character; women:minor_character" resp="#llm-tagging">תיוגים</span>
 <p>
 					<lb/>שמעתי שהיה <persName>היהודי</persName> ז"ל אצל <persName>הרבי</persName>
 					<lb/>זצ"ל ב<placeName ref="#H-LOC_56">לובלין</placeName> ואשתו של <persName>היהודי</persName>
@@ -605,7 +605,7 @@
 					<lb/>המרבה זה דם נדה הולך ממנה הרבה ופחד
 					<lb/>הממעיט וממון יש לה מעט :
 				</p>
-				</div><div type="story" xml:id="Likutim-Hadashim_0027" n="27"><head type="storyHead">Likutim-Hadashim_0027</head>
+				</div><div type="story" xml:id="Likutim-Hadashim_0027" n="27"><head type="storyHead">Likutim-Hadashim_0027</head><span ana="characters-and-roles:the_family_of_the_tsaddik; ethics-and-emotions:charity; practice:healing; women:major_character; practice:failure; social:marital_relationship; supernatural:miracle" resp="#llm-tagging">תיוגים</span>
 <p>
 					<lb/>עו"ש מן <persName>היהודי</persName> זצ״ל פ״א היה ילד שלו
 					<lb/>חולה מאוד ובאה הרבנית וצעקה
@@ -617,7 +617,7 @@
 					<lb/>והילד הוא חולה מאוד ואמר לה שתמכור גם
 					<lb/>את החלונות ועשתה כך ונתרפא הילד :
 				</p>
-				</div><div type="story" xml:id="Likutim-Hadashim_0028" n="28"><head type="storyHead">Likutim-Hadashim_0028</head>
+				</div><div type="story" xml:id="Likutim-Hadashim_0028" n="28"><head type="storyHead">Likutim-Hadashim_0028</head><span ana="ethics-and-emotions:anger; ethics-and-emotions:shame; practice:business_advice; practice:reception_of_hasidim; practice:sermon; practice:torat_ha_tsaddik; social:disobedience; women:mention_only; ethics-and-emotions:fear; practice:failure; practice:travel_to_the_tsaddik; social:inter_hasidic; social:marriage" resp="#llm-tagging">תיוגים</span>
 <p>
 					<lb/>שמעתי בשם הרב הקדוש ר׳ <persName>מורי
 					מ<placeName ana="bio">סטרעלצק</placeName></persName> זצ״ל שהיה אצלו
@@ -662,7 +662,7 @@
 					<lb/>להעני הנ״ל סתם שהשי״ת יזמין לו מה
 					<lb/>שיצטרך :
 				</p>
-				</div><div type="story" xml:id="Likutim-Hadashim_0029" n="29"><head type="storyHead">Likutim-Hadashim_0029</head>
+				</div><div type="story" xml:id="Likutim-Hadashim_0029" n="29"><head type="storyHead">Likutim-Hadashim_0029</head><span ana="characters-and-roles:the_family_of_the_tsaddik; ethics-and-emotions:virtues; folkloristics:story_type_virtues; social:marital_relationship; women:minor_character; practice:devekut; women:major_character" resp="#llm-tagging">תיוגים</span>
 <p>
 					<lb/>שמעתי מהסבא קדישא ר׳ <persName>פישעל</persName>
 					<lb/>זצ"ל מסטריקוב בילדותו
@@ -684,7 +684,7 @@
 					<lb/>ואשתו היתה בת נגיד אחד. מזה נראה
 					<lb/>איך תמימות שלו היה :
 				</p>
-				</div><div type="story" xml:id="Likutim-Hadashim_0030" n="30"><head type="storyHead">Likutim-Hadashim_0030</head>
+				</div><div type="story" xml:id="Likutim-Hadashim_0030" n="30"><head type="storyHead">Likutim-Hadashim_0030</head><span ana="ethics-and-emotions:charity; ethics-and-emotions:virtues; folkloristics:story_type_virtues; practice:pidyon_nefesh" resp="#llm-tagging">תיוגים</span>
 <p>
 					<lb/>ע"ש מהסבא קדישא הנ״ל שהיה רגיל
 					<lb/>ליקח פדיונות מהאנשים ובקש מהם
@@ -698,7 +698,7 @@
 					<lb/>אינו מבחין בין גדול ל<name type="currency">דינר</name> זהב ע״כ בקש
 					<lb/>ממנו שיתן להם גדולים <name type="currency">אדומים</name> :
 				</p>
-				</div><div type="story" xml:id="Likutim-Hadashim_0031" n="31"><head type="storyHead">Likutim-Hadashim_0031</head>
+				</div><div type="story" xml:id="Likutim-Hadashim_0031" n="31"><head type="storyHead">Likutim-Hadashim_0031</head><span ana="ethics-and-emotions:charity; ethics-and-emotions:lying; ethics-and-emotions:punishment; practice:business_advice; practice:travel_to_other_tsaddik; social:relations_with_non_jews; practice:reception_of_hasidim; practice:torat_ha_tsaddik; practice:travel_to_the_tsaddik; social:conflict; social:retrospective_recognition; supernatural:miracle; supernatural:perception" resp="#llm-tagging">תיוגים</span>
 <p>
 					<lb/>ע״ש מעשה מהק׳ הנ״ל שהיה בא עשיר
 					<lb/>אחד אצל הרה״ק ר׳ <persName>שמחה בונם</persName>
@@ -730,7 +730,7 @@
 					<lb/>מחזיק השדות לפרנס העניים בשביל זה קלל
 					<lb/>את האיש :
 				</p>
-				</div><div type="story" xml:id="Likutim-Hadashim_0032" n="32"><head type="storyHead">Likutim-Hadashim_0032</head>
+				</div><div type="story" xml:id="Likutim-Hadashim_0032" n="32"><head type="storyHead">Likutim-Hadashim_0032</head><span ana="characters-and-roles:preacher; ethics-and-emotions:adultery; ethics-and-emotions:anger; practice:sermon; practice:the_travels_of_the_tsaddik; social:conflict; women:minor_character; ethics-and-emotions:lust; ethics-and-emotions:lying; ethics-and-emotions:prohibitions; ethics-and-emotions:shame; practice:joke; practice:protection; social:relations_with_sinners" resp="#llm-tagging">תיוגים</span>
 <p>
 					<pb facs="Likutim-Hadashim_0109.jpg"/><lb/>שמעתי מהרה״ק ר׳ <persName>מאטיל מ<placeName ana="bio">טשירנאביל</placeName></persName>
 					<lb/>זצ״ל שבא לכפר אחד והיה
@@ -760,7 +760,7 @@
 					<lb/>מי שע״ה אינו יכול לילך רק אחר אשתו
 					<lb/>שאין לו עם מה לתקן :
 				</p>
-				</div><div type="story" xml:id="Likutim-Hadashim_0033" n="33"><head type="storyHead">Likutim-Hadashim_0033</head>
+				</div><div type="story" xml:id="Likutim-Hadashim_0033" n="33"><head type="storyHead">Likutim-Hadashim_0033</head><span ana="characters-and-roles:the_family_of_the_tsaddik; social:marriage; women:minor_character; practice:joke; times:birth" resp="#llm-tagging">תיוגים</span>
 <p>
 					<lb/>שמעתי מהרה״ק ר׳ <persName>לייביל</persName> זצ"ל מקאבלי
 					<lb/>שהיה בנו של הרה״ק ר׳ <persName>מרדכי</persName>
@@ -785,7 +785,7 @@
 					<lb/>שיהא לך ממני המוח ומאמך הכח ולבסוף
 					<lb/>הוא להיפך שיש לך מאמך המוח וממני הכח :
 				</p>
-				</div><div type="story" xml:id="Likutim-Hadashim_0034" n="34"><head type="storyHead">Likutim-Hadashim_0034</head>
+				</div><div type="story" xml:id="Likutim-Hadashim_0034" n="34"><head type="storyHead">Likutim-Hadashim_0034</head><span ana="ethics-and-emotions:awe; experience:trembling; social:retrospective_recognition; times:shabbat; folkloristics:story_type_virtues; social:inter_hasidic; spaces:institutions_hassidic_court" resp="#llm-tagging">תיוגים</span>
 <p>
 					<lb/>שמעתי ש<persName>היהודי</persName> זצ"ל כשהיה אצל הרב
 					<lb/>זצ״ל מ<placeName ref="#H-LOC_56">לובלין</placeName> בעת שלש סעודות
@@ -801,7 +801,7 @@
 					<lb/>לו כח המעצר לעצור את יראת ה׳ שיהא
 					<lb/>ריק בתוכו :
 				</p>
-				</div><div type="story" xml:id="Likutim-Hadashim_0035" n="35"><head type="storyHead">Likutim-Hadashim_0035</head>
+				</div><div type="story" xml:id="Likutim-Hadashim_0035" n="35"><head type="storyHead">Likutim-Hadashim_0035</head><span ana="practice:travel_to_other_tsaddik; social:competition; supernatural:perception; times:shabbat; ethics-and-emotions:joy; practice:the_travels_of_the_tsaddik; social:inter_hasidic_conflict_between_tsaddikim; supernatural:miracle" resp="#llm-tagging">תיוגים</span>
 <p>
 					<lb/>שמעתי מהרה"ק ר׳ <persName>נטע</persName> זצ"ל מ<placeName>חעלם</placeName>
 					<lb/>זה הצדיק לא למד משום רבי
@@ -823,7 +823,7 @@
 					<lb/>כך. לא יעשה כן במקומנו. ואח״כ שמחו
 					<lb/>שניהם יחד :
 				</p>
-				</div><div type="story" xml:id="Likutim-Hadashim_0036" n="36"><head type="storyHead">Likutim-Hadashim_0036</head>
+				</div><div type="story" xml:id="Likutim-Hadashim_0036" n="36"><head type="storyHead">Likutim-Hadashim_0036</head><span ana="practice:business_advice; ethics-and-emotions:virtues; practice:joke; practice:reception_of_hasidim" resp="#llm-tagging">תיוגים</span>
 <p>
 					<lb/>שמעתי שפ"א באו אליו שני אנשים שהיו
 					<lb/>רוצים לעשות שותפות ורצו
@@ -835,7 +835,7 @@
 					<lb/>ואמר להם א, הוא אמת. ב, הוא ברכה.
 					<lb/>ג, גנבה . ד, דלות :
 				</p>
-				</div><div type="story" xml:id="Likutim-Hadashim_0037" n="37"><head type="storyHead">Likutim-Hadashim_0037</head>
+				</div><div type="story" xml:id="Likutim-Hadashim_0037" n="37"><head type="storyHead">Likutim-Hadashim_0037</head><span ana="ethics-and-emotions:anger; ethics-and-emotions:awe; practice:smoking; practice:the_travels_of_the_tsaddik; ethics-and-emotions:resisting_temptation; ethics-and-emotions:virtues; social:inter_hasidic" resp="#llm-tagging">תיוגים</span>
 <p>
 					<lb/>שמעתי איך שהיו נוסעים שני צדיקים
 					<lb/>בדרך ובאו לכפר אחד והלך
@@ -854,7 +854,7 @@
 					<lb/>שהיה בכעס גדול על אביו מ״מ מנע א״ע
 					<lb/>מחמת יראת שמים :
 				</p>
-				</div><div type="story" xml:id="Likutim-Hadashim_0038" n="38"><head type="storyHead">Likutim-Hadashim_0038</head>
+				</div><div type="story" xml:id="Likutim-Hadashim_0038" n="38"><head type="storyHead">Likutim-Hadashim_0038</head><span ana="experience:dream; folkloristics:story_type_death_of_the_tsaddik; practice:prayer; supernatural:communicating_with_the_invisible; times:death; times:shabbat; practice:pidyon_nefesh; practice:protection; practice:torat_ha_tsaddik; spaces:heaven" resp="#llm-tagging">תיוגים</span>
 <p>
 					<lb/>שמעתי מעשה מהרה״ק הר׳ אהרן
 					<lb/>הלוי זצ״ל שהיה תלמידו של
@@ -870,7 +870,7 @@
 					<lb/>ג״כ להיות מן המנין ואחר דברים האלה
 					<lb/>שכב על מטתו תיכף ונפטר :
 				</p>
-				</div><div type="story" xml:id="Likutim-Hadashim_0039" n="39"><head type="storyHead">Likutim-Hadashim_0039</head>
+				</div><div type="story" xml:id="Likutim-Hadashim_0039" n="39"><head type="storyHead">Likutim-Hadashim_0039</head><span ana="characters-and-roles:preacher; ethics-and-emotions:virtues; folkloristics:story_type_virtues; practice:pidyon_nefesh; practice:reception_of_hasidim; practice:sermon; practice:the_travels_of_the_tsaddik; social:competition; social:poverty" resp="#llm-tagging">תיוגים</span>
 <p>
 					<lb/>שמעתי שבעיר אחת היה <persName>המגיד
 					<lb/>מ<placeName ana="bio">דובנא</placeName></persName> והיה דורש איזה
@@ -893,7 +893,7 @@
 					<lb/>אתם מביאים בלבם שג״כ יאהבו את המעות
 					<lb/>ע״כ אינם רוצים ליתן לכם את המעות :
 				</p>
-				</div><div type="story" xml:id="Likutim-Hadashim_0040" n="40"><head type="storyHead">Likutim-Hadashim_0040</head>
+				</div><div type="story" xml:id="Likutim-Hadashim_0040" n="40"><head type="storyHead">Likutim-Hadashim_0040</head><span ana="characters-and-roles:the_family_of_the_tsaddik; practice:sermon; practice:the_travels_of_the_tsaddik; social:inter_hasidic_conflict_between_tsaddikim; times:shabbat; women:catalyst_character; ethics-and-emotions:anger; ethics-and-emotions:prohibitions; knowledge:esoteric; social:competition; social:conflict" resp="#llm-tagging">תיוגים</span>
 <p>
 					<lb/>שמעתי פעם אחת היה הרבי זצ"ל
 					<lb/>מ<placeName ref="#H-LOC_56">לובלין</placeName> אצל הרה״ק ר׳ <persName>ברוך</persName>
@@ -915,7 +915,7 @@
 					<lb/>ועשה ש״ס באכסניא שלו ובאו כל בני העיר
 					<lb/>אצלו ואמר להם תורה :
 				</p>
-				</div><div type="story" xml:id="Likutim-Hadashim_0041" n="41"><head type="storyHead">Likutim-Hadashim_0041</head>
+				</div><div type="story" xml:id="Likutim-Hadashim_0041" n="41"><head type="storyHead">Likutim-Hadashim_0041</head><span ana="practice:travel_to_other_tsaddik; social:inter_hasidic_master_disciple_relationship; ethics-and-emotions:joy; practice:reception_of_hasidim; practice:torat_ha_tsaddik; practice:travel_to_the_tsaddik" resp="#llm-tagging">תיוגים</span>
 <p>
 					<lb/>שמעתי שהרה״ק הנ״ל היה תלמיד של
 					<lb/>הרה״ק ר׳ <persName>מרדכי</persName> זצ״ל מסכיאש
@@ -935,7 +935,7 @@
 					<lb/>תבשילו. וכך עשה שבישל לו והרבי שמח
 					<lb/>עמו מאוד :
 				</p>
-				</div><div type="story" xml:id="Likutim-Hadashim_0042" n="42"><head type="storyHead">Likutim-Hadashim_0042</head>
+				</div><div type="story" xml:id="Likutim-Hadashim_0042" n="42"><head type="storyHead">Likutim-Hadashim_0042</head><span ana="social:inter_hasidic_master_disciple_relationship; ethics-and-emotions:sadness; practice:torat_ha_tsaddik" resp="#llm-tagging">תיוגים</span>
 <p>
 					<lb/>שמעתי מעשה מהרה״ק <persName>היהודי</persName> זצ"ל.
 					<lb/>פעם אחת היה <persName>היהודי</persName> ז״ל לן
@@ -951,7 +951,7 @@
 					<lb/>ע״ז אני גונח שאני רואה שגם זה יתקלקל.
 					<lb/>מה יעשו ישראל ?!
 				</p>
-				</div><div type="story" xml:id="Likutim-Hadashim_0043" n="43"><head type="storyHead">Likutim-Hadashim_0043</head>
+				</div><div type="story" xml:id="Likutim-Hadashim_0043" n="43"><head type="storyHead">Likutim-Hadashim_0043</head><span ana="social:retrospective_recognition; supernatural:perception; characters-and-roles:hidden_righteous; practice:study; practice:travel_to_the_tsaddik" resp="#llm-tagging">תיוגים</span>
 <p>
 					<lb/>פעם אחת בא אבי זקני זצ"ל מ<placeName>לייפסיק</placeName>
 					<lb/>ושאל לו היהודי חדשות. והשיב לו
@@ -966,7 +966,7 @@
 					<lb/>היהודי זצ״ל. אמר היהודי שזה הי׳ כוונתי
 					<lb/>מה ששאלתי על חדשות :
 				</p>
-				</div><div type="story" xml:id="Likutim-Hadashim_0044" n="44"><head type="storyHead"><persName>Likutim</persName>-Hadashim_0044</head>
+				</div><div type="story" xml:id="Likutim-Hadashim_0044" n="44"><head type="storyHead"><persName>Likutim</persName>-Hadashim_0044</head><span ana="experience:dream; practice:joke; ethics-and-emotions:pride; practice:reception_of_hasidim; practice:torat_ha_tsaddik; social:inter_hasidic_master_disciple_relationship; supernatural:communicating_with_the_invisible" resp="#llm-tagging">תיוגים</span>
 <p>
 					<lb/>שמעתי איך שהיה חסיד אחד אצל
 					<lb/>הרה״ק <persName>מפרשיסחא</persName> וסיפר לו
@@ -982,7 +982,7 @@
 					<lb/>תאמר לו שאתה מוכן להנהיג. רק עיקר
 					<lb/>לראות שיבא בחלום אל העולם שיסעו אצלך :
 				</p>
-				</div><div type="story" xml:id="Likutim-Hadashim_0045" n="45"><head type="storyHead">Likutim-Hadashim_0045</head>
+				</div><div type="story" xml:id="Likutim-Hadashim_0045" n="45"><head type="storyHead">Likutim-Hadashim_0045</head><span ana="characters-and-roles:the_family_of_the_tsaddik; practice:travel_to_the_tsaddik; social:disobedience; social:inter_hasidic_master_disciple_relationship; social:marriage; supernatural:perception; supernatural:prognostication; ethics-and-emotions:lust; ethics-and-emotions:punishment; folkloristics:story_type_prognostication; practice:reception_of_hasidim; practice:torat_ha_tsaddik; social:inter_hasidic_inheritance_of_leadership; social:relations_with_sinners; times:death" resp="#llm-tagging">תיוגים</span>
 <p>
 					<lb/>עוד שמעתי שהיה אחד מגדולי תלמידיו
 					<lb/>סיפר לבנו הרה״ק ר׳ <persName>אברהם משה</persName>.
@@ -1037,7 +1037,7 @@
 					<lb/>נתקלקל אבל אני ראיתי יותר ע״כ אמרתי
 					<lb/>לך שלא תעשה את השידוך :
 				</p>
-				</div><div type="story" xml:id="Likutim-Hadashim_0046" n="46"><head type="storyHead">Likutim-Hadashim_0046</head>
+				</div><div type="story" xml:id="Likutim-Hadashim_0046" n="46"><head type="storyHead">Likutim-Hadashim_0046</head><span ana="folkloristics:story_type_prognostication; practice:business_advice; social:disobedience; supernatural:prognostication; times:death; practice:failure; practice:reception_of_hasidim; practice:torat_ha_tsaddik; practice:travel_to_the_tsaddik; social:inter_hasidic_master_disciple_relationship; supernatural:perception" resp="#llm-tagging">תיוגים</span>
 <p>
 					<lb/>וכיוצא בזה שמעתי מהרה״ק ר׳ <persName>אלימלך</persName> זצ״ל
 					<lb/>שבא איש כפר ושאל לו הכפרי אם
@@ -1049,7 +1049,7 @@
 					<lb/>ונשרף להכפרי מה שהיה לו ר״ל ובא אל
 					<lb/>הרבי ז״ל ואמר לו ג״כ כנ״ל :
 				</p>
-				</div><div type="story" xml:id="Likutim-Hadashim_0047" n="47"><head type="storyHead">Likutim-Hadashim_0047</head>
+				</div><div type="story" xml:id="Likutim-Hadashim_0047" n="47"><head type="storyHead">Likutim-Hadashim_0047</head><span ana="characters-and-roles:the_family_of_the_tsaddik; practice:travel_to_the_tsaddik; social:inter_hasidic_master_disciple_relationship; social:marriage; women:minor_character; social:retrospective_recognition; supernatural:perception; supernatural:reincarnation" resp="#llm-tagging">תיוגים</span>
 <p>
 					<lb/>שמעתי פ״א כשהי׳ יושב הרה״ק הנ"ל
 					<lb/>עם תלמידו אמר לתלמידו
@@ -1082,7 +1082,7 @@
 					<persName><lb/>מ״מ</persName> זצ״ל תדעו שזה הבעהמ״ח היה שמו
 					<lb/>כשמי <persName>מנחם בן אסתר</persName> :
 				</p>
-				</div><div type="story" xml:id="Likutim-Hadashim_0048" n="48"><head type="storyHead">Likutim-Hadashim_0048</head>
+				</div><div type="story" xml:id="Likutim-Hadashim_0048" n="48"><head type="storyHead">Likutim-Hadashim_0048</head><span ana="ethics-and-emotions:awe; ethics-and-emotions:pride; folkloristics:story_type_parable; practice:clothing; ethics-and-emotions:humility; folkloristics:story_type_virtues; social:inter_hasidic; social:retrospective_recognition" resp="#llm-tagging">תיוגים</span>
 <p>
 					<lb/>שמעתי שהרה"ק הנ"ל היה נוהג שהיה
 					<lb/>מלובש בבגדים יקרים מאוד
@@ -1099,7 +1099,7 @@
 					<lb/>יראת שמי וירא שלא יתקלקל ע״כ הטמין
 					<lb/>אותו תחת הלבוש של גאות ואין תוכו „כברו״ :
 				</p>
-				</div><div type="story" xml:id="Likutim-Hadashim_0049" n="49"><head type="storyHead">Likutim-Hadashim_0049</head>
+				</div><div type="story" xml:id="Likutim-Hadashim_0049" n="49"><head type="storyHead">Likutim-Hadashim_0049</head><span ana="characters-and-roles:the_family_of_the_tsaddik; folkloristics:story_type_prognostication; supernatural:prognostication; practice:storytelling; practice:the_travels_of_the_tsaddik; practice:travel_to_other_tsaddik; supernatural:perception" resp="#llm-tagging">תיוגים</span>
 <p>
 					<lb/>שמעתי כשהיה הרה״ק ר׳ <persName>מ״מ</persName> זצ״ל
 					מ<placeName ref="#H-LOC_121">קאצק</placeName> ב<placeName>פילעוו</placeName> והי׳ בהפאלאטץ

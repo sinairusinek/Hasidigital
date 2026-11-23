@@ -1,0 +1,104 @@
+{
+ "unit": {
+  "kind": "hasidic_story",
+  "why": "A single anecdote: the narrator's grandfather returns from Leipzig and tells the Yehudi of Przysucha about a mysterious German Jew who sent him greetings, and the Yehudi reveals he already knew.",
+  "boundary_note": ""
+ },
+ "stories": [
+  {
+   "k": 1,
+   "start_quote": "פעם אחת בא אבי זקני זצ\"ל מלייפסיק",
+   "end_quote": "זה הי׳ כוונתי מה ששאלתי על חדשות",
+   "hasidic": true,
+   "summary_en": "Returning from Leipzig, the narrator's grandfather tells the Yehudi of Przysucha that he has no news. He then recalls a German Jew who greeted him at night, whom he followed home and found studying the Semag. The man, from Opatów, sent greetings to the Yehudi, and the Yehudi says this was the 'news' he had meant.",
+   "tags": [
+    {
+     "tag": "characters-and-roles:hidden_righteous",
+     "scope": "span",
+     "quotes": [
+      "ובא כנגדו אשכנזי אחד ואמר לו גוט נאבענט",
+      "וראה שלמד בספר הסמ״ג"
+     ],
+     "confidence": 2,
+     "why": "A seemingly ordinary German Jew turns out to be a learned man connected to the tsaddik, which reads as a concealed righteous figure.",
+     "quotes_failed": false
+    },
+    {
+     "tag": "supernatural:perception",
+     "scope": "span",
+     "quotes": [
+      "אמר היהודי שזה הי׳ כוונתי מה ששאלתי על חדשות"
+     ],
+     "confidence": 3,
+     "why": "The Yehudi knew of the encounter in advance, without being told.",
+     "quotes_failed": false
+    },
+    {
+     "tag": "social:retrospective_recognition",
+     "scope": "span",
+     "quotes": [
+      "אמר היהודי שזה הי׳ כוונתי מה ששאלתי על חדשות"
+     ],
+     "confidence": 3,
+     "why": "The grandfather realises afterwards that the Yehudi's question about news had a hidden meaning.",
+     "quotes_failed": false
+    },
+    {
+     "tag": "practice:study",
+     "scope": "span",
+     "quotes": [
+      "וראה שלמד בספר הסמ״ג"
+     ],
+     "confidence": 2,
+     "why": "The stranger is shown studying the Semag.",
+     "quotes_failed": false
+    },
+    {
+     "tag": "practice:travel_to_the_tsaddik",
+     "scope": "span",
+     "quotes": [
+      "פעם אחת בא אבי זקני זצ\"ל מלייפסיק"
+     ],
+     "confidence": 2,
+     "why": "The grandfather comes from Leipzig to the Yehudi.",
+     "quotes_failed": false
+    },
+    {
+     "tag": "characters-and-roles:the_family_of_the_tsaddik",
+     "scope": "span",
+     "quotes": [
+      "פעם אחת בא אבי זקני זצ\"ל מלייפסיק"
+     ],
+     "confidence": 1,
+     "why": "The protagonist is the narrator's grandfather, himself titled זצ\"ל; this only fits if the narrator is a tsaddik.",
+     "quotes_failed": false
+    },
+    {
+     "tag": "social:relations_with_non_hasidim",
+     "scope": "span",
+     "quotes": [
+      "ובא כנגדו אשכנזי אחד ואמר לו גוט נאבענט"
+     ],
+     "confidence": 1,
+     "why": "The grandfather meets a German, apparently non-Hasidic, Jew.",
+     "quotes_failed": false
+    }
+   ],
+   "missing_concepts": [
+    "greetings sent to a tsaddik through an intermediary",
+    "a Hasidic trader at the Leipzig fair",
+    "a disguised or Germanized appearance hiding a pious man"
+   ],
+   "start_quote_found": true,
+   "end_quote_found": true
+  }
+ ],
+ "check": {
+  "non_vocab_tags": [],
+  "quotes": 8,
+  "quotes_not_found": 0
+ },
+ "id": "Likutim-Hadashim_0043",
+ "chars": 419,
+ "seconds": 15
+}

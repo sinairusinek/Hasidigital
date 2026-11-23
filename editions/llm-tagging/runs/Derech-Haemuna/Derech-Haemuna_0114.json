@@ -1,0 +1,92 @@
+{
+ "unit": {
+  "kind": "hasidic_story",
+  "why": "A short anecdote, quoted from another book, in which a man asks R. Zusya to teach him awe and the rebbe makes him fall to the ground with a gesture of his hand.",
+  "boundary_note": "Part of a thematic anthology on awe: the previous division is also a Zusya awe anecdote, and the next is a homily on awe."
+ },
+ "stories": [
+  {
+   "k": 1,
+   "start_quote": "וכמו ששאל אחד את הה״צ מו״ר",
+   "end_quote": "ידו אז קם על עמדו",
+   "hasidic": true,
+   "summary_en": "A man asks R. Zusya to teach him to serve God in awe; when the rebbe lowers his hand the man falls on his face from overwhelming awe and cannot rise until the rebbe raises his hand again.",
+   "tags": [
+    {
+     "tag": "ethics-and-emotions:awe",
+     "scope": "span",
+     "quotes": [
+      "ללמדו איך לעבוד ה׳ ביראה",
+      "ולא יכל לקום על עמדו מגודל היראה"
+     ],
+     "confidence": 3,
+     "why": "Religious awe is the subject of the request and of its effect.",
+     "quotes_failed": false
+    },
+    {
+     "tag": "ethics-and-emotions:fear",
+     "scope": "span",
+     "quotes": [
+      "ולא יכל לקום על עמדו מגודל היראה"
+     ],
+     "confidence": 2,
+     "why": "The man is overwhelmed by fear and awe.",
+     "quotes_failed": false
+    },
+    {
+     "tag": "supernatural:miracle",
+     "scope": "span",
+     "quotes": [
+      "והוריד הרב בידו ונפל אותו האיש על פניו ארצה"
+     ],
+     "confidence": 2,
+     "why": "The rebbe's hand gesture works a supernatural effect on the man's body.",
+     "quotes_failed": false
+    },
+    {
+     "tag": "practice:reception_of_hasidim",
+     "scope": "span",
+     "quotes": [
+      "ששאל אחד את הה״צ מו״ר מוה׳ זושא"
+     ],
+     "confidence": 2,
+     "why": "A seeker comes to the tsaddik with a request for instruction.",
+     "quotes_failed": false
+    },
+    {
+     "tag": "practice:torat_ha_tsaddik",
+     "scope": "span",
+     "quotes": [
+      "עד שהניף הרב ידו אז קם על עמדו"
+     ],
+     "confidence": 1,
+     "why": "Shows the tsaddik's power to act upon another person's spiritual state.",
+     "quotes_failed": false
+    },
+    {
+     "tag": "social:inter_hasidic_master_disciple_relationship",
+     "scope": "span",
+     "quotes": [
+      "ללמדו איך לעבוד ה׳ ביראה"
+     ],
+     "confidence": 1,
+     "why": "A teaching encounter between the master and a would-be disciple.",
+     "quotes_failed": false
+    }
+   ],
+   "missing_concepts": [
+    "the tsaddik transmitting a spiritual state (awe) to another person by bodily gesture"
+   ],
+   "start_quote_found": true,
+   "end_quote_found": true
+  }
+ ],
+ "check": {
+  "non_vocab_tags": [],
+  "quotes": 7,
+  "quotes_not_found": 0
+ },
+ "id": "Derech-Haemuna_0114",
+ "chars": 201,
+ "seconds": 14
+}

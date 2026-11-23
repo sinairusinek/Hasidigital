@@ -1,0 +1,169 @@
+{
+ "unit": {
+  "kind": "hasidic_story",
+  "why": "A single narrative told by R. Mottel of Gowarczów: the Magelnitza rebbe perceives at a distance that a young man is in danger on the road and goes out to meet him with brandy.",
+  "boundary_note": ""
+ },
+ "stories": [
+  {
+   "k": 1,
+   "start_quote": "סיפר הרב החסיד ר׳ מאטיל הרב דק\"ק גאוורטשוב",
+   "end_quote": "לקראתך שתשיב נפשך במעט יי\"ש",
+   "hasidic": true,
+   "summary_en": "On a Friday the Magelnitza rebbe senses that a young man travelling to him is in great danger, skips his meal, goes out of town with his attendant and brandy, meets the young man who had escaped three gentiles trying to slaughter him, and explains he feared not death but that the man could not bear the fright.",
+   "tags": [
+    {
+     "tag": "supernatural:perception",
+     "scope": "span",
+     "quotes": [
+      "ואמר כי אברך א׳ הוא בסכנה גדולה בנסיעת הדרך לכאן"
+     ],
+     "confidence": 3,
+     "why": "rebbe knows of a distant danger",
+     "quotes_failed": false
+    },
+    {
+     "tag": "practice:travel_to_the_tsaddik",
+     "scope": "span",
+     "quotes": [
+      "בימים הראשונים שהתחיל לנסוע למרן ז״ל למאגלניצא",
+      "כאשר הלכתי ברגלי בהדרך"
+     ],
+     "confidence": 3,
+     "why": "hasid travelling to the rebbe",
+     "quotes_failed": false
+    },
+    {
+     "tag": "practice:tvilah",
+     "scope": "span",
+     "quotes": [
+      "והיה רץ למקוה והלך להתפלל"
+     ],
+     "confidence": 2,
+     "why": "rebbe runs to the mikveh",
+     "quotes_failed": false
+    },
+    {
+     "tag": "practice:prayer",
+     "scope": "span",
+     "quotes": [
+      "ביום הששי קודם התפלה הלך מרן ז״ל"
+     ],
+     "confidence": 1,
+     "why": "morning prayer as a passing setting",
+     "quotes_failed": false
+    },
+    {
+     "tag": "practice:drinking_alcohol",
+     "scope": "span",
+     "quotes": [
+      "קח מהרה מעט יי\"ש ושתה",
+      "קח מהר צלוחית יי״ש"
+     ],
+     "confidence": 3,
+     "why": "brandy given to revive the man",
+     "quotes_failed": false
+    },
+    {
+     "tag": "social:relations_with_non_jews",
+     "scope": "span",
+     "quotes": [
+      "פגעו בי שלשה ערלים רשעים ואסרו אותי בחבלים"
+     ],
+     "confidence": 3,
+     "why": "attack by gentiles",
+     "quotes_failed": false
+    },
+    {
+     "tag": "social:conflict",
+     "scope": "span",
+     "quotes": [
+      "ורצו לשחוט אותי"
+     ],
+     "confidence": 2,
+     "why": "violent attack on a Jew",
+     "quotes_failed": false
+    },
+    {
+     "tag": "ethics-and-emotions:fear",
+     "scope": "span",
+     "quotes": [
+      "שלא תוכל לסבול הפחד ורעדה"
+     ],
+     "confidence": 3,
+     "why": "the victim's terror is the rebbe's concern",
+     "quotes_failed": false
+    },
+    {
+     "tag": "practice:protection",
+     "scope": "span",
+     "quotes": [
+      "כי בודאי לא היו יכולים לעשות כן"
+     ],
+     "confidence": 2,
+     "why": "rebbe implies the man was shielded from death",
+     "quotes_failed": false
+    },
+    {
+     "tag": "folkloristics:story_type_protection",
+     "scope": "story",
+     "quotes": [],
+     "confidence": 2,
+     "why": "tale of the rebbe guarding a hasid in danger",
+     "quotes_failed": false
+    },
+    {
+     "tag": "practice:prayer",
+     "scope": "span",
+     "quotes": [
+      "שיניחוני עכ״פ לומר ווידוי ושמע ישראל"
+     ],
+     "confidence": 2,
+     "why": "confession and Shema before expected death",
+     "quotes_failed": false
+    },
+    {
+     "tag": "times:shabbat",
+     "scope": "span",
+     "quotes": [
+      "ודרכו היה לסעוד ביום הששי עם אנשיו"
+     ],
+     "confidence": 1,
+     "why": "Friday, eve of Sabbath",
+     "quotes_failed": false
+    },
+    {
+     "tag": "practice:storytelling",
+     "scope": "span",
+     "quotes": [
+      "סיפר הרב החסיד ר׳ מאטיל הרב דק\"ק גאוורטשוב"
+     ],
+     "confidence": 2,
+     "why": "framed as a named rabbi's narration",
+     "quotes_failed": false
+    },
+    {
+     "tag": "social:inter_hasidic_master_disciple_relationship",
+     "scope": "story",
+     "quotes": [],
+     "confidence": 2,
+     "why": "rebbe's care for a new follower",
+     "quotes_failed": false
+    }
+   ],
+   "missing_concepts": [
+    "tzaddik's pastoral concern for a follower's emotional state (calming terror)"
+   ],
+   "start_quote_found": true,
+   "end_quote_found": true
+  }
+ ],
+ "check": {
+  "non_vocab_tags": [],
+  "quotes": 14,
+  "quotes_not_found": 0
+ },
+ "id": "Toldot-Haniflaot_0038",
+ "chars": 1131,
+ "seconds": 16
+}

@@ -1,0 +1,143 @@
+{
+ "unit": {
+  "kind": "hasidic_story",
+  "why": "A first-person dream memorate (from the author's writings, apparently R. Yitzhak Isaac of Komarno) in which a soul questions him about his boasting phrases and he answers with humility.",
+  "boundary_note": ""
+ },
+ "stories": [
+  {
+   "k": 1,
+   "start_quote": "עוד שם בח\"ב (תנ\"ו א) בעש״ק ישנתי",
+   "end_quote": "אמת אמת אמת חנני השי\"ת עכ״ל",
+   "hasidic": true,
+   "summary_en": "On a Friday afternoon nap the author dreams of a band of descending souls. One asks why he ends his Zohar interpretations with grand phrases like 'words given to Moses at Sinai'. He humbly explains that such phrases are the way of those who toil in Torah, who give thanks when they attain an insight. He learns that the boast is true but that he should refrain because of his enemies, and he thanks God for the holy souls who help him explain the Zohar truthfully.",
+   "tags": [
+    {
+     "tag": "experience:dream",
+     "scope": "story",
+     "quotes": [],
+     "confidence": 3,
+     "why": "The whole account is a dream during a nap",
+     "quotes_failed": false
+    },
+    {
+     "tag": "supernatural:communicating_with_the_invisible",
+     "scope": "span",
+     "quotes": [
+      "וראיתי חבל נשמות היורדין כידוע ואמר לי אחד",
+      "בסיוע נשמות קדושות שעזרוני בכל עת"
+     ],
+     "confidence": 3,
+     "why": "He converses with souls who also help him",
+     "quotes_failed": false
+    },
+    {
+     "tag": "times:shabbat",
+     "scope": "span",
+     "quotes": [
+      "בעש״ק ישנתי בצהרים"
+     ],
+     "confidence": 2,
+     "why": "Set on the eve of the Sabbath",
+     "quotes_failed": false
+    },
+    {
+     "tag": "ethics-and-emotions:humility",
+     "scope": "span",
+     "quotes": [
+      "חלילה לי מלהתפאר כי יודע אני שפלותי",
+      "עדיין לא תיקנתי אבר אחד מאיברי כראוי"
+     ],
+     "confidence": 3,
+     "why": "He disclaims boasting and stresses his lowliness",
+     "quotes_failed": false
+    },
+    {
+     "tag": "ethics-and-emotions:pride",
+     "scope": "span",
+     "quotes": [
+      "חלילה לי מלהתפאר"
+     ],
+     "confidence": 2,
+     "why": "The soul's question implies a charge of pride",
+     "quotes_failed": false
+    },
+    {
+     "tag": "ethics-and-emotions:joy",
+     "scope": "span",
+     "quotes": [
+      "התורה משמחת לב ומאירת עינים",
+      "וחדוה מסטרא דא משבחים ומהללים"
+     ],
+     "confidence": 2,
+     "why": "Joy in Torah insight mixed with weeping",
+     "quotes_failed": false
+    },
+    {
+     "tag": "ethics-and-emotions:sadness",
+     "scope": "span",
+     "quotes": [
+      "ואני בוכה ומבכה שמים וארץ עמי"
+     ],
+     "confidence": 1,
+     "why": "Weeping over his distance from God",
+     "quotes_failed": false
+    },
+    {
+     "tag": "social:conflict",
+     "scope": "span",
+     "quotes": [
+      "מחמת שיש לי שונאי חנם בחרות אפם"
+     ],
+     "confidence": 2,
+     "why": "Groundless enemies who might denounce him",
+     "quotes_failed": false
+    },
+    {
+     "tag": "knowledge:esoteric",
+     "scope": "span",
+     "quotes": [
+      "לבאר דברי הזוהר בהשגה אמיתיות"
+     ],
+     "confidence": 2,
+     "why": "His kabbalistic interpretation of the Zohar",
+     "quotes_failed": false
+    },
+    {
+     "tag": "practice:study",
+     "scope": "span",
+     "quotes": [
+      "מטבע עובדי התורה ועמליה"
+     ],
+     "confidence": 2,
+     "why": "Toil in Torah and Zohar commentary",
+     "quotes_failed": false
+    },
+    {
+     "tag": "experience:revelation",
+     "scope": "span",
+     "quotes": [
+      "לגלה לי דברי אמת שלא אטעה"
+     ],
+     "confidence": 2,
+     "why": "Holy souls reveal truths to him",
+     "quotes_failed": false
+    }
+   ],
+   "missing_concepts": [
+    "heavenly approval of an author's own writings",
+    "accusation (kitrug) by enemies"
+   ],
+   "start_quote_found": true,
+   "end_quote_found": true
+  }
+ ],
+ "check": {
+  "non_vocab_tags": [],
+  "quotes": 13,
+  "quotes_not_found": 0
+ },
+ "id": "Eser-Kedushot_0171",
+ "chars": 908,
+ "seconds": 16
+}

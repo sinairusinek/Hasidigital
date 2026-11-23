@@ -1,0 +1,229 @@
+{
+ "unit": {
+  "kind": "hasidic_story",
+  "why": "The division mainly narrates how the Besht was lured to a feast by enemies who meant to kill him, was saved by apples and a yihud, and opened locked doors; it adds a brief allusion to his miraculous journey to Drohobych, all inside a homiletic frame about opposition to tsaddikim.",
+  "boundary_note": "Starts mid-sequence: a numbered section 'ו)' under the heading 'מענין תפוחים', excerpted from נ״מ שביל היחוד. Ends with a homiletic tail about the Maggid and opponents."
+ },
+ "stories": [
+  {
+   "k": 1,
+   "start_quote": "כמו שהיה למרן הבעש״ט שציערו אותו מאד",
+   "end_quote": "והתפלל מעריב בביהכ״נ כמפורסם",
+   "hasidic": true,
+   "summary_en": "Enemies invite the Besht to a feast in order to get him drunk and kill him. Through apples and a yihud he stays sober while they fall into a deep sleep. He orders the locked doors to open, decrees punishment on them (postponed twenty years at their wives' tearful plea) and flees with miraculous speed, as in the known tale of his quick journey to R. Abba of Drohobych.",
+   "tags": [
+    {
+     "tag": "social:conflict",
+     "scope": "span",
+     "quotes": [
+      "והכוונה היה להכותו ולהרגו",
+      "והתחילו לבזות אותו ולריב עמו"
+     ],
+     "confidence": 3,
+     "why": "Opponents plot to kill the Besht.",
+     "quotes_failed": false
+    },
+    {
+     "tag": "social:relations_with_non_hasidim",
+     "scope": "span",
+     "quotes": [
+      "שציערו אותו מאד הרשעים",
+      "ע״י נחשים צפעונים שדברו עליו סרה"
+     ],
+     "confidence": 2,
+     "why": "The 'wicked' are Jewish opponents who slander him.",
+     "quotes_failed": false
+    },
+    {
+     "tag": "practice:drinking_alcohol",
+     "scope": "span",
+     "quotes": [
+      "והשקהו יין ישן של מאה שנים",
+      "ושתה הרבה ולא נשתכר"
+     ],
+     "confidence": 3,
+     "why": "Drinking wine is central to the plot.",
+     "quotes_failed": false
+    },
+    {
+     "tag": "kabbalah:kabbalistic_terms_yihudim",
+     "scope": "span",
+     "quotes": [
+      "והיה לו כונה ושם ויחוד שהתפוחים מפיגים היין"
+     ],
+     "confidence": 3,
+     "why": "He performs a yihud over the apples.",
+     "quotes_failed": false
+    },
+    {
+     "tag": "kabbalah:kabbalistic_terms_kavvanot",
+     "scope": "span",
+     "quotes": [
+      "והיה לו כונה ושם ויחוד"
+     ],
+     "confidence": 2,
+     "why": "A mystical intention attached to a ritual action.",
+     "quotes_failed": false
+    },
+    {
+     "tag": "practice:use_of_holy_names",
+     "scope": "span",
+     "quotes": [
+      "והיה לו כונה ושם ויחוד"
+     ],
+     "confidence": 2,
+     "why": "He uses a holy name to neutralise the wine.",
+     "quotes_failed": false
+    },
+    {
+     "tag": "supernatural:miracle",
+     "scope": "span",
+     "quotes": [
+      "ושתה הרבה ולא נשתכר",
+      "ונפתחו ברעש גדול"
+     ],
+     "confidence": 3,
+     "why": "He stays sober, and the locked doors open at his word.",
+     "quotes_failed": false
+    },
+    {
+     "tag": "practice:protection",
+     "scope": "span",
+     "quotes": [
+      "לך אמור להם משמי שיתפתחו"
+     ],
+     "confidence": 2,
+     "why": "He protects himself from his would-be murderers.",
+     "quotes_failed": false
+    },
+    {
+     "tag": "folkloristics:story_type_protection",
+     "scope": "story",
+     "quotes": [],
+     "confidence": 2,
+     "why": "The central arc is escape from mortal danger.",
+     "quotes_failed": false
+    },
+    {
+     "tag": "ethics-and-emotions:punishment",
+     "scope": "span",
+     "quotes": [
+      "שנגזר עליהם שריפה ומגפה ודלות"
+     ],
+     "confidence": 3,
+     "why": "A heavenly decree is pronounced on the plotters.",
+     "quotes_failed": false
+    },
+    {
+     "tag": "supernatural:prognostication",
+     "scope": "span",
+     "quotes": [
+      "שעד עשרים שנה יתעכב הגזירה ע״י בקשתם"
+     ],
+     "confidence": 2,
+     "why": "He foretells their punishment and its delay; fulfilment is not narrated.",
+     "quotes_failed": false
+    },
+    {
+     "tag": "women:minor_character",
+     "scope": "span",
+     "quotes": [
+      "וכשראו הנשים שלהם המופת הזה בקשו ממנו בבכיה"
+     ],
+     "confidence": 3,
+     "why": "The wives plead and win a postponement.",
+     "quotes_failed": false
+    },
+    {
+     "tag": "supernatural:contraction_of_the_road",
+     "scope": "span",
+     "quotes": [
+      "נסע כמה פרסאות בעת קצרה כי זה היה נקל לו",
+      "והתפלל מנחה בעיר פראהיין ובתחלת הלילה בא לק״ק דראהביטש"
+     ],
+     "confidence": 3,
+     "why": "He covers great distances miraculously fast.",
+     "quotes_failed": false
+    },
+    {
+     "tag": "ethics-and-emotions:fear",
+     "scope": "span",
+     "quotes": [
+      "ומחמת פחד הרשעים נסע"
+     ],
+     "confidence": 2,
+     "why": "He flees out of fear of the wicked.",
+     "quotes_failed": false
+    },
+    {
+     "tag": "practice:the_travels_of_the_tsaddik",
+     "scope": "span",
+     "quotes": [
+      "והוא אע״פ שראה הכל נסע",
+      "שיאסור המרכבה ליסע משם"
+     ],
+     "confidence": 2,
+     "why": "The story turns on his journey to and from the place.",
+     "quotes_failed": false
+    },
+    {
+     "tag": "supernatural:perception",
+     "scope": "span",
+     "quotes": [
+      "והוא אע״פ שראה הכל נסע"
+     ],
+     "confidence": 2,
+     "why": "He foresaw the plot yet still went.",
+     "quotes_failed": false
+    },
+    {
+     "tag": "practice:prayer",
+     "scope": "span",
+     "quotes": [
+      "והתפלל מנחה בעיר פראהיין",
+      "והתפלל מעריב בביהכ״נ כמפורסם"
+     ],
+     "confidence": 1,
+     "why": "Prayer marks the times of the miraculous journey.",
+     "quotes_failed": false
+    },
+    {
+     "tag": "not-a-hasidic-story:sermon",
+     "scope": "span",
+     "quotes": [
+      "כי בודאי מי שהולך עם זבל וקש ותבן",
+      "ועדיין השטן מרקד בינינו לעשות פירוד לבבות"
+     ],
+     "confidence": 2,
+     "why": "The narrative is wrapped in a homiletic frame about the persecution of true tsaddikim.",
+     "quotes_failed": false
+    },
+    {
+     "tag": "characters-and-roles:messiah",
+     "scope": "span",
+     "quotes": [
+      "ולולא כן היה מביא הגאולה"
+     ],
+     "confidence": 1,
+     "why": "Claim that he would have brought the redemption.",
+     "quotes_failed": false
+    }
+   ],
+   "missing_concepts": [
+    "apples as a remedy against drunkenness",
+    "persecution and slander of tsaddikim by opponents delaying the redemption",
+    "allusion to the Maggid of Mezritch's 300 disciples and the controversy against him"
+   ],
+   "start_quote_found": true,
+   "end_quote_found": true
+  }
+ ],
+ "check": {
+  "non_vocab_tags": [],
+  "quotes": 26,
+  "quotes_not_found": 0
+ },
+ "id": "Derech-Haemuna_0212",
+ "chars": 1942,
+ "seconds": 24
+}

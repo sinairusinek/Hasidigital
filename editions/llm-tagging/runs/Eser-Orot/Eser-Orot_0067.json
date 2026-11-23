@@ -1,0 +1,144 @@
+{
+ "unit": {
+  "kind": "hasidic_story",
+  "why": "A single anecdote: the rabbi of Bar, travelling incognito at an inn, tests merchants who prayed hastily and is delighted by their defence of their prayer.",
+  "boundary_note": ""
+ },
+ "stories": [
+  {
+   "k": 1,
+   "start_quote": "פ\"א הי' לו במלון עלי דרך",
+   "end_quote": "בעת טענותיו עבור כלל ישראל",
+   "hasidic": true,
+   "summary_en": "At an inn, the incognito rabbi of Bar mocks merchants who rushed through their prayers by babbling meaningless syllables. They reply that God, like a parent with a babbling infant, understands his children even without clear words. The rabbi dances for joy at this defence and later uses it in his High Holiday pleas for Israel.",
+   "tags": [
+    {
+     "tag": "practice:the_travels_of_the_tsaddik",
+     "scope": "span",
+     "quotes": [
+      "פ\"א הי' לו במלון עלי דרך"
+     ],
+     "confidence": 3,
+     "why": "The story takes place while the rabbi lodges at an inn on the road.",
+     "quotes_failed": false
+    },
+    {
+     "tag": "characters-and-roles:tavern_keeper",
+     "scope": "span",
+     "quotes": [
+      "ולא הי' שם במלון רק זוג תפילין אחת"
+     ],
+     "confidence": 1,
+     "why": "The setting is an inn, but no innkeeper acts in the story.",
+     "quotes_failed": false
+    },
+    {
+     "tag": "practice:prayer",
+     "scope": "span",
+     "quotes": [
+      "רצו להתפלל ולא הי' שם במלון",
+      "אמרתם כל התפלה לפני הבורא כל עולמים"
+     ],
+     "confidence": 3,
+     "why": "The merchants' hasty prayer is the subject of the story.",
+     "quotes_failed": false
+    },
+    {
+     "tag": "practice:tefillin",
+     "scope": "span",
+     "quotes": [
+      "רק זוג תפילין אחת ולבש כל אחד התפילין"
+     ],
+     "confidence": 3,
+     "why": "The merchants snatch the single pair of tefillin from one another.",
+     "quotes_failed": false
+    },
+    {
+     "tag": "practice:dance",
+     "scope": "span",
+     "quotes": [
+      "הרב מבא״ד התחיל לרקוד ולשמוח"
+     ],
+     "confidence": 3,
+     "why": "The rabbi dances.",
+     "quotes_failed": false
+    },
+    {
+     "tag": "ethics-and-emotions:joy",
+     "scope": "span",
+     "quotes": [
+      "התחיל לרקוד ולשמוח בההמלצה הטובה הזאת"
+     ],
+     "confidence": 3,
+     "why": "The rabbi rejoices at the merchants' defence.",
+     "quotes_failed": false
+    },
+    {
+     "tag": "folkloristics:story_type_parable",
+     "scope": "span",
+     "quotes": [
+      "הראיתם ילד המונח בעריסתו"
+     ],
+     "confidence": 1,
+     "why": "The parable of the babbling infant is central, but the merchants tell it, not the tzaddik.",
+     "quotes_failed": false
+    },
+    {
+     "tag": "times:holidays",
+     "scope": "span",
+     "quotes": [
+      "בימי נוראים שאחרי זה בעת טענותיו"
+     ],
+     "confidence": 2,
+     "why": "The coda places his use of the argument in the High Holidays.",
+     "quotes_failed": false
+    },
+    {
+     "tag": "practice:torat_ha_tsaddik",
+     "scope": "span",
+     "quotes": [
+      "בעת טענותיו עבור כלל ישראל"
+     ],
+     "confidence": 2,
+     "why": "The tzaddik pleads before God on behalf of Israel.",
+     "quotes_failed": false
+    },
+    {
+     "tag": "social:retrospective_recognition",
+     "scope": "span",
+     "quotes": [
+      "בחשבם כי הוא איש משוגע"
+     ],
+     "confidence": 1,
+     "why": "The merchants take him for a madman until his point becomes clear.",
+     "quotes_failed": false
+    },
+    {
+     "tag": "practice:joke",
+     "scope": "span",
+     "quotes": [
+      "והוא אמר אליהם מאַ מאַ מאַ וואָר וואָר וואָר"
+     ],
+     "confidence": 2,
+     "why": "He teaches his point through a playful, mock-mad performance.",
+     "quotes_failed": false
+    }
+   ],
+   "missing_concepts": [
+    "defence of Israel before God (limud zekhut / sanegoria)",
+    "simple Jews' hasty prayer valued by the tzaddik",
+    "the tzaddik incognito"
+   ],
+   "start_quote_found": true,
+   "end_quote_found": true
+  }
+ ],
+ "check": {
+  "non_vocab_tags": [],
+  "quotes": 12,
+  "quotes_not_found": 0
+ },
+ "id": "Eser-Orot_0067",
+ "chars": 1107,
+ "seconds": 15
+}

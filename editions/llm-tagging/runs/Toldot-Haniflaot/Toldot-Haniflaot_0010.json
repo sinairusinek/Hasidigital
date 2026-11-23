@@ -1,0 +1,102 @@
+{
+ "unit": {
+  "kind": "hasidic_story",
+  "why": "A short anecdote: the narrator as a child sits by the Seer of Lublin on Shabbat, and the Seer senses that his teaching is not reaching him and repeats it in the Maggid's style.",
+  "boundary_note": ""
+ },
+ "stories": [
+  {
+   "k": 1,
+   "start_quote": "סיפר כשהיה קטן והיה בלובלין בש״ק",
+   "end_quote": "וענה ואמר כן אומר זקני",
+   "hasidic": true,
+   "summary_en": "As a child at the Seer of Lublin's Shabbat table, the grandson of the holy Maggid could not take in the Seer's Torah because it was not in his grandfather's style; the Seer sensed this and deliberately repeated it in the Maggid's manner, and the child answered, 'So says my grandfather.'",
+   "tags": [
+    {
+     "tag": "times:shabbat",
+     "scope": "span",
+     "quotes": [
+      "והיה בלובלין בש״ק והיה יושב סמוך"
+     ],
+     "confidence": 3,
+     "why": "The scene is set at the Shabbat table in Lublin.",
+     "quotes_failed": false
+    },
+    {
+     "tag": "supernatural:perception",
+     "scope": "span",
+     "quotes": [
+      "והרגיש הרבי זצ״ל, ואמר במכוון שוב"
+     ],
+     "confidence": 2,
+     "why": "The Seer senses the child's inner unease without being told.",
+     "quotes_failed": false
+    },
+    {
+     "tag": "practice:sermon",
+     "scope": "span",
+     "quotes": [
+      "וכשהיה אומר ד״ת לא נכנס כ״כ באזניו",
+      "ואמר במכוון שוב עוד הפעם ע״ד המגיד"
+     ],
+     "confidence": 3,
+     "why": "The Seer delivers words of Torah at the table.",
+     "quotes_failed": false
+    },
+    {
+     "tag": "practice:reception_of_hasidim",
+     "scope": "span",
+     "quotes": [
+      "והיה יושב סמוך ממש אצל ההק׳ רבי"
+     ],
+     "confidence": 1,
+     "why": "A child guest is seated beside the rebbe at his table.",
+     "quotes_failed": false
+    },
+    {
+     "tag": "spaces:institutions_hassidic_court",
+     "scope": "span",
+     "quotes": [
+      "כשהיה קטן והיה בלובלין"
+     ],
+     "confidence": 2,
+     "why": "The setting is the Seer's court in Lublin.",
+     "quotes_failed": false
+    },
+    {
+     "tag": "characters-and-roles:preacher",
+     "scope": "span",
+     "quotes": [
+      "ד״ת של זקנו המגיד הק׳"
+     ],
+     "confidence": 1,
+     "why": "The Maggid is invoked as a distinct model of Torah teaching, though he does not act in the story.",
+     "quotes_failed": false
+    },
+    {
+     "tag": "folkloristics:story_type_virtues",
+     "scope": "story",
+     "quotes": [],
+     "confidence": 1,
+     "why": "Shows the Seer's sensitivity and humility in adapting his teaching to a child.",
+     "quotes_failed": false
+    }
+   ],
+   "missing_concepts": [
+    "a tsaddik adapting his teaching style to the listener",
+    "a child's attachment to his grandfather's teaching tradition",
+    "transmission of a family style of teaching"
+   ],
+   "start_quote_found": true,
+   "end_quote_found": true
+  }
+ ],
+ "check": {
+  "non_vocab_tags": [],
+  "quotes": 7,
+  "quotes_not_found": 0
+ },
+ "id": "Toldot-Haniflaot_0010",
+ "chars": 236,
+ "seconds": 14
+}

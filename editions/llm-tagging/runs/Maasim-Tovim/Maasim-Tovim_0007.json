@@ -1,0 +1,119 @@
+{
+ "unit": {
+  "kind": "non_hasidic_story",
+  "why": "A talmudic legend from the Yerushalmi (Shabbat 6) about two students of R. Hanina saved from a predicted death by an act of charity; it has no Hasidic figures.",
+  "boundary_note": ""
+ },
+ "stories": [
+  {
+   "k": 1,
+   "start_quote": "מעשה בשני תלמידים מתלמידי ר' חנינא",
+   "end_quote": "הוא מתפייס בחצי ככר לחם",
+   "hasidic": false,
+   "summary_en": "An astrologer predicts that two students of R. Hanina going out to cut wood will not return; they share their bread with a starving old man who blesses them, and they come back safely, while a snake cut in two is found in their load, so the astrologer admits that charity overrides his stars.",
+   "tags": [
+    {
+     "tag": "not-a-hasidic-story:hagiography",
+     "scope": "story",
+     "quotes": [],
+     "confidence": 2,
+     "why": "A talmudic tale copied from the Yerushalmi, praising the merit of rabbinic students",
+     "quotes_failed": false
+    },
+    {
+     "tag": "not-a-hasidic-story:virtues",
+     "scope": "story",
+     "quotes": [],
+     "confidence": 2,
+     "why": "An exemplary tale of charity saving from death, in a collection titled Maasim Tovim",
+     "quotes_failed": false
+    },
+    {
+     "tag": "ethics-and-emotions:charity",
+     "scope": "span",
+     "quotes": [
+      "שברו וחתכו את הלחם ונתנו לו את החצי"
+     ],
+     "confidence": 3,
+     "why": "They give half their bread to the hungry old man",
+     "quotes_failed": false
+    },
+    {
+     "tag": "supernatural:prognostication",
+     "scope": "span",
+     "quotes": [
+      "אלו השנים הולכים ואינן חוזרין"
+     ],
+     "confidence": 2,
+     "why": "The astrologer's prediction, which fails",
+     "quotes_failed": false
+    },
+    {
+     "tag": "supernatural:miracle",
+     "scope": "span",
+     "quotes": [
+      "נחש אחד כרות לשני חלקים"
+     ],
+     "confidence": 2,
+     "why": "They are saved from the snake without noticing it",
+     "quotes_failed": false
+    },
+    {
+     "tag": "social:relations_with_non_jews",
+     "scope": "span",
+     "quotes": [
+      "מה אעשה לאלהי ישראל הוא מתפייס בחצי ככר לחם"
+     ],
+     "confidence": 2,
+     "why": "The astrologer is presumably a gentile who acknowledges the God of Israel",
+     "quotes_failed": false
+    },
+    {
+     "tag": "practice:prayer",
+     "scope": "span",
+     "quotes": [
+      "אכל והתפלל בעדם"
+     ],
+     "confidence": 2,
+     "why": "The old man prays for them",
+     "quotes_failed": false
+    },
+    {
+     "tag": "ethics-and-emotions:lying",
+     "scope": "span",
+     "quotes": [
+      "אני איש כזב ואין ממש באצטגנינות שלי"
+     ],
+     "confidence": 1,
+     "why": "The astrologer admits his art is false",
+     "quotes_failed": false
+    },
+    {
+     "tag": "social:retrospective_recognition",
+     "scope": "span",
+     "quotes": [
+      "וישאלו לאלו הב׳ תלמידים מה מצוה באה לידכם"
+     ],
+     "confidence": 2,
+     "why": "The hidden reason for their rescue is uncovered afterwards",
+     "quotes_failed": false
+    }
+   ],
+   "missing_concepts": [
+    "astrology (אצטגנינות) overridden by merit",
+    "charity saves from death (צדקה תציל ממות)",
+    "rescue from a hidden danger (snake)"
+   ],
+   "start_quote_found": true,
+   "end_quote_found": true
+  }
+ ],
+ "check": {
+  "non_vocab_tags": [],
+  "quotes": 7,
+  "quotes_not_found": 0
+ },
+ "id": "Maasim-Tovim_0007",
+ "chars": 915,
+ "seconds": 12
+}

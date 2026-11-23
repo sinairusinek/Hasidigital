@@ -1,0 +1,142 @@
+{
+ "unit": {
+  "kind": "hasidic_story",
+  "why": "A single narrative about the Berdichever and the Maggid of Kozienice racing to blow the shofar on Rosh Hashanah, resolved by a heavenly dream.",
+  "boundary_note": ""
+ },
+ "stories": [
+  {
+   "k": 1,
+   "start_quote": "הרה״ק מבארדיטשוב הי' אצל הרה״ק המגיד",
+   "end_quote": "ואח״כ נוכל גם אנחנו לתקוע",
+   "hasidic": true,
+   "summary_en": "The Berdichever, told by the Maggid of Kozienice that he prays earlier, wagers he will blow the shofar first; on Rosh Hashanah the Maggid falls asleep and in a dream sees in heaven that the Berdichever's immersion before the shofar blowing has broken all the accusations, so he decides to wait until the Berdichever has blown.",
+   "tags": [
+    {
+     "tag": "times:holidays",
+     "scope": "story",
+     "quotes": [],
+     "confidence": 3,
+     "why": "Rosh Hashanah, shofar blowing",
+     "quotes_failed": false
+    },
+    {
+     "tag": "experience:dream",
+     "scope": "span",
+     "quotes": [
+      "עדי נרדם בשינה ובתוך שינתו ראה כי עומד בשמים"
+     ],
+     "confidence": 3,
+     "why": "the dream reveals the outcome",
+     "quotes_failed": false
+    },
+    {
+     "tag": "spaces:heaven",
+     "scope": "span",
+     "quotes": [
+      "ראה כי עומד בשמים ויש קטרוג גדול"
+     ],
+     "confidence": 3,
+     "why": "the dream takes place in heaven",
+     "quotes_failed": false
+    },
+    {
+     "tag": "experience:revelation",
+     "scope": "span",
+     "quotes": [
+      "ואמרו לו כי הרב מבארדיטשוב הולך עתה להמקוה"
+     ],
+     "confidence": 2,
+     "why": "heavenly disclosure",
+     "quotes_failed": false
+    },
+    {
+     "tag": "supernatural:communicating_with_the_invisible",
+     "scope": "span",
+     "quotes": [
+      "ושאל מה זה. ואמרו לו כי הרב"
+     ],
+     "confidence": 2,
+     "why": "he converses with heavenly voices",
+     "quotes_failed": false
+    },
+    {
+     "tag": "practice:tvilah",
+     "scope": "span",
+     "quotes": [
+      "הולך עתה להמקוה לטבול א״ע לפני תק״ש"
+     ],
+     "confidence": 3,
+     "why": "immersion before the shofar blowing",
+     "quotes_failed": false
+    },
+    {
+     "tag": "social:competition",
+     "scope": "span",
+     "quotes": [
+      "אראה למע״כ שאני אתקע שופר מקודם שאתם תתקעו"
+     ],
+     "confidence": 3,
+     "why": "a contest between two tsaddikim",
+     "quotes_failed": false
+    },
+    {
+     "tag": "practice:prayer",
+     "scope": "span",
+     "quotes": [
+      "מתי עומד מע״כ להתפלל ענה לו",
+      "שמתאחר בתפלתו"
+     ],
+     "confidence": 2,
+     "why": "the timing of prayer is discussed",
+     "quotes_failed": false
+    },
+    {
+     "tag": "practice:protection",
+     "scope": "span",
+     "quotes": [
+      "ביטל כל הדינים והמעוררים והקטרוגים"
+     ],
+     "confidence": 2,
+     "why": "the tsaddik annuls the heavenly accusations against the community",
+     "quotes_failed": false
+    },
+    {
+     "tag": "supernatural:perception",
+     "scope": "span",
+     "quotes": [
+      "ראה כי עומד בשמים ויש קטרוג גדול"
+     ],
+     "confidence": 1,
+     "why": "the Maggid perceives the Berdichever's action from afar",
+     "quotes_failed": false
+    },
+    {
+     "tag": "folkloristics:story_type_virtues",
+     "scope": "story",
+     "quotes": [],
+     "confidence": 1,
+     "why": "the point is the Berdichever's spiritual power",
+     "quotes_failed": false
+    }
+   ],
+   "missing_concepts": [
+    "shofar blowing",
+    "heavenly accusation (kitrug) and its annulment",
+    "preparation for prayer"
+   ],
+   "start_quote_found": true,
+   "end_quote_found": true
+  }
+ ],
+ "check": {
+  "non_vocab_tags": [
+   "demons"
+  ],
+  "quotes": 10,
+  "quotes_not_found": 0
+ },
+ "id": "Eser-Orot_0058",
+ "chars": 712,
+ "seconds": 15
+}

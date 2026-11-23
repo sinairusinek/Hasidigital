@@ -1,0 +1,120 @@
+{
+ "unit": {
+  "kind": "hasidic_story",
+  "why": "A short anecdote: R. Israel, son of the Seer of Lublin, recounts his father's prediction about a nobleman's palace in Pilev, now fulfilled by the Kotzker rebbe's stay there.",
+  "boundary_note": ""
+ },
+ "stories": [
+  {
+   "k": 1,
+   "start_quote": "שמעתי כשהיה הרה״ק ר׳ מ״מ זצ״ל מקאצק",
+   "end_quote": "מחויב אני לראותו וד״ל",
+   "hasidic": true,
+   "summary_en": "When the Kotzker rebbe stayed in the Czetwertyński palace in Pilev, R. Israel, son of the Seer of Lublin, came to town and told how his father had foreseen, while the palace was being built, that a tzaddik would one day rest there, so he felt obliged to go and see the Kotzker.",
+   "tags": [
+    {
+     "tag": "supernatural:prognostication",
+     "scope": "span",
+     "quotes": [
+      "שעתיד צדיק להיות בהפאליץ הזה מקום נייחה"
+     ],
+     "confidence": 3,
+     "why": "The Seer's prediction comes true with the Kotzker's stay.",
+     "quotes_failed": false
+    },
+    {
+     "tag": "folkloristics:story_type_prognostication",
+     "scope": "story",
+     "quotes": [],
+     "confidence": 3,
+     "why": "The narrative arc is a prediction that is fulfilled.",
+     "quotes_failed": false
+    },
+    {
+     "tag": "supernatural:perception",
+     "scope": "span",
+     "quotes": [
+      "והביט הרבי בשביל מי בונים הפאלאטץ הגדול הזה"
+     ],
+     "confidence": 2,
+     "why": "The Seer perceives the palace's future use by looking at it.",
+     "quotes_failed": false
+    },
+    {
+     "tag": "characters-and-roles:the_family_of_the_tsaddik",
+     "scope": "span",
+     "quotes": [
+      "ר׳ ישראל בנו של הרבי זצ״ל מלובלין"
+     ],
+     "confidence": 3,
+     "why": "The Seer's son is the main actor.",
+     "quotes_failed": false
+    },
+    {
+     "tag": "practice:storytelling",
+     "scope": "span",
+     "quotes": [
+      "וסיפר איך שנסע עם אביו הרבי זצ״ל"
+     ],
+     "confidence": 2,
+     "why": "R. Israel narrates the earlier event.",
+     "quotes_failed": false
+    },
+    {
+     "tag": "practice:the_travels_of_the_tsaddik",
+     "scope": "span",
+     "quotes": [
+      "כשהיה הרה״ק ר׳ מ״מ זצ״ל מקאצק בפילעוו",
+      "שנסע עם אביו הרבי זצ״ל בעת שבנה"
+     ],
+     "confidence": 2,
+     "why": "The Kotzker's stay in Pilev and the Seer's journey frame the story.",
+     "quotes_failed": false
+    },
+    {
+     "tag": "practice:travel_to_other_tsaddik",
+     "scope": "span",
+     "quotes": [
+      "כיון שצדיק זה הוא בהפאליץ מחויב אני לראותו"
+     ],
+     "confidence": 2,
+     "why": "The Seer's son resolves to visit the Kotzker, a tzaddik other than his own.",
+     "quotes_failed": false
+    },
+    {
+     "tag": "social:relations_with_non_jews",
+     "scope": "span",
+     "quotes": [
+      "בהפאלאטץ של האדון טשיטירינסקע"
+     ],
+     "confidence": 1,
+     "why": "Set in a Polish nobleman's palace; there is no direct interaction.",
+     "quotes_failed": false
+    },
+    {
+     "tag": "social:retrospective_recognition",
+     "scope": "span",
+     "quotes": [
+      "כיון שצדיק זה הוא בהפאליץ מחויב אני לראותו"
+     ],
+     "confidence": 1,
+     "why": "R. Israel recognizes the Kotzker as the tzaddik of the prophecy.",
+     "quotes_failed": false
+    }
+   ],
+   "missing_concepts": [
+    "a nobleman's palace as a predestined resting place for a tzaddik"
+   ],
+   "start_quote_found": true,
+   "end_quote_found": true
+  }
+ ],
+ "check": {
+  "non_vocab_tags": [],
+  "quotes": 9,
+  "quotes_not_found": 0
+ },
+ "id": "Likutim-Hadashim_0049",
+ "chars": 406,
+ "seconds": 14
+}

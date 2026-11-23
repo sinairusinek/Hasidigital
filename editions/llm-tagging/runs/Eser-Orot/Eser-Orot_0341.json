@@ -1,0 +1,128 @@
+{
+ "unit": {
+  "kind": "hasidic_story",
+  "why": "A single anecdote: when the child R. David Moshe (son of the Ruzhiner) was seven, a fire broke out in the Ruzhin court and he would not interrupt his bedtime blessing; he signalled that God would save them, and the fire went out.",
+  "boundary_note": ""
+ },
+ "stories": [
+  {
+   "k": 1,
+   "start_quote": "ספרו מגידי אמת שבעת שהי׳ כבן שבע שנים",
+   "end_quote": "קצות קדושת אותו צדיק מילדותו",
+   "hasidic": true,
+   "summary_en": "As a seven-year-old, R. David Moshe stays in bed during a fire at his father's court in Ruzhin, refusing to interrupt after reciting the bedtime blessing; he signals that God will save them, and immediately the fire is extinguished.",
+   "tags": [
+    {
+     "tag": "characters-and-roles:the_family_of_the_tsaddik",
+     "scope": "span",
+     "quotes": [
+      "ויצא הריזינער מחדרו ושאל על ילדיו",
+      "הלך וספר לאביו הריזינער"
+     ],
+     "confidence": 3,
+     "why": "The Ruzhiner and his children appear; the protagonist is his son.",
+     "quotes_failed": false
+    },
+    {
+     "tag": "supernatural:miracle",
+     "scope": "span",
+     "quotes": [
+      "ותיכף נשמע כי נכבה האש"
+     ],
+     "confidence": 3,
+     "why": "The fire is extinguished at once, after his assurance.",
+     "quotes_failed": false
+    },
+    {
+     "tag": "supernatural:prognostication",
+     "scope": "span",
+     "quotes": [
+      "והראה ברמז כי השי\"ת יצילו"
+     ],
+     "confidence": 2,
+     "why": "He signals that God will save them, and it comes true.",
+     "quotes_failed": false
+    },
+    {
+     "tag": "folkloristics:story_type_virtues",
+     "scope": "story",
+     "quotes": [],
+     "confidence": 3,
+     "why": "The text frames the tale as showing the holiness of the tzaddik from childhood.",
+     "quotes_failed": false
+    },
+    {
+     "tag": "folkloristics:story_type_protection",
+     "scope": "story",
+     "quotes": [],
+     "confidence": 2,
+     "why": "The household is saved from the fire.",
+     "quotes_failed": false
+    },
+    {
+     "tag": "practice:prayer",
+     "scope": "span",
+     "quotes": [
+      "כבר בירך ברכת „המפיל חבלי שינה\" ואינו רוצה להפסיק"
+     ],
+     "confidence": 2,
+     "why": "His steadfastness concerns the bedtime blessing.",
+     "quotes_failed": false
+    },
+    {
+     "tag": "practice:halakhah",
+     "scope": "span",
+     "quotes": [
+      "ואינו רוצה להפסיק"
+     ],
+     "confidence": 2,
+     "why": "He follows the rule against speaking after the Hamapil blessing.",
+     "quotes_failed": false
+    },
+    {
+     "tag": "spaces:institutions_hassidic_court",
+     "scope": "span",
+     "quotes": [
+      "באחת מקצועות הק׳ מריזין"
+     ],
+     "confidence": 2,
+     "why": "The fire breaks out in the Ruzhin court.",
+     "quotes_failed": false
+    },
+    {
+     "tag": "ethics-and-emotions:virtues",
+     "scope": "story",
+     "quotes": [],
+     "confidence": 2,
+     "why": "Shows the child's piety and steadfastness.",
+     "quotes_failed": false
+    },
+    {
+     "tag": "practice:protection",
+     "scope": "span",
+     "quotes": [
+      "והראה ברמז כי השי\"ת יצילו"
+     ],
+     "confidence": 1,
+     "why": "His trust is linked to the household's rescue.",
+     "quotes_failed": false
+    }
+   ],
+   "missing_concepts": [
+    "childhood piety of a tzaddik",
+    "fire / disaster",
+    "silence after the Hamapil blessing"
+   ],
+   "start_quote_found": true,
+   "end_quote_found": true
+  }
+ ],
+ "check": {
+  "non_vocab_tags": [],
+  "quotes": 8,
+  "quotes_not_found": 0
+ },
+ "id": "Eser-Orot_0341",
+ "chars": 537,
+ "seconds": 12
+}

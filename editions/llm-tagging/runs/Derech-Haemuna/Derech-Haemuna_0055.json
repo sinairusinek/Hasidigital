@@ -1,0 +1,80 @@
+{
+ "unit": {
+  "kind": "hasidic_story",
+  "why": "A brief anecdote: Heaven gave the Besht a choice of town, and he chose Medzhybizh because fish for Shabbat were easy to find there. It is told to illustrate a point about Shabbat fish.",
+  "boundary_note": "Part of a run of items on fish for Shabbat ('מענין דגים') that begins at the end of the previous division and continues into the next."
+ },
+ "stories": [
+  {
+   "k": 1,
+   "start_quote": "ב) סיפר לענין דגים ששכיחים להימשך",
+   "end_quote": "נקל לו להשיגם לש״ק. (ז״ט)",
+   "hasidic": true,
+   "summary_en": "The Baal Shem Tov was given a choice from Heaven to live in Nemirov, Medzhybizh or a third town, and he chose Medzhybizh because fish were common there and easy to obtain for Shabbat.",
+   "tags": [
+    {
+     "tag": "times:shabbat",
+     "scope": "span",
+     "quotes": [
+      "ששכיחים שם דגים נקל לו להשיגם לש״ק"
+     ],
+     "confidence": 3,
+     "why": "The choice turns on obtaining fish for Shabbat.",
+     "quotes_failed": false
+    },
+    {
+     "tag": "supernatural:communicating_with_the_invisible",
+     "scope": "span",
+     "quotes": [
+      "שמן השמים נתנו לו ברירה לדור"
+     ],
+     "confidence": 2,
+     "why": "Heaven communicates a choice to the Besht.",
+     "quotes_failed": false
+    },
+    {
+     "tag": "experience:revelation",
+     "scope": "span",
+     "quotes": [
+      "שמן השמים נתנו לו ברירה לדור"
+     ],
+     "confidence": 1,
+     "why": "A heavenly disclosure of options, though the means are not described.",
+     "quotes_failed": false
+    },
+    {
+     "tag": "practice:storytelling",
+     "scope": "span",
+     "quotes": [
+      "וסיפר בשם הבעש״ט ולה״ה"
+     ],
+     "confidence": 2,
+     "why": "A tzaddik tells a tale about the Besht in connection with a teaching.",
+     "quotes_failed": false
+    },
+    {
+     "tag": "not-a-hasidic-story:sermon",
+     "scope": "story",
+     "quotes": [],
+     "confidence": 1,
+     "why": "The anecdote is wrapped in a teaching about fish on Shabbat.",
+     "quotes_failed": false
+    }
+   ],
+   "missing_concepts": [
+    "fish for Shabbat (custom of eating fish)",
+    "choice of residence / town of settlement of a tzaddik"
+   ],
+   "start_quote_found": true,
+   "end_quote_found": true
+  }
+ ],
+ "check": {
+  "non_vocab_tags": [],
+  "quotes": 4,
+  "quotes_not_found": 0
+ },
+ "id": "Derech-Haemuna_0055",
+ "chars": 202,
+ "seconds": 13
+}

@@ -1,0 +1,115 @@
+{
+ "unit": {
+  "kind": "hasidic_story",
+  "why": "A single anecdote: the Yehudi's wife asks R. Simha Bunem to write to her husband about her bleeding and lack of money, and he writes a cryptic letter that only the Yehudi can decipher.",
+  "boundary_note": ""
+ },
+ "stories": [
+  {
+   "k": 1,
+   "start_quote": "שמעתי שהיה היהודי ז\"ל אצל הרבי",
+   "end_quote": "הממעיט וממון יש לה מעט",
+   "hasidic": true,
+   "summary_en": "While the Yehudi is with the Seer in Lublin, his wife asks R. Simha Bunem to write to him about heavy menstrual bleeding and her lack of money; Bunem writes a cryptic letter built on the double sense of 'damim' (blood / money), which only the Yehudi understands.",
+   "tags": [
+    {
+     "tag": "characters-and-roles:the_family_of_the_tsaddik",
+     "scope": "span",
+     "quotes": [
+      "ואשתו של היהודי היתה בפשיסחא"
+     ],
+     "confidence": 3,
+     "why": "The Yehudi's wife (the rebbetzin) sets the plot in motion.",
+     "quotes_failed": false
+    },
+    {
+     "tag": "women:minor_character",
+     "scope": "span",
+     "quotes": [
+      "ובאה אל הרה״ק ר׳ שמחה בונם זצ״ל",
+      "הרבנית באה אלי בטענת דמים"
+     ],
+     "confidence": 2,
+     "why": "The wife acts by coming and making the request, but the story centres on the letter.",
+     "quotes_failed": false
+    },
+    {
+     "tag": "women:catalyst_character",
+     "scope": "span",
+     "quotes": [
+      "איך שהולכים ממנה דמים הרבה מן הווסת"
+     ],
+     "confidence": 2,
+     "why": "Her complaint triggers the letter and the wordplay.",
+     "quotes_failed": false
+    },
+    {
+     "tag": "practice:halakhah",
+     "scope": "span",
+     "quotes": [
+      "דם נדה גם משמע ממון",
+      "אחד המרבה ואחד הממעיט"
+     ],
+     "confidence": 2,
+     "why": "The letter plays on niddah (menstrual) blood and on a Talmudic legal formula.",
+     "quotes_failed": false
+    },
+    {
+     "tag": "practice:joke",
+     "scope": "span",
+     "quotes": [
+      "דמים תרתי משמע אחד המרבה ואחד הממעיט"
+     ],
+     "confidence": 2,
+     "why": "The letter is a witty, punning rendering of a serious complaint.",
+     "quotes_failed": false
+    },
+    {
+     "tag": "social:inter_hasidic_master_disciple_relationship",
+     "scope": "span",
+     "quotes": [
+      "ושום אדם לא יכול להבין הפי' באגרת עד שהיהודי ז״ל קרא"
+     ],
+     "confidence": 2,
+     "why": "The coded exchange between the master (the Yehudi) and his disciple (Bunem) only the two of them understand.",
+     "quotes_failed": false
+    },
+    {
+     "tag": "social:marital_relationship",
+     "scope": "span",
+     "quotes": [
+      "וא׳ שיכתוב אגרת לבעלה היהודי"
+     ],
+     "confidence": 1,
+     "why": "The wife's intimate and material needs are relayed to her absent husband.",
+     "quotes_failed": false
+    },
+    {
+     "tag": "practice:travel_to_the_tsaddik",
+     "scope": "span",
+     "quotes": [
+      "שהיה היהודי ז\"ל אצל הרבי זצ\"ל בלובלין"
+     ],
+     "confidence": 1,
+     "why": "The setting is the Yehudi's stay with the Seer of Lublin.",
+     "quotes_failed": false
+    }
+   ],
+   "missing_concepts": [
+    "cryptic letter / wordplay (double meaning of דמים) understood only by the master",
+    "menstrual irregularity as a marital/health concern",
+    "material want of the tsaddik's household"
+   ],
+   "start_quote_found": true,
+   "end_quote_found": true
+  }
+ ],
+ "check": {
+  "non_vocab_tags": [],
+  "quotes": 10,
+  "quotes_not_found": 0
+ },
+ "id": "Likutim-Hadashim_0026",
+ "chars": 469,
+ "seconds": 17
+}

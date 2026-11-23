@@ -1,0 +1,143 @@
+{
+ "unit": {
+  "kind": "hasidic_story",
+  "why": "A brief anecdote, told by the author's father, about a holy man who was gravely ill before Sukkot and was healed by studying the etrog and lulav kavvanot in deep devekut. It is framed by a verse and an explanation.",
+  "boundary_note": ""
+ },
+ "stories": [
+  {
+   "k": 1,
+   "start_quote": "שמעתי מאאמו״ר ז״ל שסיפר מקדוש אחד",
+   "end_quote": "יום חולי ורע וממילא נתרפא",
+   "hasidic": true,
+   "summary_en": "A holy man, dangerously ill before Sukkot, studied the kavvanot of etrog and lulav in such cleaving to God that he nearly lost his corporeal existence and was immediately healed. The narrator's father explains that where one is nullified in God no illness can dwell.",
+   "tags": [
+    {
+     "tag": "practice:healing",
+     "scope": "span",
+     "quotes": [
+      "שהי׳ חולה ומסוכן מאד לפני חג הסוכות",
+      "ונתרפא מיד"
+     ],
+     "confidence": 3,
+     "why": "The sick man is cured.",
+     "quotes_failed": false
+    },
+    {
+     "tag": "kabbalah:kabbalistic_terms_kavvanot",
+     "scope": "span",
+     "quotes": [
+      "ולמד הכוונות של אתרוג ולולב"
+     ],
+     "confidence": 3,
+     "why": "Lurianic kavvanot of the four species.",
+     "quotes_failed": false
+    },
+    {
+     "tag": "practice:devekut",
+     "scope": "span",
+     "quotes": [
+      "בדביקות גדול בבורא ב״ה",
+      "שכ״כ הי׳ מדבק עצמו בבורא ב״ה"
+     ],
+     "confidence": 3,
+     "why": "Rapt cleaving to God.",
+     "quotes_failed": false
+    },
+    {
+     "tag": "experience:devekut",
+     "scope": "span",
+     "quotes": [
+      "שכמעט הי׳ בטל במציאות",
+      "עד שכמעט יצא מגדר אנושי"
+     ],
+     "confidence": 3,
+     "why": "Mystical self-nullification.",
+     "quotes_failed": false
+    },
+    {
+     "tag": "practice:meditation",
+     "scope": "span",
+     "quotes": [
+      "ולמד הכוונות של אתרוג ולולב"
+     ],
+     "confidence": 2,
+     "why": "Contemplative study of kavvanot.",
+     "quotes_failed": false
+    },
+    {
+     "tag": "times:holidays",
+     "scope": "span",
+     "quotes": [
+      "לפני חג הסוכות"
+     ],
+     "confidence": 3,
+     "why": "Set before Sukkot.",
+     "quotes_failed": false
+    },
+    {
+     "tag": "supernatural:miracle",
+     "scope": "span",
+     "quotes": [
+      "ונתרפא מיד"
+     ],
+     "confidence": 2,
+     "why": "Instant cure.",
+     "quotes_failed": false
+    },
+    {
+     "tag": "practice:storytelling",
+     "scope": "span",
+     "quotes": [
+      "שמעתי מאאמו״ר ז״ל שסיפר מקדוש אחד"
+     ],
+     "confidence": 2,
+     "why": "The tale is framed as told by the author's father.",
+     "quotes_failed": false
+    },
+    {
+     "tag": "practice:study",
+     "scope": "span",
+     "quotes": [
+      "ולמד הכוונות של אתרוג ולולב"
+     ],
+     "confidence": 2,
+     "why": "Study of kabbalistic material.",
+     "quotes_failed": false
+    },
+    {
+     "tag": "knowledge:esoteric",
+     "scope": "span",
+     "quotes": [
+      "ולמד הכוונות של אתרוג ולולב"
+     ],
+     "confidence": 2,
+     "why": "Kabbalistic intentions.",
+     "quotes_failed": false
+    },
+    {
+     "tag": "not-a-hasidic-story:sermon",
+     "scope": "story",
+     "quotes": [],
+     "confidence": 1,
+     "why": "The anecdote sits inside an exegetical frame on Lev. 23:40 and carries an explanatory gloss.",
+     "quotes_failed": false
+    }
+   ],
+   "missing_concepts": [
+    "four species (etrog and lulav)",
+    "self-nullification (bittul) as cause of healing"
+   ],
+   "start_quote_found": true,
+   "end_quote_found": true
+  }
+ ],
+ "check": {
+  "non_vocab_tags": [],
+  "quotes": 13,
+  "quotes_not_found": 0
+ },
+ "id": "Tiferet-Hayyim_0009",
+ "chars": 348,
+ "seconds": 16
+}

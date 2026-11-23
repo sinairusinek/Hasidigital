@@ -1,0 +1,153 @@
+{
+ "unit": {
+  "kind": "hasidic_story",
+  "why": "An autobiographical memorate (from R. Yitzhak Isaac of Komarno's Megillat Setarim): in his youth he was overcome by temptation of the eyes, wept alone in the synagogue until he fainted, and was then granted heavenly protection from seeing a married woman.",
+  "boundary_note": "Part of a numbered sequence of excerpts from the same memoir; self-contained episode"
+ },
+ "stories": [
+  {
+   "k": 1,
+   "start_quote": "מספר עוד שם מזמן היותו י\"ב שנה",
+   "end_quote": "בהיותו כבן ט״ז שנים והמובן לפי החשבון",
+   "hasidic": true,
+   "summary_en": "As a boy of 12–15 the author was overcome by Samael and failed to guard his eyes; he then wept alone in the synagogue before God until he fainted, and from then on he never looked at a married woman, receiving heavenly protection against it and returning to Torah and prayer.",
+   "tags": [
+    {
+     "tag": "ethics-and-emotions:lust",
+     "scope": "span",
+     "quotes": [
+      "ולא שמרתי את ראות עיני"
+     ],
+     "confidence": 3,
+     "why": "Temptation of the eyes is the subject of the episode",
+     "quotes_failed": false
+    },
+    {
+     "tag": "ethics-and-emotions:repentance",
+     "scope": "span",
+     "quotes": [
+      "ובכיתי בכיות כמעיין הנובע לפני יוצר בראשית שימחל"
+     ],
+     "confidence": 3,
+     "why": "He weeps and asks God for forgiveness",
+     "quotes_failed": false
+    },
+    {
+     "tag": "ethics-and-emotions:resisting_temptation",
+     "scope": "span",
+     "quotes": [
+      "לא הסתכלתי ולא ראיתי ראייה בעלמא צורה של אשת איש"
+     ],
+     "confidence": 2,
+     "why": "He abstains from looking at women for the rest of his life",
+     "quotes_failed": false
+    },
+    {
+     "tag": "ethics-and-emotions:prohibitions",
+     "scope": "span",
+     "quotes": [
+      "צורה של אשת איש"
+     ],
+     "confidence": 2,
+     "why": "The prohibition on gazing at a married woman is at issue",
+     "quotes_failed": false
+    },
+    {
+     "tag": "practice:prayer",
+     "scope": "span",
+     "quotes": [
+      "ונכנסתי לביהכנ״ס ביחידות באיזה יום",
+      "וחזרתי לעבודת יוצר בראשית לתורה ולתפלה"
+     ],
+     "confidence": 2,
+     "why": "Tearful supplication in the synagogue, then a return to prayer",
+     "quotes_failed": false
+    },
+    {
+     "tag": "practice:solitude",
+     "scope": "span",
+     "quotes": [
+      "ונכנסתי לביהכנ״ס ביחידות באיזה יום"
+     ],
+     "confidence": 1,
+     "why": "He withdraws alone to the synagogue",
+     "quotes_failed": false
+    },
+    {
+     "tag": "practice:study",
+     "scope": "span",
+     "quotes": [
+      "וחזרתי לעבודת יוצר בראשית לתורה ולתפלה"
+     ],
+     "confidence": 1,
+     "why": "Return to Torah study is mentioned",
+     "quotes_failed": false
+    },
+    {
+     "tag": "supernatural:miracle",
+     "scope": "span",
+     "quotes": [
+      "ויש לי ע״ז שמירה מן השמים שלא יזדמן"
+     ],
+     "confidence": 1,
+     "why": "Heavenly protection prevents even accidental sight",
+     "quotes_failed": false
+    },
+    {
+     "tag": "characters-and-roles:demons",
+     "scope": "span",
+     "quotes": [
+      "התגברות גדול מס״מ ימ״ש"
+     ],
+     "confidence": 1,
+     "why": "Samael appears as the tempting force",
+     "quotes_failed": false
+    },
+    {
+     "tag": "ethics-and-emotions:sadness",
+     "scope": "span",
+     "quotes": [
+      "ובכיתי בכיות כמעיין הנובע",
+      "עד שנתעלפתי"
+     ],
+     "confidence": 1,
+     "why": "Intense weeping until he faints",
+     "quotes_failed": false
+    },
+    {
+     "tag": "women:mention_only",
+     "scope": "span",
+     "quotes": [
+      "צורה של אשת איש"
+     ],
+     "confidence": 2,
+     "why": "Married women are only referred to",
+     "quotes_failed": false
+    },
+    {
+     "tag": "folkloristics:story_type_virtues",
+     "scope": "story",
+     "quotes": [],
+     "confidence": 2,
+     "why": "The episode illustrates the tsaddik's purity and guarding of the eyes",
+     "quotes_failed": false
+    }
+   ],
+   "missing_concepts": [
+    "guarding the eyes (shmirat einayim)",
+    "autobiographical memoir / self-narration of a tsaddik",
+    "fainting from weeping"
+   ],
+   "start_quote_found": true,
+   "end_quote_found": true
+  }
+ ],
+ "check": {
+  "non_vocab_tags": [],
+  "quotes": 13,
+  "quotes_not_found": 0
+ },
+ "id": "Eser-Kedushot_0175",
+ "chars": 601,
+ "seconds": 19
+}

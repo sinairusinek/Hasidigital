@@ -18,7 +18,7 @@
 					<name>DictaBert</name>
 					<note>automatic tagging, corrected with Gemini; not yet reviewed by hand</note>
 				</respStmt>
-			</titleStmt><editionStmt><edition n="1.0.0">Working edition</edition></editionStmt>
+			<respStmt xml:id="llm-tagging"><resp>Topic tags: assigned by Claude Opus 5.5 with the project's topic scheme (editions/llm-tagging; calibrated 2026-11-16, est. precision 0.89 / recall 0.90, model-judged); not reviewed by hand</resp><name>Claude Opus 5.5 (Anthropic)</name></respStmt></titleStmt><editionStmt><edition n="1.0.0">Working edition</edition></editionStmt>
 			<publicationStmt>
 				<p>This edition was created in the framework of the the project "Historical Digital
 					Analysis of Hasidic Stories Until 1914", PI: Gadi Sagiv; Supervising
@@ -28,7 +28,7 @@
 			</publicationStmt>
 			<sourceDesc><bibl type="digital"><title>Digital scan from HebrewBooks.org</title><publisher>HebrewBooks.org</publisher><ptr target="https://hebrewbooks.org/3626"/><idno type="HebrewBooks">3626</idno><idno type="Transkribus">7125297</idno><note>Source for transcription</note></bibl><bibl type="original"><title type="main" xml:lang="he">דרך האמונה ומעשה רב</title><title type="main" xml:lang="en">Derech HaEmunah UMaaseh Rav</title><author><persName xml:lang="he">יעקב שלום דונר</persName><persName xml:lang="en">Yaacov Shalom Doner</persName></author><pubPlace xml:lang="he">ורשה</pubPlace><pubPlace xml:lang="en">Warsaw</pubPlace><date when="1898">תרנ"ח</date><textLang mainLang="heb"/><idno type="HebrewBooks">3626</idno><idno type="Kima">953</idno><idno type="Transkribus">7125297</idno><idno type="DBid">3692</idno><idno type="work">48</idno></bibl></sourceDesc>
 		</fileDesc>
-	<revisionDesc><change when="2026-04-29">sourceDesc synced from edition-metadata.json</change><change when="2026-11-21">text repaired: Gemini correction pass replayed without the tag-stripping bug that shuffled text (58f4166); later tag edits carried over</change><change when="2026-11-21">header in the shape of the online editions; page breaks restored from the Transkribus export</change></revisionDesc></teiHeader>
+	<revisionDesc><change when="2026-04-29">sourceDesc synced from edition-metadata.json</change><change when="2026-11-21">text repaired: Gemini correction pass replayed without the tag-stripping bug that shuffled text (58f4166); later tag edits carried over</change><change when="2026-11-21">header in the shape of the online editions; page breaks restored from the Transkribus export</change><change when="2026-11-23">topic tags (LLM, confidence &gt;= 2) written for 232 stories; not reviewed by hand</change></revisionDesc></teiHeader>
 	<text>
 		<front><div type="front-matter"><p>
 					<pb facs="Derech-Haemuna_0001.jpg"/><lb/>ספר
@@ -224,7 +224,7 @@
 				<p>
 					<lb/>מענין אברך
 				</p>
-				</div><div type="story" xml:id="Derech-Haemuna_0001" n="1"><head type="storyHead">Derech-Haemuna_0001</head>
+				</div><div type="story" xml:id="Derech-Haemuna_0001" n="1"><head type="storyHead">Derech-Haemuna_0001</head><span ana="practice:sermon; practice:storytelling; practice:study; spaces:heaven; times:death; ethics-and-emotions:anger; ethics-and-emotions:virtues; not-a-hasidic-story:sermon; times:eschatology" resp="#llm-tagging">תיוגים</span>
 <p>
 					<lb/>ב) ויהי מקץ שנתיים וגו׳ הנה הה״צ ר״ר <persName>ברוך</persName> ז״ל מ<placeName ref="#H-LOC_55">מעזבוז</placeName> סיפר מעשה נוראה כי
 					<lb/>בעיר א׳ היה איש א׳ אברך אב בחכמה ורך בשנים והאי טוב עלם הלך
@@ -248,7 +248,7 @@
 				<p>
 					<pb facs="Derech-Haemuna_0009.jpg"/><lb/>מענין אגרת מבני <persName>משה</persName>
 				</p>
-				</div><div type="story" xml:id="Derech-Haemuna_0002" n="2"><head type="storyHead">Derech-Haemuna_0002</head>
+				</div><div type="story" xml:id="Derech-Haemuna_0002" n="2"><head type="storyHead">Derech-Haemuna_0002</head><span ana="practice:writing_amulets; spaces:the_land_of_israel; supernatural:contraction_of_the_road; times:eschatology; ethics-and-emotions:fear; practice:use_of_holy_names; social:relations_with_non_jews; supernatural:communicating_with_the_invisible; supernatural:miracle" resp="#llm-tagging">תיוגים</span>
 <p>
 					<lb/>ג) העתקה מאגרת אשר בא מעבר ל<placeName>נהר סמבטיון</placeName> מבני <persName>משה רבינו</persName> ע״ה לעיר הק'
 					<placeName><lb/>ירושלים</placeName> תובב״א הנדפסת בס׳ <name type="work">מקוה ישראל</name> ומקוימת מחכמי <placeName ref="#H-LOC_154">ירושלים</placeName> ובעדות
@@ -369,7 +369,7 @@
 				<p>
 					<lb/>מענין אהבת ישראל
 				</p>
-				</div><div type="story" xml:id="Derech-Haemuna_0003" n="3"><head type="storyHead">Derech-Haemuna_0003</head>
+				</div><div type="story" xml:id="Derech-Haemuna_0003" n="3"><head type="storyHead">Derech-Haemuna_0003</head><span ana="ethics-and-emotions:virtues; folkloristics:story_type_virtues; social:inter_hasidic_master_disciple_relationship; not-a-hasidic-story:virtues" resp="#llm-tagging">תיוגים</span>
 <p>
 					<lb/>ד) שמעתי ממורי רבינו <persName>ר״י בעש״ט</persName> זצלה״ה שאמר לאיש אחד חכם שנשק את בנו
 					<lb/>ואמר לו בני הוה יודע שאני אוהב את הפחות שבפחותים מכל מה
@@ -377,14 +377,14 @@
 					<lb/>נושק אותו וזה החכם היה אבד״ק <placeName>קאלמייע</placeName> תלמיד מובהק של מרן אור ישראל
 					<lb/>אור שבע׳ הימים מרן <persName>הבעש״ט</persName>. (ס׳ <name type="work">ה״ה</name> פ׳ <name type="work">בהר</name>) :
 				</p>
-				</div><div type="story" xml:id="Derech-Haemuna_0004" n="4"><head type="storyHead">Derech-Haemuna_0004</head>
+				</div><div type="story" xml:id="Derech-Haemuna_0004" n="4"><head type="storyHead">Derech-Haemuna_0004</head><span ana="not-a-hasidic-story:sermon" resp="#llm-tagging">תיוגים</span>
 <p>
 					<lb/>ובס׳ תפ״ש על מועדים (ברמזי פורים) להה״ק מ<placeName>ראדאמסק</placeName> וז״ל וכדרך הזה שמענו
 					<lb/>מפה קודש הרב הוותיק אוהב ישראל ר׳ <persName>דוד מ<placeName ana="bio" ref="#H-LOC_349">לעלוב</placeName></persName> זלה״ה שאמר בזה״ל איך
 					<lb/>תאמרו עלי שאני צדיק הדור אם אני עדיין מרגיש בעצמו אהבת בני וזרעי יותר
 					<lb/>מבשאר בני אדם עכ״ל :
 				</p>
-				</div><div type="story" xml:id="Derech-Haemuna_0005" n="5"><head type="storyHead">Derech-Haemuna_0005</head>
+				</div><div type="story" xml:id="Derech-Haemuna_0005" n="5"><head type="storyHead">Derech-Haemuna_0005</head><span ana="not-a-hasidic-story:sermon" resp="#llm-tagging">תיוגים</span>
 <p>
 					<lb/>ובס׳ <name type="work">מ״ה</name> כ׳ וז״ל ופ״א אמר לי הה״צ מ<placeName ref="#H-LOC_657">גאסטנין</placeName> זצ״ל בזה״ל הרבי מ<placeName ref="#H-LOC_121">קאצק</placeName> יגע
 					<lb/>עמו בימים מלפנים שתהיה אהבת בני אדם כ״כ שקועה בלבי עד שתהא נפש
@@ -408,7 +408,7 @@
 					<lb/>הלבבות אין מיינע קאמפאנייעס וולאט איך זיי ערב גיוועזען שלא יארע להם כל
 					<lb/>דבר רע :
 				</p>
-				</div><div type="story" xml:id="Derech-Haemuna_0006" n="6" ana="marginal"><head type="storyHead">Derech-Haemuna_0006</head>
+				</div><div type="story" xml:id="Derech-Haemuna_0006" n="6" ana="marginal"><head type="storyHead">Derech-Haemuna_0006</head><span ana="not-a-hasidic-story:virtues; ethics-and-emotions:virtues; social:retrospective_recognition" resp="#llm-tagging">תיוגים</span>
 <p>
 					<lb/>ובס׳ <name type="work">החינוך</name> כ׳ וז״ל חכם אחד צוה את בנו לפני מותו ואמר לו בני כמה אוהבים
 					<lb/>קנית בחייך אמר לו כבר קניתי אוהבים עד מאה א״ל בני אמרו החכמים אל
@@ -422,7 +422,7 @@
 				<p>
 					<lb/>מענין אורח
 				</p>
-				</div><div type="story" xml:id="Derech-Haemuna_0007" n="7"><head type="storyHead">Derech-Haemuna_0007</head>
+				</div><div type="story" xml:id="Derech-Haemuna_0007" n="7"><head type="storyHead">Derech-Haemuna_0007</head><span ana="characters-and-roles:elijah_the_prophet; ethics-and-emotions:charity; ethics-and-emotions:virtues; practice:drinking_alcohol; practice:sermon; supernatural:perception; ethics-and-emotions:punishment; not-a-hasidic-story:virtues; practice:storytelling; practice:travel_to_other_tsaddik; social:retrospective_recognition; supernatural:communicating_with_the_invisible" resp="#llm-tagging">תיוגים</span>
 <p>
 					<lb/>ו) פ״א סיפור אדמו״ר מ<placeName ref="#H-LOC_63">פרשיסחא</placeName> ז״ל שהרבי ר׳ <persName>משה מ<placeName ana="bio">פרשוורסק</placeName></persName> ז״ל הגדול דרכו
 					<lb/>היה ליתן להאורח הבא לפניו שני כוסות יי״ש וכשנתייקר היי״ש לא נתן רק
@@ -471,7 +471,7 @@
 				<p>
 					<lb/>מענין ס׳ <name type="work">אור החיים</name>
 				</p>
-				</div><div type="story" xml:id="Derech-Haemuna_0008" n="8"><head type="storyHead">Derech-Haemuna_0008</head>
+				</div><div type="story" xml:id="Derech-Haemuna_0008" n="8"><head type="storyHead">Derech-Haemuna_0008</head><span ana="characters-and-roles:messiah; ethics-and-emotions:punishment; social:relations_with_sinners; spaces:the_land_of_israel; characters-and-roles:the_family_of_the_tsaddik; not-a-hasidic-story:hagiography; practice:storytelling; supernatural:perception; times:eschatology" resp="#llm-tagging">תיוגים</span>
 <p>
 					<lb/>ז) סיפר מרן מ<placeName>נשחיז</placeName> שהרהצה״ק ר׳ <persName>גרשון קיטיוור</persName> ראה את הרה״צ בעל <persName>אור החיים</persName>
 					<lb/>ב<placeName ref="#H-LOC_105">אה״ק</placeName> וסיפר לו מגיסו <persName>הבעש״ט</persName> ז״ל והשיבו ידעתי אותו ו<persName>ישראל</persName> שמו גם
@@ -485,7 +485,7 @@
 				<p>
 					<lb/>מענין אין אדם רואה חובה לעצמו
 				</p>
-				</div><div type="story" xml:id="Derech-Haemuna_0009" n="9"><head type="storyHead">Derech-Haemuna_0009</head>
+				</div><div type="story" xml:id="Derech-Haemuna_0009" n="9"><head type="storyHead">Derech-Haemuna_0009</head><span ana="practice:halakhah; not-a-hasidic-story:hagiography; social:retrospective_recognition; spaces:rabbinical_court" resp="#llm-tagging">תיוגים</span>
 <p>
 					<lb/>ח) והנה שמעתי דבר הפלא ממגידי אמת שהג׳ ר׳ <persName>פאלק כהן</persName> בעל ס׳ <name type="work">מאירת עינים</name>
 					<lb/>(<name type="work">סמ״ע</name>) היה לו דין עם אדם אחד ופסקו שיתן לצד שכנגדו כ״ב אלפים
@@ -496,7 +496,7 @@
 				<p>
 					<lb/>מענין אכילה
 				</p>
-				</div><div type="story" xml:id="Derech-Haemuna_0010" n="10"><head type="storyHead">Derech-Haemuna_0010</head>
+				</div><div type="story" xml:id="Derech-Haemuna_0010" n="10"><head type="storyHead">Derech-Haemuna_0010</head><span ana="social:marriage; ethics-and-emotions:virtues; not-a-hasidic-story:hagiography; not-a-hasidic-story:virtues" resp="#llm-tagging">תיוגים</span>
 <p>
 					<lb/>ט) ה<persName>של"ה</persName> היה מתלמידי ה<persName>רש״ל</persName> ולמד אצלו והיה מתלמידיו המובהקים וכאשר נעשה
 					<lb/>חתן והגיע עתו להיות נכנס לחופה בא לרבו ה<persName>רש"ל</persName> להפטר ממנו לשלום
@@ -543,7 +543,7 @@
 				<p>
 					<lb/>מענין האמונה
 				</p>
-				</div><div type="story" xml:id="Derech-Haemuna_0011" n="11"><head type="storyHead">Derech-Haemuna_0011</head>
+				</div><div type="story" xml:id="Derech-Haemuna_0011" n="11"><head type="storyHead">Derech-Haemuna_0011</head><span ana="ethics-and-emotions:virtues; practice:the_travels_of_the_tsaddik; social:inter_hasidic_master_disciple_relationship; social:relations_with_non_jews; folkloristics:story_type_virtues; not-a-hasidic-story:virtues; practice:lifesaving; social:retrospective_recognition; supernatural:miracle" resp="#llm-tagging">תיוגים</span>
 <p>
 					<lb/>י) ועיקר הוא האמונה ופעם אחת נסע מרן הק׳ אור ישראל <persName>הריבעש״ט</persName> עם תלמיד
 					<lb/>אחד במקום שמם שאין שם מים ובכמה פרסאות לא נמצא שם מים והתלמיד
@@ -558,7 +558,7 @@
 					<lb/>להשתגע והמציא לך מים וכ״ז צפה השגחהו יתברך ברגע של בריאת עולם. (ס׳ <name type="work">נ״מ</name>
 					<name type="work"><lb/>שביל היחוד</name>) :
 				</p>
-				</div><div type="story" xml:id="Derech-Haemuna_0012" n="12"><head type="storyHead">Derech-Haemuna_0012</head>
+				</div><div type="story" xml:id="Derech-Haemuna_0012" n="12"><head type="storyHead">Derech-Haemuna_0012</head><span ana="practice:coping_with_alien_thoughts; practice:healing_of_the_soul; practice:recitation_of_psalms; practice:torat_ha_tsaddik; practice:travel_to_the_tsaddik; times:holidays; practice:reception_of_hasidim; practice:travel_to_other_tsaddik; supernatural:miracle" resp="#llm-tagging">תיוגים</span>
 <p>
 					<lb/>ובס׳ <name type="work">ד״ש</name> (פ׳ <name type="work">שמיני</name>) וכעין זה שמעתי בבירור כי איש אחד בא לאיזה גאון וצדיק שהיה
 					<lb/>לו בלבולים קשים ר״ל הרהורי ע״ז ר״ל אשר אין להעלות על הכתב וא״ל הרב
@@ -571,7 +571,7 @@
 				<p>
 					<pb facs="Derech-Haemuna_0015.jpg"/><lb/>מענין אם להאמין לעצמו
 				</p>
-				</div><div type="story" xml:id="Derech-Haemuna_0013" n="13"><head type="storyHead">Derech-Haemuna_0013</head>
+				</div><div type="story" xml:id="Derech-Haemuna_0013" n="13"><head type="storyHead">Derech-Haemuna_0013</head><span ana="characters-and-roles:preacher; supernatural:light_or_fire_as_a_sign_of_righteousness; ethics-and-emotions:humility; experience:visions; practice:prayer; social:inter_hasidic; social:inter_hasidic_master_disciple_relationship; supernatural:perception" resp="#llm-tagging">תיוגים</span>
 <p>
 					<lb/>יא) פעם אחת עמד מו״ר רבינו <persName>יהושע העשיל</persName> בתוך הקהל יראים ואמר שהוא אינו
 					<lb/>מאמין לעצמו אפילו רגע ובפרט ליונגע לייט של דור זה אפילו לזקנים ועמד
@@ -582,7 +582,7 @@
 				<p>
 					<lb/>מענין אמונת צדיקים
 				</p>
-				</div><div type="story" xml:id="Derech-Haemuna_0014" n="14"><head type="storyHead">Derech-Haemuna_0014</head>
+				</div><div type="story" xml:id="Derech-Haemuna_0014" n="14"><head type="storyHead">Derech-Haemuna_0014</head><span ana="not-a-hasidic-story:sermon" resp="#llm-tagging">תיוגים</span>
 <p>
 					<lb/>יב) ה״הצ ר׳ <persName>אשר</persName> זצל"ה מ<placeName ref="#H-LOC_4">קארלין</placeName> דיבר בצדיקי דורותינו האלו, יאמר כי בכל דרכי
 					<lb/>הצדיקים יש מקום לטעות והראיה מהמעשה בחסיד אחד שהובא בגמ׳ ששאל
@@ -605,7 +605,7 @@
 				<p>
 					<lb/>מענין אמירת תורה
 				</p>
-				</div><div type="story" xml:id="Derech-Haemuna_0015" n="15"><head type="storyHead">Derech-Haemuna_0015</head>
+				</div><div type="story" xml:id="Derech-Haemuna_0015" n="15"><head type="storyHead">Derech-Haemuna_0015</head><span ana="characters-and-roles:the_family_of_the_tsaddik; ethics-and-emotions:awe; experience:dream; practice:sermon; practice:storytelling; social:inter_hasidic_master_disciple_relationship; practice:reception_of_hasidim; practice:torat_ha_tsaddik; social:inter_hasidic; supernatural:communicating_with_the_invisible" resp="#llm-tagging">תיוגים</span>
 <p>
 					<lb/>יג) ומר אבי הג׳ הק׳ <persName>מוהר״ם</persName> נבג״מ זצל״ה זי״ע היה ממעט באמירת תורה להבאים
 					<lb/>אליו. פעם אחת הפציר בו אחי הרה״ק מ<placeName>קאוולא</placeName> זצ״ל על אמירת תורה
@@ -638,7 +638,7 @@
 				<p>
 					<lb/>מענין אמן מעשה רב ונורא
 				</p>
-				</div><div type="story" xml:id="Derech-Haemuna_0016" n="16"><head type="storyHead">Derech-Haemuna_0016</head>
+				</div><div type="story" xml:id="Derech-Haemuna_0016" n="16"><head type="storyHead">Derech-Haemuna_0016</head><span ana="ethics-and-emotions:anger; ethics-and-emotions:punishment; experience:dream; not-a-hasidic-story:hagiography; not-a-hasidic-story:sermon; practice:fasting; practice:prayer; practice:solitude; practice:storytelling; social:excommunication; social:relations_with_non_jews; social:relations_with_the_authorities; times:death; characters-and-roles:preacher; experience:trembling; practice:halakhah; practice:protection; practice:study; social:retrospective_recognition; supernatural:communicating_with_the_invisible; times:historical_event" resp="#llm-tagging">תיוגים</span>
 <p>
 					<lb/>יד) לאהבת אחי ורעי אספר לפניכם מעשה רב ונורא שנעשה בימי הג׳ ר׳ <persName>מדרכי יפה</persName> בעל
 					<name type="work"><lb/>הלבושים</name> הגאון ר׳ <persName spanTo="#ner_34396_34405"/>מרדכי <sic correction="יפה">ופה</sic><anchor xml:id="ner_34396_34405"/> היה אב״ד ור״מ בקהלה קטנה מקודם,
@@ -746,7 +746,7 @@
 				<p>
 					<lb/>מענין ארענדא
 				</p>
-				</div><div type="story" xml:id="Derech-Haemuna_0017" n="17"><head type="storyHead">Derech-Haemuna_0017</head>
+				</div><div type="story" xml:id="Derech-Haemuna_0017" n="17"><head type="storyHead">Derech-Haemuna_0017</head><span ana="practice:reception_of_hasidim; practice:storytelling; practice:torat_ha_tsaddik; characters-and-roles:tavern_keeper; practice:protection; practice:travel_to_the_tsaddik; social:relations_with_non_jews" resp="#llm-tagging">תיוגים</span>
 <p>
 					<lb/>טו) מה נעשה לאחותינו במה יכול הצדיק לעשות טובה לכנסת ישראל רק ביום שידובר
 					<lb/>בה הצדיק סיפורי מעשיות בזה עושה טובה לה ופ״א בא אל א״א הה״ק <persName>ר״י
@@ -768,7 +768,7 @@
 				<p>
 					<lb/>מענין ארמון
 				</p>
-				</div><div type="story" xml:id="Derech-Haemuna_0018" n="18"><head type="storyHead">Derech-Haemuna_0018</head>
+				</div><div type="story" xml:id="Derech-Haemuna_0018" n="18"><head type="storyHead">Derech-Haemuna_0018</head><span ana="supernatural:perception; supernatural:miracle" resp="#llm-tagging">תיוגים</span>
 <p>
 					<lb/>טז) וכבר שמענו בזמננו שפ״א שחק <persName>הבעש״ט</persName> זצל״ה על מעשה כזה שראה ברוה״ק
 					<lb/>למרחקים שבנאו ארמון ט״ז שנים ולא השלימוהו ובשעה אחת ניצל חסיד אחד
@@ -777,7 +777,7 @@
 				<p>
 					<lb/>מענין ארץ
 				</p>
-				</div><div type="story" xml:id="Derech-Haemuna_0019" n="19" ana="marginal"><head type="storyHead">Derech-Haemuna_0019</head>
+				</div><div type="story" xml:id="Derech-Haemuna_0019" n="19" ana="marginal"><head type="storyHead">Derech-Haemuna_0019</head><span ana="not-a-hasidic-story:sermon" resp="#llm-tagging">תיוגים</span>
 <p>
 					<lb/>יז) וכמו שאמר הה״ק <persName>מוה׳ זישא</persName> זצל״ה ארץ ארץ את טובה ממני אמנם למה אני
 					<lb/>הולך ודש עליך הלא יבא עת שאשכון תחתיך. (<name type="work">ד״מ</name> פ׳ <name type="work">תצא</name>) :
@@ -785,7 +785,7 @@
 				<p>
 					<pb facs="Derech-Haemuna_0019.jpg"/><lb/>מענין אשה שהמיתה ולדה
 				</p>
-				</div><div type="story" xml:id="Derech-Haemuna_0020" n="20"><head type="storyHead">Derech-Haemuna_0020</head>
+				</div><div type="story" xml:id="Derech-Haemuna_0020" n="20"><head type="storyHead">Derech-Haemuna_0020</head><span ana="practice:fasting; practice:halakhah; women:catalyst_character; ethics-and-emotions:repentance; not-a-hasidic-story:sermon; practice:asceticism; practice:reception_of_hasidim; practice:sermon; social:inter_hasidic" resp="#llm-tagging">תיוגים</span>
 <p>
 					<lb/>יח) איתא ב<name type="work">פסקי ה״ג</name> ז״ל אשה שמצאה ולד שלה מת אצלה שמחמירין עליה להתענות
 					<lb/>כמה תעניתים היינו תתענה פ״ד ימים רצופין ומאז ואילך עד כלות י״ב
@@ -810,7 +810,7 @@
 				<p>
 					<lb/>מענין אתרוג
 				</p>
-				</div><div type="story" xml:id="Derech-Haemuna_0021" n="21"><head type="storyHead">Derech-Haemuna_0021</head>
+				</div><div type="story" xml:id="Derech-Haemuna_0021" n="21"><head type="storyHead">Derech-Haemuna_0021</head><span ana="ethics-and-emotions:charity; folkloristics:story_type_virtues; ethics-and-emotions:virtues; practice:storytelling; practice:the_travels_of_the_tsaddik; times:holidays" resp="#llm-tagging">תיוגים</span>
 <p>
 					<lb/>יט) סיפר מר <placeName>מנשחיז</placeName> שאביו הגאון <persName>מוהר״מ</persName> זצל"ה מתחלה היה עוסק במו״מ והיה
 					<lb/>מקבץ מכל נסיעה של מו״מ דבר מועט עד שקיבץ לו על אתרוג של
@@ -820,7 +820,7 @@
 					<lb/>אחר בעדם ואמר הרב וכי מה הוא החילוק אתרוג הוא מצות ה׳ וזהו ג״כ מצות ה׳
 					<lb/>היא ולבסוף וכה אז והביאו לו לביתו אתרוג יפה ומהודר עד מאד. (<name type="work">ז״ט</name>) :
 				</p>
-				</div><div type="story" xml:id="Derech-Haemuna_0022" n="22"><head type="storyHead">Derech-Haemuna_0022</head>
+				</div><div type="story" xml:id="Derech-Haemuna_0022" n="22"><head type="storyHead">Derech-Haemuna_0022</head><span ana="practice:halakhah; ethics-and-emotions:prohibitions; ethics-and-emotions:repentance; not-a-hasidic-story:hagiography; social:conflict; supernatural:miracle; times:holidays" resp="#llm-tagging">תיוגים</span>
 <p>
 					<lb/>ובשו״ת <name type="work">נפש חי׳</name> (סי׳ ב׳) שביא בשם הש״י (סי׳ ל״ו) דמורו וחמיו ז״ל היה רב
 					<lb/>בק״ק <placeName ref="#H-LOC_142">פראג</placeName> והביאו אתרוגים מורכבים ופסק מורו וחמיו לפסלם ואיזה תקיפים
@@ -835,7 +835,7 @@
 				<p>
 					<lb/>מענין <persName>ב״ח</persName>
 				</p>
-				</div><div type="story" xml:id="Derech-Haemuna_0023" n="23"><head type="storyHead">Derech-Haemuna_0023</head>
+				</div><div type="story" xml:id="Derech-Haemuna_0023" n="23"><head type="storyHead">Derech-Haemuna_0023</head><span ana="experience:dream; practice:drinking_alcohol; practice:halakhah; times:holidays; practice:prayer; practice:storytelling; spaces:hell; supernatural:communicating_with_the_invisible" resp="#llm-tagging">תיוגים</span>
 <p>
 					<lb/>א) פ״א עשה מרן מ<placeName>נסכיז</placeName> זלה״ה מעשה שסמך על ה<persName>ב״ח</persName> זל״ה וקידש הלבנה בליל ב׳
 					<lb/>דסוכות בתוך הסעודה כמובא ב<name type="work">שו״ע</name> בשם ה<persName>ב"ח</persName> וסיפר ש<persName>הבעש״ט</persName> שאל
@@ -845,7 +845,7 @@
 					<lb/>ארבעים יום לכבוד ה<persName>ב״ח</persName> ובבוקר עמד ה<persName>בעש״ט</persName> זל״ה ושלח להביא שכר מן החדש
 					<lb/>ושתהו ואמר כדאי הב״ח שמתיר כדי לסמוך עליו. (ז״ט) :
 				</p>
-				</div><div type="story" xml:id="Derech-Haemuna_0024" n="24"><head type="storyHead">Derech-Haemuna_0024</head>
+				</div><div type="story" xml:id="Derech-Haemuna_0024" n="24"><head type="storyHead">Derech-Haemuna_0024</head><span ana="not-a-hasidic-story:hagiography; spaces:heaven; times:death; practice:sermon; spaces:hell; supernatural:communicating_with_the_invisible" resp="#llm-tagging">תיוגים</span>
 <p>
 					<lb/>ובהקדמת ס׳ <name type="work">שער הגלגולים</name> החדש וז״ל וכן שמעתי מא״א הה״ק <persName>ר״ש מ<placeName ana="bio">ראדאמסק</placeName></persName>
 					<lb/>זל"ה ששמע מהה״ק ר׳ <persName>דוד מ<placeName ana="bio" ref="#H-LOC_349">לעלוב</placeName></persName> זל"ה בעת שהרב בעל ה<persName>ב״ח</persName> זל"ה נפטר
@@ -859,7 +859,7 @@
 				<p>
 					<lb/>מענין בית המדרש
 				</p>
-				</div><div type="story" xml:id="Derech-Haemuna_0025" n="25"><head type="storyHead">Derech-Haemuna_0025</head>
+				</div><div type="story" xml:id="Derech-Haemuna_0025" n="25"><head type="storyHead">Derech-Haemuna_0025</head><span ana="practice:prayer; spaces:beth_midrash; supernatural:perception; practice:sermon; practice:study" resp="#llm-tagging">תיוגים</span>
 <p>
 					<lb/>ב) המעשה הידוע ש<persName>הבעש״ט</persName> הק׳ הלך פ״א לביהמ״ד ועמד על הפתח ולא רצה לכנוס
 					<lb/>ואמר שבלתי יכול לכנוס בו על כי הוא מלא על כל גדותיו מפה לפה מתורה
@@ -875,7 +875,7 @@
 				<p>
 					<lb/>מענין בית
 				</p>
-				</div><div type="story" xml:id="Derech-Haemuna_0026" n="26"><head type="storyHead">Derech-Haemuna_0026</head>
+				</div><div type="story" xml:id="Derech-Haemuna_0026" n="26"><head type="storyHead">Derech-Haemuna_0026</head><span ana="characters-and-roles:the_family_of_the_tsaddik; ethics-and-emotions:charity; practice:sermon; social:poverty; folkloristics:story_type_virtues; social:inter_hasidic_master_disciple_relationship; social:marital_relationship; women:major_character" resp="#llm-tagging">תיוגים</span>
 <p>
 					<lb/>ג) ידוע שדרכו בקודש היה תמיד ליתן צדקה כל אשר לו ולא נתן לצרכי ביתו רק חיי שעה
 					<lb/>בצמצום. פ״א גנבה אשתו אצלו איזה סך ובנתה לו בית, ויראו התלמידים
@@ -895,7 +895,7 @@
 				<p>
 					<lb/>מענין ביוש
 				</p>
-				</div><div type="story" xml:id="Derech-Haemuna_0027" n="27"><head type="storyHead">Derech-Haemuna_0027</head>
+				</div><div type="story" xml:id="Derech-Haemuna_0027" n="27"><head type="storyHead">Derech-Haemuna_0027</head><span ana="ethics-and-emotions:shame; ethics-and-emotions:humility; ethics-and-emotions:repentance; folkloristics:story_type_virtues; practice:healing_of_the_soul; practice:reception_of_hasidim; practice:storytelling; social:relations_with_sinners" resp="#llm-tagging">תיוגים</span>
 <p>
 					<lb/>ד) שמעתי <persName>מא״א מו״ר זצל״ה</persName> שסיפר לי מעשה שהיה אצל הרבי מ<placeName ref="#H-LOC_56">לובלין</placeName> זצל״ה שבא
 					<lb/>לפניו איש אחד ואמר לו הרבי דברי מוסר עד שביישו בדבריו ולא יכול
@@ -910,7 +910,7 @@
 				<p>
 					<lb/>מענין בקשה מן הצדיקים
 				</p>
-				</div><div type="story" xml:id="Derech-Haemuna_0028" n="28"><head type="storyHead">Derech-Haemuna_0028</head>
+				</div><div type="story" xml:id="Derech-Haemuna_0028" n="28"><head type="storyHead">Derech-Haemuna_0028</head><span ana="not-a-hasidic-story:sermon" resp="#llm-tagging">תיוגים</span>
 <p>
 					<lb/>ה) שמעתי אני השפל בשם רבינו <persName>אלימלך</persName> שאמר מה שכל העולם צועקים לפניו זה
 					<lb/>מבקש שיחיה בנו וזה צועק לפניו על הפרנסה וזה על החיים ואמר
@@ -922,7 +922,7 @@
 					<lb/>מענין ברית מילה
 				</p>
 				</div><div type="non-story"><p>
-					<lb/>ז) נאמר לי משם קדוש ישראל ה"ה הה״ק <persName>מהר"ש מ<placeName ana="bio" ref="#H-LOC_4">קארלין</placeName></persName> זצל״ה הי״ד שאמר בשם
+					<lb/>ז) </p><div type="story" xml:id="Derech-Haemuna_non-story-039_s1" subtype="in-non-story"><head type="storyHead">Derech-Haemuna_non-story-039_s1</head><span ana="characters-and-roles:elijah_the_prophet; not-a-hasidic-story:sermon; practice:circumcision; practice:sermon" resp="#llm-tagging">תיוגים</span><p>נאמר לי משם קדוש ישראל ה"ה הה״ק <persName>מהר"ש מ<placeName ana="bio" ref="#H-LOC_4">קארלין</placeName></persName> זצל״ה הי״ד שאמר בשם
 					<lb/>המדרש בשעה שאמר (הש״י) הקב״ה ל<persName>אליהו</persName> שיצטרך להיות בכל ברית מילה
 					<lb/>שבישראל אמר <persName>אליהו</persName> את ידעת שאני מקנא לשמך יתברך הנה אם יהיה הבעל ברית
 					<lb/>עבריין לא אוכל לסבול להיות שם והבטיחו הש״י שיכפר להבעל ברית ואז יהיה ריקן
@@ -931,9 +931,9 @@
 					<lb/>הש״י שיכפר לכל הקהל קן שמעתי שיצאו מפי הקדוש הנ"ל ונ"ל שזה שמרומז ב<persName>פנחס</persName>
 					<lb/>הוא <persName>אליהו</persName> תחת אשר קנא לא׳ ויכפר על בני ישראל כי הואיל ומדתו קנאה והוצרך
 					<lb/>להיות אצל כל ברית ולא יוכל לסבול עי״ז גורם הכפרה לישראל כי הוצרך הש״י להבטיחו
-					<lb/>כנ"ל. (<name type="work">אגרא דפרקא</name> או׳ קע״ו):
+					<lb/>כנ"ל.</p></div><p> (<name type="work">אגרא דפרקא</name> או׳ קע״ו):
 				</p>
-				</div><div type="story" xml:id="Derech-Haemuna_0029" n="29"><head type="storyHead">Derech-Haemuna_0029</head>
+				</div><div type="story" xml:id="Derech-Haemuna_0029" n="29"><head type="storyHead">Derech-Haemuna_0029</head><span ana="characters-and-roles:elijah_the_prophet; characters-and-roles:the_family_of_the_tsaddik; experience:revelation; not-a-hasidic-story:hagiography; practice:circumcision; spaces:the_land_of_israel; women:mention_only; folkloristics:story_type_birth_of_the_tsaddik; supernatural:perception; supernatural:prognostication; times:birth" resp="#llm-tagging">תיוגים</span>
 <p>
 					<lb/>ובס׳ <sic correction="שבחי"><name spanTo="#ner_49814_49825" type="work"/>נשבחי</sic> האר״י<anchor xml:id="ner_49814_49825"/> בהקדמה וז״ל רבינו <persName>יצחק לוריא</persName> ז״ל כטיפה מן הים בזמן בחרותו
 					<lb/>היה תחנותו ב<placeName ref="#H-LOC_164">מצרים</placeName> אמנם הורתו ולידתו ב<placeName ref="#H-LOC_154">ירושלים</placeName> וכשנולד נתגלה <persName>אליהו</persName> ז״ל
@@ -947,14 +947,14 @@
 					<lb/>בשני ידיו והמוהל מל ולא ראה שום דבר רק אביו לבדו ולאחר <reg reg="נימול">שנימל</reg> נתן הילד לאביו
 					<lb/>ואמר לו קח את הילד והחזק בו כי אור גדול יוצא ממנו לעולם.
 				</p>
-				</div><div type="story" xml:id="Derech-Haemuna_0030" n="30" ana="marginal"><head type="storyHead">Derech-Haemuna_0030</head>
+				</div><div type="story" xml:id="Derech-Haemuna_0030" n="30" ana="marginal"><head type="storyHead">Derech-Haemuna_0030</head><span ana="not-a-hasidic-story:sermon" resp="#llm-tagging">תיוגים</span>
 <p>
 					<lb/>ובס׳ <name type="work">נ״מ</name> (פ׳ פנחס) וז״ל את קרבני וכו׳ תשמרו תמתינו כי גדולי ישראל אשר עינים
 					<lb/>להם ולא יראו ל<persName>אליהו</persName> ז״ל בעת המילה ימתינו עליו כאשר בא בסיפור בספרים
 					<lb/>מאביו של ה<persName>אר"י</persName> ז"ל ודומיו ופשוטו בני אדם יצפו בואו ומתוך זה מכינים כסא כבודו
 					<lb/>ואומנתא דפומא ולכל אחד יאמר תשמרו לפי בחינתו :
 				</p>
-				</div><div type="story" xml:id="Derech-Haemuna_0031" n="31"><head type="storyHead">Derech-Haemuna_0031</head>
+				</div><div type="story" xml:id="Derech-Haemuna_0031" n="31"><head type="storyHead">Derech-Haemuna_0031</head><span ana="practice:circumcision; practice:healing; practice:sermon; supernatural:miracle; practice:lifesaving" resp="#llm-tagging">תיוגים</span>
 <p>
 					<lb/>ובס׳ <name type="work">ד״א</name> (לאסרו חג ש״פ) וז״ל ע״פ מעשה המסופר מהה״ק <persName>ר״פ מ<placeName ana="bio" ref="#H-LOC_149">קארץ</placeName></persName> שמל
 					<lb/>תינוק אחד ולא יכול לעצור הדם ונזדמן פתאום שבא הה״ק ר׳ <persName>זוסיא</persName> <placeName>מאניפאלי</placeName>
@@ -978,7 +978,7 @@
 				<p>
 					<lb/>מענין ברכות
 				</p>
-				</div><div type="story" xml:id="Derech-Haemuna_0032" n="32"><head type="storyHead">Derech-Haemuna_0032</head>
+				</div><div type="story" xml:id="Derech-Haemuna_0032" n="32"><head type="storyHead">Derech-Haemuna_0032</head><span ana="ethics-and-emotions:fear; experience:dream; practice:prayer; supernatural:communicating_with_the_invisible; not-a-hasidic-story:sermon; times:eschatology" resp="#llm-tagging">תיוגים</span>
 <p>
 					<lb/>ז) וכתב <persName>א״ז</persName> וז״ל הכרתי יהודי אחד מ<placeName>ווירמישא</placeName> והיה קוראים אותו ר׳ <persName spanTo="#ner_51971_51979"/>בינם<note>בונם</note><anchor xml:id="ner_51971_51979"/> והיה
 					<lb/>זקן וקובר מתים ושמעתי על האמת שפ״א השכים השמש לבהכ״נ וראה
@@ -993,13 +993,13 @@
 					<lb/>נזכר ב<name type="work">גמ׳</name> הק' (<name type="work">ברכות ד״ח</name>) אמר <persName>ר״י</persName> משום <persName>רשב״י</persName> מ״ד ואני תפלתי וגו׳ עת רצון
 					<lb/>אימת עת רצון בשעה שהציבור מתפללים. (<name type="work">ס׳ הגן</name>) :
 				</p>
-				</div><div type="story" xml:id="Derech-Haemuna_0033" n="33"><head type="storyHead">Derech-Haemuna_0033</head>
+				</div><div type="story" xml:id="Derech-Haemuna_0033" n="33"><head type="storyHead">Derech-Haemuna_0033</head><span ana="ethics-and-emotions:virtues; folkloristics:story_type_virtues" resp="#llm-tagging">תיוגים</span>
 <p>
 					<lb/>ובס׳ <name type="work">ת״ש</name> (פ׳ <name type="work">תצא</name>) וז״ל וכן שמענו בשם הה״ק מו״ה <persName>זושא</persName> ז״ל כי בכל יום אחר ברכה
 					<lb/>התורה היה הולך בשוק לחפש אחר איש מזרע ישראל כדי להעניקו מברכותיו מי
 					<lb/>שהיה זוכה להיות ראשון יהיה מי שהיה :
 				</p>
-				</div><div type="story" xml:id="Derech-Haemuna_0034" n="34"><head type="storyHead">Derech-Haemuna_0034</head>
+				</div><div type="story" xml:id="Derech-Haemuna_0034" n="34"><head type="storyHead">Derech-Haemuna_0034</head><span ana="ethics-and-emotions:awe; experience:trembling; not-a-hasidic-story:sermon; practice:sermon; practice:torat_ha_tsaddik; practice:travel_to_the_tsaddik; times:holidays; ethics-and-emotions:fear; practice:devekut; practice:prayer; social:inter_hasidic; spaces:institutions_hassidic_court" resp="#llm-tagging">תיוגים</span>
 <p>
 					<lb/>ובס׳ <name type="work">ל"מ</name> (פ׳ <name type="work">יתרו</name>) וז״ל וכל העם וכו׳ כאן נמצא דבר נפלא לבעלי שכל להשכיל
 					<lb/>לבותם בטוב טעם ודעת העיקר הדבר שצריך ללמד לעצמו לעת בואו לשכינת
@@ -1024,14 +1024,14 @@
 					<lb/>האלהים כי לא השגיח לקולות וברקים רק לפנימיות של <name type="work">עשרת הדברות</name> וזו היא
 					<lb/>התפארות של משה אשר התורה מתפאר בו כזה וכו׳ :
 				</p>
-				</div><div type="story" xml:id="Derech-Haemuna_0035" n="35"><head type="storyHead">Derech-Haemuna_0035</head>
+				</div><div type="story" xml:id="Derech-Haemuna_0035" n="35"><head type="storyHead">Derech-Haemuna_0035</head><span ana="not-a-hasidic-story:sermon" resp="#llm-tagging">תיוגים</span>
 <p>
 					<lb/>ובס׳ <name type="work">ת״ש</name> (בליקוטים) כ׳ וז״ל בשם הה״ק <persName>מוהר״א מ<placeName ana="bio" ref="#H-LOC_132">אמשטרדם</placeName></persName> ז"ל בנסעו ל<placeName ref="#H-LOC_105">אה״ק</placeName> כאשר
 					<lb/>הלכו בני עירו ללותו וחלו פניו לברכם ויען ויאמר הנה <persName>דהמע״ה</persName> אמר אשרי כל ירא
 					<lb/>ה׳ וגו׳ יגיע כפיך וגו' אשריך וטוב לך הנה כי כן יבורך גבר ירא ה׳ א״כ כל הברכות האלו
 					<lb/>על חיק ירא שמים ינוח כן תתברכו בזה להיות יראי ה׳ ואז תזכו לכל טוב ודפח״ח :
 				</p>
-				</div><div type="story" xml:id="Derech-Haemuna_0036" n="36"><head type="storyHead">Derech-Haemuna_0036</head>
+				</div><div type="story" xml:id="Derech-Haemuna_0036" n="36"><head type="storyHead">Derech-Haemuna_0036</head><span ana="not-a-hasidic-story:sermon" resp="#llm-tagging">תיוגים</span>
 <p>
 					<lb/>ובס׳ <name type="work">ד״מ</name> (פ׳ <name type="work">עקב</name>) וז״ל דהנה הה״ק מ״ו מו״ה <persName>זושא</persName> זצל״ה היה מרגלא בפומי׳ לברך
 					<lb/>כל בר ישראל בלשון הזה תהא בריא וחזק כמו גוי ואמר ז״ל הפירוש שר״ל
@@ -1043,7 +1043,7 @@
 					<lb/>מצוה גדולה היא כי זה לו למשיב נפש ממש וכן מי שמספר בשבחו של חבירו
 					<lb/>בבנים או בממון יברכנו שלא ישלוט בו עין הרע :
 				</p>
-				</div><div type="story" xml:id="Derech-Haemuna_0037" n="37" ana="marginal"><head type="storyHead">Derech-Haemuna_0037</head>
+				</div><div type="story" xml:id="Derech-Haemuna_0037" n="37" ana="marginal"><head type="storyHead">Derech-Haemuna_0037</head><span ana="not-a-hasidic-story:halakhah" resp="#llm-tagging">תיוגים</span>
 <p>
 					<lb/>ובס׳ <name type="work">ד״ל</name> (מער׳ ב׳) וז״ל ברכה אמרו ב<name type="work">זוה״ק</name> ח״א דרכ״ז דכשהאדם רוצה לברך
 					<lb/>לחבירו או לבנו וכיוצא צריך לברך בתחלה להקב״ה ואי לא מברך בתחלה להק״בה
@@ -1124,7 +1124,7 @@
 				<p>
 					<lb/>מענין גדלות הצדיקים
 				</p>
-				</div><div type="story" xml:id="Derech-Haemuna_0038" n="38"><head type="storyHead">Derech-Haemuna_0038</head>
+				</div><div type="story" xml:id="Derech-Haemuna_0038" n="38"><head type="storyHead">Derech-Haemuna_0038</head><span ana="not-a-hasidic-story:sermon" resp="#llm-tagging">תיוגים</span>
 <p>
 					<lb/>א) מבואר בס׳ ה<name type="work">חזיונות</name> למרן <persName>הרח״ו</persName> שנדפס ושינו את שמו וחסרו וסילקו כמו חצי
 					<lb/>ספר ע״ש שאלתי למורי ז״ל איך היה אומר לי שנפשי יש לה מעלה כ״כ
@@ -1141,31 +1141,31 @@
 					<persName><lb/>האר״י</persName> היה התגברות הקליפות כ״כ מה נאמר ומה נדבר בזמן הזה המר בודאי יש
 					<lb/>לנשק לכל מי שבשם ישראל יכונה ולעורר עליו אהבה וזכות. (נ״מ <name type="work">שביל אמונה</name>) :
 				</p>
-				</div><div type="story" xml:id="Derech-Haemuna_0039" n="39"><head type="storyHead">Derech-Haemuna_0039</head>
+				</div><div type="story" xml:id="Derech-Haemuna_0039" n="39"><head type="storyHead">Derech-Haemuna_0039</head><span ana="not-a-hasidic-story:sermon" resp="#llm-tagging">תיוגים</span>
 <p>
 					<lb/>ובס׳ <name type="work">ב״א</name> (ב<name type="work">פרקי אבות</name>) וז״ל אמר שקבלה מצדיקים ש<persName>הבעש״ט</persName> ז״ל היה מאותן הנשמות
 					<lb/>שנסתלקו וברחו קודם חטא <name type="misc">עץ הדעת</name> ולא טעמו מעה״ד כלל. והראה ענין
 					<lb/>הסתלקות הנשמות קודם חטא <name type="misc">עה"ד</name> בס' <name type="work">שיר הגלגול'</name> שנ"מ דס"ו :
 				</p>
-				</div><div type="story" xml:id="Derech-Haemuna_0040" n="40"><head type="storyHead">Derech-Haemuna_0040</head>
+				</div><div type="story" xml:id="Derech-Haemuna_0040" n="40"><head type="storyHead">Derech-Haemuna_0040</head><span ana="not-a-hasidic-story:sermon" resp="#llm-tagging">תיוגים</span>
 <p>
 					<lb/>ובס׳ <name type="work">על״ז</name> (פ׳ בלה) וז״ל אמנם שמעתי ש<persName>הבעש״ט</persName> זצל״ה אמר לתלמידו הר״ר <persName>בער</persName>
 					<persName><lb/>המגיד</persName> הגדול מ<placeName>מעזריטש</placeName> זצל״ה ביני ובינך אין הפרש רק בזה שאני כשעולה
 					<lb/>במחשבתי שיהיה איזה טובה לישראל או שלא יוכל מי להרע להם מיד נעשה כן ואיני
 					<lb/>צריך אפילו רצון ואתה יש בכחך ג״כ לפעול כן רק אתה צריך רצון כן שמעתי :
 				</p>
-				</div><div type="story" xml:id="Derech-Haemuna_0041" n="41"><head type="storyHead">Derech-Haemuna_0041</head>
+				</div><div type="story" xml:id="Derech-Haemuna_0041" n="41"><head type="storyHead">Derech-Haemuna_0041</head><span ana="not-a-hasidic-story:sermon" resp="#llm-tagging">תיוגים</span>
 <p>
 					<lb/>מרן <persName>הבעש״ט</persName> הק׳ זצ״ל זי״ע אמר תמה אני עליך הגוף הנגוף איך לא התפוררת
 					<lb/>מאימת בוראך :
 				</p>
-				</div><div type="story" xml:id="Derech-Haemuna_0042" n="42"><head type="storyHead">Derech-Haemuna_0042</head>
+				</div><div type="story" xml:id="Derech-Haemuna_0042" n="42"><head type="storyHead">Derech-Haemuna_0042</head><span ana="not-a-hasidic-story:hagiography; practice:study; spaces:beth_midrash" resp="#llm-tagging">תיוגים</span>
 <p>
 					<lb/>ובס׳ <name type="work">רמ״ץ</name> (ח״ב) וז״ל הפליא <sic correction="מגדולו">מגדולי</sic> ה<name type="work">פני יהושע</name> שקודם שהתחיל לחבר למד ש״ס
 					<lb/>ל"ו פעמים ובשם <persName>המגיד מ<placeName ana="bio" ref="#H-LOC_151">קאזניץ</placeName></persName> זי״ע כי רוה״ק הופיע בבית מדרשו וסיפר
 					<lb/>מחלום שהיה לו ל<name type="work">הפ"י</name> הנ"ל :
 				</p>
-				</div><div type="story" xml:id="Derech-Haemuna_0043" n="43"><head type="storyHead">Derech-Haemuna_0043</head>
+				</div><div type="story" xml:id="Derech-Haemuna_0043" n="43"><head type="storyHead">Derech-Haemuna_0043</head><span ana="not-a-hasidic-story:sermon" resp="#llm-tagging">תיוגים</span>
 <p>
 					<lb/>ובס׳ ב״מ (פ׳ <name type="work">האזינו</name>) וז״ל ובודאי יש שלומי אמוני ישראל יחידי סגולה צדיקי הדור
 					<lb/>שממש עצם הויה ב״ה מאיר ובא לפניהם וכמו ששמעתי מאדמו״ר הה״ק <persName>בוצ״ק</persName>
@@ -1175,7 +1175,7 @@
 					<lb/>הגשמיות גוף חומר העכור יראו ויפחדו כ״א מעצם הויה ב״ה המאיר ובא לפניו אבל
 					<lb/>לא כל הרוצה ליטול את השם יבא ויטול ובני עליי׳ מועטים :
 				</p>
-				</div><div type="story" xml:id="Derech-Haemuna_0044" n="44"><head type="storyHead">Derech-Haemuna_0044</head>
+				</div><div type="story" xml:id="Derech-Haemuna_0044" n="44"><head type="storyHead">Derech-Haemuna_0044</head><span ana="not-a-hasidic-story:hagiography; practice:halakhah; social:conflict; social:relations_with_the_authorities; supernatural:miracle; ethics-and-emotions:virtues; social:relations_with_non_jews" resp="#llm-tagging">תיוגים</span>
 <p>
 					<lb/>ובס׳ <name type="work">נ״מ</name> (<name type="work">שביל אמונה</name>) כ׳ וז״ל ר׳ <persName>ישעיהו</persName> הצדיק אמרו עליו משם מרן שאלו הי'
 					<lb/>זכות בדור שהק׳ ר׳ <persName>ישעיה פיק</persName> <sic correction="ישמש">ושמש</sic> את מרן <persName>הר״י</persName> <persName>בעש״ט</persName> בצדקתם היה
@@ -1209,13 +1209,13 @@
 				<p>
 					<lb/>מענין גיהנם
 				</p>
-				</div><div type="story" xml:id="Derech-Haemuna_0045" n="45"><head type="storyHead">Derech-Haemuna_0045</head>
+				</div><div type="story" xml:id="Derech-Haemuna_0045" n="45"><head type="storyHead">Derech-Haemuna_0045</head><span ana="not-a-hasidic-story:sermon" resp="#llm-tagging">תיוגים</span>
 <p>
 					<lb/>ב) וכמו ששמענו בשם אא״ז הה״ק מוה׳ <persName>אלימלך</persName> זצ"ל שאמר אם יפסקו עליו בב״ד
 					<lb/>של מעלה עונש גיהנם ח"ו. אזי בכל כחו וחשק גדול יקפוץ לשם לקיים
 					<lb/>רצון ה׳ (<name type="work">ד״א לז׳</name> של <date>פסח</date>) :
 				</p>
-				</div><div type="story" xml:id="Derech-Haemuna_0046" n="46" ana="marginal"><head type="storyHead">Derech-Haemuna_0046</head>
+				</div><div type="story" xml:id="Derech-Haemuna_0046" n="46" ana="marginal"><head type="storyHead">Derech-Haemuna_0046</head><span ana="not-a-hasidic-story:sermon" resp="#llm-tagging">תיוגים</span>
 <p>
 					<lb/>ובס׳ נ״מ (פ׳ <name type="work">צו</name>) וז״ל כי הענין ביורדי גיהנם שיש להם מנוחה בשבת וקבלנו בזה
 					<lb/>דאין כולם שוים בדבר כי מהם מאריכים להם במ״ש הרבה ולא נדונין והוא
@@ -1233,7 +1233,7 @@
 				<p>
 					<lb/>מענין גילוי <persName>אליהו</persName>
 				</p>
-				</div><div type="story" xml:id="Derech-Haemuna_0047" n="47"><head type="storyHead">Derech-Haemuna_0047</head>
+				</div><div type="story" xml:id="Derech-Haemuna_0047" n="47"><head type="storyHead">Derech-Haemuna_0047</head><span ana="not-a-hasidic-story:sermon" resp="#llm-tagging">תיוגים</span>
 <p>
 					<lb/>ג) סיפר חסיד א׳ שביקש מאביו ז"ל שרוצה לראות <persName>אליהו</persName> וכו' ובסוף אמר שכשמאמינים
 					<lb/>שמלכותו בכל משלה ולית אחד פנוי מיניה זה ענין גילוי <persName>אלי</persName>. (ע״ק ב<name type="work">לקוטים</name>)
@@ -1278,7 +1278,7 @@
 				<p>
 					<lb/>מענין גמילות חסדים
 				</p>
-				</div><div type="story" xml:id="Derech-Haemuna_0048" n="48"><head type="storyHead">Derech-Haemuna_0048</head>
+				</div><div type="story" xml:id="Derech-Haemuna_0048" n="48"><head type="storyHead">Derech-Haemuna_0048</head><span ana="ethics-and-emotions:charity; folkloristics:story_type_birth_of_the_tsaddik; not-a-hasidic-story:hagiography; not-a-hasidic-story:virtues; supernatural:prognostication; times:birth; times:historical_event; folkloristics:story_type_prognostication; not-a-hasidic-story:sermon" resp="#llm-tagging">תיוגים</span>
 <p>
 					<lb/>ד) הגאון כמוה״ר <persName>אברהם דפיסה</persName> זל"ה בא לעולם בתפילת חכמי ישראל ומאורע
 					<lb/>המעשה שבהיות גלות <placeName ref="#H-LOC_144">ספרד</placeName> היה בורחים משם היהודים לעבור אל ארץ
@@ -1296,7 +1296,7 @@
 				<p>
 					<lb/>מענין גן עדן
 				</p>
-				</div><div type="story" xml:id="Derech-Haemuna_0049" n="49"><head type="storyHead">Derech-Haemuna_0049</head>
+				</div><div type="story" xml:id="Derech-Haemuna_0049" n="49"><head type="storyHead">Derech-Haemuna_0049</head><span ana="experience:revelation; experience:trembling; not-a-hasidic-story:hagiography; ethics-and-emotions:lying; ethics-and-emotions:virtues; folkloristics:story_type_virtues; practice:prayer; social:retrospective_recognition; times:eschatology" resp="#llm-tagging">תיוגים</span>
 <p>
 					<lb/>ה) שמעתי משארינו הג׳ המנוח מוה׳ <persName>יוסף שאול</persName> ז״ל אבד״ק <placeName ref="#H-LOC_40">לבוב</placeName> כי להמקובל
 					<lb/>ר״ש מ<placeName>אוסטריפאלי</placeName> נתגלה שיהיה חלקו בחד עם זקינינו הרב ר׳ <persName>העשיל</persName>
@@ -1307,7 +1307,7 @@
 					<persName><lb/>רצ״י</persName> האבד״ק <placeName ref="#H-LOC_145">פלונסק</placeName> שליט״א בשם מהו׳ הה״ג <persName>ר״י</persName> שליט״א אבד״ק <placeName>סעראצק</placeName> והם
 					<lb/>נכדי הר״ר <persName>העשיל</persName> הנ"ל.
 				</p>
-				</div><div type="story" xml:id="Derech-Haemuna_0050" n="50"><head type="storyHead">Derech-Haemuna_0050</head>
+				</div><div type="story" xml:id="Derech-Haemuna_0050" n="50"><head type="storyHead">Derech-Haemuna_0050</head><span ana="experience:journey_to_heaven; not-a-hasidic-story:sermon; spaces:heaven; supernatural:communicating_with_the_invisible; ethics-and-emotions:punishment" resp="#llm-tagging">תיוגים</span>
 <p>
 					<lb/>ובס׳ <name type="work">כתם אופיר</name> (על <name type="work">מגילת אסתר</name> קפי׳ ג׳) וז״ל ומבטלה בפניות שהם ע״ז את
 					<lb/>עושי המצוה והוא רוח רע כמו שאירע בעליות נשמה בג״ע שאל <persName>מרן</persName> לאמר
@@ -1319,7 +1319,7 @@
 				<p>
 					<pb facs="Derech-Haemuna_0028.jpg"/><lb/>מענין דביקות
 				</p>
-				</div><div type="story" xml:id="Derech-Haemuna_0051" n="51"><head type="storyHead">Derech-Haemuna_0051</head>
+				</div><div type="story" xml:id="Derech-Haemuna_0051" n="51"><head type="storyHead">Derech-Haemuna_0051</head><span ana="ethics-and-emotions:fear; ethics-and-emotions:repentance; folkloristics:story_type_virtues; practice:devekut; practice:the_travels_of_the_tsaddik; ethics-and-emotions:awe; ethics-and-emotions:virtues; experience:devekut; social:relations_with_the_authorities" resp="#llm-tagging">תיוגים</span>
 <p>
 					<lb/>א) וכמו ששמעתי מאאמו״ר ז״ל שסיפר מהצ״ה ר׳ <persName>שלמה מ<placeName ana="bio" ref="#H-LOC_4">קארלין</placeName></persName> זצ״ל שפ״א נסע
 					<lb/>בדרך משיפוע ההר הגדול ומפחד הסוסים אשר רצים מבוהלים ודחופים
@@ -1331,7 +1331,7 @@
 					<lb/>גודל מעלת הצדיקים הגדולים אשר יראים ועושים תשובה במס״נ על ביטול רגע
 					<lb/>מדביקות ה׳ לאשר כי אז היה נמנע מלשמח הקב״ה. (ד״א פ׳ <name type="work">שופטים</name>) :
 				</p>
-				</div><div type="story" xml:id="Derech-Haemuna_0052" n="52"><head type="storyHead">Derech-Haemuna_0052</head>
+				</div><div type="story" xml:id="Derech-Haemuna_0052" n="52"><head type="storyHead">Derech-Haemuna_0052</head><span ana="experience:devekut; practice:devekut; practice:reception_of_hasidim; characters-and-roles:the_family_of_the_tsaddik; folkloristics:story_type_virtues; practice:prayer; practice:storytelling; practice:torat_ha_tsaddik; practice:travel_to_the_tsaddik" resp="#llm-tagging">תיוגים</span>
 <p>
 					<lb/>ובס׳ ז״ט סיפר מרן <placeName>מנעסכיו</placeName> מאביו הג׳ <persName>מוהר״מ</persName> זצל״ה. פ״א היה <persName>אבא</persName> ז״ל מוטל
 					<lb/>במטתו בבוקר קודם התפלה מחמת חלישותו ונכנסו לפניו הרבה
@@ -1346,7 +1346,7 @@
 					<lb/>בשם ה<persName>רמב״ן</persName> ז״ל על ענין הדביקות התדירי (במ״ע פ״א אות י׳ ומובא בתולדות
 					<lb/>יצחק פ׳ <name type="work">נשא</name>) :
 				</p>
-				</div><div type="story" xml:id="Derech-Haemuna_0053" n="53"><head type="storyHead">Derech-Haemuna_0053</head>
+				</div><div type="story" xml:id="Derech-Haemuna_0053" n="53"><head type="storyHead">Derech-Haemuna_0053</head><span ana="practice:devekut; practice:study; social:inter_hasidic_master_disciple_relationship; experience:devekut; folkloristics:story_type_virtues; practice:storytelling" resp="#llm-tagging">תיוגים</span>
 <p>
 					<lb/>ובס׳ הנ״ל וגם סיפר <sic correction="שהלובלינר">שהל ובלינר</sic> זצוקל״ה בהיותו לפני הרהצה״ק ר״ר <persName>שעמלקא</persName>
 					<lb/>זצל״ה וביקש את <persName>הלובלינער</persName> שכשיעמיק <persName>הרר״ש</persName> בהלכה ותוספת ושמא עי״ז יסית
@@ -1356,7 +1356,7 @@
 					<lb/>העמיק מאד בלימודו וחשש שמא נפרד מדביקתו ורצה לנענע בבתי ידיו כפקודת רבו
 					<lb/>ומתוך כך פנה אליו <persName>הרר״ש</persName> ואמר לו בני בני הנה נזכרתי בעצמי :
 				</p>
-				</div><div type="story" xml:id="Derech-Haemuna_0054" n="54"><head type="storyHead">Derech-Haemuna_0054</head>
+				</div><div type="story" xml:id="Derech-Haemuna_0054" n="54"><head type="storyHead">Derech-Haemuna_0054</head><span ana="folkloristics:story_type_death_of_the_tsaddik; not-a-hasidic-story:hagiography; times:death; experience:devekut; practice:devekut" resp="#llm-tagging">תיוגים</span>
 <p>
 					<lb/>ובס׳ <name type="work">ע״ה</name> (ב<name type="work">דרוש המחשבה</name>) וז״ל ושמעתי וקבלתי ממגידי אמת שמיתת <persName>הרמ״ע מ<placeName ana="bio">פאנו</placeName></persName>
 					<lb/>בעל <name type="work">עשרה מאמרות</name> ו<name type="work">יונת אלם</name> ו<name spanTo="#ner_71356_71366" type="work"/>פלח <sic correction="הרימון">הרמיון</sic><anchor xml:id="ner_71356_71366"/> היה כן מיתות נשיקה שהתקשר
@@ -1367,7 +1367,7 @@
 				<p>
 					<lb/>מענין דגים
 				</p>
-				</div><div type="story" xml:id="Derech-Haemuna_0055" n="55"><head type="storyHead">Derech-Haemuna_0055</head>
+				</div><div type="story" xml:id="Derech-Haemuna_0055" n="55"><head type="storyHead">Derech-Haemuna_0055</head><span ana="times:shabbat; practice:storytelling; supernatural:communicating_with_the_invisible" resp="#llm-tagging">תיוגים</span>
 <p>
 					<lb/>ב) סיפר לענין דגים ששכיחים להימשך ולהזדמן לפה לש״ק ל<placeName>נעסכיז</placeName> וסיפר בשם
 					<persName><lb/>הבעש״ט</persName> ולה״ה שמן השמים נתנו לו ברירה לדור ב<placeName>נעמרוב</placeName> או ב<placeName ref="#H-LOC_55">מעזבוז</placeName>
@@ -1377,7 +1377,7 @@
 					<lb/>ובס׳ <name type="work">ב״א</name> (בלקוטים) וז״ל בשם הה״ק <persName>רש״ק</persName> זצל״ה צריך לדאוג יותר אם אין לו דגים
 					<lb/>בשבת יותר מענין שארז״ל סוף יומא ידאג כל השנה ח״ו.
 				</p>
-				</div><div type="story" xml:id="Derech-Haemuna_0056" n="56"><head type="storyHead">Derech-Haemuna_0056</head>
+				</div><div type="story" xml:id="Derech-Haemuna_0056" n="56"><head type="storyHead">Derech-Haemuna_0056</head><span ana="characters-and-roles:the_family_of_the_tsaddik; ethics-and-emotions:lust; social:disobedience; ethics-and-emotions:prohibitions; ethics-and-emotions:repentance; ethics-and-emotions:resisting_temptation; practice:storytelling" resp="#llm-tagging">תיוגים</span>
 <p>
 					<pb facs="Derech-Haemuna_0029.jpg"/><lb/>ובס׳ <name type="work">ז״ט</name> וז״ל סיפר מרן <placeName>נעסכיז</placeName> זללה״ה שבילדותו ישב בסעודה לפני אביו זללה״ה
 					<lb/>ורצה לשתות אחר מאכל דגים וציוה אביו להמתין קצת וכשפנה אביו ממנו
@@ -1389,7 +1389,7 @@
 				<p>
 					<lb/>מענין דיבור
 				</p>
-				</div><div type="story" xml:id="Derech-Haemuna_0057" n="57" ana="marginal"><head type="storyHead">Derech-Haemuna_0057</head>
+				</div><div type="story" xml:id="Derech-Haemuna_0057" n="57" ana="marginal"><head type="storyHead">Derech-Haemuna_0057</head><span ana="ethics-and-emotions:virtues; not-a-hasidic-story:sermon; not-a-hasidic-story:virtues; supernatural:light_or_fire_as_a_sign_of_righteousness; experience:visions; supernatural:communicating_with_the_invisible; times:death; women:minor_character" resp="#llm-tagging">תיוגים</span>
 <p>
 					<lb/>ג) ובכעס אינו משים על לבו רק ממלא פיו גחלים <reg reg="לוחשות">לוחשת</reg> דברים חדדים קשים
 					<lb/>ועזים אשר על כל דבור ודבור מוכרח להיות נדחה ממחיצתו ממקום
@@ -1404,7 +1404,7 @@
 					<lb/>להתאפק ולהגביר על היצה״ר כ״א בהוצאות הדבור שהוא שב ועל תעשה בנקל ולא
 					<lb/>בכח ובפועל וע״כ דינו ומשפטו מרה באחריתו. (<name type="work">א״ה פ״ה</name>) :
 				</p>
-				</div><div type="story" xml:id="Derech-Haemuna_0058" n="58"><head type="storyHead">Derech-Haemuna_0058</head>
+				</div><div type="story" xml:id="Derech-Haemuna_0058" n="58"><head type="storyHead">Derech-Haemuna_0058</head><span ana="not-a-hasidic-story:sermon; practice:torat_ha_tsaddik; ethics-and-emotions:humility; folkloristics:story_type_virtues; social:inter_hasidic_master_disciple_relationship" resp="#llm-tagging">תיוגים</span>
 <p>
 					<lb/>ובס׳ <name type="work">ב״מ</name> (פ׳ <name type="work">תולדות</name>) וז״ל אבל האמת יורה דרכו שמדרך הצדיק השלם כשירצה
 					<lb/>לפעול איזה פעולה טובה לאדם הוא עושה דבריו בהצנע ובסתר וה״ה כמדבר
@@ -1463,7 +1463,7 @@
 					<lb/>והעדים בראותם איזה גזל וחמס מצד שכנגדו יעשו גם הם תשובה שלא לחנם אירע
 					<lb/>זה לנגד עיניו רק שגם בידו יש איזה שמץ דבר מזה ויעוררוהו מן השמים לתשובה :
 				</p>
-				</div><div type="story" xml:id="Derech-Haemuna_0059" n="59"><head type="storyHead">Derech-Haemuna_0059</head>
+				</div><div type="story" xml:id="Derech-Haemuna_0059" n="59"><head type="storyHead">Derech-Haemuna_0059</head><span ana="not-a-hasidic-story:halakhah" resp="#llm-tagging">תיוגים</span>
 <p>
 					<lb/>שמעתי מאיש מהימן אחד מ<placeName ref="#H-LOC_40">לבוב</placeName> אשר בחדר הג׳ ש״ב בעל <name type="work">ישועות יעקב</name> זצ״ל שישב
 					<lb/>שם בד״ת היה כתוב על הפתח מצד החוץ באותיות גדולות לשון חז״ל ב<name type="work">ירושלמי</name>
@@ -1472,7 +1472,7 @@
 				<p>
 					<lb/>מענין דיקדוק התיבות
 				</p>
-				</div><div type="story" xml:id="Derech-Haemuna_0060" n="60"><head type="storyHead">Derech-Haemuna_0060</head>
+				</div><div type="story" xml:id="Derech-Haemuna_0060" n="60"><head type="storyHead">Derech-Haemuna_0060</head><span ana="ethics-and-emotions:charity; ethics-and-emotions:fear; ethics-and-emotions:punishment; experience:dream; experience:trembling; not-a-hasidic-story:hagiography; practice:asceticism; practice:fasting; practice:pilgrimage_to_the_graves_of_tsaddikim; practice:prayer; practice:study; spaces:heaven; supernatural:communicating_with_the_invisible; characters-and-roles:the_family_of_the_tsaddik; ethics-and-emotions:joy; experience:visions; knowledge:esoteric; not-a-hasidic-story:virtues; practice:clothing; social:retrospective_recognition; times:death; women:minor_character" resp="#llm-tagging">תיוגים</span>
 <p>
 					<lb/>ה) איש אחד היה מחסידי עליון ואספר קצת מחסידותיו ומדותיו ושמו ר׳ <persName>עזרא</persName> במו׳
 					<persName><lb/>ידידי׳</persName> והיה דר בעיר קטנה ואנשים בה מעט סמוך ל<placeName>ווינציא</placeName> והאיש ההוא
@@ -1538,14 +1538,14 @@
 					<lb/>וע״ז ישתדל שישמע קולו שידבר האדם דקלי׳ הנ״ל איזהו דיבורים וינצל מכל
 					<lb/>דבר רע וזהו דברינו ממש. (ד״ש פ׳ <name type="work">בלק</name>) :
 				</p>
-				</div><div type="story" xml:id="Derech-Haemuna_0061" n="61"><head type="storyHead">Derech-Haemuna_0061</head>
+				</div><div type="story" xml:id="Derech-Haemuna_0061" n="61"><head type="storyHead">Derech-Haemuna_0061</head><span ana="kabbalah:kabbalistic_terms_yihudim; practice:meditation; practice:the_travels_of_the_tsaddik; supernatural:contraction_of_the_road; knowledge:esoteric; supernatural:communicating_with_the_invisible; supernatural:miracle" resp="#llm-tagging">תיוגים</span>
 <p>
 					<lb/>ובס׳ <name type="work">מבשר צדק</name> (פ׳ <name type="work">קרח</name>) וז״ל והנה שמעתי בשם הה״צ מוה׳ <persName>יצחק דראביטשר</persName>
 					<lb/>זל״ה שפ״א היה תועה בדרך ובא בלילה ביער גדול והי׳ מיחד יחוד א׳ וע"י
 					<lb/>היחוד עשה טובה גדולה להשר של היער ועי״ז היה השר הנ״ל מוליך אותו לעיר
 					<lb/>מקום חפצו כהרף עין :
 				</p>
-				</div><div type="story" xml:id="Derech-Haemuna_0062" n="62"><head type="storyHead">Derech-Haemuna_0062</head>
+				</div><div type="story" xml:id="Derech-Haemuna_0062" n="62"><head type="storyHead">Derech-Haemuna_0062</head><span ana="experience:visions; not-a-hasidic-story:sermon; practice:the_travels_of_the_tsaddik; experience:revelation; practice:sermon; supernatural:perception" resp="#llm-tagging">תיוגים</span>
 <p>
 					<lb/>ובס׳ <name type="work">ד״מ</name> (פ׳ <name type="work">שמיני</name>) וז״ל וזה הדבר אשר צוה ה׳ תעשו וירא אליכם כבוד ה׳
 					<lb/>דהנה שמעתי שהה״ק אדמו״ר מוה׳ <persName>זושא</persName> זלה״ה הלך פעם בדרך ולא ידע לאן
@@ -1558,7 +1558,7 @@
 				<p>
 					<lb/>מענין דרשה
 				</p>
-				</div><div type="story" xml:id="Derech-Haemuna_0063" n="63"><head type="storyHead">Derech-Haemuna_0063</head>
+				</div><div type="story" xml:id="Derech-Haemuna_0063" n="63"><head type="storyHead">Derech-Haemuna_0063</head><span ana="ethics-and-emotions:humility; not-a-hasidic-story:hagiography; practice:sermon; ethics-and-emotions:pride; experience:devekut; not-a-hasidic-story:virtues; practice:devekut; practice:study; social:retrospective_recognition" resp="#llm-tagging">תיוגים</span>
 <p>
 					<lb/>ז) סיפרו בשם הה״צ מוה׳ <persName>מרדכי בנעט</persName> שהיה רגיל לכתוב אותיות באויר ולא ידעו
 					<lb/>מה עד שהרגישו פ״א שכתב אשרי איש שלא ישכחך ושמעתי בשם הג׳
@@ -1582,7 +1582,7 @@
 				<p>
 					<lb/>מענין הבטחה על מחר
 				</p>
-				</div><div type="story" xml:id="Derech-Haemuna_0064" n="64"><head type="storyHead">Derech-Haemuna_0064</head>
+				</div><div type="story" xml:id="Derech-Haemuna_0064" n="64"><head type="storyHead">Derech-Haemuna_0064</head><span ana="practice:prayer; ethics-and-emotions:virtues; not-a-hasidic-story:sermon" resp="#llm-tagging">תיוגים</span>
 <p>
 					<lb/>א) פ״א ביקש בעה״ב אחד את מהה״צ הק׳ <persName>רש״ק</persName> זצל״ה שילך למחר לביתו והשיב לו
 					<lb/>שוטה הלא צריך היום להתפלל ערבית ולקרות ק״ש שהוא מס״נ ואח״כ
@@ -1594,7 +1594,7 @@
 				<p>
 					<pb facs="Derech-Haemuna_0033.jpg"/><lb/>מענין הגאולה
 				</p>
-				</div><div type="story" xml:id="Derech-Haemuna_0065" n="65"><head type="storyHead">Derech-Haemuna_0065</head>
+				</div><div type="story" xml:id="Derech-Haemuna_0065" n="65"><head type="storyHead">Derech-Haemuna_0065</head><span ana="characters-and-roles:the_family_of_the_tsaddik; practice:the_travels_of_the_tsaddik; social:disobedience; spaces:the_land_of_israel; supernatural:communicating_with_the_invisible; supernatural:miracle; women:minor_character; characters-and-roles:angel_of_death; characters-and-roles:messiah; ethics-and-emotions:punishment; experience:journey_to_heaven; not-a-hasidic-story:hagiography; not-a-hasidic-story:sermon; social:conflict; social:relations_with_the_authorities; supernatural:contraction_of_the_road; times:eschatology; times:holidays" resp="#llm-tagging">תיוגים</span>
 <p>
 					<lb/>ב) כמו שעשו להה״ק ר׳ <persName>חיים בן עטר</persName> שבזה אותו איזה ארור אתה רמאי וצבוע
 					<lb/>וכן עד היום טפשי וחסרי הדעת של בני מדינתו מבזין אותו כך שרוב העולם
@@ -1634,7 +1634,7 @@
 					<lb/>ידבר שום דבר ויקבל באהבה ואתי עמי היה באלה ואלה רבות מיום הולדי וע״ע.
 					<lb/>(כ״מ <name type="work">שביל אמונה</name>) :
 				</p>
-				</div><div type="story" xml:id="Derech-Haemuna_0066" n="66"><head type="storyHead">Derech-Haemuna_0066</head>
+				</div><div type="story" xml:id="Derech-Haemuna_0066" n="66"><head type="storyHead">Derech-Haemuna_0066</head><span ana="characters-and-roles:messiah; folkloristics:story_type_prognostication; practice:pilgrimage_to_the_graves_of_tsaddikim; supernatural:prognostication; times:eschatology; practice:prayer; practice:sermon" resp="#llm-tagging">תיוגים</span>
 <p>
 					<lb/>ובס׳ <name type="work">על״ץ</name> (בלקוטים) אמר הה״ק <persName>היהודי</persName> זצ״ל במחילה מכבודם של אותן צדיקים
 					<lb/>המגלים קץ המשיח שבאמת הוא סוד שכל מי שיודע לא יוכל לגלות בשום אופן
@@ -1647,7 +1647,7 @@
 					<lb/>ס״ת ולבקש רחמים וכן היה שנתחדשו אז הצרות הידועים ר״ל והלכו אנשים ידועים
 					<lb/>על קברו עם ס״ת והועילו מעט על שנה אחת :
 				</p>
-				</div><div type="story" xml:id="Derech-Haemuna_0067" n="67"><head type="storyHead">Derech-Haemuna_0067</head>
+				</div><div type="story" xml:id="Derech-Haemuna_0067" n="67"><head type="storyHead">Derech-Haemuna_0067</head><span ana="not-a-hasidic-story:sermon" resp="#llm-tagging">תיוגים</span>
 <p>
 					<lb/>ובס׳ <name type="work">ה"ה</name> (פ׳ וירא) וז"ל כי אמר <persName>משיח</persName> לרבינו <persName>אלימלך</persName> שהעיקר תלוי שיחזרו הארון
 					<lb/>שגלה למקומו ואז תהיה הגאולה שלמה במהרה בימינו :
@@ -1660,7 +1660,7 @@
 					<lb/>כמכניס וכו׳ שכבר נתבאר היות הלב קודש הקדשים וכו׳ כדי שיהיה לבו כלי קדוש
 					<lb/>שבו תשרה השכינה וכו׳ :
 				</p>
-				</div><div type="story" xml:id="Derech-Haemuna_0068" n="68"><head type="storyHead">Derech-Haemuna_0068</head>
+				</div><div type="story" xml:id="Derech-Haemuna_0068" n="68"><head type="storyHead">Derech-Haemuna_0068</head><span ana="not-a-hasidic-story:sermon" resp="#llm-tagging">תיוגים</span>
 <p>
 					<lb/>ובס׳ <name type="work">ב"א</name> (ב<name type="work">לקוטים</name>) וז"ל אח"ז הרה״ק ר׳ <persName>אשר</persName> זצל"ה אמר קודם עלייתו לשמי מרום
 					<lb/>יש צדיקים הק׳ שמבטיחים שלא יכנסו לג״ע עד שיבוא הגואל ואנו אין בכחינו
@@ -1668,13 +1668,13 @@
 					<lb/>עבור ישראל כך בעולם העליון נעמוד בתפלה ובתחנונים עבורם וכל הדברים האלו
 					<lb/>צריכין אנו להאמין באמו״ש לעת כזאת על א״א מו״ר זצל״ה זי״ע ועכ״י :
 				</p>
-				</div><div type="story" xml:id="Derech-Haemuna_0069" n="69" ana="marginal"><head type="storyHead">Derech-Haemuna_0069</head>
+				</div><div type="story" xml:id="Derech-Haemuna_0069" n="69" ana="marginal"><head type="storyHead">Derech-Haemuna_0069</head><span ana="not-a-hasidic-story:sermon" resp="#llm-tagging">תיוגים</span>
 <p>
 					<lb/>ובס׳ <name type="work">א״א</name> (להו״ר) וז״ל סובלת סבלך אמר אאמו״ר ז״ל בשם אא״ז <persName>ההמ״מ מ<placeName ana="bio" ref="#H-LOC_151">קאזניץ</placeName></persName>
 					<lb/>זצ״ל כי בכל דור יש צדיקים אשר יכולים להביא הגאולה רק שסובלים מחמת
 					<lb/>שרואים שאתה סובל :
 				</p>
-				</div><div type="story" xml:id="Derech-Haemuna_0070" n="70"><head type="storyHead">Derech-Haemuna_0070</head>
+				</div><div type="story" xml:id="Derech-Haemuna_0070" n="70"><head type="storyHead">Derech-Haemuna_0070</head><span ana="not-a-hasidic-story:halakhah" resp="#llm-tagging">תיוגים</span>
 <p>
 					<lb/>ובס׳ <name type="work">א״ק</name> (אות מ׳) וז״ל שמעתי בשם מורי ז״ל שספר משם הצדיק מ<placeName>נשחיז</placeName> שאותו
 					<lb/>האגרת ששלח ר׳ <persName>ישראל בעש״ט</persName> ל<placeName ref="#H-LOC_105">אה״ק</placeName> לגיסו הרב ר׳ <persName>גרשון</persName> ז״ל מ<placeName ref="#H-LOC_84">קיטוב</placeName>
@@ -1686,7 +1686,7 @@
 				<p>
 					<lb/>מענין הדלקת נרות
 				</p>
-				</div><div type="story" xml:id="Derech-Haemuna_0071" n="71"><head type="storyHead">Derech-Haemuna_0071</head>
+				</div><div type="story" xml:id="Derech-Haemuna_0071" n="71"><head type="storyHead">Derech-Haemuna_0071</head><span ana="characters-and-roles:the_family_of_the_tsaddik; practice:prayer; times:shabbat; women:major_character; not-a-hasidic-story:sermon; practice:storytelling" resp="#llm-tagging">תיוגים</span>
 <p>
 					<lb/>ג) איתא בספרים בעת שהאשה מדלקת נרות לכבוד <date>שבת</date> צריכה להתפלל על בנים
 					<lb/>צדיקים ת״ח והשעה מסוגל לכך ו<date>שבת</date> נק׳ מנוחה. וזאת סיפר לי הה״ק
@@ -1697,7 +1697,7 @@
 				<p>
 					<lb/>מענין הוראה
 				</p>
-				</div><div type="story" xml:id="Derech-Haemuna_0072" n="72"><head type="storyHead">Derech-Haemuna_0072</head>
+				</div><div type="story" xml:id="Derech-Haemuna_0072" n="72"><head type="storyHead">Derech-Haemuna_0072</head><span ana="not-a-hasidic-story:hagiography; practice:halakhah; ethics-and-emotions:awe; ethics-and-emotions:fear; ethics-and-emotions:prohibitions; ethics-and-emotions:virtues; not-a-hasidic-story:sermon; women:mention_only" resp="#llm-tagging">תיוגים</span>
 <p>
 					<lb/>ד) וקבלתי מעשה מהרב ר׳ <persName>שמעון מ״ץ מ<placeName ana="bio" ref="#H-LOC_175">ווילנא</placeName></persName> זצ״ל שנכשל פ״א בהוראת ז״נ והלך
 					<lb/>עם משרתו באמצע הלילה בכל חוצות <placeName ref="#H-LOC_175">ווילנא</placeName> עד שבא לשם ודפק
@@ -1726,7 +1726,7 @@
 				<p>
 					<lb/>מענין הכנסת אורחים
 				</p>
-				</div><div type="story" xml:id="Derech-Haemuna_0073" n="73"><head type="storyHead">Derech-Haemuna_0073</head>
+				</div><div type="story" xml:id="Derech-Haemuna_0073" n="73"><head type="storyHead">Derech-Haemuna_0073</head><span ana="ethics-and-emotions:anger; ethics-and-emotions:virtues; not-a-hasidic-story:hagiography; not-a-hasidic-story:virtues; social:retrospective_recognition; times:shabbat; characters-and-roles:hidden_righteous; ethics-and-emotions:charity; practice:ritual_slaughtering; practice:storytelling" resp="#llm-tagging">תיוגים</span>
 <p>
 					<lb/>ה) בהיות הה״ג ר׳ <persName>אביש</persName> אב״ד ב<placeName ref="#H-LOC_125">פפד״מ</placeName> בא אורח אחד להתאכסן בביתו בש״ק תארו
 					<lb/>משחת רירו מעיניו ומפיו נוטפת וסרוחות וקיבלו בסבר פנים יפות כדרכו
@@ -1744,7 +1744,7 @@
 					<lb/>כפין עניא ולא ידע שיש בנמצא עני שיאכל אכילו כל מאכלו <name type="work">פפ״ד</name> ויהיה כפין וד״ל
 					<lb/>להלהיב לבות ב״י שיאמינו בדברי חז״ל וד״ל. (<name type="work">ברכת אברהם</name> בהק') :
 				</p>
-				</div><div type="story" xml:id="Derech-Haemuna_0074" n="74"><head type="storyHead">Derech-Haemuna_0074</head>
+				</div><div type="story" xml:id="Derech-Haemuna_0074" n="74"><head type="storyHead">Derech-Haemuna_0074</head><span ana="ethics-and-emotions:virtues; folkloristics:story_type_virtues; ethics-and-emotions:humility; practice:storytelling; times:eschatology" resp="#llm-tagging">תיוגים</span>
 <p>
 					<lb/>ובס׳ <name type="work">ז״ט</name> וז״ל סיפר הה״ק <persName>מהר״י</persName> זצ״ל מ<placeName>נשחיז</placeName> שהיה ב<placeName ref="#H-LOC_134">בארדיטשוב</placeName> איש הגון ושמו
 					<lb/>ר׳ <persName>ליבר</persName> ז״ל פ״א בלילה בחורף אחר היריד בא איש אחד לביתו בראותו שעוד
@@ -1753,7 +1753,7 @@
 					<lb/>כסבור אתה שאני מציע לך אני הנני מציע לי עכ״ל וכוונתו היתה שמציע ומכין
 					<lb/>עצמו לעוה״ב :
 				</p>
-				</div><div type="story" xml:id="Derech-Haemuna_0075" n="75"><head type="storyHead">Derech-Haemuna_0075</head>
+				</div><div type="story" xml:id="Derech-Haemuna_0075" n="75"><head type="storyHead">Derech-Haemuna_0075</head><span ana="characters-and-roles:elijah_the_prophet; characters-and-roles:the_family_of_the_tsaddik; ethics-and-emotions:charity; ethics-and-emotions:virtues; folkloristics:story_type_virtues; social:retrospective_recognition; times:shabbat; characters-and-roles:angel_of_death; ethics-and-emotions:prohibitions; experience:revelation; folkloristics:story_type_birth_of_the_tsaddik; not-a-hasidic-story:virtues; social:relations_with_sinners; spaces:heaven; supernatural:prognostication" resp="#llm-tagging">תיוגים</span>
 <p>
 					<lb/>ובס׳ <persName>ר״א</persName> (אות ו') וז״ל רחמים הוא מדה אחת מג׳ מדות שאנו ב״י מוכתרים עמהם
 					<lb/>וצריך להיות דבק בדרכי הש״י דכתיב ביה ורחמיו על כל מעשיו ושלא להיות
@@ -1793,7 +1793,7 @@
 				<p>
 					<lb/>מענין הליכה לרבו
 				</p>
-				</div><div type="story" xml:id="Derech-Haemuna_0076" n="76"><head type="storyHead">Derech-Haemuna_0076</head>
+				</div><div type="story" xml:id="Derech-Haemuna_0076" n="76"><head type="storyHead">Derech-Haemuna_0076</head><span ana="practice:reception_of_hasidim; practice:sermon; practice:travel_to_the_tsaddik; not-a-hasidic-story:sermon; social:inter_hasidic_master_disciple_relationship" resp="#llm-tagging">תיוגים</span>
 <p>
 					<lb/>ז) ונקדים מה ששמעתי בשם הק׳ ר׳ <persName>נחום מ<placeName ana="bio" ref="#H-LOC_31">טשארנאביל</placeName></persName> ז״ל אשר באו אליו אנשים
 					<lb/>המקושרים אליו מ<placeName>האמלע</placeName> והלכו אליו ברגליהם וקרא אליהם המקרא מה
@@ -1810,7 +1810,7 @@
 					<lb/>לדבר ביד האדם ט״ו איברים כמנין ט״ו תיבות בפסוקי יברכך ה׳ וישמרך וגו׳ כלומר
 					<lb/>יחולו על ראשך דברכות שבג׳ פסוקים אלו שהם ט״ו כמנין איברי היד] :
 				</p>
-				</div><div type="story" xml:id="Derech-Haemuna_0077" n="77" ana="marginal"><head type="storyHead">Derech-Haemuna_0077</head>
+				</div><div type="story" xml:id="Derech-Haemuna_0077" n="77" ana="marginal"><head type="storyHead">Derech-Haemuna_0077</head><span ana="not-a-hasidic-story:sermon" resp="#llm-tagging">תיוגים</span>
 <p>
 					<lb/>ובס׳ <name type="work">ב״א</name> (לפסח) וז״ל ואיתא במדרש לע״ל כל אחד עומד ומשמיע תלמודו וכו׳ כי
 					<lb/>הה״צ <persName>רש״ק</persName> אמר כשאדם בא לעולם האמת שזהו עיקר התכלית להכין לו מזה
@@ -1825,7 +1825,7 @@
 				<p>
 					<lb/>מענין הרגש של צדיקים
 				</p>
-				</div><div type="story" xml:id="Derech-Haemuna_0078" n="78"><head type="storyHead">Derech-Haemuna_0078</head>
+				</div><div type="story" xml:id="Derech-Haemuna_0078" n="78"><head type="storyHead">Derech-Haemuna_0078</head><span ana="social:retrospective_recognition; supernatural:perception; practice:the_travels_of_the_tsaddik; social:relations_with_non_hasidim" resp="#llm-tagging">תיוגים</span>
 <p>
 					<lb/>ז) וכאשר עיני ראו בהיות הה״ק אאמו״ר <persName>המגיד</persName> הק׳ מ<placeName ref="#H-LOC_151">קאזניץ</placeName> זצל״ה בק"ק ב<placeName>ראד</placeName>.
 					<lb/>ומדי עברו אצל הבתים למחוז חפצו עמד אצל בית אחד כמתמי׳ ושאלוהו
@@ -1833,14 +1833,14 @@
 					<lb/>טומאת הבית הזה ואחר החקירה והדרישה נתוודע כי במקום הזה שרפו זה זמן ספרי
 					<name type="work"><lb/>תולדות יעקב יוסף</name> רח״ל לזאת עלה צחנתו מטומאתו עוד לפניו. (<name type="work">ד״מ</name> פ׳ ו<name type="work">יגש</name>) :
 				</p>
-				</div><div type="story" xml:id="Derech-Haemuna_0079" n="79"><head type="storyHead">Derech-Haemuna_0079</head>
+				</div><div type="story" xml:id="Derech-Haemuna_0079" n="79"><head type="storyHead">Derech-Haemuna_0079</head><span ana="supernatural:perception; ethics-and-emotions:joy; ethics-and-emotions:sadness; not-a-hasidic-story:sermon; practice:storytelling; practice:torat_ha_tsaddik" resp="#llm-tagging">תיוגים</span>
 <p>
 					<lb/>ובס׳ <name type="work">ע״ק</name> (לשבח חזון) וז״ל אמר כשיש דינים ח״ו על ישראל אזי אני חולה ועצב
 					<lb/>וכשיש רחמים אני בריא ושמח כי הצדיק יכול להרגיש בגופו כל עניני השתנות
 					<lb/>שנעשה בעולם בכל פעם מרחמים לדין ח״ו ומדין לרחמים וכו׳ והרב מ<placeName ref="#H-LOC_133">אפטא</placeName> סיפר
 					<lb/>לו שבילדותו התחילו האברים שלו לומר לו עתידות ובקש מהשי״ת שיקח הדבר מאתו :
 				</p>
-				</div><div type="story" xml:id="Derech-Haemuna_0080" n="80"><head type="storyHead">Derech-Haemuna_0080</head>
+				</div><div type="story" xml:id="Derech-Haemuna_0080" n="80"><head type="storyHead">Derech-Haemuna_0080</head><span ana="ethics-and-emotions:punishment; practice:reception_of_hasidim; practice:torat_ha_tsaddik; practice:travel_to_other_tsaddik; supernatural:perception; times:shabbat; ethics-and-emotions:prohibitions; practice:prayer; social:inter_hasidic; spaces:beth_midrash" resp="#llm-tagging">תיוגים</span>
 <p>
 					<lb/>ובס׳ <name type="work">נ״מ</name> (בשביל התורה) וז״ל והיה מעשה אצל הק׳ מ<placeName>רומנאב</placeName> שבאו אצלו שני
 					<lb/>חסידים מאנשים של הה״ק מ<placeName ref="#H-LOC_35">אליק</placeName> ובליל שבת היה מהרהרין שזה אינו מתפלל
@@ -1852,7 +1852,7 @@
 					<lb/>לא דבר קטן וגדול וטוב להם כי הצדיק מרגיש תיכף והוא משליך אותם לשאול
 					<lb/>תחתית ודי בזה :
 				</p>
-				</div><div type="story" xml:id="Derech-Haemuna_0081" n="81"><head type="storyHead">Derech-Haemuna_0081</head>
+				</div><div type="story" xml:id="Derech-Haemuna_0081" n="81"><head type="storyHead">Derech-Haemuna_0081</head><span ana="not-a-hasidic-story:sermon" resp="#llm-tagging">תיוגים</span>
 <p>
 					<lb/>ובס׳ <name type="work">ע״ק</name> (ב<name type="work">לקוטים</name>) וז״ל יש אנשים ששואלים עלי במה אני גוטער יוד והאמת
 					<lb/>שאין אני גוטער יוד ואני בעצמי אין כי יודע אני ערכי רק האמת אני רוצה
@@ -1863,7 +1863,7 @@
 				<p>
 					<lb/>מענין הפצרה בתפלה
 				</p>
-				</div><div type="story" xml:id="Derech-Haemuna_0082" n="82"><head type="storyHead">Derech-Haemuna_0082</head>
+				</div><div type="story" xml:id="Derech-Haemuna_0082" n="82"><head type="storyHead">Derech-Haemuna_0082</head><span ana="folkloristics:story_type_virtues; practice:prayer; supernatural:communicating_with_the_invisible; ethics-and-emotions:fear; ethics-and-emotions:virtues; practice:healing; times:eschatology" resp="#llm-tagging">תיוגים</span>
 <p>
 					<lb/>ח) ע״ד המעשה המובא בשם אדמו״ר איש אלהים מוה׳ <persName>ד״ב מ<placeName ana="bio">מעזריטש</placeName></persName> זלה״ה אשר
 					<lb/>פ״א הרבה והפציר בתפלה עבור חולה אחד ולא רצה לנטות מעליו עד
@@ -1875,7 +1875,7 @@
 				<p>
 					<lb/>מענין התגלות
 				</p>
-				</div><div type="story" xml:id="Derech-Haemuna_0083" n="83"><head type="storyHead">Derech-Haemuna_0083</head>
+				</div><div type="story" xml:id="Derech-Haemuna_0083" n="83"><head type="storyHead">Derech-Haemuna_0083</head><span ana="experience:revelation; experience:trembling; experience:visions; practice:prayer; social:inter_hasidic_master_disciple_relationship; spaces:beth_midrash; supernatural:communicating_with_the_invisible; supernatural:light_or_fire_as_a_sign_of_righteousness; times:holidays; ethics-and-emotions:awe; ethics-and-emotions:fear; practice:storytelling; practice:the_travels_of_the_tsaddik; supernatural:perception" resp="#llm-tagging">תיוגים</span>
 <p>
 					<lb/>ט) וכן היה להה״ק מוהר״ר <persName>לוי יצחק</persName> בליל <date>שבועות</date> שזכה לראות מראה השכינה
 					<lb/>כדמות וכו׳ ואמרה לי חזק בני <persName>לוי יצחק</persName> צרות רבות יעבורו עליך ואתה
@@ -1903,7 +1903,7 @@
 					<lb/>שגם בעת פטירת מורי הרגשתי וראיתי זיו וזוהר כזה עליו ומזה זכיתי להשגת תורתו
 					<lb/>עכ״ד. (<name type="work">כ״מ</name> <name type="work">שביל היחוד</name>) :
 				</p>
-				</div><div type="story" xml:id="Derech-Haemuna_0084" n="84" ana="marginal"><head type="storyHead">Derech-Haemuna_0084</head>
+				</div><div type="story" xml:id="Derech-Haemuna_0084" n="84" ana="marginal"><head type="storyHead">Derech-Haemuna_0084</head><span ana="not-a-hasidic-story:sermon" resp="#llm-tagging">תיוגים</span>
 <p>
 					<lb/>ובס׳ <name type="work">הנ״ל</name> (<name type="work">בשביל התורה</name>) וז״ל ולכן רבינו הק׳ אור וחיות נשמתינו רבינו <persName>אלימלך</persName>
 					<lb/>הזהיר כשהצדיק משיג איזה מדריגה לא יגלה עד תשעה חדשים ולפחות עד
@@ -1912,7 +1912,7 @@
 				<p>
 					<lb/>מענין התחברות
 				</p>
-				</div><div type="story" xml:id="Derech-Haemuna_0085" n="85"><head type="storyHead">Derech-Haemuna_0085</head>
+				</div><div type="story" xml:id="Derech-Haemuna_0085" n="85"><head type="storyHead">Derech-Haemuna_0085</head><span ana="practice:drinking_alcohol; practice:storytelling; social:relations_with_non_hasidim; ethics-and-emotions:joy; practice:circumcision; practice:sermon; practice:study; social:disobedience; social:inter_hasidic; social:inter_hasidic_master_disciple_relationship; times:holidays" resp="#llm-tagging">תיוגים</span>
 <p>
 					<lb/>י) בספר <persName>מ״ה</persName> הביא מעשה מ<persName>ש"ב</persName> הה״ק מ<placeName ref="#H-LOC_657">גאסטנין</placeName> זצל״ה וז״ל (<name type="work">תהלים</name> קמ״ז) נדחי
 					<lb/>ישראל יכנס ידוע מנהגו בכל ר״ח להיות יחד עם המתפללים אצלו אחר
@@ -1980,7 +1980,7 @@
 				<p>
 					<lb/>מענין וידוי
 				</p>
-				</div><div type="story" xml:id="Derech-Haemuna_0086" n="86"><head type="storyHead">Derech-Haemuna_0086</head>
+				</div><div type="story" xml:id="Derech-Haemuna_0086" n="86"><head type="storyHead">Derech-Haemuna_0086</head><span ana="not-a-hasidic-story:hagiography; not-a-hasidic-story:sermon; times:holidays; ethics-and-emotions:repentance; practice:halakhah; practice:prayer" resp="#llm-tagging">תיוגים</span>
 <p>
 					<lb/>א) מעשה שהיה בימי רבינו הגדול ה<persName>רמב״ם</persName> הק׳ ז״ל שהיה אדם א׳ שלא רצה לומר
 					<lb/>הוידוי הגדול בערב יוה״כ כי אמר שיודע שלא חטא כ״כ חטאים ולמה
@@ -2010,7 +2010,7 @@
 					<lb/>שזהו לשון וידוי שיש בהן אותיות יו״ד שמביא האותיות לשרשן שהוא היו״ד שהוא שורש
 					<lb/>כל האותיות כמש״ל כ״פ ע״כ דפח״ח :
 				</p>
-				</div><div type="story" xml:id="Derech-Haemuna_0087" n="87"><head type="storyHead">Derech-Haemuna_0087</head>
+				</div><div type="story" xml:id="Derech-Haemuna_0087" n="87"><head type="storyHead">Derech-Haemuna_0087</head><span ana="ethics-and-emotions:repentance; ethics-and-emotions:virtues; folkloristics:story_type_virtues; practice:healing" resp="#llm-tagging">תיוגים</span>
 <p>
 					<lb/>ובס׳ <name type="work">על״ץ</name> (ב<name type="work">לקוטים</name>) וז״ל פ״א חלה מאד הרה״צ הק׳ ר׳ <persName>ישכר דוב בער מ<placeName ana="bio">ראדשיץ</placeName></persName>
 					<lb/>זצלה"ה ובעת חליו אמר הדרך הוא שאדם מתודה בשעת חליו אמנם מה אתודה
@@ -2041,7 +2041,7 @@
 				<p>
 					<lb/>מענין <name type="work">זוהר</name> הק'
 				</p>
-				</div><div type="story" xml:id="Derech-Haemuna_0088" n="88"><head type="storyHead">Derech-Haemuna_0088</head>
+				</div><div type="story" xml:id="Derech-Haemuna_0088" n="88"><head type="storyHead">Derech-Haemuna_0088</head><span ana="experience:dream; not-a-hasidic-story:sermon; ethics-and-emotions:prohibitions; ethics-and-emotions:punishment; ethics-and-emotions:repentance" resp="#llm-tagging">תיוגים</span>
 <p>
 					<lb/>א) ובס׳ <name type="work">ד״ל</name> (מער׳ ב׳ אות ד׳) וז״ל בהמה בפ״ק ד<name type="work">חולין</name> אמרו דהחוטא נקרא בהמה
 				</p>
@@ -2053,7 +2053,7 @@
 					<lb/>בהמה כי ע״י החטא הולכת קדושה שבו ונכנסת סט״א וע״ז נקרא בהמה כי ביער
 					<lb/>הקדש מן הבית :
 				</p>
-				</div><div type="story" xml:id="Derech-Haemuna_0089" n="89" ana="marginal"><head type="storyHead">Derech-Haemuna_0089</head>
+				</div><div type="story" xml:id="Derech-Haemuna_0089" n="89" ana="marginal"><head type="storyHead">Derech-Haemuna_0089</head><span ana="not-a-hasidic-story:halakhah" resp="#llm-tagging">תיוגים</span>
 <p>
 					<lb/>ובס׳ <name type="work">נ״מ</name> (<name type="work">שביל</name> ה<name type="work">תורה</name>) וז"ל וראוי לקבוע עצמו ללמוד חמש דפין ב<name type="work">זוהר</name> בכל יום
 					<lb/>והוא תועלת גדול ותיקון גדול לנפש להאירה ולזככה ולתקנה ולכלות קוצים
@@ -2067,7 +2067,7 @@
 					<lb/>מקשרין את האדם לא״ס יתברך רק מי שרוצה ללמוד עם ביאור יעי׳ מקודם בהביאור
 					<lb/>ו<name type="work">הזוה״ק</name> יאמר כסדר בלא ביאור :
 				</p>
-				</div><div type="story" xml:id="Derech-Haemuna_0090" n="90" ana="marginal"><head type="storyHead">Derech-Haemuna_0090</head>
+				</div><div type="story" xml:id="Derech-Haemuna_0090" n="90" ana="marginal"><head type="storyHead">Derech-Haemuna_0090</head><span ana="not-a-hasidic-story:sermon" resp="#llm-tagging">תיוגים</span>
 <p>
 					<lb/>ובס׳ <name type="work">ב״א</name> (ב<name type="work">לקוטים</name>) וז״ל בשם צדיקים אמר ב<name type="work">זוה״ק</name> כבר נפתח פתח ע״י ה<persName>אר״י</persName>
 					<lb/>ז״ל וב<name type="work">מדרש השער</name> סגור לא יפתח עד ביאת משיח בב״א :
@@ -2079,7 +2079,7 @@
 				<p>
 					<lb/>מענין זכות אבות
 				</p>
-				</div><div type="story" xml:id="Derech-Haemuna_0091" n="91" ana="marginal"><head type="storyHead">Derech-Haemuna_0091</head>
+				</div><div type="story" xml:id="Derech-Haemuna_0091" n="91" ana="marginal"><head type="storyHead">Derech-Haemuna_0091</head><span ana="not-a-hasidic-story:sermon" resp="#llm-tagging">תיוגים</span>
 <p>
 					<lb/>ב) אני אומר זכות אבות שלנו המה בפרטיות לזכות כלל ישראל כי שמעתי פ״א
 					<lb/>מאבי זצל"ה וזכרתי את בריתי <persName>אברהם</persName> ואת בריתי <persName>יצחק</persName> ואת בריתי <persName>יעקב</persName>
@@ -2140,7 +2140,7 @@
 					<lb/>אותו בנשמות קדושות ובזכותן זוכר וכך ידוע זכות אבות מסייע לו וזה מלביש ערומים
 					<lb/>כו׳ ע״ש :
 				</p>
-				</div><div type="story" xml:id="Derech-Haemuna_0092" n="92"><head type="storyHead">Derech-Haemuna_0092</head>
+				</div><div type="story" xml:id="Derech-Haemuna_0092" n="92"><head type="storyHead">Derech-Haemuna_0092</head><span ana="not-a-hasidic-story:sermon" resp="#llm-tagging">תיוגים</span>
 <p>
 					<lb/>ובס׳ <name type="work">ב״א</name> (ב<name type="work">לקוטים</name>) וז״ל אמר א״ז הה״ק ר׳ <persName>אהרן</persName> הגדול זצל״ה היה לו קבלת
 					<lb/>יחוס מזרע <persName>דוד המלך</persName> ע״ה ואאמו״ר היה לו כמה בחי׳ שהיה אצל <persName>דוד</persName> המע״ה
@@ -2162,7 +2162,7 @@
 				<p>
 					<pb facs="Derech-Haemuna_0043.jpg"/><lb/>מענין זכרון
 				</p>
-				</div><div type="story" xml:id="Derech-Haemuna_0093" n="93"><head type="storyHead">Derech-Haemuna_0093</head>
+				</div><div type="story" xml:id="Derech-Haemuna_0093" n="93"><head type="storyHead">Derech-Haemuna_0093</head><span ana="not-a-hasidic-story:sermon" resp="#llm-tagging">תיוגים</span>
 <p>
 					<lb/>ג) כמ״ש רבינו הק׳ ר׳ <persName>אלימלך</persName> ז״ל מ<placeName ref="#H-LOC_350">ליזענסק</placeName> שביקש אחד מאתו לעזור לו שיהיה
 					<lb/>לו זכרון והשיב עשה תשובה וגדולה תשובה שמגעת כו׳ ויהיה מקוים בך
@@ -2172,7 +2172,7 @@
 					<lb/>האדם וז״ש (<name type="work">תהלים</name> קי״ט) לעולם לא אשכח דבריך כי בם חייתני היינו שאחרי שהם
 					<lb/>הם החיות שלו א״כ לא אשכח כנ״ל ודפח״ח (רמץ) :
 				</p>
-				</div><div type="story" xml:id="Derech-Haemuna_0094" n="94"><head type="storyHead">Derech-Haemuna_0094</head>
+				</div><div type="story" xml:id="Derech-Haemuna_0094" n="94"><head type="storyHead">Derech-Haemuna_0094</head><span ana="practice:sermon; practice:study; ethics-and-emotions:shame; ethics-and-emotions:virtues; folkloristics:story_type_virtues; social:inter_hasidic_master_disciple_relationship" resp="#llm-tagging">תיוגים</span>
 <p>
 					<lb/>ובס׳ ר״ד וז״ל פ״א ישב ההצה"ק <persName>רמ"ל מ<placeName ana="bio" ref="#H-LOC_446">סאווראן</placeName></persName> במסיבה ואמר איזהו ד״ת ובתוך
 					<lb/>המאמר הביא איזה מאמר מהגמרא וישב אצלו הדיין המובהק שלו מוה׳ <persName>פנחס</persName>
@@ -2268,7 +2268,7 @@
 				<p>
 					<pb facs="Derech-Haemuna_0045.jpg"/><lb/>מענין חומרות של פסח
 				</p>
-				</div><div type="story" xml:id="Derech-Haemuna_0095" n="95"><head type="storyHead">Derech-Haemuna_0095</head>
+				</div><div type="story" xml:id="Derech-Haemuna_0095" n="95"><head type="storyHead">Derech-Haemuna_0095</head><span ana="ethics-and-emotions:awe; not-a-hasidic-story:sermon; practice:sermon; practice:storytelling; characters-and-roles:the_family_of_the_tsaddik; ethics-and-emotions:fear; practice:asceticism; practice:halakhah; times:holidays" resp="#llm-tagging">תיוגים</span>
 <p>
 					<lb/>א) פ״א היה מדבר מן החומרא של פסח אמר שמלאך יכול להחמיר אבל אדם האיך
 					<lb/>אפשר להחמיר וזקני ר׳ <persName>אברהם</persName> היה מחמיר ביותר ועל מצת מצוה לקחו
@@ -2283,7 +2283,7 @@
 					<lb/>ע״ע עומ״ש באמת ויודע שמלכותו בכל משלה מושיבי עקרת הבית דהיינו שיחזור כל
 					<lb/>מה שבעולם לעיקרו ושורשו דכל עלמין אזי אם הבנים שמחה. (ע״ק בלקוטים) :
 				</p>
-				</div><div type="story" xml:id="Derech-Haemuna_0096" n="96"><head type="storyHead">Derech-Haemuna_0096</head>
+				</div><div type="story" xml:id="Derech-Haemuna_0096" n="96"><head type="storyHead">Derech-Haemuna_0096</head><span ana="characters-and-roles:the_family_of_the_tsaddik; practice:halakhah; ethics-and-emotions:humility; ethics-and-emotions:prohibitions; practice:storytelling" resp="#llm-tagging">תיוגים</span>
 <p>
 					<lb/>ובס׳ ז״ט וז״ל סיפר מרן מ<placeName>נעסכיז</placeName> שאביו זלה״ה היה מחמיר בהלכות פסח ושבנו
 					<lb/>ה<persName>קאוולר</persName> זלה"ה רצה פ״א להקל בשאלת פסח ואמר מהיכי תיתי לן להחמיר
@@ -2306,7 +2306,7 @@
 				<p>
 					<lb/>מענין חולי
 				</p>
-				</div><div type="story" xml:id="Derech-Haemuna_0097" n="97"><head type="storyHead">Derech-Haemuna_0097</head>
+				</div><div type="story" xml:id="Derech-Haemuna_0097" n="97"><head type="storyHead">Derech-Haemuna_0097</head><span ana="folkloristics:story_type_prognostication; practice:failure; practice:pidyon_nefesh; supernatural:perception; supernatural:prognostication; practice:healing; practice:protection; practice:the_travels_of_the_tsaddik; social:inter_hasidic_master_disciple_relationship; supernatural:miracle" resp="#llm-tagging">תיוגים</span>
 <p>
 					<lb/>א) איש א׳ צדיק היה חולה זמן רב וכשהיה עובר דרך שם <persName>הבעש״ט</persName> נתנו לו פדיון
 					<lb/>וביקש ממנו תלמידו מ<persName>הבעש״ט</persName> שיבקש רחמים עליו שיעמוד מחליו איש זה
@@ -2319,7 +2319,7 @@
 					<lb/>לעיר אותן הפוחזים והיו רצים כל אנשי העיר לראותם עמד גם זה האיש תיכף
 					<lb/>מחליו ג״כ. (<persName>כש״ט</persName>) :
 				</p>
-				</div><div type="story" xml:id="Derech-Haemuna_0098" n="98"><head type="storyHead">Derech-Haemuna_0098</head>
+				</div><div type="story" xml:id="Derech-Haemuna_0098" n="98"><head type="storyHead">Derech-Haemuna_0098</head><span ana="characters-and-roles:the_family_of_the_tsaddik; practice:healing; women:catalyst_character; practice:storytelling; social:inter_hasidic" resp="#llm-tagging">תיוגים</span>
 <p>
 					<lb/>ובס׳ ז״ט וז״ל סיפר מרן מ<placeName>נעסכיז</placeName> שאחיו הרהצה״ק ה<placeName>קאוולר</placeName> רב היה לו בקטנותו
 					<lb/>חולי קדחת ר״ל כמה שבועות ולא השגיח אביהם הג׳ <persName>מוהר״מ</persName> זצל״ה ע״ז ופ״א
@@ -2332,7 +2332,7 @@
 					<lb/>קרייד והניח את הבתי עינים על עיניו וגרד בסכין מעט קרייד ונתן לו לשתות
 					<lb/>במים ונתרפא :
 				</p>
-				</div><div type="story" xml:id="Derech-Haemuna_0099" n="99"><head type="storyHead">Derech-Haemuna_0099</head>
+				</div><div type="story" xml:id="Derech-Haemuna_0099" n="99"><head type="storyHead">Derech-Haemuna_0099</head><span ana="characters-and-roles:angel_of_death; characters-and-roles:angels; ethics-and-emotions:fear; ethics-and-emotions:repentance; experience:visions; practice:prayer; supernatural:communicating_with_the_invisible; characters-and-roles:demons; ethics-and-emotions:punishment; not-a-hasidic-story:virtues; supernatural:perception" resp="#llm-tagging">תיוגים</span>
 <p>
 					<lb/>ובס׳ <name type="work">א״ו</name> (בשער התפלה) וז״ל העירה והקיצה אחי מה שסיפר לו הרה״ג <persName>מוהר״נ</persName>
 					<lb/>זלה"ה מעשה אירע בעיר אחת באדם אחד שנטה למות וחלה את חליו ונכנסו
@@ -2350,7 +2350,7 @@
 				<p>
 					<lb/>מענין <date>חול המועד</date>
 				</p>
-				</div><div type="story" xml:id="Derech-Haemuna_0100" n="100"><head type="storyHead">Derech-Haemuna_0100</head>
+				</div><div type="story" xml:id="Derech-Haemuna_0100" n="100"><head type="storyHead">Derech-Haemuna_0100</head><span ana="ethics-and-emotions:punishment; experience:revelation; times:holidays; ethics-and-emotions:humility; ethics-and-emotions:prohibitions; practice:storytelling; practice:the_travels_of_the_tsaddik; supernatural:communicating_with_the_invisible" resp="#llm-tagging">תיוגים</span>
 <p>
 					<lb/>ג) ושמעתי מכה קדוש הרב מ<placeName>ראזדעל</placeName> איך שרבן של ישראל הרב <persName>מוה׳ דוב
 					<lb/>מ<placeName ana="bio">מעזריטש</placeName></persName> נצטער ע״ז על שנעשה מפורסם וגילו לו מן השמים
@@ -2360,7 +2360,7 @@
 				<p>
 					<lb/>מענין חיבורים
 				</p>
-				</div><div type="story" xml:id="Derech-Haemuna_0101" n="101"><head type="storyHead">Derech-Haemuna_0101</head>
+				</div><div type="story" xml:id="Derech-Haemuna_0101" n="101"><head type="storyHead">Derech-Haemuna_0101</head><span ana="not-a-hasidic-story:halakhah" resp="#llm-tagging">תיוגים</span>
 <p>
 					<lb/>ד) אמר בשם <persName>הריב״ש</persName> שכל החיבורים שהיו עד <persName>המהרש"א</persName> ועד בכלל היו ברה״ק
 					<lb/>וכיון שהוא ברוה״ק הוא תורה עצמה ואמר שרק הגילוי הוא ע״י רוה״ק
@@ -2374,7 +2374,7 @@
 					<lb/>אבל מ״מ גם החיבורים שאחר <persName>הט״ז</persName> ו<persName>הש״ך</persName> ח״ו להרהר עליהם מאחר שנתקבלו ויש
 					<lb/>הסכם עליהם נמשך בהם כח רוה״ק. (<persName>ש״י</persName> בדרוש לסוכות) :
 				</p>
-				</div><div type="story" xml:id="Derech-Haemuna_0102" n="102"><head type="storyHead">Derech-Haemuna_0102</head>
+				</div><div type="story" xml:id="Derech-Haemuna_0102" n="102"><head type="storyHead">Derech-Haemuna_0102</head><span ana="not-a-hasidic-story:sermon" resp="#llm-tagging">תיוגים</span>
 <p>
 					<lb/>ובס׳ <name type="work">רמ״ץ</name> וז״ל וכן שמעתי שאמר על ה<persName>ג׳ מ<placeName ana="bio" ref="#H-LOC_25">ליסא</placeName></persName> ז״ל שאעפ"י שלא כיון בלימודו
 					<lb/>להסוד עכ״ז הלימוד שלו הגיע לחלק הסוד להלכה מתוך שהתייגע עצמו לכוין
@@ -2383,7 +2383,7 @@
 				<p>
 					<lb/>מענין חילול שבת
 				</p>
-				</div><div type="story" xml:id="Derech-Haemuna_0103" n="103" ana="marginal"><head type="storyHead">Derech-Haemuna_0103</head>
+				</div><div type="story" xml:id="Derech-Haemuna_0103" n="103" ana="marginal"><head type="storyHead">Derech-Haemuna_0103</head><span ana="not-a-hasidic-story:halakhah" resp="#llm-tagging">תיוגים</span>
 <p>
 					<lb/>ה) ויש עוד כי איתא שדנו את א׳ על שנכנס חול במנעלו ב<date>שבת</date> ולא דקדק ואפ״ל
 				</p>
@@ -2392,13 +2392,13 @@
 					<lb/>רצון אל ב״ה באהבתו אותו אפשר אין מדקדקין עמו כ״כ כי אם ירצה הוא לדקדק
 					<lb/>בדקדוקים כאלה יבולבל מדביקות הבורא ב"ה. (<name type="work">ז"ז</name> פ׳ <name type="work">פקודי</name>) :
 				</p>
-				</div><div type="story" xml:id="Derech-Haemuna_0104" n="104"><head type="storyHead">Derech-Haemuna_0104</head>
+				</div><div type="story" xml:id="Derech-Haemuna_0104" n="104"><head type="storyHead">Derech-Haemuna_0104</head><span ana="ethics-and-emotions:prohibitions; social:retrospective_recognition; times:shabbat" resp="#llm-tagging">תיוגים</span>
 <p>
 					<lb/>ובס׳ <name type="work">ש״צ</name> (פ׳ <name type="work">וירא</name>) וז״ל ואמרו מגידי אמת שפ״א ראה <persName>הבעש״ט</persName> הק׳ נבג״מ לאחד
 					<lb/>שחילל <date>שבת</date> פשפש ומצא בעצמו ששימש עם צורבא מרבנן טרם שלמד ממנו ד״ת
 					<lb/>והיינו חילול <date>שבת</date> כי ת״ח דומה לשבת ע״כ :
 				</p>
-				</div><div type="story" xml:id="Derech-Haemuna_0105" n="105"><head type="storyHead">Derech-Haemuna_0105</head>
+				</div><div type="story" xml:id="Derech-Haemuna_0105" n="105"><head type="storyHead">Derech-Haemuna_0105</head><span ana="ethics-and-emotions:prohibitions; social:retrospective_recognition; supernatural:perception" resp="#llm-tagging">תיוגים</span>
 <p>
 					<lb/>ובס׳ <name type="work">ס״מ</name> וז״ל שמעתי שראה <persName>הבעש״ט</persName> חילול <date>שבת</date> מאדם ועמד בתמהון ובהתבוננות
 					<lb/>המחשבה שאלוהו תלמידיו מה זה והשיב שהתישב איזה חילול <date>שבת</date> יש בידו
@@ -2408,7 +2408,7 @@
 				<p>
 					<lb/>מענין חלישות דעת
 				</p>
-				</div><div type="story" xml:id="Derech-Haemuna_0106" n="106"><head type="storyHead">Derech-Haemuna_0106</head>
+				</div><div type="story" xml:id="Derech-Haemuna_0106" n="106"><head type="storyHead">Derech-Haemuna_0106</head><span ana="practice:prayer; social:inter_hasidic_master_disciple_relationship; ethics-and-emotions:sadness; ethics-and-emotions:shame; experience:enthusiasm; not-a-hasidic-story:sermon; practice:failure; practice:storytelling; practice:study; practice:travel_to_the_tsaddik" resp="#llm-tagging">תיוגים</span>
 <p>
 					<lb/>ז) וכמו שהיה בימי רבותינו הק׳ וכמו שעשו להק׳ מופ״ה מוהר״ר <persName>לוי יצחק</persName> זצ״ל
 					<lb/>שסיפר לי מו״ח שהיה מחלישין דעתו מאד אין שיעור וב<date>שנת תקנ"ג</date> מרוב
@@ -2429,7 +2429,7 @@
 					<lb/>תלמידו ועמד לפניו באימה כדרכם ואמר לו רבי ומורי והחזיר לו וכו'. (א״ה בהק'
 					<lb/>ה״ה לס׳ <name type="work">במדבר</name>) :
 				</p>
-				</div><div type="story" xml:id="Derech-Haemuna_0107" n="107"><head type="storyHead">Derech-Haemuna_0107</head>
+				</div><div type="story" xml:id="Derech-Haemuna_0107" n="107"><head type="storyHead">Derech-Haemuna_0107</head><span ana="not-a-hasidic-story:sermon" resp="#llm-tagging">תיוגים</span>
 <p>
 					<lb/>ובס׳ <name type="work">נ״מ</name> (בשביל <name type="work">התורה ש״א</name>) וז״ל ועוד רשעים העומדים בכל עת על הצדיקים
 					<lb/>דורשי יחודו יתברך באור אש להבת שלהבת יה עד שמרן הה״ל ישראל בן
@@ -2443,7 +2443,7 @@
 				<p>
 					<lb/>מענין חנות
 				</p>
-				</div><div type="story" xml:id="Derech-Haemuna_0108" n="108"><head type="storyHead">Derech-Haemuna_0108</head>
+				</div><div type="story" xml:id="Derech-Haemuna_0108" n="108"><head type="storyHead">Derech-Haemuna_0108</head><span ana="ethics-and-emotions:resisting_temptation; not-a-hasidic-story:hagiography; not-a-hasidic-story:sermon; times:shabbat; characters-and-roles:demons; characters-and-roles:the_family_of_the_tsaddik; ethics-and-emotions:prohibitions; ethics-and-emotions:virtues; folkloristics:story_type_virtues; not-a-hasidic-story:virtues" resp="#llm-tagging">תיוגים</span>
 <p>
 					<lb/>ז) וצריך ליזהר מאד להיות משומרי <date>שבת</date> פי׳ שצריך להמתין על ה<date>שבת</date> ולא שיהא
 					<lb/>ה<date>שבת</date> ימתין עליו וזריזין מקדימין וביותר צריך לזרז בעלי החנויות לסגור
@@ -2462,7 +2462,7 @@
 				<p>
 					<lb/>מענין חצות
 				</p>
-				</div><div type="story" xml:id="Derech-Haemuna_0109" n="109"><head type="storyHead">Derech-Haemuna_0109</head>
+				</div><div type="story" xml:id="Derech-Haemuna_0109" n="109"><head type="storyHead">Derech-Haemuna_0109</head><span ana="not-a-hasidic-story:sermon" resp="#llm-tagging">תיוגים</span>
 <p>
 					<lb/>ה) ושמעתי כ״פ מכבוד אאמו״ר זלה״ה שהזהיר מאד לחברים המקשיבים ע״ז הענין
 					<lb/>וצעק מאד על האנשים חדשים מקרוב באו שהנהיגו להיות ניעורים
@@ -2476,7 +2476,7 @@
 					<lb/>חסידותו כמעט אני אומר שלא עבר עליו חצות לילה בשינה אפילו לילי <date>תמוז</date> מלקום
 					<lb/>ולספוד כאשה אלמנה על חורבן בית אל׳ בבכי גדול ולהשלים הלילה בתלמוד. (<name type="work">ש״ה</name>) :
 				</p>
-				</div><div type="story" xml:id="Derech-Haemuna_0110" n="110"><head type="storyHead">Derech-Haemuna_0110</head>
+				</div><div type="story" xml:id="Derech-Haemuna_0110" n="110"><head type="storyHead">Derech-Haemuna_0110</head><span ana="practice:sermon; supernatural:reincarnation; ethics-and-emotions:awe; ethics-and-emotions:repentance; knowledge:esoteric; practice:healing_of_the_soul; practice:study" resp="#llm-tagging">תיוגים</span>
 <p>
 					<lb/>ובס׳ הנ״ל בהקדמה וז״ל ובעת שהיה בדיחא דעתי׳ אמר לפני חברים מקשיבים
 					<lb/>חרדים לדבר ד׳ איזה מאמר מכתבי קודש (מ<name type="work">שער הגלגולים ח״ב</name>) והסביר
@@ -2517,7 +2517,7 @@
 				<p>
 					<lb/>מענין טהרה
 				</p>
-				</div><div type="story" xml:id="Derech-Haemuna_0111" n="111"><head type="storyHead">Derech-Haemuna_0111</head>
+				</div><div type="story" xml:id="Derech-Haemuna_0111" n="111"><head type="storyHead">Derech-Haemuna_0111</head><span ana="not-a-hasidic-story:hagiography; practice:halakhah; supernatural:perception; women:minor_character; characters-and-roles:the_family_of_the_tsaddik; times:historical_event" resp="#llm-tagging">תיוגים</span>
 <p>
 					<lb/>א) שמעתי מהורי ואבותי אשר בעת נבחר לשבת לדין בעניני הקמיעות אשר היה
 					<lb/>על הג׳ בעל <name type="work">כרתי ופלתי</name> נסע לכבוד זקיני הג׳ בעל <persName>פנ״י</persName> ז״ל וכבדהו
@@ -2529,7 +2529,7 @@
 				<p>
 					<lb/>מענין טרדות
 				</p>
-				</div><div type="story" xml:id="Derech-Haemuna_0112" n="112"><head type="storyHead">Derech-Haemuna_0112</head>
+				</div><div type="story" xml:id="Derech-Haemuna_0112" n="112"><head type="storyHead">Derech-Haemuna_0112</head><span ana="not-a-hasidic-story:sermon" resp="#llm-tagging">תיוגים</span>
 <p>
 					<lb/>ב) ואלו באתי לפרש הענין ולסדר הענין יותר איך ומה האותיות והדיבורים הם
 					<lb/>רוחניים ומפוארים בכל מיני גונים ורוחנים וטעמים כפי מה שהכנתי וקבלתי
@@ -2736,19 +2736,19 @@
 				<p>
 					<lb/>מענין יראת שמים
 				</p>
-				</div><div type="story" xml:id="Derech-Haemuna_0113" n="113"><head type="storyHead">Derech-Haemuna_0113</head>
+				</div><div type="story" xml:id="Derech-Haemuna_0113" n="113"><head type="storyHead">Derech-Haemuna_0113</head><span ana="ethics-and-emotions:awe; ethics-and-emotions:fear; practice:storytelling" resp="#llm-tagging">תיוגים</span>
 <p>
 					<lb/>ג) וסיפר המעשה מרבי <persName>זוסיא</persName> שכסה עצמו <reg reg="בגלגול">בגלגל</reg> בחורף ובא עליו יראת המלאכים
 					<lb/>ולא היה יכול לסבול אותה ובקש מהקב״ה שיסור מעליו היראה. (<name type="work">ע״ק</name>
 					<lb/>ב<name type="work">לקוטים</name>) :
 				</p>
-				</div><div type="story" xml:id="Derech-Haemuna_0114" n="114"><head type="storyHead">Derech-Haemuna_0114</head>
+				</div><div type="story" xml:id="Derech-Haemuna_0114" n="114"><head type="storyHead">Derech-Haemuna_0114</head><span ana="ethics-and-emotions:awe; ethics-and-emotions:fear; practice:reception_of_hasidim; supernatural:miracle" resp="#llm-tagging">תיוגים</span>
 <p>
 					<pb facs="Derech-Haemuna_0053.jpg"/><lb/>ובס׳ <name type="work">ד״מ</name> (פ' <name type="work">פנחס</name>) וז״ל וכמו ששאל אחד את הה״צ מו״ר מוה׳ <persName>זושא</persName> זצל״ה ללמדו
 					<lb/>איך לעבוד ה׳ ביראה והוריד הרב בידו ונפל אותו האיש על פניו ארצה ולא
 					<lb/>יכל לקום על עמדו מגודל היראה עד שהניף הרב ידו אז קם על עמדו :
 				</p>
-				</div><div type="story" xml:id="Derech-Haemuna_0115" n="115"><head type="storyHead">Derech-Haemuna_0115</head>
+				</div><div type="story" xml:id="Derech-Haemuna_0115" n="115"><head type="storyHead">Derech-Haemuna_0115</head><span ana="not-a-hasidic-story:sermon" resp="#llm-tagging">תיוגים</span>
 <p>
 					<lb/>ובס׳ <name type="work">ה״ה</name> (פ׳ <name type="work">תשא</name>) וז״ל ואיש כי ימרט ראשו שנפלה לו כל שערות ראשו מחמת
 					<lb/>יראה ופחד השי״ת בודאי הוא טהור כי הוא מדריגה גדולה לא יזכה בזה אלא
@@ -2758,7 +2758,7 @@
 				<p>
 					<lb/>מענין ישיבות
 				</p>
-				</div><div type="story" xml:id="Derech-Haemuna_0116" n="116"><head type="storyHead">Derech-Haemuna_0116</head>
+				</div><div type="story" xml:id="Derech-Haemuna_0116" n="116"><head type="storyHead">Derech-Haemuna_0116</head><span ana="not-a-hasidic-story:halakhah" resp="#llm-tagging">תיוגים</span>
 <p>
 					<lb/>ד) עי׳ <persName>מהרש״א</persName> <name type="work">סנהדרין</name> דמ״ב שכ׳ וז״ל שלא למדתי אז בישיבה בהיותי ביריד
 					<lb/>ב<placeName ref="#H-LOC_56">לובלין</placeName> הנני כותב מס׳ <name type="work">יון מצולה</name> תוכן הענין מלפנים בישראל במדינת <placeName ref="#H-LOC_225">פולין</placeName>
@@ -2843,7 +2843,7 @@
 				<p>
 					<pb facs="Derech-Haemuna_0055.jpg"/><lb/>מענין כבוד
 				</p>
-				</div><div type="story" xml:id="Derech-Haemuna_0117" n="117"><head type="storyHead">Derech-Haemuna_0117</head>
+				</div><div type="story" xml:id="Derech-Haemuna_0117" n="117"><head type="storyHead">Derech-Haemuna_0117</head><span ana="ethics-and-emotions:humility; ethics-and-emotions:virtues; not-a-hasidic-story:hagiography; not-a-hasidic-story:virtues; ethics-and-emotions:pride; ethics-and-emotions:prohibitions; practice:halakhah" resp="#llm-tagging">תיוגים</span>
 <p>
 					<lb/>א) פ״א היתי מהלך בדרך עם מורי [ה<persName>אר״י</persName>] זלה״ה ובא ת״ח והלך לפניו במתכוין
 					<lb/>וכראות מורי זלה״ה זה אף הוא מתכוין היה תמיד ללכת אחריו אף אחר
@@ -2852,7 +2852,7 @@
 					<lb/>הוא מחויב לחלוק לו כבוד ולעשות רצונו בכך ע״ד <persName>הלל</persName> הזקן שרץ לפני עני בן <persName>טובי׳</persName>
 					<lb/>ג׳ מילין כי גם זה בכלל כבוד ת"ח. (<name type="work">ש״ה ח״ב</name>) :
 				</p>
-				</div><div type="story" xml:id="Derech-Haemuna_0118" n="118"><head type="storyHead">Derech-Haemuna_0118</head>
+				</div><div type="story" xml:id="Derech-Haemuna_0118" n="118"><head type="storyHead">Derech-Haemuna_0118</head><span ana="ethics-and-emotions:humility; practice:sermon; ethics-and-emotions:pride; folkloristics:story_type_virtues; not-a-hasidic-story:sermon" resp="#llm-tagging">תיוגים</span>
 <p>
 					<lb/>ובהקדמה לס׳ <name type="work">ס״מ</name> וז״ל אחז״ל יהי כבוד חבירך חביב עליך כשלך וא׳ לפרש דרך
 					<lb/>צחות בעת בואו ל<placeName>ק׳ נ״ש</placeName> כאשר נתקבל לאב״ד שם והמדינה ובבואו לחון
@@ -2864,7 +2864,7 @@
 					<lb/>כי לולא כן על מה זה רץ לכן אמרו כל הרודף אחר הכבוד בלי ספק הכבוד בורח
 					<lb/>ממנו והבן :
 				</p>
-				</div><div type="story" xml:id="Derech-Haemuna_0119" n="119"><head type="storyHead">Derech-Haemuna_0119</head>
+				</div><div type="story" xml:id="Derech-Haemuna_0119" n="119"><head type="storyHead">Derech-Haemuna_0119</head><span ana="ethics-and-emotions:humility; ethics-and-emotions:repentance; not-a-hasidic-story:sermon; not-a-hasidic-story:virtues; ethics-and-emotions:pride; not-a-hasidic-story:hagiography; practice:sermon" resp="#llm-tagging">תיוגים</span>
 <p>
 					<lb/>ובס׳ <name type="work">ר״א</name> (אות ל״ב) וז״ל כבוד שלא לחמוד כבוד ואדרבה להתרחק מן הכבוד כי
 					<lb/>השי״ת הוא מלך הכבוד ואסור להשתמש בשרביטו של מלך ואמרו חז״ל הקנאה
@@ -2880,7 +2880,7 @@
 					<lb/>הנז׳ בחו״ה וכל מדות אלו בניי היקרים טוב להרגיל עצמו בימי חורפו והרגל
 					<lb/>נעשה טבע :
 				</p>
-				</div><div type="story" xml:id="Derech-Haemuna_0120" n="120"><head type="storyHead">Derech-Haemuna_0120</head>
+				</div><div type="story" xml:id="Derech-Haemuna_0120" n="120"><head type="storyHead">Derech-Haemuna_0120</head><span ana="not-a-hasidic-story:sermon" resp="#llm-tagging">תיוגים</span>
 <p>
 					<lb/>ובס׳ <name type="work">ת״מ</name> (עה״ת בהקדמה) מבעל <persName>ח״ס</persName> ששמע הג׳ ר׳ <persName>ש״ב</persName> מאביו הג׳ בעל <persName>ח״ק</persName>
 					<lb/>בזה״ל שלשה דברים סח לי מר אבי הג׳ ז״ל מיום עמדי על דעתי לא התפללתי
@@ -2889,7 +2889,7 @@
 					<lb/>לשמה חוץ מיום שנתקבלתי לאבד״ק <placeName>דרעזניטץ</placeName> שדרשתי בכוונה להראות כוחי
 					<lb/>בלימוד וכו׳ :
 				</p>
-				</div><div type="story" xml:id="Derech-Haemuna_0121" n="121"><head type="storyHead">Derech-Haemuna_0121</head>
+				</div><div type="story" xml:id="Derech-Haemuna_0121" n="121"><head type="storyHead">Derech-Haemuna_0121</head><span ana="ethics-and-emotions:awe; practice:sermon; practice:torat_ha_tsaddik; social:inter_hasidic; times:eschatology" resp="#llm-tagging">תיוגים</span>
 <p>
 					<lb/>ובס׳ <name type="work">ר״ד</name> וז״ל בעת שהה״צ מ<placeName ref="#H-LOC_133">אפטא</placeName> זל״ה עשה כבוד גדול ויקר להרב מ<placeName ref="#H-LOC_546">רוזין</placeName> זצ״ל
 					<lb/>בעודנו צעיר לימים והיה לפלא בעיני אחרים והשיב כי כ׳ ב<name type="work">מדרש</name> (<name type="work">אג״ב</name>
@@ -2905,7 +2905,7 @@
 				<p>
 					<lb/>מענין כונות המצות
 				</p>
-				</div><div type="story" xml:id="Derech-Haemuna_0122" n="122"><head type="storyHead">Derech-Haemuna_0122</head>
+				</div><div type="story" xml:id="Derech-Haemuna_0122" n="122"><head type="storyHead">Derech-Haemuna_0122</head><span ana="characters-and-roles:angels; ethics-and-emotions:shame; experience:dream; not-a-hasidic-story:sermon; spaces:heaven; ethics-and-emotions:punishment; kabbalah:kabbalistic_terms_kavvanot; supernatural:communicating_with_the_invisible; times:eschatology" resp="#llm-tagging">תיוגים</span>
 <p>
 					<lb/>ב) וכמעשה באחד שהגיד לחבריו בחלום איך שהוא מתבייש וחרפה תכסה פניו בהכריז
 					<lb/>עליו המלאך כונת המצות אשר עשה בעוה״ז וכל הצדיקים ינוסו לקולם
@@ -2923,7 +2923,7 @@
 				<p>
 					<lb/>מענין כד
 				</p>
-				</div><div type="story" xml:id="Derech-Haemuna_0123" n="123"><head type="storyHead">Derech-Haemuna_0123</head>
+				</div><div type="story" xml:id="Derech-Haemuna_0123" n="123"><head type="storyHead">Derech-Haemuna_0123</head><span ana="practice:sermon; supernatural:miracle; supernatural:perception; knowledge:esoteric; practice:study; social:inter_hasidic_master_disciple_relationship" resp="#llm-tagging">תיוגים</span>
 <p>
 					<lb/>ג) מעשה מ<persName>בעש״ט</persName> ע״ה שהיה אומר שיעור כדרכו והיה אומר בזה״ל כי זה שכלו
 					<lb/>הוא מעפר ויש לו התחברות ע״י אדם ואמר שהחומר הוא אומר פשוט
@@ -2939,7 +2939,7 @@
 				<p>
 					<lb/>מענין כתונת
 				</p>
-				</div><div type="story" xml:id="Derech-Haemuna_0124" n="124"><head type="storyHead">Derech-Haemuna_0124</head>
+				</div><div type="story" xml:id="Derech-Haemuna_0124" n="124"><head type="storyHead">Derech-Haemuna_0124</head><span ana="practice:clothing; spaces:heaven; times:death; times:shabbat; characters-and-roles:angels; ethics-and-emotions:punishment; practice:sermon; practice:storytelling; supernatural:communicating_with_the_invisible" resp="#llm-tagging">תיוגים</span>
 <p>
 					<lb/>ד) שמעתי שסיפר הה״צ רבי <persName>בערצי מ<placeName ana="bio" ref="#H-LOC_457">נאדבורנא</placeName></persName> איך שהג׳ הק׳ רבי <persName>שבתי מראשקוב</persName>
 					<lb/>נסתלק בע״ש ולעת ערב בא אליו שליח דרחמנא שיבא להיכל שמקבלין
@@ -2958,7 +2958,7 @@
 				<p>
 					<pb facs="Derech-Haemuna_0057.jpg"/><lb/>מענין לדון את חבירו לכף זכות
 				</p>
-				</div><div type="story" xml:id="Derech-Haemuna_0125" n="125"><head type="storyHead">Derech-Haemuna_0125</head>
+				</div><div type="story" xml:id="Derech-Haemuna_0125" n="125"><head type="storyHead">Derech-Haemuna_0125</head><span ana="ethics-and-emotions:virtues; experience:journey_to_heaven; practice:pidyon_nefesh; practice:prayer; practice:smoking; social:inter_hasidic_master_disciple_relationship; spaces:beth_midrash; supernatural:perception; times:holidays; ethics-and-emotions:anger; ethics-and-emotions:punishment; ethics-and-emotions:repentance; folkloristics:story_type_protection; kabbalah:kabbalistic_terms_yihudim; not-a-hasidic-story:virtues; practice:devekut; practice:lifesaving; practice:reception_of_hasidim; practice:storytelling; social:inter_hasidic; spaces:heaven" resp="#llm-tagging">תיוגים</span>
 <p>
 					<lb/>א) כמו ששמעתי מחמי הה״ק מוהר״ר <persName>אברהם מרדכי מ<placeName ana="bio">פינטשוב</placeName></persName> שספר לי מגדולת
 					<lb/>מרן רבינו <persName>הבעש״ט</persName> ובתוך הדברים סיפר שפ״א עמדו התלמידים ב<date>ר״ה</date>
@@ -2985,7 +2985,7 @@
 					<lb/>והזהיר לו שתמיד ידין לכף זכות להירא שמים ולא יעורר עליו דינא ודיינא ויהיה סוב
 					<lb/>לו עכ״ל ועי׳ <name type="work">נוצר חסד אבות</name> פ״ר. (א״ה <name type="work">פ׳ קדושים</name>) :
 				</p>
-				</div><div type="story" xml:id="Derech-Haemuna_0126" n="126"><head type="storyHead">Derech-Haemuna_0126</head>
+				</div><div type="story" xml:id="Derech-Haemuna_0126" n="126"><head type="storyHead">Derech-Haemuna_0126</head><span ana="not-a-hasidic-story:sermon" resp="#llm-tagging">תיוגים</span>
 <p>
 					<lb/>ובס׳ הנ״ל (<name type="work">פ׳ תרומה</name>) וז״ל גילה לנו מרן רבינו <persName>הבעש״ט</persName> זי״ע שבכל דבר עבירה
 					<lb/>שרואה ברשעים ידין אותם לכף זכות כי את עצמו הוא דן ובכל כחו יחזירם
@@ -3003,7 +3003,7 @@
 				<p>
 					<lb/>מענין ל"ו צדיקים
 				</p>
-				</div><div type="story" xml:id="Derech-Haemuna_0127" n="127"><head type="storyHead">Derech-Haemuna_0127</head>
+				</div><div type="story" xml:id="Derech-Haemuna_0127" n="127"><head type="storyHead">Derech-Haemuna_0127</head><span ana="characters-and-roles:hidden_righteous; characters-and-roles:the_family_of_the_tsaddik; practice:torat_ha_tsaddik" resp="#llm-tagging">תיוגים</span>
 <p>
 					<lb/>ב) וזה של"ו צדיקים שישנם בכל דוד קוראין אותם העולם נסתרין ושמעתי כי <persName>דוד״ז</persName>
 					<lb/>הה״ק <persName>מוהר״נ</persName> שאל לאביו הוא זקני סבא קדישא <persName>מהר״מ</persName> נ״ע מ<placeName>לעכויטש</placeName>
@@ -3014,7 +3014,7 @@
 					<pb facs="Derech-Haemuna_0058.jpg"/><lb/>מער ניט גיווען נאר וויא מי זעט אונז ראה כמה גדלה קדושתם ז״ל זי״ע ועכי״א
 					<lb/>(ד״ש פ׳ <name type="work">ויקרא</name>) :
 				</p>
-				</div><div type="story" xml:id="Derech-Haemuna_0128" n="128"><head type="storyHead">Derech-Haemuna_0128</head>
+				</div><div type="story" xml:id="Derech-Haemuna_0128" n="128"><head type="storyHead">Derech-Haemuna_0128</head><span ana="characters-and-roles:hidden_righteous; social:inter_hasidic_master_disciple_relationship; supernatural:reincarnation; folkloristics:story_type_revelation" resp="#llm-tagging">תיוגים</span>
 <p>
 					<lb/>ובס׳ מ״ה וז״ל כי נאמר מפי הה״ק הרבי מ<placeName ref="#H-LOC_121">קאצק</placeName> זצ״ל על מו״ר הרב מ<placeName ref="#H-LOC_657">גאסטנין</placeName>
 					<lb/>זצ״ל שהוא מן הל״ו צדיקים שבדור ומפי אאמו״ר שליט״א שמעתי גופא
@@ -3034,7 +3034,7 @@
 				<p>
 					<lb/>מענין לימוד
 				</p>
-				</div><div type="story" xml:id="Derech-Haemuna_0129" n="129"><head type="storyHead">Derech-Haemuna_0129</head>
+				</div><div type="story" xml:id="Derech-Haemuna_0129" n="129"><head type="storyHead">Derech-Haemuna_0129</head><span ana="not-a-hasidic-story:halakhah" resp="#llm-tagging">תיוגים</span>
 <p>
 					<lb/>ג) ולימוד קצת דינים מ<name type="work">הרמב״ם</name> או <name type="work">ש״ע</name> בכל יום הוא דבר גדול וכתב <persName>מהר״ש</persName> בן
 					<persName><lb/>הרשב״ץ</persName> ז״ל בתשובותיו סי׳ נ״ב דאם לומד שני דינים מ<name type="work">הרמב״ם</name> ז״ל מקיים
@@ -3045,7 +3045,7 @@
 					<lb/>הקודש ותפלות שיסד הרב ז״ל ליחד ולקשר כל העולמות ויתר כוונת פשוטות זי״ע
 					<lb/>ועי׳ לעיל מערכ׳ ש׳ אות י'. (ד״ל מער׳ ח׳ אות מ״א) :
 				</p>
-				</div><div type="story" xml:id="Derech-Haemuna_0130" n="130"><head type="storyHead">Derech-Haemuna_0130</head>
+				</div><div type="story" xml:id="Derech-Haemuna_0130" n="130"><head type="storyHead">Derech-Haemuna_0130</head><span ana="characters-and-roles:elijah_the_prophet; experience:revelation; not-a-hasidic-story:hagiography; practice:circumcision; practice:healing; practice:study; supernatural:miracle; practice:tvilah; supernatural:communicating_with_the_invisible; times:shabbat" resp="#llm-tagging">תיוגים</span>
 <p>
 					<lb/>ובס׳ <name type="work">שה״ג</name> להג׳ <persName>חיד״א</persName> (מערכ׳ ז׳ אות מ״ג) וז״ל והרב מוהר״ר <persName>צמח</persName> הנז׳ היה
 					<lb/>חולה כשנתים ב<placeName ref="#H-LOC_566">דמשק</placeName> ערש וענו בכבל רגלו ואתרחיש ליה ניסא שלח מלאכו
@@ -3085,7 +3085,7 @@
 					<lb/>ובס׳ ד״ש (פ׳ אחרי) וז״ל וכמו שאמר אא״ז זי״ע בדרך הלצה ו<name type="work">עץ חיים</name> תאוה באה
 					<lb/>ע״י למוד ע״ח מי שאינו ראוי עי״ז תאוה באה נתגבר התאוה ר״ל :
 				</p>
-				</div><div type="story" xml:id="Derech-Haemuna_0131" n="131" ana="marginal"><head type="storyHead">Derech-Haemuna_0131</head>
+				</div><div type="story" xml:id="Derech-Haemuna_0131" n="131" ana="marginal"><head type="storyHead">Derech-Haemuna_0131</head><span ana="not-a-hasidic-story:sermon" resp="#llm-tagging">תיוגים</span>
 <p>
 					<lb/>ובס׳ <persName>ר״א</persName> (אות ל״ג) וז״ל לימוד אם אמרתי אספרה מעלת הלימוד תוה״ק כל היריעות
 					<lb/>יכלו וכל ס׳ ה<name type="work">זוהר</name> מלא מזה וכמעט בכל דף אומר זכאין אינון דמשתדלין
@@ -3097,20 +3097,20 @@
 					<lb/>היה לו יד בלימוד והיה גומר בכל שנה סדר <name type="work">הש״ס</name> באמירה בעלמא והיה צלם
 					<lb/>אלהים על פניו כאחד הגדולים :
 				</p>
-				</div><div type="story" xml:id="Derech-Haemuna_0132" n="132"><head type="storyHead">Derech-Haemuna_0132</head>
+				</div><div type="story" xml:id="Derech-Haemuna_0132" n="132"><head type="storyHead">Derech-Haemuna_0132</head><span ana="practice:study; times:death; not-a-hasidic-story:hagiography; not-a-hasidic-story:virtues; spaces:heaven; supernatural:miracle" resp="#llm-tagging">תיוגים</span>
 <p>
 					<lb/>ובס׳ <name type="work">ק״ה</name> (פי״ד אות י״ז) וז״ל ובא וראה מהמעשה בחסיד שהיה דר בכפר קטן
 					<lb/>ולא היה לו שום ספר רק גמרא אחת של מסכת <name type="work">חגיגה</name> והיה כל ימיו של
 					<lb/>אותו החסיד עוסק במסכת <name type="work">חגיגה</name> והאריך ימים מאד ולבסוף קודם מותו נתלבשה
 					<lb/>אותה המס׳ בדמות אשם והלכה לפניו אחר מותו עד שהביאו לאותו החסיד לג״ע :
 				</p>
-				</div><div type="story" xml:id="Derech-Haemuna_0133" n="133"><head type="storyHead">Derech-Haemuna_0133</head>
+				</div><div type="story" xml:id="Derech-Haemuna_0133" n="133"><head type="storyHead">Derech-Haemuna_0133</head><span ana="not-a-hasidic-story:halakhah" resp="#llm-tagging">תיוגים</span>
 <p>
 					<lb/>ובס׳ ש״י (בדרוש ה') וז״ל וכן היה הדרך של הק׳ ר׳ <persName>יעקב יצחק מ<placeName ana="bio" ref="#H-LOC_56">לובלין</placeName></persName> כשהיה
 					<lb/>לומד גמרא היה לומר דף בעיון ואח״כ היה חוזר אותו הדף בדיבור לבד והיה
 					<lb/>מחבב הדיבור של הגמ' בלי עיון :
 				</p>
-				</div><div type="story" xml:id="Derech-Haemuna_0134" n="134" ana="marginal"><head type="storyHead">Derech-Haemuna_0134</head>
+				</div><div type="story" xml:id="Derech-Haemuna_0134" n="134" ana="marginal"><head type="storyHead">Derech-Haemuna_0134</head><span ana="not-a-hasidic-story:halakhah" resp="#llm-tagging">תיוגים</span>
 <p>
 					<lb/>ובהקדמה לס׳ <name type="work">תהלים</name> דפוס <placeName ref="#H-LOC_154">ירושלים</placeName> וז״ל ולאשר זירזו גורי ה<persName>אר״י</persName> ובספרי מוסר
 					<lb/>שילמד כ״א בספרי ה<name type="work">זוהר</name> וכבוד הה״ק א״א <persName>רשכב״ה</persName> תפארת ישראל
@@ -3119,7 +3119,7 @@
 				<p>
 					<lb/>מענין ליצנות
 				</p>
-				</div><div type="story" xml:id="Derech-Haemuna_0135" n="135"><head type="storyHead">Derech-Haemuna_0135</head>
+				</div><div type="story" xml:id="Derech-Haemuna_0135" n="135"><head type="storyHead">Derech-Haemuna_0135</head><span ana="ethics-and-emotions:repentance; practice:prayer; practice:travel_to_the_tsaddik; spaces:beth_midrash; supernatural:perception; ethics-and-emotions:prohibitions; not-a-hasidic-story:sermon; social:relations_with_non_hasidim" resp="#llm-tagging">תיוגים</span>
 <p>
 					<lb/>ד) והאיך לשמור עצמו מלדבר סרה כי הכל נרשם למעלה והצדיק מרגיש אם
 					<lb/>לפעמים יארע לו איזה תנועה של לשון הרע כי אפילו תנועה עושה רושם
@@ -3151,16 +3151,16 @@
 					<lb/>שמו ית׳ כשהוא בגבורת התאוה זה נחשב לקרבן לפני הש״י גם יש צדיקים שקודם
 					<lb/>אכילתם מפשפשים במעשיהם ושבים ומתחרטים על כל מה שפגמו בכל החושים ובכל
 					<lb/>הגלגולים אשרי חלקם גם צריך ליזהר מאד שתהיה האכילה והשתיה בהיתר היותר
-					<lb/>טוב ושלא לאכול בכ״מ וע״ז נאמר ושמת סכין בלועך אם בעל נפש אתה ושמעתי
+					<lb/>טוב ושלא לאכול בכ״מ וע״ז נאמר ושמת סכין בלועך אם בעל נפש אתה </p><div type="story" xml:id="Derech-Haemuna_non-story-180_s1" subtype="in-non-story"><head type="storyHead">Derech-Haemuna_non-story-180_s1</head><span ana="characters-and-roles:the_family_of_the_tsaddik; ethics-and-emotions:lust; not-a-hasidic-story:sermon; ethics-and-emotions:prohibitions; practice:asceticism; practice:halakhah; practice:sermon; women:catalyst_character" resp="#llm-tagging">תיוגים</span><p>ושמעתי
 					<lb/>שהה״צ רבינו <persName>צבי מ<placeName ana="bio" ref="#H-LOC_92">זדיטשוב</placeName></persName> אמר על עצמו שהיה מגיע למעלה יותר משרף מצד גודל
 					<lb/>נשמתו רק מחמת שאמו הצדיקית בימי עיבורה עמו נתאוה תאוה ואכלה מעט כרוב
-					<lb/>צונן מחבית עכו״ם זאת גרם לו שלא הגיע למעלה זו ועתה ראו בני עד היכן דברי'
+					<lb/>צונן מחבית עכו״ם זאת גרם לו שלא הגיע למעלה זו</p></div><p> ועתה ראו בני עד היכן דברי'
 					<lb/>מגיעים וכו׳ ואיתא בס׳ <name type="work">חו״ה</name> שהפרושים היה פורשים מק׳ שערי היתר שלא לפגוע
 					<lb/>בשער א׳ של איסור וצריך לבקש רחמים ע״ז שישמרהו הש״י שלא יוכשל בדבר איסור
 					<lb/>ויהיה בכלל שומר פתאים ה׳ וכשפורש עצמו מאיזה דבר מחמת חומרא מקיים בזה
 					<lb/>לדעת החרדים מ״ע של ובחרת בחיים. (ר״א אות ו') :
 				</p>
-				</div><div type="story" xml:id="Derech-Haemuna_0136" n="136"><head type="storyHead">Derech-Haemuna_0136</head>
+				</div><div type="story" xml:id="Derech-Haemuna_0136" n="136"><head type="storyHead">Derech-Haemuna_0136</head><span ana="ethics-and-emotions:lust; times:shabbat; ethics-and-emotions:virtues; not-a-hasidic-story:sermon; practice:asceticism" resp="#llm-tagging">תיוגים</span>
 <p>
 					<lb/>ובס׳ א״א (פ׳ משפטים) וז״ל כי הנה שמעתי מ<persName>אאמו״</persName>ר ז״ל שהוכיח לאדם אחד
 					<lb/>אשר חטף לאכול איזה מאכל בשבת ואמר שכוונתו לכבוד שבת והוכיח לו ואמר
@@ -3239,7 +3239,7 @@
 				<p>
 					<pb facs="Derech-Haemuna_0062.jpg"/><lb/>מענין מאוס ברע
 				</p>
-				</div><div type="story" xml:id="Derech-Haemuna_0137" n="137"><head type="storyHead">Derech-Haemuna_0137</head>
+				</div><div type="story" xml:id="Derech-Haemuna_0137" n="137"><head type="storyHead">Derech-Haemuna_0137</head><span ana="ethics-and-emotions:lust; ethics-and-emotions:resisting_temptation; social:relations_with_non_jews; women:catalyst_character; ethics-and-emotions:prohibitions; ethics-and-emotions:virtues; folkloristics:story_type_virtues" resp="#llm-tagging">תיוגים</span>
 <p>
 					<lb/>ב) ושמעתי מ<persName>המגיד</persName> זלה״ה כשהיה מלמד בכפר א׳ וישב שם בזיית אחת ובא אדון
 					<lb/>אחד עם פרוצה אחת יפת תואר בגילוי הלב עם מקום הדדין כמנהגם
@@ -3252,7 +3252,7 @@
 				<p>
 					<lb/>מענין מחלוקת
 				</p>
-				</div><div type="story" xml:id="Derech-Haemuna_0138" n="138" ana="marginal"><head type="storyHead">Derech-Haemuna_0138</head>
+				</div><div type="story" xml:id="Derech-Haemuna_0138" n="138" ana="marginal"><head type="storyHead">Derech-Haemuna_0138</head><span ana="not-a-hasidic-story:sermon" resp="#llm-tagging">תיוגים</span>
 <p>
 					<lb/>ג) אוהב שלום ורודף שלום אפילו עם שונאיך הרודפין אחר חייך הסגולה שתיקה
 					<lb/>ומיבעי רחמי ואם הייתי בעת מחלוקת רבינו <persName>יהונתן</persName> הייתי אומר לו צדיק
@@ -3267,7 +3267,7 @@
 					<lb/>הצדיק יצא לחוץ ידבר אזי מדבר סרה בשווקים וברחובות אבל אתה צדיק שתוק וקבל
 					<lb/>בשמחה כי תדע שאין שום מציאות בלתי הש״י וכו׳ : (כ״מ <name type="work">שביל התורה</name>)
 				</p>
-				</div><div type="story" xml:id="Derech-Haemuna_0139" n="139"><head type="storyHead">Derech-Haemuna_0139</head>
+				</div><div type="story" xml:id="Derech-Haemuna_0139" n="139"><head type="storyHead">Derech-Haemuna_0139</head><span ana="not-a-hasidic-story:sermon" resp="#llm-tagging">תיוגים</span>
 <p>
 					<lb/>ובס׳ הנ״ל (בשביל הנ״ל) וז״ל ולפעמים עומד על הצדיק מחלוקת מגלגול עבר כמו
 					<lb/>שהיה לרבינו <persName>יהונתן</persName> הק׳ שהיה נשמה גבוהה ועמד על הצדיק מחלוקת כזה
@@ -3275,7 +3275,7 @@
 					<persName><lb/>יהושע</persName> ויש בו ענין נפלא אין לכתוב ישתבח שמו של מלך מלכי המלכים הקב״ה
 					<lb/>שעוסק בכל רגע לתקן הנשמות ב״ה וב״ש חי וקיים לעד אמן :
 				</p>
-				</div><div type="story" xml:id="Derech-Haemuna_0140" n="140"><head type="storyHead">Derech-Haemuna_0140</head>
+				</div><div type="story" xml:id="Derech-Haemuna_0140" n="140"><head type="storyHead">Derech-Haemuna_0140</head><span ana="characters-and-roles:messiah; ethics-and-emotions:virtues; not-a-hasidic-story:sermon; social:conflict; times:eschatology; ethics-and-emotions:shame; folkloristics:story_type_virtues; practice:torat_ha_tsaddik; women:mention_only" resp="#llm-tagging">תיוגים</span>
 <p>
 					<lb/>ובס׳ הנ״ל (בשביל אמונה) וז״ל ובפרט בצדיקים הגדולים עומדים עליהם כל בני עולם
 					<lb/>כמו שעשו לכמה צדיקים ופ״א הכה אחד על לחי לרבינו <persName>אלימלך</persName> ואמר רבש״ע
@@ -3296,7 +3296,7 @@
 					<pb facs="Derech-Haemuna_0063.jpg"/><lb/>ורוב נסיונות ע״י אנשים רעים שמבזין אותו ומחלישין דעתו ושופכין דמו כמים והוא
 					<lb/>עומד בצדקו ולא עוד אלא שמוסיף חור ואהבה ודביקות ושמחה בעבודתו :
 				</p>
-				</div><div type="story" xml:id="Derech-Haemuna_0141" n="141"><head type="storyHead">Derech-Haemuna_0141</head>
+				</div><div type="story" xml:id="Derech-Haemuna_0141" n="141"><head type="storyHead">Derech-Haemuna_0141</head><span ana="ethics-and-emotions:fear; ethics-and-emotions:punishment; experience:visions; not-a-hasidic-story:hagiography; social:conflict; social:relations_with_the_authorities; supernatural:communicating_with_the_invisible; times:death; characters-and-roles:the_family_of_the_tsaddik; experience:trembling; social:retrospective_recognition; times:shabbat; women:minor_character" resp="#llm-tagging">תיוגים</span>
 <p>
 					<lb/>ובס׳ <name type="work">ס״ה</name> בהשמטה וז״ל מעשה נורא בהק׳ ס׳ שו״ת <name type="work">אבן השוהם</name> ז״ל דודי ה״ה מוה׳
 					<persName><lb/>שמואל</persName> היה אבד״ק <placeName ref="#H-LOC_563">לובזענץ</placeName> והיה שם מלשין אחד היה לו מחלוקת עם הקהל
@@ -3322,7 +3322,7 @@
 				<p>
 					<lb/>מענין מוכיח
 				</p>
-				</div><div type="story" xml:id="Derech-Haemuna_0142" n="142"><head type="storyHead">Derech-Haemuna_0142</head>
+				</div><div type="story" xml:id="Derech-Haemuna_0142" n="142"><head type="storyHead">Derech-Haemuna_0142</head><span ana="not-a-hasidic-story:sermon" resp="#llm-tagging">תיוגים</span>
 <p>
 					<lb/>ד) ואמר הה״ק מוהר״ר <persName>יצחק מ<placeName ana="bio">דראהביטש</placeName></persName> זלה״ה שהתחלה והלבוש נקרא אם ואמר
 					<lb/>כשאני רוצה לנסוע על הדרך להוכיח את ישראל ולקבל גלות ולהיות השכינה
@@ -3339,13 +3339,13 @@
 					<lb/>לשמה יתגרה בו היצר להלחם כנגדו ויתבטל מכל וכל ובזה ביאר הפסוק שלח תשלח
 					<lb/>את האם לבוש ושליא של הבנים ואת הבנים המצות תקח לך בלי פניה ודפח״ח :
 				</p>
-				</div><div type="story" xml:id="Derech-Haemuna_0143" n="143"><head type="storyHead">Derech-Haemuna_0143</head>
+				</div><div type="story" xml:id="Derech-Haemuna_0143" n="143"><head type="storyHead">Derech-Haemuna_0143</head><span ana="not-a-hasidic-story:hagiography; ethics-and-emotions:humility; ethics-and-emotions:virtues; not-a-hasidic-story:virtues" resp="#llm-tagging">תיוגים</span>
 <p>
 					<lb/>ובס׳ <name type="work">זת״מ</name> בהק׳ וז״ל ומי לנו גדול מהג׳ בעל <name type="work">עבודת הגרשוני</name> שאמרו עליו שהיה
 					<lb/>מחזיק אצלו ת״ח ונתן לו שכרו ע״מ שיהיה תמיד עמו וישגיח על כל מעשיו
 					<lb/>ודבריו ותנועותיו ומה שלא תישר בעיניו יאמר לו תיכף שעשה שלא כהוגן :
 				</p>
-				</div><div type="story" xml:id="Derech-Haemuna_0144" n="144"><head type="storyHead">Derech-Haemuna_0144</head>
+				</div><div type="story" xml:id="Derech-Haemuna_0144" n="144"><head type="storyHead">Derech-Haemuna_0144</head><span ana="characters-and-roles:preacher; ethics-and-emotions:awe; ethics-and-emotions:humility; not-a-hasidic-story:hagiography; ethics-and-emotions:virtues; not-a-hasidic-story:virtues" resp="#llm-tagging">תיוגים</span>
 <p>
 					<lb/>ובס׳ <name type="work">שה״ג</name> <persName>חיד״א</persName> (מער׳ ר׳ <persName>או״ז</persName>) וז״ל ושמעתי מרב א׳ שקבל דהג׳ <persName>מהרש״ל</persName> בשבתו
 					<lb/>על כסא הוראה לרב ואב״ד צוה למוכיח אחד שיבוא בכל יום שעה אחת
@@ -3355,7 +3355,7 @@
 					<pb facs="Derech-Haemuna_0064.jpg"/><lb/>תיכף הי' <persName>מהרש״ל</persName> מתעטף ויושב לשמוע תוכחות מוסר ביראה ורעדה לפני ה׳ אשריו
 					<lb/>ואשרי חלקיו ואשרי העם שהכה לו רב חסיד וקדוש זי״ע :
 				</p>
-				</div><div type="story" xml:id="Derech-Haemuna_0145" n="145"><head type="storyHead">Derech-Haemuna_0145</head>
+				</div><div type="story" xml:id="Derech-Haemuna_0145" n="145"><head type="storyHead">Derech-Haemuna_0145</head><span ana="ethics-and-emotions:awe; ethics-and-emotions:virtues; folkloristics:story_type_virtues; not-a-hasidic-story:virtues" resp="#llm-tagging">תיוגים</span>
 <p>
 					<lb/>ובס׳ פ״ק וז״ל וכן סיפרו מצדיק א׳ בדורינו ששכר איש א׳ שילך עמו תמיד ויזכור
 					<lb/>לו שיהי׳ לו יראת הש״י וזהו כלל גדול בעבדות השי״ת :
@@ -3363,7 +3363,7 @@
 				<p>
 					<lb/>מענין מטבע
 				</p>
-				</div><div type="story" xml:id="Derech-Haemuna_0146" n="146"><head type="storyHead">Derech-Haemuna_0146</head>
+				</div><div type="story" xml:id="Derech-Haemuna_0146" n="146"><head type="storyHead">Derech-Haemuna_0146</head><span ana="kabbalah:kabbalistic_terms_yihudim; knowledge:esoteric; practice:drinking_alcohol; practice:prayer; social:conflict" resp="#llm-tagging">תיוגים</span>
 <p>
 					<lb/>ה) סיפרו לי מעשה רב מהה״ק <persName>מוהרמ״מ</persName> זצוק"ל מ<placeName>פרעמושלין</placeName> ומעשה שהי׳ כך הי׳
 					<lb/>שהי׳ יושבי׳ במסיבה בסעודה ונתן מטבע של ארבעה פשוטים להביא
@@ -3381,7 +3381,7 @@
 				<p>
 					<lb/>מענין מנגן
 				</p>
-				</div><div type="story" xml:id="Derech-Haemuna_0147" n="147"><head type="storyHead">Derech-Haemuna_0147</head>
+				</div><div type="story" xml:id="Derech-Haemuna_0147" n="147"><head type="storyHead">Derech-Haemuna_0147</head><span ana="practice:music; practice:storytelling; practice:the_travels_of_the_tsaddik; supernatural:perception; times:holidays; characters-and-roles:the_family_of_the_tsaddik; ethics-and-emotions:charity; knowledge:esoteric; practice:study" resp="#llm-tagging">תיוגים</span>
 <p>
 					<lb/>ו) ליל ג׳ א״ח דשבועות <date>תרכ״ז</date> ניגנו לפני מרן מ<placeName>נעסכיז</placeName> בעלי כלי זמר ומנגנים
 					<lb/>ודרכו הי׳ לשום תמיד דעתו מאד לזה וסיפר ש<persName>הבעש״ט</persName> זל״ה הי׳ מכיר בניגון
@@ -3396,7 +3396,7 @@
 				<p>
 					<lb/>מענין מעביר על מדותיו
 				</p>
-				</div><div type="story" xml:id="Derech-Haemuna_0148" n="148"><head type="storyHead">Derech-Haemuna_0148</head>
+				</div><div type="story" xml:id="Derech-Haemuna_0148" n="148"><head type="storyHead">Derech-Haemuna_0148</head><span ana="ethics-and-emotions:virtues; not-a-hasidic-story:sermon; ethics-and-emotions:shame; not-a-hasidic-story:hagiography; not-a-hasidic-story:virtues; practice:sermon; social:conflict" resp="#llm-tagging">תיוגים</span>
 <p>
 					<lb/>ז) מעביר על מדותיו מעבירין לו ע״כ פשעיו כמו״ש ב<name type="work">ש״ס</name> ומלבד הפשוט דהקב״ה
 					<lb/>דן את האדם על פי מדותיו, עוד אפ"ל במה ששמעתי מהרב המופלא
@@ -3413,7 +3413,7 @@
 				<p>
 					<pb facs="Derech-Haemuna_0065.jpg"/><lb/>מענין <placeName ref="#H-LOC_515">מערת המכפלה</placeName>
 				</p>
-				</div><div type="story" xml:id="Derech-Haemuna_0149" n="149"><head type="storyHead">Derech-Haemuna_0149</head>
+				</div><div type="story" xml:id="Derech-Haemuna_0149" n="149"><head type="storyHead">Derech-Haemuna_0149</head><span ana="not-a-hasidic-story:sermon; social:relations_with_non_jews; spaces:the_land_of_israel; women:minor_character; practice:healing; practice:pilgrimage_to_the_graves_of_tsaddikim; women:catalyst_character" resp="#llm-tagging">תיוגים</span>
 <p>
 					<lb/>ח) משמע ש<persName>אברהם</persName> באמצע <persName>יצחק</persName> ו<persName>יעקב</persName> מכאן שכך הוא דרך הסב כשהן שלשה
 					<lb/>אלא דדרך הסב שאמרו בשלשה היינו כשהסיבו ביחד והאבות לא נקברו
@@ -3444,7 +3444,7 @@
 				<p>
 					<lb/>מענין מצוה צריך זכות שיזכה לה
 				</p>
-				</div><div type="story" xml:id="Derech-Haemuna_0150" n="150"><head type="storyHead">Derech-Haemuna_0150</head>
+				</div><div type="story" xml:id="Derech-Haemuna_0150" n="150"><head type="storyHead">Derech-Haemuna_0150</head><span ana="not-a-hasidic-story:sermon; practice:fasting; supernatural:miracle; ethics-and-emotions:charity; ethics-and-emotions:virtues; folkloristics:story_type_virtues; practice:asceticism; practice:storytelling; practice:torat_ha_tsaddik; social:poverty" resp="#llm-tagging">תיוגים</span>
 <p>
 					<lb/>ט) גם חביב לפני הש״י בדבור סתם לשמה בהארה מועטת כל אחד לפי כחו ונפשו
 					<lb/>ורוחו ונשמתו הטיבו אשר דברו ולא מן השפה ולחוץ אלא כל אחד לפי כחו
@@ -3497,7 +3497,7 @@
 				<p>
 					<lb/>מענין מצוה לשמוע דברי חכמים
 				</p>
-				</div><div type="story" xml:id="Derech-Haemuna_0151" n="151"><head type="storyHead">Derech-Haemuna_0151</head>
+				</div><div type="story" xml:id="Derech-Haemuna_0151" n="151"><head type="storyHead">Derech-Haemuna_0151</head><span ana="social:disobedience; practice:halakhah; practice:torat_ha_tsaddik" resp="#llm-tagging">תיוגים</span>
 <p>
 					<lb/>י) פ״א ציוה מרן מ<placeName>נסכיז</placeName> לבעה״ב אחד לעשות איזה דבר וכמדומה שהי׳ מצורכי
 					<lb/>הקהל ונתרשל אותו אדם לעשות כן ושאלהו מרן העשית דבר זה ואמר לא
@@ -3509,7 +3509,7 @@
 				<p>
 					<pb facs="Derech-Haemuna_0067.jpg"/><lb/>מענין מקוה
 				</p>
-				</div><div type="story" xml:id="Derech-Haemuna_0152" n="152"><head type="storyHead">Derech-Haemuna_0152</head>
+				</div><div type="story" xml:id="Derech-Haemuna_0152" n="152"><head type="storyHead">Derech-Haemuna_0152</head><span ana="not-a-hasidic-story:sermon" resp="#llm-tagging">תיוגים</span>
 <p>
 					<lb/>יא) אמרו עליו על <persName>ריב״ש</persName> ע״ה שזכה לכל הארה והמדריגות שהי׳ לו הכל מחמת
 					<lb/>המקואות שהיה תמיד בטבילות ומקוואות יותר בתמידות טוב יותר מהתענית
@@ -3578,7 +3578,7 @@
 				<p>
 					<lb/>מענין <persName>משיח</persName>
 				</p>
-				</div><div type="story" xml:id="Derech-Haemuna_0153" n="153"><head type="storyHead">Derech-Haemuna_0153</head>
+				</div><div type="story" xml:id="Derech-Haemuna_0153" n="153"><head type="storyHead">Derech-Haemuna_0153</head><span ana="characters-and-roles:messiah; ethics-and-emotions:punishment; not-a-hasidic-story:sermon; times:eschatology; practice:sermon" resp="#llm-tagging">תיוגים</span>
 <p>
 					<lb/>יב) והנה מבואר ב<name type="work">תקונים</name> ובספרים שלכן ארכו ימי גלותינו בכדי שלא ידח ממנו
 					<lb/>שום נדח ואם היה הגאולה מקודם היה הרבה ניצוצי ישראל נופלים ונדחים
@@ -3596,14 +3596,14 @@
 					<lb/>ב<name type="work">תנ״ך</name> סידרא בלע״ז והיינו שמסדרין אברי משיח ע״י הלע״ז דוקא והענין עמוק
 					<lb/>הוא מאד :
 				</p>
-				</div><div type="story" xml:id="Derech-Haemuna_0154" n="154" ana="marginal"><head type="storyHead">Derech-Haemuna_0154</head>
+				</div><div type="story" xml:id="Derech-Haemuna_0154" n="154" ana="marginal"><head type="storyHead">Derech-Haemuna_0154</head><span ana="characters-and-roles:messiah; experience:dream; not-a-hasidic-story:sermon; times:eschatology; experience:revelation; supernatural:communicating_with_the_invisible" resp="#llm-tagging">תיוגים</span>
 <p>
 					<lb/>ובס׳ <name type="work">ע״ה</name> (בדרוש השלום) וז״ל ושמעתי שגאון אחד עשה שאלת חלום על זמן ביאת
 					<lb/>ה<persName>משיח</persName> והשיבו לו בחלום אמר אויב ארדוף אשיג אחלק שלל שחמשה תיבות
 					<lb/>הראשונות מתחילין בא׳ שהם אותיות אלף והם חמשת אלפים והשנים שבאלף הששי לא
 					<lb/>גלו לו מכאן ג״כ ראי׳ ש<persName>משיח</persName> יבוא קודם סיום אלף הששי :
 				</p>
-				</div><div type="story" xml:id="Derech-Haemuna_0155" n="155" ana="marginal"><head type="storyHead">Derech-Haemuna_0155</head>
+				</div><div type="story" xml:id="Derech-Haemuna_0155" n="155" ana="marginal"><head type="storyHead">Derech-Haemuna_0155</head><span ana="not-a-hasidic-story:sermon" resp="#llm-tagging">תיוגים</span>
 <p>
 					<lb/>ובס׳ <name type="work">מעשה ארג</name> (<name type="work">מעשר שני</name> פ״ה) וז״ל אמר ר׳ <persName>אחא</persName> ז״א שבהמ״ק עתיד להיבנות
 					<lb/>קודם למלכות בית דוד דכתיב ודם ענב תשתה אמר ואת אמרת הכין וסדר
@@ -3621,7 +3621,7 @@
 					<pb facs="Derech-Haemuna_0069.jpg"/><lb/>כמבואר בדבריו למעיין ואנחנו מחכים בכל יום שיבא ויש ב<name type="work">זהר</name> רמז על שנת <date>תר"ל</date>
 					<lb/>ג״כ ואין להאריך בזה :
 				</p>
-				</div><div type="story" xml:id="Derech-Haemuna_0156" n="156"><head type="storyHead">Derech-Haemuna_0156</head>
+				</div><div type="story" xml:id="Derech-Haemuna_0156" n="156"><head type="storyHead">Derech-Haemuna_0156</head><span ana="characters-and-roles:messiah; experience:journey_to_heaven; experience:revelation; spaces:heaven; supernatural:communicating_with_the_invisible; times:eschatology; kabbalah:kabbalistic_terms_yihudim; not-a-hasidic-story:sermon; practice:study" resp="#llm-tagging">תיוגים</span>
 <p>
 					<lb/>ובס׳ <name type="work">ה״ה</name> (פ׳ תבא) וז״ל כי קבלנו מאת רבותינו שכל אחד מישראל מברר ובונה
 					<lb/>חלק בבית המקדש ורבינו <persName>אלימלך</persName> זי״ע היה לו עליות נשמה ועלה למעלה
@@ -3629,7 +3629,7 @@
 					<lb/>קדשי קדשים והשיבו לו אם יהיה הרצון שיתברר בחינה זאת יבוא <persName>משיח</persName> והוא בזכות
 					<lb/>לימוד תורה לשמה בקדושה וביחודים :
 				</p>
-				</div><div type="story" xml:id="Derech-Haemuna_0157" n="157" ana="marginal"><head type="storyHead">Derech-Haemuna_0157</head>
+				</div><div type="story" xml:id="Derech-Haemuna_0157" n="157" ana="marginal"><head type="storyHead">Derech-Haemuna_0157</head><span ana="not-a-hasidic-story:sermon" resp="#llm-tagging">תיוגים</span>
 <p>
 					<lb/>ובס׳ <name type="work">ד״א</name> (פ׳ וינא) וז״ל וכן <persName>משיח בן אפרים</persName> לקבץ את ישראל ל<placeName ref="#H-LOC_105">א״י</placeName> כי נראה שלא
 					<lb/>יהרג כי היה מקוים בר׳ <persName>שמשון אוסטרפאלי׳</persName> זה ולא תקום פעמים צרה :
@@ -3648,7 +3648,7 @@
 				<p>
 					<lb/>מענין ס׳ <name type="work">נועם אלימלך</name>
 				</p>
-				</div><div type="story" xml:id="Derech-Haemuna_0158" n="158"><head type="storyHead">Derech-Haemuna_0158</head>
+				</div><div type="story" xml:id="Derech-Haemuna_0158" n="158"><head type="storyHead">Derech-Haemuna_0158</head><span ana="not-a-hasidic-story:sermon" resp="#llm-tagging">תיוגים</span>
 <p>
 					<lb/>א) ועוד הראה לנו בס׳ <name type="work">נועם אלימלך</name> בהק׳ שם מבנו הה״ק מהר״א זלה״ה וז״ל
 					<lb/>שם למען כבוד שמך הגדול תעשה ותקיים נא כל הברכות אשר תמיד על
@@ -3674,7 +3674,7 @@
 				<p>
 					<lb/>מענין ס׳ <name type="work">נודע ביהודא</name>
 				</p>
-				</div><div type="story" xml:id="Derech-Haemuna_0159" n="159"><head type="storyHead">Derech-Haemuna_0159</head>
+				</div><div type="story" xml:id="Derech-Haemuna_0159" n="159"><head type="storyHead">Derech-Haemuna_0159</head><span ana="social:inter_hasidic_master_disciple_relationship; social:retrospective_recognition; supernatural:perception" resp="#llm-tagging">תיוגים</span>
 <p>
 					<lb/>ב) ואעירה לי אשר מרן מ<placeName>נעסכיז</placeName> זצל"ה בסוף ימיו האחרונים שאלני מה חידוש
 					<lb/>בבית מדרשו ואמרתי לא ראיתי מאומה ושאלני ומי בא מחדש אמרתי
@@ -3688,7 +3688,7 @@
 				<p>
 					<lb/>מענין נסיון
 				</p>
-				</div><div type="story" xml:id="Derech-Haemuna_0160" n="160"><head type="storyHead">Derech-Haemuna_0160</head>
+				</div><div type="story" xml:id="Derech-Haemuna_0160" n="160"><head type="storyHead">Derech-Haemuna_0160</head><span ana="ethics-and-emotions:lust; ethics-and-emotions:resisting_temptation; folkloristics:story_type_virtues; practice:travel_to_the_tsaddik; social:retrospective_recognition; ethics-and-emotions:prohibitions; ethics-and-emotions:virtues; practice:storytelling; women:major_character" resp="#llm-tagging">תיוגים</span>
 <p>
 					<lb/>ג) סיפר מרן מ<placeName>נסכיז</placeName> זל"ה ש<persName>הלובלינר</persName> זלה"ה כשהלך בנערותו להרהצה״ק ר׳ <persName>אלימלך
 					מ<placeName ana="bio" ref="#H-LOC_350">ליזענסק</placeName></persName> פ״א בדרך אירעהו גשם וקור גדול ותעה בלילה וראה בית שהי'
@@ -3703,7 +3703,7 @@
 				<p>
 					<lb/>מענין נר
 				</p>
-				</div><div type="story" xml:id="Derech-Haemuna_0161" n="161"><head type="storyHead">Derech-Haemuna_0161</head>
+				</div><div type="story" xml:id="Derech-Haemuna_0161" n="161"><head type="storyHead">Derech-Haemuna_0161</head><span ana="characters-and-roles:elijah_the_prophet; characters-and-roles:the_family_of_the_tsaddik; ethics-and-emotions:repentance; folkloristics:story_type_virtues; kabbalah:kabbalistic_terms_yihudim; practice:asceticism; practice:storytelling; practice:study; social:retrospective_recognition; supernatural:communicating_with_the_invisible; supernatural:miracle; ethics-and-emotions:awe; experience:revelation; practice:meditation; practice:the_travels_of_the_tsaddik; women:major_character" resp="#llm-tagging">תיוגים</span>
 <p>
 					<lb/>ד) ההצה״ק מ׳ <persName>יהושע העשיל מ<placeName ana="bio" ref="#H-LOC_133">אפטא</placeName></persName> היה בדרך והיה סמוך לעיר <placeName ref="#H-LOC_449">מאהלוב</placeName>
 					<lb/>ומסתמא היה הדרך מלאה אנשים ונשים וטף ואמר לאנשיו ניסע לעיר
@@ -3783,7 +3783,7 @@
 				<p>
 					<lb/>מענין נשמת
 				</p>
-				</div><div type="story" xml:id="Derech-Haemuna_0162" n="162"><head type="storyHead">Derech-Haemuna_0162</head>
+				</div><div type="story" xml:id="Derech-Haemuna_0162" n="162"><head type="storyHead">Derech-Haemuna_0162</head><span ana="ethics-and-emotions:lust; ethics-and-emotions:resisting_temptation; practice:pidyon_shvuyim; practice:redemption_of_captives; social:relations_with_non_jews; ethics-and-emotions:virtues; practice:prayer; practice:sermon; practice:storytelling; social:inter_hasidic_master_disciple_relationship" resp="#llm-tagging">תיוגים</span>
 <p>
 					<lb/>ז) פ״א היה ההצה״ק ר׳ <persName>משה ליב</persName> אצל שר אחד לפדות שבוי אחד והוא עדיין לא
 					<lb/>טעם כלום באותו היום והיה עומד שם בבית התבשיל הנקרא קעך והעבירו
@@ -3807,7 +3807,7 @@
 				<p>
 					<lb/>סגולה למי שאין לו בנים
 				</p>
-				</div><div type="story" xml:id="Derech-Haemuna_0163" n="163"><head type="storyHead">Derech-Haemuna_0163</head>
+				</div><div type="story" xml:id="Derech-Haemuna_0163" n="163"><head type="storyHead">Derech-Haemuna_0163</head><span ana="not-a-hasidic-story:sermon" resp="#llm-tagging">תיוגים</span>
 <p>
 					<lb/>א) סגולה למי שאין לו בנים ר״ל כלל או יש לו ומתים ר״ל שיכתוב לו ס״ת ויועיל
 					<lb/>לו בעזר ה׳ ורמז לזה מהתורה הק׳ זה ספר תולדות אדם וכונה כוללת
@@ -3830,7 +3830,7 @@
 					<lb/>לבנו אשר יולד לו <persName>בן ציון</persName> ויחיה. (<name type="work">שה״ג</name> <persName>חיד״א</persName> מער׳ ב׳ בק״א סק״א ועי׳
 					<lb/>ב<name type="work">תדא״ר</name> פ״י) :
 				</p>
-				</div><div type="story" xml:id="Derech-Haemuna_0164" n="164"><head type="storyHead">Derech-Haemuna_0164</head>
+				</div><div type="story" xml:id="Derech-Haemuna_0164" n="164"><head type="storyHead">Derech-Haemuna_0164</head><span ana="characters-and-roles:the_family_of_the_tsaddik; women:major_character; not-a-hasidic-story:sermon; times:birth; times:death" resp="#llm-tagging">תיוגים</span>
 <p>
 					<lb/>עוד יש סגולה לזה מאת ה<persName>גר״א מ<placeName ana="bio" ref="#H-LOC_175">ווילנא</placeName></persName> ז״ל והוא שהילד אשר יולד אחרי מיתת
 					<lb/>בנים רח״ל. יקראהו בשם אחיו אשר מת לפניו באחרונה בהוספת שם חדש
@@ -3975,7 +3975,7 @@
 				<p>
 					<lb/>סגולה למי שראה בליל יוה״כ
 				</p>
-				</div><div type="story" xml:id="Derech-Haemuna_0165" n="165"><head type="storyHead">Derech-Haemuna_0165</head>
+				</div><div type="story" xml:id="Derech-Haemuna_0165" n="165"><head type="storyHead">Derech-Haemuna_0165</head><span ana="ethics-and-emotions:charity; ethics-and-emotions:fear; ethics-and-emotions:sadness; experience:dream; practice:fasting; practice:recitation_of_psalms; times:holidays; characters-and-roles:the_family_of_the_tsaddik; ethics-and-emotions:anger; ethics-and-emotions:joy; ethics-and-emotions:lying; ethics-and-emotions:prohibitions; ethics-and-emotions:repentance; experience:revelation; experience:trembling; not-a-hasidic-story:hagiography; practice:asceticism; practice:prayer; practice:study; supernatural:communicating_with_the_invisible" resp="#llm-tagging">תיוגים</span>
 <p>
 					<lb/>ט) מעשה רב אציק רוחי על זרעי וברכתי על צאצאיי להודיע גבורות השם ונפלאותיו
 					<lb/>לבני אדם כי הוא יכאיב ויחבש ע״כ תפארת בנים ללמד מאבותם ולהשים
@@ -4065,7 +4065,7 @@
 				<p>
 					<lb/>מענין סמיכה
 				</p>
-				</div><div type="story" xml:id="Derech-Haemuna_0166" n="166"><head type="storyHead">Derech-Haemuna_0166</head>
+				</div><div type="story" xml:id="Derech-Haemuna_0166" n="166"><head type="storyHead">Derech-Haemuna_0166</head><span ana="experience:trembling; practice:travel_to_the_tsaddik; social:inter_hasidic_master_disciple_relationship; supernatural:light_or_fire_as_a_sign_of_righteousness; times:holidays; experience:visions; practice:torat_ha_tsaddik; supernatural:perception" resp="#llm-tagging">תיוגים</span>
 <p>
 					<lb/>ח) ואצל רבינו מו״ר מוה׳ <persName>יעקב יצחק מ<placeName ana="bio" ref="#H-LOC_56">לובלין</placeName></persName> היה קריאות בשם מורה מורינו
 					<lb/>ואמירה רכה סמיכה לתלמידיו וגם כשהייתי ב<placeName ref="#H-LOC_56">לובלין</placeName> עם אבי זצ״ל ילד בן
@@ -4082,7 +4082,7 @@
 				<p>
 					<lb/>מענין ספר תורה
 				</p>
-				</div><div type="story" xml:id="Derech-Haemuna_0167" n="167"><head type="storyHead">Derech-Haemuna_0167</head>
+				</div><div type="story" xml:id="Derech-Haemuna_0167" n="167"><head type="storyHead">Derech-Haemuna_0167</head><span ana="ethics-and-emotions:anger; ethics-and-emotions:punishment; experience:dream; social:conflict; supernatural:miracle; characters-and-roles:scribe; ethics-and-emotions:joy; ethics-and-emotions:lying; ethics-and-emotions:prohibitions; ethics-and-emotions:sadness; not-a-hasidic-story:hagiography; practice:halakhah; supernatural:communicating_with_the_invisible; supernatural:prognostication" resp="#llm-tagging">תיוגים</span>
 <p>
 					<lb/>ט) ע״פ מה ששמע בשם הר״ר <persName>שרירא גאון</persName> זצ״ל ע״פ מעשה שהיה אז בימיו עושר
 					<lb/>מופלג והיה לו ס״ת שהיה כתב ידו של <persName>עזרא הסופר</persName> ולהעושר הזה היה לו
@@ -4114,7 +4114,7 @@
 				<p>
 					<lb/>מענין עדות
 				</p>
-				</div><div type="story" xml:id="Derech-Haemuna_0168" n="168"><head type="storyHead">Derech-Haemuna_0168</head>
+				</div><div type="story" xml:id="Derech-Haemuna_0168" n="168"><head type="storyHead">Derech-Haemuna_0168</head><span ana="ethics-and-emotions:prohibitions; practice:drinking_alcohol; practice:the_travels_of_the_tsaddik; practice:torat_ha_tsaddik; supernatural:perception; characters-and-roles:tavern_keeper; ethics-and-emotions:joy; practice:halakhah; practice:sermon; social:inter_hasidic_master_disciple_relationship; women:mention_only" resp="#llm-tagging">תיוגים</span>
 <p>
 					<lb/>א) שמעתי בשם הה״ק רבינו <persName>הבעש״ט</persName> ז״ל מרגלא בפומיה לומר כל חטא שעושה
 					<lb/>אדם בלילה מוכרח הוא להגיד בפיו ביום לפני הבריות מה שעשה אך
@@ -4132,7 +4132,7 @@
 				<p>
 					<lb/>מענין עולם הבא
 				</p>
-				</div><div type="story" xml:id="Derech-Haemuna_0169" n="169"><head type="storyHead">Derech-Haemuna_0169</head>
+				</div><div type="story" xml:id="Derech-Haemuna_0169" n="169"><head type="storyHead">Derech-Haemuna_0169</head><span ana="ethics-and-emotions:joy; folkloristics:story_type_virtues; supernatural:communicating_with_the_invisible; times:eschatology; women:catalyst_character; ethics-and-emotions:charity; ethics-and-emotions:punishment; ethics-and-emotions:virtues; experience:revelation; supernatural:pregnancy" resp="#llm-tagging">תיוגים</span>
 <p>
 					<lb/>ב) מעשה ממרן <persName>הריב״ש</persName> זצ״ל פ״א ע״י הפצרות אשה עקרה אחת וגם הוא היה
 					<lb/>לו עת דוחק קודם הפסח והיא הביאה לו בהרחבה ונתרחב דעתו הק׳
@@ -4142,7 +4142,7 @@
 					<lb/>זאת ועבודה כזאת <sic correction="אמיתית">אמיתות</sic> תיקון הכל ואמר לו רבו <persName>אחיהו השלני</persName> הנביא שהיה זה
 					<lb/>לנסיון. (נ״ח על מס׳ <name type="work">אבות</name> בפ״ד) :
 				</p>
-				</div><div type="story" xml:id="Derech-Haemuna_0170" n="170"><head type="storyHead">Derech-Haemuna_0170</head>
+				</div><div type="story" xml:id="Derech-Haemuna_0170" n="170"><head type="storyHead">Derech-Haemuna_0170</head><span ana="ethics-and-emotions:humility; times:eschatology; ethics-and-emotions:charity; folkloristics:story_type_virtues; practice:storytelling; practice:the_travels_of_the_tsaddik" resp="#llm-tagging">תיוגים</span>
 <p>
 					<lb/>ובס׳ <name type="work">ש״צ</name> (פ׳ לך) וז״ל סיפר ההצה״ק מ<placeName ref="#H-LOC_133">אפטא</placeName> נ״י פ״א נתאכסן אצלו הרב ר׳
 					<persName><lb/>אלימלך</persName> ז״ל נבג״מ ויחדתי לו בית בפ״ע פ״א נכנסתי אצלו ומצאתיו שיושב
@@ -4156,7 +4156,7 @@
 				<p>
 					<lb/>מענין עישון שקורין רייכינין
 				</p>
-				</div><div type="story" xml:id="Derech-Haemuna_0171" n="171"><head type="storyHead">Derech-Haemuna_0171</head>
+				</div><div type="story" xml:id="Derech-Haemuna_0171" n="171"><head type="storyHead">Derech-Haemuna_0171</head><span ana="not-a-hasidic-story:sermon; practice:smoking; practice:study; spaces:beth_midrash; ethics-and-emotions:pride; ethics-and-emotions:resisting_temptation; folkloristics:story_type_virtues; not-a-hasidic-story:virtues" resp="#llm-tagging">תיוגים</span>
 <p>
 					<lb/>ג) עוד בכלל זה למנוע את הבחורים מהעלאת עשן שקורין (רייכערען) כי כל הרואה
 					<lb/>יראה שזה כולו גאות ובפרט הציגארין וע״ז רמז <persName>שלמה</persName> המע״ה בפי אויל
@@ -4180,7 +4180,7 @@
 				<p>
 					<lb/>מענין עוסק בתורה
 				</p>
-				</div><div type="story" xml:id="Derech-Haemuna_0172" n="172"><head type="storyHead">Derech-Haemuna_0172</head>
+				</div><div type="story" xml:id="Derech-Haemuna_0172" n="172"><head type="storyHead">Derech-Haemuna_0172</head><span ana="experience:visions; not-a-hasidic-story:hagiography; not-a-hasidic-story:sermon; supernatural:light_or_fire_as_a_sign_of_righteousness; supernatural:perception; women:mention_only; ethics-and-emotions:punishment; social:marriage; times:death" resp="#llm-tagging">תיוגים</span>
 <p>
 					<lb/>ג) ועוסק התורה יהיה בתורה שבכתב ובתורה שבע״פ והם העמודים ההולכים לפני
 					<lb/>המטה של אדם שעסק בתורה שבכתב ושבע״פ כי עמוד הענן שהלך לפני
@@ -4198,7 +4198,7 @@
 					<lb/>א״ל הנה אבדת המעלה הגדולה שהיה בך ואינך רשאי לקחת בתי ולך מביתי והוציאו
 					<lb/>מביתו והנער הלך לו ע״כ. (<name type="work">אור הישר</name> פ״א) :
 				</p>
-				</div><div type="story" xml:id="Derech-Haemuna_0173" n="173"><head type="storyHead">Derech-Haemuna_0173</head>
+				</div><div type="story" xml:id="Derech-Haemuna_0173" n="173"><head type="storyHead">Derech-Haemuna_0173</head><span ana="characters-and-roles:elijah_the_prophet; ethics-and-emotions:anger; ethics-and-emotions:repentance; practice:halakhah; practice:study; ethics-and-emotions:pride; ethics-and-emotions:prohibitions; ethics-and-emotions:resisting_temptation; ethics-and-emotions:shame; not-a-hasidic-story:virtues; social:retrospective_recognition" resp="#llm-tagging">תיוגים</span>
 <p>
 					<lb/>ובס׳ <name type="work">מדרש אליהו</name> (דרוש ח') וז״ל שמעתי מהחכם כמוה״ר <persName>יוסף</persName> <persName>פנחס</persName> נר"י שלמד
 					<lb/>בכ״י מעשה בתלמיד אחד שפירש מן התורה מסבת שלא היה מכבדים אותו ולא
@@ -4232,7 +4232,7 @@
 					<lb/>של עוה״ז והיה לומד לש״ש בלב טוב ובנפש חפצה וכו׳ דלכן אמרו ז״ל לעולם יעסוק
 					<lb/>אדם בתורה ובמצות אפילו שלא לשמה שמתוך שלא לשמה בא לשמה :
 				</p>
-				</div><div type="story" xml:id="Derech-Haemuna_0174" n="174"><head type="storyHead">Derech-Haemuna_0174</head>
+				</div><div type="story" xml:id="Derech-Haemuna_0174" n="174"><head type="storyHead">Derech-Haemuna_0174</head><span ana="practice:recitation_of_psalms; practice:sermon; women:minor_character; practice:storytelling; practice:torat_ha_tsaddik; social:marital_relationship; supernatural:miracle" resp="#llm-tagging">תיוגים</span>
 <p>
 					<lb/>ובס׳ ז״ט וז״ל סיפר מרן מ<persName>נעסחיז</persName> שהיה ב<placeName ref="#H-LOC_133">אפטא</placeName> רב א׳ צדיק גדול קודם שהיה
 					<lb/>הה״ק <persName>ראי״ה</persName> זללה״ה בשם ודרש הרב פ״א שהוא מבטיח לחם ובארשט לכל
@@ -4247,7 +4247,7 @@
 				<p>
 					<lb/>מענין ערב שבת קודש
 				</p>
-				</div><div type="story" xml:id="Derech-Haemuna_0175" n="175"><head type="storyHead">Derech-Haemuna_0175</head>
+				</div><div type="story" xml:id="Derech-Haemuna_0175" n="175"><head type="storyHead">Derech-Haemuna_0175</head><span ana="ethics-and-emotions:shame; experience:enthusiasm; times:shabbat; ethics-and-emotions:virtues; practice:clothing; practice:devekut; practice:prayer; practice:the_travels_of_the_tsaddik; social:conflict" resp="#llm-tagging">תיוגים</span>
 <p>
 					<lb/>ה) וסיפר לי מו״ר דודי הק׳ רבינו <persName>צבי</persName> שבכל עש״ק יש לו ביטול ויסורין וחלישת
 					<lb/>דעת מאד כדי לזכות לאור ה<date>שבת</date> ופ״א היה בעש״ק בעיר ב<placeName>ראד</placeName> והבריחו
@@ -4262,7 +4262,7 @@
 					<lb/>ובס׳ <name type="work">אור לשמים</name> (פ׳ בהר) וז״ל כאשר שמעתי בשם רבינו מוה׳ <persName>אלימלך</persName> זצל״ה
 					<lb/>שעש״ק הוא בחי׳ עיוה״כ :
 				</p>
-				</div><div type="story" xml:id="Derech-Haemuna_0176" n="176"><head type="storyHead">Derech-Haemuna_0176</head>
+				</div><div type="story" xml:id="Derech-Haemuna_0176" n="176"><head type="storyHead">Derech-Haemuna_0176</head><span ana="supernatural:miracle; times:shabbat; women:minor_character; social:marital_relationship; social:poverty; social:retrospective_recognition" resp="#llm-tagging">תיוגים</span>
 <p>
 					<lb/>ובס׳ <name type="work">ת״ש</name> (פ׳ <name type="work">ויצא</name>) מהה״ק מ<placeName>ראדמסק</placeName> זל"ה וז״ל וכן היה מעשה בחסיד א׳ שנדחק
 					<lb/>מאד כל ימיו ביסורי עוני ר״ל עד שפ״א בע״ש לא היה לו כלל צרכי <date>שבת</date>
@@ -4329,7 +4329,7 @@
 					<lb/>הזה מטעם הזה יש מקום להמליץ ג״כ עבור הלוקחים משכורת להתפלל בימים
 					<lb/>הנוראים ובלבד שתהי׳ כוונתם לש״ש. (א״ד אות ו'):
 				</p>
-				</div><div type="story" xml:id="Derech-Haemuna_0177" n="177"><head type="storyHead">Derech-Haemuna_0177</head>
+				</div><div type="story" xml:id="Derech-Haemuna_0177" n="177"><head type="storyHead">Derech-Haemuna_0177</head><span ana="characters-and-roles:hidden_righteous; ethics-and-emotions:anger; practice:pidyon_nefesh; knowledge:esoteric; practice:use_of_holy_names; social:inter_hasidic_master_disciple_relationship; supernatural:perception" resp="#llm-tagging">תיוגים</span>
 <p>
 					<lb/>ובס׳ <name type="work">ב"א</name> (על <name type="work">ת"ז</name> בהק') מהה״ק ר׳ <persName>אברהם אבלי</persName> ז"ל מ<placeName>דראהביטש</placeName> שהיה א׳
 					<lb/>מהנסתרים מקרי דרדקי ובסוף ימיו גילה אותו הה״ק מ<placeName ref="#H-LOC_56">לובלין</placeName> זל״ה ובביתו
@@ -4345,7 +4345,7 @@
 				<p>
 					<lb/>מענין פיקוח נפש
 				</p>
-				</div><div type="story" xml:id="Derech-Haemuna_0178" n="178"><head type="storyHead">Derech-Haemuna_0178</head>
+				</div><div type="story" xml:id="Derech-Haemuna_0178" n="178"><head type="storyHead">Derech-Haemuna_0178</head><span ana="experience:dream; spaces:heaven; times:death; ethics-and-emotions:virtues; not-a-hasidic-story:sermon; practice:torat_ha_tsaddik; times:eschatology" resp="#llm-tagging">תיוגים</span>
 <p>
 					<lb/>ב) כמו ששמעתי בשם הק׳ <persName>ר״ש מ<placeName ana="bio" ref="#H-LOC_4">קארלין</placeName></persName> ז״ל שראה בחלום איש הדיוט אחד שהי׳
 					<lb/>בזמנו שזכה ע״י זכות גדול של פיקוח נפש שהציל נפש אחד ממות ובימים
@@ -4356,7 +4356,7 @@
 				<p>
 					<lb/>מענין פסיק רישא
 				</p>
-				</div><div type="story" xml:id="Derech-Haemuna_0179" n="179"><head type="storyHead">Derech-Haemuna_0179</head>
+				</div><div type="story" xml:id="Derech-Haemuna_0179" n="179"><head type="storyHead">Derech-Haemuna_0179</head><span ana="practice:sermon; practice:torat_ha_tsaddik; social:inter_hasidic_master_disciple_relationship; not-a-hasidic-story:sermon; practice:halakhah; practice:the_travels_of_the_tsaddik" resp="#llm-tagging">תיוגים</span>
 <p>
 					<lb/>ג) עיניך לנכח יביטו ועפעפיך יישירו נגדך (<name type="work">משלי</name> ד׳ כ״ה) פעם אחת נסע היהודי
 					<lb/>זצל״ה עם תלמידו הר׳ <persName>פרץ</persName> זצ״ל על הדרך וכשישבו על העגלה אמר
@@ -4372,7 +4372,7 @@
 				<p>
 					<lb/>מענין פרי מגדים
 				</p>
-				</div><div type="story" xml:id="Derech-Haemuna_0180" n="180"><head type="storyHead">Derech-Haemuna_0180</head>
+				</div><div type="story" xml:id="Derech-Haemuna_0180" n="180"><head type="storyHead">Derech-Haemuna_0180</head><span ana="practice:halakhah; practice:study; supernatural:perception; supernatural:prognostication; folkloristics:story_type_prognostication; practice:reception_of_hasidim" resp="#llm-tagging">תיוגים</span>
 <p>
 					<lb/>ד) אמר הה״ק מוהר״ר <persName>מיכל מ<placeName ana="bio" ref="#H-LOC_398">זלאטשוב</placeName></persName> לתלמידו הראיתם את זה לא יזכה לעולם
 					<lb/><sic correction="להורות">להורת</sic> כהלכה אלא להפוך דברי אלהים חיים ויאמר על אסור מותר ועל
@@ -4383,7 +4383,7 @@
 				<p>
 					<pb facs="Derech-Haemuna_0083.jpg"/><lb/>מענין פרנסה
 				</p>
-				</div><div type="story" xml:id="Derech-Haemuna_0181" n="181"><head type="storyHead">Derech-Haemuna_0181</head>
+				</div><div type="story" xml:id="Derech-Haemuna_0181" n="181"><head type="storyHead">Derech-Haemuna_0181</head><span ana="characters-and-roles:the_family_of_the_tsaddik; experience:trembling; practice:study; supernatural:communicating_with_the_invisible; times:eschatology; women:catalyst_character; ethics-and-emotions:fear; ethics-and-emotions:prohibitions; ethics-and-emotions:punishment; ethics-and-emotions:sadness; ethics-and-emotions:virtues; experience:revelation; folkloristics:story_type_virtues; practice:solitude; social:poverty" resp="#llm-tagging">תיוגים</span>
 <p>
 					<lb/>ה) סיפרו לי מעשה רב מאת הה״ק <persName>מהרד״ב</persName> זצל״ה בהיותו מתבודד עדיין בעניות
 					<lb/>ובדחקות פ״א באה אשתו והתחילה לספר לו בבכיה מגודל דחקות בניו
@@ -4405,7 +4405,7 @@
 				<p>
 					<lb/>מענין צדיק
 				</p>
-				</div><div type="story" xml:id="Derech-Haemuna_0182" n="182"><head type="storyHead">Derech-Haemuna_0182</head>
+				</div><div type="story" xml:id="Derech-Haemuna_0182" n="182"><head type="storyHead">Derech-Haemuna_0182</head><span ana="not-a-hasidic-story:sermon; practice:torat_ha_tsaddik; practice:travel_to_other_tsaddik; ethics-and-emotions:anger; ethics-and-emotions:prohibitions; ethics-and-emotions:virtues; practice:sermon; practice:travel_to_the_tsaddik; social:competition; social:inter_hasidic" resp="#llm-tagging">תיוגים</span>
 <p>
 					<lb/>א) חלילה לומר דוקא רבו הוא צדיק גמור ותו לא ושמעתי מהה״ק רבינו <persName>חיים
 					<lb/>מ<placeName ana="bio">סאנץ</placeName></persName> שאמר פ״א בסוכה אם אשמע מא׳ מאנשיי שיאמר דוקא רבו הוא
@@ -4456,7 +4456,7 @@
 				<p>
 					<lb/>מענין צדקה
 				</p>
-				</div><div type="story" xml:id="Derech-Haemuna_0183" n="183"><head type="storyHead">Derech-Haemuna_0183</head>
+				</div><div type="story" xml:id="Derech-Haemuna_0183" n="183"><head type="storyHead">Derech-Haemuna_0183</head><span ana="ethics-and-emotions:charity; folkloristics:story_type_death_of_the_tsaddik; kabbalah:kabbalistic_terms_yihudim; supernatural:prognostication; times:death; folkloristics:story_type_prognostication; practice:meditation; practice:prayer; social:inter_hasidic; supernatural:perception" resp="#llm-tagging">תיוגים</span>
 <p>
 					<lb/>ב) שמענו מאת הה״ק <persName>היהודי</persName> זל״ה שהיה אומר על עצמו כי מפני כן היה מרבה
 					<lb/>מאד בצדקה ובמעש״ט יותר משאר בני אדם מחמת שהיה הולך בעבודת
@@ -4474,7 +4474,7 @@
 				<p>
 					<lb/>מענין ציצית
 				</p>
-				</div><div type="story" xml:id="Derech-Haemuna_0184" n="184"><head type="storyHead">Derech-Haemuna_0184</head>
+				</div><div type="story" xml:id="Derech-Haemuna_0184" n="184"><head type="storyHead">Derech-Haemuna_0184</head><span ana="not-a-hasidic-story:sermon" resp="#llm-tagging">תיוגים</span>
 <p>
 					<lb/>ג) סיפר אח״ז על <persName>הבעש״ט</persName> הה׳ שהציצית שלו היה להם חיות ונפש ממש אשר היה
 					<lb/>יכולים לנענע א״ע בלי נענוע הגוף כי ע״י קדושת עשיית המצוה המשיך
@@ -4493,13 +4493,13 @@
 					<lb/>רוממות וגדולת הבורא ית״ש והוא ירא מפניו מגודל היראה והמורא והפחד שהוא
 					<lb/>אמיתת היראה <sic correction="יראת">יראה</sic> הרוממות ולא כמצות אנשים מלומדה :
 				</p>
-				</div><div type="story" xml:id="Derech-Haemuna_0185" n="185"><head type="storyHead">Derech-Haemuna_0185</head>
+				</div><div type="story" xml:id="Derech-Haemuna_0185" n="185"><head type="storyHead">Derech-Haemuna_0185</head><span ana="practice:the_travels_of_the_tsaddik; kabbalah:kabbalistic_terms_yihudim; practice:meditation; supernatural:perception" resp="#llm-tagging">תיוגים</span>
 <p>
 					<lb/>ובס׳ <name type="work">ויחל משה</name> (<name type="work">תהלים</name> בקפי׳ קי״ט) וז״ל והוא ע״ד הה״ק מוה׳ <persName>משולם זושא</persName> זל״ה
 					<lb/>כאשר נסע בדרך והיה מפוצלי׳ נתיבות לכאן ולא ידע אנה יפנה לקח הציצית
 					<lb/>בידו וייחד ששמו ית׳ ואמר זהו הדרך לכו בו ומאין ידע וכו׳ :
 				</p>
-				</div><div type="story" xml:id="Derech-Haemuna_0186" n="186"><head type="storyHead">Derech-Haemuna_0186</head>
+				</div><div type="story" xml:id="Derech-Haemuna_0186" n="186"><head type="storyHead">Derech-Haemuna_0186</head><span ana="folkloristics:story_type_death_of_the_tsaddik; times:death; practice:the_travels_of_the_tsaddik" resp="#llm-tagging">תיוגים</span>
 <p>
 					<lb/>ובס׳ <name type="work">ד״ש</name> בהקדמה וז״ל ונסע זקני הק׳ <persName>מהר"ם</persName> ז״ל מ<placeName>לעכוויטש</placeName> על החתונה ונח
 					<lb/>נפשיה בשם ומנו״כ בעיר <placeName ref="#H-LOC_654">סטאלין</placeName> ושמעתי שקודם הסתלקותו אחז את הציצית
@@ -4512,7 +4512,7 @@
 				<p>
 					<lb/>מענין קבלת שבת
 				</p>
-				</div><div type="story" xml:id="Derech-Haemuna_0187" n="187"><head type="storyHead">Derech-Haemuna_0187</head>
+				</div><div type="story" xml:id="Derech-Haemuna_0187" n="187"><head type="storyHead">Derech-Haemuna_0187</head><span ana="supernatural:miracle; times:shabbat; folkloristics:story_type_virtues; not-a-hasidic-story:sermon; practice:devekut; practice:prayer" resp="#llm-tagging">תיוגים</span>
 <p>
 					<lb/>א) שמעתי אומרים בשם <persName>הבעש״ט</persName> הק׳ זי״ע ועכי״א [ובס׳ ד״א לו׳ ש״פ כ׳ ששמע
 					<lb/>ואת מפי הה״ק מ<persName>רוזין</persName> זצ״ל] אשר פ״א קיבל שבת על השדה והיה שם
@@ -4527,7 +4527,7 @@
 				<p>
 					<lb/>מענין קדושת כתר
 				</p>
-				</div><div type="story" xml:id="Derech-Haemuna_0188" n="188"><head type="storyHead">Derech-Haemuna_0188</head>
+				</div><div type="story" xml:id="Derech-Haemuna_0188" n="188"><head type="storyHead">Derech-Haemuna_0188</head><span ana="experience:devekut; practice:devekut; practice:prayer; times:shabbat; ethics-and-emotions:fear; folkloristics:story_type_virtues; practice:storytelling" resp="#llm-tagging">תיוגים</span>
 <p>
 					<lb/>ב) סיפר הה״צ <persName>ר״י מ<placeName ana="bio">קאזמור</placeName></persName> זצ״ל כי הה״צ מוה׳ <persName>אלימלך</persName> זל״ה זי״ע בשעה שאמר
 					<lb/>בשבת קדושת כתר לקח הזייגריל והביט עליו ואמר שלכן הביט עליו משום
@@ -4538,7 +4538,7 @@
 				<p>
 					<lb/>מענין <name type="work">קדושת לוי</name>
 				</p>
-				</div><div type="story" xml:id="Derech-Haemuna_0189" n="189"><head type="storyHead">Derech-Haemuna_0189</head>
+				</div><div type="story" xml:id="Derech-Haemuna_0189" n="189"><head type="storyHead">Derech-Haemuna_0189</head><span ana="folkloristics:story_type_virtues; practice:prayer; practice:torat_ha_tsaddik; social:inter_hasidic" resp="#llm-tagging">תיוגים</span>
 <p>
 					<lb/>ג) כמו שנשמע מההצה״ק מ<placeName ref="#H-LOC_56">לובלין</placeName> זי״ע שכל ששה עשר שנים שהיה ההצה"ק
 					<lb/>מ<placeName ref="#H-LOC_134">בארדיטשוב</placeName> חי לפניו הנה בכל יום ויום היה מייחד לו שעה תחת
@@ -4548,7 +4548,7 @@
 				<p>
 					<lb/>מענין קידוש לבנה
 				</p>
-				</div><div type="story" xml:id="Derech-Haemuna_0190" n="190" ana="marginal"><head type="storyHead">Derech-Haemuna_0190</head>
+				</div><div type="story" xml:id="Derech-Haemuna_0190" n="190" ana="marginal"><head type="storyHead">Derech-Haemuna_0190</head><span ana="not-a-hasidic-story:halakhah" resp="#llm-tagging">תיוגים</span>
 <p>
 					<lb/>ד) ובפרט כשיראה איזה הנהגה משלומי אמוני ישראל שהוא כדעת אחד מהפוסקים
 					<lb/>הראשונים או להכריע הלכה כדברי ה<name type="work">זוהר</name> אשר הוא דבר ברור יוצא
@@ -4588,7 +4588,7 @@
 				<p>
 					<lb/>מענין קנאה
 				</p>
-				</div><div type="story" xml:id="Derech-Haemuna_0191" n="191"><head type="storyHead">Derech-Haemuna_0191</head>
+				</div><div type="story" xml:id="Derech-Haemuna_0191" n="191"><head type="storyHead">Derech-Haemuna_0191</head><span ana="ethics-and-emotions:repentance; practice:healing_of_the_soul; practice:the_travels_of_the_tsaddik; social:relations_with_sinners; supernatural:contraction_of_the_road; supernatural:miracle; times:shabbat" resp="#llm-tagging">תיוגים</span>
 <p>
 					<lb/>ה) וכיוצא בימי מרן ה<persName>ריב״ש</persName> יצא איש גדול מן הכלל וכפר באלהים חיים על קנאתו
 					<lb/>באחיו שנעשו רבנים עד שיצא מרן כמה פרסאות בקפיצה ביום אחד
@@ -4598,7 +4598,7 @@
 				<p>
 					<lb/>מענין קריאות שמות
 				</p>
-				</div><div type="story" xml:id="Derech-Haemuna_0192" n="192"><head type="storyHead">Derech-Haemuna_0192</head>
+				</div><div type="story" xml:id="Derech-Haemuna_0192" n="192"><head type="storyHead">Derech-Haemuna_0192</head><span ana="characters-and-roles:the_family_of_the_tsaddik; practice:storytelling" resp="#llm-tagging">תיוגים</span>
 <p>
 					<lb/>ו) גם שמענו מהה"ק <persName>רי״צ מ<placeName ana="bio">פארסוב</placeName></persName> זל"ה שאמר כ״פ ששלשה דורות אב ובנו ובן בנו
 					<lb/>נקראו כולם בשם אחד בן בחיי אב כי אבי רבינו זצ"ל מתולדתו היה שמו
@@ -4615,7 +4615,7 @@
 				<p>
 					<lb/>מענין קריאות פתקאות
 				</p>
-				</div><div type="story" xml:id="Derech-Haemuna_0193" n="193"><head type="storyHead">Derech-Haemuna_0193</head>
+				</div><div type="story" xml:id="Derech-Haemuna_0193" n="193"><head type="storyHead">Derech-Haemuna_0193</head><span ana="kabbalah:kabbalistic_terms_yihudim; supernatural:perception; kabbalah:kabbalistic_terms_kavvanot; knowledge:esoteric; not-a-hasidic-story:sermon; practice:meditation; practice:reception_of_hasidim" resp="#llm-tagging">תיוגים</span>
 <p>
 					<lb/>ז) בעינינו ראינו מכבוד אדמ״ו הה״ק <persName>מהריעי״ז</persName> זל״ה אשר היה קורא מהכתב
 					<lb/>שמות בני אדם שכתבו לו היה מתבונן ברוח קדשו מעשה האיש אם זך
@@ -4646,7 +4646,7 @@
 				<p>
 					<lb/>מענין רבנות
 				</p>
-				</div><div type="story" xml:id="Derech-Haemuna_0194" n="194"><head type="storyHead">Derech-Haemuna_0194</head>
+				</div><div type="story" xml:id="Derech-Haemuna_0194" n="194"><head type="storyHead">Derech-Haemuna_0194</head><span ana="ethics-and-emotions:anger; ethics-and-emotions:humility; folkloristics:story_type_virtues; social:inter_hasidic_master_disciple_relationship; ethics-and-emotions:joy; ethics-and-emotions:resisting_temptation; social:disobedience; social:retrospective_recognition" resp="#llm-tagging">תיוגים</span>
 <p>
 					<lb/>ב) ובס׳ <name type="work">ת״ש</name> (פ׳ <name type="work">דברים</name>) מהה״ק מ<placeName>ראדמסק</placeName> וז״ל כמו שנודע המעשה מ<persName>הבעש״ט</persName>
 					<lb/>זי״ע שפ״א הפציר מאד באחד מגדולי תלמידיו הוא ההקה״צ ר׳ <persName>מיכלי</persName> ז״ל
@@ -4677,7 +4677,7 @@
 					<lb/>ושותק והעיקר להזהיר המון העם שלא יסכימו על ההיתרים המורגלים בפומי דאינשי
 					<lb/>וטרם עשותם שום דבר יחקרו בבירור גמור לעשות בהיתרא ממורי הוראה :
 				</p>
-				</div><div type="story" xml:id="Derech-Haemuna_0195" n="195"><head type="storyHead">Derech-Haemuna_0195</head>
+				</div><div type="story" xml:id="Derech-Haemuna_0195" n="195"><head type="storyHead">Derech-Haemuna_0195</head><span ana="not-a-hasidic-story:hagiography; not-a-hasidic-story:sermon; practice:storytelling; practice:study; social:marriage; social:poverty; supernatural:prognostication; characters-and-roles:the_family_of_the_tsaddik; ethics-and-emotions:fear; ethics-and-emotions:humility; folkloristics:story_type_prognostication; women:minor_character" resp="#llm-tagging">תיוגים</span>
 <p>
 					<lb/>ובס׳ <name type="work">ל״ה</name> (ב<name type="work">אות כ״ה</name>) וז״ל ודע אם נקראין בשם ממקומם זה קצת מופת שמיד ה׳
 					<lb/>היתה זאת וכיון שהיה המתחיל הוא יגמור בעדו לטובה עולמית. אמנם לרדוף
@@ -4728,7 +4728,7 @@
 				<p>
 					<lb/>מענין שבת
 				</p>
-				</div><div type="story" xml:id="Derech-Haemuna_0196" n="196" ana="marginal"><head type="storyHead">Derech-Haemuna_0196</head>
+				</div><div type="story" xml:id="Derech-Haemuna_0196" n="196" ana="marginal"><head type="storyHead">Derech-Haemuna_0196</head><span ana="not-a-hasidic-story:halakhah" resp="#llm-tagging">תיוגים</span>
 <p>
 					<lb/>א) וראי׳ ממקושש עצים כאשר שמעתי ממהור״ר <persName>יחיאל לוריא מצפת</persName> תוב״ב שהיה
 					<lb/>מדבר דברי חול בשבת ומפורסם בגמ׳ וב<name type="work">תלמוד ירושלמי</name> שצריך למנוע
@@ -4739,7 +4739,7 @@
 					<lb/>היה מדבר דברי חול בשבת זולת דברי תורה וקבל עליו שזה לו חמש עשרה שנה.
 					<lb/>(מ״י על <name type="work">קהלת</name> קפי׳ י״ב) :
 				</p>
-				</div><div type="story" xml:id="Derech-Haemuna_0197" n="197"><head type="storyHead">Derech-Haemuna_0197</head>
+				</div><div type="story" xml:id="Derech-Haemuna_0197" n="197"><head type="storyHead">Derech-Haemuna_0197</head><span ana="not-a-hasidic-story:sermon" resp="#llm-tagging">תיוגים</span>
 <p>
 					<lb/>ובס׳ <name type="work">ת״ש</name> (פ׳ <name type="work">יתרו</name>) וז״ל וכה אמר <persName>הבעש״ט</persName> כי כל מי שזכה להיות משובתי שבת
 					<lb/>מאוכלי שלחני הוא נותן בו סם חיים להיות בקרבו רפואה להוושע מכל התאוות
@@ -4748,20 +4748,20 @@
 					<lb/>ח״ו החולי ובזה יפה כח הצדיק ע״י שולחנו הטהור לתת לאדם שמירה להבא להנצל
 					<lb/>מכל רע כנ"ל :
 				</p>
-				</div><div type="story" xml:id="Derech-Haemuna_0198" n="198"><head type="storyHead">Derech-Haemuna_0198</head>
+				</div><div type="story" xml:id="Derech-Haemuna_0198" n="198"><head type="storyHead">Derech-Haemuna_0198</head><span ana="not-a-hasidic-story:sermon" resp="#llm-tagging">תיוגים</span>
 <p>
 					<lb/>ובס׳ <name type="work">ד״מ</name> (פ׳ <name type="work">ואתחנן</name>) וז״ל וכאשר אמר הה״ק מוח״ז מוה׳ <persName>אלימלך</persName> זל"ה כשנכנס
 					<lb/>שבת לא יכול לסבול הכרוזים והוכרח לאטום אזניו מכח קדושת שבת המוקשת
 					<lb/>באזניו וינוע מקול הקורא כמובא אצלינו כ״פ וזהו ושמעת ישראל שתראה להכשיר
 					<lb/>מעשיך ואז ושמעה ישראל קול קורא מעולמים העליונים.
 				</p>
-				</div><div type="story" xml:id="Derech-Haemuna_0199" n="199"><head type="storyHead">Derech-Haemuna_0199</head>
+				</div><div type="story" xml:id="Derech-Haemuna_0199" n="199"><head type="storyHead">Derech-Haemuna_0199</head><span ana="ethics-and-emotions:prohibitions; ethics-and-emotions:sadness; times:shabbat; practice:halakhah" resp="#llm-tagging">תיוגים</span>
 <p>
 					<lb/>ובס׳ <name type="work">ד״א</name> (לפ׳ <name type="work">עקב</name>) וז״ל כמו ששמעתי מ<persName>אאמו״ר</persName> זצ״ל שא״ל דודי ההצה״ק מוה׳
 					<lb/>משה זצ״ל מ<placeName ref="#H-LOC_151">קאזניץ</placeName> ששמע ממנו שהתאנח ב<date>שבת</date> וא״ל גם להתאנח ולהיות מיצר
 					<lb/>על מילי דשמיא אסור בשבת :
 				</p>
-				</div><div type="story" xml:id="Derech-Haemuna_0200" n="200"><head type="storyHead">Derech-Haemuna_0200</head>
+				</div><div type="story" xml:id="Derech-Haemuna_0200" n="200"><head type="storyHead">Derech-Haemuna_0200</head><span ana="social:inter_hasidic; times:shabbat; ethics-and-emotions:virtues; folkloristics:story_type_virtues" resp="#llm-tagging">תיוגים</span>
 <p>
 					<lb/>ובס׳ <name type="work">ת״ש</name> וז״ל כמו שידוע מהה״ק מוהר״ר <persName>אלימלך</persName> זצ״ל שפ״א היה מתאכסן אצלו
 					<lb/>אחד מצדיקי הדור ההגה״ק כו׳ והיה מסובים יחד על שולחנו ב׳ סעודות של
@@ -4790,7 +4790,7 @@
 				<p>
 					<lb/>מענין שוחד
 				</p>
-				</div><div type="story" xml:id="Derech-Haemuna_0201" n="201"><head type="storyHead">Derech-Haemuna_0201</head>
+				</div><div type="story" xml:id="Derech-Haemuna_0201" n="201"><head type="storyHead">Derech-Haemuna_0201</head><span ana="characters-and-roles:the_family_of_the_tsaddik; practice:halakhah; practice:sermon; social:retrospective_recognition; spaces:rabbinical_court; ethics-and-emotions:lying; ethics-and-emotions:prohibitions; ethics-and-emotions:virtues; practice:clothing; practice:prayer; social:conflict; women:minor_character" resp="#llm-tagging">תיוגים</span>
 <p>
 					<lb/>ב) והדרש אפילו צדיק גמור ונוטל שוחד נסמית עינו והוא דבר מפליא איך יקח
 					<lb/>צדיק גמור שוחד והענין שהיה מעשה אצל אדמו״ר מוה' אברהם יהושע
@@ -4826,7 +4826,7 @@
 				<p>
 					<lb/>מענין שינה
 				</p>
-				</div><div type="story" xml:id="Derech-Haemuna_0202" n="202" ana="marginal"><head type="storyHead">Derech-Haemuna_0202</head>
+				</div><div type="story" xml:id="Derech-Haemuna_0202" n="202" ana="marginal"><head type="storyHead">Derech-Haemuna_0202</head><span ana="not-a-hasidic-story:sermon" resp="#llm-tagging">תיוגים</span>
 <p>
 					<lb/>ד) או יאמר כדעת ה<persName>רמל״ם</persName> מובא ב<name type="work">מד״ש</name> שלא יהיה נעור יותר מדאי ונמצא כל
 					<lb/>ימיו בשינ׳ כי מי שרוצה לעבוד השי"ת בדביקות ואור אלהים ושמחה ורצון
@@ -4862,7 +4862,7 @@
 				<p>
 					<lb/>מענין <name type="work">של"ה</name>
 				</p>
-				</div><div type="story" xml:id="Derech-Haemuna_0203" n="203"><head type="storyHead">Derech-Haemuna_0203</head>
+				</div><div type="story" xml:id="Derech-Haemuna_0203" n="203"><head type="storyHead">Derech-Haemuna_0203</head><span ana="ethics-and-emotions:repentance; not-a-hasidic-story:hagiography; practice:healing_of_the_soul; social:relations_with_sinners; ethics-and-emotions:anger; ethics-and-emotions:punishment; practice:asceticism; practice:storytelling; practice:study; social:conflict; social:retrospective_recognition; spaces:beth_midrash; times:shabbat" resp="#llm-tagging">תיוגים</span>
 <p>
 					<lb/>מרן מ<placeName>נסכיז</placeName> היה מפליא מאד לימוד ס׳ <name type="work">השל״ה</name> ז״ל וסיפר ממני מעשה שהיה
 					<lb/>ל<persName>השל"ה</persName> ז״ל תלמיד בישיבתו והקשה לשמוע פ״א הכהו ה<persName>של"ה</persName> וקרע באזנו
@@ -4878,7 +4878,7 @@
 				<p>
 					<lb/>מענין שמירה
 				</p>
-				</div><div type="story" xml:id="Derech-Haemuna_0204" n="204"><head type="storyHead">Derech-Haemuna_0204</head>
+				</div><div type="story" xml:id="Derech-Haemuna_0204" n="204"><head type="storyHead">Derech-Haemuna_0204</head><span ana="not-a-hasidic-story:sermon" resp="#llm-tagging">תיוגים</span>
 <p>
 					<lb/>ז) כי הצדיק עלי׳ דידי׳ רמיא חיובא להשגיח על עדה צאן קדשים שינצלו מכל
 					<lb/>מכשול ופוקת עון רח"ל וכמו ששמעתי על מו״ר הה״ק מוה׳ <persName>יעקב יצחק</persName>
@@ -4888,7 +4888,7 @@
 				<p>
 					<pb facs="Derech-Haemuna_0092.jpg"/><lb/>מענין שמחה
 				</p>
-				</div><div type="story" xml:id="Derech-Haemuna_0205" n="205"><head type="storyHead">Derech-Haemuna_0205</head>
+				</div><div type="story" xml:id="Derech-Haemuna_0205" n="205"><head type="storyHead">Derech-Haemuna_0205</head><span ana="ethics-and-emotions:joy; folkloristics:story_type_rapprochement; practice:sermon; practice:travel_to_the_tsaddik; supernatural:perception; ethics-and-emotions:sadness; practice:halakhah; practice:prayer; practice:reception_of_hasidim; practice:torat_ha_tsaddik; social:inter_hasidic_master_disciple_relationship" resp="#llm-tagging">תיוגים</span>
 <p>
 					<lb/>ז) כתב בס׳ <name type="work">ייטב פנים</name> מאמר <name type="work">יפה לעינים</name> (אות י״ח) להגה״ג מוה׳ יקתואל יהודה
 					<lb/>טייטילבוים אבד״ק <placeName ref="#H-LOC_184">סיגוט</placeName> וז״ל למען דעת כל עמי הארץ מעלת צדיקים הק׳
@@ -4921,7 +4921,7 @@
 				<p>
 					<lb/>מענין <name type="work">תהלים</name>
 				</p>
-				</div><div type="story" xml:id="Derech-Haemuna_0206" n="206"><head type="storyHead">Derech-Haemuna_0206</head>
+				</div><div type="story" xml:id="Derech-Haemuna_0206" n="206"><head type="storyHead">Derech-Haemuna_0206</head><span ana="ethics-and-emotions:joy; practice:music; practice:recitation_of_psalms; supernatural:perception; times:death; experience:visions; practice:storytelling; spaces:heaven" resp="#llm-tagging">תיוגים</span>
 <p>
 					<lb/>א) וסיפר שפ״א היה איש א׳ העוסק אחר הריחיים בכפר והיה אומר <name type="work">תהלים</name> כל
 					<lb/>ימיו וכשנפטר ראה צדיק א׳ שדע״ה יצא עם כנורו לקראתו והיה מנגן
@@ -4937,7 +4937,7 @@
 				<p>
 					<lb/>מענין תורה
 				</p>
-				</div><div type="story" xml:id="Derech-Haemuna_0207" n="207"><head type="storyHead">Derech-Haemuna_0207</head>
+				</div><div type="story" xml:id="Derech-Haemuna_0207" n="207"><head type="storyHead">Derech-Haemuna_0207</head><span ana="social:inter_hasidic_master_disciple_relationship; practice:sermon; social:inter_hasidic" resp="#llm-tagging">תיוגים</span>
 <p>
 					<lb/>ב) סיפר אשר בין תלמידי <persName>המגיד</persName> הגדול ז״ל היה וויכוח על תורה שאמר <persName>המגיד</persName> ז״ל
 					<lb/>זה אומר כך אמר <persName>המגיד</persName> וזה אומר כך אמר <persName>המגיד</persName> והשיב להם <persName>המגיד</persName>
@@ -4948,7 +4948,7 @@
 				<p>
 					<lb/>מענין תיקון ליל שבועות
 				</p>
-				</div><div type="story" xml:id="Derech-Haemuna_0208" n="208"><head type="storyHead">Derech-Haemuna_0208</head>
+				</div><div type="story" xml:id="Derech-Haemuna_0208" n="208"><head type="storyHead">Derech-Haemuna_0208</head><span ana="not-a-hasidic-story:halakhah" resp="#llm-tagging">תיוגים</span>
 <p>
 					<lb/>ג) ושימש כל גדולי הדור היה אצל קה״ק רבינו <persName>ברוך מ<placeName ana="bio" ref="#H-LOC_55">מעזבוז</placeName></persName> ממנין שלו בליל חג
 					<date><lb/>שבועות</date> שהיה דרכו בקודש לומר ת״ש במנין ולומר הקדישים מחמת הילולא
@@ -5003,7 +5003,7 @@
 					<lb/>ובס׳ ע״ה (דרוש ג׳ לתשובה) הסביר ענין זה וכ׳ הפסקה גדולה של ו׳ ימים עולה
 					<lb/>לס״ה אלפים תעניות ושש מאות :
 				</p>
-				</div><div type="story" xml:id="Derech-Haemuna_0209" n="209"><head type="storyHead">Derech-Haemuna_0209</head>
+				</div><div type="story" xml:id="Derech-Haemuna_0209" n="209"><head type="storyHead">Derech-Haemuna_0209</head><span ana="not-a-hasidic-story:sermon; practice:asceticism; practice:fasting; times:death; ethics-and-emotions:anger; ethics-and-emotions:joy; ethics-and-emotions:prohibitions; ethics-and-emotions:repentance; ethics-and-emotions:shame" resp="#llm-tagging">תיוגים</span>
 <p>
 					<lb/>ובס׳ <name type="work">י״ה</name> (ח״ג פ״ה) וז״ל ושמעתי מרבותי שאין להרבות בתעניתים כ״א מי שגופו
 					<lb/>חזק מאד בבריאות או שיודע בעצמו שיש לו נשמה גדולה וכל כוונתו בכל מעשיו
@@ -5019,7 +5019,7 @@
 					<lb/>ממנה גדולה ממאה תעניתים ובשע״ת ל<persName>ר״י</persName> יראה איך ששיבח מאד את השמחה ואשר
 					<lb/>היא מיוחדת מאד לעבודת השי״ת ע״ש מתק לשונו הזהב :
 				</p>
-				</div><div type="story" xml:id="Derech-Haemuna_0210" n="210"><head type="storyHead">Derech-Haemuna_0210</head>
+				</div><div type="story" xml:id="Derech-Haemuna_0210" n="210"><head type="storyHead">Derech-Haemuna_0210</head><span ana="practice:asceticism; practice:fasting; social:inter_hasidic_master_disciple_relationship; ethics-and-emotions:prohibitions; not-a-hasidic-story:sermon; practice:storytelling" resp="#llm-tagging">תיוגים</span>
 <p>
 					<lb/>ובס׳ <name type="work">ע״ק</name> (פ׳ ו<name type="work">יקרא</name>) וז״ל והרב מ<placeName ref="#H-LOC_133">אפטא</placeName> סיפר לי שבילדותו היה מתענה ושאל
 					<lb/>להרב ר׳ <persName>אלימלך</persName> זצ״ל ע״ז והשיב לו אם תוכל אחר התענית לאכול אין מלכות
@@ -5027,7 +5027,7 @@
 					<lb/>לי עוד שנים להצטרף עמי לבטל התעניתים הייתי מבטל אתהן ע״כ וכשם שמצוה
 					<lb/>לשמור ישראל מעבירה כן מצוה ליזהר לכל איש אם יש לו מעט רפיון כח שלא יתענה :
 				</p>
-				</div><div type="story" xml:id="Derech-Haemuna_0211" n="211" ana="marginal"><head type="storyHead">Derech-Haemuna_0211</head>
+				</div><div type="story" xml:id="Derech-Haemuna_0211" n="211" ana="marginal"><head type="storyHead">Derech-Haemuna_0211</head><span ana="not-a-hasidic-story:sermon" resp="#llm-tagging">תיוגים</span>
 <p>
 					<lb/>ובס׳ <name type="work">נ״מ</name> (<name type="work">שביל אמונה</name>) וז״ל ולמד חמשה דפים גמרא עם <persName>רא״ש</persName> כאשר צוה רבינו
 					<persName><lb/>אלימלך</persName> ואמר ששני דפין גמרא עם <persName>רא״ש</persName> מועיל יותר מן התענית וגם <name type="work">זוהר</name>
@@ -5036,7 +5036,7 @@
 				<p>
 					<lb/>מענין תפוחים
 				</p>
-				</div><div type="story" xml:id="Derech-Haemuna_0212" n="212"><head type="storyHead">Derech-Haemuna_0212</head>
+				</div><div type="story" xml:id="Derech-Haemuna_0212" n="212"><head type="storyHead">Derech-Haemuna_0212</head><span ana="ethics-and-emotions:punishment; kabbalah:kabbalistic_terms_yihudim; practice:drinking_alcohol; social:conflict; supernatural:contraction_of_the_road; supernatural:miracle; women:minor_character; ethics-and-emotions:fear; folkloristics:story_type_protection; kabbalah:kabbalistic_terms_kavvanot; not-a-hasidic-story:sermon; practice:protection; practice:the_travels_of_the_tsaddik; practice:use_of_holy_names; social:relations_with_non_hasidim; supernatural:perception; supernatural:prognostication" resp="#llm-tagging">תיוגים</span>
 <p>
 					<lb/>ו) כמו שהיה למרן <persName>הבעש״ט</persName> שציערו אותו מאד הרשעים עד שפ״א שלחו אחריו
 					<lb/>שיבוא ואמרו לאיזה ענין והכוונה היה להכותו ולהרגו והוא אע״פ שראה הכל
@@ -5072,7 +5072,7 @@
 				<p>
 					<lb/>מענין תפילין
 				</p>
-				</div><div type="story" xml:id="Derech-Haemuna_0213" n="213"><head type="storyHead">Derech-Haemuna_0213</head>
+				</div><div type="story" xml:id="Derech-Haemuna_0213" n="213"><head type="storyHead">Derech-Haemuna_0213</head><span ana="experience:dream; not-a-hasidic-story:sermon; practice:prayer; practice:tefillin; ethics-and-emotions:punishment; kabbalah:kabbalistic_terms_kavvanot; not-a-hasidic-story:hagiography; supernatural:communicating_with_the_invisible; times:death" resp="#llm-tagging">תיוגים</span>
 <p>
 					<lb/>ז) ויש פשוט שמקיים כל מה שכתוב בתורה אך זה צריך ליזהר שלא יעבור אפילו
 					<lb/>מעט מזעיר אך תשובה מועיל כי הנה איתא מעשה בתלמיד א׳ ותיק של
@@ -5085,7 +5085,7 @@
 					<lb/>יו״ד על יו״ד של הקשר של יד וקו״ף ורי״ש הוא גימט׳ שין ונ״ל שארבעה אותיות
 					<lb/>מרומז בד׳ של הקשר. (<name type="work">ז״ז</name> פ׳ <name type="work">פקודי</name>) :
 				</p>
-				</div><div type="story" xml:id="Derech-Haemuna_0214" n="214"><head type="storyHead">Derech-Haemuna_0214</head>
+				</div><div type="story" xml:id="Derech-Haemuna_0214" n="214"><head type="storyHead">Derech-Haemuna_0214</head><span ana="not-a-hasidic-story:halakhah" resp="#llm-tagging">תיוגים</span>
 <p>
 					<lb/>ובס׳ <name type="work">ע״צ</name> על ה<name type="work">זוהר</name> (פ׳ <name type="work">תזריע</name>) וז״ל וכן ראיתי למורי הק' <persName>מוהר״מ מ<placeName ana="bio" ref="#H-LOC_56">לובלין</placeName></persName> אשר
 					<lb/>לא הניח תפילין בעת המילה הגם שלא ראיתיו חולץ התפילין לשעת המילה אבל
@@ -5094,7 +5094,7 @@
 					<lb/>ע״פ קבלת רבו הגה״ק מוהר״ר <persName>שמעלקא</persName> נצב״ה וראיתי הלכה למעשה ויש בזה
 					<lb/>אריכות דברים אכ״מ להאריך בזה :
 				</p>
-				</div><div type="story" xml:id="Derech-Haemuna_0215" n="215"><head type="storyHead">Derech-Haemuna_0215</head>
+				</div><div type="story" xml:id="Derech-Haemuna_0215" n="215"><head type="storyHead">Derech-Haemuna_0215</head><span ana="not-a-hasidic-story:sermon" resp="#llm-tagging">תיוגים</span>
 <p>
 					<lb/>ובס׳ <name type="work">מ״ה</name> וז״ל שמעתי מהה״ק <persName>מהרש״ל מ<placeName ana="bio">לענטשני</placeName></persName> זל״ה שאמר שבעת הנחת תפילין
 					<lb/>יש לי יציאות הנפש מפחד והבושה שעל ראש כזה אניח התפילין הקדושים עכ״ל
@@ -5130,7 +5130,7 @@
 				<p>
 					<lb/>מענין תפלה
 				</p>
-				</div><div type="story" xml:id="Derech-Haemuna_0216" n="216"><head type="storyHead">Derech-Haemuna_0216</head>
+				</div><div type="story" xml:id="Derech-Haemuna_0216" n="216"><head type="storyHead">Derech-Haemuna_0216</head><span ana="characters-and-roles:angels; characters-and-roles:the_family_of_the_tsaddik; experience:devekut; experience:journey_to_heaven; experience:trembling; practice:devekut; practice:prayer; spaces:heaven; supernatural:light_or_fire_as_a_sign_of_righteousness; times:death; times:shabbat; women:minor_character; ethics-and-emotions:fear; ethics-and-emotions:humility; folkloristics:story_type_death_of_the_tsaddik; practice:healing; practice:lifesaving; practice:torat_ha_tsaddik; supernatural:communicating_with_the_invisible; supernatural:perception" resp="#llm-tagging">תיוגים</span>
 <p>
 					<lb/>ח) כמו שאירע לבן הק׳ של הרב מוהר״ר <persName>מיכל</persName> ושמו הה״צ מוהר״ר <persName>יוסף מיאפלא</persName>
 					<lb/>פ״א אינגיד ואיתנח ועלה למעלה וטבלו אותו בנהר <placeName>דינור</placeName> והמעשה ארוך
@@ -5188,7 +5188,7 @@
 					<lb/>את הלב ולדברי שבח אמור בניגון המשמח את הלב למען ימלא פיך אהבה ושמחה
 					<lb/>למי שראוי לברך ותברכהו בחיבה רחבה וגילה :
 				</p>
-				</div><div type="story" xml:id="Derech-Haemuna_0217" n="217" ana="marginal"><head type="storyHead">Derech-Haemuna_0217</head>
+				</div><div type="story" xml:id="Derech-Haemuna_0217" n="217" ana="marginal"><head type="storyHead">Derech-Haemuna_0217</head><span ana="folkloristics:story_type_parable; not-a-hasidic-story:sermon; practice:coping_with_alien_thoughts; practice:prayer; ethics-and-emotions:pride; ethics-and-emotions:virtues" resp="#llm-tagging">תיוגים</span>
 <p>
 					<lb/>ובס׳ דברי <name type="work">משה</name> (פ׳ <name type="work">בא</name>) וז״ל והנה ג״כ נודע מה שהביא בס׳ <name type="work">חובת לבבות</name> ששאלו
 					<lb/>לחסיד א׳ טעם על שהיה ממהר בהלוכו תמיד והשיב מפני שמהירות הוא רחוק
@@ -5219,13 +5219,13 @@
 					<lb/>תחמיצנו שהודיע ג״כ הטעם שלא ישהה בקיום המצוה הוא שלא יחמץ ר״ל שלא יבא
 					<lb/>לידי איזה פני׳ או התפאר׳ שהוא היצה״ר הנק' חמץ :
 				</p>
-				</div><div type="story" xml:id="Derech-Haemuna_0218" n="218"><head type="storyHead">Derech-Haemuna_0218</head>
+				</div><div type="story" xml:id="Derech-Haemuna_0218" n="218"><head type="storyHead">Derech-Haemuna_0218</head><span ana="experience:revelation; practice:prayer; supernatural:communicating_with_the_invisible; not-a-hasidic-story:sermon; practice:study" resp="#llm-tagging">תיוגים</span>
 <p>
 					<lb/>ובס׳ <name type="work">כש״ט</name> (דט״ו) וז״ל הנשמה אמרה להרב ר׳ <persName>ישראל</persName> <persName>בעש״ט</persName> זלה״ה שמה שזכה
 					<lb/>שנתגלו אליו דברים עליונים לא מפני שלמד הרבה מסכת ופוסקים רק משום
 					<lb/>תפלה שהיה מתפלל תמיד בכוונה גדולה משם זכה למעלה עליונה :
 				</p>
-				</div><div type="story" xml:id="Derech-Haemuna_0219" n="219"><head type="storyHead">Derech-Haemuna_0219</head>
+				</div><div type="story" xml:id="Derech-Haemuna_0219" n="219"><head type="storyHead">Derech-Haemuna_0219</head><span ana="practice:devekut; practice:prayer; supernatural:light_or_fire_as_a_sign_of_righteousness; experience:devekut; experience:enthusiasm; folkloristics:story_type_virtues" resp="#llm-tagging">תיוגים</span>
 <p>
 					<lb/>ובס׳ <name type="work">ה״ה</name> (פ׳ <name type="work">תצא</name>) וז״ל כמו שאמר מרן הק׳ ר׳ <persName>גרשון מ<placeName ana="bio" ref="#H-LOC_84">קיטב</placeName></persName> למרן גיסו <persName>הריב"ש</persName>
 					<lb/>בעת שעדיין לא הכיר מדריגתו כל זמן שאתה מתפלל ואתה בתוך הדבור
@@ -5238,7 +5238,7 @@
 					<lb/>ולא יכלו לפעול כלום מחמת שפלותם בעיני עצמם ואינם מאמינים שישמע
 					<lb/>השי״ת תפלתם וע״כ אינם נענין אלא אדם צריך להאמין שהשי״ת שומע תפלת כל פה :
 				</p>
-				</div><div type="story" xml:id="Derech-Haemuna_0220" n="220"><head type="storyHead">Derech-Haemuna_0220</head>
+				</div><div type="story" xml:id="Derech-Haemuna_0220" n="220"><head type="storyHead">Derech-Haemuna_0220</head><span ana="practice:clothing; practice:devekut; characters-and-roles:angels; ethics-and-emotions:joy; experience:devekut; folkloristics:story_type_virtues; not-a-hasidic-story:sermon; practice:asceticism; practice:prayer; practice:torat_ha_tsaddik" resp="#llm-tagging">תיוגים</span>
 <p>
 					<lb/>ובס׳ <name type="work">נ״מ</name> בהק׳ כ׳ וז״ל והיה תמיד פניו מאירין ושמחין מחדוותא דשמעתא ומהתפלה
 					<lb/>ותפילין אזי כשכבר נזדכך בזיכוך רב וקדוש מנהיג עצמו בהרחבה להרחיב דעתו
@@ -5252,7 +5252,7 @@
 					<lb/>הדביקות ופ״א שאל אותו <persName>פרומיר</persName> נער מפני מה הוא מתנהג כ״כ בהרחבה והשיב לו
 					<lb/>בהפשטות שצריך להרחיב דעתו לעבודת הש״י :
 				</p>
-				</div><div type="story" xml:id="Derech-Haemuna_0221" n="221"><head type="storyHead">Derech-Haemuna_0221</head>
+				</div><div type="story" xml:id="Derech-Haemuna_0221" n="221"><head type="storyHead">Derech-Haemuna_0221</head><span ana="experience:devekut; kabbalah:kabbalistic_terms_kavvanot; practice:devekut; practice:meditation; practice:music; practice:prayer; folkloristics:story_type_virtues; times:holidays; times:shabbat" resp="#llm-tagging">תיוגים</span>
 <p>
 					<lb/>ובס׳ <name type="work">ייטיב פנים</name> מאמר <name type="work">שפת הים</name> (אות י״ג) וז״ל שמעתי מ<persName>מוזל״ה</persName> [הוא הגה״צ ר׳
 					<persName><lb/>משה טייטילבוים</persName> אבד״ק <placeName ref="#H-LOC_17">אוהל</placeName> זי״ע] שהגה״ק <persName>ר״ר שמעלקא</persName> זל״ה כשהיה עומד
@@ -5263,7 +5263,7 @@
 					<lb/>העליון והקול יוצא מפיו בניגונים נפלאים ערבים לשומעיהן ומקבליהן חכו ממתקיים
 					<lb/>וכלו מחמדים והמשכיל יבין וכו׳ :
 				</p>
-				</div><div type="story" xml:id="Derech-Haemuna_0222" n="222"><head type="storyHead">Derech-Haemuna_0222</head>
+				</div><div type="story" xml:id="Derech-Haemuna_0222" n="222"><head type="storyHead">Derech-Haemuna_0222</head><span ana="ethics-and-emotions:awe; ethics-and-emotions:fear; times:shabbat; characters-and-roles:the_family_of_the_tsaddik; experience:enthusiasm; practice:prayer" resp="#llm-tagging">תיוגים</span>
 <p>
 					<lb/>ובס׳ הנ״ל מאמר <name type="work">אבני זכרון</name> (אות ע״ב) וז״ל והנה שפתי לא אכלא מלספר אשר
 					<lb/>שמעתי מפ״ק של <persName>מוזל״ה</persName> בהיותו אבד״ק <placeName>שינאווי</placeName> (הוא הגה״ק מ<placeName ref="#H-LOC_17">אוהל</placeName> בעל
@@ -5280,7 +5280,7 @@
 					<lb/>מצאתי דאתי לידי מאת הגה״ק <persName>מהר״ש</persName> זלה״ה שהשאיר שם ברכה עכ״ל. (כן העתיק
 					<lb/>לנו הגאבד״ק <placeName ref="#H-LOC_145">פלונסק</placeName> מוה׳ <persName>צבי יחזקאל מיכלהן</persName> נכדו שי') :
 				</p>
-				</div><div type="story" xml:id="Derech-Haemuna_0223" n="223"><head type="storyHead">Derech-Haemuna_0223</head>
+				</div><div type="story" xml:id="Derech-Haemuna_0223" n="223"><head type="storyHead">Derech-Haemuna_0223</head><span ana="not-a-hasidic-story:sermon" resp="#llm-tagging">תיוגים</span>
 <p>
 					<lb/>ובס׳ <name type="work">ב״מ</name> (פ׳ <name type="work">האזינו</name>) וז״ל וכמו ששמעתי מאאמו״ר זצל"ה <persName>המגיד מ<placeName ana="bio" ref="#H-LOC_151">קאזניץ</placeName></persName> מפיו הק'
 					<lb/>שאמר לי בזה״ל תאמין לי בני שכל סדור ה<persName>אר״י</persName> הק׳ זצל״ה עם כל הכוונות
@@ -5309,14 +5309,14 @@
 				<p>
 					<lb/>מענין תשובה
 				</p>
-				</div><div type="story" xml:id="Derech-Haemuna_0224" n="224"><head type="storyHead">Derech-Haemuna_0224</head>
+				</div><div type="story" xml:id="Derech-Haemuna_0224" n="224"><head type="storyHead">Derech-Haemuna_0224</head><span ana="ethics-and-emotions:repentance; practice:fasting; practice:travel_to_the_tsaddik; practice:asceticism; practice:healing_of_the_soul; practice:reception_of_hasidim; social:relations_with_sinners" resp="#llm-tagging">תיוגים</span>
 <p>
 					<lb/>ט) מעשה אירע ג״כ אצל אדמו״ר הה״ק וכו׳ מוה׳ <persName>זושע</persName> וצ״ל שבא אצלו איש אחד
 					<lb/>בעל תשובה וביקש ממנו לתת לו תשובה והשיב לו לא אוכל לפרש לך
 					<lb/>תשובה עד שתלך מקודם לק״ק <placeName>אוסטרהו</placeName> ותתענה שם ארבעים יום ואח״כ תבוא
 					<lb/>אצלי ואיעצך לפתוח לך פתח התשובה כשתוכל לעמוד בזה. (<name type="work">ב״מ</name> פ׳ <name type="work">נח</name>) :
 				</p>
-				</div><div type="story" xml:id="Derech-Haemuna_0225" n="225"><head type="storyHead">Derech-Haemuna_0225</head>
+				</div><div type="story" xml:id="Derech-Haemuna_0225" n="225"><head type="storyHead">Derech-Haemuna_0225</head><span ana="characters-and-roles:the_family_of_the_tsaddik; ethics-and-emotions:repentance; ethics-and-emotions:sadness; not-a-hasidic-story:sermon; ethics-and-emotions:anger; ethics-and-emotions:joy; practice:sermon" resp="#llm-tagging">תיוגים</span>
 <p>
 					<lb/>ובס׳ <name type="work">ד״ש</name> (פ׳ <name type="work">ויגש</name>) וז״ל ועתה אל תעצבו אאמו״ר הה״ק <persName>מוהרב״מ</persName> נ״ע אמר
 					<lb/>ועתה אין ועתה אלא תשובה אל תעצבו כי התשובה צ״ל בשמחה ואמר <persName>א״א</persName>
@@ -5335,7 +5335,7 @@
 					<lb/>היה אומר כי עצבות ומ״ש הוא בעצם עבירה כמו כעס ולא כמו שהעולם חושבי׳ שהוא
 					<lb/>רק מניעה לעבודה :
 				</p>
-				</div><div type="story" xml:id="Derech-Haemuna_0226" n="226"><head type="storyHead">Derech-Haemuna_0226</head>
+				</div><div type="story" xml:id="Derech-Haemuna_0226" n="226"><head type="storyHead">Derech-Haemuna_0226</head><span ana="ethics-and-emotions:repentance; not-a-hasidic-story:sermon; practice:sermon; practice:study; social:inter_hasidic_master_disciple_relationship" resp="#llm-tagging">תיוגים</span>
 <p>
 					<lb/>ובס׳ <name type="work">מ"ה</name> וז"ל הנה אצל אדמו״ר מ<placeName ref="#H-LOC_63">פרשיסחא</placeName> זל"ה פ"א בלילה היה בלימוד איזה
 					<lb/>תלמידים ושאל אותם שיגידו לו מהיכן אדם יודע בזה״ז שאחר תשובתו נתכפר
@@ -5417,7 +5417,7 @@
 					<lb/>ואור קדושתו מופיע על תלמידיו ותלמידי תלמידיו ההולכים בעקבותיו עד סוף כל
 					<lb/>הדורות ועינינו הרואות אשר עדיין זורח בעולם אור קדושות שני המאורות הנ״ל :
 				</p>
-				</div><div type="story" xml:id="Derech-Haemuna_0227" n="227"><head type="storyHead">Derech-Haemuna_0227</head>
+				</div><div type="story" xml:id="Derech-Haemuna_0227" n="227"><head type="storyHead">Derech-Haemuna_0227</head><span ana="characters-and-roles:the_family_of_the_tsaddik; practice:prayer; practice:sermon; practice:tvilah; supernatural:perception; ethics-and-emotions:joy; ethics-and-emotions:sadness; not-a-hasidic-story:sermon; practice:healing; practice:storytelling; practice:torat_ha_tsaddik; social:inter_hasidic; spaces:mikveh" resp="#llm-tagging">תיוגים</span>
 <p>
 					<lb/>ובס׳ <name type="work">ב״א</name> (ב<name type="work">לקוטים</name>) וז״ל אמר הרה״ק ר׳ <persName>אשר מקארלין</persName> זצל״ה דיבר בענין אחדות
 					<lb/>שנעשה ע״י טהרת הטבילה במקוה ואמר שע״י טבילה במקוה יוכל האדם לייחד
@@ -5473,7 +5473,7 @@
 					<lb/>ונפלאים יתענג נפש כל קורא בהם ויטהר לבו לעבודת הבורא ית"ש ע״י
 					<lb/>הספורים אשר יראה :
 				</p>
-				</div><div type="story" xml:id="Derech-Haemuna_0228" n="228"><head type="storyHead">Derech-Haemuna_0228</head>
+				</div><div type="story" xml:id="Derech-Haemuna_0228" n="228"><head type="storyHead">Derech-Haemuna_0228</head><span ana="characters-and-roles:baal_shem; characters-and-roles:demons; ethics-and-emotions:punishment; knowledge:practical_kabbalah; knowledge:secret_texts; not-a-hasidic-story:hagiography; practice:healing_of_the_soul; practice:prayer; practice:recitation_of_psalms; practice:use_of_holy_names; practice:writing_amulets; social:conflict; social:excommunication; supernatural:communicating_with_the_invisible; characters-and-roles:angels; ethics-and-emotions:fear; experience:visions; practice:fasting; practice:healing; practice:protection; practice:study; practice:tefillin; social:relations_with_non_jews; spaces:beth_midrash; supernatural:miracle; times:shabbat; women:mention_only" resp="#llm-tagging">תיוגים</span>
 <p>
 					<pb facs="Derech-Haemuna_0103.jpg"/><lb/>מעשה ה׳ כי נורא הוא
 				</p>
@@ -5827,7 +5827,7 @@
 				<p>
 					<lb/>(הועתק מספר <name type="work">זרע קודש</name> להגה״ק בעל המחבר ספר <name type="work">ויקהל משה</name>)
 				</p>
-				</div><div type="story" xml:id="Derech-Haemuna_0229" n="229"><head type="storyHead">Derech-Haemuna_0229</head>
+				</div><div type="story" xml:id="Derech-Haemuna_0229" n="229"><head type="storyHead">Derech-Haemuna_0229</head><span ana="ethics-and-emotions:virtues; not-a-hasidic-story:hagiography; social:relations_with_non_jews; ethics-and-emotions:anger; ethics-and-emotions:awe; ethics-and-emotions:fear; ethics-and-emotions:humility; ethics-and-emotions:pride; not-a-hasidic-story:virtues; social:retrospective_recognition" resp="#llm-tagging">תיוגים</span>
 <p>
 					<lb/>מ״כ דבר נחמד שכשהוציא <persName>משרע״ה</persName> את ישראל מ<placeName ref="#H-LOC_164">מצרים</placeName> ושמעו עמי׳ ירגזון וגו׳.
 					<lb/>ויתמהו מאד על זה האיש <persName>משה</persName>. כי על ידו נעשה כל הגבורות והנפלאות
@@ -5862,7 +5862,7 @@
 					<lb/>וכבשתי אותם. עד אשר קניתי לי הפוכם לטבע שני, ולכן ובעבור זה יקרתי והתכבדתי
 					<lb/>בשמים ממעל ובארץ מתחת. (<name type="work">תפארת ישראל</name> <name type="work">קידושין</name> פ״ד) :
 				</p>
-				</div><div type="story" xml:id="Derech-Haemuna_0230" n="230"><head type="storyHead">Derech-Haemuna_0230</head>
+				</div><div type="story" xml:id="Derech-Haemuna_0230" n="230"><head type="storyHead">Derech-Haemuna_0230</head><span ana="supernatural:prognostication; times:death; folkloristics:story_type_prognostication; knowledge:esoteric; not-a-hasidic-story:sermon; supernatural:perception" resp="#llm-tagging">תיוגים</span>
 <p>
 					<lb/>ובס׳ <name type="work">אגרת דכלה</name> (פ׳ <name type="work">פקודי</name>) וז״ל והנראה עפ״י מה שקבלנו דבאותן הי״ב ימים
 					<lb/>הראשונים ד<date>ניסן</date> ימי הקרבת הנשיאים המה כח כללי לי״ב חדשי השנה כל
@@ -5890,7 +5890,7 @@
 					<lb/>ובס׳ <name type="work">אמרי קדוש</name> וז״ל אמר על כף ידו של אדם חקוקין כל מחשבותיו השי״ת יטהר
 					<lb/>לבנו לעבדו באמת כתורה וכהלכה אמן :
 				</p>
-				</div><div type="story" xml:id="Derech-Haemuna_0231" n="231"><head type="storyHead">Derech-Haemuna_0231</head>
+				</div><div type="story" xml:id="Derech-Haemuna_0231" n="231"><head type="storyHead">Derech-Haemuna_0231</head><span ana="experience:journey_to_heaven; not-a-hasidic-story:sermon; practice:prayer; practice:sermon; experience:visions; practice:torat_ha_tsaddik; spaces:heaven; supernatural:communicating_with_the_invisible; times:eschatology" resp="#llm-tagging">תיוגים</span>
 <p>
 					<lb/>עי׳ בספר <name type="work">זרע קודש</name> (פ׳ <name type="work">תצא</name>) להרב מ<placeName ref="#H-LOC_49">ראפשיץ</placeName> וז״ל שבכל יום כשאדם עובד אותו
 					<lb/>ית׳ הכל לפי מעשיו בונה את <placeName ref="#H-LOC_154">ירושלים</placeName> ובהמ״ק יש בונה ביום אחד שורה שלימה

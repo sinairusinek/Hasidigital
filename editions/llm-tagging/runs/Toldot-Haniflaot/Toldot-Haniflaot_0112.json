@@ -1,0 +1,231 @@
+{
+ "unit": {
+  "kind": "hasidic_story",
+  "why": "A single narrative told by the Kozhenitser Maggid. Two learned friends apostatize; one repents after burying an unattended corpse, becomes a town rabbi, and later exorcises a dybbuk who turns out to be his former friend.",
+  "boundary_note": ""
+ },
+ "stories": [
+  {
+   "k": 1,
+   "start_quote": "מעשה נורא שמעתי מפה קדוש של",
+   "end_quote": "אשר לא תקן והוכרח לביוש הזה",
+   "hasidic": true,
+   "summary_en": "Two Torah-learned friends convert away from Judaism. One becomes a wealthy noble, is stirred to repentance after burying an unattended corpse (met mitzvah), secretly leaves his family, repents under a distant rabbi and succeeds him. When he exorcises a dybbuk, the spirit turns out to be his former friend and publicly exposes his past.",
+   "tags": [
+    {
+     "tag": "practice:storytelling",
+     "scope": "span",
+     "quotes": [
+      "מעשה נורא שמעתי מפה קדוש של אדומ״ר הרב דק\"ק קאזעניץ"
+     ],
+     "confidence": 3,
+     "why": "The story is framed as told by the Kozhenitser Maggid.",
+     "quotes_failed": false
+    },
+    {
+     "tag": "social:converts_and_conversion",
+     "scope": "span",
+     "quotes": [
+      "ומעשה שטן הצליח והמירו שניהם דתם",
+      "הלא שנינו היינו חברים והמרנו דתנו יחד"
+     ],
+     "confidence": 3,
+     "why": "Apostasy of the two friends drives the plot.",
+     "quotes_failed": false
+    },
+    {
+     "tag": "ethics-and-emotions:repentance",
+     "scope": "span",
+     "quotes": [
+      "ויתחרט מאד על אשר עזב את דת אבותיו",
+      "עד שנעשה בעל תשובה גמור",
+      "בא וראה כמה גדול כחה של תשובה"
+     ],
+     "confidence": 3,
+     "why": "Repentance is the story's central theme.",
+     "quotes_failed": false
+    },
+    {
+     "tag": "practice:healing_of_the_soul",
+     "scope": "span",
+     "quotes": [
+      "והרב הורה אותו דרך תשובה עד שנעשה בעל תשובה גמור"
+     ],
+     "confidence": 2,
+     "why": "A rabbi guides the apostate's spiritual repair.",
+     "quotes_failed": false
+    },
+    {
+     "tag": "characters-and-roles:demons",
+     "scope": "span",
+     "quotes": [
+      "נדבק באיש אחד מאותו העיר רוח רעה ר״ל"
+     ],
+     "confidence": 3,
+     "why": "An evil spirit (dybbuk) possesses a man.",
+     "quotes_failed": false
+    },
+    {
+     "tag": "supernatural:communicating_with_the_invisible",
+     "scope": "span",
+     "quotes": [
+      "וידבר להרב בקול רם האתה זה תאמר לי"
+     ],
+     "confidence": 3,
+     "why": "The rabbi and the dybbuk speak to each other.",
+     "quotes_failed": false
+    },
+    {
+     "tag": "practice:protection",
+     "scope": "span",
+     "quotes": [
+      "הנני גוזר עליך שתצא מזה האיש",
+      "והוכרח הדיבוק לצאת מאיש ההוא"
+     ],
+     "confidence": 2,
+     "why": "The rabbi exorcises the dybbuk from the possessed man.",
+     "quotes_failed": false
+    },
+    {
+     "tag": "practice:recitation_of_psalms",
+     "scope": "span",
+     "quotes": [
+      "ויאמרו בציבור כל ספר תהלים"
+     ],
+     "confidence": 3,
+     "why": "The community recites the whole book of Psalms before the exorcism.",
+     "quotes_failed": false
+    },
+    {
+     "tag": "practice:sermon",
+     "scope": "span",
+     "quotes": [
+      "עלה הרב על הבימה וידרוש להם דברי מוסר"
+     ],
+     "confidence": 2,
+     "why": "The rabbi preaches a moral sermon.",
+     "quotes_failed": false
+    },
+    {
+     "tag": "ethics-and-emotions:shame",
+     "scope": "span",
+     "quotes": [
+      "והוכרח לביוש הזה",
+      "אמת הוא הדבר אשר אמר הדיבוק"
+     ],
+     "confidence": 3,
+     "why": "The rabbi is publicly exposed, which the narrator explains as a consequence.",
+     "quotes_failed": false
+    },
+    {
+     "tag": "ethics-and-emotions:fear",
+     "scope": "span",
+     "quotes": [
+      "ויתחלחל ויירא מאד"
+     ],
+     "confidence": 2,
+     "why": "The rabbi is frightened when the noble knocks at night.",
+     "quotes_failed": false
+    },
+    {
+     "tag": "ethics-and-emotions:resisting_temptation",
+     "scope": "span",
+     "quotes": [
+      "ולאחרונה גברה עליו מחשבה הקדושה",
+      "איך תעזוב את אשתך האהובה עליך"
+     ],
+     "confidence": 2,
+     "why": "He overcomes the pull of family and wealth.",
+     "quotes_failed": false
+    },
+    {
+     "tag": "social:relations_with_sinners",
+     "scope": "span",
+     "quotes": [
+      "ויבן הרב כי כנים דבריו כי היו דברים היוצאים מן הלב"
+     ],
+     "confidence": 2,
+     "why": "A rabbi receives and guides an apostate.",
+     "quotes_failed": false
+    },
+    {
+     "tag": "social:retrospective_recognition",
+     "scope": "span",
+     "quotes": [
+      "וכל בני העיר לא ידעו מי הוא ומה שעבר עליו"
+     ],
+     "confidence": 2,
+     "why": "The town learns the rabbi's hidden past only through the dybbuk.",
+     "quotes_failed": false
+    },
+    {
+     "tag": "ethics-and-emotions:punishment",
+     "scope": "span",
+     "quotes": [
+      "והוא לפי ראות עינינו מת בלא תשובה"
+     ],
+     "confidence": 2,
+     "why": "The unrepentant friend wanders as a dybbuk.",
+     "quotes_failed": false
+    },
+    {
+     "tag": "times:death",
+     "scope": "span",
+     "quotes": [
+      "ויהי קודם פטירת הרב באו בל ראשי הקהלה"
+     ],
+     "confidence": 2,
+     "why": "The teaching rabbi dies and a successor is named.",
+     "quotes_failed": false
+    },
+    {
+     "tag": "ethics-and-emotions:virtues",
+     "scope": "span",
+     "quotes": [
+      "והטריח עצמו מאד במצוה הזאת",
+      "כי מצוה גוררת מצוה"
+     ],
+     "confidence": 2,
+     "why": "The deed of burying the met mitzvah triggers his return.",
+     "quotes_failed": false
+    },
+    {
+     "tag": "women:mention_only",
+     "scope": "span",
+     "quotes": [
+      "וינשא לאשה כותית והוליד בנים"
+     ],
+     "confidence": 3,
+     "why": "His gentile wife is referred to but does not act.",
+     "quotes_failed": false
+    },
+    {
+     "tag": "social:relations_with_non_jews",
+     "scope": "span",
+     "quotes": [
+      "ויהי כראות הרב את שר העיר ויתחלחל"
+     ],
+     "confidence": 1,
+     "why": "The rabbi faces the noble, who appears to be a gentile.",
+     "quotes_failed": false
+    }
+   ],
+   "missing_concepts": [
+    "met mitzvah (burial of an unattended corpse)",
+    "dybbuk / spirit possession and exorcism",
+    "appointment to a rabbinic post (non-Hasidic succession)",
+    "mitzvah leads to mitzvah"
+   ],
+   "start_quote_found": true,
+   "end_quote_found": true
+  }
+ ],
+ "check": {
+  "non_vocab_tags": [],
+  "quotes": 26,
+  "quotes_not_found": 0
+ },
+ "id": "Toldot-Haniflaot_0112",
+ "chars": 3365,
+ "seconds": 26
+}

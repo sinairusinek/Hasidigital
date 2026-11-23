@@ -1,0 +1,98 @@
+{
+ "unit": {
+  "kind": "hasidic_story",
+  "why": "A short anecdote: the Besht welcomes the Sabbath in a field, the sheep there stand up on their hind legs, and the text adds an explanation of why.",
+  "boundary_note": "The heading 'מענין קדושת כתר' at the end belongs to the next division."
+ },
+ "stories": [
+  {
+   "k": 1,
+   "start_quote": "שמעתי אומרים בשם הבעש״ט הק׳ זי״ע",
+   "end_quote": "ומכש״כ אנחנו עם ב״י",
+   "hasidic": true,
+   "summary_en": "When the Besht welcomed the Sabbath in a field, the flock of sheep stood up on their hind legs like men, which is explained as his raising the whole world to its source.",
+   "tags": [
+    {
+     "tag": "times:shabbat",
+     "scope": "story",
+     "quotes": [],
+     "confidence": 3,
+     "why": "The scene is the welcoming of the Sabbath (kabbalat Shabbat).",
+     "quotes_failed": false
+    },
+    {
+     "tag": "supernatural:miracle",
+     "scope": "span",
+     "quotes": [
+      "ועמדו רק על שני רגלים האחרונים כעמידת איש"
+     ],
+     "confidence": 3,
+     "why": "The animals stand upright like men, a wonder.",
+     "quotes_failed": false
+    },
+    {
+     "tag": "practice:prayer",
+     "scope": "span",
+     "quotes": [
+      "פ״א קיבל שבת על השדה"
+     ],
+     "confidence": 2,
+     "why": "He recites the kabbalat Shabbat prayers.",
+     "quotes_failed": false
+    },
+    {
+     "tag": "practice:devekut",
+     "scope": "span",
+     "quotes": [
+      "והעלה בשעת מעשה את כל העולם למקורו הראשון"
+     ],
+     "confidence": 2,
+     "why": "His holy worship raises the world to its source.",
+     "quotes_failed": false
+    },
+    {
+     "tag": "not-a-hasidic-story:sermon",
+     "scope": "span",
+     "quotes": [
+      "ואומרים בשם צדיקים טעמו ונימוקו עמו"
+     ],
+     "confidence": 2,
+     "why": "The anecdote is wrapped in a long explanation of its meaning.",
+     "quotes_failed": false
+    },
+    {
+     "tag": "folkloristics:story_type_virtues",
+     "scope": "story",
+     "quotes": [],
+     "confidence": 2,
+     "why": "The story shows how great the Besht's holiness was.",
+     "quotes_failed": false
+    },
+    {
+     "tag": "practice:storytelling",
+     "scope": "span",
+     "quotes": [
+      "ששמע ואת מפי הה״ק מרוזין זצ״ל"
+     ],
+     "confidence": 1,
+     "why": "The story is framed as told by the Rizhiner.",
+     "quotes_failed": false
+    }
+   ],
+   "missing_concepts": [
+    "animals responding to a tsaddik's holiness",
+    "raising of creation / the life-force in things to its source"
+   ],
+   "start_quote_found": true,
+   "end_quote_found": true
+  }
+ ],
+ "check": {
+  "non_vocab_tags": [],
+  "quotes": 5,
+  "quotes_not_found": 0
+ },
+ "id": "Derech-Haemuna_0187",
+ "chars": 630,
+ "seconds": 12
+}

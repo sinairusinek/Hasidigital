@@ -1,0 +1,152 @@
+{
+ "unit": {
+  "kind": "hasidic_story",
+  "why": "A Besht saying followed by a narrative: on a journey with his disciples he says the wagon driver sinned overnight, and they watch until the driver gives himself away.",
+  "boundary_note": "Division ends with the heading 'מענין עולם הבא', which belongs to the next division."
+ },
+ "stories": [
+  {
+   "k": 1,
+   "start_quote": "שמעתי בשם הה״ק רבינו הבעש״ט ז״ל",
+   "end_quote": "שכל דבריהם אמת. (ש״צ פ׳ מטות)",
+   "hasidic": true,
+   "summary_en": "The Besht teaches that a sin done at night is unknowingly confessed by the sinner's mouth the next day; on a journey he tells his disciples that their wagon driver lay with his wife while she was niddah, and at an inn the driver says of an unimmersed cup 'what does it matter that it was not immersed,' confirming the Besht's words.",
+   "tags": [
+    {
+     "tag": "supernatural:perception",
+     "scope": "span",
+     "quotes": [
+      "דעו שאותו העגלון בעל נדה באותו הלילה"
+     ],
+     "confidence": 3,
+     "why": "Besht knows the driver's hidden sin",
+     "quotes_failed": false
+    },
+    {
+     "tag": "practice:the_travels_of_the_tsaddik",
+     "scope": "span",
+     "quotes": [
+      "פ״א נסע בדרך עם החברייא ז״ל"
+     ],
+     "confidence": 3,
+     "why": "the story happens on the Besht's journey",
+     "quotes_failed": false
+    },
+    {
+     "tag": "social:inter_hasidic_master_disciple_relationship",
+     "scope": "span",
+     "quotes": [
+      "עם החברייא ז״ל אמר להו"
+     ],
+     "confidence": 2,
+     "why": "the Besht instructs his disciples, who then test his words",
+     "quotes_failed": false
+    },
+    {
+     "tag": "ethics-and-emotions:prohibitions",
+     "scope": "span",
+     "quotes": [
+      "בעל נדה באותו הלילה"
+     ],
+     "confidence": 3,
+     "why": "violation of the niddah prohibition",
+     "quotes_failed": false
+    },
+    {
+     "tag": "practice:drinking_alcohol",
+     "scope": "span",
+     "quotes": [
+      "מכור לי יי״ש מזגה לו ורצה לשתות"
+     ],
+     "confidence": 3,
+     "why": "the driver orders and drinks brandy",
+     "quotes_failed": false
+    },
+    {
+     "tag": "characters-and-roles:tavern_keeper",
+     "scope": "span",
+     "quotes": [
+      "אמר העגלון לבעה״ב מכור לי יי״ש"
+     ],
+     "confidence": 2,
+     "why": "the inn-keeper serves the drink",
+     "quotes_failed": false
+    },
+    {
+     "tag": "practice:tvilah",
+     "scope": "span",
+     "quotes": [
+      "כי זה הכוס לא נטבל"
+     ],
+     "confidence": 1,
+     "why": "immersion of a vessel, which hints at the wife's failure to immerse",
+     "quotes_failed": false
+    },
+    {
+     "tag": "ethics-and-emotions:joy",
+     "scope": "span",
+     "quotes": [
+      "שמחו והודו לה׳ כי טוב"
+     ],
+     "confidence": 2,
+     "why": "the disciples rejoice when the prediction is confirmed",
+     "quotes_failed": false
+    },
+    {
+     "tag": "practice:torat_ha_tsaddik",
+     "scope": "span",
+     "quotes": [
+      "להאמין בצדיקים באמונה שלימה שכל דבריהם אמת"
+     ],
+     "confidence": 3,
+     "why": "the moral is faith in the tsaddikim",
+     "quotes_failed": false
+    },
+    {
+     "tag": "practice:sermon",
+     "scope": "span",
+     "quotes": [
+      "כל חטא שעושה אדם בלילה מוכרח הוא להגיד בפיו ביום"
+     ],
+     "confidence": 2,
+     "why": "the story is framed by the Besht's teaching",
+     "quotes_failed": false
+    },
+    {
+     "tag": "women:mention_only",
+     "scope": "span",
+     "quotes": [
+      "בעל נדה באותו הלילה"
+     ],
+     "confidence": 2,
+     "why": "the driver's wife is implied but does not act",
+     "quotes_failed": false
+    },
+    {
+     "tag": "practice:halakhah",
+     "scope": "span",
+     "quotes": [
+      "המתין עד שאתן לך כוס אחר כי זה הכוס לא נטבל"
+     ],
+     "confidence": 2,
+     "why": "the law of immersing vessels is raised",
+     "quotes_failed": false
+    }
+   ],
+   "missing_concepts": [
+    "unwitting confession of a hidden sin through speech",
+    "wagon driver as a character"
+   ],
+   "start_quote_found": true,
+   "end_quote_found": true
+  }
+ ],
+ "check": {
+  "non_vocab_tags": [],
+  "quotes": 12,
+  "quotes_not_found": 0
+ },
+ "id": "Derech-Haemuna_0168",
+ "chars": 813,
+ "seconds": 14
+}

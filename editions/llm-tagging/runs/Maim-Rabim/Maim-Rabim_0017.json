@@ -1,0 +1,103 @@
+{
+ "unit": {
+  "kind": "hasidic_story",
+  "why": "A short anecdote, told by R. Yitzhak of Neskhiz, about R. Mordechai of Neskhiz at the court of R. Michel of Zlotchov, who gives charity to a simple man himself, followed by an appended homiletic excerpt from Noam Elimelech on charity.",
+  "boundary_note": "narrative ends at 'לעשותו בעצמו'; the rest is an appended teaching quoted from Noam Elimelech"
+ },
+ "stories": [
+  {
+   "k": 1,
+   "start_quote": "סיפר מרן הה״ק ר׳ יצחק מנעסכיז שאביו",
+   "end_quote": "ולכן הוצרך לעשותו בעצמו",
+   "hasidic": true,
+   "summary_en": "When an honourable man came for alms, R. Michel of Zlotchov had his disciple R. Mordechai of Neskhiz give it, but he gave to a simple man himself, explaining that charity effects a holy unification, which is harder to achieve when giving to a simple person.",
+   "tags": [
+    {
+     "tag": "ethics-and-emotions:charity",
+     "scope": "span",
+     "quotes": [
+      "שהי' צריך ליתן לו נדבה",
+      "ועמד הרה״מ בעצמו ונתן לו",
+      "כי הנה ע״י צדקה נעשה יחוד קדוש"
+     ],
+     "confidence": 3,
+     "why": "giving alms is the subject of the story",
+     "quotes_failed": false
+    },
+    {
+     "tag": "kabbalah:kabbalistic_terms_yihudim",
+     "scope": "span",
+     "quotes": [
+      "כי הנה ע״י צדקה נעשה יחוד קדוש",
+      "ובתת לאיש פשוט כבד יותר לעשות היחוד"
+     ],
+     "confidence": 3,
+     "why": "charity is described as performing a mystical yihud",
+     "quotes_failed": false
+    },
+    {
+     "tag": "practice:meditation",
+     "scope": "span",
+     "quotes": [
+      "ולכן בתת לאיש הגון בנקל יותר לעשות היחוד"
+     ],
+     "confidence": 2,
+     "why": "the tsaddik performs a yihud himself",
+     "quotes_failed": false
+    },
+    {
+     "tag": "social:inter_hasidic_master_disciple_relationship",
+     "scope": "span",
+     "quotes": [
+      "בהיותו לפני הרב המגיד רבו ר' מיכל מזלאטשוב",
+      "ושאלוהו הנעסכיזר ע״ז והשיבו הרה״מ"
+     ],
+     "confidence": 3,
+     "why": "the disciple asks his master and receives an explanation",
+     "quotes_failed": false
+    },
+    {
+     "tag": "practice:storytelling",
+     "scope": "span",
+     "quotes": [
+      "סיפר מרן הה״ק ר׳ יצחק מנעסכיז שאביו"
+     ],
+     "confidence": 2,
+     "why": "framed as a tale told by a named tsaddik about his father",
+     "quotes_failed": false
+    },
+    {
+     "tag": "characters-and-roles:the_family_of_the_tsaddik",
+     "scope": "span",
+     "quotes": [
+      "ר׳ יצחק מנעסכיז שאביו הג׳ מהר\"ם"
+     ],
+     "confidence": 1,
+     "why": "the narrator tells about his own father",
+     "quotes_failed": false
+    },
+    {
+     "tag": "not-a-hasidic-story:sermon",
+     "scope": "story",
+     "quotes": [],
+     "confidence": 1,
+     "why": "a short narrative leading to a teaching, followed by an appended homily from Noam Elimelech",
+     "quotes_failed": false
+    }
+   ],
+   "missing_concepts": [
+    "worthiness of the recipient of charity (simple man vs. honourable man)"
+   ],
+   "start_quote_found": true,
+   "end_quote_found": true
+  }
+ ],
+ "check": {
+  "non_vocab_tags": [],
+  "quotes": 10,
+  "quotes_not_found": 0
+ },
+ "id": "Maim-Rabim_0017",
+ "chars": 810,
+ "seconds": 18
+}

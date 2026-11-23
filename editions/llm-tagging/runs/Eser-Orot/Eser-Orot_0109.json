@@ -1,0 +1,112 @@
+{
+ "unit": {
+  "kind": "hasidic_story",
+  "why": "A short report in a letter: the Besht foretold the Kozhnitzer Maggid's birth, and R. Hayyim of Volozhin tells how he spent a whole day in pilpul with the Maggid and found him a master of the Talmud.",
+  "boundary_note": ""
+ },
+ "stories": [
+  {
+   "k": 1,
+   "start_quote": "הגה\"ק ר׳ ישראל המגיד מקאזניץ שהיה",
+   "end_quote": "ראשונים ואחרונים כאחד מהגאונים",
+   "hasidic": true,
+   "summary_en": "R. Israel, the Maggid of Kozhnitz, was born late to his father after the Besht foretold a righteous son, and R. Hayyim of Volozhin testified that during his wanderings he spent a whole day in pilpul with him and found him a master of the Babylonian Talmud with Tosafot by heart, the Jerusalem Talmud and the codifiers.",
+   "tags": [
+    {
+     "tag": "folkloristics:story_type_virtues",
+     "scope": "story",
+     "quotes": [],
+     "confidence": 3,
+     "why": "The point is to show the Maggid's greatness in Torah learning.",
+     "quotes_failed": false
+    },
+    {
+     "tag": "practice:study",
+     "scope": "span",
+     "quotes": [
+      "ועסקתי עמו כיום תמים בעמקי הפלפול",
+      "בקי בש\"ס בבלי ממש בע״פ"
+     ],
+     "confidence": 3,
+     "why": "A day of Talmudic pilpul is depicted.",
+     "quotes_failed": false
+    },
+    {
+     "tag": "social:relations_with_non_hasidim",
+     "scope": "span",
+     "quotes": [
+      "מהגאון מו״ה חיים אבד״ק וולאזין ז\"ל"
+     ],
+     "confidence": 3,
+     "why": "The mitnagdic leader R. Hayyim of Volozhin meets the Maggid and testifies about him.",
+     "quotes_failed": false
+    },
+    {
+     "tag": "supernatural:prognostication",
+     "scope": "span",
+     "quotes": [
+      "שעפ\"י הבעש״ט ז\"ל נתבשר לו שיולד לו בן"
+     ],
+     "confidence": 2,
+     "why": "The Besht foretold the birth of a righteous son, and it came true.",
+     "quotes_failed": false
+    },
+    {
+     "tag": "times:birth",
+     "scope": "span",
+     "quotes": [
+      "והי' בן יחיד לאביו לעת זקנתו"
+     ],
+     "confidence": 2,
+     "why": "His birth in his father's old age is mentioned.",
+     "quotes_failed": false
+    },
+    {
+     "tag": "characters-and-roles:the_family_of_the_tsaddik",
+     "scope": "span",
+     "quotes": [
+      "בן הרב ר׳ שבתי כורך ספרים"
+     ],
+     "confidence": 2,
+     "why": "His father, the bookbinder R. Shabbetai, appears.",
+     "quotes_failed": false
+    },
+    {
+     "tag": "practice:storytelling",
+     "scope": "span",
+     "quotes": [
+      "מה ששמע מהגאון מו״ה חיים אבד״ק וולאזין",
+      "שאמר להגאון מו\"ה יעקב מאיר פדוואה"
+     ],
+     "confidence": 1,
+     "why": "The tale reaches us through a chain of tellers.",
+     "quotes_failed": false
+    },
+    {
+     "tag": "characters-and-roles:preacher",
+     "scope": "span",
+     "quotes": [
+      "ר׳ ישראל המגיד מקאזניץ"
+     ],
+     "confidence": 1,
+     "why": "'Maggid' here is the tsaddik's title, not a separate preacher figure, so this tag is borderline.",
+     "quotes_failed": false
+    }
+   ],
+   "missing_concepts": [
+    "testimony of a mitnagdic scholar to a tsaddik's Talmudic learning (legitimation)",
+    "blessing for a son by the Besht to the tsaddik's parents"
+   ],
+   "start_quote_found": true,
+   "end_quote_found": true
+  }
+ ],
+ "check": {
+  "non_vocab_tags": [],
+  "quotes": 9,
+  "quotes_not_found": 0
+ },
+ "id": "Eser-Orot_0109",
+ "chars": 618,
+ "seconds": 17
+}

@@ -1,0 +1,101 @@
+{
+ "unit": {
+  "kind": "paratext_with_story",
+  "why": "Mostly footnote-style genealogical notes and yahrzeit (hillula) dates for R. Yehiel Michel of Zlotchov's circle and descendants. Embedded in them is a short anecdote about how R. Michel foresaw his own death and died on the Sabbath.",
+  "boundary_note": "part of a running series of numbered notes continuing from the previous division into the next"
+ },
+ "stories": [
+  {
+   "k": 1,
+   "start_quote": "עוד קבלתי מנכדיו הנ״ל כי נצו״י",
+   "end_quote": "מגודל האור נסתלק ברעוא עלאה",
+   "hasidic": true,
+   "summary_en": "On the Sabbath of the joined portions Nitzavim-Vayelekh, R. Yehiel Michel was called to the Torah for the sixth aliyah and heard the verse 'הן קרבו ימיך למות'. He read the verse as a hint of his years and his name, and he died that evening at the third Sabbath meal amid great light.",
+   "tags": [
+    {
+     "tag": "folkloristics:story_type_death_of_the_tsaddik",
+     "scope": "story",
+     "quotes": [],
+     "confidence": 3,
+     "why": "The anecdote is centered on the tzaddik's passing.",
+     "quotes_failed": false
+    },
+    {
+     "tag": "times:death",
+     "scope": "span",
+     "quotes": [
+      "ולעת ערב בסעודה השלישית מגודל האור נסתלק ברעוא עלאה"
+     ],
+     "confidence": 3,
+     "why": "His death is narrated.",
+     "quotes_failed": false
+    },
+    {
+     "tag": "times:shabbat",
+     "scope": "span",
+     "quotes": [
+      "ולעת ערב בסעודה השלישית מגודל האור נסתלק"
+     ],
+     "confidence": 3,
+     "why": "The events take place on Shabbat, during the Torah reading and the third meal.",
+     "quotes_failed": false
+    },
+    {
+     "tag": "supernatural:prognostication",
+     "scope": "span",
+     "quotes": [
+      "רמז לו הן שנים (כן הי׳ שנותיו) קראו ימיך למות"
+     ],
+     "confidence": 2,
+     "why": "He reads the verse as a sign of his imminent death, which then happens.",
+     "quotes_failed": false
+    },
+    {
+     "tag": "practice:sermon",
+     "scope": "span",
+     "quotes": [
+      "הי״וד של ימיך הוא יחיאל ואותיות הנשארים של ימיך"
+     ],
+     "confidence": 2,
+     "why": "He gives a letter-based exegesis of the verse.",
+     "quotes_failed": false
+    },
+    {
+     "tag": "supernatural:light_or_fire_as_a_sign_of_righteousness",
+     "scope": "span",
+     "quotes": [
+      "מגודל האור נסתלק ברעוא עלאה"
+     ],
+     "confidence": 1,
+     "why": "Great light accompanies his death, though the text may mean spiritual light.",
+     "quotes_failed": false
+    },
+    {
+     "tag": "supernatural:perception",
+     "scope": "span",
+     "quotes": [
+      "ואמר רבינו זצללה״ה זי״ע שזה. רמז לו"
+     ],
+     "confidence": 1,
+     "why": "He perceives a hidden hint about his own end.",
+     "quotes_failed": false
+    }
+   ],
+   "missing_concepts": [
+    "Torah reading / being called up for an aliyah",
+    "hint encoded in the tzaddik's name",
+    "yahrzeit (hillula) dates and genealogy"
+   ],
+   "start_quote_found": true,
+   "end_quote_found": true
+  }
+ ],
+ "check": {
+  "non_vocab_tags": [],
+  "quotes": 6,
+  "quotes_not_found": 0
+ },
+ "id": "Maim-Rabim_0021",
+ "chars": 2827,
+ "seconds": 17
+}

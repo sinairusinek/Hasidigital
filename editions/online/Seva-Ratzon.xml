@@ -18,7 +18,7 @@
 					<name>DictaBert</name>
 					<note>automatic tagging, corrected with Gemini; not yet reviewed by hand</note>
 				</respStmt>
-			</titleStmt><editionStmt><edition n="1.0.0">Working edition</edition></editionStmt>
+			<respStmt xml:id="llm-tagging"><resp>Topic tags: assigned by Claude Opus 5.5 with the project's topic scheme (editions/llm-tagging; calibrated 2026-11-16, est. precision 0.89 / recall 0.90, model-judged); not reviewed by hand</resp><name>Claude Opus 5.5 (Anthropic)</name></respStmt></titleStmt><editionStmt><edition n="1.0.0">Working edition</edition></editionStmt>
 			<publicationStmt>
 				<p>This edition was created in the framework of the the project "Historical Digital
 					Analysis of Hasidic Stories Until 1914", PI: Gadi Sagiv; Supervising
@@ -28,7 +28,7 @@
 			</publicationStmt>
 			<sourceDesc><bibl type="digital"><title>Digital scan from HebrewBooks.org</title><publisher>HebrewBooks.org</publisher><ptr target="https://hebrewbooks.org/39105"/><idno type="HebrewBooks">39105</idno><idno type="Transkribus">6577969</idno><note>Source for transcription</note></bibl><bibl type="original"><title type="main" xml:lang="he">שבע רצון</title><title type="main" xml:lang="en">Sheva Ratzon</title><author><persName xml:lang="he">יצחק צינגר</persName><persName xml:lang="en">Yitzhak Zinger</persName></author><pubPlace xml:lang="he">פאדגורזא</pubPlace><pubPlace xml:lang="en">Podgorze</pubPlace><date when="1900">תרס"א</date><textLang mainLang="heb"/><idno type="HebrewBooks">39105</idno><idno type="Kima">168</idno><idno type="Transkribus">6577969</idno><idno type="DBid">3706</idno><idno type="work">59</idno></bibl></sourceDesc>
 		</fileDesc>
-	<revisionDesc><change when="2026-04-29">sourceDesc synced from edition-metadata.json</change><change when="2026-11-21">text repaired: Gemini correction pass replayed without the tag-stripping bug that shuffled text (58f4166); later tag edits carried over</change><change when="2026-11-21">header in the shape of the online editions; page breaks restored from the Transkribus export</change></revisionDesc></teiHeader>
+	<revisionDesc><change when="2026-04-29">sourceDesc synced from edition-metadata.json</change><change when="2026-11-21">text repaired: Gemini correction pass replayed without the tag-stripping bug that shuffled text (58f4166); later tag edits carried over</change><change when="2026-11-21">header in the shape of the online editions; page breaks restored from the Transkribus export</change><change when="2026-11-23">topic tags (LLM, confidence &gt;= 2) written for 20 stories; not reviewed by hand</change></revisionDesc></teiHeader>
 	<text>
 		<front><div type="front-matter"><p>
 					<pb facs="Seva-Ratzon_0001.jpg"/><lb/>ספר
@@ -66,7 +66,7 @@
 					<lb/>המלבה"ד <persName>יצחק צינגער</persName>
 				</p>
 				</div></front><body>
-			<div type="story" xml:id="Seva-Ratzon_0001" n="1"><head type="storyHead">Seva<anchor xml:id="ner_905_934"/>-Ratzon_0001</head>
+			<div type="story" xml:id="Seva-Ratzon_0001" n="1"><head type="storyHead">Seva<anchor xml:id="ner_905_934"/>-Ratzon_0001</head><span ana="ethics-and-emotions:humility; ethics-and-emotions:shame; folkloristics:story_type_prognostication; folkloristics:story_type_rapprochement; practice:business_advice; practice:healing; practice:sermon; practice:torat_ha_tsaddik; practice:travel_to_the_tsaddik; social:relations_with_non_hasidim; supernatural:prognostication; ethics-and-emotions:fear; ethics-and-emotions:joy; practice:pidyon_nefesh; practice:reception_of_hasidim; social:conflict; social:inter_hasidic_master_disciple_relationship; social:relations_with_non_jews; social:retrospective_recognition; supernatural:miracle; times:eschatology" resp="#llm-tagging">תיוגים</span>
 <p>
 					<pb facs="Seva-Ratzon_0003.jpg"/><lb/>מהה״ק ר׳ <persName>בעריש מ<placeName ana="bio">אושפצין</placeName></persName> ז״ל ורבו הגה״ק
 					<persName><lb/>מהר״ש מ<placeName ana="bio">קשאנוב</placeName></persName>.
@@ -171,7 +171,7 @@
 					<lb/>נסע עמהם וישבו ב<placeName>אושפצין</placeName> ב׳ ימים לשמוע דבריו הק׳ ומן אז והלאה
 					<lb/>נסעו אליו מ<placeName>פרייסין</placeName> בכל יום ויום והראה מופתים גדולים ונוראים:
 				</p>
-				</div><div type="story" xml:id="Seva-Ratzon_0002" n="2"><head type="storyHead">Seva-Ratzon_0002</head>
+				</div><div type="story" xml:id="Seva-Ratzon_0002" n="2"><head type="storyHead">Seva-Ratzon_0002</head><span ana="practice:sermon; times:shabbat; experience:revelation; practice:prayer; social:relations_with_non_hasidim" resp="#llm-tagging">תיוגים</span>
 <p>
 					<lb/>פעם אחת דרש בשבת תשובה בביהכנ״ס והי׳ שם איש א' מ<placeName>מעהררו</placeName>
 					<lb/>ובא אל הדרשה ואצל האשכנזים המנהג לפלפל עם הרב באמצע
@@ -194,7 +194,7 @@
 					<lb/>ר׳ שפתי תפתח נשכח ממני כל הסדר ורק אמרתי כדרכי מעולם מה
 					<lb/>שהש״י מזמין לפי לכן בא השטן וד׳ הצילני :
 				</p>
-				</div><div type="story" xml:id="Seva-Ratzon_0003" n="3"><head type="storyHead">Seva-Ratzon_0003</head>
+				</div><div type="story" xml:id="Seva-Ratzon_0003" n="3"><head type="storyHead">Seva-Ratzon_0003</head><span ana="ethics-and-emotions:joy; experience:visions; practice:clothing; practice:dance; practice:drinking_alcohol; practice:halakhah; practice:music; practice:pilgrimage_to_the_graves_of_tsaddikim; social:inter_hasidic_master_disciple_relationship; supernatural:perception; times:holidays; practice:devekut; practice:prayer; practice:recitation_of_psalms; practice:the_travels_of_the_tsaddik; practice:torat_ha_tsaddik; supernatural:communicating_with_the_invisible" resp="#llm-tagging">תיוגים</span>
 <p>
 					<lb/>בשנת <date>תקפ״ט</date> נסע הה״ק <persName>ר״ב</persName> עם אנשי בריתו לק׳ <placeName>קשאנוב</placeName> על ל״ג
 					<lb/>בעומר יום היא״צ של רבו הגה״ק מ<placeName>קשאנוב</placeName> וכאשר בא אל בית
@@ -219,7 +219,7 @@
 					<lb/>רבינו מפה יושב אתי על השלחן ואיך אעזוב את רבינו אולי כשנברך
 					<lb/>בהמ״ז ילך גם הוא לדרכו ולא אזכה עוד לראותו
 				</p>
-				</div><div type="story" xml:id="Seva-Ratzon_0004" n="4"><head type="storyHead">Seva-Ratzon_0004</head>
+				</div><div type="story" xml:id="Seva-Ratzon_0004" n="4"><head type="storyHead">Seva-Ratzon_0004</head><span ana="ethics-and-emotions:humility; practice:clothing; practice:healing; practice:travel_to_the_tsaddik; supernatural:miracle; folkloristics:story_type_virtues; practice:reception_of_hasidim; practice:storytelling; social:relations_with_non_hasidim; women:catalyst_character" resp="#llm-tagging">תיוגים</span>
 <p>
 					<lb/>סיפר הה״ק ר׳ <persName>בעריש</persName> מרבו הק׳ הנ"ל כי פעם אחת בעת לימוד חריפות
 					<lb/>באו ב׳ אנשים בקרון ועל העגלה הביאו משוגעת אחת מ<placeName>פרייסין</placeName>
@@ -241,7 +241,7 @@
 					<lb/>אז באו בחזרה להה״ק מ<placeName>קשאנוב</placeName> לבשר לו הבשורה ויצעק הרב עליהם
 					<lb/>כו תיכף ומיד יסעו לדרכם ולא יספרו ב<placeName>קשאנוב</placeName> לשום אדם :
 				</p>
-				</div><div type="story" xml:id="Seva-Ratzon_0005" n="5"><head type="storyHead">Seva-Ratzon_0005</head>
+				</div><div type="story" xml:id="Seva-Ratzon_0005" n="5"><head type="storyHead">Seva-Ratzon_0005</head><span ana="characters-and-roles:the_family_of_the_tsaddik; practice:study; social:marital_relationship; women:major_character; ethics-and-emotions:virtues; practice:storytelling" resp="#llm-tagging">תיוגים</span>
 <p>
 					<lb/>עוד סיפר הה״ק ר״ב מה ששמע מרבו הקדוש ר׳ <persName>שלמה</persName> הנ״ל בעת
 					<lb/>בואו ל<placeName>יענדריחוב</placeName> כי אחר נשיאתו הבטיחו לו מזונות ב׳ שנים ואחר
@@ -256,7 +256,7 @@
 					<lb/>אותו וישמע אלי' ולא נתן לו עוד הבלים לעסוק במלאכה ויחדול מלילך
 					<lb/>עוד להצורף :
 				</p>
-				</div><div type="story" xml:id="Seva-Ratzon_0006" n="6"><head type="storyHead">Seva-Ratzon_0006</head>
+				</div><div type="story" xml:id="Seva-Ratzon_0006" n="6"><head type="storyHead">Seva-Ratzon_0006</head><span ana="characters-and-roles:the_family_of_the_tsaddik; practice:devekut; practice:study; practice:travel_to_other_tsaddik; practice:travel_to_the_tsaddik; social:inter_hasidic_master_disciple_relationship; ethics-and-emotions:humility; knowledge:esoteric; social:conflict; social:inter_hasidic; social:marital_relationship; social:relations_with_non_hasidim; spaces:beth_midrash; women:minor_character" resp="#llm-tagging">תיוגים</span>
 <p>
 					<lb/>בעת ההוא נשמע כי הגאון הק׳ רבי ר׳ שמעלקא נתמנה לניקלשפורג
 					<lb/>לרב אז אמרה אליו זוגתו שיסע לנ״ש ללמוד תורה וישמע אלי
@@ -309,7 +309,7 @@
 					<lb/>חצי שנה ונסע לביתו ואח״כ נסע אליו כפעם בפעם ובכל עת התעכב
 					<lb/>שם כמה חדשים :
 				</p>
-				</div><div type="story" xml:id="Seva-Ratzon_0007" n="7"><head type="storyHead">Seva-Ratzon_0007</head>
+				</div><div type="story" xml:id="Seva-Ratzon_0007" n="7"><head type="storyHead">Seva-Ratzon_0007</head><span ana="ethics-and-emotions:fear; practice:circumcision; practice:the_travels_of_the_tsaddik; supernatural:communicating_with_the_invisible; supernatural:pregnancy; supernatural:prognostication; ethics-and-emotions:awe; practice:protection; practice:sermon; practice:torat_ha_tsaddik; practice:travel_to_the_tsaddik; social:inter_hasidic_master_disciple_relationship; supernatural:miracle; times:birth; women:mention_only" resp="#llm-tagging">תיוגים</span>
 <p>
 					<lb/>בכפר א׳ סמוך ל<placeName>אושפצין</placeName> הי׳ שם נגיד א׳ שלא הי׳ לו בן דבר פ״א
 					<lb/>בנות ויבקש מא׳ ממקורבי הה״ק ר׳ <persName>בעריש</persName> לדבר בעבורו ולבקש
@@ -338,7 +338,7 @@
 					<lb/>הי׳ לו כח לדבר והה"ק אמר תורה על פ׳ <name type="work">ואתחנן</name> שהי' אז עד
 					<lb/>בואם להב״מ:
 				</p>
-				</div><div type="story" xml:id="Seva-Ratzon_0008" n="8"><head type="storyHead">Seva-Ratzon_0008</head>
+				</div><div type="story" xml:id="Seva-Ratzon_0008" n="8"><head type="storyHead">Seva-Ratzon_0008</head><span ana="ethics-and-emotions:charity; practice:pidyon_nefesh; folkloristics:story_type_protection; practice:lifesaving; practice:storytelling; supernatural:miracle; supernatural:perception; times:holidays" resp="#llm-tagging">תיוגים</span>
 <p>
 					<lb/>פ״א אמר הה״ק ר״ב על ר׳ <persName>אייזק יאונגער</persName> ראש הקהל מ<placeName>יענדריחוב</placeName> בב
 					<lb/>נגזר עליו בזה ר״ה ענין ס"ג וישלח אליו איש א׳ להגיד לו בשם
@@ -347,7 +347,7 @@
 					<lb/>יעשה כל השנה וכאשר יעלה לו השנה אז ידע כי בטל הגזירה וכן עשה
 					<lb/>ובשנה ההוא עבר עליו ג״פ ענין סכנת נפשות וניצול מכולם :
 				</p>
-				</div><div type="story" xml:id="Seva-Ratzon_0009" n="9"><head type="storyHead">Seva-Ratzon_0009</head>
+				</div><div type="story" xml:id="Seva-Ratzon_0009" n="9"><head type="storyHead">Seva-Ratzon_0009</head><span ana="ethics-and-emotions:fear; ethics-and-emotions:punishment; folkloristics:story_type_prognostication; practice:drinking_alcohol; social:conflict; social:relations_with_non_jews; supernatural:prognostication; women:minor_character; folkloristics:story_type_protection; practice:protection; social:relations_with_the_authorities; social:retrospective_recognition; supernatural:miracle" resp="#llm-tagging">תיוגים</span>
 <p>
 					<lb/>אחר זה שבר ר׳ <persName>אייזק</persName> מה<placeName>גיבערנער</placeName> ב<placeName ref="#H-LOC_40">לבוב</placeName> כל הברזל אשר עושים
 					<lb/>ב<placeName>סיפשין</placeName> בארץ <placeName>הגר</placeName> כי שם עשה הקיסר <persName>הוטין</persName> לצקת הברזל ו<persName>ר״א</persName>
@@ -387,7 +387,7 @@
 					<lb/>אליו הערל הנ״ל ונשקו והבטיח לו כי יקיים שבועתו ולקח כל הכתבים
 					<lb/>מ<placeName>הגבערני</placeName> ושרף אותם לעיניו :
 				</p>
-				</div><div type="story" xml:id="Seva-Ratzon_0010" n="10"><head type="storyHead">Seva-Ratzon_0010</head>
+				</div><div type="story" xml:id="Seva-Ratzon_0010" n="10"><head type="storyHead">Seva-Ratzon_0010</head><span ana="ethics-and-emotions:humility; ethics-and-emotions:pride; folkloristics:story_type_prognostication; practice:healing; practice:reception_of_hasidim; practice:sermon; practice:storytelling; practice:travel_to_other_tsaddik; social:inter_hasidic_master_disciple_relationship; social:relations_with_non_hasidim; supernatural:perception; supernatural:pregnancy; supernatural:prognostication; times:shabbat; women:minor_character; ethics-and-emotions:fear; folkloristics:story_type_rapprochement; practice:drinking_alcohol; practice:music; practice:torat_ha_tsaddik; practice:travel_to_the_tsaddik; social:conflict; supernatural:miracle" resp="#llm-tagging">תיוגים</span>
 <p>
 					<lb/>איש אחד ממקורבי הה״ק ר׳ <persName>בעריש</persName> נחלה אשתו במשך ג׳ שנים ונלאו
 					<lb/>הרופאים למצא תרופה למחלתה ובפרט להוליד בנים אמרו כולם
@@ -568,7 +568,7 @@
 					<lb/>ומחייב כ״א ליסע אליו ואחר כמה חדשים נסעו אליו אנשים רבים
 					<lb/>בפרסום גדול ;
 				</p>
-				</div><div type="story" xml:id="Seva-Ratzon_0011" n="11"><head type="storyHead">Seva-Ratzon_0011</head>
+				</div><div type="story" xml:id="Seva-Ratzon_0011" n="11"><head type="storyHead">Seva-Ratzon_0011</head><span ana="ethics-and-emotions:awe; ethics-and-emotions:fear; ethics-and-emotions:humility; experience:trembling; practice:reception_of_hasidim; practice:torat_ha_tsaddik; practice:travel_to_other_tsaddik; practice:travel_to_the_tsaddik; times:historical_event; women:catalyst_character; characters-and-roles:the_family_of_the_tsaddik; folkloristics:story_type_virtues; practice:drinking_alcohol; social:inter_hasidic; supernatural:perception; times:shabbat" resp="#llm-tagging">תיוגים</span>
 <p>
 					<lb/>והאיש הנ״ל הי׳ דרכו בכל עת שנסע להה״<persName>ק מווישניצא</persName> למסור לו
 					<lb/>קוויטול גם מרבו הה״צ ר׳ <persName>בעריש</persName> וכאשר ראה הקוויטיל שלו
@@ -629,7 +629,7 @@
 					<lb/>להאנשים שאתו לא יכולתי לעמוד מבני הקדושה שיש בחדרו וכמעט
 					<lb/>שלא שרף אותו האש. אוי וישניצא אינם יודעים מה שיש אצלם:
 				</p>
-				</div><div type="story" xml:id="Seva-Ratzon_0012" n="12"><head type="storyHead">Seva-Ratzon_0012</head>
+				</div><div type="story" xml:id="Seva-Ratzon_0012" n="12"><head type="storyHead">Seva-Ratzon_0012</head><span ana="practice:drinking_alcohol; practice:joke; practice:sermon; practice:travel_to_other_tsaddik; social:inter_hasidic; social:inter_hasidic_master_disciple_relationship; ethics-and-emotions:humility; ethics-and-emotions:joy; ethics-and-emotions:punishment; ethics-and-emotions:sadness; practice:devekut; practice:tefillin; practice:the_travels_of_the_tsaddik; practice:torat_ha_tsaddik; social:conflict; social:inter_hasidic_conflict_between_tsaddikim" resp="#llm-tagging">תיוגים</span>
 <p>
 					<lb/>אף גם זאת בהיות הרב ר׳ <persName>בעריש</persName> ב<placeName ref="#H-LOC_262">ווישניצא</placeName> והרגיש שיש להרב בר
 					<lb/>פלוגתא במקומו והוא הרב ר׳ <persName>אביש</persName> ויחקור על דירתו וילך אליו
@@ -694,7 +694,7 @@
 					<lb/>מתחלה לחיים שהוא אהבת ישראל ואח״כ לברך הברכה שהוא אהבת
 					<lb/>השם ואמר גיט שבת והלך ממנו :
 				</p>
-				</div><div type="story" xml:id="Seva-Ratzon_0013" n="13"><head type="storyHead">Seva-Ratzon_0013</head>
+				</div><div type="story" xml:id="Seva-Ratzon_0013" n="13"><head type="storyHead">Seva-Ratzon_0013</head><span ana="practice:smoking; social:inter_hasidic_master_disciple_relationship; experience:devekut; practice:devekut; practice:storytelling; social:inter_hasidic; social:marriage" resp="#llm-tagging">תיוגים</span>
 <p>
 					<lb/>סיפר הרב ר׳ <persName>בעריש</persName> פעם א׳ הי׳ חתונה גדולה ב<placeName>זארנווצא</placeName> והי׳ שם
 					<lb/>צדיקים יותר מב׳ מאות וחסידים לאין מספר וכמדומה שהה״ק
@@ -713,7 +713,7 @@
 					<lb/>פתאום בא אליו חזרה כל החושים ואז קבל ממנו ענין התפשטות הגשמיות
 					<lb/>ומן אז והלאה מתי שירצה יכול להפשיט מעליו הגשמיות;
 				</p>
-				</div><div type="story" xml:id="Seva-Ratzon_0014" n="14"><head type="storyHead">Seva-Ratzon_0014</head>
+				</div><div type="story" xml:id="Seva-Ratzon_0014" n="14"><head type="storyHead">Seva-Ratzon_0014</head><span ana="characters-and-roles:the_family_of_the_tsaddik; ethics-and-emotions:fear; ethics-and-emotions:humility; ethics-and-emotions:prohibitions; ethics-and-emotions:punishment; ethics-and-emotions:repentance; folkloristics:story_type_parable; folkloristics:story_type_rapprochement; folkloristics:story_type_virtues; practice:healing; practice:sermon; practice:storytelling; practice:torat_ha_tsaddik; practice:travel_to_other_tsaddik; practice:writing_amulets; social:inter_hasidic; social:poverty; social:relations_with_non_hasidim; supernatural:perception; times:shabbat; characters-and-roles:hidden_righteous; characters-and-roles:messiah; characters-and-roles:preacher; ethics-and-emotions:anger; practice:halakhah; practice:lifesaving; social:inter_hasidic_master_disciple_relationship; supernatural:miracle; women:major_character; women:minor_character" resp="#llm-tagging">תיוגים</span>
 <p>
 					<lb/>פעם א׳ בא ל<placeName>אושפצין</placeName> ראקטער א׳ יהתפאר שהוא תלמיד הרב הגאון <persName>ר״ב</persName>
 					<persName><lb/>פרענקיל מ<placeName ana="bio" ref="#H-LOC_78">לייפניק</placeName></persName> שלמד אצלו ח׳ שנים ואהב לומר תורה אך הי׳
@@ -878,7 +878,7 @@
 					<lb/>לו שאינו משיח לאשר טעה בעצמו כ״כ ואתיישב עצמי אולי אתה משיח
 					<lb/>רק אני מכיר היטב את ערכי והא לך תירץ מספיק:
 				</p>
-				</div><div type="story" xml:id="Seva-Ratzon_0015" n="15"><head type="storyHead">Seva-Ratzon_0015</head>
+				</div><div type="story" xml:id="Seva-Ratzon_0015" n="15"><head type="storyHead">Seva-Ratzon_0015</head><span ana="folkloristics:story_type_death_of_the_tsaddik; practice:devekut; practice:sermon; practice:tefillin; practice:the_travels_of_the_tsaddik; social:inter_hasidic_inheritance_of_leadership; spaces:beth_midrash; times:death; times:shabbat; characters-and-roles:the_family_of_the_tsaddik; ethics-and-emotions:humility; experience:devekut; practice:music; practice:prayer; social:inter_hasidic; social:inter_hasidic_master_disciple_relationship; spaces:the_land_of_israel; times:holidays; times:inauguration" resp="#llm-tagging">תיוגים</span>
 <p>
 					<lb/>הה״ק מ<placeName ref="#H-LOC_262">ווישניצא</placeName> עלה על דעתו ליסע ל<placeName ref="#H-LOC_105">אה״ק</placeName> אך מן השמים עכבוהו
 					<lb/>ואז נסע לאיזה קהילות לאסוף על הוצאת הדרך והי׳ אז ב<placeName>קשנוב</placeName>
@@ -904,7 +904,7 @@
 					<lb/>הצדיק ר׳ <persName>יעקילי</persName> סורב מתחלה ונסבב הדבר אחר ז׳ שנים בא ל<placeName>אושפצין</placeName>
 					<lb/>וישב על כסאו ושמש בהוראה כ״ד שנים זי״ע :
 				</p>
-				</div><div type="story" xml:id="Seva-Ratzon_0016" n="16"><head type="storyHead">Seva-Ratzon_0016</head>
+				</div><div type="story" xml:id="Seva-Ratzon_0016" n="16"><head type="storyHead">Seva-Ratzon_0016</head><span ana="characters-and-roles:the_family_of_the_tsaddik; ethics-and-emotions:anger; ethics-and-emotions:fear; experience:enthusiasm; kabbalah:kabbalistic_terms_yihudim; practice:circumcision; practice:clothing; practice:travel_to_other_tsaddik; practice:tvilah; social:inter_hasidic_conflict_between_tsaddikim; social:inter_hasidic_master_disciple_relationship; supernatural:light_or_fire_as_a_sign_of_righteousness; supernatural:perception; times:shabbat; women:minor_character; experience:visions; practice:devekut; practice:meditation; practice:reception_of_hasidim; practice:sermon; practice:storytelling; practice:study; social:competition; supernatural:miracle" resp="#llm-tagging">תיוגים</span>
 <p>
 					<pb facs="Seva-Ratzon_0023.jpg"/><lb/>מהה"ק <persName>ברוך</persName> ז"ל מ<placeName>מעזיביש</placeName> 
 				</p>
@@ -1094,7 +1094,7 @@
 					<lb/>אליו ולמה אין התורה מגינה עליו ומשני כיון דנפל גלי דעתי׳ דלא ניחא
 					<lb/>לי׳ ואין כוונתו לעשות נחת רוח ליוצרו והבן :
 				</p>
-				</div><div type="story" xml:id="Seva-Ratzon_0017" n="17"><head type="storyHead">Seva-Ratzon_0017</head>
+				</div><div type="story" xml:id="Seva-Ratzon_0017" n="17"><head type="storyHead">Seva-Ratzon_0017</head><span ana="characters-and-roles:hidden_righteous; ethics-and-emotions:lust; ethics-and-emotions:repentance; ethics-and-emotions:resisting_temptation; folkloristics:story_type_revelation; practice:drinking_alcohol; practice:pidyon_shvuyim; practice:redemption_of_captives; practice:travel_to_the_tsaddik; social:relations_with_non_jews; social:retrospective_recognition; supernatural:miracle; supernatural:perception; women:major_character; women:minor_character; ethics-and-emotions:prohibitions; practice:storytelling; practice:torat_ha_tsaddik; spaces:heaven" resp="#llm-tagging">תיוגים</span>
 <p>
 					<lb/>פ״א הי׳ צרה גדולה על ישראל ר״ל ויבואו לפני הה״ק לשפוך שים
 					<lb/>להפציר בתפלה עבורם ויען הה״ק סעו נא לכפר <placeName>פלוני</placeName> ושם נמצא
@@ -1146,7 +1146,7 @@
 					<lb/>נעשה בעולם לכן כאשר כיוונו השעה שהקיץ מיינו וגזר אומר נתקיים
 					<lb/>הבטחתו
 				</p>
-				</div><div type="story" xml:id="Seva-Ratzon_0018" n="18"><head type="storyHead">Seva-Ratzon_0018</head>
+				</div><div type="story" xml:id="Seva-Ratzon_0018" n="18"><head type="storyHead">Seva-Ratzon_0018</head><span ana="experience:devekut; knowledge:esoteric; practice:devekut; practice:pidyon_shvuyim; practice:redemption_of_captives; practice:sermon; practice:the_travels_of_the_tsaddik; supernatural:perception; characters-and-roles:hidden_righteous; ethics-and-emotions:awe; ethics-and-emotions:charity; ethics-and-emotions:fear; ethics-and-emotions:joy; ethics-and-emotions:sadness; folkloristics:story_type_revelation; social:inter_hasidic_master_disciple_relationship; social:retrospective_recognition" resp="#llm-tagging">תיוגים</span>
 <p>
 					<lb/>הרב הגה״ק מו"ה <persName>יעקב שמשון מ<placeName ana="bio">שיפיטיווקא</placeName></persName> ז״ל הי׳ דרכו בקודש ליסע
 					<lb/>למרחקים לקבץ ממון על פדיון שבוים גם לפרנס הצדיקים הנסתרים
@@ -1192,7 +1192,7 @@
 					<lb/>גדולה ממה שהם פותחים ע״כ לא הי׳ יכול <persName>בלעם</persName> הרשע להרע ל<persName>ישראל</persName>
 					<lb/>כי ראה שאם יעשו תשובה מועטת מיד הקב״ה ישפיע להם רב טוב :
 				</p>
-				</div><div type="story" xml:id="Seva-Ratzon_0019" n="19"><head type="storyHead">Seva-Ratzon_0019</head>
+				</div><div type="story" xml:id="Seva-Ratzon_0019" n="19"><head type="storyHead">Seva-Ratzon_0019</head><span ana="practice:sermon; practice:storytelling; practice:study; spaces:heaven; times:death; ethics-and-emotions:virtues; not-a-hasidic-story:sermon; practice:prayer; social:conflict; spaces:rabbinical_court" resp="#llm-tagging">תיוגים</span>
 <p>
 					<lb/>סיפר הה"ק <persName>רר״ב</persName> הנ״ל מעשה נורא בעיר א׳ הי׳ איש א׳ אברך כמדרשו
 					<lb/>אב בחכמה ורך בשנים והלך לעולמו בימי עלומיו ועוד הי׳ שם
@@ -1215,7 +1215,7 @@
 					<lb/>מתכשר במלאכתו יותר מדאי נטלו המלך בידו והי׳ מטייל עמו ולערב
 					<lb/>נתן לו שכרו משלם התחילו הפועלים מצטערים וכו׳ עיי״ש:
 				</p>
-				</div><div type="story" xml:id="Seva-Ratzon_0020" n="20"><head type="storyHead">Seva-Ratzon_0020</head>
+				</div><div type="story" xml:id="Seva-Ratzon_0020" n="20"><head type="storyHead">Seva-Ratzon_0020</head><span ana="ethics-and-emotions:punishment; practice:sermon; practice:travel_to_the_tsaddik; social:conflict; social:relations_with_non_hasidim; supernatural:miracle; supernatural:perception; supernatural:prognostication; characters-and-roles:angels; ethics-and-emotions:pride; folkloristics:story_type_prognostication; knowledge:esoteric; practice:reception_of_hasidim; practice:study; social:competition; spaces:beth_midrash" resp="#llm-tagging">תיוגים</span>
 <p>
 					<lb/>בעת שהי׳ הגה״ק מ<placeName ref="#H-LOC_134">בארדיטשוב</placeName> דרבו לילך לביהכנ״ס לדרוש נמצא שם
 					<lb/>אז איש א׳ ממדינת <placeName ref="#H-LOC_18">ליטא</placeName> גאון עולם והתגורר שם והי׳ מחובשי

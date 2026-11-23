@@ -1,0 +1,143 @@
+{
+ "unit": {
+  "kind": "hasidic_story",
+  "why": "A single narrative: a letter praising the young rebbe is shown to him, and he then tells how his master in Mezhbizh rebuked him for hiding himself and urged him to lead.",
+  "boundary_note": ""
+ },
+ "stories": [
+  {
+   "k": 1,
+   "start_quote": "והנה נודע האגרת אשר של הה״צ ר״ש דייטש",
+   "end_quote": "ואף על פי כן אני מנהיג ורבי",
+   "hasidic": true,
+   "summary_en": "R. Moshe, author of Divrei Torah, shows the rebbe a letter in which his master promised to exalt him. The rebbe then tells how his uncle R. Moshe of Kozhnitz warned him in Mezhbizh that the master was displeased with him. When he asked, the master said he was hiding himself when he ought to lead Israel; the rebbe wept that a liar like him could not lead, and the master jokingly answered that he says the same of himself and is still a rebbe.",
+   "tags": [
+    {
+     "tag": "ethics-and-emotions:humility",
+     "scope": "span",
+     "quotes": [
+      "וכי שקר כמוני יהי׳ מנהיג ישראל",
+      "כבודו אמר תמיד שאינו טוב כלל"
+     ],
+     "confidence": 3,
+     "why": "The rebbe insists he is unworthy and conceals himself.",
+     "quotes_failed": false
+    },
+    {
+     "tag": "folkloristics:story_type_virtues",
+     "scope": "story",
+     "quotes": [],
+     "confidence": 3,
+     "why": "The tale illustrates the rebbe's humility and his master's esteem for him.",
+     "quotes_failed": false
+    },
+    {
+     "tag": "social:inter_hasidic_master_disciple_relationship",
+     "scope": "span",
+     "quotes": [
+      "הוא גדול בעיני מורו ורבו",
+      "ומיד הלך לבית קודש מורו ורבו"
+     ],
+     "confidence": 3,
+     "why": "The story centres on the master's regard for his disciple and his reproof of him.",
+     "quotes_failed": false
+    },
+    {
+     "tag": "practice:joke",
+     "scope": "span",
+     "quotes": [
+      "ואמר לו בדרך צחות, הלא גם אנכי אומר כן"
+     ],
+     "confidence": 3,
+     "why": "The master answers with an explicit jest.",
+     "quotes_failed": false
+    },
+    {
+     "tag": "ethics-and-emotions:sadness",
+     "scope": "span",
+     "quotes": [
+      "והתחיל לבכות ואמר לו"
+     ],
+     "confidence": 1,
+     "why": "The disciple weeps over his unworthiness; this is a brief moment, not a spiritual problem.",
+     "quotes_failed": false
+    },
+    {
+     "tag": "characters-and-roles:the_family_of_the_tsaddik",
+     "scope": "span",
+     "quotes": [
+      "אל הה״צ אבי מרן ז\"ל לבשרו",
+      "דודו ההק׳ ר׳ משה מקאזניץ זצ״ל"
+     ],
+     "confidence": 3,
+     "why": "The rebbe's father and uncle figure in the story.",
+     "quotes_failed": false
+    },
+    {
+     "tag": "practice:travel_to_the_tsaddik",
+     "scope": "span",
+     "quotes": [
+      "וסיפר כי פ״א היה במעזבוז"
+     ],
+     "confidence": 2,
+     "why": "The disciple stays with his master in Mezhbizh.",
+     "quotes_failed": false
+    },
+    {
+     "tag": "practice:storytelling",
+     "scope": "span",
+     "quotes": [
+      "ואז סיפר לו בעצמו ג״כ איך שהיה גדול בעיני מורו"
+     ],
+     "confidence": 2,
+     "why": "The rebbe himself narrates the inner episode.",
+     "quotes_failed": false
+    },
+    {
+     "tag": "practice:torat_ha_tsaddik",
+     "scope": "span",
+     "quotes": [
+      "עליך מוטל להיות מנהיג ורבן של ישראל"
+     ],
+     "confidence": 1,
+     "why": "The theme of the duty to assume tzaddik-leadership.",
+     "quotes_failed": false
+    },
+    {
+     "tag": "folkloristics:story_type_inauguration",
+     "scope": "span",
+     "quotes": [
+      "שרוצה לרוממו ולהגדילו ולנשאו על כל העולם"
+     ],
+     "confidence": 1,
+     "why": "The master presses him toward leadership, but no inauguration is narrated.",
+     "quotes_failed": false
+    },
+    {
+     "tag": "ethics-and-emotions:anger",
+     "scope": "span",
+     "quotes": [
+      "ודאי יש לי הקפדה עליך"
+     ],
+     "confidence": 1,
+     "why": "The master's displeasure (הקפדה) with his disciple.",
+     "quotes_failed": false
+    }
+   ],
+   "missing_concepts": [
+    "letters/correspondence as testimony of a tzaddik's greatness",
+    "reluctance to accept leadership"
+   ],
+   "start_quote_found": true,
+   "end_quote_found": true
+  }
+ ],
+ "check": {
+  "non_vocab_tags": [],
+  "quotes": 13,
+  "quotes_not_found": 0
+ },
+ "id": "Toldot-Haniflaot_0029",
+ "chars": 821,
+ "seconds": 19
+}

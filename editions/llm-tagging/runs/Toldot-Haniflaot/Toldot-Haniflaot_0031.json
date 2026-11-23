@@ -1,0 +1,101 @@
+{
+ "unit": {
+  "kind": "hasidic_story",
+  "why": "A single anecdote, told by R. Yosef of Dombrova, about the Maggid of Kozhnitz travelling with the master of Medzhibozh and being told he does not truly know his own nephew.",
+  "boundary_note": ""
+ },
+ "stories": [
+  {
+   "k": 1,
+   "start_quote": "והנה הה״צ ר׳ יוסף מדאמבראווע חתן",
+   "end_quote": "אינך מכיר אותו כלל וכלל",
+   "hasidic": true,
+   "summary_en": "While travelling together from Medzhibozh, the master of Medzhibozh asks the Maggid of Kozhnitz whether he knows the young man, his sister's son. The Maggid praises him more and more, and at parting the master tells him that despite all the praise he does not know him at all.",
+   "tags": [
+    {
+     "tag": "practice:the_travels_of_the_tsaddik",
+     "scope": "span",
+     "quotes": [
+      "ונסעו יחד ב' פרסאות",
+      "וכאשר נסעו משם לביתם הזדמן"
+     ],
+     "confidence": 3,
+     "why": "The exchange takes place on a shared journey of the two tsaddikim.",
+     "quotes_failed": false
+    },
+    {
+     "tag": "practice:travel_to_other_tsaddik",
+     "scope": "span",
+     "quotes": [
+      "פ״א הי׳ במעזבוז עם חותנו ההק׳"
+     ],
+     "confidence": 2,
+     "why": "The Maggid of Kozhnitz had stayed in Medzhibozh with the master there.",
+     "quotes_failed": false
+    },
+    {
+     "tag": "practice:storytelling",
+     "scope": "span",
+     "quotes": [
+      "מדאמבראווע חתן ההק' ר״מ א״מ מקאזניץ ז״ל סיפר"
+     ],
+     "confidence": 2,
+     "why": "The tale is framed as told by a named tsaddik who was present.",
+     "quotes_failed": false
+    },
+    {
+     "tag": "characters-and-roles:the_family_of_the_tsaddik",
+     "scope": "span",
+     "quotes": [
+      "המכיר מר את האברך וכו׳ בן אחותך",
+      "עם חותנו ההק׳"
+     ],
+     "confidence": 2,
+     "why": "The nephew of the Kozhnitzer is the subject, and his son-in-law is the narrator.",
+     "quotes_failed": false
+    },
+    {
+     "tag": "supernatural:perception",
+     "scope": "span",
+     "quotes": [
+      "אינך מכיר אותו כלל וכלל"
+     ],
+     "confidence": 2,
+     "why": "The master of Medzhibozh perceives the young man's true, hidden stature.",
+     "quotes_failed": false
+    },
+    {
+     "tag": "characters-and-roles:hidden_righteous",
+     "scope": "span",
+     "quotes": [
+      "דע כי אחר כל השבח הזה אינך מכיר אותו"
+     ],
+     "confidence": 1,
+     "why": "The young man's real greatness is implied to be hidden even from his own uncle.",
+     "quotes_failed": false
+    },
+    {
+     "tag": "social:inter_hasidic",
+     "scope": "story",
+     "quotes": [],
+     "confidence": 2,
+     "why": "The tale is an interaction between two Hasidic masters.",
+     "quotes_failed": false
+    }
+   ],
+   "missing_concepts": [
+    "one tsaddik's esteem and judgment of another person's hidden worth"
+   ],
+   "start_quote_found": true,
+   "end_quote_found": true
+  }
+ ],
+ "check": {
+  "non_vocab_tags": [],
+  "quotes": 8,
+  "quotes_not_found": 0
+ },
+ "id": "Toldot-Haniflaot_0031",
+ "chars": 574,
+ "seconds": 17
+}

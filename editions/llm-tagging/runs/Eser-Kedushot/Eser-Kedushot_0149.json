@@ -1,0 +1,93 @@
+{
+ "unit": {
+  "kind": "hasidic_story",
+  "why": "A short narrative frame (during R. Yitzchak Isaac's last illness the Sanzer rebbe wrote to him) introduces a quoted letter. It is the opening episode of the account of the tzaddik's final illness.",
+  "boundary_note": "The death narrative continues into the next division (לא), which tells of his last illness and death after Shavuot 1872."
+ },
+ "stories": [
+  {
+   "k": 1,
+   "start_quote": "בעת חליו האחרון בין פסח לעצרת",
+   "end_quote": "דוש\"ת : הק׳ חיים האלברשטאם :",
+   "hasidic": true,
+   "summary_en": "During R. Yitzchak Isaac of Zydaczow's final illness, R. Hayyim Halberstam of Sanz writes him a grieving letter. He urges him to pray for himself and for Israel, and declares that the people rely on his righteousness and his ancestors' merit.",
+   "tags": [
+    {
+     "tag": "social:inter_hasidic",
+     "scope": "span",
+     "quotes": [
+      "כתב אליו מרן הגאוה״ק איש אלקים אור החיים זצוקללה״ה מצאנז"
+     ],
+     "confidence": 3,
+     "why": "Correspondence between two tzaddikim",
+     "quotes_failed": false
+    },
+    {
+     "tag": "practice:torat_ha_tsaddik",
+     "scope": "span",
+     "quotes": [
+      "ואנו נשענים על צדקתו וזכות אבותיו הקדושים",
+      "כי הגיע מכאוב גדול לנשיא ישראל"
+     ],
+     "confidence": 3,
+     "why": "Israel depends on the tzaddik's merit and leadership",
+     "quotes_failed": false
+    },
+    {
+     "tag": "practice:prayer",
+     "scope": "span",
+     "quotes": [
+      "ולבקש רחמים על עצמו וירחם ויחמול"
+     ],
+     "confidence": 2,
+     "why": "He is asked to pray for mercy for himself and for the flock",
+     "quotes_failed": false
+    },
+    {
+     "tag": "ethics-and-emotions:sadness",
+     "scope": "span",
+     "quotes": [
+      "אשר עלה צער על נפשי",
+      "ובבכי נכסה דמעה מאין הפוגות"
+     ],
+     "confidence": 2,
+     "why": "The writer expresses grief over the tzaddik's illness",
+     "quotes_failed": false
+    },
+    {
+     "tag": "folkloristics:story_type_death_of_the_tsaddik",
+     "scope": "story",
+     "quotes": [],
+     "confidence": 2,
+     "why": "Opening episode of the last-illness and death sequence",
+     "quotes_failed": false
+    },
+    {
+     "tag": "ethics-and-emotions:virtues",
+     "scope": "span",
+     "quotes": [
+      "לשמור תו\"מ בלי פני׳"
+     ],
+     "confidence": 1,
+     "why": "The letter praises the tzaddik's integrity",
+     "quotes_failed": false
+    }
+   ],
+   "missing_concepts": [
+    "illness of the tzaddik",
+    "letter / correspondence between tzaddikim",
+    "counting of the Omer period"
+   ],
+   "start_quote_found": true,
+   "end_quote_found": true
+  }
+ ],
+ "check": {
+  "non_vocab_tags": [],
+  "quotes": 7,
+  "quotes_not_found": 0
+ },
+ "id": "Eser-Kedushot_0149",
+ "chars": 726,
+ "seconds": 18
+}

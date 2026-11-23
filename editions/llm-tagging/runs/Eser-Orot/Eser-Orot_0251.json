@@ -1,0 +1,112 @@
+{
+ "unit": {
+  "kind": "hasidic_story",
+  "why": "An anecdote, quoted from Zohar Hai, in which R. Naftali of Ropshitz asks a companion to learn the Mezhibozh rabbi's opinion of him, and for half a year the rabbi will not say a word about anyone.",
+  "boundary_note": ""
+ },
+ "stories": [
+  {
+   "k": 1,
+   "start_quote": "עוד בס׳ זוהר חי הנ\"ל שם",
+   "end_quote": "והוא מצער לשכינה ופוגם בה עכ״ל",
+   "hasidic": true,
+   "summary_en": "R. Naftali of Ropshitz asks the narrator's father-in-law, a close relative and study partner of the rabbi of Mezhibozh, to find out what the rabbi thinks of him; for half a year the rabbi will not say even a small word about anyone, showing his holiness of speech.",
+   "tags": [
+    {
+     "tag": "folkloristics:story_type_virtues",
+     "scope": "story",
+     "quotes": [],
+     "confidence": 3,
+     "why": "The story's point is the tzaddik's holiness of speech.",
+     "quotes_failed": false
+    },
+    {
+     "tag": "ethics-and-emotions:virtues",
+     "scope": "span",
+     "quotes": [
+      "מקדושת הדיבור של רבינו הנ\"ל ממעזיבוז",
+      "הי' לו משקל של זהב ממש בפיו"
+     ],
+     "confidence": 3,
+     "why": "Guarding one's speech is the virtue illustrated.",
+     "quotes_failed": false
+    },
+    {
+     "tag": "ethics-and-emotions:prohibitions",
+     "scope": "span",
+     "quotes": [
+      "כיון שנקראים יהודים אסור לדבר עליהם"
+     ],
+     "confidence": 3,
+     "why": "The text states the prohibition on speaking against Jews.",
+     "quotes_failed": false
+    },
+    {
+     "tag": "practice:study",
+     "scope": "span",
+     "quotes": [
+      "והי' לומד עמו ביחד גמרא ותוספות"
+     ],
+     "confidence": 2,
+     "why": "The father-in-law studied Talmud together with the rabbi.",
+     "quotes_failed": false
+    },
+    {
+     "tag": "social:inter_hasidic",
+     "scope": "span",
+     "quotes": [
+      "אברהם מרדכי איך בעט דיך האב רחמנות",
+      "וויא ער האלט פון מיר"
+     ],
+     "confidence": 2,
+     "why": "Naftali of Ropshitz asks a fellow hasid to learn the rabbi's opinion of him.",
+     "quotes_failed": false
+    },
+    {
+     "tag": "ethics-and-emotions:humility",
+     "scope": "span",
+     "quotes": [
+      "שלא ירע בשום דיבור לבר ישראל"
+     ],
+     "confidence": 1,
+     "why": "The restraint may reflect self-effacement; borderline.",
+     "quotes_failed": false
+    },
+    {
+     "tag": "practice:storytelling",
+     "scope": "span",
+     "quotes": [
+      "וסיפר לי מו\"ח מקדושת הדיבור"
+     ],
+     "confidence": 1,
+     "why": "The tale is framed as told by the author's father-in-law.",
+     "quotes_failed": false
+    },
+    {
+     "tag": "characters-and-roles:the_family_of_the_tsaddik",
+     "scope": "span",
+     "quotes": [
+      "ממעזיבוז שהי׳ קרובו והי׳ מקורב"
+     ],
+     "confidence": 1,
+     "why": "The father-in-law is a relative of the rabbi.",
+     "quotes_failed": false
+    }
+   ],
+   "missing_concepts": [
+    "guarding speech / avoiding lashon hara (shemirat ha-lashon)",
+    "speaking ill of Jews as harm to the Shekhinah"
+   ],
+   "start_quote_found": true,
+   "end_quote_found": true
+  }
+ ],
+ "check": {
+  "non_vocab_tags": [],
+  "quotes": 9,
+  "quotes_not_found": 0
+ },
+ "id": "Eser-Orot_0251",
+ "chars": 710,
+ "seconds": 14
+}

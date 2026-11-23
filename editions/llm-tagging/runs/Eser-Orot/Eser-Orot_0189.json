@@ -1,0 +1,133 @@
+{
+ "unit": {
+  "kind": "hasidic_story",
+  "why": "A single anecdote: the young Seer of Lublin, studying in R. Shmelke's yeshiva, is tested twice by R. Shlomo of Kshanov and shows his humility and greatness in Torah.",
+  "boundary_note": ""
+ },
+ "stories": [
+  {
+   "k": 1,
+   "start_quote": "עוד שם כאשר הי' הרבי מלובלין בישיבה",
+   "end_quote": "בעבדות הבורא ופניו צהובים עכ״ל",
+   "hasidic": true,
+   "summary_en": "While the young Seer of Lublin sits humbly in R. Shmelke's yeshiva, R. Shlomo of Kshanov tests his learning twice with obscure Tosafot. The Seer shows he is great in Torah, but he refuses to show off, asks only for the true explanation, and stays absorbed in devekut.",
+   "tags": [
+    {
+     "tag": "ethics-and-emotions:humility",
+     "scope": "span",
+     "quotes": [
+      "והי׳ יושב תמיד בישיבה בשפל מקום",
+      "למה יאבה מעלתו להבחין אותי"
+     ],
+     "confidence": 3,
+     "why": "He sits in the lowest place and declines to display his learning",
+     "quotes_failed": false
+    },
+    {
+     "tag": "folkloristics:story_type_virtues",
+     "scope": "story",
+     "quotes": [],
+     "confidence": 3,
+     "why": "The anecdote illustrates the young tzaddik's humility and piety",
+     "quotes_failed": false
+    },
+    {
+     "tag": "practice:study",
+     "scope": "span",
+     "quotes": [
+      "ביקש ממנו לאמר לו פשט בתוספות א'"
+     ],
+     "confidence": 3,
+     "why": "The plot turns on Talmud and Tosafot learning",
+     "quotes_failed": false
+    },
+    {
+     "tag": "spaces:beth_midrash",
+     "scope": "span",
+     "quotes": [
+      "כאשר הי' הרבי מלובלין בישיבה אצל הרר\"ש"
+     ],
+     "confidence": 3,
+     "why": "The story is set in R. Shmelke's yeshiva",
+     "quotes_failed": false
+    },
+    {
+     "tag": "practice:devekut",
+     "scope": "span",
+     "quotes": [
+      "הי' תמיד דבוק בדביקות נפשא בעבדות הבורא"
+     ],
+     "confidence": 3,
+     "why": "He is described as constantly cleaving to God",
+     "quotes_failed": false
+    },
+    {
+     "tag": "experience:devekut",
+     "scope": "span",
+     "quotes": [
+      "הי' תמיד דבוק בדביקות נפשא בעבדות הבורא"
+     ],
+     "confidence": 2,
+     "why": "His state of cleaving is depicted",
+     "quotes_failed": false
+    },
+    {
+     "tag": "social:inter_hasidic_master_disciple_relationship",
+     "scope": "span",
+     "quotes": [
+      "והרר״ש חבב אותו עד מאד"
+     ],
+     "confidence": 2,
+     "why": "R. Shmelke's love for his disciple frames the story",
+     "quotes_failed": false
+    },
+    {
+     "tag": "social:inter_hasidic",
+     "scope": "span",
+     "quotes": [
+      "עלה על לב הרה״ק ר׳ שלמה הרב מקשאנוב",
+      "איך לתהות על קנקנו של הרב ר׳ יעקב יצחק"
+     ],
+     "confidence": 2,
+     "why": "A fellow member of the circle tests him",
+     "quotes_failed": false
+    },
+    {
+     "tag": "social:retrospective_recognition",
+     "scope": "span",
+     "quotes": [
+      "כי הוא גדול בתורה כי התוס׳ הלז"
+     ],
+     "confidence": 2,
+     "why": "R. Shlomo realizes that the quiet student is a great scholar",
+     "quotes_failed": false
+    },
+    {
+     "tag": "ethics-and-emotions:awe",
+     "scope": "span",
+     "quotes": [
+      "ולא הביט מד׳ אמותיו חוצה רק הלך תמיד בשח עינים"
+     ],
+     "confidence": 1,
+     "why": "Downcast eyes as pious reverence",
+     "quotes_failed": false
+    }
+   ],
+   "missing_concepts": [
+    "testing a scholar's learning (בחינה)",
+    "guarding the eyes / modesty of gaze",
+    "youth of the tzaddik"
+   ],
+   "start_quote_found": true,
+   "end_quote_found": true
+  }
+ ],
+ "check": {
+  "non_vocab_tags": [],
+  "quotes": 11,
+  "quotes_not_found": 0
+ },
+ "id": "Eser-Orot_0189",
+ "chars": 1000,
+ "seconds": 15
+}

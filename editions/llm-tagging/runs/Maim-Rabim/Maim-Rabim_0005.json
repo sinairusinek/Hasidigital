@@ -1,0 +1,135 @@
+{
+ "unit": {
+  "kind": "hasidic_story",
+  "why": "A short anecdote: Yente the prophetess, mother of R. Yitzhak of Drohobych, recites Kedushah while sweeping because she hears the angels. It is followed by a transmission note and an editor's kabbalistic gloss.",
+  "boundary_note": "The opening words 'אשת הה״ק ר׳ יוסף ספראווידליווער.' seem to be a stray fragment or heading belonging to the previous division's story about R. Yosef Spravidliver. The appended author's note (א״ה) is homiletic, not narrative."
+ },
+ "stories": [
+  {
+   "k": 1,
+   "start_quote": "אמו של הה״ק ר' יצחק מדראהביטש",
+   "end_quote": "לא פסקה רוח הקודש ממשפחת בית אבותם",
+   "hasidic": true,
+   "summary_en": "Yente the prophetess, mother of R. Yitzhak of Drohobych, once recited Kedushah while sweeping the house, explaining that she heard the angels saying 'Holy', and the tale is passed down through a chain of tsaddikim as proof that the holy spirit never left the family.",
+   "tags": [
+    {
+     "tag": "characters-and-roles:angels",
+     "scope": "span",
+     "quotes": [
+      "ששמעה קול המלאכים שאומרים קדוש"
+     ],
+     "confidence": 3,
+     "why": "She hears the angels' Kedushah",
+     "quotes_failed": false
+    },
+    {
+     "tag": "supernatural:communicating_with_the_invisible",
+     "scope": "span",
+     "quotes": [
+      "ששמעה קול המלאכים שאומרים קדוש"
+     ],
+     "confidence": 3,
+     "why": "She hears heavenly voices",
+     "quotes_failed": false
+    },
+    {
+     "tag": "supernatural:perception",
+     "scope": "span",
+     "quotes": [
+      "היתה נקראת יענטע דיא נביאה",
+      "לא פסקה רוח הקודש ממשפחת בית אבותם"
+     ],
+     "confidence": 3,
+     "why": "Prophetic, supernatural hearing; holy spirit in the family",
+     "quotes_failed": false
+    },
+    {
+     "tag": "characters-and-roles:the_family_of_the_tsaddik",
+     "scope": "span",
+     "quotes": [
+      "אמו של הה״ק ר' יצחק מדראהביטש"
+     ],
+     "confidence": 3,
+     "why": "The tsaddik's mother is the protagonist",
+     "quotes_failed": false
+    },
+    {
+     "tag": "women:major_character",
+     "scope": "span",
+     "quotes": [
+      "היתה נקראת יענטע דיא נביאה"
+     ],
+     "confidence": 3,
+     "why": "The woman is the sole actor",
+     "quotes_failed": false
+    },
+    {
+     "tag": "practice:prayer",
+     "scope": "span",
+     "quotes": [
+      "בשעה שהיתה מכבדת הבית היתה אומרת קדושה"
+     ],
+     "confidence": 2,
+     "why": "She recites the Kedushah liturgy",
+     "quotes_failed": false
+    },
+    {
+     "tag": "experience:revelation",
+     "scope": "span",
+     "quotes": [
+      "ששמעה קול המלאכים שאומרים קדוש"
+     ],
+     "confidence": 1,
+     "why": "A direct auditory disclosure of the heavenly realm",
+     "quotes_failed": false
+    },
+    {
+     "tag": "ethics-and-emotions:awe",
+     "scope": "span",
+     "quotes": [
+      "ע״כ היא ג״כ אומרת קדוש"
+     ],
+     "confidence": 1,
+     "why": "A response of religious awe to the angels' praise",
+     "quotes_failed": false
+    },
+    {
+     "tag": "practice:storytelling",
+     "scope": "span",
+     "quotes": [
+      "ששמע מאיש נכבד שסיפר בשם דודו"
+     ],
+     "confidence": 2,
+     "why": "The tale is explicitly framed as transmitted orally through named tsaddikim",
+     "quotes_failed": false
+    },
+    {
+     "tag": "not-a-hasidic-story:sermon",
+     "scope": "span",
+     "quotes": [
+      "ביותר יובנו הדברים עפ\"י מש״כ בס׳ מגן אברהם"
+     ],
+     "confidence": 1,
+     "why": "The brief anecdote is followed by an extended Zoharic/homiletic gloss",
+     "quotes_failed": false
+    }
+   ],
+   "missing_concepts": [
+    "female prophecy / women as bearers of the holy spirit",
+    "chain of transmission (letter, oral testimony) as authentication",
+    "sanctity of everyday domestic work",
+    "hereditary holy spirit across generations (lineage)"
+   ],
+   "start_quote_found": true,
+   "end_quote_found": true
+  }
+ ],
+ "check": {
+  "non_vocab_tags": [],
+  "quotes": 11,
+  "quotes_not_found": 0
+ },
+ "id": "Maim-Rabim_0005",
+ "chars": 1009,
+ "seconds": 17
+}

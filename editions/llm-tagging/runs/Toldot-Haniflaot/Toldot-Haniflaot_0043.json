@@ -1,0 +1,161 @@
+{
+ "unit": {
+  "kind": "hasidic_story",
+  "why": "A single narrative in which the rebbe (Maran) perceives a young hasid's grave sins, urges him to confess, and has R. Reuven arrange for him to be watched until he is caught and exposed.",
+  "boundary_note": ""
+ },
+ "stories": [
+  {
+   "k": 1,
+   "start_quote": "ושוב היה מעשה בנער א׳ מבני הנעורים",
+   "end_quote": "שמעתי הכל מר' ראובן ז״ל",
+   "hasidic": true,
+   "summary_en": "The rebbe repeatedly tells a popular, generous young hasid that he sees grave sins in him and offers to repair them if he confesses. The youth denies it out of shame, so before Shavuot the rebbe instructs R. Reuven to have the town's young men watch him, and he is caught sinning with other youths and publicly disgraced.",
+   "tags": [
+    {
+     "tag": "supernatural:perception",
+     "scope": "span",
+     "quotes": [
+      "כי אני רואה בך עבירות חמורות"
+     ],
+     "confidence": 3,
+     "why": "The rebbe sees the youth's hidden sins.",
+     "quotes_failed": false
+    },
+    {
+     "tag": "ethics-and-emotions:shame",
+     "scope": "span",
+     "quotes": [
+      "והוא מחמת בושה כפר ואמר לא עשיתי רע",
+      "בגודל מסוה הבושה על פניו"
+     ],
+     "confidence": 3,
+     "why": "Shame drives his denial and follows his public disgrace.",
+     "quotes_failed": false
+    },
+    {
+     "tag": "ethics-and-emotions:lying",
+     "scope": "span",
+     "quotes": [
+      "כפר ואמר לא עשיתי רע"
+     ],
+     "confidence": 3,
+     "why": "He falsely denies his sins.",
+     "quotes_failed": false
+    },
+    {
+     "tag": "practice:healing_of_the_soul",
+     "scope": "span",
+     "quotes": [
+      "אם אתה מתודה לפני אתקן אותך לבל ישאר רושם חטא"
+     ],
+     "confidence": 2,
+     "why": "The rebbe offers a tikkun of the soul in return for confession; it is offered but refused.",
+     "quotes_failed": false
+    },
+    {
+     "tag": "social:relations_with_sinners",
+     "scope": "story",
+     "quotes": [],
+     "confidence": 3,
+     "why": "The tsaddik confronts and exposes a sinner.",
+     "quotes_failed": false
+    },
+    {
+     "tag": "ethics-and-emotions:punishment",
+     "scope": "span",
+     "quotes": [
+      "ונתגלה קלונם, והיה קץ לעונם וחטאתם"
+     ],
+     "confidence": 2,
+     "why": "The exposure works as a consequence for the sin.",
+     "quotes_failed": false
+    },
+    {
+     "tag": "practice:travel_to_the_tsaddik",
+     "scope": "span",
+     "quotes": [
+      "החסידים הנוסעים למרן ז״ל מעיר א׳",
+      "ובכל פעם שבא למרן ז\"ל"
+     ],
+     "confidence": 3,
+     "why": "Young hasidim travel to the rebbe.",
+     "quotes_failed": false
+    },
+    {
+     "tag": "practice:drinking_alcohol",
+     "scope": "span",
+     "quotes": [
+      "ומוותר לכ״א לשתות עמו כנהוג"
+     ],
+     "confidence": 2,
+     "why": "His habit of drinking with others is part of his characterization.",
+     "quotes_failed": false
+    },
+    {
+     "tag": "times:holidays",
+     "scope": "span",
+     "quotes": [
+      "פ״א קודם חג השבועות"
+     ],
+     "confidence": 2,
+     "why": "The plan to watch him is set before Shavuot.",
+     "quotes_failed": false
+    },
+    {
+     "tag": "social:inter_hasidic",
+     "scope": "span",
+     "quotes": [
+      "דבר עם בני הנעורים מעירו"
+     ],
+     "confidence": 2,
+     "why": "The fellow hasidim of his town are enlisted to watch him.",
+     "quotes_failed": false
+    },
+    {
+     "tag": "practice:reception_of_hasidim",
+     "scope": "span",
+     "quotes": [
+      "וגם אח״כ עוד בא הנער הזה אל מרן ז\"ל"
+     ],
+     "confidence": 1,
+     "why": "The rebbe deals with the youth on each of his visits.",
+     "quotes_failed": false
+    },
+    {
+     "tag": "supernatural:prognostication",
+     "scope": "story",
+     "quotes": [],
+     "confidence": 1,
+     "why": "The rebbe's perception is confirmed when the sin is uncovered.",
+     "quotes_failed": false
+    },
+    {
+     "tag": "ethics-and-emotions:prohibitions",
+     "scope": "span",
+     "quotes": [
+      "שעשו יחד עבירות חמורות"
+     ],
+     "confidence": 2,
+     "why": "Grave transgressions are at issue.",
+     "quotes_failed": false
+    }
+   ],
+   "missing_concepts": [
+    "confession (viduy) before the tsaddik",
+    "communal surveillance and exposure of a sinner",
+    "eyewitness chain of transmission (narrator heard it from R. Reuven)"
+   ],
+   "start_quote_found": true,
+   "end_quote_found": true
+  }
+ ],
+ "check": {
+  "non_vocab_tags": [],
+  "quotes": 14,
+  "quotes_not_found": 1
+ },
+ "id": "Toldot-Haniflaot_0043",
+ "chars": 885,
+ "seconds": 16
+}

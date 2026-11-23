@@ -1,0 +1,110 @@
+{
+ "unit": {
+  "kind": "hasidic_story",
+  "why": "An anecdote, passed on through a chain of named witnesses, about the frail Maggid of Kozhenitz: carried to the study hall, he burns with fervour and seems to fly to the prayer stand.",
+  "boundary_note": "Part of a numbered series of praises of the Maggid; (י) is self-contained and the next item (יא) begins a new report."
+ },
+ "stories": [
+  {
+   "k": 1,
+   "start_quote": "והי׳ מושכב במטה מחמת שהי' חולה",
+   "end_quote": "רך בכדי שיוכל לעמוד",
+   "hasidic": true,
+   "summary_en": "The Maggid of Kozhenitz was so sick and emaciated that doctors wondered how he lived, yet when carried to the beit midrash he cried 'how awesome is this place', seemed to fly to the prayer stand, and prayed with burning fervour while standing on a soft bearskin.",
+   "tags": [
+    {
+     "tag": "experience:enthusiasm",
+     "scope": "span",
+     "quotes": [
+      "הי' בוער כלפיד אש בהתלהבות גדול"
+     ],
+     "confidence": 3,
+     "why": "burning fervour in prayer",
+     "quotes_failed": false
+    },
+    {
+     "tag": "practice:prayer",
+     "scope": "span",
+     "quotes": [
+      "בעת התפלה הי' בוער כלפיד אש"
+     ],
+     "confidence": 3,
+     "why": "prayer depicted",
+     "quotes_failed": false
+    },
+    {
+     "tag": "spaces:beth_midrash",
+     "scope": "span",
+     "quotes": [
+      "כשהביאוהו פתח הביהמ\"ד"
+     ],
+     "confidence": 3,
+     "why": "scene set in the study hall",
+     "quotes_failed": false
+    },
+    {
+     "tag": "ethics-and-emotions:awe",
+     "scope": "span",
+     "quotes": [
+      "אמר בקול רם מה נורא המקום הזה"
+     ],
+     "confidence": 3,
+     "why": "religious awe on entering the holy place",
+     "quotes_failed": false
+    },
+    {
+     "tag": "folkloristics:story_type_virtues",
+     "scope": "story",
+     "quotes": [],
+     "confidence": 2,
+     "why": "praises the tzaddik's devotion despite his frailty",
+     "quotes_failed": false
+    },
+    {
+     "tag": "supernatural:miracle",
+     "scope": "span",
+     "quotes": [
+      "כמו פרח באויר למקום העמוד"
+     ],
+     "confidence": 1,
+     "why": "he seems to fly through the air to the prayer stand",
+     "quotes_failed": false
+    },
+    {
+     "tag": "practice:devekut",
+     "scope": "span",
+     "quotes": [
+      "בוער כלפיד אש בהתלהבות גדול לא נראה כמוהו"
+     ],
+     "confidence": 2,
+     "why": "ecstatic absorption in prayer",
+     "quotes_failed": false
+    },
+    {
+     "tag": "practice:clothing",
+     "scope": "span",
+     "quotes": [
+      "ולא הלך מנעלים רק באנפלאות"
+     ],
+     "confidence": 1,
+     "why": "special footwear: felt slippers on a bearskin",
+     "quotes_failed": false
+    }
+   ],
+   "missing_concepts": [
+    "illness and bodily frailty of the tzaddik overcome in worship",
+    "chain of oral transmission (hearsay witnesses)"
+   ],
+   "start_quote_found": true,
+   "end_quote_found": true
+  }
+ ],
+ "check": {
+  "non_vocab_tags": [],
+  "quotes": 7,
+  "quotes_not_found": 0
+ },
+ "id": "Eser-Orot_0114",
+ "chars": 632,
+ "seconds": 16
+}

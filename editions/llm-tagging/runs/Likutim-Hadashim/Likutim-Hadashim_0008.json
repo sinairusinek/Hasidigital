@@ -1,0 +1,153 @@
+{
+ "unit": {
+  "kind": "hasidic_story",
+  "why": "A single anecdote about the Maggid: a poor man asks him for dowry money, the angry Maggid says he will give him fever, and a rich man with fever is then told to give the poor man 200 gold coins in order to be healed.",
+  "boundary_note": ""
+ },
+ "stories": [
+  {
+   "k": 1,
+   "start_quote": "עו״ש מהמגיד ז\"ל שהיה בא אליו",
+   "end_quote": "מה שאמר לו המגיד זצ״ל מקודם",
+   "hasidic": true,
+   "summary_en": "A poor man asks the Maggid for money to marry off his grown daughter; the Maggid angrily says 'I will give you fever'; an hour later a rich man suffering from fever comes for help and is told to give the poor man 200 gold pieces to be cured, and the poor man then understands the Maggid's words.",
+   "tags": [
+    {
+     "tag": "ethics-and-emotions:charity",
+     "scope": "span",
+     "quotes": [
+      "שיתן לו מעות בשביל בתו בוגרת",
+      "תן לעני הנ״ל ב׳ מאות זהובים"
+     ],
+     "confidence": 3,
+     "why": "dowry money for a poor man's daughter is the core of the story",
+     "quotes_failed": false
+    },
+    {
+     "tag": "ethics-and-emotions:anger",
+     "scope": "span",
+     "quotes": [
+      "וכעס המגיד זצ״ל ואמר מה אני יכול ליתן לך"
+     ],
+     "confidence": 3,
+     "why": "the Maggid is angry at the request",
+     "quotes_failed": false
+    },
+    {
+     "tag": "practice:healing",
+     "scope": "span",
+     "quotes": [
+      "שיעזור לו על חולי הקדחת",
+      "ותתרפא מהקדחת"
+     ],
+     "confidence": 3,
+     "why": "the rich man is to be healed of his fever",
+     "quotes_failed": false
+    },
+    {
+     "tag": "practice:reception_of_hasidim",
+     "scope": "span",
+     "quotes": [
+      "שהיה בא אליו איש עני וביקש",
+      "בא גביר אחד אל המגיד זצ״ל"
+     ],
+     "confidence": 2,
+     "why": "petitioners come to the Maggid with requests",
+     "quotes_failed": false
+    },
+    {
+     "tag": "practice:travel_to_the_tsaddik",
+     "scope": "span",
+     "quotes": [
+      "בא גביר אחד אל המגיד זצ״ל"
+     ],
+     "confidence": 1,
+     "why": "petitioners come to the tsaddik, though no journey is described",
+     "quotes_failed": false
+    },
+    {
+     "tag": "supernatural:perception",
+     "scope": "span",
+     "quotes": [
+      "אני אתן לך קדחת"
+     ],
+     "confidence": 2,
+     "why": "the Maggid foresees the rich man coming with fever",
+     "quotes_failed": false
+    },
+    {
+     "tag": "supernatural:prognostication",
+     "scope": "span",
+     "quotes": [
+      "אני אתן לך קדחת"
+     ],
+     "confidence": 2,
+     "why": "his cryptic remark is fulfilled an hour later",
+     "quotes_failed": false
+    },
+    {
+     "tag": "folkloristics:story_type_prognostication",
+     "scope": "story",
+     "quotes": [],
+     "confidence": 2,
+     "why": "the arc runs from a cryptic prediction to its fulfilment",
+     "quotes_failed": false
+    },
+    {
+     "tag": "social:retrospective_recognition",
+     "scope": "span",
+     "quotes": [
+      "אז הבין העני מה שאמר לו המגיד זצ״ל מקודם"
+     ],
+     "confidence": 3,
+     "why": "the poor man understands the remark only afterwards",
+     "quotes_failed": false
+    },
+    {
+     "tag": "social:marriage",
+     "scope": "span",
+     "quotes": [
+      "בשביל בתו בוגרת"
+     ],
+     "confidence": 1,
+     "why": "the money is for marrying off his daughter",
+     "quotes_failed": false
+    },
+    {
+     "tag": "women:mention_only",
+     "scope": "span",
+     "quotes": [
+      "בשביל בתו בוגרת"
+     ],
+     "confidence": 3,
+     "why": "the daughter is referred to but does not act",
+     "quotes_failed": false
+    },
+    {
+     "tag": "practice:torat_ha_tsaddik",
+     "scope": "story",
+     "quotes": [],
+     "confidence": 1,
+     "why": "shows the tsaddik's power to arrange matters on others' behalf",
+     "quotes_failed": false
+    }
+   ],
+   "missing_concepts": [
+    "dowry / hakhnasat kallah",
+    "a tsaddik redirecting wealth from rich to poor",
+    "a cryptic or ambiguous utterance of a tsaddik",
+    "illness cured in return for charity"
+   ],
+   "start_quote_found": true,
+   "end_quote_found": true
+  }
+ ],
+ "check": {
+  "non_vocab_tags": [],
+  "quotes": 13,
+  "quotes_not_found": 0
+ },
+ "id": "Likutim-Hadashim_0008",
+ "chars": 316,
+ "seconds": 14
+}

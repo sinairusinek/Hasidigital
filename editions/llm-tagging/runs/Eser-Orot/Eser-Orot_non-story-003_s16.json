@@ -1,0 +1,70 @@
+{
+ "unit": {
+  "kind": "hasidic_story",
+  "why": "split out of non-story-003 (non-story)"
+ },
+ "stories": [
+  {
+   "k": 16,
+   "start_quote": "ברב חנינא בר פפא שהלך בלילה לחלק מעות צדקה",
+   "end_quote": "וברח מלפניו",
+   "hasidic": false,
+   "summary_en": "The prince of spirits confronts R. Hanina bar Pappa as he distributes charity at night, but flees from him.",
+   "tags": [
+    {
+     "tag": "characters-and-roles:demons",
+     "scope": "span",
+     "quotes": [
+      "פגע בו שר הרוחות"
+     ],
+     "confidence": 3,
+     "why": "demon",
+     "quotes_failed": false
+    },
+    {
+     "tag": "ethics-and-emotions:charity",
+     "scope": "span",
+     "quotes": [
+      "שהלך בלילה לחלק מעות צדקה"
+     ],
+     "confidence": 3,
+     "why": "secret charity",
+     "quotes_failed": false
+    },
+    {
+     "tag": "ethics-and-emotions:fear",
+     "scope": "span",
+     "quotes": [
+      "והי׳ אותו הרוח מתיירא ממנו"
+     ],
+     "confidence": 2,
+     "why": "demon afraid",
+     "quotes_failed": false
+    },
+    {
+     "tag": "social:conflict",
+     "scope": "span",
+     "quotes": [
+      "ואיככה אתה הולך בלילה"
+     ],
+     "confidence": 2,
+     "why": "confrontation",
+     "quotes_failed": false
+    },
+    {
+     "tag": "not-a-hasidic-story:hagiography",
+     "scope": "story",
+     "quotes": [],
+     "confidence": 3,
+     "why": "talmudic",
+     "quotes_failed": false
+    }
+   ],
+   "missing_concepts": [],
+   "start_quote_found": true,
+   "end_quote_found": true
+  }
+ ],
+ "id": "Eser-Orot_non-story-003_s16",
+ "split_from": "non-story-003"
+}

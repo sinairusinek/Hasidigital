@@ -1,0 +1,91 @@
+{
+ "unit": {
+  "kind": "hasidic_story",
+  "why": "A single anecdote, told by the Neskhizer rebbe, about the Apter Rav in Berdichev telling an exaggerated tale about a bridge in Iasi and a merchant who 'confirmed' it.",
+  "boundary_note": ""
+ },
+ "stories": [
+  {
+   "k": 1,
+   "start_quote": "עוד סיפר הרה״ק מנעסכיז שבהיות האפטר בבארדיטשוב",
+   "end_quote": "מנין אתם יודעים זה בדרך תימה",
+   "hasidic": true,
+   "summary_en": "While in Berdichev, surrounded by a crowd, the Apter Rav drinks brandy and tells a hugely exaggerated story about a bridge built before his house in Iasi; when the merchant R. Noah nods and confirms it, the Apter turns to him in surprise and asks how he could know.",
+   "tags": [
+    {
+     "tag": "practice:storytelling",
+     "scope": "story",
+     "quotes": [],
+     "confidence": 3,
+     "why": "Framed as told by the Neskhizer rebbe, and the Apter himself tells a tale",
+     "quotes_failed": false
+    },
+    {
+     "tag": "practice:joke",
+     "scope": "span",
+     "quotes": [
+      "וסיפר גוזמא שבעיר יאס",
+      "בדרך גוזמא גדולה"
+     ],
+     "confidence": 2,
+     "why": "The tsaddik tells a deliberately exaggerated, jesting tale",
+     "quotes_failed": false
+    },
+    {
+     "tag": "practice:drinking_alcohol",
+     "scope": "span",
+     "quotes": [
+      "הקריבו לפניו כוס יי״ש וחתיכת לעקיך"
+     ],
+     "confidence": 3,
+     "why": "He is served brandy and tastes it",
+     "quotes_failed": false
+    },
+    {
+     "tag": "ethics-and-emotions:lying",
+     "scope": "span",
+     "quotes": [
+      "ונענע ראשו ואמר כן רבינו האמת כדבריכם"
+     ],
+     "confidence": 2,
+     "why": "The merchant falsely confirms an obvious exaggeration, and the Apter exposes it",
+     "quotes_failed": false
+    },
+    {
+     "tag": "practice:the_travels_of_the_tsaddik",
+     "scope": "span",
+     "quotes": [
+      "שבהיות האפטר בבארדיטשוב בתוך המון רב שיקבלו פניו"
+     ],
+     "confidence": 2,
+     "why": "The tsaddik is visiting Berdichev and is received by crowds",
+     "quotes_failed": false
+    },
+    {
+     "tag": "practice:reception_of_hasidim",
+     "scope": "span",
+     "quotes": [
+      "בתוך המון רב שיקבלו פניו"
+     ],
+     "confidence": 1,
+     "why": "A crowd comes to greet him",
+     "quotes_failed": false
+    }
+   ],
+   "missing_concepts": [
+    "flattery / sycophancy toward a tsaddik",
+    "exaggeration (guzma) as a test of listeners"
+   ],
+   "start_quote_found": true,
+   "end_quote_found": true
+  }
+ ],
+ "check": {
+  "non_vocab_tags": [],
+  "quotes": 6,
+  "quotes_not_found": 0
+ },
+ "id": "Eser-Orot_0264",
+ "chars": 433,
+ "seconds": 12
+}

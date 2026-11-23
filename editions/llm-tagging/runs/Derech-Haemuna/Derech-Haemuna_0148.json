@@ -1,0 +1,122 @@
+{
+ "unit": {
+  "kind": "non_hasidic_story",
+  "why": "A homily from the Hida (Devash Lefi) on 'whoever forgoes his due' that embeds a short anecdote about R. Hayyim ben Attar and a scholar who forgave a rich man at once; the anecdote is a narrated event but sits inside a homiletic frame.",
+  "boundary_note": ""
+ },
+ "stories": [
+  {
+   "k": 1,
+   "start_quote": "כי היה עובדא דעשיר אחד תקיף",
+   "end_quote": "וזהו מדה כנגד מדה ודו״ק היטב",
+   "hasidic": false,
+   "summary_en": "A powerful rich man insulted a Torah scholar. R. Hayyim ben Attar urged the scholar to forgive him, and the scholar said he had already forgiven at once, so that the rich man's sin would not burden the Shekhinah. The rabbi was pleased, and the author draws from this a rationale for why one who forgoes his due is forgiven his sins.",
+   "tags": [
+    {
+     "tag": "not-a-hasidic-story:sermon",
+     "scope": "story",
+     "quotes": [],
+     "confidence": 3,
+     "why": "the anecdote is wrapped in an exegetical frame explaining a talmudic dictum",
+     "quotes_failed": false
+    },
+    {
+     "tag": "not-a-hasidic-story:virtues",
+     "scope": "span",
+     "quotes": [
+      "ובאמת שהוא סעיף גדול ועיקר ליראת שמים",
+      "ואפשר שזהו טעם סגולת מעביר על מדותיו"
+     ],
+     "confidence": 2,
+     "why": "framed as instruction in the virtue of forgiving and forgoing one's due",
+     "quotes_failed": false
+    },
+    {
+     "tag": "not-a-hasidic-story:hagiography",
+     "scope": "story",
+     "quotes": [],
+     "confidence": 2,
+     "why": "a laudatory anecdote about R. Hayyim ben Attar and a scholar, both pre-Hasidic figures",
+     "quotes_failed": false
+    },
+    {
+     "tag": "ethics-and-emotions:virtues",
+     "scope": "span",
+     "quotes": [
+      "השיבו החכם כי תכף מחל לעשיר"
+     ],
+     "confidence": 3,
+     "why": "the scholar's immediate forgiveness is the virtue the anecdote shows",
+     "quotes_failed": false
+    },
+    {
+     "tag": "ethics-and-emotions:humility",
+     "scope": "span",
+     "quotes": [
+      "לכן תיכף מחל לו כי בזה אין צער לשכינה"
+     ],
+     "confidence": 1,
+     "why": "the scholar forgoes his honour after being insulted",
+     "quotes_failed": false
+    },
+    {
+     "tag": "ethics-and-emotions:awe",
+     "scope": "span",
+     "quotes": [
+      "סעיף גדול ועיקר ליראת שמים"
+     ],
+     "confidence": 1,
+     "why": "the act is presented as central to the fear of Heaven",
+     "quotes_failed": false
+    },
+    {
+     "tag": "ethics-and-emotions:shame",
+     "scope": "span",
+     "quotes": [
+      "עשיר אחד תקיף זלזל בת״ת אחד"
+     ],
+     "confidence": 2,
+     "why": "a scholar is publicly slighted by a rich man",
+     "quotes_failed": false
+    },
+    {
+     "tag": "social:conflict",
+     "scope": "span",
+     "quotes": [
+      "זלזל בת״ת אחד",
+      "שימחול לעשיר ויעשה שלום"
+     ],
+     "confidence": 2,
+     "why": "a dispute between the rich man and the scholar, resolved by forgiveness",
+     "quotes_failed": false
+    },
+    {
+     "tag": "practice:sermon",
+     "scope": "span",
+     "quotes": [
+      "ועל פי דרכו מעבירין על פשעיו",
+      "וזהו מדה כנגד מדה ודו״ק היטב"
+     ],
+     "confidence": 2,
+     "why": "the author's own exegesis built on the anecdote",
+     "quotes_failed": false
+    }
+   ],
+   "missing_concepts": [
+    "forgiveness / mechilah between people",
+    "the sorrow of the Shekhinah over Israel's sins",
+    "honour of a Torah scholar insulted by a rich man"
+   ],
+   "start_quote_found": true,
+   "end_quote_found": true
+  }
+ ],
+ "check": {
+  "non_vocab_tags": [],
+  "quotes": 10,
+  "quotes_not_found": 0
+ },
+ "id": "Derech-Haemuna_0148",
+ "chars": 766,
+ "seconds": 17
+}

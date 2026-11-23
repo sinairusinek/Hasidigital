@@ -1,0 +1,199 @@
+{
+ "unit": {
+  "kind": "hasidic_story",
+  "why": "A single narrative. R. Berish of Oshpitzin promises a childless rich man a son, then explains on the journey to the circumcision why he showed no fear when the wagon nearly overturned.",
+  "boundary_note": ""
+ },
+ "stories": [
+  {
+   "k": 1,
+   "start_quote": "בכפר א׳ סמוך לאושפצין הי׳ שם",
+   "end_quote": "שהי' אז עד בואם להב״מ",
+   "hasidic": true,
+   "summary_en": "R. Berish of Oshpitzin promises a rich man who has only daughters a son, on condition that he be the sandak. On the bad road to the circumcision their wagon nearly overturns, and he tells the frightened intermediary that his dead master's soul is always with him and holds the wagon up.",
+   "tags": [
+    {
+     "tag": "supernatural:pregnancy",
+     "scope": "span",
+     "quotes": [
+      "ויבטיח לו שיהי׳ לו ב״ז בשנה זו"
+     ],
+     "confidence": 3,
+     "why": "the tzaddik promises a son and the son is born",
+     "quotes_failed": false
+    },
+    {
+     "tag": "supernatural:prognostication",
+     "scope": "span",
+     "quotes": [
+      "ויבטיח לו שיהי׳ לו ב״ז בשנה זו",
+      "וכן הי' ויהי בלדתה"
+     ],
+     "confidence": 3,
+     "why": "the promised birth comes true",
+     "quotes_failed": false
+    },
+    {
+     "tag": "practice:circumcision",
+     "scope": "span",
+     "quotes": [
+      "ובתנאי שיתו לו הסנדקאות",
+      "שלחו בעדו שיבא על הברית מילה"
+     ],
+     "confidence": 3,
+     "why": "the sandak condition and the journey to the brit",
+     "quotes_failed": false
+    },
+    {
+     "tag": "times:birth",
+     "scope": "span",
+     "quotes": [
+      "ויהי בלדתה שלחו בעדו"
+     ],
+     "confidence": 2,
+     "why": "the son's birth is reported briefly",
+     "quotes_failed": false
+    },
+    {
+     "tag": "practice:the_travels_of_the_tsaddik",
+     "scope": "span",
+     "quotes": [
+      "והדרך מהה״ק ר׳ בעריש מאושפצין הי׳ רע מאוד"
+     ],
+     "confidence": 3,
+     "why": "the key episode happens on the tzaddik's journey",
+     "quotes_failed": false
+    },
+    {
+     "tag": "practice:travel_to_the_tsaddik",
+     "scope": "span",
+     "quotes": [
+      "ויסע אליו הנגיד"
+     ],
+     "confidence": 2,
+     "why": "the rich man travels to the tzaddik with his request",
+     "quotes_failed": false
+    },
+    {
+     "tag": "ethics-and-emotions:fear",
+     "scope": "span",
+     "quotes": [
+      "והי׳ להאיש ההוא פחד גדול שלא תתהפך העגלה",
+      "נפל עליו אימה ופחד ולא הי׳ לו כח לדבר"
+     ],
+     "confidence": 3,
+     "why": "the companion fears the wagon overturning, then is struck with dread at the revelation",
+     "quotes_failed": false
+    },
+    {
+     "tag": "experience:trembling",
+     "scope": "span",
+     "quotes": [
+      "ויזעק האיש בחרדה גדולה"
+     ],
+     "confidence": 1,
+     "why": "the word is חרדה, but no physical trembling is described",
+     "quotes_failed": false
+    },
+    {
+     "tag": "ethics-and-emotions:awe",
+     "scope": "span",
+     "quotes": [
+      "נפל עליו אימה ופחד"
+     ],
+     "confidence": 2,
+     "why": "awe at the tzaddik's disclosure",
+     "quotes_failed": false
+    },
+    {
+     "tag": "supernatural:communicating_with_the_invisible",
+     "scope": "span",
+     "quotes": [
+      "רבי שלי באותו רגע שיצאה נשמתו בא אלי",
+      "הוא הולך אצל העגלה"
+     ],
+     "confidence": 3,
+     "why": "his dead master's soul accompanies him constantly",
+     "quotes_failed": false
+    },
+    {
+     "tag": "practice:protection",
+     "scope": "span",
+     "quotes": [
+      "הוא מחזיק אותה שלא יתהפך"
+     ],
+     "confidence": 2,
+     "why": "the master's soul protects the travellers from the wagon overturning",
+     "quotes_failed": false
+    },
+    {
+     "tag": "supernatural:miracle",
+     "scope": "span",
+     "quotes": [
+      "ופ״א נטה חקרון לפול",
+      "הוא מחזיק אותה שלא יתהפך"
+     ],
+     "confidence": 2,
+     "why": "the wagon is miraculously kept from falling",
+     "quotes_failed": false
+    },
+    {
+     "tag": "social:inter_hasidic_master_disciple_relationship",
+     "scope": "span",
+     "quotes": [
+      "אמנם רבי שלי באותו רגע שיצאה נשמתו בא אלי"
+     ],
+     "confidence": 2,
+     "why": "the bond between the tzaddik and his master continues after the master's death",
+     "quotes_failed": false
+    },
+    {
+     "tag": "practice:torat_ha_tsaddik",
+     "scope": "span",
+     "quotes": [
+      "שולח הש\"י את הנשמה למטה מהעולם התענוג",
+      "ויודע מה שנעשית בבניו או בתלמידיו ומושיע להן"
+     ],
+     "confidence": 2,
+     "why": "doctrine that dead tzaddikim's souls come down to help their disciples",
+     "quotes_failed": false
+    },
+    {
+     "tag": "practice:sermon",
+     "scope": "span",
+     "quotes": [
+      "והה\"ק אמר תורה על פ׳ ואתחנן"
+     ],
+     "confidence": 2,
+     "why": "the tzaddik gives a Torah discourse on the way",
+     "quotes_failed": false
+    },
+    {
+     "tag": "women:mention_only",
+     "scope": "span",
+     "quotes": [
+      "ויהי בלדתה שלחו בעדו"
+     ],
+     "confidence": 2,
+     "why": "the wife and daughters are referred to but do not act",
+     "quotes_failed": false
+    }
+   ],
+   "missing_concepts": [
+    "souls of deceased tzaddikim and their relation to this world (Garden of Eden / 'world of delight' discussed, not a setting)",
+    "childlessness or desire for a son",
+    "the tzaddik's fearlessness and trust in protection"
+   ],
+   "start_quote_found": true,
+   "end_quote_found": true
+  }
+ ],
+ "check": {
+  "non_vocab_tags": [],
+  "quotes": 22,
+  "quotes_not_found": 0
+ },
+ "id": "Seva-Ratzon_0007",
+ "chars": 1235,
+ "seconds": 25
+}

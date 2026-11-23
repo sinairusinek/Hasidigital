@@ -1,0 +1,68 @@
+{
+ "unit": {
+  "kind": "hasidic_story",
+  "why": "A brief anecdote quoted from Tiferet Shlomo about R. Zusha's daily habit of going to the market after the Torah blessings to find a Jew to bless; it is a minimal habitual narrative inside a homiletic anthology on prayer.",
+  "boundary_note": "borderline: habitual-practice anecdote rather than a single event; embedded in a homiletic compilation"
+ },
+ "stories": [
+  {
+   "k": 1,
+   "start_quote": "וכן שמענו בשם הה״ק מו״ה זושא",
+   "end_quote": "להיות ראשון יהיה מי שהיה",
+   "hasidic": true,
+   "summary_en": "Every day after the Torah blessings, R. Zusha went out to the market to find a Jew, whoever came first, and bestow his blessings on him.",
+   "tags": [
+    {
+     "tag": "folkloristics:story_type_virtues",
+     "scope": "story",
+     "quotes": [],
+     "confidence": 2,
+     "why": "illustrates R. Zusha's love of Israel and generosity in blessing",
+     "quotes_failed": false
+    },
+    {
+     "tag": "ethics-and-emotions:virtues",
+     "scope": "span",
+     "quotes": [
+      "לחפש אחר איש מזרע ישראל כדי להעניקו מברכותיו"
+     ],
+     "confidence": 2,
+     "why": "love of fellow Jews, generosity of blessing",
+     "quotes_failed": false
+    },
+    {
+     "tag": "practice:prayer",
+     "scope": "span",
+     "quotes": [
+      "בכל יום אחר ברכה התורה"
+     ],
+     "confidence": 1,
+     "why": "daily liturgical blessing frames the act",
+     "quotes_failed": false
+    },
+    {
+     "tag": "not-a-hasidic-story:sermon",
+     "scope": "story",
+     "quotes": [],
+     "confidence": 1,
+     "why": "quoted inside a homiletic discussion of prayer, citing a Torah commentary",
+     "quotes_failed": false
+    }
+   ],
+   "missing_concepts": [
+    "blessing others (bestowing blessings)",
+    "love of Israel (ahavat Yisrael)"
+   ],
+   "start_quote_found": true,
+   "end_quote_found": true
+  }
+ ],
+ "check": {
+  "non_vocab_tags": [],
+  "quotes": 2,
+  "quotes_not_found": 0
+ },
+ "id": "Derech-Haemuna_0033",
+ "chars": 180,
+ "seconds": 12
+}

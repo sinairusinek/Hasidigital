@@ -1,0 +1,93 @@
+{
+ "unit": {
+  "kind": "hasidic_story",
+  "why": "split out of non-story-004 (non-story)"
+ },
+ "stories": [
+  {
+   "k": 1,
+   "start_quote": "ראיתי בכת״י חתנו של רבינו הקדוש",
+   "end_quote": "ואמר שתירץ אמיתי הוא",
+   "hasidic": true,
+   "summary_en": "In Warsaw the rebbe of Magielnica, with his son-in-law R. Elhanan, visits the Hemdat Shlomo. The gaon asks how Isaac could tithe by estimate, the rebbe answers at once from a Mishnah in Gittin about lending money against future tithes, and the gaon praises the answer as true.",
+   "tags": [
+    {
+     "tag": "practice:halakhah",
+     "scope": "span",
+     "quotes": [
+      "דאין מעשרין מאומד",
+      "המלוה מעות את הכהן ואת הלוי ואת העני"
+     ],
+     "confidence": 3,
+     "why": "the exchange is a halakhic question about tithing by estimate",
+     "quotes_failed": false
+    },
+    {
+     "tag": "social:relations_with_non_hasidim",
+     "scope": "span",
+     "quotes": [
+      "בזמן הגה\"ל בעל חמדת שלמה",
+      "והגאון הנ\"ל שיבח את הדברים האלה"
+     ],
+     "confidence": 2,
+     "why": "the rebbe meets a leading non-Hasidic rabbinic authority who praises him",
+     "quotes_failed": false
+    },
+    {
+     "tag": "practice:the_travels_of_the_tsaddik",
+     "scope": "span",
+     "quotes": [
+      "שפ\"א הי׳ בווארשא בזמן הגה\"ל"
+     ],
+     "confidence": 1,
+     "why": "the rebbe's stay in Warsaw is the occasion of the story",
+     "quotes_failed": false
+    },
+    {
+     "tag": "characters-and-roles:the_family_of_the_tsaddik",
+     "scope": "span",
+     "quotes": [
+      "וחתנו הנ\"ל הי' עמו"
+     ],
+     "confidence": 2,
+     "why": "the son-in-law accompanies the rebbe and is the source of the account",
+     "quotes_failed": false
+    },
+    {
+     "tag": "practice:sermon",
+     "scope": "span",
+     "quotes": [
+      "מ״ש רש״י ע״פ וימצא מאה שערים"
+     ],
+     "confidence": 2,
+     "why": "the core of the exchange is an exegesis of Rashi on a verse",
+     "quotes_failed": false
+    },
+    {
+     "tag": "folkloristics:story_type_virtues",
+     "scope": "story",
+     "quotes": [],
+     "confidence": 2,
+     "why": "the point is to show the rebbe's quick learning",
+     "quotes_failed": false
+    },
+    {
+     "tag": "not-a-hasidic-story:sermon",
+     "scope": "story",
+     "quotes": [],
+     "confidence": 1,
+     "why": "the anecdote is embedded in a homiletic sequence on the portions and its content is exegetical",
+     "quotes_failed": false
+    }
+   ],
+   "missing_concepts": [
+    "scholarly erudition / Torah learning of the tsaddik shown in debate",
+    "approbation or praise of a tsaddik by a non-Hasidic gaon"
+   ],
+   "start_quote_found": true,
+   "end_quote_found": true
+  }
+ ],
+ "id": "Tiferet-Hayyim_non-story-004_s1",
+ "split_from": "non-story-004"
+}

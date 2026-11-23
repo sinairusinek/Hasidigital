@@ -1,0 +1,190 @@
+{
+ "unit": {
+  "kind": "hasidic_story",
+  "why": "A single narrative about a tzaddik's last days. It runs from the fox parable on Sukkot, through his withdrawal from leadership, his anger on Shabbat after seeing the Satan, and the deaths of a maidservant and then his mother, to his words at her funeral and eulogy.",
+  "boundary_note": "Previous division ends a separate saying; next division (צא) continues the account of the mother's mourning and related traditions."
+ },
+ "stories": [
+  {
+   "k": 1,
+   "start_quote": "והנה בסיבות האחרון של ימי חייו",
+   "end_quote": "מה שאני יודע שהיו לה",
+   "hasidic": true,
+   "summary_en": "In his last period the tzaddik tells the fox parable in the sukkah and withdraws from being rebbe. Angry on Shabbat, he had seen the Satan enter his house, but he took the maidservant's death as the fulfilment of that sign. Heaven had misled him: his mother then died, and he invoked the tzaddikim of Ruzhin and Belz at her funeral and praised her in his eulogy.",
+   "tags": [
+    {
+     "tag": "times:holidays",
+     "scope": "span",
+     "quotes": [
+      "ביום אחד מימי החג כשהיה יושב בסעודתו בסוכה",
+      "וגם בליל הו״ר היה שינוי גדול"
+     ],
+     "confidence": 3,
+     "why": "Sukkot / Hoshana Rabba setting",
+     "quotes_failed": false
+    },
+    {
+     "tag": "folkloristics:story_type_parable",
+     "scope": "span",
+     "quotes": [
+      "אמר להם השועל להחיות כי אני יודע ג׳ מאות משלים"
+     ],
+     "confidence": 2,
+     "why": "tzaddik tells a midrashic fable to his hasidim",
+     "quotes_failed": false
+    },
+    {
+     "tag": "practice:torat_ha_tsaddik",
+     "scope": "span",
+     "quotes": [
+      "מהיום אין לכם עוד שום סמיכה עלי",
+      "ותזכור בהצדיקים שאני דבוק בהם"
+     ],
+     "confidence": 2,
+     "why": "reliance on the tzaddik withdrawn; cleaving to other tzaddikim",
+     "quotes_failed": false
+    },
+    {
+     "tag": "times:shabbat",
+     "scope": "span",
+     "quotes": [
+      "ויהי בשבת אחד בסעודת שחרית היה כועס מאד",
+      "בליל ש״ק נפטרה אמו הזקנה"
+     ],
+     "confidence": 3,
+     "why": "key events on Shabbat",
+     "quotes_failed": false
+    },
+    {
+     "tag": "ethics-and-emotions:anger",
+     "scope": "span",
+     "quotes": [
+      "היה כועס מאד והיה פחד גדול"
+     ],
+     "confidence": 3,
+     "why": "tzaddik's anger at the Shabbat meal",
+     "quotes_failed": false
+    },
+    {
+     "tag": "ethics-and-emotions:fear",
+     "scope": "span",
+     "quotes": [
+      "והיה פחד גדול אשר לא ישוער"
+     ],
+     "confidence": 3,
+     "why": "great fear among those present",
+     "quotes_failed": false
+    },
+    {
+     "tag": "characters-and-roles:demons",
+     "scope": "span",
+     "quotes": [
+      "כי ראה את הבעל דבר נכנס בביתו"
+     ],
+     "confidence": 2,
+     "why": "the Satan seen entering the house",
+     "quotes_failed": false
+    },
+    {
+     "tag": "supernatural:perception",
+     "scope": "span",
+     "quotes": [
+      "כי ראה את הבעל דבר נכנס בביתו"
+     ],
+     "confidence": 3,
+     "why": "supernatural sight of the Satan",
+     "quotes_failed": false
+    },
+    {
+     "tag": "social:retrospective_recognition",
+     "scope": "span",
+     "quotes": [
+      "ואמר שרימו אותו משמים במה שנפטרה המשרתת"
+     ],
+     "confidence": 3,
+     "why": "he realizes afterward that the omen meant his mother",
+     "quotes_failed": false
+    },
+    {
+     "tag": "practice:failure",
+     "scope": "span",
+     "quotes": [
+      "ואשר לכן עזב הדבר ממוחו, ועי״ז נפטרה אמו"
+     ],
+     "confidence": 2,
+     "why": "his misreading leads him to fail to avert his mother's death",
+     "quotes_failed": false
+    },
+    {
+     "tag": "times:death",
+     "scope": "span",
+     "quotes": [
+      "באתה משרתת אחת בביתו",
+      "בליל ש״ק נפטרה אמו הזקנה הצדקת"
+     ],
+     "confidence": 3,
+     "why": "deaths of the maidservant and the mother",
+     "quotes_failed": false
+    },
+    {
+     "tag": "characters-and-roles:the_family_of_the_tsaddik",
+     "scope": "span",
+     "quotes": [
+      "נפטרה אמו הזקנה הצדקת ז״ל",
+      "היה מזכיר בפני אמו את כל בניו"
+     ],
+     "confidence": 3,
+     "why": "mother and sons appear",
+     "quotes_failed": false
+    },
+    {
+     "tag": "women:catalyst_character",
+     "scope": "span",
+     "quotes": [
+      "נפטרה אמו הזקנה הצדקת ז״ל זי״ע",
+      "באתה משרתת אחת בביתו"
+     ],
+     "confidence": 2,
+     "why": "the deaths of the mother and the maidservant drive the plot, though neither acts",
+     "quotes_failed": false
+    },
+    {
+     "tag": "ethics-and-emotions:virtues",
+     "scope": "span",
+     "quotes": [
+      "היה מונה שבחה וצדקותיה"
+     ],
+     "confidence": 2,
+     "why": "the mother's righteousness is praised",
+     "quotes_failed": false
+    },
+    {
+     "tag": "folkloristics:story_type_death_of_the_tsaddik",
+     "scope": "span",
+     "quotes": [
+      "בסיבות האחרון של ימי חייו"
+     ],
+     "confidence": 1,
+     "why": "framed as the prelude to his own death",
+     "quotes_failed": false
+    }
+   ],
+   "missing_concepts": [
+    "epidemic/plague in the town",
+    "funeral and eulogy (hesped)",
+    "tzaddik renouncing his leadership role",
+    "sukkah meal as setting"
+   ],
+   "start_quote_found": true,
+   "end_quote_found": true
+  }
+ ],
+ "check": {
+  "non_vocab_tags": [],
+  "quotes": 21,
+  "quotes_not_found": 0
+ },
+ "id": "Toldot-Haniflaot_0085",
+ "chars": 1249,
+ "seconds": 25
+}

@@ -1,0 +1,148 @@
+{
+ "unit": {
+  "kind": "hasidic_story",
+  "why": "A single anecdote: the Yismah Moshe is distracted in prayer by worry over orphans' money and overcomes it, and the Seer of Lublin perceives the lapse and comments at the meal.",
+  "boundary_note": ""
+ },
+ "stories": [
+  {
+   "k": 1,
+   "start_quote": "עוד שם בתהלה למשה הנ\"ל שכאשר",
+   "end_quote": "הכי זה יבלבל התפלה עכד״ק",
+   "hasidic": true,
+   "summary_en": "While praying on Shabbat in the Seer of Lublin's beit midrash, R. Moshe Teitelbaum (Yismah Moshe) remembers he left the key in the chest holding orphans' money and is distracted, then overcomes the worry and returns to devekut; at the morning meal the Seer remarks that he lost sight of him from Nishmat until Yotzer Or and asks whether a forgotten key should disturb prayer.",
+   "tags": [
+    {
+     "tag": "practice:prayer",
+     "scope": "span",
+     "quotes": [
+      "בעת אמירת נשמת כ״ח עלה בזכרונו",
+      "התפלל עם הצבור בבית מדרשו של רבו"
+     ],
+     "confidence": 3,
+     "why": "communal Shabbat morning prayer is the setting",
+     "quotes_failed": false
+    },
+    {
+     "tag": "times:shabbat",
+     "scope": "span",
+     "quotes": [
+      "הנה בש\"ק בבוקר התפלל עם הצבור"
+     ],
+     "confidence": 3,
+     "why": "Shabbat in Lublin",
+     "quotes_failed": false
+    },
+    {
+     "tag": "spaces:beth_midrash",
+     "scope": "span",
+     "quotes": [
+      "בבית מדרשו של רבו הקדוש מלובלין"
+     ],
+     "confidence": 3,
+     "why": "setting of the prayer",
+     "quotes_failed": false
+    },
+    {
+     "tag": "practice:coping_with_alien_thoughts",
+     "scope": "span",
+     "quotes": [
+      "ובלבל אותו הדבר הזה בעת התפלה",
+      "וגער בדאגת לבבו ובטח בה׳ והתגבר על רעיוניו"
+     ],
+     "confidence": 3,
+     "why": "a distracting worry in prayer is overcome",
+     "quotes_failed": false
+    },
+    {
+     "tag": "practice:devekut",
+     "scope": "span",
+     "quotes": [
+      "וחזר לדביקותו",
+      "עלה בתפלתו לשמי מרום"
+     ],
+     "confidence": 3,
+     "why": "returns to cleaving in prayer",
+     "quotes_failed": false
+    },
+    {
+     "tag": "supernatural:perception",
+     "scope": "span",
+     "quotes": [
+      "עד נשמת הלך אחרינו ואח\"ז לא ראיתיו",
+      "ואם שוכחים המפתח הכי זה יבלבל"
+     ],
+     "confidence": 3,
+     "why": "the Seer knows about the hidden distraction and the key",
+     "quotes_failed": false
+    },
+    {
+     "tag": "social:inter_hasidic_master_disciple_relationship",
+     "scope": "span",
+     "quotes": [
+      "בבית מדרשו של רבו הקדוש מלובלין",
+      "ושפך שיחו ביחד עם רבו ותלמידיו"
+     ],
+     "confidence": 3,
+     "why": "the Seer and his disciple the Yismah Moshe",
+     "quotes_failed": false
+    },
+    {
+     "tag": "practice:travel_to_the_tsaddik",
+     "scope": "span",
+     "quotes": [
+      "בלובלין על ש\"ק"
+     ],
+     "confidence": 2,
+     "why": "the disciple came to Lublin for Shabbat",
+     "quotes_failed": false
+    },
+    {
+     "tag": "ethics-and-emotions:fear",
+     "scope": "span",
+     "quotes": [
+      "ומורא על ראשו שלא יגנבו המעות"
+     ],
+     "confidence": 2,
+     "why": "he fears the orphans' money will be stolen",
+     "quotes_failed": false
+    },
+    {
+     "tag": "social:poverty",
+     "scope": "span",
+     "quotes": [
+      "כי הי' עני בעת ההוא"
+     ],
+     "confidence": 1,
+     "why": "his poverty is mentioned, but not as an embraced virtue",
+     "quotes_failed": false
+    },
+    {
+     "tag": "practice:storytelling",
+     "scope": "span",
+     "quotes": [
+      "עוד שם בתהלה למשה הנ\"ל"
+     ],
+     "confidence": 1,
+     "why": "the story is framed as taken from a written source",
+     "quotes_failed": false
+    }
+   ],
+   "missing_concepts": [
+    "trust in God (bitachon) overcoming worry",
+    "safeguarding orphans' money (entrusted deposit)",
+    "the tsaddik's spiritual following of a disciple's prayer"
+   ],
+   "start_quote_found": true,
+   "end_quote_found": true
+  }
+ ],
+ "check": {
+  "non_vocab_tags": [],
+  "quotes": 16,
+  "quotes_not_found": 0
+ },
+ "id": "Eser-Orot_0184",
+ "chars": 902,
+ "seconds": 15
+}

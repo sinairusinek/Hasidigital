@@ -1,0 +1,102 @@
+{
+ "unit": {
+  "kind": "hasidic_story",
+  "why": "A short anecdote: the Yismah Moshe, finding the mikveh in ruins while visiting the Seer of Lublin's town, immerses in the river, and the Seer comments and whispers to him about immersing in the river of fire of devekut.",
+  "boundary_note": ""
+ },
+ "stories": [
+  {
+   "k": 1,
+   "start_quote": "פ״א בהיות בעל ישמח משה הקדוש",
+   "end_quote": "באזנו באש של דביקות עכ״ל",
+   "hasidic": true,
+   "summary_en": "While the Yismah Moshe was with his master the Seer of Lublin in another town, he found the mikveh in ruins and immersed in the river. The Seer noticed water still dripping from his beard and asked about it, then whispered that when there is no mikveh one immerses in the river of fire, the fire of devekut.",
+   "tags": [
+    {
+     "tag": "practice:tvilah",
+     "scope": "span",
+     "quotes": [
+      "והלך לטבול בהנהר",
+      "טובלים א״ע בנהר דינור"
+     ],
+     "confidence": 3,
+     "why": "ritual immersion in a river instead of the mikveh",
+     "quotes_failed": false
+    },
+    {
+     "tag": "spaces:mikveh",
+     "scope": "span",
+     "quotes": [
+      "והלך היש״מ לבית הטבילה"
+     ],
+     "confidence": 2,
+     "why": "a scene at the ruined mikveh",
+     "quotes_failed": false
+    },
+    {
+     "tag": "social:inter_hasidic_master_disciple_relationship",
+     "scope": "span",
+     "quotes": [
+      "וכשבא אח\"כ לבית רבו לקבל שלום"
+     ],
+     "confidence": 3,
+     "why": "an exchange between the Seer and his disciple",
+     "quotes_failed": false
+    },
+    {
+     "tag": "practice:devekut",
+     "scope": "span",
+     "quotes": [
+      "באזנו באש של דביקות"
+     ],
+     "confidence": 2,
+     "why": "the fire of devekut as a substitute for immersion",
+     "quotes_failed": false
+    },
+    {
+     "tag": "practice:travel_to_the_tsaddik",
+     "scope": "span",
+     "quotes": [
+      "בהיות בעל ישמח משה הקדוש אצל מרו הק' מלובלין"
+     ],
+     "confidence": 1,
+     "why": "the disciple is staying with his master",
+     "quotes_failed": false
+    },
+    {
+     "tag": "practice:the_travels_of_the_tsaddik",
+     "scope": "span",
+     "quotes": [
+      "בהיות מרן בעיר אחרת"
+     ],
+     "confidence": 2,
+     "why": "the Seer is staying in another town",
+     "quotes_failed": false
+    },
+    {
+     "tag": "practice:sermon",
+     "scope": "span",
+     "quotes": [
+      "ראה זוהר ויקהל רי״א ע״א"
+     ],
+     "confidence": 1,
+     "why": "the Seer's remark rests on a Zohar idea about the river of fire",
+     "quotes_failed": false
+    }
+   ],
+   "missing_concepts": [
+    "river of fire (נהר דינור) as a mystical immersion"
+   ],
+   "start_quote_found": true,
+   "end_quote_found": true
+  }
+ ],
+ "check": {
+  "non_vocab_tags": [],
+  "quotes": 8,
+  "quotes_not_found": 0
+ },
+ "id": "Eser-Orot_0231",
+ "chars": 499,
+ "seconds": 11
+}

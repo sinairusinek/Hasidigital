@@ -1,0 +1,113 @@
+{
+ "unit": {
+  "kind": "hasidic_story",
+  "why": "A memorate, passed on through a named chain of tellers at a siyum, depicting the Maggid of Kozienice's daily prayer and his own words about it.",
+  "boundary_note": ""
+ },
+ "stories": [
+  {
+   "k": 1,
+   "start_quote": "עו״ש ממה שכ׳ הרה״ג אבד״ק סעראצק שי׳",
+   "end_quote": "ע״כ נותן לי זאת. ומי יודע העונש",
+   "hasidic": true,
+   "summary_en": "At an 1860 Torah-scroll siyum in Charzel, tellers describe how the Maggid of Kozienice began prayer each morning in a faint voice out of awe, then cried out so loudly that he overwhelmed his listeners; the Maggid himself said that prayer was his only pleasure in this world.",
+   "tags": [
+    {
+     "tag": "practice:prayer",
+     "scope": "span",
+     "quotes": [
+      "בכל בוקר קודם התפלה אמר מי אנכי שאזכה",
+      "מענין התפלה שהי' בכח ודביקות"
+     ],
+     "confidence": 3,
+     "why": "The Maggid's manner of daily prayer is the subject.",
+     "quotes_failed": false
+    },
+    {
+     "tag": "ethics-and-emotions:awe",
+     "scope": "span",
+     "quotes": [
+      "וסיפר מיראת המגיד לפני השי\"ת"
+     ],
+     "confidence": 3,
+     "why": "The tale is explicitly about the Maggid's awe of God.",
+     "quotes_failed": false
+    },
+    {
+     "tag": "practice:devekut",
+     "scope": "span",
+     "quotes": [
+      "מענין התפלה שהי' בכח ודביקות"
+     ],
+     "confidence": 3,
+     "why": "His prayer is described as cleaving to God.",
+     "quotes_failed": false
+    },
+    {
+     "tag": "experience:enthusiasm",
+     "scope": "span",
+     "quotes": [
+      "ובפ\"ג החל לדבר בקול רם",
+      "עד שהוציא את השומעים מעשתנותם ולבם"
+     ],
+     "confidence": 2,
+     "why": "His prayer rises to a fervent, loud outcry.",
+     "quotes_failed": false
+    },
+    {
+     "tag": "ethics-and-emotions:humility",
+     "scope": "span",
+     "quotes": [
+      "אמר מי אנכי שאזכה וכו'"
+     ],
+     "confidence": 2,
+     "why": "He opens prayer by asking who he is to merit it.",
+     "quotes_failed": false
+    },
+    {
+     "tag": "practice:storytelling",
+     "scope": "span",
+     "quotes": [
+      "הי' אתנו בחארזיל על סיום ס\"ת",
+      "ואז סיפר לי הה״ג מו״ה דוד אבד״ק חארזיל"
+     ],
+     "confidence": 2,
+     "why": "The account is framed as told at a gathering, through a chain of tellers.",
+     "quotes_failed": false
+    },
+    {
+     "tag": "folkloristics:story_type_virtues",
+     "scope": "story",
+     "quotes": [],
+     "confidence": 3,
+     "why": "The point of the account is to illustrate the Maggid's awe and piety in prayer.",
+     "quotes_failed": false
+    },
+    {
+     "tag": "practice:asceticism",
+     "scope": "span",
+     "quotes": [
+      "שאין לי שום הנאה מענייני הגשמיים"
+     ],
+     "confidence": 1,
+     "why": "He claims no pleasure from material things; this is borderline.",
+     "quotes_failed": false
+    }
+   ],
+   "missing_concepts": [
+    "the tsaddik's voice and bodily manner in prayer (whisper rising to a shout)",
+    "the chain of oral transmission of the story"
+   ],
+   "start_quote_found": true,
+   "end_quote_found": true
+  }
+ ],
+ "check": {
+  "non_vocab_tags": [],
+  "quotes": 10,
+  "quotes_not_found": 0
+ },
+ "id": "Eser-Orot_0140",
+ "chars": 629,
+ "seconds": 19
+}

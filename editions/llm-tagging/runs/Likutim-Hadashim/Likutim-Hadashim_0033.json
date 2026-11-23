@@ -1,0 +1,113 @@
+{
+ "unit": {
+  "kind": "hasidic_story",
+  "why": "A single anecdote about R. Mordechai of Neskhiz marrying his son R. Leibele to a village man's daughter for a thousand-gold dowry, and the ironic outcome with the grandson.",
+  "boundary_note": ""
+ },
+ "stories": [
+  {
+   "k": 1,
+   "start_quote": "שמעתי מהרה״ק ר׳ לייביל זצ\"ל מקאבלי",
+   "end_quote": "מאמך המוח וממני הכח :",
+   "hasidic": true,
+   "summary_en": "R. Mordechai of Neskhiz matches his brilliant but frail son with the daughter of a rich villager for a thousand-gold dowry; the grandson turns out frail like his father, and both parents remark with irony that he inherited the wrong qualities from each of them.",
+   "tags": [
+    {
+     "tag": "characters-and-roles:the_family_of_the_tsaddik",
+     "scope": "story",
+     "quotes": [],
+     "confidence": 3,
+     "why": "The tzaddik, his son, his daughter-in-law and his grandson are the characters.",
+     "quotes_failed": false
+    },
+    {
+     "tag": "social:marriage",
+     "scope": "span",
+     "quotes": [
+      "מי שיתן לבני אלף אדומים יהא מחותני",
+      "בשביל שיש לו כח לפזר נדן אלף אדומים"
+     ],
+     "confidence": 3,
+     "why": "The match and its dowry are the subject of the story.",
+     "quotes_failed": false
+    },
+    {
+     "tag": "social:marital_relationship",
+     "scope": "span",
+     "quotes": [
+      "ואמרה לו אמו אני חשבתי שיהא לך הכח שלי"
+     ],
+     "confidence": 1,
+     "why": "The couple's complementary traits, his mind and her strength, are contrasted.",
+     "quotes_failed": false
+    },
+    {
+     "tag": "women:minor_character",
+     "scope": "span",
+     "quotes": [
+      "ואמרה לו אמו אני חשבתי שיהא לך הכח שלי"
+     ],
+     "confidence": 3,
+     "why": "The villager's daughter speaks to her son.",
+     "quotes_failed": false
+    },
+    {
+     "tag": "times:birth",
+     "scope": "span",
+     "quotes": [
+      "ואח״כ הוליד בן מן הבת של בן הכפר"
+     ],
+     "confidence": 2,
+     "why": "The grandson's birth is narrated.",
+     "quotes_failed": false
+    },
+    {
+     "tag": "practice:joke",
+     "scope": "span",
+     "quotes": [
+      "ולבסוף הוא להיפוך שיש לך המוח שלי והכח של אביך"
+     ],
+     "confidence": 2,
+     "why": "The punchline is a witty reversal.",
+     "quotes_failed": false
+    },
+    {
+     "tag": "practice:study",
+     "scope": "span",
+     "quotes": [
+      "ילד היה חריף מאוד בלמוד"
+     ],
+     "confidence": 1,
+     "why": "The son's sharpness in learning motivates the match.",
+     "quotes_failed": false
+    },
+    {
+     "tag": "social:poverty",
+     "scope": "span",
+     "quotes": [
+      "אע״פ שאינו לפי כבודי לשדך עם האיש הזה"
+     ],
+     "confidence": 1,
+     "why": "Borderline: the tzaddik accepts a lower-status match for money, which touches on wealth.",
+     "quotes_failed": false
+    }
+   ],
+   "missing_concepts": [
+    "matchmaking (shidduch) and dowry",
+    "lineage (yichus) versus wealth",
+    "heredity of traits (mind and strength)",
+    "village Jews (yishuvnikim) versus rabbinic elite"
+   ],
+   "start_quote_found": true,
+   "end_quote_found": true
+  }
+ ],
+ "check": {
+  "non_vocab_tags": [],
+  "quotes": 8,
+  "quotes_not_found": 0
+ },
+ "id": "Likutim-Hadashim_0033",
+ "chars": 724,
+ "seconds": 12
+}

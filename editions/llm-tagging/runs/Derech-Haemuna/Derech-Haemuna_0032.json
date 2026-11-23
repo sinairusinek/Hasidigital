@@ -1,0 +1,121 @@
+{
+ "unit": {
+  "kind": "non_hasidic_story",
+  "why": "A medieval tale quoted from Or Zarua about a Worms beadle who dreams of a dead gravedigger rewarded in Paradise for reciting blessings aloud. It is set inside a homiletic argument about praying in the synagogue.",
+  "boundary_note": "Same chain of quoted sources on prayer and blessings as the neighbouring divisions; the quoted narrative is self-contained."
+ },
+ "stories": [
+  {
+   "k": 1,
+   "start_quote": "וכתב א״ז וז״ל הכרתי יהודי אחד מווירמישא",
+   "end_quote": "כדי לבטל ריח רע שבעוה״ז ע״כ",
+   "hasidic": false,
+   "summary_en": "A synagogue beadle in Worms dreams of a gravedigger who died the day before. The dead man, crowned with grass, says he was brought to Paradise for saying blessings in a pleasant voice in the synagogue, and proves who he is by the torn shirt.",
+   "tags": [
+    {
+     "tag": "experience:dream",
+     "scope": "span",
+     "quotes": [
+      "וראה בחלום אדם יושב לפני בהכ״נ"
+     ],
+     "confidence": 3,
+     "why": "The whole encounter is a dream.",
+     "quotes_failed": false
+    },
+    {
+     "tag": "supernatural:communicating_with_the_invisible",
+     "scope": "span",
+     "quotes": [
+      "וכי אינך פלוני שמת אתמול אמר לו הן"
+     ],
+     "confidence": 3,
+     "why": "Dialogue with the soul of a dead man.",
+     "quotes_failed": false
+    },
+    {
+     "tag": "ethics-and-emotions:fear",
+     "scope": "span",
+     "quotes": [
+      "ונתפחד השמש ממנו וסבר שהוא שד"
+     ],
+     "confidence": 3,
+     "why": "The beadle is frightened by the figure.",
+     "quotes_failed": false
+    },
+    {
+     "tag": "practice:prayer",
+     "scope": "span",
+     "quotes": [
+      "שהייתי אומר ברכות בקול נעים בבהכ״נ",
+      "שאין תיקון התפלה אף בציבור אלא דוקא בבהכ״נ"
+     ],
+     "confidence": 3,
+     "why": "Reciting blessings in the synagogue earns the reward, and the frame draws a lesson about prayer.",
+     "quotes_failed": false
+    },
+    {
+     "tag": "times:eschatology",
+     "scope": "span",
+     "quotes": [
+      "בזכות זה הביאוני לגן עדן ומכבדין אותי"
+     ],
+     "confidence": 2,
+     "why": "Reward of the soul in the afterlife.",
+     "quotes_failed": false
+    },
+    {
+     "tag": "not-a-hasidic-story:sermon",
+     "scope": "story",
+     "quotes": [],
+     "confidence": 2,
+     "why": "The tale is framed by a homiletic argument about public prayer in the synagogue.",
+     "quotes_failed": false
+    },
+    {
+     "tag": "not-a-hasidic-story:hagiography",
+     "scope": "story",
+     "quotes": [],
+     "confidence": 1,
+     "why": "A pre-Hasidic tale copied from an older book (Or Zarua), praising the merit of a simple man.",
+     "quotes_failed": false
+    },
+    {
+     "tag": "practice:clothing",
+     "scope": "span",
+     "quotes": [
+      "כי תראה בית חלוקי קרוע לפי שקרעת אותו"
+     ],
+     "confidence": 1,
+     "why": "The torn shroud shirt serves as the identifying sign.",
+     "quotes_failed": false
+    },
+    {
+     "tag": "characters-and-roles:demons",
+     "scope": "span",
+     "quotes": [
+      "וסבר שהוא שד"
+     ],
+     "confidence": 1,
+     "why": "Only suspected; no demon actually appears.",
+     "quotes_failed": false
+    }
+   ],
+   "missing_concepts": [
+    "dead man appearing to the living (revenant)",
+    "reward for a single commandment (merit of blessings)",
+    "burial society / gravedigger",
+    "synagogue beadle (shammash)"
+   ],
+   "start_quote_found": true,
+   "end_quote_found": true
+  }
+ ],
+ "check": {
+  "non_vocab_tags": [],
+  "quotes": 8,
+  "quotes_not_found": 0
+ },
+ "id": "Derech-Haemuna_0032",
+ "chars": 823,
+ "seconds": 18
+}

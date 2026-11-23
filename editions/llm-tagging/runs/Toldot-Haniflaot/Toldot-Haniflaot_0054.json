@@ -1,0 +1,84 @@
+{
+ "unit": {
+  "kind": "hasidic_story",
+  "why": "A short eyewitness memorate: three madmen brought to the rebbe on one day are healed by the next, and the local gentiles revere him for it.",
+  "boundary_note": "Follows a division on exorcising spirits; the next division starts a new tale."
+ },
+ "stories": [
+  {
+   "k": 1,
+   "start_quote": "והנה הרבה פעמים הביאו אליו גם משוגעים",
+   "end_quote": "כי הרב הוא איש אלהים נורא",
+   "hasidic": true,
+   "summary_en": "The narrator saw many madmen brought to the rebbe and healed; once three bound madmen ran through the market in one day and were sane the next, so the gentiles of the town and region came to fear and honour him as a man of God.",
+   "tags": [
+    {
+     "tag": "practice:healing",
+     "scope": "span",
+     "quotes": [
+      "וראינו בעינינו שכולם נתרפאו ונסעו לביתם בריא אולם",
+      "וליום מחרת הלכו כולם בישוב דעת"
+     ],
+     "confidence": 3,
+     "why": "The madmen are cured by the tzaddik.",
+     "quotes_failed": false
+    },
+    {
+     "tag": "supernatural:miracle",
+     "scope": "span",
+     "quotes": [
+      "וליום מחרת הלכו כולם בישוב דעת"
+     ],
+     "confidence": 3,
+     "why": "Overnight cure of three madmen is a discrete wonder.",
+     "quotes_failed": false
+    },
+    {
+     "tag": "social:relations_with_non_jews",
+     "scope": "span",
+     "quotes": [
+      "והיה קידוש השם גדול לעיני העמים",
+      "כי כל עמי העיר והסביבות היו יראים ממנו"
+     ],
+     "confidence": 3,
+     "why": "The gentiles of the town and surroundings revere the rebbe.",
+     "quotes_failed": false
+    },
+    {
+     "tag": "ethics-and-emotions:awe",
+     "scope": "span",
+     "quotes": [
+      "היו יראים ממנו וכבדו אותו",
+      "כי הרב הוא איש אלהים נורא"
+     ],
+     "confidence": 3,
+     "why": "The townspeople are in awe of the tzaddik.",
+     "quotes_failed": false
+    },
+    {
+     "tag": "folkloristics:story_type_virtues",
+     "scope": "story",
+     "quotes": [],
+     "confidence": 1,
+     "why": "Laudatory memorate showing the tzaddik's power, though it shows wonder-working more than virtue.",
+     "quotes_failed": false
+    }
+   ],
+   "missing_concepts": [
+    "madness / mental illness (משוגעים) and its cure",
+    "sanctification of God's name (קידוש השם) before the nations",
+    "eyewitness memorate by the author"
+   ],
+   "start_quote_found": true,
+   "end_quote_found": true
+  }
+ ],
+ "check": {
+  "non_vocab_tags": [],
+  "quotes": 7,
+  "quotes_not_found": 0
+ },
+ "id": "Toldot-Haniflaot_0054",
+ "chars": 381,
+ "seconds": 12
+}

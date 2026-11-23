@@ -1,0 +1,152 @@
+{
+ "unit": {
+  "kind": "hasidic_story",
+  "why": "A narrative about a penitent sent by R. Mordechai of Chernobyl to R. Israel of Ruzhin, who prescribes a regimen of repentance; the penitent's later elevation is reported by the Ruzhiner's son, the rebbe of Chortkov.",
+  "boundary_note": ""
+ },
+ "stories": [
+  {
+   "k": 1,
+   "start_quote": "שבעל תשובה אחד בא מקודם לפני",
+   "end_quote": "תשובה על כל דבר ודבר. ודפח\"ח",
+   "hasidic": true,
+   "summary_en": "A grave sinner brings a kvittel listing his sins to R. Mordechai of Chernobyl, who sends him to the young Ruzhiner. The Ruzhiner prescribes saying every holy utterance only from a siddur and gazing at his face at the table, and the man later becomes a man of high spiritual rank who receives kvitlech, as the Chortkover recounts.",
+   "tags": [
+    {
+     "tag": "ethics-and-emotions:repentance",
+     "scope": "story",
+     "quotes": [],
+     "confidence": 3,
+     "why": "The whole story concerns the penitent's teshuvah.",
+     "quotes_failed": false
+    },
+    {
+     "tag": "practice:healing_of_the_soul",
+     "scope": "span",
+     "quotes": [
+      "וסידר לו מרו מריזין התשובה בסדר הזה"
+     ],
+     "confidence": 3,
+     "why": "The tzaddik prescribes a tikkun for the sinner's soul.",
+     "quotes_failed": false
+    },
+    {
+     "tag": "social:relations_with_sinners",
+     "scope": "span",
+     "quotes": [
+      "ממש לא הניח עבירה אחת שלא עשה"
+     ],
+     "confidence": 3,
+     "why": "The tzaddikim deal with a severe sinner.",
+     "quotes_failed": false
+    },
+    {
+     "tag": "practice:travel_to_the_tsaddik",
+     "scope": "span",
+     "quotes": [
+      "ויסע הבע״ת למרן מריזין"
+     ],
+     "confidence": 3,
+     "why": "The penitent journeys to the tzaddik.",
+     "quotes_failed": false
+    },
+    {
+     "tag": "practice:travel_to_other_tsaddik",
+     "scope": "span",
+     "quotes": [
+      "תסע נא להריזינער הוא עוד צעיר לימים"
+     ],
+     "confidence": 2,
+     "why": "He is sent from one tzaddik to another.",
+     "quotes_failed": false
+    },
+    {
+     "tag": "practice:reception_of_hasidim",
+     "scope": "span",
+     "quotes": [
+      "ונתן לו קוויטל ופרט שם",
+      "אני כבר זקנתי מלקבל עלי בעל תשובה"
+     ],
+     "confidence": 3,
+     "why": "Kvittel audience; the Chernobyler declines to take him on.",
+     "quotes_failed": false
+    },
+    {
+     "tag": "practice:prayer",
+     "scope": "span",
+     "quotes": [
+      "תפלה ברכות בהמ\"ז. אפי' ברכת אשר יצר"
+     ],
+     "confidence": 2,
+     "why": "The regimen concerns how prayers and blessings are recited.",
+     "quotes_failed": false
+    },
+    {
+     "tag": "practice:torat_ha_tsaddik",
+     "scope": "span",
+     "quotes": [
+      "שיביט רק על פני קדשו של מרן"
+     ],
+     "confidence": 3,
+     "why": "Gazing at the tzaddik's face is itself the means of purification.",
+     "quotes_failed": false
+    },
+    {
+     "tag": "characters-and-roles:the_family_of_the_tsaddik",
+     "scope": "span",
+     "quotes": [
+      "וסיפר בנו הרה״ק מטשארטקוב זצוק\"ל"
+     ],
+     "confidence": 2,
+     "why": "The tzaddik's son is the narrator and comments on the story.",
+     "quotes_failed": false
+    },
+    {
+     "tag": "practice:storytelling",
+     "scope": "span",
+     "quotes": [
+      "וסיפר בנו הרה״ק מטשארטקוב זצוק\"ל"
+     ],
+     "confidence": 2,
+     "why": "The story is framed as told by a named tzaddik.",
+     "quotes_failed": false
+    },
+    {
+     "tag": "ethics-and-emotions:humility",
+     "scope": "span",
+     "quotes": [
+      "אני כבר זקנתי מלקבל עלי"
+     ],
+     "confidence": 1,
+     "why": "The Chernobyler defers to the younger tzaddik.",
+     "quotes_failed": false
+    },
+    {
+     "tag": "social:inter_hasidic",
+     "scope": "span",
+     "quotes": [
+      "תסע נא להריזינער הוא עוד צעיר לימים ויקבל אותך"
+     ],
+     "confidence": 2,
+     "why": "One tzaddik refers a person to another.",
+     "quotes_failed": false
+    }
+   ],
+   "missing_concepts": [
+    "kvittel (petition note) as a confession of sins",
+    "gazing at the tzaddik's face as a spiritual practice",
+    "a penitent rising to become a tzaddik himself"
+   ],
+   "start_quote_found": true,
+   "end_quote_found": true
+  }
+ ],
+ "check": {
+  "non_vocab_tags": [],
+  "quotes": 12,
+  "quotes_not_found": 0
+ },
+ "id": "Eser-Orot_0294",
+ "chars": 901,
+ "seconds": 15
+}

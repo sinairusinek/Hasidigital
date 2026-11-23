@@ -1,0 +1,112 @@
+{
+ "unit": {
+  "kind": "hasidic_story",
+  "why": "A short anecdote: 'our teacher' tells of his visit to R. Meir of Premishlan, who asks about his livelihood, and the two trade witty interpretations of 'love work and hate the rabbinate'.",
+  "boundary_note": ""
+ },
+ "stories": [
+  {
+   "k": 1,
+   "start_quote": "סיפר מורינו כי בהיותו אצל הרה״ק",
+   "end_quote": "כי לא רק דברי צחות דבר אז בקדשו",
+   "hasidic": true,
+   "summary_en": "During a visit to R. Meir of Premishlan, the narrator's master is asked how he makes a living. He says he hopes to serve as a halakhic decisor, and when R. Meir cites 'hate the rabbinate' he replies wittily: one should love being a rabbi who rules on law and hate being a 'rebbe and good Jew'.",
+   "tags": [
+    {
+     "tag": "practice:storytelling",
+     "scope": "story",
+     "quotes": [],
+     "confidence": 2,
+     "why": "The story is framed as told by 'our teacher' (סיפר מורינו).",
+     "quotes_failed": false
+    },
+    {
+     "tag": "practice:travel_to_other_tsaddik",
+     "scope": "span",
+     "quotes": [
+      "בהיותו אצל הרה״ק ר׳ מאיר מפרימישלאן"
+     ],
+     "confidence": 2,
+     "why": "The master stays with another tsaddik.",
+     "quotes_failed": false
+    },
+    {
+     "tag": "practice:joke",
+     "scope": "span",
+     "quotes": [
+      "ושנא את הרבנות הוא להיות רבי וגיטר יוד",
+      "כי לא רק דברי צחות דבר אז"
+     ],
+     "confidence": 3,
+     "why": "A witty exchange, explicitly called דברי צחות.",
+     "quotes_failed": false
+    },
+    {
+     "tag": "practice:sermon",
+     "scope": "span",
+     "quotes": [
+      "ובזה אני מפרש עוד מה דאמר לי׳ רב לרב כהנא",
+      "אני מפרש אהוב את המלאכה הוא להיות רב"
+     ],
+     "confidence": 3,
+     "why": "The master gives an exegesis of Avot and the Talmud.",
+     "quotes_failed": false
+    },
+    {
+     "tag": "practice:halakhah",
+     "scope": "span",
+     "quotes": [
+      "שהוא בקי באו\"ה והוראה",
+      "לא בא בפי בשר שהורה בה חכם"
+     ],
+     "confidence": 2,
+     "why": "The master's expertise in ritual law and the office of decisor are at issue.",
+     "quotes_failed": false
+    },
+    {
+     "tag": "practice:business_advice",
+     "scope": "span",
+     "quotes": [
+      "האט עטץ פרנסה והשיב לו מורינו שאין לו פרנסה"
+     ],
+     "confidence": 1,
+     "why": "The tsaddik asks about his livelihood and responds to his career plan.",
+     "quotes_failed": false
+    },
+    {
+     "tag": "ethics-and-emotions:humility",
+     "scope": "span",
+     "quotes": [
+      "ושנא את הרבנות הוא להיות רבי וגיטר יוד",
+      "ואל תאמר כהנא אנא וגברא רבה אנא"
+     ],
+     "confidence": 2,
+     "why": "The point is rejecting the status of a rebbe and self-importance.",
+     "quotes_failed": false
+    },
+    {
+     "tag": "not-a-hasidic-story:sermon",
+     "scope": "story",
+     "quotes": [],
+     "confidence": 1,
+     "why": "The anecdote mainly carries exegesis and ends with a pointer to the master's written commentary.",
+     "quotes_failed": false
+    }
+   ],
+   "missing_concepts": [
+    "career choice: halakhic decisor (מורה הוראה) vs. Hasidic rebbe",
+    "critique of the rebbe role"
+   ],
+   "start_quote_found": true,
+   "end_quote_found": true
+  }
+ ],
+ "check": {
+  "non_vocab_tags": [],
+  "quotes": 10,
+  "quotes_not_found": 0
+ },
+ "id": "Eser-Kedushot_0152",
+ "chars": 736,
+ "seconds": 18
+}

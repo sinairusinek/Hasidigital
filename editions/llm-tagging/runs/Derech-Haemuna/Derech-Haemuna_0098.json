@@ -1,0 +1,105 @@
+{
+ "unit": {
+  "kind": "hasidic_story",
+  "why": "A single anecdote: the Neskhizer's brother falls ill as a child, his sister pleads with their father, and the father heals him with a remedy derived from R. Pinhas of Korets.",
+  "boundary_note": ""
+ },
+ "stories": [
+  {
+   "k": 1,
+   "start_quote": "סיפר מרן מנעסכיז שאחיו הרהצה״ק הקאוולר",
+   "end_quote": "ונתן לו לשתות במים ונתרפא",
+   "hasidic": true,
+   "summary_en": "R. Mordecai of Neskhiz at first ignores his young son's (the future Kovler rav's) weeks-long fever; when his daughter Tsartil pleads, he asks R. Kehat, a disciple of R. Pinhas of Korets, what R. Pinhas prescribed, then reasons by analogy from henna to chalk, scrapes chalk into water while wearing his eyeglasses, and the boy is healed.",
+   "tags": [
+    {
+     "tag": "practice:healing",
+     "scope": "span",
+     "quotes": [
+      "וגרד בסכין מעט קרייד ונתן לו לשתות במים ונתרפא",
+      "היה לו בקטנותו חולי קדחת ר״ל כמה שבועות"
+     ],
+     "confidence": 3,
+     "why": "The father heals his feverish son with a folk remedy.",
+     "quotes_failed": false
+    },
+    {
+     "tag": "characters-and-roles:the_family_of_the_tsaddik",
+     "scope": "span",
+     "quotes": [
+      "ולא השגיח אביהם הג׳ מוהר״מ זצל״ה ע״ז",
+      "הפצירה אחותם צארטיל ע״ה לפני אביהם"
+     ],
+     "confidence": 3,
+     "why": "The tsaddik's son, daughter and father are the characters.",
+     "quotes_failed": false
+    },
+    {
+     "tag": "women:catalyst_character",
+     "scope": "span",
+     "quotes": [
+      "הפצירה אחותם צארטיל ע״ה לפני אביהם עבור אחיה"
+     ],
+     "confidence": 3,
+     "why": "The sister's pleading sets the healing in motion.",
+     "quotes_failed": false
+    },
+    {
+     "tag": "practice:storytelling",
+     "scope": "span",
+     "quotes": [
+      "סיפר מרן מנעסכיז שאחיו הרהצה״ק"
+     ],
+     "confidence": 2,
+     "why": "The tale is framed as told by the Neskhizer tsaddik.",
+     "quotes_failed": false
+    },
+    {
+     "tag": "supernatural:miracle",
+     "scope": "span",
+     "quotes": [
+      "ונתן לו לשתות במים ונתרפא"
+     ],
+     "confidence": 1,
+     "why": "The cure by chalk water may be read as a wonder.",
+     "quotes_failed": false
+    },
+    {
+     "tag": "social:inter_hasidic",
+     "scope": "span",
+     "quotes": [
+      "ושאל אביהם את הרה״ק קהת ז״ל תלמיד הרהצה״ק ר״פ מקארעץ"
+     ],
+     "confidence": 2,
+     "why": "The tsaddik consults a disciple of another master about that master's remedies.",
+     "quotes_failed": false
+    },
+    {
+     "tag": "not-a-hasidic-story:hagiography",
+     "scope": "story",
+     "quotes": [],
+     "confidence": 1,
+     "why": "Copied from an earlier book (ז״ט), though its figures are Hasidic, so the tag is a weak fit.",
+     "quotes_failed": false
+    }
+   ],
+   "missing_concepts": [
+    "folk medical remedies (honey-water chicken broth, henna, chalk)",
+    "transmission of a tsaddik's remedies through his disciple",
+    "reasoning by analogy from one remedy to another",
+    "the tsaddik's initial indifference to a child's illness",
+    "citation from an earlier book (ז״ט)"
+   ],
+   "start_quote_found": true,
+   "end_quote_found": true
+  }
+ ],
+ "check": {
+  "non_vocab_tags": [],
+  "quotes": 8,
+  "quotes_not_found": 0
+ },
+ "id": "Derech-Haemuna_0098",
+ "chars": 505,
+ "seconds": 12
+}

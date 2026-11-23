@@ -1,0 +1,197 @@
+{
+ "unit": {
+  "kind": "hasidic_story",
+  "why": "A single narrative: a poor hasid disobeys R. Uri of Strelisk's lottery advice, the rebbe grows angry and withdraws, and the young R. Simha Bunem pacifies him with a homily.",
+  "boundary_note": ""
+ },
+ "stories": [
+  {
+   "k": 1,
+   "start_quote": "שמעתי בשם הרב הקדוש ר׳ מורי מסטרעלצק",
+   "end_quote": "שהשי״ת יזמין לו מה שיצטרך :",
+   "hasidic": true,
+   "summary_en": "R. Uri of Strelisk tells a poor hasid to buy a lottery ticket with a given number to marry off his daughter; the hasid loses heart and sells the ticket, which then wins for another man; the angry rebbe refuses to see anyone until the young R. Simha Bunem explains that a tzaddik may decree wealth but may not dictate to God the means, after which the rebbe gives the poor man a general blessing.",
+   "tags": [
+    {
+     "tag": "social:poverty",
+     "scope": "span",
+     "quotes": [
+      "והיה עני מאוד והיה לו בת בוגרת"
+     ],
+     "confidence": 1,
+     "why": "a poor hasid; poverty is circumstantial, not embraced as a virtue",
+     "quotes_failed": false
+    },
+    {
+     "tag": "practice:business_advice",
+     "scope": "span",
+     "quotes": [
+      "שיעמוד על הלאטערי׳ וודאי יצליח",
+      "וגם אמר איזה נומר שיקח"
+     ],
+     "confidence": 3,
+     "why": "the rebbe gives financial advice about the lottery",
+     "quotes_failed": false
+    },
+    {
+     "tag": "social:disobedience",
+     "scope": "span",
+     "quotes": [
+      "הלך ומכר לאיש אחר והאיש אחר הצליח"
+     ],
+     "confidence": 3,
+     "why": "the hasid sells the ticket against the rebbe's instruction",
+     "quotes_failed": false
+    },
+    {
+     "tag": "ethics-and-emotions:shame",
+     "scope": "span",
+     "quotes": [
+      "והיה בוש לחזור אל הרבי הנ״ל"
+     ],
+     "confidence": 3,
+     "why": "the hasid is ashamed to return to the rebbe",
+     "quotes_failed": false
+    },
+    {
+     "tag": "ethics-and-emotions:fear",
+     "scope": "span",
+     "quotes": [
+      "איך שפחד שמא יפסיד כל הקלאססן"
+     ],
+     "confidence": 2,
+     "why": "fear of losing everything motivates the sale",
+     "quotes_failed": false
+    },
+    {
+     "tag": "ethics-and-emotions:anger",
+     "scope": "span",
+     "quotes": [
+      "והיה כועס הרבי הנ״ל"
+     ],
+     "confidence": 3,
+     "why": "the rebbe is angry",
+     "quotes_failed": false
+    },
+    {
+     "tag": "practice:travel_to_the_tsaddik",
+     "scope": "span",
+     "quotes": [
+      "נתיישב העני הנ״ל ליסע להרבי הנ״ל"
+     ],
+     "confidence": 2,
+     "why": "the hasid journeys back to the rebbe",
+     "quotes_failed": false
+    },
+    {
+     "tag": "practice:reception_of_hasidim",
+     "scope": "span",
+     "quotes": [
+      "ולא היה מניח שום אדם להיות אצלו"
+     ],
+     "confidence": 3,
+     "why": "the rebbe refuses audiences to everyone",
+     "quotes_failed": false
+    },
+    {
+     "tag": "practice:torat_ha_tsaddik",
+     "scope": "span",
+     "quotes": [
+      "שהצדיק גוזר והקב״ה מקיים",
+      "שהצדיק יש לו רשות לגזור על האדם"
+     ],
+     "confidence": 3,
+     "why": "the limits of the tzaddik's power to decree",
+     "quotes_failed": false
+    },
+    {
+     "tag": "practice:sermon",
+     "scope": "span",
+     "quotes": [
+      "כתיב ותגזר אומר ויקום לך",
+      "וזה הפשט מי יאמר לך מה תעשה"
+     ],
+     "confidence": 3,
+     "why": "Simha Bunem's exegetical homily",
+     "quotes_failed": false
+    },
+    {
+     "tag": "practice:failure",
+     "scope": "span",
+     "quotes": [
+      "והפסיד כל ארבע קלאססין"
+     ],
+     "confidence": 2,
+     "why": "the rebbe's specific remedy does not work as expected, and an explanation is given",
+     "quotes_failed": false
+    },
+    {
+     "tag": "social:inter_hasidic",
+     "scope": "span",
+     "quotes": [
+      "ובתוך זה בא אליו הרה״ק ר׳ שמחה בונם"
+     ],
+     "confidence": 2,
+     "why": "the young Simha Bunem comes to the rebbe of Strelisk and intervenes",
+     "quotes_failed": false
+    },
+    {
+     "tag": "practice:travel_to_other_tsaddik",
+     "scope": "span",
+     "quotes": [
+      "בא אליו הרה״ק ר׳ שמחה בונם זצ״ל כשהיה אז רך בשנים"
+     ],
+     "confidence": 1,
+     "why": "Simha Bunem visits another tzaddik",
+     "quotes_failed": false
+    },
+    {
+     "tag": "women:mention_only",
+     "scope": "span",
+     "quotes": [
+      "והיה לו בת בוגרת"
+     ],
+     "confidence": 3,
+     "why": "the daughter is mentioned but does not act",
+     "quotes_failed": false
+    },
+    {
+     "tag": "social:marriage",
+     "scope": "span",
+     "quotes": [
+      "איך שצריך להשיא אותה"
+     ],
+     "confidence": 2,
+     "why": "the need to marry off the daughter drives the plot",
+     "quotes_failed": false
+    },
+    {
+     "tag": "ethics-and-emotions:sadness",
+     "scope": "span",
+     "quotes": [
+      "כשבא אצל הרבי היה בוכה מאוד"
+     ],
+     "confidence": 1,
+     "why": "the hasid's weeping",
+     "quotes_failed": false
+    }
+   ],
+   "missing_concepts": [
+    "lottery / gambling",
+    "dowry (hakhnasat kallah)",
+    "a tzaddik's withdrawal from leadership",
+    "a tzaddik's blessing (general vs specific)"
+   ],
+   "start_quote_found": true,
+   "end_quote_found": true
+  }
+ ],
+ "check": {
+  "non_vocab_tags": [],
+  "quotes": 19,
+  "quotes_not_found": 0
+ },
+ "id": "Likutim-Hadashim_0028",
+ "chars": 1418,
+ "seconds": 17
+}

@@ -1,0 +1,93 @@
+{
+ "unit": {
+  "kind": "hasidic_story",
+  "why": "A short anecdote: the Seer of Lublin refuses to make kiddush over a sealed vessel of 'wine', and it later turns out to be white mead.",
+  "boundary_note": "The story's opening words naming its subject ('פ\"א הה\"ק מלובלין זצ״ל') sit at the end of the previous division."
+ },
+ "stories": [
+  {
+   "k": 1,
+   "start_quote": "פ״א הביאו לפניו יין לקידוש",
+   "end_quote": "שהיא מי דבש לבן מארץ הגר",
+   "hasidic": true,
+   "summary_en": "When wine was brought to the Seer of Lublin for kiddush, he looked at the sealed bottle and said it was kosher, yet he would not use it because he did not see in it the nature of wine; once the bottle was opened it proved to be white mead from Hungary.",
+   "tags": [
+    {
+     "tag": "supernatural:perception",
+     "scope": "span",
+     "quotes": [
+      "ואמר שלא ראה עליו ענין יין",
+      "לשום עיניו על היין כשהוא בכלי הביטעלקי בעודו סתום"
+     ],
+     "confidence": 3,
+     "why": "He sees through the sealed vessel that its contents are not wine.",
+     "quotes_failed": false
+    },
+    {
+     "tag": "social:retrospective_recognition",
+     "scope": "span",
+     "quotes": [
+      "ואחר הקידוש פתחו הכלי וראו שהיא מי דבש"
+     ],
+     "confidence": 3,
+     "why": "Opening the bottle afterwards shows the onlookers why he refused it.",
+     "quotes_failed": false
+    },
+    {
+     "tag": "practice:drinking_alcohol",
+     "scope": "span",
+     "quotes": [
+      "הביאו לפניו יין לקידוש",
+      "וקידש על יין אחר"
+     ],
+     "confidence": 2,
+     "why": "Wine for kiddush is the occasion of the wonder.",
+     "quotes_failed": false
+    },
+    {
+     "tag": "practice:halakhah",
+     "scope": "span",
+     "quotes": [
+      "והשגיח כמה פעמים ואמר כשר"
+     ],
+     "confidence": 2,
+     "why": "Whether the drink is fit for kiddush, and is kosher, is the point at issue.",
+     "quotes_failed": false
+    },
+    {
+     "tag": "times:shabbat",
+     "scope": "span",
+     "quotes": [
+      "הביאו לפניו יין לקידוש"
+     ],
+     "confidence": 1,
+     "why": "Kiddush suggests a Sabbath setting, but it could also be a festival.",
+     "quotes_failed": false
+    },
+    {
+     "tag": "practice:prayer",
+     "scope": "span",
+     "quotes": [
+      "ולא רצה לקדש עליו וקידש על יין אחר"
+     ],
+     "confidence": 1,
+     "why": "Kiddush is a liturgical blessing, and making it is depicted.",
+     "quotes_failed": false
+    }
+   ],
+   "missing_concepts": [
+    "the fitness of a drink for kiddush (wine versus mead)"
+   ],
+   "start_quote_found": true,
+   "end_quote_found": true
+  }
+ ],
+ "check": {
+  "non_vocab_tags": [],
+  "quotes": 8,
+  "quotes_not_found": 0
+ },
+ "id": "Peulat-Hatzadikim_0028",
+ "chars": 241,
+ "seconds": 13
+}

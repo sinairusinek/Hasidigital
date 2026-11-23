@@ -1,0 +1,102 @@
+{
+ "unit": {
+  "kind": "hasidic_story",
+  "why": "A short anecdote: R. Shmelke of Nikolsburg returns from the Maggid of Mezritch and is asked what he learned; this is framed by a report of his ascetic habit and followed by a homiletic expansion by the rebbe of Sadigura.",
+  "boundary_note": ""
+ },
+ "stories": [
+  {
+   "k": 1,
+   "start_quote": "עוד כתב לי מחו' הנ\"ל בשם הנ\"ל",
+   "end_quote": "והוא מרחמי השי״ת עכ״ל",
+   "hasidic": true,
+   "summary_en": "The rebbe of Sadigura relates that R. Shmelke of Nikolsburg never scratched his body, and that on returning from the Maggid of Mezritch he said he had moved from fasting to make the body bear the soul to training the soul to bear the body; the rebbe then expounds this through verses.",
+   "tags": [
+    {
+     "tag": "practice:asceticism",
+     "scope": "span",
+     "quotes": [
+      "לא חוכך גופו בשום פעם",
+      "עוסק בתעניתים לענות גופי"
+     ],
+     "confidence": 3,
+     "why": "His self-denial of the body is described.",
+     "quotes_failed": false
+    },
+    {
+     "tag": "practice:fasting",
+     "scope": "span",
+     "quotes": [
+      "עד כה הייתי עוסק בתעניתים לענות גופי"
+     ],
+     "confidence": 3,
+     "why": "He fasted to afflict his body.",
+     "quotes_failed": false
+    },
+    {
+     "tag": "practice:travel_to_the_tsaddik",
+     "scope": "span",
+     "quotes": [
+      "בא הרר\"ש מנ\"ש בחזרה מהמגיד הגדול ממעזריטש"
+     ],
+     "confidence": 3,
+     "why": "His journey to the Maggid is the occasion of the anecdote.",
+     "quotes_failed": false
+    },
+    {
+     "tag": "social:inter_hasidic_master_disciple_relationship",
+     "scope": "span",
+     "quotes": [
+      "שאלו אותו מה נודע לו מנסיעתו"
+     ],
+     "confidence": 2,
+     "why": "What the disciple learned from his master is the point.",
+     "quotes_failed": false
+    },
+    {
+     "tag": "practice:devekut",
+     "scope": "span",
+     "quotes": [
+      "להיות החלק דבוק אל הכלל"
+     ],
+     "confidence": 2,
+     "why": "The danger that the soul will cleave to God and leave the body.",
+     "quotes_failed": false
+    },
+    {
+     "tag": "practice:sermon",
+     "scope": "span",
+     "quotes": [
+      "וזהו שהבטיח לנו תוה\"ק ונתתי משכני בתוככם",
+      "וזשה\"כ תורת ה׳ תמימה אז היא משיבת נפש"
+     ],
+     "confidence": 3,
+     "why": "The rebbe of Sadigura expounds verses.",
+     "quotes_failed": false
+    },
+    {
+     "tag": "not-a-hasidic-story:sermon",
+     "scope": "story",
+     "quotes": [],
+     "confidence": 2,
+     "why": "The narrative is thin and wrapped in an extended homiletic frame.",
+     "quotes_failed": false
+    }
+   ],
+   "missing_concepts": [
+    "body–soul relationship",
+    "chain of oral transmission"
+   ],
+   "start_quote_found": true,
+   "end_quote_found": true
+  }
+ ],
+ "check": {
+  "non_vocab_tags": [],
+  "quotes": 8,
+  "quotes_not_found": 0
+ },
+ "id": "Eser-Orot_0323",
+ "chars": 766,
+ "seconds": 15
+}

@@ -1,0 +1,91 @@
+{
+ "unit": {
+  "kind": "hasidic_story",
+  "why": "A single anecdote: the tsaddik stays with the wealthy R. Yozpa and offers him a choice of fates. The choice is then fulfilled.",
+  "boundary_note": ""
+ },
+ "stories": [
+  {
+   "k": 1,
+   "start_quote": "בספר בית משולם מידי\"נ הרב מפלונסק",
+   "end_quote": "שתי שנים רצופים עד יום מותו ל״ע",
+   "hasidic": true,
+   "summary_en": "The tsaddik lodges for several days with the wealthy R. Yozpa. Before leaving, he makes him choose between long life in poverty, wealth with suffering, or bad sons. Yozpa chooses suffering and dies at about 52 after two years of painful illness.",
+   "tags": [
+    {
+     "tag": "practice:the_travels_of_the_tsaddik",
+     "scope": "span",
+     "quotes": [
+      "והתאכסן בביתו כמה ימים"
+     ],
+     "confidence": 3,
+     "why": "the tsaddik travels and lodges at the magnate's house",
+     "quotes_failed": false
+    },
+    {
+     "tag": "supernatural:prognostication",
+     "scope": "span",
+     "quotes": [
+      "ובחר ביסורים וכן הי' כי מת"
+     ],
+     "confidence": 3,
+     "why": "the chosen fate comes true as offered",
+     "quotes_failed": false
+    },
+    {
+     "tag": "folkloristics:story_type_prognostication",
+     "scope": "story",
+     "quotes": [],
+     "confidence": 2,
+     "why": "the arc is the tsaddik's offered fates and their fulfilment",
+     "quotes_failed": false
+    },
+    {
+     "tag": "times:death",
+     "scope": "span",
+     "quotes": [
+      "מת בהיותו ערך נ״ב או נ\"ג שנים"
+     ],
+     "confidence": 3,
+     "why": "Yozpa's death is narrated",
+     "quotes_failed": false
+    },
+    {
+     "tag": "practice:torat_ha_tsaddik",
+     "scope": "span",
+     "quotes": [
+      "מה הוא בוחר לו אם להאריך ימים"
+     ],
+     "confidence": 2,
+     "why": "the tsaddik appears to have power to set a person's fate",
+     "quotes_failed": false
+    },
+    {
+     "tag": "practice:storytelling",
+     "scope": "span",
+     "quotes": [
+      "שיסופר בין אנשי משפחתו קודש"
+     ],
+     "confidence": 1,
+     "why": "framed as a tradition told within the family",
+     "quotes_failed": false
+    }
+   ],
+   "missing_concepts": [
+    "choice among fates / destinies offered by a tsaddik",
+    "suffering (yissurim) accepted in exchange for wealth",
+    "wealthy patron (gvir)"
+   ],
+   "start_quote_found": true,
+   "end_quote_found": true
+  }
+ ],
+ "check": {
+  "non_vocab_tags": [],
+  "quotes": 5,
+  "quotes_not_found": 0
+ },
+ "id": "Eser-Orot_0090",
+ "chars": 417,
+ "seconds": 12
+}

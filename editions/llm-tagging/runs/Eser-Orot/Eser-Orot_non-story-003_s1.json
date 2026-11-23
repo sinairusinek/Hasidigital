@@ -1,0 +1,62 @@
+{
+ "unit": {
+  "kind": "hasidic_story",
+  "why": "split out of non-story-003 (non-story)"
+ },
+ "stories": [
+  {
+   "k": 1,
+   "start_quote": "במס׳ חולין (דף ט׳ ע\"א) בר׳ פנחס בן יאיר",
+   "end_quote": "ולא יגיע לו שום נזק חלילה",
+   "hasidic": false,
+   "summary_en": "R. Pinhas ben Yair splits the river Ginai on his way to ransom captives and again on his way to the study house (Bavli and Yerushalmi versions).",
+   "tags": [
+    {
+     "tag": "supernatural:miracle",
+     "scope": "span",
+     "quotes": [
+      "ונקרע הנהר מלפניו ועבר ביבשה"
+     ],
+     "confidence": 3,
+     "why": "river splits",
+     "quotes_failed": false
+    },
+    {
+     "tag": "practice:pidyon_shvuyim",
+     "scope": "span",
+     "quotes": [
+      "דהוה קאזיל לפדיון שבוים"
+     ],
+     "confidence": 2,
+     "why": "journey to ransom captives",
+     "quotes_failed": false
+    },
+    {
+     "tag": "spaces:beth_midrash",
+     "scope": "span",
+     "quotes": [
+      "וכי אתה מונע איתי מללכת לביהמ״ד"
+     ],
+     "confidence": 1,
+     "why": "destination",
+     "quotes_failed": false
+    },
+    {
+     "tag": "not-a-hasidic-story:hagiography",
+     "scope": "story",
+     "quotes": [],
+     "confidence": 3,
+     "why": "talmudic sage's wonder",
+     "quotes_failed": false
+    }
+   ],
+   "missing_concepts": [
+    "command over nature (גזירת צדיק)"
+   ],
+   "start_quote_found": true,
+   "end_quote_found": true
+  }
+ ],
+ "id": "Eser-Orot_non-story-003_s1",
+ "split_from": "non-story-003"
+}

@@ -1,0 +1,80 @@
+{
+ "unit": {
+  "kind": "hasidic_story",
+  "why": "A short anecdote about the Saba Kadisha's habit of asking for red gold coins as pidyonot so he could give them to the poor, who liked them best.",
+  "boundary_note": "Follows the previous division's anecdote about the same Saba Kadisha's simplicity (תמימות); it is a separate anecdote."
+ },
+ "stories": [
+  {
+   "k": 1,
+   "start_quote": "ע\"ש מהסבא קדישא הנ״ל שהיה רגיל",
+   "end_quote": "ע״כ בקש ממנו שיתן להם גדולים אדומים",
+   "hasidic": true,
+   "summary_en": "The Saba Kadisha asked those who gave him pidyonot for red gold coins, because he could not tell coins apart and the poor, who knew this, eagerly asked him for red ones when he gave charity.",
+   "tags": [
+    {
+     "tag": "practice:pidyon_nefesh",
+     "scope": "span",
+     "quotes": [
+      "שהיה רגיל ליקח פדיונות מהאנשים"
+     ],
+     "confidence": 2,
+     "why": "Pidyon payments are given to the tzaddik.",
+     "quotes_failed": false
+    },
+    {
+     "tag": "ethics-and-emotions:charity",
+     "scope": "span",
+     "quotes": [
+      "שצריך ליתן לעניים צדקה"
+     ],
+     "confidence": 3,
+     "why": "He collects the coins in order to give them to the poor.",
+     "quotes_failed": false
+    },
+    {
+     "tag": "folkloristics:story_type_virtues",
+     "scope": "story",
+     "quotes": [],
+     "confidence": 2,
+     "why": "The anecdote illustrates his charity and his simplicity.",
+     "quotes_failed": false
+    },
+    {
+     "tag": "ethics-and-emotions:virtues",
+     "scope": "span",
+     "quotes": [
+      "כי הוא לא ידע להבחין בין המטבעות"
+     ],
+     "confidence": 2,
+     "why": "His innocence (תמימות) toward money is the point.",
+     "quotes_failed": false
+    },
+    {
+     "tag": "practice:torat_ha_tsaddik",
+     "scope": "span",
+     "quotes": [
+      "ובקש מהם שיתנו לו גדולים אדומים"
+     ],
+     "confidence": 1,
+     "why": "It depicts how the tzaddik receives pidyonot; borderline.",
+     "quotes_failed": false
+    }
+   ],
+   "missing_concepts": [
+    "the tzaddik's ignorance of money (unworldliness/simplicity, תמימות)",
+    "coins and currency"
+   ],
+   "start_quote_found": true,
+   "end_quote_found": true
+  }
+ ],
+ "check": {
+  "non_vocab_tags": [],
+  "quotes": 4,
+  "quotes_not_found": 0
+ },
+ "id": "Likutim-Hadashim_0030",
+ "chars": 387,
+ "seconds": 13
+}

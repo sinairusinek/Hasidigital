@@ -1,0 +1,162 @@
+{
+ "unit": {
+  "kind": "hasidic_story",
+  "why": "An anecdote told by the author's uncle R. Zvi (Hirsh of Zhidachov): he was driven out of Brody in disgrace on a Friday, reached Podkamin without Sabbath clothes, and on the Sabbath experienced an unprecedented illumination; it closes with a short teaching.",
+  "boundary_note": ""
+ },
+ "stories": [
+  {
+   "k": 1,
+   "start_quote": "וסיפר לי מו״ר דודי הק׳ רבינו צבי",
+   "end_quote": "והבזיונות באהבה. (ה״ה פ׳ ואחתנן)",
+   "hasidic": true,
+   "summary_en": "R. Zvi Hirsh tells that every Sabbath eve he suffers humiliation in order to merit the Sabbath light. Once he was chased out of Brody in great disgrace and reached Podkamin at nightfall without Sabbath clothes. On the Sabbath his prayer was illuminated as never before, which he takes as a teaching on accepting suffering and humiliation with love and on studying Zohar and Lurianic writings.",
+   "tags": [
+    {
+     "tag": "times:shabbat",
+     "scope": "story",
+     "quotes": [],
+     "confidence": 3,
+     "why": "The whole story turns on Sabbath eve and the Sabbath light",
+     "quotes_failed": false
+    },
+    {
+     "tag": "ethics-and-emotions:shame",
+     "scope": "span",
+     "quotes": [
+      "והבריחו אותו משם בבזיון גדול עד למאד",
+      "רבש״ע כ״כ בזיון היה לי"
+     ],
+     "confidence": 3,
+     "why": "The tsaddik is driven out in disgrace",
+     "quotes_failed": false
+    },
+    {
+     "tag": "social:conflict",
+     "scope": "span",
+     "quotes": [
+      "והבריחו אותו משם בבזיון גדול עד למאד"
+     ],
+     "confidence": 2,
+     "why": "He is expelled from Brody by opponents",
+     "quotes_failed": false
+    },
+    {
+     "tag": "practice:the_travels_of_the_tsaddik",
+     "scope": "span",
+     "quotes": [
+      "ופ״א היה בעש״ק בעיר בראד",
+      "והוצרך לנוס לעיר פודקאמין"
+     ],
+     "confidence": 2,
+     "why": "The tsaddik is away from home and has to move on to another town",
+     "quotes_failed": false
+    },
+    {
+     "tag": "practice:clothing",
+     "scope": "span",
+     "quotes": [
+      "בלא בגדי שבת והוצרך לקבל שבת"
+     ],
+     "confidence": 2,
+     "why": "Lack of Sabbath garments is a significant detail of the humiliation",
+     "quotes_failed": false
+    },
+    {
+     "tag": "practice:prayer",
+     "scope": "span",
+     "quotes": [
+      "האיר לי את תפלתי"
+     ],
+     "confidence": 2,
+     "why": "His Sabbath prayer was illuminated",
+     "quotes_failed": false
+    },
+    {
+     "tag": "experience:enthusiasm",
+     "scope": "span",
+     "quotes": [
+      "ונדלקו בי רמ״ח אברי"
+     ],
+     "confidence": 3,
+     "why": "All his limbs burned with fervor",
+     "quotes_failed": false
+    },
+    {
+     "tag": "practice:devekut",
+     "scope": "span",
+     "quotes": [
+      "ונדלקו בי רמ״ח אברי לא יכילהו הרעיון"
+     ],
+     "confidence": 2,
+     "why": "An ecstatic state of illumination in worship",
+     "quotes_failed": false
+    },
+    {
+     "tag": "practice:asceticism",
+     "scope": "span",
+     "quotes": [
+      "שבכל עש״ק יש לו ביטול ויסורין"
+     ],
+     "confidence": 1,
+     "why": "Weekly suffering and self-nullification as preparation for the Sabbath",
+     "quotes_failed": false
+    },
+    {
+     "tag": "ethics-and-emotions:virtues",
+     "scope": "span",
+     "quotes": [
+      "ובקבלת היסורין והבזיונות באהבה"
+     ],
+     "confidence": 2,
+     "why": "Accepting suffering with love is the moral the story draws",
+     "quotes_failed": false
+    },
+    {
+     "tag": "practice:study",
+     "scope": "span",
+     "quotes": [
+      "ע״י לימוד זוה״ק עם כתבי הרח״ו"
+     ],
+     "confidence": 1,
+     "why": "Concluding teaching prescribes study of the Zohar and Lurianic writings",
+     "quotes_failed": false
+    },
+    {
+     "tag": "knowledge:esoteric",
+     "scope": "span",
+     "quotes": [
+      "ע״י לימוד זוה״ק עם כתבי הרח״ו על פי מרן האר״י"
+     ],
+     "confidence": 1,
+     "why": "Kabbalistic study is named as the path to the Sabbath light",
+     "quotes_failed": false
+    },
+    {
+     "tag": "practice:storytelling",
+     "scope": "span",
+     "quotes": [
+      "וסיפר לי מו״ר דודי הק׳ רבינו צבי"
+     ],
+     "confidence": 1,
+     "why": "Framed as a tale the tsaddik told the author",
+     "quotes_failed": false
+    }
+   ],
+   "missing_concepts": [
+    "sanctifying humiliation / suffering as preparation for spiritual light",
+    "the Sabbath light (אור השבת)"
+   ],
+   "start_quote_found": true,
+   "end_quote_found": true
+  }
+ ],
+ "check": {
+  "non_vocab_tags": [],
+  "quotes": 14,
+  "quotes_not_found": 0
+ },
+ "id": "Derech-Haemuna_0175",
+ "chars": 547,
+ "seconds": 20
+}

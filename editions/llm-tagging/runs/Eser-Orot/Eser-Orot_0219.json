@@ -1,0 +1,123 @@
+{
+ "unit": {
+  "kind": "hasidic_story",
+  "why": "A first-person anecdote quoted from another book: the Seer of Lublin laments his own 'blackness', the narrator answers with a kabbalistic reply, and the Seer reacts in humility and recalls how R. Elimelech greeted him.",
+  "boundary_note": ""
+ },
+ "stories": [
+  {
+   "k": 1,
+   "start_quote": "וכאשר פ\"א סיפר לי מורי ורבי מלובלין",
+   "end_quote": "ששמעתי מאתו בשבת הקודם עכ״ל ודפח״ח",
+   "hasidic": true,
+   "summary_en": "The Seer of Lublin tells his disciple that melancholy visitors leave him luminous while he himself stays 'black'; the disciple answers that Keter Elyon is dark compared to the Cause of Causes; the Seer humbly turns his face away and recalls that R. Elimelech used to greet him with 'gut yom tov', which the disciple takes as confirmation of his words.",
+   "tags": [
+    {
+     "tag": "ethics-and-emotions:sadness",
+     "scope": "span",
+     "quotes": [
+      "באים אצלי בני אדם במרה שחורה",
+      "שאני בעצמי רצ\"ל מרה וחזר ואמר שחרה"
+     ],
+     "confidence": 3,
+     "why": "melancholy of visitors and of the Seer himself is the subject",
+     "quotes_failed": false
+    },
+    {
+     "tag": "ethics-and-emotions:humility",
+     "scope": "span",
+     "quotes": [
+      "החזיר פניו מעט מאתי בדרכו בענותנותו",
+      "תמיד כשהיו משבחין אותו ותיכף החזיר פניו"
+     ],
+     "confidence": 3,
+     "why": "the Seer turns away from praise out of humility",
+     "quotes_failed": false
+    },
+    {
+     "tag": "folkloristics:story_type_virtues",
+     "scope": "story",
+     "quotes": [],
+     "confidence": 2,
+     "why": "anecdote illustrates the Seer's humility",
+     "quotes_failed": false
+    },
+    {
+     "tag": "social:inter_hasidic_master_disciple_relationship",
+     "scope": "span",
+     "quotes": [
+      "סיפר לי מורי ורבי מלובלין",
+      "כשהיה מקבל פני רבו ר׳ אלימלך"
+     ],
+     "confidence": 3,
+     "why": "dialogue between master and disciple, and the Seer with his own master",
+     "quotes_failed": false
+    },
+    {
+     "tag": "practice:reception_of_hasidim",
+     "scope": "span",
+     "quotes": [
+      "באים אצלי בני אדם במרה שחורה ובנסעם מאתי מאירים",
+      "בבאו הי׳ אומר לו גיט יו״ט"
+     ],
+     "confidence": 2,
+     "why": "visitors come to the tzaddik; R. Elimelech's greeting of the Seer",
+     "quotes_failed": false
+    },
+    {
+     "tag": "practice:travel_to_the_tsaddik",
+     "scope": "span",
+     "quotes": [
+      "באים אצלי בני אדם במרה שחורה ובנסעם מאתי"
+     ],
+     "confidence": 1,
+     "why": "people travel to the Seer and depart",
+     "quotes_failed": false
+    },
+    {
+     "tag": "knowledge:esoteric",
+     "scope": "span",
+     "quotes": [
+      "אע״ג דאיהו כתר עליון אוכם הוא לגבי עלות העלות"
+     ],
+     "confidence": 2,
+     "why": "kabbalistic answer about the sefirot",
+     "quotes_failed": false
+    },
+    {
+     "tag": "practice:torat_ha_tsaddik",
+     "scope": "span",
+     "quotes": [
+      "ובנסעם מאתי מאירים"
+     ],
+     "confidence": 1,
+     "why": "the tzaddik's power to illuminate others",
+     "quotes_failed": false
+    },
+    {
+     "tag": "practice:storytelling",
+     "scope": "span",
+     "quotes": [
+      "וסיפר לי כשהיה מקבל פני רבו"
+     ],
+     "confidence": 1,
+     "why": "the Seer narrates a memory of his master",
+     "quotes_failed": false
+    }
+   ],
+   "missing_concepts": [
+    "tzaddik's self-perception of spiritual darkness versus his effect on others"
+   ],
+   "start_quote_found": true,
+   "end_quote_found": true
+  }
+ ],
+ "check": {
+  "non_vocab_tags": [],
+  "quotes": 12,
+  "quotes_not_found": 0
+ },
+ "id": "Eser-Orot_0219",
+ "chars": 459,
+ "seconds": 17
+}

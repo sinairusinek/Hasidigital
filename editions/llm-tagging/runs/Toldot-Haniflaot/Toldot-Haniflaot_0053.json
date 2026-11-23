@@ -1,0 +1,185 @@
+{
+ "unit": {
+  "kind": "hasidic_story",
+  "why": "An eyewitness memorate: the master exorcises a possessed man outside the beit midrash and a possessed woman at the women's section on the same day, then tells the tsaddik of Radoshitz that he uses no kavvanot.",
+  "boundary_note": ""
+ },
+ "stories": [
+  {
+   "k": 1,
+   "start_quote": "והנה בעיני ראיתי כי כמה רוחות רעות",
+   "end_quote": "שוטים שיראים מפני, ולכן המה בורחים",
+   "hasidic": true,
+   "summary_en": "The master drives an evil spirit from a bound, Polish-speaking man with a slap and from a woman with a rebuke, and later tells the Radoshitz tsaddik that he uses no kavvanot because the spirits are simply fools who fear him.",
+   "tags": [
+    {
+     "tag": "characters-and-roles:demons",
+     "scope": "span",
+     "quotes": [
+      "א׳ שהיה לו רוח רעה",
+      "אשה אחת אשר היה בה רוח רעה"
+     ],
+     "confidence": 3,
+     "why": "possessing evil spirits",
+     "quotes_failed": false
+    },
+    {
+     "tag": "folkloristics:story_type_protection",
+     "scope": "story",
+     "quotes": [],
+     "confidence": 3,
+     "why": "the tsaddik frees people from evil spirits",
+     "quotes_failed": false
+    },
+    {
+     "tag": "practice:protection",
+     "scope": "span",
+     "quotes": [
+      "והכהו בידיו על פניו, ומיד סד הרוח מאתו",
+      "ואז דיבר אל הרוח ומזהירו שיצא מהאשה זו"
+     ],
+     "confidence": 3,
+     "why": "exorcism",
+     "quotes_failed": false
+    },
+    {
+     "tag": "supernatural:miracle",
+     "scope": "span",
+     "quotes": [
+      "ושוב לא היה בו הרוח עוד",
+      "ואז סר גם הרוח הזה ממנה"
+     ],
+     "confidence": 3,
+     "why": "instant cure",
+     "quotes_failed": false
+    },
+    {
+     "tag": "practice:healing",
+     "scope": "span",
+     "quotes": [
+      "ודיבר בישוב הדעת וצוה מרן ז\"ל להתיר אותו"
+     ],
+     "confidence": 2,
+     "why": "the possessed man regains his sanity",
+     "quotes_failed": false
+    },
+    {
+     "tag": "supernatural:communicating_with_the_invisible",
+     "scope": "span",
+     "quotes": [
+      "ואז דיבר אל הרוח ומזהירו שיצא"
+     ],
+     "confidence": 2,
+     "why": "addresses the spirit",
+     "quotes_failed": false
+    },
+    {
+     "tag": "ethics-and-emotions:fear",
+     "scope": "span",
+     "quotes": [
+      "וראינו הפ ד הגדול שהיה להם מפניו",
+      "שהמה שוטים שיראים מפני"
+     ],
+     "confidence": 3,
+     "why": "the spirits fear the tsaddik",
+     "quotes_failed": false
+    },
+    {
+     "tag": "spaces:beth_midrash",
+     "scope": "span",
+     "quotes": [
+      "ואביו בא עמו בעגלה לפני הבהמ״ד",
+      "ומרן ז\"ל היה אז בבהמ״ד קודם התפלה"
+     ],
+     "confidence": 3,
+     "why": "setting",
+     "quotes_failed": false
+    },
+    {
+     "tag": "practice:prayer",
+     "scope": "span",
+     "quotes": [
+      "ואח״כ היה מתפלל כמו כל ב״א",
+      "ובאותו יום אחר התפלה"
+     ],
+     "confidence": 2,
+     "why": "the healed man prays; the events frame the prayer service",
+     "quotes_failed": false
+    },
+    {
+     "tag": "kabbalah:kabbalistic_terms_kavvanot",
+     "scope": "span",
+     "quotes": [
+      "יאמר נא מר איזה כוונות שכבודו מכוון אז",
+      "שאיני מכוון שום כוונה"
+     ],
+     "confidence": 2,
+     "why": "kavvanot for exorcism are discussed and denied",
+     "quotes_failed": false
+    },
+    {
+     "tag": "ethics-and-emotions:humility",
+     "scope": "span",
+     "quotes": [
+      "יאמין לי מר שאיני מכוון שום כוונה"
+     ],
+     "confidence": 1,
+     "why": "he downplays his own power",
+     "quotes_failed": false
+    },
+    {
+     "tag": "practice:the_travels_of_the_tsaddik",
+     "scope": "span",
+     "quotes": [
+      "ובזמן אח״כ היה מרן ז״ל בראדשיץ"
+     ],
+     "confidence": 1,
+     "why": "his stay in Radoshitz",
+     "quotes_failed": false
+    },
+    {
+     "tag": "social:inter_hasidic",
+     "scope": "span",
+     "quotes": [
+      "ושאל אותו ההק׳ דשם ואמר כי הנה שמעתי"
+     ],
+     "confidence": 2,
+     "why": "exchange with the Radoshitz tsaddik",
+     "quotes_failed": false
+    },
+    {
+     "tag": "women:minor_character",
+     "scope": "span",
+     "quotes": [
+      "לפתח עזרת נשים, אשר שם היה ג״כ אשה אחת"
+     ],
+     "confidence": 2,
+     "why": "a possessed woman, a peripheral figure",
+     "quotes_failed": false
+    },
+    {
+     "tag": "characters-and-roles:the_family_of_the_tsaddik",
+     "scope": "story",
+     "quotes": [],
+     "confidence": 1,
+     "why": "not applicable; the father belongs to the possessed man, not to the tsaddik",
+     "quotes_failed": false
+    }
+   ],
+   "missing_concepts": [
+    "exorcism / dybbuk possession (no tag covers it)",
+    "eyewitness memorate by a disciple"
+   ],
+   "start_quote_found": true,
+   "end_quote_found": true
+  }
+ ],
+ "check": {
+  "non_vocab_tags": [],
+  "quotes": 20,
+  "quotes_not_found": 0
+ },
+ "id": "Toldot-Haniflaot_0053",
+ "chars": 938,
+ "seconds": 23
+}

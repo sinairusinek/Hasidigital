@@ -1,0 +1,92 @@
+{
+ "unit": {
+  "kind": "hasidic_story",
+  "why": "A numbered item in a list of the tsaddik's traits. It illustrates his humility with a short dated anecdote: at his father's yahrzeit meal he ended his sermon with self-abasing words, and his face changed colours.",
+  "boundary_note": "Part of a numbered trait list (items ז, ט are adjacent); borderline between anecdote and saying."
+ },
+ "stories": [
+  {
+   "k": 1,
+   "start_quote": "שפלות רוחו בקרבו הי' עד אין שיעור",
+   "end_quote": "בפנים משתנין לכמה גוונין קדישין",
+   "hasidic": true,
+   "summary_en": "At the yahrzeit meal for his father on 3 Marheshvan, the tsaddik ended his Torah discourse by quoting David's 'I am a worm and no man'. He added in Yiddish that it is not a disgrace for the world that he is king over them, and his face changed into many holy colours.",
+   "tags": [
+    {
+     "tag": "ethics-and-emotions:humility",
+     "scope": "span",
+     "quotes": [
+      "שפלות רוחו בקרבו הי' עד אין שיעור",
+      "ואנכי תולעת ולא איש"
+     ],
+     "confidence": 3,
+     "why": "the explicit point of the item",
+     "quotes_failed": false
+    },
+    {
+     "tag": "folkloristics:story_type_virtues",
+     "scope": "story",
+     "quotes": [],
+     "confidence": 3,
+     "why": "illustrates the tsaddik's humility",
+     "quotes_failed": false
+    },
+    {
+     "tag": "practice:sermon",
+     "scope": "span",
+     "quotes": [
+      "בעת אמירתו הדברי תורה סיים פ\"א בסוף הדרוש"
+     ],
+     "confidence": 3,
+     "why": "Torah discourse at the table",
+     "quotes_failed": false
+    },
+    {
+     "tag": "characters-and-roles:the_family_of_the_tsaddik",
+     "scope": "span",
+     "quotes": [
+      "בהלולא דמרן אביו זצוק\"ל"
+     ],
+     "confidence": 1,
+     "why": "the father is only commemorated (yahrzeit), not acting",
+     "quotes_failed": false
+    },
+    {
+     "tag": "practice:devekut",
+     "scope": "span",
+     "quotes": [
+      "בפנים משתנין לכמה גוונין קדישין"
+     ],
+     "confidence": 1,
+     "why": "the changing face suggests a rapt spiritual state",
+     "quotes_failed": false
+    },
+    {
+     "tag": "practice:pilgrimage_to_the_graves_of_tsaddikim",
+     "scope": "span",
+     "quotes": [
+      "בהלולא דמרן אביו זצוק\"ל"
+     ],
+     "confidence": 1,
+     "why": "the father's yahrzeit (hilula) is the occasion, but no grave visit is shown",
+     "quotes_failed": false
+    }
+   ],
+   "missing_concepts": [
+    "yahrzeit/hilula meal of a tsaddik's father",
+    "tish (rebbe's table) as setting",
+    "face changing colours as a sign of holiness"
+   ],
+   "start_quote_found": true,
+   "end_quote_found": true
+  }
+ ],
+ "check": {
+  "non_vocab_tags": [],
+  "quotes": 6,
+  "quotes_not_found": 0
+ },
+ "id": "Eser-Orot_0318",
+ "chars": 382,
+ "seconds": 14
+}

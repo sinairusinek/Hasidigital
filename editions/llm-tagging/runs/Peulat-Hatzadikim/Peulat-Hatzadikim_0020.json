@@ -1,0 +1,120 @@
+{
+ "unit": {
+  "kind": "hasidic_story",
+  "why": "An anecdote about the Berdichever rebbe visiting the Seer of Lublin: the coffee-and-milk episode, his permission to Lublin to speak of ruah ha-kodesh, and the son R. Yosef's question.",
+  "boundary_note": "previous division ends with an opening stub 'פ״א הה\"ק מלובלין זצ\"ל' that probably belongs to this story or is a misplaced catchword"
+ },
+ "stories": [
+  {
+   "k": 1,
+   "start_quote": "פ״א הי׳ הה״ק מבארדיטשוב אצל הה״ק מלובלין",
+   "end_quote": "שאניך רוח הקודש גם מכאן ולהלאה",
+   "hasidic": true,
+   "summary_en": "When the Berdichever visits the Seer of Lublin, he asks that milk be poured before coffee for the gematria of 'mikveh'. He then confronts the Seer about speaking of ruah ha-kodesh and gives him permission. The Seer tells his son R. Yosef that he knew by ruah ha-kodesh that the Berdichever would agree.",
+   "tags": [
+    {
+     "tag": "supernatural:perception",
+     "scope": "span",
+     "quotes": [
+      "ידעתי ברוח הקודש שיסבים עלי"
+     ],
+     "confidence": 3,
+     "why": "the Seer claims foreknowledge by ruah ha-kodesh",
+     "quotes_failed": false
+    },
+    {
+     "tag": "supernatural:prognostication",
+     "scope": "span",
+     "quotes": [
+      "ידעתי ברוח הקודש שיסבים עלי"
+     ],
+     "confidence": 1,
+     "why": "he foresaw the Berdichever's consent",
+     "quotes_failed": false
+    },
+    {
+     "tag": "characters-and-roles:the_family_of_the_tsaddik",
+     "scope": "span",
+     "quotes": [
+      "שאל הה״ק ר׳ יוסף ז״ל את אביו הקדוש מלובלין"
+     ],
+     "confidence": 3,
+     "why": "the Seer's son R. Yosef appears and asks",
+     "quotes_failed": false
+    },
+    {
+     "tag": "social:inter_hasidic",
+     "scope": "story",
+     "quotes": [],
+     "confidence": 3,
+     "why": "an encounter between two tsaddikim",
+     "quotes_failed": false
+    },
+    {
+     "tag": "practice:travel_to_other_tsaddik",
+     "scope": "span",
+     "quotes": [
+      "הי׳ הה״ק מבארדיטשוב אצל הה״ק מלובלין"
+     ],
+     "confidence": 2,
+     "why": "the Berdichever stays with another tsaddik",
+     "quotes_failed": false
+    },
+    {
+     "tag": "kabbalah:kabbalistic_terms_kavvanot",
+     "scope": "span",
+     "quotes": [
+      "מחמת שאנו מכוונים חלב עם קוה הוא מקוה"
+     ],
+     "confidence": 1,
+     "why": "a mystical intention assigned to the order of pouring, by gematria",
+     "quotes_failed": false
+    },
+    {
+     "tag": "practice:sermon",
+     "scope": "span",
+     "quotes": [
+      "כי חלב עולה בגי' מ׳ ואות מ׳ עם קוה"
+     ],
+     "confidence": 1,
+     "why": "a short gematria exegesis",
+     "quotes_failed": false
+    },
+    {
+     "tag": "ethics-and-emotions:humility",
+     "scope": "span",
+     "quotes": [
+      "אז איחר הייסט מיך נישט זאנין וועל איך נישט זאגין"
+     ],
+     "confidence": 1,
+     "why": "the Seer offers to stop speaking of ruah ha-kodesh if told to",
+     "quotes_failed": false
+    },
+    {
+     "tag": "practice:torat_ha_tsaddik",
+     "scope": "span",
+     "quotes": [
+      "איהר מעגט זאגין רוח הקודש"
+     ],
+     "confidence": 1,
+     "why": "the legitimacy of a tsaddik's claim to ruah ha-kodesh",
+     "quotes_failed": false
+    }
+   ],
+   "missing_concepts": [
+    "coffee drinking / table etiquette between tsaddikim",
+    "legitimacy of claiming ruah ha-kodesh"
+   ],
+   "start_quote_found": true,
+   "end_quote_found": true
+  }
+ ],
+ "check": {
+  "non_vocab_tags": [],
+  "quotes": 8,
+  "quotes_not_found": 0
+ },
+ "id": "Peulat-Hatzadikim_0020",
+ "chars": 742,
+ "seconds": 17
+}

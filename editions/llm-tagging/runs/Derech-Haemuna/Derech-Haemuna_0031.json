@@ -1,0 +1,114 @@
+{
+ "unit": {
+  "kind": "hasidic_story",
+  "why": "A short anecdote, cited from another book, in which R. Pinhas of Korets cannot stop a baby's bleeding after a circumcision and R. Zusya of Hanipol stops it by ordering a festive meal.",
+  "boundary_note": "Part of a chain of quotations about circumcision and Elijah's chair; the previous and next divisions are separate teachings."
+ },
+ "stories": [
+  {
+   "k": 1,
+   "start_quote": "ע״פ מעשה המסופר מהה״ק ר״פ מקארץ",
+   "end_quote": "שבזה היה ממתיקין הדין ונעצר הדם",
+   "hasidic": true,
+   "summary_en": "When R. Pinhas of Korets circumcised an infant and could not stop the bleeding, R. Zusya of Hanipol arrived, ordered a meal of eating and drinking, explained this by the verse 'they beheld God and ate and drank' as sweetening judgment, and the bleeding stopped.",
+   "tags": [
+    {
+     "tag": "practice:circumcision",
+     "scope": "span",
+     "quotes": [
+      "שמל תינוק אחד ולא יכול לעצור הדם"
+     ],
+     "confidence": 3,
+     "why": "The story is set at a brit milah performed by R. Pinhas.",
+     "quotes_failed": false
+    },
+    {
+     "tag": "practice:healing",
+     "scope": "span",
+     "quotes": [
+      "ולא יכול לעצור הדם",
+      "ונעצר הדם"
+     ],
+     "confidence": 3,
+     "why": "The infant's bleeding is stopped.",
+     "quotes_failed": false
+    },
+    {
+     "tag": "practice:lifesaving",
+     "scope": "span",
+     "quotes": [
+      "ולא יכול לעצור הדם"
+     ],
+     "confidence": 2,
+     "why": "Uncontrolled bleeding in an infant is life-threatening, and the tsaddik's act ends the danger.",
+     "quotes_failed": false
+    },
+    {
+     "tag": "supernatural:miracle",
+     "scope": "span",
+     "quotes": [
+      "והנה כן היה שבזה היה ממתיקין הדין"
+     ],
+     "confidence": 3,
+     "why": "The bleeding stops miraculously through the meal.",
+     "quotes_failed": false
+    },
+    {
+     "tag": "practice:sermon",
+     "scope": "span",
+     "quotes": [
+      "ואמר כי כן כתיב ויחזו את האלהים ויאכלו וישתו"
+     ],
+     "confidence": 3,
+     "why": "Zusya explains his action through an exegesis of a verse.",
+     "quotes_failed": false
+    },
+    {
+     "tag": "practice:drinking_alcohol",
+     "scope": "span",
+     "quotes": [
+      "להכין סעודה ולישב לאכול ולשתות"
+     ],
+     "confidence": 1,
+     "why": "Drinking at the meal is the means of the wonder, but wine is not named.",
+     "quotes_failed": false
+    },
+    {
+     "tag": "practice:torat_ha_tsaddik",
+     "scope": "span",
+     "quotes": [
+      "בזה ממתיקין הדין"
+     ],
+     "confidence": 1,
+     "why": "The tsaddik has the power to sweeten a judgment on another person's behalf.",
+     "quotes_failed": false
+    },
+    {
+     "tag": "practice:protection",
+     "scope": "span",
+     "quotes": [
+      "כאשר ראו בחינות אלהים מד״הד שולט"
+     ],
+     "confidence": 1,
+     "why": "Protection from the attribute of strict judgment that rules at that moment.",
+     "quotes_failed": false
+    }
+   ],
+   "missing_concepts": [
+    "sweetening of judgments (המתקת הדינים) through a festive meal",
+    "excessive bleeding at circumcision",
+    "quotation of the story from another book"
+   ],
+   "start_quote_found": true,
+   "end_quote_found": true
+  }
+ ],
+ "check": {
+  "non_vocab_tags": [],
+  "quotes": 9,
+  "quotes_not_found": 0
+ },
+ "id": "Derech-Haemuna_0031",
+ "chars": 342,
+ "seconds": 15
+}

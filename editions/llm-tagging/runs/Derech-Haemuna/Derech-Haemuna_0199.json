@@ -1,0 +1,90 @@
+{
+ "unit": {
+  "kind": "hasidic_story",
+  "why": "A brief anecdote: R. Moshe of Kozhnitz heard someone sigh on Shabbat and told him that even sighing and grieving over heavenly matters is forbidden on Shabbat. It is quoted from the book ד\"א via a family chain of transmission.",
+  "boundary_note": "minimal anecdote, borderline between story and saying"
+ },
+ "stories": [
+  {
+   "k": 1,
+   "start_quote": "ובס׳ ד״א (לפ׳ עקב) וז״ל כמו",
+   "end_quote": "על מילי דשמיא אסור בשבת",
+   "hasidic": true,
+   "summary_en": "R. Moshe of Kozhnitz heard the author's father sigh on Shabbat and told him that even sighing and grieving over heavenly matters is forbidden on Shabbat.",
+   "tags": [
+    {
+     "tag": "times:shabbat",
+     "scope": "story",
+     "quotes": [],
+     "confidence": 3,
+     "why": "The incident and the ruling concern conduct on Shabbat.",
+     "quotes_failed": false
+    },
+    {
+     "tag": "ethics-and-emotions:sadness",
+     "scope": "span",
+     "quotes": [
+      "גם להתאנח ולהיות מיצר על מילי דשמיא"
+     ],
+     "confidence": 3,
+     "why": "Sighing and grief are the spiritual problem the story addresses.",
+     "quotes_failed": false
+    },
+    {
+     "tag": "ethics-and-emotions:prohibitions",
+     "scope": "span",
+     "quotes": [
+      "מיצר על מילי דשמיא אסור בשבת"
+     ],
+     "confidence": 3,
+     "why": "He is told that sighing is forbidden on Shabbat.",
+     "quotes_failed": false
+    },
+    {
+     "tag": "practice:halakhah",
+     "scope": "span",
+     "quotes": [
+      "אסור בשבת"
+     ],
+     "confidence": 2,
+     "why": "A normative ruling on Shabbat conduct is given.",
+     "quotes_failed": false
+    },
+    {
+     "tag": "characters-and-roles:the_family_of_the_tsaddik",
+     "scope": "span",
+     "quotes": [
+      "ששמעתי מאאמו״ר זצ״ל שא״ל דודי"
+     ],
+     "confidence": 1,
+     "why": "The chain of transmission runs through the author's father and uncle, both tsaddik family members.",
+     "quotes_failed": false
+    },
+    {
+     "tag": "practice:storytelling",
+     "scope": "span",
+     "quotes": [
+      "כמו ששמעתי מאאמו״ר זצ״ל"
+     ],
+     "confidence": 1,
+     "why": "The anecdote is framed as an oral tradition handed down from father to son.",
+     "quotes_failed": false
+    }
+   ],
+   "missing_concepts": [
+    "sighing as a specific act",
+    "joy obligatory on Shabbat (the implied positive side)"
+   ],
+   "start_quote_found": true,
+   "end_quote_found": true
+  }
+ ],
+ "check": {
+  "non_vocab_tags": [],
+  "quotes": 5,
+  "quotes_not_found": 0
+ },
+ "id": "Derech-Haemuna_0199",
+ "chars": 161,
+ "seconds": 15
+}

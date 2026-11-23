@@ -70,11 +70,18 @@ def main():
                     tags[t['tag']] = max(tags.get(t['tag'], 0), c)
         if did in genre:
             tags[genre[did]] = 3
-        elif not tags and kind in ('saying_or_teaching', 'continuation_or_fragment'):
-            # option (b), Sinai 2026-11-22: keep the author's story division, mark its genre
+        elif not tags and kind in ('saying_or_teaching', 'continuation_or_fragment', 'paratext_no_story', 'other'):
+            # option (b), Sinai 2026-11-22: keep the author's story division, mark its genre.
+            # Paratext (genealogy, approbation, praise) -> hagiography: the vocabulary has no paratext tag
             why = res['unit'].get('why', '').lower()
-            tags['not-a-hasidic-story:halakhah' if any(w in why for w in ('halakh', 'custom', 'law'))
-                 else 'not-a-hasidic-story:sermon'] = 2
+            if any(w in why for w in ('halakh', 'custom', 'law')):
+                g = 'halakhah'
+            elif kind in ('saying_or_teaching', 'continuation_or_fragment') or \
+                    any(w in why for w in ('homil', 'sermon', 'teaching', 'discourse', 'interpret')):
+                g = 'sermon'
+            else:
+                g = 'hagiography'
+            tags['not-a-hasidic-story:' + g] = 2
             stats['genre tag'] += 1
         if kind != 'hasidic_story' or len(stories) != 1:
             report.append((did, 'story', f'{kind}, {len(stories)} stories', res['unit'].get('why', '')))

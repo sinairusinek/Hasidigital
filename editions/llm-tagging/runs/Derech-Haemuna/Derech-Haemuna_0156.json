@@ -1,0 +1,119 @@
+{
+ "unit": {
+  "kind": "hasidic_story",
+  "why": "A short quoted anecdote: R. Elimelech's soul ascends, he is shown the altar he built in the heavenly Temple, he asks a question and receives an answer about the messiah.",
+  "boundary_note": "Part of a sequence of quoted eschatological passages; the anecdote stands on its own within this division."
+ },
+ "stories": [
+  {
+   "k": 1,
+   "start_quote": "ובס׳ ה״ה (פ׳ תבא) וז״ל",
+   "end_quote": "לשמה בקדושה וביחודים",
+   "hasidic": true,
+   "summary_en": "During an ascent of the soul, R. Elimelech is shown that his holiness built the altar of the heavenly Temple, and he is told the messiah will come once the Holy of Holies is likewise completed, through Torah study for its own sake and yihudim.",
+   "tags": [
+    {
+     "tag": "experience:journey_to_heaven",
+     "scope": "span",
+     "quotes": [
+      "היה לו עליות נשמה ועלה למעלה"
+     ],
+     "confidence": 3,
+     "why": "explicit aliyat neshamah",
+     "quotes_failed": false
+    },
+    {
+     "tag": "spaces:heaven",
+     "scope": "span",
+     "quotes": [
+      "שבנה בקדושתו את מזבח במקדש של מעלה"
+     ],
+     "confidence": 3,
+     "why": "the action takes place in the upper Temple",
+     "quotes_failed": false
+    },
+    {
+     "tag": "experience:revelation",
+     "scope": "span",
+     "quotes": [
+      "והראו לו שבנה בקדושתו את מזבח"
+     ],
+     "confidence": 3,
+     "why": "heavenly disclosure is shown to him",
+     "quotes_failed": false
+    },
+    {
+     "tag": "supernatural:communicating_with_the_invisible",
+     "scope": "span",
+     "quotes": [
+      "ושאל על הארץ ועל היכל קדשי קדשים והשיבו לו"
+     ],
+     "confidence": 3,
+     "why": "he questions heavenly beings and receives answers",
+     "quotes_failed": false
+    },
+    {
+     "tag": "characters-and-roles:messiah",
+     "scope": "span",
+     "quotes": [
+      "יבוא משיח והוא בזכות לימוד תורה"
+     ],
+     "confidence": 3,
+     "why": "the condition for the messiah's coming is the point of the story",
+     "quotes_failed": false
+    },
+    {
+     "tag": "times:eschatology",
+     "scope": "span",
+     "quotes": [
+      "אם יהיה הרצון שיתברר בחינה זאת יבוא משיח"
+     ],
+     "confidence": 3,
+     "why": "the building of the Temple and the coming of the messiah",
+     "quotes_failed": false
+    },
+    {
+     "tag": "practice:study",
+     "scope": "span",
+     "quotes": [
+      "בזכות לימוד תורה לשמה בקדושה"
+     ],
+     "confidence": 2,
+     "why": "Torah study for its own sake is the redemptive means",
+     "quotes_failed": false
+    },
+    {
+     "tag": "kabbalah:kabbalistic_terms_yihudim",
+     "scope": "span",
+     "quotes": [
+      "לשמה בקדושה וביחודים"
+     ],
+     "confidence": 2,
+     "why": "mystical yihudim are named as a redemptive means",
+     "quotes_failed": false
+    },
+    {
+     "tag": "not-a-hasidic-story:sermon",
+     "scope": "story",
+     "quotes": [],
+     "confidence": 2,
+     "why": "the anecdote is quoted inside an eschatological, exegetical compilation",
+     "quotes_failed": false
+    }
+   ],
+   "missing_concepts": [
+    "the heavenly Temple built by the deeds of the righteous"
+   ],
+   "start_quote_found": true,
+   "end_quote_found": true
+  }
+ ],
+ "check": {
+  "non_vocab_tags": [],
+  "quotes": 8,
+  "quotes_not_found": 0
+ },
+ "id": "Derech-Haemuna_0156",
+ "chars": 305,
+ "seconds": 15
+}

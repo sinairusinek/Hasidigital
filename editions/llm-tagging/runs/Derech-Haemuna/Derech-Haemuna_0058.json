@@ -1,0 +1,98 @@
+{
+ "unit": {
+  "kind": "hasidic_story",
+  "why": "A teaching quoted from the book ב״מ: the perfect tzaddik does a person good in a hidden way, speaking to someone else while meaning him, so that the heavenly accusers do not object. It is backed by a brief memorate: the author's father, while with R. Elimelekh, heard him address one man and understood that the words were meant for himself.",
+  "boundary_note": "Mainly a homiletic quotation; the narrative is a minimal anecdote embedded in it. The next division is another unrelated quotation."
+ },
+ "stories": [
+  {
+   "k": 1,
+   "start_quote": "ובס׳ ב״מ (פ׳ תולדות) וז״ל אבל",
+   "end_quote": "שעיקר כוונתו בהדברים עליו.",
+   "hasidic": true,
+   "summary_en": "A teaching that the true tzaddik bestows good on a person covertly, addressing his words to another so that the heavenly accusers do not object, illustrated by the author's father, who heard R. Elimelekh speak to one man and grasped that the words were really aimed at him.",
+   "tags": [
+    {
+     "tag": "not-a-hasidic-story:sermon",
+     "scope": "story",
+     "quotes": [],
+     "confidence": 3,
+     "why": "Mainly a homiletic teaching quoted from a book, with the anecdote serving only as proof.",
+     "quotes_failed": false
+    },
+    {
+     "tag": "practice:torat_ha_tsaddik",
+     "scope": "span",
+     "quotes": [
+      "שמדרך הצדיק השלם כשירצה לפעול איזה פעולה טובה לאדם"
+     ],
+     "confidence": 3,
+     "why": "The passage describes how the tzaddik acts on others' behalf.",
+     "quotes_failed": false
+    },
+    {
+     "tag": "social:inter_hasidic_master_disciple_relationship",
+     "scope": "span",
+     "quotes": [
+      "כשהיה אצל אאמו״ר הה״ק מוה׳ אלימלך זצ״ל"
+     ],
+     "confidence": 2,
+     "why": "The author's father is shown as a disciple at R. Elimelekh's.",
+     "quotes_failed": false
+    },
+    {
+     "tag": "ethics-and-emotions:humility",
+     "scope": "span",
+     "quotes": [
+      "הוא עושה דבריו בהצנע ובסתר"
+     ],
+     "confidence": 2,
+     "why": "The tzaddik does good modestly and in secret.",
+     "quotes_failed": false
+    },
+    {
+     "tag": "folkloristics:story_type_virtues",
+     "scope": "story",
+     "quotes": [],
+     "confidence": 2,
+     "why": "The anecdote illustrates the tzaddik's way of doing good covertly.",
+     "quotes_failed": false
+    },
+    {
+     "tag": "social:retrospective_recognition",
+     "scope": "span",
+     "quotes": [
+      "והבין בשכלו הזך שעיקר כוונתו בהדברים עליו"
+     ],
+     "confidence": 1,
+     "why": "The father realizes the words addressed to another were meant for him.",
+     "quotes_failed": false
+    },
+    {
+     "tag": "practice:storytelling",
+     "scope": "span",
+     "quotes": [
+      "ובפי׳ שמעתי מאאמו״ר זצ״ל מעשה כזה"
+     ],
+     "confidence": 1,
+     "why": "The anecdote is framed as told to the author by his father.",
+     "quotes_failed": false
+    }
+   ],
+   "missing_concepts": [
+    "heavenly accusation (קטרוג) against a tzaddik's beneficence",
+    "indirect or concealed speech of the tzaddik"
+   ],
+   "start_quote_found": true,
+   "end_quote_found": true
+  }
+ ],
+ "check": {
+  "non_vocab_tags": [],
+  "quotes": 5,
+  "quotes_not_found": 0
+ },
+ "id": "Derech-Haemuna_0058",
+ "chars": 489,
+ "seconds": 19
+}

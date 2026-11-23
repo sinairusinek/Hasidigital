@@ -1,0 +1,120 @@
+{
+ "unit": {
+  "kind": "non_hasidic_story",
+  "why": "A brief exemplum about an anonymous dead man who appears to his friends in a dream, quoted from the book of R. Yeiva within a homiletic section on the kavvanot of the commandments; it is not about a Hasidic figure.",
+  "boundary_note": "exemplum (marked ב) embedded in an ongoing homiletic discussion of kavvanot that begins in the previous division and continues in the next"
+ },
+ "stories": [
+  {
+   "k": 1,
+   "start_quote": "וכמעשה באחד שהגיד לחבריו בחלום",
+   "end_quote": "שלא יבוש בעוה״ב (ס׳ ר׳ ייבא)",
+   "hasidic": false,
+   "summary_en": "A man appears to his friends in a dream and tells them that he is shamed in the next world: an angel proclaims the kavvanot with which he performed the commandments, and the righteous flee Paradise at hearing his folly and flaw. The moral drawn is that one should pray not to be shamed in the world to come.",
+   "tags": [
+    {
+     "tag": "experience:dream",
+     "scope": "span",
+     "quotes": [
+      "שהגיד לחבריו בחלום"
+     ],
+     "confidence": 3,
+     "why": "the revelation comes through a dream",
+     "quotes_failed": false
+    },
+    {
+     "tag": "characters-and-roles:angels",
+     "scope": "span",
+     "quotes": [
+      "בהכריז עליו המלאך כונת המצות"
+     ],
+     "confidence": 3,
+     "why": "an angel proclaims his intentions",
+     "quotes_failed": false
+    },
+    {
+     "tag": "ethics-and-emotions:shame",
+     "scope": "span",
+     "quotes": [
+      "איך שהוא מתבייש וחרפה תכסה פניו"
+     ],
+     "confidence": 3,
+     "why": "the central theme is shame in the afterlife",
+     "quotes_failed": false
+    },
+    {
+     "tag": "kabbalah:kabbalistic_terms_kavvanot",
+     "scope": "span",
+     "quotes": [
+      "כונת המצות אשר עשה בעוה״ז"
+     ],
+     "confidence": 2,
+     "why": "set in a section on the kavvanot of the commandments; the man's flawed intentions are exposed",
+     "quotes_failed": false
+    },
+    {
+     "tag": "spaces:heaven",
+     "scope": "span",
+     "quotes": [
+      "וכל הצדיקים ינוסו לקולם מג״ע"
+     ],
+     "confidence": 3,
+     "why": "the scene takes place in Gan Eden",
+     "quotes_failed": false
+    },
+    {
+     "tag": "supernatural:communicating_with_the_invisible",
+     "scope": "span",
+     "quotes": [
+      "שהגיד לחבריו בחלום"
+     ],
+     "confidence": 2,
+     "why": "a dead man communicates with the living",
+     "quotes_failed": false
+    },
+    {
+     "tag": "times:eschatology",
+     "scope": "span",
+     "quotes": [
+      "צריך האדם להתפלל שלא יבוש בעוה״ב"
+     ],
+     "confidence": 2,
+     "why": "concerns judgment and shame in the world to come",
+     "quotes_failed": false
+    },
+    {
+     "tag": "ethics-and-emotions:punishment",
+     "scope": "span",
+     "quotes": [
+      "בשומעם אולתו ופגמו"
+     ],
+     "confidence": 2,
+     "why": "public shaming as afterlife retribution for flawed observance",
+     "quotes_failed": false
+    },
+    {
+     "tag": "not-a-hasidic-story:sermon",
+     "scope": "story",
+     "quotes": [],
+     "confidence": 3,
+     "why": "an exemplum inside a homiletic discussion of kavvanot, ending with a moral",
+     "quotes_failed": false
+    }
+   ],
+   "missing_concepts": [
+    "posthumous judgment / heavenly proclamation of a person's deeds",
+    "the dead appearing to the living"
+   ],
+   "start_quote_found": true,
+   "end_quote_found": true
+  }
+ ],
+ "check": {
+  "non_vocab_tags": [],
+  "quotes": 8,
+  "quotes_not_found": 0
+ },
+ "id": "Derech-Haemuna_0122",
+ "chars": 210,
+ "seconds": 16
+}

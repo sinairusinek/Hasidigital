@@ -1,0 +1,72 @@
+{
+ "unit": {
+  "kind": "hasidic_story",
+  "why": "A minimal anecdote: a man comes before the rebbe confessing that he is quick to anger, and the rebbe answers him in Yiddish, saying that smoking is a segulah against anger.",
+  "boundary_note": ""
+ },
+ "stories": [
+  {
+   "k": 1,
+   "start_quote": "פ\"א בא אחד לפניו להתנצל",
+   "end_quote": "מסוגל להסיר הכעס",
+   "hasidic": true,
+   "summary_en": "A man apologizes to the rebbe for being hot-tempered, and the rebbe tells him in Yiddish that he should smoke a pipe, because smoking is a segulah to remove anger.",
+   "tags": [
+    {
+     "tag": "ethics-and-emotions:anger",
+     "scope": "span",
+     "quotes": [
+      "להתנצל שהוא כעסן",
+      "מסוגל להסיר הכעס"
+     ],
+     "confidence": 3,
+     "why": "The man's anger is the problem brought to the rebbe.",
+     "quotes_failed": false
+    },
+    {
+     "tag": "practice:smoking",
+     "scope": "span",
+     "quotes": [
+      "דאס רייכערן איז מסוגל להסיר הכעס"
+     ],
+     "confidence": 3,
+     "why": "Smoking is prescribed as meaningful, as a segulah.",
+     "quotes_failed": false
+    },
+    {
+     "tag": "practice:reception_of_hasidim",
+     "scope": "span",
+     "quotes": [
+      "פ\"א בא אחד לפניו להתנצל"
+     ],
+     "confidence": 2,
+     "why": "A visitor comes before the rebbe with a personal request.",
+     "quotes_failed": false
+    },
+    {
+     "tag": "practice:healing_of_the_soul",
+     "scope": "span",
+     "quotes": [
+      "מסוגל להסיר הכעס"
+     ],
+     "confidence": 1,
+     "why": "A remedy for a character flaw, but not a full tikkun.",
+     "quotes_failed": false
+    }
+   ],
+   "missing_concepts": [
+    "segulah (folk-remedy prescription) for a character trait"
+   ],
+   "start_quote_found": true,
+   "end_quote_found": true
+  }
+ ],
+ "check": {
+  "non_vocab_tags": [],
+  "quotes": 5,
+  "quotes_not_found": 0
+ },
+ "id": "Eser-Orot_0226",
+ "chars": 131,
+ "seconds": 11
+}

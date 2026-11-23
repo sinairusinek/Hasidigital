@@ -1,0 +1,528 @@
+{
+ "unit": {
+  "kind": "several_stories",
+  "why": "The division holds three separate narratives about R. Berish of Oshpitzin: the heretical doctor healed through Sabbath repentance, the madwoman at the windows, and his second visit to the Vizhnitzer rebbe, which contains a nested tale of R. Michel of Zlotshov and a parable.",
+  "boundary_note": ""
+ },
+ "stories": [
+  {
+   "k": 1,
+   "start_quote": "פעם א׳ בא לאושפצין ראקטער א׳",
+   "end_quote": "ודר באושפצין בערך חצי שנה",
+   "hasidic": true,
+   "summary_en": "A heretical doctor in Oshpitzin falls mortally ill and is given until Sabbath to live; he sends to R. Berish, who expounds that repentance on the Sabbath atones; the doctor vows full repentance, recovers, and adopts an observant life.",
+   "tags": [
+    {
+     "tag": "social:relations_with_non_hasidim",
+     "scope": "span",
+     "quotes": [
+      "אך הי׳ אפיקורס גדול",
+      "ולא יכולתי להאמין מפני האפיקורסת"
+     ],
+     "confidence": 3,
+     "why": "the doctor is a heretic who scorned the rebbe",
+     "quotes_failed": false
+    },
+    {
+     "tag": "folkloristics:story_type_rapprochement",
+     "scope": "story",
+     "quotes": [],
+     "confidence": 3,
+     "why": "a skeptic is drawn to faith in the tzaddik through the cure",
+     "quotes_failed": false
+    },
+    {
+     "tag": "ethics-and-emotions:repentance",
+     "scope": "span",
+     "quotes": [
+      "ואז אעשה תשובה שלימה עפ״י התורה",
+      "שיקבל ע״ע לעשות תשובה שלימה"
+     ],
+     "confidence": 3,
+     "why": "the doctor repents",
+     "quotes_failed": false
+    },
+    {
+     "tag": "practice:healing",
+     "scope": "span",
+     "quotes": [
+      "וביום השלישי עמד מחליו"
+     ],
+     "confidence": 3,
+     "why": "he recovers through the rebbe",
+     "quotes_failed": false
+    },
+    {
+     "tag": "practice:lifesaving",
+     "scope": "span",
+     "quotes": [
+      "ובשבת לאחר חצות בודאי ימות"
+     ],
+     "confidence": 2,
+     "why": "a foretold death is averted",
+     "quotes_failed": false
+    },
+    {
+     "tag": "supernatural:miracle",
+     "scope": "span",
+     "quotes": [
+      "וביום השלישי עמד מחליו"
+     ],
+     "confidence": 2,
+     "why": "a recovery against the medical prognosis",
+     "quotes_failed": false
+    },
+    {
+     "tag": "times:shabbat",
+     "scope": "span",
+     "quotes": [
+      "ובשבת שחרית שלח לקרא",
+      "כאשר ישב בסעודת שבת שחריה"
+     ],
+     "confidence": 3,
+     "why": "the action and the teaching center on the Sabbath",
+     "quotes_failed": false
+    },
+    {
+     "tag": "practice:sermon",
+     "scope": "span",
+     "quotes": [
+      "כל המשמר שבת בהלכתו אפי׳ עע״ז כדור אנוש"
+     ],
+     "confidence": 3,
+     "why": "the rebbe expounds the Taz at the table",
+     "quotes_failed": false
+    },
+    {
+     "tag": "practice:halakhah",
+     "scope": "span",
+     "quotes": [
+      "וצוה לזיגתו שתפריש בימי נדתה",
+      "ושבר כל הכלים"
+     ],
+     "confidence": 2,
+     "why": "laws of niddah and kashrut imposed",
+     "quotes_failed": false
+    },
+    {
+     "tag": "practice:torat_ha_tsaddik",
+     "scope": "span",
+     "quotes": [
+      "הרב ר' בעריש פועל ישועות בקרב הארץ",
+      "כי יוכל לשנות הטבע בתפילתו"
+     ],
+     "confidence": 2,
+     "why": "the tzaddik's power to change nature by prayer",
+     "quotes_failed": false
+    },
+    {
+     "tag": "women:minor_character",
+     "scope": "span",
+     "quotes": [
+      "וצוה לאשה ללמדה איך תתנהג"
+     ],
+     "confidence": 2,
+     "why": "the doctor's wife and a woman who instructs her",
+     "quotes_failed": false
+    },
+    {
+     "tag": "social:marital_relationship",
+     "scope": "span",
+     "quotes": [
+      "וצוה לזיגתו שתפריש בימי נדתה"
+     ],
+     "confidence": 1,
+     "why": "the conduct of the marriage is regulated",
+     "quotes_failed": false
+    }
+   ],
+   "missing_concepts": [
+    "medicine / physicians",
+    "efficacy of Sabbath repentance"
+   ],
+   "start_quote_found": true,
+   "end_quote_found": true
+  },
+  {
+   "k": 2,
+   "start_quote": "פ״א צותה הרבנית בליל ש״ק להמשרת",
+   "end_quote": "אז אדע כי ננעלו שערי תפלה",
+   "hasidic": true,
+   "summary_en": "On a Friday night a madwoman cries out at the rebbe's windows; the rebbe explains that her madness returned through her husband's sin of buying gentile butter, and that his compassion, stirred by his wife's rebuke of her, healed her, since he works through mercy rather than holy names.",
+   "tags": [
+    {
+     "tag": "characters-and-roles:the_family_of_the_tsaddik",
+     "scope": "span",
+     "quotes": [
+      "צותה הרבנית בליל ש״ק להמשרת",
+      "אז הלכה הרבנית אל החלון"
+     ],
+     "confidence": 3,
+     "why": "the rebbetzin acts in the story",
+     "quotes_failed": false
+    },
+    {
+     "tag": "women:major_character",
+     "scope": "span",
+     "quotes": [
+      "ראה אשה אחת רקדה על האשפה",
+      "באתה האשה להרב לבקש מחילה"
+     ],
+     "confidence": 2,
+     "why": "the madwoman is central",
+     "quotes_failed": false
+    },
+    {
+     "tag": "women:minor_character",
+     "scope": "span",
+     "quotes": [
+      "וצעקה אתה חצופה לך מחלונות ביתי"
+     ],
+     "confidence": 2,
+     "why": "the rebbetzin plays a pivotal but small role",
+     "quotes_failed": false
+    },
+    {
+     "tag": "ethics-and-emotions:fear",
+     "scope": "span",
+     "quotes": [
+      "וברח הנער מרוב פחד"
+     ],
+     "confidence": 3,
+     "why": "the servant flees in terror",
+     "quotes_failed": false
+    },
+    {
+     "tag": "practice:healing",
+     "scope": "span",
+     "quotes": [
+      "והלכה בבריאות כשאר ב״א לביתה"
+     ],
+     "confidence": 3,
+     "why": "the madwoman is healed",
+     "quotes_failed": false
+    },
+    {
+     "tag": "practice:writing_amulets",
+     "scope": "span",
+     "quotes": [
+      "שיתן לה קמיעות",
+      "ואולי נאבדו ממנה הקמיעות"
+     ],
+     "confidence": 3,
+     "why": "amulets from the Ohel rebbe and their loss",
+     "quotes_failed": false
+    },
+    {
+     "tag": "ethics-and-emotions:punishment",
+     "scope": "span",
+     "quotes": [
+      "זה הי׳ בעון בעלה אשר קנה חמאה מן ערלית"
+     ],
+     "confidence": 3,
+     "why": "the madness is a punishment for a sin",
+     "quotes_failed": false
+    },
+    {
+     "tag": "ethics-and-emotions:prohibitions",
+     "scope": "span",
+     "quotes": [
+      "שלא יפרצו גדר לקנות חמאה מעכו״ם"
+     ],
+     "confidence": 3,
+     "why": "the prohibition on gentile butter is proclaimed",
+     "quotes_failed": false
+    },
+    {
+     "tag": "practice:halakhah",
+     "scope": "span",
+     "quotes": [
+      "מדוע בעבור חומרא וגדר יבא עונש גדול"
+     ],
+     "confidence": 2,
+     "why": "debate over a stringency",
+     "quotes_failed": false
+    },
+    {
+     "tag": "practice:sermon",
+     "scope": "span",
+     "quotes": [
+      "הוא ישופך ראש ואתה תשיפנו עקב"
+     ],
+     "confidence": 2,
+     "why": "exegesis of a verse",
+     "quotes_failed": false
+    },
+    {
+     "tag": "ethics-and-emotions:anger",
+     "scope": "span",
+     "quotes": [
+      "אבא עדיך במקל ואכה אותך"
+     ],
+     "confidence": 2,
+     "why": "the rebbetzin threatens the woman",
+     "quotes_failed": false
+    },
+    {
+     "tag": "supernatural:miracle",
+     "scope": "span",
+     "quotes": [
+      "ואז באה לה ישועה מן השמים"
+     ],
+     "confidence": 2,
+     "why": "a sudden heavenly cure",
+     "quotes_failed": false
+    },
+    {
+     "tag": "supernatural:perception",
+     "scope": "span",
+     "quotes": [
+      "זה הי׳ בעון בעלה אשר קנה חמאה"
+     ],
+     "confidence": 2,
+     "why": "the rebbe knows the hidden cause",
+     "quotes_failed": false
+    },
+    {
+     "tag": "practice:torat_ha_tsaddik",
+     "scope": "span",
+     "quotes": [
+      "רק עם רחמנות יכול אני להמשיך כל מיני רפואות"
+     ],
+     "confidence": 2,
+     "why": "the doctrine of the tzaddik's mode of working",
+     "quotes_failed": false
+    },
+    {
+     "tag": "times:shabbat",
+     "scope": "span",
+     "quotes": [
+      "צותה הרבנית בליל ש״ק"
+     ],
+     "confidence": 2,
+     "why": "set on Friday night",
+     "quotes_failed": false
+    },
+    {
+     "tag": "social:relations_with_non_jews",
+     "scope": "span",
+     "quotes": [
+      "קנה חמאה מן ערלית"
+     ],
+     "confidence": 1,
+     "why": "buying from a gentile woman",
+     "quotes_failed": false
+    }
+   ],
+   "missing_concepts": [
+    "madness / mental illness",
+    "compassion (rachmanut) as a healing power",
+    "explicit rejection of holy names and yihudim"
+   ],
+   "start_quote_found": true,
+   "end_quote_found": true
+  },
+  {
+   "k": 3,
+   "start_quote": "כאשר נסע פעם שנית להה״ק מווישניצא",
+   "end_quote": "והא לך תירץ מספיק",
+   "hasidic": true,
+   "summary_en": "On his second visit to the Vizhnitzer rebbe, R. Berish is urged to stop hiding his holy spirit and poverty; the rebbe tells how R. Michel of Zlotshov publicly revealed sins and explained this with a parable of a teacher, but R. Berish humbly refuses, even disparaging himself before his followers.",
+   "tags": [
+    {
+     "tag": "practice:travel_to_other_tsaddik",
+     "scope": "span",
+     "quotes": [
+      "כאשר נסע פעם שנית להה״ק מווישניצא"
+     ],
+     "confidence": 3,
+     "why": "R. Berish travels to another tzaddik",
+     "quotes_failed": false
+    },
+    {
+     "tag": "social:inter_hasidic",
+     "scope": "story",
+     "quotes": [],
+     "confidence": 3,
+     "why": "an exchange between two tzaddikim",
+     "quotes_failed": false
+    },
+    {
+     "tag": "ethics-and-emotions:humility",
+     "scope": "span",
+     "quotes": [
+      "איש רע כמוני ובוזה א״ע כאיש בליעל",
+      "רק אני מכיר היטב את ערכי"
+     ],
+     "confidence": 3,
+     "why": "his extreme self-abasement",
+     "quotes_failed": false
+    },
+    {
+     "tag": "folkloristics:story_type_virtues",
+     "scope": "story",
+     "quotes": [],
+     "confidence": 3,
+     "why": "illustrates R. Berish's humility and concealment",
+     "quotes_failed": false
+    },
+    {
+     "tag": "social:poverty",
+     "scope": "span",
+     "quotes": [
+      "עד מתי יתנהג בעניות",
+      "רבי אלימלך הי׳ חוטף ממנו העניות"
+     ],
+     "confidence": 3,
+     "why": "voluntary poverty",
+     "quotes_failed": false
+    },
+    {
+     "tag": "characters-and-roles:hidden_righteous",
+     "scope": "span",
+     "quotes": [
+      "ואתם מסתירים א״ע"
+     ],
+     "confidence": 2,
+     "why": "he conceals his spiritual level",
+     "quotes_failed": false
+    },
+    {
+     "tag": "practice:storytelling",
+     "scope": "span",
+     "quotes": [
+      "וסיפר המעשה הרב ר׳ מיכלי"
+     ],
+     "confidence": 3,
+     "why": "the Vizhnitzer tells a tale",
+     "quotes_failed": false
+    },
+    {
+     "tag": "characters-and-roles:preacher",
+     "scope": "span",
+     "quotes": [
+      "מהה״ק ר׳ מיכל זלאטשובר מגיד"
+     ],
+     "confidence": 2,
+     "why": "R. Michel the maggid preaches in the nested tale",
+     "quotes_failed": false
+    },
+    {
+     "tag": "supernatural:perception",
+     "scope": "span",
+     "quotes": [
+      "ואם אומר מה שאני רואה בביהכנ״ס ירא אנכי פן יהרגוני",
+      "ומעלתו יש לו רוה״ק"
+     ],
+     "confidence": 3,
+     "why": "the holy spirit sees people's sins",
+     "quotes_failed": false
+    },
+    {
+     "tag": "folkloristics:story_type_parable",
+     "scope": "span",
+     "quotes": [
+      "אומר לכם משל פ״א ישב בכפר"
+     ],
+     "confidence": 3,
+     "why": "R. Michel's parable of the teacher",
+     "quotes_failed": false
+    },
+    {
+     "tag": "practice:sermon",
+     "scope": "span",
+     "quotes": [
+      "וכבד אותו לדרוש בביהכנ״ס"
+     ],
+     "confidence": 2,
+     "why": "preaching and rebuke in the synagogue",
+     "quotes_failed": false
+    },
+    {
+     "tag": "spaces:beth_midrash",
+     "scope": "span",
+     "quotes": [
+      "והתחיל לפרוט כמה וכמה ב״א אשר בביהכ״ם"
+     ],
+     "confidence": 1,
+     "why": "the synagogue sermon setting",
+     "quotes_failed": false
+    },
+    {
+     "tag": "characters-and-roles:messiah",
+     "scope": "span",
+     "quotes": [
+      "אם היום יבא משיח ומן הסתם יהי' גדול"
+     ],
+     "confidence": 2,
+     "why": "a messiah hypothetical in his reply",
+     "quotes_failed": false
+    },
+    {
+     "tag": "practice:torat_ha_tsaddik",
+     "scope": "span",
+     "quotes": [
+      "אמונת צדיקים אשר אם ידרוך רק על מפתן בית הצדיק"
+     ],
+     "confidence": 3,
+     "why": "faith in tzaddikim",
+     "quotes_failed": false
+    },
+    {
+     "tag": "social:inter_hasidic_master_disciple_relationship",
+     "scope": "span",
+     "quotes": [
+      "רבינו לומד אותנו תמיד שיהי׳ לנו"
+     ],
+     "confidence": 2,
+     "why": "a hasid challenges his rebbe",
+     "quotes_failed": false
+    },
+    {
+     "tag": "times:inauguration",
+     "scope": "span",
+     "quotes": [
+      "שאין מעלתו חפץ לקבלו לרבי"
+     ],
+     "confidence": 1,
+     "why": "he refuses to accept leadership",
+     "quotes_failed": false
+    },
+    {
+     "tag": "ethics-and-emotions:shame",
+     "scope": "span",
+     "quotes": [
+      "וגם אני יכולתי רק שאבוש ממנו"
+     ],
+     "confidence": 1,
+     "why": "the Vizhnitzer is shamed by his humility",
+     "quotes_failed": false
+    },
+    {
+     "tag": "practice:prayer",
+     "scope": "span",
+     "quotes": [
+      "שתפילתי נדחה מפני תפילתכם"
+     ],
+     "confidence": 1,
+     "why": "competing prayers over his fame",
+     "quotes_failed": false
+    }
+   ],
+   "missing_concepts": [
+    "the prophet who suppresses his prophecy (כובש נבואתו)",
+    "concealment versus revelation of spiritual power"
+   ],
+   "start_quote_found": true,
+   "end_quote_found": true
+  }
+ ],
+ "check": {
+  "non_vocab_tags": [],
+  "quotes": 54,
+  "quotes_not_found": 0
+ },
+ "id": "Seva-Ratzon_0014",
+ "chars": 8300,
+ "seconds": 52
+}

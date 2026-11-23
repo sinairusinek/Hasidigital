@@ -1,0 +1,245 @@
+{
+ "unit": {
+  "kind": "non_hasidic_story",
+  "why": "A framed exemplum about R. Mordechai Yaffe (the Levush), excommunicated in Venice by his Sephardi teacher for not answering Amen; it contains an embedded tale of a Spanish pious man executed by a king, followed by a homiletic and halakhic exhortation on answering Amen.",
+  "boundary_note": "Homiletic discussion of answering Amen continues into the next division (quote from Or ha-Yashar)."
+ },
+ "stories": [
+  {
+   "k": 1,
+   "start_quote": "לאהבת אחי ורעי אספר לפניכם מעשה",
+   "end_quote": "ואני מוחל לך אבל בתנאי שתדרוש ברבים להזהירם על עני׳ אמן",
+   "hasidic": false,
+   "summary_en": "R. Mordechai Yaffe goes to Venice to learn the calendar from the Sephardi sage Abuhav. He fails to answer Amen to the sage's child's blessing and is excommunicated. The sage then tells him of a Spanish pious man whom a king had dismembered for missing Amen to a priest's blessing; the man later revealed in a dream that this was punishment for once not answering Amen to his own son. The sage's condition for forgiveness is that the tale be preached everywhere.",
+   "tags": [
+    {
+     "tag": "not-a-hasidic-story:hagiography",
+     "scope": "story",
+     "quotes": [],
+     "confidence": 3,
+     "why": "Concerns the pre-Hasidic Levush and Sephardi sages",
+     "quotes_failed": false
+    },
+    {
+     "tag": "not-a-hasidic-story:sermon",
+     "scope": "span",
+     "quotes": [
+      "ע״כ הירא והחרד לדבר ה׳ יקרא מעשה זאת פ״א בחודש",
+      "ע״כ לא יהא אמן קל בעיניהם"
+     ],
+     "confidence": 3,
+     "why": "The narrative is wrapped in an extended homiletic and halakhic exhortation",
+     "quotes_failed": false
+    },
+    {
+     "tag": "social:excommunication",
+     "scope": "span",
+     "quotes": [
+      "והיה מנדה להג׳ רמ״י וגער בו בנזיפה",
+      "שנדיתי אותך כי נתכוונתי למען תהיה הנידוי כפרה"
+     ],
+     "confidence": 3,
+     "why": "The teacher places his student under a ban",
+     "quotes_failed": false
+    },
+    {
+     "tag": "ethics-and-emotions:anger",
+     "scope": "span",
+     "quotes": [
+      "כעס עליו כעס גדול",
+      "ויקצוף המלך מאד ויתהפך על החסיד לאכזר"
+     ],
+     "confidence": 3,
+     "why": "Both the teacher and the king are angry",
+     "quotes_failed": false
+    },
+    {
+     "tag": "ethics-and-emotions:punishment",
+     "scope": "span",
+     "quotes": [
+      "באותו שעה ב״ד של מעלה דנו אותי על שלא עניתי אמן"
+     ],
+     "confidence": 3,
+     "why": "Heavenly punishment for failing to answer Amen",
+     "quotes_failed": false
+    },
+    {
+     "tag": "times:death",
+     "scope": "span",
+     "quotes": [
+      "והמיתו אותו ביסורים קשים בעו״ה וינתחוהו"
+     ],
+     "confidence": 3,
+     "why": "The pious man is executed",
+     "quotes_failed": false
+    },
+    {
+     "tag": "social:relations_with_the_authorities",
+     "scope": "span",
+     "quotes": [
+      "והיה נושא חן בעיני המלך",
+      "ויצו את עבדו להרוג את החסיד"
+     ],
+     "confidence": 3,
+     "why": "The pious man interacts with the king",
+     "quotes_failed": false
+    },
+    {
+     "tag": "social:relations_with_non_jews",
+     "scope": "span",
+     "quotes": [
+      "בא כומר אחד ממדינת המלך ממרחקים"
+     ],
+     "confidence": 3,
+     "why": "A king and a priest",
+     "quotes_failed": false
+    },
+    {
+     "tag": "practice:protection",
+     "scope": "span",
+     "quotes": [
+      "היה החסיד הנ\"ל מיפר עצתם ומבטל דעתם"
+     ],
+     "confidence": 2,
+     "why": "The pious man repeatedly averts the expulsion decrees",
+     "quotes_failed": false
+    },
+    {
+     "tag": "times:historical_event",
+     "scope": "span",
+     "quotes": [
+      "ואח״ז גירש המלך את כל היהודים"
+     ],
+     "confidence": 2,
+     "why": "Expulsion of the Jews from a Spanish city",
+     "quotes_failed": false
+    },
+    {
+     "tag": "practice:prayer",
+     "scope": "span",
+     "quotes": [
+      "הלך לקרן זוית להתפלל מנחה"
+     ],
+     "confidence": 3,
+     "why": "Minha prayer is central to the plot",
+     "quotes_failed": false
+    },
+    {
+     "tag": "experience:dream",
+     "scope": "span",
+     "quotes": [
+      "ובא אצלו החסיד בחלום"
+     ],
+     "confidence": 3,
+     "why": "The dead man appears in a dream",
+     "quotes_failed": false
+    },
+    {
+     "tag": "supernatural:communicating_with_the_invisible",
+     "scope": "span",
+     "quotes": [
+      "ויאמר לו החסיד הנהרג אל תירא ואל תחת"
+     ],
+     "confidence": 2,
+     "why": "Communication with the soul of the dead man",
+     "quotes_failed": false
+    },
+    {
+     "tag": "experience:trembling",
+     "scope": "span",
+     "quotes": [
+      "ויחרד החסיד החי חרדה גדולה"
+     ],
+     "confidence": 2,
+     "why": "The living man trembles at the apparition",
+     "quotes_failed": false
+    },
+    {
+     "tag": "practice:fasting",
+     "scope": "span",
+     "quotes": [
+      "והיה אותו החסיד מתענה ובוכה ומתפלל"
+     ],
+     "confidence": 3,
+     "why": "He fasts to learn the reason for the death",
+     "quotes_failed": false
+    },
+    {
+     "tag": "practice:solitude",
+     "scope": "span",
+     "quotes": [
+      "ויתבודד החסיד ההוא בחדר מיוחד"
+     ],
+     "confidence": 3,
+     "why": "Seclusion in a private room",
+     "quotes_failed": false
+    },
+    {
+     "tag": "social:retrospective_recognition",
+     "scope": "span",
+     "quotes": [
+      "שפעם א׳ עשה בני הקטן ברכה על הפת ושמעתי ולא עניתי אמן"
+     ],
+     "confidence": 2,
+     "why": "The hidden cause of the death is revealed",
+     "quotes_failed": false
+    },
+    {
+     "tag": "practice:storytelling",
+     "scope": "span",
+     "quotes": [
+      "שיספרו המעשה הגדול והנורא מה שאספר לך",
+      "תספר באזני בנך וב״ב ולכל באי עולם"
+     ],
+     "confidence": 3,
+     "why": "Telling the tale is commanded as a duty",
+     "quotes_failed": false
+    },
+    {
+     "tag": "practice:halakhah",
+     "scope": "span",
+     "quotes": [
+      "ימתין החזן מעט אחר סיום הברכה ויכה באגרוף"
+     ],
+     "confidence": 2,
+     "why": "A halakhic ordinance on answering Amen",
+     "quotes_failed": false
+    },
+    {
+     "tag": "practice:study",
+     "scope": "span",
+     "quotes": [
+      "ולמד אצל החכם אבוהב הספרדי ערך רביעית שנה"
+     ],
+     "confidence": 2,
+     "why": "He studies the calendar with the sage",
+     "quotes_failed": false
+    },
+    {
+     "tag": "characters-and-roles:preacher",
+     "scope": "span",
+     "quotes": [
+      "וכאשר נתקבלתי להיות מוכיח בכל מדינות ח״ל"
+     ],
+     "confidence": 2,
+     "why": "The narrator is an itinerant preacher (mokhiah)",
+     "quotes_failed": false
+    }
+   ],
+   "missing_concepts": [
+    "answering Amen",
+    "learning the Jewish calendar (sod ha-ibbur)"
+   ],
+   "start_quote_found": true,
+   "end_quote_found": true
+  }
+ ],
+ "check": {
+  "non_vocab_tags": [],
+  "quotes": 25,
+  "quotes_not_found": 0
+ },
+ "id": "Derech-Haemuna_0016",
+ "chars": 6125,
+ "seconds": 25
+}

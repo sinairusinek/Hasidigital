@@ -1,0 +1,245 @@
+{
+ "unit": {
+  "kind": "hasidic_story",
+  "why": "A single narrative about the Seer of Lublin's youth: his father's piety, his marriage, his flight to R. Shmelke, his father's visit, and the bride's later apostasy.",
+  "boundary_note": ""
+ },
+ "stories": [
+  {
+   "k": 1,
+   "start_quote": "בס׳ שמן הטוב מידי\"נ ומחו׳ הגאבד״ק פלונסק",
+   "end_quote": "המירה הכלה דתה כידוע בעיר הנ\"ל",
+   "hasidic": true,
+   "summary_en": "The young Seer of Lublin remarks that his bride has a gentile's face, is rebuked by his father, marries her, flees right after the wedding to study with R. Shmelke, refuses his father's plea to return, and soon afterward the bride converts to Christianity, vindicating his perception.",
+   "tags": [
+    {
+     "tag": "characters-and-roles:the_family_of_the_tsaddik",
+     "scope": "span",
+     "quotes": [
+      "הי' בן הרב ר׳ אליעזר אבד״ק יוזעפאף",
+      "ובתוך הזמן בא אליו אביו הרב"
+     ],
+     "confidence": 3,
+     "why": "The Seer's father is a central actor.",
+     "quotes_failed": false
+    },
+    {
+     "tag": "practice:tvilah",
+     "scope": "span",
+     "quotes": [
+      "ובכל לילה אחר טבילת מקוה הלך לביהכנ״ס"
+     ],
+     "confidence": 3,
+     "why": "The father immerses nightly as a habit.",
+     "quotes_failed": false
+    },
+    {
+     "tag": "social:marriage",
+     "scope": "span",
+     "quotes": [
+      "ועשה שידוך עם בנו הנ\"ל",
+      "וביום הבא הי׳ החופה וקידש אותה כדמו״י"
+     ],
+     "confidence": 3,
+     "why": "The match and wedding drive the plot.",
+     "quotes_failed": false
+    },
+    {
+     "tag": "supernatural:perception",
+     "scope": "span",
+     "quotes": [
+      "שהכלה יש לה פנים כמו נכריות"
+     ],
+     "confidence": 3,
+     "why": "He perceives her future apostasy.",
+     "quotes_failed": false
+    },
+    {
+     "tag": "supernatural:prognostication",
+     "scope": "span",
+     "quotes": [
+      "שהכלה יש לה פנים כמו נכריות",
+      "ובזמן קצר המירה הכלה דתה"
+     ],
+     "confidence": 2,
+     "why": "His remark is implicitly fulfilled.",
+     "quotes_failed": false
+    },
+    {
+     "tag": "folkloristics:story_type_prognostication",
+     "scope": "story",
+     "quotes": [],
+     "confidence": 2,
+     "why": "The story's arc is a perception that comes true.",
+     "quotes_failed": false
+    },
+    {
+     "tag": "social:retrospective_recognition",
+     "scope": "span",
+     "quotes": [
+      "ובזמן קצר המירה הכלה דתה כידוע בעיר הנ\"ל"
+     ],
+     "confidence": 3,
+     "why": "The ending reveals the meaning of his remark.",
+     "quotes_failed": false
+    },
+    {
+     "tag": "social:converts_and_conversion",
+     "scope": "span",
+     "quotes": [
+      "המירה הכלה דתה"
+     ],
+     "confidence": 3,
+     "why": "The bride apostatizes.",
+     "quotes_failed": false
+    },
+    {
+     "tag": "women:catalyst_character",
+     "scope": "span",
+     "quotes": [
+      "שהכלה יש לה פנים כמו נכריות",
+      "המירה הכלה דתה"
+     ],
+     "confidence": 3,
+     "why": "The bride triggers the flight but does not act centrally.",
+     "quotes_failed": false
+    },
+    {
+     "tag": "characters-and-roles:tavern_keeper",
+     "scope": "span",
+     "quotes": [
+      "שהי׳ מחזיק שם הקרעטשמי סמוך לעיר"
+     ],
+     "confidence": 3,
+     "why": "The bride's father is a tavern-keeper.",
+     "quotes_failed": false
+    },
+    {
+     "tag": "ethics-and-emotions:anger",
+     "scope": "span",
+     "quotes": [
+      "ויגער בו אביו"
+     ],
+     "confidence": 2,
+     "why": "The father angrily rebukes his son.",
+     "quotes_failed": false
+    },
+    {
+     "tag": "practice:fasting",
+     "scope": "span",
+     "quotes": [
+      "כי הי' בתענית מיום אתמול יום החופה"
+     ],
+     "confidence": 3,
+     "why": "He keeps the wedding-day fast.",
+     "quotes_failed": false
+    },
+    {
+     "tag": "practice:clothing",
+     "scope": "span",
+     "quotes": [
+      "והי׳ לבוש במלבושי שבת כחתן מחופתו"
+     ],
+     "confidence": 2,
+     "why": "His wedding/Sabbath garments mark him on the road.",
+     "quotes_failed": false
+    },
+    {
+     "tag": "practice:travel_to_the_tsaddik",
+     "scope": "span",
+     "quotes": [
+      "וישא רגליו אל הרבי ר׳ שמעלקא"
+     ],
+     "confidence": 3,
+     "why": "He journeys to R. Shmelke's court.",
+     "quotes_failed": false
+    },
+    {
+     "tag": "practice:study",
+     "scope": "span",
+     "quotes": [
+      "ולמד אצלו שתי שנים בישיבתו"
+     ],
+     "confidence": 3,
+     "why": "He studies at the yeshiva.",
+     "quotes_failed": false
+    },
+    {
+     "tag": "spaces:beth_midrash",
+     "scope": "span",
+     "quotes": [
+      "ולמד אצלו שתי שנים בישיבתו"
+     ],
+     "confidence": 2,
+     "why": "R. Shmelke's yeshiva is a setting.",
+     "quotes_failed": false
+    },
+    {
+     "tag": "social:inter_hasidic_master_disciple_relationship",
+     "scope": "span",
+     "quotes": [
+      "והרר\"ש אמר עליו שקיבל בשתי שנים הללו את מעלותיו"
+     ],
+     "confidence": 3,
+     "why": "The disciple receives the master's virtues.",
+     "quotes_failed": false
+    },
+    {
+     "tag": "social:marital_relationship",
+     "scope": "span",
+     "quotes": [
+      "תומ\"י אחר החופה ברח החתן משם"
+     ],
+     "confidence": 2,
+     "why": "He abandons his bride immediately after the wedding.",
+     "quotes_failed": false
+    },
+    {
+     "tag": "social:disobedience",
+     "scope": "span",
+     "quotes": [
+      "ביקש מאביו שלא יפציר אותו ולא יביאהו לעבור ח\"ו כיבוד אב"
+     ],
+     "confidence": 2,
+     "why": "He refuses his father's wish while trying to avoid violating honor of parents.",
+     "quotes_failed": false
+    },
+    {
+     "tag": "ethics-and-emotions:virtues",
+     "scope": "span",
+     "quotes": [
+      "אשר הראיה והדבור יהי' בלתי לה׳ לבדו"
+     ],
+     "confidence": 2,
+     "why": "Sanctified sight and speech are the virtue he acquired.",
+     "quotes_failed": false
+    },
+    {
+     "tag": "practice:prayer",
+     "scope": "span",
+     "quotes": [
+      "הלך לביהכנ״ס לעבודתו בקודש"
+     ],
+     "confidence": 1,
+     "why": "The father's nightly worship in the synagogue.",
+     "quotes_failed": false
+    }
+   ],
+   "missing_concepts": [
+    "flight of a bridegroom from his marriage",
+    "honoring parents (kibbud av)",
+    "the young tsaddik's formative years / youth"
+   ],
+   "start_quote_found": true,
+   "end_quote_found": true
+  }
+ ],
+ "check": {
+  "non_vocab_tags": [],
+  "quotes": 24,
+  "quotes_not_found": 0
+ },
+ "id": "Eser-Orot_0187",
+ "chars": 1080,
+ "seconds": 20
+}

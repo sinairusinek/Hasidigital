@@ -1,0 +1,127 @@
+{
+ "unit": {
+  "kind": "hasidic_story",
+  "why": "split out of non-story-033 (non-story)"
+ },
+ "stories": [
+  {
+   "k": 1,
+   "start_quote": "כמו שמספרים מרבי הירש ליב מאליק",
+   "end_quote": "מוכרח אני לעשות לך טובה",
+   "hasidic": true,
+   "summary_en": "In R. Israel of Ruzhin's teaching that the tzaddik must raise wandering souls, R. Hirsch Leib of Olik meets a soul in a muddy place on the road. It asks him for a favour, and he agrees once it tells him it gave money to his people in its lifetime.",
+   "tags": [
+    {
+     "tag": "supernatural:reincarnation",
+     "scope": "span",
+     "quotes": [
+      "מי שיודע בעניני גלגולים לא קשה כלל",
+      "ויורד למדריגות אחרונות דצ״ח והולך ומתנודד"
+     ],
+     "confidence": 3,
+     "why": "The teaching on gilgul frames the anecdote.",
+     "quotes_failed": false
+    },
+    {
+     "tag": "not-a-hasidic-story:sermon",
+     "scope": "story",
+     "quotes": [],
+     "confidence": 3,
+     "why": "The anecdote is wrapped in an extended homiletic explanation.",
+     "quotes_failed": false
+    },
+    {
+     "tag": "practice:sermon",
+     "scope": "span",
+     "quotes": [
+      "ולזה הענין צריך להיות צדיק בעולם"
+     ],
+     "confidence": 2,
+     "why": "The Ruzhiner's teaching is quoted.",
+     "quotes_failed": false
+    },
+    {
+     "tag": "supernatural:communicating_with_the_invisible",
+     "scope": "span",
+     "quotes": [
+      "ושם בקשה ממנו נפש אחת שיעשה לה טובה",
+      "והשיבה זאת הנפש כשהייתי בזה העולם"
+     ],
+     "confidence": 3,
+     "why": "The tzaddik converses with a disembodied soul.",
+     "quotes_failed": false
+    },
+    {
+     "tag": "practice:healing_of_the_soul",
+     "scope": "span",
+     "quotes": [
+      "כדי להעלות הנשמות הנעלמות והנפרדות",
+      "מוכרח אני לעשות לך טובה"
+     ],
+     "confidence": 3,
+     "why": "The tzaddik elevates or repairs the wandering soul.",
+     "quotes_failed": false
+    },
+    {
+     "tag": "practice:torat_ha_tsaddik",
+     "scope": "span",
+     "quotes": [
+      "עד שבא ליד צדיק וכהנה ממנו אזי מעלה אותו",
+      "ולזה הענין צריך להיות צדיק בעולם"
+     ],
+     "confidence": 3,
+     "why": "The text explains why a tzaddik is needed in the world.",
+     "quotes_failed": false
+    },
+    {
+     "tag": "practice:the_travels_of_the_tsaddik",
+     "scope": "span",
+     "quotes": [
+      "שפעם אחת נסע בדרך ובא למקום רפש וטיט"
+     ],
+     "confidence": 2,
+     "why": "The encounter happens on the tzaddik's journey.",
+     "quotes_failed": false
+    },
+    {
+     "tag": "ethics-and-emotions:charity",
+     "scope": "span",
+     "quotes": [
+      "כשהייתי בזה העולם נתתי לכם ממון"
+     ],
+     "confidence": 2,
+     "why": "The soul's past giving of money earns it the tzaddik's help.",
+     "quotes_failed": false
+    },
+    {
+     "tag": "ethics-and-emotions:punishment",
+     "scope": "span",
+     "quotes": [
+      "כיון שרשע אתה ושוכן במקום כזה"
+     ],
+     "confidence": 2,
+     "why": "The soul dwells in the mud as a punishment.",
+     "quotes_failed": false
+    },
+    {
+     "tag": "supernatural:perception",
+     "scope": "span",
+     "quotes": [
+      "הצדיק הרואה זאת מר לו מאד"
+     ],
+     "confidence": 1,
+     "why": "The tzaddik sees wandering souls.",
+     "quotes_failed": false
+    }
+   ],
+   "missing_concepts": [
+    "wandering souls (נשמות מתנודדות) / tikkun of the dead",
+    "theodicy: suffering of the righteous and prosperity of the wicked"
+   ],
+   "start_quote_found": true,
+   "end_quote_found": true
+  }
+ ],
+ "id": "Tiferet-Hayyim_non-story-033_s1",
+ "split_from": "non-story-033"
+}

@@ -1,0 +1,167 @@
+{
+ "unit": {
+  "kind": "several_stories",
+  "why": "Two brief anecdotes about non-Hasidic rabbinic figures, R. Mordechai Banet writing a verse in the air and R. Heschel crying out a verse during his sermon, given as lessons against pride.",
+  "boundary_note": "The surrounding divisions are a homiletic/ethical discourse on humility in preaching; the next division continues the theme (Shevet Musar)."
+ },
+ "stories": [
+  {
+   "k": 1,
+   "start_quote": "סיפרו בשם הה״צ מוה׳ מרדכי בנעט",
+   "end_quote": "שכתב אשרי איש שלא ישכחך",
+   "hasidic": false,
+   "summary_en": "R. Mordechai Banet used to trace letters in the air, and once people noticed that he was writing 'Happy is the man who does not forget You'.",
+   "tags": [
+    {
+     "tag": "not-a-hasidic-story:hagiography",
+     "scope": "story",
+     "quotes": [],
+     "confidence": 3,
+     "why": "Praises R. Mordechai Banet, a non-Hasidic rabbinic authority.",
+     "quotes_failed": false
+    },
+    {
+     "tag": "experience:devekut",
+     "scope": "span",
+     "quotes": [
+      "שהיה רגיל לכתוב אותיות באויר"
+     ],
+     "confidence": 2,
+     "why": "A constant act of remembering God.",
+     "quotes_failed": false
+    },
+    {
+     "tag": "practice:devekut",
+     "scope": "span",
+     "quotes": [
+      "שהיה רגיל לכתוב אותיות באויר"
+     ],
+     "confidence": 2,
+     "why": "He is shown in habitual attachment to God.",
+     "quotes_failed": false
+    },
+    {
+     "tag": "social:retrospective_recognition",
+     "scope": "span",
+     "quotes": [
+      "ולא ידעו מה עד שהרגישו פ״א"
+     ],
+     "confidence": 2,
+     "why": "Onlookers later learn the meaning of his gesture.",
+     "quotes_failed": false
+    },
+    {
+     "tag": "not-a-hasidic-story:virtues",
+     "scope": "story",
+     "quotes": [],
+     "confidence": 2,
+     "why": "Placed in an ethical discourse against pride.",
+     "quotes_failed": false
+    }
+   ],
+   "missing_concepts": [
+    "remembering God constantly / writing a verse in the air"
+   ],
+   "start_quote_found": true,
+   "end_quote_found": true
+  },
+  {
+   "k": 2,
+   "start_quote": "ושמעתי בשם הג׳ המפורסם בכל העולם",
+   "end_quote": "כדי שלא תזוח דעתו עליו",
+   "hasidic": false,
+   "summary_en": "While the scholars in a packed synagogue argued over a difficulty R. Heschel had posed in his sermon, he cried 'Happy is the man who does not forget You' above their noise so that he would not grow proud.",
+   "tags": [
+    {
+     "tag": "not-a-hasidic-story:hagiography",
+     "scope": "story",
+     "quotes": [],
+     "confidence": 3,
+     "why": "Praises R. Heschel, a pre-Hasidic rabbinic sage.",
+     "quotes_failed": false
+    },
+    {
+     "tag": "not-a-hasidic-story:virtues",
+     "scope": "story",
+     "quotes": [],
+     "confidence": 2,
+     "why": "Told as a lesson in humility while preaching.",
+     "quotes_failed": false
+    },
+    {
+     "tag": "ethics-and-emotions:humility",
+     "scope": "span",
+     "quotes": [
+      "כדי שלא תזוח דעתו עליו"
+     ],
+     "confidence": 3,
+     "why": "He guards his humility.",
+     "quotes_failed": false
+    },
+    {
+     "tag": "ethics-and-emotions:pride",
+     "scope": "span",
+     "quotes": [
+      "כדי שלא תזוח דעתו עליו"
+     ],
+     "confidence": 2,
+     "why": "He acts to avoid pride.",
+     "quotes_failed": false
+    },
+    {
+     "tag": "practice:sermon",
+     "scope": "span",
+     "quotes": [
+      "שהיה דורש בעיר גדולה"
+     ],
+     "confidence": 3,
+     "why": "Public preaching is the setting.",
+     "quotes_failed": false
+    },
+    {
+     "tag": "practice:study",
+     "scope": "span",
+     "quotes": [
+      "שהציע קושיא ופילפלו הלומדים בזה"
+     ],
+     "confidence": 2,
+     "why": "The scholars engage in pilpul over his difficulty.",
+     "quotes_failed": false
+    },
+    {
+     "tag": "characters-and-roles:preacher",
+     "scope": "span",
+     "quotes": [
+      "שהיה דורש בעיר גדולה והיה קהל רב"
+     ],
+     "confidence": 1,
+     "why": "He acts as a preacher, although he is a rabbi.",
+     "quotes_failed": false
+    },
+    {
+     "tag": "practice:storytelling",
+     "scope": "span",
+     "quotes": [
+      "ושמעתי בשם הג׳ המפורסם בכל העולם"
+     ],
+     "confidence": 1,
+     "why": "Framed as an oral report passed on.",
+     "quotes_failed": false
+    }
+   ],
+   "missing_concepts": [
+    "the synagogue as a setting"
+   ],
+   "start_quote_found": true,
+   "end_quote_found": true
+  }
+ ],
+ "check": {
+  "non_vocab_tags": [],
+  "quotes": 9,
+  "quotes_not_found": 0
+ },
+ "id": "Derech-Haemuna_0063",
+ "chars": 369,
+ "seconds": 18
+}

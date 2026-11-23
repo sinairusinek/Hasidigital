@@ -1,0 +1,98 @@
+{
+ "unit": {
+  "kind": "hasidic_story",
+  "why": "A short anecdote: at the Passover seder, while reciting 'matzah zo', the tzaddik fell into ecstasy, rolled under the table and overturned the seder plate. When he came to himself, a new table had been prepared for him.",
+  "boundary_note": ""
+ },
+ "stories": [
+  {
+   "k": 1,
+   "start_quote": "בעת ישיבתו אצל הסדרים של לילות דפסח",
+   "end_quote": "ואמר אַ אַ מצה זו",
+   "hasidic": true,
+   "summary_en": "At the Passover seder, the tzaddik's ecstasy while saying 'matzah zo' made him roll under the table and overturn the seder plate, matzot and dishes. When he revived, a new table, matzot, cups and kittel were ready, and he resumed with 'a a matzah zo' like someone reviving himself.",
+   "tags": [
+    {
+     "tag": "times:holidays",
+     "scope": "story",
+     "quotes": [],
+     "confidence": 3,
+     "why": "Passover seder night",
+     "quotes_failed": false
+    },
+    {
+     "tag": "practice:devekut",
+     "scope": "span",
+     "quotes": [
+      "התגורר א\"ע תחת השלחן והפך הסדר והקערות"
+     ],
+     "confidence": 3,
+     "why": "ecstatic absorption during the seder",
+     "quotes_failed": false
+    },
+    {
+     "tag": "experience:devekut",
+     "scope": "span",
+     "quotes": [
+      "ועדי שב רוחו בקרבו"
+     ],
+     "confidence": 2,
+     "why": "loss of self in communion; his spirit returned",
+     "quotes_failed": false
+    },
+    {
+     "tag": "experience:enthusiasm",
+     "scope": "span",
+     "quotes": [
+      "התגורר א\"ע תחת השלחן והפך הסדר והקערות"
+     ],
+     "confidence": 3,
+     "why": "burning fervor overturning the table",
+     "quotes_failed": false
+    },
+    {
+     "tag": "practice:clothing",
+     "scope": "span",
+     "quotes": [
+      "מצות וכוסות וקיטל אחר ולבשם"
+     ],
+     "confidence": 2,
+     "why": "a new kittel was prepared and put on for the seder",
+     "quotes_failed": false
+    },
+    {
+     "tag": "practice:prayer",
+     "scope": "span",
+     "quotes": [
+      "באמירתו מצה זו"
+     ],
+     "confidence": 1,
+     "why": "liturgical recitation of the Haggadah",
+     "quotes_failed": false
+    },
+    {
+     "tag": "folkloristics:story_type_virtues",
+     "scope": "story",
+     "quotes": [],
+     "confidence": 2,
+     "why": "illustrates the tzaddik's fervor",
+     "quotes_failed": false
+    }
+   ],
+   "missing_concepts": [
+    "Passover seder / Haggadah recitation",
+    "ecstatic loss of consciousness"
+   ],
+   "start_quote_found": true,
+   "end_quote_found": true
+  }
+ ],
+ "check": {
+  "non_vocab_tags": [],
+  "quotes": 5,
+  "quotes_not_found": 0
+ },
+ "id": "Eser-Orot_0054",
+ "chars": 254,
+ "seconds": 12
+}

@@ -1,0 +1,93 @@
+{
+ "unit": {
+  "kind": "hasidic_story",
+  "why": "A single anecdote: the Maggid of Kozienice in Brody stops at a house and senses the impurity of a place where the Toldot Yaakov Yosef had been burned.",
+  "boundary_note": ""
+ },
+ "stories": [
+  {
+   "k": 1,
+   "start_quote": "וכאשר עיני ראו בהיות הה״ק אאמו״ר",
+   "end_quote": "עלה צחנתו מטומאתו עוד לפניו",
+   "hasidic": true,
+   "summary_en": "While passing through Brody, the Maggid of Kozienice stops at a house and says he cannot bear its impurity. Inquiry shows that the book Toldot Yaakov Yosef had once been burned on that spot.",
+   "tags": [
+    {
+     "tag": "supernatural:perception",
+     "scope": "span",
+     "quotes": [
+      "כי לא יוכל לסבול טומאת הבית הזה"
+     ],
+     "confidence": 3,
+     "why": "he supernaturally senses the impurity of the place",
+     "quotes_failed": false
+    },
+    {
+     "tag": "social:relations_with_non_hasidim",
+     "scope": "span",
+     "quotes": [
+      "שרפו זה זמן ספרי תולדות יעקב יוסף"
+     ],
+     "confidence": 2,
+     "why": "burning of Hasidic books by opponents (mitnagdim)",
+     "quotes_failed": false
+    },
+    {
+     "tag": "social:retrospective_recognition",
+     "scope": "span",
+     "quotes": [
+      "ואחר החקירה והדרישה נתוודע כי במקום הזה"
+     ],
+     "confidence": 3,
+     "why": "the meaning of his reaction is understood only after inquiry",
+     "quotes_failed": false
+    },
+    {
+     "tag": "practice:the_travels_of_the_tsaddik",
+     "scope": "span",
+     "quotes": [
+      "ומדי עברו אצל הבתים למחוז חפצו"
+     ],
+     "confidence": 2,
+     "why": "the tzaddik is passing through Brody on his way",
+     "quotes_failed": false
+    },
+    {
+     "tag": "social:conflict",
+     "scope": "span",
+     "quotes": [
+      "שרפו זה זמן ספרי תולדות יעקב יוסף רח״ל"
+     ],
+     "confidence": 1,
+     "why": "background of anti-Hasidic book burning",
+     "quotes_failed": false
+    },
+    {
+     "tag": "characters-and-roles:the_family_of_the_tsaddik",
+     "scope": "span",
+     "quotes": [
+      "הה״ק אאמו״ר המגיד הק׳ מקאזניץ"
+     ],
+     "confidence": 1,
+     "why": "the narrator (author of the source) is the son of the tzaddik and was an eyewitness",
+     "quotes_failed": false
+    }
+   ],
+   "missing_concepts": [
+    "burning of Hasidic books (anti-Hasidic persecution)",
+    "tzaddik's sensing of impurity/smell (הרגש הצדיקים)",
+    "eyewitness memorate"
+   ],
+   "start_quote_found": true,
+   "end_quote_found": true
+  }
+ ],
+ "check": {
+  "non_vocab_tags": [],
+  "quotes": 6,
+  "quotes_not_found": 0
+ },
+ "id": "Derech-Haemuna_0078",
+ "chars": 345,
+ "seconds": 10
+}

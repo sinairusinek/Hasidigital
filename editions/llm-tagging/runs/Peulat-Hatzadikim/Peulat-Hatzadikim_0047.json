@@ -1,0 +1,190 @@
+{
+ "unit": {
+  "kind": "several_stories",
+  "why": "Three short, separate anecdotes about R. Menachem Mendel of Rymanov: his absence on a Shabbat, when he was at the imperial court in Vienna; his reciting Hallel for seven days; and a youth kept from apostasy by studying Sefer Haredim.",
+  "boundary_note": "The heading attributing these to R. Menachem Mendel of Rymanov ends the previous division."
+ },
+ "stories": [
+  {
+   "k": 1,
+   "start_quote": "פ״א שלח לו עמיתו ורעו הה״ק מלובלין",
+   "end_quote": "כי אז הי' מוצא אותי שם",
+   "hasidic": true,
+   "summary_en": "The Seer of Lublin searched the upper worlds for the Rymanover on a certain Shabbat and could not find him; the Rymanover answered that he had been at the emperor's court in Vienna.",
+   "tags": [
+    {
+     "tag": "social:inter_hasidic",
+     "scope": "span",
+     "quotes": [
+      "שלח לו עמיתו ורעו הה״ק מלובלין"
+     ],
+     "confidence": 3,
+     "why": "Exchange between two tsaddikim",
+     "quotes_failed": false
+    },
+    {
+     "tag": "supernatural:perception",
+     "scope": "span",
+     "quotes": [
+      "כי חפש אחריו בכל המקומות ולא מצאו"
+     ],
+     "confidence": 2,
+     "why": "The Seer's spiritual search for the Rymanover",
+     "quotes_failed": false
+    },
+    {
+     "tag": "times:shabbat",
+     "scope": "span",
+     "quotes": [
+      "להודיעהו אנה הי׳ בשבת פלוני"
+     ],
+     "confidence": 2,
+     "why": "The disappearance happens on a Shabbat",
+     "quotes_failed": false
+    },
+    {
+     "tag": "social:relations_with_the_authorities",
+     "scope": "span",
+     "quotes": [
+      "למה לא חפש אותי בחצר המלך בוויען"
+     ],
+     "confidence": 2,
+     "why": "His presence at the imperial court, implying intercession",
+     "quotes_failed": false
+    },
+    {
+     "tag": "practice:torat_ha_tsaddik",
+     "scope": "span",
+     "quotes": [
+      "בחצר המלך בוויען כי אז הי' מוצא אותי שם"
+     ],
+     "confidence": 1,
+     "why": "Implies the tsaddik acts on the community's behalf at the court",
+     "quotes_failed": false
+    }
+   ],
+   "missing_concepts": [
+    "spiritual presence of the tsaddik at a distant location (bilocation / soul-travel to a royal court)"
+   ],
+   "start_quote_found": true,
+   "end_quote_found": true
+  },
+  {
+   "k": 2,
+   "start_quote": "פ״א בפ׳ בא אמר כל השבעה",
+   "end_quote": "כשעברו חז׳ ימים תמהו על הראשונות",
+   "hasidic": true,
+   "summary_en": "In the week of Parashat Bo he recited Hallel with the congregation for seven days; no one wondered at the time, but afterwards people were amazed.",
+   "tags": [
+    {
+     "tag": "practice:prayer",
+     "scope": "span",
+     "quotes": [
+      "אמר כל השבעה ימים הלל עם הקהל בביהכנ״ס"
+     ],
+     "confidence": 3,
+     "why": "He recited Hallel in the synagogue",
+     "quotes_failed": false
+    },
+    {
+     "tag": "social:retrospective_recognition",
+     "scope": "span",
+     "quotes": [
+      "כשעברו חז׳ ימים תמהו על הראשונות"
+     ],
+     "confidence": 2,
+     "why": "People realized the oddity only afterwards",
+     "quotes_failed": false
+    },
+    {
+     "tag": "practice:halakhah",
+     "scope": "span",
+     "quotes": [
+      "(בודאי בלא ברכה)"
+     ],
+     "confidence": 1,
+     "why": "The editor raises the halakhic question of a blessing",
+     "quotes_failed": false
+    }
+   ],
+   "missing_concepts": [
+    "unexplained ritual deviation by a tsaddik"
+   ],
+   "start_quote_found": true,
+   "end_quote_found": true
+  },
+  {
+   "k": 3,
+   "start_quote": "בחור א׳ הי׳ רוצה להמיר דתו",
+   "end_quote": "וכן עשה ושב לקדמותו",
+   "hasidic": true,
+   "summary_en": "A young man seized by folly wanted to convert to Christianity; the Rymanover ordered that Sefer Haredim be studied with him, and he returned to his faith.",
+   "tags": [
+    {
+     "tag": "social:converts_and_conversion",
+     "scope": "span",
+     "quotes": [
+      "בחור א׳ הי׳ רוצה להמיר דתו"
+     ],
+     "confidence": 3,
+     "why": "Threatened apostasy",
+     "quotes_failed": false
+    },
+    {
+     "tag": "practice:study",
+     "scope": "span",
+     "quotes": [
+      "וצוה שילמדו עמו בסה״ק חרדים"
+     ],
+     "confidence": 3,
+     "why": "The remedy is study of a book",
+     "quotes_failed": false
+    },
+    {
+     "tag": "practice:healing_of_the_soul",
+     "scope": "span",
+     "quotes": [
+      "הלומד ס׳ חרדים מסוגל להחזיק הדת",
+      "ושב לקדמותו"
+     ],
+     "confidence": 3,
+     "why": "The tsaddik's remedy restores the youth spiritually",
+     "quotes_failed": false
+    },
+    {
+     "tag": "ethics-and-emotions:repentance",
+     "scope": "span",
+     "quotes": [
+      "וכן עשה ושב לקדמותו"
+     ],
+     "confidence": 2,
+     "why": "He turns back from apostasy",
+     "quotes_failed": false
+    },
+    {
+     "tag": "social:relations_with_sinners",
+     "scope": "span",
+     "quotes": [
+      "וספרו הדברים לפני הקדוש מהר״מ"
+     ],
+     "confidence": 2,
+     "why": "The tsaddik deals with a would-be apostate",
+     "quotes_failed": false
+    }
+   ],
+   "missing_concepts": [
+    "segulah power of a specific book (Sefer Haredim)"
+   ],
+   "start_quote_found": true,
+   "end_quote_found": true
+  }
+ ],
+ "check": {
+  "non_vocab_tags": [],
+  "quotes": 14,
+  "quotes_not_found": 0
+ },
+ "id": "Peulat-Hatzadikim_0047",
+ "chars": 497,
+ "seconds": 22
+}

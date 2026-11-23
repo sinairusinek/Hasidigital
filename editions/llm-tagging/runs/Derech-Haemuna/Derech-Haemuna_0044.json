@@ -1,0 +1,121 @@
+{
+ "unit": {
+  "kind": "non_hasidic_story",
+  "why": "A quotation in praise of R. Isaiah, R. Yehezkel (of Prague) and R. Yehonatan, built around one short anecdote: R. Yehezkel refuses a nobleman's demand to rule unjustly and is miraculously saved.",
+  "boundary_note": ""
+ },
+ "stories": [
+  {
+   "k": 1,
+   "start_quote": "וסיפר לי איש אמת שהי׳ רגיל",
+   "end_quote": "וע״י נס ניצול שלא הרגו",
+   "hasidic": false,
+   "summary_en": "One party to a lawsuit between two notables of Prague gets the city's nobleman to order R. Yehezkel to rule in his favor. The rabbi insists on ruling by Torah law, bares his heart to the nobleman's gun, and is miraculously saved.",
+   "tags": [
+    {
+     "tag": "not-a-hasidic-story:hagiography",
+     "scope": "story",
+     "quotes": [],
+     "confidence": 3,
+     "why": "Praise of R. Yehezkel of Prague (and R. Yehonatan), non-Hasidic rabbinic authorities, quoted from an earlier book",
+     "quotes_failed": false
+    },
+    {
+     "tag": "practice:halakhah",
+     "scope": "span",
+     "quotes": [
+      "והיה לפניו איזה דין ומשפט בין שני גדולי העיר",
+      "אני אפסוק כדת תורה אמת"
+     ],
+     "confidence": 3,
+     "why": "The plot turns on a legal ruling",
+     "quotes_failed": false
+    },
+    {
+     "tag": "social:relations_with_the_authorities",
+     "scope": "span",
+     "quotes": [
+      "והלך אחד לשר העיר שישלח אחר הרב"
+     ],
+     "confidence": 3,
+     "why": "The city's nobleman pressures the rabbi",
+     "quotes_failed": false
+    },
+    {
+     "tag": "social:relations_with_non_jews",
+     "scope": "span",
+     "quotes": [
+      "ולקח השר קנה שריפה ואמר אני מורה בך"
+     ],
+     "confidence": 2,
+     "why": "Confrontation with a gentile nobleman",
+     "quotes_failed": false
+    },
+    {
+     "tag": "social:conflict",
+     "scope": "span",
+     "quotes": [
+      "ולקח השר קנה שריפה ואמר אני מורה בך"
+     ],
+     "confidence": 3,
+     "why": "The nobleman threatens to shoot the rabbi",
+     "quotes_failed": false
+    },
+    {
+     "tag": "supernatural:miracle",
+     "scope": "span",
+     "quotes": [
+      "וע״י נס ניצול שלא הרגו"
+     ],
+     "confidence": 3,
+     "why": "The rabbi is saved by a miracle",
+     "quotes_failed": false
+    },
+    {
+     "tag": "ethics-and-emotions:virtues",
+     "scope": "span",
+     "quotes": [
+      "ירה בי ואני לא אזוז מן אשר ציוונו"
+     ],
+     "confidence": 2,
+     "why": "Shows steadfast integrity in judgment",
+     "quotes_failed": false
+    },
+    {
+     "tag": "practice:storytelling",
+     "scope": "span",
+     "quotes": [
+      "וסיפר לי איש אמת שהי׳ רגיל"
+     ],
+     "confidence": 1,
+     "why": "Framed as told by a trustworthy eyewitness",
+     "quotes_failed": false
+    },
+    {
+     "tag": "characters-and-roles:elijah_the_prophet",
+     "scope": "span",
+     "quotes": [
+      "שזכה למדריגות גילוי אליהו"
+     ],
+     "confidence": 1,
+     "why": "Mentioned only in passing, in the praise of R. Yehonatan",
+     "quotes_failed": false
+    }
+   ],
+   "missing_concepts": [
+    "judicial integrity under coercion / refusing to pervert justice",
+    "martyrdom readiness (offering one's life rather than transgress)"
+   ],
+   "start_quote_found": true,
+   "end_quote_found": true
+  }
+ ],
+ "check": {
+  "non_vocab_tags": [],
+  "quotes": 9,
+  "quotes_not_found": 0
+ },
+ "id": "Derech-Haemuna_0044",
+ "chars": 734,
+ "seconds": 18
+}

@@ -1,0 +1,132 @@
+{
+ "unit": {
+  "kind": "hasidic_story",
+  "why": "A short memorate, heard from R. Moshe Teitelbaum, describing how R. Shmelke habitually prayed on Shabbat and holidays with kavvanot and sang wondrous new melodies while cleaving to the upper world. It depicts habitual conduct, not a single event, so it is a borderline narrative.",
+  "boundary_note": "Shvachim of R. Shmelke run across neighbouring divisions; this is a self-contained excerpt from Yetiv Panim."
+ },
+ "stories": [
+  {
+   "k": 1,
+   "start_quote": "ובס׳ ייטיב פנים מאמר שפת הים",
+   "end_quote": "וכלו מחמדים והמשכיל יבין וכו׳",
+   "hasidic": true,
+   "summary_en": "R. Moshe Teitelbaum relates that R. Shmelke, praying on Shabbat, festivals and especially the Days of Awe, meditated on kavvanot between the words and, in rapt cleaving to the upper world, sang wondrous new melodies without knowing what he sang.",
+   "tags": [
+    {
+     "tag": "practice:prayer",
+     "scope": "span",
+     "quotes": [
+      "כשהיה עומד בתפלה בשבתות ויו״ט"
+     ],
+     "confidence": 3,
+     "why": "liturgical prayer depicted",
+     "quotes_failed": false
+    },
+    {
+     "tag": "practice:music",
+     "scope": "span",
+     "quotes": [
+      "היה מאריך ומנגן נגונים חדשים פלאי פלאים",
+      "והקול יוצא מפיו בניגונים נפלאים"
+     ],
+     "confidence": 3,
+     "why": "singing new melodies during prayer",
+     "quotes_failed": false
+    },
+    {
+     "tag": "kabbalah:kabbalistic_terms_kavvanot",
+     "scope": "span",
+     "quotes": [
+      "היה מכוין הכוונת והסודות בין תיבה לתיבה"
+     ],
+     "confidence": 3,
+     "why": "explicit kavvanot on the words of prayer",
+     "quotes_failed": false
+    },
+    {
+     "tag": "practice:meditation",
+     "scope": "span",
+     "quotes": [
+      "היה מכוין הכוונת והסודות בין תיבה לתיבה"
+     ],
+     "confidence": 3,
+     "why": "prayer with kavvanot",
+     "quotes_failed": false
+    },
+    {
+     "tag": "practice:devekut",
+     "scope": "span",
+     "quotes": [
+      "כי היה שוטט במחשבתו דבוק בעולם העליון"
+     ],
+     "confidence": 3,
+     "why": "rapt cleaving during prayer",
+     "quotes_failed": false
+    },
+    {
+     "tag": "experience:devekut",
+     "scope": "span",
+     "quotes": [
+      "כי היה שוטט במחשבתו דבוק בעולם העליון",
+      "והוא לא ידע כלל מה הוא מנגן"
+     ],
+     "confidence": 3,
+     "why": "mystical communion, unaware of himself",
+     "quotes_failed": false
+    },
+    {
+     "tag": "times:holidays",
+     "scope": "span",
+     "quotes": [
+      "ויו״ט ובפרט בימים נוראים בעת העבודה"
+     ],
+     "confidence": 2,
+     "why": "festivals and the Days of Awe as setting",
+     "quotes_failed": false
+    },
+    {
+     "tag": "times:shabbat",
+     "scope": "span",
+     "quotes": [
+      "כשהיה עומד בתפלה בשבתות"
+     ],
+     "confidence": 2,
+     "why": "Shabbat prayer as setting",
+     "quotes_failed": false
+    },
+    {
+     "tag": "folkloristics:story_type_virtues",
+     "scope": "story",
+     "quotes": [],
+     "confidence": 2,
+     "why": "praise of the tzaddik's holy manner of prayer",
+     "quotes_failed": false
+    },
+    {
+     "tag": "practice:storytelling",
+     "scope": "span",
+     "quotes": [
+      "שמעתי ממוזל״ה [הוא הגה״צ ר׳ משה טייטילבוים"
+     ],
+     "confidence": 1,
+     "why": "framed as told by a named tzaddik",
+     "quotes_failed": false
+    }
+   ],
+   "missing_concepts": [
+    "habitual-practice memorate rather than a single event",
+    "oral transmission chain (heard from a named tzaddik)"
+   ],
+   "start_quote_found": true,
+   "end_quote_found": true
+  }
+ ],
+ "check": {
+  "non_vocab_tags": [],
+  "quotes": 11,
+  "quotes_not_found": 0
+ },
+ "id": "Derech-Haemuna_0221",
+ "chars": 533,
+ "seconds": 17
+}

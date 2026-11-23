@@ -1,0 +1,72 @@
+{
+ "unit": {
+  "kind": "hasidic_story",
+  "why": "split out of non-story-003 (non-story)"
+ },
+ "stories": [
+  {
+   "k": 17,
+   "start_quote": "שהי׳ אליהו רגיל להיות במתיבתא דרבי",
+   "end_quote": "וכן ליעקב וכו׳",
+   "hasidic": false,
+   "summary_en": "Elijah is late to Rabbi's academy on a New Moon because he must wake each patriarch to wash and pray.",
+   "tags": [
+    {
+     "tag": "characters-and-roles:elijah_the_prophet",
+     "scope": "span",
+     "quotes": [
+      "שהי׳ אליהו רגיל להיות במתיבתא דרבי"
+     ],
+     "confidence": 3,
+     "why": "appears",
+     "quotes_failed": false
+    },
+    {
+     "tag": "spaces:beth_midrash",
+     "scope": "span",
+     "quotes": [
+      "במתיבתא דרבי"
+     ],
+     "confidence": 2,
+     "why": "academy",
+     "quotes_failed": false
+    },
+    {
+     "tag": "times:holidays",
+     "scope": "span",
+     "quotes": [
+      "יום אחד הי׳ ראש חודש"
+     ],
+     "confidence": 1,
+     "why": "New Moon",
+     "quotes_failed": false
+    },
+    {
+     "tag": "practice:prayer",
+     "scope": "span",
+     "quotes": [
+      "ונטל ידיו והתפלל"
+     ],
+     "confidence": 2,
+     "why": "patriarchs pray",
+     "quotes_failed": false
+    },
+    {
+     "tag": "not-a-hasidic-story:hagiography",
+     "scope": "story",
+     "quotes": [],
+     "confidence": 3,
+     "why": "talmudic",
+     "quotes_failed": false
+    }
+   ],
+   "missing_concepts": [
+    "patriarchs' prayer"
+   ],
+   "start_quote_found": true,
+   "end_quote_found": true
+  }
+ ],
+ "id": "Eser-Orot_non-story-003_s17",
+ "split_from": "non-story-003"
+}

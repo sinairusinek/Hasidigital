@@ -1,0 +1,71 @@
+{
+ "unit": {
+  "kind": "hasidic_story",
+  "why": "A brief first-person memorate quoted from the author's book Otzar ha-Hayyim: after finishing his homilies he was shown in a dream that they had been accepted in the Garden of Eden before the righteous. It is a minimal event, not just a saying.",
+  "boundary_note": "one of a numbered series of excerpts (טו) from the tsaddik's writings; previous and next divisions are similar self-testimonies"
+ },
+ "stories": [
+  {
+   "k": 1,
+   "start_quote": "(טו) בספרו הק' אוצה\"ח על המצות",
+   "end_quote": "לפני הצדיקים ב\"ה וב\"ש חי וקיים עכ״ל",
+   "hasidic": true,
+   "summary_en": "The author of Otzar ha-Hayyim records that on finishing his homilies on 25 Marheshvan he was shown in a night dream that they had been received in the Garden of Eden before the tsaddikim.",
+   "tags": [
+    {
+     "tag": "experience:dream",
+     "scope": "span",
+     "quotes": [
+      "והראני בחלום הלילה שכל דרושים אלו נתקבלו"
+     ],
+     "confidence": 3,
+     "why": "the disclosure comes in a dream",
+     "quotes_failed": false
+    },
+    {
+     "tag": "experience:revelation",
+     "scope": "span",
+     "quotes": [
+      "והראני בחלום הלילה שכל דרושים אלו נתקבלו"
+     ],
+     "confidence": 2,
+     "why": "a heavenly disclosure that his teachings were accepted",
+     "quotes_failed": false
+    },
+    {
+     "tag": "spaces:heaven",
+     "scope": "span",
+     "quotes": [
+      "נתקבלו בג״ע לפני הצדיקים"
+     ],
+     "confidence": 1,
+     "why": "the Garden of Eden is the scene shown in the dream",
+     "quotes_failed": false
+    },
+    {
+     "tag": "practice:sermon",
+     "scope": "span",
+     "quotes": [
+      "שכל דרושים אלו נתקבלו בג״ע"
+     ],
+     "confidence": 2,
+     "why": "his written homilies (דרושים) are the subject of the heavenly approval",
+     "quotes_failed": false
+    }
+   ],
+   "missing_concepts": [
+    "heavenly approval of a tsaddik's written work / authorial self-testimony"
+   ],
+   "start_quote_found": true,
+   "end_quote_found": true
+  }
+ ],
+ "check": {
+  "non_vocab_tags": [],
+  "quotes": 4,
+  "quotes_not_found": 0
+ },
+ "id": "Eser-Kedushot_0167",
+ "chars": 164,
+ "seconds": 14
+}

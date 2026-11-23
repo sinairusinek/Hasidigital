@@ -1,0 +1,154 @@
+{
+ "unit": {
+  "kind": "hasidic_story",
+  "why": "A single anecdote: on his way to his son's wedding, R. Yitzhak of Radvil is told in a dream by his late father, the Maggid of Zlotshov, that the Apter Rav's worldly tales clothe secrets, and the Apter Rav then remarks on this at the gathering.",
+  "boundary_note": ""
+ },
+ "stories": [
+  {
+   "k": 1,
+   "start_quote": "דומה לזה שמעתי מפי אדוני אבי",
+   "end_quote": "וואס ער קומט פאראויס דערציילען זי\"ע",
+   "hasidic": true,
+   "summary_en": "On his way to his son R. Dan's wedding to the daughter of the Apter Rav, R. Yitzhak of Radvil dreams that his late father, the Maggid of Zlotshov, tells him that the Apter Rav's strange worldly tales clothe kabbalistic secrets; at the gathering R. Yitzhak identifies the sources of those secrets, and the Apter Rav quips that it is no great feat when one has a father who comes ahead to tell him.",
+   "tags": [
+    {
+     "tag": "experience:dream",
+     "scope": "span",
+     "quotes": [
+      "בא בחלום המגיד מזלאטשוב לבנו הרה״ק מו\"ה יצחק"
+     ],
+     "confidence": 3,
+     "why": "The father appears in a dream and discloses the secrets, which drives the plot.",
+     "quotes_failed": false
+    },
+    {
+     "tag": "experience:revelation",
+     "scope": "span",
+     "quotes": [
+      "תדע כי בדיבור זה יהי' מלובש סוד זה"
+     ],
+     "confidence": 2,
+     "why": "Hidden meanings are revealed to him through the dream.",
+     "quotes_failed": false
+    },
+    {
+     "tag": "characters-and-roles:the_family_of_the_tsaddik",
+     "scope": "span",
+     "quotes": [
+      "בנו של המגיד הקדוש מזלאטשוב",
+      "על חתונת בנו הרה״צ מו\"ה דן"
+     ],
+     "confidence": 3,
+     "why": "The tsaddik's father, son and in-laws are the characters.",
+     "quotes_failed": false
+    },
+    {
+     "tag": "social:marriage",
+     "scope": "span",
+     "quotes": [
+      "על חתונת בנו הרה״צ מו\"ה דן שלקח בת הרה״ק מאפטא"
+     ],
+     "confidence": 3,
+     "why": "The wedding of the two tsaddikim's children is the setting.",
+     "quotes_failed": false
+    },
+    {
+     "tag": "practice:the_travels_of_the_tsaddik",
+     "scope": "span",
+     "quotes": [
+      "בנסיעתו עלי דרך בלילה שלפני יום החתונה"
+     ],
+     "confidence": 2,
+     "why": "The dream comes to him while he is travelling.",
+     "quotes_failed": false
+    },
+    {
+     "tag": "practice:storytelling",
+     "scope": "span",
+     "quotes": [
+      "סיפר הרה״ק מאפטא מעשיות וגוזמות"
+     ],
+     "confidence": 3,
+     "why": "The Apter Rav tells stories whose words clothe secrets.",
+     "quotes_failed": false
+    },
+    {
+     "tag": "knowledge:esoteric",
+     "scope": "span",
+     "quotes": [
+      "זהו מובא במקובלים שם",
+      "וזהו נאמר בזוה\"ק או בכהאריז\"ל שם"
+     ],
+     "confidence": 3,
+     "why": "R. Yitzhak traces the kabbalistic secrets hidden in the tales.",
+     "quotes_failed": false
+    },
+    {
+     "tag": "supernatural:communicating_with_the_invisible",
+     "scope": "span",
+     "quotes": [
+      "א קונץ אז מיר האט אטאטע וואס ער קומט פאראויס דערציילען"
+     ],
+     "confidence": 2,
+     "why": "His dead father communicates with him from beyond.",
+     "quotes_failed": false
+    },
+    {
+     "tag": "practice:joke",
+     "scope": "span",
+     "quotes": [
+      "א קונץ אז מיר האט אטאטע"
+     ],
+     "confidence": 2,
+     "why": "The Apter Rav's closing remark is a witty quip.",
+     "quotes_failed": false
+    },
+    {
+     "tag": "supernatural:perception",
+     "scope": "span",
+     "quotes": [
+      "ענה הרה״ק ר׳ יצחק הנ\"ל זהו מובא במקובלים שם"
+     ],
+     "confidence": 2,
+     "why": "The Apter Rav perceives that R. Yitzhak's insight was told to him in advance.",
+     "quotes_failed": false
+    },
+    {
+     "tag": "social:inter_hasidic",
+     "scope": "span",
+     "quotes": [
+      "כאשר תתוועד עם מחותנך הרב רא\"י העשל"
+     ],
+     "confidence": 2,
+     "why": "Two tsaddikim meet as in-laws.",
+     "quotes_failed": false
+    },
+    {
+     "tag": "practice:storytelling",
+     "scope": "span",
+     "quotes": [
+      "שמעתי מפי אדוני אבי מו״ר הרב זצ\"ל"
+     ],
+     "confidence": 1,
+     "why": "The narrator frames the tale as one he heard from his father.",
+     "quotes_failed": false
+    }
+   ],
+   "missing_concepts": [
+    "secrets clothed in worldly tales (stories of tsaddikim as concealed Torah)",
+    "a dead father instructing his son in a dream"
+   ],
+   "start_quote_found": true,
+   "end_quote_found": true
+  }
+ ],
+ "check": {
+  "non_vocab_tags": [],
+  "quotes": 14,
+  "quotes_not_found": 0
+ },
+ "id": "Eser-Orot_0250",
+ "chars": 654,
+ "seconds": 16
+}

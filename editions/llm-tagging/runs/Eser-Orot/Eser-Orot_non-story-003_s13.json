@@ -1,0 +1,62 @@
+{
+ "unit": {
+  "kind": "hasidic_story",
+  "why": "split out of non-story-003 (non-story)"
+ },
+ "stories": [
+  {
+   "k": 13,
+   "start_quote": "באנשים שחפרו בשדה של רב נחמן",
+   "end_quote": "שעה אחת לפני תחיית המתים",
+   "hasidic": false,
+   "summary_en": "The undecayed R. Ahai rebukes diggers in R. Nahman's field and discusses with him why the righteous do not decay.",
+   "tags": [
+    {
+     "tag": "supernatural:communicating_with_the_invisible",
+     "scope": "span",
+     "quotes": [
+      "א\"ל אני אחאי ב״ר יאשיה"
+     ],
+     "confidence": 3,
+     "why": "the dead speak",
+     "quotes_failed": false
+    },
+    {
+     "tag": "times:eschatology",
+     "scope": "span",
+     "quotes": [
+      "שעה אחת לפני תחיית המתים"
+     ],
+     "confidence": 3,
+     "why": "resurrection",
+     "quotes_failed": false
+    },
+    {
+     "tag": "practice:sermon",
+     "scope": "span",
+     "quotes": [
+      "ורקב עצמות קנאה בכל מי שיש לו קנאה"
+     ],
+     "confidence": 2,
+     "why": "exegesis",
+     "quotes_failed": false
+    },
+    {
+     "tag": "not-a-hasidic-story:hagiography",
+     "scope": "story",
+     "quotes": [],
+     "confidence": 3,
+     "why": "talmudic",
+     "quotes_failed": false
+    }
+   ],
+   "missing_concepts": [
+    "incorrupt body of the righteous"
+   ],
+   "start_quote_found": true,
+   "end_quote_found": true
+  }
+ ],
+ "id": "Eser-Orot_non-story-003_s13",
+ "split_from": "non-story-003"
+}

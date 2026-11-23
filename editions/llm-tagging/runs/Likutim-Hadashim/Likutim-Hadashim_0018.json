@@ -1,0 +1,110 @@
+{
+ "unit": {
+  "kind": "hasidic_story",
+  "why": "A single anecdote about the rebbe hosting a crude messenger who came at night with a kvittel for a sick person, illustrating hospitality.",
+  "boundary_note": ""
+ },
+ "stories": [
+  {
+   "k": 1,
+   "start_quote": "שמעתי פ״א שלחו שליח בשביל חולה",
+   "end_quote": "ואתם לא הניחו לי לקיים",
+   "hasidic": true,
+   "summary_en": "A messenger arrives at night with a kvittel for a sick man; the rebbe himself feeds him, gives him brandy and bedding, and stops his attendants from expelling the smelly guest, calling it a God-given mitzvah of hospitality.",
+   "tags": [
+    {
+     "tag": "folkloristics:story_type_virtues",
+     "scope": "story",
+     "quotes": [],
+     "confidence": 3,
+     "why": "illustrates the rebbe's hospitality and humility",
+     "quotes_failed": false
+    },
+    {
+     "tag": "ethics-and-emotions:virtues",
+     "scope": "span",
+     "quotes": [
+      "השי״ת הזמין לי מצוה של הכנסת אורחים"
+     ],
+     "confidence": 3,
+     "why": "hospitality as the virtue at issue",
+     "quotes_failed": false
+    },
+    {
+     "tag": "ethics-and-emotions:humility",
+     "scope": "span",
+     "quotes": [
+      "והלך הרבי לבית המבשלות ולקח שם כל מה שמצא"
+     ],
+     "confidence": 2,
+     "why": "rebbe personally serves a crude guest",
+     "quotes_failed": false
+    },
+    {
+     "tag": "practice:drinking_alcohol",
+     "scope": "span",
+     "quotes": [
+      "ונתן לו יי״ש טוב"
+     ],
+     "confidence": 3,
+     "why": "rebbe gives the messenger brandy",
+     "quotes_failed": false
+    },
+    {
+     "tag": "practice:reception_of_hasidim",
+     "scope": "span",
+     "quotes": [
+      "ונתן הקוויטעל להרבי",
+      "אל תגעו בו. רק ישן עד שיקיץ בעצמו"
+     ],
+     "confidence": 3,
+     "why": "rebbe receives a visitor with a kvittel and refuses to send him away",
+     "quotes_failed": false
+    },
+    {
+     "tag": "practice:travel_to_the_tsaddik",
+     "scope": "span",
+     "quotes": [
+      "שלחו שליח בשביל חולה להרבי הנ״ל"
+     ],
+     "confidence": 2,
+     "why": "messenger journeys to the rebbe with a request",
+     "quotes_failed": false
+    },
+    {
+     "tag": "spaces:institutions_hassidic_court",
+     "scope": "story",
+     "quotes": [],
+     "confidence": 2,
+     "why": "set in the rebbe's household with attendants",
+     "quotes_failed": false
+    },
+    {
+     "tag": "social:conflict",
+     "scope": "span",
+     "quotes": [
+      "וכשהקיצו המשמשים היו רוצים לגרשו"
+     ],
+     "confidence": 1,
+     "why": "attendants want to expel the guest; rebbe overrules",
+     "quotes_failed": false
+    }
+   ],
+   "missing_concepts": [
+    "hospitality (hachnasat orchim)",
+    "kvittel / petition for the sick",
+    "the rebbe's attendants (meshamshim)"
+   ],
+   "start_quote_found": true,
+   "end_quote_found": true
+  }
+ ],
+ "check": {
+  "non_vocab_tags": [],
+  "quotes": 7,
+  "quotes_not_found": 0
+ },
+ "id": "Likutim-Hadashim_0018",
+ "chars": 581,
+ "seconds": 11
+}

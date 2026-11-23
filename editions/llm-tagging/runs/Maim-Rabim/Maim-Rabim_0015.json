@@ -1,0 +1,81 @@
+{
+ "unit": {
+  "kind": "hasidic_story",
+  "why": "A short anecdote, drawn from a letter quoted in Shem ha-Gedolim he-Hadash, in which the Hafla'ah asks, through intermediaries, that the Noda bi-Yehuda stop distressing R. Yehiel Michel of Zlotshov, citing R. Shmelke's testimony; it is minimal but it does report an event of intercession in a conflict.",
+  "boundary_note": ""
+ },
+ "stories": [
+  {
+   "k": 1,
+   "start_quote": "בשה״ג החדש מר׳ גדולים מערכה פ׳.",
+   "end_quote": "אל יבטל אותו צדיק מעבודתו עכ״ל",
+   "hasidic": true,
+   "summary_en": "The author of the Hafla'ah writes, through R. Tevli of Lissa and R. Yosef of Posen, asking the Noda bi-Yehuda not to trouble R. Yehiel Michel of Zlotshov, since R. Shmelke of Nikolsburg testified that all his intentions are for the sake of Heaven.",
+   "tags": [
+    {
+     "tag": "social:relations_with_non_hasidim",
+     "scope": "span",
+     "quotes": [
+      "שיבקש מחותנו הגה״ק בעל נודע ביהודא זצ\"ל שאל יצער"
+     ],
+     "confidence": 3,
+     "why": "The Noda bi-Yehuda, a non-Hasidic rabbinic authority, is troubling the Hasidic maggid.",
+     "quotes_failed": false
+    },
+    {
+     "tag": "social:conflict",
+     "scope": "span",
+     "quotes": [
+      "שאל יצער להה״ק מו\"ה יחיאל מיכל זצ״ל מזלאטשוב"
+     ],
+     "confidence": 3,
+     "why": "The Noda bi-Yehuda is in conflict with R. Michel.",
+     "quotes_failed": false
+    },
+    {
+     "tag": "practice:torat_ha_tsaddik",
+     "scope": "span",
+     "quotes": [
+      "לכן אל יבטל אותו צדיק מעבודתו"
+     ],
+     "confidence": 1,
+     "why": "Defends the tsaddik's service against interference; this is borderline for the doctrine-of-the-tsaddik tag.",
+     "quotes_failed": false
+    },
+    {
+     "tag": "ethics-and-emotions:virtues",
+     "scope": "span",
+     "quotes": [
+      "העיד עליו שכל כוונתיו לש\"ש"
+     ],
+     "confidence": 2,
+     "why": "Testimony to the purity of the tsaddik's intentions.",
+     "quotes_failed": false
+    },
+    {
+     "tag": "folkloristics:story_type_virtues",
+     "scope": "story",
+     "quotes": [],
+     "confidence": 1,
+     "why": "The point of the anecdote is to vouch for R. Michel's sincerity.",
+     "quotes_failed": false
+    }
+   ],
+   "missing_concepts": [
+    "letter or epistolary source as evidence",
+    "intercession by rabbinic peers on a tsaddik's behalf",
+    "testimony or vouching for a tsaddik's sincerity"
+   ],
+   "start_quote_found": true,
+   "end_quote_found": true
+  }
+ ],
+ "check": {
+  "non_vocab_tags": [],
+  "quotes": 4,
+  "quotes_not_found": 0
+ },
+ "id": "Maim-Rabim_0015",
+ "chars": 338,
+ "seconds": 14
+}

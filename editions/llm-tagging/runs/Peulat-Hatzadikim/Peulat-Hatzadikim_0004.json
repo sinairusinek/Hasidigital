@@ -1,0 +1,113 @@
+{
+ "unit": {
+  "kind": "hasidic_story",
+  "why": "A minimal narrative frame: R. Aharon of Karlin dies and his disciple R. Shlomo of Karlin eulogizes him. Almost all of the content is the eulogy's homily on Rashi's reading of Enoch, so this is a borderline case close to saying_or_teaching.",
+  "boundary_note": "The previous division ends with the catchword 'כשנסתלק', which opens this division's text. This division is self-contained."
+ },
+ "stories": [
+  {
+   "k": 1,
+   "start_quote": "מהה\"ק ר׳ אהרן מקארלין ז\"ל כשנסתלק",
+   "end_quote": "כי נסתלק כשהיה בן ל\"ה שנים זי״ע",
+   "hasidic": true,
+   "summary_en": "At the death of R. Aharon of Karlin, his disciple R. Shlomo eulogizes him. He reinterprets Rashi on Enoch: Enoch was taken early because even his mundane speech moved people to repentance and would have hastened the final 'birur' before its time. R. Aharon was of the same rank and so died at 35.",
+   "tags": [
+    {
+     "tag": "not-a-hasidic-story:sermon",
+     "scope": "story",
+     "quotes": [],
+     "confidence": 2,
+     "why": "The text is mainly an exegetical homily inside a thin narrative frame.",
+     "quotes_failed": false
+    },
+    {
+     "tag": "practice:sermon",
+     "scope": "span",
+     "quotes": [
+      "הספידו תלמידו הקדוש ר׳ שלמו מקארלין ואמר",
+      "הנה רש\"י ז\"ל כתב על הפסוק"
+     ],
+     "confidence": 3,
+     "why": "A eulogy-homily is delivered and quoted.",
+     "quotes_failed": false
+    },
+    {
+     "tag": "times:death",
+     "scope": "span",
+     "quotes": [
+      "כשנסתלק הה״ק הנ\"ל ועלה למרום",
+      "כי נסתלק כשהיה בן ל\"ה שנים"
+     ],
+     "confidence": 3,
+     "why": "The tzaddik's death is the occasion of the text.",
+     "quotes_failed": false
+    },
+    {
+     "tag": "folkloristics:story_type_death_of_the_tsaddik",
+     "scope": "story",
+     "quotes": [],
+     "confidence": 2,
+     "why": "The text centers on the tzaddik's early death and its meaning.",
+     "quotes_failed": false
+    },
+    {
+     "tag": "social:inter_hasidic_master_disciple_relationship",
+     "scope": "span",
+     "quotes": [
+      "הספידו תלמידו הקדוש ר׳ שלמו מקארלין",
+      "ואדמו״ר הי׳ ג״כ בבחי׳ זאת"
+     ],
+     "confidence": 2,
+     "why": "A disciple eulogizes and praises his master.",
+     "quotes_failed": false
+    },
+    {
+     "tag": "ethics-and-emotions:repentance",
+     "scope": "span",
+     "quotes": [
+      "התחיל האיש להרהר בתשובה ולצעוק אל המלך"
+     ],
+     "confidence": 2,
+     "why": "The tzaddik's speech moves listeners to repentance.",
+     "quotes_failed": false
+    },
+    {
+     "tag": "practice:torat_ha_tsaddik",
+     "scope": "span",
+     "quotes": [
+      "שאם היה מדבר עם איזה איש אפילו דברים פשוטים"
+     ],
+     "confidence": 1,
+     "why": "The tzaddik's power to transform others even through mundane talk.",
+     "quotes_failed": false
+    },
+    {
+     "tag": "times:eschatology",
+     "scope": "span",
+     "quotes": [
+      "הי' מוכרח להיות קץ הבירוך קודם זמנו",
+      "שעי״ב יהיה הבירור קודם זמנו"
+     ],
+     "confidence": 2,
+     "why": "The end of the cosmic 'birur' (redemption) being hastened is the stated reason for the early death.",
+     "quotes_failed": false
+    }
+   ],
+   "missing_concepts": [
+    "eulogy (hesped) as a genre",
+    "premature death of a tzaddik explained theologically",
+    "Enoch/Metatron exegesis"
+   ],
+   "start_quote_found": true,
+   "end_quote_found": true
+  }
+ ],
+ "check": {
+  "non_vocab_tags": [],
+  "quotes": 10,
+  "quotes_not_found": 0
+ },
+ "id": "Peulat-Hatzadikim_0004",
+ "chars": 997,
+ "seconds": 21
+}

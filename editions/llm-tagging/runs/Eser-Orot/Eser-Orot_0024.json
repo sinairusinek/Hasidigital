@@ -1,0 +1,113 @@
+{
+ "unit": {
+  "kind": "hasidic_story",
+  "why": "A single narrative: the Maggid of Mezeritch surveys Frankfurt supernaturally for 2 hours and permits the Ba'al Hafla'ah to move there; it is followed by a short transitional editorial sentence.",
+  "boundary_note": "division ends with an editorial transition ('לא אמנע הטוב להציג...') introducing the sayings that follow in the next division"
+ },
+ "stories": [
+  {
+   "k": 1,
+   "start_quote": "שהגה\"ק ההפלאה אמר להמגיד הק' ממעזריטש",
+   "end_quote": "ורשות בידכם לקבוע דירתכם שם",
+   "hasidic": true,
+   "summary_en": "The Ba'al Hafla'ah fears to move to Frankfurt lest its people be not kosher; the Maggid of Mezeritch turns up his eyes for two hours, 'visits' every house there, sees no evil, and permits the move.",
+   "tags": [
+    {
+     "tag": "supernatural:perception",
+     "scope": "span",
+     "quotes": [
+      "עכשיו הייתי אני בכל עיר פפדמיי״ן בכל בית ובית",
+      "ואין אני רואה שם שום רע"
+     ],
+     "confidence": 3,
+     "why": "Maggid perceives the whole town at a distance",
+     "quotes_failed": false
+    },
+    {
+     "tag": "experience:visions",
+     "scope": "span",
+     "quotes": [
+      "אז הפך המגיד את עיניו ונעשו גדולים מאד"
+     ],
+     "confidence": 2,
+     "why": "trance-like seeing in waking state",
+     "quotes_failed": false
+    },
+    {
+     "tag": "experience:journey_to_heaven",
+     "scope": "span",
+     "quotes": [
+      "והתמהמה כך בהפיכת עינים לערך שתי שעות"
+     ],
+     "confidence": 1,
+     "why": "soul-journey-like absence, though to an earthly place",
+     "quotes_failed": false
+    },
+    {
+     "tag": "social:inter_hasidic_master_disciple_relationship",
+     "scope": "span",
+     "quotes": [
+      "וכאשר כילה לדבר דבריו בפני רבו הרה״מ"
+     ],
+     "confidence": 3,
+     "why": "disciple consults his master on a life decision",
+     "quotes_failed": false
+    },
+    {
+     "tag": "practice:torat_ha_tsaddik",
+     "scope": "span",
+     "quotes": [
+      "ורשות בידכם לקבוע דירתכם שם"
+     ],
+     "confidence": 2,
+     "why": "disciple relies on the tsaddik's permission",
+     "quotes_failed": false
+    },
+    {
+     "tag": "practice:storytelling",
+     "scope": "span",
+     "quotes": [
+      "ששמע איש מפי איש מפי ההגה\"ק ר' אברהם חיים מזלאטשוב",
+      "כ״ז סיפר דודי הנ\"ל"
+     ],
+     "confidence": 2,
+     "why": "framed as an orally transmitted tale through a chain of named tellers",
+     "quotes_failed": false
+    },
+    {
+     "tag": "ethics-and-emotions:fear",
+     "scope": "span",
+     "quotes": [
+      "שהוא ירא לעקור דירתו לפפד״מ"
+     ],
+     "confidence": 2,
+     "why": "anxiety about religious laxity in Germany",
+     "quotes_failed": false
+    },
+    {
+     "tag": "practice:reception_of_hasidim",
+     "scope": "story",
+     "quotes": [],
+     "confidence": 1,
+     "why": "disciple brings a request to the rebbe",
+     "quotes_failed": false
+    }
+   ],
+   "missing_concepts": [
+    "rabbinic appointment / relocation to a rabbinate",
+    "Hasidic views of German (Ashkenaz) Jewry's piety",
+    "chain of transmission (isnad) of the tale"
+   ],
+   "start_quote_found": true,
+   "end_quote_found": true
+  }
+ ],
+ "check": {
+  "non_vocab_tags": [],
+  "quotes": 9,
+  "quotes_not_found": 0
+ },
+ "id": "Eser-Orot_0024",
+ "chars": 784,
+ "seconds": 15
+}

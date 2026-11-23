@@ -1,0 +1,157 @@
+{
+ "unit": {
+  "kind": "hasidic_story",
+  "why": "A single narrative: while R. Israel of Ruzhin is imprisoned by the Russian authorities, a Jewish soldier from Ruzhin arranges for him to go out to sanctify the new moon, and the relief guards are miraculously delayed until he returns.",
+  "boundary_note": "A stray running header ('הה\"ק ר׳ ישראל מריזין ז') is embedded mid-text. The previous division ends a different item."
+ },
+ "stories": [
+  {
+   "k": 1,
+   "start_quote": "בעת התגולל עליו בלבולים הידועים ונכלא במאסר",
+   "end_quote": "והיא העומדת לנם ופלא",
+   "hasidic": true,
+   "summary_en": "During R. Israel of Ruzhin's imprisonment, a Jewish soldier from Ruzhin swaps guard duty, bribing the assigned soldier with spirits, so the tzaddik can leave the jail to sanctify the moon; the tzaddik prays for five hours while the guard fears death, and the relief soldiers arrive only after he returns, having wandered lost all night.",
+   "tags": [
+    {
+     "tag": "social:relations_with_the_authorities",
+     "scope": "span",
+     "quotes": [
+      "ונכלא במאסר תחת ממשלת רוסיא",
+      "כאשר הי׳ באמת פקודת ממשלת רוסי׳ להמית איש"
+     ],
+     "confidence": 3,
+     "why": "Tzaddik imprisoned by the Russian government; death penalty for the guard",
+     "quotes_failed": false
+    },
+    {
+     "tag": "times:historical_event",
+     "scope": "span",
+     "quotes": [
+      "בעת התגולל עליו בלבולים הידועים"
+     ],
+     "confidence": 2,
+     "why": "The known imprisonment of the Ruzhiner",
+     "quotes_failed": false
+    },
+    {
+     "tag": "practice:prayer",
+     "scope": "span",
+     "quotes": [
+      "ועמד בצלותא שעה אחת ושתים ושלש",
+      "וככה עמד הקדוש בתפלתו בחמשה שעות"
+     ],
+     "confidence": 3,
+     "why": "Prolonged prayer of Kiddush Levana",
+     "quotes_failed": false
+    },
+    {
+     "tag": "practice:devekut",
+     "scope": "span",
+     "quotes": [
+      "וככה עמד הקדוש בתפלתו בחמשה שעות",
+      "ולסוף נתעורר הצדיק ויאמר אל המשמש"
+     ],
+     "confidence": 2,
+     "why": "Absorbed in prayer for hours, then 'awakens'",
+     "quotes_failed": false
+    },
+    {
+     "tag": "ethics-and-emotions:fear",
+     "scope": "span",
+     "quotes": [
+      "ונפלה עליו אימת מות ממש",
+      "מגודל פחדו טעם טעם מיתה כל רגע"
+     ],
+     "confidence": 3,
+     "why": "The soldier's mortal fear",
+     "quotes_failed": false
+    },
+    {
+     "tag": "practice:drinking_alcohol",
+     "scope": "span",
+     "quotes": [
+      "ונתן לו חצי מדה יין שרף"
+     ],
+     "confidence": 2,
+     "why": "Spirits given to the other soldier in exchange for the guard shift",
+     "quotes_failed": false
+    },
+    {
+     "tag": "supernatural:miracle",
+     "scope": "span",
+     "quotes": [
+      "כי כל הלילה תועה הלכו חתרו למצא הדרך ולא מצאו",
+      "והיא העומדת לנם ופלא"
+     ],
+     "confidence": 3,
+     "why": "The relief guards are miraculously lost until the tzaddik returns",
+     "quotes_failed": false
+    },
+    {
+     "tag": "supernatural:perception",
+     "scope": "span",
+     "quotes": [
+      "ופעולת קדוש עליון רואה את הנעשה מרחוק"
+     ],
+     "confidence": 2,
+     "why": "Narrator attributes far-seeing to the tzaddik",
+     "quotes_failed": false
+    },
+    {
+     "tag": "practice:protection",
+     "scope": "span",
+     "quotes": [
+      "ותחת אשר דמה האברך כי יתקצפו עליו בקשו המה מאתו לסלוח לו"
+     ],
+     "confidence": 2,
+     "why": "The guard is shielded from deadly punishment",
+     "quotes_failed": false
+    },
+    {
+     "tag": "folkloristics:story_type_protection",
+     "scope": "story",
+     "quotes": [],
+     "confidence": 2,
+     "why": "The arc is the soldier's rescue from danger through the tzaddik's power",
+     "quotes_failed": false
+    },
+    {
+     "tag": "social:relations_with_non_jews",
+     "scope": "span",
+     "quotes": [
+      "והנה באו בעלי מלחמה להעמיד אחד על עמדתו"
+     ],
+     "confidence": 1,
+     "why": "Relief soldiers in the Russian army, possibly non-Jews",
+     "quotes_failed": false
+    },
+    {
+     "tag": "practice:storytelling",
+     "scope": "span",
+     "quotes": [
+      "והמעשה הלזה הקשבתי מפי איש נאמן אשר סיפר אותה בשם המשמש"
+     ],
+     "confidence": 1,
+     "why": "Chain of oral transmission is framed",
+     "quotes_failed": false
+    }
+   ],
+   "missing_concepts": [
+    "Kiddush Levana (sanctification of the new moon)",
+    "imprisonment of a tzaddik",
+    "Jewish conscript soldier",
+    "tzaddik's attendant (meshamesh) as intermediary"
+   ],
+   "start_quote_found": true,
+   "end_quote_found": true
+  }
+ ],
+ "check": {
+  "non_vocab_tags": [],
+  "quotes": 16,
+  "quotes_not_found": 0
+ },
+ "id": "Peulat-Hatzadikim_0044",
+ "chars": 2294,
+ "seconds": 24
+}

@@ -1,0 +1,60 @@
+{
+ "unit": {
+  "kind": "hasidic_story",
+  "why": "A brief memorate: the narrator saw the Berdichever rabbi hold a candle and burn himself, which is a witnessed event and not a saying.",
+  "boundary_note": "One of a numbered series of reports by the same narrator ('עוד סיפר הרה\"ק הנ\"ל'); self-contained."
+ },
+ "stories": [
+  {
+   "k": 1,
+   "start_quote": "עוד סיפר הרה\"ק הנ\"ל שראה הרב מבא\"ד",
+   "end_quote": "והי׳ עושה בעצמו מכוות אש",
+   "hasidic": true,
+   "summary_en": "The holy rabbi related that he saw the rabbi of Berdichev hold a candle and inflict burns on himself.",
+   "tags": [
+    {
+     "tag": "practice:asceticism",
+     "scope": "span",
+     "quotes": [
+      "שאחז נר והי׳ עושה בעצמו מכוות אש"
+     ],
+     "confidence": 3,
+     "why": "Self-mortification by burning oneself.",
+     "quotes_failed": false
+    },
+    {
+     "tag": "practice:storytelling",
+     "scope": "span",
+     "quotes": [
+      "עוד סיפר הרה\"ק הנ\"ל שראה"
+     ],
+     "confidence": 2,
+     "why": "Framed as an eyewitness report told by a named tsaddik in a series.",
+     "quotes_failed": false
+    },
+    {
+     "tag": "folkloristics:story_type_virtues",
+     "scope": "story",
+     "quotes": [],
+     "confidence": 1,
+     "why": "The anecdote illustrates the tsaddik's extreme piety and self-denial.",
+     "quotes_failed": false
+    }
+   ],
+   "missing_concepts": [
+    "self-inflicted burning as penance (סיגופי אש)",
+    "eyewitness memorate"
+   ],
+   "start_quote_found": true,
+   "end_quote_found": true
+  }
+ ],
+ "check": {
+  "non_vocab_tags": [],
+  "quotes": 2,
+  "quotes_not_found": 0
+ },
+ "id": "Eser-Orot_0074",
+ "chars": 74,
+ "seconds": 9
+}

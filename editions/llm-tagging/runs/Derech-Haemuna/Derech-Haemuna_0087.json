@@ -1,0 +1,100 @@
+{
+ "unit": {
+  "kind": "hasidic_story",
+  "why": "An anecdote, quoted from the book על״ץ, about R. Issachar Dov Baer of Radoszyce: he fell gravely ill, reflected on what confession to make, took a vow, recovered and lived about twenty more years.",
+  "boundary_note": ""
+ },
+ "stories": [
+  {
+   "k": 1,
+   "start_quote": "ובס׳ על״ץ (בלקוטים) וז״ל פ״א חלה מאד",
+   "end_quote": "וחי עוד לערך עשרים שנה",
+   "hasidic": true,
+   "summary_en": "During a grave illness R. Issachar Dov Baer of Radoszyce reflects that he cannot honestly confess to sin or to slackness in serving God, so he resolves to serve God with purer intent if he recovers; he recovers and lives about twenty more years.",
+   "tags": [
+    {
+     "tag": "ethics-and-emotions:repentance",
+     "scope": "span",
+     "quotes": [
+      "הדרך הוא שאדם מתודה בשעת חליו",
+      "אעבוד אותו יתברך עבודה זכה וצלולה יותר"
+     ],
+     "confidence": 2,
+     "why": "deathbed confession (vidui) and a resolve to improve",
+     "quotes_failed": false
+    },
+    {
+     "tag": "ethics-and-emotions:lying",
+     "scope": "span",
+     "quotes": [
+      "איך יוכל לומר שקר ובאמת לא חטאתי"
+     ],
+     "confidence": 1,
+     "why": "he refuses to confess falsely; truthfulness is at issue",
+     "quotes_failed": false
+    },
+    {
+     "tag": "ethics-and-emotions:virtues",
+     "scope": "story",
+     "quotes": [],
+     "confidence": 2,
+     "why": "truthfulness and pure service of God without ulterior motive",
+     "quotes_failed": false
+    },
+    {
+     "tag": "folkloristics:story_type_virtues",
+     "scope": "story",
+     "quotes": [],
+     "confidence": 2,
+     "why": "illustrates the tzaddik's honesty and piety",
+     "quotes_failed": false
+    },
+    {
+     "tag": "practice:healing",
+     "scope": "span",
+     "quotes": [
+      "וכן היה שנתרפא מחליו וחי עוד לערך עשרים שנה"
+     ],
+     "confidence": 2,
+     "why": "recovery from illness",
+     "quotes_failed": false
+    },
+    {
+     "tag": "supernatural:miracle",
+     "scope": "span",
+     "quotes": [
+      "וכן היה שנתרפא מחליו"
+     ],
+     "confidence": 1,
+     "why": "recovery after the vow is implied to be wondrous",
+     "quotes_failed": false
+    },
+    {
+     "tag": "practice:prayer",
+     "scope": "span",
+     "quotes": [
+      "אמנם מה אתודה אם אומר שחטאתי"
+     ],
+     "confidence": 1,
+     "why": "confession (vidui) is a liturgical act",
+     "quotes_failed": false
+    }
+   ],
+   "missing_concepts": [
+    "deathbed confession (vidui) on a sickbed",
+    "vow made in illness (neder)",
+    "serving God for its own sake (lishmah, without ulterior motive)"
+   ],
+   "start_quote_found": true,
+   "end_quote_found": true
+  }
+ ],
+ "check": {
+  "non_vocab_tags": [],
+  "quotes": 6,
+  "quotes_not_found": 0
+ },
+ "id": "Derech-Haemuna_0087",
+ "chars": 655,
+ "seconds": 12
+}

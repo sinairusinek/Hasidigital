@@ -1,0 +1,52 @@
+{
+ "unit": {
+  "kind": "hasidic_story",
+  "why": "split out of non-story-003 (non-story)"
+ },
+ "stories": [
+  {
+   "k": 4,
+   "start_quote": "המעשה מחמורו של רפב״י המובא בחולין",
+   "end_quote": "הפרישו דמאי ואכלה",
+   "hasidic": false,
+   "summary_en": "R. Pinhas ben Yair's donkey refuses untithed barley until it is tithed.",
+   "tags": [
+    {
+     "tag": "supernatural:miracle",
+     "scope": "span",
+     "quotes": [
+      "עני׳ זו הולכת לעשות רצון קונה"
+     ],
+     "confidence": 2,
+     "why": "pious animal",
+     "quotes_failed": false
+    },
+    {
+     "tag": "practice:halakhah",
+     "scope": "span",
+     "quotes": [
+      "דלמא לא מעשרן. עשרינהו ואכל"
+     ],
+     "confidence": 3,
+     "why": "tithing law",
+     "quotes_failed": false
+    },
+    {
+     "tag": "not-a-hasidic-story:hagiography",
+     "scope": "story",
+     "quotes": [],
+     "confidence": 3,
+     "why": "sage's donkey",
+     "quotes_failed": false
+    }
+   ],
+   "missing_concepts": [
+    "pious animals"
+   ],
+   "start_quote_found": true,
+   "end_quote_found": true
+  }
+ ],
+ "id": "Eser-Orot_non-story-003_s4",
+ "split_from": "non-story-003"
+}

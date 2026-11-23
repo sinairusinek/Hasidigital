@@ -1,0 +1,234 @@
+{
+ "unit": {
+  "kind": "hasidic_story",
+  "why": "A first-person narrative of the death, mourning, eulogy and burial of the tzaddik's wife, the rebbetzin, in the Kozhenitz court.",
+  "boundary_note": "opens with 'ונחזור להנ\"ל', resuming an earlier account (the omen seen on 1 Nisan) from a preceding division"
+ },
+ "stories": [
+  {
+   "k": 1,
+   "start_quote": "ונחזור להנ\"ל כי הנה מאז ביום א׳ ניסן",
+   "end_quote": "לנגד עיניו אותיות שם הוי״ה ברור וצלול",
+   "hasidic": true,
+   "summary_en": "The tzaddik receives several signs of his wife's coming death. She dies on the last Sabbath of Pesach and he stays outwardly composed until the holy day ends, then weeps aloud and eulogizes her as righteous. At her burial he tells her that their souls and yihudim will remain together.",
+   "tags": [
+    {
+     "tag": "times:death",
+     "scope": "span",
+     "quotes": [
+      "ובליל ש״ק אחרון של פסח אחרי סעודת שלחנו נפטרה"
+     ],
+     "confidence": 3,
+     "why": "the rebbetzin's death is the central event",
+     "quotes_failed": false
+    },
+    {
+     "tag": "times:holidays",
+     "scope": "span",
+     "quotes": [
+      "רק בחוה״מ נחלתה ר״ל",
+      "בליל פסח ובסעודת שחרית דיום ב׳"
+     ],
+     "confidence": 3,
+     "why": "the story is set during Pesach",
+     "quotes_failed": false
+    },
+    {
+     "tag": "times:shabbat",
+     "scope": "span",
+     "quotes": [
+      "שישמרו עצמם מלבכות על אמם בשבת וי״ט"
+     ],
+     "confidence": 3,
+     "why": "she dies on Shabbat and mourning is held back until it ends",
+     "quotes_failed": false
+    },
+    {
+     "tag": "characters-and-roles:the_family_of_the_tsaddik",
+     "scope": "story",
+     "quotes": [],
+     "confidence": 3,
+     "why": "his wife, sons and son-in-law appear",
+     "quotes_failed": false
+    },
+    {
+     "tag": "women:catalyst_character",
+     "scope": "span",
+     "quotes": [
+      "כי זקני הה״מ הק׳ אמר לי שיש לה רוה״ק"
+     ],
+     "confidence": 2,
+     "why": "the rebbetzin's death drives the plot; she is praised but barely acts",
+     "quotes_failed": false
+    },
+    {
+     "tag": "social:marital_relationship",
+     "scope": "span",
+     "quotes": [
+      "שיש לה חלק בכל תורתו ועבודתו"
+     ],
+     "confidence": 3,
+     "why": "the spiritual bond between husband and wife",
+     "quotes_failed": false
+    },
+    {
+     "tag": "social:marriage",
+     "scope": "span",
+     "quotes": [
+      "בעת חתונתם בשעה שהיו מכסים אותה בצעיף"
+     ],
+     "confidence": 2,
+     "why": "their wedding is recalled",
+     "quotes_failed": false
+    },
+    {
+     "tag": "experience:visions",
+     "scope": "span",
+     "quotes": [
+      "כי זקנה הק׳ בעל נועם אלימלך היה עומד מצדה הא׳"
+     ],
+     "confidence": 3,
+     "why": "the Maggid saw her dead forebears standing beside her at the wedding",
+     "quotes_failed": false
+    },
+    {
+     "tag": "supernatural:perception",
+     "scope": "span",
+     "quotes": [
+      "היה לו אח״כ עוד כמה סבות ורמזים על פטירת אשתו"
+     ],
+     "confidence": 2,
+     "why": "he foresaw her death",
+     "quotes_failed": false
+    },
+    {
+     "tag": "practice:halakhah",
+     "scope": "span",
+     "quotes": [
+      "דיבר כיצד לעשות בספירה ופסק אשר בבין השמשות"
+     ],
+     "confidence": 3,
+     "why": "a ruling on counting the Omer",
+     "quotes_failed": false
+    },
+    {
+     "tag": "practice:tvilah",
+     "scope": "span",
+     "quotes": [
+      "ולמחרתו בבקר הלך למקוה כדרכו"
+     ],
+     "confidence": 3,
+     "why": "his habitual immersion",
+     "quotes_failed": false
+    },
+    {
+     "tag": "practice:clothing",
+     "scope": "span",
+     "quotes": [
+      "פשט הבגדי שבת ולבש הבגדי חול"
+     ],
+     "confidence": 3,
+     "why": "changing into weekday clothes marks the release of his grief",
+     "quotes_failed": false
+    },
+    {
+     "tag": "practice:music",
+     "scope": "span",
+     "quotes": [
+      "ולזמר הזמירות כנהוג"
+     ],
+     "confidence": 2,
+     "why": "he sings the Sabbath zemirot",
+     "quotes_failed": false
+    },
+    {
+     "tag": "practice:prayer",
+     "scope": "span",
+     "quotes": [
+      "ואח״כ מיהר להתפלל מנחה"
+     ],
+     "confidence": 2,
+     "why": "prayer is depicted",
+     "quotes_failed": false
+    },
+    {
+     "tag": "practice:sermon",
+     "scope": "span",
+     "quotes": [
+      "צוה להעמיד המטה נוכח פתח בית הכנסת והיה מספיד אותה"
+     ],
+     "confidence": 2,
+     "why": "he delivers a eulogy",
+     "quotes_failed": false
+    },
+    {
+     "tag": "kabbalah:kabbalistic_terms_yihudim",
+     "scope": "span",
+     "quotes": [
+      "דיא יחודים וואס איוד מאכט פריער",
+      "כל עניניו היו הבל ביחודים קדושים"
+     ],
+     "confidence": 3,
+     "why": "the mystical unifications of the couple",
+     "quotes_failed": false
+    },
+    {
+     "tag": "practice:meditation",
+     "scope": "span",
+     "quotes": [
+      "שהיה רואה לנגד עיניו אותיות שם הוי״ה"
+     ],
+     "confidence": 2,
+     "why": "he contemplated the divine name during marital union",
+     "quotes_failed": false
+    },
+    {
+     "tag": "ethics-and-emotions:sadness",
+     "scope": "span",
+     "quotes": [
+      "פתאום היה יוצא מפיו קול בכיה בקול רם"
+     ],
+     "confidence": 2,
+     "why": "weeping and grief",
+     "quotes_failed": false
+    },
+    {
+     "tag": "folkloristics:story_type_virtues",
+     "scope": "span",
+     "quotes": [
+      "מכ״ז נראה גודל צדקתו וקדושתו עד להפליא"
+     ],
+     "confidence": 2,
+     "why": "the narrator frames the story as showing the tzaddik's holiness",
+     "quotes_failed": false
+    },
+    {
+     "tag": "ethics-and-emotions:virtues",
+     "scope": "span",
+     "quotes": [
+      "והיה מספר צדקתה עד להפליא"
+     ],
+     "confidence": 2,
+     "why": "the righteousness of husband and wife",
+     "quotes_failed": false
+    }
+   ],
+   "missing_concepts": [
+    "mourning customs and restraint of grief on Shabbat and festival",
+    "funeral and burial of a rebbetzin",
+    "the rebbetzin's own holiness (ruach ha-kodesh)",
+    "sanctified marital union"
+   ],
+   "start_quote_found": true,
+   "end_quote_found": true
+  }
+ ],
+ "check": {
+  "non_vocab_tags": [],
+  "quotes": 22,
+  "quotes_not_found": 1
+ },
+ "id": "Toldot-Haniflaot_0081",
+ "chars": 2405,
+ "seconds": 26
+}

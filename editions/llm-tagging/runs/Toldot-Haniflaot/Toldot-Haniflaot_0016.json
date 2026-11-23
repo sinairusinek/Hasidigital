@@ -1,0 +1,102 @@
+{
+ "unit": {
+  "kind": "hasidic_story",
+  "why": "A short biographical memorate. The narrator reports the tsaddik's own words about being a child prodigy who learned from his grandfather the Maggid. He also says he saw the halakhic letters the famous gaon R. Y.M. sent him. Small events are narrated, but the passage is mostly biographical description.",
+  "boundary_note": "part of a numbered biographical sequence (§כא); §כב in the next division continues the theme of the gaon R. Y.M."
+ },
+ "stories": [
+  {
+   "k": 1,
+   "start_quote": "והנה עכ״ז למד הרבה מזקנו הק׳",
+   "end_quote": "הנשלח מידו אל מרן זצ״ל",
+   "hasidic": true,
+   "summary_en": "The tsaddik learned revealed and hidden Torah from his grandfather the Maggid and said that at twelve he was a greater prodigy than the famous gaon R. Y.M. That gaon later held him to be a great scholar and sent him questions on the laws of niddah, and the narrator saw these letters.",
+   "tags": [
+    {
+     "tag": "practice:study",
+     "scope": "span",
+     "quotes": [
+      "כי גם בנגלה קיבל הרבה ממנו",
+      "אמנם כי הוא לומד תמיד בהתמדה"
+     ],
+     "confidence": 3,
+     "why": "Torah learning from his grandfather and diligence in study are the theme.",
+     "quotes_failed": false
+    },
+    {
+     "tag": "characters-and-roles:the_family_of_the_tsaddik",
+     "scope": "span",
+     "quotes": [
+      "למד הרבה מזקנו הק׳ המגיד זצ״ל"
+     ],
+     "confidence": 3,
+     "why": "His grandfather the Maggid is his teacher.",
+     "quotes_failed": false
+    },
+    {
+     "tag": "knowledge:esoteric",
+     "scope": "span",
+     "quotes": [
+      "בנגלה ונסתר האציל עלי רוח מבינתו"
+     ],
+     "confidence": 2,
+     "why": "He received hidden (nistar) teaching from his grandfather.",
+     "quotes_failed": false
+    },
+    {
+     "tag": "practice:halakhah",
+     "scope": "span",
+     "quotes": [
+      "כתובין בכת״י הגאון הק׳ הנ״ל בהלכות נדה"
+     ],
+     "confidence": 2,
+     "why": "Halakhic questions on niddah were sent to him.",
+     "quotes_failed": false
+    },
+    {
+     "tag": "folkloristics:story_type_virtues",
+     "scope": "story",
+     "quotes": [],
+     "confidence": 2,
+     "why": "The passage illustrates the tsaddik's scholarly greatness and early genius.",
+     "quotes_failed": false
+    },
+    {
+     "tag": "social:inter_hasidic",
+     "scope": "span",
+     "quotes": [
+      "ושלח כ״פ שאלותיו אליו"
+     ],
+     "confidence": 1,
+     "why": "A scholarly exchange between him and the famous gaon.",
+     "quotes_failed": false
+    },
+    {
+     "tag": "practice:storytelling",
+     "scope": "span",
+     "quotes": [
+      "ושמעתי מפיו הק׳ שאמר"
+     ],
+     "confidence": 1,
+     "why": "The tsaddik's self-report is passed on orally.",
+     "quotes_failed": false
+    }
+   ],
+   "missing_concepts": [
+    "child prodigy (iluy)",
+    "halakhic correspondence / responsa between scholars",
+    "learning from a grandfather"
+   ],
+   "start_quote_found": true,
+   "end_quote_found": true
+  }
+ ],
+ "check": {
+  "non_vocab_tags": [],
+  "quotes": 7,
+  "quotes_not_found": 0
+ },
+ "id": "Toldot-Haniflaot_0016",
+ "chars": 520,
+ "seconds": 19
+}

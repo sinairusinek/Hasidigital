@@ -1,0 +1,90 @@
+{
+ "unit": {
+  "kind": "hasidic_story",
+  "why": "A short anecdote: during an epidemic, many people gathered to the rebbe for Rosh Hashana, and right after the holiday he sent them all home, promising that no harm would reach any of them on the way.",
+  "boundary_note": "Third in a sequence of numbered anecdotes (מה) about the same rebbe's protection during epidemics; it stands on its own."
+ },
+ "stories": [
+  {
+   "k": 1,
+   "start_quote": "וכן פ״א כשהיה החולי ר״ל מתהלך",
+   "end_quote": "לבל יגע רע לשום אחד מהם",
+   "hasidic": true,
+   "summary_en": "During an epidemic, the rebbe (of Mogielnica) ordered the many people who had gathered to him for Rosh Hashana to return home right after the holiday, and publicly guaranteed that none of them would come to harm on the way.",
+   "tags": [
+    {
+     "tag": "folkloristics:story_type_protection",
+     "scope": "story",
+     "quotes": [],
+     "confidence": 3,
+     "why": "The point of the story is the tzaddik shielding his followers from the epidemic.",
+     "quotes_failed": false
+    },
+    {
+     "tag": "practice:protection",
+     "scope": "span",
+     "quotes": [
+      "אני מבטיח אותם לבל יגע רע לשום אחד מהם"
+     ],
+     "confidence": 3,
+     "why": "He guarantees their safety from the plague on the road.",
+     "quotes_failed": false
+    },
+    {
+     "tag": "times:holidays",
+     "scope": "span",
+     "quotes": [
+      "והיה אז בר״ה מתאסף אל אנשים רבים"
+     ],
+     "confidence": 3,
+     "why": "The story is set on Rosh Hashana.",
+     "quotes_failed": false
+    },
+    {
+     "tag": "practice:travel_to_the_tsaddik",
+     "scope": "span",
+     "quotes": [
+      "והיה אז בר״ה מתאסף אל אנשים רבים"
+     ],
+     "confidence": 2,
+     "why": "Many people came to the rebbe for the holiday.",
+     "quotes_failed": false
+    },
+    {
+     "tag": "practice:reception_of_hasidim",
+     "scope": "span",
+     "quotes": [
+      "צוה להכריז אשר כולם ישובו לביתם"
+     ],
+     "confidence": 2,
+     "why": "He sends the gathered hasidim home.",
+     "quotes_failed": false
+    },
+    {
+     "tag": "practice:torat_ha_tsaddik",
+     "scope": "span",
+     "quotes": [
+      "אני מבטיח אותם לבל יגע רע לשום אחד מהם"
+     ],
+     "confidence": 1,
+     "why": "Shows the tzaddik's power to guarantee others' safety.",
+     "quotes_failed": false
+    }
+   ],
+   "missing_concepts": [
+    "epidemic / plague (cholera) as setting",
+    "the tzaddik's guarantee or promise (הבטחה)"
+   ],
+   "start_quote_found": true,
+   "end_quote_found": true
+  }
+ ],
+ "check": {
+  "non_vocab_tags": [],
+  "quotes": 5,
+  "quotes_not_found": 0
+ },
+ "id": "Toldot-Haniflaot_0040",
+ "chars": 202,
+ "seconds": 15
+}

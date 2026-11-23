@@ -1,0 +1,136 @@
+{
+ "unit": {
+  "kind": "hasidic_story",
+  "why": "A teaching against disparaging other tzaddikim, attributed to R. Hayyim of Sanz, built around one anecdote: R. David Zlates visits R. Meir of Premishlan, who takes offence at his praise of the Belzer, and David answers with a parable of tractates.",
+  "boundary_note": "the teaching's theme continues into the next division (quotation from סידור לב שמח)"
+ },
+ "stories": [
+  {
+   "k": 1,
+   "start_quote": "ושמעתי כי פ״א בא הה״צ ר׳ דוד זלאטעס",
+   "end_quote": "ואת הדברים התמוהים זרו הלאה.",
+   "hasidic": true,
+   "summary_en": "R. David Zlates visits R. Meir of Premishlan and says he learned good-heartedness from the Belzer; R. Meir is offended, and R. David answers that each tzaddik is a separate tractate, which leads into a homily that hasidim may visit other tzaddikim and must not mock them.",
+   "tags": [
+    {
+     "tag": "not-a-hasidic-story:sermon",
+     "scope": "story",
+     "quotes": [],
+     "confidence": 3,
+     "why": "the short anecdote sits inside an extended homiletic and ethical frame",
+     "quotes_failed": false
+    },
+    {
+     "tag": "practice:travel_to_other_tsaddik",
+     "scope": "span",
+     "quotes": [
+      "אם א׳ מחסידיו נוסע אל צדיק א׳",
+      "ואצל צדיק א׳ נוסע ללמוד ממנו איזה מדה"
+     ],
+     "confidence": 3,
+     "why": "the central subject is going to tzaddikim other than one's own rebbe",
+     "quotes_failed": false
+    },
+    {
+     "tag": "practice:travel_to_the_tsaddik",
+     "scope": "span",
+     "quotes": [
+      "בא הה״צ ר׳ דוד זלאטעס לקבל פני אור עולם רבינו מאיר מפרימישלאן"
+     ],
+     "confidence": 2,
+     "why": "R. David comes to visit R. Meir",
+     "quotes_failed": false
+    },
+    {
+     "tag": "practice:torat_ha_tsaddik",
+     "scope": "span",
+     "quotes": [
+      "הסתכלות בפני הצדיק תועלה גדול לנשמה",
+      "זה שמאמין בצדיקי הדור"
+     ],
+     "confidence": 3,
+     "why": "teaches binding oneself to tzaddikim, the benefit of gazing at a tzaddik's face, and faith in tzaddikim",
+     "quotes_failed": false
+    },
+    {
+     "tag": "ethics-and-emotions:anger",
+     "scope": "span",
+     "quotes": [
+      "ואחז ר״מ א״ע בראשו והקפיד",
+      "אל יחר בעיני אדוני"
+     ],
+     "confidence": 2,
+     "why": "R. Meir takes offence",
+     "quotes_failed": false
+    },
+    {
+     "tag": "social:competition",
+     "scope": "span",
+     "quotes": [
+      "וכי מאיר לא טוב הוא"
+     ],
+     "confidence": 2,
+     "why": "R. Meir's offence at praise of a rival tzaddik",
+     "quotes_failed": false
+    },
+    {
+     "tag": "social:inter_hasidic",
+     "scope": "span",
+     "quotes": [
+      "ואלו היה שלום בין הצדיקים והחסידים",
+      "ולמה יפסול א׳ עבודת חבירו"
+     ],
+     "confidence": 2,
+     "why": "relations among tzaddikim and between hasidim of different courts",
+     "quotes_failed": false
+    },
+    {
+     "tag": "ethics-and-emotions:virtues",
+     "scope": "span",
+     "quotes": [
+      "למדתי ממנו מדת לב טוב",
+      "כי היה נוח לבריות מאד"
+     ],
+     "confidence": 2,
+     "why": "good-heartedness is the virtue learned from the Belzer",
+     "quotes_failed": false
+    },
+    {
+     "tag": "practice:sermon",
+     "scope": "span",
+     "quotes": [
+      "המקנא אתה לי מי יתן כל עם ה׳ נביאים"
+     ],
+     "confidence": 2,
+     "why": "exegesis of a verse given as the tzaddik's teaching",
+     "quotes_failed": false
+    },
+    {
+     "tag": "ethics-and-emotions:prohibitions",
+     "scope": "span",
+     "quotes": [
+      "אך חלילה להוציא עתק מפה ולהרהר אחריו",
+      "לדבר לה״ר וליצנות"
+     ],
+     "confidence": 2,
+     "why": "a prohibition against speaking ill of or mocking tzaddikim",
+     "quotes_failed": false
+    }
+   ],
+   "missing_concepts": [
+    "pluralism / legitimacy of many tzaddikim",
+    "loyalty to one rebbe vs. visiting others"
+   ],
+   "start_quote_found": true,
+   "end_quote_found": true
+  }
+ ],
+ "check": {
+  "non_vocab_tags": [],
+  "quotes": 15,
+  "quotes_not_found": 0
+ },
+ "id": "Derech-Haemuna_0182",
+ "chars": 1898,
+ "seconds": 19
+}

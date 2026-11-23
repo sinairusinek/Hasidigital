@@ -1,0 +1,130 @@
+{
+ "unit": {
+  "kind": "hasidic_story",
+  "why": "A short anecdote: as a sick child, the subject's grandfather the Maggid of Stepan sent a request for prayer to the Seer of Lublin, who looked at the child's name on the note and predicted he would succeed his grandfather.",
+  "boundary_note": ""
+ },
+ "stories": [
+  {
+   "k": 1,
+   "start_quote": "סיפר פ״א כשהיה קטן נחלה מאוד",
+   "end_quote": "ממלא מקומו של זקנו המגיד הקדוש",
+   "hasidic": true,
+   "summary_en": "When the future rebbe fell gravely ill as a child, his grandfather the Maggid of Stepan sent to the Seer of Lublin for prayer, and the Seer, looking at the name on the kvittel, foresaw that the boy would succeed his grandfather.",
+   "tags": [
+    {
+     "tag": "supernatural:prognostication",
+     "scope": "span",
+     "quotes": [
+      "אני רואה שיהיה ממלא מקומו של זקנו"
+     ],
+     "confidence": 3,
+     "why": "The Seer predicts the child's succession.",
+     "quotes_failed": false
+    },
+    {
+     "tag": "folkloristics:story_type_prognostication",
+     "scope": "story",
+     "quotes": [],
+     "confidence": 2,
+     "why": "The tale centres on the prediction; its fulfilment is implied by the narrator's position.",
+     "quotes_failed": false
+    },
+    {
+     "tag": "supernatural:perception",
+     "scope": "span",
+     "quotes": [
+      "כאשר הסתכל ההק' בשמו הכתוב בהפתקא"
+     ],
+     "confidence": 3,
+     "why": "He discerns the child's future from the name on the note.",
+     "quotes_failed": false
+    },
+    {
+     "tag": "characters-and-roles:the_family_of_the_tsaddik",
+     "scope": "span",
+     "quotes": [
+      "ושלח זקנו המגיד הק' ז״ל שטיפעט"
+     ],
+     "confidence": 3,
+     "why": "The grandfather acts in the story.",
+     "quotes_failed": false
+    },
+    {
+     "tag": "characters-and-roles:preacher",
+     "scope": "span",
+     "quotes": [
+      "זקנו המגיד הק' ז״ל שטיפעט"
+     ],
+     "confidence": 1,
+     "why": "The grandfather is titled Maggid, but here he is a tsaddik, not a preacher figure.",
+     "quotes_failed": false
+    },
+    {
+     "tag": "practice:prayer",
+     "scope": "span",
+     "quotes": [
+      "ללובלין שיתפלל בעדו"
+     ],
+     "confidence": 2,
+     "why": "A request for intercessory prayer.",
+     "quotes_failed": false
+    },
+    {
+     "tag": "practice:torat_ha_tsaddik",
+     "scope": "span",
+     "quotes": [
+      "שלח זקנו המגיד הק' ז״ל שטיפעט אל ההק׳ ז\"ל ללובלין"
+     ],
+     "confidence": 2,
+     "why": "A tsaddik turns to another tsaddik to intercede with a kvittel.",
+     "quotes_failed": false
+    },
+    {
+     "tag": "practice:healing",
+     "scope": "span",
+     "quotes": [
+      "כשהיה קטן נחלה מאוד"
+     ],
+     "confidence": 1,
+     "why": "The occasion is illness and a plea for healing; no cure is narrated.",
+     "quotes_failed": false
+    },
+    {
+     "tag": "social:inter_hasidic_inheritance_of_leadership",
+     "scope": "span",
+     "quotes": [
+      "שיהיה ממלא מקומו של זקנו המגיד הקדוש"
+     ],
+     "confidence": 3,
+     "why": "Foretold succession to the grandfather's position.",
+     "quotes_failed": false
+    },
+    {
+     "tag": "practice:storytelling",
+     "scope": "span",
+     "quotes": [
+      "סיפר פ״א כשהיה קטן"
+     ],
+     "confidence": 2,
+     "why": "The rebbe himself told this story.",
+     "quotes_failed": false
+    }
+   ],
+   "missing_concepts": [
+    "kvittel (petition note bearing the sick person's name)",
+    "illness in childhood of a future tsaddik"
+   ],
+   "start_quote_found": true,
+   "end_quote_found": true
+  }
+ ],
+ "check": {
+  "non_vocab_tags": [],
+  "quotes": 9,
+  "quotes_not_found": 0
+ },
+ "id": "Toldot-Haniflaot_0008",
+ "chars": 191,
+ "seconds": 15
+}

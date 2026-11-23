@@ -1,0 +1,179 @@
+{
+ "unit": {
+  "kind": "several_stories",
+  "why": "The division holds short separate anecdotes told by the Rebbe of Neshchiz: R. Gershon Kitover's meeting with the Or ha-Hayyim in the Holy Land, including his question about an unworthy student, and a tale of a printer punished for omitting the Messiah's name 'Hayyim'. Between them sits a brief exegetical remark.",
+  "boundary_note": "the closing words 'מענין אין אדם רואה חובה לעצמו' are the heading of the next division"
+ },
+ "stories": [
+  {
+   "k": 1,
+   "start_quote": "סיפר מרן מנשחיז שהרהצה״ק ר׳ גרשון קיטיוור",
+   "end_quote": "כן דרכנו לקרב הרחוקים",
+   "hasidic": true,
+   "summary_en": "R. Gershon Kitover meets the Or ha-Hayyim in the Holy Land and tells him of his brother-in-law the Besht, whom the Or ha-Hayyim says he knows by name. Gershon then asks about an unworthy student in his yeshiva and is told 'our way is to draw the distant near'.",
+   "tags": [
+    {
+     "tag": "spaces:the_land_of_israel",
+     "scope": "span",
+     "quotes": [
+      "ראה את הרה״צ בעל אור החיים באה״ק"
+     ],
+     "confidence": 3,
+     "why": "the meeting takes place in the Holy Land",
+     "quotes_failed": false
+    },
+    {
+     "tag": "practice:storytelling",
+     "scope": "span",
+     "quotes": [
+      "סיפר מרן מנשחיז שהרהצה״ק ר׳ גרשון קיטיוור"
+     ],
+     "confidence": 2,
+     "why": "framed as a tale told by the Neshchiz rebbe",
+     "quotes_failed": false
+    },
+    {
+     "tag": "supernatural:perception",
+     "scope": "span",
+     "quotes": [
+      "והשיבו ידעתי אותו וישראל שמו"
+     ],
+     "confidence": 2,
+     "why": "the Or ha-Hayyim knows the distant Besht",
+     "quotes_failed": false
+    },
+    {
+     "tag": "social:relations_with_sinners",
+     "scope": "span",
+     "quotes": [
+      "על תלמיד א׳ מישיבתו שראהו שלא היה הגון",
+      "כן דרכנו לקרב הרחוקים"
+     ],
+     "confidence": 3,
+     "why": "drawing an unworthy student close",
+     "quotes_failed": false
+    },
+    {
+     "tag": "spaces:beth_midrash",
+     "scope": "span",
+     "quotes": [
+      "על תלמיד א׳ מישיבתו"
+     ],
+     "confidence": 1,
+     "why": "the Or ha-Hayyim's yeshiva is mentioned",
+     "quotes_failed": false
+    },
+    {
+     "tag": "not-a-hasidic-story:hagiography",
+     "scope": "story",
+     "quotes": [],
+     "confidence": 2,
+     "why": "praises the Or ha-Hayyim, a non-Hasidic sage",
+     "quotes_failed": false
+    },
+    {
+     "tag": "characters-and-roles:the_family_of_the_tsaddik",
+     "scope": "span",
+     "quotes": [
+      "וסיפר לו מגיסו הבעש״ט ז״ל"
+     ],
+     "confidence": 2,
+     "why": "the Besht's brother-in-law is a character",
+     "quotes_failed": false
+    },
+    {
+     "tag": "practice:the_travels_of_the_tsaddik",
+     "scope": "story",
+     "quotes": [],
+     "confidence": 1,
+     "why": "Gershon is staying in the Holy Land",
+     "quotes_failed": false
+    }
+   ],
+   "missing_concepts": [
+    "acquaintance between the Besht and the Or ha-Hayyim"
+   ],
+   "start_quote_found": true,
+   "end_quote_found": true
+  },
+  {
+   "k": 2,
+   "start_quote": "וסיפר מרן שמדפיס א׳ שהיה שמו אשר",
+   "end_quote": "אמן מאיש אחר אמן מאיש אשר",
+   "hasidic": false,
+   "summary_en": "A printer named Asher omitted the words 'and his name is Hayyim' about the Messiah from his printing of the Or ha-Hayyim. He was then punished by a misprint: 'amen from a man Asher' instead of 'amen from another man'.",
+   "tags": [
+    {
+     "tag": "characters-and-roles:messiah",
+     "scope": "span",
+     "quotes": [
+      "ושמו חיים שכתוב בס׳ אוה״ח על המשיח"
+     ],
+     "confidence": 3,
+     "why": "the Messiah's name is at issue",
+     "quotes_failed": false
+    },
+    {
+     "tag": "ethics-and-emotions:punishment",
+     "scope": "span",
+     "quotes": [
+      "ואח״כ נכשל המדפיס והדפיס במקום"
+     ],
+     "confidence": 3,
+     "why": "measure-for-measure misprint",
+     "quotes_failed": false
+    },
+    {
+     "tag": "practice:storytelling",
+     "scope": "span",
+     "quotes": [
+      "וסיפר מרן שמדפיס א׳ שהיה שמו אשר"
+     ],
+     "confidence": 2,
+     "why": "told by the Neshchiz rebbe",
+     "quotes_failed": false
+    },
+    {
+     "tag": "ethics-and-emotions:pride",
+     "scope": "story",
+     "quotes": [],
+     "confidence": 1,
+     "why": "the printer's self-interest about his own name is implied",
+     "quotes_failed": false
+    },
+    {
+     "tag": "times:eschatology",
+     "scope": "span",
+     "quotes": [
+      "ואולי יאריך ה׳ את הזמנים לימות המשיח"
+     ],
+     "confidence": 2,
+     "why": "the framing remark is about messianic times",
+     "quotes_failed": false
+    },
+    {
+     "tag": "not-a-hasidic-story:hagiography",
+     "scope": "story",
+     "quotes": [],
+     "confidence": 1,
+     "why": "honours the Or ha-Hayyim's text",
+     "quotes_failed": false
+    }
+   ],
+   "missing_concepts": [
+    "printing and censorship of sacred texts",
+    "measure-for-measure punishment"
+   ],
+   "start_quote_found": true,
+   "end_quote_found": true
+  }
+ ],
+ "check": {
+  "non_vocab_tags": [],
+  "quotes": 11,
+  "quotes_not_found": 0
+ },
+ "id": "Derech-Haemuna_0008",
+ "chars": 576,
+ "seconds": 19
+}

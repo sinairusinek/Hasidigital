@@ -1,0 +1,156 @@
+{
+ "unit": {
+  "kind": "hasidic_story",
+  "why": "A single narrative: the Radoshitser and 'Maran' (the Magelnitser) ride together, apparently at random, to a village and there save Jewish merchants from non-Jews who wanted to accuse them falsely.",
+  "boundary_note": ""
+ },
+ "stories": [
+  {
+   "k": 1,
+   "start_quote": "סיפר לי איש אחד מעשה נפלאה",
+   "end_quote": "בשותפות עם ההק' ממאגלניצא זי״ע",
+   "hasidic": true,
+   "summary_en": "When the Radoshitser sees Maran (the Magelnitser) off, the two ride together without explanation to a village. There Jewish merchants are fleeing three non-Jews who want to accuse them falsely. The two tzaddikim sit in mock judgment, pay the non-Jews off with money and vodka, and so defuse the danger; the Radoshitser says the wonder was shared with the Magelnitser.",
+   "tags": [
+    {
+     "tag": "practice:protection",
+     "scope": "span",
+     "quotes": [
+      "והיו רוצים להעליל על הסוחרים האלה",
+      "ויצא הדין מאתם שישלמו כך וכך"
+     ],
+     "confidence": 3,
+     "why": "the tzaddikim shield the merchants from a false accusation",
+     "quotes_failed": false
+    },
+    {
+     "tag": "folkloristics:story_type_protection",
+     "scope": "story",
+     "quotes": [],
+     "confidence": 3,
+     "why": "the central arc is the rescue from the libel",
+     "quotes_failed": false
+    },
+    {
+     "tag": "supernatural:perception",
+     "scope": "span",
+     "quotes": [
+      "וכולם לא ידעו ולא הבינו למה נסעו לכאן"
+     ],
+     "confidence": 2,
+     "why": "the tzaddikim seemingly foreknew where they were needed",
+     "quotes_failed": false
+    },
+    {
+     "tag": "supernatural:miracle",
+     "scope": "span",
+     "quotes": [
+      "תדעו כי המופת ההוא אין שלי לבדי"
+     ],
+     "confidence": 2,
+     "why": "the event is framed as a mofet",
+     "quotes_failed": false
+    },
+    {
+     "tag": "social:relations_with_non_jews",
+     "scope": "span",
+     "quotes": [
+      "ע\"י ג׳ ערלים",
+      "והערלים נתרצו מאד ואמרו כי טוב מאוד"
+     ],
+     "confidence": 3,
+     "why": "the dealings with the non-Jews are central",
+     "quotes_failed": false
+    },
+    {
+     "tag": "social:conflict",
+     "scope": "span",
+     "quotes": [
+      "והיו רודפים אחריהם במקלות להשיג אותם"
+     ],
+     "confidence": 2,
+     "why": "the non-Jews pursue the Jews",
+     "quotes_failed": false
+    },
+    {
+     "tag": "practice:drinking_alcohol",
+     "scope": "span",
+     "quotes": [
+      "ושמה שתו יי״ש עם כל המלוים",
+      "וגם יתנו ה׳ מדות יי״ש"
+     ],
+     "confidence": 3,
+     "why": "they drink vodka at the farewell, and vodka is part of the payment",
+     "quotes_failed": false
+    },
+    {
+     "tag": "practice:the_travels_of_the_tsaddik",
+     "scope": "span",
+     "quotes": [
+      "ושבו שניהם לישב על מרכבה אחת",
+      "ונסעו יחד בדרך אחד"
+     ],
+     "confidence": 3,
+     "why": "the story turns on the journey",
+     "quotes_failed": false
+    },
+    {
+     "tag": "practice:travel_to_other_tsaddik",
+     "scope": "span",
+     "quotes": [
+      "היה בראדשיץ לקבל פני ההק׳ סבא קדישא"
+     ],
+     "confidence": 2,
+     "why": "Maran visits another tzaddik in Radoshitz",
+     "quotes_failed": false
+    },
+    {
+     "tag": "social:inter_hasidic",
+     "scope": "span",
+     "quotes": [
+      "בשותפות עם ההק' ממאגלניצא זי״ע"
+     ],
+     "confidence": 2,
+     "why": "two tzaddikim cooperate",
+     "quotes_failed": false
+    },
+    {
+     "tag": "spaces:rabbinical_court",
+     "scope": "span",
+     "quotes": [
+      "וישבו שני הרבנים הקדושים, ואמרו שיעיינו בהדין"
+     ],
+     "confidence": 1,
+     "why": "an improvised judgment session, not a real court",
+     "quotes_failed": false
+    },
+    {
+     "tag": "practice:torat_ha_tsaddik",
+     "scope": "span",
+     "quotes": [
+      "המופת ההוא אין שלי לבדי רק בשותפות"
+     ],
+     "confidence": 1,
+     "why": "remark on the tzaddikim's shared power",
+     "quotes_failed": false
+    }
+   ],
+   "missing_concepts": [
+    "blood libel / false accusation (alilah)",
+    "ruse or clever stratagem",
+    "sending off an honored guest (escort, leviyah)",
+    "cooperation between tzaddikim"
+   ],
+   "start_quote_found": true,
+   "end_quote_found": true
+  }
+ ],
+ "check": {
+  "non_vocab_tags": [],
+  "quotes": 15,
+  "quotes_not_found": 0
+ },
+ "id": "Toldot-Haniflaot_0055",
+ "chars": 1547,
+ "seconds": 15
+}

@@ -1,0 +1,173 @@
+{
+ "unit": {
+  "kind": "hasidic_story",
+  "why": "A single narrative about the match and marriage of R. Yehiel Michel of Zloczow and his wife Rachel's poverty and devotion.",
+  "boundary_note": ""
+ },
+ "stories": [
+  {
+   "k": 1,
+   "start_quote": "חותנו של הה״ק רבינו ר׳ יחיאל מיכל",
+   "end_quote": "היתה מביאה לבעלה הה״ק זצוקלל\"ה",
+   "hasidic": true,
+   "summary_en": "R. Yitzhak of Drohobych arranges a match for his son R. Yehiel Michel with the daughter of the villager R. Moshe, who pledges his tavern equipment for the dowry. R. Yehiel Michel forgives the debt when his wife weeps over it, lives secluded and comes home only from Sabbath to Sabbath, and his wife lives in deep poverty and brings him whatever she earns.",
+   "tags": [
+    {
+     "tag": "social:marriage",
+     "scope": "span",
+     "quotes": [
+      "ועשה שידוך עם בת ר׳ משה הנ\"ל",
+      "וקבע זמן הנשואין אחר שנים עשר חודש"
+     ],
+     "confidence": 3,
+     "why": "the match and wedding are the frame of the story",
+     "quotes_failed": false
+    },
+    {
+     "tag": "characters-and-roles:the_family_of_the_tsaddik",
+     "scope": "story",
+     "quotes": [],
+     "confidence": 3,
+     "why": "his father, father-in-law and wife all appear",
+     "quotes_failed": false
+    },
+    {
+     "tag": "characters-and-roles:tavern_keeper",
+     "scope": "span",
+     "quotes": [
+      "המכונות והכלים שהי׳ לו וויין הויז"
+     ],
+     "confidence": 2,
+     "why": "the father-in-law ran a wine house in the village",
+     "quotes_failed": false
+    },
+    {
+     "tag": "characters-and-roles:preacher",
+     "scope": "span",
+     "quotes": [
+      "הה״ק המוכיח ר״י מדראהביטש"
+     ],
+     "confidence": 2,
+     "why": "the father is called the Mokhiah (preacher)",
+     "quotes_failed": false
+    },
+    {
+     "tag": "practice:solitude",
+     "scope": "span",
+     "quotes": [
+      "יתן לו דירה מיוחדת להתבודדת",
+      "ישב בבית ההתבודדת ולא יצא לביתו"
+     ],
+     "confidence": 3,
+     "why": "he is given a separate house for seclusion and lives there",
+     "quotes_failed": false
+    },
+    {
+     "tag": "social:poverty",
+     "scope": "span",
+     "quotes": [
+      "הית׳ עניה כ״כ שלא הי׳ לה מנעלים",
+      "והלכה באנפלאות שעשתה בעצמה"
+     ],
+     "confidence": 2,
+     "why": "the household lives in poverty",
+     "quotes_failed": false
+    },
+    {
+     "tag": "social:marital_relationship",
+     "scope": "span",
+     "quotes": [
+      "ראה הה״ק רי״מ את זו׳ הרבנית רעכיל בוכת",
+      "היתה מביאה לבעלה הה״ק זצוקלל\"ה"
+     ],
+     "confidence": 3,
+     "why": "the relationship between husband and wife is depicted",
+     "quotes_failed": false
+    },
+    {
+     "tag": "women:major_character",
+     "scope": "span",
+     "quotes": [
+      "הרבנית רעכיל בוכת",
+      "ומה שהיתה משתכרת לפעמים היתה מביאה"
+     ],
+     "confidence": 2,
+     "why": "the wife Rachel acts: she weeps, pleads for her parents and supports her husband",
+     "quotes_failed": false
+    },
+    {
+     "tag": "ethics-and-emotions:sadness",
+     "scope": "span",
+     "quotes": [
+      "ושאל אותה מה אתה בוכת"
+     ],
+     "confidence": 1,
+     "why": "the wife weeps over her parents' distress",
+     "quotes_failed": false
+    },
+    {
+     "tag": "ethics-and-emotions:charity",
+     "scope": "span",
+     "quotes": [
+      "והבטיח לה שמוחל השיעבוד הנ״ל"
+     ],
+     "confidence": 1,
+     "why": "he forgives the dowry pledge out of compassion",
+     "quotes_failed": false
+    },
+    {
+     "tag": "supernatural:perception",
+     "scope": "span",
+     "quotes": [
+      "אורו זורח מסוף עולם ועד סופו"
+     ],
+     "confidence": 1,
+     "why": "the father declares the son's hidden spiritual stature",
+     "quotes_failed": false
+    },
+    {
+     "tag": "folkloristics:story_type_virtues",
+     "scope": "story",
+     "quotes": [],
+     "confidence": 2,
+     "why": "the story illustrates the tsaddik's seclusion and the couple's self-sacrifice",
+     "quotes_failed": false
+    },
+    {
+     "tag": "practice:asceticism",
+     "scope": "span",
+     "quotes": [
+      "ולא יצא לביתו רק משבת לשבת"
+     ],
+     "confidence": 2,
+     "why": "he stays away from his wife and home all week",
+     "quotes_failed": false
+    },
+    {
+     "tag": "times:shabbat",
+     "scope": "span",
+     "quotes": [
+      "ולא יצא לביתו רק משבת לשבת"
+     ],
+     "confidence": 1,
+     "why": "he comes home only on the Sabbath",
+     "quotes_failed": false
+    }
+   ],
+   "missing_concepts": [
+    "dowry (נדן) and pledge of property",
+    "wife supporting the scholar-husband economically"
+   ],
+   "start_quote_found": true,
+   "end_quote_found": true
+  }
+ ],
+ "check": {
+  "non_vocab_tags": [],
+  "quotes": 17,
+  "quotes_not_found": 0
+ },
+ "id": "Maim-Rabim_0013",
+ "chars": 884,
+ "seconds": 17
+}

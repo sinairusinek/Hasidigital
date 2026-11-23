@@ -1,0 +1,125 @@
+{
+ "unit": {
+  "kind": "hasidic_story",
+  "why": "A single tale, passed down through tzaddikim, about the Maggid of Mezritch pressing Heaven for the redemption and his disciples' silence when asked to testify that he is the tzaddik of the generation.",
+  "boundary_note": ""
+ },
+ "stories": [
+  {
+   "k": 1,
+   "start_quote": "בספר דברי דוד להרה״ק רד״מ מטשארטקוב",
+   "end_quote": "לומר אמת שרבינו הוא הצדיק הדור",
+   "hasidic": true,
+   "summary_en": "The Maggid of Mezritch strove to bring the redemption, and Heaven demanded that his holy circle testify that he was the tzaddik of the generation; when he asked them three times, none answered, though all believed it.",
+   "tags": [
+    {
+     "tag": "characters-and-roles:messiah",
+     "scope": "span",
+     "quotes": [
+      "נתעצם המגיד ממעזריטש שיהי׳ הגאולה"
+     ],
+     "confidence": 3,
+     "why": "messianic redemption is central",
+     "quotes_failed": false
+    },
+    {
+     "tag": "times:eschatology",
+     "scope": "span",
+     "quotes": [
+      "עליו מוטל להתעצם בענין הגאולה"
+     ],
+     "confidence": 3,
+     "why": "attempt to hasten the redemption",
+     "quotes_failed": false
+    },
+    {
+     "tag": "supernatural:communicating_with_the_invisible",
+     "scope": "span",
+     "quotes": [
+      "ושאלו אותו מהשמים מי זה אשר ידחוק",
+      "ואמרו מן שמיא א״כ יעמדו נא"
+     ],
+     "confidence": 3,
+     "why": "dialogue with Heaven",
+     "quotes_failed": false
+    },
+    {
+     "tag": "social:inter_hasidic_master_disciple_relationship",
+     "scope": "span",
+     "quotes": [
+      "ויבא המגיד אל החברייא קדישא שלו",
+      "ולא הי' מי שיענה ע״ז הן"
+     ],
+     "confidence": 3,
+     "why": "the disciples fail to testify for their master",
+     "quotes_failed": false
+    },
+    {
+     "tag": "practice:torat_ha_tsaddik",
+     "scope": "span",
+     "quotes": [
+      "מחמת שהוא הצדיק הדור",
+      "שאני אמנם הצדיק הדור"
+     ],
+     "confidence": 3,
+     "why": "the role and power of the tzaddik of the generation",
+     "quotes_failed": false
+    },
+    {
+     "tag": "practice:storytelling",
+     "scope": "span",
+     "quotes": [
+      "איך שאביו הרה״ק מריזין סיפר"
+     ],
+     "confidence": 3,
+     "why": "the tale is framed as told by named tzaddikim",
+     "quotes_failed": false
+    },
+    {
+     "tag": "practice:failure",
+     "scope": "story",
+     "quotes": [],
+     "confidence": 2,
+     "why": "the Maggid's effort for redemption fails",
+     "quotes_failed": false
+    },
+    {
+     "tag": "ethics-and-emotions:humility",
+     "scope": "span",
+     "quotes": [
+      "נדמו כולם ולא ענו דבר"
+     ],
+     "confidence": 1,
+     "why": "the disciples' silence may imply humility or restraint",
+     "quotes_failed": false
+    },
+    {
+     "tag": "spaces:heaven",
+     "scope": "span",
+     "quotes": [
+      "ושאלו אותו מהשמים"
+     ],
+     "confidence": 1,
+     "why": "the heavenly court is the interlocutor",
+     "quotes_failed": false
+    }
+   ],
+   "missing_concepts": [
+    "hastening the end (dehikat ha-ketz)",
+    "tzaddik ha-dor (tzaddik of the generation)",
+    "testimony / witnesses before the heavenly court",
+    "a supernatural silencing that prevents the redemption"
+   ],
+   "start_quote_found": true,
+   "end_quote_found": true
+  }
+ ],
+ "check": {
+  "non_vocab_tags": [],
+  "quotes": 11,
+  "quotes_not_found": 0
+ },
+ "id": "Eser-Orot_0014",
+ "chars": 804,
+ "seconds": 14
+}

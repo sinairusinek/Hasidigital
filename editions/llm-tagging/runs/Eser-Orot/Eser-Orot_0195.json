@@ -1,0 +1,122 @@
+{
+ "unit": {
+  "kind": "hasidic_story",
+  "why": "A self-contained numbered anecdote (כה): the Seer of Lublin, while at the Maggid of Mezeritch, faints during Ein Keloheinu on seeing the heavenly host, and the Maggid explains why he had asked for another man in his place.",
+  "boundary_note": "Opening 'בעת שהי׳ אצל המגיד' refers back to the Lubliner's stay at the Maggid's from the previous section, but the narrative itself is complete."
+ },
+ "stories": [
+  {
+   "k": 1,
+   "start_quote": "בעת שהי׳ אצל המגיד. והנה דרכו",
+   "end_quote": "ולא יראה מאומה ולא יפחד",
+   "hasidic": true,
+   "summary_en": "The Maggid of Mezeritch, who prayed alone and gathered a small minyan only for Ein Keloheinu, asks that the young Seer of Lublin be replaced as 'useless'; no substitute is found, the Seer faints when he sees the heavenly retinue, and the Maggid explains that he had wanted a man with eyes of flesh who would see nothing and not be afraid.",
+   "tags": [
+    {
+     "tag": "practice:prayer",
+     "scope": "span",
+     "quotes": [
+      "בעת הגיע לומר אין כאלקינו צוה לאסוף מנין מצומצם",
+      "וכאשר פתח המגיד לומר אין כאלקינו"
+     ],
+     "confidence": 3,
+     "why": "The scene is the Maggid's prayer with a minyan.",
+     "quotes_failed": false
+    },
+    {
+     "tag": "practice:solitude",
+     "scope": "span",
+     "quotes": [
+      "דרכו של המגיד ממעזריטש הי׳ להתפלל ביחידות"
+     ],
+     "confidence": 2,
+     "why": "The Maggid's habit of praying in seclusion frames the story.",
+     "quotes_failed": false
+    },
+    {
+     "tag": "experience:visions",
+     "scope": "span",
+     "quotes": [
+      "כאשר ראה הפמליא של מעלה נתעלף"
+     ],
+     "confidence": 3,
+     "why": "The Seer sees the heavenly host while awake.",
+     "quotes_failed": false
+    },
+    {
+     "tag": "characters-and-roles:angels",
+     "scope": "span",
+     "quotes": [
+      "כאשר ראה הפמליא של מעלה נתעלף"
+     ],
+     "confidence": 2,
+     "why": "The heavenly retinue (pamalia shel ma'alah) appears at the prayer.",
+     "quotes_failed": false
+    },
+    {
+     "tag": "supernatural:perception",
+     "scope": "span",
+     "quotes": [
+      "כאשר ראה הפמליא של מעלה נתעלף",
+      "איש אשר עיני בשר לו ולא יראה מאומה"
+     ],
+     "confidence": 3,
+     "why": "The Seer perceives what others cannot, and the Maggid foreknew his sensitivity.",
+     "quotes_failed": false
+    },
+    {
+     "tag": "ethics-and-emotions:fear",
+     "scope": "span",
+     "quotes": [
+      "ולא יראה מאומה ולא יפחד"
+     ],
+     "confidence": 2,
+     "why": "The Seer's fainting is explained as fear before the heavenly host.",
+     "quotes_failed": false
+    },
+    {
+     "tag": "ethics-and-emotions:awe",
+     "scope": "span",
+     "quotes": [
+      "נתעלף הק׳ מלובלין עד שבקושי גדול הקיצו אותו"
+     ],
+     "confidence": 2,
+     "why": "He faints in overwhelming religious awe.",
+     "quotes_failed": false
+    },
+    {
+     "tag": "social:retrospective_recognition",
+     "scope": "span",
+     "quotes": [
+      "הלא אמרתי לכם להביא אחר תחתיו כי הוא בטלן"
+     ],
+     "confidence": 2,
+     "why": "The Maggid's seemingly dismissive remark is understood only after the event.",
+     "quotes_failed": false
+    },
+    {
+     "tag": "social:inter_hasidic_master_disciple_relationship",
+     "scope": "story",
+     "quotes": [],
+     "confidence": 2,
+     "why": "The story turns on the Maggid's view of his young disciple, the Seer.",
+     "quotes_failed": false
+    }
+   ],
+   "missing_concepts": [
+    "fainting / losing consciousness in ecstatic prayer",
+    "the minyan as a ritual quorum for the tsaddik's prayer"
+   ],
+   "start_quote_found": true,
+   "end_quote_found": true
+  }
+ ],
+ "check": {
+  "non_vocab_tags": [],
+  "quotes": 10,
+  "quotes_not_found": 0
+ },
+ "id": "Eser-Orot_0195",
+ "chars": 502,
+ "seconds": 17
+}

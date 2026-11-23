@@ -1,0 +1,99 @@
+{
+ "unit": {
+  "kind": "hasidic_story",
+  "why": "A short anecdote about the Seer of Lublin whose household delayed his early meal, and his choice not to grow angry.",
+  "boundary_note": ""
+ },
+ "stories": [
+  {
+   "k": 1,
+   "start_quote": "סיפר חו\"ז הגאוה״ק מראזלא איך שרבינו",
+   "end_quote": "גם זה רצון קוני שלא אכעוס",
+   "hasidic": true,
+   "summary_en": "The Seer of Lublin asked his household to serve the evening meal early so he could rise early for a great tikkun; they served it late instead and spoiled his plan, but he held back his anger, reasoning that not getting angry is also God's will.",
+   "tags": [
+    {
+     "tag": "ethics-and-emotions:anger",
+     "scope": "span",
+     "quotes": [
+      "מהראוי לי לכעוס על בני ביתי",
+      "גם זה רצון קוני שלא אכעוס"
+     ],
+     "confidence": 3,
+     "why": "The story turns on overcoming anger",
+     "quotes_failed": false
+    },
+    {
+     "tag": "characters-and-roles:the_family_of_the_tsaddik",
+     "scope": "span",
+     "quotes": [
+      "וצוה לבני ביתו שיקדימו לו סעודת הלילה"
+     ],
+     "confidence": 3,
+     "why": "His household are the actors",
+     "quotes_failed": false
+    },
+    {
+     "tag": "social:disobedience",
+     "scope": "span",
+     "quotes": [
+      "והם לא די שלא הקדימו אלא אדרבה איחרו"
+     ],
+     "confidence": 3,
+     "why": "The household did not carry out his instruction",
+     "quotes_failed": false
+    },
+    {
+     "tag": "folkloristics:story_type_virtues",
+     "scope": "story",
+     "quotes": [],
+     "confidence": 3,
+     "why": "The story illustrates the tsaddik's self-control",
+     "quotes_failed": false
+    },
+    {
+     "tag": "ethics-and-emotions:virtues",
+     "scope": "story",
+     "quotes": [],
+     "confidence": 2,
+     "why": "Restraint of anger shown as a virtue",
+     "quotes_failed": false
+    },
+    {
+     "tag": "practice:storytelling",
+     "scope": "span",
+     "quotes": [
+      "סיפר חו\"ז הגאוה״ק מראזלא"
+     ],
+     "confidence": 2,
+     "why": "Framed as told by the Rozler rebbe",
+     "quotes_failed": false
+    },
+    {
+     "tag": "women:mention_only",
+     "scope": "span",
+     "quotes": [
+      "לבני ביתו"
+     ],
+     "confidence": 1,
+     "why": "Household members, possibly his wife, are implied but not named",
+     "quotes_failed": false
+    }
+   ],
+   "missing_concepts": [
+    "Rising early (hashkamah) for a spiritual tikkun",
+    "Accepting frustration as the will of God"
+   ],
+   "start_quote_found": true,
+   "end_quote_found": true
+  }
+ ],
+ "check": {
+  "non_vocab_tags": [],
+  "quotes": 6,
+  "quotes_not_found": 0
+ },
+ "id": "Eser-Orot_0201",
+ "chars": 329,
+ "seconds": 10
+}

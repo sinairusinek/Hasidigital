@@ -1,0 +1,111 @@
+{
+ "unit": {
+  "kind": "non_hasidic_story",
+  "why": "A naming segulah attributed to the Vilna Gaon, proved by a brief anecdote: his daughter's children kept dying, and the child named by his instruction lived. Neither the figure nor the setting is Hasidic.",
+  "boundary_note": "The final words 'סגולה לחולי הידוע ר״ל' are the heading of the next item (ד) and belong to the next division."
+ },
+ "stories": [
+  {
+   "k": 1,
+   "start_quote": "עוד יש סגולה לזה מאת הגר״א",
+   "end_quote": "אשר ילדה אח״כ חיו",
+   "hasidic": false,
+   "summary_en": "The Vilna Gaon's remedy for parents whose children die is to give the next child the name of the last deceased sibling, with a new name added first; his daughter, whose children had died, did this, and that child and her later children lived.",
+   "tags": [
+    {
+     "tag": "not-a-hasidic-story:sermon",
+     "scope": "story",
+     "quotes": [],
+     "confidence": 2,
+     "why": "The anecdote is wrapped in a segulah or customs discussion and serves as its proof.",
+     "quotes_failed": false
+    },
+    {
+     "tag": "not-a-hasidic-story:hagiography",
+     "scope": "span",
+     "quotes": [
+      "סגולה זאת בדוקה הוא כי כן היה מעשה בבת הגר״א"
+     ],
+     "confidence": 1,
+     "why": "It attests the efficacy of a non-Hasidic sage's advice.",
+     "quotes_failed": false
+    },
+    {
+     "tag": "characters-and-roles:the_family_of_the_tsaddik",
+     "scope": "span",
+     "quotes": [
+      "כי כן היה מעשה בבת הגר״א"
+     ],
+     "confidence": 3,
+     "why": "The Gaon's daughter is the protagonist.",
+     "quotes_failed": false
+    },
+    {
+     "tag": "women:major_character",
+     "scope": "span",
+     "quotes": [
+      "וכאשר הולידה בן מחדש עשתה כדברי הגר״א"
+     ],
+     "confidence": 3,
+     "why": "The daughter is the central actor and carries out the remedy.",
+     "quotes_failed": false
+    },
+    {
+     "tag": "times:death",
+     "scope": "span",
+     "quotes": [
+      "אשר מתו ילדיה רח״ל"
+     ],
+     "confidence": 2,
+     "why": "The deaths of her children set up the story.",
+     "quotes_failed": false
+    },
+    {
+     "tag": "times:birth",
+     "scope": "span",
+     "quotes": [
+      "וכאשר הולידה בן מחדש"
+     ],
+     "confidence": 2,
+     "why": "The birth of the new son is the event the remedy acts on.",
+     "quotes_failed": false
+    },
+    {
+     "tag": "supernatural:miracle",
+     "scope": "span",
+     "quotes": [
+      "וחי הילד וגם הילדים אשר ילדה אח״כ חיו"
+     ],
+     "confidence": 1,
+     "why": "The child's survival is presented as the segulah's supernatural effect.",
+     "quotes_failed": false
+    },
+    {
+     "tag": "practice:lifesaving",
+     "scope": "span",
+     "quotes": [
+      "יקראהו בשם אחיו אשר מת לפניו באחרונה"
+     ],
+     "confidence": 1,
+     "why": "The sage's instruction averts the expected death of the child, though no tsaddik intervenes directly.",
+     "quotes_failed": false
+    }
+   ],
+   "missing_concepts": [
+    "segulah (folk remedy)",
+    "naming custom / changing or adding a name to avert death",
+    "infant mortality"
+   ],
+   "start_quote_found": true,
+   "end_quote_found": true
+  }
+ ],
+ "check": {
+  "non_vocab_tags": [],
+  "quotes": 7,
+  "quotes_not_found": 0
+ },
+ "id": "Derech-Haemuna_0164",
+ "chars": 428,
+ "seconds": 14
+}

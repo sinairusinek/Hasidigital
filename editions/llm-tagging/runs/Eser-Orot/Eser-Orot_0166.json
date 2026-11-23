@@ -1,0 +1,157 @@
+{
+ "unit": {
+  "kind": "hasidic_story",
+  "why": "A single anecdote: Kozhenitser Maggid's hasidim mock young R. Meshullam Zalman; his father-in-law complains to the Maggid, who answers with a parable.",
+  "boundary_note": ""
+ },
+ "stories": [
+  {
+   "k": 1,
+   "start_quote": "פ״א נזדמן חו״ז הגאון ה״ר משולם זלמן",
+   "end_quote": "אבל אנשי נקראים גם עכשיו בני אדם",
+   "hasidic": true,
+   "summary_en": "The Maggid of Kozhenits's hasidim mock the young prodigy R. Meshullam Zalman at an inn. When his father-in-law R. Yozpa complains to the Maggid that they do not reach his ankles, the Maggid answers with a parable of a lion cub: the youth will one day be a man, but the Maggid's people are men already.",
+   "tags": [
+    {
+     "tag": "folkloristics:story_type_parable",
+     "scope": "span",
+     "quotes": [
+      "אמשול לך משל. התחיל המגיד לאם למה הדבר דומה",
+      "לאותו הולד שנולד לאריה"
+     ],
+     "confidence": 3,
+     "why": "The Maggid's reply is a parable he tells himself.",
+     "quotes_failed": false
+    },
+    {
+     "tag": "characters-and-roles:tavern_keeper",
+     "scope": "span",
+     "quotes": [
+      "לפונדק אחד עם אנ\"ש ומקורבי המגיד"
+     ],
+     "confidence": 1,
+     "why": "The inn is only the setting; no innkeeper actually appears.",
+     "quotes_failed": false
+    },
+    {
+     "tag": "social:conflict",
+     "scope": "span",
+     "quotes": [
+      "החלו חסידי המגיד להקניט את האברך הצעיר",
+      "ויתמרמר מאד על אשר ההינו אנשיו"
+     ],
+     "confidence": 3,
+     "why": "Mockery leads to a complaint and a rebuke.",
+     "quotes_failed": false
+    },
+    {
+     "tag": "social:inter_hasidic",
+     "scope": "span",
+     "quotes": [
+      "חסידי המגיד להקניט את האברך הצעיר"
+     ],
+     "confidence": 2,
+     "why": "The story turns on dealings between the Maggid's hasidim and a young scholar.",
+     "quotes_failed": false
+    },
+    {
+     "tag": "ethics-and-emotions:anger",
+     "scope": "span",
+     "quotes": [
+      "להרמ״ז חרה היטיב אולם הוא התאפק לפניהם",
+      "המגיד הקפיד על דבריו האחרונים"
+     ],
+     "confidence": 3,
+     "why": "Both R. Meshullam Zalman and the Maggid are angered.",
+     "quotes_failed": false
+    },
+    {
+     "tag": "ethics-and-emotions:shame",
+     "scope": "span",
+     "quotes": [
+      "בדברי חדודין וקולסים שונים"
+     ],
+     "confidence": 2,
+     "why": "The young man is ridiculed.",
+     "quotes_failed": false
+    },
+    {
+     "tag": "ethics-and-emotions:pride",
+     "scope": "span",
+     "quotes": [
+      "שבאמת אינם מגיעים עד קרסוליו"
+     ],
+     "confidence": 1,
+     "why": "The Maggid rebukes the father-in-law's boastful claim.",
+     "quotes_failed": false
+    },
+    {
+     "tag": "practice:travel_to_the_tsaddik",
+     "scope": "span",
+     "quotes": [
+      "ובנסעו כמנהגו מדי שנה בשנה להמגיד"
+     ],
+     "confidence": 3,
+     "why": "R. Yozpa makes his yearly journey to the Maggid.",
+     "quotes_failed": false
+    },
+    {
+     "tag": "practice:reception_of_hasidim",
+     "scope": "span",
+     "quotes": [
+      "ויתן לו מיד תשובתו בצדו"
+     ],
+     "confidence": 2,
+     "why": "The Maggid receives the visitor and answers his complaint.",
+     "quotes_failed": false
+    },
+    {
+     "tag": "practice:torat_ha_tsaddik",
+     "scope": "span",
+     "quotes": [
+      "אבל אנשי נקראים גם עכשיו בני אדם"
+     ],
+     "confidence": 1,
+     "why": "The Maggid holds that his followers are already complete men.",
+     "quotes_failed": false
+    },
+    {
+     "tag": "social:relations_with_non_hasidim",
+     "scope": "span",
+     "quotes": [
+      "שהיה נודע ומפורסם לעילוי בכל הגליל"
+     ],
+     "confidence": 1,
+     "why": "A scholar from outside the circle is mocked by hasidim; his non-Hasidic status is not explicit.",
+     "quotes_failed": false
+    },
+    {
+     "tag": "practice:study",
+     "scope": "span",
+     "quotes": [
+      "הלכו הלאה ומצאו נער הולך לחדר"
+     ],
+     "confidence": 1,
+     "why": "The scholar's prodigy status and the cheder image in the parable.",
+     "quotes_failed": false
+    }
+   ],
+   "missing_concepts": [
+    "scholarship (illui) versus hasidic piety as the measure of a person",
+    "insult and mockery of a scholar",
+    "father-in-law and son-in-law (in-laws) relationship",
+    "animal parable"
+   ],
+   "start_quote_found": true,
+   "end_quote_found": true
+  }
+ ],
+ "check": {
+  "non_vocab_tags": [],
+  "quotes": 15,
+  "quotes_not_found": 0
+ },
+ "id": "Eser-Orot_0166",
+ "chars": 1313,
+ "seconds": 18
+}

@@ -1,0 +1,126 @@
+{
+ "unit": {
+  "kind": "hasidic_story",
+  "why": "A single anecdote, told by the Neshchizer rebbe, about a clay-digger in Apta who trusted a rabbi's promise and was rewarded with wealth.",
+  "boundary_note": "The closing words 'מענין ערב שבת קודש' are a section heading that belongs to the next division."
+ },
+ "stories": [
+  {
+   "k": 1,
+   "start_quote": "ובס׳ ז״ט וז״ל סיפר מרן מנעסחיז",
+   "end_quote": "והיה עשיר גדול כל ימיו",
+   "hasidic": true,
+   "summary_en": "A clay-digger in Apta hears a righteous rabbi promise that those who busy themselves with Torah will be provided for without toil. He sits on the oven reciting Psalms instead of working, while his wife thinks he has gone mad. The man she sends out with his wagon finds a treasure, the horse runs home with it, and the digger becomes rich for life.",
+   "tags": [
+    {
+     "tag": "practice:sermon",
+     "scope": "span",
+     "quotes": [
+      "ודרש הרב פ״א שהוא מבטיח לחם ובארשט"
+     ],
+     "confidence": 3,
+     "why": "The rabbi's public homily with its promise drives the plot.",
+     "quotes_failed": false
+    },
+    {
+     "tag": "practice:recitation_of_psalms",
+     "scope": "span",
+     "quotes": [
+      "ועלה על חומת התנור וישב ואמר תהלים"
+     ],
+     "confidence": 3,
+     "why": "The digger devotes himself to reciting Psalms.",
+     "quotes_failed": false
+    },
+    {
+     "tag": "practice:torat_ha_tsaddik",
+     "scope": "span",
+     "quotes": [
+      "ואיש אחד שהיה חופר טיט שמע זה והאמין בזה"
+     ],
+     "confidence": 2,
+     "why": "Simple faith in the tzaddik's promise is fulfilled.",
+     "quotes_failed": false
+    },
+    {
+     "tag": "supernatural:miracle",
+     "scope": "span",
+     "quotes": [
+      "והחופר מצא מטמון מעות והטעינו על העגלה",
+      "ברח סוס עם העגלה לבית בעליו"
+     ],
+     "confidence": 2,
+     "why": "A providential treasure-find and the horse returning it home.",
+     "quotes_failed": false
+    },
+    {
+     "tag": "practice:storytelling",
+     "scope": "span",
+     "quotes": [
+      "סיפר מרן מנעסחיז שהיה באפטא"
+     ],
+     "confidence": 2,
+     "why": "Framed as a tale told by the Neshchizer rebbe.",
+     "quotes_failed": false
+    },
+    {
+     "tag": "women:minor_character",
+     "scope": "span",
+     "quotes": [
+      "ואשתו לא יכלה לנצחו",
+      "שלחה איש אחר עם עגלה של בעלה"
+     ],
+     "confidence": 3,
+     "why": "The wife acts by sending the wagon out to earn the day's living.",
+     "quotes_failed": false
+    },
+    {
+     "tag": "social:marital_relationship",
+     "scope": "span",
+     "quotes": [
+      "והוא לא גילה לה הטעם והיתה סבורה שיצא מדעתו"
+     ],
+     "confidence": 2,
+     "why": "The tension between husband and wife is depicted.",
+     "quotes_failed": false
+    },
+    {
+     "tag": "characters-and-roles:preacher",
+     "scope": "span",
+     "quotes": [
+      "ודרש הרב פ״א שהוא מבטיח"
+     ],
+     "confidence": 1,
+     "why": "The rabbi acts as a preacher, though he is a rav rather than a maggid.",
+     "quotes_failed": false
+    },
+    {
+     "tag": "practice:study",
+     "scope": "span",
+     "quotes": [
+      "לכל העוסקים בתורה בלי שום עמל ויגיעה"
+     ],
+     "confidence": 1,
+     "why": "The promise concerns engaging in Torah, enacted here through Psalms.",
+     "quotes_failed": false
+    }
+   ],
+   "missing_concepts": [
+    "trust in God / bitachon over labor",
+    "livelihood (parnasah) provided miraculously",
+    "simple folk's naive faith rewarded",
+    "found treasure"
+   ],
+   "start_quote_found": true,
+   "end_quote_found": true
+  }
+ ],
+ "check": {
+  "non_vocab_tags": [],
+  "quotes": 11,
+  "quotes_not_found": 0
+ },
+ "id": "Derech-Haemuna_0174",
+ "chars": 623,
+ "seconds": 18
+}

@@ -1,0 +1,125 @@
+{
+ "unit": {
+  "kind": "hasidic_story",
+  "why": "A short memorate: R. Shalom of Belz recounts how the Seer of Lublin taught him to read petitions (kvitlach) and showed him one man's soul-root and past incarnations, followed by a description of the Seer's habit with such notes; it is minimal but has a narrated event.",
+  "boundary_note": "Second numbered item in a series on the Seer of Lublin's levels and ways of worship."
+ },
+ "stories": [
+  {
+   "k": 1,
+   "start_quote": "נודע כי הגה\"ק מו\"ה שלום מבעלזא",
+   "end_quote": "לבעל יראה בגנות של בני אדם",
+   "hasidic": true,
+   "summary_en": "R. Shalom of Belz relates that the Seer of Lublin taught him to read people's kvitlach, showing him in one note the man's soul-root back to Cain or Abel, his reincarnations, sins, merits and fortune; the Seer would dwell on notes of the pious but quickly put aside those of sinners, fearing to see the faults of others.",
+   "tags": [
+    {
+     "tag": "supernatural:perception",
+     "scope": "span",
+     "quotes": [
+      "למדתי לקרות פתקא שמות בני האדם",
+      "הראני ג״כ באיזה מזל והצלחה נולד"
+     ],
+     "confidence": 3,
+     "why": "Supernatural reading of a person's soul and fate from a kvitl",
+     "quotes_failed": false
+    },
+    {
+     "tag": "supernatural:reincarnation",
+     "scope": "span",
+     "quotes": [
+      "וכמה פעמים הי' אדם זה בגלגול",
+      "ומה פגם וקלקל בכל גלגול"
+     ],
+     "confidence": 3,
+     "why": "Past incarnations of the soul are read from the note",
+     "quotes_failed": false
+    },
+    {
+     "tag": "social:inter_hasidic_master_disciple_relationship",
+     "scope": "span",
+     "quotes": [
+      "מהרה״ק מורי ורבי מלובלין"
+     ],
+     "confidence": 3,
+     "why": "The Seer teaches his disciple R. Shalom of Belz",
+     "quotes_failed": false
+    },
+    {
+     "tag": "practice:reception_of_hasidim",
+     "scope": "span",
+     "quotes": [
+      "כאשר בא לפניו פתקא של אדם כשר"
+     ],
+     "confidence": 2,
+     "why": "Kvitlach brought before the rebbe at his court",
+     "quotes_failed": false
+    },
+    {
+     "tag": "knowledge:esoteric",
+     "scope": "span",
+     "quotes": [
+      "שרש נשמתו באדם הראשון אם מקין אם מהבל"
+     ],
+     "confidence": 2,
+     "why": "Kabbalistic knowledge of soul-roots",
+     "quotes_failed": false
+    },
+    {
+     "tag": "ethics-and-emotions:awe",
+     "scope": "span",
+     "quotes": [
+      "כשר וירא שמים הי׳ מסתכל בו"
+     ],
+     "confidence": 1,
+     "why": "Fear of heaven valued in those whose notes he dwelt on",
+     "quotes_failed": false
+    },
+    {
+     "tag": "folkloristics:story_type_virtues",
+     "scope": "span",
+     "quotes": [
+      "העבירו מעל פניו מהרה לבעל יראה בגנות של בני אדם"
+     ],
+     "confidence": 2,
+     "why": "Illustrates the Seer's reluctance to look at others' faults",
+     "quotes_failed": false
+    },
+    {
+     "tag": "social:relations_with_sinners",
+     "scope": "span",
+     "quotes": [
+      "וכאשר בא לפניו פתקא של אדם חוטא"
+     ],
+     "confidence": 1,
+     "why": "His way of treating sinners' petitions",
+     "quotes_failed": false
+    },
+    {
+     "tag": "practice:storytelling",
+     "scope": "span",
+     "quotes": [
+      "הי׳ אומר למדתי לקרות פתקא"
+     ],
+     "confidence": 1,
+     "why": "Told as R. Shalom of Belz's own account",
+     "quotes_failed": false
+    }
+   ],
+   "missing_concepts": [
+    "kvitl (petition note) reading",
+    "soul-root (shoresh neshama) diagnosis",
+    "avoiding seeing others' faults"
+   ],
+   "start_quote_found": true,
+   "end_quote_found": true
+  }
+ ],
+ "check": {
+  "non_vocab_tags": [],
+  "quotes": 11,
+  "quotes_not_found": 0
+ },
+ "id": "Eser-Orot_0172",
+ "chars": 503,
+ "seconds": 15
+}

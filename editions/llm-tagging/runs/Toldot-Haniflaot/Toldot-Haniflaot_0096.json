@@ -1,0 +1,206 @@
+{
+ "unit": {
+  "kind": "several_stories",
+  "why": "The division holds two separate narratives. In the first, R. Menahem Mendel of Rymanów reports what the Besht told him at his grave. In the second, the tsaddik of Mogielnica faints after touching a knife his wife handed him.",
+  "boundary_note": ""
+ },
+ "stories": [
+  {
+   "k": 1,
+   "start_quote": "והנה שמעתי שההק׳ ר״מ מרימענעוו ז\"ל",
+   "end_quote": "מהיראת ה׳ אשר היה לו",
+   "hasidic": true,
+   "summary_en": "R. Menahem Mendel of Rymanów visited the Besht's grave. He reported that the Besht was angry that people tell of his wonders and miracles but not of his fear of God.",
+   "tags": [
+    {
+     "tag": "practice:pilgrimage_to_the_graves_of_tsaddikim",
+     "scope": "span",
+     "quotes": [
+      "היה פ\"א על קבר הבעש״ט ז\"ל"
+     ],
+     "confidence": 3,
+     "why": "visit to the Besht's grave",
+     "quotes_failed": false
+    },
+    {
+     "tag": "supernatural:communicating_with_the_invisible",
+     "scope": "span",
+     "quotes": [
+      "אמר שהבעש״ט אמר לו שחרה אפו"
+     ],
+     "confidence": 3,
+     "why": "the dead Besht speaks to him",
+     "quotes_failed": false
+    },
+    {
+     "tag": "ethics-and-emotions:anger",
+     "scope": "span",
+     "quotes": [
+      "שחרה אפו על הב״א"
+     ],
+     "confidence": 2,
+     "why": "the Besht is angry",
+     "quotes_failed": false
+    },
+    {
+     "tag": "practice:storytelling",
+     "scope": "span",
+     "quotes": [
+      "שמספרים ממנו נפלאותיו ומופתיו אשר עשה"
+     ],
+     "confidence": 2,
+     "why": "the story concerns how tales about the Besht are told",
+     "quotes_failed": false
+    },
+    {
+     "tag": "ethics-and-emotions:awe",
+     "scope": "span",
+     "quotes": [
+      "ואינם מספרים מהיראת ה׳ אשר היה לו"
+     ],
+     "confidence": 3,
+     "why": "fear of God is the point",
+     "quotes_failed": false
+    }
+   ],
+   "missing_concepts": [
+    "the tsaddik's view of how tales about him should be told (wonders vs. piety)"
+   ],
+   "start_quote_found": true,
+   "end_quote_found": true
+  },
+  {
+   "k": 2,
+   "start_quote": "הנה שמעתי מאיש אמונים אשר שמע",
+   "end_quote": "עד היכן היא הי״ש אשר לו ז״ל",
+   "hasidic": true,
+   "summary_en": "The tsaddik of Mogielnica travelled with his wife to his uncle R. Moshe of Kozienice. At the inn she handed him a knife at a time when he was forbidden to take anything from her hand. He touched it slightly, remembered, and fainted from distress; the tale illustrates his fear of Heaven.",
+   "tags": [
+    {
+     "tag": "folkloristics:story_type_virtues",
+     "scope": "story",
+     "quotes": [],
+     "confidence": 3,
+     "why": "illustrates his fear of Heaven",
+     "quotes_failed": false
+    },
+    {
+     "tag": "ethics-and-emotions:awe",
+     "scope": "span",
+     "quotes": [
+      "מגודל היראת שמים אשר היה לההק'",
+      "עד היכן היא הי״ש אשר לו"
+     ],
+     "confidence": 3,
+     "why": "fear of Heaven is the theme",
+     "quotes_failed": false
+    },
+    {
+     "tag": "ethics-and-emotions:prohibitions",
+     "scope": "span",
+     "quotes": [
+      "אשר אז היה אסור ליקח מידה"
+     ],
+     "confidence": 3,
+     "why": "he nearly violates a prohibition",
+     "quotes_failed": false
+    },
+    {
+     "tag": "practice:halakhah",
+     "scope": "span",
+     "quotes": [
+      "ושכחו אשר אז היה אסור ליקח מידה"
+     ],
+     "confidence": 2,
+     "why": "a niddah-related law of not taking objects from the wife's hand",
+     "quotes_failed": false
+    },
+    {
+     "tag": "characters-and-roles:the_family_of_the_tsaddik",
+     "scope": "span",
+     "quotes": [
+      "ואשתו הרבנית היתה נוסע ג״כ אז עמו",
+      "לדודו ההק׳ הצדיק ר׳ משה ז״ל"
+     ],
+     "confidence": 3,
+     "why": "his wife and his uncle appear",
+     "quotes_failed": false
+    },
+    {
+     "tag": "women:minor_character",
+     "scope": "span",
+     "quotes": [
+      "אז אשתו הרבנית הושיטה לו סכין"
+     ],
+     "confidence": 3,
+     "why": "the wife acts by handing him the knife",
+     "quotes_failed": false
+    },
+    {
+     "tag": "social:marital_relationship",
+     "scope": "span",
+     "quotes": [
+      "ונגע רק קצת בהסכין אשר בידה"
+     ],
+     "confidence": 2,
+     "why": "marital purity rules between husband and wife",
+     "quotes_failed": false
+    },
+    {
+     "tag": "practice:travel_to_other_tsaddik",
+     "scope": "span",
+     "quotes": [
+      "פ״א היה נוסע לדודו ההק׳ הצדיק ר׳ משה ז״ל מקאזניץ"
+     ],
+     "confidence": 2,
+     "why": "a tsaddik travels to another tsaddik",
+     "quotes_failed": false
+    },
+    {
+     "tag": "practice:clothing",
+     "scope": "span",
+     "quotes": [
+      "בגדים אחרים מכובדים להיות לבוש בהם"
+     ],
+     "confidence": 2,
+     "why": "he changes into honourable garments for visiting the tsaddik",
+     "quotes_failed": false
+    },
+    {
+     "tag": "practice:storytelling",
+     "scope": "span",
+     "quotes": [
+      "שהי׳ אומר פ״א הנה אספר לכם"
+     ],
+     "confidence": 2,
+     "why": "framed as a tale told by R. Y. of Prague",
+     "quotes_failed": false
+    },
+    {
+     "tag": "experience:trembling",
+     "scope": "span",
+     "quotes": [
+      "מיד נתעלף ונפל לארץ"
+     ],
+     "confidence": 1,
+     "why": "physical collapse as a religious response (fainting, not trembling)",
+     "quotes_failed": false
+    }
+   ],
+   "missing_concepts": [
+    "niddah / marital purity",
+    "fainting from religious distress"
+   ],
+   "start_quote_found": true,
+   "end_quote_found": true
+  }
+ ],
+ "check": {
+  "non_vocab_tags": [],
+  "quotes": 17,
+  "quotes_not_found": 0
+ },
+ "id": "Toldot-Haniflaot_0096",
+ "chars": 867,
+ "seconds": 23
+}

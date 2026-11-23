@@ -1,0 +1,68 @@
+{
+ "unit": {
+  "kind": "hasidic_story",
+  "why": "split out of non-story-003 (non-story)"
+ },
+ "stories": [
+  {
+   "k": 7,
+   "start_quote": "בערב שבת לעת ערב ראה את בתו עציבה",
+   "end_quote": "עד שהביאו ממנו אור להבדלה",
+   "hasidic": false,
+   "summary_en": "R. Hanina ben Dosa's daughter fills the Sabbath lamp with vinegar by mistake, and it burns all Sabbath.",
+   "tags": [
+    {
+     "tag": "supernatural:miracle",
+     "scope": "span",
+     "quotes": [
+      "יאמר לחומץ וידליק והי׳ דולק"
+     ],
+     "confidence": 3,
+     "why": "vinegar burns",
+     "quotes_failed": false
+    },
+    {
+     "tag": "times:shabbat",
+     "scope": "story",
+     "quotes": [],
+     "confidence": 3,
+     "why": "Sabbath eve",
+     "quotes_failed": false
+    },
+    {
+     "tag": "characters-and-roles:the_family_of_the_tsaddik",
+     "scope": "span",
+     "quotes": [
+      "ראה את בתו עציבה"
+     ],
+     "confidence": 3,
+     "why": "daughter",
+     "quotes_failed": false
+    },
+    {
+     "tag": "women:minor_character",
+     "scope": "span",
+     "quotes": [
+      "ראה את בתו עציבה"
+     ],
+     "confidence": 3,
+     "why": "daughter acts",
+     "quotes_failed": false
+    },
+    {
+     "tag": "not-a-hasidic-story:hagiography",
+     "scope": "story",
+     "quotes": [],
+     "confidence": 3,
+     "why": "talmudic",
+     "quotes_failed": false
+    }
+   ],
+   "missing_concepts": [],
+   "start_quote_found": true,
+   "end_quote_found": true
+  }
+ ],
+ "id": "Eser-Orot_non-story-003_s7",
+ "split_from": "non-story-003"
+}

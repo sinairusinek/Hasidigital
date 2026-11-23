@@ -1,0 +1,108 @@
+{
+ "unit": {
+  "kind": "hasidic_story",
+  "why": "A minimal anecdote: a tzaddik who was greatly honoured in a town asks the Rebbe of Mogielnica how to avoid pride. The rebbe answers with an exegesis of Joseph's words, so a thin narrative frame wraps a homily.",
+  "boundary_note": "borderline with saying_or_teaching; the homiletic answer dominates"
+ },
+ "stories": [
+  {
+   "k": 1,
+   "start_quote": "פ\"א הי׳ אדמו״ר [הה\"ק ממאגלניצא] וצללה\"ה",
+   "end_quote": "לא אפשר לו לבוא לידי שום התפארות",
+   "hasidic": true,
+   "summary_en": "A tzaddik who was given great honour in a town asks the Rebbe of Mogielnica how to escape pride. The rebbe explains, through Joseph's 'tell my father of all my glory', that one should attribute all honour to the merit of one's righteous father, and so the honour seems small.",
+   "tags": [
+    {
+     "tag": "not-a-hasidic-story:sermon",
+     "scope": "story",
+     "quotes": [],
+     "confidence": 2,
+     "why": "The narrative frame mainly carries an exegesis of Gen 45:13.",
+     "quotes_failed": false
+    },
+    {
+     "tag": "practice:sermon",
+     "scope": "span",
+     "quotes": [
+      "דהנה כתיב גבי יוסף הצדיק והגדתם לאבי את כל כבוד במצרים"
+     ],
+     "confidence": 3,
+     "why": "The rebbe answers with an exegesis of a verse.",
+     "quotes_failed": false
+    },
+    {
+     "tag": "ethics-and-emotions:pride",
+     "scope": "span",
+     "quotes": [
+      "איך הנצל מהתפארות",
+      "לבוא לידי שום התפארות"
+     ],
+     "confidence": 3,
+     "why": "Avoiding self-glorification is the subject.",
+     "quotes_failed": false
+    },
+    {
+     "tag": "ethics-and-emotions:humility",
+     "scope": "span",
+     "quotes": [
+      "מתמיהים על גודל שפלותו",
+      "יוסף הצדיק הי׳ שונא מאד את הכבוד"
+     ],
+     "confidence": 3,
+     "why": "Humility in the face of honour is the virtue taught.",
+     "quotes_failed": false
+    },
+    {
+     "tag": "not-a-hasidic-story:virtues",
+     "scope": "story",
+     "quotes": [],
+     "confidence": 2,
+     "why": "The declared purpose is instruction in how to remain humble when honoured.",
+     "quotes_failed": false
+    },
+    {
+     "tag": "folkloristics:story_type_virtues",
+     "scope": "story",
+     "quotes": [],
+     "confidence": 1,
+     "why": "Implicitly shows the rebbe's own humility when he was honoured.",
+     "quotes_failed": false
+    },
+    {
+     "tag": "practice:the_travels_of_the_tsaddik",
+     "scope": "span",
+     "quotes": [
+      "היה בעיר אחת וחלקו לו כבוד גדול מאד"
+     ],
+     "confidence": 1,
+     "why": "The tzaddik's stay in a town where he was honoured frames the question.",
+     "quotes_failed": false
+    },
+    {
+     "tag": "social:inter_hasidic",
+     "scope": "span",
+     "quotes": [
+      "ושאל אותו צדיק אחד שיתן לו עצה"
+     ],
+     "confidence": 2,
+     "why": "One tzaddik consults another.",
+     "quotes_failed": false
+    }
+   ],
+   "missing_concepts": [
+    "honour (kavod) and how to receive it",
+    "ancestral merit (zekhut avot) as the source of honour"
+   ],
+   "start_quote_found": true,
+   "end_quote_found": true
+  }
+ ],
+ "check": {
+  "non_vocab_tags": [],
+  "quotes": 7,
+  "quotes_not_found": 0
+ },
+ "id": "Tiferet-Hayyim_0001",
+ "chars": 1183,
+ "seconds": 19
+}

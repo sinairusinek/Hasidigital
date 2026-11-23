@@ -1,0 +1,99 @@
+{
+ "unit": {
+  "kind": "hasidic_story",
+  "why": "A kabbalistic teaching that the first twelve days of Nisan stand for the twelve months leads into a short anecdote: the holy rabbi Mahari\"tz foretold each month by holy spirit, and in the year he died in Av he wrote only up to Av.",
+  "boundary_note": ""
+ },
+ "stories": [
+  {
+   "k": 1,
+   "start_quote": "ובס׳ אגרת דכלה (פ׳ פקודי) וז״ל",
+   "end_quote": "רק עד מנחם והענין הוא בפרסום",
+   "hasidic": true,
+   "summary_en": "Each of the first twelve days of Nisan corresponds to a month of the year. The rebbe Mahari\"tz used to write by holy spirit what each month would bring, and in the year he died in Av he wrote only until Av, foreshadowing his death.",
+   "tags": [
+    {
+     "tag": "supernatural:prognostication",
+     "scope": "span",
+     "quotes": [
+      "היה כותב ברוח קדשו בכל יום מה יהיה בכל חודש"
+     ],
+     "confidence": 3,
+     "why": "He foretold the events of each month",
+     "quotes_failed": false
+    },
+    {
+     "tag": "supernatural:perception",
+     "scope": "span",
+     "quotes": [
+      "היה כותב ברוח קדשו בכל יום"
+     ],
+     "confidence": 2,
+     "why": "Knowledge of the future through holy spirit (ruach hakodesh)",
+     "quotes_failed": false
+    },
+    {
+     "tag": "folkloristics:story_type_prognostication",
+     "scope": "story",
+     "quotes": [],
+     "confidence": 2,
+     "why": "The point of the anecdote is that his writing up to Av foretold his death",
+     "quotes_failed": false
+    },
+    {
+     "tag": "times:death",
+     "scope": "span",
+     "quotes": [
+      "שנתבקש בישיבה של מעלה בחודש מנחם"
+     ],
+     "confidence": 3,
+     "why": "The tzaddik's death in Av",
+     "quotes_failed": false
+    },
+    {
+     "tag": "not-a-hasidic-story:sermon",
+     "scope": "story",
+     "quotes": [],
+     "confidence": 2,
+     "why": "The anecdote is wrapped in a kabbalistic teaching about the days of Nisan",
+     "quotes_failed": false
+    },
+    {
+     "tag": "knowledge:esoteric",
+     "scope": "span",
+     "quotes": [
+      "כל יום רומז לחודש שלם"
+     ],
+     "confidence": 2,
+     "why": "Hidden correspondence between days and months",
+     "quotes_failed": false
+    },
+    {
+     "tag": "practice:torat_ha_tsaddik",
+     "scope": "span",
+     "quotes": [
+      "וזכי הראות יכולין להתבונן בכל יום"
+     ],
+     "confidence": 1,
+     "why": "The special insight of pure-sighted tzaddikim",
+     "quotes_failed": false
+    }
+   ],
+   "missing_concepts": [
+    "calendrical symbolism (twelve days of Nisan = twelve months)",
+    "tzaddik's foreknowledge of his own death",
+    "transmission of tradition within a hasidic circle (חבורתינו)"
+   ],
+   "start_quote_found": true,
+   "end_quote_found": true
+  }
+ ],
+ "check": {
+  "non_vocab_tags": [],
+  "quotes": 5,
+  "quotes_not_found": 0
+ },
+ "id": "Derech-Haemuna_0230",
+ "chars": 461,
+ "seconds": 14
+}

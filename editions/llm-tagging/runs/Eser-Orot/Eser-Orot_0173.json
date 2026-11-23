@@ -1,0 +1,131 @@
+{
+ "unit": {
+  "kind": "hasidic_story",
+  "why": "A single anecdote: on a Friday ride to the river R. Baruch of Medzhybizh tests whether the Seer of Lublin can perceive his yihudim.",
+  "boundary_note": ""
+ },
+ "stories": [
+  {
+   "k": 1,
+   "start_quote": "כאשר הי' מרן מלובלין פ\"א אצל",
+   "end_quote": "קולע אל השערה ולא יחטיא",
+   "hasidic": true,
+   "summary_en": "While the Seer of Lublin visits R. Baruch of Medzhybizh, the two ride on Sabbath eve to immerse in the river; R. Baruch performs awesome yihudim and repeatedly asks the Seer what he senses, and the Seer answers in stages: the air of the Land of Israel, Jerusalem, the Temple site, and at the immersion the pure rivers of balsam, which leads R. Baruch to praise him as a true seer.",
+   "tags": [
+    {
+     "tag": "kabbalah:kabbalistic_terms_yihudim",
+     "scope": "span",
+     "quotes": [
+      "ביחוד שמו הקדוש ביחודים נוראים ונפלאים"
+     ],
+     "confidence": 3,
+     "why": "R. Baruch performs contemplative yihudim",
+     "quotes_failed": false
+    },
+    {
+     "tag": "practice:meditation",
+     "scope": "span",
+     "quotes": [],
+     "confidence": 3,
+     "why": "deep contemplation and yihudim during the ride",
+     "quotes_failed": false
+    },
+    {
+     "tag": "supernatural:perception",
+     "scope": "span",
+     "quotes": [
+      "והשיב לו אוירא דארץ ישראל",
+      "והשיב בחי׳ נהרי האפרסמונא דכיא"
+     ],
+     "confidence": 3,
+     "why": "the Seer perceives the spiritual effects of the yihudim",
+     "quotes_failed": false
+    },
+    {
+     "tag": "practice:tvilah",
+     "scope": "span",
+     "quotes": [
+      "ונסע בעש\"ק אל הנהר לטבול א״ע",
+      "ובטבילה בנהר שאל אותו"
+     ],
+     "confidence": 3,
+     "why": "immersion in the river",
+     "quotes_failed": false
+    },
+    {
+     "tag": "times:shabbat",
+     "scope": "span",
+     "quotes": [
+      "ונסע בעש\"ק אל הנהר"
+     ],
+     "confidence": 2,
+     "why": "the scene takes place on Sabbath eve",
+     "quotes_failed": false
+    },
+    {
+     "tag": "practice:travel_to_other_tsaddik",
+     "scope": "span",
+     "quotes": [
+      "כאשר הי' מרן מלובלין פ\"א אצל הרה״ק רבי ר׳ ברוך ממעזיבוז"
+     ],
+     "confidence": 2,
+     "why": "the Seer is staying with another tzaddik",
+     "quotes_failed": false
+    },
+    {
+     "tag": "social:inter_hasidic",
+     "scope": "story",
+     "quotes": [],
+     "confidence": 3,
+     "why": "interaction between two tzaddikim",
+     "quotes_failed": false
+    },
+    {
+     "tag": "spaces:the_land_of_israel",
+     "scope": "span",
+     "quotes": [
+      "אוירא דארץ ישראל",
+      "בחי' ירושלים. ואח״כ מקום המקדש"
+     ],
+     "confidence": 1,
+     "why": "the Land of Israel is evoked only as a spiritual perception, not as a setting",
+     "quotes_failed": false
+    },
+    {
+     "tag": "experience:revelation",
+     "scope": "span",
+     "quotes": [
+      "ומה ירגיש עתה. והשיב בחי' ירושלים"
+     ],
+     "confidence": 1,
+     "why": "mystical disclosure sensed by the Seer",
+     "quotes_failed": false
+    },
+    {
+     "tag": "ethics-and-emotions:joy",
+     "scope": "span",
+     "quotes": [
+      "וישמח בו הרב ממעזיבוז"
+     ],
+     "confidence": 1,
+     "why": "R. Baruch rejoices at the Seer's perception",
+     "quotes_failed": false
+    }
+   ],
+   "missing_concepts": [
+    "testing the spiritual perception of another tzaddik",
+    "the Seer's title 'Hozeh' validated by another tzaddik"
+   ],
+   "start_quote_found": true,
+   "end_quote_found": true
+  }
+ ],
+ "check": {
+  "non_vocab_tags": [],
+  "quotes": 12,
+  "quotes_not_found": 1
+ },
+ "id": "Eser-Orot_0173",
+ "chars": 541,
+ "seconds": 13
+}

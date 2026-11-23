@@ -1,0 +1,264 @@
+{
+ "unit": {
+  "kind": "hasidic_story",
+  "why": "One narrative: R. Berish visits his rival R. Avish in Vishnitsa. Their exchange about having a single rebbe and the order of 'lechaim' and blessing is set within the encounter, which forms the story.",
+  "boundary_note": "Continues the series of R. Berish anecdotes from the previous division ('אף גם זאת'), but stands as a separate episode."
+ },
+ "stories": [
+  {
+   "k": 1,
+   "start_quote": "אף גם זאת בהיות הרב ר׳ בעריש בווישניצא",
+   "end_quote": "ואמר גיט שבת והלך ממנו",
+   "hasidic": true,
+   "summary_en": "In Vishnitsa R. Berish visits his rival R. Avish, who confesses that a trip to Lublin cost him his Rymanov master's favour. R. Berish explains that every tzaddik interprets another and that one goes to others only with one's rebbe's permission. He then justifies saying 'lechaim' before the blessing on brandy, because love of Israel precedes love of God.",
+   "tags": [
+    {
+     "tag": "social:inter_hasidic",
+     "scope": "story",
+     "quotes": [],
+     "confidence": 3,
+     "why": "The whole story is an encounter between two Hasidic leaders and their circles.",
+     "quotes_failed": false
+    },
+    {
+     "tag": "social:inter_hasidic_conflict_between_tsaddikim",
+     "scope": "span",
+     "quotes": [
+      "והרגיש שיש להרב בר פלוגתא במקומו"
+     ],
+     "confidence": 2,
+     "why": "R. Avish is described as R. Berish's opponent.",
+     "quotes_failed": false
+    },
+    {
+     "tag": "social:conflict",
+     "scope": "span",
+     "quotes": [
+      "והרגיש שיש להרב בר פלוגתא במקומו"
+     ],
+     "confidence": 2,
+     "why": "The two rabbis are rivals.",
+     "quotes_failed": false
+    },
+    {
+     "tag": "practice:joke",
+     "scope": "span",
+     "quotes": [
+      "אמר לו בבדיחותא גיט אבינד"
+     ],
+     "confidence": 3,
+     "why": "R. Berish greets him in jest.",
+     "quotes_failed": false
+    },
+    {
+     "tag": "practice:the_travels_of_the_tsaddik",
+     "scope": "span",
+     "quotes": [
+      "בהיות הרב ר׳ בעריש בווישניצא",
+      "ויחקור על דירתו וילך אליו עם אנשיו"
+     ],
+     "confidence": 2,
+     "why": "The tzaddik's stay in another town frames the visit.",
+     "quotes_failed": false
+    },
+    {
+     "tag": "practice:travel_to_other_tsaddik",
+     "scope": "span",
+     "quotes": [
+      "ופתו אותי עד שהלכתי אתם",
+      "וכשרציתי לנסוע לצדיק לקחתי תחלה רשות רבי שלי"
+     ],
+     "confidence": 3,
+     "why": "Going to tzaddikim other than one's own master is the central topic.",
+     "quotes_failed": false
+    },
+    {
+     "tag": "social:inter_hasidic_master_disciple_relationship",
+     "scope": "span",
+     "quotes": [
+      "רבו שלו אין צריך לעזוב",
+      "ופקד עלי הה״ק שלא אראה פניו"
+     ],
+     "confidence": 3,
+     "why": "Loyalty to one's rebbe and his permission is central.",
+     "quotes_failed": false
+    },
+    {
+     "tag": "practice:torat_ha_tsaddik",
+     "scope": "span",
+     "quotes": [
+      "כל צדיק הוא פירוש על צדיק אחר"
+     ],
+     "confidence": 2,
+     "why": "A doctrine about the nature of tzaddikim.",
+     "quotes_failed": false
+    },
+    {
+     "tag": "ethics-and-emotions:punishment",
+     "scope": "span",
+     "quotes": [
+      "ופקד עלי הה״ק שלא אראה פניו"
+     ],
+     "confidence": 2,
+     "why": "The Rymanov master banishes R. Avish for going to Lublin.",
+     "quotes_failed": false
+    },
+    {
+     "tag": "social:disobedience",
+     "scope": "span",
+     "quotes": [
+      "אמנם קלקלתי כי באשר באתי חזרה רימנוב"
+     ],
+     "confidence": 1,
+     "why": "Going to Lublin was implicitly against his master's wishes.",
+     "quotes_failed": false
+    },
+    {
+     "tag": "ethics-and-emotions:sadness",
+     "scope": "span",
+     "quotes": [
+      "אתה מרה שחורה בא אתנו ללובלין"
+     ],
+     "confidence": 2,
+     "why": "The Lublin hasidim chide him for melancholy.",
+     "quotes_failed": false
+    },
+    {
+     "tag": "ethics-and-emotions:joy",
+     "scope": "span",
+     "quotes": [
+      "איך לעבוד הבורא בשמחה"
+     ],
+     "confidence": 2,
+     "why": "Serving God in joy is the lure of Lublin.",
+     "quotes_failed": false
+    },
+    {
+     "tag": "ethics-and-emotions:humility",
+     "scope": "span",
+     "quotes": [
+      "נפלו פניו והודה מעצמו שעשה בלי שבל"
+     ],
+     "confidence": 2,
+     "why": "R. Avish humbly admits his error.",
+     "quotes_failed": false
+    },
+    {
+     "tag": "practice:drinking_alcohol",
+     "scope": "span",
+     "quotes": [
+      "צוה לנערו להביא יי״ש עם לעקיך",
+      "ויצק לכל א׳ כוסו"
+     ],
+     "confidence": 3,
+     "why": "The brandy toast is the occasion of the teaching.",
+     "quotes_failed": false
+    },
+    {
+     "tag": "practice:devekut",
+     "scope": "span",
+     "quotes": [
+      "ואח״כ בירך בדביקות גדול וטעם רק מעט"
+     ],
+     "confidence": 2,
+     "why": "R. Berish blesses in deep devekut.",
+     "quotes_failed": false
+    },
+    {
+     "tag": "practice:sermon",
+     "scope": "span",
+     "quotes": [
+      "בספר קדושת לוי ח׳ המצות מדקדק שם",
+      "דצריך להקדים אהבת ישראל קודם התפלה"
+     ],
+     "confidence": 3,
+     "why": "An extended homiletic exposition is quoted.",
+     "quotes_failed": false
+    },
+    {
+     "tag": "practice:tefillin",
+     "scope": "span",
+     "quotes": [
+      "כשאנו מניחין תפילין ממשיכין ע״ע אהבת ד׳"
+     ],
+     "confidence": 2,
+     "why": "Tefillin, including God's own, are discussed in the homily.",
+     "quotes_failed": false
+    },
+    {
+     "tag": "practice:prayer",
+     "scope": "span",
+     "quotes": [
+      "דצריך להקדים אהבת ישראל קודם התפלה"
+     ],
+     "confidence": 1,
+     "why": "The custom of reciting a verse before prayer is discussed.",
+     "quotes_failed": false
+    },
+    {
+     "tag": "not-a-hasidic-story:sermon",
+     "scope": "story",
+     "quotes": [],
+     "confidence": 1,
+     "why": "A large part is a homiletic justification, though it sits inside a narrated encounter.",
+     "quotes_failed": false
+    },
+    {
+     "tag": "practice:reception_of_hasidim",
+     "scope": "span",
+     "quotes": [
+      "צוה הרב ר׳ אביש לנערו להביא כסא לפניו"
+     ],
+     "confidence": 1,
+     "why": "R. Avish receives a visitor.",
+     "quotes_failed": false
+    },
+    {
+     "tag": "practice:storytelling",
+     "scope": "span",
+     "quotes": [
+      "פ״א נסעתי אליו על ר״ה"
+     ],
+     "confidence": 1,
+     "why": "R. Avish narrates his own past episode.",
+     "quotes_failed": false
+    },
+    {
+     "tag": "times:holidays",
+     "scope": "span",
+     "quotes": [
+      "פ״א נסעתי אליו על ר״ה"
+     ],
+     "confidence": 1,
+     "why": "The embedded episode is on Rosh Hashana.",
+     "quotes_failed": false
+    },
+    {
+     "tag": "times:shabbat",
+     "scope": "span",
+     "quotes": [
+      "ואמר גיט שבת והלך ממנו"
+     ],
+     "confidence": 1,
+     "why": "The parting greeting suggests the visit was on Shabbat.",
+     "quotes_failed": false
+    }
+   ],
+   "missing_concepts": [
+    "love of Israel (ahavat Yisrael) as preceding love of God",
+    "the custom of saying 'lechaim' before the blessing",
+    "loyalty to a single rebbe versus visiting many rebbes (Lublin–Rymanov rivalry)"
+   ],
+   "start_quote_found": true,
+   "end_quote_found": true
+  }
+ ],
+ "check": {
+  "non_vocab_tags": [],
+  "quotes": 26,
+  "quotes_not_found": 0
+ },
+ "id": "Seva-Ratzon_0012",
+ "chars": 3279,
+ "seconds": 31
+}

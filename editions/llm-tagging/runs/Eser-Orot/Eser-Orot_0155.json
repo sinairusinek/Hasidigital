@@ -1,0 +1,151 @@
+{
+ "unit": {
+  "kind": "hasidic_story",
+  "why": "A single narrative about the Maggid of Kozienice ruling against permitting an agunah to remarry against the Yeshuot Yaakov, his position confirmed when the husband returns as the letter arrives.",
+  "boundary_note": ""
+ },
+ "stories": [
+  {
+   "k": 1,
+   "start_quote": "בס׳ דברים ערבים משמו כי הגאון",
+   "end_quote": "לביתו ואז ראה רוח קדשו",
+   "hasidic": true,
+   "summary_en": "The Yeshuot Yaakov would permit an agunah to remarry only with the consent of the Maggid of Kozienice; the Maggid forbade it and wrote that the husband would come home when his letter arrived, and the husband indeed returned just as the delayed letter was opened.",
+   "tags": [
+    {
+     "tag": "characters-and-roles:agunah",
+     "scope": "span",
+     "quotes": [
+      "נשאל בענין היתר עגונה אחת"
+     ],
+     "confidence": 3,
+     "why": "the agunah's case is the subject",
+     "quotes_failed": false
+    },
+    {
+     "tag": "characters-and-roles:preacher",
+     "scope": "span",
+     "quotes": [
+      "המגיד הק' מקאזניץ"
+     ],
+     "confidence": 2,
+     "why": "the Maggid of Kozienice, though here acting as a tzaddik",
+     "quotes_failed": false
+    },
+    {
+     "tag": "practice:halakhah",
+     "scope": "span",
+     "quotes": [
+      "והמגיד השיב לאיסורא",
+      "והצדיק דבריו בכחא דהיתרא"
+     ],
+     "confidence": 3,
+     "why": "halakhic dispute over permitting the agunah",
+     "quotes_failed": false
+    },
+    {
+     "tag": "practice:releasing_agunot",
+     "scope": "span",
+     "quotes": [
+      "כי בעל העגונה הנ\"ל בא לביתו"
+     ],
+     "confidence": 2,
+     "why": "the agunah's case is resolved by revealing that her husband is alive and returning, though the ruling was against release",
+     "quotes_failed": false
+    },
+    {
+     "tag": "ethics-and-emotions:prohibitions",
+     "scope": "span",
+     "quotes": [
+      "והמגיד השיב לאיסורא"
+     ],
+     "confidence": 2,
+     "why": "the ruling forbids remarriage",
+     "quotes_failed": false
+    },
+    {
+     "tag": "supernatural:prognostication",
+     "scope": "span",
+     "quotes": [
+      "בעת ישיג מע״כ מכתבי הלז. יבא גם בעל האשה"
+     ],
+     "confidence": 3,
+     "why": "the prediction comes true",
+     "quotes_failed": false
+    },
+    {
+     "tag": "folkloristics:story_type_prognostication",
+     "scope": "story",
+     "quotes": [],
+     "confidence": 3,
+     "why": "the story's arc is a prediction that is fulfilled",
+     "quotes_failed": false
+    },
+    {
+     "tag": "supernatural:perception",
+     "scope": "span",
+     "quotes": [
+      "ואז ראה רוח קדשו"
+     ],
+     "confidence": 3,
+     "why": "holy spirit, knowing that the husband is alive",
+     "quotes_failed": false
+    },
+    {
+     "tag": "social:relations_with_non_hasidim",
+     "scope": "span",
+     "quotes": [
+      "הגאון בעל ישועות יעקב נשאל"
+     ],
+     "confidence": 2,
+     "why": "exchange with a non-Hasidic rabbinic authority",
+     "quotes_failed": false
+    },
+    {
+     "tag": "social:retrospective_recognition",
+     "scope": "span",
+     "quotes": [
+      "ואז ראה רוח קדשו"
+     ],
+     "confidence": 3,
+     "why": "the Gaon recognizes the Maggid's holy spirit after the fact",
+     "quotes_failed": false
+    },
+    {
+     "tag": "women:catalyst_character",
+     "scope": "span",
+     "quotes": [
+      "היתר עגונה אחת"
+     ],
+     "confidence": 3,
+     "why": "the agunah's case triggers the plot but she does not act",
+     "quotes_failed": false
+    },
+    {
+     "tag": "supernatural:miracle",
+     "scope": "span",
+     "quotes": [
+      "נתעכב המכתב על הבי דואר איזה זמן זמנים שלא עפ\"י ההרגל והטבע"
+     ],
+     "confidence": 1,
+     "why": "the letter's unnatural delay that made the timing come true",
+     "quotes_failed": false
+    }
+   ],
+   "missing_concepts": [
+    "halakhic correspondence between rabbis (responsa letters)",
+    "a tzaddik's ruling validated by holy spirit over pilpul"
+   ],
+   "start_quote_found": true,
+   "end_quote_found": true
+  }
+ ],
+ "check": {
+  "non_vocab_tags": [],
+  "quotes": 12,
+  "quotes_not_found": 0
+ },
+ "id": "Eser-Orot_0155",
+ "chars": 663,
+ "seconds": 14
+}

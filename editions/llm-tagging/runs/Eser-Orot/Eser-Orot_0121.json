@@ -1,0 +1,120 @@
+{
+ "unit": {
+  "kind": "hasidic_story",
+  "why": "A short anecdote: the rabbi of Kozienice persecutes the Maggid for his lack of lineage, and the Maggid's retort comes true over three generations.",
+  "boundary_note": ""
+ },
+ "stories": [
+  {
+   "k": 1,
+   "start_quote": "עוד מהנ\"ל וז\"ל בימיו הי' אבד\"ק קאזניץ",
+   "end_quote": "ומהמגיד אז יתחיל היוחס :",
+   "hasidic": true,
+   "summary_en": "When the people of Kozienice began consulting the Maggid and having him whisper charms against the evil eye, the town rabbi R. Yehoshua persecuted him for lacking lineage; the Maggid answered that the rabbi's lineage would end by the third generation and that lineage would begin from himself, and so it happened.",
+   "tags": [
+    {
+     "tag": "folkloristics:story_type_prognostication",
+     "scope": "story",
+     "quotes": [],
+     "confidence": 3,
+     "why": "The Maggid's prediction about the end of the rabbi's lineage comes true.",
+     "quotes_failed": false
+    },
+    {
+     "tag": "supernatural:prognostication",
+     "scope": "span",
+     "quotes": [
+      "והשיב לו שעד דור השלישי יופסק היחוס ממנו",
+      "ואח\"ז נפסק התורה מזרעם"
+     ],
+     "confidence": 3,
+     "why": "Prediction stated and its fulfillment noted.",
+     "quotes_failed": false
+    },
+    {
+     "tag": "social:conflict",
+     "scope": "span",
+     "quotes": [
+      "החל לרדפו באשר אינו מיוחס"
+     ],
+     "confidence": 3,
+     "why": "The town rabbi persecutes the Maggid.",
+     "quotes_failed": false
+    },
+    {
+     "tag": "social:relations_with_non_hasidim",
+     "scope": "span",
+     "quotes": [
+      "החל לרדפו באשר אינו מיוחס"
+     ],
+     "confidence": 2,
+     "why": "The establishment rabbi opposes the Hasidic Maggid.",
+     "quotes_failed": false
+    },
+    {
+     "tag": "characters-and-roles:preacher",
+     "scope": "story",
+     "quotes": [],
+     "confidence": 2,
+     "why": "The protagonist is the Maggid of Kozienice, set against the town's rabbi.",
+     "quotes_failed": false
+    },
+    {
+     "tag": "knowledge:practical_kabbalah",
+     "scope": "span",
+     "quotes": [
+      "וללחש לחשום לעין הרע ר\"ל וכדומה"
+     ],
+     "confidence": 2,
+     "why": "The Maggid whispers incantations against the evil eye.",
+     "quotes_failed": false
+    },
+    {
+     "tag": "ethics-and-emotions:punishment",
+     "scope": "span",
+     "quotes": [
+      "ואח\"ז נפסק התורה מזרעם"
+     ],
+     "confidence": 2,
+     "why": "Loss of the scholarly lineage as consequence for persecuting the tzaddik.",
+     "quotes_failed": false
+    },
+    {
+     "tag": "practice:torat_ha_tsaddik",
+     "scope": "span",
+     "quotes": [
+      "החלו אנשי קאזניץ לשאול בעצתו של המגיד הק׳"
+     ],
+     "confidence": 1,
+     "why": "Townspeople turn to the tzaddik for counsel and remedies.",
+     "quotes_failed": false
+    },
+    {
+     "tag": "social:competition",
+     "scope": "span",
+     "quotes": [
+      "ומהמגיד אז יתחיל היוחס"
+     ],
+     "confidence": 2,
+     "why": "Rivalry between the town rabbi and the Maggid over communal authority.",
+     "quotes_failed": false
+    }
+   ],
+   "missing_concepts": [
+    "lineage (yichus) as a source of authority",
+    "communal rabbinate vs. charismatic leader",
+    "evil-eye remedies"
+   ],
+   "start_quote_found": true,
+   "end_quote_found": true
+  }
+ ],
+ "check": {
+  "non_vocab_tags": [],
+  "quotes": 8,
+  "quotes_not_found": 0
+ },
+ "id": "Eser-Orot_0121",
+ "chars": 377,
+ "seconds": 13
+}

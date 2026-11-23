@@ -1,0 +1,133 @@
+{
+ "unit": {
+  "kind": "hasidic_story",
+  "why": "A single anecdote: the Seer of Lublin invites R. Menachem Mendel of Kosov for Rosh Hashana; he is prevented from going and sends his son to excuse him; the Seer responds, and R. Menachem Mendel dies that year.",
+  "boundary_note": ""
+ },
+ "stories": [
+  {
+   "k": 1,
+   "start_quote": "בספר רמ\"צ מביא שסיפר הרה״ק מפרשיסחא",
+   "end_quote": "ונסתלק בשנה ההוא א\"ז פכ\"ה אות כ״ד",
+   "hasidic": true,
+   "summary_en": "The Seer of Lublin invites his friend R. Menachem Mendel of Kosov for Rosh Hashana. His followers prevent him from going, so he sends his son R. Hayyim to excuse him. The Seer answers that a friend who needs to excuse himself does not really count as a friend, so he cannot do him good, and R. Menachem Mendel dies that year.",
+   "tags": [
+    {
+     "tag": "times:holidays",
+     "scope": "span",
+     "quotes": [
+      "שיבא אליו על ראש השנה"
+     ],
+     "confidence": 3,
+     "why": "the invitation is for Rosh Hashana",
+     "quotes_failed": false
+    },
+    {
+     "tag": "times:death",
+     "scope": "span",
+     "quotes": [
+      "ונסתלק בשנה ההוא"
+     ],
+     "confidence": 3,
+     "why": "the Kosover dies that year",
+     "quotes_failed": false
+    },
+    {
+     "tag": "practice:travel_to_other_tsaddik",
+     "scope": "span",
+     "quotes": [
+      "ורצה לנסוע ללובלין ולא הניחוהו אנשי שלומו"
+     ],
+     "confidence": 2,
+     "why": "a tsaddik is summoned to another tsaddik and the planned journey fails",
+     "quotes_failed": false
+    },
+    {
+     "tag": "characters-and-roles:the_family_of_the_tsaddik",
+     "scope": "span",
+     "quotes": [
+      "ושלח את בנו הרה״ק ר׳ חיים מקאסוב"
+     ],
+     "confidence": 3,
+     "why": "the son serves as emissary",
+     "quotes_failed": false
+    },
+    {
+     "tag": "social:disobedience",
+     "scope": "span",
+     "quotes": [
+      "ולא הניחוהו אנשי שלומו בשום ענין"
+     ],
+     "confidence": 2,
+     "why": "the Seer's summons is not obeyed, with fatal consequence",
+     "quotes_failed": false
+    },
+    {
+     "tag": "ethics-and-emotions:punishment",
+     "scope": "span",
+     "quotes": [
+      "וע״כ איני יכול לעשות לו טובה ונסתלק"
+     ],
+     "confidence": 2,
+     "why": "death follows from losing the Seer's protection",
+     "quotes_failed": false
+    },
+    {
+     "tag": "supernatural:prognostication",
+     "scope": "span",
+     "quotes": [
+      "איני יכול לעשות לו טובה"
+     ],
+     "confidence": 1,
+     "why": "the Seer's words implicitly foreshadow the death",
+     "quotes_failed": false
+    },
+    {
+     "tag": "practice:torat_ha_tsaddik",
+     "scope": "span",
+     "quotes": [
+      "וע״כ איני יכול לעשות לו טובה"
+     ],
+     "confidence": 2,
+     "why": "the tsaddik's power to help depends on the relationship",
+     "quotes_failed": false
+    },
+    {
+     "tag": "social:inter_hasidic",
+     "scope": "span",
+     "quotes": [
+      "הי' אוהבו של הרבי מלובלין"
+     ],
+     "confidence": 2,
+     "why": "friendship between two tsaddikim",
+     "quotes_failed": false
+    },
+    {
+     "tag": "practice:storytelling",
+     "scope": "span",
+     "quotes": [
+      "שסיפר הרה״ק מפרשיסחא"
+     ],
+     "confidence": 1,
+     "why": "framed as told by the Przysucha rebbe",
+     "quotes_failed": false
+    }
+   ],
+   "missing_concepts": [
+    "friendship between tsaddikim",
+    "the tsaddik's summons/invitation and the consequences of declining it",
+    "followers controlling a tsaddik's movements"
+   ],
+   "start_quote_found": true,
+   "end_quote_found": true
+  }
+ ],
+ "check": {
+  "non_vocab_tags": [],
+  "quotes": 10,
+  "quotes_not_found": 0
+ },
+ "id": "Eser-Orot_0186",
+ "chars": 429,
+ "seconds": 13
+}

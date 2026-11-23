@@ -1,0 +1,119 @@
+{
+ "unit": {
+  "kind": "hasidic_story",
+  "why": "A single anecdote: a tsaddik honours R. Menahem Mendel despite his costly dress and upright bearing, and explains to his puzzled hasidim with a parable.",
+  "boundary_note": ""
+ },
+ "stories": [
+  {
+   "k": 1,
+   "start_quote": "שמעתי שהרה\"ק הנ\"ל היה נוהג שהיה",
+   "end_quote": "הלבוש של גאות ואין תוכו „כברו״",
+   "hasidic": true,
+   "summary_en": "R. Menahem Mendel wore very costly clothes and walked upright. A tsaddik who honoured him explained to his hasidim, who thought the guest proud, with a parable: as a man hides his money under a dunghill, R. Menahem Mendel hides his great treasure of awe of Heaven under a garment of pride.",
+   "tags": [
+    {
+     "tag": "practice:clothing",
+     "scope": "span",
+     "quotes": [
+      "היה מלובש בבגדים יקרים מאוד",
+      "הטמין אותו תחת הלבוש של גאות"
+     ],
+     "confidence": 3,
+     "why": "The tsaddik's costly dress is the subject of the story.",
+     "quotes_failed": false
+    },
+    {
+     "tag": "ethics-and-emotions:pride",
+     "scope": "span",
+     "quotes": [
+      "הלא הוא בעל גאה מאוד שהולך בקומה זקופה"
+     ],
+     "confidence": 3,
+     "why": "The hasidim suspect him of arrogance.",
+     "quotes_failed": false
+    },
+    {
+     "tag": "ethics-and-emotions:awe",
+     "scope": "span",
+     "quotes": [
+      "יש לו אוצר גדול של יראת שמי"
+     ],
+     "confidence": 3,
+     "why": "His hidden treasure is awe of Heaven.",
+     "quotes_failed": false
+    },
+    {
+     "tag": "ethics-and-emotions:humility",
+     "scope": "story",
+     "quotes": [],
+     "confidence": 2,
+     "why": "Outward pride conceals inner piety, implicitly humility.",
+     "quotes_failed": false
+    },
+    {
+     "tag": "folkloristics:story_type_parable",
+     "scope": "span",
+     "quotes": [
+      "אני אומר לכם משל לאחד שהיה לו מעות הרבה"
+     ],
+     "confidence": 3,
+     "why": "The tsaddik answers with a mashal.",
+     "quotes_failed": false
+    },
+    {
+     "tag": "folkloristics:story_type_virtues",
+     "scope": "story",
+     "quotes": [],
+     "confidence": 2,
+     "why": "The point is to show R. Menahem Mendel's hidden piety.",
+     "quotes_failed": false
+    },
+    {
+     "tag": "social:inter_hasidic",
+     "scope": "span",
+     "quotes": [
+      "והיה פ״א אצל צדיק אחד והצדיק כבד אותו מאוד"
+     ],
+     "confidence": 2,
+     "why": "A visit and honour between tsaddikim, questioned by hasidim.",
+     "quotes_failed": false
+    },
+    {
+     "tag": "social:retrospective_recognition",
+     "scope": "span",
+     "quotes": [
+      "ואין תוכו „כברו״"
+     ],
+     "confidence": 2,
+     "why": "The hasidim learn that his apparent pride hid inner piety.",
+     "quotes_failed": false
+    },
+    {
+     "tag": "practice:the_travels_of_the_tsaddik",
+     "scope": "span",
+     "quotes": [
+      "וכשהלך הרה״ק ר׳ מ״מ זצ״ל מהצדיק הנ״ל"
+     ],
+     "confidence": 1,
+     "why": "The tsaddik's visit to another tsaddik frames the story.",
+     "quotes_failed": false
+    }
+   ],
+   "missing_concepts": [
+    "concealment of piety behind an outward show (inverse of hypocrisy)",
+    "outward bearing and posture of a tsaddik"
+   ],
+   "start_quote_found": true,
+   "end_quote_found": true
+  }
+ ],
+ "check": {
+  "non_vocab_tags": [],
+  "quotes": 8,
+  "quotes_not_found": 0
+ },
+ "id": "Likutim-Hadashim_0048",
+ "chars": 493,
+ "seconds": 15
+}

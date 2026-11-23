@@ -1,0 +1,109 @@
+{
+ "unit": {
+  "kind": "hasidic_story",
+  "why": "A teaching quoted from R. Yitzhak Eizik of Komarno's Netiv Mitzvotekha frames a brief anecdote: R. Levi Yitzhak of Berdichev, in Warsaw, warmly urges a coarse, lowly man named Binesh to cleave to God, and onlookers laugh.",
+  "boundary_note": "anecdote embedded in a homiletic quotation; previous and next divisions are separate items"
+ },
+ "stories": [
+  {
+   "k": 1,
+   "start_quote": "בסה״ק נתיב מצותיך למורינו הרה״ק מוהרי״א מקומארנא",
+   "end_quote": "להשפיע לכל העולם מאור הזה וכו׳ עכ״ל הק׳",
+   "hasidic": true,
+   "summary_en": "Quoting the Komarner: a true tzaddik receives everyone, even the lowliest, with joy. As an example, R. Levi Yitzhak of Berdichev in Warsaw lovingly urged a coarse man, Binesh, to bind himself to God in devekut, which seemed laughable to others, even to pious tzaddikim.",
+   "tags": [
+    {
+     "tag": "not-a-hasidic-story:sermon",
+     "scope": "story",
+     "quotes": [],
+     "confidence": 2,
+     "why": "the anecdote is wrapped in a quoted homiletic teaching about the tzaddik's nature",
+     "quotes_failed": false
+    },
+    {
+     "tag": "practice:devekut",
+     "scope": "span",
+     "quotes": [
+      "קשר עצמך בשורש עליו שורש כל השרשים בדביקות ואהבה"
+     ],
+     "confidence": 3,
+     "why": "the tzaddik calls the man to cleave to God",
+     "quotes_failed": false
+    },
+    {
+     "tag": "ethics-and-emotions:joy",
+     "scope": "span",
+     "quotes": [
+      "מקבל כל האדם בשמחה ובאור פנים",
+      "באהבה וחיבה ובלב שמח"
+     ],
+     "confidence": 3,
+     "why": "the tzaddik's joyful reception of people",
+     "quotes_failed": false
+    },
+    {
+     "tag": "folkloristics:story_type_virtues",
+     "scope": "story",
+     "quotes": [],
+     "confidence": 2,
+     "why": "illustrates the tzaddik's love for even the lowliest person",
+     "quotes_failed": false
+    },
+    {
+     "tag": "ethics-and-emotions:virtues",
+     "scope": "span",
+     "quotes": [
+      "ואינו רואה שום פחיתות באדם"
+     ],
+     "confidence": 2,
+     "why": "the virtue of seeing no lowliness in any person",
+     "quotes_failed": false
+    },
+    {
+     "tag": "practice:torat_ha_tsaddik",
+     "scope": "span",
+     "quotes": [
+      "הוא רוצה להשפיע לכל העולם מאור הזה"
+     ],
+     "confidence": 2,
+     "why": "the true tzaddik as a channel of divine light to all people",
+     "quotes_failed": false
+    },
+    {
+     "tag": "ethics-and-emotions:shame",
+     "scope": "span",
+     "quotes": [
+      "והי׳ זה לשחוק בעיני העולם"
+     ],
+     "confidence": 1,
+     "why": "others ridicule the tzaddik's behaviour",
+     "quotes_failed": false
+    },
+    {
+     "tag": "practice:the_travels_of_the_tsaddik",
+     "scope": "span",
+     "quotes": [
+      "הי׳ הצדיק ר׳ לוי יצחק מברדיטשוב בעיר ווארשא"
+     ],
+     "confidence": 1,
+     "why": "the tzaddik is staying away from home, in Warsaw",
+     "quotes_failed": false
+    }
+   ],
+   "missing_concepts": [
+    "love of fellow Jews (ahavat Yisrael) toward simple or coarse people",
+    "the tzaddik's 'drawing down' (hashpa'ah) of divine light to everyone"
+   ],
+   "start_quote_found": true,
+   "end_quote_found": true
+  }
+ ],
+ "check": {
+  "non_vocab_tags": [],
+  "quotes": 7,
+  "quotes_not_found": 0
+ },
+ "id": "Eser-Orot_0082",
+ "chars": 616,
+ "seconds": 16
+}

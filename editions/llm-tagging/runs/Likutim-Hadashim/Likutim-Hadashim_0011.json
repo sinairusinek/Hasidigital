@@ -1,0 +1,144 @@
+{
+ "unit": {
+  "kind": "hasidic_story",
+  "why": "A single anecdote: a village couple asks the Maggid for a son, they fail to agree on the payment, the villager angrily trusts in God, and the Maggid declares that he will have a son.",
+  "boundary_note": ""
+ },
+ "stories": [
+  {
+   "k": 1,
+   "start_quote": "ע״ש שבא אל המגיד זצ\"ל בן כפר",
+   "end_quote": "מחמת שסמך על השי״ת בכל לבו וד״ל",
+   "hasidic": true,
+   "summary_en": "The Maggid asks a childless villager for 52 gulden (gematria of בן); the villager offers ten, then piles copper coins on the table; when refused, he angrily tells his wife they will rely on God without the Maggid, and the Maggid declares that his words were heard in heaven and he will have a son.",
+   "tags": [
+    {
+     "tag": "practice:pidyon_nefesh",
+     "scope": "span",
+     "quotes": [
+      "רצה שיתנו לו נ״ב זהובים כמנין בן"
+     ],
+     "confidence": 2,
+     "why": "a pidyon payment is demanded from the tzaddik's petitioners",
+     "quotes_failed": false
+    },
+    {
+     "tag": "practice:travel_to_the_tsaddik",
+     "scope": "span",
+     "quotes": [
+      "שבא אל המגיד זצ\"ל בן כפר אחד ואשתו"
+     ],
+     "confidence": 2,
+     "why": "the couple comes to the Maggid with a request",
+     "quotes_failed": false
+    },
+    {
+     "tag": "practice:reception_of_hasidim",
+     "scope": "span",
+     "quotes": [
+      "והמגיד זצ״ל לא רצה עד שיתן לו כנ״ל"
+     ],
+     "confidence": 3,
+     "why": "the Maggid refuses the petitioner's terms",
+     "quotes_failed": false
+    },
+    {
+     "tag": "supernatural:pregnancy",
+     "scope": "span",
+     "quotes": [
+      "ופעל שיהא לו בן זכר"
+     ],
+     "confidence": 2,
+     "why": "a childless couple is promised a son",
+     "quotes_failed": false
+    },
+    {
+     "tag": "supernatural:prognostication",
+     "scope": "span",
+     "quotes": [
+      "שדבריו נשמעו בהשמים ופעל שיהא לו בן זכר"
+     ],
+     "confidence": 2,
+     "why": "the Maggid foretells that a son will be born",
+     "quotes_failed": false
+    },
+    {
+     "tag": "supernatural:perception",
+     "scope": "span",
+     "quotes": [
+      "שדבריו נשמעו בהשמים"
+     ],
+     "confidence": 2,
+     "why": "the Maggid perceives what was decided in heaven",
+     "quotes_failed": false
+    },
+    {
+     "tag": "ethics-and-emotions:anger",
+     "scope": "span",
+     "quotes": [
+      "אמר הכפרי לאשתו בכעס"
+     ],
+     "confidence": 3,
+     "why": "the villager speaks in anger",
+     "quotes_failed": false
+    },
+    {
+     "tag": "ethics-and-emotions:virtues",
+     "scope": "span",
+     "quotes": [
+      "מחמת שסמך על השי״ת בכל לבו"
+     ],
+     "confidence": 2,
+     "why": "trust in God is the virtue the story rewards",
+     "quotes_failed": false
+    },
+    {
+     "tag": "practice:torat_ha_tsaddik",
+     "scope": "span",
+     "quotes": [
+      "השי״ת יעזור לנו בלי המגיד"
+     ],
+     "confidence": 2,
+     "why": "the story questions whether one must go through the tzaddik's intercession",
+     "quotes_failed": false
+    },
+    {
+     "tag": "women:minor_character",
+     "scope": "span",
+     "quotes": [
+      "בן כפר אחד ואשתו ג״כ",
+      "אשתי לקח המעות"
+     ],
+     "confidence": 2,
+     "why": "the wife comes with him and is told to take the money",
+     "quotes_failed": false
+    },
+    {
+     "tag": "social:retrospective_recognition",
+     "scope": "span",
+     "quotes": [
+      "ותיכף אמר המגיד זצ״ל. שדבריו נשמעו בהשמים"
+     ],
+     "confidence": 1,
+     "why": "the refusal turns out to have had a purpose",
+     "quotes_failed": false
+    }
+   ],
+   "missing_concepts": [
+    "trust in God (bitachon) as an alternative to the tzaddik's intercession",
+    "the tzaddik's fee for a blessing, and haggling over it",
+    "gematria of the payment amount"
+   ],
+   "start_quote_found": true,
+   "end_quote_found": true
+  }
+ ],
+ "check": {
+  "non_vocab_tags": [],
+  "quotes": 12,
+  "quotes_not_found": 0
+ },
+ "id": "Likutim-Hadashim_0011",
+ "chars": 493,
+ "seconds": 15
+}

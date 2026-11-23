@@ -18,7 +18,7 @@
 					<name>DictaBert</name>
 					<note>automatic tagging, corrected with Gemini; not yet reviewed by hand</note>
 				</respStmt>
-			</titleStmt><editionStmt><edition n="1.0.0">Working edition</edition></editionStmt>
+			<respStmt xml:id="llm-tagging"><resp>Topic tags: assigned by Claude Opus 5.5 with the project's topic scheme (editions/llm-tagging; calibrated 2026-11-16, est. precision 0.89 / recall 0.90, model-judged); not reviewed by hand</resp><name>Claude Opus 5.5 (Anthropic)</name></respStmt></titleStmt><editionStmt><edition n="1.0.0">Working edition</edition></editionStmt>
 			<publicationStmt>
 				<p>This edition was created in the framework of the the project "Historical Digital
 					Analysis of Hasidic Stories Until 1914", PI: Gadi Sagiv; Supervising
@@ -28,7 +28,7 @@
 			</publicationStmt>
 			<sourceDesc><bibl type="digital"><title>Digital scan from HebrewBooks.org</title><publisher>HebrewBooks.org</publisher><ptr target="https://hebrewbooks.org/33915"/><idno type="HebrewBooks">33915</idno><idno type="Transkribus">6578374</idno><note>Source for transcription</note></bibl><bibl type="original"><title type="main" xml:lang="he">מעשים טובים</title><title type="main" xml:lang="en">Maasim Tovim</title><author><persName xml:lang="he">אלעזר שענקל</persName><persName xml:lang="en">Elazar Shenkel</persName></author><pubPlace xml:lang="he">פאדגורזא</pubPlace><pubPlace xml:lang="en">Podgorze</pubPlace><date when="1900">תר"ס</date><textLang mainLang="heb"/><idno type="HebrewBooks">33915</idno><idno type="Kima">168</idno><idno type="Transkribus">6578374</idno><idno type="DBid">3702</idno><idno type="work">55</idno></bibl></sourceDesc>
 		</fileDesc>
-	<revisionDesc><change when="2026-04-29">sourceDesc synced from edition-metadata.json</change><change when="2026-11-21">text repaired: Gemini correction pass replayed without the tag-stripping bug that shuffled text (58f4166); later tag edits carried over</change><change when="2026-11-21">header in the shape of the online editions; page breaks restored from the Transkribus export</change></revisionDesc></teiHeader>
+	<revisionDesc><change when="2026-04-29">sourceDesc synced from edition-metadata.json</change><change when="2026-11-21">text repaired: Gemini correction pass replayed without the tag-stripping bug that shuffled text (58f4166); later tag edits carried over</change><change when="2026-11-21">header in the shape of the online editions; page breaks restored from the Transkribus export</change><change when="2026-11-23">topic tags (LLM, confidence &gt;= 2) written for 20 stories; not reviewed by hand</change></revisionDesc></teiHeader>
 	<text>
 		<front><div type="front-matter"><p>
 					<pb facs="Maasim-Tovim_0005.jpg"/><lb/>ספר
@@ -79,7 +79,7 @@
 					<lb/>רוקח זי"ע מ<placeName ref="#H-LOC_69">בעלז</placeName>.
 				</p>
 				</div></front><body>
-			<div type="story" xml:id="Maasim-Tovim_0001" n="1"><head type="storyHead"><persName>Maasim</persName>-Tovim_0001</head>
+			<div type="story" xml:id="Maasim-Tovim_0001" n="1"><head type="storyHead"><persName>Maasim</persName>-Tovim_0001</head><span ana="ethics-and-emotions:punishment; practice:clothing; practice:prayer; practice:travel_to_the_tsaddik; social:inter_hasidic_master_disciple_relationship; supernatural:prognostication; women:mention_only; ethics-and-emotions:awe; ethics-and-emotions:prohibitions; ethics-and-emotions:repentance; folkloristics:story_type_prognostication; practice:halakhah; practice:reception_of_hasidim; supernatural:perception; times:death" resp="#llm-tagging">תיוגים</span>
 <p>
 					<pb facs="Maasim-Tovim_0007.jpg"/><lb/>א) מעשה ברכת המזון שהי׳ בחסיד א׳ לפני <name type="misc">ה</name>רב הגאון המקובל
 					<lb/>אלקי קדוש יאמר לו <persName>מו״ה</persName> <persName>מאיר מרגליות</persName> זצ"ל <persName>אבד״ק</persName> לבוב
@@ -153,7 +153,7 @@
 				<p>
 					<pb facs="Maasim-Tovim_0009.jpg"/><lb/>מעשים טובים
 				</p>
-				</div><div type="story" xml:id="Maasim-Tovim_0002" n="2"><head type="storyHead">Maasim-Tovim_0002</head>
+				</div><div type="story" xml:id="Maasim-Tovim_0002" n="2"><head type="storyHead">Maasim-Tovim_0002</head><span ana="practice:prayer; social:relations_with_non_jews; supernatural:miracle; ethics-and-emotions:joy; not-a-hasidic-story:hagiography; not-a-hasidic-story:sermon; practice:dance; practice:halakhah; practice:storytelling" resp="#llm-tagging">תיוגים</span>
 <p>
 					<lb/>ב) מעשה קידוש לבנה מה שאירע בק"ק <placeName ref="#H-LOC_130">קראקא</placeName> בשנת <date>תכ״ט</date>
 					<lb/>מה שסיפר האלוף החסיד והצדיק מו״ה <persName>משה מייזלש</persName> זצ״ל.
@@ -180,7 +180,7 @@
 					<lb/>אלמלא לא זכו ישראל אלא להקביל פני אביהם שבשמים בכל
 					<lb/>חדש וחדש די עכ״ל הטהור בספר <name type="work">אור חדש</name> :
 				</p>
-				</div><div type="story" xml:id="Maasim-Tovim_0003" n="3"><head type="storyHead">Maasim-Tovim_0003</head>
+				</div><div type="story" xml:id="Maasim-Tovim_0003" n="3"><head type="storyHead">Maasim-Tovim_0003</head><span ana="ethics-and-emotions:fear; practice:halakhah; practice:prayer; social:conflict; social:relations_with_sinners; times:death; ethics-and-emotions:charity; ethics-and-emotions:lying; ethics-and-emotions:punishment; not-a-hasidic-story:hagiography; practice:storytelling; social:retrospective_recognition" resp="#llm-tagging">תיוגים</span>
 <p>
 					<lb/>ג) מעשה נפלא מה שאירע תלמיד שאינו הגון רצה להרוג
 					<lb/>את רבו.
@@ -281,7 +281,7 @@
 					<lb/>מלא והחכמה תחיה בעליה כי באמת ידע בעצמו לקיים הכלל
 					<lb/>הגדול והנורא הבא להרגך השכם להרגו כזה כן זה לא נופל דבר :
 				</p>
-				</div><div type="story" xml:id="Maasim-Tovim_0004" n="4"><head type="storyHead">Maasim-Tovim_0004</head>
+				</div><div type="story" xml:id="Maasim-Tovim_0004" n="4"><head type="storyHead">Maasim-Tovim_0004</head><span ana="ethics-and-emotions:repentance; practice:sermon; social:converts_and_conversion; ethics-and-emotions:punishment; knowledge:esoteric; not-a-hasidic-story:sermon; social:relations_with_non_jews; social:retrospective_recognition; supernatural:miracle" resp="#llm-tagging">תיוגים</span>
 <p>
 					<lb/>ד) מעשה תקיעות שופר מבעל תוקע.
 				</p>
@@ -316,7 +316,7 @@
 					<pb facs="Maasim-Tovim_0013.jpg"/><lb/>כאשר בתחילה ובירך ואמר ברוך הבוחר בעמו ישראל באהבה
 					<lb/>אשרי העם שככה לו אשרי העם שר׳ אלהיו:
 				</p>
-				</div><div type="story" xml:id="Maasim-Tovim_0005" n="5"><head type="storyHead">Maasim-Tovim_0005</head>
+				</div><div type="story" xml:id="Maasim-Tovim_0005" n="5"><head type="storyHead">Maasim-Tovim_0005</head><span ana="characters-and-roles:angels; ethics-and-emotions:lying; ethics-and-emotions:virtues; not-a-hasidic-story:virtues; practice:prayer; social:retrospective_recognition; times:death; women:minor_character; experience:visions; not-a-hasidic-story:sermon; social:converts_and_conversion; social:marital_relationship; supernatural:communicating_with_the_invisible; supernatural:miracle; times:eschatology" resp="#llm-tagging">תיוגים</span>
 <p>
 					<lb/>ה) מצות הלוית המת.
 				</p>
@@ -401,7 +401,7 @@
 					<lb/>לרמות המקום לא יהי' חומל עליהם וחס כי הם עושים כמעשה
 					<persName><lb/>זמרי</persName> ומבקשים שכר כ<persName>פנחס</persName> :
 				</p>
-				</div><div type="story" xml:id="Maasim-Tovim_0006" n="6"><head type="storyHead">Maasim-Tovim_0006</head>
+				</div><div type="story" xml:id="Maasim-Tovim_0006" n="6"><head type="storyHead">Maasim-Tovim_0006</head><span ana="ethics-and-emotions:prohibitions; not-a-hasidic-story:hagiography; social:relations_with_non_jews; ethics-and-emotions:resisting_temptation; ethics-and-emotions:virtues; not-a-hasidic-story:virtues; practice:halakhah; social:retrospective_recognition" resp="#llm-tagging">תיוגים</span>
 <p>
 					<lb/>ו) מעשה ברבי <persName>אבא בר זבינא</persName> שהי׳ תופר בגדים.
 				</p>
@@ -416,7 +416,7 @@
 					<lb/>אחד או בדרך היהודים או בדרך הגוים ולא להקרא בשם יהודים
 					<lb/>ולעשות מעשה נכרי והוא מה<name type="work">ירושלמי</name> מס׳ <name type="work">שבועות</name> פ״ד :
 				</p>
-				</div><div type="story" xml:id="Maasim-Tovim_0007" n="7"><head type="storyHead">Maasim-Tovim_0007</head>
+				</div><div type="story" xml:id="Maasim-Tovim_0007" n="7"><head type="storyHead">Maasim-Tovim_0007</head><span ana="ethics-and-emotions:charity; not-a-hasidic-story:hagiography; not-a-hasidic-story:virtues; practice:prayer; social:relations_with_non_jews; social:retrospective_recognition; supernatural:miracle; supernatural:prognostication" resp="#llm-tagging">תיוגים</span>
 <p>
 					<lb/>ז) מעשה מתלמידי רבי <persName>חנינא</persName>.
 				</p>
@@ -447,7 +447,7 @@
 					<lb/>מה אעשה לאלהי ישראל הוא מתפייס בחצי ככר לחם. (מ<name type="work">הירושלמי</name>
 					<lb/>פ״ו ד<name type="work">שבת</name>):
 				</p>
-				</div><div type="story" xml:id="Maasim-Tovim_0008" n="8"><head type="storyHead">Maasim-Tovim_0008</head>
+				</div><div type="story" xml:id="Maasim-Tovim_0008" n="8"><head type="storyHead">Maasim-Tovim_0008</head><span ana="characters-and-roles:elijah_the_prophet; ethics-and-emotions:anger; experience:dream; practice:halakhah; practice:study; ethics-and-emotions:pride; ethics-and-emotions:repentance; ethics-and-emotions:resisting_temptation; not-a-hasidic-story:hagiography; not-a-hasidic-story:virtues" resp="#llm-tagging">תיוגים</span>
 <p>
 					<lb/>ח) מעשה תלמוד תורה.
 				</p>
@@ -499,7 +499,7 @@
 					<lb/>לעולם יעסוק אדם בתורה שלא לשמה שמתוך שלא לשמה
 					<lb/>בא לשמה :
 				</p>
-				</div><div type="story" xml:id="Maasim-Tovim_0009" n="9"><head type="storyHead">Maasim-Tovim_0009</head>
+				</div><div type="story" xml:id="Maasim-Tovim_0009" n="9"><head type="storyHead">Maasim-Tovim_0009</head><span ana="supernatural:miracle; times:shabbat; folkloristics:story_type_virtues; practice:devekut; practice:prayer; practice:sermon" resp="#llm-tagging">תיוגים</span>
 <p>
 					<pb facs="Maasim-Tovim_0018.jpg"/><lb/>ט) קבלת <date>שבת</date> מרבינו <persName>אור ישראל</persName> וקדושו <persName>ר״י בעש״ט</persName> זיע״א.
 				</p>
@@ -515,7 +515,7 @@
 					<lb/>הם בעלי חי ואין בהם שום דעת והשיגו השגה גדולה כ״כ מרוב
 					<lb/>קדושתו ואורו שהכניס הצדיק בזה העולם ומכש״כ אנחנו עם ב״י :
 				</p>
-				</div><div type="story" xml:id="Maasim-Tovim_0010" n="10"><head type="storyHead">Maasim-Tovim_0010</head>
+				</div><div type="story" xml:id="Maasim-Tovim_0010" n="10"><head type="storyHead">Maasim-Tovim_0010</head><span ana="ethics-and-emotions:anger; ethics-and-emotions:punishment; experience:dream; social:conflict; supernatural:miracle; characters-and-roles:scribe; ethics-and-emotions:prohibitions; ethics-and-emotions:sadness; not-a-hasidic-story:hagiography; practice:halakhah; social:converts_and_conversion; social:retrospective_recognition; spaces:rabbinical_court; supernatural:communicating_with_the_invisible; supernatural:prognostication" resp="#llm-tagging">תיוגים</span>
 <p>
 					<lb/>י) מעשה מה שהי׳ בספר תורה של <persName>עזרא הסופר</persName> בימי הגאונים
 					<lb/>אצל רב <persName>שרירא גאון</persName>.
@@ -560,7 +560,7 @@
 					<lb/>הפס"ד מהב״ד של מעלה אשר <persName>עזרא הסופר</persName> בעצמו יתקן את הס״ת
 					<lb/>וכן הי׳ כאשר אמר אביו :
 				</p>
-				</div><div type="story" xml:id="Maasim-Tovim_0011" n="11"><head type="storyHead">Maasim-Tovim_0011</head>
+				</div><div type="story" xml:id="Maasim-Tovim_0011" n="11"><head type="storyHead">Maasim-Tovim_0011</head><span ana="characters-and-roles:elijah_the_prophet; experience:revelation; folkloristics:story_type_virtues; kabbalah:kabbalistic_terms_yihudim; practice:asceticism; practice:storytelling; practice:study; social:retrospective_recognition; supernatural:miracle; ethics-and-emotions:awe; ethics-and-emotions:humility; ethics-and-emotions:repentance; ethics-and-emotions:sadness; practice:meditation; supernatural:communicating_with_the_invisible" resp="#llm-tagging">תיוגים</span>
 <p>
 					<lb/>יא) מעשה פלא מהקדוש והטהור רבן של ישראל ר׳ <persName>שמעלקי
 					<lb/>מ<placeName ana="bio" ref="#H-LOC_66">ניקלשפורג</placeName></persName> זי״ע.
@@ -610,7 +610,7 @@
 					<lb/>האנשים יראי ה׳ שהיו שם התחילו ג״כ לבכות עמו כמעט מי שהי׳
 					<lb/>לו לב בשר נקרע לי״ב גזרים ומי שהי׳ לו לב אבן נמוח :
 				</p>
-				</div><div type="story" xml:id="Maasim-Tovim_0012" n="12"><head type="storyHead">Maasim-Tovim_0012</head>
+				</div><div type="story" xml:id="Maasim-Tovim_0012" n="12"><head type="storyHead">Maasim-Tovim_0012</head><span ana="social:relations_with_non_jews; times:shabbat; not-a-hasidic-story:hagiography; social:relations_with_the_authorities" resp="#llm-tagging">תיוגים</span>
 <p>
 					<lb/>יב) מאכלי <date>שבת</date> מרבינו הקדוש בעל חיבור המשנה.
 				</p>
@@ -634,7 +634,7 @@
 					<lb/>שנחסר זה הוא ה<date>שבת</date> יש לנו יום השביעי ומתנה טובה שבת שמה
 					<lb/>אבל אתה אין משמר השבת. (<name type="work">מד״ר</name>) :
 				</p>
-				</div><div type="story" xml:id="Maasim-Tovim_0013" n="13"><head type="storyHead">Maasim-Tovim_0013</head>
+				</div><div type="story" xml:id="Maasim-Tovim_0013" n="13"><head type="storyHead">Maasim-Tovim_0013</head><span ana="knowledge:esoteric; knowledge:practical_kabbalah; not-a-hasidic-story:hagiography; practice:study; social:relations_with_the_authorities; supernatural:miracle; times:shabbat; characters-and-roles:baal_shem; ethics-and-emotions:adultery; ethics-and-emotions:lying; experience:enthusiasm; folkloristics:story_type_rapprochement; practice:drinking_alcohol; social:relations_with_non_jews; social:retrospective_recognition" resp="#llm-tagging">תיוגים</span>
 <p>
 					<lb/>יג) שבחי אדונינו מורינו ורבן של כל ישראל הרב רבי <persName>משה</persName>
 					<lb/>בן נחמן הוא ה<persName>רמב״ן</persName> אשר חי תחלת <date>אלף הששי</date>.
@@ -660,7 +660,7 @@
 					<lb/>מהרב <persName>הר״א מ<placeName ana="bio">גרמיזא</placeName></persName> בעל ספר <name type="work">הרוקח</name> ומרבו רבי <persName>עזרא</persName> עד שיצא
 					<lb/>ראש החכמים בדורו על זאת החכמה :
 				</p>
-				</div><div type="story" xml:id="Maasim-Tovim_0014" n="14"><head type="storyHead">Maasim-Tovim_0014</head>
+				</div><div type="story" xml:id="Maasim-Tovim_0014" n="14"><head type="storyHead">Maasim-Tovim_0014</head><span ana="ethics-and-emotions:fear; knowledge:practical_kabbalah; not-a-hasidic-story:hagiography; practice:use_of_holy_names; social:relations_with_the_authorities; supernatural:contraction_of_the_road; supernatural:miracle; ethics-and-emotions:prohibitions; practice:joke; social:disobedience; social:relations_with_non_jews" resp="#llm-tagging">תיוגים</span>
 <p>
 					<pb facs="Maasim-Tovim_0022.jpg"/><lb/>יד) מעשה <persName>הרמב״ן</persName> ב<placeName>ברצילינו</placeName> שהוליך ספינה ברוח שפתיו,
 					<lb/>על הייבשה.
@@ -693,7 +693,7 @@
 					<lb/>הספינה בחצי העיר ושם עשו בני העיר מגדל אחד בעד הון עתק
 					<lb/>לזכרון עד היום :
 				</p>
-				</div><div type="story" xml:id="Maasim-Tovim_0015" n="15"><head type="storyHead">Maasim-Tovim_0015</head>
+				</div><div type="story" xml:id="Maasim-Tovim_0015" n="15"><head type="storyHead">Maasim-Tovim_0015</head><span ana="ethics-and-emotions:prohibitions; ethics-and-emotions:punishment; ethics-and-emotions:repentance; experience:dream; experience:trembling; not-a-hasidic-story:hagiography; practice:halakhah; practice:prayer; social:converts_and_conversion; social:relations_with_sinners; times:holidays; ethics-and-emotions:fear; practice:healing_of_the_soul; practice:sermon; social:relations_with_the_authorities; spaces:hell; supernatural:miracle" resp="#llm-tagging">תיוגים</span>
 <p>
 					<pb facs="Maasim-Tovim_0023.jpg"/><lb/>טו) ה<persName>רמב״ן</persName> הי׳ לו תלמיד ונשתמד ושמו <persName>אבנר</persName>.
 				</p>
@@ -740,7 +740,7 @@
 					<lb/>ותרופה לא להוליכו לג"ע ולא לדון אותי בגיהנם כי עד אותו
 					<lb/>הפעם הי׳ התלמיד בכף הקלע :
 				</p>
-				</div><div type="story" xml:id="Maasim-Tovim_0016" n="16"><head type="storyHead">Maasim-Tovim_0016</head>
+				</div><div type="story" xml:id="Maasim-Tovim_0016" n="16"><head type="storyHead">Maasim-Tovim_0016</head><span ana="ethics-and-emotions:sadness; not-a-hasidic-story:hagiography; not-a-hasidic-story:virtues; practice:sermon; social:converts_and_conversion; social:relations_with_non_jews; social:retrospective_recognition; women:major_character; characters-and-roles:the_family_of_the_tsaddik; ethics-and-emotions:adultery; ethics-and-emotions:joy; ethics-and-emotions:lust; practice:asceticism; practice:fasting; practice:tvilah; social:conflict; social:marital_relationship" resp="#llm-tagging">תיוגים</span>
 <p>
 					<lb/>טז) דרשה של ה<persName>רמב״ן</persName> ישראל שהמיר אינו מזרע ישראל.
 				</p>
@@ -786,7 +786,7 @@
 					<lb/>תחת מראשותיו כמאמר הכתוב דברי ל<persName>מואל</persName> מלך <placeName>משא</placeName> אשר יסרתו
 					<lb/>אמו ואשרי המדריך את בניו בדרך טובים אז טוב להם לעולם :
 				</p>
-				</div><div type="story" xml:id="Maasim-Tovim_0017" n="17"><head type="storyHead">Maasim-Tovim_0017</head>
+				</div><div type="story" xml:id="Maasim-Tovim_0017" n="17"><head type="storyHead">Maasim-Tovim_0017</head><span ana="ethics-and-emotions:punishment; not-a-hasidic-story:sermon; practice:prayer; practice:study; social:disobedience; ethics-and-emotions:repentance; ethics-and-emotions:sadness; not-a-hasidic-story:hagiography; social:relations_with_non_jews; women:catalyst_character" resp="#llm-tagging">תיוגים</span>
 <p>
 					<lb/>יז) אחד מתלמידי ה<persName>רמב״ן</persName> חשקה נפשו ב<name type="work">תורה</name>.
 				</p>
@@ -823,7 +823,7 @@
 					<lb/>ממונה כ״א <persName>הקב״ה</persName> בעצמו ובכבודו ולכן אין ננעלים והם פתוחים
 					<lb/>תמיד ונקראים שערי דמעות :
 				</p>
-				</div><div type="story" xml:id="Maasim-Tovim_0018" n="18"><head type="storyHead">Maasim-Tovim_0018</head>
+				</div><div type="story" xml:id="Maasim-Tovim_0018" n="18"><head type="storyHead">Maasim-Tovim_0018</head><span ana="folkloristics:story_type_death_of_the_tsaddik; not-a-hasidic-story:hagiography; spaces:the_land_of_israel; supernatural:miracle; supernatural:prognostication; times:death; women:mention_only; folkloristics:story_type_prognostication; times:eschatology" resp="#llm-tagging">תיוגים</span>
 <p>
 					<lb/>יח) פטירת <persName>הרמב״ן</persName> ז״ל.
 				</p>
@@ -839,7 +839,7 @@
 					<lb/>ח״כ שנקבר הרב על דרך ביאת גאולים שיהי׳ לעתיד לבא יהי
 					<lb/>רצון שנזכה לביאת <name type="misc">המשיח</name> צדקינו במהרה בימנו אכי״ר :
 				</p>
-				</div><div type="story" xml:id="Maasim-Tovim_0019" n="19"><head type="storyHead">Maasim-Tovim_0019</head>
+				</div><div type="story" xml:id="Maasim-Tovim_0019" n="19"><head type="storyHead">Maasim-Tovim_0019</head><span ana="ethics-and-emotions:charity; ethics-and-emotions:fear; ethics-and-emotions:punishment; experience:dream; not-a-hasidic-story:virtues; practice:prayer; social:relations_with_non_jews; social:retrospective_recognition; supernatural:contraction_of_the_road; supernatural:miracle; times:death; ethics-and-emotions:virtues; experience:trembling; practice:fasting; social:conflict; supernatural:communicating_with_the_invisible; times:historical_event; women:mention_only" resp="#llm-tagging">תיוגים</span>
 <p>
 					<lb/>יט) מעשה גדול ונורא של המורד בימי מלך <persName>רדאלפס הראשון</persName>
 					<lb/>ב<date>שנת מ״ו</date> לאלף הששי אשר הטיב ליהודים.
@@ -1148,7 +1148,7 @@
 					<lb/>שהי׳ בטחונו בה׳ תמיד ונהנה דוקא מיגיעו ה׳ יזכנו לעסוק בתורתו
 					<lb/>ומצוותיו ולהיות בטחוננו בו תמיד כל ימי חיינו אכי״ר :
 				</p>
-				</div><div type="story" xml:id="Maasim-Tovim_0020" n="20"><head type="storyHead">Maasim-Tovim_0020</head>
+				</div><div type="story" xml:id="Maasim-Tovim_0020" n="20"><head type="storyHead">Maasim-Tovim_0020</head><span ana="practice:storytelling; spaces:heaven; times:death; times:holidays; times:shabbat; ethics-and-emotions:awe; ethics-and-emotions:fear; ethics-and-emotions:resisting_temptation; experience:enthusiasm; practice:halakhah; practice:sermon; times:eschatology" resp="#llm-tagging">תיוגים</span>
 <p>
 					<pb facs="Maasim-Tovim_0035.jpg"/><lb/>כ) מעשה נטילת ידים מאדון עוזינו הצדיק הקדוש אדמו״ר
 					<lb/>מו"ה <persName>שלום רוקח זי"ע</persName> הגאון האבד"ק <placeName ref="#H-LOC_69">בעלז</placeName>.

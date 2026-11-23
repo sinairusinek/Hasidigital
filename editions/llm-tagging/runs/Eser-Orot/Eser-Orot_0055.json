@@ -1,0 +1,78 @@
+{
+ "unit": {
+  "kind": "hasidic_story",
+  "why": "A short anecdote: during a pious act, a tzaddik falls into a well through rapt devekut and is unharmed.",
+  "boundary_note": "This is one numbered item in a series of anecdotes about the same tzaddik. The previous and next divisions are separate items."
+ },
+ "stories": [
+  {
+   "k": 1,
+   "start_quote": "פ\"א הלך לשאוב מי באר לשם",
+   "end_quote": "כי המים לא היו עמוקים",
+   "hasidic": true,
+   "summary_en": "Once, while drawing water for matzot mitzvah, the tzaddik was so absorbed in devekut that he fell into the well, but he came to no harm because the water was shallow.",
+   "tags": [
+    {
+     "tag": "practice:devekut",
+     "scope": "span",
+     "quotes": [
+      "ומגודל דביקותו נפל תוך בארות המים"
+     ],
+     "confidence": 3,
+     "why": "Rapt attachment to God causes his fall.",
+     "quotes_failed": false
+    },
+    {
+     "tag": "experience:devekut",
+     "scope": "span",
+     "quotes": [
+      "ומגודל דביקותו נפל תוך בארות המים"
+     ],
+     "confidence": 3,
+     "why": "He is depicted in a state of devekut.",
+     "quotes_failed": false
+    },
+    {
+     "tag": "times:holidays",
+     "scope": "span",
+     "quotes": [
+      "לשאוב מי באר לשם מצת מצוה"
+     ],
+     "confidence": 2,
+     "why": "He draws water for Passover matzot (mayim shelanu), on the eve of Pesach.",
+     "quotes_failed": false
+    },
+    {
+     "tag": "folkloristics:story_type_virtues",
+     "scope": "story",
+     "quotes": [],
+     "confidence": 2,
+     "why": "The anecdote illustrates the tzaddik's piety and fervor.",
+     "quotes_failed": false
+    },
+    {
+     "tag": "experience:enthusiasm",
+     "scope": "story",
+     "quotes": [],
+     "confidence": 1,
+     "why": "Fervor during a mitzvah act is implied.",
+     "quotes_failed": false
+    }
+   ],
+   "missing_concepts": [
+    "baking matzah / drawing water for matzah (mayim shelanu)",
+    "mitzvah performance with fervor"
+   ],
+   "start_quote_found": true,
+   "end_quote_found": true
+  }
+ ],
+ "check": {
+  "non_vocab_tags": [],
+  "quotes": 3,
+  "quotes_not_found": 0
+ },
+ "id": "Eser-Orot_0055",
+ "chars": 115,
+ "seconds": 10
+}

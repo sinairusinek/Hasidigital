@@ -1,0 +1,102 @@
+{
+ "unit": {
+  "kind": "hasidic_story",
+  "why": "A short anecdote: the Besht asks Heaven to name the generation's greatest scholar so he can serve him, travels to the author of Tevuot Shor, hands him water for washing his hands, and leaves at once.",
+  "boundary_note": ""
+ },
+ "stories": [
+  {
+   "k": 1,
+   "start_quote": "שמעתי ממנו ז\"ל פ\"א שסיפר כי הבע״שט",
+   "end_quote": "ומיד נסע משם ולא התראה אליו עוד",
+   "hasidic": true,
+   "summary_en": "The Besht asked Heaven who the generation's great scholar was so he could serve him; told it was the author of Tevuot Shor, he travelled to him, gave him water to wash his hands as he rose from bed, and left immediately, never seeing him again.",
+   "tags": [
+    {
+     "tag": "practice:storytelling",
+     "scope": "span",
+     "quotes": [
+      "שמעתי ממנו ז\"ל פ\"א שסיפר"
+     ],
+     "confidence": 2,
+     "why": "framed as a tale told by the author's rebbe",
+     "quotes_failed": false
+    },
+    {
+     "tag": "supernatural:communicating_with_the_invisible",
+     "scope": "span",
+     "quotes": [
+      "הבע״שט הק׳ שאל משמים להגיד לו",
+      "והשיבו לו על הגאון בעל תבואת שור"
+     ],
+     "confidence": 3,
+     "why": "the Besht asks Heaven and is answered",
+     "quotes_failed": false
+    },
+    {
+     "tag": "practice:the_travels_of_the_tsaddik",
+     "scope": "span",
+     "quotes": [
+      "ונסע אליו ובא לחדר משכבו"
+     ],
+     "confidence": 2,
+     "why": "the Besht himself makes the journey",
+     "quotes_failed": false
+    },
+    {
+     "tag": "ethics-and-emotions:humility",
+     "scope": "span",
+     "quotes": [
+      "בכדי לשמשו",
+      "והושיט לו בעש״ט מים ליטול ידיו"
+     ],
+     "confidence": 3,
+     "why": "the Besht serves the scholar",
+     "quotes_failed": false
+    },
+    {
+     "tag": "folkloristics:story_type_virtues",
+     "scope": "story",
+     "quotes": [],
+     "confidence": 2,
+     "why": "illustrates the Besht's humility and his honour for Torah scholars",
+     "quotes_failed": false
+    },
+    {
+     "tag": "social:relations_with_non_hasidim",
+     "scope": "span",
+     "quotes": [
+      "הגאון בעל תבואת שור"
+     ],
+     "confidence": 2,
+     "why": "a non-Hasidic rabbinic scholar",
+     "quotes_failed": false
+    },
+    {
+     "tag": "practice:halakhah",
+     "scope": "span",
+     "quotes": [
+      "ולא היה לו אז מים ליטול ידיו"
+     ],
+     "confidence": 1,
+     "why": "the obligation to wash hands on waking",
+     "quotes_failed": false
+    }
+   ],
+   "missing_concepts": [
+    "serving a Torah scholar (shimush talmidei hakhamim)",
+    "honour of Torah scholars"
+   ],
+   "start_quote_found": true,
+   "end_quote_found": true
+  }
+ ],
+ "check": {
+  "non_vocab_tags": [],
+  "quotes": 8,
+  "quotes_not_found": 0
+ },
+ "id": "Toldot-Haniflaot_0110",
+ "chars": 262,
+ "seconds": 11
+}

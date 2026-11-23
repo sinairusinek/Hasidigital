@@ -1,0 +1,246 @@
+{
+ "unit": {
+  "kind": "hasidic_story",
+  "why": "A single narrative about the Seer of Lublin and a young man whose death-decree is torn up by hasidim drinking 'lechaim' with him, followed by the author's moral and a closing encomium and death notice of the Seer.",
+  "boundary_note": "division ends with an appended encomium and the Seer's death date (Tisha B'Av 5575), not part of the narrative proper"
+ },
+ "stories": [
+  {
+   "k": 1,
+   "start_quote": "הנה בהתגלות הצדיק הקדוש רבו החסידים",
+   "end_quote": "כזה קרעו גזר דינו ונוסף ימים על ימיו",
+   "hasidic": true,
+   "summary_en": "A young man sneaks away from his family to spend Shavuot with the Seer of Lublin, who sends him straight home; at the inn, hasidim heading to Lublin drink 'lechaim' with him all night and bring him back, and the Seer explains that he had foreseen the man's death on the holiday, and that the hasidim's toasts, which accomplished what one tzaddik could not, tore up the decree.",
+   "tags": [
+    {
+     "tag": "practice:travel_to_the_tsaddik",
+     "scope": "span",
+     "quotes": [
+      "ויסע אל הצדיק הק׳ על חג השבועות ללובלין",
+      "כי אתנו תסע ללובלין על יו״ט"
+     ],
+     "confidence": 3,
+     "why": "journeys to the Seer's court for the holiday",
+     "quotes_failed": false
+    },
+    {
+     "tag": "practice:reception_of_hasidim",
+     "scope": "span",
+     "quotes": [
+      "אל תתמהמה פה אך לך שוב לעירך ולביתך",
+      "ולא דיבר הצדיק ולא שתה לבו אליו"
+     ],
+     "confidence": 3,
+     "why": "the tzaddik sends the visitor away and later receives him coolly",
+     "quotes_failed": false
+    },
+    {
+     "tag": "practice:drinking_alcohol",
+     "scope": "span",
+     "quotes": [
+      "ויצקו יין שרף וישתו איש אל רעהו לחיים",
+      "אחרי אשר החסידים שתו אליו לחיים לחיים"
+     ],
+     "confidence": 3,
+     "why": "drinking lechaim is the agent of the wonder",
+     "quotes_failed": false
+    },
+    {
+     "tag": "times:holidays",
+     "scope": "story",
+     "quotes": [],
+     "confidence": 3,
+     "why": "set around Shavuot",
+     "quotes_failed": false
+    },
+    {
+     "tag": "supernatural:perception",
+     "scope": "span",
+     "quotes": [
+      "כי הוא צפה ברוח קדשו"
+     ],
+     "confidence": 3,
+     "why": "the Seer foresaw the decree through holy spirit",
+     "quotes_failed": false
+    },
+    {
+     "tag": "practice:pidyon_nefesh",
+     "scope": "span",
+     "quotes": [
+      "כי נגזר על האברך הלזה כי ימות ח״ו ועדר בחג",
+      "כזה קרעו גזר דינו ונוסף ימים על ימיו"
+     ],
+     "confidence": 2,
+     "why": "a heavenly death decree is averted",
+     "quotes_failed": false
+    },
+    {
+     "tag": "practice:lifesaving",
+     "scope": "span",
+     "quotes": [
+      "כזה קרעו גזר דינו ונוסף ימים על ימיו"
+     ],
+     "confidence": 1,
+     "why": "foretold death averted, though by the hasidim rather than the tzaddik",
+     "quotes_failed": false
+    },
+    {
+     "tag": "supernatural:miracle",
+     "scope": "span",
+     "quotes": [
+      "כזה קרעו גזר דינו ונוסף ימים על ימיו"
+     ],
+     "confidence": 2,
+     "why": "the decree is annulled",
+     "quotes_failed": false
+    },
+    {
+     "tag": "social:inter_hasidic",
+     "scope": "span",
+     "quotes": [
+      "וכל אחד לקח ידו מהאברך הנזכר לחיים",
+      "ויאמרו אל האברך אל תשיב לביתך"
+     ],
+     "confidence": 3,
+     "why": "hasidim among themselves accomplish the rescue",
+     "quotes_failed": false
+    },
+    {
+     "tag": "practice:torat_ha_tsaddik",
+     "scope": "span",
+     "quotes": [
+      "את אשר יוכלו עשרה חסידים לפעול לא יוכל צדיק אחד קדוש"
+     ],
+     "confidence": 2,
+     "why": "the limits of the tzaddik's power versus the power of the collective",
+     "quotes_failed": false
+    },
+    {
+     "tag": "social:disobedience",
+     "scope": "span",
+     "quotes": [
+      "ויאמרו אל האברך אל תשיב לביתך"
+     ],
+     "confidence": 2,
+     "why": "he ignores the tzaddik's order to go home",
+     "quotes_failed": false
+    },
+    {
+     "tag": "social:retrospective_recognition",
+     "scope": "span",
+     "quotes": [
+      "כי האמת כן הוא כי הוא צפה ברוח קדשו"
+     ],
+     "confidence": 2,
+     "why": "the hidden reason for the order is revealed afterwards",
+     "quotes_failed": false
+    },
+    {
+     "tag": "ethics-and-emotions:joy",
+     "scope": "span",
+     "quotes": [
+      "ויסעו שמחים וטובי לב ללובלין"
+     ],
+     "confidence": 2,
+     "why": "joyful journey to the court",
+     "quotes_failed": false
+    },
+    {
+     "tag": "practice:prayer",
+     "scope": "span",
+     "quotes": [
+      "והנה התפללו כולם וביניהם גם האברך הנזכר",
+      "וגם התפלה נשמעת יותר בציבור"
+     ],
+     "confidence": 2,
+     "why": "communal prayer, depicted and drawn as the moral",
+     "quotes_failed": false
+    },
+    {
+     "tag": "women:mention_only",
+     "scope": "span",
+     "quotes": [
+      "אשר התגנב לברוח מאשתו וחותנו וחמותו"
+     ],
+     "confidence": 2,
+     "why": "wife and mother-in-law are only mentioned",
+     "quotes_failed": false
+    },
+    {
+     "tag": "not-a-hasidic-story:sermon",
+     "scope": "span",
+     "quotes": [
+      "למען תודע כפי כל לדעת עד כמה גדלה כח עשרה אנשים"
+     ],
+     "confidence": 1,
+     "why": "the narrative is framed by a moral about communal power",
+     "quotes_failed": false
+    },
+    {
+     "tag": "practice:devekut",
+     "scope": "span",
+     "quotes": [
+      "ודבק כאלקיו ית׳ שמו בדביקות נפלא ונעל׳"
+     ],
+     "confidence": 2,
+     "why": "the closing encomium describes his cleaving to God",
+     "quotes_failed": false
+    },
+    {
+     "tag": "kabbalah:kabbalistic_terms_yihudim",
+     "scope": "span",
+     "quotes": [
+      "ובכל דבר ודבר הי' מייחד יחודים נוראים"
+     ],
+     "confidence": 2,
+     "why": "the encomium describes him performing yihudim",
+     "quotes_failed": false
+    },
+    {
+     "tag": "characters-and-roles:messiah",
+     "scope": "span",
+     "quotes": [
+      "יגיעה גדולה בעבודה ותחנונים ומסירת נפש על הגאולה"
+     ],
+     "confidence": 2,
+     "why": "the Seer's efforts to bring the redemption",
+     "quotes_failed": false
+    },
+    {
+     "tag": "times:eschatology",
+     "scope": "span",
+     "quotes": [
+      "לא בא בן דוד ואכתי עבדי אחשודוש אנן"
+     ],
+     "confidence": 2,
+     "why": "messianic hope and its failure",
+     "quotes_failed": false
+    },
+    {
+     "tag": "times:death",
+     "scope": "span",
+     "quotes": [
+      "ונפטר הק׳ ביום הצום בתשעה באב"
+     ],
+     "confidence": 2,
+     "why": "the Seer's death is noted in the appended encomium",
+     "quotes_failed": false
+    }
+   ],
+   "missing_concepts": [
+    "power of a quorum/collective of ten hasidim to annul a decree",
+    "annulment of a heavenly death decree by toasting lechaim"
+   ],
+   "start_quote_found": true,
+   "end_quote_found": true
+  }
+ ],
+ "check": {
+  "non_vocab_tags": [],
+  "quotes": 26,
+  "quotes_not_found": 0
+ },
+ "id": "Peulat-Hatzadikim_0030",
+ "chars": 3083,
+ "seconds": 31
+}

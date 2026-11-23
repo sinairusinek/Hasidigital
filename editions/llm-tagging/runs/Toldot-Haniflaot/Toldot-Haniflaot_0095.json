@@ -1,0 +1,130 @@
+{
+ "unit": {
+  "kind": "continuation_or_fragment",
+  "why": "The division continues the account of a tzaddik's death from the previous division, narrating his funeral, the eulogies in the beit midrash and the eulogy at the cemetery.",
+  "boundary_note": "continues the death story begun in the previous division (Toldot-Haniflaot_0094)"
+ },
+ "stories": [
+  {
+   "k": 1,
+   "start_quote": "ואח״כ בעת הלויה היו מכניסים אותו",
+   "end_quote": "דורש טוב לישראל בדרשה זו",
+   "hasidic": true,
+   "summary_en": "At the funeral of the holy master, the Saba Kadisha only weeps and cries that it is a great shame his generation's prayers could not keep such a tzaddik alive; R. Y. of Dąbrowa and then the tzaddik of Szydłowiec give eulogies, and at the cemetery the latter speaks of the sermon the deceased was honoured to give in heaven.",
+   "tags": [
+    {
+     "tag": "folkloristics:story_type_death_of_the_tsaddik",
+     "scope": "story",
+     "quotes": [],
+     "confidence": 3,
+     "why": "The account of the tzaddik's funeral and eulogies, continuing his death scene",
+     "quotes_failed": false
+    },
+    {
+     "tag": "times:death",
+     "scope": "story",
+     "quotes": [],
+     "confidence": 3,
+     "why": "The tzaddik's death and burial frame the whole text",
+     "quotes_failed": false
+    },
+    {
+     "tag": "spaces:beth_midrash",
+     "scope": "span",
+     "quotes": [
+      "היו מכניסים אותו לבית המדרש הגדול בבכיה גדולה"
+     ],
+     "confidence": 3,
+     "why": "The bier is brought into the great beit midrash for the eulogy",
+     "quotes_failed": false
+    },
+    {
+     "tag": "ethics-and-emotions:shame",
+     "scope": "span",
+     "quotes": [
+      "גדולה הבושה אלי אשר אנחנו לא היינו יכולים"
+     ],
+     "confidence": 2,
+     "why": "The eulogist voices shame at failing to keep the tzaddik alive through prayer",
+     "quotes_failed": false
+    },
+    {
+     "tag": "ethics-and-emotions:sadness",
+     "scope": "span",
+     "quotes": [
+      "היה צועק בקול בכיה ודמעותיו על לחיו וזקנו",
+      "עד שגעו כל העם בבכיה רבה יותר"
+     ],
+     "confidence": 1,
+     "why": "Intense grief and weeping are depicted (grief, not melancholy as a spiritual problem)",
+     "quotes_failed": false
+    },
+    {
+     "tag": "practice:sermon",
+     "scope": "span",
+     "quotes": [
+      "ואח״כ הספיד אותו הה\"צ ר״י מדאבמראווע",
+      "שהיה מדבר מהדרשה שכיבדו את מרן"
+     ],
+     "confidence": 2,
+     "why": "Eulogies, and talk of a heavenly sermon given by the deceased",
+     "quotes_failed": false
+    },
+    {
+     "tag": "spaces:heaven",
+     "scope": "span",
+     "quotes": [
+      "מהדרשה שכיבדו את מרן הק׳ ז\"ל בשמים"
+     ],
+     "confidence": 1,
+     "why": "Heaven is mentioned as the place where the deceased gives a sermon, but no action is set there",
+     "quotes_failed": false
+    },
+    {
+     "tag": "supernatural:perception",
+     "scope": "span",
+     "quotes": [
+      "שהיה מדבר מהדרשה שכיבדו את מרן"
+     ],
+     "confidence": 2,
+     "why": "The Szydłowiec tzaddik knows what happened to the soul in heaven right after the burial",
+     "quotes_failed": false
+    },
+    {
+     "tag": "practice:pilgrimage_to_the_graves_of_tsaddikim",
+     "scope": "span",
+     "quotes": [
+      "שמה בבית החיים אחר הקבורה"
+     ],
+     "confidence": 1,
+     "why": "The burial of a tzaddik is shown as a site of reverence",
+     "quotes_failed": false
+    },
+    {
+     "tag": "social:inter_hasidic",
+     "scope": "span",
+     "quotes": [
+      "ואח״כ בבית החיים הספיד אותו ההק׳ המפורסם"
+     ],
+     "confidence": 1,
+     "why": "Several tzaddikim take part in eulogizing the deceased master",
+     "quotes_failed": false
+    }
+   ],
+   "missing_concepts": [
+    "funeral / levayah and eulogy (hesped) as rite",
+    "first-person eyewitness narrator (שמעתי)"
+   ],
+   "start_quote_found": true,
+   "end_quote_found": true
+  }
+ ],
+ "check": {
+  "non_vocab_tags": [],
+  "quotes": 10,
+  "quotes_not_found": 0
+ },
+ "id": "Toldot-Haniflaot_0095",
+ "chars": 608,
+ "seconds": 20
+}

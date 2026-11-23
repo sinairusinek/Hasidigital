@@ -1,0 +1,154 @@
+{
+ "unit": {
+  "kind": "hasidic_story",
+  "why": "A single narrative: R. Zusha, wandering incognito, meets the ten-year-old Jacob Isaac of Lublin, whose long weeping leads Zusha to grant him nefesh and ruach and send him to R. Elimelekh.",
+  "boundary_note": ""
+ },
+ "stories": [
+  {
+   "k": 1,
+   "start_quote": "בעת שהי׳ הה״ק רבי ר׳ אישא ז\"ל ונד",
+   "end_quote": "ומאז נעשה תלמיד הקדוש רבי אלימלך ז״ל",
+   "hasidic": true,
+   "summary_en": "While R. Zusha wandered unrecognized, he prayed behind the stove in the town of the boy Jacob Isaac (the future Seer of Lublin); after one look from Zusha the boy wept for hours until blood came, and Zusha told him he had given him nefesh and ruach and sent him to his brother Elimelekh, of whom the boy became a disciple.",
+   "tags": [
+    {
+     "tag": "practice:the_travels_of_the_tsaddik",
+     "scope": "span",
+     "quotes": [
+      "ונד בכל עיר ועיר וטרם ידעו ממנו"
+     ],
+     "confidence": 3,
+     "why": "Zusha's wandering incognito frames the encounter",
+     "quotes_failed": false
+    },
+    {
+     "tag": "practice:prayer",
+     "scope": "span",
+     "quotes": [
+      "עמד להתפלל אחורי התנור כדרכו",
+      "והחזיר פניו להתנור והתפלל כמקודם"
+     ],
+     "confidence": 3,
+     "why": "Zusha praying wrapped in his tallit",
+     "quotes_failed": false
+    },
+    {
+     "tag": "practice:clothing",
+     "scope": "span",
+     "quotes": [
+      "וראשו מעוטף בטלית"
+     ],
+     "confidence": 1,
+     "why": "the tallit over his head marks a devotional posture",
+     "quotes_failed": false
+    },
+    {
+     "tag": "practice:healing_of_the_soul",
+     "scope": "span",
+     "quotes": [
+      "נפש ורוח יש לך מעתה כי נתתי לך"
+     ],
+     "confidence": 3,
+     "why": "Zusha bestows soul-levels on the boy",
+     "quotes_failed": false
+    },
+    {
+     "tag": "practice:travel_to_other_tsaddik",
+     "scope": "span",
+     "quotes": [
+      "לך לאחי אלימלך ויהי׳ לך נשמה גם כן"
+     ],
+     "confidence": 2,
+     "why": "sent on to another tzaddik to complete his soul",
+     "quotes_failed": false
+    },
+    {
+     "tag": "social:inter_hasidic_master_disciple_relationship",
+     "scope": "span",
+     "quotes": [
+      "ומאז נעשה תלמיד הקדוש רבי אלימלך ז״ל"
+     ],
+     "confidence": 3,
+     "why": "the origin of the Seer's discipleship",
+     "quotes_failed": false
+    },
+    {
+     "tag": "folkloristics:story_type_advent",
+     "scope": "story",
+     "quotes": [],
+     "confidence": 2,
+     "why": "the boy's first encounter with a tzaddik who draws him in",
+     "quotes_failed": false
+    },
+    {
+     "tag": "supernatural:perception",
+     "scope": "span",
+     "quotes": [
+      "אז הביט הה״ק ר״ הה״ק ר׳ יעקב יצחק"
+     ],
+     "confidence": 1,
+     "why": "a single glance from Zusha opens the boy's spiritual potential",
+     "quotes_failed": false
+    },
+    {
+     "tag": "supernatural:miracle",
+     "scope": "span",
+     "quotes": [
+      "ויפתחו מעינות תחום דמעות של הנער הזה"
+     ],
+     "confidence": 2,
+     "why": "extraordinary weeping triggered by Zusha's glance",
+     "quotes_failed": false
+    },
+    {
+     "tag": "experience:enthusiasm",
+     "scope": "span",
+     "quotes": [
+      "וזלגו דמעות מאין הפוגות שעה ושתים",
+      "עד שפסקו הדמעות וירד דם"
+     ],
+     "confidence": 2,
+     "why": "the boy's overwhelming religious arousal in tears",
+     "quotes_failed": false
+    },
+    {
+     "tag": "practice:devekut",
+     "scope": "span",
+     "quotes": [
+      "והה״ק רב זושא לא הביט בו כלל"
+     ],
+     "confidence": 1,
+     "why": "Zusha absorbed in prayer",
+     "quotes_failed": false
+    },
+    {
+     "tag": "characters-and-roles:the_family_of_the_tsaddik",
+     "scope": "span",
+     "quotes": [
+      "אל העיר אשר גר שם אבי הה״ק",
+      "לך לאחי אלימלך"
+     ],
+     "confidence": 1,
+     "why": "the Seer's father is mentioned and Elimelekh is Zusha's brother",
+     "quotes_failed": false
+    }
+   ],
+   "missing_concepts": [
+    "weeping / tears as spiritual opening",
+    "bestowal of soul levels (nefesh, ruach, neshamah)",
+    "childhood of a tzaddik"
+   ],
+   "start_quote_found": true,
+   "end_quote_found": true
+  }
+ ],
+ "check": {
+  "non_vocab_tags": [],
+  "quotes": 14,
+  "quotes_not_found": 0
+ },
+ "id": "Peulat-Hatzadikim_0011",
+ "chars": 603,
+ "seconds": 15
+}

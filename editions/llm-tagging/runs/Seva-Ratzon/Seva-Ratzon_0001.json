@@ -1,0 +1,334 @@
+{
+ "unit": {
+  "kind": "several_stories",
+  "why": "Two linked narratives about R. Berish of Oświęcim: he heals a butcher's injured hand, and the same butcher later sends the merchant R. Michel Brauer to him, whose prophetic letter about a lease comes true and wins over the scoffing Prussian rabbi.",
+  "boundary_note": "The two episodes are joined by the butcher character; the next division begins a new tale."
+ },
+ "stories": [
+  {
+   "k": 1,
+   "start_quote": "כמו רבע פרסה סמוך לאושפצין יש מקום",
+   "end_quote": "וגם תלמידי תלמידיו עד ביאת המשיח",
+   "hasidic": true,
+   "summary_en": "A Jewish butcher whose hand a great doctor wants to amputate goes to R. Berish of Oświęcim, who expounds a verse and prescribes a bread-and-butter poultice that heals the hand fully; he credits the healing to his master of Chrzanów and a chain of power going back to the Besht.",
+   "tags": [
+    {
+     "tag": "practice:healing",
+     "scope": "span",
+     "quotes": [
+      "תקח פרורי לחם דגן ותשרה במים",
+      "כי נרפא היד בשלימות"
+     ],
+     "confidence": 3,
+     "why": "The tsaddik heals the hand after the doctor fails.",
+     "quotes_failed": false
+    },
+    {
+     "tag": "supernatural:miracle",
+     "scope": "span",
+     "quotes": [
+      "ויבא הקצב להרב ר״ב להראותו כי נרפא היד"
+     ],
+     "confidence": 2,
+     "why": "A wondrous cure.",
+     "quotes_failed": false
+    },
+    {
+     "tag": "practice:travel_to_the_tsaddik",
+     "scope": "span",
+     "quotes": [
+      "ליסע לאושפצין אל הה״ק ר׳ בעריש"
+     ],
+     "confidence": 3,
+     "why": "The butcher travels to the tsaddik.",
+     "quotes_failed": false
+    },
+    {
+     "tag": "practice:reception_of_hasidim",
+     "scope": "span",
+     "quotes": [
+      "ויצו למשמשו להתיר לו היד ולראות הכאב"
+     ],
+     "confidence": 2,
+     "why": "The tsaddik receives the petitioner.",
+     "quotes_failed": false
+    },
+    {
+     "tag": "practice:sermon",
+     "scope": "span",
+     "quotes": [
+      "כתוב בתורה אני אמית ואחיה מחצתי ואני ארפא"
+     ],
+     "confidence": 3,
+     "why": "The tsaddik gives an exegesis of a verse.",
+     "quotes_failed": false
+    },
+    {
+     "tag": "times:eschatology",
+     "scope": "span",
+     "quotes": [
+      "ודרשו רז״ל דזה נאמר על תחיית המתים"
+     ],
+     "confidence": 2,
+     "why": "The teaching concerns the resurrection of the dead.",
+     "quotes_failed": false
+    },
+    {
+     "tag": "practice:torat_ha_tsaddik",
+     "scope": "span",
+     "quotes": [
+      "הוא פעל שתלמידיו יוכלו ג״כ לפעול פעולות כמוהו"
+     ],
+     "confidence": 3,
+     "why": "The power of tsaddikim is passed down a chain from the Besht.",
+     "quotes_failed": false
+    },
+    {
+     "tag": "social:inter_hasidic_master_disciple_relationship",
+     "scope": "span",
+     "quotes": [
+      "רק רבינו אשר הי׳ לי בקשאנוב הוא הבטחני"
+     ],
+     "confidence": 2,
+     "why": "The disciple's power derives from his master.",
+     "quotes_failed": false
+    },
+    {
+     "tag": "ethics-and-emotions:humility",
+     "scope": "span",
+     "quotes": [
+      "תדע כי אני לא פעלתי מאומו"
+     ],
+     "confidence": 3,
+     "why": "The tsaddik disclaims his own power.",
+     "quotes_failed": false
+    },
+    {
+     "tag": "ethics-and-emotions:fear",
+     "scope": "span",
+     "quotes": [
+      "ויבהל מאד הקצב"
+     ],
+     "confidence": 2,
+     "why": "The butcher fears the amputation.",
+     "quotes_failed": false
+    },
+    {
+     "tag": "supernatural:prognostication",
+     "scope": "span",
+     "quotes": [
+      "ויתרפא היד וכשתעשה פעם ג׳ לאיה שום רושם"
+     ],
+     "confidence": 2,
+     "why": "He foretells the course of the cure.",
+     "quotes_failed": false
+    },
+    {
+     "tag": "social:relations_with_non_hasidim",
+     "scope": "span",
+     "quotes": [
+      "כי ידעתי שהרופא ההוא הנהו אפיקורם גדול"
+     ],
+     "confidence": 1,
+     "why": "The cure is meant as a sanctification of God's name before the skeptical doctor.",
+     "quotes_failed": false
+    }
+   ],
+   "missing_concepts": [
+    "kiddush ha-shem / sanctifying the Name before a skeptic",
+    "physician versus tsaddik",
+    "threatened amputation"
+   ],
+   "start_quote_found": true,
+   "end_quote_found": true
+  },
+  {
+   "k": 2,
+   "start_quote": "והנה מקום יש בפרייסין ושמו אלטברויען",
+   "end_quote": "והראה מופתים גדולים ונוראים",
+   "hasidic": true,
+   "summary_en": "The merchant R. Michel Brauer of Gleiwitz, advised by the healed butcher, secretly sends a pidyon letter to R. Berish; the tsaddik writes back predicting how the landlord will re-lease him the house, and the local Prussian rabbi mocks the letter; the prophecy is fulfilled, the shamed rabbi travels to Oświęcim to ask forgiveness, and Prussians begin to visit the tsaddik.",
+   "tags": [
+    {
+     "tag": "practice:business_advice",
+     "scope": "span",
+     "quotes": [
+      "והאראנדי ששבר אינו מקום פרנסה",
+      "אך הבית אשר ישבת תשב בו"
+     ],
+     "confidence": 3,
+     "why": "Advice on a lease and on a business.",
+     "quotes_failed": false
+    },
+    {
+     "tag": "supernatural:prognostication",
+     "scope": "span",
+     "quotes": [
+      "אני אבטיחך שישבור לך הבית",
+      "כי לא יפול דבר מכל אשר כתב"
+     ],
+     "confidence": 3,
+     "why": "Detailed prediction that comes true.",
+     "quotes_failed": false
+    },
+    {
+     "tag": "folkloristics:story_type_prognostication",
+     "scope": "story",
+     "quotes": [],
+     "confidence": 3,
+     "why": "The plot arc is a fulfilled prophecy.",
+     "quotes_failed": false
+    },
+    {
+     "tag": "folkloristics:story_type_rapprochement",
+     "scope": "span",
+     "quotes": [
+      "ביקש הרב מר׳ מיכל שיסן עמו לאושפצין",
+      "ומן אז והלאה נסעו אליו מפרייסין"
+     ],
+     "confidence": 3,
+     "why": "The scoffing rabbi and Prussian Jews are drawn to the tsaddik.",
+     "quotes_failed": false
+    },
+    {
+     "tag": "social:relations_with_non_hasidim",
+     "scope": "span",
+     "quotes": [
+      "אז התחיל הרב להתלוצץ כדרך הלצים",
+      "כי רבני פרייסין עושים אפיקורסים במדינה"
+     ],
+     "confidence": 3,
+     "why": "Encounter with a non-Hasidic Prussian rabbi.",
+     "quotes_failed": false
+    },
+    {
+     "tag": "social:conflict",
+     "scope": "span",
+     "quotes": [
+      "ויספר להם מן המכתב ההוא ויתלוצצו כולם"
+     ],
+     "confidence": 2,
+     "why": "The rabbi publicly mocks the tsaddik.",
+     "quotes_failed": false
+    },
+    {
+     "tag": "ethics-and-emotions:shame",
+     "scope": "span",
+     "quotes": [
+      "ור׳ מיכל נתבייש מאד",
+      "והרב נתבייש מאד"
+     ],
+     "confidence": 3,
+     "why": "First the merchant and then the scoffer are shamed.",
+     "quotes_failed": false
+    },
+    {
+     "tag": "social:retrospective_recognition",
+     "scope": "span",
+     "quotes": [
+      "לבקש מחילה מהה״ק ר׳ בעריש"
+     ],
+     "confidence": 2,
+     "why": "The mocker realizes he was wrong about the tsaddik.",
+     "quotes_failed": false
+    },
+    {
+     "tag": "social:relations_with_non_jews",
+     "scope": "span",
+     "quotes": [
+      "שלח פדיון ע״י ערל משרה",
+      "ויבא להאדון ויקבלהו בספ״י"
+     ],
+     "confidence": 2,
+     "why": "A Gentile messenger and the lord who owns the house.",
+     "quotes_failed": false
+    },
+    {
+     "tag": "practice:pidyon_nefesh",
+     "scope": "span",
+     "quotes": [
+      "מכתבו עם הפדיון קבלתי לנכון"
+     ],
+     "confidence": 2,
+     "why": "A pidyon payment is sent to the tsaddik.",
+     "quotes_failed": false
+    },
+    {
+     "tag": "practice:torat_ha_tsaddik",
+     "scope": "span",
+     "quotes": [
+      "הבטיח לי כל אשר יצא מפי יקיים הש״י"
+     ],
+     "confidence": 3,
+     "why": "God fulfils whatever the tsaddik says.",
+     "quotes_failed": false
+    },
+    {
+     "tag": "ethics-and-emotions:humility",
+     "scope": "span",
+     "quotes": [
+      "דע כי לא נביא אני ולא בן נביא"
+     ],
+     "confidence": 3,
+     "why": "The tsaddik disclaims prophetic status.",
+     "quotes_failed": false
+    },
+    {
+     "tag": "ethics-and-emotions:joy",
+     "scope": "span",
+     "quotes": [
+      "שמח שמחה גדולה ובירך שהחיינו"
+     ],
+     "confidence": 2,
+     "why": "The hasid rejoices at the tsaddik's growing fame.",
+     "quotes_failed": false
+    },
+    {
+     "tag": "social:inter_hasidic_master_disciple_relationship",
+     "scope": "span",
+     "quotes": [
+      "חסיד מתלמידי הה״ק ל בעריש שלמד אצלו"
+     ],
+     "confidence": 1,
+     "why": "R. David Leib acts as the tsaddik's disciple.",
+     "quotes_failed": false
+    },
+    {
+     "tag": "practice:travel_to_the_tsaddik",
+     "scope": "span",
+     "quotes": [
+      "וישבו באושפצין ב׳ ימים לשמוע דבריו הק׳"
+     ],
+     "confidence": 3,
+     "why": "The rabbi and merchants travel to the tsaddik.",
+     "quotes_failed": false
+    },
+    {
+     "tag": "supernatural:miracle",
+     "scope": "span",
+     "quotes": [
+      "והראה מופתים גדולים ונוראים"
+     ],
+     "confidence": 1,
+     "why": "The fulfilment is framed as a wonder.",
+     "quotes_failed": false
+    }
+   ],
+   "missing_concepts": [
+    "a tsaddik's letter as the means of a wonder",
+    "Hasidism spreading into Prussia / German Jews",
+    "secrecy for fear of ridicule"
+   ],
+   "start_quote_found": true,
+   "end_quote_found": true
+  }
+ ],
+ "check": {
+  "non_vocab_tags": [],
+  "quotes": 34,
+  "quotes_not_found": 0
+ },
+ "id": "Seva-Ratzon_0001",
+ "chars": 5229,
+ "seconds": 39
+}

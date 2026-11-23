@@ -1,0 +1,129 @@
+{
+ "unit": {
+  "kind": "hasidic_story",
+  "why": "A short memorate: a disciple overheard the Seer of Lublin after midnight, before his study, weeping and pleading in self-abasement. It is quoted to support a homiletic point about humbling oneself and repenting before Torah and prayer.",
+  "boundary_note": "One numbered excerpt (סו) in a chain of quotations from the same source; the narrative core is minimal and framed by a teaching."
+ },
+ "stories": [
+  {
+   "k": 1,
+   "start_quote": "כמו שהזהיר אותנו רבינו הק' מוהרי״י מלובלין",
+   "end_quote": "בנקל יוכל לדחות לשאול תחתית ח״ו",
+   "hasidic": true,
+   "summary_en": "A disciple heard the Seer of Lublin, after midnight and before his study, fear that he was among the wicked to whom God says 'what hast thou to declare My statutes'; he wept, pleaded, and declared that he would not believe even an angel who called him righteous.",
+   "tags": [
+    {
+     "tag": "ethics-and-emotions:humility",
+     "scope": "span",
+     "quotes": [
+      "להשפיל א\"ע ולעשות תשובה קודם כל תורה ותפלה",
+      "אין גרוע בעולם כמותי"
+     ],
+     "confidence": 3,
+     "why": "Self-abasement is the point of the passage.",
+     "quotes_failed": false
+    },
+    {
+     "tag": "ethics-and-emotions:repentance",
+     "scope": "span",
+     "quotes": [
+      "ולעשות תשובה קודם כל תורה ותפלה"
+     ],
+     "confidence": 2,
+     "why": "Teshuvah before study and prayer is shown in practice.",
+     "quotes_failed": false
+    },
+    {
+     "tag": "practice:prayer",
+     "scope": "span",
+     "quotes": [
+      "והאריך בדברי ריצוי ובכיה ותחנונים"
+     ],
+     "confidence": 3,
+     "why": "Tearful supplication is depicted.",
+     "quotes_failed": false
+    },
+    {
+     "tag": "practice:study",
+     "scope": "span",
+     "quotes": [
+      "שאחר חצות קודם למודו אמר רבש״ע"
+     ],
+     "confidence": 2,
+     "why": "The scene is his preparation before night study.",
+     "quotes_failed": false
+    },
+    {
+     "tag": "ethics-and-emotions:sadness",
+     "scope": "span",
+     "quotes": [
+      "והתמרמר מאד והאריך בדברי ריצוי ובכיה"
+     ],
+     "confidence": 1,
+     "why": "Bitter weeping is shown, though as contrition rather than melancholy.",
+     "quotes_failed": false
+    },
+    {
+     "tag": "ethics-and-emotions:fear",
+     "scope": "span",
+     "quotes": [
+      "כי בנקל יוכל לדחות לשאול תחתית ח״ו"
+     ],
+     "confidence": 2,
+     "why": "He fears divine rejection.",
+     "quotes_failed": false
+    },
+    {
+     "tag": "ethics-and-emotions:awe",
+     "scope": "span",
+     "quotes": [
+      "ואם יאמר לי הקב״ה בעצמו שאני צדיק"
+     ],
+     "confidence": 1,
+     "why": "His stance before God is one of reverent awe.",
+     "quotes_failed": false
+    },
+    {
+     "tag": "social:inter_hasidic_master_disciple_relationship",
+     "scope": "span",
+     "quotes": [
+      "כמו ששמע ממנו תלמיד אחד"
+     ],
+     "confidence": 1,
+     "why": "The scene is a disciple's testimony about his master.",
+     "quotes_failed": false
+    },
+    {
+     "tag": "folkloristics:story_type_virtues",
+     "scope": "story",
+     "quotes": [],
+     "confidence": 2,
+     "why": "The anecdote illustrates the tzaddik's humility.",
+     "quotes_failed": false
+    },
+    {
+     "tag": "not-a-hasidic-story:sermon",
+     "scope": "story",
+     "quotes": [],
+     "confidence": 2,
+     "why": "The anecdote is embedded in a homiletic exhortation quoted from a book.",
+     "quotes_failed": false
+    }
+   ],
+   "missing_concepts": [
+    "midnight vigil (tikkun hatzot) before study",
+    "self-abasement / sense of one's own unworthiness"
+   ],
+   "start_quote_found": true,
+   "end_quote_found": true
+  }
+ ],
+ "check": {
+  "non_vocab_tags": [],
+  "quotes": 9,
+  "quotes_not_found": 0
+ },
+ "id": "Eser-Kedushot_0193",
+ "chars": 456,
+ "seconds": 16
+}

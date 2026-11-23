@@ -1,0 +1,121 @@
+{
+ "unit": {
+  "kind": "hasidic_story",
+  "why": "A halakhic note on tefillin from Ketem Ofir leads into a narrated anecdote: a hasid asked the Komarno rebbe how he had seen the Baal HaTanya's tefillin, and the rebbe told of a dream-appearance of the Baal HaTanya.",
+  "boundary_note": ""
+ },
+ "stories": [
+  {
+   "k": 1,
+   "start_quote": "(מו) שם בכתם אופיר בפ׳ ויקר",
+   "end_quote": "וכתבתי סתם שראיתי הבתים :",
+   "hasidic": true,
+   "summary_en": "The Komarno rebbe wrote that he had 'seen' the tefillin of R. Shneur Zalman of Liadi, which were lost. Asked how, he said that while writing his book he dozed off and the Baal HaTanya appeared holding tefillin, showed him how they were made, and told him to write it. Out of modesty he wrote only that he had seen them.",
+   "tags": [
+    {
+     "tag": "practice:tefillin",
+     "scope": "span",
+     "quotes": [
+      "ומענין הפוטרינוק שנותנין תחתיו לחיזוק",
+      "ובא אליו הגאוה״ק מוהר״ז ותפילין בידו"
+     ],
+     "confidence": 3,
+     "why": "The construction of the Baal HaTanya's tefillin is the subject.",
+     "quotes_failed": false
+    },
+    {
+     "tag": "practice:halakhah",
+     "scope": "span",
+     "quotes": [
+      "הוא כשר לכתחלה בלי פקפוק וכו'"
+     ],
+     "confidence": 3,
+     "why": "A halakhic ruling on the reinforcing piece under the tefillin.",
+     "quotes_failed": false
+    },
+    {
+     "tag": "experience:dream",
+     "scope": "span",
+     "quotes": [
+      "נרדם איזה רגעים באמצע כתיבה"
+     ],
+     "confidence": 3,
+     "why": "The Baal HaTanya appears while the rebbe dozes off.",
+     "quotes_failed": false
+    },
+    {
+     "tag": "experience:revelation",
+     "scope": "span",
+     "quotes": [
+      "והראה לו שכך נעשו וצוה לו לכתוב כן בספרו"
+     ],
+     "confidence": 3,
+     "why": "A deceased tzaddik discloses how his tefillin were made.",
+     "quotes_failed": false
+    },
+    {
+     "tag": "supernatural:communicating_with_the_invisible",
+     "scope": "span",
+     "quotes": [
+      "ובא אליו הגאוה״ק מוהר״ז ותפילין בידו"
+     ],
+     "confidence": 2,
+     "why": "The rebbe communicates with the soul of a dead tzaddik.",
+     "quotes_failed": false
+    },
+    {
+     "tag": "ethics-and-emotions:humility",
+     "scope": "span",
+     "quotes": [
+      "אין פאר דער וועלט האב איך דאם נישט גיוואלט ארויס שרייבין"
+     ],
+     "confidence": 2,
+     "why": "He conceals the revelation and writes only 'I saw'.",
+     "quotes_failed": false
+    },
+    {
+     "tag": "practice:storytelling",
+     "scope": "span",
+     "quotes": [
+      "וסיפר לי איש מופלג ביראת השם חסיד מפורסם"
+     ],
+     "confidence": 2,
+     "why": "The anecdote is framed as told by a hasid to the author.",
+     "quotes_failed": false
+    },
+    {
+     "tag": "social:retrospective_recognition",
+     "scope": "span",
+     "quotes": [
+      "וכתבתי סתם שראיתי הבתים"
+     ],
+     "confidence": 1,
+     "why": "The hidden meaning of 'I saw' is explained after the fact.",
+     "quotes_failed": false
+    },
+    {
+     "tag": "not-a-hasidic-story:sermon",
+     "scope": "story",
+     "quotes": [],
+     "confidence": 1,
+     "why": "The narrative sits inside a halakhic citation frame.",
+     "quotes_failed": false
+    }
+   ],
+   "missing_concepts": [
+    "authorship of a book guided by a dead tzaddik",
+    "a halakhic ruling legitimated by a dream"
+   ],
+   "start_quote_found": true,
+   "end_quote_found": true
+  }
+ ],
+ "check": {
+  "non_vocab_tags": [],
+  "quotes": 9,
+  "quotes_not_found": 0
+ },
+ "id": "Eser-Kedushot_0189",
+ "chars": 599,
+ "seconds": 16
+}

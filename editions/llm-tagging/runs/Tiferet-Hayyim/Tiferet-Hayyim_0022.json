@@ -1,0 +1,211 @@
+{
+ "unit": {
+  "kind": "several_stories",
+  "why": "The division finishes the Radoshitz rebbe's deathbed-confession anecdote from the previous division, then gives a second tale: the Radoshitz rebbe's habitual story about R. Hayyim Haikl of Amdur, followed by a short homiletic coda on semikha.",
+  "boundary_note": "first story begins in previous division (Tiferet-Hayyim_0021)"
+ },
+ "stories": [
+  {
+   "k": 1,
+   "start_quote": "לעבוד להשי\"ת יותר בשקידה זה ג״כ",
+   "end_quote": "וחי עוד לערך עשרים שנה",
+   "hasidic": true,
+   "summary_en": "During an illness the Radoshitz rebbe reasons that he cannot honestly confess sins or laxity, so he resolves instead to serve God with purer intent if healed; he recovers and lives about twenty more years.",
+   "tags": [
+    {
+     "tag": "practice:healing",
+     "scope": "span",
+     "quotes": [
+      "וכן הי׳ שנתרפא מחליו וחי עוד לערך עשרים שנה"
+     ],
+     "confidence": 2,
+     "why": "recovery from illness follows his resolution",
+     "quotes_failed": false
+    },
+    {
+     "tag": "supernatural:miracle",
+     "scope": "span",
+     "quotes": [
+      "וכן הי׳ שנתרפא מחליו"
+     ],
+     "confidence": 1,
+     "why": "recovery implied as answer to his vow",
+     "quotes_failed": false
+    },
+    {
+     "tag": "ethics-and-emotions:lying",
+     "scope": "span",
+     "quotes": [],
+     "confidence": 1,
+     "why": "refuses a false confession",
+     "quotes_failed": false
+    },
+    {
+     "tag": "ethics-and-emotions:virtues",
+     "scope": "span",
+     "quotes": [
+      "לעבוד להשי\"ת בדעת צלולה וזכה בלי שום פניה"
+     ],
+     "confidence": 2,
+     "why": "sincerity and pure service of God",
+     "quotes_failed": false
+    },
+    {
+     "tag": "folkloristics:story_type_virtues",
+     "scope": "story",
+     "quotes": [],
+     "confidence": 2,
+     "why": "illustrates the tzaddik's truthfulness and devotion",
+     "quotes_failed": false
+    },
+    {
+     "tag": "ethics-and-emotions:repentance",
+     "scope": "span",
+     "quotes": [
+      "רק זאת אוכל לקבל עלי מהיום והלאה"
+     ],
+     "confidence": 1,
+     "why": "deathbed confession and resolution, framed as viduy",
+     "quotes_failed": false
+    }
+   ],
+   "missing_concepts": [
+    "deathbed confession (viduy)",
+    "illness of the tzaddik",
+    "vow made in illness"
+   ],
+   "start_quote_found": true,
+   "end_quote_found": true
+  },
+  {
+   "k": 2,
+   "start_quote": "וכמו ששמענו מאת הה״ק מראדשיץ זלה\"ה",
+   "end_quote": "כי הכל תולה בזכות הצי״ע",
+   "hasidic": true,
+   "summary_en": "The Radoshitz rebbe often told how R. Hayyim Haikl of Amdur fasted from Sabbath to Sabbath and kept a thousand night vigils of study, yet his tikkun was completed only when he came to the Maggid of Mezeritch for a Sabbath; the text then explains this as the power of semikha passed from Moses to Joshua.",
+   "tags": [
+    {
+     "tag": "practice:asceticism",
+     "scope": "span",
+     "quotes": [
+      "שעשה בעצמו כמה סגופי׳ להתענות משבת לשבת"
+     ],
+     "confidence": 3,
+     "why": "self-mortification",
+     "quotes_failed": false
+    },
+    {
+     "tag": "practice:fasting",
+     "scope": "span",
+     "quotes": [
+      "להתענות משבת לשבת כמה פעמים"
+     ],
+     "confidence": 3,
+     "why": "fasting from Sabbath to Sabbath",
+     "quotes_failed": false
+    },
+    {
+     "tag": "practice:study",
+     "scope": "span",
+     "quotes": [
+      "ואלף לילות ה׳ ניעור משנתו ללמוד כל הלילה"
+     ],
+     "confidence": 3,
+     "why": "night-long Torah study",
+     "quotes_failed": false
+    },
+    {
+     "tag": "practice:travel_to_the_tsaddik",
+     "scope": "span",
+     "quotes": [
+      "עד אשר בא לרבינו הקדוש מוהד״ב ממעזריטש זלה\"ה על שבת"
+     ],
+     "confidence": 3,
+     "why": "comes to the Maggid for Sabbath",
+     "quotes_failed": false
+    },
+    {
+     "tag": "times:shabbat",
+     "scope": "span",
+     "quotes": [
+      "ממעזריטש זלה\"ה על שבת כידוע"
+     ],
+     "confidence": 2,
+     "why": "the decisive visit is a Sabbath",
+     "quotes_failed": false
+    },
+    {
+     "tag": "practice:torat_ha_tsaddik",
+     "scope": "span",
+     "quotes": [
+      "וזה הענין כח הסמיכה ביד הצדיקים",
+      "כי הכל תולה בזכות הצי״ע"
+     ],
+     "confidence": 3,
+     "why": "only the tzaddik can complete a person's tikkun",
+     "quotes_failed": false
+    },
+    {
+     "tag": "practice:healing_of_the_soul",
+     "scope": "span",
+     "quotes": [
+      "ועכ״ז לא נגמר תיקונו עד אשר בא"
+     ],
+     "confidence": 3,
+     "why": "his soul's tikkun is completed through the Maggid",
+     "quotes_failed": false
+    },
+    {
+     "tag": "social:inter_hasidic_master_disciple_relationship",
+     "scope": "story",
+     "quotes": [],
+     "confidence": 2,
+     "why": "R. Hayyim Haikl becomes the Maggid's disciple",
+     "quotes_failed": false
+    },
+    {
+     "tag": "practice:storytelling",
+     "scope": "span",
+     "quotes": [
+      "שהי׳ מרגלא בפומי׳ המעשה"
+     ],
+     "confidence": 3,
+     "why": "the Radoshitz rebbe habitually told this tale",
+     "quotes_failed": false
+    },
+    {
+     "tag": "practice:sermon",
+     "scope": "span",
+     "quotes": [
+      "כמ״ש ויהושע בן נון מלא רוח חכמה"
+     ],
+     "confidence": 2,
+     "why": "exegesis of a verse on semikha",
+     "quotes_failed": false
+    },
+    {
+     "tag": "not-a-hasidic-story:sermon",
+     "scope": "story",
+     "quotes": [],
+     "confidence": 1,
+     "why": "anecdote cited inside a homiletic frame from Tiferet Shlomo",
+     "quotes_failed": false
+    }
+   ],
+   "missing_concepts": [
+    "semikha / transmission of spirit from master to disciple",
+    "limits of self-perfection without a master"
+   ],
+   "start_quote_found": true,
+   "end_quote_found": true
+  }
+ ],
+ "check": {
+  "non_vocab_tags": [],
+  "quotes": 15,
+  "quotes_not_found": 1
+ },
+ "id": "Tiferet-Hayyim_0022",
+ "chars": 865,
+ "seconds": 25
+}

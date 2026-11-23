@@ -1,0 +1,123 @@
+{
+ "unit": {
+  "kind": "hasidic_story",
+  "why": "A short narrative of the last day and death of the holy master: he removes his tefillin, speaks his final words, cleaves to God all day, and dies that night.",
+  "boundary_note": "The last line ('חידושים ומאמרים מתוקים...') is a heading for the following section of teachings and belongs with the next division."
+ },
+ "stories": [
+  {
+   "k": 1,
+   "start_quote": "ואמנם מורינו הקדוש בעצמו לא חפץ בחיים",
+   "end_quote": "נצחו אראלים את המצוקים ועלה השמימה זיע״א",
+   "hasidic": true,
+   "summary_en": "The holy master, weary of the coarse world, removes his tefillin on his last day (Isru Hag of Shavuot), declares himself exempt from the commandments, spends the day in deep devekut and dies that night.",
+   "tags": [
+    {
+     "tag": "folkloristics:story_type_death_of_the_tsaddik",
+     "scope": "story",
+     "quotes": [],
+     "confidence": 3,
+     "why": "The whole narrative is a deathbed scene with last words.",
+     "quotes_failed": false
+    },
+    {
+     "tag": "times:death",
+     "scope": "span",
+     "quotes": [
+      "בו בערב כמו שתי שעות בלילה יצאה נשמתו הקדושה"
+     ],
+     "confidence": 3,
+     "why": "The tzaddik's death is narrated.",
+     "quotes_failed": false
+    },
+    {
+     "tag": "times:holidays",
+     "scope": "span",
+     "quotes": [
+      "ובאסרו חג דשבועות שנת תרל״ב בחליו"
+     ],
+     "confidence": 2,
+     "why": "He dies on Isru Hag of Shavuot.",
+     "quotes_failed": false
+    },
+    {
+     "tag": "practice:tefillin",
+     "scope": "span",
+     "quotes": [
+      "צוה להסיר ממנו הטו״ת",
+      "האנט זענין מיר פטור מן התפילין"
+     ],
+     "confidence": 3,
+     "why": "He has his tefillin removed and declares himself exempt from them.",
+     "quotes_failed": false
+    },
+    {
+     "tag": "practice:devekut",
+     "scope": "span",
+     "quotes": [
+      "כל היום הי' דבוק בדביקות גדול"
+     ],
+     "confidence": 3,
+     "why": "He spends his last day in rapt cleaving to God.",
+     "quotes_failed": false
+    },
+    {
+     "tag": "experience:devekut",
+     "scope": "span",
+     "quotes": [
+      "ובחד קטירו אתקטר בי׳ בקוב״ה"
+     ],
+     "confidence": 3,
+     "why": "His mystical union with God is described.",
+     "quotes_failed": false
+    },
+    {
+     "tag": "practice:prayer",
+     "scope": "span",
+     "quotes": [
+      "אחרי שאמר ברכת הנותן לשכוי בינה"
+     ],
+     "confidence": 1,
+     "why": "He recites a morning blessing on his deathbed.",
+     "quotes_failed": false
+    },
+    {
+     "tag": "practice:asceticism",
+     "scope": "span",
+     "quotes": [
+      "לא חפץ בחיים",
+      "קוקסט אן דיא גראבע וועלט"
+     ],
+     "confidence": 1,
+     "why": "He expresses disdain for the coarse material world.",
+     "quotes_failed": false
+    },
+    {
+     "tag": "characters-and-roles:angels",
+     "scope": "span",
+     "quotes": [
+      "ונצחו אראלים את המצוקים"
+     ],
+     "confidence": 1,
+     "why": "Conventional phrase in which the angels (אראלים) prevail over the righteous at his death.",
+     "quotes_failed": false
+    }
+   ],
+   "missing_concepts": [
+    "last words of a tzaddik",
+    "contempt for the material world / longing for death",
+    "exemption from the commandments at death"
+   ],
+   "start_quote_found": true,
+   "end_quote_found": true
+  }
+ ],
+ "check": {
+  "non_vocab_tags": [],
+  "quotes": 10,
+  "quotes_not_found": 0
+ },
+ "id": "Eser-Kedushot_0150",
+ "chars": 600,
+ "seconds": 19
+}

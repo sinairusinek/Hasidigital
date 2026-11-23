@@ -1,0 +1,142 @@
+{
+ "unit": {
+  "kind": "hasidic_story",
+  "why": "A footnote, quoted from the end of Be'erot ha-Mayim, tells how the Maggid of Kozienice challenged God during Kol Nidre in his last year until He said 'salachti', followed by the Rizhiner's and the Seer of Lublin's reactions.",
+  "boundary_note": "A page break drops in an unrelated footnote fragment: a saying on gilgul from Imrei Elimelekh ('בינו שנות דור ודור'), ending at 'יותר מגיהנם *). (אמרי אלימלך ויחי)'. The story then resumes at 'ויתרון מפאת'. That gilgul passage belongs to another note, which continues in the next division."
+ },
+ "stories": [
+  {
+   "k": 1,
+   "start_quote": "אמרתי להביא פה מעשה מרבינו המגיד מקאזניץ",
+   "end_quote": "החולה השוכב על מטתו הרעיש כל העולמות",
+   "hasidic": true,
+   "summary_en": "In his last year, the frail Maggid of Kozienice argued with God at Kol Nidre before 'Vayomer Hashem salachti': he named the tzaddikim of the generation and offered to repent for all Israel himself. Then he had the singers sing and cried out 'salachti'. Hearing the story, the Rizhiner said the Maggid had heard 'salachti' from God's own mouth, and the Seer of Lublin had sensed the event that same night.",
+   "tags": [
+    {
+     "tag": "times:holidays",
+     "scope": "story",
+     "quotes": [],
+     "confidence": 3,
+     "why": "Kol Nidre on Yom Kippur eve, with the month of Elul preceding it",
+     "quotes_failed": false
+    },
+    {
+     "tag": "practice:prayer",
+     "scope": "span",
+     "quotes": [
+      "כאשר הי' מתפלל כל נדרו לפני העמוד",
+      "עמדתי לפני החיבה בכל יום בתפלה ובתחנונים"
+     ],
+     "confidence": 3,
+     "why": "Leading the prayers before the ark",
+     "quotes_failed": false
+    },
+    {
+     "tag": "practice:torat_ha_tsaddik",
+     "scope": "span",
+     "quotes": [
+      "ורק למען עמך בית ישראל",
+      "מוכן אנכי לעשות תשובה בעד כל קהל ישראל"
+     ],
+     "confidence": 3,
+     "why": "The tzaddik intercedes for and takes on the burden of all Israel",
+     "quotes_failed": false
+    },
+    {
+     "tag": "ethics-and-emotions:repentance",
+     "scope": "span",
+     "quotes": [
+      "מוכן אנכי לעשות תשובה בעד כל קהל ישראל"
+     ],
+     "confidence": 2,
+     "why": "He offers repentance on behalf of the people",
+     "quotes_failed": false
+    },
+    {
+     "tag": "supernatural:communicating_with_the_invisible",
+     "scope": "span",
+     "quotes": [
+      "שהרב המגיד שמע מפיו של הקב״ה סלחתי כמו מרע״ה"
+     ],
+     "confidence": 3,
+     "why": "He addresses God directly and is said to have heard God's reply",
+     "quotes_failed": false
+    },
+    {
+     "tag": "supernatural:perception",
+     "scope": "span",
+     "quotes": [
+      "כי הרה״ק מהר\"י בלובלין הרגיש הדבר",
+      "ונתבשר בשורות טובות מקאזניץ"
+     ],
+     "confidence": 3,
+     "why": "The Seer of Lublin perceives at a distance what happened in Kozienice",
+     "quotes_failed": false
+    },
+    {
+     "tag": "practice:music",
+     "scope": "span",
+     "quotes": [
+      "צוה להנועמי זמירות לשיר בקול נעים גילה ורנן"
+     ],
+     "confidence": 3,
+     "why": "He orders the singers to sing",
+     "quotes_failed": false
+    },
+    {
+     "tag": "practice:storytelling",
+     "scope": "span",
+     "quotes": [
+      "ה׳ בסאדאגערא לפני הרה״ק מרוזין וספר לו המעשה"
+     ],
+     "confidence": 3,
+     "why": "The tale is narrated before the Rizhiner",
+     "quotes_failed": false
+    },
+    {
+     "tag": "spaces:institutions_hassidic_court",
+     "scope": "span",
+     "quotes": [
+      "ה׳ בסאדאגערא לפני הרה״ק מרוזין"
+     ],
+     "confidence": 1,
+     "why": "The retelling takes place at the Sadagora court",
+     "quotes_failed": false
+    },
+    {
+     "tag": "folkloristics:story_type_virtues",
+     "scope": "story",
+     "quotes": [],
+     "confidence": 2,
+     "why": "Shows the Maggid's self-sacrifice and power of prayer for Israel",
+     "quotes_failed": false
+    },
+    {
+     "tag": "ethics-and-emotions:joy",
+     "scope": "span",
+     "quotes": [
+      "לשיר בקול נעים גילה ורנן"
+     ],
+     "confidence": 1,
+     "why": "A joyous song marks the granting of forgiveness",
+     "quotes_failed": false
+    }
+   ],
+   "missing_concepts": [
+    "arguing with God / bold prayer (chutzpah toward heaven)",
+    "illness and frailty of the tzaddik in his last year",
+    "divine forgiveness on Yom Kippur (salachti)"
+   ],
+   "start_quote_found": true,
+   "end_quote_found": true
+  }
+ ],
+ "check": {
+  "non_vocab_tags": [],
+  "quotes": 12,
+  "quotes_not_found": 0
+ },
+ "id": "Tiferet-Hayyim_0017",
+ "chars": 2444,
+ "seconds": 23
+}

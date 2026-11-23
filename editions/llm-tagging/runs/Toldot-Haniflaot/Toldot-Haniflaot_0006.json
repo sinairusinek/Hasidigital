@@ -1,0 +1,167 @@
+{
+ "unit": {
+  "kind": "hasidic_story",
+  "why": "A narrative about the Berdichever asking the Kozienice Maggid for his silver Hanukkah menorah and promising it to the yet-unborn child (R. Meir of Apta), with the prediction fulfilled.",
+  "boundary_note": "part of a sequence on the birth of the tsaddik; the next division continues with his circumcision"
+ },
+ "stories": [
+  {
+   "k": 1,
+   "start_quote": "והנה לידת מרן זצ\"ל היה ג\"כ",
+   "end_quote": "היה מדליק מרן זצ״ל כל ימי חייו",
+   "hasidic": true,
+   "summary_en": "Before the birth of the hero (R. Meir), R. Levi Yitzhak of Berdichev, visiting Kozienice, asked the Maggid for his silver Hanukkah menorah and declared it a gift for the son to be born to the Maggid's daughter, to be given at his wedding; so it was, and the tsaddik lit it all his life.",
+   "tags": [
+    {
+     "tag": "folkloristics:story_type_birth_of_the_tsaddik",
+     "scope": "story",
+     "quotes": [],
+     "confidence": 3,
+     "why": "the frame is the tsaddik's birth, brought about by the tsaddikim's prayers",
+     "quotes_failed": false
+    },
+    {
+     "tag": "folkloristics:story_type_prognostication",
+     "scope": "story",
+     "quotes": [],
+     "confidence": 3,
+     "why": "the Berdichever foretells a son, and it comes true",
+     "quotes_failed": false
+    },
+    {
+     "tag": "supernatural:prognostication",
+     "scope": "span",
+     "quotes": [
+      "כי מנורה זו אני נותן לבן אשר יוולד",
+      "וכן היה ובמנורה זו היה מדליק"
+     ],
+     "confidence": 3,
+     "why": "he predicts the birth of a son, which is fulfilled",
+     "quotes_failed": false
+    },
+    {
+     "tag": "supernatural:pregnancy",
+     "scope": "span",
+     "quotes": [
+      "ע\"י התאמצות ותפלות של הצדיקים אשר היו אז"
+     ],
+     "confidence": 2,
+     "why": "the birth came about through the tsaddikim's prayers",
+     "quotes_failed": false
+    },
+    {
+     "tag": "characters-and-roles:the_family_of_the_tsaddik",
+     "scope": "span",
+     "quotes": [
+      "לבן אשר יוולד מבת מעלתו הצדקת"
+     ],
+     "confidence": 3,
+     "why": "the Maggid's daughter and grandson",
+     "quotes_failed": false
+    },
+    {
+     "tag": "characters-and-roles:preacher",
+     "scope": "span",
+     "quotes": [
+      "והיה מבקש מהה״מ הק׳ זצ״ל"
+     ],
+     "confidence": 2,
+     "why": "the Maggid of Kozienice",
+     "quotes_failed": false
+    },
+    {
+     "tag": "times:holidays",
+     "scope": "span",
+     "quotes": [
+      "את מנורת חנוכה מנורת הכסף"
+     ],
+     "confidence": 2,
+     "why": "a Hanukkah menorah and its lighting",
+     "quotes_failed": false
+    },
+    {
+     "tag": "times:birth",
+     "scope": "span",
+     "quotes": [
+      "והנה לידת מרן זצ\"ל היה ג\"כ"
+     ],
+     "confidence": 2,
+     "why": "the birth is the subject",
+     "quotes_failed": false
+    },
+    {
+     "tag": "social:marriage",
+     "scope": "span",
+     "quotes": [
+      "ובעת חתונתו אי\"ה בעת הדרשה גישאנק"
+     ],
+     "confidence": 2,
+     "why": "a wedding gift at the derashah",
+     "quotes_failed": false
+    },
+    {
+     "tag": "practice:the_travels_of_the_tsaddik",
+     "scope": "span",
+     "quotes": [
+      "ופ\"א היה הה\"ק הנ\"ל בקאזניץ"
+     ],
+     "confidence": 1,
+     "why": "the Berdichever's stay in Kozienice",
+     "quotes_failed": false
+    },
+    {
+     "tag": "practice:travel_to_other_tsaddik",
+     "scope": "span",
+     "quotes": [
+      "ופ\"א היה הה\"ק הנ\"ל בקאזניץ"
+     ],
+     "confidence": 2,
+     "why": "one tsaddik visits another",
+     "quotes_failed": false
+    },
+    {
+     "tag": "ethics-and-emotions:prohibitions",
+     "scope": "span",
+     "quotes": [
+      "שאיני עובר ח\"ו על לא תחמוד"
+     ],
+     "confidence": 2,
+     "why": "the prohibition of coveting is raised",
+     "quotes_failed": false
+    },
+    {
+     "tag": "social:inter_hasidic",
+     "scope": "story",
+     "quotes": [],
+     "confidence": 2,
+     "why": "an exchange between two tsaddikim",
+     "quotes_failed": false
+    },
+    {
+     "tag": "women:mention_only",
+     "scope": "span",
+     "quotes": [
+      "מבת מעלתו הצדקת"
+     ],
+     "confidence": 2,
+     "why": "the righteous daughter is mentioned but does not act",
+     "quotes_failed": false
+    }
+   ],
+   "missing_concepts": [
+    "ritual objects and gifts passed between tsaddikim (Hanukkah menorah)",
+    "the derashah gift at a wedding"
+   ],
+   "start_quote_found": true,
+   "end_quote_found": true
+  }
+ ],
+ "check": {
+  "non_vocab_tags": [],
+  "quotes": 12,
+  "quotes_not_found": 0
+ },
+ "id": "Toldot-Haniflaot_0006",
+ "chars": 572,
+ "seconds": 15
+}

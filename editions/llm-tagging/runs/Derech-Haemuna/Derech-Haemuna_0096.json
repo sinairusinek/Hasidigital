@@ -1,0 +1,103 @@
+{
+ "unit": {
+  "kind": "hasidic_story",
+  "why": "A short anecdote, told by the Neskhizer rebbe, in which his brother of Kovel wants to rule leniently on a Pesach question, is rebuked by their father, and thereafter becomes very strict.",
+  "boundary_note": ""
+ },
+ "stories": [
+  {
+   "k": 1,
+   "start_quote": "ובס׳ ז״ט וז״ל סיפר מרן מנעסכיז",
+   "end_quote": "מחמיר בהלכות שבת יותר מזה מאד",
+   "hasidic": true,
+   "summary_en": "The Neskhizer rebbe tells that his father was strict in the laws of Pesach; when his son of Kovel wanted to rule leniently, the father rebuked him for trying to be wiser than the later authorities, and from then on the Kovler was very strict; he adds that the Berditchever was even stricter in the laws of Shabbat.",
+   "tags": [
+    {
+     "tag": "practice:halakhah",
+     "scope": "span",
+     "quotes": [
+      "רצה פ״א להקל בשאלת פסח",
+      "להחמיר חומרא על חומרא כולי האי"
+     ],
+     "confidence": 3,
+     "why": "The story turns on halakhic stringency versus leniency in the laws of Pesach.",
+     "quotes_failed": false
+    },
+    {
+     "tag": "characters-and-roles:the_family_of_the_tsaddik",
+     "scope": "span",
+     "quotes": [
+      "שאביו זלה״ה היה מחמיר בהלכות פסח",
+      "והשיבו אביהם זלה״ה בני"
+     ],
+     "confidence": 3,
+     "why": "The actors are a tzaddik father and his sons.",
+     "quotes_failed": false
+    },
+    {
+     "tag": "practice:storytelling",
+     "scope": "span",
+     "quotes": [
+      "סיפר מרן מנעסכיז שאביו זלה״ה"
+     ],
+     "confidence": 2,
+     "why": "The anecdote is framed as told by the Neskhizer rebbe.",
+     "quotes_failed": false
+    },
+    {
+     "tag": "times:holidays",
+     "scope": "span",
+     "quotes": [
+      "היה מחמיר בהלכות פסח"
+     ],
+     "confidence": 1,
+     "why": "The story concerns Pesach laws, though no scene is set on the holiday itself.",
+     "quotes_failed": false
+    },
+    {
+     "tag": "ethics-and-emotions:humility",
+     "scope": "span",
+     "quotes": [
+      "וכי אתה רוצה להיות יותר חכם מן האחרונים"
+     ],
+     "confidence": 2,
+     "why": "The father's rebuke calls for intellectual humility before the later authorities.",
+     "quotes_failed": false
+    },
+    {
+     "tag": "ethics-and-emotions:prohibitions",
+     "scope": "span",
+     "quotes": [
+      "החמירו מאד בה׳ פסח"
+     ],
+     "confidence": 2,
+     "why": "Strict observance of Pesach prohibitions is at issue.",
+     "quotes_failed": false
+    },
+    {
+     "tag": "ethics-and-emotions:awe",
+     "scope": "story",
+     "quotes": [],
+     "confidence": 1,
+     "why": "The halakhic stringency is presented as an expression of piety.",
+     "quotes_failed": false
+    }
+   ],
+   "missing_concepts": [
+    "halakhic stringency (chumra) as a Hasidic ideal",
+    "deference to later halakhic authorities (acharonim)",
+    "father-son relationship / paternal rebuke"
+   ],
+   "start_quote_found": true,
+   "end_quote_found": true
+  }
+ ],
+ "check": {
+  "non_vocab_tags": [],
+  "quotes": 8,
+  "quotes_not_found": 0
+ },
+ "id": "Derech-Haemuna_0096",
+ "chars": 346,
+ "seconds": 14
+}

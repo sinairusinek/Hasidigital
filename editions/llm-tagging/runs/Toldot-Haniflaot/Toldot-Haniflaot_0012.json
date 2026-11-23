@@ -1,0 +1,122 @@
+{
+ "unit": {
+  "kind": "hasidic_story",
+  "why": "One narrative chain: a Kovel hasid's report leads to the Maggid of Kozienice's account of his grandson, the future Mogielnica rebbe, praying so absorbed that he did not feel an iron nail pierce his forehead.",
+  "boundary_note": ""
+ },
+ "stories": [
+  {
+   "k": 1,
+   "start_quote": "חסיד מפורסם אחד שהיה רגיל לנסוע",
+   "end_quote": "מרוב דבקותו בתפלתו",
+   "hasidic": true,
+   "summary_en": "A hasid of the Kovel tzaddik, who later travelled to the Mogielnica rebbe, reports that he told the Kovel tzaddik of the Mogielnica rebbe's fame. The narrator's teacher relates that the Maggid of Kozienice praised this grandson: at age seven he prayed so absorbed that he did not feel an iron nail in the wall pierce his forehead, though blood ran down his face.",
+   "tags": [
+    {
+     "tag": "practice:devekut",
+     "scope": "span",
+     "quotes": [
+      "ולא חלי ולא מרגיש כלל מרוב דבקותו בתפלתו"
+     ],
+     "confidence": 3,
+     "why": "rapt absorption in prayer, insensible to pain",
+     "quotes_failed": false
+    },
+    {
+     "tag": "experience:devekut",
+     "scope": "span",
+     "quotes": [
+      "מרוב דבקותו בתפלתו"
+     ],
+     "confidence": 3,
+     "why": "the child experiences mystical cleaving",
+     "quotes_failed": false
+    },
+    {
+     "tag": "practice:prayer",
+     "scope": "span",
+     "quotes": [
+      "היה עומד ומתפלל נוכח הכותל"
+     ],
+     "confidence": 3,
+     "why": "prayer is the depicted act",
+     "quotes_failed": false
+    },
+    {
+     "tag": "folkloristics:story_type_virtues",
+     "scope": "story",
+     "quotes": [],
+     "confidence": 3,
+     "why": "the point is to praise the young tzaddik's piety",
+     "quotes_failed": false
+    },
+    {
+     "tag": "characters-and-roles:the_family_of_the_tsaddik",
+     "scope": "span",
+     "quotes": [
+      "ושיבח בפני את נכדו הלזה",
+      "נכד המגיד הק׳ זצ״ל"
+     ],
+     "confidence": 3,
+     "why": "the grandfather praises his grandson",
+     "quotes_failed": false
+    },
+    {
+     "tag": "practice:travel_to_other_tsaddik",
+     "scope": "span",
+     "quotes": [
+      "ואחר פטרת הה״צ הזה היה דרכו בקודש לנסוע"
+     ],
+     "confidence": 3,
+     "why": "after his master's death the hasid goes to another tzaddik",
+     "quotes_failed": false
+    },
+    {
+     "tag": "practice:travel_to_the_tsaddik",
+     "scope": "span",
+     "quotes": [
+      "שהיה רגיל לנסוע להה\"ק מקאוולע",
+      "פ״א הייתי בקאזניץ אצל מרן הה״מ ז\"ל"
+     ],
+     "confidence": 2,
+     "why": "visits to the tzaddikim's courts",
+     "quotes_failed": false
+    },
+    {
+     "tag": "practice:storytelling",
+     "scope": "span",
+     "quotes": [
+      "וסיפר לי מורי ז״ל כי פ״א"
+     ],
+     "confidence": 2,
+     "why": "the tale is framed as a chain of retellings",
+     "quotes_failed": false
+    },
+    {
+     "tag": "supernatural:miracle",
+     "scope": "span",
+     "quotes": [
+      "נתחב המסמר בתוך מצחו ודמו היה זב"
+     ],
+     "confidence": 1,
+     "why": "the injury without feeling it is wondrous but not an explicit miracle",
+     "quotes_failed": false
+    }
+   ],
+   "missing_concepts": [
+    "childhood piety of a future tzaddik",
+    "fame of a tzaddik spreading (news from Poland)"
+   ],
+   "start_quote_found": true,
+   "end_quote_found": true
+  }
+ ],
+ "check": {
+  "non_vocab_tags": [],
+  "quotes": 10,
+  "quotes_not_found": 0
+ },
+ "id": "Toldot-Haniflaot_0012",
+ "chars": 531,
+ "seconds": 15
+}

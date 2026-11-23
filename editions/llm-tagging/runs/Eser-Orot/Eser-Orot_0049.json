@@ -1,0 +1,91 @@
+{
+ "unit": {
+  "kind": "hasidic_story",
+  "why": "A biographical opening on R. Levi Yitzhak of Berditchev that contains a short birth anecdote: the Besht twice served his disciples drink and cake, saying a soul had come into the world that would advocate for Israel.",
+  "boundary_note": "biographical chapter on R. Levi Yitzhak continues into next division"
+ },
+ "stories": [
+  {
+   "k": 1,
+   "start_quote": "הרב מבארדיטשוב נולד בשנת ת\"ק",
+   "end_quote": "עבור אחב\"י אין די באר ואין די ספר",
+   "hasidic": true,
+   "summary_en": "At the birth of R. Levi Yitzhak of Berditchev in 1740, the Besht twice gave his disciples drink and cake, announcing that a soul had come into the world that would plead in Israel's defence.",
+   "tags": [
+    {
+     "tag": "folkloristics:story_type_birth_of_the_tsaddik",
+     "scope": "story",
+     "quotes": [],
+     "confidence": 3,
+     "why": "The anecdote is about the birth of R. Levi Yitzhak, marked by the Besht.",
+     "quotes_failed": false
+    },
+    {
+     "tag": "times:birth",
+     "scope": "span",
+     "quotes": [
+      "הרב מבארדיטשוב נולד בשנת ת\"ק"
+     ],
+     "confidence": 3,
+     "why": "His birth is the event of the anecdote.",
+     "quotes_failed": false
+    },
+    {
+     "tag": "practice:drinking_alcohol",
+     "scope": "span",
+     "quotes": [
+      "נתן לתלמידיו משקה עם לייקיך ב' פעמים"
+     ],
+     "confidence": 3,
+     "why": "The Besht serves drink in celebration.",
+     "quotes_failed": false
+    },
+    {
+     "tag": "supernatural:perception",
+     "scope": "span",
+     "quotes": [
+      "שאמר שבא לעולם נשמה שתמליץ טוב"
+     ],
+     "confidence": 3,
+     "why": "The Besht knows from afar that a great soul has been born.",
+     "quotes_failed": false
+    },
+    {
+     "tag": "supernatural:prognostication",
+     "scope": "span",
+     "quotes": [
+      "נשמה שתמליץ טוב עבור אחב\"י",
+      "ומפורסם לכל מליצותיו הטובות עבור אחב\"י"
+     ],
+     "confidence": 2,
+     "why": "The Besht foretells the child's role as advocate for Israel, which the text says came true.",
+     "quotes_failed": false
+    },
+    {
+     "tag": "social:inter_hasidic_master_disciple_relationship",
+     "scope": "span",
+     "quotes": [
+      "והי׳ תלמוד מובהק להגאון האלקי קוה\"ק רבינו דוב בער"
+     ],
+     "confidence": 1,
+     "why": "His discipleship under the Maggid is stated, though only in passing.",
+     "quotes_failed": false
+    }
+   ],
+   "missing_concepts": [
+    "the tsaddik as advocate (מליץ יושר) for Israel",
+    "family lineage / genealogy of the author"
+   ],
+   "start_quote_found": true,
+   "end_quote_found": true
+  }
+ ],
+ "check": {
+  "non_vocab_tags": [],
+  "quotes": 6,
+  "quotes_not_found": 0
+ },
+ "id": "Eser-Orot_0049",
+ "chars": 502,
+ "seconds": 13
+}

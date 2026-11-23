@@ -1,0 +1,140 @@
+{
+ "unit": {
+  "kind": "hasidic_story",
+  "why": "A single anecdote: the Lublin rabbi R. Azriel Horowitz presses the Seer of Lublin to give up leading a community, and the Seer's self-abasement only draws his followers closer.",
+  "boundary_note": ""
+ },
+ "stories": [
+  {
+   "k": 1,
+   "start_quote": "סיפר הרה\"ק מפרשיסחא בשם הרבי מלובלין",
+   "end_quote": "לומר עלי שאני צדיק באמת",
+   "hasidic": true,
+   "summary_en": "R. Azriel Horowitz, the 'Iron Head' of Lublin, urges the Seer of Lublin to tell his followers he is unworthy. The Seer's humble self-abasement only draws them closer. When the gaon then proposes that he claim to be a true tzaddik, the Seer refuses because he is no liar.",
+   "tags": [
+    {
+     "tag": "ethics-and-emotions:humility",
+     "scope": "span",
+     "quotes": [
+      "והתנצל א\"ע מאד בשברון רוחו כי הוא הפחות",
+      "דרכי חסידים לאהוב העניו ולהתרחק מגאות"
+     ],
+     "confidence": 3,
+     "why": "the Seer's humility is the core of the tale",
+     "quotes_failed": false
+    },
+    {
+     "tag": "folkloristics:story_type_virtues",
+     "scope": "story",
+     "quotes": [],
+     "confidence": 3,
+     "why": "illustrates the Seer's humility and honesty",
+     "quotes_failed": false
+    },
+    {
+     "tag": "social:relations_with_non_hasidim",
+     "scope": "span",
+     "quotes": [
+      "הי' דרכו בכל עת להציק את הרבי בשאלות"
+     ],
+     "confidence": 3,
+     "why": "a mitnaged rabbi challenges the rebbe",
+     "quotes_failed": false
+    },
+    {
+     "tag": "social:conflict",
+     "scope": "span",
+     "quotes": [
+      "הי' דרכו בכל עת להציק את הרבי בשאלות"
+     ],
+     "confidence": 2,
+     "why": "an antagonist harasses the tzaddik",
+     "quotes_failed": false
+    },
+    {
+     "tag": "ethics-and-emotions:lying",
+     "scope": "span",
+     "quotes": [
+      "אף שאינני רבי אבל גם אינני שקרן"
+     ],
+     "confidence": 2,
+     "why": "the Seer refuses to lie",
+     "quotes_failed": false
+    },
+    {
+     "tag": "ethics-and-emotions:pride",
+     "scope": "span",
+     "quotes": [
+      "לאהוב העניו ולהתרחק מגאות"
+     ],
+     "confidence": 2,
+     "why": "the gaon's plan rests on followers shunning arrogance",
+     "quotes_failed": false
+    },
+    {
+     "tag": "practice:sermon",
+     "scope": "span",
+     "quotes": [
+      "בשבת הבע\"ל תפרסמו את עצמיכם לעיני כל הקהל"
+     ],
+     "confidence": 2,
+     "why": "a public address to the congregation",
+     "quotes_failed": false
+    },
+    {
+     "tag": "times:shabbat",
+     "scope": "span",
+     "quotes": [
+      "בשבת הבע\"ל תפרסמו את עצמיכם"
+     ],
+     "confidence": 2,
+     "why": "the public address takes place on Shabbat",
+     "quotes_failed": false
+    },
+    {
+     "tag": "practice:storytelling",
+     "scope": "span",
+     "quotes": [
+      "סיפר הרה\"ק מפרשיסחא בשם הרבי מלובלין"
+     ],
+     "confidence": 2,
+     "why": "framed as a tale told by a named tzaddik",
+     "quotes_failed": false
+    },
+    {
+     "tag": "practice:torat_ha_tsaddik",
+     "scope": "span",
+     "quotes": [
+      "למה הוא מדריך אחרים לאורחותיו בהמשכתו עדה",
+      "כי אתם מהצדיקים האמתים"
+     ],
+     "confidence": 2,
+     "why": "whether he is a true tzaddik and may lead a following",
+     "quotes_failed": false
+    },
+    {
+     "tag": "ethics-and-emotions:virtues",
+     "scope": "story",
+     "quotes": [],
+     "confidence": 2,
+     "why": "the tale turns on the Seer's honesty and humility",
+     "quotes_failed": false
+    }
+   ],
+   "missing_concepts": [
+    "paradox that humility increases followers' attachment",
+    "rebbe's self-doubt about his own legitimacy"
+   ],
+   "start_quote_found": true,
+   "end_quote_found": true
+  }
+ ],
+ "check": {
+  "non_vocab_tags": [],
+  "quotes": 11,
+  "quotes_not_found": 0
+ },
+ "id": "Eser-Orot_0208",
+ "chars": 727,
+ "seconds": 13
+}

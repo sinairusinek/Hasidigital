@@ -1,0 +1,110 @@
+{
+ "unit": {
+  "kind": "saying_or_teaching",
+  "why": "A homiletic passage quoted from Divrei Moshe on alacrity in prayer as protection against pride and alien thoughts. It embeds a parable that the Besht relayed in the name of R. Gershon Kitover, and the text then returns to the exegesis of 'אל תחמיצנו'.",
+  "boundary_note": ""
+ },
+ "stories": [
+  {
+   "k": 1,
+   "start_quote": "ואמר משל כי היה דרך א׳ מסוכן מאד",
+   "end_quote": "והוא נשאר בתמיהותו ואינו זוכר כלל",
+   "hasidic": false,
+   "summary_en": "In a parable told by R. Gershon Kitover and relayed by the Besht, a sober traveller runs through a robber-infested forest unharmed, while his drunken companion walks slowly and is beaten without feeling it. The parable is applied to people who linger in prayer and do not notice their alien thoughts.",
+   "tags": [
+    {
+     "tag": "folkloristics:story_type_parable",
+     "scope": "story",
+     "quotes": [],
+     "confidence": 3,
+     "why": "A mashal told by a tzaddik (R. Gershon), with its nimshal stated.",
+     "quotes_failed": false
+    },
+    {
+     "tag": "not-a-hasidic-story:sermon",
+     "scope": "story",
+     "quotes": [],
+     "confidence": 3,
+     "why": "The narrative is wrapped in an extended homiletic frame on alacrity and 'אל תחמיצנו'.",
+     "quotes_failed": false
+    },
+    {
+     "tag": "practice:coping_with_alien_thoughts",
+     "scope": "span",
+     "quotes": [
+      "בכדי שינצל מן מחשבות זרות",
+      "אם היה במחשבה זרה אם לאו"
+     ],
+     "confidence": 3,
+     "why": "The parable's point is how to avoid alien thoughts during prayer.",
+     "quotes_failed": false
+    },
+    {
+     "tag": "practice:prayer",
+     "scope": "span",
+     "quotes": [
+      "הזהיר על הזריזות והמהירות בעסק התפלה"
+     ],
+     "confidence": 3,
+     "why": "The teaching concerns the manner of praying.",
+     "quotes_failed": false
+    },
+    {
+     "tag": "ethics-and-emotions:pride",
+     "scope": "span",
+     "quotes": [
+      "שמהירות הוא רחוק מן הגאות",
+      "שלא יבא לידי איזה פני׳ או התפאר׳"
+     ],
+     "confidence": 2,
+     "why": "Alacrity is presented as a guard against pride.",
+     "quotes_failed": false
+    },
+    {
+     "tag": "practice:drinking_alcohol",
+     "scope": "span",
+     "quotes": [
+      "והיה אחד מהם שתוי שיכור מאד"
+     ],
+     "confidence": 1,
+     "why": "The drunken traveller's state is central to the parable.",
+     "quotes_failed": false
+    },
+    {
+     "tag": "practice:storytelling",
+     "scope": "span",
+     "quotes": [
+      "ואמר בשם גיסו הרב החסיד מ׳ גרשון קוטבר"
+     ],
+     "confidence": 1,
+     "why": "The Besht retells his brother-in-law's parable.",
+     "quotes_failed": false
+    },
+    {
+     "tag": "ethics-and-emotions:virtues",
+     "scope": "span",
+     "quotes": [
+      "ועושה בזרירות גדול שלא יהיה לו פנאי"
+     ],
+     "confidence": 2,
+     "why": "Zerizut (alacrity) is presented as a virtue.",
+     "quotes_failed": false
+    }
+   ],
+   "missing_concepts": [
+    "alacrity/zerizut in performing commandments",
+    "robbers/bandits as a metaphor for the evil inclination"
+   ],
+   "start_quote_found": true,
+   "end_quote_found": true
+  }
+ ],
+ "check": {
+  "non_vocab_tags": [],
+  "quotes": 8,
+  "quotes_not_found": 0
+ },
+ "id": "Derech-Haemuna_0217",
+ "chars": 1814,
+ "seconds": 18
+}

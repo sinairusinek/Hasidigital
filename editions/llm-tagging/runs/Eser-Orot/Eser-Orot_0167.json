@@ -1,0 +1,100 @@
+{
+ "unit": {
+  "kind": "non_hasidic_story",
+  "why": "The Maggid of Kozhnitz tells a short legend explaining the Raavad's gloss on Maimonides: when Maimonides stated the halakhah, darkness fell in the upper world and souls were driven from Paradise, until the Raavad rejected the ruling and they returned. The events concern pre-Hasidic sages and it sits inside an exegetical frame.",
+  "boundary_note": ""
+ },
+ "stories": [
+  {
+   "k": 1,
+   "start_quote": "שם בספר הנ\"ל (דמ״ט ע״ב) וז״ל",
+   "end_quote": "וחזרו כל הנשמות לג״ע עכד\"ק",
+   "hasidic": false,
+   "summary_en": "The Maggid of Kozhnitz explains that Maimonides' ruling calling believers in a corporeal God heretics caused darkness in the upper world and drove multitudes of souls from Paradise; the Raavad saw this, rejected the ruling, and the souls returned to Paradise.",
+   "tags": [
+    {
+     "tag": "not-a-hasidic-story:hagiography",
+     "scope": "story",
+     "quotes": [],
+     "confidence": 2,
+     "why": "A legend about the Raavad and Maimonides, figures outside the Hasidic movement, showing the Raavad's heavenly perception and power.",
+     "quotes_failed": false
+    },
+    {
+     "tag": "not-a-hasidic-story:sermon",
+     "scope": "story",
+     "quotes": [],
+     "confidence": 2,
+     "why": "The tale is an exegetical explanation of the Raavad's gloss on Hilkhot Teshuvah.",
+     "quotes_failed": false
+    },
+    {
+     "tag": "practice:halakhah",
+     "scope": "span",
+     "quotes": [
+      "חמשה נקראים מינים האומר שיש רבון אחד"
+     ],
+     "confidence": 3,
+     "why": "A halakhic ruling of Maimonides and its rejection by the Raavad are the subject.",
+     "quotes_failed": false
+    },
+    {
+     "tag": "spaces:heaven",
+     "scope": "span",
+     "quotes": [
+      "נתהווה חושך גדול בעולם העליון",
+      "שגרשו מג״ע תילי תילים נשמות"
+     ],
+     "confidence": 3,
+     "why": "The action unfolds in the upper world and Gan Eden.",
+     "quotes_failed": false
+    },
+    {
+     "tag": "supernatural:perception",
+     "scope": "span",
+     "quotes": [
+      "וכאשר ראה הראב\"ד ז\"ל שנתהווה חושך גדול"
+     ],
+     "confidence": 2,
+     "why": "The Raavad perceives events in the upper world.",
+     "quotes_failed": false
+    },
+    {
+     "tag": "times:eschatology",
+     "scope": "span",
+     "quotes": [
+      "וחזרו כל הנשמות לג״ע"
+     ],
+     "confidence": 1,
+     "why": "The fate of souls in the afterlife is at stake.",
+     "quotes_failed": false
+    },
+    {
+     "tag": "characters-and-roles:preacher",
+     "scope": "span",
+     "quotes": [
+      "שמעתי בשם המגיד הק׳ מקאזניץ"
+     ],
+     "confidence": 1,
+     "why": "The Maggid of Kozhnitz is the teller of the legend.",
+     "quotes_failed": false
+    }
+   ],
+   "missing_concepts": [
+    "heresy (minut) and corporeal conceptions of God",
+    "the power of a halakhic ruling to affect souls in heaven",
+    "the Maimonides–Raavad controversy"
+   ],
+   "start_quote_found": true,
+   "end_quote_found": true
+  }
+ ],
+ "check": {
+  "non_vocab_tags": [],
+  "quotes": 6,
+  "quotes_not_found": 0
+ },
+ "id": "Eser-Orot_0167",
+ "chars": 490,
+ "seconds": 16
+}

@@ -1,0 +1,1119 @@
+{
+ "unit": {
+  "kind": "paratext_with_story",
+  "why": "The compiler's grand preface (פתיחתא רבתא) is an apologetic defence of the wonder-tales in Hasidic books. To answer his first objection, that such wonders are unheard of, he strings together dozens of short talmudic and midrashic miracle tales; a teaching on later generations follows.",
+  "boundary_note": "The preface continues into the next division (answer to question 2 goes on, then questions 3–4). The embedded tales are all non-Hasidic talmudic legends; only the fuller narratives are listed, and bare citations ('עיי״ש') are skipped."
+ },
+ "stories": [
+  {
+   "k": 1,
+   "start_quote": "במס׳ חולין (דף ט׳ ע\"א) בר׳ פנחס בן יאיר",
+   "end_quote": "ולא יגיע לו שום נזק חלילה",
+   "hasidic": false,
+   "summary_en": "R. Pinhas ben Yair splits the river Ginai on his way to ransom captives and again on his way to the study house (Bavli and Yerushalmi versions).",
+   "tags": [
+    {
+     "tag": "supernatural:miracle",
+     "scope": "span",
+     "quotes": [
+      "ונקרע הנהר מלפניו ועבר ביבשה"
+     ],
+     "confidence": 3,
+     "why": "river splits",
+     "quotes_failed": false
+    },
+    {
+     "tag": "practice:pidyon_shvuyim",
+     "scope": "span",
+     "quotes": [
+      "דהוה קאזיל לפדיון שבוים"
+     ],
+     "confidence": 2,
+     "why": "journey to ransom captives",
+     "quotes_failed": false
+    },
+    {
+     "tag": "spaces:beth_midrash",
+     "scope": "span",
+     "quotes": [
+      "וכי אתה מונע איתי מללכת לביהמ״ד"
+     ],
+     "confidence": 1,
+     "why": "destination",
+     "quotes_failed": false
+    },
+    {
+     "tag": "not-a-hasidic-story:hagiography",
+     "scope": "story",
+     "quotes": [],
+     "confidence": 3,
+     "why": "talmudic sage's wonder",
+     "quotes_failed": false
+    }
+   ],
+   "missing_concepts": [
+    "command over nature (גזירת צדיק)"
+   ],
+   "start_quote_found": true,
+   "end_quote_found": true
+  },
+  {
+   "k": 2,
+   "start_quote": "בירושלמי מס׳ שביעית פ\"ט הל׳ א׳ ברשב״י",
+   "end_quote": "וכן הי׳ לו.",
+   "hasidic": false,
+   "summary_en": "While R. Shimon bar Yohai is purifying Tiberias, a Samaritan hides a corpse to mock him; Rashbi perceives the trick and decrees that the Samaritan die and the corpse live.",
+   "tags": [
+    {
+     "tag": "supernatural:perception",
+     "scope": "span",
+     "quotes": [
+      "צפה רשב״י ברוה״ק שזה הכותי בעצמו הטמין"
+     ],
+     "confidence": 3,
+     "why": "holy spirit",
+     "quotes_failed": false
+    },
+    {
+     "tag": "supernatural:miracle",
+     "scope": "span",
+     "quotes": [
+      "שיעלה ויחיה במקום זה הכותי"
+     ],
+     "confidence": 3,
+     "why": "dead revived",
+     "quotes_failed": false
+    },
+    {
+     "tag": "ethics-and-emotions:punishment",
+     "scope": "span",
+     "quotes": [
+      "שעומד למעלה שירד וימות"
+     ],
+     "confidence": 3,
+     "why": "mocker dies",
+     "quotes_failed": false
+    },
+    {
+     "tag": "social:relations_with_non_jews",
+     "scope": "span",
+     "quotes": [
+      "אלך ואצחק בזה היהודי הזקן"
+     ],
+     "confidence": 2,
+     "why": "Samaritan antagonist",
+     "quotes_failed": false
+    },
+    {
+     "tag": "social:conflict",
+     "scope": "span",
+     "quotes": [
+      "אלך ואצחק בזה היהודי הזקן"
+     ],
+     "confidence": 2,
+     "why": "antagonist",
+     "quotes_failed": false
+    },
+    {
+     "tag": "times:death",
+     "scope": "span",
+     "quotes": [
+      "שעומד למעלה שירד וימות"
+     ],
+     "confidence": 2,
+     "why": "death decreed",
+     "quotes_failed": false
+    },
+    {
+     "tag": "not-a-hasidic-story:hagiography",
+     "scope": "story",
+     "quotes": [],
+     "confidence": 3,
+     "why": "tannaitic wonder",
+     "quotes_failed": false
+    }
+   ],
+   "missing_concepts": [
+    "ritual purity / priests and corpses"
+   ],
+   "start_quote_found": true,
+   "end_quote_found": true
+  },
+  {
+   "k": 3,
+   "start_quote": "מעשה בר׳ אבא בר זמינא חייט",
+   "end_quote": "ישמור את דתו עכ״ד הירושלמי",
+   "hasidic": false,
+   "summary_en": "A gentile threatens R. Abba bar Zamina with death unless he eats carrion; when he refuses, the gentile says he would have killed him had he eaten.",
+   "tags": [
+    {
+     "tag": "ethics-and-emotions:prohibitions",
+     "scope": "span",
+     "quotes": [
+      "כי הוא בשר נבילה מה שאסור לנו"
+     ],
+     "confidence": 3,
+     "why": "forbidden food",
+     "quotes_failed": false
+    },
+    {
+     "tag": "ethics-and-emotions:resisting_temptation",
+     "scope": "span",
+     "quotes": [
+      "אם אתה רוצה להרגני הרשות בידך"
+     ],
+     "confidence": 2,
+     "why": "steadfast under threat",
+     "quotes_failed": false
+    },
+    {
+     "tag": "social:relations_with_non_jews",
+     "scope": "span",
+     "quotes": [
+      "הי' תופר בגדים אצל עכו\"ם אחד"
+     ],
+     "confidence": 3,
+     "why": "gentile employer",
+     "quotes_failed": false
+    },
+    {
+     "tag": "ethics-and-emotions:virtues",
+     "scope": "span",
+     "quotes": [
+      "כל אדם צריך להיות חזק ואמיץ באמונתו"
+     ],
+     "confidence": 2,
+     "why": "steadfast faith",
+     "quotes_failed": false
+    },
+    {
+     "tag": "not-a-hasidic-story:hagiography",
+     "scope": "story",
+     "quotes": [],
+     "confidence": 2,
+     "why": "amoraic exemplum",
+     "quotes_failed": false
+    }
+   ],
+   "missing_concepts": [
+    "martyrdom / kiddush ha-shem"
+   ],
+   "start_quote_found": true,
+   "end_quote_found": true
+  },
+  {
+   "k": 4,
+   "start_quote": "המעשה מחמורו של רפב״י המובא בחולין",
+   "end_quote": "הפרישו דמאי ואכלה",
+   "hasidic": false,
+   "summary_en": "R. Pinhas ben Yair's donkey refuses untithed barley until it is tithed.",
+   "tags": [
+    {
+     "tag": "supernatural:miracle",
+     "scope": "span",
+     "quotes": [
+      "עני׳ זו הולכת לעשות רצון קונה"
+     ],
+     "confidence": 2,
+     "why": "pious animal",
+     "quotes_failed": false
+    },
+    {
+     "tag": "practice:halakhah",
+     "scope": "span",
+     "quotes": [
+      "דלמא לא מעשרן. עשרינהו ואכל"
+     ],
+     "confidence": 3,
+     "why": "tithing law",
+     "quotes_failed": false
+    },
+    {
+     "tag": "not-a-hasidic-story:hagiography",
+     "scope": "story",
+     "quotes": [],
+     "confidence": 3,
+     "why": "sage's donkey",
+     "quotes_failed": false
+    }
+   ],
+   "missing_concepts": [
+    "pious animals"
+   ],
+   "start_quote_found": true,
+   "end_quote_found": true
+  },
+  {
+   "k": 5,
+   "start_quote": "במס׳ ע״ז (דף יו״ד ע״ב) באנטונינוס ורבי",
+   "end_quote": "בעי רחמי עליה ואחייה ושדריה",
+   "hasidic": false,
+   "summary_en": "Antoninus kills his slaves to keep his visits to Rabbi secret; R. Hanina bar Hama finds one dead and revives him by prayer.",
+   "tags": [
+    {
+     "tag": "practice:lifesaving",
+     "scope": "span",
+     "quotes": [
+      "בעי רחמי עליה ואחייה ושדריה"
+     ],
+     "confidence": 2,
+     "why": "revives the dead",
+     "quotes_failed": false
+    },
+    {
+     "tag": "supernatural:miracle",
+     "scope": "span",
+     "quotes": [
+      "בעי רחמי עליה ואחייה"
+     ],
+     "confidence": 3,
+     "why": "resurrection",
+     "quotes_failed": false
+    },
+    {
+     "tag": "social:relations_with_the_authorities",
+     "scope": "span",
+     "quotes": [
+      "קא מזלזלינו במלכותא"
+     ],
+     "confidence": 3,
+     "why": "emperor",
+     "quotes_failed": false
+    },
+    {
+     "tag": "social:relations_with_non_jews",
+     "scope": "span",
+     "quotes": [
+      "באנטונינוס ורבי שהי׳ לו מערה"
+     ],
+     "confidence": 2,
+     "why": "Roman emperor",
+     "quotes_failed": false
+    },
+    {
+     "tag": "times:death",
+     "scope": "span",
+     "quotes": [
+      "חד קטליה אבבא דבי רבי"
+     ],
+     "confidence": 2,
+     "why": "slaves killed",
+     "quotes_failed": false
+    },
+    {
+     "tag": "not-a-hasidic-story:hagiography",
+     "scope": "story",
+     "quotes": [],
+     "confidence": 3,
+     "why": "talmudic",
+     "quotes_failed": false
+    }
+   ],
+   "missing_concepts": [],
+   "start_quote_found": true,
+   "end_quote_found": true
+  },
+  {
+   "k": 6,
+   "start_quote": "בש״ס בבלי מס׳ תענית (דף כ\"ה ע\"א) ברחב\"ד",
+   "end_quote": "אבל אין לוקחים ממנו בחזרה",
+   "hasidic": false,
+   "summary_en": "At his poor wife's urging, R. Hanina ben Dosa receives a golden table leg from heaven; after her dream of the world to come he prays for it to be taken back.",
+   "tags": [
+    {
+     "tag": "supernatural:miracle",
+     "scope": "span",
+     "quotes": [
+      "ונתנו לו רגל אחד מן שלחן זהב"
+     ],
+     "confidence": 3,
+     "why": "gift from heaven",
+     "quotes_failed": false
+    },
+    {
+     "tag": "social:poverty",
+     "scope": "span",
+     "quotes": [
+      "מגודל העוני והמחסור שהי' בביתו"
+     ],
+     "confidence": 2,
+     "why": "accepted poverty",
+     "quotes_failed": false
+    },
+    {
+     "tag": "experience:dream",
+     "scope": "span",
+     "quotes": [
+      "אח\"כ ראתה אשתו בחלומה"
+     ],
+     "confidence": 3,
+     "why": "wife's dream",
+     "quotes_failed": false
+    },
+    {
+     "tag": "times:eschatology",
+     "scope": "span",
+     "quotes": [
+      "שעתידין צדיקים לאכול על שלחן זהב"
+     ],
+     "confidence": 2,
+     "why": "world to come",
+     "quotes_failed": false
+    },
+    {
+     "tag": "social:marital_relationship",
+     "scope": "span",
+     "quotes": [
+      "ואמרה לו אשתו עד אימתי נסבול"
+     ],
+     "confidence": 3,
+     "why": "husband and wife",
+     "quotes_failed": false
+    },
+    {
+     "tag": "women:major_character",
+     "scope": "span",
+     "quotes": [
+      "ואמרה לו אשתו עד אימתי נסבול"
+     ],
+     "confidence": 3,
+     "why": "wife drives the plot",
+     "quotes_failed": false
+    },
+    {
+     "tag": "characters-and-roles:the_family_of_the_tsaddik",
+     "scope": "span",
+     "quotes": [
+      "ואמרה לו אשתו"
+     ],
+     "confidence": 2,
+     "why": "wife",
+     "quotes_failed": false
+    },
+    {
+     "tag": "practice:prayer",
+     "scope": "span",
+     "quotes": [
+      "ביקש רחמים ולקחו מאתו בחזרה"
+     ],
+     "confidence": 2,
+     "why": "petitionary prayer",
+     "quotes_failed": false
+    },
+    {
+     "tag": "not-a-hasidic-story:hagiography",
+     "scope": "story",
+     "quotes": [],
+     "confidence": 3,
+     "why": "talmudic",
+     "quotes_failed": false
+    }
+   ],
+   "missing_concepts": [],
+   "start_quote_found": true,
+   "end_quote_found": true
+  },
+  {
+   "k": 7,
+   "start_quote": "בערב שבת לעת ערב ראה את בתו עציבה",
+   "end_quote": "עד שהביאו ממנו אור להבדלה",
+   "hasidic": false,
+   "summary_en": "R. Hanina ben Dosa's daughter fills the Sabbath lamp with vinegar by mistake, and it burns all Sabbath.",
+   "tags": [
+    {
+     "tag": "supernatural:miracle",
+     "scope": "span",
+     "quotes": [
+      "יאמר לחומץ וידליק והי׳ דולק"
+     ],
+     "confidence": 3,
+     "why": "vinegar burns",
+     "quotes_failed": false
+    },
+    {
+     "tag": "times:shabbat",
+     "scope": "story",
+     "quotes": [],
+     "confidence": 3,
+     "why": "Sabbath eve",
+     "quotes_failed": false
+    },
+    {
+     "tag": "characters-and-roles:the_family_of_the_tsaddik",
+     "scope": "span",
+     "quotes": [
+      "ראה את בתו עציבה"
+     ],
+     "confidence": 3,
+     "why": "daughter",
+     "quotes_failed": false
+    },
+    {
+     "tag": "women:minor_character",
+     "scope": "span",
+     "quotes": [
+      "ראה את בתו עציבה"
+     ],
+     "confidence": 3,
+     "why": "daughter acts",
+     "quotes_failed": false
+    },
+    {
+     "tag": "not-a-hasidic-story:hagiography",
+     "scope": "story",
+     "quotes": [],
+     "confidence": 3,
+     "why": "talmudic",
+     "quotes_failed": false
+    }
+   ],
+   "missing_concepts": [],
+   "start_quote_found": true,
+   "end_quote_found": true
+  },
+  {
+   "k": 8,
+   "start_quote": "מעשה ברפב\"י שהלך למקום אחד באו אליו",
+   "end_quote": "ולא אכלו עוד העכברים בתבואה שלהם",
+   "hasidic": false,
+   "summary_en": "R. Pinhas ben Yair gathers the mice eating a town's grain and understands that they punish neglected tithes; the townspeople repent.",
+   "tags": [
+    {
+     "tag": "supernatural:miracle",
+     "scope": "span",
+     "quotes": [
+      "גזר עליהם רפב״י וקיבץ כל העכברים"
+     ],
+     "confidence": 3,
+     "why": "commands mice",
+     "quotes_failed": false
+    },
+    {
+     "tag": "supernatural:perception",
+     "scope": "span",
+     "quotes": [
+      "מבינים אתם מה שהעכברים אומרים"
+     ],
+     "confidence": 2,
+     "why": "understands animals",
+     "quotes_failed": false
+    },
+    {
+     "tag": "ethics-and-emotions:repentance",
+     "scope": "span",
+     "quotes": [
+      "שמהיום והלאה נחזור למוטב"
+     ],
+     "confidence": 3,
+     "why": "town repents",
+     "quotes_failed": false
+    },
+    {
+     "tag": "ethics-and-emotions:punishment",
+     "scope": "span",
+     "quotes": [
+      "לכן הם אוכלים את תבואתכם"
+     ],
+     "confidence": 2,
+     "why": "pest as punishment",
+     "quotes_failed": false
+    },
+    {
+     "tag": "practice:protection",
+     "scope": "span",
+     "quotes": [
+      "ולא אכלו עוד העכברים בתבואה שלהם"
+     ],
+     "confidence": 2,
+     "why": "shields the town",
+     "quotes_failed": false
+    },
+    {
+     "tag": "not-a-hasidic-story:hagiography",
+     "scope": "story",
+     "quotes": [],
+     "confidence": 3,
+     "why": "talmudic",
+     "quotes_failed": false
+    }
+   ],
+   "missing_concepts": [
+    "tithes"
+   ],
+   "start_quote_found": true,
+   "end_quote_found": true
+  },
+  {
+   "k": 9,
+   "start_quote": "במס׳ סנהדרין (דף ס\"ה ע״ב) רבא ברא גברא",
+   "end_quote": "הדר לעפרך",
+   "hasidic": false,
+   "summary_en": "Rava creates a man through Sefer Yetzirah; R. Zera finds it cannot speak and returns it to dust.",
+   "tags": [
+    {
+     "tag": "knowledge:practical_kabbalah",
+     "scope": "span",
+     "quotes": [
+      "ע\"י ספר יצירה שלמדו צירוף אותיות של שם"
+     ],
+     "confidence": 3,
+     "why": "creating a golem",
+     "quotes_failed": false
+    },
+    {
+     "tag": "practice:use_of_holy_names",
+     "scope": "span",
+     "quotes": [
+      "צירוף אותיות של שם"
+     ],
+     "confidence": 3,
+     "why": "letter combinations",
+     "quotes_failed": false
+    },
+    {
+     "tag": "knowledge:secret_texts",
+     "scope": "span",
+     "quotes": [
+      "ע\"י ספר יצירה"
+     ],
+     "confidence": 2,
+     "why": "Sefer Yetzirah",
+     "quotes_failed": false
+    },
+    {
+     "tag": "not-a-hasidic-story:hagiography",
+     "scope": "story",
+     "quotes": [],
+     "confidence": 2,
+     "why": "talmudic",
+     "quotes_failed": false
+    }
+   ],
+   "missing_concepts": [
+    "golem"
+   ],
+   "start_quote_found": true,
+   "end_quote_found": true
+  },
+  {
+   "k": 10,
+   "start_quote": "פ״א גזרה המלבות על ישראל",
+   "end_quote": "היו קורין אותו אלישע בעל כנפים",
+   "hasidic": false,
+   "summary_en": "Under a decree against tefillin, Elisha's tefillin turn into dove's wings in the hand of a pursuing officer.",
+   "tags": [
+    {
+     "tag": "practice:tefillin",
+     "scope": "span",
+     "quotes": [
+      "שכל המניח תפילין ויצא לשוק"
+     ],
+     "confidence": 3,
+     "why": "central object",
+     "quotes_failed": false
+    },
+    {
+     "tag": "supernatural:miracle",
+     "scope": "span",
+     "quotes": [
+      "פשט את ידו ונמצא בה כנפי יונה"
+     ],
+     "confidence": 3,
+     "why": "transformation",
+     "quotes_failed": false
+    },
+    {
+     "tag": "social:relations_with_the_authorities",
+     "scope": "span",
+     "quotes": [
+      "וראהו ממונה אחד מהמלכות"
+     ],
+     "confidence": 3,
+     "why": "officer",
+     "quotes_failed": false
+    },
+    {
+     "tag": "times:historical_event",
+     "scope": "span",
+     "quotes": [
+      "גזרה המלבות על ישראל"
+     ],
+     "confidence": 2,
+     "why": "persecution decree",
+     "quotes_failed": false
+    },
+    {
+     "tag": "not-a-hasidic-story:hagiography",
+     "scope": "story",
+     "quotes": [],
+     "confidence": 3,
+     "why": "talmudic",
+     "quotes_failed": false
+    }
+   ],
+   "missing_concepts": [],
+   "start_quote_found": true,
+   "end_quote_found": true
+  },
+  {
+   "k": 11,
+   "start_quote": "והמעשה דרחב״ד במס׳ ברכות",
+   "end_quote": "ואוי לו לערוד שפגע בו רחב״ד",
+   "hasidic": false,
+   "summary_en": "A lizard bites R. Hanina ben Dosa and dies; he carries it to the study house to teach that sin, not the lizard, kills.",
+   "tags": [
+    {
+     "tag": "supernatural:miracle",
+     "scope": "span",
+     "quotes": [
+      "יצא ונשכו ומת אותו ערוד"
+     ],
+     "confidence": 3,
+     "why": "creature dies",
+     "quotes_failed": false
+    },
+    {
+     "tag": "practice:protection",
+     "scope": "span",
+     "quotes": [
+      "והי׳ מזיק הבריות והודיעו לרחב״ד"
+     ],
+     "confidence": 2,
+     "why": "rids the community of danger",
+     "quotes_failed": false
+    },
+    {
+     "tag": "spaces:beth_midrash",
+     "scope": "span",
+     "quotes": [
+      "נטלו על כתפו והביאו לביהמ״ד"
+     ],
+     "confidence": 2,
+     "why": "setting",
+     "quotes_failed": false
+    },
+    {
+     "tag": "not-a-hasidic-story:hagiography",
+     "scope": "story",
+     "quotes": [],
+     "confidence": 3,
+     "why": "talmudic",
+     "quotes_failed": false
+    }
+   ],
+   "missing_concepts": [],
+   "start_quote_found": true,
+   "end_quote_found": true
+  },
+  {
+   "k": 12,
+   "start_quote": "באותו חסיד ששמע בר״ה בבית הקברות",
+   "end_quote": "כבר נשמעו בין החיים",
+   "hasidic": false,
+   "summary_en": "A pious man overhears two dead girls' spirits in a cemetery and profits from their knowledge, until his wife's talk ends the secret.",
+   "tags": [
+    {
+     "tag": "supernatural:communicating_with_the_invisible",
+     "scope": "span",
+     "quotes": [
+      "שתי רוחות שמספרות זל״ז"
+     ],
+     "confidence": 3,
+     "why": "spirits overheard",
+     "quotes_failed": false
+    },
+    {
+     "tag": "times:holidays",
+     "scope": "span",
+     "quotes": [
+      "ששמע בר״ה בבית הקברות"
+     ],
+     "confidence": 2,
+     "why": "Rosh Hashana",
+     "quotes_failed": false
+    },
+    {
+     "tag": "women:minor_character",
+     "scope": "span",
+     "quotes": [
+      "כאשר אמרה אשתו של אותו חסיד"
+     ],
+     "confidence": 2,
+     "why": "wife reveals the secret",
+     "quotes_failed": false
+    },
+    {
+     "tag": "not-a-hasidic-story:hagiography",
+     "scope": "story",
+     "quotes": [],
+     "confidence": 2,
+     "why": "talmudic",
+     "quotes_failed": false
+    }
+   ],
+   "missing_concepts": [
+    "knowledge from behind the heavenly curtain (פרגוד)"
+   ],
+   "start_quote_found": true,
+   "end_quote_found": true
+  },
+  {
+   "k": 13,
+   "start_quote": "באנשים שחפרו בשדה של רב נחמן",
+   "end_quote": "שעה אחת לפני תחיית המתים",
+   "hasidic": false,
+   "summary_en": "The undecayed R. Ahai rebukes diggers in R. Nahman's field and discusses with him why the righteous do not decay.",
+   "tags": [
+    {
+     "tag": "supernatural:communicating_with_the_invisible",
+     "scope": "span",
+     "quotes": [
+      "א\"ל אני אחאי ב״ר יאשיה"
+     ],
+     "confidence": 3,
+     "why": "the dead speak",
+     "quotes_failed": false
+    },
+    {
+     "tag": "times:eschatology",
+     "scope": "span",
+     "quotes": [
+      "שעה אחת לפני תחיית המתים"
+     ],
+     "confidence": 3,
+     "why": "resurrection",
+     "quotes_failed": false
+    },
+    {
+     "tag": "practice:sermon",
+     "scope": "span",
+     "quotes": [
+      "ורקב עצמות קנאה בכל מי שיש לו קנאה"
+     ],
+     "confidence": 2,
+     "why": "exegesis",
+     "quotes_failed": false
+    },
+    {
+     "tag": "not-a-hasidic-story:hagiography",
+     "scope": "story",
+     "quotes": [],
+     "confidence": 3,
+     "why": "talmudic",
+     "quotes_failed": false
+    }
+   ],
+   "missing_concepts": [
+    "incorrupt body of the righteous"
+   ],
+   "start_quote_found": true,
+   "end_quote_found": true
+  },
+  {
+   "k": 14,
+   "start_quote": "שרבי אחר פטירתו בא לביתו בכל ערב שבת",
+   "end_quote": "שלא להוציא לעז על צדיקים הראשונים",
+   "hasidic": false,
+   "summary_en": "After his death Rabbi comes home every Sabbath eve, and stops once a neighbour learns of it.",
+   "tags": [
+    {
+     "tag": "times:shabbat",
+     "scope": "story",
+     "quotes": [],
+     "confidence": 3,
+     "why": "Sabbath eve",
+     "quotes_failed": false
+    },
+    {
+     "tag": "supernatural:communicating_with_the_invisible",
+     "scope": "span",
+     "quotes": [
+      "שרבי אחר פטירתו בא לביתו"
+     ],
+     "confidence": 2,
+     "why": "the dead return",
+     "quotes_failed": false
+    },
+    {
+     "tag": "women:minor_character",
+     "scope": "span",
+     "quotes": [
+      "אמרה שפחה של רבי אליה שתוק"
+     ],
+     "confidence": 3,
+     "why": "neighbour and maid",
+     "quotes_failed": false
+    },
+    {
+     "tag": "ethics-and-emotions:humility",
+     "scope": "span",
+     "quotes": [
+      "שלא להוציא לעז על צדיקים הראשונים"
+     ],
+     "confidence": 1,
+     "why": "concern for earlier sages",
+     "quotes_failed": false
+    },
+    {
+     "tag": "not-a-hasidic-story:hagiography",
+     "scope": "story",
+     "quotes": [],
+     "confidence": 3,
+     "why": "talmudic",
+     "quotes_failed": false
+    }
+   ],
+   "missing_concepts": [],
+   "start_quote_found": true,
+   "end_quote_found": true
+  },
+  {
+   "k": 15,
+   "start_quote": "ברב אשי שנראה לו המלאך בשוק",
+   "end_quote": "אפילו כמלא נימא",
+   "hasidic": false,
+   "summary_en": "The Angel of Death grants R. Ashi thirty days to review his learning, then returns early because R. Ashi's successor's term has come.",
+   "tags": [
+    {
+     "tag": "characters-and-roles:angel_of_death",
+     "scope": "span",
+     "quotes": [
+      "א\"ל המלאך משום שאתה דוחה רגל"
+     ],
+     "confidence": 3,
+     "why": "agent",
+     "quotes_failed": false
+    },
+    {
+     "tag": "practice:study",
+     "scope": "span",
+     "quotes": [
+      "עד שאחזור ואלמוד מה שלמדתי"
+     ],
+     "confidence": 2,
+     "why": "reviewing learning",
+     "quotes_failed": false
+    },
+    {
+     "tag": "times:death",
+     "scope": "story",
+     "quotes": [],
+     "confidence": 2,
+     "why": "impending death",
+     "quotes_failed": false
+    },
+    {
+     "tag": "social:inter_hasidic_inheritance_of_leadership",
+     "scope": "span",
+     "quotes": [
+      "שהגיע זמנו להיות נשיא"
+     ],
+     "confidence": 1,
+     "why": "succession (non-Hasidic)",
+     "quotes_failed": false
+    },
+    {
+     "tag": "not-a-hasidic-story:hagiography",
+     "scope": "story",
+     "quotes": [],
+     "confidence": 3,
+     "why": "talmudic",
+     "quotes_failed": false
+    }
+   ],
+   "missing_concepts": [],
+   "start_quote_found": true,
+   "end_quote_found": true
+  },
+  {
+   "k": 16,
+   "start_quote": "ברב חנינא בר פפא שהלך בלילה לחלק מעות צדקה",
+   "end_quote": "וברח מלפניו",
+   "hasidic": false,
+   "summary_en": "The prince of spirits confronts R. Hanina bar Pappa as he distributes charity at night, but flees from him.",
+   "tags": [
+    {
+     "tag": "characters-and-roles:demons",
+     "scope": "span",
+     "quotes": [
+      "פגע בו שר הרוחות"
+     ],
+     "confidence": 3,
+     "why": "demon",
+     "quotes_failed": false
+    },
+    {
+     "tag": "ethics-and-emotions:charity",
+     "scope": "span",
+     "quotes": [
+      "שהלך בלילה לחלק מעות צדקה"
+     ],
+     "confidence": 3,
+     "why": "secret charity",
+     "quotes_failed": false
+    },
+    {
+     "tag": "ethics-and-emotions:fear",
+     "scope": "span",
+     "quotes": [
+      "והי׳ אותו הרוח מתיירא ממנו"
+     ],
+     "confidence": 2,
+     "why": "demon afraid",
+     "quotes_failed": false
+    },
+    {
+     "tag": "social:conflict",
+     "scope": "span",
+     "quotes": [
+      "ואיככה אתה הולך בלילה"
+     ],
+     "confidence": 2,
+     "why": "confrontation",
+     "quotes_failed": false
+    },
+    {
+     "tag": "not-a-hasidic-story:hagiography",
+     "scope": "story",
+     "quotes": [],
+     "confidence": 3,
+     "why": "talmudic",
+     "quotes_failed": false
+    }
+   ],
+   "missing_concepts": [],
+   "start_quote_found": true,
+   "end_quote_found": true
+  },
+  {
+   "k": 17,
+   "start_quote": "שהי׳ אליהו רגיל להיות במתיבתא דרבי",
+   "end_quote": "וכן ליעקב וכו׳",
+   "hasidic": false,
+   "summary_en": "Elijah is late to Rabbi's academy on a New Moon because he must wake each patriarch to wash and pray.",
+   "tags": [
+    {
+     "tag": "characters-and-roles:elijah_the_prophet",
+     "scope": "span",
+     "quotes": [
+      "שהי׳ אליהו רגיל להיות במתיבתא דרבי"
+     ],
+     "confidence": 3,
+     "why": "appears",
+     "quotes_failed": false
+    },
+    {
+     "tag": "spaces:beth_midrash",
+     "scope": "span",
+     "quotes": [
+      "במתיבתא דרבי"
+     ],
+     "confidence": 2,
+     "why": "academy",
+     "quotes_failed": false
+    },
+    {
+     "tag": "times:holidays",
+     "scope": "span",
+     "quotes": [
+      "יום אחד הי׳ ראש חודש"
+     ],
+     "confidence": 1,
+     "why": "New Moon",
+     "quotes_failed": false
+    },
+    {
+     "tag": "practice:prayer",
+     "scope": "span",
+     "quotes": [
+      "ונטל ידיו והתפלל"
+     ],
+     "confidence": 2,
+     "why": "patriarchs pray",
+     "quotes_failed": false
+    },
+    {
+     "tag": "not-a-hasidic-story:hagiography",
+     "scope": "story",
+     "quotes": [],
+     "confidence": 3,
+     "why": "talmudic",
+     "quotes_failed": false
+    }
+   ],
+   "missing_concepts": [
+    "patriarchs' prayer"
+   ],
+   "start_quote_found": true,
+   "end_quote_found": true
+  },
+  {
+   "k": 18,
+   "start_quote": "בר׳ שילא שנתו מלקות להבועל זונה",
+   "end_quote": "בא אליהו ונדמה להם כמו איש והעיד ע״ז",
+   "hasidic": false,
+   "summary_en": "R. Shila flogs a man for illicit relations; when the king demands witnesses, Elijah appears in human form and testifies.",
+   "tags": [
+    {
+     "tag": "characters-and-roles:elijah_the_prophet",
+     "scope": "span",
+     "quotes": [
+      "בא אליהו ונדמה להם כמו איש"
+     ],
+     "confidence": 3,
+     "why": "disguised Elijah",
+     "quotes_failed": false
+    },
+    {
+     "tag": "ethics-and-emotions:punishment",
+     "scope": "span",
+     "quotes": [
+      "שנתו מלקות להבועל זונה"
+     ],
+     "confidence": 3,
+     "why": "lashes",
+     "quotes_failed": false
+    },
+    {
+     "tag": "social:relations_with_the_authorities",
+     "scope": "span",
+     "quotes": [
+      "ושאלו המלך מדוע נתת מלקות"
+     ],
+     "confidence": 3,
+     "why": "king",
+     "quotes_failed": false
+    },
+    {
+     "tag": "ethics-and-emotions:lust",
+     "scope": "span",
+     "quotes": [
+      "להבועל זונה"
+     ],
+     "confidence": 1,
+     "why": "sexual sin",
+     "quotes_failed": false
+    },
+    {
+     "tag": "not-a-hasidic-story:hagiography",
+     "scope": "story",
+     "quotes": [],
+     "confidence": 3,
+     "why": "talmudic",
+     "quotes_failed": false
+    }
+   ],
+   "missing_concepts": [],
+   "start_quote_found": true,
+   "end_quote_found": true
+  }
+ ],
+ "check": {
+  "non_vocab_tags": [],
+  "quotes": 70,
+  "quotes_not_found": 0
+ },
+ "id": "non-story-003",
+ "chars": 18351,
+ "seconds": 94
+}

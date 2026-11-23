@@ -1,0 +1,140 @@
+{
+ "unit": {
+  "kind": "hasidic_story",
+  "why": "A short anecdote: during the Shavuot meal the Ruzhiner is told that his son R. David Moshe has been born, and he answers the hasidim who ask him for drink with a saying about the newborn's soul.",
+  "boundary_note": ""
+ },
+ "stories": [
+  {
+   "k": 1,
+   "start_quote": "נודע היות כי אותו הקדוש עליון",
+   "end_quote": "יודישע הערצער לאביהם שבשמים",
+   "hasidic": true,
+   "summary_en": "R. David Moshe (of Chortkov) is born on the second day of Shavuot 1827 while his father, the Ruzhiner, sits at the holiday table with his disciples. When the hasidim congratulate him and ask him for drink, he says they should give him drink, for he has brought down a soul that will warm Jewish hearts toward their Father in Heaven.",
+   "tags": [
+    {
+     "tag": "folkloristics:story_type_birth_of_the_tsaddik",
+     "scope": "story",
+     "quotes": [],
+     "confidence": 3,
+     "why": "The whole tale is about the birth of R. David Moshe.",
+     "quotes_failed": false
+    },
+    {
+     "tag": "times:birth",
+     "scope": "span",
+     "quotes": [
+      "נולד ביום שני של חג השבועות"
+     ],
+     "confidence": 3,
+     "why": "The birth is the event of the story.",
+     "quotes_failed": false
+    },
+    {
+     "tag": "times:holidays",
+     "scope": "span",
+     "quotes": [
+      "ביום שני של חג השבועות"
+     ],
+     "confidence": 3,
+     "why": "It takes place on Shavuot.",
+     "quotes_failed": false
+    },
+    {
+     "tag": "characters-and-roles:the_family_of_the_tsaddik",
+     "scope": "span",
+     "quotes": [
+      "הרבנית הצדיקת שרהלי עה״ש בן זכר"
+     ],
+     "confidence": 3,
+     "why": "The father, mother and newborn son of the tzaddik appear.",
+     "quotes_failed": false
+    },
+    {
+     "tag": "practice:drinking_alcohol",
+     "scope": "span",
+     "quotes": [
+      "ותבעו שיתן להם משקה"
+     ],
+     "confidence": 2,
+     "why": "Drink is requested for the birth celebration at the meal.",
+     "quotes_failed": false
+    },
+    {
+     "tag": "social:inter_hasidic_master_disciple_relationship",
+     "scope": "span",
+     "quotes": [
+      "עם תלמידו הקדושים בשלחן אשר לפני ה׳"
+     ],
+     "confidence": 2,
+     "why": "The exchange is between the Ruzhiner and his disciples at his table.",
+     "quotes_failed": false
+    },
+    {
+     "tag": "supernatural:perception",
+     "scope": "span",
+     "quotes": [
+      "איך האב אייך אראב געבראכט אזא נשמה"
+     ],
+     "confidence": 2,
+     "why": "The father knows the special nature of the soul he has brought down.",
+     "quotes_failed": false
+    },
+    {
+     "tag": "supernatural:prognostication",
+     "scope": "span",
+     "quotes": [
+      "וואס וועט מהרב זיין יודישע הערצער לאביהם שבשמים"
+     ],
+     "confidence": 2,
+     "why": "He foretells the newborn's future role.",
+     "quotes_failed": false
+    },
+    {
+     "tag": "women:mention_only",
+     "scope": "span",
+     "quotes": [
+      "שהמליטה ז' הרבנית הצדיקת שרהלי"
+     ],
+     "confidence": 2,
+     "why": "The mother is mentioned giving birth but does not act in the scene.",
+     "quotes_failed": false
+    },
+    {
+     "tag": "practice:joke",
+     "scope": "span",
+     "quotes": [
+      "איהר מאהנט מיד משקה ? איהר דארפט מיר געבין משקה"
+     ],
+     "confidence": 1,
+     "why": "He wittily reverses the hasidim's request.",
+     "quotes_failed": false
+    },
+    {
+     "tag": "spaces:institutions_hassidic_court",
+     "scope": "span",
+     "quotes": [
+      "אביו עיר וקדיש מריזין עם תלמידו"
+     ],
+     "confidence": 1,
+     "why": "The scene is the Ruzhiner's holiday table at his court.",
+     "quotes_failed": false
+    }
+   ],
+   "missing_concepts": [
+    "descent of a soul brought down by a tzaddik",
+    "the tzaddik's holiday table (tish)"
+   ],
+   "start_quote_found": true,
+   "end_quote_found": true
+  }
+ ],
+ "check": {
+  "non_vocab_tags": [],
+  "quotes": 10,
+  "quotes_not_found": 0
+ },
+ "id": "Eser-Orot_0339",
+ "chars": 459,
+ "seconds": 14
+}

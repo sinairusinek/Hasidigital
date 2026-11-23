@@ -1,0 +1,88 @@
+{
+ "unit": {
+  "kind": "non_hasidic_story",
+  "why": "A short quoted report of how R. Menahem Azariah of Fano died a 'death by a kiss': his soul bound itself above and he fell dead to the ground. The passing of the Hasidic R. Michel is likened to it in one closing line.",
+  "boundary_note": "The division opens mid-compilation ('ובס׳ ע״ה') and seems to continue the previous division's theme of devekut. The trailing heading 'מענין דגים' belongs to the next division."
+ },
+ "stories": [
+  {
+   "k": 1,
+   "start_quote": "ושמעתי וקבלתי ממגידי אמת שמיתת הרמ״ע מפאנו",
+   "end_quote": "הסתלקות של הה״ק ר״ר מיכלי זצל\"ה",
+   "hasidic": false,
+   "summary_en": "The author of Ets ha-Da'at Tov reports a tradition that the Rama of Fano died a death by a kiss: his soul cleaved on high and he fell to the earth like a stone. He prays for such an end, and the passing of R. Michel is said to have been the same.",
+   "tags": [
+    {
+     "tag": "folkloristics:story_type_death_of_the_tsaddik",
+     "scope": "story",
+     "quotes": [],
+     "confidence": 3,
+     "why": "The whole account is the manner of a sage's death.",
+     "quotes_failed": false
+    },
+    {
+     "tag": "times:death",
+     "scope": "span",
+     "quotes": [
+      "ונפל לארץ מושלך כאבן דומם ונשאר מת על הארץ"
+     ],
+     "confidence": 3,
+     "why": "The death is described as an event.",
+     "quotes_failed": false
+    },
+    {
+     "tag": "not-a-hasidic-story:hagiography",
+     "scope": "story",
+     "quotes": [],
+     "confidence": 3,
+     "why": "It praises a pre-Hasidic kabbalist, the Rama of Fano, and is quoted from an earlier book.",
+     "quotes_failed": false
+    },
+    {
+     "tag": "practice:devekut",
+     "scope": "span",
+     "quotes": [
+      "שהתקשר נשמתו למעלה"
+     ],
+     "confidence": 2,
+     "why": "He dies in a state of the soul cleaving on high.",
+     "quotes_failed": false
+    },
+    {
+     "tag": "experience:devekut",
+     "scope": "span",
+     "quotes": [
+      "מיתות נשיקה שהתקשר נשמתו למעלה"
+     ],
+     "confidence": 2,
+     "why": "A mystical cleaving that ends in death by a kiss.",
+     "quotes_failed": false
+    },
+    {
+     "tag": "practice:storytelling",
+     "scope": "span",
+     "quotes": [
+      "ושמעתי וקבלתי ממגידי אמת"
+     ],
+     "confidence": 1,
+     "why": "Framed as an oral tradition received from reliable tellers.",
+     "quotes_failed": false
+    }
+   ],
+   "missing_concepts": [
+    "death by a divine kiss (מיתת נשיקה)",
+    "comparison of a Hasidic tsaddik's death to a pre-Hasidic kabbalist's"
+   ],
+   "start_quote_found": true,
+   "end_quote_found": true
+  }
+ ],
+ "check": {
+  "non_vocab_tags": [],
+  "quotes": 4,
+  "quotes_not_found": 0
+ },
+ "id": "Derech-Haemuna_0054",
+ "chars": 307,
+ "seconds": 15
+}

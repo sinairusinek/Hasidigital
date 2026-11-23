@@ -1,0 +1,117 @@
+{
+ "unit": {
+  "kind": "hasidic_story",
+  "why": "A short anecdote: the Besht stands at the door of a beit midrash and refuses to enter, then explains why; it is followed by a homiletic explanation.",
+  "boundary_note": "trailing 'מענין בית' is a heading for the next section"
+ },
+ "stories": [
+  {
+   "k": 1,
+   "start_quote": "המעשה הידוע שהבעש״ט הק׳ הלך פ״א",
+   "end_quote": "לא פרחת לעילא. (ד״מ פ׳ נח)",
+   "hasidic": true,
+   "summary_en": "The Besht refused to enter a study house because it was 'full' of Torah and prayer said without heartfelt intention, which could not rise on high.",
+   "tags": [
+    {
+     "tag": "spaces:beth_midrash",
+     "scope": "story",
+     "quotes": [],
+     "confidence": 3,
+     "why": "the scene takes place at the door of the beit midrash",
+     "quotes_failed": false
+    },
+    {
+     "tag": "practice:prayer",
+     "scope": "span",
+     "quotes": [
+      "אלו היו מתפללים העולם בכונת הלב כראוי"
+     ],
+     "confidence": 3,
+     "why": "the quality of prayer is the subject",
+     "quotes_failed": false
+    },
+    {
+     "tag": "supernatural:perception",
+     "scope": "span",
+     "quotes": [
+      "הוא מלא על כל גדותיו מפה לפה מתורה ותפלה"
+     ],
+     "confidence": 3,
+     "why": "he perceives the unrisen words that fill the house",
+     "quotes_failed": false
+    },
+    {
+     "tag": "practice:sermon",
+     "scope": "span",
+     "quotes": [
+      "ואז הסביר להם הענין כי אין זה"
+     ],
+     "confidence": 2,
+     "why": "the Besht gives a teaching that explains his act",
+     "quotes_failed": false
+    },
+    {
+     "tag": "practice:study",
+     "scope": "span",
+     "quotes": [
+      "כל אורייתא דלאו היא בדו״ר לא פרחת לעילא"
+     ],
+     "confidence": 2,
+     "why": "Torah study without intention is discussed",
+     "quotes_failed": false
+    },
+    {
+     "tag": "social:retrospective_recognition",
+     "scope": "span",
+     "quotes": [
+      "ויתמהו כל העומדים אתו על המראה הגדול"
+     ],
+     "confidence": 1,
+     "why": "onlookers' puzzlement is resolved by the explanation",
+     "quotes_failed": false
+    },
+    {
+     "tag": "not-a-hasidic-story:sermon",
+     "scope": "story",
+     "quotes": [],
+     "confidence": 1,
+     "why": "a brief anecdote serving mainly as a frame for a teaching on kavvanah",
+     "quotes_failed": false
+    },
+    {
+     "tag": "ethics-and-emotions:awe",
+     "scope": "span",
+     "quotes": [
+      "בכונה שלמה ורצויה ע״כ לא יוכל"
+     ],
+     "confidence": 1,
+     "why": "the stress on sincere devotion",
+     "quotes_failed": false
+    },
+    {
+     "tag": "spaces:heaven",
+     "scope": "span",
+     "quotes": [
+      "היו הדיבורים הק׳ פורחים למעלה"
+     ],
+     "confidence": 1,
+     "why": "prayers ascending to the upper worlds; borderline as a setting",
+     "quotes_failed": false
+    }
+   ],
+   "missing_concepts": [
+    "prayer without heartfelt intention fails to ascend (kavvanat ha-lev)"
+   ],
+   "start_quote_found": true,
+   "end_quote_found": true
+  }
+ ],
+ "check": {
+  "non_vocab_tags": [],
+  "quotes": 7,
+  "quotes_not_found": 0
+ },
+ "id": "Derech-Haemuna_0025",
+ "chars": 663,
+ "seconds": 12
+}

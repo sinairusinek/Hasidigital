@@ -1,0 +1,152 @@
+{
+ "unit": {
+  "kind": "hasidic_story",
+  "why": "A single narrative: the Kozhenitser Maggid's Kol Nidre plea for 'salachti' in his last year, with the Ruzhiner's and the Seer of Lublin's responses.",
+  "boundary_note": ""
+ },
+ "stories": [
+  {
+   "k": 1,
+   "start_quote": "בסוף ס׳ בארות המים וז\"ל אמרתי",
+   "end_quote": "הרעיש כל העולמות עכ״ל שם",
+   "hasidic": true,
+   "summary_en": "In his last year, the weak Maggid of Kozhenitz challenges God during Kol Nidre to say 'salachti kidvarekha', offering himself to repent for all Israel. He then has the singers chant joyfully and declares the verse aloud. The Ruzhiner later affirms that he heard it from God's mouth, and the Seer of Lublin sensed the event from afar.",
+   "tags": [
+    {
+     "tag": "times:holidays",
+     "scope": "story",
+     "quotes": [],
+     "confidence": 3,
+     "why": "Yom Kippur eve, Kol Nidre",
+     "quotes_failed": false
+    },
+    {
+     "tag": "practice:prayer",
+     "scope": "span",
+     "quotes": [
+      "כשהי' מתפלל כל נדרי לפני העמוד",
+      "ולולי זאת לא הי' מתפלל הלאה ערבית"
+     ],
+     "confidence": 3,
+     "why": "leading the prayer service",
+     "quotes_failed": false
+    },
+    {
+     "tag": "practice:torat_ha_tsaddik",
+     "scope": "span",
+     "quotes": [
+      "לא עשיתי זאת למעני ורק למען עמד בית ישראל",
+      "מוכן אנכי לעשות תשובה בעד כל קהל ישראל"
+     ],
+     "confidence": 3,
+     "why": "the tzaddik intercedes for all Israel",
+     "quotes_failed": false
+    },
+    {
+     "tag": "practice:music",
+     "scope": "span",
+     "quotes": [
+      "צוה להנועמי זמירות לשיר בקול נעים גילה ורנן"
+     ],
+     "confidence": 3,
+     "why": "singers chant at his command",
+     "quotes_failed": false
+    },
+    {
+     "tag": "ethics-and-emotions:joy",
+     "scope": "span",
+     "quotes": [
+      "לשיר בקול נעים גילה ורנן"
+     ],
+     "confidence": 2,
+     "why": "joyful singing",
+     "quotes_failed": false
+    },
+    {
+     "tag": "ethics-and-emotions:repentance",
+     "scope": "span",
+     "quotes": [
+      "מוכן אנכי לעשות תשובה בעד כל קהל ישראל"
+     ],
+     "confidence": 2,
+     "why": "offers to repent on behalf of the community",
+     "quotes_failed": false
+    },
+    {
+     "tag": "supernatural:communicating_with_the_invisible",
+     "scope": "span",
+     "quotes": [
+      "שהרב המגיד שמע מפיו של הקב\"ה סלחתי כמו מרע״ה"
+     ],
+     "confidence": 2,
+     "why": "said to have heard God's word",
+     "quotes_failed": false
+    },
+    {
+     "tag": "supernatural:perception",
+     "scope": "span",
+     "quotes": [
+      "הרה״ק מהר\"י בלובלין הרגיש הדבר",
+      "כי החולה השוכב על מטתו הרעיש כל העולמות"
+     ],
+     "confidence": 3,
+     "why": "the Seer perceived it from a distance",
+     "quotes_failed": false
+    },
+    {
+     "tag": "practice:storytelling",
+     "scope": "span",
+     "quotes": [
+      "והרפ\"ח הנ\"ל סיפר זאת בס\"ג לפני הרה״ק מריזין"
+     ],
+     "confidence": 3,
+     "why": "told before the Ruzhiner on a set occasion",
+     "quotes_failed": false
+    },
+    {
+     "tag": "practice:sermon",
+     "scope": "span",
+     "quotes": [
+      "הלא יש לך ברימינאב הרב ר׳ מענדילי מפריסטאג"
+     ],
+     "confidence": 1,
+     "why": "the plea mentions other tzaddikim of the generation",
+     "quotes_failed": false
+    },
+    {
+     "tag": "folkloristics:story_type_virtues",
+     "scope": "story",
+     "quotes": [],
+     "confidence": 2,
+     "why": "shows the Maggid's devotion to his people",
+     "quotes_failed": false
+    },
+    {
+     "tag": "social:inter_hasidic",
+     "scope": "span",
+     "quotes": [
+      "אמר הרה״ק מריזין אני מאמין באמונה שלימה"
+     ],
+     "confidence": 2,
+     "why": "other tzaddikim affirm the event",
+     "quotes_failed": false
+    }
+   ],
+   "missing_concepts": [
+    "bold confrontational prayer / arguing with God (din Torah im Hashem)",
+    "the tzaddik's bodily weakness and illness",
+    "Kol Nidre / Yom Kippur liturgy specifically"
+   ],
+   "start_quote_found": true,
+   "end_quote_found": true
+  }
+ ],
+ "check": {
+  "non_vocab_tags": [],
+  "quotes": 13,
+  "quotes_not_found": 0
+ },
+ "id": "Eser-Orot_0163",
+ "chars": 1879,
+ "seconds": 15
+}

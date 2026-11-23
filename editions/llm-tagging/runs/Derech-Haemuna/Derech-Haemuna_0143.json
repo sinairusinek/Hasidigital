@@ -1,0 +1,74 @@
+{
+ "unit": {
+  "kind": "non_hasidic_story",
+  "why": "A brief anecdote, quoted from an earlier book, about the pre-Hasidic author of Avodat ha-Gershuni, who paid a scholar to watch him and rebuke him at once; it is a habitual practice rather than a single event, so it is a borderline story.",
+  "boundary_note": "part of a chain of cited exempla on accepting rebuke; the next division starts a parallel anecdote about the Maharshal"
+ },
+ "stories": [
+  {
+   "k": 1,
+   "start_quote": "ובס׳ זת״מ בהק׳ וז״ל ומי לנו",
+   "end_quote": "יאמר לו תיכף שעשה שלא כהוגן",
+   "hasidic": false,
+   "summary_en": "The gaon, author of Avodat ha-Gershuni, kept a Torah scholar on salary to stay with him always, watch all his deeds, words and movements, and tell him at once whenever he acted improperly.",
+   "tags": [
+    {
+     "tag": "not-a-hasidic-story:hagiography",
+     "scope": "story",
+     "quotes": [],
+     "confidence": 3,
+     "why": "praises a pre-Hasidic rabbinic authority; the anecdote is copied from an earlier book",
+     "quotes_failed": false
+    },
+    {
+     "tag": "not-a-hasidic-story:virtues",
+     "scope": "story",
+     "quotes": [],
+     "confidence": 2,
+     "why": "cited as an exemplum in a chain teaching about seeking rebuke",
+     "quotes_failed": false
+    },
+    {
+     "tag": "ethics-and-emotions:humility",
+     "scope": "span",
+     "quotes": [
+      "ומה שלא תישר בעיניו יאמר לו תיכף שעשה שלא כהוגן"
+     ],
+     "confidence": 2,
+     "why": "a great sage submits himself to correction by another",
+     "quotes_failed": false
+    },
+    {
+     "tag": "ethics-and-emotions:virtues",
+     "scope": "story",
+     "quotes": [],
+     "confidence": 2,
+     "why": "the point of the anecdote is moral self-scrutiny",
+     "quotes_failed": false
+    },
+    {
+     "tag": "folkloristics:story_type_virtues",
+     "scope": "story",
+     "quotes": [],
+     "confidence": 1,
+     "why": "illustrates a sage's virtue, though the sage is not a tsaddik in the Hasidic sense",
+     "quotes_failed": false
+    }
+   ],
+   "missing_concepts": [
+    "seeking rebuke / tokhehah (hiring a personal admonisher)",
+    "moral self-scrutiny"
+   ],
+   "start_quote_found": true,
+   "end_quote_found": true
+  }
+ ],
+ "check": {
+  "non_vocab_tags": [],
+  "quotes": 1,
+  "quotes_not_found": 0
+ },
+ "id": "Derech-Haemuna_0143",
+ "chars": 204,
+ "seconds": 13
+}

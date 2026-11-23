@@ -1,0 +1,154 @@
+{
+ "unit": {
+  "kind": "hasidic_story",
+  "why": "A first-person memorate by the author (R. Yitzhak Eizik of Komarno, from Megillat Setarim) about his theurgic acts on Rosh Hashana 5606, a night vision of the ministering angels of Russia and Edom, and the annulment of decrees.",
+  "boundary_note": ""
+ },
+ "stories": [
+  {
+   "k": 1,
+   "start_quote": "עוד שם בראש השנה תר\"ו ביום א׳",
+   "end_quote": "כל הגזירות על היהודים שבאדום",
+   "hasidic": true,
+   "summary_en": "On Rosh Hashana 1845 the tzaddik works mystical acts for the Jews of Russia and subdues its heavenly prince. At night the prince threatens him with a drawn sword and the tzaddik promises to let him be. The prince of Edom then promises to make no evil decree, the tzaddik blesses him with the blessing said over a king, and on waking all decrees against the Jews are annulled.",
+   "tags": [
+    {
+     "tag": "times:holidays",
+     "scope": "story",
+     "quotes": [],
+     "confidence": 3,
+     "why": "set on Rosh Hashana",
+     "quotes_failed": false
+    },
+    {
+     "tag": "practice:protection",
+     "scope": "span",
+     "quotes": [
+      "עשיתי כמה פעולות בשביל כללות ישראל שבמדינת רוסיא"
+     ],
+     "confidence": 3,
+     "why": "the tzaddik acts to shield the Jews of Russia",
+     "quotes_failed": false
+    },
+    {
+     "tag": "folkloristics:story_type_protection",
+     "scope": "story",
+     "quotes": [],
+     "confidence": 3,
+     "why": "the central arc is the tzaddik averting decrees against the community",
+     "quotes_failed": false
+    },
+    {
+     "tag": "characters-and-roles:angels",
+     "scope": "span",
+     "quotes": [
+      "ראיתי את שרו בחרב שלופה",
+      "ראיתי שרו של אדום"
+     ],
+     "confidence": 3,
+     "why": "the heavenly princes of the nations appear",
+     "quotes_failed": false
+    },
+    {
+     "tag": "supernatural:communicating_with_the_invisible",
+     "scope": "span",
+     "quotes": [
+      "והבטחתי שאניחהו",
+      "והבטיח שלא יעשה שום דבר רע"
+     ],
+     "confidence": 3,
+     "why": "he negotiates with the princes",
+     "quotes_failed": false
+    },
+    {
+     "tag": "experience:dream",
+     "scope": "span",
+     "quotes": [
+      "ובלילה ראיתי את שרו בחרב שלופה",
+      "והקיצותי"
+     ],
+     "confidence": 3,
+     "why": "a night vision from which he wakes",
+     "quotes_failed": false
+    },
+    {
+     "tag": "social:conflict",
+     "scope": "span",
+     "quotes": [
+      "ורצה להרוג אותי שאם לא אניחהו יהרגני",
+      "ומגודל הקטרוג"
+     ],
+     "confidence": 3,
+     "why": "confrontation with the hostile heavenly prince",
+     "quotes_failed": false
+    },
+    {
+     "tag": "ethics-and-emotions:fear",
+     "scope": "span",
+     "quotes": [
+      "ורצה להרוג אותי שאם לא אניחהו יהרגני"
+     ],
+     "confidence": 1,
+     "why": "a death threat is implied, but fear is not stated",
+     "quotes_failed": false
+    },
+    {
+     "tag": "times:historical_event",
+     "scope": "span",
+     "quotes": [
+      "שנתבטל כל הגזירות על היהודים שבאדום"
+     ],
+     "confidence": 2,
+     "why": "dated 1845, alluding to decrees against Russian Jewry",
+     "quotes_failed": false
+    },
+    {
+     "tag": "social:relations_with_the_authorities",
+     "scope": "span",
+     "quotes": [
+      "וברכתי עליו ברכה שמברכין על המלך"
+     ],
+     "confidence": 2,
+     "why": "the state is dealt with through its heavenly prince",
+     "quotes_failed": false
+    },
+    {
+     "tag": "supernatural:miracle",
+     "scope": "span",
+     "quotes": [
+      "וכן הי׳ שנתבטל כל הגזירות על היהודים שבאדום"
+     ],
+     "confidence": 2,
+     "why": "the decrees are annulled as a result of his acts",
+     "quotes_failed": false
+    },
+    {
+     "tag": "practice:torat_ha_tsaddik",
+     "scope": "span",
+     "quotes": [
+      "עשיתי כמה פעולות בשביל כללות ישראל"
+     ],
+     "confidence": 2,
+     "why": "the tzaddik's power to act on behalf of Israel",
+     "quotes_failed": false
+    }
+   ],
+   "missing_concepts": [
+    "heavenly princes of the nations (שרי האומות) as a motif",
+    "theurgic subjugation of a nation's prince (הכנעת השר)",
+    "first-person mystical diary (Megillat Setarim)",
+    "averting governmental decrees (ביטול גזירות)"
+   ],
+   "start_quote_found": true,
+   "end_quote_found": true
+  }
+ ],
+ "check": {
+  "non_vocab_tags": [],
+  "quotes": 14,
+  "quotes_not_found": 0
+ },
+ "id": "Eser-Kedushot_0177",
+ "chars": 392,
+ "seconds": 15
+}

@@ -1,0 +1,84 @@
+{
+ "unit": {
+  "kind": "hasidic_story",
+  "why": "A short anecdote: before Pesach the holy rabbi goes out, sees women koshering vessels with excessive stringency, and makes a witty remark about it.",
+  "boundary_note": ""
+ },
+ "stories": [
+  {
+   "k": 1,
+   "start_quote": "עוד כתב לי הגאון הנ\"ל בשמו",
+   "end_quote": "ראבין. קאשערן ודפח\"ח :",
+   "hasidic": true,
+   "summary_en": "Before Pesach the tsaddik saw women laboriously koshering vessels with extra stringencies, and jested that the evil inclination's angels from 'קשר\"ק' named at the shofar blowing are an acronym for scratching, scrubbing, rubbing and koshering.",
+   "tags": [
+    {
+     "tag": "practice:joke",
+     "scope": "span",
+     "quotes": [
+      "אמר בדרך צחות שזה כוונת היה״ר"
+     ],
+     "confidence": 3,
+     "why": "The tsaddik's remark is explicitly a jest, a playful acronym.",
+     "quotes_failed": false
+    },
+    {
+     "tag": "times:holidays",
+     "scope": "span",
+     "quotes": [
+      "יצא הרה״ק החוצה קודם פסח"
+     ],
+     "confidence": 3,
+     "why": "Set during the preparations on the eve of Pesach.",
+     "quotes_failed": false
+    },
+    {
+     "tag": "practice:halakhah",
+     "scope": "span",
+     "quotes": [
+      "מנקים את הכלים להגעלה ברוב עמל וטורח",
+      "ובחומרות יתירות וזהירות"
+     ],
+     "confidence": 2,
+     "why": "Koshering vessels (hagalah) and excessive legal stringencies are the point of the remark.",
+     "quotes_failed": false
+    },
+    {
+     "tag": "women:minor_character",
+     "scope": "span",
+     "quotes": [
+      "ראה איך הנשים עומדים ומנקים את הכלים להגעלה"
+     ],
+     "confidence": 3,
+     "why": "The women act, cleaning the vessels, and prompt the remark, but they are peripheral.",
+     "quotes_failed": false
+    },
+    {
+     "tag": "practice:storytelling",
+     "scope": "span",
+     "quotes": [
+      "עוד כתב לי הגאון הנ\"ל בשמו"
+     ],
+     "confidence": 1,
+     "why": "The anecdote is framed as transmitted in a letter from the gaon.",
+     "quotes_failed": false
+    }
+   ],
+   "missing_concepts": [
+    "Critique of excessive stringency (chumrot) in Pesach preparations",
+    "Koshering vessels for Pesach (hagalah)",
+    "Acronym wordplay (notarikon) in a Yiddish pun"
+   ],
+   "start_quote_found": true,
+   "end_quote_found": true
+  }
+ ],
+ "check": {
+  "non_vocab_tags": [],
+  "quotes": 6,
+  "quotes_not_found": 0
+ },
+ "id": "Eser-Orot_0092",
+ "chars": 286,
+ "seconds": 13
+}

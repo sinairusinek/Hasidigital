@@ -1,0 +1,60 @@
+{
+ "unit": {
+  "kind": "hasidic_story",
+  "why": "split out of non-story-003 (non-story)"
+ },
+ "stories": [
+  {
+   "k": 11,
+   "start_quote": "והמעשה דרחב״ד במס׳ ברכות",
+   "end_quote": "ואוי לו לערוד שפגע בו רחב״ד",
+   "hasidic": false,
+   "summary_en": "A lizard bites R. Hanina ben Dosa and dies; he carries it to the study house to teach that sin, not the lizard, kills.",
+   "tags": [
+    {
+     "tag": "supernatural:miracle",
+     "scope": "span",
+     "quotes": [
+      "יצא ונשכו ומת אותו ערוד"
+     ],
+     "confidence": 3,
+     "why": "creature dies",
+     "quotes_failed": false
+    },
+    {
+     "tag": "practice:protection",
+     "scope": "span",
+     "quotes": [
+      "והי׳ מזיק הבריות והודיעו לרחב״ד"
+     ],
+     "confidence": 2,
+     "why": "rids the community of danger",
+     "quotes_failed": false
+    },
+    {
+     "tag": "spaces:beth_midrash",
+     "scope": "span",
+     "quotes": [
+      "נטלו על כתפו והביאו לביהמ״ד"
+     ],
+     "confidence": 2,
+     "why": "setting",
+     "quotes_failed": false
+    },
+    {
+     "tag": "not-a-hasidic-story:hagiography",
+     "scope": "story",
+     "quotes": [],
+     "confidence": 3,
+     "why": "talmudic",
+     "quotes_failed": false
+    }
+   ],
+   "missing_concepts": [],
+   "start_quote_found": true,
+   "end_quote_found": true
+  }
+ ],
+ "id": "Eser-Orot_non-story-003_s11",
+ "split_from": "non-story-003"
+}

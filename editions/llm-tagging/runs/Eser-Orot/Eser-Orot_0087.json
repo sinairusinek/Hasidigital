@@ -1,0 +1,219 @@
+{
+ "unit": {
+  "kind": "hasidic_story",
+  "why": "A single narrative, told by an old man at R. Yehiel of Kazimierz's table, about R. Levi Yitzhak's blank letter that moved a nobleman and was partly spoiled because the man opened it.",
+  "boundary_note": ""
+ },
+ "stories": [
+  {
+   "k": 1,
+   "start_quote": "הרה״ק ר׳ יחיאל מקאזמיר זצ״ל ישב פ״א בסעודה",
+   "end_quote": "לפני הרה״ק רי״ח הרבי מקאזמיר",
+   "hasidic": true,
+   "summary_en": "A poor old leaseholder tells R. Yehiel of Kazimierz how R. Levi Yitzhak, after lodging in his house while collecting charity, gave him a blank paper that the nobleman read as a letter and so forgave his debt, but the lease would have been his forever had he not opened the paper on the way.",
+   "tags": [
+    {
+     "tag": "practice:storytelling",
+     "scope": "story",
+     "quotes": [],
+     "confidence": 3,
+     "why": "The tale is told by an old man at a hillula meal, at R. Yehiel's request.",
+     "quotes_failed": false
+    },
+    {
+     "tag": "practice:the_travels_of_the_tsaddik",
+     "scope": "span",
+     "quotes": [
+      "דרכו בקודש הי׳ לסבב על הכפרים לקבץ מעות",
+      "בקש ממני מקום ללון בביתי"
+     ],
+     "confidence": 3,
+     "why": "Levi Yitzhak tours villages and lodges with the narrator.",
+     "quotes_failed": false
+    },
+    {
+     "tag": "ethics-and-emotions:charity",
+     "scope": "span",
+     "quotes": [
+      "לקבץ מעות בהשבוע של חנוכה לצרכי עניים",
+      "ונתתי לו הנדבה"
+     ],
+     "confidence": 3,
+     "why": "Collecting alms for the poor.",
+     "quotes_failed": false
+    },
+    {
+     "tag": "times:holidays",
+     "scope": "span",
+     "quotes": [
+      "בהשבוע של חנוכה לצרכי עניים",
+      "ביומא דהלולא של הרה״ק מבא\"ד"
+     ],
+     "confidence": 2,
+     "why": "The lodging episode is in Hanukkah week; the frame is a hillula.",
+     "quotes_failed": false
+    },
+    {
+     "tag": "practice:meditation",
+     "scope": "span",
+     "quotes": [
+      "והלך בבית כל הלילה אחת הנה ואחת הנה ודיבר ונהם כדבורה"
+     ],
+     "confidence": 1,
+     "why": "A night vigil of inner worship.",
+     "quotes_failed": false
+    },
+    {
+     "tag": "experience:enthusiasm",
+     "scope": "span",
+     "quotes": [
+      "אמר אלי בהתלהבות בזה הלשון סערצי לעב"
+     ],
+     "confidence": 2,
+     "why": "The tsaddik speaks with fervor.",
+     "quotes_failed": false
+    },
+    {
+     "tag": "social:relations_with_non_jews",
+     "scope": "span",
+     "quotes": [
+      "הייתי אצל האדון שלי",
+      "והתחיל לקרות בו כקורא באיגרת"
+     ],
+     "confidence": 3,
+     "why": "The leaseholder deals with a gentile nobleman.",
+     "quotes_failed": false
+    },
+    {
+     "tag": "practice:protection",
+     "scope": "span",
+     "quotes": [
+      "ואם לא אעשה כן ישים אותי במשמר",
+      "והטעות המגיע אצלך אני נותן לך במתנה"
+     ],
+     "confidence": 3,
+     "why": "The tsaddik shields him from eviction and prison.",
+     "quotes_failed": false
+    },
+    {
+     "tag": "folkloristics:story_type_protection",
+     "scope": "story",
+     "quotes": [],
+     "confidence": 2,
+     "why": "The central arc is protection from a hostile nobleman.",
+     "quotes_failed": false
+    },
+    {
+     "tag": "supernatural:miracle",
+     "scope": "span",
+     "quotes": [
+      "ראיתי כי הוא חלק כמקדם ונשתוממתי על המראה",
+      "והתחיל לקרות בו כקורא באיגרת"
+     ],
+     "confidence": 3,
+     "why": "The nobleman reads a blank paper as a letter.",
+     "quotes_failed": false
+    },
+    {
+     "tag": "practice:failure",
+     "scope": "span",
+     "quotes": [
+      "ובמה שפתחתיו על הדרך והבטה בו קלקלת דבר הזה"
+     ],
+     "confidence": 3,
+     "why": "The full effect was lost; the tsaddik explains why.",
+     "quotes_failed": false
+    },
+    {
+     "tag": "social:disobedience",
+     "scope": "span",
+     "quotes": [
+      "לכו אראה מה בתוכו ופתחתי הנייר"
+     ],
+     "confidence": 2,
+     "why": "He opens the letter he was told to deliver, and this has consequences.",
+     "quotes_failed": false
+    },
+    {
+     "tag": "ethics-and-emotions:fear",
+     "scope": "span",
+     "quotes": [
+      "יראה שאני מהתל בו ויהרגני תיכף בקני השריפה"
+     ],
+     "confidence": 3,
+     "why": "He fears the nobleman will kill him.",
+     "quotes_failed": false
+    },
+    {
+     "tag": "practice:torat_ha_tsaddik",
+     "scope": "span",
+     "quotes": [
+      "והלכתי בכח אמונה זו להאדון",
+      "בודאי איש אלהים וצדיק כזה לא יסכן אותי"
+     ],
+     "confidence": 2,
+     "why": "Faith in the tsaddik's power.",
+     "quotes_failed": false
+    },
+    {
+     "tag": "supernatural:perception",
+     "scope": "span",
+     "quotes": [
+      "פגשתיו עומד בפרשת דרכים וממתין ומצפה על ביאתי"
+     ],
+     "confidence": 2,
+     "why": "The tsaddik knows the man is coming.",
+     "quotes_failed": false
+    },
+    {
+     "tag": "social:retrospective_recognition",
+     "scope": "span",
+     "quotes": [
+      "הלא הי׳ יוכל להיות הפאקט אצלך לאחוזת עולם"
+     ],
+     "confidence": 2,
+     "why": "He learns afterwards what the letter could have achieved.",
+     "quotes_failed": false
+    },
+    {
+     "tag": "practice:travel_to_the_tsaddik",
+     "scope": "span",
+     "quotes": [
+      "לכן אלך אליו. אפשר יעשה לי טובה",
+      "וכן עשיתי ובאתי אליו וספרתי לו"
+     ],
+     "confidence": 2,
+     "why": "He goes to the tsaddik to bring his request.",
+     "quotes_failed": false
+    },
+    {
+     "tag": "ethics-and-emotions:joy",
+     "scope": "span",
+     "quotes": [
+      "והלכתי לביתו בשמחה ולקחתי גבינה וחמאה"
+     ],
+     "confidence": 1,
+     "why": "He is happy after being saved.",
+     "quotes_failed": false
+    }
+   ],
+   "missing_concepts": [
+    "leaseholder (arendator) and his debt to the nobleman",
+    "blank paper as a miraculous letter",
+    "gift of thanks to the tsaddik",
+    "a hosting kindness repaid by the tsaddik",
+    "witness account of the tsaddik's earlier rabbinate (Zelichow)"
+   ],
+   "start_quote_found": true,
+   "end_quote_found": true
+  }
+ ],
+ "check": {
+  "non_vocab_tags": [],
+  "quotes": 24,
+  "quotes_not_found": 0
+ },
+ "id": "Eser-Orot_0087",
+ "chars": 3196,
+ "seconds": 25
+}

@@ -1,0 +1,91 @@
+{
+ "unit": {
+  "kind": "saying_or_teaching",
+  "why": "A numbered series (עג–צח) of exegetical and homiletic sayings in the name of the Seer of Lublin, quoted from various books. Only item (פט) contains a minimal narrative scene: the Seer, as a disciple, offers his own interpretation before the Maggid of Mezritch and is praised.",
+  "boundary_note": "The series of Lublin sayings continues from the previous division into the next (צט). The text contains a stray modern editorial note in English ('I don't think it's in the Zohar...') inside item (פ)."
+ },
+ "stories": [
+  {
+   "k": 1,
+   "start_quote": "מורינו הרה״ק מוהרי״א מזידיטשוב סיפר ששמע",
+   "end_quote": "ובמעט יותר מפירושו ודפח\"ח",
+   "hasidic": true,
+   "summary_en": "The young Seer of Lublin, at the Maggid of Mezritch's table, asks permission to offer his own reading of Rabbi's weeping ('one acquires his world in one hour'), explaining it as joy suppressed for fear of calamity. The Maggid praises his disciple's interpretation as very good, even somewhat better than his own.",
+   "tags": [
+    {
+     "tag": "not-a-hasidic-story:sermon",
+     "scope": "story",
+     "quotes": [],
+     "confidence": 2,
+     "why": "The anecdote is merely a frame for a talmudic interpretation.",
+     "quotes_failed": false
+    },
+    {
+     "tag": "practice:sermon",
+     "scope": "span",
+     "quotes": [
+      "בכה רבי ואמר יש קונה עולמו בשעה אחת",
+      "ואמר כי באמת שמח רבי"
+     ],
+     "confidence": 3,
+     "why": "Torah interpretations by the Maggid and the Seer are delivered.",
+     "quotes_failed": false
+    },
+    {
+     "tag": "social:inter_hasidic_master_disciple_relationship",
+     "scope": "span",
+     "quotes": [
+      "ואמר לו תלמידו הק' מלובלין אם יתן לי אדומו״ר רשות",
+      "ונענה רבו הקדוש אשר פירוש תלמידו הנ\"ל טוב מאד"
+     ],
+     "confidence": 3,
+     "why": "The disciple asks his master's permission and the master approves his interpretation.",
+     "quotes_failed": false
+    },
+    {
+     "tag": "practice:storytelling",
+     "scope": "span",
+     "quotes": [
+      "סיפר ששמע מאביו הרה״ק ר' בעריש זצ\"ל"
+     ],
+     "confidence": 2,
+     "why": "The anecdote is framed as told by a named tsaddik through a chain of transmission.",
+     "quotes_failed": false
+    },
+    {
+     "tag": "ethics-and-emotions:joy",
+     "scope": "span",
+     "quotes": [
+      "ובאמת הי׳ לו שמחה לרבי"
+     ],
+     "confidence": 1,
+     "why": "Joy (and its suppression) is the subject of the interpretation, not a depicted state.",
+     "quotes_failed": false
+    },
+    {
+     "tag": "ethics-and-emotions:humility",
+     "scope": "span",
+     "quotes": [
+      "אם יתן לי אדומו״ר רשות אענה גם אני חלקי"
+     ],
+     "confidence": 1,
+     "why": "The disciple modestly asks permission before speaking.",
+     "quotes_failed": false
+    }
+   ],
+   "missing_concepts": [
+    "a master praising a disciple's teaching as surpassing his own"
+   ],
+   "start_quote_found": true,
+   "end_quote_found": true
+  }
+ ],
+ "check": {
+  "non_vocab_tags": [],
+  "quotes": 7,
+  "quotes_not_found": 0
+ },
+ "id": "non-story-276",
+ "chars": 11692,
+ "seconds": 19
+}

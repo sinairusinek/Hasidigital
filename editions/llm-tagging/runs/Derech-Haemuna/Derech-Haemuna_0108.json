@@ -1,0 +1,133 @@
+{
+ "unit": {
+  "kind": "non_hasidic_story",
+  "why": "A short ethical teaching on closing shops early before Shabbat, framing an exemplary tale about R. Isserl, father of the Rema, a pre-Hasidic figure.",
+  "boundary_note": ""
+ },
+ "stories": [
+  {
+   "k": 1,
+   "start_quote": "ושמעתי מעשה נפלא מהגביר ר׳ איסורל",
+   "end_quote": "רבינו הרמ״א [א״ה הנני נכדו] מאורן של ישראל",
+   "hasidic": false,
+   "summary_en": "Samael, disguised as a great nobleman, tries to keep the silk merchant R. Isserl trading past midday on Friday. Isserl closes his shop anyway, losing a large sale, and Heaven rewards him with a holy son, the Rema.",
+   "tags": [
+    {
+     "tag": "times:shabbat",
+     "scope": "story",
+     "quotes": [],
+     "confidence": 3,
+     "why": "The whole tale turns on closing the shop early on Sabbath eve.",
+     "quotes_failed": false
+    },
+    {
+     "tag": "ethics-and-emotions:resisting_temptation",
+     "scope": "span",
+     "quotes": [
+      "והשר התחנן לו שיתן לו הסחורה ולא רצה",
+      "והפסיד מעות הרבה"
+     ],
+     "confidence": 3,
+     "why": "He refuses a profitable sale.",
+     "quotes_failed": false
+    },
+    {
+     "tag": "characters-and-roles:demons",
+     "scope": "span",
+     "quotes": [
+      "פ״א נתקנא בו הס״ם ובא לנסותו"
+     ],
+     "confidence": 2,
+     "why": "Samael acts as the tempter (the 'ba'al davar').",
+     "quotes_failed": false
+    },
+    {
+     "tag": "social:relations_with_non_jews",
+     "scope": "span",
+     "quotes": [
+      "והתלבש בדמות שר גדול ולקח הרבה סחורות"
+     ],
+     "confidence": 1,
+     "why": "The tempter appears in the guise of a gentile noble customer.",
+     "quotes_failed": false
+    },
+    {
+     "tag": "ethics-and-emotions:prohibitions",
+     "scope": "span",
+     "quotes": [
+      "הגיע חצי היום בע״ש מיד סגר החנות",
+      "צריך לזרז בעלי החנויות לסגור החנות"
+     ],
+     "confidence": 2,
+     "why": "Guarding against Sabbath desecration through trade.",
+     "quotes_failed": false
+    },
+    {
+     "tag": "characters-and-roles:the_family_of_the_tsaddik",
+     "scope": "span",
+     "quotes": [
+      "וכבדוהו מן השמים עבור זה בבן קדוש"
+     ],
+     "confidence": 2,
+     "why": "The father of the Rema and his son are the figures involved.",
+     "quotes_failed": false
+    },
+    {
+     "tag": "not-a-hasidic-story:hagiography",
+     "scope": "story",
+     "quotes": [],
+     "confidence": 3,
+     "why": "Praises the pre-Hasidic R. Isserl and the Rema.",
+     "quotes_failed": false
+    },
+    {
+     "tag": "not-a-hasidic-story:sermon",
+     "scope": "story",
+     "quotes": [],
+     "confidence": 3,
+     "why": "The tale is embedded in a numbered ethical admonition about Shabbat.",
+     "quotes_failed": false
+    },
+    {
+     "tag": "not-a-hasidic-story:virtues",
+     "scope": "story",
+     "quotes": [],
+     "confidence": 2,
+     "why": "The tale is framed as instruction in the virtue of Sabbath observance.",
+     "quotes_failed": false
+    },
+    {
+     "tag": "folkloristics:story_type_virtues",
+     "scope": "story",
+     "quotes": [],
+     "confidence": 2,
+     "why": "The tale illustrates the piety of its protagonist.",
+     "quotes_failed": false
+    },
+    {
+     "tag": "ethics-and-emotions:virtues",
+     "scope": "story",
+     "quotes": [],
+     "confidence": 2,
+     "why": "Exemplary piety is rewarded.",
+     "quotes_failed": false
+    }
+   ],
+   "missing_concepts": [
+    "commerce / shopkeeping on Sabbath eve",
+    "Satan testing a pious man",
+    "reward of righteous offspring for a meritorious deed"
+   ],
+   "start_quote_found": true,
+   "end_quote_found": true
+  }
+ ],
+ "check": {
+  "non_vocab_tags": [],
+  "quotes": 7,
+  "quotes_not_found": 0
+ },
+ "id": "Derech-Haemuna_0108",
+ "chars": 732,
+ "seconds": 21
+}

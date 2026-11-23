@@ -1,0 +1,112 @@
+{
+ "unit": {
+  "kind": "hasidic_story",
+  "why": "Two short teaching-dialogues on memory (R. Elimelekh, R. Yitzhak Meir of Warsaw) lead into one small narrative: R. Moshe of Savran disputes a Talmudic citation with his dayan, proves himself right, and draws a moral from it.",
+  "boundary_note": "Opening sayings by R. Elimelekh and the Warsaw gaon are non-narrative; the story proper begins at 'וכעין זה שמענו'."
+ },
+ "stories": [
+  {
+   "k": 1,
+   "start_quote": "וכעין זה שמענו מהה״ק ר״מ מסאווראן ז״ל",
+   "end_quote": "ישנו בזכירה ואין שבחה לפניו והבן.",
+   "hasidic": true,
+   "summary_en": "At a gathering R. Moshe of Savran quotes a Talmudic dictum, and his dayan R. Pinchas denies it is in the Talmud. The tsaddik, who had not studied that tractate for seventeen years, proves the dayan wrong. He then explains that one who guards himself from sin is free of forgetfulness.",
+   "tags": [
+    {
+     "tag": "practice:study",
+     "scope": "span",
+     "quotes": [
+      "מתי למדת מס׳ זו שידעת שלא נמצא",
+      "אני לא למדתי מס׳ זו זה בשבע עשרה שנה"
+     ],
+     "confidence": 3,
+     "why": "Study and recall of a Talmudic tractate is the plot",
+     "quotes_failed": false
+    },
+    {
+     "tag": "practice:sermon",
+     "scope": "span",
+     "quotes": [
+      "הנה מבואר בגמ׳ על זכור ושמור בדיבור אחד נאמרו",
+      "ששומר נפשו מכל סיג וחטא אזי ישנו בזכירה"
+     ],
+     "confidence": 3,
+     "why": "The tsaddik closes with a homiletic exegesis",
+     "quotes_failed": false
+    },
+    {
+     "tag": "not-a-hasidic-story:sermon",
+     "scope": "story",
+     "quotes": [],
+     "confidence": 2,
+     "why": "The anecdote sits inside a homiletic frame on memory and forgetting, with teachings before it and after it",
+     "quotes_failed": false
+    },
+    {
+     "tag": "social:conflict",
+     "scope": "span",
+     "quotes": [
+      "ואמר שלא נמצא מאמר זה בש״ם"
+     ],
+     "confidence": 1,
+     "why": "Scholarly dispute between the tsaddik and his dayan",
+     "quotes_failed": false
+    },
+    {
+     "tag": "ethics-and-emotions:shame",
+     "scope": "span",
+     "quotes": [
+      "וחלש רעתי׳ דהרב ר׳ פנחס"
+     ],
+     "confidence": 1,
+     "why": "The dayan is disheartened after being proven wrong",
+     "quotes_failed": false
+    },
+    {
+     "tag": "social:retrospective_recognition",
+     "scope": "span",
+     "quotes": [
+      "ובכל זאת אראה אותך כי האמת אתי וכן הי'"
+     ],
+     "confidence": 1,
+     "why": "The dayan comes to see that the tsaddik was right",
+     "quotes_failed": false
+    },
+    {
+     "tag": "supernatural:perception",
+     "scope": "span",
+     "quotes": [
+      "אני לא למדתי מס׳ זו זה בשבע עשרה שנה"
+     ],
+     "confidence": 1,
+     "why": "Recall after seventeen years, implied to come from holiness",
+     "quotes_failed": false
+    },
+    {
+     "tag": "ethics-and-emotions:virtues",
+     "scope": "span",
+     "quotes": [
+      "ששומר נפשו מכל סיג וחטא"
+     ],
+     "confidence": 2,
+     "why": "Guarding oneself from sin is presented as the virtue behind good memory",
+     "quotes_failed": false
+    }
+   ],
+   "missing_concepts": [
+    "memory and forgetting (שכחה/זכרון) as a spiritual matter",
+    "the tsaddik's relationship with his community dayan"
+   ],
+   "start_quote_found": true,
+   "end_quote_found": true
+  }
+ ],
+ "check": {
+  "non_vocab_tags": [],
+  "quotes": 9,
+  "quotes_not_found": 0
+ },
+ "id": "Peulat-Hatzadikim_0006",
+ "chars": 921,
+ "seconds": 17
+}

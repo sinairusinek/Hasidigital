@@ -1,0 +1,102 @@
+{
+ "unit": {
+  "kind": "hasidic_story",
+  "why": "An anecdote about the Apter Rav raising donations for the great synagogue building, with his son, ending in his homiletic explanation.",
+  "boundary_note": ""
+ },
+ "stories": [
+  {
+   "k": 1,
+   "start_quote": "כאשר בא הרה״ק מאפטא לעשות התחלות בנין",
+   "end_quote": "ממילא נכבה החשך מלבבם ולא הביאו עוד",
+   "hasidic": true,
+   "summary_en": "While the Apter Rav collected donations for a synagogue building, people gave generously; when his son sat in his place few came, and the Rav explained via the Tabernacle verses that the hammer blows of the building aroused hearts to give.",
+   "tags": [
+    {
+     "tag": "ethics-and-emotions:charity",
+     "scope": "span",
+     "quotes": [
+      "ונתנו לו בכבוד גדול נדבות הגונות",
+      "יש לגבות נדבות על הבנין"
+     ],
+     "confidence": 3,
+     "why": "collecting donations for the synagogue",
+     "quotes_failed": false
+    },
+    {
+     "tag": "characters-and-roles:the_family_of_the_tsaddik",
+     "scope": "span",
+     "quotes": [
+      "את בנו הרה״צ ר׳ יצחק מאיר ז\"ל"
+     ],
+     "confidence": 3,
+     "why": "his son sits in his place",
+     "quotes_failed": false
+    },
+    {
+     "tag": "practice:sermon",
+     "scope": "span",
+     "quotes": [
+      "א\"ל כתיב במלאכת המשכן",
+      "הלא הי' לו לצוות להכריז שלא יביאו"
+     ],
+     "confidence": 3,
+     "why": "exegesis of Exodus verses as explanation",
+     "quotes_failed": false
+    },
+    {
+     "tag": "not-a-hasidic-story:sermon",
+     "scope": "story",
+     "quotes": [],
+     "confidence": 1,
+     "why": "narrative culminates in an extended homiletic explanation",
+     "quotes_failed": false
+    },
+    {
+     "tag": "practice:prayer",
+     "scope": "span",
+     "quotes": [
+      "תיכף אחר התפלה רצו כולם"
+     ],
+     "confidence": 1,
+     "why": "donations right after prayer; passing",
+     "quotes_failed": false
+    },
+    {
+     "tag": "social:inter_hasidic_master_disciple_relationship",
+     "scope": "span",
+     "quotes": [
+      "אך תבין אתה בני יחי'"
+     ],
+     "confidence": 1,
+     "why": "father teaching son, who later was a tsaddik",
+     "quotes_failed": false
+    },
+    {
+     "tag": "ethics-and-emotions:repentance",
+     "scope": "span",
+     "quotes": [
+      "זה מכניס תשובה בלבות בנ״י להביא"
+     ],
+     "confidence": 1,
+     "why": "the hammering arouses awakening in hearts",
+     "quotes_failed": false
+    }
+   ],
+   "missing_concepts": [
+    "synagogue construction / communal building",
+    "fundraising for communal institutions"
+   ],
+   "start_quote_found": true,
+   "end_quote_found": true
+  }
+ ],
+ "check": {
+  "non_vocab_tags": [],
+  "quotes": 8,
+  "quotes_not_found": 0
+ },
+ "id": "Eser-Orot_0266",
+ "chars": 917,
+ "seconds": 11
+}

@@ -1,0 +1,122 @@
+{
+ "unit": {
+  "kind": "hasidic_story",
+  "why": "A short memorate: at seudah shelishit the tsaddik told how his late father, R. Yehiel Michel of Zlotchov, appeared to him in a Sabbath-afternoon dream and explained a verse, with a named witness as chain of transmission. The content is mostly exegesis.",
+  "boundary_note": ""
+ },
+ "stories": [
+  {
+   "k": 1,
+   "start_quote": "בס׳ שמועות טובות כתב בשמו הקדוש",
+   "end_quote": "שמע אלה הדברים מפיו הקדוש זיע״א",
+   "hasidic": true,
+   "summary_en": "At the third Sabbath meal the tsaddik told his companions that his father, R. Yehiel Michel of Zlotchov, appeared to him in a Sabbath-afternoon dream and interpreted Judah's words to Tamar as God telling Knesset Israel to wait in exile until the redemption, read through acronyms.",
+   "tags": [
+    {
+     "tag": "experience:dream",
+     "scope": "span",
+     "quotes": [
+      "כי בחלום נראה לו אביו הרה״ק רי״מ מזלאטשוב"
+     ],
+     "confidence": 3,
+     "why": "The father appears in a dream and teaches.",
+     "quotes_failed": false
+    },
+    {
+     "tag": "characters-and-roles:the_family_of_the_tsaddik",
+     "scope": "span",
+     "quotes": [
+      "נראה לו אביו הרה״ק רי״מ מזלאטשוב"
+     ],
+     "confidence": 3,
+     "why": "The tsaddik's father appears as a character.",
+     "quotes_failed": false
+    },
+    {
+     "tag": "times:shabbat",
+     "scope": "span",
+     "quotes": [
+      "בעת סעודה שלישית כאשר ישב עם המסובין",
+      "בעת שינת הצהרים של שבת"
+     ],
+     "confidence": 3,
+     "why": "Both the dream and the telling take place on Shabbat.",
+     "quotes_failed": false
+    },
+    {
+     "tag": "practice:sermon",
+     "scope": "span",
+     "quotes": [
+      "ויאמר יהודה [הוא הקב״ה שם בן ארבע אותיות]"
+     ],
+     "confidence": 3,
+     "why": "Exegesis of a verse is delivered.",
+     "quotes_failed": false
+    },
+    {
+     "tag": "not-a-hasidic-story:sermon",
+     "scope": "story",
+     "quotes": [],
+     "confidence": 2,
+     "why": "The text is mainly exegetical, with a thin narrative frame.",
+     "quotes_failed": false
+    },
+    {
+     "tag": "practice:storytelling",
+     "scope": "span",
+     "quotes": [
+      "בעת סעודה שלישית כאשר ישב עם המסובין אמר"
+     ],
+     "confidence": 2,
+     "why": "The tsaddik narrates his dream at the Sabbath gathering.",
+     "quotes_failed": false
+    },
+    {
+     "tag": "supernatural:communicating_with_the_invisible",
+     "scope": "span",
+     "quotes": [
+      "ואמר לו האם ידעת בני חביבי"
+     ],
+     "confidence": 2,
+     "why": "The soul of the deceased father speaks to him.",
+     "quotes_failed": false
+    },
+    {
+     "tag": "experience:revelation",
+     "scope": "span",
+     "quotes": [
+      "וביאור לו בהקיץ"
+     ],
+     "confidence": 2,
+     "why": "A verse's meaning is disclosed by a departed tsaddik.",
+     "quotes_failed": false
+    },
+    {
+     "tag": "times:eschatology",
+     "scope": "span",
+     "quotes": [
+      "המחזיר \"שכינתו \"לציון"
+     ],
+     "confidence": 1,
+     "why": "The interpretation concerns exile and the return of the Shekhinah.",
+     "quotes_failed": false
+    }
+   ],
+   "missing_concepts": [
+    "dead father teaching his son Torah in a dream",
+    "acronym (rashei/sofei teivot) exegesis",
+    "chain of transmission through a named eyewitness"
+   ],
+   "start_quote_found": true,
+   "end_quote_found": true
+  }
+ ],
+ "check": {
+  "non_vocab_tags": [],
+  "quotes": 9,
+  "quotes_not_found": 0
+ },
+ "id": "Eser-Orot_0103",
+ "chars": 589,
+ "seconds": 16
+}

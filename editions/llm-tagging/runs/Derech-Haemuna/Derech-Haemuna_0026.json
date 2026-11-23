@@ -1,0 +1,132 @@
+{
+ "unit": {
+  "kind": "hasidic_story",
+  "why": "A short anecdote about a tzaddik whose wife secretly built him a house with money taken from him, ending with his exegesis of a verse.",
+  "boundary_note": ""
+ },
+ "stories": [
+  {
+   "k": 1,
+   "start_quote": "ידוע שדרכו בקודש היה תמיד ליתן",
+   "end_quote": "וחכמת נשים בנתה ביתה",
+   "hasidic": true,
+   "summary_en": "A tzaddik who always gave away everything to charity is shown by his disciples a house his wife secretly built with money taken from him, and he interprets 'house and wealth are the inheritance of fathers, but a prudent wife is from God'.",
+   "tags": [
+    {
+     "tag": "ethics-and-emotions:charity",
+     "scope": "span",
+     "quotes": [
+      "תמיד ליתן צדקה כל אשר לו"
+     ],
+     "confidence": 3,
+     "why": "He habitually gave all he had to charity",
+     "quotes_failed": false
+    },
+    {
+     "tag": "social:poverty",
+     "scope": "span",
+     "quotes": [
+      "ולא נתן לצרכי ביתו רק חיי שעה בצמצום"
+     ],
+     "confidence": 3,
+     "why": "Voluntary austerity, keeping only bare necessities",
+     "quotes_failed": false
+    },
+    {
+     "tag": "folkloristics:story_type_virtues",
+     "scope": "story",
+     "quotes": [],
+     "confidence": 2,
+     "why": "The tale illustrates his charity and indifference to property",
+     "quotes_failed": false
+    },
+    {
+     "tag": "characters-and-roles:the_family_of_the_tsaddik",
+     "scope": "span",
+     "quotes": [
+      "גנבה אשתו אצלו איזה סך ובנתה לו בית"
+     ],
+     "confidence": 3,
+     "why": "His wife is a key character",
+     "quotes_failed": false
+    },
+    {
+     "tag": "women:major_character",
+     "scope": "span",
+     "quotes": [
+      "גנבה אשתו אצלו איזה סך ובנתה לו בית"
+     ],
+     "confidence": 2,
+     "why": "The wife acts on her own initiative and drives the plot",
+     "quotes_failed": false
+    },
+    {
+     "tag": "social:marital_relationship",
+     "scope": "span",
+     "quotes": [
+      "הבית הזה הוא שלו שאשתו בנתה לו"
+     ],
+     "confidence": 2,
+     "why": "The wife provides for the household behind her husband's back",
+     "quotes_failed": false
+    },
+    {
+     "tag": "ethics-and-emotions:lying",
+     "scope": "span",
+     "quotes": [
+      "גנבה אשתו אצלו איזה סך"
+     ],
+     "confidence": 1,
+     "why": "The wife secretly takes money; the disciples conceal it",
+     "quotes_failed": false
+    },
+    {
+     "tag": "social:inter_hasidic_master_disciple_relationship",
+     "scope": "span",
+     "quotes": [
+      "ויראו התלמידים לגלות לו",
+      "הלכו עמו במכוון דרך הרחוב"
+     ],
+     "confidence": 2,
+     "why": "The disciples fear the master and contrive to show him the house",
+     "quotes_failed": false
+    },
+    {
+     "tag": "practice:sermon",
+     "scope": "span",
+     "quotes": [
+      "כתיב בית והון נחלת אבות",
+      "מזמין לו הש״י אשה משכלת"
+     ],
+     "confidence": 3,
+     "why": "The tzaddik responds with an exegesis of Proverbs 19:14",
+     "quotes_failed": false
+    },
+    {
+     "tag": "social:retrospective_recognition",
+     "scope": "span",
+     "quotes": [
+      "והוכרחו לגלות לו שהבית הזה הוא שלו"
+     ],
+     "confidence": 1,
+     "why": "He belatedly learns that the house is his",
+     "quotes_failed": false
+    }
+   ],
+   "missing_concepts": [
+    "the wife as provider of the household (a prudent wife)",
+    "the tzaddik's indifference to property and dwelling"
+   ],
+   "start_quote_found": true,
+   "end_quote_found": true
+  }
+ ],
+ "check": {
+  "non_vocab_tags": [],
+  "quotes": 11,
+  "quotes_not_found": 0
+ },
+ "id": "Derech-Haemuna_0026",
+ "chars": 711,
+ "seconds": 15
+}

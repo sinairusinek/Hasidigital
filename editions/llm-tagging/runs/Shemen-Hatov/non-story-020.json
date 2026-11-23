@@ -1,0 +1,92 @@
+{
+ "unit": {
+  "kind": "hasidic_story",
+  "why": "A short anecdote, reported in the name of the Shinover rebbe, about the ascetic practices of R. Zvi of Chortkov and his son R. Shmelke, and the failed attempt of the other son, the Baal Haflaah, to copy them.",
+  "boundary_note": ""
+ },
+ "stories": [
+  {
+   "k": 1,
+   "start_quote": "יסופר מהה״ק אדמו״ר משינאווי ז״ל שאמר",
+   "end_quote": "שהוא נולד מר״ח והרר״ש משבת",
+   "hasidic": true,
+   "summary_en": "The Shinover rebbe relates that R. Zvi of Chortkov fasted from Sabbath to Sabbath until he had two sons, and that his son R. Shmelke did not sleep at night. R. Shmelke's brother, the Baal Haflaah, tried to do the same and could not. When he asked why, R. Shmelke answered that the brother was born of Rosh Hodesh and he himself of Sabbath.",
+   "tags": [
+    {
+     "tag": "practice:fasting",
+     "scope": "span",
+     "quotes": [
+      "והי׳ מתענה משבת לשבת עד שהי' לו ב׳ בניו"
+     ],
+     "confidence": 3,
+     "why": "The father fasts from Sabbath to Sabbath.",
+     "quotes_failed": false
+    },
+    {
+     "tag": "practice:asceticism",
+     "scope": "span",
+     "quotes": [
+      "ורר״ש ז״ל לא הי׳ ישן בלילה",
+      "רצה ג״כ לעשות כן ולא יכול"
+     ],
+     "confidence": 3,
+     "why": "R. Shmelke goes without sleep, and his brother fails to imitate this austerity.",
+     "quotes_failed": false
+    },
+    {
+     "tag": "characters-and-roles:the_family_of_the_tsaddik",
+     "scope": "span",
+     "quotes": [
+      "שאמר על אביו הה״ק ר׳ צבי ז\"ל מטשארטקוב",
+      "ואחיו בעל הפלאה רצה ג״כ לעשות כן"
+     ],
+     "confidence": 3,
+     "why": "Father, sons and brothers of the tsaddik are the characters.",
+     "quotes_failed": false
+    },
+    {
+     "tag": "folkloristics:story_type_virtues",
+     "scope": "story",
+     "quotes": [],
+     "confidence": 2,
+     "why": "The anecdote illustrates the holiness and ascetic virtues of the figures.",
+     "quotes_failed": false
+    },
+    {
+     "tag": "times:shabbat",
+     "scope": "span",
+     "quotes": [
+      "שהוא נולד מר״ח והרר״ש משבת"
+     ],
+     "confidence": 1,
+     "why": "The explanation rests on R. Shmelke's soul being 'born of Sabbath'; this is symbolic rather than a Sabbath setting.",
+     "quotes_failed": false
+    },
+    {
+     "tag": "practice:storytelling",
+     "scope": "span",
+     "quotes": [
+      "יסופר מהה״ק אדמו״ר משינאווי ז״ל שאמר"
+     ],
+     "confidence": 1,
+     "why": "The tale is framed as told by a named tsaddik.",
+     "quotes_failed": false
+    }
+   ],
+   "missing_concepts": [
+    "sleeplessness / night vigils as a spiritual practice",
+    "soul-root differences between siblings (Rosh Hodesh vs. Sabbath) explaining capacity for asceticism"
+   ],
+   "start_quote_found": true,
+   "end_quote_found": true
+  }
+ ],
+ "check": {
+  "non_vocab_tags": [],
+  "quotes": 7,
+  "quotes_not_found": 0
+ },
+ "id": "non-story-020",
+ "chars": 283,
+ "seconds": 18
+}

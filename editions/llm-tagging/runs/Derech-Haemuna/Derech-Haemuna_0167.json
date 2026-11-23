@@ -1,0 +1,193 @@
+{
+ "unit": {
+  "kind": "non_hasidic_story",
+  "why": "A geonic-era tale, told in the name of R. Sherira Gaon, about a Torah scroll written by Ezra the Scribe that a heretic falsifies and that is then miraculously avenged; it has no Hasidic figures.",
+  "boundary_note": "Division ends with the section heading 'סליק אות ס ונתחיל אות ע בעזה״י. מענין עדות', which belongs to the next section."
+ },
+ "stories": [
+  {
+   "k": 1,
+   "start_quote": "ע״פ מה ששמע בשם הר״ר שרירא גאון",
+   "end_quote": "וכן היה כאשר אמר אביו",
+   "hasidic": false,
+   "summary_en": "Two heirs cast lots for a Torah scroll written by Ezra the Scribe; a heretic secretly alters a letter to turn the verse into blasphemy, and the grieving winner learns in a dream from his dead father that the heretic's eye was found under the table and that Ezra himself will correct the scroll, as the heavenly court has decreed.",
+   "tags": [
+    {
+     "tag": "not-a-hasidic-story:hagiography",
+     "scope": "story",
+     "quotes": [],
+     "confidence": 2,
+     "why": "Pre-Hasidic legend told in the name of R. Sherira Gaon that glorifies Ezra's holy scroll.",
+     "quotes_failed": false
+    },
+    {
+     "tag": "social:conflict",
+     "scope": "span",
+     "quotes": [
+      "היה מחלוקת גדול בין הבנים היורשים"
+     ],
+     "confidence": 3,
+     "why": "The heirs quarrel over the scroll.",
+     "quotes_failed": false
+    },
+    {
+     "tag": "practice:halakhah",
+     "scope": "span",
+     "quotes": [
+      "ויצא הפס\"ד שהחלוקה תהיה ביניהם ע״פ הגורל"
+     ],
+     "confidence": 2,
+     "why": "A legal ruling divides the inheritance by lot.",
+     "quotes_failed": false
+    },
+    {
+     "tag": "ethics-and-emotions:joy",
+     "scope": "span",
+     "quotes": [
+      "ושמח מאד שמחה גדולה והיה בעיניו כמוצא שלל רב"
+     ],
+     "confidence": 2,
+     "why": "The winner rejoices in the scroll.",
+     "quotes_failed": false
+    },
+    {
+     "tag": "ethics-and-emotions:anger",
+     "scope": "span",
+     "quotes": [
+      "מאד חרה אפו על היורש הזה"
+     ],
+     "confidence": 3,
+     "why": "The heretic is enraged.",
+     "quotes_failed": false
+    },
+    {
+     "tag": "ethics-and-emotions:lying",
+     "scope": "span",
+     "quotes": [
+      "והחליף את מלבושיו כדי שלא יכירוהו"
+     ],
+     "confidence": 2,
+     "why": "The heretic disguises himself and falsifies the text.",
+     "quotes_failed": false
+    },
+    {
+     "tag": "ethics-and-emotions:punishment",
+     "scope": "span",
+     "quotes": [
+      "ושם נמצא עין של הכופר אשר יקוים בו עין תחת עין"
+     ],
+     "confidence": 3,
+     "why": "The heretic is punished measure for measure.",
+     "quotes_failed": false
+    },
+    {
+     "tag": "ethics-and-emotions:sadness",
+     "scope": "span",
+     "quotes": [
+      "היה לו צער גדול בשמעו מזה ומגודל היסורים ודאגה נחלה מאד"
+     ],
+     "confidence": 2,
+     "why": "The heir's grief makes him ill.",
+     "quotes_failed": false
+    },
+    {
+     "tag": "experience:dream",
+     "scope": "span",
+     "quotes": [
+      "ובא אליו אביו בחלום הלילה וסיפר לו את כל המאורע"
+     ],
+     "confidence": 3,
+     "why": "The dead father reveals the truth in a dream.",
+     "quotes_failed": false
+    },
+    {
+     "tag": "supernatural:communicating_with_the_invisible",
+     "scope": "span",
+     "quotes": [
+      "ובא אליו אביו בחלום הלילה"
+     ],
+     "confidence": 2,
+     "why": "The dead father's soul speaks to his son.",
+     "quotes_failed": false
+    },
+    {
+     "tag": "supernatural:miracle",
+     "scope": "span",
+     "quotes": [
+      "ושם נמצא עין של הכופר",
+      "עזרא הסופר בעצמו יתקן את הס״ת שלו"
+     ],
+     "confidence": 3,
+     "why": "The heretic's eye is miraculously taken, and Ezra himself mends the scroll.",
+     "quotes_failed": false
+    },
+    {
+     "tag": "supernatural:prognostication",
+     "scope": "span",
+     "quotes": [
+      "וכן היה כאשר אמר אביו"
+     ],
+     "confidence": 2,
+     "why": "The father's prediction comes true.",
+     "quotes_failed": false
+    },
+    {
+     "tag": "spaces:rabbinical_court",
+     "scope": "span",
+     "quotes": [
+      "כי כן יצא הפסק מהב״ד של מעלה"
+     ],
+     "confidence": 1,
+     "why": "A decree of the heavenly court; the earthly ruling is given by an expert, not explicitly a beit din.",
+     "quotes_failed": false
+    },
+    {
+     "tag": "characters-and-roles:scribe",
+     "scope": "span",
+     "quotes": [
+      "שהיה כתב ידו של עזרא הסופר"
+     ],
+     "confidence": 2,
+     "why": "Ezra the Scribe, whose scroll this is, is the one who will correct it.",
+     "quotes_failed": false
+    },
+    {
+     "tag": "times:death",
+     "scope": "span",
+     "quotes": [
+      "ולאחר פטירתו היה מחלוקת גדול"
+     ],
+     "confidence": 1,
+     "why": "The father's death triggers the plot.",
+     "quotes_failed": false
+    },
+    {
+     "tag": "ethics-and-emotions:prohibitions",
+     "scope": "span",
+     "quotes": [
+      "ופיסל את הס״ת בחירוף וגידוף גדול"
+     ],
+     "confidence": 2,
+     "why": "Desecrating and falsifying a Torah scroll is a grave violation.",
+     "quotes_failed": false
+    }
+   ],
+   "missing_concepts": [
+    "Torah scroll (sefer Torah) as a holy object",
+    "heresy / heretic (kofer)",
+    "measure-for-measure punishment",
+    "inheritance dispute"
+   ],
+   "start_quote_found": true,
+   "end_quote_found": true
+  }
+ ],
+ "check": {
+  "non_vocab_tags": [],
+  "quotes": 16,
+  "quotes_not_found": 0
+ },
+ "id": "Derech-Haemuna_0167",
+ "chars": 1478,
+ "seconds": 18
+}

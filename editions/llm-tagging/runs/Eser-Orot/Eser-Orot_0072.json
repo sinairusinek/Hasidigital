@@ -1,0 +1,112 @@
+{
+ "unit": {
+  "kind": "hasidic_story",
+  "why": "An anecdote told by R. Yaakov of Nesukhoyzh about seeing R. Barukh of Medzhybizh at the Yom Kippur eve meal: his melodies, two tears, and his punning blessings over the fish and the soup.",
+  "boundary_note": ""
+ },
+ "stories": [
+  {
+   "k": 1,
+   "start_quote": "הרה\"ק מהר\"י מנעסכיז [שהי׳ בעל נכדו",
+   "end_quote": "וחזר לשמוח מאד מאד",
+   "hasidic": true,
+   "summary_en": "R. Yaakov of Nesukhoyzh recounts that R. Barukh of Medzhybizh was always joyful, and that at the meal on the eve of Yom Kippur he sang, shed exactly two tears, then blessed over stuffed fish intestines with 'fill all our wishes' and over the 'yikhil' soup with 'Let Israel hope in the Lord', returning to great joy.",
+   "tags": [
+    {
+     "tag": "ethics-and-emotions:joy",
+     "scope": "span",
+     "quotes": [
+      "הי׳ תמיד שרוי בשמחה",
+      "וחזר לשמוח מאד מאד"
+     ],
+     "confidence": 3,
+     "why": "joy is the central trait depicted",
+     "quotes_failed": false
+    },
+    {
+     "tag": "times:holidays",
+     "scope": "span",
+     "quotes": [
+      "בעיוה״כ כשהי׳ מיסב בסעודה"
+     ],
+     "confidence": 3,
+     "why": "set on the eve of Yom Kippur",
+     "quotes_failed": false
+    },
+    {
+     "tag": "practice:music",
+     "scope": "span",
+     "quotes": [
+      "ויצאו מפיו תנועות יפות מאד"
+     ],
+     "confidence": 2,
+     "why": "melodies sung at the meal",
+     "quotes_failed": false
+    },
+    {
+     "tag": "practice:storytelling",
+     "scope": "span",
+     "quotes": [
+      "הרה\"ק מהר\"י מנעסכיז [שהי׳ בעל נכדו כנ\"ל אות י\"ט] סיפר"
+     ],
+     "confidence": 2,
+     "why": "framed as told by a named tsaddik",
+     "quotes_failed": false
+    },
+    {
+     "tag": "practice:prayer",
+     "scope": "span",
+     "quotes": [
+      "ובכח השמחה הי' עמל בתפלותיו"
+     ],
+     "confidence": 1,
+     "why": "prayer in joy mentioned",
+     "quotes_failed": false
+    },
+    {
+     "tag": "folkloristics:story_type_virtues",
+     "scope": "story",
+     "quotes": [],
+     "confidence": 2,
+     "why": "illustrates the tsaddik's trait of constant joy",
+     "quotes_failed": false
+    },
+    {
+     "tag": "characters-and-roles:the_family_of_the_tsaddik",
+     "scope": "span",
+     "quotes": [
+      "ראה לחו״ז הרה״ק מבא\"ד"
+     ],
+     "confidence": 1,
+     "why": "narrator is a relative by marriage (grandson-in-law)",
+     "quotes_failed": false
+    },
+    {
+     "tag": "practice:joke",
+     "scope": "span",
+     "quotes": [
+      "והתחיל לקרוא בקול יחל ישראל אל ה'"
+     ],
+     "confidence": 2,
+     "why": "punning blessings on dish names (yikhil soup, stuffed intestines)",
+     "quotes_failed": false
+    }
+   ],
+   "missing_concepts": [
+    "ritual meal / food customs on Yom Kippur eve",
+    "weeping / tears",
+    "wordplay on food names as devotion"
+   ],
+   "start_quote_found": true,
+   "end_quote_found": true
+  }
+ ],
+ "check": {
+  "non_vocab_tags": [],
+  "quotes": 8,
+  "quotes_not_found": 0
+ },
+ "id": "Eser-Orot_0072",
+ "chars": 448,
+ "seconds": 12
+}

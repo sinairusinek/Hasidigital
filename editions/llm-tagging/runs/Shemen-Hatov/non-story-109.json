@@ -1,0 +1,198 @@
+{
+ "unit": {
+  "kind": "continuation_or_fragment",
+  "why": "This division continues the previous division's historical biography of the pre-Hasidic Maharam of Lublin. It holds two non-Hasidic narratives: the disputed Vienna divorce case, and the Schrenzels affair that led to his expulsion from Lwów.",
+  "boundary_note": "continues the Maharam of Lublin biography from the previous division; next division begins a new biography"
+ },
+ "stories": [
+  {
+   "k": 1,
+   "start_quote": "אחרת הוסיפה צרה על צרותיו והוא",
+   "end_quote": "הכריחוה להנשא לבעלה הראשון",
+   "hasidic": false,
+   "summary_en": "A sick young man in Vienna gave his wife a get so that she would not fall to levirate marriage. When he recovered she refused to return to him, and the Maharam and his allies ruled against the Sema and other sages in the ensuing halakhic dispute.",
+   "tags": [
+    {
+     "tag": "social:divorce",
+     "scope": "span",
+     "quotes": [
+      "ליתן גט לאשתו לבל תפול לפני יבמה"
+     ],
+     "confidence": 3,
+     "why": "A conditional divorce is the subject of the case.",
+     "quotes_failed": false
+    },
+    {
+     "tag": "practice:halakhah",
+     "scope": "span",
+     "quotes": [
+      "היו מהמקילין שהיא מגורשת",
+      "הכריחוה להנשא לבעלה הראשון"
+     ],
+     "confidence": 3,
+     "why": "The sages argue over a legal ruling on the validity of the get.",
+     "quotes_failed": false
+    },
+    {
+     "tag": "social:marital_relationship",
+     "scope": "span",
+     "quotes": [
+      "לא רצתה לשוב אליו עוד"
+     ],
+     "confidence": 2,
+     "why": "The couple's marriage, broken by the divorce, is at stake.",
+     "quotes_failed": false
+    },
+    {
+     "tag": "social:conflict",
+     "scope": "span",
+     "quotes": [
+      "ולעומתם הגאון מהר\"ם ועמו הגאון מו״ה מרדכי יפה"
+     ],
+     "confidence": 2,
+     "why": "Rabbinic authorities take opposing sides.",
+     "quotes_failed": false
+    },
+    {
+     "tag": "women:catalyst_character",
+     "scope": "span",
+     "quotes": [
+      "ואחר שחזר לאיתנו לא רצתה לשוב אליו עוד"
+     ],
+     "confidence": 2,
+     "why": "The wife's refusal triggers the dispute.",
+     "quotes_failed": false
+    },
+    {
+     "tag": "social:excommunication",
+     "scope": "span",
+     "quotes": [
+      "והמוציא לעז ילכך בחרם ר״ת"
+     ],
+     "confidence": 1,
+     "why": "A ban (herem of Rabbeinu Tam) is invoked against anyone who casts doubt on the divorce.",
+     "quotes_failed": false
+    }
+   ],
+   "missing_concepts": [
+    "levirate marriage (yibbum)",
+    "conditional divorce of a dying man"
+   ],
+   "start_quote_found": true,
+   "end_quote_found": true
+  },
+  {
+   "k": 2,
+   "start_quote": "כי הג״מ אברהם שרענצילס האבד״ק לבוב",
+   "end_quote": "ביום ד׳ י׳ אייר שנת שע״ו בלובלין",
+   "hasidic": false,
+   "summary_en": "At a wedding the Maharam slighted the honour of the Sema, the teacher of R. Abraham Schrenzels. Schrenzels convened the communal council against him, and by order of the king the Maharam had to leave Lwów for Lublin, where he died.",
+   "tags": [
+    {
+     "tag": "ethics-and-emotions:pride",
+     "scope": "span",
+     "quotes": [
+      "האם רבו הגאון לא היה ראוי ג״כ שילך ללוותי"
+     ],
+     "confidence": 2,
+     "why": "The Maharam's arrogant reply about honour.",
+     "quotes_failed": false
+    },
+    {
+     "tag": "ethics-and-emotions:anger",
+     "scope": "span",
+     "quotes": [
+      "מיד חרה אפו של הג״מ אברהם שרענצילס"
+     ],
+     "confidence": 3,
+     "why": "Schrenzels becomes angry.",
+     "quotes_failed": false
+    },
+    {
+     "tag": "social:conflict",
+     "scope": "span",
+     "quotes": [
+      "ובכן דעתי שמהר\"ם לא יהיה פה לאב״ד",
+      "ונפלגו הפרנסים בדעותיהם"
+     ],
+     "confidence": 3,
+     "why": "A communal conflict over whether the Maharam stays as rabbi.",
+     "quotes_failed": false
+    },
+    {
+     "tag": "women:minor_character",
+     "scope": "span",
+     "quotes": [
+      "אמרה אליו בזה״ל : אינך רואה שגברא רבה"
+     ],
+     "confidence": 3,
+     "why": "The rabbi's wife speaks and sets off the exchange.",
+     "quotes_failed": false
+    },
+    {
+     "tag": "characters-and-roles:the_family_of_the_tsaddik",
+     "scope": "span",
+     "quotes": [
+      "והביטה האשה הרבנית כי הג״מ אברהם"
+     ],
+     "confidence": 2,
+     "why": "The Maharam's wife appears.",
+     "quotes_failed": false
+    },
+    {
+     "tag": "social:relations_with_the_authorities",
+     "scope": "span",
+     "quotes": [
+      "שמטעם המלך הוכרח המהר\"ם לנסוע משם"
+     ],
+     "confidence": 3,
+     "why": "The Maharam is expelled by royal order.",
+     "quotes_failed": false
+    },
+    {
+     "tag": "times:death",
+     "scope": "span",
+     "quotes": [
+      "ויגוע וימת ביום ד׳ י׳ אייר"
+     ],
+     "confidence": 2,
+     "why": "The Maharam's death is reported.",
+     "quotes_failed": false
+    },
+    {
+     "tag": "practice:storytelling",
+     "scope": "span",
+     "quotes": [
+      "יסופר בשם הפנקס מהה\"ק"
+     ],
+     "confidence": 1,
+     "why": "The tale is framed as transmitted from a communal record book.",
+     "quotes_failed": false
+    },
+    {
+     "tag": "not-a-hasidic-story:hagiography",
+     "scope": "story",
+     "quotes": [],
+     "confidence": 1,
+     "why": "An account of a pre-Hasidic rabbinic authority copied from an older source, though not strictly laudatory.",
+     "quotes_failed": false
+    }
+   ],
+   "missing_concepts": [
+    "rabbinic honour (kavod ha-Torah) disputes",
+    "communal council (Va'ad Arba Aratzot) politics",
+    "rabbinic appointment and dismissal"
+   ],
+   "start_quote_found": true,
+   "end_quote_found": true
+  }
+ ],
+ "check": {
+  "non_vocab_tags": [],
+  "quotes": 16,
+  "quotes_not_found": 0
+ },
+ "id": "non-story-109",
+ "chars": 1707,
+ "seconds": 27
+}

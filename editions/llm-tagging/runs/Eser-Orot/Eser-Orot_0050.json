@@ -1,0 +1,170 @@
+{
+ "unit": {
+  "kind": "hasidic_story",
+  "why": "A biographical section on R. Levi Yitzhak of Berdichev. It contains a full anecdote: the Pinsk community withholds the rebbetzin's weekly money, the Maggid's disciples punish Pinsk, and the Maggid rebukes them and makes a prediction. It ends with dates and a list of his sons.",
+  "boundary_note": "Continues the biography begun in the previous division (section א). The closing words 'ממדריגותיו הנוראים' are a heading for the next division (ג)."
+ },
+ "stories": [
+  {
+   "k": 1,
+   "start_quote": "הי׳ גאון גדול עד להפליא וכפי הנשמע",
+   "end_quote": "וכולם מנוחתם בשורה אצלו",
+   "hasidic": true,
+   "summary_en": "R. Levi Yitzhak, rabbi of Pinsk, is persecuted for travelling to the Maggid of Mezritch. When the community stops his wife's weekly money, she tells the Maggid's disciples, who bring ruin on Pinsk. The Maggid rebukes them, saying this cost them their 'head' (his own death), yet predicts that hasidim will prevail over their persecutors until the messiah. Levi Yitzhak later serves in Zhelikhov and then Berdichev until his death.",
+   "tags": [
+    {
+     "tag": "social:conflict",
+     "scope": "span",
+     "quotes": [
+      "ושם הי' לו רדיפות גדולות גדולות מאנשי עירו",
+      "וגם גיסיו שהי' שם רדפוהו מורדף בלי חשך"
+     ],
+     "confidence": 3,
+     "why": "persecution by townsmen and in-laws",
+     "quotes_failed": false
+    },
+    {
+     "tag": "social:relations_with_non_hasidim",
+     "scope": "span",
+     "quotes": [
+      "עשו הקהל מפינסק פסק לגודל התנגדותם",
+      "ינצחו תמיד החסידים את רודפיהם"
+     ],
+     "confidence": 3,
+     "why": "mitnagdic opposition in Pinsk",
+     "quotes_failed": false
+    },
+    {
+     "tag": "practice:travel_to_the_tsaddik",
+     "scope": "span",
+     "quotes": [
+      "על שהי׳ נוסע לרבינו המגיד ממעזריטש",
+      "פ\"א כשנסע לרבו ממעזריטש"
+     ],
+     "confidence": 3,
+     "why": "travels to the Maggid",
+     "quotes_failed": false
+    },
+    {
+     "tag": "social:inter_hasidic_master_disciple_relationship",
+     "scope": "span",
+     "quotes": [
+      "למה עשיתם כדבר הזה בלי קחת מאתי עצה"
+     ],
+     "confidence": 2,
+     "why": "the Maggid rebukes his disciples",
+     "quotes_failed": false
+    },
+    {
+     "tag": "characters-and-roles:the_family_of_the_tsaddik",
+     "scope": "span",
+     "quotes": [
+      "וזוגתו הרבנית היתה צנועה גדולה ויראת ה׳",
+      "ובניו היו הא׳ הרה״ק ר׳ מאיר"
+     ],
+     "confidence": 3,
+     "why": "wife and sons appear",
+     "quotes_failed": false
+    },
+    {
+     "tag": "women:minor_character",
+     "scope": "span",
+     "quotes": [
+      "הרבנית ויו\"ח נסעו ג״כ לראוונא וסיפרו זאת"
+     ],
+     "confidence": 3,
+     "why": "the rebbetzin acts and triggers the disciples' response",
+     "quotes_failed": false
+    },
+    {
+     "tag": "ethics-and-emotions:punishment",
+     "scope": "span",
+     "quotes": [
+      "וענשו את אנשי יושבי פינסק",
+      "והי' שמה בעוה״ר חרבן ואבדן גדול"
+     ],
+     "confidence": 3,
+     "why": "Pinsk is punished",
+     "quotes_failed": false
+    },
+    {
+     "tag": "supernatural:prognostication",
+     "scope": "span",
+     "quotes": [
+      "עד ביאת המשיח ינצחו תמיד החסידים את רודפיהם"
+     ],
+     "confidence": 2,
+     "why": "the Maggid's prediction",
+     "quotes_failed": false
+    },
+    {
+     "tag": "supernatural:perception",
+     "scope": "span",
+     "quotes": [
+      "כאשר הרגיש זאת הרה״ק ממעזריטש"
+     ],
+     "confidence": 2,
+     "why": "the Maggid senses what happened",
+     "quotes_failed": false
+    },
+    {
+     "tag": "social:disobedience",
+     "scope": "span",
+     "quotes": [
+      "למה עשיתם כדבר הזה בלי קחת מאתי עצה"
+     ],
+     "confidence": 1,
+     "why": "the disciples act without the master's consent",
+     "quotes_failed": false
+    },
+    {
+     "tag": "times:death",
+     "scope": "span",
+     "quotes": [
+      "המגיד הקדוש בעצמו שנסתלק אח״כ",
+      "עד פטירתו כ\"ה תשרי שנת תק\"ע"
+     ],
+     "confidence": 2,
+     "why": "deaths of the Maggid and of Levi Yitzhak",
+     "quotes_failed": false
+    },
+    {
+     "tag": "characters-and-roles:messiah",
+     "scope": "span",
+     "quotes": [
+      "עד ביאת המשיח ינצחו תמיד החסידים"
+     ],
+     "confidence": 1,
+     "why": "messianic horizon of the prediction",
+     "quotes_failed": false
+    },
+    {
+     "tag": "ethics-and-emotions:virtues",
+     "scope": "span",
+     "quotes": [
+      "אך את הכל סבל ולא עבר על דעתו"
+     ],
+     "confidence": 1,
+     "why": "forbearance under persecution",
+     "quotes_failed": false
+    }
+   ],
+   "missing_concepts": [
+    "appointment of a communal rabbi (rabbinic tenure)",
+    "communal withholding of rabbi's salary",
+    "numerological wordplay (מ\"ה)",
+    "burial of the sons alongside the tsaddik"
+   ],
+   "start_quote_found": true,
+   "end_quote_found": true
+  }
+ ],
+ "check": {
+  "non_vocab_tags": [],
+  "quotes": 19,
+  "quotes_not_found": 0
+ },
+ "id": "Eser-Orot_0050",
+ "chars": 1366,
+ "seconds": 24
+}

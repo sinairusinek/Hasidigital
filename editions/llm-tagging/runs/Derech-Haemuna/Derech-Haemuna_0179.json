@@ -1,0 +1,103 @@
+{
+ "unit": {
+  "kind": "hasidic_story",
+  "why": "A short anecdote about the Yehudi of Przysucha travelling with his disciple R. Peretz: he offers him 150 halakhic novellae, Peretz declines, and the Yehudi expounds a verse instead. The event is minimal and serves as a frame for the homily.",
+  "boundary_note": "The closing words 'מענין פרי מגדים' are the heading of the next division."
+ },
+ "stories": [
+  {
+   "k": 1,
+   "start_quote": "פעם אחת נסע היהודי זצל״ה עם תלמידו",
+   "end_quote": "ומקרבים אותו להשי״ת. (על\"ץ בלקוטים)",
+   "hasidic": true,
+   "summary_en": "While riding with his disciple R. Peretz, the Yehudi offers him 150 new halakhic insights on pesik reisha. Peretz says he cannot take them in at once, so the Yehudi asks for a verse and interprets Proverbs 4:25 as being about tzaddikim, who gaze toward God and set even those who oppose Him on the straight path.",
+   "tags": [
+    {
+     "tag": "practice:the_travels_of_the_tsaddik",
+     "scope": "span",
+     "quotes": [
+      "נסע היהודי זצל״ה עם תלמידו הר׳ פרץ זצ״ל על הדרך"
+     ],
+     "confidence": 2,
+     "why": "The exchange takes place on a journey, in the wagon.",
+     "quotes_failed": false
+    },
+    {
+     "tag": "social:inter_hasidic_master_disciple_relationship",
+     "scope": "span",
+     "quotes": [
+      "רבי לאו מוחי סביל דא לקבל אותם",
+      "קבל נא אותם ממני"
+     ],
+     "confidence": 3,
+     "why": "The whole exchange is between master and disciple.",
+     "quotes_failed": false
+    },
+    {
+     "tag": "practice:sermon",
+     "scope": "span",
+     "quotes": [
+      "אמור לי עכ״פ איזה פסוק ואומר עליו תורה",
+      "עיניך רומז על הצדיקים שהם עיני העדה"
+     ],
+     "confidence": 3,
+     "why": "The tzaddik delivers a homily on a verse.",
+     "quotes_failed": false
+    },
+    {
+     "tag": "practice:torat_ha_tsaddik",
+     "scope": "span",
+     "quotes": [
+      "המה מיישרין אותו שילך בדרך הישר",
+      "ומקרבים אותו להשי״ת"
+     ],
+     "confidence": 3,
+     "why": "The teaching is about the role of tzaddikim in setting sinners straight.",
+     "quotes_failed": false
+    },
+    {
+     "tag": "practice:halakhah",
+     "scope": "span",
+     "quotes": [
+      "ק״נ חדושי הלכות בדין פסיק רישא"
+     ],
+     "confidence": 2,
+     "why": "Halakhic novellae on pesik reisha are offered.",
+     "quotes_failed": false
+    },
+    {
+     "tag": "social:relations_with_sinners",
+     "scope": "span",
+     "quotes": [
+      "אפילו מי שהוא כנגד הש״י ח״ו ואינו הולך בדרך הישר"
+     ],
+     "confidence": 1,
+     "why": "Drawing sinners close appears only as a theme of the teaching.",
+     "quotes_failed": false
+    },
+    {
+     "tag": "not-a-hasidic-story:sermon",
+     "scope": "story",
+     "quotes": [],
+     "confidence": 2,
+     "why": "The brief narrative mainly frames an exegetical teaching.",
+     "quotes_failed": false
+    }
+   ],
+   "missing_concepts": [
+    "Limits of a disciple's capacity to receive teaching",
+    "Torah novellae (chiddushim)"
+   ],
+   "start_quote_found": true,
+   "end_quote_found": true
+  }
+ ],
+ "check": {
+  "non_vocab_tags": [],
+  "quotes": 9,
+  "quotes_not_found": 0
+ },
+ "id": "Derech-Haemuna_0179",
+ "chars": 676,
+ "seconds": 15
+}

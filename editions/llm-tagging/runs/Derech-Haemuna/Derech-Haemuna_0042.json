@@ -1,0 +1,90 @@
+{
+ "unit": {
+  "kind": "non_hasidic_story",
+  "why": "A brief anecdote quoted from another book praising the Pnei Yehoshua, a non-Hasidic rabbinic authority. It says he studied the whole Talmud 36 times before writing, and that the Maggid of Kozhnitz reported holy spirit in his study hall and a dream he had.",
+  "boundary_note": "very short; the dream itself is mentioned but not narrated"
+ },
+ "stories": [
+  {
+   "k": 1,
+   "start_quote": "ובס׳ רמ״ץ (ח״ב) וז״ל הפליא מגדולי",
+   "end_quote": "מחלום שהיה לו להפ\"י הנ\"ל :",
+   "hasidic": false,
+   "summary_en": "Citing the book Ramatz, the Pnei Yehoshua studied the entire Talmud 36 times before beginning to write, and the Maggid of Kozhnitz said that the holy spirit appeared in his study hall and told of a dream he had.",
+   "tags": [
+    {
+     "tag": "not-a-hasidic-story:hagiography",
+     "scope": "story",
+     "quotes": [],
+     "confidence": 3,
+     "why": "Praise of the Pnei Yehoshua, a non-Hasidic rabbinic authority, quoted from another book",
+     "quotes_failed": false
+    },
+    {
+     "tag": "practice:study",
+     "scope": "span",
+     "quotes": [
+      "שקודם שהתחיל לחבר למד ש״ס ל\"ו פעמים"
+     ],
+     "confidence": 3,
+     "why": "He studied the whole Talmud 36 times",
+     "quotes_failed": false
+    },
+    {
+     "tag": "spaces:beth_midrash",
+     "scope": "span",
+     "quotes": [
+      "כי רוה״ק הופיע בבית מדרשו"
+     ],
+     "confidence": 2,
+     "why": "His study hall is where the holy spirit appeared",
+     "quotes_failed": false
+    },
+    {
+     "tag": "supernatural:light_or_fire_as_a_sign_of_righteousness",
+     "scope": "span",
+     "quotes": [
+      "כי רוה״ק הופיע בבית מדרשו"
+     ],
+     "confidence": 1,
+     "why": "A manifestation of the holy spirit in the study hall, though no light or fire is stated",
+     "quotes_failed": false
+    },
+    {
+     "tag": "experience:dream",
+     "scope": "span",
+     "quotes": [
+      "וסיפר מחלום שהיה לו להפ\"י הנ\"ל"
+     ],
+     "confidence": 1,
+     "why": "A dream is mentioned but not depicted",
+     "quotes_failed": false
+    },
+    {
+     "tag": "practice:storytelling",
+     "scope": "span",
+     "quotes": [
+      "ובשם המגיד מקאזניץ זי״ע"
+     ],
+     "confidence": 1,
+     "why": "The Maggid of Kozhnitz is the named teller of the report",
+     "quotes_failed": false
+    }
+   ],
+   "missing_concepts": [
+    "ruach ha-kodesh resting on a scholar's study hall",
+    "repetition of Talmud study as a measure of greatness"
+   ],
+   "start_quote_found": true,
+   "end_quote_found": true
+  }
+ ],
+ "check": {
+  "non_vocab_tags": [],
+  "quotes": 5,
+  "quotes_not_found": 0
+ },
+ "id": "Derech-Haemuna_0042",
+ "chars": 163,
+ "seconds": 12
+}

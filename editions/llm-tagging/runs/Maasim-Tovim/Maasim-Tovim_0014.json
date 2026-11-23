@@ -1,0 +1,174 @@
+{
+ "unit": {
+  "kind": "non_hasidic_story",
+  "why": "A self-contained legend about Nahmanides (the Ramban) in Barcelona, a pre-Hasidic kabbalist, using holy names to move a ship.",
+  "boundary_note": ""
+ },
+ "stories": [
+  {
+   "k": 1,
+   "start_quote": "מעשה הרמב״ן בברצילינו שהוליך ספינה ברוח שפתיו",
+   "end_quote": "עשו בני העיר מגדל אחד בעד הון עתק לזכרון עד היום",
+   "hasidic": false,
+   "summary_en": "In Barcelona the Ramban boasts that he can move a new ship that no one can launch. The king forces him to do it, so he adjures the ship with holy names and escapes with a sailor by contracting the road. The sailor returns home by a note bearing a holy name, but he forgets to remove it, so the ship sails onto land and halts in the middle of the city, where a tower is built as a memorial.",
+   "tags": [
+    {
+     "tag": "not-a-hasidic-story:hagiography",
+     "scope": "story",
+     "quotes": [],
+     "confidence": 3,
+     "why": "wonder legend of the Ramban, a pre-Hasidic kabbalist",
+     "quotes_failed": false
+    },
+    {
+     "tag": "practice:use_of_holy_names",
+     "scope": "span",
+     "quotes": [
+      "ואח״כ השביע את הספינה הגדולה ותבא אליו תיכף בים",
+      "כתב פתקא את השם של קפיצת הדרך",
+      "ונתן לו פתקא כתוב בו שם קדוש"
+     ],
+     "confidence": 3,
+     "why": "adjuration of the ship and written holy names",
+     "quotes_failed": false
+    },
+    {
+     "tag": "supernatural:contraction_of_the_road",
+     "scope": "span",
+     "quotes": [
+      "ותלך הספינה בשעה קטנה למרחוק מאד"
+     ],
+     "confidence": 3,
+     "why": "kefitzat ha-derekh by sea",
+     "quotes_failed": false
+    },
+    {
+     "tag": "knowledge:practical_kabbalah",
+     "scope": "span",
+     "quotes": [
+      "ושיצטרך ללמוד למלך אופן השבועה של השמות"
+     ],
+     "confidence": 3,
+     "why": "concrete effects achieved with names",
+     "quotes_failed": false
+    },
+    {
+     "tag": "supernatural:miracle",
+     "scope": "span",
+     "quotes": [
+      "והספינה הגיע מאליה לחוף ברצולוני ותלך עד שער העיר",
+      "ותנח הספינה בחצי העיר"
+     ],
+     "confidence": 3,
+     "why": "the ship moves by itself onto land",
+     "quotes_failed": false
+    },
+    {
+     "tag": "social:relations_with_the_authorities",
+     "scope": "span",
+     "quotes": [
+      "והכריח אותו המלך וגזר עליו לקיים מוצא שפתיו"
+     ],
+     "confidence": 3,
+     "why": "the king compels him",
+     "quotes_failed": false
+    },
+    {
+     "tag": "social:relations_with_non_jews",
+     "scope": "span",
+     "quotes": [
+      "וכאשר שמעו המון אנשים את דברו"
+     ],
+     "confidence": 2,
+     "why": "the crowds and the gentile king",
+     "quotes_failed": false
+    },
+    {
+     "tag": "supernatural:magic",
+     "scope": "span",
+     "quotes": [
+      "או שיעליל עליו כמכשף"
+     ],
+     "confidence": 1,
+     "why": "fear of being accused of sorcery; only borderline",
+     "quotes_failed": false
+    },
+    {
+     "tag": "ethics-and-emotions:fear",
+     "scope": "span",
+     "quotes": [
+      "כי יראתי משאון גליו",
+      "ויתמה מאד המלח וירא"
+     ],
+     "confidence": 3,
+     "why": "the sailor's fear",
+     "quotes_failed": false
+    },
+    {
+     "tag": "ethics-and-emotions:prohibitions",
+     "scope": "span",
+     "quotes": [
+      "זכור היטב לקחת הפתק מן המקום ההוא"
+     ],
+     "confidence": 2,
+     "why": "an instruction he must keep",
+     "quotes_failed": false
+    },
+    {
+     "tag": "social:disobedience",
+     "scope": "span",
+     "quotes": [
+      "וילך לו האיש וישכב וירדם"
+     ],
+     "confidence": 2,
+     "why": "the sailor falls asleep and fails to remove the note in time",
+     "quotes_failed": false
+    },
+    {
+     "tag": "ethics-and-emotions:pride",
+     "scope": "span",
+     "quotes": [
+      "אשר זה יהורי התפאר בעצמו כן"
+     ],
+     "confidence": 1,
+     "why": "the Ramban's boast, said half in jest",
+     "quotes_failed": false
+    },
+    {
+     "tag": "practice:joke",
+     "scope": "span",
+     "quotes": [
+      "ויאמר הרמב״ן כמתלהלה וצחוק אשר ברוח שפתיו יוליכה בים"
+     ],
+     "confidence": 2,
+     "why": "his jesting remark sets off the plot",
+     "quotes_failed": false
+    },
+    {
+     "tag": "ethics-and-emotions:charity",
+     "scope": "span",
+     "quotes": [
+      "וירחם עליו הרב ונתן לו פתקא"
+     ],
+     "confidence": 1,
+     "why": "an act of mercy, not alms; only borderline",
+     "quotes_failed": false
+    }
+   ],
+   "missing_concepts": [
+    "etiological legend explaining a local monument (the tower in Barcelona)",
+    "flight from the king's demand to reveal secret knowledge"
+   ],
+   "start_quote_found": true,
+   "end_quote_found": true
+  }
+ ],
+ "check": {
+  "non_vocab_tags": [],
+  "quotes": 17,
+  "quotes_not_found": 0
+ },
+ "id": "Maasim-Tovim_0014",
+ "chars": 1434,
+ "seconds": 16
+}

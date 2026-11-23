@@ -1,0 +1,76 @@
+{
+ "unit": {
+  "kind": "non_hasidic_story",
+  "why": "A midrashic tale (Genesis Rabbah) of Rabbi Judah the Prince serving Antoninus cold Sabbath food that tasted better than hot weekday food, explained by the 'spice' of Shabbat.",
+  "boundary_note": ""
+ },
+ "stories": [
+  {
+   "k": 1,
+   "start_quote": "רבינו הקדוש עשה סעודה לאנטינוניס ביום השבת",
+   "end_quote": "אבל אתה אין משמר השבת. (מד״ר)",
+   "hasidic": false,
+   "summary_en": "Rabbi Judah the Prince hosts Antoninus once on Shabbat with cold dishes and once on a weekday with hot ones; the emperor prefers the Sabbath food, and the rabbi explains that the missing spice is the Sabbath itself, which Antoninus does not keep.",
+   "tags": [
+    {
+     "tag": "times:shabbat",
+     "scope": "story",
+     "quotes": [],
+     "confidence": 3,
+     "why": "The story turns on the Sabbath and Sabbath food.",
+     "quotes_failed": false
+    },
+    {
+     "tag": "social:relations_with_non_jews",
+     "scope": "story",
+     "quotes": [],
+     "confidence": 3,
+     "why": "Rabbi hosts the Roman emperor Antoninus.",
+     "quotes_failed": false
+    },
+    {
+     "tag": "social:relations_with_the_authorities",
+     "scope": "span",
+     "quotes": [
+      "וכי אוצרות של המלך חסר כלום"
+     ],
+     "confidence": 2,
+     "why": "Antoninus is the ruler, and the exchange takes place with him.",
+     "quotes_failed": false
+    },
+    {
+     "tag": "not-a-hasidic-story:hagiography",
+     "scope": "story",
+     "quotes": [],
+     "confidence": 2,
+     "why": "The tale praises Rabbi Judah the Prince, a pre-Hasidic sage, and is taken from Midrash Rabbah.",
+     "quotes_failed": false
+    },
+    {
+     "tag": "practice:sermon",
+     "scope": "span",
+     "quotes": [
+      "זה התבלין שנחסר זה הוא השבת"
+     ],
+     "confidence": 1,
+     "why": "The punchline is a homiletic point about the Sabbath.",
+     "quotes_failed": false
+    }
+   ],
+   "missing_concepts": [
+    "Sabbath food / Sabbath meals (cholent, cold dishes)",
+    "talmudic-midrashic sages (Rabbi Judah ha-Nasi and Antoninus)"
+   ],
+   "start_quote_found": true,
+   "end_quote_found": true
+  }
+ ],
+ "check": {
+  "non_vocab_tags": [],
+  "quotes": 2,
+  "quotes_not_found": 0
+ },
+ "id": "Maasim-Tovim_0012",
+ "chars": 580,
+ "seconds": 10
+}

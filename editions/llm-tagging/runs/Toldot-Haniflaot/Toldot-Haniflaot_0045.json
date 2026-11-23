@@ -1,0 +1,142 @@
+{
+ "unit": {
+  "kind": "hasidic_story",
+  "why": "A single anecdote: during the Warka tzaddik's visit to Mogielnica, the rebbe cannot bear a young hasid who pushes into the room. He gives the man wine twice, apologizes, and the Warka rebbe later finds that the man had a bad reputation.",
+  "boundary_note": ""
+ },
+ "stories": [
+  {
+   "k": 1,
+   "start_quote": "פ״א היה ההק׳ הצדיק מווארקא זצ״ל במאגלניצא",
+   "end_quote": "שכבר יצא עליו ש״ר ורינון גדול",
+   "hasidic": true,
+   "summary_en": "When the Warka tzaddik visited Mogielnica, the host rebbe could not bear a young hasid unknown to him, gave him wine twice to overcome his feeling, and apologized humbly. The Warka rebbe inquired and learned that the man already had a bad name.",
+   "tags": [
+    {
+     "tag": "supernatural:perception",
+     "scope": "span",
+     "quotes": [
+      "כאשר ראיתיו לא היה בכחי לסבול אותו כלל",
+      "ההק' ממווארקא היה יודע כי מדרגתו גדולה"
+     ],
+     "confidence": 3,
+     "why": "The rebbe senses the hidden sinfulness of a stranger he never knew.",
+     "quotes_failed": false
+    },
+    {
+     "tag": "social:retrospective_recognition",
+     "scope": "span",
+     "quotes": [
+      "התחיל לחקור ולדרוש אודות האיש ההוא",
+      "ונתוודע אליו שכבר יצא עליו ש״ר ורינון גדול"
+     ],
+     "confidence": 3,
+     "why": "The inquiry afterwards shows that the rebbe's aversion was justified.",
+     "quotes_failed": false
+    },
+    {
+     "tag": "practice:drinking_alcohol",
+     "scope": "span",
+     "quotes": [
+      "ובעת השתיית יין היה דוחק",
+      "ולקח צלוחית יין והושיט לאיש הזה"
+     ],
+     "confidence": 3,
+     "why": "The rebbe hands out wine as an act meant to overcome his aversion.",
+     "quotes_failed": false
+    },
+    {
+     "tag": "ethics-and-emotions:humility",
+     "scope": "span",
+     "quotes": [
+      "וביזה עצמו לפניו ואמר למה אני רע כ״כ",
+      "והתנצל עצמו על זה"
+     ],
+     "confidence": 3,
+     "why": "The rebbe humbles himself and blames himself for his feeling.",
+     "quotes_failed": false
+    },
+    {
+     "tag": "social:relations_with_sinners",
+     "scope": "story",
+     "quotes": [],
+     "confidence": 2,
+     "why": "The tzaddik's encounter with a man of ill repute is the core of the story.",
+     "quotes_failed": false
+    },
+    {
+     "tag": "social:inter_hasidic",
+     "scope": "span",
+     "quotes": [
+      "והיה מרן ז״ל עושה סעודה גדולה עבורו כדרכו תמיד"
+     ],
+     "confidence": 2,
+     "why": "The setting is one rebbe hosting another rebbe and his hasidim.",
+     "quotes_failed": false
+    },
+    {
+     "tag": "practice:the_travels_of_the_tsaddik",
+     "scope": "span",
+     "quotes": [
+      "היה ההק׳ הצדיק מווארקא זצ״ל במאגלניצא",
+      "כשהלך לאכסניא שלו"
+     ],
+     "confidence": 2,
+     "why": "The story takes place during the Warka tzaddik's visit and stay at a lodging.",
+     "quotes_failed": false
+    },
+    {
+     "tag": "practice:travel_to_other_tsaddik",
+     "scope": "span",
+     "quotes": [
+      "היה ההק׳ הצדיק מווארקא זצ״ל במאגלניצא"
+     ],
+     "confidence": 2,
+     "why": "The Warka tzaddik visits the Mogielnica rebbe.",
+     "quotes_failed": false
+    },
+    {
+     "tag": "spaces:institutions_hassidic_court",
+     "scope": "story",
+     "quotes": [],
+     "confidence": 2,
+     "why": "The feast takes place at the Mogielnica rebbe's court.",
+     "quotes_failed": false
+    },
+    {
+     "tag": "folkloristics:story_type_virtues",
+     "scope": "story",
+     "quotes": [],
+     "confidence": 2,
+     "why": "The story displays the rebbe's spiritual sensitivity and his humility.",
+     "quotes_failed": false
+    },
+    {
+     "tag": "practice:reception_of_hasidim",
+     "scope": "span",
+     "quotes": [
+      "וכאשר דחק עצמו לפנים ממפתן החדר"
+     ],
+     "confidence": 1,
+     "why": "The rebbe responds to a newcomer who pushes into his room.",
+     "quotes_failed": false
+    }
+   ],
+   "missing_concepts": [
+    "a tzaddik's instinctive revulsion that reveals a person's sinfulness",
+    "overcoming one's own nature or trait (לעבור על מדתי)",
+    "rebbes hosting rebbes at a festive meal"
+   ],
+   "start_quote_found": true,
+   "end_quote_found": true
+  }
+ ],
+ "check": {
+  "non_vocab_tags": [],
+  "quotes": 13,
+  "quotes_not_found": 0
+ },
+ "id": "Toldot-Haniflaot_0045",
+ "chars": 842,
+ "seconds": 15
+}

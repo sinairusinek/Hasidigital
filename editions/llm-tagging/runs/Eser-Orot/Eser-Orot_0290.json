@@ -1,0 +1,165 @@
+{
+ "unit": {
+  "kind": "hasidic_story",
+  "why": "A single narrative: the Rizhiner tells departing young men a parable about praying on time, they meet an old man on the road who reinterprets it, and the Rizhiner later reveals that the old man has died and came into the world only for that saying.",
+  "boundary_note": ""
+ },
+ "stories": [
+  {
+   "k": 1,
+   "start_quote": "סיפר הרה״צ המפורסם החסיד בנש\"ק מו\"ה אברהם",
+   "end_quote": "המליצה גדולה הזאת על ישראל. והבן",
+   "hasidic": true,
+   "summary_en": "The Rizhiner urges departing young hasidim to pray on time with a parable of a husband angered by a late, ordinary meal; an old man at an inn replies that where there is true love the delay does not matter, and the Rizhiner later reveals that the old man has died, having come into the world only to plead this defence for Israel.",
+   "tags": [
+    {
+     "tag": "folkloristics:story_type_parable",
+     "scope": "span",
+     "quotes": [
+      "ואספר לכם מעשה מאיש אחד אשר בישלה לו"
+     ],
+     "confidence": 3,
+     "why": "The tzaddik tells a mashal about a husband and his wife.",
+     "quotes_failed": false
+    },
+    {
+     "tag": "practice:prayer",
+     "scope": "span",
+     "quotes": [
+      "תראו להתפלל בכל יום תפלה בזמנה ואל תאחרו אותה"
+     ],
+     "confidence": 3,
+     "why": "The story is about praying at the proper time.",
+     "quotes_failed": false
+    },
+    {
+     "tag": "practice:reception_of_hasidim",
+     "scope": "span",
+     "quotes": [
+      "להפטר בברכת השלום כנהוג"
+     ],
+     "confidence": 3,
+     "why": "The young men take their leave of the tzaddik at his court.",
+     "quotes_failed": false
+    },
+    {
+     "tag": "practice:travel_to_the_tsaddik",
+     "scope": "span",
+     "quotes": [
+      "כשבאו לפני קדוש ישראל מריזין סיעת אברכים",
+      "ויהי כאשר באו שנית לרבם הקדוש"
+     ],
+     "confidence": 3,
+     "why": "The hasidim come to the Rizhiner, and come back a second time.",
+     "quotes_failed": false
+    },
+    {
+     "tag": "practice:storytelling",
+     "scope": "span",
+     "quotes": [
+      "סיפר הרה״צ המפורסם החסיד בנש\"ק מו\"ה אברהם",
+      "ואספר לכם מעשה מאיש אחד"
+     ],
+     "confidence": 2,
+     "why": "A named tzaddik transmits the story, and the Rizhiner tells a tale.",
+     "quotes_failed": false
+    },
+    {
+     "tag": "characters-and-roles:hidden_righteous",
+     "scope": "span",
+     "quotes": [
+      "פגעו באיש זקן אחד ונכנסו עמו בדברים"
+     ],
+     "confidence": 2,
+     "why": "An anonymous old man turns out to be a special soul sent to plead for Israel.",
+     "quotes_failed": false
+    },
+    {
+     "tag": "supernatural:perception",
+     "scope": "span",
+     "quotes": [
+      "תדעו בניי כי הזקן הנ\"ל כבר נפטר מעוה״ז לעולמו"
+     ],
+     "confidence": 3,
+     "why": "The Rizhiner knows, from afar, of the old man's death and mission.",
+     "quotes_failed": false
+    },
+    {
+     "tag": "social:retrospective_recognition",
+     "scope": "span",
+     "quotes": [
+      "כי לא בא לעולם הזה רק רק בשביל דיבור זה"
+     ],
+     "confidence": 3,
+     "why": "The hasidim learn afterwards who the old man really was.",
+     "quotes_failed": false
+    },
+    {
+     "tag": "times:death",
+     "scope": "span",
+     "quotes": [
+      "כבר נפטר מעוה״ז לעולמו"
+     ],
+     "confidence": 2,
+     "why": "The old man's death is reported.",
+     "quotes_failed": false
+    },
+    {
+     "tag": "social:inter_hasidic_master_disciple_relationship",
+     "scope": "span",
+     "quotes": [
+      "סיפרו לו כל דברי הזקן הנ\"ל"
+     ],
+     "confidence": 2,
+     "why": "The young hasidim receive instruction from their rebbe and report back to him.",
+     "quotes_failed": false
+    },
+    {
+     "tag": "social:marital_relationship",
+     "scope": "span",
+     "quotes": [
+      "בעת אשר גברה אהבתו אצלה ותשא חן וחסד לפניו"
+     ],
+     "confidence": 2,
+     "why": "The parable turns on love between husband and wife.",
+     "quotes_failed": false
+    },
+    {
+     "tag": "women:minor_character",
+     "scope": "span",
+     "quotes": [
+      "פ\"א איחרה אשתו מלבשל בבוקר"
+     ],
+     "confidence": 2,
+     "why": "The wife in the parable acts by delaying the meal.",
+     "quotes_failed": false
+    },
+    {
+     "tag": "ethics-and-emotions:anger",
+     "scope": "span",
+     "quotes": [
+      "נתכעס מאד ואמר לה"
+     ],
+     "confidence": 2,
+     "why": "The husband in the parable grows angry.",
+     "quotes_failed": false
+    }
+   ],
+   "missing_concepts": [
+    "praying at the proper time (zman tefillah)",
+    "advocacy or defence of Israel before God (melitz yosher)",
+    "a soul sent into the world for a single mission"
+   ],
+   "start_quote_found": true,
+   "end_quote_found": true
+  }
+ ],
+ "check": {
+  "non_vocab_tags": [],
+  "quotes": 15,
+  "quotes_not_found": 0
+ },
+ "id": "Eser-Orot_0290",
+ "chars": 1343,
+ "seconds": 21
+}

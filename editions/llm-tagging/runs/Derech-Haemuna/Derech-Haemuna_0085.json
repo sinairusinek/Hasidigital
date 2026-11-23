@@ -1,0 +1,158 @@
+{
+ "unit": {
+  "kind": "hasidic_story",
+  "why": "A narrated anecdote: the Gostynin tsaddik summons the narrator to the Rosh Hodesh drinking and tells a story within it, about the Holy Jew of Przysucha debating the mitnaged rabbi of Lublin at a circumcision.",
+  "boundary_note": ""
+ },
+ "stories": [
+  {
+   "k": 1,
+   "start_quote": "בספר מ״ה הביא מעשה מש\"ב הה״ק מגאסטנין",
+   "end_quote": "ללימוד דרך טובה מובן כמו כן וד\"ל",
+   "hasidic": true,
+   "summary_en": "On Rosh Hodesh the Gostynin tsaddik drinks spirits with his worshippers, insists that a disciple who stayed studying come in, and tells him how the Holy Jew of Przysucha answered the mitnaged rabbi of Lublin (the 'Eisenerkopf') at a circumcision that fellowship over drink binds people more strongly than fellowship over pilpul.",
+   "tags": [
+    {
+     "tag": "practice:drinking_alcohol",
+     "scope": "span",
+     "quotes": [
+      "ולשתות עמהם יחד יי״ש ולשמוח בשמחת היום",
+      "נקחה נא יי״ש ונשתה יחד"
+     ],
+     "confidence": 3,
+     "why": "Drinking spirits together is the central subject.",
+     "quotes_failed": false
+    },
+    {
+     "tag": "practice:storytelling",
+     "scope": "span",
+     "quotes": [
+      "אספר לכם מה שאירע ליהודי הק' מפרשיסחא",
+      "וסיפורי מעשיות מצדיקים"
+     ],
+     "confidence": 3,
+     "why": "The tsaddik tells tales at the gathering, and the inner story is framed as told by him.",
+     "quotes_failed": false
+    },
+    {
+     "tag": "social:relations_with_non_hasidim",
+     "scope": "span",
+     "quotes": [
+      "היה מתנגד על חסידים",
+      "משא״כ בינינו מתנגדים לא כן הוא"
+     ],
+     "confidence": 3,
+     "why": "The Holy Jew debates a mitnaged rabbi.",
+     "quotes_failed": false
+    },
+    {
+     "tag": "practice:circumcision",
+     "scope": "span",
+     "quotes": [
+      "שנפגשו יחד על ברית מילה"
+     ],
+     "confidence": 2,
+     "why": "A circumcision is the setting of the inner story.",
+     "quotes_failed": false
+    },
+    {
+     "tag": "times:holidays",
+     "scope": "span",
+     "quotes": [
+      "פ״א בר״ח אלול שחרית צהלו פניו",
+      "פ״א בר״ח יום שני"
+     ],
+     "confidence": 2,
+     "why": "Both scenes are set on Rosh Hodesh.",
+     "quotes_failed": false
+    },
+    {
+     "tag": "ethics-and-emotions:joy",
+     "scope": "span",
+     "quotes": [
+      "ולשמוח בשמחת היום עם דיבורי חידושי תורה"
+     ],
+     "confidence": 2,
+     "why": "The festive joy of Rosh Hodesh is depicted.",
+     "quotes_failed": false
+    },
+    {
+     "tag": "practice:sermon",
+     "scope": "span",
+     "quotes": [
+      "מענין מעלת חודש אלול וימי רצון אלו"
+     ],
+     "confidence": 2,
+     "why": "The tsaddik gives a Torah discourse, and the Holy Jew's answer is talmudic exegesis.",
+     "quotes_failed": false
+    },
+    {
+     "tag": "practice:study",
+     "scope": "span",
+     "quotes": [
+      "הייתי אני בחדר השני ולמדתי אז",
+      "לכנוס ולבטל מהלימוד"
+     ],
+     "confidence": 2,
+     "why": "The narrator prefers his study to joining the gathering.",
+     "quotes_failed": false
+    },
+    {
+     "tag": "social:disobedience",
+     "scope": "span",
+     "quotes": [
+      "ועשיתי עצמי כלא שומע כלל"
+     ],
+     "confidence": 2,
+     "why": "The narrator ignores the summons until the third call.",
+     "quotes_failed": false
+    },
+    {
+     "tag": "social:inter_hasidic_master_disciple_relationship",
+     "scope": "span",
+     "quotes": [
+      "בא אחד ממשמשיו בציווי מפיו הק׳ לכנוס"
+     ],
+     "confidence": 2,
+     "why": "The master insists on his disciple's presence and teaches him through the story.",
+     "quotes_failed": false
+    },
+    {
+     "tag": "social:inter_hasidic",
+     "scope": "span",
+     "quotes": [
+      "טובת התאספות ישראל יחד אפילו בשתיה"
+     ],
+     "confidence": 2,
+     "why": "Fellowship among hasidim is the theme.",
+     "quotes_failed": false
+    },
+    {
+     "tag": "practice:prayer",
+     "scope": "span",
+     "quotes": [
+      "להיות יחד עם המתפללים אצלו אחר התפלה"
+     ],
+     "confidence": 1,
+     "why": "The gathering follows communal prayer.",
+     "quotes_failed": false
+    }
+   ],
+   "missing_concepts": [
+    "fellowship / social bonding (התחברות) among hasidim",
+    "hasidic drinking custom defended against mitnagdic criticism",
+    "Rosh Hodesh as a distinct occasion"
+   ],
+   "start_quote_found": true,
+   "end_quote_found": true
+  }
+ ],
+ "check": {
+  "non_vocab_tags": [],
+  "quotes": 17,
+  "quotes_not_found": 0
+ },
+ "id": "Derech-Haemuna_0085",
+ "chars": 2056,
+ "seconds": 21
+}

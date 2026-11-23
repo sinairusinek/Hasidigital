@@ -1,0 +1,78 @@
+{
+ "unit": {
+  "kind": "hasidic_story",
+  "why": "A short anecdote in which the Besht responds to his disciple, the rabbi of Kolomyja, after seeing him kiss his son, and states his love for the lowliest Jew.",
+  "boundary_note": "Excerpt quoted from another book (ס׳ ה״ה פ׳ בהר), placed in a thematic anthology section on love of Israel. The next division continues the theme with a different saying."
+ },
+ "stories": [
+  {
+   "k": 1,
+   "start_quote": "שמעתי ממורי רבינו ר״י בעש״ט זצלה״ה",
+   "end_quote": "אור שבע׳ הימים מרן הבעש״ט",
+   "hasidic": true,
+   "summary_en": "The Besht sees his disciple, the rabbi of Kolomyja, kiss his son and tells him that he loves the lowliest Jew far more than the sage loves his only son, yet does not kiss him.",
+   "tags": [
+    {
+     "tag": "social:inter_hasidic_master_disciple_relationship",
+     "scope": "span",
+     "quotes": [
+      "תלמיד מובהק של מרן אור ישראל"
+     ],
+     "confidence": 3,
+     "why": "The Besht instructs his close disciple.",
+     "quotes_failed": false
+    },
+    {
+     "tag": "ethics-and-emotions:virtues",
+     "scope": "span",
+     "quotes": [
+      "שאני אוהב את הפחות שבפחותים"
+     ],
+     "confidence": 3,
+     "why": "Love of Israel as the virtue at issue.",
+     "quotes_failed": false
+    },
+    {
+     "tag": "folkloristics:story_type_virtues",
+     "scope": "story",
+     "quotes": [],
+     "confidence": 3,
+     "why": "The anecdote illustrates the Besht's love of Israel.",
+     "quotes_failed": false
+    },
+    {
+     "tag": "not-a-hasidic-story:virtues",
+     "scope": "story",
+     "quotes": [],
+     "confidence": 2,
+     "why": "It is placed under the heading 'מענין אהבת ישראל' as moral instruction in that virtue.",
+     "quotes_failed": false
+    },
+    {
+     "tag": "social:inter_hasidic",
+     "scope": "span",
+     "quotes": [
+      "וזה החכם היה אבד״ק קאלמייע"
+     ],
+     "confidence": 1,
+     "why": "The Besht speaks with another Hasidic figure.",
+     "quotes_failed": false
+    }
+   ],
+   "missing_concepts": [
+    "love of Israel (ahavat yisrael)",
+    "parental love compared with love of every Jew"
+   ],
+   "start_quote_found": true,
+   "end_quote_found": true
+  }
+ ],
+ "check": {
+  "non_vocab_tags": [],
+  "quotes": 3,
+  "quotes_not_found": 0
+ },
+ "id": "Derech-Haemuna_0003",
+ "chars": 305,
+ "seconds": 13
+}

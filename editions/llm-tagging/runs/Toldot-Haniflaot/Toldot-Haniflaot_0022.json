@@ -1,0 +1,78 @@
+{
+ "unit": {
+  "kind": "hasidic_story",
+  "why": "A brief memorate, reported from the rebbetzin, of a conversation in which her father the holy Maggid foretells that her son will surpass him.",
+  "boundary_note": ""
+ },
+ "stories": [
+  {
+   "k": 1,
+   "start_quote": "כז שמעתי כ״פ מאמר הרבנית הצדקת",
+   "end_quote": "שיהיה טוב וגדול יותר ממנו",
+   "hasidic": true,
+   "summary_en": "The rebbetzin related that her father the holy Maggid told her that her son would be greater and better than he; she answered that it would suffice if he were as good as him, and he insisted that her son would be greater.",
+   "tags": [
+    {
+     "tag": "characters-and-roles:the_family_of_the_tsaddik",
+     "scope": "story",
+     "quotes": [],
+     "confidence": 3,
+     "why": "The Maggid speaks with his daughter about his grandson.",
+     "quotes_failed": false
+    },
+    {
+     "tag": "women:minor_character",
+     "scope": "span",
+     "quotes": [
+      "מאמר הרבנית הצדקת ז\"ל, כי אביה"
+     ],
+     "confidence": 2,
+     "why": "The rebbetzin takes part in the dialogue and transmits the tale, but the story is brief.",
+     "quotes_failed": false
+    },
+    {
+     "tag": "supernatural:prognostication",
+     "scope": "span",
+     "quotes": [
+      "תדע שבנך יחיה גדול וטוב ממני"
+     ],
+     "confidence": 2,
+     "why": "The Maggid foretells the grandson's greatness, implicitly fulfilled.",
+     "quotes_failed": false
+    },
+    {
+     "tag": "folkloristics:story_type_prognostication",
+     "scope": "story",
+     "quotes": [],
+     "confidence": 2,
+     "why": "The whole anecdote is a prediction about a future tzaddik.",
+     "quotes_failed": false
+    },
+    {
+     "tag": "ethics-and-emotions:humility",
+     "scope": "span",
+     "quotes": [
+      "ולואי שיהיה טוב כמו אתה, ואיני חפץ יותר"
+     ],
+     "confidence": 1,
+     "why": "The daughter modestly asks for no more than her father's level.",
+     "quotes_failed": false
+    }
+   ],
+   "missing_concepts": [
+    "grandson surpassing grandfather / generational ascent of tzaddikim",
+    "oral transmission from a female family member (memorate chain)"
+   ],
+   "start_quote_found": true,
+   "end_quote_found": true
+  }
+ ],
+ "check": {
+  "non_vocab_tags": [],
+  "quotes": 3,
+  "quotes_not_found": 0
+ },
+ "id": "Toldot-Haniflaot_0022",
+ "chars": 200,
+ "seconds": 12
+}

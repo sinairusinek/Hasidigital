@@ -18,7 +18,7 @@
 					<name>DictaBert</name>
 					<note>automatic tagging, corrected with Gemini; not yet reviewed by hand</note>
 				</respStmt>
-			</titleStmt><editionStmt><edition n="1.0.0">Working edition</edition></editionStmt>
+			<respStmt xml:id="llm-tagging"><resp>Topic tags: assigned by Claude Opus 5.5 with the project's topic scheme (editions/llm-tagging; calibrated 2026-11-16, est. precision 0.89 / recall 0.90, model-judged); not reviewed by hand</resp><name>Claude Opus 5.5 (Anthropic)</name></respStmt></titleStmt><editionStmt><edition n="1.0.0">Working edition</edition></editionStmt>
 			<publicationStmt>
 				<p>This edition was created in the framework of the the project "Historical Digital
 					Analysis of Hasidic Stories Until 1914", PI: Gadi Sagiv; Supervising
@@ -28,7 +28,7 @@
 			</publicationStmt>
 			<sourceDesc><bibl type="digital"><title>Digital scan from HebrewBooks.org</title><publisher>HebrewBooks.org</publisher><ptr target="https://hebrewbooks.org/3801"/><idno type="HebrewBooks">3801</idno><idno type="Transkribus">6577152</idno><note>Source for transcription</note></bibl><bibl type="original"><title type="main" xml:lang="he">פעולת הצדיקים</title><title type="main" xml:lang="en">Peulat HaTzadikim</title><author><persName xml:lang="he">יצחק צינגר</persName><persName xml:lang="en">Yitzhak Zinger</persName></author><pubPlace xml:lang="he">פאדגורזא</pubPlace><pubPlace xml:lang="en">Podgorze</pubPlace><date when="1900">תר"ס</date><textLang mainLang="heb"/><idno type="HebrewBooks">3801</idno><idno type="Kima">168</idno><idno type="Transkribus">6577152</idno><idno type="DBid">3703</idno><idno type="work">56</idno></bibl></sourceDesc>
 		</fileDesc>
-	<revisionDesc><change when="2026-04-29">sourceDesc synced from edition-metadata.json</change><change when="2026-11-21">text repaired: Gemini correction pass replayed without the tag-stripping bug that shuffled text (58f4166); later tag edits carried over</change><change when="2026-11-21">header in the shape of the online editions; page breaks restored from the Transkribus export</change></revisionDesc></teiHeader>
+	<revisionDesc><change when="2026-04-29">sourceDesc synced from edition-metadata.json</change><change when="2026-11-21">text repaired: Gemini correction pass replayed without the tag-stripping bug that shuffled text (58f4166); later tag edits carried over</change><change when="2026-11-21">header in the shape of the online editions; page breaks restored from the Transkribus export</change><change when="2026-11-23">topic tags (LLM, confidence &gt;= 2) written for 59 stories; not reviewed by hand</change></revisionDesc></teiHeader>
 	<text>
 		<front><div type="front-matter"><p>
 					<pb facs="Peulat-Hatzadikim_0001.jpg"/><lb/>ספר
@@ -48,7 +48,7 @@
 					<lb/>שנת <date>תר"ס</date> לפ"ק.
 				</p>
 				</div></front><body>
-			<div type="story" xml:id="Peulat-Hatzadikim_0001" n="1"><head type="storyHead">Peulat-Hatzadikim_0001</head>
+			<div type="story" xml:id="Peulat-Hatzadikim_0001" n="1"><head type="storyHead">Peulat-Hatzadikim_0001</head><span ana="practice:the_travels_of_the_tsaddik; supernatural:perception; women:minor_character; characters-and-roles:tavern_keeper; practice:circumcision; practice:halakhah; practice:prayer; social:inter_hasidic; supernatural:reincarnation" resp="#llm-tagging">תיוגים</span>
 <p>
 					<pb facs="Peulat-Hatzadikim_0002.jpg"/><lb/>מהה"ק ר׳ <persName>אהרן משה מ<placeName ana="bio" ref="#H-LOC_152">בראד</placeName></persName> ז״ל
 				</p>
@@ -76,7 +76,7 @@
 					<lb/>ועתה העתירו ג״כ אל ד׳ שיקח מכם החזיון הזה וכן עשה
 					<lb/>הצדיק הזה מג״כ בעה״ק לבר עולם יהי׳ צדיק :
 				</p>
-				</div><div type="story" xml:id="Peulat-Hatzadikim_0002" n="2"><head type="storyHead">Peulat-Hatzadikim_0002</head>
+				</div><div type="story" xml:id="Peulat-Hatzadikim_0002" n="2"><head type="storyHead">Peulat-Hatzadikim_0002</head><span ana="knowledge:esoteric; practice:study; practice:travel_to_the_tsaddik; supernatural:prognostication; ethics-and-emotions:prohibitions; folkloristics:story_type_revelation; folkloristics:story_type_virtues; knowledge:secret_texts; practice:the_travels_of_the_tsaddik; social:disobedience; social:inter_hasidic; social:retrospective_recognition; supernatural:perception; times:shabbat" resp="#llm-tagging">תיוגים</span>
 <p>
 					<lb/>מהגה"ק ר׳ <persName>ארי׳ ליבוש</persName> זצ"ל אבד״ק <placeName>לאנצוט</placeName> ו<placeName>קעשינוב</placeName>.
 				</p>
@@ -110,7 +110,7 @@
 					<lb/>הידעתם מקור מחצבתו של הה״צ <persName>מהרא"ל</persName> <name type="misc">הקב״ה</name> לקח דגבי אדמת הר
 					<lb/>סיני ובדא את הה״ק <persName>מהרא"ל</persName> זי״ע :
 				</p>
-				</div><div type="story" xml:id="Peulat-Hatzadikim_0003" n="3"><head type="storyHead">Peulat-Hatzadikim_0003</head>
+				</div><div type="story" xml:id="Peulat-Hatzadikim_0003" n="3"><head type="storyHead">Peulat-Hatzadikim_0003</head><span ana="ethics-and-emotions:anger; practice:sermon; social:inter_hasidic; times:shabbat; ethics-and-emotions:humility; ethics-and-emotions:pride; ethics-and-emotions:shame; knowledge:esoteric; practice:drinking_alcohol; practice:study; practice:travel_to_other_tsaddik; supernatural:perception" resp="#llm-tagging">תיוגים</span>
 <p>
 					<lb/>מהה"ק ר׳ <persName>אהרן מ<placeName ana="bio" ref="#H-LOC_4">קארלין</placeName></persName> ז״ל.
 				</p>
@@ -145,7 +145,7 @@
 				<p>
 					<lb/>כשנסתלק
 				</p>
-				</div><div type="story" xml:id="Peulat-Hatzadikim_0004" n="4"><head type="storyHead">Peulat-Hatzadikim_0004</head>
+				</div><div type="story" xml:id="Peulat-Hatzadikim_0004" n="4"><head type="storyHead">Peulat-Hatzadikim_0004</head><span ana="practice:sermon; times:death; ethics-and-emotions:repentance; folkloristics:story_type_death_of_the_tsaddik; not-a-hasidic-story:sermon; social:inter_hasidic_master_disciple_relationship; times:eschatology" resp="#llm-tagging">תיוגים</span>
 <p>
 					<pb facs="Peulat-Hatzadikim_0004.jpg"/><lb/>מהה"ק ר׳ <persName>אהרן מ<placeName ana="bio" ref="#H-LOC_4">קארלין</placeName></persName> ז"ל
 				</p>
@@ -168,7 +168,7 @@
 					<lb/>העולם ק"ז ואדמו״ר הי׳ ג״כ בבחי׳ זאת לכן סילקו הקב״ה קודם זמנו.
 					<lb/>כי נסתלק כשהיה בן ל"ה שנים זי״ע :
 				</p>
-				</div><div type="story" xml:id="Peulat-Hatzadikim_0005" n="5"><head type="storyHead">Peulat-Hatzadikim_0005</head>
+				</div><div type="story" xml:id="Peulat-Hatzadikim_0005" n="5"><head type="storyHead">Peulat-Hatzadikim_0005</head><span ana="ethics-and-emotions:virtues; folkloristics:story_type_virtues; not-a-hasidic-story:hagiography; social:retrospective_recognition; times:shabbat; ethics-and-emotions:charity; ethics-and-emotions:humility; practice:ritual_slaughtering; practice:storytelling; supernatural:miracle" resp="#llm-tagging">תיוגים</span>
 <p>
 					<lb/>מהגה״ק רבי ר׳ <persName>אביש מ<placeName ana="bio" ref="#H-LOC_125">פפד״מ</placeName></persName> זצ״ל.
 				</p>
@@ -205,7 +205,7 @@
 					<lb/>זו אמר שעיקר הנסיון הי׳ שהאמין במאמר חז״ל כפי עניא ולא יר
 					<lb/>והאמין בו שכל מאכלי העיר <placeName ref="#H-LOC_125">פפד״מ</placeName> לא יספיק לו ויהי' כפין:
 				</p>
-				</div><div type="story" xml:id="Peulat-Hatzadikim_0006" n="6"><head type="storyHead">Peulat-Hatzadikim_0006</head>
+				</div><div type="story" xml:id="Peulat-Hatzadikim_0006" n="6"><head type="storyHead">Peulat-Hatzadikim_0006</head><span ana="practice:sermon; practice:study; ethics-and-emotions:virtues; not-a-hasidic-story:sermon" resp="#llm-tagging">תיוגים</span>
 <p>
 					<lb/>מהצה"ק רבי ר׳ <persName>אלימלך מ<placeName ana="bio" ref="#H-LOC_350">ליזענסק</placeName></persName> זצ״ל.
 				</p>
@@ -229,7 +229,7 @@
 					<lb/>ישנו בזכירה היינו מ׳ ששומר נפשו מכל סיג וחטא אזי ישנו בזכירה
 					<lb/>ואין שבחה לפניו והבן.
 				</p>
-				</div><div type="story" xml:id="Peulat-Hatzadikim_0007" n="7"><head type="storyHead">Peulat-Hatzadikim_0007</head>
+				</div><div type="story" xml:id="Peulat-Hatzadikim_0007" n="7"><head type="storyHead">Peulat-Hatzadikim_0007</head><span ana="characters-and-roles:the_family_of_the_tsaddik; ethics-and-emotions:humility; experience:enthusiasm; folkloristics:story_type_parable; folkloristics:story_type_rapprochement; practice:solitude; practice:travel_to_the_tsaddik; practice:storytelling; practice:study" resp="#llm-tagging">תיוגים</span>
 <p>
 					<lb/>הצה״ק <persName>ר״א</persName> בטרם הסתפח לחברת החסידים היה דרכו בקודש ללמוד
 					<lb/>תורה כדרך הלומדים המובהקים ולא פנה לכת החסידים ואחיו
@@ -307,7 +307,7 @@
 					<lb/>ולימודך ותפלתך ואז תהי' מהיושבים ראשונה במלכות ואז נסע הה״ק
 					<persName><lb/>מהר״א</persName> ל<persName>המגיד</persName> הק' מ<placeName>מעזריטש</placeName> ז״ל:
 				</p>
-				</div><div type="story" xml:id="Peulat-Hatzadikim_0008" n="8"><head type="storyHead">Peulat-Hatzadikim_0008</head>
+				</div><div type="story" xml:id="Peulat-Hatzadikim_0008" n="8"><head type="storyHead">Peulat-Hatzadikim_0008</head><span ana="not-a-hasidic-story:sermon" resp="#llm-tagging">תיוגים</span>
 <p>
 					<lb/>סיפר הה״ק ר׳ <persName>אברהם מרדכי מ<placeName ana="bio">פינטשוב</placeName></persName> ז״ל ששמע מפי הק׳ <persName>רר״א</persName>
 					<lb/>שאמר אלו ינוחו מלחלוק עלי שתי שנים אביא משיח וגאולה
@@ -315,7 +315,7 @@
 					<lb/>משיח שיהי׳ קודם ביאת משיח ומדוע לא צפו ברוח קדשם ש<persName>אלימלך</persName>
 					<lb/>יהי׳ בעולם וימתיק כל הגזירות ויבטל אותם:
 				</p>
-				</div><div type="story" xml:id="Peulat-Hatzadikim_0009" n="9"><head type="storyHead">Peulat-Hatzadikim_0009</head>
+				</div><div type="story" xml:id="Peulat-Hatzadikim_0009" n="9"><head type="storyHead">Peulat-Hatzadikim_0009</head><span ana="experience:devekut; practice:devekut; practice:prayer; times:shabbat; ethics-and-emotions:fear; folkloristics:story_type_virtues; practice:storytelling" resp="#llm-tagging">תיוגים</span>
 <p>
 					<lb/>סיפר הה״צ ר׳ <persName>יחזקאל מ<placeName ana="bio">קאזמור</placeName></persName> ז״ל כי הה״ק <persName>רר״א</persName> ז״ל בשעה שאמר
 					<lb/>קדושת כתר בש״ק לקח הזייגעריל והביט עליו ואמר אח״כ שע״ב
@@ -323,7 +323,7 @@
 					<lb/>לו ח"ו כלות הנפש לכן הוכרח להביט על חפץ למען יוכל להחזיק את
 					<lb/>הנפש בגוף שלא יבטל ממציאות:
 				</p>
-				</div><div type="story" xml:id="Peulat-Hatzadikim_0010" n="10"><head type="storyHead">Peulat-Hatzadikim_0010</head>
+				</div><div type="story" xml:id="Peulat-Hatzadikim_0010" n="10"><head type="storyHead">Peulat-Hatzadikim_0010</head><span ana="ethics-and-emotions:pride; practice:reception_of_hasidim; practice:sermon; practice:travel_to_the_tsaddik; times:shabbat; ethics-and-emotions:fear; ethics-and-emotions:humility; experience:trembling; practice:study; supernatural:perception" resp="#llm-tagging">תיוגים</span>
 <p>
 					<lb/>איש כפרי אחד שהי׳ דרכו לנסוע להה"ק <persName>רר״א</persName> הי׳ לו חתנו מופלג
 					<lb/>גדול ולא רצה חתנו ליסע עמו להה״ק כי ירא לנפשו פן ישאל
@@ -339,7 +339,7 @@
 					<lb/>אם חושב בדעתו ואנ"י שהנני למדן וצדיק אז לא אראנו אין אני יכול
 					<lb/>לסובלו ולראותו נאו"ם ד׳ זה יאמר ד׳ :
 				</p>
-				</div><div type="story" xml:id="Peulat-Hatzadikim_0011" n="11"><head type="storyHead">Peulat-Hatzadikim_0011</head>
+				</div><div type="story" xml:id="Peulat-Hatzadikim_0011" n="11"><head type="storyHead">Peulat-Hatzadikim_0011</head><span ana="practice:healing_of_the_soul; practice:prayer; practice:the_travels_of_the_tsaddik; social:inter_hasidic_master_disciple_relationship; experience:enthusiasm; folkloristics:story_type_advent; practice:travel_to_other_tsaddik; supernatural:miracle" resp="#llm-tagging">תיוגים</span>
 <p>
 					<pb facs="Peulat-Hatzadikim_0008.jpg"/><lb/>הרב הקדוש ר׳ <persName>יעקב יצחק מ<placeName ana="bio" ref="#H-LOC_56">לובלין</placeName></persName> זצ״ל
 				</p>
@@ -356,13 +356,13 @@
 					<lb/>לך לאחי <persName>אלימלך</persName> ויהי׳ לך נשמה גם כן ומאז נעשה תלמיד הקדוש רבי
 					<persName><lb/>אלימלך</persName> ז״ל:
 				</p>
-				</div><div type="story" xml:id="Peulat-Hatzadikim_0012" n="12"><head type="storyHead">Peulat-Hatzadikim_0012</head>
+				</div><div type="story" xml:id="Peulat-Hatzadikim_0012" n="12"><head type="storyHead">Peulat-Hatzadikim_0012</head><span ana="practice:asceticism; ethics-and-emotions:resisting_temptation; folkloristics:story_type_virtues; practice:prayer; practice:study" resp="#llm-tagging">תיוגים</span>
 <p>
 					<lb/>בימי חרפו סגר את עיניו שבע שנים רצופות לבלתי יראה ערות דבר
 					<lb/>אם לא בעת תפילתו ולימודו שהי׳ צריך לראות בהספר אשר קרא
 					<lb/>בו והתפלל בו. וע״כ היו עיניו כחות וקצר ראות קריבטיג):
 				</p>
-				</div><div type="story" xml:id="Peulat-Hatzadikim_0013" n="13"><head type="storyHead">Peulat-Hatzadikim_0013</head>
+				</div><div type="story" xml:id="Peulat-Hatzadikim_0013" n="13"><head type="storyHead">Peulat-Hatzadikim_0013</head><span ana="ethics-and-emotions:fear; experience:trembling; experience:visions; practice:prayer; practice:storytelling; social:converts_and_conversion; social:inter_hasidic_master_disciple_relationship; social:marriage; social:retrospective_recognition; supernatural:perception; times:shabbat; women:catalyst_character; characters-and-roles:angels; ethics-and-emotions:awe; ethics-and-emotions:virtues; folkloristics:story_type_prognostication; folkloristics:story_type_revelation; practice:solitude; practice:torat_ha_tsaddik; spaces:institutions_hassidic_court; supernatural:prognostication" resp="#llm-tagging">תיוגים</span>
 <p>
 					<lb/>בימי בחרותו כאשר הגיע זמן הנשואין והלך אל כבוד חיפתו
 					<lb/>חזר בו ולא רצה בהשידוך הזה וכל העומדים שם נבהלו
@@ -403,7 +403,7 @@
 					<lb/>כי הוא בטלן כי כאשר ראה הפמליא של מעלה נתעלף וע״כ צויתי
 					<lb/>להביא אחד איש אשר עיני בשר לו ולא יראה מאומה ולא יפחד :
 				</p>
-				</div><div type="story" xml:id="Peulat-Hatzadikim_0014" n="14"><head type="storyHead">Peulat-Hatzadikim_0014</head>
+				</div><div type="story" xml:id="Peulat-Hatzadikim_0014" n="14"><head type="storyHead">Peulat-Hatzadikim_0014</head><span ana="practice:business_advice; practice:the_travels_of_the_tsaddik; social:relations_with_non_hasidim; folkloristics:story_type_rapprochement; practice:storytelling; supernatural:prognostication" resp="#llm-tagging">תיוגים</span>
 <p>
 					<lb/>הק׳ מ<placeName ref="#H-LOC_56">לובלין</placeName> הי׳ תמיד מלמד זכות על <persName>קרח</persName> והי׳ מתרצו וקראוהו בשם
 					<lb/>זקני <name type="work">קרח</name> ובכל שנה ושנה בהגיעו לפ׳ קרח אמר תורה עליו
@@ -423,7 +423,7 @@
 					<lb/>לשמור הפתח ב הה״ק <persName>מהרצ״ה מ<placeName ana="bio" ref="#H-LOC_92">זידיטשוב</placeName></persName> ז״ל דופק ויספרו להקדוש
 					<lb/>מ<placeName ref="#H-LOC_56">לובלין</placeName> ויען הה״ק ויאמר ימתין מעם ויאמר הה״ק להרב <persName>ר״ל</persName> הלא זה
 				</p>
-				</div><div type="story" xml:id="Peulat-Hatzadikim_0015" n="15"><head type="storyHead">Peulat-Hatzadikim_0015</head>
+				</div><div type="story" xml:id="Peulat-Hatzadikim_0015" n="15"><head type="storyHead">Peulat-Hatzadikim_0015</head><span ana="ethics-and-emotions:awe; practice:business_advice; practice:halakhah; practice:reception_of_hasidim; practice:study; social:disobedience; social:inter_hasidic_master_disciple_relationship; supernatural:prognostication; ethics-and-emotions:humility; experience:trembling; folkloristics:story_type_prognostication; practice:torat_ha_tsaddik; social:retrospective_recognition; spaces:the_land_of_israel" resp="#llm-tagging">תיוגים</span>
 <p>
 					<lb/>האיש
 				</p>
@@ -450,7 +450,7 @@
 					<lb/>הק) מ<placeName ref="#H-LOC_56">לובלין</placeName> ומבר השעוה והדבש הטמין אולם כאשר אמר הק׳ מ<placeName ref="#H-LOC_56">לובלין</placeName>
 					<lb/>כן הי' ואז ירד הרב <persName>ר״ל</persName> מנכסיו ?
 				</p>
-				</div><div type="story" xml:id="Peulat-Hatzadikim_0016" n="16"><head type="storyHead">Peulat-Hatzadikim_0016</head>
+				</div><div type="story" xml:id="Peulat-Hatzadikim_0016" n="16"><head type="storyHead">Peulat-Hatzadikim_0016</head><span ana="practice:business_advice; practice:halakhah; practice:ritual_slaughtering; supernatural:perception; characters-and-roles:ritual_slaughterer; supernatural:prognostication; times:holidays" resp="#llm-tagging">תיוגים</span>
 <p>
 					<lb/>פ״א בא הטבח ושאל עצה כדת מה לעשות בבהמות שיש לו אם
 					<lb/>לשוחטם על החג או ימכרם כי לבו יפחד פן ימצא טריפות צוהו
@@ -459,14 +459,14 @@
 					<lb/>זו ימצא בה שאלה ואינו יודע אם יפסוק המורה כשרה או טרפה כי
 					<lb/>תורה היא ולא בשמים היא :
 				</p>
-				</div><div type="story" xml:id="Peulat-Hatzadikim_0017" n="17"><head type="storyHead">Peulat-Hatzadikim_0017</head>
+				</div><div type="story" xml:id="Peulat-Hatzadikim_0017" n="17"><head type="storyHead">Peulat-Hatzadikim_0017</head><span ana="not-a-hasidic-story:sermon" resp="#llm-tagging">תיוגים</span>
 <p>
 					<lb/>פ״א דבר מה<persName>אר״י</persName> הקדוש ותלמידו הקדוש מה<persName>רח"ו</persName> נגד <persName>הבעש״ט</persName> ותלמידו
 					<lb/>הק׳ <persName>המגיד מ<placeName ana="bio">מעריטש</placeName></persName> ואמר בין הרב להרב אין אנו יכולים להכריע
 					<lb/>ואין אנו רוצים להכריע ובין התלמיד לתלמיד אנו יכולים להבריע רק
 					<lb/>אין אנו רוצים להכריע :
 				</p>
-				</div><div type="story" xml:id="Peulat-Hatzadikim_0018" n="18"><head type="storyHead">Peulat-Hatzadikim_0018</head>
+				</div><div type="story" xml:id="Peulat-Hatzadikim_0018" n="18"><head type="storyHead">Peulat-Hatzadikim_0018</head><span ana="not-a-hasidic-story:sermon" resp="#llm-tagging">תיוגים</span>
 <p>
 					<lb/>כשבא אדם א׳ לפניו להתנצל שהוא כעסן אמר לו בזה הלשון איהר
 					<lb/>מ<persName>יזט נישט</persName> <placeName>רייבערין</placeName> <persName>קין פאקע ציבעך</persName> <placeName>ווארין</placeName> דאם ריבערין אין
@@ -476,7 +476,7 @@
 					<lb/>והה״ק <persName>מהר"נ</persName> מראפשיץ זצ״ל אמר אז איין ל<persName>אנגער ציבעך</persName> ב<placeName>רענגט</placeName>
 					<lb/>סך
 				</p>
-				</div><div type="story" xml:id="Peulat-Hatzadikim_0019" n="19"><head type="storyHead">Peulat-Hatzadikim_0019</head>
+				</div><div type="story" xml:id="Peulat-Hatzadikim_0019" n="19"><head type="storyHead">Peulat-Hatzadikim_0019</head><span ana="not-a-hasidic-story:sermon" resp="#llm-tagging">תיוגים</span>
 <p>
 					<lb/>גם אמר הק׳ מ<placeName ref="#H-LOC_56">לובלין</placeName> כששותה אחד לחברו ואומר לחיים שאין להשיב
 					<lb/>טובים לבד כי לחיים טובים לבד בני׳ קללה רק לחיים טובים
@@ -488,7 +488,7 @@
 				<p>
 					<pb facs="Peulat-Hatzadikim_0011.jpg"/><lb/>הה"ק מ<placeName ref="#H-LOC_56">לובלין</placeName> זצ"ל
 				</p>
-				</div><div type="story" xml:id="Peulat-Hatzadikim_0020" n="20"><head type="storyHead">Peulat-Hatzadikim_0020</head>
+				</div><div type="story" xml:id="Peulat-Hatzadikim_0020" n="20"><head type="storyHead">Peulat-Hatzadikim_0020</head><span ana="characters-and-roles:the_family_of_the_tsaddik; social:inter_hasidic; supernatural:perception; practice:travel_to_other_tsaddik" resp="#llm-tagging">תיוגים</span>
 <p>
 					<lb/>פ״א הי׳ הה״ק מ<placeName ref="#H-LOC_134">בארדיטשוב</placeName> אצל הה״ק מ<placeName ref="#H-LOC_56">לובלין</placeName> והביא הה״ק מ<placeName ref="#H-LOC_56">לובלין</placeName>
 					<lb/>הקאווע עבור הה״ק מ<placeName ref="#H-LOC_134">בארדיטשוב</placeName> ורצה לערות מקודם את הקאווע
@@ -504,7 +504,7 @@
 					<lb/>תפסוק על ידו השיבו אביו ידעתי ברוח הקודש שיסבים עלי שאניך רוח
 					<lb/>הקודש גם מכאן ולהלאה :
 				</p>
-				</div><div type="story" xml:id="Peulat-Hatzadikim_0021" n="21"><head type="storyHead">Peulat-Hatzadikim_0021</head>
+				</div><div type="story" xml:id="Peulat-Hatzadikim_0021" n="21"><head type="storyHead">Peulat-Hatzadikim_0021</head><span ana="practice:study; social:inter_hasidic_master_disciple_relationship; practice:sermon" resp="#llm-tagging">תיוגים</span>
 <p>
 					<lb/>הה״ק ר׳ <persName>משה טייטעלבוים</persName> זצ״ל מאוהל התפאר א״ע לפני הק׳ מ<placeName ref="#H-LOC_56">לובלין</placeName>
 					<lb/>שלמד <name type="work">ספר המורה</name> ל<persName>הרמב״ם</persName> ולא נשאר לו בלבו שום ספיקות
@@ -519,7 +519,7 @@
 					<lb/>גם אמר הה״ק <persName>מהר״פ</persName> ז״ל ששקר צריך להיות חמור כמו עריות ואמר
 					<lb/>כשיהי׳ שקר חמור כמו עריות יבא משיח
 				</p>
-				</div><div type="story" xml:id="Peulat-Hatzadikim_0022" n="22"><head type="storyHead">Peulat-Hatzadikim_0022</head>
+				</div><div type="story" xml:id="Peulat-Hatzadikim_0022" n="22"><head type="storyHead">Peulat-Hatzadikim_0022</head><span ana="not-a-hasidic-story:sermon" resp="#llm-tagging">תיוגים</span>
 <p>
 					<lb/>שאל הה״ק מ<placeName ref="#H-LOC_56">לובלין</placeName> את הקדוש ר׳ <persName>יצחק מ<placeName ana="bio">ראדיוויל</placeName></persName> על דברי רז"ל
 					<lb/>שהחמידו כ״ב בעון הגאוה. והשיבו שטובה גדולה עשו לנו
@@ -530,7 +530,7 @@
 					<lb/>נחשב באלו קיים כל הל״ת של ט״ו עריות והוטבו הדברים בעיני הה״ק
 					מ<placeName ref="#H-LOC_56">לובלין</placeName> ואמר שפתח לו בזה שער גדול לעבודת השם:
 				</p>
-				</div><div type="story" xml:id="Peulat-Hatzadikim_0023" n="23"><head type="storyHead">Peulat-Hatzadikim_0023</head>
+				</div><div type="story" xml:id="Peulat-Hatzadikim_0023" n="23"><head type="storyHead">Peulat-Hatzadikim_0023</head><span ana="not-a-hasidic-story:sermon" resp="#llm-tagging">תיוגים</span>
 <p>
 					<lb/>בהיותו בהיכל <persName>המגיד</persName> הק׳ ר״ <persName>בער מ<placeName ana="bio">מעזריטש</placeName></persName> ז״ל ששמע מפי המגיד
 					<lb/>הקדוש שפי׳ דברי הגמ׳ יש קונה עולמו בשעה אחת ויש קונה
@@ -553,7 +553,7 @@
 					<lb/>על אשר באפשרי לקנות עוה״ב בשעה אחת׳ ונענה לו רבו <persName>המגיד</persName> הק׳
 					<lb/>אשר פי׳ זה הוא טוב מאוד ובמעט יותר מפירושו :
 				</p>
-				</div><div type="story" xml:id="Peulat-Hatzadikim_0024" n="24"><head type="storyHead">Peulat-Hatzadikim_0024</head>
+				</div><div type="story" xml:id="Peulat-Hatzadikim_0024" n="24"><head type="storyHead">Peulat-Hatzadikim_0024</head><span ana="not-a-hasidic-story:sermon" resp="#llm-tagging">תיוגים</span>
 <p>
 					<lb/>אמר בשם הה״ק ר׳ <persName>זושא</persName> שהעיקר להיות שפל בעיניו ובאם שתחזיק
 					<lb/>עצמך יותר ויותר במדת קטנות אני ערב לו שלא יטעת ח״ו :
@@ -567,7 +567,7 @@
 					<lb/>רק סמיכה ומי שהוא בעיניו על כל פנים רק כפוף זה צריך סעד
 					<lb/>יותר היינו זקיפה ממש;
 				</p>
-				</div><div type="story" xml:id="Peulat-Hatzadikim_0025" n="25"><head type="storyHead">Peulat-Hatzadikim_0025</head>
+				</div><div type="story" xml:id="Peulat-Hatzadikim_0025" n="25"><head type="storyHead">Peulat-Hatzadikim_0025</head><span ana="not-a-hasidic-story:sermon" resp="#llm-tagging">תיוגים</span>
 <p>
 					<lb/>הקדוש מ<placeName ref="#H-LOC_56">לובלין</placeName> פירוש הפסוק מי בכם ירא ד׳ שומע בקול עבדו אשר
 					<lb/>הלך חשבים ואין נונה לו יבטח בשם ה׳ וישען באלקיו הפירוש
@@ -579,14 +579,14 @@
 					<lb/>שיתפלל בעדו כי הצדיק נקרא גם כן בשם אלקים כמ״ש ב<persName>משה</persName> ראה
 					<lb/>נתתיך אלקים ל<persName>פרעה</persName>:
 				</p>
-				</div><div type="story" xml:id="Peulat-Hatzadikim_0026" n="26"><head type="storyHead">Peulat-Hatzadikim_0026</head>
+				</div><div type="story" xml:id="Peulat-Hatzadikim_0026" n="26"><head type="storyHead">Peulat-Hatzadikim_0026</head><span ana="not-a-hasidic-story:sermon" resp="#llm-tagging">תיוגים</span>
 <p>
 					<lb/>הוא פירש מאמר ר״ל יפה ת״ת עם דרך ארץ שיגיעת שניהם משכחת
 					<lb/>עון. משכחת הוא לשון מציאה בדמצינו ב״פ <persName>ראשבה</persName> מציאה והיינו
 					<lb/>על ידי שעוסק בתורה עם ד״א הוא נבנע הרבה ומוצא בעצמו תמיד
 					<lb/>עון חטא:
 				</p>
-				</div><div type="story" xml:id="Peulat-Hatzadikim_0027" n="27"><head type="storyHead">Peulat-Hatzadikim_0027</head>
+				</div><div type="story" xml:id="Peulat-Hatzadikim_0027" n="27"><head type="storyHead">Peulat-Hatzadikim_0027</head><span ana="not-a-hasidic-story:sermon" resp="#llm-tagging">תיוגים</span>
 <p>
 					<lb/>דבר בקדשו מלתא בטעמא למנהגן של ישראל בבוא איש ישראל
 					<lb/>להצדיק להתפלל בעדו נותן לו ממון פדיון נפשו ואמר דהענין הוא
@@ -603,7 +603,7 @@
 				<p>
 					<pb facs="Peulat-Hatzadikim_0013.jpg"/><lb/>הה"ק מ<placeName ref="#H-LOC_56">לובלין</placeName> זצ״ל
 				</p>
-				</div><div type="story" xml:id="Peulat-Hatzadikim_0028" n="28"><head type="storyHead">Peulat-Hatzadikim_0028</head>
+				</div><div type="story" xml:id="Peulat-Hatzadikim_0028" n="28"><head type="storyHead">Peulat-Hatzadikim_0028</head><span ana="social:retrospective_recognition; supernatural:perception; practice:drinking_alcohol; practice:halakhah" resp="#llm-tagging">תיוגים</span>
 <p>
 					<lb/>פ״א הביאו לפניו יין לקידוש ודרכו בקודש לשום עיניו על היין כשהוא
 					<lb/>בכלי הביטעלקי בעודו סתום והשגיח כמה פעמים ואמר כשר
@@ -611,7 +611,7 @@
 					<lb/>עליו ענין יין ואחר הקידוש פתחו הכלי וראו שהיא מי דבש לבן מארץ
 					<placeName><lb/>הגר</placeName>:
 				</p>
-				</div><div type="story" xml:id="Peulat-Hatzadikim_0029" n="29"><head type="storyHead">Peulat-Hatzadikim_0029</head>
+				</div><div type="story" xml:id="Peulat-Hatzadikim_0029" n="29"><head type="storyHead">Peulat-Hatzadikim_0029</head><span ana="ethics-and-emotions:adultery; ethics-and-emotions:prohibitions; practice:halakhah; supernatural:perception; practice:storytelling; social:marital_relationship; women:catalyst_character" resp="#llm-tagging">תיוגים</span>
 <p>
 					<lb/>סיפר הגאון הקדוש בעל <name type="work">חידושי הרי״ם</name> זצוק"ל.
 				</p>
@@ -625,7 +625,7 @@
 					<lb/>אין לסמוך על הרוה״ק והפליג בספוריו שאינם מובנים לפי הפשט ואמר
 					<lb/>האות שמבין ישראל שוה <name type="currency">דינר</name> זהב ע״ב:
 				</p>
-				</div><div type="story" xml:id="Peulat-Hatzadikim_0030" n="30"><head type="storyHead">Peulat-Hatzadikim_0030</head>
+				</div><div type="story" xml:id="Peulat-Hatzadikim_0030" n="30"><head type="storyHead">Peulat-Hatzadikim_0030</head><span ana="practice:drinking_alcohol; practice:reception_of_hasidim; practice:travel_to_the_tsaddik; social:inter_hasidic; supernatural:perception; times:holidays; characters-and-roles:messiah; ethics-and-emotions:joy; kabbalah:kabbalistic_terms_yihudim; practice:devekut; practice:pidyon_nefesh; practice:prayer; practice:torat_ha_tsaddik; social:disobedience; social:retrospective_recognition; supernatural:miracle; times:death; times:eschatology; women:mention_only" resp="#llm-tagging">תיוגים</span>
 <p>
 					<lb/>הנה בהתגלות הצדיק הקדוש רבו החסידים ליסע אליו. רבו כמו רבו יום
 					<lb/>יום. וכל אחד הלהיב תשוקה נמרצה כלב יתר החסידים ליסע אליו:
@@ -697,7 +697,7 @@
 					<lb/>שהוכפלו בו צרות לישראל בשנת <date>תקע״ה</date> לפ״ק וד׳ ב״ה ברוב רחמיו
 					<lb/>יגאלנו ויקבצנו במהרה בימינו אמן :
 				</p>
-				</div><div type="story" xml:id="Peulat-Hatzadikim_0031" n="31"><head type="storyHead">Peulat-Hatzadikim_0031</head>
+				</div><div type="story" xml:id="Peulat-Hatzadikim_0031" n="31"><head type="storyHead">Peulat-Hatzadikim_0031</head><span ana="not-a-hasidic-story:sermon" resp="#llm-tagging">תיוגים</span>
 <p>
 					<pb facs="Peulat-Hatzadikim_0015.jpg"/><lb/>הה"ק ר׳ <persName>יצחק מ<placeName ana="bio">דראהביטש</placeName></persName> ז״ל
 				</p>
@@ -710,7 +710,7 @@
 					<lb/>לאיזה מקום אזי אני משליך לגמרי ענינים החיצונים והלבוש ואני מבקש
 					<lb/>רק הפנימיות
 				</p>
-				</div><div type="story" xml:id="Peulat-Hatzadikim_0032" n="32"><head type="storyHead">Peulat-Hatzadikim_0032</head>
+				</div><div type="story" xml:id="Peulat-Hatzadikim_0032" n="32"><head type="storyHead">Peulat-Hatzadikim_0032</head><span ana="experience:visions; practice:halakhah; social:conflict; spaces:rabbinical_court; supernatural:communicating_with_the_invisible; supernatural:miracle; supernatural:perception; times:holidays; ethics-and-emotions:humility; experience:revelation; social:competition; social:relations_with_non_hasidim" resp="#llm-tagging">תיוגים</span>
 <p>
 					<lb/>הה"ג ר׳ <persName>יצחק הלרי</persName> איש <persName>הורוויץ</persName> ז"ל אבד״ק <orgName>אה״ו</orgName>.
 				</p>
@@ -733,7 +733,7 @@
 					<lb/>חשיבות לאיש ריבו במופת גדול וסוף דבר שהוכרחו שניהם לעקור
 					<lb/>דירתם משם ומנוחת הרה״ק ר׳ <persName>איציקל</persName> זצ״ל ב<placeName ref="#H-LOC_250">הארחוב</placeName> :
 				</p>
-				</div><div type="story" xml:id="Peulat-Hatzadikim_0033" n="33"><head type="storyHead">Peulat-Hatzadikim_0033</head>
+				</div><div type="story" xml:id="Peulat-Hatzadikim_0033" n="33"><head type="storyHead">Peulat-Hatzadikim_0033</head><span ana="not-a-hasidic-story:sermon" resp="#llm-tagging">תיוגים</span>
 <p>
 					<pb facs="Peulat-Hatzadikim_0016.jpg"/><lb/>הה"ק ר׳ <persName>יהודא צבי</persName> ז״ל <placeName>מראזלא</placeName>
 				</p>
@@ -747,7 +747,7 @@
 					<lb/>נגדי תמיד אזי ה<name type="misc">קב</name>״ה שובחם ולהיפוך אם האדם שובחם ואין משים על
 					<lb/>לבו אזי ה<name type="misc">קב</name>״ה זוברם:
 				</p>
-				</div><div type="story" xml:id="Peulat-Hatzadikim_0034" n="34"><head type="storyHead">Peulat-Hatzadikim_0034</head>
+				</div><div type="story" xml:id="Peulat-Hatzadikim_0034" n="34"><head type="storyHead">Peulat-Hatzadikim_0034</head><span ana="ethics-and-emotions:charity; ethics-and-emotions:humility; practice:pidyon_nefesh; practice:reception_of_hasidim; practice:sermon; folkloristics:story_type_virtues; not-a-hasidic-story:sermon; practice:torat_ha_tsaddik" resp="#llm-tagging">תיוגים</span>
 <p>
 					<lb/>פ״א נתן לו חסיד א׳ קוויטיל פ״ג בנהוג אמר לו הה״ק אתה נותן לי
 					<lb/>בעת קוויטיל עם פ״ג בחשבך שאני גיטער יוד מה אעשה בעלמא
@@ -766,7 +766,7 @@
 					<lb/>והנותי וכו׳ אע״פ שאינם הגונים וסיים הה״ק ז״ל ובהיום שאתה נותן לי
 					<lb/>פ״ג שאני באמת איני הגון הנה מהראוי שהוושע מהיבל וחנותי ובו׳ בנ״ל:
 				</p>
-				</div><div type="story" xml:id="Peulat-Hatzadikim_0035" n="35"><head type="storyHead">Peulat-Hatzadikim_0035</head>
+				</div><div type="story" xml:id="Peulat-Hatzadikim_0035" n="35"><head type="storyHead">Peulat-Hatzadikim_0035</head><span ana="characters-and-roles:the_family_of_the_tsaddik; practice:storytelling; supernatural:communicating_with_the_invisible; times:death; times:holidays; times:shabbat; ethics-and-emotions:joy; ethics-and-emotions:sadness; practice:sermon; social:retrospective_recognition; women:catalyst_character" resp="#llm-tagging">תיוגים</span>
 <p>
 					<lb/>בעת שהיתה בתו הצדיקת מ׳ <persName>הינדא</persName> שוכבה על ערשה וקודם פטירתה
 					<lb/>שאל כמעט בכל רגע על מעמדה ומצבה ובשבת האחרון למחלתה
@@ -798,14 +798,14 @@
 					<lb/>לנו כלך מדרך זה כי הוא ענין מסוכן ואח״כ פתח הרב לומר תורה
 					<lb/>ע״פ ואורח צדיקים כאור נוגה :
 				</p>
-				</div><div type="story" xml:id="Peulat-Hatzadikim_0036" n="36"><head type="storyHead">Peulat-Hatzadikim_0036</head>
+				</div><div type="story" xml:id="Peulat-Hatzadikim_0036" n="36"><head type="storyHead">Peulat-Hatzadikim_0036</head><span ana="not-a-hasidic-story:sermon" resp="#llm-tagging">תיוגים</span>
 <p>
 					<lb/>שאל אותו הגאון ר׳ <persName>ענזיל מ<placeName ana="bio" ref="#H-LOC_723">סטריא</placeName></persName> ז״ל ואמר לו כמדומה לי אשר
 					<lb/>הנהגת רעבישקייט להיות גיטער יוד הוא תאוה כמו כל התאוות
 					<lb/>והשיבו הה״ק אמת הדבר אמנם לזה התאוה אין ביכול להגיע עד
 					<lb/>שמשברין מקודם כל התאוות שבעולם ואז יוכל להשיג תאוה זו :
 				</p>
-				</div><div type="story" xml:id="Peulat-Hatzadikim_0037" n="37"><head type="storyHead">Peulat-Hatzadikim_0037</head>
+				</div><div type="story" xml:id="Peulat-Hatzadikim_0037" n="37"><head type="storyHead">Peulat-Hatzadikim_0037</head><span ana="characters-and-roles:the_family_of_the_tsaddik; ethics-and-emotions:charity; ethics-and-emotions:humility; ethics-and-emotions:virtues; practice:sermon; practice:torat_ha_tsaddik; folkloristics:story_type_virtues; not-a-hasidic-story:sermon; social:conflict; social:marital_relationship; women:minor_character" resp="#llm-tagging">תיוגים</span>
 <p>
 					<lb/>פ״א הוכיחה אותו הרבנות על אשר פזר נתן לשונאיו ולאנשי ריבו ושאלה
 					<lb/>ממנו הלא ידעתיך לאיש מופת ולמה לא תעניש אנשי ריבך ולא
@@ -823,7 +823,7 @@
 					<lb/>נגדם הנה הוא מקיים העולם ומלואה ושוב מגיע לו מהעולם מעות מהדין
 					<lb/>ע"ז שמע לקולי יותר טוב לשתוק ולסבול לשונאינו ורבנו ונשאר בפרנסתנו :
 				</p>
-				</div><div type="story" xml:id="Peulat-Hatzadikim_0038" n="38"><head type="storyHead">Peulat-Hatzadikim_0038</head>
+				</div><div type="story" xml:id="Peulat-Hatzadikim_0038" n="38"><head type="storyHead">Peulat-Hatzadikim_0038</head><span ana="folkloristics:story_type_death_of_the_tsaddik; practice:study; times:death" resp="#llm-tagging">תיוגים</span>
 <p>
 					<lb/>טרם פטירתו דרש להגיש אליו כתביו חד״ת הוא ספר עמוד התורה ודעת
 					<lb/>קדושים ויתבונן בהם והתחיל להתנצל כי איננו מניח בן זכר ואמר
@@ -831,7 +831,7 @@
 					<lb/>אומר כי מלאך כתב זאת תאמינו לי כי אני בעצמי צריך ליגע כמה
 					<lb/>פעמים להבין דברי מה שכוונתי אז בעת כתיבתי:
 				</p>
-				</div><div type="story" xml:id="Peulat-Hatzadikim_0039" n="39"><head type="storyHead">Peulat-Hatzadikim_0039</head>
+				</div><div type="story" xml:id="Peulat-Hatzadikim_0039" n="39"><head type="storyHead">Peulat-Hatzadikim_0039</head><span ana="not-a-hasidic-story:sermon" resp="#llm-tagging">תיוגים</span>
 <p>
 					<pb facs="Peulat-Hatzadikim_0018.jpg"/><lb/>הה"ק ר׳ <persName>ישראל מ<placeName ana="bio" ref="#H-LOC_26">ריזין</placeName></persName> ז״ל
 				</p>
@@ -840,7 +840,7 @@
 					<lb/>והיה אלא שמחה והכוונה והיה אם שכוח פי׳ אם תשכח השמחה
 					<lb/>אז תשכח את ד׳ אלקיך:
 				</p>
-				</div><div type="story" xml:id="Peulat-Hatzadikim_0040" n="40"><head type="storyHead">Peulat-Hatzadikim_0040</head>
+				</div><div type="story" xml:id="Peulat-Hatzadikim_0040" n="40"><head type="storyHead">Peulat-Hatzadikim_0040</head><span ana="not-a-hasidic-story:sermon" resp="#llm-tagging">תיוגים</span>
 <p>
 					<lb/>אמר פ״א בזה״ל מיר געפינען נאר נישט מסטרא דקדושא אז איין יוד
 					<lb/>זאל קאנען דינן השי"ת מתוך הדחק דאם איז נאר מסטרא אחרא
@@ -849,21 +849,21 @@
 					<lb/>בעיר <placeName>סאדיגערא</placeName> הוסיף והביא המקרא לבן קרא לו <name type="misc">יגר סהדותא</name> לשון
 					<lb/>יגר בחינת יראה וצמצום אבל <persName>יעקב</persName> קרא לו <persName>גלעד</persName> הוא לשון גילה :
 				</p>
-				</div><div type="story" xml:id="Peulat-Hatzadikim_0041" n="41"><head type="storyHead">Peulat-Hatzadikim_0041</head>
+				</div><div type="story" xml:id="Peulat-Hatzadikim_0041" n="41"><head type="storyHead">Peulat-Hatzadikim_0041</head><span ana="not-a-hasidic-story:sermon" resp="#llm-tagging">תיוגים</span>
 <p>
 					<lb/>אמר פ״א ב<date>שושן פורים</date> כשישב על הסעודה בזה״ל זיצען יודען אין
 					<lb/>מיינען זייא זענין יודין אין דארפין תשובה טאהן נעביך איבער
 					<lb/>דעם השיב ימינו אחור כדי נפשות מישראל ואלין זיך געביך קענען
 					<lb/>ארוים ראטיווען :
 				</p>
-				</div><div type="story" xml:id="Peulat-Hatzadikim_0042" n="42"><head type="storyHead">Peulat-Hatzadikim_0042</head>
+				</div><div type="story" xml:id="Peulat-Hatzadikim_0042" n="42"><head type="storyHead">Peulat-Hatzadikim_0042</head><span ana="not-a-hasidic-story:sermon" resp="#llm-tagging">תיוגים</span>
 <p>
 					<lb/>אמר בשם <persName>הבעש״ט</persName> פי׳ הפסוק מכלכל חיים כחסד מחי׳ מתים ברחמים
 					<lb/>רבים כי הצדיקים נקראים חיים והרשעים הם נקראים מתים וחסד
 					<lb/>הוא לשון חרפה כמו כי חסד הוא לנו וזה פירושו מכלכל חיים הצדיקים
 					<lb/>בחסד ובחרפה מחי' מתים הם הרשעים ברחמים רבים :
 				</p>
-				</div><div type="story" xml:id="Peulat-Hatzadikim_0043" n="43"><head type="storyHead">Peulat-Hatzadikim_0043</head>
+				</div><div type="story" xml:id="Peulat-Hatzadikim_0043" n="43"><head type="storyHead">Peulat-Hatzadikim_0043</head><span ana="folkloristics:story_type_virtues; practice:sermon; social:inter_hasidic; times:eschatology" resp="#llm-tagging">תיוגים</span>
 <p>
 					<lb/>הה״ק מ<placeName ref="#H-LOC_133">אפטא</placeName> ז"ל עשה כבוד גדול להה״ק מ<placeName ref="#H-LOC_26">ריזין</placeName> בעודנו צעיר לימים
 					<lb/>והי׳ לפלא בעיני כל הרואים ויאמר להם הה״ק מ<placeName ref="#H-LOC_133">אפטא</placeName> איתא
@@ -872,7 +872,7 @@
 					<lb/>אומר להן מה לכם תמהין לא זכו אלו אלא מפני ששמעו לי בחייהן
 					<lb/>וכו׳ עיי״ש ואחז בזקנו ואמר נשבע אני בזקני כי המדרש כוון עליו:
 				</p>
-				</div><div type="story" xml:id="Peulat-Hatzadikim_0044" n="44"><head type="storyHead">Peulat-Hatzadikim_0044</head>
+				</div><div type="story" xml:id="Peulat-Hatzadikim_0044" n="44"><head type="storyHead">Peulat-Hatzadikim_0044</head><span ana="ethics-and-emotions:fear; practice:prayer; social:relations_with_the_authorities; supernatural:miracle; folkloristics:story_type_protection; practice:devekut; practice:drinking_alcohol; practice:protection; supernatural:perception; times:historical_event" resp="#llm-tagging">תיוגים</span>
 <p>
 					<lb/>בעת התגולל עליו בלבולים הידועים ונכלא במאסר תחת ממשלת <placeName ref="#H-LOC_202">רוסיא</placeName>
 					<lb/>ישב שמה ירחים זה כמה. למרות רוח כל החסידים ולאדיב נפש
@@ -930,7 +930,7 @@
 					<lb/>והמעשה הלזה הקשבתי מפי איש נאמן אשר סיפר אותה בשם המשמש
 					<lb/>אשר באזניו ששמע מאתו. והיא העומדת לנם ופלא :
 				</p>
-				</div><div type="story" xml:id="Peulat-Hatzadikim_0045" n="45"><head type="storyHead">Peulat-Hatzadikim_0045</head>
+				</div><div type="story" xml:id="Peulat-Hatzadikim_0045" n="45"><head type="storyHead">Peulat-Hatzadikim_0045</head><span ana="practice:prayer; practice:tefillin; social:inter_hasidic_master_disciple_relationship; times:holidays; ethics-and-emotions:punishment; practice:devekut; practice:storytelling" resp="#llm-tagging">תיוגים</span>
 <p>
 					<pb facs="Peulat-Hatzadikim_0020.jpg"/><lb/>הה"ק ר׳ <persName>ליזר</persName> בהגה"ק <persName>ר״י חריף</persName> ז"ל מ<placeName>אהביטש</placeName>
 				</p>
@@ -941,7 +941,7 @@
 					<lb/>לא הסיח עוד דעתו מהתפילין וברבות הימים בשמחת תורה סיפר הרב
 					<lb/>ז״ל למיודעיו את הענין ומיום ההוא אבד מדרגתו :
 				</p>
-				</div><div type="story" xml:id="Peulat-Hatzadikim_0046" n="46"><head type="storyHead">Peulat-Hatzadikim_0046</head>
+				</div><div type="story" xml:id="Peulat-Hatzadikim_0046" n="46"><head type="storyHead">Peulat-Hatzadikim_0046</head><span ana="ethics-and-emotions:fear; folkloristics:story_type_protection; folkloristics:story_type_revelation; practice:devekut; practice:protection; social:inter_hasidic_master_disciple_relationship; social:relations_with_the_authorities; social:retrospective_recognition; supernatural:miracle; supernatural:perception; times:shabbat; ethics-and-emotions:awe; experience:devekut; spaces:institutions_hassidic_court" resp="#llm-tagging">תיוגים</span>
 <p>
 					<lb/>מהה״ק ר׳ <persName>מנחם מענדיל מרימאנוב</persName> זצ״ל.
 				</p>
@@ -981,7 +981,7 @@
 				<p>
 					<pb facs="Peulat-Hatzadikim_0021.jpg"/><lb/>מהה"ק ר׳ <persName>מנחם מענדיל מרימאנוב</persName> זצ״ל
 				</p>
-				</div><div type="story" xml:id="Peulat-Hatzadikim_0047" n="47"><head type="storyHead">Peulat-Hatzadikim_0047</head>
+				</div><div type="story" xml:id="Peulat-Hatzadikim_0047" n="47"><head type="storyHead">Peulat-Hatzadikim_0047</head><span ana="practice:healing_of_the_soul; practice:prayer; practice:study; social:converts_and_conversion; social:inter_hasidic; ethics-and-emotions:repentance; social:relations_with_sinners; social:relations_with_the_authorities; social:retrospective_recognition; supernatural:perception; times:shabbat" resp="#llm-tagging">תיוגים</span>
 <p>
 					<lb/>פ״א שלח לו עמיתו ורעו הה״ק מ<placeName ref="#H-LOC_56">לובלין</placeName> ז״ל פ״ש ובקשהו להודיעהו
 					<lb/>אנה הי׳ בשבת פלוני כי חפש אחריו בכל המקומות ולא מצאו
@@ -993,7 +993,7 @@
 					<persName><lb/>מהר״מ</persName> וצוה שילמדו עמו בסה״ק <name type="work">חרדים</name> ואמר כי הלומד ס׳ <name type="work">חרדים</name>
 					<lb/>מסוגל להחזיק הדת וכן עשה ושב לקדמותו:
 				</p>
-				</div><div type="story" xml:id="Peulat-Hatzadikim_0048" n="48"><head type="storyHead">Peulat-Hatzadikim_0048</head>
+				</div><div type="story" xml:id="Peulat-Hatzadikim_0048" n="48"><head type="storyHead">Peulat-Hatzadikim_0048</head><span ana="not-a-hasidic-story:halakhah" resp="#llm-tagging">תיוגים</span>
 <p>
 					<lb/>פ״א אמר בשאדם נותן לחברו איזה משקה לשתות צריך שישתה בעצמו
 					<lb/>מקודם והביא רמז לזה מן הגמ׳ ברבות דל״ה ר׳ <persName>לוי</persName> רמי כתיב
@@ -1014,7 +1014,7 @@
 					<lb/>היותר גבוה וזה מרומז בדברי הגמרא סלקוה״ו לשומר הפתח מלשון
 					<lb/>לגבוה סלקא:
 				</p>
-				</div><div type="story" xml:id="Peulat-Hatzadikim_0049" n="49"><head type="storyHead">Peulat-Hatzadikim_0049</head>
+				</div><div type="story" xml:id="Peulat-Hatzadikim_0049" n="49"><head type="storyHead">Peulat-Hatzadikim_0049</head><span ana="ethics-and-emotions:pride; practice:asceticism; practice:fasting; practice:joke; social:retrospective_recognition; supernatural:perception" resp="#llm-tagging">תיוגים</span>
 <p>
 					<lb/>הה"ק ר׳ <persName>נפתלי זצ״ל</persName> <persName>אבד״ק ראפשיץ</persName>.
 				</p>
@@ -1034,7 +1034,7 @@
 					<persName><pb facs="Peulat-Hatzadikim_0022.jpg"/><lb/>אתלי</persName> זצ"ל <persName>אבד״ק ראפשיץ</persName>
 					<lb/>הה"ק ר׳ נא
 				</p>
-				</div><div type="story" xml:id="Peulat-Hatzadikim_0050" n="50"><head type="storyHead">Peulat-Hatzadikim_0050</head>
+				</div><div type="story" xml:id="Peulat-Hatzadikim_0050" n="50"><head type="storyHead">Peulat-Hatzadikim_0050</head><span ana="practice:halakhah; practice:healing; practice:reception_of_hasidim; practice:torat_ha_tsaddik; social:inter_hasidic_master_disciple_relationship" resp="#llm-tagging">תיוגים</span>
 <p>
 					<lb/>איש א׳ בא לפניו בקובלנא שלומד ואין עולה בידו וע״כ בדעתו לעזוב
 					<lb/>לימודו. השיבו הרב ז״ל בכל <name type="work">תנ״ך</name> לא מצינו שיהא האדם מצווה
@@ -1048,18 +1048,18 @@
 					<lb/>שאלה על עוף שהי׳ בו כזה והכשרתי הרי שיכולים לחיות בחולי זה
 					<lb/>וא״כ כי בודאי יהי׳ לכם רפואה :
 				</p>
-				</div><div type="story" xml:id="Peulat-Hatzadikim_0051" n="51"><head type="storyHead">Peulat-Hatzadikim_0051</head>
+				</div><div type="story" xml:id="Peulat-Hatzadikim_0051" n="51"><head type="storyHead">Peulat-Hatzadikim_0051</head><span ana="not-a-hasidic-story:sermon" resp="#llm-tagging">תיוגים</span>
 <p>
 					<lb/>הוא הי׳ אומר אשרי מי שבא לכאן ולא יהי׳ בבטנו בשר. גם צוה לומר
 					<lb/>בשעת אכילה המשנה <name type="work">רובחים פ״ד</name> לשם ששה דברים הזבת מזבח
 					<lb/>וכו׳ השלחן הוא במקום מזבח כנודע :
 				</p>
-				</div><div type="story" xml:id="Peulat-Hatzadikim_0052" n="52"><head type="storyHead">Peulat-Hatzadikim_0052</head>
+				</div><div type="story" xml:id="Peulat-Hatzadikim_0052" n="52"><head type="storyHead">Peulat-Hatzadikim_0052</head><span ana="not-a-hasidic-story:sermon" resp="#llm-tagging">תיוגים</span>
 <p>
 					<lb/>אמר הה״ק כי חותם אמת נרשם בר״ת מתה ״תמחה ״את ונודע כי
 					<lb/>הגאולה תלוי במחיית עמלק :
 				</p>
-				</div><div type="story" xml:id="Peulat-Hatzadikim_0053" n="53"><head type="storyHead">Peulat-Hatzadikim_0053</head>
+				</div><div type="story" xml:id="Peulat-Hatzadikim_0053" n="53"><head type="storyHead">Peulat-Hatzadikim_0053</head><span ana="not-a-hasidic-story:sermon" resp="#llm-tagging">תיוגים</span>
 <p>
 					<lb/>חתנו הקדוש ר״ר <persName>אשריל</persName> ז״ל אמר פי׳ התפלה טובים מאורות שברא
 					<lb/>אלקינו יצרם בדעת בבינה ובחשבל כח וגבורה נתן בהם להיות
@@ -1074,7 +1074,7 @@
 					<lb/>וע״פ מה ע״י התורה והו בקרב תב״ל היינו ע״י התורה שהיא התבלין
 					<lb/>יובל למשול ביצה״ר :
 				</p>
-				</div><div type="story" xml:id="Peulat-Hatzadikim_0054" n="54"><head type="storyHead">Peulat-Hatzadikim_0054</head>
+				</div><div type="story" xml:id="Peulat-Hatzadikim_0054" n="54"><head type="storyHead">Peulat-Hatzadikim_0054</head><span ana="not-a-hasidic-story:sermon" resp="#llm-tagging">תיוגים</span>
 <p>
 					<lb/>הה״ק <persName>מהר״נ מ<placeName ana="bio" ref="#H-LOC_49">ראפשיץ</placeName></persName> אמר פי׳ ה<name type="work">מתני׳</name> דמ״ש פ״ג מ״ח הלשבות בנוית
 					<lb/>בקודש ופתוחות לחול. תוכן חול. וגנותיהן קודש. בנויות בחול
@@ -1091,14 +1091,14 @@
 				<p>
 					<pb facs="Peulat-Hatzadikim_0023.jpg"/><lb/>הה"ק ר׳ <persName>צבי הירש מ<placeName ana="bio" ref="#H-LOC_92">זידיטשוב</placeName></persName> ז״ל
 				</p>
-				</div><div type="story" xml:id="Peulat-Hatzadikim_0055" n="55"><head type="storyHead">Peulat-Hatzadikim_0055</head>
+				</div><div type="story" xml:id="Peulat-Hatzadikim_0055" n="55"><head type="storyHead">Peulat-Hatzadikim_0055</head><span ana="characters-and-roles:the_family_of_the_tsaddik; practice:pilgrimage_to_the_graves_of_tsaddikim; ethics-and-emotions:humility; spaces:the_land_of_israel; women:mention_only" resp="#llm-tagging">תיוגים</span>
 <p>
 					<lb/>סיפר חתנו הה״ק מ<placeName>ראזלא</placeName> מוה״ר <persName>יהודא צבי</persName> ז״ל כי בעיניו ראה כתב
 					<lb/>יד חותנו הקדוש ששלח פתקא ביד איש אחד על ציון המצויינת
 					<lb/>קודש הקדשים ה<persName>אר"י</persName> ז״ל ועל קבר התנא <persName>רשב״י</persName> ז״ל וחתם עצמו
 					<lb/>תלמידך <persName>צבי בן הינדא</persName> :
 				</p>
-				</div><div type="story" xml:id="Peulat-Hatzadikim_0056" n="56"><head type="storyHead">Peulat-Hatzadikim_0056</head>
+				</div><div type="story" xml:id="Peulat-Hatzadikim_0056" n="56"><head type="storyHead">Peulat-Hatzadikim_0056</head><span ana="practice:prayer; practice:sermon; practice:torat_ha_tsaddik; not-a-hasidic-story:sermon; social:inter_hasidic" resp="#llm-tagging">תיוגים</span>
 <p>
 					<lb/>בהיות הה״ק <persName>מהר״נ מ<placeName ana="bio">ראפשיטץ</placeName></persName> ז״ל ב<placeName ref="#H-LOC_92">זידיטשוב</placeName> התפלל א׳ לפני התיבה
 					<lb/>אשר לא הוטב בעיני הה״ק מ<placeName>ראפשיטץ</placeName> ואמר לו <persName>מהר״צ</persName> ששמע
@@ -1117,7 +1117,7 @@
 					<lb/>השמים ליתן לו ששים גבורים היינו תלמידים וכן אמר על עצמו שגם
 					<lb/>הוא לא רצה לירד לזה העולם עד שהבטיחו לו על כך
 				</p>
-				</div><div type="story" xml:id="Peulat-Hatzadikim_0057" n="57"><head type="storyHead">Peulat-Hatzadikim_0057</head>
+				</div><div type="story" xml:id="Peulat-Hatzadikim_0057" n="57"><head type="storyHead">Peulat-Hatzadikim_0057</head><span ana="not-a-hasidic-story:halakhah" resp="#llm-tagging">תיוגים</span>
 <p>
 					<lb/>דבר בקדשו אשר בפסוק כף אחת עשרה זהב מלאה קטורת שם
 					<lb/>מרומזים כל הלכות חנוכה כ״ף ר״ת פחות בף היינו שמצותו
@@ -1131,7 +1131,7 @@
 					<lb/>עלינו להשפיע לנו שפע ברכות והצלחה עד אין קץ ולהחיש
 					<lb/>לנו ישועתנו ופרות נפשנו במהרה בימינו בקרוב אמן:
 				</p>
-				</div><div type="story" xml:id="Peulat-Hatzadikim_0058" n="58"><head type="storyHead">Peulat-Hatzadikim_0058</head>
+				</div><div type="story" xml:id="Peulat-Hatzadikim_0058" n="58"><head type="storyHead">Peulat-Hatzadikim_0058</head><span ana="characters-and-roles:hidden_righteous; folkloristics:story_type_protection; practice:fasting; practice:prayer; practice:protection; social:relations_with_non_jews; supernatural:prognostication; ethics-and-emotions:fear; ethics-and-emotions:humility; folkloristics:story_type_prognostication; not-a-hasidic-story:hagiography; social:relations_with_the_authorities; supernatural:miracle; times:death" resp="#llm-tagging">תיוגים</span>
 <p>
 					<pb facs="Peulat-Hatzadikim_0024.jpg"/><lb/>מעשה מא' מן הל"ו צדיקים
 				</p>
@@ -1259,7 +1259,7 @@
 					<lb/>לא היה עוד ולא נתפרסם גם מיום ההוא והלאה לאיש פלאי אך הגיד כי
 					<lb/>בכח כל ישראל כי בטחו בו היה לאל ידו להושיע אותם:
 				</p>
-				</div><div type="story" xml:id="Peulat-Hatzadikim_0059" n="59"><head type="storyHead">Peulat-Hatzadikim_0059</head>
+				</div><div type="story" xml:id="Peulat-Hatzadikim_0059" n="59"><head type="storyHead">Peulat-Hatzadikim_0059</head><span ana="ethics-and-emotions:fear; ethics-and-emotions:lying; practice:fasting; practice:recitation_of_psalms; social:conflict; social:relations_with_non_jews; social:relations_with_the_authorities; women:major_character; ethics-and-emotions:repentance; practice:prayer; social:retrospective_recognition; spaces:beth_midrash" resp="#llm-tagging">תיוגים</span>
 <p>
 					<pb facs="Peulat-Hatzadikim_0027.jpg"/><lb/>מעשה מהחייט
 				</p>

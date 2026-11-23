@@ -1,0 +1,93 @@
+{
+ "unit": {
+  "kind": "hasidic_story",
+  "why": "A short anecdote: a man's unstoppable nosebleed is cured with strong wine after the doctors failed, and the holy rabbi then shows the cure hinted in a Torah verse; the narrative is wrapped in an exegetical frame.",
+  "boundary_note": ""
+ },
+ "stories": [
+  {
+   "k": 1,
+   "start_quote": "ידוע הרמז שאמר הרה״ק באדם שיצא",
+   "end_quote": "לבקש מהש״י רפואות. ודפח\"ח",
+   "hasidic": true,
+   "summary_en": "A dying man with an unstoppable nosebleed is cured when a passer-by makes him drink strong wine; the holy rabbi shows the cure is hinted in 'ובדם ענבים סותה' and teaches that every remedy is hinted in the Torah.",
+   "tags": [
+    {
+     "tag": "practice:healing",
+     "scope": "span",
+     "quotes": [
+      "ותיכף בשתיית היין נתרפא ונפסק הדם",
+      "ונלאו כל הרופאים להמציא לו רפואה"
+     ],
+     "confidence": 3,
+     "why": "Healing of the sick after the doctors failed.",
+     "quotes_failed": false
+    },
+    {
+     "tag": "practice:drinking_alcohol",
+     "scope": "span",
+     "quotes": [
+      "ולקח מידה אחת יין טוב וחזק",
+      "וצוה אל החולה לשתותו בלי הפסק"
+     ],
+     "confidence": 3,
+     "why": "Drinking wine is the cure.",
+     "quotes_failed": false
+    },
+    {
+     "tag": "practice:sermon",
+     "scope": "span",
+     "quotes": [
+      "והרה״ק הראה אז שרפואה זו נרמז בתורה",
+      "שבהתורה נרמז כל מיני רפואה שבעולם וסגולות"
+     ],
+     "confidence": 3,
+     "why": "The tzaddik gives an exegesis of the verse.",
+     "quotes_failed": false
+    },
+    {
+     "tag": "not-a-hasidic-story:sermon",
+     "scope": "story",
+     "quotes": [],
+     "confidence": 2,
+     "why": "The story is framed as a remez, and the point is the exegetical teaching.",
+     "quotes_failed": false
+    },
+    {
+     "tag": "supernatural:miracle",
+     "scope": "span",
+     "quotes": [
+      "וישתוממו הרופאים"
+     ],
+     "confidence": 1,
+     "why": "A sudden cure that astonished the doctors, though it is not clearly supernatural.",
+     "quotes_failed": false
+    },
+    {
+     "tag": "times:death",
+     "scope": "span",
+     "quotes": [
+      "והי' החולה ההוא מצוה מחמת מיתה"
+     ],
+     "confidence": 1,
+     "why": "The man was near death, but he did not die.",
+     "quotes_failed": false
+    }
+   ],
+   "missing_concepts": [
+    "the Torah as a source of medical remedies",
+    "doctors and medicine"
+   ],
+   "start_quote_found": true,
+   "end_quote_found": true
+  }
+ ],
+ "check": {
+  "non_vocab_tags": [],
+  "quotes": 8,
+  "quotes_not_found": 0
+ },
+ "id": "Eser-Orot_0044",
+ "chars": 526,
+ "seconds": 14
+}

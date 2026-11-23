@@ -1,0 +1,195 @@
+{
+ "unit": {
+  "kind": "hasidic_story",
+  "why": "A single narrative about R. Simcha Bunem of Peshischa who gives his disciple R. Menachem Mendel (of Kotzk) spiritual 'levels', shown by a matchmaking episode in which the Kotzker's warning comes true.",
+  "boundary_note": ""
+ },
+ "stories": [
+  {
+   "k": 1,
+   "start_quote": "עוד שמעתי שהיה אחד מגדולי תלמידיו",
+   "end_quote": "אמרתי לך שלא תעשה את השידוך",
+   "hasidic": true,
+   "summary_en": "A disciple can see what R. Simcha Bunem is doing at home. R. Simcha Bunem decides to give that disciple's spiritual 'levels' to Menachem Mendel and Menachem Mendel's piety to the disciple. Menachem Mendel then warns a melamed against a rich match for his son, though the rebbe had approved it. The melamed goes ahead out of greed. After the rebbe's death the son reads secular books and is corrupted, and the melamed loses his money. In Kotzk the Kotzker explains that each tzaddik sees only as far as his own lifetime.",
+   "tags": [
+    {
+     "tag": "supernatural:perception",
+     "scope": "span",
+     "quotes": [
+      "איך שיודע מה אביו הרה״ק עושה כעת בביתו",
+      "אבל אני ראיתי יותר ע״כ אמרתי לך"
+     ],
+     "confidence": 3,
+     "why": "the disciple sees at a distance; the Kotzker foresees the outcome",
+     "quotes_failed": false
+    },
+    {
+     "tag": "supernatural:prognostication",
+     "scope": "span",
+     "quotes": [
+      "אני אומר לך שאל תעשה השידוך עם הגביר הנ״ל"
+     ],
+     "confidence": 3,
+     "why": "the Kotzker's warning comes true",
+     "quotes_failed": false
+    },
+    {
+     "tag": "folkloristics:story_type_prognostication",
+     "scope": "story",
+     "quotes": [],
+     "confidence": 2,
+     "why": "the main arc is a warning that is borne out",
+     "quotes_failed": false
+    },
+    {
+     "tag": "characters-and-roles:the_family_of_the_tsaddik",
+     "scope": "span",
+     "quotes": [
+      "סיפר לבנו הרה״ק ר׳ אברהם משה"
+     ],
+     "confidence": 3,
+     "why": "the rebbe's son acts in the story",
+     "quotes_failed": false
+    },
+    {
+     "tag": "social:inter_hasidic_master_disciple_relationship",
+     "scope": "span",
+     "quotes": [
+      "אני אחליף לתלמידי מנחם מענדיל אתן המדרגות"
+     ],
+     "confidence": 3,
+     "why": "the master grants his disciple spiritual levels",
+     "quotes_failed": false
+    },
+    {
+     "tag": "social:inter_hasidic_inheritance_of_leadership",
+     "scope": "span",
+     "quotes": [
+      "ותלמידו הה״ק מילא את מקומו"
+     ],
+     "confidence": 2,
+     "why": "the disciple succeeds the master",
+     "quotes_failed": false
+    },
+    {
+     "tag": "social:marriage",
+     "scope": "span",
+     "quotes": [
+      "ומשדכים לו לו שדוך עם גביר אחד",
+      "ועשה השידוך הנ״ל"
+     ],
+     "confidence": 3,
+     "why": "the plot turns on a match",
+     "quotes_failed": false
+    },
+    {
+     "tag": "ethics-and-emotions:lust",
+     "scope": "span",
+     "quotes": [
+      "אבל תאות הממון נתגברה עליו"
+     ],
+     "confidence": 2,
+     "why": "greed for money drives the decision",
+     "quotes_failed": false
+    },
+    {
+     "tag": "social:disobedience",
+     "scope": "span",
+     "quotes": [
+      "הלא אמרתי לך שלא תעשה השידוך"
+     ],
+     "confidence": 3,
+     "why": "the melamed ignores the Kotzker's warning",
+     "quotes_failed": false
+    },
+    {
+     "tag": "ethics-and-emotions:punishment",
+     "scope": "span",
+     "quotes": [
+      "התחיל לירד מטה מטה עד שנעשה עני כמקדם"
+     ],
+     "confidence": 2,
+     "why": "loss of wealth as the consequence of the choice",
+     "quotes_failed": false
+    },
+    {
+     "tag": "social:relations_with_sinners",
+     "scope": "span",
+     "quotes": [
+      "שאביו של הכלה הוא רשע",
+      "הסתכל בספרים החיצונים ונתקלקל מאוד"
+     ],
+     "confidence": 2,
+     "why": "a wicked father-in-law; the son is corrupted",
+     "quotes_failed": false
+    },
+    {
+     "tag": "practice:travel_to_the_tsaddik",
+     "scope": "span",
+     "quotes": [
+      "שבא מלמד א׳ לפרשיסחא אל הרה״ק",
+      "ונסע לקאצק וקיבל לפני הרה״ק"
+     ],
+     "confidence": 3,
+     "why": "the melamed travels to both tzaddikim",
+     "quotes_failed": false
+    },
+    {
+     "tag": "practice:reception_of_hasidim",
+     "scope": "span",
+     "quotes": [
+      "ונסע לקאצק וקיבל לפני הרה״ק"
+     ],
+     "confidence": 2,
+     "why": "a visitor brings his request to the tzaddik",
+     "quotes_failed": false
+    },
+    {
+     "tag": "practice:torat_ha_tsaddik",
+     "scope": "span",
+     "quotes": [
+      "שכל צדיק רואה זמן שהוא חי"
+     ],
+     "confidence": 2,
+     "why": "a doctrine on the reach of a tzaddik's vision",
+     "quotes_failed": false
+    },
+    {
+     "tag": "times:death",
+     "scope": "span",
+     "quotes": [
+      "נפטר הרה״ק ר׳ שמחה בונה הנ״ל"
+     ],
+     "confidence": 2,
+     "why": "the rebbe's death is the turning point",
+     "quotes_failed": false
+    },
+    {
+     "tag": "social:retrospective_recognition",
+     "scope": "span",
+     "quotes": [
+      "ע״כ בשעה שהי׳ חי לא נתקלקל"
+     ],
+     "confidence": 1,
+     "why": "the meaning of the earlier approval is explained after the fact",
+     "quotes_failed": false
+    }
+   ],
+   "missing_concepts": [
+    "transfer or exchange of spiritual qualities between disciples",
+    "corruption through secular (Haskalah) books",
+    "limits of a tzaddik's foresight, bounded by his lifetime"
+   ],
+   "start_quote_found": true,
+   "end_quote_found": true
+  }
+ ],
+ "check": {
+  "non_vocab_tags": [],
+  "quotes": 19,
+  "quotes_not_found": 0
+ },
+ "id": "Likutim-Hadashim_0045",
+ "chars": 1729,
+ "seconds": 24
+}

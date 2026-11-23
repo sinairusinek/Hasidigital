@@ -1,0 +1,94 @@
+{
+ "unit": {
+  "kind": "hasidic_story",
+  "why": "A short memorate, passed down a named chain, in which the Maggid of Kozienice tells his son about his ascetic rolling in snow mixed with sharp comb fragments.",
+  "boundary_note": ""
+ },
+ "stories": [
+  {
+   "k": 1,
+   "start_quote": "עו״ש וז״ל כתב אלי ידידי הגאון",
+   "end_quote": "עד שהי' הדם שותת מבשרי עכ״ל",
+   "hasidic": true,
+   "summary_en": "Riding with his son past a mountain near Ostrowiec, the Maggid of Kozienice tells him that he used to roll in snow there that was mixed with sharp bits cut from a comb-maker's combs, until his flesh bled.",
+   "tags": [
+    {
+     "tag": "practice:asceticism",
+     "scope": "span",
+     "quotes": [
+      "והיה לי פה גלגול שלג טוב",
+      "הי' בשרי נדקר ע״י חתיכות אלו עד שהי' הדם שותת מבשרי"
+     ],
+     "confidence": 3,
+     "why": "self-mortification by rolling in snow full of sharp fragments",
+     "quotes_failed": false
+    },
+    {
+     "tag": "characters-and-roles:the_family_of_the_tsaddik",
+     "scope": "span",
+     "quotes": [
+      "ששמע מאביו הרה״ק מו״ה משה אליקום בריעה",
+      "כאשר נסע פ״א עם אביו הרה״מ הק׳ מקאזניץ"
+     ],
+     "confidence": 3,
+     "why": "the Maggid's son is the listener, and the grandson passes the story on",
+     "quotes_failed": false
+    },
+    {
+     "tag": "practice:storytelling",
+     "scope": "span",
+     "quotes": [
+      "שמעתי מכ\"ק אאמו״ר זצוקללה״ה שסיפר לו",
+      "אמר לו תדע בני שכאן הי' לי נסיונות גדולות"
+     ],
+     "confidence": 2,
+     "why": "the tsaddik tells his son about his past, and the story is framed by a chain of tellers",
+     "quotes_failed": false
+    },
+    {
+     "tag": "folkloristics:story_type_virtues",
+     "scope": "story",
+     "quotes": [],
+     "confidence": 2,
+     "why": "the story illustrates the Maggid's ascetic piety",
+     "quotes_failed": false
+    },
+    {
+     "tag": "practice:the_travels_of_the_tsaddik",
+     "scope": "span",
+     "quotes": [
+      "אחורי עיר אוסטראווצא ששם הר גדול"
+     ],
+     "confidence": 1,
+     "why": "the telling happens during a journey past the place",
+     "quotes_failed": false
+    },
+    {
+     "tag": "characters-and-roles:preacher",
+     "scope": "span",
+     "quotes": [
+      "אביו הרה״מ הק׳ מקאזניץ"
+     ],
+     "confidence": 1,
+     "why": "the protagonist is the Maggid (preacher) of Kozienice, although his role here is that of a tsaddik",
+     "quotes_failed": false
+    }
+   ],
+   "missing_concepts": [
+    "chain of oral transmission across generations",
+    "self-imposed trials (נסיונות) as spiritual testing",
+    "rolling in snow as a penitential practice"
+   ],
+   "start_quote_found": true,
+   "end_quote_found": true
+  }
+ ],
+ "check": {
+  "non_vocab_tags": [],
+  "quotes": 8,
+  "quotes_not_found": 0
+ },
+ "id": "Eser-Orot_0131",
+ "chars": 538,
+ "seconds": 15
+}

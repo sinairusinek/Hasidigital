@@ -1,0 +1,111 @@
+{
+ "unit": {
+  "kind": "hasidic_story",
+  "why": "An anecdote told by the Seer of Lublin: R. Shmelke asked him to tug his sleeve if his Talmud study ever broke his devekut, which he never needed to do, and once R. Shmelke caught himself first.",
+  "boundary_note": "Part of a run of source excerpts on constant devekut; the previous division ends a teaching, and the next begins an unrelated excerpt on the death of the Rema of Fano."
+ },
+ "stories": [
+  {
+   "k": 1,
+   "start_quote": "וגם סיפר שהל ובלינר זצוקל״ה בהיותו",
+   "end_quote": "בני בני הנה נזכרתי בעצמי",
+   "hasidic": true,
+   "summary_en": "R. Shmelke asked his disciple the Seer of Lublin to tug his sleeves if deep study ever broke his devekut; the Seer reports he never needed to, and once, as he was about to, R. Shmelke turned and said he had already reminded himself.",
+   "tags": [
+    {
+     "tag": "practice:devekut",
+     "scope": "span",
+     "quotes": [
+      "שאין הרהצה״ק רר״ש נפרד מדביקות ח״ו גם בעת לימודו",
+      "ושמא עי״ז יסית דעתו מהדביקות"
+     ],
+     "confidence": 3,
+     "why": "The story is about R. Shmelke's unbroken cleaving to God.",
+     "quotes_failed": false
+    },
+    {
+     "tag": "experience:devekut",
+     "scope": "span",
+     "quotes": [
+      "שאין הרהצה״ק רר״ש נפרד מדביקות ח״ו גם בעת לימודו"
+     ],
+     "confidence": 2,
+     "why": "It depicts his inner state of devekut.",
+     "quotes_failed": false
+    },
+    {
+     "tag": "practice:study",
+     "scope": "span",
+     "quotes": [
+      "שכשיעמיק הרר״ש בהלכה ותוספת",
+      "שהרר״ש העמיק מאד בלימודו"
+     ],
+     "confidence": 3,
+     "why": "Deep study of halakhah and Tosafot is the setting.",
+     "quotes_failed": false
+    },
+    {
+     "tag": "social:inter_hasidic_master_disciple_relationship",
+     "scope": "span",
+     "quotes": [
+      "ורצה לנענע בבתי ידיו כפקודת רבו",
+      "בהיותו לפני הרהצה״ק ר״ר שעמלקא זצל״ה"
+     ],
+     "confidence": 3,
+     "why": "The relationship and duty between master and disciple drive the story.",
+     "quotes_failed": false
+    },
+    {
+     "tag": "practice:storytelling",
+     "scope": "span",
+     "quotes": [
+      "וסיפר הלובלינר זצל״ה שמעולם לא נצרך"
+     ],
+     "confidence": 2,
+     "why": "The tale is framed as the Seer of Lublin's own account.",
+     "quotes_failed": false
+    },
+    {
+     "tag": "folkloristics:story_type_virtues",
+     "scope": "story",
+     "quotes": [],
+     "confidence": 2,
+     "why": "The tale illustrates R. Shmelke's spiritual virtue of constant devekut.",
+     "quotes_failed": false
+    },
+    {
+     "tag": "supernatural:perception",
+     "scope": "span",
+     "quotes": [
+      "ומתוך כך פנה אליו הרר״ש ואמר לו"
+     ],
+     "confidence": 1,
+     "why": "R. Shmelke seems to sense the disciple's unspoken intention.",
+     "quotes_failed": false
+    },
+    {
+     "tag": "not-a-hasidic-story:sermon",
+     "scope": "story",
+     "quotes": [],
+     "confidence": 1,
+     "why": "The tale is embedded in a homiletic compilation of sources on devekut.",
+     "quotes_failed": false
+    }
+   ],
+   "missing_concepts": [
+    "balancing Torah study with devekut",
+    "a disciple charged as a spiritual reminder to his master"
+   ],
+   "start_quote_found": true,
+   "end_quote_found": true
+  }
+ ],
+ "check": {
+  "non_vocab_tags": [],
+  "quotes": 9,
+  "quotes_not_found": 0
+ },
+ "id": "Derech-Haemuna_0053",
+ "chars": 490,
+ "seconds": 16
+}

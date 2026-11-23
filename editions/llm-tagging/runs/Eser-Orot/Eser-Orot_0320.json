@@ -1,0 +1,141 @@
+{
+ "unit": {
+  "kind": "hasidic_story",
+  "why": "A short anecdote: a man complains of a demon (lets) in his wine cellar, and the tzaddik diagnoses that the cause is his maidservant's sins and orders her expelled, which works.",
+  "boundary_note": ""
+ },
+ "stories": [
+  {
+   "k": 1,
+   "start_quote": "פ\"א בא לפניו איש אחד מרחוק",
+   "end_quote": "יגורש הלץ וכן הי'",
+   "hasidic": true,
+   "summary_en": "A man from afar complains to the tzaddik of a mocking evil spirit heard in his wine cellar; the tzaddik tells him to expel his maidservant, whose sins created the spirit, citing a Masorah wordplay (גרש האמה / גרש לץ), and so it happened.",
+   "tags": [
+    {
+     "tag": "characters-and-roles:demons",
+     "scope": "span",
+     "quotes": [
+      "קול משונה מן לץ אחד מהלצים מרוחות רעות"
+     ],
+     "confidence": 3,
+     "why": "an evil spirit haunts the cellar",
+     "quotes_failed": false
+    },
+    {
+     "tag": "practice:protection",
+     "scope": "span",
+     "quotes": [
+      "שע\"י שתגרש האמה יגורש הלץ וכן הי'"
+     ],
+     "confidence": 3,
+     "why": "the tzaddik rids the house of the spirit",
+     "quotes_failed": false
+    },
+    {
+     "tag": "folkloristics:story_type_protection",
+     "scope": "story",
+     "quotes": [],
+     "confidence": 2,
+     "why": "the story centres on protection from a demon",
+     "quotes_failed": false
+    },
+    {
+     "tag": "supernatural:perception",
+     "scope": "span",
+     "quotes": [
+      "תגרש מביתך המשרתת שיש לך אשר בחטאיה נעשה הלץ"
+     ],
+     "confidence": 3,
+     "why": "he knows of the maidservant's hidden sins",
+     "quotes_failed": false
+    },
+    {
+     "tag": "practice:travel_to_the_tsaddik",
+     "scope": "span",
+     "quotes": [
+      "בא לפניו איש אחד מרחוק"
+     ],
+     "confidence": 3,
+     "why": "the man travels from afar to bring his request",
+     "quotes_failed": false
+    },
+    {
+     "tag": "practice:reception_of_hasidim",
+     "scope": "span",
+     "quotes": [
+      "בא לפניו איש אחד מרחוק והתנצל לפניו"
+     ],
+     "confidence": 2,
+     "why": "the tzaddik receives a petitioner",
+     "quotes_failed": false
+    },
+    {
+     "tag": "women:catalyst_character",
+     "scope": "span",
+     "quotes": [
+      "המשרתת שיש לך אשר בחטאיה נעשה הלץ"
+     ],
+     "confidence": 3,
+     "why": "the maidservant's sins cause the haunting, but she does not act",
+     "quotes_failed": false
+    },
+    {
+     "tag": "practice:sermon",
+     "scope": "span",
+     "quotes": [
+      "הוא מפורש בהמסורה גרש האמה הזאת ובמסורה גרש לץ ויצא מדון"
+     ],
+     "confidence": 2,
+     "why": "the tzaddik gives an exegetical justification from the Masorah",
+     "quotes_failed": false
+    },
+    {
+     "tag": "supernatural:miracle",
+     "scope": "span",
+     "quotes": [
+      "יגורש הלץ וכן הי'"
+     ],
+     "confidence": 2,
+     "why": "the spirit departs as he said",
+     "quotes_failed": false
+    },
+    {
+     "tag": "supernatural:prognostication",
+     "scope": "span",
+     "quotes": [
+      "שע\"י שתגרש האמה יגורש הלץ וכן הי'"
+     ],
+     "confidence": 2,
+     "why": "his prediction that the spirit would leave comes true",
+     "quotes_failed": false
+    },
+    {
+     "tag": "ethics-and-emotions:punishment",
+     "scope": "span",
+     "quotes": [
+      "תגרש מביתך המשרתת"
+     ],
+     "confidence": 1,
+     "why": "the sinner is expelled; the haunting is the consequence of sin",
+     "quotes_failed": false
+    }
+   ],
+   "missing_concepts": [
+    "sin that creates demons (the spirit comes into being through the maidservant's sins)",
+    "a domestic servant as the source of the trouble",
+    "a wine cellar as a haunted space"
+   ],
+   "start_quote_found": true,
+   "end_quote_found": true
+  }
+ ],
+ "check": {
+  "non_vocab_tags": [],
+  "quotes": 10,
+  "quotes_not_found": 0
+ },
+ "id": "Eser-Orot_0320",
+ "chars": 293,
+ "seconds": 13
+}

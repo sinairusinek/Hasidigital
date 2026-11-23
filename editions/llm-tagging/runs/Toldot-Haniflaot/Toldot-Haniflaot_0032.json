@@ -1,0 +1,112 @@
+{
+ "unit": {
+  "kind": "hasidic_story",
+  "why": "An old hasid's report that the rebbe excused his leadership by saying the Maggid and other tzaddikim had ordered him to lead, with the last of them urging him, through a midrash, to stop hiding; it closes with a related remark by the rebbe.",
+  "boundary_note": ""
+ },
+ "stories": [
+  {
+   "k": 1,
+   "start_quote": "סיפר לי חסיד מפורסם איש זקן",
+   "end_quote": "אני מוסמך הרבה והרבה יותר ממנו",
+   "hasidic": true,
+   "summary_en": "The rebbe apologized for his leadership, saying his great-grandfather the Maggid and other tzaddikim had ordered him to be a rebbe; the last of them, R. Y. of Pressburg/Przedbórz, applied the midrash 'uncover your breasts, it is not a time for modesty' to him; the rebbe once also said he was far more ordained than a famous tzaddik of the day.",
+   "tags": [
+    {
+     "tag": "times:inauguration",
+     "scope": "span",
+     "quotes": [
+      "גזר עלי להיות מנהיג ורבי",
+      "ומצווים אותו להיות מנהיג ורבי"
+     ],
+     "confidence": 2,
+     "why": "Tzaddikim command him to accept leadership.",
+     "quotes_failed": false
+    },
+    {
+     "tag": "folkloristics:story_type_inauguration",
+     "scope": "story",
+     "quotes": [],
+     "confidence": 2,
+     "why": "The tale centres on how he came to accept the role of rebbe.",
+     "quotes_failed": false
+    },
+    {
+     "tag": "ethics-and-emotions:humility",
+     "scope": "span",
+     "quotes": [
+      "התנצל עצמו לפניו על נשיאותו",
+      "לא עת צניעות הוא"
+     ],
+     "confidence": 3,
+     "why": "He is reluctant about his own leadership and must be told to stop concealing himself.",
+     "quotes_failed": false
+    },
+    {
+     "tag": "characters-and-roles:the_family_of_the_tsaddik",
+     "scope": "span",
+     "quotes": [
+      "כי אא״ז הה״מ זצ״ל גזר עלי"
+     ],
+     "confidence": 2,
+     "why": "His great-grandfather, the Maggid, ordered him to lead.",
+     "quotes_failed": false
+    },
+    {
+     "tag": "practice:storytelling",
+     "scope": "span",
+     "quotes": [
+      "סיפר לי חסיד מפורסם איש זקן"
+     ],
+     "confidence": 2,
+     "why": "The tale is framed as told by an old hasid.",
+     "quotes_failed": false
+    },
+    {
+     "tag": "practice:sermon",
+     "scope": "span",
+     "quotes": [
+      "דאיתא במדרש ע״פ הניקה בנים שרה"
+     ],
+     "confidence": 2,
+     "why": "A midrash is quoted and applied to him.",
+     "quotes_failed": false
+    },
+    {
+     "tag": "practice:torat_ha_tsaddik",
+     "scope": "span",
+     "quotes": [
+      "אני מוסמך הרבה והרבה יותר ממנו"
+     ],
+     "confidence": 1,
+     "why": "The rebbe's claim to ordination and authority as a tzaddik.",
+     "quotes_failed": false
+    },
+    {
+     "tag": "social:inter_hasidic",
+     "scope": "span",
+     "quotes": [
+      "וכן סיפר על כל הצדיקים שהיו מנשאים אותו"
+     ],
+     "confidence": 2,
+     "why": "Other tzaddikim raise him up and urge him to lead.",
+     "quotes_failed": false
+    }
+   ],
+   "missing_concepts": [
+    "reluctance to accept leadership / mandate of leadership from earlier tzaddikim",
+    "ordination (semikhah) of a tzaddik by predecessors"
+   ],
+   "start_quote_found": true,
+   "end_quote_found": true
+  }
+ ],
+ "check": {
+  "non_vocab_tags": [],
+  "quotes": 9,
+  "quotes_not_found": 0
+ },
+ "id": "Toldot-Haniflaot_0032",
+ "chars": 503,
+ "seconds": 15
+}

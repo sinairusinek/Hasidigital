@@ -1,0 +1,92 @@
+{
+ "unit": {
+  "kind": "hasidic_story",
+  "why": "A short anecdote: the tzaddik senses that his Shimusha Rabba tefillin were arranged in Rashi order, and when the tefillin are opened his perception proves correct.",
+  "boundary_note": ""
+ },
+ "stories": [
+  {
+   "k": 1,
+   "start_quote": "שמעתי מפי מגידי אמת שהסופר אשר",
+   "end_quote": "ופתחו התפילין ומצאו כדברי קדשו",
+   "hasidic": true,
+   "summary_en": "The tzaddik puts on his Shimusha Rabba tefillin and senses they are arranged in Rashi order; the scribe protests that he never errs, but the tefillin are opened and found to be as the tzaddik said.",
+   "tags": [
+    {
+     "tag": "practice:tefillin",
+     "scope": "story",
+     "quotes": [],
+     "confidence": 3,
+     "why": "The whole story turns on the arrangement of the tefillin parshiyot.",
+     "quotes_failed": false
+    },
+    {
+     "tag": "characters-and-roles:scribe",
+     "scope": "span",
+     "quotes": [
+      "שהסופר אשר הי׳ רגיל לסדר לו",
+      "והסופר צווח ואמר"
+     ],
+     "confidence": 3,
+     "why": "The sofer who prepares the parshiyot is a character.",
+     "quotes_failed": false
+    },
+    {
+     "tag": "supernatural:perception",
+     "scope": "span",
+     "quotes": [
+      "אני מרגיש בחי' תפילין דרש״י"
+     ],
+     "confidence": 3,
+     "why": "He senses the hidden arrangement without seeing it.",
+     "quotes_failed": false
+    },
+    {
+     "tag": "practice:halakhah",
+     "scope": "span",
+     "quotes": [
+      "קדש מימין המניח כדעת הרמ״ע בשיטת השמו״ר",
+      "כלומר קדש מימין הקורא"
+     ],
+     "confidence": 2,
+     "why": "The halakhic dispute over the order of the parshiyot is the background.",
+     "quotes_failed": false
+    },
+    {
+     "tag": "social:retrospective_recognition",
+     "scope": "span",
+     "quotes": [
+      "ופתחו התפילין ומצאו כדברי קדשו"
+     ],
+     "confidence": 2,
+     "why": "Opening the tefillin confirms the tzaddik's claim against the scribe's protest.",
+     "quotes_failed": false
+    },
+    {
+     "tag": "social:conflict",
+     "scope": "span",
+     "quotes": [
+      "והסופר צווח ואמר הלא אין זה פעם הראשון"
+     ],
+     "confidence": 1,
+     "why": "The scribe briefly disputes the tzaddik's claim.",
+     "quotes_failed": false
+    }
+   ],
+   "missing_concepts": [
+    "Rashi vs. Rabbenu Tam / Shimusha Rabba tefillin order",
+    "verification of a tzaddik's supernatural sensing by physical inspection"
+   ],
+   "start_quote_found": true,
+   "end_quote_found": true
+  }
+ ],
+ "check": {
+  "non_vocab_tags": [],
+  "quotes": 7,
+  "quotes_not_found": 0
+ },
+ "id": "Eser-Kedushot_0158",
+ "chars": 366,
+ "seconds": 12
+}

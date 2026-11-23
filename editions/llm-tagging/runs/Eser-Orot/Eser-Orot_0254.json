@@ -1,0 +1,73 @@
+{
+ "unit": {
+  "kind": "hasidic_story",
+  "why": "A short memorate: on Yom Kippur, during the recital of the Temple service, the Apter Rav exclaimed that he remembered serving as High Priest in the Temple.",
+  "boundary_note": ""
+ },
+ "stories": [
+  {
+   "k": 1,
+   "start_quote": "שמעתי בנעורי מפי מגידי אמת",
+   "end_quote": "בכהונה גדולה בביהמ\"ק והענין מפורסם",
+   "hasidic": true,
+   "summary_en": "The author heard in his youth that the Apter Rav (R. Abraham Joshua Heschel) used to say during the Yom Kippur Avodah, 'and thus I would say', because he still remembered serving as High Priest in the Temple.",
+   "tags": [
+    {
+     "tag": "supernatural:reincarnation",
+     "scope": "span",
+     "quotes": [
+      "כי זוכר עוד עתה עת אשר שימש בכהונה גדולה"
+     ],
+     "confidence": 3,
+     "why": "He recalls a former life as High Priest",
+     "quotes_failed": false
+    },
+    {
+     "tag": "times:holidays",
+     "scope": "span",
+     "quotes": [
+      "שביוה״כ בעת העבודה אמר"
+     ],
+     "confidence": 3,
+     "why": "The scene is set on Yom Kippur",
+     "quotes_failed": false
+    },
+    {
+     "tag": "practice:prayer",
+     "scope": "span",
+     "quotes": [
+      "בעת העבודה אמר וכך הייתי אומר"
+     ],
+     "confidence": 2,
+     "why": "His exclamation comes while reciting the Avodah liturgy",
+     "quotes_failed": false
+    },
+    {
+     "tag": "supernatural:perception",
+     "scope": "span",
+     "quotes": [
+      "כי זוכר עוד עתה עת אשר שימש"
+     ],
+     "confidence": 1,
+     "why": "Supernatural memory of a past life",
+     "quotes_failed": false
+    }
+   ],
+   "missing_concepts": [
+    "memory of a previous incarnation as High Priest",
+    "Temple (Beit ha-Mikdash) / priestly service",
+    "oral transmission chain (heard from trustworthy tellers)"
+   ],
+   "start_quote_found": true,
+   "end_quote_found": true
+  }
+ ],
+ "check": {
+  "non_vocab_tags": [],
+  "quotes": 4,
+  "quotes_not_found": 0
+ },
+ "id": "Eser-Orot_0254",
+ "chars": 166,
+ "seconds": 11
+}

@@ -1,0 +1,133 @@
+{
+ "unit": {
+  "kind": "hasidic_story",
+  "why": "A single narrative: a woman who cannot become ritually pure goes to the Seer of Lublin, who sends her to the Maggid of Kozienice; on her return the Seer interprets the amulet she received.",
+  "boundary_note": ""
+ },
+ "stories": [
+  {
+   "k": 1,
+   "start_quote": "נודע ממגידי אמת כי אשה אחת",
+   "end_quote": "אשר המקור יהי׳ רק יטהר",
+   "hasidic": true,
+   "summary_en": "A woman with a persistent bleeding (niddah) problem is sent by the Seer of Lublin to the Maggid of Kozienice, who gives her an amulet reading 'וטהרה ממקור דמיה' with the first mem erased; the Seer explains that the erasure was deliberate, so that her source would be purified without being left without blood.",
+   "tags": [
+    {
+     "tag": "practice:writing_amulets",
+     "scope": "span",
+     "quotes": [
+      "נתן לה קמיע בכתב ידו",
+      "ופתח לה הרבי מלובלין הקמיע"
+     ],
+     "confidence": 3,
+     "why": "The Maggid writes an amulet, and its wording is the story's point.",
+     "quotes_failed": false
+    },
+    {
+     "tag": "practice:healing",
+     "scope": "span",
+     "quotes": [
+      "ועשתה כל הרפואות ולא הועילו",
+      "ושם תוושע"
+     ],
+     "confidence": 3,
+     "why": "A bodily ailment that remedies failed to cure is healed by a tzaddik.",
+     "quotes_failed": false
+    },
+    {
+     "tag": "practice:travel_to_the_tsaddik",
+     "scope": "span",
+     "quotes": [
+      "ונסעה להרבי מלובלין",
+      "שתסע לקאזניץ להסבא קדישא"
+     ],
+     "confidence": 3,
+     "why": "The woman travels to the tzaddikim with her request.",
+     "quotes_failed": false
+    },
+    {
+     "tag": "practice:travel_to_other_tsaddik",
+     "scope": "span",
+     "quotes": [
+      "ואמר לה שתסע לקאזניץ להסבא קדישא"
+     ],
+     "confidence": 2,
+     "why": "The Seer sends her on to another tzaddik.",
+     "quotes_failed": false
+    },
+    {
+     "tag": "women:major_character",
+     "scope": "story",
+     "quotes": [],
+     "confidence": 3,
+     "why": "The woman is the central actor and travels on her own initiative.",
+     "quotes_failed": false
+    },
+    {
+     "tag": "practice:halakhah",
+     "scope": "span",
+     "quotes": [
+      "לא יכלה לטהר לבעלה"
+     ],
+     "confidence": 2,
+     "why": "The laws of niddah purity frame her problem.",
+     "quotes_failed": false
+    },
+    {
+     "tag": "supernatural:miracle",
+     "scope": "span",
+     "quotes": [
+      "כמה הפליא לעשות בזה שמחק המ\"ם ראשונה"
+     ],
+     "confidence": 2,
+     "why": "The precise erasure in the amulet acts as a wondrous cure.",
+     "quotes_failed": false
+    },
+    {
+     "tag": "social:marital_relationship",
+     "scope": "span",
+     "quotes": [
+      "לא יכלה לטהר לבעלה"
+     ],
+     "confidence": 1,
+     "why": "Her impurity prevents marital relations with her husband.",
+     "quotes_failed": false
+    },
+    {
+     "tag": "practice:torat_ha_tsaddik",
+     "scope": "span",
+     "quotes": [
+      "כמה הפליא לעשות בזה"
+     ],
+     "confidence": 1,
+     "why": "One tzaddik interprets and admires another tzaddik's power.",
+     "quotes_failed": false
+    },
+    {
+     "tag": "social:retrospective_recognition",
+     "scope": "span",
+     "quotes": [
+      "ומצא כתוב שם „וטהרה ממקור דמיה\""
+     ],
+     "confidence": 1,
+     "why": "The hidden meaning of the erased letter is recognized only later.",
+     "quotes_failed": false
+    }
+   ],
+   "missing_concepts": [
+    "female bodily impurity / niddah problem (infertility-related bleeding)",
+    "letter manipulation / textual interpretation of a verse in an amulet"
+   ],
+   "start_quote_found": true,
+   "end_quote_found": true
+  }
+ ],
+ "check": {
+  "non_vocab_tags": [],
+  "quotes": 12,
+  "quotes_not_found": 0
+ },
+ "id": "Eser-Orot_0154",
+ "chars": 517,
+ "seconds": 14
+}

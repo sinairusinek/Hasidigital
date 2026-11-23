@@ -1,0 +1,103 @@
+{
+ "unit": {
+  "kind": "hasidic_story",
+  "why": "A short anecdote: the Maggid of Kozhnitz, coming back from his son R. Motele's funeral, says something that frames the death as a harsh 'betrothal slap' from Heaven. The narrator heard it from R. Meir Shalom.",
+  "boundary_note": ""
+ },
+ "stories": [
+  {
+   "k": 1,
+   "start_quote": "(כב) עוד שם בהיותי בש\"ת בקאלאשין",
+   "end_quote": "אז א צאהן פאלט איהר א ויס",
+   "hasidic": true,
+   "summary_en": "After the death of his son R. Motele, the Maggid of Kozhnitz returns from the funeral and compares his loss to a western betrothal custom, in which the bride is acquired by a slap hard enough to knock out a tooth.",
+   "tags": [
+    {
+     "tag": "times:death",
+     "scope": "span",
+     "quotes": [
+      "אשר בעת שהלך לעולמו הרה״צ מו\"ה מאטילי"
+     ],
+     "confidence": 3,
+     "why": "The death of the Maggid's son is the triggering event.",
+     "quotes_failed": false
+    },
+    {
+     "tag": "characters-and-roles:the_family_of_the_tsaddik",
+     "scope": "span",
+     "quotes": [
+      "מאטילי בנו של המגיד זי\"ע",
+      "בחזירתו מהלוית בנו הגיד"
+     ],
+     "confidence": 3,
+     "why": "The tzaddik's son is the one who dies.",
+     "quotes_failed": false
+    },
+    {
+     "tag": "practice:storytelling",
+     "scope": "span",
+     "quotes": [
+      "סיפר לי ש\"ב ב\"ד הרב הצדיק המפו'"
+     ],
+     "confidence": 2,
+     "why": "The tale is framed as told to the narrator by R. Meir Shalom in Kaloshin.",
+     "quotes_failed": false
+    },
+    {
+     "tag": "folkloristics:story_type_parable",
+     "scope": "span",
+     "quotes": [
+      "בארצות המערב המנהג אצלם שקנין וקידושי אשה"
+     ],
+     "confidence": 2,
+     "why": "The core of the story is a mashal the Maggid tells to interpret his bereavement.",
+     "quotes_failed": false
+    },
+    {
+     "tag": "social:marriage",
+     "scope": "span",
+     "quotes": [
+      "שקנין וקידושי אשה לאיש נגמר ע\"י שיתן"
+     ],
+     "confidence": 1,
+     "why": "A betrothal custom is the imagery of the parable.",
+     "quotes_failed": false
+    },
+    {
+     "tag": "practice:joke",
+     "scope": "span",
+     "quotes": [
+      "עהר גיט אטראסק אז א צאהן פאלט"
+     ],
+     "confidence": 1,
+     "why": "A wry, bitter witty remark in the face of grief.",
+     "quotes_failed": false
+    },
+    {
+     "tag": "women:mention_only",
+     "scope": "span",
+     "quotes": [
+      "להמיועדת לו מכת לחי בידו"
+     ],
+     "confidence": 1,
+     "why": "The bride in the parable is mentioned only.",
+     "quotes_failed": false
+    }
+   ],
+   "missing_concepts": [
+    "bereavement / a tzaddik's response to the death of a child",
+    "suffering as a sign of divine love (yissurin shel ahavah)"
+   ],
+   "start_quote_found": true,
+   "end_quote_found": true
+  }
+ ],
+ "check": {
+  "non_vocab_tags": [],
+  "quotes": 8,
+  "quotes_not_found": 0
+ },
+ "id": "Eser-Orot_0126",
+ "chars": 336,
+ "seconds": 18
+}

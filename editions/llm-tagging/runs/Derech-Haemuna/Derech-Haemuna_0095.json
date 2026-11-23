@@ -1,0 +1,140 @@
+{
+ "unit": {
+  "kind": "hasidic_story",
+  "why": "A teaching on Passover stringencies, told by a grandson of R. Avraham 'the Angel', containing a brief anecdote: R. Zusya covered himself in a wheel in winter, was overcome by the awe of the angels and asked God to remove it. The anecdote is wrapped in an extended homiletic frame.",
+  "boundary_note": "Opens section ח (Passover stringencies); the next division begins a separate story from Sefer Zikhron Tov on the same theme."
+ },
+ "stories": [
+  {
+   "k": 1,
+   "start_quote": "פ״א היה מדבר מן החומרא של פסח",
+   "end_quote": "אזי אם הבנים שמחה. (ע״ק בלקוטים)",
+   "hasidic": true,
+   "summary_en": "A rebbe discusses Passover stringencies: his grandfather R. Avraham was so strict that the Maggid took him along for baking the commandment matzah, and only an angel could live on his kind of eating. He tells how R. Zusya covered himself in a wheel in winter, was seized by the awe of the angels and asked God to remove it, and then explains this homiletically through Ezekiel's 'ofan'.",
+   "tags": [
+    {
+     "tag": "not-a-hasidic-story:sermon",
+     "scope": "story",
+     "quotes": [],
+     "confidence": 3,
+     "why": "The anecdote serves a long homily on Ezekiel 1 and Psalm 113.",
+     "quotes_failed": false
+    },
+    {
+     "tag": "practice:sermon",
+     "scope": "span",
+     "quotes": [
+      "כתיב (יחזקאל א׳) והנה אופן אחד בארץ"
+     ],
+     "confidence": 3,
+     "why": "The rebbe expounds verses.",
+     "quotes_failed": false
+    },
+    {
+     "tag": "practice:storytelling",
+     "scope": "span",
+     "quotes": [
+      "וגם סיפר המעשה מרבי זוסיא"
+     ],
+     "confidence": 3,
+     "why": "The rebbe tells a tale about R. Zusya.",
+     "quotes_failed": false
+    },
+    {
+     "tag": "ethics-and-emotions:awe",
+     "scope": "span",
+     "quotes": [
+      "ובא עליו יראת המלאכים ולא היה יכול לסבול אותה"
+     ],
+     "confidence": 3,
+     "why": "Zusya is overwhelmed by angelic awe.",
+     "quotes_failed": false
+    },
+    {
+     "tag": "ethics-and-emotions:fear",
+     "scope": "span",
+     "quotes": [
+      "ובקש מהקב״ה שיסור מעליו היראה"
+     ],
+     "confidence": 2,
+     "why": "He cannot bear the fear and prays for it to be removed.",
+     "quotes_failed": false
+    },
+    {
+     "tag": "practice:halakhah",
+     "scope": "span",
+     "quotes": [
+      "היה מדבר מן החומרא של פסח"
+     ],
+     "confidence": 2,
+     "why": "Passover stringencies are the topic.",
+     "quotes_failed": false
+    },
+    {
+     "tag": "times:holidays",
+     "scope": "span",
+     "quotes": [
+      "ועל מצת מצוה לקחו המגיד אצלו"
+     ],
+     "confidence": 2,
+     "why": "Passover matzah baking.",
+     "quotes_failed": false
+    },
+    {
+     "tag": "practice:asceticism",
+     "scope": "span",
+     "quotes": [
+      "כי אכילה שלו היה מע״ל מעור של בר יונה"
+     ],
+     "confidence": 2,
+     "why": "R. Avraham's extremely minimal eating.",
+     "quotes_failed": false
+    },
+    {
+     "tag": "characters-and-roles:the_family_of_the_tsaddik",
+     "scope": "span",
+     "quotes": [
+      "וזקני ר׳ אברהם היה מחמיר ביותר"
+     ],
+     "confidence": 2,
+     "why": "The speaker's grandfather is a character.",
+     "quotes_failed": false
+    },
+    {
+     "tag": "social:inter_hasidic_master_disciple_relationship",
+     "scope": "span",
+     "quotes": [
+      "ועל מצת מצוה לקחו המגיד אצלו"
+     ],
+     "confidence": 1,
+     "why": "The Maggid chooses his son R. Avraham for the matzah.",
+     "quotes_failed": false
+    },
+    {
+     "tag": "practice:prayer",
+     "scope": "span",
+     "quotes": [
+      "ובקש מהקב״ה שיסור מעליו היראה"
+     ],
+     "confidence": 1,
+     "why": "Zusya petitions God.",
+     "quotes_failed": false
+    }
+   ],
+   "missing_concepts": [
+    "Passover stringencies (chumrot) as a theme",
+    "the tzaddik as an angel (R. Avraham ha-Malakh)"
+   ],
+   "start_quote_found": true,
+   "end_quote_found": true
+  }
+ ],
+ "check": {
+  "non_vocab_tags": [],
+  "quotes": 10,
+  "quotes_not_found": 0
+ },
+ "id": "Derech-Haemuna_0095",
+ "chars": 836,
+ "seconds": 19
+}

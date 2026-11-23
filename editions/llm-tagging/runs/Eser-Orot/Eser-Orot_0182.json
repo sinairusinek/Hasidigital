@@ -1,0 +1,134 @@
+{
+ "unit": {
+  "kind": "hasidic_story",
+  "why": "A single narrative: a kvitl for two young children is sent to the Seer of Lublin, he reacts to each name, and his words prove true years later for the son (Yetev Lev) and for the daughter, who died young and childless.",
+  "boundary_note": ""
+ },
+ "stories": [
+  {
+   "k": 1,
+   "start_quote": "בתהלה למשה [הוא מה שסידר",
+   "end_quote": "בקוצר ימים תנצב\"ה",
+   "hasidic": true,
+   "summary_en": "The Seer of Lublin reads a kvitl naming the young Yekutiel Yehuda (later the Yetev Lev) and his little sister Hannah Rachel; he exclaims 'it's a pity' over the boy, who became a great luminary, and 'poor thing' over the girl, who married R. Israel Rapoport, was childless, and burned to death young during her parents' lifetime.",
+   "tags": [
+    {
+     "tag": "folkloristics:story_type_prognostication",
+     "scope": "story",
+     "quotes": [],
+     "confidence": 3,
+     "why": "The story's arc is the Seer's cryptic remarks proving true years later.",
+     "quotes_failed": false
+    },
+    {
+     "tag": "supernatural:prognostication",
+     "scope": "span",
+     "quotes": [
+      "וכאשר פתר כן הי' אחר כמה וכמה שנים"
+     ],
+     "confidence": 3,
+     "why": "His words about both children came true.",
+     "quotes_failed": false
+    },
+    {
+     "tag": "supernatural:perception",
+     "scope": "span",
+     "quotes": [
+      "וכאשר קרא הרבי את שם הילד",
+      "וכאשר קרא את שם הבת אמר בל״א נעביך נעביך"
+     ],
+     "confidence": 3,
+     "why": "He discerns each child's destiny from their names on the kvitl.",
+     "quotes_failed": false
+    },
+    {
+     "tag": "practice:torat_ha_tsaddik",
+     "scope": "span",
+     "quotes": [
+      "פתקא שקורין קוויטל להרבי"
+     ],
+     "confidence": 2,
+     "why": "The kvitl sent to the rebbe expresses faith in the tzaddik's power.",
+     "quotes_failed": false
+    },
+    {
+     "tag": "practice:travel_to_the_tsaddik",
+     "scope": "span",
+     "quotes": [
+      "ע\"י איש אחד שנסע להרבי מלובלין"
+     ],
+     "confidence": 2,
+     "why": "A man travels to Lublin carrying the kvitl.",
+     "quotes_failed": false
+    },
+    {
+     "tag": "characters-and-roles:the_family_of_the_tsaddik",
+     "scope": "span",
+     "quotes": [
+      "הגאוה״ק מו\"ה אלעזר ניסן זצ\"ל האבד״ק דראביטש",
+      "ואחותו מרת חנה ראכיל הנ\"ל"
+     ],
+     "confidence": 3,
+     "why": "The parents and sister of the Yetev Lev are characters.",
+     "quotes_failed": false
+    },
+    {
+     "tag": "times:death",
+     "scope": "span",
+     "quotes": [
+      "ונשרפה רח\"ל ע״פ אביה ואמה בקוצר ימים"
+     ],
+     "confidence": 3,
+     "why": "The daughter's early death by fire.",
+     "quotes_failed": false
+    },
+    {
+     "tag": "social:marriage",
+     "scope": "span",
+     "quotes": [
+      "והיתה לאיש הרב ר׳ ישראל כהן ראפפורט"
+     ],
+     "confidence": 2,
+     "why": "The daughter's marriage is part of how her fate unfolded.",
+     "quotes_failed": false
+    },
+    {
+     "tag": "women:minor_character",
+     "scope": "span",
+     "quotes": [
+      "ושלחה אמם ע\"י איש אחד",
+      "ואחותו מרת חנה ראכיל הנ\"ל"
+     ],
+     "confidence": 3,
+     "why": "The mother sends the kvitl, and the daughter is the subject of one of the two predictions.",
+     "quotes_failed": false
+    },
+    {
+     "tag": "social:retrospective_recognition",
+     "scope": "span",
+     "quotes": [
+      "וכאשר פתר כן הי' אחר כמה וכמה שנים"
+     ],
+     "confidence": 2,
+     "why": "The meaning of the cryptic words is understood only in hindsight.",
+     "quotes_failed": false
+    }
+   ],
+   "missing_concepts": [
+    "kvitl (petition note) as the medium of the tzaddik's insight",
+    "childlessness / barrenness without a miracle",
+    "cryptic Yiddish exclamations by the tzaddik"
+   ],
+   "start_quote_found": true,
+   "end_quote_found": true
+  }
+ ],
+ "check": {
+  "non_vocab_tags": [],
+  "quotes": 12,
+  "quotes_not_found": 0
+ },
+ "id": "Eser-Orot_0182",
+ "chars": 944,
+ "seconds": 15
+}

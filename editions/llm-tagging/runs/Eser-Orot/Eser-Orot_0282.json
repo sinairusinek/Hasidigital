@@ -1,0 +1,116 @@
+{
+ "unit": {
+  "kind": "hasidic_story",
+  "why": "A single anecdote about R. Hayyim of Sanz travelling in winter to the Rizhiner, refusing to rest on the way out of longing to reach him.",
+  "boundary_note": ""
+ },
+ "stories": [
+  {
+   "k": 1,
+   "start_quote": "ידעתי מפי מגידי אמת שכאשר מרו",
+   "end_quote": "פני הקדוש באיזה רגעים אחדים במוקדם",
+   "hasidic": true,
+   "summary_en": "R. Hayyim Halberstam of Sanz travels by wagon in winter to see the Rizhiner. He refuses his attendants' pleas to stop and warm himself. When they get the driver to halt for a night, he does not sleep or lie down, out of longing to see the tzaddik even a few moments sooner.",
+   "tags": [
+    {
+     "tag": "practice:travel_to_other_tsaddik",
+     "scope": "story",
+     "quotes": [],
+     "confidence": 3,
+     "why": "Tzaddik of Sanz journeys to another tzaddik, the Rizhiner",
+     "quotes_failed": false
+    },
+    {
+     "tag": "practice:travel_to_the_tsaddik",
+     "scope": "span",
+     "quotes": [
+      "נסע לקבל אנפי שכינתא פני מרן קדוש ישראל מריזין"
+     ],
+     "confidence": 2,
+     "why": "Journey to a tzaddik's presence",
+     "quotes_failed": false
+    },
+    {
+     "tag": "folkloristics:story_type_virtues",
+     "scope": "story",
+     "quotes": [],
+     "confidence": 2,
+     "why": "Illustrates the Sanzer's reverence and longing for the Rizhiner",
+     "quotes_failed": false
+    },
+    {
+     "tag": "ethics-and-emotions:awe",
+     "scope": "span",
+     "quotes": [
+      "ווען מען האלט אין מיטען פאהרין צו אזא קדוש עליון"
+     ],
+     "confidence": 2,
+     "why": "Reverence for the holy tzaddik",
+     "quotes_failed": false
+    },
+    {
+     "tag": "ethics-and-emotions:humility",
+     "scope": "span",
+     "quotes": [
+      "נסע לקבל אנפי שכינתא פני מרן קדוש ישראל"
+     ],
+     "confidence": 1,
+     "why": "A great tzaddik subordinates himself to another",
+     "quotes_failed": false
+    },
+    {
+     "tag": "practice:asceticism",
+     "scope": "span",
+     "quotes": [
+      "לא ישן אז כל הלילה ולא שכב א\"ע"
+     ],
+     "confidence": 1,
+     "why": "Forgoes rest and warmth in winter",
+     "quotes_failed": false
+    },
+    {
+     "tag": "social:inter_hasidic",
+     "scope": "story",
+     "quotes": [],
+     "confidence": 2,
+     "why": "Relations between two Hasidic tzaddikim",
+     "quotes_failed": false
+    },
+    {
+     "tag": "social:disobedience",
+     "scope": "span",
+     "quotes": [
+      "השיאו לב העגלון בלילה אחת שלא יסע הלאה"
+     ],
+     "confidence": 1,
+     "why": "Attendants get around the rebbe's wish to keep going",
+     "quotes_failed": false
+    },
+    {
+     "tag": "ethics-and-emotions:lying",
+     "scope": "span",
+     "quotes": [
+      "באיזה תירוץ שהסוסים לא יוכלו לנסוע"
+     ],
+     "confidence": 2,
+     "why": "A pretext is used to make the driver stop",
+     "quotes_failed": false
+    }
+   ],
+   "missing_concepts": [
+    "longing / yearning (השתוקקות) for a tzaddik's presence",
+    "attendants (משמשים) caring for the tzaddik's body"
+   ],
+   "start_quote_found": true,
+   "end_quote_found": true
+  }
+ ],
+ "check": {
+  "non_vocab_tags": [],
+  "quotes": 6,
+  "quotes_not_found": 0
+ },
+ "id": "Eser-Orot_0282",
+ "chars": 592,
+ "seconds": 12
+}

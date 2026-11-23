@@ -1,0 +1,112 @@
+{
+ "unit": {
+  "kind": "hasidic_story",
+  "why": "A short anecdote: the rebbe's son finds him studying Zohar and Lurianic writings at the start of the night and questions him, and the rebbe answers.",
+  "boundary_note": ""
+ },
+ "stories": [
+  {
+   "k": 1,
+   "start_quote": "פ\"א בתחלת הלילה נכנס אל מורינו",
+   "end_quote": "אבל אנכי למעלה מהזמן עכד״ק",
+   "hasidic": true,
+   "summary_en": "His son R. Issachar Berish of Dolina enters at nightfall and finds the rebbe studying Zohar and the Ari's writings, against the known custom; the rebbe humbly answers that the custom binds only one still subject to time, while he is above time.",
+   "tags": [
+    {
+     "tag": "characters-and-roles:the_family_of_the_tsaddik",
+     "scope": "span",
+     "quotes": [
+      "נכנס אל מורינו בנו הרה״ק מו\"ה ישכר בעריש מדאלינא"
+     ],
+     "confidence": 3,
+     "why": "the tzaddik's son is the interlocutor",
+     "quotes_failed": false
+    },
+    {
+     "tag": "practice:study",
+     "scope": "span",
+     "quotes": [
+      "ומצאו שהי' עוסק בזוה״ק וכהאריז\"ל"
+     ],
+     "confidence": 3,
+     "why": "the rebbe is shown studying",
+     "quotes_failed": false
+    },
+    {
+     "tag": "knowledge:esoteric",
+     "scope": "span",
+     "quotes": [
+      "עוסק בזוה״ק וכהאריז\"ל"
+     ],
+     "confidence": 3,
+     "why": "Zohar and Lurianic kabbalah",
+     "quotes_failed": false
+    },
+    {
+     "tag": "ethics-and-emotions:prohibitions",
+     "scope": "span",
+     "quotes": [
+      "הלא מפורסם לכל שאין לומדים זאת בתחלת הלילה"
+     ],
+     "confidence": 2,
+     "why": "a custom restricting study at that hour is at issue",
+     "quotes_failed": false
+    },
+    {
+     "tag": "ethics-and-emotions:fear",
+     "scope": "span",
+     "quotes": [
+      "ונבהל"
+     ],
+     "confidence": 1,
+     "why": "the son is alarmed",
+     "quotes_failed": false
+    },
+    {
+     "tag": "ethics-and-emotions:humility",
+     "scope": "span",
+     "quotes": [
+      "והשיבו בענות קדשו"
+     ],
+     "confidence": 1,
+     "why": "the answer is framed as humble, though its content is a claim of elevation",
+     "quotes_failed": false
+    },
+    {
+     "tag": "practice:torat_ha_tsaddik",
+     "scope": "span",
+     "quotes": [
+      "אבל אנכי למעלה מהזמן"
+     ],
+     "confidence": 2,
+     "why": "the tzaddik's special status places him beyond ordinary rules",
+     "quotes_failed": false
+    },
+    {
+     "tag": "practice:halakhah",
+     "scope": "span",
+     "quotes": [
+      "זהו רק למי שמשועבד עוד תחת הזמן"
+     ],
+     "confidence": 2,
+     "why": "the scope of a practice rule is decided",
+     "quotes_failed": false
+    }
+   ],
+   "missing_concepts": [
+    "tzaddik transcending time",
+    "proper times for kabbalah study"
+   ],
+   "start_quote_found": true,
+   "end_quote_found": true
+  }
+ ],
+ "check": {
+  "non_vocab_tags": [],
+  "quotes": 8,
+  "quotes_not_found": 0
+ },
+ "id": "Eser-Kedushot_0148",
+ "chars": 262,
+ "seconds": 13
+}

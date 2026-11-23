@@ -1,0 +1,144 @@
+{
+ "unit": {
+  "kind": "hasidic_story",
+  "why": "A single anecdote about R. Meir of Premishlan at a meal, insisting a four-penny coin is worth five, with the compiler's kabbalistic interpretation appended.",
+  "boundary_note": "trailing 'מענין מנגן' is the heading of the next division"
+ },
+ "stories": [
+  {
+   "k": 1,
+   "start_quote": "סיפרו לי מעשה רב מהה״ק מוהרמ״מ",
+   "end_quote": "ודיבורם ותעמוד מרעיד. (א״ד אות ד׳)",
+   "hasidic": true,
+   "summary_en": "At a festive meal R. Meir of Premishlan sends a servant to buy beer with a four-penny coin, insists against the vendor that it is worth five, quarrels with the servant until the disciples signal him to concede, and then prays 'that all the world should know that a four is a five', which the compiler explains as a mystical unification according to the Zohar.",
+   "tags": [
+    {
+     "tag": "practice:drinking_alcohol",
+     "scope": "span",
+     "quotes": [
+      "ונתן מטבע של ארבעה פשוטים להביא שכר"
+     ],
+     "confidence": 2,
+     "why": "coin given to fetch beer at the meal",
+     "quotes_failed": false
+    },
+    {
+     "tag": "social:conflict",
+     "scope": "span",
+     "quotes": [
+      "והרב התחיל לריב עם השליח",
+      "עד הגיע הדבר למריבות"
+     ],
+     "confidence": 2,
+     "why": "quarrel between the rebbe and the servant",
+     "quotes_failed": false
+    },
+    {
+     "tag": "ethics-and-emotions:anger",
+     "scope": "span",
+     "quotes": [
+      "והרב התחיל לריב עם השליח"
+     ],
+     "confidence": 1,
+     "why": "heated dispute, though it is staged with intent",
+     "quotes_failed": false
+    },
+    {
+     "tag": "social:inter_hasidic_master_disciple_relationship",
+     "scope": "span",
+     "quotes": [
+      "עד שתלמידי הרב רמזו להשליח המשרת",
+      "כי הבינו כי לא לחנם הוא"
+     ],
+     "confidence": 1,
+     "why": "the disciples trust that the master's odd behaviour has a purpose",
+     "quotes_failed": false
+    },
+    {
+     "tag": "practice:prayer",
+     "scope": "span",
+     "quotes": [
+      "אז עמד הרב בתפלה ואמר בזה״ל"
+     ],
+     "confidence": 2,
+     "why": "the rebbe offers a spontaneous prayer",
+     "quotes_failed": false
+    },
+    {
+     "tag": "kabbalah:kabbalistic_terms_yihudim",
+     "scope": "span",
+     "quotes": [
+      "הכוונה לדרכי היחוד עפ״י הזוהר"
+     ],
+     "confidence": 2,
+     "why": "the compiler interprets the act as a mystical unification",
+     "quotes_failed": false
+    },
+    {
+     "tag": "knowledge:esoteric",
+     "scope": "span",
+     "quotes": [
+      "ה׳ ד׳ הוית וכד אתמש׳ דכורא עלה נעשית ה׳"
+     ],
+     "confidence": 2,
+     "why": "Zoharic explanation of the letters ה and ד",
+     "quotes_failed": false
+    },
+    {
+     "tag": "practice:meditation",
+     "scope": "span",
+     "quotes": [
+      "הכוונה לדרכי היחוד עפ״י הזוהר"
+     ],
+     "confidence": 1,
+     "why": "the act is read as a yihud",
+     "quotes_failed": false
+    },
+    {
+     "tag": "practice:joke",
+     "scope": "span",
+     "quotes": [
+      "אז איין פירער איז איין פינעוויר"
+     ],
+     "confidence": 1,
+     "why": "a witty Yiddish wordplay with hidden meaning",
+     "quotes_failed": false
+    },
+    {
+     "tag": "social:retrospective_recognition",
+     "scope": "span",
+     "quotes": [
+      "כי הבינו כי לא לחנם הוא"
+     ],
+     "confidence": 1,
+     "why": "the seemingly absurd quarrel turns out to have hidden mystical meaning",
+     "quotes_failed": false
+    },
+    {
+     "tag": "not-a-hasidic-story:sermon",
+     "scope": "span",
+     "quotes": [
+      "הבן הענין והתבונן עד היכן מגיע מעשה הצדיקים"
+     ],
+     "confidence": 1,
+     "why": "the anecdote is wrapped in an exegetical and homiletic frame",
+     "quotes_failed": false
+    }
+   ],
+   "missing_concepts": [
+    "theurgic speech: a mundane word or act of the tsaddik carrying cosmic effect",
+    "Yiddish wordplay on numbers (four/five) as mystical act"
+   ],
+   "start_quote_found": true,
+   "end_quote_found": true
+  }
+ ],
+ "check": {
+  "non_vocab_tags": [],
+  "quotes": 13,
+  "quotes_not_found": 0
+ },
+ "id": "Derech-Haemuna_0146",
+ "chars": 805,
+ "seconds": 18
+}

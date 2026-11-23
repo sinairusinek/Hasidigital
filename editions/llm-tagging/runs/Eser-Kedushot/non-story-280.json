@@ -1,0 +1,122 @@
+{
+ "unit": {
+  "kind": "paratext_with_story",
+  "why": "An approbation by R. Yitzhak Isaac of Komarno for Zera Yitzhak that includes a short first-person memorate: as a ten-year-old at a circumcision he saw R. Yitzhak of Sambor's face shining. It also carries a chain-transmitted saying of R. Elimelech and a homily.",
+  "boundary_note": ""
+ },
+ "stories": [
+  {
+   "k": 1,
+   "start_quote": "ואני כשהייתי ילד קטן בן י' שנים",
+   "end_quote": "בדביקות השכינה ובזיכוך החומר ובקדושה גדולה",
+   "hasidic": true,
+   "summary_en": "The Komarno rebbe recalls that as a ten-year-old boy, attending a circumcision with his father, he saw the face of R. Yitzhak, head of the court of Sambor, shining like an angel's with the light of the Shekhinah. He attributes this to the holiness and devekut of these scholars' learning.",
+   "tags": [
+    {
+     "tag": "practice:circumcision",
+     "scope": "span",
+     "quotes": [
+      "הייתי עם אבי זצ\"ל על ברית מילה"
+     ],
+     "confidence": 3,
+     "why": "The scene is set at a brit milah.",
+     "quotes_failed": false
+    },
+    {
+     "tag": "supernatural:light_or_fire_as_a_sign_of_righteousness",
+     "scope": "span",
+     "quotes": [
+      "ופניו אנפי שכינתא נהירין באור זך מופלא"
+     ],
+     "confidence": 3,
+     "why": "His face shone with light as a sign of holiness.",
+     "quotes_failed": false
+    },
+    {
+     "tag": "characters-and-roles:the_family_of_the_tsaddik",
+     "scope": "span",
+     "quotes": [
+      "הייתי עם אבי זצ\"ל על ברית מילה"
+     ],
+     "confidence": 2,
+     "why": "The narrator's father, a tsaddik, accompanies him.",
+     "quotes_failed": false
+    },
+    {
+     "tag": "ethics-and-emotions:awe",
+     "scope": "span",
+     "quotes": [
+      "וראיתי תוארו כמלאך אלקים"
+     ],
+     "confidence": 2,
+     "why": "The narrator responds with awe at the tsaddik's appearance.",
+     "quotes_failed": false
+    },
+    {
+     "tag": "practice:devekut",
+     "scope": "span",
+     "quotes": [
+      "הי' בדביקות השכינה ובזיכוך החומר"
+     ],
+     "confidence": 2,
+     "why": "Their learning is described as cleaving to the Shekhinah.",
+     "quotes_failed": false
+    },
+    {
+     "tag": "practice:study",
+     "scope": "span",
+     "quotes": [
+      "שהלימוד שלהם בחריפות וגאונות"
+     ],
+     "confidence": 1,
+     "why": "Their sharp and brilliant Torah study is the stated source of the light.",
+     "quotes_failed": false
+    },
+    {
+     "tag": "folkloristics:story_type_virtues",
+     "scope": "story",
+     "quotes": [],
+     "confidence": 2,
+     "why": "The memorate serves to praise the holiness of the author's family.",
+     "quotes_failed": false
+    },
+    {
+     "tag": "practice:sermon",
+     "scope": "span",
+     "quotes": [
+      "כאיל תערג לשון זכר ונקיבה"
+     ],
+     "confidence": 2,
+     "why": "The approbation quotes R. Yitzhak's homily on the verse.",
+     "quotes_failed": false
+    },
+    {
+     "tag": "supernatural:perception",
+     "scope": "span",
+     "quotes": [
+      "על הרב מגיד משנה",
+      "שפניו פני שכינה ממש"
+     ],
+     "confidence": 1,
+     "why": "R. Elimelech saw the Shekhinah in the face of the Maggid Mishneh.",
+     "quotes_failed": false
+    }
+   ],
+   "missing_concepts": [
+    "approbation (haskamah) as a frame",
+    "chain of oral transmission (shamati mi-pi)",
+    "rabbinic lineage / family of scholars"
+   ],
+   "start_quote_found": true,
+   "end_quote_found": true
+  }
+ ],
+ "check": {
+  "non_vocab_tags": [],
+  "quotes": 9,
+  "quotes_not_found": 0
+ },
+ "id": "non-story-280",
+ "chars": 1546,
+ "seconds": 18
+}

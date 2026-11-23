@@ -1,0 +1,159 @@
+{
+ "unit": {
+  "kind": "non_hasidic_story",
+  "why": "A single narrative about an apostate shofar-blower who loses the ability to sound the teruah, consults R. Avraham Yakhini (a pre-Hasidic figure), and repents; it is not about Hasidic figures.",
+  "boundary_note": ""
+ },
+ "stories": [
+  {
+   "k": 1,
+   "start_quote": "מעשה שהי׳ בתוקע ישראל שהמיר דתו",
+   "end_quote": "אשרי העם שככה לו אשרי העם שר׳ אלהיו",
+   "hasidic": false,
+   "summary_en": "A Jewish shofar-blower who converted and joined the king's musicians finds he can no longer sound the teruah; R. Avraham Yakhini explains that the teruah is given only to Israel, and the man flees, repents fully, and can blow the teruah again.",
+   "tags": [
+    {
+     "tag": "social:converts_and_conversion",
+     "scope": "span",
+     "quotes": [
+      "בתוקע ישראל שהמיר דתו",
+      "כי אחר שנשתמד לא עצר כח להריע"
+     ],
+     "confidence": 3,
+     "why": "The man's apostasy drives the plot.",
+     "quotes_failed": false
+    },
+    {
+     "tag": "ethics-and-emotions:repentance",
+     "scope": "span",
+     "quotes": [
+      "וברח לארץ וחזר בתשובה שלימה"
+     ],
+     "confidence": 3,
+     "why": "The apostate returns to Judaism.",
+     "quotes_failed": false
+    },
+    {
+     "tag": "social:relations_with_non_jews",
+     "scope": "span",
+     "quotes": [
+      "והיה יושב בבית הועד הנוגנים אשר למלך"
+     ],
+     "confidence": 2,
+     "why": "He lives among the king's musicians.",
+     "quotes_failed": false
+    },
+    {
+     "tag": "practice:sermon",
+     "scope": "span",
+     "quotes": [
+      "ומקרא מלא הוא אשרי העם יודעי תרועה",
+      "התקיעה נגד אברהם יש איזה אחיזה"
+     ],
+     "confidence": 3,
+     "why": "The rabbi gives an exegetical and kabbalistic explanation of the teruah.",
+     "quotes_failed": false
+    },
+    {
+     "tag": "not-a-hasidic-story:sermon",
+     "scope": "story",
+     "quotes": [],
+     "confidence": 2,
+     "why": "The narrative frames an extended homiletic explanation.",
+     "quotes_failed": false
+    },
+    {
+     "tag": "not-a-hasidic-story:hagiography",
+     "scope": "story",
+     "quotes": [],
+     "confidence": 1,
+     "why": "It shows the wisdom of a pre-Hasidic sage, R. Avraham Yakhini.",
+     "quotes_failed": false
+    },
+    {
+     "tag": "supernatural:miracle",
+     "scope": "span",
+     "quotes": [
+      "ובאין אופן לא הי׳ ביכולתו להריע",
+      "ותקע והריע כאשר כאשר בתחילה"
+     ],
+     "confidence": 2,
+     "why": "He loses the ability to blow the teruah in a supernatural way and regains it.",
+     "quotes_failed": false
+    },
+    {
+     "tag": "ethics-and-emotions:punishment",
+     "scope": "span",
+     "quotes": [
+      "כי אחר שנשתמד לא עצר כח להריע בתרועה"
+     ],
+     "confidence": 2,
+     "why": "Losing the teruah is a consequence of apostasy.",
+     "quotes_failed": false
+    },
+    {
+     "tag": "social:retrospective_recognition",
+     "scope": "span",
+     "quotes": [
+      "אוי לי מה עשיתי מדוע דבר ה׳ בזיתי"
+     ],
+     "confidence": 2,
+     "why": "He realizes the meaning of his failure only afterwards.",
+     "quotes_failed": false
+    },
+    {
+     "tag": "knowledge:esoteric",
+     "scope": "span",
+     "quotes": [
+      "ומכניע לס״ם כמ\"ש תרועם בשבט ברזל"
+     ],
+     "confidence": 2,
+     "why": "The explanation uses kabbalistic ideas about Samael and the patriarchs' 'grip' (אחיזה).",
+     "quotes_failed": false
+    },
+    {
+     "tag": "ethics-and-emotions:fear",
+     "scope": "span",
+     "quotes": [
+      "וימת לבו בקרבו לאמור מה זאת"
+     ],
+     "confidence": 1,
+     "why": "He is dismayed when he cannot sound the teruah.",
+     "quotes_failed": false
+    },
+    {
+     "tag": "times:holidays",
+     "scope": "span",
+     "quotes": [
+      "יום תרוע\"ה יהי׳ לכם"
+     ],
+     "confidence": 1,
+     "why": "The Rosh Hashanah shofar ritual is the theme, though the story is not set on the holiday.",
+     "quotes_failed": false
+    },
+    {
+     "tag": "characters-and-roles:sabbatai_zevi",
+     "scope": "story",
+     "quotes": [],
+     "confidence": 1,
+     "why": "R. Avraham Yakhini was historically a Sabbatean, but the text shows no Sabbatean themes.",
+     "quotes_failed": false
+    }
+   ],
+   "missing_concepts": [
+    "shofar blowing (tekiah/shevarim/teruah)",
+    "chosenness of Israel / ritual efficacy reserved for Jews"
+   ],
+   "start_quote_found": true,
+   "end_quote_found": true
+  }
+ ],
+ "check": {
+  "non_vocab_tags": [],
+  "quotes": 13,
+  "quotes_not_found": 0
+ },
+ "id": "Maasim-Tovim_0004",
+ "chars": 1299,
+ "seconds": 19
+}

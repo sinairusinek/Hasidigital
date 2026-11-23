@@ -1,0 +1,92 @@
+{
+ "unit": {
+  "kind": "hasidic_story",
+  "why": "A short anecdote: the rabbi of Bar (Mezhbizh?) greets householders after the Amidah with 'shalom aleikhem', explaining that their minds had wandered to other towns during prayer.",
+  "boundary_note": ""
+ },
+ "stories": [
+  {
+   "k": 1,
+   "start_quote": "בס׳ דברי חכמים אות כ\"ב בשם",
+   "end_quote": "ע״כ הנני נותן לכם שלום ודפח\"ח",
+   "hasidic": true,
+   "summary_en": "After the Amidah a holy rabbi greeted some householders with 'shalom aleikhem' as if they had returned from a journey. When they were puzzled, he explained that during prayer their thoughts had been on business in other towns.",
+   "tags": [
+    {
+     "tag": "practice:prayer",
+     "scope": "span",
+     "quotes": [
+      "אחר תפלת שמ״ע נגש אל אחדים מהבע״ב",
+      "בעמדכם בתפלה חשבתם ע״ד עסקיכם"
+     ],
+     "confidence": 3,
+     "why": "The story is about prayer and the worshippers' attention during it.",
+     "quotes_failed": false
+    },
+    {
+     "tag": "supernatural:perception",
+     "scope": "span",
+     "quotes": [
+      "אתה היית בעיר פלונית. ואתה בעיר פלונית"
+     ],
+     "confidence": 3,
+     "why": "The rabbi knows the worshippers' hidden thoughts.",
+     "quotes_failed": false
+    },
+    {
+     "tag": "practice:coping_with_alien_thoughts",
+     "scope": "span",
+     "quotes": [
+      "בעמדכם בתפלה חשבתם ע״ד עסקיכם"
+     ],
+     "confidence": 2,
+     "why": "Thoughts of business during prayer are exposed as distraction.",
+     "quotes_failed": false
+    },
+    {
+     "tag": "practice:joke",
+     "scope": "span",
+     "quotes": [
+      "הנני נותן לכם שלום"
+     ],
+     "confidence": 2,
+     "why": "A witty rebuke through a mock greeting.",
+     "quotes_failed": false
+    },
+    {
+     "tag": "social:retrospective_recognition",
+     "scope": "span",
+     "quotes": [
+      "מדוע זה תתפלאו הלא בעמדכם בתפלה"
+     ],
+     "confidence": 1,
+     "why": "The puzzling greeting's meaning is revealed afterwards.",
+     "quotes_failed": false
+    },
+    {
+     "tag": "ethics-and-emotions:shame",
+     "scope": "span",
+     "quotes": [
+      "והי׳ לזרא בעיניהם"
+     ],
+     "confidence": 1,
+     "why": "The worshippers are implicitly exposed and rebuked.",
+     "quotes_failed": false
+    }
+   ],
+   "missing_concepts": [
+    "tsaddik rebuking worshippers for lack of concentration in prayer"
+   ],
+   "start_quote_found": true,
+   "end_quote_found": true
+  }
+ ],
+ "check": {
+  "non_vocab_tags": [],
+  "quotes": 7,
+  "quotes_not_found": 0
+ },
+ "id": "Eser-Orot_0097",
+ "chars": 347,
+ "seconds": 10
+}

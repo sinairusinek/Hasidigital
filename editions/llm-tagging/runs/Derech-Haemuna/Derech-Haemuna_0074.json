@@ -1,0 +1,98 @@
+{
+ "unit": {
+  "kind": "hasidic_story",
+  "why": "A short anecdote, told by R. Yitzhak of Neshchiz, about R. Liber of Berditchev hosting a guest at night and making his bed himself, with a pointed reply.",
+  "boundary_note": ""
+ },
+ "stories": [
+  {
+   "k": 1,
+   "start_quote": "סיפר הה״ק מהר״י זצ״ל מנשחיז שהיה",
+   "end_quote": "שמציע ומכין עצמו לעוה״ב",
+   "hasidic": true,
+   "summary_en": "R. Liber of Berditchev takes in a late-night guest after the fair and makes the bed himself; when the guest protests, he answers that he is making it for himself, meaning he is preparing himself for the world to come.",
+   "tags": [
+    {
+     "tag": "folkloristics:story_type_virtues",
+     "scope": "story",
+     "quotes": [],
+     "confidence": 3,
+     "why": "The anecdote exists to show R. Liber's hospitality and piety.",
+     "quotes_failed": false
+    },
+    {
+     "tag": "ethics-and-emotions:virtues",
+     "scope": "span",
+     "quotes": [
+      "וקיבלו ר׳ ליבר כדרך הכנסות אורחים"
+     ],
+     "confidence": 3,
+     "why": "Hospitality is the virtue at the centre of the story.",
+     "quotes_failed": false
+    },
+    {
+     "tag": "ethics-and-emotions:humility",
+     "scope": "span",
+     "quotes": [
+      "והציע לו בעצמו מטה לשכוב עליה",
+      "למה זה מעלתו בעצמו מטריח א״ע להציע לי"
+     ],
+     "confidence": 2,
+     "why": "A respected man makes up the guest's bed himself.",
+     "quotes_failed": false
+    },
+    {
+     "tag": "ethics-and-emotions:charity",
+     "scope": "span",
+     "quotes": [
+      "וקיבלו ר׳ ליבר כדרך הכנסות אורחים"
+     ],
+     "confidence": 1,
+     "why": "Hosting a guest is a form of kindness close to charity.",
+     "quotes_failed": false
+    },
+    {
+     "tag": "times:eschatology",
+     "scope": "span",
+     "quotes": [
+      "שמציע ומכין עצמו לעוה״ב"
+     ],
+     "confidence": 2,
+     "why": "The point of his reply is preparing for the world to come.",
+     "quotes_failed": false
+    },
+    {
+     "tag": "practice:storytelling",
+     "scope": "span",
+     "quotes": [
+      "סיפר הה״ק מהר״י זצ״ל מנשחיז"
+     ],
+     "confidence": 2,
+     "why": "The text frames the tale as told by a named tsaddik.",
+     "quotes_failed": false
+    },
+    {
+     "tag": "not-a-hasidic-story:virtues",
+     "scope": "story",
+     "quotes": [],
+     "confidence": 1,
+     "why": "It sits in an ethical anthology and closes with an explanatory moral gloss.",
+     "quotes_failed": false
+    }
+   ],
+   "missing_concepts": [
+    "hospitality (hakhnasat orchim)"
+   ],
+   "start_quote_found": true,
+   "end_quote_found": true
+  }
+ ],
+ "check": {
+  "non_vocab_tags": [],
+  "quotes": 6,
+  "quotes_not_found": 0
+ },
+ "id": "Derech-Haemuna_0074",
+ "chars": 366,
+ "seconds": 13
+}

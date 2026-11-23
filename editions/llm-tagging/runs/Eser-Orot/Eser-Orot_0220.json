@@ -1,0 +1,92 @@
+{
+ "unit": {
+  "kind": "hasidic_story",
+  "why": "A brief anecdote: the Seer of Lublin once blessed the new moon by reciting the blessing from the Gemara text. It is wrapped in a halakhic objection and defense attributed to the Rebbe of Neskhiz and quoted from Zikaron Tov.",
+  "boundary_note": ""
+ },
+ "stories": [
+  {
+   "k": 1,
+   "start_quote": "בספר זכרון טוב כ׳ וז\"ל ובענין",
+   "end_quote": "וזהו מליצה גדולה על הלובלינר זצ\"ל",
+   "hasidic": true,
+   "summary_en": "The Seer of Lublin once blessed the new moon from within the Talmud text, as a form of study, because blessing it was halakhically doubtful then. The Rebbe of Neskhiz objected that one may not pronounce the Name while studying, then defended him from the Maharsha's reading that mentioning the Name in a study context is permitted.",
+   "tags": [
+    {
+     "tag": "not-a-hasidic-story:sermon",
+     "scope": "story",
+     "quotes": [],
+     "confidence": 2,
+     "why": "The minimal anecdote sits inside an extended halakhic, justificatory discussion.",
+     "quotes_failed": false
+    },
+    {
+     "tag": "practice:halakhah",
+     "scope": "span",
+     "quotes": [
+      "דבלא״ה הי' קשה עפ\"י דין לקדשה אז",
+      "דגדול בשעה שלומד אסור להזכיר את השם"
+     ],
+     "confidence": 3,
+     "why": "The halakhic problem of blessing the moon and of pronouncing the Name is the core.",
+     "quotes_failed": false
+    },
+    {
+     "tag": "practice:study",
+     "scope": "span",
+     "quotes": [
+      "כדי שיהי' נראה כדרך לימוד"
+     ],
+     "confidence": 2,
+     "why": "He recites the blessing as an act of Talmud study.",
+     "quotes_failed": false
+    },
+    {
+     "tag": "practice:prayer",
+     "scope": "span",
+     "quotes": [
+      "שקידש הלבנה מתוך הגמ׳"
+     ],
+     "confidence": 2,
+     "why": "Kiddush levanah is a liturgical blessing.",
+     "quotes_failed": false
+    },
+    {
+     "tag": "ethics-and-emotions:prohibitions",
+     "scope": "span",
+     "quotes": [
+      "אסור להזכיר את השם",
+      "אסור להזכיר ש״ש דהוה לבטלה"
+     ],
+     "confidence": 2,
+     "why": "The prohibition on taking the Name in vain is at issue.",
+     "quotes_failed": false
+    },
+    {
+     "tag": "social:inter_hasidic",
+     "scope": "span",
+     "quotes": [
+      "ואמר כאדומו״ר זצ\"ל מנעסכיז שיש להמליץ על הללובלינר"
+     ],
+     "confidence": 1,
+     "why": "One tzaddik critiques and then defends another tzaddik's act.",
+     "quotes_failed": false
+    }
+   ],
+   "missing_concepts": [
+    "sanctification of the new moon (kiddush levanah)",
+    "pronouncing the divine Name in vain / in study"
+   ],
+   "start_quote_found": true,
+   "end_quote_found": true
+  }
+ ],
+ "check": {
+  "non_vocab_tags": [],
+  "quotes": 7,
+  "quotes_not_found": 0
+ },
+ "id": "Eser-Orot_0220",
+ "chars": 640,
+ "seconds": 14
+}

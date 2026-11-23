@@ -1,0 +1,124 @@
+{
+ "unit": {
+  "kind": "hasidic_story",
+  "why": "A short homiletic frame (the tsaddik benefits Israel by telling stories) leads into an anecdote: an arendar facing eviction comes to R. Israel of Ruzhin, who only tells stories and then dismisses him, saying the good has already been done.",
+  "boundary_note": ""
+ },
+ "stories": [
+  {
+   "k": 1,
+   "start_quote": "טו) מה נעשה לאחותינו במה יכול",
+   "end_quote": "(ס׳ עירין קדישין בלקוטי') :",
+   "hasidic": true,
+   "summary_en": "An arendar whose lord wants to evict him from his lease before Passover comes to R. Israel of Ruzhin. The rebbe tells stories throughout the man's plea, then says the good has already been done for him and sends him off in peace. This illustrates the teaching that a tsaddik's storytelling benefits Israel.",
+   "tags": [
+    {
+     "tag": "practice:storytelling",
+     "scope": "span",
+     "quotes": [
+      "והיה אבי ז״ל יושב ודיבר סיפורי מעשיות כל עת התנצלותו",
+      "ביום שידובר בה הצדיק סיפורי מעשיות בזה עושה טובה"
+     ],
+     "confidence": 3,
+     "why": "Storytelling as a theurgic act that helps the petitioner is the core of the tale",
+     "quotes_failed": false
+    },
+    {
+     "tag": "practice:torat_ha_tsaddik",
+     "scope": "span",
+     "quotes": [
+      "במה יכול הצדיק לעשות טובה לכנסת ישראל"
+     ],
+     "confidence": 3,
+     "why": "The tsaddik's power to act on behalf of Israel and of the individual",
+     "quotes_failed": false
+    },
+    {
+     "tag": "practice:reception_of_hasidim",
+     "scope": "span",
+     "quotes": [
+      "וקודם צאתו אמר לו רבי מה תשובתי ע״ז",
+      "כבר עשית לך טובה כו׳ לך לשלום"
+     ],
+     "confidence": 3,
+     "why": "A petitioner's audience with the rebbe, and his dismissal",
+     "quotes_failed": false
+    },
+    {
+     "tag": "practice:travel_to_the_tsaddik",
+     "scope": "span",
+     "quotes": [
+      "ופ״א בא אל א״א הה״ק ר״י מריזון זצל\"ה"
+     ],
+     "confidence": 2,
+     "why": "The arendar comes to the tsaddik with a request",
+     "quotes_failed": false
+    },
+    {
+     "tag": "characters-and-roles:tavern_keeper",
+     "scope": "span",
+     "quotes": [
+      "רענדאר א׳ וסיפר לו שאדון שלו"
+     ],
+     "confidence": 2,
+     "why": "The character is an arendar (leaseholder)",
+     "quotes_failed": false
+    },
+    {
+     "tag": "social:relations_with_non_jews",
+     "scope": "span",
+     "quotes": [
+      "שאדון שלו רוצה לדחותו מאראנדע קודם פסח"
+     ],
+     "confidence": 2,
+     "why": "The threat comes from the (presumably gentile) lord",
+     "quotes_failed": false
+    },
+    {
+     "tag": "practice:protection",
+     "scope": "span",
+     "quotes": [
+      "כבר עשית לך טובה כו׳ לך לשלום"
+     ],
+     "confidence": 2,
+     "why": "The tsaddik averts the lord's eviction of the arendar",
+     "quotes_failed": false
+    },
+    {
+     "tag": "practice:business_advice",
+     "scope": "span",
+     "quotes": [
+      "שאדון שלו רוצה לדחותו מאראנדע קודם פסח"
+     ],
+     "confidence": 1,
+     "why": "A lease (arenda) dealing brought to the rebbe, though no explicit advice is given",
+     "quotes_failed": false
+    },
+    {
+     "tag": "not-a-hasidic-story:sermon",
+     "scope": "span",
+     "quotes": [
+      "מה נעשה לאחותינו במה יכול הצדיק"
+     ],
+     "confidence": 1,
+     "why": "The anecdote is embedded in a brief homiletic frame on a verse",
+     "quotes_failed": false
+    }
+   ],
+   "missing_concepts": [
+    "lease (arenda) eviction threat",
+    "efficacy of the tsaddik's storytelling as intercession"
+   ],
+   "start_quote_found": true,
+   "end_quote_found": true
+  }
+ ],
+ "check": {
+  "non_vocab_tags": [],
+  "quotes": 11,
+  "quotes_not_found": 0
+ },
+ "id": "Derech-Haemuna_0017",
+ "chars": 364,
+ "seconds": 21
+}

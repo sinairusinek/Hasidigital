@@ -1,0 +1,114 @@
+{
+ "unit": {
+  "kind": "hasidic_story",
+  "why": "A single anecdote, told by a named hasid, about the tzaddik staying awake all night in thought over a sinful visitor.",
+  "boundary_note": ""
+ },
+ "stories": [
+  {
+   "k": 1,
+   "start_quote": "סיפר הרה״ח מו\"ה משה דוד גוטמאן ז\"ל",
+   "end_quote": "ווארפין פון כלל ישראל איז מיר זייער שווער עס איז דאך אנפש",
+   "hasidic": true,
+   "summary_en": "The hasid Moshe David Gutman, who waited each night in the house of R. A\"Y of S\"G until dismissed, could not rouse him from his holy thoughts one night until dawn. The rebbe explained that a man had come to him that day whom he could neither bring into Klal Yisrael, because his deeds were too foul, nor cast out, because he was still a soul.",
+   "tags": [
+    {
+     "tag": "practice:devekut",
+     "scope": "span",
+     "quotes": [
+      "כי הי' דבוק מאד במוחין קדישין"
+     ],
+     "confidence": 3,
+     "why": "The rebbe is rapt in holy thought for hours.",
+     "quotes_failed": false
+    },
+    {
+     "tag": "practice:meditation",
+     "scope": "span",
+     "quotes": [
+      "הרה״ק הלך אנה ואנה בחדרו משוטט ברעיונות קדושתו"
+     ],
+     "confidence": 2,
+     "why": "A night-long vigil of deep contemplation.",
+     "quotes_failed": false
+    },
+    {
+     "tag": "social:relations_with_sinners",
+     "scope": "span",
+     "quotes": [
+      "אריין נעמין איהם אין כלל ישראל איז זייער ביטטער",
+      "ארויס ווארפין פון כלל ישראל איז מיר זייער שווער"
+     ],
+     "confidence": 3,
+     "why": "The rebbe agonizes over how to treat a grave sinner.",
+     "quotes_failed": false
+    },
+    {
+     "tag": "practice:reception_of_hasidim",
+     "scope": "span",
+     "quotes": [
+      "עס איז אצלי גיוועזין היום אמענטש וואס איך קען מיר מיט אים קיין עצה נישט געבין"
+     ],
+     "confidence": 2,
+     "why": "A visitor came to the rebbe for advice.",
+     "quotes_failed": false
+    },
+    {
+     "tag": "social:inter_hasidic_master_disciple_relationship",
+     "scope": "span",
+     "quotes": [
+      "אשר בכל לילה עמד בבית הרה״ק רא\"י מס\"ג",
+      "רבינו ימחול לי כי אני מזכירו"
+     ],
+     "confidence": 2,
+     "why": "The attendant hasid's nightly service of the rebbe frames the story.",
+     "quotes_failed": false
+    },
+    {
+     "tag": "spaces:institutions_hassidic_court",
+     "scope": "span",
+     "quotes": [
+      "אשר בכל לילה עמד בבית הרה״ק"
+     ],
+     "confidence": 2,
+     "why": "The story is set in the rebbe's house.",
+     "quotes_failed": false
+    },
+    {
+     "tag": "practice:storytelling",
+     "scope": "span",
+     "quotes": [
+      "סיפר הרה״ח מו\"ה משה דוד גוטמאן ז\"ל"
+     ],
+     "confidence": 1,
+     "why": "The story is framed as told by a named hasid.",
+     "quotes_failed": false
+    },
+    {
+     "tag": "practice:healing_of_the_soul",
+     "scope": "span",
+     "quotes": [
+      "עס איז דאך אנפש"
+     ],
+     "confidence": 1,
+     "why": "The rebbe weighs whether this soul can be repaired or must be rejected.",
+     "quotes_failed": false
+    }
+   ],
+   "missing_concepts": [
+    "the tzaddik's sleeplessness or vigil caused by concern for another person",
+    "moral dilemma of the tzaddik"
+   ],
+   "start_quote_found": true,
+   "end_quote_found": true
+  }
+ ],
+ "check": {
+  "non_vocab_tags": [],
+  "quotes": 10,
+  "quotes_not_found": 0
+ },
+ "id": "Eser-Orot_0319",
+ "chars": 911,
+ "seconds": 15
+}

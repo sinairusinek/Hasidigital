@@ -1,0 +1,135 @@
+{
+ "unit": {
+  "kind": "hasidic_story",
+  "why": "On Shavuot night musicians play before the Rebbe of Neskhiz. He tells that the Besht could read a musician's life from his melody, and then tells an anecdote about his father R. Mordechai, who recognized from the children's singing what script they were studying.",
+  "boundary_note": ""
+ },
+ "stories": [
+  {
+   "k": 1,
+   "start_quote": "ליל ג׳ א״ח דשבועות תרכ״ז ניגנו לפני",
+   "end_quote": "וצריך לדעת איך להתנהג בזה",
+   "hasidic": true,
+   "summary_en": "During Shavuot 1867, while musicians played before him, the Rebbe of Neskhiz told that the Besht could discern a musician's deeds from his melody, and that his father R. Mordechai, staying with the hospitable R. Hirsh in Mechnivka to help him in hard times, recognized from the singing of Hirsh's children that they were studying a script whose letters each hold a kelipah.",
+   "tags": [
+    {
+     "tag": "practice:music",
+     "scope": "span",
+     "quotes": [
+      "ניגנו לפני מרן מנעסכיז בעלי כלי זמר ומנגנים",
+      "כשהי׳ הילדים מנגנים על שולחנו"
+     ],
+     "confidence": 3,
+     "why": "Musicians playing and children singing are central to the story.",
+     "quotes_failed": false
+    },
+    {
+     "tag": "times:holidays",
+     "scope": "span",
+     "quotes": [
+      "ליל ג׳ א״ח דשבועות תרכ״ז"
+     ],
+     "confidence": 3,
+     "why": "The frame is set on Shavuot.",
+     "quotes_failed": false
+    },
+    {
+     "tag": "practice:storytelling",
+     "scope": "span",
+     "quotes": [
+      "וסיפר שהבעש״ט זל״ה הי׳ מכיר",
+      "וסיפר שאביו הג׳ מהר״מ זצל״ה"
+     ],
+     "confidence": 3,
+     "why": "The tsaddik narrates tales at the holiday gathering.",
+     "quotes_failed": false
+    },
+    {
+     "tag": "supernatural:perception",
+     "scope": "span",
+     "quotes": [
+      "הי׳ מכיר בניגון הכלי זמר מה שעשה המנגן מיום הוולדו",
+      "והכיר בקולם שהיו לומדים כתב"
+     ],
+     "confidence": 3,
+     "why": "Both the Besht and R. Mordechai discern hidden facts from sound.",
+     "quotes_failed": false
+    },
+    {
+     "tag": "characters-and-roles:the_family_of_the_tsaddik",
+     "scope": "span",
+     "quotes": [
+      "וסיפר שאביו הג׳ מהר״מ זצל״ה"
+     ],
+     "confidence": 2,
+     "why": "The narrating rebbe's father is the protagonist of the inner anecdote.",
+     "quotes_failed": false
+    },
+    {
+     "tag": "practice:the_travels_of_the_tsaddik",
+     "scope": "span",
+     "quotes": [
+      "נסע על שתי שבתות לכפר מעכניווקע"
+     ],
+     "confidence": 3,
+     "why": "R. Mordechai travels to a village and stays there, and the anecdote happens during that stay.",
+     "quotes_failed": false
+    },
+    {
+     "tag": "ethics-and-emotions:charity",
+     "scope": "span",
+     "quotes": [
+      "שהי' מכניס אורח גדול",
+      "ורצה הרצה״ק לעשות לו טובה"
+     ],
+     "confidence": 2,
+     "why": "The host is known for hospitality, and the tsaddik travels to help him in hard times.",
+     "quotes_failed": false
+    },
+    {
+     "tag": "knowledge:esoteric",
+     "scope": "span",
+     "quotes": [
+      "בכל אות מהאותיות ההם יש קליפה מיוחדת"
+     ],
+     "confidence": 2,
+     "why": "The teaching that each letter holds a specific kelipah is esoteric knowledge.",
+     "quotes_failed": false
+    },
+    {
+     "tag": "practice:study",
+     "scope": "span",
+     "quotes": [
+      "תמיהני שהילדים של מעלתו ילמדו זה"
+     ],
+     "confidence": 2,
+     "why": "The children's study of the script is the subject of the remark.",
+     "quotes_failed": false
+    },
+    {
+     "tag": "folkloristics:story_type_virtues",
+     "scope": "story",
+     "quotes": [],
+     "confidence": 1,
+     "why": "The story displays the tsaddikim's spiritual discernment.",
+     "quotes_failed": false
+    }
+   ],
+   "missing_concepts": [
+    "spiritual reading of melody (music reveals a person's deeds)",
+    "danger of studying foreign or impure scripts (kelipot in letters)",
+    "hospitality (hakhnasat orchim) as a distinct virtue"
+   ],
+   "start_quote_found": true,
+   "end_quote_found": true
+  }
+ ],
+ "check": {
+  "non_vocab_tags": [],
+  "quotes": 13,
+  "quotes_not_found": 0
+ },
+ "id": "Derech-Haemuna_0147",
+ "chars": 664,
+ "seconds": 19
+}

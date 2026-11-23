@@ -1,0 +1,92 @@
+{
+ "unit": {
+  "kind": "hasidic_story",
+  "why": "A short anecdote: a householder asks the holy rabbi to come to his house tomorrow, and the rabbi refuses to promise, explaining that prayer involves self-sacrifice; a moral lesson follows.",
+  "boundary_note": "the division ends with the section heading 'מענין הגאולה', which belongs to the next division"
+ },
+ "stories": [
+  {
+   "k": 1,
+   "start_quote": "פ״א ביקש בעה״ב אחד את מהה״צ",
+   "end_quote": "שיקודש על ידו שם שמים",
+   "hasidic": true,
+   "summary_en": "When a householder asks the tsaddik R. Sh. K. to come to his house tomorrow, the tsaddik calls him a fool and refuses to promise: the evening Shema, sleep, the morning prayer and falling on the face each involve self-sacrifice, and God may grant his wish to give up his life; the text then concludes that a person must cast off evil desires and seek only to sanctify God's name.",
+   "tags": [
+    {
+     "tag": "practice:prayer",
+     "scope": "span",
+     "quotes": [
+      "הלא צריך היום להתפלל ערבית ולקרות ק״ש",
+      "ויש בהתפלה כמה עולמות עד שבאים לק״ש"
+     ],
+     "confidence": 3,
+     "why": "the tsaddik's refusal rests on what the coming prayers demand of him",
+     "quotes_failed": false
+    },
+    {
+     "tag": "not-a-hasidic-story:sermon",
+     "scope": "story",
+     "quotes": [],
+     "confidence": 2,
+     "why": "a minimal anecdote wrapped in a homiletic conclusion ('כללו של דבר')",
+     "quotes_failed": false
+    },
+    {
+     "tag": "ethics-and-emotions:lust",
+     "scope": "span",
+     "quotes": [
+      "שצריך האדם לבטל ממנו כל התאוות רעות"
+     ],
+     "confidence": 1,
+     "why": "the concluding lesson calls for nullifying evil desires",
+     "quotes_failed": false
+    },
+    {
+     "tag": "ethics-and-emotions:virtues",
+     "scope": "span",
+     "quotes": [
+      "רק לראות שיקודש על ידו שם שמים"
+     ],
+     "confidence": 2,
+     "why": "the moral point is sanctifying God's name and casting off bad traits",
+     "quotes_failed": false
+    },
+    {
+     "tag": "practice:devekut",
+     "scope": "span",
+     "quotes": [
+      "ושמא יתן הקב״ה שימלא לי רצוני"
+     ],
+     "confidence": 1,
+     "why": "the tsaddik hopes to expire in prayer, a sign of total attachment to God",
+     "quotes_failed": false
+    },
+    {
+     "tag": "social:relations_with_non_hasidim",
+     "scope": "span",
+     "quotes": [
+      "ביקש בעה״ב אחד את מהה״צ"
+     ],
+     "confidence": 1,
+     "why": "the tsaddik deals with an ordinary householder; his affiliation is unclear",
+     "quotes_failed": false
+    }
+   ],
+   "missing_concepts": [
+    "mesirut nefesh (self-sacrifice) in the Shema and in falling on the face",
+    "refusing to promise future actions (not committing about tomorrow)",
+    "kiddush ha-shem (sanctifying God's name)"
+   ],
+   "start_quote_found": true,
+   "end_quote_found": true
+  }
+ ],
+ "check": {
+  "non_vocab_tags": [],
+  "quotes": 6,
+  "quotes_not_found": 0
+ },
+ "id": "Derech-Haemuna_0064",
+ "chars": 411,
+ "seconds": 15
+}

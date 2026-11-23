@@ -1,0 +1,131 @@
+{
+ "unit": {
+  "kind": "hasidic_story",
+  "why": "A short anecdote. As a youth the tsaddik foresaw a tailor's death, which came true. He grieved over these spiritual powers and sought tsaddikim who could take them from him, and only his master in Medzhybizh succeeded.",
+  "boundary_note": ""
+ },
+ "stories": [
+  {
+   "k": 1,
+   "start_quote": "ושמעתי אומרים משמו כי מנעוריו היה",
+   "end_quote": "בכל העת שהיה במעזבוז",
+   "hasidic": true,
+   "summary_en": "From his youth the tsaddik travelled to tsaddikim and asked them to remove his supernatural spiritual levels. He once foresaw a tailor's death, which happened within thirty days, and wept that he had not averted the decree. Wishing only to serve God in simplicity, he found no tsaddik who could help, except his master in Medzhybizh while he stayed there.",
+   "tags": [
+    {
+     "tag": "supernatural:prognostication",
+     "scope": "span",
+     "quotes": [
+      "ראה על חייט אחד שימות",
+      "ובתוך השלשים נפטר מן העולם"
+     ],
+     "confidence": 3,
+     "why": "He foresaw the tailor's death, and it came true.",
+     "quotes_failed": false
+    },
+    {
+     "tag": "supernatural:perception",
+     "scope": "span",
+     "quotes": [
+      "ראה על חייט אחד שימות"
+     ],
+     "confidence": 3,
+     "why": "His knowledge of the coming death was supernatural.",
+     "quotes_failed": false
+    },
+    {
+     "tag": "times:death",
+     "scope": "span",
+     "quotes": [
+      "ובתוך השלשים נפטר מן העולם"
+     ],
+     "confidence": 2,
+     "why": "The tailor's death is reported.",
+     "quotes_failed": false
+    },
+    {
+     "tag": "ethics-and-emotions:sadness",
+     "scope": "span",
+     "quotes": [
+      "והיה מצטער ובוכה"
+     ],
+     "confidence": 2,
+     "why": "He grieves and weeps over the death.",
+     "quotes_failed": false
+    },
+    {
+     "tag": "ethics-and-emotions:humility",
+     "scope": "span",
+     "quotes": [
+      "לא היה חפץ בכל המדרגות רק לעבוד ה׳ בתמימות"
+     ],
+     "confidence": 3,
+     "why": "He rejects spiritual levels and wants only simple service of God.",
+     "quotes_failed": false
+    },
+    {
+     "tag": "folkloristics:story_type_virtues",
+     "scope": "story",
+     "quotes": [],
+     "confidence": 2,
+     "why": "The point of the anecdote is his simplicity and humility.",
+     "quotes_failed": false
+    },
+    {
+     "tag": "practice:travel_to_the_tsaddik",
+     "scope": "span",
+     "quotes": [
+      "מנעוריו היה נוסע לכמה צדיקים"
+     ],
+     "confidence": 3,
+     "why": "He journeyed to tsaddikim with a request.",
+     "quotes_failed": false
+    },
+    {
+     "tag": "practice:failure",
+     "scope": "span",
+     "quotes": [
+      "וכל הצדיקים לא הועילו לו לבטל ממנו המדרגות"
+     ],
+     "confidence": 2,
+     "why": "The other tsaddikim failed to grant his request.",
+     "quotes_failed": false
+    },
+    {
+     "tag": "social:inter_hasidic_master_disciple_relationship",
+     "scope": "span",
+     "quotes": [
+      "רק מורו ורבו ממעזבוז הועיל לו"
+     ],
+     "confidence": 2,
+     "why": "Only his own master succeeds where the others failed.",
+     "quotes_failed": false
+    },
+    {
+     "tag": "practice:torat_ha_tsaddik",
+     "scope": "span",
+     "quotes": [
+      "כדי שאבטל הגזרה ממנו"
+     ],
+     "confidence": 1,
+     "why": "He assumes a tsaddik's foreknowledge implies a duty to annul the decree.",
+     "quotes_failed": false
+    }
+   ],
+   "missing_concepts": [
+    "asking to have one's supernatural spiritual levels or powers removed",
+    "foreknowledge as a burden that obliges one to intercede"
+   ],
+   "start_quote_found": true,
+   "end_quote_found": true
+  }
+ ],
+ "check": {
+  "non_vocab_tags": [],
+  "quotes": 10,
+  "quotes_not_found": 0
+ },
+ "id": "Toldot-Haniflaot_0033",
+ "chars": 373,
+ "seconds": 17
+}

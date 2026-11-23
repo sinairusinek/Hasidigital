@@ -1,0 +1,82 @@
+{
+ "unit": {
+  "kind": "hasidic_story",
+  "why": "A short anecdote: the Great Maggid's disciples argue over what he taught, and he settles it by saying both versions are included in his words.",
+  "boundary_note": "The trailing heading 'מענין תיקון ליל שבועות' introduces the next division."
+ },
+ "stories": [
+  {
+   "k": 1,
+   "start_quote": "סיפר אשר בין תלמידי המגיד הגדול",
+   "end_quote": "כי הדיבורים שאמרתי כולל דברי כולם",
+   "hasidic": true,
+   "summary_en": "The Great Maggid's disciples disputed what he had said in a teaching, each claiming his own version, and the Maggid answered that both were 'words of the living God' because his words included all of theirs.",
+   "tags": [
+    {
+     "tag": "social:inter_hasidic_master_disciple_relationship",
+     "scope": "span",
+     "quotes": [
+      "בין תלמידי המגיד הגדול ז״ל היה וויכוח"
+     ],
+     "confidence": 3,
+     "why": "The Maggid resolves a dispute among his disciples.",
+     "quotes_failed": false
+    },
+    {
+     "tag": "social:inter_hasidic",
+     "scope": "span",
+     "quotes": [
+      "זה אומר כך אמר המגיד וזה אומר כך אמר המגיד"
+     ],
+     "confidence": 2,
+     "why": "The disciples argue among themselves.",
+     "quotes_failed": false
+    },
+    {
+     "tag": "practice:sermon",
+     "scope": "span",
+     "quotes": [
+      "היה וויכוח על תורה שאמר המגיד"
+     ],
+     "confidence": 2,
+     "why": "The dispute concerns the Maggid's Torah discourse.",
+     "quotes_failed": false
+    },
+    {
+     "tag": "practice:storytelling",
+     "scope": "span",
+     "quotes": [
+      "סיפר אשר בין תלמידי המגיד הגדול"
+     ],
+     "confidence": 1,
+     "why": "The anecdote is framed as told by someone (סיפר).",
+     "quotes_failed": false
+    },
+    {
+     "tag": "social:conflict",
+     "scope": "span",
+     "quotes": [
+      "היה וויכוח על תורה שאמר המגיד"
+     ],
+     "confidence": 1,
+     "why": "A scholarly dispute that is resolved.",
+     "quotes_failed": false
+    }
+   ],
+   "missing_concepts": [
+    "multiplicity of legitimate interpretations of a master's teaching (elu va-elu)",
+    "oral transmission of the tsaddik's Torah"
+   ],
+   "start_quote_found": true,
+   "end_quote_found": true
+  }
+ ],
+ "check": {
+  "non_vocab_tags": [],
+  "quotes": 5,
+  "quotes_not_found": 0
+ },
+ "id": "Derech-Haemuna_0207",
+ "chars": 234,
+ "seconds": 13
+}

@@ -1,0 +1,90 @@
+{
+ "unit": {
+  "kind": "non_hasidic_story",
+  "why": "A short anecdote about the pre-Hasidic halakhist R. Falk Kohen (author of the Sma), who lost a lawsuit in which his own book's ruling applied, told to illustrate the rabbinic dictum that no one sees fault in himself.",
+  "boundary_note": "The division ends with '(ס׳ י״מ) : מענין אכילה', a source reference and the topic heading of the next item; the heading belongs to the next division."
+ },
+ "stories": [
+  {
+   "k": 1,
+   "start_quote": "והנה שמעתי דבר הפלא ממגידי אמת",
+   "end_quote": "שאמרו אין אדם רואה חובה לעצמו וכו׳",
+   "hasidic": false,
+   "summary_en": "R. Falk Kohen, author of the Sma, has a lawsuit and is ordered to pay 22,000. He is shown that his own book rules this way on such a case, marvels at himself, and affirms the sages' saying that no one sees fault in himself.",
+   "tags": [
+    {
+     "tag": "not-a-hasidic-story:hagiography",
+     "scope": "story",
+     "quotes": [],
+     "confidence": 2,
+     "why": "Anecdote about an earlier, non-Hasidic rabbinic authority, the Sma.",
+     "quotes_failed": false
+    },
+    {
+     "tag": "practice:halakhah",
+     "scope": "span",
+     "quotes": [
+      "היה לו דין עם אדם אחד ופסקו",
+      "כך וכך על הדין כזה"
+     ],
+     "confidence": 3,
+     "why": "A legal ruling is decided according to his own halakhic work.",
+     "quotes_failed": false
+    },
+    {
+     "tag": "spaces:rabbinical_court",
+     "scope": "span",
+     "quotes": [
+      "היה לו דין עם אדם אחד ופסקו"
+     ],
+     "confidence": 2,
+     "why": "The lawsuit is adjudicated by a court.",
+     "quotes_failed": false
+    },
+    {
+     "tag": "social:retrospective_recognition",
+     "scope": "span",
+     "quotes": [
+      "והתפלא הפלא ופלא על עצמו"
+     ],
+     "confidence": 2,
+     "why": "He belatedly realizes that his own ruling applied to his case.",
+     "quotes_failed": false
+    },
+    {
+     "tag": "ethics-and-emotions:humility",
+     "scope": "span",
+     "quotes": [
+      "אכן נודע כמה גדולים דברי חז״ל"
+     ],
+     "confidence": 1,
+     "why": "He admits his own blindness to his fault.",
+     "quotes_failed": false
+    },
+    {
+     "tag": "not-a-hasidic-story:virtues",
+     "scope": "story",
+     "quotes": [],
+     "confidence": 1,
+     "why": "Placed under the topic heading 'אין אדם רואה חובה לעצמו' as an ethical lesson.",
+     "quotes_failed": false
+    }
+   ],
+   "missing_concepts": [
+    "self-bias in judgment (no one sees fault in himself)",
+    "a scholar's own book used against him in a lawsuit",
+    "monetary litigation"
+   ],
+   "start_quote_found": true,
+   "end_quote_found": true
+  }
+ ],
+ "check": {
+  "non_vocab_tags": [],
+  "quotes": 5,
+  "quotes_not_found": 0
+ },
+ "id": "Derech-Haemuna_0009",
+ "chars": 342,
+ "seconds": 12
+}

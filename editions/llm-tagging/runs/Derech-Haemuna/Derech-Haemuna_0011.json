@@ -1,0 +1,130 @@
+{
+ "unit": {
+  "kind": "hasidic_story",
+  "why": "A single narrative about the Besht travelling with a thirsty disciple in the desert and water appearing through divine providence, framed as a lesson on faith (emunah).",
+  "boundary_note": ""
+ },
+ "stories": [
+  {
+   "k": 1,
+   "start_quote": "ופעם אחת נסע מרן הק׳ אור ישראל",
+   "end_quote": "צפה השגחהו יתברך ברגע של בריאת עולם",
+   "hasidic": true,
+   "summary_en": "While travelling with the Besht through a waterless wasteland, a disciple nearly dies of thirst. The Besht asks whether he believes God foresaw his need at Creation. Once the disciple affirms his faith, they meet a gentile carrying water sent by his deranged lord, and the Besht points to divine providence.",
+   "tags": [
+    {
+     "tag": "practice:the_travels_of_the_tsaddik",
+     "scope": "story",
+     "quotes": [],
+     "confidence": 3,
+     "why": "The Besht's journey with a disciple frames the whole story",
+     "quotes_failed": false
+    },
+    {
+     "tag": "social:inter_hasidic_master_disciple_relationship",
+     "scope": "span",
+     "quotes": [
+      "נסע מרן הק׳ אור ישראל הריבעש״ט עם תלמיד אחד"
+     ],
+     "confidence": 3,
+     "why": "The master tests and teaches his disciple",
+     "quotes_failed": false
+    },
+    {
+     "tag": "supernatural:miracle",
+     "scope": "span",
+     "quotes": [
+      "וראו שגוי אחד נושא שני כלים מים על כתיפיו"
+     ],
+     "confidence": 2,
+     "why": "Water appears providentially in the desert",
+     "quotes_failed": false
+    },
+    {
+     "tag": "social:relations_with_non_jews",
+     "scope": "span",
+     "quotes": [
+      "ושאל מרן לגוי מה זה שאתה נושא כאן מים"
+     ],
+     "confidence": 3,
+     "why": "They interact with the gentile water-carrier",
+     "quotes_failed": false
+    },
+    {
+     "tag": "practice:lifesaving",
+     "scope": "span",
+     "quotes": [
+      "והתלמיד צמא למים עד סכנת מות"
+     ],
+     "confidence": 2,
+     "why": "The disciple is saved from mortal thirst",
+     "quotes_failed": false
+    },
+    {
+     "tag": "folkloristics:story_type_virtues",
+     "scope": "story",
+     "quotes": [],
+     "confidence": 2,
+     "why": "Illustrates the virtue of faith in providence",
+     "quotes_failed": false
+    },
+    {
+     "tag": "not-a-hasidic-story:virtues",
+     "scope": "span",
+     "quotes": [
+      "ועיקר הוא האמונה"
+     ],
+     "confidence": 2,
+     "why": "The story is framed as instruction in emunah under the heading on faith",
+     "quotes_failed": false
+    },
+    {
+     "tag": "ethics-and-emotions:virtues",
+     "scope": "span",
+     "quotes": [
+      "מאמין אתה שברגע שברא הקב״ה העולם",
+      "אני מאמין באמת"
+     ],
+     "confidence": 3,
+     "why": "Faith is the virtue at issue",
+     "quotes_failed": false
+    },
+    {
+     "tag": "supernatural:perception",
+     "scope": "span",
+     "quotes": [
+      "והשיבו המתן מעט"
+     ],
+     "confidence": 1,
+     "why": "The Besht seems to foreknow that water is coming",
+     "quotes_failed": false
+    },
+    {
+     "tag": "social:retrospective_recognition",
+     "scope": "span",
+     "quotes": [
+      "ראה השגחתו יתברך ברא בשבילך שר להשתגע"
+     ],
+     "confidence": 2,
+     "why": "The lord's madness is revealed as providential preparation",
+     "quotes_failed": false
+    }
+   ],
+   "missing_concepts": [
+    "divine providence (hashgacha pratit)",
+    "faith/emunah as a distinct virtue",
+    "thirst/desert peril"
+   ],
+   "start_quote_found": true,
+   "end_quote_found": true
+  }
+ ],
+ "check": {
+  "non_vocab_tags": [],
+  "quotes": 9,
+  "quotes_not_found": 0
+ },
+ "id": "Derech-Haemuna_0011",
+ "chars": 784,
+ "seconds": 13
+}

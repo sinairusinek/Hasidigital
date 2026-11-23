@@ -1,0 +1,80 @@
+{
+ "unit": {
+  "kind": "hasidic_story",
+  "why": "A short deathbed scene: before he dies, the (unnamed here) tsaddik asks for his writings, apologizes that he leaves no son, and calls his books his legacy.",
+  "boundary_note": "The subject is not named in this division; he is presumably identified in an earlier division of this sequence."
+ },
+ "stories": [
+  {
+   "k": 1,
+   "start_quote": "טרם פטירתו דרש להגיש אליו כתביו",
+   "end_quote": "מה שכוונתי אז בעת כתיבתי",
+   "hasidic": true,
+   "summary_en": "Before his death the author asks for his Torah writings (Amud ha-Torah and Da'at Kedoshim), apologizes that he leaves no male heir, says his books are his support, and remarks that had he not known the author he would think an angel wrote them, since he himself must toil to understand what he meant.",
+   "tags": [
+    {
+     "tag": "folkloristics:story_type_death_of_the_tsaddik",
+     "scope": "story",
+     "quotes": [],
+     "confidence": 3,
+     "why": "The whole scene is a deathbed scene with last words.",
+     "quotes_failed": false
+    },
+    {
+     "tag": "times:death",
+     "scope": "span",
+     "quotes": [
+      "טרם פטירתו דרש להגיש אליו כתביו"
+     ],
+     "confidence": 2,
+     "why": "The scene is set at his impending death.",
+     "quotes_failed": false
+    },
+    {
+     "tag": "practice:study",
+     "scope": "span",
+     "quotes": [
+      "צריך ליגע כמה פעמים להבין דברי"
+     ],
+     "confidence": 2,
+     "why": "His Torah writings and the toil needed to understand them are central.",
+     "quotes_failed": false
+    },
+    {
+     "tag": "characters-and-roles:the_family_of_the_tsaddik",
+     "scope": "span",
+     "quotes": [
+      "כי איננו מניח בן זכר"
+     ],
+     "confidence": 1,
+     "why": "Only the absence of a son is mentioned.",
+     "quotes_failed": false
+    },
+    {
+     "tag": "social:inter_hasidic_inheritance_of_leadership",
+     "scope": "span",
+     "quotes": [
+      "אבל תמכתי יתידותי בספרי החכמ׳"
+     ],
+     "confidence": 1,
+     "why": "His books stand in for a son as his legacy, a borderline succession theme.",
+     "quotes_failed": false
+    }
+   ],
+   "missing_concepts": [
+    "authorship of books as a legacy in place of children",
+    "a tsaddik's own writings described as written by an angel / beyond his own understanding"
+   ],
+   "start_quote_found": true,
+   "end_quote_found": true
+  }
+ ],
+ "check": {
+  "non_vocab_tags": [],
+  "quotes": 4,
+  "quotes_not_found": 0
+ },
+ "id": "Peulat-Hatzadikim_0038",
+ "chars": 287,
+ "seconds": 15
+}

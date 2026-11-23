@@ -1,0 +1,170 @@
+{
+ "unit": {
+  "kind": "hasidic_story",
+  "why": "A first-person memorate: the narrator, a student in the tsaddik's yeshiva, raises a halakhic objection on Shabbat ha-Gadol, the master checks it and answers, and then explains why Torah debate proceeds through questions and answers.",
+  "boundary_note": "section 25 in the next division is a separate tale told right after this one ('ואח״כ מיד סיפר')"
+ },
+ "stories": [
+  {
+   "k": 1,
+   "start_quote": "וראינו בחוש כי כל פלפוליו היו",
+   "end_quote": "יתנהג כפי ההלכה הלזו וכנ\"ל",
+   "hasidic": true,
+   "summary_en": "Before Pesach the tsaddik was teaching the rule that fruit juice does not cause leavening. On Shabbat ha-Gadol a student, the narrator, cited a law that seemed to contradict him, and the tsaddik stood astonished while the student trembled. The tsaddik studied the law in his room, came back to show there was no contradiction, and explained mystically that questions and answers break the husks and screens, so that a law rooted above can be drawn down into this world.",
+   "tags": [
+    {
+     "tag": "practice:study",
+     "scope": "story",
+     "quotes": [],
+     "confidence": 3,
+     "why": "the whole story is a scene of Talmudic and halakhic learning (pilpul on a sugya)",
+     "quotes_failed": false
+    },
+    {
+     "tag": "practice:halakhah",
+     "scope": "span",
+     "quotes": [
+      "השיטה דמי פירות אין מחמיצין",
+      "ואמר שאין סתירה מהלכה זו לדבריו"
+     ],
+     "confidence": 3,
+     "why": "a point of Pesach law is debated and resolved",
+     "quotes_failed": false
+    },
+    {
+     "tag": "spaces:beth_midrash",
+     "scope": "span",
+     "quotes": [
+      "ואז הייתי גם אני לומד בישיבתו"
+     ],
+     "confidence": 2,
+     "why": "the setting is the tsaddik's yeshiva",
+     "quotes_failed": false
+    },
+    {
+     "tag": "times:shabbat",
+     "scope": "span",
+     "quotes": [
+      "ובשבת הגדול קודם התפלה נכנסו איזהו אנשים"
+     ],
+     "confidence": 2,
+     "why": "the scene takes place on Shabbat ha-Gadol",
+     "quotes_failed": false
+    },
+    {
+     "tag": "times:holidays",
+     "scope": "span",
+     "quotes": [
+      "פ״א קודם פסח היה לומד"
+     ],
+     "confidence": 1,
+     "why": "the story is set just before Pesach",
+     "quotes_failed": false
+    },
+    {
+     "tag": "experience:trembling",
+     "scope": "span",
+     "quotes": [
+      "והייתי חרד מאד וארכבותי דא לדא נקשן"
+     ],
+     "confidence": 3,
+     "why": "the narrator's knees knock together",
+     "quotes_failed": false
+    },
+    {
+     "tag": "ethics-and-emotions:fear",
+     "scope": "span",
+     "quotes": [
+      "והייתי חרד מאד וארכבותי דא לדא נקשן"
+     ],
+     "confidence": 3,
+     "why": "the student is afraid in front of the tsaddik",
+     "quotes_failed": false
+    },
+    {
+     "tag": "ethics-and-emotions:awe",
+     "scope": "span",
+     "quotes": [
+      "כי לא ראיתיו מעולם שיהיה נשאר עומד משתומם"
+     ],
+     "confidence": 2,
+     "why": "the student's awe of the tsaddik",
+     "quotes_failed": false
+    },
+    {
+     "tag": "social:inter_hasidic_master_disciple_relationship",
+     "scope": "story",
+     "quotes": [],
+     "confidence": 3,
+     "why": "an exchange between the master and his student",
+     "quotes_failed": false
+    },
+    {
+     "tag": "kabbalah:kabbalistic_terms_yihudim",
+     "scope": "span",
+     "quotes": [
+      "כל פלפוליו היו ביחודים קדושים ליחד למעלה"
+     ],
+     "confidence": 2,
+     "why": "the tsaddik's Torah debate is described as mystical unifications",
+     "quotes_failed": false
+    },
+    {
+     "tag": "practice:meditation",
+     "scope": "span",
+     "quotes": [
+      "כל פלפוליו היו ביחודים קדושים ליחד למעלה"
+     ],
+     "confidence": 1,
+     "why": "the tsaddik performs yihudim through his learning",
+     "quotes_failed": false
+    },
+    {
+     "tag": "knowledge:esoteric",
+     "scope": "span",
+     "quotes": [
+      "כי הקושיות המה בהי' קליפות ומסכים",
+      "ובהפירוקי׳ נשברים הקליפות והמסכים"
+     ],
+     "confidence": 3,
+     "why": "a kabbalistic doctrine of husks and screens",
+     "quotes_failed": false
+    },
+    {
+     "tag": "practice:sermon",
+     "scope": "span",
+     "quotes": [
+      "ואמר הוא ז\"ל הענין מה שהיה רוצה ר\"י",
+      "כי נודע כי כל דבריהם הקדושים אלו ואלו"
+     ],
+     "confidence": 3,
+     "why": "the tsaddik delivers an exegetical teaching on the passage in Bava Metzia",
+     "quotes_failed": false
+    },
+    {
+     "tag": "not-a-hasidic-story:sermon",
+     "scope": "story",
+     "quotes": [],
+     "confidence": 1,
+     "why": "the short narrative is wrapped in an extended homiletic explanation",
+     "quotes_failed": false
+    }
+   ],
+   "missing_concepts": [
+    "memorate (first-person eyewitness narrator)",
+    "a student challenging the master's halakhic ruling",
+    "the theurgic value of Torah questions and answers (kushyot and pirukim)"
+   ],
+   "start_quote_found": true,
+   "end_quote_found": true
+  }
+ ],
+ "check": {
+  "non_vocab_tags": [],
+  "quotes": 14,
+  "quotes_not_found": 0
+ },
+ "id": "Toldot-Haniflaot_0019",
+ "chars": 1941,
+ "seconds": 22
+}

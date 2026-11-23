@@ -1,0 +1,129 @@
+{
+ "unit": {
+  "kind": "hasidic_story",
+  "why": "A short anecdote: on the Maggid's first visit, the Besht has him honoured and reveals that his father R. Yitzhak of Drohobych raised a lowly soul to the level of Rashbi. The anecdote is followed by a homiletic comment from Agra de-Pirka.",
+  "boundary_note": ""
+ },
+ "stories": [
+  {
+   "k": 1,
+   "start_quote": "סיפרו לי מגידי אמת ששמעו מכבוד",
+   "end_quote": "להגבי' נשמתו עדי אין ערך והבן",
+   "hasidic": true,
+   "summary_en": "When the Maggid R. Yehiel Michel first came to the Besht, the Besht had him honoured and told those present that his father, R. Yitzhak of Drohobych, had been given one of the smallest souls of the generation and raised it to the level of R. Shimon bar Yohai. The author then draws the lesson that a person's deeds can elevate his soul.",
+   "tags": [
+    {
+     "tag": "characters-and-roles:preacher",
+     "scope": "span",
+     "quotes": [
+      "מכבוד הה״ק המגיד מהרי״ם זצוק\"ל"
+     ],
+     "confidence": 2,
+     "why": "the protagonist is a maggid",
+     "quotes_failed": false
+    },
+    {
+     "tag": "characters-and-roles:the_family_of_the_tsaddik",
+     "scope": "span",
+     "quotes": [
+      "האיש הזה הוא בן הה״ק מהרי״צ מדראביטש"
+     ],
+     "confidence": 3,
+     "why": "the Besht's statement concerns the Maggid's father",
+     "quotes_failed": false
+    },
+    {
+     "tag": "practice:travel_to_the_tsaddik",
+     "scope": "span",
+     "quotes": [
+      "בשעת בואו בפעם הראשון להרב הבעש״ט"
+     ],
+     "confidence": 3,
+     "why": "the Maggid's first visit to the Besht",
+     "quotes_failed": false
+    },
+    {
+     "tag": "practice:reception_of_hasidim",
+     "scope": "span",
+     "quotes": [
+      "צוה לכבדו ואמר תדעו שהאיש הזה"
+     ],
+     "confidence": 3,
+     "why": "the Besht receives the newcomer and orders that he be honoured",
+     "quotes_failed": false
+    },
+    {
+     "tag": "folkloristics:story_type_advent",
+     "scope": "story",
+     "quotes": [],
+     "confidence": 2,
+     "why": "the story is the Maggid's first encounter with the Besht",
+     "quotes_failed": false
+    },
+    {
+     "tag": "supernatural:perception",
+     "scope": "span",
+     "quotes": [
+      "נתנו לו מן השמי׳ נשמה קטנה"
+     ],
+     "confidence": 2,
+     "why": "the Besht knows the heavenly origin and level of the father's soul",
+     "quotes_failed": false
+    },
+    {
+     "tag": "practice:storytelling",
+     "scope": "span",
+     "quotes": [
+      "ששמעו מכבוד הה״ק המגיד מהרי״ם זצוק\"ל שסיפר להם"
+     ],
+     "confidence": 2,
+     "why": "the tale is framed as told by the Maggid himself",
+     "quotes_failed": false
+    },
+    {
+     "tag": "practice:sermon",
+     "scope": "span",
+     "quotes": [
+      "שכל אדם מחייב לומר מתי יגיעו מעשי",
+      "יש בכח האדם ע״י מעשיו להגבי' נשמתו"
+     ],
+     "confidence": 3,
+     "why": "a homiletic exegesis of a midrashic dictum follows the anecdote",
+     "quotes_failed": false
+    },
+    {
+     "tag": "not-a-hasidic-story:sermon",
+     "scope": "story",
+     "quotes": [],
+     "confidence": 2,
+     "why": "the narrative is wrapped in an extended homiletic frame",
+     "quotes_failed": false
+    },
+    {
+     "tag": "folkloristics:story_type_virtues",
+     "scope": "span",
+     "quotes": [
+      "והוא הגביה אותה למעלת התנא הקדוש רשב״י"
+     ],
+     "confidence": 2,
+     "why": "praises the father's spiritual achievement",
+     "quotes_failed": false
+    }
+   ],
+   "missing_concepts": [
+    "soul levels / elevation of one's soul through deeds",
+    "the Besht's honouring of a newcomer because of his father's merit"
+   ],
+   "start_quote_found": true,
+   "end_quote_found": true
+  }
+ ],
+ "check": {
+  "non_vocab_tags": [],
+  "quotes": 9,
+  "quotes_not_found": 0
+ },
+ "id": "Maim-Rabim_0003",
+ "chars": 615,
+ "seconds": 18
+}

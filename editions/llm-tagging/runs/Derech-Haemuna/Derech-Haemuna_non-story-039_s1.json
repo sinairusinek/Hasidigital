@@ -1,0 +1,85 @@
+{
+ "unit": {
+  "kind": "hasidic_story",
+  "why": "split out of non-story-039 (non-story)"
+ },
+ "stories": [
+  {
+   "k": 1,
+   "start_quote": "נאמר לי משם קדוש ישראל ה\"ה",
+   "end_quote": "כי הוצרך הש״י להבטיחו כנ\"ל",
+   "hasidic": false,
+   "summary_en": "Citing a midrash, R. Shlomo of Karlin tells how Elijah, zealous for God, objected to attending every circumcision in case the father, the mohel or the congregation were sinners; God promised to forgive each of them, and the author reads this into the verse about Pinhas atoning for Israel.",
+   "tags": [
+    {
+     "tag": "characters-and-roles:elijah_the_prophet",
+     "scope": "span",
+     "quotes": [
+      "הקב״ה לאליהו שיצטרך להיות בכל ברית מילה"
+     ],
+     "confidence": 3,
+     "why": "Elijah is the central character",
+     "quotes_failed": false
+    },
+    {
+     "tag": "practice:circumcision",
+     "scope": "span",
+     "quotes": [
+      "שיצטרך להיות בכל ברית מילה שבישראל",
+      "אפשר יהיה המוהל בעל עבירה"
+     ],
+     "confidence": 3,
+     "why": "The brit milah, its father (baal brit) and its mohel are the subject",
+     "quotes_failed": false
+    },
+    {
+     "tag": "not-a-hasidic-story:sermon",
+     "scope": "story",
+     "quotes": [],
+     "confidence": 3,
+     "why": "A midrash wrapped in exegesis of the Pinhas verse",
+     "quotes_failed": false
+    },
+    {
+     "tag": "practice:sermon",
+     "scope": "span",
+     "quotes": [
+      "ונ\"ל שזה שמרומז בפנחס הוא אליהו"
+     ],
+     "confidence": 2,
+     "why": "Verse exegesis is attached to the legend",
+     "quotes_failed": false
+    },
+    {
+     "tag": "social:relations_with_sinners",
+     "scope": "span",
+     "quotes": [
+      "אם יהיה הבעל ברית עבריין לא אוכל לסבול"
+     ],
+     "confidence": 1,
+     "why": "Elijah cannot bear the presence of sinners, and God forgives them",
+     "quotes_failed": false
+    },
+    {
+     "tag": "supernatural:communicating_with_the_invisible",
+     "scope": "span",
+     "quotes": [
+      "אמר אליהו את ידעת שאני מקנא לשמך"
+     ],
+     "confidence": 1,
+     "why": "A dialogue between God and Elijah",
+     "quotes_failed": false
+    }
+   ],
+   "missing_concepts": [
+    "zeal (kin'ah) for God",
+    "divine forgiveness / atonement (kapparah) for sins",
+    "Elijah identified with Pinhas"
+   ],
+   "start_quote_found": true,
+   "end_quote_found": true
+  }
+ ],
+ "id": "Derech-Haemuna_non-story-039_s1",
+ "split_from": "non-story-039"
+}

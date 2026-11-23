@@ -1,0 +1,82 @@
+{
+ "unit": {
+  "kind": "hasidic_story",
+  "why": "A short anecdote, quoted from the preface to Likutei Torah ve-Shas: R. Yitzhak Eizik of Zhidachov rejoices on first obtaining the Maggid of Kozhenitz's Avodat Yisrael, tells the bookseller he would have gone out to greet him, and studies the Maggid's Or Yisrael.",
+  "boundary_note": "The closing words 'ממדריגותיו הנוראים' look like a heading for the next division (no. ח)."
+ },
+ "stories": [
+  {
+   "k": 1,
+   "start_quote": "בהקדמת סה״ק ליקו״ת וש״ס מהרי\"א ספר דברים",
+   "end_quote": "עכ״ל בהקדמה הנ\"ל",
+   "hasidic": true,
+   "summary_en": "R. Yitzhak Eizik of Zhidachov, who cherished the Maggid of Kozhenitz's books, rejoiced greatly on first obtaining Avodat Yisrael and told the seller he would have gone out to greet him had he known; he also studied the whole Or Yisrael to learn the Maggid's way of worship, noting it could be understood only after his own master R. Zvi Hirsh's books.",
+   "tags": [
+    {
+     "tag": "ethics-and-emotions:joy",
+     "scope": "span",
+     "quotes": [
+      "הסה״ק עבודת ישראל שמח שמחה גדולה"
+     ],
+     "confidence": 3,
+     "why": "He rejoices greatly at obtaining the holy book.",
+     "quotes_failed": false
+    },
+    {
+     "tag": "practice:study",
+     "scope": "span",
+     "quotes": [
+      "שלמד כל הס׳ אור ישראל על תקו״ז",
+      "עד שילמוד קודם ספרי רבו מהרצ\"ה"
+     ],
+     "confidence": 3,
+     "why": "He studies the Maggid's book to learn his way of worship.",
+     "quotes_failed": false
+    },
+    {
+     "tag": "social:inter_hasidic_master_disciple_relationship",
+     "scope": "span",
+     "quotes": [
+      "בכמה דפים בספרי רבו הקדוש מהרצ\"ה"
+     ],
+     "confidence": 1,
+     "why": "His master's teachings are linked to the Maggid's; the relationship is only peripheral.",
+     "quotes_failed": false
+    },
+    {
+     "tag": "folkloristics:story_type_virtues",
+     "scope": "story",
+     "quotes": [],
+     "confidence": 2,
+     "why": "The anecdote illustrates the Maggid's greatness and the holy love his books inspired.",
+     "quotes_failed": false
+    },
+    {
+     "tag": "ethics-and-emotions:awe",
+     "scope": "span",
+     "quotes": [
+      "הי' הולך לקראתו לכבדו מחמת חיבת קודש"
+     ],
+     "confidence": 1,
+     "why": "Reverence for the tzaddik's book, to the point of honouring the man who carries it.",
+     "quotes_failed": false
+    }
+   ],
+   "missing_concepts": [
+    "reverence for holy books by Hasidic masters",
+    "bookselling and circulation of Hasidic books",
+    "written-source citation (preface quoted)"
+   ],
+   "start_quote_found": true,
+   "end_quote_found": true
+  }
+ ],
+ "check": {
+  "non_vocab_tags": [],
+  "quotes": 5,
+  "quotes_not_found": 0
+ },
+ "id": "Eser-Orot_0111",
+ "chars": 584,
+ "seconds": 15
+}

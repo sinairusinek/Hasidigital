@@ -1,0 +1,76 @@
+{
+ "unit": {
+  "kind": "hasidic_story",
+  "why": "A brief anecdote, cited as an example in a homiletic list: for sixteen years the Seer of Lublin set aside an hour daily to thank God for the soul of the Berdichever rebbe.",
+  "boundary_note": "Short exemplum inside a numbered homiletic series ('ג)'); the trailing 'מענין קידוש לבנה' is the heading of the next section."
+ },
+ "stories": [
+  {
+   "k": 1,
+   "start_quote": "כמו שנשמע מההצה״ק מלובלין זי״ע",
+   "end_quote": "וקדושה של הרה״ק הנ״ל",
+   "hasidic": true,
+   "summary_en": "As long as R. Levi Yitzhak of Berdichev lived, sixteen years, the Seer of Lublin set aside an hour every day to praise God for sending such a great and holy soul into the world.",
+   "tags": [
+    {
+     "tag": "practice:prayer",
+     "scope": "span",
+     "quotes": [
+      "היה מייחד לו שעה תחת להודות ולהלל להשי\"ת"
+     ],
+     "confidence": 2,
+     "why": "a daily hour of praise and thanksgiving to God",
+     "quotes_failed": false
+    },
+    {
+     "tag": "practice:torat_ha_tsaddik",
+     "scope": "span",
+     "quotes": [
+      "אשר שלח לעוה״ז נשמה גדולה וקדושה"
+     ],
+     "confidence": 2,
+     "why": "the great soul of a tzaddik is valued as a divine gift to the world",
+     "quotes_failed": false
+    },
+    {
+     "tag": "social:inter_hasidic",
+     "scope": "story",
+     "quotes": [],
+     "confidence": 2,
+     "why": "one tzaddik's reverence for another",
+     "quotes_failed": false
+    },
+    {
+     "tag": "folkloristics:story_type_virtues",
+     "scope": "story",
+     "quotes": [],
+     "confidence": 2,
+     "why": "illustrates the Seer's piety and love for another tzaddik",
+     "quotes_failed": false
+    },
+    {
+     "tag": "not-a-hasidic-story:sermon",
+     "scope": "story",
+     "quotes": [],
+     "confidence": 1,
+     "why": "embedded as an exemplum in a homiletic list",
+     "quotes_failed": false
+    }
+   ],
+   "missing_concepts": [
+    "gratitude / thanksgiving to God",
+    "reverence of one tzaddik for another"
+   ],
+   "start_quote_found": true,
+   "end_quote_found": true
+  }
+ ],
+ "check": {
+  "non_vocab_tags": [],
+  "quotes": 2,
+  "quotes_not_found": 0
+ },
+ "id": "Derech-Haemuna_0189",
+ "chars": 220,
+ "seconds": 11
+}

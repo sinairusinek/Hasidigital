@@ -1,0 +1,100 @@
+{
+ "unit": {
+  "kind": "hasidic_story",
+  "why": "A brief narrative: R. A. of Kozienice relates in his master's name that the master passed a water mill and saw a dead man who had been close to a tzaddik standing under the turning wheel.",
+  "boundary_note": "Story ends abruptly with no explanation; it may be truncated. The next division (נז) is a separate story."
+ },
+ "stories": [
+  {
+   "k": 1,
+   "start_quote": "שמעתי אומרים כי אדמו״ר הה״ק המפורסם",
+   "end_quote": "היה מהמקורבים אצל צדיק א׳",
+   "hasidic": true,
+   "summary_en": "The tzaddik of Kozienice told in his master's name that, passing a water mill, the master saw under the turning wheel, with water pouring on him, the soul of a man who in his lifetime had been close to a certain tzaddik.",
+   "tags": [
+    {
+     "tag": "practice:storytelling",
+     "scope": "story",
+     "quotes": [],
+     "confidence": 3,
+     "why": "Framed as a tale told by the Kozienice tzaddik in his master's name",
+     "quotes_failed": false
+    },
+    {
+     "tag": "supernatural:perception",
+     "scope": "span",
+     "quotes": [
+      "וראה איש א׳ עומד תחת הגלגל"
+     ],
+     "confidence": 3,
+     "why": "The master sees a dead man's soul that others cannot see",
+     "quotes_failed": false
+    },
+    {
+     "tag": "ethics-and-emotions:punishment",
+     "scope": "span",
+     "quotes": [
+      "עומד תחת הגלגל כשהיה מגלגל ושופך מים"
+     ],
+     "confidence": 2,
+     "why": "Standing under the turning wheel implies posthumous suffering or punishment",
+     "quotes_failed": false
+    },
+    {
+     "tag": "supernatural:reincarnation",
+     "scope": "span",
+     "quotes": [
+      "אשר בחיים חיותו היה מהמקורבים"
+     ],
+     "confidence": 1,
+     "why": "The soul is bound to a material place after death, a possible gilgul-type punishment",
+     "quotes_failed": false
+    },
+    {
+     "tag": "times:death",
+     "scope": "span",
+     "quotes": [
+      "אשר בחיים חיותו היה מהמקורבים"
+     ],
+     "confidence": 1,
+     "why": "The man is already dead; his death is implied, not depicted",
+     "quotes_failed": false
+    },
+    {
+     "tag": "practice:torat_ha_tsaddik",
+     "scope": "span",
+     "quotes": [
+      "היה מהמקורבים אצל צדיק א׳"
+     ],
+     "confidence": 1,
+     "why": "Closeness to a tzaddik is the point, and it did not spare him",
+     "quotes_failed": false
+    },
+    {
+     "tag": "supernatural:communicating_with_the_invisible",
+     "scope": "span",
+     "quotes": [
+      "וראה איש א׳ עומד תחת הגלגל"
+     ],
+     "confidence": 1,
+     "why": "The master encounters a departed soul",
+     "quotes_failed": false
+    }
+   ],
+   "missing_concepts": [
+    "posthumous suffering of a soul bound to a place or object (water mill)",
+    "a dead soul seen by a tzaddik"
+   ],
+   "start_quote_found": true,
+   "end_quote_found": true
+  }
+ ],
+ "check": {
+  "non_vocab_tags": [],
+  "quotes": 6,
+  "quotes_not_found": 0
+ },
+ "id": "Toldot-Haniflaot_0051",
+ "chars": 195,
+ "seconds": 15
+}

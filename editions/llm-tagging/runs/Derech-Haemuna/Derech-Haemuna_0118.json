@@ -1,0 +1,107 @@
+{
+ "unit": {
+  "kind": "hasidic_story",
+  "why": "A short anecdote: a rabbi, apparently R. Shmelke of Nikolsburg (ק׳ נ״ש), is received with great honour on taking up his post, greets himself aloud, and explains why; this is an event with a teaching attached.",
+  "boundary_note": ""
+ },
+ "stories": [
+  {
+   "k": 1,
+   "start_quote": "וא׳ לפרש דרך צחות בעת בואו",
+   "end_quote": "בלי ספק הכבוד בורח ממנו והבן",
+   "hasidic": true,
+   "summary_en": "When the rabbi arrived in the city where he had been appointed av beit din, he was received with great honour; alone in his room he greeted himself, 'Shalom aleichem rebbe, barukh haba rebbe', and explained to those who wondered that honour from others should count no more than honour one pays oneself.",
+   "tags": [
+    {
+     "tag": "ethics-and-emotions:humility",
+     "scope": "span",
+     "quotes": [
+      "שכבוד המדומה לא יהיה נחשב בעיני האדם למאומה"
+     ],
+     "confidence": 3,
+     "why": "The point is to discount the honour others show you.",
+     "quotes_failed": false
+    },
+    {
+     "tag": "ethics-and-emotions:pride",
+     "scope": "span",
+     "quotes": [
+      "כל הרודף אחר הכבוד הכבוד בורח ממנו"
+     ],
+     "confidence": 2,
+     "why": "Chasing honour is criticised as a failing.",
+     "quotes_failed": false
+    },
+    {
+     "tag": "folkloristics:story_type_virtues",
+     "scope": "story",
+     "quotes": [],
+     "confidence": 2,
+     "why": "The anecdote shows the rabbi's humility.",
+     "quotes_failed": false
+    },
+    {
+     "tag": "practice:sermon",
+     "scope": "span",
+     "quotes": [
+      "ודיבר בקדשו שלזה רימזו רז״ל",
+      "וא׳ על מרז״ל כל הרודף אחר הכבוד"
+     ],
+     "confidence": 3,
+     "why": "He expounds rabbinic sayings.",
+     "quotes_failed": false
+    },
+    {
+     "tag": "not-a-hasidic-story:sermon",
+     "scope": "story",
+     "quotes": [],
+     "confidence": 2,
+     "why": "The short narrative sits inside an exegetical frame on sayings of the sages.",
+     "quotes_failed": false
+    },
+    {
+     "tag": "not-a-hasidic-story:virtues",
+     "scope": "story",
+     "quotes": [],
+     "confidence": 1,
+     "why": "Quoted in an anthology section giving moral instruction on honour.",
+     "quotes_failed": false
+    },
+    {
+     "tag": "times:inauguration",
+     "scope": "span",
+     "quotes": [
+      "כאשר נתקבל לאב״ד שם והמדינה"
+     ],
+     "confidence": 1,
+     "why": "Installation as communal rabbi, not as a Hasidic rebbe.",
+     "quotes_failed": false
+    },
+    {
+     "tag": "social:retrospective_recognition",
+     "scope": "span",
+     "quotes": [
+      "והעומדים סביביו ראו כן תמהו ע״ז"
+     ],
+     "confidence": 1,
+     "why": "The onlookers' puzzlement is resolved by his explanation.",
+     "quotes_failed": false
+    }
+   ],
+   "missing_concepts": [
+    "honour (kavod) and fleeing honour",
+    "ceremonial reception of a new rabbi by the community"
+   ],
+   "start_quote_found": true,
+   "end_quote_found": true
+  }
+ ],
+ "check": {
+  "non_vocab_tags": [],
+  "quotes": 6,
+  "quotes_not_found": 0
+ },
+ "id": "Derech-Haemuna_0118",
+ "chars": 575,
+ "seconds": 16
+}

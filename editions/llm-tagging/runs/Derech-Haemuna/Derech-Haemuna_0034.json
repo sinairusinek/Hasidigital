@@ -1,0 +1,162 @@
+{
+ "unit": {
+  "kind": "hasidic_story",
+  "why": "A homily from the book ל\"מ on Yitro contains a first-person memorate: the author spent Sukkot with the Seer of Lublin and watched him bless the lulav.",
+  "boundary_note": "The narrative is wrapped in an extended homiletic frame (exegesis of Exodus 20)."
+ },
+ "stories": [
+  {
+   "k": 1,
+   "start_quote": "כאשר אירע לי בעצמי פ״א חגגתי",
+   "end_quote": "ואין לשער מדרגתו הגדולה בשעת הברכה",
+   "hasidic": true,
+   "summary_en": "The author spent Sukkot in Lublin with R. Jacob Isaac, the Seer. The crowd imitated the Seer's trembling before the lulav blessing. The author sat apart and waited, then closely watched the blessing itself, whose exalted level he found beyond estimation; the homily draws the lesson that one should look to a tzaddik's inner worship, as Moses did at Sinai.",
+   "tags": [
+    {
+     "tag": "not-a-hasidic-story:sermon",
+     "scope": "story",
+     "quotes": [],
+     "confidence": 3,
+     "why": "The memorate is embedded in a homily on the verse וכל העם רואים",
+     "quotes_failed": false
+    },
+    {
+     "tag": "practice:sermon",
+     "scope": "span",
+     "quotes": [
+      "וזה הענין נלמד מהפסיק שלפנינו וכל העם רואים"
+     ],
+     "confidence": 3,
+     "why": "Exegesis of a verse is given as the lesson",
+     "quotes_failed": false
+    },
+    {
+     "tag": "times:holidays",
+     "scope": "span",
+     "quotes": [
+      "חגגתי את חג הסוכות בק״ק לובלין"
+     ],
+     "confidence": 3,
+     "why": "The story takes place on Sukkot",
+     "quotes_failed": false
+    },
+    {
+     "tag": "practice:travel_to_the_tsaddik",
+     "scope": "span",
+     "quotes": [
+      "חגגתי את חג הסוכות בק״ק לובלין אצל איש האלהים"
+     ],
+     "confidence": 3,
+     "why": "The narrator came to the Seer for the festival",
+     "quotes_failed": false
+    },
+    {
+     "tag": "experience:trembling",
+     "scope": "span",
+     "quotes": [
+      "והי׳ הצדיק מתרעש ומתפחד קודם הברכה",
+      "והיה מתנענעים ג״כ ברתת ובזיעה"
+     ],
+     "confidence": 3,
+     "why": "Both the tzaddik and the crowd tremble",
+     "quotes_failed": false
+    },
+    {
+     "tag": "ethics-and-emotions:awe",
+     "scope": "span",
+     "quotes": [
+      "והיה דומה להם שמשיגים יראה גדולה"
+     ],
+     "confidence": 3,
+     "why": "The tzaddik shows religious awe before the commandment",
+     "quotes_failed": false
+    },
+    {
+     "tag": "ethics-and-emotions:fear",
+     "scope": "span",
+     "quotes": [
+      "בבהלות עצומות ותנועות גדולות לערך שעה"
+     ],
+     "confidence": 2,
+     "why": "The tzaddik's dread before the blessing",
+     "quotes_failed": false
+    },
+    {
+     "tag": "practice:prayer",
+     "scope": "span",
+     "quotes": [
+      "והלך קודם הלל לסוכה לברך על נטילת לולב"
+     ],
+     "confidence": 2,
+     "why": "A liturgical blessing before Hallel",
+     "quotes_failed": false
+    },
+    {
+     "tag": "practice:devekut",
+     "scope": "span",
+     "quotes": [
+      "ואין לשער מדרגתו הגדולה בשעת הברכה"
+     ],
+     "confidence": 2,
+     "why": "The tzaddik's rapt inner state during the blessing",
+     "quotes_failed": false
+    },
+    {
+     "tag": "practice:torat_ha_tsaddik",
+     "scope": "span",
+     "quotes": [
+      "העיקר הלימוד מהצדיק להביט לפנימיות עבודתו בקודש"
+     ],
+     "confidence": 3,
+     "why": "The point is how to learn properly from a tzaddik",
+     "quotes_failed": false
+    },
+    {
+     "tag": "ethics-and-emotions:humility",
+     "scope": "span",
+     "quotes": [
+      "ולגודל ענותנתו לא כאותן האנשים"
+     ],
+     "confidence": 1,
+     "why": "Humility is mentioned as part of what to learn from the tzaddik",
+     "quotes_failed": false
+    },
+    {
+     "tag": "social:inter_hasidic",
+     "scope": "span",
+     "quotes": [
+      "והלכו אחריו כל הבאים וגם אני הלכתי בתוכם"
+     ],
+     "confidence": 2,
+     "why": "The narrator sets his conduct against that of the other visitors",
+     "quotes_failed": false
+    },
+    {
+     "tag": "spaces:institutions_hassidic_court",
+     "scope": "span",
+     "quotes": [
+      "בק״ק לובלין אצל איש האלהים"
+     ],
+     "confidence": 2,
+     "why": "The setting is the Seer's court during the festival",
+     "quotes_failed": false
+    }
+   ],
+   "missing_concepts": [
+    "sukkah / four species (lulav) ritual",
+    "imitation of the tzaddik's outward gestures vs. inner worship",
+    "first-person memorate by the author"
+   ],
+   "start_quote_found": true,
+   "end_quote_found": true
+  }
+ ],
+ "check": {
+  "non_vocab_tags": [],
+  "quotes": 13,
+  "quotes_not_found": 0
+ },
+ "id": "Derech-Haemuna_0034",
+ "chars": 1379,
+ "seconds": 19
+}

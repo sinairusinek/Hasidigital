@@ -1,0 +1,106 @@
+{
+ "unit": {
+  "kind": "hasidic_story",
+  "why": "A short block of sayings by R. Naftali of Ropshitz (on a man discouraged in study, and on mitnagdim versus heretics) followed by one anecdote: he declares a fowl kosher against his students' arguments, then uses that ruling to promise healing to a sick petitioner.",
+  "boundary_note": "The division continues the Ropshitz section whose heading ends the previous division. The opening exchange about the man discouraged in study is closer to a saying than a full narrative."
+ },
+ "stories": [
+  {
+   "k": 1,
+   "start_quote": "פ\"א בא לפניו שאלה על עוף",
+   "end_quote": "וא״כ כי בודאי יהי׳ לכם רפואה",
+   "hasidic": true,
+   "summary_en": "R. Naftali of Ropshitz rules a questionable fowl kosher and defends the ruling against his students with new arguments; when a man then brings a note asking a cure for the same ailment, he reasons that since a creature with it can live, the man will surely be healed.",
+   "tags": [
+    {
+     "tag": "practice:halakhah",
+     "scope": "span",
+     "quotes": [
+      "פ\"א בא לפניו שאלה על עוף ופסק כשר",
+      "התחילו התלמידים לפלפל עמו שהעוף טרפה"
+     ],
+     "confidence": 3,
+     "why": "A treifa ruling on a fowl is debated and decided.",
+     "quotes_failed": false
+    },
+    {
+     "tag": "practice:healing",
+     "scope": "span",
+     "quotes": [
+      "שיהי׳ לו רפואה על חולי פלוני",
+      "וא״כ כי בודאי יהי׳ לכם רפואה"
+     ],
+     "confidence": 3,
+     "why": "A petition for healing of an illness, answered with an assurance of cure.",
+     "quotes_failed": false
+    },
+    {
+     "tag": "practice:reception_of_hasidim",
+     "scope": "span",
+     "quotes": [
+      "אח״כ בא אליו איש אחד בפתקא כתוב עליו"
+     ],
+     "confidence": 2,
+     "why": "A petitioner comes to the tsaddik with a kvitel.",
+     "quotes_failed": false
+    },
+    {
+     "tag": "social:inter_hasidic_master_disciple_relationship",
+     "scope": "span",
+     "quotes": [
+      "התחילו התלמידים לפלפל עמו שהעוף טרפה",
+      "ואמר להם אני פוסק שכשר ואחרי דברי לא ישבו"
+     ],
+     "confidence": 2,
+     "why": "The tsaddik disputes with his students and asserts his authority.",
+     "quotes_failed": false
+    },
+    {
+     "tag": "practice:torat_ha_tsaddik",
+     "scope": "span",
+     "quotes": [
+      "ואמר להם אני פוסק שכשר ואחרי דברי לא ישבו",
+      "הרי שיכולים לחיות בחולי זה"
+     ],
+     "confidence": 2,
+     "why": "The tsaddik's ruling is treated as determining reality, so that it secures the petitioner's cure.",
+     "quotes_failed": false
+    },
+    {
+     "tag": "supernatural:prognostication",
+     "scope": "span",
+     "quotes": [
+      "וא״כ כי בודאי יהי׳ לכם רפואה"
+     ],
+     "confidence": 1,
+     "why": "He predicts the man will be healed; fulfilment is not narrated.",
+     "quotes_failed": false
+    },
+    {
+     "tag": "practice:study",
+     "scope": "span",
+     "quotes": [
+      "התחילו התלמידים לפלפל עמו"
+     ],
+     "confidence": 1,
+     "why": "The students engage in pilpul over the ruling.",
+     "quotes_failed": false
+    }
+   ],
+   "missing_concepts": [
+    "kashrut / treifa ruling (טרפות) linked to the healing of a human illness",
+    "analogical reasoning from halakhic ruling to theurgic effect"
+   ],
+   "start_quote_found": true,
+   "end_quote_found": true
+  }
+ ],
+ "check": {
+  "non_vocab_tags": [],
+  "quotes": 11,
+  "quotes_not_found": 0
+ },
+ "id": "Peulat-Hatzadikim_0050",
+ "chars": 632,
+ "seconds": 19
+}

@@ -1,0 +1,59 @@
+{
+ "unit": {
+  "kind": "hasidic_story",
+  "why": "A minimal anecdote: a man comes to the tzaddik and asks him to talk heresy out of his heart, and the tzaddik refuses and gives his reason. The visit and refusal are a real event, though the weight is on the saying.",
+  "boundary_note": ""
+ },
+ "stories": [
+  {
+   "k": 1,
+   "start_quote": "שמעתי ממנו ז״ל שאמר כי איש",
+   "end_quote": "ככל אשר צוו אותנו",
+   "hasidic": true,
+   "summary_en": "A man asks the tzaddik to speak with him so that heresy would leave his heart. The tzaddik refuses, citing Solomon's warning 'do not come near the door of her house', and says he would not discuss such matters even to save a Jew.",
+   "tags": [
+    {
+     "tag": "practice:reception_of_hasidim",
+     "scope": "span",
+     "quotes": [
+      "איש א׳ בא אליו וביקש ממנו שידבר עמו"
+     ],
+     "confidence": 2,
+     "why": "a visitor's request is received and refused",
+     "quotes_failed": false
+    },
+    {
+     "tag": "ethics-and-emotions:prohibitions",
+     "scope": "span",
+     "quotes": [
+      "כבר מוזהרים אנו משלמה המלך שאמר אל תקרב לפתח ביתה"
+     ],
+     "confidence": 2,
+     "why": "engaging with heresy is treated as forbidden",
+     "quotes_failed": false
+    },
+    {
+     "tag": "not-a-hasidic-story:sermon",
+     "scope": "story",
+     "quotes": [],
+     "confidence": 1,
+     "why": "mostly a reported saying with a scriptural reason, little narrative",
+     "quotes_failed": false
+    }
+   ],
+   "missing_concepts": [
+    "heresy (minut) and refusing to debate or engage with it"
+   ],
+   "start_quote_found": true,
+   "end_quote_found": true
+  }
+ ],
+ "check": {
+  "non_vocab_tags": [],
+  "quotes": 2,
+  "quotes_not_found": 0
+ },
+ "id": "Toldot-Haniflaot_0104",
+ "chars": 272,
+ "seconds": 10
+}

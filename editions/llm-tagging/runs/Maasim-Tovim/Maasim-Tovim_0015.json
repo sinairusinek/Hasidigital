@@ -1,0 +1,232 @@
+{
+ "unit": {
+  "kind": "non_hasidic_story",
+  "why": "A medieval legend about Nahmanides and his apostate disciple Avner; it is not Hasidic.",
+  "boundary_note": ""
+ },
+ "stories": [
+  {
+   "k": 1,
+   "start_quote": "מעשה ברמב״ן ז\"ל שהי׳ לו תלמיד",
+   "end_quote": "הי׳ התלמיד בכף הקלע :",
+   "hasidic": false,
+   "summary_en": "Nahmanides' disciple Avner apostatizes, becomes a great lord and eats pork before his master on Yom Kippur; the Ramban finds Avner's name hinted in Parashat Haazinu, Avner repents and sets out to sea in a boat without a crew, and the Ramban's prayers later win his soul partial atonement, as his mother reveals in a dream.",
+   "tags": [
+    {
+     "tag": "not-a-hasidic-story:hagiography",
+     "scope": "story",
+     "quotes": [],
+     "confidence": 3,
+     "why": "Praises the wisdom and powers of the Ramban, a pre-Hasidic sage",
+     "quotes_failed": false
+    },
+    {
+     "tag": "social:converts_and_conversion",
+     "scope": "span",
+     "quotes": [
+      "ויצא לתרבות רעה ונשתמד"
+     ],
+     "confidence": 3,
+     "why": "The disciple's apostasy drives the plot",
+     "quotes_failed": false
+    },
+    {
+     "tag": "times:holidays",
+     "scope": "span",
+     "quotes": [
+      "ויהי היום שהיה יום כפור"
+     ],
+     "confidence": 3,
+     "why": "The confrontation takes place on Yom Kippur",
+     "quotes_failed": false
+    },
+    {
+     "tag": "practice:halakhah",
+     "scope": "span",
+     "quotes": [
+      "כמה כריתות עברתי היום",
+      "שעבר על ה׳ לאוין של כריתות"
+     ],
+     "confidence": 3,
+     "why": "They argue over how many karet prohibitions he violated",
+     "quotes_failed": false
+    },
+    {
+     "tag": "ethics-and-emotions:prohibitions",
+     "scope": "span",
+     "quotes": [
+      "חזיר אחד והרג אותו וינתחהו ויבשלהו ויאכלהו"
+     ],
+     "confidence": 3,
+     "why": "He deliberately violates prohibitions",
+     "quotes_failed": false
+    },
+    {
+     "tag": "practice:sermon",
+     "scope": "span",
+     "quotes": [
+      "שמעתי שדרשת בפרשת האזינו כלולים כל המצות"
+     ],
+     "confidence": 2,
+     "why": "The Ramban's sermon on Haazinu is the cause of the doubt",
+     "quotes_failed": false
+    },
+    {
+     "tag": "social:inter_hasidic_master_disciple_relationship",
+     "scope": "span",
+     "quotes": [
+      "וישאל את רבו הרמב״ן"
+     ],
+     "confidence": 1,
+     "why": "The master-disciple bond is central, though the figures are not Hasidic",
+     "quotes_failed": false
+    },
+    {
+     "tag": "practice:prayer",
+     "scope": "span",
+     "quotes": [
+      "ויתפלל הרמב״ן אל ד׳ בקרן זויות",
+      "הרבה הרמב״ן בתפלה שיהי׳ לו מקצת כפרה"
+     ],
+     "confidence": 3,
+     "why": "The Ramban prays for the answer and for atonement",
+     "quotes_failed": false
+    },
+    {
+     "tag": "supernatural:miracle",
+     "scope": "span",
+     "quotes": [
+      "ויבא פסוק זה בפיו"
+     ],
+     "confidence": 2,
+     "why": "The verse hinting at the name comes to him miraculously",
+     "quotes_failed": false
+    },
+    {
+     "tag": "experience:trembling",
+     "scope": "span",
+     "quotes": [
+      "חרד מאד ויפול על פניו"
+     ],
+     "confidence": 3,
+     "why": "Avner trembles at the revelation",
+     "quotes_failed": false
+    },
+    {
+     "tag": "ethics-and-emotions:fear",
+     "scope": "span",
+     "quotes": [
+      "חרד מאד ויפול על פניו"
+     ],
+     "confidence": 2,
+     "why": "Avner is struck with fear",
+     "quotes_failed": false
+    },
+    {
+     "tag": "ethics-and-emotions:repentance",
+     "scope": "span",
+     "quotes": [
+      "אם יחזור בתשובה יהי׳ לו תיקון"
+     ],
+     "confidence": 3,
+     "why": "Avner seeks repentance and exiles himself to the sea",
+     "quotes_failed": false
+    },
+    {
+     "tag": "ethics-and-emotions:punishment",
+     "scope": "span",
+     "quotes": [
+      "להוליכו לדין אותו דינים הרבה בגיהנם"
+     ],
+     "confidence": 3,
+     "why": "His soul is punished after death",
+     "quotes_failed": false
+    },
+    {
+     "tag": "experience:dream",
+     "scope": "span",
+     "quotes": [
+      "אם מעשים טובים בא להרב בחלום"
+     ],
+     "confidence": 3,
+     "why": "The outcome is revealed in a dream",
+     "quotes_failed": false
+    },
+    {
+     "tag": "spaces:hell",
+     "scope": "span",
+     "quotes": [
+      "ולא לדון אותי בגיהנם"
+     ],
+     "confidence": 2,
+     "why": "Gehinnom and kaf ha-kela as the punishment realm",
+     "quotes_failed": false
+    },
+    {
+     "tag": "practice:healing_of_the_soul",
+     "scope": "span",
+     "quotes": [
+      "ואחר י\"ב חודש יהי׳ לו מזור ותרופה"
+     ],
+     "confidence": 2,
+     "why": "The sage's prayer secures a tikkun for the sinner's soul",
+     "quotes_failed": false
+    },
+    {
+     "tag": "social:relations_with_sinners",
+     "scope": "story",
+     "quotes": [],
+     "confidence": 3,
+     "why": "The sage deals with an apostate sinner",
+     "quotes_failed": false
+    },
+    {
+     "tag": "social:relations_with_the_authorities",
+     "scope": "span",
+     "quotes": [
+      "ויען כי הי׳ שר גדול הי' מוכרח לעשות רצונו"
+     ],
+     "confidence": 2,
+     "why": "The Ramban is compelled by an official",
+     "quotes_failed": false
+    },
+    {
+     "tag": "women:mention_only",
+     "scope": "span",
+     "quotes": [
+      "אם מעשים טובים בא להרב בחלום"
+     ],
+     "confidence": 1,
+     "why": "The text seems to mean a mother figure (perhaps a misprint) appearing in the dream",
+     "quotes_failed": false
+    },
+    {
+     "tag": "times:death",
+     "scope": "span",
+     "quotes": [
+      "ועדיין לא נודע ממנו מאומה"
+     ],
+     "confidence": 1,
+     "why": "Avner's death is implied by his afterlife fate",
+     "quotes_failed": false
+    }
+   ],
+   "missing_concepts": [
+    "biblical hint / notarikon of a name in a verse",
+    "self-imposed exile at sea as penance",
+    "kaf ha-kela (limbo of the soul)",
+    "Jewish-Christian disputation / apostate official"
+   ],
+   "start_quote_found": true,
+   "end_quote_found": true
+  }
+ ],
+ "check": {
+  "non_vocab_tags": [],
+  "quotes": 20,
+  "quotes_not_found": 0
+ },
+ "id": "Maasim-Tovim_0015",
+ "chars": 1841,
+ "seconds": 20
+}

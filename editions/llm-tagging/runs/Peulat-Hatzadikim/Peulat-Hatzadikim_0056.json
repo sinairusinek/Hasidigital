@@ -1,0 +1,101 @@
+{
+ "unit": {
+  "kind": "hasidic_story",
+  "why": "A brief anecdote (a prayer leader displeases R. Naftali of Ropshitz during his stay in Zhidachov, and R. Zvi Hirsh answers with a teaching) is followed by separate sayings of R. Zvi Hirsh without narrative.",
+  "boundary_note": "the anecdote is followed in the same division by unrelated sayings (yihud before eating; the Besht's sixty disciples); the next division begins another teaching"
+ },
+ "stories": [
+  {
+   "k": 1,
+   "start_quote": "בהיות הה״ק מהר״נ מראפשיטץ ז״ל בזידיטשוב",
+   "end_quote": "כי הבעל תפלה הוא טפל להצדיק",
+   "hasidic": true,
+   "summary_en": "While R. Naftali of Ropshitz was in Zhidachov, a man who led the prayers displeased him. R. Zvi Hirsh answered with the Maggid of Kozhenitz's reading of the Talmud's story of the High Priest, Shemaya and Avtalyon: the tzaddikim give the prayer leader his power, so the prayer leader is secondary to the tzaddik.",
+   "tags": [
+    {
+     "tag": "practice:prayer",
+     "scope": "span",
+     "quotes": [
+      "התפלל א׳ לפני התיבה אשר לא הוטב",
+      "עיקר התפלה אנו מתפללים ולפני התיבה יעמוד"
+     ],
+     "confidence": 3,
+     "why": "the story turns on leading the prayers before the ark",
+     "quotes_failed": false
+    },
+    {
+     "tag": "practice:sermon",
+     "scope": "span",
+     "quotes": [
+      "ששמע מהמגיד הק' מקאזיניטץ ז\"ל על הענין המובא בגמ׳"
+     ],
+     "confidence": 3,
+     "why": "a Talmudic passage is interpreted as the tzaddik's teaching",
+     "quotes_failed": false
+    },
+    {
+     "tag": "not-a-hasidic-story:sermon",
+     "scope": "story",
+     "quotes": [],
+     "confidence": 2,
+     "why": "a thin narrative frame around an exegetical teaching",
+     "quotes_failed": false
+    },
+    {
+     "tag": "practice:torat_ha_tsaddik",
+     "scope": "span",
+     "quotes": [
+      "הצדיקים נותנים כח להבעלי תפילות להתפלל",
+      "כי הבעל תפלה הוא טפל להצדיק"
+     ],
+     "confidence": 3,
+     "why": "the power of the tzaddik's prayer and merit stands behind the prayer leader",
+     "quotes_failed": false
+    },
+    {
+     "tag": "social:inter_hasidic",
+     "scope": "span",
+     "quotes": [
+      "בהיות הה״ק מהר״נ מראפשיטץ ז״ל בזידיטשוב"
+     ],
+     "confidence": 2,
+     "why": "an exchange between two tzaddikim",
+     "quotes_failed": false
+    },
+    {
+     "tag": "practice:the_travels_of_the_tsaddik",
+     "scope": "span",
+     "quotes": [
+      "בהיות הה״ק מהר״נ מראפשיטץ ז״ל בזידיטשוב"
+     ],
+     "confidence": 1,
+     "why": "the Ropshitzer is staying away from home, in Zhidachov",
+     "quotes_failed": false
+    },
+    {
+     "tag": "practice:travel_to_other_tsaddik",
+     "scope": "span",
+     "quotes": [
+      "בהיות הה״ק מהר״נ מראפשיטץ ז״ל בזידיטשוב"
+     ],
+     "confidence": 1,
+     "why": "a tzaddik visits another tzaddik's town",
+     "quotes_failed": false
+    }
+   ],
+   "missing_concepts": [
+    "prayer leader (ba'al tefillah / shaliach tzibbur) and fitness to lead the prayers"
+   ],
+   "start_quote_found": true,
+   "end_quote_found": true
+  }
+ ],
+ "check": {
+  "non_vocab_tags": [],
+  "quotes": 8,
+  "quotes_not_found": 0
+ },
+ "id": "Peulat-Hatzadikim_0056",
+ "chars": 942,
+ "seconds": 16
+}

@@ -1,0 +1,114 @@
+{
+ "unit": {
+  "kind": "paratext_with_story",
+  "why": "This is part of the author's introduction or responsum defending Hasidic tsaddikim. It contains one anecdote, the meeting of R. Yehuda Zvi of Rozdol with R. Meir Ash of Ungvar, followed by a list of Hasidic geonim learned in Torah.",
+  "boundary_note": "The division continues the introduction's argument from the previous division (the talmudic citation about Abba Umana); the anecdote ends at 'עכד״ק' and the rest is the author's commentary and list."
+ },
+ "stories": [
+  {
+   "k": 1,
+   "start_quote": "ומעשה רב ידעינא. מחו״ז הגאוה\"ק מו\"ה יודא צבי",
+   "end_quote": "אשר גם הרב מאונגוואהר שמח בבהם עכד״ק",
+   "hasidic": true,
+   "summary_en": "At a meeting, R. Meir Ash of Ungvar objects that a famous rebbe followed by thousands is no great Torah scholar. R. Yehuda Zvi of Rozdol answers from Rashi on Pesahim that the 'great of the generation' are men of deeds and tsaddikim, and cites the talmudic sages Hanina ben Dosa and Pinhas ben Yair, who are known for miracles but not for halakhah.",
+   "tags": [
+    {
+     "tag": "social:relations_with_non_hasidim",
+     "scope": "span",
+     "quotes": [
+      "כאשר נתוועד עם הגאון הק' ר' מאיר אש מאונגוואהר",
+      "איך יקרא גדול הדור למי שאינו בקי בש״ס ופוסקים"
+     ],
+     "confidence": 3,
+     "why": "Dispute between a Hasidic rabbi and a non-Hasidic Hungarian gaon over the standing of tsaddikim",
+     "quotes_failed": false
+    },
+    {
+     "tag": "social:conflict",
+     "scope": "span",
+     "quotes": [
+      "וצעק הרב מאונגוואהר איך יקרא גדול הדור"
+     ],
+     "confidence": 2,
+     "why": "Heated argument over a rebbe's legitimacy",
+     "quotes_failed": false
+    },
+    {
+     "tag": "practice:torat_ha_tsaddik",
+     "scope": "span",
+     "quotes": [
+      "הרי שמדריגת צדיקים אין תלוי לפי ערך חכמתם בתורה",
+      "אבל בין כך וב״כ הוא גדול הדור"
+     ],
+     "confidence": 3,
+     "why": "The nature of a tsaddik's greatness is the theme of the exchange",
+     "quotes_failed": false
+    },
+    {
+     "tag": "practice:sermon",
+     "scope": "span",
+     "quotes": [
+      "ורש״י פי׳ על גדולי הדור אנשי מעשה וצדיקים",
+      "לעולם ימכור אדם כ״מ שיש לו וישא בת ת״ח"
+     ],
+     "confidence": 3,
+     "why": "The rabbi of Rozdol answers with talmudic exegesis",
+     "quotes_failed": false
+    },
+    {
+     "tag": "not-a-hasidic-story:sermon",
+     "scope": "story",
+     "quotes": [],
+     "confidence": 2,
+     "why": "The anecdote is mostly argument and is embedded in an extended justificatory frame",
+     "quotes_failed": false
+    },
+    {
+     "tag": "practice:study",
+     "scope": "span",
+     "quotes": [
+      "וראה הרב מאונגוואהר את פרשת גדולת הרב מראזדל בש״ס ופוסקים"
+     ],
+     "confidence": 2,
+     "why": "Mastery of Talmud and codes is at issue",
+     "quotes_failed": false
+    },
+    {
+     "tag": "ethics-and-emotions:anger",
+     "scope": "span",
+     "quotes": [
+      "וצעק הרב מאונגוואהר"
+     ],
+     "confidence": 1,
+     "why": "Heated outcry",
+     "quotes_failed": false
+    },
+    {
+     "tag": "supernatural:miracle",
+     "scope": "span",
+     "quotes": [
+      "כל כך מופתים ונפלאות אשר יסופר מרחב״ד ורפב״י"
+     ],
+     "confidence": 1,
+     "why": "Miracles of the talmudic sages are only cited as argument, not depicted as events",
+     "quotes_failed": false
+    }
+   ],
+   "missing_concepts": [
+    "Torah scholarship vs. charismatic piety as the basis of rabbinic authority",
+    "apologetics defending Hasidism against Hungarian rabbinic critics",
+    "lists of Hasidic masters who were also halakhic authorities"
+   ],
+   "start_quote_found": true,
+   "end_quote_found": true
+  }
+ ],
+ "check": {
+  "non_vocab_tags": [],
+  "quotes": 10,
+  "quotes_not_found": 0
+ },
+ "id": "Eser-Orot_0003",
+ "chars": 3502,
+ "seconds": 19
+}

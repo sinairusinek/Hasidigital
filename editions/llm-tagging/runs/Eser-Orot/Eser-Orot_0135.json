@@ -1,0 +1,102 @@
+{
+ "unit": {
+  "kind": "hasidic_story",
+  "why": "A short anecdote: an ascetic who fasted from Sabbath to Sabbath and wore sackcloth came before the Maggid of Kozienice, who replied with a pointed teaching on excessive fasting.",
+  "boundary_note": ""
+ },
+ "stories": [
+  {
+   "k": 1,
+   "start_quote": "כי פ\"א בא לפני המגיד מקאזניץ",
+   "end_quote": "כי הוא מאנה גם עצמו עכ״ל",
+   "hasidic": true,
+   "summary_en": "A man who fasted from Sabbath to Sabbath and wore sackcloth came before the Maggid of Kozienice, who told him the evil inclination had entered him through the sack, and that one who only claims to fast while eating in secret deceives others, but the real faster deceives himself as well.",
+   "tags": [
+    {
+     "tag": "practice:fasting",
+     "scope": "span",
+     "quotes": [
+      "אדם שהתענה משבת לשבת ושק על בשרו"
+     ],
+     "confidence": 3,
+     "why": "the tsaddik criticizes excessive fasting",
+     "quotes_failed": false
+    },
+    {
+     "tag": "practice:asceticism",
+     "scope": "span",
+     "quotes": [
+      "אדם שהתענה משבת לשבת ושק על בשרו"
+     ],
+     "confidence": 3,
+     "why": "sackcloth and week-long fasts, and the Maggid's rejection of them",
+     "quotes_failed": false
+    },
+    {
+     "tag": "practice:reception_of_hasidim",
+     "scope": "span",
+     "quotes": [
+      "פ\"א בא לפני המגיד מקאזניץ"
+     ],
+     "confidence": 2,
+     "why": "a visitor appears before the tsaddik",
+     "quotes_failed": false
+    },
+    {
+     "tag": "ethics-and-emotions:lying",
+     "scope": "span",
+     "quotes": [
+      "והוא אוכל בצנעא שהוא מאנה אחרים ולא א\"ע"
+     ],
+     "confidence": 2,
+     "why": "deception of others and of oneself is the point of the saying",
+     "quotes_failed": false
+    },
+    {
+     "tag": "ethics-and-emotions:pride",
+     "scope": "span",
+     "quotes": [
+      "גם לאדם כמותך בא היצה\"ר"
+     ],
+     "confidence": 1,
+     "why": "implied spiritual self-deception or vanity of the ascetic",
+     "quotes_failed": false
+    },
+    {
+     "tag": "practice:clothing",
+     "scope": "span",
+     "quotes": [
+      "ושק על בשרו"
+     ],
+     "confidence": 1,
+     "why": "sackcloth worn as an ascetic garment",
+     "quotes_failed": false
+    },
+    {
+     "tag": "practice:storytelling",
+     "scope": "span",
+     "quotes": [
+      "שמעתי ממו״ר ר׳ יאקיל מטשעחוב"
+     ],
+     "confidence": 1,
+     "why": "the story is framed by a chain of oral transmission",
+     "quotes_failed": false
+    }
+   ],
+   "missing_concepts": [
+    "self-deception",
+    "the evil inclination (yetzer ha-ra) disguised as piety"
+   ],
+   "start_quote_found": true,
+   "end_quote_found": true
+  }
+ ],
+ "check": {
+  "non_vocab_tags": [],
+  "quotes": 7,
+  "quotes_not_found": 0
+ },
+ "id": "Eser-Orot_0135",
+ "chars": 332,
+ "seconds": 12
+}

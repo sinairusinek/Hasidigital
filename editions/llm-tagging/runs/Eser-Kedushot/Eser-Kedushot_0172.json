@@ -1,0 +1,185 @@
+{
+ "unit": {
+  "kind": "hasidic_story",
+  "why": "An autobiographical memorate from Megillat Setarim. The narrator tells of his soul's earlier short life as his father's firstborn, his father's request to the Seer of Lublin for a son, the yihud that brought his soul down, and his birth in 1806.",
+  "boundary_note": ""
+ },
+ "stories": [
+  {
+   "k": 1,
+   "start_quote": "במגלת סתרים שלו [כת\"י] וזה\"ל בכור הייתי לאבי",
+   "end_quote": "שבטלתי בהם עבודת המלך עכלה\"ק",
+   "hasidic": true,
+   "summary_en": "The tsaddik (R. Yitzhak Isaac of Komarno) recounts that he first lived only about a year as his father's firstborn because of a kelipah. After daughters were born, his father begged the Seer of Lublin for a son. The Seer warned the son would not live long, then gave him a yihud to bring down the narrator's soul, and the narrator was born on 25 Shevat 5566.",
+   "tags": [
+    {
+     "tag": "folkloristics:story_type_birth_of_the_tsaddik",
+     "scope": "story",
+     "quotes": [],
+     "confidence": 3,
+     "why": "The miraculous circumstances of the narrator-tsaddik's birth are the core of the story.",
+     "quotes_failed": false
+    },
+    {
+     "tag": "times:birth",
+     "scope": "span",
+     "quotes": [
+      "ונולדתי בשנת משיח בן יוסף תקס״ו כ\"ה שבט"
+     ],
+     "confidence": 3,
+     "why": "His birth is a depicted event.",
+     "quotes_failed": false
+    },
+    {
+     "tag": "supernatural:pregnancy",
+     "scope": "span",
+     "quotes": [
+      "הפציר בו שיבקש רחמים שיהי׳ לו בן זכר",
+      "אם אגזור שיהי׳ לך בן זכר יהי'"
+     ],
+     "confidence": 3,
+     "why": "A son is conceived through the tsaddik's decree.",
+     "quotes_failed": false
+    },
+    {
+     "tag": "kabbalah:kabbalistic_terms_yihudim",
+     "scope": "span",
+     "quotes": [
+      "ומסר לו יחוד נורא שיורד את נשמתי"
+     ],
+     "confidence": 3,
+     "why": "The Seer transmits a yihud to draw down the narrator's soul.",
+     "quotes_failed": false
+    },
+    {
+     "tag": "supernatural:reincarnation",
+     "scope": "span",
+     "quotes": [
+      "שהוא גרם לי גלגולים עקומים",
+      "ומזה לא הייתי בזה העולם אלא יותר משנה"
+     ],
+     "confidence": 3,
+     "why": "His soul's earlier incarnation as the firstborn and its transmigrations are central to the plot.",
+     "quotes_failed": false
+    },
+    {
+     "tag": "characters-and-roles:the_family_of_the_tsaddik",
+     "scope": "span",
+     "quotes": [
+      "וכשהי׳ אבי הצדיק אצל מורינו קדוש",
+      "ואמרתי לה אמי החזיר אותי אצלך"
+     ],
+     "confidence": 3,
+     "why": "His father, mother and sisters appear.",
+     "quotes_failed": false
+    },
+    {
+     "tag": "practice:travel_to_the_tsaddik",
+     "scope": "span",
+     "quotes": [
+      "וכשהי׳ אבי הצדיק אצל מורינו קדוש אלקי ישראל מלובלין"
+     ],
+     "confidence": 2,
+     "why": "The father visits the Seer of Lublin to bring a request.",
+     "quotes_failed": false
+    },
+    {
+     "tag": "practice:torat_ha_tsaddik",
+     "scope": "span",
+     "quotes": [
+      "שבהכרח אם אגזור שיהי׳ לך בן זכר יהי'"
+     ],
+     "confidence": 2,
+     "why": "The tsaddik's decree has the power to grant a son.",
+     "quotes_failed": false
+    },
+    {
+     "tag": "supernatural:prognostication",
+     "scope": "span",
+     "quotes": [
+      "אבל לא תאריך ימים כי לא יהי' לכם ישיבה אחת"
+     ],
+     "confidence": 2,
+     "why": "The Seer predicts the son will be born, and predicts the family's fate.",
+     "quotes_failed": false
+    },
+    {
+     "tag": "characters-and-roles:messiah",
+     "scope": "span",
+     "quotes": [
+      "והיה הגאולה לכל ישראל",
+      "ונולדתי בשנת משיח בן יוסף"
+     ],
+     "confidence": 2,
+     "why": "Messianic redemption and the year of Messiah ben Joseph frame his soul's mission.",
+     "quotes_failed": false
+    },
+    {
+     "tag": "supernatural:communicating_with_the_invisible",
+     "scope": "span",
+     "quotes": [
+      "ותיכף באתי אל אמי מעולם עליון ואמרתי לה"
+     ],
+     "confidence": 2,
+     "why": "His unborn soul speaks to his mother from the upper world.",
+     "quotes_failed": false
+    },
+    {
+     "tag": "spaces:heaven",
+     "scope": "span",
+     "quotes": [
+      "ותיכף באתי אל אמי מעולם עליון"
+     ],
+     "confidence": 1,
+     "why": "The soul comes from the upper world, though little action is set there.",
+     "quotes_failed": false
+    },
+    {
+     "tag": "times:death",
+     "scope": "span",
+     "quotes": [
+      "ומזה לא הייתי בזה העולם אלא יותר משנה"
+     ],
+     "confidence": 1,
+     "why": "The firstborn's early death is implied rather than depicted.",
+     "quotes_failed": false
+    },
+    {
+     "tag": "women:minor_character",
+     "scope": "span",
+     "quotes": [
+      "ואמרתי לה אמי החזיר אותי אצלך"
+     ],
+     "confidence": 2,
+     "why": "His mother appears briefly as the one the soul addresses; the sisters are only mentioned.",
+     "quotes_failed": false
+    },
+    {
+     "tag": "practice:prayer",
+     "scope": "span",
+     "quotes": [
+      "הפציר בו שיבקש רחמים שיהי׳ לו בן זכר"
+     ],
+     "confidence": 1,
+     "why": "The father asks the tsaddik to pray for mercy.",
+     "quotes_failed": false
+    }
+   ],
+   "missing_concepts": [
+    "kelipah / cosmic evil force (the 'face of the dog' of the Second Temple period) obstructing the soul",
+    "autobiographical mystical diary (Megillat Setarim) as a genre",
+    "soul-root and its prior failure (sparks/tikkun of one's own soul)"
+   ],
+   "start_quote_found": true,
+   "end_quote_found": true
+  }
+ ],
+ "check": {
+  "non_vocab_tags": [],
+  "quotes": 18,
+  "quotes_not_found": 0
+ },
+ "id": "Eser-Kedushot_0172",
+ "chars": 996,
+ "seconds": 26
+}

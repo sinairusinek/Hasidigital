@@ -1,0 +1,102 @@
+{
+ "unit": {
+  "kind": "hasidic_story",
+  "why": "A short anecdote, transmitted via the Ruzhiner, about R. Mendel of Vitebsk in Jerusalem perceiving that a shofar blast on the Mount of Olives was not the herald of redemption; it is embedded in a homiletic citation.",
+  "boundary_note": ""
+ },
+ "stories": [
+  {
+   "k": 1,
+   "start_quote": "ובס׳ דברי אלימלך פ׳ קרח כתב",
+   "end_quote": "בודאי הי' מרגיש ורואה באויר העולם",
+   "hasidic": true,
+   "summary_en": "In Jerusalem a foolish man blew a shofar on the Mount of Olives and the crowd took it for the herald of redemption, but R. Mendel of Vitebsk opened his window, looked at the air of the world, and declared that nothing had changed, since otherwise he would have sensed it.",
+   "tags": [
+    {
+     "tag": "spaces:the_land_of_israel",
+     "scope": "story",
+     "quotes": [],
+     "confidence": 3,
+     "why": "The story is set in Jerusalem.",
+     "quotes_failed": false
+    },
+    {
+     "tag": "characters-and-roles:messiah",
+     "scope": "span",
+     "quotes": [
+      "התקיעת שופר המבשר הגאולה",
+      "שאם הי' סימנא דגאולה"
+     ],
+     "confidence": 3,
+     "why": "Messianic expectation is the core of the story.",
+     "quotes_failed": false
+    },
+    {
+     "tag": "times:eschatology",
+     "scope": "span",
+     "quotes": [
+      "ירגישו מיד בהארת הגאולה והתיקון"
+     ],
+     "confidence": 3,
+     "why": "The story is about the signs of the redemption.",
+     "quotes_failed": false
+    },
+    {
+     "tag": "supernatural:perception",
+     "scope": "span",
+     "quotes": [
+      "פתח החלון והביט לאויר העולם",
+      "בודאי הי' מרגיש ורואה באויר העולם"
+     ],
+     "confidence": 3,
+     "why": "The tzaddik perceives spiritually that the redemption has not come.",
+     "quotes_failed": false
+    },
+    {
+     "tag": "practice:storytelling",
+     "scope": "span",
+     "quotes": [
+      "ששמעתי ממרן הצדיק מרוזין זצ\"ל שסיפר לאאמו״ר"
+     ],
+     "confidence": 2,
+     "why": "The Ruzhiner is shown telling the story to the author's father.",
+     "quotes_failed": false
+    },
+    {
+     "tag": "not-a-hasidic-story:sermon",
+     "scope": "span",
+     "quotes": [
+      "ויחויב אשר בני ישראל ירגישו מיד"
+     ],
+     "confidence": 1,
+     "why": "The anecdote is quoted as proof inside a homiletic frame.",
+     "quotes_failed": false
+    },
+    {
+     "tag": "social:retrospective_recognition",
+     "scope": "span",
+     "quotes": [
+      "ומיד אמר שאין שום התחדשות"
+     ],
+     "confidence": 1,
+     "why": "The crowd's belief that redemption had come is corrected.",
+     "quotes_failed": false
+    }
+   ],
+   "missing_concepts": [
+    "shofar blown as a false messianic sign",
+    "popular messianic rumor or false alarm"
+   ],
+   "start_quote_found": true,
+   "end_quote_found": true
+  }
+ ],
+ "check": {
+  "non_vocab_tags": [],
+  "quotes": 8,
+  "quotes_not_found": 0
+ },
+ "id": "Tiferet-Hayyim_0016",
+ "chars": 474,
+ "seconds": 11
+}

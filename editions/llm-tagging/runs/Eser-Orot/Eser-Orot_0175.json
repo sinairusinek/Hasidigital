@@ -1,0 +1,121 @@
+{
+ "unit": {
+  "kind": "hasidic_story",
+  "why": "A short anecdote: a slaughterer asks the tsaddik whether to slaughter his cattle for the holiday, and the rebbe identifies from written descriptions which animals are kosher, which are treif, and which will raise a doubtful question.",
+  "boundary_note": ""
+ },
+ "stories": [
+  {
+   "k": 1,
+   "start_quote": "פ\"א בא הטבח ושאל עצה כדת",
+   "end_quote": "כי תורה היא ולא בשמים היא",
+   "hasidic": true,
+   "summary_en": "A butcher afraid of finding treif animals asks the holy rabbi whether to slaughter them for the festival; from written descriptions of each animal the rabbi tells which is kosher, which treif, and which will raise a question he leaves to the halakhic decisor, since 'the Torah is not in heaven'.",
+   "tags": [
+    {
+     "tag": "characters-and-roles:ritual_slaughterer",
+     "scope": "span",
+     "quotes": [
+      "בא הטבח ושאל עצה כדת"
+     ],
+     "confidence": 2,
+     "why": "the butcher/slaughterer is the petitioner",
+     "quotes_failed": false
+    },
+    {
+     "tag": "practice:ritual_slaughtering",
+     "scope": "span",
+     "quotes": [
+      "אם לשוחטם על החג או ימכרם"
+     ],
+     "confidence": 3,
+     "why": "slaughter and kashrut of the animals are the subject",
+     "quotes_failed": false
+    },
+    {
+     "tag": "supernatural:perception",
+     "scope": "span",
+     "quotes": [
+      "ויגד על כל בהמה זו כשרה. וזו טריפה"
+     ],
+     "confidence": 3,
+     "why": "knows each animal's status from writing alone",
+     "quotes_failed": false
+    },
+    {
+     "tag": "supernatural:prognostication",
+     "scope": "span",
+     "quotes": [
+      "וזו ימצא בה שאלה"
+     ],
+     "confidence": 2,
+     "why": "predicts what will be found at slaughter (outcome not narrated)",
+     "quotes_failed": false
+    },
+    {
+     "tag": "practice:halakhah",
+     "scope": "span",
+     "quotes": [
+      "ואינו יודע אם יפסוק המורה כשרה או טריפה",
+      "כי תורה היא ולא בשמים היא"
+     ],
+     "confidence": 3,
+     "why": "the limit of supernatural knowledge versus a halakhic ruling",
+     "quotes_failed": false
+    },
+    {
+     "tag": "practice:business_advice",
+     "scope": "span",
+     "quotes": [
+      "ושאל עצה כדת מה לעשות בבהמות"
+     ],
+     "confidence": 2,
+     "why": "advice on slaughtering versus selling the livestock",
+     "quotes_failed": false
+    },
+    {
+     "tag": "times:holidays",
+     "scope": "span",
+     "quotes": [
+      "אם לשוחטם על החג"
+     ],
+     "confidence": 2,
+     "why": "slaughter for the festival",
+     "quotes_failed": false
+    },
+    {
+     "tag": "practice:reception_of_hasidim",
+     "scope": "story",
+     "quotes": [],
+     "confidence": 1,
+     "why": "a petitioner comes to the rebbe for counsel",
+     "quotes_failed": false
+    },
+    {
+     "tag": "ethics-and-emotions:fear",
+     "scope": "span",
+     "quotes": [
+      "כי לבו יפחד פן ימצא טריפות"
+     ],
+     "confidence": 1,
+     "why": "the butcher's worry of financial loss",
+     "quotes_failed": false
+    }
+   ],
+   "missing_concepts": [
+    "limits of ruach ha-kodesh versus halakhic authority (lo ba-shamayim hi)",
+    "clairvoyance through a written note (kvitl-like description)"
+   ],
+   "start_quote_found": true,
+   "end_quote_found": true
+  }
+ ],
+ "check": {
+  "non_vocab_tags": [],
+  "quotes": 9,
+  "quotes_not_found": 0
+ },
+ "id": "Eser-Orot_0175",
+ "chars": 316,
+ "seconds": 12
+}

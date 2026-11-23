@@ -1,0 +1,78 @@
+{
+ "unit": {
+  "kind": "hasidic_story",
+  "why": "A brief anecdote, quoted from another book, about a contemporary tzaddik who hired a man to accompany him always and remind him to fear God, closed with a moral lesson.",
+  "boundary_note": "the closing words 'מענין מטבע' are a heading for the next division's story; the previous division's account of the Maharshal is a separate story"
+ },
+ "stories": [
+  {
+   "k": 1,
+   "start_quote": "וכן סיפרו מצדיק א׳ בדורינו",
+   "end_quote": "וזהו כלל גדול בעבדות השי״ת",
+   "hasidic": true,
+   "summary_en": "A tzaddik of the author's generation hired a man to go with him constantly and remind him to keep the fear of God, which the text presents as a great principle in divine service.",
+   "tags": [
+    {
+     "tag": "ethics-and-emotions:awe",
+     "scope": "span",
+     "quotes": [
+      "ויזכור לו שיהי׳ לו יראת הש״י"
+     ],
+     "confidence": 3,
+     "why": "the hired companion's whole purpose is to keep the tzaddik in the fear of God",
+     "quotes_failed": false
+    },
+    {
+     "tag": "folkloristics:story_type_virtues",
+     "scope": "story",
+     "quotes": [],
+     "confidence": 2,
+     "why": "the anecdote illustrates the tzaddik's piety",
+     "quotes_failed": false
+    },
+    {
+     "tag": "not-a-hasidic-story:virtues",
+     "scope": "span",
+     "quotes": [
+      "וזהו כלל גדול בעבדות השי״ת"
+     ],
+     "confidence": 2,
+     "why": "the text frames the anecdote explicitly as a lesson in divine service",
+     "quotes_failed": false
+    },
+    {
+     "tag": "ethics-and-emotions:humility",
+     "scope": "span",
+     "quotes": [
+      "ששכר איש א׳ שילך עמו תמיד"
+     ],
+     "confidence": 1,
+     "why": "the tzaddik accepts constant reminders from an ordinary hired man",
+     "quotes_failed": false
+    },
+    {
+     "tag": "ethics-and-emotions:virtues",
+     "scope": "story",
+     "quotes": [],
+     "confidence": 2,
+     "why": "the story's point is to illustrate a virtue",
+     "quotes_failed": false
+    }
+   ],
+   "missing_concepts": [
+    "a hired reminder or mentor for fear of God",
+    "a story quoted from an earlier book"
+   ],
+   "start_quote_found": true,
+   "end_quote_found": true
+  }
+ ],
+ "check": {
+  "non_vocab_tags": [],
+  "quotes": 3,
+  "quotes_not_found": 0
+ },
+ "id": "Derech-Haemuna_0145",
+ "chars": 135,
+ "seconds": 13
+}

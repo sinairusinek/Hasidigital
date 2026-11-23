@@ -1,0 +1,82 @@
+{
+ "unit": {
+  "kind": "hasidic_story",
+  "why": "A short memorate: R. Moshe passes on the rebbe's own account of a dead man's soul visiting him, a man who did not know he had died.",
+  "boundary_note": ""
+ },
+ "stories": [
+  {
+   "k": 1,
+   "start_quote": "שמעתי מהחסיד ר׳ משה שאמר לנו",
+   "end_quote": "והולך בדמיון שהוא חי",
+   "hasidic": true,
+   "summary_en": "The rebbe of Mogielnica tells R. Moshe that the soul of a man dead over a year, whom everyone (and he) thought a decent man, came to him that day, and the man seems not to know he has died and imagines he is still alive.",
+   "tags": [
+    {
+     "tag": "supernatural:communicating_with_the_invisible",
+     "scope": "span",
+     "quotes": [
+      "היום באה אצלי נשמה אחת הנפטר יותר משנה"
+     ],
+     "confidence": 3,
+     "why": "the soul of a dead man visits the tsaddik",
+     "quotes_failed": false
+    },
+    {
+     "tag": "supernatural:perception",
+     "scope": "span",
+     "quotes": [
+      "כמדומה לי שעוד לא יודע שהוא נפטר"
+     ],
+     "confidence": 2,
+     "why": "the tsaddik perceives the dead man's spiritual state",
+     "quotes_failed": false
+    },
+    {
+     "tag": "practice:storytelling",
+     "scope": "span",
+     "quotes": [
+      "הנה אספר לכם מה שסיפר לי היום מרן"
+     ],
+     "confidence": 3,
+     "why": "the story is framed as told by the rebbe and retold by a hasid",
+     "quotes_failed": false
+    },
+    {
+     "tag": "social:retrospective_recognition",
+     "scope": "span",
+     "quotes": [
+      "ובני העולם היו מחזיקין אותו לאדם כשר"
+     ],
+     "confidence": 1,
+     "why": "the man was thought decent, and his wandering soul implies otherwise",
+     "quotes_failed": false
+    },
+    {
+     "tag": "social:inter_hasidic_master_disciple_relationship",
+     "scope": "span",
+     "quotes": [
+      "מה שסיפר לי היום מרן שלי״ט"
+     ],
+     "confidence": 1,
+     "why": "the rebbe confides in his hasid",
+     "quotes_failed": false
+    }
+   ],
+   "missing_concepts": [
+    "a dead man's soul unaware of its own death (wandering soul)",
+    "the afterlife state of souls"
+   ],
+   "start_quote_found": true,
+   "end_quote_found": true
+  }
+ ],
+ "check": {
+  "non_vocab_tags": [],
+  "quotes": 5,
+  "quotes_not_found": 0
+ },
+ "id": "Toldot-Haniflaot_0049",
+ "chars": 264,
+ "seconds": 11
+}

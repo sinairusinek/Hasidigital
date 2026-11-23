@@ -1,0 +1,87 @@
+{
+ "unit": {
+  "kind": "hasidic_story",
+  "why": "A brief anecdote: followers from Homel walk on foot to R. Nahum of Chernobyl, and he greets them with a verse and its interpretation. It is quoted as part of a treatise section on going to one's rebbe.",
+  "boundary_note": "Part of a homiletic section 'מענין הליכה לרבו' that continues into the next division"
+ },
+ "stories": [
+  {
+   "k": 1,
+   "start_quote": "ונקדים מה ששמעתי בשם הק׳ ר׳ נחום",
+   "end_quote": "על המכתתים רגליהם לדבר מצוה",
+   "hasidic": true,
+   "summary_en": "Hasidim from Homel came on foot to R. Nahum of Chernobyl, who greeted them with 'How beautiful are your steps in sandals,' explaining that the verse once referred to Temple pilgrims and now refers to those who wear out their feet for a mitzvah.",
+   "tags": [
+    {
+     "tag": "practice:travel_to_the_tsaddik",
+     "scope": "span",
+     "quotes": [
+      "והלכו אליו ברגליהם"
+     ],
+     "confidence": 3,
+     "why": "followers journey on foot to the tsaddik",
+     "quotes_failed": false
+    },
+    {
+     "tag": "practice:reception_of_hasidim",
+     "scope": "span",
+     "quotes": [
+      "וקרא אליהם המקרא מה יפו פעמיך בנעלים"
+     ],
+     "confidence": 3,
+     "why": "the tsaddik greets the arriving followers",
+     "quotes_failed": false
+    },
+    {
+     "tag": "practice:sermon",
+     "scope": "span",
+     "quotes": [
+      "בעת שהיה בהמ״ק קיים היה כונת המקרא על ההולכים לרגל"
+     ],
+     "confidence": 3,
+     "why": "the tsaddik gives an exegesis of a verse",
+     "quotes_failed": false
+    },
+    {
+     "tag": "not-a-hasidic-story:sermon",
+     "scope": "story",
+     "quotes": [],
+     "confidence": 2,
+     "why": "a minimal narrative serving a homiletic point within a treatise section",
+     "quotes_failed": false
+    },
+    {
+     "tag": "social:inter_hasidic_master_disciple_relationship",
+     "scope": "span",
+     "quotes": [
+      "אנשים המקושרים אליו מהאמלע"
+     ],
+     "confidence": 2,
+     "why": "the visitors are bound followers of the master",
+     "quotes_failed": false
+    },
+    {
+     "tag": "practice:torat_ha_tsaddik",
+     "scope": "story",
+     "quotes": [],
+     "confidence": 1,
+     "why": "the journey to the tsaddik is valued like Temple pilgrimage",
+     "quotes_failed": false
+    }
+   ],
+   "missing_concepts": [
+    "walking on foot to the rebbe as a meritorious act (pilgrimage analogy)"
+   ],
+   "start_quote_found": true,
+   "end_quote_found": true
+  }
+ ],
+ "check": {
+  "non_vocab_tags": [],
+  "quotes": 4,
+  "quotes_not_found": 0
+ },
+ "id": "Derech-Haemuna_0076",
+ "chars": 265,
+ "seconds": 12
+}

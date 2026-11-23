@@ -1,0 +1,124 @@
+{
+ "unit": {
+  "kind": "hasidic_story",
+  "why": "A short narrative about the Besht (מרן הריב״ש) travelling miraculously to bring back a man who had abandoned faith out of envy, ending in his repentance.",
+  "boundary_note": "Trailing heading 'מענין קריאות שמות' belongs to the next division; the story is the fifth item in a topical series headed 'מענין קנאה' in the previous division."
+ },
+ "stories": [
+  {
+   "k": 1,
+   "start_quote": "וכיוצא בימי מרן הריב״ש יצא איש",
+   "end_quote": "לעירו ועשה תשובה שלימה",
+   "hasidic": true,
+   "summary_en": "In the Besht's time a great man left the fold and denied God out of envy of his brothers who had become rabbis; the Besht travelled many parasangs in one day by contraction of the road, spent the Sabbath in Radom, and brought him back the same way to his town, where he repented fully.",
+   "tags": [
+    {
+     "tag": "supernatural:contraction_of_the_road",
+     "scope": "span",
+     "quotes": [
+      "עד שיצא מרן כמה פרסאות בקפיצה ביום אחד",
+      "עד שהחזירו בקפיצה לעירו"
+     ],
+     "confidence": 3,
+     "why": "Miraculous fast travel",
+     "quotes_failed": false
+    },
+    {
+     "tag": "ethics-and-emotions:repentance",
+     "scope": "span",
+     "quotes": [
+      "ועשה תשובה שלימה"
+     ],
+     "confidence": 3,
+     "why": "The man repents fully",
+     "quotes_failed": false
+    },
+    {
+     "tag": "practice:healing_of_the_soul",
+     "scope": "span",
+     "quotes": [
+      "עד שהחזירו בקפיצה לעירו ועשה תשובה שלימה"
+     ],
+     "confidence": 3,
+     "why": "The Besht brings a straying soul back to faith",
+     "quotes_failed": false
+    },
+    {
+     "tag": "social:relations_with_sinners",
+     "scope": "span",
+     "quotes": [
+      "יצא איש גדול מן הכלל וכפר באלהים חיים"
+     ],
+     "confidence": 3,
+     "why": "The tzaddik reaches out to a heretic",
+     "quotes_failed": false
+    },
+    {
+     "tag": "practice:the_travels_of_the_tsaddik",
+     "scope": "span",
+     "quotes": [
+      "ושבת שם בעיר (ראדום בפולין)"
+     ],
+     "confidence": 3,
+     "why": "The story turns on the Besht's journey and stay",
+     "quotes_failed": false
+    },
+    {
+     "tag": "times:shabbat",
+     "scope": "span",
+     "quotes": [
+      "ושבת שם בעיר (ראדום בפולין)"
+     ],
+     "confidence": 2,
+     "why": "The Besht spends Shabbat with the man",
+     "quotes_failed": false
+    },
+    {
+     "tag": "social:converts_and_conversion",
+     "scope": "span",
+     "quotes": [
+      "יצא איש גדול מן הכלל וכפר באלהים חיים"
+     ],
+     "confidence": 1,
+     "why": "Leaving the fold / denying God, close to apostasy",
+     "quotes_failed": false
+    },
+    {
+     "tag": "supernatural:miracle",
+     "scope": "span",
+     "quotes": [
+      "כמה פרסאות בקפיצה ביום אחד"
+     ],
+     "confidence": 2,
+     "why": "A discrete miraculous journey",
+     "quotes_failed": false
+    },
+    {
+     "tag": "ethics-and-emotions:virtues",
+     "scope": "span",
+     "quotes": [
+      "על קנאתו באחיו שנעשו רבנים"
+     ],
+     "confidence": 1,
+     "why": "Illustrates the danger of envy, a moral failing",
+     "quotes_failed": false
+    }
+   ],
+   "missing_concepts": [
+    "envy / jealousy (קנאה) as the cause of heresy",
+    "heresy / loss of faith (כפירה)",
+    "sibling rivalry"
+   ],
+   "start_quote_found": true,
+   "end_quote_found": true
+  }
+ ],
+ "check": {
+  "non_vocab_tags": [],
+  "quotes": 10,
+  "quotes_not_found": 0
+ },
+ "id": "Derech-Haemuna_0191",
+ "chars": 285,
+ "seconds": 17
+}

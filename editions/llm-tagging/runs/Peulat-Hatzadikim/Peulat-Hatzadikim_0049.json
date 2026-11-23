@@ -1,0 +1,116 @@
+{
+ "unit": {
+  "kind": "hasidic_story",
+  "why": "A single anecdote about R. Naftali of Ropshitz in his youth exposing the pride of an ascetic townsman through a staged rebuke.",
+  "boundary_note": "division ends with a garbled running head/catchword ('איש אתלי זצ\"ל אבד״ק ראפשיץ הה\"ק ר׳ נא') that is not part of the story"
+ },
+ "stories": [
+  {
+   "k": 1,
+   "start_quote": "הה\"ק ר׳ נפתלי זצ״ל אבד״ק ראפשיץ",
+   "end_quote": "ואז הבינו חכמתו הגדולה",
+   "hasidic": true,
+   "summary_en": "In his youth R. Naftali of Ropshitz sensed that a much-fasting townsman had grown proud, so he pushed a boy into him and loudly scolded the boy, praising the man for fasting on Mondays and Thursdays. The man replied in Yiddish that it was not 'from Sabbath to Sabbath', which exposed his pride, and onlookers grasped the rabbi's wisdom.",
+   "tags": [
+    {
+     "tag": "practice:fasting",
+     "scope": "span",
+     "quotes": [
+      "שהי׳ מתענה הרבה",
+      "ומתענה בה״ב"
+     ],
+     "confidence": 3,
+     "why": "the man's frequent fasting is central",
+     "quotes_failed": false
+    },
+    {
+     "tag": "practice:asceticism",
+     "scope": "span",
+     "quotes": [
+      "שהי׳ מתענה הרבה והי׳ מסדר סדר חצות"
+     ],
+     "confidence": 3,
+     "why": "ascetic regimen of fasts and the midnight lament",
+     "quotes_failed": false
+    },
+    {
+     "tag": "ethics-and-emotions:pride",
+     "scope": "span",
+     "quotes": [
+      "דמה בנפשו כי הוא אדם השלם ויגבה לבו"
+     ],
+     "confidence": 3,
+     "why": "the ascetic's arrogance is the story's subject",
+     "quotes_failed": false
+    },
+    {
+     "tag": "supernatural:perception",
+     "scope": "span",
+     "quotes": [
+      "והרב ז\"ל הרגיש זאת"
+     ],
+     "confidence": 2,
+     "why": "the rabbi senses the man's hidden pride",
+     "quotes_failed": false
+    },
+    {
+     "tag": "practice:joke",
+     "scope": "span",
+     "quotes": [
+      "אין משבת לשבת ווילט איהר נישט"
+     ],
+     "confidence": 2,
+     "why": "the staged scolding and the punchline form a witty exposure",
+     "quotes_failed": false
+    },
+    {
+     "tag": "social:retrospective_recognition",
+     "scope": "span",
+     "quotes": [
+      "ואז הבינו חכמתו הגדולה"
+     ],
+     "confidence": 2,
+     "why": "onlookers understand the purpose of the rabbi's act only afterwards",
+     "quotes_failed": false
+    },
+    {
+     "tag": "practice:study",
+     "scope": "span",
+     "quotes": [
+      "למה תפריע אותו מלימודו",
+      "יושב על התורה ועל העבודה"
+     ],
+     "confidence": 1,
+     "why": "the man is depicted as studying",
+     "quotes_failed": false
+    },
+    {
+     "tag": "ethics-and-emotions:shame",
+     "scope": "span",
+     "quotes": [
+      "ויתן בקולו על הנער"
+     ],
+     "confidence": 1,
+     "why": "the boy is publicly scolded, and the man is implicitly exposed",
+     "quotes_failed": false
+    }
+   ],
+   "missing_concepts": [
+    "exposing hidden pride in ascetics / critique of self-satisfied piety",
+    "tikkun hatzot (midnight lament)",
+    "the tzaddik's youth (bimei horpo)",
+    "Yiddish punchline"
+   ],
+   "start_quote_found": true,
+   "end_quote_found": true
+  }
+ ],
+ "check": {
+  "non_vocab_tags": [],
+  "quotes": 10,
+  "quotes_not_found": 0
+ },
+ "id": "Peulat-Hatzadikim_0049",
+ "chars": 453,
+ "seconds": 16
+}

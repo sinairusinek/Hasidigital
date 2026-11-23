@@ -1,0 +1,108 @@
+{
+ "unit": {
+  "kind": "hasidic_story",
+  "why": "A short narrative about the Besht welcoming the Sabbath in a field, where the sheep stood upright, followed by an explanation attributed to the tsaddikim.",
+  "boundary_note": ""
+ },
+ "stories": [
+  {
+   "k": 1,
+   "start_quote": "קבלת שבת מרבינו אור ישראל וקדושו",
+   "end_quote": "בזה העולם ומכש״כ אנחנו עם ב״י",
+   "hasidic": true,
+   "summary_en": "When the Besht welcomed the Sabbath in a field, the flocks of sheep there raised their forelegs and stood upright like men; the tsaddikim explain that he raised the whole world to its source, so even the animals' life-force was elevated.",
+   "tags": [
+    {
+     "tag": "times:shabbat",
+     "scope": "story",
+     "quotes": [],
+     "confidence": 3,
+     "why": "Set at kabbalat Shabbat",
+     "quotes_failed": false
+    },
+    {
+     "tag": "practice:prayer",
+     "scope": "span",
+     "quotes": [
+      "הי׳ מקבל שבת קודש על פני השדה"
+     ],
+     "confidence": 2,
+     "why": "Kabbalat Shabbat prayer is depicted",
+     "quotes_failed": false
+    },
+    {
+     "tag": "supernatural:miracle",
+     "scope": "span",
+     "quotes": [
+      "ועמדו רק על שני רגלים האחרונים בעמידת איש"
+     ],
+     "confidence": 3,
+     "why": "The sheep miraculously stand upright",
+     "quotes_failed": false
+    },
+    {
+     "tag": "practice:devekut",
+     "scope": "span",
+     "quotes": [
+      "והעלה בשעת מעשה את כל העולם למקורו הראשון"
+     ],
+     "confidence": 2,
+     "why": "His worship elevates all creation to its source",
+     "quotes_failed": false
+    },
+    {
+     "tag": "experience:devekut",
+     "scope": "span",
+     "quotes": [
+      "והעלה בשעת מעשה את כל העולם למקורו הראשון"
+     ],
+     "confidence": 1,
+     "why": "Implied mystical elevation during prayer",
+     "quotes_failed": false
+    },
+    {
+     "tag": "folkloristics:story_type_virtues",
+     "scope": "story",
+     "quotes": [],
+     "confidence": 2,
+     "why": "Illustrates the Besht's holiness",
+     "quotes_failed": false
+    },
+    {
+     "tag": "practice:sermon",
+     "scope": "span",
+     "quotes": [
+      "ואומרים הצדיקים הטעם ונימוקו עמו מחמת שקידש את כל העולם"
+     ],
+     "confidence": 2,
+     "why": "An explanatory teaching is attached to the tale",
+     "quotes_failed": false
+    },
+    {
+     "tag": "practice:solitude",
+     "scope": "span",
+     "quotes": [
+      "הי׳ מקבל שבת קודש על פני השדה"
+     ],
+     "confidence": 1,
+     "why": "He prays out in the open field",
+     "quotes_failed": false
+    }
+   ],
+   "missing_concepts": [
+    "animals responding to a tsaddik's holiness",
+    "elevation of creation / sparks to their source"
+   ],
+   "start_quote_found": true,
+   "end_quote_found": true
+  }
+ ],
+ "check": {
+  "non_vocab_tags": [],
+  "quotes": 6,
+  "quotes_not_found": 0
+ },
+ "id": "Maasim-Tovim_0009",
+ "chars": 579,
+ "seconds": 10
+}

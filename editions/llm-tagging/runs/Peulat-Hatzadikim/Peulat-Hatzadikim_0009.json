@@ -1,0 +1,111 @@
+{
+ "unit": {
+  "kind": "hasidic_story",
+  "why": "A short anecdote, told by R. Yehezkel of Kuzmir, about R. Elimelech looking at his watch during the Keter Kedushah on Shabbat and later explaining why.",
+  "boundary_note": ""
+ },
+ "stories": [
+  {
+   "k": 1,
+   "start_quote": "סיפר הה״צ ר׳ יחזקאל מקאזמור ז״ל",
+   "end_quote": "בגוף שלא יבטל ממציאות:",
+   "hasidic": true,
+   "summary_en": "R. Yehezkel of Kuzmir related that R. Elimelech looked at his watch while reciting the Keter Kedushah on Shabbat, and later explained that he felt such great sweetness that he feared his soul would expire, so he fixed his gaze on a physical object to keep his soul in his body.",
+   "tags": [
+    {
+     "tag": "times:shabbat",
+     "scope": "span",
+     "quotes": [
+      "בשעה שאמר קדושת כתר בש״ק"
+     ],
+     "confidence": 3,
+     "why": "Kedushah of Keter on the Sabbath",
+     "quotes_failed": false
+    },
+    {
+     "tag": "practice:prayer",
+     "scope": "span",
+     "quotes": [
+      "בשעה שאמר קדושת כתר בש״ק"
+     ],
+     "confidence": 3,
+     "why": "Recitation of the Kedushah during prayer",
+     "quotes_failed": false
+    },
+    {
+     "tag": "practice:devekut",
+     "scope": "span",
+     "quotes": [
+      "שהרגיש מתיקות גדול בשעת קדושת כתר",
+      "שלא יהי' לו ח\"ו כלות הנפש"
+     ],
+     "confidence": 3,
+     "why": "Rapt attachment that threatens to dissolve the soul",
+     "quotes_failed": false
+    },
+    {
+     "tag": "experience:devekut",
+     "scope": "span",
+     "quotes": [
+      "שהרגיש מתיקות גדול בשעת קדושת כתר"
+     ],
+     "confidence": 3,
+     "why": "Mystical sweetness and near expiry of the soul",
+     "quotes_failed": false
+    },
+    {
+     "tag": "ethics-and-emotions:fear",
+     "scope": "span",
+     "quotes": [
+      "והי׳ ירא שלא יהי' לו ח\"ו כלות הנפש"
+     ],
+     "confidence": 2,
+     "why": "He fears that his soul will expire",
+     "quotes_failed": false
+    },
+    {
+     "tag": "practice:storytelling",
+     "scope": "span",
+     "quotes": [
+      "סיפר הה״צ ר׳ יחזקאל מקאזמור ז״ל"
+     ],
+     "confidence": 2,
+     "why": "The tale is framed as told by a named tzaddik",
+     "quotes_failed": false
+    },
+    {
+     "tag": "folkloristics:story_type_virtues",
+     "scope": "story",
+     "quotes": [],
+     "confidence": 2,
+     "why": "Illustrates the intensity of the tzaddik's worship",
+     "quotes_failed": false
+    },
+    {
+     "tag": "social:retrospective_recognition",
+     "scope": "span",
+     "quotes": [
+      "ואמר אח״כ שע״ב הביט עליו"
+     ],
+     "confidence": 1,
+     "why": "His puzzling act is explained afterwards",
+     "quotes_failed": false
+    }
+   ],
+   "missing_concepts": [
+    "kelot ha-nefesh (expiry of the soul in ecstasy) and grounding oneself through a physical object",
+    "the watch (זייגערל) as an object"
+   ],
+   "start_quote_found": true,
+   "end_quote_found": true
+  }
+ ],
+ "check": {
+  "non_vocab_tags": [],
+  "quotes": 8,
+  "quotes_not_found": 0
+ },
+ "id": "Peulat-Hatzadikim_0009",
+ "chars": 263,
+ "seconds": 14
+}

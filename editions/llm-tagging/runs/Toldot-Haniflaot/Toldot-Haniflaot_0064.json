@@ -1,0 +1,181 @@
+{
+ "unit": {
+  "kind": "hasidic_story",
+  "why": "A single narrative told to the author about a man the Rebbe of Mogielnica humiliated on Sukkot, who then fell gravely ill and recovered, and to whom the Rebbe later explained that his anger had sweetened the judgments against him.",
+  "boundary_note": ""
+ },
+ "stories": [
+  {
+   "k": 1,
+   "start_quote": "סיפר לי הה״ג החסיד ר׳ יעקב יצחק",
+   "end_quote": "שהיה מסיר בזה הדינים מכ״א",
+   "hasidic": true,
+   "summary_en": "At Mogielnica on Sukkot the Rebbe angrily humiliates R. Ya'akov Yitzhak, first for not providing wine on the day of the ushpiza Yitzhak and then for providing it on the day of Ya'akov; the man then falls deathly ill and recovers, and the Rebbe explains that he saw heavy judgments on him and sweetened them through the anger, as was his habit with others.",
+   "tags": [
+    {
+     "tag": "times:holidays",
+     "scope": "story",
+     "quotes": [],
+     "confidence": 3,
+     "why": "The story is set on Sukkot, with the ushpizin custom.",
+     "quotes_failed": false
+    },
+    {
+     "tag": "ethics-and-emotions:anger",
+     "scope": "span",
+     "quotes": [
+      "והיה כועס מרן ז״ל עליו והקניט וביזה אותו",
+      "וכן היה דרכו תמיד לכעוס הרבה"
+     ],
+     "confidence": 3,
+     "why": "The tsaddik's anger is the central device of the story.",
+     "quotes_failed": false
+    },
+    {
+     "tag": "ethics-and-emotions:shame",
+     "scope": "span",
+     "quotes": [
+      "והקניט וביזה אותו למאוד",
+      "ולצער אנשים מאד ולהלבין פניהם"
+     ],
+     "confidence": 3,
+     "why": "The man is publicly humiliated.",
+     "quotes_failed": false
+    },
+    {
+     "tag": "ethics-and-emotions:fear",
+     "scope": "span",
+     "quotes": [
+      "היה ירא מאד מבלי להעמיד יין"
+     ],
+     "confidence": 2,
+     "why": "He fears the Rebbe's anger a second time.",
+     "quotes_failed": false
+    },
+    {
+     "tag": "practice:drinking_alcohol",
+     "scope": "span",
+     "quotes": [
+      "להעמיד יין ביום אושפיזו"
+     ],
+     "confidence": 1,
+     "why": "Providing wine is a custom, but no drinking is shown.",
+     "quotes_failed": false
+    },
+    {
+     "tag": "practice:pidyon_nefesh",
+     "scope": "span",
+     "quotes": [
+      "ובהכעס שכעסתי עליך וציערתי אותך המתקתי אותם מעליך"
+     ],
+     "confidence": 3,
+     "why": "The tsaddik averts a heavenly decree hanging over the man.",
+     "quotes_failed": false
+    },
+    {
+     "tag": "practice:protection",
+     "scope": "span",
+     "quotes": [
+      "כי הייתי רואה הקיטרוג הגדול והדינים השורים עליך"
+     ],
+     "confidence": 2,
+     "why": "He shields the man from the prosecution against him in Heaven.",
+     "quotes_failed": false
+    },
+    {
+     "tag": "supernatural:perception",
+     "scope": "span",
+     "quotes": [
+      "כי הייתי רואה הקיטרוג הגדול והדינים השורים עליך"
+     ],
+     "confidence": 3,
+     "why": "He perceives the heavenly judgments.",
+     "quotes_failed": false
+    },
+    {
+     "tag": "social:retrospective_recognition",
+     "scope": "span",
+     "quotes": [
+      "עתה ידעת מה שהייתי מצער אותך כ״כ"
+     ],
+     "confidence": 3,
+     "why": "The meaning of the anger is revealed only afterwards.",
+     "quotes_failed": false
+    },
+    {
+     "tag": "practice:torat_ha_tsaddik",
+     "scope": "span",
+     "quotes": [
+      "כי נבחן הדבר שהיה מסיר בזה הדינים מכ״א"
+     ],
+     "confidence": 2,
+     "why": "The story turns on the tsaddik's power to remove judgments from others.",
+     "quotes_failed": false
+    },
+    {
+     "tag": "practice:travel_to_the_tsaddik",
+     "scope": "span",
+     "quotes": [
+      "אשר פ״א היה במאגלניצא בחג הסוכות",
+      "כשהבריא נסע למאגלניצא"
+     ],
+     "confidence": 3,
+     "why": "The hasid travels to the court for the holiday and again after recovering.",
+     "quotes_failed": false
+    },
+    {
+     "tag": "spaces:institutions_hassidic_court",
+     "scope": "span",
+     "quotes": [
+      "היה במאגלניצא בחג הסוכות"
+     ],
+     "confidence": 2,
+     "why": "The holiday scene takes place at the court.",
+     "quotes_failed": false
+    },
+    {
+     "tag": "social:inter_hasidic_master_disciple_relationship",
+     "scope": "story",
+     "quotes": [],
+     "confidence": 2,
+     "why": "The story centres on the Rebbe's harsh treatment of a follower.",
+     "quotes_failed": false
+    },
+    {
+     "tag": "practice:storytelling",
+     "scope": "span",
+     "quotes": [
+      "סיפר לי הה״ג החסיד ר׳ יעקב יצחק"
+     ],
+     "confidence": 2,
+     "why": "The story is framed as told to the author by its subject.",
+     "quotes_failed": false
+    },
+    {
+     "tag": "practice:healing",
+     "scope": "span",
+     "quotes": [
+      "וריחם ה׳ עליו ונתרפא"
+     ],
+     "confidence": 1,
+     "why": "He recovers from a grave illness, though the healing is credited to God.",
+     "quotes_failed": false
+    }
+   ],
+   "missing_concepts": [
+    "ushpizin custom",
+    "sweetening of judgments (המתקת הדינים) through the tsaddik's anger or humiliation"
+   ],
+   "start_quote_found": true,
+   "end_quote_found": true
+  }
+ ],
+ "check": {
+  "non_vocab_tags": [],
+  "quotes": 16,
+  "quotes_not_found": 0
+ },
+ "id": "Toldot-Haniflaot_0064",
+ "chars": 1048,
+ "seconds": 19
+}

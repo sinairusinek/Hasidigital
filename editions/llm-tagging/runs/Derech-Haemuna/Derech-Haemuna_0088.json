@@ -1,0 +1,111 @@
+{
+ "unit": {
+  "kind": "non_hasidic_story",
+  "why": "A homiletic note on the word בהמה, quoted from a book, wraps a short anecdote from an old manuscript about a sage who sold his Zohar, was tormented in dreams, and returned it.",
+  "boundary_note": ""
+ },
+ "stories": [
+  {
+   "k": 1,
+   "start_quote": "דחכם אחד היה לו ס׳ הזהר ומכרו",
+   "end_quote": "הלך והחזיר הזהר ע״כ כתוב בס׳ הנז'",
+   "hasidic": false,
+   "summary_en": "A sage sold his copy of the Zohar. At night he was tormented and called 'beast' (בהמה). A scholar explained that the word is an acronym for 'you have removed the holy from the house', so the sage went and took the Zohar back.",
+   "tags": [
+    {
+     "tag": "not-a-hasidic-story:sermon",
+     "scope": "story",
+     "quotes": [],
+     "confidence": 3,
+     "why": "The anecdote is embedded in a homiletic explanation of why a sinner is called בהמה.",
+     "quotes_failed": false
+    },
+    {
+     "tag": "experience:dream",
+     "scope": "span",
+     "quotes": [
+      "ובלילה היו מצערין אותו וקורין אותו בהמה",
+      "וביום סיפר החלום"
+     ],
+     "confidence": 3,
+     "why": "The night-time dream reproach drives the plot.",
+     "quotes_failed": false
+    },
+    {
+     "tag": "ethics-and-emotions:punishment",
+     "scope": "span",
+     "quotes": [
+      "ובלילה היו מצערין אותו וקורין אותו בהמה"
+     ],
+     "confidence": 2,
+     "why": "He is tormented for selling the Zohar.",
+     "quotes_failed": false
+    },
+    {
+     "tag": "ethics-and-emotions:repentance",
+     "scope": "span",
+     "quotes": [
+      "וכשמעו הלך והחזיר הזהר"
+     ],
+     "confidence": 2,
+     "why": "He corrects his wrong by taking the book back.",
+     "quotes_failed": false
+    },
+    {
+     "tag": "ethics-and-emotions:prohibitions",
+     "scope": "span",
+     "quotes": [
+      "כי הוכיחו אותו על שמכר הזהר"
+     ],
+     "confidence": 2,
+     "why": "Selling a holy book is treated as a wrong.",
+     "quotes_failed": false
+    },
+    {
+     "tag": "ethics-and-emotions:shame",
+     "scope": "span",
+     "quotes": [
+      "וקורין אותו בהמה"
+     ],
+     "confidence": 1,
+     "why": "He is insulted with the name 'beast'.",
+     "quotes_failed": false
+    },
+    {
+     "tag": "supernatural:communicating_with_the_invisible",
+     "scope": "span",
+     "quotes": [
+      "ובלילה היו מצערין אותו וקורין אותו בהמה"
+     ],
+     "confidence": 1,
+     "why": "Unseen agents rebuke him at night.",
+     "quotes_failed": false
+    },
+    {
+     "tag": "knowledge:esoteric",
+     "scope": "span",
+     "quotes": [
+      "דחכם אחד היה לו ס׳ הזהר ומכרו"
+     ],
+     "confidence": 1,
+     "why": "The book at stake is the Zohar, a kabbalistic text.",
+     "quotes_failed": false
+    }
+   ],
+   "missing_concepts": [
+    "sanctity of holy books / prohibition on selling sacred books",
+    "acronym (notarikon) wordplay as a heavenly message"
+   ],
+   "start_quote_found": true,
+   "end_quote_found": true
+  }
+ ],
+ "check": {
+  "non_vocab_tags": [],
+  "quotes": 8,
+  "quotes_not_found": 0
+ },
+ "id": "Derech-Haemuna_0088",
+ "chars": 433,
+ "seconds": 13
+}

@@ -1,0 +1,124 @@
+{
+ "unit": {
+  "kind": "hasidic_story",
+  "why": "A short anecdote: during the master's two-week winter stay in Radom, the rabbi of Radom asks him how he may risk his life by immersing daily, and he answers about the license tzaddikim have.",
+  "boundary_note": "opens with 'והנה אז', tying the time frame to the previous division, but the anecdote is self-contained"
+ },
+ "stories": [
+  {
+   "k": 1,
+   "start_quote": "והנה אז באמצע החורף היה ב׳ שבועות",
+   "end_quote": "ואנשי רואים, המה עושים תשובה",
+   "hasidic": true,
+   "summary_en": "While staying in Radom in midwinter, the master is asked by the rabbi of Radom, a grandson of the Noda BiYehuda, how he may immerse in the mikveh daily despite the danger to his life; he answers that, like the prophets, tzaddikim may set aside a law when the hour requires it, that the world needs his mikveh, and that his mere gestures at the table move people to repent.",
+   "tags": [
+    {
+     "tag": "practice:tvilah",
+     "scope": "span",
+     "quotes": [
+      "האיך רשאי מר לכנוס בכל יום למקוה",
+      "אני יודע כי העולם צריך להמקוה שלי"
+     ],
+     "confidence": 3,
+     "why": "the tzaddik's daily immersion is the subject of the exchange",
+     "quotes_failed": false
+    },
+    {
+     "tag": "practice:halakhah",
+     "scope": "span",
+     "quotes": [
+      "כי ודאי הוא ממש פקוח נפש למר",
+      "הנביא היה רשאי לעבור על ד״ת ע״פ הוראות שעה"
+     ],
+     "confidence": 3,
+     "why": "the question of danger to life and the principle of a temporary ruling are argued in legal terms",
+     "quotes_failed": false
+    },
+    {
+     "tag": "ethics-and-emotions:prohibitions",
+     "scope": "span",
+     "quotes": [
+      "יש צדיקים בכל דור אשר רשאים לעבור"
+     ],
+     "confidence": 2,
+     "why": "whether he may transgress the duty to avoid danger is at issue",
+     "quotes_failed": false
+    },
+    {
+     "tag": "practice:torat_ha_tsaddik",
+     "scope": "span",
+     "quotes": [
+      "כן יש צדיקים בכל דור אשר רשאים לעבור",
+      "ואני יודע כי העולם צריך להמקוה שלי"
+     ],
+     "confidence": 3,
+     "why": "the tzaddik's special license and his acts working on the world",
+     "quotes_failed": false
+    },
+    {
+     "tag": "ethics-and-emotions:repentance",
+     "scope": "span",
+     "quotes": [
+      "ואנשי רואים, המה עושים תשובה"
+     ],
+     "confidence": 1,
+     "why": "repentance brought about by the tzaddik's gestures is described, not shown",
+     "quotes_failed": false
+    },
+    {
+     "tag": "practice:asceticism",
+     "scope": "span",
+     "quotes": [
+      "באמצע החורף היה ב׳ שבועות בראדום",
+      "כי ודאי הוא ממש פקוח נפש למר"
+     ],
+     "confidence": 2,
+     "why": "immersing daily in midwinter at risk to his life is a harsh austerity",
+     "quotes_failed": false
+    },
+    {
+     "tag": "practice:the_travels_of_the_tsaddik",
+     "scope": "span",
+     "quotes": [
+      "באמצע החורף היה ב׳ שבועות בראדום"
+     ],
+     "confidence": 2,
+     "why": "the scene is set during the tzaddik's stay in Radom",
+     "quotes_failed": false
+    },
+    {
+     "tag": "social:relations_with_non_hasidim",
+     "scope": "span",
+     "quotes": [
+      "הרב מראדום שהיה נכד בעל נודע ביהודה"
+     ],
+     "confidence": 1,
+     "why": "the local rabbi, descended from a non-Hasidic authority, challenges the practice; his own affiliation is unclear",
+     "quotes_failed": false
+    },
+    {
+     "tag": "folkloristics:story_type_virtues",
+     "scope": "story",
+     "quotes": [],
+     "confidence": 1,
+     "why": "the story shows the tzaddik's devotion and power more than it argues a point",
+     "quotes_failed": false
+    }
+   ],
+   "missing_concepts": [
+    "a tzaddik's license to set aside halakhah (הוראת שעה) by comparison with the prophets",
+    "the tzaddik's gestures at the table (moving a knife) as acts that work on others"
+   ],
+   "start_quote_found": true,
+   "end_quote_found": true
+  }
+ ],
+ "check": {
+  "non_vocab_tags": [],
+  "quotes": 12,
+  "quotes_not_found": 0
+ },
+ "id": "Toldot-Haniflaot_0089",
+ "chars": 557,
+ "seconds": 21
+}

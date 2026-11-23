@@ -1,0 +1,112 @@
+{
+ "unit": {
+  "kind": "hasidic_story",
+  "why": "An anecdote: a woman comes to the Maggid (of Kozienice) weeping that her husband despises her, and he turns her cry into a prayer for Israel.",
+  "boundary_note": ""
+ },
+ "stories": [
+  {
+   "k": 1,
+   "start_quote": "ובספר בית נפתלי פ׳ דברים שמביא",
+   "end_quote": "צור ישראל קומה בעזרת ישראל עכד״ק",
+   "hasidic": true,
+   "summary_en": "A woman complains to the Maggid that her husband now finds her repulsive though she was beautiful to him at the wedding; the Maggid provokes her outcry, then applies it as a plea to God not to reject Israel, His bride since Sinai.",
+   "tags": [
+    {
+     "tag": "women:major_character",
+     "scope": "span",
+     "quotes": [
+      "שבאתה לפניו אשה אחת ובכתה על בעל נעוריה"
+     ],
+     "confidence": 3,
+     "why": "the woman drives the encounter and speaks",
+     "quotes_failed": false
+    },
+    {
+     "tag": "social:marital_relationship",
+     "scope": "span",
+     "quotes": [
+      "בעל נעוריה ששונאה באומרו שמאוסה בעיניו"
+     ],
+     "confidence": 3,
+     "why": "husband's estrangement from wife",
+     "quotes_failed": false
+    },
+    {
+     "tag": "social:marriage",
+     "scope": "span",
+     "quotes": [
+      "שבשעת חופה וקידושין הייתי נאה בעיניו"
+     ],
+     "confidence": 2,
+     "why": "wedding as image of God and Israel",
+     "quotes_failed": false
+    },
+    {
+     "tag": "practice:prayer",
+     "scope": "span",
+     "quotes": [
+      "צור ישראל קומה בעזרת ישראל"
+     ],
+     "confidence": 3,
+     "why": "Maggid's spontaneous prayer",
+     "quotes_failed": false
+    },
+    {
+     "tag": "practice:reception_of_hasidim",
+     "scope": "span",
+     "quotes": [
+      "שבאתה לפניו אשה אחת ובכתה"
+     ],
+     "confidence": 2,
+     "why": "petitioner received by the tsaddik",
+     "quotes_failed": false
+    },
+    {
+     "tag": "ethics-and-emotions:sadness",
+     "scope": "span",
+     "quotes": [
+      "ותתמרמר מאד וצעקה אוי לי"
+     ],
+     "confidence": 2,
+     "why": "woman's bitter weeping",
+     "quotes_failed": false
+    },
+    {
+     "tag": "practice:sermon",
+     "scope": "span",
+     "quotes": [
+      "כשאמרו ישראל נעשה ונשמע ועשית בהם קשרי חיתון"
+     ],
+     "confidence": 2,
+     "why": "homiletic application of Sinai as marriage",
+     "quotes_failed": false
+    },
+    {
+     "tag": "practice:storytelling",
+     "scope": "span",
+     "quotes": [
+      "ששמע מהנגיד הישיש מו\"ה אהרן מאוהעל"
+     ],
+     "confidence": 1,
+     "why": "framed as eyewitness report retold",
+     "quotes_failed": false
+    }
+   ],
+   "missing_concepts": [
+    "the tsaddik turning a petitioner's complaint into intercession for all Israel",
+    "God–Israel marriage imagery"
+   ],
+   "start_quote_found": true,
+   "end_quote_found": true
+  }
+ ],
+ "check": {
+  "non_vocab_tags": [],
+  "quotes": 8,
+  "quotes_not_found": 0
+ },
+ "id": "Eser-Orot_0160",
+ "chars": 455,
+ "seconds": 12
+}
