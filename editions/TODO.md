@@ -65,12 +65,3 @@ untagged and what needs a re-upload).
 6. **Person linking**: waits for the Shidduch expert review (`~/Documents/GitHub/Shidduch`).
 7. **Unmatched places**: 1,672 place names are unmatched
    (`editions/kimatch/unmatched-after-link-2026-11-23.tsv`). Feed them to the Kima matching pipeline.
-8. **Commit and push** the open changes in `editions/llm-tagging/runs/` (cache JSONs; partly committed).
-
-## Spend on record
-
-- **Non-story NER correction** (Gemini 2.5 Flash, thinking budget 1024): $3.56 in total for 39
-  editions plus the split stories, out of an approved $10. That was 313 calls: 2.26M tokens in,
-  0.83M out, 0.31M thinking, at $0.30 / $2.50 per million tokens. Log:
-  `editions/ner-logs/non-story-usage.tsv`.
-- **Topic tagging** (Opus via `claude -p` on Max): no API spend.
