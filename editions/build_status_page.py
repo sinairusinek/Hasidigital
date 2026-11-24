@@ -194,16 +194,39 @@ def server_dates():
 
 
 def topics_cell(path, n):
-    """Topic tags on every story (the pre-upload gate's topic check)."""
+    """Topic coverage: how many of the edition's stories carry a real topic tag.
+
+    Counted from the XML, not inferred from the gate's pass/fail, so an edition
+    that is mostly untagged cannot show as done. TBD:Unknown is a placeholder
+    left where tags would go, so it does not count as tagged.
+
+    Malformed tags (e.g. a bare 'kabbalah') are a separate problem from
+    coverage: they are mentioned in the tooltip but do not by themselves turn
+    a fully tagged edition orange.
+    """
+    import xml.etree.ElementTree as ET
     from preupload_check import check
-    errs, _ = check(str(path))
-    topic = [e for e in errs if "TOPIC TAGGING" in e]
-    other = [e for e in errs if "TOPIC TAGGING" not in e]
+    T = "{http://www.tei-c.org/ns/1.0}"
+    root = ET.parse(path).getroot()
+    stories = [d for d in root.iter(T + "div") if d.get("type") == "story"]
+    tagged = 0
+    for d in stories:
+        toks = [t for s in d.iter(T + "span")
+                for t in re.split(r"[;\s]+", s.get("ana") or "") if t]
+        if [t for t in toks if t != "TBD:Unknown"]:
+            tagged += 1
+    total = len(stories)
+    untagged = total - tagged
     llm = 'resp="#llm-tagging"' in path.read_text(encoding="utf-8")
-    if topic:
-        m = re.search(r"(\d+) of (\d+)", topic[0])
-        return ("part" if m and m.group(1) != m.group(2) else "todo", f"{m.group(1)} of {m.group(2)} untagged" if m else "")
-    return ("done" if not other else "part", ("LLM-tagged" if llm else "hand-tagged") + ("" if not other else "; gate: " + other[0][:60]))
+    errs, _ = check(str(path))
+    other = [e for e in errs if "TOPIC TAGGING" not in e]
+    note = "; gate: " + other[0][:60] if other else ""
+
+    if total and untagged == 0:
+        return ("done", f"{total} tagged, {'LLM-tagged' if llm else 'hand-tagged'}{note}")
+    if tagged == 0:
+        return ("todo", f"all {total} stories untagged{note}")
+    return ("part", f"{untagged} of {total} untagged{note}")
 
 
 def online_cell(path, loc):
