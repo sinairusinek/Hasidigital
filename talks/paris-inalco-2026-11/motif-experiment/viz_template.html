@@ -35,10 +35,19 @@ h2 { font-size: 1.35rem; }
 .stat em { font-style: normal; font-size: .8rem; color: var(--muted); }
 section { display: grid; gap: 12px; }
 .bar { display: flex; flex-wrap: wrap; gap: 10px 18px; align-items: center; }
-select { font: inherit; padding: 6px 8px; border: 1px solid var(--rule); border-radius: 5px; background: var(--panel); color: var(--ink); max-width: 100%; }
+select { font: inherit; padding: 6px 8px; border: 1px solid var(--rule); border-radius: 5px; background: var(--panel); color: var(--ink); max-width: 100%; flex: 1 1 32rem; min-width: 0; }
 select:focus-visible, .chip:focus-visible, .tagbar:focus-visible { outline: 2px solid var(--jewish); outline-offset: 2px; }
 .legend { display: flex; flex-wrap: wrap; gap: 6px 16px; font-size: .82rem; color: var(--muted); }
 .legend i { display: inline-block; width: 12px; height: 12px; border-radius: 3px; vertical-align: -1px; margin-right: 5px; }
+.legend-rows { flex-direction: column; gap: 8px; }
+.legend-rows > div { display: flex; flex-wrap: wrap; gap: 4px 16px; align-items: baseline; }
+.legend-rows > div > b { flex-basis: 100%; color: var(--ink); font-weight: 500; }
+.legend i.sw { width: 26px; height: 15px; border-radius: 3px; background: var(--track); vertical-align: -3px;
+  border-left: 4px solid var(--muted); }
+.legend i.sw.dashed { border-left-style: dashed; }
+.legend i.sw.double { background: transparent; border: 1px solid var(--rule); border-left: 4px double var(--muted); }
+.legend i.sw.none { background: transparent; border: 1px dashed var(--gap); border-left-width: 4px; }
+.legend i.sw.wider { outline: 1px dashed var(--muted); outline-offset: -3px; }
 .meta { display: grid; grid-template-columns: minmax(0, 2fr) minmax(0, 1fr); gap: 16px; }
 @media (max-width: 760px) { .meta { grid-template-columns: minmax(0, 1fr); } }
 .meta p { margin: 0; max-width: 75ch; }
@@ -131,13 +140,19 @@ svg.links path.hot { stroke: var(--jewish); stroke-opacity: 1; stroke-width: 2.2
       <label for="pick" class="rowlab" style="align-self:center">Story</label>
       <select id="pick"></select>
     </div>
-    <div class="legend">
-      <span><i style="background:var(--intl)"></i>Thompson motif, international</span>
-      <span><i style="background:var(--jewish)"></i>Thompson motif, flagged Jewish (Neuman)</span>
-      <span><i style="background:var(--noy)"></i>Noy only, not in Thompson</span>
-      <span><i style="border:1.5px dashed var(--gap)"></i>no motif fits: the judge's proposed motif, and the section where Thompson would file it</span>
-      <span><i style="border:1px solid var(--rule)"></i>section heading only (e.g. V220 Saints), not a motif</span>
-      <span>dashed edge = broader motif · dotted frame = found only by the wider search</span>
+    <div class="legend legend-rows">
+      <div><b>Colour of the left edge — which index the motif comes from:</b>
+        <span><i style="background:var(--intl)"></i>Thompson, international</span>
+        <span><i style="background:var(--jewish)"></i>Thompson, flagged Jewish (Neuman)</span>
+        <span><i style="background:var(--noy)"></i>Noy only, not in Thompson</span>
+      </div>
+      <div><b>Style of the left edge — how well the motif fits the event:</b>
+        <span><i class="sw solid"></i><b>solid</b> = exact: the motif says what the event says</span>
+        <span><i class="sw dashed"></i><b>dashed</b> = broader: the nearest motif is wider than the event, the closest the index has</span>
+        <span><i class="sw double"></i><b>double, on a transparent chip</b> = only a section heading fits (V220 Saints), not a motif at all</span>
+        <span><i class="sw none"></i><b>dashed all round, red</b> = nothing fits; the chip shows the judge's proposed motif and where Thompson would file it</span>
+        <span><i class="sw wider"></i><b>dotted frame all round</b> = this motif surfaced only in the wider search</span>
+      </div>
     </div>
     <div class="meta">
       <p id="summary"></p>
@@ -224,7 +239,7 @@ const sel = $("#pick");
 DATA.stories
   .map((s, i) => ({ s, i }))
   .sort((a, b) => a.s.id.localeCompare(b.s.id, undefined, { numeric: true }))
-  .forEach(({ s, i }) => sel.add(new Option(`${s.id} · ${s.genre.slice(0, 70)}`, i)));
+  .forEach(({ s, i }) => sel.add(new Option(`${s.id} · ${s.genre}`, i)));
 const start = Math.max(0, DATA.stories.findIndex(s => s.id === "Khal-Hasidim_0046"));
 sel.value = start;
 sel.addEventListener("change", () => draw(DATA.stories[+sel.value]));
