@@ -126,10 +126,13 @@ if RD.exists() and any(RD.glob("*.json")):
             rc[e.get("coverage", "none") if e.get("picks") else "none"] += 1
     R = sum(rc.values())
     after = {"exact": ev_cov["exact"] + rc["exact"], "broader": ev_cov["broader"] + rc["broader"], "none": rc["none"]}
+    # the recall dir covers every story run so far, while N counts only the current
+    # MOTIF_SAMPLE; percentages here are over all events these three figures span
+    NALL = after["exact"] + after["broader"] + after["none"]
     L3 = [f"\n## Recall check (wider shortlist: e5-large top-60 + e5-base top-40, minus the 25 already shown)",
           f"- of the {R} 'none' events: exact {rc['exact']}, broader {rc['broader']}, still none {rc['none']}",
-          f"- coverage after the check: exact {after['exact']} ({pct(after['exact'], N)}), broader {after['broader']} "
-          f"({pct(after['broader'], N)}), none {after['none']} ({pct(after['none'], N)})",
+          f"- coverage after the check: exact {after['exact']} ({pct(after['exact'], NALL)}), broader {after['broader']} "
+          f"({pct(after['broader'], NALL)}), none {after['none']} ({pct(after['none'], NALL)})",
           "- the new finds are mostly very general index headings (e.g. 'Religious services', 'Rude retorts', 'Slanders'); "
           "the judge saw only the uncovered events, which may make it more lenient than in step 3"]
     with open(HERE / "results-summary.md", "a") as fh:
@@ -149,8 +152,9 @@ for f in sorted(STEP3_DIR.glob("*.json")):
         lv[l] += 1
         how[h] += 1
 L4 = [f"\n## Four-level coverage (after the recall check; heading = Thompson tens heading, e.g. V220 Saints)"]
+NEV = sum(lv.values())   # events, not stories: lv counts one entry per event
 for i, k in enumerate(LEVELS, 1):
-    L4.append(f"{i}. {LEVEL_NAMES[k]}: {lv[k]} ({pct(lv[k], N)})")
+    L4.append(f"{i}. {LEVEL_NAMES[k]}: {lv[k]} ({pct(lv[k], NEV)})")
 L4.append(f"- heading-only events: {how['picked']} matched a heading among the candidates, {how['named']} got a heading only "
           "as the place where the judge would file its proposed new motif")
 L4.append("- rule caveat: a few tens codes read like motifs (e.g. D1450 'Magic object furnishes treasure') and are counted as headings")

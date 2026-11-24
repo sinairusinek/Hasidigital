@@ -7,6 +7,7 @@ aggregate numbers live under talks/.
 import json
 import os
 import re
+import shutil
 import subprocess
 import sys
 import time
@@ -25,10 +26,16 @@ STEP1_DIR = OUT / "step1"          # per-story events + Propp JSON
 STEP2_JSON = OUT / "shortlists.json"
 STEP3_DIR = OUT / "step3"          # per-story motif picks JSON
 
-CLAUDE_BIN = os.environ.get(
-    "CLAUDE_CLI_BIN",
-    os.path.expanduser("~/.vscode/extensions/anthropic.claude-code-2.1.325-darwin-arm64/"
-                       "resources/native-binary/claude"))
+def _find_claude() -> str:
+    """Newest Claude Code CLI shipped with the VS Code extension (the path moves on update)."""
+    ext = Path.home() / ".vscode" / "extensions"
+    cands = sorted(ext.glob("anthropic.claude-code-*/resources/native-binary/claude"))
+    if cands:
+        return str(cands[-1])
+    return shutil.which("claude") or "claude"
+
+
+CLAUDE_BIN = os.environ.get("CLAUDE_CLI_BIN") or _find_claude()
 MODEL = os.environ.get("MOTIF_MODEL", "claude-opus-5-5")
 
 

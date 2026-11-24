@@ -1,23 +1,23 @@
-# Motif & Propp pilot — 80 stories, 630 events (model: Opus 5.5)
+# Motif & Propp pilot — 82 stories, 643 events (model: Opus 5.5)
 
 ## Motif coverage per event (Thompson TMI + Noy, best grade)
-- exact: 56 (9%)
-- broader: 244 (39%)
-- none: 330 (52%)
+- exact: 58 (9%)
+- broader: 249 (39%)
+- none: 336 (52%)
 
-## Picked motifs: 508 picks, 359 distinct
-- all picks: 508; Jewish-flagged (Neuman flag or Noy) 51%; Noy-only (not in Thompson) 17%
-- exact picks: 60; Jewish-flagged (Neuman flag or Noy) 28%; Noy-only (not in Thompson) 20%
-- Thompson picks: median number of attesting cultures 1; attested in ≤1 culture 68%
+## Picked motifs: 520 picks, 368 distinct
+- all picks: 520; Jewish-flagged (Neuman flag or Noy) 50%; Noy-only (not in Thompson) 17%
+- exact picks: 62; Jewish-flagged (Neuman flag or Noy) 29%; Noy-only (not in Thompson) 19%
+- Thompson picks: median number of attesting cultures 1; attested in ≤1 culture 69%
 
-Thompson chapters of picks: Religion (V) 118, Magic (D) 53, The dead (E) 42, Ordaining the future (M) 40, Rewards and punishments (Q) 39, Wise and foolish (J) 32, Chance and fate (N) 30, Marvels (F) 30, Sex (T) 20, Deceptions (K) 19, Tests (H) 18, Society (P) 17, Captives and fugitives (R) 13, Mythological (A) 10, Ogres (G) 8, Animals (B) 5, Traits of character (W) 4, Unnatural cruelty (S) 4, Reversal of fortune (L) 3, Miscellaneous (Z) 3
+Thompson chapters of picks: Religion (V) 118, Magic (D) 53, Ordaining the future (M) 43, The dead (E) 42, Rewards and punishments (Q) 42, Wise and foolish (J) 34, Chance and fate (N) 32, Marvels (F) 30, Deceptions (K) 21, Sex (T) 20, Tests (H) 18, Society (P) 17, Captives and fugitives (R) 13, Mythological (A) 10, Ogres (G) 8, Animals (B) 5, Traits of character (W) 4, Unnatural cruelty (S) 4, Reversal of fortune (L) 3, Miscellaneous (Z) 3
 
-Chapters where proposed new motifs would go: V 348, E 35, M 24, D 23, P 23, J 22, T 21, K 20, N 15, Q 14, H 9, R 5, W 4, F 2, G 2, L 2, U 1, C 1, A 1, B 1
+Chapters where proposed new motifs would go: V 352, E 35, M 26, P 24, D 23, T 22, J 22, K 20, N 16, Q 14, H 10, W 5, R 5, F 2, G 2, L 2, U 1, C 1, A 1, B 1
 
 ## Propp
-- fit (1-5): distribution {1: 30, 2: 43, 3: 7}, mean 1.7
-- functions assigned: 450, of which forced 65%
-- most frequent: Lack 43, Villainy 39, Liquidation of lack 36, Mediation 35, Departure 35, Recognition 29, Receipt of magical agent 21, First function of the donor 21, Hero's reaction 17, Punishment 15
+- fit (1-5): distribution {1: 30, 2: 45, 3: 7}, mean 1.7
+- functions assigned: 459, of which forced 64%
+- most frequent: Lack 43, Villainy 41, Liquidation of lack 37, Mediation 36, Departure 35, Recognition 30, Receipt of magical agent 21, First function of the donor 21, Hero's reaction 17, Punishment 16
 
 ## Per story
 | story | events | exact | broader | none | Propp fit | Opus genre | our story_type | our other tags |
@@ -102,6 +102,8 @@ Chapters where proposed new motifs would go: V 348, E 35, M 24, D 23, P 23, J 22
 | Sipurei-Zadikim_0006 | 7 | 0 | 5 | 2 | 1 | Hasidic exemplum: punishment for disparaging tsaddikim (disowning of an adopted son) | - | institutions_hassidic_court, inter_hasidic, conflict, inter_hasidic_master_disciple_relationship, the_family_of_the_tsaddik, prayer, punishment, prohibitions, sadness, anger, pride, shame, disobedience, holidays |
 | Sipurei-Anshei-Shem_00015 | 10 | 3 | 4 | 3 | 2 | Jewish Pope legend combined with a blood-libel rescue tale; exemplum of the repentant apostate | - | pidyon_shvuyim |
 | Maase-Zadikim_0035 | 3 | 0 | 1 | 2 | 1 | Eyewitness memorate of a tsaddik's pre-death vision (shevah / hagiographic anecdote) | story_type_death_of_the_tsaddik | death, perception, revelation |
+| Shivhei-Habesht_0011 | 8 | 1 | 2 | 5 | 2 | Saint's legend: an unwitting prophecy fulfilled and a skeptical relative answered (from the Besht's early 'hidden' period) | story_type_prognostication | prognostication, retrospective_recognition, horse, horse, horse |
+| Shivhei-Habesht_0030 | 5 | 1 | 3 | 1 | 2 | Saint's punitive miracle (curse tale): defence of family honour; immigrant to the Land of Israel | - | the_family_of_the_tsaddik, the_land_of_israel, punishment, marital_relationship, miracle, major_character |
 
 ## Proposed motifs for uncovered events (our drafts, not index text)
 - Khal-Hasidim_0046 #1: Disciple falls ill while staying with holy man for the holy days  _(V220 Saints)_
@@ -677,41 +679,54 @@ Chapters where proposed new motifs would go: V 348, E 35, M 24, D 23, P 23, J 22
 - Maase-Zadikim_0035 #1: Saint called up to the Torah reading shortly before his death  _(V220 Saints (V229 saints, miscellaneous) / V50 Prayer and public worship)_
 - Maase-Zadikim_0035 #2: Disciple reads the Torah portion aloud for his master in the synagogue  _(P340 Teacher and pupil)_
 - Maase-Zadikim_0035 #3: Saint sees the letters of the Torah scroll as black fire on white fire during the public reading  _(V220 Saints (V223 saint has miraculous knowledge / visions) or F883 Extraordinary writings)_
+- Shivhei-Habesht_0011 #1: Holy man's horse stolen  _(V220 Saints (or K300 Thefts))_
+- Shivhei-Habesht_0011 #2: Saint rebuked by kinsman (brother-in-law)  _(V220 Saints / P200 The family)_
+- Shivhei-Habesht_0011 #4: Skeptic ridicules saint's prophecy and repeatedly taunts him until it is fulfilled  _(V220 Saints (cf. M300 Prophecies))_
+- Shivhei-Habesht_0011 #5: Fulfilment of saint's prophecy delayed for a year  _(M300 Prophecies (near M391))_
+- Shivhei-Habesht_0011 #6: Possessor of stolen horse unwittingly comes to owner's house to ask a favour (fire for pipe)  _(N100 Chance and fate (N700 Accidental encounters))_
+- Shivhei-Habesht_0011 #7: Owner recognizes his stolen horse ridden by stranger and claims it  _(H Recognition / K400 Thief detected)_
+- Shivhei-Habesht_0011 #8: Possessor of stolen horse at once surrenders it to owner, fulfilling saint's prophecy  _(M391 Fulfillment of prophecy / V220 Saints)_
+- Shivhei-Habesht_0030 #1: Newcomer to the Holy Land ignorant of local custom (straining water against worms) and so fails to keep it  _(P600 Customs (or V Religion: V5 negligence in religious observance))_
+- Shivhei-Habesht_0030 #2: Local women compose a mocking song and jeer at a foreign woman in the synagogue  _(W Traits of character (W180s jealousy / mockery) or P400 Social relations)_
+- Shivhei-Habesht_0030 #3: Mocked wife reproaches her husband for bringing her to a far land  _(T200 Married life)_
+- Shivhei-Habesht_0030 #4: Saint comforts his insulted wife and asks her to point out the offender  _(V220 Saints)_
 
-## Our tags vs the motifs (step 4, 703 story-tag pairs)
-- same: 67 (10%)
-- ours_broader: 186 (26%)
-- motif_broader: 34 (5%)
-- no_counterpart: 416 (59%)
-- picked motifs with no counterpart among our tags: 117 of 475 (chapters: Religion 21, Chance and fate 14, Marvels 9, Rewards and punishments 9, Tests 8, Ordaining the future 8, Society 8, Mythological 6, Magic 6, Deceptions 4, Wise and foolish 4, The dead 4, Animals 4, Captives and fugitives 3, Unnatural cruelty 3, Traits of character 2, Reversal of fortune 2, Ogres 1, Sex 1)
+## Our tags vs the motifs (step 4, 714 story-tag pairs)
+- same: 67 (9%)
+- ours_broader: 191 (27%)
+- motif_broader: 36 (5%)
+- no_counterpart: 420 (59%)
+- picked motifs with no counterpart among our tags: 120 of 487 (chapters: Religion 21, Chance and fate 15, Marvels 9, Rewards and punishments 9, Tests 8, Ordaining the future 8, Society 8, Wise and foolish 6, Mythological 6, Magic 6, Deceptions 4, The dead 4, Animals 4, Captives and fugitives 3, Unnatural cruelty 3, Traits of character 2, Reversal of fortune 2, Ogres 1, Sex 1)
 
 | our category | tags with no motif counterpart |
 |---|---|
 | practice | 91 / 151 (60%) |
-| social | 76 / 128 (59%) |
-| ethics-and-emotions | 79 / 109 (72%) |
-| supernatural | 33 / 106 (31%) |
+| social | 78 / 130 (60%) |
+| ethics-and-emotions | 79 / 110 (72%) |
+| supernatural | 33 / 108 (31%) |
 | times | 26 / 36 (72%) |
 | experience | 22 / 34 (65%) |
-| folkloristics | 14 / 32 (44%) |
-| characters-and-roles | 21 / 31 (68%) |
-| women | 22 / 27 (81%) |
-| spaces | 16 / 23 (70%) |
+| folkloristics | 14 / 33 (42%) |
+| characters-and-roles | 22 / 32 (69%) |
+| women | 22 / 28 (79%) |
+| spaces | 17 / 24 (71%) |
 | knowledge | 5 / 11 (45%) |
 | not-a-hasidic-story | 6 / 8 (75%) |
 | kabbalah | 3 / 4 (75%) |
 | appearance | 1 / 2 (50%) |
 | book | 1 / 1 (100%) |
+| property | 0 / 1 (0%) |
+| possession | 0 / 1 (0%) |
 
 ## Recall check (wider shortlist: e5-large top-60 + e5-base top-40, minus the 25 already shown)
-- of the 329 'none' events: exact 9, broader 135, still none 185
-- coverage after the check: exact 65 (10%), broader 379 (60%), none 185 (29%)
+- of the 335 'none' events: exact 9, broader 140, still none 186
+- coverage after the check: exact 67 (10%), broader 389 (61%), none 186 (29%)
 - the new finds are mostly very general index headings (e.g. 'Religious services', 'Rude retorts', 'Slanders'); the judge saw only the uncovered events, which may make it more lenient than in step 3
 
 ## Four-level coverage (after the recall check; heading = Thompson tens heading, e.g. V220 Saints)
-1. a specific motif fits exactly: 64 (10%)
-2. a broader but specific motif fits: 335 (53%)
-3. only a section heading fits: 230 (37%)
+1. a specific motif fits exactly: 66 (10%)
+2. a broader but specific motif fits: 343 (53%)
+3. only a section heading fits: 233 (36%)
 4. nothing fits, not even a heading: 1 (0%)
-- heading-only events: 38 matched a heading among the candidates, 192 got a heading only as the place where the judge would file its proposed new motif
+- heading-only events: 40 matched a heading among the candidates, 193 got a heading only as the place where the judge would file its proposed new motif
 - rule caveat: a few tens codes read like motifs (e.g. D1450 'Magic object furnishes treasure') and are counted as headings

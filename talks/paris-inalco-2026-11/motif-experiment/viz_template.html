@@ -221,7 +221,10 @@ function hideTip() { tip.hidden = true; }
 
 // ---- score
 const sel = $("#pick");
-DATA.stories.forEach((s, i) => sel.add(new Option(`${s.id} · ${s.genre.slice(0, 70)}`, i)));
+DATA.stories
+  .map((s, i) => ({ s, i }))
+  .sort((a, b) => a.s.id.localeCompare(b.s.id, undefined, { numeric: true }))
+  .forEach(({ s, i }) => sel.add(new Option(`${s.id} · ${s.genre.slice(0, 70)}`, i)));
 const start = Math.max(0, DATA.stories.findIndex(s => s.id === "Khal-Hasidim_0046"));
 sel.value = start;
 sel.addEventListener("change", () => draw(DATA.stories[+sel.value]));
