@@ -1,6 +1,7 @@
 # Open work: editions and the site
 
-Saved 2026-11-23 at the end of the non-story NER session. Status page:
+Saved 2026-11-23, updated 2026-11-24 (inline-span removal, label normalisation,
+upload state re-checked against the live server). Status page:
 https://claude.ai/artifact/27VbvGDoUqFXUDRs3qy2Lu (built by `editions/build_edition_registry.py`,
 which also writes `editions/edition-status.html`; the Topics and Online columns show what is
 untagged and what needs a re-upload).
@@ -14,19 +15,15 @@ untagged and what needs a re-upload).
      - in the edition view: https://www.hasidic-stories.org/Edition/Shaarei-Haemuna
      - on their story pages, e.g. https://www.hasidic-stories.org/Story/Shaarei-Haemuna/Shaarei-Haemuna_non-story-005_s1
      - in the story list, which should hold 101 stories.
-2. **Upload from `editions/online/` (everything now lives there; 39 files).** Checked against the
-   live eXist server on 2026-11-24 (fetch + body compare, whitespace normalised):
-   - **4 new on the site**: Eser-Kedushot, Eser-Orot, Shaarei-Haemuna, Torat-Haramal (all PASS the gate).
-   - **8 whose text changed**, not just links (non-story correction; the first five also gained split
-     stories): Derech-Haemuna (+2 stories), Toldot-Haniflaot (+1), Tiferet-Hayyim (+1), Maim-Rabim (+1),
-     Peulat-Hatzadikim, Likutim-Hadashim, Maasim-Tovim, Seva-Ratzon.
-   - **21 with new place links / topic tags only**: Hitgalut-HaZadikim, Buzina_Denehora, Shemen-Hatov,
-     Maasiot-veSihot-Zadikim, SipureiAnsheiShem, Maase-Zadikim, Adat-Zadikim, Shivhei-Habesht,
-     Maasiot-Pliot, Shivhei-Harav, Sipurim-Nehmadim, SipurimUmaamarimYekarim, Dvarim-Yekarim,
-     Khal-Kdoshim, MaasyiotMzadikeiYesodeiOlam, Mifalot-HaZadikim, Sipurei-Zadikim,
-     MaasiyotUmaamarimYekarim, Sefer-Moraim-Gdolim, Shlosha-edrei-zon, Tmimei_Derech.
-   - **ALREADY CURRENT, skip**: Khal-Hasidim, Kokhvei-Or, PeerMikdoshim, Sipurei-Kdoshim, shivheiZadikim.
-   - **HOLD: Smichat-Moshe** — see item 10.
+2. **Re-upload 4 editions** (via oXygen into `data/`). Everything else is current: checked
+   against the live eXist server on 2026-11-24 after your morning upload — 36 of 40 files are
+   byte-identical to the repo in the body, so **do not re-upload those**.
+   | Edition | Why |
+   |---|---|
+   | Shivhei-Habesht | the 114 unwrapped inline spans (סוס and 113 other swallowed words) + label normalisation |
+   | Shivhei-Harav | `,תיוגים` labels normalised to `תיוגים` |
+   | Khal-Hasidim | 1 inline span unwrapped (`double` on והוא) |
+   | Maase-Zadikim | 1 inline span unwrapped (`double` on כל) |
 3. *(folded into item 2)*
 4. **Decide on Shemen-Hatov.** The tagger found 6 stories inside its non-story text. The RA
    drew those sections, so they were not split. One of the six (`non-story-178`, quotations
@@ -46,6 +43,10 @@ untagged and what needs a re-upload).
    Transkribus (e.g. the title of the book list on page 4), so the site hides them. Fixing them means
    re-marking the regions.
 9. **Website issues list.** It is still to be written (see the memory note on website issues).
+
+13. **`editions/online/` now means "ready to upload", not "live".** The 4 new editions were
+    moved there before upload, which inverts PIPELINE step 17 (move after upload). Worth a line
+    in PIPELINE.md if the convention should hold.
 
 ## Claude (next session)
 
@@ -73,10 +74,41 @@ untagged and what needs a re-upload).
 7. **Unmatched places**: 1,672 place names are unmatched
    (`editions/kimatch/unmatched-after-link-2026-11-23.tsv`). Feed them to the Kima matching pipeline.
 
-10. **Smichat-Moshe: do not upload yet.** Its repo copy has *lost* annotation the live server still
-    has, while the body text is byte-identical:
-    - `type="check"` (the "place id needs verifying" flag): 24 live -> 5 in the repo, **19 lost**;
-    - `ana="bio"`: 22 live -> 20 in the repo (6 lost: 4x פראג, לובלין, וויזנעצע; 4 others added).
-    Uploading would overwrite the live flags for good. Decide whether those 19 `check` marks were
-    resolved on purpose or stripped by a script pass, and restore them if needed.
-    Khal-Kdoshim has the same shape but much smaller (`type` -2, text identical) — worth a glance.
+10. **Smichat-Moshe — RESOLVED, no action.** Its repo copy has fewer `type="check"` flags than
+    the server had (24 -> 5) and fewer `ana="bio"` (22 -> 20), with byte-identical body text. On
+    inspection this is deliberate curation, not a stripped file: three flags sat on tagging errors
+    (`מענדיל` is a personal name, `מלך` is the word "king", `בוב קראקא` is a bad split of
+    "לבוב קראקא" — all three are no longer placeName at all), and the rest were resolved by
+    assigning an authority id (טשערנאוויץ H-LOC_462, פולדא H-LOC_718, בריסק H-LOC_136, לבוב
+    H-LOC_40, לובלין H-LOC_56). The 5 still flagged are the genuinely unresolved ones. It was
+    uploaded with the rest on 2026-11-24.
+    Loose end: ביקאווסק, שרייביטש and מעליטץ stayed untagged with no `ref` — they belong with the
+    1,672 unmatched place names in item 7.
+
+11. **Inline `<span ana>` removed (2026-11-24).** 116 spans that wrapped individual words inside
+    stories were an abandoned experiment; the site's renderer swallowed the wrapped word, so the
+    Besht's stolen horse read "שהי׳ לבעש״ט אחד ונגנב ממנו" online. Unwrapped in Shivhei-Habesht
+    (114), Khal-Hasidim (1) and Maase-Zadikim (1); 67 tags that existed only inline were merged
+    into their story's תיוגים span, so nothing was lost. Script:
+    `editions/scripts/unwrap_inline_ana_spans.py`.
+    - KEPT: 731 EMPTY `<span ana>`. They are not the experiment — they are the only tag record in
+      18 editions that never got the תיוגים text, and 18 of them carry a real tag
+      (practice:pidyon_nefesh / pidyon_shvuyim / pidyon_haben, all correctly story-level).
+    - The תיוגים label is now one spelling in all 39 editions (was also `תיוגים*` in
+      Shivhei-Habesht and `,תיוגים` in Shivhei-Harav; 208 normalised).
+    - Khal-Hasidim_0045 now visibly reads "והוא והוא". Decide whether that is a print error
+      (`<choice><sic>`) or an OCR doubling (delete).
+    - **The women article is unaffected**: none of this touched the counts. Recomputed against
+      `zenodo/women-9ed/story_women.tsv` — 294/652 = 45.1%, every per-edition figure unchanged.
+
+12. **Topic tagging (plan B) is NOT run and is on hold** (Sinai, 2026-11-24: do not continue).
+    706 stories in 18 editions have no topic tag — each already carries an empty
+    `<span ana="TBD:Unknown">` where its tags would go, so a future run can fill the existing span.
+    By edition: Shemen-Hatov 207, shivheiZadikim 64, Kokhvei-Or 51, Buzina_Denehora 47,
+    Shlosha-edrei-zon 45, Hitgalut-HaZadikim 43, MaasiyotUmaamarimYekarim 41,
+    Maasiot-veSihot-Zadikim 37, SipurimUmaamarimYekarim 37, Sipurim-Nehmadim 33, Maasiot-Pliot 24,
+    SipureiAnsheiShem 20, Sipurei-Kdoshim 16, Sefer-Moraim-Gdolim 15,
+    MaasyiotMzadikeiYesodeiOlam 13, Dvarim-Yekarim 6, Tmimei_Derech 5, Smichat-Moshe 2.
+    (`editions/llm-tagging/runs/` looks populated but holds the November *non-story* results, not
+    story tagging. The older figure of ~1,800 predates the recent tagging.)
+    This blocks Zenodo v2.
