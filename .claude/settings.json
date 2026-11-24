@@ -3,7 +3,9 @@
     "allow": [
       "mcp__claude_ai_Google_Drive__read_file_content",
       "Skill(dataviz)",
-      "Skill(dataviz:*)"
+      "Skill(dataviz:*)",
+      "ClaudeInChromeDomain(hasidic-stories.org)",
+      "mcp__claude-in-chrome__browser_batch"
     ]
   }
 }
