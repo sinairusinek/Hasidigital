@@ -1,0 +1,32 @@
+<!doctype html>
+<html><head><meta charset="utf-8">
+<title>Annotator personas</title>
+<style>
+  html,body{margin:0;background:#F3EDE1}
+  .slide{width:1600px;height:900px;position:relative;background:#F3EDE1;overflow:hidden;
+         font-family:"Iowan Old Style","Palatino Linotype",Palatino,"Hoefler Text",Georgia,serif}
+  /* f2_crop.png is f2.png trimmed to its drawn content (998x615), so it can simply be
+     placed: no clipping band, nothing of the scene is cut off. */
+  .plate{position:absolute;left:50%;top:26px;transform:translateX(-50%);width:1180px;
+         mix-blend-mode:multiply}
+  .name{position:absolute;top:782px;text-align:center;width:310px;color:#2A2520;
+        font-size:26px;line-height:1.26;letter-spacing:.01em}
+  .name i{display:block;font-size:18.5px;color:#6B6054;font-style:italic;margin-top:4px}
+  /* author names lettered onto the volumes on the table */
+  .auth{position:absolute;color:#4A4038;font-size:15px;font-style:italic;
+        letter-spacing:.05em;mix-blend-mode:multiply}
+</style></head><body>
+<div class="slide">
+  <img class="plate" src="f2_crop.png" alt="Five scholars examining one open book">
+
+  <div class="name" style="left:13px">Prof. Ketav<i>Hebrew literary history</i></div>
+  <div class="name" style="left:329px">Prof. Wandermotif<i>comparative folklore</i></div>
+  <div class="name" style="left:645px">Prof. Fabula<i>narratological theory</i></div>
+  <div class="name" style="left:961px">Prof. Zeitgeist<i>theology &amp; history of religion</i></div>
+  <div class="name" style="left:1277px">Prof. Markt<i>economic history</i></div>
+
+  <!-- Author names were tried on the book spines (Genette / Propp / Braudel) but the
+       engraved cross-hatching makes type that small unreadable at slide size, and the
+       thought bubbles already carry each point of view. Left out deliberately. -->
+</div>
+</body></html>
