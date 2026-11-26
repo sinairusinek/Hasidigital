@@ -37,7 +37,7 @@ P = ("Edit this wood-engraving. Keep EVERY figure exactly as drawn: the old bear
      "No letters, words, numbers or captions inside the bubbles or anywhere else in the image, except the Hebrew "
      "print already on the book's pages, which must stay as it is.")
 
-for name in (sys.argv[2:] or ['h1', 'h2']):
+for name in (sys.argv[2:] or ['tbl_h1', 'tbl_h2']):
     r = client.models.generate_content(model='gemini-2.5-flash-image',
                                        contents=[types.Part.from_bytes(data=src, mime_type='image/png'), P])
     u = r.usage_metadata; ok = False

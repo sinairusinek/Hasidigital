@@ -8,7 +8,7 @@ for line in open('/Users/sinairusinek/Documents/GitHub/Hasidigital/.env'):
         k, v = line.strip().split('=', 1); os.environ.setdefault(k, v.strip().strip('"').strip("'"))
 client = genai.Client(api_key=os.environ.get('GEMINI_API_KEY') or os.environ.get('GOOGLE_API_KEY'))
 HERE = os.path.dirname(os.path.abspath(__file__))
-src = open(os.path.join(HERE, 'h2.png'), 'rb').read()
+src = open(os.path.join(HERE, 'tbl_h2.png'), 'rb').read()
 P = ("Edit this wood-engraving. Change ONE thing and nothing else: the fifth thought bubble, the rightmost one, "
      "above the man in the waistcoat at the right-hand end of the table. It currently contains only a pair of "
      "balance scales. Redraw the contents of that one bubble so it contains three things together, drawn small as "
@@ -19,7 +19,7 @@ P = ("Edit this wood-engraving. Change ONE thing and nothing else: the fifth tho
      "poses, the other four thought bubbles and their contents, the open Hebrew book, the table and every object "
      "on it, and the same black-ink wood-engraving style on warm cream paper. "
      "No letters, words or numbers anywhere, except the Hebrew already printed on the book's pages.")
-for name in (sys.argv[1:] or ['k1']):
+for name in (sys.argv[1:] or ['tbl_k1']):
     r = client.models.generate_content(model='gemini-2.5-flash-image',
         contents=[types.Part.from_bytes(data=src, mime_type='image/png'), P])
     u = r.usage_metadata; ok = False
