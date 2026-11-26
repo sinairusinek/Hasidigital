@@ -5,22 +5,21 @@
   html,body{margin:0;background:#F3EDE1}
   .slide{width:1600px;height:900px;position:relative;background:#F3EDE1;overflow:hidden;
          font-family:"Iowan Old Style","Palatino Linotype",Palatino,"Hoefler Text",Georgia,serif}
-  /* k1_plate.png is k1.png with its paper lifted to the slide cream and its edges
-     feathered, so the plate melts into the slide instead of sitting in a rectangle.
-     Natively panoramic (1632x637, 2.56:1) and already fills its frame,
-     so it needs no crop: placed at 1540 wide it is 601 tall. */
-  .plate{position:absolute;left:50%;top:92px;transform:translateX(-50%);width:1540px;
-}
+  /* tbl_m2_plate.png is tbl_m2.png with its paper lifted to the slide cream and its
+     edges feathered, so the plate melts into the slide instead of sitting in a
+     rectangle (hence no multiply blend). Natively panoramic, 1632x640, 2.55:1;
+     at 1540 wide it is 604 tall. */
+  .plate{position:absolute;left:50%;top:92px;transform:translateX(-50%);width:1540px}
   .name{position:absolute;top:762px;text-align:center;width:310px;color:#2A2520;
         font-size:26px;line-height:1.26;letter-spacing:.01em}
   .name i{display:block;font-size:18.5px;color:#6B6054;font-style:italic;margin-top:4px}
 </style></head><body>
 <div class="slide">
-  <img class="plate" src="k1_plate.png" alt="Five scholars examining one open Hasidic stories edition">
+  <img class="plate" src="tbl_m2_plate.png" alt="Five scholars examining one open Hasidic stories edition">
 
   <div class="name" style="left:13px">Prof. Ketav<i>Hebrew literary history</i></div>
-  <div class="name" style="left:329px">Prof. Wandermotif<i>comparative folklore</i></div>
-  <div class="name" style="left:645px">Prof. Fabula<i>narratological theory</i></div>
+  <div class="name" style="left:329px">Prof. Fabula<i>narratological theory</i></div>
+  <div class="name" style="left:645px">Prof. Geschlecht<i>gender studies</i></div>
   <div class="name" style="left:961px">Prof. Zeitgeist<i>theology &amp; history of religion</i></div>
   <div class="name" style="left:1277px">Prof. Markt<i>economic history</i></div>
 </div>
