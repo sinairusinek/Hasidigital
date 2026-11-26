@@ -6,44 +6,56 @@
   .slide{width:1600px;height:900px;position:relative;background:#F3EDE1;overflow:hidden;
          font-family:"Iowan Old Style","Palatino Linotype",Palatino,"Hoefler Text",Georgia,serif}
 
-  /* Five chat bubbles, one per persona, in the same left-to-right order as the
-     personas plate. Each is a chatbox: a rounded field with a caret on the left,
-     the prompt text set in a UI sans to read as typed input, and a cursor. */
-  .bubble{position:absolute;width:276px;background:#FFFCF6;border:1px solid #D9CDB8;
-          border-radius:16px;padding:19px 20px 17px;box-sizing:border-box;
-          box-shadow:0 2px 0 rgba(90,74,52,.05), 0 14px 26px rgba(90,74,52,.09)}
-  /* the little tail at the bottom-left, drawn as a rotated square so the
-     border shows on two sides only */
-  .bubble:after{content:"";position:absolute;left:26px;bottom:-7px;width:13px;height:13px;
-                background:#FFFCF6;border-right:1px solid #D9CDB8;border-bottom:1px solid #D9CDB8;
-                transform:rotate(45deg)}
-  .q{font-family:-apple-system,"Helvetica Neue",Arial,sans-serif;font-size:15.5px;
-     line-height:1.62;color:#3A332B;letter-spacing:.002em}
-  .q b{font-weight:600;color:#241F19}
-  /* the blinking-caret stand-in: a thin bar right after the cut-off word */
-  .cur{display:inline-block;width:2px;height:15px;background:#9A7B3F;
-       vertical-align:-2px;margin-left:3px}
+  /* Each persona gets a chat INPUT BOX, not a speech bubble: a rounded field
+     with a visible border, the typed text, a caret, and a round send button
+     at the bottom right -- the chrome that makes it read as a chatbox. */
+  .box{position:absolute;width:430px;background:#FFFFFF;border:1.5px solid #CFC3AE;
+       border-radius:22px;padding:22px 24px 58px;box-sizing:border-box;
+       box-shadow:0 1px 0 rgba(90,74,52,.04), 0 10px 30px rgba(90,74,52,.10)}
+
+  .q{font-family:-apple-system,"Helvetica Neue","Segoe UI",Arial,sans-serif;
+     font-size:21px;line-height:1.52;color:#2B251E;letter-spacing:.001em}
+  .q b{font-weight:600;color:#17130E}
+  /* caret sitting right after the cut-off word */
+  .cur{display:inline-block;width:2.5px;height:20px;background:#B8863A;
+       vertical-align:-3px;margin-left:4px}
+
+  /* send button, bottom-right inside the field */
+  .send{position:absolute;right:16px;bottom:14px;width:34px;height:34px;border-radius:50%;
+        background:#2B251E}
+  .send:after{content:"";position:absolute;left:12px;top:11px;
+              border-left:5px solid transparent;border-right:5px solid transparent;
+              border-bottom:11px solid #FFFFFF}
+  /* the model-name chip at the bottom-left, as in a real composer */
+  .chip{position:absolute;left:24px;bottom:19px;
+        font-family:-apple-system,"Helvetica Neue","Segoe UI",Arial,sans-serif;
+        font-size:14.5px;color:#9A8F7F;letter-spacing:.01em}
 </style></head><body>
 <div class="slide">
 
-  <div class="bubble" style="left:40px;  top:446px">
-    <div class="q"><b>You are a literary scholar</b> specializing in Hebrew narrative traditions and Hasidic storytelling. Your expertise spans<span class="cur"></span></div>
+  <div class="box" style="left:40px;  top:112px">
+    <div class="q"><b>You are a literary scholar</b> specializing in Hebrew narrative traditions and Hasidic storytelling. Analyze each story purely through a literary lens: focus on craft, structure,<span class="cur"></span></div>
+    <div class="chip">Ask Claude</div><div class="send"></div>
   </div>
 
-  <div class="bubble" style="left:352px; top:316px">
-    <div class="q"><b>You are a folklorist</b> specializing in Jewish folk traditions and oral narrative patterns. Your expertise spans<span class="cur"></span></div>
+  <div class="box" style="left:575px; top:86px">
+    <div class="q"><b>You are a folklorist</b> specializing in Jewish folk traditions and oral narrative patterns. Focus on traditional motifs, oral narrative patterns, folk wisdom, and<span class="cur"></span></div>
+    <div class="chip">Ask Claude</div><div class="send"></div>
   </div>
 
-  <div class="bubble" style="left:664px; top:468px">
-    <div class="q"><b>You are a psychological analyst</b> specializing in narrative psychology and human motivation. Your expertise spans<span class="cur"></span></div>
+  <div class="box" style="left:1110px;top:112px">
+    <div class="q"><b>You are a psychological analyst</b> specializing in narrative psychology and human motivation. Focus on human motivations, emotional patterns, psychological<span class="cur"></span></div>
+    <div class="chip">Ask Claude</div><div class="send"></div>
   </div>
 
-  <div class="bubble" style="left:976px; top:304px">
-    <div class="q"><b>You are a religious studies scholar</b> specializing in Jewish mysticism and Hasidic thought. Your expertise spans<span class="cur"></span></div>
+  <div class="box" style="left:300px; top:512px">
+    <div class="q"><b>You are a religious studies scholar</b> specializing in Jewish mysticism and Hasidic thought. Focus on spiritual themes, religious concepts, divine-human relationships, and<span class="cur"></span></div>
+    <div class="chip">Ask Claude</div><div class="send"></div>
   </div>
 
-  <div class="bubble" style="left:1288px;top:454px">
-    <div class="q"><b>You are a cultural historian</b> specializing in East European Jewish life and Hasidic social history. Your expertise spans<span class="cur"></span></div>
+  <div class="box" style="left:850px; top:538px">
+    <div class="q"><b>You are a cultural historian</b> specializing in East European Jewish life and Hasidic social history. Focus on social dynamics, historical context, economic life, and<span class="cur"></span></div>
+    <div class="chip">Ask Claude</div><div class="send"></div>
   </div>
 
 </div>
