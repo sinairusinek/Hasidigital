@@ -5,33 +5,23 @@
   html,body{margin:0;background:#F3EDE1}
   .slide{width:1600px;height:900px;position:relative;background:#F3EDE1;overflow:hidden;
          font-family:"Iowan Old Style","Palatino Linotype",Palatino,"Hoefler Text",Georgia,serif}
-  /* Four wordless engraved panels (h*_crop.png, each cropped to its drawn scene) in one
-     row. object-fit:contain so no panel is cut; multiply blends plate paper into the cream. */
-  .row{position:absolute;top:182px;left:50%;transform:translateX(-50%);
-       display:flex;gap:28px;align-items:flex-start}
-  .panel{width:352px;display:flex;flex-direction:column;align-items:center}
-  .num{color:#9C9183;font-size:18px;letter-spacing:.3em;margin-bottom:12px}
-  .panel img{display:block;width:352px;height:352px;object-fit:contain;mix-blend-mode:multiply}
-  .cap{margin-top:22px;text-align:center;color:#2A2520;font-size:24px;line-height:1.32}
-  .cap i{display:block;font-size:18px;color:#6B6054;font-style:italic;margin-top:6px}
-  .src{position:absolute;left:0;right:0;bottom:62px;text-align:center;
-       color:#8A7F70;font-size:19px;font-style:italic;letter-spacing:.02em}
+  /* Four wordless woodcut panels (h*_b_crop.png, squared) in one joint 2x2 grid.
+     The cells sit on a cream ground and the ink rules are drawn as borders on each
+     cell, so the four read as one comic page. The panels keep multiply so their own
+     plate paper melts into the slide's cream -- hence a CREAM grid ground, never a
+     dark one, which would multiply the artwork down to black. */
+  .grid{position:absolute;top:50%;left:50%;transform:translate(-50%,-50%);
+        display:grid;grid-template-columns:repeat(2,418px);grid-template-rows:repeat(2,418px);
+        gap:14px;background:#F3EDE1}
+  .cell{width:418px;height:418px;border:2.5px solid #2A2520;overflow:hidden;background:#F3EDE1}
+  .cell img{display:block;width:100%;height:100%;object-fit:cover;mix-blend-mode:multiply}
 </style></head><body>
 <div class="slide">
-  <div class="row">
-    <div class="panel"><div class="num">I</div>
-      <img src="h1_crop.png" alt="A thief leads the horse out of the stable at night">
-      <div class="cap">The horse is stolen</div></div>
-    <div class="panel"><div class="num">II</div>
-      <img src="h2_crop.png" alt="A word escapes the Besht's mouth and surprises him">
-      <div class="cap">A word is flung from his mouth<i>&ldquo;the horse will be returned to him&rdquo;</i></div></div>
-    <div class="panel"><div class="num">III</div>
-      <img src="h3_crop.png" alt="The brother-in-law mocks him in the street">
-      <div class="cap">A year of mockery<i>&ldquo;Israel, have they returned your horse?&rdquo;</i></div></div>
-    <div class="panel"><div class="num">IV</div>
-      <img src="h4_crop.png" alt="A gentile rides up with a pipe and the horse looks in at the window">
-      <div class="cap">A light for his pipe<i>and at once he got down and returned it</i></div></div>
+  <div class="grid">
+    <div class="cell"><img src="h1_b_crop.png" alt="A hooded thief hurries the horse out of the stable at night"></div>
+    <div class="cell"><img src="h2_b_crop.png" alt="A cryptic word flies from the Besht's mouth; both men are astonished"></div>
+    <div class="cell"><img src="h3_b_crop.png" alt="The brother-in-law jeers at him in the street as the townsfolk laugh"></div>
+    <div class="cell"><img src="h4_b_crop.png" alt="The horse's head comes in at the window; it and the Besht beam at each other"></div>
   </div>
-  <div class="src">Shivhei ha-Besht, story 11</div>
 </div>
 </body></html>
