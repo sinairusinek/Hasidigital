@@ -1,0 +1,121 @@
+<!doctype html>
+<html><head><meta charset="utf-8">
+<title>Pipeline roads</title>
+<style>
+  html,body{margin:0;background:#F3EDE1}
+  .slide{width:1600px;height:900px;position:relative;background:#F3EDE1;overflow:hidden;
+         font-family:"Iowan Old Style","Palatino Linotype",Palatino,"Hoefler Text",Georgia,serif;
+         color:#2B251E}
+
+  .kicker{position:absolute;left:72px;top:44px;font-size:18px;letter-spacing:.09em;
+          text-transform:uppercase;color:#B8863A}
+  h1{position:absolute;left:72px;top:68px;margin:0;font-size:44px;font-weight:600;
+     letter-spacing:.005em;color:#17130E}
+  .sub{position:absolute;left:74px;top:130px;font-size:21px;color:#6B5F4E;font-style:italic}
+
+  /* era headings */
+  .era{position:absolute;top:184px;width:340px;text-align:center}
+  .era .n{font-size:14px;letter-spacing:.14em;color:#B8863A}
+  .era .t{font-size:22px;color:#17130E;margin-top:5px;line-height:1.26}
+  .era .d{font-size:15.5px;color:#9A8F7F;margin-top:3px;font-style:italic}
+
+  /* lane label on the left */
+  .lname{position:absolute;left:72px;width:206px;text-align:right;
+         font-size:25px;color:#17130E;line-height:1.2}
+  .lname small{display:block;font-size:15px;color:#9A8F7F;font-style:italic;margin-top:4px}
+
+  /* a stop sits ABOVE its road line */
+  .stop{position:absolute;width:300px;text-align:center}
+  .stop .tool{font-size:20.5px;color:#4A4034;line-height:1.25}
+  .stop .note{font-size:15px;color:#A2947F;margin-top:2px;line-height:1.3}
+  .stop.now .tool{color:#17130E;font-weight:600}
+  .stop.now .note{color:#8A7C68}
+
+  svg{position:absolute;left:0;top:0}
+  .foot{position:absolute;left:74px;top:812px;font-size:20.5px;color:#6B5F4E;
+        font-style:italic;max-width:1460px;line-height:1.45}
+  .foot b{font-style:normal;font-weight:600;color:#2B251E}
+</style></head><body>
+<div class="slide">
+
+  <div class="kicker">1 &middot; Growing up alongside AI</div>
+  <h1>Our project grew up while AI did</h1>
+  <div class="sub">Three steps of one pipeline, each driven down the same three generations of road.</div>
+
+  <div class="era" style="left:295px">
+    <div class="n">FIRST ROAD</div>
+    <div class="t">Hand work on a digital platform</div>
+    <div class="d">the cobbled track</div>
+  </div>
+  <div class="era" style="left:650px">
+    <div class="n">SECOND ROAD</div>
+    <div class="t">Trained machine learning</div>
+    <div class="d">the paved road</div>
+  </div>
+  <div class="era" style="left:1015px">
+    <div class="n">THIRD ROAD</div>
+    <div class="t">LLMs and agents</div>
+    <div class="d">the viaduct</div>
+  </div>
+
+  <svg width="1600" height="900">
+    <defs>
+      <marker id="arw" markerWidth="10" markerHeight="10" refX="7.5" refY="5" orient="auto">
+        <path d="M0,.8 L9.5,5 L0,9.2 z" fill="#B8863A"/>
+      </marker>
+    </defs>
+
+    <!-- Each lane's road grows from a rough cobbled dash, through an even
+         paved dash, to one unbroken span carried on piers: the viaduct. -->
+    <g fill="none" stroke-linecap="round">
+      <!-- LAYOUT  y=386 -->
+      <path d="M292,386 H612"  stroke="#C9BBA3" stroke-width="2.4" stroke-dasharray="2 9"/>
+      <path d="M612,386 H975"  stroke="#BFAF93" stroke-width="3"   stroke-dasharray="16 10"/>
+      <path d="M975,386 H1412" stroke="#B8863A" stroke-width="3.6" marker-end="url(#arw)"/>
+      <!-- TEXT  y=556 -->
+      <path d="M292,556 H612"  stroke="#C9BBA3" stroke-width="2.4" stroke-dasharray="2 9"/>
+      <path d="M612,556 H975"  stroke="#BFAF93" stroke-width="3"   stroke-dasharray="16 10"/>
+      <path d="M975,556 H1412" stroke="#B8863A" stroke-width="3.6" marker-end="url(#arw)"/>
+      <!-- PLACES & PERSONS  y=726 -->
+      <path d="M292,726 H612"  stroke="#C9BBA3" stroke-width="2.4" stroke-dasharray="2 9"/>
+      <path d="M612,726 H975"  stroke="#BFAF93" stroke-width="3"   stroke-dasharray="16 10"/>
+      <path d="M975,726 H1412" stroke="#B8863A" stroke-width="3.6" marker-end="url(#arw)"/>
+    </g>
+
+    <!-- piers: the newest road rides above the old ground -->
+    <g stroke="#DCCFB6" stroke-width="2">
+      <path d="M1060,386 V406 M1160,386 V406 M1260,386 V406"/>
+      <path d="M1060,556 V576 M1160,556 V576 M1260,556 V576"/>
+      <path d="M1060,726 V746 M1160,726 V746 M1260,726 V746"/>
+    </g>
+
+    <!-- milestones where one road generation gives way to the next -->
+    <g fill="#F3EDE1" stroke="#C3B49A" stroke-width="2.2">
+      <circle cx="612" cy="386" r="5.5"/><circle cx="612" cy="556" r="5.5"/><circle cx="612" cy="726" r="5.5"/>
+      <circle cx="975" cy="386" r="5.5"/><circle cx="975" cy="556" r="5.5"/><circle cx="975" cy="726" r="5.5"/>
+    </g>
+  </svg>
+
+  <!-- ===== LAYOUT ===== -->
+  <div class="lname" style="top:358px">Layout<small>finding the lines</small></div>
+  <div class="stop"     style="left:295px;top:320px"><div class="tool">drawing zones by hand</div><div class="note">in Transkribus</div></div>
+  <div class="stop"     style="left:638px;top:320px"><div class="tool">trained layout models</div><div class="note">Transkribus, then Kraken</div></div>
+  <div class="stop now" style="left:1005px;top:314px"><div class="tool">an agent reads the page</div><div class="note">region logic, reading order, flags</div></div>
+
+  <!-- ===== TEXT ===== -->
+  <div class="lname" style="top:528px">Text<small>reading the print</small></div>
+  <div class="stop"     style="left:295px;top:490px"><div class="tool">typing the transcription</div><div class="note">keyboard and proofreading</div></div>
+  <div class="stop now" style="left:638px;top:484px"><div class="tool">HTR models</div><div class="note">Transkribus; Kraken fine-tuned</div></div>
+  <div class="stop"     style="left:1005px;top:490px"><div class="tool">vision models</div><div class="note">tested, on par &mdash; not yet in production</div></div>
+
+  <!-- ===== PLACES & PERSONS ===== -->
+  <div class="lname" style="top:698px">Places &amp; persons<small>naming the world</small></div>
+  <div class="stop"     style="left:295px;top:660px"><div class="tool">reading and listing by hand</div><div class="note">authority files</div></div>
+  <div class="stop"     style="left:638px;top:660px"><div class="tool">DictaBERT</div><div class="note">Hebrew NER, morphology-aware</div></div>
+  <div class="stop now" style="left:1005px;top:654px"><div class="tool">LLM correction &amp; linking</div><div class="note">spans fixed, gazetteer matched</div></div>
+
+  <div class="foot">The old roads still carry traffic: <b>Transkribus still does the HTR, DictaBERT still finds the names.</b>
+  Each new road was built over the last one &mdash; not instead of it.</div>
+
+</div>
+</body></html>
